@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_KEY_MANAGER_CALLBACKS0, IPSEC_KEY_MANAGER_CALLBACKS0 structure [Filtering], fwp.ipsec_key_manager_callbacks0, fwpmu/IPSEC_KEY_MANAGER_CALLBACKS0
 ms.topic: struct
-f1_keywords: 
- - "fwpmu/IPSEC_KEY_MANAGER_CALLBACKS0"
+f1_keywords:
+- fwpmu/IPSEC_KEY_MANAGER_CALLBACKS0
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - fwpmu.h
+- fwpmu.h
 api_name:
- - IPSEC_KEY_MANAGER_CALLBACKS0
+- IPSEC_KEY_MANAGER_CALLBACKS0
 product: Windows
 targetos: Windows
 req.typenames: IPSEC_KEY_MANAGER_CALLBACKS0
@@ -108,7 +108,7 @@ If the <b>IPSEC_KEY_MANAGER_FLAG_DICTATE_KEY</b> flag is set, all three callback
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-_ipsec_key_manager0">IPSEC_KEY_MANAGER0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_key_manager0">IPSEC_KEY_MANAGER0</a>
 
 
 

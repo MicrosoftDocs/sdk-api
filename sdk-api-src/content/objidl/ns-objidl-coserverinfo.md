@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COSERVERINFO, COSERVERINFO structure [COM], _COSERVERINFO, _com_COSERVERINFO, com.coserverinfo, objidlbase/COSERVERINFO
 ms.topic: struct
-f1_keywords: 
- - "objidl/COSERVERINFO"
+f1_keywords:
+- objidl/COSERVERINFO
 req.header: objidl.h
 req.include-header: Objidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - COSERVERINFO
+- COSERVERINFO
 product: Windows
 targetos: Windows
 req.typenames: COSERVERINFO
@@ -71,7 +71,7 @@ The name of the computer.
 
 ### -field pAuthInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ns-wtypesbase-_coauthinfo">COAUTHINFO</a> structure to override the default activation security for machine remote activations. Otherwise, set to <b>NULL</b> to indicate that default values should be used. For more information, see the Remarks section.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthinfo">COAUTHINFO</a> structure to override the default activation security for machine remote activations. Otherwise, set to <b>NULL</b> to indicate that default values should be used. For more information, see the Remarks section.
 
 
 ### -field dwReserved2
@@ -87,7 +87,7 @@ The <b>COSERVERINFO</b> structure is used primarily to identify a remote system 
 
 
 
-If <b>pAuthInfo</b> is set to <b>NULL</b>, <a href="https://docs.microsoft.com/windows/desktop/com/snego">Snego</a> will be used to negotiate an authentication service that will work between the client and server. However, a non-<b>NULL</b><a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ns-wtypesbase-_coauthinfo">COAUTHINFO</a> structure can be specified for <b>pAuthInfo</b> to meet any one of the following needs:
+If <b>pAuthInfo</b> is set to <b>NULL</b>, <a href="https://docs.microsoft.com/windows/desktop/com/snego">Snego</a> will be used to negotiate an authentication service that will work between the client and server. However, a non-<b>NULL</b><a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthinfo">COAUTHINFO</a> structure can be specified for <b>pAuthInfo</b> to meet any one of the following needs:
 
 <ul>
 <li>To specify a different client identity for computer remote activations. The specified identity will be used for the launch permission check on the server rather than the real client identity.
@@ -117,7 +117,7 @@ Starting with Windows XP with Service Pack 2 (SP2), <i>dwAuthnLevel</i> is the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ns-wtypesbase-_coauthinfo">COAUTHINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthinfo">COAUTHINFO</a>
 
 
 

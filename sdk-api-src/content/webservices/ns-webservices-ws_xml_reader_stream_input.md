@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_READER_STREAM_INPUT, WS_XML_READER_STREAM_INPUT structure [Web Services for Windows], webservices/WS_XML_READER_STREAM_INPUT, wsw.ws_xml_reader_stream_input
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_XML_READER_STREAM_INPUT"
+f1_keywords:
+- webservices/WS_XML_READER_STREAM_INPUT
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_READER_STREAM_INPUT
+- WS_XML_READER_STREAM_INPUT
 product: Windows
 targetos: Windows
 req.typenames: WS_XML_READER_STREAM_INPUT
@@ -62,7 +62,7 @@ Specifies that the source of the xml should be obtained from a callback.
 
 ### -field input
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_input">WS_XML_READER_INPUT</a>.
+The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_input">WS_XML_READER_INPUT</a>.
         
 
 

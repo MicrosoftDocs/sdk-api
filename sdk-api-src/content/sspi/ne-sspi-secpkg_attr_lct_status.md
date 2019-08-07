@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: b9067862-2339-4543-a8cd-610e6f921bfd
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSECPKG_ATTR_LCT_STATUS, SECPKG_ATTR_LCT_STATUS, SECPKG_ATTR_LCT_STATUS enumeration [Security], SecPkgAttrLastClientTokenMaybe, SecPkgAttrLastClientTokenNo, SecPkgAttrLastClientTokenYes, security.secpkg_attr_lct_status, sspi/SECPKG_ATTR_LCT_STATUS, sspi/SecPkgAttrLastClientTokenMaybe, sspi/SecPkgAttrLastClientTokenNo, sspi/SecPkgAttrLastClientTokenYes"
+ms.keywords: '*PSECPKG_ATTR_LCT_STATUS, SECPKG_ATTR_LCT_STATUS, SECPKG_ATTR_LCT_STATUS enumeration [Security], SecPkgAttrLastClientTokenMaybe, SecPkgAttrLastClientTokenNo, SecPkgAttrLastClientTokenYes, security.secpkg_attr_lct_status, sspi/SECPKG_ATTR_LCT_STATUS, sspi/SecPkgAttrLastClientTokenMaybe, sspi/SecPkgAttrLastClientTokenNo, sspi/SecPkgAttrLastClientTokenYes'
 ms.topic: enum
-f1_keywords: 
- - "sspi/SECPKG_ATTR_LCT_STATUS"
+f1_keywords:
+- sspi/SECPKG_ATTR_LCT_STATUS
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SECPKG_ATTR_LCT_STATUS
+- SECPKG_ATTR_LCT_STATUS
 product: Windows
 targetos: Windows
 req.typenames: SECPKG_ATTR_LCT_STATUS, *PSECPKG_ATTR_LCT_STATUS
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Indicates whether the  token from the most recent call to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext</a> function is the last token from the client.
 
-This enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_lastclienttokenstatus">SecPkgContext_LastClientTokenStatus</a> structure.
+This enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_lastclienttokenstatus">SecPkgContext_LastClientTokenStatus</a> structure.
 
 
 ## -enum-fields
@@ -81,7 +81,7 @@ It is not known whether the token is the last token from the client.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_lastclienttokenstatus">SecPkgContext_LastClientTokenStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_lastclienttokenstatus">SecPkgContext_LastClientTokenStatus</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InterfaceStatus, InterfaceStatus callback function [RAS], PINTERFACE_STATUS, PINTERFACE_STATUS callback, _mpr_interfacestatus, routprot/InterfaceStatus, rras.interfacestatus
 ms.topic: callback
-f1_keywords: 
- - "routprot/InterfaceStatus"
+f1_keywords:
+- routprot/InterfaceStatus
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Routprot.h
+- Routprot.h
 api_name:
- - InterfaceStatus
+- InterfaceStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -54,7 +54,7 @@ ms.custom: 19H1
 Router manager calls the 
 <b>InterfaceStatus</b> function to change the status of an interface.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_mpr50_routing_characteristics">PINTERFACE_STATUS</a> type defines a pointer to this callback function. <i>InterfaceStatus</i> is a placeholder for the application-defined function name.
+The <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">PINTERFACE_STATUS</a> type defines a pointer to this callback function. <i>InterfaceStatus</i> is a placeholder for the application-defined function name.
 
 
 ## -parameters

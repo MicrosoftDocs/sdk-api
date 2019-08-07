@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpDeclarePush, HttpDeclarePush function [HTTP], http.httpdeclarepush, http/HttpDeclarePush
 ms.topic: function
-f1_keywords: 
- - "http/HttpDeclarePush"
+f1_keywords:
+- http/HttpDeclarePush
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - httpapi.dll
+- httpapi.dll
 api_name:
- - HttpDeclarePush
+- HttpDeclarePush
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -120,11 +120,11 @@ The server application should only use <b>HttpDeclarePush</b> to push resources 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_headers">HTTP_REQUEST_HEADERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_headers">HTTP_REQUEST_HEADERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_verb">HTTP_VERB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_verb">HTTP_VERB</a>
 
 
 

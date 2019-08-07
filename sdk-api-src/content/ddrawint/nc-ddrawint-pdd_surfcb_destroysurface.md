@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdDestroySurface, DdDestroySurface callback function [Display Devices], PDD_SURFCB_DESTROYSURFACE, PDD_SURFCB_DESTROYSURFACE callback, ddfncs_f6029f7a-5729-42d3-8ff6-f5e27994b133.xml, ddrawint/DdDestroySurface, display.dddestroysurface
 ms.topic: callback
-f1_keywords: 
- - "ddrawint/DdDestroySurface"
+f1_keywords:
+- ddrawint/DdDestroySurface
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DdDestroySurface
+- DdDestroySurface
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The <b>DdDestroySurface</b> callback function destroys a DirectDraw surface.
 
 #### - lpDestroySurface
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_destroysurfacedata">DD_DESTROYSURFACEDATA</a> structure that contains the information needed to destroy a surface.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_destroysurfacedata">DD_DESTROYSURFACEDATA</a> structure that contains the information needed to destroy a surface.
 
 
 ## -returns
@@ -88,7 +88,7 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-
 
 If DirectDraw did the memory allocation at surface creation time and the driver was not involved in the allocation, DirectDraw does not call the driver's <b>DdDestroySurface</b> function to destroy the surface. 
 
-If the driver is performing the surface memory management itself, <b>DdDestroySurface</b> should free the surface memory and perform any other cleanup, such as freeing private data stored in the <b>dwReserved1</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_global">DD_SURFACE_GLOBAL</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structures.
+If the driver is performing the surface memory management itself, <b>DdDestroySurface</b> should free the surface memory and perform any other cleanup, such as freeing private data stored in the <b>dwReserved1</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_global">DD_SURFACE_GLOBAL</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structures.
 
 For a driver-managed surface, if the surface is persistent (that is, the DDSCAPS2_DONOTPERSIST flag in the <b>dwCaps2</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure for the surface is not set), <b>DdDestroySurface</b> can be called with the purpose of envicting the surface from video memory. In this case, the display driver can continue to keep any private data in the <b>dwReserved1</b> members until <b>DdDestroySurface</b> is called to actually destroy the surface.
 
@@ -106,7 +106,7 @@ For a driver-managed surface, if the surface is persistent (that is, the DDSCAPS
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_destroysurfacedata">DD_DESTROYSURFACEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_destroysurfacedata">DD_DESTROYSURFACEDATA</a>
 
 
 

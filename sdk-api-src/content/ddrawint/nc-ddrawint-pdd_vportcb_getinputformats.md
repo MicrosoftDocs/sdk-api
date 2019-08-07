@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortGetInputFormats, DdVideoPortGetInputFormats callback function [Display Devices], PDD_VPORTCB_GETINPUTFORMATS, PDD_VPORTCB_GETINPUTFORMATS callback, ddfncs_0dc8b987-a259-4778-8cbc-1fbb7a1169bd.xml, ddrawint/DdVideoPortGetInputFormats, display.ddvideoportgetinputformats
 ms.topic: callback
-f1_keywords: 
- - "ddrawint/DdVideoPortGetInputFormats"
+f1_keywords:
+- ddrawint/DdVideoPortGetInputFormats
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DdVideoPortGetInputFormats
+- DdVideoPortGetInputFormats
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The <b>DdVideoPortGetInputFormats</b> callback function determines the input for
 
 #### - lpGetInputFormats
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getvportinputformatdata">DD_GETVPORTINPUTFORMATDATA</a> structure that contains the information required for the driver to return the input formats the VPE object can accept.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportinputformatdata">DD_GETVPORTINPUTFORMATDATA</a> structure that contains the information required for the driver to return the input formats the VPE object can accept.
 
 
 ## -returns
@@ -114,7 +114,7 @@ If the <b>dwFlags</b> member of the DD_GETVPORTINPUTFORMATDATA structure is set 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getvportinputformatdata">DD_GETVPORTINPUTFORMATDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportinputformatdata">DD_GETVPORTINPUTFORMATDATA</a>
  
 
  

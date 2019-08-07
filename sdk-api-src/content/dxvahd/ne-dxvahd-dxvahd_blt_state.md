@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_BLT_STATE, DXVAHD_BLT_STATE enumeration [Media Foundation], DXVAHD_BLT_STATE_ALPHA_FILL, DXVAHD_BLT_STATE_BACKGROUND_COLOR, DXVAHD_BLT_STATE_CONSTRICTION, DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE, DXVAHD_BLT_STATE_PRIVATE, DXVAHD_BLT_STATE_TARGET_RECT, dxvahd/DXVAHD_BLT_STATE, dxvahd/DXVAHD_BLT_STATE_ALPHA_FILL, dxvahd/DXVAHD_BLT_STATE_BACKGROUND_COLOR, dxvahd/DXVAHD_BLT_STATE_CONSTRICTION, dxvahd/DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE, dxvahd/DXVAHD_BLT_STATE_PRIVATE, dxvahd/DXVAHD_BLT_STATE_TARGET_RECT, mf.dxvahd_blt_state
 ms.topic: enum
-f1_keywords: 
- - "dxvahd/DXVAHD_BLT_STATE"
+f1_keywords:
+- dxvahd/DXVAHD_BLT_STATE
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - DXVAHD_BLT_STATE
+- DXVAHD_BLT_STATE
 product: Windows
 targetos: Windows
 req.typenames: DXVAHD_BLT_STATE
@@ -63,7 +63,7 @@ To set a state parameter, call the <a href="https://docs.microsoft.com/windows/d
 
 ### -field DXVAHD_BLT_STATE_TARGET_RECT
 
-Specifies the target rectangle, which is the area within the destination surface where the output will be drawn. The state data is a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_blt_state_target_rect_data">DXVAHD_BLT_STATE_TARGET_RECT_DATA</a> structure.
+Specifies the target rectangle, which is the area within the destination surface where the output will be drawn. The state data is a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_target_rect_data">DXVAHD_BLT_STATE_TARGET_RECT_DATA</a> structure.
 
 
 ### -field DXVAHD_BLT_STATE_BACKGROUND_COLOR
@@ -78,17 +78,17 @@ Specifies the output color space.  The state data is a <a href="https://docs.mic
 
 ### -field DXVAHD_BLT_STATE_ALPHA_FILL
 
-Specifies how DXVA-HD device calculates output alpha values.  The state data is a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_blt_state_alpha_fill_data">DXVAHD_BLT_STATE_ALPHA_FILL_DATA</a> structure.
+Specifies how DXVA-HD device calculates output alpha values.  The state data is a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_alpha_fill_data">DXVAHD_BLT_STATE_ALPHA_FILL_DATA</a> structure.
 
 
 ### -field DXVAHD_BLT_STATE_CONSTRICTION
 
-Specifies the amount of downsampling to perform on the output.  The state data is a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_blt_state_constriction_data">DXVAHD_BLT_STATE_CONSTRICTION_DATA</a> structure.
+Specifies the amount of downsampling to perform on the output.  The state data is a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_constriction_data">DXVAHD_BLT_STATE_CONSTRICTION_DATA</a> structure.
 
 
 ### -field DXVAHD_BLT_STATE_PRIVATE
 
-Specifies that the state data contains a private DXVA-HD blit state.  Use this state for proprietary or device-specific parameters. The state data is a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_blt_state_private_data">DXVAHD_BLT_STATE_PRIVATE_DATA</a>  structure.
+Specifies that the state data contains a private DXVA-HD blit state.  Use this state for proprietary or device-specific parameters. The state data is a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_private_data">DXVAHD_BLT_STATE_PRIVATE_DATA</a>  structure.
 
 
 ## -see-also

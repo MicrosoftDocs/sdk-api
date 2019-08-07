@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1db3dbef-41bf-4b00-8e6c-07c7c414e595, AddStroke, AddStroke function [Tablet PC], recapis/AddStroke, tablet.addstroke
 ms.topic: function
-f1_keywords: 
- - "recapis/AddStroke"
+f1_keywords:
+- recapis/AddStroke
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - AddStroke
+- AddStroke
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -203,7 +203,7 @@ Strokes with zero points are not allowed. You should return E_FAIL in such a cas
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-_packet_description">PACKET_DESCRIPTION Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_description">PACKET_DESCRIPTION Structure</a>
  
 
  

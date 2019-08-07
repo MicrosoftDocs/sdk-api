@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenThreadToken, OpenThreadToken function [Security], _win32_openthreadtoken, processthreadsapi/OpenThreadToken, security.openthreadtoken
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/OpenThreadToken"
+f1_keywords:
+- processthreadsapi/OpenThreadToken
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,24 +30,24 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Processsecurity-l1-1-0.dll
- - Kernel32.dll
- - KernelBase.dll
- - API-MS-Win-Core-Processthreads-l1-1-0.dll
- - API-MS-Win-Core-Processthreads-l1-1-1.dll
- - API-MS-Win-Core-Processthreads-l1-1-2.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Advapi32.dll
+- API-MS-Win-Core-Processsecurity-l1-1-0.dll
+- Kernel32.dll
+- KernelBase.dll
+- API-MS-Win-Core-Processthreads-l1-1-0.dll
+- API-MS-Win-Core-Processthreads-l1-1-1.dll
+- API-MS-Win-Core-Processthreads-l1-1-2.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - OpenThreadToken
+- OpenThreadToken
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -164,7 +164,7 @@ Close the access token handle returned through the <i>TokenHandle</i> parameter 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 

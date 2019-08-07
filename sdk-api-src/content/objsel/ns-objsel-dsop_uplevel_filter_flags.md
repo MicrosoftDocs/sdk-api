@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DSOP_FILTER_BUILTIN_GROUPS, DSOP_FILTER_COMPUTERS, DSOP_FILTER_CONTACTS, DSOP_FILTER_DOMAIN_LOCAL_GROUPS_DL, DSOP_FILTER_DOMAIN_LOCAL_GROUPS_SE, DSOP_FILTER_GLOBAL_GROUPS_DL, DSOP_FILTER_GLOBAL_GROUPS_SE, DSOP_FILTER_INCLUDE_ADVANCED_VIEW, DSOP_FILTER_PASSWORDSETTINGS_OBJECTS, DSOP_FILTER_SERVICE_ACCOUNTS, DSOP_FILTER_UNIVERSAL_GROUPS_DL, DSOP_FILTER_UNIVERSAL_GROUPS_SE, DSOP_FILTER_USERS, DSOP_FILTER_WELL_KNOWN_PRINCIPALS, DSOP_UPLEVEL_FILTER_FLAGS, DSOP_UPLEVEL_FILTER_FLAGS structure [Active Directory], _glines_dsop_uplevel_filter_flags, ad.dsop__uplevel__filter__flags, ad.dsop_uplevel_filter_flags, objsel/DSOP_UPLEVEL_FILTER_FLAGS
 ms.topic: struct
-f1_keywords: 
- - "objsel/DSOP_UPLEVEL_FILTER_FLAGS"
+f1_keywords:
+- objsel/DSOP_UPLEVEL_FILTER_FLAGS
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Objsel.h
+- Objsel.h
 api_name:
- - DSOP_UPLEVEL_FILTER_FLAGS
+- DSOP_UPLEVEL_FILTER_FLAGS
 product: Windows
 targetos: Windows
 req.typenames: DSOP_UPLEVEL_FILTER_FLAGS
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>DSOP_UPLEVEL_FILTER_FLAGS</b> structure contains flags that indicate the filters to use for an up-level scope. An up-level scope is a scope that supports the ADSI LDAP provider. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-ldap-provider">ADSI LDAP Provider</a>. This structure is contained in the <a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_filter_flags">DSOP_FILTER_FLAGS</a> structure when calling <a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-ldap-provider">ADSI LDAP Provider</a>. This structure is contained in the <a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_filter_flags">DSOP_FILTER_FLAGS</a> structure when calling <a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a>.
 
 
 ## -struct-fields
@@ -179,7 +179,7 @@ For more information about group types and scope, see <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_filter_flags">DSOP_FILTER_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_filter_flags">DSOP_FILTER_FLAGS</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrRetToStr, StrRetToStr function [Windows Shell], StrRetToStrA, StrRetToStrW, _win32_StrRetToStr, shell.StrRetToStr, shlwapi/StrRetToStr, shlwapi/StrRetToStrA, shlwapi/StrRetToStrW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/StrRetToStr"
+f1_keywords:
+- shlwapi/StrRetToStr
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+- Shlwapi.dll
+- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - StrRetToStr
- - StrRetToStrA
- - StrRetToStrW
+- StrRetToStr
+- StrRetToStrA
+- StrRetToStrW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-Takes an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_strret">STRRET</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> and returns a pointer to an allocated string containing the display name.
+Takes an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> and returns a pointer to an allocated string containing the display name.
 
 
 ## -parameters
@@ -64,9 +64,9 @@ Takes an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shty
 
 ### -param pstr [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_strret">STRRET</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_strret">STRRET</a> structure. When the function returns, this pointer will no longer be valid.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure. When the function returns, this pointer will no longer be valid.
 
 
 ### -param pidl [in, optional]

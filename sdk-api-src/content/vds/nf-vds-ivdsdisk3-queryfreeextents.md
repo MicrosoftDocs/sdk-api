@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsDisk3 interface,QueryFreeExtents method, IVdsDisk3.QueryFreeExtents, IVdsDisk3::QueryFreeExtents, QueryFreeExtents, QueryFreeExtents method, QueryFreeExtents method,IVdsDisk3 interface, base.ivdsdisk3_queryfreeextents, vds/IVdsDisk3::QueryFreeExtents
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsDisk3.QueryFreeExtents"
+f1_keywords:
+- vds/IVdsDisk3.QueryFreeExtents
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - IVdsDisk3.QueryFreeExtents
+- IVdsDisk3.QueryFreeExtents
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,14 +73,14 @@ If this registry key is not set, the default alignment is 1 MB if the disk is 4 
 ### -param ppFreeExtentArray [out]
 
 The address of a pointer variable that receives an  
-      array of <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_free_extent">VDS_DISK_FREE_EXTENT</a> structures, one for each free extent. 
+      array of <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_free_extent">VDS_DISK_FREE_EXTENT</a> structures, one for each free extent. 
       Callers must free this array by using the 
       <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function. If there are no free extents, the pointer is set to <b>NULL</b> on output and does not need to be freed.
 
 
 ### -param plNumberOfFreeExtents [out]
 
-A pointer to a variable  that receives the total number of <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_free_extent">VDS_DISK_FREE_EXTENT</a> structures. If there are no free extents, the pointer is set to <b>NULL</b> on output and does not need to be freed.
+A pointer to a variable  that receives the total number of <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_free_extent">VDS_DISK_FREE_EXTENT</a> structures. If there are no free extents, the pointer is set to <b>NULL</b> on output and does not need to be freed.
 
 
 ## -returns

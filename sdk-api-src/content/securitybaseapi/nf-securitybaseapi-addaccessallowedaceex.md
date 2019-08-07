@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddAccessAllowedAceEx, AddAccessAllowedAceEx function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, _win32_addaccessallowedaceex, security.addaccessallowedaceex, securitybaseapi/AddAccessAllowedAceEx
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/AddAccessAllowedAceEx"
+f1_keywords:
+- securitybaseapi/AddAccessAllowedAceEx
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - AddAccessAllowedAceEx
+- AddAccessAllowedAceEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ The <b>AddAccessAllowedAceEx</b> function adds an access-allowed <a href="https:
 ### -param pAcl [in, out]
 
 A pointer to a DACL. The <b>AddAccessAllowedAceEx</b> function adds an access-allowed ACE to the end of this DACL. The ACE is in the form of an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_allowed_ace">ACCESS_ALLOWED_ACE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a> structure.
 
 
 ### -param dwAceRevision [in]
@@ -80,7 +80,7 @@ Specifies the revision level of the DACL being modified. This value can be ACL_R
 ### -param AceFlags [in]
 
 A set of bit flags that control ACE inheritance. The function sets these flags in the <b>AceFlags</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure of the new ACE. This parameter can be a combination of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure of the new ACE. This parameter can be a combination of the following values.
 
 <table>
 <tr>
@@ -254,7 +254,7 @@ The caller must ensure that ACEs are added to the DACL in the correct order. For
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_allowed_ace">ACCESS_ALLOWED_ACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>
 
 
 
@@ -262,7 +262,7 @@ The caller must ensure that ACEs are added to the DACL in the correct order. For
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>
 
 
 

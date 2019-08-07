@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 6b475622-371d-4097-9de1-6ef31af76322
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCREATE_DISK_MBR, CREATE_DISK_MBR, CREATE_DISK_MBR structure [Files], PCREATE_DISK_MBR, PCREATE_DISK_MBR structure pointer [Files], _win32_create_disk_mbr_str, base.create_disk_mbr_str, fs.create_disk_mbr_str, winioctl/CREATE_DISK_MBR, winioctl/PCREATE_DISK_MBR"
+ms.keywords: '*PCREATE_DISK_MBR, CREATE_DISK_MBR, CREATE_DISK_MBR structure [Files], PCREATE_DISK_MBR, PCREATE_DISK_MBR structure pointer [Files], _win32_create_disk_mbr_str, base.create_disk_mbr_str, fs.create_disk_mbr_str, winioctl/CREATE_DISK_MBR, winioctl/PCREATE_DISK_MBR'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/CREATE_DISK_MBR"
+f1_keywords:
+- winioctl/CREATE_DISK_MBR
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - CREATE_DISK_MBR
+- CREATE_DISK_MBR
 product: Windows
 targetos: Windows
 req.typenames: CREATE_DISK_MBR, *PCREATE_DISK_MBR
@@ -71,7 +71,7 @@ The disk signature of the MBR disk to be initialized.
 
 The 
 <b>CREATE_DISK_MBR</b> structure is part of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_create_disk">CREATE_DISK</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk">CREATE_DISK</a> structure.
 
 
 
@@ -81,11 +81,11 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_create_disk">CREATE_DISK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk">CREATE_DISK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_create_disk_gpt">CREATE_DISK_GPT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk_gpt">CREATE_DISK_GPT</a>
 
 
 

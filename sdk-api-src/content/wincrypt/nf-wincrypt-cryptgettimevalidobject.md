@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_ACCUMULATIVE_TIMEOUT, CRYPT_CACHE_ONLY_RETRIEVAL, CRYPT_CHECK_FRESHNESS_TIME_VALIDITY, CRYPT_DONT_CHECK_TIME_VALIDITY, CRYPT_DONT_VERIFY_SIGNATURE, CRYPT_KEEP_TIME_VALID, CRYPT_OCSP_ONLY_RETRIEVAL, CRYPT_WIRE_ONLY_RETRIEVAL, CryptGetTimeValidObject, CryptGetTimeValidObject function [Security], TIME_VALID_OID_GET_CRL, TIME_VALID_OID_GET_CRL_FROM_CERT, TIME_VALID_OID_GET_CTL, TIME_VALID_OID_GET_FRESHEST_CRL_FROM_CERT, TIME_VALID_OID_GET_FRESHEST_CRL_FROM_CRL, security.cryptgettimevalidobject, wincrypt/CryptGetTimeValidObject
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptGetTimeValidObject"
+f1_keywords:
+- wincrypt/CryptGetTimeValidObject
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Cryptnet.lib
 req.dll: Cryptnet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cryptnet.dll
+- Cryptnet.dll
 api_name:
- - CryptGetTimeValidObject
+- CryptGetTimeValidObject
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,7 +82,7 @@ This parameter can be one of the following values. For information about how the
 <td width="60%">
 Provides a certificate trust list (CTL) based on a URL obtained from the <b>NextUpdateLocation</b> property or extension of the current CTL context.
 
-For the pvPara parameter: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">PCCTL_CONTEXT</a> that represents the current certificate trust list.
+For the pvPara parameter: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">PCCTL_CONTEXT</a> that represents the current certificate trust list.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ This value is reserved for future use.
 <td width="60%">
 Provides a CRL based on information obtained from the CRL distribution points extension of the current certificate context.
 
-For the pvPara parameter: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">PCCERT_CONTEXT</a> that represents the subject certificate.
+For the pvPara parameter: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a> that represents the subject certificate.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ For the pvPara parameter: A pointer to a <a href="https://docs.microsoft.com/win
 <td width="60%">
 Provides a delta CRL based on information obtained from the freshest CRL extension of the current certificate context.
 
-For the pvPara parameter: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">PCCERT_CONTEXT</a> that represents the subject certificate.
+For the pvPara parameter: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a> that represents the subject certificate.
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ For the pvPara parameter: A pointer to a <a href="https://docs.microsoft.com/win
 <td width="60%">
 Provides a delta CRL based on information obtained from the freshest CRL extension of the current CRL context.
 
-For the pvPara parameter: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_crl_context_pair">PCCERT_CRL_CONTEXT_PAIR</a> that represents the subject certificate and its base CRL.
+For the pvPara parameter: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_crl_context_pair">PCCERT_CRL_CONTEXT_PAIR</a> that represents the subject certificate and its base CRL.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ A structure determined by the value of <i>pszTimeValidOid</i>. For details, see 
 
 ### -param pIssuer [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> containing the issuer's certificate.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> containing the issuer's certificate.
 
 
 ### -param pftValidFor [in, optional]
@@ -272,7 +272,7 @@ A pointer to an address for the returned object. The return type can be one of t
 
 ### -param pCredentials [in, optional]
 
-A pointer to an optional <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_credentials">CRYPT_CREDENTIALS</a> structure used to access the URL. The only type of credentials currently supported are user name and password credentials.
+A pointer to an optional <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_credentials">CRYPT_CREDENTIALS</a> structure used to access the URL. The only type of credentials currently supported are user name and password credentials.
 
 
 ### -param pExtraInfo [in, out, optional]

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, SetServiceObjectSecurity, SetServiceObjectSecurity function [Security], _win32_setserviceobjectsecurity, security.setserviceobjectsecurity, winsvc/SetServiceObjectSecurity
 ms.topic: function
-f1_keywords: 
- - "winsvc/SetServiceObjectSecurity"
+f1_keywords:
+- winsvc/SetServiceObjectSecurity
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - sechost.dll
- - API-MS-Win-Service-management-l2-1-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- sechost.dll
+- API-MS-Win-Service-management-l2-1-0.dll
 api_name:
- - SetServiceObjectSecurity
+- SetServiceObjectSecurity
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -140,7 +140,7 @@ Sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">sys
 ### -param lpSecurityDescriptor [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains the new security information.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains the new security information.
 
 
 ## -returns
@@ -249,7 +249,7 @@ Note that granting certain access to untrusted users (such as SERVICE_CHANGE_CON
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
  
 
  

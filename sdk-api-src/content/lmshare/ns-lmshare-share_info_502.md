@@ -8,10 +8,10 @@ tech.root: NetShare
 ms.assetid: 306e6704-2068-42da-bcc4-c0772c719ee8
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSHARE_INFO_502, *PSHARE_INFO_502, ACCESS_ALL, ACCESS_ATRIB, ACCESS_CREATE, ACCESS_DELETE, ACCESS_EXEC, ACCESS_PERM, ACCESS_READ, ACCESS_WRITE, LPSHARE_INFO_502, LPSHARE_INFO_502 structure pointer [Files], PSHARE_INFO_502, PSHARE_INFO_502 structure pointer [Files], SHARE_INFO_502, SHARE_INFO_502 structure [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _win32_share_info_502_str, fs.share_info_502_str, lmshare/LPSHARE_INFO_502, lmshare/PSHARE_INFO_502, lmshare/SHARE_INFO_502, netmgmt.share_info_502_str"
+ms.keywords: '*LPSHARE_INFO_502, *PSHARE_INFO_502, ACCESS_ALL, ACCESS_ATRIB, ACCESS_CREATE, ACCESS_DELETE, ACCESS_EXEC, ACCESS_PERM, ACCESS_READ, ACCESS_WRITE, LPSHARE_INFO_502, LPSHARE_INFO_502 structure pointer [Files], PSHARE_INFO_502, PSHARE_INFO_502 structure pointer [Files], SHARE_INFO_502, SHARE_INFO_502 structure [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _win32_share_info_502_str, fs.share_info_502_str, lmshare/LPSHARE_INFO_502, lmshare/PSHARE_INFO_502, lmshare/SHARE_INFO_502, netmgmt.share_info_502_str'
 ms.topic: struct
-f1_keywords: 
- - "lmshare/SHARE_INFO_502"
+f1_keywords:
+- lmshare/SHARE_INFO_502
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmshare.h
+- Lmshare.h
 api_name:
- - SHARE_INFO_502
+- SHARE_INFO_502
 product: Windows
 targetos: Windows
 req.typenames: SHARE_INFO_502, *PSHARE_INFO_502, *LPSHARE_INFO_502
@@ -293,7 +293,7 @@ Reserved; must be zero. Calls to the
 ### -field shi502_security_descriptor
 
 Specifies the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> associated with this share.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> associated with this share.
 
 
 ## -see-also

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, RtlUnicodeStringToAnsiString, RtlUnicodeStringToAnsiString function [Windows API], TRUE, winprog.rtlunicodestringtoansistring, winternl/RtlUnicodeStringToAnsiString, winui.rtlunicodestringtoansistring
 ms.topic: function
-f1_keywords: 
- - "winternl/RtlUnicodeStringToAnsiString"
+f1_keywords:
+- winternl/RtlUnicodeStringToAnsiString
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: NtosKrnl.lib
 req.dll: Ntdll.dll; NtosKrnl.exe
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
- - NtosKrnl.exe
+- Ntdll.dll
+- NtosKrnl.exe
 api_name:
- - RtlUnicodeStringToAnsiString
+- RtlUnicodeStringToAnsiString
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ A pointer to an <b>ANSI_STRING</b> structure to hold the converted ANSI string. 
 
 ### -param SourceString [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that contains the source string to be converted to ANSI.
+The <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that contains the source string to be converted to ANSI.
 
 
 ### -param AllocateDestinationString [in]

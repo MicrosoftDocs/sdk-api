@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 12e12f83-c36a-4b4e-8890-50566cf00c2b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_LOGGING_INFO, *PHTTP_LOGGING_INFO structure [HTTP], HTTP_LOGGING_FLAG_LOCAL_TIME_ROLLOVER, HTTP_LOGGING_FLAG_LOG_ERRORS_ONLY, HTTP_LOGGING_FLAG_LOG_SUCCESS_ONLY, HTTP_LOGGING_FLAG_USE_UTF8_CONVERSION, HTTP_LOGGING_INFO, HTTP_LOGGING_INFO structure [HTTP], HttpLoggingRolloverDaily, HttpLoggingRolloverHourly, HttpLoggingRolloverMonthly, HttpLoggingRolloverSize, HttpLoggingRolloverWeekly, HttpLoggingTypeIIS, HttpLoggingTypeNCSA, HttpLoggingTypeRaw, HttpLoggingTypeW3C, http.http_logging_info, http/*PHTTP_LOGGING_INFO, http/HTTP_LOGGING_INFO"
+ms.keywords: '*PHTTP_LOGGING_INFO, *PHTTP_LOGGING_INFO structure [HTTP], HTTP_LOGGING_FLAG_LOCAL_TIME_ROLLOVER, HTTP_LOGGING_FLAG_LOG_ERRORS_ONLY, HTTP_LOGGING_FLAG_LOG_SUCCESS_ONLY, HTTP_LOGGING_FLAG_USE_UTF8_CONVERSION, HTTP_LOGGING_INFO, HTTP_LOGGING_INFO structure [HTTP], HttpLoggingRolloverDaily, HttpLoggingRolloverHourly, HttpLoggingRolloverMonthly, HttpLoggingRolloverSize, HttpLoggingRolloverWeekly, HttpLoggingTypeIIS, HttpLoggingTypeNCSA, HttpLoggingTypeRaw, HttpLoggingTypeW3C, http.http_logging_info, http/*PHTTP_LOGGING_INFO, http/HTTP_LOGGING_INFO'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_LOGGING_INFO"
+f1_keywords:
+- http/HTTP_LOGGING_INFO
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_LOGGING_INFO
+- HTTP_LOGGING_INFO
 product: Windows
 targetos: Windows
 req.typenames: HTTP_LOGGING_INFO, *PHTTP_LOGGING_INFO
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>HTTP_LOGGING_INFO</b> structure is used to enable server side logging on a URL Group or on a server session.
 
-This structure must be used when setting or querying  the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HttpServerLoggingProperty</a> on a URL Group or server session.
+This structure must be used when setting or querying  the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HttpServerLoggingProperty</a> on a URL Group or server session.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ This structure must be used when setting or querying  the <a href="https://docs.
 
 ### -field Flags
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_property_flags">HTTP_PROPERTY_FLAGS</a> structure that specifies whether the property is present.
+The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_property_flags">HTTP_PROPERTY_FLAGS</a> structure that specifies whether the property is present.
 
 
 ### -field LoggingFlags
@@ -226,7 +226,7 @@ Reserved. Set to 0 (zero) or <b>NULL</b>.
 
 ### -field RolloverType
 
-One of the following members of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_logging_rollover_type">HTTP_LOGGING_ROLLOVER_TYPE</a> enumeration specifying the criteria for log file rollover.
+One of the following members of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_logging_rollover_type">HTTP_LOGGING_ROLLOVER_TYPE</a> enumeration specifying the criteria for log file rollover.
 
 <table>
 <tr>
@@ -305,7 +305,7 @@ The security descriptor that is applied to the log files directory and all sub-d
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HttpServerLoggingProperty</a> property sets one of four types of server side logging: HttpLoggingTypeW3C, HttpLoggingTypeIIS, HttpLoggingTypeNCSA, or HttpLoggingTypeRaw. When this property is set on a server session it functions as centralized form of logging for all of the URL groups under that server session. Requests that are routed to one of the URL groups under the server session are logged in one centralized log file. The configuration parameters for the log file are passed in the  <b>HTTP_LOGGING_INFO</b> structure in the call to   <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserversessionproperty">HttpSetServerSessionProperty</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HttpServerLoggingProperty</a> property sets one of four types of server side logging: HttpLoggingTypeW3C, HttpLoggingTypeIIS, HttpLoggingTypeNCSA, or HttpLoggingTypeRaw. When this property is set on a server session it functions as centralized form of logging for all of the URL groups under that server session. Requests that are routed to one of the URL groups under the server session are logged in one centralized log file. The configuration parameters for the log file are passed in the  <b>HTTP_LOGGING_INFO</b> structure in the call to   <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserversessionproperty">HttpSetServerSessionProperty</a>.
 
 When this property is set on a URL Group, logging is performed only on  requests that are routed to the URL Group. 
 Log files are created when the request arrives on the URL Group or server session, they are not created when logging is configured.
@@ -430,7 +430,7 @@ For information on the log file formats, see the <a href="Http://go.microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_logging_rollover_type">HTTP_LOGGING_ROLLOVER_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_logging_rollover_type">HTTP_LOGGING_ROLLOVER_TYPE</a>
 
 
 
@@ -442,7 +442,7 @@ For information on the log file formats, see the <a href="Http://go.microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HTTP_SERVER_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HTTP_SERVER_PROPERTY</a>
 
 
 

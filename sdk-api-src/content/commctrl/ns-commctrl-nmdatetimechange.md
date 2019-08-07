@@ -8,10 +8,10 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimechange.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPNMDATETIMECHANGE, GDT_NONE, GDT_VALID, LPNMDATETIMECHANGE, LPNMDATETIMECHANGE structure pointer [Windows Controls], NMDATETIMECHANGE, NMDATETIMECHANGE structure [Windows Controls], _win32_NMDATETIMECHANGE, _win32_NMDATETIMECHANGE_cpp, commctrl/LPNMDATETIMECHANGE, commctrl/NMDATETIMECHANGE, controls.NMDATETIMECHANGE, controls._win32_NMDATETIMECHANGE"
+ms.keywords: '*LPNMDATETIMECHANGE, GDT_NONE, GDT_VALID, LPNMDATETIMECHANGE, LPNMDATETIMECHANGE structure pointer [Windows Controls], NMDATETIMECHANGE, NMDATETIMECHANGE structure [Windows Controls], _win32_NMDATETIMECHANGE, _win32_NMDATETIMECHANGE_cpp, commctrl/LPNMDATETIMECHANGE, commctrl/NMDATETIMECHANGE, controls.NMDATETIMECHANGE, controls._win32_NMDATETIMECHANGE'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/NMDATETIMECHANGE"
+f1_keywords:
+- commctrl/NMDATETIMECHANGE
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - NMDATETIMECHANGE
+- NMDATETIMECHANGE
 product: Windows
 targetos: Windows
 req.typenames: NMDATETIMECHANGE, *LPNMDATETIMECHANGE
@@ -61,9 +61,9 @@ Contains information about a change that has taken place in a date and time pick
 
 ### -field nmhdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains information about the notification code. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification code. 
 
 
 ### -field dwFlags

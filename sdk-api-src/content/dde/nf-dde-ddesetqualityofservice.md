@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdeSetQualityOfService, DdeSetQualityOfService function [Data Exchange], _win32_DdeSetQualityOfService, _win32_ddesetqualityofservice_cpp, dataxchg.ddesetqualityofservice, dde/DdeSetQualityOfService, winui._win32_ddesetqualityofservice
 ms.topic: function
-f1_keywords: 
- - "dde/DdeSetQualityOfService"
+f1_keywords:
+- dde/DdeSetQualityOfService
 req.header: dde.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - DdeSetQualityOfService
+- DdeSetQualityOfService
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,9 +68,9 @@ A handle to the DDE client window that specifies the source of <a href="https://
 
 ### -param pqosNew [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_quality_of_service">SECURITY_QUALITY_OF_SERVICE</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_quality_of_service">SECURITY_QUALITY_OF_SERVICE</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_quality_of_service">SECURITY_QUALITY_OF_SERVICE</a> structure for the desired quality of service values. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_quality_of_service">SECURITY_QUALITY_OF_SERVICE</a> structure for the desired quality of service values. 
 
 
 ### -param pqosPrev [out]
@@ -78,7 +78,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-
 Type: <b>PSECURITY_QUALITY_OF_SERVICE</b>
 
 A pointer to a 
-					<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_quality_of_service">SECURITY_QUALITY_OF_SERVICE</a> structure that receives the previous quality of service values associated with the window identified by 
+					<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_quality_of_service">SECURITY_QUALITY_OF_SERVICE</a> structure that receives the previous quality of service values associated with the window identified by 
 					<i>hwndClient</i>. 
 
 This parameter is optional. If an application has no interest in 
@@ -145,7 +145,7 @@ Use the <b>DdeSetQualityOfService</b> function to associate a different quality 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_quality_of_service">SECURITY_QUALITY_OF_SERVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_quality_of_service">SECURITY_QUALITY_OF_SERVICE</a>
 
 
 

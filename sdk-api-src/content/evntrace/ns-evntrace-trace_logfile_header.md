@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: 13fdabe6-c904-4546-b876-c145f6a6c345
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTRACE_LOGFILE_HEADER, PTRACE_LOGFILE_HEADER, PTRACE_LOGFILE_HEADER structure pointer [ETW], TRACE_LOGFILE_HEADER, TRACE_LOGFILE_HEADER structure [ETW], _TRACE_LOGFILE_HEADER, _evt_trace_logfile_header, base.trace_logfile_header, etw.trace_logfile_header, evntrace/PTRACE_LOGFILE_HEADER, evntrace/TRACE_LOGFILE_HEADER"
+ms.keywords: '*PTRACE_LOGFILE_HEADER, PTRACE_LOGFILE_HEADER, PTRACE_LOGFILE_HEADER structure pointer [ETW], TRACE_LOGFILE_HEADER, TRACE_LOGFILE_HEADER structure [ETW], _TRACE_LOGFILE_HEADER, _evt_trace_logfile_header, base.trace_logfile_header, etw.trace_logfile_header, evntrace/PTRACE_LOGFILE_HEADER, evntrace/TRACE_LOGFILE_HEADER'
 ms.topic: struct
-f1_keywords: 
- - "evntrace/TRACE_LOGFILE_HEADER"
+f1_keywords:
+- evntrace/TRACE_LOGFILE_HEADER
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evntrace.h
+- Evntrace.h
 api_name:
- - TRACE_LOGFILE_HEADER
+- TRACE_LOGFILE_HEADER
 product: Windows
 targetos: Windows
 req.typenames: TRACE_LOGFILE_HEADER, *PTRACE_LOGFILE_HEADER
@@ -192,7 +192,7 @@ The name of the event tracing log file is the second null-terminated string foll
 ### -field TimeZone
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information">TIME_ZONE_INFORMATION</a> structure that contains the time zone for the <b>BootTime</b>, <b>EndTime</b> and <b>StartTime</b> members.
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-time_zone_information">TIME_ZONE_INFORMATION</a> structure that contains the time zone for the <b>BootTime</b>, <b>EndTime</b> and <b>StartTime</b> members.
 
 
 ### -field BootTime
@@ -244,7 +244,7 @@ The first event from any log file contains the data defined in this structure. Y
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information">TIME_ZONE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-time_zone_information">TIME_ZONE_INFORMATION</a>
  
 
  

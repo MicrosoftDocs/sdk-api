@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CHANGE_PARTITION_TYPE_PARAMETERS, CHANGE_PARTITION_TYPE_PARAMETERS structure, PCHANGE_PARTITION_TYPE_PARAMETERS, PCHANGE_PARTITION_TYPE_PARAMETERS structure pointer, base.change_partition_type_parameters, vds/CHANGE_PARTITION_TYPE_PARAMETERS, vds/PCHANGE_PARTITION_TYPE_PARAMETERS
 ms.topic: struct
-f1_keywords: 
- - "vds/CHANGE_PARTITION_TYPE_PARAMETERS"
+f1_keywords:
+- vds/CHANGE_PARTITION_TYPE_PARAMETERS
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - CHANGE_PARTITION_TYPE_PARAMETERS
+- CHANGE_PARTITION_TYPE_PARAMETERS
 product: Windows
 targetos: Windows
 req.typenames: CHANGE_PARTITION_TYPE_PARAMETERS
@@ -63,7 +63,7 @@ Describes parameters to be used when changing a partition's type.
 
 ### -field style
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_partition_style">VDS_PARTITION_STYLE</a> enumeration that describes the disk's partition style.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_partition_style">VDS_PARTITION_STYLE</a> enumeration that describes the disk's partition style.
 
 
 ### -field MbrPartInfo
@@ -92,7 +92,7 @@ Contains information for a GUID Partitioning Table partition.
 
 
 
-For information about partition types, see <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_create_partition_parameters">CREATE_PARTITION_PARAMETERS</a>.
+For information about partition types, see <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-create_partition_parameters">CREATE_PARTITION_PARAMETERS</a>.
 
 
 

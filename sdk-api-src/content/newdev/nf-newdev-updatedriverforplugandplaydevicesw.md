@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UpdateDriverForPlugAndPlayDevices, UpdateDriverForPlugAndPlayDevices function [Device and Driver Installation], UpdateDriverForPlugAndPlayDevicesA, UpdateDriverForPlugAndPlayDevicesW, devinst.updatedriverforplugandplaydevices, di-rtns_a9a559d4-7b81-4bd7-b6a7-f493787a3657.xml, newdev/UpdateDriverForPlugAndPlayDevices
 ms.topic: function
-f1_keywords: 
- - "newdev/UpdateDriverForPlugAndPlayDevices"
+f1_keywords:
+- newdev/UpdateDriverForPlugAndPlayDevices
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop
@@ -30,15 +30,15 @@ req.lib: Newdev.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Newdev.lib
- - Newdev.dll
+- Newdev.lib
+- Newdev.dll
 api_name:
- - UpdateDriverForPlugAndPlayDevices
+- UpdateDriverForPlugAndPlayDevices
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -219,7 +219,7 @@ The default behavior is to only install the specified drivers if they are better
 
 <b>UpdateDriverForPlugAndPlayDevices</b> can also be used to determine whether the device with the specified <i>HardwareId</i> value is plugged in. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/writing-a-device-installation-application">Writing a Device Installation Application</a>.
 
-<b>UpdateDriverForPlugAndPlayDevices</b> sends an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-remove-device">IRP_MN_QUERY_REMOVE_DEVICE</a> request to the specified device, all the children of the device, and all other devices that are recursively part of the removal relations for the device. If any of these devices fail a query remove request, <b>UpdateDriverForPlugAndPlayDevices</b> sets the DI_NEEDREBOOT flag in the <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> structure for the device. For information about removal relations, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-device-relations">IRP_MN_QUERY_DEVICE_RELATIONS</a> request.
+<b>UpdateDriverForPlugAndPlayDevices</b> sends an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-remove-device">IRP_MN_QUERY_REMOVE_DEVICE</a> request to the specified device, all the children of the device, and all other devices that are recursively part of the removal relations for the device. If any of these devices fail a query remove request, <b>UpdateDriverForPlugAndPlayDevices</b> sets the DI_NEEDREBOOT flag in the <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> structure for the device. For information about removal relations, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-device-relations">IRP_MN_QUERY_DEVICE_RELATIONS</a> request.
 
 Generally, <a href="https://docs.microsoft.com/windows-hardware/drivers/">device installation applications</a> should supply <b>NULL</b> for <i>bRebootRequired</i>. So, the system will initiate a restart if necessary. An application should specify a pointer value <i>only</i> in the following cases:
 
@@ -233,7 +233,7 @@ The application must perform other operations before the restart (if required) o
 
 </li>
 <li>
-The application is a class installer, which should set DI_NEEDREBOOT in <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> if a restart is needed.
+The application is a class installer, which should set DI_NEEDREBOOT in <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> if a restart is needed.
 
 </li>
 </ul>

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMSG_VERIFY_COUNTER_SIGN_ENABLE_STRONG_FLAG, CryptMsgVerifyCountersignatureEncodedEx, CryptMsgVerifyCountersignatureEncodedEx function [Security], _crypto2_cryptmsgverifycountersignatureencodedex, security.cryptmsgverifycountersignatureencodedex, wincrypt/CryptMsgVerifyCountersignatureEncodedEx
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptMsgVerifyCountersignatureEncodedEx"
+f1_keywords:
+- wincrypt/CryptMsgVerifyCountersignatureEncodedEx
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptMsgVerifyCountersignatureEncodedEx
+- CryptMsgVerifyCountersignatureEncodedEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptMsgVerifyCountersignatureEncodedEx</b> function verifies that the <i>pbSignerInfoCounterSignature</i> parameter contains the encrypted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the <b>encryptedDigest</b> field of the <i>pbSignerInfo</i> parameter structure. The signer can be a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure, a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>, or a chain context.
+The <b>CryptMsgVerifyCountersignatureEncodedEx</b> function verifies that the <i>pbSignerInfoCounterSignature</i> parameter contains the encrypted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the <b>encryptedDigest</b> field of the <i>pbSignerInfo</i> parameter structure. The signer can be a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure, a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>, or a chain context.
 
 
 ## -parameters
@@ -114,7 +114,7 @@ The structure that contains the signer information. The following table shows th
 </dl>
 </td>
 <td width="60%">
-<i>pvSigner</i> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure.
+<i>pvSigner</i> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ The structure that contains the signer information. The following table shows th
 </dl>
 </td>
 <td width="60%">
-<i>pvSigner</i> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure.
+<i>pvSigner</i> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ The structure that contains the signer information. The following table shows th
 </dl>
 </td>
 <td width="60%">
-<i>pvSigner</i> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a> structure.
+<i>pvSigner</i> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a> structure.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ The structure that contains the signer information. The following table shows th
 
 ### -param pvSigner [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure, a certificate context, or a chain context depending on the value of <i>dwSignerType</i>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure, a certificate context, or a chain context depending on the value of <i>dwSignerType</i>.
 
 
 ### -param dwFlags
@@ -165,7 +165,7 @@ Flags that modify the function behavior. This can be zero or the following value
 </dl>
 </td>
 <td width="60%">
-Performs a strong signature check after successful signature verification. Set the <i>pvExtra</i> parameter to point to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure that contains the parameters needed to check the signature strength..
+Performs a strong signature check after successful signature verification. Set the <i>pvExtra</i> parameter to point to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure that contains the parameters needed to check the signature strength..
 
 <b>Windows 8 and Windows Server 2012:  </b>Support for this flag begins.
 
@@ -177,7 +177,7 @@ Performs a strong signature check after successful signature verification. Set t
 
 ### -param pvExtra
 
-If you set the <i>dwFlags</i> parameter to <b>CMSG_VERIFY_COUNTER_SIGN_ENABLE_STRONG_FLAG</b>, set this parameter (<i>pvExtra</i>) to point to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure that contains the parameters used to check the signature strength.
+If you set the <i>dwFlags</i> parameter to <b>CMSG_VERIFY_COUNTER_SIGN_ENABLE_STRONG_FLAG</b>, set this parameter (<i>pvExtra</i>) to point to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure that contains the parameters used to check the signature strength.
 
 
 ## -returns

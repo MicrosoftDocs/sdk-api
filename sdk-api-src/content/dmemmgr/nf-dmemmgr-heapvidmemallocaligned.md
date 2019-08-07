@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HeapVidMemAllocAligned, HeapVidMemAllocAligned function [Display Devices], display.heapvidmemallocaligned, dmemmgr/HeapVidMemAllocAligned, gdifncs_07c83436-71a7-4b41-91b9-5b24b6390474.xml
 ms.topic: function
-f1_keywords: 
- - "dmemmgr/HeapVidMemAllocAligned"
+f1_keywords:
+- dmemmgr/HeapVidMemAllocAligned
 req.header: dmemmgr.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - HeapVidMemAllocAligned
+- HeapVidMemAllocAligned
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>HeapVidMemAllocAligned</b> function allocates <a href="https://docs.micro
 
 ### -param lpVidMem [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_videomemory">VIDEOMEMORY</a> structure that represents the DirectDraw heap from which to allocate the surface.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a> structure that represents the DirectDraw heap from which to allocate the surface.
 
 
 ### -param dwWidth [in]
@@ -76,7 +76,7 @@ Is the height in scan lines of the requested surface.
 
 ### -param lpAlignment [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-_surfacealignment">SURFACEALIGNMENT</a> structure that describes the alignment restrictions for the surface.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-surfacealignment">SURFACEALIGNMENT</a> structure that describes the alignment restrictions for the surface.
 
 
 ### -param lpNewPitch [out]
@@ -111,11 +111,11 @@ The driver should use the array of VIDEOMEMORY structures its <a href="https://d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-_surfacealignment">SURFACEALIGNMENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-surfacealignment">SURFACEALIGNMENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_videomemory">VIDEOMEMORY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a>
 
 
 

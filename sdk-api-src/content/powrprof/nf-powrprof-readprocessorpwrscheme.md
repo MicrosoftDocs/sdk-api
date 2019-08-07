@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReadProcessorPwrScheme, ReadProcessorPwrScheme function, _win32_readprocessorpwrscheme, base.readprocessorpwrscheme, powrprof/ReadProcessorPwrScheme
 ms.topic: function
-f1_keywords: 
- - "powrprof/ReadProcessorPwrScheme"
+f1_keywords:
+- powrprof/ReadProcessorPwrScheme
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - ReadProcessorPwrScheme
+- ReadProcessorPwrScheme
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ The index of the power scheme to be read.
 ### -param pMachineProcessorPowerPolicy [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_machine_processor_power_policy">MACHINE_PROCESSOR_POWER_POLICY</a> structure that receives the processor power policy settings.
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-machine_processor_power_policy">MACHINE_PROCESSOR_POWER_POLICY</a> structure that receives the processor power policy settings.
 
 
 ## -returns
@@ -89,7 +89,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_machine_processor_power_policy">MACHINE_PROCESSOR_POWER_POLICY</a> structure contains processor power policy settings for use while the system is running on AC power or battery power.
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-machine_processor_power_policy">MACHINE_PROCESSOR_POWER_POLICY</a> structure contains processor power policy settings for use while the system is running on AC power or battery power.
 
 Starting with Windows Vista, power management configuration of the system's processor is controlled through the GUID_PROCESSOR_SETTINGS_SUBGROUP power settings subgroup. Use the <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a> function to enumerate individual settings.
 
@@ -103,7 +103,7 @@ For more information on using PowrProf.h, see <a href="https://docs.microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_machine_processor_power_policy">MACHINE_PROCESSOR_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-machine_processor_power_policy">MACHINE_PROCESSOR_POWER_POLICY</a>
 
 
 

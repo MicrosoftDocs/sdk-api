@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method, GetProperties method,IVdsVDisk interface, IVdsVDisk interface,GetProperties method, IVdsVDisk.GetProperties, IVdsVDisk::GetProperties, base.ivdsvdisk_getproperties, vds/IVdsVDisk::GetProperties
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsVDisk.GetProperties"
+f1_keywords:
+- vds/IVdsVDisk.GetProperties
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVDisk.GetProperties
+- IVdsVDisk.GetProperties
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Returns disk property information for the volume where the virtual disk resides.
 
 ### -param pDiskProperties [out]
 
-Receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_vdisk_properties">VDS_VDISK_PROPERTIES</a> structure containing the disk property information.
+Receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_vdisk_properties">VDS_VDISK_PROPERTIES</a> structure containing the disk property information.
 
 
 ## -returns

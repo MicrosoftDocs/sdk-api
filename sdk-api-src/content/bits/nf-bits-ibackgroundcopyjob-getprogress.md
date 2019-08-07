@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetProgress method, IBackgroundCopyJob.GetProgress, IBackgroundCopyJob::GetProgress, _drz_ibackgroundcopyjob_getprogress, bits.ibackgroundcopyjob_getprogress, bits/IBackgroundCopyJob::GetProgress
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.GetProgress"
+f1_keywords:
+- bits/IBackgroundCopyJob.GetProgress
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.GetProgress
+- IBackgroundCopyJob.GetProgress
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ Retrieves job-related progress information, such as the number of bytes and file
 ### -param pVal [out]
 
 Contains data that you can use to calculate the percentage of the job that is complete. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-_bg_job_progress">BG_JOB_PROGRESS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_job_progress">BG_JOB_PROGRESS</a>.
 
 
 ## -returns
@@ -109,7 +109,7 @@ The <i>pProgress</i> parameter cannot be <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-_bg_job_progress">BG_JOB_PROGRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_job_progress">BG_JOB_PROGRESS</a>
  
 
  

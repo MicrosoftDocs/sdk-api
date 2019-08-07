@@ -8,10 +8,10 @@ tech.root: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_VIBRATION
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PXINPUT_VIBRATION, PXINPUT_VIBRATION, PXINPUT_VIBRATION structure pointer [XInput Game Controller APIs], XINPUT_VIBRATION, XINPUT_VIBRATION structure [XInput Game Controller APIs], xinput.xinput_vibration, xinput/PXINPUT_VIBRATION, xinput/XINPUT_VIBRATION"
+ms.keywords: '*PXINPUT_VIBRATION, PXINPUT_VIBRATION, PXINPUT_VIBRATION structure pointer [XInput Game Controller APIs], XINPUT_VIBRATION, XINPUT_VIBRATION structure [XInput Game Controller APIs], xinput.xinput_vibration, xinput/PXINPUT_VIBRATION, xinput/XINPUT_VIBRATION'
 ms.topic: struct
-f1_keywords: 
- - "xinput/XINPUT_VIBRATION"
+f1_keywords:
+- xinput/XINPUT_VIBRATION
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - XInput.h
+- XInput.h
 api_name:
- - XINPUT_VIBRATION
+- XINPUT_VIBRATION
 product: Windows
 targetos: Windows
 req.typenames: XINPUT_VIBRATION, *PXINPUT_VIBRATION
@@ -83,7 +83,7 @@ The left motor is the low-frequency rumble motor. The right motor is the high-fr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-_xinput_gamepad">XINPUT_GAMEPAD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a>
 
 
 

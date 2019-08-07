@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADsPropGetInitInfo, ADsPropGetInitInfo function [Active Directory], ad.adspropgetinitinfo, adsprop/ADsPropGetInitInfo
 ms.topic: function
-f1_keywords: 
- - "adsprop/ADsPropGetInitInfo"
+f1_keywords:
+- adsprop/ADsPropGetInitInfo
 req.header: adsprop.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dsprop.lib
 req.dll: Dsprop.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dsprop.dll
+- Dsprop.dll
 api_name:
- - ADsPropGetInitInfo
+- ADsPropGetInitInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ The handle of the notification object. To obtain this handle, call <a href="http
 
 ### -param pInitParams [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/adsprop/ns-adsprop-_adspropinitparams">ADSPROPINITPARAMS</a> structure that receives the directory object data. The <b>dwSize</b> member of this structure must be entered before calling this function.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/adsprop/ns-adsprop-adspropinitparams">ADSPROPINITPARAMS</a> structure that receives the directory object data. The <b>dwSize</b> member of this structure must be entered before calling this function.
 
 
 ## -returns
@@ -124,7 +124,7 @@ HRESULT GetADsPageInfo(HWND hwndNotifyObject, ADSPROPINITPARAMS *pip)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adsprop/ns-adsprop-_adspropinitparams">ADSPROPINITPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adsprop/ns-adsprop-adspropinitparams">ADSPROPINITPARAMS</a>
 
 
 

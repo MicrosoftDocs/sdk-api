@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPosTable, GetPosTable method [Internationalization for Windows Applications], GetPosTable method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],GetPosTable method, IFEDictionary.GetPosTable, IFEDictionary::GetPosTable, intl.ifedictionary_getpostable, msime/IFEDictionary::GetPosTable
 ms.topic: method
-f1_keywords: 
- - "msime/IFEDictionary.GetPosTable"
+f1_keywords:
+- msime/IFEDictionary.GetPosTable
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msime.h
+- Msime.h
 api_name:
- - IFEDictionary.GetPosTable
+- IFEDictionary.GetPosTable
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,12 +61,12 @@ Obtains the public POS (Part of Speech) table.
 
 ### -param prgPosTbl [out]
 
-Pointer to the array of <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_postbl">POSTBL</a> structures.
+Pointer to the array of <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-postbl">POSTBL</a> structures.
 
 
 ### -param pcPosTbl [out]
 
-Pointer to the number of <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_postbl">POSTBL</a> structures in the returned array. Can be <b>NULL</b>.
+Pointer to the number of <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-postbl">POSTBL</a> structures in the returned array. Can be <b>NULL</b>.
 
 
 ## -returns
@@ -87,7 +87,7 @@ Pointer to the number of <a href="https://docs.microsoft.com/windows/desktop/api
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_postbl">POSTBL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-postbl">POSTBL</a>
  
 
  

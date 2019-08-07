@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_CANONICALIZATION_PROPERTY_ALGORITHM, WS_XML_CANONICALIZATION_PROPERTY_ID, WS_XML_CANONICALIZATION_PROPERTY_ID enumeration [Web Services for Windows], WS_XML_CANONICALIZATION_PROPERTY_INCLUSIVE_PREFIXES, WS_XML_CANONICALIZATION_PROPERTY_OMITTED_ELEMENT, WS_XML_CANONICALIZATION_PROPERTY_OUTPUT_BUFFER_SIZE, webservices/WS_XML_CANONICALIZATION_PROPERTY_ALGORITHM, webservices/WS_XML_CANONICALIZATION_PROPERTY_ID, webservices/WS_XML_CANONICALIZATION_PROPERTY_INCLUSIVE_PREFIXES, webservices/WS_XML_CANONICALIZATION_PROPERTY_OMITTED_ELEMENT, webservices/WS_XML_CANONICALIZATION_PROPERTY_OUTPUT_BUFFER_SIZE, wsw.ws_xml_canonicalization_property_id
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_XML_CANONICALIZATION_PROPERTY_ID"
+f1_keywords:
+- webservices/WS_XML_CANONICALIZATION_PROPERTY_ID
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_CANONICALIZATION_PROPERTY_ID
+- WS_XML_CANONICALIZATION_PROPERTY_ID
 product: Windows
 targetos: Windows
 req.typenames: WS_XML_CANONICALIZATION_PROPERTY_ID
@@ -77,7 +77,7 @@ A <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservic
 
 ### -field WS_XML_CANONICALIZATION_PROPERTY_OMITTED_ELEMENT
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_qname">WS_XML_QNAME</a> structure that contains the elements to be omitted during canonicalization.  If one or more
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_qname">WS_XML_QNAME</a> structure that contains the elements to be omitted during canonicalization.  If one or more
           elements in the XML input match the specified name and namespace, then
           all such elements and the subtrees rooted at them are omitted from the
           canonical output.  This property can be used to implement enveloped

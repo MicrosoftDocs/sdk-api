@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 0fd4a80f-52c1-4ff8-9e49-87ddc1f2521d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_XML_KEY_INFO, CRYPT_XML_KEY_INFO, CRYPT_XML_KEY_INFO structure [Security], cryptxml/CRYPT_XML_KEY_INFO, security.crypt_xml_key_info"
+ms.keywords: '*PCRYPT_XML_KEY_INFO, CRYPT_XML_KEY_INFO, CRYPT_XML_KEY_INFO structure [Security], cryptxml/CRYPT_XML_KEY_INFO, security.crypt_xml_key_info'
 ms.topic: struct
-f1_keywords: 
- - "cryptxml/CRYPT_XML_KEY_INFO"
+f1_keywords:
+- cryptxml/CRYPT_XML_KEY_INFO
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - CRYPT_XML_KEY_INFO
+- CRYPT_XML_KEY_INFO
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_KEY_INFO, *PCRYPT_XML_KEY_INFO
@@ -76,7 +76,7 @@ The number of items in the array pointed to by the <b>rgKeyInfo</b> member.
 
 ### -field rgKeyInfo
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_key_info_item">CRYPT_XML_KEY_INFO_ITEM</a> structures that contain key information.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_info_item">CRYPT_XML_KEY_INFO_ITEM</a> structures that contain key information.
 
 
 ### -field hVerifyKey

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BindToStorage, BindToStorage method [Windows Shell], BindToStorage method [Windows Shell],IShellFolder interface, BindToStorage method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],BindToStorage method, IShellFolder.BindToStorage, IShellFolder2 interface [Windows Shell],BindToStorage method, IShellFolder2::BindToStorage, IShellFolder::BindToStorage, _win32_IShellFolder_BindToStorage, shell.IShellFolder_BindToStorage, shobjidl_core/IShellFolder2::BindToStorage, shobjidl_core/IShellFolder::BindToStorage
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellFolder.BindToStorage"
+f1_keywords:
+- shobjidl_core/IShellFolder.BindToStorage
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
- - netshell.dll
+- Shell32.dll
+- netshell.dll
 api_name:
- - IShellFolder.BindToStorage
- - IShellFolder2.BindToStorage
+- IShellFolder.BindToStorage
+- IShellFolder2.BindToStorage
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Requests a pointer to an object's storage interface.
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure that identifies the subfolder relative to its parent folder. The structure must contain exactly one <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure followed by a terminating zero.
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure that identifies the subfolder relative to its parent folder. The structure must contain exactly one <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure followed by a terminating zero.
 
 
 ### -param pbc [in]

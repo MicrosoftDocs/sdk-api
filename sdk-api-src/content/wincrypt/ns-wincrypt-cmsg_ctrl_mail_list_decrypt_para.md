@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 30735e01-db6b-40fc-b4c8-cdc24e73defa
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA, CMSG_CTRL_MAIL_LIST_DECRYPT_PARA, CMSG_CTRL_MAIL_LIST_DECRYPT_PARA structure [Security], PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA, PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA structure pointer [Security], _crypto2_cmsg_ctrl_mail_list_decrypt_para, security.cmsg_ctrl_mail_list_decrypt_para, wincrypt/CMSG_CTRL_MAIL_LIST_DECRYPT_PARA, wincrypt/PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA"
+ms.keywords: '*PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA, CMSG_CTRL_MAIL_LIST_DECRYPT_PARA, CMSG_CTRL_MAIL_LIST_DECRYPT_PARA structure [Security], PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA, PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA structure pointer [Security], _crypto2_cmsg_ctrl_mail_list_decrypt_para, security.cmsg_ctrl_mail_list_decrypt_para, wincrypt/CMSG_CTRL_MAIL_LIST_DECRYPT_PARA, wincrypt/PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMSG_CTRL_MAIL_LIST_DECRYPT_PARA"
+f1_keywords:
+- wincrypt/CMSG_CTRL_MAIL_LIST_DECRYPT_PARA
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMSG_CTRL_MAIL_LIST_DECRYPT_PARA
+- CMSG_CTRL_MAIL_LIST_DECRYPT_PARA
 product: Windows
 targetos: Windows
 req.typenames: CMSG_CTRL_MAIL_LIST_DECRYPT_PARA, *PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA
@@ -66,12 +66,12 @@ The size, in bytes, of this data structure.
 
 ### -field hCryptProv
 
-The provider used to do the recipient key encryption and export. If <b>hCryptProv</b> is <b>NULL</b>, the provider specified in <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> is used.
+The provider used to do the recipient key encryption and export. If <b>hCryptProv</b> is <b>NULL</b>, the provider specified in <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> is used.
 
 
 ### -field pMailList
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_mail_list_recipient_info">CMSG_MAIL_LIST_RECIPIENT_INFO</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_mail_list_recipient_info">CMSG_MAIL_LIST_RECIPIENT_INFO</a> structure.
 
 
 ### -field dwRecipientIndex

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumePlex, IVdsVolumePlex interface [VDS], IVdsVolumePlex interface [VDS],described, base.ivdsvolumeplex, vds/IVdsVolumePlex
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsVolumePlex"
+f1_keywords:
+- vds/IVdsVolumePlex
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVolumePlex
+- IVdsVolumePlex
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -124,7 +124,7 @@ Repairs a fault-tolerant volume plex by moving bad members to good disks.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_volume_plex_prop">VDS_VOLUME_PLEX_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_volume_plex_prop">VDS_VOLUME_PLEX_PROP</a>
 
 
 

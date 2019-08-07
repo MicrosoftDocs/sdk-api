@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: c80bb631-b26b-40d4-ae35-1cf38ce45d51
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_MISC_INFO, MINIDUMP_MISC1_PROCESS_ID, MINIDUMP_MISC1_PROCESS_TIMES, MINIDUMP_MISC_INFO, MINIDUMP_MISC_INFO structure, PMINIDUMP_MISC_INFO, PMINIDUMP_MISC_INFO structure pointer, _MINIDUMP_MISC_INFO, _win32_minidump_misc_info_str, base.minidump_misc_info_str, minidumpapiset/MINIDUMP_MISC_INFO, minidumpapiset/PMINIDUMP_MISC_INFO"
+ms.keywords: '*PMINIDUMP_MISC_INFO, MINIDUMP_MISC1_PROCESS_ID, MINIDUMP_MISC1_PROCESS_TIMES, MINIDUMP_MISC_INFO, MINIDUMP_MISC_INFO structure, PMINIDUMP_MISC_INFO, PMINIDUMP_MISC_INFO structure pointer, _MINIDUMP_MISC_INFO, _win32_minidump_misc_info_str, base.minidump_misc_info_str, minidumpapiset/MINIDUMP_MISC_INFO, minidumpapiset/PMINIDUMP_MISC_INFO'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_MISC_INFO"
+f1_keywords:
+- minidumpapiset/MINIDUMP_MISC_INFO
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_MISC_INFO
+- MINIDUMP_MISC_INFO
 product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_MISC_INFO, *PMINIDUMP_MISC_INFO
@@ -126,7 +126,7 @@ The time the process has executed in kernel mode, in seconds. The time that each
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
  
 
  

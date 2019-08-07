@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_MESSAGE_PROPERTY_ADDRESSING_VERSION, WS_MESSAGE_PROPERTY_BODY_READER, WS_MESSAGE_PROPERTY_BODY_WRITER, WS_MESSAGE_PROPERTY_ENCODED_CERT, WS_MESSAGE_PROPERTY_ENVELOPE_VERSION, WS_MESSAGE_PROPERTY_HEADER_BUFFER, WS_MESSAGE_PROPERTY_HEADER_POSITION, WS_MESSAGE_PROPERTY_HEAP, WS_MESSAGE_PROPERTY_HEAP_PROPERTIES, WS_MESSAGE_PROPERTY_HTTP_HEADER_AUTH_WINDOWS_TOKEN, WS_MESSAGE_PROPERTY_ID, WS_MESSAGE_PROPERTY_ID enumeration [Web Services for Windows], WS_MESSAGE_PROPERTY_IS_ADDRESSED, WS_MESSAGE_PROPERTY_IS_FAULT, WS_MESSAGE_PROPERTY_MAX_PROCESSED_HEADERS, WS_MESSAGE_PROPERTY_MESSAGE_SECURITY_WINDOWS_TOKEN, WS_MESSAGE_PROPERTY_PROTECTION_LEVEL, WS_MESSAGE_PROPERTY_SAML_ASSERTION, WS_MESSAGE_PROPERTY_SECURITY_CONTEXT, WS_MESSAGE_PROPERTY_STATE, WS_MESSAGE_PROPERTY_TRANSPORT_SECURITY_WINDOWS_TOKEN, WS_MESSAGE_PROPERTY_USERNAME, WS_MESSAGE_PROPERTY_XML_READER_PROPERTIES, WS_MESSAGE_PROPERTY_XML_WRITER_PROPERTIES, webservices/WS_MESSAGE_PROPERTY_ADDRESSING_VERSION, webservices/WS_MESSAGE_PROPERTY_BODY_READER, webservices/WS_MESSAGE_PROPERTY_BODY_WRITER, webservices/WS_MESSAGE_PROPERTY_ENCODED_CERT, webservices/WS_MESSAGE_PROPERTY_ENVELOPE_VERSION, webservices/WS_MESSAGE_PROPERTY_HEADER_BUFFER, webservices/WS_MESSAGE_PROPERTY_HEADER_POSITION, webservices/WS_MESSAGE_PROPERTY_HEAP, webservices/WS_MESSAGE_PROPERTY_HEAP_PROPERTIES, webservices/WS_MESSAGE_PROPERTY_HTTP_HEADER_AUTH_WINDOWS_TOKEN, webservices/WS_MESSAGE_PROPERTY_ID, webservices/WS_MESSAGE_PROPERTY_IS_ADDRESSED, webservices/WS_MESSAGE_PROPERTY_IS_FAULT, webservices/WS_MESSAGE_PROPERTY_MAX_PROCESSED_HEADERS, webservices/WS_MESSAGE_PROPERTY_MESSAGE_SECURITY_WINDOWS_TOKEN, webservices/WS_MESSAGE_PROPERTY_PROTECTION_LEVEL, webservices/WS_MESSAGE_PROPERTY_SAML_ASSERTION, webservices/WS_MESSAGE_PROPERTY_SECURITY_CONTEXT, webservices/WS_MESSAGE_PROPERTY_STATE, webservices/WS_MESSAGE_PROPERTY_TRANSPORT_SECURITY_WINDOWS_TOKEN, webservices/WS_MESSAGE_PROPERTY_USERNAME, webservices/WS_MESSAGE_PROPERTY_XML_READER_PROPERTIES, webservices/WS_MESSAGE_PROPERTY_XML_WRITER_PROPERTIES, wsw.ws_message_property_id
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_MESSAGE_PROPERTY_ID"
+f1_keywords:
+- webservices/WS_MESSAGE_PROPERTY_ID
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_MESSAGE_PROPERTY_ID
+- WS_MESSAGE_PROPERTY_ID
 product: Windows
 targetos: Windows
 req.typenames: WS_MESSAGE_PROPERTY_ID
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Each message property is of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a>, is identified by an ID, and has an associated
+Each message property is of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a>, is identified by an ID, and has an associated
                 value.
             
 
@@ -66,7 +66,7 @@ Each message property is of type <a href="https://docs.microsoft.com/windows/des
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure is the current <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE</a> of the message.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is the current <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE</a> of the message.
 
 This property is available in all message states.
                 
@@ -77,7 +77,7 @@ This property is available in all message states.
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure is the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a> of the message.  The heap is
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a> of the message.  The heap is
                     owned by the message.  A user of a message is free to make additional
                     allocations within this heap.  Allocations within the heap are free'd
                     when a message is reset/freed.
@@ -100,7 +100,7 @@ This property is available in all message states except <a href="https://docs.mi
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure  is the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_envelope_version">WS_ENVELOPE_VERSION</a> of the message.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure  is the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_envelope_version">WS_ENVELOPE_VERSION</a> of the message.
                 
 
 When creating a message using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemessage">WsCreateMessage</a>, the
@@ -121,7 +121,7 @@ This property is available in all message states except <a href="https://docs.mi
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure  is the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION</a> of the message.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure  is the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION</a> of the message.
                 
 
 When creating a message using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemessage">WsCreateMessage</a>, the
@@ -142,7 +142,7 @@ This property is available in all message states except <a href="https://docs.mi
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure  is a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> that holds the headers
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure  is a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> that holds the headers
                     of the message (as well as the envelope and body elements).
                 
 
@@ -157,7 +157,7 @@ This property is available in all message states except <a href="https://docs.mi
 
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a>.
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure  is the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_node_position">WS_XML_NODE_POSITION</a>of the header element within the header buffer (the element that contains all
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure  is the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_node_position">WS_XML_NODE_POSITION</a>of the header element within the header buffer (the element that contains all
                     the message headers as children).  The header buffer itself can be
                     obtained using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_HEADER_BUFFER</a>.
                 
@@ -190,7 +190,7 @@ The header position is valid until the message is reset or freed.
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure  is a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> that can be used to read
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure  is a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> that can be used to read
                     the body of the message.
                 
 
@@ -208,7 +208,7 @@ This property is only available when the message is
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure  is a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> that can be used to write
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure  is a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> that can be used to write
                     the body of the message.
                 
 
@@ -226,7 +226,7 @@ The writer is owned by the message object, and is valid only
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure  is a <b>BOOL</b> indicating whether the message has
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure  is a <b>BOOL</b> indicating whether the message has
                     been addressed.
                 
 
@@ -252,7 +252,7 @@ This property is used with <a href="https://docs.microsoft.com/windows/desktop/a
                     of the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a> associated with the message.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure is of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_heap_properties">WS_HEAP_PROPERTIES</a>.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_heap_properties">WS_HEAP_PROPERTIES</a>.
                 
 
 The heap is used to buffer the headers of the message.
@@ -281,7 +281,7 @@ These XML Reader properties are used by the message object when reading headers.
                     messages.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure is of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_properties">WS_XML_READER_PROPERTIES</a>.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_properties">WS_XML_READER_PROPERTIES</a>.
                 
 
 The following properties may be specified:
@@ -331,7 +331,7 @@ These XML Writer properties are used by the message object when writing headers.
                     messages.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure is of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_writer_properties">WS_XML_WRITER_PROPERTIES</a>.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_writer_properties">WS_XML_WRITER_PROPERTIES</a>.
                 
 
 The following properties may be specified:
@@ -366,13 +366,13 @@ The following properties may be specified:
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetmessageproperty">WsSetMessageProperty</a>to indicate whether a message contains a fault.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <b>BOOL</b>.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <b>BOOL</b>.
 
 When a message is read (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadmessagestart">WsReadMessageStart</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadenvelopestart">WsReadEnvelopeStart</a>),
                     this property is set according to whether the first element of the body is a fault
                     element.  An application can test this property as a way of deciding whether
                     to read the body as a fault.  To read the body as a fault, use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadbody">WsReadBody</a> 
-                    with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_FAULT_TYPE</a> to obtain a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_fault">WS_FAULT</a>.
+                    with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_FAULT_TYPE</a> to obtain a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a>.
                 
 
 When a message is written (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritemessagestart">WsWriteMessageStart</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteenvelopestart">WsWriteEnvelopeStart</a>)
@@ -396,7 +396,7 @@ This property is used with <a href="https://docs.microsoft.com/windows/desktop/a
                     that will be allowed when processing the message headers.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <b>ULONG</b>.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <b>ULONG</b>.
 
 The purpose of this limit is to put an upper bound on the number of iterations 
                     spent scanning for a header.
@@ -419,7 +419,7 @@ This property is used with <a href="https://docs.microsoft.com/windows/desktop/a
                     is on, or if a custom channel has set the value.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_string">WS_STRING</a> structure.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_string">WS_STRING</a> structure.
 
 The returned value is good until the message is freed or reset.
                 
@@ -442,7 +442,7 @@ This property is used with <a href="https://docs.microsoft.com/windows/desktop/a
                     or if a custom channel has set the value.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_bytes">WS_BYTES</a> structure.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_bytes">WS_BYTES</a> structure.
 
 The returned value is good until the message is freed or reset.
                 
@@ -464,14 +464,14 @@ This property is used with <a href="https://docs.microsoft.com/windows/desktop/a
                     available in the following cases:
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <b>HANDLE</b>.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <b>HANDLE</b>.
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_tcp_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a> is being used.
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_tcp_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a> is being used.
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a> is being used 
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a> is being used 
                     and the translation from client certificate to Windows token
                     has been enabled at the http.sys config level.
                     </li>
@@ -495,11 +495,11 @@ This property is available in all message states except
 
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a> to retrieve the Windows
                     token representing the sender from a received message, if the
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> is used,
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> is used,
                     or if a custom channel has set the value.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <b>HANDLE</b>.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <b>HANDLE</b>.
 
 The returned value is good until the message is freed or reset.
                 
@@ -518,11 +518,11 @@ This property is available in all message states except
 
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a> to retrieve the Windows
                     token representing the sender from a received message, if a message security
-                    binding such as <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used,
+                    binding such as <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used,
                     or if a custom channel has set the value.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <b>HANDLE</b>.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <b>HANDLE</b>.
 
 The returned value is good until the message is freed or reset.
                 
@@ -545,7 +545,7 @@ This property is used with <a href="https://docs.microsoft.com/windows/desktop/a
                     or if a custom channel has set the value.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>.
 
 The returned value is good until the message is freed or reset.
                 
@@ -563,10 +563,10 @@ This property is available in all message states except
 ### -field WS_MESSAGE_PROPERTY_SECURITY_CONTEXT
 
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a> to retrieve the secure conversation handle if the
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_context_message_security_binding">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a> is used on the server side.
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_context_message_security_binding">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a> is used on the server side.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-security-context">WS_SECURITY_CONTEXT</a>.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-security-context">WS_SECURITY_CONTEXT</a>.
 
 The returned value is good until the message is freed or reset.
                 
@@ -576,7 +576,7 @@ The returned value is good until the message is freed or reset.
 
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a> to retrieve the message's security protection level.
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_protection_level">WS_PROTECTION_LEVEL</a> value.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_protection_level">WS_PROTECTION_LEVEL</a> value.
 
 If the channel does not use security, or if security verification failed, the protection level is set to 
                 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_protection_level">WS_PROTECTION_LEVEL_NONE</a>. Otherwise it is set to the level requested by the application.            

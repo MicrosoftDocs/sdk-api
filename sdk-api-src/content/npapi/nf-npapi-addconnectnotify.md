@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddConnectNotify, AddConnectNotify function [Security], _mnp_addconnectnotify, npapi/AddConnectNotify, security.addconnectnotify
 ms.topic: function
-f1_keywords: 
- - "npapi/AddConnectNotify"
+f1_keywords:
+- npapi/AddConnectNotify
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - AddConnectNotify
+- AddConnectNotify
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ A pointer to a
 ### -param lpAddInfo [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/ns-npapi-_notifyadd">NOTIFYADD</a> structure that contains information about the connection being added.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/ns-npapi-notifyadd">NOTIFYADD</a> structure that contains information about the connection being added.
 
 
 ## -returns

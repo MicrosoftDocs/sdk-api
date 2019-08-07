@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 1eb80e7a-93f5-474c-bed9-5b19f6657788
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PGLYPHPOS, GLYPHPOS, GLYPHPOS structure [Display Devices], PGLYPHPOS, PGLYPHPOS structure pointer [Display Devices], display.glyphpos, grstrcts_52c5687f-a40b-43c6-8513-accd4c72def5.xml, winddi/GLYPHPOS, winddi/PGLYPHPOS"
+ms.keywords: '*PGLYPHPOS, GLYPHPOS, GLYPHPOS structure [Display Devices], PGLYPHPOS, PGLYPHPOS structure pointer [Display Devices], display.glyphpos, grstrcts_52c5687f-a40b-43c6-8513-accd4c72def5.xml, winddi/GLYPHPOS, winddi/PGLYPHPOS'
 ms.topic: struct
-f1_keywords: 
- - "winddi/GLYPHPOS"
+f1_keywords:
+- winddi/GLYPHPOS
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - GLYPHPOS
+- GLYPHPOS
 product: Windows
 targetos: Windows
 req.typenames: GLYPHPOS, *PGLYPHPOS
@@ -66,12 +66,12 @@ Handle to the glyph.
 
 ### -field pgdf
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphdef">GLYPHDEF</a> union.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphdef">GLYPHDEF</a> union.
 
 
 ### -field ptl
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a> structure that contains the coordinates of the point in device space where the character origin of the glyph should be placed.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that contains the coordinates of the point in device space where the character origin of the glyph should be placed.
 
 
 ## -remarks
@@ -92,11 +92,11 @@ Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-wi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphdef">GLYPHDEF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphdef">GLYPHDEF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_strobj">STROBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a>
 
 
 

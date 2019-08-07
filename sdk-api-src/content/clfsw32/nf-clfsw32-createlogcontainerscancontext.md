@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLFS_SCAN_BACKWARD, CLFS_SCAN_FORWARD, CLFS_SCAN_INIT, CreateLogContainerScanContext, CreateLogContainerScanContext function [Files], clfsw32/CreateLogContainerScanContext, fs.createlogcontainerscancontext
 ms.topic: function
-f1_keywords: 
- - "clfsw32/CreateLogContainerScanContext"
+f1_keywords:
+- clfsw32/CreateLogContainerScanContext
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Clfsw32.dll
+- Clfsw32.dll
 api_name:
- - CreateLogContainerScanContext
+- CreateLogContainerScanContext
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,11 +75,11 @@ This parameter is an ordinal number relative to the number of containers in the 
 
 ### -param cContainers [in]
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_container_information">CLFS_CONTAINER_INFORMATION</a> structures for  <b>CreateLogContainerScanContext</b> to allocate. 
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_container_information">CLFS_CONTAINER_INFORMATION</a> structures for  <b>CreateLogContainerScanContext</b> to allocate. 
 
 This number is the number of containers scanned with each scan call so the caller knows the scan is complete when the number of containers returned is less than this value.
 
-On exit, a pointer to the system-allocated array of <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_container_information">CLFS_CONTAINER_INFORMATION</a> structures is placed in the <b>pinfoContainer</b> member of the client-allocated <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_scan_context">CLFS_SCAN_CONTEXT</a> structure. This member is   pointed to by the <i>pcxScan</i> parameter (that is, "pcxScan-&gt;pinfoContainer[]"), and the actual number of structures in the array is placed in "pcxScan-&gt;cContainersReturned".
+On exit, a pointer to the system-allocated array of <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_container_information">CLFS_CONTAINER_INFORMATION</a> structures is placed in the <b>pinfoContainer</b> member of the client-allocated <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_scan_context">CLFS_SCAN_CONTEXT</a> structure. This member is   pointed to by the <i>pcxScan</i> parameter (that is, "pcxScan-&gt;pinfoContainer[]"), and the actual number of structures in the array is placed in "pcxScan-&gt;cContainersReturned".
 
 The client must call <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-scanlogcontainers">ScanLogContainers</a> with the <i>eScanMode</i> parameter set to <b>CLFS_SCAN_CLOSE</b>  so that it can free this array; otherwise, memory leaks result.
 
@@ -138,7 +138,7 @@ A pointer to a client-allocated <a href="https://docs.microsoft.com/windows/desk
 
 ### -param pOverlapped [in, out, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure that is required for asynchronous operation. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that is required for asynchronous operation. 
 
 This parameter can be <b>NULL</b> if an asynchronous operation is not used.
 
@@ -162,7 +162,7 @@ The following list identifies the possible error codes:
 
 
 
-After completing a scan, the client must call <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-scanlogcontainers">ScanLogContainers</a> again with the <i>eScanMode</i> parameter set to <b>CLFS_SCAN_CLOSE</b>  so that it can free the system-allocated array of <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_container_information">CLFS_CONTAINER_INFORMATION</a> structures; otherwise, memory leaks result.
+After completing a scan, the client must call <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-scanlogcontainers">ScanLogContainers</a> again with the <i>eScanMode</i> parameter set to <b>CLFS_SCAN_CLOSE</b>  so that it can free the system-allocated array of <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_container_information">CLFS_CONTAINER_INFORMATION</a> structures; otherwise, memory leaks result.
 
 
 #### Examples
@@ -178,7 +178,7 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_container_information">CLFS_CONTAINER_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_container_information">CLFS_CONTAINER_INFORMATION</a>
 
 
 

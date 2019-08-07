@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT, ALERT_MESSAGE_EVENT, ALERT_PRINT_EVENT, ALERT_USER_EVENT, NetAlertRaise, NetAlertRaise function [Network Management], _win32_netalertraise, lmalert/NetAlertRaise, netmgmt.netalertraise
 ms.topic: function
-f1_keywords: 
- - "lmalert/NetAlertRaise"
+f1_keywords:
+- lmalert/NetAlertRaise
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetAlertRaise
+- NetAlertRaise
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -59,7 +59,7 @@ The
 To simplify sending an alert message, you can call the extended function 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraiseex">NetAlertRaiseEx</a> instead. 
 <b>NetAlertRaiseEx</b> does not require that you specify a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_std_alert">STD_ALERT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-std_alert">STD_ALERT</a> structure.
 
 
 ## -parameters
@@ -135,10 +135,10 @@ An application or resource was used.
 ### -param Buffer [in]
 
 A pointer to the data to send to the clients listening for the interrupting message. The data should begin with a fixed-length 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_std_alert">STD_ALERT</a> structure followed by additional message data in one 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_admin_other_info">ADMIN_OTHER_INFO</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_errlog_other_info">ERRLOG_OTHER_INFO</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_print_other_info">PRINT_OTHER_INFO</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-std_alert">STD_ALERT</a> structure followed by additional message data in one 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-errlog_other_info">ERRLOG_OTHER_INFO</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-print_other_info">PRINT_OTHER_INFO</a>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_user_other_info">USER_OTHER_INFO</a> structure. Finally, the buffer should include any required variable-length information. For more information, see the code sample in the following Remarks section. 
 
 
@@ -174,7 +174,7 @@ If the function fails, the return value is a system error code and a can be one 
 </dl>
 </td>
 <td width="60%">
-A parameter is incorrect. This error is returned if the <i>AlertEventName</i>  parameter is <b>NULL</b> or an empty string, the <i>Buffer</i>  parameter is <b>NULL</b>, or the <i>BufferSize</i>  parameter is less than the size of the <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_std_alert">STD_ALERT</a> structure plus the fixed size for the additional message data structure. 
+A parameter is incorrect. This error is returned if the <i>AlertEventName</i>  parameter is <b>NULL</b> or an empty string, the <i>Buffer</i>  parameter is <b>NULL</b>, or the <i>BufferSize</i>  parameter is less than the size of the <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-std_alert">STD_ALERT</a> structure plus the fixed size for the additional message data structure. 
 
 </td>
 </tr>
@@ -210,8 +210,8 @@ The alerter service must be running on the client computer when you call the
 
 The following code sample demonstrates how to raise an administrative alert by calling the 
 <b>NetAlertRaise</b> function and specifying 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_std_alert">STD_ALERT</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_admin_other_info">ADMIN_OTHER_INFO</a> structures. First, the sample calculates the size of the message buffer. Then it allocates the buffer with a call to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-std_alert">STD_ALERT</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a> structures. First, the sample calculates the size of the message buffer. Then it allocates the buffer with a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function. The code assigns values to the members of the 
 <b>STD_ALERT</b> and the 
 <b>ADMIN_OTHER_INFO</b> portions of the buffer. The sample retrieves a pointer to the 
@@ -331,7 +331,7 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_admin_other_info">ADMIN_OTHER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>
 
 
 
@@ -347,7 +347,7 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_errlog_other_info">ERRLOG_OTHER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-errlog_other_info">ERRLOG_OTHER_INFO</a>
 
 
 
@@ -365,11 +365,11 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_print_other_info">PRINT_OTHER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-print_other_info">PRINT_OTHER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_std_alert">STD_ALERT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-std_alert">STD_ALERT</a>
 
 
 

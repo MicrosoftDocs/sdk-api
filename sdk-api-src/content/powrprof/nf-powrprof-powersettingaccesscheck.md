@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ACCESS_ACTIVE_SCHEME, ACCESS_AC_POWER_SETTING_INDEX, ACCESS_CREATE_SCHEME, ACCESS_DC_POWER_SETTING_INDEX, ACCESS_SCHEME, PowerSettingAccessCheck, PowerSettingAccessCheck function, base.powersettingaccesscheck, powrprof/PowerSettingAccessCheck
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerSettingAccessCheck"
+f1_keywords:
+- powrprof/PowerSettingAccessCheck
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - PowerSettingAccessCheck
+- PowerSettingAccessCheck
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -191,7 +191,7 @@ Only Administrators can remotely access power settings.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ne-powrprof-_power_data_accessor">POWER_DATA_ACCESSOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ne-powrprof-power_data_accessor">POWER_DATA_ACCESSOR</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAS_LOGGING_DAILY, IAS_LOGGING_MONTHLY, IAS_LOGGING_UNLIMITED_SIZE, IAS_LOGGING_WEEKLY, IAS_LOGGING_WHEN_FILE_SIZE_REACHES, NEW_LOG_FILE_FREQUENCY, NEW_LOG_FILE_FREQUENCY enumeration [Network Policy Server], _sdo_new_log_file_frequency, nps.SDO_new_log_file_frequency, sdo.new_log_file_frequency, sdoias/IAS_LOGGING_DAILY, sdoias/IAS_LOGGING_MONTHLY, sdoias/IAS_LOGGING_UNLIMITED_SIZE, sdoias/IAS_LOGGING_WEEKLY, sdoias/IAS_LOGGING_WHEN_FILE_SIZE_REACHES, sdoias/NEW_LOG_FILE_FREQUENCY
 ms.topic: enum
-f1_keywords: 
- - "sdoias/NEW_LOG_FILE_FREQUENCY"
+f1_keywords:
+- sdoias/NEW_LOG_FILE_FREQUENCY
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - NEW_LOG_FILE_FREQUENCY
+- NEW_LOG_FILE_FREQUENCY
 product: Windows
 targetos: Windows
 req.typenames: NEW_LOG_FILE_FREQUENCY
@@ -90,7 +90,7 @@ Creates a new log file when the log file reaches a particular size.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_accountingproperties">ACCOUNTINGPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-accountingproperties">ACCOUNTINGPROPERTIES</a>
  
 
  

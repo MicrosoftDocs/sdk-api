@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_KEYINFO_TYPE_CUSTOM, CRYPT_XML_KEYINFO_TYPE_KEYNAME, CRYPT_XML_KEYINFO_TYPE_KEYVALUE, CRYPT_XML_KEYINFO_TYPE_RETRIEVAL, CRYPT_XML_KEYINFO_TYPE_X509DATA, CRYPT_XML_KEY_INFO_ITEM, CRYPT_XML_KEY_INFO_ITEM structure [Security], cryptxml/CRYPT_XML_KEY_INFO_ITEM, security.crypt_xml_key_info_item
 ms.topic: struct
-f1_keywords: 
- - "cryptxml/CRYPT_XML_KEY_INFO_ITEM"
+f1_keywords:
+- cryptxml/CRYPT_XML_KEY_INFO_ITEM
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - CRYPT_XML_KEY_INFO_ITEM
+- CRYPT_XML_KEY_INFO_ITEM
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_KEY_INFO_ITEM
@@ -140,20 +140,20 @@ A pointer to a null-terminated wide character string that contains the name of t
 
 ### -field KeyValue
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_key_value">CRYPT_XML_KEY_VALUE</a> structure that contains the key value.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_value">CRYPT_XML_KEY_VALUE</a> structure that contains the key value.
 
 
 ### -field RetrievalMethod
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains XML encoded information about the key retrieval method.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains XML encoded information about the key retrieval method.
 
 
 ### -field X509Data
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_x509data">CRYPT_XML_X509DATA</a> structure that contains X.509 data that contains the key.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_x509data">CRYPT_XML_X509DATA</a> structure that contains X.509 data that contains the key.
 
 
 ### -field Custom
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains user defined key information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains user defined key information.
 

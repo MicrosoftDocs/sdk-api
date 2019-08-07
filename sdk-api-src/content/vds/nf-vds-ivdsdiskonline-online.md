@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsDiskOnline interface,Online method, IVdsDiskOnline.Online, IVdsDiskOnline::Online, Online, Online method, Online method,IVdsDiskOnline interface, base.ivdsdiskonline_online, vds/IVdsDiskOnline::Online
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsDiskOnline.Online"
+f1_keywords:
+- vds/IVdsDiskOnline.Online
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsDiskOnline.Online
+- IVdsDiskOnline.Online
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -101,7 +101,7 @@ The online operation failed.
 If a dynamic disk is read-only and offline, it can be made read/write and brought online as follows:
 
 <ol>
-<li>Clear the read-only bit. (This is the <b>VDS_DF_READ_ONLY</b> flag in the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop">VDS_DISK_PROP</a> structure.)</li>
+<li>Clear the read-only bit. (This is the <b>VDS_DF_READ_ONLY</b> flag in the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a> structure.)</li>
 <li>Call the <b>Online</b> method.</li>
 </ol>
 If a basic disk is read-only and offline, it can be made read/write and brought online the same way, but the order of the steps does not matter.

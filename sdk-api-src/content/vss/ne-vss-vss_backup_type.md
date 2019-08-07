@@ -8,10 +8,10 @@ tech.root: VSS
 ms.assetid: 82934737-0d80-4b5d-a1fa-1ba38e446504
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVSS_BACKUP_TYPE, PVSS_BACKUP_TYPE, PVSS_BACKUP_TYPE enumeration pointer [VSS], VSS_BACKUP_TYPE, VSS_BACKUP_TYPE enumeration [VSS], VSS_BT_COPY, VSS_BT_DIFFERENTIAL, VSS_BT_FULL, VSS_BT_INCREMENTAL, VSS_BT_LOG, VSS_BT_OTHER, VSS_BT_UNDEFINED, _win32_vss_backup_type, base.vss_backup_type, vss/PVSS_BACKUP_TYPE, vss/VSS_BACKUP_TYPE, vss/VSS_BT_COPY, vss/VSS_BT_DIFFERENTIAL, vss/VSS_BT_FULL, vss/VSS_BT_INCREMENTAL, vss/VSS_BT_LOG, vss/VSS_BT_OTHER, vss/VSS_BT_UNDEFINED"
+ms.keywords: '*PVSS_BACKUP_TYPE, PVSS_BACKUP_TYPE, PVSS_BACKUP_TYPE enumeration pointer [VSS], VSS_BACKUP_TYPE, VSS_BACKUP_TYPE enumeration [VSS], VSS_BT_COPY, VSS_BT_DIFFERENTIAL, VSS_BT_FULL, VSS_BT_INCREMENTAL, VSS_BT_LOG, VSS_BT_OTHER, VSS_BT_UNDEFINED, _win32_vss_backup_type, base.vss_backup_type, vss/PVSS_BACKUP_TYPE, vss/VSS_BACKUP_TYPE, vss/VSS_BT_COPY, vss/VSS_BT_DIFFERENTIAL, vss/VSS_BT_FULL, vss/VSS_BT_INCREMENTAL, vss/VSS_BT_LOG, vss/VSS_BT_OTHER, vss/VSS_BT_UNDEFINED'
 ms.topic: enum
-f1_keywords: 
- - "vss/VSS_BACKUP_TYPE"
+f1_keywords:
+- vss/VSS_BACKUP_TYPE
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vss.h
+- Vss.h
 api_name:
- - VSS_BACKUP_TYPE
+- VSS_BACKUP_TYPE
 product: Windows
 targetos: Windows
 req.typenames: VSS_BACKUP_TYPE, *PVSS_BACKUP_TYPE
@@ -147,7 +147,7 @@ An implementation of a backup type defined by a
 This is particularly true in the case of incremental (<b>VSS_BT_INCREMENTAL</b>) and 
     differential (<b>VSS_BT_DIFFERENTIAL</b>) backups. In these cases, requesters and writers 
     work together using the file backup specification masks 
-    (<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_file_spec_backup_type">VSS_FILE_SPEC_BACKUP_TYPE</a>), and designations of 
+    (<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_file_spec_backup_type">VSS_FILE_SPEC_BACKUP_TYPE</a>), and designations of 
     files as being part of partial and differenced file operations to select which files must be backed up.
 
 A requester may also use other more traditional techniques to implement an incremental or differential 

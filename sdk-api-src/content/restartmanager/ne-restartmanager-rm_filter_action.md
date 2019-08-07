@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RM_FILTER_ACTION, RM_FILTER_ACTION enumeration [Restart Mgr], RmInvalidFilterAction, RmNoRestart, RmNoShutdown, restartmanager/RM_FILTER_ACTION, restartmanager/RmInvalidFilterAction, restartmanager/RmNoRestart, restartmanager/RmNoShutdown, rstmgr.rm_filter_action
 ms.topic: enum
-f1_keywords: 
- - "restartmanager/RM_FILTER_ACTION"
+f1_keywords:
+- restartmanager/RM_FILTER_ACTION
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - RestartManager.h
+- RestartManager.h
 api_name:
- - RM_FILTER_ACTION
+- RM_FILTER_ACTION
 product: Windows
 targetos: Windows
 req.typenames: RM_FILTER_ACTION
@@ -81,7 +81,7 @@ Prevents the shut down and restart of the specified application or service.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_filter_info">RM_FILTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_filter_info">RM_FILTER_INFO</a>
 
 
 

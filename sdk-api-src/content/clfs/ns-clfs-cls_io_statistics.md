@@ -8,10 +8,10 @@ tech.root: Clfs
 ms.assetid: 99544331-0a7c-4efd-93a7-e94011375394
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCLFS_IO_STATISTICS, *PCLS_IO_STATISTICS, CLFS_IO_STATISTICS, CLFS_IO_STATISTICS structure [Files], CLS_IO_STATISTICS, PCLFS_IO_STATISTICS, PCLFS_IO_STATISTICS structure pointer [Files], PPCLFS_IO_STATISTICS, PPCLFS_IO_STATISTICS structure pointer [Files], PPCLS_IO_STATISTICS, clfs/PCLFS_IO_STATISTICS, clfs/PPCLFS_IO_STATISTICS, clfs/_CLFS_IO_STATISTICS, fs.clfs_io_statistics"
+ms.keywords: '*PCLFS_IO_STATISTICS, *PCLS_IO_STATISTICS, CLFS_IO_STATISTICS, CLFS_IO_STATISTICS structure [Files], CLS_IO_STATISTICS, PCLFS_IO_STATISTICS, PCLFS_IO_STATISTICS structure pointer [Files], PPCLFS_IO_STATISTICS, PPCLFS_IO_STATISTICS structure pointer [Files], PPCLS_IO_STATISTICS, clfs/PCLFS_IO_STATISTICS, clfs/PPCLFS_IO_STATISTICS, clfs/_CLFS_IO_STATISTICS, fs.clfs_io_statistics'
 ms.topic: struct
-f1_keywords: 
- - "clfs/CLFS_IO_STATISTICS"
+f1_keywords:
+- clfs/CLFS_IO_STATISTICS
 req.header: clfs.h
 req.include-header: Clfsw32.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Clfs.h
+- Clfs.h
 api_name:
- - CLFS_IO_STATISTICS
+- CLFS_IO_STATISTICS
 product: Windows
 targetos: Windows
 req.typenames: CLS_IO_STATISTICS, *PCLS_IO_STATISTICS, PPCLS_IO_STATISTICS
@@ -89,7 +89,7 @@ The cumulative number of bytes of metadata flushed in the logging session.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_io_statistics_header">CLFS_IO_STATISTICS_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_io_statistics_header">CLFS_IO_STATISTICS_HEADER</a>
 
 
 

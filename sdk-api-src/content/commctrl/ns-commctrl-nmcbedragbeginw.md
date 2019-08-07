@@ -8,10 +8,10 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboex\structures\nmcbedragbegin.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPNMCBEDRAGBEGINW, *PNMCBEDRAGBEGINW, LPNMCBEDRAGBEGIN, LPNMCBEDRAGBEGIN structure pointer [Windows Controls], NMCBEDRAGBEGIN, NMCBEDRAGBEGIN structure [Windows Controls], NMCBEDRAGBEGINA, NMCBEDRAGBEGINW, _win32_NMCBEDRAGBEGIN, _win32_NMCBEDRAGBEGIN_cpp, commctrl/LPNMCBEDRAGBEGIN, commctrl/NMCBEDRAGBEGIN, commctrl/NMCBEDRAGBEGINA, commctrl/NMCBEDRAGBEGINW, controls.NMCBEDRAGBEGIN, controls._win32_NMCBEDRAGBEGIN"
+ms.keywords: '*LPNMCBEDRAGBEGINW, *PNMCBEDRAGBEGINW, LPNMCBEDRAGBEGIN, LPNMCBEDRAGBEGIN structure pointer [Windows Controls], NMCBEDRAGBEGIN, NMCBEDRAGBEGIN structure [Windows Controls], NMCBEDRAGBEGINA, NMCBEDRAGBEGINW, _win32_NMCBEDRAGBEGIN, _win32_NMCBEDRAGBEGIN_cpp, commctrl/LPNMCBEDRAGBEGIN, commctrl/NMCBEDRAGBEGIN, commctrl/NMCBEDRAGBEGINA, commctrl/NMCBEDRAGBEGINW, controls.NMCBEDRAGBEGIN, controls._win32_NMCBEDRAGBEGIN'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/NMCBEDRAGBEGIN"
+f1_keywords:
+- commctrl/NMCBEDRAGBEGIN
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - NMCBEDRAGBEGIN
- - NMCBEDRAGBEGINA
- - NMCBEDRAGBEGINW
+- NMCBEDRAGBEGIN
+- NMCBEDRAGBEGINA
+- NMCBEDRAGBEGINW
 product: Windows
 targetos: Windows
 req.typenames: NMCBEDRAGBEGINW, *LPNMCBEDRAGBEGINW, *PNMCBEDRAGBEGINW
@@ -63,9 +63,9 @@ Contains information used with the <a href="https://docs.microsoft.com/windows/d
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains information about the notification code. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification code. 
 
 
 ### -field iItemid

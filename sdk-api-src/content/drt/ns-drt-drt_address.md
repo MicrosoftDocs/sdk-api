@@ -8,10 +8,10 @@ tech.root: P2PSdk
 ms.assetid: d6b00d5e-14f1-4e56-b8c8-f3936f6ae9fb
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDRT_ADDRESS, DRT_ADDRESS, DRT_ADDRESS structure [Peer Networking], PDRT_ADDRESS, PDRT_ADDRESS structure pointer [Peer Networking], drt/DRT_ADDRESS, drt/PDRT_ADDRESS, p2p.drt_address"
+ms.keywords: '*PDRT_ADDRESS, DRT_ADDRESS, DRT_ADDRESS structure [Peer Networking], PDRT_ADDRESS, PDRT_ADDRESS structure pointer [Peer Networking], drt/DRT_ADDRESS, drt/PDRT_ADDRESS, p2p.drt_address'
 ms.topic: struct
-f1_keywords: 
- - "drt/DRT_ADDRESS"
+f1_keywords:
+- drt/DRT_ADDRESS
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - drt.h
+- drt.h
 api_name:
- - DRT_ADDRESS
+- DRT_ADDRESS
 product: Windows
 targetos: Windows
 req.typenames: DRT_ADDRESS, *PDRT_ADDRESS
@@ -84,7 +84,7 @@ Round trip time to this node.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-_drt_address_list">DRT_ADDRESS_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_address_list">DRT_ADDRESS_LIST</a>
  
 
  

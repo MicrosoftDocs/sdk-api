@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetUseGetInfo, NetUseGetInfo function [Network Management], _win32_netusegetinfo, lmuse/NetUseGetInfo, netmgmt.netusegetinfo
 ms.topic: function
-f1_keywords: 
- - "lmuse/NetUseGetInfo"
+f1_keywords:
+- lmuse/NetUseGetInfo
 req.header: lmuse.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetUseGetInfo
+- NetUseGetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -96,7 +96,7 @@ The information level of the data requested. This parameter can be one of the fo
 </td>
 <td width="60%">
 Specifies a local device name and the share name of a remote resource. The <i>BufPtr</i>  parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-_use_info_0">USE_INFO_0</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-use_info_0">USE_INFO_0</a> structure.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Specifies a local device name and the share name of a remote resource. The <i>Bu
 </td>
 <td width="60%">
 Specifies information about the connection between a local device and a shared resource, including connection status and type. The <i>BufPtr</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-_use_info_1">USE_INFO_1</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-use_info_1">USE_INFO_1</a> structure.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Specifies information about the connection between a local device and a shared r
 </td>
 <td width="60%">
 Specifies information about the connection between a local device and a shared resource. Information includes the connection status, connection type, user name, and domain name. The <i>BufPtr</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-_use_info_2">USE_INFO_2</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-use_info_2">USE_INFO_2</a> structure.
 
 </td>
 </tr>
@@ -184,15 +184,15 @@ This function applies only to the Server Message Block (LAN Manager Workstation)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-_use_info_0">USE_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-use_info_0">USE_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-_use_info_1">USE_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-use_info_1">USE_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-_use_info_2">USE_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-use_info_2">USE_INFO_2</a>
 
 
 

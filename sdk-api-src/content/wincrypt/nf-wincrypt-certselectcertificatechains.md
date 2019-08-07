@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_SELECT_ALLOW_DUPLICATES, CERT_SELECT_ALLOW_EXPIRED, CERT_SELECT_DISALLOW_SELFSIGNED, CERT_SELECT_HARDWARE_ONLY, CERT_SELECT_HAS_KEY_FOR_KEY_EXCHANGE, CERT_SELECT_HAS_KEY_FOR_SIGNATURE, CERT_SELECT_HAS_PRIVATE_KEY, CERT_SELECT_TRUSTED_ROOT, CertSelectCertificateChains, CertSelectCertificateChains function [Security], security.certselectcertificatechains, wincrypt/CertSelectCertificateChains
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertSelectCertificateChains"
+f1_keywords:
+- wincrypt/CertSelectCertificateChains
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertSelectCertificateChains
+- CertSelectCertificateChains
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -172,9 +172,9 @@ Allow the selection of certificates on which the Subject and Subject Alt Name co
 
 ### -param pChainParameters [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_select_chain_para">CERT_SELECT_CHAIN_PARA</a> structure to specify parameters for chain building. If <b>NULL</b>, default parameters will be used.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_select_chain_para">CERT_SELECT_CHAIN_PARA</a> structure to specify parameters for chain building. If <b>NULL</b>, default parameters will be used.
 
-The <b>pChainPara</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_select_chain_para">CERT_SELECT_CHAIN_PARA</a> structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_para">CERT_CHAIN_PARA</a> structure that can be used to enable strong signing.
+The <b>pChainPara</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_select_chain_para">CERT_SELECT_CHAIN_PARA</a> structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_para">CERT_CHAIN_PARA</a> structure that can be used to enable strong signing.
 
 
 ### -param cCriteria [in]
@@ -184,7 +184,7 @@ The number of elements in the array pointed to by the <i>rgpCriteria</i> array.
 
 ### -param rgpCriteria [in, optional]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_select_criteria">CERT_SELECT_CRITERIA</a> structures that define the selection criteria. If this parameter is set to <b>NULL</b>, the value of the <i>cCriteria</i> parameter must be zero.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_select_criteria">CERT_SELECT_CRITERIA</a> structures that define the selection criteria. If this parameter is set to <b>NULL</b>, the value of the <i>cCriteria</i> parameter must be zero.
 
 
 ### -param hStore [in]
@@ -242,9 +242,9 @@ Certain selection criteria require that a certificate chain be built before you 
 <li><b>CERT_SELECT_BY_POLICY_OID</b></li>
 </ul>
 Perform the following actions to enable strong signature checking:<ul>
-<li>Create a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure, specify the required strong signing parameters, and set a pointer to the structure in the <b>pStrongSignPara</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_para">CERT_CHAIN_PARA</a> structure.</li>
-<li>Set a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_para">CERT_CHAIN_PARA</a> structure in the <b>pChainPara</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_select_chain_para">CERT_SELECT_CHAIN_PARA</a> structure.</li>
-<li>Set  a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_select_chain_para">CERT_SELECT_CHAIN_PARA</a> structure in the <i>pChainParameters</i> parameter of this (<b>CertSelectCertificateChains</b>)function.</li>
+<li>Create a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure, specify the required strong signing parameters, and set a pointer to the structure in the <b>pStrongSignPara</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_para">CERT_CHAIN_PARA</a> structure.</li>
+<li>Set a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_para">CERT_CHAIN_PARA</a> structure in the <b>pChainPara</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_select_chain_para">CERT_SELECT_CHAIN_PARA</a> structure.</li>
+<li>Set  a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_select_chain_para">CERT_SELECT_CHAIN_PARA</a> structure in the <i>pChainParameters</i> parameter of this (<b>CertSelectCertificateChains</b>)function.</li>
 </ul>
 
 

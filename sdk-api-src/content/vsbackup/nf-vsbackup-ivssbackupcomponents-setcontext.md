@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetContext method, IVssBackupComponents.SetContext, IVssBackupComponents::SetContext, SetContext, SetContext method [VSS], SetContext method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setcontext, base.ivssbackupcomponents_setcontext, vsbackup/IVssBackupComponents::SetContext
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.SetContext"
+f1_keywords:
+- vsbackup/IVssBackupComponents.SetContext
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.SetContext
+- IVssBackupComponents.SetContext
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,9 +65,9 @@ The <b>SetContext</b> method sets the context
 ### -param lContext [in]
 
 The context to be set. The context must be one of the supported values of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a> or a supported bit mask (or
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a> or a supported bit mask (or
       bitwise OR) of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> with a 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> with a 
       valid <b>_VSS_SNAPSHOT_CONTEXT</b>.
      
 
@@ -160,8 +160,8 @@ For details on how the context set by
    
 
 For a complete discussion of the permitted shadow copy contexts, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a> and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>.
    
 
 
@@ -184,11 +184,11 @@ For a complete discussion of the permitted shadow copy contexts, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
  
 
  

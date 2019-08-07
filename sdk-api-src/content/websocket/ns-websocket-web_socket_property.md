@@ -8,10 +8,10 @@ tech.root: WebSock
 ms.assetid: c8b35288-4cc1-4839-a5be-4fd13b162c20
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWEB_SOCKET_PROPERTY, PWEB_SOCKET_PROPERTY, PWEB_SOCKET_PROPERTY structure pointer [Websocket Protocol Component API], WEB_SOCKET_PROPERTY, WEB_SOCKET_PROPERTY structure [Websocket Protocol Component API], websock.web_socket_property, websocket/PWEB_SOCKET_PROPERTY, websocket/WEB_SOCKET_PROPERTY"
+ms.keywords: '*PWEB_SOCKET_PROPERTY, PWEB_SOCKET_PROPERTY, PWEB_SOCKET_PROPERTY structure pointer [Websocket Protocol Component API], WEB_SOCKET_PROPERTY, WEB_SOCKET_PROPERTY structure [Websocket Protocol Component API], websock.web_socket_property, websocket/PWEB_SOCKET_PROPERTY, websocket/WEB_SOCKET_PROPERTY'
 ms.topic: struct
-f1_keywords: 
- - "websocket/WEB_SOCKET_PROPERTY"
+f1_keywords:
+- websocket/WEB_SOCKET_PROPERTY
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Websocket.h
+- Websocket.h
 api_name:
- - WEB_SOCKET_PROPERTY
+- WEB_SOCKET_PROPERTY
 product: Windows
 targetos: Windows
 req.typenames: WEB_SOCKET_PROPERTY, *PWEB_SOCKET_PROPERTY
@@ -61,7 +61,7 @@ The <b>WEB_SOCKET_PROPERTY</b> structure contains a  single WebSocket property.
 
 ### -field Type
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-_web_socket_property_type">WEB_SOCKET_PROPERTY_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_property_type">WEB_SOCKET_PROPERTY_TYPE</a></b>
 
 The WebSocket property type.
 

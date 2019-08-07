@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSYMBOL_FUNCENTRY_CALLBACK, PSYMBOL_FUNCENTRY_CALLBACK64, SymRegisterFunctionEntryCallbackProc64, SymRegisterFunctionEntryCallbackProc64 callback, SymRegisterFunctionEntryCallbackProc64 callback function, _win32_symregisterfunctionentrycallbackproc64, base.symregisterfunctionentrycallbackproc64, dbghelp/SymRegisterFunctionEntryCallbackProc64
 ms.topic: callback
-f1_keywords: 
- - "dbghelp/SymRegisterFunctionEntryCallbackProc64"
+f1_keywords:
+- dbghelp/SymRegisterFunctionEntryCallbackProc64
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - SymRegisterFunctionEntryCallbackProc64
+- SymRegisterFunctionEntryCallbackProc64
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -104,7 +104,7 @@ The calling application gets called through the registered callback function as 
 This function is similar to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pfunction_table_access_routine">FunctionTableAccessProc64</a> callback function. The difference is that 
 <b>FunctionTableAccessProc64</b> returns an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_function_entry">IMAGE_FUNCTION_ENTRY</a> structure, while this function returns an <b>IMAGE_RUNTIME_FUNCTION_ENTRY</b> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a> structure, while this function returns an <b>IMAGE_RUNTIME_FUNCTION_ENTRY</b> structure.
 
 This callback function supersedes the <i>PSYMBOL_FUNCENTRY_CALLBACK</i> callback function.  <i>PSYMBOL_FUNCENTRY_CALLBACK</i> is defined as follows in Dbghelp.h.
 

@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 60116f1d-fca2-4282-95a9-2af8da113a20
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_CANCREATEVPORTDATA, DD_CANCREATEVPORTDATA, DD_CANCREATEVPORTDATA structure [Display Devices], ddrawint/DD_CANCREATEVPORTDATA, ddstrcts_72b44069-d635-4675-b632-d0d077aa96e8.xml, display.dd_cancreatevportdata"
+ms.keywords: '*PDD_CANCREATEVPORTDATA, DD_CANCREATEVPORTDATA, DD_CANCREATEVPORTDATA structure [Display Devices], ddrawint/DD_CANCREATEVPORTDATA, ddstrcts_72b44069-d635-4675-b632-d0d077aa96e8.xml, display.dd_cancreatevportdata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_CANCREATEVPORTDATA"
+f1_keywords:
+- ddrawint/DD_CANCREATEVPORTDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_CANCREATEVPORTDATA
+- DD_CANCREATEVPORTDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_CANCREATEVPORTDATA, DD_CANCREATEVPORTDATA"
+req.typenames: '*PDD_CANCREATEVPORTDATA, DD_CANCREATEVPORTDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,12 +61,12 @@ The DD_CANCREATEVPORTDATA structure contains the information required for the dr
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
 
 ### -field lpDDVideoPortDesc
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportdesc">DDVIDEOPORTDESC</a> structure that contains a description of the VPE object being requested.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportdesc">DDVIDEOPORTDESC</a> structure that contains a description of the VPE object being requested.
 
 
 ### -field ddRVal

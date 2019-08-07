@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_SupportedProfiles method, IDiscRecorder2.get_SupportedProfiles, IDiscRecorder2::get_SupportedProfiles, get_SupportedProfiles, get_SupportedProfiles method [IMAPI], get_SupportedProfiles method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_supportedprofiles, imapi2/IDiscRecorder2::get_SupportedProfiles
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscRecorder2.get_SupportedProfiles"
+f1_keywords:
+- imapi2/IDiscRecorder2.get_SupportedProfiles
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscRecorder2.get_SupportedProfiles
+- IDiscRecorder2.get_SupportedProfiles
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Retrieves the list of MMC profiles that the device supports.
 
 ### -param value [out]
 
-List of MMC profiles that the device supports. Each element of the list is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of the variant contains the profile type value. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_profile_type">IMAPI_PROFILE_TYPE</a> enumeration type.
+List of MMC profiles that the device supports. Each element of the list is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of the variant contains the profile type value. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_profile_type">IMAPI_PROFILE_TYPE</a> enumeration type.
 
 
 ## -returns
@@ -397,7 +397,7 @@ Value: 0xC0AA0210
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_profile_type">IMAPI_PROFILE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_profile_type">IMAPI_PROFILE_TYPE</a>
  
 
  

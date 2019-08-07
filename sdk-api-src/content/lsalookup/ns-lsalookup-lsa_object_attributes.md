@@ -8,10 +8,10 @@ tech.root: SecMgmt
 ms.assetid: ad05cb52-8e58-46a9-b3e8-0c9c2a24a997
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PLSA_OBJECT_ATTRIBUTES, LSA_OBJECT_ATTRIBUTES, LSA_OBJECT_ATTRIBUTES structure [Security], PLSA_OBJECT_ATTRIBUTES, PLSA_OBJECT_ATTRIBUTES structure pointer [Security], _lsa_lsa_object_attributes, lsalookup/LSA_OBJECT_ATTRIBUTES, lsalookup/PLSA_OBJECT_ATTRIBUTES, security.lsa_object_attributes"
+ms.keywords: '*PLSA_OBJECT_ATTRIBUTES, LSA_OBJECT_ATTRIBUTES, LSA_OBJECT_ATTRIBUTES structure [Security], PLSA_OBJECT_ATTRIBUTES, PLSA_OBJECT_ATTRIBUTES structure pointer [Security], _lsa_lsa_object_attributes, lsalookup/LSA_OBJECT_ATTRIBUTES, lsalookup/PLSA_OBJECT_ATTRIBUTES, security.lsa_object_attributes'
 ms.topic: struct
-f1_keywords: 
- - "lsalookup/LSA_OBJECT_ATTRIBUTES"
+f1_keywords:
+- lsalookup/LSA_OBJECT_ATTRIBUTES
 req.header: lsalookup.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - LsaLookup.h
+- LsaLookup.h
 api_name:
- - LSA_OBJECT_ATTRIBUTES
+- LSA_OBJECT_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.typenames: LSA_OBJECT_ATTRIBUTES, *PLSA_OBJECT_ATTRIBUTES
@@ -112,7 +112,7 @@ The <b>LSA_OBJECT_ATTRIBUTES</b> structure is defined in the LsaLookup.h header 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_quality_of_service">SECURITY_QUALITY_OF_SERVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_quality_of_service">SECURITY_QUALITY_OF_SERVICE</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhAddEnglishCounter, PdhAddEnglishCounter function [Perf], PdhAddEnglishCounterA, PdhAddEnglishCounterW, pdh/PdhAddEnglishCounter, pdh/PdhAddEnglishCounterA, pdh/PdhAddEnglishCounterW, perf.pdhaddenglishcounter
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhAddEnglishCounter"
+f1_keywords:
+- pdh/PdhAddEnglishCounter
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhAddEnglishCounter
- - PdhAddEnglishCounterA
- - PdhAddEnglishCounterW
+- PdhAddEnglishCounter
+- PdhAddEnglishCounterA
+- PdhAddEnglishCounterW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,7 +76,7 @@ Null-terminated string that contains the counter path. For details on the format
 
 ### -param dwUserData [in]
 
-User-defined value. This value becomes part of the counter information. To retrieve this value later, call the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetcounterinfoa">PdhGetCounterInfo</a> function and access the <b>dwQueryUserData</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_counter_info_a">PDH_COUNTER_INFO</a> structure.
+User-defined value. This value becomes part of the counter information. To retrieve this value later, call the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetcounterinfoa">PdhGetCounterInfo</a> function and access the <b>dwQueryUserData</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_counter_info_a">PDH_COUNTER_INFO</a> structure.
 
 
 ### -param phCounter [out]

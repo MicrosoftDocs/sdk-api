@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 6c220063-02d0-44c0-b3a3-e7bfd5c57e1f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_QOS_SETTING_INFO, HTTP_QOS_SETTING_INFO, HTTP_QOS_SETTING_INFO structure [HTTP], PHTTP_QOS_SETTING_INFO, PHTTP_QOS_SETTING_INFO structure pointer [HTTP], http.http_qos_setting_info, http/HTTP_QOS_SETTING_INFO, http/PHTTP_QOS_SETTING_INFO"
+ms.keywords: '*PHTTP_QOS_SETTING_INFO, HTTP_QOS_SETTING_INFO, HTTP_QOS_SETTING_INFO structure [HTTP], PHTTP_QOS_SETTING_INFO, PHTTP_QOS_SETTING_INFO structure pointer [HTTP], http.http_qos_setting_info, http/HTTP_QOS_SETTING_INFO, http/PHTTP_QOS_SETTING_INFO'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_QOS_SETTING_INFO"
+f1_keywords:
+- http/HTTP_QOS_SETTING_INFO
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_QOS_SETTING_INFO
+- HTTP_QOS_SETTING_INFO
 product: Windows
 targetos: Windows
 req.typenames: HTTP_QOS_SETTING_INFO, *PHTTP_QOS_SETTING_INFO
@@ -61,7 +61,7 @@ The <b>HTTP_QOS_SETTING_INFO</b> structurecontains information about a QOS setti
 
 ### -field QosType
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_qos_setting_type">HTTP_QOS_SETTING_TYPE</a> enumeration value that specifies the type of the QOS setting.
+An <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_qos_setting_type">HTTP_QOS_SETTING_TYPE</a> enumeration value that specifies the type of the QOS setting.
 
 
 ### -field QosSetting
@@ -74,7 +74,7 @@ A pointer to a structure that contains the setting.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_qos_setting_type">HTTP_QOS_SETTING_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_qos_setting_type">HTTP_QOS_SETTING_TYPE</a>
  
 
  

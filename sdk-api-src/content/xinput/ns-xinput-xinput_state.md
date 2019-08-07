@@ -8,10 +8,10 @@ tech.root: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_STATE
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PXINPUT_STATE, PXINPUT_STATE, PXINPUT_STATE structure pointer [XInput Game Controller APIs], XINPUT_STATE, XINPUT_STATE structure [XInput Game Controller APIs], xinput.xinput_state, xinput/PXINPUT_STATE, xinput/XINPUT_STATE"
+ms.keywords: '*PXINPUT_STATE, PXINPUT_STATE, PXINPUT_STATE structure pointer [XInput Game Controller APIs], XINPUT_STATE, XINPUT_STATE structure [XInput Game Controller APIs], xinput.xinput_state, xinput/PXINPUT_STATE, xinput/XINPUT_STATE'
 ms.topic: struct
-f1_keywords: 
- - "xinput/XINPUT_STATE"
+f1_keywords:
+- xinput/XINPUT_STATE
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - XInput.h
+- XInput.h
 api_name:
- - XINPUT_STATE
+- XINPUT_STATE
 product: Windows
 targetos: Windows
 req.typenames: XINPUT_STATE, *PXINPUT_STATE
@@ -67,7 +67,7 @@ State packet number. The packet number indicates whether there have been any cha
 ### -field Gamepad
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-_xinput_gamepad">XINPUT_GAMEPAD</a> structure containing the current state of an Xbox 360 Controller.
+<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a> structure containing the current state of an Xbox 360 Controller.
 
 
 ## -remarks
@@ -86,7 +86,7 @@ The <i>dwPacketNumber</i> member is incremented only if the status of the contro
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-_xinput_gamepad">XINPUT_GAMEPAD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrivilegeCheck, PrivilegeCheck function [Security], _win32_privilegecheck, security.privilegecheck, securitybaseapi/PrivilegeCheck
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/PrivilegeCheck"
+f1_keywords:
+- securitybaseapi/PrivilegeCheck
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - PrivilegeCheck
+- PrivilegeCheck
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,18 +75,18 @@ A handle to an access token representing a client <a href="https://docs.microsof
 ### -param RequiredPrivileges [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_privilege_set">PRIVILEGE_SET</a> structure. The <b>Privilege</b> member of this structure is an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid_and_attributes">LUID_AND_ATTRIBUTES</a> structures. Before calling <b>PrivilegeCheck</b>, use the <b>Privilege</b> array to indicate the set of privileges to check. Set the <b>Control</b> member to PRIVILEGE_SET_ALL_NECESSARY if all of the privileges must be enabled; or set it to zero if it is sufficient that any one of the privileges be enabled. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-privilege_set">PRIVILEGE_SET</a> structure. The <b>Privilege</b> member of this structure is an array of 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid_and_attributes">LUID_AND_ATTRIBUTES</a> structures. Before calling <b>PrivilegeCheck</b>, use the <b>Privilege</b> array to indicate the set of privileges to check. Set the <b>Control</b> member to PRIVILEGE_SET_ALL_NECESSARY if all of the privileges must be enabled; or set it to zero if it is sufficient that any one of the privileges be enabled. 
 
 
 
 
-When <b>PrivilegeCheck</b> returns, the <b>Attributes</b> member of each <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid_and_attributes">LUID_AND_ATTRIBUTES</a> structure is set to SE_PRIVILEGE_USED_FOR_ACCESS if the corresponding privilege is enabled.
+When <b>PrivilegeCheck</b> returns, the <b>Attributes</b> member of each <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid_and_attributes">LUID_AND_ATTRIBUTES</a> structure is set to SE_PRIVILEGE_USED_FOR_ACCESS if the corresponding privilege is enabled.
 
 
 ### -param pfResult [out]
 
-A pointer to a value the function sets to indicate whether any or all of the specified privileges are enabled in the access token. If the <b>Control</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_privilege_set">PRIVILEGE_SET</a> structure specifies PRIVILEGE_SET_ALL_NECESSARY, this value is <b>TRUE</b> only if all the privileges are enabled; otherwise, this value is <b>TRUE</b> if any of the privileges are enabled.
+A pointer to a value the function sets to indicate whether any or all of the specified privileges are enabled in the access token. If the <b>Control</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-privilege_set">PRIVILEGE_SET</a> structure specifies PRIVILEGE_SET_ALL_NECESSARY, this value is <b>TRUE</b> only if all the privileges are enabled; otherwise, this value is <b>TRUE</b> if any of the privileges are enabled.
 
 
 ## -returns
@@ -133,7 +133,7 @@ An access token contains a list of the privileges held by the account associated
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid_and_attributes">LUID_AND_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid_and_attributes">LUID_AND_ATTRIBUTES</a>
 
 
 
@@ -145,7 +145,7 @@ An access token contains a list of the privileges held by the account associated
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_privilege_set">PRIVILEGE_SET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-privilege_set">PRIVILEGE_SET</a>
 
 
 

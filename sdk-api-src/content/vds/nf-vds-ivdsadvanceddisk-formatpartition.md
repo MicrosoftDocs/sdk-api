@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FormatPartition, FormatPartition method [VDS], FormatPartition method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],FormatPartition method, IVdsAdvancedDisk.FormatPartition, IVdsAdvancedDisk::FormatPartition, base.ivdsadvanceddisk_formatpartition, vds/IVdsAdvancedDisk::FormatPartition
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsAdvancedDisk.FormatPartition"
+f1_keywords:
+- vds/IVdsAdvancedDisk.FormatPartition
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsAdvancedDisk.FormatPartition
+- IVdsAdvancedDisk.FormatPartition
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The partition offset.
 ### -param type [in]
 
 A 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a> enumeration value that specifies the file system to be used. Must be one of the following: VDS_FST_NTFS, VDS_FST_FAT, VDS_FST_FAT32, or VDS_FST_UDF.
+     <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a> enumeration value that specifies the file system to be used. Must be one of the following: VDS_FST_NTFS, VDS_FST_FAT, VDS_FST_FAT32, or VDS_FST_UDF.
 
 
 ### -param pwszLabel [in]
@@ -174,7 +174,7 @@ This method cannot be used to format removable media.
 
 For information about file system limits such as minimum and maximum allocation unit size (also called cluster size), see <a href="Http://go.microsoft.com/fwlink/p/?linkid=89389">NTFS Technical Reference</a> and <a href="Http://go.microsoft.com/fwlink/p/?linkid=89461">FAT Technical Reference</a>.
 
-If an OEM partition is formatted as FAT or FAT32, the partition type does not change. If it is formatted with NTFS, the partition type changes to PARTITION_IFS (0x07). For information about partition types, see <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_create_partition_parameters">CREATE_PARTITION_PARAMETERS</a>.
+If an OEM partition is formatted as FAT or FAT32, the partition type does not change. If it is formatted with NTFS, the partition type changes to PARTITION_IFS (0x07). For information about partition types, see <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-create_partition_parameters">CREATE_PARTITION_PARAMETERS</a>.
 
 
 
@@ -200,7 +200,7 @@ If an OEM partition is formatted as FAT or FAT32, the partition type does not ch
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>
  
 
  

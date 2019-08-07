@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_TASK_DISPLAY_BITMAP, MMC_TASK_DISPLAY_BITMAP structure [MMC], _slate_mmc_task_display_bitmap, mmc.mmc_task_display_bitmap, mmc/MMC_TASK_DISPLAY_BITMAP
 ms.topic: struct
-f1_keywords: 
- - "mmc/MMC_TASK_DISPLAY_BITMAP"
+f1_keywords:
+- mmc/MMC_TASK_DISPLAY_BITMAP
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - MMC_TASK_DISPLAY_BITMAP
+- MMC_TASK_DISPLAY_BITMAP
 product: Windows
 targetos: Windows
 req.typenames: MMC_TASK_DISPLAY_BITMAP
@@ -56,7 +56,7 @@ The
 
 The 
 <b>MMC_TASK_DISPLAY_BITMAP</b> structure is used for the <b>uBitmap</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_object">MMC_TASK_DISPLAY_OBJECT</a> structure to specify all the data required to display a GIF or bitmap image for a task or background on a taskpad.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_task_display_object">MMC_TASK_DISPLAY_OBJECT</a> structure to specify all the data required to display a GIF or bitmap image for a task or background on a taskpad.
 
 
 ## -struct-fields
@@ -116,15 +116,15 @@ If both <b>szMouseOverBitmap</b> and <b>szMouseOffBitmap</b> point to a <b>NULL<
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_object">MMC_TASK_DISPLAY_OBJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_task_display_object">MMC_TASK_DISPLAY_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_symbol">MMC_TASK_DISPLAY_SYMBOL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_task_display_symbol">MMC_TASK_DISPLAY_SYMBOL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_task_display_type">MMC_TASK_DISPLAY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_task_display_type">MMC_TASK_DISPLAY_TYPE</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_STRING_USERNAME_CREDENTIAL_TYPE, WS_USERNAME_CREDENTIAL_TYPE, WS_USERNAME_CREDENTIAL_TYPE enumeration [Web Services for Windows], webservices/WS_STRING_USERNAME_CREDENTIAL_TYPE, webservices/WS_USERNAME_CREDENTIAL_TYPE, wsw.ws_username_credential_type
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_USERNAME_CREDENTIAL_TYPE"
+f1_keywords:
+- webservices/WS_USERNAME_CREDENTIAL_TYPE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_USERNAME_CREDENTIAL_TYPE
+- WS_USERNAME_CREDENTIAL_TYPE
 product: Windows
 targetos: Windows
 req.typenames: WS_USERNAME_CREDENTIAL_TYPE
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The type of the username/password credential, used as a selector for
-subtypes of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_username_credential">WS_USERNAME_CREDENTIAL</a>.
+subtypes of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_username_credential">WS_USERNAME_CREDENTIAL</a>.
             
 
 

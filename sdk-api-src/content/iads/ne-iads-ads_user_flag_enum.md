@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADS_UF_ACCOUNTDISABLE, ADS_UF_DONT_EXPIRE_PASSWD, ADS_UF_DONT_REQUIRE_PREAUTH, ADS_UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED, ADS_UF_HOMEDIR_REQUIRED, ADS_UF_INTERDOMAIN_TRUST_ACCOUNT, ADS_UF_LOCKOUT, ADS_UF_MNS_LOGON_ACCOUNT, ADS_UF_NORMAL_ACCOUNT, ADS_UF_NOT_DELEGATED, ADS_UF_PASSWD_CANT_CHANGE, ADS_UF_PASSWD_NOTREQD, ADS_UF_PASSWORD_EXPIRED, ADS_UF_SCRIPT, ADS_UF_SERVER_TRUST_ACCOUNT, ADS_UF_SMARTCARD_REQUIRED, ADS_UF_TEMP_DUPLICATE_ACCOUNT, ADS_UF_TRUSTED_FOR_DELEGATION, ADS_UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION, ADS_UF_USE_DES_KEY_ONLY, ADS_UF_WORKSTATION_TRUST_ACCOUNT, ADS_USER_FLAG_ENUM, ADS_USER_FLAG_ENUM enumeration [ADSI], _ds_ads_user_flag_enum, adsi.ads__user__flag__enum, adsi.ads_user_flag_enum, iads/ADS_UF_ACCOUNTDISABLE, iads/ADS_UF_DONT_EXPIRE_PASSWD, iads/ADS_UF_DONT_REQUIRE_PREAUTH, iads/ADS_UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED, iads/ADS_UF_HOMEDIR_REQUIRED, iads/ADS_UF_INTERDOMAIN_TRUST_ACCOUNT, iads/ADS_UF_LOCKOUT, iads/ADS_UF_MNS_LOGON_ACCOUNT, iads/ADS_UF_NORMAL_ACCOUNT, iads/ADS_UF_NOT_DELEGATED, iads/ADS_UF_PASSWD_CANT_CHANGE, iads/ADS_UF_PASSWD_NOTREQD, iads/ADS_UF_PASSWORD_EXPIRED, iads/ADS_UF_SCRIPT, iads/ADS_UF_SERVER_TRUST_ACCOUNT, iads/ADS_UF_SMARTCARD_REQUIRED, iads/ADS_UF_TEMP_DUPLICATE_ACCOUNT, iads/ADS_UF_TRUSTED_FOR_DELEGATION, iads/ADS_UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION, iads/ADS_UF_USE_DES_KEY_ONLY, iads/ADS_UF_WORKSTATION_TRUST_ACCOUNT, iads/ADS_USER_FLAG_ENUM
 ms.topic: enum
-f1_keywords: 
- - "iads/ADS_USER_FLAG_ENUM"
+f1_keywords:
+- iads/ADS_USER_FLAG_ENUM
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_USER_FLAG_ENUM
+- ADS_USER_FLAG_ENUM
 product: Windows
 targetos: Windows
 req.typenames: ADS_USER_FLAG_ENUM
@@ -172,9 +172,9 @@ This account does not require Kerberos preauthentication for logon.
 The user password has expired. This flag is created by the system using data from the  password last set 
       attribute and the domain policy.  It is read-only and cannot be set. To manually set a user password as expired, 
       use the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function with the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_3">USER_INFO_3</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_3">USER_INFO_3</a> 
       (<b>usri3_password_expired</b> member) or 
-      <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_4">USER_INFO_4</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a> 
       (<b>usri4_password_expired</b> member) structure.
 
 

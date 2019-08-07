@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateVirtualDisk, CreateVirtualDisk function [VHD], vdssys/CreateVirtualDisk, vhd.createvirtualdisk, virtdisk/CreateVirtualDisk
 ms.topic: function
-f1_keywords: 
- - "virtdisk/CreateVirtualDisk"
+f1_keywords:
+- virtdisk/CreateVirtualDisk
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VirtDisk.dll
+- VirtDisk.dll
 api_name:
- - CreateVirtualDisk
+- CreateVirtualDisk
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,7 +83,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_vi
 ### -param SecurityDescriptor [in, optional]
 
 An optional pointer to a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> to apply to the virtual 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> to apply to the virtual 
      disk image file. If this parameter is <b>NULL</b>, the parent directory's security descriptor 
      will be used.
 
@@ -108,7 +108,7 @@ A pointer to a valid
 
 ### -param Overlapped [in, optional]
 
-An optional pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure 
+An optional pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure 
      if <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">asynchronous</a> operation 
      is desired.
 

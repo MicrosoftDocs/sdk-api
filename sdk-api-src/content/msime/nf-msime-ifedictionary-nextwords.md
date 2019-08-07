@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFEDictionary interface [Internationalization for Windows Applications],NextWords method, IFEDictionary.NextWords, IFEDictionary::NextWords, NextWords, NextWords method [Internationalization for Windows Applications], NextWords method [Internationalization for Windows Applications],IFEDictionary interface, intl.ifedictionary_nextwords, msime/IFEDictionary::NextWords
 ms.topic: method
-f1_keywords: 
- - "msime/IFEDictionary.NextWords"
+f1_keywords:
+- msime/IFEDictionary.NextWords
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msime.h
+- Msime.h
 api_name:
- - IFEDictionary.NextWords
+- IFEDictionary.NextWords
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ The size of <i>pchBuffer</i>.
 
 ### -param pcWrd [out]
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imewrd">IMEWRD</a> structures returned in <i>pchBuffer</i>. If more entries are found than <i>pchBuffer</i> can store, <b>IFED_S_MORE_ENTRIES</b> will be returned.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structures returned in <i>pchBuffer</i>. If more entries are found than <i>pchBuffer</i> can store, <b>IFED_S_MORE_ENTRIES</b> will be returned.
 
 
 ## -returns
@@ -102,7 +102,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The client must call <a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-nextwords">NextWords</a> to get additional <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imewrd">IMEWRD</a> structures.
+The client must call <a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-nextwords">NextWords</a> to get additional <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structures.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ The client must call <a href="https://docs.microsoft.com/windows/desktop/api/msi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imewrd">IMEWRD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>
  
 
  

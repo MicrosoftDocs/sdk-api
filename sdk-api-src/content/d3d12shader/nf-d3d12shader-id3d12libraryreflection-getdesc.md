@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12LibraryReflection interface, ID3D12LibraryReflection interface,GetDesc method, ID3D12LibraryReflection.GetDesc, ID3D12LibraryReflection::GetDesc, d3d12shader/ID3D12LibraryReflection::GetDesc, direct3d12.id3d12libraryreflection_getdesc
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12LibraryReflection.GetDesc"
+f1_keywords:
+- d3d12shader/ID3D12LibraryReflection.GetDesc
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12LibraryReflection.GetDesc
+- ID3D12LibraryReflection.GetDesc
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,9 +62,9 @@ Fills the library descriptor structure for the library reflection.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_library_desc">D3D12_LIBRARY_DESC</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_library_desc">D3D12_LIBRARY_DESC</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_library_desc">D3D12_LIBRARY_DESC</a> structure that receives a description of the library reflection.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_library_desc">D3D12_LIBRARY_DESC</a> structure that receives a description of the library reflection.
           
 
 

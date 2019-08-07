@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AccessCheckByTypeResultListAndAuditAlarm, AccessCheckByTypeResultListAndAuditAlarm function [Security], AccessCheckByTypeResultListAndAuditAlarmA, AccessCheckByTypeResultListAndAuditAlarmW, _win32_accesscheckbytyperesultlistandauditalarm, security.accesscheckbytyperesultlistandauditalarm, winbase/AccessCheckByTypeResultListAndAuditAlarm, winbase/AccessCheckByTypeResultListAndAuditAlarmA, winbase/AccessCheckByTypeResultListAndAuditAlarmW
 ms.topic: function
-f1_keywords: 
- - "winbase/AccessCheckByTypeResultListAndAuditAlarm"
+f1_keywords:
+- winbase/AccessCheckByTypeResultListAndAuditAlarm
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,23 +30,23 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - AccessCheckByTypeResultListAndAuditAlarm
- - AccessCheckByTypeResultListAndAuditAlarmA
- - AccessCheckByTypeResultListAndAuditAlarmW
+- AccessCheckByTypeResultListAndAuditAlarm
+- AccessCheckByTypeResultListAndAuditAlarmA
+- AccessCheckByTypeResultListAndAuditAlarmW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -112,7 +112,7 @@ If this parameter is MAXIMUM_ALLOWED, the function sets the access mask in <i>Gr
 ### -param AuditType [in]
 
 The type of audit to be generated. This can be one of the values from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_audit_event_type">AUDIT_EVENT_TYPE</a> enumeration type.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-audit_event_type">AUDIT_EVENT_TYPE</a> enumeration type.
 
 
 ### -param Flags [in]
@@ -123,7 +123,7 @@ A flag that controls the function's behavior if the calling <a href="https://doc
 ### -param ObjectTypeList [in, out, optional]
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_object_type_list">OBJECT_TYPE_LIST</a> structures that identify the hierarchy of object types for which to check access. Each element in the array specifies a GUID that identifies the object type and a value that indicates the level of the object type in the hierarchy of object types. The array should not have two elements with the same GUID.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-object_type_list">OBJECT_TYPE_LIST</a> structures that identify the hierarchy of object types for which to check access. Each element in the array specifies a GUID that identifies the object type and a value that indicates the level of the object type in the hierarchy of object types. The array should not have two elements with the same GUID.
 
 The array must have at least one element. The first element in the array must be at level zero and identify the object itself. The array can have only one level zero element. The second element is a subobject, such as a property set, at level 1. Following each level 1 entry are subordinate entries for the level 2 through 4 subobjects. Thus, the levels for the elements in the array might be {0, 1, 2, 2, 1, 2, 3}. If the object type list is out of order, <b>AccessCheckByTypeResultListAndAuditAlarm</b> fails, and 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INVALID_PARAMETER.
@@ -137,7 +137,7 @@ The number of elements in the <i>ObjectTypeList</i> array.
 ### -param GenericMapping [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_generic_mapping">GENERIC_MAPPING</a> structure associated with the object for which access is being checked.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a> structure associated with the object for which access is being checked.
 
 
 ### -param ObjectCreation [in]
@@ -204,7 +204,7 @@ If the security descriptor does not contain owner and group SIDs, <b>AccessCheck
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_audit_event_type">AUDIT_EVENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-audit_event_type">AUDIT_EVENT_TYPE</a>
 
 
 
@@ -232,7 +232,7 @@ If the security descriptor does not contain owner and group SIDs, <b>AccessCheck
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_generic_mapping">GENERIC_MAPPING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a>
 
 
 
@@ -248,7 +248,7 @@ If the security descriptor does not contain owner and group SIDs, <b>AccessCheck
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_object_type_list">OBJECT_TYPE_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-object_type_list">OBJECT_TYPE_LIST</a>
 
 
 

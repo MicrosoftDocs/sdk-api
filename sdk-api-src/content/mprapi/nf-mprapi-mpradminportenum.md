@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminPortEnum, MprAdminPortEnum function [RAS], _mpr_mpradminportenum, mprapi/MprAdminPortEnum, rras.mpradminportenum
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminPortEnum"
+f1_keywords:
+- mprapi/MprAdminPortEnum
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminPortEnum
+- MprAdminPortEnum
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,7 +78,7 @@ A handle to a connection for which the active ports are enumerated. If this para
 
 ### -param lplpbBuffer [out]
 
-On successful completion, a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_port_0">RAS_PORT_0</a> structures that describes the port. Free this memory by calling 
+On successful completion, a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_port_0">RAS_PORT_0</a> structures that describes the port. Free this memory by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>. 
 
 

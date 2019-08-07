@@ -8,10 +8,10 @@ tech.root: devio
 ms.assetid: a3f03509-8be9-4cb4-b942-f5ab358bd70e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDEVICE_DSM_OUTPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_DSM_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure, DeviceDsmAction_Allocation, DeviceDsmAction_Notification, DeviceDsmAction_OffloadRead, DeviceDsmAction_OffloadWrite, DeviceDsmAction_Repair, DeviceDsmAction_Resiliency, DeviceDsmAction_Scrub, DeviceDsmAction_Trim, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure pointer, base.device_manage_data_set_attributes_output, winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, winioctl/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT"
+ms.keywords: '*PDEVICE_DSM_OUTPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_DSM_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure, DeviceDsmAction_Allocation, DeviceDsmAction_Notification, DeviceDsmAction_OffloadRead, DeviceDsmAction_OffloadWrite, DeviceDsmAction_Repair, DeviceDsmAction_Resiliency, DeviceDsmAction_Scrub, DeviceDsmAction_Trim, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure pointer, base.device_manage_data_set_attributes_output, winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, winioctl/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT"
+f1_keywords:
+- winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
+- DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
 product: Windows
 targetos: Windows
 req.typenames: DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_DSM_OUTPUT, *PDEVICE_DSM_OUTPUT
@@ -124,7 +124,7 @@ An offload read action is performed. The output described by the
 <td width="60%">
 An offload write action is performed. The output described by the 
          <b>OutputBlockOffset</b> and <b>OutputBlockLength</b> members is a 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_offload_write_output">STORAGE_OFFLOAD_WRITE_OUTPUT</a> structure.
+         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_offload_write_output">STORAGE_OFFLOAD_WRITE_OUTPUT</a> structure.
 
 </td>
 </tr>

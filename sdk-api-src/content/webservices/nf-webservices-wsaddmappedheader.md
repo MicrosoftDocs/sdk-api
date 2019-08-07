@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsAddMappedHeader, WsAddMappedHeader function [Web Services for Windows], webservices/WsAddMappedHeader, wsw.wsaddmappedheader
 ms.topic: function
-f1_keywords: 
- - "webservices/WsAddMappedHeader"
+f1_keywords:
+- webservices/WsAddMappedHeader
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsAddMappedHeader
+- WsAddMappedHeader
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ The message can be in any state except <b>WS_MESSAGE_STATE_EMPTY</b> (see the <a
 
 ### -param headerName [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_string">WS_XML_STRING</a> containing the name of the header.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> containing the name of the header.
                 
 
 
@@ -171,7 +171,7 @@ A message may contain additional transport-specific information that is
                 transport-specific location.
             
 
-When you use the HTTP channel, you must specify the required mappings  before before you call this function to add the headers.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a>.
+When you use the HTTP channel, you must specify the required mappings  before before you call this function to add the headers.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a>.
             
 
 If you are replacing a header, call the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsremovemappedheader">WsRemoveMappedHeader</a> function to remove

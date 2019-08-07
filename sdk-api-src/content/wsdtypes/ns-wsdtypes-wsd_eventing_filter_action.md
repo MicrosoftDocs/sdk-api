@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_EVENTING_FILTER_ACTION, WSD_EVENTING_FILTER_ACTION structure, ncd.wsd_eventing_filter_action, wsdtypes/WSD_EVENTING_FILTER_ACTION
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_EVENTING_FILTER_ACTION"
+f1_keywords:
+- wsdtypes/WSD_EVENTING_FILTER_ACTION
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_EVENTING_FILTER_ACTION
+- WSD_EVENTING_FILTER_ACTION
 product: Windows
 targetos: Windows
 req.typenames: WSD_EVENTING_FILTER_ACTION
@@ -61,7 +61,7 @@ Represents a boolean expression used for filtering events
 
 ### -field Actions
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_uri_list">WSD_URI_LIST</a> structure that specifies the URIs used for filtering notifications.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_uri_list">WSD_URI_LIST</a> structure that specifies the URIs used for filtering notifications.
 
 
 ## -remarks

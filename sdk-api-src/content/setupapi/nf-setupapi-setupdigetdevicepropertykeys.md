@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDevicePropertyKeys, SetupDiGetDevicePropertyKeys function [Device and Driver Installation], devinst.setupdigetdevicepropertykeys, di-rtns_49d5f09f-3d86-4292-a389-e6a0ee0946b6.xml, setupapi/SetupDiGetDevicePropertyKeys
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiGetDevicePropertyKeys"
+f1_keywords:
+- setupapi/SetupDiGetDevicePropertyKeys
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Get_DevNode_Property_Keys
@@ -30,14 +30,14 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupDiGetDevicePropertyKeys
+- SetupDiGetDevicePropertyKeys
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/insta
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the device instance for which to retrieve the requested array of device property keys. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the device instance for which to retrieve the requested array of device property keys. 
 
 
 ### -param PropertyKeyArray [out, optional]

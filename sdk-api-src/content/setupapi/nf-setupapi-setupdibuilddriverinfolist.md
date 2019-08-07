@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SPDIT_CLASSDRIVER, SPDIT_COMPATDRIVER, SetupDiBuildDriverInfoList, SetupDiBuildDriverInfoList function [Device and Driver Installation], devinst.setupdibuilddriverinfolist, di-rtns_dd9aa1be-1a67-4cc6-8a06-5db71eecd322.xml, setupapi/SetupDiBuildDriverInfoList
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiBuildDriverInfoList"
+f1_keywords:
+- setupapi/SetupDiBuildDriverInfoList
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -30,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-SetupAPI-ClassInstallers-l1-1-1.dll
- - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+- Setupapi.dll
+- Ext-MS-Win-SetupAPI-ClassInstallers-l1-1-1.dll
+- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
- - SetupDiBuildDriverInfoList
+- SetupDiBuildDriverInfoList
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -121,11 +121,11 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 The device information set should be for a local computer because <b>SetupDiBuildDriverInfoList</b> searches for drivers only on a local computer. If the device information set is for a remote computer, the function returns <b>TRUE</b> but does not actually update the existing driver list for the device information set or, if supplied, the driver list for the device information element.
 
-The caller can set <b>Flags</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> that are associated with the device information set or with a specific device (<i>DeviceInfoData</i>) to control how the list is built. For example, the caller can set the <b>DI_FLAGSEX_ALLOWEXCLUDEDDRVS</b> flag to include drivers that are marked Exclude From Select.
+The caller can set <b>Flags</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> that are associated with the device information set or with a specific device (<i>DeviceInfoData</i>) to control how the list is built. For example, the caller can set the <b>DI_FLAGSEX_ALLOWEXCLUDEDDRVS</b> flag to include drivers that are marked Exclude From Select.
 
 A driver is "Exclude From Select" if either it is marked <b>ExcludeFromSelect</b> in the INF file or it is a driver for a device whose whole setup class is marked <b>NoInstallClass</b> or <b>NoUseClass</b> in the class installer INF file. Drivers for PnP devices are typically "Exclude From Select"; PnP devices should not be manually installed. To build a list of driver files for a PnP device a caller of <b>SetupDiBuildDriverInfoList</b> must set this flag. 
 
-The <b>DriverPath</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> contains either a path of a directory that contain INF files or a path of a specific INF file. If <b>DI_ENUMSINGLEINF</b> is set, <b>DriverPath</b> contains a path of a single INF file. If <b>DriverPath</b> is <b>NULL</b>, this function builds the driver list from the default INF file location, %SystemRoot%\inf. 
+The <b>DriverPath</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> contains either a path of a directory that contain INF files or a path of a specific INF file. If <b>DI_ENUMSINGLEINF</b> is set, <b>DriverPath</b> contains a path of a single INF file. If <b>DriverPath</b> is <b>NULL</b>, this function builds the driver list from the default INF file location, %SystemRoot%\inf. 
 
 After this function has built the specified driver list, the caller can enumerate the elements of the list by calling <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdriverinfoa">SetupDiEnumDriverInfo</a>.
 

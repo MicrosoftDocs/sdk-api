@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: a142b8fd-b71c-4449-a8c6-fb23715d1576
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_IO_PRIORITY_HINT_INFO, FILE_IO_PRIORITY_HINT_INFO, FILE_IO_PRIORITY_HINT_INFO structure [Files], PFILE_IO_PRIORITY_HINT_INFO, PFILE_IO_PRIORITY_HINT_INFO structure pointer [Files], _FILE_IO_PRIORITY_HINT_INFO, fs.file_io_priority_hint_info, winbase/FILE_IO_PRIORITY_HINT_INFO, winbase/PFILE_IO_PRIORITY_HINT_INFO"
+ms.keywords: '*PFILE_IO_PRIORITY_HINT_INFO, FILE_IO_PRIORITY_HINT_INFO, FILE_IO_PRIORITY_HINT_INFO structure [Files], PFILE_IO_PRIORITY_HINT_INFO, PFILE_IO_PRIORITY_HINT_INFO structure pointer [Files], _FILE_IO_PRIORITY_HINT_INFO, fs.file_io_priority_hint_info, winbase/FILE_IO_PRIORITY_HINT_INFO, winbase/PFILE_IO_PRIORITY_HINT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winbase/FILE_IO_PRIORITY_HINT_INFO"
+f1_keywords:
+- winbase/FILE_IO_PRIORITY_HINT_INFO
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - FILE_IO_PRIORITY_HINT_INFO
+- FILE_IO_PRIORITY_HINT_INFO
 product: Windows
 targetos: Windows
 req.typenames: FILE_IO_PRIORITY_HINT_INFO, *PFILE_IO_PRIORITY_HINT_INFO
@@ -62,7 +62,7 @@ Specifies the priority hint for a file I/O operation.
 ### -field PriorityHint
 
 The priority hint. This member is a value from the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-_priority_hint">PRIORITY_HINT</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-priority_hint">PRIORITY_HINT</a> enumeration.
 
 
 ## -remarks
@@ -87,7 +87,7 @@ This structure must be aligned on a <b>LONGLONG</b> (8-byte) boundary.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-_priority_hint">PRIORITY_HINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-priority_hint">PRIORITY_HINT</a>
 
 
 

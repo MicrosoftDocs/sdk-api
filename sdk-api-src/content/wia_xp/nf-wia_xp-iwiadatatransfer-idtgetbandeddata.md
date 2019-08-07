@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtGetBandedData method, IWiaDataTransfer.idtGetBandedData, IWiaDataTransfer::idtGetBandedData, _wia_IWiaDataTransfer_idtGetBandedData, idtGetBandedData, idtGetBandedData method [WIA], idtGetBandedData method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtGetBandedData, wia_xp/IWiaDataTransfer::idtGetBandedData
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaDataTransfer.idtGetBandedData"
+f1_keywords:
+- wia_xp/IWiaDataTransfer.idtGetBandedData
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaDataTransfer.idtGetBandedData
+- IWiaDataTransfer.idtGetBandedData
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The <b>IWiaDataTransfer::idtGetBandedData</b> method transfers a band of data fr
 
 Type: <b>PWIA_DATA_TRANSFER_INFO</b>
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-_wia_data_transfer_info">WIA_DATA_TRANSFER_INFO</a> structure.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-wia_data_transfer_info">WIA_DATA_TRANSFER_INFO</a> structure.
 
 
 ### -param pIWiaDataCallback [in]
@@ -128,9 +128,9 @@ This method will return a value specified in <a href="https://docs.microsoft.com
 
 The <b>IWiaDataTransfer::idtGetBandedData</b> method allocates a section of memory to transfer data without requiring an extra data copy through the Component Object Model/Remote Procedure Call (COM/RPC) marshalling layer. This memory section is shared between the application and the hardware device's item tree.
 
-Optionally, the application can pass in a pointer to a block of memory that <b>IWiaDataTransfer::idtGetBandedData</b> will use as its shared section. The application passes this handle by storing the pointer in the <b>ulSection</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-_wia_data_transfer_info">WIA_DATA_TRANSFER_INFO</a> structure prior to calling <b>IWiaDataTransfer::idtGetBandedData</b>.
+Optionally, the application can pass in a pointer to a block of memory that <b>IWiaDataTransfer::idtGetBandedData</b> will use as its shared section. The application passes this handle by storing the pointer in the <b>ulSection</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-wia_data_transfer_info">WIA_DATA_TRANSFER_INFO</a> structure prior to calling <b>IWiaDataTransfer::idtGetBandedData</b>.
 
-Applications can improve performance by using double buffering. To do this, applications must set the <b>bDoubleBuffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-_wia_data_transfer_info">WIA_DATA_TRANSFER_INFO</a> structure to <b>TRUE</b>. The <b>IWiaDataTransfer::idtGetBandedData</b> method will divide the data buffer in half. When one half of the buffer is full, <b>IWiaDataTransfer::idtGetBandedData</b> will send a notification to the application using the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatacallback">IWiaDataCallback</a> pointer passed in through the <i>pIWiaDataCallback</i> parameter. While the application is retrieving the data from the full half of the buffer, the device driver can fill the other half with data.
+Applications can improve performance by using double buffering. To do this, applications must set the <b>bDoubleBuffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-wia_data_transfer_info">WIA_DATA_TRANSFER_INFO</a> structure to <b>TRUE</b>. The <b>IWiaDataTransfer::idtGetBandedData</b> method will divide the data buffer in half. When one half of the buffer is full, <b>IWiaDataTransfer::idtGetBandedData</b> will send a notification to the application using the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatacallback">IWiaDataCallback</a> pointer passed in through the <i>pIWiaDataCallback</i> parameter. While the application is retrieving the data from the full half of the buffer, the device driver can fill the other half with data.
 
 The format of the data transfer is determined by the values of the item's <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-wiaitempropcommonitem">WIA_IPA_FORMAT</a> and <b>WIA_IPA_TYMED</b> properties. The application sets these properties with calls to the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writemultiple">IWiaPropertyStorage::WriteMultiple</a> method.
 

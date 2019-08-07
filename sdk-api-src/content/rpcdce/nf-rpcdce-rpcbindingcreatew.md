@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcBindingCreate, RpcBindingCreate function [RPC], RpcBindingCreateA, RpcBindingCreateW, rpc.rpcbindingcreate, rpcdce/RpcBindingCreate, rpcdce/RpcBindingCreateA, rpcdce/RpcBindingCreateW
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcBindingCreate"
+f1_keywords:
+- rpcdce/RpcBindingCreate
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcBindingCreate
- - RpcBindingCreateA
- - RpcBindingCreateW
+- RpcBindingCreate
+- RpcBindingCreateA
+- RpcBindingCreateW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,23 +64,23 @@ The <b>RpcBindingCreate</b> function creates a new fast RPC binding handle based
 ### -param Template [in]
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_binding_handle_template_v1_a">RPC_BINDING_HANDLE_TEMPLATE</a> structure that describes the binding handle to be created by this call. This data may be overwritten during the call, so the API does not maintain a reference to this data. The caller must free the memory used by this structure when the API returns.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_binding_handle_template_v1_a">RPC_BINDING_HANDLE_TEMPLATE</a> structure that describes the binding handle to be created by this call. This data may be overwritten during the call, so the API does not maintain a reference to this data. The caller must free the memory used by this structure when the API returns.
 
 
 ### -param Security [in, optional]
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_binding_handle_security_v1_a">RPC_BINDING_HANDLE_SECURITY</a> structure that describes the security options for this binding handle. This data may be overwritten during the call, so the API does not maintain a reference to this data. The caller must free the memory used by this structure when the API returns.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_binding_handle_security_v1_a">RPC_BINDING_HANDLE_SECURITY</a> structure that describes the security options for this binding handle. This data may be overwritten during the call, so the API does not maintain a reference to this data. The caller must free the memory used by this structure when the API returns.
 
-This parameter is optional. If this parameter is set to <b>NULL</b>, the default security settings for <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_binding_handle_security_v1_a">RPC_BINDING_HANDLE_SECURITY</a> will be used.
+This parameter is optional. If this parameter is set to <b>NULL</b>, the default security settings for <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_binding_handle_security_v1_a">RPC_BINDING_HANDLE_SECURITY</a> will be used.
 
 
 ### -param Options [in, optional]
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_binding_handle_options_v1">RPC_BINDING_HANDLE_OPTIONS</a> structure that describes additional options for the binding handle. This data may be overwritten during the call, so the API does not maintain a reference to this data. The caller must free the memory used by this structure when the API returns.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_binding_handle_options_v1">RPC_BINDING_HANDLE_OPTIONS</a> structure that describes additional options for the binding handle. This data may be overwritten during the call, so the API does not maintain a reference to this data. The caller must free the memory used by this structure when the API returns.
 
-This parameter is optional. If this parameter is set to <b>NULL</b>, the default options for <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_binding_handle_options_v1">RPC_BINDING_HANDLE_OPTIONS</a> will be used.
+This parameter is optional. If this parameter is set to <b>NULL</b>, the default options for <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_binding_handle_options_v1">RPC_BINDING_HANDLE_OPTIONS</a> will be used.
 
 
 ### -param Binding [out]

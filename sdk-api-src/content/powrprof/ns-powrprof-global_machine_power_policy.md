@@ -8,10 +8,10 @@ tech.root: power
 ms.assetid: 79b57da4-0125-427b-aec7-7ca4c9bfb870
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PGLOBAL_MACHINE_POWER_POLICY, GLOBAL_MACHINE_POWER_POLICY, GLOBAL_MACHINE_POWER_POLICY structure, PGLOBAL_MACHINE_POWER_POLICY, PGLOBAL_MACHINE_POWER_POLICY structure pointer, _win32_global_machine_power_policy_str, base.global_machine_power_policy_str, powrprof/GLOBAL_MACHINE_POWER_POLICY, powrprof/PGLOBAL_MACHINE_POWER_POLICY"
+ms.keywords: '*PGLOBAL_MACHINE_POWER_POLICY, GLOBAL_MACHINE_POWER_POLICY, GLOBAL_MACHINE_POWER_POLICY structure, PGLOBAL_MACHINE_POWER_POLICY, PGLOBAL_MACHINE_POWER_POLICY structure pointer, _win32_global_machine_power_policy_str, base.global_machine_power_policy_str, powrprof/GLOBAL_MACHINE_POWER_POLICY, powrprof/PGLOBAL_MACHINE_POWER_POLICY'
 ms.topic: struct
-f1_keywords: 
- - "powrprof/GLOBAL_MACHINE_POWER_POLICY"
+f1_keywords:
+- powrprof/GLOBAL_MACHINE_POWER_POLICY
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - PowrProf.h
+- PowrProf.h
 api_name:
- - GLOBAL_MACHINE_POWER_POLICY
+- GLOBAL_MACHINE_POWER_POLICY
 product: Windows
 targetos: Windows
 req.typenames: GLOBAL_MACHINE_POWER_POLICY, *PGLOBAL_MACHINE_POWER_POLICY
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Contains global computer power policy settings that apply to all power schemes for all 
    users. This structure is part of the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_global_power_policy">GLOBAL_POWER_POLICY</a> structure.
+   <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_power_policy">GLOBAL_POWER_POLICY</a> structure.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ The current structure revision level. Set this value by calling
 
 The maximum power state (highest Sx value) from which a lid-open event should wake the system when running 
       on AC power. This member must be one of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type values. A value 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type values. A value 
       of <b>PowerSystemUnspecified</b> indicates that a lid-open event does not wake the 
       system.
 
@@ -83,7 +83,7 @@ The maximum power state (highest Sx value) from which a lid-open event should wa
 
 The maximum power state (highest Sx value) from which a lid-open event should wake the system when running 
       on battery. This member must be one of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type values. A value 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type values. A value 
       of <b>PowerSystemUnspecified</b> indicates that a lid-open event does not wake the 
       system.
 
@@ -99,7 +99,7 @@ The resolution of change in the current battery capacity that should cause the s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_global_power_policy">GLOBAL_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_power_policy">GLOBAL_POWER_POLICY</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: b8b5fd3e-a0db-4edd-84c7-48bae9adc3f8
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCTL_MODIFY_REQUEST, CTL_MODIFY_REQUEST, CTL_MODIFY_REQUEST structure [Security], CTL_MODIFY_REQUEST_ADD_NOT_TRUSTED, CTL_MODIFY_REQUEST_ADD_TRUSTED, CTL_MODIFY_REQUEST_REMOVE, PCTL_MODIFY_REQUEST, PCTL_MODIFY_REQUEST structure pointer [Security], cryptdlg/CTL_MODIFY_REQUEST, cryptdlg/PCTL_MODIFY_REQUEST, security.ctl_modify_request"
+ms.keywords: '*PCTL_MODIFY_REQUEST, CTL_MODIFY_REQUEST, CTL_MODIFY_REQUEST structure [Security], CTL_MODIFY_REQUEST_ADD_NOT_TRUSTED, CTL_MODIFY_REQUEST_ADD_TRUSTED, CTL_MODIFY_REQUEST_REMOVE, PCTL_MODIFY_REQUEST, PCTL_MODIFY_REQUEST structure pointer [Security], cryptdlg/CTL_MODIFY_REQUEST, cryptdlg/PCTL_MODIFY_REQUEST, security.ctl_modify_request'
 ms.topic: struct
-f1_keywords: 
- - "cryptdlg/CTL_MODIFY_REQUEST"
+f1_keywords:
+- cryptdlg/CTL_MODIFY_REQUEST
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CryptDlg.h
+- CryptDlg.h
 api_name:
- - CTL_MODIFY_REQUEST
+- CTL_MODIFY_REQUEST
 product: Windows
 targetos: Windows
 req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
@@ -61,7 +61,7 @@ The <b>CTL_MODIFY_REQUEST</b> structure contains a request to modify a certifica
 
 ### -field pccert
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that contains the certificate to change the trust on.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the certificate to change the trust on.
 
 
 ### -field dwOperation

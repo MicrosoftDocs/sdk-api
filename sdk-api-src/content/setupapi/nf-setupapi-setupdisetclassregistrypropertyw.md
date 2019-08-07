@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiSetClassRegistryProperty, SetupDiSetClassRegistryProperty function [Device and Driver Installation], SetupDiSetClassRegistryPropertyA, SetupDiSetClassRegistryPropertyW, devinst.setupdisetclassregistryproperty, di-rtns_77b5fc07-42ec-4515-b20c-87cf1c8e4b86.xml, setupapi/SetupDiSetClassRegistryProperty
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiSetClassRegistryProperty"
+f1_keywords:
+- setupapi/SetupDiSetClassRegistryProperty
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -30,15 +30,15 @@ req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Setupapi.lib
- - Setupapi.dll
+- Setupapi.lib
+- Setupapi.dll
 api_name:
- - SetupDiSetClassRegistryProperty
+- SetupDiSetClassRegistryProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -93,7 +93,7 @@ The caller supplies a DWORD value  that specifies whether users can obtain exclu
 
 #### SPCRP_LOWERFILTERS
 
-(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the lower filter drivers that are installed for the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a>. For more information about how to install a class filter driver, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/installing-a-filter-driver">Installing a Filter Driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-classinstall32-section">INF ClassInstall32 Section</a>. 
+(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the lower filter drivers that are installed for the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>. For more information about how to install a class filter driver, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/installing-a-filter-driver">Installing a Filter Driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-classinstall32-section">INF ClassInstall32 Section</a>. 
 
 
 
@@ -151,7 +151,7 @@ The caller supplies a DWORD value  that specifies whether users can obtain exclu
 
 ##### - Property.SPCRP_LOWERFILTERS
 
-(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the lower filter drivers that are installed for the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a>. For more information about how to install a class filter driver, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/installing-a-filter-driver">Installing a Filter Driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-classinstall32-section">INF ClassInstall32 Section</a>. 
+(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the lower filter drivers that are installed for the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>. For more information about how to install a class filter driver, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/installing-a-filter-driver">Installing a Filter Driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-classinstall32-section">INF ClassInstall32 Section</a>. 
 
 
 ##### - Property.SPCRP_SECURITY

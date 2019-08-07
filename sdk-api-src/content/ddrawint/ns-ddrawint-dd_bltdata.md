@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: e39bdfc4-89d0-4440-93d3-1b455cc9a8e5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_BLTDATA, DD_BLTDATA, DD_BLTDATA structure [Display Devices], ddrawint/DD_BLTDATA, ddstrcts_0697bd98-66f4-4f58-b407-c3bcc73eee86.xml, display.dd_bltdata"
+ms.keywords: '*PDD_BLTDATA, DD_BLTDATA, DD_BLTDATA structure [Display Devices], ddrawint/DD_BLTDATA, ddstrcts_0697bd98-66f4-4f58-b407-c3bcc73eee86.xml, display.dd_bltdata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_BLTDATA"
+f1_keywords:
+- ddrawint/DD_BLTDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_BLTDATA
+- DD_BLTDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_BLTDATA, DD_BLTDATA"
+req.typenames: '*PDD_BLTDATA, DD_BLTDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,7 +61,7 @@ The DD_BLTDATA structure contains the information relevant to the driver for doi
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 
 ### -field lpDDDestSurface

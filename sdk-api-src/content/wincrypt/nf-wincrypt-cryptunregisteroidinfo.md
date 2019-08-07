@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptUnregisterOIDInfo, CryptUnregisterOIDInfo function [Security], _crypto2_cryptunregisteroidinfo, security.cryptunregisteroidinfo, wincrypt/CryptUnregisterOIDInfo
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptUnregisterOIDInfo"
+f1_keywords:
+- wincrypt/CryptUnregisterOIDInfo
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptUnregisterOIDInfo
+- CryptUnregisterOIDInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>CryptUnregisterOIDInfo</b> function removes the registration of a specified 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_oid_info">CRYPT_OID_INFO</a> OID information structure. The structure to be unregistered is identified by the structure's <b>pszOID</b> and <b>dwGroupId</b> members.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a> OID information structure. The structure to be unregistered is identified by the structure's <b>pszOID</b> and <b>dwGroupId</b> members.
 
 
 ## -parameters
@@ -89,7 +89,7 @@ If the function fails, the return value is zero (FALSE).
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_oid_info">CRYPT_OID_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a>
 
 
 

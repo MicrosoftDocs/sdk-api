@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateToolbarEx, CreateToolbarEx function [Windows Controls], _win32_CreateToolbarEx, _win32_CreateToolbarEx_cpp, commctrl/CreateToolbarEx, controls.CreateToolbarEx, controls._win32_CreateToolbarEx
 ms.topic: function
-f1_keywords: 
- - "commctrl/CreateToolbarEx"
+f1_keywords:
+- commctrl/CreateToolbarEx
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - CreateToolbarEx
+- CreateToolbarEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -109,7 +109,7 @@ Resource identifier for the bitmap resource. If
 
 Type: <b>LPCTBBUTTON</b>
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_tbbutton">TBBUTTON</a> structures that contain information about the buttons to add to the toolbar. 
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tbbutton">TBBUTTON</a> structures that contain information about the buttons to add to the toolbar. 
 
 
 ### -param iNumButtons
@@ -151,7 +151,7 @@ Height, in pixels, of the button images to add to the buttons in the toolbar.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Size of a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_tbbutton">TBBUTTON</a> structure. 
+Size of a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tbbutton">TBBUTTON</a> structure. 
 
 
 ## -returns

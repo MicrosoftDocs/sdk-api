@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetServerTransportDel, NetServerTransportDel function [Network Management], _win32_netservertransportdel, lmserver/NetServerTransportDel, netmgmt.netservertransportdel
 ms.topic: function
-f1_keywords: 
- - "lmserver/NetServerTransportDel"
+f1_keywords:
+- lmserver/NetServerTransportDel
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetServerTransportDel
+- NetServerTransportDel
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -87,7 +87,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Specifies information about the transport protocol, including name, address, and location on the network. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_0">SERVER_TRANSPORT_INFO_0</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_0">SERVER_TRANSPORT_INFO_0</a> structure.
 
 </td>
 </tr>
@@ -215,7 +215,7 @@ Only members of the Administrators or Server Operators local group can successfu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_0">SERVER_TRANSPORT_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_0">SERVER_TRANSPORT_INFO_0</a>
 
 
 

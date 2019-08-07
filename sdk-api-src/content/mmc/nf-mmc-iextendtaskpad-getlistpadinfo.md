@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetListPadInfo, GetListPadInfo method [MMC], GetListPadInfo method [MMC],IExtendTaskPad interface, IExtendTaskPad interface [MMC],GetListPadInfo method, IExtendTaskPad.GetListPadInfo, IExtendTaskPad::GetListPadInfo, _slate_iextendtaskpad_getlistpadinfo, mmc.iextendtaskpad_getlistpadinfo, mmc/IExtendTaskPad::GetListPadInfo
 ms.topic: method
-f1_keywords: 
- - "mmc/IExtendTaskPad.GetListPadInfo"
+f1_keywords:
+- mmc/IExtendTaskPad.GetListPadInfo
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IExtendTaskPad.GetListPadInfo
+- IExtendTaskPad.GetListPadInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,10 +68,10 @@ A pointer to a null-terminated string that contains the group name that identifi
 ### -param lpListPadInfo [out]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_listpad_info">MMC_LISTPAD_INFO</a> structure that the snap-in must fill in with the title text for the list control, the text for an optional button, and the command ID passed to <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">IExtendTaskPad::TaskNotify</a> when that optional button is clicked.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_listpad_info">MMC_LISTPAD_INFO</a> structure that the snap-in must fill in with the title text for the list control, the text for an optional button, and the command ID passed to <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">IExtendTaskPad::TaskNotify</a> when that optional button is clicked.
 
 Be aware that the caller (MMC) allocates the memory for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_listpad_info">MMC_LISTPAD_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_listpad_info">MMC_LISTPAD_INFO</a> structure.
 
 
 ## -returns

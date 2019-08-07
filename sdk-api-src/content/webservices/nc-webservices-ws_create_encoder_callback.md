@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_CREATE_ENCODER_CALLBACK, WS_CREATE_ENCODER_CALLBACK callback, WS_CREATE_ENCODER_CALLBACK callback function [Web Services for Windows], webservices/WS_CREATE_ENCODER_CALLBACK, wsw.ws_create_encoder_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_CREATE_ENCODER_CALLBACK"
+f1_keywords:
+- webservices/WS_CREATE_ENCODER_CALLBACK
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_CREATE_ENCODER_CALLBACK
+- WS_CREATE_ENCODER_CALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Handles creating an encoder instance.
 
 ### -param *createContext [in]
 
-The createContext that was specified in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_channel_encoder">WS_CHANNEL_ENCODER</a>used during channel creation.
+The createContext that was specified in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_channel_encoder">WS_CHANNEL_ENCODER</a>used during channel creation.
                 
 
 

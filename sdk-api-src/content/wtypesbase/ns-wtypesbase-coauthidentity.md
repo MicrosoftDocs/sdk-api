@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COAUTHIDENTITY, COAUTHIDENTITY structure [COM], SEC_WINNT_AUTH_IDENTITY_ANSI, SEC_WINNT_AUTH_IDENTITY_UNICODE, _COAUTHIDENTITY, _com_COAUTHIDENTITY, com.coauthidentity, wtypesbase/COAUTHIDENTITY
 ms.topic: struct
-f1_keywords: 
- - "wtypesbase/COAUTHIDENTITY"
+f1_keywords:
+- wtypesbase/COAUTHIDENTITY
 req.header: wtypesbase.h
 req.include-header: WTypes.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wtypesbase.h
+- wtypesbase.h
 api_name:
- - COAUTHIDENTITY
+- COAUTHIDENTITY
 product: Windows
 targetos: Windows
 req.typenames: COAUTHIDENTITY
@@ -141,7 +141,7 @@ This structure is equivalenet to the <a href="https://docs.microsoft.com/windows
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ns-wtypesbase-_coauthinfo">COAUTHINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthinfo">COAUTHINFO</a>
  
 
  

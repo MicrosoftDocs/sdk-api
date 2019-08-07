@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TruncateLog, TruncateLog function [Files], clfsw32/TruncateLog, fs.truncatelog
 ms.topic: function
-f1_keywords: 
- - "clfsw32/TruncateLog"
+f1_keywords:
+- clfsw32/TruncateLog
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Clfsw32.dll
+- Clfsw32.dll
 api_name:
- - TruncateLog
+- TruncateLog
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A pointer to the opaque marshaling context that is allocated by calling the <a h
 
 ### -param plsnEnd [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a> structure that specifies the new end of a log.  
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that specifies the new end of a log.  
 
 The LSN must be between the base log sequence number (LSN) of the log and the last LSN of the log. 
 
@@ -105,7 +105,7 @@ If the volume sector size is greater than 512 bytes, <b>TruncateLog</b> returns 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
 
 
 
@@ -113,7 +113,7 @@ If the volume sector size is greater than 512 bytes, <b>TruncateLog</b> returns 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
  
 
  

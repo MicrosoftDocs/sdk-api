@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_SOAP_HEADER, WSD_SOAP_HEADER structure, ncd.wsd_soap_header_struct, wsdtypes/WSD_SOAP_HEADER
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_SOAP_HEADER"
+f1_keywords:
+- wsdtypes/WSD_SOAP_HEADER
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_SOAP_HEADER
+- WSD_SOAP_HEADER
 product: Windows
 targetos: Windows
 req.typenames: WSD_SOAP_HEADER
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides SOAP header data for the <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_message">WSD_SOAP_MESSAGE</a> structure.
+Provides SOAP header data for the <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_message">WSD_SOAP_MESSAGE</a> structure.
 
 
 
@@ -83,26 +83,26 @@ In response messages, specifies the message ID of the matching request message.
 
 ### -field ReplyTo
 
-In request messages, a reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure that specifies to the endpoint to which responses should be sent.
+In request messages, a reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure that specifies to the endpoint to which responses should be sent.
 
 
 ### -field From
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure that specifies the endpoint from which the SOAP message was sent.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure that specifies the endpoint from which the SOAP message was sent.
 
 
 ### -field FaultTo
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure that specifies to the endpoint to which fault messages should be sent.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure that specifies to the endpoint to which fault messages should be sent.
 
 
 ### -field AppSequence
 
-In discovery messages, a reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_app_sequence">WSD_APP_SEQUENCE</a> structure that helps the recipient determine the order in which messages were issued by the sender.
+In discovery messages, a reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_app_sequence">WSD_APP_SEQUENCE</a> structure that helps the recipient determine the order in which messages were issued by the sender.
 
 
 ### -field AnyHeaders
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_element">WSDXML_ELEMENT</a> structure that specifies additional headers not encoded by the other members. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies additional headers not encoded by the other members. 
 
 

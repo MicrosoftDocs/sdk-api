@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetScheduleJobGetInfo, NetScheduleJobGetInfo function [Network Management], _win32_netschedulejobgetinfo, lmat/NetScheduleJobGetInfo, netmgmt.netschedulejobgetinfo
 ms.topic: function
-f1_keywords: 
- - "lmat/NetScheduleJobGetInfo"
+f1_keywords:
+- lmat/NetScheduleJobGetInfo
 req.header: lmat.h
 req.include-header: Lmat.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetScheduleJobGetInfo
+- NetScheduleJobGetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -80,7 +80,7 @@ A value that indicates the identifier of the job for which to retrieve informati
 ### -param PointerToBuffer [out]
 
 A pointer to the buffer that receives the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmat/ns-lmat-_at_info">AT_INFO</a> structure describing the specified job. This buffer is allocated by the system and must be freed using the 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmat/ns-lmat-at_info">AT_INFO</a> structure describing the specified job. This buffer is allocated by the system and must be freed using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
@@ -117,7 +117,7 @@ If the following registry value has the least significant bit set (for example, 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmat/ns-lmat-_at_info">AT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmat/ns-lmat-at_info">AT_INFO</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CVssWriterEx interface,InitializeEx method, CVssWriterEx.InitializeEx, CVssWriterEx::InitializeEx, InitializeEx, InitializeEx method, InitializeEx method,CVssWriterEx interface, base.cvsswriterex_initializeex, vswriter/CVssWriterEx::InitializeEx
 ms.topic: method
-f1_keywords: 
- - "vswriter/CVssWriterEx.InitializeEx"
+f1_keywords:
+- vswriter/CVssWriterEx.InitializeEx
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - CVssWriterEx.InitializeEx
+- CVssWriterEx.InitializeEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -100,7 +100,7 @@ A
 ### -param nLevel [in]
 
 A 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_application_level">VSS_APPLICATION_LEVEL</a> enumeration value that indicates the application level at which the writer receives a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">Freeze</a> event notification. 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_application_level">VSS_APPLICATION_LEVEL</a> enumeration value that indicates the application level at which the writer receives a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">Freeze</a> event notification. 
 
 
 

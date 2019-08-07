@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_CurrentMediaStatus method, IDiscFormat2Data.get_CurrentMediaStatus, IDiscFormat2Data::get_CurrentMediaStatus, get_CurrentMediaStatus, get_CurrentMediaStatus method [IMAPI], get_CurrentMediaStatus method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_currentmediastatus, imapi2/IDiscFormat2Data::get_CurrentMediaStatus
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2Data.get_CurrentMediaStatus"
+f1_keywords:
+- imapi2/IDiscFormat2Data.get_CurrentMediaStatus
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2Data.get_CurrentMediaStatus
+- IDiscFormat2Data.get_CurrentMediaStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Retrieves the current state of the media in the device.
 
 ### -param value [out]
 
-State of the media in the disc device. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_format2_data_media_state">IMAPI_FORMAT2_DATA_MEDIA_STATE</a> enumeration type. Note that more than one state can be set.
+State of the media in the disc device. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_format2_data_media_state">IMAPI_FORMAT2_DATA_MEDIA_STATE</a> enumeration type. Note that more than one state can be set.
 
 
 ## -returns

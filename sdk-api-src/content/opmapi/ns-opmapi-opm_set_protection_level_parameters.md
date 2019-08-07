@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_SET_PROTECTION_LEVEL_PARAMETERS, OPM_SET_PROTECTION_LEVEL_PARAMETERS structure [Media Foundation], mf.opm_set_protection_level_parameters, opmapi/OPM_SET_PROTECTION_LEVEL_PARAMETERS
 ms.topic: struct
-f1_keywords: 
- - "opmapi/OPM_SET_PROTECTION_LEVEL_PARAMETERS"
+f1_keywords:
+- opmapi/OPM_SET_PROTECTION_LEVEL_PARAMETERS
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - opmapi.h
+- opmapi.h
 api_name:
- - OPM_SET_PROTECTION_LEVEL_PARAMETERS
+- OPM_SET_PROTECTION_LEVEL_PARAMETERS
 product: Windows
 targetos: Windows
 req.typenames: OPM_SET_PROTECTION_LEVEL_PARAMETERS
@@ -78,7 +78,7 @@ Specifies the protection level. The meaning of this value depends on the protect
 <tr>
 <td>ACP</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ne-opmapi-_opm_acp_protection_level">OPM_ACP_PROTECTION_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ne-opmapi-opm_acp_protection_level">OPM_ACP_PROTECTION_LEVEL</a>
 </td>
 </tr>
 <tr>
@@ -90,13 +90,13 @@ Specifies the protection level. The meaning of this value depends on the protect
 <tr>
 <td>DPCP</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ne-opmapi-_opm_dpcp_protection_level">OPM_DPCP_PROTECTION_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ne-opmapi-opm_dpcp_protection_level">OPM_DPCP_PROTECTION_LEVEL</a>
 </td>
 </tr>
 <tr>
 <td>HDCP</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ne-opmapi-_opm_hdcp_protection_level">OPM_HDCP_PROTECTION_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ne-opmapi-opm_hdcp_protection_level">OPM_HDCP_PROTECTION_LEVEL</a>
 </td>
 </tr>
 </table>

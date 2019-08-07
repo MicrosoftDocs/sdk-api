@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SPQ_SCAN_FILE_PRESENCE, SPQ_SCAN_FILE_VALIDITY, SPQ_SCAN_INFORM_USER, SPQ_SCAN_PRUNE_COPY_QUEUE, SPQ_SCAN_PRUNE_DELREN, SPQ_SCAN_USE_CALLBACK, SPQ_SCAN_USE_CALLBACKEX, SPQ_SCAN_USE_CALLBACK_SIGNERINFO, SetupScanFileQueue, SetupScanFileQueue function [Setup API], SetupScanFileQueueA, SetupScanFileQueueW, _setupapi_setupscanfilequeue, setup.setupscanfilequeue, setupapi/SetupScanFileQueue, setupapi/SetupScanFileQueueA, setupapi/SetupScanFileQueueW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupScanFileQueue"
+f1_keywords:
+- setupapi/SetupScanFileQueue
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupScanFileQueue
- - SetupScanFileQueueA
- - SetupScanFileQueueW
+- SetupScanFileQueue
+- SetupScanFileQueueA
+- SetupScanFileQueueW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -120,7 +120,7 @@ Callback routine for each node of the queue. If the callback routine returns a n
 <td width="60%">
 Callback routine for each node of the queue. If the callback routine returns a nonzero value, the queue processing stops and 
 <b>SetupScanFileQueue</b> returns zero. Issue a SPFILENOTIFY_QUEUESCAN_EX notification and pass a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_filepaths_a">FILEPATHS</a> structure as <i>Param1</i>. SPQ_SCAN_USE_CALLBACKEX also checks that the file has a valid signature. Available starting with Windows 2000. On Windows XP only, you can turn off signature checking by combining this flag with SPQ_SCAN_FILE_PRESENCE.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-filepaths_a">FILEPATHS</a> structure as <i>Param1</i>. SPQ_SCAN_USE_CALLBACKEX also checks that the file has a valid signature. Available starting with Windows 2000. On Windows XP only, you can turn off signature checking by combining this flag with SPQ_SCAN_FILE_PRESENCE.
 
 </td>
 </tr>
@@ -152,7 +152,7 @@ Combined with SPQ_SCAN_FILE_PRESENCE, removes present entries from the copy queu
 </td>
 <td width="60%">
 Available starting with Windows XP. Issues SPFILENOTIFY_QUEUESCAN_SIGNERINFO notification and passes a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_filepaths_signerinfo_a">FILEPATHS_SIGNERINFO</a> structure as <i>Param1</i>. Checks each file for a valid signature and reports signature information through the callback function.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-filepaths_signerinfo_a">FILEPATHS_SIGNERINFO</a> structure as <i>Param1</i>. Checks each file for a valid signature and reports signature information through the callback function.
 
 </td>
 </tr>

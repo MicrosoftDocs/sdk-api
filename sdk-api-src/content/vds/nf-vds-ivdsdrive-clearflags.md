@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearFlags, ClearFlags method [VDS], ClearFlags method [VDS],IVdsDrive interface, IVdsDrive interface [VDS],ClearFlags method, IVdsDrive.ClearFlags, IVdsDrive::ClearFlags, base.ivdsdrive_clearflags, vds/IVdsDrive::ClearFlags, vdshwprv/IVdsDrive::ClearFlags
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsDrive.ClearFlags"
+f1_keywords:
+- vds/IVdsDrive.ClearFlags
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsDrive.ClearFlags
+- IVdsDrive.ClearFlags
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Clears the flags of a drive object.
 
 ### -param ulFlags [in]
 
-The flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_drive_flag">VDS_DRIVE_FLAG</a>. Callers can clear the <b>VDS_DRF_HOTSPARE</b> flag.
+The flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_drive_flag">VDS_DRIVE_FLAG</a>. Callers can clear the <b>VDS_DRF_HOTSPARE</b> flag.
 
 
 ## -returns
@@ -178,11 +178,11 @@ Use <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_drive_flag">VDS_DRIVE_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_drive_flag">VDS_DRIVE_FLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_drive_prop">VDS_DRIVE_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a>
  
 
  

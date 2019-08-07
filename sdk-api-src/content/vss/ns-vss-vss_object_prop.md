@@ -8,10 +8,10 @@ tech.root: VSS
 ms.assetid: 90664042-e9a0-4959-a975-9289477d2394
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVSS_OBJECT_PROP, PVSS_OBJECT_PROP, PVSS_OBJECT_PROP structure pointer [VSS], VSS_OBJECT_PROP, VSS_OBJECT_PROP structure [VSS], _win32_vss_object_prop, base.vss_object_prop, vss/PVSS_OBJECT_PROP, vss/VSS_OBJECT_PROP"
+ms.keywords: '*PVSS_OBJECT_PROP, PVSS_OBJECT_PROP, PVSS_OBJECT_PROP structure pointer [VSS], VSS_OBJECT_PROP, VSS_OBJECT_PROP structure [VSS], _win32_vss_object_prop, base.vss_object_prop, vss/PVSS_OBJECT_PROP, vss/VSS_OBJECT_PROP'
 ms.topic: struct
-f1_keywords: 
- - "vss/VSS_OBJECT_PROP"
+f1_keywords:
+- vss/VSS_OBJECT_PROP
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vss.h
+- Vss.h
 api_name:
- - VSS_OBJECT_PROP
+- VSS_OBJECT_PROP
 product: Windows
 targetos: Windows
 req.typenames: VSS_OBJECT_PROP, *PVSS_OBJECT_PROP
@@ -62,13 +62,13 @@ The <b>VSS_OBJECT_PROP</b> structure defines the
 
 ### -field Type
 
-Object type. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_object_type">VSS_OBJECT_TYPE</a>.
+Object type. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_object_type">VSS_OBJECT_TYPE</a>.
 
 
 ### -field Obj
 
-Object properties: a union of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> 
-      and <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_provider_prop">VSS_PROVIDER_PROP</a> structures. (See 
+Object properties: a union of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> 
+      and <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_provider_prop">VSS_PROVIDER_PROP</a> structures. (See 
       <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-__midl___midl_itf_vss_0000_0000_0001">VSS_OBJECT_UNION</a>.) 
      
 
@@ -87,12 +87,12 @@ A requester obtains <b>VSS_OBJECT_PROP</b> structures by
     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">IVssBackupComponents::Query</a>.
 
 As its members are filled by a COM interface, prior to deleting the property structures 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_provider_prop">VSS_PROVIDER_PROP</a>, the memory they contain must be 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_provider_prop">VSS_PROVIDER_PROP</a>, the memory they contain must be 
     released by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> for every string and 
     byte array value contained in each structure.
 
-In the case of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a>, this can be done 
+In the case of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a>, this can be done 
     manually, or the utility function 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-vssfreesnapshotproperties">VssFreeSnapshotProperties</a> can be used.
 
@@ -104,7 +104,7 @@ In the case of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_object_type">VSS_OBJECT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_object_type">VSS_OBJECT_TYPE</a>
 
 
 
@@ -112,11 +112,11 @@ In the case of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_provider_prop">VSS_PROVIDER_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_provider_prop">VSS_PROVIDER_PROP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a>
  
 
  

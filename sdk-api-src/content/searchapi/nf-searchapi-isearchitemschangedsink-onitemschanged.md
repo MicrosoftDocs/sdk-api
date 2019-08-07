@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchItemsChangedSink interface [search],OnItemsChanged method, ISearchItemsChangedSink.OnItemsChanged, ISearchItemsChangedSink::OnItemsChanged, OnItemsChanged, OnItemsChanged method [search], OnItemsChanged method [search],ISearchItemsChangedSink interface, _search_ISearchItemsChangedSink_OnItemsChanged, search._search_ISearchItemsChangedSink_OnItemsChanged, searchapi/ISearchItemsChangedSink::OnItemsChanged
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchItemsChangedSink.OnItemsChanged"
+f1_keywords:
+- searchapi/ISearchItemsChangedSink.OnItemsChanged
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchItemsChangedSink.OnItemsChanged
+- ISearchItemsChangedSink.OnItemsChanged
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,9 +71,9 @@ The number of items that have changed.
 
 ### -param rgDataChangeEntries [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_search_item_change">SEARCH_ITEM_CHANGE</a>[]</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-search_item_change">SEARCH_ITEM_CHANGE</a>[]</b>
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_search_item_change">SEARCH_ITEM_CHANGE</a> structures, describing the type of changes to and the paths or URLs of each item.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-search_item_change">SEARCH_ITEM_CHANGE</a> structures, describing the type of changes to and the paths or URLs of each item.
                 
 
 
@@ -108,7 +108,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When there are multiple change notifications, the <b>priority</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_search_item_change">SEARCH_ITEM_CHANGE</a> structure indicates the priority of processing.
+When there are multiple change notifications, the <b>priority</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-search_item_change">SEARCH_ITEM_CHANGE</a> structure indicates the priority of processing.
             
 
 

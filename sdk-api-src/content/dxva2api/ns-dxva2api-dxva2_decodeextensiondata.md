@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2a1b7139-fcbb-40b0-9ed3-f9b1fe482358, DXVA2_DecodeExtensionData, DXVA2_DecodeExtensionData structure [Media Foundation], dxva2api/DXVA2_DecodeExtensionData, mf.dxva2_decodeextensiondata
 ms.topic: struct
-f1_keywords: 
- - "dxva2api/DXVA2_DecodeExtensionData"
+f1_keywords:
+- dxva2api/DXVA2_DecodeExtensionData
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - DXVA2_DecodeExtensionData
+- DXVA2_DecodeExtensionData
 product: Windows
 targetos: Windows
 req.typenames: DXVA2_DecodeExtensionData
@@ -101,7 +101,7 @@ This structure corresponds to parameters of the <b>IAMVideoAccelerator::Execute<
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_decodeexecuteparams">DXVA2_DecodeExecuteParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodeexecuteparams">DXVA2_DecodeExecuteParams</a>
 
 
 

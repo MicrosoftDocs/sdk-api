@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 6BEDAC01-99DA-4EE5-9667-A11E00BE7A30
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PLSA_TOKEN_INFORMATION_V1, *PLSA_TOKEN_INFORMATION_V2, LSA_TOKEN_INFORMATION_V1, LSA_TOKEN_INFORMATION_V2, LSA_TOKEN_INFORMATION_V2 structure [Security], PLSA_TOKEN_INFORMATION_V2, PLSA_TOKEN_INFORMATION_V2 structure pointer [Security], _LSA_TOKEN_INFORMATION_V1, ntsecpkg/LSA_TOKEN_INFORMATION_V2, ntsecpkg/PLSA_TOKEN_INFORMATION_V2, security.lsa_token_information_v2"
+ms.keywords: '*PLSA_TOKEN_INFORMATION_V1, *PLSA_TOKEN_INFORMATION_V2, LSA_TOKEN_INFORMATION_V1, LSA_TOKEN_INFORMATION_V2, LSA_TOKEN_INFORMATION_V2 structure [Security], PLSA_TOKEN_INFORMATION_V2, PLSA_TOKEN_INFORMATION_V2 structure pointer [Security], _LSA_TOKEN_INFORMATION_V1, ntsecpkg/LSA_TOKEN_INFORMATION_V2, ntsecpkg/PLSA_TOKEN_INFORMATION_V2, security.lsa_token_information_v2'
 ms.topic: struct
-f1_keywords: 
- - "ntsecpkg/LSA_TOKEN_INFORMATION_V2"
+f1_keywords:
+- ntsecpkg/LSA_TOKEN_INFORMATION_V2
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - LSA_TOKEN_INFORMATION_V2
+- LSA_TOKEN_INFORMATION_V2
 product: Windows
 targetos: Windows
 req.typenames: LSA_TOKEN_INFORMATION_V1, *PLSA_TOKEN_INFORMATION_V1
@@ -77,12 +77,12 @@ Time at which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s
 ### -field Groups
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a> structure that contains the SIDs of groups the user is a member of. This should not include WORLD or other system-defined and system-assigned SIDs. These will be added automatically by the LSA. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure that contains the SIDs of groups the user is a member of. This should not include WORLD or other system-defined and system-assigned SIDs. These will be added automatically by the LSA. 
 
 
 
 
-Each SID is expected to be in a separately allocated block of memory. The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a> structure is also expected to be in a separately allocated block of memory. All of these memory blocks should be allocated by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_private_heap">AllocatePrivateHeap</a> function.
+Each SID is expected to be in a separately allocated block of memory. The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure is also expected to be in a separately allocated block of memory. All of these memory blocks should be allocated by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_private_heap">AllocatePrivateHeap</a> function.
 
 
 ### -field PrimaryGroup
@@ -101,12 +101,12 @@ This member is mandatory and must be filled in.
 ### -field Privileges
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_privileges">TOKEN_PRIVILEGES</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privileges</a> assigned to the user. This list of privileges will be augmented or overridden by any local security policy assigned privileges. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privileges</a> assigned to the user. This list of privileges will be augmented or overridden by any local security policy assigned privileges. 
 
 
 
 
-Each privilege is expected to be in a separately allocated block of memory. The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_privileges">TOKEN_PRIVILEGES</a> structure is also expected to be in a separately allocated block of memory.
+Each privilege is expected to be in a separately allocated block of memory. The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a> structure is also expected to be in a separately allocated block of memory.
 
 If there are no privileges to assign to the user, this member may be set to <b>NULL</b>.
 

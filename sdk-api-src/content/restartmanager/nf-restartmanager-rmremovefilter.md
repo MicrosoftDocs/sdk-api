@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RmRemoveFilter, RmRemoveFilter function [Restart Mgr], restartmanager/RmRemoveFilter, rstmgr.rmremovefilter
 ms.topic: function
-f1_keywords: 
- - "restartmanager/RmRemoveFilter"
+f1_keywords:
+- restartmanager/RmRemoveFilter
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Rstrtmgr.lib
 req.dll: Rstrtmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rstrtmgr.dll
+- Rstrtmgr.dll
 api_name:
- - RmRemoveFilter
+- RmRemoveFilter
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ A pointer to a <b>null</b>-terminated string value that contains the full path f
 
 ### -param pProcess [in, optional]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_unique_process">RM_UNIQUE_PROCESS</a> structure for the application. The <b>RmRemoveFilter</b> function removes any modifications to the referenced application's shutdown or restart actions previously applied by the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmaddfilter">RmAddFilter</a> function.  This parameter must be <b>NULL</b> if the <i>strFilename</i>  or <i>strShortServiceName</i> parameter is non-<b>NULL</b>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_unique_process">RM_UNIQUE_PROCESS</a> structure for the application. The <b>RmRemoveFilter</b> function removes any modifications to the referenced application's shutdown or restart actions previously applied by the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmaddfilter">RmAddFilter</a> function.  This parameter must be <b>NULL</b> if the <i>strFilename</i>  or <i>strShortServiceName</i> parameter is non-<b>NULL</b>.
 
 
 ### -param strServiceShortName [in, optional]

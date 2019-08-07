@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: 27af3b20-9460-466d-bc58-5e31e08bb6c8
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPWSAVERSION, *PWSAVERSION, LPWSAVERSION, LPWSAVERSION structure pointer [Winsock], PWSAVERSION, PWSAVERSION structure pointer [Winsock], WSAVERSION, WSAVERSION structure [Winsock], _win32_wsaversion_2, winsock.wsaversion_2, winsock2/LPWSAVERSION, winsock2/PWSAVERSION, winsock2/WSAVERSION"
+ms.keywords: '*LPWSAVERSION, *PWSAVERSION, LPWSAVERSION, LPWSAVERSION structure pointer [Winsock], PWSAVERSION, PWSAVERSION structure pointer [Winsock], WSAVERSION, WSAVERSION structure [Winsock], _win32_wsaversion_2, winsock.wsaversion_2, winsock2/LPWSAVERSION, winsock2/PWSAVERSION, winsock2/WSAVERSION'
 ms.topic: struct
-f1_keywords: 
- - "winsock2/WSAVERSION"
+f1_keywords:
+- winsock2/WSAVERSION
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsock2.h
+- Winsock2.h
 api_name:
- - WSAVERSION
+- WSAVERSION
 product: Windows
 targetos: Windows
 req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
@@ -68,7 +68,7 @@ Version of Windows Sockets.
 ### -field ecHow
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ne-winsock2-_wsaecomparator">WSAECOMPARATOR</a> enumeration, used in the comparison.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ne-winsock2-wsaecomparator">WSAECOMPARATOR</a> enumeration, used in the comparison.
 
 
 ## -see-also
@@ -76,7 +76,7 @@ Version of Windows Sockets.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ne-winsock2-_wsaecomparator">WSAECOMPARATOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ne-winsock2-wsaecomparator">WSAECOMPARATOR</a>
  
 
  

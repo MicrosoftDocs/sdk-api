@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVA2_VideoLighting, DXVA2_VideoLighting enumeration [Media Foundation], DXVA2_VideoLightingMask, DXVA2_VideoLighting_Unknown, DXVA2_VideoLighting_bright, DXVA2_VideoLighting_dark, DXVA2_VideoLighting_dim, DXVA2_VideoLighting_office, d70e7aa7-f68f-4ee3-bb75-dbe369e68f0e, dxva2api/DXVA2_VideoLighting, dxva2api/DXVA2_VideoLightingMask, dxva2api/DXVA2_VideoLighting_Unknown, dxva2api/DXVA2_VideoLighting_bright, dxva2api/DXVA2_VideoLighting_dark, dxva2api/DXVA2_VideoLighting_dim, dxva2api/DXVA2_VideoLighting_office, mf.dxva2_videolighting
 ms.topic: enum
-f1_keywords: 
- - "dxva2api/DXVA2_VideoLighting"
+f1_keywords:
+- dxva2api/DXVA2_VideoLighting
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - DXVA2_VideoLighting
+- DXVA2_VideoLighting
 product: Windows
 targetos: Windows
 req.typenames: DXVA2_VideoLighting
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes the intended lighting conditions for viewing video content. These flags are used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
+Describes the intended lighting conditions for viewing video content. These flags are used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
 
 
 ## -enum-fields

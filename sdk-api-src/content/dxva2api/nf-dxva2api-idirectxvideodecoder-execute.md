@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3c957b2f-4bba-4c39-84de-719c08e1bf78, Execute, Execute method [Media Foundation], Execute method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],Execute method, IDirectXVideoDecoder.Execute, IDirectXVideoDecoder::Execute, dxva2api/IDirectXVideoDecoder::Execute, mf.idirectxvideodecoder_execute
 ms.topic: method
-f1_keywords: 
- - "dxva2api/IDirectXVideoDecoder.Execute"
+f1_keywords:
+- dxva2api/IDirectXVideoDecoder.Execute
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirectXVideoDecoder.Execute
+- IDirectXVideoDecoder.Execute
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ Executes a decoding operation on the current frame.
 
 ### -param pExecuteParams [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_decodeexecuteparams">DXVA2_DecodeExecuteParams</a> structure that contains the information needed for the decoding operation.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodeexecuteparams">DXVA2_DecodeExecuteParams</a> structure that contains the information needed for the decoding operation.
 
 
 ## -returns

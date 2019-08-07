@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Query_And_Remove_SubTree, CM_Query_And_Remove_SubTree function [Device and Driver Installation], CM_Query_And_Remove_SubTreeW, cfgmgr32/CM_Query_And_Remove_SubTree, cfgmgr32/CM_Query_And_Remove_SubTreeW, cfgmgrfn_81d4975f-cc31-49aa-8fa7-984abd25c26b.xml, devinst.cm_query_and_remove_subtree
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Query_And_Remove_SubTree"
+f1_keywords:
+- cfgmgr32/CM_Query_And_Remove_SubTree
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -30,19 +30,19 @@ req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.lib
- - Cfgmgr32.dll
- - API-Ms-Win-Devices-Config-L1-1-0.dll
- - API-Ms-Win-Devices-Config-L1-1-1.dll
- - CfgMgr32.dll
+- Cfgmgr32.lib
+- Cfgmgr32.dll
+- API-Ms-Win-Devices-Config-L1-1-0.dll
+- API-Ms-Win-Devices-Config-L1-1-1.dll
+- CfgMgr32.dll
 api_name:
- - CM_Query_And_Remove_SubTree
- - CM_Query_And_Remove_SubTreeW
+- CM_Query_And_Remove_SubTree
+- CM_Query_And_Remove_SubTreeW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,12 +71,12 @@ Caller-supplied device instance handle to the device at the root of the subtree 
 
 ### -param pVetoType [out, optional]
 
-(<i>Optional</i>)  If the caller does not pass <b>NULL</b> and the removal request is vetoed (that is, the function returns CR_REMOVE_VETOED), on return this points to a <a href="https://docs.microsoft.com/windows/desktop/api/cfg/ne-cfg-_pnp_veto_type">PNP_VETO_TYPE</a>-typed value that indicates the reason for the veto.
+(<i>Optional</i>)  If the caller does not pass <b>NULL</b> and the removal request is vetoed (that is, the function returns CR_REMOVE_VETOED), on return this points to a <a href="https://docs.microsoft.com/windows/desktop/api/cfg/ne-cfg-pnp_veto_type">PNP_VETO_TYPE</a>-typed value that indicates the reason for the veto.
 
 
 ### -param pszVetoName [out, optional]
 
-(<i>Optional</i>) If the caller does not pass <b>NULL</b> and the removal request is vetoed (that is, the function returns CR_REMOVE_VETOED), on return this points to a text string that is associated with the veto type. The type of information this string provides is dependent on the value received by <i>pVetoType</i>. For information about these strings, see <a href="https://docs.microsoft.com/windows/desktop/api/cfg/ne-cfg-_pnp_veto_type">PNP_VETO_TYPE</a>.
+(<i>Optional</i>) If the caller does not pass <b>NULL</b> and the removal request is vetoed (that is, the function returns CR_REMOVE_VETOED), on return this points to a text string that is associated with the veto type. The type of information this string provides is dependent on the value received by <i>pVetoType</i>. For information about these strings, see <a href="https://docs.microsoft.com/windows/desktop/api/cfg/ne-cfg-pnp_veto_type">PNP_VETO_TYPE</a>.
 
 
 ### -param ulNameLength [in]

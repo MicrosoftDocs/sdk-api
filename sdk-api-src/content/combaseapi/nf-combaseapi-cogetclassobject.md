@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetClassObject, CoGetClassObject function [COM], _com_CoGetClassObject, com.cogetclassobject, combaseapi/CoGetClassObject
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoGetClassObject"
+f1_keywords:
+- combaseapi/CoGetClassObject
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoGetClassObject
+- CoGetClassObject
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -79,7 +79,7 @@ The context in which the executable code is to be run. To enable a remote activa
 
 ### -param pvReserved [in, optional]
 
-A pointer to computer on which to instantiate the class object. If this parameter is <b>NULL</b>, the class object is instantiated on the current computer or at the computer specified under the class's <a href="https://docs.microsoft.com/windows/desktop/com/remoteservername">RemoteServerName</a> key, according to the interpretation of the <i>dwClsCtx</i> parameter. See <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-_coserverinfo">COSERVERINFO</a>.
+A pointer to computer on which to instantiate the class object. If this parameter is <b>NULL</b>, the class object is instantiated on the current computer or at the computer specified under the class's <a href="https://docs.microsoft.com/windows/desktop/com/remoteservername">RemoteServerName</a> key, according to the interpretation of the <i>dwClsCtx</i> parameter. See <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-coserverinfo">COSERVERINFO</a>.
 
 
 ### -param riid [in]
@@ -223,7 +223,7 @@ A call to <b>CoGetClassObject</b> creates, initializes, and gives the caller acc
 
 
 
-If the class context is CLSCTX_REMOTE_SERVER, indicating remote activation is required, the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-_coserverinfo">COSERVERINFO</a> structure provided in the <i>pServerInfo</i> parameter allows you to specify the computer on which the server is located. For information on the algorithm used to locate a remote server when <i>pServerInfo</i> is <b>NULL</b>, refer to the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX</a> enumeration.
+If the class context is CLSCTX_REMOTE_SERVER, indicating remote activation is required, the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-coserverinfo">COSERVERINFO</a> structure provided in the <i>pServerInfo</i> parameter allows you to specify the computer on which the server is located. For information on the algorithm used to locate a remote server when <i>pServerInfo</i> is <b>NULL</b>, refer to the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX</a> enumeration.
 
 
 
@@ -264,7 +264,7 @@ To release a class object, use the class object's <a href="https://docs.microsof
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-_coserverinfo">COSERVERINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-coserverinfo">COSERVERINFO</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: TermServ
 ms.assetid: d3df1f40-698b-43ca-808d-0df5550b6eae
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWTSINFOEX_LEVEL_W, PWTSINFOEX_LEVEL, PWTSINFOEX_LEVEL union pointer [Remote Desktop Services], WTSINFOEX_LEVEL, WTSINFOEX_LEVEL union [Remote Desktop Services], WTSINFOEX_LEVEL_A, WTSINFOEX_LEVEL_W, termserv.wtsinfoex_level, wtsapi32/PWTSINFOEX_LEVEL, wtsapi32/WTSINFOEX_LEVEL, wtsapi32/WTSINFOEX_LEVEL_A, wtsapi32/WTSINFOEX_LEVEL_W"
+ms.keywords: '*PWTSINFOEX_LEVEL_W, PWTSINFOEX_LEVEL, PWTSINFOEX_LEVEL union pointer [Remote Desktop Services], WTSINFOEX_LEVEL, WTSINFOEX_LEVEL union [Remote Desktop Services], WTSINFOEX_LEVEL_A, WTSINFOEX_LEVEL_W, termserv.wtsinfoex_level, wtsapi32/PWTSINFOEX_LEVEL, wtsapi32/WTSINFOEX_LEVEL, wtsapi32/WTSINFOEX_LEVEL_A, wtsapi32/WTSINFOEX_LEVEL_W'
 ms.topic: struct
-f1_keywords: 
- - "wtsapi32/WTSINFOEX_LEVEL"
+f1_keywords:
+- wtsapi32/WTSINFOEX_LEVEL
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsapi32.h
+- Wtsapi32.h
 api_name:
- - WTSINFOEX_LEVEL
- - WTSINFOEX_LEVEL_A
- - WTSINFOEX_LEVEL_W
+- WTSINFOEX_LEVEL
+- WTSINFOEX_LEVEL_A
+- WTSINFOEX_LEVEL_W
 product: Windows
 targetos: Windows
 req.typenames: WTSINFOEX_LEVEL_W, *PWTSINFOEX_LEVEL_W
@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtsinfoex_level1_a">WTSINFOEX_LEVEL1</a> structure that contains extended information about a Remote Desktop Services session.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoex_level1_a">WTSINFOEX_LEVEL1</a> structure that contains extended information about a Remote Desktop Services session.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ Contains a <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-w
 
 ### -field WTSInfoExLevel1
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtsinfoex_level1_a">WTSINFOEX_LEVEL1</a> structure that contains extended session information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoex_level1_a">WTSINFOEX_LEVEL1</a> structure that contains extended session information.
 
 
 ## -see-also
@@ -71,11 +71,11 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtsinfoexa">WTSINFOEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoexa">WTSINFOEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtsinfoex_level1_a">WTSINFOEX_LEVEL1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoex_level1_a">WTSINFOEX_LEVEL1</a>
  
 
  

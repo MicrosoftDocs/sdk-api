@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzNameResolver interface [Security],NamesFromSids method, IAzNameResolver.NamesFromSids, IAzNameResolver::NamesFromSids, NamesFromSids, NamesFromSids method [Security], NamesFromSids method [Security],IAzNameResolver interface, azroles/IAzNameResolver::NamesFromSids, security.iaznameresolver_namesfromsids_method
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzNameResolver.NamesFromSids"
+f1_keywords:
+- azroles/IAzNameResolver.NamesFromSids
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.h
+- Azroles.h
 api_name:
- - IAzNameResolver.NamesFromSids
+- IAzNameResolver.NamesFromSids
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,9 +68,9 @@ This is a variant that contains either a <a href="https://docs.microsoft.com/pre
 
 ### -param pvSidTypes [out]
 
-A pointer to an array of elements of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SID_NAME_USE</a> enumeration that specify the types of SIDs being translated.
+A pointer to an array of elements of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a> enumeration that specify the types of SIDs being translated.
 
-This is a variant that contains either a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> or the JScript <a href="https://docs.microsoft.com/scripting/javascript/reference/array-object-javascript">Array</a> object. Each element of the array holds a <b>VT_I4</b> value that specifies an element of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SID_NAME_USE</a> enumeration.
+This is a variant that contains either a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> or the JScript <a href="https://docs.microsoft.com/scripting/javascript/reference/array-object-javascript">Array</a> object. Each element of the array holds a <b>VT_I4</b> value that specifies an element of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a> enumeration.
 
 
 ### -param pvNames [out]

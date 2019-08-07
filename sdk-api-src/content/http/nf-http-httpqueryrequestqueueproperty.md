@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpQueryRequestQueueProperty, HttpQueryRequestQueueProperty function [HTTP], HttpServer503VerbosityProperty, HttpServerQueueLengthProperty, HttpServerStateProperty, http.httpqueryrequestqueueproperty, http/HttpQueryRequestQueueProperty
 ms.topic: function
-f1_keywords: 
- - "http/HttpQueryRequestQueueProperty"
+f1_keywords:
+- http/HttpQueryRequestQueueProperty
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Httpapi.dll
+- Httpapi.dll
 api_name:
- - HttpQueryRequestQueueProperty
+- HttpQueryRequestQueueProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ The handle to the request queue for which the property setting is returned. A re
 
 ### -param Property [in]
 
-A member of the  <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HTTP_SERVER_PROPERTY</a> enumeration that describes the property type that is set. This can be one of the following:
+A member of the  <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HTTP_SERVER_PROPERTY</a> enumeration that describes the property type that is set. This can be one of the following:
 
 <table>
 <tr>
@@ -129,7 +129,7 @@ A pointer to the buffer that receives the property information.
 <tr>
 <td>HttpServer503VerbosityProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_503_response_verbosity">HTTP_503_RESPONSE_VERBOSITY</a> (enumeration member)</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_503_response_verbosity">HTTP_503_RESPONSE_VERBOSITY</a> (enumeration member)</td>
 </tr>
 </table>
  

@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 16a57c4b-905f-40c0-b298-71f0534bfa5a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_NAME_CONSTRAINTS_INFO, CERT_NAME_CONSTRAINTS_INFO, CERT_NAME_CONSTRAINTS_INFO structure [Security], PCERT_NAME_CONSTRAINTS_INFO, PCERT_NAME_CONSTRAINTS_INFO structure pointer [Security], _crypto2_cert_name_constraints_info, security.cert_name_constraints_info, wincrypt/CERT_NAME_CONSTRAINTS_INFO, wincrypt/PCERT_NAME_CONSTRAINTS_INFO"
+ms.keywords: '*PCERT_NAME_CONSTRAINTS_INFO, CERT_NAME_CONSTRAINTS_INFO, CERT_NAME_CONSTRAINTS_INFO structure [Security], PCERT_NAME_CONSTRAINTS_INFO, PCERT_NAME_CONSTRAINTS_INFO structure pointer [Security], _crypto2_cert_name_constraints_info, security.cert_name_constraints_info, wincrypt/CERT_NAME_CONSTRAINTS_INFO, wincrypt/PCERT_NAME_CONSTRAINTS_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_NAME_CONSTRAINTS_INFO"
+f1_keywords:
+- wincrypt/CERT_NAME_CONSTRAINTS_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_NAME_CONSTRAINTS_INFO
+- CERT_NAME_CONSTRAINTS_INFO
 product: Windows
 targetos: Windows
 req.typenames: CERT_NAME_CONSTRAINTS_INFO, *PCERT_NAME_CONSTRAINTS_INFO
@@ -67,7 +67,7 @@ The <b>CERT_NAME_CONSTRAINTS_INFO</b> structure contains information about certi
 ### -field rgPermittedSubtree
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_general_subtree">CERT_GENERAL_SUBTREE</a> structures, each identifying a permitted certificate name.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_general_subtree">CERT_GENERAL_SUBTREE</a> structures, each identifying a permitted certificate name.
 
 
 ### -field cExcludedSubtree
@@ -77,5 +77,5 @@ Array of
 
 ### -field rgExcludedSubtree
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_general_subtree">CERT_GENERAL_SUBTREE</a> structures, each identifying an excluded certificate name.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_general_subtree">CERT_GENERAL_SUBTREE</a> structures, each identifying an excluded certificate name.
 

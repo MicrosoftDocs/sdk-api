@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupGetInfDriverStoreLocation, SetupGetInfDriverStoreLocation function [Device and Driver Installation], SetupGetInfDriverStoreLocationA, SetupGetInfDriverStoreLocationW, devinst.setupgetinfdriverstorelocation, setup-ref_349dd5f9-d925-4bdf-b99d-b8abef1eb12b.xml, setupapi/SetupGetInfDriverStoreLocation
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupGetInfDriverStoreLocation"
+f1_keywords:
+- setupapi/SetupGetInfDriverStoreLocation
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -30,15 +30,15 @@ req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Setupapi.lib
- - Setupapi.dll
+- Setupapi.lib
+- Setupapi.dll
 api_name:
- - SetupGetInfDriverStoreLocation
+- SetupGetInfDriverStoreLocation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -119,7 +119,7 @@ For example, assume that the INF file for a driver package is <i>Myinf.inf</i>, 
 
 <ol>
 <li>
-Call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdriverinfodetaila">SetupDiGetDriverInfoDetail</a> to retrieve a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_drvinfo_detail_data_a">SP_DRVINFO_DETAIL_DATA</a> structure for a driver. The <b>InfFileName</b> member of this structure contains the fully qualified file name of the driver INF file in the system INF directory.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdriverinfodetaila">SetupDiGetDriverInfoDetail</a> to retrieve a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_drvinfo_detail_data_a">SP_DRVINFO_DETAIL_DATA</a> structure for a driver. The <b>InfFileName</b> member of this structure contains the fully qualified file name of the driver INF file in the system INF directory.
 
 </li>
 <li>
@@ -143,7 +143,7 @@ Call the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-set
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_drvinfo_detail_data_a">SP_DRVINFO_DETAIL_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_drvinfo_detail_data_a">SP_DRVINFO_DETAIL_DATA</a>
 
 
 

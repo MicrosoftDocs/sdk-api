@@ -8,10 +8,10 @@ tech.root: psapi
 ms.assetid: 4ba17fa0-2aed-4099-9380-fc13f1b826ca
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPSAPI_WORKING_SET_EX_BLOCK, PPSAPI_WORKING_SET_EX_BLOCK, PPSAPI_WORKING_SET_EX_BLOCK union pointer [PSAPI], PSAPI_WORKING_SET_EX_BLOCK, PSAPI_WORKING_SET_EX_BLOCK union [PSAPI], base.psapi_working_set_ex_block, psapi.psapi_working_set_ex_block, psapi/PPSAPI_WORKING_SET_EX_BLOCK, psapi/PSAPI_WORKING_SET_EX_BLOCK"
+ms.keywords: '*PPSAPI_WORKING_SET_EX_BLOCK, PPSAPI_WORKING_SET_EX_BLOCK, PPSAPI_WORKING_SET_EX_BLOCK union pointer [PSAPI], PSAPI_WORKING_SET_EX_BLOCK, PSAPI_WORKING_SET_EX_BLOCK union [PSAPI], base.psapi_working_set_ex_block, psapi.psapi_working_set_ex_block, psapi/PPSAPI_WORKING_SET_EX_BLOCK, psapi/PSAPI_WORKING_SET_EX_BLOCK'
 ms.topic: struct
-f1_keywords: 
- - "psapi/PSAPI_WORKING_SET_EX_BLOCK"
+f1_keywords:
+- psapi/PSAPI_WORKING_SET_EX_BLOCK
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Psapi.h
+- Psapi.h
 api_name:
- - PSAPI_WORKING_SET_EX_BLOCK
+- PSAPI_WORKING_SET_EX_BLOCK
 product: Windows
 targetos: Windows
 req.typenames: PSAPI_WORKING_SET_EX_BLOCK, *PPSAPI_WORKING_SET_EX_BLOCK
@@ -166,7 +166,7 @@ Reserved. This member is only available on 64-bit code running on 64-bit edition
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_working_set_ex_information">PSAPI_WORKING_SET_EX_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-psapi_working_set_ex_information">PSAPI_WORKING_SET_EX_INFORMATION</a>
 
 
 

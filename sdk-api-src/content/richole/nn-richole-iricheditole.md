@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRichEditOle, IRichEditOle interface [Windows Controls], IRichEditOle interface [Windows Controls],described, _win32_IRichEditOle, _win32_IRichEditOle_cpp, controls.IRichEditOle, controls._win32_IRichEditOle, richole/IRichEditOle
 ms.topic: interface
-f1_keywords: 
- - "richole/IRichEditOle"
+f1_keywords:
+- richole/IRichEditOle
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - IRichEditOle
+- IRichEditOle
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -131,7 +131,7 @@ Returns the number of objects in a rich edit control that are links.
 <a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditole-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
-Retrieves information, stored in a <a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-_reobject">REOBJECT</a> structure, about an object in a rich edit control.
+Retrieves information, stored in a <a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-reobject">REOBJECT</a> structure, about an object in a rich edit control.
 
 </td>
 </tr>

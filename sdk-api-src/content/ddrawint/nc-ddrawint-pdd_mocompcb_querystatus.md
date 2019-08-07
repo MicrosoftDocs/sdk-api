@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdMoCompQueryStatus, DdMoCompQueryStatus callback function [Display Devices], PDD_MOCOMPCB_QUERYSTATUS, PDD_MOCOMPCB_QUERYSTATUS callback, ddfncs_8610d619-2c4f-41b4-8b28-4451019063b7.xml, ddrawint/DdMoCompQueryStatus, display.ddmocompquerystatus
 ms.topic: callback
-f1_keywords: 
- - "ddrawint/DdMoCompQueryStatus"
+f1_keywords:
+- ddrawint/DdMoCompQueryStatus
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DdMoCompQueryStatus
+- DdMoCompQueryStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The <b>DdMoCompQueryStatus</b> callback function queries the status of the most 
 
 #### - lpStatusData
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_querymocompstatusdata">DD_QUERYMOCOMPSTATUSDATA</a> structure that contains the information needed to query the status.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_querymocompstatusdata">DD_QUERYMOCOMPSTATUSDATA</a> structure that contains the information needed to query the status.
 
 
 ## -returns
@@ -96,7 +96,7 @@ DirectDraw drivers that support motion compensation must implement <b>DdMoCompQu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_querymocompstatusdata">DD_QUERYMOCOMPSTATUSDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_querymocompstatusdata">DD_QUERYMOCOMPSTATUSDATA</a>
  
 
  

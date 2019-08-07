@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DSROLE_OPERATION_STATE, DSROLE_OPERATION_STATE enumeration [Active Directory], DsRoleOperationActive, DsRoleOperationIdle, DsRoleOperationNeedReboot, ad.dsrole_operation_state, dsrole/DSROLE_OPERATION_STATE, dsrole/DsRoleOperationActive, dsrole/DsRoleOperationIdle, dsrole/DsRoleOperationNeedReboot
 ms.topic: enum
-f1_keywords: 
- - "dsrole/DSROLE_OPERATION_STATE"
+f1_keywords:
+- dsrole/DSROLE_OPERATION_STATE
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dsrole.h
+- Dsrole.h
 api_name:
- - DSROLE_OPERATION_STATE
+- DSROLE_OPERATION_STATE
 product: Windows
 targetos: Windows
 req.typenames: DSROLE_OPERATION_STATE
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DSROLE_OPERATION_STATE</b> enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-_dsrole_operation_state_info">DSROLE_OPERATION_STATE_INFO</a> structure to indicate the operational state of a computer.
+The <b>DSROLE_OPERATION_STATE</b> enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-dsrole_operation_state_info">DSROLE_OPERATION_STATE_INFO</a> structure to indicate the operational state of a computer.
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ The computer requires a restart.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-_dsrole_operation_state_info">DSROLE_OPERATION_STATE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-dsrole_operation_state_info">DSROLE_OPERATION_STATE_INFO</a>
 
 
 

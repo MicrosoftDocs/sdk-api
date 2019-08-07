@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1, 1101, NetWkstaUserSetInfo, NetWkstaUserSetInfo function [Network Management], _win32_netwkstausersetinfo, lmwksta/NetWkstaUserSetInfo, netmgmt.netwkstausersetinfo
 ms.topic: function
-f1_keywords: 
- - "lmwksta/NetWkstaUserSetInfo"
+f1_keywords:
+- lmwksta/NetWkstaUserSetInfo
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetWkstaUserSetInfo
+- NetWkstaUserSetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -94,7 +94,7 @@ Specifies information about the workstation, including the name of the current u
 </td>
 <td width="60%">
 Specifies domains browsed by the workstation. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_user_info_1101">WKSTA_USER_INFO_1101</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_user_info_1101">WKSTA_USER_INFO_1101</a> structure.
 
 </td>
 </tr>
@@ -162,7 +162,7 @@ The
 <b>NetWkstaUserSetInfo</b> function only works locally. Administrator group membership is required.
 
 Domain names in the <b>wkui1101_oth_domains</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_user_info_1101">WKSTA_USER_INFO_1101</a> structure are separated by spaces. An empty list is valid. A <b>NULL</b> pointer means to leave the member unmodified. The <b>wkui1101_oth_domains</b> member cannot be set with MS-DOS. When setting this element, 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_user_info_1101">WKSTA_USER_INFO_1101</a> structure are separated by spaces. An empty list is valid. A <b>NULL</b> pointer means to leave the member unmodified. The <b>wkui1101_oth_domains</b> member cannot be set with MS-DOS. When setting this element, 
 <b>NetWkstaUserSetInfo</b> rejects the request if the name list was invalid or if a name could not be added to one or more of the network adapters managed by the system.
 
 If the 
@@ -185,7 +185,7 @@ If the
 
 The following code sample demonstrates how to set user-specific information for a workstation using a call to the 
 <b>NetWkstaUserSetInfo</b> function, specifying information level 1101 (
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_user_info_1101">WKSTA_USER_INFO_1101</a>).
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_user_info_1101">WKSTA_USER_INFO_1101</a>).
 
 
 ```cpp
@@ -262,7 +262,7 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_user_info_1101">WKSTA_USER_INFO_1101</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_user_info_1101">WKSTA_USER_INFO_1101</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_CHANNEL_PROPERTY_ADDRESSING_VERSION, WS_CHANNEL_PROPERTY_ALLOW_UNSECURED_FAULTS, WS_CHANNEL_PROPERTY_ASYNC_CALLBACK_MODEL, WS_CHANNEL_PROPERTY_CHANNEL_TYPE, WS_CHANNEL_PROPERTY_CLOSE_TIMEOUT, WS_CHANNEL_PROPERTY_CONNECT_TIMEOUT, WS_CHANNEL_PROPERTY_COOKIE_MODE, WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_CALLBACKS, WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_INSTANCE, WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS, WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY, WS_CHANNEL_PROPERTY_DECODER, WS_CHANNEL_PROPERTY_ENABLE_HTTP_REDIRECT, WS_CHANNEL_PROPERTY_ENABLE_TIMEOUTS, WS_CHANNEL_PROPERTY_ENCODER, WS_CHANNEL_PROPERTY_ENCODING, WS_CHANNEL_PROPERTY_ENVELOPE_VERSION, WS_CHANNEL_PROPERTY_FAULTS_AS_ERRORS, WS_CHANNEL_PROPERTY_HTTP_CONNECTION_ID, WS_CHANNEL_PROPERTY_HTTP_MESSAGE_MAPPING, WS_CHANNEL_PROPERTY_HTTP_PROXY_SETTING_MODE, WS_CHANNEL_PROPERTY_HTTP_PROXY_SPN, WS_CHANNEL_PROPERTY_HTTP_REDIRECT_CALLBACK_CONTEXT, WS_CHANNEL_PROPERTY_HTTP_SERVER_SPN, WS_CHANNEL_PROPERTY_ID, WS_CHANNEL_PROPERTY_ID enumeration [Web Services for Windows], WS_CHANNEL_PROPERTY_IP_VERSION, WS_CHANNEL_PROPERTY_IS_SESSION_SHUT_DOWN, WS_CHANNEL_PROPERTY_KEEP_ALIVE_INTERVAL, WS_CHANNEL_PROPERTY_KEEP_ALIVE_TIME, WS_CHANNEL_PROPERTY_MAX_BUFFERED_MESSAGE_SIZE, WS_CHANNEL_PROPERTY_MAX_HTTP_REQUEST_HEADERS_BUFFER_SIZE, WS_CHANNEL_PROPERTY_MAX_HTTP_SERVER_CONNECTIONS, WS_CHANNEL_PROPERTY_MAX_SESSION_DICTIONARY_SIZE, WS_CHANNEL_PROPERTY_MAX_STREAMED_FLUSH_SIZE, WS_CHANNEL_PROPERTY_MAX_STREAMED_MESSAGE_SIZE, WS_CHANNEL_PROPERTY_MAX_STREAMED_START_SIZE, WS_CHANNEL_PROPERTY_MULTICAST_HOPS, WS_CHANNEL_PROPERTY_MULTICAST_INTERFACE, WS_CHANNEL_PROPERTY_NO_DELAY, WS_CHANNEL_PROPERTY_PROTECTION_LEVEL, WS_CHANNEL_PROPERTY_RECEIVE_RESPONSE_TIMEOUT, WS_CHANNEL_PROPERTY_RECEIVE_TIMEOUT, WS_CHANNEL_PROPERTY_REMOTE_ADDRESS, WS_CHANNEL_PROPERTY_REMOTE_IP_ADDRESS, WS_CHANNEL_PROPERTY_RESOLVE_TIMEOUT, WS_CHANNEL_PROPERTY_SEND_KEEP_ALIVES, WS_CHANNEL_PROPERTY_SEND_TIMEOUT, WS_CHANNEL_PROPERTY_STATE, WS_CHANNEL_PROPERTY_TRANSFER_MODE, WS_CHANNEL_PROPERTY_TRANSPORT_URL, WS_CHANNEL_PROPERTY_TRIM_BUFFERED_MESSAGE_SIZE, webservices/WS_CHANNEL_PROPERTY_ADDRESSING_VERSION, webservices/WS_CHANNEL_PROPERTY_ALLOW_UNSECURED_FAULTS, webservices/WS_CHANNEL_PROPERTY_ASYNC_CALLBACK_MODEL, webservices/WS_CHANNEL_PROPERTY_CHANNEL_TYPE, webservices/WS_CHANNEL_PROPERTY_CLOSE_TIMEOUT, webservices/WS_CHANNEL_PROPERTY_CONNECT_TIMEOUT, webservices/WS_CHANNEL_PROPERTY_COOKIE_MODE, webservices/WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_CALLBACKS, webservices/WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_INSTANCE, webservices/WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS, webservices/WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY, webservices/WS_CHANNEL_PROPERTY_DECODER, webservices/WS_CHANNEL_PROPERTY_ENABLE_HTTP_REDIRECT, webservices/WS_CHANNEL_PROPERTY_ENABLE_TIMEOUTS, webservices/WS_CHANNEL_PROPERTY_ENCODER, webservices/WS_CHANNEL_PROPERTY_ENCODING, webservices/WS_CHANNEL_PROPERTY_ENVELOPE_VERSION, webservices/WS_CHANNEL_PROPERTY_FAULTS_AS_ERRORS, webservices/WS_CHANNEL_PROPERTY_HTTP_CONNECTION_ID, webservices/WS_CHANNEL_PROPERTY_HTTP_MESSAGE_MAPPING, webservices/WS_CHANNEL_PROPERTY_HTTP_PROXY_SETTING_MODE, webservices/WS_CHANNEL_PROPERTY_HTTP_PROXY_SPN, webservices/WS_CHANNEL_PROPERTY_HTTP_REDIRECT_CALLBACK_CONTEXT, webservices/WS_CHANNEL_PROPERTY_HTTP_SERVER_SPN, webservices/WS_CHANNEL_PROPERTY_ID, webservices/WS_CHANNEL_PROPERTY_IP_VERSION, webservices/WS_CHANNEL_PROPERTY_IS_SESSION_SHUT_DOWN, webservices/WS_CHANNEL_PROPERTY_KEEP_ALIVE_INTERVAL, webservices/WS_CHANNEL_PROPERTY_KEEP_ALIVE_TIME, webservices/WS_CHANNEL_PROPERTY_MAX_BUFFERED_MESSAGE_SIZE, webservices/WS_CHANNEL_PROPERTY_MAX_HTTP_REQUEST_HEADERS_BUFFER_SIZE, webservices/WS_CHANNEL_PROPERTY_MAX_HTTP_SERVER_CONNECTIONS, webservices/WS_CHANNEL_PROPERTY_MAX_SESSION_DICTIONARY_SIZE, webservices/WS_CHANNEL_PROPERTY_MAX_STREAMED_FLUSH_SIZE, webservices/WS_CHANNEL_PROPERTY_MAX_STREAMED_MESSAGE_SIZE, webservices/WS_CHANNEL_PROPERTY_MAX_STREAMED_START_SIZE, webservices/WS_CHANNEL_PROPERTY_MULTICAST_HOPS, webservices/WS_CHANNEL_PROPERTY_MULTICAST_INTERFACE, webservices/WS_CHANNEL_PROPERTY_NO_DELAY, webservices/WS_CHANNEL_PROPERTY_PROTECTION_LEVEL, webservices/WS_CHANNEL_PROPERTY_RECEIVE_RESPONSE_TIMEOUT, webservices/WS_CHANNEL_PROPERTY_RECEIVE_TIMEOUT, webservices/WS_CHANNEL_PROPERTY_REMOTE_ADDRESS, webservices/WS_CHANNEL_PROPERTY_REMOTE_IP_ADDRESS, webservices/WS_CHANNEL_PROPERTY_RESOLVE_TIMEOUT, webservices/WS_CHANNEL_PROPERTY_SEND_KEEP_ALIVES, webservices/WS_CHANNEL_PROPERTY_SEND_TIMEOUT, webservices/WS_CHANNEL_PROPERTY_STATE, webservices/WS_CHANNEL_PROPERTY_TRANSFER_MODE, webservices/WS_CHANNEL_PROPERTY_TRANSPORT_URL, webservices/WS_CHANNEL_PROPERTY_TRIM_BUFFERED_MESSAGE_SIZE, wsw.ws_channel_property_id
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_CHANNEL_PROPERTY_ID"
+f1_keywords:
+- webservices/WS_CHANNEL_PROPERTY_ID
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_CHANNEL_PROPERTY_ID
+- WS_CHANNEL_PROPERTY_ID
 product: Windows
 targetos: Windows
 req.typenames: WS_CHANNEL_PROPERTY_ID
@@ -674,7 +674,7 @@ This property can be used to obtain the underlying channel
 
 ### -field WS_CHANNEL_PROPERTY_TRANSPORT_URL
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_string">WS_STRING</a> structure
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_string">WS_STRING</a> structure
                     used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> 
                     for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> or <b>WS_TCP_CHANNEL_BINDING</b>for channels created with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>.
                 
@@ -701,7 +701,7 @@ This property is only available once the channel has
                     been accepted using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsacceptchannel">WsAcceptChannel</a>.
                 
 
-The caller should pass the address of a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_string">WS_STRING</a> when
+The caller should pass the address of a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_string">WS_STRING</a> when
                     retrieving this property.  The returned string is a fully qualified
                     URL in encoded form.   The returned string is good until the channel 
                     is freed or reset.
@@ -854,7 +854,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webse
 
 ### -field WS_CHANNEL_PROPERTY_ENCODER
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_channel_encoder">WS_CHANNEL_ENCODER</a> structure used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>, 
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_channel_encoder">WS_CHANNEL_ENCODER</a> structure used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>, 
                     <b>WS_HTTP_CHANNEL_BINDING</b>, or <b>WS_NAMEDPIPE_CHANNEL_BINDING</b> to provide a custom encoding of messages.  
 
 This property cannot be used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a>.
@@ -863,7 +863,7 @@ This property cannot be used with <a href="https://docs.microsoft.com/windows/de
 
 ### -field WS_CHANNEL_PROPERTY_DECODER
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_channel_decoder">WS_CHANNEL_DECODER</a> structure used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>, 
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_channel_decoder">WS_CHANNEL_DECODER</a> structure used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>, 
                     <b>WS_HTTP_CHANNEL_BINDING</b>, or <b>WS_NAMEDPIPE_CHANNEL_BINDING</b> to provide a custom dencoding of messages.  
 
 This property cannot be used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a>.
@@ -904,7 +904,7 @@ The default value is <a href="https://docs.microsoft.com/windows/desktop/api/web
 
 ### -field WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_http_proxy">WS_CUSTOM_HTTP_PROXY</a> structure used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>to specify the custom custom setting for the HTTP channel. This property must
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_custom_http_proxy">WS_CUSTOM_HTTP_PROXY</a> structure used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>to specify the custom custom setting for the HTTP channel. This property must
                     be specified when <b>WS_CHANNEL_PROPERTY_HTTP_PROXY_SETTING_MODE</b> is set to
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_http_proxy_setting_mode">WS_HTTP_PROXY_SETTING_MODE_CUSTOM</a>.
                 
@@ -915,14 +915,14 @@ The default value is <b>NULL</b>.
 
 ### -field WS_CHANNEL_PROPERTY_HTTP_MESSAGE_MAPPING
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a> structure used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a> structure used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.
                 
 
 This property value controls how an HTTP request or response is mapped into
-                    a message object.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a> for more information.
+                    a message object.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a> for more information.
                 
 
-The default value for this property is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a>structure is as follows:
+The default value for this property is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a>structure is as follows:
                 
 
 <ul>
@@ -936,7 +936,7 @@ The default value for this property is a <a href="https://docs.microsoft.com/win
                 </li>
 </ul>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a> fields requestMappingOptions and responseMappingOptions must be 0 
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a> fields requestMappingOptions and responseMappingOptions must be 0 
                     unless encoding is set to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_encoding">WS_ENCODING_RAW</a> using channel property <b>WS_CHANNEL_PROPERTY_ENCODING</b>.
                 
 
@@ -1059,7 +1059,7 @@ Returns the Server Principal Name of the remote endpoint used for the last faile
                     <ul>
 <li>The channel sent a request.
                         </li>
-<li>The request failed due to mismatched HTTP header authentication schemes. See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a>.
+<li>The request failed due to mismatched HTTP header authentication schemes. See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a>.
                         </li>
 <li>The remote endpoint supports the "Nego2" authentication scheme.
                     </li>
@@ -1081,7 +1081,7 @@ Returns the Server Principal Name of the HTTP proxy server used for the last fai
                     <ul>
 <li>The channel sent a request.
                         </li>
-<li>The request failed due to mismatched HTTP header authentication schemes. See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a>.
+<li>The request failed due to mismatched HTTP header authentication schemes. See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a>.
                         </li>
 <li>The HTTP proxy server supports the "Nego2" authentication scheme.
                     </li>

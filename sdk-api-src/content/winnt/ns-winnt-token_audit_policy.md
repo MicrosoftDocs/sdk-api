@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: 02c03560-4886-4a63-ba0d-c77494d6595e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTOKEN_AUDIT_POLICY, PTOKEN_AUDIT_POLICY, PTOKEN_AUDIT_POLICY structure pointer [Security], TOKEN_AUDIT_POLICY, TOKEN_AUDIT_POLICY structure [Security], _TOKEN_AUDIT_POLICY, security.token_audit_policy, winnt/PTOKEN_AUDIT_POLICY, winnt/TOKEN_AUDIT_POLICY"
+ms.keywords: '*PTOKEN_AUDIT_POLICY, PTOKEN_AUDIT_POLICY, PTOKEN_AUDIT_POLICY structure pointer [Security], TOKEN_AUDIT_POLICY, TOKEN_AUDIT_POLICY structure [Security], _TOKEN_AUDIT_POLICY, security.token_audit_policy, winnt/PTOKEN_AUDIT_POLICY, winnt/TOKEN_AUDIT_POLICY'
 ms.topic: struct
-f1_keywords: 
- - "winnt/TOKEN_AUDIT_POLICY"
+f1_keywords:
+- winnt/TOKEN_AUDIT_POLICY
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - TOKEN_AUDIT_POLICY
+- TOKEN_AUDIT_POLICY
 product: Windows
 targetos: Windows
 req.typenames: TOKEN_AUDIT_POLICY, *PTOKEN_AUDIT_POLICY
@@ -69,7 +69,7 @@ Specifies the per user audit policy for the token.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_token_information_class">TOKEN_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>
  
 
  

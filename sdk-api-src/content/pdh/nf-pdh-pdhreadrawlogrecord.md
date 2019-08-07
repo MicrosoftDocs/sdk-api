@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhReadRawLogRecord, PdhReadRawLogRecord function [Perf], _win32_pdhreadrawlogrecord, base.pdhreadrawlogrecord, pdh/PdhReadRawLogRecord, perf.pdhreadrawlogrecord
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhReadRawLogRecord"
+f1_keywords:
+- pdh/PdhReadRawLogRecord
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhReadRawLogRecord
+- PdhReadRawLogRecord
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ Time stamp of the record to be read. If the time stamp does not match a record i
 ### -param pRawLogRecord [out]
 
 Caller-allocated buffer that receives a 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_raw_log_record">PDH_RAW_LOG_RECORD</a> structure; the structure contains the log file record information. Set to <b>NULL</b> if <i>pdwBufferLength</i> is zero.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_raw_log_record">PDH_RAW_LOG_RECORD</a> structure; the structure contains the log file record information. Set to <b>NULL</b> if <i>pdwBufferLength</i> is zero.
 
 
 ### -param pdwBufferLength [in]
@@ -151,7 +151,7 @@ You should call this function twice, the first time to get the required buffer s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_raw_log_record">PDH_RAW_LOG_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_raw_log_record">PDH_RAW_LOG_RECORD</a>
 
 
 

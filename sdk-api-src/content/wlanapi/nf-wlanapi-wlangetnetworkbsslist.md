@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanGetNetworkBssList, WlanGetNetworkBssList function [NativeWIFI], dot11_BSS_type_any, dot11_BSS_type_independent, dot11_BSS_type_infrastructure, nwifi.wlangetnetworkbsslist, wlanapi/WlanGetNetworkBssList
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanGetNetworkBssList"
+f1_keywords:
+- wlanapi/WlanGetNetworkBssList
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wlanapi.dll
+- Wlanapi.dll
 api_name:
- - WlanGetNetworkBssList
+- WlanGetNetworkBssList
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -135,9 +135,9 @@ Reserved for future use.  This parameter must be set to <b>NULL</b>.
 
 ### -param ppWlanBssList [out]
 
-A pointer to storage for a pointer to receive the returned list of of BSS entries in a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_list">WLAN_BSS_LIST</a> structure. 
+A pointer to storage for a pointer to receive the returned list of of BSS entries in a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a> structure. 
 
-The buffer for the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_list">WLAN_BSS_LIST</a> returned is allocated by the <b>WlanGetNetworkBssList</b> function if the call succeeds.
+The buffer for the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a> returned is allocated by the <b>WlanGetNetworkBssList</b> function if the call succeeds.
 
 
 ## -returns
@@ -251,9 +251,9 @@ Various error codes.
 
 
 
-The <b>WlanGetNetworkBssList</b> function retrieves the basic service set list for each wireless network or networks accessible on a given interface. The list of information returned for each wireless network also contains a list of information elements returned by each access point for an infrastructure BSS network or a network peer for an independent BSS network (ad hoc network). The information is returned as a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_list">WLAN_BSS_LIST</a> structure in the <i>ppWlanBssList</i> parameter.  The <b>WLAN_BSS_LIST</b> structure contains an item count followed by an array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_entry">WLAN_BSS_ENTRY</a> structure entries.  
+The <b>WlanGetNetworkBssList</b> function retrieves the basic service set list for each wireless network or networks accessible on a given interface. The list of information returned for each wireless network also contains a list of information elements returned by each access point for an infrastructure BSS network or a network peer for an independent BSS network (ad hoc network). The information is returned as a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a> structure in the <i>ppWlanBssList</i> parameter.  The <b>WLAN_BSS_LIST</b> structure contains an item count followed by an array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_entry">WLAN_BSS_ENTRY</a> structure entries.  
 
-Since the information returned by the <b>WlanGetNetworkBssList</b> function is sent by an access point for an infrastructure BSS network or by a network peer for an independent BSS network (ad hoc network), the information returned should not be trusted. The <b>ulIeOffset</b> and <b>ulIeSize</b>  members in the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_entry">WLAN_BSS_ENTRY</a> structure should be used to determine the size of the information element data blob in the <b>WLAN_BSS_ENTRY</b> structure, not the data in the information element data blob itself. The <b>WlanGetNetworkBssList</b> function does not validate that any information returned in the information element data blob pointed to by the <b>ulIeOffset</b> member is a valid information element as defined by the IEEE 802.11 standards for wireless LANs.
+Since the information returned by the <b>WlanGetNetworkBssList</b> function is sent by an access point for an infrastructure BSS network or by a network peer for an independent BSS network (ad hoc network), the information returned should not be trusted. The <b>ulIeOffset</b> and <b>ulIeSize</b>  members in the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_entry">WLAN_BSS_ENTRY</a> structure should be used to determine the size of the information element data blob in the <b>WLAN_BSS_ENTRY</b> structure, not the data in the information element data blob itself. The <b>WlanGetNetworkBssList</b> function does not validate that any information returned in the information element data blob pointed to by the <b>ulIeOffset</b> member is a valid information element as defined by the IEEE 802.11 standards for wireless LANs.
 
 If the <i>pDot11Ssid</i> parameter is specified (not <b>NULL</b>), then the <i>dot11BssType</i> parameter specified must be set to either <b>dot11_BSS_type_infrastructure</b> for an infrastructure BSS network or <b>dot11_BSS_type_independent</b> for an independent BSS network (ad hoc network). If the <i>dot11BssType</i> parameter is set to <b>dot11_BSS_type_any</b>, then the <b>WlanGetNetworkBssList</b>  function returns ERROR_SUCCESS  but no BSS entries will be returned.
 
@@ -261,7 +261,7 @@ To return a list of all the infrastructure BSS networks and independent BSS  net
 
 
 
-The <b>WlanGetNetworkBssList</b>  function returns ERROR_SUCCESS when an empty BSS list is returned by the WLAN AutoConfig Service. An application that calls  the <b>WlanGetNetworkBssList</b>  function must check that the <b>dwNumberOfItems</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_list">WLAN_BSS_LIST</a> pointed to by the <i>ppWlanBssList</i> parameter is not zero before accessing the <b>wlanBssEntries[0]</b> member in <b>WLAN_BSS_LIST</b> structure. 
+The <b>WlanGetNetworkBssList</b>  function returns ERROR_SUCCESS when an empty BSS list is returned by the WLAN AutoConfig Service. An application that calls  the <b>WlanGetNetworkBssList</b>  function must check that the <b>dwNumberOfItems</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a> pointed to by the <i>ppWlanBssList</i> parameter is not zero before accessing the <b>wlanBssEntries[0]</b> member in <b>WLAN_BSS_LIST</b> structure. 
 
 The <b>WlanGetNetworkBssList</b> function allocates memory for the basic service set list that is returned in a buffer pointed to by the <i>ppWlanBssList</i> parameter when the function succeeds. The memory used for the buffer pointed to by <i>ppWlanBssList</i> parameter should be released by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> function after the buffer is no longer needed.
 
@@ -274,19 +274,19 @@ The <b>WlanGetNetworkBssList</b> function allocates memory for the basic service
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_available_network">WLAN_AVAILABLE_NETWORK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network">WLAN_AVAILABLE_NETWORK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_entry">WLAN_BSS_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_entry">WLAN_BSS_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_list">WLAN_BSS_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 91482c2f-2730-5aba-e73a-43653c75ff49, D3DPreprocess, D3DPreprocess function [HLSL], d3dcompiler/D3DPreprocess, direct3dhlsl.d3dpreprocess
 ms.topic: function
-f1_keywords: 
- - "d3dcompiler/D3DPreprocess"
+f1_keywords:
+- d3dcompiler/D3DPreprocess
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: D3dcompiler_47.lib
 req.dll: D3dcompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - d3dcompiler_47.dll
+- d3dcompiler_47.dll
 api_name:
- - D3DPreprocess
+- D3DPreprocess
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,9 +82,9 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 ### -param pDefines [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-_d3d_shader_macro">D3D_SHADER_MACRO</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro">D3D_SHADER_MACRO</a>*</b>
 
- An array of NULL-terminated macro definitions (see <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-_d3d_shader_macro">D3D_SHADER_MACRO</a>).
+ An array of NULL-terminated macro definitions (see <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro">D3D_SHADER_MACRO</a>).
 
 
 ### -param pInclude [in, optional]

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROPERTY_RADIUSSERVERGROUP_SERVERS_COLLECTION, RADIUSSERVERGROUPPROPERTIES, RADIUSSERVERGROUPPROPERTIES enumeration [Network Policy Server], _sdo_radiusservergroupproperties, nps.SDO_radiusservergroupproperties, sdo.radiusservergroupproperties, sdoias/PROPERTY_RADIUSSERVERGROUP_SERVERS_COLLECTION, sdoias/RADIUSSERVERGROUPPROPERTIES
 ms.topic: enum
-f1_keywords: 
- - "sdoias/RADIUSSERVERGROUPPROPERTIES"
+f1_keywords:
+- sdoias/RADIUSSERVERGROUPPROPERTIES
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - RADIUSSERVERGROUPPROPERTIES
+- RADIUSSERVERGROUPPROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: RADIUSSERVERGROUPPROPERTIES
@@ -70,7 +70,7 @@ The collection of servers in the RADIUS server group.
 
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties">IASPROPERTIES</a> enumeration type contains the value PROPERTY_IAS_RADIUSSERVERGROUPS_COLLECTION, which corresponds to the collection of RADIUS server groups.
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties">IASPROPERTIES</a> enumeration type contains the value PROPERTY_IAS_RADIUSSERVERGROUPS_COLLECTION, which corresponds to the collection of RADIUS server groups.
 
 
 
@@ -84,7 +84,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties">IASPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties">IASPROPERTIES</a>
  
 
  

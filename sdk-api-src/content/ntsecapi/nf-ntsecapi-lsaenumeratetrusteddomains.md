@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaEnumerateTrustedDomains, LsaEnumerateTrustedDomains function [Security], _lsa_lsaenumeratetrusteddomains, ntsecapi/LsaEnumerateTrustedDomains, security.lsaenumeratetrusteddomains
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/LsaEnumerateTrustedDomains"
+f1_keywords:
+- ntsecapi/LsaEnumerateTrustedDomains
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvAPI32-l4-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-security-lsalookup-l2-1-0.dll
- - API-MS-Win-security-lsalookup-l2-1-1.dll
- - API-MS-Win-Security-LSALookup-L2-1-2.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvAPI32-l4-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-security-lsalookup-l2-1-0.dll
+- API-MS-Win-security-lsalookup-l2-1-1.dll
+- API-MS-Win-Security-LSALookup-L2-1-2.dll
 api_name:
- - LsaEnumerateTrustedDomains
+- LsaEnumerateTrustedDomains
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,7 +83,7 @@ Pointer to an enumeration handle that enables you to make multiple calls to enum
 ### -param Buffer [out]
 
 Receives a pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_trust_information">LSA_TRUST_INFORMATION</a> structures that contain the names and SIDs of one or more trusted domains. 
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_trust_information">LSA_TRUST_INFORMATION</a> structures that contain the names and SIDs of one or more trusted domains. 
 
 
 

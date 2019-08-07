@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 26b52407-7c75-4731-aff3-41376aa9ac3a, GetVideoProcessorDeviceGuids, GetVideoProcessorDeviceGuids method [Media Foundation], GetVideoProcessorDeviceGuids method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],GetVideoProcessorDeviceGuids method, IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids, IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids, dxva2api/IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids, mf.idirectxvideoprocessorservice_getvideoprocessordeviceguids
 ms.topic: method
-f1_keywords: 
- - "dxva2api/IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids"
+f1_keywords:
+- dxva2api/IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids
+- IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ Gets an array of GUIDs which identify the video processors supported by the grap
 
 ### -param pVideoDesc [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videodesc">DXVA2_VideoDesc</a> structure that describes the video content.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videodesc">DXVA2_VideoDesc</a> structure that describes the video content.
           
 
 

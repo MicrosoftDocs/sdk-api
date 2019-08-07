@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddTrack, AddTrack method [IMAPI], AddTrack method [IMAPI],IRawCDImageCreator interface, IRawCDImageCreator interface [IMAPI],AddTrack method, IRawCDImageCreator.AddTrack, IRawCDImageCreator::AddTrack, imapi.irawcdimagecreator_addtrack, imapi2/IRawCDImageCreator::AddTrack
 ms.topic: method
-f1_keywords: 
- - "imapi2/IRawCDImageCreator.AddTrack"
+f1_keywords:
+- imapi2/IRawCDImageCreator.AddTrack
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IRawCDImageCreator.AddTrack
+- IRawCDImageCreator.AddTrack
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Accepts the provided <b>IStream</b> object and saves the interface pointer as th
 
 ### -param dataType [in]
 
-A  value, defined by  <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_cd_sector_type">IMAPI_CD_SECTOR_TYPE</a>, that indicates the type of data. <b>IMAPI_CD_SECTOR_AUDIO</b> is the only value  supported by the <b>IRawCDImageCreator::AddTrack</b>  method.
+A  value, defined by  <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_cd_sector_type">IMAPI_CD_SECTOR_TYPE</a>, that indicates the type of data. <b>IMAPI_CD_SECTOR_AUDIO</b> is the only value  supported by the <b>IRawCDImageCreator::AddTrack</b>  method.
 
 
 ### -param data [in, optional]
@@ -87,7 +87,7 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 
 
-Any additional tracks must be compatible with all existing tracks.  See the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_cd_sector_type">IMAPI_CD_SECTOR_TYPE</a> enumeration for  information on limitations.
+Any additional tracks must be compatible with all existing tracks.  See the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_cd_sector_type">IMAPI_CD_SECTOR_TYPE</a> enumeration for  information on limitations.
 
 The data stream must be at least 4 seconds (300 sectors) long.  Data stream may not cause final sector to exceed LBA 398,099 (MSF 88:29:74), as leadout would then exceed the MSF 89:59:74 maximum.
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PNRP_CLOUD_FLAGS, PNRP_CLOUD_FLAGS enumeration [Peer Networking], PNRP_CLOUD_FULL_PARTICIPANT, PNRP_CLOUD_NAME_LOCAL, PNRP_CLOUD_NO_FLAGS, PNRP_CLOUD_RESOLVE_ONLY, p2p.pnrp_cloud_flags, pnrpdef/PNRP_CLOUD_FLAGS, pnrpdef/PNRP_CLOUD_FULL_PARTICIPANT, pnrpdef/PNRP_CLOUD_NAME_LOCAL, pnrpdef/PNRP_CLOUD_NO_FLAGS, pnrpdef/PNRP_CLOUD_RESOLVE_ONLY
 ms.topic: enum
-f1_keywords: 
- - "pnrpdef/PNRP_CLOUD_FLAGS"
+f1_keywords:
+- pnrpdef/PNRP_CLOUD_FLAGS
 req.header: pnrpdef.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pnrpdef.h
+- Pnrpdef.h
 api_name:
- - PNRP_CLOUD_FLAGS
+- PNRP_CLOUD_FLAGS
 product: Windows
 targetos: Windows
 req.typenames: PNRP_CLOUD_FLAGS
@@ -88,7 +88,7 @@ This machine is a full participant in the cloud, and can publish and resolve nam
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pnrpns/ns-pnrpns-_pnrpcloudinfo">PNRPCLOUDINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pnrpns/ns-pnrpns-pnrpcloudinfo">PNRPCLOUDINFO</a>
  
 
  

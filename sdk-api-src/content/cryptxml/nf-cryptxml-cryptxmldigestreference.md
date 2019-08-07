@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_REFERENCE_DATA_TRANSFORMED, CryptXmlDigestReference, CryptXmlDigestReference function [Security], cryptxml/CryptXmlDigestReference, security.cryptxmldigestreference
 ms.topic: function
-f1_keywords: 
- - "cryptxml/CryptXmlDigestReference"
+f1_keywords:
+- cryptxml/CryptXmlDigestReference
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Cryptxml.lib
 req.dll: Cryptxml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cryptxml.dll
+- Cryptxml.dll
 api_name:
- - CryptXmlDigestReference
+- CryptXmlDigestReference
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -95,7 +95,7 @@ Specifies that the processing engine will create the digest without applying the
 
 ### -param pDataProviderIn [in]
 
-A pointer to a    <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_data_provider">CRYPT_XML_DATA_PROVIDER</a> structure that specifies the data provider. The <b>CryptXmlDigestReference</b> function always calls the <b>fpnClose</b> function on the data provider.
+A pointer to a    <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_provider">CRYPT_XML_DATA_PROVIDER</a> structure that specifies the data provider. The <b>CryptXmlDigestReference</b> function always calls the <b>fpnClose</b> function on the data provider.
 
 
 ## -returns
@@ -117,7 +117,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
     the processing engine adds received data directly to the digest without 
     applying the transform chain engine.
 
-<div class="alert"><b>Note</b>  The <b>CryptXmlDigestReference</b> function always calls the function pointed to by the <b>fpnClose</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_data_provider">CRYPT_XML_DATA_PROVIDER</a> structure pointed to by the <i>pDataProviderIn</i> parameter.
+<div class="alert"><b>Note</b>  The <b>CryptXmlDigestReference</b> function always calls the function pointed to by the <b>fpnClose</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_provider">CRYPT_XML_DATA_PROVIDER</a> structure pointed to by the <i>pDataProviderIn</i> parameter.
 </div>
 <div> </div>
 

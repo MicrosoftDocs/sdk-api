@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],GetContext method, CVssWriter.GetContext, CVssWriter::GetContext, GetContext, GetContext method [VSS], GetContext method [VSS],CVssWriter interface, _win32_cvsswriter_getcontext, base.cvsswriter_getcontext, vswriter/CVssWriter::GetContext
 ms.topic: method
-f1_keywords: 
- - "vswriter/CVssWriter.GetContext"
+f1_keywords:
+- vswriter/CVssWriter.GetContext
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - CVssWriter.GetContext
+- CVssWriter.GetContext
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,8 +71,8 @@ The
 
 
 This method returns the context for any shadow copies involving the writer as a bit mask (or bitwise OR) of 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> values.
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> values.
 
 
 
@@ -118,11 +118,11 @@ Therefore, if a writer is participating in a shadow copy operation, a definitive
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_ITEM_RANGE, WS_ITEM_RANGE structure [Web Services for Windows], webservices/WS_ITEM_RANGE, wsw.ws_item_range
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_ITEM_RANGE"
+f1_keywords:
+- webservices/WS_ITEM_RANGE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_ITEM_RANGE
+- WS_ITEM_RANGE
 product: Windows
 targetos: Windows
 req.typenames: WS_ITEM_RANGE
@@ -55,7 +55,7 @@ Defines the minimum and maximum number of items that may appear
                 when using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>, 
                 <b>WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING</b>,
                 or <b>WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING</b> within
-                a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.  The constraint is only
+                a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.  The constraint is only
                 enforced during deserialization.
             
 

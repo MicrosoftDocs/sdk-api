@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSupportedProfiles, GetSupportedProfiles method [IMAPI], GetSupportedProfiles method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetSupportedProfiles method, IDiscRecorder2Ex.GetSupportedProfiles, IDiscRecorder2Ex::GetSupportedProfiles, imapi.idiscrecorder2ex_getsupportedprofiles, imapi2/IDiscRecorder2Ex::GetSupportedProfiles
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscRecorder2Ex.GetSupportedProfiles"
+f1_keywords:
+- imapi2/IDiscRecorder2Ex.GetSupportedProfiles
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscRecorder2Ex.GetSupportedProfiles
+- IDiscRecorder2Ex.GetSupportedProfiles
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Set to True to retrieve the current profiles. Otherwise, False to return all sup
 
 ### -param profileTypes [out]
 
-Data buffer that contains one or more profile types. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_profile_type">IMAPI_PROFILE_TYPE</a> enumeration type. 
+Data buffer that contains one or more profile types. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_profile_type">IMAPI_PROFILE_TYPE</a> enumeration type. 
 
 When done, call the <b>CoTaskMemFree</b> function to free the memory.
 
@@ -409,7 +409,7 @@ Value: 0xC0AA0210
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_profile_type">IMAPI_PROFILE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_profile_type">IMAPI_PROFILE_TYPE</a>
  
 
  

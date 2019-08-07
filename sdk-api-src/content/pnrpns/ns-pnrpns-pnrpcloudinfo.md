@@ -8,10 +8,10 @@ tech.root: P2PSdk
 ms.assetid: 82af5a4f-1b29-405a-a200-1d723ea7693b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPNRPCLOUDINFO, PNRPCLOUDINFO, PNRPCLOUDINFO structure [Peer Networking], PPNRPCLOUDINFO, PPNRPCLOUDINFO structure pointer [Peer Networking], p2p.pnrpcloudinfo, pnrpns/PNRPCLOUDINFO, pnrpns/PPNRPCLOUDINFO"
+ms.keywords: '*PPNRPCLOUDINFO, PNRPCLOUDINFO, PNRPCLOUDINFO structure [Peer Networking], PPNRPCLOUDINFO, PPNRPCLOUDINFO structure pointer [Peer Networking], p2p.pnrpcloudinfo, pnrpns/PNRPCLOUDINFO, pnrpns/PPNRPCLOUDINFO'
 ms.topic: struct
-f1_keywords: 
- - "pnrpns/PNRPCLOUDINFO"
+f1_keywords:
+- pnrpns/PNRPCLOUDINFO
 req.header: pnrpns.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pnrpns.h
+- Pnrpns.h
 api_name:
- - PNRPCLOUDINFO
+- PNRPCLOUDINFO
 product: Windows
 targetos: Windows
 req.typenames: PNRPCLOUDINFO, *PPNRPCLOUDINFO
@@ -66,17 +66,17 @@ Specifies the size of this structure.
 
 ### -field Cloud
 
-Specifies the network cloud information stored in a <a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ns-pnrpdef-_pnrp_cloud_id">PNRP_CLOUD_ID</a> structure.
+Specifies the network cloud information stored in a <a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ns-pnrpdef-pnrp_cloud_id">PNRP_CLOUD_ID</a> structure.
 
 
 ### -field enCloudState
 
-Specifies the state of the network cloud. Valid values are specified by <a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ne-pnrpdef-_pnrp_cloud_state">PNRP_CLOUD_STATE</a>.
+Specifies the state of the network cloud. Valid values are specified by <a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ne-pnrpdef-pnrp_cloud_state">PNRP_CLOUD_STATE</a>.
 
 
 ### -field enCloudFlags
 
-Indicates if the cloud name is valid on the network or only valid on the current computer. Valid values are specified by <a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ne-pnrpdef-_pnrp_cloud_flags">PNRP_CLOUD_FLAGS</a>.
+Indicates if the cloud name is valid on the network or only valid on the current computer. Valid values are specified by <a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ne-pnrpdef-pnrp_cloud_flags">PNRP_CLOUD_FLAGS</a>.
 
 
 ## -see-also
@@ -100,15 +100,15 @@ Indicates if the cloud name is valid on the network or only valid on the current
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ne-pnrpdef-_pnrp_cloud_flags">PNRP_CLOUD_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ne-pnrpdef-pnrp_cloud_flags">PNRP_CLOUD_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ns-pnrpdef-_pnrp_cloud_id">PNRP_CLOUD_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ns-pnrpdef-pnrp_cloud_id">PNRP_CLOUD_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ne-pnrpdef-_pnrp_cloud_state">PNRP_CLOUD_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ne-pnrpdef-pnrp_cloud_state">PNRP_CLOUD_STATE</a>
 
 
 

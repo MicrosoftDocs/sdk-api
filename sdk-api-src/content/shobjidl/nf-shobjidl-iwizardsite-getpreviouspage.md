@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPreviousPage, GetPreviousPage method [Windows Shell], GetPreviousPage method [Windows Shell],IWizardSite interface, IWizardSite interface [Windows Shell],GetPreviousPage method, IWizardSite.GetPreviousPage, IWizardSite::GetPreviousPage, _shell_IWizardSite_GetPreviousPage, shell.IWizardSite_GetPreviousPage, shobjidl/IWizardSite::GetPreviousPage
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IWizardSite.GetPreviousPage"
+f1_keywords:
+- shobjidl/IWizardSite.GetPreviousPage
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IWizardSite.GetPreviousPage
+- IWizardSite.GetPreviousPage
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called when the user navigates backward out of the wizard extension. Gets the handle of the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> that represents the wizard page that is before the wizard extension page.
+Called when the user navigates backward out of the wizard extension. Gets the handle of the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> that represents the wizard page that is before the wizard extension page.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Called when the user navigates backward out of the wizard extension. Gets the ha
 
 Type: <b>HPROPSHEETPAGE*</b>
 
-A pointer to a variable handle of type <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> that represents the wizard page that comes immediately before the wizard extension page.
+A pointer to a variable handle of type <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> that represents the wizard page that comes immediately before the wizard extension page.
 
 
 ## -returns

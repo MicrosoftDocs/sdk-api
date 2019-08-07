@@ -8,10 +8,10 @@ tech.root: tablet
 ms.assetid: c1bd6240-7f95-421c-8622-0d7b98182d7c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPACKET_PROPERTY, PACKET_PROPERTY, PACKET_PROPERTY structure [Tablet PC], PPACKET_PROPERTY, PPACKET_PROPERTY structure pointer [Tablet PC], c1bd6240-7f95-421c-8622-0d7b98182d7c, tablet.packet_property, tpcshrd/PACKET_PROPERTY, tpcshrd/PPACKET_PROPERTY"
+ms.keywords: '*PPACKET_PROPERTY, PACKET_PROPERTY, PACKET_PROPERTY structure [Tablet PC], PPACKET_PROPERTY, PPACKET_PROPERTY structure pointer [Tablet PC], c1bd6240-7f95-421c-8622-0d7b98182d7c, tablet.packet_property, tpcshrd/PACKET_PROPERTY, tpcshrd/PPACKET_PROPERTY'
 ms.topic: struct
-f1_keywords: 
- - "tpcshrd/PACKET_PROPERTY"
+f1_keywords:
+- tpcshrd/PACKET_PROPERTY
 req.header: tpcshrd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - tpcshrd.h
+- tpcshrd.h
 api_name:
- - PACKET_PROPERTY
+- PACKET_PROPERTY
 product: Windows
 targetos: Windows
 req.typenames: PACKET_PROPERTY, *PPACKET_PROPERTY
@@ -77,7 +77,7 @@ Describes a packet property that is reported by the tablet driver.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-_packet_description">PACKET_DESCRIPTION Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_description">PACKET_DESCRIPTION Structure</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetResourceCharacteristics, GetResourceCharacteristics method [Media Foundation], GetResourceCharacteristics method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetResourceCharacteristics method, IMFMediaEngineEx.GetResourceCharacteristics, IMFMediaEngineEx::GetResourceCharacteristics, mf.imfmediaengineex_getresourcecharacteristics, mfmediaengine/IMFMediaEngineEx::GetResourceCharacteristics
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.GetResourceCharacteristics"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.GetResourceCharacteristics
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.GetResourceCharacteristics
+- IMFMediaEngineEx.GetResourceCharacteristics
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Gets various flags that describe the media resource.
 
 ### -param pCharacteristics [out]
 
-Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfmediasource_characteristics">MFMEDIASOURCE_CHARACTERISTICS enumeration</a>.
+Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfmediasource_characteristics">MFMEDIASOURCE_CHARACTERISTICS enumeration</a>.
 
 
 ## -returns

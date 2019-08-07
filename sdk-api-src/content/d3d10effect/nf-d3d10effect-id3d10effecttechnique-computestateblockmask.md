@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComputeStateBlockMask, ComputeStateBlockMask method [Direct3D 10], ComputeStateBlockMask method [Direct3D 10],ID3D10EffectTechnique interface, ID3D10EffectTechnique interface [Direct3D 10],ComputeStateBlockMask method, ID3D10EffectTechnique.ComputeStateBlockMask, ID3D10EffectTechnique::ComputeStateBlockMask, d3d10effect/ID3D10EffectTechnique::ComputeStateBlockMask, direct3d10.id3d10effecttechnique_computestateblockmask, edde0246-0e4d-7194-97eb-796b3e11860c
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectTechnique.ComputeStateBlockMask"
+f1_keywords:
+- d3d10effect/ID3D10EffectTechnique.ComputeStateBlockMask
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectTechnique.ComputeStateBlockMask
+- ID3D10EffectTechnique.ComputeStateBlockMask
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ Compute a state-block mask to allow/prevent state changes.
 
 ### -param pStateBlockMask [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_state_block_mask">D3D10_STATE_BLOCK_MASK</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_state_block_mask">D3D10_STATE_BLOCK_MASK</a>*</b>
 
-A pointer to a state-block mask (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_state_block_mask">D3D10_STATE_BLOCK_MASK</a>).
+A pointer to a state-block mask (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_state_block_mask">D3D10_STATE_BLOCK_MASK</a>).
 
 
 ## -returns

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PerfQueryCounterInfo, PerfQueryCounterInfo function [Perf], perf.perfquerycounterinfo, perflib/PerfQueryCounterInfo
 ms.topic: function
-f1_keywords: 
- - "perflib/PerfQueryCounterInfo"
+f1_keywords:
+- perflib/PerfQueryCounterInfo
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: AdvAPI32.lib
 req.dll: AdvAPI32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - AdvAPI32.dll
+- AdvAPI32.dll
 api_name:
- - PerfQueryCounterInfo
+- PerfQueryCounterInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -159,7 +159,7 @@ For other types of failures, the return value is a
 
 
 
-The information about the counter specifications is written to the buffer that <i>pCounters</i> specifies as a sequence of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> blocks. The size in bytes of  
+The information about the counter specifications is written to the buffer that <i>pCounters</i> specifies as a sequence of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> blocks. The size in bytes of  
 
 the sequence of blocks is written to  <i>pcbCountersActual</i>. Each <b>PERF_COUNTER_IDENTIFIER</b> block consists  
 
@@ -180,7 +180,7 @@ will be a multiple of 8 bytes.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a>
  
 
  

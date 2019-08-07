@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpQueryContextAttributes, SpQueryContextAttributes callback function [Security], SpQueryContextAttributesFn, SpQueryContextAttributesFn callback, _ssp_spquerycontextattributes, ntsecpkg/SpQueryContextAttributes, security.spquerycontextattributes
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/SpQueryContextAttributes"
+f1_keywords:
+- ntsecpkg/SpQueryContextAttributes
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SpQueryContextAttributes
+- SpQueryContextAttributes
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,7 +78,7 @@ Context attribute to query. For a list of valid values, see the
 
 Pointer that receives the address of a buffer containing the requested attributes. Memory for the <i>Buffer</i> parameter should be allocated with the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374721(v=vs.85)">AllocateHeap</a> function from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_dll_functions">SECPKG_DLL_FUNCTIONS</a> function table in user-mode. In <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) mode, use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_dll_functions">SECPKG_DLL_FUNCTIONS</a> function table in user-mode. In <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) mode, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap">AllocateLsaHeap</a> function.
 
 
@@ -119,11 +119,11 @@ The handle is not valid.
 SSP/APs must implement the <b>SpQueryContextAttributes</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the LSA-mode implementation of the <b>SpQueryContextAttributes</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 A pointer to the user-mode implementation of the <b>SpQueryContextAttributes</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
 
 
@@ -134,7 +134,7 @@ A pointer to the user-mode implementation of the <b>SpQueryContextAttributes</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 

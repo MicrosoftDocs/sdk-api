@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD, IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD control, IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD control code, base.ioctl_pwm_controller_set_desired_period, pwm/IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
 ms.topic: ioctl
-f1_keywords: 
- - "pwm/IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD"
+f1_keywords:
+- pwm/IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pwm.h
+- Pwm.h
 api_name:
- - IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
+- IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Sets the output signal period of a Pulse Width Modulation (PWM) controller to a 
 
 ### -input-buffer
 
-A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-_pwm_controller_set_desired_period_input">PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT</a> struct. The associated value is the requested output signal period, in picoseconds, for the controller. This value must be greater than zero (0). It must be in the controller supported range of periods, which is between the <b>MinimumPeriod</b> and <b>MaximumPeriod</b> values, inclusive, which you can obtain by using <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_info">IOCTL_PWM_CONTROLLER_GET_INFO</a>.
+A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-pwm_controller_set_desired_period_input">PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT</a> struct. The associated value is the requested output signal period, in picoseconds, for the controller. This value must be greater than zero (0). It must be in the controller supported range of periods, which is between the <b>MinimumPeriod</b> and <b>MaximumPeriod</b> values, inclusive, which you can obtain by using <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_info">IOCTL_PWM_CONTROLLER_GET_INFO</a>.
 
 
 ### -input-buffer-length
@@ -74,7 +74,7 @@ The size of the input buffer, in bytes.
 
 ### -output-buffer
 
- A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-_pwm_controller_set_desired_period_input">PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT</a> struct. The associated value is the effective output signal period of the Pulse Width Modulation (PWM) controller. It can later be retrieved by using <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_actual_period">IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD</a>.  
+ A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-pwm_controller_set_desired_period_input">PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT</a> struct. The associated value is the effective output signal period of the Pulse Width Modulation (PWM) controller. It can later be retrieved by using <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_actual_period">IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD</a>.  
 
 
 ### -output-buffer-length
@@ -166,7 +166,7 @@ The control code for the operation. Use
 
 </td>
 <td width="60%">
-A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-_pwm_controller_set_desired_period_input">PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT</a> struct. The associated value is the requested output signal period, in picoseconds, for the controller. This value must be greater than zero (0). It must be in the controller supported range of periods, which is between the <b>MinimumPeriod</b> and <b>MaximumPeriod</b> values, inclusive, which you can obtain by using <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_info">IOCTL_PWM_CONTROLLER_GET_INFO</a>.
+A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-pwm_controller_set_desired_period_input">PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT</a> struct. The associated value is the requested output signal period, in picoseconds, for the controller. This value must be greater than zero (0). It must be in the controller supported range of periods, which is between the <b>MinimumPeriod</b> and <b>MaximumPeriod</b> values, inclusive, which you can obtain by using <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_info">IOCTL_PWM_CONTROLLER_GET_INFO</a>.
 
 </td>
 </tr>
@@ -186,7 +186,7 @@ The size of the input buffer, in bytes.
 
 </td>
 <td width="60%">
- A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-_pwm_controller_set_desired_period_input">PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT</a> struct. The associated value is the effective output signal period of the Pulse Width Modulation (PWM) controller. It can later be retrieved by using <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_actual_period">IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD</a>.
+ A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-pwm_controller_set_desired_period_input">PWM_CONTROLLER_SET_DESIRED_PERIOD_INPUT</a> struct. The associated value is the effective output signal period of the Pulse Width Modulation (PWM) controller. It can later be retrieved by using <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_get_actual_period">IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD</a>.
 
 </td>
 </tr>
@@ -240,7 +240,7 @@ If <i>lpOverlapped</i> is not <b>NULL</b>,
 <td width="60%">
 <b>LPOVERLAPPED</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 If <i>hDevice</i> was opened without specifying 
        <b>FILE_FLAG_OVERLAPPED</b>, <i>lpOverlapped</i> is ignored.
@@ -248,7 +248,7 @@ If <i>hDevice</i> was opened without specifying
 If <i>hDevice</i> was opened with the <b>FILE_FLAG_OVERLAPPED</b> flag, 
        the operation is performed as an overlapped (asynchronous) operation. In this case, 
        <i>lpOverlapped</i> must point to a valid 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure that contains a handle to an 
+       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that contains a handle to an 
        event object. Otherwise, the function fails in unpredictable ways.
 
 For overlapped operations, <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 

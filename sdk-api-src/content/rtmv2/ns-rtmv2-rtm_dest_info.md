@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 6712ed2f-c5b4-416b-b345-a3d0c5d26820
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRTM_DEST_INFO, PRTM_DEST_INFO, PRTM_DEST_INFO structure pointer [RAS], RTM_DEST_INFO, RTM_DEST_INFO structure [RAS], _rtmv2ref_rtm_dest_info, rras.rtm_dest_info, rtmv2/PRTM_DEST_INFO, rtmv2/RTM_DEST_INFO"
+ms.keywords: '*PRTM_DEST_INFO, PRTM_DEST_INFO, PRTM_DEST_INFO structure pointer [RAS], RTM_DEST_INFO, RTM_DEST_INFO structure [RAS], _rtmv2ref_rtm_dest_info, rras.rtm_dest_info, rtmv2/PRTM_DEST_INFO, rtmv2/RTM_DEST_INFO'
 ms.topic: struct
-f1_keywords: 
- - "rtmv2/RTM_DEST_INFO"
+f1_keywords:
+- rtmv2/RTM_DEST_INFO
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rtmv2.h
+- Rtmv2.h
 api_name:
- - RTM_DEST_INFO
+- RTM_DEST_INFO
 product: Windows
 targetos: Windows
 req.typenames: RTM_DEST_INFO, *PRTM_DEST_INFO
@@ -161,7 +161,7 @@ Handle to the route that is in a hold-down state in each of the supported views.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_net_address">RTM_NET_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a>
 
 
 

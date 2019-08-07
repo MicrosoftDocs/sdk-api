@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CONDITIONPROPERTIES, CONDITIONPROPERTIES enumeration [Network Policy Server], PROPERTY_CONDITION_TEXT, _sdo_conditionproperties, nps.SDO_conditionproperties, sdo.conditionproperties, sdoias/CONDITIONPROPERTIES, sdoias/PROPERTY_CONDITION_TEXT
 ms.topic: enum
-f1_keywords: 
- - "sdoias/CONDITIONPROPERTIES"
+f1_keywords:
+- sdoias/CONDITIONPROPERTIES
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - CONDITIONPROPERTIES
+- CONDITIONPROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: CONDITIONPROPERTIES
@@ -70,7 +70,7 @@ The text of the NAP condition.
 
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_policyproperties">POLICYPROPERTIES</a> enumeration type contains the value PROPERTY_POLICY_CONDITIONS_COLLECTION, which is the property for the conditions collection.
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-policyproperties">POLICYPROPERTIES</a> enumeration type contains the value PROPERTY_POLICY_CONDITIONS_COLLECTION, which is the property for the conditions collection.
 
 
 
@@ -84,7 +84,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_policyproperties">POLICYPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-policyproperties">POLICYPROPERTIES</a>
  
 
  

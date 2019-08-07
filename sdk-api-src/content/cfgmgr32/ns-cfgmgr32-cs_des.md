@@ -8,10 +8,10 @@ tech.root: devinst
 ms.assetid: 16b47fe9-cb84-453d-b515-bfdba254f947
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCS_DES, CS_DES, CS_DES structure [Device and Driver Installation], PCS_DES, PCS_DES structure pointer [Device and Driver Installation], cfgmgr32/CS_DES, cfgmgr32/PCS_DES, cfgmgrst_b22826b5-3488-4667-831a-24b848f2dd74.xml, devinst.cs_des"
+ms.keywords: '*PCS_DES, CS_DES, CS_DES structure [Device and Driver Installation], PCS_DES, PCS_DES structure pointer [Device and Driver Installation], cfgmgr32/CS_DES, cfgmgr32/PCS_DES, cfgmgrst_b22826b5-3488-4667-831a-24b848f2dd74.xml, devinst.cs_des'
 ms.topic: struct
-f1_keywords: 
- - "cfgmgr32/CS_DES"
+f1_keywords:
+- cfgmgr32/CS_DES
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cfgmgr32.h
+- cfgmgr32.h
 api_name:
- - CS_DES
+- CS_DES
 product: Windows
 targetos: Windows
 req.typenames: CS_DES, *PCS_DES
@@ -81,7 +81,7 @@ Length, in bytes, of the data block whose offset is specified by <b>CSD_LegacyDa
 
 ### -field CSD_ClassGuid
 
-A globally unique identifier (GUID) identifying a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a>. If both <b>CSD_SignatureLength</b> and <b>CSD_LegacyDataSize</b> are zero, the GUID is null.
+A globally unique identifier (GUID) identifying a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>. If both <b>CSD_SignatureLength</b> and <b>CSD_LegacyDataSize</b> are zero, the GUID is null.
 
 
 ### -field CSD_Signature

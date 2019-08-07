@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPNSPV2LOOKUPSERVICEBEGIN, LUP_ADDRCONFIG, LUP_CONTAINERS, LUP_DEEP, LUP_DISABLE_IDN_ENCODING, LUP_DUAL_ADDR, LUP_FLUSHCACHE, LUP_FLUSHPREVIOUS, LUP_NEAREST, LUP_NOCONTAINERS, LUP_NON_AUTHORITATIVE, LUP_RES_RESERVICE, LUP_RETURN_ADDR, LUP_RETURN_ALIASES, LUP_RETURN_ALL, LUP_RETURN_BLOB, LUP_RETURN_COMMENT, LUP_RETURN_NAME, LUP_RETURN_PREFERRED_NAMES, LUP_RETURN_QUERY_STRING, LUP_RETURN_TYPE, LUP_RETURN_VERSION, LUP_SECURE, NSPv2LookupServiceBegin, NSPv2LookupServiceBegin function [Winsock], winsock.nspv2lookupservicebegin, ws2spi/NSPv2LookupServiceBegin
 ms.topic: callback
-f1_keywords: 
- - "ws2spi/NSPv2LookupServiceBegin"
+f1_keywords:
+- ws2spi/NSPv2LookupServiceBegin
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ws2spi.h
+- Ws2spi.h
 api_name:
- - NSPv2LookupServiceBegin
+- NSPv2LookupServiceBegin
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPv2LookupServiceBegin</a> function initiates a client query of a namespace version-2 service provider that is constrained by the information contained within a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaqueryset2w">WSAQUERYSET2</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaqueryset2w">WSAQUERYSET2</a> structure.
 
 
 ## -parameters
@@ -266,7 +266,7 @@ Indicates that the namespace provider should included non-authoritative results 
 </td>
 <td width="60%">
 Indicates whether prime response is in the remote or local part of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structure. The other part must be usable in either case. This option applies only to service instance requests.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structure. The other part must be usable in either case. This option applies only to service instance requests.
 
 </td>
 </tr>
@@ -447,7 +447,7 @@ followed by the requisite number of
 
 <h3><a id="Forming_Queries"></a><a id="forming_queries"></a><a id="FORMING_QUERIES"></a>Forming Queries</h3>
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaqueryset2w">WSAQUERYSET2</a> structure is used as an input parameter to 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaqueryset2w">WSAQUERYSET2</a> structure is used as an input parameter to 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPv2LookupServiceBegin</a> to qualify the query. The following table lists <b>WSAQUERYSET2</b> member names and describes how the 
 <b>WSAQUERYSET2</b> is used to construct a query. Members labeled as optional and dependent on the requirements of the NSPv2 provider may be supplied as a <b>NULL</b> pointer when unused as a search criteria by the namespace provider. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinSock/name-resolution-data-structures-2">Query-Related Data Structures</a>.
 
@@ -458,7 +458,7 @@ The
 </tr>
 <tr>
 <td><b>dwSize</b></td>
-<td>Will be set to sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaqueryset2w">WSAQUERYSET2</a>). This is a versioning mechanism.</td>
+<td>Will be set to sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaqueryset2w">WSAQUERYSET2</a>). This is a versioning mechanism.</td>
 </tr>
 <tr>
 <td><b>lpszServiceInstanceName</b></td>
@@ -499,7 +499,7 @@ The
 <tr>
 <td><b>lpafpProtocols</b></td>
 <td>An array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_afprotocols">AFPROTOCOLS</a> structures. Only services that use these protocols will be returned. It is permissable for the value <b>AF_UNSPEC</b> to appear as a protocol family value, signifying a wildcard. Namespace providers may supply information about any service that uses the corresponding protocol, regardless of address family. This member is optional, dependent on the requirements of the NSPv2 service provider.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-afprotocols">AFPROTOCOLS</a> structures. Only services that use these protocols will be returned. It is permissable for the value <b>AF_UNSPEC</b> to appear as a protocol family value, signifying a wildcard. Namespace providers may supply information about any service that uses the corresponding protocol, regardless of address family. This member is optional, dependent on the requirements of the NSPv2 service provider.
 
 </td>
 </tr>
@@ -538,7 +538,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_afprotocols">AFPROTOCOLS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-afprotocols">AFPROTOCOLS</a>
 
 
 
@@ -570,7 +570,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaqueryset2w">WSAQUERYSET2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaqueryset2w">WSAQUERYSET2</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: f98e53d5-45cb-4c3f-b04d-8eecd98655d2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSTORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER structure pointer [Files], STORAGE_DESCRIPTOR_HEADER, STORAGE_DESCRIPTOR_HEADER structure [Files], fs.storage_descriptor_header, winioctl/PSTORAGE_DESCRIPTOR_HEADER, winioctl/STORAGE_DESCRIPTOR_HEADER"
+ms.keywords: '*PSTORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER structure pointer [Files], STORAGE_DESCRIPTOR_HEADER, STORAGE_DESCRIPTOR_HEADER structure [Files], fs.storage_descriptor_header, winioctl/PSTORAGE_DESCRIPTOR_HEADER, winioctl/STORAGE_DESCRIPTOR_HEADER'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/STORAGE_DESCRIPTOR_HEADER"
+f1_keywords:
+- winioctl/STORAGE_DESCRIPTOR_HEADER
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - STORAGE_DESCRIPTOR_HEADER
+- STORAGE_DESCRIPTOR_HEADER
 product: Windows
 targetos: Windows
 req.typenames: STORAGE_DESCRIPTOR_HEADER, *PSTORAGE_DESCRIPTOR_HEADER
@@ -88,7 +88,7 @@ The data retrieved by
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_seek_penalty_descriptor">DEVICE_SEEK_PENALTY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-device_seek_penalty_descriptor">DEVICE_SEEK_PENALTY_DESCRIPTOR</a>
 
 
 

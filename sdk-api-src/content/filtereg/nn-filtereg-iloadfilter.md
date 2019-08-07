@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILoadFilter, ILoadFilter interface [search], ILoadFilter interface [search],described, filtereg/ILoadFilter, search.iloadfilter
 ms.topic: interface
-f1_keywords: 
- - "filtereg/ILoadFilter"
+f1_keywords:
+- filtereg/ILoadFilter
 req.header: filtereg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - filtereg.h
+- filtereg.h
 api_name:
- - ILoadFilter
+- ILoadFilter
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -122,7 +122,7 @@ A filter, also known as a filter handler, is an implementation of the <a href="h
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filtereg/ns-filtereg-_filtered_data_sources">FILTERED_DATA_SOURCES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filtereg/ns-filtereg-filtered_data_sources">FILTERED_DATA_SOURCES</a>
 
 
 

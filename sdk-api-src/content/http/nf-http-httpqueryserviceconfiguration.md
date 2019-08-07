@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpQueryServiceConfiguration, HttpQueryServiceConfiguration function [HTTP], HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigUrlAclInfo, _http_httpqueryserviceconfiguration, http.httpqueryserviceconfiguration, http/HttpQueryServiceConfiguration
 ms.topic: function
-f1_keywords: 
- - "http/HttpQueryServiceConfiguration"
+f1_keywords:
+- http/HttpQueryServiceConfiguration
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Httpapi.dll
+- Httpapi.dll
 api_name:
- - HttpQueryServiceConfiguration
+- HttpQueryServiceConfiguration
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Reserved. Must be zero.
 ### -param ConfigId [in]
 
 The configuration record query type. This  parameter is one of the following values from the  
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_service_config_id">HTTP_SERVICE_CONFIG_ID</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_service_config_id">HTTP_SERVICE_CONFIG_ID</a> enumeration.
 
 <table>
 <tr>
@@ -138,7 +138,7 @@ Queries  the SSL Server Name Indication (SNI) store for a specific certificate r
 </dl>
 </td>
 <td width="60%">
-Queries  the SSL configuration for an SSL Centralized Certificate Store (CCS) record on the port. The port is specified by the <b>KeyDesc</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_ccs_query">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a> structure that you  pass to the <i>pInputConfigInfo</i> parameter.
+Queries  the SSL configuration for an SSL Centralized Certificate Store (CCS) record on the port. The port is specified by the <b>KeyDesc</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_query">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a> structure that you  pass to the <i>pInputConfigInfo</i> parameter.
 
 <b>Windows 8 and later:  </b>This enumeration value is supported.
 
@@ -196,7 +196,7 @@ No input data; set to <b>NULL</b>.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_service_config_timeout_key">HTTP_SERVICE_CONFIG_TIMEOUT_KEY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_service_config_timeout_key">HTTP_SERVICE_CONFIG_TIMEOUT_KEY</a> structure.
 
 
 <b>Windows Vista and later:  </b>This structure is supported.
@@ -212,7 +212,7 @@ No input data; set to <b>NULL</b>.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_sni_query">HTTP_SERVICE_CONFIG_SSL_SNI_QUERY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_sni_query">HTTP_SERVICE_CONFIG_SSL_SNI_QUERY</a> structure.
 
 
 <b>Windows 8 and later:  </b>This structure is supported.
@@ -228,7 +228,7 @@ No input data; set to <b>NULL</b>.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_ccs_query">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_query">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a> structure.
 
 
 <b>Windows 8 and later:  </b>This structure is supported.
@@ -264,7 +264,7 @@ A pointer to a buffer in which the query results are returned. The type of this 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ip_listen_query">HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ip_listen_query">HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY</a> structure.
 
 </td>
 </tr>
@@ -286,7 +286,7 @@ A pointer to a buffer in which the query results are returned. The type of this 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_urlacl_set">HTTP_SERVICE_CONFIG_URLACL_SET</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_urlacl_set">HTTP_SERVICE_CONFIG_URLACL_SET</a> structure.
 
 </td>
 </tr>

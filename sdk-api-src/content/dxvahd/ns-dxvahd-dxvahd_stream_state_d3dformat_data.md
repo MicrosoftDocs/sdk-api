@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_D3DFORMAT_DATA, DXVAHD_STREAM_STATE_D3DFORMAT_DATA structure [Media Foundation], dxvahd/DXVAHD_STREAM_STATE_D3DFORMAT_DATA, mf.dxvahd_stream_state_d3dformat_data
 ms.topic: struct
-f1_keywords: 
- - "dxvahd/DXVAHD_STREAM_STATE_D3DFORMAT_DATA"
+f1_keywords:
+- dxvahd/DXVAHD_STREAM_STATE_D3DFORMAT_DATA
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - DXVAHD_STREAM_STATE_D3DFORMAT_DATA
+- DXVAHD_STREAM_STATE_D3DFORMAT_DATA
 product: Windows
 targetos: Windows
 req.typenames: DXVAHD_STREAM_STATE_D3DFORMAT_DATA
@@ -75,7 +75,7 @@ The default state value is <b>D3DFMT_UNKNOWN</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_stream_state">DXVAHD_STREAM_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_stream_state">DXVAHD_STREAM_STATE</a>
 
 
 

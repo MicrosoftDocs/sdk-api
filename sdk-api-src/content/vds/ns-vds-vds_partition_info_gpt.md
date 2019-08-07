@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_PARTITION_INFO_GPT, VDS_PARTITION_INFO_GPT structure [VDS], base.vds_partition_info_gpt, vds/_VDS_PARTITION_INFO_GPT
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_PARTITION_INFO_GPT"
+f1_keywords:
+- vds/VDS_PARTITION_INFO_GPT
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - VDS_PARTITION_INFO_GPT
+- VDS_PARTITION_INFO_GPT
 product: Windows
 targetos: Windows
 req.typenames: VDS_PARTITION_INFO_GPT
@@ -89,7 +89,7 @@ This structure is used in the <b>Gpt</b> member of the <a href="https://docs.mic
 
  A GPT table is sector-aligned.
 
-For information about partition types and attributes, see <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_create_partition_parameters">CREATE_PARTITION_PARAMETERS</a>.
+For information about partition types and attributes, see <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-create_partition_parameters">CREATE_PARTITION_PARAMETERS</a>.
 
 
 
@@ -107,11 +107,11 @@ For information about partition types and attributes, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop">VDS_DISK_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop2">VDS_DISK_PROP2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: devinst
 ms.assetid: 7c64d352-3b9f-4c52-96d5-1a627f6b54a3
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSP_PROPCHANGE_PARAMS, PSP_PROPCHANGE_PARAMS, PSP_PROPCHANGE_PARAMS structure pointer [Device and Driver Installation], SP_PROPCHANGE_PARAMS, SP_PROPCHANGE_PARAMS structure [Device and Driver Installation], devinst.sp_propchange_params, di-struct_d3d2429f-412e-48bc-abcc-9dfbd01b346b.xml, setupapi/PSP_PROPCHANGE_PARAMS, setupapi/SP_PROPCHANGE_PARAMS"
+ms.keywords: '*PSP_PROPCHANGE_PARAMS, PSP_PROPCHANGE_PARAMS, PSP_PROPCHANGE_PARAMS structure pointer [Device and Driver Installation], SP_PROPCHANGE_PARAMS, SP_PROPCHANGE_PARAMS structure [Device and Driver Installation], devinst.sp_propchange_params, di-struct_d3d2429f-412e-48bc-abcc-9dfbd01b346b.xml, setupapi/PSP_PROPCHANGE_PARAMS, setupapi/SP_PROPCHANGE_PARAMS'
 ms.topic: struct
-f1_keywords: 
- - "setupapi/SP_PROPCHANGE_PARAMS"
+f1_keywords:
+- setupapi/SP_PROPCHANGE_PARAMS
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - setupapi.h
+- setupapi.h
 api_name:
- - SP_PROPCHANGE_PARAMS
+- SP_PROPCHANGE_PARAMS
 product: Windows
 targetos: Windows
 req.typenames: SP_PROPCHANGE_PARAMS, *PSP_PROPCHANGE_PARAMS
@@ -61,7 +61,7 @@ An SP_PROPCHANGE_PARAMS structure corresponds to a <a href="https://docs.microso
 
 ### -field ClassInstallHeader
 
-An install request header that contains the header size and the DIF code for the request. See <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>. 
+An install request header that contains the header size and the DIF code for the request. See <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>. 
 
 
 ### -field StateChange
@@ -162,7 +162,7 @@ Supplies the hardware profile ID for profile-specific changes. Zero specifies th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>
 
 
 

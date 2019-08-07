@@ -8,10 +8,10 @@ tech.root: usbref
 ms.assetid: d9673718-c39c-4f26-8d59-553366b8bd0a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PUSB_BUS_STATISTICS_0, PUSB_BUS_STATISTICS_0, PUSB_BUS_STATISTICS_0 structure pointer [Buses], USB_BUS_STATISTICS_0, USB_BUS_STATISTICS_0 structure [Buses], buses.usb_bus_statistics_0, usbstrct_673e06da-582e-4496-9f33-b0c8b915ef0f.xml, usbuser/PUSB_BUS_STATISTICS_0, usbuser/USB_BUS_STATISTICS_0"
+ms.keywords: '*PUSB_BUS_STATISTICS_0, PUSB_BUS_STATISTICS_0, PUSB_BUS_STATISTICS_0 structure pointer [Buses], USB_BUS_STATISTICS_0, USB_BUS_STATISTICS_0 structure [Buses], buses.usb_bus_statistics_0, usbstrct_673e06da-582e-4496-9f33-b0c8b915ef0f.xml, usbuser/PUSB_BUS_STATISTICS_0, usbuser/USB_BUS_STATISTICS_0'
 ms.topic: struct
-f1_keywords: 
- - "usbuser/USB_BUS_STATISTICS_0"
+f1_keywords:
+- usbuser/USB_BUS_STATISTICS_0
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - usbuser.h
+- usbuser.h
 api_name:
- - USB_BUS_STATISTICS_0
+- USB_BUS_STATISTICS_0
 product: Windows
 targetos: Windows
 req.typenames: USB_BUS_STATISTICS_0, *PUSB_BUS_STATISTICS_0
@@ -191,7 +191,7 @@ The index that is used to generate a symbolic link name for the hub PDO. This fo
 
 
 
-The <b>USB_BUS_STATISTICS_0</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usbuser_bus_statistics_0_request">USBUSER_BUS_STATISTICS_0</a> user-mode request. For a description of this request, see <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>.
+The <b>USB_BUS_STATISTICS_0</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usbuser_bus_statistics_0_request">USBUSER_BUS_STATISTICS_0</a> user-mode request. For a description of this request, see <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>.
 
 In Windows 8, this request completes successfully. However, the values retrieved from the underlying USB 3.0 driver stack do not reflect actual  bus statistics.
 

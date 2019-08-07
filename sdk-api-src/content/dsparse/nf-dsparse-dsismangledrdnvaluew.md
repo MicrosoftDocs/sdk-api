@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsIsMangledRdnValue, DsIsMangledRdnValue function [Active Directory], DsIsMangledRdnValueA, DsIsMangledRdnValueW, _glines_dsismangledrdnvalue, ad.dsismangledrdnvalue, dsparse/DsIsMangledRdnValue, dsparse/DsIsMangledRdnValueA, dsparse/DsIsMangledRdnValueW
 ms.topic: function
-f1_keywords: 
- - "dsparse/DsIsMangledRdnValue"
+f1_keywords:
+- dsparse/DsIsMangledRdnValue
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsIsMangledRdnValue
- - DsIsMangledRdnValueA
- - DsIsMangledRdnValueW
+- DsIsMangledRdnValue
+- DsIsMangledRdnValueA
+- DsIsMangledRdnValueW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ Contains the number of characters in the <i>pszRdn</i> string.
 
 ### -param eDsMangleForDesired [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/dsparse/ne-dsparse-_ds_mangle_for">DS_MANGLE_FOR</a> values that specifies the type of name mangling to search for.
+Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/dsparse/ne-dsparse-ds_mangle_for">DS_MANGLE_FOR</a> values that specifies the type of name mangling to search for.
 
 
 ## -returns
@@ -99,7 +99,7 @@ This function determines if the given relative distinguished name value is mangl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/ne-dsparse-_ds_mangle_for">DS_MANGLE_FOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/ne-dsparse-ds_mangle_for">DS_MANGLE_FOR</a>
 
 
 

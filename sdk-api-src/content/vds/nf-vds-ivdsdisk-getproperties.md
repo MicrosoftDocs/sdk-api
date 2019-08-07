@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsDisk interface, IVdsDisk interface [VDS],GetProperties method, IVdsDisk.GetProperties, IVdsDisk::GetProperties, base.ivdsdisk_getproperties, vds/IVdsDisk::GetProperties
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsDisk.GetProperties"
+f1_keywords:
+- vds/IVdsDisk.GetProperties
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsDisk.GetProperties
+- IVdsDisk.GetProperties
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Returns property
 
 ### -param pDiskProperties [out]
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop">VDS_DISK_PROP</a> structure 
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a> structure 
       allocated and passed in by the caller. VDS allocates memory for the <b>pwszDiskAddress</b>, 
       <b>pwszName</b>, <b>pwszFriendlyName</b>, 
       <b>pwszAdaptorName</b>, and <b>pwszDevicePath</b> member strings. 
@@ -122,7 +122,7 @@ Some but not all of the properties were successfully retrieved. Note that there 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop">VDS_DISK_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a>
  
 
  

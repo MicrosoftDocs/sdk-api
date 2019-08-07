@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiInstallClassEx, SetupDiInstallClassEx function [Device and Driver Installation], SetupDiInstallClassExA, SetupDiInstallClassExW, devinst.setupdiinstallclassex, di-rtns_80aa5f67-e57e-4749-8130-5c940376db49.xml, setupapi/SetupDiInstallClassEx
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiInstallClassEx"
+f1_keywords:
+- setupapi/SetupDiInstallClassEx
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -30,15 +30,15 @@ req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Setupapi.lib
- - Setupapi.dll
+- Setupapi.lib
+- Setupapi.dll
 api_name:
- - SetupDiInstallClassEx
+- SetupDiInstallClassEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -144,7 +144,7 @@ Reserved. Must be zero.
 
 The caller of this function must be a member of the Administrators group.
 
-<b>SetupDiInstallClassEx</b> is typically called by a class installer to install a new <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a> or a new <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>. 
+<b>SetupDiInstallClassEx</b> is typically called by a class installer to install a new <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a new <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>. 
 
 <div class="alert"><b>Note</b>  An interface class can also be installed automatically by calling <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiinstalldeviceinterfaces">SetupDiInstallDeviceInterfaces</a> to install the device interfaces for a device.</div>
 <div> </div>

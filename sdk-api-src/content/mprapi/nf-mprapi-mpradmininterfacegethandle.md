@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceGetHandle, MprAdminInterfaceGetHandle function [RAS], _mpr_mpradmininterfacegethandle, mprapi/MprAdminInterfaceGetHandle, rras.mpradmininterfacegethandle
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminInterfaceGetHandle"
+f1_keywords:
+- mprapi/MprAdminInterfaceGetHandle
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminInterfaceGetHandle
+- MprAdminInterfaceGetHandle
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -158,7 +158,7 @@ The passed in handle to the server is <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_router_interface_type">ROUTER_INTERFACE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_interface_type">ROUTER_INTERFACE_TYPE</a>
 
 
 

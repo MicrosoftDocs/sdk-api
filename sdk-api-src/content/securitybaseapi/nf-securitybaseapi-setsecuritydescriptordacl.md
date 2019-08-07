@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetSecurityDescriptorDacl, SetSecurityDescriptorDacl function [Security], _win32_setsecuritydescriptordacl, security.setsecuritydescriptordacl, securitybaseapi/SetSecurityDescriptorDacl
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/SetSecurityDescriptorDacl"
+f1_keywords:
+- securitybaseapi/SetSecurityDescriptorDacl
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - SetSecurityDescriptorDacl
+- SetSecurityDescriptorDacl
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ The <b>SetSecurityDescriptorDacl</b> function sets information in a <a href="htt
 ### -param pSecurityDescriptor [in, out]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure to which the function adds the DACL. This security descriptor must be in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">absolute</a> format, meaning that its members must be pointers to other structures, rather than offsets to contiguous data.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure to which the function adds the DACL. This security descriptor must be in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">absolute</a> format, meaning that its members must be pointers to other structures, rather than offsets to contiguous data.
 
 
 ### -param bDaclPresent [in]
@@ -150,7 +150,7 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 

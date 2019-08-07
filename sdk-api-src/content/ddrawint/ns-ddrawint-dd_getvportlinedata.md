@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: d8b2803c-38be-40ea-b46b-4bab1ce55534
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_GETVPORTLINEDATA, DD_GETVPORTLINEDATA, DD_GETVPORTLINEDATA structure [Display Devices], ddrawint/DD_GETVPORTLINEDATA, ddstrcts_81a8dc13-0681-4135-a74a-f7aa22408156.xml, display.dd_getvportlinedata"
+ms.keywords: '*PDD_GETVPORTLINEDATA, DD_GETVPORTLINEDATA, DD_GETVPORTLINEDATA structure [Display Devices], ddrawint/DD_GETVPORTLINEDATA, ddstrcts_81a8dc13-0681-4135-a74a-f7aa22408156.xml, display.dd_getvportlinedata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_GETVPORTLINEDATA"
+f1_keywords:
+- ddrawint/DD_GETVPORTLINEDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_GETVPORTLINEDATA
+- DD_GETVPORTLINEDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_GETVPORTLINEDATA, DD_GETVPORTLINEDATA"
+req.typenames: '*PDD_GETVPORTLINEDATA, DD_GETVPORTLINEDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -66,7 +66,7 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-
 
 ### -field lpVideoPort
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure that represents this <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure that represents this <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object.
 
 
 ### -field dwLine

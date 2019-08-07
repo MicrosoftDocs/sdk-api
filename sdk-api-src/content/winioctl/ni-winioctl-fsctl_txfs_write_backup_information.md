@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_WRITE_BACKUP_INFORMATION, FSCTL_TXFS_WRITE_BACKUP_INFORMATION control, FSCTL_TXFS_WRITE_BACKUP_INFORMATION control code [Files], fs.fsctl_txfs_write_backup_information, winioctl/FSCTL_TXFS_WRITE_BACKUP_INFORMATION
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_TXFS_WRITE_BACKUP_INFORMATION"
+f1_keywords:
+- winioctl/FSCTL_TXFS_WRITE_BACKUP_INFORMATION
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_TXFS_WRITE_BACKUP_INFORMATION
+- FSCTL_TXFS_WRITE_BACKUP_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -58,9 +58,9 @@ req.redist:
 
 Writes  Transactional NTFS (TxF) specific information to a specified file. The 
     <b>Buffer</b> member of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_write_backup_information">TXFS_WRITE_BACKUP_INFORMATION</a> structure must 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_write_backup_information">TXFS_WRITE_BACKUP_INFORMATION</a> structure must 
     be the <b>Buffer</b> member of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_read_backup_information_out">TXFS_READ_BACKUP_INFORMATION_OUT</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_read_backup_information_out">TXFS_READ_BACKUP_INFORMATION_OUT</a> 
     structure returned by 
     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_read_backup_information">FSCTL_TXFS_READ_BACKUP_INFORMATION</a>.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -182,7 +182,7 @@ This control code can be used by backup functions and applications, such as
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_write_backup_information">TXFS_WRITE_BACKUP_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_write_backup_information">TXFS_WRITE_BACKUP_INFORMATION</a>
 
 
 

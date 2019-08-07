@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColumnSortData, GetColumnSortData method [MMC], GetColumnSortData method [MMC],IColumnData interface, IColumnData interface [MMC],GetColumnSortData method, IColumnData.GetColumnSortData, IColumnData::GetColumnSortData, _slate_icolumndata_getcolumnsortdata, mmc.icolumndata_getcolumnsortdata, mmc/IColumnData::GetColumnSortData
 ms.topic: method
-f1_keywords: 
- - "mmc/IColumnData.GetColumnSortData"
+f1_keywords:
+- mmc/IColumnData.GetColumnSortData
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IColumnData.GetColumnSortData
+- IColumnData.GetColumnSortData
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>IColumnData::GetColumnSortData</b> method enables a snap-in to retrieve f
 ### -param pColID [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_scolumnsetid">SColumnSetID</a> structure that contains the ID of the column set whose sort data is to be retrieved.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-scolumnsetid">SColumnSetID</a> structure that contains the ID of the column set whose sort data is to be retrieved.
 
 
 ### -param ppColSortData [out]

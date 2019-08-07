@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 532a9cb1-de3a-0873-68d0-511852df653f, CreateIndexBuffer, CreateIndexBuffer method [Direct3D 9], CreateIndexBuffer method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateIndexBuffer method, IDirect3DDevice9.CreateIndexBuffer, IDirect3DDevice9::CreateIndexBuffer, d3d9helper/IDirect3DDevice9::CreateIndexBuffer, direct3d9.idirect3ddevice9__createindexbuffer
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DDevice9.CreateIndexBuffer"
+f1_keywords:
+- d3d9/IDirect3DDevice9.CreateIndexBuffer
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.CreateIndexBuffer
+- IDirect3DDevice9.CreateIndexBuffer
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -151,7 +151,7 @@ Index buffers are memory resources used to hold indices, they are similar to bot
 
 To use index buffers, create an index buffer, lock it, fill it with indices, unlock it, pass it to <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setindices">IDirect3DDevice9::SetIndices</a>, set up the vertices, set up the vertex shader, and call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-drawindexedprimitive">IDirect3DDevice9::DrawIndexedPrimitive</a> for rendering.
 
-The MaxVertexIndex member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcaps9">D3DCAPS9</a> structure indicates the types of index buffers that are valid for rendering.
+The MaxVertexIndex member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9">D3DCAPS9</a> structure indicates the types of index buffers that are valid for rendering.
 
 
 

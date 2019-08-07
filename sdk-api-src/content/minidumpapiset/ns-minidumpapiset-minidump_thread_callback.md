@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: 31da83e6-af8c-440c-b715-78c9c6ac4b9f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_THREAD_CALLBACK, MINIDUMP_THREAD_CALLBACK, MINIDUMP_THREAD_CALLBACK structure, PMINIDUMP_THREAD_CALLBACK, PMINIDUMP_THREAD_CALLBACK structure pointer, _MINIDUMP_THREAD_CALLBACK, _win32_minidump_thread_callback_str, base.minidump_thread_callback_str, minidumpapiset/MINIDUMP_THREAD_CALLBACK, minidumpapiset/PMINIDUMP_THREAD_CALLBACK"
+ms.keywords: '*PMINIDUMP_THREAD_CALLBACK, MINIDUMP_THREAD_CALLBACK, MINIDUMP_THREAD_CALLBACK structure, PMINIDUMP_THREAD_CALLBACK, PMINIDUMP_THREAD_CALLBACK structure pointer, _MINIDUMP_THREAD_CALLBACK, _win32_minidump_thread_callback_str, base.minidump_thread_callback_str, minidumpapiset/MINIDUMP_THREAD_CALLBACK, minidumpapiset/PMINIDUMP_THREAD_CALLBACK'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_THREAD_CALLBACK"
+f1_keywords:
+- minidumpapiset/MINIDUMP_THREAD_CALLBACK
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_THREAD_CALLBACK
+- MINIDUMP_THREAD_CALLBACK
 product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_THREAD_CALLBACK, *PMINIDUMP_THREAD_CALLBACK
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Contains thread information for the 
 <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a> function when the callback type is 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_callback_type">ThreadCallback</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_callback_type">ThreadCallback</a>.
 
 
 ## -struct-fields

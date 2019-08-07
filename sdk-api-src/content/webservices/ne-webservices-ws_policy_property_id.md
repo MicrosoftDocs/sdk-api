@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_POLICY_PROPERTY_ID, WS_POLICY_PROPERTY_ID enumeration [Web Services for Windows], WS_POLICY_PROPERTY_MAX_ALTERNATIVES, WS_POLICY_PROPERTY_MAX_DEPTH, WS_POLICY_PROPERTY_MAX_EXTENSIONS, WS_POLICY_PROPERTY_STATE, webservices/WS_POLICY_PROPERTY_ID, webservices/WS_POLICY_PROPERTY_MAX_ALTERNATIVES, webservices/WS_POLICY_PROPERTY_MAX_DEPTH, webservices/WS_POLICY_PROPERTY_MAX_EXTENSIONS, webservices/WS_POLICY_PROPERTY_STATE, wsw.ws_policy_property_id
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_POLICY_PROPERTY_ID"
+f1_keywords:
+- webservices/WS_POLICY_PROPERTY_ID
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_POLICY_PROPERTY_ID
+- WS_POLICY_PROPERTY_ID
 product: Windows
 targetos: Windows
 req.typenames: WS_POLICY_PROPERTY_ID
@@ -72,7 +72,7 @@ The current state of the policy object.
 ### -field WS_POLICY_PROPERTY_MAX_ALTERNATIVES
 
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemetadata">WsCreateMetadata</a> when
-                    specifying <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_metadata_property_id">WS_METADATA_PROPERTY_POLICY_PROPERTIES</a> as part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_metadata_property">WS_METADATA_PROPERTY*</a> parameter.  It is of type <b>ULONG</b>.
+                    specifying <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_metadata_property_id">WS_METADATA_PROPERTY_POLICY_PROPERTIES</a> as part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_metadata_property">WS_METADATA_PROPERTY*</a> parameter.  It is of type <b>ULONG</b>.
                 
 
 This property controls the maximum number of alternatives

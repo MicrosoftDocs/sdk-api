@@ -8,10 +8,10 @@ tech.root: Rpc
 ms.assetid: 1d9d53bc-f1e2-4a8d-a9c1-5b2192ceec56
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRPC_HTTP_TRANSPORT_CREDENTIALS_V3_A, PRPC_HTTP_TRANSPORT_CREDENTIALS_V3, PRPC_HTTP_TRANSPORT_CREDENTIALS_V3 structure pointer [RPC], RPC_C_HTTP_AUTHN_SCHEME_BASIC, RPC_C_HTTP_AUTHN_SCHEME_DIGEST, RPC_C_HTTP_AUTHN_SCHEME_NEGOTIATE, RPC_C_HTTP_AUTHN_SCHEME_NTLM, RPC_C_HTTP_AUTHN_SCHEME_PASSPORT, RPC_C_HTTP_AUTHN_TARGET_PROXY, RPC_C_HTTP_AUTHN_TARGET_SERVER, RPC_C_HTTP_FLAG_USE_FIRST_AUTH_SCHEME, RPC_C_HTTP_FLAG_USE_SSL, RPC_HTTP_TRANSPORT_CREDENTIALS_V3, RPC_HTTP_TRANSPORT_CREDENTIALS_V3 structure [RPC], RPC_HTTP_TRANSPORT_CREDENTIALS_V3_A, RPC_HTTP_TRANSPORT_CREDENTIALS_V3_W, _RPC_HTTP_TRANSPORT_CREDENTIALS_V3_A, _RPC_HTTP_TRANSPORT_CREDENTIALS_V3_W, rpc.rpc_http_transport_credentials_v3, rpcdce/PRPC_HTTP_TRANSPORT_CREDENTIALS_V3, rpcdce/RPC_HTTP_TRANSPORT_CREDENTIALS_V3"
+ms.keywords: '*PRPC_HTTP_TRANSPORT_CREDENTIALS_V3_A, PRPC_HTTP_TRANSPORT_CREDENTIALS_V3, PRPC_HTTP_TRANSPORT_CREDENTIALS_V3 structure pointer [RPC], RPC_C_HTTP_AUTHN_SCHEME_BASIC, RPC_C_HTTP_AUTHN_SCHEME_DIGEST, RPC_C_HTTP_AUTHN_SCHEME_NEGOTIATE, RPC_C_HTTP_AUTHN_SCHEME_NTLM, RPC_C_HTTP_AUTHN_SCHEME_PASSPORT, RPC_C_HTTP_AUTHN_TARGET_PROXY, RPC_C_HTTP_AUTHN_TARGET_SERVER, RPC_C_HTTP_FLAG_USE_FIRST_AUTH_SCHEME, RPC_C_HTTP_FLAG_USE_SSL, RPC_HTTP_TRANSPORT_CREDENTIALS_V3, RPC_HTTP_TRANSPORT_CREDENTIALS_V3 structure [RPC], RPC_HTTP_TRANSPORT_CREDENTIALS_V3_A, RPC_HTTP_TRANSPORT_CREDENTIALS_V3_W, _RPC_HTTP_TRANSPORT_CREDENTIALS_V3_A, _RPC_HTTP_TRANSPORT_CREDENTIALS_V3_W, rpc.rpc_http_transport_credentials_v3, rpcdce/PRPC_HTTP_TRANSPORT_CREDENTIALS_V3, rpcdce/RPC_HTTP_TRANSPORT_CREDENTIALS_V3'
 ms.topic: struct
-f1_keywords: 
- - "rpcdce/RPC_HTTP_TRANSPORT_CREDENTIALS_V3"
+f1_keywords:
+- rpcdce/RPC_HTTP_TRANSPORT_CREDENTIALS_V3
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcdce.h
+- Rpcdce.h
 api_name:
- - RPC_HTTP_TRANSPORT_CREDENTIALS_V3
- - RPC_HTTP_TRANSPORT_CREDENTIALS_V3_A
- - RPC_HTTP_TRANSPORT_CREDENTIALS_V3_W
+- RPC_HTTP_TRANSPORT_CREDENTIALS_V3
+- RPC_HTTP_TRANSPORT_CREDENTIALS_V3_A
+- RPC_HTTP_TRANSPORT_CREDENTIALS_V3_W
 product: Windows
 targetos: Windows
 req.typenames: RPC_HTTP_TRANSPORT_CREDENTIALS_V3_A, *PRPC_HTTP_TRANSPORT_CREDENTIALS_V3_A
@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 The <b>RPC_HTTP_TRANSPORT_CREDENTIALS_V3</b> structure defines additional credentials to authenticate to an  RPC proxy server or HTTP proxy server when using RPC/HTTP.
 
-<b>RPC_HTTP_TRANSPORT_CREDENTIALS_V3</b> extends <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_http_transport_credentials_v2_a">RPC_HTTP_TRANSPORT_CREDENTIALS_V2</a> by allowing arbitrary credential forms to be used.
+<b>RPC_HTTP_TRANSPORT_CREDENTIALS_V3</b> extends <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_v2_a">RPC_HTTP_TRANSPORT_CREDENTIALS_V2</a> by allowing arbitrary credential forms to be used.
 
 
 ## -struct-fields
@@ -264,7 +264,7 @@ If the ANSI version of the <b>RpcBindingSetAuthInfoEx</b> function is used,  ANS
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_http_transport_credentials_v2_a">RPC_HTTP_TRANSPORT_CREDENTIALS_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_v2_a">RPC_HTTP_TRANSPORT_CREDENTIALS_V2</a>
 
 
 
@@ -272,11 +272,11 @@ If the ANSI version of the <b>RpcBindingSetAuthInfoEx</b> function is used,  ANS
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_security_qos_v2_a">RPC_SECURITY_QOS_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v2_a">RPC_SECURITY_QOS_V2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_security_qos_v3_a">RPC_SECURITY_QOS_V3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v3_a">RPC_SECURITY_QOS_V3</a>
 
 
 

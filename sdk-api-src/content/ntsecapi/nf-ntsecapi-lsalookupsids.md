@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaLookupSids, LsaLookupSids function [Security], _lsa_lsalookupsids, ntsecapi/LsaLookupSids, security.lsalookupsids
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/LsaLookupSids"
+f1_keywords:
+- ntsecapi/LsaLookupSids
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-lsapolicy-l1-1-0.dll
- - sechost.dll
- - API-MS-Win-Security-LSAPolicy-L1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-Security-lsapolicy-l1-1-0.dll
+- sechost.dll
+- API-MS-Win-Security-LSAPolicy-L1-1-1.dll
 api_name:
- - LsaLookupSids
+- LsaLookupSids
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -94,7 +94,7 @@ When you no longer need the information, pass the returned pointer to
 ### -param Names [out]
 
 Receives a pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_translated_name">LSA_TRANSLATED_NAME</a> structures. Each entry in the <i>Names</i> array contains the name information for the corresponding entry in the <i>Sids</i> array. For account SIDs, the <b>Name</b> member of each structure contains the isolated name of the account. For domain SIDs, the <b>Name</b> member is not valid. 
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_translated_name">LSA_TRANSLATED_NAME</a> structures. Each entry in the <i>Names</i> array contains the name information for the corresponding entry in the <i>Sids</i> array. For account SIDs, the <b>Name</b> member of each structure contains the isolated name of the account. For domain SIDs, the <b>Name</b> member is not valid. 
 
 
 
@@ -195,7 +195,7 @@ In addition to looking up SIDs for local accounts, local domain accounts, and ex
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_translated_name">LSA_TRANSLATED_NAME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_translated_name">LSA_TRANSLATED_NAME</a>
 
 
 

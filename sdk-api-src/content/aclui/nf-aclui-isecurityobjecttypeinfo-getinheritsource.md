@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInheritSource, GetInheritSource method [Security], GetInheritSource method [Security],ISecurityObjectTypeInfo interface, ISecurityObjectTypeInfo interface [Security],GetInheritSource method, ISecurityObjectTypeInfo.GetInheritSource, ISecurityObjectTypeInfo::GetInheritSource, aclui/ISecurityObjectTypeInfo::GetInheritSource, security.isecurityobjecttypeinfo_getinheritsource
 ms.topic: method
-f1_keywords: 
- - "aclui/ISecurityObjectTypeInfo.GetInheritSource"
+f1_keywords:
+- aclui/ISecurityObjectTypeInfo.GetInheritSource
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Aclui.h
+- Aclui.h
 api_name:
- - ISecurityObjectTypeInfo.GetInheritSource
+- ISecurityObjectTypeInfo.GetInheritSource
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-informat
 
 ### -param pACL [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> structure that represents the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL) of the object.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure that represents the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL) of the object.
 
 
 ### -param ppInheritArray [out]

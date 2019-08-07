@@ -8,10 +8,10 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvdispinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPNMLVDISPINFOA, NMLVDISPINFO, NMLVDISPINFO structure [Windows Controls], NMLVDISPINFOA, NMLVDISPINFOW, _win32_NMLVDISPINFO, _win32_NMLVDISPINFO_cpp, commctrl/NMLVDISPINFO, commctrl/NMLVDISPINFOA, commctrl/NMLVDISPINFOW, controls.NMLVDISPINFO, controls._win32_NMLVDISPINFO"
+ms.keywords: '*LPNMLVDISPINFOA, NMLVDISPINFO, NMLVDISPINFO structure [Windows Controls], NMLVDISPINFOA, NMLVDISPINFOW, _win32_NMLVDISPINFO, _win32_NMLVDISPINFO_cpp, commctrl/NMLVDISPINFO, commctrl/NMLVDISPINFOA, commctrl/NMLVDISPINFOW, controls.NMLVDISPINFO, controls._win32_NMLVDISPINFO'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/NMLVDISPINFO"
+f1_keywords:
+- commctrl/NMLVDISPINFO
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - NMLVDISPINFO
- - NMLVDISPINFOA
- - NMLVDISPINFOW
+- NMLVDISPINFO
+- NMLVDISPINFOA
+- NMLVDISPINFOW
 product: Windows
 targetos: Windows
 req.typenames: NMLVDISPINFOA, *LPNMLVDISPINFOA
@@ -63,10 +63,10 @@ Contains information about an <a href="https://docs.microsoft.com/windows/deskto
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains information about this notification code. 
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification code. 
 
 
 ### -field item

@@ -8,10 +8,10 @@ tech.root: SecMgmt
 ms.assetid: d845a750-2931-4c17-be78-92843e2bd76f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSAFER_PATHNAME_IDENTIFICATION, PSAFER_PATHNAME_IDENTIFICATION, PSAFER_PATHNAME_IDENTIFICATION structure pointer [Security], SAFER_PATHNAME_IDENTIFICATION, SAFER_PATHNAME_IDENTIFICATION structure [Security], _mnp_safer_pathname_identification, security.safer_pathname_identification, winsafer/PSAFER_PATHNAME_IDENTIFICATION, winsafer/SAFER_PATHNAME_IDENTIFICATION"
+ms.keywords: '*PSAFER_PATHNAME_IDENTIFICATION, PSAFER_PATHNAME_IDENTIFICATION, PSAFER_PATHNAME_IDENTIFICATION structure pointer [Security], SAFER_PATHNAME_IDENTIFICATION, SAFER_PATHNAME_IDENTIFICATION structure [Security], _mnp_safer_pathname_identification, security.safer_pathname_identification, winsafer/PSAFER_PATHNAME_IDENTIFICATION, winsafer/SAFER_PATHNAME_IDENTIFICATION'
 ms.topic: struct
-f1_keywords: 
- - "winsafer/SAFER_PATHNAME_IDENTIFICATION"
+f1_keywords:
+- winsafer/SAFER_PATHNAME_IDENTIFICATION
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinSafer.h
+- WinSafer.h
 api_name:
- - SAFER_PATHNAME_IDENTIFICATION
+- SAFER_PATHNAME_IDENTIFICATION
 product: Windows
 targetos: Windows
 req.typenames: SAFER_PATHNAME_IDENTIFICATION, *PSAFER_PATHNAME_IDENTIFICATION
@@ -61,7 +61,7 @@ The <b>SAFER_PATHNAME_IDENTIFICATION</b> structure represents a path identificat
 
 ### -field header
 
-A  <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-_safer_identification_header">SAFER_IDENTIFICATION_HEADER</a> structure containing the structure header. The <b>dwIdentificationType</b> member of the header must be <b>SaferIdentityTypeImageName</b>, and the  <b>cbStructSize</b> member of the header must be sizeof(SAFER_PATHNAME_IDENTIFICATION).
+A  <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_identification_header">SAFER_IDENTIFICATION_HEADER</a> structure containing the structure header. The <b>dwIdentificationType</b> member of the header must be <b>SaferIdentityTypeImageName</b>, and the  <b>cbStructSize</b> member of the header must be sizeof(SAFER_PATHNAME_IDENTIFICATION).
 
 
 ### -field Description
@@ -71,7 +71,7 @@ A description of the path identification rule provided by the user.
 
 ### -field ImageName
 
-A pointer to a <b>null</b>-terminated wide character string that specifies the fully qualified path and file name to be used for path-based discrimination checks. The image name is also used to open and read the file to identify any other discrimination criteria not supplied in this structure. This member can be set to <b>NULL</b>. If the <b>dwCheckFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-_safer_identification_header">SAFER_IDENTIFICATION_HEADER</a> structure specified by the <b>header</b> member includes SAFER_CRITERIA_AUTHENTICODE, either the <b>hImageFileHandle</b> member or the <b>ImagePath</b> member of the <b>SAFER_IDENTIFICATION_HEADER</b> structure must be set.
+A pointer to a <b>null</b>-terminated wide character string that specifies the fully qualified path and file name to be used for path-based discrimination checks. The image name is also used to open and read the file to identify any other discrimination criteria not supplied in this structure. This member can be set to <b>NULL</b>. If the <b>dwCheckFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_identification_header">SAFER_IDENTIFICATION_HEADER</a> structure specified by the <b>header</b> member includes SAFER_CRITERIA_AUTHENTICODE, either the <b>hImageFileHandle</b> member or the <b>ImagePath</b> member of the <b>SAFER_IDENTIFICATION_HEADER</b> structure must be set.
 
 
 ### -field dwSaferFlags

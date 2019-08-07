@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUIObjectOf, GetUIObjectOf method [Windows Shell], GetUIObjectOf method [Windows Shell],IShellFolder interface, GetUIObjectOf method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],GetUIObjectOf method, IShellFolder.GetUIObjectOf, IShellFolder2 interface [Windows Shell],GetUIObjectOf method, IShellFolder2::GetUIObjectOf, IShellFolder::GetUIObjectOf, _win32_IShellFolder_GetUIObjectOf, shell.IShellFolder_GetUIObjectOf, shobjidl_core/IShellFolder2::GetUIObjectOf, shobjidl_core/IShellFolder::GetUIObjectOf
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellFolder.GetUIObjectOf"
+f1_keywords:
+- shobjidl_core/IShellFolder.GetUIObjectOf
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellFolder.GetUIObjectOf
- - IShellFolder2.GetUIObjectOf
+- IShellFolder.GetUIObjectOf
+- IShellFolder2.GetUIObjectOf
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,7 +78,7 @@ The number of file objects or subfolders specified in the <i>apidl</i> parameter
 
 Type: <b>PCUITEMID_CHILD_ARRAY</b>
 
-The address of an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structures, each of which uniquely identifies a file object or subfolder relative to the parent folder. Each item identifier list must contain exactly one <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure followed by a terminating zero.
+The address of an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures, each of which uniquely identifies a file object or subfolder relative to the parent folder. Each item identifier list must contain exactly one <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure followed by a terminating zero.
 
 
 ### -param riid [in]

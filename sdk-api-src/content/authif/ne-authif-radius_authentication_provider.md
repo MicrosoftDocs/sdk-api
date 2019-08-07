@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RADIUS_AUTHENTICATION_PROVIDER, RADIUS_AUTHENTICATION_PROVIDER enumeration [Network Policy Server], _ias_radius_authentication_provider, authif/RADIUS_AUTHENTICATION_PROVIDER, authif/rapMCIS, authif/rapNone, authif/rapODBC, authif/rapProxy, authif/rapUnknown, authif/rapUsersFile, authif/rapWindowsNT, ias.radius_authentication_provider, nps.IAS_radius_authentication_provider, rapMCIS, rapNone, rapODBC, rapProxy, rapUnknown, rapUsersFile, rapWindowsNT
 ms.topic: enum
-f1_keywords: 
- - "authif/RADIUS_AUTHENTICATION_PROVIDER"
+f1_keywords:
+- authif/RADIUS_AUTHENTICATION_PROVIDER
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AuthIf.h
+- AuthIf.h
 api_name:
- - RADIUS_AUTHENTICATION_PROVIDER
+- RADIUS_AUTHENTICATION_PROVIDER
 product: Windows
 targetos: Windows
 req.typenames: RADIUS_AUTHENTICATION_PROVIDER
@@ -100,7 +100,7 @@ Access is unauthenticated.
 
 
 The <b>ratProvider</b> extended attribute in 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_attribute_type">RADIUS_ATTRIBUTE_TYPE</a> uses values from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_attribute_type">RADIUS_ATTRIBUTE_TYPE</a> uses values from the 
 <b>RADIUS_AUTHENTICATION_PROVIDER</b> enumeration type.
 
 
@@ -127,7 +127,7 @@ The <b>ratProvider</b> extended attribute in
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_attribute_type">RADIUS_ATTRIBUTE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_attribute_type">RADIUS_ATTRIBUTE_TYPE</a>
  
 
  

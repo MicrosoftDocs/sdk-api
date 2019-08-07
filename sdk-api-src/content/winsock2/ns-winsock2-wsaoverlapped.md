@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: 91004241-e0ea-4bda-a0f5-71688ac83038
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPWSAOVERLAPPED, LPWSAOVERLAPPED, LPWSAOVERLAPPED structure pointer [Winsock], WSAOVERLAPPED, WSAOVERLAPPED structure [Winsock], _win32_wsaoverlapped_2, winsock.wsaoverlapped_2, winsock2/LPWSAOVERLAPPED, winsock2/WSAOVERLAPPED"
+ms.keywords: '*LPWSAOVERLAPPED, LPWSAOVERLAPPED, LPWSAOVERLAPPED structure pointer [Winsock], WSAOVERLAPPED, WSAOVERLAPPED structure [Winsock], _win32_wsaoverlapped_2, winsock.wsaoverlapped_2, winsock2/LPWSAOVERLAPPED, winsock2/WSAOVERLAPPED'
 ms.topic: struct
-f1_keywords: 
- - "winsock2/WSAOVERLAPPED"
+f1_keywords:
+- winsock2/WSAOVERLAPPED
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsock2.h
+- Winsock2.h
 api_name:
- - WSAOVERLAPPED
+- WSAOVERLAPPED
 product: Windows
 targetos: Windows
 req.typenames: WSAOVERLAPPED, *LPWSAOVERLAPPED
@@ -54,7 +54,7 @@ ms.custom: 19H1
 The 
 <b>WSAOVERLAPPED</b> structure provides a communication medium between the initiation of an overlapped I/O operation and its subsequent completion. The 
 <b>WSAOVERLAPPED</b> structure is compatible with the Windows 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 
 ## -struct-fields

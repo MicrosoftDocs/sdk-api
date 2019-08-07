@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NIM_ADD, NIM_DELETE, NIM_MODIFY, NIM_SETFOCUS, NIM_SETVERSION, Shell_NotifyIcon, Shell_NotifyIcon function [Windows Shell], Shell_NotifyIconA, Shell_NotifyIconW, _win32_Shell_NotifyIcon, shell.Shell_NotifyIcon, shellapi/Shell_NotifyIcon, shellapi/Shell_NotifyIconA, shellapi/Shell_NotifyIconW
 ms.topic: function
-f1_keywords: 
- - "shellapi/Shell_NotifyIcon"
+f1_keywords:
+- shellapi/Shell_NotifyIcon
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - Shell_NotifyIcon
- - Shell_NotifyIconA
- - Shell_NotifyIconW
+- Shell_NotifyIcon
+- Shell_NotifyIconA
+- Shell_NotifyIconW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,19 +73,19 @@ A value that specifies the action to be taken by this function. It can have one 
 
 #### NIM_ADD (0x00000000)
 
-0x00000000. Adds an icon to the status area. The icon is given an identifier in the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i>—either through its <b>uID</b> or <b>guidItem</b> member. This identifier is used in subsequent calls to <b>Shell_NotifyIcon</b> to perform later actions on the icon.
+0x00000000. Adds an icon to the status area. The icon is given an identifier in the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i>—either through its <b>uID</b> or <b>guidItem</b> member. This identifier is used in subsequent calls to <b>Shell_NotifyIcon</b> to perform later actions on the icon.
 
 
 
 #### NIM_MODIFY (0x00000001)
 
-0x00000001. Modifies an icon in the status area. <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> uses the ID originally assigned to the icon when it was added to the notification area (NIM_ADD) to identify the icon to be modified.
+0x00000001. Modifies an icon in the status area. <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> uses the ID originally assigned to the icon when it was added to the notification area (NIM_ADD) to identify the icon to be modified.
 
 
 
 #### NIM_DELETE (0x00000002)
 
-0x00000002. Deletes an icon from the status area. <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> uses the ID originally assigned to the icon when it was added to the notification area (NIM_ADD) to identify the icon to be deleted.
+0x00000002. Deletes an icon from the status area. <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> uses the ID originally assigned to the icon when it was added to the notification area (NIM_ADD) to identify the icon to be deleted.
 
 
 
@@ -108,22 +108,22 @@ For details, see the Remarks section.
 
 Type: <b>PNOTIFYICONDATA</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyicondataa">NOTIFYICONDATA</a> structure. The content of the structure depends on the value of <i>dwMessage</i>. It can define an icon to add to the notification area, cause that icon to display a notification, or identify an icon to modify or delete.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NOTIFYICONDATA</a> structure. The content of the structure depends on the value of <i>dwMessage</i>. It can define an icon to add to the notification area, cause that icon to display a notification, or identify an icon to modify or delete.
 
 
 ##### - dwMessage.NIM_ADD (0x00000000)
 
-0x00000000. Adds an icon to the status area. The icon is given an identifier in the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i>—either through its <b>uID</b> or <b>guidItem</b> member. This identifier is used in subsequent calls to <b>Shell_NotifyIcon</b> to perform later actions on the icon.
+0x00000000. Adds an icon to the status area. The icon is given an identifier in the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i>—either through its <b>uID</b> or <b>guidItem</b> member. This identifier is used in subsequent calls to <b>Shell_NotifyIcon</b> to perform later actions on the icon.
 
 
 ##### - dwMessage.NIM_DELETE (0x00000002)
 
-0x00000002. Deletes an icon from the status area. <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> uses the ID originally assigned to the icon when it was added to the notification area (NIM_ADD) to identify the icon to be deleted.
+0x00000002. Deletes an icon from the status area. <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> uses the ID originally assigned to the icon when it was added to the notification area (NIM_ADD) to identify the icon to be deleted.
 
 
 ##### - dwMessage.NIM_MODIFY (0x00000001)
 
-0x00000001. Modifies an icon in the status area. <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> uses the ID originally assigned to the icon when it was added to the notification area (NIM_ADD) to identify the icon to be modified.
+0x00000001. Modifies an icon in the status area. <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> uses the ID originally assigned to the icon when it was added to the notification area (NIM_ADD) to identify the icon to be modified.
 
 
 ##### - dwMessage.NIM_SETFOCUS (0x00000003)
@@ -155,7 +155,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. If <i>dwMessage</i
 
 
 
-As of Windows 2000 (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Shell32.dll version 5.0</a>), if you set the <b>uVersion</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> to NOTIFYICON_VERSION_4 or higher, <b>Shell_NotifyIcon</b> mouse and keyboard events are handled differently than in earlier versions of Windows. The differences include the following:
+As of Windows 2000 (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Shell32.dll version 5.0</a>), if you set the <b>uVersion</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> to NOTIFYICON_VERSION_4 or higher, <b>Shell_NotifyIcon</b> mouse and keyboard events are handled differently than in earlier versions of Windows. The differences include the following:
 
 <ul>
 <li>If a user selects a notify icon's shortcut menu with the keyboard, the Shell now sends the associated application a <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-contextmenu">WM_CONTEXTMENU</a> message. Earlier versions send <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-rbuttondown">WM_RBUTTONDOWN</a> and <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-rbuttonup">WM_RBUTTONUP</a> messages.</li>
@@ -169,7 +169,7 @@ As of Windows XP (<a href="https://docs.microsoft.com/previous-versions/windows
 <li>
 NIN_BALLOONHIDE. Sent when the balloon disappears. For example, when the icon is deleted. This message is not sent if the balloon is dismissed because of a timeout or if the user clicks the mouse.
 
-As of Windows 7, NIN_BALLOONHIDE is also sent when a notification with the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyicondataa">NIIF_RESPECT_QUIET_TIME</a> flag set attempts to display during quiet time (a user's first hour on a new computer). In that case, the balloon is never displayed at all.
+As of Windows 7, NIN_BALLOONHIDE is also sent when a notification with the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NIIF_RESPECT_QUIET_TIME</a> flag set attempts to display during quiet time (a user's first hour on a new computer). In that case, the balloon is never displayed at all.
 
 </li>
 <li>NIN_BALLOONTIMEOUT. Sent when the balloon is dismissed because of a timeout.</li>
@@ -181,9 +181,9 @@ In addition to those messages, as of Windows Vista (Shell32.dll version 6.0.6),
 <li>NIN_POPUPOPEN. Sent when the user hovers the cursor over an icon to indicate that the richer pop-up UI should be used in place of a standard textual tooltip.</li>
 <li>NIN_POPUPCLOSE. Sent when a cursor no longer hovers over an icon to indicate that the rich pop-up UI should be closed.</li>
 </ul>
-Regardless of the operating system version, you can select which way the Shell should behave by calling <b>Shell_NotifyIcon</b> with <i>dwMessage</i> set to <b>NIM_SETVERSION</b>. Set the <b>uVersion</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> to indicate whether you want Windows 2000, Windows Vista, or pre-version 5.0 (Windows 95) behavior.
+Regardless of the operating system version, you can select which way the Shell should behave by calling <b>Shell_NotifyIcon</b> with <i>dwMessage</i> set to <b>NIM_SETVERSION</b>. Set the <b>uVersion</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> to indicate whether you want Windows 2000, Windows Vista, or pre-version 5.0 (Windows 95) behavior.
 
-<div class="alert"><b>Note</b>  The messages discussed above are not conventional Windows messages. They are sent as the <i>lParam</i> value of the application-defined message that is specified in the <b>uCallbackMessage</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i>, when <b>Shell_NotifyIcon</b> is called with the <b>NIM_ADD</b> flag set in <i>dwMessage</i>.</div>
+<div class="alert"><b>Note</b>  The messages discussed above are not conventional Windows messages. They are sent as the <i>lParam</i> value of the application-defined message that is specified in the <b>uCallbackMessage</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i>, when <b>Shell_NotifyIcon</b> is called with the <b>NIM_ADD</b> flag set in <i>dwMessage</i>.</div>
 <div> </div>
 As of Windows XP Service Pack 2 (SP2), a custom icon can be displayed in the notification balloon. This allows the calling process to customize the notification beyond the previously available options of info, warning, and error, and distinguish it from other types of notification for the user.
 

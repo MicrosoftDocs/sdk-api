@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx3 interface,RecoverSet method, IVssBackupComponentsEx3.RecoverSet, IVssBackupComponentsEx3::RecoverSet, RecoverSet, RecoverSet method, RecoverSet method,IVssBackupComponentsEx3 interface, base.ivssbackupcomponentsex3_recoverset, vsbackup/IVssBackupComponentsEx3::RecoverSet
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponentsEx3.RecoverSet"
+f1_keywords:
+- vsbackup/IVssBackupComponentsEx3.RecoverSet
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsBackup.h
+- VsBackup.h
 api_name:
- - IVssBackupComponentsEx3.RecoverSet
+- IVssBackupComponentsEx3.RecoverSet
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Initiates a LUN resynchronization operation. This method is supported only on Wi
 
 ### -param dwFlags [in]
 
-A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_recovery_options">VSS_RECOVERY_OPTIONS</a> flags that specify how the resynchronization is to be performed.
+A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_recovery_options">VSS_RECOVERY_OPTIONS</a> flags that specify how the resynchronization is to be performed.
 
 
 ### -param ppAsync [out]

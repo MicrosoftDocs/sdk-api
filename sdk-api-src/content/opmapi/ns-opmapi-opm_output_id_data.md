@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_OUTPUT_ID_DATA, OPM_OUTPUT_ID_DATA structure [Media Foundation], mf.opm_output_id_data, opmapi/OPM_OUTPUT_ID_DATA
 ms.topic: struct
-f1_keywords: 
- - "opmapi/OPM_OUTPUT_ID_DATA"
+f1_keywords:
+- opmapi/OPM_OUTPUT_ID_DATA
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - opmapi.h
+- opmapi.h
 api_name:
- - OPM_OUTPUT_ID_DATA
+- OPM_OUTPUT_ID_DATA
 product: Windows
 targetos: Windows
 req.typenames: OPM_OUTPUT_ID_DATA
@@ -61,7 +61,7 @@ Contains the result from an <a href="https://docs.microsoft.com/windows/desktop/
 
 ### -field rnRandomNumber
 
-An <a href="https://docs.microsoft.com/windows/win32/api/opmapi/ns-opmapi-opm_copp_compatible_get_info_parameters">OPM_RANDOM_NUMBER</a> structure. This structure contains the same 128-bit random number that the application sent to the driver in the <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_info_parameters">OPM_GET_INFO_PARAMETERS</a> or <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ns-opmapi-_opm_copp_compatible_get_info_parameters">OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure.
+An <a href="https://docs.microsoft.com/windows/win32/api/opmapi/ns-opmapi-opm_copp_compatible_get_info_parameters">OPM_RANDOM_NUMBER</a> structure. This structure contains the same 128-bit random number that the application sent to the driver in the <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters">OPM_GET_INFO_PARAMETERS</a> or <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ns-opmapi-opm_copp_compatible_get_info_parameters">OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure.
 
 
 ### -field ulStatusFlags

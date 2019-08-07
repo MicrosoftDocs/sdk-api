@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptConfigureContextFunction, BCryptConfigureContextFunction function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, NCRYPT_SCHANNEL_SIGNATURE_INTERFACE, bcrypt/BCryptConfigureContextFunction, security.bcryptconfigurecontextfunction
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptConfigureContextFunction"
+f1_keywords:
+- bcrypt/BCryptConfigureContextFunction
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
+- Bcrypt.dll
 api_name:
- - BCryptConfigureContextFunction
+- BCryptConfigureContextFunction
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -211,7 +211,7 @@ A pointer to a null-terminated Unicode string that contains the identifier of th
 
 ### -param pConfig [in]
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_context_function_config">CRYPT_CONTEXT_FUNCTION_CONFIG</a> structure that contains the new function configuration information.
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_function_config">CRYPT_CONTEXT_FUNCTION_CONFIG</a> structure that contains the new function configuration information.
 
 
 ## -returns
@@ -283,7 +283,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_context_function_config">CRYPT_CONTEXT_FUNCTION_CONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_function_config">CRYPT_CONTEXT_FUNCTION_CONFIG</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GET_TAPE_DRIVE_INFORMATION, GET_TAPE_MEDIA_INFORMATION, GetTapeParameters, GetTapeParameters function [Backup], _win32_gettapeparameters, backup.gettapeparameters, base.gettapeparameters, winbase/GetTapeParameters
 ms.topic: function
-f1_keywords: 
- - "winbase/GetTapeParameters"
+f1_keywords:
+- winbase/GetTapeParameters
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - GetTapeParameters
+- GetTapeParameters
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -117,7 +117,7 @@ Pointer to a variable that receives the size, in bytes, of the buffer specified 
 ### -param lpTapeInformation [out]
 
 Pointer to a structure that contains the requested information. If the <i>dwOperation</i> parameter is <b>GET_TAPE_MEDIA_INFORMATION</b>, <i>lpTapeInformation</i> points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_tape_get_media_parameters">TAPE_GET_MEDIA_PARAMETERS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_get_media_parameters">TAPE_GET_MEDIA_PARAMETERS</a> structure.
 
 If <i>dwOperation</i> is <b>GET_TAPE_DRIVE_INFORMATION</b>, <i>lpTapeInformation</i> points to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_tape_get_drive_parameters">TAPE_GET_DRIVE_PARAMETERS</a> structure.
@@ -350,7 +350,7 @@ The block size range values (maximum and minimum) returned by the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_tape_get_media_parameters">TAPE_GET_MEDIA_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_get_media_parameters">TAPE_GET_MEDIA_PARAMETERS</a>
  
 
  

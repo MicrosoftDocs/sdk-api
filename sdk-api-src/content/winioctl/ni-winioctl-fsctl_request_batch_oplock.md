@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_REQUEST_BATCH_OPLOCK, FSCTL_REQUEST_BATCH_OPLOCK control, FSCTL_REQUEST_BATCH_OPLOCK control code [Files], _win32_fsctl_request_batch_oplock, base.fsctl_request_batch_oplock, fs.fsctl_request_batch_oplock, winioctl/FSCTL_REQUEST_BATCH_OPLOCK
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_REQUEST_BATCH_OPLOCK"
+f1_keywords:
+- winioctl/FSCTL_REQUEST_BATCH_OPLOCK
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_REQUEST_BATCH_OPLOCK
+- FSCTL_REQUEST_BATCH_OPLOCK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -257,7 +257,7 @@ Yes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 

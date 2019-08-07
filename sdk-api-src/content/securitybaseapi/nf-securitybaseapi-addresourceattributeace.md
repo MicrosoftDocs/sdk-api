@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddResourceAttributeAce, AddResourceAttributeAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, security.addresourceattributeace, securitybaseapi/AddResourceAttributeAce
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/AddResourceAttributeAce"
+f1_keywords:
+- securitybaseapi/AddResourceAttributeAce
 req.header: securitybaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Kernel32.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - AddResourceAttributeAce
+- AddResourceAttributeAce
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -55,7 +55,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AddResourceAttributeAce</b> function adds a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_resource_attribute_ace">SYSTEM_RESOURCE_ATTRIBUTE_ACE</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to the end of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL). A <b>SYSTEM_RESOURCE_ATTRIBUTE_ACE</b> structure specifies an attribute name and a value-ordered list of elements  that is associated with a resource and potentially used during access checks. The set of standard access rights are defined in the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a> topic.
+The <b>AddResourceAttributeAce</b> function adds a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_resource_attribute_ace">SYSTEM_RESOURCE_ATTRIBUTE_ACE</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to the end of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL). A <b>SYSTEM_RESOURCE_ATTRIBUTE_ACE</b> structure specifies an attribute name and a value-ordered list of elements  that is associated with a resource and potentially used during access checks. The set of standard access rights are defined in the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a> topic.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ The <b>AddResourceAttributeAce</b> function adds a <a href="https://docs.microso
 
 ### -param pAcl [in, out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL). This function adds an ACE to this ACL. The value of this parameter cannot be <b>NULL</b>. The ACE is in the form of a  <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_resource_attribute_ace">SYSTEM_RESOURCE_ATTRIBUTE_ACE</a> structure.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL). This function adds an ACE to this ACL. The value of this parameter cannot be <b>NULL</b>. The ACE is in the form of a  <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_resource_attribute_ace">SYSTEM_RESOURCE_ATTRIBUTE_ACE</a> structure.
 
 
 ### -param dwAceRevision [in]
@@ -75,7 +75,7 @@ Specifies the revision level of the ACL being modified. This value can be ACL_RE
 
 ### -param AceFlags [in]
 
-A set of bit flags that control ACE inheritance. The function sets these flags in the <b>AceFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure of the new ACE.
+A set of bit flags that control ACE inheritance. The function sets these flags in the <b>AceFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure of the new ACE.
 
 For consistency with the Windows 8 Advanced File Permissions UI, applications should specify the CONTAINER_INHERIT_ACE and OBJECT_INHERIT_ACE flags in the <i>AceFlags</i> parameter.
 

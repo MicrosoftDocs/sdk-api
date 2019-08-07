@@ -8,10 +8,10 @@ tech.root: ProcThread
 ms.assetid: 1efda80d-cf5b-4312-801a-ea3585b152ac
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPROCESSOR_RELATIONSHIP, PPROCESSOR_RELATIONSHIP, PPROCESSOR_RELATIONSHIP structure pointer, PROCESSOR_RELATIONSHIP, PROCESSOR_RELATIONSHIP structure, _PROCESSOR_RELATIONSHIP, base.processor_relationship, winnt/PPROCESSOR_RELATIONSHIP, winnt/PROCESSOR_RELATIONSHIP"
+ms.keywords: '*PPROCESSOR_RELATIONSHIP, PPROCESSOR_RELATIONSHIP, PPROCESSOR_RELATIONSHIP structure pointer, PROCESSOR_RELATIONSHIP, PROCESSOR_RELATIONSHIP structure, _PROCESSOR_RELATIONSHIP, base.processor_relationship, winnt/PPROCESSOR_RELATIONSHIP, winnt/PROCESSOR_RELATIONSHIP'
 ms.topic: struct
-f1_keywords: 
- - "winnt/PROCESSOR_RELATIONSHIP"
+f1_keywords:
+- winnt/PROCESSOR_RELATIONSHIP
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - PROCESSOR_RELATIONSHIP
+- PROCESSOR_RELATIONSHIP
 product: Windows
 targetos: Windows
 req.typenames: PROCESSOR_RELATIONSHIP, *PPROCESSOR_RELATIONSHIP
@@ -87,7 +87,7 @@ This member specifies the number of entries in the <b>GroupMask</b> array. For m
 
 ### -field GroupMask
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_group_affinity">GROUP_AFFINITY</a> structures. The <b>GroupCount</b> member specifies the number of structures in the array. Each structure in the array specifies a  group number and processor affinity within the group. 
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a> structures. The <b>GroupCount</b> member specifies the number of structures in the array. Each structure in the array specifies a  group number and processor affinity within the group. 
 
 
 ## -remarks
@@ -108,7 +108,7 @@ If the <b>PROCESSOR_RELATIONSHIP</b> structure represents a processor package, t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_group_affinity">GROUP_AFFINITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a>
 
 
 

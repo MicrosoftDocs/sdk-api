@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDsObjectPicker interface [Active Directory],InvokeDialog method, IDsObjectPicker.InvokeDialog, IDsObjectPicker::InvokeDialog, InvokeDialog, InvokeDialog method [Active Directory], InvokeDialog method [Active Directory],IDsObjectPicker interface, _glines_idsobjectpicker_invokedialog, ad.idsobjectpicker__invokedialog, ad.idsobjectpicker_invokedialog, objsel/IDsObjectPicker::InvokeDialog
 ms.topic: method
-f1_keywords: 
- - "objsel/IDsObjectPicker.InvokeDialog"
+f1_keywords:
+- objsel/IDsObjectPicker.InvokeDialog
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Objsel.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Objsel.dll
+- Objsel.dll
 api_name:
- - IDsObjectPicker.InvokeDialog
+- IDsObjectPicker.InvokeDialog
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -96,11 +96,11 @@ Before <b>IDsObjectPicker::InvokeDialog</b> is called, the <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_ds_selection">DS_SELECTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-ds_selection">DS_SELECTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_ds_selection_list">DS_SELECTION_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-ds_selection_list">DS_SELECTION_LIST</a>
 
 
 

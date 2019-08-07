@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindFirstUrlCacheEntry, FindFirstUrlCacheEntry function [WinINet], FindFirstUrlCacheEntryA, FindFirstUrlCacheEntryW, _inet_findfirsturlcacheentry_function, wininet.findfirsturlcacheentry, wininet/FindFirstUrlCacheEntry, wininet/FindFirstUrlCacheEntryA, wininet/FindFirstUrlCacheEntryW
 ms.topic: function
-f1_keywords: 
- - "wininet/FindFirstUrlCacheEntry"
+f1_keywords:
+- wininet/FindFirstUrlCacheEntry
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - FindFirstUrlCacheEntry
- - FindFirstUrlCacheEntryA
- - FindFirstUrlCacheEntryW
+- FindFirstUrlCacheEntry
+- FindFirstUrlCacheEntryA
+- FindFirstUrlCacheEntryW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ A pointer to a string that contains the source name pattern to search for. This 
 ### -param lpFirstCacheEntryInfo [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-_internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> structure.
 
 
 ### -param lpcbCacheEntryInfo [in, out]

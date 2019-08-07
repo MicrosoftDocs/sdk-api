@@ -8,10 +8,10 @@ tech.root: ad
 ms.assetid: cd15aa25-7a73-475f-b163-30e5dc1f52bd
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDSROLE_SERVER_STATE, DSROLE_SERVER_STATE, DSROLE_SERVER_STATE enumeration [Active Directory], DsRoleServerBackup, DsRoleServerPrimary, DsRoleServerUnknown, ad.dsrole_server_state, dsrole/DSROLE_SERVER_STATE, dsrole/DsRoleServerBackup, dsrole/DsRoleServerPrimary, dsrole/DsRoleServerUnknown"
+ms.keywords: '*PDSROLE_SERVER_STATE, DSROLE_SERVER_STATE, DSROLE_SERVER_STATE enumeration [Active Directory], DsRoleServerBackup, DsRoleServerPrimary, DsRoleServerUnknown, ad.dsrole_server_state, dsrole/DSROLE_SERVER_STATE, dsrole/DsRoleServerBackup, dsrole/DsRoleServerPrimary, dsrole/DsRoleServerUnknown'
 ms.topic: enum
-f1_keywords: 
- - "dsrole/DSROLE_SERVER_STATE"
+f1_keywords:
+- dsrole/DSROLE_SERVER_STATE
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dsrole.h
+- Dsrole.h
 api_name:
- - DSROLE_SERVER_STATE
+- DSROLE_SERVER_STATE
 product: Windows
 targetos: Windows
 req.typenames: DSROLE_SERVER_STATE, *PDSROLE_SERVER_STATE
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DSROLE_SERVER_STATE</b> enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-_dsrole_upgrade_status_info">DSROLE_UPGRADE_STATUS_INFO</a> structure to indicate the role of a server.
+The <b>DSROLE_SERVER_STATE</b> enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-dsrole_upgrade_status_info">DSROLE_UPGRADE_STATUS_INFO</a> structure to indicate the role of a server.
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ The server was, or is, a backup domain controller.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-_dsrole_upgrade_status_info">DSROLE_UPGRADE_STATUS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-dsrole_upgrade_status_info">DSROLE_UPGRADE_STATUS_INFO</a>
 
 
 

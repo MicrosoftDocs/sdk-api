@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: fbb04b0a-df1a-409d-aadc-c06b816924c5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_DATA_CHUNK_TYPE, HTTP_DATA_CHUNK_TYPE, HTTP_DATA_CHUNK_TYPE enumeration [HTTP], HttpDataChunkFromFileHandle, HttpDataChunkFromFragmentCache, HttpDataChunkFromFragmentCacheEx, HttpDataChunkFromMemory, http.http_data_chunk_type, http/HTTP_DATA_CHUNK_TYPE, http/HttpDataChunkFromFileHandle, http/HttpDataChunkFromFragmentCache, http/HttpDataChunkFromFragmentCacheEx, http/HttpDataChunkFromMemory"
+ms.keywords: '*PHTTP_DATA_CHUNK_TYPE, HTTP_DATA_CHUNK_TYPE, HTTP_DATA_CHUNK_TYPE enumeration [HTTP], HttpDataChunkFromFileHandle, HttpDataChunkFromFragmentCache, HttpDataChunkFromFragmentCacheEx, HttpDataChunkFromMemory, http.http_data_chunk_type, http/HTTP_DATA_CHUNK_TYPE, http/HttpDataChunkFromFileHandle, http/HttpDataChunkFromFragmentCache, http/HttpDataChunkFromFragmentCacheEx, http/HttpDataChunkFromMemory'
 ms.topic: enum
-f1_keywords: 
- - "http/HTTP_DATA_CHUNK_TYPE"
+f1_keywords:
+- http/HTTP_DATA_CHUNK_TYPE
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_DATA_CHUNK_TYPE
+- HTTP_DATA_CHUNK_TYPE
 product: Windows
 targetos: Windows
 req.typenames: HTTP_DATA_CHUNK_TYPE, *PHTTP_DATA_CHUNK_TYPE
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_cache_policy_type">HTTP_DATA_CHUNK_TYPE</a> enumeration type defines the data source for a data chunk.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_cache_policy_type">HTTP_DATA_CHUNK_TYPE</a> enumeration type defines the data source for a data chunk.
 
 
 ## -enum-fields

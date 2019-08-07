@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssCreateWriterMetadata interface [VSS],SetBackupSchema method, IVssCreateWriterMetadata.SetBackupSchema, IVssCreateWriterMetadata::SetBackupSchema, SetBackupSchema, SetBackupSchema method [VSS], SetBackupSchema method [VSS],IVssCreateWriterMetadata interface, _win32_ivsscreatewritermetadata_setbackupschema, base.ivsscreatewritermetadata_setbackupschema, vswriter/IVssCreateWriterMetadata::SetBackupSchema
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssCreateWriterMetadata.SetBackupSchema"
+f1_keywords:
+- vswriter/IVssCreateWriterMetadata.SetBackupSchema
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssCreateWriterMetadata.SetBackupSchema
+- IVssCreateWriterMetadata.SetBackupSchema
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ The
 ### -param dwSchemaMask [in]
 
 The types of backup operations this writer supports expressed as a bitmask of 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_schema">VSS_BACKUP_SCHEMA</a> enumeration values.
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_schema">VSS_BACKUP_SCHEMA</a> enumeration values.
 
 For express writers, only the <b>VSS_BS_UNDEFINED</b>, <b>VSS_BS_COPY</b>, and <b>VSS_BS_INDEPENDENT_SYSTEM_STATE</b> values are supported.
 
@@ -137,7 +137,7 @@ The XML document is not valid. Check the event log for details. For more informa
 </dl>
 </td>
 <td width="60%">
-The caller specified a <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_schema">VSS_BACKUP_SCHEMA</a> value that is not supported for express writers.
+The caller specified a <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_schema">VSS_BACKUP_SCHEMA</a> value that is not supported for express writers.
 
 </td>
 </tr>
@@ -174,7 +174,7 @@ Requesters call
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_schema">VSS_BACKUP_SCHEMA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_schema">VSS_BACKUP_SCHEMA</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\structures\hditem.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPHDITEMW, Combining Flags:, Display:, HDFT_HASNOVALUE, HDFT_ISDATE, HDFT_ISNUMBER, HDFT_ISSTRING, HDF_BITMAP, HDF_BITMAP_ON_RIGHT, HDF_CENTER, HDF_CHECKBOX, HDF_CHECKED, HDF_FIXEDWIDTH, HDF_IMAGE, HDF_JUSTIFYMASK, HDF_LEFT, HDF_OWNERDRAW, HDF_RIGHT, HDF_RTLREADING, HDF_SORTDOWN, HDF_SORTUP, HDF_SPLITBUTTON, HDF_STRING, HDITEM, HDITEM structure [Windows Controls], HDITEMA, HDITEMW, HDI_BITMAP, HDI_DI_SETITEM, HDI_FILTER, HDI_FORMAT, HDI_HEIGHT, HDI_IMAGE, HDI_LPARAM, HDI_ORDER, HDI_STATE, HDI_TEXT, HDI_WIDTH, LPHDITEM, LPHDITEM structure pointer [Windows Controls], Text Justification:, _win32_HDITEM, _win32_HDITEM_cpp, commctrl/HDITEM, commctrl/HDITEMA, commctrl/HDITEMW, commctrl/LPHDITEM, controls.HDITEM, controls._win32_HDITEM"
+ms.keywords: '*LPHDITEMW, Combining Flags:, Display:, HDFT_HASNOVALUE, HDFT_ISDATE, HDFT_ISNUMBER, HDFT_ISSTRING, HDF_BITMAP, HDF_BITMAP_ON_RIGHT, HDF_CENTER, HDF_CHECKBOX, HDF_CHECKED, HDF_FIXEDWIDTH, HDF_IMAGE, HDF_JUSTIFYMASK, HDF_LEFT, HDF_OWNERDRAW, HDF_RIGHT, HDF_RTLREADING, HDF_SORTDOWN, HDF_SORTUP, HDF_SPLITBUTTON, HDF_STRING, HDITEM, HDITEM structure [Windows Controls], HDITEMA, HDITEMW, HDI_BITMAP, HDI_DI_SETITEM, HDI_FILTER, HDI_FORMAT, HDI_HEIGHT, HDI_IMAGE, HDI_LPARAM, HDI_ORDER, HDI_STATE, HDI_TEXT, HDI_WIDTH, LPHDITEM, LPHDITEM structure pointer [Windows Controls], Text Justification:, _win32_HDITEM, _win32_HDITEM_cpp, commctrl/HDITEM, commctrl/HDITEMA, commctrl/HDITEMW, commctrl/LPHDITEM, controls.HDITEM, controls._win32_HDITEM'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/HDITEM"
+f1_keywords:
+- commctrl/HDITEM
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - HDITEM
- - HDITEMA
- - HDITEMW
+- HDITEM
+- HDITEMA
+- HDITEMW
 product: Windows
 targetos: Windows
 req.typenames: HDITEMW, *LPHDITEMW
@@ -515,7 +515,7 @@ Ignore <b>pvFilter</b>.
 
 Type: <b>void*</b>
 
-The address of an application-defined data item. The data filter type is determined by setting the flag value of the  member. Use the HDFT_ISSTRING flag to indicate a string and HDFT_ISNUMBER to indicate an integer. When the HDFT_ISSTRING flag is used <b>pvFilter</b> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_hd_textfiltera">HDTEXTFILTER</a> structure.
+The address of an application-defined data item. The data filter type is determined by setting the flag value of the  member. Use the HDFT_ISSTRING flag to indicate a string and HDFT_ISNUMBER to indicate an integer. When the HDFT_ISSTRING flag is used <b>pvFilter</b> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-hd_textfiltera">HDTEXTFILTER</a> structure.
 
 
 ### -field state

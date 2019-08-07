@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzUninstallSecurityEventSource, AuthzUninstallSecurityEventSource function [Security], authz/AuthzUninstallSecurityEventSource, security.authzuninstallsecurityeventsource
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzUninstallSecurityEventSource"
+f1_keywords:
+- authz/AuthzUninstallSecurityEventSource
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
+- Authz.dll
 api_name:
- - AuthzUninstallSecurityEventSource
+- AuthzUninstallSecurityEventSource
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Reserved for future use; set this parameter to zero.
 
 ### -param szEventSourceName [in]
 
-Name of the source to remove from the list of valid security event sources. This corresponds to  the <b>szEventSourceName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a> structure that defines the source.
+Name of the source to remove from the list of valid security event sources. This corresponds to  the <b>szEventSourceName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a> structure that defines the source.
 
 This function removes the source information from the registry. For more information about the registry keys and values affected, see the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzinstallsecurityeventsource">AuthzInstallSecurityEventSource</a> function.
 
@@ -87,7 +87,7 @@ If the function fails, it returns <b>FALSE</b>. For extended error information, 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a>
 
 
 

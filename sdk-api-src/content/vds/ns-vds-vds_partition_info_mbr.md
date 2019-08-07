@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_PARTITION_INFO_MBR, VDS_PARTITION_INFO_MBR structure [VDS], base.vds_partition_info_mbr, vds/_VDS_PARTITION_INFO_MBR
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_PARTITION_INFO_MBR"
+f1_keywords:
+- vds/VDS_PARTITION_INFO_MBR
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - VDS_PARTITION_INFO_MBR
+- VDS_PARTITION_INFO_MBR
 product: Windows
 targetos: Windows
 req.typenames: VDS_PARTITION_INFO_MBR
@@ -85,9 +85,9 @@ Reserved sectors.
 
 
 
-This structure is used in the <b>Mbr</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_partition_prop">VDS_PARTITION_PROP</a> structure.
+This structure is used in the <b>Mbr</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_partition_prop">VDS_PARTITION_PROP</a> structure.
 
-For information about partition types, see <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_create_partition_parameters">CREATE_PARTITION_PARAMETERS</a>.
+For information about partition types, see <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-create_partition_parameters">CREATE_PARTITION_PARAMETERS</a>.
 
 
 
@@ -105,15 +105,15 @@ For information about partition types, see <a href="https://docs.microsoft.com/w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop">VDS_DISK_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop2">VDS_DISK_PROP2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_partition_info_gpt">VDS_PARTITION_INFO_GPT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_partition_info_gpt">VDS_PARTITION_INFO_GPT</a>
  
 
  

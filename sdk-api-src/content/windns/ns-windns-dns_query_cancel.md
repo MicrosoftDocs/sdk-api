@@ -8,10 +8,10 @@ tech.root: DNS
 ms.assetid: 543C6F9B-3200-44F6-A2B7-A5C7F5A927DB
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_QUERY_CANCEL, DNS_QUERY_CANCEL, DNS_QUERY_CANCEL structure [DNS], PDNS_QUERY_CANCEL, PDNS_QUERY_CANCEL structure pointer [DNS], dns.dns_query_cancel, windns/DNS_QUERY_CANCEL, windns/PDNS_QUERY_CANCEL"
+ms.keywords: '*PDNS_QUERY_CANCEL, DNS_QUERY_CANCEL, DNS_QUERY_CANCEL structure [DNS], PDNS_QUERY_CANCEL, PDNS_QUERY_CANCEL structure pointer [DNS], dns.dns_query_cancel, windns/DNS_QUERY_CANCEL, windns/PDNS_QUERY_CANCEL'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_QUERY_CANCEL"
+f1_keywords:
+- windns/DNS_QUERY_CANCEL
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_QUERY_CANCEL
+- DNS_QUERY_CANCEL
 product: Windows
 targetos: Windows
 req.typenames: DNS_QUERY_CANCEL, *PDNS_QUERY_CANCEL
@@ -82,11 +82,11 @@ This structure is returned in the <i>pCancelHandle</i> parameter from a previous
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_query_request">DNS_QUERY_REQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_query_request">DNS_QUERY_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_query_result">DNS_QUERY_RESULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_query_result">DNS_QUERY_RESULT</a>
  
 
  

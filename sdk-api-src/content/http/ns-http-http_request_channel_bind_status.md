@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 70f52486-2632-4e15-998b-4d87a86cb11f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_REQUEST_CHANNEL_BIND_STATUS, HTTP_REQUEST_CHANNEL_BIND_STATUS, HTTP_REQUEST_CHANNEL_BIND_STATUS structure [HTTP], PHTTP_REQUEST_CHANNEL_BIND_STATUS, PHTTP_REQUEST_CHANNEL_BIND_STATUS structure pointer [HTTP], http.http_request_channel_bind_status, http/HTTP_REQUEST_CHANNEL_BIND_STATUS, http/PHTTP_REQUEST_CHANNEL_BIND_STATUS"
+ms.keywords: '*PHTTP_REQUEST_CHANNEL_BIND_STATUS, HTTP_REQUEST_CHANNEL_BIND_STATUS, HTTP_REQUEST_CHANNEL_BIND_STATUS structure [HTTP], PHTTP_REQUEST_CHANNEL_BIND_STATUS, PHTTP_REQUEST_CHANNEL_BIND_STATUS structure pointer [HTTP], http.http_request_channel_bind_status, http/HTTP_REQUEST_CHANNEL_BIND_STATUS, http/PHTTP_REQUEST_CHANNEL_BIND_STATUS'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_REQUEST_CHANNEL_BIND_STATUS"
+f1_keywords:
+- http/HTTP_REQUEST_CHANNEL_BIND_STATUS
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_REQUEST_CHANNEL_BIND_STATUS
+- HTTP_REQUEST_CHANNEL_BIND_STATUS
 product: Windows
 targetos: Windows
 req.typenames: HTTP_REQUEST_CHANNEL_BIND_STATUS, *PHTTP_REQUEST_CHANNEL_BIND_STATUS
@@ -61,7 +61,7 @@ The <b>HTTP_REQUEST_CHANNEL_BIND_STATUS</b> structure contains secure channel en
 
 ### -field ServiceName
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_binding_w">HTTP_SERVICE_BINDING_W</a> structure cast to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_binding_base">HTTP_SERVICE_BINDING_BASE</a> structure containing the service name  from the client.  This is populated if the request's Channel Binding Token (CBT) is not configured to retrieve service names.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_binding_w">HTTP_SERVICE_BINDING_W</a> structure cast to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_binding_base">HTTP_SERVICE_BINDING_BASE</a> structure containing the service name  from the client.  This is populated if the request's Channel Binding Token (CBT) is not configured to retrieve service names.
 
 
 ### -field ChannelToken

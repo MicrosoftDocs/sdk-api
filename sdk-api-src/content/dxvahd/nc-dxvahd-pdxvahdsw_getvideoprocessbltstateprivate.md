@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessBltStatePrivate, PDXVAHDSW_GetVideoProcessBltStatePrivate callback, PDXVAHDSW_GetVideoProcessBltStatePrivate callback function [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessBltStatePrivate, mf.pdxvahdsw_getvideoprocessbltstateprivate
 ms.topic: callback
-f1_keywords: 
- - "dxvahd/PDXVAHDSW_GetVideoProcessBltStatePrivate"
+f1_keywords:
+- dxvahd/PDXVAHDSW_GetVideoProcessBltStatePrivate
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - PDXVAHDSW_GetVideoProcessBltStatePrivate
+- PDXVAHDSW_GetVideoProcessBltStatePrivate
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A handle to the software DXVA-HD video processor.
 
 ### -param *pData [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_blt_state_private_data">DXVAHD_BLT_STATE_PRIVATE_DATA</a> structure. On input, the <b>Guid</b> member specifies the private state to query. On output, the structure contains the state information.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_private_data">DXVAHD_BLT_STATE_PRIVATE_DATA</a> structure. On input, the <b>Guid</b> member specifies the private state to query. On output, the structure contains the state information.
 
 
 ## -returns
@@ -87,7 +87,7 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahdsw_callbacks">DXVAHDSW_CALLBACKS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahdsw_callbacks">DXVAHDSW_CALLBACKS</a>
 
 
 

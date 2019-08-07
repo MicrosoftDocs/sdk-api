@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDeviceRegistryProperty, SetupDiGetDeviceRegistryProperty function [Device and Driver Installation], SetupDiGetDeviceRegistryPropertyA, SetupDiGetDeviceRegistryPropertyW, devinst.setupdigetdeviceregistryproperty, di-rtns_a60fa017-1c15-45bf-a178-37516bc0aea1.xml, setupapi/SetupDiGetDeviceRegistryProperty
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiGetDeviceRegistryProperty"
+f1_keywords:
+- setupapi/SetupDiGetDeviceRegistryProperty
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Get_DevNode_Registry_Property
@@ -30,15 +30,15 @@ req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Setupapi.lib
- - Setupapi.dll
+- Setupapi.lib
+- Setupapi.dll
 api_name:
- - SetupDiGetDeviceRegistryProperty
+- SetupDiGetDeviceRegistryProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/insta
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
 
 
 ### -param Property [in]
@@ -218,7 +218,7 @@ The function retrieves a bitwise OR of a device's characteristics flags in a DWO
 
 #### SPDRP_CLASS
 
-The function retrieves a REG_SZ string that contains the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a> of a device.
+The function retrieves a REG_SZ string that contains the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> of a device.
 
 
 
@@ -538,7 +538,7 @@ The function retrieves a bitwise OR of a device's characteristics flags in a DWO
 
 ##### - Property.SPDRP_CLASS
 
-The function retrieves a REG_SZ string that contains the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a> of a device.
+The function retrieves a REG_SZ string that contains the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> of a device.
 
 
 ##### - Property.SPDRP_CLASSGUID

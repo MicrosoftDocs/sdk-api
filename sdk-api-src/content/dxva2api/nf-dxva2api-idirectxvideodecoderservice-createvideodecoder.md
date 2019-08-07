@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2a799411-e8d5-4ab8-b52f-7198af9a4f2b, CreateVideoDecoder, CreateVideoDecoder method [Media Foundation], CreateVideoDecoder method [Media Foundation],IDirectXVideoDecoderService interface, IDirectXVideoDecoderService interface [Media Foundation],CreateVideoDecoder method, IDirectXVideoDecoderService.CreateVideoDecoder, IDirectXVideoDecoderService::CreateVideoDecoder, dxva2api/IDirectXVideoDecoderService::CreateVideoDecoder, mf.idirectxvideodecoderservice_createvideodecoder
 ms.topic: method
-f1_keywords: 
- - "dxva2api/IDirectXVideoDecoderService.CreateVideoDecoder"
+f1_keywords:
+- dxva2api/IDirectXVideoDecoderService.CreateVideoDecoder
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirectXVideoDecoderService.CreateVideoDecoder
+- IDirectXVideoDecoderService.CreateVideoDecoder
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,12 +69,12 @@ GUID that specifies the decoder device to create. To get the available device GU
 
 ### -param pVideoDesc [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videodesc">DXVA2_VideoDesc</a> structure that describes the video content.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videodesc">DXVA2_VideoDesc</a> structure that describes the video content.
 
 
 ### -param pConfig [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_configpicturedecode">DXVA2_ConfigPictureDecode</a> structure that specifies the decoder configuration.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_configpicturedecode">DXVA2_ConfigPictureDecode</a> structure that specifies the decoder configuration.
 
 
 ### -param ppDecoderRenderTargets [in]

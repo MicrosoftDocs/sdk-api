@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddView, AddView method [MMC], AddView method [MMC],IViewExtensionCallback interface, IViewExtensionCallback interface [MMC],AddView method, IViewExtensionCallback.AddView, IViewExtensionCallback::AddView, _slate_iviewextensioncallback_addview, mmc.iviewextensioncallback_addview, mmc/IViewExtensionCallback::AddView
 ms.topic: method
-f1_keywords: 
- - "mmc/IViewExtensionCallback.AddView"
+f1_keywords:
+- mmc/IViewExtensionCallback.AddView
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Mmc.lib
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IViewExtensionCallback.AddView
+- IViewExtensionCallback.AddView
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ AddView method adds a view to the result pane. This method is implemented by MMC
 ### -param pExtViewData [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_ext_view_data">MMC_EXT_VIEW_DATA</a> structure, which contains information about the view being added to the result pane. The bReplacesDefaultView member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_ext_view_data">MMC_EXT_VIEW_DATA</a> structure, which contains information about the view being added to the result pane. The bReplacesDefaultView member of the 
 <b>MMC_EXT_VIEW_DATA</b> structure determines if the standard view is removed when adding the new view.
 
 
@@ -94,7 +94,7 @@ If successful, the return value is S_OK. Other return values indicate an error c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_ext_view_data">MMC_EXT_VIEW_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_ext_view_data">MMC_EXT_VIEW_DATA</a>
 
 
 

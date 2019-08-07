@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PPP_INFO, PPP_INFO structure [RAS], _mpr_ppp_info, mprapi/PPP_INFO, rras.ppp_info
 ms.topic: struct
-f1_keywords: 
- - "mprapi/PPP_INFO"
+f1_keywords:
+- mprapi/PPP_INFO
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - PPP_INFO
+- PPP_INFO
 product: Windows
 targetos: Windows
 req.typenames: PPP_INFO
@@ -63,13 +63,13 @@ The
 ### -field nbf
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_nbfcp_info">PPP_NBFCP_INFO</a> structure that contains PPP NetBEUI Framer (NBF) projection information.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_nbfcp_info">PPP_NBFCP_INFO</a> structure that contains PPP NetBEUI Framer (NBF) projection information.
 
 
 ### -field ip
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_ipcp_info">PPP_IPCP_INFO</a> structure that contains PPP Internet Protocol (IP) projection information.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_ipcp_info">PPP_IPCP_INFO</a> structure that contains PPP Internet Protocol (IP) projection information.
 
 
 ### -field ipx
@@ -93,7 +93,7 @@ A
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_info_3">PPP_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_info_3">PPP_INFO_3</a>
 
 
 
@@ -101,7 +101,7 @@ A
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_1">RAS_CONNECTION_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_1">RAS_CONNECTION_1</a>
 
 
 

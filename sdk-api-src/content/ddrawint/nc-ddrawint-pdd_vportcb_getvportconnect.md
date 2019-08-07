@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortGetConnectInfo, DdVideoPortGetConnectInfo callback function [Display Devices], PDD_VPORTCB_GETVPORTCONNECT, PDD_VPORTCB_GETVPORTCONNECT callback, ddfncs_10f9e183-b3f5-42c4-b97a-c44f8b5ea791.xml, ddrawint/DdVideoPortGetConnectInfo, display.ddvideoportgetconnectinfo
 ms.topic: callback
-f1_keywords: 
- - "ddrawint/DdVideoPortGetConnectInfo"
+f1_keywords:
+- ddrawint/DdVideoPortGetConnectInfo
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DdVideoPortGetConnectInfo
+- DdVideoPortGetConnectInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The <i>DdVideoPortGetConnectInfo</i> callback function returns the connections s
 
 #### - lpGetConnect
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getvportconnectdata">DD_GETVPORTCONNECTDATA</a> structure that contains the information required for the driver to return the VPE object connection data.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportconnectdata">DD_GETVPORTCONNECTDATA</a> structure that contains the information required for the driver to return the VPE object connection data.
 
 
 ## -returns
@@ -112,7 +112,7 @@ In the second call, <b>lpConnect</b> points to the array of allocated <a href="h
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getvportconnectdata">DD_GETVPORTCONNECTDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportconnectdata">DD_GETVPORTCONNECTDATA</a>
  
 
  

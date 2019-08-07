@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],QueryProperty method, IWRdsProtocolConnection.QueryProperty, IWRdsProtocolConnection::QueryProperty, PROPERTY_DYNAMIC_TIME_ZONE_INFORMATION, QueryProperty, QueryProperty method [Remote Desktop Services], QueryProperty method [Remote Desktop Services],IWRdsProtocolConnection interface, WRDS_QUERY_ALLOWED_INITIAL_APP, WRDS_QUERY_AUDIOENUM_DLL, WRDS_QUERY_LOGON_SCREEN_SIZE, WRDS_QUERY_MF_FORMAT_SUPPORT, termserv.iwrdsprotocolconnection_queryproperty, wtsprotocol/IWRdsProtocolConnection::QueryProperty
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolConnection.QueryProperty"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolConnection.QueryProperty
 req.header: wtsprotocol.h
 req.include-header: Wtsdefs.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection.QueryProperty
+- IWRdsProtocolConnection.QueryProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ A <b>GUID</b> that specifies the requested property. This can be one of the foll
 
 Sent by the Remote Desktop Services service to determine  whether an initial application should be permitted to run.
 
-On input, the Remote Desktop Services service passes three <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-__wts_property_value">WRDS_PROPERTY_VALUE</a> structures in the <i>pPropertyEntriesIn</i> parameter:
+On input, the Remote Desktop Services service passes three <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WRDS_PROPERTY_VALUE</a> structures in the <i>pPropertyEntriesIn</i> parameter:
 
 Input structure 1:
 
@@ -91,7 +91,7 @@ Input structure 3:
 <li><code>pPropertyEntriesIn[2].Type = </code><b>WRDS_VALUE_TYPE_ULONG</b></li>
 <li><code>pPropertyEntriesIn[2].u.ulVal = </code><i>Reserved</i></li>
 </ul>
-On output, pass the following three <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-__wts_property_value">WRDS_PROPERTY_VALUE</a> structures in the <i>pPropertyEntriesOut</i> parameter. If you want to use the application passed in by the Remote Desktop Services service , copy input structures 1 and 2 to output structures 1 and 2.
+On output, pass the following three <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WRDS_PROPERTY_VALUE</a> structures in the <i>pPropertyEntriesOut</i> parameter. If you want to use the application passed in by the Remote Desktop Services service , copy input structures 1 and 2 to output structures 1 and 2.
 
 Output structure 1:
 
@@ -151,14 +151,14 @@ You must allocate the memory for <b>pstrVal</b> by using the <a href="https://do
 
 Used by the Remote Desktop Media Foundation plug-in to determine the sink objects to be used for specific media formats.
 
-On input, the RCM passes the following  <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-__wts_property_value">WRDS_PROPERTY_VALUE</a> structure in the <i>pPropertyEntriesIn</i> parameter:
+On input, the RCM passes the following  <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WRDS_PROPERTY_VALUE</a> structure in the <i>pPropertyEntriesIn</i> parameter:
 
 <ul>
 <li><code>pPropertyEntriesOut[0].Type = </code><b>WRDS_VALUE_TYPE_BINARY</b></li>
 <li><code>pPropertyEntriesOut[0].u.bVal.pbVal = </code><a href="https://docs.microsoft.com/windows/desktop/TermServ/tsmf-support-data-in">TSMF_SUPPORT_DATA_IN</a> structure</li>
 <li><code>pPropertyEntriesOut[0].u.bVal.size = </code>size of <a href="https://docs.microsoft.com/windows/desktop/TermServ/tsmf-support-data-in">TSMF_SUPPORT_DATA_IN</a> structure</li>
 </ul>
-On output, pass the following <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-__wts_property_value">WRDS_PROPERTY_VALUE</a> structure in the <i>pPropertyEntriesOut</i> parameter:
+On output, pass the following <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WRDS_PROPERTY_VALUE</a> structure in the <i>pPropertyEntriesOut</i> parameter:
 
 <ul>
 <li><code>pPropertyEntriesOut[0].Type = </code><b>WRDS_VALUE_TYPE_BINARY</b></li>
@@ -173,12 +173,12 @@ Used to retrieve the dynamic time zone information from a connection.
 
 The <i>pPropertyEntriesIn</i> parameter will be <b>NULL</b>.
 
-On output, pass the following <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-__wts_property_value">WRDS_PROPERTY_VALUE</a> structure in the <i>pPropertyEntriesOut</i> parameter:
+On output, pass the following <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WRDS_PROPERTY_VALUE</a> structure in the <i>pPropertyEntriesOut</i> parameter:
 
 <ul>
 <li><code>pPropertyEntriesOut[0].Type = </code><b>WRDS_VALUE_TYPE_BINARY</b></li>
-<li><code>pPropertyEntriesOut[0].u.bVal.pbVal = </code><a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_dynamic_time_zone_information">WRDS_DYNAMIC_TIME_ZONE_INFORMATION</a> structure</li>
-<li><code>pPropertyEntriesOut[0].u.bVal.size = </code>Size of <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_dynamic_time_zone_information">WRDS_DYNAMIC_TIME_ZONE_INFORMATION</a> structure</li>
+<li><code>pPropertyEntriesOut[0].u.bVal.pbVal = </code><a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_dynamic_time_zone_information">WRDS_DYNAMIC_TIME_ZONE_INFORMATION</a> structure</li>
+<li><code>pPropertyEntriesOut[0].u.bVal.size = </code>Size of <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_dynamic_time_zone_information">WRDS_DYNAMIC_TIME_ZONE_INFORMATION</a> structure</li>
 </ul>
 
 ### -param ulNumEntriesIn [in]
@@ -193,12 +193,12 @@ The number of entries in the <i>pPropertyEntriesOut</i> array.
 
 ### -param pPropertyEntriesIn [in, optional]
 
-An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-__wts_property_value">WRDS_PROPERTY_VALUE</a> structures that can be used to help find the requested property information.
+An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WRDS_PROPERTY_VALUE</a> structures that can be used to help find the requested property information.
 
 
 ### -param pPropertyEntriesOut [out, optional]
 
-An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-__wts_property_value">WRDS_PROPERTY_VALUE</a> structures that receive the requested property values.
+An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WRDS_PROPERTY_VALUE</a> structures that receive the requested property values.
 
 
 ## -returns

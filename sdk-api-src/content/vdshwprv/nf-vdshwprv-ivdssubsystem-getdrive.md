@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDrive, GetDrive method [VDS], GetDrive method [VDS],IVdsSubSystem interface, IVdsSubSystem interface [VDS],GetDrive method, IVdsSubSystem.GetDrive, IVdsSubSystem::GetDrive, base.ivdssubsystem_getdrive, vds/IVdsSubSystem::GetDrive, vdshwprv/IVdsSubSystem::GetDrive
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsSubSystem.GetDrive"
+f1_keywords:
+- vdshwprv/IVdsSubSystem.GetDrive
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsSubSystem.GetDrive
+- IVdsSubSystem.GetDrive
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -155,7 +155,7 @@ Another operation is in progress; this operation cannot proceed until the previo
 
 Because <i>sSlotNumber</i> and  <i>sBusNumber</i> identify a drive 
     exclusively, implementers can assign arbitrary (but consistent) values to each as an internal way of identifying 
-    the drives. For more information about bus and slot numbers, see the <b>sInternalBusNumber</b> and <b>sSlotNumber</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_drive_prop">VDS_DRIVE_PROP</a> structure.
+    the drives. For more information about bus and slot numbers, see the <b>sInternalBusNumber</b> and <b>sSlotNumber</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a> structure.
 
 
 

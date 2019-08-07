@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 1b8dc6fa-e60b-4490-b439-44c93b6f4ce5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDISK_EXTENT, DISK_EXTENT, DISK_EXTENT structure [Files], PDISK_EXTENT, PDISK_EXTENT structure pointer [Files], _win32_disk_extent_str, base.disk_extent_str, fs.disk_extent_str, winioctl/DISK_EXTENT, winioctl/PDISK_EXTENT"
+ms.keywords: '*PDISK_EXTENT, DISK_EXTENT, DISK_EXTENT structure [Files], PDISK_EXTENT, PDISK_EXTENT structure pointer [Files], _win32_disk_extent_str, base.disk_extent_str, fs.disk_extent_str, winioctl/DISK_EXTENT, winioctl/PDISK_EXTENT'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/DISK_EXTENT"
+f1_keywords:
+- winioctl/DISK_EXTENT
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - DISK_EXTENT
+- DISK_EXTENT
 product: Windows
 targetos: Windows
 req.typenames: DISK_EXTENT, *PDISK_EXTENT
@@ -90,7 +90,7 @@ The number of bytes in this extent.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_volume_disk_extents">VOLUME_DISK_EXTENTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-volume_disk_extents">VOLUME_DISK_EXTENTS</a>
  
 
  

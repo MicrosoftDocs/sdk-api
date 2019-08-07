@@ -8,10 +8,10 @@ tech.root: SecMgmt
 ms.assetid: 2ec606d7-42bd-47cc-a4cd-82908774aa43
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTRUSTED_DOMAIN_AUTH_INFORMATION, PTRUSTED_DOMAIN_AUTH_INFORMATION, PTRUSTED_DOMAIN_AUTH_INFORMATION structure pointer [Security], TRUSTED_DOMAIN_AUTH_INFORMATION, TRUSTED_DOMAIN_AUTH_INFORMATION structure [Security], _TRUSTED_DOMAIN_AUTH_INFORMATION, _lsa_trusted_domain_auth_information, ntsecapi/PTRUSTED_DOMAIN_AUTH_INFORMATION, ntsecapi/TRUSTED_DOMAIN_AUTH_INFORMATION, security.trusted_domain_auth_information"
+ms.keywords: '*PTRUSTED_DOMAIN_AUTH_INFORMATION, PTRUSTED_DOMAIN_AUTH_INFORMATION, PTRUSTED_DOMAIN_AUTH_INFORMATION structure pointer [Security], TRUSTED_DOMAIN_AUTH_INFORMATION, TRUSTED_DOMAIN_AUTH_INFORMATION structure [Security], _TRUSTED_DOMAIN_AUTH_INFORMATION, _lsa_trusted_domain_auth_information, ntsecapi/PTRUSTED_DOMAIN_AUTH_INFORMATION, ntsecapi/TRUSTED_DOMAIN_AUTH_INFORMATION, security.trusted_domain_auth_information'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/TRUSTED_DOMAIN_AUTH_INFORMATION"
+f1_keywords:
+- ntsecapi/TRUSTED_DOMAIN_AUTH_INFORMATION
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - TRUSTED_DOMAIN_AUTH_INFORMATION
+- TRUSTED_DOMAIN_AUTH_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: TRUSTED_DOMAIN_AUTH_INFORMATION, *PTRUSTED_DOMAIN_AUTH_INFORMATION
@@ -68,12 +68,12 @@ Specifies the number of entries in the <b>IncomingAuthenticationInformation</b> 
 ### -field IncomingAuthenticationInformation
 
 Pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_auth_information">LSA_AUTH_INFORMATION</a> structures containing the authentication information for the incoming side of a trust relationship.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_auth_information">LSA_AUTH_INFORMATION</a> structures containing the authentication information for the incoming side of a trust relationship.
 
 
 ### -field IncomingPreviousAuthenticationInformation
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_auth_information">LSA_AUTH_INFORMATION</a> structures containing the previous authentication information (or old password) for the incoming side of a trust relationship. There must be one of these for every entry in the <b>IncomingAuthenticationInformation</b> array.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_auth_information">LSA_AUTH_INFORMATION</a> structures containing the previous authentication information (or old password) for the incoming side of a trust relationship. There must be one of these for every entry in the <b>IncomingAuthenticationInformation</b> array.
 
 
 ### -field OutgoingAuthInfos
@@ -83,12 +83,12 @@ Specifies the number of entries in the <b>OutgoingAuthenticationInformation</b> 
 
 ### -field OutgoingAuthenticationInformation
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_auth_information">LSA_AUTH_INFORMATION</a> structures containing the authentication information for the outgoing side of a trust relationship.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_auth_information">LSA_AUTH_INFORMATION</a> structures containing the authentication information for the outgoing side of a trust relationship.
 
 
 ### -field OutgoingPreviousAuthenticationInformation
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_auth_information">LSA_AUTH_INFORMATION</a> structures containing the previous authentication information (or old password) for the outgoing side of a trust relationship. There must be one of these for every entry in the <b>OutgoingAuthenticationInformation</b> array.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_auth_information">LSA_AUTH_INFORMATION</a> structures containing the previous authentication information (or old password) for the outgoing side of a trust relationship. There must be one of these for every entry in the <b>OutgoingAuthenticationInformation</b> array.
 
 
 ## -see-also
@@ -96,7 +96,7 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/n
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_auth_information">LSA_AUTH_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_auth_information">LSA_AUTH_INFORMATION</a>
 
 
 
@@ -116,7 +116,7 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/n
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_trusted_information_class">TRUSTED_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-trusted_information_class">TRUSTED_INFORMATION_CLASS</a>
  
 
  

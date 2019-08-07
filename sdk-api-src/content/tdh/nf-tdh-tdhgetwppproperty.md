@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TdhGetWppProperty, TdhGetWppProperty function [ETW], etw.tdhgetwppproperty, tdh/TdhGetWppProperty
 ms.topic: function
-f1_keywords: 
- - "tdh/TdhGetWppProperty"
+f1_keywords:
+- tdh/TdhGetWppProperty
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Tdh.lib
 req.dll: Tdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tdh.dll
- - Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
+- Tdh.dll
+- Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
 api_name:
- - TdhGetWppProperty
+- TdhGetWppProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ A valid decoding handle.
 
 ### -param EventRecord [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">PEVENT_RECORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">PEVENT_RECORD</a></b>
 
 The event record passed to your <a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> callback.
 
@@ -80,7 +80,7 @@ Type: <b>PWSTR</b>
 
 The name of the property to retrieve.
 
-For a list of  possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_property_data_descriptor">PROPERTY_DATA_DESCRIPTOR</a>.
+For a list of  possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-property_data_descriptor">PROPERTY_DATA_DESCRIPTOR</a>.
 
 
 ### -param BufferSize [in, out]
@@ -163,7 +163,7 @@ To retrieve only the decoded event message without specifying a property name, c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a>
 
 
 

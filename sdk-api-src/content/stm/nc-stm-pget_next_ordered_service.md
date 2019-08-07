@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNextOrderedService, GetNextOrderedService callback function [RAS], PGET_NEXT_ORDERED_SERVICE, PGET_NEXT_ORDERED_SERVICE callback, _mpr_getnextorderedservice, rras.getnextorderedservice, stm/GetNextOrderedService
 ms.topic: callback
-f1_keywords: 
- - "stm/GetNextOrderedService"
+f1_keywords:
+- stm/GetNextOrderedService
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Stm.h
+- Stm.h
 api_name:
- - GetNextOrderedService
+- GetNextOrderedService
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ Limits the set of examined services to a subset defined by <i>ExclusionFlags</i>
 ### -param Service [in, out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-_ipx_service">IPX_SERVICE</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a> structure. 
 
 
 
@@ -143,7 +143,7 @@ One of the  parameters is invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-_ipx_service">IPX_SERVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 3e13874d-294e-4161-8131-f78799b2e90e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDDVIDEOPORTBANDWIDTH, DDVIDEOPORTBANDWIDTH, DDVIDEOPORTBANDWIDTH structure [Display Devices], ddstrcts_e3e483bd-3cb2-41e2-9563-c6d8e5970c21.xml, display.ddvideoportbandwidth, dvp/DDVIDEOPORTBANDWIDTH"
+ms.keywords: '*LPDDVIDEOPORTBANDWIDTH, DDVIDEOPORTBANDWIDTH, DDVIDEOPORTBANDWIDTH structure [Display Devices], ddstrcts_e3e483bd-3cb2-41e2-9563-c6d8e5970c21.xml, display.ddvideoportbandwidth, dvp/DDVIDEOPORTBANDWIDTH'
 ms.topic: struct
-f1_keywords: 
- - "dvp/DDVIDEOPORTBANDWIDTH"
+f1_keywords:
+- dvp/DDVIDEOPORTBANDWIDTH
 req.header: dvp.h
 req.include-header: Dvp.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dvp.h
+- dvp.h
 api_name:
- - DDVIDEOPORTBANDWIDTH
+- DDVIDEOPORTBANDWIDTH
 product: Windows
 targetos: Windows
-req.typenames: "*LPDDVIDEOPORTBANDWIDTH, DDVIDEOPORTBANDWIDTH"
+req.typenames: '*LPDDVIDEOPORTBANDWIDTH, DDVIDEOPORTBANDWIDTH'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -99,7 +99,7 @@ The device's capabilities are described in terms of the required source overlay'
 
 ### -field dwOverlay
 
-Specifies the stretch factor or overlay source size at which the device can support an overlay, multiplied by 1000. The driver sets this value based on its device's type and capabilities, and on the dimensions specified in the <b>dwWidth</b> and <b>dwHeight</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getvportbandwidthdata">DD_GETVPORTBANDWIDTHDATA</a> structure passed to <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getbandwidth">DdVideoPortGetBandwidth</a>. For example, a stretch factor of 2 is specified as 2000, and an overlay source size of 750 indicates that the specified source overlay be shrunk to 75 percent of its original size. The driver must return a valid number in this member.
+Specifies the stretch factor or overlay source size at which the device can support an overlay, multiplied by 1000. The driver sets this value based on its device's type and capabilities, and on the dimensions specified in the <b>dwWidth</b> and <b>dwHeight</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportbandwidthdata">DD_GETVPORTBANDWIDTHDATA</a> structure passed to <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getbandwidth">DdVideoPortGetBandwidth</a>. For example, a stretch factor of 2 is specified as 2000, and an overlay source size of 750 indicates that the specified source overlay be shrunk to 75 percent of its original size. The driver must return a valid number in this member.
 
 
 ### -field dwColorkey
@@ -109,7 +109,7 @@ Specifies the stretch factor or overlay source size at which an overlay with col
 
 ### -field dwYInterpolate
 
-Specifies the stretch factor or overlay source size at which an overlay with y-axis interpolation is supported, multiplied by 1000. The driver sets this value based on its device's type and capabilities, and on the dimensions specified in the <b>dwWidth</b> and <b>dwHeight</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getvportbandwidthdata">DD_GETVPORTBANDWIDTHDATA</a> structure passed to <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getbandwidth">DdVideoPortGetBandwidth</a>. For example, a stretch factor of 2 is specified as 2000.
+Specifies the stretch factor or overlay source size at which an overlay with y-axis interpolation is supported, multiplied by 1000. The driver sets this value based on its device's type and capabilities, and on the dimensions specified in the <b>dwWidth</b> and <b>dwHeight</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportbandwidthdata">DD_GETVPORTBANDWIDTHDATA</a> structure passed to <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getbandwidth">DdVideoPortGetBandwidth</a>. For example, a stretch factor of 2 is specified as 2000.
 
 
 ### -field dwYInterpAndColorkey
@@ -132,7 +132,7 @@ Reserved for system use and should be ignored by the driver.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getvportbandwidthdata">DD_GETVPORTBANDWIDTHDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportbandwidthdata">DD_GETVPORTBANDWIDTHDATA</a>
 
 
 

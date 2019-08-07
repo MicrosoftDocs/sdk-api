@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_ACCESS_STATE_PROP_ID, CERT_ARCHIVED_PROP_ID, CERT_AUTO_ENROLL_PROP_ID, CERT_CTL_USAGE_PROP_ID, CERT_DESCRIPTION_PROP_ID, CERT_ENHKEY_USAGE_PROP_ID, CERT_FRIENDLY_NAME_PROP_ID, CERT_HASH_PROP_ID, CERT_KEY_CONTEXT_PROP_ID, CERT_KEY_IDENTIFIER_PROP_ID, CERT_KEY_PROV_HANDLE_PROP_ID, CERT_KEY_PROV_INFO_PROP_ID, CERT_KEY_SPEC_PROP_ID, CERT_MD5_HASH_PROP_ID, CERT_NEXT_UPDATE_LOCATION_PROP_ID, CERT_PVK_FILE_PROP_ID, CERT_SHA1_HASH_PROP_ID, CERT_SIGNATURE_HASH_PROP_ID, CertGetCTLContextProperty, CertGetCTLContextProperty function [Security], _crypto2_certgetctlcontextproperty, security.certgetctlcontextproperty, wincrypt/CertGetCTLContextProperty
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertGetCTLContextProperty"
+f1_keywords:
+- wincrypt/CertGetCTLContextProperty
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertGetCTLContextProperty
+- CertGetCTLContextProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>CertGetCTLContextProperty</b> function retrieves an extended property of 
 ### -param pCtlContext [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure.
 
 
 ### -param dwPropId [in]
@@ -124,7 +124,7 @@ Returns a <b>null</b>-terminated Unicode string naming the certificate type for 
 <td width="60%">
 Data type for <i>pvData</i>: pointer to a <b>BYTE</b> array
 
-Returns an array of bytes containing an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CTL_USAGE</a> structure.
+Returns an array of bytes containing an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a> structure.
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Returns the property displayed by the certificate UI. This property allows the u
 <td width="60%">
 Data type for <i>pvData</i>: pointer to a <b>BYTE</b> array
 
-Returns an array of bytes containing an ASN.1 encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CERT_ENHKEY_USAGE</a> structure.
+Returns an array of bytes containing an ASN.1 encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a> structure.
 
 </td>
 </tr>
@@ -183,11 +183,11 @@ Returns the SHA1 hash. If the hash does not exist, it is computed using
 </dl>
 </td>
 <td width="60%">
-Data type for <i>pvData</i>: pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_context">CERT_KEY_CONTEXT</a>
+Data type for <i>pvData</i>: pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a>
 
 
 Returns a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_context">CERT_KEY_CONTEXT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a> structure.
 
 </td>
 </tr>
@@ -222,9 +222,9 @@ Returns the provider handle obtained from the CERT_KEY_CONTEXT_PROP_ID.
 </dl>
 </td>
 <td width="60%">
-Data type for <i>pvData</i>: pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure
+Data type for <i>pvData</i>: pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure
 
-Returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a>.
+Returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a>.
 
 </td>
 </tr>
@@ -263,7 +263,7 @@ Returns the MD5 hash. If the hash does not exist, it is computed using
 Data type for <i>pvData</i>: pointer to a <b>BYTE</b> array
 
 Returns the ASN.1 encoded 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure. 
 
 
 

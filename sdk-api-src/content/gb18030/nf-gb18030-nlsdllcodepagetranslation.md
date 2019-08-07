@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NLS_CP_CPINFO, NLS_CP_MBTOWC, NLS_CP_WCTOMB, NlsDllCodePageTranslation, NlsDllCodePageTranslation function [Internationalization for Windows Applications], _win32_NlsDllCodePageTranslation, gb18030/NlsDllCodePageTranslation, intl.nlsdllcodepagetranslation
 ms.topic: function
-f1_keywords: 
- - "gb18030/NlsDllCodePageTranslation"
+f1_keywords:
+- gb18030/NlsDllCodePageTranslation
 req.header: gb18030.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: C_g18030.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - C_g18030.dll
+- C_g18030.dll
 api_name:
- - NlsDllCodePageTranslation
+- NlsDllCodePageTranslation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -134,7 +134,7 @@ Character count of the Unicode buffer.
 
 ### -param lpCPInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_cpinfo">CPINFO</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-cpinfo">CPINFO</a> structure.
 
 
 ## -returns

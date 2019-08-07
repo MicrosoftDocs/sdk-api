@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumWIA_DEV_CAPS, IEnumWIA_DEV_CAPS interface [WIA], IEnumWIA_DEV_CAPS interface [WIA],described, _wia_IEnumWIA_DEV_CAPS, wia._wia_IEnumWIA_DEV_CAPS, wia_xp/IEnumWIA_DEV_CAPS
 ms.topic: interface
-f1_keywords: 
- - "wia_xp/IEnumWIA_DEV_CAPS"
+f1_keywords:
+- wia_xp/IEnumWIA_DEV_CAPS
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Wiaguid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaguid.lib
- - Wiaguid.dll
+- Wiaguid.lib
+- Wiaguid.dll
 api_name:
- - IEnumWIA_DEV_CAPS
+- IEnumWIA_DEV_CAPS
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -93,7 +93,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ien
 <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-next">Next</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-next">IEnumWIA_DEV_CAPS::Next</a> method fills an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-_wia_dev_cap">WIA_DEV_CAP</a> structures.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_dev_caps-next">IEnumWIA_DEV_CAPS::Next</a> method fills an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-wia_dev_cap">WIA_DEV_CAP</a> structures.
 
 
 </td>

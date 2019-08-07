@@ -8,10 +8,10 @@ tech.root: NetMgmt
 ms.assetid: aa0c3b6e-ab27-48b9-a37f-5cceb63c70fd
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PGROUP_INFO_3, GROUP_INFO_3, GROUP_INFO_3 structure [Network Management], PGROUP_INFO_3, PGROUP_INFO_3 structure pointer [Network Management], _win32_group_info_3_str, lmaccess/GROUP_INFO_3, lmaccess/PGROUP_INFO_3, netmgmt.group_info_3_str"
+ms.keywords: '*PGROUP_INFO_3, GROUP_INFO_3, GROUP_INFO_3 structure [Network Management], PGROUP_INFO_3, PGROUP_INFO_3 structure pointer [Network Management], _win32_group_info_3_str, lmaccess/GROUP_INFO_3, lmaccess/PGROUP_INFO_3, netmgmt.group_info_3_str'
 ms.topic: struct
-f1_keywords: 
- - "lmaccess/GROUP_INFO_3"
+f1_keywords:
+- lmaccess/GROUP_INFO_3
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmaccess.h
+- Lmaccess.h
 api_name:
- - GROUP_INFO_3
+- GROUP_INFO_3
 product: Windows
 targetos: Windows
 req.typenames: GROUP_INFO_3, *PGROUP_INFO_3
@@ -79,7 +79,7 @@ Pointer to a null-terminated Unicode character string that contains a remark ass
 ### -field grpi3_group_sid
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that contains the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that contains the 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-identifiers">security identifier (SID)</a> that uniquely identifies the global group. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> functions ignore this member.
@@ -88,7 +88,7 @@ Pointer to a
 ### -field grpi3_attributes
 
 These attributes are hard-coded to SE_GROUP_MANDATORY, SE_GROUP_ENABLED, and SE_GROUP_ENABLED_BY_DEFAULT. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>.
 					
 
 
@@ -125,11 +125,11 @@ These attributes are hard-coded to SE_GROUP_MANDATORY, SE_GROUP_ENABLED, and SE_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>
  
 
  

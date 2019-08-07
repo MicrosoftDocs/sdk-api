@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: BD790CA5-9C51-4483-93C1-5492154BF913
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSPC_INDIRECT_DATA_CONTENT, PSPC_INDIRECT_DATA_CONTENT, PSPC_INDIRECT_DATA_CONTENT structure pointer [Security], SPC_INDIRECT_DATA_CONTENT, SPC_INDIRECT_DATA_CONTENT structure [Security], security.spc_indirect_data_content, wintrust/PSPC_INDIRECT_DATA_CONTENT, wintrust/SPC_INDIRECT_DATA_CONTENT"
+ms.keywords: '*PSPC_INDIRECT_DATA_CONTENT, PSPC_INDIRECT_DATA_CONTENT, PSPC_INDIRECT_DATA_CONTENT structure pointer [Security], SPC_INDIRECT_DATA_CONTENT, SPC_INDIRECT_DATA_CONTENT structure [Security], security.spc_indirect_data_content, wintrust/PSPC_INDIRECT_DATA_CONTENT, wintrust/SPC_INDIRECT_DATA_CONTENT'
 ms.topic: struct
-f1_keywords: 
- - "wintrust/SPC_INDIRECT_DATA_CONTENT"
+f1_keywords:
+- wintrust/SPC_INDIRECT_DATA_CONTENT
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wintrust.h
+- Wintrust.h
 api_name:
- - SPC_INDIRECT_DATA_CONTENT
+- SPC_INDIRECT_DATA_CONTENT
 product: Windows
 targetos: Windows
 req.typenames: SPC_INDIRECT_DATA_CONTENT, *PSPC_INDIRECT_DATA_CONTENT
@@ -61,7 +61,7 @@ The <b>SPC_INDIRECT_DATA_CONTENT</b> structure is used in Authenticode signature
 
 ### -field Data
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attribute_type_value">CRYPT_ATTRIBUTE_TYPE_VALUE</a> that contains attributes of the digested file.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute_type_value">CRYPT_ATTRIBUTE_TYPE_VALUE</a> that contains attributes of the digested file.
 
 
 ### -field DigestAlgorithm

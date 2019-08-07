@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 7a12447b-1561-4fbc-8984-d28555a13159
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_LOGOTYPE_AUDIO_INFO, CERT_LOGOTYPE_AUDIO_INFO, CERT_LOGOTYPE_AUDIO_INFO structure [Security], PCERT_LOGOTYPE_AUDIO_INFO, PCERT_LOGOTYPE_AUDIO_INFO structure pointer [Security], security.cert_logotype_audio_info, wincrypt/CERT_LOGOTYPE_AUDIO_INFO, wincrypt/PCERT_LOGOTYPE_AUDIO_INFO"
+ms.keywords: '*PCERT_LOGOTYPE_AUDIO_INFO, CERT_LOGOTYPE_AUDIO_INFO, CERT_LOGOTYPE_AUDIO_INFO structure [Security], PCERT_LOGOTYPE_AUDIO_INFO, PCERT_LOGOTYPE_AUDIO_INFO structure pointer [Security], security.cert_logotype_audio_info, wincrypt/CERT_LOGOTYPE_AUDIO_INFO, wincrypt/PCERT_LOGOTYPE_AUDIO_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_LOGOTYPE_AUDIO_INFO"
+f1_keywords:
+- wincrypt/CERT_LOGOTYPE_AUDIO_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_LOGOTYPE_AUDIO_INFO
+- CERT_LOGOTYPE_AUDIO_INFO
 product: Windows
 targetos: Windows
 req.typenames: CERT_LOGOTYPE_AUDIO_INFO, *PCERT_LOGOTYPE_AUDIO_INFO
@@ -130,7 +130,7 @@ The address of a null-terminated IA5 string that contains the RFC 3066 language 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_logotype_audio">CERT_LOGOTYPE_AUDIO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_audio">CERT_LOGOTYPE_AUDIO</a>
  
 
  

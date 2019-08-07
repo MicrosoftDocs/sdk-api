@@ -8,10 +8,10 @@ tech.root: ad
 ms.assetid: 5453927e-306e-4442-a855-916005dc8e3b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSCHEDULE_HEADER, PSCHEDULE_HEADER, PSCHEDULE_HEADER structure pointer [Active Directory], SCHEDULE_BANDWIDTH, SCHEDULE_HEADER, SCHEDULE_HEADER structure [Active Directory], SCHEDULE_INTERVAL, SCHEDULE_PRIORITY, ad.schedule_header, schedule/PSCHEDULE_HEADER, schedule/SCHEDULE_HEADER"
+ms.keywords: '*PSCHEDULE_HEADER, PSCHEDULE_HEADER, PSCHEDULE_HEADER structure pointer [Active Directory], SCHEDULE_BANDWIDTH, SCHEDULE_HEADER, SCHEDULE_HEADER structure [Active Directory], SCHEDULE_INTERVAL, SCHEDULE_PRIORITY, ad.schedule_header, schedule/PSCHEDULE_HEADER, schedule/SCHEDULE_HEADER'
 ms.topic: struct
-f1_keywords: 
- - "schedule/SCHEDULE_HEADER"
+f1_keywords:
+- schedule/SCHEDULE_HEADER
 req.header: schedule.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Schedule.h
+- Schedule.h
 api_name:
- - SCHEDULE_HEADER
+- SCHEDULE_HEADER
 product: Windows
 targetos: Windows
 req.typenames: SCHEDULE_HEADER, *PSCHEDULE_HEADER
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SCHEDULE_HEADER</b> structure is used to contain the replication schedule data for a replication source. The <a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-_schedule">SCHEDULE</a> structure contains an array of <b>SCHEDULE_HEADER</b> structures.
+The <b>SCHEDULE_HEADER</b> structure is used to contain the replication schedule data for a replication source. The <a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-schedule">SCHEDULE</a> structure contains an array of <b>SCHEDULE_HEADER</b> structures.
 
 
 ## -struct-fields
@@ -138,7 +138,7 @@ Not supported.
 
 ### -field Offset
 
-Contains the offset, in bytes, from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-_schedule">SCHEDULE</a> structure to the data for this schedule. The size and form of this data depends on the schedule type defined by the <b>Type</b> member.
+Contains the offset, in bytes, from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-schedule">SCHEDULE</a> structure to the data for this schedule. The size and form of this data depends on the schedule type defined by the <b>Type</b> member.
 
 
 ## -see-also
@@ -154,7 +154,7 @@ Contains the offset, in bytes, from the beginning of the <a href="https://docs.m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-_schedule">SCHEDULE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-schedule">SCHEDULE</a>
  
 
  

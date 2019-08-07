@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_RSAFULLPRIVATE_MAGIC, BCRYPT_RSAKEY_BLOB, BCRYPT_RSAKEY_BLOB structure [Security], BCRYPT_RSAPRIVATE_MAGIC, BCRYPT_RSAPUBLIC_MAGIC, bcrypt/BCRYPT_RSAKEY_BLOB, security.bcrypt_rsakey_blob
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/BCRYPT_RSAKEY_BLOB"
+f1_keywords:
+- bcrypt/BCRYPT_RSAKEY_BLOB
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - BCRYPT_RSAKEY_BLOB
+- BCRYPT_RSAKEY_BLOB
 product: Windows
 targetos: Windows
 req.typenames: BCRYPT_RSAKEY_BLOB
@@ -168,7 +168,7 @@ PrivateExponent[cbModulus] // Big-endian.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_key_blob">BCRYPT_KEY_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_key_blob">BCRYPT_KEY_BLOB</a>
 
 
 

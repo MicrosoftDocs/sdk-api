@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: b7cd637d-45ad-4e4c-b5b2-e85b142375ff
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRAS_CONNECTION_4, PRAS_CONNECTION_4, PRAS_CONNECTION_4 structure pointer [RAS], RAS_CONNECTION_4, RAS_CONNECTION_4 structure [RAS], RAS_FLAGS_ARAP_CONNECTION, RAS_FLAGS_DORMANT, RAS_FLAGS_IKEV2_CONNECTION, RAS_FLAGS_MESSENGER_PRESENT, RAS_FLAGS_PPP_CONNECTION, RAS_FLAGS_QUARANTINE_PRESENT, RDT_Tunnel_IKev2, RDT_Tunnel_L2tp, RDT_Tunnel_Pptp, RDT_Tunnel_Sstp, mprapi/PRAS_CONNECTION_4, mprapi/RAS_CONNECTION_4, rras.ras_connection_4"
+ms.keywords: '*PRAS_CONNECTION_4, PRAS_CONNECTION_4, PRAS_CONNECTION_4 structure pointer [RAS], RAS_CONNECTION_4, RAS_CONNECTION_4 structure [RAS], RAS_FLAGS_ARAP_CONNECTION, RAS_FLAGS_DORMANT, RAS_FLAGS_IKEV2_CONNECTION, RAS_FLAGS_MESSENGER_PRESENT, RAS_FLAGS_PPP_CONNECTION, RAS_FLAGS_QUARANTINE_PRESENT, RDT_Tunnel_IKev2, RDT_Tunnel_L2tp, RDT_Tunnel_Pptp, RDT_Tunnel_Sstp, mprapi/PRAS_CONNECTION_4, mprapi/RAS_CONNECTION_4, rras.ras_connection_4'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/RAS_CONNECTION_4"
+f1_keywords:
+- mprapi/RAS_CONNECTION_4
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mprapi.h
+- mprapi.h
 api_name:
- - RAS_CONNECTION_4
+- RAS_CONNECTION_4
 product: Windows
 targetos: Windows
 req.typenames: RAS_CONNECTION_4, *PRAS_CONNECTION_4
@@ -66,7 +66,7 @@ A value that represent the duration of the connection in seconds.
 
 ### -field dwInterfaceType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_router_interface_type">ROUTER_INTERFACE_TYPE</a> enumeration that identifies the type of connection interface.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_interface_type">ROUTER_INTERFACE_TYPE</a> enumeration that identifies the type of connection interface.
 
 
 ### -field dwConnectionFlags
@@ -175,7 +175,7 @@ A GUID that identifies the connection. For incoming connections, this GUID is va
 
 ### -field rasQuarState
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_ras_quarantine_state">RAS_QUARANTINE_STATE</a> structure that specifies the NAP quarantine state of the connection.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-ras_quarantine_state">RAS_QUARANTINE_STATE</a> structure that specifies the NAP quarantine state of the connection.
 
 
 ### -field probationTime
@@ -265,7 +265,7 @@ A null-terminated Unicode string that contains the IP address of the local compu
 
 ### -field ProjectionInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_projection_info2">PROJECTION_INFO2</a> structure that contains either a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_projection_info2">PPP_PROJECTION_INFO2</a> structure or a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ikev2_projection_info2">IKEV2_PROJECTION_INFO2</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-projection_info2">PROJECTION_INFO2</a> structure that contains either a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_projection_info2">PPP_PROJECTION_INFO2</a> structure or a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ikev2_projection_info2">IKEV2_PROJECTION_INFO2</a> structure.
 
 
 ### -field hConnection

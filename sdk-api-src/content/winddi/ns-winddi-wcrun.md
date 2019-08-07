@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 01a90280-a7cc-4726-b0a2-68121bdb4686
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWCRUN, PWCRUN, PWCRUN structure pointer [Display Devices], WCRUN, WCRUN structure [Display Devices], display.wcrun, grstrcts_0ef325fa-6d74-4c0e-87e2-126c05560c5d.xml, winddi/PWCRUN, winddi/WCRUN"
+ms.keywords: '*PWCRUN, PWCRUN, PWCRUN structure pointer [Display Devices], WCRUN, WCRUN structure [Display Devices], display.wcrun, grstrcts_0ef325fa-6d74-4c0e-87e2-126c05560c5d.xml, winddi/PWCRUN, winddi/WCRUN'
 ms.topic: struct
-f1_keywords: 
- - "winddi/WCRUN"
+f1_keywords:
+- winddi/WCRUN
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - WCRUN
+- WCRUN
 product: Windows
 targetos: Windows
 req.typenames: WCRUN, *PWCRUN
@@ -86,7 +86,7 @@ HGLYPH hg = (HGLYPH) wc;
 
 GDI relies on the runs being arranged in increasing order by code points. A binary search is made through the list of runs.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_glyphset">FD_GLYPHSET</a> structure contains a WCRUN structure as one of its members.
+The <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a> structure contains a WCRUN structure as one of its members.
 
 
 
@@ -100,7 +100,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_glyphset">FD_GLYPHSET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a>
  
 
  

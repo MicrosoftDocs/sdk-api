@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvQueryFontTree, DrvQueryFontTree function [Display Devices], ddifncs_7f9eb5d2-dedd-4c72-8c12-0a382ea59ff4.xml, display.drvqueryfonttree, winddi/DrvQueryFontTree
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvQueryFontTree"
+f1_keywords:
+- winddi/DrvQueryFontTree
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvQueryFontTree
+- DrvQueryFontTree
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -108,7 +108,7 @@ QFT_KERNPAIRS
 
 </td>
 <td>
-GDI requests a pointer to a sorted, null-terminated array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_kerningpair">FD_KERNINGPAIR</a> structures.
+GDI requests a pointer to a sorted, null-terminated array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_kerningpair">FD_KERNINGPAIR</a> structures.
 
 The kerning pairs should be stored in increasing order. The primary key is the second Unicode character; the secondary key is the first Unicode character in the kerning pair.
 
@@ -176,11 +176,11 @@ The returned structure must remain unmodified until GDI calls <a href="https://d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_kerningpair">FD_KERNINGPAIR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_kerningpair">FD_KERNINGPAIR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
  
 
  

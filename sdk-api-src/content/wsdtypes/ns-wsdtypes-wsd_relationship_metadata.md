@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_RELATIONSHIP_METADATA, WSD_RELATIONSHIP_METADATA structure, ncd.wsd_relationship_metadata, wsdtypes/WSD_RELATIONSHIP_METADATA
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_RELATIONSHIP_METADATA"
+f1_keywords:
+- wsdtypes/WSD_RELATIONSHIP_METADATA
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_RELATIONSHIP_METADATA
+- WSD_RELATIONSHIP_METADATA
 product: Windows
 targetos: Windows
 req.typenames: WSD_RELATIONSHIP_METADATA
@@ -66,10 +66,10 @@ A WS-Discovery Type.
 
 ### -field Data
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_host_metadata">WSD_HOST_METADATA</a> structure that contains metadata for all services hosted by a device.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_host_metadata">WSD_HOST_METADATA</a> structure that contains metadata for all services hosted by a device.
 
 
 ### -field Any
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
 

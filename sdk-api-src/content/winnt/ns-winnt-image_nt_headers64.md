@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: 6511341f-252d-4f73-bb90-284bbb69b065
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PIMAGE_NT_HEADERS64, IMAGE_NT_HEADERS, IMAGE_NT_HEADERS structure, IMAGE_NT_HEADERS32, IMAGE_NT_HEADERS64, PIMAGE_NT_HEADERS, PIMAGE_NT_HEADERS structure pointer, _IMAGE_NT_HEADERS, _win32_image_nt_headers_str, base.image_nt_headers_str, winnt/IMAGE_NT_HEADERS, winnt/PIMAGE_NT_HEADERS"
+ms.keywords: '*PIMAGE_NT_HEADERS64, IMAGE_NT_HEADERS, IMAGE_NT_HEADERS structure, IMAGE_NT_HEADERS32, IMAGE_NT_HEADERS64, PIMAGE_NT_HEADERS, PIMAGE_NT_HEADERS structure pointer, _IMAGE_NT_HEADERS, _win32_image_nt_headers_str, base.image_nt_headers_str, winnt/IMAGE_NT_HEADERS, winnt/PIMAGE_NT_HEADERS'
 ms.topic: struct
-f1_keywords: 
- - "winnt/IMAGE_NT_HEADERS"
+f1_keywords:
+- winnt/IMAGE_NT_HEADERS
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - IMAGE_NT_HEADERS
+- IMAGE_NT_HEADERS
 product: Windows
 targetos: Windows
 req.typenames: IMAGE_NT_HEADERS64, *PIMAGE_NT_HEADERS64
@@ -67,7 +67,7 @@ A 4-byte signature identifying the file as a PE image. The bytes are "PE\0\0".
 ### -field FileHeader
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_file_header">IMAGE_FILE_HEADER</a> structure that specifies the file header.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_file_header">IMAGE_FILE_HEADER</a> structure that specifies the file header.
 
 
 ### -field OptionalHeader
@@ -104,7 +104,7 @@ typedef struct _IMAGE_NT_HEADERS64 {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_file_header">IMAGE_FILE_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_file_header">IMAGE_FILE_HEADER</a>
 
 
 
@@ -128,7 +128,7 @@ typedef struct _IMAGE_NT_HEADERS64 {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_loaded_image">LOADED_IMAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D10_SVF_USED, D3D10_SVF_USERPACKED, D3D11_SVF_INTERFACE_PARAMETER, D3D11_SVF_INTERFACE_POINTER, D3D_SHADER_VARIABLE_FLAGS, D3D_SHADER_VARIABLE_FLAGS enumeration [Direct3D 11], D3D_SVF_FORCE_DWORD, D3D_SVF_INTERFACE_PARAMETER, D3D_SVF_INTERFACE_POINTER, D3D_SVF_USED, D3D_SVF_USERPACKED, d3dcommon/D3D10_SVF_USED, d3dcommon/D3D10_SVF_USERPACKED, d3dcommon/D3D11_SVF_INTERFACE_PARAMETER, d3dcommon/D3D11_SVF_INTERFACE_POINTER, d3dcommon/D3D_SHADER_VARIABLE_FLAGS, d3dcommon/D3D_SVF_FORCE_DWORD, d3dcommon/D3D_SVF_INTERFACE_PARAMETER, d3dcommon/D3D_SVF_INTERFACE_POINTER, d3dcommon/D3D_SVF_USED, d3dcommon/D3D_SVF_USERPACKED, direct3d11.d3d_shader_variable_flags
 ms.topic: enum
-f1_keywords: 
- - "d3dcommon/D3D_SHADER_VARIABLE_FLAGS"
+f1_keywords:
+- d3dcommon/D3D_SHADER_VARIABLE_FLAGS
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3DCommon.h
+- D3DCommon.h
 api_name:
- - D3D_SHADER_VARIABLE_FLAGS
+- D3D_SHADER_VARIABLE_FLAGS
 product: Windows
 targetos: Windows
 req.typenames: D3D_SHADER_VARIABLE_FLAGS
@@ -108,7 +108,7 @@ This value is not used by a programmer; it exists to force the enumeration to co
 
 
 
-A call to the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionvariable-getdesc">ID3D11ShaderReflectionVariable::GetDesc</a> method returns <b>D3D_SHADER_VARIABLE_FLAGS</b> values in the  <b>uFlags</b> member of a  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_shader_variable_desc">D3D11_SHADER_VARIABLE_DESC</a> structure.
+A call to the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionvariable-getdesc">ID3D11ShaderReflectionVariable::GetDesc</a> method returns <b>D3D_SHADER_VARIABLE_FLAGS</b> values in the  <b>uFlags</b> member of a  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-d3d11_shader_variable_desc">D3D11_SHADER_VARIABLE_DESC</a> structure.
 
 
 

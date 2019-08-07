@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DxFlipVideoPort, DxFlipVideoPort callback function [Display Devices], PDX_FLIPVIDEOPORT, PDX_FLIPVIDEOPORT callback, VideoMiniPort_DxApiFunctions_ae9b2d92-5f47-4897-af4e-d8f7cb0f8b39.xml, display.dxflipvideoport, dxmini/DxFlipVideoPort
 ms.topic: callback
-f1_keywords: 
- - "dxmini/DxFlipVideoPort"
+f1_keywords:
+- dxmini/DxFlipVideoPort
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - dxmini.h
+- dxmini.h
 api_name:
- - DxFlipVideoPort
+- DxFlipVideoPort
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,7 +76,7 @@ The<i> DxFlipVideoPort</i> callback function is called when a client of the vide
 
 #### - FlipVideoPortInfo
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddflipvideoportinfo">DDFLIPVIDEOPORTINFO</a> structure that contains the flip information for the surface and VPE object.
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddflipvideoportinfo">DDFLIPVIDEOPORTINFO</a> structure that contains the flip information for the surface and VPE object.
 
 
 #### - HwDeviceExtension
@@ -112,7 +112,7 @@ The <b>dwFlipVPFlags</b> member of the DDFLIPVIDEOPORTINFO structure at <i>FlipV
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddflipvideoportinfo">DDFLIPVIDEOPORTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddflipvideoportinfo">DDFLIPVIDEOPORTINFO</a>
  
 
  

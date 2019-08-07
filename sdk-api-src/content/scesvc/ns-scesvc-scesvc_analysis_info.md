@@ -8,10 +8,10 @@ tech.root: SecMgmt
 ms.assetid: 4f0273df-435d-4324-b8ce-a774da935059
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSCESVC_ANALYSIS_INFO, PSCESVC_ANALYSIS_INFO, PSCESVC_ANALYSIS_INFO structure pointer [Security], SCESVC_ANALYSIS_INFO, SCESVC_ANALYSIS_INFO structure [Security], _config_scesvc_analysis_info, scesvc/PSCESVC_ANALYSIS_INFO, scesvc/SCESVC_ANALYSIS_INFO, security.scesvc_analysis_info"
+ms.keywords: '*PSCESVC_ANALYSIS_INFO, PSCESVC_ANALYSIS_INFO, PSCESVC_ANALYSIS_INFO structure pointer [Security], SCESVC_ANALYSIS_INFO, SCESVC_ANALYSIS_INFO structure [Security], _config_scesvc_analysis_info, scesvc/PSCESVC_ANALYSIS_INFO, scesvc/SCESVC_ANALYSIS_INFO, security.scesvc_analysis_info'
 ms.topic: struct
-f1_keywords: 
- - "scesvc/SCESVC_ANALYSIS_INFO"
+f1_keywords:
+- scesvc/SCESVC_ANALYSIS_INFO
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Scesvc.h
+- Scesvc.h
 api_name:
- - SCESVC_ANALYSIS_INFO
+- SCESVC_ANALYSIS_INFO
 product: Windows
 targetos: Windows
 req.typenames: SCESVC_ANALYSIS_INFO, *PSCESVC_ANALYSIS_INFO
@@ -92,7 +92,7 @@ Pointer to an array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ne-scesvc-_scesvc_info_type">SCESVC_INFO_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ne-scesvc-scesvc_info_type">SCESVC_INFO_TYPE</a>
  
 
  

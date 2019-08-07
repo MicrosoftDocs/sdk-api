@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSecurityInfo, GetSecurityInfo function [Security], _win32_getsecurityinfo, aclapi/GetSecurityInfo, security.getsecurityinfo
 ms.topic: function
-f1_keywords: 
- - "aclapi/GetSecurityInfo"
+f1_keywords:
+- aclapi/GetSecurityInfo
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-MS-Win-AdvAPI32-ntmarta-l1-1-0.dll
- - advapi32legacy.dll
- - api-ms-win-security-provider-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll
- - ntmarta.dll
+- Advapi32.dll
+- Ext-MS-Win-AdvAPI32-ntmarta-l1-1-0.dll
+- advapi32legacy.dll
+- api-ms-win-security-provider-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll
+- ntmarta.dll
 api_name:
- - GetSecurityInfo
+- GetSecurityInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ A handle to the object from which to retrieve security information.
 ### -param ObjectType [in]
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_se_object_type">SE_OBJECT_TYPE</a> enumeration value that indicates the type of object.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a> enumeration value that indicates the type of object.
 
 
 ### -param SecurityInfo [in]
@@ -162,7 +162,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
@@ -186,7 +186,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
@@ -194,11 +194,11 @@ For an example that uses this function, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_se_object_type">SE_OBJECT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 

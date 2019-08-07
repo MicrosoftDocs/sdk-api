@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_LUN_NOTIFICATION, VDS_LUN_NOTIFICATION structure [VDS], VDS_NF_LUN_ARRIVE, VDS_NF_LUN_DEPART, VDS_NF_LUN_MODIFY, base.vds_lun_notification, vds/_VDS_LUN_NOTIFICATION, vdshwprv/_VDS_LUN_NOTIFICATION
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_LUN_NOTIFICATION"
+f1_keywords:
+- vds/VDS_LUN_NOTIFICATION
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_LUN_NOTIFICATION
+- VDS_LUN_NOTIFICATION
 product: Windows
 targetos: Windows
 req.typenames: VDS_LUN_NOTIFICATION
@@ -104,7 +104,7 @@ An existing LUN has been deleted.
 </dl>
 </td>
 <td width="60%">
-A member was changed in the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_lun_prop">VDS_LUN_PROP</a> 
+A member was changed in the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_prop">VDS_LUN_PROP</a> 
        structure for an external LUN. Examples of changes that trigger this notification include changes to the 
         <b>VDS_LUN_PROP</b>structure and the addition of a plex to 
         the LUN. Applications are responsible for determining the precise nature of the change.
@@ -125,7 +125,7 @@ The GUID of the LUN.
 
 
 This structure is included as a member in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_notification">VDS_NOTIFICATION</a> structure.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a> structure.
 
 An application can receive LUN events by implementing the 
     <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsadvisesink">IVdsAdviseSink</a> interface and passing the interface 
@@ -154,7 +154,7 @@ To get the LUN object, use the <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_notification">VDS_NOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a>
  
 
  

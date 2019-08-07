@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: c97a14ab-628c-41f1-96c3-0f47654d0606
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSTORAGE_PROPERTY_QUERY, PSTORAGE_PROPERTY_QUERY, PSTORAGE_PROPERTY_QUERY structure pointer [Files], PropertyExistsQuery, PropertyStandardQuery, STORAGE_PROPERTY_QUERY, STORAGE_PROPERTY_QUERY structure [Files], fs.storage_property_query, winioctl/PSTORAGE_PROPERTY_QUERY, winioctl/STORAGE_PROPERTY_QUERY"
+ms.keywords: '*PSTORAGE_PROPERTY_QUERY, PSTORAGE_PROPERTY_QUERY, PSTORAGE_PROPERTY_QUERY structure pointer [Files], PropertyExistsQuery, PropertyStandardQuery, STORAGE_PROPERTY_QUERY, STORAGE_PROPERTY_QUERY structure [Files], fs.storage_property_query, winioctl/PSTORAGE_PROPERTY_QUERY, winioctl/STORAGE_PROPERTY_QUERY'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/STORAGE_PROPERTY_QUERY"
+f1_keywords:
+- winioctl/STORAGE_PROPERTY_QUERY
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - STORAGE_PROPERTY_QUERY
+- STORAGE_PROPERTY_QUERY
 product: Windows
 targetos: Windows
 req.typenames: STORAGE_PROPERTY_QUERY, *PSTORAGE_PROPERTY_QUERY
@@ -64,13 +64,13 @@ Indicates the properties of a storage device or adapter to retrieve as the input
 Indicates whether the caller is requesting a device descriptor, an adapter descriptor, a write cache 
       property, a device unique ID (DUID), or the device identifiers provided in the device's SCSI vital product data 
       (VPD) page. For a list of the property IDs that can be assigned to this member, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_property_id">STORAGE_PROPERTY_ID</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_property_id">STORAGE_PROPERTY_ID</a>.
 
 
 ### -field QueryType
 
 Contains flags indicating the type of query to be performed as enumerated by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_query_type">STORAGE_QUERY_TYPE</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_query_type">STORAGE_QUERY_TYPE</a> enumeration.
 
 <table>
 <tr>
@@ -135,23 +135,23 @@ The optional output buffer returned through the <i>lpOutBuffer</i> parameter of 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_adapter_descriptor">STORAGE_ADAPTER_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_adapter_descriptor">STORAGE_ADAPTER_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_property_id">STORAGE_PROPERTY_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_property_id">STORAGE_PROPERTY_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_query_type">STORAGE_QUERY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_query_type">STORAGE_QUERY_TYPE</a>
  
 
  

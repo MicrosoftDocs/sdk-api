@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: 184df0af-3ac5-406f-a298-4f23826ad85e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTDH_CONTEXT, TDH_CONTEXT, TDH_CONTEXT structure [ETW], etw.tdh_context_struct, tdh.tdh_context_struct, tdh/TDH_CONTEXT"
+ms.keywords: '*PTDH_CONTEXT, TDH_CONTEXT, TDH_CONTEXT structure [ETW], etw.tdh_context_struct, tdh.tdh_context_struct, tdh/TDH_CONTEXT'
 ms.topic: struct
-f1_keywords: 
- - "tdh/TDH_CONTEXT"
+f1_keywords:
+- tdh/TDH_CONTEXT
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tdh.h
+- Tdh.h
 api_name:
- - TDH_CONTEXT
+- TDH_CONTEXT
 product: Windows
 targetos: Windows
 req.typenames: TDH_CONTEXT
@@ -68,7 +68,7 @@ Context value cast to a ULONGLONG. The context value is determined by the contex
 
 ### -field ParameterType
 
-Context type. For a list of types, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-_tdh_context_type">TDH_CONTEXT_TYPE</a> enumeration.
+Context type. For a list of types, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-tdh_context_type">TDH_CONTEXT_TYPE</a> enumeration.
 
 
 ### -field ParameterSize

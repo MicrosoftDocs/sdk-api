@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: ab94c36b-7aba-452d-abc0-220c91ffacca
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PKERB_S4U_LOGON, KERB_S4U_LOGON, KERB_S4U_LOGON structure [Security], KERB_S4U_LOGON_FLAG_CHECK_LOGONHOURS, KERB_S4U_LOGON_FLAG_IDENTITY, PKERB_S4U_LOGON, PKERB_S4U_LOGON structure pointer [Security], ntsecapi/KERB_S4U_LOGON, ntsecapi/PKERB_S4U_LOGON, security.kerb_s4u_logon"
+ms.keywords: '*PKERB_S4U_LOGON, KERB_S4U_LOGON, KERB_S4U_LOGON structure [Security], KERB_S4U_LOGON_FLAG_CHECK_LOGONHOURS, KERB_S4U_LOGON_FLAG_IDENTITY, PKERB_S4U_LOGON, PKERB_S4U_LOGON structure pointer [Security], ntsecapi/KERB_S4U_LOGON, ntsecapi/PKERB_S4U_LOGON, security.kerb_s4u_logon'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/KERB_S4U_LOGON"
+f1_keywords:
+- ntsecapi/KERB_S4U_LOGON
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - KERB_S4U_LOGON
+- KERB_S4U_LOGON
 product: Windows
 targetos: Windows
 req.typenames: KERB_S4U_LOGON, *PKERB_S4U_LOGON
@@ -101,14 +101,14 @@ Requests the identity token.
 
 ### -field ClientUpn
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> that specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN) of the client. This member cannot be <b>NULL</b>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN) of the client. This member cannot be <b>NULL</b>.
 
-The <b>Buffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure must point to memory that is contiguous to the <b>KERB_S4U_LOGON</b> structure.
+The <b>Buffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure must point to memory that is contiguous to the <b>KERB_S4U_LOGON</b> structure.
 
 
 ### -field ClientRealm
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> that specifies the realm of the client, if known. If the realm is not known, this member can be <b>NULL</b>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that specifies the realm of the client, if known. If the realm is not known, this member can be <b>NULL</b>.
 
-The <b>Buffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure must point to memory that is contiguous to the <b>KERB_S4U_LOGON</b> structure.
+The <b>Buffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure must point to memory that is contiguous to the <b>KERB_S4U_LOGON</b> structure.
 

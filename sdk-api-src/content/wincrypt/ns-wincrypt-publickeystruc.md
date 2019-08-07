@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BLOBHEADER, BLOBHEADER [Security], BLOBHEADER structure [Security], KEYSTATEBLOB, OPAQUEKEYBLOB, PLAINTEXTKEYBLOB, PRIVATEKEYBLOB, PUBLICKEYBLOB, PUBLICKEYBLOBEX, PUBLICKEYSTRUC, PUBLICKEYSTRUC structure [Security], SIMPLEBLOB, SYMMETRICWRAPKEYBLOB, _cryptcsp_blobheader, _crypto2_publickeystruc, security.blobheader, security.publickeystruc, wincrypt/PUBLICKEYSTRUC
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/BLOBHEADER"
+f1_keywords:
+- wincrypt/BLOBHEADER
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - BLOBHEADER
+- BLOBHEADER
 product: Windows
 targetos: Windows
 req.typenames: BLOBHEADER, PUBLICKEYSTRUC
@@ -195,11 +195,11 @@ PLAINTEXTBLOBs can be used with any algorithm or type of key combination support
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_dssseed">DSSSEED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-dssseed">DSSSEED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_rsapubkey">RSAPUBKEY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-rsapubkey">RSAPUBKEY</a>
  
 
  

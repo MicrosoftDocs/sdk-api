@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: f1c07033-dbfa-4bbe-b275-f5bfc629b2d7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PIPX_IF_INFO, IPX_IF_INFO, IPX_IF_INFO structure [RAS], PIPX_IF_INFO, PIPX_IF_INFO structure pointer [RAS], _mpr_ipx_if_info, ipxrtdef/IPX_IF_INFO, ipxrtdef/PIPX_IF_INFO, rras.ipx_if_info"
+ms.keywords: '*PIPX_IF_INFO, IPX_IF_INFO, IPX_IF_INFO structure [RAS], PIPX_IF_INFO, PIPX_IF_INFO structure pointer [RAS], _mpr_ipx_if_info, ipxrtdef/IPX_IF_INFO, ipxrtdef/PIPX_IF_INFO, rras.ipx_if_info'
 ms.topic: struct
-f1_keywords: 
- - "ipxrtdef/IPX_IF_INFO"
+f1_keywords:
+- ipxrtdef/IPX_IF_INFO
 req.header: ipxrtdef.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipxrtdef.h
+- Ipxrtdef.h
 api_name:
- - IPX_IF_INFO
+- IPX_IF_INFO
 product: Windows
 targetos: Windows
 req.typenames: IPX_IF_INFO, *PIPX_IF_INFO
@@ -80,7 +80,7 @@ Specifies whether to deliver NetBIOS broadcast packets
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipxrtdef/ns-ipxrtdef-_ipxwan_if_info">IPXWAN_IF_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipxrtdef/ns-ipxrtdef-ipxwan_if_info">IPXWAN_IF_INFO</a>
  
 
  

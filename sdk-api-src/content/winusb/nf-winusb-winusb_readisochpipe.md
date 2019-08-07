@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_ReadIsochPipe, WinUsb_ReadIsochPipe function [Buses], buses.winusb_readisochpipe, winusb/WinUsb_ReadIsochPipe
 ms.topic: function
-f1_keywords: 
- - "winusb/WinUsb_ReadIsochPipe"
+f1_keywords:
+- winusb/WinUsb_ReadIsochPipe
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Winusb.lib
 req.dll: Winusb.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winusb.dll
+- Winusb.dll
 api_name:
- - WinUsb_ReadIsochPipe
+- WinUsb_ReadIsochPipe
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -91,7 +91,7 @@ An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/con
 
 ### -param Overlapped [in, optional]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ns-shobjidl-_overlapped">OVERLAPPED</a> structure used for asynchronous operations.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ns-shobjidl-overlapped">OVERLAPPED</a> structure used for asynchronous operations.
 
 
 ## -returns

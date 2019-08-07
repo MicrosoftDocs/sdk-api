@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 29422116-0a33-4553-98aa-785bb926dee0
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_RESPONSE_INFO, *PHTTP_RESPONSE_INFO structure [HTTP], HTTP_RESPONSE_INFO, HTTP_RESPONSE_INFO structure [HTTP], http.http_response_info, http/*PHTTP_RESPONSE_INFO, http/HTTP_RESPONSE_INFO"
+ms.keywords: '*PHTTP_RESPONSE_INFO, *PHTTP_RESPONSE_INFO structure [HTTP], HTTP_RESPONSE_INFO, HTTP_RESPONSE_INFO structure [HTTP], http.http_response_info, http/*PHTTP_RESPONSE_INFO, http/HTTP_RESPONSE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_RESPONSE_INFO"
+f1_keywords:
+- http/HTTP_RESPONSE_INFO
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_RESPONSE_INFO
+- HTTP_RESPONSE_INFO
 product: Windows
 targetos: Windows
 req.typenames: HTTP_RESPONSE_INFO, *PHTTP_RESPONSE_INFO
@@ -96,7 +96,7 @@ Starting with the HTTP Server API version 2.0, the HTTP_RESPONSE structure is ex
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_v2">HTTP_RESPONSE_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_v2">HTTP_RESPONSE_V2</a>
  
 
  

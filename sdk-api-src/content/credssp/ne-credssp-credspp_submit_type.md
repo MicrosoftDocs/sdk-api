@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CREDSPP_SUBMIT_TYPE, CREDSPP_SUBMIT_TYPE enumeration [Security], CredsspCertificateCreds, CredsspPasswordCreds, CredsspSchannelCreds, CredsspSubmitBufferBoth, CredsspSubmitBufferBothOld, credssp/CREDSPP_SUBMIT_TYPE, credssp/CredsspCertificateCreds, credssp/CredsspPasswordCreds, credssp/CredsspSchannelCreds, credssp/CredsspSubmitBufferBoth, credssp/CredsspSubmitBufferBothOld, security.credspp_submit_type
 ms.topic: enum
-f1_keywords: 
- - "credssp/CREDSPP_SUBMIT_TYPE"
+f1_keywords:
+- credssp/CREDSPP_SUBMIT_TYPE
 req.header: credssp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Credssp.h
+- Credssp.h
 api_name:
- - CREDSPP_SUBMIT_TYPE
+- CREDSPP_SUBMIT_TYPE
 product: Windows
 targetos: Windows
 req.typenames: CREDSPP_SUBMIT_TYPE
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CREDSPP_SUBMIT_TYPE</b> enumeration specifies the type of credentials specified by a <a href="https://docs.microsoft.com/windows/desktop/api/credssp/ns-credssp-_credssp_cred">CREDSSP_CRED</a> structure.
+The <b>CREDSPP_SUBMIT_TYPE</b> enumeration specifies the type of credentials specified by a <a href="https://docs.microsoft.com/windows/desktop/api/credssp/ns-credssp-credssp_cred">CREDSSP_CRED</a> structure.
 
 
 ## -enum-fields
@@ -92,7 +92,7 @@ The credentials contain both certificate and Schannel credentials.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credssp/ns-credssp-_credssp_cred">CREDSSP_CRED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/credssp/ns-credssp-credssp_cred">CREDSSP_CRED</a>
  
 
  

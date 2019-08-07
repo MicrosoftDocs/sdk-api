@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SOCKET_PEER_TARGET_NAME, SOCKET_PEER_TARGET_NAME structure [Winsock], mstcpip/SOCKET_PEER_TARGET_NAME, winsock.socket_peer_target_name
 ms.topic: struct
-f1_keywords: 
- - "mstcpip/SOCKET_PEER_TARGET_NAME"
+f1_keywords:
+- mstcpip/SOCKET_PEER_TARGET_NAME
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mstcpip.h
+- Mstcpip.h
 api_name:
- - SOCKET_PEER_TARGET_NAME
+- SOCKET_PEER_TARGET_NAME
 product: Windows
 targetos: Windows
 req.typenames: SOCKET_PEER_TARGET_NAME
@@ -61,7 +61,7 @@ The <b>SOCKET_PEER_TARGET_NAME</b> structure contains the IP address and name fo
 
 ### -field SecurityProtocol
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-_socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a> value that identifies the type of protocol used to secure the traffic on the socket.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a> value that identifies the type of protocol used to secure the traffic on the socket.
 
 
 ### -field PeerAddress
@@ -103,7 +103,7 @@ The implementation of IPsec on Windows Vistaand Windows Server 2008 only suppo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-_socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a>
 
 
 

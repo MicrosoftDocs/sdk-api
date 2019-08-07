@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 141571bf-172b-c679-109b-248388ab3cc3, GetSwapChain, GetSwapChain method [Direct3D 9], GetSwapChain method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetSwapChain method, IDirect3DDevice9.GetSwapChain, IDirect3DDevice9::GetSwapChain, d3d9helper/IDirect3DDevice9::GetSwapChain, direct3d9.idirect3ddevice9__getswapchain
 ms.topic: method
-f1_keywords: 
- - "d3d9helper/IDirect3DDevice9.GetSwapChain"
+f1_keywords:
+- d3d9helper/IDirect3DDevice9.GetSwapChain
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.GetSwapChain
+- IDirect3DDevice9.GetSwapChain
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Gets a pointer to a swap chain.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The swap chain ordinal value.  For more information, see NumberOfAdaptersInGroup in <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcaps9">D3DCAPS9</a>.
+The swap chain ordinal value.  For more information, see NumberOfAdaptersInGroup in <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9">D3DCAPS9</a>.
 
 
 ### -param pSwapChain [in]

@@ -8,10 +8,10 @@ tech.root: bluetooth
 ms.assetid: 997c50bb-1313-409a-9a24-9225a6cf91d9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PBTH_RADIO_IN_RANGE, *PBTH_RADIO_IN_RANGE structure [Bluetooth], BTH_RADIO_IN_RANGE, BTH_RADIO_IN_RANGE structure [Bluetooth], bluetooth.bth_radio_in_range, bthdef/*PBTH_RADIO_IN_RANGE, bthdef/BTH_RADIO_IN_RANGE"
+ms.keywords: '*PBTH_RADIO_IN_RANGE, *PBTH_RADIO_IN_RANGE structure [Bluetooth], BTH_RADIO_IN_RANGE, BTH_RADIO_IN_RANGE structure [Bluetooth], bluetooth.bth_radio_in_range, bthdef/*PBTH_RADIO_IN_RANGE, bthdef/BTH_RADIO_IN_RANGE'
 ms.topic: struct
-f1_keywords: 
- - "bthdef/BTH_RADIO_IN_RANGE"
+f1_keywords:
+- bthdef/BTH_RADIO_IN_RANGE
 req.header: bthdef.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bthdef.h
+- Bthdef.h
 api_name:
- - BTH_RADIO_IN_RANGE
+- BTH_RADIO_IN_RANGE
 product: Windows
 targetos: Windows
 req.typenames: BTH_RADIO_IN_RANGE, *PBTH_RADIO_IN_RANGE
@@ -61,12 +61,12 @@ The <b>BTH_RADIO_IN_RANGE</b> structure stores data about Bluetooth devices with
 
 ### -field deviceInfo
 
-Current set of attributes associated with the remote device, in the form of a <a href="https://docs.microsoft.com/windows/desktop/api/bthdef/ns-bthdef-_bth_device_info">BTH_DEVICE_INFO</a> structure.
+Current set of attributes associated with the remote device, in the form of a <a href="https://docs.microsoft.com/windows/desktop/api/bthdef/ns-bthdef-bth_device_info">BTH_DEVICE_INFO</a> structure.
 
 
 ### -field previousDeviceFlags
 
-Previous flags for the <b>flags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/bthdef/ns-bthdef-_bth_device_info">BTH_DEVICE_INFO</a> structure pointed to by the <b>deviceInfo</b> member. Used to determine which attributes associated with the remote device have changed.
+Previous flags for the <b>flags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/bthdef/ns-bthdef-bth_device_info">BTH_DEVICE_INFO</a> structure pointed to by the <b>deviceInfo</b> member. Used to determine which attributes associated with the remote device have changed.
 
 
 ## -see-also
@@ -74,7 +74,7 @@ Previous flags for the <b>flags</b> member of the <a href="https://docs.microsof
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthdef/ns-bthdef-_bth_device_info">BTH_DEVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bthdef/ns-bthdef-bth_device_info">BTH_DEVICE_INFO</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColumnFilter, GetColumnFilter method [MMC], GetColumnFilter method [MMC],IHeaderCtrl2 interface, IHeaderCtrl2 interface [MMC],GetColumnFilter method, IHeaderCtrl2.GetColumnFilter, IHeaderCtrl2::GetColumnFilter, _slate_iheaderctrl2_getcolumnfilter, mmc.iheaderctrl2_getcolumnfilter, mmc/IHeaderCtrl2::GetColumnFilter
 ms.topic: method
-f1_keywords: 
- - "mmc/IHeaderCtrl2.GetColumnFilter"
+f1_keywords:
+- mmc/IHeaderCtrl2.GetColumnFilter
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IHeaderCtrl2.GetColumnFilter
+- IHeaderCtrl2.GetColumnFilter
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ A pointer to a variable of type <b>DWORD</b> that can take one of the possible f
 ### -param pFilterData [in, out]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_filterdata">MMC_FILTERDATA</a> structure that holds the actual filter data.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_filterdata">MMC_FILTERDATA</a> structure that holds the actual filter data.
 
 
 ## -returns
@@ -90,7 +90,7 @@ This method can return one of these values.
 
 
 For both setting and reading filter values, the snap-in owns the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_filterdata">MMC_FILTERDATA</a> structure and any text buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_filterdata">MMC_FILTERDATA</a> structure and any text buffer.
 
 When reading a filter value, if the filter type specified by the snap-in does not match the current type, the <b>IHeaderCtrl2::GetColumnFilter</b> method will return <b>E_FAIL</b>. On receiving an <b>E_FAIL</b>, the values returned by the method are undefined.
 

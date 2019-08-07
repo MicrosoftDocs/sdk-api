@@ -8,10 +8,10 @@ tech.root: DevNotes
 ms.assetid: 0A39626B-942F-4BD6-930D-15E9D401F0FF
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFH_TARGET_PROPERTY_TYPE, FH_TARGET_DRIVE_TYPE, FH_TARGET_NAME, FH_TARGET_PROPERTY_TYPE, FH_TARGET_PROPERTY_TYPE enumeration [Windows API], FH_TARGET_URL, MAX_TARGET_PROPERTY, fhcfg/FH_TARGET_DRIVE_TYPE, fhcfg/FH_TARGET_NAME, fhcfg/FH_TARGET_PROPERTY_TYPE, fhcfg/FH_TARGET_URL, fhcfg/MAX_TARGET_PROPERTY, winprog.fh_target_property_type"
+ms.keywords: '*PFH_TARGET_PROPERTY_TYPE, FH_TARGET_DRIVE_TYPE, FH_TARGET_NAME, FH_TARGET_PROPERTY_TYPE, FH_TARGET_PROPERTY_TYPE enumeration [Windows API], FH_TARGET_URL, MAX_TARGET_PROPERTY, fhcfg/FH_TARGET_DRIVE_TYPE, fhcfg/FH_TARGET_NAME, fhcfg/FH_TARGET_PROPERTY_TYPE, fhcfg/FH_TARGET_URL, fhcfg/MAX_TARGET_PROPERTY, winprog.fh_target_property_type'
 ms.topic: enum
-f1_keywords: 
- - "fhcfg/FH_TARGET_PROPERTY_TYPE"
+f1_keywords:
+- fhcfg/FH_TARGET_PROPERTY_TYPE
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fhcfg.h
+- Fhcfg.h
 api_name:
- - FH_TARGET_PROPERTY_TYPE
+- FH_TARGET_PROPERTY_TYPE
 product: Windows
 targetos: Windows
 req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
@@ -71,7 +71,7 @@ The property is a string that contains a path to the backup target.
 
 ### -field FH_TARGET_DRIVE_TYPE
 
-The property is a numeric property that specifies the target type of the backup target. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_target_drive_types">FH_TARGET_DRIVE_TYPES</a> enumeration for the list of possible backup target types.
+The property is a numeric property that specifies the target type of the backup target. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_target_drive_types">FH_TARGET_DRIVE_TYPES</a> enumeration for the list of possible backup target types.
 
 
 ### -field MAX_TARGET_PROPERTY
@@ -97,7 +97,7 @@ For network shares, the <b>FH_TARGET_URL</b> property contains the full path of 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_target_drive_types">FH_TARGET_DRIVE_TYPES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_target_drive_types">FH_TARGET_DRIVE_TYPES</a>
 
 
 

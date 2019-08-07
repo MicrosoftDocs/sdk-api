@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDetailsOf, GetDetailsOf method [Windows Shell], GetDetailsOf method [Windows Shell],IShellDetails interface, IShellDetails interface [Windows Shell],GetDetailsOf method, IShellDetails.GetDetailsOf, IShellDetails::GetDetailsOf, _win32_IShellDetails_GetDetailsOf, shell.IShellDetails_GetDetailsOf, shlobj_core/IShellDetails::GetDetailsOf
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IShellDetails.GetDetailsOf"
+f1_keywords:
+- shlobj_core/IShellDetails.GetDetailsOf
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellDetails.GetDetailsOf
+- IShellDetails.GetDetailsOf
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Gets detailed information on an item in a Shell folder.
 
 Type: <b>PCUITEMID_CHILD</b>
 
-The PIDL of the item that you are requesting information for. If this parameter is set to <b>NULL</b>, the title of the information field specified by <i>iColumn</i> will be returned in the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shelldetails">SHELLDETAILS</a> structure pointed to by <i>pDetails</i>.
+The PIDL of the item that you are requesting information for. If this parameter is set to <b>NULL</b>, the title of the information field specified by <i>iColumn</i> will be returned in the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shelldetails">SHELLDETAILS</a> structure pointed to by <i>pDetails</i>.
 
 
 ### -param iColumn
@@ -77,7 +77,7 @@ The zero-based index of the desired information field. It is identical to column
 
 Type: <b>SHELLDETAILS*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shelldetails">SHELLDETAILS</a> structure with the detail information.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shelldetails">SHELLDETAILS</a> structure with the detail information.
 
 
 ## -returns

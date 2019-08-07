@@ -8,10 +8,10 @@ tech.root: DevNotes
 ms.assetid: 9268d24d-5000-4ac5-a3c5-895613ccbb9a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PAVRF_HANDLE_OPERATION, AVRF_HANDLE_OPERATION, AVRF_HANDLE_OPERATION structure [Windows API], avrfsdk/AVRF_HANDLE_OPERATION, base.avrf_handle_operation, winprog.avrf_handle_operation"
+ms.keywords: '*PAVRF_HANDLE_OPERATION, AVRF_HANDLE_OPERATION, AVRF_HANDLE_OPERATION structure [Windows API], avrfsdk/AVRF_HANDLE_OPERATION, base.avrf_handle_operation, winprog.avrf_handle_operation'
 ms.topic: struct
-f1_keywords: 
- - "avrfsdk/AVRF_HANDLE_OPERATION"
+f1_keywords:
+- avrfsdk/AVRF_HANDLE_OPERATION
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Avrfsdk.h
+- Avrfsdk.h
 api_name:
- - AVRF_HANDLE_OPERATION
+- AVRF_HANDLE_OPERATION
 product: Windows
 targetos: Windows
 req.typenames: AVRF_HANDLE_OPERATION, *PAVRF_HANDLE_OPERATION
@@ -86,7 +86,7 @@ The alignment of the structure on a natural boundary even if the user has change
 
 ### -field BackTraceInformation
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ns-avrfsdk-_avrf_backtrace_information">AVRF_BACKTRACE_INFORMATION</a> structure containing information required for completing the enumeration of handles.
+Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ns-avrfsdk-avrf_backtrace_information">AVRF_BACKTRACE_INFORMATION</a> structure containing information required for completing the enumeration of handles.
 
 
 ## -see-also

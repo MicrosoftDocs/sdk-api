@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 74a32957-7305-4f2b-a509-7d6aa11d2052
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_LOGGING_TYPE, *PHTTP_LOGGING_TYPE enumeration [HTTP], HTTP_LOGGING_TYPE, HTTP_LOGGING_TYPE enumeration [HTTP], HttpLoggingTypeIIS, HttpLoggingTypeNCSA, HttpLoggingTypeRaw, HttpLoggingTypeW3C, http.http_logging_type, http/*PHTTP_LOGGING_TYPE, http/HTTP_LOGGING_TYPE, http/HttpLoggingTypeIIS, http/HttpLoggingTypeNCSA, http/HttpLoggingTypeRaw, http/HttpLoggingTypeW3C"
+ms.keywords: '*PHTTP_LOGGING_TYPE, *PHTTP_LOGGING_TYPE enumeration [HTTP], HTTP_LOGGING_TYPE, HTTP_LOGGING_TYPE enumeration [HTTP], HttpLoggingTypeIIS, HttpLoggingTypeNCSA, HttpLoggingTypeRaw, HttpLoggingTypeW3C, http.http_logging_type, http/*PHTTP_LOGGING_TYPE, http/HTTP_LOGGING_TYPE, http/HttpLoggingTypeIIS, http/HttpLoggingTypeNCSA, http/HttpLoggingTypeRaw, http/HttpLoggingTypeW3C'
 ms.topic: enum
-f1_keywords: 
- - "http/HTTP_LOGGING_TYPE"
+f1_keywords:
+- http/HTTP_LOGGING_TYPE
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_LOGGING_TYPE
+- HTTP_LOGGING_TYPE
 product: Windows
 targetos: Windows
 req.typenames: HTTP_LOGGING_TYPE, *PHTTP_LOGGING_TYPE
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>HTTP_LOGGING_TYPE</b> enumeration defines the type of logging that is performed.
 
-This enumeration is used  in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_logging_info">HTTP_LOGGING_INFO</a> structure.
+This enumeration is used  in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a> structure.
 
 
 ## -enum-fields
@@ -63,7 +63,7 @@ This enumeration is used  in the <a href="https://docs.microsoft.com/windows/des
 
 ### -field HttpLoggingTypeW3C
 
-The log format is W3C style extended logging. Applications choose the fields that are logged in the  <b>Fields</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_logging_info">HTTP_LOGGING_INFO</a> structure.
+The log format is W3C style extended logging. Applications choose the fields that are logged in the  <b>Fields</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a> structure.
 
  When this type of logging is set on a URL Group, logging is similar to the IIS6 site logging. When set on a server session this format functions as a centralized logging for all of the URL Groups.
 
@@ -225,7 +225,7 @@ For more information about the log file formats, see <a href="Http://go.microsof
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_logging_info">HTTP_LOGGING_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a>
  
 
  

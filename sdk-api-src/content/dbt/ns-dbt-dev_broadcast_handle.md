@@ -8,10 +8,10 @@ tech.root: devio
 ms.assetid: 5e542abc-8db3-4251-8b68-11456aa2da5e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDEV_BROADCAST_HANDLE, DEV_BROADCAST_HANDLE, DEV_BROADCAST_HANDLE structure, PDEV_BROADCAST_HANDLE, PDEV_BROADCAST_HANDLE structure pointer, _win32_dev_broadcast_handle_str, base.dev_broadcast_handle_str, dbt/DEV_BROADCAST_HANDLE, dbt/PDEV_BROADCAST_HANDLE"
+ms.keywords: '*PDEV_BROADCAST_HANDLE, DEV_BROADCAST_HANDLE, DEV_BROADCAST_HANDLE structure, PDEV_BROADCAST_HANDLE, PDEV_BROADCAST_HANDLE structure pointer, _win32_dev_broadcast_handle_str, base.dev_broadcast_handle_str, dbt/DEV_BROADCAST_HANDLE, dbt/PDEV_BROADCAST_HANDLE'
 ms.topic: struct
-f1_keywords: 
- - "dbt/DEV_BROADCAST_HANDLE"
+f1_keywords:
+- dbt/DEV_BROADCAST_HANDLE
 req.header: dbt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dbt.h
+- Dbt.h
 api_name:
- - DEV_BROADCAST_HANDLE
+- DEV_BROADCAST_HANDLE
 product: Windows
 targetos: Windows
 req.typenames: DEV_BROADCAST_HANDLE, *PDEV_BROADCAST_HANDLE
@@ -106,7 +106,7 @@ Optional binary data.  This member is valid only for <a href="https://docs.micro
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_hdr">DEV_BROADCAST_HDR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_hdr">DEV_BROADCAST_HDR</a>
 
 
 

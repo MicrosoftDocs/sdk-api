@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLogicalProcessorInformation, GetLogicalProcessorInformation function, base.getlogicalprocessorinformation, sysinfoapi/GetLogicalProcessorInformation
 ms.topic: function
-f1_keywords: 
- - "sysinfoapi/GetLogicalProcessorInformation"
+f1_keywords:
+- sysinfoapi/GetLogicalProcessorInformation
 req.header: sysinfoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-SysInfo-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-0.dll
- - API-MS-Win-Core-SysInfo-l1-2-1.dll
- - API-MS-Win-Core-SysInfo-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-SysInfo-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-0.dll
+- API-MS-Win-Core-SysInfo-l1-2-1.dll
+- API-MS-Win-Core-SysInfo-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-3.dll
 api_name:
- - GetLogicalProcessorInformation
+- GetLogicalProcessorInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ To retrieve information about logical processors and related hardware, including
 
 ### -param Buffer [out]
 
-A pointer to a buffer that receives  an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a> structures. If the function fails, the contents of this buffer are undefined.
+A pointer to a buffer that receives  an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a> structures. If the function fails, the contents of this buffer are undefined.
 
 
 ### -param ReturnedLength [in, out]
@@ -86,7 +86,7 @@ On input, specifies the length of the buffer pointed to by  <i>Buffer</i>, in by
 
 
 
-If the function succeeds, the return value is TRUE and at least one <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a> structure is written to the output buffer.
+If the function succeeds, the return value is TRUE and at least one <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a> structure is written to the output buffer.
 
 If the function fails, the return value is FALSE. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -106,7 +106,7 @@ If the function fails, the return value is FALSE. To get extended error informat
 </ul>
 Your application can use this information when affinitizing your threads and processes to take best advantage of the hardware properties of the platform, or to determine the number of logical and physical processors for licensing purposes.
 
-Each of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a> structures returned in the buffer contains the following: 
+Each of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a> structures returned in the buffer contains the following: 
 
 <ul>
 <li>A logical processor affinity mask, which indicates the logical processors that the information in the structure applies to.</li>
@@ -114,7 +114,7 @@ Each of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-win
 </ul>
 Note that the order in which the structures are returned in the buffer  may change between calls to this function.
 
-The size of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a> structure varies between processor architectures and versions of Windows. For this reason, applications should first call this function to obtain the required buffer size, then dynamically allocate memory for the buffer.
+The size of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a> structure varies between processor architectures and versions of Windows. For this reason, applications should first call this function to obtain the required buffer size, then dynamically allocate memory for the buffer.
 
 On systems with more than 64 logical processors, the <b>GetLogicalProcessorInformation</b> function retrieves logical processor information about processors in the <a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">processor group</a> to which the calling thread is currently assigned. Use the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a> function to retrieve information about processors in all processor groups on the system.
 
@@ -123,7 +123,7 @@ On systems with more than 64 logical processors, the <b>GetLogicalProcessorInfor
 
 The following C++ example uses the <b>GetLogicalProcessorInformation</b> function to display information about processors on the current system.  Because <b>GetLogicalProcessorInformation</b> is not present on all systems, this example uses the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function instead of calling <b>GetLogicalProcessorInformation</b> directly.
 
-This example reports the number of active processor cores. This example also reports the number of NUMA nodes, physical packages, and caches on systems that support this information.   For more information, see the description of the <b>Relationship</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a> structure. <b>Windows Server 2003, Windows XP Professional x64 Edition and Windows XP with SP3:  </b>This example reports the number of physical processors rather than the number of active processor cores. 
+This example reports the number of active processor cores. This example also reports the number of NUMA nodes, physical packages, and caches on systems that support this information.   For more information, see the description of the <b>Relationship</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a> structure. <b>Windows Server 2003, Windows XP Professional x64 Edition and Windows XP with SP3:  </b>This example reports the number of physical processors rather than the number of active processor cores. 
 
 
 
@@ -306,7 +306,7 @@ int _cdecl _tmain ()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>
  
 
  

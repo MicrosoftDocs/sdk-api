@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetExplicitEntriesFromAcl, GetExplicitEntriesFromAcl function [Security], GetExplicitEntriesFromAclA, GetExplicitEntriesFromAclW, _win32_getexplicitentriesfromacl, aclapi/GetExplicitEntriesFromAcl, aclapi/GetExplicitEntriesFromAclA, aclapi/GetExplicitEntriesFromAclW, security.getexplicitentriesfromacl
 ms.topic: function
-f1_keywords: 
- - "aclapi/GetExplicitEntriesFromAcl"
+f1_keywords:
+- aclapi/GetExplicitEntriesFromAcl
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-Provider-l1-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll
- - ntmarta.dll
- - API-MS-Win-Security-Provider-Ansi-L1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-Security-Provider-l1-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll
+- ntmarta.dll
+- API-MS-Win-Security-Provider-Ansi-L1-1-0.dll
 api_name:
- - GetExplicitEntriesFromAcl
- - GetExplicitEntriesFromAclA
- - GetExplicitEntriesFromAclW
+- GetExplicitEntriesFromAcl
+- GetExplicitEntriesFromAclA
+- GetExplicitEntriesFromAclW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ The <b>GetExplicitEntriesFromAcl</b> function retrieves an array of structures t
 ### -param pacl [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> structure from which to get 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure from which to get 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACE</a> information.
 
 
@@ -105,9 +105,9 @@ Each entry in the array of
 
 Each <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structure specifies a set of access rights and an access mode flag that indicates whether the ACE allows, denies, or audits the specified rights.
 
-For a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL), the access mode flag can be  either GRANT_ACCESS or DENY_ACCESS. For information about these values, see <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_access_mode">ACCESS_MODE</a>.
+For a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL), the access mode flag can be  either GRANT_ACCESS or DENY_ACCESS. For information about these values, see <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-access_mode">ACCESS_MODE</a>.
 
-For a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL), the access mode flag can be SET_AUDIT_ACCESS, SET_AUDIT_FAILURE, or both. For information about these values, see <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_access_mode">ACCESS_MODE</a>.
+For a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL), the access mode flag can be SET_AUDIT_ACCESS, SET_AUDIT_FAILURE, or both. For information about these values, see <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-access_mode">ACCESS_MODE</a>.
 
 
 
@@ -117,15 +117,15 @@ For a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_allowed_ace">ACCESS_ALLOWED_ACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_denied_ace">ACCESS_DENIED_ACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_ace">ACCESS_DENIED_ACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_access_mode">ACCESS_MODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-access_mode">ACCESS_MODE</a>
 
 
 
@@ -133,7 +133,7 @@ For a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
@@ -153,7 +153,7 @@ For a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_audit_ace">SYSTEM_AUDIT_ACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_audit_ace">SYSTEM_AUDIT_ACE</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, MMC_SORT_SET_DATA, MMC_SORT_SET_DATA structure [MMC], _slate_mmc_sort_set_data, mmc.mmc_sort_set_data, mmc/MMC_SORT_SET_DATA
 ms.topic: struct
-f1_keywords: 
- - "mmc/MMC_SORT_SET_DATA"
+f1_keywords:
+- mmc/MMC_SORT_SET_DATA
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - MMC_SORT_SET_DATA
+- MMC_SORT_SET_DATA
 product: Windows
 targetos: Windows
 req.typenames: MMC_SORT_SET_DATA
@@ -91,7 +91,7 @@ One column in the column set is sorted. Be aware that only single-column sorting
 ### -field pSortData
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_sort_data">MMC_SORT_DATA</a> structures that hold the actual sort data. Should be set to <b>NULL</b> if nNumItems is set to 0.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_sort_data">MMC_SORT_DATA</a> structures that hold the actual sort data. Should be set to <b>NULL</b> if nNumItems is set to 0.
 
 
 ## -remarks
@@ -119,7 +119,7 @@ The user can hide columns using the Choose Columns dialog.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_sort_data">MMC_SORT_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_sort_data">MMC_SORT_DATA</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_TOKEN_PROPERTY_ATTACHED_REFERENCE_XML, WS_SECURITY_TOKEN_PROPERTY_ID, WS_SECURITY_TOKEN_PROPERTY_ID enumeration [Web Services for Windows], WS_SECURITY_TOKEN_PROPERTY_KEY_TYPE, WS_SECURITY_TOKEN_PROPERTY_SERIALIZED_XML, WS_SECURITY_TOKEN_PROPERTY_SYMMETRIC_KEY, WS_SECURITY_TOKEN_PROPERTY_UNATTACHED_REFERENCE_XML, WS_SECURITY_TOKEN_PROPERTY_VALID_FROM_TIME, WS_SECURITY_TOKEN_PROPERTY_VALID_TILL_TIME, webservices/WS_SECURITY_TOKEN_PROPERTY_ATTACHED_REFERENCE_XML, webservices/WS_SECURITY_TOKEN_PROPERTY_ID, webservices/WS_SECURITY_TOKEN_PROPERTY_KEY_TYPE, webservices/WS_SECURITY_TOKEN_PROPERTY_SERIALIZED_XML, webservices/WS_SECURITY_TOKEN_PROPERTY_SYMMETRIC_KEY, webservices/WS_SECURITY_TOKEN_PROPERTY_UNATTACHED_REFERENCE_XML, webservices/WS_SECURITY_TOKEN_PROPERTY_VALID_FROM_TIME, webservices/WS_SECURITY_TOKEN_PROPERTY_VALID_TILL_TIME, wsw.ws_security_token_property_id
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_SECURITY_TOKEN_PROPERTY_ID"
+f1_keywords:
+- webservices/WS_SECURITY_TOKEN_PROPERTY_ID
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SECURITY_TOKEN_PROPERTY_ID
+- WS_SECURITY_TOKEN_PROPERTY_ID
 product: Windows
 targetos: Windows
 req.typenames: WS_SECURITY_TOKEN_PROPERTY_ID
@@ -73,7 +73,7 @@ The accompanying <b>value</b> parameter of the <a href="https://docs.microsoft.c
 
 ### -field WS_SECURITY_TOKEN_PROPERTY_VALID_FROM_TIME
 
-The accompanying <b>value</b> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> function is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_datetime">WS_DATETIME</a> structure containing the time from when the security token is valid.  For a security token
+The accompanying <b>value</b> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> function is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a> structure containing the time from when the security token is valid.  For a security token
 that does not define an explicit start time for its validity period, a
 <b>WS_DATETIME</b> with a tick count of 0 is returned.
 
@@ -82,7 +82,7 @@ that does not define an explicit start time for its validity period, a
 
 
 
-The accompanying <b>value</b> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> function is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_datetime">WS_DATETIME</a> structure containing the point in time at which a currently valid security token becomes invalid.  For a security token
+The accompanying <b>value</b> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> function is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a> structure containing the point in time at which a currently valid security token becomes invalid.  For a security token
 that does not define an explicit end time for its validity period, a
 <b>WS_DATETIME</b> with a tick count of 0 is returned.
 
@@ -115,7 +115,7 @@ point (such as a signature using that token).
 
 ### -field WS_SECURITY_TOKEN_PROPERTY_SYMMETRIC_KEY
 
-The accompanying <b>value</b> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> function is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_bytes">WS_BYTES</a> structure containing
+The accompanying <b>value</b> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetsecuritytokenproperty">WsGetSecurityTokenProperty</a> function is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_bytes">WS_BYTES</a> structure containing
                     the raw key data of the symmetric token key. This property is available when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_token_property_id">WS_SECURITY_TOKEN_PROPERTY_KEY_TYPE</a> is
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_key_type">WS_SECURITY_KEY_TYPE_SYMMETRIC</a>.
                 

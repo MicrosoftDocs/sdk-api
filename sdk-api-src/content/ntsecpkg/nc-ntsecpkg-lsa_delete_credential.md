@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteCredential, DeleteCredential callback function [Security], LSA_DELETE_CREDENTIAL, LSA_DELETE_CREDENTIAL callback, _lsa_deletecredential, ntsecpkg/DeleteCredential, security.deletecredential
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/DeleteCredential"
+f1_keywords:
+- ntsecpkg/DeleteCredential
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - DeleteCredential
+- DeleteCredential
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ This function is not used by newer authentication packages, such as Kerberos.
 ### -param LogonId [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> structure containing the session ID of the logon session from which the credential is to be deleted.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure containing the session ID of the logon session from which the credential is to be deleted.
 
 
 ### -param AuthenticationPackage [in]
@@ -130,11 +130,11 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_dispatch_table">LSA_DISPATCH_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_dispatch_table">LSA_DISPATCH_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
  
 
  

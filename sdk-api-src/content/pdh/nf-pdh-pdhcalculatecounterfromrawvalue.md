@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhCalculateCounterFromRawValue, PdhCalculateCounterFromRawValue function [Perf], _win32_pdhcalculatecounterfromrawvalue, base.pdhcalculatecounterfromrawvalue, pdh/PdhCalculateCounterFromRawValue, perf.pdhcalculatecounterfromrawvalue
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhCalculateCounterFromRawValue"
+f1_keywords:
+- pdh/PdhCalculateCounterFromRawValue
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhCalculateCounterFromRawValue
+- PdhCalculateCounterFromRawValue
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -153,18 +153,18 @@ Multiply the final value by 1,000.
 
 ### -param rawValue1 [in]
 
-Raw counter value used to compute the displayable counter value. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_raw_counter">PDH_RAW_COUNTER</a> structure. 
+Raw counter value used to compute the displayable counter value. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter">PDH_RAW_COUNTER</a> structure. 
 
 
 ### -param rawValue2 [in]
 
-Raw counter value used to compute the displayable counter value. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_raw_counter">PDH_RAW_COUNTER</a>. Some counters (for example, rate counters) require two raw values to calculate a displayable value. If the counter type does not require a second value, set this parameter to <b>NULL</b>. This value must be the older of the two raw values.
+Raw counter value used to compute the displayable counter value. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter">PDH_RAW_COUNTER</a>. Some counters (for example, rate counters) require two raw values to calculate a displayable value. If the counter type does not require a second value, set this parameter to <b>NULL</b>. This value must be the older of the two raw values.
 
 
 ### -param fmtValue [out]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_fmt_countervalue">PDH_FMT_COUNTERVALUE</a> structure that receives the calculated counter value.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_fmt_countervalue">PDH_FMT_COUNTERVALUE</a> structure that receives the calculated counter value.
 
 
 ## -returns
@@ -225,11 +225,11 @@ To retrieve the current raw counter value from the query, call the <a href="http
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_fmt_countervalue">PDH_FMT_COUNTERVALUE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_fmt_countervalue">PDH_FMT_COUNTERVALUE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_raw_counter">PDH_RAW_COUNTER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter">PDH_RAW_COUNTER</a>
 
 
 

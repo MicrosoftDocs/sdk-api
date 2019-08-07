@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddDisk, AddDisk method [VDS], AddDisk method [VDS],IVdsPack interface, IVdsPack interface [VDS],AddDisk method, IVdsPack.AddDisk, IVdsPack::AddDisk, base.ivdspack_adddisk, vds/IVdsPack::AddDisk
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsPack.AddDisk"
+f1_keywords:
+- vds/IVdsPack.AddDisk
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsPack.AddDisk
+- IVdsPack.AddDisk
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ The GUID of the disk.
 
 ### -param PartitionStyle [in]
 
-The style can be MBR or GPT. See the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_partition_style">VDS_PARTITION_STYLE</a>enumeration.
+The style can be MBR or GPT. See the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_partition_style">VDS_PARTITION_STYLE</a>enumeration.
 
 
 ### -param bAsHotSpare [in]
@@ -233,11 +233,11 @@ If you add the disk to a dynamic pack, the operation does not create a MSR parti
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_pack_prop">VDS_PACK_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_pack_prop">VDS_PACK_PROP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_partition_style">VDS_PARTITION_STYLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_partition_style">VDS_PARTITION_STYLE</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcAsyncInitializeHandle, RpcAsyncInitializeHandle function [RPC], _rpc_rpcasyncinitializehandle, rpc.rpcasyncinitializehandle, rpcasync/RpcAsyncInitializeHandle
 ms.topic: function
-f1_keywords: 
- - "rpcasync/RpcAsyncInitializeHandle"
+f1_keywords:
+- rpcasync/RpcAsyncInitializeHandle
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcAsyncInitializeHandle
+- RpcAsyncInitializeHandle
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The client calls the 
 <b>RpcAsyncInitializeHandle</b> function to initialize the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_async_state">RPC_ASYNC_STATE</a> structure to be used to make an asynchronous call.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a> structure to be used to make an asynchronous call.
 
 
 ## -parameters
@@ -64,13 +64,13 @@ The client calls the
 ### -param pAsync
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_async_state">RPC_ASYNC_STATE</a> structure that contains asynchronous call information.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a> structure that contains asynchronous call information.
 
 
 ### -param Size
 
 Size of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_async_state">RPC_ASYNC_STATE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a> structure.
 
 
 ## -returns
@@ -129,17 +129,17 @@ The size is either too small or too large.
 
 
 The client creates a new 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_async_state">RPC_ASYNC_STATE</a> structure and a pointer to that structure and calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a> structure and a pointer to that structure and calls 
 <b>RpcAsyncInitializeHandle</b> with the pointer as an input parameter. The 
 <b>RpcAsyncInitializeHandle</b> function initializes the fields that it uses to maintain the state of an asynchronous remote call. When the call to 
 <b>RpcAsyncInitializeHandle</b> returns successfully, the client can set the notification type and any fields related to that notification type in the 
 <b>RPC_ASYNC_STATE</b> structure. The client application uses a pointer to this structure to make an asynchronous call.
 
 The client should not attempt to alter the <b>Size</b>, <b>Signature</b>, <b>Lock</b>, and <b>StubInfo</b> members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_async_state">RPC_ASYNC_STATE</a> structure; doing so will invalidate the handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a> structure; doing so will invalidate the handle.
 
 <div class="alert"><b>Note</b>  In Windows 2000, after an asynchronous call is completed, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_async_state">RPC_ASYNC_STATE</a> structure must be reinitialized prior to being used for another asynchronous call. In Windows XP and later, the 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a> structure must be reinitialized prior to being used for another asynchronous call. In Windows XP and later, the 
 <b>RPC_ASYNC_STATE</b> structure is ready for immediate re-use subsequent to a completed asynchronous call.</div>
 <div> </div>
 
@@ -154,7 +154,7 @@ The client should not attempt to alter the <b>Size</b>, <b>Signature</b>, <b>Loc
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_async_state">RPC_ASYNC_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a>
 
 
 

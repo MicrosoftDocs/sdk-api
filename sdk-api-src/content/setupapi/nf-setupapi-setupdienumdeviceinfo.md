@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiEnumDeviceInfo, SetupDiEnumDeviceInfo function [Device and Driver Installation], devinst.setupdienumdeviceinfo, di-rtns_db6730f9-381a-4da6-91b1-046fec51f270.xml, setupapi/SetupDiEnumDeviceInfo
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiEnumDeviceInfo"
+f1_keywords:
+- setupapi/SetupDiEnumDeviceInfo
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -30,17 +30,17 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-SetupAPI-ClassInstallers-l1-1-0.dll
- - Ext-MS-Win-SetupAPI-ClassInstallers-l1-1-1.dll
- - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+- Setupapi.dll
+- Ext-MS-Win-SetupAPI-ClassInstallers-l1-1-0.dll
+- Ext-MS-Win-SetupAPI-ClassInstallers-l1-1-1.dll
+- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
- - SetupDiEnumDeviceInfo
+- SetupDiEnumDeviceInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetupDiEnumDeviceInfo</b> function returns a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies a device information element in a device information set. 
+The <b>SetupDiEnumDeviceInfo</b> function returns a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies a device information element in a device information set. 
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The <b>SetupDiEnumDeviceInfo</b> function returns a <a href="https://docs.micros
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> for which to return an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents a device information element.
+A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> for which to return an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents a device information element.
 
 
 ### -param MemberIndex [in]
@@ -74,7 +74,7 @@ A zero-based index of the device information element to retrieve.
 
 ### -param DeviceInfoData [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a> structure to receive information about an enumerated device information element. The caller must set <i>DeviceInfoData</i>.<b>cbSize</b> to <code>sizeof(SP_DEVINFO_DATA)</code>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure to receive information about an enumerated device information element. The caller must set <i>DeviceInfoData</i>.<b>cbSize</b> to <code>sizeof(SP_DEVINFO_DATA)</code>.
 
 
 ## -returns
@@ -104,7 +104,7 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupap
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a>
 
 
 

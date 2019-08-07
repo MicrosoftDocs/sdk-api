@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: 05034096-211d-4ee3-a686-dfebfa167814
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PACL_SIZE_INFORMATION, ACL_SIZE_INFORMATION, ACL_SIZE_INFORMATION structure [Security], PACL_SIZE_INFORMATION, PACL_SIZE_INFORMATION structure pointer [Security], _ACL_SIZE_INFORMATION, _win32_acl_size_information_str, security.acl_size_information, winnt/ACL_SIZE_INFORMATION, winnt/PACL_SIZE_INFORMATION"
+ms.keywords: '*PACL_SIZE_INFORMATION, ACL_SIZE_INFORMATION, ACL_SIZE_INFORMATION structure [Security], PACL_SIZE_INFORMATION, PACL_SIZE_INFORMATION structure pointer [Security], _ACL_SIZE_INFORMATION, _win32_acl_size_information_str, security.acl_size_information, winnt/ACL_SIZE_INFORMATION, winnt/PACL_SIZE_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winnt/ACL_SIZE_INFORMATION"
+f1_keywords:
+- winnt/ACL_SIZE_INFORMATION
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - ACL_SIZE_INFORMATION
+- ACL_SIZE_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: ACL_SIZE_INFORMATION
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ACL_SIZE_INFORMATION</b> structure contains information about the size of an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> structure.
+The <b>ACL_SIZE_INFORMATION</b> structure contains information about the size of an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ The number of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly
 
 ### -field AclBytesInUse
 
-The number of bytes in the ACL actually used to store the ACEs and <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> structure. This may be less than the total number of bytes allocated to the ACL.
+The number of bytes in the ACL actually used to store the ACEs and <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure. This may be less than the total number of bytes allocated to the ACL.
 
 
 ### -field AclBytesFree
@@ -79,15 +79,15 @@ The number of unused bytes in the ACL.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_acl_information_class">ACL_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-acl_information_class">ACL_INFORMATION_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl_revision_information">ACL_REVISION_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl_revision_information">ACL_REVISION_INFORMATION</a>
 
 
 

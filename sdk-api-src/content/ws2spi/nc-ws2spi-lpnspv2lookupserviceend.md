@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPNSPV2LOOKUPSERVICEEND, NSPv2LookupServiceEnd, NSPv2LookupServiceEnd function [Winsock], winsock.nspv2lookupserviceend, ws2spi/NSPv2LookupServiceEnd
 ms.topic: callback
-f1_keywords: 
- - "ws2spi/NSPv2LookupServiceEnd"
+f1_keywords:
+- ws2spi/NSPv2LookupServiceEnd
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ws2spi.h
+- Ws2spi.h
 api_name:
- - NSPv2LookupServiceEnd
+- NSPv2LookupServiceEnd
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -161,7 +161,7 @@ In Windows Sockets 2, conflicting error codes are defined for <b>WSAECANCELLED</
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaqueryset2w">WSAQUERYSET2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaqueryset2w">WSAQUERYSET2</a>
 
 
 

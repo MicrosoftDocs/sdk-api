@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 4956e003-7f52-40af-8f6b-b1b73ba2a897, MFNETSOURCE_AVGBANDWIDTHBPS_ID, MFNETSOURCE_BUFFERINGCOUNT_ID, MFNETSOURCE_BUFFERPROGRESS_ID, MFNETSOURCE_BUFFERSIZE_ID, MFNETSOURCE_BYTESRECEIVED_ID, MFNETSOURCE_CACHE_STATE_ID, MFNETSOURCE_CONTENTBITRATE_ID, MFNETSOURCE_DOWNLOADPROGRESS_ID, MFNETSOURCE_INCORRECTLYSIGNEDPACKETS_ID, MFNETSOURCE_LASTBWSWITCHTS_ID, MFNETSOURCE_LINKBANDWIDTH_ID, MFNETSOURCE_LOSTPACKETS_ID, MFNETSOURCE_MAXBITRATE_ID, MFNETSOURCE_OUTPACKETS_ID, MFNETSOURCE_PROTOCOL_ID, MFNETSOURCE_RECEPTION_QUALITY_ID, MFNETSOURCE_RECOVEREDBYECCPACKETS_ID, MFNETSOURCE_RECOVEREDBYRTXPACKETS_ID, MFNETSOURCE_RECOVEREDPACKETS_ID, MFNETSOURCE_RECVPACKETS_ID, MFNETSOURCE_RECVRATE_ID, MFNETSOURCE_RESENDSRECEIVED_ID, MFNETSOURCE_RESENDSREQUESTED_ID, MFNETSOURCE_SEEKRANGEEND_ID, MFNETSOURCE_SEEKRANGESTART_ID, MFNETSOURCE_SIGNEDSESSION_ID, MFNETSOURCE_SPEEDFACTOR_ID, MFNETSOURCE_STATISTICS_IDS, MFNETSOURCE_STATISTICS_IDS enumeration [Media Foundation], MFNETSOURCE_TRANSPORT_ID, MFNETSOURCE_VBR_ID, mf.mfnetsource_statistics_ids, mfidl/MFNETSOURCE_AVGBANDWIDTHBPS_ID, mfidl/MFNETSOURCE_BUFFERINGCOUNT_ID, mfidl/MFNETSOURCE_BUFFERPROGRESS_ID, mfidl/MFNETSOURCE_BUFFERSIZE_ID, mfidl/MFNETSOURCE_BYTESRECEIVED_ID, mfidl/MFNETSOURCE_CACHE_STATE_ID, mfidl/MFNETSOURCE_CONTENTBITRATE_ID, mfidl/MFNETSOURCE_DOWNLOADPROGRESS_ID, mfidl/MFNETSOURCE_INCORRECTLYSIGNEDPACKETS_ID, mfidl/MFNETSOURCE_LASTBWSWITCHTS_ID, mfidl/MFNETSOURCE_LINKBANDWIDTH_ID, mfidl/MFNETSOURCE_LOSTPACKETS_ID, mfidl/MFNETSOURCE_MAXBITRATE_ID, mfidl/MFNETSOURCE_OUTPACKETS_ID, mfidl/MFNETSOURCE_PROTOCOL_ID, mfidl/MFNETSOURCE_RECEPTION_QUALITY_ID, mfidl/MFNETSOURCE_RECOVEREDBYECCPACKETS_ID, mfidl/MFNETSOURCE_RECOVEREDBYRTXPACKETS_ID, mfidl/MFNETSOURCE_RECOVEREDPACKETS_ID, mfidl/MFNETSOURCE_RECVPACKETS_ID, mfidl/MFNETSOURCE_RECVRATE_ID, mfidl/MFNETSOURCE_RESENDSRECEIVED_ID, mfidl/MFNETSOURCE_RESENDSREQUESTED_ID, mfidl/MFNETSOURCE_SEEKRANGEEND_ID, mfidl/MFNETSOURCE_SEEKRANGESTART_ID, mfidl/MFNETSOURCE_SIGNEDSESSION_ID, mfidl/MFNETSOURCE_SPEEDFACTOR_ID, mfidl/MFNETSOURCE_STATISTICS_IDS, mfidl/MFNETSOURCE_TRANSPORT_ID, mfidl/MFNETSOURCE_VBR_ID
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MFNETSOURCE_STATISTICS_IDS"
+f1_keywords:
+- mfidl/MFNETSOURCE_STATISTICS_IDS
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFNETSOURCE_STATISTICS_IDS
+- MFNETSOURCE_STATISTICS_IDS
 product: Windows
 targetos: Windows
 req.typenames: MFNETSOURCE_STATISTICS_IDS
@@ -125,19 +125,19 @@ The total number of bytes received (<b>ULONGLONG</b>, <b>VT_UI8</b>).
 
 ### -field MFNETSOURCE_PROTOCOL_ID
 
-The type of control protocol used to receive the data (<b>LONG</b>, <b>VT_I4</b>). The value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfnetsource_protocol_type">MFNETSOURCE_PROTOCOL_TYPE</a> enumeration.
+The type of control protocol used to receive the data (<b>LONG</b>, <b>VT_I4</b>). The value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_protocol_type">MFNETSOURCE_PROTOCOL_TYPE</a> enumeration.
           
 
 
 ### -field MFNETSOURCE_TRANSPORT_ID
 
-The type of control protocol used to receive the data (<b>LONG</b>, <b>VT_I4</b>). The value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfnetsource_transport_type">MFNETSOURCE_TRANSPORT_TYPE</a> enumeration.
+The type of control protocol used to receive the data (<b>LONG</b>, <b>VT_I4</b>). The value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_transport_type">MFNETSOURCE_TRANSPORT_TYPE</a> enumeration.
           
 
 
 ### -field MFNETSOURCE_CACHE_STATE_ID
 
-The status of cache for a media file or entry (<b>LONG</b>, <b>VT_I4</b>). The value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfnetsource_cache_state">MFNETSOURCE_CACHE_STATE</a> enumeration.
+The status of cache for a media file or entry (<b>LONG</b>, <b>VT_I4</b>). The value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_cache_state">MFNETSOURCE_CACHE_STATE</a> enumeration.
           
 
 

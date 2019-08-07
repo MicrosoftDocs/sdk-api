@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10EffectPass interface, ID3D10EffectPass interface [Direct3D 10],GetDesc method, ID3D10EffectPass.GetDesc, ID3D10EffectPass::GetDesc, d144db62-661e-4008-27bf-01ee2d40f810, d3d10effect/ID3D10EffectPass::GetDesc, direct3d10.id3d10effectpass_getdesc
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectPass.GetDesc"
+f1_keywords:
+- d3d10effect/ID3D10EffectPass.GetDesc
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectPass.GetDesc
+- ID3D10EffectPass.GetDesc
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ Get a pass description.
 
 ### -param pDesc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_pass_desc">D3D10_PASS_DESC</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_pass_desc">D3D10_PASS_DESC</a>*</b>
 
-A pointer to a pass description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_pass_desc">D3D10_PASS_DESC</a>).
+A pointer to a pass description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_pass_desc">D3D10_PASS_DESC</a>).
 
 
 ## -returns

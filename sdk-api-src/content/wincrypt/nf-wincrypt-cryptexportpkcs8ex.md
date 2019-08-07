@@ -2,7 +2,7 @@
 UID: NF:wincrypt.CryptExportPKCS8Ex
 title: CryptExportPKCS8Ex function (wincrypt.h)
 author: windows-sdk-content
-description: Exports the private key in PKCS #8 format.
+description: Exports the private key in PKCS
 old-location: security\cryptexportpkcs8ex.htm
 tech.root: SecCrypto
 ms.assetid: 82fee86a-8704-4f22-8f11-f89509c5a0aa
@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptExportPKCS8Ex, CryptExportPKCS8Ex function [Security], security.cryptexportpkcs8ex, wincrypt/CryptExportPKCS8Ex
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptExportPKCS8Ex"
+f1_keywords:
+- wincrypt/CryptExportPKCS8Ex
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptExportPKCS8Ex
+- CryptExportPKCS8Ex
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The <b>CryptExportPKCS8Ex</b> function exports the <a href="https://docs.microso
 
 ### -param psExportParams [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_pkcs8_export_params">CRYPT_PKCS8_EXPORT_PARAMS</a> structure that contains information about the key to export.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_pkcs8_export_params">CRYPT_PKCS8_EXPORT_PARAMS</a> structure that contains information about the key to export.
 
 
 ### -param dwFlags [in]
@@ -156,7 +156,7 @@ This function is only supported for asymmetric keys.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_pkcs8_export_params">CRYPT_PKCS8_EXPORT_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_pkcs8_export_params">CRYPT_PKCS8_EXPORT_PARAMS</a>
 
 
 

@@ -4,8 +4,8 @@ title: ILLoadFromStreamEx
 ms.date: 01/30/19
 ms.keywords: ILLoadFromStreamEx
 ms.topic: language-reference
-f1_keywords: 
- - "shlobj_core/ILLoadFromStreamEx"
+f1_keywords:
+- shlobj_core/ILLoadFromStreamEx
 targetos: Windows
 product: Windows
 req.assembly: 
@@ -28,13 +28,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - ILLoadFromStreamEx
+- ILLoadFromStreamEx
 ---
 
 # ILLoadFromStreamEx function
@@ -46,7 +46,7 @@ api_name:
     is available for use in the operating systems specified in the Requirements section. It may be altered or 
     unavailable in subsequent versions.]
 
-Loads an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> from an 
+Loads an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> from an 
     <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
 
 
@@ -57,7 +57,7 @@ Loads an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shty
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface from which the  
-      <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> loads.
+      <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> loads.
 
 
 ### -param ppidl
@@ -65,7 +65,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/
 Type: <b>PIDLIST_RELATIVE*</b>
 
 When this method returns and succeeds, contains the resulting relative 
-      <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a>. If it fails, contains 
+      <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a>. If it fails, contains 
       <b>NULL</b>.
 
 

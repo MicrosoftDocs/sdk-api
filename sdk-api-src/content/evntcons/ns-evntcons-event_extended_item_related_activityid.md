@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: cabc11ca-e65e-4ffd-9832-7fb4f77417e4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID structure [ETW], PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID structure pointer [ETW], base.event_extended_item_related_activityid, etw.event_extended_item_related_activityid, evntcons/EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, evntcons/PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID"
+ms.keywords: '*PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID structure [ETW], PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID structure pointer [ETW], base.event_extended_item_related_activityid, etw.event_extended_item_related_activityid, evntcons/EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, evntcons/PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID'
 ms.topic: struct
-f1_keywords: 
- - "evntcons/EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID"
+f1_keywords:
+- evntcons/EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID
 req.header: evntcons.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evntcons.h
+- Evntcons.h
 api_name:
- - EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID
+- EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID
 product: Windows
 targetos: Windows
 req.typenames: EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, *PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID
@@ -69,7 +69,7 @@ A GUID that uniquely identifies the parent activity to which this activity is re
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
 
 
 

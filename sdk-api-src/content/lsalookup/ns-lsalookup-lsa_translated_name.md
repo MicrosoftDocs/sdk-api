@@ -8,10 +8,10 @@ tech.root: SecMgmt
 ms.assetid: edea8317-5cdf-4d1e-9e6d-fcf17b91adb7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PLSA_TRANSLATED_NAME, LSA_TRANSLATED_NAME, LSA_TRANSLATED_NAME structure [Security], PLSA_TRANSLATED_NAME, PLSA_TRANSLATED_NAME structure pointer [Security], SidTypeDomain, SidTypeInvalid, SidTypeUnknown, SidTypeWellKnownGroup, _lsa_lsa_translated_name, lsalookup/LSA_TRANSLATED_NAME, lsalookup/PLSA_TRANSLATED_NAME, security.lsa_translated_name"
+ms.keywords: '*PLSA_TRANSLATED_NAME, LSA_TRANSLATED_NAME, LSA_TRANSLATED_NAME structure [Security], PLSA_TRANSLATED_NAME, PLSA_TRANSLATED_NAME structure pointer [Security], SidTypeDomain, SidTypeInvalid, SidTypeUnknown, SidTypeWellKnownGroup, _lsa_lsa_translated_name, lsalookup/LSA_TRANSLATED_NAME, lsalookup/PLSA_TRANSLATED_NAME, security.lsa_translated_name'
 ms.topic: struct
-f1_keywords: 
- - "lsalookup/LSA_TRANSLATED_NAME"
+f1_keywords:
+- lsalookup/LSA_TRANSLATED_NAME
 req.header: lsalookup.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - LsaLookup.h
+- LsaLookup.h
 api_name:
- - LSA_TRANSLATED_NAME
+- LSA_TRANSLATED_NAME
 product: Windows
 targetos: Windows
 req.typenames: LSA_TRANSLATED_NAME, *PLSA_TRANSLATED_NAME
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>LSA_TRANSLATED_NAME</b> structure is used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupsids">LsaLookupSids</a> function to return information about the account identified by a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupsids">LsaLookupSids</a> function to return information about the account identified by a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ The <b>LSA_TRANSLATED_NAME</b> structure is used with the
 ### -field Use
 
 A value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SID_NAME_USE</a> enumeration that identifies the type of SID. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a> enumeration that identifies the type of SID. 
 
 
 
@@ -122,7 +122,7 @@ The <b>Name</b> member is valid, but the <b>DomainIndex</b> member is not valid 
 ### -field Name
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the isolated name of the translated SID. An isolated name is a user, group, or local group account name without the domain name (for example, user_name, rather than Acctg\user_name).
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the isolated name of the translated SID. An isolated name is a user, group, or local group account name without the domain name (for example, user_name, rather than Acctg\user_name).
 
 
 ### -field DomainIndex
@@ -146,7 +146,7 @@ If there is no corresponding domain for an account, this member contains a negat
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a>
 
 
 
@@ -154,7 +154,7 @@ If there is no corresponding domain for an account, this member contains a negat
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SID_NAME_USE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a>
  
 
  

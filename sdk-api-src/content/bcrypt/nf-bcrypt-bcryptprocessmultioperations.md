@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCryptProcessMultiOperations, BCryptProcessMultiOperations function [Security], bcrypt/BCryptProcessMultiOperations, security.bcryptprocessmultioperation
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptProcessMultiOperations"
+f1_keywords:
+- bcrypt/BCryptProcessMultiOperations
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
- - Ksecdd.sys
+- Bcrypt.dll
+- Ksecdd.sys
 api_name:
- - BCryptProcessMultiOperations
+- BCryptProcessMultiOperations
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,12 +67,12 @@ A handle to a multi-object state, such as one created by the <a href="https://do
 
 ### -param operationType [in]
 
-A <b>BCRYPT_OPERATION_TYPE_*</b> value. Currently the only defined value is <b>BCRYPT_OPERATION_TYPE_HASH</b>. This value identifies the <i>hObject</i> parameter as a multi-hash object and the <i>pOperations</i> pointer as pointing to an array of <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_multi_hash_operation">BCRYPT_MULTI_HASH_OPERATION</a> elements.
+A <b>BCRYPT_OPERATION_TYPE_*</b> value. Currently the only defined value is <b>BCRYPT_OPERATION_TYPE_HASH</b>. This value identifies the <i>hObject</i> parameter as a multi-hash object and the <i>pOperations</i> pointer as pointing to an array of <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_multi_hash_operation">BCRYPT_MULTI_HASH_OPERATION</a> elements.
 
 
 ### -param pOperations [in]
 
-A pointer to an array of operation command structures. For hashing, it is a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_multi_hash_operation">BCRYPT_MULTI_HASH_OPERATION</a> structures.
+A pointer to an array of operation command structures. For hashing, it is a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_multi_hash_operation">BCRYPT_MULTI_HASH_OPERATION</a> structures.
 
 
 ### -param cbOperations [in]
@@ -101,7 +101,7 @@ The relative order of two operations that operate on different elements of the a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_multi_hash_operation">BCRYPT_MULTI_HASH_OPERATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_multi_hash_operation">BCRYPT_MULTI_HASH_OPERATION</a>
 
 
 

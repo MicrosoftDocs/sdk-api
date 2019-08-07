@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_ACCESS_STATE_PROP_ID, CERT_AIA_URL_RETRIEVED_PROP_ID, CERT_ARCHIVED_KEY_HASH_PROP_ID, CERT_ARCHIVED_PROP_ID, CERT_AUTHORITY_INFO_ACCESS_PROP_ID, CERT_AUTO_ENROLL_PROP_ID, CERT_AUTO_ENROLL_RETRY_PROP_ID, CERT_BACKED_UP_PROP_ID, CERT_CA_DISABLE_CRL_PROP_ID, CERT_CA_OCSP_AUTHORITY_INFO_ACCESS_PROP_ID, CERT_CROSS_CERT_DIST_POINTS_PROP_ID, CERT_CTL_USAGE_PROP_ID, CERT_DATE_STAMP_PROP_ID, CERT_DESCRIPTION_PROP_ID, CERT_EFS_PROP_ID, CERT_ENHKEY_USAGE_PROP_ID, CERT_ENROLLMENT_PROP_ID, CERT_EXTENDED_ERROR_INFO_PROP_ID, CERT_FORTEZZA_DATA_PROP_ID, CERT_FRIENDLY_NAME_PROP_ID, CERT_HASH_PROP_ID, CERT_HCRYPTPROV_OR_NCRYPT_KEY_HANDLE_PROP_ID, CERT_HCRYPTPROV_TRANSFER_PROP_ID, CERT_IE30_RESERVED_PROP_ID, CERT_ISSUER_PUBLIC_KEY_MD5_HASH_PROP_ID, CERT_ISSUER_SERIAL_NUMBER_MD5_HASH_PROP_ID, CERT_KEY_CONTEXT_PROP_ID, CERT_KEY_IDENTIFIER_PROP_ID, CERT_KEY_PROV_HANDLE_PROP_ID, CERT_KEY_PROV_INFO_PROP_ID, CERT_KEY_SPEC_PROP_ID, CERT_MD5_HASH_PROP_ID, CERT_NCRYPT_KEY_HANDLE_PROP_ID, CERT_NCRYPT_KEY_HANDLE_TRANSFER_PROP_ID, CERT_NEW_KEY_PROP_ID, CERT_NEXT_UPDATE_LOCATION_PROP_ID, CERT_NO_AUTO_EXPIRE_CHECK_PROP_ID, CERT_OCSP_CACHE_PREFIX_PROP_ID, CERT_OCSP_RESPONSE_PROP_ID, CERT_PUBKEY_ALG_PARA_PROP_ID, CERT_PUBKEY_HASH_RESERVED_PROP_ID, CERT_PUB_KEY_CNG_ALG_BIT_LENGTH_PROP_ID, CERT_PVK_FILE_PROP_ID, CERT_RENEWAL_PROP_ID, CERT_REQUEST_ORIGINATOR_PROP_ID, CERT_ROOT_PROGRAM_CERT_POLICIES_PROP_ID, CERT_ROOT_PROGRAM_NAME_CONSTRAINTS_PROP_ID, CERT_SHA1_HASH_PROP_ID, CERT_SIGNATURE_HASH_PROP_ID, CERT_SIGN_HASH_CNG_ALG_PROP_ID, CERT_SMART_CARD_DATA_PROP_ID, CERT_SMART_CARD_ROOT_INFO_PROP_ID, CERT_SOURCE_LOCATION_PROP_ID, CERT_SOURCE_URL_PROP_ID, CERT_SUBJECT_DISABLE_CRL_PROP_ID, CERT_SUBJECT_INFO_ACCESS_PROP_ID, CERT_SUBJECT_NAME_MD5_HASH_PROP_ID, CERT_SUBJECT_OCSP_AUTHORITY_INFO_ACCESS_PROP_ID, CERT_SUBJECT_PUBLIC_KEY_MD5_HASH_PROP_ID, CERT_SUBJECT_PUB_KEY_BIT_LENGTH_PROP_ID, CertSetCertificateContextProperty, CertSetCertificateContextProperty function [Security], _crypto2_certsetcertificatecontextproperty, security.certsetcertificatecontextproperty, wincrypt/CertSetCertificateContextProperty
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertSetCertificateContextProperty"
+f1_keywords:
+- wincrypt/CertSetCertificateContextProperty
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertSetCertificateContextProperty
+- CertSetCertificateContextProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>CertSetCertificateContextProperty</b> function sets an extended property 
 ### -param pCertContext [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
 
 
 ### -param dwPropId [in]
@@ -155,7 +155,7 @@ Contains the list of <a href="https://docs.microsoft.com/windows/desktop/SecGlos
 Data type of <i>pvData</i>: A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure.
 
 Sets the location of the cross certificates. This value is only applicable to certificates and not to <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs) or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs). The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure contains an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1)-encoded 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cross_cert_dist_points_info">CROSS_CERT_DIST_POINTS_INFO</a> structure that is encoded by using 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cross_cert_dist_points_info">CROSS_CERT_DIST_POINTS_INFO</a> structure that is encoded by using 
 the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function with a X509_CROSS_CERT_DIST_POINTS value for the <i>lpszStuctType</i> parameter.
 
 
@@ -165,7 +165,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt
 Data type of <i>pvData</i>: A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure.
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure contains an ASN.1-encoded 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CTL_USAGE</a> structure. This structure is encoded by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function with the X509_ENHANCED_KEY_USAGE value set.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a> structure. This structure is encoded by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function with the X509_ENHANCED_KEY_USAGE value set.
 
 
 
@@ -195,7 +195,7 @@ This identifier is reserved.
 
 Data type of <i>pvData</i>: A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure.
 
-A property that indicates that the <i>pvData</i> parameter points to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains an ASN.1-encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CERT_ENHKEY_USAGE</a> structure. This structure is encoded by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function with the X509_ENHANCED_KEY_USAGE value set.
+A property that indicates that the <i>pvData</i> parameter points to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains an ASN.1-encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a> structure. This structure is encoded by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function with the X509_ENHANCED_KEY_USAGE value set.
 
 
 
@@ -331,11 +331,11 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy
 
 #### CERT_KEY_CONTEXT_PROP_ID
 
-Data type of <i>pvData</i>: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_context">CERT_KEY_CONTEXT</a> structure.
+Data type of <i>pvData</i>: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a> structure.
 
 The structure specifies the certificate's private key. It contains both the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> and key specification for the private key. For more information about the <b>hCryptProv</b> member and <i>dwFlags</i> settings, see CERT_KEY_PROV_HANDLE_PROP_ID, later in this topic.
 
-<div class="alert"><b>Note</b>  More <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_context">CERT_KEY_CONTEXT</a> structure members can be added for this property. If so, the <b>cbSize</b> member value will be adjusted accordingly. The <b>cbSize</b> member must be set to the size of the <b>CERT_KEY_CONTEXT</b> structure.</div>
+<div class="alert"><b>Note</b>  More <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a> structure members can be added for this property. If so, the <b>cbSize</b> member value will be adjusted accordingly. The <b>cbSize</b> member must be set to the size of the <b>CERT_KEY_CONTEXT</b> structure.</div>
 <div> </div>
 
 
@@ -352,14 +352,14 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt
 
 Data type of <i>pvData</i>:  A  <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> value.
 
-The <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> handle for the certificate's private key is set. The <b>hCryptProv</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_context">CERT_KEY_CONTEXT</a> structure is updated if it exists. If it does not exist, it is created with <b>dwKeySpec</b> and initialized by CERT_KEY_PROV_INFO_PROP_ID. If CERT_STORE_NO_CRYPT_RELEASE_FLAG is not set, the <b>hCryptProv</b> value is implicitly released either when the property is set to <b>NULL</b> or on the final freeing of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure.
+The <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> handle for the certificate's private key is set. The <b>hCryptProv</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a> structure is updated if it exists. If it does not exist, it is created with <b>dwKeySpec</b> and initialized by CERT_KEY_PROV_INFO_PROP_ID. If CERT_STORE_NO_CRYPT_RELEASE_FLAG is not set, the <b>hCryptProv</b> value is implicitly released either when the property is set to <b>NULL</b> or on the final freeing of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
 
 
 
 #### CERT_KEY_PROV_INFO_PROP_ID
 
-Data type of <i>pvData</i>: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
+Data type of <i>pvData</i>: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
 
 The structure specifies the certificate's private key.
 
@@ -369,7 +369,7 @@ The structure specifies the certificate's private key.
 
 Data type of <i>pvData</i>: A pointer to a <b>DWORD</b> value.
 
-The <b>DWORD</b> value that specifies the private key. The <b>dwKeySpec</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_context">CERT_KEY_CONTEXT</a> structure is updated if it exists. If it does not, it is created with <b>hCryptProv</b> set to zero.
+The <b>DWORD</b> value that specifies the private key. The <b>dwKeySpec</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a> structure is updated if it exists. If it does not, it is created with <b>hCryptProv</b> set to zero.
 
 
 
@@ -407,7 +407,7 @@ This identifier is reserved.
 Data type of <i>pvData</i>: A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure.
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure contains an ASN.1-encoded 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure that is encoded by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function with the X509_ALTERNATE_NAME value set.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure that is encoded by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function with the X509_ALTERNATE_NAME value set.
 
 CERT_NEXT_UPDATE_LOCATION_PROP_ID is currently used only with CTLs.
 
@@ -429,7 +429,7 @@ This identifier is reserved.
 
 Data type of <i>pvData</i>: A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure.
 
-This property sets the encoded <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cert_server_ocsp_response_context">online certificate status protocol</a> (OCSP) response from a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_server_ocsp_response_context">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> for this certificate.
+This property sets the encoded <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cert_server_ocsp_response_context">online certificate status protocol</a> (OCSP) response from a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_server_ocsp_response_context">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> for this certificate.
 
 
 
@@ -486,7 +486,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy
 
 Data type of <i>pvData</i>: A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure.
 
-Returns a pointer to an encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_policies_info">CERT_POLICIES_INFO</a> structure that contains the application policies of the root certificate for the context. This property can be decoded by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> function with the <i>lpszStructType</i> parameter set to <b>X509_CERT_POLICIES</b> and the <i>dwCertEncodingType</i> parameter set to a combination of <b>X509_ASN_ENCODING</b> bitwise <b>OR</b> <b>PKCS_7_ASN_ENCODING</b>.
+Returns a pointer to an encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_policies_info">CERT_POLICIES_INFO</a> structure that contains the application policies of the root certificate for the context. This property can be decoded by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> function with the <i>lpszStructType</i> parameter set to <b>X509_CERT_POLICIES</b> and the <i>dwCertEncodingType</i> parameter set to a combination of <b>X509_ASN_ENCODING</b> bitwise <b>OR</b> <b>PKCS_7_ASN_ENCODING</b>.
 
 
 
@@ -561,7 +561,7 @@ This identifier is reserved.
 
 Data type of <i>pvData</i>: A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure.
 
-This property sets the subject information access extension of the certificate context as an encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_authority_info_access">CERT_SUBJECT_INFO_ACCESS</a> structure.
+This property sets the subject information access extension of the certificate context as an encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_authority_info_access">CERT_SUBJECT_INFO_ACCESS</a> structure.
 
 
 
@@ -637,7 +637,7 @@ If the function fails, the function returns <b>FALSE</b>. For extended error inf
 </dl>
 </td>
 <td width="60%">
-The property is not valid. The identifier specified was greater than 0x0000FFFF, or, for the CERT_KEY_CONTEXT_PROP_ID property, a <b>cbSize</b> member that is not valid was specified in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_context">CERT_KEY_CONTEXT</a> structure.
+The property is not valid. The identifier specified was greater than 0x0000FFFF, or, for the CERT_KEY_CONTEXT_PROP_ID property, a <b>cbSize</b> member that is not valid was specified in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a> structure.
 
 </td>
 </tr>
@@ -736,23 +736,23 @@ For an example that uses this function, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_info">CERT_ALT_NAME_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CERT_ENHKEY_USAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_context">CERT_KEY_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cross_cert_dist_points_info">CROSS_CERT_DIST_POINTS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cross_cert_dist_points_info">CROSS_CERT_DIST_POINTS_INFO</a>
 
 
 
@@ -764,11 +764,11 @@ For an example that uses this function, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CTL_USAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a>
 
 
 

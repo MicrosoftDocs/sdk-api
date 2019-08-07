@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_CERT_CREDENTIAL_TYPE, WS_CERT_CREDENTIAL_TYPE enumeration [Web Services for Windows], WS_CUSTOM_CERT_CREDENTIAL_TYPE, WS_SUBJECT_NAME_CERT_CREDENTIAL_TYPE, WS_THUMBPRINT_CERT_CREDENTIAL_TYPE, webservices/WS_CERT_CREDENTIAL_TYPE, webservices/WS_CUSTOM_CERT_CREDENTIAL_TYPE, webservices/WS_SUBJECT_NAME_CERT_CREDENTIAL_TYPE, webservices/WS_THUMBPRINT_CERT_CREDENTIAL_TYPE, wsw.ws_cert_credential_type
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_CERT_CREDENTIAL_TYPE"
+f1_keywords:
+- webservices/WS_CERT_CREDENTIAL_TYPE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_CERT_CREDENTIAL_TYPE
+- WS_CERT_CREDENTIAL_TYPE
 product: Windows
 targetos: Windows
 req.typenames: WS_CERT_CREDENTIAL_TYPE
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The type of the certificate credential, used as a selector for
-subtypes of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_cert_credential">WS_CERT_CREDENTIAL</a>.
+subtypes of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_cert_credential">WS_CERT_CREDENTIAL</a>.
             
 
 

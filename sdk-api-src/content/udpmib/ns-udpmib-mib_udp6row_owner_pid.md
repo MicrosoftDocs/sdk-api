@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: d3d02485-381b-4058-b4b9-0a2c9c365f43
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_UDP6ROW_OWNER_PID, MIB_UDP6ROW_OWNER_PID, MIB_UDP6ROW_OWNER_PID structure [MIB], PMIB_UDP6ROW_OWNER_PID, PMIB_UDP6ROW_OWNER_PID structure pointer [MIB], iprtrmib/MIB_UDP6ROW_OWNER_PID, iprtrmib/PMIB_UDP6ROW_OWNER_PID, mib.mib_udp6row_owner_pid, udpmib/MIB_UDP6ROW_OWNER_PID, udpmib/PMIB_UDP6ROW_OWNER_PID"
+ms.keywords: '*PMIB_UDP6ROW_OWNER_PID, MIB_UDP6ROW_OWNER_PID, MIB_UDP6ROW_OWNER_PID structure [MIB], PMIB_UDP6ROW_OWNER_PID, PMIB_UDP6ROW_OWNER_PID structure pointer [MIB], iprtrmib/MIB_UDP6ROW_OWNER_PID, iprtrmib/PMIB_UDP6ROW_OWNER_PID, mib.mib_udp6row_owner_pid, udpmib/MIB_UDP6ROW_OWNER_PID, udpmib/PMIB_UDP6ROW_OWNER_PID'
 ms.topic: struct
-f1_keywords: 
- - "udpmib/MIB_UDP6ROW_OWNER_PID"
+f1_keywords:
+- udpmib/MIB_UDP6ROW_OWNER_PID
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Udpmib.h
- - Iprtrmib.h
+- Udpmib.h
+- Iprtrmib.h
 api_name:
- - MIB_UDP6ROW_OWNER_PID
+- MIB_UDP6ROW_OWNER_PID
 product: Windows
 targetos: Windows
 req.typenames: MIB_UDP6ROW_OWNER_PID, *PMIB_UDP6ROW_OWNER_PID
@@ -87,7 +87,7 @@ The PID of the process that issued a context bind for this endpoint. If this val
 
 
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udp6table_owner_pid">MIB_UDP6TABLE_OWNER_PID</a> structure is returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedudptable">GetExtendedUdpTable</a> with the <i>TableClass</i> parameter set to a  <b>UDP_TABLE_OWNER_PID</b> from the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_udp_table_class">UDP_TABLE_CLASS</a> enumeration and the <i>ulAf</i> parameter set to <b>AF_INET6</b>. The <b>MIB_UDP6TABLE_OWNER_PID</b> structure contains an array of <b>MIB_UDP6ROW_OWNER_PID</b> structures.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udp6table_owner_pid">MIB_UDP6TABLE_OWNER_PID</a> structure is returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedudptable">GetExtendedUdpTable</a> with the <i>TableClass</i> parameter set to a  <b>UDP_TABLE_OWNER_PID</b> from the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-udp_table_class">UDP_TABLE_CLASS</a> enumeration and the <i>ulAf</i> parameter set to <b>AF_INET6</b>. The <b>MIB_UDP6TABLE_OWNER_PID</b> structure contains an array of <b>MIB_UDP6ROW_OWNER_PID</b> structures.
 
 The <b>ucLocalAddr</b> member is stored in  a character array in network byte order. On Windows Vistaand later, the <a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv6addresstostringa">RtlIpv6AddressToString</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv6addresstostringexw">RtlIpv6AddressToStringEx</a> functions may be used to convert the IPv6 address in the <b>ucLocalAddr</b> member to a string without loading the Windows Sockets DLL. 
 
@@ -124,7 +124,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_udp_table_class">UDP_TABLE_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-udp_table_class">UDP_TABLE_CLASS</a>
 
 
 

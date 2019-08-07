@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NTMS_PARTITIONINFORMATION, NTMS_PARTITIONINFORMATION structure [Files], NTMS_PARTITIONINFORMATIONA, NTMS_PARTITIONINFORMATIONW, NTMS_PARTSTATE_ALLOCATED, NTMS_PARTSTATE_AVAILABLE, NTMS_PARTSTATE_COMPLETE, NTMS_PARTSTATE_DECOMMISIONED, NTMS_PARTSTATE_FOREIGN, NTMS_PARTSTATE_IMPORT, NTMS_PARTSTATE_INCOMPATIBLE, NTMS_PARTSTATE_RESERVED, NTMS_PARTSTATE_UNPREPARED, _NTMS_PARTITIONINFORMATIONA, _NTMS_PARTITIONINFORMATIONW, _zaw_ntms_partitioninformation, base.ntms_partitioninformation, fs.ntms_partitioninformation, ntmsapi/NTMS_PARTITIONINFORMATION
 ms.topic: struct
-f1_keywords: 
- - "ntmsapi/NTMS_PARTITIONINFORMATION"
+f1_keywords:
+- ntmsapi/NTMS_PARTITIONINFORMATION
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntmsapi.h
+- Ntmsapi.h
 api_name:
- - NTMS_PARTITIONINFORMATION
- - NTMS_PARTITIONINFORMATIONA
- - NTMS_PARTITIONINFORMATIONW
+- NTMS_PARTITIONINFORMATION
+- NTMS_PARTITIONINFORMATIONA
+- NTMS_PARTITIONINFORMATIONW
 product: Windows
 targetos: Windows
 req.typenames: NTMS_PARTITIONINFORMATIONW
@@ -226,7 +226,7 @@ Number bytes of storage available on this side.
 
 The 
 <b>NTMS_PARTITIONINFORMATION</b> structure is included in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
 
 
@@ -236,7 +236,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
  
 
  

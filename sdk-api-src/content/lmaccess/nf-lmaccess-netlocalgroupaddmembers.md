@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 3, NetLocalGroupAddMembers, NetLocalGroupAddMembers function [Network Management], _win32_netlocalgroupaddmembers, lmaccess/NetLocalGroupAddMembers, netmgmt.netlocalgroupaddmembers
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetLocalGroupAddMembers"
+f1_keywords:
+- lmaccess/NetLocalGroupAddMembers
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
- - Samcli.dll
+- Netapi32.dll
+- Samcli.dll
 api_name:
- - NetLocalGroupAddMembers
+- NetLocalGroupAddMembers
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -94,7 +94,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 <td width="60%">
 Specifies the 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-identifiers">security identifier</a> (SID) of the new local group member. The <i>buf</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_members_info_0">LOCALGROUP_MEMBERS_INFO_0</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_0">LOCALGROUP_MEMBERS_INFO_0</a> structures.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Specifies the
 </td>
 <td width="60%">
 Specifies the domain and name of the new local group member. The <i>buf</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_members_info_3">LOCALGROUP_MEMBERS_INFO_3</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_3">LOCALGROUP_MEMBERS_INFO_3</a> structures.
 
 </td>
 </tr>
@@ -221,11 +221,11 @@ If you are programming for Active Directory, you may be able to call certain Act
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_members_info_0">LOCALGROUP_MEMBERS_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_0">LOCALGROUP_MEMBERS_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_members_info_3">LOCALGROUP_MEMBERS_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_3">LOCALGROUP_MEMBERS_INFO_3</a>
 
 
 

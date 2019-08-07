@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: 17e32c6e-29df-4308-b22d-39e13bc6a2a5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_MODULE, MINIDUMP_MODULE, MINIDUMP_MODULE structure, PMINIDUMP_MODULE, PMINIDUMP_MODULE structure pointer, _MINIDUMP_MODULE, _win32_minidump_module_str, base.minidump_module_str, minidumpapiset/MINIDUMP_MODULE, minidumpapiset/PMINIDUMP_MODULE"
+ms.keywords: '*PMINIDUMP_MODULE, MINIDUMP_MODULE, MINIDUMP_MODULE structure, PMINIDUMP_MODULE, PMINIDUMP_MODULE structure pointer, _MINIDUMP_MODULE, _win32_minidump_module_str, base.minidump_module_str, minidumpapiset/MINIDUMP_MODULE, minidumpapiset/PMINIDUMP_MODULE'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_MODULE"
+f1_keywords:
+- minidumpapiset/MINIDUMP_MODULE
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_MODULE
+- MINIDUMP_MODULE
 product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_MODULE, *PMINIDUMP_MODULE
@@ -82,7 +82,7 @@ The timestamp value of the module executable image, in <b>time_t</b> format.
 ### -field ModuleNameRva
 
 An RVA to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_string">MINIDUMP_STRING</a> structure that specifies the name of the module.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_string">MINIDUMP_STRING</a> structure that specifies the name of the module.
 
 
 ### -field VersionInfo
@@ -120,7 +120,7 @@ Reserved for future use.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_string">MINIDUMP_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_string">MINIDUMP_STRING</a>
 
 
 

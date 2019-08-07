@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTextOutline, GetTextOutline method [Media Foundation], GetTextOutline method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetTextOutline method, IMFTimedTextStyle.GetTextOutline, IMFTimedTextStyle::GetTextOutline, mf.imftimedtextstyle_gettextoutline, mfmediaengine/IMFTimedTextStyle::GetTextOutline
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextStyle.GetTextOutline"
+f1_keywords:
+- mfmediaengine/IMFTimedTextStyle.GetTextOutline
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextStyle.GetTextOutline
+- IMFTimedTextStyle.GetTextOutline
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ Gets the text outline for the timed-text style.
 
 ### -param color [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfargb">MFARGB</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfargb">MFARGB</a>*</b>
 
-A pointer to a variable that receives a <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfargb">MFARGB</a> structure that describes the color.
+A pointer to a variable that receives a <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfargb">MFARGB</a> structure that describes the color.
 
 
 ### -param thickness [out]

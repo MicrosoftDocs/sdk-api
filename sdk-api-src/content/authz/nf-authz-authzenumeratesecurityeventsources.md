@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzEnumerateSecurityEventSources, AuthzEnumerateSecurityEventSources function [Security], authz/AuthzEnumerateSecurityEventSources, security.authzenumeratesecurityeventsources
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzEnumerateSecurityEventSources"
+f1_keywords:
+- authz/AuthzEnumerateSecurityEventSources
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
+- Authz.dll
 api_name:
- - AuthzEnumerateSecurityEventSources
+- AuthzEnumerateSecurityEventSources
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Reserved for future use; set this parameter to zero.
 
 ### -param Buffer [out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a> structures that returns the registered security event sources.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a> structures that returns the registered security event sources.
 
 
 ### -param pdwCount [out]
@@ -95,7 +95,7 @@ If the function fails, it returns <b>FALSE</b>. For extended error information, 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a>
  
 
  

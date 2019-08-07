@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WcmQueryProperty, WcmQueryProperty function [Windows Connection Manager], wcm.wcmqueryproperty, wcmapi/WcmQueryProperty
 ms.topic: function
-f1_keywords: 
- - "wcmapi/WcmQueryProperty"
+f1_keywords:
+- wcmapi/WcmQueryProperty
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Wcmapi.lib
 req.dll: Wcmapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wcmapi.dll
- - Ext-MS-Win-networking-wcmapi-l1-1-0.dll
+- Wcmapi.dll
+- Ext-MS-Win-networking-wcmapi-l1-1-0.dll
 api_name:
- - WcmQueryProperty
+- WcmQueryProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,7 +76,7 @@ The name of the profile. If querying a non-global property (<b>connection_cost</
 
 ### -param Property [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-_wcm_property">WCM_PROPERTY</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-wcm_property">WCM_PROPERTY</a></b>
 
 The WCM property to query.
 
@@ -127,37 +127,37 @@ The type of data stored in the <i>ppData</i> parameter will vary, depending on w
 <tr>
 <td>wcm_global_property_domain_policy</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_policy_value">WCM_POLICY_VALUE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_policy_value">WCM_POLICY_VALUE</a>
 </td>
 </tr>
 <tr>
 <td>wcm_global_property_minimize_policy</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_policy_value">WCM_POLICY_VALUE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_policy_value">WCM_POLICY_VALUE</a>
 </td>
 </tr>
 <tr>
 <td>wcm_global_property_roaming_policy</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_policy_value">WCM_POLICY_VALUE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_policy_value">WCM_POLICY_VALUE</a>
 </td>
 </tr>
 <tr>
 <td>wcm_global_property_powermanagement_policy</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_policy_value">WCM_POLICY_VALUE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_policy_value">WCM_POLICY_VALUE</a>
 </td>
 </tr>
 <tr>
 <td>wcm_intf_property_connection_cost</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_connection_cost_data">WCM_CONNECTION_COST_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_connection_cost_data">WCM_CONNECTION_COST_DATA</a>
 </td>
 </tr>
 <tr>
 <td>wcm_intf_property_dataplan_status</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_dataplan_status">WCM_DATAPLAN_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_dataplan_status">WCM_DATAPLAN_STATUS</a>
 </td>
 </tr>
 <tr>
@@ -175,7 +175,7 @@ The type of data stored in the <i>ppData</i> parameter will vary, depending on w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-_wcm_property">WCM_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-wcm_property">WCM_PROPERTY</a>
  
 
  

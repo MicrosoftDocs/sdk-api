@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: bb4548fb-70e5-4726-bc92-adb7ba7be0e4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPROVIDER_ENUMERATION_INFO, PROVIDER_ENUMERATION_INFO, PROVIDER_ENUMERATION_INFO structure [ETW], etw.provider_enumeration_info_struct, tdh.provider_enumeration_info_struct, tdh/PROVIDER_ENUMERATION_INFO"
+ms.keywords: '*PPROVIDER_ENUMERATION_INFO, PROVIDER_ENUMERATION_INFO, PROVIDER_ENUMERATION_INFO structure [ETW], etw.provider_enumeration_info_struct, tdh.provider_enumeration_info_struct, tdh/PROVIDER_ENUMERATION_INFO'
 ms.topic: struct
-f1_keywords: 
- - "tdh/PROVIDER_ENUMERATION_INFO"
+f1_keywords:
+- tdh/PROVIDER_ENUMERATION_INFO
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tdh.h
+- Tdh.h
 api_name:
- - PROVIDER_ENUMERATION_INFO
+- PROVIDER_ENUMERATION_INFO
 product: Windows
 targetos: Windows
 req.typenames: PROVIDER_ENUMERATION_INFO
@@ -71,7 +71,7 @@ Number of elements in the <b>TraceProviderInfoArray</b> array.
 
 ### -field TraceProviderInfoArray
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_trace_provider_info">TRACE_PROVIDER_INFO</a> structures that contain information about each provider such as its name and unique identifier.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-trace_provider_info">TRACE_PROVIDER_INFO</a> structures that contain information about each provider such as its name and unique identifier.
 
 
 #### - Padding

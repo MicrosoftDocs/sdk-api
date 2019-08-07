@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],GetProperties method, IVdsIscsiPortalGroup.GetProperties, IVdsIscsiPortalGroup::GetProperties, base.ivdsiscsiportalgroup_getproperties, vds/IVdsIscsiPortalGroup::GetProperties, vdshwprv/IVdsIscsiPortalGroup::GetProperties
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsIscsiPortalGroup.GetProperties"
+f1_keywords:
+- vdshwprv/IVdsIscsiPortalGroup.GetProperties
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiPortalGroup.GetProperties
+- IVdsIscsiPortalGroup.GetProperties
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Returns the properties of a portal group.
 
 ### -param pPortalGroupProp [out]
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_iscsi_portalgroup_prop">VDS_ISCSI_PORTALGROUP_PROP</a> 
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_portalgroup_prop">VDS_ISCSI_PORTALGROUP_PROP</a> 
       structure allocated and passed in by the caller.
 
 
@@ -146,7 +146,7 @@ The portal group object is no longer present.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_iscsi_portalgroup_prop">VDS_ISCSI_PORTALGROUP_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_portalgroup_prop">VDS_ISCSI_PORTALGROUP_PROP</a>
  
 
  

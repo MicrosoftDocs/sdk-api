@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: c10eb1fc-b957-4853-86c1-070749488bb9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgContext_ProtoInfoA, PSecPkgContext_ProtoInfo, PSecPkgContext_ProtoInfo structure pointer [Security], SecPkgContext_ProtoInfo, SecPkgContext_ProtoInfo structure [Security], SecPkgContext_ProtoInfoA, SecPkgContext_ProtoInfoW, _ssp_secpkgcontext_protoinfo, security.secpkgcontext_protoinfo, sspi/PSecPkgContext_ProtoInfo, sspi/SecPkgContext_ProtoInfo"
+ms.keywords: '*PSecPkgContext_ProtoInfoA, PSecPkgContext_ProtoInfo, PSecPkgContext_ProtoInfo structure pointer [Security], SecPkgContext_ProtoInfo, SecPkgContext_ProtoInfo structure [Security], SecPkgContext_ProtoInfoA, SecPkgContext_ProtoInfoW, _ssp_secpkgcontext_protoinfo, security.secpkgcontext_protoinfo, sspi/PSecPkgContext_ProtoInfo, sspi/SecPkgContext_ProtoInfo'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SecPkgContext_ProtoInfo"
+f1_keywords:
+- sspi/SecPkgContext_ProtoInfo
 req.header: sspi.h
 req.include-header: Schnlsp.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SecPkgContext_ProtoInfo
+- SecPkgContext_ProtoInfo
 product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_ProtoInfoA, *PSecPkgContext_ProtoInfoA
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <b>SecPkgContext_ProtoInfo</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_secpkgcontext_connectioninfo">SecPkgContext_ConnectionInfo</a> structure.]
+<p class="CCE_Message">[The <b>SecPkgContext_ProtoInfo</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_connectioninfo">SecPkgContext_ConnectionInfo</a> structure.]
 
 The <b>SecPkgContext_ProtoInfo</b> structure holds information about the protocol in use.
 

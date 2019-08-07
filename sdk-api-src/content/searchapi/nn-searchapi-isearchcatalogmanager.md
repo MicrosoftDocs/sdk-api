@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager, ISearchCatalogManager interface [search], ISearchCatalogManager interface [search],described, _search_ISearchCatalogManager, search._search_ISearchCatalogManager, searchapi/ISearchCatalogManager
 ms.topic: interface
-f1_keywords: 
- - "searchapi/ISearchCatalogManager"
+f1_keywords:
+- searchapi/ISearchCatalogManager
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchCatalogManager
+- ISearchCatalogManager
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -92,7 +92,7 @@ Gets the connection time-out value for connecting to a store for indexing.
 <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcatalogmanager-get_datatimeout">get_DataTimeout</a>
 </td>
 <td align="left" width="63%">
-Gets the data time-out value, in seconds, for data transactions between the indexer and the search  filter host. This value is contained in a <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_timeout_info">TIMEOUT_INFO</a> structure. 
+Gets the data time-out value, in seconds, for data transactions between the indexer and the search  filter host. This value is contained in a <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-timeout_info">TIMEOUT_INFO</a> structure. 
 
 </td>
 </tr>
@@ -204,7 +204,7 @@ Gets the number of items to be indexed within the catalog.
 <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcatalogmanager-put_connecttimeout">put_ConnectTimeout</a>
 </td>
 <td align="left" width="63%">
-Sets the connection time-out value in the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_timeout_info">TIMEOUT_INFO</a> structure, in seconds.
+Sets the connection time-out value in the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-timeout_info">TIMEOUT_INFO</a> structure, in seconds.
 
 </td>
 </tr>
@@ -213,7 +213,7 @@ Sets the connection time-out value in the <a href="https://docs.microsoft.com/wi
 <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcatalogmanager-put_datatimeout">put_DataTimeout</a>
 </td>
 <td align="left" width="63%">
-Sets the time-out value for data transactions between the indexer and the search filter host. This information is stored in the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_timeout_info">TIMEOUT_INFO</a> structure and is measured in seconds.
+Sets the time-out value for data transactions between the indexer and the search filter host. This information is stored in the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-timeout_info">TIMEOUT_INFO</a> structure and is measured in seconds.
 
 </td>
 </tr>

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHBindToObject, SHBindToObject function [Windows Shell], _shell_SHBindToObject, shell.SHBindToObject, shlobj_core/SHBindToObject
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHBindToObject"
+f1_keywords:
+- shlobj_core/SHBindToObject
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
- - windows.storage.dll
- - API-MS-Win-Shell-Namespace-L1-1-0.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- windows.storage.dll
+- API-MS-Win-Shell-Namespace-L1-1-0.dll
 api_name:
- - SHBindToObject
+- SHBindToObject
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,14 +68,14 @@ Retrieves and binds to a specified object by using the Shell namespace <a href="
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
 A pointer to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>. This parameter can be <b>NULL</b>.   If <i>psf</i> is <b>NULL</b>,  this indicates 
-parameter <i>pidl</i> is relative to the desktop. In this case, <i>pidl</i> must specify an absolute <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a>.
+parameter <i>pidl</i> is relative to the desktop. In this case, <i>pidl</i> must specify an absolute <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a>.
 
 
 ### -param pidl
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A pointer to a constant <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> to bind to that is relative to <i>psf</i>. If <i>psf</i> is <b>NULL</b>, this is an absolute <b>ITEMIDLIST</b> relative to the desktop folder.
+A pointer to a constant <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> to bind to that is relative to <i>psf</i>. If <i>psf</i> is <b>NULL</b>, this is an absolute <b>ITEMIDLIST</b> relative to the desktop folder.
 
 
 ### -param pbc [in]

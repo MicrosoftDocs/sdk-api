@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DSSSEED, DSSSEED structure [Security], _crypto2_dssseed, security.dssseed, wincrypt/DSSSEED
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/DSSSEED"
+f1_keywords:
+- wincrypt/DSSSEED
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - DSSSEED
+- DSSSEED
 product: Windows
 targetos: Windows
 req.typenames: DSSSEED
@@ -78,11 +78,11 @@ A <b>BYTE</b> string containing the seed value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_publickeystruc">PUBLICKEYSTRUC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">PUBLICKEYSTRUC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_rsapubkey">RSAPUBKEY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-rsapubkey">RSAPUBKEY</a>
  
 
  

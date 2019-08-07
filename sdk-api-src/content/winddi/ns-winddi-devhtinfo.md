@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 81abebbf-97f2-422f-b0ab-f6f920e09fef
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDEVHTINFO, DEVHTINFO, DEVHTINFO structure [Display Devices], PDEVHTINFO, PDEVHTINFO structure pointer [Display Devices], display.devhtinfo, grstrcts_9ec57bb2-b77e-419b-8d26-03db8485cf35.xml, winddi/DEVHTINFO, winddi/PDEVHTINFO"
+ms.keywords: '*PDEVHTINFO, DEVHTINFO, DEVHTINFO structure [Display Devices], PDEVHTINFO, PDEVHTINFO structure pointer [Display Devices], display.devhtinfo, grstrcts_9ec57bb2-b77e-419b-8d26-03db8485cf35.xml, winddi/DEVHTINFO, winddi/PDEVHTINFO'
 ms.topic: struct
-f1_keywords: 
- - "winddi/DEVHTINFO"
+f1_keywords:
+- winddi/DEVHTINFO
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DEVHTINFO
+- DEVHTINFO
 product: Windows
 targetos: Windows
 req.typenames: DEVHTINFO, *PDEVHTINFO
@@ -61,7 +61,7 @@ The DEVHTINFO structure is used as input to the <a href="https://docs.microsoft.
 
 ### -field HTFlags
 
-Is a set of caller-supplied flags indicating halftone attributes. See the <b>flHTFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo">GDIINFO</a> structure for a complete list of possible values.
+Is a set of caller-supplied flags indicating halftone attributes. See the <b>flHTFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure for a complete list of possible values.
 
 
 ### -field HTPatternSize
@@ -71,7 +71,7 @@ Is a caller-supplied value that must be one of the HTPAT_SIZE-prefixed constants
 
 ### -field DevPelsDPI
 
-For printers, specifies the number of dots per inch. See the description of the <b>ulDevicePelsDPI</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo">GDIINFO</a> structure for more information.
+For printers, specifies the number of dots per inch. See the description of the <b>ulDevicePelsDPI</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure for more information.
 
 For displays, this member should be set to zero.
 
@@ -90,7 +90,7 @@ Is a caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/de
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo">GDIINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>
 
 
 

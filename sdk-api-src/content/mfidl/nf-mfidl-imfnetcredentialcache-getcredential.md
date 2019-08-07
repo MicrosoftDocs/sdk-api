@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7e095445-354a-4fbb-b354-bf87eb77552f, GetCredential, GetCredential method [Media Foundation], GetCredential method [Media Foundation],IMFNetCredentialCache interface, IMFNetCredentialCache interface [Media Foundation],GetCredential method, IMFNetCredentialCache.GetCredential, IMFNetCredentialCache::GetCredential, mf.imfnetcredentialcache_getcredential, mfidl/IMFNetCredentialCache::GetCredential
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFNetCredentialCache.GetCredential"
+f1_keywords:
+- mfidl/IMFNetCredentialCache.GetCredential
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFNetCredentialCache.GetCredential
+- IMFNetCredentialCache.GetCredential
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -85,7 +85,7 @@ Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/ap
 
 ### -param pdwRequirementsFlags [out]
 
-Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfnetcredentialrequirements">MFNetCredentialRequirements</a> enumeration.
+Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfnetcredentialrequirements">MFNetCredentialRequirements</a> enumeration.
 
 
 ## -returns

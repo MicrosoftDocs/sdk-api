@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: E7578D74-E8BE-472D-A01B-51BBA511F561
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY, HTTP_SERVICE_CONFIG_SSL_CCS_QUERY, HTTP_SERVICE_CONFIG_SSL_CCS_QUERY structure [HTTP], HttpServiceConfigQueryExact, HttpServiceConfigQueryNext, PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY, PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY structure pointer [HTTP], http.http_service_config_ssl_ccs_query, http/HTTP_SERVICE_CONFIG_SSL_CCS_QUERY, http/PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY"
+ms.keywords: '*PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY, HTTP_SERVICE_CONFIG_SSL_CCS_QUERY, HTTP_SERVICE_CONFIG_SSL_CCS_QUERY structure [HTTP], HttpServiceConfigQueryExact, HttpServiceConfigQueryNext, PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY, PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY structure pointer [HTTP], http.http_service_config_ssl_ccs_query, http/HTTP_SERVICE_CONFIG_SSL_CCS_QUERY, http/PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_SERVICE_CONFIG_SSL_CCS_QUERY"
+f1_keywords:
+- http/HTTP_SERVICE_CONFIG_SSL_CCS_QUERY
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_SERVICE_CONFIG_SSL_CCS_QUERY
+- HTTP_SERVICE_CONFIG_SSL_CCS_QUERY
 product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_SSL_CCS_QUERY, *PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY
@@ -61,7 +61,7 @@ Specifies a Secure Sockets Layer (SSL) configuration to query for an SSL Central
 
 ### -field QueryDesc
 
-One of the following values from the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a> enumeration that indicates whether the call to <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> is a call to retrieve a single record or part of a sequence of calls to retrieve a sequence of records.
+One of the following values from the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a> enumeration that indicates whether the call to <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> is a call to retrieve a single record or part of a sequence of calls to retrieve a sequence of records.
 
 <table>
 <tr>
@@ -94,7 +94,7 @@ The call to <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http
 
 ### -field KeyDesc
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_ccs_key">HTTP_SERVICE_CONFIG_SSL_CCS_KEY</a> structure that identifies the SSL CCS certificate record queried,  if the <b>QueryDesc</b> member is equal to <b>HttpServiceConfigQueryExact</b>. Ignored if <b>QueryDesc</b>  is equal to <b>HTTPServiceConfigQueryNext</b>.
+An <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_key">HTTP_SERVICE_CONFIG_SSL_CCS_KEY</a> structure that identifies the SSL CCS certificate record queried,  if the <b>QueryDesc</b> member is equal to <b>HttpServiceConfigQueryExact</b>. Ignored if <b>QueryDesc</b>  is equal to <b>HTTPServiceConfigQueryNext</b>.
 
 
 
@@ -119,11 +119,11 @@ Pass this structure to the <a href="https://docs.microsoft.com/windows/desktop/a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_ccs_key">HTTP_SERVICE_CONFIG_SSL_CCS_KEY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_key">HTTP_SERVICE_CONFIG_SSL_CCS_KEY</a>
 
 
 

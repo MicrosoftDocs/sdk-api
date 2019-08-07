@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WriteGlobalPwrPolicy, WriteGlobalPwrPolicy function, _win32_writeglobalpwrpolicy, base.writeglobalpwrpolicy, powrprof/WriteGlobalPwrPolicy
 ms.topic: function
-f1_keywords: 
- - "powrprof/WriteGlobalPwrPolicy"
+f1_keywords:
+- powrprof/WriteGlobalPwrPolicy
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - WriteGlobalPwrPolicy
+- WriteGlobalPwrPolicy
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Writes global power policy settings.
 ### -param pGlobalPowerPolicy [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_global_power_policy">GLOBAL_POWER_POLICY</a> structure that contains the power policy settings to be written.
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_power_policy">GLOBAL_POWER_POLICY</a> structure that contains the power policy settings to be written.
 
 
 ## -returns
@@ -97,7 +97,7 @@ For more information on using PowrProf.h, see <a href="https://docs.microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_global_power_policy">GLOBAL_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_power_policy">GLOBAL_POWER_POLICY</a>
 
 
 

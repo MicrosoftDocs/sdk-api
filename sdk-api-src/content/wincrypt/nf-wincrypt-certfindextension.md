@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertFindExtension, CertFindExtension function [Security], _crypto2_certfindextension, security.certfindextension, wincrypt/CertFindExtension
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertFindExtension"
+f1_keywords:
+- wincrypt/CertFindExtension
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertFindExtension
+- CertFindExtension
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -52,8 +52,8 @@ ms.custom: 19H1
 
 
 The <b>CertFindExtension</b> function finds the first extension in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a> array, as identified by its <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID). This function can be used in the processing of a decoded certificate. A 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure is derived from a decoded certificate. The <b>CERT_INFO</b> structure's <b>rgExtension</b> member is  passed to <b>CertFindExtension</b> in the <i>rgExtensions</i> parameter. This function determines whether a particular extension is in the array, and if so, returns a pointer to it
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> array, as identified by its <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID). This function can be used in the processing of a decoded certificate. A 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure is derived from a decoded certificate. The <b>CERT_INFO</b> structure's <b>rgExtension</b> member is  passed to <b>CertFindExtension</b> in the <i>rgExtensions</i> parameter. This function determines whether a particular extension is in the array, and if so, returns a pointer to it
 
 
 ## -parameters
@@ -74,7 +74,7 @@ Number of extensions in the <i>rgExtensions</i> array.
 ### -param rgExtensions [in]
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures.
 
 
 ## -returns

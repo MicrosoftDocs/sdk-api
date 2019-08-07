@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertAuthDataToToken, ConvertAuthDataToToken callback function [Security], LSA_CONVERT_AUTH_DATA_TO_TOKEN, LSA_CONVERT_AUTH_DATA_TO_TOKEN callback, _ssp_convertauthdatatotoken, ntsecpkg/ConvertAuthDataToToken, security.convertauthdatatotoken
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/ConvertAuthDataToToken"
+f1_keywords:
+- ntsecpkg/ConvertAuthDataToToken
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - ConvertAuthDataToToken
+- ConvertAuthDataToToken
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,7 +76,7 @@ Size, in bytes, of the authorization data specified by the <i>UserAuthData</i> p
 ### -param ImpersonationLevel [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> value specifying the impersonation level for the token to be created.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> value specifying the impersonation level for the token to be created.
 
 
 ### -param TokenSource [in]
@@ -136,7 +136,7 @@ If the function fails, the return value is an NTSTATUS code indicating the reaso
 
 
 A pointer to the <b>ConvertAuthDataToToken</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 
@@ -155,11 +155,11 @@ A pointer to the <b>ConvertAuthDataToToken</b> function is available in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 

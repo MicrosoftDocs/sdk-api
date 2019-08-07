@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_STRING_DICTIONARY_VALUE, WS_XML_STRING_DICTIONARY_VALUE function [Web Services for Windows], webservices/WS_XML_STRING_DICTIONARY_VALUE, wsw.ws_xml_string_dictionary_value
 ms.topic: macro
-f1_keywords: 
- - "webservices/WS_XML_STRING_DICTIONARY_VALUE"
+f1_keywords:
+- webservices/WS_XML_STRING_DICTIONARY_VALUE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_STRING_DICTIONARY_VALUE
+- WS_XML_STRING_DICTIONARY_VALUE
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides an initializer for a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_string">WS_XML_STRING</a> structure when there is an associated dictionary ID.
+Provides an initializer for a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> structure when there is an associated dictionary ID.
       
 
 

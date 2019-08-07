@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: c28ef4c9-ba7d-429a-ba43-82bfc9c7c58b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PIPXWAN_IF_INFO, IPXWAN_IF_INFO, IPXWAN_IF_INFO structure [RAS], PIPXWAN_IF_INFO, PIPXWAN_IF_INFO structure pointer [RAS], _mpr_ipxwan_if_info, ipxrtdef/IPXWAN_IF_INFO, ipxrtdef/PIPXWAN_IF_INFO, rras.ipxwan_if_info"
+ms.keywords: '*PIPXWAN_IF_INFO, IPXWAN_IF_INFO, IPXWAN_IF_INFO structure [RAS], PIPXWAN_IF_INFO, PIPXWAN_IF_INFO structure pointer [RAS], _mpr_ipxwan_if_info, ipxrtdef/IPXWAN_IF_INFO, ipxrtdef/PIPXWAN_IF_INFO, rras.ipxwan_if_info'
 ms.topic: struct
-f1_keywords: 
- - "ipxrtdef/IPXWAN_IF_INFO"
+f1_keywords:
+- ipxrtdef/IPXWAN_IF_INFO
 req.header: ipxrtdef.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipxrtdef.h
+- Ipxrtdef.h
 api_name:
- - IPXWAN_IF_INFO
+- IPXWAN_IF_INFO
 product: Windows
 targetos: Windows
 req.typenames: IPXWAN_IF_INFO, *PIPXWAN_IF_INFO
@@ -81,7 +81,7 @@ ADMIN_STATE_ENABLED_ONLY_FOR_OPER_STATE_UP
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipxrtdef/ns-ipxrtdef-_ipx_if_info">IPX_IF_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipxrtdef/ns-ipxrtdef-ipx_if_info">IPX_IF_INFO</a>
 
 
 

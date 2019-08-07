@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CredProtect, CredProtect function [Security], CredProtectA, CredProtectW, security.credprotect, wincred/CredProtect, wincred/CredProtectA, wincred/CredProtectW
 ms.topic: function
-f1_keywords: 
- - "wincred/CredProtect"
+f1_keywords:
+- wincred/CredProtect
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - sechost.dll
- - API-MS-Win-Security-credentials-l1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- sechost.dll
+- API-MS-Win-Security-credentials-l1-1-0.dll
 api_name:
- - CredProtect
- - CredProtectA
- - CredProtectW
+- CredProtect
+- CredProtectA
+- CredProtectW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -91,7 +91,7 @@ The size, in characters of the <i>pszProtectedCredentials</i> buffer. On output,
 
 ### -param ProtectionType [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ne-wincred-_cred_protection_type">CRED_PROTECTION_TYPE</a> enumeration type that, on output, specifies the type of protection provided.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ne-wincred-cred_protection_type">CRED_PROTECTION_TYPE</a> enumeration type that, on output, specifies the type of protection provided.
 
 
 ## -returns

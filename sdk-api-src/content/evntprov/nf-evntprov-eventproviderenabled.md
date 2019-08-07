@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventProviderEnabled, EventProviderEnabled function [ETW], WINEVENT_LEVEL_CRITICAL, WINEVENT_LEVEL_ERROR, WINEVENT_LEVEL_INFO, WINEVENT_LEVEL_VERBOSE, WINEVENT_LEVEL_WARNING, base.eventproviderenabled_func, etw.eventproviderenabled_func, evntprov/EventProviderEnabled
 ms.topic: function
-f1_keywords: 
- - "evntprov/EventProviderEnabled"
+f1_keywords:
+- evntprov/EventProviderEnabled
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-eventing-provider-l1-1-0.dll
- - API-MS-Win-Eventing-Provider-L1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-eventing-provider-l1-1-0.dll
+- API-MS-Win-Eventing-Provider-L1-1-1.dll
 api_name:
- - EventProviderEnabled
+- EventProviderEnabled
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -168,7 +168,7 @@ Providers may want to call this function if they need to perform extra work to g
     and time. 
 
 The provider would call this function if the provider did not generate an 
-    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a> structure for the event from the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure for the event from the 
     manifest. If the event descriptor is available, call the 
     <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventenabled">EventEnabled</a> function.
 
@@ -180,7 +180,7 @@ The provider would call this function if the provider did not generate an
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
 
 
 

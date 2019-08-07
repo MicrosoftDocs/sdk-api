@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhGetDataSourceTimeRangeH, PdhGetDataSourceTimeRangeH function [Perf], _win32_pdhgetdatasourcetimerangeh, base.pdhgetdatasourcetimerangeh, pdh/PdhGetDataSourceTimeRangeH, perf.pdhgetdatasourcetimerangeh
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhGetDataSourceTimeRangeH"
+f1_keywords:
+- pdh/PdhGetDataSourceTimeRangeH
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhGetDataSourceTimeRangeH
+- PdhGetDataSourceTimeRangeH
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,12 +76,12 @@ Number of structures in the <i>pInfo</i> buffer. This function collects informat
 ### -param pInfo [out]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_time_info">PDH_TIME_INFO</a> structure that receives the time range. The information spans all bound log files. 
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_time_info">PDH_TIME_INFO</a> structure that receives the time range. The information spans all bound log files. 
 
 
 ### -param pdwBufferSize [in]
 
-Size of the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_time_info">PDH_TIME_INFO</a> structure, in bytes.
+Size of the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_time_info">PDH_TIME_INFO</a> structure, in bytes.
 
 
 ## -returns

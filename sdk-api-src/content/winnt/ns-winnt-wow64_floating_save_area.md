@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: 56fba1c1-432b-40a8-b882-e4c637c03d5d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWOW64_FLOATING_SAVE_AREA, PWOW64_FLOATING_SAVE_AREA, PWOW64_FLOATING_SAVE_AREA structure pointer, WOW64_FLOATING_SAVE_AREA, WOW64_FLOATING_SAVE_AREA structure, _WOW64_FLOATING_SAVE_AREA, base.wow64_floating_save_area, winnt/PWOW64_FLOATING_SAVE_AREA, winnt/WOW64_FLOATING_SAVE_AREA"
+ms.keywords: '*PWOW64_FLOATING_SAVE_AREA, PWOW64_FLOATING_SAVE_AREA, PWOW64_FLOATING_SAVE_AREA structure pointer, WOW64_FLOATING_SAVE_AREA, WOW64_FLOATING_SAVE_AREA structure, _WOW64_FLOATING_SAVE_AREA, base.wow64_floating_save_area, winnt/PWOW64_FLOATING_SAVE_AREA, winnt/WOW64_FLOATING_SAVE_AREA'
 ms.topic: struct
-f1_keywords: 
- - "winnt/WOW64_FLOATING_SAVE_AREA"
+f1_keywords:
+- winnt/WOW64_FLOATING_SAVE_AREA
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - WOW64_FLOATING_SAVE_AREA
+- WOW64_FLOATING_SAVE_AREA
 product: Windows
 targetos: Windows
 req.typenames: WOW64_FLOATING_SAVE_AREA
@@ -62,7 +62,7 @@ Represents the 80387 save area on WOW64. Refer to the header file WinNT.h for th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_wow64_context">WOW64_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-wow64_context">WOW64_CONTEXT</a>
 
 
 

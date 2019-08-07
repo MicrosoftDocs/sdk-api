@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFVideoPrimaries, MFVideoPrimaries enumeration [Media Foundation], MFVideoPrimaries_ACES, MFVideoPrimaries_BT2020, MFVideoPrimaries_BT470_2_SysBG, MFVideoPrimaries_BT470_2_SysM, MFVideoPrimaries_BT709, MFVideoPrimaries_DCI_P3, MFVideoPrimaries_EBU3213, MFVideoPrimaries_ForceDWORD, MFVideoPrimaries_Last, MFVideoPrimaries_SMPTE170M, MFVideoPrimaries_SMPTE240M, MFVideoPrimaries_SMPTE_C, MFVideoPrimaries_Unknown, MFVideoPrimaries_XYZ, MFVideoPrimaries_reserved, a1d6a60c-823c-46c3-a751-18e55fbc52a1, mf.mfvideoprimaries, mfobjects/MFVideoPrimaries, mfobjects/MFVideoPrimaries_ACES, mfobjects/MFVideoPrimaries_BT2020, mfobjects/MFVideoPrimaries_BT470_2_SysBG, mfobjects/MFVideoPrimaries_BT470_2_SysM, mfobjects/MFVideoPrimaries_BT709, mfobjects/MFVideoPrimaries_DCI_P3, mfobjects/MFVideoPrimaries_EBU3213, mfobjects/MFVideoPrimaries_ForceDWORD, mfobjects/MFVideoPrimaries_Last, mfobjects/MFVideoPrimaries_SMPTE170M, mfobjects/MFVideoPrimaries_SMPTE240M, mfobjects/MFVideoPrimaries_SMPTE_C, mfobjects/MFVideoPrimaries_Unknown, mfobjects/MFVideoPrimaries_XYZ, mfobjects/MFVideoPrimaries_reserved
 ms.topic: enum
-f1_keywords: 
- - "mfobjects/MFVideoPrimaries"
+f1_keywords:
+- mfobjects/MFVideoPrimaries
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - MFVideoPrimaries
+- MFVideoPrimaries
 product: Windows
 targetos: Windows
 req.typenames: MFVideoPrimaries
@@ -159,7 +159,7 @@ Reserved. This member forces the enumeration type to compile as a <b>DWORD</b> v
 
 This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-video-primaries-attribute">MF_MT_VIDEO_PRIMARIES</a> attribute.
 
-For more information about these values, see the remarks for the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_videoprimaries">DXVA2_VideoPrimaries</a> enumeration, which is the DirectX Video Acceleration (DXVA) equivalent of this enumeration.
+For more information about these values, see the remarks for the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ne-dxva2api-dxva2_videoprimaries">DXVA2_VideoPrimaries</a> enumeration, which is the DirectX Video Acceleration (DXVA) equivalent of this enumeration.
 
 
 

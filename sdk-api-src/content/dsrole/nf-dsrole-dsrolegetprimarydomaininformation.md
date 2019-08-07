@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsRoleGetPrimaryDomainInformation, DsRoleGetPrimaryDomainInformation function [Active Directory], _glines_dsrolegetprimarydomaininformation, ad.dsrolegetprimarydomaininformation, dsrole/DsRoleGetPrimaryDomainInformation
 ms.topic: function
-f1_keywords: 
- - "dsrole/DsRoleGetPrimaryDomainInformation"
+f1_keywords:
+- dsrole/DsRoleGetPrimaryDomainInformation
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - DsRoleGetPrimaryDomainInformation
+- DsRoleGetPrimaryDomainInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Pointer to null-terminated Unicode string that contains the name of the computer
 
 ### -param InfoLevel [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-_dsrole_primary_domain_info_level">DSROLE_PRIMARY_DOMAIN_INFO_LEVEL</a> values that specify the type of data to retrieve. This parameter also determines the format of the data supplied in <i>Buffer</i>.
+Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-dsrole_primary_domain_info_level">DSROLE_PRIMARY_DOMAIN_INFO_LEVEL</a> values that specify the type of data to retrieve. This parameter also determines the format of the data supplied in <i>Buffer</i>.
 
 
 ### -param Buffer [out]
@@ -92,15 +92,15 @@ If the function fails, the return value can be one of the following values.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-_dsrole_operation_state_info">DSROLE_OPERATION_STATE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-dsrole_operation_state_info">DSROLE_OPERATION_STATE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-_dsrole_primary_domain_info_basic">DSROLE_PRIMARY_DOMAIN_INFO_BASIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-dsrole_primary_domain_info_basic">DSROLE_PRIMARY_DOMAIN_INFO_BASIC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-_dsrole_upgrade_status_info">DSROLE_UPGRADE_STATUS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-dsrole_upgrade_status_info">DSROLE_UPGRADE_STATUS_INFO</a>
 
 
 

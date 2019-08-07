@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceProxyEventing interface,RenewMultipleOperations method, IWSDServiceProxyEventing.RenewMultipleOperations, IWSDServiceProxyEventing::RenewMultipleOperations, RenewMultipleOperations, RenewMultipleOperations method, RenewMultipleOperations method,IWSDServiceProxyEventing interface, ncd.iwsdserviceproxyeventing_renewmultipleoperations, wsdclient/IWSDServiceProxyEventing::RenewMultipleOperations
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDServiceProxyEventing.RenewMultipleOperations"
+f1_keywords:
+- wsdclient/IWSDServiceProxyEventing.RenewMultipleOperations
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDServiceProxyEventing.RenewMultipleOperations
+- IWSDServiceProxyEventing.RenewMultipleOperations
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Renews a collection of existing notification subscriptions by submitting a new d
 
 ### -param pOperations [in]
 
-Pointer to an array of references to <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_operation">WSD_OPERATION</a> structures that specify the operation subscriptions to renew.
+Pointer to an array of references to <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structures that specify the operation subscriptions to renew.
 
 
 ### -param dwOperationCount [in]

@@ -8,10 +8,10 @@ tech.root: P2PSdk
 ms.assetid: a795dff7-4182-42ad-b14b-142a6c1312c7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDRT_ADDRESS_LIST, DRT_ADDRESS_LIST, DRT_ADDRESS_LIST structure [Peer Networking], PDRT_ADDRESS_LIST, PDRT_ADDRESS_LIST structure pointer [Peer Networking], drt/DRT_ADDRESS_LIST, drt/PDRT_ADDRESS_LIST, p2p.drt_address_list"
+ms.keywords: '*PDRT_ADDRESS_LIST, DRT_ADDRESS_LIST, DRT_ADDRESS_LIST structure [Peer Networking], PDRT_ADDRESS_LIST, PDRT_ADDRESS_LIST structure pointer [Peer Networking], drt/DRT_ADDRESS_LIST, drt/PDRT_ADDRESS_LIST, p2p.drt_address_list'
 ms.topic: struct
-f1_keywords: 
- - "drt/DRT_ADDRESS_LIST"
+f1_keywords:
+- drt/DRT_ADDRESS_LIST
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - drt.h
+- drt.h
 api_name:
- - DRT_ADDRESS_LIST
+- DRT_ADDRESS_LIST
 product: Windows
 targetos: Windows
 req.typenames: DRT_ADDRESS_LIST, *PDRT_ADDRESS_LIST
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DRT_ADDRESS_LIST</b> structure contains a set of  <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-_drt_address">DRT_ADDRESS</a> structures that represent the nodes contacted during a search for a key.
+The <b>DRT_ADDRESS_LIST</b> structure contains a set of  <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_address">DRT_ADDRESS</a> structures that represent the nodes contacted during a search for a key.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ The count of entries in <b>AddressList</b>.
 
 ### -field AddressList
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-_drt_address">DRT_ADDRESS</a> structures that contain information about addresses that participated  in the search operation.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_address">DRT_ADDRESS</a> structures that contain information about addresses that participated  in the search operation.
 
 
 ## -see-also
@@ -74,7 +74,7 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-_drt_address">DRT_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_address">DRT_ADDRESS</a>
 
 
 

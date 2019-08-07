@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RNRSERVICE_DELETE, RNRSERVICE_DEREGISTER, RNRSERVICE_REGISTER, SERVICE_MULTIPLE, WSASetService, WSASetService function [Winsock], WSASetServiceA, WSASetServiceW, _win32_wsasetservice_2, winsock.wsasetservice_2, winsock2/WSASetService, winsock2/WSASetServiceA, winsock2/WSASetServiceW
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSASetService"
+f1_keywords:
+- winsock2/WSASetService
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSASetService
- - WSASetServiceA
- - WSASetServiceW
+- WSASetService
+- WSASetServiceA
+- WSASetServiceW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -105,7 +105,7 @@ Remove the service from the registry. For SAP, this means stop sending out the p
 </td>
 <td width="60%">
 Delete the service from dynamic name and persistent spaces. For services represented by multiple 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures (using the SERVICE_MULTIPLE flag), only the specified address will be deleted, and this must match exactly the corresponding 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures (using the SERVICE_MULTIPLE flag), only the specified address will be deleted, and this must match exactly the corresponding 
 <b>CSADDR_INFO</b> structure that was specified when the service was registered.
 
 </td>
@@ -323,12 +323,12 @@ The following table describes how service property data is represented in a
 <tr>
 <td><b>dwNumberOfCsAddrs</b></td>
 <td>The number of elements in the array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures referenced by <b>lpcsaBuffer</b>.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures referenced by <b>lpcsaBuffer</b>.</td>
 </tr>
 <tr>
 <td><b>lpcsaBuffer</b></td>
 <td>A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures that contain the address(es) that the service is listening on.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures that contain the address(es) that the service is listening on.</td>
 </tr>
 <tr>
 <td><b>lpBlob</b></td>

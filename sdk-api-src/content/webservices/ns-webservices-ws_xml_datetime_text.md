@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_DATETIME_TEXT, WS_XML_DATETIME_TEXT structure [Web Services for Windows], webservices/WS_XML_DATETIME_TEXT, wsw.ws_xml_datetime_text
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_XML_DATETIME_TEXT"
+f1_keywords:
+- webservices/WS_XML_DATETIME_TEXT
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_DATETIME_TEXT
+- WS_XML_DATETIME_TEXT
 product: Windows
 targetos: Windows
 req.typenames: WS_XML_DATETIME_TEXT
@@ -66,7 +66,7 @@ Negative datetime values are not supported.
 
 ### -field text
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_text">WS_XML_TEXT</a>.
+The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a>.
         
 
 

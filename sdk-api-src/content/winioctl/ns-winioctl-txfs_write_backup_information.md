@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 777210c4-4e9b-484e-a412-8c807882facb
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTXFS_WRITE_BACKUP_INFORMATION, PTXFS_WRITE_BACKUP_INFORMATION, PTXFS_WRITE_BACKUP_INFORMATION structure pointer [Files], TXFS_WRITE_BACKUP_INFORMATION, TXFS_WRITE_BACKUP_INFORMATION structure [Files], fs.txfs_write_backup_information, winioctl/PTXFS_WRITE_BACKUP_INFORMATION, winioctl/TXFS_WRITE_BACKUP_INFORMATION"
+ms.keywords: '*PTXFS_WRITE_BACKUP_INFORMATION, PTXFS_WRITE_BACKUP_INFORMATION, PTXFS_WRITE_BACKUP_INFORMATION structure pointer [Files], TXFS_WRITE_BACKUP_INFORMATION, TXFS_WRITE_BACKUP_INFORMATION structure [Files], fs.txfs_write_backup_information, winioctl/PTXFS_WRITE_BACKUP_INFORMATION, winioctl/TXFS_WRITE_BACKUP_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/TXFS_WRITE_BACKUP_INFORMATION"
+f1_keywords:
+- winioctl/TXFS_WRITE_BACKUP_INFORMATION
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - TXFS_WRITE_BACKUP_INFORMATION
+- TXFS_WRITE_BACKUP_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: TXFS_WRITE_BACKUP_INFORMATION, *PTXFS_WRITE_BACKUP_INFORMATION
@@ -56,7 +56,7 @@ req.redist:
     information, and alternatives to TxF, please see 
     <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
-Contains a Transactional NTFS (TxF) specific structure. This information should only be used when calling <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_read_backup_information_out">TXFS_WRITE_BACKUP_INFORMATION</a>.
+Contains a Transactional NTFS (TxF) specific structure. This information should only be used when calling <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_read_backup_information_out">TXFS_WRITE_BACKUP_INFORMATION</a>.
 
 
 ## -struct-fields

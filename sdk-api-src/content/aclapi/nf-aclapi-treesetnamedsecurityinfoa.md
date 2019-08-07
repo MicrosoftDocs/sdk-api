@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TREE_SEC_INFO_RESET, TREE_SEC_INFO_RESET_KEEP_EXPLICIT, TREE_SEC_INFO_SET, TreeSetNamedSecurityInfo, TreeSetNamedSecurityInfo function [Security], TreeSetNamedSecurityInfoA, TreeSetNamedSecurityInfoW, aclapi/TreeSetNamedSecurityInfo, aclapi/TreeSetNamedSecurityInfoA, aclapi/TreeSetNamedSecurityInfoW, security.treesetnamedsecurityinfo
 ms.topic: function
-f1_keywords: 
- - "aclapi/TreeSetNamedSecurityInfo"
+f1_keywords:
+- aclapi/TreeSetNamedSecurityInfo
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - TreeSetNamedSecurityInfo
- - TreeSetNamedSecurityInfoA
- - TreeSetNamedSecurityInfoW
+- TreeSetNamedSecurityInfo
+- TreeSetNamedSecurityInfoA
+- TreeSetNamedSecurityInfoW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,12 +64,12 @@ This version of this function is not supported. The wide character version of th
 ### -param pObjectName [in]
 
 			Pointer to a <b>null</b>-terminated string that specifies the name of the root node object for the objects  that are to receive updated security information. Supported objects are registry keys and file objects. For descriptions of the string formats for the different object types, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_se_object_type">SE_OBJECT_TYPE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>.
 
 
 ### -param ObjectType [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_se_object_type">SE_OBJECT_TYPE</a>  enumeration  that indicates the type of object named by the <i>pObjectName</i> parameter. The supported values are SE_REGISTRY_KEY and SE_FILE_OBJECT, for registry keys and file objects, respectively. 
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>  enumeration  that indicates the type of object named by the <i>pObjectName</i> parameter. The supported values are SE_REGISTRY_KEY and SE_FILE_OBJECT, for registry keys and file objects, respectively. 
 
 
 ### -param SecurityInfo [in]
@@ -81,12 +81,12 @@ bit flags that indicate the type of security information to set. This parameter 
 
 ### -param pOwner [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that identifies the owner of the object. The SID must be one that can be assigned as the owner SID of a security descriptor. The <i>SecurityInfo</i> parameter must include the OWNER_SECURITY_INFORMATION flag. To set the owner, the caller must have WRITE_OWNER access to each object, including the root object. If you are not setting the owner SID, this parameter can be <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that identifies the owner of the object. The SID must be one that can be assigned as the owner SID of a security descriptor. The <i>SecurityInfo</i> parameter must include the OWNER_SECURITY_INFORMATION flag. To set the owner, the caller must have WRITE_OWNER access to each object, including the root object. If you are not setting the owner SID, this parameter can be <b>NULL</b>.
 
 
 ### -param pGroup [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that identifies the primary group of the object. The <i>SecurityInfo</i> parameter must include the GROUP_SECURITY_INFORMATION flag.  To set the group, the caller must have WRITE_OWNER access to each object, including the root object. If you are not setting the primary group SID, this parameter can be <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that identifies the primary group of the object. The <i>SecurityInfo</i> parameter must include the GROUP_SECURITY_INFORMATION flag.  To set the group, the caller must have WRITE_OWNER access to each object, including the root object. If you are not setting the primary group SID, this parameter can be <b>NULL</b>.
 
 
 ### -param pDacl [in, optional]

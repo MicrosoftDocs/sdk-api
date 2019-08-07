@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaQueryInformationPolicy, LsaQueryInformationPolicy function [Security], PolicyAccountDomainInformation, PolicyAuditEventsInformation, PolicyDnsDomainInformation, PolicyLsaServerRoleInformation, PolicyModificationInformation, PolicyPrimaryDomainInformation, _lsa_lsaqueryinformationpolicy, ntsecapi/LsaQueryInformationPolicy, security.lsaqueryinformationpolicy
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/LsaQueryInformationPolicy"
+f1_keywords:
+- ntsecapi/LsaQueryInformationPolicy
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-lsapolicy-l1-1-0.dll
- - sechost.dll
- - API-MS-Win-Security-LSAPolicy-L1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-Security-lsapolicy-l1-1-0.dll
+- sechost.dll
+- API-MS-Win-Security-LSAPolicy-L1-1-1.dll
 api_name:
- - LsaQueryInformationPolicy
+- LsaQueryInformationPolicy
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy
 ### -param InformationClass [in]
 
 Specifies one of the following values from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_policy_information_class">POLICY_INFORMATION_CLASS</a> enumeration type. The value indicates the type of information to retrieve. 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_information_class">POLICY_INFORMATION_CLASS</a> enumeration type. The value indicates the type of information to retrieve. 
 
 
 
@@ -89,7 +89,7 @@ Specifies one of the following values from the
 </td>
 <td width="60%">
 Retrieves the system's auditing rules. The handle passed in the <i>PolicyHandle</i> parameter must have the POLICY_VIEW_AUDIT_INFORMATION access right. The <i>Buffer</i> parameter receives a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_audit_events_info">POLICY_AUDIT_EVENTS_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-policy_audit_events_info">POLICY_AUDIT_EVENTS_INFO</a> structure.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Retrieves the system's auditing rules. The handle passed in the <i>PolicyHandle<
 </td>
 <td width="60%">
 Retrieves the name and SID of the system's primary domain. The handle passed in the <i>PolicyHandle</i> parameter must have the POLICY_VIEW_LOCAL_INFORMATION access right. The <i>Buffer</i> parameter receives a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_primary_domain_info">POLICY_PRIMARY_DOMAIN_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-policy_primary_domain_info">POLICY_PRIMARY_DOMAIN_INFO</a> structure.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Retrieves the name and SID of the system's primary domain. The handle passed in 
 </td>
 <td width="60%">
 Retrieves the name and SID of the system's account domain. The handle passed in the <i>PolicyHandle</i> parameter must have the POLICY_VIEW_LOCAL_INFORMATION access right. The <i>Buffer</i> parameter receives a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_policy_account_domain_info">POLICY_ACCOUNT_DOMAIN_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-policy_account_domain_info">POLICY_ACCOUNT_DOMAIN_INFO</a> structure.
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ Retrieves the name and SID of the system's account domain. The handle passed in 
 </td>
 <td width="60%">
 Retrieves the role of an LSA server. The handle passed in the <i>PolicyHandle</i> parameter must have the POLICY_VIEW_LOCAL_INFORMATION access right. The <i>Buffer</i> parameter receives a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_lsa_server_role_info">POLICY_LSA_SERVER_ROLE_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-policy_lsa_server_role_info">POLICY_LSA_SERVER_ROLE_INFO</a> structure.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Retrieves the role of an LSA server. The handle passed in the <i>PolicyHandle</i
 </td>
 <td width="60%">
 Retrieves information about the creation time and last modification of the LSA database. The handle passed in the <i>PolicyHandle</i> parameter must have the POLICY_VIEW_LOCAL_INFORMATION access right. The <i>Buffer</i> parameter receives a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_modification_info">POLICY_MODIFICATION_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-policy_modification_info">POLICY_MODIFICATION_INFO</a> structure.
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ Retrieves information about the creation time and last modification of the LSA d
 </td>
 <td width="60%">
 Retrieves the Domain Name System (DNS) information about the primary domain associated with the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object. The handle passed in the <i>PolicyHandle</i> parameter must have the POLICY_VIEW_LOCAL_INFORMATION access right. The <i>Buffer</i> parameter receives a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_policy_dns_domain_info">POLICY_DNS_DOMAIN_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-policy_dns_domain_info">POLICY_DNS_DOMAIN_INFO</a> structure.
 
 </td>
 </tr>
@@ -201,31 +201,31 @@ For an example that demonstrates calling this function see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_policy_account_domain_info">POLICY_ACCOUNT_DOMAIN_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-policy_account_domain_info">POLICY_ACCOUNT_DOMAIN_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_audit_events_info">POLICY_AUDIT_EVENTS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-policy_audit_events_info">POLICY_AUDIT_EVENTS_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_policy_dns_domain_info">POLICY_DNS_DOMAIN_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-policy_dns_domain_info">POLICY_DNS_DOMAIN_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_policy_information_class">POLICY_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_information_class">POLICY_INFORMATION_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_lsa_server_role_info">POLICY_LSA_SERVER_ROLE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-policy_lsa_server_role_info">POLICY_LSA_SERVER_ROLE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_modification_info">POLICY_MODIFICATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-policy_modification_info">POLICY_MODIFICATION_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_primary_domain_info">POLICY_PRIMARY_DOMAIN_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-policy_primary_domain_info">POLICY_PRIMARY_DOMAIN_INFO</a>
  
 
  

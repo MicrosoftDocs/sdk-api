@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: b7bdb226-69ce-4226-b826-baf9c732ec52
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTXF_ID, PTXF_ID, PTXF_ID structure pointer [Files], TXF_ID, TXF_ID structure [Files], fs.txf_id, txfw32/PTXF_ID, txfw32/TXF_ID"
+ms.keywords: '*PTXF_ID, PTXF_ID, PTXF_ID structure pointer [Files], TXF_ID, TXF_ID structure [Files], fs.txf_id, txfw32/PTXF_ID, txfw32/TXF_ID'
 ms.topic: struct
-f1_keywords: 
- - "txfw32/TXF_ID"
+f1_keywords:
+- txfw32/TXF_ID
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - TxfW32.h
+- TxfW32.h
 api_name:
- - TXF_ID
+- TXF_ID
 product: Windows
 targetos: Windows
 req.typenames: TXF_ID, *PTXF_ID
@@ -80,7 +80,7 @@ The high part of the identifier.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_log_record_affected_file">TXF_LOG_RECORD_AFFECTED_FILE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_affected_file">TXF_LOG_RECORD_AFFECTED_FILE</a>
 
 
 
@@ -88,7 +88,7 @@ The high part of the identifier.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_log_record_truncate">TXF_LOG_RECORD_TRUNCATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_truncate">TXF_LOG_RECORD_TRUNCATE</a>
 
 
 

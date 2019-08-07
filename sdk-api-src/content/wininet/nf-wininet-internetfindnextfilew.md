@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetFindNextFile, InternetFindNextFile function [WinINet], InternetFindNextFileA, InternetFindNextFileW, _inet_internetfindnextfile_function, wininet.internetfindnextfile, wininet/InternetFindNextFile, wininet/InternetFindNextFileA, wininet/InternetFindNextFileW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetFindNextFile"
+f1_keywords:
+- wininet/InternetFindNextFile
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetFindNextFile
- - InternetFindNextFileA
- - InternetFindNextFileW
+- InternetFindNextFile
+- InternetFindNextFileA
+- InternetFindNextFileW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,7 +76,7 @@ Handle returned from either
 ### -param lpvFindData [out]
 
 Pointer to the buffer that receives information about the  file or directory. The format of the information placed in the buffer depends on the protocol in use. The FTP protocol returns a 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_win32_find_dataa">WIN32_FIND_DATA</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure.
 
 <b>Windows XP and Windows Server 2003 R2 and earlier:  </b>The Gopher protocol returns a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-gopher_find_dataa">GOPHER_FIND_DATA</a> structure.

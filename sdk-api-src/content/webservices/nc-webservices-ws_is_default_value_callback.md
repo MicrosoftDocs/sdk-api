@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_IS_DEFAULT_VALUE_CALLBACK, WS_IS_DEFAULT_VALUE_CALLBACK callback, WS_IS_DEFAULT_VALUE_CALLBACK callback function [Web Services for Windows], webservices/WS_IS_DEFAULT_VALUE_CALLBACK, wsw.ws_is_default_value_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_IS_DEFAULT_VALUE_CALLBACK"
+f1_keywords:
+- webservices/WS_IS_DEFAULT_VALUE_CALLBACK
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_IS_DEFAULT_VALUE_CALLBACK
+- WS_IS_DEFAULT_VALUE_CALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -54,7 +54,7 @@ ms.custom: 19H1
 Determines if a value is the default value. This callback is used  before a value that is handled
                 by a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_CUSTOM_TYPE</a> is serialized.  Support
                 for default values is enabled by specifying 
-                when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_10">WS_FIELD_OPTIONAL</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
+                when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_10">WS_FIELD_OPTIONAL</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
             
 
 
@@ -65,7 +65,7 @@ Determines if a value is the default value. This callback is used  before a valu
 
 ### -param *descriptionData [in]
 
-This is the value of the descriptionData field from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_type_description">WS_CUSTOM_TYPE_DESCRIPTION</a>.
+This is the value of the descriptionData field from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_custom_type_description">WS_CUSTOM_TYPE_DESCRIPTION</a>.
                     The callback can use this to access any additional information about the type.
                 
 

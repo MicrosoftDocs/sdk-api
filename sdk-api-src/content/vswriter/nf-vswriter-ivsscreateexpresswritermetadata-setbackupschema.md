@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssCreateExpressWriterMetadata interface,SetBackupSchema method, IVssCreateExpressWriterMetadata.SetBackupSchema, IVssCreateExpressWriterMetadata::SetBackupSchema, SetBackupSchema, SetBackupSchema method, SetBackupSchema method,IVssCreateExpressWriterMetadata interface, base.ivsscreateexpresswritermetadata_setbackupschema, vswriter/IVssCreateExpressWriterMetadata::SetBackupSchema
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssCreateExpressWriterMetadata.SetBackupSchema"
+f1_keywords:
+- vswriter/IVssCreateExpressWriterMetadata.SetBackupSchema
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssCreateExpressWriterMetadata.SetBackupSchema
+- IVssCreateExpressWriterMetadata.SetBackupSchema
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Used by an express writer to indicate in its Writer Metadata Document the types 
 ### -param dwSchemaMask [in]
 
 A bitmask of 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_schema">VSS_BACKUP_SCHEMA</a> enumeration values that specify the types of backup operations this writer supports.
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_schema">VSS_BACKUP_SCHEMA</a> enumeration values that specify the types of backup operations this writer supports.
 
 
 ## -returns

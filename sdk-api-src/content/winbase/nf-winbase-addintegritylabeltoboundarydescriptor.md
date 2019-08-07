@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddIntegrityLabelToBoundaryDescriptor, AddIntegrityLabelToBoundaryDescriptor function, base.addintegritylabeltoboundarydescriptor, winbase/AddIntegrityLabelToBoundaryDescriptor
 ms.topic: function
-f1_keywords: 
- - "winbase/AddIntegrityLabelToBoundaryDescriptor"
+f1_keywords:
+- winbase/AddIntegrityLabelToBoundaryDescriptor
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
+- kernel32.dll
 api_name:
- - AddIntegrityLabelToBoundaryDescriptor
+- AddIntegrityLabelToBoundaryDescriptor
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A handle to the boundary descriptor. The <a href="https://docs.microsoft.com/win
 
 ### -param IntegrityLabel [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that represents the mandatory integrity level for the namespace. Use one of the following RID values to create the SID:
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that represents the mandatory integrity level for the namespace. Use one of the following RID values to create the SID:
 
 <b>SECURITY_MANDATORY_UNTRUSTED_RID</b>
 <b>SECURITY_MANDATORY_LOW_RID</b>

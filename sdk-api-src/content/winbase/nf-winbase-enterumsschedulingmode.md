@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnterUmsSchedulingMode, EnterUmsSchedulingMode function, base.enterumsschedulingmode, winbase/EnterUmsSchedulingMode
 ms.topic: function
-f1_keywords: 
- - "winbase/EnterUmsSchedulingMode"
+f1_keywords:
+- winbase/EnterUmsSchedulingMode
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-ums-l1-1-0.dll
+- kernel32.dll
+- API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
- - EnterUmsSchedulingMode
+- EnterUmsSchedulingMode
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ Converts the calling thread into a user-mode scheduling (UMS) scheduler thread.
 
 ### -param SchedulerStartupInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ums_scheduler_startup_info">UMS_SCHEDULER_STARTUP_INFO</a> structure that specifies UMS attributes for the thread, including a completion list and a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-rtl_ums_scheduler_entry_point">UmsSchedulerProc</a>     entry point function.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-ums_scheduler_startup_info">UMS_SCHEDULER_STARTUP_INFO</a> structure that specifies UMS attributes for the thread, including a completion list and a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-rtl_ums_scheduler_entry_point">UmsSchedulerProc</a>     entry point function.
 
 
 ## -returns
@@ -104,7 +104,7 @@ A scheduler thread should continue to run until all of its worker threads reach 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ums_scheduler_startup_info">UMS_SCHEDULER_STARTUP_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-ums_scheduler_startup_info">UMS_SCHEDULER_STARTUP_INFO</a>
 
 
 

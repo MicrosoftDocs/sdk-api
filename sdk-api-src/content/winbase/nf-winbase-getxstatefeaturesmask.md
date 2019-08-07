@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetXStateFeaturesMask, GetXStateFeaturesMask function, base.getxstatefeaturesmask, winbase/GetXStateFeaturesMask
 ms.topic: function
-f1_keywords: 
- - "winbase/GetXStateFeaturesMask"
+f1_keywords:
+- winbase/GetXStateFeaturesMask
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Xstate-l2-1-0.dll
- - KernelBase.dll
- - api-ms-win-core-xstate-l2-1-1.dll
+- Kernel32.dll
+- API-MS-Win-Core-Xstate-l2-1-0.dll
+- KernelBase.dll
+- api-ms-win-core-xstate-l2-1-1.dll
 api_name:
- - GetXStateFeaturesMask
+- GetXStateFeaturesMask
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 
 Returns the mask of XState features set within a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_wow64_context">CONTEXT</a> structure.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-wow64_context">CONTEXT</a> structure.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Returns the mask of XState features set within a
 
 ### -param Context [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_wow64_context">CONTEXT</a> structure that has been 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-wow64_context">CONTEXT</a> structure that has been 
       initialized with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializecontext">InitializeContext</a>.
 
 
@@ -91,7 +91,7 @@ This function returns <b>TRUE</b> if successful, otherwise
 
 The <b>GetXStateFeaturesMask</b> function returns 
      the mask of valid features in the specified context.  If a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_wow64_context">CONTEXT</a> is to be passed to 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-wow64_context">CONTEXT</a> is to be passed to 
      <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadcontext">GetThreadContext</a> or 
      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64getthreadcontext">Wow64GetThreadContext</a>, the application must 
      call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setxstatefeaturesmask">SetXStateFeaturesMask</a> to set which 
@@ -110,7 +110,7 @@ The definition of XState features are processor vendor specific. Please refer to
 
 <div class="alert"><b>Note</b>  The value returned by 
       <b>GetXStateFeaturesMask</b> on a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_wow64_context">CONTEXT</a> after a context operation will always be a subset 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-wow64_context">CONTEXT</a> after a context operation will always be a subset 
       of the mask specified in a call to 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setxstatefeaturesmask">SetXStateFeaturesMask</a> prior to the context 
       operation.</div>
@@ -138,7 +138,7 @@ The definition of XState features are processor vendor specific. Please refer to
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_wow64_context">CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-wow64_context">CONTEXT</a>
 
 
 

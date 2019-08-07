@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateSecurityPackages, EnumerateSecurityPackages function [Security], EnumerateSecurityPackagesA, EnumerateSecurityPackagesW, _ssp_enumeratesecuritypackages, security.enumeratesecuritypackages, sspi/EnumerateSecurityPackages, sspi/EnumerateSecurityPackagesA, sspi/EnumerateSecurityPackagesW
 ms.topic: function
-f1_keywords: 
- - "sspi/EnumerateSecurityPackages"
+f1_keywords:
+- sspi/EnumerateSecurityPackages
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - SspiCli.dll
+- SspiCli.dll
 api_name:
- - EnumerateSecurityPackages
- - EnumerateSecurityPackagesA
- - EnumerateSecurityPackagesW
+- EnumerateSecurityPackages
+- EnumerateSecurityPackagesA
+- EnumerateSecurityPackagesW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 
 The <b>EnumerateSecurityPackages</b> function returns an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkginfoa">SecPkgInfo</a> structures that provide information about the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security packages</a> available to the client.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structures that provide information about the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security packages</a> available to the client.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A pointer to a <b>ULONG</b> variable that receives the number of packages availa
 ### -param ppPackageInfo [in]
 
 A pointer to a variable that receives a pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkginfoa">SecPkgInfo</a> structures. Each structure contains information from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP) that describes the capabilities of the security package available within that SSP.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structures. Each structure contains information from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP) that describes the capabilities of the security package available within that SSP.
 
 When you have finished using the array, free the memory by calling the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function.
 
@@ -134,7 +134,7 @@ The specified package was not found.
 
 
 
-The caller can use the <b>Name</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkginfoa">SecPkgInfo</a> structure to specify a security package in a call to the 
+The caller can use the <b>Name</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structure to specify a security package in a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle (General)</a> function.
 
 
@@ -157,7 +157,7 @@ The caller can use the <b>Name</b> member of a <a href="https://docs.microsoft.c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkginfoa">SecPkgInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a>
  
 
  

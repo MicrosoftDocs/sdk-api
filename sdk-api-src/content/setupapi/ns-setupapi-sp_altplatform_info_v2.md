@@ -8,10 +8,10 @@ tech.root: SetupApi
 ms.assetid: eb66ef5a-212d-4224-87b5-d64e8e188139
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSP_ALTPLATFORM_INFO_V2, PSP_ALTPLATFORM_INFO_V2, PSP_ALTPLATFORM_INFO_V2 structure pointer [Setup API], SP_ALTPLATFORM_INFO, SP_ALTPLATFORM_INFO_V2, SP_ALTPLATFORM_INFO_V2 structure [Setup API], VER_PLATFORM_WIN32_NT, VER_PLATFORM_WIN32_WINDOWS, _setupapi_sp_altplatform_info, setup.sp_altplatform_info_v2, setupapi/PSP_ALTPLATFORM_INFO_V2, setupapi/SP_ALTPLATFORM_INFO_V2"
+ms.keywords: '*PSP_ALTPLATFORM_INFO_V2, PSP_ALTPLATFORM_INFO_V2, PSP_ALTPLATFORM_INFO_V2 structure pointer [Setup API], SP_ALTPLATFORM_INFO, SP_ALTPLATFORM_INFO_V2, SP_ALTPLATFORM_INFO_V2 structure [Setup API], VER_PLATFORM_WIN32_NT, VER_PLATFORM_WIN32_WINDOWS, _setupapi_sp_altplatform_info, setup.sp_altplatform_info_v2, setupapi/PSP_ALTPLATFORM_INFO_V2, setupapi/SP_ALTPLATFORM_INFO_V2'
 ms.topic: struct
-f1_keywords: 
- - "setupapi/SP_ALTPLATFORM_INFO_V2"
+f1_keywords:
+- setupapi/SP_ALTPLATFORM_INFO_V2
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Setupapi.h
+- Setupapi.h
 api_name:
- - SP_ALTPLATFORM_INFO_V2
+- SP_ALTPLATFORM_INFO_V2
 product: Windows
 targetos: Windows
 req.typenames: SP_ALTPLATFORM_INFO_V2, *PSP_ALTPLATFORM_INFO_V2
@@ -56,7 +56,7 @@ The <b>SP_ALTPLATFORM_INFO_V2</b> structure is used to pass information for an a
 
 Setup  uses the <b>SP_ALTPLATFORM_INFO_V2</b> structure if USE_SP_ALTPLATFORM_INFO_V1 is 0 or undefined and _WIN32_WINNT is set to 0x501. <b>FirstValidatedMajorVersion</b> and <b>FirstValidatedMinorVersion</b> are only available with <b>SP_ALTPLATFORM_INFO_V2</b> and for use with Windows Server 2008, Windows Vista, Windows Server 2003,  or Windows XP.
 
-Setup  uses the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_altplatform_info_v1">SP_ALTPLATFORM_INFO_V1</a> structure if USE_SP_ALTPLATFORM_INFO_V1 is set to 1 or if _WIN32_WINNT is less than or equal to 0x500. <b>FirstValidatedMajorVersion</b> and <b>FirstValidatedMinorVersion</b> are not available with <b>SP_ALTPLATFORM_INFO_V1</b>. 
+Setup  uses the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_altplatform_info_v1">SP_ALTPLATFORM_INFO_V1</a> structure if USE_SP_ALTPLATFORM_INFO_V1 is set to 1 or if _WIN32_WINNT is less than or equal to 0x500. <b>FirstValidatedMajorVersion</b> and <b>FirstValidatedMinorVersion</b> are not available with <b>SP_ALTPLATFORM_INFO_V1</b>. 
 
 
 ## -struct-fields
@@ -153,7 +153,7 @@ Minor version of the oldest previous operating system for which this package's d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_altplatform_info_v1">SP_ALTPLATFORM_INFO_V1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_altplatform_info_v1">SP_ALTPLATFORM_INFO_V1</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_GET_CERT_CALLBACK, WS_GET_CERT_CALLBACK callback, WS_GET_CERT_CALLBACK callback function [Web Services for Windows], webservices/WS_GET_CERT_CALLBACK, wsw.ws_get_cert_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_GET_CERT_CALLBACK"
+f1_keywords:
+- webservices/WS_GET_CERT_CALLBACK
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_GET_CERT_CALLBACK
+- WS_GET_CERT_CALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Provides a certificate to the security runtime.  This
-callback is specified as part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_cert_credential">WS_CUSTOM_CERT_CREDENTIAL</a>, 
+callback is specified as part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_custom_cert_credential">WS_CUSTOM_CERT_CREDENTIAL</a>, 
 which in turn may be specified as part of a security binding that requires a 
 certificate credential. The runtime will invoke this callback when the channel 
 (client-side) or the listener (server-side) is opened.

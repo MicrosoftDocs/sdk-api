@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: KERB_CERTIFICATE_LOGON, KERB_CERTIFICATE_S4U_LOGON, KERB_CERTIFICATE_UNLOCK_LOGON, KERB_INTERACTIVE_LOGON, KERB_S4U_LOGON, KERB_SMARTCARD_LOGON, KERB_SMARTCARD_UNLOCK_LOGON, KERB_TICKET_LOGON, KERB_TICKET_PROFILE, KERB_TICKET_UNLOCK_LOGON, LsaLogonUser, LsaLogonUser function [Security], MSV1_0_INTERACTIVE_LOGON, MSV1_0_INTERACTIVE_PROFILE, MSV1_0_LM20_LOGON, MSV1_0_LM20_LOGON_PROFILE, MSV1_0_SUBAUTH_LOGON, STATUS_ACCOUNT_DISABLED, STATUS_INVALID_LOGON_HOURS, STATUS_INVALID_WORKSTATION, STATUS_PASSWORD_EXPIRED, _lsa_lsalogonuser, ntsecapi/LsaLogonUser, security.lsalogonuser
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/LsaLogonUser"
+f1_keywords:
+- ntsecapi/LsaLogonUser
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - LsaLogonUser
+- LsaLogonUser
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ The caller is required to have <b>SeTcbPrivilege</b> only if one or more of the 
 <ul>
 <li>A Subauthentication package is used.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_s4u_logon">KERB_S4U_LOGON</a> is used, and the caller requests an impersonation token.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_s4u_logon">KERB_S4U_LOGON</a> is used, and the caller requests an impersonation token.</li>
 <li>The <i>LocalGroups</i> parameter is not <b>NULL</b>.</li>
 </ul>
  If <b>SeTcbPrivilege</b> is not required, call <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaconnectuntrusted">LsaConnectUntrusted</a> to obtain the handle.
@@ -87,7 +87,7 @@ A string that identifies the origin of the logon attempt. For more information, 
 ### -param LogonType [in]
 
 A 
-value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_security_logon_type">SECURITY_LOGON_TYPE</a> enumeration that specifies the type of logon requested. If <i>LogonType</i> is Interactive or Batch, a primary token is generated to represent the new user. If <i>LogonType</i> is Network, an impersonation token is generated.
+value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-security_logon_type">SECURITY_LOGON_TYPE</a> enumeration that specifies the type of logon requested. If <i>LogonType</i> is Interactive or Batch, a primary token is generated to represent the new user. If <i>LogonType</i> is Network, an impersonation token is generated.
 
 
 ### -param AuthenticationPackage [in]
@@ -109,20 +109,20 @@ This parameter can be one of the following input buffer structures for the MSV1_
 </tr>
 <tr>
 <td width="40%"><a id="MSV1_0_INTERACTIVE_LOGON"></a><a id="msv1_0_interactive_logon"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a></b></dt>
 <dt>MSV1_0</dt>
 </dl>
 </td>
 <td width="60%">
 Authenticating an interactive user logon.
 
-The <b>LogonDomainName</b>,  <b>UserName</b>, and <b>Password </b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_s4u_logon">MSV1_0_INTERACTIVE_LOGON</a> structure must point to buffers in memory that are contiguous to the structure itself. The value of the <i>AuthenticationInformationLength</i> parameter must take into account the length of these buffers.
+The <b>LogonDomainName</b>,  <b>UserName</b>, and <b>Password </b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_s4u_logon">MSV1_0_INTERACTIVE_LOGON</a> structure must point to buffers in memory that are contiguous to the structure itself. The value of the <i>AuthenticationInformationLength</i> parameter must take into account the length of these buffers.
 
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="KERB_INTERACTIVE_LOGON"></a><a id="kerb_interactive_logon"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a></b></dt>
 <dt>Kerberos</dt>
 </dl>
 </td>
@@ -155,7 +155,7 @@ Authenticating a user on ticket refresh, a variation of the normal workstation u
 </tr>
 <tr>
 <td width="40%"><a id="KERB_CERTIFICATE_LOGON"></a><a id="kerb_certificate_logon"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_certificate_logon">KERB_CERTIFICATE_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_logon">KERB_CERTIFICATE_LOGON</a></b></dt>
 <dt>Kerberos</dt>
 </dl>
 </td>
@@ -166,7 +166,7 @@ Authenticating a user using an interactive smart card logon.
 </tr>
 <tr>
 <td width="40%"><a id="KERB_CERTIFICATE_S4U_LOGON"></a><a id="kerb_certificate_s4u_logon"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_certificate_s4u_logon">KERB_CERTIFICATE_S4U_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_s4u_logon">KERB_CERTIFICATE_S4U_LOGON</a></b></dt>
 <dt>Kerberos</dt>
 </dl>
 </td>
@@ -199,7 +199,7 @@ Authenticating a user smart card logon using LOGON32_PROVIDER_WINNT50 or LOGON32
 </tr>
 <tr>
 <td width="40%"><a id="KERB_SMARTCARD_UNLOCK_LOGON"></a><a id="kerb_smartcard_unlock_logon"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_smart_card_unlock_logon">KERB_SMARTCARD_UNLOCK_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_smart_card_unlock_logon">KERB_SMARTCARD_UNLOCK_LOGON</a></b></dt>
 <dt>Kerberos</dt>
 </dl>
 </td>
@@ -210,7 +210,7 @@ Authenticating a user to unlock a workstation that has been locked during a smar
 </tr>
 <tr>
 <td width="40%"><a id="KERB_S4U_LOGON"></a><a id="kerb_s4u_logon"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_s4u_logon">KERB_S4U_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_s4u_logon">KERB_S4U_LOGON</a></b></dt>
 <dt>Kerberos</dt>
 </dl>
 </td>
@@ -222,7 +222,7 @@ Authenticating a user using S4U client requests. For <a href="https://docs.micro
 <li>If using a service account, the account must have <b>SeTcbPrivilege</b> set on the local computer to get an impersonation token. Otherwise, the identity token is used.</li>
 <li>The caller must be a member of the <b>Pre-Windows 2000 Compatible Access</b> or have read access to the group memberships of the client. Membership in the Windows Authorization Access group guarantees read access to group membership of the client. For information about how to configure the Windows Authorization Access group, see the Microsoft Knowledge Base.</li>
 </ul>
-The <b>ClientUpn</b> and <b>ClientRealm</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_s4u_logon">KERB_S4U_LOGON</a> structure must point to buffers in memory that are contiguous to the structure itself. The value of the <i>AuthenticationInformationLength</i> parameter must take into account the length of these buffers.
+The <b>ClientUpn</b> and <b>ClientRealm</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_s4u_logon">KERB_S4U_LOGON</a> structure must point to buffers in memory that are contiguous to the structure itself. The value of the <i>AuthenticationInformationLength</i> parameter must take into account the length of these buffers.
 
 </td>
 </tr>
@@ -243,7 +243,7 @@ This type of logon can use a subauthentication package.
 </tr>
 <tr>
 <td width="40%"><a id="MSV1_0_SUBAUTH_LOGON"></a><a id="msv1_0_subauth_logon"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_msv1_0_subauth_logon">MSV1_0_SUBAUTH_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_subauth_logon">MSV1_0_SUBAUTH_LOGON</a></b></dt>
 <dt>MSV1_0</dt>
 </dl>
 </td>
@@ -357,7 +357,7 @@ A pointer to a handle that receives the new user token created for this session.
 ### -param Quotas [out]
 
 When a primary token is returned, this parameter receives a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_quota_limits">QUOTA_LIMITS</a> structure that contains the process quota limits assigned to the newly logged on user's initial process.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-quota_limits">QUOTA_LIMITS</a> structure that contains the process quota limits assigned to the newly logged on user's initial process.
 
 
 ### -param SubStatus [out]

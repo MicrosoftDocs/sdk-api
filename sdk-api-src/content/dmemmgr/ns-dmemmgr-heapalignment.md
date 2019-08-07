@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 546029c7-c92e-4940-841f-235c7dc50e8e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPHEAPALIGNMENT, HEAPALIGNMENT, HEAPALIGNMENT structure [Display Devices], ddstrcts_ec77ce92-8153-4be6-8720-f8070efce79a.xml, display.heapalignment, dmemmgr/HEAPALIGNMENT"
+ms.keywords: '*LPHEAPALIGNMENT, HEAPALIGNMENT, HEAPALIGNMENT structure [Display Devices], ddstrcts_ec77ce92-8153-4be6-8720-f8070efce79a.xml, display.heapalignment, dmemmgr/HEAPALIGNMENT'
 ms.topic: struct
-f1_keywords: 
- - "dmemmgr/HEAPALIGNMENT"
+f1_keywords:
+- dmemmgr/HEAPALIGNMENT
 req.header: dmemmgr.h
 req.include-header: Dmemmgr.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dmemmgr.h
+- dmemmgr.h
 api_name:
- - HEAPALIGNMENT
+- HEAPALIGNMENT
 product: Windows
 targetos: Windows
 req.typenames: HEAPALIGNMENT, *LPHEAPALIGNMENT
@@ -76,7 +76,7 @@ Reserved for system use.
 
 ### -field ExecuteBuffer
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-_surfacealignment">SURFACEALIGNMENT</a> structure that contains heap alignment requirements for surfaces tagged with DDSCAPS_EXECUTEBUFFER. 
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-surfacealignment">SURFACEALIGNMENT</a> structure that contains heap alignment requirements for surfaces tagged with DDSCAPS_EXECUTEBUFFER. 
 
 
 ### -field Overlay
@@ -91,7 +91,7 @@ Specifies a SURFACEALIGNMENT structure that contains heap alignment requirements
 
 ### -field ZBuffer
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-_surfacealignment">SURFACEALIGNMENT</a> structure that contains heap alignment requirements for surfaces tagged with DDSCAPS_ZBUFFER. 
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-surfacealignment">SURFACEALIGNMENT</a> structure that contains heap alignment requirements for surfaces tagged with DDSCAPS_ZBUFFER. 
 
 
 ### -field AlphaBuffer
@@ -127,7 +127,7 @@ The driver should verify that the <b>dwSize</b> member is at least as large as <
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-_surfacealignment">SURFACEALIGNMENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-surfacealignment">SURFACEALIGNMENT</a>
  
 
  

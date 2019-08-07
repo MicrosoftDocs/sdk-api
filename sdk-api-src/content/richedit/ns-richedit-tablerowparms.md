@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFA_CENTER, PFA_LEFT, PFA_RIGHT, TABLEROWPARMS, TABLEROWPARMS structure [Windows Controls], controls.tablerowparms, richedit/TABLEROWPARMS
 ms.topic: struct
-f1_keywords: 
- - "richedit/TABLEROWPARMS"
+f1_keywords:
+- richedit/TABLEROWPARMS
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - TABLEROWPARMS
+- TABLEROWPARMS
 product: Windows
 targetos: Windows
 req.typenames: TABLEROWPARMS
@@ -71,7 +71,7 @@ The count of bytes in this structure.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
-The count of bytes in <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_tablecellparms">TABLECELLPARMS</a>.
+The count of bytes in <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-tablecellparms">TABLECELLPARMS</a>.
 
 
 ### -field cCell
@@ -252,7 +252,7 @@ The rows are aligned with the right margin.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_tablecellparms">TABLECELLPARMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-tablecellparms">TABLECELLPARMS</a>
  
 
  

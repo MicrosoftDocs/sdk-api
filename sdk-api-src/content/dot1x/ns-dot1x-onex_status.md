@@ -8,10 +8,10 @@ tech.root: NativeWiFi
 ms.assetid: 2c19c65b-0943-4561-a28f-0104e1cbd229
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PONEX_STATUS, ONEX_STATUS, ONEX_STATUS structure [NativeWIFI], PONEX_STATUS, PONEX_STATUS structure pointer [NativeWIFI], dot1x/ONEX_STATUS, dot1x/PONEX_STATUS, nwifi.onex_status"
+ms.keywords: '*PONEX_STATUS, ONEX_STATUS, ONEX_STATUS structure [NativeWIFI], PONEX_STATUS, PONEX_STATUS structure pointer [NativeWIFI], dot1x/ONEX_STATUS, dot1x/PONEX_STATUS, nwifi.onex_status'
 ms.topic: struct
-f1_keywords: 
- - "dot1x/ONEX_STATUS"
+f1_keywords:
+- dot1x/ONEX_STATUS
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dot1x.h
+- dot1x.h
 api_name:
- - ONEX_STATUS
+- ONEX_STATUS
 product: Windows
 targetos: Windows
 req.typenames: ONEX_STATUS, *PONEX_STATUS
@@ -66,7 +66,7 @@ The current status of the 802.1X authentication process. Any error that may have
 
 ### -field dwReason
 
-If an error occurred during 802.1X authentication, this member contains the reason for the error specified as a value from the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-_onex_reason_code">ONEX_REASON_CODE</a> enumeration. This member is normally <b>ONEX_REASON_CODE_SUCCESS</b> 
+If an error occurred during 802.1X authentication, this member contains the reason for the error specified as a value from the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-onex_reason_code">ONEX_REASON_CODE</a> enumeration. This member is normally <b>ONEX_REASON_CODE_SUCCESS</b> 
  when 802.1X authentication is successful and no error occurs. 
 
 
@@ -81,9 +81,9 @@ If an error occurred during 802.1X authentication, this member contains the erro
 
 The <b>ONEX_STATUS</b> structure is used by the 802.1X module, a new wireless configuration component supported on Windows Vista and  later.  
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> contains information on a status change to 802.1X authentication. The <b>ONEX_RESULT_UPDATE_DATA</b> structure is returned  when  the <b>NotificationSource</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure is <b>WLAN_NOTIFICATION_SOURCE_ONEX</b>  and the <b>NotificationCode</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure for received notification  is <b>OneXNotificationTypeResultUpdate</b>. For this notification, the <b>pData</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure points to an  <b>ONEX_RESULT_UPDATE_DATA</b> structure that contains information on the 802.1X authentication status change. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> contains information on a status change to 802.1X authentication. The <b>ONEX_RESULT_UPDATE_DATA</b> structure is returned  when  the <b>NotificationSource</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure is <b>WLAN_NOTIFICATION_SOURCE_ONEX</b>  and the <b>NotificationCode</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure for received notification  is <b>OneXNotificationTypeResultUpdate</b>. For this notification, the <b>pData</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure points to an  <b>ONEX_RESULT_UPDATE_DATA</b> structure that contains information on the 802.1X authentication status change. 
 
-The <b>oneXStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> structure contains an <b>ONEX_STATUS</b> structure.
+The <b>oneXStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> structure contains an <b>ONEX_STATUS</b> structure.
 
 
 
@@ -97,15 +97,15 @@ The <b>oneXStatus</b> member of the <a href="https://docs.microsoft.com/windows/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-_onex_notification_type">ONEX_NOTIFICATION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-onex_notification_type">ONEX_NOTIFICATION_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-_onex_reason_code">ONEX_REASON_CODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-onex_reason_code">ONEX_REASON_CODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a>
 
 
 

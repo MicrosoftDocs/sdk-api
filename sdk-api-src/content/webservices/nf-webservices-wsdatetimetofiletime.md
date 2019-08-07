@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsDateTimeToFileTime, WsDateTimeToFileTime function [Web Services for Windows], webservices/WsDateTimeToFileTime, wsw.wsdatetimetofiletime
 ms.topic: function
-f1_keywords: 
- - "webservices/WsDateTimeToFileTime"
+f1_keywords:
+- webservices/WsDateTimeToFileTime
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsDateTimeToFileTime
+- WsDateTimeToFileTime
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_datetime">WS_DATETIME</a> object into a FILETIME object.
+Converts a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a> object into a FILETIME object.
        A reference to the FILETIME object is returned by output parameter.
 
 
@@ -62,7 +62,7 @@ Converts a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/n
 
 ### -param dateTime [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_datetime">WS_DATETIME</a> structure to convert.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a> structure to convert.
         
 
 
@@ -121,7 +121,7 @@ The input data was not in the expected format or did not have the expected value
 
 
 
-A FILETIME cannot represent dates between January 1, 0001 and January 1, 1601.  A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_datetime">WS_DATETIME</a>within this range causes the function to return <b>WS_E_INVALID_FORMAT</b>.
+A FILETIME cannot represent dates between January 1, 0001 and January 1, 1601.  A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a>within this range causes the function to return <b>WS_E_INVALID_FORMAT</b>.
       (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 

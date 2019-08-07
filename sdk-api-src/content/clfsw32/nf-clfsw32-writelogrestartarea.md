@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLFS_FLAG_NO_FLAGS, CLFS_FLAG_USE_RESERVATION, WriteLogRestartArea, WriteLogRestartArea function [Files], clfsw32/WriteLogRestartArea, fs.writelogrestartarea
 ms.topic: function
-f1_keywords: 
- - "clfsw32/WriteLogRestartArea"
+f1_keywords:
+- clfsw32/WriteLogRestartArea
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Clfsw32.dll
+- Clfsw32.dll
 api_name:
- - WriteLogRestartArea
+- WriteLogRestartArea
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,7 +78,7 @@ The size of <i>pvRestartBuffer</i>, in bytes.
 
 ### -param plsnBase [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a> structure that specifies the new base LSN of the log after successfully writing the restart area.  
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that specifies the new base LSN of the log after successfully writing the restart area.  
 
 This value cannot be outside the range of the active log. It must be at least the value of the current base LSN, and not greater than the LSN that was returned in the <i>lastLSN</i> parameter from the latest call to <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-reserveandappendlog">ReserveAndAppendLog</a>.  If you omit this optional parameter, the base LSN  does not change.
 
@@ -125,12 +125,12 @@ A pointer to a variable that receives the number of bytes that are  written when
 
 ### -param plsnNext [out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a> structure that specifies the LSN of the restart area that is written.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that specifies the LSN of the restart area that is written.
 
 
 ### -param pOverlapped [in, out, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. 
 
 This parameter can be <b>NULL</b> if an asynchronous operation is not used.
 
@@ -156,7 +156,7 @@ The following  list identifies the possible error codes:
 
 The <b>WriteLogRestartArea</b> causes both a flush of all current buffered log records and a flush of the log metadata.
 
-If a client calls <b>WriteLogRestartArea</b> on  a  log  that is created to support asynchronous operations (for example, if the <i>fFlagsAndAttributes</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>  is set to <b>FILE_FLAG_OVERLAPPED</b> when the log is created), the client must supply a pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure in the <i>pOverlapped</i> parameter of <b>WriteLogRestartArea</b>.
+If a client calls <b>WriteLogRestartArea</b> on  a  log  that is created to support asynchronous operations (for example, if the <i>fFlagsAndAttributes</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>  is set to <b>FILE_FLAG_OVERLAPPED</b> when the log is created), the client must supply a pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure in the <i>pOverlapped</i> parameter of <b>WriteLogRestartArea</b>.
 
 Then, if  <b>WriteLogRestartArea</b>   fails with an error of <b>ERROR_IO_PENDING</b>, a pointer to a valid read context is placed in the variable that is pointed to by the <i>ppvReadContext</i> parameter. 
 
@@ -170,7 +170,7 @@ To complete the call, the client should synchronize its execution with deferred 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
 
 
 
@@ -178,7 +178,7 @@ To complete the call, the client should synchronize its execution with deferred 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
  
 
  

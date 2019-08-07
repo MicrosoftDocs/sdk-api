@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaLookupNames, LsaLookupNames function [Security], _lsa_lsalookupnames, ntsecapi/LsaLookupNames, security.lsalookupnames
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/LsaLookupNames"
+f1_keywords:
+- ntsecapi/LsaLookupNames
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - AdvApi32Legacy.dll
- - Ext-MS-Win-AdvAPI32-Lsa-L1-1-1.dll
+- Advapi32.dll
+- AdvApi32Legacy.dll
+- Ext-MS-Win-AdvAPI32-Lsa-L1-1-1.dll
 api_name:
- - LsaLookupNames
+- LsaLookupNames
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -79,7 +79,7 @@ Specifies the number of names in the <i>Names</i> array. This is also the number
 ### -param Names [in]
 
 Pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a> structures that contain the names to look up. The strings in these structures can be the names of user, group, or local group accounts, or the names of domains. Domain names can be DNS domain names or NetBIOS domain names. 
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structures that contain the names to look up. The strings in these structures can be the names of user, group, or local group accounts, or the names of domains. Domain names can be DNS domain names or NetBIOS domain names. 
 
 
 
@@ -102,7 +102,7 @@ When you have finished using the returned pointer, free the memory by calling th
 ### -param Sids [out]
 
 Receives a pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_translated_sid">LSA_TRANSLATED_SID</a> structures. Each entry in the <i>Sids</i> array contains the SID information for the corresponding entry in the <i>Names</i> array.  
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_translated_sid">LSA_TRANSLATED_SID</a> structures. Each entry in the <i>Sids</i> array contains the SID information for the corresponding entry in the <i>Names</i> array.  
 
 
 
@@ -220,11 +220,11 @@ For an example that calls this function, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_translated_sid">LSA_TRANSLATED_SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_translated_sid">LSA_TRANSLATED_SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_CALLBACK_STATUS_CLOSE_COMPLETE, WINHTTP_CALLBACK_STATUS_CLOSING_CONNECTION, WINHTTP_CALLBACK_STATUS_CONNECTED_TO_SERVER, WINHTTP_CALLBACK_STATUS_CONNECTING_TO_SERVER, WINHTTP_CALLBACK_STATUS_CONNECTION_CLOSED, WINHTTP_CALLBACK_STATUS_DATA_AVAILABLE, WINHTTP_CALLBACK_STATUS_FLAG_CERT_CN_INVALID, WINHTTP_CALLBACK_STATUS_FLAG_CERT_DATE_INVALID, WINHTTP_CALLBACK_STATUS_FLAG_CERT_REVOKED, WINHTTP_CALLBACK_STATUS_FLAG_CERT_REV_FAILED, WINHTTP_CALLBACK_STATUS_FLAG_INVALID_CA, WINHTTP_CALLBACK_STATUS_FLAG_INVALID_CERT, WINHTTP_CALLBACK_STATUS_FLAG_SECURITY_CHANNEL_ERROR, WINHTTP_CALLBACK_STATUS_GETPROXYFORURL_COMPLETE, WINHTTP_CALLBACK_STATUS_HANDLE_CLOSING, WINHTTP_CALLBACK_STATUS_HANDLE_CREATED, WINHTTP_CALLBACK_STATUS_HEADERS_AVAILABLE, WINHTTP_CALLBACK_STATUS_INTERMEDIATE_RESPONSE, WINHTTP_CALLBACK_STATUS_NAME_RESOLVED, WINHTTP_CALLBACK_STATUS_READ_COMPLETE, WINHTTP_CALLBACK_STATUS_RECEIVING_RESPONSE, WINHTTP_CALLBACK_STATUS_REDIRECT, WINHTTP_CALLBACK_STATUS_REQUEST_ERROR, WINHTTP_CALLBACK_STATUS_REQUEST_SENT, WINHTTP_CALLBACK_STATUS_RESOLVING_NAME, WINHTTP_CALLBACK_STATUS_RESPONSE_RECEIVED, WINHTTP_CALLBACK_STATUS_SECURE_FAILURE, WINHTTP_CALLBACK_STATUS_SENDING_REQUEST, WINHTTP_CALLBACK_STATUS_SENDREQUEST_COMPLETE, WINHTTP_CALLBACK_STATUS_SHUTDOWN_COMPLETE, WINHTTP_CALLBACK_STATUS_WRITE_COMPLETE, WINHTTP_STATUS_CALLBACK, WINHTTP_STATUS_CALLBACK callback, WINHTTP_STATUS_CALLBACK callback function [HTTP], http.internet_status_callback_prototype, winhttp/WINHTTP_STATUS_CALLBACK, winhttp_internet_status_callback_prototype
 ms.topic: callback
-f1_keywords: 
- - "winhttp/WINHTTP_STATUS_CALLBACK"
+f1_keywords:
+- winhttp/WINHTTP_STATUS_CALLBACK
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winhttp.h
+- Winhttp.h
 api_name:
- - WINHTTP_STATUS_CALLBACK
+- WINHTTP_STATUS_CALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -161,7 +161,7 @@ Data was successfully read from the server.  The
 <i>dwStatusInformationLength</i> parameter contains the number of bytes read.
 
 When used by <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketreceive">WinHttpWebSocketReceive</a>, the 
-<i>lpvStatusInformation</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-_winhttp_web_socket_status">WINHTTP_WEB_SOCKET_STATUS</a> structure, and the 
+<i>lpvStatusInformation</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-winhttp_web_socket_status">WINHTTP_WEB_SOCKET_STATUS</a> structure, and the 
 <i>dwStatusInformationLength</i> parameter  indicates the size of <i>lpvStatusInformation</i>.
 
 
@@ -236,7 +236,7 @@ Data was successfully written to the server.  The
 <i>lpvStatusInformation</i> parameter contains a pointer to a <b>DWORD</b> that indicates the number of bytes written.
 
 When used by <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketreceive">WinHttpWebSocketSend</a>, the 
-<i>lpvStatusInformation</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-_winhttp_web_socket_status">WINHTTP_WEB_SOCKET_STATUS</a> structure, and the 
+<i>lpvStatusInformation</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-winhttp_web_socket_status">WINHTTP_WEB_SOCKET_STATUS</a> structure, and the 
 <i>dwStatusInformationLength</i> parameter  indicates the size of <i>lpvStatusInformation</i>.
 
 

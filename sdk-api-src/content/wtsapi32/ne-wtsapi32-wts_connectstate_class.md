@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSActive, WTSConnectQuery, WTSConnected, WTSDisconnected, WTSDown, WTSIdle, WTSInit, WTSListen, WTSReset, WTSShadow, WTS_CONNECTSTATE_CLASS, WTS_CONNECTSTATE_CLASS enumeration [Remote Desktop Services], _win32_wts_connectstate_class_str, termserv.wts_connectstate_class_str, wtsapi32/WTSActive, wtsapi32/WTSConnectQuery, wtsapi32/WTSConnected, wtsapi32/WTSDisconnected, wtsapi32/WTSDown, wtsapi32/WTSIdle, wtsapi32/WTSInit, wtsapi32/WTSListen, wtsapi32/WTSReset, wtsapi32/WTSShadow, wtsapi32/WTS_CONNECTSTATE_CLASS
 ms.topic: enum
-f1_keywords: 
- - "wtsapi32/WTS_CONNECTSTATE_CLASS"
+f1_keywords:
+- wtsapi32/WTS_CONNECTSTATE_CLASS
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsapi32.h
+- Wtsapi32.h
 api_name:
- - WTS_CONNECTSTATE_CLASS
+- WTS_CONNECTSTATE_CLASS
 product: Windows
 targetos: Windows
 req.typenames: WTS_CONNECTSTATE_CLASS
@@ -122,7 +122,7 @@ The WinStation is initializing.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_session_infoa">WTS_SESSION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_infoa">WTS_SESSION_INFO</a>
  
 
  

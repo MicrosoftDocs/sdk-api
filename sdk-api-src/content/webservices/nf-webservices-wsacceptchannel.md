@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsAcceptChannel, WsAcceptChannel function [Web Services for Windows], webservices/WsAcceptChannel, wsw.wsacceptchannel
 ms.topic: function
-f1_keywords: 
- - "webservices/WsAcceptChannel"
+f1_keywords:
+- webservices/WsAcceptChannel
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsAcceptChannel
+- WsAcceptChannel
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -80,7 +80,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-channel"
 
 ### -param asyncContext [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_async_context">WS_ASYNC_CONTEXT</a> data structure with information for invoking the function asynchronously.  Pass a <b>NULL</b> 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> data structure with information for invoking the function asynchronously.  Pass a <b>NULL</b> 
                  value for a synchronous operation.
 
 

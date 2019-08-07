@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Digest, ISC_REQ_ALLOCATE_MEMORY, ISC_REQ_CONFIDENTIALITY, ISC_REQ_CONNECTION, ISC_REQ_DELEGATE, ISC_REQ_EXTENDED_ERROR, ISC_REQ_HTTP, ISC_REQ_INTEGRITY, ISC_REQ_MANUAL_CRED_VALIDATION, ISC_REQ_MUTUAL_AUTH, ISC_REQ_NO_INTEGRITY, ISC_REQ_REPLAY_DETECT, ISC_REQ_SEQUENCE_DETECT, ISC_REQ_STREAM, ISC_REQ_USE_SESSION_KEY, ISC_REQ_USE_SUPPLIED_CREDS, InitializeSecurityContext, InitializeSecurityContext (General), InitializeSecurityContext function [Security], InitializeSecurityContextA, InitializeSecurityContextW, Kerberos or Negotiate, NTLM, Schannel/SSL, _ssp_initializesecuritycontext, security.initializesecuritycontext, security.initializesecuritycontext__general_, sspi/InitializeSecurityContext, sspi/InitializeSecurityContextA, sspi/InitializeSecurityContextW
 ms.topic: function
-f1_keywords: 
- - "sspi/InitializeSecurityContext"
+f1_keywords:
+- sspi/InitializeSecurityContext
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - InitializeSecurityContext
- - InitializeSecurityContextA
- - InitializeSecurityContextW
+- InitializeSecurityContext
+- InitializeSecurityContextA
+- InitializeSecurityContextW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -377,7 +377,7 @@ This parameter is not used with Digest or Schannel. Set it to zero.
 ### -param pInput [in, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbufferdesc">SecBufferDesc</a> structure that contains pointers to the buffers supplied as input to the package. Unless the client context was initiated by the server, the value of this parameter must be <b>NULL</b> on the first call to the function. On subsequent calls to the function or when the client context was initiated by the server, the value of this parameter is a pointer to a buffer allocated with enough memory to hold the token returned by the remote computer.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure that contains pointers to the buffers supplied as input to the package. Unless the client context was initiated by the server, the value of this parameter must be <b>NULL</b> on the first call to the function. On subsequent calls to the function or when the client context was initiated by the server, the value of this parameter is a pointer to a buffer allocated with enough memory to hold the token returned by the remote computer.
 
 
 ### -param Reserved2 [in]
@@ -396,12 +396,12 @@ When using the Schannel SSP,  on calls after the first call, pass the  handle re
 ### -param pOutput [in, out, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbufferdesc">SecBufferDesc</a> structure that contains pointers to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure that contains pointers to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structure that receives the output data. If a buffer was typed as SEC_READWRITE in the input, it will be there on output. The system will allocate a buffer for the security token if requested (through ISC_REQ_ALLOCATE_MEMORY) and fill in the address in the buffer descriptor for the security token.
 
 When using the Microsoft Digest SSP,  this parameter receives the challenge response that must be sent to the server.
 
-When using the Schannel SSP, if the ISC_REQ_ALLOCATE_MEMORY flag is specified, the Schannel SSP will allocate memory for  the buffer and put the appropriate information in the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbufferdesc">SecBufferDesc</a>. In addition, the caller must pass in a buffer of type <b>SECBUFFER_ALERT</b>. On output, if an alert is generated, this buffer  contains information about that alert, and the function fails.
+When using the Schannel SSP, if the ISC_REQ_ALLOCATE_MEMORY flag is specified, the Schannel SSP will allocate memory for  the buffer and put the appropriate information in the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a>. In addition, the caller must pass in a buffer of type <b>SECBUFFER_ALERT</b>. On output, if an alert is generated, this buffer  contains information about that alert, and the function fails.
 
 
 ### -param pfContextAttr [out]
@@ -725,7 +725,7 @@ When using the Schannel SSP, after a client application receives an authenticati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbufferdesc">SecBufferDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a>
  
 
  

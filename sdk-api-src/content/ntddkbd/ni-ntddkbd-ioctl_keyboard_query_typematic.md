@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_KEYBOARD_QUERY_TYPEMATIC, IOCTL_KEYBOARD_QUERY_TYPEMATIC control, IOCTL_KEYBOARD_QUERY_TYPEMATIC control code [Human Input Devices], hid.ioctl_keyboard_query_typematic2, i8042ref_4aaa5c7a-3a1e-4f50-950f-3e03c0a0c034.xml, ntddkbd/IOCTL_KEYBOARD_QUERY_TYPEMATIC
 ms.topic: ioctl
-f1_keywords: 
- - "ntddkbd/IOCTL_KEYBOARD_QUERY_TYPEMATIC"
+f1_keywords:
+- ntddkbd/IOCTL_KEYBOARD_QUERY_TYPEMATIC
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ntddkbd.h
+- ntddkbd.h
 api_name:
- - IOCTL_KEYBOARD_QUERY_TYPEMATIC
+- IOCTL_KEYBOARD_QUERY_TYPEMATIC
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,22 +61,22 @@ The IOCTL_KEYBOARD_QUERY_TYPEMATIC request returns the keyboard typematic settin
 
 ### -input-buffer
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> is set to a value greater than or equal to the size, in bytes, of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> is set to a value greater than or equal to the size, in bytes, of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
 
 
 ### -input-buffer-length
 
-The size of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
+The size of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
 
 
 ### -output-buffer
 
-<b>AssociatedIrp.SystemBuffer</b> points to a client-allocated output buffer that I8042prt uses to output a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
+<b>AssociatedIrp.SystemBuffer</b> points to a client-allocated output buffer that I8042prt uses to output a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
 
 
 ### -output-buffer-length
 
-The size of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
+The size of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
 
 
 ### -in-out-buffer
@@ -133,7 +133,7 @@ The request completed successfully.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a>
  
 
  

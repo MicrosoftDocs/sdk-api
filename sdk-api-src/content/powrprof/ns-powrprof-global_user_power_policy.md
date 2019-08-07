@@ -8,10 +8,10 @@ tech.root: power
 ms.assetid: 0e89ae66-a889-4929-b028-125fcef5c89c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PGLOBAL_USER_POWER_POLICY, GLOBAL_USER_POWER_POLICY, GLOBAL_USER_POWER_POLICY structure, PGLOBAL_USER_POWER_POLICY, PGLOBAL_USER_POWER_POLICY structure pointer, _win32_global_user_power_policy_str, base.global_user_power_policy_str, powrprof/GLOBAL_USER_POWER_POLICY, powrprof/PGLOBAL_USER_POWER_POLICY"
+ms.keywords: '*PGLOBAL_USER_POWER_POLICY, GLOBAL_USER_POWER_POLICY, GLOBAL_USER_POWER_POLICY structure, PGLOBAL_USER_POWER_POLICY, PGLOBAL_USER_POWER_POLICY structure pointer, _win32_global_user_power_policy_str, base.global_user_power_policy_str, powrprof/GLOBAL_USER_POWER_POLICY, powrprof/PGLOBAL_USER_POWER_POLICY'
 ms.topic: struct
-f1_keywords: 
- - "powrprof/GLOBAL_USER_POWER_POLICY"
+f1_keywords:
+- powrprof/GLOBAL_USER_POWER_POLICY
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - PowrProf.h
+- PowrProf.h
 api_name:
- - GLOBAL_USER_POWER_POLICY
+- GLOBAL_USER_POWER_POLICY
 product: Windows
 targetos: Windows
 req.typenames: GLOBAL_USER_POWER_POLICY, *PGLOBAL_USER_POWER_POLICY
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Contains global user power policy settings that apply to all power schemes for a user. This structure is part of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_global_power_policy">GLOBAL_POWER_POLICY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_power_policy">GLOBAL_POWER_POLICY</a> structure.
 
 
 ## -struct-fields
@@ -118,7 +118,7 @@ A flag that enables or disables miscellaneous user power policy settings. This m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_global_power_policy">GLOBAL_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_power_policy">GLOBAL_POWER_POLICY</a>
 
 
 

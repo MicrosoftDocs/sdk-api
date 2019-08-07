@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcServerTestCancel, RpcServerTestCancel function [RPC], _rpc_rpcservertestcancel, rpc.rpcservertestcancel, rpcdce/RpcServerTestCancel
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcServerTestCancel"
+f1_keywords:
+- rpcdce/RpcServerTestCancel
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcServerTestCancel
+- RpcServerTestCancel
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -152,7 +152,7 @@ The <i>BindingHandle</i> parameter specifies the call on which to test. If the p
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_async_state">RPC_ASYNC_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a>
 
 
 

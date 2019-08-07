@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetQueryServiceAccount, NetQueryServiceAccount function [Security], lmaccess/NetQueryServiceAccount, security.netqueryserviceaccount
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetQueryServiceAccount"
+f1_keywords:
+- lmaccess/NetQueryServiceAccount
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetQueryServiceAccount
+- NetQueryServiceAccount
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -85,7 +85,7 @@ Specifies the format of the data returned in the <i>Buffer</i> parameter. This c
 </dl>
 </td>
 <td width="60%">
-The <i>Buffer</i> parameter contains an <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_msa_info_0">MSA_INFO_0</a> structure.
+The <i>Buffer</i> parameter contains an <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-msa_info_0">MSA_INFO_0</a> structure.
 
 </td>
 </tr>

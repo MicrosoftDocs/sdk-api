@@ -8,10 +8,10 @@ tech.root: TermServ
 ms.assetid: 93D4C843-7974-4287-9222-B90206DE6B75
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWRDS_CONNECTION_SETTINGS_1, PWRDS_CONNECTION_SETTINGS_1, PWRDS_CONNECTION_SETTINGS_1 structure pointer [Remote Desktop Services], WRDS_CONNECTION_SETTINGS_1, WRDS_CONNECTION_SETTINGS_1 structure [Remote Desktop Services], WRDS_PERF_DISABLE_CURSORSETTINGS, WRDS_PERF_DISABLE_CURSOR_SHADOW, WRDS_PERF_DISABLE_FULLWINDOWDRAG, WRDS_PERF_DISABLE_MENUANIMATIONS, WRDS_PERF_DISABLE_NOTHING, WRDS_PERF_DISABLE_THEMING, WRDS_PERF_DISABLE_WALLPAPER, WRDS_PERF_ENABLE_DESKTOP_COMPOSITION, WRDS_PERF_ENABLE_ENHANCED_GRAPHICS, WRDS_PERF_ENABLE_FONT_SMOOTHING, termserv.wrds_connection_settings_1, wtsdefs/PWRDS_CONNECTION_SETTINGS_1, wtsdefs/WRDS_CONNECTION_SETTINGS_1"
+ms.keywords: '*PWRDS_CONNECTION_SETTINGS_1, PWRDS_CONNECTION_SETTINGS_1, PWRDS_CONNECTION_SETTINGS_1 structure pointer [Remote Desktop Services], WRDS_CONNECTION_SETTINGS_1, WRDS_CONNECTION_SETTINGS_1 structure [Remote Desktop Services], WRDS_PERF_DISABLE_CURSORSETTINGS, WRDS_PERF_DISABLE_CURSOR_SHADOW, WRDS_PERF_DISABLE_FULLWINDOWDRAG, WRDS_PERF_DISABLE_MENUANIMATIONS, WRDS_PERF_DISABLE_NOTHING, WRDS_PERF_DISABLE_THEMING, WRDS_PERF_DISABLE_WALLPAPER, WRDS_PERF_ENABLE_DESKTOP_COMPOSITION, WRDS_PERF_ENABLE_ENHANCED_GRAPHICS, WRDS_PERF_ENABLE_FONT_SMOOTHING, termserv.wrds_connection_settings_1, wtsdefs/PWRDS_CONNECTION_SETTINGS_1, wtsdefs/WRDS_CONNECTION_SETTINGS_1'
 ms.topic: struct
-f1_keywords: 
- - "wtsdefs/WRDS_CONNECTION_SETTINGS_1"
+f1_keywords:
+- wtsdefs/WRDS_CONNECTION_SETTINGS_1
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsdefs.h
+- Wtsdefs.h
 api_name:
- - WRDS_CONNECTION_SETTINGS_1
+- WRDS_CONNECTION_SETTINGS_1
 product: Windows
 targetos: Windows
 req.typenames: WRDS_CONNECTION_SETTINGS_1, *PWRDS_CONNECTION_SETTINGS_1
@@ -435,12 +435,12 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wt
 
 ### -field ClientTimeZone
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_time_zone_information">WRDS_TIME_ZONE_INFORMATION</a> structure that contains client time zone information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_time_zone_information">WRDS_TIME_ZONE_INFORMATION</a> structure that contains client time zone information.
 
 
 ### -field WRdsListenerSettings
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_listener_settings">WRDS_LISTENER_SETTINGS</a> structure that contains listener settings.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_listener_settings">WRDS_LISTENER_SETTINGS</a> structure that contains listener settings.
 
 
 ### -field EventLogActivityId

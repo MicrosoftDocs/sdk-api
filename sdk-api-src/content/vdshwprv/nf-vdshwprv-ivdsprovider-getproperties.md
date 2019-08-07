@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsProvider interface, IVdsProvider interface [VDS],GetProperties method, IVdsProvider.GetProperties, IVdsProvider::GetProperties, base.ivdsprovider_getproperties, vds/IVdsProvider::GetProperties, vdshwprv/IVdsProvider::GetProperties
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsProvider.GetProperties"
+f1_keywords:
+- vdshwprv/IVdsProvider.GetProperties
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsProvider.GetProperties
+- IVdsProvider.GetProperties
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Returns the
 
 ### -param pProviderProp [out]
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_provider_prop">VDS_PROVIDER_PROP</a> 
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_provider_prop">VDS_PROVIDER_PROP</a> 
       structure allocated and passed in by the caller. VDS allocates memory for the 
       <b>pwszName</b> and <b>pwszVersion</b> member strings. Callers must free 
       the strings by using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>function.
@@ -109,7 +109,7 @@ Some but not all of the properties were successfully retrieved. Note that there 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_provider_prop">VDS_PROVIDER_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_provider_prop">VDS_PROVIDER_PROP</a>
  
 
  

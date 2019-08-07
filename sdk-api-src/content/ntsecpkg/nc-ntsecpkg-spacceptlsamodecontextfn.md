@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ASC_REQ_ALLOCATE_MEMORY, ASC_REQ_CONNECTION, ASC_REQ_DATAGRAM, ASC_REQ_DELEGATE, ASC_REQ_EXTENDED_ERROR, ASC_REQ_INTEGRITY, ASC_REQ_MUTUAL_AUTH, ASC_REQ_PROMPT_FOR_CREDS, ASC_REQ_REPLAY_DETECT, ASC_REQ_SEQUENCE_DETECT, ASC_REQ_STREAM, ASC_REQ_USE_DCE_STYLE, ASC_REQ_USE_SESSION_KEY, ASC_REQ_USE_SUPPLIED_CREDS, SpAcceptLsaModeContext, SpAcceptLsaModeContext callback function [Security], SpAcceptLsaModeContextFn, SpAcceptLsaModeContextFn callback, _ssp_spacceptlsamodecontext, ntsecpkg/SpAcceptLsaModeContext, security.spacceptlsamodecontext
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/SpAcceptLsaModeContext"
+f1_keywords:
+- ntsecpkg/SpAcceptLsaModeContext
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SpAcceptLsaModeContext
+- SpAcceptLsaModeContext
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,7 +76,7 @@ Optional. Handle to the current context.
 ### -param InputBuffer [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbufferdesc">SecBufferDesc</a> structure containing information from the client.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure containing information from the client.
 
 
 ### -param ContextRequirements [in]
@@ -250,7 +250,7 @@ Pointer to an <b>LSA_SEC_HANDLE</b>. On the first call to
 ### -param OutputBuffer [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbufferdesc">SecBufferDesc</a> structure that receives information to be sent to the client.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure that receives information to be sent to the client.
 
 
 ### -param ContextAttributes [out]
@@ -272,7 +272,7 @@ Pointer to a Boolean value. Set <i>MappedContext</i> to <b>TRUE</b> if the <a hr
 ### -param ContextData [out]
 
 Optional. Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structure that receives context-specific data to copy when creating the user-mode <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. Memory for <i>ContextData</i> must be allocated using the 
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure that receives context-specific data to copy when creating the user-mode <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. Memory for <i>ContextData</i> must be allocated using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap">AllocateLsaHeap</a> function. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) will free the memory.
 
 

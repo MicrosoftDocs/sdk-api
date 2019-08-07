@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PstValidate, PstValidate function [Security], certpoleng/PstValidate, security.pstvalidate
 ms.topic: function
-f1_keywords: 
- - "certpoleng/PstValidate"
+f1_keywords:
+- certpoleng/PstValidate
 req.header: certpoleng.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Certpoleng.lib
 req.dll: Certpoleng.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Certpoleng.dll
+- Certpoleng.dll
 api_name:
- - PstValidate
+- PstValidate
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ The name of the server. If the caller is not the client, this parameter is <b>NU
 
 ### -param pRequestedIssuancePolicy [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_usage_match">CERT_USAGE_MATCH</a> structure that specifies identifiers that the certificate must match to be validated.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_usage_match">CERT_USAGE_MATCH</a> structure that specifies identifiers that the certificate must match to be validated.
 
 
 ### -param phAdditionalCertStore [in, optional]
@@ -81,7 +81,7 @@ A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly
 
 ### -param pCert [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that specifies the certificate to validate.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that specifies the certificate to validate.
 
 
 ### -param pProvGUID [out, optional]

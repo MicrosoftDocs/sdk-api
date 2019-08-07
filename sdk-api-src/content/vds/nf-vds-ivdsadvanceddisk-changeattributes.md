@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChangeAttributes, ChangeAttributes method [VDS], ChangeAttributes method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],ChangeAttributes method, IVdsAdvancedDisk.ChangeAttributes, IVdsAdvancedDisk::ChangeAttributes, base.ivdsadvanceddisk_changeattributes, vds/IVdsAdvancedDisk::ChangeAttributes
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsAdvancedDisk.ChangeAttributes"
+f1_keywords:
+- vds/IVdsAdvancedDisk.ChangeAttributes
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsAdvancedDisk.ChangeAttributes
+- IVdsAdvancedDisk.ChangeAttributes
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ The partition offset.
 
 ### -param para [in]
 
-The attribute parameters defined by  the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_change_attributes_parameters">CHANGE_ATTRIBUTES_PARAMETERS</a> structure.
+The attribute parameters defined by  the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-change_attributes_parameters">CHANGE_ATTRIBUTES_PARAMETERS</a> structure.
 
 
 ## -returns
@@ -150,7 +150,7 @@ For GPT disks, this method changes the hidden, read only, and no drive letter  a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_change_attributes_parameters">CHANGE_ATTRIBUTES_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-change_attributes_parameters">CHANGE_ATTRIBUTES_PARAMETERS</a>
 
 
 

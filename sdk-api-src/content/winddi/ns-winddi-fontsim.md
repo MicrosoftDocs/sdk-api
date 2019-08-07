@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FONTSIM, FONTSIM structure [Display Devices], display.fontsim, grstrcts_b6931468-edd5-4675-a8e2-a594741f7e6c.xml, winddi/FONTSIM
 ms.topic: struct
-f1_keywords: 
- - "winddi/FONTSIM"
+f1_keywords:
+- winddi/FONTSIM
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - FONTSIM
+- FONTSIM
 product: Windows
 targetos: Windows
 req.typenames: FONTSIM
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The FONTSIM structure contains offsets to one or more <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontdiff">FONTDIFF</a> structures describing bold, italic, and bold italic font simulations.
+The FONTSIM structure contains offsets to one or more <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontdiff">FONTDIFF</a> structures describing bold, italic, and bold italic font simulations.
 
 
 ## -struct-fields
@@ -78,7 +78,7 @@ If nonzero, specifies the offset from the beginning of this structure to the FON
 
 
 
-If the <b>dpFontSim</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure is nonzero, it holds the offset from the beginning of that structure to the beginning of a FONTSIM structure.
+If the <b>dpFontSim</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a> structure is nonzero, it holds the offset from the beginning of that structure to the beginning of a FONTSIM structure.
 
 
 
@@ -88,11 +88,11 @@ If the <b>dpFontSim</b> member of the <a href="https://docs.microsoft.com/window
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontdiff">FONTDIFF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontdiff">FONTDIFF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
  
 
  

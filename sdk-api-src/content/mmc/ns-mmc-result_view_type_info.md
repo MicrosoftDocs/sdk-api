@@ -8,10 +8,10 @@ tech.root: mmc
 ms.assetid: 50357902-6999-4d65-8e12-81277b66d5ee
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRESULT_VIEW_TYPE_INFO, MMC_VIEW_TYPE_HTML, MMC_VIEW_TYPE_LIST, MMC_VIEW_TYPE_OCX, RESULT_VIEW_TYPE_INFO, RESULT_VIEW_TYPE_INFO structure [MMC], RVTI_LIST_OPTIONS_ALLOWPASTE, RVTI_LIST_OPTIONS_EXCLUDE_SCOPE_ITEMS_FROM_LIST, RVTI_LIST_OPTIONS_FILTERED, RVTI_LIST_OPTIONS_LEXICAL_SORT, RVTI_LIST_OPTIONS_MULTISELECT, RVTI_LIST_OPTIONS_NONE, RVTI_LIST_OPTIONS_OWNERDATALIST, RVTI_LIST_OPTIONS_USEFONTLINKING, RVTI_OCX_OPTIONS_CACHE_OCX, RVTI_OCX_OPTIONS_NOLISTVIEW, RVTI_OCX_OPTIONS_NONE, _slate_result_view_type_info, mmc.result_view_type_info, mmc/RESULT_VIEW_TYPE_INFO"
+ms.keywords: '*PRESULT_VIEW_TYPE_INFO, MMC_VIEW_TYPE_HTML, MMC_VIEW_TYPE_LIST, MMC_VIEW_TYPE_OCX, RESULT_VIEW_TYPE_INFO, RESULT_VIEW_TYPE_INFO structure [MMC], RVTI_LIST_OPTIONS_ALLOWPASTE, RVTI_LIST_OPTIONS_EXCLUDE_SCOPE_ITEMS_FROM_LIST, RVTI_LIST_OPTIONS_FILTERED, RVTI_LIST_OPTIONS_LEXICAL_SORT, RVTI_LIST_OPTIONS_MULTISELECT, RVTI_LIST_OPTIONS_NONE, RVTI_LIST_OPTIONS_OWNERDATALIST, RVTI_LIST_OPTIONS_USEFONTLINKING, RVTI_OCX_OPTIONS_CACHE_OCX, RVTI_OCX_OPTIONS_NOLISTVIEW, RVTI_OCX_OPTIONS_NONE, _slate_result_view_type_info, mmc.result_view_type_info, mmc/RESULT_VIEW_TYPE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "mmc/RESULT_VIEW_TYPE_INFO"
+f1_keywords:
+- mmc/RESULT_VIEW_TYPE_INFO
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - RESULT_VIEW_TYPE_INFO
+- RESULT_VIEW_TYPE_INFO
 product: Windows
 targetos: Windows
 req.typenames: RESULT_VIEW_TYPE_INFO, *PRESULT_VIEW_TYPE_INFO
@@ -72,7 +72,7 @@ Snap-in-provided identifier for this view type. When implementing <a href="https
 ### -field eViewType
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_view_type">MMC_VIEW_TYPE</a> enumeration value specifying the view type. This member is the structure's union discriminator and determines which members of the union are valid. This member is one of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_view_type">MMC_VIEW_TYPE</a> enumeration value specifying the view type. This member is the structure's union discriminator and determines which members of the union are valid. This member is one of the following values.
 
 
 

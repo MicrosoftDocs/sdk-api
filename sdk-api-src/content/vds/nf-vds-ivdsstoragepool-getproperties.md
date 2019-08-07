@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method, GetProperties method,IVdsStoragePool interface, IVdsStoragePool interface,GetProperties method, IVdsStoragePool.GetProperties, IVdsStoragePool::GetProperties, base.ivdsstoragepool_getproperties, vds/IVdsStoragePool::GetProperties, vdshwprv/IVdsStoragePool::GetProperties
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsStoragePool.GetProperties"
+f1_keywords:
+- vds/IVdsStoragePool.GetProperties
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsStoragePool.GetProperties
+- IVdsStoragePool.GetProperties
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Returns the properties of a <a href="https://docs.microsoft.com/windows/desktop/
 
 ### -param pStoragePoolProp [out]
 
-The address of a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_storage_pool_prop">VDS_STORAGE_POOL_PROP</a> structure that receives the storage pool property information.
+The address of a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_storage_pool_prop">VDS_STORAGE_POOL_PROP</a> structure that receives the storage pool property information.
 
 
 ## -returns

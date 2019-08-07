@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateVideoProcessor, CreateVideoProcessor method [Media Foundation], CreateVideoProcessor method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],CreateVideoProcessor method, IDXVAHD_Device.CreateVideoProcessor, IDXVAHD_Device::CreateVideoProcessor, dxvahd/IDXVAHD_Device::CreateVideoProcessor, mf.idxvahd_device_createvideoprocessor
 ms.topic: method
-f1_keywords: 
- - "dxvahd/IDXVAHD_Device.CreateVideoProcessor"
+f1_keywords:
+- dxvahd/IDXVAHD_Device.CreateVideoProcessor
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - IDXVAHD_Device.CreateVideoProcessor
+- IDXVAHD_Device.CreateVideoProcessor
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Creates a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video p
 
 ### -param pVPGuid [in]
 
-A GUID that identifies the video processor to create. This GUID must equal the value of the <b>VPGuid</b> member from one of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpcaps">DXVAHD_VPCAPS</a> structures retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcaps">IDXVAHD_Device::GetVideoProcessorCaps</a> method.
+A GUID that identifies the video processor to create. This GUID must equal the value of the <b>VPGuid</b> member from one of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpcaps">DXVAHD_VPCAPS</a> structures retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcaps">IDXVAHD_Device::GetVideoProcessorCaps</a> method.
 
 
 ### -param ppVideoProcessor [out]

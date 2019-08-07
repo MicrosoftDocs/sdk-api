@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsMarkHeaderAsUnderstood, WsMarkHeaderAsUnderstood function [Web Services for Windows], webservices/WsMarkHeaderAsUnderstood, wsw.wsmarkheaderasunderstood
 ms.topic: function
-f1_keywords: 
- - "webservices/WsMarkHeaderAsUnderstood"
+f1_keywords:
+- webservices/WsMarkHeaderAsUnderstood
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsMarkHeaderAsUnderstood
+- WsMarkHeaderAsUnderstood
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -152,7 +152,7 @@ This function may return other errors not listed above.
 
 
 When the application reads the header using an XML Reader,
-                it should obtain a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_node_position">WS_XML_NODE_POSITION</a> of the header element
+                it should obtain a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_node_position">WS_XML_NODE_POSITION</a> of the header element
                 and pass it to this function.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetreaderposition">WsGetReaderPosition</a> for
                 how to obtain a <b>WS_XML_NODE_POSITION</b>.
             

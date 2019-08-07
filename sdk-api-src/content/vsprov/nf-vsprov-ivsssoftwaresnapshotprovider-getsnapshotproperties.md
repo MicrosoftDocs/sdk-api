@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSnapshotProperties, GetSnapshotProperties method, GetSnapshotProperties method,IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,GetSnapshotProperties method, IVssSoftwareSnapshotProvider.GetSnapshotProperties, IVssSoftwareSnapshotProvider::GetSnapshotProperties, base.ivsssoftwaresnapshotprovider_getsnapshotproperties, vsprov/IVssSoftwareSnapshotProvider::GetSnapshotProperties
 ms.topic: method
-f1_keywords: 
- - "vsprov/IVssSoftwareSnapshotProvider.GetSnapshotProperties"
+f1_keywords:
+- vsprov/IVssSoftwareSnapshotProvider.GetSnapshotProperties
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssSoftwareSnapshotProvider.GetSnapshotProperties
+- IVssSoftwareSnapshotProvider.GetSnapshotProperties
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ Shadow copy identifier.
 
 ### -param pProp [out]
 
-The address of a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure that receives the shadow copy properties. The provider is responsible for setting the members of this structure. All members are required except  <b>m_pwszExposedName</b> and <b>m_pwszExposedPath</b>, which the provider can set to <b>NULL</b>. The provider allocates memory for all string members  that it sets in the structure. When the structure is no longer needed, the caller is responsible for freeing these strings by calling the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-vssfreesnapshotproperties">VssFreeSnapshotProperties</a> function.
+The address of a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure that receives the shadow copy properties. The provider is responsible for setting the members of this structure. All members are required except  <b>m_pwszExposedName</b> and <b>m_pwszExposedPath</b>, which the provider can set to <b>NULL</b>. The provider allocates memory for all string members  that it sets in the structure. When the structure is no longer needed, the caller is responsible for freeing these strings by calling the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-vssfreesnapshotproperties">VssFreeSnapshotProperties</a> function.
 
 
 ## -returns
@@ -172,9 +172,9 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The caller should set the contents of the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure to zero before calling the <b>GetSnapshotProperties</b> method.
+The caller should set the contents of the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure to zero before calling the <b>GetSnapshotProperties</b> method.
 
-The provider is responsible for allocating and freeing the strings in the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure.
+The provider is responsible for allocating and freeing the strings in the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure.
 
 
 

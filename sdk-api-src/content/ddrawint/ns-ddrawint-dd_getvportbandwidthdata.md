@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 5a24d819-1498-448a-9360-c14d382059cb
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA structure [Display Devices], ddrawint/DD_GETVPORTBANDWIDTHDATA, ddstrcts_3f17b83b-7530-4d17-b6c8-435d9ee45848.xml, display.dd_getvportbandwidthdata"
+ms.keywords: '*PDD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA structure [Display Devices], ddrawint/DD_GETVPORTBANDWIDTHDATA, ddstrcts_3f17b83b-7530-4d17-b6c8-435d9ee45848.xml, display.dd_getvportbandwidthdata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_GETVPORTBANDWIDTHDATA"
+f1_keywords:
+- ddrawint/DD_GETVPORTBANDWIDTHDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_GETVPORTBANDWIDTHDATA
+- DD_GETVPORTBANDWIDTHDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA"
+req.typenames: '*PDD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,12 +61,12 @@ The DD_GETVPORTBANDWIDTHDATA structure contains the bandwidth information for an
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
 
 ### -field lpVideoPort
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure that represents this <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure that represents this <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object.
 
 
 ### -field lpddpfFormat
@@ -127,7 +127,7 @@ The <b>dwWidth</b> and <b>dwHeight</b> members specify the prescale size of the 
 
 ### -field lpBandwidth
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportbandwidth">DDVIDEOPORTBANDWIDTH</a> structure in which the driver should write the bandwidth parameters.
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportbandwidth">DDVIDEOPORTBANDWIDTH</a> structure in which the driver should write the bandwidth parameters.
 
 
 ### -field ddRVal
@@ -145,7 +145,7 @@ Used by the DirectDraw API and should not be filled in by the driver.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportbandwidth">DDVIDEOPORTBANDWIDTH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportbandwidth">DDVIDEOPORTBANDWIDTH</a>
 
 
 

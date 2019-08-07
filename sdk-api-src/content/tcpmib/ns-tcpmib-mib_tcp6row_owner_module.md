@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: 24f2041c-0a8c-4f2c-8585-ebbb0cad394f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_TCP6ROW_OWNER_MODULE, MIB_TCP6ROW_OWNER_MODULE, MIB_TCP6ROW_OWNER_MODULE structure [MIB], MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCP6ROW_OWNER_MODULE, PMIB_TCP6ROW_OWNER_MODULE structure pointer [MIB], iprtrmib/MIB_TCP6ROW_OWNER_MODULE, iprtrmib/PMIB_TCP6ROW_OWNER_MODULE, mib.mib_tcp6row_owner_module, tcpmib/MIB_TCP6ROW_OWNER_MODULE, tcpmib/PMIB_TCP6ROW_OWNER_MODULE"
+ms.keywords: '*PMIB_TCP6ROW_OWNER_MODULE, MIB_TCP6ROW_OWNER_MODULE, MIB_TCP6ROW_OWNER_MODULE structure [MIB], MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCP6ROW_OWNER_MODULE, PMIB_TCP6ROW_OWNER_MODULE structure pointer [MIB], iprtrmib/MIB_TCP6ROW_OWNER_MODULE, iprtrmib/PMIB_TCP6ROW_OWNER_MODULE, mib.mib_tcp6row_owner_module, tcpmib/MIB_TCP6ROW_OWNER_MODULE, tcpmib/PMIB_TCP6ROW_OWNER_MODULE'
 ms.topic: struct
-f1_keywords: 
- - "tcpmib/MIB_TCP6ROW_OWNER_MODULE"
+f1_keywords:
+- tcpmib/MIB_TCP6ROW_OWNER_MODULE
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tcpmib.h
- - Iprtrmib.h
+- Tcpmib.h
+- Iprtrmib.h
 api_name:
- - MIB_TCP6ROW_OWNER_MODULE
+- MIB_TCP6ROW_OWNER_MODULE
 product: Windows
 targetos: Windows
 req.typenames: MIB_TCP6ROW_OWNER_MODULE, *PMIB_TCP6ROW_OWNER_MODULE
@@ -291,7 +291,7 @@ An array of opaque data that contains ownership information.
 
 
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table_owner_module">MIB_TCP6TABLE_OWNER_MODULE</a> structure is returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a> with the <i>TableClass</i> parameter set to a  <b>TCP_TABLE_OWNER_MODULE_LISTENER</b>, <b>TCP_TABLE_OWNER_MODULE_CONNECTIONS</b>, or <b>TCP_TABLE_OWNER_MODULE_ALL</b> from the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcp_table_class">TCP_TABLE_CLASS</a> enumeration and the <i>ulAf</i> parameter set to <b>AF_INET6</b>. The <b>MIB_TCP6TABLE_OWNER_MODULE</b> structure contains an array of <b>MIB_TCP6ROW_OWNER_MODULE</b> structures.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table_owner_module">MIB_TCP6TABLE_OWNER_MODULE</a> structure is returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a> with the <i>TableClass</i> parameter set to a  <b>TCP_TABLE_OWNER_MODULE_LISTENER</b>, <b>TCP_TABLE_OWNER_MODULE_CONNECTIONS</b>, or <b>TCP_TABLE_OWNER_MODULE_ALL</b> from the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-tcp_table_class">TCP_TABLE_CLASS</a> enumeration and the <i>ulAf</i> parameter set to <b>AF_INET6</b>. The <b>MIB_TCP6TABLE_OWNER_MODULE</b> structure contains an array of <b>MIB_TCP6ROW_OWNER_MODULE</b> structures.
 
   The <b>dwState</b> member indicates the state of the TCP entry in a TCP state diagram. A TCP connection progresses through a series of states during its
   lifetime.  The states are:  LISTEN, SYN-SENT, SYN-RECEIVED,
@@ -333,7 +333,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcp_table_class">TCP_TABLE_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-tcp_table_class">TCP_TABLE_CLASS</a>
 
 
 

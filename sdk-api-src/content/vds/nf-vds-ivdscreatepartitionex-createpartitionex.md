@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePartitionEx, CreatePartitionEx method [VDS], CreatePartitionEx method [VDS],IVdsCreatePartitionEx interface, IVdsCreatePartitionEx interface [VDS],CreatePartitionEx method, IVdsCreatePartitionEx.CreatePartitionEx, IVdsCreatePartitionEx::CreatePartitionEx, base.ivdscreatepartitionex_createpartitionex, vds/IVdsCreatePartitionEx::CreatePartitionEx
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsCreatePartitionEx.CreatePartitionEx"
+f1_keywords:
+- vds/IVdsCreatePartitionEx.CreatePartitionEx
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsCreatePartitionEx.CreatePartitionEx
+- IVdsCreatePartitionEx.CreatePartitionEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -97,7 +97,7 @@ If the beginning of a disk has sufficient space to accommodate the partition
 ### -param para [in]
 
 The pointer to parameters defined by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_create_partition_parameters">CREATE_PARTITION_PARAMETERS</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-create_partition_parameters">CREATE_PARTITION_PARAMETERS</a> 
       structure.
 
 
@@ -231,7 +231,7 @@ If the <i>ullOffset</i> parameter is specified and its value is not already alig
 If a dynamic disk is read-only and offline, it must be made read/write and brought online as follows before calling <b>CreatePartitionEx</b>:
 
 <ol>
-<li>Clear the read-only bit. (This is the <b>VDS_DF_READ_ONLY</b> flag in the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop">VDS_DISK_PROP</a> structure.)</li>
+<li>Clear the read-only bit. (This is the <b>VDS_DF_READ_ONLY</b> flag in the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a> structure.)</li>
 <li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdiskonline-online">IVdsDiskOnline::Online</a> method.</li>
 </ol>
 

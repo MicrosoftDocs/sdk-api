@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8ca7b036-a40e-e1d7-8756-34204c874629, IDirect3DDevice9 interface [Direct3D 9],ValidateDevice method, IDirect3DDevice9.ValidateDevice, IDirect3DDevice9::ValidateDevice, ValidateDevice, ValidateDevice method [Direct3D 9], ValidateDevice method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::ValidateDevice, direct3d9.idirect3ddevice9__validatedevice
 ms.topic: method
-f1_keywords: 
- - "d3d9helper/IDirect3DDevice9.ValidateDevice"
+f1_keywords:
+- d3d9helper/IDirect3DDevice9.ValidateDevice
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.ValidateDevice
+- IDirect3DDevice9.ValidateDevice
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,7 +82,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-The <b>IDirect3DDevice9::ValidateDevice</b> method should be used to validate scenarios only when other capabilities are deficient. For example, in a multistage texturing scenario, you could query the MaxTextureBlendStages and MaxSimultaneousTextures members of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcaps9">D3DCAPS9</a> structure to determine if multistage texturing is possible on the device.
+The <b>IDirect3DDevice9::ValidateDevice</b> method should be used to validate scenarios only when other capabilities are deficient. For example, in a multistage texturing scenario, you could query the MaxTextureBlendStages and MaxSimultaneousTextures members of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9">D3DCAPS9</a> structure to determine if multistage texturing is possible on the device.
 
 Current hardware does not necessarily implement all possible combinations of operations and arguments. You can determine whether a particular blending operation can be performed with given arguments by setting the desired blending operation, and then calling the <b>IDirect3DDevice9::ValidateDevice</b> method. 
 

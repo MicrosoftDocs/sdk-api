@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: 77b7716c-b445-4473-a2e3-4a78f9fbebe3
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSYSTEM_MANDATORY_LABEL_ACE, PSYSTEM_MANDATORY_LABEL_ACE, PSYSTEM_MANDATORY_LABEL_ACE structure pointer [Security], SYSTEM_MANDATORY_LABEL_ACE, SYSTEM_MANDATORY_LABEL_ACE structure [Security], SYSTEM_MANDATORY_LABEL_NO_EXECUTE_UP, SYSTEM_MANDATORY_LABEL_NO_READ_UP, SYSTEM_MANDATORY_LABEL_NO_WRITE_UP, _SYSTEM_MANDATORY_LABEL_ACE, security.system_mandatory_label_ace, winnt/PSYSTEM_MANDATORY_LABEL_ACE, winnt/SYSTEM_MANDATORY_LABEL_ACE"
+ms.keywords: '*PSYSTEM_MANDATORY_LABEL_ACE, PSYSTEM_MANDATORY_LABEL_ACE, PSYSTEM_MANDATORY_LABEL_ACE structure pointer [Security], SYSTEM_MANDATORY_LABEL_ACE, SYSTEM_MANDATORY_LABEL_ACE structure [Security], SYSTEM_MANDATORY_LABEL_NO_EXECUTE_UP, SYSTEM_MANDATORY_LABEL_NO_READ_UP, SYSTEM_MANDATORY_LABEL_NO_WRITE_UP, _SYSTEM_MANDATORY_LABEL_ACE, security.system_mandatory_label_ace, winnt/PSYSTEM_MANDATORY_LABEL_ACE, winnt/SYSTEM_MANDATORY_LABEL_ACE'
 ms.topic: struct
-f1_keywords: 
- - "winnt/SYSTEM_MANDATORY_LABEL_ACE"
+f1_keywords:
+- winnt/SYSTEM_MANDATORY_LABEL_ACE
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - SYSTEM_MANDATORY_LABEL_ACE
+- SYSTEM_MANDATORY_LABEL_ACE
 product: Windows
 targetos: Windows
 req.typenames: SYSTEM_MANDATORY_LABEL_ACE, *PSYSTEM_MANDATORY_LABEL_ACE
@@ -61,7 +61,7 @@ The <b>SYSTEM_MANDATORY_LABEL_ACE</b> structure defines an  <a href="https://doc
 
 ### -field Header
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure that specifies the size and type of the ACE. The structure also contains flags that control inheritance of the ACE by child objects. The <b>AceType</b> member of the <b>ACE_HEADER</b> structure must be set to <b>SYSTEM_MANDATORY_LABEL_ACE_TYPE</b>, and the <b>AceSize</b> member must be set to the total number of bytes allocated for the <b>SYSTEM_MANDATORY_LABEL_ACE</b> structure.
+An <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure that specifies the size and type of the ACE. The structure also contains flags that control inheritance of the ACE by child objects. The <b>AceType</b> member of the <b>ACE_HEADER</b> structure must be set to <b>SYSTEM_MANDATORY_LABEL_ACE_TYPE</b>, and the <b>AceSize</b> member must be set to the total number of bytes allocated for the <b>SYSTEM_MANDATORY_LABEL_ACE</b> structure.
 
 
 ### -field Mask
@@ -112,7 +112,7 @@ A principal with a lower mandatory level than the object cannot execute the obje
 
 ### -field SidStart
 
-Specifies the first <b>DWORD</b> of a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>. The remaining bytes of the <b>SID</b>  are stored in contiguous memory after the <b>SidStart</b> member. The identifier authority of the <b>SID</b> must be <b>SECURITY_MANDATORY_LABEL_AUTHORITY</b>. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RID</a> of the <b>SID</b> specifies the mandatory integrity level of the object associated with the SACL that contains this ACE. The <i>RID</i> must be one of the following values.
+Specifies the first <b>DWORD</b> of a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>. The remaining bytes of the <b>SID</b>  are stored in contiguous memory after the <b>SidStart</b> member. The identifier authority of the <b>SID</b> must be <b>SECURITY_MANDATORY_LABEL_AUTHORITY</b>. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RID</a> of the <b>SID</b> specifies the mandatory integrity level of the object associated with the SACL that contains this ACE. The <i>RID</i> must be one of the following values.
 
 <table>
 <tr>
@@ -161,7 +161,7 @@ High integrity level.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
  
 
  

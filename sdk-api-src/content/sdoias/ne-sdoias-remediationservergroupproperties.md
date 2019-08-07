@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROPERTY_REMEDIATIONSERVERGROUP_SERVERS_COLLECTION, REMEDIATIONSERVERGROUPPROPERTIES, REMEDIATIONSERVERGROUPPROPERTIES enumeration [Network Policy Server], nps.SDO_remediationservergroupproperties, sdo.remediationservergroupproperties, sdoias/PROPERTY_REMEDIATIONSERVERGROUP_SERVERS_COLLECTION, sdoias/REMEDIATIONSERVERGROUPPROPERTIES
 ms.topic: enum
-f1_keywords: 
- - "sdoias/REMEDIATIONSERVERGROUPPROPERTIES"
+f1_keywords:
+- sdoias/REMEDIATIONSERVERGROUPPROPERTIES
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - REMEDIATIONSERVERGROUPPROPERTIES
+- REMEDIATIONSERVERGROUPPROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: REMEDIATIONSERVERGROUPPROPERTIES
@@ -70,7 +70,7 @@ The collection of servers in the remediation server group.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iascommonproperties">IASCOMMONPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
  
 
  

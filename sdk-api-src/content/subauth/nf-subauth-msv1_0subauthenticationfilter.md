@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOGON_GUEST, LOGON_NOENCRYPTION, MSV1_0_GUEST_LOGON, MSV1_0_PASSTHRU, Msv1_0SubAuthenticationFilter, Msv1_0SubAuthenticationFilter function [Security], USER_ALL_PARAMETERS, _lsa_msv1_0subauthenticationfilter, security.msv1_0subauthenticationfilter, subauth/Msv1_0SubAuthenticationFilter
 ms.topic: function
-f1_keywords: 
- - "subauth/Msv1_0SubAuthenticationFilter"
+f1_keywords:
+- subauth/Msv1_0SubAuthenticationFilter
 req.header: subauth.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Subauth.h
+- Subauth.h
 api_name:
- - Msv1_0SubAuthenticationFilter
+- Msv1_0SubAuthenticationFilter
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ Specifies the level of information given in <i>LogonInformation</i>. This parame
 ### -param LogonInformation [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_netlogon_logon_identity_info">NETLOGON_LOGON_IDENTITY_INFO</a> structure. Members of this structure contain information about the user who is logging on. The <b>LogonDomainName</b> member is ignored.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-netlogon_logon_identity_info">NETLOGON_LOGON_IDENTITY_INFO</a> structure. Members of this structure contain information about the user who is logging on. The <b>LogonDomainName</b> member is ignored.
 
 
 ### -param Flags [in]
@@ -110,12 +110,12 @@ This is a retry of the logon using the Guest account.
 ### -param UserAll [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_user_all_information">USER_ALL_INFORMATION</a> structure that contains the description of the user as returned from the SAM database.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-user_all_information">USER_ALL_INFORMATION</a> structure that contains the description of the user as returned from the SAM database.
 
 
 ### -param WhichFields [out]
 
-Returns the members of the <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_user_all_information">USER_ALL_INFORMATION</a> structure that need to be written back to the SAM database. These members will be written only if <b>Msv1_0SubAuthenticationFilter</b> returns success. Only the following value is valid.
+Returns the members of the <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-user_all_information">USER_ALL_INFORMATION</a> structure that need to be written back to the SAM database. These members will be written only if <b>Msv1_0SubAuthenticationFilter</b> returns success. Only the following value is valid.
 
 <table>
 <tr>

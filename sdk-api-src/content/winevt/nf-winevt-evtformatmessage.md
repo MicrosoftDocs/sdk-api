@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtFormatMessage, EvtFormatMessage function [EventLog], wes.evtformatmessage, winevt/EvtFormatMessage
 ms.topic: function
-f1_keywords: 
- - "winevt/EvtFormatMessage"
+f1_keywords:
+- winevt/EvtFormatMessage
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wevtapi.dll
- - Ext-MS-Win-WevtAPI-EventLog-L1-1-2.dll
+- Wevtapi.dll
+- Ext-MS-Win-WevtAPI-EventLog-L1-1-2.dll
 api_name:
- - EvtFormatMessage
+- EvtFormatMessage
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -86,12 +86,12 @@ The number of values in the <i>Values</i> parameter.
 
 An array of insertion values to use when formatting the event's message string. Typically, you set this parameter to <b>NULL</b> and the function gets the insertion values from the event data itself. You would use this parameter to override the default behavior and supply the insertion values to use. For example, you might use this parameter if you wanted to resolve a SID to a principal name before inserting the value. 
 
-To override the insertion values, the <i>Flags</i> parameter must be set to <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_format_message_flags">EvtFormatMessageEvent</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_format_message_flags">EvtFormatMessageXML</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_format_message_flags">EvtFormatMessageId</a>. If <i>Flags</i> is set to <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_format_message_flags">EvtFormatMessageId</a>, the resource identifier must identify the event's message string.
+To override the insertion values, the <i>Flags</i> parameter must be set to <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_format_message_flags">EvtFormatMessageEvent</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_format_message_flags">EvtFormatMessageXML</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_format_message_flags">EvtFormatMessageId</a>. If <i>Flags</i> is set to <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_format_message_flags">EvtFormatMessageId</a>, the resource identifier must identify the event's message string.
 
 
 ### -param Flags [in]
 
-A flag that specifies the message string in the event to format. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_format_message_flags">EVT_FORMAT_MESSAGE_FLAGS</a> enumeration.
+A flag that specifies the message string in the event to format. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_format_message_flags">EVT_FORMAT_MESSAGE_FLAGS</a> enumeration.
 
 
 ### -param BufferSize [in]

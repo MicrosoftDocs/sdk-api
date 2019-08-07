@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIFileInfo, AVIFileInfo function [Windows Multimedia], AVIFileInfoA, AVIFileInfoW, _win32_AVIFileInfo, multimedia.avifileinfo, vfw/AVIFileInfo, vfw/AVIFileInfoA, vfw/AVIFileInfoW
 ms.topic: function
-f1_keywords: 
- - "vfw/AVIFileInfo"
+f1_keywords:
+- vfw/AVIFileInfo
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
- - Ext-MS-Win-Media-Avi-L1-1-0.dll
+- Avifil32.dll
+- Ext-MS-Win-Media-Avi-L1-1-0.dll
 api_name:
- - AVIFileInfo
- - AVIFileInfoA
- - AVIFileInfoW
+- AVIFileInfo
+- AVIFileInfoA
+- AVIFileInfoW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ Handle to an open AVI file.
 
 ### -param pfi
 
-Pointer to the structure used to return file information. Typically, this parameter points to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-_avifileinfoa">AVIFILEINFO</a> structure.
+Pointer to the structure used to return file information. Typically, this parameter points to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-avifileinfoa">AVIFILEINFO</a> structure.
 
 
 ### -param lSize

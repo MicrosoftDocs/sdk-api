@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LoadUserProfile, LoadUserProfile function [Windows Shell], LoadUserProfileA, LoadUserProfileW, _shell_LoadUserProfile, shell.LoadUserProfile, userenv/LoadUserProfile, userenv/LoadUserProfileA, userenv/LoadUserProfileW
 ms.topic: function
-f1_keywords: 
- - "userenv/LoadUserProfile"
+f1_keywords:
+- userenv/LoadUserProfile
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - LoadUserProfile
- - LoadUserProfileA
- - LoadUserProfileW
+- LoadUserProfile
+- LoadUserProfileA
+- LoadUserProfileW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ Token for the user, which is returned by the <a href="https://docs.microsoft.com
 
 Type: <b>LPPROFILEINFO</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/profinfo/ns-profinfo-_profileinfoa">PROFILEINFO</a> structure. <b>LoadUserProfile</b> fails and returns <b>ERROR_INVALID_PARAMETER</b> if the <b>dwSize</b> member of the structure is not set to <code>sizeof(PROFILEINFO)</code> or if the <b>lpUserName</b> member is <b>NULL</b>. For more information, see Remarks.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/profinfo/ns-profinfo-profileinfoa">PROFILEINFO</a> structure. <b>LoadUserProfile</b> fails and returns <b>ERROR_INVALID_PARAMETER</b> if the <b>dwSize</b> member of the structure is not set to <code>sizeof(PROFILEINFO)</code> or if the <b>lpUserName</b> member is <b>NULL</b>. For more information, see Remarks.
 
 
 ## -returns
@@ -99,10 +99,10 @@ The function fails and returns ERROR_INVALID_PARAMETER if the <b>dwSize</b> memb
 When a user logs on interactively, the system automatically loads the user's profile. If a service or an application impersonates a user, the system does not load the user's profile. Therefore, the service or application should load the user's profile with <b>LoadUserProfile</b>.
 
 Services and applications that call <b>LoadUserProfile</b> should check to see if the user has a roaming profile. If the user has a roaming profile, specify its path as the <b>lpProfilePath</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/profinfo/ns-profinfo-_profileinfoa">PROFILEINFO</a>. To retrieve the user's roaming profile path, you can call the 
+<a href="https://docs.microsoft.com/windows/desktop/api/profinfo/ns-profinfo-profileinfoa">PROFILEINFO</a>. To retrieve the user's roaming profile path, you can call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusergetinfo">NetUserGetInfo</a> function, specifying information level 3 or 4.
 
-Upon successful return, the <b>hProfile</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/profinfo/ns-profinfo-_profileinfoa">PROFILEINFO</a> is a registry key handle opened to the root of the user's hive. It has been opened with full access (KEY_ALL_ACCESS). If a service that is impersonating a user needs to read or write to the user's registry file, use this handle instead of <b>HKEY_CURRENT_USER</b>. Do not close the <b>hProfile</b> handle. Instead, pass it to the 
+Upon successful return, the <b>hProfile</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/profinfo/ns-profinfo-profileinfoa">PROFILEINFO</a> is a registry key handle opened to the root of the user's hive. It has been opened with full access (KEY_ALL_ACCESS). If a service that is impersonating a user needs to read or write to the user's registry file, use this handle instead of <b>HKEY_CURRENT_USER</b>. Do not close the <b>hProfile</b> handle. Instead, pass it to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-unloaduserprofile">UnloadUserProfile</a> function. This function closes the handle. You should ensure that all handles to keys in the user's registry hive are closed. If you do not close all open registry handles, the user's profile fails to unload. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a> and <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-hives">Registry Hives</a>.
 
@@ -120,7 +120,7 @@ Starting with Windows XP Service Pack 2 (SP2) and Windows Server 2003, the ca
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/profinfo/ns-profinfo-_profileinfoa">PROFILEINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/profinfo/ns-profinfo-profileinfoa">PROFILEINFO</a>
 
 
 

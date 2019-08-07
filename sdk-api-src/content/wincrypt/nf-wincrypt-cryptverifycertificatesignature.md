@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptVerifyCertificateSignature, CryptVerifyCertificateSignature function [Security], X509_ASN_ENCODING, _crypto2_cryptverifycertificatesignature, security.cryptverifycertificatesignature, wincrypt/CryptVerifyCertificateSignature
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptVerifyCertificateSignature"
+f1_keywords:
+- wincrypt/CryptVerifyCertificateSignature
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptVerifyCertificateSignature
+- CryptVerifyCertificateSignature
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -102,7 +102,7 @@ Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.
 
 ### -param pbEncoded [in]
 
-A pointer to an encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_signed_content_info">CERT_SIGNED_CONTENT_INFO</a> content on which the signature is to be verified.
+A pointer to an encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_signed_content_info">CERT_SIGNED_CONTENT_INFO</a> content on which the signature is to be verified.
 
 
 ### -param cbEncoded [in]

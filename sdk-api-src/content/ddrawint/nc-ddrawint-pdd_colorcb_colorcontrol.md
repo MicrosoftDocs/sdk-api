@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdControlColor, DdControlColor callback function [Display Devices], PDD_COLORCB_COLORCONTROL, PDD_COLORCB_COLORCONTROL callback, ddfncs_c79505e9-282b-469f-ae35-19a9644aecae.xml, ddrawint/DdControlColor, display.ddcontrolcolor
 ms.topic: callback
-f1_keywords: 
- - "ddrawint/DdControlColor"
+f1_keywords:
+- ddrawint/DdControlColor
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DdControlColor
+- DdControlColor
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The <b>DdControlColor</b> callback function controls the luminance and brightnes
 
 #### - lpColorControl
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_colorcontroldata">DD_COLORCONTROLDATA</a> structure that contains the color control information for a specified overlay surface.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_colorcontroldata">DD_COLORCONTROLDATA</a> structure that contains the color control information for a specified overlay surface.
 
 
 ## -returns
@@ -96,7 +96,7 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_colorcontroldata">DD_COLORCONTROLDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_colorcontroldata">DD_COLORCONTROLDATA</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGetNameFromIDList, SHGetNameFromIDList function [Windows Shell], _shell_SHGetNameFromIDList, shell.SHGetNameFromIDList, shobjidl_core/SHGetNameFromIDList
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHGetNameFromIDList"
+f1_keywords:
+- shobjidl_core/SHGetNameFromIDList
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - windows.storage.dll
- - API-MS-Win-Shell-Namespace-L1-1-0.dll
+- Shell32.dll
+- windows.storage.dll
+- API-MS-Win-Shell-Namespace-L1-1-0.dll
 api_name:
- - SHGetNameFromIDList
+- SHGetNameFromIDList
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,9 +70,9 @@ A PIDL that identifies the item.
 
 ### -param sigdnName [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_sigdn">SIGDN</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-sigdn">SIGDN</a></b>
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_sigdn">SIGDN</a> enumeration that specifies the type of display name to retrieve.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-sigdn">SIGDN</a> enumeration that specifies the type of display name to retrieve.
 
 
 ### -param ppszName [out]

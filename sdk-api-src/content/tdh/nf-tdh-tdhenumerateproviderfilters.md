@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TdhEnumerateProviderFilters, TdhEnumerateProviderFilters function [ETW], etw.tdhenumerateproviderfilters, tdh/TdhEnumerateProviderFilters
 ms.topic: function
-f1_keywords: 
- - "tdh/TdhEnumerateProviderFilters"
+f1_keywords:
+- tdh/TdhEnumerateProviderFilters
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Tdh.lib
 req.dll: Tdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tdh.dll
- - Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
+- Tdh.dll
+- Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
 api_name:
- - TdhEnumerateProviderFilters
+- TdhEnumerateProviderFilters
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,7 +82,7 @@ The number of filter structures that the <i>pBuffer</i> buffer contains. Is zero
 
 ### -param Buffer [out, optional]
 
-User-allocated buffer to receive the filter information. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_provider_filter_info">PROVIDER_FILTER_INFO</a> structure.
+User-allocated buffer to receive the filter information. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-provider_filter_info">PROVIDER_FILTER_INFO</a> structure.
 
 
 ### -param BufferSize [in, out]

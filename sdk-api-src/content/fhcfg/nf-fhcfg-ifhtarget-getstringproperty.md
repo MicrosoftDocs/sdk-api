@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStringProperty, GetStringProperty method [Windows API], GetStringProperty method [Windows API],IFhTarget interface, IFhTarget interface [Windows API],GetStringProperty method, IFhTarget.GetStringProperty, IFhTarget::GetStringProperty, fhcfg/IFhTarget::GetStringProperty, winprog.ifhtarget_getstringproperty
 ms.topic: method
-f1_keywords: 
- - "fhcfg/IFhTarget.GetStringProperty"
+f1_keywords:
+- fhcfg/IFhTarget.GetStringProperty
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fhcfg.h
+- Fhcfg.h
 api_name:
- - IFhTarget.GetStringProperty
+- IFhTarget.GetStringProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Retrieves a string property of the File History backup target that is represente
 
 ### -param PropertyType [in]
 
-Specifies the string property. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_target_property_type">FH_TARGET_PROPERTY_TYPE</a> enumeration for the list of possible string property types.
+Specifies the string property. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_target_property_type">FH_TARGET_PROPERTY_TYPE</a> enumeration for the list of possible string property types.
 
 
 ### -param PropertyValue [out]
@@ -84,7 +84,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_target_property_type">FH_TARGET_PROPERTY_TYPE</a> enumeration defines property types for string properties and numeric properties. However, the <b>IFhTarget::GetStringProperty</b> method can only be used to retrieve string properties. Numeric properties must be retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhtarget-getnumericalproperty">IFhTarget::GetNumericalProperty</a> method.
+The <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_target_property_type">FH_TARGET_PROPERTY_TYPE</a> enumeration defines property types for string properties and numeric properties. However, the <b>IFhTarget::GetStringProperty</b> method can only be used to retrieve string properties. Numeric properties must be retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhtarget-getnumericalproperty">IFhTarget::GetNumericalProperty</a> method.
 
 
 
@@ -94,7 +94,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_target_property_type">FH_TARGET_PROPERTY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_target_property_type">FH_TARGET_PROPERTY_TYPE</a>
 
 
 

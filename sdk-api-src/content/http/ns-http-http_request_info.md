@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 83c2a922-4ddb-4dc0-9ed6-d75d47b97d6a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_REQUEST_INFO, *PHTTP_REQUEST_INFO structure [HTTP], HTTP_REQUEST_INFO, HTTP_REQUEST_INFO structure [HTTP], http.http_request_info, http/*PHTTP_REQUEST_INFO, http/HTTP_REQUEST_INFO"
+ms.keywords: '*PHTTP_REQUEST_INFO, *PHTTP_REQUEST_INFO structure [HTTP], HTTP_REQUEST_INFO, HTTP_REQUEST_INFO structure [HTTP], http.http_request_info, http/*PHTTP_REQUEST_INFO, http/HTTP_REQUEST_INFO'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_REQUEST_INFO"
+f1_keywords:
+- http/HTTP_REQUEST_INFO
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_REQUEST_INFO
+- HTTP_REQUEST_INFO
 product: Windows
 targetos: Windows
 req.typenames: HTTP_REQUEST_INFO, *PHTTP_REQUEST_INFO
@@ -61,7 +61,7 @@ The <b>HTTP_REQUEST_INFO</b> structure extends the <a href="https://docs.microso
 
 ### -field InfoType
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_request_info_type">HTTP_REQUEST_INFO_TYPE</a> enumeration specifying the type of information contained in this structure.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_request_info_type">HTTP_REQUEST_INFO_TYPE</a> enumeration specifying the type of information contained in this structure.
 
 
 ### -field InfoLength
@@ -71,7 +71,7 @@ The length, in bytes,  of the <b>pInfo</b> member.
 
 ### -field pInfo
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> structure when the <b>InfoType</b> member is <b>HttpRequestInfoTypeAuth</b>; otherwise <b>NULL</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> structure when the <b>InfoType</b> member is <b>HttpRequestInfoTypeAuth</b>; otherwise <b>NULL</b>.
 
 
 ## -remarks
@@ -92,7 +92,7 @@ Starting with the HTTP Server API version 2.0, the HTTP_REQUEST structure is ext
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a>
 
 
 

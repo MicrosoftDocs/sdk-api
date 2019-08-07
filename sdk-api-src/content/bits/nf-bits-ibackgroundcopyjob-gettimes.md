@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTimes, GetTimes method [BITS], GetTimes method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetTimes method, IBackgroundCopyJob.GetTimes, IBackgroundCopyJob::GetTimes, _drz_ibackgroundcopyjob_gettimes, bits.ibackgroundcopyjob_gettimes, bits/IBackgroundCopyJob::GetTimes
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.GetTimes"
+f1_keywords:
+- bits/IBackgroundCopyJob.GetTimes
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.GetTimes
+- IBackgroundCopyJob.GetTimes
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ Retrieves job-related time stamps, such as the time that the job was created or 
 ### -param pVal [out]
 
 Contains job-related time stamps. For available time stamps, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-_bg_job_times">BG_JOB_TIMES</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_job_times">BG_JOB_TIMES</a> structure.
 
 
 ## -returns
@@ -109,7 +109,7 @@ The <i>pTimes</i> parameter cannot be <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-_bg_job_times">BG_JOB_TIMES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_job_times">BG_JOB_TIMES</a>
  
 
  

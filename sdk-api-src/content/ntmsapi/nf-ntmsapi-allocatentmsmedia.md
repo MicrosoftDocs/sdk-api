@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllocateNtmsMedia, AllocateNtmsMedia function [Files], NTMS_ALLOCATE_ERROR_IF_UNAVAILABLE, NTMS_ALLOCATE_NEW, NTMS_ALLOCATE_NEXT, _zaw_allocatentmsmedia, base.allocatentmsmedia, fs.allocatentmsmedia, ntmsapi/AllocateNtmsMedia
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/AllocateNtmsMedia"
+f1_keywords:
+- ntmsapi/AllocateNtmsMedia
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - AllocateNtmsMedia
+- AllocateNtmsMedia
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -141,7 +141,7 @@ Maximum time allowed to allocate the specified media, in milliseconds. If this p
 ### -param lpAllocateInformation [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_allocation_information">NTMS_ALLOCATION_INFORMATION</a> structure that receives the source media pool from which the medium was taken. This parameter can be <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_allocation_information">NTMS_ALLOCATION_INFORMATION</a> structure that receives the source media pool from which the medium was taken. This parameter can be <b>NULL</b>.
 
 
 ## -returns
@@ -368,7 +368,7 @@ When an application requires new media containing data, a user or administrator 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_allocation_information">NTMS_ALLOCATION_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_allocation_information">NTMS_ALLOCATION_INFORMATION</a>
  
 
  

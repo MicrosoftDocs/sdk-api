@@ -8,10 +8,10 @@ tech.root: VDS
 ms.assetid: a888fcb7-83f5-40c1-9f24-efa929aa9f6a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVDS_CONTROLLER_STATUS, VDS_CONTROLLER_STATUS, VDS_CONTROLLER_STATUS enumeration [VDS], VDS_CS_FAILED, VDS_CS_NOT_READY, VDS_CS_OFFLINE, VDS_CS_ONLINE, VDS_CS_REMOVED, VDS_CS_UNKNOWN, base.vds_controller_status, vds/VDS_CONTROLLER_STATUS, vds/VDS_CS_FAILED, vds/VDS_CS_NOT_READY, vds/VDS_CS_OFFLINE, vds/VDS_CS_ONLINE, vds/VDS_CS_REMOVED, vds/VDS_CS_UNKNOWN, vdshwprv/VDS_CONTROLLER_STATUS, vdshwprv/VDS_CS_FAILED, vdshwprv/VDS_CS_NOT_READY, vdshwprv/VDS_CS_OFFLINE, vdshwprv/VDS_CS_ONLINE, vdshwprv/VDS_CS_REMOVED, vdshwprv/VDS_CS_UNKNOWN"
+ms.keywords: '*PVDS_CONTROLLER_STATUS, VDS_CONTROLLER_STATUS, VDS_CONTROLLER_STATUS enumeration [VDS], VDS_CS_FAILED, VDS_CS_NOT_READY, VDS_CS_OFFLINE, VDS_CS_ONLINE, VDS_CS_REMOVED, VDS_CS_UNKNOWN, base.vds_controller_status, vds/VDS_CONTROLLER_STATUS, vds/VDS_CS_FAILED, vds/VDS_CS_NOT_READY, vds/VDS_CS_OFFLINE, vds/VDS_CS_ONLINE, vds/VDS_CS_REMOVED, vds/VDS_CS_UNKNOWN, vdshwprv/VDS_CONTROLLER_STATUS, vdshwprv/VDS_CS_FAILED, vdshwprv/VDS_CS_NOT_READY, vdshwprv/VDS_CS_OFFLINE, vdshwprv/VDS_CS_ONLINE, vdshwprv/VDS_CS_REMOVED, vdshwprv/VDS_CS_UNKNOWN'
 ms.topic: enum
-f1_keywords: 
- - "vdshwprv/VDS_CONTROLLER_STATUS"
+f1_keywords:
+- vdshwprv/VDS_CONTROLLER_STATUS
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_CONTROLLER_STATUS
+- VDS_CONTROLLER_STATUS
 product: Windows
 targetos: Windows
 req.typenames: VDS_CONTROLLER_STATUS, *PVDS_CONTROLLER_STATUS
@@ -69,22 +69,22 @@ The status of the controller cannot be determined.
 
 ### -field VDS_CS_ONLINE
 
-The controller is physically present and in use. The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a> value associated with this controller status can be any value except <b>VDS_H_FAILED</b>.
+The controller is physically present and in use. The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value associated with this controller status can be any value except <b>VDS_H_FAILED</b>.
 
 
 ### -field VDS_CS_NOT_READY
 
-The controller is busy. The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a> value can be any value except <b>VDS_H_FAILED</b>.
+The controller is busy. The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value can be any value except <b>VDS_H_FAILED</b>.
 
 
 ### -field VDS_CS_OFFLINE
 
-The controller is physically present but not available for use. For example, the controller has been set to the inactive state. When this controller status is set, a <b>VDS_NF_CONTROLLER_REMOVED</b> notification is sent.  The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a> value can be any value.
+The controller is physically present but not available for use. For example, the controller has been set to the inactive state. When this controller status is set, a <b>VDS_NF_CONTROLLER_REMOVED</b> notification is sent.  The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value can be any value.
 
 
 ### -field VDS_CS_FAILED
 
-The controller has failed. The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a> value should be <b>VDS_H_FAILED</b> or <b>VDS_H_FAILING</b>.
+The controller has failed. The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> value should be <b>VDS_H_FAILED</b> or <b>VDS_H_FAILING</b>.
 
 
 ### -field VDS_CS_REMOVED
@@ -98,7 +98,7 @@ The controller has been physically unplugged from the subsystem. When this statu
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-setstatus">IVdsController::SetStatus</a>method passes a <b>VDS_CONTROLLER_STATUS</b> value as an argument to set the status of a controller, and  the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_controller_prop">VDS_CONTROLLER_PROP</a> structure includes a <b>VDS_CONTROLLER_STATUS</b> value as a member to indicate the current status.
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-setstatus">IVdsController::SetStatus</a>method passes a <b>VDS_CONTROLLER_STATUS</b> value as an argument to set the status of a controller, and  the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_controller_prop">VDS_CONTROLLER_PROP</a> structure includes a <b>VDS_CONTROLLER_STATUS</b> value as a member to indicate the current status.
 
 If your application encounters a <b>VDS_CONTROLLER_STATUS</b> value that it does not recognize, it should display the controller status as unknown. It should not attempt to map the unrecognized controller status to another controller status.
 
@@ -120,7 +120,7 @@ If your application encounters a <b>VDS_CONTROLLER_STATUS</b> value that it does
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_controller_prop">VDS_CONTROLLER_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_controller_prop">VDS_CONTROLLER_PROP</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RTM_IPV4_GET_ADDR_AND_MASK, RTM_IPV4_GET_ADDR_AND_MASK macro [RAS], _rtmv2ref_rtm_ipv4_get_addr_and_mask, rras.rtm_ipv4_get_addr_and_mask, rtmv2/RTM_IPV4_GET_ADDR_AND_MASK
 ms.topic: macro
-f1_keywords: 
- - "rtmv2/RTM_IPV4_GET_ADDR_AND_MASK"
+f1_keywords:
+- rtmv2/RTM_IPV4_GET_ADDR_AND_MASK
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rtmv2.h
+- Rtmv2.h
 api_name:
- - RTM_IPV4_GET_ADDR_AND_MASK
+- RTM_IPV4_GET_ADDR_AND_MASK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>RTM_IPV4_GET_ADDR_AND_MASK</b> macro converts to a generic 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_net_address">RTM_NET_ADDRESS</a> structure and length to an IPv4 address and mask.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a> structure and length to an IPv4 address and mask.
 
 
 ## -parameters
@@ -128,7 +128,7 @@ The macro is defined as follows:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_net_address">RTM_NET_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a>
  
 
  

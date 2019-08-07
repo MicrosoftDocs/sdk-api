@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WriteProcessorPwrScheme, WriteProcessorPwrScheme function, _win32_writeprocessorpwrscheme, base.writeprocessorpwrscheme, powrprof/WriteProcessorPwrScheme
 ms.topic: function
-f1_keywords: 
- - "powrprof/WriteProcessorPwrScheme"
+f1_keywords:
+- powrprof/WriteProcessorPwrScheme
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - WriteProcessorPwrScheme
+- WriteProcessorPwrScheme
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ The index of the power scheme to be written.
 ### -param pMachineProcessorPowerPolicy [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_machine_processor_power_policy">MACHINE_PROCESSOR_POWER_POLICY</a> structure that contains the power policy settings to be written.
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-machine_processor_power_policy">MACHINE_PROCESSOR_POWER_POLICY</a> structure that contains the power policy settings to be written.
 
 
 ## -returns
@@ -103,7 +103,7 @@ For more information on using PowrProf.h, see <a href="https://docs.microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_machine_processor_power_policy">MACHINE_PROCESSOR_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-machine_processor_power_policy">MACHINE_PROCESSOR_POWER_POLICY</a>
 
 
 

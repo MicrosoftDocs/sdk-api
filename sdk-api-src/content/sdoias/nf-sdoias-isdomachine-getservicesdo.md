@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAS, RemoteAccess, GetServiceSDO, GetServiceSDO method [Network Policy Server], GetServiceSDO method [Network Policy Server],ISdoMachine interface, GetServiceSDO method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetServiceSDO method, ISdoMachine.GetServiceSDO, ISdoMachine::GetServiceSDO, SdoMachine object [Network Policy Server],GetServiceSDO method, _sdo_isdomachine_getservicesdo, nps.SDO_isdomachine_getservicesdo, sdo.isdomachine_getservicesdo, sdoias/ISdoMachine::GetServiceSDO
 ms.topic: method
-f1_keywords: 
- - "sdoias/ISdoMachine.GetServiceSDO"
+f1_keywords:
+- sdoias/ISdoMachine.GetServiceSDO
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: Iassdo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Iassdo.dll
+- Iassdo.dll
 api_name:
- - ISdoMachine.GetServiceSDO
- - SdoMachine.GetServiceSDO
+- ISdoMachine.GetServiceSDO
+- SdoMachine.GetServiceSDO
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The <b>GetServiceSDO</b> method retrieves a
 
 ### -param eDataStore [in]
 
-Specifies a value from the <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasdatastore">IASDATASTORE</a> enumeration 
+Specifies a value from the <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasdatastore">IASDATASTORE</a> enumeration 
       type.
 
 

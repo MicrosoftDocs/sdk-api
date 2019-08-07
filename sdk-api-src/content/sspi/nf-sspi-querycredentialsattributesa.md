@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryCredentialsAttributes, QueryCredentialsAttributes function [Security], QueryCredentialsAttributesA, QueryCredentialsAttributesW, _ssp_querycredentialsattributes, security.querycredentialsattributes, sspi/QueryCredentialsAttributes, sspi/QueryCredentialsAttributesA, sspi/QueryCredentialsAttributesW
 ms.topic: function
-f1_keywords: 
- - "sspi/QueryCredentialsAttributes"
+f1_keywords:
+- sspi/QueryCredentialsAttributes
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - QueryCredentialsAttributes
- - QueryCredentialsAttributesA
- - QueryCredentialsAttributesW
+- QueryCredentialsAttributes
+- QueryCredentialsAttributesA
+- QueryCredentialsAttributesW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -87,7 +87,7 @@ Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly
 </dl>
 </td>
 <td width="60%">
-Returns the certificate thumbprint in a <i>pbuffer</i> of type <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcredentials_cert">SecPkgCredentials_Cert</a>.
+Returns the certificate thumbprint in a <i>pbuffer</i> of type <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_cert">SecPkgCredentials_Cert</a>.
 
 This attribute is only supported by Kerberos.
 
@@ -102,7 +102,7 @@ This attribute is only supported by Kerberos.
 </dl>
 </td>
 <td width="60%">
-Returns the name of a credential in a <i>pbuffer</i> of type <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcredentials_namesa">SecPkgCredentials_Names</a>.
+Returns the name of a credential in a <i>pbuffer</i> of type <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_namesa">SecPkgCredentials_Names</a>.
 
 This attribute is not supported by Schannel in WOW64 mode.
 
@@ -216,16 +216,16 @@ The <b>QueryCredentialsAttributes</b> function allows an application to determin
 
 Querying the SECPKG_ATTR_CIPHER_STRENGTHS attribute returns a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380101(v=vs.85)">SecPkgCred_CipherStrengths</a> structure. The cipher strength in this structure is the same as the cipher strength in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_schannel_cred">SCHANNEL_CRED</a> structure used when a credential was created.
+<a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-schannel_cred">SCHANNEL_CRED</a> structure used when a credential was created.
 
 <div class="alert"><b>Note</b>  An application can find the system default cipher strength by querying this attribute with a default credential. A default credential is created by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a> with a <b>NULL</b> <i>pAuthData</i> parameter.</div>
 <div> </div>
 Querying the SECPKG_ATTR_SUPPORTED_ALGS attribute returns a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380102(v=vs.85)">SecPkgCred_SupportedAlgs</a> structure. The algorithms in this structure are compatible with those indicated in the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_schannel_cred">SCHANNEL_CRED</a> structure used when a credential was created.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380102(v=vs.85)">SecPkgCred_SupportedAlgs</a> structure. The algorithms in this structure are compatible with those indicated in the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-schannel_cred">SCHANNEL_CRED</a> structure used when a credential was created.
 
 Querying the SECPKG_ATTR_SUPPORTED_PROTOCOLS attribute returns a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380103(v=vs.85)">SecPkgCred_SupportedProtocols</a> structure that contains a bit array compatible with the <i>grbitEnabledProtocols</i> field of the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_schannel_cred">SCHANNEL_CRED</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380103(v=vs.85)">SecPkgCred_SupportedProtocols</a> structure that contains a bit array compatible with the <i>grbitEnabledProtocols</i> field of the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-schannel_cred">SCHANNEL_CRED</a> structure.
 
 The caller must allocate the structure pointed to by the <i>pBuffer</i> parameter. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> allocates the buffer for any pointer returned in the <i>pBuffer</i> structure. The caller can call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function to free any pointers allocated by the security package.
@@ -246,7 +246,7 @@ The caller must allocate the structure pointed to by the <i>pBuffer</i> paramete
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_schannel_cred">SCHANNEL_CRED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-schannel_cred">SCHANNEL_CRED</a>
 
 
 
@@ -266,7 +266,7 @@ The caller must allocate the structure pointed to by the <i>pBuffer</i> paramete
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcredentials_namesa">SecPkgCredentials_Names</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_namesa">SecPkgCredentials_Names</a>
  
 
  

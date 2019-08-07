@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PPP_ATCP_INFO, PPP_ATCP_INFO structure [RAS], _mpr_ppp_atcp_info, mprapi/PPP_ATCP_INFO, rras.ppp_atcp_info
 ms.topic: struct
-f1_keywords: 
- - "mprapi/PPP_ATCP_INFO"
+f1_keywords:
+- mprapi/PPP_ATCP_INFO
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - PPP_ATCP_INFO
+- PPP_ATCP_INFO
 product: Windows
 targetos: Windows
 req.typenames: PPP_ATCP_INFO
@@ -75,7 +75,7 @@ Specifies a Unicode string that holds the client's AppleTalk address on the RAS 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_info">PPP_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_info">PPP_INFO</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_TASK_DISPLAY_SYMBOL, MMC_TASK_DISPLAY_SYMBOL structure [MMC], _slate_mmc_task_display_symbol, mmc.mmc_task_display_symbol, mmc/MMC_TASK_DISPLAY_SYMBOL
 ms.topic: struct
-f1_keywords: 
- - "mmc/MMC_TASK_DISPLAY_SYMBOL"
+f1_keywords:
+- mmc/MMC_TASK_DISPLAY_SYMBOL
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - MMC_TASK_DISPLAY_SYMBOL
+- MMC_TASK_DISPLAY_SYMBOL
 product: Windows
 targetos: Windows
 req.typenames: MMC_TASK_DISPLAY_SYMBOL
@@ -56,7 +56,7 @@ The
 
 The 
 <b>MMC_TASK_DISPLAY_SYMBOL</b> structure is used for the <b>uSymbol</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_object">MMC_TASK_DISPLAY_OBJECT</a> structure to specify all the data required to display a symbol as an image for a task or background on a taskpad.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_task_display_object">MMC_TASK_DISPLAY_OBJECT</a> structure to specify all the data required to display a symbol as an image for a task or background on a taskpad.
 
 
 ## -struct-fields
@@ -117,11 +117,11 @@ Allocate the <i>szFontFamilyName</i>, <i>szURLtoEOT</i>, and <i>szSymbolString</
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_bitmap">MMC_TASK_DISPLAY_BITMAP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_task_display_bitmap">MMC_TASK_DISPLAY_BITMAP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_object">MMC_TASK_DISPLAY_OBJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_task_display_object">MMC_TASK_DISPLAY_OBJECT</a>
 
 
 

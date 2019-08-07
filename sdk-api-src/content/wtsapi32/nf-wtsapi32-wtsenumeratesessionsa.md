@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSEnumerateSessions, WTSEnumerateSessions function [Remote Desktop Services], WTSEnumerateSessionsA, WTSEnumerateSessionsW, _win32_wtsenumeratesessions, termserv.wtsenumeratesessions, wtsapi32/WTSEnumerateSessions, wtsapi32/WTSEnumerateSessionsA, wtsapi32/WTSEnumerateSessionsW
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSEnumerateSessions"
+f1_keywords:
+- wtsapi32/WTSEnumerateSessions
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.dll
- - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
+- Wtsapi32.dll
+- Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
 api_name:
- - WTSEnumerateSessions
- - WTSEnumerateSessionsA
- - WTSEnumerateSessionsW
+- WTSEnumerateSessions
+- WTSEnumerateSessionsA
+- WTSEnumerateSessionsW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,7 +82,7 @@ The version of the enumeration request. This parameter must be 1.
 
 ### -param ppSessionInfo [out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_session_infoa">WTS_SESSION_INFO</a> structures that represent the retrieved sessions. To free the returned buffer, call the 
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_infoa">WTS_SESSION_INFO</a> structures that represent the retrieved sessions. To free the returned buffer, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory">WTSFreeMemory</a> function.
 
 <b>Session permissions:  </b><ul>
@@ -126,7 +126,7 @@ For more information, and an extended example on how to use this function, see t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_session_infoa">WTS_SESSION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_infoa">WTS_SESSION_INFO</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 74cea50f-b8fd-4c32-815f-19f075b74838
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_GETVPORTCONNECTDATA, DD_GETVPORTCONNECTDATA, DD_GETVPORTCONNECTDATA structure [Display Devices], ddrawint/DD_GETVPORTCONNECTDATA, ddstrcts_56b2c83f-8798-4960-8fb6-062ccd1d5dd3.xml, display.dd_getvportconnectdata"
+ms.keywords: '*PDD_GETVPORTCONNECTDATA, DD_GETVPORTCONNECTDATA, DD_GETVPORTCONNECTDATA structure [Display Devices], ddrawint/DD_GETVPORTCONNECTDATA, ddstrcts_56b2c83f-8798-4960-8fb6-062ccd1d5dd3.xml, display.dd_getvportconnectdata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_GETVPORTCONNECTDATA"
+f1_keywords:
+- ddrawint/DD_GETVPORTCONNECTDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_GETVPORTCONNECTDATA
+- DD_GETVPORTCONNECTDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_GETVPORTCONNECTDATA, DD_GETVPORTCONNECTDATA"
+req.typenames: '*PDD_GETVPORTCONNECTDATA, DD_GETVPORTCONNECTDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,12 +61,12 @@ The DD_GETVPORTCONNECTDATA structure contains the connection combinations suppor
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
 
 ### -field dwPortId
 
-Specifies the ID of the VPE object for which the driver is to retrieve connection information. DirectDraw obtains this ID from the <b>dwVideoPortID</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportcaps">DDVIDEOPORTCAPS</a> structure.
+Specifies the ID of the VPE object for which the driver is to retrieve connection information. DirectDraw obtains this ID from the <b>dwVideoPortID</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportcaps">DDVIDEOPORTCAPS</a> structure.
 
 
 ### -field lpConnect
@@ -94,7 +94,7 @@ Used by the DirectDraw API and should not be filled in by the driver.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportcaps">DDVIDEOPORTCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportcaps">DDVIDEOPORTCAPS</a>
 
 
 

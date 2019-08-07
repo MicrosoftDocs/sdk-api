@@ -8,10 +8,10 @@ tech.root: VSS
 ms.assetid: 3541c8bd-2712-458b-9153-1fffe6bf5688
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVSS_BACKUP_SCHEMA, PVSS_BACKUP_SCHEMA, PVSS_BACKUP_SCHEMA enumeration pointer [VSS], VSS_BACKUP_SCHEMA, VSS_BACKUP_SCHEMA enumeration [VSS], VSS_BS_AUTHORITATIVE_RESTORE, VSS_BS_COPY, VSS_BS_DIFFERENTIAL, VSS_BS_EXCLUSIVE_INCREMENTAL_DIFFERENTIAL, VSS_BS_INCREMENTAL, VSS_BS_INDEPENDENT_SYSTEM_STATE, VSS_BS_LAST_MODIFY, VSS_BS_LOG, VSS_BS_LSN, VSS_BS_RESTORE_RENAME, VSS_BS_ROLLFORWARD_RESTORE, VSS_BS_TIMESTAMPED, VSS_BS_UNDEFINED, VSS_BS_WRITER_SUPPORTS_NEW_TARGET, VSS_BS_WRITER_SUPPORTS_PARALLEL_RESTORES, VSS_BS_WRITER_SUPPORTS_RESTORE_WITH_MOVE, _win32_vss_backup_schema, base.vss_backup_schema, vss/PVSS_BACKUP_SCHEMA, vss/VSS_BACKUP_SCHEMA, vss/VSS_BS_AUTHORITATIVE_RESTORE, vss/VSS_BS_COPY, vss/VSS_BS_DIFFERENTIAL, vss/VSS_BS_EXCLUSIVE_INCREMENTAL_DIFFERENTIAL, vss/VSS_BS_INCREMENTAL, vss/VSS_BS_INDEPENDENT_SYSTEM_STATE, vss/VSS_BS_LAST_MODIFY, vss/VSS_BS_LOG, vss/VSS_BS_LSN, vss/VSS_BS_RESTORE_RENAME, vss/VSS_BS_ROLLFORWARD_RESTORE, vss/VSS_BS_TIMESTAMPED, vss/VSS_BS_UNDEFINED, vss/VSS_BS_WRITER_SUPPORTS_NEW_TARGET, vss/VSS_BS_WRITER_SUPPORTS_PARALLEL_RESTORES, vss/VSS_BS_WRITER_SUPPORTS_RESTORE_WITH_MOVE"
+ms.keywords: '*PVSS_BACKUP_SCHEMA, PVSS_BACKUP_SCHEMA, PVSS_BACKUP_SCHEMA enumeration pointer [VSS], VSS_BACKUP_SCHEMA, VSS_BACKUP_SCHEMA enumeration [VSS], VSS_BS_AUTHORITATIVE_RESTORE, VSS_BS_COPY, VSS_BS_DIFFERENTIAL, VSS_BS_EXCLUSIVE_INCREMENTAL_DIFFERENTIAL, VSS_BS_INCREMENTAL, VSS_BS_INDEPENDENT_SYSTEM_STATE, VSS_BS_LAST_MODIFY, VSS_BS_LOG, VSS_BS_LSN, VSS_BS_RESTORE_RENAME, VSS_BS_ROLLFORWARD_RESTORE, VSS_BS_TIMESTAMPED, VSS_BS_UNDEFINED, VSS_BS_WRITER_SUPPORTS_NEW_TARGET, VSS_BS_WRITER_SUPPORTS_PARALLEL_RESTORES, VSS_BS_WRITER_SUPPORTS_RESTORE_WITH_MOVE, _win32_vss_backup_schema, base.vss_backup_schema, vss/PVSS_BACKUP_SCHEMA, vss/VSS_BACKUP_SCHEMA, vss/VSS_BS_AUTHORITATIVE_RESTORE, vss/VSS_BS_COPY, vss/VSS_BS_DIFFERENTIAL, vss/VSS_BS_EXCLUSIVE_INCREMENTAL_DIFFERENTIAL, vss/VSS_BS_INCREMENTAL, vss/VSS_BS_INDEPENDENT_SYSTEM_STATE, vss/VSS_BS_LAST_MODIFY, vss/VSS_BS_LOG, vss/VSS_BS_LSN, vss/VSS_BS_RESTORE_RENAME, vss/VSS_BS_ROLLFORWARD_RESTORE, vss/VSS_BS_TIMESTAMPED, vss/VSS_BS_UNDEFINED, vss/VSS_BS_WRITER_SUPPORTS_NEW_TARGET, vss/VSS_BS_WRITER_SUPPORTS_PARALLEL_RESTORES, vss/VSS_BS_WRITER_SUPPORTS_RESTORE_WITH_MOVE'
 ms.topic: enum
-f1_keywords: 
- - "vss/VSS_BACKUP_SCHEMA"
+f1_keywords:
+- vss/VSS_BACKUP_SCHEMA
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vss.h
+- Vss.h
 api_name:
- - VSS_BACKUP_SCHEMA
+- VSS_BACKUP_SCHEMA
 product: Windows
 targetos: Windows
 req.typenames: VSS_BACKUP_SCHEMA, *PVSS_BACKUP_SCHEMA
@@ -65,7 +65,7 @@ The <b>VSS_BACKUP_SCHEMA</b> enumeration is used by
 ### -field VSS_BS_UNDEFINED
 
 The writer supports a simple full backup and restoration of entire files (as defined by a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> value of 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> value of 
       <b>VSS_BT_FULL</b>). This backup scheme can be used as the basis of an incremental or 
       differential backup. This is the default value.
 
@@ -73,7 +73,7 @@ The writer supports a simple full backup and restoration of entire files (as def
 ### -field VSS_BS_DIFFERENTIAL
 
 The writer supports differential backups (corresponding to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> value 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> value 
       <b>VSS_BT_DIFFERENTIAL</b>). Files created or changed since the last full backup are saved. 
       Files are not marked as having been backed up.
       
@@ -86,7 +86,7 @@ This value is not supported for express writers.
 ### -field VSS_BS_INCREMENTAL
 
 The writer supports incremental backups (corresponding to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> value 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> value 
       <b>VSS_BT_INCREMENTAL</b>). Files created or changed since the last full or incremental 
       backup are saved. Files are marked as having been backed up. 
       
@@ -109,7 +109,7 @@ This value is not supported for express writers.
 ### -field VSS_BS_LOG
 
 The writer supports backups that involve only the log files it manages (corresponding to a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> value of 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> value of 
       <b>VSS_BT_LOG</b>). This schema requires a writer to have added at least one file to at 
       least one component using the 
       <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles">IVssCreateWriterMetadata::AddDataBaseLogFiles</a> 

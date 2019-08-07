@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_FILE_LEVEL_TRIM, FSCTL_FILE_LEVEL_TRIM control, FSCTL_FILE_LEVEL_TRIM control code [Files], fs.fsctl_file_level_trim, winioctl/FSCTL_FILE_LEVEL_TRIM
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_FILE_LEVEL_TRIM"
+f1_keywords:
+- winioctl/FSCTL_FILE_LEVEL_TRIM
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_FILE_LEVEL_TRIM
+- FSCTL_FILE_LEVEL_TRIM
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -158,7 +158,7 @@ The <b>FSCTL_FILE_LEVEL_TRIM</b> control code is a hint
     8,192 bytes on Itanium-Based  editions of Windows).
 
 If an error occurs while processing the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_level_trim_range">FILE_LEVEL_TRIM_RANGE</a> entries that follow the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_level_trim_range">FILE_LEVEL_TRIM_RANGE</a> entries that follow the 
     <b>FILE_LEVEL_TRIM</b> structure in the input buffer pointed 
     to by the <i>lpInBuffer</i> parameter, processing stops and the 
     <b>NumRangesProcessed</b> member of the 

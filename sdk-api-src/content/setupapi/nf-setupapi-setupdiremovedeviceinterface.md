@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiRemoveDeviceInterface, SetupDiRemoveDeviceInterface function [Device and Driver Installation], devinst.setupdiremovedeviceinterface, di-rtns_8401d04f-f4a5-4214-88fe-2c1309978af9.xml, setupapi/SetupDiRemoveDeviceInterface
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiRemoveDeviceInterface"
+f1_keywords:
+- setupapi/SetupDiRemoveDeviceInterface
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupDiRemoveDeviceInterface
+- SetupDiRemoveDeviceInterface
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/in
 
 ### -param DeviceInterfaceData [in, out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_device_interface_data">SP_DEVICE_INTERFACE_DATA</a> structure that specifies the device interface in <i>DeviceInfoSet</i> to remove. This pointer is typically returned by <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces">SetupDiEnumDeviceInterfaces</a>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_device_interface_data">SP_DEVICE_INTERFACE_DATA</a> structure that specifies the device interface in <i>DeviceInfoSet</i> to remove. This pointer is typically returned by <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces">SetupDiEnumDeviceInterfaces</a>.
 
 After the interface is removed, this function sets the SPINT_REMOVED flag in <i>DeviceInterfaceData</i><b>.Flags</b>. It also clears the SPINT_ACTIVE flag, but be aware that this flag should have already been cleared before this function was called.
 

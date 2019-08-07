@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_HEAP_PROPERTIES, WS_HEAP_PROPERTIES structure [Web Services for Windows], webservices/WS_HEAP_PROPERTIES, wsw.ws_heap_properties
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_HEAP_PROPERTIES"
+f1_keywords:
+- webservices/WS_HEAP_PROPERTIES
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_HEAP_PROPERTIES
+- WS_HEAP_PROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: WS_HEAP_PROPERTIES
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-A structure that is used to specify a set of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_heap_property">WS_HEAP_PROPERTY</a>s.
+A structure that is used to specify a set of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_heap_property">WS_HEAP_PROPERTY</a>s.
             
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: K32QueryWorkingSet, QueryWorkingSet, QueryWorkingSet function [PSAPI], _win32_queryworkingset, base.queryworkingset, psapi.queryworkingset, psapi/K32QueryWorkingSet, psapi/QueryWorkingSet
 ms.topic: function
-f1_keywords: 
- - "psapi/QueryWorkingSet"
+f1_keywords:
+- psapi/QueryWorkingSet
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if 
 req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - Psapi.dll
- - Psapi.dll
- - API-MS-Win-Core-PsAPI-L1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- Psapi.dll
+- Psapi.dll
+- API-MS-Win-Core-PsAPI-L1-1-0.dll
+- KernelBase.dll
 api_name:
- - QueryWorkingSet
- - K32QueryWorkingSet
+- QueryWorkingSet
+- K32QueryWorkingSet
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -79,12 +79,12 @@ A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</
 ### -param pv [out]
 
 A pointer to the buffer that receives the information. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_working_set_information">PSAPI_WORKING_SET_INFORMATION</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-psapi_working_set_information">PSAPI_WORKING_SET_INFORMATION</a>.
 
 If the buffer pointed to by the <i>pv</i> parameter is not large enough to contain all 
        working set entries for the target process, the function fails with <b>ERROR_BAD_LENGTH</b>. 
        In this case, the <b>NumberOfEntries</b> member of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_working_set_information">PSAPI_WORKING_SET_INFORMATION</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-psapi_working_set_information">PSAPI_WORKING_SET_INFORMATION</a> 
        structure is set to the required number of entries, but the function does not return information about the 
        working set entries.
 
@@ -144,7 +144,7 @@ Programs that must run on earlier versions of Windows as well as Windows 7 and 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_working_set_information">PSAPI_WORKING_SET_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-psapi_working_set_information">PSAPI_WORKING_SET_INFORMATION</a>
 
 
 

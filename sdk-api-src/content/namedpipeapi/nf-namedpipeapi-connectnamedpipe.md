@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConnectNamedPipe, ConnectNamedPipe function, _win32_connectnamedpipe, base.connectnamedpipe, namedpipeapi/ConnectNamedPipe
 ms.topic: function
-f1_keywords: 
- - "namedpipeapi/ConnectNamedPipe"
+f1_keywords:
+- namedpipeapi/ConnectNamedPipe
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-NamedPipe-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-NamedPipe-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-NamedPipe-l1-2-1.dll
- - API-MS-Win-Core-NamedPipe-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-NamedPipe-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-NamedPipe-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-NamedPipe-l1-2-1.dll
+- API-MS-Win-Core-NamedPipe-L1-2-2.dll
 api_name:
- - ConnectNamedPipe
+- ConnectNamedPipe
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -77,14 +77,14 @@ A handle to the server end of a named pipe instance. This handle is returned by 
 ### -param lpOverlapped [in, out, optional]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. 
 
 
 
 
-If <i>hNamedPipe</i> was opened with FILE_FLAG_OVERLAPPED, the <i>lpOverlapped</i> parameter must not be <b>NULL</b>. It must point to a valid <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure. If <i>hNamedPipe</i> was opened with FILE_FLAG_OVERLAPPED and <i>lpOverlapped</i> is <b>NULL</b>, the function can incorrectly report that the connect operation is complete.
+If <i>hNamedPipe</i> was opened with FILE_FLAG_OVERLAPPED, the <i>lpOverlapped</i> parameter must not be <b>NULL</b>. It must point to a valid <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. If <i>hNamedPipe</i> was opened with FILE_FLAG_OVERLAPPED and <i>lpOverlapped</i> is <b>NULL</b>, the function can incorrectly report that the connect operation is complete.
 
-If <i>hNamedPipe</i> was created with FILE_FLAG_OVERLAPPED and <i>lpOverlapped</i> is not <b>NULL</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure should  contain a handle to a manual-reset event object (which the server can create by using the 
+If <i>hNamedPipe</i> was created with FILE_FLAG_OVERLAPPED and <i>lpOverlapped</i> is not <b>NULL</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure should  contain a handle to a manual-reset event object (which the server can create by using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function).
 
 If <i>hNamedPipe</i> was not opened with FILE_FLAG_OVERLAPPED, the function does not return until a client is connected or an error occurs. Successful synchronous operations result in the function returning a nonzero value if a client connects after the function is called.
@@ -175,7 +175,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 

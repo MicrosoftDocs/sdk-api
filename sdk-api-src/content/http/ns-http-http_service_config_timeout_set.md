@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 928cb09d-9f63-4334-b034-ee27e950ce0a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_SERVICE_CONFIG_TIMEOUT_SET, *PHTTP_SERVICE_CONFIG_TIMEOUT_SET structure [HTTP], HTTP_SERVICE_CONFIG_TIMEOUT_SET, HTTP_SERVICE_CONFIG_TIMEOUT_SET structure [HTTP], http.http_service_config_timeout_set, http/*PHTTP_SERVICE_CONFIG_TIMEOUT_SET, http/HTTP_SERVICE_CONFIG_TIMEOUT_SET"
+ms.keywords: '*PHTTP_SERVICE_CONFIG_TIMEOUT_SET, *PHTTP_SERVICE_CONFIG_TIMEOUT_SET structure [HTTP], HTTP_SERVICE_CONFIG_TIMEOUT_SET, HTTP_SERVICE_CONFIG_TIMEOUT_SET structure [HTTP], http.http_service_config_timeout_set, http/*PHTTP_SERVICE_CONFIG_TIMEOUT_SET, http/HTTP_SERVICE_CONFIG_TIMEOUT_SET'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_SERVICE_CONFIG_TIMEOUT_SET"
+f1_keywords:
+- http/HTTP_SERVICE_CONFIG_TIMEOUT_SET
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_SERVICE_CONFIG_TIMEOUT_SET
+- HTTP_SERVICE_CONFIG_TIMEOUT_SET
 product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_TIMEOUT_SET, *PHTTP_SERVICE_CONFIG_TIMEOUT_SET
@@ -61,7 +61,7 @@ The <b>HTTP_SERVICE_CONFIG_TIMEOUT_SET</b> structure is used to set the HTTP Ser
 
 ### -field KeyDesc
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_service_config_timeout_key">HTTP_SERVICE_CONFIG_TIMEOUT_KEY</a> enumeration identifying the timer that is set.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_service_config_timeout_key">HTTP_SERVICE_CONFIG_TIMEOUT_KEY</a> enumeration identifying the timer that is set.
 
 
 ### -field ParamDesc

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUrlCacheEntryInfoEx, GetUrlCacheEntryInfoEx function [WinINet], GetUrlCacheEntryInfoExA, GetUrlCacheEntryInfoExW, _inet_geturlcacheentryinfoex_function, wininet.geturlcacheentryinfoex, wininet/GetUrlCacheEntryInfoEx, wininet/GetUrlCacheEntryInfoExA, wininet/GetUrlCacheEntryInfoExW
 ms.topic: function
-f1_keywords: 
- - "wininet/GetUrlCacheEntryInfoEx"
+f1_keywords:
+- wininet/GetUrlCacheEntryInfoEx
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - GetUrlCacheEntryInfoEx
- - GetUrlCacheEntryInfoExA
- - GetUrlCacheEntryInfoExW
+- GetUrlCacheEntryInfoEx
+- GetUrlCacheEntryInfoExA
+- GetUrlCacheEntryInfoExW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,9 +70,9 @@ A pointer to a <b>null</b>-terminated string that contains the name of the cache
 ### -param lpCacheEntryInfo [in, out, optional]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-_internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> structure that receives information about the cache entry. A buffer should be allocated for this parameter. 
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> structure that receives information about the cache entry. A buffer should be allocated for this parameter. 
 
-Since the required size of the buffer is not known in advance,  it is best to allocate a buffer adequate to handle the size of most <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-_internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> entries. There is no cache entry size limit, so applications that need to enumerate the cache must be prepared to allocate variable-sized buffers.
+Since the required size of the buffer is not known in advance,  it is best to allocate a buffer adequate to handle the size of most <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> entries. There is no cache entry size limit, so applications that need to enumerate the cache must be prepared to allocate variable-sized buffers.
 
 
 ### -param lpcbCacheEntryInfo [in, out, optional]

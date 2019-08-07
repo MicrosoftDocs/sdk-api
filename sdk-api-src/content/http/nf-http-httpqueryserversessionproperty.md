@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpQueryServerSessionProperty, HttpQueryServerSessionProperty function [HTTP], HttpServerAuthenticationProperty, HttpServerChannelBindProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, http.httpqueryserversessionproperty, http/HttpQueryServerSessionProperty
 ms.topic: function
-f1_keywords: 
- - "http/HttpQueryServerSessionProperty"
+f1_keywords:
+- http/HttpQueryServerSessionProperty
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Httpapi.dll
+- Httpapi.dll
 api_name:
- - HttpQueryServerSessionProperty
+- HttpQueryServerSessionProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ The server session for which the property setting is returned.
 
 ### -param Property [in]
 
-A member of the  <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HTTP_SERVER_PROPERTY</a> enumeration that describes the property type that is queried. This can be one of the following.
+A member of the  <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HTTP_SERVER_PROPERTY</a> enumeration that describes the property type that is queried. This can be one of the following.
 
 <table>
 <tr>
@@ -145,19 +145,19 @@ A pointer to the buffer that receives the property data.
 <tr>
 <td>HttpServerQosProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_qos_setting_info">HTTP_QOS_SETTING_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerTimeoutsProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_timeout_limit_info">HTTP_TIMEOUT_LIMIT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_timeout_limit_info">HTTP_TIMEOUT_LIMIT_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerAuthenticationProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a>
 </td>
 </tr>
 <tr>
@@ -239,9 +239,9 @@ The size, in bytes, of the buffer pointed to by the  <i>pPropertyInformation</i>
 
 Querying the <b>HttpServerLoggingProperty</b> is not supported.
 
-The <i>pPropertyInformation</i> parameter points to the configuration structure for the property type that is queried. The <i>PropertyInformationLength</i> parameter specifies the size, in bytes,  of the configuration structure. For example, when querying the <b>HttpServerTimeoutsProperty</b> the <i>pPropertyInformation</i> parameter must point to a buffer that is at least the size of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_timeout_limit_info">HTTP_TIMEOUT_LIMIT_INFO</a> structure.
+The <i>pPropertyInformation</i> parameter points to the configuration structure for the property type that is queried. The <i>PropertyInformationLength</i> parameter specifies the size, in bytes,  of the configuration structure. For example, when querying the <b>HttpServerTimeoutsProperty</b> the <i>pPropertyInformation</i> parameter must point to a buffer that is at least the size of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_timeout_limit_info">HTTP_TIMEOUT_LIMIT_INFO</a> structure.
 
- To specify the HttpServerQosProperty property in the <i>pPropertyInformation</i> parameter, set    <b>QosType</b> to <b>HttpQosSettingTypeBandwidth</b> inside the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure, and pass a pointer to this structure in the parameter.
+ To specify the HttpServerQosProperty property in the <i>pPropertyInformation</i> parameter, set    <b>QosType</b> to <b>HttpQosSettingTypeBandwidth</b> inside the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure, and pass a pointer to this structure in the parameter.
 
 
 

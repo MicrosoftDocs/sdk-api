@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_PIN_SET_POLARITY, IOCTL_PWM_PIN_SET_POLARITY control, IOCTL_PWM_PIN_SET_POLARITY control code, base.ioctl_pwm_pin_set_polarity, pwm/IOCTL_PWM_PIN_SET_POLARITY
 ms.topic: ioctl
-f1_keywords: 
- - "pwm/IOCTL_PWM_PIN_SET_POLARITY"
+f1_keywords:
+- pwm/IOCTL_PWM_PIN_SET_POLARITY
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pwm.h
+- Pwm.h
 api_name:
- - IOCTL_PWM_PIN_SET_POLARITY
+- IOCTL_PWM_PIN_SET_POLARITY
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-Sets the signal polarity of the pin or channel. The control code sets the signal polarity based on a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-_pwm_pin_set_polarity_input">PWM_PIN_SET_POLARITY_INPUT</a> structure. The signal polarity is either Active High or Active Low, as  defined in the <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ne-pwm-_pwm_polarity">PWM_POLARITY</a> enumeration.
+Sets the signal polarity of the pin or channel. The control code sets the signal polarity based on a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-pwm_pin_set_polarity_input">PWM_PIN_SET_POLARITY_INPUT</a> structure. The signal polarity is either Active High or Active Low, as  defined in the <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ne-pwm-pwm_polarity">PWM_POLARITY</a> enumeration.
 
 
 
@@ -240,7 +240,7 @@ If <i>lpOverlapped</i> is not <b>NULL</b>,
 <td width="60%">
 <b>LPOVERLAPPED</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 If <i>hDevice</i> was opened without specifying 
        <b>FILE_FLAG_OVERLAPPED</b>, <i>lpOverlapped</i> is ignored.
@@ -248,7 +248,7 @@ If <i>hDevice</i> was opened without specifying
 If <i>hDevice</i> was opened with the <b>FILE_FLAG_OVERLAPPED</b> flag, 
        the operation is performed as an overlapped (asynchronous) operation. In this case, 
        <i>lpOverlapped</i> must point to a valid 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure that contains a handle to an 
+       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that contains a handle to an 
        event object. Otherwise, the function fails in unpredictable ways.
 
 For overlapped operations, <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 

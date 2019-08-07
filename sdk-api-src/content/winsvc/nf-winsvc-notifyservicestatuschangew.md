@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NotifyServiceStatusChange, NotifyServiceStatusChange function, NotifyServiceStatusChangeA, NotifyServiceStatusChangeW, SERVICE_NOTIFY_CONTINUE_PENDING, SERVICE_NOTIFY_CREATED, SERVICE_NOTIFY_DELETED, SERVICE_NOTIFY_DELETE_PENDING, SERVICE_NOTIFY_PAUSED, SERVICE_NOTIFY_PAUSE_PENDING, SERVICE_NOTIFY_RUNNING, SERVICE_NOTIFY_START_PENDING, SERVICE_NOTIFY_STOPPED, SERVICE_NOTIFY_STOP_PENDING, base.notifyservicestatuschange, winsvc/NotifyServiceStatusChange, winsvc/NotifyServiceStatusChangeA, winsvc/NotifyServiceStatusChangeW
 ms.topic: function
-f1_keywords: 
- - "winsvc/NotifyServiceStatusChange"
+f1_keywords:
+- winsvc/NotifyServiceStatusChange
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - sechost.dll
- - API-MS-Win-Service-management-l2-1-0.dll
- - API-MS-Win-Service-Winsvc-l1-1-0.dll
- - API-MS-Win-Service-Winsvc-l1-2-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- sechost.dll
+- API-MS-Win-Service-management-l2-1-0.dll
+- API-MS-Win-Service-Winsvc-l1-1-0.dll
+- API-MS-Win-Service-Winsvc-l1-2-0.dll
 api_name:
- - NotifyServiceStatusChange
- - NotifyServiceStatusChangeA
- - NotifyServiceStatusChangeW
+- NotifyServiceStatusChange
+- NotifyServiceStatusChangeA
+- NotifyServiceStatusChangeW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -220,7 +220,7 @@ The <i>hService</i> parameter must be a handle to the service.
 
 ### -param pNotifyBuffer [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_notify_2a">SERVICE_NOTIFY</a> structure that contains notification information, such as a pointer to the callback function. This structure must remain valid until the callback function is invoked or the calling thread cancels the notification request.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_notify_2a">SERVICE_NOTIFY</a> structure that contains notification information, such as a pointer to the callback function. This structure must remain valid until the callback function is invoked or the calling thread cancels the notification request.
 
 Do not make multiple calls to <b>NotifyServiceStatusChange</b> with the same buffer parameter until the callback function from the first call has finished with the buffer or the first notification request has been canceled. Otherwise, there is no guarantee which version of the buffer the callback function will receive.
 
@@ -266,7 +266,7 @@ To cancel outstanding notifications, close the service handle using the <a href=
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_notify_2a">SERVICE_NOTIFY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_notify_2a">SERVICE_NOTIFY</a>
 
 
 

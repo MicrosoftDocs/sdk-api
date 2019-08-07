@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ACCESS_ALLOWED_CALLBACK_ACE_TYPE, ACCESS_DENIED_CALLBACK_ACE_TYPE, AddConditionalAce, AddConditionalAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, SYSTEM_AUDIT_CALLBACK_ACE_TYPE, security.addconditionalace, winbase/AddConditionalAce
 ms.topic: function
-f1_keywords: 
- - "winbase/AddConditionalAce"
+f1_keywords:
+- winbase/AddConditionalAce
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - AddConditionalAce
+- AddConditionalAce
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,7 +76,7 @@ Specifies the revision level of the ACL being modified. This value can be ACL_RE
 ### -param AceFlags [in]
 
 A set of bit flags that control ACE inheritance. The function sets these flags in the <b>AceFlags</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure of the new ACE. This parameter can be a combination of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure of the new ACE. This parameter can be a combination of the following values.
 
 <table>
 <tr>
@@ -156,7 +156,7 @@ This can be one of the following values.
 </td>
 <td width="60%">
 Access-allowed callback ACE that uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_allowed_callback_ace">ACCESS_ALLOWED_CALLBACK_ACE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_callback_ace">ACCESS_ALLOWED_CALLBACK_ACE</a> structure.
 
 </td>
 </tr>
@@ -168,7 +168,7 @@ Access-allowed callback ACE that uses the
 </td>
 <td width="60%">
 Access-denied callback ACE that uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_denied_callback_ace">ACCESS_DENIED_CALLBACK_ACE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_callback_ace">ACCESS_DENIED_CALLBACK_ACE</a> structure.
 
 </td>
 </tr>
@@ -180,7 +180,7 @@ Access-denied callback ACE that uses the
 </td>
 <td width="60%">
 System audit callback ACE that uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_audit_callback_ace">SYSTEM_AUDIT_CALLBACK_ACE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_audit_callback_ace">SYSTEM_AUDIT_CALLBACK_ACE</a> structure.
 
 </td>
 </tr>

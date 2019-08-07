@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFindData, GetFindData method [Windows Shell], GetFindData method [Windows Shell],IFileSystemBindData interface, IFileSystemBindData interface [Windows Shell],GetFindData method, IFileSystemBindData.GetFindData, IFileSystemBindData::GetFindData, _shell_ifilesystembinddata_getfinddata, shell.IFileSystemBindData_GetFindData, shobjidl_core/IFileSystemBindData::GetFindData
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileSystemBindData.GetFindData"
+f1_keywords:
+- shobjidl_core/IFileSystemBindData.GetFindData
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileSystemBindData.GetFindData
+- IFileSystemBindData.GetFindData
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the file system information stored in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_win32_find_dataa">WIN32_FIND_DATA</a> structure.
+Gets the file system information stored in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure.
 
 
 
@@ -62,9 +62,9 @@ Gets the file system information stored in the <a href="https://docs.microsoft.c
 
 ### -param pfd [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_win32_find_dataa">WIN32_FIND_DATA</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_win32_find_dataa">WIN32_FIND_DATA</a> structure that receives the data.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure that receives the data.
         
 
 

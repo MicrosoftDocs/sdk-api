@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_SET_PARTITION_INFO, IOCTL_DISK_SET_PARTITION_INFO control, IOCTL_DISK_SET_PARTITION_INFO control code [Files], _win32_ioctl_disk_set_partition_info, base.ioctl_disk_set_partition_info, fs.ioctl_disk_set_partition_info, winioctl/IOCTL_DISK_SET_PARTITION_INFO
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_DISK_SET_PARTITION_INFO"
+f1_keywords:
+- winioctl/IOCTL_DISK_SET_PARTITION_INFO
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_DISK_SET_PARTITION_INFO
+- IOCTL_DISK_SET_PARTITION_INFO
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -176,7 +176,7 @@ If the partition is on a disk formatted as type master boot record (MBR), partit
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_set_partition_information">SET_PARTITION_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-set_partition_information">SET_PARTITION_INFORMATION</a>
  
 
  

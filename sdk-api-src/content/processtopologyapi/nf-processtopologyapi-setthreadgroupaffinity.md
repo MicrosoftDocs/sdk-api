@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetThreadGroupAffinity, SetThreadGroupAffinity function, base.setthreadgroupaffinity, processtopologyapi/SetThreadGroupAffinity, winbase/SetThreadGroupAffinity
 ms.topic: function
-f1_keywords: 
- - "processtopologyapi/SetThreadGroupAffinity"
+f1_keywords:
+- processtopologyapi/SetThreadGroupAffinity
 req.header: processtopologyapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Processtopology-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Processtopology-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- kernel32.dll
+- API-MS-Win-Core-Processtopology-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Processtopology-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
 api_name:
- - SetThreadGroupAffinity
+- SetThreadGroupAffinity
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,12 +73,12 @@ The handle must have the THREAD_SET_INFORMATION access right. For more informati
 
 ### -param GroupAffinity [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_group_affinity">GROUP_AFFINITY</a> structure that specifies the processor group affinity to be used for the specified thread.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a> structure that specifies the processor group affinity to be used for the specified thread.
 
 
 ### -param PreviousGroupAffinity [out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_group_affinity">GROUP_AFFINITY</a> structure to receive the thread's previous group affinity. This parameter can be NULL.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a> structure to receive the thread's previous group affinity. This parameter can be NULL.
 
 
 ## -returns
@@ -106,7 +106,7 @@ To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_group_affinity">GROUP_AFFINITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a>
  
 
  

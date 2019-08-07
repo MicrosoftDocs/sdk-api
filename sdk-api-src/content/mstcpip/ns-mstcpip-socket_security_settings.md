@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SOCKET_SECURITY_SETTINGS, SOCKET_SECURITY_SETTINGS structure [Winsock], SOCKET_SETTINGS_ALLOW_INSECURE, SOCKET_SETTINGS_GUARANTEE_ENCRYPTION, mstcpip/SOCKET_SECURITY_SETTINGS, winsock.socket_security_settings
 ms.topic: struct
-f1_keywords: 
- - "mstcpip/SOCKET_SECURITY_SETTINGS"
+f1_keywords:
+- mstcpip/SOCKET_SECURITY_SETTINGS
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mstcpip.h
+- Mstcpip.h
 api_name:
- - SOCKET_SECURITY_SETTINGS
+- SOCKET_SECURITY_SETTINGS
 product: Windows
 targetos: Windows
 req.typenames: SOCKET_SECURITY_SETTINGS
@@ -61,7 +61,7 @@ The <b>SOCKET_SECURITY_SETTINGS</b> structure specifies generic security require
 
 ### -field SecurityProtocol
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-_socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a> value that identifies the type of security protocol to be used on the socket.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a> value that identifies the type of security protocol to be used on the socket.
 
 
 ### -field SecurityFlags
@@ -109,7 +109,7 @@ The <b>SOCKET_SECURITY_SETTINGS</b> structure  is supported on Windows Vistaand
 
 The <b>SOCKET_SECURITY_SETTINGS</b> structure  is used by the <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity">WSASetSocketSecurity</a> function to enable and apply security on  a socket.
 
-Security settings not addressed in this structure are derived from the system default policy or the administratively configured policy. It is recommended that most applications specify a value of  <b>SOCKET_SECURITY_PROTOCOL_DEFAULT</b> for the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-_socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a> enumeration in the <b>SecurityProtocol</b> member.  This makes the application neutral to security protocols and allows easier deployments among different systems.
+Security settings not addressed in this structure are derived from the system default policy or the administratively configured policy. It is recommended that most applications specify a value of  <b>SOCKET_SECURITY_PROTOCOL_DEFAULT</b> for the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a> enumeration in the <b>SecurityProtocol</b> member.  This makes the application neutral to security protocols and allows easier deployments among different systems.
 
 Advanced applications can specify a security protocol and associated settings by casting them to the <b>SOCKET_SECURITY_SETTINGS</b> type.
 
@@ -121,7 +121,7 @@ Advanced applications can specify a security protocol and associated settings by
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-_socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a>
 
 
 

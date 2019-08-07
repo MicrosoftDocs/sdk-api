@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EcSetObjectArrayProperty, EcSetObjectArrayProperty function, evcoll/EcSetObjectArrayProperty, wec.ecsetobjectarrayproperty, wes.ecsetobjectarrayproperty
 ms.topic: function
-f1_keywords: 
- - "evcoll/EcSetObjectArrayProperty"
+f1_keywords:
+- evcoll/EcSetObjectArrayProperty
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wecapi.lib
 req.dll: Wecapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wecapi.dll
+- Wecapi.dll
 api_name:
- - EcSetObjectArrayProperty
+- EcSetObjectArrayProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A handle to the array that contains the property value to set. The array contain
 
 ### -param PropertyId [in]
 
-An identifier that specifies which property to set. Specify a value from the <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ne-evcoll-_ec_subscription_property_id">EC_SUBSCRIPTION_PROPERTY_ID</a> enumeration. Set  the Address, Enabled, UserName, and Password properties in the array by specifying the <b>EcSubscriptionEventSourceAddress</b>, <b>EcSubscriptionEventSourceEnabled</b>, <b>EcSubscriptionEventSourceUserName</b>, or <b>EcSubscriptionEventSourcePassword</b> values.
+An identifier that specifies which property to set. Specify a value from the <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ne-evcoll-ec_subscription_property_id">EC_SUBSCRIPTION_PROPERTY_ID</a> enumeration. Set  the Address, Enabled, UserName, and Password properties in the array by specifying the <b>EcSubscriptionEventSourceAddress</b>, <b>EcSubscriptionEventSourceEnabled</b>, <b>EcSubscriptionEventSourceUserName</b>, or <b>EcSubscriptionEventSourcePassword</b> values.
 
 
 ### -param ArrayIndex [in]

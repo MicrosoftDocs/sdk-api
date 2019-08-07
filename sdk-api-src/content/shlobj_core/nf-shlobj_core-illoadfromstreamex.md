@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILLoadFromStreamEx, ILLoadFromStreamEx function [Windows Shell], ILLoadFromStreamEx(IStream*,PIDLIST_ABSOLUTE*), _shell_ILLoadFromStreamEx_IStream_PIDLIST_ABSOLUTE, shell.ILLoadFromStreamEx_IStream_PIDLIST_ABSOLUTE, shlobj_core/ILLoadFromStreamEx
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/ILLoadFromStreamEx"
+f1_keywords:
+- shlobj_core/ILLoadFromStreamEx
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - shlobj_core.h
- - Windows.Storage.dll
+- shlobj_core.h
+- Windows.Storage.dll
 api_name:
- - ILLoadFromStreamEx
+- ILLoadFromStreamEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -56,7 +56,7 @@ ms.custom: 19H1
     is available for use in the operating systems specified in the Requirements section. It may be altered or 
     unavailable in subsequent versions.]
 
-Loads an absolute <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> from an 
+Loads an absolute <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> from an 
     <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
 
 
@@ -70,7 +70,7 @@ Loads an absolute <a href="https://docs.microsoft.com/windows/desktop/api/shtype
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface from which the absolute 
-      <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> loads.
+      <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> loads.
 
 
 ### -param pidl [out]
@@ -78,7 +78,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/
 Type: <b>PIDLIST_ABSOLUTE*</b>
 
 When this method returns and succeeds, contains the resulting absolute 
-      <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a>. If it fails, contains 
+      <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a>. If it fails, contains 
       <b>NULL</b>.
 
 

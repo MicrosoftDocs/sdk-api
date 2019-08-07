@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetDesc method, ID3D11ShaderReflection.GetDesc, ID3D11ShaderReflection::GetDesc, af085ff0-7b2a-4e9e-cdad-aaa679defcc1, d3d11shader/ID3D11ShaderReflection::GetDesc, direct3d11.id3d11shaderreflection_getdesc
 ms.topic: method
-f1_keywords: 
- - "d3d11shader/ID3D11ShaderReflection.GetDesc"
+f1_keywords:
+- d3d11shader/ID3D11ShaderReflection.GetDesc
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11ShaderReflection.GetDesc
+- ID3D11ShaderReflection.GetDesc
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ Get a shader description.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_shader_desc">D3D11_SHADER_DESC</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-d3d11_shader_desc">D3D11_SHADER_DESC</a>*</b>
 
-A pointer to a shader description. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_shader_desc">D3D11_SHADER_DESC</a>.
+A pointer to a shader description. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-d3d11_shader_desc">D3D11_SHADER_DESC</a>.
 
 
 ## -returns

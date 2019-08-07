@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],put_AuthenticationType method, ISearchRoot.put_AuthenticationType, ISearchRoot::put_AuthenticationType, _search_ISearchRoot_put_AuthenticationType, put_AuthenticationType, put_AuthenticationType method [search], put_AuthenticationType method [search],ISearchRoot interface, search._search_ISearchRoot_put_AuthenticationType, searchapi/ISearchRoot::put_AuthenticationType
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchRoot.put_AuthenticationType"
+f1_keywords:
+- searchapi/ISearchRoot.put_AuthenticationType
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchRoot.put_AuthenticationType
+- ISearchRoot.put_AuthenticationType
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ Sets the type of authentication required to access the URLs under this search ro
 
 ### -param authType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_auth_type">AUTH_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-auth_type">AUTH_TYPE</a></b>
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_auth_type">AUTH_TYPE</a> enumeration that indicates the authentication type.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-auth_type">AUTH_TYPE</a> enumeration that indicates the authentication type.
 
 
 ## -returns

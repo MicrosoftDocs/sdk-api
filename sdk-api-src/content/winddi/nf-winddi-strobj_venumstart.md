@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STROBJ_vEnumStart, STROBJ_vEnumStart function [Display Devices], display.strobj_venumstart, gdifncs_f0be3fdf-8725-4f9c-8487-0aaa95a13ede.xml, winddi/STROBJ_vEnumStart
 ms.topic: function
-f1_keywords: 
- - "winddi/STROBJ_vEnumStart"
+f1_keywords:
+- winddi/STROBJ_vEnumStart
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - STROBJ_vEnumStart
+- STROBJ_vEnumStart
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>STROBJ_vEnumStart</b> function defines the form, or type, for data that w
 
 ### -param pstro
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_strobj">STROBJ</a> structure whose data form is to be defined.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a> structure whose data form is to be defined.
 
 
 ## -returns
@@ -77,7 +77,7 @@ None
 
 
 
-This function also restarts the enumeration of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphpos">GLYPHPOS</a> array.
+This function also restarts the enumeration of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphpos">GLYPHPOS</a> array.
 
 This function should be called by the driver prior to calling <b>STROBJ_bEnum</b>.
 
@@ -89,11 +89,11 @@ This function should be called by the driver prior to calling <b>STROBJ_bEnum</b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphpos">GLYPHPOS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphpos">GLYPHPOS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_strobj">STROBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a>
 
 
 

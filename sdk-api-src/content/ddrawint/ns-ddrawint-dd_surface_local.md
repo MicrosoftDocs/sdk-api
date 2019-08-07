@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 45a41cec-0257-4e26-809d-c2fc4c247328
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_SURFACE_LOCAL, DD_SURFACE_LOCAL, DD_SURFACE_LOCAL structure [Display Devices], ddrawint/DD_SURFACE_LOCAL, ddstrcts_07a504fc-c8bb-4b48-b825-4da3012e4f95.xml, display.dd_surface_local"
+ms.keywords: '*PDD_SURFACE_LOCAL, DD_SURFACE_LOCAL, DD_SURFACE_LOCAL structure [Display Devices], ddrawint/DD_SURFACE_LOCAL, ddstrcts_07a504fc-c8bb-4b48-b825-4da3012e4f95.xml, display.dd_surface_local'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_SURFACE_LOCAL"
+f1_keywords:
+- ddrawint/DD_SURFACE_LOCAL
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_SURFACE_LOCAL
+- DD_SURFACE_LOCAL
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_SURFACE_LOCAL, DD_SURFACE_LOCAL"
+req.typenames: '*PDD_SURFACE_LOCAL, DD_SURFACE_LOCAL'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,7 +61,7 @@ The DD_SURFACE_LOCAL structure contains surface-related data that is unique to a
 
 ### -field lpGbl
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_global">DD_SURFACE_GLOBAL</a> structure containing surface data that is shared globally with multiple surfaces.
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_global">DD_SURFACE_GLOBAL</a> structure containing surface data that is shared globally with multiple surfaces.
 
 
 ### -field dwFlags
@@ -179,7 +179,7 @@ Specifies a DDCOLORKEY structure that describes the color key for destination co
 
 ### -field lpSurfMore
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_more">DD_SURFACE_MORE</a> structure that contains additional local surface data.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_more">DD_SURFACE_MORE</a> structure that contains additional local surface data.
 
 
 ### -field lpAttachList

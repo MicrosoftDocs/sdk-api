@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 8398e029-473e-488f-a861-c7ceae07e678
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSCHANNEL_CRED, PSCHANNEL_CRED, PSCHANNEL_CRED structure pointer [Security], SCHANNEL_CRED, SCHANNEL_CRED structure [Security], SCH_CRED_AUTO_CRED_VALIDATION, SCH_CRED_CACHE_ONLY_URL_RETRIEVAL_ON_CREATE, SCH_CRED_FORMAT_CERT_HASH, SCH_CRED_FORMAT_CERT_HASH_STORE, SCH_CRED_IGNORE_NO_REVOCATION_CHECK, SCH_CRED_IGNORE_REVOCATION_OFFLINE, SCH_CRED_MANUAL_CRED_VALIDATION, SCH_CRED_NO_DEFAULT_CREDS, SCH_CRED_NO_SERVERNAME_CHECK, SCH_CRED_NO_SYSTEM_MAPPER, SCH_CRED_REVOCATION_CHECK_CHAIN, SCH_CRED_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT, SCH_CRED_REVOCATION_CHECK_END_CERT, SCH_CRED_USE_DEFAULT_CREDS, SCH_DISABLE_RECONNECTS, SCH_SEND_AUX_RECORD, SCH_SEND_ROOT_CERT, SCH_USE_PRESHAREDKEY_ONLY, SCH_USE_STRONG_CRYPTO, SP_PROT_DTLS1_0_CLIENT, SP_PROT_DTLS1_0_SERVER, SP_PROT_DTLS1_2_CLIENT, SP_PROT_DTLS1_2_SERVER, SP_PROT_DTLS1_X_CLIENT, SP_PROT_DTLS1_X_SERVER, SP_PROT_DTLS_CLIENT, SP_PROT_DTLS_SERVER, SP_PROT_PCT1_CLIENT, SP_PROT_PCT1_SERVER, SP_PROT_SSL2_CLIENT, SP_PROT_SSL2_SERVER, SP_PROT_SSL3_CLIENT, SP_PROT_SSL3_SERVER, SP_PROT_TLS1_0_CLIENT, SP_PROT_TLS1_0_SERVER, SP_PROT_TLS1_1_CLIENT, SP_PROT_TLS1_1_SERVER, SP_PROT_TLS1_2_CLIENT, SP_PROT_TLS1_2_SERVER, SP_PROT_TLS1_CLIENT, SP_PROT_TLS1_SERVER, _ssp_schannel_cred, schannel/PSCHANNEL_CRED, schannel/SCHANNEL_CRED, security.schannel_cred"
+ms.keywords: '*PSCHANNEL_CRED, PSCHANNEL_CRED, PSCHANNEL_CRED structure pointer [Security], SCHANNEL_CRED, SCHANNEL_CRED structure [Security], SCH_CRED_AUTO_CRED_VALIDATION, SCH_CRED_CACHE_ONLY_URL_RETRIEVAL_ON_CREATE, SCH_CRED_FORMAT_CERT_HASH, SCH_CRED_FORMAT_CERT_HASH_STORE, SCH_CRED_IGNORE_NO_REVOCATION_CHECK, SCH_CRED_IGNORE_REVOCATION_OFFLINE, SCH_CRED_MANUAL_CRED_VALIDATION, SCH_CRED_NO_DEFAULT_CREDS, SCH_CRED_NO_SERVERNAME_CHECK, SCH_CRED_NO_SYSTEM_MAPPER, SCH_CRED_REVOCATION_CHECK_CHAIN, SCH_CRED_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT, SCH_CRED_REVOCATION_CHECK_END_CERT, SCH_CRED_USE_DEFAULT_CREDS, SCH_DISABLE_RECONNECTS, SCH_SEND_AUX_RECORD, SCH_SEND_ROOT_CERT, SCH_USE_PRESHAREDKEY_ONLY, SCH_USE_STRONG_CRYPTO, SP_PROT_DTLS1_0_CLIENT, SP_PROT_DTLS1_0_SERVER, SP_PROT_DTLS1_2_CLIENT, SP_PROT_DTLS1_2_SERVER, SP_PROT_DTLS1_X_CLIENT, SP_PROT_DTLS1_X_SERVER, SP_PROT_DTLS_CLIENT, SP_PROT_DTLS_SERVER, SP_PROT_PCT1_CLIENT, SP_PROT_PCT1_SERVER, SP_PROT_SSL2_CLIENT, SP_PROT_SSL2_SERVER, SP_PROT_SSL3_CLIENT, SP_PROT_SSL3_SERVER, SP_PROT_TLS1_0_CLIENT, SP_PROT_TLS1_0_SERVER, SP_PROT_TLS1_1_CLIENT, SP_PROT_TLS1_1_SERVER, SP_PROT_TLS1_2_CLIENT, SP_PROT_TLS1_2_SERVER, SP_PROT_TLS1_CLIENT, SP_PROT_TLS1_SERVER, _ssp_schannel_cred, schannel/PSCHANNEL_CRED, schannel/SCHANNEL_CRED, security.schannel_cred'
 ms.topic: struct
-f1_keywords: 
- - "schannel/SCHANNEL_CRED"
+f1_keywords:
+- schannel/SCHANNEL_CRED
 req.header: schannel.h
 req.include-header: Schnlsp.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Schannel.h
+- Schannel.h
 api_name:
- - SCHANNEL_CRED
+- SCHANNEL_CRED
 product: Windows
 targetos: Windows
 req.typenames: SCHANNEL_CRED, *PSCHANNEL_CRED
@@ -72,7 +72,7 @@ The number of structures in the <b>paCred</b> array.
 ### -field paCred
 
 An array of pointers to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structures. Each pointer specifies a certificate that contains a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> to be used in authenticating the application. Typically, this array contains one structure for each key exchange method supported by the application.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures. Each pointer specifies a certificate that contains a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> to be used in authenticating the application. Typically, this array contains one structure for each key exchange method supported by the application.
 
 Client applications often pass in an empty list and either depend on Schannel to find an appropriate certificate or create a certificate later if needed.
 
@@ -675,7 +675,7 @@ The <b>paCred</b> member  of the <b>SCHANNEL_CRED</b> structure passed in must b
 </dl>
 </td>
 <td width="60%">
-The <b>paCred</b> member  of the <b>SCHANNEL_CRED</b> structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_schannel_cert_hash_store">SCHANNEL_CERT_HASH_STORE</a> structure.
+The <b>paCred</b> member  of the <b>SCHANNEL_CRED</b> structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-schannel_cert_hash_store">SCHANNEL_CERT_HASH_STORE</a> structure.
 
 </td>
 </tr>

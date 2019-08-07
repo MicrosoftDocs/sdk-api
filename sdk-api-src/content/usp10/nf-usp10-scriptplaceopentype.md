@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptPlaceOpenType, ScriptPlaceOpenType function [Internationalization for Windows Applications], _win32_ScriptPlaceOpenType, intl.scriptplaceopentype, usp10/ScriptPlaceOpenType
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptPlaceOpenType"
+f1_keywords:
+- usp10/ScriptPlaceOpenType
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Usp10.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Usp10.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptPlaceOpenType
+- ScriptPlaceOpenType
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -152,7 +152,7 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/u
 
 ### -param pABC [out, optional]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_abc">ABC</a> structure in which this function retrieves the <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-glossary">ABC width</a> for the entire <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-glossary">run</a>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-abc">ABC</a> structure in which this function retrieves the <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-glossary">ABC width</a> for the entire <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-glossary">run</a>.
 
 
 ## -returns

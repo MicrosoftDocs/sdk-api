@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IResultData interface [MMC],ModifyViewStyle method, IResultData.ModifyViewStyle, IResultData2 interface [MMC],ModifyViewStyle method, IResultData2::ModifyViewStyle, IResultData::ModifyViewStyle, MMC_NOSORTHEADER, MMC_SHOWSELALWAYS, MMC_SINGLESEL, ModifyViewStyle, ModifyViewStyle method [MMC], ModifyViewStyle method [MMC],IResultData interface, ModifyViewStyle method [MMC],IResultData2 interface, _slate_iresultdata_modifyviewstyle, mmc.iresultdata_modifyviewstyle, mmc/IResultData2::ModifyViewStyle, mmc/IResultData::ModifyViewStyle
 ms.topic: method
-f1_keywords: 
- - "mmc/IResultData.ModifyViewStyle"
+f1_keywords:
+- mmc/IResultData.ModifyViewStyle
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IResultData.ModifyViewStyle
- - IResultData2.ModifyViewStyle
+- IResultData.ModifyViewStyle
+- IResultData2.ModifyViewStyle
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,13 +83,13 @@ Always show the selection, if any, even if the control does not have the focus.
 A value that specifies that column headers do not work like buttons. This style is useful if clicking on a column header in report view does not perform an operation, such as sorting.
 
 These values are from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_result_view_style">MMC_RESULT_VIEW_STYLE</a> enumeration and correspond to the Win32 LVS_* flags of the same names.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_result_view_style">MMC_RESULT_VIEW_STYLE</a> enumeration and correspond to the Win32 LVS_* flags of the same names.
 
 
 ### -param remove [in]
 
 A value that specifies the view style (or styles) to be removed from the result view pane. This value can be a valid combination of the preceding flags shown for the add parameter. As described there, these values are from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_result_view_style">MMC_RESULT_VIEW_STYLE</a> enumeration and correspond to the Win32 LVS_* flags of the same names.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_result_view_style">MMC_RESULT_VIEW_STYLE</a> enumeration and correspond to the Win32 LVS_* flags of the same names.
 
 
 ## -returns

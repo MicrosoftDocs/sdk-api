@@ -8,10 +8,10 @@ tech.root: adsi
 ms.assetid: 541dd19d-79a1-4a74-b4a1-31cdf69fbf0c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PADS_DN_WITH_BINARY, ADS_DN_WITH_BINARY, ADS_DN_WITH_BINARY structure [ADSI], _ds_ads_dn_with_binary, adsi.ads__dn__with__binary, adsi.ads_dn_with_binary, iads/ADS_DN_WITH_BINARY"
+ms.keywords: '*PADS_DN_WITH_BINARY, ADS_DN_WITH_BINARY, ADS_DN_WITH_BINARY structure [ADSI], _ds_ads_dn_with_binary, adsi.ads__dn__with__binary, adsi.ads_dn_with_binary, iads/ADS_DN_WITH_BINARY'
 ms.topic: struct
-f1_keywords: 
- - "iads/ADS_DN_WITH_BINARY"
+f1_keywords:
+- iads/ADS_DN_WITH_BINARY
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_DN_WITH_BINARY
+- ADS_DN_WITH_BINARY
 product: Windows
 targetos: Windows
 req.typenames: ADS_DN_WITH_BINARY, *PADS_DN_WITH_BINARY
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ADS_DN_WITH_BINARY</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a> structure to contain a distinguished name attribute value that also contains binary data.
+The <b>ADS_DN_WITH_BINARY</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structure to contain a distinguished name attribute value that also contains binary data.
 
 
 ## -struct-fields
@@ -92,7 +92,7 @@ When extending the active directory schema to add <b>ADS_DN_WITH_BINARY</b>, you
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a>
 
 
 

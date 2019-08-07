@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlRaiseException, RtlRaiseException function [Windows API], rtlsupportapi/RtlRaiseException, winprog.rtlraiseexception
 ms.topic: function
-f1_keywords: 
- - "rtlsupportapi/RtlRaiseException"
+f1_keywords:
+- rtlsupportapi/RtlRaiseException
 req.header: rtlsupportapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ntdll.dll
- - API-MS-Win-Core-RTLSupport-l1-1-0.dll
- - API-MS-Win-Core-RTLSupport-l1-2-0.dll
+- ntdll.dll
+- API-MS-Win-Core-RTLSupport-l1-1-0.dll
+- API-MS-Win-Core-RTLSupport-l1-2-0.dll
 api_name:
- - RtlRaiseException
+- RtlRaiseException
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Raises an exception.
 
 ### -param ExceptionRecord [in]
 
-Address of an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_record">EXCEPTION_RECORD</a> structure 
+Address of an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a> structure 
       that describes the exception, and the parameters of the exception, that is raised. Raising a software exception 
       captures the machine state of the current thread in a context record. The 
       <b>ExceptionAddress</b> member of the exception record is set to the caller's return 
@@ -84,7 +84,7 @@ This function does not return a value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_record">EXCEPTION_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplyHints, ApplyHints method [VDS], ApplyHints method [VDS],IVdsLunPlex interface, IVdsLunPlex interface [VDS],ApplyHints method, IVdsLunPlex.ApplyHints, IVdsLunPlex::ApplyHints, base.ivdslunplex_applyhints, vds/IVdsLunPlex::ApplyHints, vdshwprv/IVdsLunPlex::ApplyHints
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsLunPlex.ApplyHints"
+f1_keywords:
+- vds/IVdsLunPlex.ApplyHints
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsLunPlex.ApplyHints
+- IVdsLunPlex.ApplyHints
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Applies a new set of hints to the LUN plex. Hints applied to a plex affect neith
 
 ### -param pHints [in]
 
-Pointer to the hints to be applied to the LUN plex. See the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_hints">VDS_HINTS</a> structure. Only fields relevant to a LUN plex are expected to be set; irrelevant fields are ignored.
+Pointer to the hints to be applied to the LUN plex. See the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints">VDS_HINTS</a> structure. Only fields relevant to a LUN plex are expected to be set; irrelevant fields are ignored.
 
 
 ## -returns
@@ -174,7 +174,7 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdsh
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_hints">VDS_HINTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints">VDS_HINTS</a>
  
 
  

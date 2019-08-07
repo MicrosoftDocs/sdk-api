@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_AddFloat, FLOATOBJ_AddFloat function [Display Devices], display.floatobj_addfloat, gdifncs_2e5305b6-571f-4ae2-bfd7-2305c006b6da.xml, winddi/FLOATOBJ_AddFloat
 ms.topic: function
-f1_keywords: 
- - "winddi/FLOATOBJ_AddFloat"
+f1_keywords:
+- winddi/FLOATOBJ_AddFloat
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - FLOATOBJ_AddFloat
+- FLOATOBJ_AddFloat
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>FLOATOBJ_AddFloat</b> function adds the value of type FLOATL to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_floatobj">FLOATOBJ</a>, and returns with the result in the first parameter.
+The <b>FLOATOBJ_AddFloat</b> function adds the value of type FLOATL to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>, and returns with the result in the first parameter.
 
 
 ## -parameters
@@ -92,7 +92,7 @@ The <b>FLOATOBJ_</b><i>Xxx</i> services allow graphics drivers to emulate floati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_floatobj">FLOATOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>
  
 
  

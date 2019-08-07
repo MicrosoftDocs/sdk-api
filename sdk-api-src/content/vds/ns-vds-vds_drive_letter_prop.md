@@ -8,10 +8,10 @@ tech.root: VDS
 ms.assetid: b944e29a-85b0-4cab-b804-1a09a19caddb
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVDS_DRIVE_LETTER_PROP, PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE, PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE structure pointer [VDS], VDS_DRIVE_LETTER_PROP, VDS_DRIVE_LETTER_PROP structure [VDS], base.vds_drive_letter_prop, vds/PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE, vds/_VDS_DRIVE_LETTER_PROP"
+ms.keywords: '*PVDS_DRIVE_LETTER_PROP, PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE, PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE structure pointer [VDS], VDS_DRIVE_LETTER_PROP, VDS_DRIVE_LETTER_PROP structure [VDS], base.vds_drive_letter_prop, vds/PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE, vds/_VDS_DRIVE_LETTER_PROP'
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_DRIVE_LETTER_PROP"
+f1_keywords:
+- vds/VDS_DRIVE_LETTER_PROP
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - VDS_DRIVE_LETTER_PROP
+- VDS_DRIVE_LETTER_PROP
 product: Windows
 targetos: Windows
 req.typenames: VDS_DRIVE_LETTER_PROP, *PVDS_DRIVE_LETTER_PROP
@@ -73,7 +73,7 @@ The GUID of the volume object represented by the drive letter.
 
 ### -field ulFlags
 
-The drive letter flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_drive_letter_flag">VDS_DRIVE_LETTER_FLAG</a>.
+The drive letter flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_drive_letter_flag">VDS_DRIVE_LETTER_FLAG</a>.
 
 
 ### -field bUsed
@@ -103,7 +103,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_drive_letter_flag">VDS_DRIVE_LETTER_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_drive_letter_flag">VDS_DRIVE_LETTER_FLAG</a>
  
 
  

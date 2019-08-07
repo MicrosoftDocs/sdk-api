@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DAILY, DAILY structure [Task Scheduler], _msb_daily, mstask/DAILY, taskschd.daily, triggers [Task Scheduler],structures,DAILY
 ms.topic: struct
-f1_keywords: 
- - "mstask/DAILY"
+f1_keywords:
+- mstask/DAILY
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mstask.h
+- Mstask.h
 api_name:
- - DAILY
+- DAILY
 product: Windows
 targetos: Windows
 req.typenames: DAILY
@@ -69,8 +69,8 @@ Specifies the number of days between task runs.
 
 
  The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_trigger_type_union">TRIGGER_TYPE_UNION</a> union uses an instance of this structure as part of the <b>Type</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_task_trigger">TASK_TRIGGER</a> structure definition.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> union uses an instance of this structure as part of the <b>Type</b> member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure definition.
 
 
 
@@ -80,11 +80,11 @@ Specifies the number of days between task runs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_task_trigger">TASK_TRIGGER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_trigger_type_union">TRIGGER_TYPE_UNION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a>
  
 
  

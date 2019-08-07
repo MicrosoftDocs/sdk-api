@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RADIUS_VSA_FORMAT, RADIUS_VSA_FORMAT structure [Network Policy Server], _ias_radius_vsa_format, authif/RADIUS_VSA_FORMAT, ias.radius_vsa_format, nps.IAS_radius_vsa_format
 ms.topic: struct
-f1_keywords: 
- - "authif/RADIUS_VSA_FORMAT"
+f1_keywords:
+- authif/RADIUS_VSA_FORMAT
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AuthIf.h
+- AuthIf.h
 api_name:
- - RADIUS_VSA_FORMAT
+- RADIUS_VSA_FORMAT
 product: Windows
 targetos: Windows
 req.typenames: RADIUS_VSA_FORMAT
@@ -86,7 +86,7 @@ Array of bytes that contains information for this attribute.
 
 The 
 <b>RADIUS_VSA_FORMAT</b> structure is useful for interpreting the <b>lpValue</b> member of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute">RADIUS_ATTRIBUTE</a> structure when the <b>dwAttrType</b> member has a value <b>ratVendorSpecific</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> structure when the <b>dwAttrType</b> member has a value <b>ratVendorSpecific</b>.
 
 See 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a> for a description of RADIUS vendor-specific attributes. See 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetOmaps, SymGetOmaps function, base.symgetomaps, dbghelp/SymGetOmaps
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymGetOmaps"
+f1_keywords:
+- dbghelp/SymGetOmaps
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymGetOmaps
+- SymGetOmaps
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ The base address of the module.
 
 ### -param OmapTo [out]
 
-An array of address map entries to the new image layout taken from the original layout. For details on the map entries, see the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_omap">OMAP</a> structure.
+An array of address map entries to the new image layout taken from the original layout. For details on the map entries, see the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-omap">OMAP</a> structure.
 
 
 ### -param cOmapTo [out]
@@ -82,7 +82,7 @@ The number of entries in the <i>OmapTo</i> array.
 
 ### -param OmapFrom [out]
 
-An array of address map entries from the new image layout to the original layout (as described by the debug symbols). For details on the map entries, see the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_omap">OMAP</a> structure.
+An array of address map entries from the new image layout to the original layout (as described by the debug symbols). For details on the map entries, see the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-omap">OMAP</a> structure.
 
 
 ### -param cOmapFrom [out]
@@ -116,7 +116,7 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_omap">OMAP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-omap">OMAP</a>
  
 
  

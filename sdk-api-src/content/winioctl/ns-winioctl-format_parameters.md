@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 81fcfd8e-abb9-4c0b-b23d-302aa3645a6f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFORMAT_PARAMETERS, FORMAT_PARAMETERS, FORMAT_PARAMETERS structure [Files], PFORMAT_PARAMETERS, PFORMAT_PARAMETERS structure pointer [Files], _win32_format_parameters_str, base.format_parameters_str, fs.format_parameters_str, winioctl/FORMAT_PARAMETERS, winioctl/PFORMAT_PARAMETERS"
+ms.keywords: '*PFORMAT_PARAMETERS, FORMAT_PARAMETERS, FORMAT_PARAMETERS structure [Files], PFORMAT_PARAMETERS, PFORMAT_PARAMETERS structure pointer [Files], _win32_format_parameters_str, base.format_parameters_str, fs.format_parameters_str, winioctl/FORMAT_PARAMETERS, winioctl/PFORMAT_PARAMETERS'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/FORMAT_PARAMETERS"
+f1_keywords:
+- winioctl/FORMAT_PARAMETERS
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FORMAT_PARAMETERS
+- FORMAT_PARAMETERS
 product: Windows
 targetos: Windows
 req.typenames: FORMAT_PARAMETERS, *PFORMAT_PARAMETERS
@@ -62,7 +62,7 @@ Contains information used in formatting a contiguous set of disk tracks. It is u
 ### -field MediaType
 
 The media type. For a list of values, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_media_type">MEDIA_TYPE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-media_type">MEDIA_TYPE</a>.
 
 
 ### -field StartCylinderNumber
@@ -94,7 +94,7 @@ The ending head location.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_media_type">MEDIA_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-media_type">MEDIA_TYPE</a>
  
 
  

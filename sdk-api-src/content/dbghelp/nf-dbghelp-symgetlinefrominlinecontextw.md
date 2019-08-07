@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetLineFromInlineContext, SymGetLineFromInlineContext function, SymGetLineFromInlineContextW, base.symgetlinefrominlinecontext, dbghelp/SymGetLineFromInlineContext, dbghelp/SymGetLineFromInlineContextW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymGetLineFromInlineContext"
+f1_keywords:
+- dbghelp/SymGetLineFromInlineContext
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: DbgHelp.lib
 req.dll: DbgHelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - DbgHelp.dll
+- DbgHelp.dll
 api_name:
- - SymGetLineFromInlineContext
- - SymGetLineFromInlineContext
- - SymGetLineFromInlineContextW
+- SymGetLineFromInlineContext
+- SymGetLineFromInlineContext
+- SymGetLineFromInlineContextW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -91,7 +91,7 @@ The displacement in bytes from the beginning of the line, or zero.
 
 #### - Line [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_line">IMAGEHLP_LINE64</a> 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_line">IMAGEHLP_LINE64</a> 
       structure.
 
 
@@ -112,7 +112,7 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 
 
 The caller must allocate the <i>Line</i> buffer properly and fill in the required members 
-    of the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_line">IMAGEHLP_LINE64</a> structure before 
+    of the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_line">IMAGEHLP_LINE64</a> structure before 
     calling <b>SymGetLineFromInlineContext</b>.
 
 This function returns a pointer to a buffer that may be reused by another function. Therefore, be sure to copy 

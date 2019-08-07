@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 5510d430-834c-42ea-a113-c17b1b87ea52
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_GETMOCOMPCOMPBUFFDATA, DD_GETMOCOMPCOMPBUFFDATA, DD_GETMOCOMPCOMPBUFFDATA structure [Display Devices], ddrawint/DD_GETMOCOMPCOMPBUFFDATA, ddstrcts_20d1802e-7979-4336-b730-a161f771c24a.xml, display.dd_getmocompcompbuffdata"
+ms.keywords: '*PDD_GETMOCOMPCOMPBUFFDATA, DD_GETMOCOMPCOMPBUFFDATA, DD_GETMOCOMPCOMPBUFFDATA structure [Display Devices], ddrawint/DD_GETMOCOMPCOMPBUFFDATA, ddstrcts_20d1802e-7979-4336-b730-a161f771c24a.xml, display.dd_getmocompcompbuffdata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_GETMOCOMPCOMPBUFFDATA"
+f1_keywords:
+- ddrawint/DD_GETMOCOMPCOMPBUFFDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_GETMOCOMPCOMPBUFFDATA
+- DD_GETMOCOMPCOMPBUFFDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_GETMOCOMPCOMPBUFFDATA, DD_GETMOCOMPCOMPBUFFDATA"
+req.typenames: '*PDD_GETMOCOMPCOMPBUFFDATA, DD_GETMOCOMPCOMPBUFFDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,7 +61,7 @@ The DD_GETMOCOMPCOMPBUFFDATA structure contains the compressed buffer informatio
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
 
 ### -field lpGuid

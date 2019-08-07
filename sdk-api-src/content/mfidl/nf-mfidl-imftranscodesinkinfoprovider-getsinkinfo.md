@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSinkInfo, GetSinkInfo method [Media Foundation], GetSinkInfo method [Media Foundation],IMFTranscodeSinkInfoProvider interface, IMFTranscodeSinkInfoProvider interface [Media Foundation],GetSinkInfo method, IMFTranscodeSinkInfoProvider.GetSinkInfo, IMFTranscodeSinkInfoProvider::GetSinkInfo, mf.imftranscodesinkinfoprovider_getsinkinfo, mfidl/IMFTranscodeSinkInfoProvider::GetSinkInfo
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTranscodeSinkInfoProvider.GetSinkInfo"
+f1_keywords:
+- mfidl/IMFTranscodeSinkInfoProvider.GetSinkInfo
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFTranscodeSinkInfoProvider.GetSinkInfo
+- IMFTranscodeSinkInfoProvider.GetSinkInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Gets the media types for the audio and video streams specified in the transcode 
 
 ### -param pSinkInfo [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-_mf_transcode_sink_info">MF_TRANSCODE_SINK_INFO</a> structure.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mf_transcode_sink_info">MF_TRANSCODE_SINK_INFO</a> structure.
 
 If the method succeeds, the method assigns <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> pointers to the <b>pAudioMediaType</b> and <b>pVideoMediaType</b> members of this structure. The method might set either member to <b>NULL</b>. If either member is non-NULL after the method returns, the caller must release the <b>IMFMediaType</b> pointers.
 

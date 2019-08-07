@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasSecurityDialogComplete, RasSecurityDialogComplete function [RAS], _ras_rassecuritydialogcomplete, rasshost/RasSecurityDialogComplete, rras.rassecuritydialogcomplete
 ms.topic: function
-f1_keywords: 
- - "rasshost/RasSecurityDialogComplete"
+f1_keywords:
+- rasshost/RasSecurityDialogComplete
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Rasman.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasman.dll
+- Rasman.dll
 api_name:
- - RasSecurityDialogComplete
+- RasSecurityDialogComplete
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ The RAS server passes a pointer to the
 ### -param pSecMsg [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/ns-rasshost-_security_message">SECURITY_MESSAGE</a> structure that specifies the results of the authentication transaction.
+<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/ns-rasshost-security_message">SECURITY_MESSAGE</a> structure that specifies the results of the authentication transaction.
 
 
 ## -returns
@@ -115,7 +115,7 @@ When a security DLL has finished authenticating the remote user, it calls the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/ns-rasshost-_security_message">SECURITY_MESSAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/ns-rasshost-security_message">SECURITY_MESSAGE</a>
  
 
  

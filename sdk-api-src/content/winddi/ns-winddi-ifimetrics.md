@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: fd2606ed-ec61-430a-aaad-38a4c3a207b6
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PIFIMETRICS, IFIMETRICS, IFIMETRICS structure [Display Devices], PIFIMETRICS, PIFIMETRICS structure pointer [Display Devices], display.ifimetrics, grstrcts_85d0a649-0d14-4b17-ab47-c35d61ce507e.xml, winddi/IFIMETRICS, winddi/PIFIMETRICS"
+ms.keywords: '*PIFIMETRICS, IFIMETRICS, IFIMETRICS structure [Display Devices], PIFIMETRICS, PIFIMETRICS structure pointer [Display Devices], display.ifimetrics, grstrcts_85d0a649-0d14-4b17-ab47-c35d61ce507e.xml, winddi/IFIMETRICS, winddi/PIFIMETRICS'
 ms.topic: struct
-f1_keywords: 
- - "winddi/IFIMETRICS"
+f1_keywords:
+- winddi/IFIMETRICS
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - IFIMETRICS
+- IFIMETRICS
 product: Windows
 targetos: Windows
 req.typenames: IFIMETRICS, *PIFIMETRICS
@@ -61,7 +61,7 @@ The IFIMETRICS structure defines information for a given typeface that GDI can u
 
 ### -field cjThis
 
-Specifies the size in bytes of this structure. The specified size includes any Unicode strings appended to the end of this structure, plus the size in bytes of the optional <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifiextra">IFIEXTRA</a> structure.
+Specifies the size in bytes of this structure. The specified size includes any Unicode strings appended to the end of this structure, plus the size in bytes of the optional <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifiextra">IFIEXTRA</a> structure.
 
 
 ### -field cjIfiExtra
@@ -91,11 +91,11 @@ Specifies the offset in bytes to a null-terminated Unicode string representing t
 
 ### -field dpFontSim
 
-Specifies the offset in bytes from the beginning of this IFIMETRICS structure to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontsim">FONTSIM</a> structure that describes the simulations that the font supports. The driver should set this member to a nonzero value only if the font supports bold, italic, or bold italic simulations; otherwise, the driver should set this to zero.
+Specifies the offset in bytes from the beginning of this IFIMETRICS structure to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontsim">FONTSIM</a> structure that describes the simulations that the font supports. The driver should set this member to a nonzero value only if the font supports bold, italic, or bold italic simulations; otherwise, the driver should set this to zero.
 
 Note that if a font is italic by design, the driver should not indicate font support for italic simulation although it can indicate font support for bold italic simulation. Similarly, the driver should not indicate font support for bold simulation if the font is bold by design, but can indicate font support for bold italic simulation. If the font is both bold and italic by design, it should not support any simulations.
 
-The offsets in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontsim">FONTSIM</a> structure are relative to the base of the FONTSIM structure.
+The offsets in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontsim">FONTSIM</a> structure are relative to the base of the FONTSIM structure.
 
 
 ### -field lEmbedId
@@ -606,7 +606,7 @@ Indicates that the font contains a valid digital signature.
 
 #### FM_INFO_RETURNS_OUTLINES
 
-Indicates that for any glyph supported by the driver, GDI can request a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a> structure that describes the outline of that glyph. If possible, when the outline is filled using GDI's path filling conventions, the resulting bitmap should be identical to the bitmap returned by the driver. The FM_INFO_RETURNS_OUTLINES and FM_INFO_RETURNS_STOKES flags cannot be set concurrently.
+Indicates that for any glyph supported by the driver, GDI can request a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure that describes the outline of that glyph. If possible, when the outline is filled using GDI's path filling conventions, the resulting bitmap should be identical to the bitmap returned by the driver. The FM_INFO_RETURNS_OUTLINES and FM_INFO_RETURNS_STOKES flags cannot be set concurrently.
 
 
 
@@ -994,7 +994,7 @@ Specifies the code point of the space character or its equivalent.
 
 ### -field ptlBaseline
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a> structure that contains the intended writing direction of this font. For example, a typical Latin font specifies a value of (1,0).
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that contains the intended writing direction of this font. For example, a typical Latin font specifies a value of (1,0).
 
 
 ### -field ptlAspect
@@ -1009,7 +1009,7 @@ Specifies a POINTL structure that contains the direction of the ascender directi
 
 ### -field rclFontBox
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that describes the bounding box of all glyphs in the font in design space.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that describes the bounding box of all glyphs in the font in design space.
 
 
 ### -field achVendId
@@ -1041,7 +1041,7 @@ Is an array of 10 bytes used to describe the visual characteristics of a given t
 
 
 
-Additional information for a typeface can optionally be specified in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifiextra">IFIEXTRA</a> structure.
+Additional information for a typeface can optionally be specified in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifiextra">IFIEXTRA</a> structure.
 
 A driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfont">DrvQueryFont</a> routine fills out and returns an IFIMETRICS structure to GDI.
 
@@ -1063,11 +1063,11 @@ The IFIMETRICS structure's <b>Align</b> member causes it to be larger for x64 ma
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifiextra">IFIEXTRA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifiextra">IFIEXTRA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
  
 
  

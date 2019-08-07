@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SQSO_AUTOMATIC_WILDCARD, SQSO_CONNECTOR_CASE, SQSO_IMPLICIT_CONNECTOR, SQSO_LANGUAGE_KEYWORDS, SQSO_LOCALE_WORD_BREAKING, SQSO_NATURAL_SYNTAX, SQSO_SCHEMA, SQSO_SYNTAX, SQSO_TIME_ZONE, SQSO_TRACE_LEVEL, SQSO_WORD_BREAKER, STRUCTURED_QUERY_SINGLE_OPTION, STRUCTURED_QUERY_SINGLE_OPTION enumeration [search], _search_STRUCTURED_QUERY_SINGLE_OPTION, search._search_STRUCTURED_QUERY_SINGLE_OPTION, structuredquery/SQSO_AUTOMATIC_WILDCARD, structuredquery/SQSO_CONNECTOR_CASE, structuredquery/SQSO_IMPLICIT_CONNECTOR, structuredquery/SQSO_LANGUAGE_KEYWORDS, structuredquery/SQSO_LOCALE_WORD_BREAKING, structuredquery/SQSO_NATURAL_SYNTAX, structuredquery/SQSO_SCHEMA, structuredquery/SQSO_SYNTAX, structuredquery/SQSO_TIME_ZONE, structuredquery/SQSO_TRACE_LEVEL, structuredquery/SQSO_WORD_BREAKER, structuredquery/STRUCTURED_QUERY_SINGLE_OPTION
 ms.topic: enum
-f1_keywords: 
- - "structuredquery/STRUCTURED_QUERY_SINGLE_OPTION"
+f1_keywords:
+- structuredquery/STRUCTURED_QUERY_SINGLE_OPTION
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - STRUCTURED_QUERY_SINGLE_OPTION
+- STRUCTURED_QUERY_SINGLE_OPTION
 product: Windows
 targetos: Windows
 req.typenames: STRUCTURED_QUERY_SINGLE_OPTION
@@ -96,7 +96,7 @@ The option value must be a <b>VT_I4</b> that is a valid LANGID. The LANGID indic
 
 ### -field SQSO_SYNTAX
 
-<b>Windows 7 and later.</b> The option value must be a <b>VT_UI4</b> that is a <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_search_query_syntax">SEARCH_QUERY_SYNTAX</a> value. The default is SQS_NATURAL_QUERY_SYNTAX.
+<b>Windows 7 and later.</b> The option value must be a <b>VT_UI4</b> that is a <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-search_query_syntax">SEARCH_QUERY_SYNTAX</a> value. The default is SQS_NATURAL_QUERY_SYNTAX.
 
 
 ### -field SQSO_TIME_ZONE

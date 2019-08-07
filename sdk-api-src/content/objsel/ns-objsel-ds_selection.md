@@ -8,10 +8,10 @@ tech.root: ad
 ms.assetid: 7a587997-0423-450f-a845-bddf12b69fae
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDS_SELECTION, DS_SELECTION, DS_SELECTION structure [Active Directory], PDS_SELECTION, PDS_SELECTION structure pointer [Active Directory], _glines_ds_selection, ad.ds__selection, ad.ds_selection, objsel/DS_SELECTION, objsel/PDS_SELECTION"
+ms.keywords: '*PDS_SELECTION, DS_SELECTION, DS_SELECTION structure [Active Directory], PDS_SELECTION, PDS_SELECTION structure pointer [Active Directory], _glines_ds_selection, ad.ds__selection, ad.ds_selection, objsel/DS_SELECTION, objsel/PDS_SELECTION'
 ms.topic: struct
-f1_keywords: 
- - "objsel/DS_SELECTION"
+f1_keywords:
+- objsel/DS_SELECTION
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Objsel.h
+- Objsel.h
 api_name:
- - DS_SELECTION
+- DS_SELECTION
 product: Windows
 targetos: Windows
 req.typenames: DS_SELECTION, *PDS_SELECTION
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>DS_SELECTION</b> structure contains data about an object the user selected from an object picker dialog box. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_ds_selection_list">DS_SELECTION_LIST</a> structure contains an array of <b>DS_SELECTION</b> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-ds_selection_list">DS_SELECTION_LIST</a> structure contains an array of <b>DS_SELECTION</b> structures.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ Pointer to a null-terminated Unicode string that contains the object's relative 
 ### -field pwzADsPath
 
 Pointer to a null-terminated Unicode string that contains the object's ADsPath. The format of this string depends on the flags specified in the <b>flScope</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a> structure for the scope from which this object was selected.
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a> structure for the scope from which this object was selected.
 
 
 ### -field pwzClass
@@ -85,7 +85,7 @@ Pointer to a null-terminated Unicode string that contains the object's userPrinc
 
 Pointer to an array of 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> structures. Each <b>VARIANT</b> contains the value of an attribute of the selected object. The attributes retrieved are determined by the attribute names specified in the <b>apwzAttributeNames</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_init_info">DSOP_INIT_INFO</a> structure passed to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_init_info">DSOP_INIT_INFO</a> structure passed to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a> method. The order of attributes in the <b>pvarFetchedAttributes</b> array corresponds to the order of attribute names specified in the <b>apwzAttributeNames</b> array.
 
 The object picker dialog box may not be able to retrieve the requested attributes. If the attribute cannot be retrieved, the <b>vt</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> structure contains <b>VT_EMPTY</b>.
@@ -94,7 +94,7 @@ The object picker dialog box may not be able to retrieve the requested attribute
 ### -field flScopeType
 
 Contains one, or more, of the <b>DSOP_SCOPE_TYPE_*</b> that indicate the type of  scope from which this object was selected.  For more information, and a list of <b>DSOP_SCOPE_TYPE_*</b> flags, see the <b>flType</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a> structure.
 
 
 ## -see-also
@@ -102,15 +102,15 @@ Contains one, or more, of the <b>DSOP_SCOPE_TYPE_*</b> that indicate the type of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_init_info">DSOP_INIT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_init_info">DSOP_INIT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_ds_selection_list">DS_SELECTION_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-ds_selection_list">DS_SELECTION_LIST</a>
 
 
 

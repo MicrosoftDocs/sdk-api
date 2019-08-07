@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StartDoc, StartDoc function [Windows GDI], StartDocA, StartDocW, _win32_StartDoc, gdi.startdoc, wingdi/StartDoc, wingdi/StartDocA, wingdi/StartDocW
 ms.topic: function
-f1_keywords: 
- - "wingdi/StartDoc"
+f1_keywords:
+- wingdi/StartDoc
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-print-l1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-print-l1-1-0.dll
+- GDI32Full.dll
 api_name:
- - StartDoc
- - StartDocA
- - StartDocW
+- StartDoc
+- StartDocA
+- StartDocW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ A handle to the device context for the print job.
 
 ### -param lpdi [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_docinfoa">DOCINFO</a> structure containing the name of the document file and the name of the output file.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-docinfoa">DOCINFO</a> structure containing the name of the document file and the name of the output file.
 
 
 ## -returns
@@ -108,7 +108,7 @@ For a sample program that uses this function, see <a href="https://docs.microsof
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_docinfoa">DOCINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-docinfoa">DOCINFO</a>
 
 
 

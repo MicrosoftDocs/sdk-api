@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceEnum, MprConfigInterfaceEnum function [RAS], _mpr_mprconfiginterfaceenum, mprapi/MprConfigInterfaceEnum, rras.mprconfiginterfaceenum
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprConfigInterfaceEnum"
+f1_keywords:
+- mprapi/MprConfigInterfaceEnum
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprConfigInterfaceEnum
+- MprConfigInterfaceEnum
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,7 +78,7 @@ On input, a non-<b>NULL</b> pointer.
 
 
 
-On successful completion, a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_interface_0">MPR_INTERFACE_0</a> structures. Free this memory buffer by calling 
+On successful completion, a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_0">MPR_INTERFACE_0</a> structures. Free this memory buffer by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>.
 
 
@@ -143,7 +143,7 @@ One of the following is true:
 <li><i>dwLevel</i> is not zero.</li>
 <li><i>lplpBuffer</i> is <b>NULL</b>.</li>
 <li><i>dwPrefMaxLen</i> is smaller than the size of a single 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_interface_0">MPR_INTERFACE_0</a> structure.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_0">MPR_INTERFACE_0</a> structure.</li>
 <li><i>lpdwEntriesRead</i> is <b>NULL</b>.</li>
 <li><i>lpdwTotalEntries</i> is <b>NULL</b>.</li>
 </ul>

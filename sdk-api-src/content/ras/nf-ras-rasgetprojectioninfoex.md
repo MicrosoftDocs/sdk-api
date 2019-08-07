@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasGetProjectionInfoEx, RasGetProjectionInfoEx function [RAS], ras/RasGetProjectionInfoEx, rras.rasgetprojectioninfoex
 ms.topic: function
-f1_keywords: 
- - "ras/RasGetProjectionInfoEx"
+f1_keywords:
+- ras/RasGetProjectionInfoEx
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasGetProjectionInfoEx
+- RasGetProjectionInfoEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,12 +68,12 @@ A handle to the RAS connection for which the tunnel endpoints are to be changed.
 
 ### -param pRasProjection [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_ras_projection_info">RAS_PROJECTION_INFO</a> structure that receives the projection information for the RAS connections.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-ras_projection_info">RAS_PROJECTION_INFO</a> structure that receives the projection information for the RAS connections.
 
 
 ### -param lpdwSize [in, out]
 
-A pointer, in input, that specifies the size, in bytes, of the buffer pointed to by pRasProjection. On output, this variable receives the size, in bytes, of the buffer needed to store the number of <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_ras_projection_info">RAS_PROJECTION_INFO</a> structures pointed to by 
+A pointer, in input, that specifies the size, in bytes, of the buffer pointed to by pRasProjection. On output, this variable receives the size, in bytes, of the buffer needed to store the number of <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-ras_projection_info">RAS_PROJECTION_INFO</a> structures pointed to by 
 					<i>pRasProjection</i>.
 
 

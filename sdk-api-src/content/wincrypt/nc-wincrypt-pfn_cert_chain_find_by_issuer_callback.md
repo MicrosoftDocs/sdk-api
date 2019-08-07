@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertChainFindByIssuerCallback, PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK, PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK callback, PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK callback function [Security], security.certchainfindbyissuercallback, wincrypt/PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK
 ms.topic: callback
-f1_keywords: 
- - "wincrypt/PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK"
+f1_keywords:
+- wincrypt/PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK
+- PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertChainFindByIssuerCallback</b> function is an application-defined callback function that allows the application to filter certificates that might be added to the certificate chain. A pointer to this function is provided in the <b>pfnFindCallback</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_find_by_issuer_para">CERT_CHAIN_FIND_BY_ISSUER_PARA</a> structure.
+The <b>CertChainFindByIssuerCallback</b> function is an application-defined callback function that allows the application to filter certificates that might be added to the certificate chain. A pointer to this function is provided in the <b>pfnFindCallback</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_find_by_issuer_para">CERT_CHAIN_FIND_BY_ISSUER_PARA</a> structure.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/
 
 ### -param *pvFindArg [in]
 
-A pointer to an application-defined value. This is the same value that was passed in the <i>pvFindArg</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_find_by_issuer_para">CERT_CHAIN_FIND_BY_ISSUER_PARA</a> structure.
+A pointer to an application-defined value. This is the same value that was passed in the <i>pvFindArg</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_find_by_issuer_para">CERT_CHAIN_FIND_BY_ISSUER_PARA</a> structure.
 
 
 ## -returns
@@ -83,7 +83,7 @@ Return <b>TRUE</b> to create a chain for the certificate specified in the <i>pCe
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_find_by_issuer_para">CERT_CHAIN_FIND_BY_ISSUER_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_find_by_issuer_para">CERT_CHAIN_FIND_BY_ISSUER_PARA</a>
 
 
 

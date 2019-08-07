@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsReadNode, WsReadNode function [Web Services for Windows], webservices/WsReadNode, wsw.wsreadnode
 ms.topic: function
-f1_keywords: 
- - "webservices/WsReadNode"
+f1_keywords:
+- webservices/WsReadNode
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsReadNode
+- WsReadNode
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-This operation advances the Reader to the next <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_node">node</a> in the input stream.
+This operation advances the Reader to the next <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_node">node</a> in the input stream.
       If there is an error parsing the input the function will return <b>WS_E_INVALID_FORMAT</b>.
       (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
@@ -121,7 +121,7 @@ Other exception conditions include: <ul>
 <li>If an XML declaration is found and <b>WS_XML_READER_PROPERTY_READ_DECLARATION</b> is <b>FALSE</b>,
         <b>WS_E_INVALID_FORMAT</b> is returned.
       </li>
-<li>If the Reader is using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_stream_input">WS_XML_READER_STREAM_INPUT</a> and there was insufficient data buffered the reader will return
+<li>If the Reader is using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_stream_input">WS_XML_READER_STREAM_INPUT</a> and there was insufficient data buffered the reader will return
         <b>WS_E_QUOTA_EXCEEDED</b>.
       </li>
 </ul>

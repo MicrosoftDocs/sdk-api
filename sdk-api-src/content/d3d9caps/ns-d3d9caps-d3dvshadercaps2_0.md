@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 85a71d10-ae0f-bdc3-e929-6d1ff3c0b356, D3DVSHADERCAPS2_0, D3DVSHADERCAPS2_0 structure [Direct3D 9], LPD3DVSHADERCAPS2_0, LPD3DVSHADERCAPS2_0 structure pointer [Direct3D 9], d3d9caps/D3DVSHADERCAPS2_0, d3d9caps/LPD3DVSHADERCAPS2_0, direct3d9.d3dvshadercaps2_0
 ms.topic: struct
-f1_keywords: 
- - "d3d9caps/D3DVSHADERCAPS2_0"
+f1_keywords:
+- d3d9caps/D3DVSHADERCAPS2_0
 req.header: d3d9caps.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D9Caps.h
+- D3D9Caps.h
 api_name:
- - D3DVSHADERCAPS2_0
+- D3DVSHADERCAPS2_0
 product: Windows
 targetos: Windows
 req.typenames: D3DVSHADERCAPS2_0
@@ -92,11 +92,11 @@ The depth of nesting of the <a href="https://docs.microsoft.com/windows/desktop/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcaps9">D3DCAPS9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9">D3DCAPS9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dpshadercaps2_0">D3DPSHADERCAPS2_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dpshadercaps2_0">D3DPSHADERCAPS2_0</a>
 
 
 

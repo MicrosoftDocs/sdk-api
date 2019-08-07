@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: 11bf2d6d-b9bc-4a4d-b7b0-6f7d61eb3756
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_UDP6TABLE_OWNER_MODULE, MIB_UDP6TABLE_OWNER_MODULE, MIB_UDP6TABLE_OWNER_MODULE structure [MIB], PMIB_UDP6TABLE_OWNER_MODULE, PMIB_UDP6TABLE_OWNER_MODULE structure pointer [MIB], iprtrmib/MIB_UDP6TABLE_OWNER_MODULE, iprtrmib/PMIB_UDP6TABLE_OWNER_MODULE, mib.mib_udp6table_owner_module, udpmib/MIB_UDP6TABLE_OWNER_MODULE, udpmib/PMIB_UDP6TABLE_OWNER_MODULE"
+ms.keywords: '*PMIB_UDP6TABLE_OWNER_MODULE, MIB_UDP6TABLE_OWNER_MODULE, MIB_UDP6TABLE_OWNER_MODULE structure [MIB], PMIB_UDP6TABLE_OWNER_MODULE, PMIB_UDP6TABLE_OWNER_MODULE structure pointer [MIB], iprtrmib/MIB_UDP6TABLE_OWNER_MODULE, iprtrmib/PMIB_UDP6TABLE_OWNER_MODULE, mib.mib_udp6table_owner_module, udpmib/MIB_UDP6TABLE_OWNER_MODULE, udpmib/PMIB_UDP6TABLE_OWNER_MODULE'
 ms.topic: struct
-f1_keywords: 
- - "udpmib/MIB_UDP6TABLE_OWNER_MODULE"
+f1_keywords:
+- udpmib/MIB_UDP6TABLE_OWNER_MODULE
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Udpmib.h
- - Iprtrmib.h
+- Udpmib.h
+- Iprtrmib.h
 api_name:
- - MIB_UDP6TABLE_OWNER_MODULE
+- MIB_UDP6TABLE_OWNER_MODULE
 product: Windows
 targetos: Windows
 req.typenames: MIB_UDP6TABLE_OWNER_MODULE, *PMIB_UDP6TABLE_OWNER_MODULE
@@ -74,7 +74,7 @@ An array of <a href="https://docs.microsoft.com/previous-versions/windows/deskto
 
 
 
-The <b>MIB_UDP6TABLE_OWNER_MODULE</b> structure is returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedudptable">GetExtendedUdpTable</a> with the <i>TableClass</i> parameter set to a  <b>UDP_TABLE_OWNER_MODULE</b> from the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_udp_table_class">UDP_TABLE_CLASS</a> enumeration and the <i>ulAf</i> parameter set to <b>AF_INET6</b>. The <b>MIB_UDP6TABLE_OWNER_MODULE</b> structure contains an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udp6row_owner_module">MIB_UDP6ROW_OWNER_MODULE</a> structures.
+The <b>MIB_UDP6TABLE_OWNER_MODULE</b> structure is returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedudptable">GetExtendedUdpTable</a> with the <i>TableClass</i> parameter set to a  <b>UDP_TABLE_OWNER_MODULE</b> from the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-udp_table_class">UDP_TABLE_CLASS</a> enumeration and the <i>ulAf</i> parameter set to <b>AF_INET6</b>. The <b>MIB_UDP6TABLE_OWNER_MODULE</b> structure contains an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udp6row_owner_module">MIB_UDP6ROW_OWNER_MODULE</a> structures.
 
 The <b>MIB_UDP6TABLE_OWNER_MODULE</b> structure may contain padding for alignment between the <b>dwNumEntries</b> member and the first <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udp6row_owner_module">MIB_UDP6ROW_OWNER_MODULE</a> array entry in the <b>table</b> member. Padding for alignment may also be present between the <b>MIB_UDP6ROW_OWNER_MODULE</b> array entries in the <b>table</b> member. Any access to a <b>MIB_UDP6ROW_OWNER_MODULE</b> array entry should assume  padding may exist. 
 
@@ -151,7 +151,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_udp_table_class">UDP_TABLE_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-udp_table_class">UDP_TABLE_CLASS</a>
 
 
 

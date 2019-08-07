@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_OMAC, OPM_OMAC structure [Media Foundation], _OPM_OMAC, ksopmapi/OPM_OMAC, mf.opm_omac
 ms.topic: struct
-f1_keywords: 
- - "ksopmapi/OPM_OMAC"
+f1_keywords:
+- ksopmapi/OPM_OMAC
 req.header: ksopmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ksopmapi.h
+- ksopmapi.h
 api_name:
- - OPM_OMAC
+- OPM_OMAC
 product: Windows
 targetos: Windows
 req.typenames: OPM_OMAC
@@ -73,15 +73,15 @@ A buffer that contains the cryptographic MAC value of the message.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ns-opmapi-_opm_configure_parameters">OPM_CONFIGURE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ns-opmapi-opm_configure_parameters">OPM_CONFIGURE_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_info_parameters">OPM_GET_INFO_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters">OPM_GET_INFO_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_requested_information">OPM_REQUESTED_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_requested_information">OPM_REQUESTED_INFORMATION</a>
 
 
 

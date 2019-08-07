@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 8f02e824-ca41-48c1-a5e8-5b12d81886b5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_INFO_BY_HANDLE_CLASS, FILE_INFO_BY_HANDLE_CLASS, FILE_INFO_BY_HANDLE_CLASS enumeration [Files], FileAlignmentInfo, FileAllocationInfo, FileAttributeTagInfo, FileBasicInfo, FileCompressionInfo, FileDispositionInfo, FileEndOfFileInfo, FileFullDirectoryInfo, FileFullDirectoryRestartInfo, FileIdBothDirectoryInfo, FileIdBothDirectoryRestartInfo, FileIdExtdDirectoryInfo, FileIdExtdDirectoryRestartInfo, FileIdInfo, FileIoPriorityHintInfo, FileNameInfo, FileRemoteProtocolInfo, FileRenameInfo, FileStandardInfo, FileStorageInfo, FileStreamInfo, MaximumFileInfoByHandlesClass, PFILE_INFO_BY_HANDLE_CLASS, PFILE_INFO_BY_HANDLE_CLASS enumeration pointer [Files], fileextd/FILE_INFO_BY_HANDLE_CLASS, fileextd/FileAlignmentInfo, fileextd/FileAllocationInfo, fileextd/FileAttributeTagInfo, fileextd/FileBasicInfo, fileextd/FileCompressionInfo, fileextd/FileDispositionInfo, fileextd/FileEndOfFileInfo, fileextd/FileFullDirectoryInfo, fileextd/FileFullDirectoryRestartInfo, fileextd/FileIdBothDirectoryInfo, fileextd/FileIdBothDirectoryRestartInfo, fileextd/FileIdExtdDirectoryInfo, fileextd/FileIdExtdDirectoryRestartInfo, fileextd/FileIdInfo, fileextd/FileIoPriorityHintInfo, fileextd/FileNameInfo, fileextd/FileRemoteProtocolInfo, fileextd/FileRenameInfo, fileextd/FileStandardInfo, fileextd/FileStorageInfo, fileextd/FileStreamInfo, fileextd/MaximumFileInfoByHandlesClass, fileextd/PFILE_INFO_BY_HANDLE_CLASS, fs.file_info_by_handle_class, minwinbase/FILE_INFO_BY_HANDLE_CLASS, minwinbase/FileAlignmentInfo, minwinbase/FileAllocationInfo, minwinbase/FileAttributeTagInfo, minwinbase/FileBasicInfo, minwinbase/FileCompressionInfo, minwinbase/FileDispositionInfo, minwinbase/FileEndOfFileInfo, minwinbase/FileFullDirectoryInfo, minwinbase/FileFullDirectoryRestartInfo, minwinbase/FileIdBothDirectoryInfo, minwinbase/FileIdBothDirectoryRestartInfo, minwinbase/FileIdExtdDirectoryInfo, minwinbase/FileIdExtdDirectoryRestartInfo, minwinbase/FileIdInfo, minwinbase/FileIoPriorityHintInfo, minwinbase/FileNameInfo, minwinbase/FileRemoteProtocolInfo, minwinbase/FileRenameInfo, minwinbase/FileStandardInfo, minwinbase/FileStorageInfo, minwinbase/FileStreamInfo, minwinbase/MaximumFileInfoByHandlesClass, minwinbase/PFILE_INFO_BY_HANDLE_CLASS"
+ms.keywords: '*PFILE_INFO_BY_HANDLE_CLASS, FILE_INFO_BY_HANDLE_CLASS, FILE_INFO_BY_HANDLE_CLASS enumeration [Files], FileAlignmentInfo, FileAllocationInfo, FileAttributeTagInfo, FileBasicInfo, FileCompressionInfo, FileDispositionInfo, FileEndOfFileInfo, FileFullDirectoryInfo, FileFullDirectoryRestartInfo, FileIdBothDirectoryInfo, FileIdBothDirectoryRestartInfo, FileIdExtdDirectoryInfo, FileIdExtdDirectoryRestartInfo, FileIdInfo, FileIoPriorityHintInfo, FileNameInfo, FileRemoteProtocolInfo, FileRenameInfo, FileStandardInfo, FileStorageInfo, FileStreamInfo, MaximumFileInfoByHandlesClass, PFILE_INFO_BY_HANDLE_CLASS, PFILE_INFO_BY_HANDLE_CLASS enumeration pointer [Files], fileextd/FILE_INFO_BY_HANDLE_CLASS, fileextd/FileAlignmentInfo, fileextd/FileAllocationInfo, fileextd/FileAttributeTagInfo, fileextd/FileBasicInfo, fileextd/FileCompressionInfo, fileextd/FileDispositionInfo, fileextd/FileEndOfFileInfo, fileextd/FileFullDirectoryInfo, fileextd/FileFullDirectoryRestartInfo, fileextd/FileIdBothDirectoryInfo, fileextd/FileIdBothDirectoryRestartInfo, fileextd/FileIdExtdDirectoryInfo, fileextd/FileIdExtdDirectoryRestartInfo, fileextd/FileIdInfo, fileextd/FileIoPriorityHintInfo, fileextd/FileNameInfo, fileextd/FileRemoteProtocolInfo, fileextd/FileRenameInfo, fileextd/FileStandardInfo, fileextd/FileStorageInfo, fileextd/FileStreamInfo, fileextd/MaximumFileInfoByHandlesClass, fileextd/PFILE_INFO_BY_HANDLE_CLASS, fs.file_info_by_handle_class, minwinbase/FILE_INFO_BY_HANDLE_CLASS, minwinbase/FileAlignmentInfo, minwinbase/FileAllocationInfo, minwinbase/FileAttributeTagInfo, minwinbase/FileBasicInfo, minwinbase/FileCompressionInfo, minwinbase/FileDispositionInfo, minwinbase/FileEndOfFileInfo, minwinbase/FileFullDirectoryInfo, minwinbase/FileFullDirectoryRestartInfo, minwinbase/FileIdBothDirectoryInfo, minwinbase/FileIdBothDirectoryRestartInfo, minwinbase/FileIdExtdDirectoryInfo, minwinbase/FileIdExtdDirectoryRestartInfo, minwinbase/FileIdInfo, minwinbase/FileIoPriorityHintInfo, minwinbase/FileNameInfo, minwinbase/FileRemoteProtocolInfo, minwinbase/FileRenameInfo, minwinbase/FileStandardInfo, minwinbase/FileStorageInfo, minwinbase/FileStreamInfo, minwinbase/MaximumFileInfoByHandlesClass, minwinbase/PFILE_INFO_BY_HANDLE_CLASS'
 ms.topic: enum
-f1_keywords: 
- - "minwinbase/FILE_INFO_BY_HANDLE_CLASS"
+f1_keywords:
+- minwinbase/FILE_INFO_BY_HANDLE_CLASS
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - MinWinBase.h
- - FileExtd.h
+- MinWinBase.h
+- FileExtd.h
 api_name:
- - FILE_INFO_BY_HANDLE_CLASS
+- FILE_INFO_BY_HANDLE_CLASS
 product: Windows
 targetos: Windows
 req.typenames: FILE_INFO_BY_HANDLE_CLASS, *PFILE_INFO_BY_HANDLE_CLASS
@@ -80,35 +80,35 @@ Extended information for the file should be retrieved. Used for file handles. Us
 
 The file name should be retrieved. Used for any handles. Use only when calling 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>. See 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_name_info">FILE_NAME_INFO</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_name_info">FILE_NAME_INFO</a>.
 
 
 ### -field FileRenameInfo
 
 The file name should be changed. Used for file handles. Use only when calling 
       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>. See 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_rename_info">FILE_RENAME_INFO</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_rename_info">FILE_RENAME_INFO</a>.
 
 
 ### -field FileDispositionInfo
 
 The file should be deleted. Used for any handles. Use only when calling 
       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>. See 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_disposition_info">FILE_DISPOSITION_INFO</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_disposition_info">FILE_DISPOSITION_INFO</a>.
 
 
 ### -field FileAllocationInfo
 
 The file allocation information should be changed. Used for file handles. Use only when calling 
       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>. See 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_allocation_info">FILE ALLOCATION INFO</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_allocation_info">FILE ALLOCATION INFO</a>.
 
 
 ### -field FileEndOfFileInfo
 
 The end of the file should be set. Use only when calling 
       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>. See 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_end_of_file_info">FILE_END_OF_FILE_INFO</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_end_of_file_info">FILE_END_OF_FILE_INFO</a>.
 
 
 ### -field FileStreamInfo
@@ -155,7 +155,7 @@ Identical to <b>FileIdBothDirectoryInfo</b>, but forces the enumeration operatio
 
 Priority hint information should be  set. Use only when calling 
       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>. See 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_io_priority_hint_info">FILE_IO_PRIORITY_HINT_INFO</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_io_priority_hint_info">FILE_IO_PRIORITY_HINT_INFO</a>.
 
 
 ### -field FileRemoteProtocolInfo
@@ -197,7 +197,7 @@ File storage information should be retrieved. Use for any handles. Use only when
 
 File alignment information should be retrieved. Use for any handles. Use only when calling 
        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>. See 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_alignment_info">FILE_ALIGNMENT_INFO</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_alignment_info">FILE_ALIGNMENT_INFO</a>.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows 8 and Windows Server 2012
 

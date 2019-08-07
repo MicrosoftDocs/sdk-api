@@ -8,10 +8,10 @@ tech.root: oprec
 ms.assetid: 51AE0017-2CDE-4BCD-AE03-B366343DE558
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*POPERATION_START_PARAMETERS, OPERATION_API_VERSION, OPERATION_START_PARAMETERS, OPERATION_START_PARAMETERS structure [Operation Recorder], OPERATION_START_TRACE_CURRENT_THREAD, POPERATION_START_PARAMETERS, POPERATION_START_PARAMETERS structure pointer [Operation Recorder], _OPERATION_START_PARAMETERS, oprec.operation_start_parameters, winbase/OPERATION_START_PARAMETERS, winbase/POPERATION_START_PARAMETERS"
+ms.keywords: '*POPERATION_START_PARAMETERS, OPERATION_API_VERSION, OPERATION_START_PARAMETERS, OPERATION_START_PARAMETERS structure [Operation Recorder], OPERATION_START_TRACE_CURRENT_THREAD, POPERATION_START_PARAMETERS, POPERATION_START_PARAMETERS structure pointer [Operation Recorder], _OPERATION_START_PARAMETERS, oprec.operation_start_parameters, winbase/OPERATION_START_PARAMETERS, winbase/POPERATION_START_PARAMETERS'
 ms.topic: struct
-f1_keywords: 
- - "winbase/OPERATION_START_PARAMETERS"
+f1_keywords:
+- winbase/OPERATION_START_PARAMETERS
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - OPERATION_START_PARAMETERS
+- OPERATION_START_PARAMETERS
 product: Windows
 targetos: Windows
 req.typenames: OPERATION_START_PARAMETERS, *POPERATION_START_PARAMETERS
@@ -121,7 +121,7 @@ Specifies that the system should only track the activities of the calling thread
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_operation_end_parameters">OPERATION_END_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_end_parameters">OPERATION_END_PARAMETERS</a>
 
 
 

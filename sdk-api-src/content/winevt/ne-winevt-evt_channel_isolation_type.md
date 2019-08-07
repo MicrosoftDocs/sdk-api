@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVT_CHANNEL_ISOLATION_TYPE, EVT_CHANNEL_ISOLATION_TYPE enumeration [EventLog], EvtChannelIsolationTypeApplication, EvtChannelIsolationTypeCustom, EvtChannelIsolationTypeSystem, wes.evt_channel_isolation_type, winevt/EVT_CHANNEL_ISOLATION_TYPE, winevt/EvtChannelIsolationTypeApplication, winevt/EvtChannelIsolationTypeCustom, winevt/EvtChannelIsolationTypeSystem
 ms.topic: enum
-f1_keywords: 
- - "winevt/EVT_CHANNEL_ISOLATION_TYPE"
+f1_keywords:
+- winevt/EVT_CHANNEL_ISOLATION_TYPE
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinEvt.h
+- WinEvt.h
 api_name:
- - EVT_CHANNEL_ISOLATION_TYPE
+- EVT_CHANNEL_ISOLATION_TYPE
 product: Windows
 targetos: Windows
 req.typenames: EVT_CHANNEL_ISOLATION_TYPE
@@ -83,7 +83,7 @@ Provides custom access to the channel.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_channel_config_property_id">EVT_CHANNEL_CONFIG_PROPERTY_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_channel_config_property_id">EVT_CHANNEL_CONFIG_PROPERTY_ID</a>
 
 
 

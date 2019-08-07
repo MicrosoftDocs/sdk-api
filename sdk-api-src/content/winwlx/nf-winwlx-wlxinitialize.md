@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WLX_DISPATCH_VERSION_1_0, WLX_DISPATCH_VERSION_1_1, WLX_DISPATCH_VERSION_1_2, WLX_DISPATCH_VERSION_1_3, WLX_DISPATCH_VERSION_1_4, WlxInitialize, WlxInitialize function [Security], _gina_wlxinitialize, security.wlxinitialize, winwlx/WlxInitialize
 ms.topic: function
-f1_keywords: 
- - "winwlx/WlxInitialize"
+f1_keywords:
+- winwlx/WlxInitialize
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WlxInitialize
+- WlxInitialize
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -89,7 +89,7 @@ A pointer to a Winlogon support function dispatch table. The contents of the tab
 </tr>
 <tr>
 <td width="40%"><a id="WLX_DISPATCH_VERSION_1_4"></a><a id="wlx_dispatch_version_1_4"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_dispatch_version_1_4">WLX_DISPATCH_VERSION_1_4</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_dispatch_version_1_4">WLX_DISPATCH_VERSION_1_4</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -99,7 +99,7 @@ Winlogon dispatch table - version 1.4
 </tr>
 <tr>
 <td width="40%"><a id="WLX_DISPATCH_VERSION_1_3"></a><a id="wlx_dispatch_version_1_3"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_dispatch_version_1_3">WLX_DISPATCH_VERSION_1_3</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_dispatch_version_1_3">WLX_DISPATCH_VERSION_1_3</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -109,7 +109,7 @@ Winlogon dispatch table - version 1.3
 </tr>
 <tr>
 <td width="40%"><a id="WLX_DISPATCH_VERSION_1_2"></a><a id="wlx_dispatch_version_1_2"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_dispatch_version_1_2">WLX_DISPATCH_VERSION_1_2</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_dispatch_version_1_2">WLX_DISPATCH_VERSION_1_2</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -119,7 +119,7 @@ Winlogon dispatch table - version 1.2
 </tr>
 <tr>
 <td width="40%"><a id="WLX_DISPATCH_VERSION_1_1"></a><a id="wlx_dispatch_version_1_1"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_dispatch_version_1_1">WLX_DISPATCH_VERSION_1_1</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_dispatch_version_1_1">WLX_DISPATCH_VERSION_1_1</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -129,7 +129,7 @@ Winlogondispatch table - version 1.1
 </tr>
 <tr>
 <td width="40%"><a id="WLX_DISPATCH_VERSION_1_0"></a><a id="wlx_dispatch_version_1_0"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_dispatch_version_1_0">WLX_DISPATCH_VERSION_1_0</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_dispatch_version_1_0">WLX_DISPATCH_VERSION_1_0</a></b></dt>
 </dl>
 </td>
 <td width="60%">

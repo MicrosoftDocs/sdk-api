@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DSROLE_PRIMARY_DOMAIN_INFO_LEVEL, DSROLE_PRIMARY_DOMAIN_INFO_LEVEL enumeration [Active Directory], DsRoleOperationState, DsRolePrimaryDomainInfoBasic, DsRoleUpgradeStatus, ad.dsrole_primary_domain_info_level, dsrole/DSROLE_PRIMARY_DOMAIN_INFO_LEVEL, dsrole/DsRoleOperationState, dsrole/DsRolePrimaryDomainInfoBasic, dsrole/DsRoleUpgradeStatus
 ms.topic: enum
-f1_keywords: 
- - "dsrole/DSROLE_PRIMARY_DOMAIN_INFO_LEVEL"
+f1_keywords:
+- dsrole/DSROLE_PRIMARY_DOMAIN_INFO_LEVEL
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dsrole.h
+- Dsrole.h
 api_name:
- - DSROLE_PRIMARY_DOMAIN_INFO_LEVEL
+- DSROLE_PRIMARY_DOMAIN_INFO_LEVEL
 product: Windows
 targetos: Windows
 req.typenames: DSROLE_PRIMARY_DOMAIN_INFO_LEVEL
@@ -61,19 +61,19 @@ The <b>DSROLE_PRIMARY_DOMAIN_INFO_LEVEL</b> enumeration is used with the <a href
 
 ### -field DsRolePrimaryDomainInfoBasic
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a> function retrieves data from a <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-_dsrole_primary_domain_info_basic">DSROLE_PRIMARY_DOMAIN_INFO_BASIC</a> structure.
+The <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a> function retrieves data from a <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-dsrole_primary_domain_info_basic">DSROLE_PRIMARY_DOMAIN_INFO_BASIC</a> structure.
 
 
 ### -field DsRoleUpgradeStatus
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a> function retrieves from a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-_dsrole_upgrade_status_info">DSROLE_UPGRADE_STATUS_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-dsrole_upgrade_status_info">DSROLE_UPGRADE_STATUS_INFO</a> structure.
 
 
 ### -field DsRoleOperationState
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a> function retrieves data from a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-_dsrole_operation_state_info">DSROLE_OPERATION_STATE_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-dsrole_operation_state_info">DSROLE_OPERATION_STATE_INFO</a> structure.
 
 
 ## -see-also
@@ -81,15 +81,15 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/nf-dsrole-dsr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-_dsrole_operation_state_info">DSROLE_OPERATION_STATE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-dsrole_operation_state_info">DSROLE_OPERATION_STATE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-_dsrole_primary_domain_info_basic">DSROLE_PRIMARY_DOMAIN_INFO_BASIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-dsrole_primary_domain_info_basic">DSROLE_PRIMARY_DOMAIN_INFO_BASIC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-_dsrole_upgrade_status_info">DSROLE_UPGRADE_STATUS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-dsrole_upgrade_status_info">DSROLE_UPGRADE_STATUS_INFO</a>
 
 
 

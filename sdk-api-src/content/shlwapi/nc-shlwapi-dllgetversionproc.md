@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DLLGETVERSIONPROC, DLLGETVERSIONPROC callback, DllGetVersion, DllGetVersion callback function [Windows Shell], _win32_DllGetVersion, _win32_DllGetVersion_cpp, shell.DllGetVersion, shlwapi/DllGetVersion
 ms.topic: callback
-f1_keywords: 
- - "shlwapi/DllGetVersion"
+f1_keywords:
+- shlwapi/DllGetVersion
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Shlwapi.h
+- Shlwapi.h
 api_name:
- - DllGetVersion
+- DllGetVersion
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,12 +70,12 @@ Implemented by many of the Windows Shell DLLs to allow applications to obtain DL
 
 #### - pdvi
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-_dllversioninfo">DLLVERSIONINFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo">DLLVERSIONINFO</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-_dllversioninfo">DLLVERSIONINFO</a> structure that receives the version information. The <b>cbSize</b> member must be filled in before you call this function.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo">DLLVERSIONINFO</a> structure that receives the version information. The <b>cbSize</b> member must be filled in before you call this function.
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. DLLs that are shipped with Windows 2000 or later systems may return a <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-_dllversioninfo2">DLLVERSIONINFO2</a> structure. To maintain backward compatibility, the first member of a <b>DLLVERSIONINFO2</b> structure is a <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-_dllversioninfo">DLLVERSIONINFO</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. DLLs that are shipped with Windows 2000 or later systems may return a <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo2">DLLVERSIONINFO2</a> structure. To maintain backward compatibility, the first member of a <b>DLLVERSIONINFO2</b> structure is a <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo">DLLVERSIONINFO</a> structure.
 
 
 ## -returns

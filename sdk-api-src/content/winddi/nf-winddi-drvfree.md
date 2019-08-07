@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvFree, DrvFree function [Display Devices], ddifncs_c3b37742-3ce6-477b-a28c-065cd60c38cd.xml, display.drvfree, winddi/DrvFree
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvFree"
+f1_keywords:
+- winddi/DrvFree
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvFree
+- DrvFree
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,7 +82,7 @@ None
 
 
 
-<b>DrvFree</b> is an optional function that should be supported only if the driver must be informed when memory associated with structures can be freed. For example, if a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a> structure is in use, deletion can be deferred until <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvdestroyfont">DrvDestroyFont</a> has been called, eliminating the need for the driver to implement <b>DrvFree</b>.
+<b>DrvFree</b> is an optional function that should be supported only if the driver must be informed when memory associated with structures can be freed. For example, if a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure is in use, deletion can be deferred until <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvdestroyfont">DrvDestroyFont</a> has been called, eliminating the need for the driver to implement <b>DrvFree</b>.
 
 A driver can use <i>id</i> in different ways. It can specify an object handle or it can indicate the way the structure is allocated. For example, it can differentiate between loaded resources and memory allocated from a heap. The driver can ignore this parameter if the structure pointed to by <i>pv</i> contains enough information.
 

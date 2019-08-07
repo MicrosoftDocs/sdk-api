@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: ac9410eb-ec1b-494c-8e8b-6d161ff2b41c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSEC_WINNT_CREDUI_CONTEXT, PSEC_WINNT_CREDUI_CONTEXT, PSEC_WINNT_CREDUI_CONTEXT structure pointer [Security], SEC_WINNT_CREDUI_CONTEXT, SEC_WINNT_CREDUI_CONTEXT structure [Security], security.sec_winnt_credui_context, sspi/PSEC_WINNT_CREDUI_CONTEXT, sspi/SEC_WINNT_CREDUI_CONTEXT"
+ms.keywords: '*PSEC_WINNT_CREDUI_CONTEXT, PSEC_WINNT_CREDUI_CONTEXT, PSEC_WINNT_CREDUI_CONTEXT structure pointer [Security], SEC_WINNT_CREDUI_CONTEXT, SEC_WINNT_CREDUI_CONTEXT structure [Security], security.sec_winnt_credui_context, sspi/PSEC_WINNT_CREDUI_CONTEXT, sspi/SEC_WINNT_CREDUI_CONTEXT'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SEC_WINNT_CREDUI_CONTEXT"
+f1_keywords:
+- sspi/SEC_WINNT_CREDUI_CONTEXT
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SEC_WINNT_CREDUI_CONTEXT
+- SEC_WINNT_CREDUI_CONTEXT
 product: Windows
 targetos: Windows
 req.typenames: SEC_WINNT_CREDUI_CONTEXT, *PSEC_WINNT_CREDUI_CONTEXT
@@ -73,7 +73,7 @@ A handle to the credential context.
 
 ### -field UIInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credui_infoa">CREDUI_INFO</a> structure that specifies information for the credential prompt dialog box.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credui_infoa">CREDUI_INFO</a> structure that specifies information for the credential prompt dialog box.
 
 
 ### -field dwAuthError

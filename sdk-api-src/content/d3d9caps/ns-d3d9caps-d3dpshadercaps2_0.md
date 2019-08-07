@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 469d4061-0c45-7081-5150-edc65b416901, D3DPSHADERCAPS2_0, D3DPSHADERCAPS2_0 structure [Direct3D 9], LPD3DPSHADERCAPS2_0, LPD3DPSHADERCAPS2_0 structure pointer [Direct3D 9], d3d9caps/D3DPSHADERCAPS2_0, d3d9caps/LPD3DPSHADERCAPS2_0, direct3d9.d3dpshadercaps2_0
 ms.topic: struct
-f1_keywords: 
- - "d3d9caps/D3DPSHADERCAPS2_0"
+f1_keywords:
+- d3d9caps/D3DPSHADERCAPS2_0
 req.header: d3d9caps.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D9Caps.h
+- D3D9Caps.h
 api_name:
- - D3DPSHADERCAPS2_0
+- D3DPSHADERCAPS2_0
 product: Windows
 targetos: Windows
 req.typenames: D3DPSHADERCAPS2_0
@@ -99,7 +99,7 @@ The number of instruction slots supported. See <b>D3DPSHADERCAPS2_0</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcaps9">D3DCAPS9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9">D3DCAPS9</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA, DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA structure [Media Foundation], FALSE, TRUE, dxvahd/DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA, mf.dxvahd_stream_state_destination_rect_data
 ms.topic: struct
-f1_keywords: 
- - "dxvahd/DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA"
+f1_keywords:
+- dxvahd/DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA
+- DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA
 product: Windows
 targetos: Windows
 req.typenames: DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA
@@ -108,7 +108,7 @@ If the <b>Enable</b> member is <b>FALSE</b>, the <b>DestinationRect</b> member i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_stream_state">DXVAHD_STREAM_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_stream_state">DXVAHD_STREAM_STATE</a>
 
 
 

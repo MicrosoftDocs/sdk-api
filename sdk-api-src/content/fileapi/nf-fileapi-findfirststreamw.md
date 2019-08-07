@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindFirstStreamW, FindFirstStreamW function [Files], FindStreamInfoStandard, _win32_findfirststreamw, base.findfirststreamw, fileapi/FindFirstStreamW, fs.findfirststreamw
 ms.topic: function
-f1_keywords: 
- - "fileapi/FindFirstStreamW"
+f1_keywords:
+- fileapi/FindFirstStreamW
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - KernelBase.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- KernelBase.dll
+- MinKernelBase.dll
 api_name:
- - FindFirstStreamW
+- FindFirstStreamW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ The fully qualified file name.
 ### -param InfoLevel [in]
 
 The information level of the returned data. This parameter is one of the values in the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ne-fileapi-_stream_info_levels">STREAM_INFO_LEVELS</a> enumeration type.
+      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ne-fileapi-stream_info_levels">STREAM_INFO_LEVELS</a> enumeration type.
 
 <table>
 <tr>
@@ -90,7 +90,7 @@ The information level of the returned data. This parameter is one of the values 
 </td>
 <td width="60%">
 The data is returned in a 
-        <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_win32_find_stream_data">WIN32_FIND_STREAM_DATA</a> structure.
+        <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-win32_find_stream_data">WIN32_FIND_STREAM_DATA</a> structure.
 
 </td>
 </tr>
@@ -223,11 +223,11 @@ SMB 3.0 supports list of streams less than or equal to 64K.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ne-fileapi-_stream_info_levels">STREAM_INFO_LEVELS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ne-fileapi-stream_info_levels">STREAM_INFO_LEVELS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_win32_find_stream_data">WIN32_FIND_STREAM_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-win32_find_stream_data">WIN32_FIND_STREAM_DATA</a>
  
 
  

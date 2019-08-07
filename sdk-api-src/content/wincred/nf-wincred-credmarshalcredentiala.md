@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CredMarshalCredential, CredMarshalCredential function [Security], CredMarshalCredentialA, CredMarshalCredentialW, _cred_credmarshalcredential, security.credmarshalcredential, wincred/CredMarshalCredential, wincred/CredMarshalCredentialA, wincred/CredMarshalCredentialW
 ms.topic: function
-f1_keywords: 
- - "wincred/CredMarshalCredential"
+f1_keywords:
+- wincred/CredMarshalCredential
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - sechost.dll
- - API-MS-Win-Security-credentials-l1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- sechost.dll
+- API-MS-Win-Security-credentials-l1-1-0.dll
 api_name:
- - CredMarshalCredential
- - CredMarshalCredentialA
- - CredMarshalCredentialW
+- CredMarshalCredential
+- CredMarshalCredentialA
+- CredMarshalCredentialW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,11 +78,11 @@ Type of the credential to marshal.
 Credential to marshal. 
 
 
-This is one of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ne-wincred-_cred_marshal_type">CRED_MARSHAL_TYPE</a> values.
+This is one of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ne-wincred-cred_marshal_type">CRED_MARSHAL_TYPE</a> values.
 
 If <i>CredType</i> is <i>CertCredential</i>, <i>Credential</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_cert_credential_info">CERT_CREDENTIAL_INFO</a> structure.
 
-If <i>CredType</i> is <i>UsernameTargetCredential</i>, <i>Credential</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_username_target_credential_info">USERNAME_TARGET_CREDENTIAL_INFO</a> structure.
+If <i>CredType</i> is <i>UsernameTargetCredential</i>, <i>Credential</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-username_target_credential_info">USERNAME_TARGET_CREDENTIAL_INFO</a> structure.
 
 
 ### -param MarshaledCredential [out]
@@ -113,7 +113,7 @@ ERROR_INVALID_PARAMETER
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/ne-wincred-_cred_marshal_type">CRED_MARSHAL_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincred/ne-wincred-cred_marshal_type">CRED_MARSHAL_TYPE</a>
 
 
 
@@ -129,7 +129,7 @@ ERROR_INVALID_PARAMETER
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_username_target_credential_info">USERNAME_TARGET_CREDENTIAL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-username_target_credential_info">USERNAME_TARGET_CREDENTIAL_INFO</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_RECEIVE_STATE_ABNORMAL_TERMINATION, WSMAN_RECEIVE_STATE_INPUT_REQUIRED, WSMAN_RECEIVE_STATE_NONE, WSMAN_RECEIVE_STATE_NORMAL_TERMINATION, WSMAN_RECEIVE_STATE_WAITING, WSManPluginReceiveResult, WSManPluginReceiveResult function [Windows Remote Management], winrm.wsmanpluginreceiveresult, wsman/WSManPluginReceiveResult
 ms.topic: function
-f1_keywords: 
- - "wsman/WSManPluginReceiveResult"
+f1_keywords:
+- wsman/WSManPluginReceiveResult
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WsmSvc.lib
 req.dll: WsmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WsmSvc.dll
+- WsmSvc.dll
 api_name:
- - WSManPluginReceiveResult
+- WSManPluginReceiveResult
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsman
 
 ### -param requestDetails [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
 
 
 ### -param flags [in]
@@ -77,7 +77,7 @@ Specifies the stream that the data is associated with. Any stream can be used, b
 
 ### -param streamResult [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_data">WSMAN_DATA</a> structure that specifies the result object that is returned to the client. The result can be in either binary or XML format.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that specifies the result object that is returned to the client. The result can be in either binary or XML format.
 
 
 ### -param commandState [in, optional]

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_REFERENCE_PROPERTIES, WSD_REFERENCE_PROPERTIES structure, ncd.wsd_reference_properties_struct, wsdtypes/WSD_REFERENCE_PROPERTIES
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_REFERENCE_PROPERTIES"
+f1_keywords:
+- wsdtypes/WSD_REFERENCE_PROPERTIES
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_REFERENCE_PROPERTIES
+- WSD_REFERENCE_PROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: WSD_REFERENCE_PROPERTIES
@@ -61,7 +61,7 @@ Specifies additional data used to uniquely identify an endpoint.
 
 ### -field Any
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a>
  
 
  

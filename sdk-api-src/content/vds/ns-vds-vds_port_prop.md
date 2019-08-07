@@ -8,10 +8,10 @@ tech.root: VDS
 ms.assetid: 40f81f31-3776-4685-8b79-c047c669b2bb
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVDS_PORT_PROP, VDS_PORT_PROP, VDS_PORT_PROP structure [VDS], base.vds_port_prop, vds/_VDS_PORT_PROP, vdshwprv/_VDS_PORT_PROP"
+ms.keywords: '*PVDS_PORT_PROP, VDS_PORT_PROP, VDS_PORT_PROP structure [VDS], base.vds_port_prop, vds/_VDS_PORT_PROP, vdshwprv/_VDS_PORT_PROP'
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_PORT_PROP"
+f1_keywords:
+- vds/VDS_PORT_PROP
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_PORT_PROP
+- VDS_PORT_PROP
 product: Windows
 targetos: Windows
 req.typenames: VDS_PORT_PROP, *PVDS_PORT_PROP
@@ -84,7 +84,7 @@ For Fibre Channel networks, this member should be the WWN for the port, formatte
 ### -field status
 
 The status of the port enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_port_status">VDS_PORT_STATUS</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_port_status">VDS_PORT_STATUS</a>.
 
 
 ## -remarks
@@ -111,7 +111,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_port_status">VDS_PORT_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_port_status">VDS_PORT_STATUS</a>
  
 
  

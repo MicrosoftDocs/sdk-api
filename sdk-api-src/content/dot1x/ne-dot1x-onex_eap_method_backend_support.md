@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ONEX_EAP_METHOD_BACKEND_SUPPORT, ONEX_EAP_METHOD_BACKEND_SUPPORT enumeration [NativeWIFI], OneXEapMethodBackendSupportUnknown, OneXEapMethodBackendSupported, OneXEapMethodBackendUnsupported, dot1x/ONEX_EAP_METHOD_BACKEND_SUPPORT, dot1x/OneXEapMethodBackendSupportUnknown, dot1x/OneXEapMethodBackendSupported, dot1x/OneXEapMethodBackendUnsupported, nwifi.onex_eap_method_backend_support
 ms.topic: enum
-f1_keywords: 
- - "dot1x/ONEX_EAP_METHOD_BACKEND_SUPPORT"
+f1_keywords:
+- dot1x/ONEX_EAP_METHOD_BACKEND_SUPPORT
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dot1x.h
+- dot1x.h
 api_name:
- - ONEX_EAP_METHOD_BACKEND_SUPPORT
+- ONEX_EAP_METHOD_BACKEND_SUPPORT
 product: Windows
 targetos: Windows
 req.typenames: ONEX_EAP_METHOD_BACKEND_SUPPORT
@@ -81,9 +81,9 @@ The EAP method configured on the supplicant for 802.1X authentication is not sup
 
 The <b>ONEX_EAP_METHOD_BACKEND_SUPPORT</b> enumeration is used by the 802.1X module, a new wireless configuration component supported on Windows Vista and  later.  
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> contains information on a status change to 802.1X authentication. The <b>ONEX_RESULT_UPDATE_DATA</b> structure is returned  when  the <b>NotificationSource</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure is <b>WLAN_NOTIFICATION_SOURCE_ONEX</b>  and the <b>NotificationCode</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure for received notification  is <b>OneXNotificationTypeResultUpdate</b>. For this notification, the <b>pData</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure points to an  <b>ONEX_RESULT_UPDATE_DATA</b> structure that contains information on the 802.1X authentication status change. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> contains information on a status change to 802.1X authentication. The <b>ONEX_RESULT_UPDATE_DATA</b> structure is returned  when  the <b>NotificationSource</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure is <b>WLAN_NOTIFICATION_SOURCE_ONEX</b>  and the <b>NotificationCode</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure for received notification  is <b>OneXNotificationTypeResultUpdate</b>. For this notification, the <b>pData</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure points to an  <b>ONEX_RESULT_UPDATE_DATA</b> structure that contains information on the 802.1X authentication status change. 
 
-The <b>BackendSupport</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> struct contains a value from the <b>ONEX_EAP_METHOD_BACKEND_SUPPORT</b> enumeration.
+The <b>BackendSupport</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> struct contains a value from the <b>ONEX_EAP_METHOD_BACKEND_SUPPORT</b> enumeration.
 
 
 
@@ -101,7 +101,7 @@ The <b>BackendSupport</b> member of the <a href="https://docs.microsoft.com/wind
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a>
 
 
 

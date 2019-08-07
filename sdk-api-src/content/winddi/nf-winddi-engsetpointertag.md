@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngSetPointerTag, EngSetPointerTag function [Display Devices], display.engsetpointertag, gdifncs_bbe9c510-e5c9-40c3-9c62-460acd564e80.xml, winddi/EngSetPointerTag
 ms.topic: function
-f1_keywords: 
- - "winddi/EngSetPointerTag"
+f1_keywords:
+- winddi/EngSetPointerTag
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngSetPointerTag
+- EngSetPointerTag
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Handle to the device. This handle is the GDI handle received by the driver as th
 
 ### -param psoMask [in]
 
-Pointer to a 1bpp <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure that describes the monochrome components of the tag. The dimensions of this bitmap determine the size of the tag. There are no implicit constraints on tag sizes, but optimal tag sizes are 32 x 32, 48 x 48, and 64 x 64 pixels. GDI removes the current tag when this value is <b>NULL</b>.
+Pointer to a 1bpp <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the monochrome components of the tag. The dimensions of this bitmap determine the size of the tag. There are no implicit constraints on tag sizes, but optimal tag sizes are 32 x 32, 48 x 48, and 64 x 64 pixels. GDI removes the current tag when this value is <b>NULL</b>.
 
 
 ### -param psoColor [in]
@@ -127,7 +127,7 @@ The results of <b>EngSetPointerTag</b> take effect on the next pointer shape cal
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
  
 
  

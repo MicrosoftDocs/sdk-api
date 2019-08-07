@@ -2,7 +2,7 @@
 UID: NF:wincrypt.CryptMsgVerifyCountersignatureEncoded
 title: CryptMsgVerifyCountersignatureEncoded function (wincrypt.h)
 author: windows-sdk-content
-description: Verifies a countersignature in terms of the SignerInfo structure (as defined by PKCS #7).
+description: Verifies a countersignature in terms of the SignerInfo structure (as defined by PKCS
 old-location: security\cryptmsgverifycountersignatureencoded.htm
 tech.root: SecCrypto
 ms.assetid: b0332360-a737-4b48-b592-0c55d493a02d
@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptMsgVerifyCountersignatureEncoded, CryptMsgVerifyCountersignatureEncoded function [Security], _crypto2_cryptmsgverifycountersignatureencoded, security.cryptmsgverifycountersignatureencoded, wincrypt/CryptMsgVerifyCountersignatureEncoded
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptMsgVerifyCountersignatureEncoded"
+f1_keywords:
+- wincrypt/CryptMsgVerifyCountersignatureEncoded
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptMsgVerifyCountersignatureEncoded
+- CryptMsgVerifyCountersignatureEncoded
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -101,7 +101,7 @@ Count, in bytes, of the encoded BLOB for the countersigner of the message.
 ### -param pciCountersigner [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> that includes with the issuer and serial number of the countersigner. For more information, see Remarks.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> that includes with the issuer and serial number of the countersigner. For more information, see Remarks.
 
 
 ## -returns

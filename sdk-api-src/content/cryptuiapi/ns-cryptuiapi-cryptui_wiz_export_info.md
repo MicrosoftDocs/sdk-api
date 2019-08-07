@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 3c509bb6-d391-4b59-809c-23466c8196ea
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPTUI_WIZ_EXPORT_INFO, CRYPTUI_WIZ_EXPORT_CERT_CONTEXT, CRYPTUI_WIZ_EXPORT_CERT_STORE, CRYPTUI_WIZ_EXPORT_CERT_STORE_CERTIFICATES_ONLY, CRYPTUI_WIZ_EXPORT_CRL_CONTEXT, CRYPTUI_WIZ_EXPORT_CTL_CONTEXT, CRYPTUI_WIZ_EXPORT_INFO, CRYPTUI_WIZ_EXPORT_INFO structure [Security], PCRYPTUI_WIZ_EXPORT_INFO, PCRYPTUI_WIZ_EXPORT_INFO structure pointer [Security], cryptuiapi/CRYPTUI_WIZ_EXPORT_INFO, cryptuiapi/PCRYPTUI_WIZ_EXPORT_INFO, security.cryptui_wiz_export_info"
+ms.keywords: '*PCRYPTUI_WIZ_EXPORT_INFO, CRYPTUI_WIZ_EXPORT_CERT_CONTEXT, CRYPTUI_WIZ_EXPORT_CERT_STORE, CRYPTUI_WIZ_EXPORT_CERT_STORE_CERTIFICATES_ONLY, CRYPTUI_WIZ_EXPORT_CRL_CONTEXT, CRYPTUI_WIZ_EXPORT_CTL_CONTEXT, CRYPTUI_WIZ_EXPORT_INFO, CRYPTUI_WIZ_EXPORT_INFO structure [Security], PCRYPTUI_WIZ_EXPORT_INFO, PCRYPTUI_WIZ_EXPORT_INFO structure pointer [Security], cryptuiapi/CRYPTUI_WIZ_EXPORT_INFO, cryptuiapi/PCRYPTUI_WIZ_EXPORT_INFO, security.cryptui_wiz_export_info'
 ms.topic: struct
-f1_keywords: 
- - "cryptuiapi/CRYPTUI_WIZ_EXPORT_INFO"
+f1_keywords:
+- cryptuiapi/CRYPTUI_WIZ_EXPORT_INFO
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cryptuiapi.h
+- Cryptuiapi.h
 api_name:
- - CRYPTUI_WIZ_EXPORT_INFO
+- CRYPTUI_WIZ_EXPORT_INFO
 product: Windows
 targetos: Windows
 req.typenames: CRYPTUI_WIZ_EXPORT_INFO, *PCRYPTUI_WIZ_EXPORT_INFO
@@ -143,12 +143,12 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincryp
 
 ### -field pCTLContext
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure that contains the CTL to export. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_EXPORT_CTL_CONTEXT</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure that contains the CTL to export. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_EXPORT_CTL_CONTEXT</b>.
 
 
 ### -field pCRLContext
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a> structure that contains the CRL to export. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_EXPORT_CRL_CONTEXT</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure that contains the CRL to export. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_EXPORT_CRL_CONTEXT</b>.
 
 
 ### -field hCertStore

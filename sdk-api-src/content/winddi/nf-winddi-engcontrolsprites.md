@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngControlSprites, EngControlSprites function [Display Devices], display.engcontrolsprites, gdifncs_b7312326-43ba-4c8b-bb23-db2ecf2d6f6e.xml, winddi/EngControlSprites
 ms.topic: function
-f1_keywords: 
- - "winddi/EngControlSprites"
+f1_keywords:
+- winddi/EngControlSprites
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngControlSprites
+- EngControlSprites
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EngControlSprites</b> function tears down or redraws sprites on the specified <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_wndobj">WNDOBJ</a> area.
+The <b>EngControlSprites</b> function tears down or redraws sprites on the specified <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> area.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>EngControlSprites</b> function tears down or redraws sprites on the speci
 
 ### -param pwo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_wndobj">WNDOBJ</a> structure on which the sprites are being built or torn down.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> structure on which the sprites are being built or torn down.
 
 
 ### -param fl
@@ -118,7 +118,7 @@ ECS_TEARDOWN will never cause a WOC_SPRITE_NO_OVERLAP message to be sent, and li
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_wndobj">WNDOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a>
  
 
  

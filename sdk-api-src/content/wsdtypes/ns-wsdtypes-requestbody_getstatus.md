@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: REQUESTBODY_GetStatus, REQUESTBODY_GetStatus structure, ncd.requestbody_getstatus, wsdtypes/REQUESTBODY_GetStatus
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/REQUESTBODY_GetStatus"
+f1_keywords:
+- wsdtypes/REQUESTBODY_GetStatus
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - REQUESTBODY_GetStatus
+- REQUESTBODY_GetStatus
 product: Windows
 targetos: Windows
 req.typenames: REQUESTBODY_GetStatus
@@ -61,5 +61,5 @@ Represents a WS-Eventing GetStatus request message.
 
 ### -field Any
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
 

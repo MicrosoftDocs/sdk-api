@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcAsyncGetCallHandle, RpcAsyncGetCallHandle macro [RPC], _rpc_rpcasyncgetcallhandle, rpc.rpcasyncgetcallhandle, rpcasync/RpcAsyncGetCallHandle
 ms.topic: macro
-f1_keywords: 
- - "rpcasync/RpcAsyncGetCallHandle"
+f1_keywords:
+- rpcasync/RpcAsyncGetCallHandle
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcasync.h
+- Rpcasync.h
 api_name:
- - RpcAsyncGetCallHandle
+- RpcAsyncGetCallHandle
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>RpcAsyncGetCallHandle</b> macro returns the
 
 ### -param pAsync
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_async_state">RPC_ASYNC_STATE</a> structure that 
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a> structure that 
        contains asynchronous call information.
 
 
@@ -92,7 +92,7 @@ Given an asynchronous handle, it returns the corresponding binding handle. For e
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_async_state">RPC_ASYNC_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a>
 
 
 

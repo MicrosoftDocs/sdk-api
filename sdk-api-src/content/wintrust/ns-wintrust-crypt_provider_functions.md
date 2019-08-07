@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 2c00f8ec-e262-4df8-8984-a2702a4162bf
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_PROVIDER_FUNCTIONS, CRYPT_PROVIDER_FUNCTIONS, CRYPT_PROVIDER_FUNCTIONS structure [Security], PCRYPT_PROVIDER_FUNCTIONS, PCRYPT_PROVIDER_FUNCTIONS structure pointer [Security], security.crypt_provider_functions, wintrust/CRYPT_PROVIDER_FUNCTIONS, wintrust/PCRYPT_PROVIDER_FUNCTIONS"
+ms.keywords: '*PCRYPT_PROVIDER_FUNCTIONS, CRYPT_PROVIDER_FUNCTIONS, CRYPT_PROVIDER_FUNCTIONS structure [Security], PCRYPT_PROVIDER_FUNCTIONS, PCRYPT_PROVIDER_FUNCTIONS structure pointer [Security], security.crypt_provider_functions, wintrust/CRYPT_PROVIDER_FUNCTIONS, wintrust/PCRYPT_PROVIDER_FUNCTIONS'
 ms.topic: struct
-f1_keywords: 
- - "wintrust/CRYPT_PROVIDER_FUNCTIONS"
+f1_keywords:
+- wintrust/CRYPT_PROVIDER_FUNCTIONS
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wintrust.h
+- Wintrust.h
 api_name:
- - CRYPT_PROVIDER_FUNCTIONS
+- CRYPT_PROVIDER_FUNCTIONS
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_PROVIDER_FUNCTIONS, *PCRYPT_PROVIDER_FUNCTIONS
@@ -133,7 +133,7 @@ A pointer to the function that allows structures to be dumped to a file.
 
 ### -field psUIpfns
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provui_funcs">CRYPT_PROVUI_FUNCS</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_provui_funcs">CRYPT_PROVUI_FUNCS</a> structure.
 
 
 ### -field pfnCleanupPolicy

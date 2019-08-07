@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_NF_PARTITION_ARRIVE, VDS_NF_PARTITION_DEPART, VDS_NF_PARTITION_MODIFY, VDS_PARTITION_NOTIFICATION, VDS_PARTITION_NOTIFICATION structure [VDS], base.vds_partition_notification, vds/_VDS_PARTITION_NOTIFICATION, vdshwprv/_VDS_PARTITION_NOTIFICATION
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_PARTITION_NOTIFICATION"
+f1_keywords:
+- vds/VDS_PARTITION_NOTIFICATION
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_PARTITION_NOTIFICATION
+- VDS_PARTITION_NOTIFICATION
 product: Windows
 targetos: Windows
 req.typenames: VDS_PARTITION_NOTIFICATION
@@ -103,7 +103,7 @@ An existing partition was removed. If the partition is a volume, the event also 
 </dl>
 </td>
 <td width="60%">
-A member was changed in the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_partition_prop">VDS_PARTITION_PROP</a> 
+A member was changed in the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_partition_prop">VDS_PARTITION_PROP</a> 
        structure for the partition. If the partition is a volume, and if the properties of the partition have 
         changed, a <b>VDS_NF_VOLUME_MODIFY</b> notification is also sent.
 
@@ -127,7 +127,7 @@ The Partition offset.
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_notification">VDS_NOTIFICATION</a> structure includes this 
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a> structure includes this 
     structure as a member.
 
 An application can receive partition events by implementing the 
@@ -155,7 +155,7 @@ An application can receive partition events by implementing the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_notification">VDS_NOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROFILEPROPERTIES, PROFILEPROPERTIES enumeration [Network Policy Server], PROPERTY_PROFILE_ATTRIBUTES_COLLECTION, _sdo_profileproperties, nps.SDO_profileproperties, sdo.profileproperties, sdoias/PROFILEPROPERTIES, sdoias/PROPERTY_PROFILE_ATTRIBUTES_COLLECTION
 ms.topic: enum
-f1_keywords: 
- - "sdoias/PROFILEPROPERTIES"
+f1_keywords:
+- sdoias/PROFILEPROPERTIES
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - PROFILEPROPERTIES
+- PROFILEPROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: PROFILEPROPERTIES
@@ -75,11 +75,11 @@ The attributes associated with the profile.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasproperties">IASPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties">IASPROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_napproperties">NAPPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-napproperties">NAPPROPERTIES</a>
  
 
  

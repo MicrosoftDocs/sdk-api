@@ -8,10 +8,10 @@ tech.root: devio
 ms.assetid: e90fbce2-cae7-4e78-b6f5-82b200390cb7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "_DEV_BROADCAST_USERDEFINED, _DEV_BROADCAST_USERDEFINED structure, _win32__dev_broadcast_userdefined_str, base._dev_broadcast_userdefined_str, dbt/_DEV_BROADCAST_USERDEFINED"
+ms.keywords: _DEV_BROADCAST_USERDEFINED, _DEV_BROADCAST_USERDEFINED structure, _win32__dev_broadcast_userdefined_str, base._dev_broadcast_userdefined_str, dbt/_DEV_BROADCAST_USERDEFINED
 ms.topic: struct
-f1_keywords: 
- - "dbt/_DEV_BROADCAST_USERDEFINED"
+f1_keywords:
+- dbt/_DEV_BROADCAST_USERDEFINED
 req.header: dbt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dbt.h
+- Dbt.h
 api_name:
- - _DEV_BROADCAST_USERDEFINED
+- _DEV_BROADCAST_USERDEFINED
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Contains the user-defined event and optional data associated with the
 
 Information about the device affected by a 
 <a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a> message as specified by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_hdr">DEV_BROADCAST_HDR</a> structure. Because 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_hdr">DEV_BROADCAST_HDR</a> structure. Because 
 <b>_DEV_BROADCAST_USERDEFINED</b> is variable length, the <b>dbch_size</b> member of the <b>dbud_dbh</b> structure must be the size in bytes of the entire structure, including the variable length portion.
 
 
@@ -105,7 +105,7 @@ typedef struct tagWIDGET_WARE_DEV_BROADCAST_USERDEFINED
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_hdr">DEV_BROADCAST_HDR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_hdr">DEV_BROADCAST_HDR</a>
 
 
 

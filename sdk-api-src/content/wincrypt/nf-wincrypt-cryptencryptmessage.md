@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptEncryptMessage, CryptEncryptMessage function [Security], _crypto2_cryptencryptmessage, security.cryptencryptmessage, wincrypt/CryptEncryptMessage
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptEncryptMessage"
+f1_keywords:
+- wincrypt/CryptEncryptMessage
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptEncryptMessage
+- CryptEncryptMessage
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>CryptEncryptMessage</b> function <a href="https://docs.microsoft.com/wind
 ### -param pEncryptPara [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_encrypt_message_para">CRYPT_ENCRYPT_MESSAGE_PARA</a> structure that contains the encryption parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_encrypt_message_para">CRYPT_ENCRYPT_MESSAGE_PARA</a> structure that contains the encryption parameters.
 
 The <b>CryptEncryptMessage</b> function does not support the SHA2 OIDs, <b>szOID_DH_SINGLE_PASS_STDDH_SHA256_KDF</b> and  <b>szOID_DH_SINGLE_PASS_STDDH_SHA384_KDF</b>.
 
@@ -75,7 +75,7 @@ Number of elements in the <i>rgpRecipientCert</i> array.
 ### -param rgpRecipientCert [in]
 
 Array of pointers to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structures that contain the certificates of intended recipients of the message.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures that contain the certificates of intended recipients of the message.
 
 
 ### -param pbToBeEncrypted [in]

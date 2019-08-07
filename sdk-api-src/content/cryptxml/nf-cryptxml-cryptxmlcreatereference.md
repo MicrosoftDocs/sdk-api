@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_FLAG_CREATE_REFERENCE_AS_OBJECT, CryptXmlCreateReference, CryptXmlCreateReference function [Security], cryptxml/CryptXmlCreateReference, security.cryptxmlcreatereference
 ms.topic: function
-f1_keywords: 
- - "cryptxml/CryptXmlCreateReference"
+f1_keywords:
+- cryptxml/CryptXmlCreateReference
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Cryptxml.lib
 req.dll: Cryptxml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cryptxml.dll
+- Cryptxml.dll
 api_name:
- - CryptXmlCreateReference
+- CryptXmlCreateReference
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -118,7 +118,7 @@ A pointer to a <b>null</b>-terminated Unicode string that contains the value of 
 
 ### -param pDigestMethod [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that contains the digest method.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that contains the digest method.
 
 
 ### -param cTransform
@@ -128,7 +128,7 @@ The number of elements in the array pointed to by the <i>rgTransform</i> paramet
 
 ### -param rgTransform [in]
 
-A pointer to an ordered array of <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structures that contain transform algorithms to be applied to
+A pointer to an ordered array of <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structures that contain transform algorithms to be applied to
     the reference data before the digest calculation.
 
 

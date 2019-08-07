@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],QueryProviders method, IVdsService.QueryProviders, IVdsService::QueryProviders, QueryProviders, QueryProviders method [VDS], QueryProviders method [VDS],IVdsService interface, base.ivdsservice_queryproviders, vds/IVdsService::QueryProviders
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsService.QueryProviders"
+f1_keywords:
+- vds/IVdsService.QueryProviders
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsService.QueryProviders
+- IVdsService.QueryProviders
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Returns an enumeration object containing a list of the hardware and software pro
 
 ### -param masks [in]
 
-The provider mask enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_query_provider_flag">VDS_QUERY_PROVIDER_FLAG</a>. Callers can specify a software provider mask, a hardware provider mask, or both.
+The provider mask enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_query_provider_flag">VDS_QUERY_PROVIDER_FLAG</a>. Callers can specify a software provider mask, a hardware provider mask, or both.
 
 
 ### -param ppEnum [out]
@@ -134,11 +134,11 @@ To determine the provider type for hardware providers, call the <a href="https:/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_hwprovider_type">VDS_HWPROVIDER_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hwprovider_type">VDS_HWPROVIDER_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_query_provider_flag">VDS_QUERY_PROVIDER_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_query_provider_flag">VDS_QUERY_PROVIDER_FLAG</a>
  
 
  

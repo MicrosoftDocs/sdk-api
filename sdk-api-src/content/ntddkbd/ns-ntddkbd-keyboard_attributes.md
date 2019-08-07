@@ -8,10 +8,10 @@ tech.root: hid
 ms.assetid: 060e93de-b84e-4755-a5f8-cbc52d900310
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PKEYBOARD_ATTRIBUTES, KEYBOARD_ATTRIBUTES, KEYBOARD_ATTRIBUTES structure [Human Input Devices], PKEYBOARD_ATTRIBUTES, PKEYBOARD_ATTRIBUTES structure pointer [Human Input Devices], hid.keyboard_attributes, kref_430bedf0-40bc-4d93-b382-3fe4c69fcbb5.xml, ntddkbd/KEYBOARD_ATTRIBUTES, ntddkbd/PKEYBOARD_ATTRIBUTES"
+ms.keywords: '*PKEYBOARD_ATTRIBUTES, KEYBOARD_ATTRIBUTES, KEYBOARD_ATTRIBUTES structure [Human Input Devices], PKEYBOARD_ATTRIBUTES, PKEYBOARD_ATTRIBUTES structure pointer [Human Input Devices], hid.keyboard_attributes, kref_430bedf0-40bc-4d93-b382-3fe4c69fcbb5.xml, ntddkbd/KEYBOARD_ATTRIBUTES, ntddkbd/PKEYBOARD_ATTRIBUTES'
 ms.topic: struct
-f1_keywords: 
- - "ntddkbd/KEYBOARD_ATTRIBUTES"
+f1_keywords:
+- ntddkbd/KEYBOARD_ATTRIBUTES
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ntddkbd.h
+- ntddkbd.h
 api_name:
- - KEYBOARD_ATTRIBUTES
+- KEYBOARD_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.typenames: KEYBOARD_ATTRIBUTES, *PKEYBOARD_ATTRIBUTES
@@ -118,7 +118,7 @@ Specifies the size, in bytes, of the input data queue used by the keyboard port 
 
 ### -field KeyRepeatMinimum
 
-Specifies the minimum possible value for the keyboard typematic rate and delay in a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
+Specifies the minimum possible value for the keyboard typematic rate and delay in a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
 
 
 ### -field KeyRepeatMaximum
@@ -166,7 +166,7 @@ For information about keyboard types, subtypes, scan code modes, and related key
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a>
  
 
  

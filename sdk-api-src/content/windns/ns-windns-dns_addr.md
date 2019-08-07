@@ -8,10 +8,10 @@ tech.root: DNS
 ms.assetid: c14e6fc0-34b3-40e8-b9b8-61e4aea01677
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_ADDR, DNS_ADDR, DNS_ADDR structure [DNS], PDNS_ADDR, PDNS_ADDR structure pointer [DNS], dns.dns_addr, windns/DNS_ADDR, windns/PDNS_ADDR"
+ms.keywords: '*PDNS_ADDR, DNS_ADDR, DNS_ADDR structure [DNS], PDNS_ADDR, PDNS_ADDR structure pointer [DNS], dns.dns_addr, windns/DNS_ADDR, windns/PDNS_ADDR'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_ADDR"
+f1_keywords:
+- windns/DNS_ADDR
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_ADDR
+- DNS_ADDR
 product: Windows
 targetos: Windows
 req.typenames: DNS_ADDR, *PDNS_ADDR
@@ -78,7 +78,7 @@ Reserved. Must be 0.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_query_result">DNS_QUERY_RESULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_query_result">DNS_QUERY_RESULT</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSTART_PROTOCOL, PSTART_PROTOCOL callback, StartProtocol, StartProtocol callback function [RAS], _mpr_startprotocol, routprot/StartProtocol, rras.startprotocol
 ms.topic: callback
-f1_keywords: 
- - "routprot/StartProtocol"
+f1_keywords:
+- routprot/StartProtocol
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Routprot.h
+- Routprot.h
 api_name:
- - StartProtocol
+- StartProtocol
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Handle to an event object. The routing protocol signals this event when it wants
 ### -param SupportFunctions [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_support_functions_50">SUPPORT_FUNCTIONS</a> structure. The fields of this structure are pointers to functions in the router manager. These functions allow the protocol to access information that spans routing protocols.
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-support_functions_50">SUPPORT_FUNCTIONS</a> structure. The fields of this structure are pointers to functions in the router manager. These functions allow the protocol to access information that spans routing protocols.
 
 
 ### -param GlobalInfo [in]
@@ -153,7 +153,7 @@ One of the parameters pointed to by the <i>GlobalInfo</i> parameter is invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_support_functions_50">SUPPORT_FUNCTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-support_functions_50">SUPPORT_FUNCTIONS</a>
 
 
 

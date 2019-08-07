@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DnsExtractRecordsFromMessage, DnsExtractRecordsFromMessage_UTF8, DnsExtractRecordsFromMessage_W, DnsExtractRecordsFromMessage_W function [DNS], _dns_dnsextractrecordsfrommessage, dns.dnsextractrecordsfrommessage, windns/DnsExtractRecordsFromMessage_UTF8, windns/DnsExtractRecordsFromMessage_W
 ms.topic: function
-f1_keywords: 
- - "windns/DnsExtractRecordsFromMessage_W"
+f1_keywords:
+- windns/DnsExtractRecordsFromMessage_W
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dnsapi.dll
+- Dnsapi.dll
 api_name:
- - DnsExtractRecordsFromMessage_W
- - DnsExtractRecordsFromMessage_UTF8
+- DnsExtractRecordsFromMessage_W
+- DnsExtractRecordsFromMessage_UTF8
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,7 +76,7 @@ The
 
 ### -param pDnsBuffer [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_message_buffer">DNS_MESSAGE_BUFFER</a> structure that contains the DNS response message.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_message_buffer">DNS_MESSAGE_BUFFER</a> structure that contains the DNS response message.
 
 
 ### -param wMessageLength [in]
@@ -124,7 +124,7 @@ DnsExtractRecordsFromMessage_UTF8(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_message_buffer">DNS_MESSAGE_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_message_buffer">DNS_MESSAGE_BUFFER</a>
 
 
 

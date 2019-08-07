@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QuerySyntax method, ISearchQueryHelper.put_QuerySyntax, ISearchQueryHelper::put_QuerySyntax, _search_ISearchQueryHelper_put_QuerySyntax, put_QuerySyntax, put_QuerySyntax method [search], put_QuerySyntax method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QuerySyntax, searchapi/ISearchQueryHelper::put_QuerySyntax
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchQueryHelper.put_QuerySyntax"
+f1_keywords:
+- searchapi/ISearchQueryHelper.put_QuerySyntax
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchQueryHelper.put_QuerySyntax
+- ISearchQueryHelper.put_QuerySyntax
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ Sets the syntax of the query.
 
 ### -param querySyntax [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_search_query_syntax">SEARCH_QUERY_SYNTAX</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-search_query_syntax">SEARCH_QUERY_SYNTAX</a></b>
 
-Flag that specifies the search query syntax. For a list of possible values, see the description of the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_search_query_syntax">SEARCH_QUERY_SYNTAX</a> enumerated type.
+Flag that specifies the search query syntax. For a list of possible values, see the description of the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-search_query_syntax">SEARCH_QUERY_SYNTAX</a> enumerated type.
 
 
 ## -returns
@@ -109,7 +109,7 @@ The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_search_query_syntax">SEARCH_QUERY_SYNTAX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-search_query_syntax">SEARCH_QUERY_SYNTAX</a>
  
 
  

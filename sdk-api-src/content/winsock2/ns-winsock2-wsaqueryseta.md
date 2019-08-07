@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: 6c81fbba-aaf4-49ca-ab79-b6fe5dfb0076
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPWSAQUERYSETA, *PWSAQUERYSETA, LPWSAQUERYSET, LPWSAQUERYSET structure pointer [Winsock], NS_ALL, NS_BTH, NS_DNS, NS_EMAIL, NS_NLA, NS_PNRPCLOUD, NS_PNRPNAME, PWSAQUERYSET, PWSAQUERYSET structure pointer [Winsock], WSAQUERYSET, WSAQUERYSET structure [Winsock], WSAQUERYSETA, WSAQUERYSETW, _win32_wsaqueryset_2, winsock.wsaqueryset_2, winsock2/LPWSAQUERYSET, winsock2/PWSAQUERYSET, winsock2/WSAQUERYSET, winsock2/WSAQUERYSETA, winsock2/WSAQUERYSETW"
+ms.keywords: '*LPWSAQUERYSETA, *PWSAQUERYSETA, LPWSAQUERYSET, LPWSAQUERYSET structure pointer [Winsock], NS_ALL, NS_BTH, NS_DNS, NS_EMAIL, NS_NLA, NS_PNRPCLOUD, NS_PNRPNAME, PWSAQUERYSET, PWSAQUERYSET structure pointer [Winsock], WSAQUERYSET, WSAQUERYSET structure [Winsock], WSAQUERYSETA, WSAQUERYSETW, _win32_wsaqueryset_2, winsock.wsaqueryset_2, winsock2/LPWSAQUERYSET, winsock2/PWSAQUERYSET, winsock2/WSAQUERYSET, winsock2/WSAQUERYSETA, winsock2/WSAQUERYSETW'
 ms.topic: struct
-f1_keywords: 
- - "winsock2/WSAQUERYSET"
+f1_keywords:
+- winsock2/WSAQUERYSET
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsock2.h
+- Winsock2.h
 api_name:
- - WSAQUERYSET
- - WSAQUERYSETA
- - WSAQUERYSETW
+- WSAQUERYSET
+- WSAQUERYSETA
+- WSAQUERYSETW
 product: Windows
 targetos: Windows
 req.typenames: WSAQUERYSETA, *PWSAQUERYSETA, *LPWSAQUERYSETA
@@ -213,7 +213,7 @@ The size, in bytes, of the protocol constraint array. This member can be zero.
 Type: <b>LPAFPROTOCOLS</b>
 
 A pointer to an optional array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_afprotocols">AFPROTOCOLS</a> structures. Only services that utilize these protocols will be returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-afprotocols">AFPROTOCOLS</a> structures. Only services that utilize these protocols will be returned.
 
 
 ### -field lpszQueryString
@@ -297,7 +297,7 @@ In most instances, applications interested in only a particular transport protoc
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaqueryset2w">WSAQUERYSET2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaqueryset2w">WSAQUERYSET2</a>
 
 
 

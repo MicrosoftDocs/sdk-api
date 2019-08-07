@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_PARTITION_PROP, VDS_PARTITION_PROP structure [VDS], base.vds_partition_prop, vds/_VDS_PARTITION_PROP
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_PARTITION_PROP"
+f1_keywords:
+- vds/VDS_PARTITION_PROP
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - VDS_PARTITION_PROP
+- VDS_PARTITION_PROP
 product: Windows
 targetos: Windows
 req.typenames: VDS_PARTITION_PROP
@@ -64,14 +64,14 @@ Defines the
 
 ### -field PartitionStyle
 
-The styles enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_partition_style">VDS_PARTITION_STYLE</a>. 
+The styles enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_partition_style">VDS_PARTITION_STYLE</a>. 
       The style is either master boot record (VDS_PST_MBR) or GUID partition table (VDS_PST_GPT). This member is the
       discriminant for the union.
 
 
 ### -field ulFlags
 
-The partition flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_partition_flag">VDS_PARTITION_FLAG</a>.
+The partition flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_partition_flag">VDS_PARTITION_FLAG</a>.
      
 
 
@@ -94,7 +94,7 @@ The size of the partition in bytes.
 
 If <b>PartitionStyle</b> is <b>VDS_PST_MBR</b>, MBR-specific partition 
        details. For more information see 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_partition_info_mbr">VDS_PARTITION_INFO_MBR</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_partition_info_mbr">VDS_PARTITION_INFO_MBR</a>.
       
 
 
@@ -102,7 +102,7 @@ If <b>PartitionStyle</b> is <b>VDS_PST_MBR</b>, MBR-specific partition
 
 If <b>PartitionStyle</b> is <b>VDS_PST_GPT</b>, GPT-specific partition 
        details. For more information see 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_partition_info_gpt">VDS_PARTITION_INFO_GPT</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_partition_info_gpt">VDS_PARTITION_INFO_GPT</a>.
 
 
 ## -remarks
@@ -133,11 +133,11 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvan
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_partition_flag">VDS_PARTITION_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_partition_flag">VDS_PARTITION_FLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_partition_style">VDS_PARTITION_STYLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_partition_style">VDS_PARTITION_STYLE</a>
  
 
  

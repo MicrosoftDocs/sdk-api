@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCreationParameters, GetCreationParameters method [Media Foundation], GetCreationParameters method [Media Foundation],IDirectXVideoProcessor interface, IDirectXVideoProcessor interface [Media Foundation],GetCreationParameters method, IDirectXVideoProcessor.GetCreationParameters, IDirectXVideoProcessor::GetCreationParameters, dxva2api/IDirectXVideoProcessor::GetCreationParameters, e9ea3311-8642-4651-b9da-fbba08ec92fb, mf.idirectxvideoprocessor_getcreationparameters
 ms.topic: method
-f1_keywords: 
- - "dxva2api/IDirectXVideoProcessor.GetCreationParameters"
+f1_keywords:
+- dxva2api/IDirectXVideoProcessor.GetCreationParameters
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirectXVideoProcessor.GetCreationParameters
+- IDirectXVideoProcessor.GetCreationParameters
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ Receives the device GUID. This parameter can be <b>NULL</b>.
 
 ### -param pVideoDesc [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videodesc">DXVA2_VideoDesc</a> structure allocated by the caller. The method fills the structure with a description of the video format. This parameter can be <b>NULL</b>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videodesc">DXVA2_VideoDesc</a> structure allocated by the caller. The method fills the structure with a description of the video format. This parameter can be <b>NULL</b>.
 
 
 ### -param pRenderTargetFormat [out]

@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 35aac36d-87a1-45b2-acb1-6969c992d0cf
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_SSL_INFO, HTTP_SSL_INFO, HTTP_SSL_INFO structure [HTTP], PHTTP_SSL_INFO, PHTTP_SSL_INFO structure pointer [HTTP], _http_http_ssl_info, http.http_ssl_info, http/HTTP_SSL_INFO, http/PHTTP_SSL_INFO"
+ms.keywords: '*PHTTP_SSL_INFO, HTTP_SSL_INFO, HTTP_SSL_INFO structure [HTTP], PHTTP_SSL_INFO, PHTTP_SSL_INFO structure pointer [HTTP], _http_http_ssl_info, http.http_ssl_info, http/HTTP_SSL_INFO, http/PHTTP_SSL_INFO'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_SSL_INFO"
+f1_keywords:
+- http/HTTP_SSL_INFO
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_SSL_INFO
+- HTTP_SSL_INFO
 product: Windows
 targetos: Windows
 req.typenames: HTTP_SSL_INFO, *PHTTP_SSL_INFO
@@ -93,7 +93,7 @@ A pointer to a null-terminated string of octets that specifies the name of the e
 ### -field pClientCertInfo
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_ssl_client_cert_info">HTTP_SSL_CLIENT_CERT_INFO</a> structure that specifies the client certificate.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_ssl_client_cert_info">HTTP_SSL_CLIENT_CERT_INFO</a> structure that specifies the client certificate.
 
 
 ### -field SslClientCertNegotiated
@@ -125,7 +125,7 @@ An
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_ssl_client_cert_info">HTTP_SSL_CLIENT_CERT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_ssl_client_cert_info">HTTP_SSL_CLIENT_CERT_INFO</a>
  
 
  

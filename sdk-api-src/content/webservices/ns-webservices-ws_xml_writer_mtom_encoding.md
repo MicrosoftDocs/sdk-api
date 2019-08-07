@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_WRITER_MTOM_ENCODING, WS_XML_WRITER_MTOM_ENCODING structure [Web Services for Windows], webservices/WS_XML_WRITER_MTOM_ENCODING, wsw.ws_xml_writer_mtom_encoding
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_XML_WRITER_MTOM_ENCODING"
+f1_keywords:
+- webservices/WS_XML_WRITER_MTOM_ENCODING
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_WRITER_MTOM_ENCODING
+- WS_XML_WRITER_MTOM_ENCODING
 product: Windows
 targetos: Windows
 req.typenames: WS_XML_WRITER_MTOM_ENCODING
@@ -64,7 +64,7 @@ Used to indicate that the reader should emit bytes in MTOM format.
 
 ### -field encoding
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_writer_encoding">WS_XML_WRITER_ENCODING</a>.
+The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_encoding">WS_XML_WRITER_ENCODING</a>.
         
 
 

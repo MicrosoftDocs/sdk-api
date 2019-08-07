@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_c8b6e9f2-0855-478f-a091-78b57b19d596.xml, DISPLAYCONFIG_SOURCE_MODE, DISPLAYCONFIG_SOURCE_MODE structure [Display Devices], display.displayconfig_source_mode, wingdi/DISPLAYCONFIG_SOURCE_MODE
 ms.topic: struct
-f1_keywords: 
- - "wingdi/DISPLAYCONFIG_SOURCE_MODE"
+f1_keywords:
+- wingdi/DISPLAYCONFIG_SOURCE_MODE
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wingdi.h
+- wingdi.h
 api_name:
- - DISPLAYCONFIG_SOURCE_MODE
+- DISPLAYCONFIG_SOURCE_MODE
 product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_SOURCE_MODE
@@ -76,7 +76,7 @@ A value from the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/
 
 ### -field position
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a> structure that specifies the position in the desktop coordinate space of the  upper-left corner of this source surface. The source surface that is located at (0, 0) is always the primary source surface.
+A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that specifies the position in the desktop coordinate space of the  upper-left corner of this source surface. The source surface that is located at (0, 0) is always the primary source surface.
 
 
 ## -remarks
@@ -99,7 +99,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a>
 
 
 

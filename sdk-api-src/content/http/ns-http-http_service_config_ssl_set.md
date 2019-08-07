@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 23adda0b-907d-4804-9c12-e549af4f18c4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_SET, HTTP_SERVICE_CONFIG_SSL_SET, HTTP_SERVICE_CONFIG_SSL_SET structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_SET, PHTTP_SERVICE_CONFIG_SSL_SET structure pointer [HTTP], _http_http_service_config_ssl_set, http.http_service_config_ssl_set, http/HTTP_SERVICE_CONFIG_SSL_SET, http/PHTTP_SERVICE_CONFIG_SSL_SET"
+ms.keywords: '*PHTTP_SERVICE_CONFIG_SSL_SET, HTTP_SERVICE_CONFIG_SSL_SET, HTTP_SERVICE_CONFIG_SSL_SET structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_SET, PHTTP_SERVICE_CONFIG_SSL_SET structure pointer [HTTP], _http_http_service_config_ssl_set, http.http_service_config_ssl_set, http/HTTP_SERVICE_CONFIG_SSL_SET, http/PHTTP_SERVICE_CONFIG_SSL_SET'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_SERVICE_CONFIG_SSL_SET"
+f1_keywords:
+- http/HTTP_SERVICE_CONFIG_SSL_SET
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_SERVICE_CONFIG_SSL_SET
+- HTTP_SERVICE_CONFIG_SSL_SET
 product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_SSL_SET, *PHTTP_SERVICE_CONFIG_SSL_SET
@@ -65,13 +65,13 @@ The
 ### -field KeyDesc
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_key">HTTP_SERVICE_CONFIG_SSL_KEY</a> structure that identifies the SSL certificate record.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_key">HTTP_SERVICE_CONFIG_SSL_KEY</a> structure that identifies the SSL certificate record.
 
 
 ### -field ParamDesc
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_param">HTTP_SERVICE_CONFIG_SSL_PARAM</a> structure that holds the contents of the specified SSL certificate record.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_param">HTTP_SERVICE_CONFIG_SSL_PARAM</a> structure that holds the contents of the specified SSL certificate record.
 
 
 ## -see-also
@@ -87,11 +87,11 @@ An
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_key">HTTP_SERVICE_CONFIG_SSL_KEY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_key">HTTP_SERVICE_CONFIG_SSL_KEY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_param">HTTP_SERVICE_CONFIG_SSL_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_param">HTTP_SERVICE_CONFIG_SSL_PARAM</a>
  
 
  

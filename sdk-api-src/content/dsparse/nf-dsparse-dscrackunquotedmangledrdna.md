@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsCrackUnquotedMangledRdn, DsCrackUnquotedMangledRdn function [Active Directory], DsCrackUnquotedMangledRdnA, DsCrackUnquotedMangledRdnW, _glines_dscrackunquotedmangledrdn, ad.dscrackunquotedmangledrdn, dsparse/DsCrackUnquotedMangledRdn, dsparse/DsCrackUnquotedMangledRdnA, dsparse/DsCrackUnquotedMangledRdnW
 ms.topic: function
-f1_keywords: 
- - "dsparse/DsCrackUnquotedMangledRdn"
+f1_keywords:
+- dsparse/DsCrackUnquotedMangledRdn
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsCrackUnquotedMangledRdn
- - DsCrackUnquotedMangledRdnA
- - DsCrackUnquotedMangledRdnW
+- DsCrackUnquotedMangledRdn
+- DsCrackUnquotedMangledRdnA
+- DsCrackUnquotedMangledRdnW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -80,7 +80,7 @@ Pointer to <b>GUID</b> value that receives the GUID of the unmangled relative di
 ### -param peDsMangleFor [out, optional]
 
 Pointer 
-to a <a href="https://docs.microsoft.com/windows/desktop/api/dsparse/ne-dsparse-_ds_mangle_for">DS_MANGLE_FOR</a> value that receives the type of mangling used in the mangled relative distinguished name.  This parameter can be <b>NULL</b>.
+to a <a href="https://docs.microsoft.com/windows/desktop/api/dsparse/ne-dsparse-ds_mangle_for">DS_MANGLE_FOR</a> value that receives the type of mangling used in the mangled relative distinguished name.  This parameter can be <b>NULL</b>.
 
 
 ## -returns
@@ -107,7 +107,7 @@ This function attempts to
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/ne-dsparse-_ds_mangle_for">DS_MANGLE_FOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/ne-dsparse-ds_mangle_for">DS_MANGLE_FOR</a>
 
 
 

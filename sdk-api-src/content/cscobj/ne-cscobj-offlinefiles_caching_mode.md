@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OFFLINEFILES_CACHING_MODE, OFFLINEFILES_CACHING_MODE enumeration [Offline Files], OFFLINEFILES_CACHING_MODE_AUTO_DOC, OFFLINEFILES_CACHING_MODE_AUTO_PROGANDDOC, OFFLINEFILES_CACHING_MODE_MANUAL, OFFLINEFILES_CACHING_MODE_NOCACHING, OFFLINEFILES_CACHING_MODE_NONE, cscobj/OFFLINEFILES_CACHING_MODE, cscobj/OFFLINEFILES_CACHING_MODE_AUTO_DOC, cscobj/OFFLINEFILES_CACHING_MODE_AUTO_PROGANDDOC, cscobj/OFFLINEFILES_CACHING_MODE_MANUAL, cscobj/OFFLINEFILES_CACHING_MODE_NOCACHING, cscobj/OFFLINEFILES_CACHING_MODE_NONE, of.offlinefiles_caching_mode
 ms.topic: enum
-f1_keywords: 
- - "cscobj/OFFLINEFILES_CACHING_MODE"
+f1_keywords:
+- cscobj/OFFLINEFILES_CACHING_MODE
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CscObj.h
+- CscObj.h
 api_name:
- - OFFLINEFILES_CACHING_MODE
+- OFFLINEFILES_CACHING_MODE
 product: Windows
 targetos: Windows
 req.typenames: OFFLINEFILES_CACHING_MODE
@@ -101,7 +101,7 @@ The share or shared folder is configured to allow automatic caching of programs 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1005">SHARE_INFO_1005</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1005">SHARE_INFO_1005</a>
  
 
  

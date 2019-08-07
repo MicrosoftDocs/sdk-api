@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADS_ACEFLAG_ENUM, ADS_ACEFLAG_ENUM enumeration [ADSI], ADS_ACEFLAG_FAILED_ACCESS, ADS_ACEFLAG_INHERITED_ACE, ADS_ACEFLAG_INHERIT_ACE, ADS_ACEFLAG_INHERIT_ONLY_ACE, ADS_ACEFLAG_NO_PROPAGATE_INHERIT_ACE, ADS_ACEFLAG_SUCCESSFUL_ACCESS, ADS_ACEFLAG_VALID_INHERIT_FLAGS, _ds_ads_aceflag_enum, adsi.ads__aceflag__enum, adsi.ads_aceflag_enum, iads/ADS_ACEFLAG_ENUM, iads/ADS_ACEFLAG_FAILED_ACCESS, iads/ADS_ACEFLAG_INHERITED_ACE, iads/ADS_ACEFLAG_INHERIT_ACE, iads/ADS_ACEFLAG_INHERIT_ONLY_ACE, iads/ADS_ACEFLAG_NO_PROPAGATE_INHERIT_ACE, iads/ADS_ACEFLAG_SUCCESSFUL_ACCESS, iads/ADS_ACEFLAG_VALID_INHERIT_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "iads/ADS_ACEFLAG_ENUM"
+f1_keywords:
+- iads/ADS_ACEFLAG_ENUM
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_ACEFLAG_ENUM
+- ADS_ACEFLAG_ENUM
 product: Windows
 targetos: Windows
 req.typenames: ADS_ACEFLAG_ENUM
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>ADS_ACEFLAG_ENUM</b> enumeration is used to specify the behavior of an Access Control Entry (ACE) for an Active Directory object.
 
-For more information and possible values for file, file share and registry objects, see the <b>AceFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure.
+For more information and possible values for file, file share and registry objects, see the <b>AceFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure.
 
 
 ## -enum-fields

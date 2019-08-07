@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DNS_RECORD_FLAGS, DNS_RECORD_FLAGS structure [DNS], _DnsRecordFlags, _dns_dns_record_flags, dns.dns_record_flags, windns/DNS_RECORD_FLAGS
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_RECORD_FLAGS"
+f1_keywords:
+- windns/DNS_RECORD_FLAGS
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_RECORD_FLAGS
+- DNS_RECORD_FLAGS
 product: Windows
 targetos: Windows
 req.typenames: DNS_RECORD_FLAGS
@@ -74,7 +74,7 @@ Reserved. Do not use.
 
 ### -field CharSet
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-_dns_charset">DNS_CHARSET</a> value that specifies the character set used in the associated function call.
+A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-dns_charset">DNS_CHARSET</a> value that specifies the character set used in the associated function call.
 					
 
 

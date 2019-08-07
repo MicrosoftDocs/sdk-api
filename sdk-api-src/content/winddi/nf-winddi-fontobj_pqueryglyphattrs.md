@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FONTOBJ_pQueryGlyphAttrs, FONTOBJ_pQueryGlyphAttrs function [Display Devices], display.fontobj_pqueryglyphattrs, gdifncs_d646608d-3765-4cc7-aeff-bf5dc050d6b5.xml, winddi/FONTOBJ_pQueryGlyphAttrs
 ms.topic: function
-f1_keywords: 
- - "winddi/FONTOBJ_pQueryGlyphAttrs"
+f1_keywords:
+- winddi/FONTOBJ_pQueryGlyphAttrs
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - FONTOBJ_pQueryGlyphAttrs
+- FONTOBJ_pQueryGlyphAttrs
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -91,7 +91,7 @@ The function returns an array indicating which glyphs of a vertical font must be
 
 
 
-<b>FONTOBJ_pQueryGlyphAttrs</b> returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_glyphattr">FD_GLYPHATTR</a> structure. If an error is encountered, such as an invalid input argument, or if the font described by the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a> structure is not a vertical font, the function returns <b>NULL</b>.
+<b>FONTOBJ_pQueryGlyphAttrs</b> returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_glyphattr">FD_GLYPHATTR</a> structure. If an error is encountered, such as an invalid input argument, or if the font described by the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a> structure is not a vertical font, the function returns <b>NULL</b>.
 
 
 
@@ -104,7 +104,7 @@ Currently, the only attribute flag defined is FO_ATTR_MODE_ROTATE. This flag is 
 
 Vertical fonts have a font name that starts with the "@" character. To determine if the current font is a vertical font, the driver can check for the FO_VERT_FACE flag in the <b>flFontType</b> member of the font's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a> structure.
 
-Rotation information is returned in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_glyphattr">FD_GLYPHATTR</a> structure that is used as the function's return value.
+Rotation information is returned in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_glyphattr">FD_GLYPHATTR</a> structure that is used as the function's return value.
 
 The <b>FONTOBJ_pQueryGlyphAttrs</b> function is supplied by GDI. When a printer driver calls <b>FONTOBJ_pQueryGlyphAttrs</b>, GDI calls the appropriate font driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nc-winddi-pfn_drvqueryglyphattrs">DrvQueryGlyphAttrs</a> function to obtain the requested information.
 
@@ -120,7 +120,7 @@ The <b>FONTOBJ_pQueryGlyphAttrs</b> function is supplied by GDI. When a printer 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_glyphattr">FD_GLYPHATTR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_glyphattr">FD_GLYPHATTR</a>
 
 
 

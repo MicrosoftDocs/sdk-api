@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],RememberInitiatorSharedSecret method, IVdsIscsiTarget.RememberInitiatorSharedSecret, IVdsIscsiTarget::RememberInitiatorSharedSecret, RememberInitiatorSharedSecret, RememberInitiatorSharedSecret method [VDS], RememberInitiatorSharedSecret method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_rememberinitiatorsharedsecret, vds/IVdsIscsiTarget::RememberInitiatorSharedSecret, vdshwprv/IVdsIscsiTarget::RememberInitiatorSharedSecret
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsIscsiTarget.RememberInitiatorSharedSecret"
+f1_keywords:
+- vds/IVdsIscsiTarget.RememberInitiatorSharedSecret
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiTarget.RememberInitiatorSharedSecret
+- IVdsIscsiTarget.RememberInitiatorSharedSecret
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The string specifying the iSCSI name of the initiator. This parameter is require
 
 ### -param pInitiatorSharedSecret [in]
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_iscsi_shared_secret">VDS_ISCSI_SHARED_SECRET</a> 
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_shared_secret">VDS_ISCSI_SHARED_SECRET</a> 
       structure that contains the shared secret.
 
 
@@ -152,7 +152,7 @@ This operation or combination of parameters is not supported by this provider.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_iscsi_shared_secret">VDS_ISCSI_SHARED_SECRET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_shared_secret">VDS_ISCSI_SHARED_SECRET</a>
  
 
  

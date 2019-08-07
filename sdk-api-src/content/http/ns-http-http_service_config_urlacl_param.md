@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 5fd50d77-cd2b-47d7-baa3-ed1d7fc934a7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_SERVICE_CONFIG_URLACL_PARAM, HTTP_SERVICE_CONFIG_URLACL_PARAM, HTTP_SERVICE_CONFIG_URLACL_PARAM structure [HTTP], PHTTP_SERVICE_CONFIG_URLACL_PARAM, PHTTP_SERVICE_CONFIG_URLACL_PARAM structure pointer [HTTP], _http_http_service_config_urlacl_param, http.http_service_config_urlacl_param, http/HTTP_SERVICE_CONFIG_URLACL_PARAM, http/PHTTP_SERVICE_CONFIG_URLACL_PARAM"
+ms.keywords: '*PHTTP_SERVICE_CONFIG_URLACL_PARAM, HTTP_SERVICE_CONFIG_URLACL_PARAM, HTTP_SERVICE_CONFIG_URLACL_PARAM structure [HTTP], PHTTP_SERVICE_CONFIG_URLACL_PARAM, PHTTP_SERVICE_CONFIG_URLACL_PARAM structure pointer [HTTP], _http_http_service_config_urlacl_param, http.http_service_config_urlacl_param, http/HTTP_SERVICE_CONFIG_URLACL_PARAM, http/PHTTP_SERVICE_CONFIG_URLACL_PARAM'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_SERVICE_CONFIG_URLACL_PARAM"
+f1_keywords:
+- http/HTTP_SERVICE_CONFIG_URLACL_PARAM
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_SERVICE_CONFIG_URLACL_PARAM
+- HTTP_SERVICE_CONFIG_URLACL_PARAM
 product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_URLACL_PARAM, *PHTTP_SERVICE_CONFIG_URLACL_PARAM
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>HTTP_SERVICE_CONFIG_URLACL_PARAM</b> structure is used to specify the permissions associated with a particular record in the URL namespace reservation store. It is a member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_urlacl_set">HTTP_SERVICE_CONFIG_URLACL_SET</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_urlacl_set">HTTP_SERVICE_CONFIG_URLACL_SET</a> structure.
 
 
 ## -struct-fields
@@ -87,7 +87,7 @@ An example of a security descriptor string is:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_urlacl_set">HTTP_SERVICE_CONFIG_URLACL_SET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_urlacl_set">HTTP_SERVICE_CONFIG_URLACL_SET</a>
 
 
 

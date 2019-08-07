@@ -8,10 +8,10 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\ofnotify.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPOFNOTIFYA, LPOFNOTIFY, LPOFNOTIFY structure pointer [Dialog Boxes], OFNOTIFY, OFNOTIFY structure [Dialog Boxes], OFNOTIFYA, OFNOTIFYW, _win32_OFNOTIFY_str, _win32_ofnotify_str_cpp, commdlg/LPOFNOTIFY, commdlg/OFNOTIFY, commdlg/OFNOTIFYA, commdlg/OFNOTIFYW, dlgbox.ofnotify_str, winui._win32_ofnotify_str"
+ms.keywords: '*LPOFNOTIFYA, LPOFNOTIFY, LPOFNOTIFY structure pointer [Dialog Boxes], OFNOTIFY, OFNOTIFY structure [Dialog Boxes], OFNOTIFYA, OFNOTIFYW, _win32_OFNOTIFY_str, _win32_ofnotify_str_cpp, commdlg/LPOFNOTIFY, commdlg/OFNOTIFY, commdlg/OFNOTIFYA, commdlg/OFNOTIFYW, dlgbox.ofnotify_str, winui._win32_ofnotify_str'
 ms.topic: struct
-f1_keywords: 
- - "commdlg/OFNOTIFY"
+f1_keywords:
+- commdlg/OFNOTIFY
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commdlg.h
+- Commdlg.h
 api_name:
- - OFNOTIFY
- - OFNOTIFYA
- - OFNOTIFYW
+- OFNOTIFY
+- OFNOTIFYA
+- OFNOTIFYW
 product: Windows
 targetos: Windows
 req.typenames: OFNOTIFYA, *LPOFNOTIFYA
@@ -63,7 +63,7 @@ Contains information about a <a href="https://docs.microsoft.com/windows/desktop
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 The <b>code</b> member of this structure can be one of the following notification messages that identify the message being sent: <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-fileok">CDN_FILEOK</a>, <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-folderchange">CDN_FOLDERCHANGE</a>, <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-help">CDN_HELP</a>, <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-initdone">CDN_INITDONE</a>, <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-selchange">CDN_SELCHANGE</a>, <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-shareviolation">CDN_SHAREVIOLATION</a>, <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-typechange">CDN_TYPECHANGE</a>. 
 
@@ -86,7 +86,7 @@ The file name for which a network sharing violation has occurred. This member is
 
 
 
-Not all of the <b>Open</b> and <b>Save As</b> notification messages use the <b>OFNOTIFY</b> structure. The <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-includeitem">CDN_INCLUDEITEM</a> notification message uses the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-_ofnotifyexa">OFNOTIFYEX</a> structure. 
+Not all of the <b>Open</b> and <b>Save As</b> notification messages use the <b>OFNOTIFY</b> structure. The <a href="https://docs.microsoft.com/windows/desktop/dlgbox/cdn-includeitem">CDN_INCLUDEITEM</a> notification message uses the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-ofnotifyexa">OFNOTIFYEX</a> structure. 
 
 
 
@@ -132,7 +132,7 @@ Not all of the <b>Open</b> and <b>Save As</b> notification messages use the <b>O
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-_ofnotifyexa">OFNOTIFYEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-ofnotifyexa">OFNOTIFYEX</a>
 
 
 

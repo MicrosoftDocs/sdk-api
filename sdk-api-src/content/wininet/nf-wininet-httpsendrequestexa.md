@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpSendRequestEx, HttpSendRequestEx function [WinINet], HttpSendRequestExA, HttpSendRequestExW, _win32_httpsendrequestex, wininet.httpsendrequestex, wininet/HttpSendRequestEx, wininet/HttpSendRequestExA, wininet/HttpSendRequestExW
 ms.topic: function
-f1_keywords: 
- - "wininet/HttpSendRequestEx"
+f1_keywords:
+- wininet/HttpSendRequestEx
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - HttpSendRequestEx
- - HttpSendRequestExA
- - HttpSendRequestExW
+- HttpSendRequestEx
+- HttpSendRequestExA
+- HttpSendRequestExW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf
 ### -param lpBuffersIn [in]
 
 Optional. A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-_internet_buffersa">INTERNET_BUFFERS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_buffersa">INTERNET_BUFFERS</a> structure.
 
 
 ### -param lpBuffersOut [out]

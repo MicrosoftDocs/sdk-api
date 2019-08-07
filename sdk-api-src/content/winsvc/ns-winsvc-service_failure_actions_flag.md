@@ -8,10 +8,10 @@ tech.root: Services
 ms.assetid: 49736b26-9565-4d56-abcd-1585b692ff12
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVICE_FAILURE_ACTIONS_FLAG, LPSERVICE_FAILURE_ACTIONS_FLAG, LPSERVICE_FAILURE_ACTIONS_FLAG structure pointer, SERVICE_FAILURE_ACTIONS_FLAG, SERVICE_FAILURE_ACTIONS_FLAG structure, base.service_failure_actions_flag, winsvc/LPSERVICE_FAILURE_ACTIONS_FLAG, winsvc/SERVICE_FAILURE_ACTIONS_FLAG"
+ms.keywords: '*LPSERVICE_FAILURE_ACTIONS_FLAG, LPSERVICE_FAILURE_ACTIONS_FLAG, LPSERVICE_FAILURE_ACTIONS_FLAG structure pointer, SERVICE_FAILURE_ACTIONS_FLAG, SERVICE_FAILURE_ACTIONS_FLAG structure, base.service_failure_actions_flag, winsvc/LPSERVICE_FAILURE_ACTIONS_FLAG, winsvc/SERVICE_FAILURE_ACTIONS_FLAG'
 ms.topic: struct
-f1_keywords: 
- - "winsvc/SERVICE_FAILURE_ACTIONS_FLAG"
+f1_keywords:
+- winsvc/SERVICE_FAILURE_ACTIONS_FLAG
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsvc.h
+- Winsvc.h
 api_name:
- - SERVICE_FAILURE_ACTIONS_FLAG
+- SERVICE_FAILURE_ACTIONS_FLAG
 product: Windows
 targetos: Windows
 req.typenames: SERVICE_FAILURE_ACTIONS_FLAG, *LPSERVICE_FAILURE_ACTIONS_FLAG
@@ -61,7 +61,7 @@ Contains the failure actions flag setting of a service. This setting determines 
 
 ### -field fFailureActionsOnNonCrashFailures
 
-If this member is <b>TRUE</b> and the service has configured failure actions, the failure actions are queued if the service process terminates without reporting a status of SERVICE_STOPPED or if it enters the SERVICE_STOPPED state but the <b>dwWin32ExitCode</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status">SERVICE_STATUS</a> structure is not ERROR_SUCCESS (0).
+If this member is <b>TRUE</b> and the service has configured failure actions, the failure actions are queued if the service process terminates without reporting a status of SERVICE_STOPPED or if it enters the SERVICE_STOPPED state but the <b>dwWin32ExitCode</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_status">SERVICE_STATUS</a> structure is not ERROR_SUCCESS (0).
 
 If this member is <b>FALSE</b> and the service has configured failure actions, the failure actions are queued only if the service terminates without reporting a status of SERVICE_STOPPED.
 
@@ -92,7 +92,7 @@ It can be useful to set this flag if your service has common failure paths where
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_failure_actionsa">SERVICE_FAILURE_ACTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_failure_actionsa">SERVICE_FAILURE_ACTIONS</a>
  
 
  

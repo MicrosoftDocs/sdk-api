@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLIENTPROPERTIES, CLIENTPROPERTIES enumeration [Network Policy Server], PROPERTY_CLIENT_ADDRESS, PROPERTY_CLIENT_ENABLED, PROPERTY_CLIENT_FILTER_VSAS, PROPERTY_CLIENT_NAS_MANUFACTURER, PROPERTY_CLIENT_QUARANTINE_COMPATIBLE, PROPERTY_CLIENT_REQUIRE_SIGNATURE, PROPERTY_CLIENT_SHARED_SECRET, PROPERTY_CLIENT_UNUSED, _sdo_clientproperties, nps.SDO_clientproperties, sdo.clientproperties, sdoias/CLIENTPROPERTIES, sdoias/PROPERTY_CLIENT_ADDRESS, sdoias/PROPERTY_CLIENT_ENABLED, sdoias/PROPERTY_CLIENT_FILTER_VSAS, sdoias/PROPERTY_CLIENT_NAS_MANUFACTURER, sdoias/PROPERTY_CLIENT_QUARANTINE_COMPATIBLE, sdoias/PROPERTY_CLIENT_REQUIRE_SIGNATURE, sdoias/PROPERTY_CLIENT_SHARED_SECRET, sdoias/PROPERTY_CLIENT_UNUSED
 ms.topic: enum
-f1_keywords: 
- - "sdoias/CLIENTPROPERTIES"
+f1_keywords:
+- sdoias/CLIENTPROPERTIES
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - CLIENTPROPERTIES
+- CLIENTPROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: CLIENTPROPERTIES
@@ -112,11 +112,11 @@ This value must be set before a client SDO object can be saved.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iascommonproperties">IASCOMMONPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_radiusproperties">RADIUSPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-radiusproperties">RADIUSPROPERTIES</a>
  
 
  

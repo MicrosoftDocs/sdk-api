@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROPERTY_USER_ALLOW_DIALIN, PROPERTY_USER_CALLING_STATION_ID, PROPERTY_USER_RADIUS_CALLBACK_NUMBER, PROPERTY_USER_RADIUS_FRAMED_INTERFACE_ID, PROPERTY_USER_RADIUS_FRAMED_IPV6_PREFIX, PROPERTY_USER_RADIUS_FRAMED_IPV6_ROUTE, PROPERTY_USER_RADIUS_FRAMED_IP_ADDRESS, PROPERTY_USER_RADIUS_FRAMED_ROUTE, PROPERTY_USER_SAVED_CALLING_STATION_ID, PROPERTY_USER_SAVED_RADIUS_CALLBACK_NUMBER, PROPERTY_USER_SAVED_RADIUS_FRAMED_INTERFACE_ID, PROPERTY_USER_SAVED_RADIUS_FRAMED_IPV6_PREFIX, PROPERTY_USER_SAVED_RADIUS_FRAMED_IPV6_ROUTE, PROPERTY_USER_SAVED_RADIUS_FRAMED_IP_ADDRESS, PROPERTY_USER_SAVED_RADIUS_FRAMED_ROUTE, PROPERTY_USER_SERVICE_TYPE, USERPROPERTIES, USERPROPERTIES enumeration [Network Policy Server], _sdo_userproperties, nps.SDO_userproperties, sdo.userproperties, sdoias/PROPERTY_USER_ALLOW_DIALIN, sdoias/PROPERTY_USER_CALLING_STATION_ID, sdoias/PROPERTY_USER_RADIUS_CALLBACK_NUMBER, sdoias/PROPERTY_USER_RADIUS_FRAMED_INTERFACE_ID, sdoias/PROPERTY_USER_RADIUS_FRAMED_IPV6_PREFIX, sdoias/PROPERTY_USER_RADIUS_FRAMED_IPV6_ROUTE, sdoias/PROPERTY_USER_RADIUS_FRAMED_IP_ADDRESS, sdoias/PROPERTY_USER_RADIUS_FRAMED_ROUTE, sdoias/PROPERTY_USER_SAVED_CALLING_STATION_ID, sdoias/PROPERTY_USER_SAVED_RADIUS_CALLBACK_NUMBER, sdoias/PROPERTY_USER_SAVED_RADIUS_FRAMED_INTERFACE_ID, sdoias/PROPERTY_USER_SAVED_RADIUS_FRAMED_IPV6_PREFIX, sdoias/PROPERTY_USER_SAVED_RADIUS_FRAMED_IPV6_ROUTE, sdoias/PROPERTY_USER_SAVED_RADIUS_FRAMED_IP_ADDRESS, sdoias/PROPERTY_USER_SAVED_RADIUS_FRAMED_ROUTE, sdoias/PROPERTY_USER_SERVICE_TYPE, sdoias/USERPROPERTIES
 ms.topic: enum
-f1_keywords: 
- - "sdoias/USERPROPERTIES"
+f1_keywords:
+- sdoias/USERPROPERTIES
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - USERPROPERTIES
+- USERPROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: USERPROPERTIES
@@ -108,7 +108,7 @@ Specifies whether dial-in allowed, denied, or determined by policy.
 ### -field PROPERTY_USER_SERVICE_TYPE
 
 Specifies whether callback is enabled for this user. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_user_1">RAS_USER_1</a> for more information about the possible values for this property.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_user_1">RAS_USER_1</a> for more information about the possible values for this property.
 
 
 ### -field PROPERTY_USER_RADIUS_FRAMED_IPV6_ROUTE

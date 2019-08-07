@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 26cd6065-8be9-4b3b-8207-5ad620e9b537
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPTNET_URL_CACHE_RESPONSE_INFO, CRYPTNET_URL_CACHE_RESPONSE_HTTP, CRYPTNET_URL_CACHE_RESPONSE_INFO, CRYPTNET_URL_CACHE_RESPONSE_INFO structure [Security], CRYPTNET_URL_CACHE_RESPONSE_NONE, PCRYPTNET_URL_CACHE_RESPONSE_INFO, PCRYPTNET_URL_CACHE_RESPONSE_INFO structure pointer [Security], security.cryptnet_url_cache_response_info, wincrypt/CRYPTNET_URL_CACHE_RESPONSE_INFO, wincrypt/PCRYPTNET_URL_CACHE_RESPONSE_INFO"
+ms.keywords: '*PCRYPTNET_URL_CACHE_RESPONSE_INFO, CRYPTNET_URL_CACHE_RESPONSE_HTTP, CRYPTNET_URL_CACHE_RESPONSE_INFO, CRYPTNET_URL_CACHE_RESPONSE_INFO structure [Security], CRYPTNET_URL_CACHE_RESPONSE_NONE, PCRYPTNET_URL_CACHE_RESPONSE_INFO, PCRYPTNET_URL_CACHE_RESPONSE_INFO structure pointer [Security], security.cryptnet_url_cache_response_info, wincrypt/CRYPTNET_URL_CACHE_RESPONSE_INFO, wincrypt/PCRYPTNET_URL_CACHE_RESPONSE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPTNET_URL_CACHE_RESPONSE_INFO"
+f1_keywords:
+- wincrypt/CRYPTNET_URL_CACHE_RESPONSE_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPTNET_URL_CACHE_RESPONSE_INFO
+- CRYPTNET_URL_CACHE_RESPONSE_INFO
 product: Windows
 targetos: Windows
 req.typenames: CRYPTNET_URL_CACHE_RESPONSE_INFO, *PCRYPTNET_URL_CACHE_RESPONSE_INFO
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPTNET_URL_CACHE_RESPONSE_INFO</b> structure contains response information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry. This structure composes the <b>pResponseInfo</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure, which is passed to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> as the <i>pAuxInfo</i> parameter.
+The <b>CRYPTNET_URL_CACHE_RESPONSE_INFO</b> structure contains response information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry. This structure composes the <b>pResponseInfo</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure, which is passed to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> as the <i>pAuxInfo</i> parameter.
 
 
 ## -struct-fields

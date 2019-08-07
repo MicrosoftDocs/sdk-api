@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPsecKeyManagerAddAndRegister0, IPsecKeyManagerAddAndRegister0 function [Filtering], fwp.ipseckeymanageraddandregister0, fwpmu/IPsecKeyManagerAddAndRegister0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/IPsecKeyManagerAddAndRegister0"
+f1_keywords:
+- fwpmu/IPsecKeyManagerAddAndRegister0
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - IPsecKeyManagerAddAndRegister0
+- IPsecKeyManagerAddAndRegister0
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,14 +68,14 @@ A handle for an open session to the filter engine. Call <a href="https://docs.mi
 
 ### -param keyManager [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-_ipsec_key_manager0">IPSEC_KEY_MANAGER0</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_key_manager0">IPSEC_KEY_MANAGER0</a>*</b>
 
 The set of key management callbacks which IPsec will invoke.
 
 
 ### -param keyManagerCallbacks [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/ns-fwpmu-_ipsec_key_manager_callbacks0">IPSEC_KEY_MANAGER_CALLBACKS0</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/ns-fwpmu-ipsec_key_manager_callbacks0">IPSEC_KEY_MANAGER_CALLBACKS0</a>*</b>
 
 The set of callbacks which should be invoked by IPsec at various stages of SA negotiation.
 
@@ -193,11 +193,11 @@ with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://docs.microsoft.com/windo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-_ipsec_key_manager0">IPSEC_KEY_MANAGER0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_key_manager0">IPSEC_KEY_MANAGER0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/ns-fwpmu-_ipsec_key_manager_callbacks0">IPSEC_KEY_MANAGER_CALLBACKS0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/ns-fwpmu-ipsec_key_manager_callbacks0">IPSEC_KEY_MANAGER_CALLBACKS0</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckTokenCapability, CheckTokenCapability function [Security], security.checktokencapability, securitybaseapi/CheckTokenCapability
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/CheckTokenCapability"
+f1_keywords:
+- securitybaseapi/CheckTokenCapability
 req.header: securitybaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib:
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Kernel32.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - CheckTokenCapability
+- CheckTokenCapability
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ If <i>TokenHandle</i> is <b>NULL</b>, <b>CheckTokenCapability</b> uses the imper
 
 ### -param CapabilitySidToCheck [in]
 
-A pointer to a capability <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure. The <b>CheckTokenCapability</b> function checks the capabilities of this access token.
+A pointer to a capability <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure. The <b>CheckTokenCapability</b> function checks the capabilities of this access token.
 
 
 ### -param HasCapability [out]

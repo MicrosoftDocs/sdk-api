@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_AUTO_COOKIE_MODE, WS_COOKIE_MODE, WS_COOKIE_MODE enumeration [Web Services for Windows], WS_MANUAL_COOKIE_MODE, webservices/WS_AUTO_COOKIE_MODE, webservices/WS_COOKIE_MODE, webservices/WS_MANUAL_COOKIE_MODE, wsw.ws_cookie_mode
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_COOKIE_MODE"
+f1_keywords:
+- webservices/WS_COOKIE_MODE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_COOKIE_MODE
+- WS_COOKIE_MODE
 product: Windows
 targetos: Windows
 req.typenames: WS_COOKIE_MODE
@@ -70,7 +70,7 @@ If a server sends a cookie to the client, the client
                     the cookie value in subsequent requests).
                 
 
-An application can use the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_header_mapping">WS_HTTP_HEADER_MAPPING</a>feature to handle cookies manually, if desired.
+An application can use the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_header_mapping">WS_HTTP_HEADER_MAPPING</a>feature to handle cookies manually, if desired.
                 
 
 

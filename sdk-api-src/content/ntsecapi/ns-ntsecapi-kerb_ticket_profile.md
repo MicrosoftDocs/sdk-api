@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 9db0f9ac-b469-4e62-a735-ca3c56086009
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PKERB_TICKET_PROFILE, KERB_TICKET_PROFILE, KERB_TICKET_PROFILE structure [Security], PKERB_TICKET_PROFILE, PKERB_TICKET_PROFILE structure pointer [Security], _lsa_kerb_ticket_profile, ntsecapi/KERB_TICKET_PROFILE, ntsecapi/PKERB_TICKET_PROFILE, security.kerb_ticket_profile"
+ms.keywords: '*PKERB_TICKET_PROFILE, KERB_TICKET_PROFILE, KERB_TICKET_PROFILE structure [Security], PKERB_TICKET_PROFILE, PKERB_TICKET_PROFILE structure pointer [Security], _lsa_kerb_ticket_profile, ntsecapi/KERB_TICKET_PROFILE, ntsecapi/PKERB_TICKET_PROFILE, security.kerb_ticket_profile'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/KERB_TICKET_PROFILE"
+f1_keywords:
+- ntsecapi/KERB_TICKET_PROFILE
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - KERB_TICKET_PROFILE
+- KERB_TICKET_PROFILE
 product: Windows
 targetos: Windows
 req.typenames: KERB_TICKET_PROFILE, *PKERB_TICKET_PROFILE
@@ -66,7 +66,7 @@ This structure is returned by
 ### -field Profile
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_interactive_profile">KERB_INTERACTIVE_PROFILE</a> structure containing logon information.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_profile">KERB_INTERACTIVE_PROFILE</a> structure containing logon information.
 
 
 ### -field SessionKey

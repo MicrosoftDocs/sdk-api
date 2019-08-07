@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: 0541b24a-8531-4828-8c3b-d889e58b0b38
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPROVIDER_FILTER_INFO, PPROVIDER_FILTER_INFO, PPROVIDER_FILTER_INFO structure pointer [ETW], PROVIDER_FILTER_INFO, PROVIDER_FILTER_INFO structure [ETW], etw.provider_filter_info, tdh/PPROVIDER_FILTER_INFO, tdh/PROVIDER_FILTER_INFO"
+ms.keywords: '*PPROVIDER_FILTER_INFO, PPROVIDER_FILTER_INFO, PPROVIDER_FILTER_INFO structure pointer [ETW], PROVIDER_FILTER_INFO, PROVIDER_FILTER_INFO structure [ETW], etw.provider_filter_info, tdh/PPROVIDER_FILTER_INFO, tdh/PROVIDER_FILTER_INFO'
 ms.topic: struct
-f1_keywords: 
- - "tdh/PROVIDER_FILTER_INFO"
+f1_keywords:
+- tdh/PROVIDER_FILTER_INFO
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tdh.h
+- Tdh.h
 api_name:
- - PROVIDER_FILTER_INFO
+- PROVIDER_FILTER_INFO
 product: Windows
 targetos: Windows
 req.typenames: PROVIDER_FILTER_INFO, *PPROVIDER_FILTER_INFO
@@ -86,7 +86,7 @@ The number of elements in the <i>EventPropertyInfoArray</i> array.
 
 ### -field EventPropertyInfoArray
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_property_info">EVENT_PROPERTY_INFO</a> structures that define the filter data.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a> structures that define the filter data.
 
 
 ## -see-also

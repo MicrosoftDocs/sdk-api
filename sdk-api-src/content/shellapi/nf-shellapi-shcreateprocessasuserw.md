@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateProcessAsUserW, SHCreateProcessAsUserW function [Windows Shell], _win32_SHCreateProcessAsUserW, _win32_SHCreateProcessAsUserW_cpp, shell.SHCreateProcessAsUserW, shellapi/SHCreateProcessAsUserW
 ms.topic: function
-f1_keywords: 
- - "shellapi/SHCreateProcessAsUserW"
+f1_keywords:
+- shellapi/SHCreateProcessAsUserW
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHCreateProcessAsUserW
- - SHCreateProcessAsUserW
+- SHCreateProcessAsUserW
+- SHCreateProcessAsUserW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Creates a new user-mode process and its primary thread to run a specified execut
 
 Type: <b>PSHCREATEPROCESSINFOW</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shcreateprocessinfow">SHCREATEPROCESSINFOW</a> structure with information on how to create the process.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shcreateprocessinfow">SHCREATEPROCESSINFOW</a> structure with information on how to create the process.
 
 
 ## -returns

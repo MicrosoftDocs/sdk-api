@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: 83a38831-fb90-495c-9f5d-90971849a7a0
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_MEMORY64_LIST, MINIDUMP_MEMORY64_LIST, MINIDUMP_MEMORY_LIST, MINIDUMP_MEMORY_LIST structure, PMINIDUMP_MEMORY_LIST, PMINIDUMP_MEMORY_LIST structure pointer, _MINIDUMP_MEMORY_LIST, _win32_minidump_memory_list_str, base.minidump_memory_list_str, minidumpapiset/MINIDUMP_MEMORY_LIST, minidumpapiset/PMINIDUMP_MEMORY_LIST"
+ms.keywords: '*PMINIDUMP_MEMORY64_LIST, MINIDUMP_MEMORY64_LIST, MINIDUMP_MEMORY_LIST, MINIDUMP_MEMORY_LIST structure, PMINIDUMP_MEMORY_LIST, PMINIDUMP_MEMORY_LIST structure pointer, _MINIDUMP_MEMORY_LIST, _win32_minidump_memory_list_str, base.minidump_memory_list_str, minidumpapiset/MINIDUMP_MEMORY_LIST, minidumpapiset/PMINIDUMP_MEMORY_LIST'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_MEMORY_LIST"
+f1_keywords:
+- minidumpapiset/MINIDUMP_MEMORY_LIST
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h, Minidumpapiset.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_MEMORY_LIST
+- MINIDUMP_MEMORY_LIST
 product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_MEMORY64_LIST, *PMINIDUMP_MEMORY64_LIST
@@ -106,7 +106,7 @@ Note that <b>BaseRva</b> is the overall base RVA for the memory list. To locate 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
  
 
  

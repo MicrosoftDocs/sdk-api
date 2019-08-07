@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 4d296764-a00a-407d-a963-62c138976ccc, DXVA2_AYUVSample8, DXVA2_AYUVSample8 structure [Media Foundation], dxva2api/DXVA2_AYUVSample8, mf.dxva2_ayuvsample8
 ms.topic: struct
-f1_keywords: 
- - "dxva2api/DXVA2_AYUVSample8"
+f1_keywords:
+- dxva2api/DXVA2_AYUVSample8
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - DXVA2_AYUVSample8
+- DXVA2_AYUVSample8
 product: Windows
 targetos: Windows
 req.typenames: DXVA2_AYUVSample8
@@ -87,7 +87,7 @@ Contains the alpha value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videosample">DXVA2_VideoSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videosample">DXVA2_VideoSample</a>
 
 
 

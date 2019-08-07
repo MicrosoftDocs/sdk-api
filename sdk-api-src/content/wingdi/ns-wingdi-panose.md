@@ -8,10 +8,10 @@ tech.root: gdi
 ms.assetid: 18aa4a36-8e47-4e35-973f-376d412ed923
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPPANOSE, LPPANOSE, LPPANOSE structure pointer [Windows GDI], PANOSE, PANOSE structure [Windows GDI], _win32_PANOSE_str, gdi.panose, wingdi/LPPANOSE, wingdi/PANOSE"
+ms.keywords: '*LPPANOSE, LPPANOSE, LPPANOSE structure pointer [Windows GDI], PANOSE, PANOSE structure [Windows GDI], _win32_PANOSE_str, gdi.panose, wingdi/LPPANOSE, wingdi/PANOSE'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/PANOSE"
+f1_keywords:
+- wingdi/PANOSE
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - PANOSE
+- PANOSE
 product: Windows
 targetos: Windows
 req.typenames: PANOSE, *LPPANOSE
@@ -661,7 +661,7 @@ For Latin fonts, one of the following values.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_outlinetextmetrica">OUTLINETEXTMETRIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-outlinetextmetrica">OUTLINETEXTMETRIC</a>
  
 
  

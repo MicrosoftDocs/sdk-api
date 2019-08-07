@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpGetInfo, SpGetInfo callback function [Security], SpGetInfoFn, SpGetInfoFn callback, _ssp_spgetinfo, ntsecpkg/SpGetInfo, security.spgetinfo
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/SpGetInfo"
+f1_keywords:
+- ntsecpkg/SpGetInfo
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SpGetInfo
+- SpGetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ The <b>SpGetInfo</b> function is called when the client calls the
 ### -param PackageInfo [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkginfoa">SecPkgInfo</a> structure that is allocated by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) and must be populated by the package.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structure that is allocated by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) and must be populated by the package.
 
 
 ## -returns
@@ -85,12 +85,12 @@ If the function fails, return an <b>NTSTATUS</b> code that indicates the reason 
 
 
 It is safe to place pointers to constant or dynamic data into the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkginfoa">SecPkgInfo</a> structure—the LSA will make a copy of the data prior to forwarding it.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structure—the LSA will make a copy of the data prior to forwarding it.
 
 SSP/APs must implement the <b>SpGetInfo</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpGetInfo</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 
@@ -101,11 +101,11 @@ A pointer to the <b>SpGetInfo</b> function is available in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkginfoa">SecPkgInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a>
 
 
 

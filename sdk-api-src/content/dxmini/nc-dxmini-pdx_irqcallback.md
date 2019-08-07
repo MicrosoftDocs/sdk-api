@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRQCallback, IRQCallback callback function [Display Devices], PDX_IRQCALLBACK, PDX_IRQCALLBACK callback, ddfncs_761fa81e-0ee5-45f4-9e33-36ecfe5c00fb.xml, display.irqcallback, dxmini/IRQCallback
 ms.topic: callback
-f1_keywords: 
- - "dxmini/IRQCallback"
+f1_keywords:
+- dxmini/IRQCallback
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - dxmini.h
+- dxmini.h
 api_name:
- - IRQCallback
+- IRQCallback
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>IRQCallback</b> function performs operations related to the IRQ that occu
 
 ### -param pIrqData
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_dx_irqdata">DX_IRQDATA</a> structure that is filled in with the video miniport driver's IRQ information.
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-dx_irqdata">DX_IRQDATA</a> structure that is filled in with the video miniport driver's IRQ information.
 
 
 ## -returns
@@ -87,11 +87,11 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/display/video-m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddenableirqinfo">DDENABLEIRQINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddenableirqinfo">DDENABLEIRQINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_dx_irqdata">DX_IRQDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-dx_irqdata">DX_IRQDATA</a>
 
 
 

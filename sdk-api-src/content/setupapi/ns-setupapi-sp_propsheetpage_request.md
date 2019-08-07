@@ -8,10 +8,10 @@ tech.root: devinst
 ms.assetid: f9a4e685-e396-4b2f-a452-14389eb44620
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSP_PROPSHEETPAGE_REQUEST, PSP_PROPSHEETPAGE_REQUEST, PSP_PROPSHEETPAGE_REQUEST structure pointer [Device and Driver Installation], SP_PROPSHEETPAGE_REQUEST, SP_PROPSHEETPAGE_REQUEST structure [Device and Driver Installation], devinst.sp_propsheetpage_request, di-struct_03c50681-4081-4ae3-88ba-32a10e937207.xml, setupapi/PSP_PROPSHEETPAGE_REQUEST, setupapi/SP_PROPSHEETPAGE_REQUEST"
+ms.keywords: '*PSP_PROPSHEETPAGE_REQUEST, PSP_PROPSHEETPAGE_REQUEST, PSP_PROPSHEETPAGE_REQUEST structure pointer [Device and Driver Installation], SP_PROPSHEETPAGE_REQUEST, SP_PROPSHEETPAGE_REQUEST structure [Device and Driver Installation], devinst.sp_propsheetpage_request, di-struct_03c50681-4081-4ae3-88ba-32a10e937207.xml, setupapi/PSP_PROPSHEETPAGE_REQUEST, setupapi/SP_PROPSHEETPAGE_REQUEST'
 ms.topic: struct
-f1_keywords: 
- - "setupapi/SP_PROPSHEETPAGE_REQUEST"
+f1_keywords:
+- setupapi/SP_PROPSHEETPAGE_REQUEST
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - setupapi.h
+- setupapi.h
 api_name:
- - SP_PROPSHEETPAGE_REQUEST
+- SP_PROPSHEETPAGE_REQUEST
 product: Windows
 targetos: Windows
 req.typenames: SP_PROPSHEETPAGE_REQUEST, *PSP_PROPSHEETPAGE_REQUEST
@@ -98,7 +98,7 @@ The handle for the device information set that contains the device being install
 
 ### -field DeviceInfoData
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a> structure for the device being installed.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure for the device being installed.
 
 
 ## -remarks

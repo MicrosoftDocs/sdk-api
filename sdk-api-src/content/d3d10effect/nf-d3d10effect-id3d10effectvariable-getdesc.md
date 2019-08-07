@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2f6be8f5-312a-860c-8415-c07b16c8c7d6, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],GetDesc method, ID3D10EffectVariable.GetDesc, ID3D10EffectVariable::GetDesc, d3d10effect/ID3D10EffectVariable::GetDesc, direct3d10.id3d10effectvariable_getdesc
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectVariable.GetDesc"
+f1_keywords:
+- d3d10effect/ID3D10EffectVariable.GetDesc
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectVariable.GetDesc
+- ID3D10EffectVariable.GetDesc
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ Get a description.
 
 ### -param pDesc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_effect_variable_desc">D3D10_EFFECT_VARIABLE_DESC</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_effect_variable_desc">D3D10_EFFECT_VARIABLE_DESC</a>*</b>
 
-A pointer to an effect-variable description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_effect_variable_desc">D3D10_EFFECT_VARIABLE_DESC</a>).
+A pointer to an effect-variable description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_effect_variable_desc">D3D10_EFFECT_VARIABLE_DESC</a>).
 
 
 ## -returns

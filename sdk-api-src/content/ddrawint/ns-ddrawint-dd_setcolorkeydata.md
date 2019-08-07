@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 08d17ac7-a5d4-47ed-9ee4-896471b46769
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_SETCOLORKEYDATA, DD_SETCOLORKEYDATA, DD_SETCOLORKEYDATA structure [Display Devices], ddrawint/DD_SETCOLORKEYDATA, ddstrcts_2798d2f9-38f8-42c3-a28e-a0d2a2ac3433.xml, display.dd_setcolorkeydata"
+ms.keywords: '*PDD_SETCOLORKEYDATA, DD_SETCOLORKEYDATA, DD_SETCOLORKEYDATA structure [Display Devices], ddrawint/DD_SETCOLORKEYDATA, ddstrcts_2798d2f9-38f8-42c3-a28e-a0d2a2ac3433.xml, display.dd_setcolorkeydata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_SETCOLORKEYDATA"
+f1_keywords:
+- ddrawint/DD_SETCOLORKEYDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_SETCOLORKEYDATA
+- DD_SETCOLORKEYDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_SETCOLORKEYDATA, DD_SETCOLORKEYDATA"
+req.typenames: '*PDD_SETCOLORKEYDATA, DD_SETCOLORKEYDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,12 +61,12 @@ The DD_SETCOLORKEYDATA structure contains information necessary to set the color
 
 ### -field lpDD
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 
 ### -field lpDDSurface
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface with which the color key is to be associated.
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface with which the color key is to be associated.
 
 
 ### -field dwFlags

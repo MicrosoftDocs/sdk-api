@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMSG_CRYPT_RELEASE_CONTEXT_FLAG, CMSG_DATA, CMSG_DETACHED_FLAG, CMSG_ENVELOPED, CMSG_HASHED, CMSG_SIGNED, CMSG_SIGNED_AND_ENVELOPED, CryptMsgOpenToDecode, CryptMsgOpenToDecode function [Security], _crypto2_cryptmsgopentodecode, security.cryptmsgopentodecode, wincrypt/CryptMsgOpenToDecode
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptMsgOpenToDecode"
+f1_keywords:
+- wincrypt/CryptMsgOpenToDecode
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptMsgOpenToDecode
+- CryptMsgOpenToDecode
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -206,7 +206,7 @@ When streaming is not being used, this parameter must be set to <b>NULL</b>.
 
 
 When streaming is being used, the <i>pStreamInfo</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_stream_info">CMSG_STREAM_INFO</a> structure that contains a pointer to a callback to be called when 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_stream_info">CMSG_STREAM_INFO</a> structure that contains a pointer to a callback to be called when 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgupdate">CryptMsgUpdate</a> is executed or when 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a> is executed when decoding a streamed enveloped message.
 
@@ -215,15 +215,15 @@ For a signed message, the callback is passed a block of the decoded bytes from t
 For an enveloped message, after each call to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgupdate">CryptMsgUpdate</a>, you must check to determine whether the CMSG_ENVELOPE_ALGORITHM_PARAM property is available by calling 
 the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetparam">CryptMsgGetParam</a> function. <b>CryptMsgGetParam</b> will fail and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return CRYPT_E_STREAM_MSG_NOT_READY until 
 <b>CryptMsgUpdate</b> has processed enough of the message to make the CMSG_ENVELOPE_ALGORITHM_PARAM property available. When the CMSG_ENVELOPE_ALGORITHM_PARAM property is available, you can iterate through the recipients, retrieving a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure for each recipient by using the <b>CryptMsgGetParam</b> function to retrieve the CMSG_RECIPIENT_INFO_PARAM property. To prevent a denial of service attack from an enveloped message that has an artificially large header block, you must keep track of the amount of memory that has been passed to the <b>CryptMsgUpdate</b> function during this process.  If the amount of data exceeds an application defined limit before the CMSG_ENVELOPE_ALGORITHM_PARAM property is available, you must stop processing the message and call the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose">CryptMsgClose</a> function to cause the operating system to release any memory that has been allocated for the message. A suggested limit is the maximum allowable size of a message. For example, if the maximum message size is 10 MB, the limit for this test should be 10 MB.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure for each recipient by using the <b>CryptMsgGetParam</b> function to retrieve the CMSG_RECIPIENT_INFO_PARAM property. To prevent a denial of service attack from an enveloped message that has an artificially large header block, you must keep track of the amount of memory that has been passed to the <b>CryptMsgUpdate</b> function during this process.  If the amount of data exceeds an application defined limit before the CMSG_ENVELOPE_ALGORITHM_PARAM property is available, you must stop processing the message and call the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose">CryptMsgClose</a> function to cause the operating system to release any memory that has been allocated for the message. A suggested limit is the maximum allowable size of a message. For example, if the maximum message size is 10 MB, the limit for this test should be 10 MB.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure is used to find a matching certificate in a previously opened <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> by using 
+The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure is used to find a matching certificate in a previously opened <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> by using 
 the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetsubjectcertificatefromstore">CertGetSubjectCertificateFromStore</a> function. When the correct certificate is found, 
 the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatecontextproperty">CertGetCertificateContextProperty</a> function with a CERT_KEY_PROV_INFO_PROP_ID parameter is called to retrieve a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure. The structure contains the information necessary to acquire the recipient's private key by calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure. The structure contains the information necessary to acquire the recipient's private key by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>, using the <b>pwszContainerName</b>, <b>pwszProvName</b>, <b>dwProvType</b>, and <b>dwFlags</b> members of the <b>CRYPT_KEY_PROV_INFO</b> structure. The <b>hCryptProv</b> acquired and the <b>dwKeySpec</b> member of the <b>CRYPT_KEY_PROV_INFO</b> structure are passed to 
 the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a> structure as a member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_decrypt_para">CMSG_CTRL_DECRYPT_PARA</a> structure to permit the start of the decryption of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">inner content</a>. The streaming code will then perform the decryption as the data is input. The resulting blocks of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">plaintext</a> are passed to the callback function specified by the <b>pfnStreamOutput</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_stream_info">CMSG_STREAM_INFO</a> structure to handle the output of the decrypted message.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_ctrl_decrypt_para">CMSG_CTRL_DECRYPT_PARA</a> structure to permit the start of the decryption of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">inner content</a>. The streaming code will then perform the decryption as the data is input. The resulting blocks of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">plaintext</a> are passed to the callback function specified by the <b>pfnStreamOutput</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_stream_info">CMSG_STREAM_INFO</a> structure to handle the output of the decrypted message.
 
 
 <div class="alert"><b>Note</b>  Streamed decoding of an enveloped message queues the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">ciphertext</a> in memory until <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a> is called to start the decryption. The application must initiate decrypting in a timely manner so that the data can be saved to disk or routed elsewhere before the accumulated <i>ciphertext</i> becomes too large and the system runs out of memory.</div>

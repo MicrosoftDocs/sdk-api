@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 94c89067-9b3e-4d24-9192-a68e284c5d99, MFTOPONODE_ATTRIBUTE_UPDATE, MFTOPONODE_ATTRIBUTE_UPDATE structure [Media Foundation], mf.mftoponode_attribute_update, mfidl/MFTOPONODE_ATTRIBUTE_UPDATE
 ms.topic: struct
-f1_keywords: 
- - "mfidl/MFTOPONODE_ATTRIBUTE_UPDATE"
+f1_keywords:
+- mfidl/MFTOPONODE_ATTRIBUTE_UPDATE
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFTOPONODE_ATTRIBUTE_UPDATE
+- MFTOPONODE_ATTRIBUTE_UPDATE
 product: Windows
 targetos: Windows
 req.typenames: MFTOPONODE_ATTRIBUTE_UPDATE
@@ -73,7 +73,7 @@ GUID that specifies the attribute to update.
 
 ### -field attrType
 
-Attribute type, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mf_attribute_type">MF_ATTRIBUTE_TYPE</a> enumeration.
+Attribute type, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mf_attribute_type">MF_ATTRIBUTE_TYPE</a> enumeration.
           
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFile, GetFile method [BITS], GetFile method [BITS],IBackgroundCopyJob1 interface, IBackgroundCopyJob1 interface [BITS],GetFile method, IBackgroundCopyJob1.GetFile, IBackgroundCopyJob1::GetFile, bits.ibackgroundcopyjob1_getfile, qmgr/IBackgroundCopyJob1::GetFile
 ms.topic: method
-f1_keywords: 
- - "qmgr/IBackgroundCopyJob1.GetFile"
+f1_keywords:
+- qmgr/IBackgroundCopyJob1.GetFile
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob1.GetFile
+- IBackgroundCopyJob1.GetFile
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Zero-based index that identifies the file in the job.
 
 ### -param pFileInfo [out]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/qmgr/ns-qmgr-_filesetinfo">FILESETINFO</a> structure that contains the remote and local names of the file.
+A <a href="https://docs.microsoft.com/windows/desktop/api/qmgr/ns-qmgr-filesetinfo">FILESETINFO</a> structure that contains the remote and local names of the file.
 
 
 ## -returns

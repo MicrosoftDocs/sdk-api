@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReadPreviousLogRestartArea, ReadPreviousLogRestartArea function [Files], clfsw32/ReadPreviousLogRestartArea, fs.readpreviouslogrestartarea
 ms.topic: function
-f1_keywords: 
- - "clfsw32/ReadPreviousLogRestartArea"
+f1_keywords:
+- clfsw32/ReadPreviousLogRestartArea
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Clfsw32.dll
+- Clfsw32.dll
 api_name:
- - ReadPreviousLogRestartArea
+- ReadPreviousLogRestartArea
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,12 +78,12 @@ A pointer to a variable that receives the size of the restart data at <i>*ppvRes
 
 ### -param plsnRestart [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a> structure that receives the log sequence number (LSN) of the restart area  that   this function returns.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that receives the log sequence number (LSN) of the restart area  that   this function returns.
 
 
 ### -param pOverlapped [in, out, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure that  is required for asynchronous operation. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that  is required for asynchronous operation. 
 
 This parameter can be <b>NULL</b> if asynchronous operation is not used.
 
@@ -129,7 +129,7 @@ To obtain a valid pointer,  the client must call <b>ReadPreviousLogRestartArea</
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
 
 
 
@@ -141,7 +141,7 @@ To obtain a valid pointer,  the client must call <b>ReadPreviousLogRestartArea</
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 

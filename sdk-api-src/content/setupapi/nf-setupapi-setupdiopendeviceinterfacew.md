@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiOpenDeviceInterface, SetupDiOpenDeviceInterface function [Device and Driver Installation], SetupDiOpenDeviceInterfaceA, SetupDiOpenDeviceInterfaceW, devinst.setupdiopendeviceinterface, di-rtns_4505f6a3-e634-4070-a9b3-1487c2808838.xml, setupapi/SetupDiOpenDeviceInterface
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiOpenDeviceInterface"
+f1_keywords:
+- setupapi/SetupDiOpenDeviceInterface
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -30,15 +30,15 @@ req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Setupapi.lib
- - Setupapi.dll
+- Setupapi.lib
+- Setupapi.dll
 api_name:
- - SetupDiOpenDeviceInterface
+- SetupDiOpenDeviceInterface
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -85,7 +85,7 @@ Specifies that the device information element for the underlying device will not
 
 ### -param DeviceInterfaceData [out, optional]
 
-A pointer to a caller-initialized  <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_device_interface_data">SP_DEVICE_INTERFACE_DATA</a> structure that receives the requested interface data. This pointer is optional and can be <b>NULL</b>. If a buffer is supplied, the caller must set the <b>cbSize</b> member of the structure to <b>sizeof(</b>SP_DEVICE_INTERFACE_DATA<b>)</b> before calling <b>SetupDiOpenDeviceInterface</b>. For more information, see the following <b>Remarks</b> section.
+A pointer to a caller-initialized  <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_device_interface_data">SP_DEVICE_INTERFACE_DATA</a> structure that receives the requested interface data. This pointer is optional and can be <b>NULL</b>. If a buffer is supplied, the caller must set the <b>cbSize</b> member of the structure to <b>sizeof(</b>SP_DEVICE_INTERFACE_DATA<b>)</b> before calling <b>SetupDiOpenDeviceInterface</b>. For more information, see the following <b>Remarks</b> section.
 
 
 ##### - OpenFlags.DIODI_NO_ADD

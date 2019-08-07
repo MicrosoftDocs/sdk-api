@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcServerUseProtseqEx, RpcServerUseProtseqEx function [RPC], RpcServerUseProtseqExA, RpcServerUseProtseqExW, _rpc_rpcserveruseprotseqex, rpc.rpcserveruseprotseqex, rpcdce/RpcServerUseProtseqEx, rpcdce/RpcServerUseProtseqExA, rpcdce/RpcServerUseProtseqExW
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcServerUseProtseqEx"
+f1_keywords:
+- rpcdce/RpcServerUseProtseqEx
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcServerUseProtseqEx
- - RpcServerUseProtseqExA
- - RpcServerUseProtseqExW
+- RpcServerUseProtseqEx
+- RpcServerUseProtseqExA
+- RpcServerUseProtseqExW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -80,7 +80,7 @@ Pointer to an optional parameter provided for the Windows XP/2000/NT security s
 ### -param Policy
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_policy">RPC_POLICY</a> structure, which contains flags to restrict port allocation for dynamic ports and allow multihomed computers to selectively bind to network interface cards. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_policy">RPC_POLICY</a> structure, which contains flags to restrict port allocation for dynamic ports and allow multihomed computers to selectively bind to network interface cards. The 
 <b>RPC_POLICY</b> structure enables the caller to direct the RPC run-time library to use an intranet port or an Internet port, among other options.
 
 
@@ -166,7 +166,7 @@ The parameters and effects of
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseq">RpcServerUseProtseq</a>. The difference is the <b>Policy</b> field, which allows you to restrict port allocation for dynamic ports and allows multihomed machines to selectively bind to network interface cards.
 
 Setting the <b>NICFlags</b> field of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_policy">RPC_POLICY</a> structure to zero makes this extended function functionally equivalent to the original 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_policy">RPC_POLICY</a> structure to zero makes this extended function functionally equivalent to the original 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseq">RpcServerUseProtseq</a>, and the server will bind to NICs based on the settings in the system registry. For information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/configuring-the-windows-xp-2000-nt-registry-for-port-allocations-and-selective-binding">Configuring the Registry for Port Allocations and Selective Binding</a>.
 

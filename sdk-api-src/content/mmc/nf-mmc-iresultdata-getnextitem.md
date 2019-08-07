@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNextItem, GetNextItem method [MMC], GetNextItem method [MMC],IResultData interface, GetNextItem method [MMC],IResultData2 interface, IResultData interface [MMC],GetNextItem method, IResultData.GetNextItem, IResultData2 interface [MMC],GetNextItem method, IResultData2::GetNextItem, IResultData::GetNextItem, _slate_iresultdata_getnextitem, mmc.iresultdata_getnextitem, mmc/IResultData2::GetNextItem, mmc/IResultData::GetNextItem
 ms.topic: method
-f1_keywords: 
- - "mmc/IResultData.GetNextItem"
+f1_keywords:
+- mmc/IResultData.GetNextItem
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IResultData.GetNextItem
- - IResultData2.GetNextItem
+- IResultData.GetNextItem
+- IResultData2.GetNextItem
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The <b>IResultData::GetNextItem</b> method gets the next item in the result view
 ### -param item [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_resultdataitem">RESULTDATAITEM</a> structure that contains information about the item to be obtained. The <b>nIndex</b> member should be set to the index at which to start the search, or to –1 to start at the first item. The specified index is excluded from the search. The <b>nState</b> member should specify which state flags must be set on the returned item.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-resultdataitem">RESULTDATAITEM</a> structure that contains information about the item to be obtained. The <b>nIndex</b> member should be set to the index at which to start the search, or to –1 to start at the first item. The specified index is excluded from the search. The <b>nState</b> member should specify which state flags must be set on the returned item.
 
 The <b>nIndex</b> member will be updated to the index of the found item (or –1, if none is found). The <b>bScopeItem</b> and <b>lParam</b> members will be set according to the found item.
 

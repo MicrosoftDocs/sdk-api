@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllCreateDigest, CryptXmlDllCreateDigest callback, CryptXmlDllCreateDigest callback function [Security], cryptxml/CryptXmlDllCreateDigest, security.cryptxmldllcreatedigest
 ms.topic: callback
-f1_keywords: 
- - "cryptxml/CryptXmlDllCreateDigest"
+f1_keywords:
+- cryptxml/CryptXmlDllCreateDigest
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - CryptXmlDllCreateDigest
+- CryptXmlDllCreateDigest
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The <b>CryptXmlDllCreateDigest</b> function is exposed through the exported <a h
 
 ### -param *pDigestMethod [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm to use to create the  digest.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm to use to create the  digest.
 
 
 ### -param *pcbSize [out]

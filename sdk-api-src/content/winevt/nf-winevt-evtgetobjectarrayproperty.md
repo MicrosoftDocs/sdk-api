@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtGetObjectArrayProperty, EvtGetObjectArrayProperty function [EventLog], wes.evtgetobjectarrayproperty, winevt/EvtGetObjectArrayProperty
 ms.topic: function
-f1_keywords: 
- - "winevt/EvtGetObjectArrayProperty"
+f1_keywords:
+- winevt/EvtGetObjectArrayProperty
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wevtapi.dll
+- Wevtapi.dll
 api_name:
- - EvtGetObjectArrayProperty
+- EvtGetObjectArrayProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A handle to an array of objects that the <a href="https://docs.microsoft.com/win
 
 ### -param PropertyId [in]
 
-The property identifier of the metadata property that you want to get from the  specified object. For possible values, see the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_publisher_metadata_property_id">EVT_PUBLISHER_METADATA_PROPERTY_ID</a>.
+The property identifier of the metadata property that you want to get from the  specified object. For possible values, see the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_publisher_metadata_property_id">EVT_PUBLISHER_METADATA_PROPERTY_ID</a>.
 
 
 ### -param ArrayIndex [in]
@@ -164,7 +164,7 @@ For an example that shows how to use this function, see <a href="https://docs.mi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_publisher_metadata_property_id">EVT_PUBLISHER_METADATA_PROPERTY_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_publisher_metadata_property_id">EVT_PUBLISHER_METADATA_PROPERTY_ID</a>
 
 
 

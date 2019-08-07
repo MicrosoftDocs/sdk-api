@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DiShowUpdateDevice, DiShowUpdateDevice function [Device and Driver Installation], devinst.dishowupdatedevice, di-rtns_096f087c-2947-4424-861d-af7287eec8ad.xml, newdev/DiShowUpdateDevice
 ms.topic: function
-f1_keywords: 
- - "newdev/DiShowUpdateDevice"
+f1_keywords:
+- newdev/DiShowUpdateDevice
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib: Newdev.lib
 req.dll: Newdev.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Newdev.dll
+- Newdev.dll
 api_name:
- - DiShowUpdateDevice
+- DiShowUpdateDevice
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ins
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the device for which to show the Hardware Update wizard.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the device for which to show the Hardware Update wizard.
 
 
 ### -param Flags [in]

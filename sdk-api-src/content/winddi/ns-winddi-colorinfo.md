@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: bbada28c-d855-4197-acf8-2a070423ddfe
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCOLORINFO, COLORINFO, COLORINFO structure [Display Devices], PCOLORINFO, PCOLORINFO structure pointer [Display Devices], display.colorinfo, grstrcts_1e247041-c753-4925-a86c-fbd246410a72.xml, winddi/COLORINFO, winddi/PCOLORINFO"
+ms.keywords: '*PCOLORINFO, COLORINFO, COLORINFO structure [Display Devices], PCOLORINFO, PCOLORINFO structure pointer [Display Devices], display.colorinfo, grstrcts_1e247041-c753-4925-a86c-fbd246410a72.xml, winddi/COLORINFO, winddi/PCOLORINFO'
 ms.topic: struct
-f1_keywords: 
- - "winddi/COLORINFO"
+f1_keywords:
+- winddi/COLORINFO
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - COLORINFO
+- COLORINFO
 product: Windows
 targetos: Windows
 req.typenames: COLORINFO, *PCOLORINFO
@@ -79,7 +79,7 @@ The COLORINFO structure defines a device's colors in <a href="https://docs.micro
 
 ### -field AlignmentWhite
 
-Specify <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ciechroma">CIECHROMA</a> structures that each define the x-coordinate, y-coordinate, and Y-coordinate (luminance) of the named color.
+Specify <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ciechroma">CIECHROMA</a> structures that each define the x-coordinate, y-coordinate, and Y-coordinate (luminance) of the named color.
 
 The <b>Cyan</b> member can have a special meaning for monochrome printers. <b>Cyan.Y</b> must be set to 65534 (0xFFFE) to enable all of the grayscale halftone pattern sizes. For more information, see the following Remarks section.
 
@@ -121,7 +121,7 @@ Used for printing devices to describe color purity and concentration. Values sho
 
 The LDECI4 type is used to represent real numbers to four decimal places. For example, (LDECI4) 10000 represents the real number 1.0000, and (LDECI4) -12345 represents -1.2345.
 
-For a monochrome printer, if you set the luminance for the <b>Cyan</b> member (that is, <b>Cyan.Y</b>) to 65534 (0xFFFE), you can select any of the available halftone pattern sizes. To select a halftone pattern size for a monochrome printer, set the <b>ulHTPatternSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo">GDIINFO</a> structure to the halftone pattern size that you want. If <b>Cyan.Y</b> is not set to 65534 (0xFFFE), halftone pattern sizes other than HT_PATSIZE_8x8_M or HT_PATSIZE_8x8 are converted to HT_PATSIZE_DEFAULT.
+For a monochrome printer, if you set the luminance for the <b>Cyan</b> member (that is, <b>Cyan.Y</b>) to 65534 (0xFFFE), you can select any of the available halftone pattern sizes. To select a halftone pattern size for a monochrome printer, set the <b>ulHTPatternSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure to the halftone pattern size that you want. If <b>Cyan.Y</b> is not set to 65534 (0xFFFE), halftone pattern sizes other than HT_PATSIZE_8x8_M or HT_PATSIZE_8x8 are converted to HT_PATSIZE_DEFAULT.
 
 Setting the <b>RedGamma</b>, <b>BlueGamma</b>, and <b>GreenGamma</b> members of this structure to 0xFFFF can affect color management in printers when <a href="https://docs.microsoft.com/windows-hardware/drivers/display/image-color-management">Image Color Management</a> (ICM) is disabled. In this situation, the GDI halftone module switches from performing its own color management to performing none, which potentially can cause a significant change in the resulting printer output. When ICM is enabled (and <b>RedGamma</b>, <b>BlueGamma</b>, and <b>GreenGamma</b> are set to 0XFFFF), there is no difference in color output. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/color-management-for-printers">Color Management for Printers</a>.
 
@@ -135,7 +135,7 @@ Any values in the COLORINFO structure that are out of the specified range defaul
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ciechroma">CIECHROMA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ciechroma">CIECHROMA</a>
 
 
 
@@ -143,7 +143,7 @@ Any values in the COLORINFO structure that are out of the specified range defaul
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo">GDIINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>
  
 
  

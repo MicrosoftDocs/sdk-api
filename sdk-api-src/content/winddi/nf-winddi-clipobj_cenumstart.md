@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLIPOBJ_cEnumStart, CLIPOBJ_cEnumStart function [Display Devices], display.clipobj_cenumstart, gdifncs_53ccc337-0aa7-442c-a612-facb369b66c6.xml, winddi/CLIPOBJ_cEnumStart
 ms.topic: function
-f1_keywords: 
- - "winddi/CLIPOBJ_cEnumStart"
+f1_keywords:
+- winddi/CLIPOBJ_cEnumStart
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - CLIPOBJ_cEnumStart
+- CLIPOBJ_cEnumStart
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>CLIPOBJ_cEnumStart</b> function sets parameters for enumerating rectangle
 
 ### -param pco [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_clipobj">CLIPOBJ</a> structure that defines the clip region to be enumerated.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure that defines the clip region to be enumerated.
 
 
 ### -param bAll [in]
@@ -169,7 +169,7 @@ The driver can restart enumeration by calling this function again.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_clipobj">CLIPOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a>
 
 
 

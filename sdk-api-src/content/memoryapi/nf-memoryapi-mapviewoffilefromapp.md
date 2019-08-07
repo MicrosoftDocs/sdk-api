@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_LARGE_PAGES, FILE_MAP_READ, FILE_MAP_TARGETS_INVALID, FILE_MAP_WRITE, MapViewOfFileFromApp, MapViewOfFileFromApp function, base.mapviewoffilefromapp, memoryapi/MapViewOfFileFromApp
 ms.topic: function
-f1_keywords: 
- - "memoryapi/MapViewOfFileFromApp"
+f1_keywords:
+- memoryapi/MapViewOfFileFromApp
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-1.dll
- - KernelBase.dll
- - API-MS-Win-Core-memory-l1-1-2.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-1.dll
+- KernelBase.dll
+- API-MS-Win-Core-memory-l1-1-2.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - MapViewOfFileFromApp
+- MapViewOfFileFromApp
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -197,7 +197,7 @@ The file offset where the view is to begin. The offset must specify an offset wi
        must also match the  memory allocation granularity of the system. That is, the offset must be a multiple of the 
        allocation granularity. To obtain the memory allocation granularity of the system, use the 
        <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function, which fills in the members of 
-       a <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-_system_info">SYSTEM_INFO</a> structure.
+       a <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info">SYSTEM_INFO</a> structure.
 
 
 ### -param NumberOfBytesToMap [in]
@@ -275,7 +275,7 @@ The exception is related to remote files. Although
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-_system_info">SYSTEM_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info">SYSTEM_INFO</a>
 
 
 

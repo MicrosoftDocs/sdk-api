@@ -8,10 +8,10 @@ tech.root: Dfs
 ms.assetid: b0fa6fca-8e60-447d-9334-c4df04f13439
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDFS_INFO_150, *PDFS_INFO_150, DFS_INFO_150, DFS_INFO_150 structure [Distributed File System], PDFS_INFO_150, PDFS_INFO_150 structure pointer [Distributed File System], dfs.dfs_info_150, fs.dfs_info_150, lmdfs/DFS_INFO_150, lmdfs/PDFS_INFO_150"
+ms.keywords: '*LPDFS_INFO_150, *PDFS_INFO_150, DFS_INFO_150, DFS_INFO_150 structure [Distributed File System], PDFS_INFO_150, PDFS_INFO_150 structure pointer [Distributed File System], dfs.dfs_info_150, fs.dfs_info_150, lmdfs/DFS_INFO_150, lmdfs/PDFS_INFO_150'
 ms.topic: struct
-f1_keywords: 
- - "lmdfs/DFS_INFO_150"
+f1_keywords:
+- lmdfs/DFS_INFO_150
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - LmDfs.h
+- LmDfs.h
 api_name:
- - DFS_INFO_150
+- DFS_INFO_150
 product: Windows
 targetos: Windows
 req.typenames: DFS_INFO_150, *PDFS_INFO_150, *LPDFS_INFO_150
@@ -83,7 +83,7 @@ This member is reserved for system use.
 
 ### -field pSecurityDescriptor
 
-Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> 
+Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> 
       structure that specifies a self-relative security descriptor to be associated with the DFS link's reparse 
       point. This field is valid for DFS links only.
 

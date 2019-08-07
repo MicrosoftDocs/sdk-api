@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaultRequest, FaultRequest method, FaultRequest method,IWSDServiceMessaging interface, IWSDServiceMessaging interface,FaultRequest method, IWSDServiceMessaging.FaultRequest, IWSDServiceMessaging::FaultRequest, ncd.iwsdservicemessaging_faultrequest, wsdhost/IWSDServiceMessaging::FaultRequest
 ms.topic: method
-f1_keywords: 
- - "wsdhost/IWSDServiceMessaging.FaultRequest"
+f1_keywords:
+- wsdhost/IWSDServiceMessaging.FaultRequest
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDServiceMessaging.FaultRequest
+- IWSDServiceMessaging.FaultRequest
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Sends a fault matching a given request context.  This method should be called on
 
 ### -param pRequestHeader [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_header">WSD_SOAP_HEADER</a> structure that contains the SOAP header of the original request that caused the fault.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_header">WSD_SOAP_HEADER</a> structure that contains the SOAP header of the original request that caused the fault.
 
 
 ### -param pMessageParameters [in]
@@ -71,7 +71,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn
 
 ### -param pFault [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_fault">WSD_SOAP_FAULT</a> structure that describes the fault to serialize and send. If this parameter is omitted, a fault of type <b>wsa:EndpointUnavailable</b> will be sent.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a> structure that describes the fault to serialize and send. If this parameter is omitted, a fault of type <b>wsa:EndpointUnavailable</b> will be sent.
 
 
 ## -returns

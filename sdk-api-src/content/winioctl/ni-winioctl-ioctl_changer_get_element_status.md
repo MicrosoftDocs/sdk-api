@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_GET_ELEMENT_STATUS, IOCTL_CHANGER_GET_ELEMENT_STATUS control, IOCTL_CHANGER_GET_ELEMENT_STATUS control code, _win32_ioctl_changer_get_element_status, base.ioctl_changer_get_element_status, winioctl/IOCTL_CHANGER_GET_ELEMENT_STATUS
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_CHANGER_GET_ELEMENT_STATUS"
+f1_keywords:
+- winioctl/IOCTL_CHANGER_GET_ELEMENT_STATUS
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_CHANGER_GET_ELEMENT_STATUS
+- IOCTL_CHANGER_GET_ELEMENT_STATUS
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -150,15 +150,15 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_element_status">CHANGER_ELEMENT_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element_status">CHANGER_ELEMENT_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_element_status_ex">CHANGER_ELEMENT_STATUS_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element_status_ex">CHANGER_ELEMENT_STATUS_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_read_element_status">CHANGER_READ_ELEMENT_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_read_element_status">CHANGER_READ_ELEMENT_STATUS</a>
 
 
 

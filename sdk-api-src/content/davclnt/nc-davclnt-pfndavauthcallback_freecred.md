@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DavFreeCredCallback, DavFreeCredCallback callback function [WebDAV], PFNDAVAUTHCALLBACK_FREECRED, PFNDAVAUTHCALLBACK_FREECRED callback, davclnt/DavFreeCredCallback, webdav.freecredcallback
 ms.topic: callback
-f1_keywords: 
- - "davclnt/DavFreeCredCallback"
+f1_keywords:
+- davclnt/DavFreeCredCallback
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Davclnt.h
+- Davclnt.h
 api_name:
- - DavFreeCredCallback
+- DavFreeCredCallback
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The <i>PFNDAVAUTHCALLBACK_FREECRED</i> type defines a pointer to this callback f
 
 ### -param pbuffer [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-_dav_callback_auth_unp">DAV_CALLBACK_AUTH_UNP</a> or <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-_dav_callback_auth_blob">DAV_CALLBACK_AUTH_BLOB</a>  structure that was used in the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> callback function.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_unp">DAV_CALLBACK_AUTH_UNP</a> or <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_blob">DAV_CALLBACK_AUTH_BLOB</a>  structure that was used in the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback">DavAuthCallback</a> callback function.
 
 
 ## -returns
@@ -83,7 +83,7 @@ If the function fails, the return value is a <a href="https://docs.microsoft.com
 
 The <i>DavFreeCredCallback</i> callback function must be registered by calling the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nf-davclnt-davregisterauthcallback">DavRegisterAuthCallback</a> function.
 
-This callback function should free only the buffer that the <b>pBuffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-_dav_callback_auth_unp">DAV_CALLBACK_AUTH_UNP</a> or <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-_dav_callback_auth_blob">DAV_CALLBACK_AUTH_BLOB</a> structure points to, not the entire structure.
+This callback function should free only the buffer that the <b>pBuffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_unp">DAV_CALLBACK_AUTH_UNP</a> or <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_blob">DAV_CALLBACK_AUTH_BLOB</a> structure points to, not the entire structure.
 
 
 
@@ -93,7 +93,7 @@ This callback function should free only the buffer that the <b>pBuffer</b> membe
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-_dav_callback_cred">DAV_CALLBACK_CRED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_cred">DAV_CALLBACK_CRED</a>
 
 
 

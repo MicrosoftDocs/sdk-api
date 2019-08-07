@@ -8,10 +8,10 @@ tech.root: NetMgmt
 ms.assetid: daa4594f-e59e-4f05-8183-677bee4ea446
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSTD_ALERT, *PSTD_ALERT, ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT, ALERT_MESSAGE_EVENT, ALERT_PRINT_EVENT, ALERT_USER_EVENT, LPSTD_ALERT, LPSTD_ALERT structure pointer [Network Management], PSTD_ALERT, PSTD_ALERT structure pointer [Network Management], STD_ALERT, STD_ALERT structure [Network Management], _win32_std_alert_str, lmalert/LPSTD_ALERT, lmalert/PSTD_ALERT, lmalert/STD_ALERT, netmgmt.std_alert_str"
+ms.keywords: '*LPSTD_ALERT, *PSTD_ALERT, ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT, ALERT_MESSAGE_EVENT, ALERT_PRINT_EVENT, ALERT_USER_EVENT, LPSTD_ALERT, LPSTD_ALERT structure pointer [Network Management], PSTD_ALERT, PSTD_ALERT structure pointer [Network Management], STD_ALERT, STD_ALERT structure [Network Management], _win32_std_alert_str, lmalert/LPSTD_ALERT, lmalert/PSTD_ALERT, lmalert/STD_ALERT, netmgmt.std_alert_str'
 ms.topic: struct
-f1_keywords: 
- - "lmalert/STD_ALERT"
+f1_keywords:
+- lmalert/STD_ALERT
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmalert.h
+- Lmalert.h
 api_name:
- - STD_ALERT
+- STD_ALERT
 product: Windows
 targetos: Windows
 req.typenames: STD_ALERT, *PSTD_ALERT, *LPSTD_ALERT
@@ -149,15 +149,15 @@ A Unicode string indicating the service application that is raising the alert me
 
 The 
 <b>STD_ALERT</b> structure must be followed by one 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_admin_other_info">ADMIN_OTHER_INFO</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_errlog_other_info">ERRLOG_OTHER_INFO</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_print_other_info">PRINT_OTHER_INFO</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_user_other_info">USER_OTHER_INFO</a> structure. These structures can optionally be followed by variable-length data. The calling application must allocate the memory for all structures and variable-length data in an alert message buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-errlog_other_info">ERRLOG_OTHER_INFO</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-print_other_info">PRINT_OTHER_INFO</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a> structure. These structures can optionally be followed by variable-length data. The calling application must allocate the memory for all structures and variable-length data in an alert message buffer.
 
 See 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraise">NetAlertRaise</a> for a code sample that raises an administrative alert using a 
 <b>STD_ALERT</b> structure and an 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_admin_other_info">ADMIN_OTHER_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a> structure.
 
 
 
@@ -167,7 +167,7 @@ See
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_admin_other_info">ADMIN_OTHER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>
 
 
 
@@ -175,7 +175,7 @@ See
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_errlog_other_info">ERRLOG_OTHER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-errlog_other_info">ERRLOG_OTHER_INFO</a>
 
 
 
@@ -191,11 +191,11 @@ See
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_print_other_info">PRINT_OTHER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-print_other_info">PRINT_OTHER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_user_other_info">USER_OTHER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a>
  
 
  

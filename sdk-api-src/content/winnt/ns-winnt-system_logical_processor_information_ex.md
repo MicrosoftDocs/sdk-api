@@ -8,10 +8,10 @@ tech.root: ProcThread
 ms.assetid: 6ff16cda-c1dc-4d5c-ac60-756653cd6b07
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure pointer, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure, _SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, base.system_logical_processor_information_ex, winnt/PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, winnt/SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX"
+ms.keywords: '*PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure pointer, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure, _SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, base.system_logical_processor_information_ex, winnt/PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, winnt/SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX'
 ms.topic: struct
-f1_keywords: 
- - "winnt/SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX"
+f1_keywords:
+- winnt/SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX
+- SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX
 product: Windows
 targetos: Windows
 req.typenames: SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX, *PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX
@@ -61,7 +61,7 @@ Contains information about the relationships of logical processors and related h
 
 ### -field Relationship
 
-The type of relationship between the logical processors. This parameter can be one of the following <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_logical_processor_relationship">LOGICAL_PROCESSOR_RELATIONSHIP</a> values.
+The type of relationship between the logical processors. This parameter can be one of the following <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-logical_processor_relationship">LOGICAL_PROCESSOR_RELATIONSHIP</a> values.
 
 <table>
 <tr>
@@ -139,22 +139,22 @@ The size of the structure.
 
 ### -field DUMMYUNIONNAME.Processor
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_relationship">PROCESSOR_RELATIONSHIP</a> structure that describes processor affinity. This structure contains valid data only if the <b>Relationship</b> member is <b>RelationProcessorCore</b> or <b>RelationProcessorPackage</b>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_relationship">PROCESSOR_RELATIONSHIP</a> structure that describes processor affinity. This structure contains valid data only if the <b>Relationship</b> member is <b>RelationProcessorCore</b> or <b>RelationProcessorPackage</b>.
 
 
 ### -field DUMMYUNIONNAME.NumaNode
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_numa_node_relationship">NUMA_NODE_RELATIONSHIP</a> structure that describes a NUMA node. This structure contains valid data only if the <b>Relationship</b> member is <b>RelationNumaNode</b>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-numa_node_relationship">NUMA_NODE_RELATIONSHIP</a> structure that describes a NUMA node. This structure contains valid data only if the <b>Relationship</b> member is <b>RelationNumaNode</b>.
 
 
 ### -field DUMMYUNIONNAME.Cache
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_cache_relationship">CACHE_RELATIONSHIP</a> structure that describes cache attributes. This structure contains valid data only if the <b>Relationship</b> member is <b>RelationCache</b>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-cache_relationship">CACHE_RELATIONSHIP</a> structure that describes cache attributes. This structure contains valid data only if the <b>Relationship</b> member is <b>RelationCache</b>.
 
 
 ### -field DUMMYUNIONNAME.Group
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_group_relationship">GROUP_RELATIONSHIP</a> structure that contains information about the processor groups. This structure contains valid data only if the <b>Relationship</b> member is <b>RelationGroup</b>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_relationship">GROUP_RELATIONSHIP</a> structure that contains information about the processor groups. This structure contains valid data only if the <b>Relationship</b> member is <b>RelationGroup</b>.
 
 
 ## -see-also
@@ -162,19 +162,19 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_group_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_cache_relationship">CACHE_RELATIONSHIP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-cache_relationship">CACHE_RELATIONSHIP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_group_relationship">GROUP_RELATIONSHIP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_relationship">GROUP_RELATIONSHIP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_numa_node_relationship">NUMA_NODE_RELATIONSHIP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-numa_node_relationship">NUMA_NODE_RELATIONSHIP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_relationship">PROCESSOR_RELATIONSHIP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_relationship">PROCESSOR_RELATIONSHIP</a>
  
 
  

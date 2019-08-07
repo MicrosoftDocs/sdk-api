@@ -2,16 +2,16 @@
 UID: NS:wincrypt._CRYPT_ENCRYPTED_PRIVATE_KEY_INFO
 title: CRYPT_ENCRYPTED_PRIVATE_KEY_INFO (wincrypt.h)
 author: windows-sdk-content
-description: Contains the information in a PKCS #8 EncryptedPrivateKeyInfo ASN.1 type found in the PKCS #8 standard.
+description: Contains the information in a PKCS
 old-location: security\crypt_encrypted_private_key_info.htm
 tech.root: SecCrypto
 ms.assetid: 5e80d6d1-2e38-4a2d-90df-e6e4000cd626
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO, CRYPT_ENCRYPTED_PRIVATE_KEY_INFO, CRYPT_ENCRYPTED_PRIVATE_KEY_INFO structure [Security], PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO, PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO structure pointer [Security], security.crypt_encrypted_private_key_info, wincrypt/CRYPT_ENCRYPTED_PRIVATE_KEY_INFO, wincrypt/PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO"
+ms.keywords: '*PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO, CRYPT_ENCRYPTED_PRIVATE_KEY_INFO, CRYPT_ENCRYPTED_PRIVATE_KEY_INFO structure [Security], PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO, PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO structure pointer [Security], security.crypt_encrypted_private_key_info, wincrypt/CRYPT_ENCRYPTED_PRIVATE_KEY_INFO, wincrypt/PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_ENCRYPTED_PRIVATE_KEY_INFO"
+f1_keywords:
+- wincrypt/CRYPT_ENCRYPTED_PRIVATE_KEY_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_ENCRYPTED_PRIVATE_KEY_INFO
+- CRYPT_ENCRYPTED_PRIVATE_KEY_INFO
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_ENCRYPTED_PRIVATE_KEY_INFO, *PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO
@@ -64,7 +64,7 @@ EncryptedPrivateKeyInfo ASN.1 type found in the PKCS #8 standard.
 
 ### -field EncryptionAlgorithm
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that indicates the algorithm used for encryption.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that indicates the algorithm used for encryption.
 
 
 ### -field EncryptedPrivateKey
@@ -77,7 +77,7 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
 
 
 

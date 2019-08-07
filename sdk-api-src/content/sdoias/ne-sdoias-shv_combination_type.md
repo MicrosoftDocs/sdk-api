@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHV_COMBINATION_TYPE, SHV_COMBINATION_TYPE enumeration [Network Policy Server], SHV_COMBINATION_TYPE_ALL_FAIL, SHV_COMBINATION_TYPE_ALL_PASS, SHV_COMBINATION_TYPE_MAX, SHV_COMBINATION_TYPE_ONE_OR_MORE_FAIL, SHV_COMBINATION_TYPE_ONE_OR_MORE_INFECTED, SHV_COMBINATION_TYPE_ONE_OR_MORE_PASS, SHV_COMBINATION_TYPE_ONE_OR_MORE_TRANSITIONAL, SHV_COMBINATION_TYPE_ONE_OR_MORE_UNKNOWN, nps.SDO_shv_combination_type, sdo.shv_combination_type, sdoias/SHV_COMBINATION_TYPE, sdoias/SHV_COMBINATION_TYPE_ALL_FAIL, sdoias/SHV_COMBINATION_TYPE_ALL_PASS, sdoias/SHV_COMBINATION_TYPE_MAX, sdoias/SHV_COMBINATION_TYPE_ONE_OR_MORE_FAIL, sdoias/SHV_COMBINATION_TYPE_ONE_OR_MORE_INFECTED, sdoias/SHV_COMBINATION_TYPE_ONE_OR_MORE_PASS, sdoias/SHV_COMBINATION_TYPE_ONE_OR_MORE_TRANSITIONAL, sdoias/SHV_COMBINATION_TYPE_ONE_OR_MORE_UNKNOWN
 ms.topic: enum
-f1_keywords: 
- - "sdoias/SHV_COMBINATION_TYPE"
+f1_keywords:
+- sdoias/SHV_COMBINATION_TYPE
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - SHV_COMBINATION_TYPE
+- SHV_COMBINATION_TYPE
 product: Windows
 targetos: Windows
 req.typenames: SHV_COMBINATION_TYPE
@@ -90,7 +90,7 @@ Use this constant to test whether the value is in range.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iascommonproperties">IASCOMMONPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
  
 
  

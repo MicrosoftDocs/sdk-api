@@ -8,10 +8,10 @@ tech.root: usbref
 ms.assetid: b4f35d7e-b0e3-44d9-8e41-1752cb0af5ef
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PUSB_POWER_INFO, PUSB_POWER_INFO, PUSB_POWER_INFO structure pointer [Buses], USB_POWER_INFO, USB_POWER_INFO structure [Buses], buses.usb_power_info, usbstrct_95ba66ea-20ee-4e05-8294-3b3bd06f7116.xml, usbuser/PUSB_POWER_INFO, usbuser/USB_POWER_INFO"
+ms.keywords: '*PUSB_POWER_INFO, PUSB_POWER_INFO, PUSB_POWER_INFO structure pointer [Buses], USB_POWER_INFO, USB_POWER_INFO structure [Buses], buses.usb_power_info, usbstrct_95ba66ea-20ee-4e05-8294-3b3bd06f7116.xml, usbuser/PUSB_POWER_INFO, usbuser/USB_POWER_INFO'
 ms.topic: struct
-f1_keywords: 
- - "usbuser/USB_POWER_INFO"
+f1_keywords:
+- usbuser/USB_POWER_INFO
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - usbuser.h
+- usbuser.h
 api_name:
- - USB_POWER_INFO
+- USB_POWER_INFO
 product: Windows
 targetos: Windows
 req.typenames: USB_POWER_INFO, *PUSB_POWER_INFO
@@ -61,42 +61,42 @@ The <b>USB_POWER_INFO</b> structure is used with the <a href="https://docs.micro
 
 ### -field SystemState
 
-On input, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-_wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the system power state.
+On input, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the system power state.
 
 
 ### -field HcDevicePowerState
 
-On output, an <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-_wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the device power state of the host controller.
+On output, an <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the device power state of the host controller.
 
 
 ### -field HcDeviceWake
 
-On output, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-_wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the host controller is in a wake state.
+On output, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the host controller is in a wake state.
 
 
 ### -field HcSystemWake
 
-On output, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-_wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the host controller can wake the system.
+On output, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the host controller can wake the system.
 
 
 ### -field RhDevicePowerState
 
-On output, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-_wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the device power state of the root hub.
+On output, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the device power state of the root hub.
 
 
 ### -field RhDeviceWake
 
-On output, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-_wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the root hub is in a wake state.
+On output, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the root hub is in a wake state.
 
 
 ### -field RhSystemWake
 
-On output, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-_wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the root hub can wake the system.
+On output, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies whether the root hub can wake the system.
 
 
 ### -field LastSystemSleepState
 
-On output, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-_wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the last system sleep state.
+On output, a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ne-usbuser-wdmusb_power_state">WDMUSB_POWER_STATE</a>-type enumerator value that specifies the last system sleep state.
 
 
 ### -field CanWakeup

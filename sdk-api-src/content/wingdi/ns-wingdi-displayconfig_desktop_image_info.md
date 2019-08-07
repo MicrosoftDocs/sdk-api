@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DISPLAYCONFIG_DESKTOP_IMAGE_INFO, DISPLAYCONFIG_DESKTOP_IMAGE_INFO structure [Display Devices], display.displayconfig_desktop_image_info, wingdi/DISPLAYCONFIG_DESKTOP_IMAGE_INFO
 ms.topic: struct
-f1_keywords: 
- - "wingdi/DISPLAYCONFIG_DESKTOP_IMAGE_INFO"
+f1_keywords:
+- wingdi/DISPLAYCONFIG_DESKTOP_IMAGE_INFO
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wingdi.h
+- wingdi.h
 api_name:
- - DISPLAYCONFIG_DESKTOP_IMAGE_INFO
+- DISPLAYCONFIG_DESKTOP_IMAGE_INFO
 product: Windows
 targetos: Windows
 req.typenames: DISPLAYCONFIG_DESKTOP_IMAGE_INFO
@@ -66,10 +66,10 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_poin
 
 ### -field DesktopImageRegion
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that defines where the desktop image will be positioned within path source. 	Region must be completely inside the bounds of the path source size.
+A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that defines where the desktop image will be positioned within path source. 	Region must be completely inside the bounds of the path source size.
 
 
 ### -field DesktopImageClip
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that defines which part of the desktop image for this clone group will be displayed on this path. This currently must be set to the desktop size.
+A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that defines which part of the desktop image for this clone group will be displayed on this path. This currently must be set to the desktop size.
 

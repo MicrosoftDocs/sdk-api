@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_ANY_ATTRIBUTES_TYPE, WS_BOOL_TYPE, WS_BYTES_TYPE, WS_BYTE_ARRAY_TYPE, WS_CHAR_ARRAY_TYPE, WS_CUSTOM_TYPE, WS_DATETIME_TYPE, WS_DECIMAL_TYPE, WS_DESCRIPTION_TYPE, WS_DOUBLE_TYPE, WS_DURATION_TYPE, WS_ENDPOINT_ADDRESS_TYPE, WS_ENUM_TYPE, WS_FAULT_TYPE, WS_FLOAT_TYPE, WS_GUID_TYPE, WS_INT16_TYPE, WS_INT32_TYPE, WS_INT64_TYPE, WS_INT8_TYPE, WS_STRING_TYPE, WS_STRUCT_TYPE, WS_TIMESPAN_TYPE, WS_TYPE, WS_TYPE enumeration [Web Services for Windows], WS_UINT16_TYPE, WS_UINT32_TYPE, WS_UINT64_TYPE, WS_UINT8_TYPE, WS_UNION_TYPE, WS_UNIQUE_ID_TYPE, WS_UTF8_ARRAY_TYPE, WS_VOID_TYPE, WS_WSZ_TYPE, WS_XML_BUFFER_TYPE, WS_XML_QNAME_TYPE, WS_XML_STRING_TYPE, webservices/WS_ANY_ATTRIBUTES_TYPE, webservices/WS_BOOL_TYPE, webservices/WS_BYTES_TYPE, webservices/WS_BYTE_ARRAY_TYPE, webservices/WS_CHAR_ARRAY_TYPE, webservices/WS_CUSTOM_TYPE, webservices/WS_DATETIME_TYPE, webservices/WS_DECIMAL_TYPE, webservices/WS_DESCRIPTION_TYPE, webservices/WS_DOUBLE_TYPE, webservices/WS_DURATION_TYPE, webservices/WS_ENDPOINT_ADDRESS_TYPE, webservices/WS_ENUM_TYPE, webservices/WS_FAULT_TYPE, webservices/WS_FLOAT_TYPE, webservices/WS_GUID_TYPE, webservices/WS_INT16_TYPE, webservices/WS_INT32_TYPE, webservices/WS_INT64_TYPE, webservices/WS_INT8_TYPE, webservices/WS_STRING_TYPE, webservices/WS_STRUCT_TYPE, webservices/WS_TIMESPAN_TYPE, webservices/WS_TYPE, webservices/WS_UINT16_TYPE, webservices/WS_UINT32_TYPE, webservices/WS_UINT64_TYPE, webservices/WS_UINT8_TYPE, webservices/WS_UNION_TYPE, webservices/WS_UNIQUE_ID_TYPE, webservices/WS_UTF8_ARRAY_TYPE, webservices/WS_VOID_TYPE, webservices/WS_WSZ_TYPE, webservices/WS_XML_BUFFER_TYPE, webservices/WS_XML_QNAME_TYPE, webservices/WS_XML_STRING_TYPE, wsw.ws_type
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_TYPE"
+f1_keywords:
+- webservices/WS_TYPE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_TYPE
+- WS_TYPE
 product: Windows
 targetos: Windows
 req.typenames: WS_TYPE
@@ -128,7 +128,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                
@@ -139,7 +139,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 Used when serializing a signed 8-bit integer (<b>char</b>).
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_int8_description">WS_INT8_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_int8_description">WS_INT8_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -202,7 +202,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -213,7 +213,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 Used when serializing a signed 16-bit integer (<b>short</b>).
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_int16_description">WS_INT16_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_int16_description">WS_INT16_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -276,7 +276,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -287,7 +287,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 Used when serializing a signed 32-bit integer.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_int32_description">WS_INT32_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_int32_description">WS_INT32_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -350,7 +350,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -361,7 +361,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 Used when serializing a signed 64-bit integer.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_int64_description">WS_INT64_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_int64_description">WS_INT64_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -424,7 +424,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -435,7 +435,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 Used when serializing an unsigned 8-bit integer (<b>BYTE</b>).
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_uint8_description">WS_UINT8_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_uint8_description">WS_UINT8_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -498,7 +498,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -509,7 +509,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 Used when serializing an unsigned 16-bit integer.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_uint16_description">WS_UINT16_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_uint16_description">WS_UINT16_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -572,7 +572,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -583,7 +583,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 Used when serializing an unsigned 32-bit integer.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_uint32_description">WS_UINT32_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_uint32_description">WS_UINT32_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -646,7 +646,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -657,7 +657,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 Used when serializing an unsigned 64-bit integer.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_uint64_description">WS_UINT64_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_uint64_description">WS_UINT64_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -720,7 +720,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -731,7 +731,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 Used when serializing a <b>float</b>.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_float_description">WS_FLOAT_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_float_description">WS_FLOAT_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -794,7 +794,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -805,7 +805,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 Used when serializing a <b>double</b>.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_double_description">WS_DOUBLE_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_double_description">WS_DOUBLE_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -868,7 +868,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -879,7 +879,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 Used when serializing a <b>DECIMAL</b>.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_decimal_description">WS_DECIMAL_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_decimal_description">WS_DECIMAL_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -942,7 +942,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -950,10 +950,10 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 
 ### -field WS_DATETIME_TYPE
 
-Used when serializing a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_datetime">WS_DATETIME</a>.
+Used when serializing a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a>.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_datetime_description">WS_DATETIME_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_datetime_description">WS_DATETIME_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -1016,7 +1016,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -1024,10 +1024,10 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 
 ### -field WS_TIMESPAN_TYPE
 
-Used when serializing a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_timespan">WS_TIMESPAN</a>.
+Used when serializing a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_timespan">WS_TIMESPAN</a>.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_timespan_description">WS_TIMESPAN_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_timespan_description">WS_TIMESPAN_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -1090,7 +1090,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -1101,7 +1101,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 Used when serializing a <b>GUID</b>.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_guid_description">WS_GUID_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_guid_description">WS_GUID_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -1164,7 +1164,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -1172,10 +1172,10 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 
 ### -field WS_UNIQUE_ID_TYPE
 
-Used when serializing a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_unique_id">WS_UNIQUE_ID</a>.
+Used when serializing a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_unique_id">WS_UNIQUE_ID</a>.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_unique_id_description">WS_UNIQUE_ID_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_unique_id_description">WS_UNIQUE_ID_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -1238,7 +1238,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -1246,10 +1246,10 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 
 ### -field WS_STRING_TYPE
 
-Used when serializing a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_string">WS_STRING</a>.
+Used when serializing a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_string">WS_STRING</a>.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_string_description">WS_STRING_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_string_description">WS_STRING_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -1319,7 +1319,7 @@ A nil value is represented by setting the chars field to <b>NULL</b> and specify
                     is <b>NULL</b> or not when the length is zero.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -1330,7 +1330,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 Used when serializing a zero-terminated <b>WCHAR</b>*.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_wsz_description">WS_WSZ_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_wsz_description">WS_WSZ_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -1402,7 +1402,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                     The default value should point to the address of a WCHAR*, and 
@@ -1412,10 +1412,10 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 
 ### -field WS_BYTES_TYPE
 
-Used when serializing a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_bytes">WS_BYTES</a>.
+Used when serializing a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_bytes">WS_BYTES</a>.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_bytes_description">WS_BYTES_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_bytes_description">WS_BYTES_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -1482,7 +1482,7 @@ A nil value is represented by setting the bytes field to <b>NULL</b> and specify
                     <b>NULL</b> or not when the length is zero.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -1490,10 +1490,10 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 
 ### -field WS_XML_STRING_TYPE
 
-Used when serializing a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_string">WS_XML_STRING</a>.
+Used when serializing a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a>.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_string_description">WS_XML_STRING_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string_description">WS_XML_STRING_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -1563,7 +1563,7 @@ A nil value is represented by setting the bytes field to <b>NULL</b> and specify
                     <b>NULL</b> or not when the length is zero.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -1571,10 +1571,10 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 
 ### -field WS_XML_QNAME_TYPE
 
-Used when serializing a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_qname">WS_XML_QNAME</a>.
+Used when serializing a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_qname">WS_XML_QNAME</a>.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_qname_description">WS_XML_QNAME_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_qname_description">WS_XML_QNAME_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -1638,7 +1638,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -1713,7 +1713,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a>.
+This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
                 
 
 The interpretation of the contents of the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> is as follows:
@@ -1790,7 +1790,7 @@ When used with <a href="https://docs.microsoft.com/windows/desktop/api/webservic
 Used when serializing two fields of a structure as a unit: a <b>WCHAR</b>* field which
                     points to an array of WCHARs, and a ULONG field which contains the number
                     of characters in the array.  This type may only be used within a
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
                 
 
 <pre class="syntax" xml:space="preserve"><code>
@@ -1801,7 +1801,7 @@ struct
 } value;</code></pre>
 The fields can be anywhere in the contained structure and in any order, since
                     their offsets within the structure are specified separately as part of the
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
                     The offset of the count field is specified in the countOffset field, and the
                     offset of the chars field is specified in the offset field.
                 
@@ -1809,14 +1809,14 @@ The fields can be anywhere in the contained structure and in any order, since
 Embedded zeros are allowed in the array of characters.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_char_array_description">WS_CHAR_ARRAY_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_char_array_description">WS_CHAR_ARRAY_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
 This type cannot be used with any <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a> values.
                 
 
-This type may only be used within a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
+This type may only be used within a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
                 
 
 This type can be used with the following <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> values:
@@ -1871,7 +1871,7 @@ A nil string is represented by setting the chars field to <b>NULL</b> and specif
                     <b>NULL</b> or not (in both cases the length is zero).
                 
 
-This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a>.
+This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
                 
 
 
@@ -1880,7 +1880,7 @@ This type does not support specifying a <a href="https://docs.microsoft.com/wind
 Used when serializing two fields of a structure as a unit: a BYTE* field which
                     points to an array of UTF8 bytes, and a ULONG field which contains the number
                     of bytes in the array.  This type may only be used within a
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
                 
 
 <pre class="syntax" xml:space="preserve"><code>
@@ -1891,7 +1891,7 @@ struct
 } value;</code></pre>
 The fields can be anywhere in the contained structure and in any order, since
                     their offsets within the structure are specified separately as part of the
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
                     The offset of the count field is specified in the countOffset field, and the
                     offset of the bytes field is specified in the offset field.
                 
@@ -1899,14 +1899,14 @@ The fields can be anywhere in the contained structure and in any order, since
 Embedded zeros are allowed in the array of utf8 bytes.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_utf8_array_description">WS_UTF8_ARRAY_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_utf8_array_description">WS_UTF8_ARRAY_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
 This type cannot be used with any <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a> values.
                 
 
-This type may only be used within a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
+This type may only be used within a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
                 
 
 This type can be used with the following <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> values:
@@ -1946,7 +1946,7 @@ A nil string is represented by setting the bytes field to <b>NULL</b> and specif
                     <b>NULL</b> or not (in both cases the length is zero).
                 
 
-This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a>.
+This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
                 
 
 
@@ -1955,7 +1955,7 @@ This type does not support specifying a <a href="https://docs.microsoft.com/wind
 Used when serializing two fields of a structure as a unit: a BYTE* field which
                     points to an array bytes, and a ULONG field which contains the number
                     of bytes in the array.  This type may only be used within a
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
                 
 
 <pre class="syntax" xml:space="preserve"><code>
@@ -1966,19 +1966,19 @@ struct
 } value;</code></pre>
 The fields can be anywhere in the contained structure and in any order, since
                     their offsets within the structure are specified separately as part of the 
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
                     The offset of the count field is specified in the countOffset field, and the 
                     offset of the bytes field is specified in the offset field.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_byte_array_description">WS_BYTE_ARRAY_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_byte_array_description">WS_BYTE_ARRAY_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
 This type cannot be used with any <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a> values.
                 
 
-This type may only be used within a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
+This type may only be used within a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
                 
 
 This type can be used with the following <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> values:
@@ -2018,7 +2018,7 @@ A nil array is represented by setting the array pointer field to <b>NULL</b> and
                     <b>NULL</b> or not (in both cases the length is zero).
                 
 
-This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a>.
+This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
                 
 
 
@@ -2026,7 +2026,7 @@ This type does not support specifying a <a href="https://docs.microsoft.com/wind
 
 Used to represent the XML type of the structure being serialized.  This can be used
                     to identify sub-types using the xsi:type attribute from XML Schema.  The field of
-                    the structure must be of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_struct_description">WS_STRUCT_DESCRIPTION*</a>.
+                    the structure must be of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION*</a>.
                 
 
 This type does not have an associated type description.
@@ -2035,10 +2035,10 @@ This type does not have an associated type description.
 This type cannot be used with any <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a> values.
                 
 
-This type may only be used within a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
+This type may only be used within a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
                 
 
-This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a>.
+This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
                 
 
 This type can be used with the following <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> values:
@@ -2060,11 +2060,11 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 ### -field WS_STRUCT_TYPE
 
 Used when serializing a user-defined structure.  The associated type description points to a
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_struct_description">WS_STRUCT_DESCRIPTION</a> which provides information about how to serialize 
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a> which provides information about how to serialize 
                     the fields of the structure.
                 
 
-This type requires a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_struct_description">WS_STRUCT_DESCRIPTION</a> type description
+This type requires a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a> type description
                     to be supplied which provides information about how to serialize the type.
                 
 
@@ -2152,17 +2152,17 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a>.
+This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
                 
 
 
 ### -field WS_CUSTOM_TYPE
 
 Used when serializing a custom type.    The associated type description points to a
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_type_description">WS_CUSTOM_TYPE_DESCRIPTION</a> which provides information about how to serialize the type.
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_custom_type_description">WS_CUSTOM_TYPE_DESCRIPTION</a> which provides information about how to serialize the type.
                 
 
-This type requires a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_type_description">WS_CUSTOM_TYPE_DESCRIPTION</a> type description
+This type requires a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_custom_type_description">WS_CUSTOM_TYPE_DESCRIPTION</a> type description
                     to be supplied which provides information about how to serialize the type, including
                     a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_read_type_callback">WS_READ_TYPE_CALLBACK</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_write_type_callback">WS_WRITE_TYPE_CALLBACK</a> which
                     are used to read and write the type.
@@ -2237,7 +2237,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -2245,7 +2245,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 
 ### -field WS_ENDPOINT_ADDRESS_TYPE
 
-Used when serializing <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> .  The associated type description points to a
+Used when serializing <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> .  The associated type description points to a
                     <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_endpoint_address_description">WS_ENDPOINT_ADDRESS_DESCRIPTION</a> which provides information about how to serialize the endpoint address.
                 
 
@@ -2299,17 +2299,17 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a>.
+This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
                 
 
 
 ### -field WS_FAULT_TYPE
 
-Used when serializing a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_fault">WS_FAULT</a>.  The associated type description points to a
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_fault_description">WS_FAULT_DESCRIPTION</a> which provides information about how to serialize the fault.
+Used when serializing a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a>.  The associated type description points to a
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault_description">WS_FAULT_DESCRIPTION</a> which provides information about how to serialize the fault.
                 
 
-This type requires a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_fault_description">WS_FAULT_DESCRIPTION</a> type description
+This type requires a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault_description">WS_FAULT_DESCRIPTION</a> type description
                     to be supplied which provides information about the serialization format.
                 
 
@@ -2359,7 +2359,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a>.
+This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
                 
 
 
@@ -2368,15 +2368,15 @@ This type does not support specifying a <a href="https://docs.microsoft.com/wind
 This type is used to specify an arbitrary size field.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_void_description">WS_VOID_DESCRIPTION</a> can optionally be supplied in order
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_void_description">WS_VOID_DESCRIPTION</a> can optionally be supplied in order
                     to specify the size of the type.
                 
 
 This type cannot be used with any <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a> values.
                 
 
-This type can only be used within the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a> of a
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_struct_description">WS_STRUCT_DESCRIPTION</a>.
+This type can only be used within the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a> of a
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a>.
                 
 
 This type can be used with the following <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_10">WS_FIELD_OPTIONS</a> values.  See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> for which options are supported for a given field mapping value:
@@ -2409,9 +2409,9 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
                         be set to <b>NULL</b>.
                         </li>
 <li>If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_10">WS_FIELD_POINTER</a> is not specified, then the field will
-                        be set to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> if allowed for the type and 
+                        be set to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> if allowed for the type and 
                         specified, otherwise it will be set to all zeros.  The size of the field is specified as part of
-                        the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_void_description">WS_VOID_DESCRIPTION</a>.  If a <b>WS_VOID_DESCRIPTION</b>is not specified, the field is interpreted as being size 0.
+                        the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_void_description">WS_VOID_DESCRIPTION</a>.  If a <b>WS_VOID_DESCRIPTION</b>is not specified, the field is interpreted as being size 0.
                     </li>
 </ul>
 </li>
@@ -2423,7 +2423,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
                     used to discard the XML content when deserializing, or ignore the field when serializing.  
                     Since the values are not stored, a field of the structure is not required.  The field 
                     offset should be zero and the field size should be zero (which is the default if a 
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_void_description">WS_VOID_DESCRIPTION</a> is not specified).  The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_10">WS_FIELD_POINTER</a> 
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_void_description">WS_VOID_DESCRIPTION</a> is not specified).  The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_10">WS_FIELD_POINTER</a> 
                     option should not be used.
                 </li>
 </ul>
@@ -2434,7 +2434,7 @@ Used when serializing a signed 32-bit integer which corresponds
                     to an enumerated value.
                 
 
-This type requires a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_enum_description">WS_ENUM_DESCRIPTION</a> type description
+This type requires a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_enum_description">WS_ENUM_DESCRIPTION</a> type description
                     to be supplied which provides information about the enumeration values 
                     and their corresponding serialized form.
                 
@@ -2498,7 +2498,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -2506,10 +2506,10 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 
 ### -field WS_DURATION_TYPE
 
-Used when serializing a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_duration">WS_DURATION</a>.
+Used when serializing a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_duration">WS_DURATION</a>.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_duration_description">WS_DURATION_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_duration_description">WS_DURATION_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 
@@ -2572,7 +2572,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 A nil value is represented using a <b>NULL</b> pointer.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
                 
@@ -2597,7 +2597,7 @@ union
 // values corresponding to each choice
 } value;
 };</code></pre>
-This type requires a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_union_description">WS_UNION_DESCRIPTION</a> type description
+This type requires a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a> type description
                     to be supplied which provides information about the choices and
                     their corresponding serialized form.
                 
@@ -2637,16 +2637,16 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 This type does not support nil values.
                 
 
-This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a>.
+This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
                     When used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_10">WS_FIELD_OPTIONAL</a>, the default value in the 
-                    union is specified using the nonEnumValue of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_union_description">WS_UNION_DESCRIPTION</a>.
+                    union is specified using the nonEnumValue of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a>.
                 
 
 
 ### -field WS_ANY_ATTRIBUTES_TYPE
 
 Used when serializing a set of attributes that are not mapped to fields
-                    using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_any_attributes">WS_ANY_ATTRIBUTES</a>.
+                    using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_any_attributes">WS_ANY_ATTRIBUTES</a>.
                 
 
 This type does not have an associated type description.
@@ -2655,7 +2655,7 @@ This type does not have an associated type description.
 This type cannot be used with any <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a> values.
                 
 
-This type may only be used within a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
+This type may only be used within a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
                 
 
 This type can be used with the following <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> values:
@@ -2676,7 +2676,7 @@ This type can be used with the following <a href="https://docs.microsoft.com/win
 This type does not support nil values.
                 
 
-This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a>.
+This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
                 
 
 
@@ -2689,13 +2689,13 @@ Many of the <b>WS_TYPE</b>s have a corresponding type description structure
                 type.
             
 
-For example, the <b>WS_INT32_TYPE</b> has a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_int32_description">WS_INT32_DESCRIPTION</a>structure which allows for constraints on the deserialized values.  This is an optional
+For example, the <b>WS_INT32_TYPE</b> has a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_int32_description">WS_INT32_DESCRIPTION</a>structure which allows for constraints on the deserialized values.  This is an optional
                 type description (if not specified, the full 32-bit integer space is allowed).
             
 
 Another example is the <b>WS_STRUCT_TYPE</b>, which allows for the specification of
                 a user-defined structure with fields.  The fields are described in a 
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_struct_description">WS_STRUCT_DESCRIPTION</a>.  This type description is required.
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a>.  This type description is required.
             
 
 Type description pointers accompany <b>WS_TYPE</b> in the various APIs and structures 

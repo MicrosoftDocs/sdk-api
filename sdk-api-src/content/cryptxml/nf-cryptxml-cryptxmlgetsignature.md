@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlGetSignature, CryptXmlGetSignature function [Security], cryptxml/CryptXmlGetSignature, security.cryptxmlgetsignature
 ms.topic: function
-f1_keywords: 
- - "cryptxml/CryptXmlGetSignature"
+f1_keywords:
+- cryptxml/CryptXmlGetSignature
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Cryptxml.lib
 req.dll: Cryptxml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cryptxml.dll
+- Cryptxml.dll
 api_name:
- - CryptXmlGetSignature
+- CryptXmlGetSignature
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ The handle of the <b>Signature</b> element.
 
 ### -param ppStruct [out]
 
-A pointer to a  pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structure to receive the signature.
+A pointer to a  pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structure to receive the signature.
 
 
 ## -returns

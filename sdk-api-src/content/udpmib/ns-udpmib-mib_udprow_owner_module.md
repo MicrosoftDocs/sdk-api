@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: 9ae304e0-4653-4757-a823-d4ccf68627bf
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_UDPROW_OWNER_MODULE, MIB_UDPROW_OWNER_MODULE, MIB_UDPROW_OWNER_MODULE structure [MIB], PMIB_UDPROW_OWNER_MODULE, PMIB_UDPROW_OWNER_MODULE structure pointer [MIB], iprtrmib/MIB_UDPROW_OWNER_MODULE, iprtrmib/PMIB_UDPROW_OWNER_MODULE, mib.mib_udprow_owner_module, udpmib/MIB_UDPROW_OWNER_MODULE, udpmib/PMIB_UDPROW_OWNER_MODULE"
+ms.keywords: '*PMIB_UDPROW_OWNER_MODULE, MIB_UDPROW_OWNER_MODULE, MIB_UDPROW_OWNER_MODULE structure [MIB], PMIB_UDPROW_OWNER_MODULE, PMIB_UDPROW_OWNER_MODULE structure pointer [MIB], iprtrmib/MIB_UDPROW_OWNER_MODULE, iprtrmib/PMIB_UDPROW_OWNER_MODULE, mib.mib_udprow_owner_module, udpmib/MIB_UDPROW_OWNER_MODULE, udpmib/PMIB_UDPROW_OWNER_MODULE'
 ms.topic: struct
-f1_keywords: 
- - "udpmib/MIB_UDPROW_OWNER_MODULE"
+f1_keywords:
+- udpmib/MIB_UDPROW_OWNER_MODULE
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Udpmib.h
- - Iprtrmib.h
+- Udpmib.h
+- Iprtrmib.h
 api_name:
- - MIB_UDPROW_OWNER_MODULE
+- MIB_UDPROW_OWNER_MODULE
 product: Windows
 targetos: Windows
 req.typenames: MIB_UDPROW_OWNER_MODULE, *PMIB_UDPROW_OWNER_MODULE
@@ -116,7 +116,7 @@ An array of opaque data that contains ownership information.
 
 
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udptable_owner_module">MIB_UDPTABLE_OWNER_MODULE</a> structure is returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedudptable">GetExtendedUdpTable</a> with the <i>TableClass</i> parameter set to <b>UDP_TABLE_OWNER_MODULE</b> from the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_udp_table_class">UDP_TABLE_CLASS</a> enumeration and the <i>ulAf</i> parameter set to <b>AF_INET</b>. The <b>MIB_UDPTABLE_OWNER_MODULE</b> structure contains an array of <b>MIB_UDPROW_OWNER_MODULE</b> structures.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udptable_owner_module">MIB_UDPTABLE_OWNER_MODULE</a> structure is returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedudptable">GetExtendedUdpTable</a> with the <i>TableClass</i> parameter set to <b>UDP_TABLE_OWNER_MODULE</b> from the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-udp_table_class">UDP_TABLE_CLASS</a> enumeration and the <i>ulAf</i> parameter set to <b>AF_INET</b>. The <b>MIB_UDPTABLE_OWNER_MODULE</b> structure contains an array of <b>MIB_UDPROW_OWNER_MODULE</b> structures.
 
 The <b>dwLocalAddr</b> member is stored as a <b>DWORD</b> in the same format as the  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a> structure. In order to use the <b>dwLocalAddr</b> member, the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ntohl">ntohl</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a> functions in Windows Sockets or similar functions may be needed. On Windows Vistaand later, the <a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringa">RtlIpv4AddressToString</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringexw">RtlIpv4AddressToStringEx</a> functions may be used to convert the IPv4 address in the <b>dwLocalAddr</b>  member to a string without loading the Windows Sockets DLL. 
 
@@ -171,7 +171,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_udp_table_class">UDP_TABLE_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-udp_table_class">UDP_TABLE_CLASS</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginPrepareSnapshot, BeginPrepareSnapshot method [VSS], BeginPrepareSnapshot method [VSS],IVssHardwareSnapshotProvider interface, IVssHardwareSnapshotProvider interface [VSS],BeginPrepareSnapshot method, IVssHardwareSnapshotProvider.BeginPrepareSnapshot, IVssHardwareSnapshotProvider::BeginPrepareSnapshot, base.ivsshardwaresnapshotprovider_beginpreparesnapshot, vsprov/IVssHardwareSnapshotProvider::BeginPrepareSnapshot
 ms.topic: method
-f1_keywords: 
- - "vsprov/IVssHardwareSnapshotProvider.BeginPrepareSnapshot"
+f1_keywords:
+- vsprov/IVssHardwareSnapshotProvider.BeginPrepareSnapshot
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsProv.h
+- VsProv.h
 api_name:
- - IVssHardwareSnapshotProvider.BeginPrepareSnapshot
+- IVssHardwareSnapshotProvider.BeginPrepareSnapshot
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ Identifier of the shadow copy to be created.
 ### -param lContext [in]
 
 Shadow copy context for current shadow copy set as enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>.
 
 
 ### -param lLunCount [in]
@@ -89,7 +89,7 @@ Pointer to array of <i>lLunCount</i> pointers to strings, each string containing
 
 ### -param rgLunInformation [in, out]
 
-Pointer to array of <i>lLunCount</i><a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structures, one for each LUN 
+Pointer to array of <i>lLunCount</i><a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures, one for each LUN 
        contributing to this shadow copy volume.
 
 
@@ -228,7 +228,7 @@ This method cannot be called for a virtual hard disk (VHD) that is nested inside
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
  
 
  

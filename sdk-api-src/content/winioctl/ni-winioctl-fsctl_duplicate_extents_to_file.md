@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_DUPLICATE_EXTENTS_TO_FILE, FSCTL_DUPLICATE_EXTENTS_TO_FILE control, FSCTL_DUPLICATE_EXTENTS_TO_FILE control code [Files], fs.fsctl_duplicate_extents_to_file, winioctl/FSCTL_DUPLICATE_EXTENTS_TO_FILE
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_DUPLICATE_EXTENTS_TO_FILE"
+f1_keywords:
+- winioctl/FSCTL_DUPLICATE_EXTENTS_TO_FILE
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_DUPLICATE_EXTENTS_TO_FILE
+- FSCTL_DUPLICATE_EXTENTS_TO_FILE
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -223,7 +223,7 @@ Yes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_duplicate_extents_data">DUPLICATE_EXTENTS_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-duplicate_extents_data">DUPLICATE_EXTENTS_DATA</a>
 
 
 

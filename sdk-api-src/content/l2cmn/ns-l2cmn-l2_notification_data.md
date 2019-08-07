@@ -8,10 +8,10 @@ tech.root: NetVista
 ms.assetid: 4b67b6c0-2b73-4816-8e85-d6b00227a33c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PL2_NOTIFICATION_DATA, L2_NOTIFICATION_DATA, L2_NOTIFICATION_DATA structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_56767c07-0bb6-4050-9c44-ed5fd4055ec2.xml, PL2_NOTIFICATION_DATA, PL2_NOTIFICATION_DATA structure pointer [Network Drivers Starting with Windows Vista], l2cmn/L2_NOTIFICATION_DATA, l2cmn/PL2_NOTIFICATION_DATA, netvista.l2_notification_data"
+ms.keywords: '*PL2_NOTIFICATION_DATA, L2_NOTIFICATION_DATA, L2_NOTIFICATION_DATA structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_56767c07-0bb6-4050-9c44-ed5fd4055ec2.xml, PL2_NOTIFICATION_DATA, PL2_NOTIFICATION_DATA structure pointer [Network Drivers Starting with Windows Vista], l2cmn/L2_NOTIFICATION_DATA, l2cmn/PL2_NOTIFICATION_DATA, netvista.l2_notification_data'
 ms.topic: struct
-f1_keywords: 
- - "l2cmn/L2_NOTIFICATION_DATA"
+f1_keywords:
+- l2cmn/L2_NOTIFICATION_DATA
 req.header: l2cmn.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - l2cmn.h
+- l2cmn.h
 api_name:
- - L2_NOTIFICATION_DATA
+- L2_NOTIFICATION_DATA
 product: Windows
 targetos: Windows
 req.typenames: L2_NOTIFICATION_DATA, *PL2_NOTIFICATION_DATA
@@ -80,7 +80,7 @@ The operating system passes the GUID and other data related to the WLAN adapter 
      <i>pDot11Adapter</i> parameter of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wlanihv/nc-wlanihv-dot11extihv_init_adapter">Dot11ExtIhvInitAdapter</a> function, which the operating system calls when it detects the arrival of
      the WLAN adapter. For more information about this operation, see 
-     <a href="https://docs.microsoft.com/windows/desktop/api/l2cmn/ns-l2cmn-_l2_notification_data">802.11 WLAN Adapter
+     <a href="https://docs.microsoft.com/windows/desktop/api/l2cmn/ns-l2cmn-l2_notification_data">802.11 WLAN Adapter
      Arrival</a>.
 
 

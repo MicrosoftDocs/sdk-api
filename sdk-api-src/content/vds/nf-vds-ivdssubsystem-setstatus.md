@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystem interface [VDS],SetStatus method, IVdsSubSystem.SetStatus, IVdsSubSystem::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsSubSystem interface, base.ivdssubsystem_setstatus, vds/IVdsSubSystem::SetStatus, vdshwprv/IVdsSubSystem::SetStatus
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsSubSystem.SetStatus"
+f1_keywords:
+- vds/IVdsSubSystem.SetStatus
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsSubSystem.SetStatus
+- IVdsSubSystem.SetStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Sets the status of
 
 ### -param status [in]
 
-Values enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_sub_system_status">VDS_SUB_SYSTEM_STATUS</a>. 
+Values enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_sub_system_status">VDS_SUB_SYSTEM_STATUS</a>. 
       Callers can pass in a subset of the possible enumeration values. Passing in 
       <b>VDS_SSS_UNKNOWN</b> returns <b>E_INVALIDARG</b>.
 
@@ -181,7 +181,7 @@ Implementers are responsible for performing any necessary operations to get the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_sub_system_status">VDS_SUB_SYSTEM_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_sub_system_status">VDS_SUB_SYSTEM_STATUS</a>
  
 
  

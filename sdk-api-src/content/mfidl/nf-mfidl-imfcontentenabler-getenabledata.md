@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnableData, GetEnableData method [Media Foundation], GetEnableData method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],GetEnableData method, IMFContentEnabler.GetEnableData, IMFContentEnabler::GetEnableData, d1859037-7a33-4943-8ca9-6782fc8b0b92, mf.imfcontentenabler_getenabledata, mfidl/IMFContentEnabler::GetEnableData
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFContentEnabler.GetEnableData"
+f1_keywords:
+- mfidl/IMFContentEnabler.GetEnableData
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFContentEnabler.GetEnableData
+- IMFContentEnabler.GetEnableData
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -134,7 +134,7 @@ The purpose of the data depends on the content enabler type, which is obtained b
 <tr>
 <td>Revocation</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-_mfrr_components">MFRR_COMPONENTS</a> structure.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mfrr_components">MFRR_COMPONENTS</a> structure.</td>
 </tr>
 </table>
  

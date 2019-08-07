@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_PROVIDER_TYPE, VDS_PROVIDER_TYPE enumeration [VDS], VDS_PT_HARDWARE, VDS_PT_MAX, VDS_PT_SOFTWARE, VDS_PT_UNKNOWN, VDS_PT_VIRTUALDISK, base.vds_provider_type, vds/VDS_PROVIDER_TYPE, vds/VDS_PT_HARDWARE, vds/VDS_PT_MAX, vds/VDS_PT_SOFTWARE, vds/VDS_PT_UNKNOWN, vds/VDS_PT_VIRTUALDISK, vdshwprv/VDS_PROVIDER_TYPE, vdshwprv/VDS_PT_HARDWARE, vdshwprv/VDS_PT_MAX, vdshwprv/VDS_PT_SOFTWARE, vdshwprv/VDS_PT_UNKNOWN, vdshwprv/VDS_PT_VIRTUALDISK
 ms.topic: enum
-f1_keywords: 
- - "vdshwprv/VDS_PROVIDER_TYPE"
+f1_keywords:
+- vdshwprv/VDS_PROVIDER_TYPE
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_PROVIDER_TYPE
+- VDS_PROVIDER_TYPE
 product: Windows
 targetos: Windows
 req.typenames: VDS_PROVIDER_TYPE
@@ -96,7 +96,7 @@ This value is reserved for system use.
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_provider_prop">VDS_PROVIDER_PROP</a> structure includes a <b>VDS_PROVIDER_TYPE</b> 
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_provider_prop">VDS_PROVIDER_PROP</a> structure includes a <b>VDS_PROVIDER_TYPE</b> 
     value as a member to report the provider type. The 
     <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsadmin-registerprovider">IVdsAdmin::RegisterProvider</a> method passes 
     a <b>VDS_PROVIDER_TYPE</b> value as an argument to indicate the provider type during registration with VDS.
@@ -115,7 +115,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_provider_prop">VDS_PROVIDER_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_provider_prop">VDS_PROVIDER_PROP</a>
  
 
  

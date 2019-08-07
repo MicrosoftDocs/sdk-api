@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties2, GetProperties2 method, GetProperties2 method,IVdsDisk3 interface, IVdsDisk3 interface,GetProperties2 method, IVdsDisk3.GetProperties2, IVdsDisk3::GetProperties2, base.ivdsdisk3_getproperties2, vds/IVdsDisk3::GetProperties2
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsDisk3.GetProperties2"
+f1_keywords:
+- vds/IVdsDisk3.GetProperties2
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsDisk3.GetProperties2
+- IVdsDisk3.GetProperties2
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -55,7 +55,7 @@ ms.custom: 19H1
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns property 
-   information for a disk. This method is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-getproperties">IVdsDisk::GetProperties</a> method, except that it returns a <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop2">VDS_DISK_PROP2</a> structure instead of a <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop">VDS_DISK_PROP</a> structure.
+   information for a disk. This method is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-getproperties">IVdsDisk::GetProperties</a> method, except that it returns a <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a> structure instead of a <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a> structure.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Returns property
 
 ### -param pDiskProperties [out]
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop2">VDS_DISK_PROP2</a> structure 
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a> structure 
       allocated and passed in by the caller. VDS allocates memory for the <b>pwszDiskAddress</b>, 
       <b>pwszName</b>, <b>pwszFriendlyName</b>, 
       <b>pwszAdaptorName</b>, <b>pwszDevicePath</b>, and <b>pwszLocationPath</b> member strings. 
@@ -117,7 +117,7 @@ Some but not all of the properties were successfully retrieved. Note that there 
 
 
 
-In the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop2">VDS_DISK_PROP2</a> structure that is returned in the <i>pDiskProperties</i> parameter, the <b>pwszDiskAddress</b> member   is optional and can be <b>NULL</b> if no value is available. Callers of this method must check whether this member is <b>NULL</b>.
+In the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a> structure that is returned in the <i>pDiskProperties</i> parameter, the <b>pwszDiskAddress</b> member   is optional and can be <b>NULL</b> if no value is available. Callers of this method must check whether this member is <b>NULL</b>.
 
 For Hyper-V, the  <b>pwszLocationPath</b> member is <b>NULL</b>, because the virtual controller does not return the location path.
 
@@ -133,7 +133,7 @@ For Hyper-V, the  <b>pwszLocationPath</b> member is <b>NULL</b>, because the vir
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop2">VDS_DISK_PROP2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a>
  
 
  

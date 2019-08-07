@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCryptEnumRegisteredProviders, BCryptEnumRegisteredProviders function [Security], bcrypt/BCryptEnumRegisteredProviders, security.bcryptenumregisteredproviders
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptEnumRegisteredProviders"
+f1_keywords:
+- bcrypt/BCryptEnumRegisteredProviders
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
+- Bcrypt.dll
 api_name:
- - BCryptEnumRegisteredProviders
+- BCryptEnumRegisteredProviders
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,12 +63,12 @@ The <b>BCryptEnumRegisteredProviders</b> function retrieves information about th
 
 A pointer to a <b>ULONG</b> value that, on entry, contains the size, in bytes, of the buffer pointed to by the <i>ppBuffer</i> parameter. On exit, this value receives either the number of bytes copied to the buffer or the required size, in bytes, of the buffer.
 
-<div class="alert"><b>Note</b>  This is the total size, in bytes, of the entire buffer, not just the size of the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_providers">CRYPT_PROVIDERS</a> structure. The buffer must be able to hold other data for the providers in addition to the <b>CRYPT_PROVIDERS</b> structure.</div>
+<div class="alert"><b>Note</b>  This is the total size, in bytes, of the entire buffer, not just the size of the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_providers">CRYPT_PROVIDERS</a> structure. The buffer must be able to hold other data for the providers in addition to the <b>CRYPT_PROVIDERS</b> structure.</div>
 <div> </div>
 
 ### -param ppBuffer [in, out]
 
-A pointer to a buffer pointer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_providers">CRYPT_PROVIDERS</a> structure and other data that describes the collection of registered providers.
+A pointer to a buffer pointer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_providers">CRYPT_PROVIDERS</a> structure and other data that describes the collection of registered providers.
 
 If this parameter is <b>NULL</b>, this function will return <b>STATUS_BUFFER_TOO_SMALL</b> and place in the value pointed to by the <i>pcbBuffer</i> parameter, the required size, in bytes, of all the data.
 
@@ -154,10 +154,10 @@ BCryptEnumRegisteredProviders(/*...*/, &pBuffer);
 ```
 
 
-This code will allocate the memory required for the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_providers">CRYPT_PROVIDERS</a> structure and the associated strings. When the <b>BCryptEnumRegisteredProviders</b> function is used in this manner, you must free the memory when it is no longer needed by passing <i>ppBuffer</i> to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function.
+This code will allocate the memory required for the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_providers">CRYPT_PROVIDERS</a> structure and the associated strings. When the <b>BCryptEnumRegisteredProviders</b> function is used in this manner, you must free the memory when it is no longer needed by passing <i>ppBuffer</i> to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function.
 
 </li>
-<li>The second method is to allocate the required memory yourself. This is accomplished by calling the <b>BCryptEnumRegisteredProviders</b> function with <b>NULL</b> for the <i>ppBuffer</i> parameter. The <b>BCryptEnumRegisteredProviders</b> function will place in the value pointed to by the <i>pcbBuffer</i> parameter, the required size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_providers">CRYPT_PROVIDERS</a> structure and all strings. You then allocate the required memory and pass the address of this buffer pointer for the <i>ppBuffer</i> parameter in a second call to the <b>BCryptEnumRegisteredProviders</b> function.</li>
+<li>The second method is to allocate the required memory yourself. This is accomplished by calling the <b>BCryptEnumRegisteredProviders</b> function with <b>NULL</b> for the <i>ppBuffer</i> parameter. The <b>BCryptEnumRegisteredProviders</b> function will place in the value pointed to by the <i>pcbBuffer</i> parameter, the required size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_providers">CRYPT_PROVIDERS</a> structure and all strings. You then allocate the required memory and pass the address of this buffer pointer for the <i>ppBuffer</i> parameter in a second call to the <b>BCryptEnumRegisteredProviders</b> function.</li>
 </ul>
 
 
@@ -175,7 +175,7 @@ This code will allocate the memory required for the <a href="https://docs.micros
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_providers">CRYPT_PROVIDERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_providers">CRYPT_PROVIDERS</a>
  
 
  

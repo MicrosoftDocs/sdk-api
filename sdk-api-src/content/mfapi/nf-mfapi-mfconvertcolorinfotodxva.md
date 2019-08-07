@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 52a3be2b-f715-4e12-9f69-6a832153ff5e, MFConvertColorInfoToDXVA, MFConvertColorInfoToDXVA function [Media Foundation], mf.mfconvertcolorinfotodxva, mfapi/MFConvertColorInfoToDXVA
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFConvertColorInfoToDXVA"
+f1_keywords:
+- mfapi/MFConvertColorInfoToDXVA
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Evr.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFConvertColorInfoToDXVA
+- MFConvertColorInfoToDXVA
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,9 +51,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This API is not supported and may be altered or unavailable in the future. Applications should avoid using the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat">MFVIDEOFORMAT</a> structure, and use media type attributes instead. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/extended-color-information">Extended Color Information</a>.]
+<p class="CCE_Message">[This API is not supported and may be altered or unavailable in the future. Applications should avoid using the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure, and use media type attributes instead. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/extended-color-information">Extended Color Information</a>.]
 
-Converts the extended color information from an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat">MFVIDEOFORMAT</a>  to the equivalent DirectX Video Acceleration (DXVA) color information.
+Converts the extended color information from an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a>  to the equivalent DirectX Video Acceleration (DXVA) color information.
         
 
 
@@ -69,7 +69,7 @@ Receives the DXVA extended color information. The bitfields in the <b>DWORD</b> 
 
 ### -param pFromFormat [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat">MFVIDEOFORMAT</a> structure that describes the video format.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure that describes the video format.
 
 
 ## -returns

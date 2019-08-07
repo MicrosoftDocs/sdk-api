@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigUrlAclInfo, HttpSetServiceConfiguration, HttpSetServiceConfiguration function [HTTP], _http_httpsetserviceconfiguration, http.httpsetserviceconfiguration, http/HttpSetServiceConfiguration
 ms.topic: function
-f1_keywords: 
- - "http/HttpSetServiceConfiguration"
+f1_keywords:
+- http/HttpSetServiceConfiguration
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Httpapi.dll
+- Httpapi.dll
 api_name:
- - HttpSetServiceConfiguration
+- HttpSetServiceConfiguration
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ Reserved. Must be zero.
 
 ### -param ConfigId [in]
 
-Type of configuration record to be set. This parameter can be one of the following values from the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_service_config_id">HTTP_SERVICE_CONFIG_ID</a> enumeration.
+Type of configuration record to be set. This parameter can be one of the following values from the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_service_config_id">HTTP_SERVICE_CONFIG_ID</a> enumeration.
 
 <table>
 <tr>
@@ -137,7 +137,7 @@ Sets a specified SSL Server Name Indication (SNI) certificate record.
 </dl>
 </td>
 <td width="60%">
-Sets the   SSL certificate record that specifies that Http.sys should consult the Centralized Certificate Store (CCS) store to find certificates if the  port receives a Transport Layer Security (TLS) handshake. The port is specified by the <b>KeyDesc</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_ccs_set">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a> structure that you  pass to the <i>pConfigInformation</i> parameter.
+Sets the   SSL certificate record that specifies that Http.sys should consult the Centralized Certificate Store (CCS) store to find certificates if the  port receives a Transport Layer Security (TLS) handshake. The port is specified by the <b>KeyDesc</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_set">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a> structure that you  pass to the <i>pConfigInformation</i> parameter.
 
 <b>Windows 8 and later:  </b>This enumeration value is supported.
 
@@ -185,7 +185,7 @@ A pointer to a buffer that contains the appropriate data to specify the type of 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_urlacl_set">HTTP_SERVICE_CONFIG_URLACL_SET</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_urlacl_set">HTTP_SERVICE_CONFIG_URLACL_SET</a> structure.
 
 </td>
 </tr>
@@ -196,7 +196,7 @@ A pointer to a buffer that contains the appropriate data to specify the type of 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_timeout_set">HTTP_SERVICE_CONFIG_TIMEOUT_SET</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_timeout_set">HTTP_SERVICE_CONFIG_TIMEOUT_SET</a> structure.
 
 
 <b>Windows Vista and later:  </b>This structure is supported.
@@ -212,7 +212,7 @@ A pointer to a buffer that contains the appropriate data to specify the type of 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_sni_set">HTTP_SERVICE_CONFIG_SSL_SNI_SET</a> structure. The hostname will be "*" when the SSL central certificate store is queried and wildcard bindings are used, and a host name for regular SNI.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_sni_set">HTTP_SERVICE_CONFIG_SSL_SNI_SET</a> structure. The hostname will be "*" when the SSL central certificate store is queried and wildcard bindings are used, and a host name for regular SNI.
 
 
 <b>Windows 8 and later:  </b>This structure is supported.
@@ -228,7 +228,7 @@ A pointer to a buffer that contains the appropriate data to specify the type of 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_ccs_set">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_set">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a> structure.
 
 
 <b>Windows 8 and later:  </b>This structure is supported.

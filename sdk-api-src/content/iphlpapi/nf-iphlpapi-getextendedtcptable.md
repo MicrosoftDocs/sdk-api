@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, GetExtendedTcpTable, GetExtendedTcpTable function [IP Helper], iphlp.getextendedtcptable, iphlpapi/GetExtendedTcpTable
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/GetExtendedTcpTable"
+f1_keywords:
+- iphlpapi/GetExtendedTcpTable
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetExtendedTcpTable
+- GetExtendedTcpTable
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -119,11 +119,11 @@ IPv6 is used.
 
 ### -param TableClass [in]
 
-The type of the TCP table structure to retrieve. This parameter can be one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcp_table_class">TCP_TABLE_CLASS</a> enumeration. 
+The type of the TCP table structure to retrieve. This parameter can be one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-tcp_table_class">TCP_TABLE_CLASS</a> enumeration. 
 
-On the Windows SDK released for Windows Vista and later, the organization of header files has changed and the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcp_table_class">TCP_TABLE_CLASS</a> enumeration is defined in the <i>Iprtrmib.h</i> header file, not in the <i>Iphlpapi.h</i> header file. 
+On the Windows SDK released for Windows Vista and later, the organization of header files has changed and the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-tcp_table_class">TCP_TABLE_CLASS</a> enumeration is defined in the <i>Iprtrmib.h</i> header file, not in the <i>Iphlpapi.h</i> header file. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcp_table_class">TCP_TABLE_CLASS</a> enumeration value is combined with the value of the <i>ulAf</i> parameter to determine the extended TCP information to retrieve. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-tcp_table_class">TCP_TABLE_CLASS</a> enumeration value is combined with the value of the <i>ulAf</i> parameter to determine the extended TCP information to retrieve. 
 
 
 
@@ -166,7 +166,7 @@ This error is also returned if the <i>pTcpTable</i> parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-An invalid parameter was passed to the function. This error is returned if the <i>TableClass</i> parameter contains a value that is not defined in the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcp_table_class">TCP_TABLE_CLASS</a> enumeration.
+An invalid parameter was passed to the function. This error is returned if the <i>TableClass</i> parameter contains a value that is not defined in the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-tcp_table_class">TCP_TABLE_CLASS</a> enumeration.
 
 </td>
 </tr>
@@ -334,7 +334,7 @@ On the Windows SDK released for Windows Vista and later, the organization of he
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcp_table_class">TCP_TABLE_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-tcp_table_class">TCP_TABLE_CLASS</a>
  
 
  

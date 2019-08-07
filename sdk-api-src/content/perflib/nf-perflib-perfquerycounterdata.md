@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PerfQueryCounterData, PerfQueryCounterData function [Perf], perf.perfquerycounterdata, perflib/PerfQueryCounterData
 ms.topic: function
-f1_keywords: 
- - "perflib/PerfQueryCounterData"
+f1_keywords:
+- perflib/PerfQueryCounterData
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: AdvAPI32.lib
 req.dll: AdvAPI32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - AdvAPI32.dll
+- AdvAPI32.dll
 api_name:
- - PerfQueryCounterData
+- PerfQueryCounterData
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -162,7 +162,7 @@ For other types of failures, the return value is a
 
 
 
-The information about the performance counter values is  written to the buffer that <i>pCounterBlock</i> specifies as a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_data_header">PERF_DATA_HEADER</a> block, which consists <b>PERF_DATA_HEADER</b>structure followed by a sequence of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_header">PERF_COUNTER_HEADER</a> blocks.
+The information about the performance counter values is  written to the buffer that <i>pCounterBlock</i> specifies as a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_data_header">PERF_DATA_HEADER</a> block, which consists <b>PERF_DATA_HEADER</b>structure followed by a sequence of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_header">PERF_COUNTER_HEADER</a> blocks.
 
 
 
@@ -172,11 +172,11 @@ The information about the performance counter values is  written to the buffer t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_header">PERF_COUNTER_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_header">PERF_COUNTER_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_data_header">PERF_DATA_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_data_header">PERF_DATA_HEADER</a>
  
 
  

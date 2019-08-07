@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelIoEx, CancelIoEx function [Files], fs.cancelioex_func, ioapiset/CancelIoEx, winbase/CancelIoEx
 ms.topic: function
-f1_keywords: 
- - "ioapiset/CancelIoEx"
+f1_keywords:
+- ioapiset/CancelIoEx
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-io-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-io-l1-1-1.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-io-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-io-l1-1-1.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
 api_name:
- - CancelIoEx
+- CancelIoEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ A handle to the file.
 
 ### -param lpOverlapped [in, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> data structure that 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> data structure that 
        contains the data used for asynchronous  I/O.
 
 If this parameter is <b>NULL</b>, all I/O requests for the <i>hFile</i> 
@@ -91,7 +91,7 @@ If this parameter is not <b>NULL</b>, only those specific I/O requests that were
 
 If the function succeeds, the return value is nonzero. The cancel operation for all pending I/O operations 
        issued by the calling process for the specified file handle was successfully requested. The application must not 
-       free or reuse the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure associated with 
+       free or reuse the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure associated with 
        the canceled I/O operations until they have completed. The thread can use the 
        <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> function to determine when 
        the I/O operations themselves have been completed.

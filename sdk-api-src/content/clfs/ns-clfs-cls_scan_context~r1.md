@@ -4,8 +4,8 @@ title: CLS_SCAN_CONTEXT
 ms.date: 01/30/19
 ms.keywords: _CLS_SCAN_CONTEXT, CLS_SCAN_CONTEXT
 ms.topic: language-reference
-f1_keywords: 
- - "clfs/_CLS_SCAN_CONTEXT"
+f1_keywords:
+- clfs/_CLS_SCAN_CONTEXT
 targetos: Windows
 product: Windows
 req.construct-type: structure
@@ -24,14 +24,14 @@ req.typenames: CLS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT, PPCLS_SCAN_CONTEXT
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - clfs.h
+- clfs.h
 api_name:
- - _CLS_SCAN_CONTEXT
- - CLS_SCAN_CONTEXT
+- _CLS_SCAN_CONTEXT
+- CLS_SCAN_CONTEXT
 ---
 
 # CLS_SCAN_CONTEXT structure
@@ -48,7 +48,7 @@ Contains information about the containers that are being scanned by <a href="htt
 
 ### -field cidNode
 
-The ID of the current node. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_clfs_node_id">CLFS_NODE_ID</a>.
+The ID of the current node. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-clfs_node_id">CLFS_NODE_ID</a>.
 
 
 ### -field hLog
@@ -63,7 +63,7 @@ The index of the current container.
 
 ### -field cContainers
 
-The number of system-allocated <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_container_information">CLFS_CONTAINER_INFORMATION</a> structures in an array that is pointed to by <b>pinfoContainer</b>. 
+The number of system-allocated <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_container_information">CLFS_CONTAINER_INFORMATION</a> structures in an array that is pointed to by <b>pinfoContainer</b>. 
 
 That is, this member is the number of containers to scan with each scan call.   The caller knows the scan is complete when the number of containers returned is less than this value.
 
@@ -137,7 +137,7 @@ Cannot be used if <b>CLFS_SCAN_FORWARD</b> is specified.
 ### -field pinfoContainer
 
 A pointer to
-					a client-allocated array of <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_container_information">CLFS_CONTAINER_INFORMATION</a> structures to be filled by <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-scanlogcontainers">ScanLogContainers</a> after each successful call.
+					a client-allocated array of <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_container_information">CLFS_CONTAINER_INFORMATION</a> structures to be filled by <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-scanlogcontainers">ScanLogContainers</a> after each successful call.
 
 
 
@@ -157,11 +157,11 @@ This structure is allocated by the client, initialized using <a href="https://do
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_container_information">CLFS_CONTAINER_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_container_information">CLFS_CONTAINER_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_clfs_node_id">CLFS_NODE_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-clfs_node_id">CLFS_NODE_ID</a>
 
 
 

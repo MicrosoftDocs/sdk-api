@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D10_CBF_USERPACKED, D3D_CBF_FORCE_DWORD, D3D_CBF_USERPACKED, D3D_SHADER_CBUFFER_FLAGS, D3D_SHADER_CBUFFER_FLAGS enumeration [Direct3D 11], d3dcommon/D3D10_CBF_USERPACKED, d3dcommon/D3D_CBF_FORCE_DWORD, d3dcommon/D3D_CBF_USERPACKED, d3dcommon/D3D_SHADER_CBUFFER_FLAGS, direct3d11.d3d_shader_cbuffer_flags
 ms.topic: enum
-f1_keywords: 
- - "d3dcommon/D3D_SHADER_CBUFFER_FLAGS"
+f1_keywords:
+- d3dcommon/D3D_SHADER_CBUFFER_FLAGS
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3DCommon.h
+- D3DCommon.h
 api_name:
- - D3D_SHADER_CBUFFER_FLAGS
+- D3D_SHADER_CBUFFER_FLAGS
 product: Windows
 targetos: Windows
 req.typenames: D3D_SHADER_CBUFFER_FLAGS
@@ -78,7 +78,7 @@ This value is not used by a programmer; it exists to force the enumeration to co
 
 
 
-<b>D3D_SHADER_CBUFFER_FLAGS</b>-typed values are specified in the <b>uFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_shader_buffer_desc">D3D11_SHADER_BUFFER_DESC</a> structure.
+<b>D3D_SHADER_CBUFFER_FLAGS</b>-typed values are specified in the <b>uFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-d3d11_shader_buffer_desc">D3D11_SHADER_BUFFER_DESC</a> structure.
 
 
 

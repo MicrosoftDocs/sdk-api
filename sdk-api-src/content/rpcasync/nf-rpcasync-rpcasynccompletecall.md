@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcAsyncCompleteCall, RpcAsyncCompleteCall function [RPC], _rpc_rpcasynccompletecall, rpc.rpcasynccompletecall, rpcasync/RpcAsyncCompleteCall
 ms.topic: function
-f1_keywords: 
- - "rpcasync/RpcAsyncCompleteCall"
+f1_keywords:
+- rpcasync/RpcAsyncCompleteCall
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcAsyncCompleteCall
+- RpcAsyncCompleteCall
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The client and the server call the
 ### -param pAsync
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_async_state">RPC_ASYNC_STATE</a> structure that contains asynchronous call information.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a> structure that contains asynchronous call information.
 
 
 ### -param Reply
@@ -175,7 +175,7 @@ Any <a href="https://docs.microsoft.com/windows/desktop/Midl/out-idl">[out]</a> 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_async_state">RPC_ASYNC_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a>
 
 
 

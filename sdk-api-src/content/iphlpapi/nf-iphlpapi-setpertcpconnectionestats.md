@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetPerTcpConnectionEStats, SetPerTcpConnectionEStats function [IP Helper], iphlp.setpertcpconnectionestats, iphlpapi/SetPerTcpConnectionEStats
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/SetPerTcpConnectionEStats"
+f1_keywords:
+- iphlpapi/SetPerTcpConnectionEStats
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - SetPerTcpConnectionEStats
+- SetPerTcpConnectionEStats
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ This parameter can be one of the values from the <a href="https://docs.microsoft
 
 ### -param Rw
 
-A pointer to a buffer that contains the read/write information to set. The buffer should contain a value from the <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-_tcp_boolean_optional">TCP_BOOLEAN_OPTIONAL</a> enumeration for each structure member that specifies how each member should be updated. 
+A pointer to a buffer that contains the read/write information to set. The buffer should contain a value from the <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-tcp_boolean_optional">TCP_BOOLEAN_OPTIONAL</a> enumeration for each structure member that specifies how each member should be updated. 
 
 
 ### -param RwVersion
@@ -299,7 +299,7 @@ The <b>SetPerTcpConnectionEStats</b> function can only be called by a user logge
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-_tcp_boolean_optional">TCP_BOOLEAN_OPTIONAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-tcp_boolean_optional">TCP_BOOLEAN_OPTIONAL</a>
 
 
 

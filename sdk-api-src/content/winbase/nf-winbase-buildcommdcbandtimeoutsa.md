@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BuildCommDCBAndTimeouts, BuildCommDCBAndTimeouts function, BuildCommDCBAndTimeoutsA, BuildCommDCBAndTimeoutsW, _win32_buildcommdcbandtimeouts, base.buildcommdcbandtimeouts, winbase/BuildCommDCBAndTimeouts, winbase/BuildCommDCBAndTimeoutsA, winbase/BuildCommDCBAndTimeoutsW
 ms.topic: function
-f1_keywords: 
- - "winbase/BuildCommDCBAndTimeouts"
+f1_keywords:
+- winbase/BuildCommDCBAndTimeouts
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - BuildCommDCBAndTimeouts
- - BuildCommDCBAndTimeoutsA
- - BuildCommDCBAndTimeoutsW
+- BuildCommDCBAndTimeouts
+- BuildCommDCBAndTimeoutsA
+- BuildCommDCBAndTimeoutsW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ Translates a device-definition string into appropriate device-control block code
 ### -param lpDef [in]
 
 The device-control information. The function takes this string, parses it, and then sets appropriate values 
-       in the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_dcb">DCB</a> structure pointed to by 
+       in the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure pointed to by 
        <i>lpDCB</i>.
 
 The string must have the same form as the <b>mode</b> command's command-line arguments:
@@ -92,7 +92,7 @@ For example, the following string specifies a baud rate of 1200, no parity, 8 da
 
 ### -param lpDCB [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_dcb">DCB</a> structure that receives information 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure that receives information 
       from the device-control information string pointed to by <i>lpDef</i>. This 
       <b>DCB</b> structure defines the control settings for a 
       communications device.
@@ -100,7 +100,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/n
 
 ### -param lpCommTimeouts [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commtimeouts">COMMTIMEOUTS</a> structure that 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commtimeouts">COMMTIMEOUTS</a> structure that 
       receives time-out information.
 
 
@@ -127,12 +127,12 @@ The <b>BuildCommDCBAndTimeouts</b> function
 <ul>
 <li>If that string contains the substring "to=on", the function sets the 
       <b>WriteTotalTimeoutConstant</b> member of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commtimeouts">COMMTIMEOUTS</a> structure to 60000 and all other members 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commtimeouts">COMMTIMEOUTS</a> structure to 60000 and all other members 
       to 0.</li>
 <li>If that string contains the substring "to=off", the function sets the members of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commtimeouts">COMMTIMEOUTS</a> to 0.</li>
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commtimeouts">COMMTIMEOUTS</a> to 0.</li>
 <li>If that string does not specify a "to={on|off}" substring, the function ignores the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commtimeouts">COMMTIMEOUTS</a> structure in 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commtimeouts">COMMTIMEOUTS</a> structure in 
       <i>lpCommTimeouts</i>.</li>
 </ul>
 For more information, see the Remarks for the 
@@ -150,7 +150,7 @@ For more information, see the Remarks for the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commtimeouts">COMMTIMEOUTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commtimeouts">COMMTIMEOUTS</a>
 
 
 
@@ -162,7 +162,7 @@ For more information, see the Remarks for the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_dcb">DCB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a>
 
 
 

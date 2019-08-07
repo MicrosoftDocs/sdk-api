@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC, PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC callback, PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC callback function [Security], X509_ASN_ENCODING, security.pfn_import_public_key_info_ex2_func, wincrypt/PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC
 ms.topic: callback
-f1_keywords: 
- - "wincrypt/PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC"
+f1_keywords:
+- wincrypt/PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC
+- PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -90,7 +90,7 @@ Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> information to import into the provider.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> information to import into the provider.
 
 
 ### -param dwFlags [in]

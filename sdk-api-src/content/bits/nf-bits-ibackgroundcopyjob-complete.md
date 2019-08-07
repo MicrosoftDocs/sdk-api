@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Complete, Complete method [BITS], Complete method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],Complete method, IBackgroundCopyJob.Complete, IBackgroundCopyJob::Complete, _drz_ibackgroundcopyjob_complete, bits.ibackgroundcopyjob_complete, bits/IBackgroundCopyJob::Complete
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.Complete"
+f1_keywords:
+- bits/IBackgroundCopyJob.Complete
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.Complete
+- IBackgroundCopyJob.Complete
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -147,13 +147,13 @@ If you do not call the
 BITS removes the job from the transfer queue if the HRESULT is <b>S_OK</b> or BG_S_PARTIAL_COMPLETE. The job remains in the transfer queue if BITS was unable to rename all of the temporary files. Files that were renamed successfully are available to the user. The job remains in the queue (the state is <b>BG_JOB_STATE_TRANSFERRED</b>) until the application is able to fix the problem and calls either the 
 <b>Complete</b> method again or the 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-cancel">IBackgroundCopyJob::Cancel</a> method to cancel the job. To determine which files were not renamed for download jobs, see the <b>Completed</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-_bg_file_progress">BG_FILE_PROGRESS</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_file_progress">BG_FILE_PROGRESS</a> structure. 
 
 For download jobs, you can call the 
 <b>Complete</b> method at anytime during the transfer process; however, only files that were successfully transferred to the client before calling this method are saved. For example, if you call the 
 <b>Complete</b> method while BITS is processing the third of five files, only the first two files are saved. To determine which files have been transferred, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyfile-getprogress">IBackgroundCopyFile::GetProgress</a> method and compare the <b>BytesTransferred</b> member to the <b>BytesTotal</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-_bg_file_progress">BG_FILE_PROGRESS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_file_progress">BG_FILE_PROGRESS</a> structure.
 
 For upload jobs, you can call the 
 <b>Complete</b> method only when the job's state is <b>BG_JOB_STATE_TRANSFERRED</b>.

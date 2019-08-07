@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceSetCustomInfoEx, MprAdminInterfaceSetCustomInfoEx function [RAS], mprapi/MprAdminInterfaceSetCustomInfoEx, rras.mpradmininterfacesetcustominfoex
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminInterfaceSetCustomInfoEx"
+f1_keywords:
+- mprapi/MprAdminInterfaceSetCustomInfoEx
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminInterfaceSetCustomInfoEx
+- MprAdminInterfaceSetCustomInfoEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ The handle to the interface.  This handle is  obtained by a previous call to the
 
 ### -param pCustomInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_if_custominfoex0">MPR_IF_CUSTOMINFOEX</a>  structure that contains tunnel specific custom configuration.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_if_custominfoex0">MPR_IF_CUSTOMINFOEX</a>  structure that contains tunnel specific custom configuration.
 
 
 ## -returns
@@ -139,11 +139,11 @@ There were insufficient resources to complete the operation.
 
 
 
-If you need to delete the custom configuration for IKEv2 tunnel of an interface, call the  <b>MprAdminInterfaceSetCustomInfoEx</b> function with the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_if_custominfoex0">MPR_IF_CUSTOMINFOEX</a>   structure set to zero.
+If you need to delete the custom configuration for IKEv2 tunnel of an interface, call the  <b>MprAdminInterfaceSetCustomInfoEx</b> function with the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_if_custominfoex0">MPR_IF_CUSTOMINFOEX</a>   structure set to zero.
 
-If you need to delete the IKEv2 main mode and quick mode policy configuration for an interface, set the <b>customPolicy</b> parameter of the <b>customIkev2Config</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_if_custominfoex0">MPR_IF_CUSTOMINFOEX</a>   structure to <b>NULL</b>.
+If you need to delete the IKEv2 main mode and quick mode policy configuration for an interface, set the <b>customPolicy</b> parameter of the <b>customIkev2Config</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_if_custominfoex0">MPR_IF_CUSTOMINFOEX</a>   structure to <b>NULL</b>.
 
-If you need to delete the certificate configured to be used during IKEv2 main mode SA negotiation, set the <b>cbData</b> member of <b>certificateName</b> in <b>customIkev2Config</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_if_custominfoex0">MPR_IF_CUSTOMINFOEX</a>   structure to 0.
+If you need to delete the certificate configured to be used during IKEv2 main mode SA negotiation, set the <b>cbData</b> member of <b>certificateName</b> in <b>customIkev2Config</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_if_custominfoex0">MPR_IF_CUSTOMINFOEX</a>   structure to 0.
 
 
 

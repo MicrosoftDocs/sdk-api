@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSADuplicateSocket, WSADuplicateSocket function [Winsock], WSADuplicateSocketA, WSADuplicateSocketW, _win32_wsaduplicatesocket_2, winsock.wsaduplicatesocket_2, winsock2/WSADuplicateSocket, winsock2/WSADuplicateSocketA, winsock2/WSADuplicateSocketW
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSADuplicateSocket"
+f1_keywords:
+- winsock2/WSADuplicateSocket
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSADuplicateSocket
- - WSADuplicateSocketA
- - WSADuplicateSocketW
+- WSADuplicateSocket
+- WSADuplicateSocketA
+- WSADuplicateSocketW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 The 
 <b>WSADuplicateSocket</b> function returns a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure that can be used to create a new socket descriptor for a shared socket. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure that can be used to create a new socket descriptor for a shared socket. The 
 <b>WSADuplicateSocket</b> function cannot be used on a QOS-enabled socket.
 
 
@@ -77,7 +77,7 @@ Process identifier of the target process in which the duplicated socket will be 
 ### -param lpProtocolInfo [out]
 
 Pointer to a buffer, allocated by the client, that is large enough to contain a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. The service provider copies the protocol information structure contents to this buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. The service provider copies the protocol information structure contents to this buffer.
 
 
 ## -returns
@@ -195,7 +195,7 @@ The <i>lpProtocolInfo</i> parameter is not a valid part of the user address spac
 The 
 <b>WSADuplicateSocket</b> function is used to enable socket sharing between processes. A source process calls 
 <b>WSADuplicateSocket</b> to obtain a special 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. It uses some interprocess communications (IPC) mechanism to pass the contents of this structure to a target process, which in turn uses it in a call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. It uses some interprocess communications (IPC) mechanism to pass the contents of this structure to a target process, which in turn uses it in a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> to obtain a descriptor for the duplicated socket. The special 
 <b>WSAPROTOCOL_INFO</b> structure can only be used once by the target process.
 
@@ -236,13 +236,13 @@ One possible scenario for establishing and handing off a shared socket is illust
 <tr>
 <td>5) Call 
 <b>WSADuplicateSocket</b> to get a special 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure</td>
 <td></td>
 <td></td>
 </tr>
 <tr>
 <td>6) Send 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure to target</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure to target</td>
 <td></td>
 <td></td>
 </tr>
@@ -250,7 +250,7 @@ One possible scenario for establishing and handing off a shared socket is illust
 <td></td>
 <td>==&gt;</td>
 <td>7) Receive 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure</td>
 </tr>
 <tr>
 <td></td>

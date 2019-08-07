@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3, NetGroupEnum, NetGroupEnum function [Network Management], _win32_netgroupenum, lmaccess/NetGroupEnum, netmgmt.netgroupenum
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetGroupEnum"
+f1_keywords:
+- lmaccess/NetGroupEnum
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetGroupEnum
+- NetGroupEnum
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -89,7 +89,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return the global group name. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_0">GROUP_INFO_0</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_0">GROUP_INFO_0</a> structures.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Return the global group name. The <i>bufptr</i> parameter points to an array of
 </td>
 <td width="60%">
 Return the global group name and a comment. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_1">GROUP_INFO_1</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_1">GROUP_INFO_1</a> structures.
 
 </td>
 </tr>
@@ -111,8 +111,8 @@ Return the global group name and a comment. The <i>bufptr</i> parameter points t
 </td>
 <td width="60%">
 Return detailed information about the global group. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_2">GROUP_INFO_2</a> structures. Note that on Windows XP and later, it is recommended that you use 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_3">GROUP_INFO_3</a> instead.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_2">GROUP_INFO_2</a> structures. Note that on Windows XP and later, it is recommended that you use 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_3">GROUP_INFO_3</a> instead.
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ Return detailed information about the global group. The <i>bufptr</i> parameter 
 </td>
 <td width="60%">
  Return detailed information about the global group. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_3">GROUP_INFO_3</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_3">GROUP_INFO_3</a> structures.
 
 <b>Windows 2000:  </b>This level is not supported.
 
@@ -245,15 +245,15 @@ User account names are limited to 20 characters and group names are limited to 2
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_0">GROUP_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_0">GROUP_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_1">GROUP_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_1">GROUP_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_3">GROUP_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_3">GROUP_INFO_3</a>
 
 
 

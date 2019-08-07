@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetFaultErrorDetail, WsGetFaultErrorDetail function [Web Services for Windows], webservices/WsGetFaultErrorDetail, wsw.wsgetfaulterrordetail
 ms.topic: function
-f1_keywords: 
- - "webservices/WsGetFaultErrorDetail"
+f1_keywords:
+- webservices/WsGetFaultErrorDetail
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsGetFaultErrorDetail
+- WsGetFaultErrorDetail
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -177,11 +177,11 @@ One or more arguments are invalid.
 
 
 This API deserializes the value from the detail field of
-                the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_fault">WS_FAULT</a> stored in the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object.
+                the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a> stored in the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object.
             
 
 This functions supports the following scenarios, based on the contents
-                of the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_fault_detail_description">WS_ELEMENT_DESCRIPTION</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_fault_detail_description">WS_FAULT_DETAIL_DESCRIPTION</a> supplied:
+                of the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_fault_detail_description">WS_ELEMENT_DESCRIPTION</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault_detail_description">WS_FAULT_DETAIL_DESCRIPTION</a> supplied:
             
 
 <ul>
@@ -201,7 +201,7 @@ Since different faults with different detail formats may be expected
 </li>
 <li>Reading multiple elements as a single value.  
                 In this case, the elementLocalName and elementNs
-                fields of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_element_description">WS_ELEMENT_DESCRIPTION</a> should be set to <b>NULL</b>, and a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRUCT_TYPE</a>and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_struct_description">WS_STRUCT_DESCRIPTION</a> should be specified.  Each field of the
+                fields of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_element_description">WS_ELEMENT_DESCRIPTION</a> should be set to <b>NULL</b>, and a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRUCT_TYPE</a>and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a> should be specified.  Each field of the
                 structure value being deserialized should correspond to element(s) to read within the body.
                 The readOption parameter must be <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_VALUE</a> or <b>WS_READ_REQUIRED_POINTER</b>. 
                 

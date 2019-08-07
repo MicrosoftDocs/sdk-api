@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CREDUIWIN_AUTHPACKAGE_ONLY, CREDUIWIN_CHECKBOX, CREDUIWIN_ENUMERATE_ADMINS, CREDUIWIN_ENUMERATE_CURRENT_USER, CREDUIWIN_GENERIC, CREDUIWIN_IN_CRED_ONLY, CREDUIWIN_PACK_32_WOW, CREDUIWIN_PREPROMPTING, CREDUIWIN_SECURE_PROMPT, CredUIPromptForWindowsCredentials, CredUIPromptForWindowsCredentials function [Security], CredUIPromptForWindowsCredentialsA, CredUIPromptForWindowsCredentialsW, security.creduipromptforwindowscredentials, wincred/CredUIPromptForWindowsCredentials, wincred/CredUIPromptForWindowsCredentialsA, wincred/CredUIPromptForWindowsCredentialsW
 ms.topic: function
-f1_keywords: 
- - "wincred/CredUIPromptForWindowsCredentials"
+f1_keywords:
+- wincred/CredUIPromptForWindowsCredentials
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Credui.lib
 req.dll: Credui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Credui.dll
- - Ext-MS-Win-security-credui-l1-1-0.dll
- - Ext-MS-Win-security-credui-l1-1-1.dll
- - AnalogCredUI.dll
+- Credui.dll
+- Ext-MS-Win-security-credui-l1-1-0.dll
+- Ext-MS-Win-security-credui-l1-1-1.dll
+- AnalogCredUI.dll
 api_name:
- - CredUIPromptForWindowsCredentials
- - CredUIPromptForWindowsCredentialsA
- - CredUIPromptForWindowsCredentialsW
+- CredUIPromptForWindowsCredentials
+- CredUIPromptForWindowsCredentialsA
+- CredUIPromptForWindowsCredentialsW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,13 +66,13 @@ The <b>CredUIPromptForWindowsCredentials</b> function creates and displays a con
 
 ### -param pUiInfo [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credui_infoa">CREDUI_INFO</a> structure that contains information for customizing the appearance of the dialog box that this function displays. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credui_infoa">CREDUI_INFO</a> structure that contains information for customizing the appearance of the dialog box that this function displays. 
    
 
 
-If the <b>hwndParent</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credui_infoa">CREDUI_INFO</a> structure is not <b>NULL</b>, this function displays a modal dialog box centered on the parent window.
+If the <b>hwndParent</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credui_infoa">CREDUI_INFO</a> structure is not <b>NULL</b>, this function displays a modal dialog box centered on the parent window.
 
-If the <b>hwndParent</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credui_infoa">CREDUI_INFO</a> structure is <b>NULL</b>, the function displays a dialog box centered on the screen.
+If the <b>hwndParent</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credui_infoa">CREDUI_INFO</a> structure is <b>NULL</b>, the function displays a dialog box centered on the screen.
 
 This function ignores the  <b>hbmBanner</b> member of the <b>CREDUI_INFO</b> structure. 
 

@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 5550c49c-36ef-42e6-8134-5d9d0d9d53b5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_REQUEST, *PHTTP_REQUEST_V1, HTTP_REQUEST, HTTP_REQUEST_FLAG_HTTP2, HTTP_REQUEST_FLAG_MORE_ENTITY_BODY_EXISTS, HTTP_REQUEST_IP_ROUTED, HTTP_REQUEST_V1, HTTP_REQUEST_V1 structure [HTTP], PHTTP_REQUEST_V1, PHTTP_REQUEST_V1 structure pointer [HTTP], http.http_request_v1, http/HTTP_REQUEST_V1, http/PHTTP_REQUEST_V1"
+ms.keywords: '*PHTTP_REQUEST, *PHTTP_REQUEST_V1, HTTP_REQUEST, HTTP_REQUEST_FLAG_HTTP2, HTTP_REQUEST_FLAG_MORE_ENTITY_BODY_EXISTS, HTTP_REQUEST_IP_ROUTED, HTTP_REQUEST_V1, HTTP_REQUEST_V1 structure [HTTP], PHTTP_REQUEST_V1, PHTTP_REQUEST_V1 structure pointer [HTTP], http.http_request_v1, http/HTTP_REQUEST_V1, http/PHTTP_REQUEST_V1'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_REQUEST_V1"
+f1_keywords:
+- http/HTTP_REQUEST_V1
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_REQUEST_V1
+- HTTP_REQUEST_V1
 product: Windows
 targetos: Windows
 req.typenames: HTTP_REQUEST_V1, *PHTTP_REQUEST_V1
@@ -147,7 +147,7 @@ An
 ### -field Verb
 
 An HTTP verb associated with this request. This member can be one of the values from the  
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_verb">HTTP_VERB</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_verb">HTTP_VERB</a> enumeration.
 
 
 ### -field UnknownVerbLength
@@ -173,20 +173,20 @@ A pointer to a string of octets that contains the original, unprocessed URL targ
 ### -field CookedUrl
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_cooked_url">HTTP_COOKED_URL</a> structure that contains a parsed canonical wide-character version of the URL targeted by this request. This is the version of the URL HTTP Listeners should act upon, rather than the raw URL.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_cooked_url">HTTP_COOKED_URL</a> structure that contains a parsed canonical wide-character version of the URL targeted by this request. This is the version of the URL HTTP Listeners should act upon, rather than the raw URL.
 
 
 
 ### -field Address
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_transport_address">HTTP_TRANSPORT_ADDRESS</a> structure that contains the transport addresses for the connection for this request.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_transport_address">HTTP_TRANSPORT_ADDRESS</a> structure that contains the transport addresses for the connection for this request.
 
 
 ### -field Headers
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_headers">HTTP_REQUEST_HEADERS</a> structure that contains the headers specified in this request.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_headers">HTTP_REQUEST_HEADERS</a> structure that contains the headers specified in this request.
 
 
 ### -field BytesReceived
@@ -214,7 +214,7 @@ Raw connection ID for an Secure Sockets Layer (SSL) request.
 ### -field pSslInfo
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_ssl_info">HTTP_SSL_INFO</a> structure that contains Secure Sockets Layer (SSL) information about the connection on which the request was received.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_ssl_info">HTTP_SSL_INFO</a> structure that contains Secure Sockets Layer (SSL) information about the connection on which the request was received.
 
 
 ## -remarks
@@ -235,7 +235,7 @@ The unprocessed URL contained in the <b>pRawUrl</b> member is for tracking and s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_cooked_url">HTTP_COOKED_URL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_cooked_url">HTTP_COOKED_URL</a>
 
 
 
@@ -247,7 +247,7 @@ The unprocessed URL contained in the <b>pRawUrl</b> member is for tracking and s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_v2">HTTP_REQUEST_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_v2">HTTP_REQUEST_V2</a>
 
 
 
@@ -255,15 +255,15 @@ The unprocessed URL contained in the <b>pRawUrl</b> member is for tracking and s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_ssl_info">HTTP_SSL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_ssl_info">HTTP_SSL_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_transport_address">HTTP_TRANSPORT_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_transport_address">HTTP_TRANSPORT_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_verb">HTTP_VERB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_verb">HTTP_VERB</a>
 
 
 

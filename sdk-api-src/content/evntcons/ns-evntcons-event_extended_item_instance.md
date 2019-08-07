@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: 3def638b-cab2-4b5d-b409-7285caa77ae1
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEVENT_EXTENDED_ITEM_INSTANCE, EVENT_EXTENDED_ITEM_INSTANCE, EVENT_EXTENDED_ITEM_INSTANCE structure [ETW], PEVENT_EXTENDED_ITEM_INSTANCE, PEVENT_EXTENDED_ITEM_INSTANCE structure pointer [ETW], base.event_extended_item_instance, etw.event_extended_item_instance, evntcons/EVENT_EXTENDED_ITEM_INSTANCE, evntcons/PEVENT_EXTENDED_ITEM_INSTANCE"
+ms.keywords: '*PEVENT_EXTENDED_ITEM_INSTANCE, EVENT_EXTENDED_ITEM_INSTANCE, EVENT_EXTENDED_ITEM_INSTANCE structure [ETW], PEVENT_EXTENDED_ITEM_INSTANCE, PEVENT_EXTENDED_ITEM_INSTANCE structure pointer [ETW], base.event_extended_item_instance, etw.event_extended_item_instance, evntcons/EVENT_EXTENDED_ITEM_INSTANCE, evntcons/PEVENT_EXTENDED_ITEM_INSTANCE'
 ms.topic: struct
-f1_keywords: 
- - "evntcons/EVENT_EXTENDED_ITEM_INSTANCE"
+f1_keywords:
+- evntcons/EVENT_EXTENDED_ITEM_INSTANCE
 req.header: evntcons.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evntcons.h
+- Evntcons.h
 api_name:
- - EVENT_EXTENDED_ITEM_INSTANCE
+- EVENT_EXTENDED_ITEM_INSTANCE
 product: Windows
 targetos: Windows
 req.typenames: EVENT_EXTENDED_ITEM_INSTANCE, *PEVENT_EXTENDED_ITEM_INSTANCE
@@ -79,7 +79,7 @@ A GUID that uniquely identifies the provider that logged the event referenced by
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
  
 
  

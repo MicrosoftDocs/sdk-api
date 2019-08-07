@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_FILE_STORE_COMMIT_ENABLE, CERT_LDAP_STORE_AREC_EXCLUSIVE_FLAG, CERT_LDAP_STORE_OPENED_FLAG, CERT_LDAP_STORE_SIGN_FLAG, CERT_LDAP_STORE_UNBIND_FLAG, CERT_REGISTRY_STORE_REMOTE_FLAG, CERT_REGISTRY_STORE_SERIALIZED_FLAG, CERT_STORE_BACKUP_RESTORE_FLAG, CERT_STORE_CREATE_NEW_FLAG, CERT_STORE_DEFER_CLOSE_UNTIL_LAST_FREE_FLAG, CERT_STORE_DELETE_FLAG, CERT_STORE_ENUM_ARCHIVED_FLAG, CERT_STORE_MAXIMUM_ALLOWED, CERT_STORE_NO_CRYPT_RELEASE_FLAG, CERT_STORE_OPEN_EXISTING_FLAG, CERT_STORE_READONLY_FLAG, CERT_STORE_SET_LOCALIZED_NAME_FLAG, CERT_STORE_SHARE_CONTEXT_FLAG, CERT_STORE_UPDATE_KEYID_FLAG, CERT_SYSTEM_STORE_CURRENT_SERVICE, CERT_SYSTEM_STORE_CURRENT_USER, CERT_SYSTEM_STORE_CURRENT_USER_GROUP_POLICY, CERT_SYSTEM_STORE_LOCAL_MACHINE, CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, CERT_SYSTEM_STORE_LOCAL_MACHINE_GROUP_POLICY, CERT_SYSTEM_STORE_RELOCATE_FLAG, CERT_SYSTEM_STORE_SERVICES, CERT_SYSTEM_STORE_UNPROTECTED_FLAG, CERT_SYSTEM_STORE_USERS, CertDllOpenStoreProv, PFN_CERT_DLL_OPEN_STORE_PROV_FUNC, PFN_CERT_DLL_OPEN_STORE_PROV_FUNC callback, PFN_CERT_DLL_OPEN_STORE_PROV_FUNC callback function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_certdllopenstoreprov, security.certdllopenstoreprov, wincrypt/PFN_CERT_DLL_OPEN_STORE_PROV_FUNC
 ms.topic: callback
-f1_keywords: 
- - "wincrypt/PFN_CERT_DLL_OPEN_STORE_PROV_FUNC"
+f1_keywords:
+- wincrypt/PFN_CERT_DLL_OPEN_STORE_PROV_FUNC
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - PFN_CERT_DLL_OPEN_STORE_PROV_FUNC
+- PFN_CERT_DLL_OPEN_STORE_PROV_FUNC
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -354,7 +354,7 @@ To perform write operations on the store, the query string must specify a BASE q
 
 </td>
 <td>
-If the <i>dwFlags</i> parameter contains the <b>CERT_LDAP_STORE_OPENED_FLAG</b> flag, this is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_ldap_store_opened_para">CERT_LDAP_STORE_OPENED_PARA</a> structure that specifies the established LDAP session to use.
+If the <i>dwFlags</i> parameter contains the <b>CERT_LDAP_STORE_OPENED_FLAG</b> flag, this is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_ldap_store_opened_para">CERT_LDAP_STORE_OPENED_PARA</a> structure that specifies the established LDAP session to use.
 
 Otherwise, this is a pointer to a null-terminated Unicode string that contains the LDAP query string. For more information about LDAP query strings, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/ldap-dialect">LDAP Dialect</a>.
 
@@ -766,7 +766,7 @@ To provide integrity required by some applications, digitally sign all LDAP traf
 </dl>
 </td>
 <td width="60%">
-Use this flag to use an existing LDAP session. When this flag is specified, the <i>pvPara</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_ldap_store_opened_para">CERT_LDAP_STORE_OPENED_PARA</a> structure that contains information about the LDAP session to use.
+Use this flag to use an existing LDAP session. When this flag is specified, the <i>pvPara</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_ldap_store_opened_para">CERT_LDAP_STORE_OPENED_PARA</a> structure that contains information about the LDAP session to use.
 
 </td>
 </tr>
@@ -808,9 +808,9 @@ The handle of the store in memory that has been opened and can be used to make c
 ### -param pStoreProvInfo [in, out]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_store_prov_info">CERT_STORE_PROV_INFO</a>   structure to be updated. The data structure has been zeroed, and <b>cbSize</b> set before the call.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_store_prov_info">CERT_STORE_PROV_INFO</a>   structure to be updated. The data structure has been zeroed, and <b>cbSize</b> set before the call.
 
-The <b>cStoreProvFunc</b>  member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_store_prov_info">CERT_STORE_PROV_INFO</a> structure is the count of callback functions that are implemented and should be set last. After <b>cStoreProvFunc</b> is set, all subsequent store calls, such as 
+The <b>cStoreProvFunc</b>  member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_store_prov_info">CERT_STORE_PROV_INFO</a> structure is the count of callback functions that are implemented and should be set last. After <b>cStoreProvFunc</b> is set, all subsequent store calls, such as 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcertificatetostore">CertAddEncodedCertificateToStore</a>, will call the appropriate provider callback function.
 
 
@@ -828,7 +828,7 @@ The <b>cStoreProvFunc</b>  member of the <a href="https://docs.microsoft.com/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_store_prov_info">CERT_STORE_PROV_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_store_prov_info">CERT_STORE_PROV_INFO</a>
 
 
 

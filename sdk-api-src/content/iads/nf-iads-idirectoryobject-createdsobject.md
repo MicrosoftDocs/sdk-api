@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDSObject, CreateDSObject method [ADSI], CreateDSObject method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],CreateDSObject method, IDirectoryObject.CreateDSObject, IDirectoryObject::CreateDSObject, _ds_idirectoryobject_createdsobject, adsi.idirectoryobject__createdsobject, adsi.idirectoryobject_createdsobject, iads/IDirectoryObject::CreateDSObject
 ms.topic: method
-f1_keywords: 
- - "iads/IDirectoryObject.CreateDSObject"
+f1_keywords:
+- iads/IDirectoryObject.CreateDSObject
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IDirectoryObject.CreateDSObject
+- IDirectoryObject.CreateDSObject
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Provides the relative distinguished name (relative path) of the object to be cre
 
 ### -param pAttributeEntries [in]
 
-An array of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_attr_info">ADS_ATTR_INFO</a> structures that contain attribute definitions to be set when the object is created.
+An array of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structures that contain attribute definitions to be set when the object is created.
 
 
 ### -param dwNumAttributes [in]
@@ -161,7 +161,7 @@ if ( SUCCEEDED(hr) )
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_attr_info">ADS_ATTR_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a>
 
 
 

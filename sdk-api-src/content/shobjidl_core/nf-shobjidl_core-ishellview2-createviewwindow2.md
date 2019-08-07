@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateViewWindow2, CreateViewWindow2 method [Windows Shell], CreateViewWindow2 method [Windows Shell],IShellView2 interface, IShellView2 interface [Windows Shell],CreateViewWindow2 method, IShellView2.CreateViewWindow2, IShellView2::CreateViewWindow2, _win32_IShellView2_CreateViewWindow2, shell.IShellView2_CreateViewWindow2, shobjidl_core/IShellView2::CreateViewWindow2
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellView2.CreateViewWindow2"
+f1_keywords:
+- shobjidl_core/IShellView2.CreateViewWindow2
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellView2.CreateViewWindow2
+- IShellView2.CreateViewWindow2
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Used to request the creation of a new Shell view window. It can be either the ri
 
 Type: <b>LPSV2CVW2_PARAMS</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-_sv2cvw2_params">SV2CVW2_PARAMS</a> structure that defines the new view window.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-sv2cvw2_params">SV2CVW2_PARAMS</a> structure that defines the new view window.
 
 
 ## -returns

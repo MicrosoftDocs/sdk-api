@@ -8,10 +8,10 @@ tech.root: ad
 ms.assetid: cbee3515-5037-4d65-8817-4c63fe13ef5d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PADSPROPINITPARAMS, ADSPROPINITPARAMS, ADSPROPINITPARAMS structure [Active Directory], PADSPROPINITPARAMS, PADSPROPINITPARAMS structure pointer [Active Directory], _glines_adspropinitparams, ad.adspropinitparams, adsprop/ADSPROPINITPARAMS, adsprop/PADSPROPINITPARAMS"
+ms.keywords: '*PADSPROPINITPARAMS, ADSPROPINITPARAMS, ADSPROPINITPARAMS structure [Active Directory], PADSPROPINITPARAMS, PADSPROPINITPARAMS structure pointer [Active Directory], _glines_adspropinitparams, ad.adspropinitparams, adsprop/ADSPROPINITPARAMS, adsprop/PADSPROPINITPARAMS'
 ms.topic: struct
-f1_keywords: 
- - "adsprop/ADSPROPINITPARAMS"
+f1_keywords:
+- adsprop/ADSPROPINITPARAMS
 req.header: adsprop.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Adsprop.h
+- Adsprop.h
 api_name:
- - ADSPROPINITPARAMS
+- ADSPROPINITPARAMS
 product: Windows
 targetos: Windows
 req.typenames: ADSPROPINITPARAMS, *PADSPROPINITPARAMS
@@ -86,7 +86,7 @@ Pointer to a null-terminated Unicode string that contains the common name of the
 
 ### -field pWritableAttrs
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_attr_info">ADS_ATTR_INFO</a> structure that contains attribute data for the directory object.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structure that contains attribute data for the directory object.
 
 
 ## -remarks
@@ -103,7 +103,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_attr_info">ADS_ATTR_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a>
 
 
 

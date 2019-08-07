@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDsObjectPicker interface [Active Directory],Initialize method, IDsObjectPicker.Initialize, IDsObjectPicker::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IDsObjectPicker interface, _glines_idsobjectpicker_initialize, ad.idsobjectpicker__initialize, ad.idsobjectpicker_initialize, objsel/IDsObjectPicker::Initialize
 ms.topic: method
-f1_keywords: 
- - "objsel/IDsObjectPicker.Initialize"
+f1_keywords:
+- objsel/IDsObjectPicker.Initialize
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Objsel.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Objsel.dll
+- Objsel.dll
 api_name:
- - IDsObjectPicker.Initialize
+- IDsObjectPicker.Initialize
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>IDsObjectPicker::Initialize</b> method initializes the object picker dial
 ### -param pInitInfo
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_init_info">DSOP_INIT_INFO</a> structure that contains the initialization data.
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_init_info">DSOP_INIT_INFO</a> structure that contains the initialization data.
 
 
 ## -returns
@@ -88,7 +88,7 @@ Returns a standard error code or one of the following values.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_init_info">DSOP_INIT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_init_info">DSOP_INIT_INFO</a>
 
 
 

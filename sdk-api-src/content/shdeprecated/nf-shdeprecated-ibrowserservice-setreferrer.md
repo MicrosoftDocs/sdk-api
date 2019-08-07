@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService interface [Windows Shell],SetReferrer method, IBrowserService.SetReferrer, IBrowserService::SetReferrer, SetReferrer, SetReferrer method [Windows Shell], SetReferrer method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::SetReferrer, shell.IBrowserService_SetReferrer, zone_IBrowserService_SetReferrer
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService.SetReferrer"
+f1_keywords:
+- shdeprecated/IBrowserService.SetReferrer
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService.SetReferrer
+- IBrowserService.SetReferrer
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Deprecated. Sets the pointer to an item identifier list (PIDL) used for zone che
 
 Type: <b>LPITEMIDLIST</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure (PIDL) used for zone checking.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure (PIDL) used for zone checking.
 
 
 ## -returns

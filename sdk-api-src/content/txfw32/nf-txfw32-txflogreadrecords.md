@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TxfLogReadRecords, TxfLogReadRecords function [Files], fs.txflogreadrecords, txfw32/TxfLogReadRecords
 ms.topic: function
-f1_keywords: 
- - "txfw32/TxfLogReadRecords"
+f1_keywords:
+- txfw32/TxfLogReadRecords
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: TxfW32.lib
 req.dll: TxfW32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - TxfW32.dll
+- TxfW32.dll
 api_name:
- - TxfLogReadRecords
+- TxfLogReadRecords
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -77,7 +77,7 @@ The size of the output buffer, in bytes.
 
 ### -param Buffer [out]
 
-A pointer to the buffer that receives the records. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_log_record_base">TXF_LOG_RECORD_BASE</a>.
+A pointer to the buffer that receives the records. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_base">TXF_LOG_RECORD_BASE</a>.
 
 
 ### -param BytesUsed [out]
@@ -137,7 +137,7 @@ Some of the available records were copied into the buffer. Call this function ag
 <td width="60%">
 The buffer is not large enough to contain even one record. If <i>BytesUsed</i> is 
 	       nonzero, then there was enough space to copy the 
-	       <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_log_record_base">TXF_LOG_RECORD_BASE</a> structure, which indicates the 
+	       <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_base">TXF_LOG_RECORD_BASE</a> structure, which indicates the 
 	       required buffer size to read the next complete record.
 
 </td>
@@ -164,7 +164,7 @@ The format of the log file being processed is unrecognized.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_log_record_base">TXF_LOG_RECORD_BASE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_base">TXF_LOG_RECORD_BASE</a>
  
 
  

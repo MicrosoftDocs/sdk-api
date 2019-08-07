@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 07008290-5277-4ef4-ae55-d335fdb2ba90
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_REQUEST_AUTH_INFO, *PHTTP_REQUEST_AUTH_INFO structure [HTTP], HTTP_REQUEST_AUTH_FLAG_TOKEN_FOR_CACHED_CRED, HTTP_REQUEST_AUTH_INFO, HTTP_REQUEST_AUTH_INFO structure [HTTP], http.http_request_auth_info, http/*PHTTP_REQUEST_AUTH_INFO, http/HTTP_REQUEST_AUTH_INFO"
+ms.keywords: '*PHTTP_REQUEST_AUTH_INFO, *PHTTP_REQUEST_AUTH_INFO structure [HTTP], HTTP_REQUEST_AUTH_FLAG_TOKEN_FOR_CACHED_CRED, HTTP_REQUEST_AUTH_INFO, HTTP_REQUEST_AUTH_INFO structure [HTTP], http.http_request_auth_info, http/*PHTTP_REQUEST_AUTH_INFO, http/HTTP_REQUEST_AUTH_INFO'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_REQUEST_AUTH_INFO"
+f1_keywords:
+- http/HTTP_REQUEST_AUTH_INFO
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_REQUEST_AUTH_INFO
+- HTTP_REQUEST_AUTH_INFO
 product: Windows
 targetos: Windows
 req.typenames: HTTP_REQUEST_AUTH_INFO, *PHTTP_REQUEST_AUTH_INFO
@@ -98,7 +98,7 @@ The provided token is for  NTLM and is based on a cached credential of a Keep Al
 
 ### -field AuthType
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_request_auth_type">HTTP_REQUEST_AUTH_TYPE</a> enumeration that indicates the authentication scheme attempted or established  for the request.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_request_auth_type">HTTP_REQUEST_AUTH_TYPE</a> enumeration that indicates the authentication scheme attempted or established  for the request.
 
 
 ### -field AccessToken
@@ -160,7 +160,7 @@ The Base64 encoded mutual authentication data used in  the WWW-Authenticate head
 
 Starting with HTTP version 2.0, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure  contains an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_info">HTTP_REQUEST_INFO</a> structure. The <b>pVoid</b> member of the <b>HTTP_REQUEST_INFO</b> structure points to the <b>HTTP_REQUEST_AUTH_INFO</b> when the request information type is <b>HttpRequestInfoTypeAuth</b>.
 
-When the application receives a request with this structure and the request has not been authenticated, it can send the initial 401 challenge with the desired set of WWW-Authenticate headers in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_multiple_known_headers">HTTP_MULTIPLE_KNOWN_HEADERS</a> structure. When the HTTP Server API completes  the authentication handshake, it fills  the <b>HTTP_REQUEST_AUTH_INFO</b> structure and passes it to the application with the request again. The handle to the access token that represents the client identity is provided in this structure by the HTTP Server API.
+When the application receives a request with this structure and the request has not been authenticated, it can send the initial 401 challenge with the desired set of WWW-Authenticate headers in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_multiple_known_headers">HTTP_MULTIPLE_KNOWN_HEADERS</a> structure. When the HTTP Server API completes  the authentication handshake, it fills  the <b>HTTP_REQUEST_AUTH_INFO</b> structure and passes it to the application with the request again. The handle to the access token that represents the client identity is provided in this structure by the HTTP Server API.
 
 Context Attributes
 
@@ -172,7 +172,7 @@ Mutual Authentication Data
 
 By default, the HTTP Server API ensures that the mutual authentication data is added to the final 200 response; in general, server applications are not responsible for sending the mutual authentication data.
 
-However, applications can receive the mutual authentication data and send it with the final response. When the <b>ReceiveMutualAuth</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a> structure is set to true, applications receive the server credentials for mutual authentication along with the authenticated request.
+However, applications can receive the mutual authentication data and send it with the final response. When the <b>ReceiveMutualAuth</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a> structure is set to true, applications receive the server credentials for mutual authentication along with the authenticated request.
 
 The mutual authentication data provided in the <b>pMutualAuthData</b> member contains the exact value of WWW-Authenticate header without the header name. For example, <b>pMutualAuthData</b> points to "Negotiate ade02938481eca". The application builds the WWW-Authenticate header by appending the provided <b>pMutualAuthData</b> as a response header value.
 
@@ -192,7 +192,7 @@ The mutual authentication data provided in the <b>pMutualAuthData</b> member con
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_v2">HTTP_REQUEST_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_v2">HTTP_REQUEST_V2</a>
  
 
  

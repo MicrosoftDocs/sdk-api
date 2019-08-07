@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],SetFlags method, IVdsService.SetFlags, IVdsService::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsService interface, base.ivdsservice_setflags, vds/IVdsService::SetFlags
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsService.SetFlags"
+f1_keywords:
+- vds/IVdsService.SetFlags
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsService.SetFlags
+- IVdsService.SetFlags
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Sets service object flags.
 
 ### -param ulFlags [in]
 
-The flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_service_flag">VDS_SERVICE_FLAG</a>. Callers can set the <b>VDS_SVF_AUTO_MOUNT_OFF</b> flag.
+The flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_service_flag">VDS_SERVICE_FLAG</a>. Callers can set the <b>VDS_SVF_AUTO_MOUNT_OFF</b> flag.
 
 
 ## -returns
@@ -111,7 +111,7 @@ VDS failed to initialize. If an application calls this method before the service
 
 
 
-Beginning with Windows 8 and Windows Server 2012, the <b>VDS_SVF_AUTO_MOUNT_OFF</b> is deprecated. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_san_policy">VDS_SAN_POLICY</a> enumeration to control default disk mounting behavior.
+Beginning with Windows 8 and Windows Server 2012, the <b>VDS_SVF_AUTO_MOUNT_OFF</b> is deprecated. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_san_policy">VDS_SAN_POLICY</a> enumeration to control default disk mounting behavior.
 
 
 
@@ -125,7 +125,7 @@ Beginning with Windows 8 and Windows Server 2012, the <b>VDS_SVF_AUTO_MOUNT_OF
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_service_flag">VDS_SERVICE_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_service_flag">VDS_SERVICE_FLAG</a>
  
 
  

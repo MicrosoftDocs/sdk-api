@@ -8,10 +8,10 @@ tech.root: perfctrs
 ms.assetid: 5ea617d3-857d-4e0a-ad10-4d63044fc927
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPERF_INSTANCE_DEFINITION, PERF_INSTANCE_DEFINITION, PERF_INSTANCE_DEFINITION structure [Perf], _win32_perf_instance_definition_str, base.perf_instance_definition_str, perf.perf_instance_definition_str, winperf/PERF_INSTANCE_DEFINITION"
+ms.keywords: '*PPERF_INSTANCE_DEFINITION, PERF_INSTANCE_DEFINITION, PERF_INSTANCE_DEFINITION structure [Perf], _win32_perf_instance_definition_str, base.perf_instance_definition_str, perf.perf_instance_definition_str, winperf/PERF_INSTANCE_DEFINITION'
 ms.topic: struct
-f1_keywords: 
- - "winperf/PERF_INSTANCE_DEFINITION"
+f1_keywords:
+- winperf/PERF_INSTANCE_DEFINITION
 req.header: winperf.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winperf.h
+- Winperf.h
 api_name:
- - PERF_INSTANCE_DEFINITION
+- PERF_INSTANCE_DEFINITION
 product: Windows
 targetos: Windows
 req.typenames: PERF_INSTANCE_DEFINITION, *PPERF_INSTANCE_DEFINITION
@@ -97,7 +97,7 @@ Do not include in the length any padding that you added to the instance name to 
 
 
 
-The object contains instances if the <b>NumInstances</b>  member of <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_object_type">PERF_OBJECT_TYPE</a> is greater than zero. Use the <b>DefinitionLength</b> member of <b>PERF_OBJECT_TYPE</b> to find the first instance of the object. For details, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>.
+The object contains instances if the <b>NumInstances</b>  member of <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a> is greater than zero. Use the <b>DefinitionLength</b> member of <b>PERF_OBJECT_TYPE</b> to find the first instance of the object. For details, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>.
 
 Consumers should use the parent instance name, if specified, to create a full instance name that is used for display. The convention is to form the name as parent/child.
 
@@ -113,7 +113,7 @@ Providers must allocate enough space for the instance name to ensure that <b>Byt
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_object_type">PERF_OBJECT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a>
  
 
  

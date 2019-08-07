@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_KEYBOARD_SET_TYPEMATIC, IOCTL_KEYBOARD_SET_TYPEMATIC control, IOCTL_KEYBOARD_SET_TYPEMATIC control code [Human Input Devices], hid.ioctl_keyboard_set_typematic2, i8042ref_1df6c763-6fbd-4a76-810a-7b0e6f624e9f.xml, ntddkbd/IOCTL_KEYBOARD_SET_TYPEMATIC
 ms.topic: ioctl
-f1_keywords: 
- - "ntddkbd/IOCTL_KEYBOARD_SET_TYPEMATIC"
+f1_keywords:
+- ntddkbd/IOCTL_KEYBOARD_SET_TYPEMATIC
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ntddkbd.h
+- ntddkbd.h
 api_name:
- - IOCTL_KEYBOARD_SET_TYPEMATIC
+- IOCTL_KEYBOARD_SET_TYPEMATIC
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,14 +61,14 @@ The IOCTL_KEYBOARD_SET_TYPEMATIC request sets the keyboard typematic settings.
 
 ### -input-buffer
 
-<b>AssociatedIrp.SystemBuffer</b> points to a client-allocated buffer to input a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure. The client sets the typematic parameters in this structure.
+<b>AssociatedIrp.SystemBuffer</b> points to a client-allocated buffer to input a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure. The client sets the typematic parameters in this structure.
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> is set to a value greater than or equal to the size, in bytes, of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
+<b>Parameters.DeviceIoControl.InputBufferLength</b> is set to a value greater than or equal to the size, in bytes, of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
 
 
 ### -input-buffer-length
 
-The size of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
+The size of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a> structure.
 
 
 ### -output-buffer
@@ -137,7 +137,7 @@ The request completed successfully.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_typematic_parameters">KEYBOARD_TYPEMATIC_PARAMETERS</a>
  
 
  

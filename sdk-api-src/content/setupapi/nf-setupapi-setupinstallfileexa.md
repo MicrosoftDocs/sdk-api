@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SP_COPY_DELETESOURCE, SP_COPY_FORCE_IN_USE, SP_COPY_FORCE_NEWER, SP_COPY_FORCE_NOOVERWRITE, SP_COPY_IN_USE_NEEDS_REBOOT, SP_COPY_LANGUAGEAWARE, SP_COPY_NEWER_ONLY, SP_COPY_NEWER_OR_SAME, SP_COPY_NODECOMP, SP_COPY_NOOVERWRITE, SP_COPY_NOSKIP, SP_COPY_REPLACEONLY, SP_COPY_SOURCEPATH_ABSOLUTE, SP_COPY_SOURCE_ABSOLUTE, SP_COPY_WARNIFSKIP, SetupInstallFileEx, SetupInstallFileEx function [Setup API], SetupInstallFileExA, SetupInstallFileExW, _setupapi_setupinstallfileex, setup.setupinstallfileex, setupapi/SetupInstallFileEx, setupapi/SetupInstallFileExA, setupapi/SetupInstallFileExW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupInstallFileEx"
+f1_keywords:
+- setupapi/SetupInstallFileEx
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupInstallFileEx
- - SetupInstallFileExA
- - SetupInstallFileExW
+- SetupInstallFileEx
+- SetupInstallFileExA
+- SetupInstallFileExW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 The 
 <b>SetupInstallFileEx</b> function installs a file as specified either by an 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_infcontext">INFCONTEXT</a> returned by SetupFindXXXLine or explicitly by the filename and path information. This function is the same as 
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-infcontext">INFCONTEXT</a> returned by SetupFindXXXLine or explicitly by the filename and path information. This function is the same as 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfilea">SetupInstallFile</a>, except that a <b>BOOL</b> is returned that indicates whether  the file was in use.
 
 If a file is copied, the caller of this function is required to have privileges to write into the target directory.

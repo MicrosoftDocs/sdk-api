@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSASetSocketSecurity, WSASetSocketSecurity function [Winsock], winsock.wsasetsocketsecurity, ws2tcpip/WSASetSocketSecurity
 ms.topic: function
-f1_keywords: 
- - "ws2tcpip/WSASetSocketSecurity"
+f1_keywords:
+- ws2tcpip/WSASetSocketSecurity
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - WSASetSocketSecurity
+- WSASetSocketSecurity
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A descriptor that identifies a socket on which security settings are being appli
 
 ### -param SecuritySettings [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_security_settings">SOCKET_SECURITY_SETTINGS</a> structure that specifies the security settings to be applied to the socket's traffic. If this parameter is <b>NULL</b>, default settings will be applied to the socket.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-socket_security_settings">SOCKET_SECURITY_SETTINGS</a> structure that specifies the security settings to be applied to the socket's traffic. If this parameter is <b>NULL</b>, default settings will be applied to the socket.
 
 
 ### -param SecuritySettingsLen [in]
@@ -76,7 +76,7 @@ The size, in bytes, of the <i>SecuritySettings</i> parameter.
 
 ### -param Overlapped [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure.  This parameter is ignored for non-overlapped sockets.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.  This parameter is ignored for non-overlapped sockets.
 
 
 ### -param CompletionRoutine [in, optional]
@@ -116,7 +116,7 @@ The specified address family is not supported.
 </dl>
 </td>
 <td width="60%">
-An invalid parameter was passed. This error is returned if the socket passed in the <i>Socket</i> parameter was not created with an address family of the <b>AF_INET</b> or <b>AF_INET6</b> and a socket type of <b>SOCK_DGRAM</b> or <b>SOCK_STREAM</b>.  This error is also returned if the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_security_settings">SOCKET_SECURITY_SETTINGS</a> structure pointed to by the <i>SecuritySettings</i> parameter has an incorrect value.
+An invalid parameter was passed. This error is returned if the socket passed in the <i>Socket</i> parameter was not created with an address family of the <b>AF_INET</b> or <b>AF_INET6</b> and a socket type of <b>SOCK_DGRAM</b> or <b>SOCK_STREAM</b>.  This error is also returned if the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-socket_security_settings">SOCKET_SECURITY_SETTINGS</a> structure pointed to by the <i>SecuritySettings</i> parameter has an incorrect value.
 
 </td>
 </tr>
@@ -177,9 +177,9 @@ For connectionless sockets (protocol of <b>IPPROTO_UDP</b>), the application sho
 
 Server applications should call the  <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> function to acquire exclusive access to the port used by the socket. This prevents other applications from using the same port. The <b>setsockopt</b> function would be called with the <i>level</i> parameter set to SOL_SOCKET,  the <i>optname</i> parameter set to <a href="https://docs.microsoft.com/windows/desktop/WinSock/so-exclusiveaddruse">SO_EXCLUSIVEADDRUSE</a>, and the <i>value </i> parameter set to nonzero. The <b>WSASetSocketSecurity</b> function internally calls the <b>setsockopt</b> with SO_EXCLUSIVEADDRUSE to obtain exclusive access to the port. This is to ensure that the socket is not vulnerable to attacks by other applications running on the local computer.
 
-Security settings not set using the <b>WSASetSocketSecurity</b> are derived from the system default policy or the administratively configured policy. It is recommended that most applications specify a value of  <b>SOCKET_SECURITY_PROTOCOL_DEFAULT</b> for the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-_socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a> enumeration in the <b>SecurityProtocol</b> member of the <b>SOCKET_SECURITY_PROTOCOL</b> pointed to by the <i>SecuritySettings</i> parameter.  This makes the application neutral to security protocols and allows easier deployments among different systems.
+Security settings not set using the <b>WSASetSocketSecurity</b> are derived from the system default policy or the administratively configured policy. It is recommended that most applications specify a value of  <b>SOCKET_SECURITY_PROTOCOL_DEFAULT</b> for the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a> enumeration in the <b>SecurityProtocol</b> member of the <b>SOCKET_SECURITY_PROTOCOL</b> pointed to by the <i>SecuritySettings</i> parameter.  This makes the application neutral to security protocols and allows easier deployments among different systems.
 
-When the <i>SecuritySettings</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_security_settings_ipsec">SOCKET_SECURITY_SETTINGS_IPSEC</a>  structure, the <b>SecurityProtocol</b> 
+When the <i>SecuritySettings</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-socket_security_settings_ipsec">SOCKET_SECURITY_SETTINGS_IPSEC</a>  structure, the <b>SecurityProtocol</b> 
 member of the structure must be set to <b>SOCKET_SECURITY_PROTOCOL_IPSEC</b>, not <b>SOCKET_SECURITY_PROTOCOL_DEFAULT</b>.
 
 An error will be returned if the following conditions are not met.<ul>
@@ -278,15 +278,15 @@ Authip QM policy =
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-_socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_security_settings">SOCKET_SECURITY_SETTINGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-socket_security_settings">SOCKET_SECURITY_SETTINGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_security_settings_ipsec">SOCKET_SECURITY_SETTINGS_IPSEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-socket_security_settings_ipsec">SOCKET_SECURITY_SETTINGS_IPSEC</a>
 
 
 
@@ -306,7 +306,7 @@ Authip QM policy =
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a>
 
 
 

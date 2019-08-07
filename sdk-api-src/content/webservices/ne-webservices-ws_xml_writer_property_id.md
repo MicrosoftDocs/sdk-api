@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_WRITER_PROPERTY_ALLOW_FRAGMENT, WS_XML_WRITER_PROPERTY_ALLOW_INVALID_CHARACTER_REFERENCES, WS_XML_WRITER_PROPERTY_BUFFERS, WS_XML_WRITER_PROPERTY_BUFFER_MAX_SIZE, WS_XML_WRITER_PROPERTY_BUFFER_TRIM_SIZE, WS_XML_WRITER_PROPERTY_BYTES, WS_XML_WRITER_PROPERTY_BYTES_TO_CLOSE, WS_XML_WRITER_PROPERTY_BYTES_WRITTEN, WS_XML_WRITER_PROPERTY_CHARSET, WS_XML_WRITER_PROPERTY_COMPRESS_EMPTY_ELEMENTS, WS_XML_WRITER_PROPERTY_EMIT_UNCOMPRESSED_EMPTY_ELEMENTS, WS_XML_WRITER_PROPERTY_ID, WS_XML_WRITER_PROPERTY_ID enumeration [Web Services for Windows], WS_XML_WRITER_PROPERTY_INDENT, WS_XML_WRITER_PROPERTY_INITIAL_BUFFER, WS_XML_WRITER_PROPERTY_IN_ATTRIBUTE, WS_XML_WRITER_PROPERTY_MAX_ATTRIBUTES, WS_XML_WRITER_PROPERTY_MAX_DEPTH, WS_XML_WRITER_PROPERTY_MAX_MIME_PARTS_BUFFER_SIZE, WS_XML_WRITER_PROPERTY_MAX_NAMESPACES, WS_XML_WRITER_PROPERTY_WRITE_DECLARATION, webservices/WS_XML_WRITER_PROPERTY_ALLOW_FRAGMENT, webservices/WS_XML_WRITER_PROPERTY_ALLOW_INVALID_CHARACTER_REFERENCES, webservices/WS_XML_WRITER_PROPERTY_BUFFERS, webservices/WS_XML_WRITER_PROPERTY_BUFFER_MAX_SIZE, webservices/WS_XML_WRITER_PROPERTY_BUFFER_TRIM_SIZE, webservices/WS_XML_WRITER_PROPERTY_BYTES, webservices/WS_XML_WRITER_PROPERTY_BYTES_TO_CLOSE, webservices/WS_XML_WRITER_PROPERTY_BYTES_WRITTEN, webservices/WS_XML_WRITER_PROPERTY_CHARSET, webservices/WS_XML_WRITER_PROPERTY_COMPRESS_EMPTY_ELEMENTS, webservices/WS_XML_WRITER_PROPERTY_EMIT_UNCOMPRESSED_EMPTY_ELEMENTS, webservices/WS_XML_WRITER_PROPERTY_ID, webservices/WS_XML_WRITER_PROPERTY_INDENT, webservices/WS_XML_WRITER_PROPERTY_INITIAL_BUFFER, webservices/WS_XML_WRITER_PROPERTY_IN_ATTRIBUTE, webservices/WS_XML_WRITER_PROPERTY_MAX_ATTRIBUTES, webservices/WS_XML_WRITER_PROPERTY_MAX_DEPTH, webservices/WS_XML_WRITER_PROPERTY_MAX_MIME_PARTS_BUFFER_SIZE, webservices/WS_XML_WRITER_PROPERTY_MAX_NAMESPACES, webservices/WS_XML_WRITER_PROPERTY_WRITE_DECLARATION, wsw.ws_xml_writer_property_id
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_XML_WRITER_PROPERTY_ID"
+f1_keywords:
+- webservices/WS_XML_WRITER_PROPERTY_ID
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_WRITER_PROPERTY_ID
+- WS_XML_WRITER_PROPERTY_ID
 product: Windows
 targetos: Windows
 req.typenames: WS_XML_WRITER_PROPERTY_ID
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Each xml writer property is identified by an ID and has an associated value.
-      This enumeration is used within the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_writer_property">WS_XML_WRITER_PROPERTY</a> structure, which is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatewriter">WsCreateWriter</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetoutput">WsSetOutput</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetoutputtobuffer">WsSetOutputToBuffer</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritexmlbuffertobytes">WsWriteXmlBufferToBytes</a>. It is also used directly as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetwriterproperty">WsGetWriterProperty</a>.
+      This enumeration is used within the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_property">WS_XML_WRITER_PROPERTY</a> structure, which is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatewriter">WsCreateWriter</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetoutput">WsSetOutput</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetoutputtobuffer">WsSetOutputToBuffer</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritexmlbuffertobytes">WsWriteXmlBufferToBytes</a>. It is also used directly as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetwriterproperty">WsGetWriterProperty</a>.
 
 
 ## -enum-fields
@@ -143,7 +143,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webserv
 
 ### -field WS_XML_WRITER_PROPERTY_BUFFERS
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_buffers">WS_BUFFERS</a> structure
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_buffers">WS_BUFFERS</a> structure
           that returns a set of buffers containing the generated xml bytes.
         
 
@@ -187,7 +187,7 @@ This property has no effect when specified with <a href="https://docs.microsoft.
 
 ### -field WS_XML_WRITER_PROPERTY_BYTES
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_buffers">WS_BUFFERS</a> structure
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_buffers">WS_BUFFERS</a> structure
           that returns a single buffer containing the generated xml bytes.
         
 
@@ -233,7 +233,7 @@ This property defaults to 65536.
 
 ### -field WS_XML_WRITER_PROPERTY_INITIAL_BUFFER
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_bytes">WS_BYTES</a> structure that contains a buffer that the writer may use for encoding the xml document.  This is
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_bytes">WS_BYTES</a> structure that contains a buffer that the writer may use for encoding the xml document.  This is
           useful when an upper bound on the size of the generated xml data is known, or the caller wants to own
           the buffer in which the bytes are placed.
         

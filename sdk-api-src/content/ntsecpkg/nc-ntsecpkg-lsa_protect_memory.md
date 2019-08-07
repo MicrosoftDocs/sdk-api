@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LSA_PROTECT_MEMORY, LSA_PROTECT_MEMORY callback, LsaProtectMemory, LsaProtectMemory callback function [Security], ntsecpkg/LsaProtectMemory, security.lsaprotectmemory
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/LsaProtectMemory"
+f1_keywords:
+- ntsecpkg/LsaProtectMemory
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - LsaProtectMemory
+- LsaProtectMemory
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,7 +83,7 @@ This callback function does not return a value.
 
 
 A pointer to the <b>LsaProtectMemory</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 

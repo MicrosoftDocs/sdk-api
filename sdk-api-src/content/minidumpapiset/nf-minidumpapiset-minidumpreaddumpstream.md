@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MiniDumpReadDumpStream, MiniDumpReadDumpStream function, _win32_minidumpreaddumpstream, base.minidumpreaddumpstream, minidumpapiset/MiniDumpReadDumpStream
 ms.topic: function
-f1_keywords: 
- - "minidumpapiset/MiniDumpReadDumpStream"
+f1_keywords:
+- minidumpapiset/MiniDumpReadDumpStream
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll; Dbgcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
- - Dbgcore.dll
- - API-MS-Win-Core-Debug-MiniDump-L1-1-0.dll
- - DbgCore.dll
+- Dbghelp.dll
+- Dbgcore.dll
+- API-MS-Win-Core-Debug-MiniDump-L1-1-0.dll
+- DbgCore.dll
 api_name:
- - MiniDumpReadDumpStream
+- MiniDumpReadDumpStream
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,12 +71,12 @@ A pointer to the base of the mapped minidump file. The file should have been map
 ### -param StreamNumber [in]
 
 The type of data to be read from the minidump file. This member can be one of the values in the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type">MINIDUMP_STREAM_TYPE</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a> enumeration.
 
 
 ### -param Dir [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_directory">MINIDUMP_DIRECTORY</a> 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_directory">MINIDUMP_DIRECTORY</a> 
       structure.
 
 
@@ -84,7 +84,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minidumpa
 
 A pointer to the beginning of the minidump stream. The format of this stream depends on the value of 
       <i>StreamNumber</i>. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type">MINIDUMP_STREAM_TYPE</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>.
 
 
 ### -param StreamSize [out]
@@ -120,11 +120,11 @@ In this context, a data stream is a block of data written to a minidump file.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_directory">MINIDUMP_DIRECTORY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_directory">MINIDUMP_DIRECTORY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
 
 
 

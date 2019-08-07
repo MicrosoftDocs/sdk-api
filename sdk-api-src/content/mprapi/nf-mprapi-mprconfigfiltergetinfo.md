@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprConfigFilterGetInfo, MprConfigFilterGetInfo function [RAS], mprapi/MprConfigFilterGetInfo, rras.mprconfigfiltergetinfo
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprConfigFilterGetInfo"
+f1_keywords:
+- mprapi/MprConfigFilterGetInfo
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprConfigFilterGetInfo
+- MprConfigFilterGetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -105,7 +105,7 @@ A <b>DWORD</b> value that describes the transport protocol type of the static fi
 
 ### -param lpBuffer [out]
 
-On successful completion, a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_filter_0">MPR_FILTER_0</a> structure that contains the filter driver configuration information. Free this memory buffer by calling 
+On successful completion, a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_filter_0">MPR_FILTER_0</a> structure that contains the filter driver configuration information. Free this memory buffer by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>.
 
 
@@ -144,7 +144,7 @@ If the function fails, the return value is one of the following error codes.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_filter_0">MPR_FILTER_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_filter_0">MPR_FILTER_0</a>
 
 
 

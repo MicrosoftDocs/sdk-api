@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetParaFormat method, ITextHost.TxGetParaFormat, ITextHost::TxGetParaFormat, TxGetParaFormat, TxGetParaFormat method [Windows Controls], TxGetParaFormat method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetParaFormat, _win32_ITextHost_TxGetParaFormat_cpp, controls.ITextHost_TxGetParaFormat, controls._win32_ITextHost_TxGetParaFormat, textserv/ITextHost::TxGetParaFormat
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost.TxGetParaFormat"
+f1_keywords:
+- textserv/ITextHost.TxGetParaFormat
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost.TxGetParaFormat
+- ITextHost.TxGetParaFormat
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Requests the text host's default paragraph format.
 
 ### -param ppPF
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_paraformat">PARAFORMAT</a>**</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-paraformat">PARAFORMAT</a>**</b>
 
 The default paragraph format. 
 
@@ -102,7 +102,7 @@ Not implemented.
 
 
 
-The host object retains ownership of the <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_paraformat">PARAFORMAT</a> structure that is returned. However, the pointer returned must remain valid until the host notifies the text services object, through <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxpropertybitschange">OnTxPropertyBitsChange</a>, that the default paragraph format has changed.
+The host object retains ownership of the <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-paraformat">PARAFORMAT</a> structure that is returned. However, the pointer returned must remain valid until the host notifies the text services object, through <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxpropertybitschange">OnTxPropertyBitsChange</a>, that the default paragraph format has changed.
 
 
 
@@ -124,7 +124,7 @@ The host object retains ownership of the <a href="https://docs.microsoft.com/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_paraformat">PARAFORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-paraformat">PARAFORMAT</a>
 
 
 

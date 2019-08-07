@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminAcceptNewConnection3, MprAdminAcceptNewConnection3 callback, MprAdminAcceptNewConnection3 callback function [RAS], mprapi/MprAdminAcceptNewConnection3, rras.mpradminacceptnewconnection3
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminAcceptNewConnection3"
+f1_keywords:
+- mprapi/MprAdminAcceptNewConnection3
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - MprAdminAcceptNewConnection3
+- MprAdminAcceptNewConnection3
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Remote Access Service calls the
 ### -param pRasConnection0 [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_0">RAS_CONNECTION_0</a> structure that describes this connection.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_0">RAS_CONNECTION_0</a> structure that describes this connection.
 
 
 ### -param pRasConnection1 [in]
@@ -76,7 +76,7 @@ Pointer to a
 ### -param pRasConnection2 [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_2">RAS_CONNECTION_2</a> structure that describes this connection.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_2">RAS_CONNECTION_2</a> structure that describes this connection.
 
 
 ### -param pRasConnection3 [in]
@@ -140,7 +140,7 @@ Do not call any of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_0">RAS_CONNECTION_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_0">RAS_CONNECTION_0</a>
 
 
 
@@ -148,7 +148,7 @@ Do not call any of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_2">RAS_CONNECTION_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_2">RAS_CONNECTION_2</a>
 
 
 

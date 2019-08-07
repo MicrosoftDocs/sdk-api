@@ -8,10 +8,10 @@ tech.root: VDS
 ms.assetid: 977ee10c-c91f-4510-bf00-6b7d4da6c1c0
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVDS_LUN_FLAG, VDS_LF_CONSISTENCY_CHECK_ENABLED, VDS_LF_HARDWARE_CHECKSUM_ENABLED, VDS_LF_LBN_REMAP_ENABLED, VDS_LF_MEDIA_SCAN_ENABLED, VDS_LF_READ_BACK_VERIFY_ENABLED, VDS_LF_READ_CACHE_ENABLED, VDS_LF_SNAPSHOT, VDS_LF_WRITE_CACHE_ENABLED, VDS_LF_WRITE_THROUGH_CACHING_ENABLED, VDS_LUN_FLAG, VDS_LUN_FLAG enumeration [VDS], base.vds_lun_flag, vds/VDS_LF_CONSISTENCY_CHECK_ENABLED, vds/VDS_LF_HARDWARE_CHECKSUM_ENABLED, vds/VDS_LF_LBN_REMAP_ENABLED, vds/VDS_LF_MEDIA_SCAN_ENABLED, vds/VDS_LF_READ_BACK_VERIFY_ENABLED, vds/VDS_LF_READ_CACHE_ENABLED, vds/VDS_LF_SNAPSHOT, vds/VDS_LF_WRITE_CACHE_ENABLED, vds/VDS_LF_WRITE_THROUGH_CACHING_ENABLED, vds/VDS_LUN_FLAG, vdshwprv/VDS_LF_CONSISTENCY_CHECK_ENABLED, vdshwprv/VDS_LF_HARDWARE_CHECKSUM_ENABLED, vdshwprv/VDS_LF_LBN_REMAP_ENABLED, vdshwprv/VDS_LF_MEDIA_SCAN_ENABLED, vdshwprv/VDS_LF_READ_BACK_VERIFY_ENABLED, vdshwprv/VDS_LF_READ_CACHE_ENABLED, vdshwprv/VDS_LF_SNAPSHOT, vdshwprv/VDS_LF_WRITE_CACHE_ENABLED, vdshwprv/VDS_LF_WRITE_THROUGH_CACHING_ENABLED, vdshwprv/VDS_LUN_FLAG"
+ms.keywords: '*PVDS_LUN_FLAG, VDS_LF_CONSISTENCY_CHECK_ENABLED, VDS_LF_HARDWARE_CHECKSUM_ENABLED, VDS_LF_LBN_REMAP_ENABLED, VDS_LF_MEDIA_SCAN_ENABLED, VDS_LF_READ_BACK_VERIFY_ENABLED, VDS_LF_READ_CACHE_ENABLED, VDS_LF_SNAPSHOT, VDS_LF_WRITE_CACHE_ENABLED, VDS_LF_WRITE_THROUGH_CACHING_ENABLED, VDS_LUN_FLAG, VDS_LUN_FLAG enumeration [VDS], base.vds_lun_flag, vds/VDS_LF_CONSISTENCY_CHECK_ENABLED, vds/VDS_LF_HARDWARE_CHECKSUM_ENABLED, vds/VDS_LF_LBN_REMAP_ENABLED, vds/VDS_LF_MEDIA_SCAN_ENABLED, vds/VDS_LF_READ_BACK_VERIFY_ENABLED, vds/VDS_LF_READ_CACHE_ENABLED, vds/VDS_LF_SNAPSHOT, vds/VDS_LF_WRITE_CACHE_ENABLED, vds/VDS_LF_WRITE_THROUGH_CACHING_ENABLED, vds/VDS_LUN_FLAG, vdshwprv/VDS_LF_CONSISTENCY_CHECK_ENABLED, vdshwprv/VDS_LF_HARDWARE_CHECKSUM_ENABLED, vdshwprv/VDS_LF_LBN_REMAP_ENABLED, vdshwprv/VDS_LF_MEDIA_SCAN_ENABLED, vdshwprv/VDS_LF_READ_BACK_VERIFY_ENABLED, vdshwprv/VDS_LF_READ_CACHE_ENABLED, vdshwprv/VDS_LF_SNAPSHOT, vdshwprv/VDS_LF_WRITE_CACHE_ENABLED, vdshwprv/VDS_LF_WRITE_THROUGH_CACHING_ENABLED, vdshwprv/VDS_LUN_FLAG'
 ms.topic: enum
-f1_keywords: 
- - "vds/VDS_LUN_FLAG"
+f1_keywords:
+- vds/VDS_LUN_FLAG
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_LUN_FLAG
+- VDS_LUN_FLAG
 product: Windows
 targetos: Windows
 req.typenames: VDS_LUN_FLAG, *PVDS_LUN_FLAG
@@ -121,7 +121,7 @@ The LUN is a volume shadow copy LUN.
 
 
 
-This enumeration provides the values for the <i>ulFlags</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_lun_prop">VDS_LUN_PROP</a> structure and provides the value for the <b>VDS_LPF_LBN_REMAP_ENABLED</b> enumerator in the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_lun_plex_flag">VDS_LUN_PLEX_FLAG</a> enumeration.
+This enumeration provides the values for the <i>ulFlags</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_prop">VDS_LUN_PROP</a> structure and provides the value for the <b>VDS_LPF_LBN_REMAP_ENABLED</b> enumerator in the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_lun_plex_flag">VDS_LUN_PLEX_FLAG</a> enumeration.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_LUN_FLAG</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_LUN_FLAG</b> enumeration constant.</div>
 <div> </div>
@@ -137,11 +137,11 @@ This enumeration provides the values for the <i>ulFlags</i> member of the <a hre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_lun_plex_flag">VDS_LUN_PLEX_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_lun_plex_flag">VDS_LUN_PLEX_FLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_lun_prop">VDS_LUN_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_prop">VDS_LUN_PROP</a>
  
 
  

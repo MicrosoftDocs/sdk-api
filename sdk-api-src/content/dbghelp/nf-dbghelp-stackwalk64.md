@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMAGE_FILE_MACHINE_AMD64, IMAGE_FILE_MACHINE_I386, IMAGE_FILE_MACHINE_IA64, StackWalk, StackWalk function, StackWalk64, StackWalk64 function, _win32_stackwalk64, base.stackwalk64, dbghelp/StackWalk, dbghelp/StackWalk64
 ms.topic: function
-f1_keywords: 
- - "dbghelp/StackWalk64"
+f1_keywords:
+- dbghelp/StackWalk64
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: DbgHelp.lib
 req.dll: DbgHelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - DbgHelp.dll
+- DbgHelp.dll
 api_name:
- - StackWalk64
- - StackWalk
+- StackWalk64
+- StackWalk
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -133,7 +133,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/n
 
 ### -param ContextRecord [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure. This parameter is 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure. This parameter is 
        required only when the <i>MachineType</i> parameter is not 
        <b>IMAGE_FILE_MACHINE_I386</b>. However, it is recommended that this parameter contain a 
        valid context record. This allows <b>StackWalk64</b> to handle 
@@ -258,7 +258,7 @@ StackWalk(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
 
 

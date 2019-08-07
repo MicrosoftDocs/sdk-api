@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportClientInitializeSession, WdsTransportClientInitializeSession function [Windows Deployment Services], wds.wdstransportclientinitializesession, wdstci/WdsTransportClientInitializeSession
 ms.topic: function
-f1_keywords: 
- - "wdstci/WdsTransportClientInitializeSession"
+f1_keywords:
+- wdstci/WdsTransportClientInitializeSession
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wdstptc.lib
 req.dll: Wdstptc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wdstptc.dll
+- Wdstptc.dll
 api_name:
- - WdsTransportClientInitializeSession
+- WdsTransportClientInitializeSession
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Initiates a multicast file transfer.
 
 ### -param pSessionRequest [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/ns-wdstci-_wds_transportclient_request">WDS_TRANSPORTCLIENT_REQUEST</a> structure that contains all the details required to initiate the multicast session.  The format of this structure is described below.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/ns-wdstci-wds_transportclient_request">WDS_TRANSPORTCLIENT_REQUEST</a> structure that contains all the details required to initiate the multicast session.  The format of this structure is described below.
 
 
 ### -param pCallerData [in]

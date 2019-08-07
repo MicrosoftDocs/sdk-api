@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILFindChild, ILFindChild function [Windows Shell], _win32_ILFindChild, shell.ILFindChild, shlobj_core/ILFindChild
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/ILFindChild"
+f1_keywords:
+- shlobj_core/ILFindChild
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
- - API-MS-Win-Shell-Namespace-L1-1-0.dll
- - Windows.Storage.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- API-MS-Win-Shell-Namespace-L1-1-0.dll
+- Windows.Storage.dll
 api_name:
- - ILFindChild
+- ILFindChild
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -55,7 +55,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines whether a specified <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure is the child of another <b>ITEMIDLIST</b> structure.
+Determines whether a specified <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure is the child of another <b>ITEMIDLIST</b> structure.
 
 
 ## -parameters
@@ -67,14 +67,14 @@ Determines whether a specified <a href="https://docs.microsoft.com/windows/deskt
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-A pointer to the parent <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
+A pointer to the parent <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 
 ### -param pidlChild [in]
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-A pointer to the child <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
+A pointer to the child <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -returns
@@ -83,7 +83,7 @@ A pointer to the child <a href="https://docs.microsoft.com/windows/desktop/api/s
 
 Type: <b>PUIDLIST_RELATIVE</b>
 
-Returns a pointer to the child's simple <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure if <i>pidlChild</i> is a child of <i>pidlParent</i>. The returned structure consists of <i>pidlChild</i>, minus the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structures that make up <i>pidlParent</i>. Returns <b>NULL</b> if <i>pidlChild</i> is not a child of <i>pidlParent</i>.
+Returns a pointer to the child's simple <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure if <i>pidlChild</i> is a child of <i>pidlParent</i>. The returned structure consists of <i>pidlChild</i>, minus the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structures that make up <i>pidlParent</i>. Returns <b>NULL</b> if <i>pidlChild</i> is not a child of <i>pidlParent</i>.
 
 <div class="alert"><b>Note</b>  The returned pointer is a pointer into the existing parent structure. It is an alias for <i>pidlChild</i>. No new memory is allocated in association with the returned pointer. It is not the caller's responsibility to free the returned value.</div>
 <div> </div>

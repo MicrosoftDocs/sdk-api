@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RemoveLogPolicy, RemoveLogPolicy function [Files], clfsmgmtw32/RemoveLogPolicy, fs.removelogpolicy
 ms.topic: function
-f1_keywords: 
- - "clfsmgmtw32/RemoveLogPolicy"
+f1_keywords:
+- clfsmgmtw32/RemoveLogPolicy
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Clfsw32.dll
+- Clfsw32.dll
 api_name:
- - RemoveLogPolicy
+- RemoveLogPolicy
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Handle to the log to reset the policy for.
 
 ### -param ePolicyType [in]
 
-Specifies the policy to reset. Policy types are enumerated in <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ne-clfsmgmt-_clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>.
+Specifies the policy to reset. Policy types are enumerated in <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ne-clfsmgmt-clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>.
 
 
 ## -returns
@@ -86,11 +86,11 @@ If the function fails, the return value is zero (0). To get extended error infor
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ns-clfsmgmt-_clfs_mgmt_policy">CLFS_MGMT_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ns-clfsmgmt-clfs_mgmt_policy">CLFS_MGMT_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ne-clfsmgmt-_clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ne-clfsmgmt-clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>
 
 
 

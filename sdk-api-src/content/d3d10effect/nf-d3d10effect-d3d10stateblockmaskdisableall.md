@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D10StateBlockMaskDisableAll, D3D10StateBlockMaskDisableAll function [Direct3D 10], c2d0b2ea-1ff1-14e9-f16f-1c7623539483, d3d10effect/D3D10StateBlockMaskDisableAll, direct3d10.d3d10stateblockmaskdisableall
 ms.topic: function
-f1_keywords: 
- - "d3d10effect/D3D10StateBlockMaskDisableAll"
+f1_keywords:
+- d3d10effect/D3D10StateBlockMaskDisableAll
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: D3D10.lib
 req.dll: D3D10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3D10.dll
+- D3D10.dll
 api_name:
- - D3D10StateBlockMaskDisableAll
+- D3D10StateBlockMaskDisableAll
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ Disable all state capturing with a state-block mask.
 
 ### -param pMask [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_state_block_mask">D3D10_STATE_BLOCK_MASK</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_state_block_mask">D3D10_STATE_BLOCK_MASK</a>*</b>
 
-A mask filled with all zeroes (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_state_block_mask">D3D10_STATE_BLOCK_MASK</a>).
+A mask filled with all zeroes (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_state_block_mask">D3D10_STATE_BLOCK_MASK</a>).
 
 
 ## -returns

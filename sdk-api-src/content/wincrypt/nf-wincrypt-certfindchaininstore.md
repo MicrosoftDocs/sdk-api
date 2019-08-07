@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_CHAIN_FIND_BY_ISSUER, CERT_CHAIN_FIND_BY_ISSUER_CACHE_ONLY_FLAG, CERT_CHAIN_FIND_BY_ISSUER_CACHE_ONLY_URL_FLAG, CERT_CHAIN_FIND_BY_ISSUER_COMPARE_KEY_FLAG, CERT_CHAIN_FIND_BY_ISSUER_COMPLEX_CHAIN_FLAG, CERT_CHAIN_FIND_BY_ISSUER_LOCAL_MACHINE_FLAG, CERT_CHAIN_FIND_BY_ISSUER_NO_KEY_FLAG, CertFindChainInStore, CertFindChainInStore function [Security], X509_ASN_ENCODING, _crypto2_certfindchaininstore, security.certfindchaininstore, wincrypt/CertFindChainInStore
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertFindChainInStore"
+f1_keywords:
+- wincrypt/CertFindChainInStore
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertFindChainInStore
+- CertFindChainInStore
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -116,7 +116,7 @@ This parameter can contain zero or a combination of one or more of the following
 <td width="60%">
 Compares the public key in the certificate with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider's</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a>. This comparison is the last check made on the chain when it is built.
 
-Because the <b>hCryptProv</b> member of an issuer contains a private key, it might need to be checked several times during this process; to facilitate this checking, the <i>dwAcquirePrivateKeyFlags</i> member can be set in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_find_by_issuer_para">CERT_CHAIN_FIND_BY_ISSUER_PARA</a> structure to enable caching of that <b>hCryptProv</b>.
+Because the <b>hCryptProv</b> member of an issuer contains a private key, it might need to be checked several times during this process; to facilitate this checking, the <i>dwAcquirePrivateKeyFlags</i> member can be set in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_find_by_issuer_para">CERT_CHAIN_FIND_BY_ISSUER_PARA</a> structure to enable caching of that <b>hCryptProv</b>.
 
 </td>
 </tr>
@@ -188,7 +188,7 @@ This parameter can be the following currently defined value.
 #### CERT_CHAIN_FIND_BY_ISSUER
 
 Finds the certificate based on the name of the issuer. The <i>pvFindPara</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_find_by_issuer_para">CERT_CHAIN_FIND_BY_ISSUER_PARA</a> structure that contains members that modify the search.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_find_by_issuer_para">CERT_CHAIN_FIND_BY_ISSUER_PARA</a> structure that contains members that modify the search.
 
 The certificate chain is built for a certificate with an available <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>. By default, only the issuers in the first simple chain are compared in an issuer name match. If this flag is set, all of the chains are checked for an issuer certificate that matches one of a set of issuer names.
 
@@ -207,14 +207,14 @@ A pointer that contains additional search criteria. The type and format of the d
 ### -param pPrevChainContext [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a> structure returned from a previous call to this function. The search is begun from this certificate. For the first call to this function, this parameter must be <b>NULL</b>. In subsequent calls, it is the pointer returned by the previous call to the function.  If this parameter is not <b>NULL</b>, this function will free this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a> structure returned from a previous call to this function. The search is begun from this certificate. For the first call to this function, this parameter must be <b>NULL</b>. In subsequent calls, it is the pointer returned by the previous call to the function.  If this parameter is not <b>NULL</b>, this function will free this structure.
 
 
 ## -returns
 
 
 
-If the first or next chain context is not built, <b>NULL</b> is returned. Otherwise, a pointer to a read-only <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a> structure is returned. The <b>CERT_CHAIN_CONTEXT</b> structure is freed when passed as the <i>pPrevChainContext</i> parameter on a subsequent call to this function. Otherwise, the <b>CERT_CHAIN_CONTEXT</b> structure must be freed explicitly by calling 
+If the first or next chain context is not built, <b>NULL</b> is returned. Otherwise, a pointer to a read-only <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a> structure is returned. The <b>CERT_CHAIN_CONTEXT</b> structure is freed when passed as the <i>pPrevChainContext</i> parameter on a subsequent call to this function. Otherwise, the <b>CERT_CHAIN_CONTEXT</b> structure must be freed explicitly by calling 
 the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechain">CertFreeCertificateChain</a> function.
 
 
@@ -224,7 +224,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt
 
 
 
-The <i>pPrevChainContext</i> parameter must be <b>NULL</b> on the first call to build the chain context. To build the next chain context, the <i>pPrevChainContext</i> is set to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a> structure returned by a previous call. If <i>pPrevChainContext</i> is not <b>NULL</b>, the structure is always freed by this function by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechain">CertFreeCertificateChain</a> function, even if an error occurs.
+The <i>pPrevChainContext</i> parameter must be <b>NULL</b> on the first call to build the chain context. To build the next chain context, the <i>pPrevChainContext</i> is set to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a> structure returned by a previous call. If <i>pPrevChainContext</i> is not <b>NULL</b>, the structure is always freed by this function by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechain">CertFreeCertificateChain</a> function, even if an error occurs.
 
 
 
@@ -234,11 +234,11 @@ The <i>pPrevChainContext</i> parameter must be <b>NULL</b> on the first call to 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_find_by_issuer_para">CERT_CHAIN_FIND_BY_ISSUER_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_find_by_issuer_para">CERT_CHAIN_FIND_BY_ISSUER_PARA</a>
 
 
 

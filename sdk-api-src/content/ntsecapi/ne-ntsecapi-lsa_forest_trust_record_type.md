@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ForestTrustDomainInfo, ForestTrustRecordTypeLast, ForestTrustTopLevelName, ForestTrustTopLevelNameEx, LSA_FOREST_TRUST_RECORD_TYPE, LSA_FOREST_TRUST_RECORD_TYPE enumeration [Security], ntsecapi/ForestTrustDomainInfo, ntsecapi/ForestTrustRecordTypeLast, ntsecapi/ForestTrustTopLevelName, ntsecapi/ForestTrustTopLevelNameEx, ntsecapi/LSA_FOREST_TRUST_RECORD_TYPE, security.lsa_forest_trust_record_type
 ms.topic: enum
-f1_keywords: 
- - "ntsecapi/LSA_FOREST_TRUST_RECORD_TYPE"
+f1_keywords:
+- ntsecapi/LSA_FOREST_TRUST_RECORD_TYPE
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - LSA_FOREST_TRUST_RECORD_TYPE
+- LSA_FOREST_TRUST_RECORD_TYPE
 product: Windows
 targetos: Windows
 req.typenames: LSA_FOREST_TRUST_RECORD_TYPE
@@ -83,7 +83,7 @@ Marks the end of an enumeration.
 
 
 
-This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_forest_trust_record">LSA_FOREST_TRUST_RECORD</a> structure.
+This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_record">LSA_FOREST_TRUST_RECORD</a> structure.
 
 
 

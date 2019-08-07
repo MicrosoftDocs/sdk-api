@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LUP_CONTAINERS, LUP_DEEP, LUP_FLUSHCACHE, LUP_FLUSHPREVIOUS, LUP_NEAREST, LUP_NOCONTAINERS, LUP_RES_SERVICE, LUP_RETURN_ADDR, LUP_RETURN_ALIASES, LUP_RETURN_ALL, LUP_RETURN_BLOB, LUP_RETURN_COMMENT, LUP_RETURN_NAME, LUP_RETURN_QUERY_STRING, LUP_RETURN_TYPE, LUP_RETURN_VERSION, WSALookupServiceNext, WSALookupServiceNext function [Winsock], WSALookupServiceNextA, WSALookupServiceNextW, _win32_wsalookupservicenext_2, winsock.wsalookupservicenext_2, winsock2/WSALookupServiceNext, winsock2/WSALookupServiceNextA, winsock2/WSALookupServiceNextW
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSALookupServiceNext"
+f1_keywords:
+- winsock2/WSALookupServiceNext
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSALookupServiceNext
- - WSALookupServiceNextA
- - WSALookupServiceNextW
+- WSALookupServiceNext
+- WSALookupServiceNextA
+- WSALookupServiceNextW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -58,7 +58,7 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a> in order to retrieve the requested service information.
 
 The provider will pass back a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> structure in the <i>lpqsResults</i> buffer. The client should continue to call this function until it returns WSA_E_NO_MORE, indicating that all of 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure in the <i>lpqsResults</i> buffer. The client should continue to call this function until it returns WSA_E_NO_MORE, indicating that all of 
 <b>WSAQUERYSET</b> has been returned.
 
 
@@ -261,7 +261,7 @@ If the provider has been caching information, ignores the cache, and queries the
 </td>
 <td width="60%">
 This indicates whether prime response is in the remote or local part of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structure. The other part needs to be usable in either case.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structure. The other part needs to be usable in either case.
 
 </td>
 </tr>
@@ -278,7 +278,7 @@ On input, the number of bytes contained in the buffer pointed to by <i>lpqsResul
 ### -param lpqsResults [out]
 
 A pointer to a block of memory, which will contain one result set in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> structure on return.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure on return.
 
 
 ## -returns
@@ -324,7 +324,7 @@ There is no more data available. In Windows Sockets version 2, conflicting error
 </td>
 <td width="60%">
 The <i>lpqsResults</i> buffer was too small to contain a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> set.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> set.
 
 </td>
 </tr>
@@ -415,11 +415,11 @@ Also for example, if LUP_RETURN_BLOB is NOT specified at
 <b>WSALookupServiceNext</b>, the returned information does not include the private data. No error is generated.
 
 If the <b>WSALookupServiceNext</b> function fails with an error of 
-								<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a>, this indicates that the buffer pointed to by the <i>lpqsResults</i> parameter was too small to contain the query results. A new buffer for a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> should be provided with a size specified by the value pointed to by  the <i>lpdwBufferLength</i> parameter. This new buffer for the <b>WSAQUERYSET</b> needs to have some of the members of the <b>WSAQUERYSET</b> specified before calling the <b>WSALookupServiceNext</b> function again. At a minimum, the <b>dwSize</b> member of the <b>WSAQUERYSET</b> must be set to the new size of the buffer.
+								<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a>, this indicates that the buffer pointed to by the <i>lpqsResults</i> parameter was too small to contain the query results. A new buffer for a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> should be provided with a size specified by the value pointed to by  the <i>lpdwBufferLength</i> parameter. This new buffer for the <b>WSAQUERYSET</b> needs to have some of the members of the <b>WSAQUERYSET</b> specified before calling the <b>WSALookupServiceNext</b> function again. At a minimum, the <b>dwSize</b> member of the <b>WSAQUERYSET</b> must be set to the new size of the buffer.
 
 <h3><a id="Query_Results"></a><a id="query_results"></a><a id="QUERY_RESULTS"></a>Query Results</h3>
 The following table describes how the query results are represented in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure.
 
 <table>
 <tr>
@@ -429,7 +429,7 @@ The following table describes how the query results are represented in the
 <tr>
 <td><b>dwSize</b></td>
 <td>Will be set to sizeof(
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a>). This is used as a versioning mechanism.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a>). This is used as a versioning mechanism.</td>
 </tr>
 <tr>
 <td><b>dwOutputFlags</b></td>
@@ -470,7 +470,7 @@ The following table describes how the query results are represented in the
 <tr>
 <td><b>lpafpProtocols</b></td>
 <td>Undefined for results, all needed protocol information is in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures.</td>
 </tr>
 <tr>
 <td><b>lpszQueryString</b></td>
@@ -479,12 +479,12 @@ The following table describes how the query results are represented in the
 <tr>
 <td><b>dwNumberOfCsAddrs</b></td>
 <td>Indicates the number of elements in the array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures.</td>
 </tr>
 <tr>
 <td><b>lpcsaBuffer</b></td>
 <td>A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures, with one complete transport address contained within each element.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures, with one complete transport address contained within each element.</td>
 </tr>
 <tr>
 <td><b>lpBlob</b></td>
@@ -517,7 +517,7 @@ The following table describes how the query results are represented in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 10, 11, 2, 20, 3, FILTER_INTERDOMAIN_TRUST_ACCOUNT, FILTER_NORMAL_ACCOUNT, FILTER_SERVER_TRUST_ACCOUNT, FILTER_TEMP_DUPLICATE_ACCOUNT, FILTER_WORKSTATION_TRUST_ACCOUNT, NetUserEnum, NetUserEnum function [Network Management], _win32_netuserenum, lmaccess/NetUserEnum, netmgmt.netuserenum
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetUserEnum"
+f1_keywords:
+- lmaccess/NetUserEnum
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetUserEnum
+- NetUserEnum
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,7 +83,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return user account names. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_0">USER_INFO_0</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_0">USER_INFO_0</a> structures.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ Return user account names. The <i>bufptr</i> parameter points to an array of
 </td>
 <td width="60%">
 Return detailed information about user accounts. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1">USER_INFO_1</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_1">USER_INFO_1</a> structures.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Return detailed information about user accounts. The <i>bufptr</i> parameter poi
 </td>
 <td width="60%">
 Return detailed information about user accounts, including authorization levels and logon information. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_2">USER_INFO_2</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_2">USER_INFO_2</a> structures.
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ Return detailed information about user accounts, including authorization levels 
 </td>
 <td width="60%">
 Return detailed information about user accounts, including authorization levels, logon information, RIDs for the user and the primary group, and profile information. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_3">USER_INFO_3</a> structures. 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_3">USER_INFO_3</a> structures. 
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ Return detailed information about user accounts, including authorization levels,
 </td>
 <td width="60%">
 Return user and account names and comments. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_10">USER_INFO_10</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_10">USER_INFO_10</a> structures.
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ Return user and account names and comments. The <i>bufptr</i> parameter points t
 </td>
 <td width="60%">
 Return detailed information about user accounts. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_11">USER_INFO_11</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_11">USER_INFO_11</a> structures.
 
 </td>
 </tr>
@@ -149,8 +149,8 @@ Return detailed information about user accounts. The <i>bufptr</i> parameter poi
 </td>
 <td width="60%">
 Return the user's name and identifier and various account attributes. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_20">USER_INFO_20</a> structures. Note that on Windows XP and later, it is recommended that you use 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_23">USER_INFO_23</a> instead.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_20">USER_INFO_20</a> structures. Note that on Windows XP and later, it is recommended that you use 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_23">USER_INFO_23</a> instead.
 
 </td>
 </tr>
@@ -374,7 +374,7 @@ The <b>NetUserEnum</b> function does not support a <i>level</i> parameter of 4 a
 
 The following code sample demonstrates how to retrieve information about the user accounts on a server with a call to the 
 <b>NetUserEnum</b> function. The sample calls 
-<b>NetUserEnum</b>, specifying information level 0 (<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_0">USER_INFO_0</a>) to enumerate only global user accounts. If the call succeeds, the code loops through the entries and prints the name of each user account. Finally, the code sample frees the memory allocated for the information buffer and prints a total of the users enumerated.
+<b>NetUserEnum</b>, specifying information level 0 (<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_0">USER_INFO_0</a>) to enumerate only global user accounts. If the call succeeds, the code loops through the entries and prints the name of each user account. Finally, the code sample frees the memory allocated for the information buffer and prints a total of the users enumerated.
 
 
 ```cpp
@@ -531,35 +531,35 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_0">USER_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_0">USER_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1">USER_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_1">USER_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_10">USER_INFO_10</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_10">USER_INFO_10</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_11">USER_INFO_11</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_11">USER_INFO_11</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_2">USER_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_2">USER_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_20">USER_INFO_20</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_20">USER_INFO_20</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_23">USER_INFO_23</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_23">USER_INFO_23</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_3">USER_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_3">USER_INFO_3</a>
 
 
 

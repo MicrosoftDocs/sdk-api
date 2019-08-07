@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PPP_INFO_3, PPP_INFO_3 structure [RAS], mprapi/PPP_INFO_3, rras.ppp_info_3
 ms.topic: struct
-f1_keywords: 
- - "mprapi/PPP_INFO_3"
+f1_keywords:
+- mprapi/PPP_INFO_3
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - PPP_INFO_3
+- PPP_INFO_3
 product: Windows
 targetos: Windows
 req.typenames: PPP_INFO_3
@@ -75,7 +75,7 @@ A
 ### -field ipv6
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_ipv6_cp_info">PPP_IPV6_CP_INFO</a> structure that contains IPv6 control protocol projection information.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_ipv6_cp_info">PPP_IPV6_CP_INFO</a> structure that contains IPv6 control protocol projection information.
 
 
 ### -field ccp
@@ -107,7 +107,7 @@ A
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_3">RAS_CONNECTION_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_3">RAS_CONNECTION_3</a>
 
 
 

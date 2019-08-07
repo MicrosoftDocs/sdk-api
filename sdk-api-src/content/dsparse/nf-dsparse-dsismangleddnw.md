@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsIsMangledDn, DsIsMangledDn function [Active Directory], DsIsMangledDnA, DsIsMangledDnW, _glines_dsismangleddn, ad.dsismangleddn, dsparse/DsIsMangledDn, dsparse/DsIsMangledDnA, dsparse/DsIsMangledDnW
 ms.topic: function
-f1_keywords: 
- - "dsparse/DsIsMangledDn"
+f1_keywords:
+- dsparse/DsIsMangledDn
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsIsMangledDn
- - DsIsMangledDnA
- - DsIsMangledDnW
+- DsIsMangledDn
+- DsIsMangledDnA
+- DsIsMangledDnW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Pointer to a null-terminated string that contains the  distinguished name to ret
 
 ### -param eDsMangleFor [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/dsparse/ne-dsparse-_ds_mangle_for">DS_MANGLE_FOR</a> values that specifies the type of name mangling to look for.
+Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/dsparse/ne-dsparse-ds_mangle_for">DS_MANGLE_FOR</a> values that specifies the type of name mangling to look for.
 
 
 ## -returns
@@ -85,7 +85,7 @@ Returns <b>TRUE</b> if the first relative distinguished name in <i>pszDn</i> is 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/ne-dsparse-_ds_mangle_for">DS_MANGLE_FOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/ne-dsparse-ds_mangle_for">DS_MANGLE_FOR</a>
 
 
 

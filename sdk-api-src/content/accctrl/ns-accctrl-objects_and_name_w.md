@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: ad91a302-f693-44e9-9655-ec4488ff78c4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*POBJECTS_AND_NAME_W, ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, OBJECTS_AND_NAME, OBJECTS_AND_NAME structure [Security], OBJECTS_AND_NAME_, OBJECTS_AND_NAME_A, OBJECTS_AND_NAME_W, POBJECTS_AND_NAME, POBJECTS_AND_NAME structure pointer [Security], _win32_objects_and_name_str, accctrl/OBJECTS_AND_NAME, accctrl/OBJECTS_AND_NAME_A, accctrl/OBJECTS_AND_NAME_W, accctrl/POBJECTS_AND_NAME, security.objects_and_name"
+ms.keywords: '*POBJECTS_AND_NAME_W, ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, OBJECTS_AND_NAME, OBJECTS_AND_NAME structure [Security], OBJECTS_AND_NAME_, OBJECTS_AND_NAME_A, OBJECTS_AND_NAME_W, POBJECTS_AND_NAME, POBJECTS_AND_NAME structure pointer [Security], _win32_objects_and_name_str, accctrl/OBJECTS_AND_NAME, accctrl/OBJECTS_AND_NAME_A, accctrl/OBJECTS_AND_NAME_W, accctrl/POBJECTS_AND_NAME, security.objects_and_name'
 ms.topic: struct
-f1_keywords: 
- - "accctrl/OBJECTS_AND_NAME"
+f1_keywords:
+- accctrl/OBJECTS_AND_NAME
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AccCtrl.h
+- AccCtrl.h
 api_name:
- - OBJECTS_AND_NAME
- - OBJECTS_AND_NAME_A
- - OBJECTS_AND_NAME_W
+- OBJECTS_AND_NAME
+- OBJECTS_AND_NAME_A
+- OBJECTS_AND_NAME_W
 product: Windows
 targetos: Windows
 req.typenames: OBJECTS_AND_NAME_W, *POBJECTS_AND_NAME_W
@@ -104,7 +104,7 @@ The <b>InheritedObjectTypeName</b> member contains a string.
 ### -field ObjectType
 
 Specifies a value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_se_object_type">SE_OBJECT_TYPE</a> enumeration that indicates the type of object.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a> enumeration that indicates the type of object.
 
 
 ### -field ObjectTypeName
@@ -123,7 +123,7 @@ A pointer to a null-terminated string that identifies the type of object that ca
 
 This string must be a valid <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">LDAP</a> display name in the Active Directory schema.
 
-If the ACE_INHERITED_OBJECT_TYPE_PRESENT bit is not set in the <b>ObjectsPresent</b> member, the <b>InheritedObjectTypeName</b> member is ignored, and all types of child objects can inherit the ACE. Otherwise, only the specified object type can inherit the ACE. In either case, inheritance is also controlled by the inheritance flags in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a>structure as well as by any protection against inheritance placed on the child objects.
+If the ACE_INHERITED_OBJECT_TYPE_PRESENT bit is not set in the <b>ObjectsPresent</b> member, the <b>InheritedObjectTypeName</b> member is ignored, and all types of child objects can inherit the ACE. Otherwise, only the specified object type can inherit the ACE. In either case, inheritance is also controlled by the inheritance flags in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>structure as well as by any protection against inheritance placed on the child objects.
 
 
 ### -field ptstrName
@@ -145,7 +145,7 @@ The <b>ptstrName</b> member of a <a href="https://docs.microsoft.com/windows/des
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>
 
 
 
@@ -161,7 +161,7 @@ The <b>ptstrName</b> member of a <a href="https://docs.microsoft.com/windows/des
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_se_object_type">SE_OBJECT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>
 
 
 

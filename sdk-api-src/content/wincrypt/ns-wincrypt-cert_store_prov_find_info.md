@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: b3c5960c-7800-485c-b030-199fee027154
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_STORE_PROV_FIND_INFO, CCERT_STORE_PROV_FIND_INFO, CCERT_STORE_PROV_FIND_INFO structure [Security], CERT_FIND_ANY, CERT_FIND_CERT_ID, CERT_FIND_CTL_USAGE, CERT_FIND_ENHKEY_USAGE, CERT_FIND_EXISTING, CERT_FIND_HASH, CERT_FIND_ISSUER_ATTR, CERT_FIND_ISSUER_NAME, CERT_FIND_ISSUER_OF, CERT_FIND_ISSUER_STR, CERT_FIND_KEY_IDENTIFIER, CERT_FIND_KEY_SPEC, CERT_FIND_MD5_HASH, CERT_FIND_PROPERTY, CERT_FIND_PUBLIC_KEY, CERT_FIND_SHA1_HASH, CERT_FIND_SIGNATURE_HASH, CERT_FIND_SUBJECT_ATTR, CERT_FIND_SUBJECT_CERT, CERT_FIND_SUBJECT_NAME, CERT_FIND_SUBJECT_STR, CERT_STORE_PROV_FIND_INFO, CERT_STORE_PROV_FIND_INFO structure [Security], PCCERT_STORE_PROV_FIND_INFO, PCCERT_STORE_PROV_FIND_INFO structure pointer [Security], PCERT_STORE_PROV_FIND_INFO, PCERT_STORE_PROV_FIND_INFO structure pointer [Security], _crypto2_cert_store_prov_find_info, security.cert_store_prov_find_info, wincrypt/CCERT_STORE_PROV_FIND_INFO, wincrypt/CERT_STORE_PROV_FIND_INFO, wincrypt/PCCERT_STORE_PROV_FIND_INFO, wincrypt/PCERT_STORE_PROV_FIND_INFO"
+ms.keywords: '*PCERT_STORE_PROV_FIND_INFO, CCERT_STORE_PROV_FIND_INFO, CCERT_STORE_PROV_FIND_INFO structure [Security], CERT_FIND_ANY, CERT_FIND_CERT_ID, CERT_FIND_CTL_USAGE, CERT_FIND_ENHKEY_USAGE, CERT_FIND_EXISTING, CERT_FIND_HASH, CERT_FIND_ISSUER_ATTR, CERT_FIND_ISSUER_NAME, CERT_FIND_ISSUER_OF, CERT_FIND_ISSUER_STR, CERT_FIND_KEY_IDENTIFIER, CERT_FIND_KEY_SPEC, CERT_FIND_MD5_HASH, CERT_FIND_PROPERTY, CERT_FIND_PUBLIC_KEY, CERT_FIND_SHA1_HASH, CERT_FIND_SIGNATURE_HASH, CERT_FIND_SUBJECT_ATTR, CERT_FIND_SUBJECT_CERT, CERT_FIND_SUBJECT_NAME, CERT_FIND_SUBJECT_STR, CERT_STORE_PROV_FIND_INFO, CERT_STORE_PROV_FIND_INFO structure [Security], PCCERT_STORE_PROV_FIND_INFO, PCCERT_STORE_PROV_FIND_INFO structure pointer [Security], PCERT_STORE_PROV_FIND_INFO, PCERT_STORE_PROV_FIND_INFO structure pointer [Security], _crypto2_cert_store_prov_find_info, security.cert_store_prov_find_info, wincrypt/CCERT_STORE_PROV_FIND_INFO, wincrypt/CERT_STORE_PROV_FIND_INFO, wincrypt/PCCERT_STORE_PROV_FIND_INFO, wincrypt/PCERT_STORE_PROV_FIND_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_STORE_PROV_FIND_INFO"
+f1_keywords:
+- wincrypt/CERT_STORE_PROV_FIND_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_STORE_PROV_FIND_INFO
+- CERT_STORE_PROV_FIND_INFO
 product: Windows
 targetos: Windows
 req.typenames: CERT_STORE_PROV_FIND_INFO, *PCERT_STORE_PROV_FIND_INFO
@@ -116,7 +116,7 @@ Finds the certificate identified by the specified <b>CERT_ID</b>.
 </dl>
 </td>
 <td width="60%">
-Searches for a certificate having a szOID_ENHANCED_KEY_USAGE extension or a CERT_CTL_PROP_ID that matches the <b>pszUsageIdentifier</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CTL_USAGE</a> structure.
+Searches for a certificate having a szOID_ENHANCED_KEY_USAGE extension or a CERT_CTL_PROP_ID that matches the <b>pszUsageIdentifier</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a> structure.
 
 </td>
 </tr>
@@ -127,16 +127,16 @@ Searches for a certificate having a szOID_ENHANCED_KEY_USAGE extension or a CERT
 </dl>
 </td>
 <td width="60%">
-Searches for a certificate in the store having either an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">enhanced key usage</a> extension or an enhanced key usage property and a usage identifier that matches the <b>pszUsageIdentifier</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CERT_ENHKEY_USAGE</a> structure. 
+Searches for a certificate in the store having either an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">enhanced key usage</a> extension or an enhanced key usage property and a usage identifier that matches the <b>pszUsageIdentifier</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a> structure. 
 
 
 
 
 A certificate has an enhanced key usage extension if it has a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a> structure with the <b>pszObjId</b> member set to szOID_ENHANCED_KEY_USAGE. A certificate has an enhanced key usage property if its CERT_ENHKEY_USAGE_PROP_ID identifier is set.
 
-If <b>pvFindPara</b> is <b>NULL</b> or the <b>cUsageIdentifier</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CERT_ENHKEY_USAGE</a> is zero, any certificate that has either the enhanced key usage extension or the enhanced key usage property meets the selection criteria.
+If <b>pvFindPara</b> is <b>NULL</b> or the <b>cUsageIdentifier</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a> is zero, any certificate that has either the enhanced key usage extension or the enhanced key usage property meets the selection criteria.
 
-If <b>pvFindPara</b> is <b>NULL</b> or the <b>cUsageIdentifier</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CERT_ENHKEY_USAGE</a> structure is zero, any certificate having enhanced key usage is a match.
+If <b>pvFindPara</b> is <b>NULL</b> or the <b>cUsageIdentifier</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a> structure is zero, any certificate having enhanced key usage is a match.
 
 If CERT_FIND_OPTIONAL_ENHKEY_USAGE_FLAG is set in <b>dwFindFlags</b>, certificates without the key usage extension or property are also matches. Setting this flag takes precedence over passing <b>NULL</b> in <b>pvFindPara</b>.
 
@@ -176,14 +176,14 @@ Searches for a certificate with a SHA1 hash that matches the hash in the <a href
 </dl>
 </td>
 <td width="60%">
-Search for a certificate with specified issuer attributes that match attributes in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn">CERT_RDN</a> structure. If these values are set, the function compares attributes of the issuer in a certificate with elements of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn_attr">CERT_RDN_ATTR</a> array in this <b>CERT_RDN</b> structure. Comparisons iterate through the <b>CERT_RDN_ATTR</b> attributes looking for a match with the certificate's issuer attributes. 
+Search for a certificate with specified issuer attributes that match attributes in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> structure. If these values are set, the function compares attributes of the issuer in a certificate with elements of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> array in this <b>CERT_RDN</b> structure. Comparisons iterate through the <b>CERT_RDN_ATTR</b> attributes looking for a match with the certificate's issuer attributes. 
 
 
 
 
-If the <b>pszObjId</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn_attr">CERT_RDN_ATTR</a> is <b>NULL</b>, the attribute object identifier is ignored.
+If the <b>pszObjId</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> is <b>NULL</b>, the attribute object identifier is ignored.
 
-If the <b>dwValueType</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn_attr">CERT_RDN_ATTR</a> is CERT_RDN_ANY_TYPE, the value type is ignored.
+If the <b>dwValueType</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> is CERT_RDN_ANY_TYPE, the value type is ignored.
 
 If the <b>pbData</b> member of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_RDN_VALUE_BLOB</a> is <b>NULL</b>, any value is a match.
 
@@ -210,7 +210,7 @@ Search for a certificate with an exact match of the entire issuer name with the 
 </dl>
 </td>
 <td width="60%">
-Searches for a certificate with an issuer that matches the issuer in <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>. 
+Searches for a certificate with an issuer that matches the issuer in <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>. 
 
 
 
@@ -285,7 +285,7 @@ Searches for a certificate with a property that matches the property identifier 
 </dl>
 </td>
 <td width="60%">
-Searches for a certificate with a public key that matches the public key in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure.
+Searches for a certificate with a public key that matches the public key in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure.
 
 </td>
 </tr>
@@ -320,14 +320,14 @@ Searches for a certificate with a signature hash that matches the signature hash
 </dl>
 </td>
 <td width="60%">
-Searches for a certificate with specified subject attributes that match attributes in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn">CERT_RDN</a> structure. If RDN values are set, the function compares attributes of the subject in a certificate with elements of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn_attr">CERT_RDN_ATTR</a> array in this <b>CERT_RDN</b> structure. Comparisons iterate through the <b>CERT_RDN_ATTR</b> attributes looking for a match with the certificate's subject's attributes. 
+Searches for a certificate with specified subject attributes that match attributes in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> structure. If RDN values are set, the function compares attributes of the subject in a certificate with elements of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> array in this <b>CERT_RDN</b> structure. Comparisons iterate through the <b>CERT_RDN_ATTR</b> attributes looking for a match with the certificate's subject's attributes. 
 
 
 
 
-If the <b>pszObjId</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn_attr">CERT_RDN_ATTR</a> is <b>NULL</b>, the attribute object identifier is ignored.
+If the <b>pszObjId</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> is <b>NULL</b>, the attribute object identifier is ignored.
 
-If the <b>dwValueType</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn_attr">CERT_RDN_ATTR</a> is CERT_RDN_ANY_TYPE, the value type is ignored.
+If the <b>dwValueType</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> is CERT_RDN_ANY_TYPE, the value type is ignored.
 
 If the <b>pbData</b> member of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_RDN_VALUE_BLOB</a> is <b>NULL</b>, any value is a match.
 
@@ -344,7 +344,7 @@ For information about Unicode options, see  Remarks. When these values are set, 
 </dl>
 </td>
 <td width="60%">
-Searches for a certificate with both an issuer and a serial number that match the issuer and serial number in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure.
+Searches for a certificate with both an issuer and a serial number that match the issuer and serial number in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure.
 
 </td>
 </tr>
@@ -389,7 +389,7 @@ Points to a data item or structure to be used with the find type indicated by th
 
 The <b>dwFindFlags</b> member is used to modify the criteria of some search types.
 
-The <b>dwFindFlags</b> value of CERT_UNICODE_IS_RDN_ATTRS_FLAG is used only with the CERT_FIND_SUBJECT_ATTR and CERT_FIND_ISSUER_ATTR values for <b>dwFindType</b>. CERT_UNICODE_IS_RDN_ATTRS_FLAG must be set if the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn_attr">CERT_RDN_ATTR</a> structure pointed to by <b>pvFindPara</b> was initialized with Unicode strings. Before any comparison is made, the string to be matched is converted by using X509_UNICODE_NAME to provide for Unicode comparisons.
+The <b>dwFindFlags</b> value of CERT_UNICODE_IS_RDN_ATTRS_FLAG is used only with the CERT_FIND_SUBJECT_ATTR and CERT_FIND_ISSUER_ATTR values for <b>dwFindType</b>. CERT_UNICODE_IS_RDN_ATTRS_FLAG must be set if the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> structure pointed to by <b>pvFindPara</b> was initialized with Unicode strings. Before any comparison is made, the string to be matched is converted by using X509_UNICODE_NAME to provide for Unicode comparisons.
 
 The following <b>dwFindFlags</b> values are used only with the CERT_FIND_ENKEY_USAGE value for <b>dwFindType</b>.
 
@@ -400,7 +400,7 @@ The following <b>dwFindFlags</b> values are used only with the CERT_FIND_ENKEY_U
 </tr>
 <tr>
 <td>CERT_FIND_OR_ENHKEY_USAGE_FLAG</td>
-<td>The search criteria can be altered by setting one or more flags. By default, if the <b>pszUsageIdentifier</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CERT_ENHKEY_USAGE</a> structure pointed to by <b>pvFindPara</b> is to be matched, each identifier must be matched to satisfy the search criteria. However, if CERT_FIND_OR_ENHKEY_USAGE_FLAG is set, a match can be made to all identifiers combined by using a bitwise-<b>OR</b> operation; thus, matching any one of the identifiers is sufficient.</td>
+<td>The search criteria can be altered by setting one or more flags. By default, if the <b>pszUsageIdentifier</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a> structure pointed to by <b>pvFindPara</b> is to be matched, each identifier must be matched to satisfy the search criteria. However, if CERT_FIND_OR_ENHKEY_USAGE_FLAG is set, a match can be made to all identifiers combined by using a bitwise-<b>OR</b> operation; thus, matching any one of the identifiers is sufficient.</td>
 </tr>
 <tr>
 <td>CERT_FIND_OPTIONAL_ENHKEY_USAGE_FLAG</td>
@@ -421,7 +421,7 @@ CERT_FIND_OR_ENHKEY_USAGE_FLAG can also be set if the certificate only needs to 
 </tr>
 <tr>
 <td>CERT_FIND_EXT_ONLY_ENHKEY_USAGE_FLAG</td>
-<td>When this flag is set, the matching process involves only the extension usage identifiers. If <b>pvFindPara</b> is <b>NULL</b> or the <b>cUsageIdentifier</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CERT_ENHKEY_USAGE</a> structure pointed to by <b>pvFindPara</b> is zero, any certificate having an enhanced key usage extension is a match. If CERT_FIND_OPTIONAL_ENHKEY_USAGE_FLAG is also set, any certificate without the enhanced key usage extension is also a match. If CERT_FIND_NO_ENHKEY_USAGE_FLAG is also set, only certificates without the enhanced key usage extension are matches.</td>
+<td>When this flag is set, the matching process involves only the extension usage identifiers. If <b>pvFindPara</b> is <b>NULL</b> or the <b>cUsageIdentifier</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a> structure pointed to by <b>pvFindPara</b> is zero, any certificate having an enhanced key usage extension is a match. If CERT_FIND_OPTIONAL_ENHKEY_USAGE_FLAG is also set, any certificate without the enhanced key usage extension is also a match. If CERT_FIND_NO_ENHKEY_USAGE_FLAG is also set, only certificates without the enhanced key usage extension are matches.</td>
 </tr>
 <tr>
 <td>CERT_FIND_EXT_PROP_ENHKEY_USAGE_FLAG</td>

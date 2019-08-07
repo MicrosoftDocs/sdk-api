@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminServerGetCredentials, MprAdminServerGetCredentials function [RAS], _mpr_mpradminservergetcredentials, mprapi/MprAdminServerGetCredentials, rras.mpradminservergetcredentials
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminServerGetCredentials"
+f1_keywords:
+- mprapi/MprAdminServerGetCredentials
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminServerGetCredentials
+- MprAdminServerGetCredentials
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ A DWORD value that describes the format in which the information is returned in 
 
 ### -param lplpbBuffer [out]
 
-On successful completion, a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_credentialsex_1">MPR_CREDENTIALSEX_1</a> structure that contains the pre-shared key for the server. Free the memory occupied by this structure with 
+On successful completion, a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_credentialsex_1">MPR_CREDENTIALSEX_1</a> structure that contains the pre-shared key for the server. Free the memory occupied by this structure with 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>.
 
 
@@ -155,7 +155,7 @@ The server maintains a single pre-shared key for all users.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_credentialsex_1">MPR_CREDENTIALSEX_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_credentialsex_1">MPR_CREDENTIALSEX_1</a>
 
 
 

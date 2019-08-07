@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetSecurityInfo, SetSecurityInfo function [Security], _win32_setsecurityinfo, aclapi/SetSecurityInfo, security.setsecurityinfo
 ms.topic: function
-f1_keywords: 
- - "aclapi/SetSecurityInfo"
+f1_keywords:
+- aclapi/SetSecurityInfo
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-MS-Win-AdvAPI32-ntmarta-l1-1-0.dll
- - advapi32legacy.dll
- - api-ms-win-security-provider-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll
- - ntmarta.dll
+- Advapi32.dll
+- Ext-MS-Win-AdvAPI32-ntmarta-l1-1-0.dll
+- advapi32legacy.dll
+- api-ms-win-security-provider-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll
+- ntmarta.dll
 api_name:
- - SetSecurityInfo
+- SetSecurityInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ A handle to the object for which to set security information.
 ### -param ObjectType [in]
 
 A member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_se_object_type">SE_OBJECT_TYPE</a> enumeration that indicates the type of object identified by the <i>handle</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a> enumeration that indicates the type of object identified by the <i>handle</i> parameter.
 
 
 ### -param SecurityInfo [in]
@@ -153,7 +153,7 @@ The <b>SetSecurityInfo</b> function does not reorder access-allowed or access-de
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
@@ -173,7 +173,7 @@ The <b>SetSecurityInfo</b> function does not reorder access-allowed or access-de
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
@@ -181,11 +181,11 @@ The <b>SetSecurityInfo</b> function does not reorder access-allowed or access-de
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_se_object_type">SE_OBJECT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],GetProperties method, IVdsIscsiTarget.GetProperties, IVdsIscsiTarget::GetProperties, base.ivdsiscsitarget_getproperties, vds/IVdsIscsiTarget::GetProperties, vdshwprv/IVdsIscsiTarget::GetProperties
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsIscsiTarget.GetProperties"
+f1_keywords:
+- vdshwprv/IVdsIscsiTarget.GetProperties
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiTarget.GetProperties
+- IVdsIscsiTarget.GetProperties
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Returns the properties of an iSCSI target.
 
 ### -param pTargetProp [out]
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_iscsi_target_prop">VDS_ISCSI_TARGET_PROP</a> 
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_target_prop">VDS_ISCSI_TARGET_PROP</a> 
       structure allocated by the caller. VDS allocates memory for the strings pointed to by the 
       <b>pwszIscsiName</b> and <b>pwszFriendlyName</b> members of this 
       structure. Callers must free the strings by using the 
@@ -148,7 +148,7 @@ The portal object is no longer present.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_iscsi_target_prop">VDS_ISCSI_TARGET_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_target_prop">VDS_ISCSI_TARGET_PROP</a>
  
 
  

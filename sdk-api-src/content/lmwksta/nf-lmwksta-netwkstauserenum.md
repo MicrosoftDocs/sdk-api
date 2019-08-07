@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetWkstaUserEnum, NetWkstaUserEnum function [Network Management], _win32_netwkstauserenum, lmwksta/NetWkstaUserEnum, netmgmt.netwkstauserenum
 ms.topic: function
-f1_keywords: 
- - "lmwksta/NetWkstaUserEnum"
+f1_keywords:
+- lmwksta/NetWkstaUserEnum
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetWkstaUserEnum
+- NetWkstaUserEnum
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,7 +83,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return the names of users currently logged on to the workstation. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_user_info_0">WKSTA_USER_INFO_0</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_user_info_0">WKSTA_USER_INFO_0</a> structures.
 
 </td>
 </tr>
@@ -206,7 +206,7 @@ To compile an application that uses this function, define the _WIN32_WINNT macro
 The following code sample demonstrates how to list information about all users currently logged on to a workstation using a call to the 
 <b>NetWkstaUserEnum</b> function. The sample calls 
 <b>NetWkstaUserEnum</b>, specifying information level 0 (
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_user_info_0">WKSTA_USER_INFO_0</a>). The sample loops through the entries and prints the names of the users logged on to a workstation. Finally, the code sample frees the memory allocated for the information buffer, and prints the total number of users enumerated.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_user_info_0">WKSTA_USER_INFO_0</a>). The sample loops through the entries and prints the names of the users logged on to a workstation. Finally, the code sample frees the memory allocated for the information buffer, and prints the total number of users enumerated.
 
 
 ```cpp
@@ -351,7 +351,7 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_user_info_0">WKSTA_USER_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_user_info_0">WKSTA_USER_INFO_0</a>
 
 
 

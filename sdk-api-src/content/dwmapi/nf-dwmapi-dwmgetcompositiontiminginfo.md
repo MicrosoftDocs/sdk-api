@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DwmGetCompositionTimingInfo, DwmGetCompositionTimingInfo function [Desktop Window Manager], _udwm_dwmgetcompositiontiminginfo, _udwm_dwmgetcompositiontiminginfo_cpp, dwm.dwmgetcompositiontiminginfo, dwmapi/DwmGetCompositionTimingInfo, winui._udwm_dwmgetcompositiontiminginfo
 ms.topic: function
-f1_keywords: 
- - "dwmapi/DwmGetCompositionTimingInfo"
+f1_keywords:
+- dwmapi/DwmGetCompositionTimingInfo
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dwmapi.dll
- - API-MS-Win-dwmapi-l1-1-0.dll
- - Ext-Ms-Win-DwmAPI-Ext-L1-1-0.dll
+- Dwmapi.dll
+- API-MS-Win-dwmapi-l1-1-0.dll
+- Ext-Ms-Win-DwmAPI-Ext-L1-1-0.dll
 api_name:
- - DwmGetCompositionTimingInfo
+- DwmGetCompositionTimingInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ Starting with Windows 8.1, this parameter must be set to <b>NULL</b>. If this p
 
 ### -param pTimingInfo [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ns-dwmapi-_dwm_timing_info">DWM_TIMING_INFO</a> structure that, when this function returns successfully, receives the current composition timing information for the window. The <b>cbSize</b> member of this structure must be set before this function is called.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ns-dwmapi-dwm_timing_info">DWM_TIMING_INFO</a> structure that, when this function returns successfully, receives the current composition timing information for the window. The <b>cbSize</b> member of this structure must be set before this function is called.
 
 
 ## -returns

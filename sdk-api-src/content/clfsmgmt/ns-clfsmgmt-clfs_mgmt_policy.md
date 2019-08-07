@@ -8,10 +8,10 @@ tech.root: Clfs
 ms.assetid: 3f5d9c38-b299-4102-9786-115ece5b0928
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCLFS_MGMT_POLICY, CLFS_MGMT_POLICY, CLFS_MGMT_POLICY structure [Files], PCLFS_MGMT_POLICY, PCLFS_MGMT_POLICY structure pointer [Files], clfsmgmt/CLFS_MGMT_POLICY, clfsmgmt/PCLFS_MGMT_POLICY, fs.clfs_mgmt_policy"
+ms.keywords: '*PCLFS_MGMT_POLICY, CLFS_MGMT_POLICY, CLFS_MGMT_POLICY structure [Files], PCLFS_MGMT_POLICY, PCLFS_MGMT_POLICY structure pointer [Files], clfsmgmt/CLFS_MGMT_POLICY, clfsmgmt/PCLFS_MGMT_POLICY, fs.clfs_mgmt_policy'
 ms.topic: struct
-f1_keywords: 
- - "clfsmgmt/CLFS_MGMT_POLICY"
+f1_keywords:
+- clfsmgmt/CLFS_MGMT_POLICY
 req.header: clfsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Clfsmgmt.h
+- Clfsmgmt.h
 api_name:
- - CLFS_MGMT_POLICY
+- CLFS_MGMT_POLICY
 product: Windows
 targetos: Windows
 req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
@@ -78,7 +78,7 @@ Reserved. Specify zero.
 
 ### -field PolicyType
 
-Specifies the members used for a specific policy. Valid values are specified by <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ne-clfsmgmt-_clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>.
+Specifies the members used for a specific policy. Valid values are specified by <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ne-clfsmgmt-clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>.
 
 
 ### -field PolicyParameters
@@ -215,7 +215,7 @@ Specifies the extension given to the container file.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ne-clfsmgmt-_clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ne-clfsmgmt-clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzInitializeRemoteResourceManager, AuthzInitializeRemoteResourceManager function [Security], authz/AuthzInitializeRemoteResourceManager, security.authzinitializeremoteresourcemanager
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzInitializeRemoteResourceManager"
+f1_keywords:
+- authz/AuthzInitializeRemoteResourceManager
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
+- Authz.dll
 api_name:
- - AuthzInitializeRemoteResourceManager
+- AuthzInitializeRemoteResourceManager
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>AuthzInitializeRemoteResourceManager</b> function allocates and initializ
 
 ### -param pRpcInitInfo [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_rpc_init_info_client">AUTHZ_RPC_INIT_INFO_CLIENT</a> structure containing the initial information needed to configure the connection.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_rpc_init_info_client">AUTHZ_RPC_INIT_INFO_CLIENT</a> structure containing the initial information needed to configure the connection.
 
 
 ### -param phAuthzResourceManager [out]

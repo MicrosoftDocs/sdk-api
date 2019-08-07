@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPMT interface [Microsoft TV Technologies],QueryServiceGatewayInfo method, IPMT.QueryServiceGatewayInfo, IPMT::QueryServiceGatewayInfo, IPMTQueryServiceGatewayInfo, QueryServiceGatewayInfo, QueryServiceGatewayInfo method [Microsoft TV Technologies], QueryServiceGatewayInfo method [Microsoft TV Technologies],IPMT interface, mpeg2psiparser/IPMT::QueryServiceGatewayInfo, mstv.ipmt_queryservicegatewayinfo
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/IPMT.QueryServiceGatewayInfo"
+f1_keywords:
+- mpeg2psiparser/IPMT.QueryServiceGatewayInfo
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - IPMT.QueryServiceGatewayInfo
+- IPMT.QueryServiceGatewayInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ The <b>QueryServiceGatewayInfo</b> method returns the DSM-CC service gateway inf
 
 ### -param ppDSMCCList [out]
 
-Address of a variable that receives a pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-_dsmcc_element">DSMCC_ELEMENT</a> structures. The client must free the array by calling the <b>CoTaskMemFree</b> function.
+Address of a variable that receives a pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-dsmcc_element">DSMCC_ELEMENT</a> structures. The client must free the array by calling the <b>CoTaskMemFree</b> function.
 
 
 ### -param puiCount [out]

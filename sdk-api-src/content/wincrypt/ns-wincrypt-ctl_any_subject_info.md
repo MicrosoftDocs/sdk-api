@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 367e9914-b69b-47ad-a20a-3dd067708787
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCTL_ANY_SUBJECT_INFO, CTL_ANY_SUBJECT_INFO, CTL_ANY_SUBJECT_INFO structure [Security], PCTL_ANY_SUBJECT_INFO, PCTL_ANY_SUBJECT_INFO structure pointer [Security], _crypto2_ctl_any_subject_info, security.ctl_any_subject_info, wincrypt/CTL_ANY_SUBJECT_INFO, wincrypt/PCTL_ANY_SUBJECT_INFO"
+ms.keywords: '*PCTL_ANY_SUBJECT_INFO, CTL_ANY_SUBJECT_INFO, CTL_ANY_SUBJECT_INFO structure [Security], PCTL_ANY_SUBJECT_INFO, PCTL_ANY_SUBJECT_INFO structure pointer [Security], _crypto2_ctl_any_subject_info, security.ctl_any_subject_info, wincrypt/CTL_ANY_SUBJECT_INFO, wincrypt/PCTL_ANY_SUBJECT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CTL_ANY_SUBJECT_INFO"
+f1_keywords:
+- wincrypt/CTL_ANY_SUBJECT_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CTL_ANY_SUBJECT_INFO
+- CTL_ANY_SUBJECT_INFO
 product: Windows
 targetos: Windows
 req.typenames: CTL_ANY_SUBJECT_INFO, *PCTL_ANY_SUBJECT_INFO
@@ -63,7 +63,7 @@ The <b>CTL_ANY_SUBJECT_INFO</b> structure contains a <b>SubjectAlgorithm</b> to 
 ### -field SubjectAlgorithm
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure containing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of an algorithm type and any associated additional parameters. The <b>pszObjId</b> can be set to <b>NULL</b> to exclude a <b>SubjectAlgorithm</b> comparison.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure containing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of an algorithm type and any associated additional parameters. The <b>pszObjId</b> can be set to <b>NULL</b> to exclude a <b>SubjectAlgorithm</b> comparison.
 
 
 ### -field SubjectIdentifier
@@ -76,7 +76,7 @@ The <b>CTL_ANY_SUBJECT_INFO</b> structure contains a <b>SubjectAlgorithm</b> to 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
 
 
 
@@ -84,7 +84,7 @@ The <b>CTL_ANY_SUBJECT_INFO</b> structure contains a <b>SubjectAlgorithm</b> to 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_find_subject_para">CTL_FIND_SUBJECT_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_find_subject_para">CTL_FIND_SUBJECT_PARA</a>
 
 
 

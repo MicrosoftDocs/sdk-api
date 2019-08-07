@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_SECURITY_BINDING, WS_HTTP_HEADER_AUTH_SECURITY_BINDING structure [Web Services for Windows], webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING, wsw.ws_http_header_auth_security_binding
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING"
+f1_keywords:
+- webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_HTTP_HEADER_AUTH_SECURITY_BINDING
+- WS_HTTP_HEADER_AUTH_SECURITY_BINDING
 product: Windows
 targetos: Windows
 req.typenames: WS_HTTP_HEADER_AUTH_SECURITY_BINDING
@@ -58,7 +58,7 @@ The security binding subtype for specifying the use of HTTP header authenticatio
                 security binding property can be specified to use it for a HTTP proxy server. This binding provides client authentication, but not message protection
                 since the HTTP body is unaffected by this binding. While this security binding can be used alone, such usage is not recommended;
                 more typically, HTTP header authentication is done in conjunction with transport level security provided by a security binding such as the 
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a>. To use this binding without SSL, the security description property <b>WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL</b> must be explicitly set to <b>WS_PROTECTION_LEVEL_NONE</b>.
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a>. To use this binding without SSL, the security description property <b>WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL</b> must be explicitly set to <b>WS_PROTECTION_LEVEL_NONE</b>.
 
 With this security binding, the following security binding properties may be specified:
 <ul>

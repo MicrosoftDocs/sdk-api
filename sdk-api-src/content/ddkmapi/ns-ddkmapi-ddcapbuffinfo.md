@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 8286c433-2183-4751-be8a-30cb9cd9146d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDDCAPBUFFINFO, DDCAPBUFFINFO, DDCAPBUFFINFO structure [Display Devices], LPDDCAPBUFFINFO, LPDDCAPBUFFINFO structure pointer [Display Devices], ddkmapi/DDCAPBUFFINFO, ddkmapi/LPDDCAPBUFFINFO, ddstrcts_c1b7049e-f505-419f-ba3e-53625521dae2.xml, display.ddcapbuffinfo"
+ms.keywords: '*LPDDCAPBUFFINFO, DDCAPBUFFINFO, DDCAPBUFFINFO structure [Display Devices], LPDDCAPBUFFINFO, LPDDCAPBUFFINFO structure pointer [Display Devices], ddkmapi/DDCAPBUFFINFO, ddkmapi/LPDDCAPBUFFINFO, ddstrcts_c1b7049e-f505-419f-ba3e-53625521dae2.xml, display.ddcapbuffinfo'
 ms.topic: struct
-f1_keywords: 
- - "ddkmapi/DDCAPBUFFINFO"
+f1_keywords:
+- ddkmapi/DDCAPBUFFINFO
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddkmapi.h
+- ddkmapi.h
 api_name:
- - DDCAPBUFFINFO
+- DDCAPBUFFINFO
 product: Windows
 targetos: Windows
 req.typenames: DDCAPBUFFINFO, *LPDDCAPBUFFINFO
@@ -84,7 +84,7 @@ Specifies the location in which DirectDraw writes the return value of the <a hre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-_ddaddvpcapturebuff">DDADDVPCAPTUREBUFF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddaddvpcapturebuff">DDADDVPCAPTUREBUFF</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSQuerySessionInformation, WTSQuerySessionInformation function [Remote Desktop Services], WTSQuerySessionInformationA, WTSQuerySessionInformationW, _win32_wtsquerysessioninformation, termserv.wtsquerysessioninformation, wtsapi32/WTSQuerySessionInformation, wtsapi32/WTSQuerySessionInformationA, wtsapi32/WTSQuerySessionInformationW
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSQuerySessionInformation"
+f1_keywords:
+- wtsapi32/WTSQuerySessionInformation
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.dll
- - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
+- Wtsapi32.dll
+- Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
 api_name:
- - WTSQuerySessionInformation
- - WTSQuerySessionInformationA
- - WTSQuerySessionInformationW
+- WTSQuerySessionInformation
+- WTSQuerySessionInformationA
+- WTSQuerySessionInformationW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -90,7 +90,7 @@ To query information for another user's session, you must have Query Information
 
 ### -param WTSInfoClass [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-_wts_info_class">WTS_INFO_CLASS</a> enumeration that indicates the type of 
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_info_class">WTS_INFO_CLASS</a> enumeration that indicates the type of 
     session information to retrieve in a call to the 
     <b>WTSQuerySessionInformation</b> function.
 
@@ -147,11 +147,11 @@ To determine whether your application is running on the physical console, you mu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtsconfiginfoa">WTSCONFIGINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsconfiginfoa">WTSCONFIGINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtsinfoexa">WTSINFOEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoexa">WTSINFOEX</a>
 
 
 
@@ -167,11 +167,11 @@ To determine whether your application is running on the physical console, you mu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-_wts_info_class">WTS_INFO_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_info_class">WTS_INFO_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_session_address">WTS_SESSION_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_address">WTS_SESSION_ADDRESS</a>
  
 
  

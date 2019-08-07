@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EcGetObjectArrayProperty, EcGetObjectArrayProperty function, evcoll/EcGetObjectArrayProperty, wec.ecgetobjectarrayproperty, wes.ecgetobjectarrayproperty
 ms.topic: function
-f1_keywords: 
- - "evcoll/EcGetObjectArrayProperty"
+f1_keywords:
+- evcoll/EcGetObjectArrayProperty
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wecapi.lib
 req.dll: Wecapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wecapi.dll
+- Wecapi.dll
 api_name:
- - EcGetObjectArrayProperty
+- EcGetObjectArrayProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A handle to an array of properties for the event sources for a subscription. An 
 
 ### -param PropertyId [in]
 
-The property identifier for properties in the array. Specify a value from the <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ne-evcoll-_ec_subscription_property_id">EC_SUBSCRIPTION_PROPERTY_ID</a> enumeration. Get  the <b>Address</b>, <b>Enabled</b>, <b>UserName</b>, and <b>Password</b> properties in the array by specifying the <b>EcSubscriptionEventSourceAddress</b>, <b>EcSubscriptionEventSourceEnabled</b>, <b>EcSubscriptionEventSourceUserName</b>, or <b>EcSubscriptionEventSourcePassword</b> values.
+The property identifier for properties in the array. Specify a value from the <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ne-evcoll-ec_subscription_property_id">EC_SUBSCRIPTION_PROPERTY_ID</a> enumeration. Get  the <b>Address</b>, <b>Enabled</b>, <b>UserName</b>, and <b>Password</b> properties in the array by specifying the <b>EcSubscriptionEventSourceAddress</b>, <b>EcSubscriptionEventSourceEnabled</b>, <b>EcSubscriptionEventSourceUserName</b>, or <b>EcSubscriptionEventSourcePassword</b> values.
 
 
 ### -param ArrayIndex [in]
@@ -81,7 +81,7 @@ Reserved. Must be 0.
 
 ### -param PropertyValueBufferSize [in]
 
-The size of the buffer that contains the value of the property. The size must be at least the size of an <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ns-evcoll-_ec_variant">EC_VARIANT</a> value.
+The size of the buffer that contains the value of the property. The size must be at least the size of an <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ns-evcoll-ec_variant">EC_VARIANT</a> value.
 
 
 ### -param PropertyValueBuffer [in]

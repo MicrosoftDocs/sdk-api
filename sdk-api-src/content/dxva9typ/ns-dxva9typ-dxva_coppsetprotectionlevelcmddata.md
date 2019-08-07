@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVA_COPPSetProtectionLevelCmdData, DXVA_COPPSetProtectionLevelCmdData structure [DirectShow], DXVA_COPPSetProtectionLevelCmdDataStructure, _DXVA_COPPSetProtectionLevelCmdData, dshow.dxva_coppsetprotectionlevelcmddata, dxva9typ/DXVA_COPPSetProtectionLevelCmdData
 ms.topic: struct
-f1_keywords: 
- - "dxva9typ/DXVA_COPPSetProtectionLevelCmdData"
+f1_keywords:
+- dxva9typ/DXVA_COPPSetProtectionLevelCmdData
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva9typ.h
+- dxva9typ.h
 api_name:
- - DXVA_COPPSetProtectionLevelCmdData
+- DXVA_COPPSetProtectionLevelCmdData
 product: Windows
 targetos: Windows
 req.typenames: DXVA_COPPSetProtectionLevelCmdData
@@ -79,19 +79,19 @@ Specifies the protection level. The meaning of this value depends on the protect
 <tr>
 <td>ACP</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-_copp_acp_protection_level">COPP_ACP_Protection_Level</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_acp_protection_level">COPP_ACP_Protection_Level</a>
 </td>
 </tr>
 <tr>
 <td>CGMS-A</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-_copp_cgmsa_protection_level">COPP_CGMSA_Protection_Level</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_cgmsa_protection_level">COPP_CGMSA_Protection_Level</a>
 </td>
 </tr>
 <tr>
 <td>HDCP</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-_copp_hdcp_protection_level">COPP_HDCP_Protection_Level</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_hdcp_protection_level">COPP_HDCP_Protection_Level</a>
 </td>
 </tr>
 </table>

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRunningTasks, GetRunningTasks method [Task Scheduler], GetRunningTasks method [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],GetRunningTasks method, ITaskService.GetRunningTasks, ITaskService::GetRunningTasks, taskschd.itaskservice_getrunningtasks, taskschd/ITaskService::GetRunningTasks
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskService.GetRunningTasks"
+f1_keywords:
+- taskschd/ITaskService.GetRunningTasks
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskService.GetRunningTasks
+- ITaskService.GetRunningTasks
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Gets a collection of running tasks.<div class="alert"><b>Note</b>  <b>ITaskSer
 
 ### -param flags [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-_task_enum_flags">TASK_ENUM_FLAGS</a> enumeration. Pass in 0 to return a collection of running tasks that are not hidden tasks.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-task_enum_flags">TASK_ENUM_FLAGS</a> enumeration. Pass in 0 to return a collection of running tasks that are not hidden tasks.
 
 
 ### -param ppRunningTasks [out]
@@ -147,7 +147,7 @@ The user has not connected to the service.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-_task_enum_flags">TASK_ENUM_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-task_enum_flags">TASK_ENUM_FLAGS</a>
 
 
 

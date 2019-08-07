@@ -8,10 +8,10 @@ tech.root: hid
 ms.assetid: 4bbf1699-1ba9-4569-97ac-156a91405586
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PKEYBOARD_TYPEMATIC_PARAMETERS, KEYBOARD_TYPEMATIC_PARAMETERS, KEYBOARD_TYPEMATIC_PARAMETERS structure [Human Input Devices], PKEYBOARD_TYPEMATIC_PARAMETERS, PKEYBOARD_TYPEMATIC_PARAMETERS structure pointer [Human Input Devices], hid.keyboard_typematic_parameters, kref_1ef2a956-3ef3-40fc-be6e-4ce8c97f2e52.xml, ntddkbd/KEYBOARD_TYPEMATIC_PARAMETERS, ntddkbd/PKEYBOARD_TYPEMATIC_PARAMETERS"
+ms.keywords: '*PKEYBOARD_TYPEMATIC_PARAMETERS, KEYBOARD_TYPEMATIC_PARAMETERS, KEYBOARD_TYPEMATIC_PARAMETERS structure [Human Input Devices], PKEYBOARD_TYPEMATIC_PARAMETERS, PKEYBOARD_TYPEMATIC_PARAMETERS structure pointer [Human Input Devices], hid.keyboard_typematic_parameters, kref_1ef2a956-3ef3-40fc-be6e-4ce8c97f2e52.xml, ntddkbd/KEYBOARD_TYPEMATIC_PARAMETERS, ntddkbd/PKEYBOARD_TYPEMATIC_PARAMETERS'
 ms.topic: struct
-f1_keywords: 
- - "ntddkbd/KEYBOARD_TYPEMATIC_PARAMETERS"
+f1_keywords:
+- ntddkbd/KEYBOARD_TYPEMATIC_PARAMETERS
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ntddkbd.h
+- ntddkbd.h
 api_name:
- - KEYBOARD_TYPEMATIC_PARAMETERS
+- KEYBOARD_TYPEMATIC_PARAMETERS
 product: Windows
 targetos: Windows
 req.typenames: KEYBOARD_TYPEMATIC_PARAMETERS, *PKEYBOARD_TYPEMATIC_PARAMETERS
@@ -112,7 +112,7 @@ This structure is used with <a href="https://docs.microsoft.com/windows/desktop/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_unit_id_parameter">KEYBOARD_UNIT_ID_PARAMETER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_unit_id_parameter">KEYBOARD_UNIT_ID_PARAMETER</a>
  
 
  

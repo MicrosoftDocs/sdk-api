@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetIdleWait method, IScheduledWorkItem.SetIdleWait, IScheduledWorkItem::SetIdleWait, SetIdleWait, SetIdleWait method [Task Scheduler], SetIdleWait method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setidlewait, mstask/IScheduledWorkItem::SetIdleWait, taskschd.ischeduledworkitem_setidlewait
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.SetIdleWait"
+f1_keywords:
+- mstask/IScheduledWorkItem.SetIdleWait
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.SetIdleWait
+- IScheduledWorkItem.SetIdleWait
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -88,7 +88,7 @@ The
 The idle time specified here is used in conjunction with <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/i">idle triggers</a> and <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/i">idle conditions</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-idle-conditions">Task Idle Conditions</a>. Idle triggers are event-based triggers that are not associated with a scheduled time. Idle conditions, in contrast, are associated with the scheduled start time for the task.
 
 You specify idle triggers by setting the TASK_TRIGGER_TYPE member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_task_trigger">TASK_TRIGGER</a> to TASK_EVENT_TRIGGER_ON_IDLE. The idle trigger is fired when the system becomes idle for the amount of time specified by <i>wIdleMinutes</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> to TASK_EVENT_TRIGGER_ON_IDLE. The idle trigger is fired when the system becomes idle for the amount of time specified by <i>wIdleMinutes</i>.
 
 You set idle conditions by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setflags">IScheduledWorkItem::SetFlags</a>. If the TASK_FLAG_START_ONLY_IF_IDLE flag is set, the work item runs at its scheduled time only if the system becomes idle for the amount of time specified by <i>wIdleMinutes</i>. The Task Scheduler service will wait up to the number of minutes specified in <i>wDeadlineMinutes</i> past the scheduled start time to see if the system becomes idle.

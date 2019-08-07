@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_WEB_SOCKET_ASYNC_RESULT, WINHTTP_WEB_SOCKET_ASYNC_RESULT structure [HTTP], http.http_web_socket_async_result, http.winhttp_web_socket_async_result, winhttp/WINHTTP_WEB_SOCKET_ASYNC_RESULT
 ms.topic: struct
-f1_keywords: 
- - "winhttp/WINHTTP_WEB_SOCKET_ASYNC_RESULT"
+f1_keywords:
+- winhttp/WINHTTP_WEB_SOCKET_ASYNC_RESULT
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winhttp.h
+- winhttp.h
 api_name:
- - WINHTTP_WEB_SOCKET_ASYNC_RESULT
+- WINHTTP_WEB_SOCKET_ASYNC_RESULT
 product: Windows
 targetos: Windows
 req.typenames: WINHTTP_WEB_SOCKET_ASYNC_RESULT
@@ -68,7 +68,7 @@ The result of a WebSocket operation.
 
 ### -field Operation
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-_winhttp_web_socket_operation">WINHTTP_WEB_SOCKET_OPERATION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-winhttp_web_socket_operation">WINHTTP_WEB_SOCKET_OPERATION</a></b>
 
 The type of WebSocket operation.
 
@@ -91,7 +91,7 @@ A <b>WINHTTP_WEB_SOCKET_ASYNC_RESULT</b> structure is passed to the completion c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-_winhttp_web_socket_operation">WINHTTP_WEB_SOCKET_OPERATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-winhttp_web_socket_operation">WINHTTP_WEB_SOCKET_OPERATION</a>
 
 
 

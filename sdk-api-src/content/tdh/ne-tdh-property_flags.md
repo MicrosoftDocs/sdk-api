@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROPERTY_FLAGS, PROPERTY_FLAGS enumeration [ETW], PropertyHasCustomSchema, PropertyHasTags, PropertyParamCount, PropertyParamFixedCount, PropertyParamFixedLength, PropertyParamLength, PropertyStruct, PropertyWBEMXmlFragment, etw.property_flags_enum, tdh.property_flags_enum, tdh/, tdh/PROPERTY_FLAGS, tdh/PropertyHasCustomSchema, tdh/PropertyHasTags, tdh/PropertyParamCount, tdh/PropertyParamFixedCount, tdh/PropertyParamFixedLength, tdh/PropertyParamLength, tdh/PropertyStruct, tdh/PropertyWBEMXmlFragment
 ms.topic: enum
-f1_keywords: 
- - "tdh/PROPERTY_FLAGS"
+f1_keywords:
+- tdh/PROPERTY_FLAGS
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tdh.h
+- Tdh.h
 api_name:
- - PROPERTY_FLAGS
+- PROPERTY_FLAGS
 product: Windows
 targetos: Windows
 req.typenames: PROPERTY_FLAGS
@@ -61,17 +61,17 @@ Defines if the property is contained in a structure or array.
 
 ### -field PropertyStruct
 
-The property information is contained in the <b>structType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_property_info">EVENT_PROPERTY_INFO</a> structure.
+The property information is contained in the <b>structType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a> structure.
 
 
 ### -field PropertyParamLength
 
-Use the <b>lengthPropertyIndex</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_property_info">EVENT_PROPERTY_INFO</a> structure to locate the property that contains the length value of the property. 
+Use the <b>lengthPropertyIndex</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a> structure to locate the property that contains the length value of the property. 
 
 
 ### -field PropertyParamCount
 
-Use the <b>countPropertyIndex</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_property_info">EVENT_PROPERTY_INFO</a> structure to locate the property that contains the size of the array. 
+Use the <b>countPropertyIndex</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a> structure to locate the property that contains the size of the array. 
 
 
 ### -field PropertyWBEMXmlFragment
@@ -81,12 +81,12 @@ Indicates that the MOF data is in XML format (the event data contains within its
 
 ### -field PropertyParamFixedLength
 
-Indicates that the length member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_property_info">EVENT_PROPERTY_INFO</a> structure contains a fixed length, e.g. as specified in the provider manifest with &lt;data length="12" … /&gt;. This flag will not be set for a variable-length field, e.g. &lt;data length="LengthField" … /&gt;, nor will this flag be set for fields where the length is not specified in the manifest, e.g. int32 or null-terminated string. As an example, if <i>PropertyParamLength</i> is unset, length is 0, and InType is <b>TDH_INTYPE_UNICODESTRING</b>, we must check the <i>PropertyParamFixedLength</i> flag to determine the length of the string. If <i>PropertyParamFixedLength</i> is set, the string length is fixed at 0. If <i>PropertyParamFixedLength</i> is unset, the string is null-terminated.
+Indicates that the length member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a> structure contains a fixed length, e.g. as specified in the provider manifest with &lt;data length="12" … /&gt;. This flag will not be set for a variable-length field, e.g. &lt;data length="LengthField" … /&gt;, nor will this flag be set for fields where the length is not specified in the manifest, e.g. int32 or null-terminated string. As an example, if <i>PropertyParamLength</i> is unset, length is 0, and InType is <b>TDH_INTYPE_UNICODESTRING</b>, we must check the <i>PropertyParamFixedLength</i> flag to determine the length of the string. If <i>PropertyParamFixedLength</i> is set, the string length is fixed at 0. If <i>PropertyParamFixedLength</i> is unset, the string is null-terminated.
 
 
 ### -field PropertyParamFixedCount
 
-Indicates that the count member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_property_info">EVENT_PROPERTY_INFO</a> structure contains a fixed array count, e.g. as specified in the provider manifest with &lt;data count="12" … /&gt;. This flag will not be set for a variable-length array, e.g. &lt;data count="ArrayCount" … /&gt;, nor will this flag be set for non-array fields. As an example, if <i>PropertyParamCount</i> is unset and count is 1, PropertyParamFixedCount flag must be checked to determine whether the field is a scalar value or a single-element array. If <i>PropertyParamFixedCount</i> is set, the field is a single-element array. If PropertyParamFixedCount is unset, the field is a scalar value, not an array.
+Indicates that the count member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a> structure contains a fixed array count, e.g. as specified in the provider manifest with &lt;data count="12" … /&gt;. This flag will not be set for a variable-length array, e.g. &lt;data count="ArrayCount" … /&gt;, nor will this flag be set for non-array fields. As an example, if <i>PropertyParamCount</i> is unset and count is 1, PropertyParamFixedCount flag must be checked to determine whether the field is a scalar value or a single-element array. If <i>PropertyParamFixedCount</i> is set, the field is a single-element array. If PropertyParamFixedCount is unset, the field is a scalar value, not an array.
 
 <div class="alert"><b>Caution</b>  This flag is new in the Windows 10 SDK. Earlier versions of the manifest compiler did not set this flag. For compatibility with manifests compiled with earlier versions of the compiler, event processing tools should only use this flag when determining whether to present a field with a fixed count of 1 as an array or a scalar.</div>
 <div> </div>
@@ -110,7 +110,7 @@ Indicates that the <b>Type</b> is described with a custom schema.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_property_info">EVENT_PROPERTY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a>
  
 
  

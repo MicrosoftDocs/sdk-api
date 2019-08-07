@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: 93629d1d-e5f2-4ae8-b585-17e39ae4986d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_TCP6TABLE_OWNER_PID, MIB_TCP6TABLE_OWNER_PID, MIB_TCP6TABLE_OWNER_PID structure [MIB], PMIB_TCP6TABLE_OWNER_PID, PMIB_TCP6TABLE_OWNER_PID structure pointer [MIB], iprtrmib/MIB_TCP6TABLE_OWNER_PID, iprtrmib/PMIB_TCP6TABLE_OWNER_PID, mib.mib_tcp6table_owner_pid, tcpmib/MIB_TCP6TABLE_OWNER_PID, tcpmib/PMIB_TCP6TABLE_OWNER_PID"
+ms.keywords: '*PMIB_TCP6TABLE_OWNER_PID, MIB_TCP6TABLE_OWNER_PID, MIB_TCP6TABLE_OWNER_PID structure [MIB], PMIB_TCP6TABLE_OWNER_PID, PMIB_TCP6TABLE_OWNER_PID structure pointer [MIB], iprtrmib/MIB_TCP6TABLE_OWNER_PID, iprtrmib/PMIB_TCP6TABLE_OWNER_PID, mib.mib_tcp6table_owner_pid, tcpmib/MIB_TCP6TABLE_OWNER_PID, tcpmib/PMIB_TCP6TABLE_OWNER_PID'
 ms.topic: struct
-f1_keywords: 
- - "tcpmib/MIB_TCP6TABLE_OWNER_PID"
+f1_keywords:
+- tcpmib/MIB_TCP6TABLE_OWNER_PID
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tcpmib.h
- - Iprtrmib.h
+- Tcpmib.h
+- Iprtrmib.h
 api_name:
- - MIB_TCP6TABLE_OWNER_PID
+- MIB_TCP6TABLE_OWNER_PID
 product: Windows
 targetos: Windows
 req.typenames: MIB_TCP6TABLE_OWNER_PID, *PMIB_TCP6TABLE_OWNER_PID
@@ -74,7 +74,7 @@ Array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/a
 
 
 
-The <b>MIB_TCP6TABLE_OWNER_PID</b> structure is returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a> with the <i>TableClass</i> parameter set to <b>TCP_TABLE_OWNER_PID_LISTENER</b>, <b>TCP_TABLE_OWNER_PID_CONNECTIONS</b>, or <b>TCP_TABLE_OWNER_PID_ALL</b> from the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcp_table_class">TCP_TABLE_CLASS</a> enumeration and the <i>ulAf</i> parameter set to <b>AF_INET6</b>.
+The <b>MIB_TCP6TABLE_OWNER_PID</b> structure is returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a> with the <i>TableClass</i> parameter set to <b>TCP_TABLE_OWNER_PID_LISTENER</b>, <b>TCP_TABLE_OWNER_PID_CONNECTIONS</b>, or <b>TCP_TABLE_OWNER_PID_ALL</b> from the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-tcp_table_class">TCP_TABLE_CLASS</a> enumeration and the <i>ulAf</i> parameter set to <b>AF_INET6</b>.
 
 The <b>MIB_TCP6TABLE_OWNER_PID</b> structure may contain padding for alignment between the <b>dwNumEntries</b> member and the first <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6row_owner_pid">MIB_TCP6ROW_OWNER_PID</a> array entry in the <b>table</b> member. Padding for alignment may also be present between the <b>MIB_TCP6ROW_OWNER_PID</b> array entries in the <b>table</b> member. Any access to a <b>MIB_TCP6ROW_OWNER_PID</b> array entry should assume  padding may exist. 
 

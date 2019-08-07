@@ -8,10 +8,10 @@ tech.root: VDS
 ms.assetid: 8fecb874-5c59-4f55-b528-040ff9209612
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVDS_SUB_SYSTEM_PROP, VDS_H_DEGRADED, VDS_H_FAILED, VDS_H_HEALTHY, VDS_H_UNKNOWN, VDS_SUB_SYSTEM_PROP, VDS_SUB_SYSTEM_PROP structure [VDS], base.vds_sub_system_prop, vds/_VDS_SUB_SYSTEM_PROP, vdshwprv/_VDS_SUB_SYSTEM_PROP"
+ms.keywords: '*PVDS_SUB_SYSTEM_PROP, VDS_H_DEGRADED, VDS_H_FAILED, VDS_H_HEALTHY, VDS_H_UNKNOWN, VDS_SUB_SYSTEM_PROP, VDS_SUB_SYSTEM_PROP structure [VDS], base.vds_sub_system_prop, vds/_VDS_SUB_SYSTEM_PROP, vdshwprv/_VDS_SUB_SYSTEM_PROP'
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_SUB_SYSTEM_PROP"
+f1_keywords:
+- vds/VDS_SUB_SYSTEM_PROP
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_SUB_SYSTEM_PROP
+- VDS_SUB_SYSTEM_PROP
 product: Windows
 targetos: Windows
 req.typenames: VDS_SUB_SYSTEM_PROP, *PVDS_SUB_SYSTEM_PROP
@@ -82,7 +82,7 @@ The subsystem identifier; a zero-terminated, human-readable string.
 ### -field ulFlags
 
 A bitmask of one or more   
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_sub_system_flag">VDS_SUB_SYSTEM_FLAG</a> enumeration values.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_sub_system_flag">VDS_SUB_SYSTEM_FLAG</a> enumeration values.
 
 
 ### -field ulStripeSizeFlags
@@ -95,13 +95,13 @@ The set of stripe sizes supported by a provider for striped volumes and/or LUNs.
 
 ### -field status
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_sub_system_status">VDS_SUB_SYSTEM_STATUS</a> enumeration value that specifies the status of the subsystem object.
+A <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_sub_system_status">VDS_SUB_SYSTEM_STATUS</a> enumeration value that specifies the status of the subsystem object.
 
 
 ### -field health
 
 A 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a> enumeration value that specifies the health state of the subsystem. The following are the valid values for this member.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> enumeration value that specifies the health state of the subsystem. The following are the valid values for this member.
 
 
 
@@ -164,11 +164,11 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_sub_system_status">VDS_SUB_SYSTEM_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_sub_system_status">VDS_SUB_SYSTEM_STATUS</a>
  
 
  

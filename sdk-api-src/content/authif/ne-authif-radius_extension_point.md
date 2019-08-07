@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RADIUS_EXTENSION_POINT, RADIUS_EXTENSION_POINT enumeration [Network Policy Server], _ias_radius_extension_point, authif/RADIUS_EXTENSION_POINT, authif/repAuthentication, authif/repAuthorization, ias.radius_extension_point, nps.IAS_radius_extension_point, repAuthentication, repAuthorization
 ms.topic: enum
-f1_keywords: 
- - "authif/RADIUS_EXTENSION_POINT"
+f1_keywords:
+- authif/RADIUS_EXTENSION_POINT
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AuthIf.h
+- AuthIf.h
 api_name:
- - RADIUS_EXTENSION_POINT
+- RADIUS_EXTENSION_POINT
 product: Windows
 targetos: Windows
 req.typenames: RADIUS_EXTENSION_POINT
@@ -78,7 +78,7 @@ Indicates that the
 
 
 The <b>repPoint</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a> structure is of type 
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a> structure is of type 
 <b>RADIUS_EXTENSION_POINT</b>.
 
 See 
@@ -104,7 +104,7 @@ See
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a>
 
 
 

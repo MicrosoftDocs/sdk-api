@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWriterStatusEx, GetWriterStatusEx method, GetWriterStatusEx method,IVssBackupComponentsEx3 interface, IVssBackupComponentsEx3 interface,GetWriterStatusEx method, IVssBackupComponentsEx3.GetWriterStatusEx, IVssBackupComponentsEx3::GetWriterStatusEx, S_OK, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_PARTIAL_FAILURE, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, VSS_E_WRITER_NOT_RESPONDING, VSS_E_WRITER_STATUS_NOT_AVAILABLE, base.ivssbackupcomponentsex3_getwriterstatusex, vsbackup/IVssBackupComponentsEx3::GetWriterStatusEx
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponentsEx3.GetWriterStatusEx"
+f1_keywords:
+- vsbackup/IVssBackupComponentsEx3.GetWriterStatusEx
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsBackup.h
+- VsBackup.h
 api_name:
- - IVssBackupComponentsEx3.GetWriterStatusEx
+- IVssBackupComponentsEx3.GetWriterStatusEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -84,7 +84,7 @@ The address of a caller-allocated variable that receives a string containing the
 
 ### -param pnStatus [out]
 
-The address of a caller-allocated variable that receives a <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_writer_state">VSS_WRITER_STATE</a> enumeration value. This parameter is required and cannot be <b>NULL</b>.
+The address of a caller-allocated variable that receives a <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_writer_state">VSS_WRITER_STATE</a> enumeration value. This parameter is required and cannot be <b>NULL</b>.
 
 
 ### -param phrFailureWriter [out]

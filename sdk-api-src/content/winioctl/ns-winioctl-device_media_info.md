@@ -8,10 +8,10 @@ tech.root: devio
 ms.assetid: 90367411-3008-4e37-9884-e586fc5162d9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO structure, MEDIA_CURRENTLY_MOUNTED, MEDIA_ERASEABLE, MEDIA_READ_ONLY, MEDIA_READ_WRITE, MEDIA_WRITE_ONCE, MEDIA_WRITE_PROTECTED, PDEVICE_MEDIA_INFO, PDEVICE_MEDIA_INFO structure pointer, _win32_device_media_info_str, base.device_media_info_str, winioctl/DEVICE_MEDIA_INFO, winioctl/PDEVICE_MEDIA_INFO"
+ms.keywords: '*PDEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO structure, MEDIA_CURRENTLY_MOUNTED, MEDIA_ERASEABLE, MEDIA_READ_ONLY, MEDIA_READ_WRITE, MEDIA_WRITE_ONCE, MEDIA_WRITE_PROTECTED, PDEVICE_MEDIA_INFO, PDEVICE_MEDIA_INFO structure pointer, _win32_device_media_info_str, base.device_media_info_str, winioctl/DEVICE_MEDIA_INFO, winioctl/PDEVICE_MEDIA_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/DEVICE_MEDIA_INFO"
+f1_keywords:
+- winioctl/DEVICE_MEDIA_INFO
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - DEVICE_MEDIA_INFO
+- DEVICE_MEDIA_INFO
 product: Windows
 targetos: Windows
 req.typenames: DEVICE_MEDIA_INFO, *PDEVICE_MEDIA_INFO
@@ -76,8 +76,8 @@ The number of cylinders on this disk.
 ### -field DeviceSpecific.DiskInfo.MediaType
 
 The media type. This member can be one of the values from the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_media_type">STORAGE_MEDIA_TYPE</a> or 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_media_type">MEDIA_TYPE</a> enumeration types.
+        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_media_type">STORAGE_MEDIA_TYPE</a> or 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-media_type">MEDIA_TYPE</a> enumeration types.
 
 
 ### -field DeviceSpecific.DiskInfo.TracksPerCylinder
@@ -143,8 +143,8 @@ The number of cylinders on this disk.
 ### -field DeviceSpecific.RemovableDiskInfo.MediaType
 
 The media type. This member can be one of the values from the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_media_type">STORAGE_MEDIA_TYPE</a> or 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_media_type">MEDIA_TYPE</a> enumeration types.
+        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_media_type">STORAGE_MEDIA_TYPE</a> or 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-media_type">MEDIA_TYPE</a> enumeration types.
 
 
 ### -field DeviceSpecific.RemovableDiskInfo.TracksPerCylinder
@@ -206,8 +206,8 @@ A structure that contains the following members.
 ### -field DeviceSpecific.TapeInfo.MediaType
 
 The media type. This member can be one of the values from the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_media_type">STORAGE_MEDIA_TYPE</a> or 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_media_type">MEDIA_TYPE</a> enumeration types.
+        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_media_type">STORAGE_MEDIA_TYPE</a> or 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-media_type">MEDIA_TYPE</a> enumeration types.
 
 
 ### -field DeviceSpecific.TapeInfo.MediaCharacteristics
@@ -247,7 +247,7 @@ The current block size, in bytes.
 ### -field DeviceSpecific.TapeInfo.BusType
 
 The type of bus to which the tape drive is connected. This members can be one of the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_bus_type">STORAGE_BUS_TYPE</a> enumeration values.
+        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_bus_type">STORAGE_BUS_TYPE</a> enumeration values.
 
 
 ### -field DeviceSpecific.TapeInfo.BusSpecificData
@@ -283,15 +283,15 @@ The SCSI-specific current operating density for read/write operations.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_media_type">MEDIA_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-media_type">MEDIA_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_bus_type">STORAGE_BUS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_bus_type">STORAGE_BUS_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_media_type">STORAGE_MEDIA_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_media_type">STORAGE_MEDIA_TYPE</a>
  
 
  

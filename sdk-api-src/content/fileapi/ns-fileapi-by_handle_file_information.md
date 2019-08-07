@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: a6fc5cf0-d3b0-4a76-af8b-6a13ab32157d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPBY_HANDLE_FILE_INFORMATION, *PBY_HANDLE_FILE_INFORMATION, BY_HANDLE_FILE_INFORMATION, BY_HANDLE_FILE_INFORMATION structure [Files], LPBY_HANDLE_FILE_INFORMATION, LPBY_HANDLE_FILE_INFORMATION structure pointer [Files], PBY_HANDLE_FILE_INFORMATION, PBY_HANDLE_FILE_INFORMATION structure pointer [Files], _win32_by_handle_file_information_str, base.by_handle_file_information_str, fileapi/BY_HANDLE_FILE_INFORMATION, fileapi/LPBY_HANDLE_FILE_INFORMATION, fileapi/PBY_HANDLE_FILE_INFORMATION, fs.by_handle_file_information_str, winbase/BY_HANDLE_FILE_INFORMATION, winbase/LPBY_HANDLE_FILE_INFORMATION, winbase/PBY_HANDLE_FILE_INFORMATION"
+ms.keywords: '*LPBY_HANDLE_FILE_INFORMATION, *PBY_HANDLE_FILE_INFORMATION, BY_HANDLE_FILE_INFORMATION, BY_HANDLE_FILE_INFORMATION structure [Files], LPBY_HANDLE_FILE_INFORMATION, LPBY_HANDLE_FILE_INFORMATION structure pointer [Files], PBY_HANDLE_FILE_INFORMATION, PBY_HANDLE_FILE_INFORMATION structure pointer [Files], _win32_by_handle_file_information_str, base.by_handle_file_information_str, fileapi/BY_HANDLE_FILE_INFORMATION, fileapi/LPBY_HANDLE_FILE_INFORMATION, fileapi/PBY_HANDLE_FILE_INFORMATION, fs.by_handle_file_information_str, winbase/BY_HANDLE_FILE_INFORMATION, winbase/LPBY_HANDLE_FILE_INFORMATION, winbase/PBY_HANDLE_FILE_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "fileapi/BY_HANDLE_FILE_INFORMATION"
+f1_keywords:
+- fileapi/BY_HANDLE_FILE_INFORMATION
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FileAPI.h
- - WinBase.h
+- FileAPI.h
+- WinBase.h
 api_name:
- - BY_HANDLE_FILE_INFORMATION
+- BY_HANDLE_FILE_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: BY_HANDLE_FILE_INFORMATION, *PBY_HANDLE_FILE_INFORMATION, *LPBY_HANDLE_FILE_INFORMATION
@@ -130,7 +130,7 @@ The ReFS file system, introduced with Windows Server 2012, includes 128-bit fil
        retrieve the 128-bit file identifier use the 
        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a> function 
        with <b>FileIdInfo</b> to retrieve the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_id_info">FILE_ID_INFO</a> structure. The 64-bit identifier in this 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_info">FILE_ID_INFO</a> structure. The 64-bit identifier in this 
        structure is not guaranteed to be unique on ReFS.
 
 
@@ -171,7 +171,7 @@ Not all file systems can record creation and last access time, and not all file 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_id_info">FILE_ID_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_info">FILE_ID_INFO</a>
 
 
 

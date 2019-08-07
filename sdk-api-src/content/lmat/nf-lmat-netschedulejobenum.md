@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetScheduleJobEnum, NetScheduleJobEnum function [Network Management], _win32_netschedulejobenum, lmat/NetScheduleJobEnum, netmgmt.netschedulejobenum
 ms.topic: function
-f1_keywords: 
- - "lmat/NetScheduleJobEnum"
+f1_keywords:
+- lmat/NetScheduleJobEnum
 req.header: lmat.h
 req.include-header: Lmat.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetScheduleJobEnum
+- NetScheduleJobEnum
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ A pointer to a constant string that specifies the DNS or NetBIOS name of the rem
 ### -param PointerToBuffer [out]
 
 A pointer to the buffer that receives the data. The return information is an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmat/ns-lmat-_at_enum">AT_ENUM</a> structures. The buffer is allocated by the system and must be freed using a single call to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmat/ns-lmat-at_enum">AT_ENUM</a> structures. The buffer is allocated by the system and must be freed using a single call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. Note that you must free the buffer even if the function fails with ERROR_MORE_DATA.
 
 
@@ -122,7 +122,7 @@ If the following registry value has the least significant bit set (for example, 
 <b>HKLM\System\CurrentControlSet\Control\Lsa\SubmitControl</b>
 
 Each entry returned contains an 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmat/ns-lmat-_at_enum">AT_ENUM</a> structure. The value of the <b>JobId</b> member can be used when calling functions that require a job identifier parameter, such as the 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmat/ns-lmat-at_enum">AT_ENUM</a> structure. The value of the <b>JobId</b> member can be used when calling functions that require a job identifier parameter, such as the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobdel">NetScheduleJobDel</a> function.
 
 
@@ -133,7 +133,7 @@ Each entry returned contains an
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmat/ns-lmat-_at_enum">AT_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmat/ns-lmat-at_enum">AT_ENUM</a>
 
 
 

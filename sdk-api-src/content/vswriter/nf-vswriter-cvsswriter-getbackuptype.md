@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],GetBackupType method, CVssWriter.GetBackupType, CVssWriter::GetBackupType, GetBackupType, GetBackupType method [VSS], GetBackupType method [VSS],CVssWriter interface, _win32_cvsswriter_getbackuptype, base.cvsswriter_getbackuptype, vswriter/CVssWriter::GetBackupType
 ms.topic: method
-f1_keywords: 
- - "vswriter/CVssWriter.GetBackupType"
+f1_keywords:
+- vswriter/CVssWriter.GetBackupType
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - CVssWriter.GetBackupType
+- CVssWriter.GetBackupType
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ The
 
 
 This method returns the backup type as a 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> enumeration value. See 
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> enumeration value. See 
 <b>VSS_BACKUP_TYPE</b> for a description of these values.
 
 
@@ -102,7 +102,7 @@ This method returns the backup type as a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a>
  
 
  

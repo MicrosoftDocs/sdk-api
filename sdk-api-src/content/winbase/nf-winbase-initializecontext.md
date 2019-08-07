@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitializeContext, InitializeContext function, base.initializecontext, winbase/InitializeContext
 ms.topic: function
-f1_keywords: 
- - "winbase/InitializeContext"
+f1_keywords:
+- winbase/InitializeContext
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-xstate-l2-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-xstate-l2-1-0.dll
+- KernelBase.dll
 api_name:
- - InitializeContext
+- InitializeContext
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure inside a buffer 
+Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure inside a buffer 
     with the necessary size and alignment.
 
 
@@ -65,7 +65,7 @@ Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-w
 ### -param Buffer [out, optional]
 
 A pointer to a buffer within which to initialize a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure. This parameter can be 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure. This parameter can be 
        <b>NULL</b> to determine the buffer size required to hold a context record with the 
        specified <i>ContextFlags</i>.
 
@@ -83,11 +83,11 @@ A value indicating which portions of the <i>Context</i> structure should be init
 ### -param Context [out, optional]
 
 A pointer to a variable which receives the address of the initialized 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure within the 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure within the 
       <i>Buffer</i>.
       
 
-<div class="alert"><b>Note</b>  Due to alignment requirements of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structures, 
+<div class="alert"><b>Note</b>  Due to alignment requirements of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structures, 
        the value returned in <i>Context</i> may not be at the beginning of the supplied 
        buffer.</div>
 <div> </div>
@@ -96,7 +96,7 @@ A pointer to a variable which receives the address of the initialized
 
 On input, specifies the length of the buffer pointed to by <i>Buffer</i>, in bytes. If 
       the buffer is not large enough to contain the specified portions of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a>, the function fails, 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>, the function fails, 
       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
       <b>ERROR_INSUFFICIENT_BUFFER</b>, and <i>ContextLength</i> is set to the 
       required size of the buffer.  If the function fails with an error other than 
@@ -120,7 +120,7 @@ This function returns <b>TRUE</b> if successful, otherwise
 
 
 <i>InitializeContext</i> can be used to initialize a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure within a buffer with the required size and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure within a buffer with the required size and 
     alignment characteristics.  This routine is required if the <b>CONTEXT_XSTATE</b><i>ContextFlag</i> is specified since the required context size and alignment may change 
     depending on which processor features are enabled on the system.
 
@@ -136,7 +136,7 @@ First, call this function with the
     <i>Context</i>-&gt;<i>ContextFlags</i> if they are not supported by the 
     system. Applications may subsequently remove, but must never add, bits from the 
     <i>ContextFlags</i> member of 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>.
 
 
 <b>Windows 7 with SP1 and Windows Server 2008 R2 with SP1:  </b>The <a href="https://docs.microsoft.com/windows/desktop/Debug/avx-support-portal">AVX API</a> is first implemented on 
@@ -159,7 +159,7 @@ First, call this function with the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
 
 

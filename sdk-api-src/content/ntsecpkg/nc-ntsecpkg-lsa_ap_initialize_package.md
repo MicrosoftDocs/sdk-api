@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LSA_AP_INITIALIZE_PACKAGE, LSA_AP_INITIALIZE_PACKAGE callback, LsaApInitializePackage, LsaApInitializePackage callback function [Security], _lsa_lsaapinitializepackage, ntsecpkg/LsaApInitializePackage, security.lsaapinitializepackage
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/LsaApInitializePackage"
+f1_keywords:
+- ntsecpkg/LsaApInitializePackage
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - LsaApInitializePackage
+- LsaApInitializePackage
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ The identifier the LSA has assigned to the authentication package.
 ### -param LsaDispatchTable [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_dispatch_table">LSA_DISPATCH_TABLE</a> structure that contains the addresses of LSA functions that can be called by authentication packages. Your custom authentication package should save this information if it requires any of the functions described in 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_dispatch_table">LSA_DISPATCH_TABLE</a> structure that contains the addresses of LSA functions that can be called by authentication packages. Your custom authentication package should save this information if it requires any of the functions described in 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">LSA Functions Called by Authentication Packages</a>.
 
 
@@ -83,7 +83,7 @@ This parameter is not used; it is <b>NULL</b>.
 
 ### -param *AuthenticationPackageName [out]
 
-Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_string">LSA_STRING</a> structure that receives the name of the authentication package. The authentication package is responsible for allocating the structure and the buffer that contains this string (using the 
+Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_string">LSA_STRING</a> structure that receives the name of the authentication package. The authentication package is responsible for allocating the structure and the buffer that contains this string (using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap">AllocateLsaHeap</a> function) and returning the address of the structure in this parameter. The buffer will be freed by the LSA when it is no longer needed.
 
 

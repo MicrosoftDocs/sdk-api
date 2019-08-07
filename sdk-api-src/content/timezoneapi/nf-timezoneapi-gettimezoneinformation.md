@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTimeZoneInformation, GetTimeZoneInformation function, _win32_gettimezoneinformation, base.gettimezoneinformation, timezoneapi/GetTimeZoneInformation
 ms.topic: function
-f1_keywords: 
- - "timezoneapi/GetTimeZoneInformation"
+f1_keywords:
+- timezoneapi/GetTimeZoneInformation
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-SysInfo-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-TimeZone-l1-1-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-SysInfo-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-TimeZone-l1-1-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - GetTimeZoneInformation
+- GetTimeZoneInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ To support boundaries for daylight saving time that change from year to year, us
 ### -param lpTimeZoneInformation [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information">TIME_ZONE_INFORMATION</a> structure to receive the current settings.
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-time_zone_information">TIME_ZONE_INFORMATION</a> structure to receive the current settings.
 
 
 ## -returns
@@ -104,7 +104,7 @@ Daylight saving time is not used in the current time zone, because there are no 
 </td>
 <td width="60%">
 The system is operating in the range covered by the <b>StandardDate</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information">TIME_ZONE_INFORMATION</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-time_zone_information">TIME_ZONE_INFORMATION</a> structure. 
 
 
 
@@ -121,7 +121,7 @@ The system is operating in the range covered by the <b>StandardDate</b> member o
 </td>
 <td width="60%">
 The system is operating in the range covered by the <b>DaylightDate</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information">TIME_ZONE_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-time_zone_information">TIME_ZONE_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ UTC = local time + bias
 
 The bias is the difference, in minutes, between UTC time and local time.
 
- The <b>StandardName</b> and <b>DaylightName</b> members  of the resultant <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information">TIME_ZONE_INFORMATION</a>  structure are localized according to the current user default UI language.
+ The <b>StandardName</b> and <b>DaylightName</b> members  of the resultant <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-time_zone_information">TIME_ZONE_INFORMATION</a>  structure are localized according to the current user default UI language.
 
 
 #### Examples
@@ -176,7 +176,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/api/time
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information">TIME_ZONE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-time_zone_information">TIME_ZONE_INFORMATION</a>
 
 
 

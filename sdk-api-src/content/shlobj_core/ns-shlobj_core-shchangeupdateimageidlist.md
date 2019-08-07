@@ -8,10 +8,10 @@ tech.root: shell
 ms.assetid: 0aa99a6b-39c2-41f3-bd9d-30b86aa4da2f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSHChangeUpdateImageIDList, GIL_NOTFILENAME, GIL_SIMULATEDOC, LPSHChangeUpdateImageIDList, LPSHChangeUpdateImageIDList structure pointer [Windows Shell], SHChangeUpdateImageIDList, SHChangeUpdateImageIDList structure [Windows Shell], _SHChangeUpdateImageIDList, _shell_SHChangeUpdateImageIDList, shell.SHChangeUpdateImageIDList, shlobj_core/LPSHChangeUpdateImageIDList, shlobj_core/SHChangeUpdateImageIDList"
+ms.keywords: '*LPSHChangeUpdateImageIDList, GIL_NOTFILENAME, GIL_SIMULATEDOC, LPSHChangeUpdateImageIDList, LPSHChangeUpdateImageIDList structure pointer [Windows Shell], SHChangeUpdateImageIDList, SHChangeUpdateImageIDList structure [Windows Shell], _SHChangeUpdateImageIDList, _shell_SHChangeUpdateImageIDList, shell.SHChangeUpdateImageIDList, shlobj_core/LPSHChangeUpdateImageIDList, shlobj_core/SHChangeUpdateImageIDList'
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/SHChangeUpdateImageIDList"
+f1_keywords:
+- shlobj_core/SHChangeUpdateImageIDList
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - SHChangeUpdateImageIDList
+- SHChangeUpdateImageIDList
 product: Windows
 targetos: Windows
 req.typenames: SHChangeUpdateImageIDList, *LPSHChangeUpdateImageIDList
@@ -129,7 +129,7 @@ The identifier of the process sending the SHCNE_UPDATEIMAGE notification.
 
 
 
-This example demonstrates the use of <b>SHChangeUpdateImageIDList</b> and <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangedwordasidlist">SHChangeDWORDAsIDList</a> by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a> to mimic the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shupdateimagea">SHUpdateImage</a> function.
+This example demonstrates the use of <b>SHChangeUpdateImageIDList</b> and <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangedwordasidlist">SHChangeDWORDAsIDList</a> by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a> to mimic the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shupdateimagea">SHUpdateImage</a> function.
 
                 
 
@@ -193,7 +193,7 @@ void MyUpdateImage(LPCWSTR pszHashItem, int iIndex, UINT uFlags, int iImageIndex
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangedwordasidlist">SHChangeDWORDAsIDList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangedwordasidlist">SHChangeDWORDAsIDList</a>
  
 
  

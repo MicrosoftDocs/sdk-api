@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFileTypes method, IFileDialog.SetFileTypes, IFileDialog::SetFileTypes, SetFileTypes, SetFileTypes method [Windows Shell], SetFileTypes method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetFileTypes, shell_IFileDialog_SetFileTypes, shobjidl_core/IFileDialog::SetFileTypes
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialog.SetFileTypes"
+f1_keywords:
+- shobjidl_core/IFileDialog.SetFileTypes
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialog.SetFileTypes
+- IFileDialog.SetFileTypes
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,9 +68,9 @@ The number of elements in the array specified by <i>rgFilterSpec</i>.
 
 ### -param rgFilterSpec [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_comdlg_filterspec">COMDLG_FILTERSPEC</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-comdlg_filterspec">COMDLG_FILTERSPEC</a>*</b>
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_comdlg_filterspec">COMDLG_FILTERSPEC</a> structures, each representing a file type.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-comdlg_filterspec">COMDLG_FILTERSPEC</a> structures, each representing a file type.
 
 
 ## -returns
@@ -137,7 +137,7 @@ This method must be called before the dialog is shown and can only be called onc
 
 #### Examples
 
-The following code example demonstrates the use of the array of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_comdlg_filterspec">COMDLG_FILTERSPEC</a> structures in the context of this method. The example array consists of three <b>COMDLG_FILTERSPEC</b> structures. The first declares two patterns for the dialog filter, the second declares a single pattern, and the last shows files of all types. The variables szJPG, szBMP, and szAll are assumed to be previously declared strings that provide a friendly name for each filter.
+The following code example demonstrates the use of the array of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-comdlg_filterspec">COMDLG_FILTERSPEC</a> structures in the context of this method. The example array consists of three <b>COMDLG_FILTERSPEC</b> structures. The first declares two patterns for the dialog filter, the second declares a single pattern, and the last shows files of all types. The variables szJPG, szBMP, and szAll are assumed to be previously declared strings that provide a friendly name for each filter.
 
 
 ```cpp

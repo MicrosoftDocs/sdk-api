@@ -8,10 +8,10 @@ tech.root: shell
 ms.assetid: f51d22c5-ea3e-4040-9761-7555f8f7e0aa
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSHCREATEPROCESSINFOW, PSHCREATEPROCESSINFOW, PSHCREATEPROCESSINFOW structure pointer [Windows Shell], SEE_MASK_CLASSKEY, SEE_MASK_CLASSNAME, SEE_MASK_CONNECTNETDRV, SEE_MASK_DOENVSUBST, SEE_MASK_FLAG_DDEWAIT, SEE_MASK_FLAG_NO_UI, SEE_MASK_HMONITOR, SEE_MASK_NOCLOSEPROCESS, SEE_MASK_NO_CONSOLE, SEE_MASK_UNICODE, SHCREATEPROCESSINFOW, SHCREATEPROCESSINFOW structure [Windows Shell], _win32_SHCREATEPROCESSINFOW_str, shell.SHCREATEPROCESSINFOW_str, shellapi/PSHCREATEPROCESSINFOW, shellapi/SHCREATEPROCESSINFOW"
+ms.keywords: '*PSHCREATEPROCESSINFOW, PSHCREATEPROCESSINFOW, PSHCREATEPROCESSINFOW structure pointer [Windows Shell], SEE_MASK_CLASSKEY, SEE_MASK_CLASSNAME, SEE_MASK_CONNECTNETDRV, SEE_MASK_DOENVSUBST, SEE_MASK_FLAG_DDEWAIT, SEE_MASK_FLAG_NO_UI, SEE_MASK_HMONITOR, SEE_MASK_NOCLOSEPROCESS, SEE_MASK_NO_CONSOLE, SEE_MASK_UNICODE, SHCREATEPROCESSINFOW, SHCREATEPROCESSINFOW structure [Windows Shell], _win32_SHCREATEPROCESSINFOW_str, shell.SHCREATEPROCESSINFOW_str, shellapi/PSHCREATEPROCESSINFOW, shellapi/SHCREATEPROCESSINFOW'
 ms.topic: struct
-f1_keywords: 
- - "shellapi/SHCREATEPROCESSINFOW"
+f1_keywords:
+- shellapi/SHCREATEPROCESSINFOW
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shellapi.h
+- Shellapi.h
 api_name:
- - SHCREATEPROCESSINFOW
+- SHCREATEPROCESSINFOW
 product: Windows
 targetos: Windows
 req.typenames: SHCREATEPROCESSINFOW, *PSHCREATEPROCESSINFOW
@@ -244,7 +244,7 @@ In this case, the application receives three parameters: <i>An, example:, and "q
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shellexecuteinfoa">SHELLEXECUTEINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfoa">SHELLEXECUTEINFO</a>
  
 
  

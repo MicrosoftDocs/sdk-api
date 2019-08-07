@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RADIUS_CODE, RADIUS_CODE enumeration [Network Policy Server], _ias_radius_code, authif/RADIUS_CODE, authif/rcAccessAccept, authif/rcAccessChallenge, authif/rcAccessReject, authif/rcAccessRequest, authif/rcAccountingRequest, authif/rcAccountingResponse, authif/rcDiscard, authif/rcUnknown, ias.radius_code, nps.IAS_radius_code, rcAccessAccept, rcAccessChallenge, rcAccessReject, rcAccessRequest, rcAccountingRequest, rcAccountingResponse, rcDiscard, rcUnknown
 ms.topic: enum
-f1_keywords: 
- - "authif/RADIUS_CODE"
+f1_keywords:
+- authif/RADIUS_CODE
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AuthIf.h
+- AuthIf.h
 api_name:
- - RADIUS_CODE
+- RADIUS_CODE
 product: Windows
 targetos: Windows
 req.typenames: RADIUS_CODE
@@ -127,7 +127,7 @@ The packet was discarded.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a>
 
 
 

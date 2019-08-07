@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: e309f782-bd0b-4703-b58c-e202fd87b904
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_DESTROYPALETTEDATA, DD_DESTROYPALETTEDATA, DD_DESTROYPALETTEDATA structure [Display Devices], ddrawint/DD_DESTROYPALETTEDATA, ddstrcts_850bb816-b0df-4877-8903-c85b15074e30.xml, display.dd_destroypalettedata"
+ms.keywords: '*PDD_DESTROYPALETTEDATA, DD_DESTROYPALETTEDATA, DD_DESTROYPALETTEDATA structure [Display Devices], ddrawint/DD_DESTROYPALETTEDATA, ddstrcts_850bb816-b0df-4877-8903-c85b15074e30.xml, display.dd_destroypalettedata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_DESTROYPALETTEDATA"
+f1_keywords:
+- ddrawint/DD_DESTROYPALETTEDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_DESTROYPALETTEDATA
+- DD_DESTROYPALETTEDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_DESTROYPALETTEDATA, DD_DESTROYPALETTEDATA"
+req.typenames: '*PDD_DESTROYPALETTEDATA, DD_DESTROYPALETTEDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,7 +61,7 @@ The DD_DESTROYPALETTEDATA structure contains information necessary to destroy th
 
 ### -field lpDD
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 
 ### -field lpDDPalette

@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 2b7ef953-9422-4dcf-b293-a78a06bb080e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCTL_VERIFY_USAGE_STATUS, CTL_VERIFY_USAGE_STATUS, CTL_VERIFY_USAGE_STATUS structure [Security], PCTL_VERIFY_USAGE_STATUS, PCTL_VERIFY_USAGE_STATUS structure pointer [Security], _crypto2_ctl_verify_usage_status, security.ctl_verify_usage_status, wincrypt/CTL_VERIFY_USAGE_STATUS, wincrypt/PCTL_VERIFY_USAGE_STATUS"
+ms.keywords: '*PCTL_VERIFY_USAGE_STATUS, CTL_VERIFY_USAGE_STATUS, CTL_VERIFY_USAGE_STATUS structure [Security], PCTL_VERIFY_USAGE_STATUS, PCTL_VERIFY_USAGE_STATUS structure pointer [Security], _crypto2_ctl_verify_usage_status, security.ctl_verify_usage_status, wincrypt/CTL_VERIFY_USAGE_STATUS, wincrypt/PCTL_VERIFY_USAGE_STATUS'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CTL_VERIFY_USAGE_STATUS"
+f1_keywords:
+- wincrypt/CTL_VERIFY_USAGE_STATUS
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CTL_VERIFY_USAGE_STATUS
+- CTL_VERIFY_USAGE_STATUS
 product: Windows
 targetos: Windows
 req.typenames: CTL_VERIFY_USAGE_STATUS, *PCTL_VERIFY_USAGE_STATUS
@@ -120,7 +120,7 @@ The members <b>dwError</b>, <b>dwFlags</b>, <b>dwCtlEntryIndex</b>, and <b>dwSig
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
 
 

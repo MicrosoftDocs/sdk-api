@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventDescZero, EventDescZero function [ETW], base.eventdesczero, etw.eventdesczero, evntprov/EventDescZero
 ms.topic: function
-f1_keywords: 
- - "evntprov/EventDescZero"
+f1_keywords:
+- evntprov/EventDescZero
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evntprov.h
+- Evntprov.h
 api_name:
- - EventDescZero
+- EventDescZero
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Initializes an event descriptor to zero.
 
 ### -param EventDescriptor [out]
 
-The event descriptor. See <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a>.
+The event descriptor. See <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
 
 
 ## -returns
@@ -77,7 +77,7 @@ This function does not return a value.
 
 
 
-This is a convenience macro for initializing the memory of the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a> structure to zero.
+This is a convenience macro for initializing the memory of the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure to zero.
 
 
 
@@ -87,7 +87,7 @@ This is a convenience macro for initializing the memory of the <a href="https://
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
  
 
  

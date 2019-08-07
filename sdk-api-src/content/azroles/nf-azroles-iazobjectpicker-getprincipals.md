@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrincipals, GetPrincipals method [Security], GetPrincipals method [Security],IAzObjectPicker interface, IAzObjectPicker interface [Security],GetPrincipals method, IAzObjectPicker.GetPrincipals, IAzObjectPicker::GetPrincipals, azroles/IAzObjectPicker::GetPrincipals, security.iazobjectpicker_getprincipals_method
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzObjectPicker.GetPrincipals"
+f1_keywords:
+- azroles/IAzObjectPicker.GetPrincipals
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.h
+- Azroles.h
 api_name:
- - IAzObjectPicker.GetPrincipals
+- IAzObjectPicker.GetPrincipals
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,9 +71,9 @@ The display title of the dialog box.
 
 ### -param pvSidTypes [out]
 
-A pointer to an array of elements of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SID_NAME_USE</a> enumeration that specify the types of the SIDs that correspond to the principals chosen by the user.
+A pointer to an array of elements of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a> enumeration that specify the types of the SIDs that correspond to the principals chosen by the user.
 
-This is a variant that contains either a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> or the JScript <a href="https://docs.microsoft.com/scripting/javascript/reference/array-object-javascript">Array</a> object. Each element of the array holds a <b>VT_I4</b> value that specifies an element of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SID_NAME_USE</a> enumeration.
+This is a variant that contains either a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> or the JScript <a href="https://docs.microsoft.com/scripting/javascript/reference/array-object-javascript">Array</a> object. Each element of the array holds a <b>VT_I4</b> value that specifies an element of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a> enumeration.
 
 
 ### -param pvNames [out]

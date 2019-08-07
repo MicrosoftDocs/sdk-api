@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTHelperCertIsSelfSigned, WTHelperCertIsSelfSigned function [Security], security.wthelpercertisselfsigned, wintrust/WTHelperCertIsSelfSigned
 ms.topic: function
-f1_keywords: 
- - "wintrust/WTHelperCertIsSelfSigned"
+f1_keywords:
+- wintrust/WTHelperCertIsSelfSigned
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - WTHelperCertIsSelfSigned
+- WTHelperCertIsSelfSigned
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ A <b>DWORD</b> value that specifies the encoding types of the certificate to che
 
 ### -param pCert [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure that contains information about  the certificate to check.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure that contains information about  the certificate to check.
 
 
 ## -returns

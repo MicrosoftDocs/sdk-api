@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: 9adf92b0-1268-48c1-91e4-d05ad696ff06
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVICE_TYPE_INFO_ABSW, *PSERVICE_TYPE_INFO_ABSW, SERVICE_TYPE_INFO_ABS, SERVICE_TYPE_INFO_ABS structure [Winsock], SERVICE_TYPE_INFO_ABSA, SERVICE_TYPE_INFO_ABSW, _win32_service_type_info_abs_2, nspapi/SERVICE_TYPE_INFO_ABS, nspapi/SERVICE_TYPE_INFO_ABSA, nspapi/SERVICE_TYPE_INFO_ABSW, winsock.service_type_info_abs_2"
+ms.keywords: '*LPSERVICE_TYPE_INFO_ABSW, *PSERVICE_TYPE_INFO_ABSW, SERVICE_TYPE_INFO_ABS, SERVICE_TYPE_INFO_ABS structure [Winsock], SERVICE_TYPE_INFO_ABSA, SERVICE_TYPE_INFO_ABSW, _win32_service_type_info_abs_2, nspapi/SERVICE_TYPE_INFO_ABS, nspapi/SERVICE_TYPE_INFO_ABSA, nspapi/SERVICE_TYPE_INFO_ABSW, winsock.service_type_info_abs_2'
 ms.topic: struct
-f1_keywords: 
- - "nspapi/SERVICE_TYPE_INFO_ABS"
+f1_keywords:
+- nspapi/SERVICE_TYPE_INFO_ABS
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Nspapi.h
+- Nspapi.h
 api_name:
- - SERVICE_TYPE_INFO_ABS
- - SERVICE_TYPE_INFO_ABSA
- - SERVICE_TYPE_INFO_ABSW
+- SERVICE_TYPE_INFO_ABS
+- SERVICE_TYPE_INFO_ABSA
+- SERVICE_TYPE_INFO_ABSW
 product: Windows
 targetos: Windows
 req.typenames: SERVICE_TYPE_INFO_ABSW, *PSERVICE_TYPE_INFO_ABSW, *LPSERVICE_TYPE_INFO_ABSW
@@ -72,13 +72,13 @@ Pointer to a zero-terminated string that is the name of the network service type
 ### -field dwValueCount
 
 Number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structures in the <b>Values</b> member array that follows <b>dwValueCount</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structures in the <b>Values</b> member array that follows <b>dwValueCount</b>.
 
 
 ### -field Values
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structures. 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structures. 
 
 
 
@@ -86,7 +86,7 @@ Array of
 Each of these structures contains information about a service type value that the operating system or network service may need when an instance of this network service type is registered with a namespace.
 
 The information in these structures may be specific to a namespace. For example, if a network service uses the SAP namespace, but does not have a <b>GUID</b> that contains the SAP identifier (SAPID), it defines the SAPID in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structure.
 
 
 ## -remarks
@@ -96,9 +96,9 @@ The information in these structures may be specific to a namespace. For example,
 When you use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a> function to add a network service type to a namespace, the 
 <b>SERVICE_TYPE_INFO_ABS</b> structure is passed as the <b>ServiceSpecificInfo</b> BLOB member of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a> structure. Although the <b>ServiceSpecificInfo</b> member generally should not contain pointers, an exception is made in the case of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> structure. Although the <b>ServiceSpecificInfo</b> member generally should not contain pointers, an exception is made in the case of the 
 <b>SERVICE_TYPE_INFO_ABS</b> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structures.
 
 
 
@@ -108,11 +108,11 @@ When you use the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a>
 
 
 

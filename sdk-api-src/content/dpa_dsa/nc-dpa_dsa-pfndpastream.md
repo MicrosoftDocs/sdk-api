@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFNDPASTREAM, PFNDPASTREAM callback, PFNDPASTREAM callback function [Windows Controls], _win32_PFNDPASTREAM_Function, _win32_PFNDPASTREAM_Function_cpp, controls.PFNDPASTREAM, controls._win32_PFNDPASTREAM_Function, dpa_dsa/PFNDPASTREAM
 ms.topic: callback
-f1_keywords: 
- - "dpa_dsa/PFNDPASTREAM"
+f1_keywords:
+- dpa_dsa/PFNDPASTREAM
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - dpa_dsa.h
+- dpa_dsa.h
 api_name:
- - PFNDPASTREAM
+- PFNDPASTREAM
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Defines the prototype for the callback function used by <a href="https://docs.mi
 
 Type: <b>DPASTREAMINFO*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/ns-dpa_dsa-_dpastreaminfo">DPASTREAMINFO</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/ns-dpa_dsa-dpastreaminfo">DPASTREAMINFO</a> structure.
 
 
 ### -param *pstream [in]

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_VPCAPS, DXVAHD_VPCAPS structure [Media Foundation], dxvahd/DXVAHD_VPCAPS, mf.dxvahd_vpcaps
 ms.topic: struct
-f1_keywords: 
- - "dxvahd/DXVAHD_VPCAPS"
+f1_keywords:
+- dxvahd/DXVAHD_VPCAPS
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - DXVAHD_VPCAPS
+- DXVAHD_VPCAPS
 product: Windows
 targetos: Windows
 req.typenames: DXVAHD_VPCAPS
@@ -76,12 +76,12 @@ The number of future reference frames required to perform the optimal video proc
 
 ### -field ProcessorCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_processor_caps">DXVAHD_PROCESSOR_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_processor_caps">DXVAHD_PROCESSOR_CAPS</a> enumeration.
 
 
 ### -field ITelecineCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_itelecine_caps">DXVAHD_ITELECINE_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_itelecine_caps">DXVAHD_ITELECINE_CAPS</a> enumeration.
 
 
 ### -field CustomRateCount

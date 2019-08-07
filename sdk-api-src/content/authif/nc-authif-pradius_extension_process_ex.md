@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRADIUS_EXTENSION_PROCESS_EX, PRADIUS_EXTENSION_PROCESS_EX callback, PRADIUS_EXTENSION_PROCESS_EX callback function [Network Policy Server], RadiusExtensionProcessEx, _ias_radiusextensionprocessex, authif/PRADIUS_EXTENSION_PROCESS_EX, ias.radiusextensionprocessex, nps.IAS_radiusextensionprocessex
 ms.topic: callback
-f1_keywords: 
- - "authif/PRADIUS_EXTENSION_PROCESS_EX"
+f1_keywords:
+- authif/PRADIUS_EXTENSION_PROCESS_EX
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Authif.h
+- Authif.h
 api_name:
- - PRADIUS_EXTENSION_PROCESS_EX
+- PRADIUS_EXTENSION_PROCESS_EX
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ ms.custom: 19H1
 ### -param *pInAttrs [in]
 
 Pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute">attributes</a> from the request. The array is terminated by an attribute with <b>dwAttrType</b> set to <b>ratMinimum</b>. These attributes should be treated as read-only; they should not be modified by 
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">attributes</a> from the request. The array is terminated by an attribute with <b>dwAttrType</b> set to <b>ratMinimum</b>. These attributes should be treated as read-only; they should not be modified by 
 <i>RadiusExtensionProcessEx</i>. Also, these attributes should not be referenced in any way after 
 <i>RadiusExtensionProcessEx</i> returns.
 
@@ -73,7 +73,7 @@ Pointer to an array of
 ### -param *pOutAttrs [out]
 
 Pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute">attributes</a> provided by the NPS Extension DLL. The array is terminated by an attribute with <b>dwAttrType</b> set to <b>ratMinimum</b>. NPS  adds these attributes to the authentication response.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">attributes</a> provided by the NPS Extension DLL. The array is terminated by an attribute with <b>dwAttrType</b> set to <b>ratMinimum</b>. NPS  adds these attributes to the authentication response.
 
 The NPS Extension DLL allocates the memory for the array of attributes. NPS calls 
 <a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_free_attributes">RadiusExtensionFreeAttributes</a> to free the memory occupied by the array of attributes.
@@ -82,7 +82,7 @@ The NPS Extension DLL allocates the memory for the array of attributes. NPS call
 ### -param pfAction [out]
 
 Pointer to a value of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_action">RADIUS_ACTION</a>, initially set to <b>raContinue</b>. This parameter specifies the action that NPS should take in response to an Access-Request.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_action">RADIUS_ACTION</a>, initially set to <b>raContinue</b>. This parameter specifies the action that NPS should take in response to an Access-Request.
 
 
 ## -returns
@@ -134,15 +134,15 @@ For more information on the use of this function, see <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_action">RADIUS_ACTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_action">RADIUS_ACTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute">RADIUS_ATTRIBUTE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_attribute_type">RADIUS_ATTRIBUTE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_attribute_type">RADIUS_ATTRIBUTE_TYPE</a>
 
 
 

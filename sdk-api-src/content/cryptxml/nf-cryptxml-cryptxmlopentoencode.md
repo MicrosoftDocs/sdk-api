@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CRYPT_XML_FLAG_NO_SERIALIZE, CryptXmlOpenToEncode, CryptXmlOpenToEncode function [Security], cryptxml/CryptXmlOpenToEncode, security.cryptxmlopentoencode
 ms.topic: function
-f1_keywords: 
- - "cryptxml/CryptXmlOpenToEncode"
+f1_keywords:
+- cryptxml/CryptXmlOpenToEncode
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Cryptxml.lib
 req.dll: Cryptxml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cryptxml.dll
+- Cryptxml.dll
 api_name:
- - CryptXmlOpenToEncode
+- CryptXmlOpenToEncode
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-If <b>CryptXmlOpenToEncode</b> function opens an XML digital signature to encode and returns a handle of the opened <b>Signature</b> element. The handle encapsulates a document context with a single <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structure and remains open until the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlclose">CryptXmlClose</a> function is called.
+If <b>CryptXmlOpenToEncode</b> function opens an XML digital signature to encode and returns a handle of the opened <b>Signature</b> element. The handle encapsulates a document context with a single <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structure and remains open until the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlclose">CryptXmlClose</a> function is called.
 
 
 ## -parameters
@@ -113,7 +113,7 @@ If this parameter is <b>NULL</b>, then a new GUID is generated. If this paramete
 
 ### -param rgProperty [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_property">CRYPT_XML_PROPERTY</a> structures that specify additional properties.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_property">CRYPT_XML_PROPERTY</a> structures that specify additional properties.
 
 
 ### -param cProperty [in]
@@ -123,7 +123,7 @@ The number of elements in the array pointed to by the <i>rgProperty</i> paramete
 
 ### -param pEncoded [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains the signature to encode.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains the signature to encode.
 
 
 ### -param phSignature [optional]

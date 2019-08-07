@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AUTH_VALIDATION_EX, AUTH_VALIDATION_EX structure [RAS], PAUTH_VALIDATION_EX, PAUTH_VALIDATION_EX structure pointer [RAS], mprapi/AUTH_VALIDATION_EX, mprapi/PAUTH_VALIDATION_EX, rras.auth_validation_ex
 ms.topic: struct
-f1_keywords: 
- - "mprapi/AUTH_VALIDATION_EX"
+f1_keywords:
+- mprapi/AUTH_VALIDATION_EX
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - AUTH_VALIDATION_EX
+- AUTH_VALIDATION_EX
 product: Windows
 targetos: Windows
 req.typenames: AUTH_VALIDATION_EX
@@ -61,7 +61,7 @@ The <b>AUTH_VALIDATION_EX</b> structure is used for enabling clients to  bypass 
 
 ### -field Header
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mprapi_object_header">MPRAPI_OBJECT_HEADER</a> structure that specifies the version of the <b>AUTH_VALIDATION_EX</b> structure. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mprapi_object_header">MPRAPI_OBJECT_HEADER</a> structure that specifies the version of the <b>AUTH_VALIDATION_EX</b> structure. 
 
 <div class="alert"><b>Note</b>  The <b>revision</b> member  of  <b>Header</b> must be <b>0x01</b> and <b>type</b> must be <b>MPRAPI_OBJECT_TYPE_AUTH_VALIDATION_OBJECT</b>.</div>
 <div> </div>

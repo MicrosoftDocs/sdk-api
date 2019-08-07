@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: C7BF8A80-493E-4BDB-ACE3-F9492C71BCA9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PKERB_CERTIFICATE_S4U_LOGON, KERB_CERTIFICATE_S4U_LOGON, KERB_CERTIFICATE_S4U_LOGON structure [Security], KERB_CERTIFICATE_S4U_LOGON_FLAG_CHECK_DUPLICATES, KERB_CERTIFICATE_S4U_LOGON_FLAG_CHECK_LOGONHOURS, KERB_CERTIFICATE_S4U_LOGON_FLAG_IDENTIFY, KERB_CERTIFICATE_S4U_LOGON_FLAG_IF_NT_AUTH_POLICY_REQUIRED, PKERB_CERTIFICATE_S4U_LOGON, PKERB_CERTIFICATE_S4U_LOGON structure pointer [Security], ntsecapi/KERB_CERTIFICATE_S4U_LOGON, ntsecapi/PKERB_CERTIFICATE_S4U_LOGON, security.kerb_certificate_s4u_logon"
+ms.keywords: '*PKERB_CERTIFICATE_S4U_LOGON, KERB_CERTIFICATE_S4U_LOGON, KERB_CERTIFICATE_S4U_LOGON structure [Security], KERB_CERTIFICATE_S4U_LOGON_FLAG_CHECK_DUPLICATES, KERB_CERTIFICATE_S4U_LOGON_FLAG_CHECK_LOGONHOURS, KERB_CERTIFICATE_S4U_LOGON_FLAG_IDENTIFY, KERB_CERTIFICATE_S4U_LOGON_FLAG_IF_NT_AUTH_POLICY_REQUIRED, PKERB_CERTIFICATE_S4U_LOGON, PKERB_CERTIFICATE_S4U_LOGON structure pointer [Security], ntsecapi/KERB_CERTIFICATE_S4U_LOGON, ntsecapi/PKERB_CERTIFICATE_S4U_LOGON, security.kerb_certificate_s4u_logon'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/KERB_CERTIFICATE_S4U_LOGON"
+f1_keywords:
+- ntsecapi/KERB_CERTIFICATE_S4U_LOGON
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - KERB_CERTIFICATE_S4U_LOGON
+- KERB_CERTIFICATE_S4U_LOGON
 product: Windows
 targetos: Windows
 req.typenames: KERB_CERTIFICATE_S4U_LOGON, *PKERB_CERTIFICATE_S4U_LOGON
@@ -61,7 +61,7 @@ The <b>KERB_CERTIFICATE_S4U_LOGON</b> structure contains information about the c
 
 ### -field MessageType
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_kerb_logon_submit_type">KERB_LOGON_SUBMIT_TYPE</a> enumeration that identifies the type of logon request being made. This member must be set to <b>KerbCertificateS4ULogon</b>. 
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_logon_submit_type">KERB_LOGON_SUBMIT_TYPE</a> enumeration that identifies the type of logon request being made. This member must be set to <b>KerbCertificateS4ULogon</b>. 
 
 
 ### -field Flags

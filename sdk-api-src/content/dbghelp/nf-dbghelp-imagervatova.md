@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageRvaToVa, ImageRvaToVa function, _win32_imagervatova, base.imagervatova, dbghelp/ImageRvaToVa
 ms.topic: function
-f1_keywords: 
- - "dbghelp/ImageRvaToVa"
+f1_keywords:
+- dbghelp/ImageRvaToVa
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
- - imagehlp.dll
+- Dbghelp.dll
+- imagehlp.dll
 api_name:
- - ImageRvaToVa
+- ImageRvaToVa
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -81,7 +81,7 @@ The relative virtual address to be located.
 ### -param LastRvaSection [in, optional]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_section_header">IMAGE_SECTION_HEADER</a> structure that specifies the last RVA section. This is an optional parameter. When specified, it points to a variable that contains the last section value used for the specified image to translate an RVA to a VA.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a> structure that specifies the last RVA section. This is an optional parameter. When specified, it points to a variable that contains the last section value used for the specified image to translate an RVA to a VA.
 
 
 ## -returns
@@ -121,7 +121,7 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_section_header">IMAGE_SECTION_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 6c4ccaf0-2a9f-43fe-9f35-cda1dd1fbbdc
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_HEADER_ID, HTTP_HEADER_ID, HTTP_HEADER_ID enumeration [HTTP], HttpHeaderAccept, HttpHeaderAcceptCharset, HttpHeaderAcceptEncoding, HttpHeaderAcceptLanguage, HttpHeaderAcceptRanges, HttpHeaderAge, HttpHeaderAllow, HttpHeaderAuthorization, HttpHeaderCacheControl, HttpHeaderConnection, HttpHeaderContentEncoding, HttpHeaderContentLanguage, HttpHeaderContentLength, HttpHeaderContentLocation, HttpHeaderContentMd5, HttpHeaderContentRange, HttpHeaderContentType, HttpHeaderCookie, HttpHeaderDate, HttpHeaderEtag, HttpHeaderExpect, HttpHeaderExpires, HttpHeaderFrom, HttpHeaderHost, HttpHeaderIfMatch, HttpHeaderIfModifiedSince, HttpHeaderIfNoneMatch, HttpHeaderIfRange, HttpHeaderIfUnmodifiedSince, HttpHeaderKeepAlive, HttpHeaderLastModified, HttpHeaderLocation, HttpHeaderMaxForwards, HttpHeaderMaximum, HttpHeaderPragma, HttpHeaderProxyAuthenticate, HttpHeaderProxyAuthorization, HttpHeaderRange, HttpHeaderReferer, HttpHeaderRequestMaximum, HttpHeaderResponseMaximum, HttpHeaderRetryAfter, HttpHeaderServer, HttpHeaderSetCookie, HttpHeaderTe, HttpHeaderTrailer, HttpHeaderTransferEncoding, HttpHeaderTranslate, HttpHeaderUpgrade, HttpHeaderUserAgent, HttpHeaderVary, HttpHeaderVia, HttpHeaderWarning, HttpHeaderWwwAuthenticate, PHTTP_HEADER_ID, PHTTP_HEADER_ID enumeration pointer [HTTP], _http_http_header_id, http.http_header_id, http/HTTP_HEADER_ID, http/HttpHeaderAccept, http/HttpHeaderAcceptCharset, http/HttpHeaderAcceptEncoding, http/HttpHeaderAcceptLanguage, http/HttpHeaderAcceptRanges, http/HttpHeaderAge, http/HttpHeaderAllow, http/HttpHeaderAuthorization, http/HttpHeaderCacheControl, http/HttpHeaderConnection, http/HttpHeaderContentEncoding, http/HttpHeaderContentLanguage, http/HttpHeaderContentLength, http/HttpHeaderContentLocation, http/HttpHeaderContentMd5, http/HttpHeaderContentRange, http/HttpHeaderContentType, http/HttpHeaderCookie, http/HttpHeaderDate, http/HttpHeaderEtag, http/HttpHeaderExpect, http/HttpHeaderExpires, http/HttpHeaderFrom, http/HttpHeaderHost, http/HttpHeaderIfMatch, http/HttpHeaderIfModifiedSince, http/HttpHeaderIfNoneMatch, http/HttpHeaderIfRange, http/HttpHeaderIfUnmodifiedSince, http/HttpHeaderKeepAlive, http/HttpHeaderLastModified, http/HttpHeaderLocation, http/HttpHeaderMaxForwards, http/HttpHeaderMaximum, http/HttpHeaderPragma, http/HttpHeaderProxyAuthenticate, http/HttpHeaderProxyAuthorization, http/HttpHeaderRange, http/HttpHeaderReferer, http/HttpHeaderRequestMaximum, http/HttpHeaderResponseMaximum, http/HttpHeaderRetryAfter, http/HttpHeaderServer, http/HttpHeaderSetCookie, http/HttpHeaderTe, http/HttpHeaderTrailer, http/HttpHeaderTransferEncoding, http/HttpHeaderTranslate, http/HttpHeaderUpgrade, http/HttpHeaderUserAgent, http/HttpHeaderVary, http/HttpHeaderVia, http/HttpHeaderWarning, http/HttpHeaderWwwAuthenticate, http/PHTTP_HEADER_ID"
+ms.keywords: '*PHTTP_HEADER_ID, HTTP_HEADER_ID, HTTP_HEADER_ID enumeration [HTTP], HttpHeaderAccept, HttpHeaderAcceptCharset, HttpHeaderAcceptEncoding, HttpHeaderAcceptLanguage, HttpHeaderAcceptRanges, HttpHeaderAge, HttpHeaderAllow, HttpHeaderAuthorization, HttpHeaderCacheControl, HttpHeaderConnection, HttpHeaderContentEncoding, HttpHeaderContentLanguage, HttpHeaderContentLength, HttpHeaderContentLocation, HttpHeaderContentMd5, HttpHeaderContentRange, HttpHeaderContentType, HttpHeaderCookie, HttpHeaderDate, HttpHeaderEtag, HttpHeaderExpect, HttpHeaderExpires, HttpHeaderFrom, HttpHeaderHost, HttpHeaderIfMatch, HttpHeaderIfModifiedSince, HttpHeaderIfNoneMatch, HttpHeaderIfRange, HttpHeaderIfUnmodifiedSince, HttpHeaderKeepAlive, HttpHeaderLastModified, HttpHeaderLocation, HttpHeaderMaxForwards, HttpHeaderMaximum, HttpHeaderPragma, HttpHeaderProxyAuthenticate, HttpHeaderProxyAuthorization, HttpHeaderRange, HttpHeaderReferer, HttpHeaderRequestMaximum, HttpHeaderResponseMaximum, HttpHeaderRetryAfter, HttpHeaderServer, HttpHeaderSetCookie, HttpHeaderTe, HttpHeaderTrailer, HttpHeaderTransferEncoding, HttpHeaderTranslate, HttpHeaderUpgrade, HttpHeaderUserAgent, HttpHeaderVary, HttpHeaderVia, HttpHeaderWarning, HttpHeaderWwwAuthenticate, PHTTP_HEADER_ID, PHTTP_HEADER_ID enumeration pointer [HTTP], _http_http_header_id, http.http_header_id, http/HTTP_HEADER_ID, http/HttpHeaderAccept, http/HttpHeaderAcceptCharset, http/HttpHeaderAcceptEncoding, http/HttpHeaderAcceptLanguage, http/HttpHeaderAcceptRanges, http/HttpHeaderAge, http/HttpHeaderAllow, http/HttpHeaderAuthorization, http/HttpHeaderCacheControl, http/HttpHeaderConnection, http/HttpHeaderContentEncoding, http/HttpHeaderContentLanguage, http/HttpHeaderContentLength, http/HttpHeaderContentLocation, http/HttpHeaderContentMd5, http/HttpHeaderContentRange, http/HttpHeaderContentType, http/HttpHeaderCookie, http/HttpHeaderDate, http/HttpHeaderEtag, http/HttpHeaderExpect, http/HttpHeaderExpires, http/HttpHeaderFrom, http/HttpHeaderHost, http/HttpHeaderIfMatch, http/HttpHeaderIfModifiedSince, http/HttpHeaderIfNoneMatch, http/HttpHeaderIfRange, http/HttpHeaderIfUnmodifiedSince, http/HttpHeaderKeepAlive, http/HttpHeaderLastModified, http/HttpHeaderLocation, http/HttpHeaderMaxForwards, http/HttpHeaderMaximum, http/HttpHeaderPragma, http/HttpHeaderProxyAuthenticate, http/HttpHeaderProxyAuthorization, http/HttpHeaderRange, http/HttpHeaderReferer, http/HttpHeaderRequestMaximum, http/HttpHeaderResponseMaximum, http/HttpHeaderRetryAfter, http/HttpHeaderServer, http/HttpHeaderSetCookie, http/HttpHeaderTe, http/HttpHeaderTrailer, http/HttpHeaderTransferEncoding, http/HttpHeaderTranslate, http/HttpHeaderUpgrade, http/HttpHeaderUserAgent, http/HttpHeaderVary, http/HttpHeaderVia, http/HttpHeaderWarning, http/HttpHeaderWwwAuthenticate, http/PHTTP_HEADER_ID'
 ms.topic: enum
-f1_keywords: 
- - "http/HTTP_HEADER_ID"
+f1_keywords:
+- http/HTTP_HEADER_ID
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_HEADER_ID
+- HTTP_HEADER_ID
 product: Windows
 targetos: Windows
 req.typenames: HTTP_HEADER_ID, *PHTTP_HEADER_ID
@@ -53,8 +53,8 @@ ms.custom: 19H1
 
 The 
 <b>HTTP_HEADER_ID</b> enumeration type lists <i>known headers</i> for HTTP requests and responses, and associates an array index with each such header. It is used to size and access the <b>KnownHeaders</b> array members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_headers">HTTP_REQUEST_HEADERS</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_headers">HTTP_RESPONSE_HEADERS</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_headers">HTTP_REQUEST_HEADERS</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_headers">HTTP_RESPONSE_HEADERS</a> structures.
 
 
 ## -enum-fields
@@ -358,11 +358,11 @@ Not a value that actually designates a header; instead, it is used to count all 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_headers">HTTP_REQUEST_HEADERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_headers">HTTP_REQUEST_HEADERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_headers">HTTP_RESPONSE_HEADERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_headers">HTTP_RESPONSE_HEADERS</a>
  
 
  

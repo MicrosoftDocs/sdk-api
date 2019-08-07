@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDXMLContext interface,SetTypes method, IWSDXMLContext.SetTypes, IWSDXMLContext::SetTypes, SetTypes, SetTypes method, SetTypes method,IWSDXMLContext interface, ncd.iwsdxmlcontext_settypes_method, wsdxml/IWSDXMLContext::SetTypes
 ms.topic: method
-f1_keywords: 
- - "wsdxml/IWSDXMLContext.SetTypes"
+f1_keywords:
+- wsdxml/IWSDXMLContext.SetTypes
 req.header: wsdxml.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDXMLContext.SetTypes
+- IWSDXMLContext.SetTypes
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ This method should only be called by <a href="https://docs.microsoft.com/windows
 
 ### -param pTypes [in]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_type">WSDXML_TYPE</a> structures that represent the set of messages for the <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_type">WSDXML_TYPE</a> structures that represent the set of messages for the <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>.
 
 
 ### -param dwTypesCount [in]

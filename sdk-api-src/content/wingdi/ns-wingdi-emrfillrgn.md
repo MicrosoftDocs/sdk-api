@@ -8,10 +8,10 @@ tech.root: gdi
 ms.assetid: 84b81b9d-3def-403c-94cd-8f5ddea02d6d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEMRFILLRGN, EMRFILLRGN, EMRFILLRGN structure [Windows GDI], PEMRFILLRGN, PEMRFILLRGN structure pointer [Windows GDI], _win32_EMRFILLRGN_str, gdi.emrfillrgn, wingdi/EMRFILLRGN, wingdi/PEMRFILLRGN"
+ms.keywords: '*PEMRFILLRGN, EMRFILLRGN, EMRFILLRGN structure [Windows GDI], PEMRFILLRGN, PEMRFILLRGN structure pointer [Windows GDI], _win32_EMRFILLRGN_str, gdi.emrfillrgn, wingdi/EMRFILLRGN, wingdi/PEMRFILLRGN'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRFILLRGN"
+f1_keywords:
+- wingdi/EMRFILLRGN
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRFILLRGN
+- EMRFILLRGN
 product: Windows
 targetos: Windows
 req.typenames: EMRFILLRGN, *PEMRFILLRGN
@@ -84,7 +84,7 @@ Index of brush, in handle table.
 
 ### -field RgnData
 
-Buffer containing <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_rgndata">RGNDATA</a> structure.
+Buffer containing <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a> structure.
 
 
 ## -see-also
@@ -104,7 +104,7 @@ Buffer containing <a href="https://docs.microsoft.com/windows/desktop/api/wingdi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_rgndata">RGNDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a>
  
 
  

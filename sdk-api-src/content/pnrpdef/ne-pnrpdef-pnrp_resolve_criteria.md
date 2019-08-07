@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PNRP_RESOLVE_CRITERIA, PNRP_RESOLVE_CRITERIA enumeration [Peer Networking], PNRP_RESOLVE_CRITERIA_ANY_PEER_NAME, PNRP_RESOLVE_CRITERIA_DEFAULT, PNRP_RESOLVE_CRITERIA_NEAREST_NON_CURRENT_PROCESS_PEER_NAME, PNRP_RESOLVE_CRITERIA_NEAREST_PEER_NAME, PNRP_RESOLVE_CRITERIA_NEAREST_REMOTE_PEER_NAME, PNRP_RESOLVE_CRITERIA_NON_CURRENT_PROCESS_PEER_NAME, PNRP_RESOLVE_CRITERIA_REMOTE_PEER_NAME, p2p.pnrp_resolve_criteria, pnrpdef/PNRP_RESOLVE_CRITERIA, pnrpdef/PNRP_RESOLVE_CRITERIA_ANY_PEER_NAME, pnrpdef/PNRP_RESOLVE_CRITERIA_DEFAULT, pnrpdef/PNRP_RESOLVE_CRITERIA_NEAREST_NON_CURRENT_PROCESS_PEER_NAME, pnrpdef/PNRP_RESOLVE_CRITERIA_NEAREST_PEER_NAME, pnrpdef/PNRP_RESOLVE_CRITERIA_NEAREST_REMOTE_PEER_NAME, pnrpdef/PNRP_RESOLVE_CRITERIA_NON_CURRENT_PROCESS_PEER_NAME, pnrpdef/PNRP_RESOLVE_CRITERIA_REMOTE_PEER_NAME
 ms.topic: enum
-f1_keywords: 
- - "pnrpdef/PNRP_RESOLVE_CRITERIA"
+f1_keywords:
+- pnrpdef/PNRP_RESOLVE_CRITERIA
 req.header: pnrpdef.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pnrpdef.h
+- Pnrpdef.h
 api_name:
- - PNRP_RESOLVE_CRITERIA
+- PNRP_RESOLVE_CRITERIA
 product: Windows
 targetos: Windows
 req.typenames: PNRP_RESOLVE_CRITERIA
@@ -61,7 +61,7 @@ The <b>PNRP_RESOLVE_CRITERIA</b> enumeration specifies the criteria that PNRP us
 
 ### -field PNRP_RESOLVE_CRITERIA_DEFAULT
 
-Use the PNRP_RESOLVE_CRITERIA_NON_CURRENT_PROCESS_PEER_NAME criteria. This is also the default behavior if <a href="https://docs.microsoft.com/windows/desktop/api/pnrpns/ns-pnrpns-_pnrpinfo_v1">PNRPINFO</a> is not specified.
+Use the PNRP_RESOLVE_CRITERIA_NON_CURRENT_PROCESS_PEER_NAME criteria. This is also the default behavior if <a href="https://docs.microsoft.com/windows/desktop/api/pnrpns/ns-pnrpns-pnrpinfo_v1">PNRPINFO</a> is not specified.
 
 
 ### -field PNRP_RESOLVE_CRITERIA_REMOTE_PEER_NAME
@@ -99,7 +99,7 @@ Match a peer name by   finding the name with a service location closest to the s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pnrpns/ns-pnrpns-_pnrpinfo_v1">PNRPINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pnrpns/ns-pnrpns-pnrpinfo_v1">PNRPINFO</a>
 
 
 

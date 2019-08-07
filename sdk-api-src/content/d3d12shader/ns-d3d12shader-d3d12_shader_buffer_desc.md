@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_SHADER_BUFFER_DESC, D3D12_SHADER_BUFFER_DESC structure, d3d12shader/D3D12_SHADER_BUFFER_DESC, direct3d12.d3d12_shader_buffer_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d12shader/D3D12_SHADER_BUFFER_DESC"
+f1_keywords:
+- d3d12shader/D3D12_SHADER_BUFFER_DESC
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - D3D12_SHADER_BUFFER_DESC
+- D3D12_SHADER_BUFFER_DESC
 product: Windows
 targetos: Windows
 req.typenames: D3D12_SHADER_BUFFER_DESC
@@ -68,7 +68,7 @@ The name of the buffer.
 
 ### -field Type
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_cbuffer_type">D3D_CBUFFER_TYPE</a>-typed value that indicates the intended use of the constant data.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_cbuffer_type">D3D_CBUFFER_TYPE</a>-typed value that indicates the intended use of the constant data.
           
 
 
@@ -86,7 +86,7 @@ The size of the buffer, in bytes.
 
 ### -field uFlags
 
-A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_cbuffer_flags">D3D_SHADER_CBUFFER_FLAGS</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies properties for the shader constant-buffer.
+A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_cbuffer_flags">D3D_SHADER_CBUFFER_FLAGS</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies properties for the shader constant-buffer.
           
 
 

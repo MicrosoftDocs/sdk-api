@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisherNotify interface,ProbeHandler method, IWSDiscoveryPublisherNotify.ProbeHandler, IWSDiscoveryPublisherNotify::ProbeHandler, ProbeHandler, ProbeHandler method, ProbeHandler method,IWSDiscoveryPublisherNotify interface, ncd.iwsdiscoverypublishernotify_probehandler_method, wsddisco/IWSDiscoveryPublisherNotify::ProbeHandler
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDiscoveryPublisherNotify.ProbeHandler"
+f1_keywords:
+- wsddisco/IWSDiscoveryPublisherNotify.ProbeHandler
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveryPublisherNotify.ProbeHandler
+- IWSDiscoveryPublisherNotify.ProbeHandler
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Is called when a <a href="https://docs.microsoft.com/windows/desktop/WsdApi/prob
 
 ### -param pSoap [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_message">WSD_SOAP_MESSAGE</a> structure that contains the Probe message received by the discovery publisher.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_message">WSD_SOAP_MESSAGE</a> structure that contains the Probe message received by the discovery publisher.
 
 
 ### -param pMessageParameters [in]
@@ -84,7 +84,7 @@ The return value is not meaningful. An implementer should return S_OK.
 
 <b>ProbeHandler</b> is called whenever a <a href="https://docs.microsoft.com/windows/desktop/WsdApi/probe-message">Probe</a> is received by the discovery publisher. It is the responsibility of the callback interface to then call <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoverypublisher-matchprobe">MatchProbe</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoverypublisher-matchprobeex">MatchProbeEx</a> with host information to determine whether or not the received Probe matches the host.
 
-The body of the Probe message passed to <i>pSoap</i> can be cast to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_probe">WSD_PROBE</a> structure.
+The body of the Probe message passed to <i>pSoap</i> can be cast to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_probe">WSD_PROBE</a> structure.
 
 
 

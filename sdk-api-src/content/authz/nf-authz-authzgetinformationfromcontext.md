@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzGetInformationFromContext, AuthzGetInformationFromContext function [Security], _win32_authzgetinformationfromcontext, authz/AuthzGetInformationFromContext, security.authzgetinformationfromcontext
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzGetInformationFromContext"
+f1_keywords:
+- authz/AuthzGetInformationFromContext
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
+- Authz.dll
 api_name:
- - AuthzGetInformationFromContext
+- AuthzGetInformationFromContext
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>AuthzGetInformationFromContext</b> function returns information about an Authz context. 
 
-Starting with Windows Server 2012 and Windows 8, device groups are returned as a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a> structure. User and device claims are returned as an <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_security_attributes_information">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a> structure.
+Starting with Windows Server 2012 and Windows 8, device groups are returned as a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure. User and device claims are returned as an <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_security_attributes_information">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a> structure.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ A handle to the context.
 
 ### -param InfoClass [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/authz/ne-authz-_authz_context_information_class">AUTHZ_CONTEXT_INFORMATION_CLASS</a> enumeration that indicates the type of information to be returned.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/authz/ne-authz-authz_context_information_class">AUTHZ_CONTEXT_INFORMATION_CLASS</a> enumeration that indicates the type of information to be returned.
 
 
 ### -param BufferSize [in]
@@ -103,11 +103,11 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ne-authz-_authz_context_information_class">AUTHZ_CONTEXT_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ne-authz-authz_context_information_class">AUTHZ_CONTEXT_INFORMATION_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_security_attributes_information">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_security_attributes_information">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a>
 
 
 
@@ -115,7 +115,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>
  
 
  

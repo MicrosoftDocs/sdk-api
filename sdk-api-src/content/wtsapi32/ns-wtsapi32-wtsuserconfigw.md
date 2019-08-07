@@ -8,10 +8,10 @@ tech.root: TermServ
 ms.assetid: 73788ea3-1ba7-4749-983d-4ca6e4f76acb
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWTSUSERCONFIGW, PWTSUSERCONFIG, PWTSUSERCONFIG structure pointer [Remote Desktop Services], WTSUSERCONFIG, WTSUSERCONFIG structure [Remote Desktop Services], WTSUSERCONFIGA, WTSUSERCONFIGW, termserv.wtsuserconfig, wtsapi32/PWTSUSERCONFIG, wtsapi32/WTSUSERCONFIG, wtsapi32/WTSUSERCONFIGA, wtsapi32/WTSUSERCONFIGW"
+ms.keywords: '*PWTSUSERCONFIGW, PWTSUSERCONFIG, PWTSUSERCONFIG structure pointer [Remote Desktop Services], WTSUSERCONFIG, WTSUSERCONFIG structure [Remote Desktop Services], WTSUSERCONFIGA, WTSUSERCONFIGW, termserv.wtsuserconfig, wtsapi32/PWTSUSERCONFIG, wtsapi32/WTSUSERCONFIG, wtsapi32/WTSUSERCONFIGA, wtsapi32/WTSUSERCONFIGW'
 ms.topic: struct
-f1_keywords: 
- - "wtsapi32/WTSUSERCONFIG"
+f1_keywords:
+- wtsapi32/WTSUSERCONFIG
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsapi32.h
+- Wtsapi32.h
 api_name:
- - WTSUSERCONFIG
- - WTSUSERCONFIGA
- - WTSUSERCONFIGW
+- WTSUSERCONFIG
+- WTSUSERCONFIGA
+- WTSUSERCONFIGW
 product: Windows
 targetos: Windows
 req.typenames: WTSUSERCONFIGW, *PWTSUSERCONFIGW
@@ -63,7 +63,7 @@ Contains configuration information for a user on a domain controller or Remote D
 
 ### -field Source
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-_wts_config_source">WTS_CONFIG_SOURCE</a> enumeration type that specifies the  source of configuration information returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> function.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_config_source">WTS_CONFIG_SOURCE</a> enumeration type that specifies the  source of configuration information returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> function.
 
 
 ### -field InheritInitialProgram
@@ -379,7 +379,7 @@ The <b>TerminalServerHomeDir</b> member contains a path to a network share, and 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-_wts_config_source">WTS_CONFIG_SOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_config_source">WTS_CONFIG_SOURCE</a>
  
 
  

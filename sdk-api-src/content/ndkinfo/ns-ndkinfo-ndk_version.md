@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NDK_VERSION, NDK_VERSION structure [Network Drivers Starting with Windows Vista], ndkinfo/NDK_VERSION, netvista.ndk_version
 ms.topic: struct
-f1_keywords: 
- - "ndkinfo/NDK_VERSION"
+f1_keywords:
+- ndkinfo/NDK_VERSION
 req.header: ndkinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ndkinfo.h
+- ndkinfo.h
 api_name:
- - NDK_VERSION
+- NDK_VERSION
 product: Windows
 targetos: Windows
 req.typenames: NDK_VERSION
@@ -91,7 +91,7 @@ To specify version 1.2 (for Windows Server 2012 R2), set the <b>Major</b> memb
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a>
 
 
 

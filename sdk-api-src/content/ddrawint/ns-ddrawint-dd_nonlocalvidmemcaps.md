@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 1ccc7de7-e5a3-4dc0-9375-a54460d43936
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_NONLOCALVIDMEMCAPS, DD_NONLOCALVIDMEMCAPS, DD_NONLOCALVIDMEMCAPS structure [Display Devices], PDD_NONLOCALVIDMEMCAPS, PDD_NONLOCALVIDMEMCAPS structure pointer [Display Devices], ddrawint/DD_NONLOCALVIDMEMCAPS, ddrawint/PDD_NONLOCALVIDMEMCAPS, ddstrcts_2f88c083-47c5-4ae6-a0bc-42d32d6e44c9.xml, display.dd_nonlocalvidmemcaps"
+ms.keywords: '*PDD_NONLOCALVIDMEMCAPS, DD_NONLOCALVIDMEMCAPS, DD_NONLOCALVIDMEMCAPS structure [Display Devices], PDD_NONLOCALVIDMEMCAPS, PDD_NONLOCALVIDMEMCAPS structure pointer [Display Devices], ddrawint/DD_NONLOCALVIDMEMCAPS, ddrawint/PDD_NONLOCALVIDMEMCAPS, ddstrcts_2f88c083-47c5-4ae6-a0bc-42d32d6e44c9.xml, display.dd_nonlocalvidmemcaps'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_NONLOCALVIDMEMCAPS"
+f1_keywords:
+- ddrawint/DD_NONLOCALVIDMEMCAPS
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_NONLOCALVIDMEMCAPS
+- DD_NONLOCALVIDMEMCAPS
 product: Windows
 targetos: Windows
 req.typenames: DD_NONLOCALVIDMEMCAPS, *PDD_NONLOCALVIDMEMCAPS
@@ -95,7 +95,7 @@ Specifies an array of DD_ROP_SPACE DWORDs containing the raster operations suppo
 
 On Microsoft Windows 2000 and later versions, the data structure is called DD_NONLOCALVIDMEMCAPS and on Windows 98/Me the data structure is called DDNONLOCALVIDMEMCAPS.
 
-Normally, the <b>dwNLVBCaps</b>, <b>dwNLVBCaps2</b>, <b>dwNFLBCKeyCaps</b>, <b>dwNLVBFXCaps</b>, and <b>dwNLVBRops</b> members contain a subset of the flags used in the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-_ddcorecaps">DDCORECAPS</a> structure that is relevant to nonlocal-to-local blitting. However, to allow flexibility for device driver writers, any of the flags in DDCORECAPS can be used. 
+Normally, the <b>dwNLVBCaps</b>, <b>dwNLVBCaps2</b>, <b>dwNFLBCKeyCaps</b>, <b>dwNLVBFXCaps</b>, and <b>dwNLVBRops</b> members contain a subset of the flags used in the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a> structure that is relevant to nonlocal-to-local blitting. However, to allow flexibility for device driver writers, any of the flags in DDCORECAPS can be used. 
 
 
 
@@ -105,7 +105,7 @@ Normally, the <b>dwNLVBCaps</b>, <b>dwNLVBCaps2</b>, <b>dwNFLBCKeyCaps</b>, <b>d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-_ddcorecaps">DDCORECAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>
  
 
  

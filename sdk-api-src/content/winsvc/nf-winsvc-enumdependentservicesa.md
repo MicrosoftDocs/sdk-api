@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumDependentServices, EnumDependentServices function, EnumDependentServicesA, EnumDependentServicesW, SERVICE_ACTIVE, SERVICE_INACTIVE, SERVICE_STATE_ALL, _win32_enumdependentservices, base.enumdependentservices, winsvc/EnumDependentServices, winsvc/EnumDependentServicesA, winsvc/EnumDependentServicesW
 ms.topic: function
-f1_keywords: 
- - "winsvc/EnumDependentServices"
+f1_keywords:
+- winsvc/EnumDependentServices
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,22 +30,22 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - sechost.dll
- - API-MS-Win-Service-Core-l1-1-1.dll
- - API-Ms-Win-Service-Core-L1-1-2.dll
- - AdvApi32Legacy.dll
- - API-MS-Win-Service-Core-Ansi-L1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- sechost.dll
+- API-MS-Win-Service-Core-l1-1-1.dll
+- API-Ms-Win-Service-Core-L1-1-2.dll
+- AdvApi32Legacy.dll
+- API-MS-Win-Service-Core-Ansi-L1-1-1.dll
 api_name:
- - EnumDependentServices
- - EnumDependentServicesA
- - EnumDependentServicesW
+- EnumDependentServices
+- EnumDependentServicesA
+- EnumDependentServicesW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -124,7 +124,7 @@ Combines the following states: <b>SERVICE_ACTIVE</b> and <b>SERVICE_INACTIVE</b>
 ### -param lpServices [out, optional]
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_enum_service_statusa">ENUM_SERVICE_STATUS</a> structures that receives the name and service status information for each dependent service in the database. The buffer must be large enough to hold the structures, plus the strings to which their members point.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-enum_service_statusa">ENUM_SERVICE_STATUS</a> structures that receives the name and service status information for each dependent service in the database. The buffer must be large enough to hold the structures, plus the strings to which their members point.
 
 The order of the services in this array is the reverse of the start order of the services. In other words, the first service in the array is the one that would be started last, and the last service in the array is the one that would be started first.
 
@@ -237,7 +237,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_enum_service_statusa">ENUM_SERVICE_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-enum_service_statusa">ENUM_SERVICE_STATUS</a>
 
 
 

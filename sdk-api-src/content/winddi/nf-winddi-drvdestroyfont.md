@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvDestroyFont, DrvDestroyFont function [Display Devices], ddifncs_a73e0b14-897a-423d-a9db-8c4ba831a36b.xml, display.drvdestroyfont, winddi/DrvDestroyFont
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvDestroyFont"
+f1_keywords:
+- winddi/DrvDestroyFont
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvDestroyFont
+- DrvDestroyFont
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>DrvDestroyFont</b> function notifies the driver that a font realization i
 
 ### -param pfo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a> structure that identifies the font instance.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure that identifies the font instance.
 
 
 ## -returns
@@ -101,7 +101,7 @@ This function must be implemented if the font driver or kernel-mode printer driv
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
  
 
  

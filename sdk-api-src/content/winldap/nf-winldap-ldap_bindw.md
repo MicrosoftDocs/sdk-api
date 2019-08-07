@@ -8,10 +8,10 @@ tech.root: ldap
 ms.assetid: 889636f2-3dd0-4027-aa35-d7b7930d9e69
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_bind, ldap.ldap__bind, ldap.ldap_bind, ldap_bind, ldap_bind function [LDAP], ldap_bindA, ldap_bindW, winldap/ldap_bind, winldap/ldap_bindA, winldap/ldap_bindW"
+ms.keywords: _ldap_ldap_bind, ldap.ldap__bind, ldap.ldap_bind, ldap_bind, ldap_bind function [LDAP], ldap_bindA, ldap_bindW, winldap/ldap_bind, winldap/ldap_bindA, winldap/ldap_bindW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_bind"
+f1_keywords:
+- winldap/ldap_bind
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_bind
- - ldap_bindA
- - ldap_bindW
+- ldap_bind
+- ldap_bindA
+- ldap_bindW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -139,7 +139,7 @@ When all of the operations on the session handle are completed, terminate the se
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a>
 
 
 

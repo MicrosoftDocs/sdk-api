@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_SHELL, WSMAN_PLUGIN_SHELL callback, WSMAN_PLUGIN_SHELL callback function [Windows Remote Management], WSManPluginShell, winrm.wsman_plugin_shell, wsman/WSMAN_PLUGIN_SHELL
 ms.topic: callback
-f1_keywords: 
- - "wsman/WSMAN_PLUGIN_SHELL"
+f1_keywords:
+- wsman/WSMAN_PLUGIN_SHELL
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_PLUGIN_SHELL
+- WSMAN_PLUGIN_SHELL
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,12 +78,12 @@ Reserved for future use. Must be set to zero.
 
 ### -param *startupInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_shell_startup_info_v10">WSMAN_SHELL_STARTUP_INFO</a> structure that contains startup information for the shell.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_shell_startup_info_v10">WSMAN_SHELL_STARTUP_INFO</a> structure that contains startup information for the shell.
 
 
 ### -param *inboundShellInformation
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_data">WSMAN_DATA</a> structure that specifies an optional inbound object that contains extra data for the shell.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that specifies an optional inbound object that contains extra data for the shell.
 
 
 ## -returns

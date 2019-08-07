@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FormatPartitionEx2, FormatPartitionEx2 method, FormatPartitionEx2 method,IVdsDiskPartitionMF2 interface, IVdsDiskPartitionMF2 interface,FormatPartitionEx2 method, IVdsDiskPartitionMF2.FormatPartitionEx2, IVdsDiskPartitionMF2::FormatPartitionEx2, base.ivdsdiskpartitionmf2_formatpartitionex2, vds/IVdsDiskPartitionMF2::FormatPartitionEx2
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsDiskPartitionMF2.FormatPartitionEx2"
+f1_keywords:
+- vds/IVdsDiskPartitionMF2.FormatPartitionEx2
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - IVdsDiskPartitionMF2.FormatPartitionEx2
+- IVdsDiskPartitionMF2.FormatPartitionEx2
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ The byte offset of the partition from the beginning of the disk.  This offset mu
 
 ### -param pwszFileSystemTypeName [in]
 
-A <b>NULL</b>-terminated Unicode string containing the name of the file system with which to format the partition. Must be <b>NULL</b> or one of the following: "NTFS", "FAT","FAT32", "UDF", or "EXFAT". If this parameter is <b>NULL</b>, a default value is used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_file_system_format_support_flag">VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG</a>.
+A <b>NULL</b>-terminated Unicode string containing the name of the file system with which to format the partition. Must be <b>NULL</b> or one of the following: "NTFS", "FAT","FAT32", "UDF", or "EXFAT". If this parameter is <b>NULL</b>, a default value is used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_file_system_format_support_flag">VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG</a>.
 
 
 ### -param usFileSystemRevision [in]
@@ -88,7 +88,7 @@ A <b>NULL</b>-terminated Unicode string containing the label to assign to the ne
 
 ### -param Options [in]
 
-A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_format_option_flags">VDS_FORMAT_OPTION_FLAGS</a> enumeration values that specify formatting options.
+A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_format_option_flags">VDS_FORMAT_OPTION_FLAGS</a> enumeration values that specify formatting options.
 
 
 ### -param ppAsync [out]
@@ -372,11 +372,11 @@ The volume size is too small to format.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_file_system_format_support_flag">VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_file_system_format_support_flag">VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_format_option_flags">VDS_FORMAT_OPTION_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_format_option_flags">VDS_FORMAT_OPTION_FLAGS</a>
  
 
  

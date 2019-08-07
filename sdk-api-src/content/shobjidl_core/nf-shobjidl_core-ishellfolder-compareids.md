@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CompareIDs, CompareIDs method [Windows Shell], CompareIDs method [Windows Shell],IShellFolder interface, CompareIDs method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],CompareIDs method, IShellFolder.CompareIDs, IShellFolder2 interface [Windows Shell],CompareIDs method, IShellFolder2::CompareIDs, IShellFolder::CompareIDs, SHCIDS_ALLFIELDS, SHCIDS_CANONICALONLY, _win32_IShellFolder_CompareIDs, shell.IShellFolder_CompareIDs, shobjidl_core/IShellFolder2::CompareIDs, shobjidl_core/IShellFolder::CompareIDs
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellFolder.CompareIDs"
+f1_keywords:
+- shobjidl_core/IShellFolder.CompareIDs
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellFolder.CompareIDs
- - IShellFolder2.CompareIDs
+- IShellFolder.CompareIDs
+- IShellFolder2.CompareIDs
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -79,7 +79,7 @@ The upper sixteen bits of <i>lParam</i> are used for flags that modify the sorti
 #### SHCIDS_ALLFIELDS
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. Compare all the information contained in the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure, not just the display names. This flag is valid only for folder objects that support the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a> interface. For instance, if the two items are files, the folder should compare their names, sizes, file times, attributes, and any other information in the structures. If this flag is set, the lower sixteen bits of <i>lParam</i> must be zero.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. Compare all the information contained in the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure, not just the display names. This flag is valid only for folder objects that support the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a> interface. For instance, if the two items are files, the folder should compare their names, sizes, file times, attributes, and any other information in the structures. If this flag is set, the lower sixteen bits of <i>lParam</i> must be zero.
 
 
 
@@ -93,14 +93,14 @@ The upper sixteen bits of <i>lParam</i> are used for flags that modify the sorti
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A pointer to the first item's <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure. It will be relative to the folder. This <b>ITEMIDLIST</b> structure can contain more than one element; therefore, the entire structure must be compared, not just the first element.
+A pointer to the first item's <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure. It will be relative to the folder. This <b>ITEMIDLIST</b> structure can contain more than one element; therefore, the entire structure must be compared, not just the first element.
 
 
 ### -param pidl2 [in]
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A pointer to the second item's <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure. It will be relative to the folder. This <b>ITEMIDLIST</b> structure can contain more than one element; therefore, the entire structure must be compared, not just the first element.
+A pointer to the second item's <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure. It will be relative to the folder. This <b>ITEMIDLIST</b> structure can contain more than one element; therefore, the entire structure must be compared, not just the first element.
 
 
 ## -returns

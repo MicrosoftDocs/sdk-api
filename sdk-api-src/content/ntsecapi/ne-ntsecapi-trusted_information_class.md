@@ -8,10 +8,10 @@ tech.root: SecMgmt
 ms.assetid: 442a0944-b498-4d9f-b338-d5aed1663d8d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTRUSTED_INFORMATION_CLASS, PTRUSTED_INFORMATION_CLASS, PTRUSTED_INFORMATION_CLASS enumeration pointer [Security], TRUSTED_INFORMATION_CLASS, TRUSTED_INFORMATION_CLASS enumeration [Security], TrustedControllersInformation, TrustedDomainAuthInformation, TrustedDomainFullInformation, TrustedDomainInformationBasic, TrustedDomainInformationEx, TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixOffsetInformation, _lsa_trusted_information_class, ntsecapi/PTRUSTED_INFORMATION_CLASS, ntsecapi/TRUSTED_INFORMATION_CLASS, ntsecapi/TrustedControllersInformation, ntsecapi/TrustedDomainAuthInformation, ntsecapi/TrustedDomainFullInformation, ntsecapi/TrustedDomainInformationBasic, ntsecapi/TrustedDomainInformationEx, ntsecapi/TrustedDomainNameInformation, ntsecapi/TrustedPasswordInformation, ntsecapi/TrustedPosixOffsetInformation, security.trusted_information_class"
+ms.keywords: '*PTRUSTED_INFORMATION_CLASS, PTRUSTED_INFORMATION_CLASS, PTRUSTED_INFORMATION_CLASS enumeration pointer [Security], TRUSTED_INFORMATION_CLASS, TRUSTED_INFORMATION_CLASS enumeration [Security], TrustedControllersInformation, TrustedDomainAuthInformation, TrustedDomainFullInformation, TrustedDomainInformationBasic, TrustedDomainInformationEx, TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixOffsetInformation, _lsa_trusted_information_class, ntsecapi/PTRUSTED_INFORMATION_CLASS, ntsecapi/TRUSTED_INFORMATION_CLASS, ntsecapi/TrustedControllersInformation, ntsecapi/TrustedDomainAuthInformation, ntsecapi/TrustedDomainFullInformation, ntsecapi/TrustedDomainInformationBasic, ntsecapi/TrustedDomainInformationEx, ntsecapi/TrustedDomainNameInformation, ntsecapi/TrustedPasswordInformation, ntsecapi/TrustedPosixOffsetInformation, security.trusted_information_class'
 ms.topic: enum
-f1_keywords: 
- - "ntsecapi/TRUSTED_INFORMATION_CLASS"
+f1_keywords:
+- ntsecapi/TRUSTED_INFORMATION_CLASS
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - TRUSTED_INFORMATION_CLASS
+- TRUSTED_INFORMATION_CLASS
 product: Windows
 targetos: Windows
 req.typenames: TRUSTED_INFORMATION_CLASS, *PTRUSTED_INFORMATION_CLASS
@@ -66,7 +66,7 @@ Each value has an associated structure that the
 ### -field TrustedDomainNameInformation
 
 Query or set the name of a trusted domain. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_domain_name_info">TRUSTED_DOMAIN_NAME_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_name_info">TRUSTED_DOMAIN_NAME_INFO</a> structure.
 
 
 ### -field TrustedControllersInformation
@@ -77,7 +77,7 @@ This value is obsolete.
 ### -field TrustedPosixOffsetInformation
 
 Query or set the value used to generate Posix user and group identifiers. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_posix_offset_info">TRUSTED_POSIX_OFFSET_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_posix_offset_info">TRUSTED_POSIX_OFFSET_INFO</a> structure.
 
 
 ### -field TrustedPasswordInformation
@@ -95,19 +95,19 @@ This value is obsolete.
 ### -field TrustedDomainInformationEx
 
 Query extended information for a trusted domain. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a> structure.
 
 
 ### -field TrustedDomainAuthInformation
 
 Query authentication information for a trusted domain. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_domain_auth_information">TRUSTED_DOMAIN_AUTH_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_auth_information">TRUSTED_DOMAIN_AUTH_INFORMATION</a> structure.
 
 
 ### -field TrustedDomainFullInformation
 
 Query complete information for a trusted domain. This information includes the Posix offset information, authentication information, and the extended information returned for the <b>TrustedDomainInformationEx</b> value. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_domain_full_information">TRUSTED_DOMAIN_FULL_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_full_information">TRUSTED_DOMAIN_FULL_INFORMATION</a> structure.
 
 
 ### -field TrustedDomainAuthInformationInternal
@@ -144,19 +144,19 @@ Query complete information for a trusted domain. This information includes the P
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_domain_auth_information">TRUSTED_DOMAIN_AUTH_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_auth_information">TRUSTED_DOMAIN_AUTH_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_domain_full_information">TRUSTED_DOMAIN_FULL_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_full_information">TRUSTED_DOMAIN_FULL_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_domain_name_info">TRUSTED_DOMAIN_NAME_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_name_info">TRUSTED_DOMAIN_NAME_INFO</a>
 
 
 
@@ -164,7 +164,7 @@ Query complete information for a trusted domain. This information includes the P
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_posix_offset_info">TRUSTED_POSIX_OFFSET_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_posix_offset_info">TRUSTED_POSIX_OFFSET_INFO</a>
  
 
  

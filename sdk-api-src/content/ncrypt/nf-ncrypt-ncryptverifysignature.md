@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_PAD_PKCS1_FLAG, NCRYPT_PAD_PSS_FLAG, NCRYPT_SILENT_FLAG, NCryptVerifySignature, NCryptVerifySignature function [Security], ncrypt/NCryptVerifySignature, security.ncryptverifysignature_func
 ms.topic: function
-f1_keywords: 
- - "ncrypt/NCryptVerifySignature"
+f1_keywords:
+- ncrypt/NCryptVerifySignature
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ncrypt.dll
+- Ncrypt.dll
 api_name:
- - NCryptVerifySignature
+- NCryptVerifySignature
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -121,7 +121,7 @@ The PKCS1 padding scheme was used when the signature was created. The <i>pPaddin
 </dl>
 </td>
 <td width="60%">
-The Probabilistic Signature Scheme (PSS) padding scheme was used when the signature was created. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_pss_padding_info">BCRYPT_PSS_PADDING_INFO</a> structure.
+The Probabilistic Signature Scheme (PSS) padding scheme was used when the signature was created. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_pss_padding_info">BCRYPT_PSS_PADDING_INFO</a> structure.
 
 </td>
 </tr>

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROPERTY_RADIUSPROXY_SERVERGROUPS, RADIUSPROXYPROPERTIES, RADIUSPROXYPROPERTIES enumeration [Network Policy Server], _sdo_radiusproxyproperties, nps.SDO_radiusproxyproperties, sdo.radiusproxyproperties, sdoias/PROPERTY_RADIUSPROXY_SERVERGROUPS, sdoias/RADIUSPROXYPROPERTIES
 ms.topic: enum
-f1_keywords: 
- - "sdoias/RADIUSPROXYPROPERTIES"
+f1_keywords:
+- sdoias/RADIUSPROXYPROPERTIES
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - RADIUSPROXYPROPERTIES
+- RADIUSPROXYPROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: RADIUSPROXYPROPERTIES
@@ -70,7 +70,7 @@ The collection of RADIUS proxy server groups.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_radiusservergroupproperties">RADIUSSERVERGROUPPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-radiusservergroupproperties">RADIUSSERVERGROUPPROPERTIES</a>
  
 
  

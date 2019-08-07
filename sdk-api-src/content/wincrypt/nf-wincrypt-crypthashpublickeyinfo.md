@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptHashPublicKeyInfo, CryptHashPublicKeyInfo function [Security], _crypto2_crypthashpublickeyinfo, security.crypthashpublickeyinfo, wincrypt/CryptHashPublicKeyInfo
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptHashPublicKeyInfo"
+f1_keywords:
+- wincrypt/CryptHashPublicKeyInfo
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptHashPublicKeyInfo
+- CryptHashPublicKeyInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptHashPublicKeyInfo</b> function encodes the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> information in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure and computes the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the encoded bytes. The hash created is used with 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure and computes the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the encoded bytes. The hash created is used with 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">key identifier functions</a>.
 
 
@@ -99,7 +99,7 @@ Currently defined encoding types are:
 ### -param pInfo [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> information to be encoded and hashed.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> information to be encoded and hashed.
 
 
 ### -param pbComputedHash [out]

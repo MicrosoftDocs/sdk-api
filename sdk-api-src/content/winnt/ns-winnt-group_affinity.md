@@ -8,10 +8,10 @@ tech.root: ProcThread
 ms.assetid: 76009431-9139-4c03-9c7b-0c4bb5f0cb83
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PGROUP_AFFINITY, GROUP_AFFINITY, GROUP_AFFINITY structure, PGROUP_AFFINITY, PGROUP_AFFINITY structure pointer, base.group_affinity, winnt/GROUP_AFFINITY, winnt/PGROUP_AFFINITY"
+ms.keywords: '*PGROUP_AFFINITY, GROUP_AFFINITY, GROUP_AFFINITY structure, PGROUP_AFFINITY, PGROUP_AFFINITY structure pointer, base.group_affinity, winnt/GROUP_AFFINITY, winnt/PGROUP_AFFINITY'
 ms.topic: struct
-f1_keywords: 
- - "winnt/GROUP_AFFINITY"
+f1_keywords:
+- winnt/GROUP_AFFINITY
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - GROUP_AFFINITY
+- GROUP_AFFINITY
 product: Windows
 targetos: Windows
 req.typenames: GROUP_AFFINITY, *PGROUP_AFFINITY
@@ -79,11 +79,11 @@ This member is reserved.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_cache_relationship">CACHE_RELATIONSHIP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-cache_relationship">CACHE_RELATIONSHIP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_numa_node_relationship">NUMA_NODE_RELATIONSHIP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-numa_node_relationship">NUMA_NODE_RELATIONSHIP</a>
 
 
 

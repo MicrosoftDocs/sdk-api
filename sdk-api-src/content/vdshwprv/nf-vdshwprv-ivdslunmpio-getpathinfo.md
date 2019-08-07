@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPathInfo, GetPathInfo method [VDS], GetPathInfo method [VDS],IVdsLunMpio interface, IVdsLunMpio interface [VDS],GetPathInfo method, IVdsLunMpio.GetPathInfo, IVdsLunMpio::GetPathInfo, base.ivdslunmpio_getpathinfo, vds/IVdsLunMpio::GetPathInfo, vdshwprv/IVdsLunMpio::GetPathInfo
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsLunMpio.GetPathInfo"
+f1_keywords:
+- vdshwprv/IVdsLunMpio.GetPathInfo
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsLunMpio.GetPathInfo
+- IVdsLunMpio.GetPathInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-Returns an array of <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_path_info">VDS_PATH_INFO</a> structures, 
+Returns an array of <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_info">VDS_PATH_INFO</a> structures, 
      one for each path to the LUN.
 
 
@@ -65,7 +65,7 @@ Returns an array of <a href="https://docs.microsoft.com/windows/desktop/api/vdsh
 
 ### -param ppPaths [out]
 
-The address of a variable that receives an array of <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_path_info">VDS_PATH_INFO</a> structures. Callers must free each element in the array, and the array itself, by using 
+The address of a variable that receives an array of <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_info">VDS_PATH_INFO</a> structures. Callers must free each element in the array, and the array itself, by using 
       the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 
@@ -166,7 +166,7 @@ Another operation is in progress. This operation cannot proceed until previous o
 
 
 Hardware providers do not need to return the <b>VDS_OBJECT_ID</b> at hbaPortProp.id of 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_path_info">VDS_PATH_INFO</a> and should just set this to 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_info">VDS_PATH_INFO</a> and should just set this to 
     <b>GUID_NULL</b>. This ID will be filled in by the system when this call is passed back to 
     applications. If the service cannot find the corresponding HBA port,  <b>GUID_NULL</b> will be 
     used. The application will interpret this to mean that the HBA port is unknown to VDS.
@@ -183,7 +183,7 @@ Hardware providers do not need to return the <b>VDS_OBJECT_ID</b> at hbaPortProp
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_path_info">VDS_PATH_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_info">VDS_PATH_INFO</a>
  
 
  

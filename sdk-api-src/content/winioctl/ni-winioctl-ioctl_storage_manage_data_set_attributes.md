@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES, IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control, IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code, base.ioctl_storage_manage_data_set_attributes, winioctl/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES"
+f1_keywords:
+- winioctl/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
+- IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -196,7 +196,7 @@ The input buffers passed through the <i>lpInBuffer</i> parameter start with a
 <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_dsm_offload_read_parameters">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_offload_read_output">STORAGE_OFFLOAD_READ_OUTPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_offload_read_output">STORAGE_OFFLOAD_READ_OUTPUT</a>
 </td>
 </tr>
 <tr>
@@ -205,7 +205,7 @@ The input buffers passed through the <i>lpInBuffer</i> parameter start with a
 <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_dsm_offload_write_parameters">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_offload_write_output">STORAGE_OFFLOAD_WRITE_OUTPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_offload_write_output">STORAGE_OFFLOAD_WRITE_OUTPUT</a>
 </td>
 </tr>
 <tr>

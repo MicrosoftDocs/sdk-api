@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcServerUseProtseqEpEx, RpcServerUseProtseqEpEx function [RPC], RpcServerUseProtseqEpExA, RpcServerUseProtseqEpExW, _rpc_rpcserveruseprotseqepex, rpc.rpcserveruseprotseqepex, rpcdce/RpcServerUseProtseqEpEx, rpcdce/RpcServerUseProtseqEpExA, rpcdce/RpcServerUseProtseqEpExW
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcServerUseProtseqEpEx"
+f1_keywords:
+- rpcdce/RpcServerUseProtseqEpEx
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcServerUseProtseqEpEx
- - RpcServerUseProtseqEpExA
- - RpcServerUseProtseqEpExW
+- RpcServerUseProtseqEpEx
+- RpcServerUseProtseqEpExA
+- RpcServerUseProtseqEpExW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -85,7 +85,7 @@ Pointer to an optional parameter provided for the security subsystem. Used only 
 ### -param Policy
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_policy">RPC_POLICY</a> structure, which contains flags that set transport-specific attributes. In the case of the <b>ncadg_mq</b> transport, these flags specify the properties of the server process–receive queue. In the case of the <b>ncacn_ip_tcp</b> or <b>ncadg_ip_udp</b> transports, these flags restrict port allocation for dynamic ports and allow multihomed computers to selectively bind to network interface cards. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_policy">RPC_POLICY</a> structure, which contains flags that set transport-specific attributes. In the case of the <b>ncadg_mq</b> transport, these flags specify the properties of the server process–receive queue. In the case of the <b>ncacn_ip_tcp</b> or <b>ncadg_ip_udp</b> transports, these flags restrict port allocation for dynamic ports and allow multihomed computers to selectively bind to network interface cards. 
 
 
 
@@ -197,7 +197,7 @@ The security descriptor is invalid.
 The parameters and effects of 
 <b>RpcServerUseProtseqEpEx</b> subsume those of 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqep">RpcServerUseProtseqEp</a>. The difference is the <i>Policy</i> parameter, which allows you to set specific policies at the endpoints. Setting the <b>NICFlags</b> field of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_policy">RPC_POLICY</a> structure to zero makes this extended function equivalent to the original 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_policy">RPC_POLICY</a> structure to zero makes this extended function equivalent to the original 
 <b>RpcServerUseProtseqEp</b> when used with the <b>ncacn_ip_tcp</b> or <b>ncadg_ip_udp</b> transports.
 
 A server application calls 
@@ -230,7 +230,7 @@ For more information, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_policy">RPC_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_policy">RPC_POLICY</a>
 
 
 

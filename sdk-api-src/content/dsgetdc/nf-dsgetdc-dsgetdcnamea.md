@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_AVOID_SELF, DS_BACKGROUND_ONLY, DS_DIRECTORY_SERVICE_6_REQUIRED, DS_DIRECTORY_SERVICE_8_REQUIRED, DS_DIRECTORY_SERVICE_PREFERRED, DS_DIRECTORY_SERVICE_REQUIRED, DS_FORCE_REDISCOVERY, DS_GC_SERVER_REQUIRED, DS_GOOD_TIMESERV_PREFERRED, DS_IP_REQUIRED, DS_IS_DNS_NAME, DS_IS_FLAT_NAME, DS_KDC_REQUIRED, DS_ONLY_LDAP_NEEDED, DS_PDC_REQUIRED, DS_RETURN_DNS_NAME, DS_RETURN_FLAT_NAME, DS_TIMESERV_REQUIRED, DS_TRY_NEXTCLOSEST_SITE, DS_WEB_SERVICE_REQUIRED, DS_WRITABLE_REQUIRED, DsGetDcName, DsGetDcName function [Active Directory], DsGetDcNameA, DsGetDcNameW, _glines_dsgetdcname, ad.dsgetdcname, dsgetdc/DsGetDcName, dsgetdc/DsGetDcNameA, dsgetdc/DsGetDcNameW
 ms.topic: function
-f1_keywords: 
- - "dsgetdc/DsGetDcName"
+f1_keywords:
+- dsgetdc/DsGetDcName
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: NetApi32.lib
 req.dll: NetApi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - NetApi32.dll
- - logoncli.dll
+- NetApi32.dll
+- logoncli.dll
 api_name:
- - DsGetDcName
- - DsGetDcNameA
- - DsGetDcNameW
+- DsGetDcName
+- DsGetDcNameA
+- DsGetDcNameW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -338,7 +338,7 @@ Requires that the returned domain controller be currently running the Active Dir
 ### -param DomainControllerInfo [out]
 
 Pointer to a <b>PDOMAIN_CONTROLLER_INFO</b> value that receives a pointer to a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/ns-dsgetdc-_domain_controller_infoa">DOMAIN_CONTROLLER_INFO</a> structure that contains 
+      <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/ns-dsgetdc-domain_controller_infoa">DOMAIN_CONTROLLER_INFO</a> structure that contains 
       data  about the domain controller selected. This structure is allocated by 
       <b>DsGetDcName</b>. The caller must free the structure using the 
       <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function when it is no longer 
@@ -647,7 +647,7 @@ Run the following command to stop the trace session:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/ns-dsgetdc-_domain_controller_infoa">DOMAIN_CONTROLLER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/ns-dsgetdc-domain_controller_infoa">DOMAIN_CONTROLLER_INFO</a>
 
 
 

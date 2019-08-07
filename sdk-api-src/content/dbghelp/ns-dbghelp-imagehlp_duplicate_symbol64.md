@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: 47ef96d5-94ba-487c-8678-59ddd18ad449
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PIMAGEHLP_DUPLICATE_SYMBOL64, IMAGEHLP_DUPLICATE_SYMBOL, IMAGEHLP_DUPLICATE_SYMBOL structure, IMAGEHLP_DUPLICATE_SYMBOL64, IMAGEHLP_DUPLICATE_SYMBOL64 structure, PIMAGEHLP_DUPLICATE_SYMBOL64, PIMAGEHLP_DUPLICATE_SYMBOL64 structure pointer, _IMAGEHLP_DUPLICATE_SYMBOL64, _win32_imagehlp_duplicate_symbol64_str, base.imagehlp_duplicate_symbol64_str, dbghelp/IMAGEHLP_DUPLICATE_SYMBOL64, dbghelp/PIMAGEHLP_DUPLICATE_SYMBOL64"
+ms.keywords: '*PIMAGEHLP_DUPLICATE_SYMBOL64, IMAGEHLP_DUPLICATE_SYMBOL, IMAGEHLP_DUPLICATE_SYMBOL structure, IMAGEHLP_DUPLICATE_SYMBOL64, IMAGEHLP_DUPLICATE_SYMBOL64 structure, PIMAGEHLP_DUPLICATE_SYMBOL64, PIMAGEHLP_DUPLICATE_SYMBOL64 structure pointer, _IMAGEHLP_DUPLICATE_SYMBOL64, _win32_imagehlp_duplicate_symbol64_str, base.imagehlp_duplicate_symbol64_str, dbghelp/IMAGEHLP_DUPLICATE_SYMBOL64, dbghelp/PIMAGEHLP_DUPLICATE_SYMBOL64'
 ms.topic: struct
-f1_keywords: 
- - "dbghelp/IMAGEHLP_DUPLICATE_SYMBOL64"
+f1_keywords:
+- dbghelp/IMAGEHLP_DUPLICATE_SYMBOL64
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - IMAGEHLP_DUPLICATE_SYMBOL64
- - IMAGEHLP_DUPLICATE_SYMBOL
+- IMAGEHLP_DUPLICATE_SYMBOL64
+- IMAGEHLP_DUPLICATE_SYMBOL
 product: Windows
 targetos: Windows
 req.typenames: IMAGEHLP_DUPLICATE_SYMBOL64, *PIMAGEHLP_DUPLICATE_SYMBOL64
@@ -73,7 +73,7 @@ The number of duplicate symbols.
 ### -field Symbol
 
 A pointer to an array of symbols (
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_symbol">IMAGEHLP_SYMBOL64</a> structures). The number of entries in the array is specified by the <b>NumberOfDups</b> member.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_symbol">IMAGEHLP_SYMBOL64</a> structures). The number of entries in the array is specified by the <b>NumberOfDups</b> member.
 
 
 ### -field SelectedSymbol
@@ -112,7 +112,7 @@ typedef struct _IMAGEHLP_DUPLICATE_SYMBOL {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_symbol">IMAGEHLP_SYMBOL64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_symbol">IMAGEHLP_SYMBOL64</a>
 
 
 

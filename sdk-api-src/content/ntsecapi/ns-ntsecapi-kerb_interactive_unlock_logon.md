@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 211d89e9-36a6-4177-8eea-d01eca320718
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PKERB_INTERACTIVE_UNLOCK_LOGON, KERB_INTERACTIVE_UNLOCK_LOGON, KERB_INTERACTIVE_UNLOCK_LOGON structure [Security], PKERB_INTERACTIVE_UNLOCK_LOGON, PKERB_INTERACTIVE_UNLOCK_LOGON structure pointer [Security], ntsecapi/KERB_INTERACTIVE_UNLOCK_LOGON, ntsecapi/PKERB_INTERACTIVE_UNLOCK_LOGON, security.kerb_interactive_unlock_logon"
+ms.keywords: '*PKERB_INTERACTIVE_UNLOCK_LOGON, KERB_INTERACTIVE_UNLOCK_LOGON, KERB_INTERACTIVE_UNLOCK_LOGON structure [Security], PKERB_INTERACTIVE_UNLOCK_LOGON, PKERB_INTERACTIVE_UNLOCK_LOGON structure pointer [Security], ntsecapi/KERB_INTERACTIVE_UNLOCK_LOGON, ntsecapi/PKERB_INTERACTIVE_UNLOCK_LOGON, security.kerb_interactive_unlock_logon'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/KERB_INTERACTIVE_UNLOCK_LOGON"
+f1_keywords:
+- ntsecapi/KERB_INTERACTIVE_UNLOCK_LOGON
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - KERB_INTERACTIVE_UNLOCK_LOGON
+- KERB_INTERACTIVE_UNLOCK_LOGON
 product: Windows
 targetos: Windows
 req.typenames: KERB_INTERACTIVE_UNLOCK_LOGON, *PKERB_INTERACTIVE_UNLOCK_LOGON
@@ -61,7 +61,7 @@ The <b>KERB_INTERACTIVE_UNLOCK_LOGON</b> structure contains information used to 
 
 ### -field Logon
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a> structure that specifies the interactive logon session. The <b>MessageType</b> member of the <b>KERB_INTERACTIVE_LOGON</b> structure must be set to <b>KerbWorkstationUnlockLogon</b>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a> structure that specifies the interactive logon session. The <b>MessageType</b> member of the <b>KERB_INTERACTIVE_LOGON</b> structure must be set to <b>KerbWorkstationUnlockLogon</b>.
 
 
 ### -field LogonId
@@ -74,7 +74,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a>
  
 
  

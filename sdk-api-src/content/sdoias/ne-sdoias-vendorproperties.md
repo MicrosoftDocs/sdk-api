@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROPERTY_NAS_VENDOR_ID, VENDORPROPERTIES, VENDORPROPERTIES enumeration [Network Policy Server], _sdo_vendorproperties, nps.SDO_vendorproperties, sdo.vendorproperties, sdoias/PROPERTY_NAS_VENDOR_ID, sdoias/VENDORPROPERTIES
 ms.topic: enum
-f1_keywords: 
- - "sdoias/VENDORPROPERTIES"
+f1_keywords:
+- sdoias/VENDORPROPERTIES
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - VENDORPROPERTIES
+- VENDORPROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: VENDORPROPERTIES
@@ -70,11 +70,11 @@ The SMI Network Management Private Enterprise Code assigned to this vendor by th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iascommonproperties">IASCOMMONPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_radiusproperties">RADIUSPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-radiusproperties">RADIUSPROPERTIES</a>
  
 
  

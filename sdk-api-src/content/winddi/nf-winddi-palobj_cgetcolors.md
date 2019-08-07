@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PALOBJ_cGetColors, PALOBJ_cGetColors function [Display Devices], display.palobj_cgetcolors, gdifncs_b7181e52-6f68-4901-9d52-1791a973e6d6.xml, winddi/PALOBJ_cGetColors
 ms.topic: function
-f1_keywords: 
- - "winddi/PALOBJ_cGetColors"
+f1_keywords:
+- winddi/PALOBJ_cGetColors
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - PALOBJ_cGetColors
+- PALOBJ_cGetColors
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>PALOBJ_cGetColors</b> function copies RGB colors from an indexed palette.
 
 ### -param ppalo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_palobj">PALOBJ</a> structure that contains the RGB colors to be copied.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-palobj">PALOBJ</a> structure that contains the RGB colors to be copied.
 
 
 ### -param iStart
@@ -106,7 +106,7 @@ A graphics driver can call this function in its implementation of <a href="https
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_palobj">PALOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-palobj">PALOBJ</a>
  
 
  

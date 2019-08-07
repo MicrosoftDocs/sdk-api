@@ -8,10 +8,10 @@ tech.root: P2PSdk
 ms.assetid: 02031191-3682-45f6-a6c5-8546153bc681
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPNRPINFO_V2, PNRPINFO, PNRPINFO structure [Peer Networking], PNRPINFO_V1, PNRPINFO_V1 structure [Peer Networking], PNRPINFO_V2, PPNRPINFO, PPNRPINFO structure pointer [Peer Networking], PPNRPINFO_V1, PPNRPINFO_V1 structure pointer [Peer Networking], p2p.pnrpinfo, pnrpns/PNRPINFO, pnrpns/PNRPINFO_V1, pnrpns/PPNRPINFO, pnrpns/PPNRPINFO_V1"
+ms.keywords: '*PPNRPINFO_V2, PNRPINFO, PNRPINFO structure [Peer Networking], PNRPINFO_V1, PNRPINFO_V1 structure [Peer Networking], PNRPINFO_V2, PPNRPINFO, PPNRPINFO structure pointer [Peer Networking], PPNRPINFO_V1, PPNRPINFO_V1 structure pointer [Peer Networking], p2p.pnrpinfo, pnrpns/PNRPINFO, pnrpns/PNRPINFO_V1, pnrpns/PPNRPINFO, pnrpns/PPNRPINFO_V1'
 ms.topic: struct
-f1_keywords: 
- - "pnrpns/PNRPINFO_V1"
+f1_keywords:
+- pnrpns/PNRPINFO_V1
 req.header: pnrpns.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pnrpns.h
+- Pnrpns.h
 api_name:
- - PNRPINFO_V1
+- PNRPINFO_V1
 product: Windows
 targetos: Windows
 req.typenames: PNRPINFO_V2, *PPNRPINFO_V2
@@ -86,7 +86,7 @@ Specifies the number of seconds between refresh operations. Must be   86400 (24 
 
 ### -field enResolveCriteria
 
-Specifies the criteria used to resolve matches.  PNRP can look for the first matching name, or attempt to find a name that is numerically close to the service location. Valid values are specified by <a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ne-pnrpdef-_pnrp_resolve_criteria">PNRP_RESOLVE_CRITERIA</a>.
+Specifies the criteria used to resolve matches.  PNRP can look for the first matching name, or attempt to find a name that is numerically close to the service location. Valid values are specified by <a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ne-pnrpdef-pnrp_resolve_criteria">PNRP_RESOLVE_CRITERIA</a>.
 
 
 ### -field dwFlags

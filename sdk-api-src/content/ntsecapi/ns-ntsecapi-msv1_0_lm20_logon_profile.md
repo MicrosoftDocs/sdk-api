@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 4bf69171-1f92-40df-ab0f-cd6790ce34f1
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMSV1_0_LM20_LOGON_PROFILE, LOGON_CACHED_ACCOUNT, LOGON_EXTRA_SIDS, LOGON_GUEST, LOGON_NOENCRYPTION, LOGON_PROFILE_PATH_RETURNED, LOGON_RESOURCE_GROUPS, LOGON_SERVER_TRUST_ACCOUNT, LOGON_SUBAUTH_SESSION_KEY, LOGON_USED_LM_PASSWORD, MSV1_0_LM20_LOGON_PROFILE, MSV1_0_LM20_LOGON_PROFILE structure [Security], PMSV1_0_LM20_LOGON_PROFILE, PMSV1_0_LM20_LOGON_PROFILE structure pointer [Security], _lsa_msv1_0_lm20_logon_profile, ntsecapi/MSV1_0_LM20_LOGON_PROFILE, ntsecapi/PMSV1_0_LM20_LOGON_PROFILE, security.msv1_0_lm20_logon_profile"
+ms.keywords: '*PMSV1_0_LM20_LOGON_PROFILE, LOGON_CACHED_ACCOUNT, LOGON_EXTRA_SIDS, LOGON_GUEST, LOGON_NOENCRYPTION, LOGON_PROFILE_PATH_RETURNED, LOGON_RESOURCE_GROUPS, LOGON_SERVER_TRUST_ACCOUNT, LOGON_SUBAUTH_SESSION_KEY, LOGON_USED_LM_PASSWORD, MSV1_0_LM20_LOGON_PROFILE, MSV1_0_LM20_LOGON_PROFILE structure [Security], PMSV1_0_LM20_LOGON_PROFILE, PMSV1_0_LM20_LOGON_PROFILE structure pointer [Security], _lsa_msv1_0_lm20_logon_profile, ntsecapi/MSV1_0_LM20_LOGON_PROFILE, ntsecapi/PMSV1_0_LM20_LOGON_PROFILE, security.msv1_0_lm20_logon_profile'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/MSV1_0_LM20_LOGON_PROFILE"
+f1_keywords:
+- ntsecapi/MSV1_0_LM20_LOGON_PROFILE
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - MSV1_0_LM20_LOGON_PROFILE
+- MSV1_0_LM20_LOGON_PROFILE
 product: Windows
 targetos: Windows
 req.typenames: MSV1_0_LM20_LOGON_PROFILE, *PMSV1_0_LM20_LOGON_PROFILE
@@ -199,7 +199,7 @@ Contains a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">s
 ### -field LogonDomainName
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the name of the logon domain.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the name of the logon domain.
 
 
 ### -field LanmanSessionKey
@@ -210,13 +210,13 @@ Contains the Lanman session key. This string is MSV1_0_LANMAN_SESSION_KEY_LENGTH
 ### -field LogonServer
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the name of the server that processed the logon request.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the name of the server that processed the logon request.
 
 
 ### -field UserParameters
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing user parameters. These parameters are primarily used by RAS to store RAS dial-in permissions for the user. In general, developers should not modify this member.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing user parameters. These parameters are primarily used by RAS to store RAS dial-in permissions for the user. In general, developers should not modify this member.
 
 
 ## -see-also

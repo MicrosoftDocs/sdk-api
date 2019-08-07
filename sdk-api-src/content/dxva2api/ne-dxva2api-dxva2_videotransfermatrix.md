@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 682fa0c7-8f17-457f-9f8a-dc9190866152, DXVA2_VideoTransferMatrix, DXVA2_VideoTransferMatrix enumeration [Media Foundation], DXVA2_VideoTransferMatrixMask, DXVA2_VideoTransferMatrix_BT601, DXVA2_VideoTransferMatrix_BT709, DXVA2_VideoTransferMatrix_SMPTE240M, DXVA2_VideoTransferMatrix_Unknown, dxva2api/DXVA2_VideoTransferMatrix, dxva2api/DXVA2_VideoTransferMatrixMask, dxva2api/DXVA2_VideoTransferMatrix_BT601, dxva2api/DXVA2_VideoTransferMatrix_BT709, dxva2api/DXVA2_VideoTransferMatrix_SMPTE240M, dxva2api/DXVA2_VideoTransferMatrix_Unknown, mf.dxva2_videotransfermatrix
 ms.topic: enum
-f1_keywords: 
- - "dxva2api/DXVA2_VideoTransferMatrix"
+f1_keywords:
+- dxva2api/DXVA2_VideoTransferMatrix
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - DXVA2_VideoTransferMatrix
+- DXVA2_VideoTransferMatrix
 product: Windows
 targetos: Windows
 req.typenames: DXVA2_VideoTransferMatrix
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes the conversion matrices between Y'PbPr (component video) and studio R'G'B'. These flags are used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
+Describes the conversion matrices between Y'PbPr (component video) and studio R'G'B'. These flags are used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
 
 
 ## -enum-fields

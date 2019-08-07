@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 10, 2, NetSessionGetInfo, NetSessionGetInfo function [Files], _win32_netsessiongetinfo, fs.netsessiongetinfo, lmshare/NetSessionGetInfo, netmgmt.netsessiongetinfo
 ms.topic: function
-f1_keywords: 
- - "lmshare/NetSessionGetInfo"
+f1_keywords:
+- lmshare/NetSessionGetInfo
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetSessionGetInfo
+- NetSessionGetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -100,7 +100,7 @@ Return the name of the computer that established the session.
 
 
 The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_0">SESSION_INFO_0</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_0">SESSION_INFO_0</a> structure.
 							
 
 </td>
@@ -115,7 +115,7 @@ Return the name of the computer, name of the user, and open files, pipes, and de
 
 
 The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_1">SESSION_INFO_1</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_1">SESSION_INFO_1</a> structure.
 							
 
 </td>
@@ -130,7 +130,7 @@ In addition to the information indicated for level 1, return the type of client 
 
 
 The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_2">SESSION_INFO_2</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_2">SESSION_INFO_2</a> structure.
 							
 
 </td>
@@ -145,7 +145,7 @@ Return the name of the computer; name of the user; and active and idle times for
 
 
 The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_10">SESSION_INFO_10</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_10">SESSION_INFO_10</a> structure.
 							
 
 </td>
@@ -282,7 +282,7 @@ If you call this function at information level 1 or 2 on a member server or work
 The following code sample demonstrates how to retrieve information about a session using a call to the 
 <b>NetSessionGetInfo</b> function. The sample calls 
 <b>NetSessionGetInfo</b>, specifying information level 10 (
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_10">SESSION_INFO_10</a>). If the call succeeds, the code prints information about the session. Finally, the sample frees the memory allocated for the information buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_10">SESSION_INFO_10</a>). If the call succeeds, the code prints information about the session. Finally, the sample frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -389,19 +389,19 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_0">SESSION_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_0">SESSION_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_1">SESSION_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_1">SESSION_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_10">SESSION_INFO_10</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_10">SESSION_INFO_10</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_2">SESSION_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_2">SESSION_INFO_2</a>
 
 
 

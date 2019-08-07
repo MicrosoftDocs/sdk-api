@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XInputGetCapabilities, XInputGetCapabilities function [XInput Game Controller APIs], xinput.xinputgetcapabilities, xinput/XInputGetCapabilities
 ms.topic: function
-f1_keywords: 
- - "xinput/XInputGetCapabilities"
+f1_keywords:
+- xinput/XInputGetCapabilities
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Xinput.lib; Xinput9_1_0.lib
 req.dll: Xinput1_4.dll; Xinput9_1_0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - xinput1_4.dll
- - xinput9_1_0.dll
- - Ext-MS-Win-Gaming-XInput-L1-1-0.dll
- - xinputuap.dll
+- xinput1_4.dll
+- xinput9_1_0.dll
+- Ext-MS-Win-Gaming-XInput-L1-1-0.dll
+- xinputuap.dll
 api_name:
- - XInputGetCapabilities
+- XInputGetCapabilities
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -88,7 +88,7 @@ Any value of <i>dwflags</i> other than the above or 0 is illegal and will result
 
 ### -param pCapabilities [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-_xinput_capabilities">XINPUT_CAPABILITIES</a> structure that receives the controller capabilities.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_capabilities">XINPUT_CAPABILITIES</a> structure that receives the controller capabilities.
 
 
 ## -returns

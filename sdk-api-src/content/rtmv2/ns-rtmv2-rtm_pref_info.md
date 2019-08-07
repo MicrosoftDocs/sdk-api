@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 50aa7f8e-9d89-44bd-897e-f0040f579d24
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRTM_PREF_INFO, PRTM_PREF_INFO, PRTM_PREF_INFO structure pointer [RAS], RTM_PREF_INFO, RTM_PREF_INFO structure [RAS], _rtmv2ref_rtm_pref_info, rras.rtm_pref_info, rtmv2/PRTM_PREF_INFO, rtmv2/RTM_PREF_INFO"
+ms.keywords: '*PRTM_PREF_INFO, PRTM_PREF_INFO, PRTM_PREF_INFO structure pointer [RAS], RTM_PREF_INFO, RTM_PREF_INFO structure [RAS], _rtmv2ref_rtm_pref_info, rras.rtm_pref_info, rtmv2/PRTM_PREF_INFO, rtmv2/RTM_PREF_INFO'
 ms.topic: struct
-f1_keywords: 
- - "rtmv2/RTM_PREF_INFO"
+f1_keywords:
+- rtmv2/RTM_PREF_INFO
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rtmv2.h
+- Rtmv2.h
 api_name:
- - RTM_PREF_INFO
+- RTM_PREF_INFO
 product: Windows
 targetos: Windows
 req.typenames: RTM_PREF_INFO, *PRTM_PREF_INFO
@@ -84,7 +84,7 @@ Preference is more important than metric. The metric is only  checked if the pre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_route_info">RTM_ROUTE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_route_info">RTM_ROUTE_INFO</a>
  
 
  

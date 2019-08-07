@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceDeviceSetInfo, MprAdminInterfaceDeviceSetInfo function [RAS], _mpr_mpradmininterfacedevicesetinfo, mprapi/MprAdminInterfaceDeviceSetInfo, rras.mpradmininterfacedevicesetinfo
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminInterfaceDeviceSetInfo"
+f1_keywords:
+- mprapi/MprAdminInterfaceDeviceSetInfo
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminInterfaceDeviceSetInfo
+- MprAdminInterfaceDeviceSetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -90,13 +90,13 @@ A DWORD value that describes the format in which the information is structured i
 <tr>
 <td>0</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_device_0">MPR_DEVICE_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_device_0">MPR_DEVICE_0</a>
 </td>
 </tr>
 <tr>
 <td>1</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_device_1">MPR_DEVICE_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_device_1">MPR_DEVICE_1</a>
 </td>
 </tr>
 </table>
@@ -105,7 +105,7 @@ A DWORD value that describes the format in which the information is structured i
 
 ### -param lpbBuffer [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_device_0">MPR_DEVICE_0</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_device_1">MPR_DEVICE_1</a> structure. The <i>dwLevel</i> parameter indicates the type of structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_device_0">MPR_DEVICE_0</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_device_1">MPR_DEVICE_1</a> structure. The <i>dwLevel</i> parameter indicates the type of structure.
 					
 
 
@@ -188,11 +188,11 @@ The <i>dwLevel</i> value is invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_device_0">MPR_DEVICE_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_device_0">MPR_DEVICE_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_device_1">MPR_DEVICE_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_device_1">MPR_DEVICE_1</a>
 
 
 

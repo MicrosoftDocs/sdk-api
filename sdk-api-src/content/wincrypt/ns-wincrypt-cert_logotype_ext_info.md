@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 5013241b-439e-4aea-9161-699ee69c65c9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_LOGOTYPE_EXT_INFO, CERT_LOGOTYPE_EXT_INFO, CERT_LOGOTYPE_EXT_INFO structure [Security], PCERT_LOGOTYPE_EXT_INFO, PCERT_LOGOTYPE_EXT_INFO structure pointer [Security], security.cert_logotype_ext_info, wincrypt/CERT_LOGOTYPE_EXT_INFO, wincrypt/PCERT_LOGOTYPE_EXT_INFO"
+ms.keywords: '*PCERT_LOGOTYPE_EXT_INFO, CERT_LOGOTYPE_EXT_INFO, CERT_LOGOTYPE_EXT_INFO structure [Security], PCERT_LOGOTYPE_EXT_INFO, PCERT_LOGOTYPE_EXT_INFO structure pointer [Security], security.cert_logotype_ext_info, wincrypt/CERT_LOGOTYPE_EXT_INFO, wincrypt/PCERT_LOGOTYPE_EXT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_LOGOTYPE_EXT_INFO"
+f1_keywords:
+- wincrypt/CERT_LOGOTYPE_EXT_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_LOGOTYPE_EXT_INFO
+- CERT_LOGOTYPE_EXT_INFO
 product: Windows
 targetos: Windows
 req.typenames: CERT_LOGOTYPE_EXT_INFO, *PCERT_LOGOTYPE_EXT_INFO
@@ -66,17 +66,17 @@ The number of elements in the <b>rgCommunityLogo</b> array.
 
 ### -field rgCommunityLogo
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_logotype_info">CERT_LOGOTYPE_INFO</a> structures that contain the community logotypes. The <b>cCommunityLogo</b>  member contains the number of elements in this array.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_info">CERT_LOGOTYPE_INFO</a> structures that contain the community logotypes. The <b>cCommunityLogo</b>  member contains the number of elements in this array.
 
 
 ### -field pIssuerLogo
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_logotype_info">CERT_LOGOTYPE_INFO</a> structure that contains the issuer logotype. This member is optional and may be <b>NULL</b>.
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_info">CERT_LOGOTYPE_INFO</a> structure that contains the issuer logotype. This member is optional and may be <b>NULL</b>.
 
 
 ### -field pSubjectLogo
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_logotype_info">CERT_LOGOTYPE_INFO</a> structure that contains the subject logotype. This member is optional and may be <b>NULL</b>.
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_info">CERT_LOGOTYPE_INFO</a> structure that contains the subject logotype. This member is optional and may be <b>NULL</b>.
 
 
 ### -field cOtherLogo
@@ -86,7 +86,7 @@ The number of elements in the <b>rgOtherLogo</b> array.
 
 ### -field rgOtherLogo
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_other_logotype_info">CERT_OTHER_LOGOTYPE_INFO</a> structures that contain any other logotypes. The <b>cOtherLogo</b>  member contains the number of elements in this array.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_other_logotype_info">CERT_OTHER_LOGOTYPE_INFO</a> structures that contain any other logotypes. The <b>cOtherLogo</b>  member contains the number of elements in this array.
 
 
 ## -see-also

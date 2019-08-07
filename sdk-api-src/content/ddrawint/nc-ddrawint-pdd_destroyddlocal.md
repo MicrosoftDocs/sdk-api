@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3dDestroyDDLocal, D3dDestroyDDLocal callback function [Display Devices], PDD_DESTROYDDLOCAL, PDD_DESTROYDDLOCAL callback, d3dfncs_3480b8ff-c19d-4495-ab5e-d5ef4e326967.xml, ddrawint/D3dDestroyDDLocal, display.d3ddestroyddlocal
 ms.topic: callback
-f1_keywords: 
- - "ddrawint/D3dDestroyDDLocal"
+f1_keywords:
+- ddrawint/D3dDestroyDDLocal
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - D3dDestroyDDLocal
+- D3dDestroyDDLocal
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -92,7 +92,7 @@ Direct3D calls <b>D3dDestroyDDLocal</b> when the application indicates that the 
 
 The driver should not destroy the DirectDraw surfaces associated with these Direct3D surfaces. This is the application's responsibility.
 
-The pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that was passed in as the <b>lpDDLcl</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_d3dhal_contextcreatedata">D3DHAL_CONTEXTCREATEDATA</a> structure when <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_contextcreatecb">D3dContextCreate</a> was called is released by the operating system after <b>D3dDestroyDDLocal</b> returns. 
+The pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that was passed in as the <b>lpDDLcl</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_d3dhal_contextcreatedata">D3DHAL_CONTEXTCREATEDATA</a> structure when <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_contextcreatecb">D3dContextCreate</a> was called is released by the operating system after <b>D3dDestroyDDLocal</b> returns. 
 
 <b>D3dDestroyDDLocal</b> can be called with a disabled <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a>. A PDEV is disabled or enabled by calling the display driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvassertmode">DrvAssertMode</a> function. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/managing-pdevs">Managing PDEVs</a> for more information. 
 
@@ -120,7 +120,7 @@ The pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a>
  
 
  

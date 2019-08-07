@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SEARCH_ITEM_PERSISTENT_CHANGE, SEARCH_ITEM_PERSISTENT_CHANGE structure [search], _search_SEARCH_ITEM_PERSISTENT_CHANGE, search._search_SEARCH_ITEM_PERSISTENT_CHANGE, searchapi/SEARCH_ITEM_PERSISTENT_CHANGE
 ms.topic: struct
-f1_keywords: 
- - "searchapi/SEARCH_ITEM_PERSISTENT_CHANGE"
+f1_keywords:
+- searchapi/SEARCH_ITEM_PERSISTENT_CHANGE
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - SEARCH_ITEM_PERSISTENT_CHANGE
+- SEARCH_ITEM_PERSISTENT_CHANGE
 product: Windows
 targetos: Windows
 req.typenames: SEARCH_ITEM_PERSISTENT_CHANGE
@@ -61,9 +61,9 @@ Contains information about the kind of change that has occurred in an item to be
 
 ### -field Change
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_search_kind_of_change">SEARCH_KIND_OF_CHANGE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-search_kind_of_change">SEARCH_KIND_OF_CHANGE</a></b>
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_search_kind_of_change">SEARCH_KIND_OF_CHANGE</a> enumerated type that indicates the kind of change.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-search_kind_of_change">SEARCH_KIND_OF_CHANGE</a> enumerated type that indicates the kind of change.
 
 
 ### -field URL
@@ -80,9 +80,9 @@ Pointer to a null-terminated Unicode string containing the URL of the item in a 
 
 ### -field Priority
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_search_notification_priority">SEARCH_NOTIFICATION_PRIORITY</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-search_notification_priority">SEARCH_NOTIFICATION_PRIORITY</a></b>
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_search_notification_priority">SEARCH_NOTIFICATION_PRIORITY</a> enumerated type that indicates the priority of the change.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-search_notification_priority">SEARCH_NOTIFICATION_PRIORITY</a> enumerated type that indicates the priority of the change.
 
 
 ## -remarks

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisherNotify interface,ResolveHandler method, IWSDiscoveryPublisherNotify.ResolveHandler, IWSDiscoveryPublisherNotify::ResolveHandler, ResolveHandler, ResolveHandler method, ResolveHandler method,IWSDiscoveryPublisherNotify interface, ncd.iwsdiscoverypublishernotify_resolvehandler_method, wsddisco/IWSDiscoveryPublisherNotify::ResolveHandler
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDiscoveryPublisherNotify.ResolveHandler"
+f1_keywords:
+- wsddisco/IWSDiscoveryPublisherNotify.ResolveHandler
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveryPublisherNotify.ResolveHandler
+- IWSDiscoveryPublisherNotify.ResolveHandler
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Is called when a <a href="https://docs.microsoft.com/windows/desktop/WsdApi/reso
 
 ### -param pSoap [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_message">WSD_SOAP_MESSAGE</a> structure that contains the Resolve message received by the discovery publisher.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_message">WSD_SOAP_MESSAGE</a> structure that contains the Resolve message received by the discovery publisher.
 
 
 ### -param pMessageParameters [in]

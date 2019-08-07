@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWM_ACTIVE_HIGH, PWM_ACTIVE_LOW, PWM_POLARITY, PWM_POLARITY enumeration, base.pwm_polarity, pwm/PWM_ACTIVE_HIGH, pwm/PWM_ACTIVE_LOW, pwm/PWM_POLARITY
 ms.topic: enum
-f1_keywords: 
- - "pwm/PWM_POLARITY"
+f1_keywords:
+- pwm/PWM_POLARITY
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pwm.h
+- Pwm.h
 api_name:
- - PWM_POLARITY
+- PWM_POLARITY
 product: Windows
 targetos: Windows
 req.typenames: PWM_POLARITY
@@ -86,7 +86,7 @@ Active Low.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-_pwm_pin_set_polarity_input">PWM_PIN_SET_POLARITY_INPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-pwm_pin_set_polarity_input">PWM_PIN_SET_POLARITY_INPUT</a>
  
 
  

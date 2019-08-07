@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetRemoteTOD, NetRemoteTOD function [Network Management], _win32_netremotetod, lmremutl/NetRemoteTOD, netmgmt.netremotetod
 ms.topic: function
-f1_keywords: 
- - "lmremutl/NetRemoteTOD"
+f1_keywords:
+- lmremutl/NetRemoteTOD
 req.header: lmremutl.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetRemoteTOD
+- NetRemoteTOD
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Pointer to a constant string that specifies the DNS or NetBIOS name of the remot
 ### -param BufferPtr [out]
 
 Pointer to the address that receives the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmremutl/ns-lmremutl-_time_of_day_info">TIME_OF_DAY_INFO</a> information structure. This buffer is allocated by the system and must be freed using the 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmremutl/ns-lmremutl-time_of_day_info">TIME_OF_DAY_INFO</a> information structure. This buffer is allocated by the system and must be freed using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function.
 
 
@@ -96,7 +96,7 @@ No special group membership is required to successfully execute the
 
 The following code sample demonstrates how to retrieve and print the current date and time with a call to the 
 <b>NetRemoteTOD</b> function. To do this, the sample uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmremutl/ns-lmremutl-_time_of_day_info">TIME_OF_DAY_INFO</a> structure. Finally, the sample frees the memory allocated for the information buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmremutl/ns-lmremutl-time_of_day_info">TIME_OF_DAY_INFO</a> structure. Finally, the sample frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -181,7 +181,7 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmremutl/ns-lmremutl-_time_of_day_info">TIME_OF_DAY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmremutl/ns-lmremutl-time_of_day_info">TIME_OF_DAY_INFO</a>
  
 
  

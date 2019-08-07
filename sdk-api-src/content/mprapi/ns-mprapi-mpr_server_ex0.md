@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 10c1e3bd-adb8-4aff-835c-e7d881c9f5cf
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMPR_SERVER_EX0, MPR_SERVER_EX, MPR_SERVER_EX structure [RAS], MPR_SERVER_EX0, MPR_SERVER_EX1, PMPR_SERVER_EX, PMPR_SERVER_EX structure pointer [RAS], _MPR_SERVER_EX0, _MPR_SERVER_EX1, mprapi/MPR_SERVER_EX, mprapi/PMPR_SERVER_EX, rras.mpr_server_ex"
+ms.keywords: '*PMPR_SERVER_EX0, MPR_SERVER_EX, MPR_SERVER_EX structure [RAS], MPR_SERVER_EX0, MPR_SERVER_EX1, PMPR_SERVER_EX, PMPR_SERVER_EX structure pointer [RAS], _MPR_SERVER_EX0, _MPR_SERVER_EX1, mprapi/MPR_SERVER_EX, mprapi/PMPR_SERVER_EX, rras.mpr_server_ex'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/MPR_SERVER_EX"
+f1_keywords:
+- mprapi/MPR_SERVER_EX
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - MPR_SERVER_EX
- - MPR_SERVER_EX0
- - MPR_SERVER_EX1
+- MPR_SERVER_EX
+- MPR_SERVER_EX0
+- MPR_SERVER_EX1
 product: Windows
 targetos: Windows
 req.typenames: MPR_SERVER_EX0, *PMPR_SERVER_EX0
@@ -95,7 +95,7 @@ Reserved. This value must be zero.
 
 ### -field ConfigParams
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mprapi_tunnel_config_params0">MPRAPI_TUNNEL_CONFIG_PARAMS</a> structure that contains Point-to-Point (PPTP), Secure Socket Tunneling Protocol (SSTP), Layer 2 Tunneling Protocol (L2TP), and Internet Key version 2 (IKEv2) tunnel configuration information for the RAS server.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mprapi_tunnel_config_params0">MPRAPI_TUNNEL_CONFIG_PARAMS</a> structure that contains Point-to-Point (PPTP), Secure Socket Tunneling Protocol (SSTP), Layer 2 Tunneling Protocol (L2TP), and Internet Key version 2 (IKEv2) tunnel configuration information for the RAS server.
 
 
 ## -see-also

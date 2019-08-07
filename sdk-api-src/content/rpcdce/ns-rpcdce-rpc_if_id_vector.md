@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RPC_IF_ID_VECTOR, RPC_IF_ID_VECTOR structure [RPC], _rpc_rpc_if_id_vector, rpc.rpc_if_id_vector, rpcdce/RPC_IF_ID_VECTOR
 ms.topic: struct
-f1_keywords: 
- - "rpcdce/RPC_IF_ID_VECTOR"
+f1_keywords:
+- rpcdce/RPC_IF_ID_VECTOR
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcdce.h
+- Rpcdce.h
 api_name:
- - RPC_IF_ID_VECTOR
+- RPC_IF_ID_VECTOR
 product: Windows
 targetos: Windows
 req.typenames: RPC_IF_ID_VECTOR
@@ -82,7 +82,7 @@ Array of pointers to interface-identification structures that contains <b>Count<
 
 
 The interface identification vector contains a count member (<b>Count</b>), followed by an array of pointers to interface identifiers (
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_if_id">RPC_IF_ID</a>).
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_if_id">RPC_IF_ID</a>).
 
 The interface identification vector is a read-only vector. To obtain a vector of the interface identifiers registered by a server with the run-time library, an application calls 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqifids">RpcMgmtInqIfIds</a>. To obtain a vector of the interface identifiers exported by a server, an application calls 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX, IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX control, IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX control code [Buses], buses.ioctl_genericusbfn_get_class_info_ex, genericusbfnioctl/IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX
 ms.topic: ioctl
-f1_keywords: 
- - "genericusbfnioctl/IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX"
+f1_keywords:
+- genericusbfnioctl/IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - GenericUsbFnIoctl.h
+- GenericUsbFnIoctl.h
 api_name:
- - IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX
+- IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -109,7 +109,7 @@ The size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/c
 
 
 
-If this I/O control code (IOCTL) is being called synchronously, set the <i>lpOverlapped</i> parameter to NULL. If this IOCTL is called asynchronously, assign the <i>lpOverlapped</i> parameter to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure that contains a handle to an event object. The event objects signal when the operation is completed.
+If this I/O control code (IOCTL) is being called synchronously, set the <i>lpOverlapped</i> parameter to NULL. If this IOCTL is called asynchronously, assign the <i>lpOverlapped</i> parameter to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that contains a handle to an event object. The event objects signal when the operation is completed.
 
 The return value is a BOOL value that indicates success or failure of the operation. TRUE indicates success, FALSE otherwise.
 

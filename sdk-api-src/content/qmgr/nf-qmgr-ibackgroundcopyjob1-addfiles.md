@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddFiles, AddFiles method [BITS], AddFiles method [BITS],IBackgroundCopyJob1 interface, IBackgroundCopyJob1 interface [BITS],AddFiles method, IBackgroundCopyJob1.AddFiles, IBackgroundCopyJob1::AddFiles, bits.ibackgroundcopyjob1_addfiles, qmgr/IBackgroundCopyJob1::AddFiles
 ms.topic: method
-f1_keywords: 
- - "qmgr/IBackgroundCopyJob1.AddFiles"
+f1_keywords:
+- qmgr/IBackgroundCopyJob1.AddFiles
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob1.AddFiles
+- IBackgroundCopyJob1.AddFiles
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Number of files in <i>pFileInfo</i> to add to the job.
 
 ### -param ppFileSet [in]
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/qmgr/ns-qmgr-_filesetinfo">FILESETINFO</a> structures that contain the remote and local names of the files to download.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/qmgr/ns-qmgr-filesetinfo">FILESETINFO</a> structures that contain the remote and local names of the files to download.
 
 
 ## -returns

@@ -8,10 +8,10 @@ tech.root: devinst
 ms.assetid: 89f5e2a9-5336-421f-b781-688588695027
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSP_UNREMOVEDEVICE_PARAMS, PSP_UNREMOVEDEVICE_PARAMS, PSP_UNREMOVEDEVICE_PARAMS structure pointer [Device and Driver Installation], SP_UNREMOVEDEVICE_PARAMS, SP_UNREMOVEDEVICE_PARAMS structure [Device and Driver Installation], devinst.sp_unremovedevice_params, di-struct_bcd98087-c502-40d6-81a7-5154340ce406.xml, setupapi/PSP_UNREMOVEDEVICE_PARAMS, setupapi/SP_UNREMOVEDEVICE_PARAMS"
+ms.keywords: '*PSP_UNREMOVEDEVICE_PARAMS, PSP_UNREMOVEDEVICE_PARAMS, PSP_UNREMOVEDEVICE_PARAMS structure pointer [Device and Driver Installation], SP_UNREMOVEDEVICE_PARAMS, SP_UNREMOVEDEVICE_PARAMS structure [Device and Driver Installation], devinst.sp_unremovedevice_params, di-struct_bcd98087-c502-40d6-81a7-5154340ce406.xml, setupapi/PSP_UNREMOVEDEVICE_PARAMS, setupapi/SP_UNREMOVEDEVICE_PARAMS'
 ms.topic: struct
-f1_keywords: 
- - "setupapi/SP_UNREMOVEDEVICE_PARAMS"
+f1_keywords:
+- setupapi/SP_UNREMOVEDEVICE_PARAMS
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - setupapi.h
+- setupapi.h
 api_name:
- - SP_UNREMOVEDEVICE_PARAMS
+- SP_UNREMOVEDEVICE_PARAMS
 product: Windows
 targetos: Windows
 req.typenames: SP_UNREMOVEDEVICE_PARAMS, *PSP_UNREMOVEDEVICE_PARAMS
@@ -61,7 +61,7 @@ An SP_UNREMOVEDEVICE_PARAMS structure corresponds to a DIF_UNREMOVE installation
 
 ### -field ClassInstallHeader
 
-An install request header that contains the header size and the DIF code for the request. See <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>. 
+An install request header that contains the header size and the DIF code for the request. See <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>. 
 
 
 ### -field Scope
@@ -83,7 +83,7 @@ The hardware profile ID for profile-specific changes. Zero specifies the current
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>
 
 
 

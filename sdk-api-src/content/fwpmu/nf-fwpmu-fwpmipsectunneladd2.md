@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_TUNNEL_FLAG_ENABLE_VIRTUAL_IF_TUNNELING, FWPM_TUNNEL_FLAG_POINT_TO_POINT, FwpmIPsecTunnelAdd2, FwpmIPsecTunnelAdd2 function [Filtering], fwp.fwpmipsectunneladd2, fwpmu/FwpmIPsecTunnelAdd2
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmIPsecTunnelAdd2"
+f1_keywords:
+- fwpmu/FwpmIPsecTunnelAdd2
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - fwpuclnt.dll
+- fwpuclnt.dll
 api_name:
- - FwpmIPsecTunnelAdd2
+- FwpmIPsecTunnelAdd2
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -140,7 +140,7 @@ If the caller supplies this parameter, only that keying module will be used for 
 
 ### -param sd [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">PSECURITY_DESCRIPTOR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">PSECURITY_DESCRIPTOR</a></b>
 
 The security information associated with the IPsec tunnel.
 

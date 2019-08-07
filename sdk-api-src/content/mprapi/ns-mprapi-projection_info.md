@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 3f87d09a-2408-4fe4-97f9-61ed9b5d2fa5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPROJECTION_INFO, MPRAPI_IKEV2_PROJECTION_INFO_TYPE, MPRAPI_PPP_PROJECTION_INFO_TYPE, PPROJECTION_INFO, PPROJECTION_INFO structure pointer [RAS], PROJECTION_INFO, PROJECTION_INFO structure [RAS], mprapi/PPROJECTION_INFO, mprapi/PROJECTION_INFO, rras.projection_info"
+ms.keywords: '*PPROJECTION_INFO, MPRAPI_IKEV2_PROJECTION_INFO_TYPE, MPRAPI_PPP_PROJECTION_INFO_TYPE, PPROJECTION_INFO, PPROJECTION_INFO structure pointer [RAS], PROJECTION_INFO, PROJECTION_INFO structure [RAS], mprapi/PPROJECTION_INFO, mprapi/PROJECTION_INFO, rras.projection_info'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/PROJECTION_INFO"
+f1_keywords:
+- mprapi/PROJECTION_INFO
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - PROJECTION_INFO
+- PROJECTION_INFO
 product: Windows
 targetos: Windows
 req.typenames: PROJECTION_INFO, *PPROJECTION_INFO
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PROJECTION_INFO</b> structure  is used in the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_ex">RAS_CONNECTION_EX</a> structure as a placeholder for  the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_projection_info">PPP_PROJECTION_INFO</a>  and <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ikev2_projection_info">IKEV2_PROJECTION_INFO</a> structures.
+The <b>PROJECTION_INFO</b> structure  is used in the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a> structure as a placeholder for  the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_projection_info">PPP_PROJECTION_INFO</a>  and <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ikev2_projection_info">IKEV2_PROJECTION_INFO</a> structures.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ A value that specifies if the projection is for a Point-to-Point (PPP) or an Int
 </dl>
 </td>
 <td width="60%">
-Data is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_projection_info">PPP_PROJECTION_INFO</a> structure.
+Data is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_projection_info">PPP_PROJECTION_INFO</a> structure.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Data is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mpra
 </dl>
 </td>
 <td width="60%">
-Data is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ikev2_projection_info">IKEV2_PROJECTION_INFO</a> structure.
+Data is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ikev2_projection_info">IKEV2_PROJECTION_INFO</a> structure.
 
 </td>
 </tr>
@@ -94,12 +94,12 @@ Data is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mpra
 
 ### -field PppProjectionInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_projection_info">PPP_PROJECTION_INFO</a> structure that is used for a PPP based tunnel.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_projection_info">PPP_PROJECTION_INFO</a> structure that is used for a PPP based tunnel.
 
 
 ### -field Ikev2ProjectionInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ikev2_projection_info">IKEV2_PROJECTION_INFO</a> structure that is used for an IKEv2 based tunnel.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ikev2_projection_info">IKEV2_PROJECTION_INFO</a> structure that is used for an IKEv2 based tunnel.
 
 
 ## -see-also
@@ -107,7 +107,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ikev
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_ex">RAS_CONNECTION_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a>
 
 
 

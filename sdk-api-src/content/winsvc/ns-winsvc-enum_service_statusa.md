@@ -8,10 +8,10 @@ tech.root: Services
 ms.assetid: b088bd94-5d25-44a7-93c0-80ce6588b811
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPENUM_SERVICE_STATUSA, ENUM_SERVICE_STATUS, ENUM_SERVICE_STATUS structure, ENUM_SERVICE_STATUSA, ENUM_SERVICE_STATUSW, LPENUM_SERVICE_STATUS, LPENUM_SERVICE_STATUS structure pointer, _win32_enum_service_status_str, base.enum_service_status_str, winsvc/ENUM_SERVICE_STATUS, winsvc/ENUM_SERVICE_STATUSA, winsvc/ENUM_SERVICE_STATUSW, winsvc/LPENUM_SERVICE_STATUS"
+ms.keywords: '*LPENUM_SERVICE_STATUSA, ENUM_SERVICE_STATUS, ENUM_SERVICE_STATUS structure, ENUM_SERVICE_STATUSA, ENUM_SERVICE_STATUSW, LPENUM_SERVICE_STATUS, LPENUM_SERVICE_STATUS structure pointer, _win32_enum_service_status_str, base.enum_service_status_str, winsvc/ENUM_SERVICE_STATUS, winsvc/ENUM_SERVICE_STATUSA, winsvc/ENUM_SERVICE_STATUSW, winsvc/LPENUM_SERVICE_STATUS'
 ms.topic: struct
-f1_keywords: 
- - "winsvc/ENUM_SERVICE_STATUS"
+f1_keywords:
+- winsvc/ENUM_SERVICE_STATUS
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsvc.h
+- Winsvc.h
 api_name:
- - ENUM_SERVICE_STATUS
- - ENUM_SERVICE_STATUSA
- - ENUM_SERVICE_STATUSW
+- ENUM_SERVICE_STATUS
+- ENUM_SERVICE_STATUSA
+- ENUM_SERVICE_STATUSW
 product: Windows
 targetos: Windows
 req.typenames: ENUM_SERVICE_STATUSA, *LPENUM_SERVICE_STATUSA
@@ -76,7 +76,7 @@ A display name that can be used by service control programs, such as Services in
 ### -field ServiceStatus
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status">SERVICE_STATUS</a> structure that contains status information for the <b>lpServiceName</b> service.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_status">SERVICE_STATUS</a> structure that contains status information for the <b>lpServiceName</b> service.
 
 
 ## -see-also
@@ -92,7 +92,7 @@ A
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status">SERVICE_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_status">SERVICE_STATUS</a>
  
 
  

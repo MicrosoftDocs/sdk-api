@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_GET_OBJECT_ID, FSCTL_GET_OBJECT_ID control, FSCTL_GET_OBJECT_ID control code [Files], _win32_fsctl_get_object_id, base.fsctl_get_object_id, fs.fsctl_get_object_id, winioctl/FSCTL_GET_OBJECT_ID
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_GET_OBJECT_ID"
+f1_keywords:
+- winioctl/FSCTL_GET_OBJECT_ID
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_GET_OBJECT_ID
+- FSCTL_GET_OBJECT_ID
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -228,7 +228,7 @@ No
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_objectid_buffer">FILE_OBJECTID_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_objectid_buffer">FILE_OBJECTID_BUFFER</a>
 
 
 

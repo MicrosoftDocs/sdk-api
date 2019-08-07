@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNamedSecurityInfo, GetNamedSecurityInfo function [Security], GetNamedSecurityInfoA, GetNamedSecurityInfoW, _win32_getnamedsecurityinfo, aclapi/GetNamedSecurityInfo, aclapi/GetNamedSecurityInfoA, aclapi/GetNamedSecurityInfoW, security.getnamedsecurityinfo
 ms.topic: function
-f1_keywords: 
- - "aclapi/GetNamedSecurityInfo"
+f1_keywords:
+- aclapi/GetNamedSecurityInfo
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-Provider-l1-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll
- - ntmarta.dll
- - API-MS-Win-Security-Provider-Ansi-L1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-Security-Provider-l1-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll
+- ntmarta.dll
+- API-MS-Win-Security-Provider-Ansi-L1-1-0.dll
 api_name:
- - GetNamedSecurityInfo
- - GetNamedSecurityInfoA
- - GetNamedSecurityInfoW
+- GetNamedSecurityInfo
+- GetNamedSecurityInfoA
+- GetNamedSecurityInfoW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,12 +69,12 @@ The <b>GetNamedSecurityInfo</b> function retrieves a copy of the <a href="https:
 ### -param pObjectName [in]
 
 A pointer to a null-terminated string that specifies the name of the object from which to retrieve security information. For descriptions of the string formats for the different object types, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_se_object_type">SE_OBJECT_TYPE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>.
 
 
 ### -param ObjectType [in]
 
-Specifies a value from the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_se_object_type">SE_OBJECT_TYPE</a> enumeration that indicates the type of object named by the <i>pObjectName</i> parameter.
+Specifies a value from the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a> enumeration that indicates the type of object named by the <i>pObjectName</i> parameter.
 
 
 ### -param SecurityInfo [in]
@@ -165,7 +165,7 @@ For an example that uses <b>GetNamedSecurityInfo</b>, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
@@ -189,7 +189,7 @@ For an example that uses <b>GetNamedSecurityInfo</b>, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
@@ -197,11 +197,11 @@ For an example that uses <b>GetNamedSecurityInfo</b>, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_se_object_type">SE_OBJECT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 

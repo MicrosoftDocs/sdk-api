@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 4b000d0f-4ff1-4155-92be-b56793978b1f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_SURFACE_MORE, DD_SURFACE_MORE, DD_SURFACE_MORE structure [Display Devices], PDD_SURFACE_MORE, PDD_SURFACE_MORE structure pointer [Display Devices], ddrawint/DD_SURFACE_MORE, ddrawint/PDD_SURFACE_MORE, ddstrcts_b86749f9-edbf-4e8b-ae17-27840ad4e5d5.xml, display.dd_surface_more"
+ms.keywords: '*PDD_SURFACE_MORE, DD_SURFACE_MORE, DD_SURFACE_MORE structure [Display Devices], PDD_SURFACE_MORE, PDD_SURFACE_MORE structure pointer [Display Devices], ddrawint/DD_SURFACE_MORE, ddrawint/PDD_SURFACE_MORE, ddstrcts_b86749f9-edbf-4e8b-ae17-27840ad4e5d5.xml, display.dd_surface_more'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_SURFACE_MORE"
+f1_keywords:
+- ddrawint/DD_SURFACE_MORE
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_SURFACE_MORE
+- DD_SURFACE_MORE
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_SURFACE_MORE, DD_SURFACE_MORE"
+req.typenames: '*PDD_SURFACE_MORE, DD_SURFACE_MORE'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -66,7 +66,7 @@ Contains the number of mipmap levels in the chain.
 
 ### -field lpVideoPort
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure of the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object currently writing data to this surface. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure of the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object currently writing data to this surface. 
 
 
 ### -field dwOverlayFlags
@@ -341,7 +341,7 @@ Specifies a cookie for <a href="https://docs.microsoft.com/windows/desktop/api/d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_videoport_local">DD_VIDEOPORT_LOCAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 9C45B1B1-5572-4153-BBA4-0E8A52F650CA
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_SNI_QUERY, HTTP_SERVICE_CONFIG_SSL_SNI_QUERY, HTTP_SERVICE_CONFIG_SSL_SNI_QUERY structure [HTTP], HttpServiceConfigQueryExact, HttpServiceConfigQueryNext, PHTTP_SERVICE_CONFIG_SSL_SNI_QUERY, PHTTP_SERVICE_CONFIG_SSL_SNI_QUERY structure pointer [HTTP], http.http_service_config_ssl_sni_query, http/HTTP_SERVICE_CONFIG_SSL_SNI_QUERY, http/PHTTP_SERVICE_CONFIG_SSL_SNI_QUERY"
+ms.keywords: '*PHTTP_SERVICE_CONFIG_SSL_SNI_QUERY, HTTP_SERVICE_CONFIG_SSL_SNI_QUERY, HTTP_SERVICE_CONFIG_SSL_SNI_QUERY structure [HTTP], HttpServiceConfigQueryExact, HttpServiceConfigQueryNext, PHTTP_SERVICE_CONFIG_SSL_SNI_QUERY, PHTTP_SERVICE_CONFIG_SSL_SNI_QUERY structure pointer [HTTP], http.http_service_config_ssl_sni_query, http/HTTP_SERVICE_CONFIG_SSL_SNI_QUERY, http/PHTTP_SERVICE_CONFIG_SSL_SNI_QUERY'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_SERVICE_CONFIG_SSL_SNI_QUERY"
+f1_keywords:
+- http/HTTP_SERVICE_CONFIG_SSL_SNI_QUERY
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_SERVICE_CONFIG_SSL_SNI_QUERY
+- HTTP_SERVICE_CONFIG_SSL_SNI_QUERY
 product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_SSL_SNI_QUERY, *PHTTP_SERVICE_CONFIG_SSL_SNI_QUERY
@@ -63,7 +63,7 @@ The
 
 ### -field QueryDesc
 
-One of the  following values from the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a> enumeration. 
+One of the  following values from the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a> enumeration. 
 
 
 					
@@ -100,7 +100,7 @@ Returns a sequence of SSL SNI certificate records in a sequence of calls, as con
 ### -field KeyDesc
 
 If the <i>QueryDesc</i> parameter is equal to <b>HttpServiceConfigQueryExact</b>, then <i>KeyDesc</i> should contain an 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_sni_key">HTTP_SERVICE_CONFIG_SSL_SNI_KEY</a> structure that identifies the SSL SNI certificate record queried. If the <i>QueryDesc</i> parameter is equal to <b>HTTPServiceConfigQueryNext</b>, then <i>KeyDesc</i> is ignored.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_sni_key">HTTP_SERVICE_CONFIG_SSL_SNI_KEY</a> structure that identifies the SSL SNI certificate record queried. If the <i>QueryDesc</i> parameter is equal to <b>HTTPServiceConfigQueryNext</b>, then <i>KeyDesc</i> is ignored.
 
 
 ### -field dwToken
@@ -120,11 +120,11 @@ If the <i>QueryDesc</i> parameter is equal to <b>HttpServiceConfigQueryExact</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_sni_key">HTTP_SERVICE_CONFIG_SSL_SNI_KEY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_sni_key">HTTP_SERVICE_CONFIG_SSL_SNI_KEY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_sni_set">HTTP_SERVICE_CONFIG_SSL_SNI_SET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_sni_set">HTTP_SERVICE_CONFIG_SSL_SNI_SET</a>
 
 
 

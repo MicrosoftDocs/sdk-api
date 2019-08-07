@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: acca1291-9f58-4520-a4ec-52dc9062630b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PIFIEXTRA, IFIEXTRA, IFIEXTRA structure [Display Devices], PIFIEXTRA, PIFIEXTRA structure pointer [Display Devices], display.ifiextra, grstrcts_6e899cbd-3ebb-4f19-8d04-3e0ca9215fea.xml, winddi/IFIEXTRA, winddi/PIFIEXTRA"
+ms.keywords: '*PIFIEXTRA, IFIEXTRA, IFIEXTRA structure [Display Devices], PIFIEXTRA, PIFIEXTRA structure pointer [Display Devices], display.ifiextra, grstrcts_6e899cbd-3ebb-4f19-8d04-3e0ca9215fea.xml, winddi/IFIEXTRA, winddi/PIFIEXTRA'
 ms.topic: struct
-f1_keywords: 
- - "winddi/IFIEXTRA"
+f1_keywords:
+- winddi/IFIEXTRA
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - IFIEXTRA
+- IFIEXTRA
 product: Windows
 targetos: Windows
 req.typenames: IFIEXTRA, *PIFIEXTRA
@@ -66,7 +66,7 @@ Should be set to zero. This member was used by GDI to identify Type1 fonts on Wi
 
 ### -field dpFontSig
 
-Specifies the offset in bytes from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure to the FONTSIGNATURE structure (described in the Microsoft Window SDK documentation). The driver should set this member to zero if it does not support multiple character sets.
+Specifies the offset in bytes from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a> structure to the FONTSIGNATURE structure (described in the Microsoft Window SDK documentation). The driver should set this member to zero if it does not support multiple character sets.
 
 The character set information in FONTSIGNATURE should be consistent with the information provided in the character sets array to which the <b>dpCharSets</b> member of IFIMETRICS points. 
 
@@ -80,7 +80,7 @@ Fonts that do not have contiguous glyph handles should set this member to zero. 
 
 ### -field dpDesignVector
 
-Is the offset from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure to the DESIGNVECTOR structure for this font. The driver should set <b>dpDesignVector</b> only if this font is a multiple master font. The DESIGNVECTOR structure is described in the Window SDK documentation.
+Is the offset from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a> structure to the DESIGNVECTOR structure for this font. The driver should set <b>dpDesignVector</b> only if this font is a multiple master font. The DESIGNVECTOR structure is described in the Window SDK documentation.
 
 
 ### -field dpAxesInfoW
@@ -97,7 +97,7 @@ Is reserved and should be ignored by the driver.
 
 
 
-When used, this structure lies below the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure in memory.
+When used, this structure lies below the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a> structure in memory.
 
 
 
@@ -111,7 +111,7 @@ When used, this structure lies below the <a href="https://docs.microsoft.com/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
  
 
  

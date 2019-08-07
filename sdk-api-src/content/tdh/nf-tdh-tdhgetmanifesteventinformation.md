@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TdhGetManifestEventInformation, TdhGetManifestEventInformation function [ETW], etw.tdhgetmanifesteventinformation, tdh/TdhGetManifestEventInformation
 ms.topic: function
-f1_keywords: 
- - "tdh/TdhGetManifestEventInformation"
+f1_keywords:
+- tdh/TdhGetManifestEventInformation
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Tdh.lib
 req.dll: Tdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tdh.dll
- - API-MS-Win-Eventing-Tdh-L1-1-0.dll
- - MinTdh.dll
+- Tdh.dll
+- API-MS-Win-Eventing-Tdh-L1-1-0.dll
+- MinTdh.dll
 api_name:
- - TdhGetManifestEventInformation
+- TdhGetManifestEventInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,12 +68,12 @@ A GUID that identifies the manifest provider whose event metadata you want to re
 
 ### -param EventDescriptor [in]
 
-A pointer to the event descriptor that contains information such as event id, version, op-code, and keyword. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a> structure
+A pointer to the event descriptor that contains information such as event id, version, op-code, and keyword. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure
 
 
 ### -param Buffer [out]
 
-A user-allocated buffer to receive the metadata about an event in  a provider manifest. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_trace_event_info">TRACE_EVENT_INFO</a> structure.
+A user-allocated buffer to receive the metadata about an event in  a provider manifest. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a> structure.
 
 
 ### -param BufferSize [in, out]
@@ -158,15 +158,15 @@ The schema information for supplied provider GUID was not found.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_provider_event_info">PROVIDER_EVENT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-provider_event_info">PROVIDER_EVENT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_trace_event_info">TRACE_EVENT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptEnumContextFunctionProviders, BCryptEnumContextFunctionProviders function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptEnumContextFunctionProviders, security.bcryptenumcontextfunctionproviders
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptEnumContextFunctionProviders"
+f1_keywords:
+- bcrypt/BCryptEnumContextFunctionProviders
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
+- Bcrypt.dll
 api_name:
- - BCryptEnumContextFunctionProviders
+- BCryptEnumContextFunctionProviders
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -204,7 +204,7 @@ After this function returns, this value contains the number of bytes that were c
 
 ### -param ppBuffer [in, out]
 
-The address of a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_context_function_providers">CRYPT_CONTEXT_FUNCTION_PROVIDERS</a> structure that receives the set of context function providers retrieved by this function. The value pointed to by the <i>pcbBuffer</i> parameter contains the size of this buffer.
+The address of a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_function_providers">CRYPT_CONTEXT_FUNCTION_PROVIDERS</a> structure that receives the set of context function providers retrieved by this function. The value pointed to by the <i>pcbBuffer</i> parameter contains the size of this buffer.
 
 If the value pointed to by this parameter is <b>NULL</b>, this function will allocate the required memory. This memory must be freed when it is no longer needed by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function.
 
@@ -405,7 +405,7 @@ NTSTATUS EnumContextFunctionProviders()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_context_function_providers">CRYPT_CONTEXT_FUNCTION_PROVIDERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_function_providers">CRYPT_CONTEXT_FUNCTION_PROVIDERS</a>
  
 
  

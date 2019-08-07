@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 99245e45-114d-4933-9189-cd45a1c22a96
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMPR_DEVICE_1, MPR_DEVICE_1, MPR_DEVICE_1 structure [RAS], PMPR_DEVICE_1, PMPR_DEVICE_1 structure pointer [RAS], _mpr_mpr_device_1, mprapi/MPR_DEVICE_1, mprapi/PMPR_DEVICE_1, rras.mpr_device_1"
+ms.keywords: '*PMPR_DEVICE_1, MPR_DEVICE_1, MPR_DEVICE_1 structure [RAS], PMPR_DEVICE_1, PMPR_DEVICE_1 structure pointer [RAS], _mpr_mpr_device_1, mprapi/MPR_DEVICE_1, mprapi/PMPR_DEVICE_1, rras.mpr_device_1'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/MPR_DEVICE_1"
+f1_keywords:
+- mprapi/MPR_DEVICE_1
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - MPR_DEVICE_1
+- MPR_DEVICE_1
 product: Windows
 targetos: Windows
 req.typenames: MPR_DEVICE_1, *PMPR_DEVICE_1
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>MPR_DEVICE_1</b> structure stores information about a device used for a link in a multilinked demand dial interface. In addition to the information in 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_device_0">MPR_DEVICE_0</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_device_0">MPR_DEVICE_0</a>, 
 <b>MPR_DEVICE_1</b> contains phone-number information.
 
 
@@ -88,7 +88,7 @@ Pointer to a list of consecutive null-terminated Unicode strings. The last strin
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_device_0">MPR_DEVICE_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_device_0">MPR_DEVICE_0</a>
 
 
 

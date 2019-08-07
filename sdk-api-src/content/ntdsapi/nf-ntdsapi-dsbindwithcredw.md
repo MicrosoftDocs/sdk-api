@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsBindWithCred, DsBindWithCred function [Active Directory], DsBindWithCredA, DsBindWithCredW, _glines_dsbindwithcred, ad.dsbindwithcred, ntdsapi/DsBindWithCred, ntdsapi/DsBindWithCredA, ntdsapi/DsBindWithCredW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsBindWithCred"
+f1_keywords:
+- ntdsapi/DsBindWithCred
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsBindWithCred
- - DsBindWithCredA
- - DsBindWithCredW
+- DsBindWithCred
+- DsBindWithCredA
+- DsBindWithCredW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -104,7 +104,7 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Windows or RPC error code otherw
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/ns-dsgetdc-_domain_controller_infoa">DOMAIN_CONTROLLER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/ns-dsgetdc-domain_controller_infoa">DOMAIN_CONTROLLER_INFO</a>
 
 
 

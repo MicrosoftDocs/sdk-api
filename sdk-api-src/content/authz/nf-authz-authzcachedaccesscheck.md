@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzCachedAccessCheck, AuthzCachedAccessCheck function [Security], _win32_authzcachedaccesscheck, authz/AuthzCachedAccessCheck, security.authzcachedaccesscheck
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzCachedAccessCheck"
+f1_keywords:
+- authz/AuthzCachedAccessCheck
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
+- Authz.dll
 api_name:
- - AuthzCachedAccessCheck
+- AuthzCachedAccessCheck
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,7 +83,7 @@ A structure that contains object-specific audit information. When the value of t
 ### -param pReply [out]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_access_reply">AUTHZ_ACCESS_REPLY</a> handle that returns the results of access check as an array of GrantedAccessMask/ErrorValue pairs. The number of pairs returned is supplied by the caller in the <b>ResultListLength</b> member of the <b>AUTHZ_ACCESS_REPLY</b> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_access_reply">AUTHZ_ACCESS_REPLY</a> handle that returns the results of access check as an array of GrantedAccessMask/ErrorValue pairs. The number of pairs returned is supplied by the caller in the <b>ResultListLength</b> member of the <b>AUTHZ_ACCESS_REPLY</b> structure.
 
 
 ## -returns
@@ -174,7 +174,7 @@ For more information, see the <a href="https://docs.microsoft.com/windows/deskto
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_access_reply">AUTHZ_ACCESS_REPLY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_access_reply">AUTHZ_ACCESS_REPLY</a>
 
 
 

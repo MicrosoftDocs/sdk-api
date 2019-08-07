@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AUTHENTICATION_INFO, AUTHENTICATION_INFO structure [search], _search_AUTHENTICATION_INFO, search._search_AUTHENTICATION_INFO, searchapi/AUTHENTICATION_INFO
 ms.topic: struct
-f1_keywords: 
- - "searchapi/AUTHENTICATION_INFO"
+f1_keywords:
+- searchapi/AUTHENTICATION_INFO
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - AUTHENTICATION_INFO
+- AUTHENTICATION_INFO
 product: Windows
 targetos: Windows
 req.typenames: AUTHENTICATION_INFO
@@ -69,9 +69,9 @@ Size of the structure, in bytes.
 
 ### -field atAuthenticationType
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_auth_type">AUTH_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-auth_type">AUTH_TYPE</a></b>
 
-Flag to describe the type of authentication. For a list of possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_auth_type">AUTH_TYPE</a> enumerated type.
+Flag to describe the type of authentication. For a list of possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-auth_type">AUTH_TYPE</a> enumerated type.
 
 
 ### -field pcwszUser

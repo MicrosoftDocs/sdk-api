@@ -8,10 +8,10 @@ tech.root: adsi
 ms.assetid: 715354fe-1e62-4fbd-a5ba-0d7a56b83390
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PADS_DN_WITH_STRING, ADS_DN_WITH_STRING, ADS_DN_WITH_STRING structure [ADSI], _ds_ads_dn_with_string, adsi.ads__dn__with__string, adsi.ads_dn_with_string, iads/ADS_DN_WITH_STRING"
+ms.keywords: '*PADS_DN_WITH_STRING, ADS_DN_WITH_STRING, ADS_DN_WITH_STRING structure [ADSI], _ds_ads_dn_with_string, adsi.ads__dn__with__string, adsi.ads_dn_with_string, iads/ADS_DN_WITH_STRING'
 ms.topic: struct
-f1_keywords: 
- - "iads/ADS_DN_WITH_STRING"
+f1_keywords:
+- iads/ADS_DN_WITH_STRING
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_DN_WITH_STRING
+- ADS_DN_WITH_STRING
 product: Windows
 targetos: Windows
 req.typenames: ADS_DN_WITH_STRING, *PADS_DN_WITH_STRING
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ADS_DN_WITH_STRING</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a> structure to contain a distinguished name attribute value that also contains string data.
+The <b>ADS_DN_WITH_STRING</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structure to contain a distinguished name attribute value that also contains string data.
 
 
 ## -struct-fields
@@ -87,7 +87,7 @@ When extending the active directory schema to add <b>ADS_DN_WITH_STRING</b>, you
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a>
 
 
 

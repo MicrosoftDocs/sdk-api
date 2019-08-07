@@ -8,10 +8,10 @@ tech.root: DNS
 ms.assetid: fb36930c-dd43-427a-8034-078c99497a3e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_WIRE_RECORD, *PDNS_WIRE_RECORD structure [DNS], DNS_WIRE_RECORD, DNS_WIRE_RECORD structure [DNS], dns.dns_wire_record, windns/*PDNS_WIRE_RECORD, windns/DNS_WIRE_RECORD"
+ms.keywords: '*PDNS_WIRE_RECORD, *PDNS_WIRE_RECORD structure [DNS], DNS_WIRE_RECORD, DNS_WIRE_RECORD structure [DNS], dns.dns_wire_record, windns/*PDNS_WIRE_RECORD, windns/DNS_WIRE_RECORD'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_WIRE_RECORD"
+f1_keywords:
+- windns/DNS_WIRE_RECORD
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_WIRE_RECORD
+- DNS_WIRE_RECORD
 product: Windows
 targetos: Windows
 req.typenames: DNS_WIRE_RECORD, *PDNS_WIRE_RECORD
@@ -97,7 +97,7 @@ When constructing a DNS message, the <b>DNS_WIRE_RECORD</b> structure is immedia
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_wire_question">DNS_WIRE_QUESTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_wire_question">DNS_WIRE_QUESTION</a>
  
 
  

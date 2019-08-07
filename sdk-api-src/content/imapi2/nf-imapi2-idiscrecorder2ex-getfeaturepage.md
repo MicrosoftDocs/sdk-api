@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFeaturePage, GetFeaturePage method [IMAPI], GetFeaturePage method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetFeaturePage method, IDiscRecorder2Ex.GetFeaturePage, IDiscRecorder2Ex::GetFeaturePage, imapi.idiscrecorder2ex_getfeaturepage, imapi2/IDiscRecorder2Ex::GetFeaturePage
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscRecorder2Ex.GetFeaturePage"
+f1_keywords:
+- imapi2/IDiscRecorder2Ex.GetFeaturePage
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscRecorder2Ex.GetFeaturePage
+- IDiscRecorder2Ex.GetFeaturePage
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Retrieves the specified feature page from the device.
 
 ### -param requestedFeature [in]
 
-Feature page to retrieve. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a> enumeration type.
+Feature page to retrieve. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a> enumeration type.
 
 
 ### -param currentFeatureOnly [in]
@@ -412,7 +412,7 @@ Value: 0xC0AA0210
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_ENDPOINT_PROPERTY_ACCEPT_CHANNEL_CALLBACK, WS_SERVICE_ENDPOINT_PROPERTY_BODY_HEAP_MAX_SIZE, WS_SERVICE_ENDPOINT_PROPERTY_BODY_HEAP_TRIM_SIZE, WS_SERVICE_ENDPOINT_PROPERTY_CHECK_MUST_UNDERSTAND, WS_SERVICE_ENDPOINT_PROPERTY_CLOSE_CHANNEL_CALLBACK, WS_SERVICE_ENDPOINT_PROPERTY_ID, WS_SERVICE_ENDPOINT_PROPERTY_ID enumeration [Web Services for Windows], WS_SERVICE_ENDPOINT_PROPERTY_LISTENER_PROPERTIES, WS_SERVICE_ENDPOINT_PROPERTY_MAX_ACCEPTING_CHANNELS, WS_SERVICE_ENDPOINT_PROPERTY_MAX_CALL_POOL_SIZE, WS_SERVICE_ENDPOINT_PROPERTY_MAX_CHANNELS, WS_SERVICE_ENDPOINT_PROPERTY_MAX_CHANNEL_POOL_SIZE, WS_SERVICE_ENDPOINT_PROPERTY_MAX_CONCURRENCY, WS_SERVICE_ENDPOINT_PROPERTY_MESSAGE_PROPERTIES, WS_SERVICE_ENDPOINT_PROPERTY_METADATA, WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE, WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_URL_SUFFIX, webservices/WS_SERVICE_ENDPOINT_PROPERTY_ACCEPT_CHANNEL_CALLBACK, webservices/WS_SERVICE_ENDPOINT_PROPERTY_BODY_HEAP_MAX_SIZE, webservices/WS_SERVICE_ENDPOINT_PROPERTY_BODY_HEAP_TRIM_SIZE, webservices/WS_SERVICE_ENDPOINT_PROPERTY_CHECK_MUST_UNDERSTAND, webservices/WS_SERVICE_ENDPOINT_PROPERTY_CLOSE_CHANNEL_CALLBACK, webservices/WS_SERVICE_ENDPOINT_PROPERTY_ID, webservices/WS_SERVICE_ENDPOINT_PROPERTY_LISTENER_PROPERTIES, webservices/WS_SERVICE_ENDPOINT_PROPERTY_MAX_ACCEPTING_CHANNELS, webservices/WS_SERVICE_ENDPOINT_PROPERTY_MAX_CALL_POOL_SIZE, webservices/WS_SERVICE_ENDPOINT_PROPERTY_MAX_CHANNELS, webservices/WS_SERVICE_ENDPOINT_PROPERTY_MAX_CHANNEL_POOL_SIZE, webservices/WS_SERVICE_ENDPOINT_PROPERTY_MAX_CONCURRENCY, webservices/WS_SERVICE_ENDPOINT_PROPERTY_MESSAGE_PROPERTIES, webservices/WS_SERVICE_ENDPOINT_PROPERTY_METADATA, webservices/WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE, webservices/WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_URL_SUFFIX, wsw.ws_service_endpoint_property_id
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_SERVICE_ENDPOINT_PROPERTY_ID"
+f1_keywords:
+- webservices/WS_SERVICE_ENDPOINT_PROPERTY_ID
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SERVICE_ENDPOINT_PROPERTY_ID
+- WS_SERVICE_ENDPOINT_PROPERTY_ID
 product: Windows
 targetos: Windows
 req.typenames: WS_SERVICE_ENDPOINT_PROPERTY_ID
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Each property represents optional parameters for configuring 
-                the given <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">WS_SERVICE_ENDPOINT</a> structure.
+                the given <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a> structure.
             This enumeration is used within the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_service_endpoint_property">WS_SERVICE_ENDPOINT_PROPERTY</a> structure that is part of <b>WS_SERVICE_ENDPOINT</b>.
 
 
@@ -63,21 +63,21 @@ Each property represents optional parameters for configuring
 
 ### -field WS_SERVICE_ENDPOINT_PROPERTY_ACCEPT_CHANNEL_CALLBACK
 
-Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">WS_SERVICE_ENDPOINT</a>.
+Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a>.
                     The value is a pointer to WS_SERVICE_PROPERTY_ACCEPT_CALLBACK structure. 
                 
 
 
 ### -field WS_SERVICE_ENDPOINT_PROPERTY_CLOSE_CHANNEL_CALLBACK
 
-Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">WS_SERVICE_ENDPOINT</a>.
+Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a>.
                     The value is a pointer to WS_SERVICE_PROPERTY_CLOSE_CALLBACK structure. 
                 
 
 
 ### -field WS_SERVICE_ENDPOINT_PROPERTY_MAX_ACCEPTING_CHANNELS
 
-Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">WS_SERVICE_ENDPOINT</a>, this specifies the maximum number of concurrent channels service host will have 
+Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a>, this specifies the maximum number of concurrent channels service host will have 
                     actively accepting new connections for a given endpoint.                     When not specified this value is set to 1. If an endpoint specifies a default message handler (See <b>WS_SERVICE_ENDPOINT</b>) concurrency 
                     has to be 1. 
 
@@ -85,7 +85,7 @@ Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns
 
 ### -field WS_SERVICE_ENDPOINT_PROPERTY_MAX_CONCURRENCY
 
-Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">WS_SERVICE_ENDPOINT</a>, this specifies the maximum number of concurrent calls that would be serviced on a session based channel.
+Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a>, this specifies the maximum number of concurrent calls that would be serviced on a session based channel.
                     When not specified this value is set to 1. If an endpoint specifies a default message handler (See <b>WS_SERVICE_ENDPOINT</b> concurrency 
                     has to be 1. 
                 
@@ -199,16 +199,16 @@ Note that this property when set to <a href="https://docs.microsoft.com/windows/
                 
 
 When setting this property to WS_METADATA_EXCHANGE_TYPE_HTTP_GET an application must not specify <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_4">WS_MATCH_URL_EXACT_PATH</a> for the listener 
-                    properties <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS</a> and <b>WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS</b>for the given <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">WS_SERVICE_ENDPOINT</a>.
+                    properties <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS</a> and <b>WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS</b>for the given <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a>.
                 
 
 
 ### -field WS_SERVICE_ENDPOINT_PROPERTY_METADATA
 
-Specifies the WSDL port name, binding name and binding namespace for the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">endpoint</a>. 
+Specifies the WSDL port name, binding name and binding namespace for the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">endpoint</a>. 
                 
 
-This property must be specified to enable the participation of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">WS_SERVICE_ENDPOINT</a> in WS-Metadata Exchange.
+This property must be specified to enable the participation of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a> in WS-Metadata Exchange.
                 
 
 See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_service_endpoint_metadata">WS_SERVICE_ENDPOINT_METADATA</a> for more details.
@@ -217,7 +217,7 @@ See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webserv
 
 ### -field WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_URL_SUFFIX
 
-Specifies the suffix which is concatenated as is to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">WS_SERVICE_ENDPOINT</a> URL to generate a URL for WS-MetadataExchange v1.1 requests servicing. 
+Specifies the suffix which is concatenated as is to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a> URL to generate a URL for WS-MetadataExchange v1.1 requests servicing. 
                     The generated URL is used to compare against the 'to' header of the message received. Note that if the message does not contain a 'to' header the requests is not
                     serviced. 
                 
@@ -239,7 +239,7 @@ Note that this property changes the <a href="https://docs.microsoft.com/windows/
 
 When setting this property an application must not specify <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_4">WS_MATCH_URL_EXACT_PATH</a> for the listener 
                     properties <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS</a> and <b>WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS</b> 
-                    for the given <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">WS_SERVICE_ENDPOINT</a>.
+                    for the given <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a>.
                 
 
 

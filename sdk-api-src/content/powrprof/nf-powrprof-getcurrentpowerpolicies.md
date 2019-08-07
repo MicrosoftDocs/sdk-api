@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPowerPolicies, GetCurrentPowerPolicies function, _win32_getcurrentpowerpolicies, base.getcurrentpowerpolicies, powrprof/GetCurrentPowerPolicies
 ms.topic: function
-f1_keywords: 
- - "powrprof/GetCurrentPowerPolicies"
+f1_keywords:
+- powrprof/GetCurrentPowerPolicies
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - GetCurrentPowerPolicies
+- GetCurrentPowerPolicies
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,13 +62,13 @@ Retrieves the current system power policy settings.
 ### -param pGlobalPowerPolicy [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_global_power_policy">GLOBAL_POWER_POLICY</a> structure that receives the current global power policy settings.
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_power_policy">GLOBAL_POWER_POLICY</a> structure that receives the current global power policy settings.
 
 
 ### -param pPowerPolicy [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_power_policy">POWER_POLICY</a> structure that receives the power policy settings that are unique to the active power scheme.
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-power_policy">POWER_POLICY</a> structure that receives the power policy settings that are unique to the active power scheme.
 
 
 ## -returns
@@ -101,11 +101,11 @@ For more information on using PowrProf.h, see <a href="https://docs.microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_global_power_policy">GLOBAL_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_power_policy">GLOBAL_POWER_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_power_policy">POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-power_policy">POWER_POLICY</a>
 
 
 

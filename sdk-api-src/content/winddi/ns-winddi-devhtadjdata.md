@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: a90f2283-7bc3-48e4-bb1c-172d9776a284
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDEVHTADJDATA, DEVHTADJDATA, DEVHTADJDATA structure [Display Devices], PDEVHTADJDATA, PDEVHTADJDATA structure pointer [Display Devices], display.devhtadjdata, grstrcts_bd1a058d-3d43-48f3-a87e-7f6f5276ba51.xml, winddi/DEVHTADJDATA, winddi/PDEVHTADJDATA"
+ms.keywords: '*PDEVHTADJDATA, DEVHTADJDATA, DEVHTADJDATA structure [Display Devices], PDEVHTADJDATA, PDEVHTADJDATA structure pointer [Display Devices], display.devhtadjdata, grstrcts_bd1a058d-3d43-48f3-a87e-7f6f5276ba51.xml, winddi/DEVHTADJDATA, winddi/PDEVHTADJDATA'
 ms.topic: struct
-f1_keywords: 
- - "winddi/DEVHTADJDATA"
+f1_keywords:
+- winddi/DEVHTADJDATA
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DEVHTADJDATA
+- DEVHTADJDATA
 product: Windows
 targetos: Windows
 req.typenames: DEVHTADJDATA, *PDEVHTADJDATA
@@ -114,7 +114,7 @@ Is the caller-supplied vertical resolution, in dots per inch, for the device.
 
 ### -field pDefHTInfo
 
-Is a caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_devhtinfo">DEVHTINFO</a> structure containing the device's default halftoning properties.
+Is a caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devhtinfo">DEVHTINFO</a> structure containing the device's default halftoning properties.
 
 
 ### -field pAdjHTInfo

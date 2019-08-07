@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSARecv, WSARecv function [Winsock], _win32_wsarecv_2, winsock.wsarecv_2, winsock2/WSARecv
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSARecv"
+f1_keywords:
+- winsock2/WSARecv
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSARecv
+- WSARecv
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -94,7 +94,7 @@ A pointer to flags used to modify the behavior of the
 ### -param lpOverlapped [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure (ignored for nonoverlapped sockets).
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure (ignored for nonoverlapped sockets).
 
 
 ### -param lpCompletionRoutine [in]
@@ -379,7 +379,7 @@ For nonoverlapped sockets, the blocking semantics are identical to that of the s
 <div class="alert"><b>Note</b>  The socket options <b>SO_RCVTIMEO</b> and <b>SO_SNDTIMEO</b> apply only to blocking sockets.</div>
 <div> </div>
 Whether or not a protocol is acting as byte stream is determined by the setting of XP1_MESSAGE_ORIENTED and XP1_PSEUDO_STREAM in its 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure and the setting of the MSG_PARTIAL flag passed in to this function (for protocols that support it). The following table lists relevant combinations, (an asterisk (*) indicates that the setting of this bit does not matter in this case).
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure and the setting of the MSG_PARTIAL flag passed in to this function (for protocols that support it). The following table lists relevant combinations, (an asterisk (*) indicates that the setting of this bit does not matter in this case).
 
 
 <table>
@@ -523,7 +523,7 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a> function. For a given socket, I/O completion routines will not be nested. This permits time-sensitive data transmissions to occur entirely within a preemptive context.
 
 The <i>lpOverlapped</i> parameter must be valid for the duration of the overlapped operation. If multiple I/O operations are simultaneously outstanding, each must reference a separate 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.
 
 If the <i>lpCompletionRoutine</i> parameter is <b>NULL</b>, the <i>hEvent</i> parameter of <i>lpOverlapped</i> is signaled when the overlapped operation completes if it contains a valid event object handle. An application can use 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsawaitformultipleevents">WSAWaitForMultipleEvents</a> or 
@@ -742,7 +742,7 @@ int __cdecl main(int argc, char **argv)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a>
 
 
 

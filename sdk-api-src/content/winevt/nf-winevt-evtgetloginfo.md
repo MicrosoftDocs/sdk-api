@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtGetLogInfo, EvtGetLogInfo function [EventLog], wes.evtgetloginfo, winevt/EvtGetLogInfo
 ms.topic: function
-f1_keywords: 
- - "winevt/EvtGetLogInfo"
+f1_keywords:
+- winevt/EvtGetLogInfo
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wevtapi.dll
+- Wevtapi.dll
 api_name:
- - EvtGetLogInfo
+- EvtGetLogInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Gets information about a channel or log file.
 
 ### -param PropertyId [in]
 
-The identifier of the property to retrieve. For a list of property identifiers, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_log_property_id">EVT_LOG_PROPERTY_ID</a> enumeration.
+The identifier of the property to retrieve. For a list of property identifiers, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_log_property_id">EVT_LOG_PROPERTY_ID</a> enumeration.
 
 
 ### -param PropertyValueBufferSize [in]

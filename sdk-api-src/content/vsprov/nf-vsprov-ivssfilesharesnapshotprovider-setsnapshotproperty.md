@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],SetSnapshotProperty method, IVssFileShareSnapshotProvider.SetSnapshotProperty, IVssFileShareSnapshotProvider::SetSnapshotProperty, SetSnapshotProperty, SetSnapshotProperty method [VSS], SetSnapshotProperty method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_setsnapshotproperty, vsprov/IVssFileShareSnapshotProvider::SetSnapshotProperty
 ms.topic: method
-f1_keywords: 
- - "vsprov/IVssFileShareSnapshotProvider.SetSnapshotProperty"
+f1_keywords:
+- vsprov/IVssFileShareSnapshotProvider.SetSnapshotProperty
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssFileShareSnapshotProvider.SetSnapshotProperty
+- IVssFileShareSnapshotProvider.SetSnapshotProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,12 +70,12 @@ Shadow copy identifier. This parameter is required and cannot be GUID_NULL.
 
 ### -param eSnapshotPropertyId [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_snapshot_property_id">VSS_SNAPSHOT_PROPERTY_ID</a> value that specifies the property to be set for the shadow copy.
+A <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_property_id">VSS_SNAPSHOT_PROPERTY_ID</a> value that specifies the property to be set for the shadow copy.
 
 
 ### -param vProperty [in]
 
-The value to be set for the property. See the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure for valid data types and descriptions of the properties that can be set for a shadow copy.
+The value to be set for the property. See the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure for valid data types and descriptions of the properties that can be set for a shadow copy.
 
 
 ## -returns

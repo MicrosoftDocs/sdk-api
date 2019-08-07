@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1efc6602-9851-40e5-85aa-0335d4e899a2, MFCLOCK_JITTER_DPC, MFCLOCK_JITTER_ISR, MFCLOCK_JITTER_PASSIVE, MFCLOCK_PROPERTIES, MFCLOCK_PROPERTIES structure [Media Foundation], mf.mfclock_properties, mfidl/MFCLOCK_PROPERTIES
 ms.topic: struct
-f1_keywords: 
- - "mfidl/MFCLOCK_PROPERTIES"
+f1_keywords:
+- mfidl/MFCLOCK_PROPERTIES
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFCLOCK_PROPERTIES
+- MFCLOCK_PROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: MFCLOCK_PROPERTIES
@@ -74,7 +74,7 @@ The unique identifier of the underlying device that provides the time. If two cl
 
 ### -field dwClockFlags
 
-A bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfclock_relational_flags">MFCLOCK_RELATIONAL_FLAGS</a> enumeration.
+A bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfclock_relational_flags">MFCLOCK_RELATIONAL_FLAGS</a> enumeration.
           
 
 

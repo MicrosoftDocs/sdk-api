@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_AES_WRAP_KEY_BLOB, BCRYPT_KEY_DATA_BLOB, BCRYPT_OPAQUE_KEY_BLOB, BCryptImportKey, BCryptImportKey function [Security], bcrypt/BCryptImportKey, security.bcryptimportkey_func
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptImportKey"
+f1_keywords:
+- bcrypt/BCryptImportKey
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
- - Ksecdd.sys
+- Bcrypt.dll
+- Ksecdd.sys
 api_name:
- - BCryptImportKey
+- BCryptImportKey
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -101,7 +101,7 @@ Import a symmetric key from an AES key–wrapped key BLOB. The <i>hImportKey</i>
 </dl>
 </td>
 <td width="60%">
-Import a symmetric key from a data BLOB. The <i>pbInput</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_key_data_blob_header">BCRYPT_KEY_DATA_BLOB_HEADER</a> structure immediately followed by the key BLOB.
+Import a symmetric key from a data BLOB. The <i>pbInput</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_key_data_blob_header">BCRYPT_KEY_DATA_BLOB_HEADER</a> structure immediately followed by the key BLOB.
 
 </td>
 </tr>

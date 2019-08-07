@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_OPW_BLOB, DS_REPL_OPW_BLOB structure [Active Directory], DS_REPL_OP_TYPE_ADD, DS_REPL_OP_TYPE_DELETE, DS_REPL_OP_TYPE_MODIFY, DS_REPL_OP_TYPE_SYNC, DS_REPL_OP_TYPE_UPDATE_REFS, ad.ds_repl_opw_blob, ntdsapi/DS_REPL_OPW_BLOB
 ms.topic: struct
-f1_keywords: 
- - "ntdsapi/DS_REPL_OPW_BLOB"
+f1_keywords:
+- ntdsapi/DS_REPL_OPW_BLOB
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntdsapi.h
+- Ntdsapi.h
 api_name:
- - DS_REPL_OPW_BLOB
+- DS_REPL_OPW_BLOB
 product: Windows
 targetos: Windows
 req.typenames: DS_REPL_OPW_BLOB
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DS_REPL_OPW_BLOB</b> structure describes a replication task currently executing or pending execution. This structure is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_opw">DS_REPL_OP</a> structure, but is obtained from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a> functions when obtaining binary data for the <b>msDS-ReplPendingOps</b> attribute.
+The <b>DS_REPL_OPW_BLOB</b> structure describes a replication task currently executing or pending execution. This structure is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_opw">DS_REPL_OP</a> structure, but is obtained from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a> functions when obtaining binary data for the <b>msDS-ReplPendingOps</b> attribute.
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ Contains the priority value of this operation. Tasks with a higher priority valu
 
 ### -field OpType
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ne-ntdsapi-_ds_repl_op_type">DS_REPL_OP_TYPE</a> values that indicate the type of operation that this structure represents.
+Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ne-ntdsapi-ds_repl_op_type">DS_REPL_OP_TYPE</a> values that indicate the type of operation that this structure represents.
 
 
 ### -field ulOptions
@@ -156,7 +156,7 @@ Contains the <b>objectGuid</b> of the directory system agent object identified b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_opw">DS_REPL_OP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_opw">DS_REPL_OP</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWP_VALUE0, FWP_VALUE0 structure [Filtering], fwp.fwp_value0_struct, fwptypes/FWP_VALUE0
 ms.topic: struct
-f1_keywords: 
- - "fwptypes/FWP_VALUE0"
+f1_keywords:
+- fwptypes/FWP_VALUE0
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwptypes.h
+- Fwptypes.h
 api_name:
- - FWP_VALUE0
+- FWP_VALUE0
 product: Windows
 targetos: Windows
 req.typenames: FWP_VALUE0
@@ -277,7 +277,7 @@ A pointer to a SID.
 
 case(FWP_SECURITY_DESCRIPTOR_TYPE)
 
-A pointer to a security descriptor contained in a <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a>  structure. The data contained in the blob is a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+A pointer to a security descriptor contained in a <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a>  structure. The data contained in the blob is a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 
 
@@ -293,7 +293,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes
 
 case(FWP_TOKEN_ACCESS_INFORMATION_TYPE)
 
-A pointer to token access information contained in a <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a>  structure. The data contained in the blob is a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_access_information">TOKEN_ACCESS_INFORMATION</a> structure.
+A pointer to token access information contained in a <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a>  structure. The data contained in the blob is a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_access_information">TOKEN_ACCESS_INFORMATION</a> structure.
 
 
 

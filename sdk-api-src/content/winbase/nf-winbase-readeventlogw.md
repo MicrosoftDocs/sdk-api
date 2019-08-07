@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVENTLOG_BACKWARDS_READ, EVENTLOG_FORWARDS_READ, EVENTLOG_SEEK_READ, EVENTLOG_SEQUENTIAL_READ, ReadEventLog, ReadEventLog function, ReadEventLogA, ReadEventLogW, _win32_readeventlog, base.readeventlog, winbase/ReadEventLog, winbase/ReadEventLogA, winbase/ReadEventLogW
 ms.topic: function
-f1_keywords: 
- - "winbase/ReadEventLog"
+f1_keywords:
+- winbase/ReadEventLog
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-MS-Win-AdvAPI32-EventLog-L1-1-0.dll
- - Ext-Ms-Win-AdvAPI32-EventLog-Ansi-L1-1-0.dll
- - Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
+- Advapi32.dll
+- Ext-MS-Win-AdvAPI32-EventLog-L1-1-0.dll
+- Ext-Ms-Win-AdvAPI32-EventLog-Ansi-L1-1-0.dll
+- Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
 api_name:
- - ReadEventLog
- - ReadEventLogA
- - ReadEventLogW
+- ReadEventLog
+- ReadEventLogA
+- ReadEventLogW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -163,7 +163,7 @@ The record number of the log-entry at which the read operation should start. Thi
 
 ### -param lpBuffer [out]
 
-An application-allocated buffer that will receive one or more <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_eventlogrecord">EVENTLOGRECORD</a> structures. This parameter cannot be <b>NULL</b>, even if the <i>nNumberOfBytesToRead</i> parameter is zero. 
+An application-allocated buffer that will receive one or more <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-eventlogrecord">EVENTLOGRECORD</a> structures. This parameter cannot be <b>NULL</b>, even if the <i>nNumberOfBytesToRead</i> parameter is zero. 
 
 
 
@@ -231,7 +231,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_eventlogrecord">EVENTLOGRECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-eventlogrecord">EVENTLOGRECORD</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCaps, GetCaps method [DirectDraw], GetCaps method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetCaps method, IDirectDraw7.GetCaps, IDirectDraw7::GetCaps, ddraw/IDirectDraw7::GetCaps, directdraw.idirectdraw7_getcaps
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDraw7.GetCaps"
+f1_keywords:
+- ddraw/IDirectDraw7.GetCaps
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDraw7.GetCaps
+- IDirectDraw7.GetCaps
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,12 +61,12 @@ Retrieves the capabilities of the device driver for the hardware and the hardwar
 
 ### -param arg1 [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddcaps_dx3">DDCAPS</a> structure that receives the capabilities of the hardware, as reported by the device driver. Set this parameter to NULL if you do not want to retrieve device driver capabilities.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddcaps_dx3">DDCAPS</a> structure that receives the capabilities of the hardware, as reported by the device driver. Set this parameter to NULL if you do not want to retrieve device driver capabilities.
 
 
 ### -param arg2 [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddcaps_dx3">DDCAPS</a> structure that receives the capabilities of the HEL. Set this parameter to NULL if you do not want to retrieve HEL capabilities.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddcaps_dx3">DDCAPS</a> structure that receives the capabilities of the HEL. Set this parameter to NULL if you do not want to retrieve HEL capabilities.
 
 
 ## -returns

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFNPROPSHEETCALLBACK, PSCB_BUTTONPRESSED, PSCB_INITIALIZED, PSCB_PRECREATE, PropSheetProc, PropSheetProc callback, PropSheetProc callback function [Windows Controls], _win32_PropSheetProc, _win32_PropSheetProc_cpp, controls.PropSheetProc, controls._win32_PropSheetProc, prsht/PFNPROPSHEETCALLBACK, prsht/PropSheetProc
 ms.topic: callback
-f1_keywords: 
- - "prsht/PropSheetProc"
+f1_keywords:
+- prsht/PropSheetProc
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Prsht.h
+- Prsht.h
 api_name:
- - PropSheetProc
- - PFNPROPSHEETCALLBACK
+- PropSheetProc
+- PFNPROPSHEETCALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -138,7 +138,7 @@ Message being received. This parameter is one of the following values.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.0</a> and later. Indicates the user pressed a button in the property sheet dialog box. To enable this, specify PSH_USECALLBACK in <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PROPSHEETHEADER.dwFlags</a> and specify the name of this callback function in <b>PROPSHEETHEADER.pfnCallback</b>. The <i>lParam</i> value is one of the following. Note that only PSBTN_CANCEL is valid when you are using the Aero wizard style (<b>PSH_AEROWIZARD</b>).
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.0</a> and later. Indicates the user pressed a button in the property sheet dialog box. To enable this, specify PSH_USECALLBACK in <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PROPSHEETHEADER.dwFlags</a> and specify the name of this callback function in <b>PROPSHEETHEADER.pfnCallback</b>. The <i>lParam</i> value is one of the following. Note that only PSBTN_CANCEL is valid when you are using the Aero wizard style (<b>PSH_AEROWIZARD</b>).
 
 <table class="clsStd">
 <tr>
@@ -184,7 +184,7 @@ Indicates that the property sheet is being initialized. The <i>lParam</i> value 
 </dl>
 </td>
 <td width="60%">
-Indicates that the property sheet is about to be created. The <i>hwndDlg</i> parameter is <b>NULL</b>, and the <i>lParam</i> parameter is the address of a dialog template in memory. This template is in the form of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-dlgtemplate">DLGTEMPLATE</a> or <a href="https://docs.microsoft.com/windows/desktop/dlgbox/dlgtemplateex">DLGTEMPLATEEX</a> structure followed by one or more <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-dlgitemtemplate">DLGITEMTEMPLATE</a> structures. This message is not applicable if you are using the Aero wizard style (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PSH_AEROWIZARD</a>).
+Indicates that the property sheet is about to be created. The <i>hwndDlg</i> parameter is <b>NULL</b>, and the <i>lParam</i> parameter is the address of a dialog template in memory. This template is in the form of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-dlgtemplate">DLGTEMPLATE</a> or <a href="https://docs.microsoft.com/windows/desktop/dlgbox/dlgtemplateex">DLGTEMPLATEEX</a> structure followed by one or more <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-dlgitemtemplate">DLGITEMTEMPLATE</a> structures. This message is not applicable if you are using the Aero wizard style (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).
 
 </td>
 </tr>
@@ -207,7 +207,7 @@ Returns zero.
 
 
 
-To enable a <i>PropSheetProc</i> callback function, use the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PROPSHEETHEADER</a> structure when you call the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> function to create the property sheet. Use the <b>pfnCallback</b> member to specify an address of the callback function, and set the <b>PSP_USECALLBACK</b> flag in the <b>dwFlags</b> member.
+To enable a <i>PropSheetProc</i> callback function, use the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PROPSHEETHEADER</a> structure when you call the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> function to create the property sheet. Use the <b>pfnCallback</b> member to specify an address of the callback function, and set the <b>PSP_USECALLBACK</b> flag in the <b>dwFlags</b> member.
 
 <i>PropSheetProc</i> is a placeholder for the application-defined function name. The <b>PFNPROPSHEETCALLBACK</b> type is the address of a <i>PropSheetProc</i> callback function.
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MappingGetServices, MappingGetServices function [Internationalization for Windows Applications], elscore/MappingGetServices, intl.mappinggetservices
 ms.topic: function
-f1_keywords: 
- - "elscore/MappingGetServices"
+f1_keywords:
+- elscore/MappingGetServices
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Elscore.lib
 req.dll: Elscore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Elscore.dll
- - ext-ms-win-els-elscore-l1-1-0.dll
+- Elscore.dll
+- ext-ms-win-els-elscore-l1-1-0.dll
 api_name:
- - MappingGetServices
+- MappingGetServices
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,12 +62,12 @@ Retrieves a list of available ELS platform-supported services, along with associ
 
 ### -param pOptions [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_enum_options">MAPPING_ENUM_OPTIONS</a> structure containing criteria to use during enumeration of services. The application specifies <b>NULL</b> for this parameter to retrieve all installed services.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-mapping_enum_options">MAPPING_ENUM_OPTIONS</a> structure containing criteria to use during enumeration of services. The application specifies <b>NULL</b> for this parameter to retrieve all installed services.
 
 
 ### -param prgServices [out]
 
-Address of a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_service_info">MAPPING_SERVICE_INFO</a> structures containing service information matching the criteria supplied in the <i>pOptions</i> parameter.
+Address of a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-mapping_service_info">MAPPING_SERVICE_INFO</a> structures containing service information matching the criteria supplied in the <i>pOptions</i> parameter.
 
 
 ### -param pdwServicesCount [out]
@@ -117,11 +117,11 @@ For performance reasons, it is recommended to retrieve services infrequently. Fo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_enum_options">MAPPING_ENUM_OPTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-mapping_enum_options">MAPPING_ENUM_OPTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_service_info">MAPPING_SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-mapping_service_info">MAPPING_SERVICE_INFO</a>
 
 
 

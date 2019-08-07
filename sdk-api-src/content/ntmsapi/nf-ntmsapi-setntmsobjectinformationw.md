@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetNtmsObjectInformation, SetNtmsObjectInformation function [Files], SetNtmsObjectInformationA, SetNtmsObjectInformationW, _zaw_setntmsobjectinformation, base.setntmsobjectinformation, fs.setntmsobjectinformation, ntmsapi/SetNtmsObjectInformation, ntmsapi/SetNtmsObjectInformationA, ntmsapi/SetNtmsObjectInformationW
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/SetNtmsObjectInformation"
+f1_keywords:
+- ntmsapi/SetNtmsObjectInformation
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - SetNtmsObjectInformation
- - SetNtmsObjectInformationA
- - SetNtmsObjectInformationW
+- SetNtmsObjectInformation
+- SetNtmsObjectInformationA
+- SetNtmsObjectInformationW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,7 +78,7 @@ Unique identifier of the RSM object.
 ### -param lpInfo [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
 
 ## -returns
@@ -194,7 +194,7 @@ The information size and type must be set before you can use
 <b>SetNtmsObjectInformation</b>.
 
 All writable properties for the object are read from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure and written to the database without regard for any write operations that have occurred between the time this application called the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure and written to the database without regard for any write operations that have occurred between the time this application called the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectinformation">GetNtmsObjectInformation</a> function and the 
 <b>SetNtmsObjectInformation</b> function. Because of this you can lose changes.
 
@@ -355,7 +355,7 @@ The following is the list of objects that have members that can be updated.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
 
 
 

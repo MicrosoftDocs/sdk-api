@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IToolbar interface [MMC],InsertButton method, IToolbar.InsertButton, IToolbar::InsertButton, InsertButton, InsertButton method [MMC], InsertButton method [MMC],IToolbar interface, _slate_itoolbar_insertbutton, mmc.itoolbar_insertbutton, mmc/IToolbar::InsertButton
 ms.topic: method
-f1_keywords: 
- - "mmc/IToolbar.InsertButton"
+f1_keywords:
+- mmc/IToolbar.InsertButton
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IToolbar.InsertButton
+- IToolbar.InsertButton
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ An internal index at which the button will be inserted. The button is always pla
 ### -param lpButton [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmcbutton">MMCBUTTON</a> structure that defines the button to be inserted.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmcbutton">MMCBUTTON</a> structure that defines the button to be inserted.
 
 
 ## -returns

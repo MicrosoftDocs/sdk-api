@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPWSPSOCKET, WSPSocket, WSPSocket function [Winsock], _win32_wspsocket_2, winsock.wspsocket_2, ws2spi/WSPSocket
 ms.topic: callback
-f1_keywords: 
- - "ws2spi/WSPSocket"
+f1_keywords:
+- ws2spi/WSPSocket
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ws2spi.h
+- Ws2spi.h
 api_name:
- - WSPSocket
+- WSPSocket
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,7 +78,7 @@ Protocol to be used with the socket that is specific to the indicated address fa
 ### -param lpProtocolInfo [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure that defines the characteristics of the socket to be created.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure that defines the characteristics of the socket to be created.
 
 
 ### -param g [in]
@@ -230,7 +230,7 @@ The
 The values for <i>af</i>, <i>type</i>, and <i>protocol</i> are those supplied by the application in the corresponding API functions 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a>. A service provider is free to ignore or pay attention to any or all of these values as is appropriate for the particular protocol. However, the provider must be willing to accept the value of zero for <i>af</i> and <i>type</i>, since the Ws2_32.dll considers these to be wildcard values. Also the value of manifest constant <b>FROM_PROTOCOL_INFO</b> must be accepted for any of <i>af</i>, <i>type</i>, and <i>protocol</i>. This value indicates that the Windows Sockets 2 application needs to use the corresponding values from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure (<b>iAddressFamily</b>, <b>iSocketType</b>, <b>iProtocol</b>).
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure (<b>iAddressFamily</b>, <b>iSocketType</b>, <b>iProtocol</b>).
 
 The <i>dwFlags</i> parameter can be used to specify the attributes of the socket by using the bitwise <b>OR</b> operator with any of the following flags.
 
@@ -251,22 +251,22 @@ The <i>dwFlags</i> parameter can be used to specify the attributes of the socket
 <tr>
 <td>WSA_FLAG_MULTIPOINT_C_ROOT</td>
 <td>Indicates that the socket created will be a c_root in a multipoint session. Only allowed if a rooted control plane is indicated in the protocol's 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure.</td>
 </tr>
 <tr>
 <td>WSA_FLAG_MULTIPOINT_C_LEAF</td>
 <td>Indicates that the socket created will be a c_leaf in a multicast session. Only allowed if XP1_SUPPORT_MULTIPOINT is indicated in the protocol's 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure.</td>
 </tr>
 <tr>
 <td>WSA_FLAG_MULTIPOINT_D_ROOT</td>
 <td>Indicates that the socket created will be a d_root in a multipoint session. Only allowed if a rooted data plane is indicated in the protocol's 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure.</td>
 </tr>
 <tr>
 <td>WSA_FLAG_MULTIPOINT_D_LEAF</td>
 <td>Indicates that the socket created will be a d_leaf in a multipoint session. Only allowed if XP1_SUPPORT_MULTIPOINT is indicated in the protocol's 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure.</td>
 </tr>
 </table>
  
@@ -302,14 +302,14 @@ A layered service provider supplies an implementation of this function, but it i
 
 If the next layer in the protocol chain is another layer then when the next layer's 
 <b>WSPSocket</b> is called, this layer must pass to the next layer a <i>lpProtocolInfo</i> that references the same unmodified 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure with the same unmodified chain information. However, if the next layer is the base protocol (that is, the last element in the chain), this layer performs a substitution when calling the base provider's 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure with the same unmodified chain information. However, if the next layer is the base protocol (that is, the last element in the chain), this layer performs a substitution when calling the base provider's 
 <b>WSPSocket</b>. In this case, the base provider's 
 <b>WSAPROTOCOL_INFO</b> structure should be referenced by the <i>lpProtocolInfo</i> parameter.
 
 One vital benefit of this policy is that base service providers do not have to be aware of protocol chains.
 
 This same propagation policy applies when propagating a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure through a layered sequence of other functions such as 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure through a layered sequence of other functions such as 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspaddresstostring">WSPAddressToString</a>, 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v=vs.85)">WSPDuplicateSocket</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a>, or 

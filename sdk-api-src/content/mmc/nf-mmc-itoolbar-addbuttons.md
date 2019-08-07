@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddButtons, AddButtons method [MMC], AddButtons method [MMC],IToolbar interface, IToolbar interface [MMC],AddButtons method, IToolbar.AddButtons, IToolbar::AddButtons, _slate_itoolbar_addbuttons, mmc.itoolbar_addbuttons, mmc/IToolbar::AddButtons
 ms.topic: method
-f1_keywords: 
- - "mmc/IToolbar.AddButtons"
+f1_keywords:
+- mmc/IToolbar.AddButtons
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IToolbar.AddButtons
+- IToolbar.AddButtons
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ The number of buttons in the array.
 ### -param lpButtons [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmcbutton">MMCBUTTON</a> structure that contains information necessary for creating a button on the toolbar.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmcbutton">MMCBUTTON</a> structure that contains information necessary for creating a button on the toolbar.
 
 
 ## -returns

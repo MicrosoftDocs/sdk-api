@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],GetCurrentLevel method, CVssWriter.GetCurrentLevel, CVssWriter::GetCurrentLevel, GetCurrentLevel, GetCurrentLevel method [VSS], GetCurrentLevel method [VSS],CVssWriter interface, _win32_cvsswriter_getcurrentlevel, base.cvsswriter_getcurrentlevel, vswriter/CVssWriter::GetCurrentLevel
 ms.topic: method
-f1_keywords: 
- - "vswriter/CVssWriter.GetCurrentLevel"
+f1_keywords:
+- vswriter/CVssWriter.GetCurrentLevel
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - CVssWriter.GetCurrentLevel
+- CVssWriter.GetCurrentLevel
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ The
 
 
 This method returns a writer's current application level as a 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_application_level">VSS_APPLICATION_LEVEL</a> enumeration value. See 
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_application_level">VSS_APPLICATION_LEVEL</a> enumeration value. See 
 <b>VSS_APPLICATION_LEVEL</b> for a description of these values.
 
 
@@ -98,7 +98,7 @@ This method returns a writer's current application level as a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_application_level">VSS_APPLICATION_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_application_level">VSS_APPLICATION_LEVEL</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsHbaPort interface [VDS],SetAllPathStatuses method, IVdsHbaPort.SetAllPathStatuses, IVdsHbaPort::SetAllPathStatuses, SetAllPathStatuses, SetAllPathStatuses method [VDS], SetAllPathStatuses method [VDS],IVdsHbaPort interface, base.ivdshbaport_setallpathstatuses, vds/IVdsHbaPort::SetAllPathStatuses
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsHbaPort.SetAllPathStatuses"
+f1_keywords:
+- vds/IVdsHbaPort.SetAllPathStatuses
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - IVdsHbaPort.SetAllPathStatuses
+- IVdsHbaPort.SetAllPathStatuses
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -116,7 +116,7 @@ At least one path's status was not set successfully due to a nonfatal error (for
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_path_status">VDS_PATH_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_path_status">VDS_PATH_STATUS</a>
  
 
  

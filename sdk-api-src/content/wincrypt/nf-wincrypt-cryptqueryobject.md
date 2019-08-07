@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_QUERY_CONTENT_CERT, CERT_QUERY_CONTENT_CERT_PAIR, CERT_QUERY_CONTENT_CRL, CERT_QUERY_CONTENT_CTL, CERT_QUERY_CONTENT_FLAG_ALL, CERT_QUERY_CONTENT_FLAG_CERT, CERT_QUERY_CONTENT_FLAG_CERT_PAIR, CERT_QUERY_CONTENT_FLAG_CRL, CERT_QUERY_CONTENT_FLAG_CTL, CERT_QUERY_CONTENT_FLAG_PFX, CERT_QUERY_CONTENT_FLAG_PFX_AND_LOAD, CERT_QUERY_CONTENT_FLAG_PKCS10, CERT_QUERY_CONTENT_FLAG_PKCS7_SIGNED, CERT_QUERY_CONTENT_FLAG_PKCS7_SIGNED_EMBED, CERT_QUERY_CONTENT_FLAG_PKCS7_UNSIGNED, CERT_QUERY_CONTENT_FLAG_SERIALIZED_CERT, CERT_QUERY_CONTENT_FLAG_SERIALIZED_CRL, CERT_QUERY_CONTENT_FLAG_SERIALIZED_CTL, CERT_QUERY_CONTENT_FLAG_SERIALIZED_STORE, CERT_QUERY_CONTENT_PFX, CERT_QUERY_CONTENT_PFX_AND_LOAD, CERT_QUERY_CONTENT_PKCS10, CERT_QUERY_CONTENT_PKCS7_SIGNED, CERT_QUERY_CONTENT_PKCS7_SIGNED_EMBED, CERT_QUERY_CONTENT_PKCS7_UNSIGNED, CERT_QUERY_CONTENT_SERIALIZED_CERT, CERT_QUERY_CONTENT_SERIALIZED_CRL, CERT_QUERY_CONTENT_SERIALIZED_CTL, CERT_QUERY_CONTENT_SERIALIZED_STORE, CERT_QUERY_FORMAT_ASN_ASCII_HEX_ENCODED, CERT_QUERY_FORMAT_BASE64_ENCODED, CERT_QUERY_FORMAT_BINARY, CERT_QUERY_FORMAT_FLAG_ALL, CERT_QUERY_FORMAT_FLAG_ASN_ASCII_HEX_ENCODED, CERT_QUERY_FORMAT_FLAG_BASE64_ENCODED, CERT_QUERY_FORMAT_FLAG_BINARY, CERT_QUERY_OBJECT_BLOB, CERT_QUERY_OBJECT_FILE, CryptQueryObject, CryptQueryObject function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_cryptqueryobject, security.cryptqueryobject, wincrypt/CryptQueryObject
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptQueryObject"
+f1_keywords:
+- wincrypt/CryptQueryObject
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptQueryObject
+- CryptQueryObject
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -729,7 +729,7 @@ The format of this data depends on the value received by the <i>dwContentType</i
 </dl>
 </td>
 <td width="60%">
-This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
+This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
 
 </td>
 </tr>
@@ -739,7 +739,7 @@ This parameter receives a pointer to a <a href="https://docs.microsoft.com/windo
 </dl>
 </td>
 <td width="60%">
-This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a> function.
+This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a> function.
 
 </td>
 </tr>
@@ -749,7 +749,7 @@ This parameter receives a pointer to a <a href="https://docs.microsoft.com/windo
 </dl>
 </td>
 <td width="60%">
-This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a> function.
+This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a> function.
 
 </td>
 </tr>
@@ -759,7 +759,7 @@ This parameter receives a pointer to a <a href="https://docs.microsoft.com/windo
 </dl>
 </td>
 <td width="60%">
-This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
+This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
 
 </td>
 </tr>
@@ -769,7 +769,7 @@ This parameter receives a pointer to a <a href="https://docs.microsoft.com/windo
 </dl>
 </td>
 <td width="60%">
-This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a> function.
+This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a> function.
 
 </td>
 </tr>
@@ -779,7 +779,7 @@ This parameter receives a pointer to a <a href="https://docs.microsoft.com/windo
 </dl>
 </td>
 <td width="60%">
-This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a> function.
+This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure. When you have finished using the structure, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a> function.
 
 </td>
 </tr>

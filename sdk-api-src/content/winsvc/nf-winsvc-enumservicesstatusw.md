@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumServicesStatus, EnumServicesStatus function, EnumServicesStatusA, EnumServicesStatusW, SERVICE_ACTIVE, SERVICE_DRIVER, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INACTIVE, SERVICE_KERNEL_DRIVER, SERVICE_STATE_ALL, SERVICE_WIN32, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _win32_enumservicesstatus, base.enumservicesstatus, winsvc/EnumServicesStatus, winsvc/EnumServicesStatusA, winsvc/EnumServicesStatusW
 ms.topic: function
-f1_keywords: 
- - "winsvc/EnumServicesStatus"
+f1_keywords:
+- winsvc/EnumServicesStatus
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - EnumServicesStatus
- - EnumServicesStatusA
- - EnumServicesStatusW
+- EnumServicesStatus
+- EnumServicesStatusA
+- EnumServicesStatusW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -201,7 +201,7 @@ Combines the following states: SERVICE_ACTIVE and SERVICE_INACTIVE.
 ### -param lpServices [out, optional]
 
 A pointer to a buffer that contains an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_enum_service_statusa">ENUM_SERVICE_STATUS</a> structures that receive the name and service status information for each service in the database. The buffer must be large enough to hold the structures, plus the strings to which their members point.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-enum_service_statusa">ENUM_SERVICE_STATUS</a> structures that receive the name and service status information for each service in the database. The buffer must be large enough to hold the structures, plus the strings to which their members point.
 
 The maximum size of this array is 256K bytes. To determine the required size, specify NULL for this parameter and 0 for the <i>cbBufSize</i> parameter. The function will fail and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return ERROR_INSUFFICIENT_BUFFER. The <i>pcbBytesNeeded</i> parameter will receive the required size.
 
@@ -302,7 +302,7 @@ There are more service entries than would fit into the <i>lpServices</i> buffer.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_enum_service_statusa">ENUM_SERVICE_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-enum_service_statusa">ENUM_SERVICE_STATUS</a>
 
 
 

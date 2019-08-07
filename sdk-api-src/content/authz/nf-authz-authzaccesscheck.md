@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AUTHZ_ACCESS_CHECK_NO_DEEP_COPY_SD, AuthzAccessCheck, AuthzAccessCheck function [Security], _win32_authzaccesscheck, authz/AuthzAccessCheck, security.authzaccesscheck
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzAccessCheck"
+f1_keywords:
+- authz/AuthzAccessCheck
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
+- Authz.dll
 api_name:
- - AuthzAccessCheck
+- AuthzAccessCheck
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AuthzAccessCheck</b> function determines which access bits can be granted to a client for a given set of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptors</a>. The <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_access_reply">AUTHZ_ACCESS_REPLY</a> structure returns an array of granted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access masks</a> and error status. Optionally, access masks that will always be granted can be cached, and a handle to cached values is returned.
+The <b>AuthzAccessCheck</b> function determines which access bits can be granted to a client for a given set of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptors</a>. The <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_access_reply">AUTHZ_ACCESS_REPLY</a> structure returns an array of granted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access masks</a> and error status. Optionally, access masks that will always be granted can be cached, and a handle to cached values is returned.
 
 
 ## -parameters
@@ -108,7 +108,7 @@ Starting with Windows 8 and Windows Server 2012,  the client context can be lo
 
 ### -param pRequest [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_access_request">AUTHZ_ACCESS_REQUEST</a> structure that specifies the desired access mask, principal self <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID), and the object type list structure, if it exists.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_access_request">AUTHZ_ACCESS_REQUEST</a> structure that specifies the desired access mask, principal self <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID), and the object type list structure, if it exists.
 
 
 ### -param hAuditEvent [in, optional]
@@ -121,7 +121,7 @@ Starting with Windows 8 and Windows Server 2012,  when you use this function w
 ### -param pSecurityDescriptor [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure to be used for access checks. The owner SID for the object is picked from this security descriptor. A <b>NULL </b><a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) in this security descriptor represents a <b>NULL</b> DACL for the entire object. Make sure the security descriptor contains OWNER and DACL information, or an error code 87 or "invalid parameter" message will be generated.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure to be used for access checks. The owner SID for the object is picked from this security descriptor. A <b>NULL </b><a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) in this security descriptor represents a <b>NULL</b> DACL for the entire object. Make sure the security descriptor contains OWNER and DACL information, or an error code 87 or "invalid parameter" message will be generated.
 
 <div class="alert"><b>Important</b>  <b>NULL</b> DACLs permit all types of access to all users; therefore, do not use <b>NULL</b> DACLs. For information about creating a DACL, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/creating-a-dacl">Creating a DACL</a>.</div>
 <div> </div>
@@ -131,7 +131,7 @@ A pointer to a
 
 ### -param OptionalSecurityDescriptorArray [in, optional]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structures. <b>NULL </b><a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control lists</a> (ACLs) in these security descriptors are treated as empty ACLs. The ACL for the entire object is the logical concatenation of all of the ACLs.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structures. <b>NULL </b><a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control lists</a> (ACLs) in these security descriptors are treated as empty ACLs. The ACL for the entire object is the logical concatenation of all of the ACLs.
 					
 
 
@@ -144,7 +144,7 @@ The number of security descriptors not including the primary security descriptor
 ### -param pReply [in, out]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_access_reply">AUTHZ_ACCESS_REPLY</a> structure that contains the results of the access check. Before calling the <b>AuthzAccessCheck</b> function, an application must allocate memory for the <b>GrantedAccessMask</b> and <b>SaclEvaluationResults</b> members of the <b>AUTHZ_ACCESS_REPLY</b> structure referenced by <i>pReply</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_access_reply">AUTHZ_ACCESS_REPLY</a> structure that contains the results of the access check. Before calling the <b>AuthzAccessCheck</b> function, an application must allocate memory for the <b>GrantedAccessMask</b> and <b>SaclEvaluationResults</b> members of the <b>AUTHZ_ACCESS_REPLY</b> structure referenced by <i>pReply</i>.
 
 
 ### -param phAccessCheckResults [out, optional]
@@ -170,7 +170,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzaccesscheckcallback">AuthzAccessCheckCallback</a> callback function will be called if the DACL of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure pointed to by the <i>pSecurityDescriptor</i> parameter contains a callback <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE).
+The <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzaccesscheckcallback">AuthzAccessCheckCallback</a> callback function will be called if the DACL of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure pointed to by the <i>pSecurityDescriptor</i> parameter contains a callback <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE).
 
 Security attribute variables must be present in the client context if referred to in a conditional expression, otherwise the conditional expression term referencing them will evaluate to unknown. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language-for-conditional-aces-">Security Descriptor Definition Language for Conditional ACEs</a> topic.
 
@@ -184,11 +184,11 @@ For more information, see the <a href="https://docs.microsoft.com/windows/deskto
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_access_reply">AUTHZ_ACCESS_REPLY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_access_reply">AUTHZ_ACCESS_REPLY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_access_request">AUTHZ_ACCESS_REQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_access_request">AUTHZ_ACCESS_REQUEST</a>
 
 
 
@@ -208,7 +208,7 @@ For more information, see the <a href="https://docs.microsoft.com/windows/deskto
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 

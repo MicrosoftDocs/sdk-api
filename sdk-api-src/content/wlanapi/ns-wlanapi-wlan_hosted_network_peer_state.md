@@ -8,10 +8,10 @@ tech.root: NativeWiFi
 ms.assetid: f42f7100-45c8-4dd3-ae01-07740cace871
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_HOSTED_NETWORK_PEER_STATE, PWLAN_HOSTED_NETWORK_PEER_STATE, PWLAN_HOSTED_NETWORK_PEER_STATE structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_PEER_STATE, WLAN_HOSTED_NETWORK_PEER_STATE structure [NativeWIFI], nwifi.wlan_hosted_network_peer_state, wlanapi/PWLAN_HOSTED_NETWORK_PEER_STATE, wlanapi/WLAN_HOSTED_NETWORK_PEER_STATE"
+ms.keywords: '*PWLAN_HOSTED_NETWORK_PEER_STATE, PWLAN_HOSTED_NETWORK_PEER_STATE, PWLAN_HOSTED_NETWORK_PEER_STATE structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_PEER_STATE, WLAN_HOSTED_NETWORK_PEER_STATE structure [NativeWIFI], nwifi.wlan_hosted_network_peer_state, wlanapi/PWLAN_HOSTED_NETWORK_PEER_STATE, wlanapi/WLAN_HOSTED_NETWORK_PEER_STATE'
 ms.topic: struct
-f1_keywords: 
- - "wlanapi/WLAN_HOSTED_NETWORK_PEER_STATE"
+f1_keywords:
+- wlanapi/WLAN_HOSTED_NETWORK_PEER_STATE
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wlanapi.h
+- Wlanapi.h
 api_name:
- - WLAN_HOSTED_NETWORK_PEER_STATE
+- WLAN_HOSTED_NETWORK_PEER_STATE
 product: Windows
 targetos: Windows
 req.typenames: WLAN_HOSTED_NETWORK_PEER_STATE, *PWLAN_HOSTED_NETWORK_PEER_STATE
@@ -95,7 +95,7 @@ The <b>WLAN_HOSTED_NETWORK_PEER_STATE</b> structure is an extension to native wi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_status">WLAN_HOSTED_NETWORK_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_hosted_network_status">WLAN_HOSTED_NETWORK_STATUS</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 94e447af-9311-4a2c-9ec5-be371684f79d, BindAccess, BindAccess method [Media Foundation], BindAccess method [Media Foundation],IMFInputTrustAuthority interface, IMFInputTrustAuthority interface [Media Foundation],BindAccess method, IMFInputTrustAuthority.BindAccess, IMFInputTrustAuthority::BindAccess, mf.imfinputtrustauthority_bindaccess, mfidl/IMFInputTrustAuthority::BindAccess
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFInputTrustAuthority.BindAccess"
+f1_keywords:
+- mfidl/IMFInputTrustAuthority.BindAccess
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFInputTrustAuthority.BindAccess
+- IMFInputTrustAuthority.BindAccess
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Notifies the input trust authority (ITA) that a requested action is about to be 
 
 ### -param pParam [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-_mfinputtrustauthority_access_params">MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS</a> structure that contains parameters for the <b>BindAccess</b> action.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mfinputtrustauthority_access_params">MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS</a> structure that contains parameters for the <b>BindAccess</b> action.
 
 
 ## -returns

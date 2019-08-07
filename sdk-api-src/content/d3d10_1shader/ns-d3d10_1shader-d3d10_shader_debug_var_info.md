@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0c0984a6-cb8d-ef1f-dfe5-bbc4ed81714f, D3D10_SHADER_DEBUG_VAR_INFO, D3D10_SHADER_DEBUG_VAR_INFO structure [Direct3D 10], d3d10_1shader/D3D10_SHADER_DEBUG_VAR_INFO, direct3d10.d3d10_shader_debug_var_info
 ms.topic: struct
-f1_keywords: 
- - "d3d10_1shader/D3D10_SHADER_DEBUG_VAR_INFO"
+f1_keywords:
+- d3d10_1shader/D3D10_SHADER_DEBUG_VAR_INFO
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d10_1shader.h
+- d3d10_1shader.h
 api_name:
- - D3D10_SHADER_DEBUG_VAR_INFO
+- D3D10_SHADER_DEBUG_VAR_INFO
 product: Windows
 targetos: Windows
 req.typenames: D3D10_SHADER_DEBUG_VAR_INFO
@@ -68,7 +68,7 @@ Index into token list for declaring identifier.
 
 ### -field Type
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_variable_type">D3D10_SHADER_VARIABLE_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_type">D3D10_SHADER_VARIABLE_TYPE</a></b>
 
 The variable type. <b>Type</b> is only required for arrays.
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVA_COPPStatusSignalingCmdData, DXVA_COPPStatusSignalingCmdData structure [DirectShow], DXVA_COPPStatusSignalingCmdDataStructure, _DXVA_COPPStatusSignalingCmdData, dshow.dxva_coppstatussignalingcmddata, dxva9typ/DXVA_COPPStatusSignalingCmdData
 ms.topic: struct
-f1_keywords: 
- - "dxva9typ/DXVA_COPPStatusSignalingCmdData"
+f1_keywords:
+- dxva9typ/DXVA_COPPStatusSignalingCmdData
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva9typ.h
+- dxva9typ.h
 api_name:
- - DXVA_COPPStatusSignalingCmdData
+- DXVA_COPPStatusSignalingCmdData
 product: Windows
 targetos: Windows
 req.typenames: DXVA_COPPStatusSignalingCmdData
@@ -69,17 +69,17 @@ A 128-bit random number that was passed by the application in the <b>AMCOPPStatu
 
 ### -field dwFlags
 
-Status flag. See <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-_copp_statusflags">COPP_StatusFlags</a>.
+Status flag. See <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_statusflags">COPP_StatusFlags</a>.
 
 
 ### -field AvailableTVProtectionStandards
 
-Bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-_copp_tvprotectionstandard">COPP_TVProtectionStandard</a> enumeration. The driver should return flags for all of the protection standards and resolutions that it supports.
+Bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_tvprotectionstandard">COPP_TVProtectionStandard</a> enumeration. The driver should return flags for all of the protection standards and resolutions that it supports.
 
 
 ### -field ActiveTVProtectionStandard
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-_copp_tvprotectionstandard">COPP_TVProtectionStandard</a> enumeration, indicating the protection standard that is currently active.
+Member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_tvprotectionstandard">COPP_TVProtectionStandard</a> enumeration, indicating the protection standard that is currently active.
 
 
 ### -field TVType
@@ -94,7 +94,7 @@ Bit mask indicating which bits of <b>AspectRatioData1</b> are valid.
 
 ### -field AspectRatioData1
 
-Specifies the current aspect ratio value. For EN 300 294, the value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-_copp_imageaspectratio_en300294">COPP_ImageAspectRatio_EN300294</a> enumeration.
+Specifies the current aspect ratio value. For EN 300 294, the value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_imageaspectratio_en300294">COPP_ImageAspectRatio_EN300294</a> enumeration.
 
 
 ### -field AspectRatioValidMask2

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DDPCAPS_1BIT, DDPCAPS_2BIT, DDPCAPS_4BIT, DDPCAPS_8BIT, DDPCAPS_8BITENTRIES, DDPCAPS_ALLOW256, DDPCAPS_ALPHA, DDPCAPS_PRIMARYSURFACE, DDPCAPS_PRIMARYSURFACELEFT, DDPCAPS_VSYNC, GetCaps, GetCaps method [DirectDraw], GetCaps method [DirectDraw],IDirectDrawPalette interface, IDirectDrawPalette interface [DirectDraw],GetCaps method, IDirectDrawPalette.GetCaps, IDirectDrawPalette::GetCaps, ddraw/IDirectDrawPalette::GetCaps, directdraw.idirectdrawpalette_getcaps
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawPalette.GetCaps"
+f1_keywords:
+- ddraw/IDirectDrawPalette.GetCaps
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawPalette.GetCaps
+- IDirectDrawPalette.GetCaps
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Retrieves the capabilities of the palette object.
 
 #### - lpdwCaps [out]
 
-A pointer to a variable that receives a value from the <b>dwPalCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddcaps_dx3">DDCAPS</a> structure that defines palette capabilities. This value consists of one or more of the following flags:
+A pointer to a variable that receives a value from the <b>dwPalCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddcaps_dx3">DDCAPS</a> structure that defines palette capabilities. This value consists of one or more of the following flags:
 
 
 

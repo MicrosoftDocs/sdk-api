@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILEMUIINFO_GET_MAIN_TYPEID, FILEMUIINFO_GET_MAIN_TYPEID macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_MAIN_TYPEID, intl.filemuiinfo_get_main_typeid, winnls/FILEMUIINFO_GET_MAIN_TYPEID
 ms.topic: macro
-f1_keywords: 
- - "winnls/FILEMUIINFO_GET_MAIN_TYPEID"
+f1_keywords:
+- winnls/FILEMUIINFO_GET_MAIN_TYPEID
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnls.h
+- Winnls.h
 api_name:
- - FILEMUIINFO_GET_MAIN_TYPEID
+- FILEMUIINFO_GET_MAIN_TYPEID
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the main module types array element associated with the type identifier size and offset in a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_filemuiinfo">FILEMUIINFO</a> structure. The information is provided in the <b>dwTypeIDMainSize</b> and <b>dwTypeIDMainOffset</b> members of the structure.
+Gets the main module types array element associated with the type identifier size and offset in a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-filemuiinfo">FILEMUIINFO</a> structure. The information is provided in the <b>dwTypeIDMainSize</b> and <b>dwTypeIDMainOffset</b> members of the structure.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets the main module types array element associated with the type identifier siz
 
 ### -param pInfo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_filemuiinfo">FILEMUIINFO</a> structure.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-filemuiinfo">FILEMUIINFO</a> structure.
 
 
 ### -param iType
@@ -74,7 +74,7 @@ Index of the array element.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_filemuiinfo">FILEMUIINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-filemuiinfo">FILEMUIINFO</a>
 
 
 

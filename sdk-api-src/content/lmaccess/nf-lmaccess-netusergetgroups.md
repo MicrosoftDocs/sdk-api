@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetUserGetGroups, NetUserGetGroups function [Network Management], _win32_netusergetgroups, lmaccess/NetUserGetGroups, netmgmt.netusergetgroups
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetUserGetGroups"
+f1_keywords:
+- lmaccess/NetUserGetGroups
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetUserGetGroups
+- NetUserGetGroups
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -92,7 +92,7 @@ The information level of the data requested. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return the names of the global groups to which the user belongs. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_users_info_0">GROUP_USERS_INFO_0</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_users_info_0">GROUP_USERS_INFO_0</a> structures.
 
 </td>
 </tr>
@@ -266,7 +266,7 @@ User account names are limited to 20 characters and group names are limited to 2
 The following code sample demonstrates how to retrieve a list of global groups to which a user belongs with a call to the 
 <b>NetUserGetGroups</b> function. The sample calls 
 <b>NetUserGetGroups</b>, specifying information level 0 (
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_users_info_0">GROUP_USERS_INFO_0</a>). The code loops through the entries and prints the name of the global groups in which the user has membership. The sample also prints the total number of entries that are available and the number of entries actually enumerated if they do not match. Finally, the code sample frees the memory allocated for the buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_users_info_0">GROUP_USERS_INFO_0</a>). The code loops through the entries and prints the name of the global groups in which the user has membership. The sample also prints the total number of entries that are available and the number of entries actually enumerated if they do not match. Finally, the code sample frees the memory allocated for the buffer.
 
 
 ```cpp
@@ -371,7 +371,7 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_users_info_0">GROUP_USERS_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_users_info_0">GROUP_USERS_INFO_0</a>
 
 
 

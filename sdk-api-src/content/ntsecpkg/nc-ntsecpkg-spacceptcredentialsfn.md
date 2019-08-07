@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpAcceptCredentials, SpAcceptCredentials callback function [Security], SpAcceptCredentialsFn, SpAcceptCredentialsFn callback, _ssp_spacceptcredentials, ntsecpkg/SpAcceptCredentials, security.spacceptcredentials
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/SpAcceptCredentials"
+f1_keywords:
+- ntsecpkg/SpAcceptCredentials
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SpAcceptCredentials
+- SpAcceptCredentials
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,25 +62,25 @@ Called by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly
 ### -param LogonType [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_security_logon_type">SECURITY_LOGON_TYPE</a> value indicating the type of logon.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-security_logon_type">SECURITY_LOGON_TYPE</a> value indicating the type of logon.
 
 
 ### -param AccountName [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure specifying the name of the logged-on account.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure specifying the name of the logged-on account.
 
 
 ### -param PrimaryCredentials [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_primary_cred">SECPKG_PRIMARY_CRED</a> structure containing the credentials used to logon. This structure can have <b>NULL</b> members.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_primary_cred">SECPKG_PRIMARY_CRED</a> structure containing the credentials used to logon. This structure can have <b>NULL</b> members.
 
 
 ### -param SupplementalCredentials [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_supplemental_cred">SECPKG_SUPPLEMENTAL_CRED</a> structure containing package-specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">supplemental credentials</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_supplemental_cred">SECPKG_SUPPLEMENTAL_CRED</a> structure containing package-specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">supplemental credentials</a>.
 
 
 ## -returns
@@ -104,7 +104,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security
 SSP/APs must implement the <b>SpAcceptCredentials</b> function; unlike other SSP/AP functions the name of the function must be <b>SpAcceptCredentials</b>.
 
 The LSA accesses the <b>SpAcceptCredentials</b> function through the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 
@@ -115,15 +115,15 @@ The LSA accesses the <b>SpAcceptCredentials</b> function through the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_primary_cred">SECPKG_PRIMARY_CRED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_primary_cred">SECPKG_PRIMARY_CRED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_supplemental_cred">SECPKG_SUPPLEMENTAL_CRED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_supplemental_cred">SECPKG_SUPPLEMENTAL_CRED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_security_logon_type">SECURITY_LOGON_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-security_logon_type">SECURITY_LOGON_TYPE</a>
 
 
 

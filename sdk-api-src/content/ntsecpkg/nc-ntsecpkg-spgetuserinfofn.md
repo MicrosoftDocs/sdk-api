@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NO_LONG_NAMES, SpGetUserInfo, SpGetUserInfo callback function [Security], SpGetUserInfoFn, SpGetUserInfoFn callback, UNDERSTANDS_LONG_NAMES, _ssp_spgetuserinfo, ntsecpkg/SpGetUserInfo, security.spgetuserinfo
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/SpGetUserInfo"
+f1_keywords:
+- ntsecpkg/SpGetUserInfo
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SpGetUserInfo
+- SpGetUserInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -105,7 +105,7 @@ The returned domain name can be longer than 15 characters.
 ### -param *UserData [out]
 
 Pointer to a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_security_user_data">SecurityUserData</a> structure. If the function call succeeds, the user information is returned in this structure. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> should allocate the memory for this structure in the caller's address space. The caller is responsible for freeing the buffer by calling the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-security_user_data">SecurityUserData</a> structure. If the function call succeeds, the user information is returned in this structure. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> should allocate the memory for this structure in the caller's address space. The caller is responsible for freeing the buffer by calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function.
 
 
@@ -129,7 +129,7 @@ The <i>Flags</i> value NO_LONG_NAMES provides compatibility with Microsoft NTLM.
 SSP/APs must implement the <b>SpGetUserInfo</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpGetUserInfo</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 
@@ -144,7 +144,7 @@ A pointer to the <b>SpGetUserInfo</b> function is available in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 

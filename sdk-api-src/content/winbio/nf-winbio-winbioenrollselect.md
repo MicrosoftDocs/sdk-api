@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinBioEnrollSelect, WinBioEnrollSelect function [Windows Biometric Framework API], secbiomet.winbioenrollselect, winbio/WinBioEnrollSelect
 ms.topic: function
-f1_keywords: 
- - "winbio/WinBioEnrollSelect"
+f1_keywords:
+- winbio/WinBioEnrollSelect
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - winbio.dll
- - Ext-MS-Win-Biometrics-WinBio-Core-L1-1-0.dll
- - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+- winbio.dll
+- Ext-MS-Win-Biometrics-WinBio-Core-L1-1-0.dll
+- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
 api_name:
- - WinBioEnrollSelect
+- WinBioEnrollSelect
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -141,7 +141,7 @@ If you do not call <b>WinBioEnrollSelect</b> for a biometric factor that require
 
  For Windows 10, the factors that require you to call <b>WinBioEnrollSelect</b> are facial features and iris.
 
-You can call <b>WinBioEnrollSelect</b> by using either a synchronous or asynchronous session handle. As with other calls to Windows Biometric Framework API functions, when you call <b>WinBioEnrollSelect</b>  with an asynchronous session handle, the return value indicates only that the function parameters were acceptable. The actual success or failure of the operation itself will be returned to your notification routine in a <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-_winbio_async_result">WINBIO_ASYNC_RESULT</a> structure.
+You can call <b>WinBioEnrollSelect</b> by using either a synchronous or asynchronous session handle. As with other calls to Windows Biometric Framework API functions, when you call <b>WinBioEnrollSelect</b>  with an asynchronous session handle, the return value indicates only that the function parameters were acceptable. The actual success or failure of the operation itself will be returned to your notification routine in a <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure.
 
 
 
@@ -151,7 +151,7 @@ You can call <b>WinBioEnrollSelect</b> by using either a synchronous or asynchro
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-_winbio_async_result">WINBIO_ASYNC_RESULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a>
 
 
 

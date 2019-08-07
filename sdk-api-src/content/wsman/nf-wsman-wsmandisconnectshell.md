@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSManDisconnectShell, WSManDisconnectShell function [Windows Remote Management], winrm.wsmandisconnectshell, wsman/WSManDisconnectShell
 ms.topic: function
-f1_keywords: 
- - "wsman/WSManDisconnectShell"
+f1_keywords:
+- wsman/WSManDisconnectShell
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WsmSvc.lib
 req.dll: WsmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WsmSvc.dll
+- WsmSvc.dll
 api_name:
- - WSManDisconnectShell
+- WSManDisconnectShell
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ Can be a <b>WSMAN_FLAG_SERVER_BUFFERING_MODE_DROP</b> flag or a
 ### -param disconnectInfo [in]
 
 A pointer to a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_shell_disconnect_info">WSMAN_SHELL_DISCONNECT_INFO</a> structure 
+      <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_shell_disconnect_info">WSMAN_SHELL_DISCONNECT_INFO</a> structure 
       that specifies an idle time-out that the server session may enforce. If this parameter is 
       <b>NULL</b>, the server session idle time-out will not be changed.
 
@@ -83,7 +83,7 @@ A pointer to a
 ### -param async [in]
 
 Defines an asynchronous structure to contain an optional user context and a mandatory callback function. 
-      For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_shell_async">WSMAN_SHELL_ASYNC</a>. This 
+      For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_shell_async">WSMAN_SHELL_ASYNC</a>. This 
       parameter cannot be <b>NULL</b>.
 
 

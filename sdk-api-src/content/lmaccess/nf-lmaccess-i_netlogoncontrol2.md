@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: I_NetLogonControl2, I_NetLogonControl2 function [Windows API], NETLOGON_CONTROL_CHANGE_PASSWORD, NETLOGON_CONTROL_FORCE_DNS_REG, NETLOGON_CONTROL_PDC_REPLICATE, NETLOGON_CONTROL_QUERY, NETLOGON_CONTROL_QUERY_DNS_REG, NETLOGON_CONTROL_REDISCOVER, NETLOGON_CONTROL_REPLICATE, NETLOGON_CONTROL_SYNCHRONIZE, NETLOGON_CONTROL_TC_QUERY, NETLOGON_CONTROL_TC_VERIFY, NETLOGON_INFO_1, NETLOGON_INFO_2, NETLOGON_INFO_3, NETLOGON_INFO_4, lmaccess/I_NetLogonControl2, winprog.i_netlogoncontrol2
 ms.topic: function
-f1_keywords: 
- - "lmaccess/I_NetLogonControl2"
+f1_keywords:
+- lmaccess/I_NetLogonControl2
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - I_NetLogonControl2
+- I_NetLogonControl2
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -396,11 +396,11 @@ This function can be used to request that a BDC ensure that its copy of the SAM 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_netlogon_info_1">NETLOGON_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-netlogon_info_1">NETLOGON_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_netlogon_info_2">NETLOGON_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-netlogon_info_2">NETLOGON_INFO_2</a>
 
 
 
@@ -408,7 +408,7 @@ This function can be used to request that a BDC ensure that its copy of the SAM 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_netlogon_info_4">NETLOGON_INFO_4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-netlogon_info_4">NETLOGON_INFO_4</a>
  
 
  

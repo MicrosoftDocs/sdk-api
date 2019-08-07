@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EditSecurityAdvanced, EditSecurityAdvanced function [Security], aclui/EditSecurityAdvanced, security.editsecurityadvanced
 ms.topic: function
-f1_keywords: 
- - "aclui/EditSecurityAdvanced"
+f1_keywords:
+- aclui/EditSecurityAdvanced
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Aclui.lib
 req.dll: Aclui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Aclui.dll
+- Aclui.dll
 api_name:
- - EditSecurityAdvanced
+- EditSecurityAdvanced
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ A pointer to your implementation of the
 ### -param uSIPage [in]
 
 A value of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ne-aclui-_si_page_type">SI_PAGE_TYPE</a> enumeration that indicates the page type on which to display the elevated access control editor.
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ne-aclui-si_page_type">SI_PAGE_TYPE</a> enumeration that indicates the page type on which to display the elevated access control editor.
 
 
 ## -returns

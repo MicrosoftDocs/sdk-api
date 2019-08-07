@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Attributes property [File Server Resource Manager], Attributes property [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],Attributes property, IFsrmPropertyBag.Attributes, IFsrmPropertyBag.get_Attributes, IFsrmPropertyBag::Attributes, IFsrmPropertyBag::get_Attributes, fs.ifsrmpropertybag_attributes, fsrm.ifsrmpropertybag_attributes, fsrmpipeline/IFsrmPropertyBag::Attributes, fsrmpipeline/IFsrmPropertyBag::get_Attributes, get_Attributes
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyBag.Attributes"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyBag.Attributes
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.Attributes
- - IFsrmPropertyBag.get_Attributes
+- IFsrmPropertyBag.Attributes
+- IFsrmPropertyBag.get_Attributes
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ This property is read-only.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_win32_file_attribute_data">WIN32_FILE_ATTRIBUTE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-win32_file_attribute_data">WIN32_FILE_ATTRIBUTE_DATA</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 4B484F79-DDC8-4671-90EA-D793EA0A05C7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSTORAGE_PHYSICAL_DEVICE_DATA, PSTORAGE_PHYSICAL_DEVICE_DATA, PSTORAGE_PHYSICAL_DEVICE_DATA structure pointer [Files], STORAGE_PHYSICAL_DEVICE_DATA, STORAGE_PHYSICAL_DEVICE_DATA structure [Files], fs.storage_physical_device_data, winioctl/PSTORAGE_PHYSICAL_DEVICE_DATA, winioctl/_STORAGE_PHYSICAL_DEVICE_DATA"
+ms.keywords: '*PSTORAGE_PHYSICAL_DEVICE_DATA, PSTORAGE_PHYSICAL_DEVICE_DATA, PSTORAGE_PHYSICAL_DEVICE_DATA structure pointer [Files], STORAGE_PHYSICAL_DEVICE_DATA, STORAGE_PHYSICAL_DEVICE_DATA structure [Files], fs.storage_physical_device_data, winioctl/PSTORAGE_PHYSICAL_DEVICE_DATA, winioctl/_STORAGE_PHYSICAL_DEVICE_DATA'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/STORAGE_PHYSICAL_DEVICE_DATA"
+f1_keywords:
+- winioctl/STORAGE_PHYSICAL_DEVICE_DATA
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - STORAGE_PHYSICAL_DEVICE_DATA
+- STORAGE_PHYSICAL_DEVICE_DATA
 product: Windows
 targetos: Windows
 req.typenames: STORAGE_PHYSICAL_DEVICE_DATA, *PSTORAGE_PHYSICAL_DEVICE_DATA
@@ -80,12 +80,12 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_
 
 ### -field SpecVersion
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_spec_version">STORAGE_SPEC_VERSION</a> structure that specifies the supported storage spec version. For example: SBC 3, SATA 3.2, NVMe 1.2
+A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_spec_version">STORAGE_SPEC_VERSION</a> structure that specifies the supported storage spec version. For example: SBC 3, SATA 3.2, NVMe 1.2
 
 
 ### -field FormFactor
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_device_form_factor">STORAGE_DEVICE_FORM_FACTOR</a> enumeration.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_device_form_factor">STORAGE_DEVICE_FORM_FACTOR</a> enumeration.
 
 
 ### -field Vendor

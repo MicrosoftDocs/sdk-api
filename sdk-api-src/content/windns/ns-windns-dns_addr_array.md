@@ -8,10 +8,10 @@ tech.root: DNS
 ms.assetid: 5FD7F28B-D1A6-4731-ACB9-A7BB23CC1FB4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_ADDR_ARRAY, AF_INET, AF_INET6, DNS_ADDR_ARRAY, DNS_ADDR_ARRAY structure [DNS], PDNS_ADDR_ARRAY, PDNS_ADDR_ARRAY structure pointer [DNS], dns.dns_addr_array, windns/DNS_ADDR_ARRAY, windns/PDNS_ADDR_ARRAY"
+ms.keywords: '*PDNS_ADDR_ARRAY, AF_INET, AF_INET6, DNS_ADDR_ARRAY, DNS_ADDR_ARRAY structure [DNS], PDNS_ADDR_ARRAY, PDNS_ADDR_ARRAY structure pointer [DNS], dns.dns_addr_array, windns/DNS_ADDR_ARRAY, windns/PDNS_ADDR_ARRAY'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_ADDR_ARRAY"
+f1_keywords:
+- windns/DNS_ADDR_ARRAY
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_ADDR_ARRAY
+- DNS_ADDR_ARRAY
 product: Windows
 targetos: Windows
 req.typenames: DNS_ADDR_ARRAY, *PDNS_ADDR_ARRAY
@@ -158,7 +158,7 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-wi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_query_result">DNS_QUERY_RESULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_query_result">DNS_QUERY_RESULT</a>
  
 
  

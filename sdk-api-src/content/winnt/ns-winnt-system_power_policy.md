@@ -8,10 +8,10 @@ tech.root: power
 ms.assetid: 0e73e94d-e529-46fb-b3e5-a79ba2c05713
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSYSTEM_POWER_POLICY, PSYSTEM_POWER_POLICY, PSYSTEM_POWER_POLICY structure pointer, SYSTEM_POWER_POLICY, SYSTEM_POWER_POLICY structure, _SYSTEM_POWER_POLICY, _win32_system_power_policy_str, base.system_power_policy_str, winnt/PSYSTEM_POWER_POLICY, winnt/SYSTEM_POWER_POLICY"
+ms.keywords: '*PSYSTEM_POWER_POLICY, PSYSTEM_POWER_POLICY, PSYSTEM_POWER_POLICY structure pointer, SYSTEM_POWER_POLICY, SYSTEM_POWER_POLICY structure, _SYSTEM_POWER_POLICY, _win32_system_power_policy_str, base.system_power_policy_str, winnt/PSYSTEM_POWER_POLICY, winnt/SYSTEM_POWER_POLICY'
 ms.topic: struct
-f1_keywords: 
- - "winnt/SYSTEM_POWER_POLICY"
+f1_keywords:
+- winnt/SYSTEM_POWER_POLICY
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - SYSTEM_POWER_POLICY
+- SYSTEM_POWER_POLICY
 product: Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_POLICY, *PSYSTEM_POWER_POLICY
@@ -85,7 +85,7 @@ A
 ### -field LidOpenWake
 
 The maximum power state (highest Sx value) from which a lid-open event should wake the system. This member must be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type values.
 
 
 ### -field Reserved
@@ -123,19 +123,19 @@ Reserved.
 ### -field MinSleep
 
 The minimum system sleep state (lowest Sx value) currently supported. This member must be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type values.
 
 
 ### -field MaxSleep
 
 The maximum system sleep state (highest Sx value) currently supported. This member must be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type values.
 
 
 ### -field ReducedLatencySleep
 
 The system power state (Sx value) to enter on a system sleep action when there are outstanding latency requirements. This member must be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type values. If an application calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type values. If an application calls 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-requestwakeuplatency">RequestWakeupLatency</a> with LT_LOWEST_LATENCY, <b>ReducedLatencySleep</b> will be used in place of <b>MaxSleep</b>.
 
 

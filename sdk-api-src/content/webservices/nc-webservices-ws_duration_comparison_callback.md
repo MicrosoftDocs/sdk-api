@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_DURATION_COMPARISON_CALLBACK, WS_DURATION_COMPARISON_CALLBACK callback, WS_DURATION_COMPARISON_CALLBACK callback function [Web Services for Windows], webservices/WS_DURATION_COMPARISON_CALLBACK, wsw.ws_duration_comparison_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_DURATION_COMPARISON_CALLBACK"
+f1_keywords:
+- webservices/WS_DURATION_COMPARISON_CALLBACK
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_DURATION_COMPARISON_CALLBACK
+- WS_DURATION_COMPARISON_CALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Compares two durations.A duration represents a unit of time as an eight-dimensional space where the coordinates designate the year, month, day, hour, minute, second, millisecond, and CPU tick as represented by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_duration">WS_DURATION</a> data structure.
+Compares two durations.A duration represents a unit of time as an eight-dimensional space where the coordinates designate the year, month, day, hour, minute, second, millisecond, and CPU tick as represented by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_duration">WS_DURATION</a> data structure.
 
 
 ## -parameters
@@ -61,13 +61,13 @@ Compares two durations.A duration represents a unit of time as an eight-dimensio
 
 ### -param *duration1 [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_duration">WS_DURATION</a> structure representing the first duration to compare.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_duration">WS_DURATION</a> structure representing the first duration to compare.
                 
 
 
 ### -param *duration2 [in]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_duration">WS_DURATION</a> structure representing the second duration.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_duration">WS_DURATION</a> structure representing the second duration.
                 
 
 

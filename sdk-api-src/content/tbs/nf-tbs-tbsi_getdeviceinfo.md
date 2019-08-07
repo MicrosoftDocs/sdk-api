@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Tbsi_GetDeviceInfo, Tbsi_GetDeviceInfo function [TBS], tbs.tbsi_getdeviceinfo, tbs/Tbsi_GetDeviceInfo
 ms.topic: function
-f1_keywords: 
- - "tbs/Tbsi_GetDeviceInfo"
+f1_keywords:
+- tbs/Tbsi_GetDeviceInfo
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Tbs.lib
 req.dll: Tbs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tbs.dll
+- Tbs.dll
 api_name:
- - Tbsi_GetDeviceInfo
+- Tbsi_GetDeviceInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Size of the memory location.
 
 ### -param Info [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/tbs/ns-tbs-_tpm_device_info">TPM_DEVICE_INFO</a> structure is returned containing the version information about the TPM. The location must be large enough to hold four 32-bit values. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/tbs/ns-tbs-tpm_device_info">TPM_DEVICE_INFO</a> structure is returned containing the version information about the TPM. The location must be large enough to hold four 32-bit values. 
 
 
 ## -returns

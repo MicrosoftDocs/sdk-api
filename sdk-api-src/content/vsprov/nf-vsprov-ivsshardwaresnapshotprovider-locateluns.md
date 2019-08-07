@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssHardwareSnapshotProvider interface [VSS],LocateLuns method, IVssHardwareSnapshotProvider.LocateLuns, IVssHardwareSnapshotProvider::LocateLuns, LocateLuns, LocateLuns method [VSS], LocateLuns method [VSS],IVssHardwareSnapshotProvider interface, base.ivsshardwaresnapshotprovider_locateluns, vsprov/IVssHardwareSnapshotProvider::LocateLuns
 ms.topic: method
-f1_keywords: 
- - "vsprov/IVssHardwareSnapshotProvider.LocateLuns"
+f1_keywords:
+- vsprov/IVssHardwareSnapshotProvider.LocateLuns
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsProv.h
+- VsProv.h
 api_name:
- - IVssHardwareSnapshotProvider.LocateLuns
+- IVssHardwareSnapshotProvider.LocateLuns
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Number of LUNs that contribute to this shadow copy set.
 
 ### -param rgSourceLuns [in]
 
-Pointer to an array of <i>iLunCount</i><a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structures, one for each LUN 
+Pointer to an array of <i>iLunCount</i><a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures, one for each LUN 
       that is part of the shadow copy set to be imported.
 
 
@@ -142,7 +142,7 @@ An unexpected provider error occurred. The provider must report an event in the 
 
 
 
-In the  <i>rgSourceLuns</i> parameter, VSS supplies the same array of <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> 
+In the  <i>rgSourceLuns</i> parameter, VSS supplies the same array of <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> 
     structures that the provider previously initialized in its <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-gettargetluns">IVssHardwareSnapshotProvider::GetTargetLuns</a> method. For each <b>VDS_LUN_INFORMATION</b> 
     structure in the array, the provider should unmask (or "surface") the corresponding shadow copy LUN to the computer.
 
@@ -152,7 +152,7 @@ Immediately after this method returns, VSS will perform a rescan and enumeration
     appear in the system or a time-out occurs. If some disk or volume devices fail to appear in this window, the 
     requester will be told that only some of the shadow copies were imported by VSS returning 
     <b>VSS_S_SOME_SNAPSHOTS_NOT_IMPORTED</b> to the requester. The requester will also receive the 
-    same error from VSS if the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> 
+    same error from VSS if the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> 
     structures received from the 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-gettargetluns">GetTargetLuns</a> and 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-fillinluninfo">IVssHardwareSnapshotProvider::FillInLunInfo</a> methods do not match.
@@ -183,7 +183,7 @@ This method cannot be used to map shadow copy LUNs as read-only.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>
  
 
  

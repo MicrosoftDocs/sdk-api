@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 51cd90cf-a3ae-45dd-bc27-c91d44cab9f5, GetSupportedProtocolType, GetSupportedProtocolType method [Media Foundation], GetSupportedProtocolType method [Media Foundation],IMFNetSchemeHandlerConfig interface, IMFNetSchemeHandlerConfig interface [Media Foundation],GetSupportedProtocolType method, IMFNetSchemeHandlerConfig.GetSupportedProtocolType, IMFNetSchemeHandlerConfig::GetSupportedProtocolType, mf.imfnetschemehandlerconfig_getsupportedprotocoltype, mfidl/IMFNetSchemeHandlerConfig::GetSupportedProtocolType
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFNetSchemeHandlerConfig.GetSupportedProtocolType"
+f1_keywords:
+- mfidl/IMFNetSchemeHandlerConfig.GetSupportedProtocolType
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFNetSchemeHandlerConfig.GetSupportedProtocolType
+- IMFNetSchemeHandlerConfig.GetSupportedProtocolType
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ Zero-based index of the protocol to retrieve. To get the number of supported pro
 
 ### -param pnProtocolType [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfnetsource_protocol_type">MFNETSOURCE_PROTOCOL_TYPE</a> enumeration.
+Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_protocol_type">MFNETSOURCE_PROTOCOL_TYPE</a> enumeration.
 
 
 ## -returns

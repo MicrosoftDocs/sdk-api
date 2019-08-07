@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: f8db7695-4967-45c0-a6bf-019e825bd9ab
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PIMAGE_DEBUG_INFORMATION, IMAGE_DEBUG_INFORMATION, IMAGE_DEBUG_INFORMATION structure, IMAGE_FILE_32BIT_MACHINE, IMAGE_FILE_AGGRESIVE_WS_TRIM, IMAGE_FILE_BYTES_REVERSED_HI, IMAGE_FILE_BYTES_REVERSED_LO, IMAGE_FILE_DEBUG_STRIPPED, IMAGE_FILE_DLL, IMAGE_FILE_EXECUTABLE_IMAGE, IMAGE_FILE_LARGE_ADDRESS_AWARE, IMAGE_FILE_LINE_NUMS_STRIPPED, IMAGE_FILE_LOCAL_SYMS_STRIPPED, IMAGE_FILE_MACHINE_AMD64, IMAGE_FILE_MACHINE_I386, IMAGE_FILE_MACHINE_IA64, IMAGE_FILE_NET_RUN_FROM_SWAP, IMAGE_FILE_RELOCS_STRIPPED, IMAGE_FILE_REMOVABLE_RUN_FROM_SWAP, IMAGE_FILE_SYSTEM, IMAGE_FILE_UP_SYSTEM_ONLY, PIMAGE_DEBUG_INFORMATION, PIMAGE_DEBUG_INFORMATION structure pointer, _IMAGE_DEBUG_INFORMATION, _win32_image_debug_information_str, base.image_debug_information_str, dbghelp/IMAGE_DEBUG_INFORMATION, dbghelp/PIMAGE_DEBUG_INFORMATION"
+ms.keywords: '*PIMAGE_DEBUG_INFORMATION, IMAGE_DEBUG_INFORMATION, IMAGE_DEBUG_INFORMATION structure, IMAGE_FILE_32BIT_MACHINE, IMAGE_FILE_AGGRESIVE_WS_TRIM, IMAGE_FILE_BYTES_REVERSED_HI, IMAGE_FILE_BYTES_REVERSED_LO, IMAGE_FILE_DEBUG_STRIPPED, IMAGE_FILE_DLL, IMAGE_FILE_EXECUTABLE_IMAGE, IMAGE_FILE_LARGE_ADDRESS_AWARE, IMAGE_FILE_LINE_NUMS_STRIPPED, IMAGE_FILE_LOCAL_SYMS_STRIPPED, IMAGE_FILE_MACHINE_AMD64, IMAGE_FILE_MACHINE_I386, IMAGE_FILE_MACHINE_IA64, IMAGE_FILE_NET_RUN_FROM_SWAP, IMAGE_FILE_RELOCS_STRIPPED, IMAGE_FILE_REMOVABLE_RUN_FROM_SWAP, IMAGE_FILE_SYSTEM, IMAGE_FILE_UP_SYSTEM_ONLY, PIMAGE_DEBUG_INFORMATION, PIMAGE_DEBUG_INFORMATION structure pointer, _IMAGE_DEBUG_INFORMATION, _win32_image_debug_information_str, base.image_debug_information_str, dbghelp/IMAGE_DEBUG_INFORMATION, dbghelp/PIMAGE_DEBUG_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "dbghelp/IMAGE_DEBUG_INFORMATION"
+f1_keywords:
+- dbghelp/IMAGE_DEBUG_INFORMATION
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - IMAGE_DEBUG_INFORMATION
+- IMAGE_DEBUG_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: IMAGE_DEBUG_INFORMATION, *PIMAGE_DEBUG_INFORMATION
@@ -326,7 +326,7 @@ The number of COFF section headers.
 ### -field ReservedSections
 
 A pointer to the first COFF section header. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_section_header">IMAGE_SECTION_HEADER</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a>.
 
 
 ### -field ReservedExportedNamesSize
@@ -347,7 +347,7 @@ The number of entries contained in the <b>FunctionTableEntries</b> member.
 ### -field ReservedFunctionTableEntries
 
 A pointer to the first function table entry. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_function_entry">IMAGE_FUNCTION_ENTRY</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a>.
 
 
 ### -field ReservedLowestFunctionStartingAddress
@@ -368,7 +368,7 @@ The number of entries contained in the <b>FpoTableEntries</b> member.
 ### -field ReservedFpoTableEntries
 
 A pointer to the first FPO entry. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_fpo_data">FPO_DATA</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a>.
 
 
 ### -field SizeOfCoffSymbols
@@ -419,7 +419,7 @@ This value is <b>TRUE</b> if the image is a ROM image.
 ### -field ReservedDebugDirectory
 
 A pointer to the first debug directory. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_debug_directory">IMAGE_DEBUG_DIRECTORY</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_debug_directory">IMAGE_DEBUG_DIRECTORY</a>.
 
 
 ### -field ReservedNumberOfDebugDirectories
@@ -460,23 +460,23 @@ typedef struct _LIST_ENTRY {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_fpo_data">FPO_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_coff_symbols_header">IMAGE_COFF_SYMBOLS_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_coff_symbols_header">IMAGE_COFF_SYMBOLS_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_debug_directory">IMAGE_DEBUG_DIRECTORY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_debug_directory">IMAGE_DEBUG_DIRECTORY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_function_entry">IMAGE_FUNCTION_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_section_header">IMAGE_SECTION_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a>
 
 
 

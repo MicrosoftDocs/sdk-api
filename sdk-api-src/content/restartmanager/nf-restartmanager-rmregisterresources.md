@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RmRegisterResources, RmRegisterResources function [Restart Mgr], restartmanager/RmRegisterResources, rstmgr.rmregisterresources
 ms.topic: function
-f1_keywords: 
- - "restartmanager/RmRegisterResources"
+f1_keywords:
+- restartmanager/RmRegisterResources
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Rstrtmgr.lib
 req.dll: Rstrtmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rstrtmgr.dll
+- Rstrtmgr.dll
 api_name:
- - RmRegisterResources
+- RmRegisterResources
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Registers resources to a Restart Manager session. The Restart Manager uses the list of resources registered with the session to determine which applications and services must be shut down and restarted. Resources can be identified by filenames, service short names, or <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_unique_process">RM_UNIQUE_PROCESS</a> structures that describe running applications. The <b>RmRegisterResources</b> function can be used by a primary or secondary installer.
+Registers resources to a Restart Manager session. The Restart Manager uses the list of resources registered with the session to determine which applications and services must be shut down and restarted. Resources can be identified by filenames, service short names, or <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_unique_process">RM_UNIQUE_PROCESS</a> structures that describe running applications. The <b>RmRegisterResources</b> function can be used by a primary or secondary installer.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ The number of processes being registered.
 
 ### -param rgApplications [in, optional]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_unique_process">RM_UNIQUE_PROCESS</a> structures. This parameter can be <b>NULL</b> if <i>nApplications</i> is 0.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_unique_process">RM_UNIQUE_PROCESS</a> structures. This parameter can be <b>NULL</b> if <i>nApplications</i> is 0.
 
 
 ### -param nServices [in]

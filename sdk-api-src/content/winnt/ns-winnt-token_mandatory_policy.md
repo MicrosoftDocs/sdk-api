@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: f5fc438b-c4f0-46f6-a188-52ce660d13da
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTOKEN_MANDATORY_POLICY, PTOKEN_MANDATORY_POLICY, PTOKEN_MANDATORY_POLICY structure pointer [Security], TOKEN_MANDATORY_POLICY, TOKEN_MANDATORY_POLICY structure [Security], TOKEN_MANDATORY_POLICY_NEW_PROCESS_MIN, TOKEN_MANDATORY_POLICY_NO_WRITE_UP, TOKEN_MANDATORY_POLICY_OFF, TOKEN_MANDATORY_POLICY_VALID_MASK, _TOKEN_MANDATORY_POLICY, security.token_mandatory_policy, winnt/PTOKEN_MANDATORY_POLICY, winnt/TOKEN_MANDATORY_POLICY"
+ms.keywords: '*PTOKEN_MANDATORY_POLICY, PTOKEN_MANDATORY_POLICY, PTOKEN_MANDATORY_POLICY structure pointer [Security], TOKEN_MANDATORY_POLICY, TOKEN_MANDATORY_POLICY structure [Security], TOKEN_MANDATORY_POLICY_NEW_PROCESS_MIN, TOKEN_MANDATORY_POLICY_NO_WRITE_UP, TOKEN_MANDATORY_POLICY_OFF, TOKEN_MANDATORY_POLICY_VALID_MASK, _TOKEN_MANDATORY_POLICY, security.token_mandatory_policy, winnt/PTOKEN_MANDATORY_POLICY, winnt/TOKEN_MANDATORY_POLICY'
 ms.topic: struct
-f1_keywords: 
- - "winnt/TOKEN_MANDATORY_POLICY"
+f1_keywords:
+- winnt/TOKEN_MANDATORY_POLICY
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - TOKEN_MANDATORY_POLICY
+- TOKEN_MANDATORY_POLICY
 product: Windows
 targetos: Windows
 req.typenames: TOKEN_MANDATORY_POLICY, *PTOKEN_MANDATORY_POLICY
@@ -121,7 +121,7 @@ A combination of <b>TOKEN_MANDATORY_POLICY_NO_WRITE_UP</b> and <b>TOKEN_MANDATOR
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_token_information_class">TOKEN_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>
  
 
  

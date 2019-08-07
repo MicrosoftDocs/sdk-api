@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ActivationContextBasicInformation, ActivationContextDetailedInformation, AssemblyDetailedInformationInActivationContext, CompatibilityInformationInActivationContext, FileInformationInAssemblyOfAssemblyInActivationContext, QUERY_ACTCTX_FLAG_ACTCTX_IS_ADDRESS, QUERY_ACTCTX_FLAG_ACTCTX_IS_HMODULE, QUERY_ACTCTX_FLAG_USE_ACTIVE_ACTCTX, QueryActCtxW, QueryActCtxW function [Side-by-side Assemblies], RunlevelInformationInActivationContext, _win32_queryactctxw, setup.queryactctxw, winbase/QueryActCtxW
 ms.topic: function
-f1_keywords: 
- - "winbase/QueryActCtxW"
+f1_keywords:
+- winbase/QueryActCtxW
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-sidebyside-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-sidebyside-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - QueryActCtxW
+- QueryActCtxW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -156,7 +156,7 @@ Pointer to a <b>DWORD</b> that specifies the index of the assembly within the ac
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-activation_context_query_index">ACTIVATION_CONTEXT_QUERY_INDEX</a> structure. If 
 <b>QueryActCtxW</b> is called with this option and the function succeeds, the returned buffer contains information for a file in the assembly. This information is in the form of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_assembly_file_detailed_information">ASSEMBLY_FILE_DETAILED_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-assembly_file_detailed_information">ASSEMBLY_FILE_DETAILED_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -222,7 +222,7 @@ If
 Information about a file in one of the assemblies in Activation Context. The <i>pvSubInstance</i> parameter must point to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-activation_context_query_index">ACTIVATION_CONTEXT_QUERY_INDEX</a> structure. If 
 <b>QueryActCtxW</b> is called with this option and the function succeeds, the returned buffer contains information for a file in the assembly. This information is in the form of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_assembly_file_detailed_information">ASSEMBLY_FILE_DETAILED_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-assembly_file_detailed_information">ASSEMBLY_FILE_DETAILED_INFORMATION</a> structure.
 
 </td>
 </tr>

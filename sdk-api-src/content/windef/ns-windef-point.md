@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 6fb3bd3f-f810-4043-812b-94495f38a6aa
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPPOINT, *NPPOINT, *PPOINT, LPPOINT, LPPOINT structure pointer [Display Devices], NPPOINT, NPPOINT structure pointer [Display Devices], POINT, POINT structure [Display Devices], PPOINT, PPOINT structure pointer [Display Devices], display.point, grstrcts_1a83f2ca-3373-4aa6-b6ec-54c3b6b173f3.xml, windef/LPPOINT, windef/NPPOINT, windef/POINT, windef/PPOINT"
+ms.keywords: '*LPPOINT, *NPPOINT, *PPOINT, LPPOINT, LPPOINT structure pointer [Display Devices], NPPOINT, NPPOINT structure pointer [Display Devices], POINT, POINT structure [Display Devices], PPOINT, PPOINT structure pointer [Display Devices], display.point, grstrcts_1a83f2ca-3373-4aa6-b6ec-54c3b6b173f3.xml, windef/LPPOINT, windef/NPPOINT, windef/POINT, windef/PPOINT'
 ms.topic: struct
-f1_keywords: 
- - "windef/POINT"
+f1_keywords:
+- windef/POINT
 req.header: windef.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - windef.h
+- windef.h
 api_name:
- - POINT
+- POINT
 product: Windows
 targetos: Windows
 req.typenames: POINT, *PPOINT, *NPPOINT, *LPPOINT
@@ -73,7 +73,7 @@ Specifies the <i>y</i>-coordinate of the point.
 
 
 
-The POINT structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a> structure.
+The POINT structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure.
 
 
 
@@ -83,7 +83,7 @@ The POINT structure is identical to the <a href="https://docs.microsoft.com/wind
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a>
 
 
 

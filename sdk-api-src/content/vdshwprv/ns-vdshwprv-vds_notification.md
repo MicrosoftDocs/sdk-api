@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_NOTIFICATION, VDS_NOTIFICATION structure [VDS], VDS_NTT_CONTROLLER, VDS_NTT_DISK, VDS_NTT_DRIVE, VDS_NTT_DRIVE_LETTER, VDS_NTT_FILE_SYSTEM, VDS_NTT_LUN, VDS_NTT_MOUNT_POINT, VDS_NTT_PACK, VDS_NTT_PARTITION, VDS_NTT_PORT, VDS_NTT_PORTAL, VDS_NTT_PORTAL_GROUP, VDS_NTT_SUB_SYSTEM, VDS_NTT_TARGET, VDS_NTT_VOLUME, base.vds_notification, vds/_VDS_NOTIFICATION, vdshwprv/_VDS_NOTIFICATION
 ms.topic: struct
-f1_keywords: 
- - "vdshwprv/VDS_NOTIFICATION"
+f1_keywords:
+- vdshwprv/VDS_NOTIFICATION
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_NOTIFICATION
+- VDS_NOTIFICATION
 product: Windows
 targetos: Windows
 req.typenames: VDS_NOTIFICATION
@@ -66,7 +66,7 @@ Defines the VDS
 ### -field objectType
 
  Discriminant for the union enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_notification_target_type">VDS_NOTIFICATION_TARGET_TYPE</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_notification_target_type">VDS_NOTIFICATION_TARGET_TYPE</a>.
 
 <table>
 <tr>
@@ -260,84 +260,84 @@ The subject of the notification is an iSCSI portal group. Use the
 ### -field Pack
 
 Valid if <b>objectType</b> is <b>VDS_NTT_PACK</b>. See the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_pack_notification">VDS_PACK_NOTIFICATION</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_pack_notification">VDS_PACK_NOTIFICATION</a> 
        structure.
 
 
 ### -field Disk
 
 Valid if <b>objectType</b> is <b>VDS_NTT_DISK</b>. See the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_disk_notification">VDS_DISK_NOTIFICATION</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_disk_notification">VDS_DISK_NOTIFICATION</a> 
        structure.
 
 
 ### -field Volume
 
 Valid if <b>objectType</b> is <b>VDS_NTT_VOLUME</b>. See the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_volume_notification">VDS_VOLUME_NOTIFICATION</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_volume_notification">VDS_VOLUME_NOTIFICATION</a> 
        structure.
 
 
 ### -field Partition
 
 Valid if <b>objectType</b> is <b>VDS_NTT_PARTITION</b>. See the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_partition_notification">VDS_PARTITION_NOTIFICATION</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_partition_notification">VDS_PARTITION_NOTIFICATION</a> 
        structure.
 
 
 ### -field Letter
 
 Valid if <b>objectType</b> is <b>VDS_NTT_DRIVE_LETTER</b>. See the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_drive_letter_notification">VDS_DRIVE_LETTER_NOTIFICATION</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_letter_notification">VDS_DRIVE_LETTER_NOTIFICATION</a> 
        structure.
 
 
 ### -field FileSystem
 
 Valid if <b>objectType</b> is <b>VDS_NTT_FILE_SYSTEM</b>. See the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_file_system_notification">VDS_FILE_SYSTEM_NOTIFICATION</a> 
+        <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_file_system_notification">VDS_FILE_SYSTEM_NOTIFICATION</a> 
         structure.
 
 
 ### -field MountPoint
 
 Valid if <b>objectType</b> is <b>VDS_NTT_MOUNT_POINT</b>. See the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_mount_point_notification">VDS_MOUNT_POINT_NOTIFICATION</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_mount_point_notification">VDS_MOUNT_POINT_NOTIFICATION</a> 
        structure.
 
 
 ### -field SubSystem
 
 Valid if <b>objectType</b> is <b>VDS_NTT_SUB_SYSTEM</b>. See the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_sub_system_notification">VDS_SUB_SYSTEM_NOTIFICATION</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_sub_system_notification">VDS_SUB_SYSTEM_NOTIFICATION</a> 
        structure.
 
 
 ### -field Controller
 
 Valid if <b>objectType</b> is <b>VDS_NTT_CONTROLLER</b>. See the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_controller_notification">VDS_CONTROLLER_NOTIFICATION</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_controller_notification">VDS_CONTROLLER_NOTIFICATION</a> 
        structure.
 
 
 ### -field Drive
 
 Valid if <b>objectType</b> is <b>VDS_NTT_DRIVE</b>. See the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_drive_notification">VDS_DRIVE_NOTIFICATION</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_notification">VDS_DRIVE_NOTIFICATION</a> 
        structure.
 
 
 ### -field Lun
 
 Valid if <b>objectType</b> is <b>VDS_NTT_LUN</b>. See the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_lun_notification">VDS_LUN_NOTIFICATION</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_notification">VDS_LUN_NOTIFICATION</a> 
        structure.
 
 
 ### -field Port
 
 Valid if <b>objectType</b> is <b>VDS_NTT_PORT</b>. See the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_port_notification">VDS_PORT_NOTIFICATION</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_port_notification">VDS_PORT_NOTIFICATION</a> 
        structure.
        
 
@@ -347,7 +347,7 @@ Valid if <b>objectType</b> is <b>VDS_NTT_PORT</b>. See the
 ### -field Portal
 
 Valid if <b>objectType</b> is <b>VDS_NTT_PORTAL</b>. See the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_portal_notification">VDS_PORTAL_NOTIFICATION</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_portal_notification">VDS_PORTAL_NOTIFICATION</a> 
        structure.
        
 
@@ -357,7 +357,7 @@ Valid if <b>objectType</b> is <b>VDS_NTT_PORTAL</b>. See the
 ### -field Target
 
 Valid if <b>objectType</b> is <b>VDS_NTT_TARGET</b>. See the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_target_notification">VDS_TARGET_NOTIFICATION</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_target_notification">VDS_TARGET_NOTIFICATION</a> 
        structure.
        
 
@@ -367,7 +367,7 @@ Valid if <b>objectType</b> is <b>VDS_NTT_TARGET</b>. See the
 ### -field PortalGroup
 
 Valid if <b>objectType</b> is <b>VDS_NTT_PORTAL_GROUP</b>. See the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_portal_group_notification">VDS_PORTAL_GROUP_NOTIFICATION</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_portal_group_notification">VDS_PORTAL_GROUP_NOTIFICATION</a> 
        structure.
        
 
@@ -402,7 +402,7 @@ The members of this structure are aligned on an 8-byte boundary.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_notification_target_type">VDS_NOTIFICATION_TARGET_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_notification_target_type">VDS_NOTIFICATION_TARGET_TYPE</a>
  
 
  

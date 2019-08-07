@@ -8,10 +8,10 @@ tech.root: wes
 ms.assetid: 4b0f338b-0b66-4ba5-9e29-b15afe15a2d3
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEVT_VARIANT, EVT_VARIANT, EVT_VARIANT structure [EventLog], PEVT_VARIANT, PEVT_VARIANT structure pointer [EventLog], wes.evt_variant, winevt/PEVT_VARIANT, winevt/_EVT_VARIANT"
+ms.keywords: '*PEVT_VARIANT, EVT_VARIANT, EVT_VARIANT structure [EventLog], PEVT_VARIANT, PEVT_VARIANT structure pointer [EventLog], wes.evt_variant, winevt/PEVT_VARIANT, winevt/_EVT_VARIANT'
 ms.topic: struct
-f1_keywords: 
- - "winevt/EVT_VARIANT"
+f1_keywords:
+- winevt/EVT_VARIANT
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinEvt.h
+- WinEvt.h
 api_name:
- - EVT_VARIANT
+- EVT_VARIANT
 product: Windows
 targetos: Windows
 req.typenames: EVT_VARIANT, *PEVT_VARIANT
@@ -146,7 +146,7 @@ A pointer to a hexadecimal binary value.
 
 ### -field SidVal
 
-A 4-byte ASCII value. A security identifier (<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>) structure that uniquely identifies a user or group.
+A 4-byte ASCII value. A security identifier (<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>) structure that uniquely identifies a user or group.
 
 
 ### -field SizeTVal
@@ -266,7 +266,7 @@ The number of elements in the array of values. Use <b>Count</b> if the <b>Type</
 
 ### -field Type
 
-A flag that specifies the data type of the variant. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_variant_type">EVT_VARIANT_TYPE</a> enumeration.
+A flag that specifies the data type of the variant. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_variant_type">EVT_VARIANT_TYPE</a> enumeration.
 
 The variant contains an array of values, if the <b>EVT_VARIANT_TYPE_ARRAY</b> flag is set. The members that end in "Arr" contain arrays of values. For example, you would use the <b>StringArr</b> member to access the variant data if the type is EvtVarTypeString and the <b>EVT_VARIANT_TYPE_ARRAY</b> flag is set.
 
@@ -282,7 +282,7 @@ You can use the <a href="https://docs.microsoft.com/windows/desktop/WES/windows-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_variant_type">EVT_VARIANT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_variant_type">EVT_VARIANT_TYPE</a>
 
 
 

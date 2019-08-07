@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngUnlockDirectDrawSurface, EngUnlockDirectDrawSurface function [Display Devices], display.engunlockdirectdrawsurface, gdifncs_6582e033-3e56-4a8d-904d-2978c63ddd4b.xml, winddi/EngUnlockDirectDrawSurface
 ms.topic: function
-f1_keywords: 
- - "winddi/EngUnlockDirectDrawSurface"
+f1_keywords:
+- winddi/EngUnlockDirectDrawSurface
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngUnlockDirectDrawSurface
+- EngUnlockDirectDrawSurface
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>EngUnlockDirectDrawSurface</b> function releases the lock on the specifie
 
 ### -param pSurface [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface to be unlocked.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface to be unlocked.
 
 
 ## -returns

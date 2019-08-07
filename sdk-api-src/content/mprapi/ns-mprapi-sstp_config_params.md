@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 6f21d569-af9b-49ba-ab02-4dfc74e87ed2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSSTP_CONFIG_PARAMS, CALG_SHA_256, MPR_ENABLE_RAS_ON_DEVICE, SSTP_CONFIG_PARAMS, SSTP_CONFIG_PARAMS structure [RAS], mprapi/SSTP_CONFIG_PARAMS, rras.sstp_config_params"
+ms.keywords: '*PSSTP_CONFIG_PARAMS, CALG_SHA_256, MPR_ENABLE_RAS_ON_DEVICE, SSTP_CONFIG_PARAMS, SSTP_CONFIG_PARAMS structure [RAS], mprapi/SSTP_CONFIG_PARAMS, rras.sstp_config_params'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/SSTP_CONFIG_PARAMS"
+f1_keywords:
+- mprapi/SSTP_CONFIG_PARAMS
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - SSTP_CONFIG_PARAMS
+- SSTP_CONFIG_PARAMS
 product: Windows
 targetos: Windows
 req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
@@ -160,7 +160,7 @@ A value that specifies the certificate hashing algorithm used. The following val
 
 ### -field sstpCertDetails
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_sstp_cert_info">SSTP_CERT_INFO</a> structure that contains the SSTP based certificate hash.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-sstp_cert_info">SSTP_CERT_INFO</a> structure that contains the SSTP based certificate hash.
 
 
 ## -see-also
@@ -168,7 +168,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_sst
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mprapi_tunnel_config_params0">MPRAPI_TUNNEL_CONFIG_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mprapi_tunnel_config_params0">MPRAPI_TUNNEL_CONFIG_PARAMS</a>
 
 
 

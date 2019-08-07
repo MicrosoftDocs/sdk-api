@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RmAddFilter, RmAddFilter function [Restart Mgr], restartmanager/RmAddFilter, rstmgr.rmaddfilter
 ms.topic: function
-f1_keywords: 
- - "restartmanager/RmAddFilter"
+f1_keywords:
+- restartmanager/RmAddFilter
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Rstrtmgr.lib
 req.dll: Rstrtmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rstrtmgr.dll
+- Rstrtmgr.dll
 api_name:
- - RmAddFilter
+- RmAddFilter
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ A pointer to a <b>null</b>-terminated string value that contains the full path t
 
 ### -param pProcess [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_unique_process">RM_UNIQUE_PROCESS</a> structure for the application.  Modifications to shutdown or restart actions are applied for the application that is referenced by the <b>RM_UNIQUE_PROCESS</b> structure. This parameter must be <b>NULL</b> if the <i>strFilename</i>  or <i>strShortServiceName</i> parameter is non-<b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_unique_process">RM_UNIQUE_PROCESS</a> structure for the application.  Modifications to shutdown or restart actions are applied for the application that is referenced by the <b>RM_UNIQUE_PROCESS</b> structure. This parameter must be <b>NULL</b> if the <i>strFilename</i>  or <i>strShortServiceName</i> parameter is non-<b>NULL</b>.
 
 
 ### -param strServiceShortName [in, optional]
@@ -81,7 +81,7 @@ A pointer to a <b>null</b>-terminated string value that contains the short servi
 
 ### -param FilterAction [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-_rm_filter_action">RM_FILTER_ACTION</a> enumeration value that specifies the type of modification to be applied.
+An <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-rm_filter_action">RM_FILTER_ACTION</a> enumeration value that specifies the type of modification to be applied.
 
 
 ## -returns

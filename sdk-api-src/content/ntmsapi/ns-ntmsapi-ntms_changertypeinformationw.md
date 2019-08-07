@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILE_DEVICE_CHANGER, NTMS_CHANGERTYPEINFORMATION, NTMS_CHANGERTYPEINFORMATION structure [Files], NTMS_CHANGERTYPEINFORMATIONA, NTMS_CHANGERTYPEINFORMATIONW, _NTMS_CHANGERTYPEINFORMATIONA, _NTMS_CHANGERTYPEINFORMATIONW, _zaw_ntms_changertypeinformation, base.ntms_changertypeinformation, fs.ntms_changertypeinformation, ntmsapi/NTMS_CHANGERTYPEINFORMATION
 ms.topic: struct
-f1_keywords: 
- - "ntmsapi/NTMS_CHANGERTYPEINFORMATION"
+f1_keywords:
+- ntmsapi/NTMS_CHANGERTYPEINFORMATION
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntmsapi.h
+- Ntmsapi.h
 api_name:
- - NTMS_CHANGERTYPEINFORMATION
- - NTMS_CHANGERTYPEINFORMATIONA
- - NTMS_CHANGERTYPEINFORMATIONW
+- NTMS_CHANGERTYPEINFORMATION
+- NTMS_CHANGERTYPEINFORMATIONA
+- NTMS_CHANGERTYPEINFORMATIONW
 product: Windows
 targetos: Windows
 req.typenames: NTMS_CHANGERTYPEINFORMATIONW
@@ -105,7 +105,7 @@ Changer device.
 
 The 
 <b>NTMS_CHANGERTYPEINFORMATION</b> structure is included in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
 
 
@@ -115,7 +115,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
  
 
  

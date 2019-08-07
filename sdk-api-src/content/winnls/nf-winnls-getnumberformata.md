@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumberFormat, GetNumberFormat function [Internationalization for Windows Applications], GetNumberFormatA, GetNumberFormatW, _win32_GetNumberFormat, intl.getnumberformat, winnls/GetNumberFormat, winnls/GetNumberFormatA, winnls/GetNumberFormatW
 ms.topic: function
-f1_keywords: 
- - "winnls/GetNumberFormat"
+f1_keywords:
+- winnls/GetNumberFormat
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,24 +30,24 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
- - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
+- API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - GetNumberFormat
- - GetNumberFormatA
- - GetNumberFormatW
+- GetNumberFormat
+- GetNumberFormatA
+- GetNumberFormatW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -114,7 +114,7 @@ Pointer to a null-terminated string containing the number string to format. This
 
 ### -param lpFormat [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_numberfmta">NUMBERFMT</a> structure that contains number formatting information, with all members set to appropriate values. If this parameter does is not set to <b>NULL</b>, the function uses the locale only for formatting information not specified in the structure, for example, the locale-specific string value for the negative sign.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-numberfmta">NUMBERFMT</a> structure that contains number formatting information, with all members set to appropriate values. If this parameter does is not set to <b>NULL</b>, the function uses the locale only for formatting information not specified in the structure, for example, the locale-specific string value for the negative sign.
 
 
 ### -param lpNumberStr [out, optional]
@@ -165,7 +165,7 @@ When the ANSI version of this function is used with a Unicode-only locale identi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_numberfmta">NUMBERFMT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-numberfmta">NUMBERFMT</a>
 
 
 

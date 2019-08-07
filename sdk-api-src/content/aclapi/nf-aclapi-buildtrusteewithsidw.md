@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BuildTrusteeWithSid, BuildTrusteeWithSid function [Security], BuildTrusteeWithSidA, BuildTrusteeWithSidW, MultipleTrusteeOperation, TrusteeForm, TrusteeType, _win32_buildtrusteewithsid, aclapi/BuildTrusteeWithSid, aclapi/BuildTrusteeWithSidA, aclapi/BuildTrusteeWithSidW, pMultipleTrustee, security.buildtrusteewithsid
 ms.topic: function
-f1_keywords: 
- - "aclapi/BuildTrusteeWithSid"
+f1_keywords:
+- aclapi/BuildTrusteeWithSid
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-security-trustee-l1-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-security-trustee-l1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-security-trustee-l1-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-security-trustee-l1-1-1.dll
 api_name:
- - BuildTrusteeWithSid
- - BuildTrusteeWithSidA
- - BuildTrusteeWithSidW
+- BuildTrusteeWithSid
+- BuildTrusteeWithSidA
+- BuildTrusteeWithSidW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ A pointer to a
 ### -param pSid [in, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that identifies the trustee. The <b>BuildTrusteeWithSid</b> function assigns this pointer to the <b>ptstrName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure. The function sets the other members of the <b>TRUSTEE</b> structure as follows.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that identifies the trustee. The <b>BuildTrusteeWithSid</b> function assigns this pointer to the <b>ptstrName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure. The function sets the other members of the <b>TRUSTEE</b> structure as follows.
 
 <table>
 <tr>

@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 97357faa-2720-4240-a3c3-77abdce8d86d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_LOGOTYPE_AUDIO, CERT_LOGOTYPE_AUDIO, CERT_LOGOTYPE_AUDIO structure [Security], PCERT_LOGOTYPE_AUDIO, PCERT_LOGOTYPE_AUDIO structure pointer [Security], security.cert_logotype_audio, wincrypt/CERT_LOGOTYPE_AUDIO, wincrypt/PCERT_LOGOTYPE_AUDIO"
+ms.keywords: '*PCERT_LOGOTYPE_AUDIO, CERT_LOGOTYPE_AUDIO, CERT_LOGOTYPE_AUDIO structure [Security], PCERT_LOGOTYPE_AUDIO, PCERT_LOGOTYPE_AUDIO structure pointer [Security], security.cert_logotype_audio, wincrypt/CERT_LOGOTYPE_AUDIO, wincrypt/PCERT_LOGOTYPE_AUDIO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_LOGOTYPE_AUDIO"
+f1_keywords:
+- wincrypt/CERT_LOGOTYPE_AUDIO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_LOGOTYPE_AUDIO
+- CERT_LOGOTYPE_AUDIO
 product: Windows
 targetos: Windows
 req.typenames: CERT_LOGOTYPE_AUDIO, *PCERT_LOGOTYPE_AUDIO
@@ -74,7 +74,7 @@ The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincryp
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_logotype_data">CERT_LOGOTYPE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_data">CERT_LOGOTYPE_DATA</a>
  
 
  

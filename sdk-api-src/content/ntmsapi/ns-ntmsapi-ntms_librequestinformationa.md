@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NTMS_LIBREQUESTINFORMATION, NTMS_LIBREQUESTINFORMATION structure [Files], NTMS_LIBREQUESTINFORMATIONA, NTMS_LIBREQUESTINFORMATIONW, NTMS_LM_CANCELLED, NTMS_LM_CLASSIFY, NTMS_LM_CLEANDRIVE, NTMS_LM_DISABLEDRIVE, NTMS_LM_DISABLELIBRARY, NTMS_LM_DISABLEMEDIA, NTMS_LM_DISMOUNT, NTMS_LM_DOORACCESS, NTMS_LM_EJECT, NTMS_LM_EJECTCLEANER, NTMS_LM_ENABLEDRIVE, NTMS_LM_ENABLELIBRARY, NTMS_LM_ENABLEMEDIA, NTMS_LM_FAILED, NTMS_LM_INJECT, NTMS_LM_INJECTCLEANER, NTMS_LM_INPROCESS, NTMS_LM_INVALID, NTMS_LM_INVENTORY, NTMS_LM_MOUNT, NTMS_LM_PASSED, NTMS_LM_PROCESSOMID, NTMS_LM_QUEUED, NTMS_LM_RELEASECLEANER, NTMS_LM_REMOVE, NTMS_LM_RESERVECLEANER, NTMS_LM_UPDATEOMID, NTMS_LM_WAITING, NTMS_LM_WRITESCRATCH, _NTMS_LIBREQUESTINFORMATIONA, _NTMS_LIBREQUESTINFORMATIONW, _zaw_ntms_librequestinformation, base.ntms_librequestinformation, fs.ntms_librequestinformation, ntmsapi/NTMS_LIBREQUESTINFORMATION
 ms.topic: struct
-f1_keywords: 
- - "ntmsapi/NTMS_LIBREQUESTINFORMATION"
+f1_keywords:
+- ntmsapi/NTMS_LIBREQUESTINFORMATION
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntmsapi.h
+- Ntmsapi.h
 api_name:
- - NTMS_LIBREQUESTINFORMATION
- - NTMS_LIBREQUESTINFORMATIONA
- - NTMS_LIBREQUESTINFORMATIONW
+- NTMS_LIBREQUESTINFORMATION
+- NTMS_LIBREQUESTINFORMATIONA
+- NTMS_LIBREQUESTINFORMATIONW
 product: Windows
 targetos: Windows
 req.typenames: NTMS_LIBREQUESTINFORMATIONA
@@ -461,7 +461,7 @@ Priority of the work item.
 
 The 
 <b>NTMS_LIBREQUESTINFORMATION</b> structure is included in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
 GUID in the work times may become not valid over time. For example, an eject of a free medium deletes the PMID after the media is ejected. However the work item is not updated upon completion of the eject.
 
@@ -473,7 +473,7 @@ GUID in the work times may become not valid over time. For example, an eject of 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RTM_IPV4_GET_ADDR_AND_LEN, RTM_IPV4_GET_ADDR_AND_LEN macro [RAS], _rtmv2ref_rtm_ipv4_get_addr_and_len, rras.rtm_ipv4_get_addr_and_len, rtmv2/RTM_IPV4_GET_ADDR_AND_LEN
 ms.topic: macro
-f1_keywords: 
- - "rtmv2/RTM_IPV4_GET_ADDR_AND_LEN"
+f1_keywords:
+- rtmv2/RTM_IPV4_GET_ADDR_AND_LEN
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rtmv2.h
+- Rtmv2.h
 api_name:
- - RTM_IPV4_GET_ADDR_AND_LEN
+- RTM_IPV4_GET_ADDR_AND_LEN
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The 
-<b>RTM_IPV4_GET_ADDR_AND_LEN</b> macro converts a generic net address and length to an IPv4 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_net_address">RTM_NET_ADDRESS</a> structure and length.
+<b>RTM_IPV4_GET_ADDR_AND_LEN</b> macro converts a generic net address and length to an IPv4 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a> structure and length.
 
 
 ## -parameters
@@ -126,7 +126,7 @@ The macro is defined as follows:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_net_address">RTM_NET_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a>
  
 
  

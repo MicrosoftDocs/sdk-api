@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_GET_LENGTH_INFO, IOCTL_DISK_GET_LENGTH_INFO control, IOCTL_DISK_GET_LENGTH_INFO control code [Files], _win32_ioctl_disk_get_length_info, base.ioctl_disk_get_length_info, fs.ioctl_disk_get_length_info, winioctl/IOCTL_DISK_GET_LENGTH_INFO
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_DISK_GET_LENGTH_INFO"
+f1_keywords:
+- winioctl/IOCTL_DISK_GET_LENGTH_INFO
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_DISK_GET_LENGTH_INFO
+- IOCTL_DISK_GET_LENGTH_INFO
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -169,7 +169,7 @@ This operation should be used instead of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_get_length_information">GET_LENGTH_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-get_length_information">GET_LENGTH_INFORMATION</a>
  
 
  

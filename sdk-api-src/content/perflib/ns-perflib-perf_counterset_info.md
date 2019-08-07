@@ -8,10 +8,10 @@ tech.root: perfctrs
 ms.assetid: bf48dcdb-6fdd-4093-9006-a53690c3ed86
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPERF_COUNTERSET_INFO, PERF_COUNTERSET_INFO, PERF_COUNTERSET_INFO structure [Perf], PERF_COUNTERSET_INFO,*PPERF_COUNTERSET_INFO, PERF_COUNTERSET_INFO,*PPERF_COUNTERSET_INFO structure [Perf], PERF_COUNTERSET_INSTANCE_AGGREGATE, PERF_COUNTERSET_MULTI_AGGREGATE, PERF_COUNTERSET_MULTI_INSTANCES, PERF_COUNTERSET_SINGLE_AGGREGATE, PERF_COUNTERSET_SINGLE_AGGREGATE_HISTORY, PERF_COUNTERSET_SINGLE_INSTANCE, base.perf_counterset_info, perf.perf_counterset_info, perflib/PERF_COUNTERSET_INFO"
+ms.keywords: '*PPERF_COUNTERSET_INFO, PERF_COUNTERSET_INFO, PERF_COUNTERSET_INFO structure [Perf], PERF_COUNTERSET_INFO,*PPERF_COUNTERSET_INFO, PERF_COUNTERSET_INFO,*PPERF_COUNTERSET_INFO structure [Perf], PERF_COUNTERSET_INSTANCE_AGGREGATE, PERF_COUNTERSET_MULTI_AGGREGATE, PERF_COUNTERSET_MULTI_INSTANCES, PERF_COUNTERSET_SINGLE_AGGREGATE, PERF_COUNTERSET_SINGLE_AGGREGATE_HISTORY, PERF_COUNTERSET_SINGLE_INSTANCE, base.perf_counterset_info, perf.perf_counterset_info, perflib/PERF_COUNTERSET_INFO'
 ms.topic: struct
-f1_keywords: 
- - "perflib/PERF_COUNTERSET_INFO, *PPERF_COUNTERSET_INFO"
+f1_keywords:
+- perflib/PERF_COUNTERSET_INFO, *PPERF_COUNTERSET_INFO
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Perflib.h
+- Perflib.h
 api_name:
- - PERF_COUNTERSET_INFO, *PPERF_COUNTERSET_INFO
+- PERF_COUNTERSET_INFO, *PPERF_COUNTERSET_INFO
 product: Windows
 targetos: Windows
 req.typenames: PERF_COUNTERSET_INFO, *PPERF_COUNTERSET_INFO
@@ -165,7 +165,7 @@ For example, if multiple provider processes contained instances named IExplore, 
 
 
 
-The memory block for this structure also contains one or more <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_info">PERF_COUNTER_INFO</a> structures. The <b>NumCounter</b> member determines the number of <b>PERF_COUNTER_INFO</b> structures that follow this structure in memory.
+The memory block for this structure also contains one or more <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_info">PERF_COUNTER_INFO</a> structures. The <b>NumCounter</b> member determines the number of <b>PERF_COUNTER_INFO</b> structures that follow this structure in memory.
 
 
 
@@ -175,7 +175,7 @@ The memory block for this structure also contains one or more <a href="https://d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_info">PERF_COUNTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_info">PERF_COUNTER_INFO</a>
 
 
 

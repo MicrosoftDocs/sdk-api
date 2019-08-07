@@ -8,10 +8,10 @@ tech.root: ad
 ms.assetid: 6d070185-e0b6-4c24-9941-95bca2f33192
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDSOP_INIT_INFO, DSOP_FLAG_MULTISELECT, DSOP_FLAG_SKIP_TARGET_COMPUTER_DC_CHECK, DSOP_INIT_INFO, DSOP_INIT_INFO structure [Active Directory], PDSOP_INIT_INFO, PDSOP_INIT_INFO structure pointer [Active Directory], _glines_dsop_init_info, ad.dsop__init__info, ad.dsop_init_info, objsel/DSOP_INIT_INFO, objsel/PDSOP_INIT_INFO"
+ms.keywords: '*PDSOP_INIT_INFO, DSOP_FLAG_MULTISELECT, DSOP_FLAG_SKIP_TARGET_COMPUTER_DC_CHECK, DSOP_INIT_INFO, DSOP_INIT_INFO structure [Active Directory], PDSOP_INIT_INFO, PDSOP_INIT_INFO structure pointer [Active Directory], _glines_dsop_init_info, ad.dsop__init__info, ad.dsop_init_info, objsel/DSOP_INIT_INFO, objsel/PDSOP_INIT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "objsel/DSOP_INIT_INFO"
+f1_keywords:
+- objsel/DSOP_INIT_INFO
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Objsel.h
+- Objsel.h
 api_name:
- - DSOP_INIT_INFO
+- DSOP_INIT_INFO
 product: Windows
 targetos: Windows
 req.typenames: DSOP_INIT_INFO, *PDSOP_INIT_INFO
@@ -78,7 +78,7 @@ Specifies the number of elements in the <b>aDsScopeInfos</b> array.
 ### -field aDsScopeInfos
 
 Pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a> structures that describe the scopes from which the user can select objects. This member cannot be <b>NULL</b> and the array must contain at least one element because the object picker cannot operate without at least one scope.
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a> structures that describe the scopes from which the user can select objects. This member cannot be <b>NULL</b> and the array must contain at least one element because the object picker cannot operate without at least one scope.
 
 
 ### -field flOptions
@@ -117,7 +117,7 @@ Pointer to an array of null-terminated Unicode strings that contain the names of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a>
 
 
 

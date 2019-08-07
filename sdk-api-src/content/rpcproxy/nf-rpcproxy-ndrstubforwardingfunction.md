@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrStubForwardingFunction, NdrStubForwardingFunction function [RPC], rpc.ndrstubforwardingfunction, rpcproxy/NdrStubForwardingFunction
 ms.topic: function
-f1_keywords: 
- - "rpcproxy/NdrStubForwardingFunction"
+f1_keywords:
+- rpcproxy/NdrStubForwardingFunction
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RpcRT4.dll
+- RpcRT4.dll
 api_name:
- - NdrStubForwardingFunction
+- NdrStubForwardingFunction
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-obj
 
 ### -param pmsg [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/rpcdcep/ns-rpcdcep-_rpc_message">RPC_MESSAGE</a> structure that  contains information about the RPC request.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/rpcdcep/ns-rpcdcep-rpc_message">RPC_MESSAGE</a> structure that  contains information about the RPC request.
 
 
 ### -param pdwStubPhase [out]

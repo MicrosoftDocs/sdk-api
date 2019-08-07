@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIDevice4 interface [DXGI],OfferResources1 method, IDXGIDevice4.OfferResources1, IDXGIDevice4::OfferResources1, OfferResources1, OfferResources1 method [DXGI], OfferResources1 method [DXGI],IDXGIDevice4 interface, direct3ddxgi.idxgidevice4_offerresources1, dxgi1_5/IDXGIDevice4::OfferResources1
 ms.topic: method
-f1_keywords: 
- - "dxgi1_5/IDXGIDevice4.OfferResources1"
+f1_keywords:
+- dxgi1_5/IDXGIDevice4.OfferResources1
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dxgi.lib
 req.dll: Dxgi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi.dll
+- dxgi.dll
 api_name:
- - IDXGIDevice4.OfferResources1
+- IDXGIDevice4.OfferResources1
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -77,14 +77,14 @@ An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/
 
 Type: <b>DXGI_OFFER_RESOURCE_PRIORITY</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ne-dxgi1_2-_dxgi_offer_resource_priority">DXGI_OFFER_RESOURCE_PRIORITY</a>-typed value that indicates how valuable data is.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ne-dxgi1_2-dxgi_offer_resource_priority">DXGI_OFFER_RESOURCE_PRIORITY</a>-typed value that indicates how valuable data is.
 
 
 ### -param Flags [in]
 
 Type: <b>UINT</b>
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ne-dxgi1_5-_dxgi_offer_resource_flags">DXGI_OFFER_RESOURCE_FLAGS</a>.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ne-dxgi1_5-dxgi_offer_resource_flags">DXGI_OFFER_RESOURCE_FLAGS</a>.
 
 
 ## -returns
@@ -103,7 +103,7 @@ This method returns an HRESULT success or error code, which can include E_INVALI
 
 
 <b>OfferResources1</b> (an extension of the original <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-offerresources">IDXGIDevice2::OfferResources</a> API) enables D3D based applications to allow de-committing of an allocation’s backing store to reduce system commit under low memory conditions. 
-A de-committed allocation cannot be reused, so opting in to the new DXGI_OFFER_RESOURCE_FLAG_ALLOW_DECOMMIT flag means the new reclaim results must be properly handled. Refer to the flag descriptions in <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ne-dxgi1_5-_dxgi_reclaim_resource_results">DXGI_RECLAIM_RESOURCE_RESULTS</a> and the Example below.
+A de-committed allocation cannot be reused, so opting in to the new DXGI_OFFER_RESOURCE_FLAG_ALLOW_DECOMMIT flag means the new reclaim results must be properly handled. Refer to the flag descriptions in <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ne-dxgi1_5-dxgi_reclaim_resource_results">DXGI_RECLAIM_RESOURCE_RESULTS</a> and the Example below.
 
 <b>OfferResources1</b> and <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-reclaimresources1">ReclaimResources1</a> may <i>not</i> be used interchangeably with <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-offerresources">OfferResources</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-reclaimresources">ReclaimResources</a>. 
 
@@ -183,7 +183,7 @@ void Application::ReclaimInterfaceResources (ID3D11Device* pD3D11Device)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ne-dxgi1_5-_dxgi_reclaim_resource_results">DXGI_RECLAIM_RESOURCE_RESULTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ne-dxgi1_5-dxgi_reclaim_resource_results">DXGI_RECLAIM_RESOURCE_RESULTS</a>
 
 
 

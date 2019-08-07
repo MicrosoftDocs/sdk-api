@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConsoleVerb interface [MMC],SetDefaultVerb method, IConsoleVerb.SetDefaultVerb, IConsoleVerb::SetDefaultVerb, SetDefaultVerb, SetDefaultVerb method [MMC], SetDefaultVerb method [MMC],IConsoleVerb interface, _slate_iconsoleverb_setdefaultverb, mmc.iconsoleverb_setdefaultverb, mmc/IConsoleVerb::SetDefaultVerb
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsoleVerb.SetDefaultVerb"
+f1_keywords:
+- mmc/IConsoleVerb.SetDefaultVerb
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsoleVerb.SetDefaultVerb
+- IConsoleVerb.SetDefaultVerb
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -79,7 +79,7 @@ This method can return one of these values.
 
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_console_verb">MMC_CONSOLE_VERB</a> enumeration defines the set of default verbs. The snap-in can set any verb as the default verb. Setting a default verb causes MMC to:
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_console_verb">MMC_CONSOLE_VERB</a> enumeration defines the set of default verbs. The snap-in can set any verb as the default verb. Setting a default verb causes MMC to:
 
 <ul>
 <li>Show the context menu item for the verb in bold.</li>
@@ -101,7 +101,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_console_verb">MMC_CONSOLE_VERB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_console_verb">MMC_CONSOLE_VERB</a>
  
 
  

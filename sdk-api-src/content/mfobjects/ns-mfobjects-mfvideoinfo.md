@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 746fd84f-58f8-42ab-bcf7-8fd18dcd02af, MFVideoInfo, MFVideoInfo structure [Media Foundation], mf.mfvideoinfo, mfobjects/MFVideoInfo
 ms.topic: struct
-f1_keywords: 
- - "mfobjects/MFVideoInfo"
+f1_keywords:
+- mfobjects/MFVideoInfo
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - MFVideoInfo
+- MFVideoInfo
 product: Windows
 targetos: Windows
 req.typenames: MFVideoInfo
@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 Contains video format information that applies to both compressed and uncompressed formats.
 
-This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat">MFVIDEOFORMAT</a> structure.
+This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure.
 
 
 
@@ -78,7 +78,7 @@ Height of the decoded image, in pixels.
 
 ### -field PixelAspectRatio
 
-Pixel aspect ratio, specified as an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfratio">MFRatio</a> structure.
+Pixel aspect ratio, specified as an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfratio">MFRatio</a> structure.
           
 
 
@@ -90,7 +90,7 @@ Chroma sub-sampling of the original image, specified as a member of the <a href=
 
 ### -field InterlaceMode
 
-Image interlacing, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideointerlacemode">MFVideoInterlaceMode</a> enumeration.
+Image interlacing, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mfvideointerlacemode">MFVideoInterlaceMode</a> enumeration.
           
 
 
@@ -120,7 +120,7 @@ Intended viewing conditions, specified as a member of the <a href="https://docs.
 
 ### -field FramesPerSecond
 
-Frames per second, specified as an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfratio">MFRatio</a> structure. If the frame rate is unknown or variable, the numerator and denominator should both be set to zero. It is invalid for only one member of the <b>MFRatio</b> structure to be zero.
+Frames per second, specified as an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfratio">MFRatio</a> structure. If the frame rate is unknown or variable, the numerator and denominator should both be set to zero. It is invalid for only one member of the <b>MFRatio</b> structure to be zero.
           
 
 
@@ -132,19 +132,19 @@ Range of valid RGB values, specified as a member of the <a href="https://docs.mi
 
 ### -field GeometricAperture
 
-Geometric aperture, specified as an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoarea">MFVideoArea</a> structure. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-geometric-aperture-attribute">MF_MT_GEOMETRIC_APERTURE</a>.
+Geometric aperture, specified as an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoarea">MFVideoArea</a> structure. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-geometric-aperture-attribute">MF_MT_GEOMETRIC_APERTURE</a>.
           
 
 
 ### -field MinimumDisplayAperture
 
-The display aperture, specified as an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoarea">MFVideoArea</a> structure. The display aperture is the region of the video image that is intended to be shown. Any data outside of this area is the overscan region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-minimum-display-aperture-attribute">MF_MT_MINIMUM_DISPLAY_APERTURE</a>.
+The display aperture, specified as an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoarea">MFVideoArea</a> structure. The display aperture is the region of the video image that is intended to be shown. Any data outside of this area is the overscan region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-minimum-display-aperture-attribute">MF_MT_MINIMUM_DISPLAY_APERTURE</a>.
           
 
 
 ### -field PanScanAperture
 
-Pan-scan rectangle, specified as an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoarea">MFVideoArea</a> structure. The pan-scan rectangle defines a region of the image that is displayed in pan-and-scan mode. It can be used when wide-screen content is shown on a 4 x 3 display. The value is valid only when the <b>VideoFlags</b> member contains the MFVideoFlag_PanScanEnabled flag.
+Pan-scan rectangle, specified as an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoarea">MFVideoArea</a> structure. The pan-scan rectangle defines a region of the image that is displayed in pan-and-scan mode. It can be used when wide-screen content is shown on a 4 x 3 display. The value is valid only when the <b>VideoFlags</b> member contains the MFVideoFlag_PanScanEnabled flag.
           
 
 

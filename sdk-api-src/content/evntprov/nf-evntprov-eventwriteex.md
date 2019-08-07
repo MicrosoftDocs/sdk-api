@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventWriteEx, EventWriteEx function [ETW], etw.eventwriteex, evntprov/EventWriteEx
 ms.topic: function
-f1_keywords: 
- - "evntprov/EventWriteEx"
+f1_keywords:
+- evntprov/EventWriteEx
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - KernelBase.dll
- - API-MS-Win-eventing-provider-l1-1-0.dll
- - API-MS-Win-Eventing-Provider-L1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- KernelBase.dll
+- API-MS-Win-eventing-provider-l1-1-0.dll
+- API-MS-Win-Eventing-Provider-L1-1-1.dll
 api_name:
- - EventWriteEx
+- EventWriteEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ Registration handle of the provider. The handle comes from
 ### -param EventDescriptor [in]
 
 A descriptor that contains the metadata that identifies the event to write. For details, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
 
 
 ### -param Filter [in]
@@ -107,14 +107,14 @@ Activity identifier from the previous component. Use this parameter to link your
 
 ### -param UserDataCount [in]
 
-Number of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structures 
+Number of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structures 
       in <i>UserData</i>. The maximum number is 128.
 
 
 ### -param UserData [in, optional]
 
 The event data to write. Allocate a block of memory that contains one or more 
-      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structures. Set this 
+      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structures. Set this 
       parameter to <b>NULL</b> if <i>UserDataCount</i> is zero. The data must be 
       in the order specified in the manifest.
 

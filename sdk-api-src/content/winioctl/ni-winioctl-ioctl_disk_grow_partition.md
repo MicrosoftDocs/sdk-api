@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_GROW_PARTITION, IOCTL_DISK_GROW_PARTITION control, IOCTL_DISK_GROW_PARTITION control code [Files], base.ioctl_disk_grow_partition, fs.ioctl_disk_grow_partition, winioctl/IOCTL_DISK_GROW_PARTITION
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_DISK_GROW_PARTITION"
+f1_keywords:
+- winioctl/IOCTL_DISK_GROW_PARTITION
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_DISK_GROW_PARTITION
+- IOCTL_DISK_GROW_PARTITION
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -152,7 +152,7 @@ You can extend or shrink a live partition, and the partition can be open for sha
 
 You do not need to lock a partition that you are extending, nor do you need to shut down other applications or services during the extend operation.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_grow_partition">DISK_GROW_PARTITION</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_grow_partition">DISK_GROW_PARTITION</a>.
 
 
 
@@ -162,7 +162,7 @@ For more information, see <a href="https://docs.microsoft.com/windows/desktop/ap
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_grow_partition">DISK_GROW_PARTITION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_grow_partition">DISK_GROW_PARTITION</a>
 
 
 

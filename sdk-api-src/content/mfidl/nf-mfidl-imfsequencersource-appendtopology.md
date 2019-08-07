@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 4ff20d56-6095-495d-89ee-9086c61da8ac, AppendTopology, AppendTopology method [Media Foundation], AppendTopology method [Media Foundation],IMFSequencerSource interface, IMFSequencerSource interface [Media Foundation],AppendTopology method, IMFSequencerSource.AppendTopology, IMFSequencerSource::AppendTopology, mf.imfsequencersource_appendtopology, mfidl/IMFSequencerSource::AppendTopology
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSequencerSource.AppendTopology"
+f1_keywords:
+- mfidl/IMFSequencerSource.AppendTopology
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSequencerSource.AppendTopology
+- IMFSequencerSource.AppendTopology
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-
 
 ### -param dwFlags [in]
 
-A combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfsequencertopologyflags">MFSequencerTopologyFlags</a> enumeration.
+A combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfsequencertopologyflags">MFSequencerTopologyFlags</a> enumeration.
 
 
 ### -param pdwId [out]

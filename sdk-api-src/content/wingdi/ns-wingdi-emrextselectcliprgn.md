@@ -8,10 +8,10 @@ tech.root: gdi
 ms.assetid: fcfa0ae1-06e0-4313-9140-496aa4eec9da
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEMREXTSELECTCLIPRGN, EMREXTSELECTCLIPRGN, EMREXTSELECTCLIPRGN structure [Windows GDI], PEMREXTSELECTCLIPRGN, PEMREXTSELECTCLIPRGN structure pointer [Windows GDI], _win32_EMREXTSELECTCLIPRGN_str, gdi.emrextselectcliprgn, wingdi/EMREXTSELECTCLIPRGN, wingdi/PEMREXTSELECTCLIPRGN"
+ms.keywords: '*PEMREXTSELECTCLIPRGN, EMREXTSELECTCLIPRGN, EMREXTSELECTCLIPRGN structure [Windows GDI], PEMREXTSELECTCLIPRGN, PEMREXTSELECTCLIPRGN structure pointer [Windows GDI], _win32_EMREXTSELECTCLIPRGN_str, gdi.emrextselectcliprgn, wingdi/EMREXTSELECTCLIPRGN, wingdi/PEMREXTSELECTCLIPRGN'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMREXTSELECTCLIPRGN"
+f1_keywords:
+- wingdi/EMREXTSELECTCLIPRGN
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMREXTSELECTCLIPRGN
+- EMREXTSELECTCLIPRGN
 product: Windows
 targetos: Windows
 req.typenames: EMREXTSELECTCLIPRGN, *PEMREXTSELECTCLIPRGN
@@ -79,7 +79,7 @@ Operation to be performed. This member must be one of the following values: RGN_
 
 ### -field RgnData
 
-Buffer containing a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_rgndata">RGNDATA</a> structure.
+Buffer containing a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a> structure.
 
 
 ## -see-also

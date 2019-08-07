@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpSaveCredentials, SpSaveCredentials callback function [Security], SpSaveCredentialsFn, SpSaveCredentialsFn callback, _ssp_spsavecredentials, ntsecpkg/SpSaveCredentials, security.spsavecredentials
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/SpSaveCredentials"
+f1_keywords:
+- ntsecpkg/SpSaveCredentials
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SpSaveCredentials
+- SpSaveCredentials
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ A handle to the credential to save.
 ### -param Credentials [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structure containing the credential information to be saved.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure containing the credential information to be saved.
 
 
 ## -returns

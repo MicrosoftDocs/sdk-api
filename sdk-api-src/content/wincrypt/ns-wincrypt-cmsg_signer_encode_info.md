@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: f599226d-ddd7-455f-b650-74b91674d8f9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCMSG_SIGNER_ENCODE_INFO, AT_KEYEXCHANGE, AT_SIGNATURE, CMSG_SIGNER_ENCODE_INFO, CMSG_SIGNER_ENCODE_INFO structure [Security], PCMSG_SIGNER_ENCODE_INFO, PCMSG_SIGNER_ENCODE_INFO structure pointer [Security], _crypto2_cmsg_signer_encode_info, security.cmsg_signer_encode_info, wincrypt/CMSG_SIGNER_ENCODE_INFO, wincrypt/PCMSG_SIGNER_ENCODE_INFO"
+ms.keywords: '*PCMSG_SIGNER_ENCODE_INFO, AT_KEYEXCHANGE, AT_SIGNATURE, CMSG_SIGNER_ENCODE_INFO, CMSG_SIGNER_ENCODE_INFO structure [Security], PCMSG_SIGNER_ENCODE_INFO, PCMSG_SIGNER_ENCODE_INFO structure pointer [Security], _crypto2_cmsg_signer_encode_info, security.cmsg_signer_encode_info, wincrypt/CMSG_SIGNER_ENCODE_INFO, wincrypt/PCMSG_SIGNER_ENCODE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMSG_SIGNER_ENCODE_INFO"
+f1_keywords:
+- wincrypt/CMSG_SIGNER_ENCODE_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMSG_SIGNER_ENCODE_INFO
+- CMSG_SIGNER_ENCODE_INFO
 product: Windows
 targetos: Windows
 req.typenames: CMSG_SIGNER_ENCODE_INFO, *PCMSG_SIGNER_ENCODE_INFO
@@ -71,7 +71,7 @@ The size, in bytes, of this structure.
 ### -field pCertInfo
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure that contains the  
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure that contains the  
 
 
 <b>Issuer</b>, <b>SerialNumber</b>, and <b>SubjectPublicKeyInfo</b> members.
@@ -143,7 +143,7 @@ Keys used to create and verify digital signatures.
 ### -field HashAlgorithm
 
 A 
-						<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the hash algorithm.
+						<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the hash algorithm.
 
 
 ### -field pvHashAuxInfo
@@ -159,7 +159,7 @@ The number of elements in the <b>rgAuthAttr</b> array. If no authenticated attri
 ### -field rgAuthAttr
 
 An array of pointers to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attribute">CRYPT_ATTRIBUTE</a> structures, each of which contains authenticated attribute information. 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures, each of which contains authenticated attribute information. 
 
 
 
@@ -174,19 +174,19 @@ The number of elements in the <b>rgUnauthAttr</b> array. If there are no unauthe
 
 ### -field rgUnauthAttr
 
-An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attribute">CRYPT_ATTRIBUTE</a> structures, each of which contains unauthenticated attribute information. Unauthenticated attributes can contain <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">countersignatures</a>, among other uses.
+An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures, each of which contains unauthenticated attribute information. Unauthenticated attributes can contain <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">countersignatures</a>, among other uses.
 
 
 ### -field SignerId
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_id">CERT_ID</a> structure that contains a unique identifier of the signer's certificate. This member can optionally be used with PKCS #7 with Cryptographic Message Syntax (CMS). If this member is not <b>NULL</b> and its <b>dwIdChoice</b> member is not zero, it is used to identify  the certificate instead of the <b>Issuer</b> and <b>SerialNumber</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure pointed to by <b>pCertInfo</b>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a> structure that contains a unique identifier of the signer's certificate. This member can optionally be used with PKCS #7 with Cryptographic Message Syntax (CMS). If this member is not <b>NULL</b> and its <b>dwIdChoice</b> member is not zero, it is used to identify  the certificate instead of the <b>Issuer</b> and <b>SerialNumber</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure pointed to by <b>pCertInfo</b>.
 						CMS supports the KEY_IDENTIFIER and ISSUER_SERIAL_NUMBER CERT_ID structures. PKCS version 1.5 supports only the ISSUER_SERIAL_NUMBER CERT_ID choice. This member is  used with CMS for PKCS #7 processing and can be used only if CMSG_SIGNER_ENCODE_INFO_HAS_CMS_FIELDS is defined.
 
 
 ### -field HashEncryptionAlgorithm
 
 A 
-						<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure optionally used with PKCS #7 with CMS. If this member is not <b>NULL</b>, the algorithm identified is used instead of the SubjectPublicKeyInfo.Algorithm algorithm.
+						<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure optionally used with PKCS #7 with CMS. If this member is not <b>NULL</b>, the algorithm identified is used instead of the SubjectPublicKeyInfo.Algorithm algorithm.
 If this member is set to szOID_PKIX_NO_SIGNATURE, the signature value contains only the hash octets. 
 
 For RSA, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> encryption algorithm is normally the same as the public key algorithm. For DSA, the hash encryption algorithm is normally a DSS signature algorithm.
@@ -205,15 +205,15 @@ This member is present only if CMSG_SIGNER_ENCODE_INFO_HAS_CMS_FIELDS is defined
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attribute">CRYPT_ATTRIBUTE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a>
 
 
 

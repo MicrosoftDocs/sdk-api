@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 100, 101, 102, 502, NetWkstaSetInfo, NetWkstaSetInfo function [Network Management], _win32_netwkstasetinfo, lmwksta/NetWkstaSetInfo, netmgmt.netwkstasetinfo
 ms.topic: function
-f1_keywords: 
- - "lmwksta/NetWkstaSetInfo"
+f1_keywords:
+- lmwksta/NetWkstaSetInfo
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetWkstaSetInfo
+- NetWkstaSetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -97,7 +97,7 @@ The information level of the data. This parameter can be one of the following va
 </td>
 <td width="60%">
 <b>Windows NT:  </b>In addition to level 100 information, specifies the path to the LANMAN directory. The <i>buffer</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_info_101">WKSTA_INFO_101</a> structure. The <b>wk101_computername</b> and <b>wk101_langroup</b> fields of this structure cannot be set by calling this function. To set these values, call <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernamea">SetComputerName</a>/<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a> or <b>NetJoinDomain</b>, respectively.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_info_101">WKSTA_INFO_101</a> structure. The <b>wk101_computername</b> and <b>wk101_langroup</b> fields of this structure cannot be set by calling this function. To set these values, call <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernamea">SetComputerName</a>/<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a> or <b>NetJoinDomain</b>, respectively.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ The information level of the data. This parameter can be one of the following va
 </td>
 <td width="60%">
 <b>Windows NT:  </b>In addition to level 101 information, specifies the number of users who are logged on to the local computer. The <i>buffer</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_info_102">WKSTA_INFO_102</a> structure. The <b>wk102_computername</b> and <b>wk102_langroup</b> fields of this structure cannot be set by calling this function. To set these values, call <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernamea">SetComputerName</a>/<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a> or <b>NetJoinDomain</b>, respectively.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_info_102">WKSTA_INFO_102</a> structure. The <b>wk102_computername</b> and <b>wk102_langroup</b> fields of this structure cannot be set by calling this function. To set these values, call <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernamea">SetComputerName</a>/<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a> or <b>NetJoinDomain</b>, respectively.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ The information level of the data. This parameter can be one of the following va
 </td>
 <td width="60%">
 <b>Windows NT:  </b>The <i>buffer</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_info_502">WKSTA_INFO_502</a> structure that contains information about the workstation environment.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_info_502">WKSTA_INFO_502</a> structure that contains information about the workstation environment.
 
 </td>
 </tr>
@@ -189,7 +189,7 @@ Only members of the Administrators group can successfully execute the
 <b>NetWkstaSetInfo</b> function on a remote server.
 
 The
-				<b>NetWkstaSetInfo</b> function calls the workstation service on the local system or a remote system. Only a limited number of members of the <a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_info_502">WKSTA_INFO_502</a> structure can actually be changed using the <b>NetWkstaSetInfo</b> function. No errors are returned if a member is set that is ignored by the workstation service. The workstation service is primarily configured using settings in the registry. 
+				<b>NetWkstaSetInfo</b> function calls the workstation service on the local system or a remote system. Only a limited number of members of the <a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_info_502">WKSTA_INFO_502</a> structure can actually be changed using the <b>NetWkstaSetInfo</b> function. No errors are returned if a member is set that is ignored by the workstation service. The workstation service is primarily configured using settings in the registry. 
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/nf-lmwksta-netwkstausersetinfo">NetWkstaUserSetInfo</a> function can be used instead of the <b>NetWkstaSetInfo</b> function to set configuration information on the local system. The <b>NetWkstaUserSetInfo</b> function calls the Local Security Authority (LSA). 
 
@@ -332,7 +332,7 @@ The workstation service parameter settings are stored in the registry, not in th
 #### Examples
 
 The following code sample demonstrates how to set the session time-out value associated with a workstation using a call to the 
-<b>NetServerSetInfo</b> function. (The session time-out is the number of seconds the server waits before disconnecting an inactive session.) The code specifies information level 502 (<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_info_502">WKSTA_INFO_502</a>).
+<b>NetServerSetInfo</b> function. (The session time-out is the number of seconds the server waits before disconnecting an inactive session.) The code specifies information level 502 (<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_info_502">WKSTA_INFO_502</a>).
 
 
 ```cpp

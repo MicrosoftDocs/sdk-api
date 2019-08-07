@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: B1E58228-59B3-471D-A90C-DAAC17BA7937
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, DS_INET_ADDRESS, DS_NETBIOS_ADDRESS, KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST structure [Security], PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST structure pointer [Security], ntsecapi/KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, ntsecapi/PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, security.kerb_add_binding_cache_entry_ex_request"
+ms.keywords: '*PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, DS_INET_ADDRESS, DS_NETBIOS_ADDRESS, KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST structure [Security], PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST structure pointer [Security], ntsecapi/KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, ntsecapi/PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, security.kerb_add_binding_cache_entry_ex_request'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST"
+f1_keywords:
+- ntsecapi/KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST
+- KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST
 product: Windows
 targetos: Windows
 req.typenames: KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, *PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST
@@ -126,7 +126,7 @@ First, you construct a request message type of <a href="https://docs.microsoft.c
 
 </li>
 <li>
-Next, you call the <a href="https://docs.microsoft.com/windows/win32/api/ntsecapi/ns-ntsecapi-kerb_query_domain_extended_policies_response">LsaCallAuthenticationPackage</a> function with Kerberos authentication package and the request message.  Upon successful return, <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_query_domain_extended_policies_response">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE</a> is returned.<ul>
+Next, you call the <a href="https://docs.microsoft.com/windows/win32/api/ntsecapi/ns-ntsecapi-kerb_query_domain_extended_policies_response">LsaCallAuthenticationPackage</a> function with Kerberos authentication package and the request message.  Upon successful return, <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_query_domain_extended_policies_response">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE</a> is returned.<ul>
 <li>If the local computer has disabled DAC, the <b>Flags</b> member is set to 	KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE_FLAG_DAC_DISABLED.</li>
 <li>If the specified domain has Flexible Authentication Secure Tunneling (FAST) enabled, <b>ExtendedPolicies</b> member is set to  KERB_EXTENDED_POLICY_FAST_CAPABLE (0x10000).</li>
 <li>If the specified domain has Claims enabled, <b>ExtendedPolicies</b> member is set to  KERB_EXTENDED_POLICY_CLAIMS_CAPABLE (0x40000).</li>
@@ -141,7 +141,7 @@ Then you must call <a href="https://docs.microsoft.com/windows/desktop/api/dsget
 
 </li>
 <li>
-Finally, you call the <a href="https://docs.microsoft.com/windows/win32/api/ntsecapi/ns-ntsecapi-kerb_query_domain_extended_policies_response">LsaCallAuthenticationPackage</a> function again with the Kerberos authentication package and the request <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b> in which the <b>DcFlags</b> member is set to the <b>DomainControllerInfo</b> flags. All other members should be populated in the same way as <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b>. If the <b>DsFlags</b> of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_query_domain_extended_policies_response">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE</a> is zero, then either <b>DcFlags</b> should be set to zero when calling <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b> or default back to the existing KERB_ADD_BINDING_CACHE_ENTRY_REQUEST request.
+Finally, you call the <a href="https://docs.microsoft.com/windows/win32/api/ntsecapi/ns-ntsecapi-kerb_query_domain_extended_policies_response">LsaCallAuthenticationPackage</a> function again with the Kerberos authentication package and the request <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b> in which the <b>DcFlags</b> member is set to the <b>DomainControllerInfo</b> flags. All other members should be populated in the same way as <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b>. If the <b>DsFlags</b> of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_query_domain_extended_policies_response">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE</a> is zero, then either <b>DcFlags</b> should be set to zero when calling <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b> or default back to the existing KERB_ADD_BINDING_CACHE_ENTRY_REQUEST request.
 
 </li>
 </ol>

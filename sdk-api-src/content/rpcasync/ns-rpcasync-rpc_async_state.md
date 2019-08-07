@@ -8,10 +8,10 @@ tech.root: Rpc
 ms.assetid: ad004f49-89a6-486c-80ec-5b85ab4b8db9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRPC_ASYNC_STATE, PRPC_ASYNC_STATE, PRPC_ASYNC_STATE structure pointer [RPC], RPC_ASYNC_STATE, RPC_ASYNC_STATE structure [RPC], RPC_C_NOTIFY_ON_SEND_COMPLETE, RpcNotificationTypeApc, RpcNotificationTypeCallback, RpcNotificationTypeEvent, RpcNotificationTypeHwnd, RpcNotificationTypeIoc, RpcNotificationTypeNone, _rpc_rpc_async_state, rpc.rpc_async_state, rpcasync/PRPC_ASYNC_STATE, rpcasync/RPC_ASYNC_STATE"
+ms.keywords: '*PRPC_ASYNC_STATE, PRPC_ASYNC_STATE, PRPC_ASYNC_STATE structure pointer [RPC], RPC_ASYNC_STATE, RPC_ASYNC_STATE structure [RPC], RPC_C_NOTIFY_ON_SEND_COMPLETE, RpcNotificationTypeApc, RpcNotificationTypeCallback, RpcNotificationTypeEvent, RpcNotificationTypeHwnd, RpcNotificationTypeIoc, RpcNotificationTypeNone, _rpc_rpc_async_state, rpc.rpc_async_state, rpcasync/PRPC_ASYNC_STATE, rpcasync/RPC_ASYNC_STATE'
 ms.topic: struct
-f1_keywords: 
- - "rpcasync/RPC_ASYNC_STATE"
+f1_keywords:
+- rpcasync/RPC_ASYNC_STATE
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcasync.h
+- Rpcasync.h
 api_name:
- - RPC_ASYNC_STATE
+- RPC_ASYNC_STATE
 product: Windows
 targetos: Windows
 req.typenames: RPC_ASYNC_STATE, *PRPC_ASYNC_STATE
@@ -103,7 +103,7 @@ Posts a notification message when the asynchronous operation is complete.
  
 
 These flags are used with DCE pipes, which allow applications to send or receive data in multiple blocks. Programs can either send a continuous stream of data or wait for each block to be transmitted before it sends the next block. If it does not wait, the RPC run-time library will buffer the output until it can be sent. When the data transmission is complete, the RPC library sends the application a notification. If an application specifies the RPC_C_NOTIFY_ON_SEND_COMPLETE flag, the RPC library sends it a member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-_rpc_notification_types">RPC_NOTIFICATION_TYPES</a> enumeration after it completes each send operation.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-rpc_notification_types">RPC_NOTIFICATION_TYPES</a> enumeration after it completes each send operation.
 
 
 ### -field StubInfo
@@ -124,7 +124,7 @@ Reserved for use by the RPC run-time environment. Do not use this member.
 ### -field Event
 
 Type of event that occurred. The RPC run-time environment sets this field to a member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-_rpc_async_event">RPC_ASYNC_EVENT</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-rpc_async_event">RPC_ASYNC_EVENT</a> enumeration.
 
 
 ### -field NotificationType
@@ -142,7 +142,7 @@ Type of notification the RPC run time should use to notify the client for the oc
 </dl>
 </td>
 <td width="60%">
-No notification is specified; <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_async_notification_info">RPC_ASYNC_NOTIFICATION_INFO</a> is not initialized.
+No notification is specified; <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_notification_info">RPC_ASYNC_NOTIFICATION_INFO</a> is not initialized.
 
 </td>
 </tr>
@@ -206,7 +206,7 @@ The notification mechanism is a function callback.
 
 Contains asynchronous notification information formatted for the mechanism type specified in <b>NotificationType</b>. 
 
-<div class="alert"><b>Note</b>  Previous to Windows Vista, this member contained the specific syntax of the union currently specified by the <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_async_notification_info">RPC_ASYNC_NOTIFICATION_INFO</a> union.</div>
+<div class="alert"><b>Note</b>  Previous to Windows Vista, this member contained the specific syntax of the union currently specified by the <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_notification_info">RPC_ASYNC_NOTIFICATION_INFO</a> union.</div>
 <div> </div>
 
 ### -field Reserved
@@ -220,7 +220,7 @@ Reserved for compatibility with future versions, if any. Do not use this member.
 
 The client allocates space for the 
 <b>RPC_ASYNC_STATE</b> structure and an associated handle, and calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasyncinitializehandle">RpcAsyncInitializeHandle</a> to initialize the structure. After the run-time environment has successfully initialized the structure, the client initializes the <b>NotificationType</b>, and exactly one of the following structures in the <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_async_notification_info">RPC_ASYNC_NOTIFICATION_INFO</a> union: <b>APC</b> for a Windows asynchronous procedure call, <b>IOC</b> for an I/O completion port, <b>HWND</b> for a Windows system message, or <b>hEvent</b> for a Windows event. If the chosen notification method is <b>RpcNotificationTypeNone</b>, no field of the union needs to be initialized. The RPC client may optionally initialize the <b>UserInfo</b> field as well.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasyncinitializehandle">RpcAsyncInitializeHandle</a> to initialize the structure. After the run-time environment has successfully initialized the structure, the client initializes the <b>NotificationType</b>, and exactly one of the following structures in the <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_notification_info">RPC_ASYNC_NOTIFICATION_INFO</a> union: <b>APC</b> for a Windows asynchronous procedure call, <b>IOC</b> for an I/O completion port, <b>HWND</b> for a Windows system message, or <b>hEvent</b> for a Windows event. If the chosen notification method is <b>RpcNotificationTypeNone</b>, no field of the union needs to be initialized. The RPC client may optionally initialize the <b>UserInfo</b> field as well.
 
 
 

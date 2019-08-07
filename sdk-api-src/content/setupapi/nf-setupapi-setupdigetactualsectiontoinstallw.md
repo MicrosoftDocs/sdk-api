@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetActualSectionToInstall, SetupDiGetActualSectionToInstall function [Device and Driver Installation], SetupDiGetActualSectionToInstallA, SetupDiGetActualSectionToInstallW, devinst.setupdigetactualsectiontoinstall, di-rtns_fce32f02-ef7f-4a51-a559-5f0da3738906.xml, setupapi/SetupDiGetActualSectionToInstall
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiGetActualSectionToInstall"
+f1_keywords:
+- setupapi/SetupDiGetActualSectionToInstall
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -30,15 +30,15 @@ req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Setupapi.lib
- - Setupapi.dll
+- Setupapi.lib
+- Setupapi.dll
 api_name:
- - SetupDiGetActualSectionToInstall
+- SetupDiGetActualSectionToInstall
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -134,7 +134,7 @@ InfSectionExt    : REG_SZ :    ".NTX86"
 ```
 
 
-If a driver is not selected for the specified device information element, a null driver is installed. Upon return, the flags in the device's <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> structure indicate whether the system should be restarted or rebooted to cause the device to start.
+If a driver is not selected for the specified device information element, a null driver is installed. Upon return, the flags in the device's <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> structure indicate whether the system should be restarted or rebooted to cause the device to start.
 
 
 

@@ -8,10 +8,10 @@ tech.root: VSS
 ms.assetid: 41ba60f7-d621-478a-a24a-202d326ebf2c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVSS_FILE_SPEC_BACKUP_TYPE, PVSS_FILE_SPEC_BACKUP_TYPE, PVSS_FILE_SPEC_BACKUP_TYPE enumeration pointer [VSS], VSS_FILE_SPEC_BACKUP_TYPE, VSS_FILE_SPEC_BACKUP_TYPE enumeration [VSS], VSS_FSBT_ALL_BACKUP_REQUIRED, VSS_FSBT_ALL_SNAPSHOT_REQUIRED, VSS_FSBT_CREATED_DURING_BACKUP, VSS_FSBT_DIFFERENTIAL_BACKUP_REQUIRED, VSS_FSBT_DIFFERENTIAL_SNAPSHOT_REQUIRED, VSS_FSBT_FULL_BACKUP_REQUIRED, VSS_FSBT_FULL_SNAPSHOT_REQUIRED, VSS_FSBT_INCREMENTAL_BACKUP_REQUIRED, VSS_FSBT_INCREMENTAL_SNAPSHOT_REQUIRED, VSS_FSBT_LOG_BACKUP_REQUIRED, VSS_FSBT_LOG_SNAPSHOT_REQUIRED, _win32_vss_file_spec_backup_type, base.vss_file_spec_backup_type, vss/PVSS_FILE_SPEC_BACKUP_TYPE, vss/VSS_FILE_SPEC_BACKUP_TYPE, vss/VSS_FSBT_ALL_BACKUP_REQUIRED, vss/VSS_FSBT_ALL_SNAPSHOT_REQUIRED, vss/VSS_FSBT_CREATED_DURING_BACKUP, vss/VSS_FSBT_DIFFERENTIAL_BACKUP_REQUIRED, vss/VSS_FSBT_DIFFERENTIAL_SNAPSHOT_REQUIRED, vss/VSS_FSBT_FULL_BACKUP_REQUIRED, vss/VSS_FSBT_FULL_SNAPSHOT_REQUIRED, vss/VSS_FSBT_INCREMENTAL_BACKUP_REQUIRED, vss/VSS_FSBT_INCREMENTAL_SNAPSHOT_REQUIRED, vss/VSS_FSBT_LOG_BACKUP_REQUIRED, vss/VSS_FSBT_LOG_SNAPSHOT_REQUIRED"
+ms.keywords: '*PVSS_FILE_SPEC_BACKUP_TYPE, PVSS_FILE_SPEC_BACKUP_TYPE, PVSS_FILE_SPEC_BACKUP_TYPE enumeration pointer [VSS], VSS_FILE_SPEC_BACKUP_TYPE, VSS_FILE_SPEC_BACKUP_TYPE enumeration [VSS], VSS_FSBT_ALL_BACKUP_REQUIRED, VSS_FSBT_ALL_SNAPSHOT_REQUIRED, VSS_FSBT_CREATED_DURING_BACKUP, VSS_FSBT_DIFFERENTIAL_BACKUP_REQUIRED, VSS_FSBT_DIFFERENTIAL_SNAPSHOT_REQUIRED, VSS_FSBT_FULL_BACKUP_REQUIRED, VSS_FSBT_FULL_SNAPSHOT_REQUIRED, VSS_FSBT_INCREMENTAL_BACKUP_REQUIRED, VSS_FSBT_INCREMENTAL_SNAPSHOT_REQUIRED, VSS_FSBT_LOG_BACKUP_REQUIRED, VSS_FSBT_LOG_SNAPSHOT_REQUIRED, _win32_vss_file_spec_backup_type, base.vss_file_spec_backup_type, vss/PVSS_FILE_SPEC_BACKUP_TYPE, vss/VSS_FILE_SPEC_BACKUP_TYPE, vss/VSS_FSBT_ALL_BACKUP_REQUIRED, vss/VSS_FSBT_ALL_SNAPSHOT_REQUIRED, vss/VSS_FSBT_CREATED_DURING_BACKUP, vss/VSS_FSBT_DIFFERENTIAL_BACKUP_REQUIRED, vss/VSS_FSBT_DIFFERENTIAL_SNAPSHOT_REQUIRED, vss/VSS_FSBT_FULL_BACKUP_REQUIRED, vss/VSS_FSBT_FULL_SNAPSHOT_REQUIRED, vss/VSS_FSBT_INCREMENTAL_BACKUP_REQUIRED, vss/VSS_FSBT_INCREMENTAL_SNAPSHOT_REQUIRED, vss/VSS_FSBT_LOG_BACKUP_REQUIRED, vss/VSS_FSBT_LOG_SNAPSHOT_REQUIRED'
 ms.topic: enum
-f1_keywords: 
- - "vss/VSS_FILE_SPEC_BACKUP_TYPE"
+f1_keywords:
+- vss/VSS_FILE_SPEC_BACKUP_TYPE
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vss.h
+- Vss.h
 api_name:
- - VSS_FILE_SPEC_BACKUP_TYPE
+- VSS_FILE_SPEC_BACKUP_TYPE
 product: Windows
 targetos: Windows
 req.typenames: VSS_FILE_SPEC_BACKUP_TYPE, *PVSS_FILE_SPEC_BACKUP_TYPE
@@ -77,7 +77,7 @@ A file set tagged with this value must be involved in all types of backup operat
 
 A writer tags a file set with this value to indicate to the requester that it expects a copy of the current 
       version of the file set to be available following the restore of any backup operation with a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> of 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_FULL</b>.
 
 
@@ -85,7 +85,7 @@ A writer tags a file set with this value to indicate to the requester that it ex
 
 A writer tags a file set with this value to indicate to the requester that it expects a copy of the current 
       version of the file set to be available following the restore of any backup operation with a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> of 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_DIFFERENTIAL</b>.
 
 This value is not supported for express writers.
@@ -95,7 +95,7 @@ This value is not supported for express writers.
 
 A writer tags a file set with this value to indicate to the requester that it expects a copy of the current 
       version of the file set to be available following the restore of any backup operation with a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> of 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_INCREMENTAL</b>.
 
 This value is not supported for express writers.
@@ -105,7 +105,7 @@ This value is not supported for express writers.
 
 A writer tags a file set with this value to indicate to the requester that it expects a copy of the current 
       version of the file set to be available following the restore of any backup operation with a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> of 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_LOG</b>.
 
 This value is not supported for express writers.
@@ -115,7 +115,7 @@ This value is not supported for express writers.
 
 A file set tagged with this value must be backed up from a shadow copy of a volume (and never from the 
       original volume) when participating in a backup operation with a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> of 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_FULL</b>.
 
 
@@ -123,7 +123,7 @@ A file set tagged with this value must be backed up from a shadow copy of a volu
 
 A file set tagged with this value must be backed up from a shadow copy of a volume (and never from the 
       original volume) when participating in a backup operation with a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> of 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_DIFFERENTIAL</b>.
 
 
@@ -131,7 +131,7 @@ A file set tagged with this value must be backed up from a shadow copy of a volu
 
 A file set tagged with this value must be backed up from a shadow copy of a volume (and never from the 
       original volume) when participating in a backup operation with a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> of 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_INCREMENTAL</b>.
 
 
@@ -139,7 +139,7 @@ A file set tagged with this value must be backed up from a shadow copy of a volu
 
 A file set tagged with this value must be backed up from a shadow copy of a volume (and never from the 
       original volume) when participating in a backup operation with a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_type">VSS_BACKUP_TYPE</a> of 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_LOG</b>).
 
 

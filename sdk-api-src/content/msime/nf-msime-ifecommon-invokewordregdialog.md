@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFECommon interface [Internationalization for Windows Applications],InvokeWordRegDialog method, IFECommon.InvokeWordRegDialog, IFECommon::InvokeWordRegDialog, InvokeWordRegDialog, InvokeWordRegDialog method [Internationalization for Windows Applications], InvokeWordRegDialog method [Internationalization for Windows Applications],IFECommon interface, intl.ifecommon_invokewordregdialog, msime/IFECommon::InvokeWordRegDialog
 ms.topic: method
-f1_keywords: 
- - "msime/IFECommon.InvokeWordRegDialog"
+f1_keywords:
+- msime/IFECommon.InvokeWordRegDialog
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msime.h
+- Msime.h
 api_name:
- - IFECommon.InvokeWordRegDialog
+- IFECommon.InvokeWordRegDialog
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Invokes the Microsoft IME Word Register Dialog Window from the app.
 
 ### -param pimedlg [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imedlg">IMEDLG</a> structure.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imedlg">IMEDLG</a> structure.
 
 
 ## -returns
@@ -83,7 +83,7 @@ otherwise <b>E_FAIL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imedlg">IMEDLG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imedlg">IMEDLG</a>
  
 
  

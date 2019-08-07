@@ -8,10 +8,10 @@ tech.root: perfctrs
 ms.assetid: 19D65E98-182E-45CC-946F-F1924CB78029
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPERF_COUNTER_DATA, PERF_COUNTER_DATA, PERF_COUNTER_DATA structure [Perf], PPERF_COUNTER_DATA, PPERF_COUNTER_DATA structure pointer [Perf], perf.perf_counter_data, perflib/PERF_COUNTER_DATA, perflib/PPERF_COUNTER_DATA"
+ms.keywords: '*PPERF_COUNTER_DATA, PERF_COUNTER_DATA, PERF_COUNTER_DATA structure [Perf], PPERF_COUNTER_DATA, PPERF_COUNTER_DATA structure pointer [Perf], perf.perf_counter_data, perflib/PERF_COUNTER_DATA, perflib/PPERF_COUNTER_DATA'
 ms.topic: struct
-f1_keywords: 
- - "perflib/PERF_COUNTER_DATA"
+f1_keywords:
+- perflib/PERF_COUNTER_DATA
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Perflib.h
+- Perflib.h
 api_name:
- - PERF_COUNTER_DATA
+- PERF_COUNTER_DATA
 product: Windows
 targetos: Windows
 req.typenames: PERF_COUNTER_DATA, *PPERF_COUNTER_DATA
@@ -84,7 +84,7 @@ The total size of the <b>PERF_COUNTER_DATA</b> block, which is the sum of the si
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a> function returns a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_data_header">PERF_DATA_HEADER</a> block that may contain <b>PERF_COUNTER_DATA</b> blocks directly, or indirectly as part of a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_multi_instances">PERF_MULTI_INSTANCES</a> block.
+The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a> function returns a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_data_header">PERF_DATA_HEADER</a> block that may contain <b>PERF_COUNTER_DATA</b> blocks directly, or indirectly as part of a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_multi_instances">PERF_MULTI_INSTANCES</a> block.
 
 
 

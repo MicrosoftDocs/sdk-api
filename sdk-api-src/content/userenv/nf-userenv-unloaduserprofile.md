@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnloadUserProfile, UnloadUserProfile function [Windows Shell], _shell_UnloadUserProfile, shell.UnloadUserProfile, userenv/UnloadUserProfile
 ms.topic: function
-f1_keywords: 
- - "userenv/UnloadUserProfile"
+f1_keywords:
+- userenv/UnloadUserProfile
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - UnloadUserProfile
+- UnloadUserProfile
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ Token for the user, returned from the <a href="https://docs.microsoft.com/window
 
 Type: <b>HANDLE</b>
 
-Handle to the registry key. This value is the <b>hProfile</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/profinfo/ns-profinfo-_profileinfoa">PROFILEINFO</a> structure. For more information see the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-loaduserprofilea">LoadUserProfile</a> and <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
+Handle to the registry key. This value is the <b>hProfile</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/profinfo/ns-profinfo-profileinfoa">PROFILEINFO</a> structure. For more information see the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-loaduserprofilea">LoadUserProfile</a> and <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
 
 ## -returns
@@ -105,7 +105,7 @@ For more information about calling functions that require administrator privileg
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/profinfo/ns-profinfo-_profileinfoa">PROFILEINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/profinfo/ns-profinfo-profileinfoa">PROFILEINFO</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileSystemProperties, GetFileSystemProperties method [VDS], GetFileSystemProperties method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],GetFileSystemProperties method, IVdsVolumeMF.GetFileSystemProperties, IVdsVolumeMF::GetFileSystemProperties, base.ivdsvolumemf_getfilesystemproperties, vds/IVdsVolumeMF::GetFileSystemProperties
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsVolumeMF.GetFileSystemProperties"
+f1_keywords:
+- vds/IVdsVolumeMF.GetFileSystemProperties
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVolumeMF.GetFileSystemProperties
+- IVdsVolumeMF.GetFileSystemProperties
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Returns property details about the file system on the current volume.
 
 ### -param pFileSystemProp [out]
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_file_system_prop">VDS_FILE_SYSTEM_PROP</a> 
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_file_system_prop">VDS_FILE_SYSTEM_PROP</a> 
       structure allocated and passed in by the caller. VDS allocates memory for the 
       <b>pwszLabel</b> member string. Callers must free the string by using the 
       <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
@@ -138,7 +138,7 @@ The pack containing the volume is not accessible.
 
 
 
-If the volume is encrypted by BitLocker, the type member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_file_system_prop">VDS_FILE_SYSTEM_PROP</a> structure will be set to <b>VDS_FST_UNKNOWN</b> on return.
+If the volume is encrypted by BitLocker, the type member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_file_system_prop">VDS_FILE_SYSTEM_PROP</a> structure will be set to <b>VDS_FST_UNKNOWN</b> on return.
 
 
 
@@ -152,11 +152,11 @@ If the volume is encrypted by BitLocker, the type member of the <a href="https:/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_file_system_prop">VDS_FILE_SYSTEM_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_file_system_prop">VDS_FILE_SYSTEM_PROP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>
  
 
  

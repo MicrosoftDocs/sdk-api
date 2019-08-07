@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: ec938519-3c0c-4664-9e9a-b7fb338920f5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCLIPLINE, CLIPLINE, CLIPLINE structure [Display Devices], PCLIPLINE, PCLIPLINE structure pointer [Display Devices], display.clipline, grstrcts_01e6e35a-79ca-4dba-866e-24306b83cb51.xml, winddi/CLIPLINE, winddi/PCLIPLINE"
+ms.keywords: '*PCLIPLINE, CLIPLINE, CLIPLINE structure [Display Devices], PCLIPLINE, PCLIPLINE structure pointer [Display Devices], display.clipline, grstrcts_01e6e35a-79ca-4dba-866e-24306b83cb51.xml, winddi/CLIPLINE, winddi/PCLIPLINE'
 ms.topic: struct
-f1_keywords: 
- - "winddi/CLIPLINE"
+f1_keywords:
+- winddi/CLIPLINE
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - CLIPLINE
+- CLIPLINE
 product: Windows
 targetos: Windows
 req.typenames: CLIPLINE, *PCLIPLINE
@@ -81,7 +81,7 @@ Specifies the number of RUN structures in the <b>arun</b> array.
 
 ### -field arun
 
-Is an array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_run">RUN</a> structures. The RUN structures describe the start and stop portions of the clip line.
+Is an array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-run">RUN</a> structures. The RUN structures describe the start and stop portions of the clip line.
 
 
 ## -remarks
@@ -100,15 +100,15 @@ See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/gdi-dat
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_clipobj">CLIPOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo">GDIINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_run">RUN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-run">RUN</a>
  
 
  

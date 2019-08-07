@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VirtualQueryEx, VirtualQueryEx function, _win32_virtualqueryex, base.virtualqueryex, winbase/VirtualQueryEx
 ms.topic: function
-f1_keywords: 
- - "memoryapi/VirtualQueryEx"
+f1_keywords:
+- memoryapi/VirtualQueryEx
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -30,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-memory-l1-1-1.dll
- - API-MS-Win-Core-memory-l1-1-2.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-memory-l1-1-1.dll
+- API-MS-Win-Core-memory-l1-1-2.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - VirtualQueryEx
+- VirtualQueryEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -84,7 +84,7 @@ If <i>lpAddress</i> specifies an address above the highest memory address access
 ### -param lpBuffer [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a> structure in which information about the specified page range is returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-memory_basic_information">MEMORY_BASIC_INFORMATION</a> structure in which information about the specified page range is returned.
 
 
 ### -param dwLength [in]
@@ -132,7 +132,7 @@ If a shared copy-on-write page is modified, it becomes private to the process th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-memory_basic_information">MEMORY_BASIC_INFORMATION</a>
 
 
 

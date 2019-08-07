@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 1002, 1005, 2, 3, NetGroupSetInfo, NetGroupSetInfo function [Network Management], _win32_netgroupsetinfo, lmaccess/NetGroupSetInfo, netmgmt.netgroupsetinfo
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetGroupSetInfo"
+f1_keywords:
+- lmaccess/NetGroupSetInfo
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetGroupSetInfo
+- NetGroupSetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -92,7 +92,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Specifies a global group name. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_0">GROUP_INFO_0</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_0">GROUP_INFO_0</a> structure.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Specifies a global group name. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 Specifies a global group name and a comment. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_1">GROUP_INFO_1</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_1">GROUP_INFO_1</a> structure.
 
 </td>
 </tr>
@@ -114,8 +114,8 @@ Specifies a global group name and a comment. The <i>buf</i> parameter points to 
 </td>
 <td width="60%">
 Specifies detailed information about the global group. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_2">GROUP_INFO_2</a> structure. Note that on Windows XP and later, it is recommended that you use 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_3">GROUP_INFO_3</a> instead.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_2">GROUP_INFO_2</a> structure. Note that on Windows XP and later, it is recommended that you use 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_3">GROUP_INFO_3</a> instead.
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ Specifies detailed information about the global group. The <i>buf</i> parameter 
 </td>
 <td width="60%">
  Specifies detailed information about the global group. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_3">GROUP_INFO_3</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_3">GROUP_INFO_3</a> structure.
 
 <b>Windows 2000:  </b>This level is not supported.
 
@@ -139,7 +139,7 @@ Specifies detailed information about the global group. The <i>buf</i> parameter 
 </td>
 <td width="60%">
 Specifies a comment only about the global group. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_1002">GROUP_INFO_1002</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_1002">GROUP_INFO_1002</a> structure.
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Specifies a comment only about the global group. The <i>buf</i> parameter points
 </td>
 <td width="60%">
 Specifies global group attributes. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_1005">GROUP_INFO_1005</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_1005">GROUP_INFO_1005</a> structure.
 
 </td>
 </tr>
@@ -271,8 +271,8 @@ The security descriptor of the Group object is used to perform the access check 
 
 The correct way to set the new name of a global group is to call the 
 <b>NetGroupSetInfo</b> function, using a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_0">GROUP_INFO_0</a> structure. Specify the new value in the <b>grpi0_name</b> member. If you use a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_1">GROUP_INFO_1</a> structure and specify the value in the <b>grpi1_name</b> member, the new name value is ignored.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_0">GROUP_INFO_0</a> structure. Specify the new value in the <b>grpi0_name</b> member. If you use a 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_1">GROUP_INFO_1</a> structure and specify the value in the <b>grpi1_name</b> member, the new name value is ignored.
 
 If the 
 <b>NetGroupSetInfo</b> function returns ERROR_INVALID_PARAMETER, you can use the <i>parm_err</i> parameter to indicate the first member of the group information structure that is invalid. (A group information structure begins with GROUP_INFO_ and its format is specified by the <i>level</i> parameter.) The following table lists the values that can be returned in the <i>parm_err</i> parameter and the corresponding structure member that is in error. (The prefix grpi*_ indicates that the member can begin with multiple prefixes, for example, grpi1_ or grpi2_.)
@@ -307,23 +307,23 @@ User account names are limited to 20 characters and group names are limited to 2
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_0">GROUP_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_0">GROUP_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_1">GROUP_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_1">GROUP_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_1002">GROUP_INFO_1002</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_1002">GROUP_INFO_1002</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_1005">GROUP_INFO_1005</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_1005">GROUP_INFO_1005</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_3">GROUP_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_3">GROUP_INFO_3</a>
 
 
 

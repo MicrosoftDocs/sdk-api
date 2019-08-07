@@ -8,10 +8,10 @@ tech.root: SecCNG
 ms.assetid: 3bd4a07c-8b80-4bbc-9922-88ea007f6ccd
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_PROVIDER_REF, CRYPT_PROVIDER_REF, CRYPT_PROVIDER_REF structure [Security], PCRYPT_PROVIDER_REF, PCRYPT_PROVIDER_REF structure pointer [Security], bcrypt/CRYPT_PROVIDER_REF, bcrypt/PCRYPT_PROVIDER_REF, security.crypt_provider_ref"
+ms.keywords: '*PCRYPT_PROVIDER_REF, CRYPT_PROVIDER_REF, CRYPT_PROVIDER_REF structure [Security], PCRYPT_PROVIDER_REF, PCRYPT_PROVIDER_REF structure pointer [Security], bcrypt/CRYPT_PROVIDER_REF, bcrypt/PCRYPT_PROVIDER_REF, security.crypt_provider_ref'
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/CRYPT_PROVIDER_REF"
+f1_keywords:
+- bcrypt/CRYPT_PROVIDER_REF
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - CRYPT_PROVIDER_REF
+- CRYPT_PROVIDER_REF
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_PROVIDER_REF, *PCRYPT_PROVIDER_REF
@@ -81,17 +81,17 @@ The number of elements in the <b>rgpProperties</b> array. If the algorithm or fu
 
 ### -field rgpProperties
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_property_ref">CRYPT_PROPERTY_REF</a> structure pointers that contain the properties for this algorithm or function. The <b>cProperties</b> member contains the number of elements in this array.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_property_ref">CRYPT_PROPERTY_REF</a> structure pointers that contain the properties for this algorithm or function. The <b>cProperties</b> member contains the number of elements in this array.
 
 
 ### -field pUM
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_image_ref">CRYPT_IMAGE_REF</a> structure that contains information about the user mode provider module. If this information was not requested or the provider is not registered as a user mode provider, this member will be <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_image_ref">CRYPT_IMAGE_REF</a> structure that contains information about the user mode provider module. If this information was not requested or the provider is not registered as a user mode provider, this member will be <b>NULL</b>.
 
 
 ### -field pKM
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_image_ref">CRYPT_IMAGE_REF</a> structure that contains information about the kernel mode provider module. If this information was not requested or the provider is not registered as a kernel mode provider, this member will be <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_image_ref">CRYPT_IMAGE_REF</a> structure that contains information about the kernel mode provider module. If this information was not requested or the provider is not registered as a kernel mode provider, this member will be <b>NULL</b>.
 
 
 ## -see-also
@@ -103,7 +103,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_provider_refs">CRYPT_PROVIDER_REFS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_refs">CRYPT_PROVIDER_REFS</a>
  
 
  

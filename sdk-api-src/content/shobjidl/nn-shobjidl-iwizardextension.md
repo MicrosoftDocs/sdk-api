@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWizardExtension, IWizardExtension interface [Windows Shell], IWizardExtension interface [Windows Shell],described, _shell_IWizardExtension, shell.IWizardExtension, shobjidl/IWizardExtension
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IWizardExtension"
+f1_keywords:
+- shobjidl/IWizardExtension
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IWizardExtension
+- IWizardExtension
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ The <b>IWizardExtension</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iwizardextension-addpages">AddPages</a>
 </td>
 <td align="left" width="63%">
-Adds extension pages to the wizard by filling an array with handles to <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> structures representing those pages.
+Adds extension pages to the wizard by filling an array with handles to <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structures representing those pages.
 
 </td>
 </tr>

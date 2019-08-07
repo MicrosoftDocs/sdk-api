@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: 25bc511d-7a9f-41c1-8983-1af1e3f8bf2d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "_win32_getsockopt_2, getsockopt, getsockopt function [Winsock], winsock.getsockopt_2, winsock/getsockopt"
+ms.keywords: _win32_getsockopt_2, getsockopt, getsockopt function [Winsock], winsock.getsockopt_2, winsock/getsockopt
 ms.topic: function
-f1_keywords: 
- - "winsock/getsockopt"
+f1_keywords:
+- winsock/getsockopt
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
- - wsock32.dll
+- Ws2_32.dll
+- wsock32.dll
 api_name:
- - getsockopt
+- getsockopt
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -314,7 +314,7 @@ The following table of value for the <i>optname</i> parameter are valid when the
 <tr>
 <td>SO_PROTOCOL_INFO</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a>
 </td>
 <td>A description of the protocol information for the protocol that is bound to this socket.</td>
 </tr>
@@ -419,31 +419,31 @@ The following table of value for the <i>optname</i> parameter are valid when the
 <tr>
 <td>IPX_ADDRESS</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-_ipx_address_data">IPX_ADDRESS_DATA</a> structure</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_address_data">IPX_ADDRESS_DATA</a> structure</td>
 <td>Obtains information about a specific adapter to which IPX is bound. Adapter numbering is base zero. The <b>adapternum</b> member is filled in upon return.</td>
 </tr>
 <tr>
 <td>IPX_GETNETINFO</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-_ipx_netnum_data">IPX_NETNUM_DATA</a> structure</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_netnum_data">IPX_NETNUM_DATA</a> structure</td>
 <td>Obtains information about a specific IPX network number. If not available in the cache, uses RIP to obtain information.</td>
 </tr>
 <tr>
 <td>IPX_GETNETINFO_NORIP</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-_ipx_netnum_data">IPX_NETNUM_DATA</a> structure</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_netnum_data">IPX_NETNUM_DATA</a> structure</td>
 <td>Obtains information about a specific IPX network number. If not available in the cache, will not use RIP to obtain information, and returns error.</td>
 </tr>
 <tr>
 <td>IPX_SPXGETCONNECTIONSTATUS</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-_ipx_spxconnstatus_data">IPX_SPXCONNSTATUS_DATA</a> structure</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_spxconnstatus_data">IPX_SPXCONNSTATUS_DATA</a> structure</td>
 <td>Retrieves information about a connected SPX socket.</td>
 </tr>
 <tr>
 <td>IPX_ADDRESS_NOTIFY</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-_ipx_address_data">IPX_ADDRESS_DATA</a> structure</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_address_data">IPX_ADDRESS_DATA</a> structure</td>
 <td>Retrieves status notification when changes occur on an adapter to which IPX is bound.</td>
 </tr>
 <tr>
@@ -454,7 +454,7 @@ The following table of value for the <i>optname</i> parameter are valid when the
 <tr>
 <td>IPX_RERIPNETNUMBER</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-_ipx_netnum_data">IPX_NETNUM_DATA</a> structure</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_netnum_data">IPX_NETNUM_DATA</a> structure</td>
 <td>Similar to IPX_GETNETINFO, but forces IPX to use RIP for resolution, even if the network information is in the local cache.</td>
 </tr>
 <tr>
@@ -597,7 +597,7 @@ This is a get-only socket option that indicates the maximum outbound (send) size
 <dt><a id="SO_PROTOCOL_INFO"></a><a id="so_protocol_info"></a>SO_PROTOCOL_INFO</dt>
 <dd>
 This is a get-only option that supplies the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure associated with this socket. See 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure associated with this socket. See 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> for more information about this structure.
 
 </dd>
@@ -758,7 +758,7 @@ void main() {
 
 Before an IrDA socket connection can be initiated, a device address must be obtained by performing a 
 <b>getsockopt</b>(,,IRLMP_ENUMDEVICES,,) function call, which returns a list of all available IrDA devices. A device address returned from the function call is copied into a 
-<a href="https://docs.microsoft.com/windows/desktop/api/af_irda/ns-af_irda-_sockaddr_irda">SOCKADDR_IRDA</a> structure, which in turn is used by a subsequent call to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/af_irda/ns-af_irda-sockaddr_irda">SOCKADDR_IRDA</a> structure, which in turn is used by a subsequent call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a> function call.
 
 Discovery can be performed in two ways:

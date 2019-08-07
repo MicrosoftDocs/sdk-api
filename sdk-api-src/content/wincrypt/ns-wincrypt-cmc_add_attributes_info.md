@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: fd13cd2b-b818-41ca-85be-d51b864194df
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCMC_ADD_ATTRIBUTES_INFO, CMC_ADD_ATTRIBUTES_INFO, CMC_ADD_ATTRIBUTES_INFO structure [Security], PCMC_ADD_ATTRIBUTES_INFO, PCMC_ADD_ATTRIBUTES_INFO structure pointer [Security], _crypto2_cmc_add_attributes_info, security.cmc_add_attributes_info, wincrypt/CMC_ADD_ATTRIBUTES_INFO, wincrypt/PCMC_ADD_ATTRIBUTES_INFO"
+ms.keywords: '*PCMC_ADD_ATTRIBUTES_INFO, CMC_ADD_ATTRIBUTES_INFO, CMC_ADD_ATTRIBUTES_INFO structure [Security], PCMC_ADD_ATTRIBUTES_INFO, PCMC_ADD_ATTRIBUTES_INFO structure pointer [Security], _crypto2_cmc_add_attributes_info, security.cmc_add_attributes_info, wincrypt/CMC_ADD_ATTRIBUTES_INFO, wincrypt/PCMC_ADD_ATTRIBUTES_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMC_ADD_ATTRIBUTES_INFO"
+f1_keywords:
+- wincrypt/CMC_ADD_ATTRIBUTES_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMC_ADD_ATTRIBUTES_INFO
+- CMC_ADD_ATTRIBUTES_INFO
 product: Windows
 targetos: Windows
 req.typenames: CMC_ADD_ATTRIBUTES_INFO, *PCMC_ADD_ATTRIBUTES_INFO
@@ -82,5 +82,5 @@ Count of the elements in the <b>rgAttribute</b> array.
 ### -field rgAttribute
 
 Array of pointers to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attribute">CRYPT_ATTRIBUTE</a> certificate attributes to be added.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> certificate attributes to be added.
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPluginControl interface [Media Foundation],IsDisabled method, IMFPluginControl.IsDisabled, IMFPluginControl::IsDisabled, IsDisabled, IsDisabled method [Media Foundation], IsDisabled method [Media Foundation],IMFPluginControl interface, mf.imfplugincontrol_imfplugincontrol__isdisabled, mfobjects/IMFPluginControl::IsDisabled
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFPluginControl.IsDisabled"
+f1_keywords:
+- mfobjects/IMFPluginControl.IsDisabled
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - IMFPluginControl.IsDisabled
+- IMFPluginControl.IsDisabled
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Queries whether a class identifier (CLSID) appears in the blocked list.
 
 ### -param pluginType [in]
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mf_plugin_type">MF_Plugin_Type</a> enumeration, specifying the type of object for the query.
+Member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mf_plugin_type">MF_Plugin_Type</a> enumeration, specifying the type of object for the query.
 
 
 ### -param clsid [in]

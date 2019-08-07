@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SaslGetProfilePackage, SaslGetProfilePackage function [Security], SaslGetProfilePackageA, SaslGetProfilePackageW, security.saslgetprofilepackage, sspi/SaslGetProfilePackage, sspi/SaslGetProfilePackageA, sspi/SaslGetProfilePackageW
 ms.topic: function
-f1_keywords: 
- - "sspi/SaslGetProfilePackage"
+f1_keywords:
+- sspi/SaslGetProfilePackage
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - SaslGetProfilePackage
- - SaslGetProfilePackageA
- - SaslGetProfilePackageW
+- SaslGetProfilePackage
+- SaslGetProfilePackageA
+- SaslGetProfilePackageW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Unicode or ANSI string that contains the name of the SASL package.
 
 ### -param PackageInfo [out]
 
-Pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkginfoa">SecPkgInfo</a> structure that returns the package information for the package specified by the <i>ProfileName</i> parameter.
+Pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structure that returns the package information for the package specified by the <i>ProfileName</i> parameter.
 
 
 ## -returns
@@ -100,7 +100,7 @@ The SASL profile specified by the <i>ProfileName</i> parameter could not be foun
 </dl>
 </td>
 <td width="60%">
-Memory could not be allocated for the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkginfoa">SecPkgInfo</a> structure.
+Memory could not be allocated for the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structure.
 
 </td>
 </tr>

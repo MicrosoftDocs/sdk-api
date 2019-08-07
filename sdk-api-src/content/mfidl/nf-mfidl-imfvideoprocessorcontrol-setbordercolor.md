@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetBorderColor method, IMFVideoProcessorControl.SetBorderColor, IMFVideoProcessorControl::SetBorderColor, SetBorderColor, SetBorderColor method [Media Foundation], SetBorderColor method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setbordercolor, mfidl/IMFVideoProcessorControl::SetBorderColor
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFVideoProcessorControl.SetBorderColor"
+f1_keywords:
+- mfidl/IMFVideoProcessorControl.SetBorderColor
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFVideoProcessorControl.SetBorderColor
+- IMFVideoProcessorControl.SetBorderColor
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Sets the border color.
 
 ### -param pBorderColor [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfargb">MFARGB</a> structure that specifies the border color as an ARGB (alpha, red, green, blue) value.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfargb">MFARGB</a> structure that specifies the border color as an ARGB (alpha, red, green, blue) value.
 
 
 ## -returns

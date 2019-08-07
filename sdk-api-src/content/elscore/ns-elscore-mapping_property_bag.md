@@ -8,10 +8,10 @@ tech.root: Intl
 ms.assetid: 08e55e27-5118-40ea-b973-cea0b1c263da
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMAPPING_PROPERTY_BAG, MAPPING_PROPERTY_BAG, MAPPING_PROPERTY_BAG structure [Internationalization for Windows Applications], PMAPPING_PROPERTY_BAG, PMAPPING_PROPERTY_BAG structure pointer [Internationalization for Windows Applications], elscore/MAPPING_PROPERTY_BAG, elscore/PMAPPING_PROPERTY_BAG, intl.mappingpropertybag"
+ms.keywords: '*PMAPPING_PROPERTY_BAG, MAPPING_PROPERTY_BAG, MAPPING_PROPERTY_BAG structure [Internationalization for Windows Applications], PMAPPING_PROPERTY_BAG, PMAPPING_PROPERTY_BAG structure pointer [Internationalization for Windows Applications], elscore/MAPPING_PROPERTY_BAG, elscore/PMAPPING_PROPERTY_BAG, intl.mappingpropertybag'
 ms.topic: struct
-f1_keywords: 
- - "elscore/MAPPING_PROPERTY_BAG"
+f1_keywords:
+- elscore/MAPPING_PROPERTY_BAG
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Elscore.h
+- Elscore.h
 api_name:
- - MAPPING_PROPERTY_BAG
+- MAPPING_PROPERTY_BAG
 product: Windows
 targetos: Windows
 req.typenames: MAPPING_PROPERTY_BAG, *PMAPPING_PROPERTY_BAG
@@ -69,7 +69,7 @@ Size of the structure, used to verify the structure version. This value is requi
 
 ### -field prgResultRanges
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_data_range">MAPPING_DATA_RANGE</a> structures containing all recognized text range results. This member is populated by <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-mapping_data_range">MAPPING_DATA_RANGE</a> structures containing all recognized text range results. This member is populated by <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>.
 
 
 ### -field dwRangesCount
@@ -120,7 +120,7 @@ The memory for the property bag structure itself is managed by the application. 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_data_range">MAPPING_DATA_RANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-mapping_data_range">MAPPING_DATA_RANGE</a>
 
 
 

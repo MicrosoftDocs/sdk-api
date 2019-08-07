@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetComponentDetails, GetComponentDetails method [COM+], GetComponentDetails method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetComponentDetails method, IGetAppTrackerData.GetComponentDetails, IGetAppTrackerData::GetComponentDetails, comsvcs/IGetAppTrackerData::GetComponentDetails, cos.igetapptrackerdata_getcomponentdetails
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IGetAppTrackerData.GetComponentDetails"
+f1_keywords:
+- comsvcs/IGetAppTrackerData.GetComponentDetails
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IGetAppTrackerData.GetComponentDetails
+- IGetAppTrackerData.GetComponentDetails
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,22 +76,22 @@ The CLSID of the component.
 
 ### -param Flags [in]
 
-A combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-_getapptrackerdataflags">GetAppTrackerDataFlags</a> enumeration to select which data is returned. The following flags are supported: GATD_INCLUDE_CLASS_NAME (if retrieving a summary), GATD_INCLUDE_APPLICATION_NAME (if retrieving a summary). 
+A combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-getapptrackerdataflags">GetAppTrackerDataFlags</a> enumeration to select which data is returned. The following flags are supported: GATD_INCLUDE_CLASS_NAME (if retrieving a summary), GATD_INCLUDE_APPLICATION_NAME (if retrieving a summary). 
 
 
 ### -param Summary [out]
 
-On return, a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-_componentsummary">ComponentSummary</a> structure with summary information for the component. This parameter can be <b>NULL</b>.
+On return, a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-componentsummary">ComponentSummary</a> structure with summary information for the component. This parameter can be <b>NULL</b>.
 
 
 ### -param Statistics [out]
 
-On return, a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-_componentstatistics">ComponentStatistics</a> structure with statistics for the component. This parameter can be <b>NULL</b>.
+On return, a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-componentstatistics">ComponentStatistics</a> structure with statistics for the component. This parameter can be <b>NULL</b>.
 
 
 ### -param HangMonitorInfo [out]
 
-On return, a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-_componenthangmonitorinfo">ComponentHangMonitorInfo</a> structure with hang monitoring configuration for the component. This parameter can be <b>NULL</b>.
+On return, a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-componenthangmonitorinfo">ComponentHangMonitorInfo</a> structure with hang monitoring configuration for the component. This parameter can be <b>NULL</b>.
 
 
 ## -returns

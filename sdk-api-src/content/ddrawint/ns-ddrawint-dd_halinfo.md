@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 99ecd219-1e85-4904-867d-3efcb378bb11
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_HALINFO, DD_HALINFO, DD_HALINFO structure [Display Devices], PDD_HALINFO, PDD_HALINFO structure pointer [Display Devices], ddrawint/DD_HALINFO, ddrawint/PDD_HALINFO, ddstrcts_3b4465cc-0f18-431c-b0a5-bf5bfb854f05.xml, display.dd_halinfo"
+ms.keywords: '*PDD_HALINFO, DD_HALINFO, DD_HALINFO structure [Display Devices], PDD_HALINFO, PDD_HALINFO structure pointer [Display Devices], ddrawint/DD_HALINFO, ddrawint/PDD_HALINFO, ddstrcts_3b4465cc-0f18-431c-b0a5-bf5bfb854f05.xml, display.dd_halinfo'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_HALINFO"
+f1_keywords:
+- ddrawint/DD_HALINFO
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_HALINFO
+- DD_HALINFO
 product: Windows
 targetos: Windows
 req.typenames: DD_HALINFO, *PDD_HALINFO
@@ -66,7 +66,7 @@ Specifies the size in bytes of this DD_HALINFO structure.
 
 ### -field vmiData
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_videomemoryinfo">VIDEOMEMORYINFO</a> structure that describes the display's memory.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-videomemoryinfo">VIDEOMEMORYINFO</a> structure that describes the display's memory.
 
 
 ### -field ddCaps
@@ -144,7 +144,7 @@ Points to the driver's initialized <a href="https://docs.microsoft.com/windows-h
 
 ### -field lpD3DBufCallbacks
 
-Used only by drivers that want to implement driver level vertex and command buffer allocation. This is usually done for performance reasons. The <b>lpD3DBufCallbacks</b> member is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_d3dbufcallbacks">DD_D3DBUFCALLBACKS</a> structure that the driver fills out with the callbacks used to support driver managed vertex and command buffers. This member should normally be ignored by the driver. 
+Used only by drivers that want to implement driver level vertex and command buffer allocation. This is usually done for performance reasons. The <b>lpD3DBufCallbacks</b> member is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_d3dbufcallbacks">DD_D3DBUFCALLBACKS</a> structure that the driver fills out with the callbacks used to support driver managed vertex and command buffers. This member should normally be ignored by the driver. 
 
 
 ## -remarks
@@ -169,11 +169,11 @@ GDI allocates and zero-initializes the DD_HALINFO structure and passes it to the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-_ddcorecaps">DDCORECAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_d3dbufcallbacks">DD_D3DBUFCALLBACKS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_d3dbufcallbacks">DD_D3DBUFCALLBACKS</a>
 
 
 
@@ -185,7 +185,7 @@ GDI allocates and zero-initializes the DD_HALINFO structure and passes it to the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_videomemoryinfo">VIDEOMEMORYINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-videomemoryinfo">VIDEOMEMORYINFO</a>
  
 
  

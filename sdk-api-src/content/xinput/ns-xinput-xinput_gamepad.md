@@ -8,10 +8,10 @@ tech.root: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_GAMEPAD
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PXINPUT_GAMEPAD, PXINPUT_GAMEPAD, PXINPUT_GAMEPAD structure pointer [XInput Game Controller APIs], XINPUT_GAMEPAD, XINPUT_GAMEPAD structure [XInput Game Controller APIs], xinput.xinput_gamepad, xinput/PXINPUT_GAMEPAD, xinput/XINPUT_GAMEPAD"
+ms.keywords: '*PXINPUT_GAMEPAD, PXINPUT_GAMEPAD, PXINPUT_GAMEPAD structure pointer [XInput Game Controller APIs], XINPUT_GAMEPAD, XINPUT_GAMEPAD structure [XInput Game Controller APIs], xinput.xinput_gamepad, xinput/PXINPUT_GAMEPAD, xinput/XINPUT_GAMEPAD'
 ms.topic: struct
-f1_keywords: 
- - "xinput/XINPUT_GAMEPAD"
+f1_keywords:
+- xinput/XINPUT_GAMEPAD
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - XInput.h
+- XInput.h
 api_name:
- - XINPUT_GAMEPAD
+- XINPUT_GAMEPAD
 product: Windows
 targetos: Windows
 req.typenames: XINPUT_GAMEPAD, *PXINPUT_GAMEPAD
@@ -167,7 +167,7 @@ Right thumbstick y-axis value. The value is between -32768 and 32767.
 
 
 
-This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-_xinput_state">XINPUT_STATE</a> structure when polling for changes in the state of the controller.
+This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_state">XINPUT_STATE</a> structure when polling for changes in the state of the controller.
 
 
 
@@ -186,7 +186,7 @@ The constant XINPUT_GAMEPAD_TRIGGER_THRESHOLD may be used as the value which <i>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-_xinput_state">XINPUT_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_state">XINPUT_STATE</a>
 
 
 

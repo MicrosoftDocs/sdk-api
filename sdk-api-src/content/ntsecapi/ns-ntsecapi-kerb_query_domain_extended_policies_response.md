@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 4BFF08D8-9D5E-4041-9DF6-AAE44292C135
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE structure [Security], KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE_FLAG_DAC_DISABLED, PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE structure pointer [Security], ntsecapi/KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, ntsecapi/PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, security.kerb_query_domain_extended_policies_response"
+ms.keywords: '*PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE structure [Security], KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE_FLAG_DAC_DISABLED, PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE structure pointer [Security], ntsecapi/KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, ntsecapi/PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, security.kerb_query_domain_extended_policies_response'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE"
+f1_keywords:
+- ntsecapi/KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE
+- KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE
 product: Windows
 targetos: Windows
 req.typenames: KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE, *PKERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE
@@ -62,7 +62,7 @@ Contains the results of querying for the extended policies of the specified doma
 ### -field MessageType
 
 A 
-						value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_kerb_protocol_message_type">KERB_PROTOCOL_MESSAGE_TYPE</a> enumeration that lists the types of messages that can be sent to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> authentication package by calling 
+						value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_protocol_message_type">KERB_PROTOCOL_MESSAGE_TYPE</a> enumeration that lists the types of messages that can be sent to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> authentication package by calling 
 the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function. This member must be set to <b>KerbQueryDomainExtendedPoliciesMessage</b>.
 
 

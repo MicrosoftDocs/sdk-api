@@ -8,10 +8,10 @@ tech.root: power
 ms.assetid: 41dca573-a73d-430c-9bd3-083e72aecbdc
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMACHINE_POWER_POLICY, MACHINE_POWER_POLICY, MACHINE_POWER_POLICY structure, PMACHINE_POWER_POLICY, PMACHINE_POWER_POLICY structure pointer, _win32_machine_power_policy_str, base.machine_power_policy_str, powrprof/MACHINE_POWER_POLICY, powrprof/PMACHINE_POWER_POLICY"
+ms.keywords: '*PMACHINE_POWER_POLICY, MACHINE_POWER_POLICY, MACHINE_POWER_POLICY structure, PMACHINE_POWER_POLICY, PMACHINE_POWER_POLICY structure pointer, _win32_machine_power_policy_str, base.machine_power_policy_str, powrprof/MACHINE_POWER_POLICY, powrprof/PMACHINE_POWER_POLICY'
 ms.topic: struct
-f1_keywords: 
- - "powrprof/MACHINE_POWER_POLICY"
+f1_keywords:
+- powrprof/MACHINE_POWER_POLICY
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - PowrProf.h
+- PowrProf.h
 api_name:
- - MACHINE_POWER_POLICY
+- MACHINE_POWER_POLICY
 product: Windows
 targetos: Windows
 req.typenames: MACHINE_POWER_POLICY, *PMACHINE_POWER_POLICY
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Contains computer power policy settings that are unique to each power scheme on the computer. This structure is part of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_power_policy">POWER_POLICY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-power_policy">POWER_POLICY</a> structure.
 
 
 ## -struct-fields
@@ -68,26 +68,26 @@ The current structure revision level. Set this value by calling <a href="https:/
 ### -field MinSleepAc
 
 The minimum system power state (lowest Sx value) to enter on a system sleep action when running on AC power. This member must be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type values.
 
 
 ### -field MinSleepDc
 
 The minimum system power state (lowest Sx value) to enter on a system sleep action when running on battery power. This member must be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type values.
 
 
 ### -field ReducedLatencySleepAc
 
 The maximum system power state (highest Sx value) to enter on a system sleep action when running on AC power, and when there are outstanding latency requirements. This member must be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type values. If an application calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type values. If an application calls 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-requestwakeuplatency">RequestWakeupLatency</a> with LT_LOWEST_LATENCY, <b>ReducedLatencySleepAc</b> is used in place of <b>MaxSleepAc</b>.
 
 
 ### -field ReducedLatencySleepDc
 
 The maximum system power state (highest Sx value) to enter on a system sleep action when running on battery power, and when there are outstanding latency requirements. This member must be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type values. If an application calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type values. If an application calls 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-requestwakeuplatency">RequestWakeupLatency</a> with LT_LOWEST_LATENCY, <b>ReducedLatencySleepAc</b> is used in place of <b>MaxSleepAc</b>.
 
 
@@ -142,7 +142,7 @@ A
 
 
 
-<b>DozeS4TimeoutAc</b> and <b>DozeS4TimeoutDc</b>  correspond to the <b>DozeS4Timeout</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_power_policy">SYSTEM_POWER_POLICY</a>. These values are merged from the machine power policy to the system power policy when the <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-setactivepwrscheme">SetActivePwrScheme</a> function is called to apply a power scheme.
+<b>DozeS4TimeoutAc</b> and <b>DozeS4TimeoutDc</b>  correspond to the <b>DozeS4Timeout</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a>. These values are merged from the machine power policy to the system power policy when the <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-setactivepwrscheme">SetActivePwrScheme</a> function is called to apply a power scheme.
 
 
 
@@ -156,7 +156,7 @@ A
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_power_policy">POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-power_policy">POWER_POLICY</a>
  
 
  

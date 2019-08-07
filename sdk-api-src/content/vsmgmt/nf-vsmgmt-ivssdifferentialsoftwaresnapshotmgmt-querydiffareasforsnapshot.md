@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt interface [VSS],QueryDiffAreasForSnapshot method, IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasForSnapshot, IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForSnapshot, QueryDiffAreasForSnapshot, QueryDiffAreasForSnapshot method [VSS], QueryDiffAreasForSnapshot method [VSS],IVssDifferentialSoftwareSnapshotMgmt interface, base.ivssdifferentialsoftwaresnapshotmgmt_querydiffareasforsnapshot, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForSnapshot
 ms.topic: method
-f1_keywords: 
- - "vsmgmt/IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasForSnapshot"
+f1_keywords:
+- vsmgmt/IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasForSnapshot
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsMgmt.h
+- VsMgmt.h
 api_name:
- - IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasForSnapshot
+- IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasForSnapshot
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -164,9 +164,9 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 The returned <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a> enumerator object 
-    will contain <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-_vss_diff_area_prop">VSS_DIFF_AREA_PROP</a> structures inside the 
+    will contain <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_diff_area_prop">VSS_DIFF_AREA_PROP</a> structures inside the 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001">VSS_MGMT_OBJECT_UNION</a> union inside the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-_vss_mgmt_object_prop">VSS_MGMT_OBJECT_PROP</a> structure.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_mgmt_object_prop">VSS_MGMT_OBJECT_PROP</a> structure.
 
 
 

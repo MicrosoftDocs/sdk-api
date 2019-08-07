@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_SetVideoProcessStreamState, PDXVAHDSW_SetVideoProcessStreamState callback, PDXVAHDSW_SetVideoProcessStreamState callback function [Media Foundation], dxvahd/PDXVAHDSW_SetVideoProcessStreamState, mf.pdxvahdsw_setvideoprocessstreamstate
 ms.topic: callback
-f1_keywords: 
- - "dxvahd/PDXVAHDSW_SetVideoProcessStreamState"
+f1_keywords:
+- dxvahd/PDXVAHDSW_SetVideoProcessStreamState
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - PDXVAHDSW_SetVideoProcessStreamState
+- PDXVAHDSW_SetVideoProcessStreamState
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ The zero-based index of the input stream.
 
 ### -param State [in]
 
-The state parameter to set, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_stream_state">DXVAHD_STREAM_STATE</a> enumeration.
+The state parameter to set, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_stream_state">DXVAHD_STREAM_STATE</a> enumeration.
 
 
 
@@ -106,7 +106,7 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahdsw_callbacks">DXVAHDSW_CALLBACKS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahdsw_callbacks">DXVAHDSW_CALLBACKS</a>
 
 
 

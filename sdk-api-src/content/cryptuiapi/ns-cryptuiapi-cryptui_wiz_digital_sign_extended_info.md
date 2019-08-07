@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: e061aac4-8c9f-4282-a8f8-bc0c5a10e566
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_COMMERCIAL, CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO structure [Security], CRYPTUI_WIZ_DIGITAL_SIGN_INDIVIDUAL, PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO structure pointer [Security], cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, security.cryptui_wiz_digital_sign_extended_info"
+ms.keywords: '*PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_COMMERCIAL, CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO structure [Security], CRYPTUI_WIZ_DIGITAL_SIGN_INDIVIDUAL, PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO structure pointer [Security], cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, security.cryptui_wiz_digital_sign_extended_info'
 ms.topic: struct
-f1_keywords: 
- - "cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO"
+f1_keywords:
+- cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cryptuiapi.h
+- Cryptuiapi.h
 api_name:
- - CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO
+- CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO
 product: Windows
 targetos: Windows
 req.typenames: CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, *PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO
@@ -126,12 +126,12 @@ A handle to an additional certificate store that will be added to the signature.
 
 ### -field psAuthenticated
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attributes">CRYPT_ATTRIBUTES</a> structure that contains authenticated attributes supplied by the user.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attributes">CRYPT_ATTRIBUTES</a> structure that contains authenticated attributes supplied by the user.
 
 
 ### -field psUnauthenticated
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attributes">CRYPT_ATTRIBUTES</a> structure that contains unauthenticated attributes supplied by the user.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attributes">CRYPT_ATTRIBUTES</a> structure that contains unauthenticated attributes supplied by the user.
 
 
 ## -see-also

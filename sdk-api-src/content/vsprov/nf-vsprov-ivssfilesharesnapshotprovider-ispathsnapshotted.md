@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],IsPathSnapshotted method, IVssFileShareSnapshotProvider.IsPathSnapshotted, IVssFileShareSnapshotProvider::IsPathSnapshotted, IsPathSnapshotted, IsPathSnapshotted method [VSS], IsPathSnapshotted method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_ispathsnapshotted, vsprov/IVssFileShareSnapshotProvider::IsPathSnapshotted
 ms.topic: method
-f1_keywords: 
- - "vsprov/IVssFileShareSnapshotProvider.IsPathSnapshotted"
+f1_keywords:
+- vsprov/IVssFileShareSnapshotProvider.IsPathSnapshotted
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssFileShareSnapshotProvider.IsPathSnapshotted
+- IVssFileShareSnapshotProvider.IsPathSnapshotted
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ This parameter receives <b>TRUE</b> if the volume has a shadow copy, or <b>FALSE
 
 ### -param plSnapshotCompatibility [out]
 
-A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_snapshot_compatibility">VSS_SNAPSHOT_COMPATIBILITY</a> values that indicate whether certain volume control or file I/O operations are disabled for the given volume, if the volume has a shadow copy.
+A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_compatibility">VSS_SNAPSHOT_COMPATIBILITY</a> values that indicate whether certain volume control or file I/O operations are disabled for the given volume, if the volume has a shadow copy.
 
 
 ## -returns

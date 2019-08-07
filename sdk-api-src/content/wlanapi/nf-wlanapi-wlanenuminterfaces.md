@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanEnumInterfaces, WlanEnumInterfaces function [NativeWIFI], nwifi.wlanenuminterfaces, wlanapi/WlanEnumInterfaces
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanEnumInterfaces"
+f1_keywords:
+- wlanapi/WlanEnumInterfaces
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
- - Ext-MS-Win-networking-wlanapi-l1-1-0.dll
+- wlanapi.dll
+- Ext-MS-Win-networking-wlanapi-l1-1-0.dll
 api_name:
- - WlanEnumInterfaces
+- WlanEnumInterfaces
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,9 +72,9 @@ Reserved for future use. This parameter must be set to <b>NULL</b>.
 
 ### -param ppInterfaceList [out]
 
-A pointer to storage for a pointer to receive the returned list of wireless LAN interfaces in a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_interface_info_list">WLAN_INTERFACE_INFO_LIST</a> structure.
+A pointer to storage for a pointer to receive the returned list of wireless LAN interfaces in a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_info_list">WLAN_INTERFACE_INFO_LIST</a> structure.
 
-The buffer for the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_interface_info_list">WLAN_INTERFACE_INFO_LIST</a> returned is allocated by the <b>WlanEnumInterfaces</b> function if the call succeeds.
+The buffer for the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_info_list">WLAN_INTERFACE_INFO_LIST</a> returned is allocated by the <b>WlanEnumInterfaces</b> function if the call succeeds.
 
 
 ## -returns
@@ -150,7 +150,7 @@ The <b>WlanEnumInterfaces</b> function allocates memory for the list of returned
 
 #### Examples
 
-The following example enumerates the wireless LAN interfaces on the local computer and prints values from the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_interface_info_list">WLAN_INTERFACE_INFO_LIST</a> structure and the enumerated <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_interface_info">WLAN_INTERFACE_INFO</a> structures.
+The following example enumerates the wireless LAN interfaces on the local computer and prints values from the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_info_list">WLAN_INTERFACE_INFO_LIST</a> structure and the enumerated <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_info">WLAN_INTERFACE_INFO</a> structures.
 
 <div class="alert"><b>Note</b>  This example will fail to load on Windows Server 2008 and Windows Server 2008 R2 if the Wireless LAN Service is not installed and started.</div>
 <div> </div>
@@ -275,11 +275,11 @@ int wmain()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_interface_info">WLAN_INTERFACE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_info">WLAN_INTERFACE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_interface_info_list">WLAN_INTERFACE_INFO_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_info_list">WLAN_INTERFACE_INFO_LIST</a>
 
 
 

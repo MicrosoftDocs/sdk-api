@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ObjectOpenAuditAlarm, ObjectOpenAuditAlarm function [Security], ObjectOpenAuditAlarmA, ObjectOpenAuditAlarmW, _win32_objectopenauditalarm, security.objectopenauditalarm, winbase/ObjectOpenAuditAlarm, winbase/ObjectOpenAuditAlarmA, winbase/ObjectOpenAuditAlarmW
 ms.topic: function
-f1_keywords: 
- - "winbase/ObjectOpenAuditAlarm"
+f1_keywords:
+- winbase/ObjectOpenAuditAlarm
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,22 +30,22 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - KernelBase.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- KernelBase.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - ObjectOpenAuditAlarm
- - ObjectOpenAuditAlarmA
- - ObjectOpenAuditAlarmW
+- ObjectOpenAuditAlarm
+- ObjectOpenAuditAlarmA
+- ObjectOpenAuditAlarmW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -116,7 +116,7 @@ Specifies an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly"
 ### -param Privileges [in, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_privilege_set">PRIVILEGE_SET</a> structure that specifies the set of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privileges</a> required for the access attempt. This parameter can be <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-privilege_set">PRIVILEGE_SET</a> structure that specifies the set of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privileges</a> required for the access attempt. This parameter can be <b>NULL</b>.
 
 
 ### -param ObjectCreation [in]
@@ -201,7 +201,7 @@ The <b>ObjectOpenAuditAlarm</b> function requires the calling application to hav
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_privilege_set">PRIVILEGE_SET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-privilege_set">PRIVILEGE_SET</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PstMapCertificate, PstMapCertificate function [Security], certpoleng/PstMapCertificate, security.pstmapcertificate
 ms.topic: function
-f1_keywords: 
- - "certpoleng/PstMapCertificate"
+f1_keywords:
+- certpoleng/PstMapCertificate
 req.header: certpoleng.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Certpoleng.lib
 req.dll: Certpoleng.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Certpoleng.dll
+- Certpoleng.dll
 api_name:
- - PstMapCertificate
+- PstMapCertificate
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,12 +61,12 @@ Retrieves a structure that specifies information that can be used to create a us
 
 ### -param pCert [in]
 
-A constant pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that specifies the certificate for which to obtain token information.
+A constant pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that specifies the certificate for which to obtain token information.
 
 
 ### -param pTokenInformationType [out]
 
-A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-_lsa_token_information_type">LSA_TOKEN_INFORMATION_TYPE</a> enumeration that indicates the type of structure pointed to by the <i>ppTokenInformation</i> parameter.
+A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-lsa_token_information_type">LSA_TOKEN_INFORMATION_TYPE</a> enumeration that indicates the type of structure pointed to by the <i>ppTokenInformation</i> parameter.
 
 
 ### -param ppTokenInformation [out]

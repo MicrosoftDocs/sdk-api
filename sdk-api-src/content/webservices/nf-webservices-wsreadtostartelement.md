@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsReadToStartElement, WsReadToStartElement function [Web Services for Windows], webservices/WsReadToStartElement, wsw.wsreadtostartelement
 ms.topic: function
-f1_keywords: 
- - "webservices/WsReadToStartElement"
+f1_keywords:
+- webservices/WsReadToStartElement
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsReadToStartElement
+- WsReadToStartElement
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -192,7 +192,7 @@ If <b>WsReadToStartElement</b> indicates an element has been found, then <a href
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsskipnode">WsSkipNode</a> may be used to skip the element and all its children leaving the reader positioned on
-        the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_node">WS_XML_NODE</a> following the corresponding end element.
+        the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_node">WS_XML_NODE</a> following the corresponding end element.
       
 
 This function can fail for any of the reasons listed in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertGetSubjectCertificateFromStore, CertGetSubjectCertificateFromStore function [Security], _crypto2_certgetsubjectcertificatefromstore, security.certgetsubjectcertificatefromstore, wincrypt/CertGetSubjectCertificateFromStore
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertGetSubjectCertificateFromStore"
+f1_keywords:
+- wincrypt/CertGetSubjectCertificateFromStore
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertGetSubjectCertificateFromStore
+- CertGetSubjectCertificateFromStore
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -80,7 +80,7 @@ X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 ### -param pCertId [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure. Only the <b>Issuer</b> and <b>SerialNumber</b> members are used.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure. Only the <b>Issuer</b> and <b>SerialNumber</b> members are used.
 
 
 ## -returns
@@ -88,7 +88,7 @@ A pointer to a
 
 
 If the function succeeds, the function returns a pointer to a read-only 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>. The <b>CERT_CONTEXT</b> must be freed by calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>. The <b>CERT_CONTEXT</b> must be freed by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>.
 
 The returned certificate might not be valid. Usually, it is verified when getting its issuer certificate (<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetissuercertificatefromstore">CertGetIssuerCertificateFromStore</a>).

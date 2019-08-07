@@ -8,10 +8,10 @@ tech.root: Nps
 ms.assetid: d6c36f76-d265-446b-986e-b23d9550ba3b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PIASDOMAINTYPE, DOMAIN_TYPE_MIXED, DOMAIN_TYPE_NONE, DOMAIN_TYPE_NT4, DOMAIN_TYPE_NT5, IASDOMAINTYPE, IASDOMAINTYPE enumeration [Network Policy Server], PIASDOMAINTYPE, PIASDOMAINTYPE enumeration pointer [Network Policy Server], _sdo_iasdomaintype, nps.SDO_iasdomaintype, sdo.iasdomaintype, sdoias/DOMAIN_TYPE_MIXED, sdoias/DOMAIN_TYPE_NONE, sdoias/DOMAIN_TYPE_NT4, sdoias/DOMAIN_TYPE_NT5, sdoias/IASDOMAINTYPE, sdoias/PIASDOMAINTYPE"
+ms.keywords: '*PIASDOMAINTYPE, DOMAIN_TYPE_MIXED, DOMAIN_TYPE_NONE, DOMAIN_TYPE_NT4, DOMAIN_TYPE_NT5, IASDOMAINTYPE, IASDOMAINTYPE enumeration [Network Policy Server], PIASDOMAINTYPE, PIASDOMAINTYPE enumeration pointer [Network Policy Server], _sdo_iasdomaintype, nps.SDO_iasdomaintype, sdo.iasdomaintype, sdoias/DOMAIN_TYPE_MIXED, sdoias/DOMAIN_TYPE_NONE, sdoias/DOMAIN_TYPE_NT4, sdoias/DOMAIN_TYPE_NT5, sdoias/IASDOMAINTYPE, sdoias/PIASDOMAINTYPE'
 ms.topic: enum
-f1_keywords: 
- - "sdoias/IASDOMAINTYPE"
+f1_keywords:
+- sdoias/IASDOMAINTYPE
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - IASDOMAINTYPE
+- IASDOMAINTYPE
 product: Windows
 targetos: Windows
 req.typenames: IASDOMAINTYPE, *PIASDOMAINTYPE
@@ -85,7 +85,7 @@ The SDO computer is part of a Windows domain running in mixed mode.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasostype">IASOSTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasostype">IASOSTYPE</a>
 
 
 

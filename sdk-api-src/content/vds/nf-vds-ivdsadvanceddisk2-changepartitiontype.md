@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChangePartitionType, ChangePartitionType method, ChangePartitionType method,IVdsAdvancedDisk2 interface, IVdsAdvancedDisk2 interface,ChangePartitionType method, IVdsAdvancedDisk2.ChangePartitionType, IVdsAdvancedDisk2::ChangePartitionType, base.ivdsadvanceddisk2_changepartitiontype, vds/IVdsAdvancedDisk2::ChangePartitionType
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsAdvancedDisk2.ChangePartitionType"
+f1_keywords:
+- vds/IVdsAdvancedDisk2.ChangePartitionType
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsAdvancedDisk2.ChangePartitionType
+- IVdsAdvancedDisk2.ChangePartitionType
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ Boolean value that indicates whether change will be forced.
 
 ### -param para [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_change_partition_type_parameters">CHANGE_PARTITION_TYPE_PARAMETERS</a> structure that contains the partition type that the partition at the location specified by the <i>ullOffset</i> parameter will be changed to.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-change_partition_type_parameters">CHANGE_PARTITION_TYPE_PARAMETERS</a> structure that contains the partition type that the partition at the location specified by the <i>ullOffset</i> parameter will be changed to.
 
 
 ## -returns
@@ -205,7 +205,7 @@ The specified partition style does not match that of the disk.
 
 
 
-If an OEM partition is formatted as FAT or FAT32, the partition type does not change. If it is formatted with NTFS, the partition type changes to PARTITION_IFS (0x07). For information about partition types, see <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_create_partition_parameters">CREATE_PARTITION_PARAMETERS</a>.
+If an OEM partition is formatted as FAT or FAT32, the partition type does not change. If it is formatted with NTFS, the partition type changes to PARTITION_IFS (0x07). For information about partition types, see <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-create_partition_parameters">CREATE_PARTITION_PARAMETERS</a>.
 
 
 

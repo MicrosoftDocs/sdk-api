@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TABLECELLPARMS, TABLECELLPARMS structure [Windows Controls], controls.tablecellparms, richedit/TABLECELLPARMS
 ms.topic: struct
-f1_keywords: 
- - "richedit/TABLECELLPARMS"
+f1_keywords:
+- richedit/TABLECELLPARMS
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - TABLECELLPARMS
+- TABLECELLPARMS
 product: Windows
 targetos: Windows
 req.typenames: TABLECELLPARMS
@@ -270,7 +270,7 @@ The content appears at the bottom of a cell.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_tablerowparms">TABLEROWPARMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-tablerowparms">TABLEROWPARMS</a>
  
 
  

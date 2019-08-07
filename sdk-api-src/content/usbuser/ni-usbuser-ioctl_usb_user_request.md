@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_USB_USER_REQUEST, IOCTL_USB_USER_REQUEST control, IOCTL_USB_USER_REQUEST control code [Buses], buses.ioctl_usb_user_request, usbirp_7409a5c0-756e-45ea-b2f5-0b73d91c9225.xml, usbuser/IOCTL_USB_USER_REQUEST
 ms.topic: ioctl
-f1_keywords: 
- - "usbuser/IOCTL_USB_USER_REQUEST"
+f1_keywords:
+- usbuser/IOCTL_USB_USER_REQUEST
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Usbuser.h
+- Usbuser.h
 api_name:
- - IOCTL_USB_USER_REQUEST
+- IOCTL_USB_USER_REQUEST
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,12 +66,12 @@ Do not use this request.
 </dd>
 <dt><a id="USBUSER_GET_CONTROLLER_DRIVER_KEY"></a><a id="usbuser_get_controller_driver_key"></a>USBUSER_GET_CONTROLLER_DRIVER_KEY</dt>
 <dd>
-Reports the host controller driver key in a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_unicode_name">USB_UNICODE_NAME</a>-typed Unicode string. This request is always enabled.
+Reports the host controller driver key in a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_unicode_name">USB_UNICODE_NAME</a>-typed Unicode string. This request is always enabled.
 
 </dd>
 <dt><a id="USBUSER_GET_CONTROLLER_INFO_0"></a><a id="usbuser_get_controller_info_0"></a>USBUSER_GET_CONTROLLER_INFO_0</dt>
 <dd>
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_controller_info_0">USB_CONTROLLER_INFO_0</a> structure that describes the host controller. This request is always enabled.
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_controller_info_0">USB_CONTROLLER_INFO_0</a> structure that describes the host controller. This request is always enabled.
 
 </dd>
 <dt><a id="USBUSER_GET_ROOTPORT_STATUS"></a><a id="usbuser_get_rootport_status"></a>USBUSER_GET_ROOTPORT_STATUS</dt>
@@ -81,7 +81,7 @@ Do not use this request.
 </dd>
 <dt><a id="USBUSER_GET_ROOTHUB_SYMBOLIC_NAME"></a><a id="usbuser_get_roothub_symbolic_name"></a>USBUSER_GET_ROOTHUB_SYMBOLIC_NAME</dt>
 <dd>
-Reports the root hub symbolic name in a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_unicode_name">USB_UNICODE_NAME</a>-typed Unicode string. This request is always enabled.
+Reports the root hub symbolic name in a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_unicode_name">USB_UNICODE_NAME</a>-typed Unicode string. This request is always enabled.
 
 </dd>
 <dt><a id="USBUSER_INVALID_REQUEST"></a><a id="usbuser_invalid_request"></a>USBUSER_INVALID_REQUEST</dt>
@@ -131,22 +131,22 @@ Do not use this request.
 </dd>
 <dt><a id="USBUSER_PASS_THRU"></a><a id="usbuser_pass_thru"></a>USBUSER_PASS_THRU</dt>
 <dd>
-Sends a vendor specific command that is defined by the <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_pass_thru_parameters">USB_PASS_THRU_PARAMETERS</a> structure to the host controller miniport driver. This request is always enabled.
+Sends a vendor specific command that is defined by the <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_pass_thru_parameters">USB_PASS_THRU_PARAMETERS</a> structure to the host controller miniport driver. This request is always enabled.
 
 </dd>
 <dt><a id="USBUSER_GET_BANDWIDTH_INFORMATION"></a><a id="usbuser_get_bandwidth_information"></a>USBUSER_GET_BANDWIDTH_INFORMATION</dt>
 <dd>
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_bandwidth_info">USB_BANDWIDTH_INFO</a> structure that contains information about the allocated bandwidth. This request is always enabled.
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_bandwidth_info">USB_BANDWIDTH_INFO</a> structure that contains information about the allocated bandwidth. This request is always enabled.
 
 </dd>
 <dt><a id="USBUSER_GET_POWER_STATE_MAP"></a><a id="usbuser_get_power_state_map"></a>USBUSER_GET_POWER_STATE_MAP</dt>
 <dd>
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_power_info">USB_POWER_INFO</a> structure that contains information about the power state of the host controller and root hubs. This request is always enabled.
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_power_info">USB_POWER_INFO</a> structure that contains information about the power state of the host controller and root hubs. This request is always enabled.
 
 </dd>
 <dt><a id="USBUSER_GET_BUS_STATISTICS_0"></a><a id="usbuser_get_bus_statistics_0"></a>USBUSER_GET_BUS_STATISTICS_0</dt>
 <dd>
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_bus_statistics_0">USB_BUS_STATISTICS_0</a> structure that contains bus statistics. This request is always enabled.
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_bus_statistics_0">USB_BUS_STATISTICS_0</a> structure that contains bus statistics. This request is always enabled.
 
 </dd>
 <dt><a id="USBUSER_GET_BUS_STATISTICS_0_AND_RESET"></a><a id="usbuser_get_bus_statistics_0_and_reset"></a>USBUSER_GET_BUS_STATISTICS_0_AND_RESET</dt>
@@ -156,7 +156,7 @@ Do not use this request.
 </dd>
 <dt><a id="USBUSER_GET_USB_DRIVER_INFORMATION"></a><a id="usbuser_get_usb_driver_information"></a>USBUSER_GET_USB_DRIVER_INFORMATION</dt>
 <dd>
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_driver_version_parameters">USB_DRIVER_VERSION_PARAMETERS</a> structure that indicates the version of the driver, USB stack, and associated interfaces. This request is always enabled.
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_driver_version_parameters">USB_DRIVER_VERSION_PARAMETERS</a> structure that indicates the version of the driver, USB stack, and associated interfaces. This request is always enabled.
 
 </dd>
 <dt><a id="USBUSER_GET_USB2_HW_VERSION"></a><a id="usbuser_get_usb2_hw_version"></a>USBUSER_GET_USB2_HW_VERSION</dt>
@@ -173,17 +173,17 @@ Do not use this request.
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a user request header structure (<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usbuser_request_header">USBUSER_REQUEST_HEADER</a>) that defines the request. Following the header structure is a structure that holds the parameters of the request. For more information about the parameter structures that correspond to each request, see the description of each request.
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a user request header structure (<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usbuser_request_header">USBUSER_REQUEST_HEADER</a>) that defines the request. Following the header structure is a structure that holds the parameters of the request. For more information about the parameter structures that correspond to each request, see the description of each request.
 
 
 ### -input-buffer-length
 
-The size of a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usbuser_request_header">USBUSER_REQUEST_HEADER</a> structure.
+The size of a <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usbuser_request_header">USBUSER_REQUEST_HEADER</a> structure.
 
 
 ### -output-buffer
 
-A parameter structure immediately follows the <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usbuser_request_header">USBUSER_REQUEST_HEADER</a> structure at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. For some user requests, the parameter structure will contain output data when the request completes.
+A parameter structure immediately follows the <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usbuser_request_header">USBUSER_REQUEST_HEADER</a> structure at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. For some user requests, the parameter structure will contain output data when the request completes.
 
 
 ### -output-buffer-length
@@ -219,31 +219,31 @@ The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the reque
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usbuser_request_header">USBUSER_REQUEST_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usbuser_request_header">USBUSER_REQUEST_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_bandwidth_info">USB_BANDWIDTH_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_bandwidth_info">USB_BANDWIDTH_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_controller_info_0">USB_CONTROLLER_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_controller_info_0">USB_CONTROLLER_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_driver_version_parameters">USB_DRIVER_VERSION_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_driver_version_parameters">USB_DRIVER_VERSION_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_pass_thru_parameters">USB_PASS_THRU_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_pass_thru_parameters">USB_PASS_THRU_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_power_info">USB_POWER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_power_info">USB_POWER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_unicode_name">USB_UNICODE_NAME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_unicode_name">USB_UNICODE_NAME</a>
  
 
  

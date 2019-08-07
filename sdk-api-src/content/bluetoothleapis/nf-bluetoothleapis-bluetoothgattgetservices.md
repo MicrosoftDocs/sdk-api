@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTGetServices, BluetoothGATTGetServices function [Bluetooth Devices], bltooth.bluetoothgattgetservices, bluetoothleapis/BluetoothGATTGetServices
 ms.topic: function
-f1_keywords: 
- - "bluetoothleapis/BluetoothGATTGetServices"
+f1_keywords:
+- bluetoothleapis/BluetoothGATTGetServices
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal
@@ -30,15 +30,15 @@ req.lib: BluetoothAPIs.lib
 req.dll: BluetoothAPIs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - BluetoothAPIs.dll
- - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+- BluetoothAPIs.dll
+- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
- - BluetoothGATTGetServices
+- BluetoothGATTGetServices
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ The number of elements allocated for the <i>ServicesBuffer</i> parameter.
 
 ### -param ServicesBuffer [out, optional]
 
-Pointer to buffer containing a <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-_bth_le_gatt_service">BTH_LE_GATT_SERVICE</a> structure into which to return services.
+Pointer to buffer containing a <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_service">BTH_LE_GATT_SERVICE</a> structure into which to return services.
 
 
 ### -param ServicesBufferActual [out]
@@ -288,7 +288,7 @@ Do not modify the returned service structure,
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-_bth_le_gatt_service">BTH_LE_GATT_SERVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_service">BTH_LE_GATT_SERVICE</a>
  
 
  

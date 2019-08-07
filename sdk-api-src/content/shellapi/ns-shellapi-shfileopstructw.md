@@ -8,10 +8,10 @@ tech.root: shell
 ms.assetid: 590d87c2-0c75-44b9-a9b5-f7c37728512b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSHFILEOPSTRUCTW, FOF_ALLOWUNDO, FOF_CONFIRMMOUSE, FOF_FILESONLY, FOF_MULTIDESTFILES, FOF_NOCONFIRMATION, FOF_NOCONFIRMMKDIR, FOF_NOCOPYSECURITYATTRIBS, FOF_NOERRORUI, FOF_NORECURSEREPARSE, FOF_NORECURSION, FOF_NO_CONNECTED_ELEMENTS, FOF_NO_UI, FOF_RENAMEONCOLLISION, FOF_SILENT, FOF_SIMPLEPROGRESS, FOF_WANTMAPPINGHANDLE, FOF_WANTNUKEWARNING, FO_COPY, FO_DELETE, FO_MOVE, FO_RENAME, LPSHFILEOPSTRUCT, LPSHFILEOPSTRUCT structure pointer [Windows Shell], SHFILEOPSTRUCT, SHFILEOPSTRUCT structure [Windows Shell], SHFILEOPSTRUCTW, _win32_SHFILEOPSTRUCT, shell.SHFILEOPSTRUCT, shellapi/LPSHFILEOPSTRUCT, shellapi/SHFILEOPSTRUCT"
+ms.keywords: '*LPSHFILEOPSTRUCTW, FOF_ALLOWUNDO, FOF_CONFIRMMOUSE, FOF_FILESONLY, FOF_MULTIDESTFILES, FOF_NOCONFIRMATION, FOF_NOCONFIRMMKDIR, FOF_NOCOPYSECURITYATTRIBS, FOF_NOERRORUI, FOF_NORECURSEREPARSE, FOF_NORECURSION, FOF_NO_CONNECTED_ELEMENTS, FOF_NO_UI, FOF_RENAMEONCOLLISION, FOF_SILENT, FOF_SIMPLEPROGRESS, FOF_WANTMAPPINGHANDLE, FOF_WANTNUKEWARNING, FO_COPY, FO_DELETE, FO_MOVE, FO_RENAME, LPSHFILEOPSTRUCT, LPSHFILEOPSTRUCT structure pointer [Windows Shell], SHFILEOPSTRUCT, SHFILEOPSTRUCT structure [Windows Shell], SHFILEOPSTRUCTW, _win32_SHFILEOPSTRUCT, shell.SHFILEOPSTRUCT, shellapi/LPSHFILEOPSTRUCT, shellapi/SHFILEOPSTRUCT'
 ms.topic: struct
-f1_keywords: 
- - "shellapi/SHFILEOPSTRUCT"
+f1_keywords:
+- shellapi/SHFILEOPSTRUCT
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shellapi.h
+- Shellapi.h
 api_name:
- - SHFILEOPSTRUCT
+- SHFILEOPSTRUCT
 product: Windows
 targetos: Windows
 req.typenames: SHFILEOPSTRUCTW, *LPSHFILEOPSTRUCTW
@@ -434,7 +434,7 @@ There are two versions of this structure, an ANSI version (SHFILEOPSTRUCTA) and 
                 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shnamemappinga">SHNAMEMAPPING</a> has similar ANSI and Unicode versions. For ANSI applications, <b>hNameMappings</b> points to an <b>int</b> followed by an array of ANSI <b>SHNAMEMAPPING</b> structures. For Unicode applications, <b>hNameMappings</b> points to an <b>int</b> followed by an array of Unicode <b>SHNAMEMAPPING</b> structures. However, on Microsoft Windows NT 4.0 and later, <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> <i>always</i> returns a handle to a Unicode set of <b>SHNAMEMAPPING</b> structures. If you want applications to be functional with all versions of Windows, the application must employ conditional code to deal with name mappings. For example:
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shnamemappinga">SHNAMEMAPPING</a> has similar ANSI and Unicode versions. For ANSI applications, <b>hNameMappings</b> points to an <b>int</b> followed by an array of ANSI <b>SHNAMEMAPPING</b> structures. For Unicode applications, <b>hNameMappings</b> points to an <b>int</b> followed by an array of Unicode <b>SHNAMEMAPPING</b> structures. However, on Microsoft Windows NT 4.0 and later, <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> <i>always</i> returns a handle to a Unicode set of <b>SHNAMEMAPPING</b> structures. If you want applications to be functional with all versions of Windows, the application must employ conditional code to deal with name mappings. For example:
 
 
 ```cpp
@@ -448,7 +448,7 @@ else
 ```
 
 
-Treat <b>hNameMappings</b> as a pointer to a structure whose members are a <b>UINT</b> value followed by a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shnamemappinga">SHNAMEMAPPING</a> structures, as seen in its declaration:
+Treat <b>hNameMappings</b> as a pointer to a structure whose members are a <b>UINT</b> value followed by a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shnamemappinga">SHNAMEMAPPING</a> structures, as seen in its declaration:
 
 				
 
@@ -463,7 +463,7 @@ struct HANDLETOMAPPINGS
 ```
 
 
-The <b>UINT</b> value indicates the number of <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shnamemappinga">SHNAMEMAPPING</a> structures in the array. Each <b>SHNAMEMAPPING</b> structure contains the old and new path for one of the renamed files.
+The <b>UINT</b> value indicates the number of <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shnamemappinga">SHNAMEMAPPING</a> structures in the array. Each <b>SHNAMEMAPPING</b> structure contains the old and new path for one of the renamed files.
 
 <div class="alert"><b>Note</b>  The handle must be freed with <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfreenamemappings">SHFreeNameMappings</a>.</div>
 <div> </div>

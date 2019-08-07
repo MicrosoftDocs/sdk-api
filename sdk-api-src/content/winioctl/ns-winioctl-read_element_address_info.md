@@ -8,10 +8,10 @@ tech.root: devio
 ms.assetid: 2b7e611b-7db6-4ba6-ae1f-4269a96dbb16
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PREAD_ELEMENT_ADDRESS_INFO, PREAD_ELEMENT_ADDRESS_INFO, PREAD_ELEMENT_ADDRESS_INFO structure pointer, READ_ELEMENT_ADDRESS_INFO, READ_ELEMENT_ADDRESS_INFO structure, _win32_read_element_address_info_str, base.read_element_address_info_str, winioctl/PREAD_ELEMENT_ADDRESS_INFO, winioctl/READ_ELEMENT_ADDRESS_INFO"
+ms.keywords: '*PREAD_ELEMENT_ADDRESS_INFO, PREAD_ELEMENT_ADDRESS_INFO, PREAD_ELEMENT_ADDRESS_INFO structure pointer, READ_ELEMENT_ADDRESS_INFO, READ_ELEMENT_ADDRESS_INFO structure, _win32_read_element_address_info_str, base.read_element_address_info_str, winioctl/PREAD_ELEMENT_ADDRESS_INFO, winioctl/READ_ELEMENT_ADDRESS_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/READ_ELEMENT_ADDRESS_INFO"
+f1_keywords:
+- winioctl/READ_ELEMENT_ADDRESS_INFO
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - READ_ELEMENT_ADDRESS_INFO
+- READ_ELEMENT_ADDRESS_INFO
 product: Windows
 targetos: Windows
 req.typenames: READ_ELEMENT_ADDRESS_INFO, *PREAD_ELEMENT_ADDRESS_INFO
@@ -68,7 +68,7 @@ The number of elements matching criteria set forth by the <b>ActionCode</b> memb
 
 
 For information on compatibility with the current device, see the <b>Features0</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_get_changer_parameters">GET_CHANGER_PARAMETERS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-get_changer_parameters">GET_CHANGER_PARAMETERS</a>.
 
 
 ### -field ElementStatus

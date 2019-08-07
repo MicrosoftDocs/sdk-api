@@ -8,10 +8,10 @@ tech.root: VDS
 ms.assetid: e4cdab29-2bb7-4754-9ac8-d6f088910b0d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVDS_VDISK_PROPERTIES, PVDS_VDISK_PROPERTIES, PVDS_VDISK_PROPERTIES structure pointer, VDS_VDISK_PROPERTIES, VDS_VDISK_PROPERTIES structure, base.vds_vdisk_properties, vds/PVDS_VDISK_PROPERTIES, vds/VDS_VDISK_PROPERTIES"
+ms.keywords: '*PVDS_VDISK_PROPERTIES, PVDS_VDISK_PROPERTIES, PVDS_VDISK_PROPERTIES structure pointer, VDS_VDISK_PROPERTIES, VDS_VDISK_PROPERTIES structure, base.vds_vdisk_properties, vds/PVDS_VDISK_PROPERTIES, vds/VDS_VDISK_PROPERTIES'
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_VDISK_PROPERTIES"
+f1_keywords:
+- vds/VDS_VDISK_PROPERTIES
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - VDS_VDISK_PROPERTIES
+- VDS_VDISK_PROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: VDS_VDISK_PROPERTIES, *PVDS_VDISK_PROPERTIES
@@ -68,7 +68,7 @@ Unique VDS-specific session identifier of the disk.
 
 ### -field State
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_vdisk_state">VDS_VDISK_STATE</a> enumeration value that specifies the virtual disk state.
+A <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_vdisk_state">VDS_VDISK_STATE</a> enumeration value that specifies the virtual disk state.
 
 
 ### -field VirtualDeviceType

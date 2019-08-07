@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPOpenEnum, NPOpenEnum function [Security], RESOURCETYPE_DISK, RESOURCETYPE_PRINT, RESOURCEUSAGE_ATTACHED, RESOURCEUSAGE_CONNECTABLE, RESOURCEUSAGE_CONTAINER, RESOURCE_CONNECTED, RESOURCE_CONTEXT, RESOURCE_GLOBALNET, _mnp_npopenenum, npapi/NPOpenEnum, security.npopenenum
 ms.topic: function
-f1_keywords: 
- - "npapi/NPOpenEnum"
+f1_keywords:
+- npapi/NPOpenEnum
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - NPOpenEnum
+- NPOpenEnum
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -198,7 +198,7 @@ The bitmask may be zero to match all of the flags. This parameter may be ignored
 ### -param lpNetResource [in]
 
 Pointer to the container to perform the enumeration. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_netresourcea">NETRESOURCE</a> could have been obtained through a previous <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a> call, or constructed by the caller, or it can be <b>NULL</b>. If it is <b>NULL</b> or if the <b>lpRemoteName</b> field of the <b>NETRESOURCE</b> is <b>NULL</b>, the provider should enumerate the top level of its network. Note that this means a provider cannot use an <b>lpRemoteName</b> of <b>NULL</b> to represent any network resource. A caller would normally start off by calling <b>NPOpenEnum</b> with this parameter set to <b>NULL</b> and then use the returned results for further enumeration. If the calling program knows exactly the provider and remote path to enumerate from, it may build its own <b>NETRESOURCE</b> structure to pass in, filling in the <b>lpProvider</b> and <b>lpRemoteName</b> fields. Note that if <i>dwScope</i> is RESOURCE_CONNECTED or RESOURCE_CONTEXT, this parameter will be <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> could have been obtained through a previous <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a> call, or constructed by the caller, or it can be <b>NULL</b>. If it is <b>NULL</b> or if the <b>lpRemoteName</b> field of the <b>NETRESOURCE</b> is <b>NULL</b>, the provider should enumerate the top level of its network. Note that this means a provider cannot use an <b>lpRemoteName</b> of <b>NULL</b> to represent any network resource. A caller would normally start off by calling <b>NPOpenEnum</b> with this parameter set to <b>NULL</b> and then use the returned results for further enumeration. If the calling program knows exactly the provider and remote path to enumerate from, it may build its own <b>NETRESOURCE</b> structure to pass in, filling in the <b>lpProvider</b> and <b>lpRemoteName</b> fields. Note that if <i>dwScope</i> is RESOURCE_CONNECTED or RESOURCE_CONTEXT, this parameter will be <b>NULL</b>.
 
 
 ### -param lphEnum [out]

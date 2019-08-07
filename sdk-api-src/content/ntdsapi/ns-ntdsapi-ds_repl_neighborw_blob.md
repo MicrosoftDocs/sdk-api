@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_NBR_COMPRESS_CHANGES, DS_REPL_NBR_DO_SCHEDULED_SYNCS, DS_REPL_NBR_FULL_SYNC_IN_PROGRESS, DS_REPL_NBR_FULL_SYNC_NEXT_PACKET, DS_REPL_NBR_NEVER_SYNCED, DS_REPL_NBR_NO_CHANGE_NOTIFICATIONS, DS_REPL_NBR_SYNC_ON_STARTUP, DS_REPL_NBR_TWO_WAY_SYNC, DS_REPL_NBR_USE_ASYNC_INTERSITE_TRANSPORT, DS_REPL_NBR_WRITEABLE, DS_REPL_NEIGHBORW_BLOB, DS_REPL_NEIGHBORW_BLOB structure [Active Directory], ad.ds_repl_neighborw_blob, ntdsapi/DS_REPL_NEIGHBORW_BLOB
 ms.topic: struct
-f1_keywords: 
- - "ntdsapi/DS_REPL_NEIGHBORW_BLOB"
+f1_keywords:
+- ntdsapi/DS_REPL_NEIGHBORW_BLOB
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntdsapi.h
+- Ntdsapi.h
 api_name:
- - DS_REPL_NEIGHBORW_BLOB
+- DS_REPL_NEIGHBORW_BLOB
 product: Windows
 targetos: Windows
 req.typenames: DS_REPL_NEIGHBORW_BLOB
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DS_REPL_NEIGHBORW_BLOB</b> structure contains  inbound replication state data for a particular naming context and source server pair. This structure is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_neighborw">DS_REPL_NEIGHBOR</a> structure, but is obtained from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a> functions when obtaining binary data for the <b>msDS-NCReplInboundNeighbors</b> attribute.
+The <b>DS_REPL_NEIGHBORW_BLOB</b> structure contains  inbound replication state data for a particular naming context and source server pair. This structure is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_neighborw">DS_REPL_NEIGHBOR</a> structure, but is obtained from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a> functions when obtaining binary data for the <b>msDS-NCReplInboundNeighbors</b> attribute.
 
 
 ## -struct-fields
@@ -204,7 +204,7 @@ Contains the number of failed replication attempts that have been made from this
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_neighborw">DS_REPL_NEIGHBOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_neighborw">DS_REPL_NEIGHBOR</a>
 
 
 

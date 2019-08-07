@@ -8,10 +8,10 @@ tech.root: DevNotes
 ms.assetid: 238c7de7-4bf1-4974-8a6f-09e4d5f756ab
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PAVRF_HEAP_ALLOCATION, AVRF_HEAP_ALLOCATION, AVRF_HEAP_ALLOCATION structure [Windows API], avrfsdk/AVRF_HEAP_ALLOCATION, base.avrf_heap_allocation, winprog.avrf_heap_allocation"
+ms.keywords: '*PAVRF_HEAP_ALLOCATION, AVRF_HEAP_ALLOCATION, AVRF_HEAP_ALLOCATION structure [Windows API], avrfsdk/AVRF_HEAP_ALLOCATION, base.avrf_heap_allocation, winprog.avrf_heap_allocation'
 ms.topic: struct
-f1_keywords: 
- - "avrfsdk/AVRF_HEAP_ALLOCATION"
+f1_keywords:
+- avrfsdk/AVRF_HEAP_ALLOCATION
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Avrfsdk.h
+- Avrfsdk.h
 api_name:
- - AVRF_HEAP_ALLOCATION
+- AVRF_HEAP_ALLOCATION
 product: Windows
 targetos: Windows
 req.typenames: AVRF_HEAP_ALLOCATION, *PAVRF_HEAP_ALLOCATION
@@ -101,7 +101,7 @@ The context of the heap currently allocated.
 
 ### -field BackTraceInformation
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ns-avrfsdk-_avrf_backtrace_information">AVRF_BACKTRACE_INFORMATION</a> structure containing information about the last operation that occurred on the allocation. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ns-avrfsdk-avrf_backtrace_information">AVRF_BACKTRACE_INFORMATION</a> structure containing information about the last operation that occurred on the allocation. 
 
 When available, it can be the stack backtrace of the place where the address specified in the <b>UserAllocation</b> member of the structure was allocated (if <b>UserAllocationState</b> is <b>AllocationstateBusy</b>) or where the address specified in the <b>UserAllocation</b> member was freed (if <b>UserAllocationState</b> is <b>AllocationStateFree</b>).
 

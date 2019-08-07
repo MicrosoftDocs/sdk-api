@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNLSVersionEx, GetNLSVersionEx function [Internationalization for Windows Applications], _win32_GetNLSVersionEx, intl.getnlsversionex, winnls/GetNLSVersionEx
 ms.topic: function
-f1_keywords: 
- - "winnls/GetNLSVersionEx"
+f1_keywords:
+- winnls/GetNLSVersionEx
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - GetNLSVersionEx
+- GetNLSVersionEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -91,7 +91,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-nam
 
 ### -param lpVersionInformation [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_nlsversioninfoex">NLSVERSIONINFOEX</a> structure. The application must initialize the <b>dwNLSVersionInfoSize</b> member to <code> sizeof(NLSVERSIONINFOEX)</code>. 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a> structure. The application must initialize the <b>dwNLSVersionInfoSize</b> member to <code> sizeof(NLSVERSIONINFOEX)</code>. 
 
 <div class="alert"><b>Note</b>  On Windows Vista and later, the function can alternatively provide version information in an <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_nlsversioninfo">NLSVERSIONINFO</a> structure.</div>
 <div> </div>
@@ -117,7 +117,7 @@ Returns <b>TRUE</b> if and only if the application has supplied valid values in 
 This function allows an application such as Active Directory to determine if an NLS change affects the locale used for a particular index table. If it does not, there is no need to re-index the table. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>. In particular, to tell if a sort version changed and you need to reindex:
 
 <ol>
-<li>Use <b>GetNLSVersionEx</b> to retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_nlsversioninfoex">NLSVERSIONINFOEX</a> structure when doing the original indexing of your data.</li>
+<li>Use <b>GetNLSVersionEx</b> to retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a> structure when doing the original indexing of your data.</li>
 <li>Store the following properties with your index to identify the version:<ul>
 <li><b>NLSVERSIONINFOEX.dwNLSVersion</b>. This specifies the version of the sorting table you're using.</li>
 <li><b>NLSVERSIONINFOEX.dwEffectiveId</b>. This specifies the effective locale of your sort. A custom locale will point to an in-box locale's sort.</li>
@@ -158,7 +158,7 @@ This function supports <a href="https://docs.microsoft.com/windows/desktop/Intl/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_nlsversioninfoex">NLSVERSIONINFOEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPartitionFileSystemProperties, GetPartitionFileSystemProperties method, GetPartitionFileSystemProperties method,IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface,GetPartitionFileSystemProperties method, IVdsDiskPartitionMF.GetPartitionFileSystemProperties, IVdsDiskPartitionMF::GetPartitionFileSystemProperties, base.ivdsdiskpartitionmf_getpartitionfilesystemproperties, vds/IVdsDiskPartitionMF::GetPartitionFileSystemProperties
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsDiskPartitionMF.GetPartitionFileSystemProperties"
+f1_keywords:
+- vds/IVdsDiskPartitionMF.GetPartitionFileSystemProperties
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsDiskPartitionMF.GetPartitionFileSystemProperties
+- IVdsDiskPartitionMF.GetPartitionFileSystemProperties
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ Byte offset of the partition from the beginning of the disk.  This offset must b
 
 ### -param pFileSystemProp [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_file_system_prop">VDS_FILE_SYSTEM_PROP</a> structure that upon successful completion receives the properties of the file system volume on the partition.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_file_system_prop">VDS_FILE_SYSTEM_PROP</a> structure that upon successful completion receives the properties of the file system volume on the partition.
 
 
 ## -returns

@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 3b088c94-810b-44c7-887a-58e8dbd13603
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PKERB_RETRIEVE_TKT_REQUEST, >127, KERB_ETYPE_DES_CBC_CRC, KERB_ETYPE_DES_CBC_MD4, KERB_ETYPE_DES_CBC_MD5, KERB_ETYPE_NULL, KERB_ETYPE_RC4_HMAC_NT, KERB_ETYPE_RC4_MD4, KERB_RETRIEVE_TICKET_AS_KERB_CRED, KERB_RETRIEVE_TICKET_CACHE_TICKET, KERB_RETRIEVE_TICKET_DONT_USE_CACHE, KERB_RETRIEVE_TICKET_MAX_LIFETIME, KERB_RETRIEVE_TICKET_USE_CACHE_ONLY, KERB_RETRIEVE_TICKET_USE_CREDHANDLE, KERB_RETRIEVE_TICKET_WITH_SEC_CRED, KERB_RETRIEVE_TKT_REQUEST, KERB_RETRIEVE_TKT_REQUEST structure [Security], PKERB_RETRIEVE_TKT_REQUEST, PKERB_RETRIEVE_TKT_REQUEST structure pointer [Security], _lsa_kerb_retrieve_tkt_request, ntsecapi/KERB_RETRIEVE_TKT_REQUEST, ntsecapi/PKERB_RETRIEVE_TKT_REQUEST, security.kerb_retrieve_tkt_request"
+ms.keywords: '*PKERB_RETRIEVE_TKT_REQUEST, >127, KERB_ETYPE_DES_CBC_CRC, KERB_ETYPE_DES_CBC_MD4, KERB_ETYPE_DES_CBC_MD5, KERB_ETYPE_NULL, KERB_ETYPE_RC4_HMAC_NT, KERB_ETYPE_RC4_MD4, KERB_RETRIEVE_TICKET_AS_KERB_CRED, KERB_RETRIEVE_TICKET_CACHE_TICKET, KERB_RETRIEVE_TICKET_DONT_USE_CACHE, KERB_RETRIEVE_TICKET_MAX_LIFETIME, KERB_RETRIEVE_TICKET_USE_CACHE_ONLY, KERB_RETRIEVE_TICKET_USE_CREDHANDLE, KERB_RETRIEVE_TICKET_WITH_SEC_CRED, KERB_RETRIEVE_TKT_REQUEST, KERB_RETRIEVE_TKT_REQUEST structure [Security], PKERB_RETRIEVE_TKT_REQUEST, PKERB_RETRIEVE_TKT_REQUEST structure pointer [Security], _lsa_kerb_retrieve_tkt_request, ntsecapi/KERB_RETRIEVE_TKT_REQUEST, ntsecapi/PKERB_RETRIEVE_TKT_REQUEST, security.kerb_retrieve_tkt_request'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/KERB_RETRIEVE_TKT_REQUEST"
+f1_keywords:
+- ntsecapi/KERB_RETRIEVE_TKT_REQUEST
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - KERB_RETRIEVE_TKT_REQUEST
+- KERB_RETRIEVE_TKT_REQUEST
 product: Windows
 targetos: Windows
 req.typenames: KERB_RETRIEVE_TKT_REQUEST, *PKERB_RETRIEVE_TKT_REQUEST
@@ -65,19 +65,19 @@ It is used by
 ### -field MessageType
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_kerb_protocol_message_type">KERB_PROTOCOL_MESSAGE_TYPE</a> value indicating the type of request being made. This member must be set to <b>KerbRetrieveEncodedTicketMessage</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_protocol_message_type">KERB_PROTOCOL_MESSAGE_TYPE</a> value indicating the type of request being made. This member must be set to <b>KerbRetrieveEncodedTicketMessage</b>.
 
 
 ### -field LogonId
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> structure containing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a> identifier. This can be zero for the current user's logon session. If not zero, the caller must have the SeTcbPrivilege privilege set. If this fails, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> authentication package sets the <i>ProtocolStatus</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> to STATUS_ACCESS_DENIED.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure containing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a> identifier. This can be zero for the current user's logon session. If not zero, the caller must have the SeTcbPrivilege privilege set. If this fails, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> authentication package sets the <i>ProtocolStatus</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> to STATUS_ACCESS_DENIED.
 
 
 ### -field TargetName
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the name of the target service.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the name of the target service.
 
 
 ### -field TicketFlags

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GCM_RIGHTMOUSEDROP, GetContextMenu, GetContextMenu method [Windows Controls], GetContextMenu method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],GetContextMenu method, IRichEditOleCallback.GetContextMenu, IRichEditOleCallback::GetContextMenu, SEL_EMPTY, SEL_MULTICHAR, SEL_MULTIOBJECT, SEL_OBJECT, SEL_TEXT, _win32_IRichEditOleCallback_GetContextMenu, _win32_IRichEditOleCallback_GetContextMenu_cpp, controls.IRichEditOleCallback_GetContextMenu, controls._win32_IRichEditOleCallback_GetContextMenu, richole/IRichEditOleCallback::GetContextMenu
 ms.topic: method
-f1_keywords: 
- - "richole/IRichEditOleCallback.GetContextMenu"
+f1_keywords:
+- richole/IRichEditOleCallback.GetContextMenu
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - IRichEditOleCallback.GetContextMenu
+- IRichEditOleCallback.GetContextMenu
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -150,9 +150,9 @@ Pointer to an interface. If the
 
 ### -param lpchrg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_charrange">CHARRANGE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_charrange">CHARRANGE</a> structure containing the current selection. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a> structure containing the current selection. 
 
 
 ### -param lphmenu
@@ -206,11 +206,11 @@ When the user selects an item from the context window, a <a href="https://docs.m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_charrange">CHARRANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_getcontextmenuex">GETCONTEXTMENUEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-getcontextmenuex">GETCONTEXTMENUEX</a>
 
 
 

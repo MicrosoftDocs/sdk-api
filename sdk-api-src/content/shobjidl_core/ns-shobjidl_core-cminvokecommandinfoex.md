@@ -8,10 +8,10 @@ tech.root: shell
 ms.assetid: c4c7f053-fdb1-4bba-9eb9-a514ce1d90f6
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPCMINVOKECOMMANDINFOEX, CMIC_MASK_ASYNCOK, CMIC_MASK_CONTROL_DOWN, CMIC_MASK_FLAG_LOG_USAGE, CMIC_MASK_FLAG_NO_UI, CMIC_MASK_FLAG_SEP_VDM, CMIC_MASK_HASLINKNAME, CMIC_MASK_HASTITLE, CMIC_MASK_HOTKEY, CMIC_MASK_ICON, CMIC_MASK_NOASYNC, CMIC_MASK_NOZONECHECKS, CMIC_MASK_NO_CONSOLE, CMIC_MASK_PTINVOKE, CMIC_MASK_SHIFT_DOWN, CMIC_MASK_UNICODE, CMINVOKECOMMANDINFOEX, CMINVOKECOMMANDINFOEX structure [Windows Shell], LPCMINVOKECOMMANDINFOEX, LPCMINVOKECOMMANDINFOEX structure pointer [Windows Shell], _CMINVOKECOMMANDINFOEX, _win32_CmInvokeCommandInfoEx, shell.CmInvokeCommandInfoEx, shobjidl_core/CMINVOKECOMMANDINFOEX, shobjidl_core/LPCMINVOKECOMMANDINFOEX"
+ms.keywords: '*LPCMINVOKECOMMANDINFOEX, CMIC_MASK_ASYNCOK, CMIC_MASK_CONTROL_DOWN, CMIC_MASK_FLAG_LOG_USAGE, CMIC_MASK_FLAG_NO_UI, CMIC_MASK_FLAG_SEP_VDM, CMIC_MASK_HASLINKNAME, CMIC_MASK_HASTITLE, CMIC_MASK_HOTKEY, CMIC_MASK_ICON, CMIC_MASK_NOASYNC, CMIC_MASK_NOZONECHECKS, CMIC_MASK_NO_CONSOLE, CMIC_MASK_PTINVOKE, CMIC_MASK_SHIFT_DOWN, CMIC_MASK_UNICODE, CMINVOKECOMMANDINFOEX, CMINVOKECOMMANDINFOEX structure [Windows Shell], LPCMINVOKECOMMANDINFOEX, LPCMINVOKECOMMANDINFOEX structure pointer [Windows Shell], _CMINVOKECOMMANDINFOEX, _win32_CmInvokeCommandInfoEx, shell.CmInvokeCommandInfoEx, shobjidl_core/CMINVOKECOMMANDINFOEX, shobjidl_core/LPCMINVOKECOMMANDINFOEX'
 ms.topic: struct
-f1_keywords: 
- - "shobjidl_core/CMINVOKECOMMANDINFOEX"
+f1_keywords:
+- shobjidl_core/CMINVOKECOMMANDINFOEX
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - CMINVOKECOMMANDINFOEX
+- CMINVOKECOMMANDINFOEX
 product: Windows
 targetos: Windows
 req.typenames: CMINVOKECOMMANDINFOEX
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains extended information about a shortcut menu command. This structure is an extended version of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-_cminvokecommandinfo">CMINVOKECOMMANDINFO</a> that allows the use of Unicode values.
+Contains extended information about a shortcut menu command. This structure is an extended version of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfo">CMINVOKECOMMANDINFO</a> that allows the use of Unicode values.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ Contains extended information about a shortcut menu command. This structure is a
 
 Type: <b>DWORD</b>
 
-The size of this structure, in bytes. This member should be filled in by callers of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> and tested by the implementations to know that the structure is a <b>CMINVOKECOMMANDINFOEX</b> structure rather than <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-_cminvokecommandinfo">CMINVOKECOMMANDINFO</a>.
+The size of this structure, in bytes. This member should be filled in by callers of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> and tested by the implementations to know that the structure is a <b>CMINVOKECOMMANDINFOEX</b> structure rather than <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfo">CMINVOKECOMMANDINFO</a>.
       
 
 
@@ -299,7 +299,7 @@ The point where the command is invoked. If the <b>fMask</b> member does not spec
 
 
 
-Although the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> declaration specifies a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-_cminvokecommandinfo">CMINVOKECOMMANDINFO</a> structure for the <i>pici</i> parameter, it can also accept a <b>CMINVOKECOMMANDINFOEX</b> structure. If you are implementing this method, you must inspect <b>cbSize</b> to determine which structure has been passed. 
+Although the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> declaration specifies a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfo">CMINVOKECOMMANDINFO</a> structure for the <i>pici</i> parameter, it can also accept a <b>CMINVOKECOMMANDINFOEX</b> structure. If you are implementing this method, you must inspect <b>cbSize</b> to determine which structure has been passed. 
 			
 
 By default, all 16-bit Windows-based applications run as threads in a single, shared VDM. The advantage of running separately is that a crash only terminates the single VDM; any other programs running in distinct VDMs continue to function normally. Also, 16-bit Windows-based applications that are run in separate VDMs have separate input queues. That means that if one application stops responding momentarily, applications in separate VDMs continue to receive input. The disadvantage of running separately is that it takes significantly more memory to do so.

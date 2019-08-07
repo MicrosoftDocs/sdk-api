@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: cf37eb34-ee90-43c6-97a9-c5edfcba2bc5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTOKEN_MANDATORY_LABEL, PTOKEN_MANDATORY_LABEL, PTOKEN_MANDATORY_LABEL structure pointer [Security], TOKEN_MANDATORY_LABEL, TOKEN_MANDATORY_LABEL structure [Security], _TOKEN_MANDATORY_LABEL, security.token_mandatory_label, winnt/PTOKEN_MANDATORY_LABEL, winnt/TOKEN_MANDATORY_LABEL"
+ms.keywords: '*PTOKEN_MANDATORY_LABEL, PTOKEN_MANDATORY_LABEL, PTOKEN_MANDATORY_LABEL structure pointer [Security], TOKEN_MANDATORY_LABEL, TOKEN_MANDATORY_LABEL structure [Security], _TOKEN_MANDATORY_LABEL, security.token_mandatory_label, winnt/PTOKEN_MANDATORY_LABEL, winnt/TOKEN_MANDATORY_LABEL'
 ms.topic: struct
-f1_keywords: 
- - "winnt/TOKEN_MANDATORY_LABEL"
+f1_keywords:
+- winnt/TOKEN_MANDATORY_LABEL
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - TOKEN_MANDATORY_LABEL
+- TOKEN_MANDATORY_LABEL
 product: Windows
 targetos: Windows
 req.typenames: TOKEN_MANDATORY_LABEL, *PTOKEN_MANDATORY_LABEL
@@ -61,7 +61,7 @@ The <b>TOKEN_MANDATORY_LABEL</b> structure  specifies the mandatory integrity le
 
 ### -field Label
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_and_attributes">SID_AND_ATTRIBUTES</a> structure that specifies the mandatory integrity level of the token.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a> structure that specifies the mandatory integrity level of the token.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_an
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_token_information_class">TOKEN_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>
  
 
  

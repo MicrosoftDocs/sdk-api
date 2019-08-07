@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BuildSecurityDescriptor, BuildSecurityDescriptor function [Security], BuildSecurityDescriptorA, BuildSecurityDescriptorW, _win32_buildsecuritydescriptor, aclapi/BuildSecurityDescriptor, aclapi/BuildSecurityDescriptorA, aclapi/BuildSecurityDescriptorW, security.buildsecuritydescriptor
 ms.topic: function
-f1_keywords: 
- - "aclapi/BuildSecurityDescriptor"
+f1_keywords:
+- aclapi/BuildSecurityDescriptor
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-security-trustee-l1-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-security-trustee-l1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-security-trustee-l1-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-security-trustee-l1-1-1.dll
 api_name:
- - BuildSecurityDescriptor
- - BuildSecurityDescriptorA
- - BuildSecurityDescriptorW
+- BuildSecurityDescriptor
+- BuildSecurityDescriptorA
+- BuildSecurityDescriptorW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -98,7 +98,7 @@ The number of
 ### -param pListOfAccessEntries [in, optional]
 
 A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures that describe access control information for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) of the new security descriptor. The function creates the new DACL by merging the information in the array with the DACL in <i>pOldSD</i>, if any. If <i>pOldSD</i> is <b>NULL</b>, or if the DACL in <i>pOldSD</i> is <b>NULL</b>, the function creates a new DACL based solely on the information in the array. For a description of the rules for creating an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> from an array of <b>EXPLICIT_ACCESS</b> structures, see the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> from an array of <b>EXPLICIT_ACCESS</b> structures, see the 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla">SetEntriesInAcl</a> function. 
 
 
@@ -127,7 +127,7 @@ If <i>pListOfAuditEntries</i> is <b>NULL</b>, the new security descriptor gets t
 ### -param pOldSD [in, optional]
 
 A pointer to an existing self-relative 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure and its associated security information. The function builds the new security descriptor by merging the specified owner, group, access control, and audit-control information with the information in this security descriptor. This parameter can be <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure and its associated security information. The function builds the new security descriptor by merging the specified owner, group, access control, and audit-control information with the information in this security descriptor. This parameter can be <b>NULL</b>.
 
 
 ### -param pSizeNewSD [out]
@@ -167,7 +167,7 @@ The <b>BuildSecurityDescriptor</b> function is intended for trusted servers that
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
@@ -187,11 +187,11 @@ The <b>BuildSecurityDescriptor</b> function is intended for trusted servers that
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 

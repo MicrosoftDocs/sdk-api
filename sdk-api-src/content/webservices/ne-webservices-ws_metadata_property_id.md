@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_METADATA_PROPERTY_HEAP_PROPERTIES, WS_METADATA_PROPERTY_HEAP_REQUESTED_SIZE, WS_METADATA_PROPERTY_HOST_NAMES, WS_METADATA_PROPERTY_ID, WS_METADATA_PROPERTY_ID enumeration [Web Services for Windows], WS_METADATA_PROPERTY_MAX_DOCUMENTS, WS_METADATA_PROPERTY_POLICY_PROPERTIES, WS_METADATA_PROPERTY_STATE, WS_METADATA_PROPERTY_VERIFY_HOST_NAMES, webservices/WS_METADATA_PROPERTY_HEAP_PROPERTIES, webservices/WS_METADATA_PROPERTY_HEAP_REQUESTED_SIZE, webservices/WS_METADATA_PROPERTY_HOST_NAMES, webservices/WS_METADATA_PROPERTY_ID, webservices/WS_METADATA_PROPERTY_MAX_DOCUMENTS, webservices/WS_METADATA_PROPERTY_POLICY_PROPERTIES, webservices/WS_METADATA_PROPERTY_STATE, webservices/WS_METADATA_PROPERTY_VERIFY_HOST_NAMES, wsw.ws_metadata_property_id
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_METADATA_PROPERTY_ID"
+f1_keywords:
+- webservices/WS_METADATA_PROPERTY_ID
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_METADATA_PROPERTY_ID
+- WS_METADATA_PROPERTY_ID
 product: Windows
 targetos: Windows
 req.typenames: WS_METADATA_PROPERTY_ID
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Each metadata property is of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_metadata_property">WS_METADATA_PROPERTY</a>, is identified by an ID, and has an associated value.  If a property is not specified when the metadata is created,
+Each metadata property is of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_metadata_property">WS_METADATA_PROPERTY</a>, is identified by an ID, and has an associated value.  If a property is not specified when the metadata is created,
                 then its default value is used.
             
 
@@ -66,7 +66,7 @@ Each metadata property is of type <a href="https://docs.microsoft.com/windows/de
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmetadataproperty">WsGetMetadataProperty</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_metadata_property">WS_METADATA_PROPERTY</a> structure contains  the current <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_metadata_state">WS_METADATA_STATE</a> of the metadata object.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_metadata_property">WS_METADATA_PROPERTY</a> structure contains  the current <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_metadata_state">WS_METADATA_STATE</a> of the metadata object.
                 
 
 
@@ -77,7 +77,7 @@ This property is used with <a href="https://docs.microsoft.com/windows/desktop/a
                     object to store information about the metadata that was read.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_metadata_property">WS_METADATA_PROPERTY</a> structure contains   a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_heap_properties">WS_HEAP_PROPERTIES</a> structure.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_metadata_property">WS_METADATA_PROPERTY</a> structure contains   a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_heap_properties">WS_HEAP_PROPERTIES</a> structure.
                 
 
 The following heap properties may be specified:
@@ -101,7 +101,7 @@ This property is used with <a href="https://docs.microsoft.com/windows/desktop/a
                     with the metadata object.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_metadata_property">WS_METADATA_PROPERTY</a> structure contains   a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_policy_properties">WS_POLICY_PROPERTIES</a>  structure that specifies the
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_metadata_property">WS_METADATA_PROPERTY</a> structure contains   a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_policy_properties">WS_POLICY_PROPERTIES</a>  structure that specifies the
                     set of policy properties.
 
 See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_policy_property_id">WS_POLICY_PROPERTY_ID</a> for more information on the
@@ -114,7 +114,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webse
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmetadataproperty">WsGetMetadataProperty</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_metadata_property">WS_METADATA_PROPERTY</a> is a <b>SIZE_T</b> specifying the number of bytes allocated from the heap associated with the
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_metadata_property">WS_METADATA_PROPERTY</a> is a <b>SIZE_T</b> specifying the number of bytes allocated from the heap associated with the
                     metadata object.
 
 
@@ -123,7 +123,7 @@ The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemetadata">WsCreateMetadata</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_metadata_property">WS_METADATA_PROPERTY</a> is a <b>ULONG</b> specifying  the maximum number of documents that may be added to
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_metadata_property">WS_METADATA_PROPERTY</a> is a <b>ULONG</b> specifying  the maximum number of documents that may be added to
                     the metadata object using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadmetadata">WsReadMetadata</a>.  
                 
 
@@ -136,7 +136,7 @@ The default value is 32.
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemetadata">WsCreateMetadata</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_metadata_property">WS_METADATA_PROPERTY</a> is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_host_names">WS_HOST_NAMES</a> structure.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_metadata_property">WS_METADATA_PROPERTY</a> is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_host_names">WS_HOST_NAMES</a> structure.
                 
 
 This property may only be specified if <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_metadata_property_id">WS_METADATA_PROPERTY_VERIFY_HOST_NAMES</a> is <b>TRUE</b>.
@@ -155,7 +155,7 @@ If the property is not specified, then the list of host names is empty.
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemetadata">WsCreateMetadata</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_metadata_property">WS_METADATA_PROPERTY</a> is a <b>BOOL</b> that specifies whether or not host names should be verified.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_metadata_property">WS_METADATA_PROPERTY</a> is a <b>BOOL</b> that specifies whether or not host names should be verified.
                 
 
 See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmissingmetadatadocumentaddress">WsGetMissingMetadataDocumentAddress</a> for more information

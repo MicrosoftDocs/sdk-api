@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsFindAttribute, WsFindAttribute function [Web Services for Windows], webservices/WsFindAttribute, wsw.wsfindattribute
 ms.topic: function
-f1_keywords: 
- - "webservices/WsFindAttribute"
+f1_keywords:
+- webservices/WsFindAttribute
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsFindAttribute
+- WsFindAttribute
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -137,7 +137,7 @@ If the reader is not positioned on a start element then it will return <b>WS_E_I
 
 The index returned does not necessarily correspond to the position of the attribute as it appeared
         in the document.  It identifies the index of the matching attribute in the array of attributes of
-        the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_element_node">WS_XML_ELEMENT_NODE</a>.  The order of the attributes in this array may differ from the order
+        the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_element_node">WS_XML_ELEMENT_NODE</a>.  The order of the attributes in this array may differ from the order
         in which the attributes appeared in the document.
       
 

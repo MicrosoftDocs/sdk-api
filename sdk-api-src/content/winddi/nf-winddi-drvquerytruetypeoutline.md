@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvQueryTrueTypeOutline, DrvQueryTrueTypeOutline function [Display Devices], ddifncs_77215092-0dde-45d4-93f2-11a7b9e69360.xml, display.drvquerytruetypeoutline, winddi/DrvQueryTrueTypeOutline
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvQueryTrueTypeOutline"
+f1_keywords:
+- winddi/DrvQueryTrueTypeOutline
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvQueryTrueTypeOutline
+- DrvQueryTrueTypeOutline
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Handle to a physical device's <a href="https://docs.microsoft.com/windows-hardwa
 
 ### -param pfo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a> structure. Details of the font realization can be queried from this structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure. Details of the font realization can be queried from this structure.
 
 
 ### -param hglyph
@@ -119,7 +119,7 @@ Outlines are to be returned unhinted.
 
 ### -param pgldt
 
-Pointer to the buffer where the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphdata">GLYPHDATA</a> structure for this glyph should be written. If <i>pgldt</i> is <b>NULL</b>, no data is written to the GLYPHDATA structure.
+Pointer to the buffer where the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphdata">GLYPHDATA</a> structure for this glyph should be written. If <i>pgldt</i> is <b>NULL</b>, no data is written to the GLYPHDATA structure.
 
 
 ### -param cjBuf
@@ -159,7 +159,7 @@ The return value is the size, in bytes, required for the <i>ppoly</i> buffer if 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
  
 
  

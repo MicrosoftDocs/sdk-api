@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: 6e3df308-3f5c-40d7-b0f9-19fb6d6d3db8
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVICE_TYPE_VALUE_ABSA, *PSERVICE_TYPE_VALUE_ABSA, NS_DEFAULT, NS_DNS, NS_NETBT, NS_SAP, NS_TCPIP_HOSTS, NS_TCPIP_LOCAL, REG_BINARY, REG_DWORD, REG_MULTI_SZ, REG_SZ, SERVICE_TYPE_VALUE_ABS, SERVICE_TYPE_VALUE_ABS structure [Winsock], SERVICE_TYPE_VALUE_ABSA, SERVICE_TYPE_VALUE_ABSW, SERVICE_TYPE_VALUE_CONN, SERVICE_TYPE_VALUE_SAPID, SERVICE_TYPE_VALUE_TCPPORT, SERVICE_TYPE_VALUE_UDPPORT, _win32_service_type_value_abs_2, nspapi/SERVICE_TYPE_VALUE_ABS, nspapi/SERVICE_TYPE_VALUE_ABSA, nspapi/SERVICE_TYPE_VALUE_ABSW, winsock.service_type_value_abs_2"
+ms.keywords: '*LPSERVICE_TYPE_VALUE_ABSA, *PSERVICE_TYPE_VALUE_ABSA, NS_DEFAULT, NS_DNS, NS_NETBT, NS_SAP, NS_TCPIP_HOSTS, NS_TCPIP_LOCAL, REG_BINARY, REG_DWORD, REG_MULTI_SZ, REG_SZ, SERVICE_TYPE_VALUE_ABS, SERVICE_TYPE_VALUE_ABS structure [Winsock], SERVICE_TYPE_VALUE_ABSA, SERVICE_TYPE_VALUE_ABSW, SERVICE_TYPE_VALUE_CONN, SERVICE_TYPE_VALUE_SAPID, SERVICE_TYPE_VALUE_TCPPORT, SERVICE_TYPE_VALUE_UDPPORT, _win32_service_type_value_abs_2, nspapi/SERVICE_TYPE_VALUE_ABS, nspapi/SERVICE_TYPE_VALUE_ABSA, nspapi/SERVICE_TYPE_VALUE_ABSW, winsock.service_type_value_abs_2'
 ms.topic: struct
-f1_keywords: 
- - "nspapi/SERVICE_TYPE_VALUE_ABS"
+f1_keywords:
+- nspapi/SERVICE_TYPE_VALUE_ABS
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Nspapi.h
+- Nspapi.h
 api_name:
- - SERVICE_TYPE_VALUE_ABS
- - SERVICE_TYPE_VALUE_ABSA
- - SERVICE_TYPE_VALUE_ABSW
+- SERVICE_TYPE_VALUE_ABS
+- SERVICE_TYPE_VALUE_ABSA
+- SERVICE_TYPE_VALUE_ABSW
 product: Windows
 targetos: Windows
 req.typenames: SERVICE_TYPE_VALUE_ABSA, *PSERVICE_TYPE_VALUE_ABSA, *LPSERVICE_TYPE_VALUE_ABSA
@@ -279,8 +279,8 @@ A pointer to the value data.
 
 When you use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a> function to add a network service type to a namespace, a 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_info_absa">SERVICE_TYPE_INFO_ABS</a> structure is passed as the <b>ServiceSpecificInfo</b> BLOB member of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a> structure. Although the <b>ServiceSpecificInfo</b> member generally should not contain pointers, an exception is made in the case of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a> structure is passed as the <b>ServiceSpecificInfo</b> BLOB member of a 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> structure. Although the <b>ServiceSpecificInfo</b> member generally should not contain pointers, an exception is made in the case of the 
 <b>SERVICE_TYPE_INFO_ABS</b> and 
 <b>SERVICE_TYPE_VALUE_ABS</b> structures.
 
@@ -292,11 +292,11 @@ When you use the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_info_absa">SERVICE_TYPE_INFO_ABS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a>
 
 
 

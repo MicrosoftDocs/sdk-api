@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessorControl2 interface [Media Foundation],SetRotationOverride method, IMFVideoProcessorControl2.SetRotationOverride, IMFVideoProcessorControl2::SetRotationOverride, SetRotationOverride, SetRotationOverride method [Media Foundation], SetRotationOverride method [Media Foundation],IMFVideoProcessorControl2 interface, mf.imfvideoprocessorcontrol2_setrotationoverride, mfidl/IMFVideoProcessorControl2::SetRotationOverride
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFVideoProcessorControl2.SetRotationOverride"
+f1_keywords:
+- mfidl/IMFVideoProcessorControl2.SetRotationOverride
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFVideoProcessorControl2.SetRotationOverride
+- IMFVideoProcessorControl2.SetRotationOverride
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Overrides the rotation operation that is performed in the video processor.
 
 Type: <b>UINT</b>
 
-Rotation value in degrees.  Typically, you can only use values from the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ne-mfapi-_mfvideorotationformat">MFVideoRotationFormat</a> enumeration.
+Rotation value in degrees.  Typically, you can only use values from the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ne-mfapi-mfvideorotationformat">MFVideoRotationFormat</a> enumeration.
 
 
 ## -returns

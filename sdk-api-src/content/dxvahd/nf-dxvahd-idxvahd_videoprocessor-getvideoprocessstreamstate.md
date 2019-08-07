@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVideoProcessStreamState, GetVideoProcessStreamState method [Media Foundation], GetVideoProcessStreamState method [Media Foundation],IDXVAHD_VideoProcessor interface, IDXVAHD_VideoProcessor interface [Media Foundation],GetVideoProcessStreamState method, IDXVAHD_VideoProcessor.GetVideoProcessStreamState, IDXVAHD_VideoProcessor::GetVideoProcessStreamState, dxvahd/IDXVAHD_VideoProcessor::GetVideoProcessStreamState, mf.idxvahd_videoprocessor_getvideoprocessstreamstate
 ms.topic: method
-f1_keywords: 
- - "dxvahd/IDXVAHD_VideoProcessor.GetVideoProcessStreamState"
+f1_keywords:
+- dxvahd/IDXVAHD_VideoProcessor.GetVideoProcessStreamState
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - IDXVAHD_VideoProcessor.GetVideoProcessStreamState
+- IDXVAHD_VideoProcessor.GetVideoProcessStreamState
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,12 +61,12 @@ Gets the value of a state parameter for an input stream on a  Microsoft DirectX 
 
 ### -param StreamNumber [in]
 
-The zero-based index of the input stream. To get the maximum number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps">IDXVAHD_Device::GetVideoProcessorDeviceCaps</a> and check the <b>MaxStreamStates</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure.
+The zero-based index of the input stream. To get the maximum number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps">IDXVAHD_Device::GetVideoProcessorDeviceCaps</a> and check the <b>MaxStreamStates</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure.
 
 
 ### -param State [in]
 
-The state parameter to query, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_stream_state">DXVAHD_STREAM_STATE</a> enumeration.
+The state parameter to query, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_stream_state">DXVAHD_STREAM_STATE</a> enumeration.
 
 
 ### -param DataSize [in]
@@ -76,7 +76,7 @@ The size, in bytes, of the buffer pointed to by <i>pData</i>.
 
 ### -param pData [out]
 
-A pointer to a buffer allocated by the caller. The method copies the state data into the buffer. The buffer must be large enough to hold the data structure that corresponds to the state parameter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_stream_state">DXVAHD_STREAM_STATE</a>. 
+A pointer to a buffer allocated by the caller. The method copies the state data into the buffer. The buffer must be large enough to hold the data structure that corresponds to the state parameter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_stream_state">DXVAHD_STREAM_STATE</a>. 
 
 
 ## -returns

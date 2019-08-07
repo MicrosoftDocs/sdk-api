@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamAsync interface [Windows Shell],WriteAsync method, IStreamAsync.WriteAsync, IStreamAsync::WriteAsync, WriteAsync, WriteAsync method [Windows Shell], WriteAsync method [Windows Shell],IStreamAsync interface, _shell_IStreamAsync_WriteAsync, shell.IStreamAsync_WriteAsync, shobjidl/IStreamAsync::WriteAsync
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IStreamAsync.WriteAsync"
+f1_keywords:
+- shobjidl/IStreamAsync.WriteAsync
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IStreamAsync.WriteAsync
+- IStreamAsync.WriteAsync
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -84,7 +84,7 @@ Pointer to a <b>DWORD</b> value that, when the method returns successfully, stat
 
 Type: <b>LPOVERLAPPED</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ns-shobjidl-_overlapped">OVERLAPPED</a> structure that contains information used in the asynchronous write operation.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ns-shobjidl-overlapped">OVERLAPPED</a> structure that contains information used in the asynchronous write operation.
 
 
 ## -returns
@@ -102,7 +102,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<b>WriteAsync</b> should reset the event specified by the <b>hEvent</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ns-shobjidl-_overlapped">OVERLAPPED</a> structure to a nonsignaled state when it begins the input/output (I/O) operation.
+<b>WriteAsync</b> should reset the event specified by the <b>hEvent</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ns-shobjidl-overlapped">OVERLAPPED</a> structure to a nonsignaled state when it begins the input/output (I/O) operation.
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThreadWaitChain, GetThreadWaitChain function, WCT_OUT_OF_PROC_COM_FLAG, WCT_OUT_OF_PROC_CS_FLAG, WCT_OUT_OF_PROC_FLAG, base.getthreadwaitchain, wct/GetThreadWaitChain
 ms.topic: function
-f1_keywords: 
- - "wct/GetThreadWaitChain"
+f1_keywords:
+- wct/GetThreadWaitChain
 req.header: wct.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-MS-Win-wer-wct-l1-1-0.dll
- - wer.dll
+- Advapi32.dll
+- Ext-MS-Win-wer-wct-l1-1-0.dll
+- wer.dll
 api_name:
- - GetThreadWaitChain
+- GetThreadWaitChain
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -128,7 +128,7 @@ For asynchronous sessions, check the value that is passed to the callback functi
 
 ### -param NodeInfoArray [out]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wct/ns-wct-_waitchain_node_info">WAITCHAIN_NODE_INFO</a> structures that receives the wait chain.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wct/ns-wct-waitchain_node_info">WAITCHAIN_NODE_INFO</a> structures that receives the wait chain.
 
 For asynchronous sessions, check the value that is passed to the callback function. Do not free the array until the callback function has returned.
 
@@ -270,7 +270,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wct/ns-wct-_waitchain_node_info">WAITCHAIN_NODE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wct/ns-wct-waitchain_node_info">WAITCHAIN_NODE_INFO</a>
 
 
 

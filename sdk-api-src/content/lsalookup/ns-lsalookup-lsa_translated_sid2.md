@@ -8,10 +8,10 @@ tech.root: SecMgmt
 ms.assetid: 792de958-8e24-46d8-b484-159435bc96e3
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PLSA_TRANSLATED_SID2, LSA_TRANSLATED_SID2, LSA_TRANSLATED_SID2 structure [Security], PLSA_TRANSLATED_SID2, PLSA_TRANSLATED_SID2 structure pointer [Security], _lsa_lsa_translated_sid2, lsalookup/LSA_TRANSLATED_SID2, lsalookup/PLSA_TRANSLATED_SID2, security.lsa_translated_sid2"
+ms.keywords: '*PLSA_TRANSLATED_SID2, LSA_TRANSLATED_SID2, LSA_TRANSLATED_SID2 structure [Security], PLSA_TRANSLATED_SID2, PLSA_TRANSLATED_SID2 structure pointer [Security], _lsa_lsa_translated_sid2, lsalookup/LSA_TRANSLATED_SID2, lsalookup/PLSA_TRANSLATED_SID2, security.lsa_translated_sid2'
 ms.topic: struct
-f1_keywords: 
- - "lsalookup/LSA_TRANSLATED_SID2"
+f1_keywords:
+- lsalookup/LSA_TRANSLATED_SID2
 req.header: lsalookup.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - LsaLookup.h
+- LsaLookup.h
 api_name:
- - LSA_TRANSLATED_SID2
+- LSA_TRANSLATED_SID2
 product: Windows
 targetos: Windows
 req.typenames: LSA_TRANSLATED_SID2, *PLSA_TRANSLATED_SID2
@@ -64,7 +64,7 @@ The <b>LSA_TRANSLATED_SID2</b> structure contains
 ### -field Use
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SID_NAME_USE</a> enumeration value that identifies the use of the SID. If this value is SidTypeUnknown or SidTypeInvalid, the rest of the information in the structure is not valid and should be ignored.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a> enumeration value that identifies the use of the SID. If this value is SidTypeUnknown or SidTypeInvalid, the rest of the information in the structure is not valid and should be ignored.
 
 
 ### -field Sid

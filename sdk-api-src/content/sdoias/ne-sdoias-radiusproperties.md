@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROPERTY_RADIUS_ACCOUNTING_PORT, PROPERTY_RADIUS_AUTHENTICATION_PORT, PROPERTY_RADIUS_CLIENTS_COLLECTION, PROPERTY_RADIUS_VENDORS_COLLECTION, RADIUSPROPERTIES, RADIUSPROPERTIES enumeration [Network Policy Server], _sdo_radiusproperties, nps.SDO_radiusproperties, sdo.radiusproperties, sdoias/PROPERTY_RADIUS_ACCOUNTING_PORT, sdoias/PROPERTY_RADIUS_AUTHENTICATION_PORT, sdoias/PROPERTY_RADIUS_CLIENTS_COLLECTION, sdoias/PROPERTY_RADIUS_VENDORS_COLLECTION, sdoias/RADIUSPROPERTIES
 ms.topic: enum
-f1_keywords: 
- - "sdoias/RADIUSPROPERTIES"
+f1_keywords:
+- sdoias/RADIUSPROPERTIES
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - RADIUSPROPERTIES
+- RADIUSPROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: RADIUSPROPERTIES
@@ -85,11 +85,11 @@ The collection of vendors for this RADIUS server.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_clientproperties">CLIENTPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-clientproperties">CLIENTPROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_vendorproperties">VENDORPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-vendorproperties">VENDORPROPERTIES</a>
  
 
  

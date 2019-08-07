@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ONEX_AUTHENTICATOR_NO_LONGER_PRESENT, ONEX_EAP_FAILURE_RECEIVED, ONEX_IDENTITY_NOT_FOUND, ONEX_NO_RESPONSE_TO_IDENTITY, ONEX_PROFILE_DISALLOWED_EAP_TYPE, ONEX_PROFILE_EXPIRED_EXPLICIT_CREDENTIALS, ONEX_PROFILE_INVALID_AUTH_MODE, ONEX_PROFILE_INVALID_EAP_CONNECTION_PROPERTIES, ONEX_PROFILE_INVALID_EAP_TYPE_OR_FLAG, ONEX_PROFILE_INVALID_EXPLICIT_CREDENTIALS, ONEX_PROFILE_INVALID_LENGTH, ONEX_PROFILE_INVALID_ONEX_FLAGS, ONEX_PROFILE_INVALID_SUPPLICANT_MODE, ONEX_PROFILE_INVALID_TIMER_VALUE, ONEX_PROFILE_VERSION_NOT_SUPPORTED, ONEX_REASON_CODE, ONEX_REASON_CODE enumeration [NativeWIFI], ONEX_REASON_CODE_SUCCESS, ONEX_REASON_START, ONEX_UI_CANCELLED, ONEX_UI_DISABLED, ONEX_UI_FAILURE, ONEX_UI_NOT_PERMITTED, ONEX_UNABLE_TO_IDENTIFY_USER, PONEX_REASON_CODE, PONEX_REASON_CODE enumeration pointer [NativeWIFI], dot1x/ONEX_AUTHENTICATOR_NO_LONGER_PRESENT, dot1x/ONEX_EAP_FAILURE_RECEIVED, dot1x/ONEX_IDENTITY_NOT_FOUND, dot1x/ONEX_NO_RESPONSE_TO_IDENTITY, dot1x/ONEX_PROFILE_DISALLOWED_EAP_TYPE, dot1x/ONEX_PROFILE_EXPIRED_EXPLICIT_CREDENTIALS, dot1x/ONEX_PROFILE_INVALID_AUTH_MODE, dot1x/ONEX_PROFILE_INVALID_EAP_CONNECTION_PROPERTIES, dot1x/ONEX_PROFILE_INVALID_EAP_TYPE_OR_FLAG, dot1x/ONEX_PROFILE_INVALID_EXPLICIT_CREDENTIALS, dot1x/ONEX_PROFILE_INVALID_LENGTH, dot1x/ONEX_PROFILE_INVALID_ONEX_FLAGS, dot1x/ONEX_PROFILE_INVALID_SUPPLICANT_MODE, dot1x/ONEX_PROFILE_INVALID_TIMER_VALUE, dot1x/ONEX_PROFILE_VERSION_NOT_SUPPORTED, dot1x/ONEX_REASON_CODE, dot1x/ONEX_REASON_CODE_SUCCESS, dot1x/ONEX_REASON_START, dot1x/ONEX_UI_CANCELLED, dot1x/ONEX_UI_DISABLED, dot1x/ONEX_UI_FAILURE, dot1x/ONEX_UI_NOT_PERMITTED, dot1x/ONEX_UNABLE_TO_IDENTIFY_USER, dot1x/PONEX_REASON_CODE, nwifi.onex_reason_code
 ms.topic: enum
-f1_keywords: 
- - "dot1x/ONEX_REASON_CODE"
+f1_keywords:
+- dot1x/ONEX_REASON_CODE
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dot1x.h
+- dot1x.h
 api_name:
- - ONEX_REASON_CODE
+- ONEX_REASON_CODE
 product: Windows
 targetos: Windows
 req.typenames: ONEX_REASON_CODE, PONEX_REASON_CODE
@@ -92,7 +92,7 @@ The 802.1X authentication module was unable to return the requested user input. 
 
 ### -field ONEX_EAP_FAILURE_RECEIVED
 
-The EAP module returned an error code.  The <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_eap_error">ONEX_EAP_ERROR</a> structure may contain additional information about the specific EAP error (a certificate not found, for example).
+The EAP module returned an error code.  The <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_eap_error">ONEX_EAP_ERROR</a> structure may contain additional information about the specific EAP error (a certificate not found, for example).
 
 
 ### -field ONEX_AUTHENTICATOR_NO_LONGER_PRESENT
@@ -184,9 +184,9 @@ This value is supported on Windows 7 and on Windows Server 2008 R2 with the W
 
 The <b>ONEX_REASON_CODE</b> enumerated type is used by the 802.1X module, a new wireless configuration component supported on Windows Vista and  later.  
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> contains information on a status change to 802.1X authentication. The <b>ONEX_RESULT_UPDATE_DATA</b> structure is returned  when  the <b>NotificationSource</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure is <b>WLAN_NOTIFICATION_SOURCE_ONEX</b>  and the <b>NotificationCode</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure for received notification  is <b>OneXNotificationTypeResultUpdate</b>. For this notification, the <b>pData</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure points to an  <b>ONEX_RESULT_UPDATE_DATA</b> structure that contains information on the 802.1X authentication status change. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> contains information on a status change to 802.1X authentication. The <b>ONEX_RESULT_UPDATE_DATA</b> structure is returned  when  the <b>NotificationSource</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure is <b>WLAN_NOTIFICATION_SOURCE_ONEX</b>  and the <b>NotificationCode</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure for received notification  is <b>OneXNotificationTypeResultUpdate</b>. For this notification, the <b>pData</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure points to an  <b>ONEX_RESULT_UPDATE_DATA</b> structure that contains information on the 802.1X authentication status change. 
 
-The <b>oneXStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> structure contains an <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_status">ONEX_STATUS</a> structure. If an error occurred during 802.1X authentication, the dwReason menber of this <b>ONEX_STATUS</b> structure contains the reason for the error specified as a value from the <b>ONEX_REASON_CODE</b> enumeration. 
+The <b>oneXStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> structure contains an <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_status">ONEX_STATUS</a> structure. If an error occurred during 802.1X authentication, the dwReason menber of this <b>ONEX_STATUS</b> structure contains the reason for the error specified as a value from the <b>ONEX_REASON_CODE</b> enumeration. 
 
 
 
@@ -200,15 +200,15 @@ The <b>oneXStatus</b> member of the <a href="https://docs.microsoft.com/windows/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-_onex_notification_type">ONEX_NOTIFICATION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-onex_notification_type">ONEX_NOTIFICATION_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_status">ONEX_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_status">ONEX_STATUS</a>
 
 
 

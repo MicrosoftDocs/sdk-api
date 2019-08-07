@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaEnumerateLogonSessions, LsaEnumerateLogonSessions function [Security], _lsa_lsaenumeratelogonsessions, ntsecapi/LsaEnumerateLogonSessions, security.lsaenumeratelogonsessions
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/LsaEnumerateLogonSessions"
+f1_keywords:
+- ntsecapi/LsaEnumerateLogonSessions
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - LsaEnumerateLogonSessions
+- LsaEnumerateLogonSessions
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>LsaEnumerateLogonSessions</b> function retrieves the set of existing logon session identifiers (<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUIDs</a>) and the number of sessions.
+The <b>LsaEnumerateLogonSessions</b> function retrieves the set of existing logon session identifiers (<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUIDs</a>) and the number of sessions.
 
 
 ## -parameters

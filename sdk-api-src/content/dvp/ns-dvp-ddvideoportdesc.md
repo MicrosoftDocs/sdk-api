@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: efd5907c-ed75-40be-b568-7c305310f79b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDDVIDEOPORTDESC, DDVIDEOPORTDESC, DDVIDEOPORTDESC structure [Display Devices], ddstrcts_4fab2afd-4b57-49cc-b288-3ff8af49c3ba.xml, display.ddvideoportdesc, dvp/DDVIDEOPORTDESC"
+ms.keywords: '*LPDDVIDEOPORTDESC, DDVIDEOPORTDESC, DDVIDEOPORTDESC structure [Display Devices], ddstrcts_4fab2afd-4b57-49cc-b288-3ff8af49c3ba.xml, display.ddvideoportdesc, dvp/DDVIDEOPORTDESC'
 ms.topic: struct
-f1_keywords: 
- - "dvp/DDVIDEOPORTDESC"
+f1_keywords:
+- dvp/DDVIDEOPORTDESC
 req.header: dvp.h
 req.include-header: Dvp.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dvp.h
+- dvp.h
 api_name:
- - DDVIDEOPORTDESC
+- DDVIDEOPORTDESC
 product: Windows
 targetos: Windows
-req.typenames: "*LPDDVIDEOPORTDESC, DDVIDEOPORTDESC"
+req.typenames: '*LPDDVIDEOPORTDESC, DDVIDEOPORTDESC'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -91,7 +91,7 @@ Specifies the maximum pixel rate per second.
 
 ### -field dwVideoPortID
 
-Specifies the ID of the hardware video port to be used. This ID should range from 0 to (<b>dwMaxVideoPorts</b> -1), where <b>dwMaxVideoPorts</b> is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-_ddcorecaps">DDCORECAPS</a> structure.
+Specifies the ID of the hardware video port to be used. This ID should range from 0 to (<b>dwMaxVideoPorts</b> -1), where <b>dwMaxVideoPorts</b> is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a> structure.
 
 
 ### -field dwReserved1
@@ -119,7 +119,7 @@ Reserved for future use and should be ignored by the driver.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-_ddcorecaps">DDCORECAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>
 
 
 

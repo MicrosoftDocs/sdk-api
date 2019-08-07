@@ -8,10 +8,10 @@ tech.root: OpenGL
 ms.assetid: 6ceccb76-be31-4a4d-b093-1f8e35261a60
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPGLYPHMETRICSFLOAT, *PGLYPHMETRICSFLOAT, GLYPHMETRICSFLOAT, GLYPHMETRICSFLOAT structure [OpenGL], PGLYPHMETRICSFLOAT, PGLYPHMETRICSFLOAT structure pointer [OpenGL], _ogl_GLYPHMETRICSFLOAT, opengl.glyphmetricsfloat, wingdi/GLYPHMETRICSFLOAT, wingdi/PGLYPHMETRICSFLOAT"
+ms.keywords: '*LPGLYPHMETRICSFLOAT, *PGLYPHMETRICSFLOAT, GLYPHMETRICSFLOAT, GLYPHMETRICSFLOAT structure [OpenGL], PGLYPHMETRICSFLOAT, PGLYPHMETRICSFLOAT structure pointer [OpenGL], _ogl_GLYPHMETRICSFLOAT, opengl.glyphmetricsfloat, wingdi/GLYPHMETRICSFLOAT, wingdi/PGLYPHMETRICSFLOAT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/GLYPHMETRICSFLOAT"
+f1_keywords:
+- wingdi/GLYPHMETRICSFLOAT
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wingdi.h
+- wingdi.h
 api_name:
- - GLYPHMETRICSFLOAT
+- GLYPHMETRICSFLOAT
 product: Windows
 targetos: Windows
 req.typenames: GLYPHMETRICSFLOAT, *PGLYPHMETRICSFLOAT, *LPGLYPHMETRICSFLOAT
@@ -105,7 +105,7 @@ The values of <b>GLYPHMETRICSFLOAT</b> are specified as notional units.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_pointfloat">POINTFLOAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pointfloat">POINTFLOAT</a>
 
 
 

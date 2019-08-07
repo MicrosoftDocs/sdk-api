@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFMapDXGIFormatToDX9Format, MFMapDXGIFormatToDX9Format function [Media Foundation], mf.mfmapdxgiformattodx9format, mfapi/MFMapDXGIFormatToDX9Format
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFMapDXGIFormatToDX9Format"
+f1_keywords:
+- mfapi/MFMapDXGIFormatToDX9Format
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFMapDXGIFormatToDX9Format
+- MFMapDXGIFormatToDX9Format
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgifo
 
 
 
-Returns a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_stream_state_d3dformat_data">D3DFORMAT</a> value or FOURCC code.
+Returns a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_stream_state_d3dformat_data">D3DFORMAT</a> value or FOURCC code.
 
 
 

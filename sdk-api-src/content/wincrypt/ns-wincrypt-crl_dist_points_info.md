@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: cc0fe49c-80ab-42d8-9756-a6d6b885761e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRL_DIST_POINTS_INFO, CRL_DIST_POINTS_INFO, CRL_DIST_POINTS_INFO structure [Security], PCRL_DIST_POINTS_INFO, PCRL_DIST_POINTS_INFO structure pointer [Security], _crypto2_crl_dist_points_info, security.crl_dist_points_info, wincrypt/CRL_DIST_POINTS_INFO, wincrypt/PCRL_DIST_POINTS_INFO"
+ms.keywords: '*PCRL_DIST_POINTS_INFO, CRL_DIST_POINTS_INFO, CRL_DIST_POINTS_INFO structure [Security], PCRL_DIST_POINTS_INFO, PCRL_DIST_POINTS_INFO structure pointer [Security], _crypto2_crl_dist_points_info, security.crl_dist_points_info, wincrypt/CRL_DIST_POINTS_INFO, wincrypt/PCRL_DIST_POINTS_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRL_DIST_POINTS_INFO"
+f1_keywords:
+- wincrypt/CRL_DIST_POINTS_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRL_DIST_POINTS_INFO
+- CRL_DIST_POINTS_INFO
 product: Windows
 targetos: Windows
 req.typenames: CRL_DIST_POINTS_INFO, *PCRL_DIST_POINTS_INFO
@@ -67,7 +67,7 @@ Number of elements in the <b>rgDistPoint</b> member array.
 ### -field rgDistPoint
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_dist_point">CRL_DIST_POINT</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_dist_point">CRL_DIST_POINT</a> structures.
 
 
 ## -see-also
@@ -75,7 +75,7 @@ Array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_dist_point">CRL_DIST_POINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_dist_point">CRL_DIST_POINT</a>
  
 
  

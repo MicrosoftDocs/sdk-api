@@ -8,10 +8,10 @@ tech.root: wer
 ms.assetid: fcf956ac-6015-439c-aec6-8f6a826ff269
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWER_RUNTIME_EXCEPTION_INFORMATION, PWER_RUNTIME_EXCEPTION_INFORMATION, PWER_RUNTIME_EXCEPTION_INFORMATION structure pointer [Windows Error Reporting], WER_RUNTIME_EXCEPTION_INFORMATION, WER_RUNTIME_EXCEPTION_INFORMATION structure [Windows Error Reporting], wer.wer_runtime_exception_information, werapi/PWER_RUNTIME_EXCEPTION_INFORMATION, werapi/WER_RUNTIME_EXCEPTION_INFORMATION"
+ms.keywords: '*PWER_RUNTIME_EXCEPTION_INFORMATION, PWER_RUNTIME_EXCEPTION_INFORMATION, PWER_RUNTIME_EXCEPTION_INFORMATION structure pointer [Windows Error Reporting], WER_RUNTIME_EXCEPTION_INFORMATION, WER_RUNTIME_EXCEPTION_INFORMATION structure [Windows Error Reporting], wer.wer_runtime_exception_information, werapi/PWER_RUNTIME_EXCEPTION_INFORMATION, werapi/WER_RUNTIME_EXCEPTION_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "werapi/WER_RUNTIME_EXCEPTION_INFORMATION"
+f1_keywords:
+- werapi/WER_RUNTIME_EXCEPTION_INFORMATION
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Werapi.h
+- Werapi.h
 api_name:
- - WER_RUNTIME_EXCEPTION_INFORMATION
+- WER_RUNTIME_EXCEPTION_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: WER_RUNTIME_EXCEPTION_INFORMATION, *PWER_RUNTIME_EXCEPTION_INFORMATION
@@ -76,7 +76,7 @@ The handle to the thread that crashed.
 
 ### -field exceptionRecord
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_record">EXCEPTION_RECORD</a> structure that contains the exception information.
+An <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a> structure that contains the exception information.
 
 
 ### -field context

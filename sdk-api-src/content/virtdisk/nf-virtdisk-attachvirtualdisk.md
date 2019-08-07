@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AttachVirtualDisk, AttachVirtualDisk function [VHD], vdssys/AttachVirtualDisk, vhd.attachvirtualdisk, vhd.surfacevirtualdisk, virtdisk/AttachVirtualDisk
 ms.topic: function
-f1_keywords: 
- - "virtdisk/AttachVirtualDisk"
+f1_keywords:
+- virtdisk/AttachVirtualDisk
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VirtDisk.dll
+- VirtDisk.dll
 api_name:
- - AttachVirtualDisk
+- AttachVirtualDisk
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ A handle to an open virtual disk. For information on how to open a virtual disk,
 ### -param SecurityDescriptor [in, optional]
 
 An optional pointer to a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> to apply to the attached 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> to apply to the attached 
       virtual disk. If this parameter is <b>NULL</b>, the security descriptor of the virtual disk 
       image file is used.
 

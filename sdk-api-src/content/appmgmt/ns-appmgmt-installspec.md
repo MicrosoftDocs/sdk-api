@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INSTALLSPEC, INSTALLSPEC union [Group Policy], appmgmt/INSTALLSPEC, policy.installspec_union
 ms.topic: struct
-f1_keywords: 
- - "appmgmt/INSTALLSPEC"
+f1_keywords:
+- appmgmt/INSTALLSPEC
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Appmgmt.h
+- Appmgmt.h
 api_name:
- - INSTALLSPEC
+- INSTALLSPEC
 product: Windows
 targetos: Windows
 req.typenames: INSTALLSPEC
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>INSTALLSPEC</b> structure specifies a group policy application by its user-friendly name and group policy GUID or by its file name extension. The <b>Spec</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_installdata">INSTALLDATA</a>  structure provides this information to the <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-installapplication">InstallApplication</a> function.
+The <b>INSTALLSPEC</b> structure specifies a group policy application by its user-friendly name and group policy GUID or by its file name extension. The <b>Spec</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-installdata">INSTALLDATA</a>  structure provides this information to the <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-installapplication">InstallApplication</a> function.
 
 
 ## -struct-fields
@@ -78,7 +78,7 @@ The <b>GUID</b> for the group policy object in which the application exists. You
 
 The file name extension, such as .jpg,  of the application to be installed.
 
-<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-installapplication">InstallApplication</a> fails if the <b>Type</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_installdata">INSTALLDATA</a> equals <b>FILEEXT</b> and there is no application deployed to the user with this file name extension.</div>
+<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-installapplication">InstallApplication</a> fails if the <b>Type</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-installdata">INSTALLDATA</a> equals <b>FILEEXT</b> and there is no application deployed to the user with this file name extension.</div>
 <div> </div>
 
 ### -field ProgId
@@ -142,7 +142,7 @@ This parameter is reserved and should not be used.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_installdata">INSTALLDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-installdata">INSTALLDATA</a>
 
 
 

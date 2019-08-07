@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiRestartDevices, SetupDiRestartDevices function [Device and Driver Installation], devinst.setupdirestartdevices, di-rtns_9e27f3b7-c33c-44f1-b804-521d7403ac4f.xml, setupapi/SetupDiRestartDevices
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiRestartDevices"
+f1_keywords:
+- setupapi/SetupDiRestartDevices
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupDiRestartDevices
+- SetupDiRestartDevices
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/insta
 
 ### -param DeviceInfoData [in, out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a> structure for the device information member that represents the device to restart. This parameter is also an output parameter because <b>SetupDiRestartDevices</b> updates the device installation parameters for this device information member and the status and problem code of the corresponding device instance. For more information about these updates, see the following <b>Remarks</b> section. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure for the device information member that represents the device to restart. This parameter is also an output parameter because <b>SetupDiRestartDevices</b> updates the device installation parameters for this device information member and the status and problem code of the corresponding device instance. For more information about these updates, see the following <b>Remarks</b> section. 
 
 
 ## -returns
@@ -116,7 +116,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a>
 
 
 

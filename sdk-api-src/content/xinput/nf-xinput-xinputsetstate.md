@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XInputSetState, XInputSetState function [XInput Game Controller APIs], xinput.xinputsetstate, xinput/XInputSetState
 ms.topic: function
-f1_keywords: 
- - "xinput/XInputSetState"
+f1_keywords:
+- xinput/XInputSetState
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Xinput.lib; Xinput9_1_0.lib
 req.dll: Xinput1_4.dll; Xinput9_1_0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - xinput1_4.dll
- - xinput9_1_0.dll
- - Ext-MS-Win-Gaming-XInput-L1-1-0.dll
- - xinputuap.dll
+- xinput1_4.dll
+- xinput9_1_0.dll
+- Ext-MS-Win-Gaming-XInput-L1-1-0.dll
+- xinputuap.dll
 api_name:
- - XInputSetState
+- XInputSetState
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ Index of the user's controller. Can be a value from 0 to 3. For information abou
 
 ### -param pVibration [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-_xinput_vibration">XINPUT_VIBRATION</a> structure containing the vibration information to send to the controller.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_vibration">XINPUT_VIBRATION</a> structure containing the vibration information to send to the controller.
 
 
 ## -returns
@@ -90,7 +90,7 @@ If the function fails, the return value is an error code defined in WinError.h. 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-_xinput_vibration">XINPUT_VIBRATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_vibration">XINPUT_VIBRATION</a>
 
 
 

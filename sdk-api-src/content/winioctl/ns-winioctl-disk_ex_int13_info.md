@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: efde6ede-b921-4d1d-ab4a-b9f85ae6aea1
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDISK_EX_INT13_INFO, DISK_EX_INT13_INFO, DISK_EX_INT13_INFO structure [Files], PDISK_EX_INT13_INFO, PDISK_EX_INT13_INFO structure pointer [Files], _win32_disk_ex_int13_info_str, base.disk_ex_int13_info_str, fs.disk_ex_int13_info_str, winioctl/DISK_EX_INT13_INFO, winioctl/PDISK_EX_INT13_INFO"
+ms.keywords: '*PDISK_EX_INT13_INFO, DISK_EX_INT13_INFO, DISK_EX_INT13_INFO structure [Files], PDISK_EX_INT13_INFO, PDISK_EX_INT13_INFO structure pointer [Files], _win32_disk_ex_int13_info_str, base.disk_ex_int13_info_str, fs.disk_ex_int13_info_str, winioctl/DISK_EX_INT13_INFO, winioctl/PDISK_EX_INT13_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/DISK_EX_INT13_INFO"
+f1_keywords:
+- winioctl/DISK_EX_INT13_INFO
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - DISK_EX_INT13_INFO
+- DISK_EX_INT13_INFO
 product: Windows
 targetos: Windows
 req.typenames: DISK_EX_INT13_INFO, *PDISK_EX_INT13_INFO
@@ -103,7 +103,7 @@ Reserved for future use.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_detection_info">DISK_DETECTION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_detection_info">DISK_DETECTION_INFO</a>
  
 
  

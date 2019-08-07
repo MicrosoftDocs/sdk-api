@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: f5917ae3-cc45-42c4-a3fb-5d0aef2a3bdb
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPEXCEPTION_DEBUG_INFO, EXCEPTION_DEBUG_INFO, EXCEPTION_DEBUG_INFO structure, LPEXCEPTION_DEBUG_INFO, LPEXCEPTION_DEBUG_INFO structure pointer, _EXCEPTION_DEBUG_INFO, _win32_exception_debug_info_str, base.exception_debug_info_str, minwinbase/EXCEPTION_DEBUG_INFO, minwinbase/LPEXCEPTION_DEBUG_INFO"
+ms.keywords: '*LPEXCEPTION_DEBUG_INFO, EXCEPTION_DEBUG_INFO, EXCEPTION_DEBUG_INFO structure, LPEXCEPTION_DEBUG_INFO, LPEXCEPTION_DEBUG_INFO structure pointer, _EXCEPTION_DEBUG_INFO, _win32_exception_debug_info_str, base.exception_debug_info_str, minwinbase/EXCEPTION_DEBUG_INFO, minwinbase/LPEXCEPTION_DEBUG_INFO'
 ms.topic: struct
-f1_keywords: 
- - "minwinbase/EXCEPTION_DEBUG_INFO"
+f1_keywords:
+- minwinbase/EXCEPTION_DEBUG_INFO
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minwinbase.h
+- minwinbase.h
 api_name:
- - EXCEPTION_DEBUG_INFO
+- EXCEPTION_DEBUG_INFO
 product: Windows
 targetos: Windows
 req.typenames: EXCEPTION_DEBUG_INFO, *LPEXCEPTION_DEBUG_INFO
@@ -62,7 +62,7 @@ Contains exception information that can be used by a debugger.
 ### -field ExceptionRecord
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_record">EXCEPTION_RECORD</a> structure with information specific to the exception. This includes the exception code, flags, address, a pointer to a related exception, extra parameters, and so on.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a> structure with information specific to the exception. This includes the exception code, flags, address, a pointer to a related exception, extra parameters, and so on.
 
 
 ### -field dwFirstChance
@@ -79,7 +79,7 @@ A value that indicates whether the debugger has previously encountered the excep
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_record">EXCEPTION_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a>
  
 
  

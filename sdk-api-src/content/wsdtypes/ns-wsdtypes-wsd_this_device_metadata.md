@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_THIS_DEVICE_METADATA, WSD_THIS_DEVICE_METADATA structure, ncd.wsd_this_device_metadata_struct, wsdtypes/WSD_THIS_DEVICE_METADATA
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_THIS_DEVICE_METADATA"
+f1_keywords:
+- wsdtypes/WSD_THIS_DEVICE_METADATA
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_THIS_DEVICE_METADATA
+- WSD_THIS_DEVICE_METADATA
 product: Windows
 targetos: Windows
 req.typenames: WSD_THIS_DEVICE_METADATA
@@ -61,7 +61,7 @@ Specifies metadata that is unique to a specific device.
 
 ### -field FriendlyName
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_localized_string_list">WSD_LOCALIZED_STRING_LIST</a> structure that contains the list of localized friendly names for the device. It should be set to fewer than 256 characters.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_localized_string_list">WSD_LOCALIZED_STRING_LIST</a> structure that contains the list of localized friendly names for the device. It should be set to fewer than 256 characters.
 
 
 ### -field FirmwareVersion
@@ -76,7 +76,7 @@ The serial number of the device. It should be set to fewer than 256 characters.
 
 ### -field Any
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_element">WSDXML_ELEMENT</a> structure that provides an extensible space for devices to add custom metadata to the device specific section. For example, you can use this to add a user-defined name for the device. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that provides an extensible space for devices to add custom metadata to the device specific section. For example, you can use this to add a user-defined name for the device. 
 
 
 ## -remarks

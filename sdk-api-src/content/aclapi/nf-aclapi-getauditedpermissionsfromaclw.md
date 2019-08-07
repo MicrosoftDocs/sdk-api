@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAuditedPermissionsFromAcl, GetAuditedPermissionsFromAcl function [Security], GetAuditedPermissionsFromAclA, GetAuditedPermissionsFromAclW, _win32_getauditedpermissionsfromacl, aclapi/GetAuditedPermissionsFromAcl, aclapi/GetAuditedPermissionsFromAclA, aclapi/GetAuditedPermissionsFromAclW, security.getauditedpermissionsfromacl
 ms.topic: function
-f1_keywords: 
- - "aclapi/GetAuditedPermissionsFromAcl"
+f1_keywords:
+- aclapi/GetAuditedPermissionsFromAcl
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-security-trustee-l1-1-1.dll
- - advapi32legacy.dll
+- Advapi32.dll
+- API-MS-Win-security-trustee-l1-1-1.dll
+- advapi32legacy.dll
 api_name:
- - GetAuditedPermissionsFromAcl
- - GetAuditedPermissionsFromAclA
- - GetAuditedPermissionsFromAclW
+- GetAuditedPermissionsFromAcl
+- GetAuditedPermissionsFromAclA
+- GetAuditedPermissionsFromAclW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 The <b>GetAuditedPermissionsFromAcl</b> function retrieves the audited access rights for a specified trustee. The audited rights are based on the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) of a specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL). The audited access rights indicate the types of access attempts that cause the system to generate an audit record in the system event log. The audited rights include those that the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> specifies for the trustee or for any groups of which the trustee is a member. In determining the audited rights, the function does not consider the security privileges held by the trustee.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> specifies for the trustee or for any groups of which the trustee is a member. In determining the audited rights, the function does not consider the security privileges held by the trustee.
 
 
 ## -parameters
@@ -67,13 +67,13 @@ The <b>GetAuditedPermissionsFromAcl</b> function retrieves the audited access ri
 ### -param pacl [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> structure from which to get the trustee's audited access rights.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure from which to get the trustee's audited access rights.
 
 
 ### -param pTrustee [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure that identifies the trustee. A trustee can be a user, group, or program (such as a Windows service). You can use a name or a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) to identify a trustee. For information about SID structures, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure that identifies the trustee. A trustee can be a user, group, or program (such as a Windows service). You can use a name or a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) to identify a trustee. For information about SID structures, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>.
 
 
 ### -param pSuccessfulAuditedRights [out]
@@ -120,7 +120,7 @@ The <b>GetAuditedPermissionsFromAcl</b> function checks all system-audit ACEs in
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
@@ -136,11 +136,11 @@ The <b>GetAuditedPermissionsFromAcl</b> function checks all system-audit ACEs in
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_audit_ace">SYSTEM_AUDIT_ACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_audit_ace">SYSTEM_AUDIT_ACE</a>
 
 
 

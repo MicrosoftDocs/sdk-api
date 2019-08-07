@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 2DAAC1FE-2503-4820-9718-9A653B0A05CA
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSTORAGE_HW_FIRMWARE_ACTIVATE, PSTORAGE_HW_FIRMWARE_ACTIVATE, PSTORAGE_HW_FIRMWARE_ACTIVATE structure pointer [Files], STORAGE_HW_FIRMWARE_ACTIVATE, STORAGE_HW_FIRMWARE_ACTIVATE structure [Files], fs.storage_hw_firmware_activate, winioctl/PSTORAGE_HW_FIRMWARE_ACTIVATE, winioctl/STORAGE_HW_FIRMWARE_ACTIVATE"
+ms.keywords: '*PSTORAGE_HW_FIRMWARE_ACTIVATE, PSTORAGE_HW_FIRMWARE_ACTIVATE, PSTORAGE_HW_FIRMWARE_ACTIVATE structure pointer [Files], STORAGE_HW_FIRMWARE_ACTIVATE, STORAGE_HW_FIRMWARE_ACTIVATE structure [Files], fs.storage_hw_firmware_activate, winioctl/PSTORAGE_HW_FIRMWARE_ACTIVATE, winioctl/STORAGE_HW_FIRMWARE_ACTIVATE'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/STORAGE_HW_FIRMWARE_ACTIVATE"
+f1_keywords:
+- winioctl/STORAGE_HW_FIRMWARE_ACTIVATE
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winioctl.h
+- winioctl.h
 api_name:
- - STORAGE_HW_FIRMWARE_ACTIVATE
+- STORAGE_HW_FIRMWARE_ACTIVATE
 product: Windows
 targetos: Windows
 req.typenames: STORAGE_HW_FIRMWARE_ACTIVATE, *PSTORAGE_HW_FIRMWARE_ACTIVATE
@@ -116,7 +116,7 @@ Reserved for future use.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_hw_firmware_download">STORAGE_HW_FIRMWARE_DOWNLOAD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_hw_firmware_download">STORAGE_HW_FIRMWARE_DOWNLOAD</a>
 
 
 

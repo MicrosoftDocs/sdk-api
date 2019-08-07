@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 1a531219-f254-4057-934b-af95bfe0bb83
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_TRUST_REG_ENTRY, CRYPT_TRUST_REG_ENTRY, CRYPT_TRUST_REG_ENTRY structure [Security], PCRYPT_TRUST_REG_ENTRY, PCRYPT_TRUST_REG_ENTRY structure pointer [Security], security.crypt_trust_reg_entry, wintrust/CRYPT_TRUST_REG_ENTRY, wintrust/PCRYPT_TRUST_REG_ENTRY"
+ms.keywords: '*PCRYPT_TRUST_REG_ENTRY, CRYPT_TRUST_REG_ENTRY, CRYPT_TRUST_REG_ENTRY structure [Security], PCRYPT_TRUST_REG_ENTRY, PCRYPT_TRUST_REG_ENTRY structure pointer [Security], security.crypt_trust_reg_entry, wintrust/CRYPT_TRUST_REG_ENTRY, wintrust/PCRYPT_TRUST_REG_ENTRY'
 ms.topic: struct
-f1_keywords: 
- - "wintrust/CRYPT_TRUST_REG_ENTRY"
+f1_keywords:
+- wintrust/CRYPT_TRUST_REG_ENTRY
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wintrust.h
+- Wintrust.h
 api_name:
- - CRYPT_TRUST_REG_ENTRY
+- CRYPT_TRUST_REG_ENTRY
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_TRUST_REG_ENTRY, *PCRYPT_TRUST_REG_ENTRY
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The <b>CRYPT_TRUST_REG_ENTRY</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPT_TRUST_REG_ENTRY</b> structure identifies a provider function by DLL name and function name. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_register_actionid">CRYPT_REGISTER_ACTIONID</a> structure when the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wintrustaddactionid">WintrustAddActionID</a> function is called.
+The <b>CRYPT_TRUST_REG_ENTRY</b> structure identifies a provider function by DLL name and function name. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_register_actionid">CRYPT_REGISTER_ACTIONID</a> structure when the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wintrustaddactionid">WintrustAddActionID</a> function is called.
 
 
 ## -struct-fields
@@ -81,7 +81,7 @@ A pointer to a null-terminated string for the function name.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_register_actionid">CRYPT_REGISTER_ACTIONID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_register_actionid">CRYPT_REGISTER_ACTIONID</a>
 
 
 

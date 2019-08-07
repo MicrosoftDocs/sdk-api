@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WcmSetProfileList, WcmSetProfileList function [Windows Connection Manager], wcm.wcmsetprofilelist, wcmapi/WcmSetProfileList
 ms.topic: function
-f1_keywords: 
- - "wcmapi/WcmSetProfileList"
+f1_keywords:
+- wcmapi/WcmSetProfileList
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Wcmapi.lib
 req.dll: Wcmapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wcmapi.dll
- - Ext-MS-Win-networking-wcmapi-l1-1-0.dll
+- Wcmapi.dll
+- Ext-MS-Win-networking-wcmapi-l1-1-0.dll
 api_name:
- - WcmSetProfileList
+- WcmSetProfileList
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>WcmSetProfileList</b> function reorders a profile list or a subset of a p
 
 ### -param pProfileList [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_profile_info_list">WCM_PROFILE_INFO_LIST</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_profile_info_list">WCM_PROFILE_INFO_LIST</a>*</b>
 
 The list of profiles to be reordered, provided in the preferred order (descending from the most preferred to the least preferred).
 
@@ -104,7 +104,7 @@ Returns ERROR_SUCCESS if successful, or an error value otherwise.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_profile_info_list">WCM_PROFILE_INFO_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_profile_info_list">WCM_PROFILE_INFO_LIST</a>
  
 
  

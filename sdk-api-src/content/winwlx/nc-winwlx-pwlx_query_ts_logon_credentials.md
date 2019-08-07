@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWLX_QUERY_TS_LOGON_CREDENTIALS, PWLX_QUERY_TS_LOGON_CREDENTIALS callback, WlxQueryTsLogonCredentials, WlxQueryTsLogonCredentials callback function [Security], security.wlxquerytslogoncredentials, winwlx/WlxQueryTsLogonCredentials
 ms.topic: callback
-f1_keywords: 
- - "winwlx/WlxQueryTsLogonCredentials"
+f1_keywords:
+- winwlx/WlxQueryTsLogonCredentials
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - winwlx.h
+- winwlx.h
 api_name:
- - WlxQueryTsLogonCredentials
+- WlxQueryTsLogonCredentials
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -112,7 +112,7 @@ The credentials information was not retrieved.
 This function supersedes the <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_client_credentials">WlxQueryClientCredentials</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_ic_credentials">WlxQueryInetConnectorCredentials</a> functions.
 
 To access this function, the GINA DLL must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_dispatch_version_1_4">WLX_DISPATCH_VERSION_1_4</a> structure and set the Winlogon version to at least WLX_VERSION_1_4 in its 
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_dispatch_version_1_4">WLX_DISPATCH_VERSION_1_4</a> structure and set the Winlogon version to at least WLX_VERSION_1_4 in its 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxnegotiate">WlxNegotiate</a> call.
 
 Other Winlogon support functions that may be called when Terminal Services is enabled are <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_disconnect">WlxDisconnect</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_client_credentials">WlxQueryClientCredentials</a>,

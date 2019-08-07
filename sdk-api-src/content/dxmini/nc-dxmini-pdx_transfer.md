@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DxTransfer, DxTransfer callback function [Display Devices], PDX_TRANSFER, PDX_TRANSFER callback, VideoMiniPort_DxApiFunctions_f6a3f689-7e04-4dec-850c-fa47b5ac1543.xml, display.dxtransfer, dxmini/DxTransfer
 ms.topic: callback
-f1_keywords: 
- - "dxmini/DxTransfer"
+f1_keywords:
+- dxmini/DxTransfer
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - dxmini.h
+- dxmini.h
 api_name:
- - DxTransfer
+- DxTransfer
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -81,12 +81,12 @@ Points to the miniport driver's device extension.
 
 #### - TransferInInfo
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddtransferininfo">DDTRANSFERININFO</a> structure that contains the transfer information for the surface.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddtransferininfo">DDTRANSFERININFO</a> structure that contains the transfer information for the surface.
 
 
 #### - TransferOutInfo
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddtransferoutinfo">DDTRANSFEROUTINFO</a> structure that contains the polarity of the field being captured.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddtransferoutinfo">DDTRANSFEROUTINFO</a> structure that contains the polarity of the field being captured.
 
 
 ## -returns
@@ -155,11 +155,11 @@ In addition, the driver should not fail the call just because the hardware is cu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddtransferininfo">DDTRANSFERININFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddtransferininfo">DDTRANSFERININFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddtransferoutinfo">DDTRANSFEROUTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddtransferoutinfo">DDTRANSFEROUTINFO</a>
 
 
 

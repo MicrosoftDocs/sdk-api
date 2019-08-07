@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_GET_MEDIA_TYPES_EX, IOCTL_STORAGE_GET_MEDIA_TYPES_EX control, IOCTL_STORAGE_GET_MEDIA_TYPES_EX control code, _win32_ioctl_storage_get_media_types_ex, base.ioctl_storage_get_media_types_ex, winioctl/IOCTL_STORAGE_GET_MEDIA_TYPES_EX
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_STORAGE_GET_MEDIA_TYPES_EX"
+f1_keywords:
+- winioctl/IOCTL_STORAGE_GET_MEDIA_TYPES_EX
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_STORAGE_GET_MEDIA_TYPES_EX
+- IOCTL_STORAGE_GET_MEDIA_TYPES_EX
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -156,7 +156,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_get_media_types">GET_MEDIA_TYPES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-get_media_types">GET_MEDIA_TYPES</a>
  
 
  

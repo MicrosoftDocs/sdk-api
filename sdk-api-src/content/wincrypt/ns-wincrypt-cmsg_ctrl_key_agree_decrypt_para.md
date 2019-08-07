@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 14e58281-4315-4ece-8ea8-92765cffd212
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCMSG_CTRL_KEY_AGREE_DECRYPT_PARA, CMSG_CTRL_KEY_AGREE_DECRYPT_PARA, CMSG_CTRL_KEY_AGREE_DECRYPT_PARA structure [Security], PCMSG_CTRL_KEY_AGREE_DECRYPT_PARA, PCMSG_CTRL_KEY_AGREE_DECRYPT_PARA structure pointer [Security], _crypto2_cmsg_ctrl_key_agree_decrypt_para, security.cmsg_ctrl_key_agree_decrypt_para, wincrypt/CMSG_CTRL_KEY_AGREE_DECRYPT_PARA, wincrypt/PCMSG_CTRL_KEY_AGREE_DECRYPT_PARA"
+ms.keywords: '*PCMSG_CTRL_KEY_AGREE_DECRYPT_PARA, CMSG_CTRL_KEY_AGREE_DECRYPT_PARA, CMSG_CTRL_KEY_AGREE_DECRYPT_PARA structure [Security], PCMSG_CTRL_KEY_AGREE_DECRYPT_PARA, PCMSG_CTRL_KEY_AGREE_DECRYPT_PARA structure pointer [Security], _crypto2_cmsg_ctrl_key_agree_decrypt_para, security.cmsg_ctrl_key_agree_decrypt_para, wincrypt/CMSG_CTRL_KEY_AGREE_DECRYPT_PARA, wincrypt/PCMSG_CTRL_KEY_AGREE_DECRYPT_PARA'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMSG_CTRL_KEY_AGREE_DECRYPT_PARA"
+f1_keywords:
+- wincrypt/CMSG_CTRL_KEY_AGREE_DECRYPT_PARA
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMSG_CTRL_KEY_AGREE_DECRYPT_PARA
+- CMSG_CTRL_KEY_AGREE_DECRYPT_PARA
 product: Windows
 targetos: Windows
 req.typenames: CMSG_CTRL_KEY_AGREE_DECRYPT_PARA, *PCMSG_CTRL_KEY_AGREE_DECRYPT_PARA
@@ -72,7 +72,7 @@ The size, in bytes,  of this data structure.
 
 ### -field DUMMYUNIONNAME.hCryptProv
 
-A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) used to do the recipient key encryption and export. If <b>NULL</b>, the provider specified in <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> is used.
+A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) used to do the recipient key encryption and export. If <b>NULL</b>, the provider specified in <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> is used.
 					The CNG function <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptiskeyhandle">NCryptIsKeyHandle</a> is called to determine the union choice.
 
 
@@ -88,7 +88,7 @@ Specifies the encrypted key. The encrypted key is the result of encrypting the c
 
 ### -field pKeyAgree
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_key_agree_recipient_info">CMSG_KEY_AGREE_RECIPIENT_INFO</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_key_agree_recipient_info">CMSG_KEY_AGREE_RECIPIENT_INFO</a> structure.
 
 
 ### -field dwRecipientIndex
@@ -103,5 +103,5 @@ Indicates a specific encrypted key in an array of encrypted keys.
 
 ### -field OriginatorPublicKey
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_bit_blob">CRYPT_BIT_BLOB</a> structure that contains the sender's public key information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_bit_blob">CRYPT_BIT_BLOB</a> structure that contains the sender's public key information.
 

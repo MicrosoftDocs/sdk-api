@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: e0946278-75e9-4990-af81-d9e61da9724b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCMSG_MAIL_LIST_RECIPIENT_INFO, CMSG_MAIL_LIST_RECIPIENT_INFO, CMSG_MAIL_LIST_RECIPIENT_INFO structure [Security], PCMSG_MAIL_LIST_RECIPIENT_INFO, PCMSG_MAIL_LIST_RECIPIENT_INFO structure pointer [Security], _crypto2_cmsg_mail_list_recipient_info, security.cmsg_mail_list_recipient_info, wincrypt/CMSG_MAIL_LIST_RECIPIENT_INFO, wincrypt/PCMSG_MAIL_LIST_RECIPIENT_INFO"
+ms.keywords: '*PCMSG_MAIL_LIST_RECIPIENT_INFO, CMSG_MAIL_LIST_RECIPIENT_INFO, CMSG_MAIL_LIST_RECIPIENT_INFO structure [Security], PCMSG_MAIL_LIST_RECIPIENT_INFO, PCMSG_MAIL_LIST_RECIPIENT_INFO structure pointer [Security], _crypto2_cmsg_mail_list_recipient_info, security.cmsg_mail_list_recipient_info, wincrypt/CMSG_MAIL_LIST_RECIPIENT_INFO, wincrypt/PCMSG_MAIL_LIST_RECIPIENT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMSG_MAIL_LIST_RECIPIENT_INFO"
+f1_keywords:
+- wincrypt/CMSG_MAIL_LIST_RECIPIENT_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMSG_MAIL_LIST_RECIPIENT_INFO
+- CMSG_MAIL_LIST_RECIPIENT_INFO
 product: Windows
 targetos: Windows
 req.typenames: CMSG_MAIL_LIST_RECIPIENT_INFO, *PCMSG_MAIL_LIST_RECIPIENT_INFO
@@ -72,7 +72,7 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/a
 ### -field KeyEncryptionAlgorithm
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> that identifies the key-encryption algorithm and any associated parameters used to encrypt the content encryption key.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> that identifies the key-encryption algorithm and any associated parameters used to encrypt the content encryption key.
 
 
 ### -field EncryptedKey
@@ -88,5 +88,5 @@ Optional. When present, this member specifies a single key-encryption key from a
 ### -field pOtherAttr
 
 Optional pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attribute_type_value">CRYPT_ATTRIBUTE_TYPE_VALUE</a> structure containing additional information.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute_type_value">CRYPT_ATTRIBUTE_TYPE_VALUE</a> structure containing additional information.
 

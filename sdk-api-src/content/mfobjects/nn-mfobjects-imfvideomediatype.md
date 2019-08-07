@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9109b0dd-c44d-41d4-9480-1ca5c667dbd7, IMFVideoMediaType, IMFVideoMediaType interface [Media Foundation], IMFVideoMediaType interface [Media Foundation],described, mf.imfvideomediatype, mfobjects/IMFVideoMediaType
 ms.topic: interface
-f1_keywords: 
- - "mfobjects/IMFVideoMediaType"
+f1_keywords:
+- mfobjects/IMFVideoMediaType
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFVideoMediaType
+- IMFVideoMediaType
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ The <b>IMFVideoMediaType</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfvideomediatype-getvideoformat">GetVideoFormat</a>
 </td>
 <td align="left" width="63%">
-Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat">MFVIDEOFORMAT</a> structure that describes the video format. (Deprecated.)
+Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure that describes the video format. (Deprecated.)
 
 </td>
 </tr>

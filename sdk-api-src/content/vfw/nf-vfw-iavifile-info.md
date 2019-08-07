@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAVIFile interface [Windows Multimedia],Info method, IAVIFile.Info, IAVIFile::Info, Info, Info method [Windows Multimedia], Info method [Windows Multimedia],IAVIFile interface, _win32_IAVIFile_Info, multimedia.iavifile_info, vfw/IAVIFile::Info
 ms.topic: method
-f1_keywords: 
- - "vfw/IAVIFile.Info"
+f1_keywords:
+- vfw/IAVIFile.Info
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Vfw32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vfw32.lib
- - Vfw32.dll
+- Vfw32.lib
+- Vfw32.dll
 api_name:
- - IAVIFile.Info
+- IAVIFile.Info
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ The <b>Info</b> method returns with information about an AVI file. Called when a
 
 ### -param pfi
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-_avifileinfoa">AVIFILEINFO</a> structure. The method fills the structure with information about the file.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-avifileinfoa">AVIFILEINFO</a> structure. The method fills the structure with information about the file.
 
 
 ### -param lSize

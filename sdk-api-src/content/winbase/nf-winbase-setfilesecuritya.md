@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetFileSecurity, SetFileSecurity function [Security], SetFileSecurityA, SetFileSecurityW, _win32_setfilesecurity, security.setfilesecurity, winbase/SetFileSecurity, winbase/SetFileSecurityA, winbase/SetFileSecurityW
 ms.topic: function
-f1_keywords: 
- - "winbase/SetFileSecurity"
+f1_keywords:
+- winbase/SetFileSecurity
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,25 +30,25 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - AdvApi32Legacy.dll
- - API-Ms-Win-Security-Base-Ansi-L1-1-0.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- AdvApi32Legacy.dll
+- API-Ms-Win-Security-Base-Ansi-L1-1-0.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - SetFileSecurity
- - SetFileSecurityA
- - SetFileSecurityW
+- SetFileSecurity
+- SetFileSecurityA
+- SetFileSecurityW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -86,7 +86,7 @@ Specifies a
 ### -param pSecurityDescriptor [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 
 ## -returns
@@ -132,7 +132,7 @@ The <b>SetFileSecurity</b> function is successful only if the following conditio
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 

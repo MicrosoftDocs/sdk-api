@@ -8,10 +8,10 @@ tech.root: power
 ms.assetid: 5c177093-0c16-4a84-9212-f2376de6965b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PGLOBAL_POWER_POLICY, GLOBAL_POWER_POLICY, GLOBAL_POWER_POLICY structure, PGLOBAL_POWER_POLICY, PGLOBAL_POWER_POLICY structure pointer, _win32_global_power_policy_str, base.global_power_policy_str, powrprof/GLOBAL_POWER_POLICY, powrprof/PGLOBAL_POWER_POLICY"
+ms.keywords: '*PGLOBAL_POWER_POLICY, GLOBAL_POWER_POLICY, GLOBAL_POWER_POLICY structure, PGLOBAL_POWER_POLICY, PGLOBAL_POWER_POLICY structure pointer, _win32_global_power_policy_str, base.global_power_policy_str, powrprof/GLOBAL_POWER_POLICY, powrprof/PGLOBAL_POWER_POLICY'
 ms.topic: struct
-f1_keywords: 
- - "powrprof/GLOBAL_POWER_POLICY"
+f1_keywords:
+- powrprof/GLOBAL_POWER_POLICY
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - PowrProf.h
+- PowrProf.h
 api_name:
- - GLOBAL_POWER_POLICY
+- GLOBAL_POWER_POLICY
 product: Windows
 targetos: Windows
 req.typenames: GLOBAL_POWER_POLICY, *PGLOBAL_POWER_POLICY
@@ -62,13 +62,13 @@ Contains global power policy settings that apply to all power schemes.
 ### -field user
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_global_user_power_policy">GLOBAL_USER_POWER_POLICY</a> structure that defines the global user power policy settings.
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_user_power_policy">GLOBAL_USER_POWER_POLICY</a> structure that defines the global user power policy settings.
 
 
 ### -field mach
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_global_machine_power_policy">GLOBAL_MACHINE_POWER_POLICY</a> structure that defines the global computer power policy settings.
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_machine_power_policy">GLOBAL_MACHINE_POWER_POLICY</a> structure that defines the global computer power policy settings.
 
 
 ## -see-also
@@ -76,11 +76,11 @@ A
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_global_machine_power_policy">GLOBAL_MACHINE_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_machine_power_policy">GLOBAL_MACHINE_POWER_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_global_user_power_policy">GLOBAL_USER_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_user_power_policy">GLOBAL_USER_POWER_POLICY</a>
 
 
 

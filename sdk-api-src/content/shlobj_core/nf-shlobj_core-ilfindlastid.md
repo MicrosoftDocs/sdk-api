@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILFindLastID, ILFindLastID function [Windows Shell], _win32_ILFindLastID, shell.ILFindLastID, shlobj_core/ILFindLastID
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/ILFindLastID"
+f1_keywords:
+- shlobj_core/ILFindLastID
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - Ext-MS-Win-shell-shell32-l1-2-0.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
- - API-MS-Win-Shell-Namespace-L1-1-0.dll
- - Windows.Storage.dll
+- Shell32.dll
+- Ext-MS-Win-shell-shell32-l1-2-0.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- API-MS-Win-Shell-Namespace-L1-1-0.dll
+- Windows.Storage.dll
 api_name:
- - ILFindLastID
+- ILFindLastID
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns a pointer to the last <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure in an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
+Returns a pointer to the last <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure in an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Returns a pointer to the last <a href="https://docs.microsoft.com/windows/deskto
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -returns
@@ -77,7 +77,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/
 
 Type: <b>PUITEMID_CHILD</b>
 
-A pointer to the last <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure in <i>pidl</i>.
+A pointer to the last <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure in <i>pidl</i>.
 
 
 

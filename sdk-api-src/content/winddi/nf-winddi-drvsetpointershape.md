@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvSetPointerShape, DrvSetPointerShape function [Display Devices], ddifncs_86472b92-edfc-4811-8b35-e690136a2430.xml, display.drvsetpointershape, winddi/DrvSetPointerShape
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvSetPointerShape"
+f1_keywords:
+- winddi/DrvSetPointerShape
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvSetPointerShape
+- DrvSetPointerShape
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>DrvSetPointerShape</b> function is used to request the driver to take the
 
 ### -param pso [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure that describes the surface on which to draw.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the surface on which to draw.
 
 
 ### -param psoMask [in]
@@ -278,7 +278,7 @@ The driver indicates its ability to handle pointers with per-pixel alpha values 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
 
 
 

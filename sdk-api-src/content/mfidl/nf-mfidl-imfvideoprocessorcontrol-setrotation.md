@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetRotation method, IMFVideoProcessorControl.SetRotation, IMFVideoProcessorControl::SetRotation, SetRotation, SetRotation method [Media Foundation], SetRotation method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setrotation, mfidl/IMFVideoProcessorControl::SetRotation
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFVideoProcessorControl.SetRotation"
+f1_keywords:
+- mfidl/IMFVideoProcessorControl.SetRotation
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFVideoProcessorControl.SetRotation
+- IMFVideoProcessorControl.SetRotation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Specifies whether to rotate the video to the correct orientation.
 
 ### -param eRotation
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mf_video_processor_rotation">MF_VIDEO_PROCESSOR_ROTATION</a> value that specifies whether to rotate the image.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mf_video_processor_rotation">MF_VIDEO_PROCESSOR_ROTATION</a> value that specifies whether to rotate the image.
 
 
 ## -returns

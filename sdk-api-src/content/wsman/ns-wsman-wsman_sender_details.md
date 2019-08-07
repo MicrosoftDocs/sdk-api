@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_SENDER_DETAILS, WSMAN_SENDER_DETAILS structure [Windows Remote Management], winrm.wsman_sender_details, wsman/WSMAN_SENDER_DETAILS
 ms.topic: struct
-f1_keywords: 
- - "wsman/WSMAN_SENDER_DETAILS"
+f1_keywords:
+- wsman/WSMAN_SENDER_DETAILS
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_SENDER_DETAILS
+- WSMAN_SENDER_DETAILS
 product: Windows
 targetos: Windows
 req.typenames: WSMAN_SENDER_DETAILS
@@ -125,7 +125,7 @@ All other types are queried directly from the security package.  For Internet In
 
 ### -field certificateDetails
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_certificate_details">WSMAN_CERTIFICATE_DETAILS</a> structure that specifies the details of the client's certificate. This parameter is valid only if the <i>authenticationMechanism</i>is set to ClientCertificate.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_certificate_details">WSMAN_CERTIFICATE_DETAILS</a> structure that specifies the details of the client's certificate. This parameter is valid only if the <i>authenticationMechanism</i>is set to ClientCertificate.
 
 
 ### -field clientToken

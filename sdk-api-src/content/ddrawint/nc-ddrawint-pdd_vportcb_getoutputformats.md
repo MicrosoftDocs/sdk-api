@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortGetOutputFormats, DdVideoPortGetOutputFormats callback function [Display Devices], PDD_VPORTCB_GETOUTPUTFORMATS, PDD_VPORTCB_GETOUTPUTFORMATS callback, ddfncs_24c5f4e8-c9ee-4104-80e5-7f6ef21a1f22.xml, ddrawint/DdVideoPortGetOutputFormats, display.ddvideoportgetoutputformats
 ms.topic: callback
-f1_keywords: 
- - "ddrawint/DdVideoPortGetOutputFormats"
+f1_keywords:
+- ddrawint/DdVideoPortGetOutputFormats
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DdVideoPortGetOutputFormats
+- DdVideoPortGetOutputFormats
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The <b>DdVideoPortGetOutputFormats</b> callback function determines the output f
 
 #### - lpGetOutputFormats
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getvportoutputformatdata">DD_GETVPORTOUTPUTFORMATDATA</a> structure that contains the information required for the driver to return the output formats the VPE object supports.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportoutputformatdata">DD_GETVPORTOUTPUTFORMATDATA</a> structure that contains the information required for the driver to return the output formats the VPE object supports.
 
 
 ## -returns
@@ -114,7 +114,7 @@ If the <b>dwFlags</b> member of DD_GETVPORTOUTPUTFORMATDATA is set only to DDVPF
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getvportoutputformatdata">DD_GETVPORTOUTPUTFORMATDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportoutputformatdata">DD_GETVPORTOUTPUTFORMATDATA</a>
  
 
  

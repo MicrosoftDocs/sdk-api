@@ -8,10 +8,10 @@ tech.root: devio
 ms.assetid: d0107cae-50c9-46d2-97cd-324030692903
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure, PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure pointer, base.device_dsm_offload_write_parameters, winioctl/DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, winioctl/PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS"
+ms.keywords: '*PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure, PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure pointer, base.device_dsm_offload_write_parameters, winioctl/DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, winioctl/PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS"
+f1_keywords:
+- winioctl/DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
+- DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
 product: Windows
 targetos: Windows
 req.typenames: DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, *PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
@@ -82,7 +82,7 @@ The starting offset to copy from the range bound to the token
 ### -field Token
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_offload_token">STORAGE_OFFLOAD_TOKEN</a> structure containing 
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_offload_token">STORAGE_OFFLOAD_TOKEN</a> structure containing 
       the token returned from the offload read operation.
 
 
@@ -103,7 +103,7 @@ The starting offset to copy from the range bound to the token
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>
  
 
  

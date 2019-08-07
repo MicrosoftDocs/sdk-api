@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_PROPERTY_CLOSE_TIMEOUT, WS_SERVICE_PROPERTY_FAULT_DISCLOSURE, WS_SERVICE_PROPERTY_FAULT_LANGID, WS_SERVICE_PROPERTY_HOST_STATE, WS_SERVICE_PROPERTY_HOST_USER_STATE, WS_SERVICE_PROPERTY_ID, WS_SERVICE_PROPERTY_ID enumeration [Web Services for Windows], WS_SERVICE_PROPERTY_METADATA, webservices/WS_SERVICE_PROPERTY_CLOSE_TIMEOUT, webservices/WS_SERVICE_PROPERTY_FAULT_DISCLOSURE, webservices/WS_SERVICE_PROPERTY_FAULT_LANGID, webservices/WS_SERVICE_PROPERTY_HOST_STATE, webservices/WS_SERVICE_PROPERTY_HOST_USER_STATE, webservices/WS_SERVICE_PROPERTY_ID, webservices/WS_SERVICE_PROPERTY_METADATA, wsw.ws_service_property_id
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_SERVICE_PROPERTY_ID"
+f1_keywords:
+- webservices/WS_SERVICE_PROPERTY_ID
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SERVICE_PROPERTY_ID
+- WS_SERVICE_PROPERTY_ID
 product: Windows
 targetos: Windows
 req.typenames: WS_SERVICE_PROPERTY_ID
@@ -93,9 +93,9 @@ The returned value is a snapshot of the current state, so it is
 
 ### -field WS_SERVICE_PROPERTY_METADATA
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_metadata">WS_SERVICE_METADATA</a> structure used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateservicehost">WsCreateServiceHost</a> that contains the collection of metadata documents used for WS-MetadataExchange by the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_metadata">WS_SERVICE_METADATA</a> structure used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateservicehost">WsCreateServiceHost</a> that contains the collection of metadata documents used for WS-MetadataExchange by the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a>.
 
-The service name and namespace are used to create a service element inside the WSDL document. The document is identified by means of the service namespace provided as part of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_metadata">WS_SERVICE_METADATA</a> structure.
+The service name and namespace are used to create a service element inside the WSDL document. The document is identified by means of the service namespace provided as part of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_metadata">WS_SERVICE_METADATA</a> structure.
 
  
 Note that if a service section is already defined in any of the provided WSDL documents, a service element will not be added on behalf of the application by the runtime. 

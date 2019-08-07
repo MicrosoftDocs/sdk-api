@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInheritTypes, GetInheritTypes method [Security], GetInheritTypes method [Security],ISecurityInformation interface, ISecurityInformation interface [Security],GetInheritTypes method, ISecurityInformation.GetInheritTypes, ISecurityInformation::GetInheritTypes, _win32_isecurityinformation_getinherittypes, aclui/ISecurityInformation::GetInheritTypes, security.isecurityinformation_getinherittypes
 ms.topic: method
-f1_keywords: 
- - "aclui/ISecurityInformation.GetInheritTypes"
+f1_keywords:
+- aclui/ISecurityInformation.GetInheritTypes
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Aclui.h
+- Aclui.h
 api_name:
- - ISecurityInformation.GetInheritTypes
+- ISecurityInformation.GetInheritTypes
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The <b>GetInheritTypes</b> method requests information about how ACEs can be inh
 ### -param ppInheritTypes [out]
 
 A pointer to a variable you should set to a pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_si_inherit_type">SI_INHERIT_TYPE</a> structures. The array should include one entry for each combination of inheritance flags and child object type that you support.
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-si_inherit_type">SI_INHERIT_TYPE</a> structures. The array should include one entry for each combination of inheritance flags and child object type that you support.
 
 
 ### -param pcInheritTypes [out]
@@ -116,7 +116,7 @@ The access control editor does not free the pointer returned in <i>ppInheritType
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_si_inherit_type">SI_INHERIT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-si_inherit_type">SI_INHERIT_TYPE</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsDisk interface [VDS],SetFlags method, IVdsDisk.SetFlags, IVdsDisk::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsDisk interface, base.ivdsdisk_setflags, vds/IVdsDisk::SetFlags
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsDisk.SetFlags"
+f1_keywords:
+- vds/IVdsDisk.SetFlags
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsDisk.SetFlags
+- IVdsDisk.SetFlags
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Sets the flags of a disk object.
 
 ### -param ulFlags [in]
 
-A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_disk_flag">VDS_DISK_FLAG</a> enumeration values specifying the flags to be set. Only the <b>VDS_DF_READ_ONLY</b> flag can be set using this method. All other flags are set or cleared by the VDS service.
+A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_disk_flag">VDS_DISK_FLAG</a> enumeration values specifying the flags to be set. Only the <b>VDS_DF_READ_ONLY</b> flag can be set using this method. All other flags are set or cleared by the VDS service.
 
 
 ## -returns
@@ -149,15 +149,15 @@ VDS implements this method.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_disk_flag">VDS_DISK_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_disk_flag">VDS_DISK_FLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop">VDS_DISK_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop2">VDS_DISK_PROP2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a>
  
 
  

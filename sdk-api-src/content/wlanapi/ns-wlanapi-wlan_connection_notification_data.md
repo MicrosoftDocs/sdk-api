@@ -8,10 +8,10 @@ tech.root: NativeWiFi
 ms.assetid: 005af5ef-994d-425a-be4b-54567a733fb3
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_CONNECTION_NOTIFICATION_DATA, PWLAN_CONNECTION_NOTIFICATION_DATA, PWLAN_CONNECTION_NOTIFICATION_DATA structure pointer [NativeWIFI], WLAN_CONNECTION_NOTIFICATION_ADHOC_NETWORK_FORMED, WLAN_CONNECTION_NOTIFICATION_CONSOLE_USER_PROFILE, WLAN_CONNECTION_NOTIFICATION_DATA, WLAN_CONNECTION_NOTIFICATION_DATA structure [NativeWIFI], nwifi.wlan_connection_notification_data, wlanapi/PWLAN_CONNECTION_NOTIFICATION_DATA, wlanapi/WLAN_CONNECTION_NOTIFICATION_DATA"
+ms.keywords: '*PWLAN_CONNECTION_NOTIFICATION_DATA, PWLAN_CONNECTION_NOTIFICATION_DATA, PWLAN_CONNECTION_NOTIFICATION_DATA structure pointer [NativeWIFI], WLAN_CONNECTION_NOTIFICATION_ADHOC_NETWORK_FORMED, WLAN_CONNECTION_NOTIFICATION_CONSOLE_USER_PROFILE, WLAN_CONNECTION_NOTIFICATION_DATA, WLAN_CONNECTION_NOTIFICATION_DATA structure [NativeWIFI], nwifi.wlan_connection_notification_data, wlanapi/PWLAN_CONNECTION_NOTIFICATION_DATA, wlanapi/WLAN_CONNECTION_NOTIFICATION_DATA'
 ms.topic: struct
-f1_keywords: 
- - "wlanapi/WLAN_CONNECTION_NOTIFICATION_DATA"
+f1_keywords:
+- wlanapi/WLAN_CONNECTION_NOTIFICATION_DATA
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - WLAN_CONNECTION_NOTIFICATION_DATA
+- WLAN_CONNECTION_NOTIFICATION_DATA
 product: Windows
 targetos: Windows
 req.typenames: WLAN_CONNECTION_NOTIFICATION_DATA, *PWLAN_CONNECTION_NOTIFICATION_DATA
@@ -61,7 +61,7 @@ The <b>WLAN_CONNECTION_NOTIFICATION_DATA</b> structure contains information abou
 
 ### -field wlanConnectionMode
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_connection_mode">WLAN_CONNECTION_MODE</a> value that specifies the mode of the connection.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_connection_mode">WLAN_CONNECTION_MODE</a> value that specifies the mode of the connection.
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>Only the <b>wlan_connection_mode_profile</b>  value is supported.
 

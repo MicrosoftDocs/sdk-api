@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_SOAP_FAULT_CODE, WSD_SOAP_FAULT_CODE structure, ncd.wsd_soap_fault_code_struct, wsdtypes/WSD_SOAP_FAULT_CODE
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_SOAP_FAULT_CODE"
+f1_keywords:
+- wsdtypes/WSD_SOAP_FAULT_CODE
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_SOAP_FAULT_CODE
+- WSD_SOAP_FAULT_CODE
 product: Windows
 targetos: Windows
 req.typenames: WSD_SOAP_FAULT_CODE
@@ -66,7 +66,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom
 
 ### -field Subcode
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_fault_subcode">WSD_SOAP_FAULT_SUBCODE</a> structure that contains the fault subcode.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault_subcode">WSD_SOAP_FAULT_SUBCODE</a> structure that contains the fault subcode.
 
 
 ## -see-also
@@ -74,7 +74,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_fault">WSD_SOAP_FAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a>
  
 
  

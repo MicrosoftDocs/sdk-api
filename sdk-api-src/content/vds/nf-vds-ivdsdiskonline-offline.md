@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsDiskOnline interface,Offline method, IVdsDiskOnline.Offline, IVdsDiskOnline::Offline, Offline, Offline method, Offline method,IVdsDiskOnline interface, base.ivdsdiskonline_offline, vds/IVdsDiskOnline::Offline
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsDiskOnline.Offline"
+f1_keywords:
+- vds/IVdsDiskOnline.Offline
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsDiskOnline.Offline
+- IVdsDiskOnline.Offline
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -103,7 +103,7 @@ If a dynamic disk is read/write and online, it can be made read-only and taken o
 <ol>
 <li>For each volume on the disk, call the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf-dismount">IVdsVolumeMF::Dismount</a> method, setting the <i>bForce</i> and <i>bPermanent</i> parameters to <b>TRUE</b>.</li>
 <li>Call the <b>Offline</b> method.</li>
-<li>Set the read-only bit. (This is the <b>VDS_DF_READ_ONLY</b> flag in the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop">VDS_DISK_PROP</a> structure.)</li>
+<li>Set the read-only bit. (This is the <b>VDS_DF_READ_ONLY</b> flag in the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a> structure.)</li>
 </ol>
 If a basic disk is read/write and online, it can be made read-only and taken offline the same way, but the order of the steps does not matter.
 

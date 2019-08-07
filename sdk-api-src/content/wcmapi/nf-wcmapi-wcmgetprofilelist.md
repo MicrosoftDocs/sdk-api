@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WcmGetProfileList, WcmGetProfileList function [Windows Connection Manager], wcm.wcmgetprofilelist, wcmapi/WcmGetProfileList
 ms.topic: function
-f1_keywords: 
- - "wcmapi/WcmGetProfileList"
+f1_keywords:
+- wcmapi/WcmGetProfileList
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wcmapi.lib
 req.dll: Wcmapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wcmapi.dll
+- Wcmapi.dll
 api_name:
- - WcmGetProfileList
+- WcmGetProfileList
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Reserved.
 
 ### -param ppProfileList [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_profile_info_list">PWCM_PROFILE_INFO_LIST</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_profile_info_list">PWCM_PROFILE_INFO_LIST</a>*</b>
 
 The list of profiles.
 
@@ -89,7 +89,7 @@ Returns ERROR_SUCCESS if successful, or an error value otherwise.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_profile_info_list">PWCM_PROFILE_INFO_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_profile_info_list">PWCM_PROFILE_INFO_LIST</a>
  
 
  

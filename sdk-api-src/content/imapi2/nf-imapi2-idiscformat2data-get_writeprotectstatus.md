@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_WriteProtectStatus method, IDiscFormat2Data.get_WriteProtectStatus, IDiscFormat2Data::get_WriteProtectStatus, get_WriteProtectStatus, get_WriteProtectStatus method [IMAPI], get_WriteProtectStatus method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_writeprotectstatus, imapi2/IDiscFormat2Data::get_WriteProtectStatus
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2Data.get_WriteProtectStatus"
+f1_keywords:
+- imapi2/IDiscFormat2Data.get_WriteProtectStatus
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2Data.get_WriteProtectStatus
+- IDiscFormat2Data.get_WriteProtectStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Retrieves the current write protect state of the media in the device.
 
 ### -param value [out]
 
-The current write protect state of the media in the device. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_media_write_protect_state">IMAPI_MEDIA_WRITE_PROTECT_STATE</a> enumeration type. 
+The current write protect state of the media in the device. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_media_write_protect_state">IMAPI_MEDIA_WRITE_PROTECT_STATE</a> enumeration type. 
 
 Note that more than one state can be set.
 

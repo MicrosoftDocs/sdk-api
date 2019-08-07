@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventRecordCallback, EventRecordCallback callback function [ETW], PEVENT_RECORD_CALLBACK, PEVENT_RECORD_CALLBACK callback, etw.eventrecordcallback, evntrace/EventRecordCallback
 ms.topic: callback
-f1_keywords: 
- - "evntrace/EventRecordCallback"
+f1_keywords:
+- evntrace/EventRecordCallback
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Evntrace.h
+- Evntrace.h
 api_name:
- - EventRecordCallback
+- EventRecordCallback
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ The <b>PEVENT_RECORD_CALLBACK</b> type defines a pointer to this callback functi
 ### -param EventRecord [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a> structure that contains the event information.
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a> structure that contains the event information.
 
 
 ## -returns

@@ -8,10 +8,10 @@ tech.root: ktm
 ms.assetid: 29a32b89-22d1-4d26-8927-a2051dd5d37a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT structure [Files], TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT structure [Files], fs.transaction_notification_recovery_argument, ktmtypes/PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, ktmtypes/TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT"
+ms.keywords: '*PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT structure [Files], TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT structure [Files], fs.transaction_notification_recovery_argument, ktmtypes/PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, ktmtypes/TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT'
 ms.topic: struct
-f1_keywords: 
- - "ktmtypes/TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT"
+f1_keywords:
+- ktmtypes/TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
 req.header: ktmtypes.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - KtmTypes.h
+- KtmTypes.h
 api_name:
- - TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
+- TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
 product: Windows
 targetos: Windows
 req.typenames: TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT, *PTRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT
@@ -86,7 +86,7 @@ The transaction identifier, sometimes called the unit of work.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-_transaction_notification">TRANSACTION_NOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-transaction_notification">TRANSACTION_NOTIFICATION</a>
  
 
  

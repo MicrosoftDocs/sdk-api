@@ -8,10 +8,10 @@ tech.root: Rpc
 ms.assetid: 829dee24-aeeb-4191-b5fc-85970725f064
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSEC_WINNT_AUTH_IDENTITY, *PSEC_WINNT_AUTH_IDENTITY structure [RPC], *PSEC_WINNT_AUTH_IDENTITY_W, SEC_WINNT_AUTH_IDENTITY, SEC_WINNT_AUTH_IDENTITY structure [RPC], SEC_WINNT_AUTH_IDENTITY_A, SEC_WINNT_AUTH_IDENTITY_ANSI, SEC_WINNT_AUTH_IDENTITY_UNICODE, SEC_WINNT_AUTH_IDENTITY_W, _SEC_WINNT_AUTH_IDENTITY_A, _SEC_WINNT_AUTH_IDENTITY_W, _rpc_sec_winnt_auth_identity, rpc.sec_winnt_auth_identity, rpcdce/*PSEC_WINNT_AUTH_IDENTITY, rpcdce/SEC_WINNT_AUTH_IDENTITY"
+ms.keywords: '*PSEC_WINNT_AUTH_IDENTITY, *PSEC_WINNT_AUTH_IDENTITY structure [RPC], *PSEC_WINNT_AUTH_IDENTITY_W, SEC_WINNT_AUTH_IDENTITY, SEC_WINNT_AUTH_IDENTITY structure [RPC], SEC_WINNT_AUTH_IDENTITY_A, SEC_WINNT_AUTH_IDENTITY_ANSI, SEC_WINNT_AUTH_IDENTITY_UNICODE, SEC_WINNT_AUTH_IDENTITY_W, _SEC_WINNT_AUTH_IDENTITY_A, _SEC_WINNT_AUTH_IDENTITY_W, _rpc_sec_winnt_auth_identity, rpc.sec_winnt_auth_identity, rpcdce/*PSEC_WINNT_AUTH_IDENTITY, rpcdce/SEC_WINNT_AUTH_IDENTITY'
 ms.topic: struct
-f1_keywords: 
- - "rpcdce/SEC_WINNT_AUTH_IDENTITY"
+f1_keywords:
+- rpcdce/SEC_WINNT_AUTH_IDENTITY
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcdce.h
+- Rpcdce.h
 api_name:
- - SEC_WINNT_AUTH_IDENTITY
- - SEC_WINNT_AUTH_IDENTITY_A
- - SEC_WINNT_AUTH_IDENTITY_W
+- SEC_WINNT_AUTH_IDENTITY
+- SEC_WINNT_AUTH_IDENTITY_A
+- SEC_WINNT_AUTH_IDENTITY_W
 product: Windows
 targetos: Windows
 req.typenames: SEC_WINNT_AUTH_IDENTITY_W, *PSEC_WINNT_AUTH_IDENTITY_W
@@ -121,7 +121,7 @@ Flags used to specify ANSI or UNICODE. Must be one of the following:
 
 
 
-This structure must remain valid for the lifetime of the binding handle unless pointed to from the <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_http_transport_credentials_a">RPC_HTTP_TRANSPORT_CREDENTIALS</a> or <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_http_transport_credentials_v2_a">RPC_HTTP_TRANSPORT_CREDENTIALS_V2</a> structure.
+This structure must remain valid for the lifetime of the binding handle unless pointed to from the <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_a">RPC_HTTP_TRANSPORT_CREDENTIALS</a> or <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_v2_a">RPC_HTTP_TRANSPORT_CREDENTIALS_V2</a> structure.
 
 The strings may be ANSI or UNICODE depending on the value assigned to <b>Flags</b>.
 

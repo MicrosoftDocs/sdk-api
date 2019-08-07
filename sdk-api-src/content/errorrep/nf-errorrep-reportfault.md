@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReportFault, ReportFault function [Windows Error Reporting], _win32_reportfault, base.reportfault, errorrep/ReportFault, wer.reportfault
 ms.topic: function
-f1_keywords: 
- - "errorrep/ReportFault"
+f1_keywords:
+- errorrep/ReportFault
 req.header: errorrep.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Faultrep.lib
 req.dll: Faultrep.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Faultrep.dll
+- Faultrep.dll
 api_name:
- - ReportFault
+- ReportFault
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ Enables an application that performs its own exception handling to report faults
 ### -param pep [in]
 
  A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_pointers">EXCEPTION_POINTERS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a> structure.
 
 
 ### -param dwOpt [in]
@@ -195,7 +195,7 @@ The exact result of calling this function depends on how the user or system admi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_pointers">EXCEPTION_POINTERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a>
 
 
 

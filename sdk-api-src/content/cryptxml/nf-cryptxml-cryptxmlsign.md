@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CERT_NCRYPT_KEY_SPEC, CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CRYPT_XML_SIGN_ADD_KEYVALUE, CryptXmlSign, CryptXmlSign function [Security], cryptxml/CryptXmlSign, security.cryptxmlsign
 ms.topic: function
-f1_keywords: 
- - "cryptxml/CryptXmlSign"
+f1_keywords:
+- cryptxml/CryptXmlSign
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Cryptxml.lib
 req.dll: Cryptxml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cryptxml.dll
+- Cryptxml.dll
 api_name:
- - CryptXmlSign
+- CryptXmlSign
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>CryptXmlSign</b> function creates a cryptographic signature of  a <b>Sign
 
 ### -param hSignature [in]
 
-The handle to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structure. 
+The handle to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structure. 
 
 
 ### -param hKey [in, optional]
@@ -182,7 +182,7 @@ Is set to  <b>NULL</b>
 
 </td>
 <td>
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_blob">CRYPT_XML_BLOB</a> structure
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure
 
 </td>
 </tr>
@@ -192,7 +192,7 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-
 
 </td>
 <td>
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_keyinfo_param">CRYPT_XML_KEYINFO_PARAM</a> structure
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_keyinfo_param">CRYPT_XML_KEYINFO_PARAM</a> structure
 
 </td>
 </tr>
@@ -207,12 +207,12 @@ A pointer to a structure, the type of which is determined by the value of the <i
 
 ### -param pSignatureMethod [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a>     structure that specifies the signature method.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a>     structure that specifies the signature method.
 
 
 ### -param pCanonicalization [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a>     structure that specifies the canonicalization method.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a>     structure that specifies the canonicalization method.
 
 
 ## -returns

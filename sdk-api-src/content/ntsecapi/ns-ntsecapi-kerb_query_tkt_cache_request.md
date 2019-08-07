@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 3c8e63b3-9ac4-4228-87e1-6802c3d12d6c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PKERB_QUERY_TKT_CACHE_REQUEST, KERB_QUERY_TKT_CACHE_REQUEST, KERB_QUERY_TKT_CACHE_REQUEST structure [Security], PKERB_QUERY_TKT_CACHE_REQUEST, PKERB_QUERY_TKT_CACHE_REQUEST structure pointer [Security], _lsa_kerb_query_tkt_cache_request, ntsecapi/KERB_QUERY_TKT_CACHE_REQUEST, ntsecapi/PKERB_QUERY_TKT_CACHE_REQUEST, security.kerb_query_tkt_cache_request"
+ms.keywords: '*PKERB_QUERY_TKT_CACHE_REQUEST, KERB_QUERY_TKT_CACHE_REQUEST, KERB_QUERY_TKT_CACHE_REQUEST structure [Security], PKERB_QUERY_TKT_CACHE_REQUEST, PKERB_QUERY_TKT_CACHE_REQUEST structure pointer [Security], _lsa_kerb_query_tkt_cache_request, ntsecapi/KERB_QUERY_TKT_CACHE_REQUEST, ntsecapi/PKERB_QUERY_TKT_CACHE_REQUEST, security.kerb_query_tkt_cache_request'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/KERB_QUERY_TKT_CACHE_REQUEST"
+f1_keywords:
+- ntsecapi/KERB_QUERY_TKT_CACHE_REQUEST
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - KERB_QUERY_TKT_CACHE_REQUEST
+- KERB_QUERY_TKT_CACHE_REQUEST
 product: Windows
 targetos: Windows
 req.typenames: KERB_QUERY_TKT_CACHE_REQUEST, *PKERB_QUERY_TKT_CACHE_REQUEST
@@ -65,7 +65,7 @@ It is used by
 ### -field MessageType
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_kerb_protocol_message_type">KERB_PROTOCOL_MESSAGE_TYPE</a> value identifying the type of request being made. This member must be set to <b>KerbQueryTicketCacheMessage</b> or <b>KerbRetrieveTicketMessage</b>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_protocol_message_type">KERB_PROTOCOL_MESSAGE_TYPE</a> value identifying the type of request being made. This member must be set to <b>KerbQueryTicketCacheMessage</b> or <b>KerbRetrieveTicketMessage</b>. 
 
 
 
@@ -76,5 +76,5 @@ If this member is set to <b>KerbQueryTicketCacheMessage</b>, the request is for 
 ### -field LogonId
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> structure containing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a> identifier. This can be zero for the current user's logon session. If not zero, the caller must have the SeTcbPrivilege privilege set. If this fails, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> authentication package sets the <i>ProtocolStatus</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> to STATUS_ACCESS_DENIED.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure containing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a> identifier. This can be zero for the current user's logon session. If not zero, the caller must have the SeTcbPrivilege privilege set. If this fails, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> authentication package sets the <i>ProtocolStatus</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> to STATUS_ACCESS_DENIED.
 

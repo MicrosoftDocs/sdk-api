@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AF_APPLETALK, AF_BTH, AF_INET, AF_INET6, AF_IPX, AF_IRDA, AF_NETBIOS, AF_UNSPEC, BTHPROTO_RFCOMM, IPPROTO_ICMP, IPPROTO_ICMPV6, IPPROTO_IGMP, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, SG_CONSTRAINED_GROUP, SG_UNCONSTRAINED_GROUP, SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, WSASocket, WSASocket function [Winsock], WSASocketA, WSASocketW, WSA_FLAG_ACCESS_SYSTEM_SECURITY, WSA_FLAG_MULTIPOINT_C_LEAF, WSA_FLAG_MULTIPOINT_C_ROOT, WSA_FLAG_MULTIPOINT_D_LEAF, WSA_FLAG_MULTIPOINT_D_ROOT, WSA_FLAG_NO_HANDLE_INHERIT, WSA_FLAG_OVERLAPPED, _win32_wsasocket_2, winsock.wsasocket_2, winsock2/WSASocket, winsock2/WSASocketA, winsock2/WSASocketW
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSASocket"
+f1_keywords:
+- winsock2/WSASocket
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSASocket
- - WSASocketA
- - WSASocketW
+- WSASocket
+- WSASocketA
+- WSASocketW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -379,7 +379,7 @@ This <i>protocol</i> value is only supported if the Reliable Multicast Protocol 
 ### -param lpProtocolInfo [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure that defines the characteristics of the socket to be created. If this parameter is not <b>NULL</b>, the socket will be bound to the provider associated with the indicated 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure that defines the characteristics of the socket to be created. If this parameter is not <b>NULL</b>, the socket will be bound to the provider associated with the indicated 
 <b>WSAPROTOCOL_INFO</b> structure. 
 
 
@@ -480,10 +480,10 @@ All functions that allow overlapped operation (<a href="https://docs.microsoft.c
 <td width="60%">
 Create a socket that will be a c_root in a multipoint session.
 
-This attribute is only allowed if the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider that creates the socket supports a multipoint or multicast mechanism and the control plane for a multipoint session is rooted. This would be indicated by the <b>dwServiceFlags1</b> 
+This attribute is only allowed if the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider that creates the socket supports a multipoint or multicast mechanism and the control plane for a multipoint session is rooted. This would be indicated by the <b>dwServiceFlags1</b> 
  member of the <b>WSAPROTOCOL_INFO</b> structure  with the <b>XP1_SUPPORT_MULTIPOINT</b> and <b>XP1_MULTIPOINT_CONTROL_PLANE</b>  flags set. 
 
-When the <i>lpProtocolInfo</i> parameter is not NULL, the  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider is pointed to by the <i>lpProtocolInfo</i> parameter.  When the <i>lpProtocolInfo</i> parameter is NULL, the  <b>WSAPROTOCOL_INFO</b> structure is based on the transport provider selected by the values specified for the  <i>af</i>, <i>type</i>, and <i>protocol</i> parameters. 
+When the <i>lpProtocolInfo</i> parameter is not NULL, the  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider is pointed to by the <i>lpProtocolInfo</i> parameter.  When the <i>lpProtocolInfo</i> parameter is NULL, the  <b>WSAPROTOCOL_INFO</b> structure is based on the transport provider selected by the values specified for the  <i>af</i>, <i>type</i>, and <i>protocol</i> parameters. 
 
 Refer to 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/multipoint-and-multicast-semantics-2">Multipoint and Multicast Semantics</a> for additional information on a multipoint session.
@@ -499,10 +499,10 @@ Refer to
 <td width="60%">
 Create a socket that will be a c_leaf in a multipoint session.
 
-This attribute is only allowed if the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider that creates the socket supports a multipoint or multicast mechanism and the control plane for a multipoint session is non-rooted. This would be indicated by the <b>dwServiceFlags1</b> 
+This attribute is only allowed if the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider that creates the socket supports a multipoint or multicast mechanism and the control plane for a multipoint session is non-rooted. This would be indicated by the <b>dwServiceFlags1</b> 
  member of the <b>WSAPROTOCOL_INFO</b> structure  with the <b>XP1_SUPPORT_MULTIPOINT</b> flag set and the <b>XP1_MULTIPOINT_CONTROL_PLANE</b>  flag not set. 
 
-When the <i>lpProtocolInfo</i> parameter is not NULL, the  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider is pointed to by the <i>lpProtocolInfo</i> parameter.  When the <i>lpProtocolInfo</i> parameter is NULL, the  <b>WSAPROTOCOL_INFO</b> structure is based on the transport provider selected by the values specified for the  <i>af</i>, <i>type</i>, and <i>protocol</i> parameters. 
+When the <i>lpProtocolInfo</i> parameter is not NULL, the  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider is pointed to by the <i>lpProtocolInfo</i> parameter.  When the <i>lpProtocolInfo</i> parameter is NULL, the  <b>WSAPROTOCOL_INFO</b> structure is based on the transport provider selected by the values specified for the  <i>af</i>, <i>type</i>, and <i>protocol</i> parameters. 
 
 Refer to 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/multipoint-and-multicast-semantics-2">Multipoint and Multicast Semantics</a> for additional information on a multipoint session.
@@ -518,10 +518,10 @@ Refer to
 <td width="60%">
 Create a socket that will be a d_root in a multipoint session.
 
-This attribute is only allowed if the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider that creates the socket supports a multipoint or multicast mechanism and the data plane for a multipoint session is rooted. This would be indicated by the <b>dwServiceFlags1</b> 
+This attribute is only allowed if the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider that creates the socket supports a multipoint or multicast mechanism and the data plane for a multipoint session is rooted. This would be indicated by the <b>dwServiceFlags1</b> 
  member of the <b>WSAPROTOCOL_INFO</b> structure  with the <b>XP1_SUPPORT_MULTIPOINT</b> and <b>XP1_MULTIPOINT_DATA_PLANE</b>  flags set. 
 
-When the <i>lpProtocolInfo</i> parameter is not NULL, the  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider is pointed to by the <i>lpProtocolInfo</i> parameter.  When the <i>lpProtocolInfo</i> parameter is NULL, the  <b>WSAPROTOCOL_INFO</b> structure is based on the transport provider selected by the values specified for the  <i>af</i>, <i>type</i>, and <i>protocol</i> parameters. 
+When the <i>lpProtocolInfo</i> parameter is not NULL, the  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider is pointed to by the <i>lpProtocolInfo</i> parameter.  When the <i>lpProtocolInfo</i> parameter is NULL, the  <b>WSAPROTOCOL_INFO</b> structure is based on the transport provider selected by the values specified for the  <i>af</i>, <i>type</i>, and <i>protocol</i> parameters. 
 
 Refer to 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/multipoint-and-multicast-semantics-2">Multipoint and Multicast Semantics</a> for additional information on a multipoint session.
@@ -537,10 +537,10 @@ Refer to
 <td width="60%">
 Create a socket that will be a d_leaf in a multipoint session.
 
-This attribute is only allowed if the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider that creates the socket supports a multipoint or multicast mechanism and the data plane for a multipoint session is non-rooted. This would be indicated by the <b>dwServiceFlags1</b> 
+This attribute is only allowed if the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider that creates the socket supports a multipoint or multicast mechanism and the data plane for a multipoint session is non-rooted. This would be indicated by the <b>dwServiceFlags1</b> 
  member of the <b>WSAPROTOCOL_INFO</b> structure  with the <b>XP1_SUPPORT_MULTIPOINT</b> flag set and the <b>XP1_MULTIPOINT_DATA_PLANE</b>  flag not set. 
 
-When the <i>lpProtocolInfo</i> parameter is not NULL, the  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider is pointed to by the <i>lpProtocolInfo</i> parameter.  When the <i>lpProtocolInfo</i> parameter is NULL, the  <b>WSAPROTOCOL_INFO</b> structure is based on the transport provider selected by the values specified for the  <i>af</i>, <i>type</i>, and <i>protocol</i> parameters. 
+When the <i>lpProtocolInfo</i> parameter is not NULL, the  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for the transport provider is pointed to by the <i>lpProtocolInfo</i> parameter.  When the <i>lpProtocolInfo</i> parameter is NULL, the  <b>WSAPROTOCOL_INFO</b> structure is based on the transport provider selected by the values specified for the  <i>af</i>, <i>type</i>, and <i>protocol</i> parameters. 
 
 Refer to 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/multipoint-and-multicast-semantics-2">Multipoint and Multicast Semantics</a> for additional information on a multipoint session.
@@ -674,7 +674,7 @@ This value is true for any of the following conditions.
 <ul>
 <li>The parameter <i>g</i> specified is not valid.</li>
 <li>The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure that <i>lpProtocolInfo</i> points to is incomplete, the contents are invalid or the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure that <i>lpProtocolInfo</i> points to is incomplete, the contents are invalid or the 
 <b>WSAPROTOCOL_INFO</b> structure has already been used in an earlier duplicate socket operation.</li>
 <li>The values specified for members of the socket triple &lt;<i>af</i>, <i>type</i>, and <i>protocol</i>&gt; are individually supported, but the given combination is not.</li>
 </ul>
@@ -785,7 +785,7 @@ The
 If the <i>lpProtocolInfo</i> parameter is <b>NULL</b>, Winsock will utilize the first available transport-service provider that supports the requested combination of address family, socket type and protocol specified in the <i>af</i>, <i>type</i>, and <i>protocol</i> parameters.
 
 If the <i>lpProtocolInfo</i> parameter is not <b>NULL</b>, the socket will be bound to the provider associated with the indicated 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. In this instance, the application can supply the manifest constant <b>FROM_PROTOCOL_INFO</b> as the value for any of <i>af</i>, <i>type</i>, or <i>protocol</i> parameters. This indicates that the corresponding values from the indicated 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. In this instance, the application can supply the manifest constant <b>FROM_PROTOCOL_INFO</b> as the value for any of <i>af</i>, <i>type</i>, or <i>protocol</i> parameters. This indicates that the corresponding values from the indicated 
 <b>WSAPROTOCOL_INFO</b> structure (<b>iAddressFamily</b>, <b>iSocketType</b>, <b>iProtocol</b>) are to be assumed. In any case, the values specified for <i>af</i>, <i>type</i>, and <i>protocol</i> are passed unmodified to the transport-service provider.
 
 When selecting a protocol and its supporting service provider based on <i>af</i>, <i>type</i>, and <i>protocol</i>, this procedure will only choose a base protocol or a protocol chain, not a protocol layer by itself. Unchained protocol layers are not considered to have partial matches on <i>type</i> or <i>af</i>, either. That is, they do not lead to an error code of 
@@ -1035,7 +1035,7 @@ int __cdecl wmain(int argc, wchar_t **argv)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a>
 
 
 

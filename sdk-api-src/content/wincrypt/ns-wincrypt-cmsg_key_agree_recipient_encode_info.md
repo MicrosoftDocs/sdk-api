@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: f8691df7-3cc1-48cb-8787-84c7046b280f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, CMSG_KEY_AGREE_EPHEMERAL_KEY_CHOICE, CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO structure [Security], CMSG_KEY_AGREE_STATIC_KEY_CHOICE, PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO structure pointer [Security], _crypto2_cmsg_key_agree_recipient_encode_info, security.cmsg_key_agree_recipient_encode_info, wincrypt/CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, wincrypt/PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO"
+ms.keywords: '*PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, CMSG_KEY_AGREE_EPHEMERAL_KEY_CHOICE, CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO structure [Security], CMSG_KEY_AGREE_STATIC_KEY_CHOICE, PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO structure pointer [Security], _crypto2_cmsg_key_agree_recipient_encode_info, security.cmsg_key_agree_recipient_encode_info, wincrypt/CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, wincrypt/PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO"
+f1_keywords:
+- wincrypt/CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO
+- CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO
 product: Windows
 targetos: Windows
 req.typenames: CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, *PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO</b> structure contains information about a message recipient that is using key agreement key management.This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_recipient_encode_info">CMSG_RECIPIENT_ENCODE_INFO</a> structure.
+The <b>CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO</b> structure contains information about a message recipient that is using key agreement key management.This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_recipient_encode_info">CMSG_RECIPIENT_ENCODE_INFO</a> structure.
 
 
 ## -struct-fields
@@ -66,9 +66,9 @@ The size, in bytes, of this structure.
 
 ### -field KeyEncryptionAlgorithm
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm used for encryption.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm used for encryption.
 
-For ECC recipients, the <b>pszObjId</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure should be set to szOID_DH_SINGLE_PASS_STDDH_SHA1_KDF with the <b>dwKeyChoice</b> member of this <b>CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO</b> structure set to CMSG_KEY_AGREE_EPHEMERAL_KEY_CHOICE.
+For ECC recipients, the <b>pszObjId</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure should be set to szOID_DH_SINGLE_PASS_STDDH_SHA1_KDF with the <b>dwKeyChoice</b> member of this <b>CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO</b> structure set to CMSG_KEY_AGREE_EPHEMERAL_KEY_CHOICE.
 
 
 ### -field pvKeyEncryptionAuxInfo
@@ -78,12 +78,12 @@ This member is not currently used. It must be set to <b>NULL</b>.
 
 ### -field KeyWrapAlgorithm
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm used for key wrapping.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm used for key wrapping.
 
 
 ### -field pvKeyWrapAuxInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_rc2_aux_info">CMSG_RC2_AUX_INFO</a> structure that specifies the key wrapping bit length. This member is only used if the <b>KeyWrapAlgorithm</b> member specifies an RC2 algorithm. If <b>KeyWrapAlgorithm</b> specifies an algorithm other than an RC2 algorithm, this member is not used and must be <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_rc2_aux_info">CMSG_RC2_AUX_INFO</a> structure that specifies the key wrapping bit length. This member is only used if the <b>KeyWrapAlgorithm</b> member specifies an RC2 algorithm. If <b>KeyWrapAlgorithm</b> specifies an algorithm other than an RC2 algorithm, this member is not used and must be <b>NULL</b>.
 
 
 ### -field hCryptProv
@@ -141,12 +141,12 @@ This value is not currently used.
 ### -field DUMMYUNIONNAME.pEphemeralAlgorithm
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the ephemeral public key algorithm and parameters. This member is used when the <b>dwKeyChoice</b> member contains <b>CMSG_KEY_AGREE_EPHEMERAL_KEY_CHOICE</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the ephemeral public key algorithm and parameters. This member is used when the <b>dwKeyChoice</b> member contains <b>CMSG_KEY_AGREE_EPHEMERAL_KEY_CHOICE</b>.
 
 
 ### -field DUMMYUNIONNAME.pSenderId
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_id">CERT_ID</a> structure. This member is used when the <b>dwKeyChoice</b> member contains <b>CMSG_KEY_AGREE_STATIC_KEY_CHOICE</b>. This member is not currently used.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a> structure. This member is used when the <b>dwKeyChoice</b> member contains <b>CMSG_KEY_AGREE_STATIC_KEY_CHOICE</b>. This member is not currently used.
 
 
 ### -field UserKeyingMaterial
@@ -169,15 +169,15 @@ An array of  <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_id">CERT_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_rc2_aux_info">CMSG_RC2_AUX_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_rc2_aux_info">CMSG_RC2_AUX_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_recipient_encode_info">CMSG_RECIPIENT_ENCODE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_recipient_encode_info">CMSG_RECIPIENT_ENCODE_INFO</a>
 
 
 
@@ -185,7 +185,7 @@ An array of  <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
 
 
 

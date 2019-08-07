@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SAFER_IDENTIFICATION_TYPES, SAFER_IDENTIFICATION_TYPES enumeration [Security], SaferIdentityDefault, SaferIdentityTypeCertificate, SaferIdentityTypeImageHash, SaferIdentityTypeImageName, SaferIdentityTypeUrlZone, security.safer_identification_types, winsafer/SAFER_IDENTIFICATION_TYPES, winsafer/SaferIdentityDefault, winsafer/SaferIdentityTypeCertificate, winsafer/SaferIdentityTypeImageHash, winsafer/SaferIdentityTypeImageName, winsafer/SaferIdentityTypeUrlZone
 ms.topic: enum
-f1_keywords: 
- - "winsafer/SAFER_IDENTIFICATION_TYPES"
+f1_keywords:
+- winsafer/SAFER_IDENTIFICATION_TYPES
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinSafer.h
+- WinSafer.h
 api_name:
- - SAFER_IDENTIFICATION_TYPES
+- SAFER_IDENTIFICATION_TYPES
 product: Windows
 targetos: Windows
 req.typenames: SAFER_IDENTIFICATION_TYPES
@@ -66,12 +66,12 @@ The header is for a default level structure.
 
 ### -field SaferIdentityTypeImageName
 
-The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-_safer_pathname_identification">SAFER_PATHNAME_IDENTIFICATION</a> structure.
+The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_pathname_identification">SAFER_PATHNAME_IDENTIFICATION</a> structure.
 
 
 ### -field SaferIdentityTypeImageHash
 
-The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-_safer_hash_identification">SAFER_HASH_IDENTIFICATION</a> structure.
+The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_hash_identification">SAFER_HASH_IDENTIFICATION</a> structure.
 
 
 ### -field SaferIdentityTypeUrlZone
@@ -81,7 +81,7 @@ The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/wins
 
 ### -field SaferIdentityTypeCertificate
 
-The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-_safer_pathname_identification">SAFER_PATHNAME_IDENTIFICATION</a> structure.
+The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_pathname_identification">SAFER_PATHNAME_IDENTIFICATION</a> structure.
 
 
 ## -remarks

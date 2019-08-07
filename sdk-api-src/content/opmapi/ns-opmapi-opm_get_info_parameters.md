@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_GET_INFO_PARAMETERS, OPM_GET_INFO_PARAMETERS structure [Media Foundation], _OPM_GET_INFO_PARAMETERS, ksopmapi/OPM_GET_INFO_PARAMETERS, mf.opm_get_info_parameters
 ms.topic: struct
-f1_keywords: 
- - "opmapi/OPM_GET_INFO_PARAMETERS"
+f1_keywords:
+- opmapi/OPM_GET_INFO_PARAMETERS
 req.header: opmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ksopmapi.h
+- ksopmapi.h
 api_name:
- - OPM_GET_INFO_PARAMETERS
+- OPM_GET_INFO_PARAMETERS
 product: Windows
 targetos: Windows
 req.typenames: OPM_GET_INFO_PARAMETERS
@@ -61,12 +61,12 @@ Contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/
 
 ### -field omac
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_omac">OPM_OMAC</a> structure that contains a message authentication code (MAC) for the data in the rest of the structure.
+An <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_omac">OPM_OMAC</a> structure that contains a message authentication code (MAC) for the data in the rest of the structure.
 
 
 ### -field rnRandomNumber
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_random_number">OPM_RANDOM_NUMBER</a> structure that contains a cryptographically secure 128-bit random number.
+An <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_random_number">OPM_RANDOM_NUMBER</a> structure that contains a cryptographically secure 128-bit random number.
 
 
 ### -field guidInformation

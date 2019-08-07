@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaEnumerateAccountRights, LsaEnumerateAccountRights function [Security], _lsa_lsaenumerateaccountrights, ntsecapi/LsaEnumerateAccountRights, security.lsaenumerateaccountrights
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/LsaEnumerateAccountRights"
+f1_keywords:
+- ntsecapi/LsaEnumerateAccountRights
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-lsapolicy-l1-1-0.dll
- - sechost.dll
- - API-MS-Win-Security-LSAPolicy-L1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-Security-lsapolicy-l1-1-0.dll
+- sechost.dll
+- API-MS-Win-Security-LSAPolicy-L1-1-1.dll
 api_name:
- - LsaEnumerateAccountRights
+- LsaEnumerateAccountRights
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,7 +76,7 @@ Pointer to the SID of the account for which to enumerate privileges.
 ### -param UserRights [out]
 
 Receives a pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a> structures. Each structure contains the name of a privilege held by the account. For a list of privilege names, see 
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structures. Each structure contains the name of a privilege held by the account. For a list of privilege names, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants">Privilege Constants</a>
 
 When you no longer need the information, pass the returned pointer to 
@@ -106,7 +106,7 @@ If no account rights are found or if the function fails for any other reason, th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a>
 
 
 

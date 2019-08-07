@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_KEYBOARD_SET_INDICATORS, IOCTL_KEYBOARD_SET_INDICATORS control, IOCTL_KEYBOARD_SET_INDICATORS control code [Human Input Devices], hid.ioctl_keyboard_set_indicators2, i8042ref_45e33d11-eb35-4f90-b7c8-52f75afb60ef.xml, ntddkbd/IOCTL_KEYBOARD_SET_INDICATORS
 ms.topic: ioctl
-f1_keywords: 
- - "ntddkbd/IOCTL_KEYBOARD_SET_INDICATORS"
+f1_keywords:
+- ntddkbd/IOCTL_KEYBOARD_SET_INDICATORS
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ntddkbd.h
+- ntddkbd.h
 api_name:
- - IOCTL_KEYBOARD_SET_INDICATORS
+- IOCTL_KEYBOARD_SET_INDICATORS
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,14 +61,14 @@ The IOCTL_KEYBOARD_SET_INDICATORS request sets the keyboard indicators.
 
 ### -input-buffer
 
-<b>AssociatedIrp.SystemBuffer</b> points to a client-allocated buffer that inputs a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_indicator_parameters">KEYBOARD_INDICATOR_PARAMETERS</a> structure. The client sets the indicator parameters in this structure.
+<b>AssociatedIrp.SystemBuffer</b> points to a client-allocated buffer that inputs a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_indicator_parameters">KEYBOARD_INDICATOR_PARAMETERS</a> structure. The client sets the indicator parameters in this structure.
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> is set to a value greater than or equal to the size, in bytes, of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_indicator_parameters">KEYBOARD_INDICATOR_PARAMETERS</a> structure.
+<b>Parameters.DeviceIoControl.InputBufferLength</b> is set to a value greater than or equal to the size, in bytes, of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_indicator_parameters">KEYBOARD_INDICATOR_PARAMETERS</a> structure.
 
 
 ### -input-buffer-length
 
-The size of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_indicator_parameters">KEYBOARD_INDICATOR_PARAMETERS</a> structure.
+The size of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_indicator_parameters">KEYBOARD_INDICATOR_PARAMETERS</a> structure.
 
 
 ### -output-buffer
@@ -137,7 +137,7 @@ The request completed successfully.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_indicator_parameters">KEYBOARD_INDICATOR_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_indicator_parameters">KEYBOARD_INDICATOR_PARAMETERS</a>
  
 
  

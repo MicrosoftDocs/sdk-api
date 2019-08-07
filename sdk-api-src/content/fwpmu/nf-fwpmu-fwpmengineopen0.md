@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmEngineOpen0, FwpmEngineOpen0 function [Filtering], fwp.fwpmengineopen0_func, fwpmu/FwpmEngineOpen0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmEngineOpen0"
+f1_keywords:
+- fwpmu/FwpmEngineOpen0
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmEngineOpen0
+- FwpmEngineOpen0
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ Specifies the authentication service to use. Allowed services are RPC_C_AUTHN_WI
 
 ### -param authIdentity [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY_W</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY_W</a>*</b>
 
 The authentication and authorization credentials for accessing the filter engine. This pointer is optional and can be <b>NULL</b>. If this pointer is <b>NULL</b>, the calling thread's credentials are used.
 
@@ -230,7 +230,7 @@ else
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY_W</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY_W</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WIN32_MEMORY_REGION_INFORMATION, WIN32_MEMORY_REGION_INFORMATION structure, base.win32_memory_region_information, memoryapi/WIN32_MEMORY_REGION_INFORMATION
 ms.topic: struct
-f1_keywords: 
- - "memoryapi/WIN32_MEMORY_REGION_INFORMATION"
+f1_keywords:
+- memoryapi/WIN32_MEMORY_REGION_INFORMATION
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - MemoryApi.h
+- MemoryApi.h
 api_name:
- - WIN32_MEMORY_REGION_INFORMATION
+- WIN32_MEMORY_REGION_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: WIN32_MEMORY_REGION_INFORMATION
@@ -133,7 +133,7 @@ The commit charge associated with the allocation. For private allocations, this 
 
 
 
-The <b>WIN32_MEMORY_REGION_INFORMATION</b> structure contains information about a single memory allocation. In contrast, the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a> structure that is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a> function describes a contiguous run of pages within a single allocation that all have the same type, state, and protection. The mapping between <b>WIN32_MEMORY_REGION_INFORMATION</b> fields and memory type values returned by <b>VirtualQuery</b> is as follows:
+The <b>WIN32_MEMORY_REGION_INFORMATION</b> structure contains information about a single memory allocation. In contrast, the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-memory_basic_information">MEMORY_BASIC_INFORMATION</a> structure that is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a> function describes a contiguous run of pages within a single allocation that all have the same type, state, and protection. The mapping between <b>WIN32_MEMORY_REGION_INFORMATION</b> fields and memory type values returned by <b>VirtualQuery</b> is as follows:
 
 <table>
 <tr>
@@ -171,7 +171,7 @@ The <b>WIN32_MEMORY_REGION_INFORMATION</b> structure contains information about 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-memory_basic_information">MEMORY_BASIC_INFORMATION</a>
 
 
 

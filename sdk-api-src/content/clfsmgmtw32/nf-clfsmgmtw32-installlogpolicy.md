@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InstallLogPolicy, InstallLogPolicy function [Files], clfsmgmtw32/InstallLogPolicy, fs.installlogpolicy
 ms.topic: function
-f1_keywords: 
- - "clfsmgmtw32/InstallLogPolicy"
+f1_keywords:
+- clfsmgmtw32/InstallLogPolicy
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Clfsw32.dll
+- Clfsw32.dll
 api_name:
- - InstallLogPolicy
+- InstallLogPolicy
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A handle to a log.
 
 ### -param pPolicy [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ns-clfsmgmt-_clfs_mgmt_policy">CLFS_MGMT_POLICY</a> structure that represents the desired policy to install.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ns-clfsmgmt-clfs_mgmt_policy">CLFS_MGMT_POLICY</a> structure that represents the desired policy to install.
 
 
 ## -returns
@@ -101,11 +101,11 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ns-clfsmgmt-_clfs_mgmt_policy">CLFS_MGMT_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ns-clfsmgmt-clfs_mgmt_policy">CLFS_MGMT_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ne-clfsmgmt-_clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ne-clfsmgmt-clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>
 
 
 

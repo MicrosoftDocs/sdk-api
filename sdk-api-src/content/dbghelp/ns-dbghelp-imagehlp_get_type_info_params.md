@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: f3885945-9a96-49d9-a535-7b37220e1da4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PIMAGEHLP_GET_TYPE_INFO_PARAMS, IMAGEHLP_GET_TYPE_INFO_CHILDREN, IMAGEHLP_GET_TYPE_INFO_PARAMS, IMAGEHLP_GET_TYPE_INFO_PARAMS structure, IMAGEHLP_GET_TYPE_INFO_UNCACHED, PIMAGEHLP_GET_TYPE_INFO_PARAMS, PIMAGEHLP_GET_TYPE_INFO_PARAMS structure pointer, _IMAGEHLP_GET_TYPE_INFO_PARAMS, base.imagehlp_get_type_info_params_str, dbghelp/IMAGEHLP_GET_TYPE_INFO_PARAMS, dbghelp/PIMAGEHLP_GET_TYPE_INFO_PARAMS"
+ms.keywords: '*PIMAGEHLP_GET_TYPE_INFO_PARAMS, IMAGEHLP_GET_TYPE_INFO_CHILDREN, IMAGEHLP_GET_TYPE_INFO_PARAMS, IMAGEHLP_GET_TYPE_INFO_PARAMS structure, IMAGEHLP_GET_TYPE_INFO_UNCACHED, PIMAGEHLP_GET_TYPE_INFO_PARAMS, PIMAGEHLP_GET_TYPE_INFO_PARAMS structure pointer, _IMAGEHLP_GET_TYPE_INFO_PARAMS, base.imagehlp_get_type_info_params_str, dbghelp/IMAGEHLP_GET_TYPE_INFO_PARAMS, dbghelp/PIMAGEHLP_GET_TYPE_INFO_PARAMS'
 ms.topic: struct
-f1_keywords: 
- - "dbghelp/IMAGEHLP_GET_TYPE_INFO_PARAMS"
+f1_keywords:
+- dbghelp/IMAGEHLP_GET_TYPE_INFO_PARAMS
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - IMAGEHLP_GET_TYPE_INFO_PARAMS
+- IMAGEHLP_GET_TYPE_INFO_PARAMS
 product: Windows
 targetos: Windows
 req.typenames: IMAGEHLP_GET_TYPE_INFO_PARAMS, *PIMAGEHLP_GET_TYPE_INFO_PARAMS
@@ -121,7 +121,7 @@ The number of elements specified in the arrays specified in the <b>ReqKinds</b>,
 
 ### -field ReqKinds
 
-An array of information types to be requested. Each element is one of the enumeration values in the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ne-dbghelp-_imagehlp_symbol_type_info">IMAGEHLP_SYMBOL_TYPE_INFO</a> enumeration type.
+An array of information types to be requested. Each element is one of the enumeration values in the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ne-dbghelp-imagehlp_symbol_type_info">IMAGEHLP_SYMBOL_TYPE_INFO</a> enumeration type.
 
 
 ### -field ReqOffsets
@@ -131,7 +131,7 @@ An array of offsets that specify where to store the data for each request within
 
 ### -field ReqSizes
 
-The size of each data request, in bytes. The required sizes are described in <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ne-dbghelp-_imagehlp_symbol_type_info">IMAGEHLP_SYMBOL_TYPE_INFO</a>.
+The size of each data request, in bytes. The required sizes are described in <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ne-dbghelp-imagehlp_symbol_type_info">IMAGEHLP_SYMBOL_TYPE_INFO</a>.
 
 
 ### -field ReqStride
@@ -184,7 +184,7 @@ A bitmask indexed by <b>Buffer</b> element index that indicates which request da
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ne-dbghelp-_imagehlp_symbol_type_info">IMAGEHLP_SYMBOL_TYPE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ne-dbghelp-imagehlp_symbol_type_info">IMAGEHLP_SYMBOL_TYPE_INFO</a>
 
 
 

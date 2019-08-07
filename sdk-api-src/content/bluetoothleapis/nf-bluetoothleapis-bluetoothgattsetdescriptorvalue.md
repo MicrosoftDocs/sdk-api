@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTSetDescriptorValue, BluetoothGATTSetDescriptorValue function [Bluetooth Devices], bltooth.bluetoothgattsetdescriptorvalue, bluetoothleapis/BluetoothGATTSetDescriptorValue
 ms.topic: function
-f1_keywords: 
- - "bluetoothleapis/BluetoothGATTSetDescriptorValue"
+f1_keywords:
+- bluetoothleapis/BluetoothGATTSetDescriptorValue
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal
@@ -30,15 +30,15 @@ req.lib: BluetoothApis.lib
 req.dll: BluetoothAPIs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - BluetoothAPIs.dll
- - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+- BluetoothAPIs.dll
+- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
- - BluetoothGATTSetDescriptorValue
+- BluetoothGATTSetDescriptorValue
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -438,11 +438,11 @@ hr = BluetoothGATTSetDescriptorValue(hDevice,
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-_bth_le_gatt_descriptor">BTH_LE_GATT_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor">BTH_LE_GATT_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-_bth_le_gatt_descriptor_value">BTH_LE_GATT_DESCRIPTOR_VALUE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor_value">BTH_LE_GATT_DESCRIPTOR_VALUE</a>
  
 
  

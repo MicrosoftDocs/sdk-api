@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVENTLOG_FULL_INFO, GetEventLogInformation, GetEventLogInformation function, _win32_geteventloginformation, base.geteventloginformation, winbase/GetEventLogInformation
 ms.topic: function
-f1_keywords: 
- - "winbase/GetEventLogInformation"
+f1_keywords:
+- winbase/GetEventLogInformation
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-EventLog-Legacy-l1-1-0.dll
- - advapi32legacy.dll
+- Advapi32.dll
+- API-MS-Win-EventLog-Legacy-l1-1-0.dll
+- advapi32legacy.dll
 api_name:
- - GetEventLogInformation
+- GetEventLogInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -90,7 +90,7 @@ The level of event log information to return.
 </td>
 <td width="60%">
 Indicate whether the specified log is full. The <i>lpBuffer</i> parameter will contain an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_eventlog_full_information">EVENTLOG_FULL_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-eventlog_full_information">EVENTLOG_FULL_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_eventlog_full_information">EVENTLOG_FULL_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-eventlog_full_information">EVENTLOG_FULL_INFORMATION</a>
 
 
 

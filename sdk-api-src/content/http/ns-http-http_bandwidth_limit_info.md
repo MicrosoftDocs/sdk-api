@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 34c85ecf-1eb4-4f0d-a081-4b9feeb8dd15
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_BANDWIDTH_LIMIT_INFO, *PHTTP_BANDWIDTH_LIMIT_INFO structure [HTTP], HTTP_BANDWIDTH_LIMIT_INFO, HTTP_BANDWIDTH_LIMIT_INFO structure [HTTP], http.http_bandwidth_limit_info, http/*PHTTP_BANDWIDTH_LIMIT_INFO, http/HTTP_BANDWIDTH_LIMIT_INFO"
+ms.keywords: '*PHTTP_BANDWIDTH_LIMIT_INFO, *PHTTP_BANDWIDTH_LIMIT_INFO structure [HTTP], HTTP_BANDWIDTH_LIMIT_INFO, HTTP_BANDWIDTH_LIMIT_INFO structure [HTTP], http.http_bandwidth_limit_info, http/*PHTTP_BANDWIDTH_LIMIT_INFO, http/HTTP_BANDWIDTH_LIMIT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_BANDWIDTH_LIMIT_INFO"
+f1_keywords:
+- http/HTTP_BANDWIDTH_LIMIT_INFO
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_BANDWIDTH_LIMIT_INFO
+- HTTP_BANDWIDTH_LIMIT_INFO
 product: Windows
 targetos: Windows
 req.typenames: HTTP_BANDWIDTH_LIMIT_INFO, *PHTTP_BANDWIDTH_LIMIT_INFO
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>HTTP_BANDWIDTH_LIMIT_INFO</b> structure  is used to set or query the bandwidth throttling limit. 
 
-This structure must be used when setting or querying the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HttpServerBandwidthProperty</a> on a URL Group or server session.
+This structure must be used when setting or querying the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HttpServerBandwidthProperty</a> on a URL Group or server session.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ This structure must be used when setting or querying the <a href="https://docs.m
 
 ### -field Flags
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_property_flags">HTTP_PROPERTY_FLAGS</a> structure specifying whether the property is present.
+The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_property_flags">HTTP_PROPERTY_FLAGS</a> structure specifying whether the property is present.
 
 
 ### -field MaxBandwidth
@@ -80,7 +80,7 @@ The maximum allowed bandwidth rate in bytesper second. Setting the value to HTTP
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HTTP_SERVER_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HTTP_SERVER_PROPERTY</a>
 
 
 

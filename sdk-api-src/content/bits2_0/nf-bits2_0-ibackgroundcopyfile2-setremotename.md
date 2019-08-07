@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile2 interface [BITS],SetRemoteName method, IBackgroundCopyFile2.SetRemoteName, IBackgroundCopyFile2::SetRemoteName, SetRemoteName, SetRemoteName method [BITS], SetRemoteName method [BITS],IBackgroundCopyFile2 interface, bits.ibackgroundcopyfile2_setremotename, bits2_0/IBackgroundCopyFile2::SetRemoteName
 ms.topic: method
-f1_keywords: 
- - "bits2_0/IBackgroundCopyFile2.SetRemoteName"
+f1_keywords:
+- bits2_0/IBackgroundCopyFile2.SetRemoteName
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Bits.lib
 req.dll: BitsPrx3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - BitsPrx3.dll
+- BitsPrx3.dll
 api_name:
- - IBackgroundCopyFile2.SetRemoteName
+- IBackgroundCopyFile2.SetRemoteName
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Changes the remote name to a new URL in a download job.
 
 ### -param Val [in]
 
-Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-_bg_file_info">BG_FILE_INFO</a> structure.
+Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_file_info">BG_FILE_INFO</a> structure.
 					
 
 

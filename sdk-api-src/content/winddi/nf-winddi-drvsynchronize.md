@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvSynchronize, DrvSynchronize function [Display Devices], ddifncs_dadafaae-d13a-4a52-b179-a8b14a835a24.xml, display.drvsynchronize, winddi/DrvSynchronize
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvSynchronize"
+f1_keywords:
+- winddi/DrvSynchronize
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvSynchronize
+- DrvSynchronize
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Handle to the physical device's <a href="https://docs.microsoft.com/windows-hard
 
 ### -param prcl
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure. This parameter should be ignored by the driver.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure. This parameter should be ignored by the driver.
 
 
 ## -returns

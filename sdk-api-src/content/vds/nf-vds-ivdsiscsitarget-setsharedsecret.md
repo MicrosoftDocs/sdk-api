@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],SetSharedSecret method, IVdsIscsiTarget.SetSharedSecret, IVdsIscsiTarget::SetSharedSecret, SetSharedSecret, SetSharedSecret method [VDS], SetSharedSecret method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_setsharedsecret, vds/IVdsIscsiTarget::SetSharedSecret, vdshwprv/IVdsIscsiTarget::SetSharedSecret
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsIscsiTarget.SetSharedSecret"
+f1_keywords:
+- vds/IVdsIscsiTarget.SetSharedSecret
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiTarget.SetSharedSecret
+- IVdsIscsiTarget.SetSharedSecret
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Sets the target CHAP shared secret that is used for CHAP authentication when the
 
 ### -param pTargetSharedSecret [in]
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_iscsi_shared_secret">VDS_ISCSI_SHARED_SECRET</a> 
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_shared_secret">VDS_ISCSI_SHARED_SECRET</a> 
       structure that contains the shared secret. If the <b>pSharedSecret</b> member  is <b>NULL</b> and the <b>ulSharedSecretSize</b> is zero, the <b>SetSharedSecret</b> method  clears   any existing secret. 
 
 
@@ -191,7 +191,7 @@ Some iSCSI targets may support setting a different CHAP shared secret for each i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_iscsi_shared_secret">VDS_ISCSI_SHARED_SECRET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_shared_secret">VDS_ISCSI_SHARED_SECRET</a>
  
 
  

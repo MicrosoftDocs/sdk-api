@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsLun interface, IVdsLun interface [VDS],GetProperties method, IVdsLun.GetProperties, IVdsLun::GetProperties, base.ivdslun_getproperties, vds/IVdsLun::GetProperties, vdshwprv/IVdsLun::GetProperties
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsLun.GetProperties"
+f1_keywords:
+- vds/IVdsLun.GetProperties
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsLun.GetProperties
+- IVdsLun.GetProperties
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Returns the
 
 ### -param pLunProp [out]
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_lun_prop">VDS_LUN_PROP</a> structure 
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_prop">VDS_LUN_PROP</a> structure 
       allocated and passed in by the caller. VDS allocates memory for the <b>pwszFriendlyName</b>, 
       <b>pwszIdentification</b>, and <b>pwszUnmaskingList</b> member strings. 
       Callers must free the strings by using the 
@@ -147,7 +147,7 @@ The LUN object is no longer present.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_lun_prop">VDS_LUN_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_prop">VDS_LUN_PROP</a>
  
 
  

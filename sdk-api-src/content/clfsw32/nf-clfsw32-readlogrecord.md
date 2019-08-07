@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClfsContextForward, ClfsContextPrevious, ClfsContextUndoNext, ReadLogRecord, ReadLogRecord function [Files], clfsw32/ReadLogRecord, fs.readlogrecord
 ms.topic: function
-f1_keywords: 
- - "clfsw32/ReadLogRecord"
+f1_keywords:
+- clfsw32/ReadLogRecord
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Clfsw32.dll
+- Clfsw32.dll
 api_name:
- - ReadLogRecord
+- ReadLogRecord
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A pointer to a  marshaling context that is allocated by using the <a href="https
 
 ### -param plsnFirst [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the record  where  the read operation should start.  
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the record  where  the read operation should start.  
 
 This value must be an LSN of a valid record in the active range of the log.
 
@@ -135,12 +135,12 @@ This parameter is one of the <a href="https://docs.microsoft.com/previous-versio
 
 ### -param plsnUndoNext [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a> structure that receives the LSN of the next record in the undo record chain.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that receives the LSN of the next record in the undo record chain.
 
 
 ### -param plsnPrevious [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a> structure that receives the LSN of the next record in the previous record chain.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that receives the LSN of the next record in the previous record chain.
 
 
 ### -param ppvReadContext [out]
@@ -156,7 +156,7 @@ After obtaining all requested log records, the client must pass  the read contex
 
 ### -param pOverlapped [in, out, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure, which is required for asynchronous operation.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure, which is required for asynchronous operation.
 
  This parameter can be <b>NULL</b> if asynchronous operation is not used.
 
@@ -204,11 +204,11 @@ To complete the requested read and obtain a valid pointer to the log record, the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ne-clfs-_clfs_context_mode">CLFS_CONTEXT_MODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ne-clfs-clfs_context_mode">CLFS_CONTEXT_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
 
 
 
@@ -224,7 +224,7 @@ To complete the requested read and obtain a valid pointer to the log record, the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 

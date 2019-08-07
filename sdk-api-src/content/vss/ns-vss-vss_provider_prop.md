@@ -8,10 +8,10 @@ tech.root: VSS
 ms.assetid: 000da95d-a3f5-447e-a96d-c8fb34e9d0d3
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVSS_PROVIDER_PROP, PVSS_PROVIDER_PROP, PVSS_PROVIDER_PROP structure pointer [VSS], VSS_PROVIDER_PROP, VSS_PROVIDER_PROP structure [VSS], _win32_vss_provider_prop, base.vss_provider_prop, vss/PVSS_PROVIDER_PROP, vss/VSS_PROVIDER_PROP"
+ms.keywords: '*PVSS_PROVIDER_PROP, PVSS_PROVIDER_PROP, PVSS_PROVIDER_PROP structure pointer [VSS], VSS_PROVIDER_PROP, VSS_PROVIDER_PROP structure [VSS], _win32_vss_provider_prop, base.vss_provider_prop, vss/PVSS_PROVIDER_PROP, vss/VSS_PROVIDER_PROP'
 ms.topic: struct
-f1_keywords: 
- - "vss/VSS_PROVIDER_PROP"
+f1_keywords:
+- vss/VSS_PROVIDER_PROP
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vss.h
+- Vss.h
 api_name:
- - VSS_PROVIDER_PROP
+- VSS_PROVIDER_PROP
 product: Windows
 targetos: Windows
 req.typenames: VSS_PROVIDER_PROP, *PVSS_PROVIDER_PROP
@@ -72,7 +72,7 @@ Null-terminated wide character string containing the provider name.
 
 ### -field m_eProviderType
 
-Provider type. See <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_provider_type">VSS_PROVIDER_TYPE</a> for more 
+Provider type. See <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_provider_type">VSS_PROVIDER_TYPE</a> for more 
       information.
 
 
@@ -101,7 +101,7 @@ Class identifier of the component registered in the local machine's COM catalog.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_provider_type">VSS_PROVIDER_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_provider_type">VSS_PROVIDER_TYPE</a>
  
 
  

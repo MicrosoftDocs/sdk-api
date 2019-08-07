@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertStoreProvReadCTL, PFN_CERT_STORE_PROV_READ_CTL, PFN_CERT_STORE_PROV_READ_CTL callback, PFN_CERT_STORE_PROV_READ_CTL callback function [Security], _crypto2_certstoreprovreadctl, security.certstoreprovreadctl, wincrypt/PFN_CERT_STORE_PROV_READ_CTL
 ms.topic: callback
-f1_keywords: 
- - "wincrypt/PFN_CERT_STORE_PROV_READ_CTL"
+f1_keywords:
+- wincrypt/PFN_CERT_STORE_PROV_READ_CTL
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - PFN_CERT_STORE_PROV_READ_CTL
+- PFN_CERT_STORE_PROV_READ_CTL
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ The <b>CertStoreProvReadCTL</b> callback function is called to read the provider
 ### -param pStoreCtlContext [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure.
 
 
 ### -param dwFlags [in]
@@ -77,7 +77,7 @@ Any needed flag values.
 
 ### -param *ppProvCtlContext [out]
 
-A pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure to be returned by the function. The context will be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>.
+A pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure to be returned by the function. The context will be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>.
 
 
 ## -returns
@@ -94,7 +94,7 @@ Returns <b>TRUE</b> if the function succeeds or <b>FALSE</b> if it fails.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>
  
 
  

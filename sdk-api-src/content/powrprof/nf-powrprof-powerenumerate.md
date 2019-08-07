@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ACCESS_INDIVIDUAL_SETTING, ACCESS_SCHEME, ACCESS_SUBGROUP, GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerEnumerate, PowerEnumerate function, base.powerenumerate, powrprof/PowerEnumerate
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerEnumerate"
+f1_keywords:
+- powrprof/PowerEnumerate
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - PowerEnumerate
+- PowerEnumerate
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -262,7 +262,7 @@ Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero va
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ne-powrprof-_power_data_accessor">POWER_DATA_ACCESSOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ne-powrprof-power_data_accessor">POWER_DATA_ACCESSOR</a>
 
 
 

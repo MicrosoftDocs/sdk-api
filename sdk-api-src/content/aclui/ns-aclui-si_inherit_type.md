@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: e8382c14-d3b4-4a7e-aeaa-06ef44d6ace2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSI_INHERIT_TYPE, CONTAINER_INHERIT_ACE, INHERIT_ONLY_ACE, OBJECT_INHERIT_ACE, PSI_INHERIT_TYPE, PSI_INHERIT_TYPE structure pointer [Security], SI_INHERIT_TYPE, SI_INHERIT_TYPE structure [Security], _win32_si_inherit_type_str, aclui/PSI_INHERIT_TYPE, aclui/SI_INHERIT_TYPE, security.si_inherit_type"
+ms.keywords: '*PSI_INHERIT_TYPE, CONTAINER_INHERIT_ACE, INHERIT_ONLY_ACE, OBJECT_INHERIT_ACE, PSI_INHERIT_TYPE, PSI_INHERIT_TYPE structure pointer [Security], SI_INHERIT_TYPE, SI_INHERIT_TYPE structure [Security], _win32_si_inherit_type_str, aclui/PSI_INHERIT_TYPE, aclui/SI_INHERIT_TYPE, security.si_inherit_type'
 ms.topic: struct
-f1_keywords: 
- - "aclui/SI_INHERIT_TYPE"
+f1_keywords:
+- aclui/SI_INHERIT_TYPE
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Aclui.h
+- Aclui.h
 api_name:
- - SI_INHERIT_TYPE
+- SI_INHERIT_TYPE
 product: Windows
 targetos: Windows
 req.typenames: SI_INHERIT_TYPE, *PSI_INHERIT_TYPE
@@ -69,7 +69,7 @@ A pointer to a
 ### -field dwFlags
 
 A set of inheritance flags that indicate the types of ACEs that can be inherited by the <b>pguid</b> object type. These flags correspond to the <b>AceFlags</b> member of an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure. This member can be a combination of the following values. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure. This member can be a combination of the following values. 
 
 
 
@@ -132,7 +132,7 @@ Alternatively, <b>pszName</b> can be a string resource identifier returned by th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>
 
 
 

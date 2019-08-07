@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RM_FILTER_TRIGGER, RM_FILTER_TRIGGER enumeration [Restart Mgr], RmFilterTriggerFile, RmFilterTriggerInvalid, RmFilterTriggerProcess, RmFilterTriggerService, restartmanager/RM_FILTER_TRIGGER, restartmanager/RmFilterTriggerFile, restartmanager/RmFilterTriggerInvalid, restartmanager/RmFilterTriggerProcess, restartmanager/RmFilterTriggerService, rstmgr.rm_filter_trigger
 ms.topic: enum
-f1_keywords: 
- - "restartmanager/RM_FILTER_TRIGGER"
+f1_keywords:
+- restartmanager/RM_FILTER_TRIGGER
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - RestartManager.h
+- RestartManager.h
 api_name:
- - RM_FILTER_TRIGGER
+- RM_FILTER_TRIGGER
 product: Windows
 targetos: Windows
 req.typenames: RM_FILTER_TRIGGER
@@ -71,7 +71,7 @@ Modifies the shutdown or restart actions for an application identified by its   
 
 ### -field RmFilterTriggerProcess
 
-Modifies the shutdown or restart actions for an application identified by a <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_unique_process">RM_UNIQUE_PROCESS</a> structure.
+Modifies the shutdown or restart actions for an application identified by a <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_unique_process">RM_UNIQUE_PROCESS</a> structure.
 
 
 ### -field RmFilterTriggerService
@@ -84,7 +84,7 @@ Modifies the shutdown or restart actions for a service identified by a service s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_filter_info">RM_FILTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_filter_info">RM_FILTER_INFO</a>
  
 
  

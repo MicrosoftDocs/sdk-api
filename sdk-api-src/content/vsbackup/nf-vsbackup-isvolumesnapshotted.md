@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsVolumeSnapshotted, IsVolumeSnapshotted function [VSS], IsVolumeSnapshottedInternal, _win32_isvolumesnapshotted, base.isvolumesnapshotted, vsbackup/IsVolumeSnapshotted, vsbackup/IsVolumeSnapshottedInternal
 ms.topic: function
-f1_keywords: 
- - "vsbackup/IsVolumeSnapshotted"
+f1_keywords:
+- vsbackup/IsVolumeSnapshotted
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: VssApi.lib
 req.dll: VssApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VssApi.dll
- - Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
+- VssApi.dll
+- Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
 api_name:
- - IsVolumeSnapshotted
- - IsVolumeSnapshottedInternal
+- IsVolumeSnapshotted
+- IsVolumeSnapshottedInternal
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,7 +82,7 @@ The value of this parameter is <b>TRUE</b> if the volume has a shadow copy, and
 ### -param plSnapshotCapability [out]
 
 A bit mask (or bitwise OR) of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_snapshot_compatibility">VSS_SNAPSHOT_COMPATIBILITY</a> values that 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_compatibility">VSS_SNAPSHOT_COMPATIBILITY</a> values that 
       indicates whether certain volume control or file I/O operations are disabled for the given volume if a shadow 
       copy of it exists.
 
@@ -216,7 +216,7 @@ If no volume control or file I/O operations are disabled for the selected volume
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_snapshot_compatibility">VSS_SNAPSHOT_COMPATIBILITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_compatibility">VSS_SNAPSHOT_COMPATIBILITY</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D10CompileEffectFromMemory, D3D10CompileEffectFromMemory function [Direct3D 10], a15fb616-366d-0a19-dbf6-a1e603c6c9db, d3d10effect/D3D10CompileEffectFromMemory, direct3d10.d3d10compileeffectfrommemory
 ms.topic: function
-f1_keywords: 
- - "d3d10effect/D3D10CompileEffectFromMemory"
+f1_keywords:
+- d3d10effect/D3D10CompileEffectFromMemory
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: D3D10.lib
 req.dll: D3D10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3D10.dll
+- D3D10.dll
 api_name:
- - D3D10CompileEffectFromMemory
+- D3D10CompileEffectFromMemory
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,9 +83,9 @@ The name of the effect file.
 
 ### -param pDefines [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-_d3d_shader_macro">D3D10_SHADER_MACRO</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro">D3D10_SHADER_MACRO</a>*</b>
 
-Optional. An array of NULL-terminated macro definitions (see <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-_d3d_shader_macro">D3D10_SHADER_MACRO</a>).
+Optional. An array of NULL-terminated macro definitions (see <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro">D3D10_SHADER_MACRO</a>).
 
 
 ### -param pInclude [in]

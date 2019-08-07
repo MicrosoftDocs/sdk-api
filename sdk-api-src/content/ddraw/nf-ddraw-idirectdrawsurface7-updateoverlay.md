@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DDOVER_ADDDIRTYRECT, DDOVER_ALPHADEST, DDOVER_ALPHADESTCONSTOVERRIDE, DDOVER_ALPHADESTNEG, DDOVER_ALPHADESTSURFACEOVERRIDE, DDOVER_ALPHAEDGEBLEND, DDOVER_ALPHASRC, DDOVER_ALPHASRCCONSTOVERRIDE, DDOVER_ALPHASRCNEG, DDOVER_ALPHASRCSURFACEOVERRIDE, DDOVER_ARGBSCALEFACTORS, DDOVER_AUTOFLIP, DDOVER_BOB, DDOVER_BOBHARDWARE, DDOVER_DDFX, DDOVER_DEGRADEARGBSCALING, DDOVER_HIDE, DDOVER_INTERLEAVED, DDOVER_KEYDEST, DDOVER_KEYDESTOVERRIDE, DDOVER_KEYSRC, DDOVER_KEYSRCOVERRIDE, DDOVER_OVERRIDEBOBWEAVE, DDOVER_REFRESHALL, DDOVER_REFRESHDIRTYRECTS, DDOVER_SHOW, IDirectDrawSurface7 interface [DirectDraw],UpdateOverlay method, IDirectDrawSurface7.UpdateOverlay, IDirectDrawSurface7::UpdateOverlay, UpdateOverlay, UpdateOverlay method [DirectDraw], UpdateOverlay method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::UpdateOverlay, directdraw.idirectdrawsurface7_updateoverlay
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.UpdateOverlay"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.UpdateOverlay
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.UpdateOverlay
+- IDirectDrawSurface7.UpdateOverlay
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -94,7 +94,7 @@ Obsolete.
 
 #### DDOVER_ALPHADESTCONSTOVERRIDE
 
-Uses the <b>dwAlphaDestConst</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddoverlayfx">DDOVERLAYFX</a> structure as the destination alpha channel for this overlay.
+Uses the <b>dwAlphaDestConst</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the destination alpha channel for this overlay.
 
 
 
@@ -106,13 +106,13 @@ Indicates that the destination surface becomes more transparent as the alpha val
 
 #### DDOVER_ALPHADESTSURFACEOVERRIDE
 
-Uses the <b>lpDDSAlphaDest</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddoverlayfx">DDOVERLAYFX</a> structure as the alpha channel destination for this overlay.
+Uses the <b>lpDDSAlphaDest</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the alpha channel destination for this overlay.
 
 
 
 #### DDOVER_ALPHAEDGEBLEND
 
-Uses the <b>dwAlphaEdgeBlend</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddoverlayfx">DDOVERLAYFX</a> structure as the alpha channel for the edges of the image that border the color key colors.
+Uses the <b>dwAlphaEdgeBlend</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the alpha channel for the edges of the image that border the color key colors.
 
 
 
@@ -124,7 +124,7 @@ Uses either the alpha information in pixel format or the alpha channel surface a
 
 #### DDOVER_ALPHASRCCONSTOVERRIDE
 
-Uses the <b>dwAlphaSrcConst</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddoverlayfx">DDOVERLAYFX</a> structure as the source alpha channel for this overlay.
+Uses the <b>dwAlphaSrcConst</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the source alpha channel for this overlay.
 
 
 
@@ -137,13 +137,13 @@ Indicates that the source surface becomes more transparent as the alpha value in
 
 #### DDOVER_ALPHASRCSURFACEOVERRIDE
 
-Uses the <b>lpDDSAlphaSrc</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddoverlayfx">DDOVERLAYFX</a> structure as the alpha channel source for this overlay.
+Uses the <b>lpDDSAlphaSrc</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the alpha channel source for this overlay.
 
 
 
 #### DDOVER_ARGBSCALEFACTORS
 
-New for DirectX 7.0. Indicates that the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddoverlayfx">DDOVERLAYFX</a> structure contains valid ARGB scaling factors.
+New for DirectX 7.0. Indicates that the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure contains valid ARGB scaling factors.
 
 
 
@@ -197,7 +197,7 @@ Uses the color key associated with the destination surface.
 
 #### DDOVER_KEYDESTOVERRIDE
 
-Uses the <b>dckDestColorkey</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddoverlayfx">DDOVERLAYFX</a> structure as the color key for the destination surface.
+Uses the <b>dckDestColorkey</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the color key for the destination surface.
 
 
 
@@ -209,7 +209,7 @@ Uses the color key associated with the source surface.
 
 #### DDOVER_KEYSRCOVERRIDE
 
-Uses the <b>dckSrcColorkey</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddoverlayfx">DDOVERLAYFX</a> structure as the color key for the source surface.
+Uses the <b>dckSrcColorkey</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure as the color key for the source surface.
 
 
 
@@ -238,7 +238,7 @@ Turns on this overlay.
 
 ### -param arg5 [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddoverlayfx">DDOVERLAYFX</a> structure that describes the effects to be used. Can be NULL if the DDOVER_DDFX flag is not specified.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddoverlayfx">DDOVERLAYFX</a> structure that describes the effects to be used. Can be NULL if the DDOVER_DDFX flag is not specified.
 
 
 ## -returns

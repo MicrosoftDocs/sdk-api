@@ -8,10 +8,10 @@ tech.root: wer
 ms.assetid: 4548068a-e654-40c9-9654-c5178575b42c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWER_EXCEPTION_INFORMATION, PWER_EXCEPTION_INFORMATION, PWER_EXCEPTION_INFORMATION structure pointer [Windows Error Reporting], WER_EXCEPTION_INFORMATION, WER_EXCEPTION_INFORMATION structure [Windows Error Reporting], base.wer_exception_information, wer.wer_exception_information, werapi/PWER_EXCEPTION_INFORMATION, werapi/WER_EXCEPTION_INFORMATION"
+ms.keywords: '*PWER_EXCEPTION_INFORMATION, PWER_EXCEPTION_INFORMATION, PWER_EXCEPTION_INFORMATION structure pointer [Windows Error Reporting], WER_EXCEPTION_INFORMATION, WER_EXCEPTION_INFORMATION structure [Windows Error Reporting], base.wer_exception_information, wer.wer_exception_information, werapi/PWER_EXCEPTION_INFORMATION, werapi/WER_EXCEPTION_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "werapi/WER_EXCEPTION_INFORMATION"
+f1_keywords:
+- werapi/WER_EXCEPTION_INFORMATION
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Werapi.h
+- Werapi.h
 api_name:
- - WER_EXCEPTION_INFORMATION
+- WER_EXCEPTION_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: WER_EXCEPTION_INFORMATION, *PWER_EXCEPTION_INFORMATION
@@ -61,7 +61,7 @@ Contains exception information for the <a href="https://docs.microsoft.com/windo
 
 ### -field pExceptionPointers
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_pointers">EXCEPTION_POINTERS</a> structure.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a> structure.
 
 
 ### -field bClientPointers

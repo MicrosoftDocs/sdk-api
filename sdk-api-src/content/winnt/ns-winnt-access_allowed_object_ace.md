@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: ee91ca50-e81b-4872-95eb-349c2d5be004
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PACCESS_ALLOWED_OBJECT_ACE, 0, ACCESS_ALLOWED_OBJECT_ACE, ACCESS_ALLOWED_OBJECT_ACE structure [Security], ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_READ_PROP, ADS_RIGHT_DS_SELF, ADS_RIGHT_DS_WRITE_PROP, PACCESS_ALLOWED_OBJECT_ACE, PACCESS_ALLOWED_OBJECT_ACE structure pointer [Security], _ACCESS_ALLOWED_OBJECT_ACE, _win32_access_allowed_object_ace_str, security.access_allowed_object_ace, winnt/ACCESS_ALLOWED_OBJECT_ACE, winnt/PACCESS_ALLOWED_OBJECT_ACE"
+ms.keywords: '*PACCESS_ALLOWED_OBJECT_ACE, 0, ACCESS_ALLOWED_OBJECT_ACE, ACCESS_ALLOWED_OBJECT_ACE structure [Security], ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_READ_PROP, ADS_RIGHT_DS_SELF, ADS_RIGHT_DS_WRITE_PROP, PACCESS_ALLOWED_OBJECT_ACE, PACCESS_ALLOWED_OBJECT_ACE structure pointer [Security], _ACCESS_ALLOWED_OBJECT_ACE, _win32_access_allowed_object_ace_str, security.access_allowed_object_ace, winnt/ACCESS_ALLOWED_OBJECT_ACE, winnt/PACCESS_ALLOWED_OBJECT_ACE'
 ms.topic: struct
-f1_keywords: 
- - "winnt/ACCESS_ALLOWED_OBJECT_ACE"
+f1_keywords:
+- winnt/ACCESS_ALLOWED_OBJECT_ACE
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - ACCESS_ALLOWED_OBJECT_ACE
+- ACCESS_ALLOWED_OBJECT_ACE
 product: Windows
 targetos: Windows
 req.typenames: ACCESS_ALLOWED_OBJECT_ACE, *PACCESS_ALLOWED_OBJECT_ACE
@@ -224,7 +224,7 @@ The offset of this member can vary. If the <b>Flags</b> member is zero, the <b>S
 If neither the <b>ObjectType</b> nor <b>InheritedObjectType</b> <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> is specified, the <b>ACCESS_ALLOWED_OBJECT_ACE</b> structure has the same semantics as those used by the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_allowed_ace">ACCESS_ALLOWED_ACE</a> structure. In that case, use the <b>ACCESS_ALLOWED_ACE</b> structure because it is smaller and more efficient.
 
 An ACL that contains an <b>ACCESS_ALLOWED_OBJECT_ACE</b> must specify the ACL_REVISION_DS revision number in its 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> header.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> header.
 
 The access rights specified by the <b>Mask</b> member are granted to any <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trustee</a> that possesses an enabled SID that matches the SID stored in the <b>SidStart</b> member.
 
@@ -242,7 +242,7 @@ An <b>ACCESS_ALLOWED_OBJECT_ACE</b> structure can be created in an <a href="http
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
@@ -254,7 +254,7 @@ An <b>ACCESS_ALLOWED_OBJECT_ACE</b> structure can be created in an <a href="http
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
  
 
  

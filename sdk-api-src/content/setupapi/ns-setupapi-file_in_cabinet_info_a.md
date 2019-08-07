@@ -8,10 +8,10 @@ tech.root: SetupApi
 ms.assetid: 071491a8-f305-4e53-b0d7-16f7c9606e99
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_IN_CABINET_INFO_A, FILE_IN_CABINET_INFO, FILE_IN_CABINET_INFO structure [Setup API], FILE_IN_CABINET_INFO_A, PFILE_IN_CABINET_INFO, PFILE_IN_CABINET_INFO structure pointer [Setup API], _setupapi_file_in_cabinet_info_str, setup.file_in_cabinet_info_str, setupapi/FILE_IN_CABINET_INFO, setupapi/PFILE_IN_CABINET_INFO"
+ms.keywords: '*PFILE_IN_CABINET_INFO_A, FILE_IN_CABINET_INFO, FILE_IN_CABINET_INFO structure [Setup API], FILE_IN_CABINET_INFO_A, PFILE_IN_CABINET_INFO, PFILE_IN_CABINET_INFO structure pointer [Setup API], _setupapi_file_in_cabinet_info_str, setup.file_in_cabinet_info_str, setupapi/FILE_IN_CABINET_INFO, setupapi/PFILE_IN_CABINET_INFO'
 ms.topic: struct
-f1_keywords: 
- - "setupapi/FILE_IN_CABINET_INFO"
+f1_keywords:
+- setupapi/FILE_IN_CABINET_INFO
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Setupapi.h
+- Setupapi.h
 api_name:
- - FILE_IN_CABINET_INFO
+- FILE_IN_CABINET_INFO
 product: Windows
 targetos: Windows
 req.typenames: FILE_IN_CABINET_INFO_A, *PFILE_IN_CABINET_INFO_A
@@ -102,7 +102,7 @@ Target path and file name.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_cabinet_info_a">CABINET_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-cabinet_info_a">CABINET_INFO</a>
 
 
 

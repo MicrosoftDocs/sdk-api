@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: d9930946-aec0-42a4-949f-af8b2e9c6e6c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_XML_SIGNATURE, CRYPT_XML_SIGNATURE, CRYPT_XML_SIGNATURE structure [Security], PCRYPT_XML_SIGNATURE, PCRYPT_XML_SIGNATURE structure pointer [Security], cryptxml/CRYPT_XML_SIGNATURE, cryptxml/PCRYPT_XML_SIGNATURE, security.crypt_xml_signature"
+ms.keywords: '*PCRYPT_XML_SIGNATURE, CRYPT_XML_SIGNATURE, CRYPT_XML_SIGNATURE structure [Security], PCRYPT_XML_SIGNATURE, PCRYPT_XML_SIGNATURE structure pointer [Security], cryptxml/CRYPT_XML_SIGNATURE, cryptxml/PCRYPT_XML_SIGNATURE, security.crypt_xml_signature'
 ms.topic: struct
-f1_keywords: 
- - "cryptxml/CRYPT_XML_SIGNATURE"
+f1_keywords:
+- cryptxml/CRYPT_XML_SIGNATURE
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - CRYPT_XML_SIGNATURE
+- CRYPT_XML_SIGNATURE
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_SIGNATURE, *PCRYPT_XML_SIGNATURE
@@ -76,7 +76,7 @@ A pointer to a null-terminated Unicode string that contains the value of the <b>
 
 ### -field SignedInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_signed_info">CRYPT_XML_SIGNED_INFO</a> structure that contains the canonicalization algorithm, 
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_signed_info">CRYPT_XML_SIGNED_INFO</a> structure that contains the canonicalization algorithm, 
     a signature algorithm, and one or more references. 
     The <b>SignedInfo</b> element can contain an optional ID attribute that will allow 
     the structure to be referenced by other signatures and objects. 
@@ -89,7 +89,7 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/a
 
 ### -field pKeyInfo
 
-Optional. A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_key_info">CRYPT_XML_KEY_INFO</a> structure that contains information that is encoded in the <b>KeyInfo</b> element.
+Optional. A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_info">CRYPT_XML_KEY_INFO</a> structure that contains information that is encoded in the <b>KeyInfo</b> element.
 
 
 ### -field cObject
@@ -99,5 +99,5 @@ The number of  items in the array pointed to by the <b>rgpObject</b> member.
 
 ### -field rgpObject
 
-Optional. A pointer to an array of  pointers to <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_object">CRYPT_XML_OBJECT</a> structures that  contain information that is encoded in <b>Object</b> elements.
+Optional. A pointer to an array of  pointers to <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_object">CRYPT_XML_OBJECT</a> structures that  contain information that is encoded in <b>Object</b> elements.
 

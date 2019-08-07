@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlGetDocContext, CryptXmlGetDocContext function [Security], cryptxml/CryptXmlGetDocContext, security.cryptxmlgetdoccontext
 ms.topic: function
-f1_keywords: 
- - "cryptxml/CryptXmlGetDocContext"
+f1_keywords:
+- cryptxml/CryptXmlGetDocContext
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Cryptxml.lib
 req.dll: Cryptxml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cryptxml.dll
+- Cryptxml.dll
 api_name:
- - CryptXmlGetDocContext
+- CryptXmlGetDocContext
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ The handle of the document context to retrieve.
 
 ### -param ppStruct [out]
 
-A pointer to a pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_doc_ctxt">CRYPT_XML_DOC_CTXT</a> structure that contains the returned document context.
+A pointer to a pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_doc_ctxt">CRYPT_XML_DOC_CTXT</a> structure that contains the returned document context.
 
 
 ## -returns

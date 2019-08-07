@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 4764174f-eecc-402e-8395-d3e2be0b0ae6
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_PRIVATE_KEY_VALIDITY, CERT_PRIVATE_KEY_VALIDITY, CERT_PRIVATE_KEY_VALIDITY structure [Security], PCERT_PRIVATE_KEY_VALIDITY, PCERT_PRIVATE_KEY_VALIDITY structure pointer [Security], _crypto2_cert_private_key_validity, security.cert_private_key_validity, wincrypt/CERT_PRIVATE_KEY_VALIDITY, wincrypt/PCERT_PRIVATE_KEY_VALIDITY"
+ms.keywords: '*PCERT_PRIVATE_KEY_VALIDITY, CERT_PRIVATE_KEY_VALIDITY, CERT_PRIVATE_KEY_VALIDITY structure [Security], PCERT_PRIVATE_KEY_VALIDITY, PCERT_PRIVATE_KEY_VALIDITY structure pointer [Security], _crypto2_cert_private_key_validity, security.cert_private_key_validity, wincrypt/CERT_PRIVATE_KEY_VALIDITY, wincrypt/PCERT_PRIVATE_KEY_VALIDITY'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_PRIVATE_KEY_VALIDITY"
+f1_keywords:
+- wincrypt/CERT_PRIVATE_KEY_VALIDITY
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_PRIVATE_KEY_VALIDITY
+- CERT_PRIVATE_KEY_VALIDITY
 product: Windows
 targetos: Windows
 req.typenames: CERT_PRIVATE_KEY_VALIDITY, *PCERT_PRIVATE_KEY_VALIDITY
@@ -54,7 +54,7 @@ ms.custom: 19H1
 The <b>CERT_PRIVATE_KEY_VALIDITY</b> structure indicates a valid time span for the private key corresponding to a certificate's public key. If the <b>NotBefore</b> component is zero or not present, no statement is made as to when the validity period of the private key begins. If the <b>NotAfter</b> component is zero or not present, no end date is set on the validity of the private key.
 
 A <b>CERT_PRIVATE_KEY_VALIDITY</b> structure is a member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_attributes_info">CERT_KEY_ATTRIBUTES_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_attributes_info">CERT_KEY_ATTRIBUTES_INFO</a> structure.
 
 
 ## -struct-fields
@@ -77,7 +77,7 @@ Date and time after which the certificate is not valid. For dates between 1950 a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_attributes_info">CERT_KEY_ATTRIBUTES_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_attributes_info">CERT_KEY_ATTRIBUTES_INFO</a>
  
 
  

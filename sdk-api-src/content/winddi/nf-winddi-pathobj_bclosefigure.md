@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PATHOBJ_bCloseFigure, PATHOBJ_bCloseFigure function [Display Devices], display.pathobj_bclosefigure, gdifncs_49059159-bb68-43f7-acd1-2ea665e0db93.xml, winddi/PATHOBJ_bCloseFigure
 ms.topic: function
-f1_keywords: 
- - "winddi/PATHOBJ_bCloseFigure"
+f1_keywords:
+- winddi/PATHOBJ_bCloseFigure
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - PATHOBJ_bCloseFigure
+- PATHOBJ_bCloseFigure
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>PATHOBJ_bCloseFigure</b> function closes an open figure in a path by draw
 
 ### -param ppo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a> structure that identifies the path to be closed.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure that identifies the path to be closed.
 
 
 ## -returns
@@ -78,7 +78,7 @@ The return value is <b>TRUE</b> if the function is successful.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES, FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES control, FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES control code [Files], fs.fsctl_txfs_list_transaction_locked_files, winioctl/FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES"
+f1_keywords:
+- winioctl/FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES
+- FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -176,7 +176,7 @@ The number of files returned from one
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_list_transaction_locked_files">TXFS_LIST_TRANSACTION_LOCKED_FILES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_list_transaction_locked_files">TXFS_LIST_TRANSACTION_LOCKED_FILES</a>
 
 
 

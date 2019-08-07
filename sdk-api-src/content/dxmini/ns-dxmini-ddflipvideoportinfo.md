@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 9cf87d19-2db6-48f8-96a6-2b6ac969c774
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDDFLIPVIDEOPORTINFO, DDFLIPVIDEOPORTINFO, DDFLIPVIDEOPORTINFO structure [Display Devices], PDDFLIPVIDEOPORTINFO, PDDFLIPVIDEOPORTINFO structure pointer [Display Devices], Video_Structs_e5e5e93f-25a2-47a6-a99c-6ac8ca43f069.xml, display.ddflipvideoportinfo, dxmini/DDFLIPVIDEOPORTINFO, dxmini/PDDFLIPVIDEOPORTINFO"
+ms.keywords: '*PDDFLIPVIDEOPORTINFO, DDFLIPVIDEOPORTINFO, DDFLIPVIDEOPORTINFO structure [Display Devices], PDDFLIPVIDEOPORTINFO, PDDFLIPVIDEOPORTINFO structure pointer [Display Devices], Video_Structs_e5e5e93f-25a2-47a6-a99c-6ac8ca43f069.xml, display.ddflipvideoportinfo, dxmini/DDFLIPVIDEOPORTINFO, dxmini/PDDFLIPVIDEOPORTINFO'
 ms.topic: struct
-f1_keywords: 
- - "dxmini/DDFLIPVIDEOPORTINFO"
+f1_keywords:
+- dxmini/DDFLIPVIDEOPORTINFO
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxmini.h
+- dxmini.h
 api_name:
- - DDFLIPVIDEOPORTINFO
+- DDFLIPVIDEOPORTINFO
 product: Windows
 targetos: Windows
 req.typenames: DDFLIPVIDEOPORTINFO, *PDDFLIPVIDEOPORTINFO
@@ -66,7 +66,7 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dx
 
 ### -field lpCurrentSurface
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddsurfacedata">DDSURFACEDATA</a> structure that contains information about the current surface. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a> structure that contains information about the current surface. 
 
 
 ### -field lpTargetSurface
@@ -112,7 +112,7 @@ Flip the normal video surface.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddsurfacedata">DDSURFACEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a>
 
 
 

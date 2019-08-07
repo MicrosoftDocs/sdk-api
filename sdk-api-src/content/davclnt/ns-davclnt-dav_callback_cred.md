@@ -8,10 +8,10 @@ tech.root: WebDAV
 ms.assetid: 5414d7b5-b506-4d0a-a4b8-89ab7878d674
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDAV_CALLBACK_CRED, DAV_CALLBACK_CRED, DAV_CALLBACK_CRED structure [WebDAV], PDAV_CALLBACK_CRED, PDAV_CALLBACK_CRED structure pointer [WebDAV], davclnt/DAV_CALLBACK_CRED, davclnt/PDAV_CALLBACK_CRED, webdav.dav_callback_cred"
+ms.keywords: '*PDAV_CALLBACK_CRED, DAV_CALLBACK_CRED, DAV_CALLBACK_CRED structure [WebDAV], PDAV_CALLBACK_CRED, PDAV_CALLBACK_CRED structure pointer [WebDAV], davclnt/DAV_CALLBACK_CRED, davclnt/PDAV_CALLBACK_CRED, webdav.dav_callback_cred'
 ms.topic: struct
-f1_keywords: 
- - "davclnt/DAV_CALLBACK_CRED"
+f1_keywords:
+- davclnt/DAV_CALLBACK_CRED
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Davclnt.h
+- Davclnt.h
 api_name:
- - DAV_CALLBACK_CRED
+- DAV_CALLBACK_CRED
 product: Windows
 targetos: Windows
 req.typenames: DAV_CALLBACK_CRED, *PDAV_CALLBACK_CRED
@@ -61,12 +61,12 @@ Stores user credential information  that was retrieved by the <a href="https://d
 
 ### -field AuthBlob
 
-If the <b>bAuthBlobValid</b> member is <b>TRUE</b>, this member is a <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-_dav_callback_auth_blob">DAV_CALLBACK_AUTH_BLOB</a> structure that contains the user credential information.
+If the <b>bAuthBlobValid</b> member is <b>TRUE</b>, this member is a <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_blob">DAV_CALLBACK_AUTH_BLOB</a> structure that contains the user credential information.
 
 
 ### -field UNPBlob
 
-If the <b>bAuthBlobValid</b> member is <b>FALSE</b>, this member is a <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-_dav_callback_auth_unp">DAV_CALLBACK_AUTH_UNP</a> structure that contains the user credential information.
+If the <b>bAuthBlobValid</b> member is <b>FALSE</b>, this member is a <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_unp">DAV_CALLBACK_AUTH_UNP</a> structure that contains the user credential information.
 
 
 ### -field bAuthBlobValid
@@ -93,11 +93,11 @@ This structure is used by the <a href="https://docs.microsoft.com/windows/deskto
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-_dav_callback_auth_blob">DAV_CALLBACK_AUTH_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_blob">DAV_CALLBACK_AUTH_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-_dav_callback_auth_unp">DAV_CALLBACK_AUTH_UNP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_unp">DAV_CALLBACK_AUTH_UNP</a>
 
 
 

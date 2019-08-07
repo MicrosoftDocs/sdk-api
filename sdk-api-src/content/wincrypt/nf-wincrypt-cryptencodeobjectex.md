@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_ENCODE_ALLOC_FLAG, CRYPT_ENCODE_ENABLE_PUNYCODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_DISABLE_CHECK_TYPE_FLAG, CRYPT_UNICODE_NAME_ENCODE_ENABLE_T61_UNICODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_ENABLE_UTF8_UNICODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_FORCE_UTF8_UNICODE_FLAG, CryptEncodeObjectEx, CryptEncodeObjectEx function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_cryptencodeobjectex, security.cryptencodeobjectex, wincrypt/CryptEncodeObjectEx
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptEncodeObjectEx"
+f1_keywords:
+- wincrypt/CryptEncodeObjectEx
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptEncodeObjectEx
+- CryptEncodeObjectEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -192,11 +192,11 @@ This flag is applicable when encoding an X509_UNICODE_NAME. When set, CERT_RDN_U
 ### -param pEncodePara [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_encode_para">CRYPT_ENCODE_PARA</a> structure that contains encoding information. This parameter can be <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_encode_para">CRYPT_ENCODE_PARA</a> structure that contains encoding information. This parameter can be <b>NULL</b>.
 
 If either <i>pEncodePara</i> or the <b>pfnAlloc</b> member of <i>pEncodePara</i> is <b>NULL</b>, then <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> is used for the allocation and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> must be called to free the memory.
 
-If both <i>pEncodePara</i> and the <b>pfnAlloc</b> member of <i>pEncodePara</i> are not <b>NULL</b>, then the function pointed to by the <b>pfnAlloc</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_encode_para">CRYPT_ENCODE_PARA</a> structure pointed to by <i>pEncodePara</i> is called for the allocation. The function pointed to by the <b>pfnFree</b> member of <i>pEncodePara</i> must be called to free the memory.
+If both <i>pEncodePara</i> and the <b>pfnAlloc</b> member of <i>pEncodePara</i> are not <b>NULL</b>, then the function pointed to by the <b>pfnAlloc</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_encode_para">CRYPT_ENCODE_PARA</a> structure pointed to by <i>pEncodePara</i> is called for the allocation. The function pointed to by the <b>pfnFree</b> member of <i>pEncodePara</i> must be called to free the memory.
 
 
 ### -param pvEncoded [out]

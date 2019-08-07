@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExpandVirtualDisk, ExpandVirtualDisk function [VHD], vdssys/ExpandVirtualDisk, vhd.expandvirtualdisk, virtdisk/ExpandVirtualDisk
 ms.topic: function
-f1_keywords: 
- - "virtdisk/ExpandVirtualDisk"
+f1_keywords:
+- virtdisk/ExpandVirtualDisk
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VirtDisk.dll
+- VirtDisk.dll
 api_name:
- - ExpandVirtualDisk
+- ExpandVirtualDisk
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,7 +76,7 @@ A pointer to a valid <a href="https://docs.microsoft.com/windows/win32/api/virtd
 
 ### -param Overlapped [in, optional]
 
-An optional pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure if <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">asynchronous</a> operation is desired.
+An optional pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure if <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">asynchronous</a> operation is desired.
 
 
 ## -returns

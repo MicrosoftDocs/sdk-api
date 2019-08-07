@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 3, NetLocalGroupDelMembers, NetLocalGroupDelMembers function [Network Management], _win32_netlocalgroupdelmembers, lmaccess/NetLocalGroupDelMembers, netmgmt.netlocalgroupdelmembers
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetLocalGroupDelMembers"
+f1_keywords:
+- lmaccess/NetLocalGroupDelMembers
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetLocalGroupDelMembers
+- NetLocalGroupDelMembers
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -104,7 +104,7 @@ Specifies the
 </td>
 <td width="60%">
 Specifies the domain and name of a local group member to remove. The <i>buf</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_members_info_3">LOCALGROUP_MEMBERS_INFO_3</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_3">LOCALGROUP_MEMBERS_INFO_3</a> structures.
 
 </td>
 </tr>
@@ -213,7 +213,7 @@ If you are programming for Active Directory, you may be able to call certain Act
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_members_info_3">LOCALGROUP_MEMBERS_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_3">LOCALGROUP_MEMBERS_INFO_3</a>
 
 
 

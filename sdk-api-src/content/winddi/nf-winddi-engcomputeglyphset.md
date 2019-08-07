@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngComputeGlyphSet, EngComputeGlyphSet function [Display Devices], display.engcomputeglyphset, gdifncs_ba8356d5-4114-436c-9268-774b8e0918df.xml, winddi/EngComputeGlyphSet
 ms.topic: function
-f1_keywords: 
- - "winddi/EngComputeGlyphSet"
+f1_keywords:
+- winddi/EngComputeGlyphSet
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,17 +30,17 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Win32k.sys
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - EngComputeGlyphSet
+- EngComputeGlyphSet
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -81,7 +81,7 @@ Specifies the number of ANSI characters supported.
 
 
 
-If the glyph set is computed successfully, the function returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_glyphset">FD_GLYPHSET</a> structure. If an error occurs, the function returns <b>NULL</b>.
+If the glyph set is computed successfully, the function returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a> structure. If an error occurs, the function returns <b>NULL</b>.
 
 
 
@@ -106,7 +106,7 @@ The driver must call <a href="https://docs.microsoft.com/windows/desktop/api/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_glyphset">FD_GLYPHSET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a>
  
 
  

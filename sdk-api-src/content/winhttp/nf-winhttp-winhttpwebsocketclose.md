@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpWebSocketClose, WinHttpWebSocketClose function [WinHTTP], http.winhttpwebsocketclose, winhttp/WinHttpWebSocketClose
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpWebSocketClose"
+f1_keywords:
+- winhttp/WinHttpWebSocketClose
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpWebSocketClose
+- WinHttpWebSocketClose
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ Handle to a WebSocket.<div class="alert"><b>Note</b>  <b>WinHttpWebSocketClose
 
 Type: <b>USHORT</b>
 
-A close status code. See <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-_winhttp_web_socket_close_status">WINHTTP_WEB_SOCKET_CLOSE_STATUS</a> for possible values.
+A close status code. See <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-winhttp_web_socket_close_status">WINHTTP_WEB_SOCKET_CLOSE_STATUS</a> for possible values.
 
 
 ### -param pvReason [in, optional]
@@ -163,7 +163,7 @@ The default is 10 seconds.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-_winhttp_web_socket_close_status">WINHTTP_WEB_SOCKET_CLOSE_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-winhttp_web_socket_close_status">WINHTTP_WEB_SOCKET_CLOSE_STATUS</a>
 
 
 

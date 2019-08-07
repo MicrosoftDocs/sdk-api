@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_ADHOC_PROFILES, WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_MANUAL_HIDDEN_PROFILES, WlanGetAvailableNetworkList, WlanGetAvailableNetworkList function [NativeWIFI], nwifi.wlangetavailablenetworklist, nwifi.wlangetvisiblenetworklist, wlanapi/WlanGetAvailableNetworkList
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanGetAvailableNetworkList"
+f1_keywords:
+- wlanapi/WlanGetAvailableNetworkList
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
- - Ext-MS-Win-networking-wlanapi-l1-1-0.dll
+- wlanapi.dll
+- Ext-MS-Win-networking-wlanapi-l1-1-0.dll
 api_name:
- - WlanGetAvailableNetworkList
+- WlanGetAvailableNetworkList
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -497,7 +497,7 @@ int wmain()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_entry">WLAN_BSS_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_entry">WLAN_BSS_ENTRY</a>
 
 
 

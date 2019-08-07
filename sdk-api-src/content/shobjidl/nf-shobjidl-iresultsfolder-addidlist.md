@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddIDList, AddIDList method [Windows Shell], AddIDList method [Windows Shell],IResultsFolder interface, IResultsFolder interface [Windows Shell],AddIDList method, IResultsFolder.AddIDList, IResultsFolder::AddIDList, _shell_IResultsFolder_AddIDList, shell.IResultsFolder_AddIDList, shobjidl/IResultsFolder::AddIDList
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IResultsFolder.AddIDList"
+f1_keywords:
+- shobjidl/IResultsFolder.AddIDList
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IResultsFolder.AddIDList
+- IResultsFolder.AddIDList
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ A pointer to the IDList of the given object relative to the Desktop.
 
 Type: <b>PITEMID_CHILD*</b>
 
-A PIDL consisting of 0 or 1 <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structures, relative to a parent folder. This parameter maybe <b>NULL</b>.
+A PIDL consisting of 0 or 1 <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structures, relative to a parent folder. This parameter maybe <b>NULL</b>.
         
 
 

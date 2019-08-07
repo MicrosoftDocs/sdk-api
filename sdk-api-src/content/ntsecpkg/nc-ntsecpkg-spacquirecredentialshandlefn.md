@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SECPKG_CRED_INBOUND, SECPKG_CRED_OUTBOUND, SpAcquireCredentialsHandle, SpAcquireCredentialsHandle callback function [Security], SpAcquireCredentialsHandleFn, SpAcquireCredentialsHandleFn callback, _ssp_spacquirecredentialshandle, ntsecpkg/SpAcquireCredentialsHandle, security.spacquirecredentialshandle
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/SpAcquireCredentialsHandle"
+f1_keywords:
+- ntsecpkg/SpAcquireCredentialsHandle
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SpAcquireCredentialsHandle
+- SpAcquireCredentialsHandle
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ If the credentials handle is returned to the caller, the package should also spe
 ### -param PrincipalName [in]
 
 Optional. Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure containing the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal</a> whose credentials are being requested. If this value is <b>NULL</b>, the caller requests a handle to the credentials of the user in whose <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> the caller is executing.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure containing the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal</a> whose credentials are being requested. If this value is <b>NULL</b>, the caller requests a handle to the credentials of the user in whose <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> the caller is executing.
 
 
 ### -param CredentialUseFlags [in]
@@ -105,7 +105,7 @@ Credentials will be used with the
 ### -param LogonId [in]
 
 Optional. Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> containing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon identifier</a> of the security principal.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> containing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon identifier</a> of the security principal.
 
 
 ### -param AuthorizationData [in]
@@ -190,7 +190,7 @@ Credentials obtained from <b>SpAcquireCredentialsHandle</b> are freed by calling
 SSP/APs must implement the <b>SpAcquireCredentialsHandle</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpAcquireCredentialsHandle</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 
@@ -201,7 +201,7 @@ A pointer to the <b>SpAcquireCredentialsHandle</b> function is available in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 

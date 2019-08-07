@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CERT_STORE_ALL_CONTEXT_FLAG, CERT_STORE_CERTIFICATE_CONTEXT, CERT_STORE_CERTIFICATE_CONTEXT_FLAG, CERT_STORE_CRL_CONTEXT, CERT_STORE_CRL_CONTEXT_FLAG, CERT_STORE_CTL_CONTEXT, CERT_STORE_CTL_CONTEXT_FLAG, CertAddSerializedElementToStore, CertAddSerializedElementToStore function [Security], _crypto2_certaddserializedelementtostore, security.certaddserializedelementtostore, wincrypt/CertAddSerializedElementToStore
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertAddSerializedElementToStore"
+f1_keywords:
+- wincrypt/CertAddSerializedElementToStore
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertAddSerializedElementToStore
+- CertAddSerializedElementToStore
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -275,7 +275,7 @@ A pointer to a pointer to the decoded certificate, CRL, or CTL context. This is 
 If <i>ppvContext</i> is not <b>NULL</b>, it must be the address of a pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a>. When the application is finished with the context, the context must be freed by using 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>. When the application is finished with the context, the context must be freed by using 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> for a certificate, 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a> for a CRL, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a> for a CTL.

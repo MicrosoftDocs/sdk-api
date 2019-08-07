@@ -2,7 +2,7 @@
 UID: NN:vsprov.IVssFileShareSnapshotProvider
 title: IVssFileShareSnapshotProvider (vsprov.h)
 author: windows-sdk-content
-description: "."
+description: .
 old-location: base\ivssfilesharesnapshotprovider.htm
 tech.root: VSS
 ms.assetid: 1af45503-2f6f-4266-a0d2-ffc74a7be16f
@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssFileShareSnapshotProvider, IVssFileShareSnapshotProvider interface [VSS], IVssFileShareSnapshotProvider interface [VSS],described, base.ivssfilesharesnapshotprovider, vsprov/IVssFileShareSnapshotProvider
 ms.topic: interface
-f1_keywords: 
- - "vsprov/IVssFileShareSnapshotProvider"
+f1_keywords:
+- vsprov/IVssFileShareSnapshotProvider
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssFileShareSnapshotProvider
+- IVssFileShareSnapshotProvider
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -95,7 +95,7 @@ Deletes specific snapshots, or all snapshots in a specified snapshot set.
 <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssfilesharesnapshotprovider-getsnapshotproperties">GetSnapshotProperties</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure for a file share snapshot.  
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure for a file share snapshot.  
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ Determines whether the given UNC path is supported by this provider.
 <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssfilesharesnapshotprovider-query">Query</a>
 </td>
 <td align="left" width="63%">
-Gets an enumeration of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structures for all file share snapshots  that are available to the application server.  
+Gets an enumeration of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structures for all file share snapshots  that are available to the application server.  
 
 </td>
 </tr>

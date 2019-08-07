@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TYPE1_FONT, TYPE1_FONT structure [Display Devices], display.type1_font, grstrcts_5408143c-ae92-4fa6-b5a8-3ef75b46c30d.xml, winddi/TYPE1_FONT
 ms.topic: struct
-f1_keywords: 
- - "winddi/TYPE1_FONT"
+f1_keywords:
+- winddi/TYPE1_FONT
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - TYPE1_FONT
+- TYPE1_FONT
 product: Windows
 targetos: Windows
 req.typenames: TYPE1_FONT
@@ -71,7 +71,7 @@ Handle to the PostScript Type1 .<i>pfb</i> file.
 
 ### -field ulIdentifier
 
-Is an identifier that is generated and used by GDI. The driver stores <b>ulIdentifier</b> in the <b>dpCharSets</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure.
+Is an identifier that is generated and used by GDI. The driver stores <b>ulIdentifier</b> in the <b>dpCharSets</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a> structure.
 
 
 ## -remarks
@@ -90,7 +90,7 @@ Each PostScript Type1 font comes with two separate files: a .<i>pfm</i> file and
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
  
 
  

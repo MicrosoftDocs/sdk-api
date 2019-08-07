@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: b393ef08-cedb-4840-a427-10ead315d6ea
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_EXTENSIONS, CERT_EXTENSIONS, CERT_EXTENSIONS structure [Security], PCERT_EXTENSIONS, PCERT_EXTENSIONS structure pointer [Security], _crypto2_cert_extensions, security.cert_extensions, wincrypt/CERT_EXTENSIONS, wincrypt/PCERT_EXTENSIONS"
+ms.keywords: '*PCERT_EXTENSIONS, CERT_EXTENSIONS, CERT_EXTENSIONS structure [Security], PCERT_EXTENSIONS, PCERT_EXTENSIONS structure pointer [Security], _crypto2_cert_extensions, security.cert_extensions, wincrypt/CERT_EXTENSIONS, wincrypt/PCERT_EXTENSIONS'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_EXTENSIONS"
+f1_keywords:
+- wincrypt/CERT_EXTENSIONS
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_EXTENSIONS
+- CERT_EXTENSIONS
 product: Windows
 targetos: Windows
 req.typenames: CERT_EXTENSIONS, *PCERT_EXTENSIONS
@@ -66,7 +66,7 @@ Number of elements in the array <b>rgExtension</b>.
 
 ### -field rgExtension
 
-Array of structures, each holding information of type <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a> about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CRL</a>.
+Array of structures, each holding information of type <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CRL</a>.
 
 
 ## -see-also
@@ -74,7 +74,7 @@ Array of structures, each holding information of type <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
  
 
  

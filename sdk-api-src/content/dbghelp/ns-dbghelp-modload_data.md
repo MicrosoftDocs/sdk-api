@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: aa9c2b18-01bf-4eaa-8283-584ca16fc98e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMODLOAD_DATA, DBHHEADER_CVMISC, DBHHEADER_DEBUGDIRS, MODLOAD_DATA, MODLOAD_DATA structure, PMODLOAD_DATA, PMODLOAD_DATA structure pointer, _MODLOAD_DATA, _win32_modload_data_str, base.modload_data_str, dbghelp/MODLOAD_DATA, dbghelp/PMODLOAD_DATA"
+ms.keywords: '*PMODLOAD_DATA, DBHHEADER_CVMISC, DBHHEADER_DEBUGDIRS, MODLOAD_DATA, MODLOAD_DATA structure, PMODLOAD_DATA, PMODLOAD_DATA structure pointer, _MODLOAD_DATA, _win32_modload_data_str, base.modload_data_str, dbghelp/MODLOAD_DATA, dbghelp/PMODLOAD_DATA'
 ms.topic: struct
-f1_keywords: 
- - "dbghelp/MODLOAD_DATA"
+f1_keywords:
+- dbghelp/MODLOAD_DATA
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - MODLOAD_DATA
+- MODLOAD_DATA
 product: Windows
 targetos: Windows
 req.typenames: MODLOAD_DATA, *PMODLOAD_DATA
@@ -81,7 +81,7 @@ The type of data. This member can be one of the following values.
 </td>
 <td width="60%">
 The <b>data</b> member is a buffer that contains an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_debug_directory">IMAGE_DEBUG_DIRECTORY</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_debug_directory">IMAGE_DEBUG_DIRECTORY</a> structures.
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ The <b>data</b> member is a buffer that contains an array of
 </dl>
 </td>
 <td width="60%">
-The <b>data</b> member is a buffer that contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_modload_cvmisc">MODLOAD_CVMISC</a> structures.
+The <b>data</b> member is a buffer that contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-modload_cvmisc">MODLOAD_CVMISC</a> structures.
 
 </td>
 </tr>
@@ -120,11 +120,11 @@ This member is unused.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_debug_directory">IMAGE_DEBUG_DIRECTORY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_debug_directory">IMAGE_DEBUG_DIRECTORY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_modload_cvmisc">MODLOAD_CVMISC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-modload_cvmisc">MODLOAD_CVMISC</a>
 
 
 

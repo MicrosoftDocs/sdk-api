@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchNotifyInlineSite interface [search],OnItemIndexedStatusChange method, ISearchNotifyInlineSite.OnItemIndexedStatusChange, ISearchNotifyInlineSite::OnItemIndexedStatusChange, OnItemIndexedStatusChange, OnItemIndexedStatusChange method [search], OnItemIndexedStatusChange method [search],ISearchNotifyInlineSite interface, _search_ISearchNotifyInlineSite_OnItemIndexedStatusChange, search._search_ISearchNotifyInlineSite_OnItemIndexedStatusChange, searchapi/ISearchNotifyInlineSite::OnItemIndexedStatusChange
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchNotifyInlineSite.OnItemIndexedStatusChange"
+f1_keywords:
+- searchapi/ISearchNotifyInlineSite.OnItemIndexedStatusChange
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchNotifyInlineSite.OnItemIndexedStatusChange
+- ISearchNotifyInlineSite.OnItemIndexedStatusChange
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,9 +62,9 @@ Called by the search service to notify the client when the status of a particula
 
 ### -param sipStatus [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_search_indexing_phase">SEARCH_INDEXING_PHASE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-search_indexing_phase">SEARCH_INDEXING_PHASE</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_search_indexing_phase">SEARCH_INDEXING_PHASE</a> status of each document in the array being sent.
+The <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-search_indexing_phase">SEARCH_INDEXING_PHASE</a> status of each document in the array being sent.
                 
 
 
@@ -78,9 +78,9 @@ The number of entries in <i>rgItemStatusEntries</i>.
 
 ### -param rgItemStatusEntries [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_search_item_indexing_status">SEARCH_ITEM_INDEXING_STATUS</a>[]</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-search_item_indexing_status">SEARCH_ITEM_INDEXING_STATUS</a>[]</b>
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_search_item_indexing_status">SEARCH_ITEM_INDEXING_STATUS</a> structures containing status update information.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-search_item_indexing_status">SEARCH_ITEM_INDEXING_STATUS</a> structures containing status update information.
                 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Delete_Class_Key, CM_Delete_Class_Key function [Device and Driver Installation], cfgmgr32/CM_Delete_Class_Key, cfgmgrfn_4e8a0362-3fd5-4cb6-af2b-33a904bcafde.xml, devinst.cm_delete_class_key
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Delete_Class_Key"
+f1_keywords:
+- cfgmgr32/CM_Delete_Class_Key
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -30,16 +30,16 @@ req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
 req.dll: CfgMgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CfgMgr32.dll
- - API-MS-Win-devices-config-l1-1-0.dll
- - API-MS-Win-devices-config-l1-1-1.dll
+- CfgMgr32.dll
+- API-MS-Win-devices-config-l1-1-0.dll
+- API-MS-Win-devices-config-l1-1-1.dll
 api_name:
- - CM_Delete_Class_Key
+- CM_Delete_Class_Key
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -88,7 +88,7 @@ Delete the class and all of its subkeys.
 
 #### CM_DELETE_CLASS_INTERFACE (available only in Windows Vista and later)
 
-Indicates that <i>ClassGuid</i> specifies a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a> and not a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a>.
+Indicates that <i>ClassGuid</i> specifies a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a> and not a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>.
 
 
 ## -returns

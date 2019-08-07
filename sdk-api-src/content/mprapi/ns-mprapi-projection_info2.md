@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 820acc2b-38e1-4501-9753-bc250d6a87c9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPROJECTION_INFO2, MPRAPI_IKEV2_PROJECTION_INFO_TYPE, MPRAPI_PPP_PROJECTION_INFO_TYPE, PPROJECTION_INFO2, PPROJECTION_INFO2 structure pointer [RAS], PROJECTION_INFO2, PROJECTION_INFO2 structure [RAS], mprapi/PPROJECTION_INFO2, mprapi/PROJECTION_INFO2, rras.projection_info2"
+ms.keywords: '*PPROJECTION_INFO2, MPRAPI_IKEV2_PROJECTION_INFO_TYPE, MPRAPI_PPP_PROJECTION_INFO_TYPE, PPROJECTION_INFO2, PPROJECTION_INFO2 structure pointer [RAS], PROJECTION_INFO2, PROJECTION_INFO2 structure [RAS], mprapi/PPROJECTION_INFO2, mprapi/PROJECTION_INFO2, rras.projection_info2'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/PROJECTION_INFO2"
+f1_keywords:
+- mprapi/PROJECTION_INFO2
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mprapi.h
+- mprapi.h
 api_name:
- - PROJECTION_INFO2
+- PROJECTION_INFO2
 product: Windows
 targetos: Windows
 req.typenames: PROJECTION_INFO2, *PPROJECTION_INFO2
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used in the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_4">RAS_CONNECTION_4</a> structure as a placeholder for the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_projection_info2">PPP_PROJECTION_INFO2</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ikev2_projection_info2">IKEV2_PROJECTION_INFO2</a> structures.
+Used in the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_4">RAS_CONNECTION_4</a> structure as a placeholder for the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_projection_info2">PPP_PROJECTION_INFO2</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ikev2_projection_info2">IKEV2_PROJECTION_INFO2</a> structures.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ A value that specifies if the projection is for a Point-to-Point (PPP) or an Int
 </dl>
 </td>
 <td width="60%">
-The data is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_projection_info2">PPP_PROJECTION_INFO2</a> structure.
+The data is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_projection_info2">PPP_PROJECTION_INFO2</a> structure.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ The data is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-
 </dl>
 </td>
 <td width="60%">
-The data is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ikev2_projection_info2">IKEV2_PROJECTION_INFO2</a> structure.
+The data is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ikev2_projection_info2">IKEV2_PROJECTION_INFO2</a> structure.
 
 </td>
 </tr>
@@ -94,10 +94,10 @@ The data is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-
 
 ### -field PppProjectionInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_projection_info2">PPP_PROJECTION_INFO2</a> structure that is used for a PPP based tunnel.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_projection_info2">PPP_PROJECTION_INFO2</a> structure that is used for a PPP based tunnel.
 
 
 ### -field Ikev2ProjectionInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ikev2_projection_info2">IKEV2_PROJECTION_INFO2</a> structure that is used for an IKEv2 based tunnel.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ikev2_projection_info2">IKEV2_PROJECTION_INFO2</a> structure that is used for an IKEv2 based tunnel.
 

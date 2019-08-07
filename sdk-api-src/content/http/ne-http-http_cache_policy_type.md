@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 07d9853f-d38c-4e5b-815a-3dc0157b4d8d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_CACHE_POLICY_TYPE, HTTP_CACHE_POLICY_TYPE, HTTP_CACHE_POLICY_TYPE enumeration [HTTP], HttpCachePolicyMaximum, HttpCachePolicyNocache, HttpCachePolicyTimeToLive, HttpCachePolicyUserInvalidates, PHTTP_CACHE_POLICY_TYPE, PHTTP_CACHE_POLICY_TYPE enumeration pointer [HTTP], _http_http_cache_policy_type, http.http_cache_policy_type, http/HTTP_CACHE_POLICY_TYPE, http/HttpCachePolicyMaximum, http/HttpCachePolicyNocache, http/HttpCachePolicyTimeToLive, http/HttpCachePolicyUserInvalidates, http/PHTTP_CACHE_POLICY_TYPE"
+ms.keywords: '*PHTTP_CACHE_POLICY_TYPE, HTTP_CACHE_POLICY_TYPE, HTTP_CACHE_POLICY_TYPE enumeration [HTTP], HttpCachePolicyMaximum, HttpCachePolicyNocache, HttpCachePolicyTimeToLive, HttpCachePolicyUserInvalidates, PHTTP_CACHE_POLICY_TYPE, PHTTP_CACHE_POLICY_TYPE enumeration pointer [HTTP], _http_http_cache_policy_type, http.http_cache_policy_type, http/HTTP_CACHE_POLICY_TYPE, http/HttpCachePolicyMaximum, http/HttpCachePolicyNocache, http/HttpCachePolicyTimeToLive, http/HttpCachePolicyUserInvalidates, http/PHTTP_CACHE_POLICY_TYPE'
 ms.topic: enum
-f1_keywords: 
- - "http/HTTP_CACHE_POLICY_TYPE"
+f1_keywords:
+- http/HTTP_CACHE_POLICY_TYPE
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_CACHE_POLICY_TYPE
+- HTTP_CACHE_POLICY_TYPE
 product: Windows
 targetos: Windows
 req.typenames: HTTP_CACHE_POLICY_TYPE, *PHTTP_CACHE_POLICY_TYPE
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>HTTP_CACHE_POLICY_TYPE</b> enumeration type defines available cache policies. It is used to restrict the values of the <b>Policy</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_cache_policy">HTTP_CACHE_POLICY</a> structure, which in turn is used in the <i>pCachePolicy</i> parameter of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_cache_policy">HTTP_CACHE_POLICY</a> structure, which in turn is used in the <i>pCachePolicy</i> parameter of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFragmentToCache</a> function to specify how a response fragment is cached.
 
 
@@ -87,7 +87,7 @@ Terminates the enumeration; not used to determine policy.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_cache_policy">HTTP_CACHE_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_cache_policy">HTTP_CACHE_POLICY</a>
 
 
 

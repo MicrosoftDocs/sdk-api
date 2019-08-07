@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertSetCertificateContextPropertiesFromCTLEntry, CertSetCertificateContextPropertiesFromCTLEntry function [Security], _crypto2_certsetcertificatecontextpropertiesfromctlentry, security.certsetcertificatecontextpropertiesfromctlentry, wincrypt/CertSetCertificateContextPropertiesFromCTLEntry
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertSetCertificateContextPropertiesFromCTLEntry"
+f1_keywords:
+- wincrypt/CertSetCertificateContextPropertiesFromCTLEntry
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertSetCertificateContextPropertiesFromCTLEntry
+- CertSetCertificateContextPropertiesFromCTLEntry
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincryp
 
 ### -param pCtlEntry [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_entry">CTL_ENTRY</a> structure used to set the attributes on the certificate.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_entry">CTL_ENTRY</a> structure used to set the attributes on the certificate.
 
 
 ### -param dwFlags [in]
@@ -95,7 +95,7 @@ If the function succeeds, the function returns nonzero.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_entry">CTL_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_entry">CTL_ENTRY</a>
 
 
 

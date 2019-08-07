@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAuthDataForUser, GetAuthDataForUser callback function [Security], LSA_GET_AUTH_DATA_FOR_USER, LSA_GET_AUTH_DATA_FOR_USER callback, SecNameAlternateId, SecNameDN, SecNameFlat, SecNameSamCompatible, _ssp_getauthdataforuser, ntsecpkg/GetAuthDataForUser, security.getauthdataforuser
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/GetAuthDataForUser"
+f1_keywords:
+- ntsecpkg/GetAuthDataForUser
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - GetAuthDataForUser
+- GetAuthDataForUser
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The <b>GetAuthDataForUser</b> function retrieves authentication information for 
 ### -param Name [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that specifies the name of the SAM account.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that specifies the name of the SAM account.
 
 
 ### -param NameType [in]
@@ -123,7 +123,7 @@ A
 ### -param Prefix [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that contains the prefix to use for names specified with the <b>SecNameAlternateId</b> <i>NameType</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that contains the prefix to use for names specified with the <b>SecNameAlternateId</b> <i>NameType</i>.
 
 
 ### -param *UserAuthData [out]
@@ -139,7 +139,7 @@ Pointer to a <b>ULONG</b> that receives the size of the retrieved data.
 ### -param UserFlatName [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that receives the UPN, if applicable.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that receives the UPN, if applicable.
 
 
 ## -returns
@@ -163,7 +163,7 @@ The <b>GetAuthDataForUser</b> function combines the
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_close_sam_user">CloseSamUser</a> functions into one call.
 
 Pointers to these functions are available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 
@@ -182,7 +182,7 @@ Pointers to these functions are available in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 

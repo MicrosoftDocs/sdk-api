@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: C40070D6-AE19-4E42-A7C6-38F8AF5C1F53
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_CCS_KEY, HTTP_SERVICE_CONFIG_SSL_CCS_KEY, HTTP_SERVICE_CONFIG_SSL_CCS_KEY structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_CCS_KEY, PHTTP_SERVICE_CONFIG_SSL_CCS_KEY structure pointer [HTTP], http.http_service_config_ssl_ccs_key, http/HTTP_SERVICE_CONFIG_SSL_CCS_KEY, http/PHTTP_SERVICE_CONFIG_SSL_CCS_KEY"
+ms.keywords: '*PHTTP_SERVICE_CONFIG_SSL_CCS_KEY, HTTP_SERVICE_CONFIG_SSL_CCS_KEY, HTTP_SERVICE_CONFIG_SSL_CCS_KEY structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_CCS_KEY, PHTTP_SERVICE_CONFIG_SSL_CCS_KEY structure pointer [HTTP], http.http_service_config_ssl_ccs_key, http/HTTP_SERVICE_CONFIG_SSL_CCS_KEY, http/PHTTP_SERVICE_CONFIG_SSL_CCS_KEY'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_SERVICE_CONFIG_SSL_CCS_KEY"
+f1_keywords:
+- http/HTTP_SERVICE_CONFIG_SSL_CCS_KEY
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_SERVICE_CONFIG_SSL_CCS_KEY
+- HTTP_SERVICE_CONFIG_SSL_CCS_KEY
 product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_SSL_CCS_KEY, *PHTTP_SERVICE_CONFIG_SSL_CCS_KEY
@@ -68,7 +68,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socka
 
 
 
- The <b>HTTP_SERVICE_CONFIG_SSL_CCS_KEY</b> structure appears in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_ccs_set">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a> and the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_ccs_query">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a> structures. <b>HTTP_SERVICE_CONFIG_SSL_CCS_KEY</b> is passed as part of these structures in the <i>pConfigInformation</i>, <i>ConfigInfo</i>, <i>pInputConfigInfo</i>, and <i>pOutputConfigInfo</i> parameters to the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpdeleteserviceconfiguration">HttpDeleteServiceConfiguration</a>, <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a>, <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpupdateserviceconfiguration">HttpUpdateServiceConfiguration</a> functions when the <i>ConfigId</i> parameter is set to <b>HttpServiceConfigSslCcsCertInfo</b>.
+ The <b>HTTP_SERVICE_CONFIG_SSL_CCS_KEY</b> structure appears in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_set">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a> and the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_query">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a> structures. <b>HTTP_SERVICE_CONFIG_SSL_CCS_KEY</b> is passed as part of these structures in the <i>pConfigInformation</i>, <i>ConfigInfo</i>, <i>pInputConfigInfo</i>, and <i>pOutputConfigInfo</i> parameters to the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpdeleteserviceconfiguration">HttpDeleteServiceConfiguration</a>, <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a>, <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpupdateserviceconfiguration">HttpUpdateServiceConfiguration</a> functions when the <i>ConfigId</i> parameter is set to <b>HttpServiceConfigSslCcsCertInfo</b>.
 
 
 
@@ -79,11 +79,11 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socka
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_ccs_query">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_query">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_ccs_set">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_set">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a>
 
 
 

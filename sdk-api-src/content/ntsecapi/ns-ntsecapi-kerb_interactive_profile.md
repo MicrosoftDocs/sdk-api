@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 8e9dd04b-8155-4f85-be00-ff9d8297deaa
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PKERB_INTERACTIVE_PROFILE, KERB_INTERACTIVE_PROFILE, KERB_INTERACTIVE_PROFILE structure [Security], LOGON_EXTRA_SIDS, LOGON_RESOURCE_GROUPS, PKERB_INTERACTIVE_PROFILE, PKERB_INTERACTIVE_PROFILE structure pointer [Security], _lsa_kerb_interactive_profile, ntsecapi/KERB_INTERACTIVE_PROFILE, ntsecapi/PKERB_INTERACTIVE_PROFILE, security.kerb_interactive_profile"
+ms.keywords: '*PKERB_INTERACTIVE_PROFILE, KERB_INTERACTIVE_PROFILE, KERB_INTERACTIVE_PROFILE structure [Security], LOGON_EXTRA_SIDS, LOGON_RESOURCE_GROUPS, PKERB_INTERACTIVE_PROFILE, PKERB_INTERACTIVE_PROFILE structure pointer [Security], _lsa_kerb_interactive_profile, ntsecapi/KERB_INTERACTIVE_PROFILE, ntsecapi/PKERB_INTERACTIVE_PROFILE, security.kerb_interactive_profile'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/KERB_INTERACTIVE_PROFILE"
+f1_keywords:
+- ntsecapi/KERB_INTERACTIVE_PROFILE
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - KERB_INTERACTIVE_PROFILE
+- KERB_INTERACTIVE_PROFILE
 product: Windows
 targetos: Windows
 req.typenames: KERB_INTERACTIVE_PROFILE, *PKERB_INTERACTIVE_PROFILE
@@ -111,37 +111,37 @@ Time and date when the user must change the password. If the user can never chan
 ### -field LogonScript
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the relative path to the account's logon script.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the relative path to the account's logon script.
 
 
 ### -field HomeDirectory
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the user's home directory.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the user's home directory.
 
 
 ### -field FullName
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the user's full name.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the user's full name.
 
 
 ### -field ProfilePath
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the path to a user's roaming profile. This is used only if the user has a roaming profile.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the path to a user's roaming profile. This is used only if the user has a roaming profile.
 
 
 ### -field HomeDirectoryDrive
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the drive containing the user's home directory.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the drive containing the user's home directory.
 
 
 ### -field LogonServer
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the name of the server that processed the logon request.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the name of the server that processed the logon request.
 
 
 ### -field UserFlags

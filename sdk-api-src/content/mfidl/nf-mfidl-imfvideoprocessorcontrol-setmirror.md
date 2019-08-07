@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetMirror method, IMFVideoProcessorControl.SetMirror, IMFVideoProcessorControl::SetMirror, SetMirror, SetMirror method [Media Foundation], SetMirror method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setmirror, mfidl/IMFVideoProcessorControl::SetMirror
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFVideoProcessorControl.SetMirror"
+f1_keywords:
+- mfidl/IMFVideoProcessorControl.SetMirror
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFVideoProcessorControl.SetMirror
+- IMFVideoProcessorControl.SetMirror
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Specifies whether to flip the video image.
 
 ### -param eMirror
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mf_video_processor_mirror">MF_VIDEO_PROCESSOR_MIRROR</a> value that specifies whether to flip the video image, either horizontally or vertically.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mf_video_processor_mirror">MF_VIDEO_PROCESSOR_MIRROR</a> value that specifies whether to flip the video image, either horizontally or vertically.
 
 
 ## -returns

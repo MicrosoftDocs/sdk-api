@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAEnumNetworkEvents, WSAEnumNetworkEvents function [Winsock], _win32_wsaenumnetworkevents_2, winsock.wsaenumnetworkevents_2, winsock2/WSAEnumNetworkEvents
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSAEnumNetworkEvents"
+f1_keywords:
+- winsock2/WSAEnumNetworkEvents
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSAEnumNetworkEvents
+- WSAEnumNetworkEvents
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ An optional handle identifying an associated event object to be reset.
 ### -param lpNetworkEvents [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsanetworkevents">WSANETWORKEVENTS</a> structure that is filled with a record of network events that occurred and any associated error codes.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanetworkevents">WSANETWORKEVENTS</a> structure that is filled with a record of network events that occurred and any associated error codes.
 
 
 ## -returns
@@ -180,7 +180,7 @@ The
 The socket's internal record of network events is copied to the structure referenced by <i>lpNetworkEvents</i>, after which the internal network events record is cleared. If the <i>hEventObject</i> parameter is not <b>NULL</b>, the indicated event object is also reset. The Windows Sockets provider guarantees that the operations of copying the network event record, clearing it and resetting any associated event object are atomic, such that the next occurrence of a nominated network event will cause the event object to become set. In the case of this function returning SOCKET_ERROR, the associated event object is not reset and the record of network events is not cleared.
 
 The <b>lNetworkEvents</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsanetworkevents">WSANETWORKEVENTS</a> structure indicates which of the FD_XXX network events have occurred. The <b>iErrorCode</b> array is used to contain any associated error codes with the array index corresponding to the position of event bits in <b>lNetworkEvents</b>. Identifiers such as FD_READ_BIT and FD_WRITE_BIT can be used to index the <b>iErrorCode</b> array. Note that only those elements of the <b>iErrorCode</b> array are set that correspond to the bits set in <i>lNetworkEvents</i> parameter. Other parameters are not modified (this is important for backward compatibility with the applications that are not aware of new FD_ROUTING_INTERFACE_CHANGE and FD_ADDRESS_LIST_CHANGE events).
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanetworkevents">WSANETWORKEVENTS</a> structure indicates which of the FD_XXX network events have occurred. The <b>iErrorCode</b> array is used to contain any associated error codes with the array index corresponding to the position of event bits in <b>lNetworkEvents</b>. Identifiers such as FD_READ_BIT and FD_WRITE_BIT can be used to index the <b>iErrorCode</b> array. Note that only those elements of the <b>iErrorCode</b> array are set that correspond to the bits set in <i>lNetworkEvents</i> parameter. Other parameters are not modified (this is important for backward compatibility with the applications that are not aware of new FD_ROUTING_INTERFACE_CHANGE and FD_ADDRESS_LIST_CHANGE events).
 
 The following error codes can be returned along with the corresponding network event.
 

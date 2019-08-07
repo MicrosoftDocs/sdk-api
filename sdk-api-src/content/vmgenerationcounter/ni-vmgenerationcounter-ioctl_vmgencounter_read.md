@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_VMGENCOUNTER_READ, IOCTL_VMGENCOUNTER_READ control, IOCTL_VMGENCOUNTER_READ control code, hyperv.ioctl_vmgencounter_read, vmgenerationcounter/IOCTL_VMGENCOUNTER_READ
 ms.topic: ioctl
-f1_keywords: 
- - "vmgenerationcounter/IOCTL_VMGENCOUNTER_READ"
+f1_keywords:
+- vmgenerationcounter/IOCTL_VMGENCOUNTER_READ
 req.header: vmgenerationcounter.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vmgenerationcounter.h
+- Vmgenerationcounter.h
 api_name:
- - IOCTL_VMGENCOUNTER_READ
+- IOCTL_VMGENCOUNTER_READ
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -240,7 +240,7 @@ If <i>lpOverlapped</i> is not <b>NULL</b>,
 <td width="60%">
 <b>LPOVERLAPPED</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 If <i>hDevice</i> was opened without specifying 
        <b>FILE_FLAG_OVERLAPPED</b>, <i>lpOverlapped</i> is ignored.
@@ -248,7 +248,7 @@ If <i>hDevice</i> was opened without specifying
 If <i>hDevice</i> was opened with the <b>FILE_FLAG_OVERLAPPED</b> flag, 
        the operation is performed as an overlapped (asynchronous) operation. In this case, 
        <i>lpOverlapped</i> must point to a valid 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure that contains a handle to an 
+       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that contains a handle to an 
        event object. Otherwise, the function fails in unpredictable ways.
 
 For overlapped operations, <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 

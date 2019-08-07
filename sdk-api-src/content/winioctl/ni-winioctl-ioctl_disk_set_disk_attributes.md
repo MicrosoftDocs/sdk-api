@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_SET_DISK_ATTRIBUTES, IOCTL_DISK_SET_DISK_ATTRIBUTES control, IOCTL_DISK_SET_DISK_ATTRIBUTES control code [Files], fs.ioctl_disk_set_disk_attributes, winioctl/IOCTL_DISK_SET_DISK_ATTRIBUTES
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_DISK_SET_DISK_ATTRIBUTES"
+f1_keywords:
+- winioctl/IOCTL_DISK_SET_DISK_ATTRIBUTES
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_DISK_SET_DISK_ATTRIBUTES
+- IOCTL_DISK_SET_DISK_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -162,7 +162,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_set_disk_attributes">SET_DISK_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-set_disk_attributes">SET_DISK_ATTRIBUTES</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AIM_COMMENTS, AIM_CONTACT, AIM_DISPLAYNAME, AIM_HELPLINK, AIM_IMAGE, AIM_INSTALLDATE, AIM_INSTALLLOCATION, AIM_INSTALLSOURCE, AIM_LANGUAGE, AIM_PRODUCTID, AIM_PUBLISHER, AIM_READMEURL, AIM_REGISTEREDCOMPANY, AIM_REGISTEREDOWNER, AIM_REQUIREDBYPOLICY, AIM_SUPPORTTELEPHONE, AIM_SUPPORTURL, AIM_UPDATEINFOURL, AIM_VERSION, APPINFODATAFLAGS, APPINFODATAFLAGS enumeration [Windows Shell], inet_APPINFODATAFLAGS, shappmgr/AIM_COMMENTS, shappmgr/AIM_CONTACT, shappmgr/AIM_DISPLAYNAME, shappmgr/AIM_HELPLINK, shappmgr/AIM_IMAGE, shappmgr/AIM_INSTALLDATE, shappmgr/AIM_INSTALLLOCATION, shappmgr/AIM_INSTALLSOURCE, shappmgr/AIM_LANGUAGE, shappmgr/AIM_PRODUCTID, shappmgr/AIM_PUBLISHER, shappmgr/AIM_READMEURL, shappmgr/AIM_REGISTEREDCOMPANY, shappmgr/AIM_REGISTEREDOWNER, shappmgr/AIM_REQUIREDBYPOLICY, shappmgr/AIM_SUPPORTTELEPHONE, shappmgr/AIM_SUPPORTURL, shappmgr/AIM_UPDATEINFOURL, shappmgr/AIM_VERSION, shappmgr/APPINFODATAFLAGS, shell.APPINFODATAFLAGS
 ms.topic: enum
-f1_keywords: 
- - "shappmgr/APPINFODATAFLAGS"
+f1_keywords:
+- shappmgr/APPINFODATAFLAGS
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shappmgr.h
+- Shappmgr.h
 api_name:
- - APPINFODATAFLAGS
+- APPINFODATAFLAGS
 product: Windows
 targetos: Windows
 req.typenames: APPINFODATAFLAGS
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies application information to return from <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-getappinfo">IShellApp::GetAppInfo</a>. These flags are bitmasks used in the <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-_appinfodata">dwMask</a> member of the <b>APPINFODATA</b> structure.
+Specifies application information to return from <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-getappinfo">IShellApp::GetAppInfo</a>. These flags are bitmasks used in the <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">dwMask</a> member of the <b>APPINFODATA</b> structure.
 
 
 ## -enum-fields

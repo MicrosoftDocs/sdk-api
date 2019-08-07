@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsIscsiInitiatorAdapter interface, IVdsIscsiInitiatorAdapter interface [VDS],GetProperties method, IVdsIscsiInitiatorAdapter.GetProperties, IVdsIscsiInitiatorAdapter::GetProperties, base.ivdsiscsiinitiatoradapter_getproperties, vds/IVdsIscsiInitiatorAdapter::GetProperties
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsIscsiInitiatorAdapter.GetProperties"
+f1_keywords:
+- vds/IVdsIscsiInitiatorAdapter.GetProperties
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiInitiatorAdapter.GetProperties
+- IVdsIscsiInitiatorAdapter.GetProperties
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Returns the properties of an initiator adapter.
 ### -param pInitiatorAdapterProp [out]
 
 The address of a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_iscsi_initiator_adapter_prop">VDS_ISCSI_INITIATOR_ADAPTER_PROP</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_initiator_adapter_prop">VDS_ISCSI_INITIATOR_ADAPTER_PROP</a> 
       structure allocated by the caller. VDS allocates memory for the <b>pwszName</b> member 
       string. Callers must free this string by using the 
       <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
@@ -120,7 +120,7 @@ Some but not all of the properties were successfully retrieved. Note that there 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_iscsi_initiator_adapter_prop">VDS_ISCSI_INITIATOR_ADAPTER_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_initiator_adapter_prop">VDS_ISCSI_INITIATOR_ADAPTER_PROP</a>
  
 
  

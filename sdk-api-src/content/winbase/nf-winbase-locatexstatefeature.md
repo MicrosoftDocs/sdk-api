@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LocateXStateFeature, LocateXStateFeature function, base.locatexstatefeature, winbase/LocateXStateFeature
 ms.topic: function
-f1_keywords: 
- - "winbase/LocateXStateFeature"
+f1_keywords:
+- winbase/LocateXStateFeature
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Xstate-l2-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Xstate-l2-1-0.dll
+- KernelBase.dll
 api_name:
- - LocateXStateFeature
+- LocateXStateFeature
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 
 Retrieves a pointer to the processor state for an XState feature within a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure.
 
 The definition of XState feature bits are processor vendor specific. Please refer to the relevant processor 
     reference manuals for additional information on a particular feature.
@@ -67,7 +67,7 @@ The definition of XState feature bits are processor vendor specific. Please refe
 
 ### -param Context [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure containing the state 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure containing the state 
       to retrieve or set. This <b>CONTEXT</b> should have been 
       initialized with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializecontext">InitializeContext</a> with the 
       <b>CONTEXT_XSTATE</b> flag set in the <i>ContextFlags</i> 
@@ -77,7 +77,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-
 ### -param FeatureId [in]
 
 The number of the feature to locate within the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure.
 
 
 ### -param Length [out, optional]
@@ -91,12 +91,12 @@ A pointer to a variable which receives the length of the feature area in bytes. 
 
 
 If the specified feature is supported by the system and the specified 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure has been initialized with the 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure has been initialized with the 
        <b>CONTEXT_XSTATE</b> flag, this function returns a pointer to the feature area for the 
        specified feature.  The contents and layout of this area is processor-specific.
 
 If the <b>CONTEXT_XSTATE</b> flag is not set in the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure or the 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure or the 
        <i>FeatureID</i> is not supported by the system, the return value is 
        <b>NULL</b>. No additional error information is available.
 
@@ -109,7 +109,7 @@ If the <b>CONTEXT_XSTATE</b> flag is not set in the
 
 The <b>LocateXStateFeature</b> function must be used 
     to find an individual XState feature within an extensible 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure. Features are not necessarily contiguous 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure. Features are not necessarily contiguous 
     in memory and applications should not assume the offset between two consecutive features will remain constant in 
     the future.
 
@@ -124,7 +124,7 @@ If you are setting XState on a thread via the
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a> 
     APIs, you must also call 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setxstatefeaturesmask">SetXStateFeaturesMask</a> on the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure with the mask value of the filled-in 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure with the mask value of the filled-in 
     feature to mark the feature as active.
 
 
@@ -148,7 +148,7 @@ If you are setting XState on a thread via the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: rstmgr
 ms.assetid: b0fd12e4-20e3-48d1-a2db-c1e0334ed427
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRM_FILTER_INFO, PRM_FILTER_INFO, PRM_FILTER_INFO structure pointer [Restart Mgr], RM_FILTER_INFO, RM_FILTER_INFO structure [Restart Mgr], restartmanager/PRM_FILTER_INFO, restartmanager/RM_FILTER_INFO, rstmgr.rm_filter_info"
+ms.keywords: '*PRM_FILTER_INFO, PRM_FILTER_INFO, PRM_FILTER_INFO structure pointer [Restart Mgr], RM_FILTER_INFO, RM_FILTER_INFO structure [Restart Mgr], restartmanager/PRM_FILTER_INFO, restartmanager/RM_FILTER_INFO, rstmgr.rm_filter_info'
 ms.topic: struct
-f1_keywords: 
- - "restartmanager/RM_FILTER_INFO"
+f1_keywords:
+- restartmanager/RM_FILTER_INFO
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - RestartManager.h
+- RestartManager.h
 api_name:
- - RM_FILTER_INFO
+- RM_FILTER_INFO
 product: Windows
 targetos: Windows
 req.typenames: RM_FILTER_INFO, *PRM_FILTER_INFO
@@ -61,13 +61,13 @@ Contains information about modifications to restart or shutdown actions. Add, re
 
 ### -field FilterAction
 
-This member contains a <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-_rm_filter_action">RM_FILTER_ACTION</a> enumeration value. Use the value  <b>RmNoRestart</b> 
+This member contains a <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-rm_filter_action">RM_FILTER_ACTION</a> enumeration value. Use the value  <b>RmNoRestart</b> 
 to prevent the restart of the application or service. Use the value  <b>RmNoShutdown</b> to prevent the shutdown and restart of the application or service.
 
 
 ### -field FilterTrigger
 
-This member contains a <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-_rm_filter_trigger">RM_FILTER_TRIGGER</a> enumeration value. Use the value  <b>RmFilterTriggerFile</b> to modify the restart or shutdown actions  of an application referenced by the executable's full path filename. Use  the value <b>RmFilterTriggerProcess</b> to modify the restart or shutdown actions   of an application referenced by a <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_unique_process">RM_UNIQUE_PROCESS</a> structure. Use  the value <b>RmFilterTriggerService</b> 
+This member contains a <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-rm_filter_trigger">RM_FILTER_TRIGGER</a> enumeration value. Use the value  <b>RmFilterTriggerFile</b> to modify the restart or shutdown actions  of an application referenced by the executable's full path filename. Use  the value <b>RmFilterTriggerProcess</b> to modify the restart or shutdown actions   of an application referenced by a <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_unique_process">RM_UNIQUE_PROCESS</a> structure. Use  the value <b>RmFilterTriggerService</b> 
 to modify the restart or shutdown actions of a service referenced by the short service name.
 
 
@@ -83,7 +83,7 @@ If the value of <b>FilterTrigger</b> is <b>RmFilterTriggerFile</b>, this member 
 
 ### -field Process
 
-If the value of <b>FilterTrigger</b> is  <b>RmFilterTriggerProcess</b>,  this member is a  <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_process_info">RM_PROCESS_INFO</a> structure for the application.
+If the value of <b>FilterTrigger</b> is  <b>RmFilterTriggerProcess</b>,  this member is a  <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a> structure for the application.
 
 
 ### -field strServiceShortName
@@ -96,7 +96,7 @@ If the value of <b>FilterTrigger</b> is <b>RmFilterTriggerService</b> this membe
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-_rm_filter_trigger">RM_FILTER_TRIGGER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-rm_filter_trigger">RM_FILTER_TRIGGER</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPO_INFO_FLAG_SLOWLINK, GPO_INFO_FLAG_VERBOSE, GenerateGroupPolicy, PFNGENERATEGROUPPOLICY, PFNGENERATEGROUPPOLICY callback, PFNGENERATEGROUPPOLICY callback function [Group Policy], _win32_generategrouppolicy, policy.generategrouppolicy, userenv/PFNGENERATEGROUPPOLICY
 ms.topic: callback
-f1_keywords: 
- - "userenv/PFNGENERATEGROUPPOLICY"
+f1_keywords:
+- userenv/PFNGENERATEGROUPPOLICY
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Userenv.h
+- Userenv.h
 api_name:
- - PFNGENERATEGROUPPOLICY
+- PFNGENERATEGROUPPOLICY
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -93,13 +93,13 @@ A pointer to the site name of the target computer. This parameter can be <b>NULL
 ### -param pComputerTarget [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_rsop_target">RSOP_TARGET</a> structure that contains information about a computer. This parameter can be <b>NULL</b>, but if it is <b>NULL</b>, the <i>pUserTarget</i> parameter is required.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-rsop_target">RSOP_TARGET</a> structure that contains information about a computer. This parameter can be <b>NULL</b>, but if it is <b>NULL</b>, the <i>pUserTarget</i> parameter is required.
 
 
 ### -param pUserTarget [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_rsop_target">RSOP_TARGET</a> structure that contains information about a user. This parameter can be <b>NULL</b>, but if it is <b>NULL</b>, the <i>pComputerTarget</i> parameter is required.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-rsop_target">RSOP_TARGET</a> structure that contains information about a user. This parameter can be <b>NULL</b>, but if it is <b>NULL</b>, the <i>pComputerTarget</i> parameter is required.
 
 
 ## -returns
@@ -140,7 +140,7 @@ The policy extension must register this callback function at the registry key:<b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_rsop_target">RSOP_TARGET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-rsop_target">RSOP_TARGET</a>
  
 
  

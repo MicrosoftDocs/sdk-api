@@ -8,10 +8,10 @@ tech.root: TermServ
 ms.assetid: 4a8846a3-2bad-4ea1-b614-aca18484ea86
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWTS_SESSION_ADDRESS, PWTS_SESSION_ADDRESS, PWTS_SESSION_ADDRESS structure pointer [Remote Desktop Services], WTS_SESSION_ADDRESS, WTS_SESSION_ADDRESS structure [Remote Desktop Services], termserv.wts_session_address, wtsapi32/PWTS_SESSION_ADDRESS, wtsapi32/WTS_SESSION_ADDRESS"
+ms.keywords: '*PWTS_SESSION_ADDRESS, PWTS_SESSION_ADDRESS, PWTS_SESSION_ADDRESS structure pointer [Remote Desktop Services], WTS_SESSION_ADDRESS, WTS_SESSION_ADDRESS structure [Remote Desktop Services], termserv.wts_session_address, wtsapi32/PWTS_SESSION_ADDRESS, wtsapi32/WTS_SESSION_ADDRESS'
 ms.topic: struct
-f1_keywords: 
- - "wtsapi32/WTS_SESSION_ADDRESS"
+f1_keywords:
+- wtsapi32/WTS_SESSION_ADDRESS
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsapi32.h
+- Wtsapi32.h
 api_name:
- - WTS_SESSION_ADDRESS
+- WTS_SESSION_ADDRESS
 product: Windows
 targetos: Windows
 req.typenames: WTS_SESSION_ADDRESS, *PWTS_SESSION_ADDRESS
@@ -66,7 +66,7 @@ A null-terminated string that contains the address family. Always set this membe
 
 ### -field Address
 
-The virtual IP address assigned to the session. The format of this address is identical to that used in the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_client_address">WTS_CLIENT_ADDRESS</a> structure.
+The virtual IP address assigned to the session. The format of this address is identical to that used in the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_address">WTS_CLIENT_ADDRESS</a> structure.
 
 
 ## -see-also
@@ -78,7 +78,7 @@ The virtual IP address assigned to the session. The format of this address is id
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_client_address">WTS_CLIENT_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_address">WTS_CLIENT_ADDRESS</a>
  
 
  

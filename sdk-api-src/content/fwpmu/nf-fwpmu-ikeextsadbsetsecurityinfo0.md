@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IkeextSaDbSetSecurityInfo0, IkeextSaDbSetSecurityInfo0 function [Filtering], fwp.ikeextsadbsetsecurityinfo0, fwpmu/IkeextSaDbSetSecurityInfo0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/IkeextSaDbSetSecurityInfo0"
+f1_keywords:
+- fwpmu/IkeextSaDbSetSecurityInfo0
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - IkeextSaDbSetSecurityInfo0
+- IkeextSaDbSetSecurityInfo0
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,14 +75,14 @@ The type of security information to set.
 
 ### -param sidOwner [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>*</b>
 
 The owner's security identifier (SID) to be set in the security descriptor.
 
 
 ### -param sidGroup [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>*</b>
 
 The group's SID to be set in the security descriptor.
 

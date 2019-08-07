@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_DNS_ENDPOINT_IDENTITY_TYPE, WS_ENDPOINT_IDENTITY_TYPE, WS_ENDPOINT_IDENTITY_TYPE enumeration [Web Services for Windows], WS_SPN_ENDPOINT_IDENTITY_TYPE, WS_UNKNOWN_ENDPOINT_IDENTITY_TYPE, WS_UPN_ENDPOINT_IDENTITY_TYPE, webservices/WS_DNS_ENDPOINT_IDENTITY_TYPE, webservices/WS_ENDPOINT_IDENTITY_TYPE, webservices/WS_SPN_ENDPOINT_IDENTITY_TYPE, webservices/WS_UNKNOWN_ENDPOINT_IDENTITY_TYPE, webservices/WS_UPN_ENDPOINT_IDENTITY_TYPE, wsw.ws_endpoint_identity_type
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_ENDPOINT_IDENTITY_TYPE"
+f1_keywords:
+- webservices/WS_ENDPOINT_IDENTITY_TYPE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_ENDPOINT_IDENTITY_TYPE
+- WS_ENDPOINT_IDENTITY_TYPE
 product: Windows
 targetos: Windows
 req.typenames: WS_ENDPOINT_IDENTITY_TYPE
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The type of the endpoint IDentity, used as a selector for subtypes of
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_identity">WS_ENDPOINT_IDENTITY</a>.
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_identity">WS_ENDPOINT_IDENTITY</a>.
 
             
 
@@ -64,7 +64,7 @@ The type of the endpoint IDentity, used as a selector for subtypes of
 
 ### -field WS_DNS_ENDPOINT_IDENTITY_TYPE
 
-Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_dns_endpoint_identity">WS_DNS_ENDPOINT_IDENTITY</a>.
+Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_dns_endpoint_identity">WS_DNS_ENDPOINT_IDENTITY</a>.
                 
 
 
@@ -76,7 +76,7 @@ Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/
 
 ### -field WS_SPN_ENDPOINT_IDENTITY_TYPE
 
-Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_spn_endpoint_identity">WS_SPN_ENDPOINT_IDENTITY</a>.
+Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_spn_endpoint_identity">WS_SPN_ENDPOINT_IDENTITY</a>.
                 
 
 

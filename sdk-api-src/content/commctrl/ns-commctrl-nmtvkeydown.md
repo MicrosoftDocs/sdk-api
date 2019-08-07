@@ -8,10 +8,10 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvkeydown.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPNMTVKEYDOWN, LPNMTVKEYDOWN, LPNMTVKEYDOWN structure pointer [Windows Controls], NMTVKEYDOWN, NMTVKEYDOWN structure [Windows Controls], _win32_NMTVKEYDOWN, _win32_NMTVKEYDOWN_cpp, commctrl/LPNMTVKEYDOWN, commctrl/NMTVKEYDOWN, controls.NMTVKEYDOWN, controls._win32_NMTVKEYDOWN"
+ms.keywords: '*LPNMTVKEYDOWN, LPNMTVKEYDOWN, LPNMTVKEYDOWN structure pointer [Windows Controls], NMTVKEYDOWN, NMTVKEYDOWN structure [Windows Controls], _win32_NMTVKEYDOWN, _win32_NMTVKEYDOWN_cpp, commctrl/LPNMTVKEYDOWN, commctrl/NMTVKEYDOWN, controls.NMTVKEYDOWN, controls._win32_NMTVKEYDOWN'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/NMTVKEYDOWN"
+f1_keywords:
+- commctrl/NMTVKEYDOWN
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - NMTVKEYDOWN
+- NMTVKEYDOWN
 product: Windows
 targetos: Windows
 req.typenames: NMTVKEYDOWN, *LPNMTVKEYDOWN
@@ -62,10 +62,10 @@ Contains information about a keyboard event in a tree-view control. This structu
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains information about this notification. 
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification. 
 
 
 ### -field wVKey

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [Windows Controls], GetObject method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],GetObject method, IRichEditOle.GetObject, IRichEditOle::GetObject, REO_GETOBJ_ALL_INTERFACES, REO_GETOBJ_NO_INTERFACES, REO_GETOBJ_POLEOBJ, REO_GETOBJ_POLESITE, REO_GETOBJ_PSTG, _win32_IRichEditOle_GetObject, _win32_IRichEditOle_GetObject_cpp, controls.IRichEditOle_GetObject, controls._win32_IRichEditOle_GetObject, richole/IRichEditOle::GetObject
 ms.topic: method
-f1_keywords: 
- - "richole/IRichEditOle.GetObject"
+f1_keywords:
+- richole/IRichEditOle.GetObject
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - IRichEditOle.GetObject
+- IRichEditOle.GetObject
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves information, stored in a <a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-_reobject">REOBJECT</a> structure, about an object in a rich edit control.
+Retrieves information, stored in a <a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-reobject">REOBJECT</a> structure, about an object in a rich edit control.
 
 
 ## -parameters
@@ -63,12 +63,12 @@ Retrieves information, stored in a <a href="https://docs.microsoft.com/windows/d
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
-Zero-based index that specifies which object to return information about. If this parameter is <b>REO_IOB_USE_CP</b>, information about the object at the character position specified by the <a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-_reobject">REOBJECT</a> structure is returned.
+Zero-based index that specifies which object to return information about. If this parameter is <b>REO_IOB_USE_CP</b>, information about the object at the character position specified by the <a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-reobject">REOBJECT</a> structure is returned.
 
 
 ### -param lpreobject
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-_reobject">REOBJECT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-reobject">REOBJECT</a>*</b>
 
 Structure that receives information about the object. The reference count of the interfaces returned in this structure has been incremented; it is the responsibility of the caller to use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method to decrement the count.
 
@@ -144,7 +144,7 @@ Get all interfaces.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-Returns <b>S_OK</b> if successful, or an error value otherwise. <b>E_INVALIDARG</b> is returned if no buffer for the <a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-_reobject">REOBJECT</a> structure was given or if the <i>iob</i> value or character position is invalid.
+Returns <b>S_OK</b> if successful, or an error value otherwise. <b>E_INVALIDARG</b> is returned if no buffer for the <a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-reobject">REOBJECT</a> structure was given or if the <i>iob</i> value or character position is invalid.
 
 
 
@@ -158,7 +158,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise. <b>E_INVALIDARG<
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-_reobject">REOBJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-reobject">REOBJECT</a>
 
 
 

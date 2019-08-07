@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SOCKET_INFO_CONNECTION_ENCRYPTED, SOCKET_INFO_CONNECTION_SECURED, SOCKET_SECURITY_QUERY_INFO, SOCKET_SECURITY_QUERY_INFO structure [Winsock], mstcpip/SOCKET_SECURITY_QUERY_INFO, winsock.socket_security_query_info
 ms.topic: struct
-f1_keywords: 
- - "mstcpip/SOCKET_SECURITY_QUERY_INFO"
+f1_keywords:
+- mstcpip/SOCKET_SECURITY_QUERY_INFO
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mstcpip.h
+- Mstcpip.h
 api_name:
- - SOCKET_SECURITY_QUERY_INFO
+- SOCKET_SECURITY_QUERY_INFO
 product: Windows
 targetos: Windows
 req.typenames: SOCKET_SECURITY_QUERY_INFO
@@ -61,7 +61,7 @@ The <b>SOCKET_SECURITY_QUERY_INFO</b> structure contains security information re
 
 ### -field SecurityProtocol
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-_socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a> value that identifies the protocol used to secure the traffic.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a> value that identifies the protocol used to secure the traffic.
 
 
 ### -field Flags
@@ -129,7 +129,7 @@ The <b>SOCKET_SECURITY_QUERY_INFO</b> structure  is used by the <a href="https:/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-_socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a>
 
 
 

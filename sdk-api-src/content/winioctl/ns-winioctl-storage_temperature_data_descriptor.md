@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: E155B31F-6543-42E3-BCAB-B1B0100D23E4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR, PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR, PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR structure pointer [Files], STORAGE_TEMPERATURE_DATA_DESCRIPTOR, STORAGE_TEMPERATURE_DATA_DESCRIPTOR structure [Files], fs.storage_temperature_data_descriptor, winioctl/PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR, winioctl/STORAGE_TEMPERATURE_DATA_DESCRIPTOR"
+ms.keywords: '*PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR, PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR, PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR structure pointer [Files], STORAGE_TEMPERATURE_DATA_DESCRIPTOR, STORAGE_TEMPERATURE_DATA_DESCRIPTOR structure [Files], fs.storage_temperature_data_descriptor, winioctl/PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR, winioctl/STORAGE_TEMPERATURE_DATA_DESCRIPTOR'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/STORAGE_TEMPERATURE_DATA_DESCRIPTOR"
+f1_keywords:
+- winioctl/STORAGE_TEMPERATURE_DATA_DESCRIPTOR
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoctl.h
+- WinIoctl.h
 api_name:
- - STORAGE_TEMPERATURE_DATA_DESCRIPTOR
+- STORAGE_TEMPERATURE_DATA_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.typenames: STORAGE_TEMPERATURE_DATA_DESCRIPTOR, *PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR
@@ -80,7 +80,7 @@ Indicates the maximum temperature in degrees Celsius at which the device is capa
 
 ### -field InfoCount
 
-Specifies the number of <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_temperature_info">STORAGE_TEMPERATURE_INFO</a> structures reported in <b>TemperatureInfo</b>. More than one set of temperature data may be returned when there are multiple sensors in the drive.
+Specifies the number of <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_temperature_info">STORAGE_TEMPERATURE_INFO</a> structures reported in <b>TemperatureInfo</b>. More than one set of temperature data may be returned when there are multiple sensors in the drive.
 
 
 ### -field Reserved0
@@ -102,7 +102,7 @@ Reserved for future use.
 
 #### - TemperatureInfo[ANYSIZE_ARRAY]
 
-Device temperature data, of type <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_temperature_info">STORAGE_TEMPERATURE_INFO</a>.
+Device temperature data, of type <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_temperature_info">STORAGE_TEMPERATURE_INFO</a>.
 
 
 ## -see-also
@@ -118,15 +118,15 @@ Device temperature data, of type <a href="https://docs.microsoft.com/windows/des
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_property_id">STORAGE_PROPERTY_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_property_id">STORAGE_PROPERTY_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_property_query">STORAGE_PROPERTY_QUERY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_temperature_info">STORAGE_TEMPERATURE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_temperature_info">STORAGE_TEMPERATURE_INFO</a>
  
 
  

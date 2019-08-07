@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 16b0cac9-af8c-4106-b74e-6c9ada543851
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_GETBLTSTATUSDATA, DD_GETBLTSTATUSDATA, DD_GETBLTSTATUSDATA structure [Display Devices], ddrawint/DD_GETBLTSTATUSDATA, ddstrcts_fec10d7e-ffc0-4368-8cd8-e1028ac7874d.xml, display.dd_getbltstatusdata"
+ms.keywords: '*PDD_GETBLTSTATUSDATA, DD_GETBLTSTATUSDATA, DD_GETBLTSTATUSDATA structure [Display Devices], ddrawint/DD_GETBLTSTATUSDATA, ddstrcts_fec10d7e-ffc0-4368-8cd8-e1028ac7874d.xml, display.dd_getbltstatusdata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_GETBLTSTATUSDATA"
+f1_keywords:
+- ddrawint/DD_GETBLTSTATUSDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_GETBLTSTATUSDATA
+- DD_GETBLTSTATUSDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_GETBLTSTATUSDATA, DD_GETBLTSTATUSDATA"
+req.typenames: '*PDD_GETBLTSTATUSDATA, DD_GETBLTSTATUSDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,7 +61,7 @@ The DD_GETBLTSTATUSDATA structure returns the blit status information.
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 
 ### -field lpDDSurface

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OperationEnd, OperationEnd function [Operation Recorder], oprec.operationend, winbase/OperationEnd
 ms.topic: function
-f1_keywords: 
- - "winbase/OperationEnd"
+f1_keywords:
+- winbase/OperationEnd
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - OperationEnd
+- OperationEnd
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Every call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf
 
 ### -param OperationEndParams [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_operation_end_parameters">_OPERATION_END_PARAMETERS</a> structure that specifies <b>VERSION</b>, <b>OPERATION_ID</b> and <b>FLAGS</b>.
+An <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_end_parameters">_OPERATION_END_PARAMETERS</a> structure that specifies <b>VERSION</b>, <b>OPERATION_ID</b> and <b>FLAGS</b>.
 
 
 ## -returns
@@ -79,7 +79,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_o
 
 
 
-The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_operation_end_parameters">_OPERATION_END_PARAMETERS</a> structure is defined as <b>OPERATION_API_VERSION</b> in the Windows SDK. 
+The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_end_parameters">_OPERATION_END_PARAMETERS</a> structure is defined as <b>OPERATION_API_VERSION</b> in the Windows SDK. 
 
 The  <b>OperationEnd</b> function is safe to call on any thread.
 
@@ -107,11 +107,11 @@ The  <b>OperationEnd</b> function is safe to call on any thread.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_operation_end_parameters">_OPERATION_END_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_end_parameters">_OPERATION_END_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_operation_start_parameters">_OPERATION_START_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_start_parameters">_OPERATION_START_PARAMETERS</a>
  
 
  

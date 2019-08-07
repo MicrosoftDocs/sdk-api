@@ -8,10 +8,10 @@ tech.root: Madcap
 ms.assetid: d275e78b-ddf3-4f92-a76f-463aec2f6c95
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMCAST_SCOPE_ENTRY, MCAST_SCOPE_ENTRY, MCAST_SCOPE_ENTRY structure [MADCAP], PMCAST_SCOPE_ENTRY, PMCAST_SCOPE_ENTRY structure pointer [MADCAP], _mdhcp_mcast_scope_entry, madcap.mcast_scope_entry, madcapcl/MCAST_SCOPE_ENTRY, madcapcl/PMCAST_SCOPE_ENTRY"
+ms.keywords: '*PMCAST_SCOPE_ENTRY, MCAST_SCOPE_ENTRY, MCAST_SCOPE_ENTRY structure [MADCAP], PMCAST_SCOPE_ENTRY, PMCAST_SCOPE_ENTRY structure pointer [MADCAP], _mdhcp_mcast_scope_entry, madcap.mcast_scope_entry, madcapcl/MCAST_SCOPE_ENTRY, madcapcl/PMCAST_SCOPE_ENTRY'
 ms.topic: struct
-f1_keywords: 
- - "madcapcl/MCAST_SCOPE_ENTRY"
+f1_keywords:
+- madcapcl/MCAST_SCOPE_ENTRY
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Madcapcl.h
+- Madcapcl.h
 api_name:
- - MCAST_SCOPE_ENTRY
+- MCAST_SCOPE_ENTRY
 product: Windows
 targetos: Windows
 req.typenames: MCAST_SCOPE_ENTRY, *PMCAST_SCOPE_ENTRY
@@ -135,7 +135,7 @@ Description of the scope, in human readable, user-friendly format.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a>
  
 
  

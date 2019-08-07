@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDetailsEx, GetDetailsEx method [Windows Shell], GetDetailsEx method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],GetDetailsEx method, IShellFolder2.GetDetailsEx, IShellFolder2::GetDetailsEx, _win32_IShellFolder2_GetDetailsEx, shell.IShellFolder2_GetDetailsEx, shobjidl_core/IShellFolder2::GetDetailsEx
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellFolder2.GetDetailsEx"
+f1_keywords:
+- shobjidl_core/IShellFolder2.GetDetailsEx
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellFolder2.GetDetailsEx
+- IShellFolder2.GetDetailsEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Gets detailed information, identified by a property set identifier (FMTID) and a
 
 Type: <b>PCUITEMID_CHILD</b>
 
-A PIDL of the item, relative to the parent folder. This method accepts only single-level PIDLs. The structure must contain exactly one <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure followed by a terminating zero. This value cannot be <b>NULL</b>.
+A PIDL of the item, relative to the parent folder. This method accepts only single-level PIDLs. The structure must contain exactly one <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure followed by a terminating zero. This value cannot be <b>NULL</b>.
 
 
 ### -param pscid [in]

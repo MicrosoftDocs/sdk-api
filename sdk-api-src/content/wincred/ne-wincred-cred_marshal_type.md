@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 612fdd6f-2b4c-4f41-a00b-250f90eb85d3
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRED_MARSHAL_TYPE, CRED_MARSHAL_TYPE, CRED_MARSHAL_TYPE enumeration [Security], CertCredential, PCRED_MARSHAL_TYPE, PCRED_MARSHAL_TYPE enumeration pointer [Security], UsernameTargetCredential, _cred_cred_marshal_type, security.cred_marshal_type, wincred/CRED_MARSHAL_TYPE, wincred/CertCredential, wincred/PCRED_MARSHAL_TYPE, wincred/UsernameTargetCredential"
+ms.keywords: '*PCRED_MARSHAL_TYPE, CRED_MARSHAL_TYPE, CRED_MARSHAL_TYPE enumeration [Security], CertCredential, PCRED_MARSHAL_TYPE, PCRED_MARSHAL_TYPE enumeration pointer [Security], UsernameTargetCredential, _cred_cred_marshal_type, security.cred_marshal_type, wincred/CRED_MARSHAL_TYPE, wincred/CertCredential, wincred/PCRED_MARSHAL_TYPE, wincred/UsernameTargetCredential'
 ms.topic: enum
-f1_keywords: 
- - "wincred/CRED_MARSHAL_TYPE"
+f1_keywords:
+- wincred/CRED_MARSHAL_TYPE
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinCred.h
+- WinCred.h
 api_name:
- - CRED_MARSHAL_TYPE
+- CRED_MARSHAL_TYPE
 product: Windows
 targetos: Windows
 req.typenames: CRED_MARSHAL_TYPE, *PCRED_MARSHAL_TYPE
@@ -66,7 +66,7 @@ Specifies that the credential is a certificate reference described by a <a href=
 
 ### -field UsernameTargetCredential
 
-Specifies that the credential is a reference to a CRED_FLAGS_USERNAME_TARGET credential described by a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_username_target_credential_info">USERNAME_TARGET_CREDENTIAL_INFO</a> structure.
+Specifies that the credential is a reference to a CRED_FLAGS_USERNAME_TARGET credential described by a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-username_target_credential_info">USERNAME_TARGET_CREDENTIAL_INFO</a> structure.
 
 
 ### -field BinaryBlobCredential

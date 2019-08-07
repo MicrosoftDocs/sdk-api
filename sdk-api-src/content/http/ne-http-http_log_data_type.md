@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 8c53a3e6-5001-4e72-bff4-a6eab007aa9c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_LOG_DATA_TYPE, *PHTTP_LOG_DATA_TYPE enumeration [HTTP], HTTP_LOG_DATA_TYPE, HTTP_LOG_DATA_TYPE enumeration [HTTP], HttpLogDataTypeFields, http.http_log_data_type, http/*PHTTP_LOG_DATA_TYPE, http/HTTP_LOG_DATA_TYPE, http/HttpLogDataTypeFields"
+ms.keywords: '*PHTTP_LOG_DATA_TYPE, *PHTTP_LOG_DATA_TYPE enumeration [HTTP], HTTP_LOG_DATA_TYPE, HTTP_LOG_DATA_TYPE enumeration [HTTP], HttpLogDataTypeFields, http.http_log_data_type, http/*PHTTP_LOG_DATA_TYPE, http/HTTP_LOG_DATA_TYPE, http/HttpLogDataTypeFields'
 ms.topic: enum
-f1_keywords: 
- - "http/HTTP_LOG_DATA_TYPE"
+f1_keywords:
+- http/HTTP_LOG_DATA_TYPE
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_LOG_DATA_TYPE
+- HTTP_LOG_DATA_TYPE
 product: Windows
 targetos: Windows
 req.typenames: HTTP_LOG_DATA_TYPE, *PHTTP_LOG_DATA_TYPE
@@ -61,7 +61,7 @@ The <b>HTTP_LOG_DATA_TYPE</b> enumeration identifies the type of log data.
 
 ### -field HttpLogDataTypeFields
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_log_fields_data">HTTP_LOG_FIELDS_DATA</a> structure is used for logging a request. This structure is passed to an <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a> or <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a> call.
+The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_log_fields_data">HTTP_LOG_FIELDS_DATA</a> structure is used for logging a request. This structure is passed to an <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a> or <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a> call.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_l
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_log_data">HTTP_LOG_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_log_data">HTTP_LOG_DATA</a>
  
 
  

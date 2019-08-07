@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVENT_CONTROL_CODE_CAPTURE_STATE, EVENT_CONTROL_CODE_DISABLE_PROVIDER, EVENT_CONTROL_CODE_ENABLE_PROVIDER, EnableTraceEx2, EnableTraceEx2 function [ETW], TRACE_LEVEL_CRITICAL, TRACE_LEVEL_ERROR, TRACE_LEVEL_INFORMATION, TRACE_LEVEL_VERBOSE, TRACE_LEVEL_WARNING, etw.enabletraceex2, evntrace/EnableTraceEx2
 ms.topic: function
-f1_keywords: 
- - "evntrace/EnableTraceEx2"
+f1_keywords:
+- evntrace/EnableTraceEx2
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib 
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7 and Windows Server 2008 R2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Sechost.dll
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
- - API-MS-Win-Eventing-Controller-l1-1-0.dll
- - KernelBase.dll
+- Sechost.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+- API-MS-Win-Eventing-Controller-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - EnableTraceEx2
+- EnableTraceEx2
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -323,12 +323,12 @@ Event Tracing for Windows (ETW) supports several categories of filtering.
 </ul>
 Every time <b>EnableTraceEx2</b> is called, the filters for the provider in that session are replaced by the new parameters defined by the parameters passed to the <b>EnableTraceEx2</b> function. Multiple filters passed in a single <b>EnableTraceEx2</b> call can be combined with an additive effect. To disable filtering and thereby enable all providers/events in the logging session, call <b>EnableTraceEx2</b> with the <i>EnableParameters</i> parameter pointed to an <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> structure with the <b>FilterDescCount</b> member set to 0.
 
-Each filter passed to the <b>EnableTraceEx2</b> function is specified by a <b>Type</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>. An array of  <b>EVENT_FILTER_DESCRIPTOR</b> structures is passed in the <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> structure passed in the <b>EnableParameters</b> parameter to the <b>EnableTraceEx2</b> function. 
+Each filter passed to the <b>EnableTraceEx2</b> function is specified by a <b>Type</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>. An array of  <b>EVENT_FILTER_DESCRIPTOR</b> structures is passed in the <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> structure passed in the <b>EnableParameters</b> parameter to the <b>EnableTraceEx2</b> function. 
 
 Each type of filter (a specific <b>Type</b> member) may only appear once in a call to the <b>EnableTraceEx2</b> function, however, some filter  types allow multiple conditions to be included in a single filter. The maximum number of filters that can be included in a call to <b>EnableTraceEx2</b> is set by  <b>MAX_EVENT_FILTERS_COUNT</b> defined to be 8 in the <i>Evntprov.h</i> header file. 
 
 
-Each filter type has its own size or entity limits based on the specific <b>Type</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure.  The list  below indicates these limits.
+Each filter type has its own size or entity limits based on the specific <b>Type</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure.  The list  below indicates these limits.
 
 
 
@@ -470,13 +470,13 @@ If the provider is registered and already enabled to your session, you can also 
 On Windows 8.1,Windows Server 2012 R2, and later, event payload , scope, and stack 
      walk filters can be used by the <b>EnableTraceEx2</b> 
      function and the <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> and 
-     <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures to filter on 
+     <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures to filter on 
      specific conditions in a logger session. For more information on event payload filters, see the 
      <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>, and 
      <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a> functions and 
      the <b>ENABLE_TRACE_PARAMETERS</b>, 
      <b>EVENT_FILTER_DESCRIPTOR</b>, and 
-     <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_payload_filter_predicate">PAYLOAD_FILTER_PREDICATE</a> structures.
+     <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-payload_filter_predicate">PAYLOAD_FILTER_PREDICATE</a> structures.
 
 You do not call <b>EnableTraceEx2</b> to enable kernel 
      providers. To enable kernel providers, set the <b>EnableFlags</b> member of 
@@ -843,7 +843,7 @@ Exit:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
 
 
 
@@ -863,7 +863,7 @@ Exit:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_payload_filter_predicate">PAYLOAD_FILTER_PREDICATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-payload_filter_predicate">PAYLOAD_FILTER_PREDICATE</a>
 
 
 

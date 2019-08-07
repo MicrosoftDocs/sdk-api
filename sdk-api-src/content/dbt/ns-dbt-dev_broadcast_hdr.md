@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DBT_DEVTYP_DEVICEINTERFACE, DBT_DEVTYP_HANDLE, DBT_DEVTYP_OEM, DBT_DEVTYP_PORT, DBT_DEVTYP_VOLUME, DEV_BROADCAST_HDR, DEV_BROADCAST_HDR structure, PDEV_BROADCAST_HDR, PDEV_BROADCAST_HDR structure pointer, _win32_dev_broadcast_hdr_str, base.dev_broadcast_hdr_str, dbt/DEV_BROADCAST_HDR, dbt/PDEV_BROADCAST_HDR
 ms.topic: struct
-f1_keywords: 
- - "dbt/DEV_BROADCAST_HDR"
+f1_keywords:
+- dbt/DEV_BROADCAST_HDR
 req.header: dbt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dbt.h
+- Dbt.h
 api_name:
- - DEV_BROADCAST_HDR
+- DEV_BROADCAST_HDR
 product: Windows
 targetos: Windows
 req.typenames: DEV_BROADCAST_HDR
@@ -105,7 +105,7 @@ Class of devices. This structure is a
 </td>
 <td width="60%">
 File system handle. This structure is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_handle">DEV_BROADCAST_HANDLE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_handle">DEV_BROADCAST_HANDLE</a> structure.
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ File system handle. This structure is a
 </td>
 <td width="60%">
 OEM- or IHV-defined device type. This structure is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_oem">DEV_BROADCAST_OEM</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_oem">DEV_BROADCAST_OEM</a> structure.
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ OEM- or IHV-defined device type. This structure is a
 </td>
 <td width="60%">
 Port device (serial or parallel). This structure is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_port_a">DEV_BROADCAST_PORT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_port_a">DEV_BROADCAST_PORT</a> structure.
 
 </td>
 </tr>
@@ -141,7 +141,7 @@ Port device (serial or parallel). This structure is a
 </td>
 <td width="60%">
 Logical volume. This structure is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_volume">DEV_BROADCAST_VOLUME</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_volume">DEV_BROADCAST_VOLUME</a> structure.
 
 </td>
 </tr>
@@ -163,19 +163,19 @@ Reserved; do not use.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_handle">DEV_BROADCAST_HANDLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_handle">DEV_BROADCAST_HANDLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_oem">DEV_BROADCAST_OEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_oem">DEV_BROADCAST_OEM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_port_a">DEV_BROADCAST_PORT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_port_a">DEV_BROADCAST_PORT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_volume">DEV_BROADCAST_VOLUME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_volume">DEV_BROADCAST_VOLUME</a>
 
 
 

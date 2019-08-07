@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptQueryContextFunctionConfiguration, BCryptQueryContextFunctionConfiguration function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptQueryContextFunctionConfiguration, security.bcryptquerycontextfunctionconfiguration
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptQueryContextFunctionConfiguration"
+f1_keywords:
+- bcrypt/BCryptQueryContextFunctionConfiguration
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
+- Bcrypt.dll
 api_name:
- - BCryptQueryContextFunctionConfiguration
+- BCryptQueryContextFunctionConfiguration
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -206,7 +206,7 @@ After this function returns, this variable contains the number of bytes that wer
 
 ### -param ppBuffer [in, out]
 
-The address of a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_context_function_config">CRYPT_CONTEXT_FUNCTION_CONFIG</a> structure that receives the function configuration information retrieved by this function. The value pointed to by the <i>pcbBuffer</i> parameter contains the size of this buffer.
+The address of a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_function_config">CRYPT_CONTEXT_FUNCTION_CONFIG</a> structure that receives the function configuration information retrieved by this function. The value pointed to by the <i>pcbBuffer</i> parameter contains the size of this buffer.
 
 If the value pointed to by this parameter is <b>NULL</b>, this function will allocate the required memory. This memory must be freed when it is no longer needed by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function.
 
@@ -325,7 +325,7 @@ status = BCryptQueryContextFunctionConfiguration(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_context_function_config">CRYPT_CONTEXT_FUNCTION_CONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_function_config">CRYPT_CONTEXT_FUNCTION_CONFIG</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3, NetUserModalsGet, NetUserModalsGet function [Network Management], _win32_netusermodalsget, lmaccess/NetUserModalsGet, netmgmt.netusermodalsget
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetUserModalsGet"
+f1_keywords:
+- lmaccess/NetUserModalsGet
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetUserModalsGet
+- NetUserModalsGet
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -87,7 +87,7 @@ The information level of the data requested. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return global password parameters. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_0">USER_MODALS_INFO_0</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_0">USER_MODALS_INFO_0</a> structure.
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ Return global password parameters. The <i>bufptr</i> parameter points to a
 </td>
 <td width="60%">
 Return logon server and domain controller information. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_1">USER_MODALS_INFO_1</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1">USER_MODALS_INFO_1</a> structure.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ Return logon server and domain controller information. The <i>bufptr</i> paramet
 </td>
 <td width="60%">
 Return domain name and identifier. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_2">USER_MODALS_INFO_2</a> structure. For more information, see the following Remarks section.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_2">USER_MODALS_INFO_2</a> structure. For more information, see the following Remarks section.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Return domain name and identifier. The <i>bufptr</i> parameter points to a
 </td>
 <td width="60%">
 Return lockout information. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_3">USER_MODALS_INFO_3</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_3">USER_MODALS_INFO_3</a> structure.
 
 </td>
 </tr>
@@ -241,14 +241,14 @@ The security descriptor of the Domain object is used to perform the access check
 To retrieve the 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-identifiers">security identifier</a> (SID) of the domain to which the computer belongs, call the 
 <b>NetUserModalsGet</b> function specifying a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_2">USER_MODALS_INFO_2</a> structure and <b>NULL</b> in the <i>servername</i> parameter. If the computer isn't a member of a domain, the function returns a <b>NULL</b> pointer.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_2">USER_MODALS_INFO_2</a> structure and <b>NULL</b> in the <i>servername</i> parameter. If the computer isn't a member of a domain, the function returns a <b>NULL</b> pointer.
 
 
 #### Examples
 
 The following code sample demonstrates how to retrieve global information for all users and global groups with a call to the 
 <b>NetUserModalsGet</b> function. The sample calls 
-<b>NetUserModalsGet</b>, specifying information level 0 (<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_0">USER_MODALS_INFO_0</a>). If the call succeeds, the sample prints global password information. Finally, the code sample frees the memory allocated for the information buffer.
+<b>NetUserModalsGet</b>, specifying information level 0 (<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_0">USER_MODALS_INFO_0</a>). If the call succeeds, the sample prints global password information. Finally, the code sample frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -335,19 +335,19 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_0">USER_MODALS_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_0">USER_MODALS_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_1">USER_MODALS_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1">USER_MODALS_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_2">USER_MODALS_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_2">USER_MODALS_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_3">USER_MODALS_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_3">USER_MODALS_INFO_3</a>
 
 
 

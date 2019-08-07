@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1, 2, 3, NetQueryDisplayInformation, NetQueryDisplayInformation function [Network Management], _win32_netquerydisplayinformation, lmaccess/NetQueryDisplayInformation, netmgmt.netquerydisplayinformation
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetQueryDisplayInformation"
+f1_keywords:
+- lmaccess/NetQueryDisplayInformation
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetQueryDisplayInformation
+- NetQueryDisplayInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,7 +83,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return user account information. The <i>SortedBuffer</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_display_user">NET_DISPLAY_USER</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_display_user">NET_DISPLAY_USER</a> structures.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ Return user account information. The <i>SortedBuffer</i> parameter points to an 
 </td>
 <td width="60%">
 Return individual computer information. The <i>SortedBuffer</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_display_machine">NET_DISPLAY_MACHINE</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_display_machine">NET_DISPLAY_MACHINE</a> structures.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Return individual computer information. The <i>SortedBuffer</i> parameter points
 </td>
 <td width="60%">
 Return group account information. The <i>SortedBuffer</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_display_group">NET_DISPLAY_GROUP</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_display_group">NET_DISPLAY_GROUP</a> structures.
 
 </td>
 </tr>
@@ -232,7 +232,7 @@ Each call to
 The following code sample demonstrates how to return group account information using a call to the 
 <b>NetQueryDisplayInformation</b> function. If the user specifies a server name, the sample first calls the 
 <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> function to convert the name to Unicode. The sample calls 
-<b>NetQueryDisplayInformation</b>, specifying information level 3 (<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_display_group">NET_DISPLAY_GROUP</a>) to retrieve group account information. If there are entries to return, the sample returns the data and prints the group information. Finally, the code sample frees the memory allocated for the information buffer.
+<b>NetQueryDisplayInformation</b>, specifying information level 3 (<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_display_group">NET_DISPLAY_GROUP</a>) to retrieve group account information. If there are entries to return, the sample returns the data and prints the group information. Finally, the code sample frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -333,15 +333,15 @@ void main( int argc, char *argv[ ] )
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_display_group">NET_DISPLAY_GROUP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_display_group">NET_DISPLAY_GROUP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_display_machine">NET_DISPLAY_MACHINE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_display_machine">NET_DISPLAY_MACHINE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_display_user">NET_DISPLAY_USER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_display_user">NET_DISPLAY_USER</a>
 
 
 

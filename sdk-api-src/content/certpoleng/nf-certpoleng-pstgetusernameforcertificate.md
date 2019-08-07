@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PstGetUserNameForCertificate, PstGetUserNameForCertificate function [Security], certpoleng/PstGetUserNameForCertificate, security.pstgetusernameforcertificate
 ms.topic: function
-f1_keywords: 
- - "certpoleng/PstGetUserNameForCertificate"
+f1_keywords:
+- certpoleng/PstGetUserNameForCertificate
 req.header: certpoleng.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Certpoleng.lib
 req.dll: Certpoleng.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Certpoleng.dll
+- Certpoleng.dll
 api_name:
- - PstGetUserNameForCertificate
+- PstGetUserNameForCertificate
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Retrieves the user name associated with the specified certificate.
 
 ### -param pCertContext [in]
 
-A constant pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that specifies the certificate for which to obtain the user name.
+A constant pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that specifies the certificate for which to obtain the user name.
 
 
 ### -param UserName [out]

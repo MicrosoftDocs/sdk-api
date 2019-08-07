@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDXML_TEXT, WSDXML_TEXT structure, _WSDXML_TEXT, ncd.wsdxml_text_struct, wsdxmldom/WSDXML_TEXT
 ms.topic: struct
-f1_keywords: 
- - "wsdxmldom/WSDXML_TEXT"
+f1_keywords:
+- wsdxmldom/WSDXML_TEXT
 req.header: wsdxmldom.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdXmldom.h
+- WsdXmldom.h
 api_name:
- - WSDXML_TEXT
+- WSDXML_TEXT
 product: Windows
 targetos: Windows
 req.typenames: WSDXML_TEXT
@@ -61,7 +61,7 @@ Describes the text in an XML node.
 
 ### -field Node
 
-The current node in a linked list of <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_node">WSDXML_NODE</a> structures.
+The current node in a linked list of <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_node">WSDXML_NODE</a> structures.
 
 
 ### -field Text

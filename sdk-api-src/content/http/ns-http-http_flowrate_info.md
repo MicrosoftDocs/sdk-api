@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 5b52ef5b-dc82-4a87-9204-d32134074c31
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_FLOWRATE_INFO, HTTP_FLOWRATE_INFO, HTTP_FLOWRATE_INFO structure [HTTP], PHTTP_FLOWRATE_INFO, PHTTP_FLOWRATE_INFO structure pointer [HTTP], http.http_flowrate_info, http/HTTP_FLOWRATE_INFO, http/PHTTP_FLOWRATE_INFO"
+ms.keywords: '*PHTTP_FLOWRATE_INFO, HTTP_FLOWRATE_INFO, HTTP_FLOWRATE_INFO structure [HTTP], PHTTP_FLOWRATE_INFO, PHTTP_FLOWRATE_INFO structure pointer [HTTP], http.http_flowrate_info, http/HTTP_FLOWRATE_INFO, http/PHTTP_FLOWRATE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_FLOWRATE_INFO"
+f1_keywords:
+- http/HTTP_FLOWRATE_INFO
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_FLOWRATE_INFO
+- HTTP_FLOWRATE_INFO
 product: Windows
 targetos: Windows
 req.typenames: HTTP_FLOWRATE_INFO, *PHTTP_FLOWRATE_INFO
@@ -61,7 +61,7 @@ The transfer rate of a response
 
 ### -field Flags
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_property_flags">HTTP_PROPERTY_FLAGS</a> structure specifying whether the property is present.
+An <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_property_flags">HTTP_PROPERTY_FLAGS</a> structure specifying whether the property is present.
 
 
 ### -field MaxBandwidth

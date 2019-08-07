@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: f6ac3ef8-1afc-4c0f-b24f-34d3d56d62a8
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDDENABLEIRQINFO, DDENABLEIRQINFO, DDENABLEIRQINFO structure [Display Devices], PDDENABLEIRQINFO, PDDENABLEIRQINFO structure pointer [Display Devices], Video_Structs_8d9ac070-bb9e-4cc4-af09-9e8f7942516f.xml, display.ddenableirqinfo, dxmini/DDENABLEIRQINFO, dxmini/PDDENABLEIRQINFO"
+ms.keywords: '*PDDENABLEIRQINFO, DDENABLEIRQINFO, DDENABLEIRQINFO structure [Display Devices], PDDENABLEIRQINFO, PDDENABLEIRQINFO structure pointer [Display Devices], Video_Structs_8d9ac070-bb9e-4cc4-af09-9e8f7942516f.xml, display.ddenableirqinfo, dxmini/DDENABLEIRQINFO, dxmini/PDDENABLEIRQINFO'
 ms.topic: struct
-f1_keywords: 
- - "dxmini/DDENABLEIRQINFO"
+f1_keywords:
+- dxmini/DDENABLEIRQINFO
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxmini.h
+- dxmini.h
 api_name:
- - DDENABLEIRQINFO
+- DDENABLEIRQINFO
 product: Windows
 targetos: Windows
 req.typenames: DDENABLEIRQINFO, *PDDENABLEIRQINFO
@@ -301,7 +301,7 @@ Points to the data to be sent to <b>IRQCallback</b> when <b>IRQCallback</b> is c
 
 
 
-The <b>dwIRQSources</b> member of this structure does not use the DDIRQ_BUSMASTER flag. However, the DDIRQ_BUSMASTER flag can be set in the <b>dwIrqFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_dx_irqdata">DX_IRQDATA</a> structure. The driver passes this DX_IRQDATA to the <b>IRQCallback</b> function when an IRQ occurs. 
+The <b>dwIRQSources</b> member of this structure does not use the DDIRQ_BUSMASTER flag. However, the DDIRQ_BUSMASTER flag can be set in the <b>dwIrqFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-dx_irqdata">DX_IRQDATA</a> structure. The driver passes this DX_IRQDATA to the <b>IRQCallback</b> function when an IRQ occurs. 
 
 
 
@@ -311,7 +311,7 @@ The <b>dwIRQSources</b> member of this structure does not use the DDIRQ_BUSMASTE
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_dx_irqdata">DX_IRQDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-dx_irqdata">DX_IRQDATA</a>
 
 
 

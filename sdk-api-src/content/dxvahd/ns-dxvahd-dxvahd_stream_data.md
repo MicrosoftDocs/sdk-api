@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_DATA, DXVAHD_STREAM_DATA structure [Media Foundation], dxvahd/DXVAHD_STREAM_DATA, mf.dxvahd_stream_data
 ms.topic: struct
-f1_keywords: 
- - "dxvahd/DXVAHD_STREAM_DATA"
+f1_keywords:
+- dxvahd/DXVAHD_STREAM_DATA
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - DXVAHD_STREAM_DATA
+- DXVAHD_STREAM_DATA
 product: Windows
 targetos: Windows
 req.typenames: DXVAHD_STREAM_DATA
@@ -61,7 +61,7 @@ Contains per-stream data for the <a href="https://docs.microsoft.com/windows/des
 
 ### -field Enable
 
-Specifies whether this input stream is enabled. If the value is <b>TRUE</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-videoprocessblthd">VideoProcessBltHD</a> method blits this stream to the output surface<b></b>. Otherwise, the stream is not blitted. The maximum number of streams that can be enabled at one time is given in the <b>MaxInputStreams</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure.
+Specifies whether this input stream is enabled. If the value is <b>TRUE</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-videoprocessblthd">VideoProcessBltHD</a> method blits this stream to the output surface<b></b>. Otherwise, the stream is not blitted. The maximum number of streams that can be enabled at one time is given in the <b>MaxInputStreams</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure.
 
 
 
@@ -77,12 +77,12 @@ The zero-based index number of the input frame or field. See Remarks.
 
 ### -field PastFrames
 
-The number of past reference frames. This value must be less than or equal to the value of the <b>PastFrames</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpcaps">DXVAHD_VPCAPS</a> structure.
+The number of past reference frames. This value must be less than or equal to the value of the <b>PastFrames</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpcaps">DXVAHD_VPCAPS</a> structure.
 
 
 ### -field FutureFrames
 
-The number of future reference frames. This value must be less than or equal to the value of the <b>FutureFrames</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpcaps">DXVAHD_VPCAPS</a> structure.
+The number of future reference frames. This value must be less than or equal to the value of the <b>FutureFrames</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpcaps">DXVAHD_VPCAPS</a> structure.
 
 
 ### -field ppPastSurfaces
@@ -105,7 +105,7 @@ A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api
 
 
 <h3><a id="Input_Surfaces"></a><a id="input_surfaces"></a><a id="INPUT_SURFACES"></a>Input Surfaces</h3>
-The Direct3D surfaces must be allocated in the memory pool specified by the <b>InputPool</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure. The following surface types can be used:
+The Direct3D surfaces must be allocated in the memory pool specified by the <b>InputPool</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure. The following surface types can be used:
 
 
 <ul>
@@ -120,7 +120,7 @@ The past and future reference frames must be placed in the arrays in temporal or
 <li><b>ppInputSurface</b>: <i>T</i></li>
 <li><b>ppFutureSurfaces</b>: { <i>T</i>+1, <i>T</i>+2, <i>T</i>+3, … }</li>
 </ul>
-The <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpcaps">DXVAHD_VPCAPS</a> structure specifies the number of reference frames required to get the best deinterlacing quality. If the application provides fewer reference frames, the device will fall back to simpler deinterlacing algorithms. If no reference frames are provided, the device can use bob deinterlacing. Here are some cases where an application might provide fewer reference frames:
+The <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpcaps">DXVAHD_VPCAPS</a> structure specifies the number of reference frames required to get the best deinterlacing quality. If the application provides fewer reference frames, the device will fall back to simpler deinterlacing algorithms. If no reference frames are provided, the device can use bob deinterlacing. Here are some cases where an application might provide fewer reference frames:
 
 <ul>
 <li>At the beginning or end of the video sequence</li>

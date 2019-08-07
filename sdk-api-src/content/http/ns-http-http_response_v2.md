@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 1900741e-f466-4826-b376-36170176c30a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_RESPONSE, *PHTTP_RESPONSE_V2, *PHTTP_RESPONSE_V2 structure [HTTP], HTTP_RESPONSE, HTTP_RESPONSE_V2, HTTP_RESPONSE_V2 structure [HTTP], http.http_response_v2, http/*PHTTP_RESPONSE_V2, http/HTTP_RESPONSE_V2"
+ms.keywords: '*PHTTP_RESPONSE, *PHTTP_RESPONSE_V2, *PHTTP_RESPONSE_V2 structure [HTTP], HTTP_RESPONSE, HTTP_RESPONSE_V2, HTTP_RESPONSE_V2 structure [HTTP], http.http_response_v2, http/*PHTTP_RESPONSE_V2, http/HTTP_RESPONSE_V2'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_RESPONSE_V2"
+f1_keywords:
+- http/HTTP_RESPONSE_V2
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_RESPONSE_V2
+- HTTP_RESPONSE_V2
 product: Windows
 targetos: Windows
 req.typenames: HTTP_RESPONSE_V2, *PHTTP_RESPONSE_V2
@@ -63,14 +63,14 @@ Do not use <b>HTTP_RESPONSE_V2</b> directly in your code;  use <a href="https://
 
 ### -field ResponseInfoCount
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_info">HTTP_RESPONSE_INFO</a> structures in the array pointed to by <b>pResponseInfo</b>.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a> structures in the array pointed to by <b>pResponseInfo</b>.
 
 The count of the HTTP_RESPONSE_INFO elements in the array pointed to by <b>pResponseInfo</b>.
 
 
 ### -field pResponseInfo
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_info">HTTP_RESPONSE_INFO</a> structures containing more information about the request.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a> structures containing more information about the request.
 
 
 ### -field _HTTP_RESPONSE_V1
@@ -89,7 +89,7 @@ A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_data_chunk">HTTP_DATA_CHUNK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_data_chunk">HTTP_DATA_CHUNK</a>
 
 
 
@@ -101,11 +101,11 @@ A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_headers">HTTP_RESPONSE_HEADERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_headers">HTTP_RESPONSE_HEADERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_v1">HTTP_RESPONSE_V1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_v1">HTTP_RESPONSE_V1</a>
 
 
 

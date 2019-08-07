@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: A valid window handle, DRIVER_ACTION_VERIFY, HTTPSPROV_ACTION, INVALID_HANDLE_VALUE, OFFICESIGN_ACTION_VERIFY, WINTRUST_ACTION_GENERIC_CERT_VERIFY, WINTRUST_ACTION_GENERIC_CHAIN_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WINTRUST_ACTION_TRUSTPROVIDER_TEST, WinVerifyTrustEx, WinVerifyTrustEx function [Security], Zero, security.winverifytrustex, wintrust/WinVerifyTrustEx
 ms.topic: function
-f1_keywords: 
- - "wintrust/WinVerifyTrustEx"
+f1_keywords:
+- wintrust/WinVerifyTrustEx
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - WinVerifyTrustEx
+- WinVerifyTrustEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WinVerifyTrustEx</b> function performs a trust verification action on a specified object and takes a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_wintrust_data">WINTRUST_DATA</a> structure. The function passes the inquiry to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a>, if one exists, that supports the action identifier. This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
+The <b>WinVerifyTrustEx</b> function performs a trust verification action on a specified object and takes a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a> structure. The function passes the inquiry to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a>, if one exists, that supports the action identifier. This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
 
 For certificate verification, use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> functions.
 
@@ -199,7 +199,7 @@ Verify a file or object using the Authenticode policy provider.
 </td>
 <td width="60%">
 Write
-the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_data">CRYPT_PROVIDER_DATA</a> structure to a file after calling the
+the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_data">CRYPT_PROVIDER_DATA</a> structure to a file after calling the
 Authenticode policy provider.
 
 </td>
@@ -211,7 +211,7 @@ Authenticode policy provider.
 ### -param pWinTrustData [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_wintrust_data">WINTRUST_DATA</a> structure that contains information that the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a> needs to process the specified action identifier. Typically, the structure includes information that identifies the object that the trust provider must evaluate.
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a> structure that contains information that the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a> needs to process the specified action identifier. Typically, the structure includes information that identifies the object that the trust provider must evaluate.
 
 The format of the structure depends on the action identifier. For information about the data required for a specific action identifier, see the documentation for the trust provider that supports that action.
 

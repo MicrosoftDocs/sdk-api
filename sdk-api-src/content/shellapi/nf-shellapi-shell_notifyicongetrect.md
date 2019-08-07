@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Shell_NotifyIconGetRect, Shell_NotifyIconGetRect function [Windows Shell], _shell_Shell_NotifyIconGetRect, shell.Shell_NotifyIconGetRect, shellapi/Shell_NotifyIconGetRect
 ms.topic: function
-f1_keywords: 
- - "shellapi/Shell_NotifyIconGetRect"
+f1_keywords:
+- shellapi/Shell_NotifyIconGetRect
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - Shell_NotifyIconGetRect
+- Shell_NotifyIconGetRect
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ Gets the screen coordinates of the bounding rectangle of a notification icon.
 
 ### -param identifier [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyiconidentifier">NOTIFYICONIDENTIFIER</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-notifyiconidentifier">NOTIFYICONIDENTIFIER</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyiconidentifier">NOTIFYICONIDENTIFIER</a> structure that identifies the icon.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-notifyiconidentifier">NOTIFYICONIDENTIFIER</a> structure that identifies the icon.
 
 
 ### -param iconLocation [out]

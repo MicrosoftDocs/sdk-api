@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [VDS], GetObject method [VDS],IVdsProviderPrivate interface, IVdsProviderPrivate interface [VDS],GetObject method, IVdsProviderPrivate.GetObject, IVdsProviderPrivate::GetObject, base.ivdsproviderprivate_getobject, vdshwprv/IVdsProviderPrivate::GetObject
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsProviderPrivate.GetObject"
+f1_keywords:
+- vdshwprv/IVdsProviderPrivate.GetObject
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsProviderPrivate.GetObject
+- IVdsProviderPrivate.GetObject
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ The GUID of the object.
 
 ### -param type [in]
 
-The object type enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_object_type">VDS_OBJECT_TYPE</a>.
+The object type enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_object_type">VDS_OBJECT_TYPE</a>.
 
 
 ### -param ppObjectUnk [out]
@@ -124,7 +124,7 @@ The object can be a  subsystem, controller, LUN, LUN plex, drive, pack, disk, vo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_object_type">VDS_OBJECT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_object_type">VDS_OBJECT_TYPE</a>
  
 
  

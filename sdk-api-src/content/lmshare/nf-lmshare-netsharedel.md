@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetShareDel, NetShareDel function [Files], _win32_netsharedel, fs.netsharedel, lmshare/NetShareDel, netmgmt.netsharedel
 ms.topic: function
-f1_keywords: 
- - "lmshare/NetShareDel"
+f1_keywords:
+- lmshare/NetShareDel
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetShareDel
+- NetShareDel
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Deletes a share name from a server's list of shared resources, disconnecting all connections to the shared resource.
 
-The extended function <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharedelex">NetShareDelEx</a> allows the caller  to specify a <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_0">SHARE_INFO_0</a>, <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1">SHARE_INFO_1</a>, <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_2">SHARE_INFO_2</a>, <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_502">SHARE_INFO_502</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_503">SHARE_INFO_503</a> structure.
+The extended function <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharedelex">NetShareDelEx</a> allows the caller  to specify a <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_0">SHARE_INFO_0</a>, <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1">SHARE_INFO_1</a>, <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_2">SHARE_INFO_2</a>, <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_502">SHARE_INFO_502</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_503">SHARE_INFO_503</a> structure.
 
 
 ## -parameters

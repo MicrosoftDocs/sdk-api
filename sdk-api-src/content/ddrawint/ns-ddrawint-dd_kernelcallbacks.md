@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 85dcb71b-ad1f-4b83-8ead-db502d9f294e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_KERNELCALLBACKS, DD_KERNELCALLBACKS, DD_KERNELCALLBACKS structure [Display Devices], PDD_KERNELCALLBACKS, PDD_KERNELCALLBACKS structure pointer [Display Devices], ddrawint/DD_KERNELCALLBACKS, ddrawint/PDD_KERNELCALLBACKS, ddstrcts_6d33c1f1-37e3-421a-b40f-1009a5ee3d25.xml, display.dd_kernelcallbacks"
+ms.keywords: '*PDD_KERNELCALLBACKS, DD_KERNELCALLBACKS, DD_KERNELCALLBACKS structure [Display Devices], PDD_KERNELCALLBACKS, PDD_KERNELCALLBACKS structure pointer [Display Devices], ddrawint/DD_KERNELCALLBACKS, ddrawint/PDD_KERNELCALLBACKS, ddstrcts_6d33c1f1-37e3-421a-b40f-1009a5ee3d25.xml, display.dd_kernelcallbacks'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_KERNELCALLBACKS"
+f1_keywords:
+- ddrawint/DD_KERNELCALLBACKS
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_KERNELCALLBACKS
+- DD_KERNELCALLBACKS
 product: Windows
 targetos: Windows
 req.typenames: DD_KERNELCALLBACKS, *PDD_KERNELCALLBACKS
@@ -112,7 +112,7 @@ Entries that the display driver does not use should be set to <b>NULL</b>. The d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_ntcallbacks">DD_NTCALLBACKS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_ntcallbacks">DD_NTCALLBACKS</a>
 
 
 

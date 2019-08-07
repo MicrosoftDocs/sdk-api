@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 1bc6dc12-1213-47d7-9e6f-2396a41cc6d0
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_FLIPVPORTDATA, DD_FLIPVPORTDATA, DD_FLIPVPORTDATA structure [Display Devices], ddrawint/DD_FLIPVPORTDATA, ddstrcts_9af598a7-a7fc-40f2-a1dd-355964f60da9.xml, display.dd_flipvportdata"
+ms.keywords: '*PDD_FLIPVPORTDATA, DD_FLIPVPORTDATA, DD_FLIPVPORTDATA structure [Display Devices], ddrawint/DD_FLIPVPORTDATA, ddstrcts_9af598a7-a7fc-40f2-a1dd-355964f60da9.xml, display.dd_flipvportdata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_FLIPVPORTDATA"
+f1_keywords:
+- ddrawint/DD_FLIPVPORTDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_FLIPVPORTDATA
+- DD_FLIPVPORTDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_FLIPVPORTDATA, DD_FLIPVPORTDATA"
+req.typenames: '*PDD_FLIPVPORTDATA, DD_FLIPVPORTDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,17 +61,17 @@ The DD_FLIPVPORTDATA structure contains the information necessary for the <a hre
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only. 
 
 
 ### -field lpVideoPort
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure that represents this VPE object. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure that represents this VPE object. 
 
 
 ### -field lpSurfCurr
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a>structure for the current surface; that is, the surface on which data is currently being written.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>structure for the current surface; that is, the surface on which data is currently being written.
 
 
 ### -field lpSurfTarg

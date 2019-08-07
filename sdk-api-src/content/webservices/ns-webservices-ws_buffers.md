@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_BUFFERS, WS_BUFFERS structure [Web Services for Windows], webservices/WS_BUFFERS, wsw.ws_buffers
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_BUFFERS"
+f1_keywords:
+- webservices/WS_BUFFERS
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_BUFFERS
+- WS_BUFFERS
 product: Windows
 targetos: Windows
 req.typenames: WS_BUFFERS
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-A structure used to represent a discontiguous array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_bytes">WS_BYTES</a>.
+A structure used to represent a discontiguous array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_bytes">WS_BYTES</a>.
 
 
 ## -struct-fields

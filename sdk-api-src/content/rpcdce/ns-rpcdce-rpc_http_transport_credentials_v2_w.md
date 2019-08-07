@@ -8,10 +8,10 @@ tech.root: Rpc
 ms.assetid: 6f7c9ffe-2b21-48c0-98d5-16feacd50a20
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRPC_HTTP_TRANSPORT_CREDENTIALS_V2_W, PRPC_HTTP_TRANSPORT_CREDENTIALS_V2, PRPC_HTTP_TRANSPORT_CREDENTIALS_V2 structure pointer [RPC], RPC_C_HTTP_AUTHN_SCHEME_BASIC, RPC_C_HTTP_AUTHN_SCHEME_DIGEST, RPC_C_HTTP_AUTHN_SCHEME_NEGOTIATE, RPC_C_HTTP_AUTHN_SCHEME_NTLM, RPC_C_HTTP_AUTHN_SCHEME_PASSPORT, RPC_C_HTTP_AUTHN_TARGET_PROXY, RPC_C_HTTP_AUTHN_TARGET_SERVER, RPC_C_HTTP_FLAG_USE_FIRST_AUTH_SCHEME, RPC_C_HTTP_FLAG_USE_SSL, RPC_HTTP_TRANSPORT_CREDENTIALS_V2, RPC_HTTP_TRANSPORT_CREDENTIALS_V2 structure [RPC], RPC_HTTP_TRANSPORT_CREDENTIALS_V2_A, RPC_HTTP_TRANSPORT_CREDENTIALS_V2_W, _RPC_HTTP_TRANSPORT_CREDENTIALS_V2_A, _RPC_HTTP_TRANSPORT_CREDENTIALS_V2_W, rpc.rpc_http_transport_credentials_v2, rpcdce/PRPC_HTTP_TRANSPORT_CREDENTIALS_V2, rpcdce/RPC_HTTP_TRANSPORT_CREDENTIALS_V2"
+ms.keywords: '*PRPC_HTTP_TRANSPORT_CREDENTIALS_V2_W, PRPC_HTTP_TRANSPORT_CREDENTIALS_V2, PRPC_HTTP_TRANSPORT_CREDENTIALS_V2 structure pointer [RPC], RPC_C_HTTP_AUTHN_SCHEME_BASIC, RPC_C_HTTP_AUTHN_SCHEME_DIGEST, RPC_C_HTTP_AUTHN_SCHEME_NEGOTIATE, RPC_C_HTTP_AUTHN_SCHEME_NTLM, RPC_C_HTTP_AUTHN_SCHEME_PASSPORT, RPC_C_HTTP_AUTHN_TARGET_PROXY, RPC_C_HTTP_AUTHN_TARGET_SERVER, RPC_C_HTTP_FLAG_USE_FIRST_AUTH_SCHEME, RPC_C_HTTP_FLAG_USE_SSL, RPC_HTTP_TRANSPORT_CREDENTIALS_V2, RPC_HTTP_TRANSPORT_CREDENTIALS_V2 structure [RPC], RPC_HTTP_TRANSPORT_CREDENTIALS_V2_A, RPC_HTTP_TRANSPORT_CREDENTIALS_V2_W, _RPC_HTTP_TRANSPORT_CREDENTIALS_V2_A, _RPC_HTTP_TRANSPORT_CREDENTIALS_V2_W, rpc.rpc_http_transport_credentials_v2, rpcdce/PRPC_HTTP_TRANSPORT_CREDENTIALS_V2, rpcdce/RPC_HTTP_TRANSPORT_CREDENTIALS_V2'
 ms.topic: struct
-f1_keywords: 
- - "rpcdce/RPC_HTTP_TRANSPORT_CREDENTIALS_V2"
+f1_keywords:
+- rpcdce/RPC_HTTP_TRANSPORT_CREDENTIALS_V2
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcdce.h
+- Rpcdce.h
 api_name:
- - RPC_HTTP_TRANSPORT_CREDENTIALS_V2
- - RPC_HTTP_TRANSPORT_CREDENTIALS_V2_A
- - RPC_HTTP_TRANSPORT_CREDENTIALS_V2_W
+- RPC_HTTP_TRANSPORT_CREDENTIALS_V2
+- RPC_HTTP_TRANSPORT_CREDENTIALS_V2_A
+- RPC_HTTP_TRANSPORT_CREDENTIALS_V2_W
 product: Windows
 targetos: Windows
 req.typenames: RPC_HTTP_TRANSPORT_CREDENTIALS_V2_W, *PRPC_HTTP_TRANSPORT_CREDENTIALS_V2_W
@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 The <b>RPC_HTTP_TRANSPORT_CREDENTIALS_V2</b> structure defines additional credentials to authenticate to an  RPC proxy server or HTTP proxy server when using RPC/HTTP.
 
-<b>RPC_HTTP_TRANSPORT_CREDENTIALS_V2</b> extends <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_http_transport_credentials_a">RPC_HTTP_TRANSPORT_CREDENTIALS</a> by allowing authentication against an HTTP proxy server.
+<b>RPC_HTTP_TRANSPORT_CREDENTIALS_V2</b> extends <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_a">RPC_HTTP_TRANSPORT_CREDENTIALS</a> by allowing authentication against an HTTP proxy server.
 
 
 ## -struct-fields
@@ -65,7 +65,7 @@ The <b>RPC_HTTP_TRANSPORT_CREDENTIALS_V2</b> structure defines additional creden
 
 ### -field TransportCredentials
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure that contains the user name, domain, and password for the user.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure that contains the user name, domain, and password for the user.
 
 
 ### -field Flags
@@ -191,7 +191,7 @@ Contains an optional string with the expected server principal name. The princip
 
 ### -field ProxyCredentials
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure that contains the user name, domain, and password for the user when authenticating against an HTTP proxy server. <b>ProxyCredentials</b> is only valid when <b>AuthenticationTarget</b> contains <b>RPC_C_HTTP_AUTHN_TARGET_PROXY</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure that contains the user name, domain, and password for the user when authenticating against an HTTP proxy server. <b>ProxyCredentials</b> is only valid when <b>AuthenticationTarget</b> contains <b>RPC_C_HTTP_AUTHN_TARGET_PROXY</b>.
 
 
 ### -field NumberOfProxyAuthnSchemes
@@ -290,7 +290,7 @@ If the <b>TransportCredentials</b> member is <b>NULL</b> and the authentication 
 <li>Caller requested use of SSL and used the <b>ServerCertificateSubject</b> member. This scenario guarantees credentials are protected both in transit and at the final destination, even if a weak hash is used.</li>
 <li>The lncompatibilitylevel key is set to 2 or higher. This  causes the NTLM security provider to emit or respond to only the strong NT hash, not the weak LM hash. In addition, customers are encouraged to use level 3 or higher, which will attempt NTLMv2.</li>
 </ul>
-If the Unicode version of the <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a> function is used,  Unicode versions of the <b>RPC_HTTP_TRANSPORT_CREDENTIALS_V2</b> and <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structures must also be provided, and the <b>Flags</b> member in <b>TransportCredentials</b> must be set to SEC_WINNT_AUTH_IDENTITY_UNICODE. 
+If the Unicode version of the <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a> function is used,  Unicode versions of the <b>RPC_HTTP_TRANSPORT_CREDENTIALS_V2</b> and <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structures must also be provided, and the <b>Flags</b> member in <b>TransportCredentials</b> must be set to SEC_WINNT_AUTH_IDENTITY_UNICODE. 
 If the ANSI version of the <b>RpcBindingSetAuthInfoEx</b> function is used,  ANSI versions of <b>RPC_HTTP_TRANSPORT_CREDENTIALS_V2</b> and <b>SEC_WINNT_AUTH_IDENTITY</b> structures must be provided, and the <b>Flags</b> member in <b>TransportCredentials</b> must be set to SEC_WINNT_AUTH_IDENTITY_ANSI.
 
 
@@ -306,7 +306,7 @@ If the ANSI version of the <b>RpcBindingSetAuthInfoEx</b> function is used,  ANS
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_http_transport_credentials_a">RPC_HTTP_TRANSPORT_CREDENTIALS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_a">RPC_HTTP_TRANSPORT_CREDENTIALS</a>
 
 
 
@@ -338,7 +338,7 @@ If the ANSI version of the <b>RpcBindingSetAuthInfoEx</b> function is used,  ANS
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a>
  
 
  

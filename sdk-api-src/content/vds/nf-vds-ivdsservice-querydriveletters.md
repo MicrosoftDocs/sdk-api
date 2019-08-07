@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],QueryDriveLetters method, IVdsService.QueryDriveLetters, IVdsService::QueryDriveLetters, QueryDriveLetters, QueryDriveLetters method [VDS], QueryDriveLetters method [VDS],IVdsService interface, base.ivdsservice_querydriveletters, vds/IVdsService::QueryDriveLetters
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsService.QueryDriveLetters"
+f1_keywords:
+- vds/IVdsService.QueryDriveLetters
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsService.QueryDriveLetters
+- IVdsService.QueryDriveLetters
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ The total number of drive letters to retrieve.
 
 ### -param pDriveLetterPropArray [out]
 
-The address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_drive_letter_prop">VDS_DRIVE_LETTER_PROP</a> structures. The size of the array is <i>count</i>. Callers must allocate the memory for this array.
+The address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_drive_letter_prop">VDS_DRIVE_LETTER_PROP</a> structures. The size of the array is <i>count</i>. Callers must allocate the memory for this array.
 
 
 ## -returns
@@ -126,7 +126,7 @@ VDS failed to initialize. If an application calls this method before the service
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_drive_letter_prop">VDS_DRIVE_LETTER_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_drive_letter_prop">VDS_DRIVE_LETTER_PROP</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNotificationResourceManager, GetNotificationResourceManager function [Files], fs.getnotificationresourcemanager, ktmw32/GetNotificationResourceManager
 ms.topic: function
-f1_keywords: 
- - "ktmw32/GetNotificationResourceManager"
+f1_keywords:
+- ktmw32/GetNotificationResourceManager
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: KtmW32.lib
 req.dll: KtmW32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - KtmW32.dll
+- KtmW32.dll
 api_name:
- - GetNotificationResourceManager
+- GetNotificationResourceManager
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ A handle  to the resource manager.
 
 ### -param TransactionNotification [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-_transaction_notification">TRANSACTION_NOTIFICATION</a> 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-transaction_notification">TRANSACTION_NOTIFICATION</a> 
       structure that receives the first available notification.
 
 
@@ -115,7 +115,7 @@ All resource managers must register to receive <b>TRANSACTION_NOTIFY_PREPREPARE<
      read-only. Resource managers can support <b>TRANSACTION_NOTIFY_SINGLE_PHASE_COMMIT</b>, but 
      they must also support the multi-phase pre-prepare, prepare, and commit notifications. For the list of all 
      notifications that resource managers can receive, see 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-_transaction_notification">TRANSACTION_NOTIFICATION</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-transaction_notification">TRANSACTION_NOTIFICATION</a>.
 
 
 
@@ -145,7 +145,7 @@ All resource managers must register to receive <b>TRANSACTION_NOTIFY_PREPREPARE<
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-_transaction_notification">TRANSACTION_NOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-transaction_notification">TRANSACTION_NOTIFICATION</a>
 
 
 

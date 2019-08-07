@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetServerTransportEnum, NetServerTransportEnum function [Network Management], _win32_netservertransportenum, lmserver/NetServerTransportEnum, netmgmt.netservertransportenum
 ms.topic: function
-f1_keywords: 
- - "lmserver/NetServerTransportEnum"
+f1_keywords:
+- lmserver/NetServerTransportEnum
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetServerTransportEnum
+- NetServerTransportEnum
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -87,7 +87,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return information about the transport protocol, including name, address, and location on the network. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_0">SERVER_TRANSPORT_INFO_0</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_0">SERVER_TRANSPORT_INFO_0</a> structures.
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ Return information about the transport protocol, including name, address, and lo
 </td>
 <td width="60%">
 Return information about the transport protocol, including name, address, network location, and domain. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_1">SERVER_TRANSPORT_INFO_1</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_1">SERVER_TRANSPORT_INFO_1</a> structures.
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ Only Authenticated Users can successfully call this function.<b>Windows XP/2000
 The following code sample demonstrates how to retrieve information about transport protocols that are managed by the server, using a call to the 
 <b>NetServerTransportEnum</b> function. The sample calls 
 <b>NetServerTransportEnum</b>, specifying information level 0 (
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_0">SERVER_TRANSPORT_INFO_0</a>). The sample prints the name of each transport protocol and the total number enumerated. Finally, the code sample frees the memory allocated for the information buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_0">SERVER_TRANSPORT_INFO_0</a>). The sample prints the name of each transport protocol and the total number enumerated. Finally, the code sample frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -349,11 +349,11 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_0">SERVER_TRANSPORT_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_0">SERVER_TRANSPORT_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_1">SERVER_TRANSPORT_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_1">SERVER_TRANSPORT_INFO_1</a>
 
 
 

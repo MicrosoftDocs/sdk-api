@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: dc7f14e7-16d7-4dfc-8c1a-5db6fa999d98
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEVENT_MAP_INFO, EVENT_MAP_INFO, EVENT_MAP_INFO structure [ETW], etw.event_map_info_struct, tdh.event_map_info_struct, tdh/EVENT_MAP_INFO"
+ms.keywords: '*PEVENT_MAP_INFO, EVENT_MAP_INFO, EVENT_MAP_INFO structure [ETW], etw.event_map_info_struct, tdh.event_map_info_struct, tdh/EVENT_MAP_INFO'
 ms.topic: struct
-f1_keywords: 
- - "tdh/EVENT_MAP_INFO"
+f1_keywords:
+- tdh/EVENT_MAP_INFO
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tdh.h
+- Tdh.h
 api_name:
- - EVENT_MAP_INFO
+- EVENT_MAP_INFO
 product: Windows
 targetos: Windows
 req.typenames: EVENT_MAP_INFO
@@ -66,7 +66,7 @@ Offset from the beginning of this structure to a null-terminated Unicode string 
 
 ### -field Flag
 
-Indicates if the map is a value map, bitmap, or pattern map. This member can contain one or more flag values. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-_map_flags">MAP_FLAGS</a> enumeration.
+Indicates if the map is a value map, bitmap, or pattern map. This member can contain one or more flag values. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-map_flags">MAP_FLAGS</a> enumeration.
 
 
 ### -field EntryCount
@@ -77,19 +77,19 @@ Number of map entries in <b>MapEntryArray</b>.
 ### -field MapEntryValueType
 
  
-		Determines if you use the <b>Value</b> member or <b>InputOffset</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_map_entry">EVENT_MAP_ENTRY</a> to access the map value. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-_map_valuetype">MAP_VALUETYPE</a> enumeration.
+		Determines if you use the <b>Value</b> member or <b>InputOffset</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_map_entry">EVENT_MAP_ENTRY</a> to access the map value. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-_map_valuetype">MAP_VALUETYPE</a> enumeration.
 
 
 ### -field FormatStringOffset
 
 If the value of <b>Flag</b> is EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP, use this offset to access the null-terminated Unicode string that contains the value of the <b>format</b> attribute of the <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-patternmaptype-complextype">patternMap</a> element. The offset is from the beginning of this structure.  
 
-The EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP also indicates that you use the <b>InputOffset</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_map_entry">EVENT_MAP_ENTRY</a> to access the map value.
+The EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP also indicates that you use the <b>InputOffset</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_map_entry">EVENT_MAP_ENTRY</a> to access the map value.
 
 
 ### -field MapEntryArray
 
- Array of map entries. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_map_entry">EVENT_MAP_ENTRY</a> structure.
+ Array of map entries. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_map_entry">EVENT_MAP_ENTRY</a> structure.
 
 
 ## -see-also

@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: e1ba7851-570e-4ddc-8981-766294011409
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_UPDATEVPORTDATA, DD_UPDATEVPORTDATA, DD_UPDATEVPORTDATA structure [Display Devices], ddrawint/DD_UPDATEVPORTDATA, ddstrcts_a266490e-9cac-45ca-9129-63f3dcef6a6f.xml, display.dd_updatevportdata"
+ms.keywords: '*PDD_UPDATEVPORTDATA, DD_UPDATEVPORTDATA, DD_UPDATEVPORTDATA structure [Display Devices], ddrawint/DD_UPDATEVPORTDATA, ddstrcts_a266490e-9cac-45ca-9129-63f3dcef6a6f.xml, display.dd_updatevportdata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_UPDATEVPORTDATA"
+f1_keywords:
+- ddrawint/DD_UPDATEVPORTDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_UPDATEVPORTDATA
+- DD_UPDATEVPORTDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_UPDATEVPORTDATA, DD_UPDATEVPORTDATA"
+req.typenames: '*PDD_UPDATEVPORTDATA, DD_UPDATEVPORTDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,7 +61,7 @@ The DD_UPDATEVPORTDATA structure contains the information required to start, sto
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
 
 ### -field lpVideoPort
@@ -81,7 +81,7 @@ Points to an array of DD_SURFACE_INT structures that represent <a href="https://
 
 ### -field lpVideoInfo
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportinfo">DDVIDEOPORTINFO</a> structure that describes how the VPE object should transfer video data to a surface. This member can be <b>NULL</b> when <b>dwFlags</b> is DDRAWI_VPORTSTOP.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportinfo">DDVIDEOPORTINFO</a> structure that describes how the VPE object should transfer video data to a surface. This member can be <b>NULL</b> when <b>dwFlags</b> is DDRAWI_VPORTSTOP.
 
 
 ### -field dwFlags
@@ -152,7 +152,7 @@ Used by the DirectDraw API and should not be filled in by the driver.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportinfo">DDVIDEOPORTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportinfo">DDVIDEOPORTINFO</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsService interface, IVdsService interface [VDS],GetProperties method, IVdsService.GetProperties, IVdsService::GetProperties, base.ivdsservice_getproperties, vds/IVdsService::GetProperties
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsService.GetProperties"
+f1_keywords:
+- vds/IVdsService.GetProperties
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsService.GetProperties
+- IVdsService.GetProperties
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Returns the
 
 ### -param pServiceProp [out]
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_service_prop">VDS_SERVICE_PROP</a> structure 
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_service_prop">VDS_SERVICE_PROP</a> structure 
       allocated and passed in by the caller. VDS allocates memory for the 
       <b>pwszVersion</b> member string. Callers must free the string by using the 
       <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
@@ -120,7 +120,7 @@ Some but not all of the properties were successfully retrieved. Note that there 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_service_prop">VDS_SERVICE_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_service_prop">VDS_SERVICE_PROP</a>
  
 
  

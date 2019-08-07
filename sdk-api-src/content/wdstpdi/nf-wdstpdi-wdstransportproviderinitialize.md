@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderInitialize, WdsTransportProviderInitialize callback, WdsTransportProviderInitialize callback function [Windows Deployment Services], wds.wdstransportproviderinitialize, wdstpdi/WdsTransportProviderInitialize
 ms.topic: function
-f1_keywords: 
- - "wdstpdi/WdsTransportProviderInitialize"
+f1_keywords:
+- wdstpdi/WdsTransportProviderInitialize
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - wdstpdi.h
+- wdstpdi.h
 api_name:
- - WdsTransportProviderInitialize
+- WdsTransportProviderInitialize
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,12 +61,12 @@ Initializes a content provider.
 
 ### -param pInParameters [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/ns-wdstpdi-_wds_transportprovider_init_params">WDS_TRANSPORTPROVIDER_INIT_PARAMS</a> structure that informs the content provider about the server.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/ns-wdstpdi-wds_transportprovider_init_params">WDS_TRANSPORTPROVIDER_INIT_PARAMS</a> structure that informs the content provider about the server.
 
 
 ### -param pSettings [out]
 
-A pointer to  a <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/ns-wdstpdi-_wds_transportprovider_settings">WDS_TRANSPORTPROVIDER_SETTINGS</a> structure that informs the server about the content provider.
+A pointer to  a <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/ns-wdstpdi-wds_transportprovider_settings">WDS_TRANSPORTPROVIDER_SETTINGS</a> structure that informs the server about the content provider.
 
 
 ### -param ulLength [in]

@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 5d095e0f-c8c9-4717-b23a-985737b78431
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWINTRUST_CATALOG_INFO, PWINTRUST_CATALOG_INFO, PWINTRUST_CATALOG_INFO structure pointer [Security], WINTRUST_CATALOG_INFO, WINTRUST_CATALOG_INFO structure [Security], _win32_wintrust_catalog_info, security.wintrust_catalog_info, wintrust/PWINTRUST_CATALOG_INFO, wintrust/WINTRUST_CATALOG_INFO"
+ms.keywords: '*PWINTRUST_CATALOG_INFO, PWINTRUST_CATALOG_INFO, PWINTRUST_CATALOG_INFO structure pointer [Security], WINTRUST_CATALOG_INFO, WINTRUST_CATALOG_INFO structure [Security], _win32_wintrust_catalog_info, security.wintrust_catalog_info, wintrust/PWINTRUST_CATALOG_INFO, wintrust/WINTRUST_CATALOG_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wintrust/WINTRUST_CATALOG_INFO"
+f1_keywords:
+- wintrust/WINTRUST_CATALOG_INFO
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wintrust.h
+- Wintrust.h
 api_name:
- - WINTRUST_CATALOG_INFO
+- WINTRUST_CATALOG_INFO
 product: Windows
 targetos: Windows
 req.typenames: WINTRUST_CATALOG_INFO, *PWINTRUST_CATALOG_INFO
@@ -102,7 +102,7 @@ The size, in bytes, of the value passed in the <b>pbCalculatedFileHash</b> membe
 
 ### -field pcCatalogContext
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure that represents  a catalog context to be used instead of a catalog file.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure that represents  a catalog context to be used instead of a catalog file.
 
 
 ### -field hCatAdmin

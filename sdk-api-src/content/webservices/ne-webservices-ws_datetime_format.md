@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_DATETIME_FORMAT, WS_DATETIME_FORMAT enumeration [Web Services for Windows], WS_DATETIME_FORMAT_LOCAL, WS_DATETIME_FORMAT_NONE, WS_DATETIME_FORMAT_UTC, webservices/WS_DATETIME_FORMAT, webservices/WS_DATETIME_FORMAT_LOCAL, webservices/WS_DATETIME_FORMAT_NONE, webservices/WS_DATETIME_FORMAT_UTC, wsw.ws_datetime_format
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_DATETIME_FORMAT"
+f1_keywords:
+- webservices/WS_DATETIME_FORMAT
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_DATETIME_FORMAT
+- WS_DATETIME_FORMAT
 product: Windows
 targetos: Windows
 req.typenames: WS_DATETIME_FORMAT
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the textual format of a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_datetime">WS_DATETIME</a>.
+Specifies the textual format of a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a>.
       
 
 

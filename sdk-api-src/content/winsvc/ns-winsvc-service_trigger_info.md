@@ -8,10 +8,10 @@ tech.root: Services
 ms.assetid: 8de46056-1ea5-46f2-a260-ad140fd77bc1
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSERVICE_TRIGGER_INFO, PSERVICE_TRIGGER_INFO, PSERVICE_TRIGGER_INFO structure pointer, SERVICE_TRIGGER_INFO, SERVICE_TRIGGER_INFO structure, base.service_trigger_info, winsvc/PSERVICE_TRIGGER_INFO, winsvc/SERVICE_TRIGGER_INFO"
+ms.keywords: '*PSERVICE_TRIGGER_INFO, PSERVICE_TRIGGER_INFO, PSERVICE_TRIGGER_INFO structure pointer, SERVICE_TRIGGER_INFO, SERVICE_TRIGGER_INFO structure, base.service_trigger_info, winsvc/PSERVICE_TRIGGER_INFO, winsvc/SERVICE_TRIGGER_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winsvc/SERVICE_TRIGGER_INFO"
+f1_keywords:
+- winsvc/SERVICE_TRIGGER_INFO
 req.header: winsvc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winsvc.h
+- winsvc.h
 api_name:
- - SERVICE_TRIGGER_INFO
+- SERVICE_TRIGGER_INFO
 product: Windows
 targetos: Windows
 req.typenames: SERVICE_TRIGGER_INFO, *PSERVICE_TRIGGER_INFO
@@ -61,7 +61,7 @@ Contains trigger event information for a service. This structure is used by the 
 
 ### -field cTriggers
 
-The number of triggers in the array of <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_trigger">SERVICE_TRIGGER</a> structures pointed to by the <b>pTriggers</b> member.  
+The number of triggers in the array of <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger">SERVICE_TRIGGER</a> structures pointed to by the <b>pTriggers</b> member.  
 
 If this member is 0 in a <b>SERVICE_TRIGGER_INFO</b> structure passed to  <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>, all previously configured triggers are removed from the service. If the service has no triggers configured, <b>ChangeServiceConfig2</b>  fails with ERROR_INVALID_PARAMETER.
 
@@ -83,7 +83,7 @@ If this member is 0 in a <b>SERVICE_TRIGGER_INFO</b> structure passed to  <a hre
 
 ### -field pTriggers
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_trigger">SERVICE_TRIGGER</a> structures that specify the trigger events for the service. If the <b>cTriggers</b> member is 0, this member is not used.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger">SERVICE_TRIGGER</a> structures that specify the trigger events for the service. If the <b>cTriggers</b> member is 0, this member is not used.
 
 
 ### -field pTriggers.size_is
@@ -114,7 +114,7 @@ This member is reserved and must be NULL.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_trigger">SERVICE_TRIGGER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger">SERVICE_TRIGGER</a>
 
 
 

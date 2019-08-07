@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_NBR_COMPRESS_CHANGES, DS_REPL_NBR_DISABLE_SCHEDULED_SYNC, DS_REPL_NBR_DO_SCHEDULED_SYNCS, DS_REPL_NBR_IGNORE_CHANGE_NOTIFICATIONS, DS_REPL_NBR_NO_CHANGE_NOTIFICATIONS, DS_REPL_NBR_SYNC_ON_STARTUP, DS_REPL_NBR_TWO_WAY_SYNC, DS_REPMOD_ASYNCHRONOUS_OPERATION, DS_REPMOD_UPDATE_ADDRESS, DS_REPMOD_UPDATE_FLAGS, DS_REPMOD_UPDATE_RESULT, DS_REPMOD_UPDATE_SCHEDULE, DS_REPMOD_UPDATE_TRANSPORT, DS_REPMOD_WRITEABLE, DsReplicaModify, DsReplicaModify function [Active Directory], DsReplicaModifyA, DsReplicaModifyW, _glines_dsreplicamodify, ad.dsreplicamodify, ntdsapi/DsReplicaModify, ntdsapi/DsReplicaModifyA, ntdsapi/DsReplicaModifyW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsReplicaModify"
+f1_keywords:
+- ntdsapi/DsReplicaModify
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsReplicaModify
- - DsReplicaModifyA
- - DsReplicaModifyW
+- DsReplicaModify
+- DsReplicaModifyA
+- DsReplicaModifyW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -90,7 +90,7 @@ Pointer to a constant null-terminated Unicode string that specifies the transpor
 
 ### -param pSchedule [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-_schedule">SCHEDULE</a> structure that contains the  replication schedule data for the replication source. This parameter is optional and can be <b>NULL</b> if not used. This parameter is required if <i>ModifyFields</i> contains the  <b>DS_REPMOD_UPDATE_SCHEDULE</b> flag.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-schedule">SCHEDULE</a> structure that contains the  replication schedule data for the replication source. This parameter is optional and can be <b>NULL</b> if not used. This parameter is required if <i>ModifyFields</i> contains the  <b>DS_REPMOD_UPDATE_SCHEDULE</b> flag.
 
 
 ### -param ReplicaFlags [in]
@@ -298,7 +298,7 @@ If the function fails, the return value can be one of the following.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-_schedule">SCHEDULE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-schedule">SCHEDULE</a>
  
 
  

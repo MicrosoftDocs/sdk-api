@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSlowestRate, GetSlowestRate method [Media Foundation], GetSlowestRate method [Media Foundation],IMFRateSupport interface, IMFRateSupport interface [Media Foundation],GetSlowestRate method, IMFRateSupport.GetSlowestRate, IMFRateSupport::GetSlowestRate, e10125e9-8bc7-4fb6-8a10-ba5717f1596f, mf.imfratesupport_getslowestrate, mfidl/IMFRateSupport::GetSlowestRate
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFRateSupport.GetSlowestRate"
+f1_keywords:
+- mfidl/IMFRateSupport.GetSlowestRate
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFRateSupport.GetSlowestRate
+- IMFRateSupport.GetSlowestRate
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Retrieves the slowest playback rate supported by the object.
 
 ### -param eDirection [in]
 
-Specifies whether to query to the slowest forward playback rate or reverse playback rate. The value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfrate_direction">MFRATE_DIRECTION</a> enumeration.
+Specifies whether to query to the slowest forward playback rate or reverse playback rate. The value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfrate_direction">MFRATE_DIRECTION</a> enumeration.
 
 
 ### -param fThin [in]

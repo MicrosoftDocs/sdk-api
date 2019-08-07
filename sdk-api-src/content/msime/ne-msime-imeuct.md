@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFED_UCT_NONE, IFED_UCT_STRING_SJIS, IFED_UCT_STRING_UNICODE, IFED_UCT_USER_DEFINED, IMEUCT, IMEUCT enumeration [Internationalization for Windows Applications], intl.imeuct, msime/IFED_UCT_NONE, msime/IFED_UCT_STRING_SJIS, msime/IFED_UCT_STRING_UNICODE, msime/IFED_UCT_USER_DEFINED, msime/IMEUCT
 ms.topic: enum
-f1_keywords: 
- - "msime/IMEUCT"
+f1_keywords:
+- msime/IMEUCT
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msime.h
+- Msime.h
 api_name:
- - IMEUCT
+- IMEUCT
 product: Windows
 targetos: Windows
 req.typenames: IMEUCT
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Type of user comment in a <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imewrd">IMEWRD</a> structure.
+Type of user comment in a <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structure.
 
 
 ## -enum-fields
@@ -89,7 +89,7 @@ The comment is in a user-defined format.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imewrd">IMEWRD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>
  
 
  

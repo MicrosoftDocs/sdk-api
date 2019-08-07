@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],Query method, IVssBackupComponents.Query, IVssBackupComponents::Query, Query, Query method [VSS], Query method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_query, base.ivssbackupcomponents_query, vsbackup/IVssBackupComponents::Query
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.Query"
+f1_keywords:
+- vsbackup/IVssBackupComponents.Query
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.Query
+- IVssBackupComponents.Query
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -233,7 +233,7 @@ The method may be called only during backup operations and must be preceded by c
 While <b>Query</b> can return information on all of 
     the providers available on a system, it will return only information about shadow copies with the current context 
     (set by <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setcontext">IVssBackupComponents::SetContext</a>). 
-    For instance, if the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a> context 
+    For instance, if the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a> context 
     is set to <b>VSS_CTX_BACKUP</b>, 
     <b>Query</b> will not return information on a shadow 
     copy created with a context of VSS_CTX_FILE_SHARE_BACKUP.

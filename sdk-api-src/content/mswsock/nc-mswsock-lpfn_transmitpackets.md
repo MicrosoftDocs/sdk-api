@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPFN_TRANSMITPACKETS, LPFN_TRANSMITPACKETS callback, LPFN_TRANSMITPACKETS callback function [Winsock], TF_DISCONNECT, TF_REUSE_SOCKET, TF_USE_DEFAULT_WORKER, TF_USE_KERNEL_APC, TF_USE_SYSTEM_THREAD, _win32_transmitpackets_2, mswsock/LPFN_TRANSMITPACKETS, winsock.transmitpackets_2
 ms.topic: callback
-f1_keywords: 
- - "mswsock/LPFN_TRANSMITPACKETS"
+f1_keywords:
+- mswsock/LPFN_TRANSMITPACKETS
 req.header: mswsock.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mswsock.h
+- Mswsock.h
 api_name:
- - LPFN_TRANSMITPACKETS
+- LPFN_TRANSMITPACKETS
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,7 +76,7 @@ A handle to the connected socket to be used in the transmission. Although the so
 
 ### -param lpPacketArray
 
-An array of type <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ns-mswsock-_transmit_packets_element">TRANSMIT_PACKETS_ELEMENT</a>, describing the data to be transmitted.
+An array of type <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ns-mswsock-transmit_packets_element">TRANSMIT_PACKETS_ELEMENT</a>, describing the data to be transmitted.
 
 
 ### -param nElementCount
@@ -95,14 +95,14 @@ The size, in bytes, of the data block used in the
 
 Setting <i>nSendSize</i> to 0xFFFFFFF enables the caller to control the size and content of each 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a> request, achieved by using the TP_ELEMENT_EOP flag in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ns-mswsock-_transmit_packets_element">TRANSMIT_PACKETS_ELEMENT</a> array pointed to in the <i>lpPacketArray</i> parameter. This capability is useful for message protocols that place limitations on the size of individual 
+<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ns-mswsock-transmit_packets_element">TRANSMIT_PACKETS_ELEMENT</a> array pointed to in the <i>lpPacketArray</i> parameter. This capability is useful for message protocols that place limitations on the size of individual 
 <b>send</b> requests.
 
 
 ### -param lpOverlapped
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure. If the socket handle specified in the <i>hSocket</i> parameter has been opened as overlapped, use this parameter to achieve asynchronous (overlapped) I/O operation. Socket handles are opened as overlapped by default.
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. If the socket handle specified in the <i>hSocket</i> parameter has been opened as overlapped, use this parameter to achieve asynchronous (overlapped) I/O operation. Socket handles are opened as overlapped by default.
 
 
 ### -param dwFlags
@@ -241,7 +241,7 @@ The system detected an invalid pointer address in attempting to use a pointer ar
 </dl>
 </td>
 <td width="60%">
-An invalid argument was supplied. This error is returned if the <i>dwFlags</i> parameter has the  <b>TF_REUSE_SOCKET</b> flag set, but the <b>TF_DISCONNECT</b> flag was not set. This error is also returned if the offset specified in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure pointed to by the <i>lpOverlapped</i> is not within the file. This error is also returned if the total number of bytes to be transmitted is a value greater than  2,147,483,646, the maximum value for a 32-bit integer minus 1.
+An invalid argument was supplied. This error is returned if the <i>dwFlags</i> parameter has the  <b>TF_REUSE_SOCKET</b> flag set, but the <b>TF_DISCONNECT</b> flag was not set. This error is also returned if the offset specified in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure pointed to by the <i>lpOverlapped</i> is not within the file. This error is also returned if the total number of bytes to be transmitted is a value greater than  2,147,483,646, the maximum value for a 32-bit integer minus 1.
 
 </td>
 </tr>
@@ -394,7 +394,7 @@ When <i>lpOverlapped</i> is not <b>NULL</b>, overlapped I/O might not finish bef
 When the 
 <b>TransmitPackets</b> function returns <b>TRUE</b> or returns <b>FALSE</b> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> returns ERROR_IO_PENDING, Windows sets the event specified by the <b>hEvent</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure or the socket specified by <i>hSocket</i> to the signaled state, and upon completion, delivers notification to any completion port associated with the socket. Use 
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure or the socket specified by <i>hSocket</i> to the signaled state, and upon completion, delivers notification to any completion port associated with the socket. Use 
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsagetoverlappedresult">WSAGetOverlappedResult</a>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> to retrieve final status and number of bytes transmitted.
@@ -434,11 +434,11 @@ Use of the TF_USE_KERNEL_APC flag can deliver significant performance benefits. 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ns-mswsock-_transmit_packets_element">TRANSMIT_PACKETS_ELEMENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ns-mswsock-transmit_packets_element">TRANSMIT_PACKETS_ELEMENT</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D10PreprocessShader, D3D10PreprocessShader function [Direct3D 10], d3d10shader/D3D10PreprocessShader, d3e7d365-dba7-908d-52f5-76fc58522bad, direct3d10.d3d10preprocessshader
 ms.topic: function
-f1_keywords: 
- - "d3d10shader/D3D10PreprocessShader"
+f1_keywords:
+- d3d10shader/D3D10PreprocessShader
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: D3D10.lib
 req.dll: D3D10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3D10.dll
+- D3D10.dll
 api_name:
- - D3D10PreprocessShader
+- D3D10PreprocessShader
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,9 +82,9 @@ The name of the file that contains the shader code.
 
 ### -param pDefines [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-_d3d_shader_macro">D3D10_SHADER_MACRO</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro">D3D10_SHADER_MACRO</a>*</b>
 
-Optional. Pointer to an array of macro definitions (see <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-_d3d_shader_macro">D3D10_SHADER_MACRO</a>). 
+Optional. Pointer to an array of macro definitions (see <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro">D3D10_SHADER_MACRO</a>). 
           The last structure in the array serves as a terminator and must have all members set to 0.  
           If not used, set <i>pDefines</i> to <b>NULL</b>.
 

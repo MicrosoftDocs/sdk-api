@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRegisteredEffects, GetRegisteredEffects method [Direct2D], GetRegisteredEffects method [Direct2D],ID2D1Factory1 interface, ID2D1Factory1 interface [Direct2D],GetRegisteredEffects method, ID2D1Factory1.GetRegisteredEffects, ID2D1Factory1::GetRegisteredEffects, d2d1_1/ID2D1Factory1::GetRegisteredEffects, direct2d.id2d1factory1_getregisteredeffects
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1Factory1.GetRegisteredEffects"
+f1_keywords:
+- d2d1_1/ID2D1Factory1.GetRegisteredEffects
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Factory1.GetRegisteredEffects
+- ID2D1Factory1.GetRegisteredEffects
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,21 +68,21 @@ When this method returns, contains an array of effects. <b>NULL</b> if no effect
 
 ### -param effectsCount
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_uint32_description">UINT32</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_uint32_description">UINT32</a></b>
 
 The capacity of the <i>effects</i> array.
 
 
 ### -param effectsReturned [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_uint32_description">UINT32</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_uint32_description">UINT32</a>*</b>
 
 When this method returns, contains the  number of effects copied into <i>effects</i>.
 
 
 ### -param effectsRegistered [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_uint32_description">UINT32</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_uint32_description">UINT32</a>*</b>
 
 When this method returns, contains the number of effects currently registered in the system.
 

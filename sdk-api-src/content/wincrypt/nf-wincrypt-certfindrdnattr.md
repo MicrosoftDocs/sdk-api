@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertFindRDNAttr, CertFindRDNAttr function [Security], _crypto2_certfindrdnattr, security.certfindrdnattr, wincrypt/CertFindRDNAttr
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertFindRDNAttr"
+f1_keywords:
+- wincrypt/CertFindRDNAttr
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertFindRDNAttr
+- CertFindRDNAttr
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-
 ### -param pName [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_name_info">CERT_NAME_INFO</a> structure containing the list of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">Relative Distinguished Names</a> to be searched.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_name_info">CERT_NAME_INFO</a> structure containing the list of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">Relative Distinguished Names</a> to be searched.
 
 
 ## -returns

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateRestrictedToken, CreateRestrictedToken function [Security], DISABLE_MAX_PRIVILEGE, LUA_TOKEN, SANDBOX_INERT, WRITE_RESTRICTED, _win32_createrestrictedtoken, security.createrestrictedtoken, securitybaseapi/CreateRestrictedToken
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/CreateRestrictedToken"
+f1_keywords:
+- securitybaseapi/CreateRestrictedToken
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - CreateRestrictedToken
+- CreateRestrictedToken
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -151,7 +151,7 @@ Specifies the number of entries in the <i>SidsToDisable</i> array.
 ### -param SidsToDisable [in, optional]
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_and_attributes">SID_AND_ATTRIBUTES</a> structures that specify the deny-only SIDs in the restricted token. The system uses a deny-only SID to deny access to a securable object. The absence of a deny-only SID does not allow access. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a> structures that specify the deny-only SIDs in the restricted token. The system uses a deny-only SID to deny access to a securable object. The absence of a deny-only SID does not allow access. 
 
 
 
@@ -161,7 +161,7 @@ Disabling a SID turns on SE_GROUP_USE_FOR_DENY_ONLY and turns off SE_GROUP_ENABL
 Deny-only attributes apply to any combination of an existing token's SIDs, including the user SID and group SIDs that have the SE_GROUP_MANDATORY attribute. To get the SIDs associated with the existing token, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a> function with the TokenUser and TokenGroups flags. The function ignores any SIDs in the array that are not also found in the existing token.
 
-The function ignores the <b>Attributes</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_and_attributes">SID_AND_ATTRIBUTES</a> structure.
+The function ignores the <b>Attributes</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a> structure.
 
 This parameter can be <b>NULL</b> if no SIDs are to be disabled.
 
@@ -174,14 +174,14 @@ Specifies the number of entries in the <i>PrivilegesToDelete</i> array.
 ### -param PrivilegesToDelete [in, optional]
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid_and_attributes">LUID_AND_ATTRIBUTES</a> structures that specify the privileges to delete in the restricted token. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid_and_attributes">LUID_AND_ATTRIBUTES</a> structures that specify the privileges to delete in the restricted token. 
 
 
 
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a> function can be used with the TokenPrivileges flag to retrieve the privileges held by the existing token. The function ignores any privileges in the array that are not held by the existing token.
 
-The function ignores the <b>Attributes</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid_and_attributes">LUID_AND_ATTRIBUTES</a> structures.
+The function ignores the <b>Attributes</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid_and_attributes">LUID_AND_ATTRIBUTES</a> structures.
 
 This parameter can be <b>NULL</b> if you do not want to delete any privileges.
 
@@ -196,12 +196,12 @@ Specifies the number of entries in the <i>SidsToRestrict</i> array.
 ### -param SidsToRestrict [in, optional]
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_and_attributes">SID_AND_ATTRIBUTES</a> structures that specify a list of restricting SIDs for the new token. If the existing token is a restricted token, the list of restricting SIDs for the new token is the intersection of this array and the list of restricting SIDs for the existing token. No check is performed to remove duplicate SIDs that were placed on the <i>SidsToRestrict</i> parameter. Duplicate SIDs allow a restricted token to have redundant information in the restricting SID list. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a> structures that specify a list of restricting SIDs for the new token. If the existing token is a restricted token, the list of restricting SIDs for the new token is the intersection of this array and the list of restricting SIDs for the existing token. No check is performed to remove duplicate SIDs that were placed on the <i>SidsToRestrict</i> parameter. Duplicate SIDs allow a restricted token to have redundant information in the restricting SID list. 
 
 
 
 
-The <b>Attributes</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_and_attributes">SID_AND_ATTRIBUTES</a> structure must be zero. Restricting SIDs are always enabled for access checks.
+The <b>Attributes</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a> structure must be zero. Restricting SIDs are always enabled for access checks.
 
 This parameter can be <b>NULL</b> if you do not want to specify any restricting SIDs.
 
@@ -276,11 +276,11 @@ You can use the restricted token in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid_and_attributes">LUID_AND_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid_and_attributes">LUID_AND_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_and_attributes">SID_AND_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a>
  
 
  

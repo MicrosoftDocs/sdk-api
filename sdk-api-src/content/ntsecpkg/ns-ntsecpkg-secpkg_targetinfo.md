@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: c8d4ac70-743b-42b1-940c-d3d37a6174bc
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSECPKG_TARGETINFO, PSECPKG_TARGETINFO, PSECPKG_TARGETINFO structure pointer [Security], SECPKG_TARGETINFO, SECPKG_TARGETINFO structure [Security], ntsecpkg/PSECPKG_TARGETINFO, ntsecpkg/SECPKG_TARGETINFO, security.secpkg_targetinfo"
+ms.keywords: '*PSECPKG_TARGETINFO, PSECPKG_TARGETINFO, PSECPKG_TARGETINFO structure pointer [Security], SECPKG_TARGETINFO, SECPKG_TARGETINFO structure [Security], ntsecpkg/PSECPKG_TARGETINFO, ntsecpkg/SECPKG_TARGETINFO, security.secpkg_targetinfo'
 ms.topic: struct
-f1_keywords: 
- - "ntsecpkg/SECPKG_TARGETINFO"
+f1_keywords:
+- ntsecpkg/SECPKG_TARGETINFO
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SECPKG_TARGETINFO
+- SECPKG_TARGETINFO
 product: Windows
 targetos: Windows
 req.typenames: SECPKG_TARGETINFO, *PSECPKG_TARGETINFO
@@ -61,7 +61,7 @@ Specifies the target of an authentication request.
 
 ### -field DomainSid
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that specifies the domain of the target computer.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that specifies the domain of the target computer.
 
 
 ### -field ComputerName

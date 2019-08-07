@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhParseCounterPath, PdhParseCounterPath function [Perf], PdhParseCounterPathA, PdhParseCounterPathW, _win32_pdhparsecounterpath, base.pdhparsecounterpath, pdh/PdhParseCounterPath, pdh/PdhParseCounterPathA, pdh/PdhParseCounterPathW, perf.pdhparsecounterpath
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhParseCounterPath"
+f1_keywords:
+- pdh/PdhParseCounterPath
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhParseCounterPath
- - PdhParseCounterPathA
- - PdhParseCounterPathW
+- PdhParseCounterPath
+- PdhParseCounterPathA
+- PdhParseCounterPathW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Parses the elements of the counter path and stores the results in the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a> structure.
+Parses the elements of the counter path and stores the results in the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a> structure.
 		
 
 
@@ -70,7 +70,7 @@ Parses the elements of the counter path and stores the results in the <a href="h
 ### -param pCounterPathElements [out]
 
 Caller-allocated buffer that receives a 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a> structure. The structure contains pointers to the individual string elements of the path referenced by the <i>szFullPathBuffer</i> parameter. The function appends the strings to the end of the <b>PDH_COUNTER_PATH_ELEMENTS</b> structure. The allocated buffer should be large enough for the structure and the strings. Set to <b>NULL</b> if <i>pdwBufferSize</i> is zero.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a> structure. The structure contains pointers to the individual string elements of the path referenced by the <i>szFullPathBuffer</i> parameter. The function appends the strings to the end of the <b>PDH_COUNTER_PATH_ELEMENTS</b> structure. The allocated buffer should be large enough for the structure and the strings. Set to <b>NULL</b> if <i>pdwBufferSize</i> is zero.
 
 
 ### -param pdwBufferSize [in, out]
@@ -163,7 +163,7 @@ You should call this function twice, the first time to get the required buffer s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TEMPLATE_EVENT_DATA, TEMPLATE_FLAGS, TEMPLATE_FLAGS enumeration [ETW], TEMPLATE_USER_DATA, etw.template_flags_enum, tdh.template_flags_enum, tdh/TEMPLATE_EVENT_DATA, tdh/TEMPLATE_FLAGS, tdh/TEMPLATE_USER_DATA
 ms.topic: enum
-f1_keywords: 
- - "tdh/TEMPLATE_FLAGS"
+f1_keywords:
+- tdh/TEMPLATE_FLAGS
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tdh.h
+- Tdh.h
 api_name:
- - TEMPLATE_FLAGS
+- TEMPLATE_FLAGS
 product: Windows
 targetos: Windows
 req.typenames: TEMPLATE_FLAGS
@@ -80,7 +80,7 @@ The layout of the event data is determined by the XML fragment included in the e
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_trace_event_info">TRACE_EVENT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a>
  
 
  

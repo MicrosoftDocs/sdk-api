@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LSA_OPEN_TOKEN_BY_LOGON_ID, LSA_OPEN_TOKEN_BY_LOGON_ID callback, OpenTokenByLogonId, OpenTokenByLogonId callback function [Security], ntsecpkg/OpenTokenByLogonId, security.opentokenbylogonid
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/OpenTokenByLogonId"
+f1_keywords:
+- ntsecpkg/OpenTokenByLogonId
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - OpenTokenByLogonId
+- OpenTokenByLogonId
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Opens the user access token associated with the specified user logon.
 
 ### -param LogonId [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> structure that identifies the user for which to open the access token.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure that identifies the user for which to open the access token.
 
 
 ### -param *RetTokenHandle [out]
@@ -85,7 +85,7 @@ If the function fails, return an NTSTATUS error code that indicates the reason i
 
 
 A pointer to the <b>OpenTokenByLogonId</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 

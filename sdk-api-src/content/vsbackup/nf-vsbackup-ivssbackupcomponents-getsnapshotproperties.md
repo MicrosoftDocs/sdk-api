@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSnapshotProperties, GetSnapshotProperties method [VSS], GetSnapshotProperties method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetSnapshotProperties method, IVssBackupComponents.GetSnapshotProperties, IVssBackupComponents::GetSnapshotProperties, _win32_ivssbackupcomponents_getsnapshotproperties, base.ivssbackupcomponents_getsnapshotproperties, vsbackup/IVssBackupComponents::GetSnapshotProperties
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.GetSnapshotProperties"
+f1_keywords:
+- vsbackup/IVssBackupComponents.GetSnapshotProperties
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.GetSnapshotProperties
+- IVssBackupComponents.GetSnapshotProperties
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ The identifier of the shadow copy of a volume as returned by
 
 ### -param pProp [out]
 
-The address of a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure that receives 
+The address of a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure that receives 
       the shadow copy properties.
       The software provider is responsible for setting the members of this structure. The software provider allocates memory for all string members  that it sets in the structure. When the structure is no longer needed, the software provider is responsible for freeing these strings by calling the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-vssfreesnapshotproperties">VssFreeSnapshotProperties</a> function.
 
@@ -206,9 +206,9 @@ Unexpected provider error. The error code is logged in the error log. For more i
 
 
 
-The caller should set the contents of the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure to zero before calling the <b>GetSnapshotProperties</b> method.
+The caller should set the contents of the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure to zero before calling the <b>GetSnapshotProperties</b> method.
 
-The provider is responsible for allocating and freeing the strings in the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure.
+The provider is responsible for allocating and freeing the strings in the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure.
 
 
 
@@ -234,7 +234,7 @@ The provider is responsible for allocating and freeing the strings in the <a hre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a>
 
 
 

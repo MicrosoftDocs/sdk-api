@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_DOMAIN_DIRECT_INBOUND, DS_DOMAIN_DIRECT_OUTBOUND, DS_DOMAIN_IN_FOREST, DS_DOMAIN_NATIVE_MODE, DS_DOMAIN_PRIMARY, DS_DOMAIN_TREE_ROOT, DsEnumerateDomainTrusts, DsEnumerateDomainTrusts function [Active Directory], DsEnumerateDomainTrustsA, DsEnumerateDomainTrustsW, _glines_dsenumeratedomaintrusts, ad.dsenumeratedomaintrusts, dsgetdc/DsEnumerateDomainTrusts, dsgetdc/DsEnumerateDomainTrustsA, dsgetdc/DsEnumerateDomainTrustsW
 ms.topic: function
-f1_keywords: 
- - "dsgetdc/DsEnumerateDomainTrusts"
+f1_keywords:
+- dsgetdc/DsEnumerateDomainTrusts
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - DsEnumerateDomainTrusts
- - DsEnumerateDomainTrustsA
- - DsEnumerateDomainTrustsW
+- DsEnumerateDomainTrusts
+- DsEnumerateDomainTrustsA
+- DsEnumerateDomainTrustsW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -111,7 +111,7 @@ Enumerate domains that are at the root of the forest which has <i>ServerName</i>
 
 ### -param Domains [out]
 
-Pointer to a <b>PDS_DOMAIN_TRUSTS</b> value that receives an array of <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/ns-dsgetdc-_ds_domain_trustsa">DS_DOMAIN_TRUSTS</a> structures. Each structure in this array contains trust data about a domain. The caller must free this memory when it is no longer required by calling <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>.
+Pointer to a <b>PDS_DOMAIN_TRUSTS</b> value that receives an array of <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/ns-dsgetdc-ds_domain_trustsa">DS_DOMAIN_TRUSTS</a> structures. Each structure in this array contains trust data about a domain. The caller must free this memory when it is no longer required by calling <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>.
 
 
 ### -param DomainCount [out]
@@ -133,7 +133,7 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Win32 error code otherwise. Poss
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/ns-dsgetdc-_ds_domain_trustsa">DS_DOMAIN_TRUSTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/ns-dsgetdc-ds_domain_trustsa">DS_DOMAIN_TRUSTS</a>
 
 
 

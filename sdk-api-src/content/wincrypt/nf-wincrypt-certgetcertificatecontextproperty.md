@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_ACCESS_STATE_PROP_ID, CERT_AIA_URL_RETRIEVED_PROP_ID, CERT_ARCHIVED_KEY_HASH_PROP_ID, CERT_ARCHIVED_PROP_ID, CERT_AUTHORITY_INFO_ACCESS_PROP_ID, CERT_AUTO_ENROLL_PROP_ID, CERT_AUTO_ENROLL_RETRY_PROP_ID, CERT_BACKED_UP_PROP_ID, CERT_CA_DISABLE_CRL_PROP_ID, CERT_CA_OCSP_AUTHORITY_INFO_ACCESS_PROP_ID, CERT_CROSS_CERT_DIST_POINTS_PROP_ID, CERT_CTL_USAGE_PROP_ID, CERT_DATE_STAMP_PROP_ID, CERT_DESCRIPTION_PROP_ID, CERT_EFS_PROP_ID, CERT_ENHKEY_USAGE_PROP_ID, CERT_ENROLLMENT_PROP_ID, CERT_EXTENDED_ERROR_INFO_PROP_ID, CERT_FORTEZZA_DATA_PROP_ID, CERT_FRIENDLY_NAME_PROP_ID, CERT_HASH_PROP_ID, CERT_HCRYPTPROV_OR_NCRYPT_KEY_HANDLE_PROP_ID, CERT_HCRYPTPROV_TRANSFER_PROP_ID, CERT_IE30_RESERVED_PROP_ID, CERT_ISSUER_PUBLIC_KEY_MD5_HASH_PROP_ID, CERT_ISSUER_SERIAL_NUMBER_MD5_HASH_PROP_ID, CERT_KEY_CONTEXT_PROP_ID, CERT_KEY_IDENTIFIER_PROP_ID, CERT_KEY_PROV_HANDLE_PROP_ID, CERT_KEY_PROV_INFO_PROP_ID, CERT_KEY_SPEC_PROP_ID, CERT_MD5_HASH_PROP_ID, CERT_NCRYPT_KEY_HANDLE_PROP_ID, CERT_NCRYPT_KEY_HANDLE_TRANSFER_PROP_ID, CERT_NEW_KEY_PROP_ID, CERT_NEXT_UPDATE_LOCATION_PROP_ID, CERT_NO_AUTO_EXPIRE_CHECK_PROP_ID, CERT_OCSP_CACHE_PREFIX_PROP_ID, CERT_OCSP_RESPONSE_PROP_ID, CERT_PUBKEY_ALG_PARA_PROP_ID, CERT_PUBKEY_HASH_RESERVED_PROP_ID, CERT_PUB_KEY_CNG_ALG_BIT_LENGTH_PROP_ID, CERT_PVK_FILE_PROP_ID, CERT_RENEWAL_PROP_ID, CERT_REQUEST_ORIGINATOR_PROP_ID, CERT_ROOT_PROGRAM_CERT_POLICIES_PROP_ID, CERT_ROOT_PROGRAM_NAME_CONSTRAINTS_PROP_ID, CERT_SHA1_HASH_PROP_ID, CERT_SIGNATURE_HASH_PROP_ID, CERT_SIGN_HASH_CNG_ALG_PROP_ID, CERT_SMART_CARD_DATA_PROP_ID, CERT_SMART_CARD_ROOT_INFO_PROP_ID, CERT_SOURCE_LOCATION_PROP_ID, CERT_SOURCE_URL_PROP_ID, CERT_SUBJECT_DISABLE_CRL_PROP_ID, CERT_SUBJECT_INFO_ACCESS_PROP_ID, CERT_SUBJECT_NAME_MD5_HASH_PROP_ID, CERT_SUBJECT_OCSP_AUTHORITY_INFO_ACCESS_PROP_ID, CERT_SUBJECT_PUBLIC_KEY_MD5_HASH_PROP_ID, CERT_SUBJECT_PUB_KEY_BIT_LENGTH_PROP_ID, CertGetCertificateContextProperty, CertGetCertificateContextProperty function [Security], _crypto2_certgetcertificatecontextproperty, security.certgetcertificatecontextproperty, wincrypt/CertGetCertificateContextProperty
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertGetCertificateContextProperty"
+f1_keywords:
+- wincrypt/CertGetCertificateContextProperty
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertGetCertificateContextProperty
+- CertGetCertificateContextProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -167,7 +167,7 @@ Location of the cross certificates. Currently, this identifier
   is only applicable to certificates and not to CRLs or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs).
   The <b>BYTE</b> array contains an 
 			 ASN.1-encoded 
-  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cross_cert_dist_points_info">CROSS_CERT_DIST_POINTS_INFO</a> structure decoded by using 
+  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cross_cert_dist_points_info">CROSS_CERT_DIST_POINTS_INFO</a> structure decoded by using 
   the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> function with a X509_CROSS_CERT_DIST_POINTS 
   value for the <i>lpszStuctType</i> parameter.
 
@@ -179,7 +179,7 @@ Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The siz
 
 Returns an array of bytes that contain an 
 			 
-			 ASN.1-encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CTL_USAGE</a> structure.
+			 ASN.1-encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a> structure.
 
 
 
@@ -211,7 +211,7 @@ This identifier is reserved.
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
-Returns an array of bytes that contain an ASN.1-encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CERT_ENHKEY_USAGE</a> structure. 
+Returns an array of bytes that contain an ASN.1-encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a> structure. 
 			 This structure contains an array of 
 			 Enhanced Key Usage <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs),
 			 each of which specifies a valid use of the certificate.
@@ -354,9 +354,9 @@ MD5 hash of the issuer name and serial number from this certificate.
 
 #### CERT_KEY_CONTEXT_PROP_ID
 
-Data type of <i>pvData</i>: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_context">CERT_KEY_CONTEXT</a> structure.
+Data type of <i>pvData</i>: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a> structure.
 
-Returns a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_context">CERT_KEY_CONTEXT</a> structure.
+Returns a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a> structure.
 
 
 
@@ -383,9 +383,9 @@ Returns the provider handle obtained from
 
 #### CERT_KEY_PROV_INFO_PROP_ID
 
-Data type of <i>pvData</i>: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
+Data type of <i>pvData</i>: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
 
-Returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
+Returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
 
 
 
@@ -433,7 +433,7 @@ This identifier is reserved.
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
-Returns the ASN.1-encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure.
+Returns the ASN.1-encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure.
 
 CERT_NEXT_UPDATE_LOCATION_PROP_ID is currently used only 
 			with CTLs.
@@ -520,7 +520,7 @@ Returns a null-terminated Unicode string that contains the DNS computer name for
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
-Returns a pointer to an encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_policies_info">CERT_POLICIES_INFO</a> structure that contains the application policies of the root certificate for the context. This property can be decoded by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> function with the <i>lpszStructType</i> parameter set to <b>X509_CERT_POLICIES</b> and the <i>dwCertEncodingType</i> parameter set to a combination of <b>X509_ASN_ENCODING</b> bitwise <b>OR</b> <b>PKCS_7_ASN_ENCODING</b>.
+Returns a pointer to an encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_policies_info">CERT_POLICIES_INFO</a> structure that contains the application policies of the root certificate for the context. This property can be decoded by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> function with the <i>lpszStructType</i> parameter set to <b>X509_CERT_POLICIES</b> and the <i>dwCertEncodingType</i> parameter set to a combination of <b>X509_ASN_ENCODING</b> bitwise <b>OR</b> <b>PKCS_7_ASN_ENCODING</b>.
 
 
 
@@ -592,7 +592,7 @@ Returns a pointer to encoded smart card data. Prior to calling <b>CertGetCertifi
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
-Returns a pointer to an encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_smart_card_root_info">CRYPT_SMART_CARD_ROOT_INFO</a> structure.
+Returns a pointer to an encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_smart_card_root_info">CRYPT_SMART_CARD_ROOT_INFO</a> structure.
 
 
 
@@ -618,7 +618,7 @@ This identifier is reserved.
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
-Returns the subject information access extension of the certificate context as an encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_authority_info_access">CERT_SUBJECT_INFO_ACCESS</a> structure.
+Returns the subject information access extension of the certificate context as an encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_authority_info_access">CERT_SUBJECT_INFO_ACCESS</a> structure.
 
 
 
@@ -747,7 +747,7 @@ For examples that use this function, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_context">CERT_KEY_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a>
 
 
 

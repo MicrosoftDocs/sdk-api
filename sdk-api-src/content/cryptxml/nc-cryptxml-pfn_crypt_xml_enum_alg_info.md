@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_XML_ENUM_ALG_INFO, PFN_CRYPT_XML_ENUM_ALG_INFO callback, PFN_CRYPT_XML_ENUM_ALG_INFO callback function [Security], cryptxml/PFN_CRYPT_XML_ENUM_ALG_INFO, security.pfn_crypt_xml_enum_alg_info
 ms.topic: callback
-f1_keywords: 
- - "cryptxml/PFN_CRYPT_XML_ENUM_ALG_INFO"
+f1_keywords:
+- cryptxml/PFN_CRYPT_XML_ENUM_ALG_INFO
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - PFN_CRYPT_XML_ENUM_ALG_INFO
+- PFN_CRYPT_XML_ENUM_ALG_INFO
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <i>PFN_CRYPT_XML_ENUM_ALG_INFO</i> callback function enumerates predefined and registered 
- <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> entries.
+ <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> entries.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The <i>PFN_CRYPT_XML_ENUM_ALG_INFO</i> callback function enumerates predefined a
 
 ### -param *pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> structure.
 
 
 ### -param *pvArg [in, out, optional]

@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 20b20759-3d76-4814-9e71-7376dd326f7b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO, CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO, CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO structure [Security], PCMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO, PCMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO structure pointer [Security], _crypto2_cmsg_key_trans_recipient_encode_info, security.cmsg_key_trans_recipient_encode_info, wincrypt/CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO, wincrypt/PCMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO"
+ms.keywords: '*PCMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO, CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO, CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO structure [Security], PCMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO, PCMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO structure pointer [Security], _crypto2_cmsg_key_trans_recipient_encode_info, security.cmsg_key_trans_recipient_encode_info, wincrypt/CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO, wincrypt/PCMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO"
+f1_keywords:
+- wincrypt/CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO
+- CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO
 product: Windows
 targetos: Windows
 req.typenames: CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO, *PCMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO
@@ -67,9 +67,9 @@ A <b>DWORD</b> value that indicates the size, in bytes, of the structure.
 ### -field KeyEncryptionAlgorithm
 
 A 
-						<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> value that identifies the key-encryption algorithm and any associated parameters used to encrypt the content encryption key.
+						<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> value that identifies the key-encryption algorithm and any associated parameters used to encrypt the content encryption key.
 
-For RSA AES,  the <b>pszObjId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure  should be set to szOID_RSAES_OAEP. The <b>Parameters</b> member of the  <b>CRYPT_ALGORITHM_IDENTIFIER</b> structure should be set to the encoded <b>PKCS_RSAES_OAEP_PARAMETERS</b>. If the <b>Parameters.cbData</b> member is equal to zero, then the default parameters are used and encoded.
+For RSA AES,  the <b>pszObjId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure  should be set to szOID_RSAES_OAEP. The <b>Parameters</b> member of the  <b>CRYPT_ALGORITHM_IDENTIFIER</b> structure should be set to the encoded <b>PKCS_RSAES_OAEP_PARAMETERS</b>. If the <b>Parameters.cbData</b> member is equal to zero, then the default parameters are used and encoded.
 
 
 ### -field pvKeyEncryptionAuxInfo
@@ -82,7 +82,7 @@ A void pointer to a structure that contains additional information about the enc
 This member is not used and should be set to <b>NULL</b>.
 
 <b>Windows Server 2003 and Windows XP:  </b> A <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> value used to do the recipient key encryption and export. The provider's private keys are not used. If <b>hCryptProv</b> is <b>NULL</b>, the <b>HCRYPTPROV</b> specified in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> is used.Note that this <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> is not released even if CMSG_CRYPT_RELEASE_CONTEXT_FLAG is set in the <i>dwFlags</i> parameter passed to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> is used.Note that this <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> is not released even if CMSG_CRYPT_RELEASE_CONTEXT_FLAG is set in the <i>dwFlags</i> parameter passed to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a>.
 
 
 
@@ -94,5 +94,5 @@ A <b>CRYPT_BIT_BLOB</b> variable that contains the public key of the recipient.
 
 ### -field RecipientId
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_id">CERT_ID</a> value that identifies the recipient. CMS supports the KEY_IDENTIFIER and ISSUER_SERIAL_NUMBER <b>CERT_ID</b>s. PKCS #7 version 1.5 supports only the ISSUER_SERIAL_NUMBER <b>CERT_ID</b>s.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a> value that identifies the recipient. CMS supports the KEY_IDENTIFIER and ISSUER_SERIAL_NUMBER <b>CERT_ID</b>s. PKCS #7 version 1.5 supports only the ISSUER_SERIAL_NUMBER <b>CERT_ID</b>s.
 

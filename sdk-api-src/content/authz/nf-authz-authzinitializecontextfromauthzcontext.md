@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzInitializeContextFromAuthzContext, AuthzInitializeContextFromAuthzContext function [Security], _win32_authzinitializecontextfromauthzcontext, authz/AuthzInitializeContextFromAuthzContext, security.authzinitializecontextfromauthzcontext
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzInitializeContextFromAuthzContext"
+f1_keywords:
+- authz/AuthzInitializeContextFromAuthzContext
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
- - Ext-MS-Win-authz-context-l1-1-0.dll
+- Authz.dll
+- Ext-MS-Win-authz-context-l1-1-0.dll
 api_name:
- - AuthzInitializeContextFromAuthzContext
+- AuthzInitializeContextFromAuthzContext
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -118,7 +118,7 @@ This function calls the  <a href="https://docs.microsoft.com/windows/desktop/Sec
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_access_reply">AUTHZ_ACCESS_REPLY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_access_reply">AUTHZ_ACCESS_REPLY</a>
 
 
 

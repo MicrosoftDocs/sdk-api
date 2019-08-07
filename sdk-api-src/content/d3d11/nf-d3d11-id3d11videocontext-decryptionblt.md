@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DecryptionBlt, DecryptionBlt method [Media Foundation], DecryptionBlt method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],DecryptionBlt method, ID3D11VideoContext.DecryptionBlt, ID3D11VideoContext::DecryptionBlt, d3d11/ID3D11VideoContext::DecryptionBlt, mf.id3d11videocontext_decryptionblt
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.DecryptionBlt"
+f1_keywords:
+- d3d11/ID3D11VideoContext.DecryptionBlt
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.DecryptionBlt
+- ID3D11VideoContext.DecryptionBlt
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -105,7 +105,7 @@ The size of the <i>pIV</i> buffer, in bytes.
 
 A pointer to a buffer that contains the initialization vector (IV). 
 
-For 128-bit AES-CTR encryption, <i>pIV</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-_d3d11_aes_ctr_iv">D3D11_AES_CTR_IV</a> structure. The caller allocates the structure and generates the IV. When you generate the first IV, initialize the structure to a random number. For each subsequent IV, simply increment the <b>IV</b> member of the structure, ensuring that the value always increases.  This procedure enables the driver to validate that the same IV is never used more than once with the same key pair.
+For 128-bit AES-CTR encryption, <i>pIV</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_aes_ctr_iv">D3D11_AES_CTR_IV</a> structure. The caller allocates the structure and generates the IV. When you generate the first IV, initialize the structure to a random number. For each subsequent IV, simply increment the <b>IV</b> member of the structure, ensuring that the value always increases.  This procedure enables the driver to validate that the same IV is never used more than once with the same key pair.
 
 For other encryption types, a different structure might be used, or the encryption might not use an IV.
 

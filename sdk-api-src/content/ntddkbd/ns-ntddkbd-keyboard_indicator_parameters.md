@@ -8,10 +8,10 @@ tech.root: hid
 ms.assetid: 68c9d24a-c1c9-4ef6-904d-6aeb68cea32a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PKEYBOARD_INDICATOR_PARAMETERS, KEYBOARD_INDICATOR_PARAMETERS, KEYBOARD_INDICATOR_PARAMETERS structure [Human Input Devices], PKEYBOARD_INDICATOR_PARAMETERS, PKEYBOARD_INDICATOR_PARAMETERS structure pointer [Human Input Devices], hid.keyboard_indicator_parameters, kref_d0dd9f49-1ccb-444f-8dd6-243f6d150ab9.xml, ntddkbd/KEYBOARD_INDICATOR_PARAMETERS, ntddkbd/PKEYBOARD_INDICATOR_PARAMETERS"
+ms.keywords: '*PKEYBOARD_INDICATOR_PARAMETERS, KEYBOARD_INDICATOR_PARAMETERS, KEYBOARD_INDICATOR_PARAMETERS structure [Human Input Devices], PKEYBOARD_INDICATOR_PARAMETERS, PKEYBOARD_INDICATOR_PARAMETERS structure pointer [Human Input Devices], hid.keyboard_indicator_parameters, kref_d0dd9f49-1ccb-444f-8dd6-243f6d150ab9.xml, ntddkbd/KEYBOARD_INDICATOR_PARAMETERS, ntddkbd/PKEYBOARD_INDICATOR_PARAMETERS'
 ms.topic: struct
-f1_keywords: 
- - "ntddkbd/KEYBOARD_INDICATOR_PARAMETERS"
+f1_keywords:
+- ntddkbd/KEYBOARD_INDICATOR_PARAMETERS
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ntddkbd.h
+- ntddkbd.h
 api_name:
- - KEYBOARD_INDICATOR_PARAMETERS
+- KEYBOARD_INDICATOR_PARAMETERS
 product: Windows
 targetos: Windows
 req.typenames: KEYBOARD_INDICATOR_PARAMETERS, *PKEYBOARD_INDICATOR_PARAMETERS
@@ -165,7 +165,7 @@ This structure is used with <a href="https://docs.microsoft.com/windows/desktop/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_unit_id_parameter">KEYBOARD_UNIT_ID_PARAMETER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_unit_id_parameter">KEYBOARD_UNIT_ID_PARAMETER</a>
  
 
  

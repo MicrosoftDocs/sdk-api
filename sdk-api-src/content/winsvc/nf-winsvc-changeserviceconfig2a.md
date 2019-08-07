@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChangeServiceConfig2, ChangeServiceConfig2 function, ChangeServiceConfig2A, ChangeServiceConfig2W, SERVICE_CONFIG_DELAYED_AUTO_START_INFO, SERVICE_CONFIG_DESCRIPTION, SERVICE_CONFIG_FAILURE_ACTIONS, SERVICE_CONFIG_FAILURE_ACTIONS_FLAG, SERVICE_CONFIG_LAUNCH_PROTECTED, SERVICE_CONFIG_PREFERRED_NODE, SERVICE_CONFIG_PRESHUTDOWN_INFO, SERVICE_CONFIG_REQUIRED_PRIVILEGES_INFO, SERVICE_CONFIG_SERVICE_SID_INFO, SERVICE_CONFIG_TRIGGER_INFO, _win32_changeserviceconfig2, base.changeserviceconfig2, winsvc/ChangeServiceConfig2, winsvc/ChangeServiceConfig2A, winsvc/ChangeServiceConfig2W
 ms.topic: function
-f1_keywords: 
- - "winsvc/ChangeServiceConfig2"
+f1_keywords:
+- winsvc/ChangeServiceConfig2
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - sechost.dll
- - API-MS-Win-Service-management-l2-1-0.dll
- - API-MS-Win-Service-Winsvc-l1-1-0.dll
- - API-MS-Win-Service-Winsvc-l1-2-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- sechost.dll
+- API-MS-Win-Service-management-l2-1-0.dll
+- API-MS-Win-Service-Winsvc-l1-1-0.dll
+- API-MS-Win-Service-Winsvc-l1-2-0.dll
 api_name:
- - ChangeServiceConfig2
- - ChangeServiceConfig2A
- - ChangeServiceConfig2W
+- ChangeServiceConfig2
+- ChangeServiceConfig2A
+- ChangeServiceConfig2W
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -109,7 +109,7 @@ The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.co
 </td>
 <td width="60%">
 The <i>lpInfo</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_descriptiona">SERVICE_DESCRIPTION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_descriptiona">SERVICE_DESCRIPTION</a> structure.
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ If the service controller handles the <b>SC_ACTION_REBOOT</b> action, the caller
 </dl>
 </td>
 <td width="60%">
-The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a> structure.
+The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a> structure.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -161,7 +161,7 @@ The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_preshutdown_info">SERVICE_PRESHUTDOWN_INFO</a> structure.
+The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_preshutdown_info">SERVICE_PRESHUTDOWN_INFO</a> structure.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -174,7 +174,7 @@ The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_required_privileges_infoa">SERVICE_REQUIRED_PRIVILEGES_INFO</a> structure.
+The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_required_privileges_infoa">SERVICE_REQUIRED_PRIVILEGES_INFO</a> structure.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -187,7 +187,7 @@ The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_sid_info">SERVICE_SID_INFO</a> structure.
+The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_sid_info">SERVICE_SID_INFO</a> structure.
 
 </td>
 </tr>
@@ -198,7 +198,7 @@ The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_trigger_info">SERVICE_TRIGGER_INFO</a> structure. This value is not supported by the ANSI version of <b>ChangeServiceConfig2</b>. 
+The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger_info">SERVICE_TRIGGER_INFO</a> structure. This value is not supported by the ANSI version of <b>ChangeServiceConfig2</b>. 
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2.
 
@@ -211,7 +211,7 @@ The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-The <i>lpInfo</i> parameter is a pointer a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_launch_protected_info">SERVICE_LAUNCH_PROTECTED_INFO</a> structure.
+The <i>lpInfo</i> parameter is a pointer a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_launch_protected_info">SERVICE_LAUNCH_PROTECTED_INFO</a> structure.
 
 <div class="alert"><b>Note</b>  This value is supported starting with Windows 8.1.</div>
 <div> </div>
@@ -321,7 +321,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_descriptiona">SERVICE_DESCRIPTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_descriptiona">SERVICE_DESCRIPTION</a>
 
 
 
@@ -329,19 +329,19 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_preshutdown_info">SERVICE_PRESHUTDOWN_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_preshutdown_info">SERVICE_PRESHUTDOWN_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_required_privileges_infoa">SERVICE_REQUIRED_PRIVILEGES_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_required_privileges_infoa">SERVICE_REQUIRED_PRIVILEGES_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_sid_info">SERVICE_SID_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_sid_info">SERVICE_SID_INFO</a>
 
 
 

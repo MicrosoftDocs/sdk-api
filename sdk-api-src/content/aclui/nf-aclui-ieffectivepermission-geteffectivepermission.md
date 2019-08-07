@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEffectivePermission, GetEffectivePermission method [Security], GetEffectivePermission method [Security],IEffectivePermission interface, IEffectivePermission interface [Security],GetEffectivePermission method, IEffectivePermission.GetEffectivePermission, IEffectivePermission::GetEffectivePermission, aclui/IEffectivePermission::GetEffectivePermission, security.ieffectivepermission_geteffectivepermission
 ms.topic: method
-f1_keywords: 
- - "aclui/IEffectivePermission.GetEffectivePermission"
+f1_keywords:
+- aclui/IEffectivePermission.GetEffectivePermission
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Aclui.h
+- Aclui.h
 api_name:
- - IEffectivePermission.GetEffectivePermission
+- IEffectivePermission.GetEffectivePermission
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A <b>GUID</b> for the object type whose permission is being queried.
 
 ### -param pUserSid [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that represents the security principal whose effective permission is being determined.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that represents the security principal whose effective permission is being determined.
 
 
 ### -param pszServerName [in]
@@ -76,12 +76,12 @@ A pointer to null-terminated wide character string that represents the server na
 
 ### -param pSD [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure that represents the object's  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a>. The security descriptor is used to perform the access check.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that represents the object's  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a>. The security descriptor is used to perform the access check.
 
 
 ### -param ppObjectTypeList [out]
 
-A pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_object_type_list">OBJECT_TYPE_LIST</a> structure that represents the array of object types in the object tree for the object. If an object does not support property access, use the following technique to specify the value for the <b>OBJECT_TYPE_LIST</b>.
+A pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-object_type_list">OBJECT_TYPE_LIST</a> structure that represents the array of object types in the object tree for the object. If an object does not support property access, use the following technique to specify the value for the <b>OBJECT_TYPE_LIST</b>.
 
 
 ```cpp

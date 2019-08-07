@@ -4,8 +4,8 @@ title: WLAN_NOTIFICATION_MSM
 ms.date: 01/30/19
 ms.keywords: _WLAN_NOTIFICATION_MSM, WLAN_NOTIFICATION_MSM
 ms.topic: language-reference
-f1_keywords: 
- - "wlanapi/_WLAN_NOTIFICATION_MSM"
+f1_keywords:
+- wlanapi/_WLAN_NOTIFICATION_MSM
 targetos: Windows
 product: Windows
 req.construct-type: enumeration
@@ -20,14 +20,14 @@ req.target-type:
 req.typenames: 
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - _WLAN_NOTIFICATION_MSM
- - WLAN_NOTIFICATION_MSM
+- _WLAN_NOTIFICATION_MSM
+- WLAN_NOTIFICATION_MSM
 ---
 
 # WLAN_NOTIFICATION_MSM enumeration
@@ -49,49 +49,49 @@ The beginning of the range that specifies the possible values for ACM notificati
 
 A wireless device is in the process of associating with an access point or a peer station. 
 
-The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information.
 
 
 ### -field wlan_notification_msm_associated
 
 The wireless device has associated with an access point or a peer station.
 
-The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information.
 
 
 ### -field wlan_notification_msm_authenticating
 
 The wireless device is in the process of authenticating.
 
-The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information.
 
 
 ### -field wlan_notification_msm_connected
 
 The wireless device is associated with an access point or a peer station, keys have been exchanged, and the wireless device is available to send data. 
 
-The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information.
 
 
 ### -field wlan_notification_msm_roaming_start
 
 The wireless device is connected to an access point and has initiated roaming to another access point.
 
-The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information.
 
 
 ### -field wlan_notification_msm_roaming_end
 
 The wireless device was connected to an access point and has completed roaming to another access point.
 
-The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information.
 
 
 ### -field wlan_notification_msm_radio_state_change
 
 The radio state for an adapter has changed. Each physical layer (PHY) has its own radio state. The radio for an adapter is switched off when the radio state of every PHY is off.  
 
-The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_phy_radio_state">WLAN_PHY_RADIO_STATE</a> structure that identifies the new radio state.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_phy_radio_state">WLAN_PHY_RADIO_STATE</a> structure that identifies the new radio state.
 
 
 ### -field wlan_notification_msm_signal_quality_change
@@ -105,35 +105,35 @@ The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-vers
 
 A wireless device is in the process of disassociating from an access point or a peer station. 
 
-The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information. 
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information. 
 
 
 ### -field wlan_notification_msm_disconnected
 
 The wireless device is not associated with an access point or a peer station. 
 
-The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information. The <b>wlanReasonCode</b> member of the <b>WLAN_MSM_NOTIFICATION_DATA</b> structure  indicates the reason for the disconnect.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information. The <b>wlanReasonCode</b> member of the <b>WLAN_MSM_NOTIFICATION_DATA</b> structure  indicates the reason for the disconnect.
 
 
 ### -field wlan_notification_msm_peer_join
 
 A peer has joined an adhoc network.
 
-The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information.
 
 
 ### -field wlan_notification_msm_peer_leave
 
 A peer has left an adhoc network.
 
-The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information.
 
 
 ### -field wlan_notification_msm_adapter_removal
 
 A wireless adapter has been removed from the local computer. 
 
-The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information. 
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a> structure that contains connection-related information. 
 
 
 ### -field wlan_notification_msm_adapter_operation_mode_change
@@ -172,7 +172,7 @@ The callback function is called with a pointer to a <a href="https://docs.micros
 
 <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/about-the-acm-architecture">About the ACM Architecture</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_msm_notification_data">WLAN_MSM_NOTIFICATION_DATA</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nc-wlanapi-wlan_notification_callback">WLAN_NOTIFICATION_CALLBACK</a>
 

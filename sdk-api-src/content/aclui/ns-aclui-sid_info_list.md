@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: e9be644c-ec56-4a49-9aa8-6b3f62d6cf0d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSID_INFO_LIST, PSID_INFO_LIST, PSID_INFO_LIST structure pointer [Security], SID_INFO_LIST, SID_INFO_LIST structure [Security], _win32_sid_info_list_str, aclui/PSID_INFO_LIST, aclui/SID_INFO_LIST, security.sid_info_list"
+ms.keywords: '*PSID_INFO_LIST, PSID_INFO_LIST, PSID_INFO_LIST structure pointer [Security], SID_INFO_LIST, SID_INFO_LIST structure [Security], _win32_sid_info_list_str, aclui/PSID_INFO_LIST, aclui/SID_INFO_LIST, security.sid_info_list'
 ms.topic: struct
-f1_keywords: 
- - "aclui/SID_INFO_LIST"
+f1_keywords:
+- aclui/SID_INFO_LIST
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Aclui.h
+- Aclui.h
 api_name:
- - SID_INFO_LIST
+- SID_INFO_LIST
 product: Windows
 targetos: Windows
 req.typenames: SID_INFO_LIST, *PSID_INFO_LIST
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>SID_INFO_LIST</b> structure contains a list of 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_sid_info">SID_INFO</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-sid_info">SID_INFO</a> structures.
 
 
 ## -struct-fields
@@ -63,12 +63,12 @@ The <b>SID_INFO_LIST</b> structure contains a list of
 ### -field cItems
 
 The number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_sid_info">SID_INFO</a> structures contained in the <b>aSidInfo</b> member.
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-sid_info">SID_INFO</a> structures contained in the <b>aSidInfo</b> member.
 
 
 ### -field aSidInfo
 
-A pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_sid_info">SID_INFO</a> structures that is returned by the 
+A pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-sid_info">SID_INFO</a> structures that is returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation2-lookupsids">ISecurityInformation2::LookupSids</a> method.
 
 
@@ -81,7 +81,7 @@ A pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_sid_info">SID_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-sid_info">SID_INFO</a>
  
 
  

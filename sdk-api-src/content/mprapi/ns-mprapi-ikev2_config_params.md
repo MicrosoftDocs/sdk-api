@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: a494deb0-8f55-46cc-9ca0-a2097459de8b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PIKEV2_CONFIG_PARAMS, IKEV2_CONFIG_PARAMS, IKEV2_CONFIG_PARAMS structure [RAS], MPRAPI_IKEV2_SET_TUNNEL_CONFIG_PARAMS, MPR_ENABLE_RAS_ON_DEVICE, PIKEV2_CONFIG_PARAMS, PIKEV2_CONFIG_PARAMS structure pointer [RAS], mprapi/IKEV2_CONFIG_PARAMS, mprapi/PIKEV2_CONFIG_PARAMS, rras.ikev2_config_params"
+ms.keywords: '*PIKEV2_CONFIG_PARAMS, IKEV2_CONFIG_PARAMS, IKEV2_CONFIG_PARAMS structure [RAS], MPRAPI_IKEV2_SET_TUNNEL_CONFIG_PARAMS, MPR_ENABLE_RAS_ON_DEVICE, PIKEV2_CONFIG_PARAMS, PIKEV2_CONFIG_PARAMS structure pointer [RAS], mprapi/IKEV2_CONFIG_PARAMS, mprapi/PIKEV2_CONFIG_PARAMS, rras.ikev2_config_params'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/IKEV2_CONFIG_PARAMS"
+f1_keywords:
+- mprapi/IKEV2_CONFIG_PARAMS
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - IKEV2_CONFIG_PARAMS
+- IKEV2_CONFIG_PARAMS
 product: Windows
 targetos: Windows
 req.typenames: IKEV2_CONFIG_PARAMS, *PIKEV2_CONFIG_PARAMS
@@ -121,7 +121,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-da
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mprapi_tunnel_config_params0">MPRAPI_TUNNEL_CONFIG_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mprapi_tunnel_config_params0">MPRAPI_TUNNEL_CONFIG_PARAMS</a>
 
 
 

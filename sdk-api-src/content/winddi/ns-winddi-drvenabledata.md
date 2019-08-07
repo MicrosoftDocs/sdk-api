@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: dbeaecf8-dea1-4412-babb-6e40bf5dc7b0
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDRVENABLEDATA, DRVENABLEDATA, DRVENABLEDATA structure [Display Devices], PDRVENABLEDATA, PDRVENABLEDATA structure pointer [Display Devices], display.drvenabledata, grstrcts_d39f1feb-36e3-4fc6-b580-5b428dbeebd0.xml, winddi/DRVENABLEDATA, winddi/PDRVENABLEDATA"
+ms.keywords: '*PDRVENABLEDATA, DRVENABLEDATA, DRVENABLEDATA structure [Display Devices], PDRVENABLEDATA, PDRVENABLEDATA structure pointer [Display Devices], display.drvenabledata, grstrcts_d39f1feb-36e3-4fc6-b580-5b428dbeebd0.xml, winddi/DRVENABLEDATA, winddi/PDRVENABLEDATA'
 ms.topic: struct
-f1_keywords: 
- - "winddi/DRVENABLEDATA"
+f1_keywords:
+- winddi/DRVENABLEDATA
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DRVENABLEDATA
+- DRVENABLEDATA
 product: Windows
 targetos: Windows
 req.typenames: DRVENABLEDATA, *PDRVENABLEDATA
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DRVENABLEDATA structure contains a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_drvfn">DRVFN</a> structures and the graphics DDI version number of an NT-based operating system.
+The DRVENABLEDATA structure contains a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a> structures and the graphics DDI version number of an NT-based operating system.
 
 
 ## -struct-fields
@@ -126,12 +126,12 @@ See the Remarks section for more information.
 
 ### -field c
 
-Specifies the number of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_drvfn">DRVFN</a> structures in the buffer pointed to by the <b>pdrvfn</b> member.
+Specifies the number of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a> structures in the buffer pointed to by the <b>pdrvfn</b> member.
 
 
 ### -field pdrvfn
 
-Pointer to a buffer containing an array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_drvfn">DRVFN</a> structures.
+Pointer to a buffer containing an array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a> structures.
 
 
 ## -remarks
@@ -210,7 +210,7 @@ As the table shows, a driver can run on any of these operating system versions i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_drvfn">DRVFN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a>
 
 
 

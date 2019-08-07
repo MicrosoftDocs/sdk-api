@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PCRYPT_DECRYPT_PRIVATE_KEY_FUNC, PCRYPT_DECRYPT_PRIVATE_KEY_FUNC callback, PCRYPT_DECRYPT_PRIVATE_KEY_FUNC callback function [Security], security.pcrypt_decrypt_private_key_func, wincrypt/PCRYPT_DECRYPT_PRIVATE_KEY_FUNC
 ms.topic: callback
-f1_keywords: 
- - "wincrypt/PCRYPT_DECRYPT_PRIVATE_KEY_FUNC"
+f1_keywords:
+- wincrypt/PCRYPT_DECRYPT_PRIVATE_KEY_FUNC
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - PCRYPT_DECRYPT_PRIVATE_KEY_FUNC
+- PCRYPT_DECRYPT_PRIVATE_KEY_FUNC
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private 
 
 ### -param Algorithm [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that identifies the algorithm used to encrypt the PrivateKeyInfo ASN.1 type found in the PKCS #8 standard.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that identifies the algorithm used to encrypt the PrivateKeyInfo ASN.1 type found in the PKCS #8 standard.
 
 
 ### -param EncryptedPrivateKey [in]

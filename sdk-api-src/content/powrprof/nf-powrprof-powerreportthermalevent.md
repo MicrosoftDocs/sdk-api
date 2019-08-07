@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PowerReportThermalEvent, PowerReportThermalEvent function, base.powerreportthermalevent, powrprof/PowerReportThermalEvent
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerReportThermalEvent"
+f1_keywords:
+- powrprof/PowerReportThermalEvent
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - PowerReportThermalEvent
+- PowerReportThermalEvent
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Notifies the operating system of thermal events.
 
 ### -param Event [in]
 
-The thermal event structure, <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_thermal_event">THERMAL_EVENT</a>.
+The thermal event structure, <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-thermal_event">THERMAL_EVENT</a>.
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero va
 
 Thermal managers call the <b>PowerReportThermalEvent</b> routine to notifiy the operating system of a thermal event so that the event can be recorded in the system event log.
 
-Before calling <b>PowerReportThermalEvent</b>, the thermal manager sets the members of the <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_thermal_event">THERMAL_EVENT</a> structure to describe the thermal event.
+Before calling <b>PowerReportThermalEvent</b>, the thermal manager sets the members of the <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-thermal_event">THERMAL_EVENT</a> structure to describe the thermal event.
 
 
 

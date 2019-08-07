@@ -4,8 +4,8 @@ title: NLSVERSIONINFO
 ms.date: 01/30/19
 ms.keywords: _nlsversioninfo, NLSVERSIONINFO
 ms.topic: language-reference
-f1_keywords: 
- - "winnls/_nlsversioninfo"
+f1_keywords:
+- winnls/_nlsversioninfo
 targetos: Windows
 product: Windows
 req.construct-type: structure
@@ -24,14 +24,14 @@ req.typenames: NLSVERSIONINFO, *LPNLSVERSIONINFO
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winnls.h
+- winnls.h
 api_name:
- - _nlsversioninfo
- - NLSVERSIONINFO
+- _nlsversioninfo
+- NLSVERSIONINFO
 ---
 
 # NLSVERSIONINFO structure
@@ -43,7 +43,7 @@ Deprecated. Contains version information about an NLS capability.
 
 
 
-Starting with Windows 8, your app should use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_nlsversioninfoex">NLSVERSIONINFOEX</a> instead of <b>NLSVERSIONINFO</b>.
+Starting with Windows 8, your app should use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a> instead of <b>NLSVERSIONINFO</b>.
 
 
 ## -struct-fields
@@ -65,9 +65,9 @@ Defined version. This value is used to track changes in the repertoire of Unicod
 
 ## -remarks
 
-Starting with Windows 8, <b>NLSVERSIONINFO</b> is deprecated. In fact, it is identical to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_nlsversioninfoex">NLSVERSIONINFOEX</a>, which your app should use instead.
+Starting with Windows 8, <b>NLSVERSIONINFO</b> is deprecated. In fact, it is identical to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a>, which your app should use instead.
 
-See Remarks for <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_nlsversioninfoex">NLSVERSIONINFOEX</a>.
+See Remarks for <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a>.
 
 
 ## -see-also
@@ -80,7 +80,7 @@ See Remarks for <a href="https://docs.microsoft.com/windows/desktop/api/winnls/n
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isnlsdefinedstring">IsNLSDefinedString</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_nlsversioninfoex">NLSVERSIONINFOEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-structures">National Language Support Structures</a>
 

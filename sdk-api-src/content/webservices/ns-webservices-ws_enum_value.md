@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_ENUM_VALUE, WS_ENUM_VALUE structure [Web Services for Windows], webservices/WS_ENUM_VALUE, wsw.ws_enum_value
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_ENUM_VALUE"
+f1_keywords:
+- webservices/WS_ENUM_VALUE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_ENUM_VALUE
+- WS_ENUM_VALUE
 product: Windows
 targetos: Windows
 req.typenames: WS_ENUM_VALUE
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Provides serialization information about a single value that
-                is part of an enumeration (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_enum_description">WS_ENUM_DESCRIPTION</a>).
+                is part of an enumeration (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_enum_description">WS_ENUM_DESCRIPTION</a>).
             
 
 

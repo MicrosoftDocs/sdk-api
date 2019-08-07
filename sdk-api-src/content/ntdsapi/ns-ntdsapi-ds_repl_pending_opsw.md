@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_PENDING_OPS, DS_REPL_PENDING_OPS structure [Active Directory], DS_REPL_PENDING_OPSW, _DS_REPL_PENDING_OPSW, _glines_ds_repl_pending_ops, ad.ds__repl__pending__ops, ad.ds_repl_pending_ops, ntdsapi/DS_REPL_PENDING_OPS
 ms.topic: struct
-f1_keywords: 
- - "ntdsapi/DS_REPL_PENDING_OPS"
+f1_keywords:
+- ntdsapi/DS_REPL_PENDING_OPS
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntdsapi.h
+- Ntdsapi.h
 api_name:
- - DS_REPL_PENDING_OPS
+- DS_REPL_PENDING_OPS
 product: Windows
 targetos: Windows
 req.typenames: DS_REPL_PENDING_OPSW
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DS_REPL_PENDING_OPS</b> structure contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_opw">DS_REPL_OP</a> structures, which in turn describe the replication tasks currently executing and queued to execute, as returned by the 
+The <b>DS_REPL_PENDING_OPS</b> structure contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_opw">DS_REPL_OP</a> structures, which in turn describe the replication tasks currently executing and queued to execute, as returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> functions. The entries in the queue are processed in priority order, and the first entry is the one currently being executed.
 
 
@@ -82,7 +82,7 @@ Contains the number of elements in the <b>rgPendingOps</b> array.
 
 ### -field rgPendingOp
 
-Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_opw">DS_REPL_OP</a> structures that contain the replication tasks currently executing and queued to execute.
+Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_opw">DS_REPL_OP</a> structures that contain the replication tasks currently executing and queued to execute.
 
 
 ## -see-also
@@ -90,7 +90,7 @@ Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntd
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_opw">DS_REPL_OP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_opw">DS_REPL_OP</a>
 
 
 

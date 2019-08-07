@@ -8,10 +8,10 @@ tech.root: power
 ms.assetid: abd2e2c5-1056-4985-ae07-a40d53bb17b1
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PADMINISTRATOR_POWER_POLICY, ADMINISTRATOR_POWER_POLICY, ADMINISTRATOR_POWER_POLICY structure, PADMINISTRATOR_POWER_POLICY, PADMINISTRATOR_POWER_POLICY structure pointer, _ADMINISTRATOR_POWER_POLICY, _win32_administrator_power_policy_str, base.administrator_power_policy_str, winnt/ADMINISTRATOR_POWER_POLICY, winnt/PADMINISTRATOR_POWER_POLICY"
+ms.keywords: '*PADMINISTRATOR_POWER_POLICY, ADMINISTRATOR_POWER_POLICY, ADMINISTRATOR_POWER_POLICY structure, PADMINISTRATOR_POWER_POLICY, PADMINISTRATOR_POWER_POLICY structure pointer, _ADMINISTRATOR_POWER_POLICY, _win32_administrator_power_policy_str, base.administrator_power_policy_str, winnt/ADMINISTRATOR_POWER_POLICY, winnt/PADMINISTRATOR_POWER_POLICY'
 ms.topic: struct
-f1_keywords: 
- - "winnt/ADMINISTRATOR_POWER_POLICY"
+f1_keywords:
+- winnt/ADMINISTRATOR_POWER_POLICY
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - ADMINISTRATOR_POWER_POLICY
+- ADMINISTRATOR_POWER_POLICY
 product: Windows
 targetos: Windows
 req.typenames: ADMINISTRATOR_POWER_POLICY, *PADMINISTRATOR_POWER_POLICY
@@ -62,7 +62,7 @@ Represents the administrator override power policy settings.
 ### -field MinSleep
 
 The minimum system power sleep state. This member must be one of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type values between 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type values between 
       <b>PowerSystemSleeping1</b> (power state S1) and 
       <b>PowerSystemHibernate</b> (power state S4).
 
@@ -70,7 +70,7 @@ The minimum system power sleep state. This member must be one of the
 ### -field MaxSleep
 
 The maximum system power sleep state. This member must be one of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type values between 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type values between 
       <b>PowerSystemSleeping1</b> (power state S1) and 
       <b>PowerSystemHibernate</b> (power state S4).
 

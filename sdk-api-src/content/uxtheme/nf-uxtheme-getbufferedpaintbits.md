@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBufferedPaintBits, GetBufferedPaintBits function [Windows Controls], _shell_GetBufferedPaintBits, _shell_GetBufferedPaintBits_cpp, controls.GetBufferedPaintBits, controls._shell_GetBufferedPaintBits, uxtheme/GetBufferedPaintBits
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetBufferedPaintBits"
+f1_keywords:
+- uxtheme/GetBufferedPaintBits
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
- - xamlpalwp.dll
+- UxTheme.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
+- xamlpalwp.dll
 api_name:
- - GetBufferedPaintBits
+- GetBufferedPaintBits
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -107,7 +107,7 @@ The number of bits per pixel depends on the pixel format passed to <a href="http
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ne-uxtheme-_bp_bufferformat">BP_BUFFERFORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ne-uxtheme-bp_bufferformat">BP_BUFFERFORMAT</a>
 
 
 

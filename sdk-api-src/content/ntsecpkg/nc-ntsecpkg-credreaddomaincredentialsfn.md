@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CREDP_FLAGS_CLEAR_PASSWORD, CREDP_FLAGS_DONT_CACHE_TI, CREDP_FLAGS_IN_PROCESS, CREDP_FLAGS_TRUSTED_CALLER, CREDP_FLAGS_USER_ENCRYPTED_PASSWORD, CREDP_FLAGS_USE_MIDL_HEAP, CredReadDomainCredentialsFn, CredReadDomainCredentialsFn callback, CrediReadDomainCredentials, CrediReadDomainCredentials callback function [Security], ntsecpkg/CrediReadDomainCredentials, security.credireaddomaincredentials
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/CrediReadDomainCredentials"
+f1_keywords:
+- ntsecpkg/CrediReadDomainCredentials
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - CrediReadDomainCredentials
+- CrediReadDomainCredentials
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -145,7 +145,7 @@ The caller is a trusted process.
 
 ### -param TargetInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credential_target_informationa">CREDENTIAL_TARGET_INFORMATION</a> structure that contains information about the target computer.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credential_target_informationa">CREDENTIAL_TARGET_INFORMATION</a> structure that contains information about the target computer.
 
 
 ### -param Flags
@@ -160,12 +160,12 @@ The number of elements in the <i>Credential</i> array.
 
 #### - **Credential [out]
 
-A pointer to a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structures that receive the credentials that this function reads.
+A pointer to a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structures that receive the credentials that this function reads.
 
 
 #### - Credential [out]
 
-A pointer to a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structures that receive the credentials that this function reads.
+A pointer to a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structures that receive the credentials that this function reads.
 
 
 ## -returns
@@ -184,7 +184,7 @@ If the function fails, return an NTSTATUS error code that indicates the reason i
 
 
 A pointer to the <b>CrediReadDomainCredentials</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 

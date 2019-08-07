@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILIsEqual, ILIsEqual function [Windows Shell], _win32_ILIsEqual, shell.ILIsEqual, shlobj_core/ILIsEqual
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/ILIsEqual"
+f1_keywords:
+- shlobj_core/ILIsEqual
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
- - Windows.Storage.dll
- - API-MS-Win-Shell-Namespace-L1-1-0.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Windows.Storage.dll
+- API-MS-Win-Shell-Namespace-L1-1-0.dll
 api_name:
- - ILIsEqual
+- ILIsEqual
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -55,7 +55,7 @@ ms.custom: 19H1
 ## -description
 
 
-Tests whether two <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structures are equal in a binary comparison.
+Tests whether two <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures are equal in a binary comparison.
 
 
 ## -parameters
@@ -67,14 +67,14 @@ Tests whether two <a href="https://docs.microsoft.com/windows/desktop/api/shtype
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-The first <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
+The first <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 
 ### -param pidl2 [in]
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-The second <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
+The second <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -returns
@@ -92,7 +92,7 @@ Returns <b>TRUE</b> if the two structures are equal, <b>FALSE</b> otherwise.
 
 
 
-<b>ILIsEqual</b> performs a binary comparison of the item data. It is possible for two <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structures to differ at the binary level while referring to the same item. <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-compareids">IShellFolder::CompareIDs</a> should be used to perform a non-binary comparison.
+<b>ILIsEqual</b> performs a binary comparison of the item data. It is possible for two <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures to differ at the binary level while referring to the same item. <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-compareids">IShellFolder::CompareIDs</a> should be used to perform a non-binary comparison.
 
 
 

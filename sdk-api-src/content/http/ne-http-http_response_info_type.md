@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 2f85e8dd-1693-4a54-a38f-9b70b2a46361
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_RESPONSE_INFO_TYPE, *PHTTP_RESPONSE_INFO_TYPE enumeration [HTTP], HTTP_RESPONSE_INFO_TYPE, HTTP_RESPONSE_INFO_TYPE enumeration [HTTP], HttpResponseInfoTypeAuthenticationProperty, HttpResponseInfoTypeChannelBind, HttpResponseInfoTypeMultipleKnownHeaders, HttpResponseInfoTypeQosProperty, PHTTP_RESPONSE_INFO_TYPE, http.http_response_info_type, http/*PHTTP_RESPONSE_INFO_TYPE, http/HTTP_RESPONSE_INFO_TYPE, http/HttpResponseInfoTypeAuthenticationProperty, http/HttpResponseInfoTypeChannelBind, http/HttpResponseInfoTypeMultipleKnownHeaders, http/HttpResponseInfoTypeQosProperty"
+ms.keywords: '*PHTTP_RESPONSE_INFO_TYPE, *PHTTP_RESPONSE_INFO_TYPE enumeration [HTTP], HTTP_RESPONSE_INFO_TYPE, HTTP_RESPONSE_INFO_TYPE enumeration [HTTP], HttpResponseInfoTypeAuthenticationProperty, HttpResponseInfoTypeChannelBind, HttpResponseInfoTypeMultipleKnownHeaders, HttpResponseInfoTypeQosProperty, PHTTP_RESPONSE_INFO_TYPE, http.http_response_info_type, http/*PHTTP_RESPONSE_INFO_TYPE, http/HTTP_RESPONSE_INFO_TYPE, http/HttpResponseInfoTypeAuthenticationProperty, http/HttpResponseInfoTypeChannelBind, http/HttpResponseInfoTypeMultipleKnownHeaders, http/HttpResponseInfoTypeQosProperty'
 ms.topic: enum
-f1_keywords: 
- - "http/HTTP_RESPONSE_INFO_TYPE"
+f1_keywords:
+- http/HTTP_RESPONSE_INFO_TYPE
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_RESPONSE_INFO_TYPE
+- HTTP_RESPONSE_INFO_TYPE
 product: Windows
 targetos: Windows
 req.typenames: HTTP_RESPONSE_INFO_TYPE, PHTTP_RESPONSE_INFO_TYPE
@@ -51,9 +51,9 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>HTTP_RESPONSE_INFO_TYPE</b> enumeration defines the type of information contained in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_info">HTTP_RESPONSE_INFO</a> structure.
+The <b>HTTP_RESPONSE_INFO_TYPE</b> enumeration defines the type of information contained in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a> structure.
 
-This enumeration is used  in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_info">HTTP_RESPONSE_INFO</a> structure.
+This enumeration is used  in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a> structure.
 
 
 ## -enum-fields
@@ -65,7 +65,7 @@ This enumeration is used  in the <a href="https://docs.microsoft.com/windows/des
 
 The response information type is authentication.
 
-The <b>pInfo</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_info">HTTP_RESPONSE_INFO</a> structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_multiple_known_headers">HTTP_MULTIPLE_KNOWN_HEADERS</a> structure.
+The <b>pInfo</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a> structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_multiple_known_headers">HTTP_MULTIPLE_KNOWN_HEADERS</a> structure.
 
 
 ### -field HttpResponseInfoTypeAuthenticationProperty
@@ -78,12 +78,12 @@ Reserved for future use.
 
 ### -field HttpResponseInfoTypeChannelBind
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a> structure that contains information on the channel binding token.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a> structure that contains information on the channel binding token.
 
 
 #### - HttpResponseInfoTypeQosProperty
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure that contains information about a QOS setting.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure that contains information about a QOS setting.
 
 
 ## -see-also
@@ -95,7 +95,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-ht
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_info">HTTP_RESPONSE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a>
  
 
  

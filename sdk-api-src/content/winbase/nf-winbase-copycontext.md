@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyContext, CopyContext function, base.copycontext, winbase/CopyContext
 ms.topic: function
-f1_keywords: 
- - "winbase/CopyContext"
+f1_keywords:
+- winbase/CopyContext
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-xstate-l2-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-xstate-l2-1-0.dll
+- KernelBase.dll
 api_name:
- - CopyContext
+- CopyContext
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Copies a source context structure (including any XState) onto an initialized des
 
 ### -param Destination [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure that receives the 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that receives the 
       context copied from the <i>Source</i>. The 
       <b>CONTEXT</b> structure should be initialized by calling 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializecontext">InitializeContext</a> before calling this 
@@ -74,7 +74,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-
 ### -param ContextFlags [in]
 
 Flags specifying the pieces of the <i>Source</i>
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure that will be copied into the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that will be copied into the 
       destination. This must be a subset of the <i>ContextFlags</i> specified when calling 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializecontext">InitializeContext</a> on the 
       <i>Destination</i> <b>CONTEXT</b>.
@@ -82,7 +82,7 @@ Flags specifying the pieces of the <i>Source</i>
 
 ### -param Source [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure from which to copy 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure from which to copy 
       processor context data.
 
 
@@ -102,7 +102,7 @@ This function returns <b>TRUE</b> if the context was copied successfully, otherw
 
 
 The function copies data from the <i>Source</i>
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> over the corresponding data in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> over the corresponding data in the 
      <i>Destination</i> <b>CONTEXT</b>, including 
      extended context if any is present. The <i>Destination</i>
 <b>CONTEXT</b> must have been initialized with 
@@ -134,7 +134,7 @@ The function copies data from the <i>Source</i>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetLineNext, SymGetLineNext function, SymGetLineNext64, SymGetLineNext64 function, SymGetLineNextW64, _win32_symgetlinenext64, base.symgetlinenext64, dbghelp/SymGetLineNext, dbghelp/SymGetLineNext64, dbghelp/SymGetLineNextW64
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymGetLineNext64"
+f1_keywords:
+- dbghelp/SymGetLineNext64
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymGetLineNext64
- - SymGetLineNext64
- - SymGetLineNextW64
- - SymGetLineNext
+- SymGetLineNext64
+- SymGetLineNext64
+- SymGetLineNextW64
+- SymGetLineNext
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ A handle to the process that was originally passed to the
 ### -param Line [in, out]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_line">IMAGEHLP_LINE64</a> structure that contains the line information.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_line">IMAGEHLP_LINE64</a> structure that contains the line information.
 
 
 ## -returns
@@ -92,7 +92,7 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 
 The 
 <b>SymGetLineNext64</b> function requires that the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_line">IMAGEHLP_LINE64</a> structure have valid data, presumably obtained from a call to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_line">IMAGEHLP_LINE64</a> structure have valid data, presumably obtained from a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetlinefromaddr">SymGetLineFromAddr64</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetlinefromname">SymGetLineFromName64</a> function. This structure receives the line information for the next line in sequence.
 
@@ -154,7 +154,7 @@ SymGetLineNextW(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_line">IMAGEHLP_LINE64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_line">IMAGEHLP_LINE64</a>
 
 
 

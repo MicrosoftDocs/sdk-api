@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: fad2bf3d-798c-47d9-bd82-b6fc0deff0aa
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDDBOBNEXTFIELDINFO, DDBOBNEXTFIELDINFO, DDBOBNEXTFIELDINFO structure [Display Devices], PDDBOBNEXTFIELDINFO, PDDBOBNEXTFIELDINFO structure pointer [Display Devices], Video_Structs_39e909e7-7f30-4dd5-8b5c-638f11a836bd.xml, display.ddbobnextfieldinfo, dxmini/DDBOBNEXTFIELDINFO, dxmini/PDDBOBNEXTFIELDINFO"
+ms.keywords: '*PDDBOBNEXTFIELDINFO, DDBOBNEXTFIELDINFO, DDBOBNEXTFIELDINFO structure [Display Devices], PDDBOBNEXTFIELDINFO, PDDBOBNEXTFIELDINFO structure pointer [Display Devices], Video_Structs_39e909e7-7f30-4dd5-8b5c-638f11a836bd.xml, display.ddbobnextfieldinfo, dxmini/DDBOBNEXTFIELDINFO, dxmini/PDDBOBNEXTFIELDINFO'
 ms.topic: struct
-f1_keywords: 
- - "dxmini/DDBOBNEXTFIELDINFO"
+f1_keywords:
+- dxmini/DDBOBNEXTFIELDINFO
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxmini.h
+- dxmini.h
 api_name:
- - DDBOBNEXTFIELDINFO
+- DDBOBNEXTFIELDINFO
 product: Windows
 targetos: Windows
 req.typenames: DDBOBNEXTFIELDINFO, *PDDBOBNEXTFIELDINFO
@@ -61,7 +61,7 @@ The DDBOBNEXTFIELDINFO structure contains the bob information for the surface.
 
 ### -field lpSurface
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddsurfacedata">DDSURFACEDATA</a> structure that represents the surface. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a> structure that represents the surface. 
 
 
 ## -see-also
@@ -69,7 +69,7 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dx
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddsurfacedata">DDSURFACEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a>
 
 
 

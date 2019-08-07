@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WPUCompleteOverlappedRequest, WPUCompleteOverlappedRequest function [Winsock], _win32_wpucompleteoverlappedrequest_2, winsock.wpucompleteoverlappedrequest_2, ws2spi/WPUCompleteOverlappedRequest
 ms.topic: function
-f1_keywords: 
- - "ws2spi/WPUCompleteOverlappedRequest"
+f1_keywords:
+- ws2spi/WPUCompleteOverlappedRequest
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ws2spi.h
+- Ws2spi.h
 api_name:
- - WPUCompleteOverlappedRequest
+- WPUCompleteOverlappedRequest
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The service provider socket created by
 ### -param lpOverlapped [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure associated with the overlapped I/O operation whose completion is to be notified.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure associated with the overlapped I/O operation whose completion is to be notified.
 
 
 ### -param dwError [in]
@@ -94,7 +94,7 @@ A pointer to the error code resulting from execution of this function.
 
 If no error occurs, 
 <b>WPUCompleteOverlappedRequest</b> returns zero and notifies completion of the overlapped I/O operation according to the mechanism selected by the client (signals an event found in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure referenced by <i>lpOverlapped</i> and/or queues a completion status report to the completion port associated with the socket if a completion port is associated). Otherwise, 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure referenced by <i>lpOverlapped</i> and/or queues a completion status report to the completion port associated with the socket if a completion port is associated). Otherwise, 
 <b>WPUCompleteOverlappedRequest</b> returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
 
 
@@ -139,12 +139,12 @@ The function
 
 If the client selects a user-mode APC as the notification method, the service provider should use 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a> or another appropriate operating system function to perform the completion notification. If user-mode APC is not selected by the client, a service provider that does not implement IFS functionality directly cannot determine whether or not the client has associated a completion port with the socket handle. Thus, it cannot determine whether the completion notification method should be queuing a completion status record to a completion port or signaling an event found in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure. The Windows Socket 2 architecture keeps track of any completion port association with a socket created by 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure. The Windows Socket 2 architecture keeps track of any completion port association with a socket created by 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a> and can make a correct decision between completion port-based notification or event-based notification.
 
 When 
 <b>WPUCompleteOverlappedRequest</b> queues a completion indication, it sets the <b>InternalHigh</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure to the count of bytes transferred. Then, it sets the <b>Internal</b> member to some OS-dependent value other than the special value WSS_OPERATION_IN_PROGRESS. There may be some slight delay after 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure to the count of bytes transferred. Then, it sets the <b>Internal</b> member to some OS-dependent value other than the special value WSS_OPERATION_IN_PROGRESS. There may be some slight delay after 
 <b>WPUCompleteOverlappedRequest</b> returns before these values appear, since processing may occur asynchronously. However, the <b>InternalHigh</b> value (byte count) is guaranteed to be set by the time <b>Internal</b> is set.
 
 <b>WPUCompleteOverlappedRequest</b> works as stated (performs the completion notification as requested by the client) whether or not the socket handle has been associated with a completion port.
@@ -154,7 +154,7 @@ When
 The behavior of 
 <b>WPUCompleteOverlappedRequest</b> places some constraints on how a service provider implements 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">WSPGetOverlappedResult</a> since only the <b>Offset</b> and <b>OffsetHigh</b> members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure are exclusively controlled by the service provider, yet three values (byte count, flags, and error) must be retrieved from the structure by 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure are exclusively controlled by the service provider, yet three values (byte count, flags, and error) must be retrieved from the structure by 
 <b>WSPGetOverlappedResult</b>. A service provider may accomplish this any way it chooses as long as it interacts with the behavior of 
 <b>WPUCompleteOverlappedRequest</b> properly. However, a typical implementation is as follows:
 
@@ -183,7 +183,7 @@ The behavior of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a>
 
 
 

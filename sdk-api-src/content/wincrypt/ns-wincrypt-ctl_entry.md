@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: ebc63847-b641-4205-b15c-7b32c1426c21
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCTL_ENTRY, CTL_ENTRY, CTL_ENTRY structure [Security], PCTL_ENTRY, PCTL_ENTRY structure pointer [Security], _crypto2_ctl_entry, security.ctl_entry, wincrypt/CTL_ENTRY, wincrypt/PCTL_ENTRY"
+ms.keywords: '*PCTL_ENTRY, CTL_ENTRY, CTL_ENTRY structure [Security], PCTL_ENTRY, PCTL_ENTRY structure pointer [Security], _crypto2_ctl_entry, security.ctl_entry, wincrypt/CTL_ENTRY, wincrypt/PCTL_ENTRY'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CTL_ENTRY"
+f1_keywords:
+- wincrypt/CTL_ENTRY
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CTL_ENTRY
+- CTL_ENTRY
 product: Windows
 targetos: Windows
 req.typenames: CTL_ENTRY, *PCTL_ENTRY
@@ -88,7 +88,7 @@ Array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_info">CTL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_info">CTL_INFO</a>
  
 
  

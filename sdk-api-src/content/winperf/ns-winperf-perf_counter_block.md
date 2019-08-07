@@ -8,10 +8,10 @@ tech.root: perfctrs
 ms.assetid: 5cff6142-6d71-46a5-a943-3ec91ebac62b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPERF_COUNTER_BLOCK, PERF_COUNTER_BLOCK, PERF_COUNTER_BLOCK structure [Perf], _win32_perf_counter_block_str, base.perf_counter_block_str, perf.perf_counter_block_str, winperf/PERF_COUNTER_BLOCK"
+ms.keywords: '*PPERF_COUNTER_BLOCK, PERF_COUNTER_BLOCK, PERF_COUNTER_BLOCK structure [Perf], _win32_perf_counter_block_str, base.perf_counter_block_str, perf.perf_counter_block_str, winperf/PERF_COUNTER_BLOCK'
 ms.topic: struct
-f1_keywords: 
- - "winperf/PERF_COUNTER_BLOCK"
+f1_keywords:
+- winperf/PERF_COUNTER_BLOCK
 req.header: winperf.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winperf.h
+- Winperf.h
 api_name:
- - PERF_COUNTER_BLOCK
+- PERF_COUNTER_BLOCK
 product: Windows
 targetos: Windows
 req.typenames: PERF_COUNTER_BLOCK, *PPERF_COUNTER_BLOCK
@@ -72,7 +72,7 @@ Size of this structure and the raw counter data that follows, in bytes.
 
 The <b>CounterOffset</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_counter_definition">PERF_COUNTER_DEFINITION</a> provides the offset from the beginning of this structure to the counter value.
 
-The location of the <b>PERF_COUNTER_BLOCK</b> structure within the <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_object_type">PERF_OBJECT_TYPE</a> block depends on if the object contains instances. For details, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>.
+The location of the <b>PERF_COUNTER_BLOCK</b> structure within the <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a> block depends on if the object contains instances. For details, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>.
 
 You must ensure that the size of the counter block is aligned to an 8-byte boundary. For example, if the performance object includes two DWORD counters, you must add an additional four bytes to the counter block to make it aligned to an 8-byte boundary.
 
@@ -92,7 +92,7 @@ You must ensure that the size of the counter block is aligned to an 8-byte bound
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_object_type">PERF_OBJECT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADsPropCheckIfWritable, ADsPropCheckIfWritable function [Active Directory], _glines_adspropcheckifwritable, ad.adspropcheckifwritable, adsprop/ADsPropCheckIfWritable
 ms.topic: function
-f1_keywords: 
- - "adsprop/ADsPropCheckIfWritable"
+f1_keywords:
+- adsprop/ADsPropCheckIfWritable
 req.header: adsprop.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dsprop.lib
 req.dll: Dsprop.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dsprop.dll
+- Dsprop.dll
 api_name:
- - ADsPropCheckIfWritable
+- ADsPropCheckIfWritable
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Pointer to a NULL-terminated <b>WCHAR</b> buffer that contains the name of the a
 
 ### -param pWritableAttrs [in]
 
-Pointer to the array of <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_attr_info">ADS_ATTR_INFO</a> structures returned by <a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-adspropgetinitinfo">ADsPropGetInitInfo</a>.
+Pointer to the array of <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structures returned by <a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-adspropgetinitinfo">ADsPropGetInitInfo</a>.
 
 
 ## -returns
@@ -96,7 +96,7 @@ Do not use this function to verify the write permission for attributes in a mult
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_attr_info">ADS_ATTR_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a>
 
 
 

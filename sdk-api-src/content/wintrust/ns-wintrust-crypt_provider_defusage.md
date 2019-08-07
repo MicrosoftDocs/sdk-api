@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 28A93F39-0CBC-432C-841B-83B54A50EA14
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_PROVIDER_DEFUSAGE, CRYPT_PROVIDER_DEFUSAGE, CRYPT_PROVIDER_DEFUSAGE structure [Security], PCRYPT_PROVIDER_DEFUSAGE, PCRYPT_PROVIDER_DEFUSAGE structure pointer [Security], security.crypt_provider_defusage, wintrust/CRYPT_PROVIDER_DEFUSAGE, wintrust/PCRYPT_PROVIDER_DEFUSAGE"
+ms.keywords: '*PCRYPT_PROVIDER_DEFUSAGE, CRYPT_PROVIDER_DEFUSAGE, CRYPT_PROVIDER_DEFUSAGE structure [Security], PCRYPT_PROVIDER_DEFUSAGE, PCRYPT_PROVIDER_DEFUSAGE structure pointer [Security], security.crypt_provider_defusage, wintrust/CRYPT_PROVIDER_DEFUSAGE, wintrust/PCRYPT_PROVIDER_DEFUSAGE'
 ms.topic: struct
-f1_keywords: 
- - "wintrust/CRYPT_PROVIDER_DEFUSAGE"
+f1_keywords:
+- wintrust/CRYPT_PROVIDER_DEFUSAGE
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wintrust.h
+- Wintrust.h
 api_name:
- - CRYPT_PROVIDER_DEFUSAGE
+- CRYPT_PROVIDER_DEFUSAGE
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_PROVIDER_DEFUSAGE, *PCRYPT_PROVIDER_DEFUSAGE
@@ -84,7 +84,7 @@ Pointer to a data buffer used to pass subject interface package (SIP) specific d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_regdefusage">CRYPT_PROVIDER_REGDEFUSAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_regdefusage">CRYPT_PROVIDER_REGDEFUSAGE</a>
 
 
 

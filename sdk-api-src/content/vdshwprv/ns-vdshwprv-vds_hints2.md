@@ -8,10 +8,10 @@ tech.root: VDS
 ms.assetid: e24935ac-17c8-4338-99cb-2408ca61da8a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVDS_HINTS2, PVDS_HINTS2, PVDS_HINTS2 structure pointer, VDS_HINTS2, VDS_HINTS2 structure, VDS_HINT_ALLOCATEHOTSPARE, VDS_HINT_BUSTYPE, VDS_HINT_CONSISTENCYCHECKENABLED, VDS_HINT_FASTCRASHRECOVERYREQUIRED, VDS_HINT_HARDWARECHECKSUMENABLED, VDS_HINT_ISYANKABLE, VDS_HINT_MEDIASCANENABLED, VDS_HINT_MOSTLYREADS, VDS_HINT_OPTIMIZEFORSEQUENTIALREADS, VDS_HINT_OPTIMIZEFORSEQUENTIALWRITES, VDS_HINT_READBACKVERIFYENABLED, VDS_HINT_READCACHINGENABLED, VDS_HINT_REMAPENABLED, VDS_HINT_USEMIRROREDCACHE, VDS_HINT_WRITECACHINGENABLED, VDS_HINT_WRITETHROUGHCACHINGENABLED, base.vds_hints2, vds/PVDS_HINTS2, vds/VDS_HINTS2, vdshwprv/PVDS_HINTS2, vdshwprv/VDS_HINTS2"
+ms.keywords: '*PVDS_HINTS2, PVDS_HINTS2, PVDS_HINTS2 structure pointer, VDS_HINTS2, VDS_HINTS2 structure, VDS_HINT_ALLOCATEHOTSPARE, VDS_HINT_BUSTYPE, VDS_HINT_CONSISTENCYCHECKENABLED, VDS_HINT_FASTCRASHRECOVERYREQUIRED, VDS_HINT_HARDWARECHECKSUMENABLED, VDS_HINT_ISYANKABLE, VDS_HINT_MEDIASCANENABLED, VDS_HINT_MOSTLYREADS, VDS_HINT_OPTIMIZEFORSEQUENTIALREADS, VDS_HINT_OPTIMIZEFORSEQUENTIALWRITES, VDS_HINT_READBACKVERIFYENABLED, VDS_HINT_READCACHINGENABLED, VDS_HINT_REMAPENABLED, VDS_HINT_USEMIRROREDCACHE, VDS_HINT_WRITECACHINGENABLED, VDS_HINT_WRITETHROUGHCACHINGENABLED, base.vds_hints2, vds/PVDS_HINTS2, vds/VDS_HINTS2, vdshwprv/PVDS_HINTS2, vdshwprv/VDS_HINTS2'
 ms.topic: struct
-f1_keywords: 
- - "vdshwprv/VDS_HINTS2"
+f1_keywords:
+- vdshwprv/VDS_HINTS2
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_HINTS2
+- VDS_HINTS2
 product: Windows
 targetos: Windows
 req.typenames: VDS_HINTS2, *PVDS_HINTS2
@@ -182,7 +182,7 @@ The provider configures the LUN so that the drives that contribute to it can be 
 </dl>
 </td>
 <td width="60%">
-The provider allocates a hot spare for the LUN. For more information, see <a href="https://docs.microsoft.com/windows/desktop/VDS/hot-sparing">Hot Sparing</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_drive_flag">VDS_DRIVE_FLAG</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_disk_flag">VDS_DISK_FLAG</a>.
+The provider allocates a hot spare for the LUN. For more information, see <a href="https://docs.microsoft.com/windows/desktop/VDS/hot-sparing">Hot Sparing</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_drive_flag">VDS_DRIVE_FLAG</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_disk_flag">VDS_DISK_FLAG</a>.
 
 </td>
 </tr>
@@ -204,7 +204,7 @@ The provider uses the specified bus type on the LUN. For more information, see <
 </dl>
 </td>
 <td width="60%">
-The provider uses a mirrored cache on the LUN. See the <b>VDS_SF_SUPPORTS_MIRRORED_CACHE</b>  value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_sub_system_flag">VDS_SUB_SYSTEM_FLAG</a> enumeration.
+The provider uses a mirrored cache on the LUN. See the <b>VDS_SF_SUPPORTS_MIRRORED_CACHE</b>  value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_sub_system_flag">VDS_SUB_SYSTEM_FLAG</a> enumeration.
 
 </td>
 </tr>
@@ -215,7 +215,7 @@ The provider uses a mirrored cache on the LUN. See the <b>VDS_SF_SUPPORTS_MIRROR
 </dl>
 </td>
 <td width="60%">
-The provider enables read caching on the LUN. See the <b>VDS_LF_READ_CACHE_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_flag">VDS_LUN_FLAG</a>  enumeration and the <b>VDS_SF_READ_CACHING_CAPABLE</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_sub_system_flag">VDS_SUB_SYSTEM_FLAG</a> enumeration.
+The provider enables read caching on the LUN. See the <b>VDS_LF_READ_CACHE_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_flag">VDS_LUN_FLAG</a>  enumeration and the <b>VDS_SF_READ_CACHING_CAPABLE</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_sub_system_flag">VDS_SUB_SYSTEM_FLAG</a> enumeration.
 
 </td>
 </tr>
@@ -226,7 +226,7 @@ The provider enables read caching on the LUN. See the <b>VDS_LF_READ_CACHE_ENABL
 </dl>
 </td>
 <td width="60%">
-The provider enables write caching on the LUN. See the <b>VDS_LF_WRITE_CACHE_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_flag">VDS_LUN_FLAG</a>  enumeration and the <b>VDS_SF_WRITE_CACHING_CAPABLE</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_sub_system_flag">VDS_SUB_SYSTEM_FLAG</a> enumeration.
+The provider enables write caching on the LUN. See the <b>VDS_LF_WRITE_CACHE_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_flag">VDS_LUN_FLAG</a>  enumeration and the <b>VDS_SF_WRITE_CACHING_CAPABLE</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_sub_system_flag">VDS_SUB_SYSTEM_FLAG</a> enumeration.
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ The provider enables write caching on the LUN. See the <b>VDS_LF_WRITE_CACHE_ENA
 </dl>
 </td>
 <td width="60%">
-The provider enables media scanning on the LUN. See the <b>VDS_LF_MEDIA_SCAN_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_flag">VDS_LUN_FLAG</a>  enumeration and the <b>VDS_SF_MEDIA_SCAN_CAPABLE</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_sub_system_flag">VDS_SUB_SYSTEM_FLAG</a> enumeration.
+The provider enables media scanning on the LUN. See the <b>VDS_LF_MEDIA_SCAN_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_flag">VDS_LUN_FLAG</a>  enumeration and the <b>VDS_SF_MEDIA_SCAN_CAPABLE</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_sub_system_flag">VDS_SUB_SYSTEM_FLAG</a> enumeration.
 
 </td>
 </tr>
@@ -248,7 +248,7 @@ The provider enables media scanning on the LUN. See the <b>VDS_LF_MEDIA_SCAN_ENA
 </dl>
 </td>
 <td width="60%">
-The provider enables consistency checking on the LUN. See the <b>VDS_LF_CONSISTENCY_CHECK_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_flag">VDS_LUN_FLAG</a>  enumeration and the <b>VDS_SF_CONSISTENCY_CHECK_CAPABLE</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_sub_system_flag">VDS_SUB_SYSTEM_FLAG</a> enumeration.
+The provider enables consistency checking on the LUN. See the <b>VDS_LF_CONSISTENCY_CHECK_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_flag">VDS_LUN_FLAG</a>  enumeration and the <b>VDS_SF_CONSISTENCY_CHECK_CAPABLE</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_sub_system_flag">VDS_SUB_SYSTEM_FLAG</a> enumeration.
 
 </td>
 </tr>

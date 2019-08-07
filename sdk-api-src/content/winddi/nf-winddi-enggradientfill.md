@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngGradientFill, EngGradientFill function [Display Devices], display.enggradientfill, gdifncs_7f0502d6-5e1b-4780-9e59-3bbddf29d7c7.xml, winddi/EngGradientFill
 ms.topic: function
-f1_keywords: 
- - "winddi/EngGradientFill"
+f1_keywords:
+- winddi/EngGradientFill
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngGradientFill
+- EngGradientFill
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>EngGradientFill</b> function shades the specified primitives.
 
 ### -param psoDest
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure that identifies the surface on which to draw.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that identifies the surface on which to draw.
 
 
 ### -param pco

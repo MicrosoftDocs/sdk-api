@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RESPONSEBODY_GetMetadata, RESPONSEBODY_GetMetadata structure, ncd.responsebody_getmetadata_struct, wsdtypes/RESPONSEBODY_GetMetadata
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/RESPONSEBODY_GetMetadata"
+f1_keywords:
+- wsdtypes/RESPONSEBODY_GetMetadata
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - RESPONSEBODY_GetMetadata
+- RESPONSEBODY_GetMetadata
 product: Windows
 targetos: Windows
 req.typenames: RESPONSEBODY_GetMetadata
@@ -61,5 +61,5 @@ Represents a WS-MetadataExchange GetMetadata response message.
 
 ### -field Metadata
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_metadata_section_list">WSD_METADATA_SECTION_LIST</a> structure that contains a node in a single-linked list of metadata sections.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_metadata_section_list">WSD_METADATA_SECTION_LIST</a> structure that contains a node in a single-linked list of metadata sections.
 

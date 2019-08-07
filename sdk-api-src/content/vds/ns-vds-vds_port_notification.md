@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_NF_PORT_ARRIVE, VDS_NF_PORT_DEPART, VDS_NF_PORT_MODIFY, VDS_NF_PORT_REMOVED, VDS_PORT_NOTIFICATION, VDS_PORT_NOTIFICATION structure [VDS], base.vds_port_notification, vds/_VDS_PORT_NOTIFICATION, vdshwprv/_VDS_PORT_NOTIFICATION
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_PORT_NOTIFICATION"
+f1_keywords:
+- vds/VDS_PORT_NOTIFICATION
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_PORT_NOTIFICATION
+- VDS_PORT_NOTIFICATION
 product: Windows
 targetos: Windows
 req.typenames: VDS_PORT_NOTIFICATION
@@ -80,7 +80,7 @@ Determines the controller port event for which an application will be notified, 
 </td>
 <td width="60%">
 A controller port is reported as physically present on the subsystem. 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_port_status">VDS_PORT_STATUS</a> value associated with this notification should be any value except <b>VDS_PRS_REMOVED</b>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_port_status">VDS_PORT_STATUS</a> value associated with this notification should be any value except <b>VDS_PRS_REMOVED</b>.
 
 
 </td>
@@ -92,7 +92,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv
 </dl>
 </td>
 <td width="60%">
-A controller, and therefore its port, were physically unplugged from the subsystem. The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_port_status">VDS_PORT_STATUS</a> value should be <b>VDS_PRS_UNKNOWN</b> or <b>VDS_PRS_REMOVED</b>.
+A controller, and therefore its port, were physically unplugged from the subsystem. The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_port_status">VDS_PORT_STATUS</a> value should be <b>VDS_PRS_UNKNOWN</b> or <b>VDS_PRS_REMOVED</b>.
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ A member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv
 </dl>
 </td>
 <td width="60%">
-A controller port is physically present but not available for use. For example, either the controller or the port itself is set to inactive. The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_port_status">VDS_PORT_STATUS</a> value should be <b>VDS_PRS_FAILED</b>  (removed from use because of failure), <b>VDS_PRS_OFFLINE</b>  (not failed, but not in use either), <b>VDS_PRS_NOT_READY</b>, or <b>VDS_PRS_UNKNOWN</b>.
+A controller port is physically present but not available for use. For example, either the controller or the port itself is set to inactive. The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_port_status">VDS_PORT_STATUS</a> value should be <b>VDS_PRS_FAILED</b>  (removed from use because of failure), <b>VDS_PRS_OFFLINE</b>  (not failed, but not in use either), <b>VDS_PRS_NOT_READY</b>, or <b>VDS_PRS_UNKNOWN</b>.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003 R2:  </b>This value is not supported.
 

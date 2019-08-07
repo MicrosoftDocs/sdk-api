@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: c8bf5b8d-6cb1-469d-a451-6cceafda24cf
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PLSA_TOKEN_INFORMATION_TYPE, LSA_TOKEN_INFORMATION_TYPE, LSA_TOKEN_INFORMATION_TYPE enumeration [Security], LsaTokenInformationNull, LsaTokenInformationV1, PLSA_TOKEN_INFORMATION_TYPE, PLSA_TOKEN_INFORMATION_TYPE enumeration pointer [Security], _lsa_lsa_token_information_type, ntsecpkg/LSA_TOKEN_INFORMATION_TYPE, ntsecpkg/LsaTokenInformationNull, ntsecpkg/LsaTokenInformationV1, ntsecpkg/PLSA_TOKEN_INFORMATION_TYPE, security.lsa_token_information_type"
+ms.keywords: '*PLSA_TOKEN_INFORMATION_TYPE, LSA_TOKEN_INFORMATION_TYPE, LSA_TOKEN_INFORMATION_TYPE enumeration [Security], LsaTokenInformationNull, LsaTokenInformationV1, PLSA_TOKEN_INFORMATION_TYPE, PLSA_TOKEN_INFORMATION_TYPE enumeration pointer [Security], _lsa_lsa_token_information_type, ntsecpkg/LSA_TOKEN_INFORMATION_TYPE, ntsecpkg/LsaTokenInformationNull, ntsecpkg/LsaTokenInformationV1, ntsecpkg/PLSA_TOKEN_INFORMATION_TYPE, security.lsa_token_information_type'
 ms.topic: enum
-f1_keywords: 
- - "ntsecpkg/LSA_TOKEN_INFORMATION_TYPE"
+f1_keywords:
+- ntsecpkg/LSA_TOKEN_INFORMATION_TYPE
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - LSA_TOKEN_INFORMATION_TYPE
+- LSA_TOKEN_INFORMATION_TYPE
 product: Windows
 targetos: Windows
 req.typenames: LSA_TOKEN_INFORMATION_TYPE, *PLSA_TOKEN_INFORMATION_TYPE
@@ -67,7 +67,7 @@ When the LSA calls either
 ### -field LsaTokenInformationNull
 
 The token information is stored in an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_token_information_null">LSA_TOKEN_INFORMATION_NULL</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_token_information_null">LSA_TOKEN_INFORMATION_NULL</a> structure. 
 
 
 

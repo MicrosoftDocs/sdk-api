@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6253f4d6-0436-c772-ce0d-4feca20bce47, D3D10_SHADER_DEBUG_REGTYPE, D3D10_SHADER_DEBUG_REGTYPE enumeration [Direct3D 10], D3D10_SHADER_DEBUG_REG_CBUFFER, D3D10_SHADER_DEBUG_REG_FORCE_DWORD, D3D10_SHADER_DEBUG_REG_IMMEDIATECBUFFER, D3D10_SHADER_DEBUG_REG_INPUT, D3D10_SHADER_DEBUG_REG_LITERAL, D3D10_SHADER_DEBUG_REG_OUTPUT, D3D10_SHADER_DEBUG_REG_SAMPLER, D3D10_SHADER_DEBUG_REG_TBUFFER, D3D10_SHADER_DEBUG_REG_TEMP, D3D10_SHADER_DEBUG_REG_TEMPARRAY, D3D10_SHADER_DEBUG_REG_TEXTURE, D3D10_SHADER_DEBUG_REG_UNUSED, D3D11_SHADER_DEBUG_REG_INTERFACE_POINTERS, D3D11_SHADER_DEBUG_REG_UAV, d3d10_1shader/D3D10_SHADER_DEBUG_REGTYPE, d3d10_1shader/D3D10_SHADER_DEBUG_REG_CBUFFER, d3d10_1shader/D3D10_SHADER_DEBUG_REG_FORCE_DWORD, d3d10_1shader/D3D10_SHADER_DEBUG_REG_IMMEDIATECBUFFER, d3d10_1shader/D3D10_SHADER_DEBUG_REG_INPUT, d3d10_1shader/D3D10_SHADER_DEBUG_REG_LITERAL, d3d10_1shader/D3D10_SHADER_DEBUG_REG_OUTPUT, d3d10_1shader/D3D10_SHADER_DEBUG_REG_SAMPLER, d3d10_1shader/D3D10_SHADER_DEBUG_REG_TBUFFER, d3d10_1shader/D3D10_SHADER_DEBUG_REG_TEMP, d3d10_1shader/D3D10_SHADER_DEBUG_REG_TEMPARRAY, d3d10_1shader/D3D10_SHADER_DEBUG_REG_TEXTURE, d3d10_1shader/D3D10_SHADER_DEBUG_REG_UNUSED, d3d10_1shader/D3D11_SHADER_DEBUG_REG_INTERFACE_POINTERS, d3d10_1shader/D3D11_SHADER_DEBUG_REG_UAV, direct3d10.d3d10_shader_debug_regtype
 ms.topic: enum
-f1_keywords: 
- - "d3d10_1shader/D3D10_SHADER_DEBUG_REGTYPE"
+f1_keywords:
+- d3d10_1shader/D3D10_SHADER_DEBUG_REGTYPE
 req.header: d3d10_1shader.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10_1Shader.h
+- D3D10_1Shader.h
 api_name:
- - D3D10_SHADER_DEBUG_REGTYPE
+- D3D10_SHADER_DEBUG_REGTYPE
 product: Windows
 targetos: Windows
 req.typenames: D3D10_SHADER_DEBUG_REGTYPE
@@ -134,7 +134,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 The <b>D3D10_SHADER_DEBUG_REGTYPE</b> enumeration is used to specify register types 
-  in <a href="https://docs.microsoft.com/windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_outputreg_info">D3D10_SHADER_DEBUG_INPUT_INFO</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-_d3d10_shader_debug_outputreg_info">D3D10_SHADER_DEBUG_OUTPUTREG_INFO</a>.
+  in <a href="https://docs.microsoft.com/windows/win32/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_outputreg_info">D3D10_SHADER_DEBUG_INPUT_INFO</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-d3d10_shader_debug_outputreg_info">D3D10_SHADER_DEBUG_OUTPUTREG_INFO</a>.
 
 
 

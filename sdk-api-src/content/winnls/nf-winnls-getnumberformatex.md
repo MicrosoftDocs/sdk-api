@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumberFormatEx, GetNumberFormatEx function [Internationalization for Windows Applications], _win32_GetNumberFormatEx, intl.getnumberformatex, winnls/GetNumberFormatEx
 ms.topic: function
-f1_keywords: 
- - "winnls/GetNumberFormatEx"
+f1_keywords:
+- winnls/GetNumberFormatEx
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l2-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l2-1-0.dll
+- KernelBase.dll
 api_name:
- - GetNumberFormatEx
+- GetNumberFormatEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -100,7 +100,7 @@ Pointer to a null-terminated string containing the number string to format. This
 
 ### -param lpFormat [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_numberfmta">NUMBERFMT</a> structure that contains number formatting information, with all members set to appropriate values. If the application does not set this parameter to <b>NULL</b>, the function uses the locale only for formatting information not specified in the structure, for example, the locale string value for the negative sign.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-numberfmta">NUMBERFMT</a> structure that contains number formatting information, with all members set to appropriate values. If the application does not set this parameter to <b>NULL</b>, the function uses the locale only for formatting information not specified in the structure, for example, the locale string value for the negative sign.
 
 
 ### -param lpNumberStr [out, optional]
@@ -148,7 +148,7 @@ The function returns 0 if it does not succeed. To get extended error information
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_numberfmta">NUMBERFMT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-numberfmta">NUMBERFMT</a>
 
 
 

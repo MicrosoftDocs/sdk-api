@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: E9AAE295-091C-4DF4-9EBD-0B8AD6C48F9C
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure pointer [Files], STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure [Files], fs.storage_device_io_capability_descriptor, winioctl/PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, winioctl/STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR"
+ms.keywords: '*PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure pointer [Files], STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure [Files], fs.storage_device_io_capability_descriptor, winioctl/PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, winioctl/STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR"
+f1_keywords:
+- winioctl/STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winioctl.h
+- winioctl.h
 api_name:
- - STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
+- STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, *PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The output buffer for the StorageDeviceIoCapabilityProperty as defined in <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_property_id">STORAGE_PROPERTY_ID</a>.
+The output buffer for the StorageDeviceIoCapabilityProperty as defined in <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_property_id">STORAGE_PROPERTY_ID</a>.
 
 
 ## -struct-fields

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RESIZE_VIRTUAL_DISK_FLAG, RESIZE_VIRTUAL_DISK_FLAG enumeration [Virtual Storage], RESIZE_VIRTUAL_DISK_FLAG_ALLOW_UNSAFE_VIRTUAL_SIZE, RESIZE_VIRTUAL_DISK_FLAG_NONE, RESIZE_VIRTUAL_DISK_FLAG_RESIZE_TO_SMALLEST_SAFE_VIRTUAL_SIZE, virtdisk/RESIZE_VIRTUAL_DISK_FLAG, virtdisk/RESIZE_VIRTUAL_DISK_FLAG_ALLOW_UNSAFE_VIRTUAL_SIZE, virtdisk/RESIZE_VIRTUAL_DISK_FLAG_NONE, virtdisk/RESIZE_VIRTUAL_DISK_FLAG_RESIZE_TO_SMALLEST_SAFE_VIRTUAL_SIZE, vstor.resize_virtual_disk_flag
 ms.topic: enum
-f1_keywords: 
- - "virtdisk/RESIZE_VIRTUAL_DISK_FLAG"
+f1_keywords:
+- virtdisk/RESIZE_VIRTUAL_DISK_FLAG
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VirtDisk.h
+- VirtDisk.h
 api_name:
- - RESIZE_VIRTUAL_DISK_FLAG
+- RESIZE_VIRTUAL_DISK_FLAG
 product: Windows
 targetos: Windows
 req.typenames: RESIZE_VIRTUAL_DISK_FLAG
@@ -75,7 +75,7 @@ If this flag is set, skip checking the virtual disk's partition table to ensure 
 
 If this flag is set, resize the disk to the smallest virtual size possible without truncating past any 
       existing partitions. If this is set, the <b>NewSize</b> member in the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ns-virtdisk-_resize_virtual_disk_parameters">RESIZE_VIRTUAL_DISK_PARAMETERS</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ns-virtdisk-resize_virtual_disk_parameters">RESIZE_VIRTUAL_DISK_PARAMETERS</a> 
       structure must be zero.
 
 
@@ -84,7 +84,7 @@ If this flag is set, resize the disk to the smallest virtual size possible witho
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ns-virtdisk-_resize_virtual_disk_parameters">RESIZE_VIRTUAL_DISK_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ns-virtdisk-resize_virtual_disk_parameters">RESIZE_VIRTUAL_DISK_PARAMETERS</a>
 
 
 

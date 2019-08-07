@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_DEFAULT_VALUE, WS_DEFAULT_VALUE structure [Web Services for Windows], webservices/WS_DEFAULT_VALUE, wsw.ws_default_value
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_DEFAULT_VALUE"
+f1_keywords:
+- webservices/WS_DEFAULT_VALUE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_DEFAULT_VALUE
+- WS_DEFAULT_VALUE
 product: Windows
 targetos: Windows
 req.typenames: WS_DEFAULT_VALUE
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Defines a default value for a field.  This is used
-                in a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
+                in a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
             
 
 

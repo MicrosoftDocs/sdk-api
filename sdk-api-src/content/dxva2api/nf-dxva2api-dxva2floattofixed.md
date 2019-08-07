@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2537e691-2137-4e4b-90a0-6749a6ceb144, DXVA2FloatToFixed, DXVA2FloatToFixed function [Media Foundation], dxva2api/DXVA2FloatToFixed, mf.dxva2floattofixed
 ms.topic: function
-f1_keywords: 
- - "dxva2api/DXVA2FloatToFixed"
+f1_keywords:
+- dxva2api/DXVA2FloatToFixed
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - DXVA2FloatToFixed
+- DXVA2FloatToFixed
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-Converts a floating-point number to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_fixed32">DXVA2_Fixed32</a> value.
+Converts a floating-point number to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_fixed32">DXVA2_Fixed32</a> value.
 
 
 
@@ -71,7 +71,7 @@ Floating-point number to convert to a fixed-point value.
 
 
 
-The function returns a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_fixed32">DXVA2_Fixed32</a> structure that contains the converted fixed-point value.
+The function returns a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_fixed32">DXVA2_Fixed32</a> structure that contains the converted fixed-point value.
 
 
 

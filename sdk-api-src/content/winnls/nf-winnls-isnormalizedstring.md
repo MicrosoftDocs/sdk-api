@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsNormalizedString, IsNormalizedString function [Internationalization for Windows Applications], _win32_IsNormalizedString, intl.isnormalizedstring, winnls/IsNormalizedString
 ms.topic: function
-f1_keywords: 
- - "winnls/IsNormalizedString"
+f1_keywords:
+- winnls/IsNormalizedString
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: Normaliz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Normaliz.dll
- - API-MS-Win-Core-normalization-l1-1-0.dll
- - KernelBase.dll
+- Normaliz.dll
+- API-MS-Win-Core-normalization-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - IsNormalizedString
+- IsNormalizedString
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Verifies that a string is normalized according to Unicode 4.0 TR#15. For more in
 
 ### -param NormForm [in]
 
-Normalization form to use. <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-_norm_form">NORM_FORM</a> specifies the standard Unicode normalization forms.
+Normalization form to use. <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-norm_form">NORM_FORM</a> specifies the standard Unicode normalization forms.
 
 
 ### -param lpString [in]
@@ -115,7 +115,7 @@ An example showing the use of this function can be found in <a href="https://doc
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-_norm_form">NORM_FORM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-norm_form">NORM_FORM</a>
 
 
 

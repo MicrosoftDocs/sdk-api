@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SP_COPY_DELETESOURCE, SP_COPY_FORCE_IN_USE, SP_COPY_FORCE_NEWER, SP_COPY_FORCE_NOOVERWRITE, SP_COPY_LANGUAGEAWARE, SP_COPY_NEWER_ONLY, SP_COPY_NEWER_OR_SAME, SP_COPY_NODECOMP, SP_COPY_NOOVERWRITE, SP_COPY_REPLACEONLY, SP_COPY_SOURCEPATH_ABSOLUTE, SP_COPY_SOURCE_ABSOLUTE, SetupInstallFile, SetupInstallFile function [Setup API], SetupInstallFileA, SetupInstallFileW, _setupapi_setupinstallfile, setup.setupinstallfile, setupapi/SetupInstallFile, setupapi/SetupInstallFileA, setupapi/SetupInstallFileW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupInstallFile"
+f1_keywords:
+- setupapi/SetupInstallFile
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupInstallFile
- - SetupInstallFileA
- - SetupInstallFileW
+- SetupInstallFile
+- SetupInstallFileA
+- SetupInstallFileW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 The 
 <b>SetupInstallFile</b> function installs a file as specified either by an 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_infcontext">INFCONTEXT</a> returned by SetupFindXXXLine or explicitly by  the file name and path.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-infcontext">INFCONTEXT</a> returned by SetupFindXXXLine or explicitly by  the file name and path.
 
 If a file is copied, the caller of this function must have write privileges into the target directory.
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Device_ID_List, CM_Get_Device_ID_List function [Device and Driver Installation], CM_Get_Device_ID_ListA, CM_Get_Device_ID_ListW, cfgmgr32/CM_Get_Device_ID_List, cfgmgr32/CM_Get_Device_ID_ListA, cfgmgr32/CM_Get_Device_ID_ListW, cfgmgrfn_e9f614d2-9bac-4b30-b9a0-f0764e37950b.xml, devinst.cm_get_device_id_list
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_Device_ID_List"
+f1_keywords:
+- cfgmgr32/CM_Get_Device_ID_List
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -30,18 +30,18 @@ req.lib: Cfgmgr32.lib
 req.dll: CfgMgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CfgMgr32.dll
- - API-MS-Win-Devices-Config-L1-1-0.dll
- - API-MS-Win-Devices-Config-L1-1-1.dll
+- CfgMgr32.dll
+- API-MS-Win-Devices-Config-L1-1-0.dll
+- API-MS-Win-Devices-Config-L1-1-1.dll
 api_name:
- - CM_Get_Device_ID_List
- - CM_Get_Device_ID_ListA
- - CM_Get_Device_ID_ListW
+- CM_Get_Device_ID_List
+- CM_Get_Device_ID_ListA
+- CM_Get_Device_ID_ListW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -94,7 +94,7 @@ If this flag is set, <i>pszFilter</i> must specify a device instance identifier.
 
 #### CM_GETIDLIST_FILTER_CLASS (Windows 7 and later versions of Windows)
 
-If this flag is set, <i>pszFilter</i> contains a string that specifies a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a> GUID. The returned list contains device instances for which the property (referenced by the CM_DRP_CLASSGUID constant) matches the specified device setup class GUID. 
+If this flag is set, <i>pszFilter</i> contains a string that specifies a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> GUID. The returned list contains device instances for which the property (referenced by the CM_DRP_CLASSGUID constant) matches the specified device setup class GUID. 
 
 The CM_DRP_CLASSGUID constant is defined in <i>Cfgmgr32.h</i>.
 

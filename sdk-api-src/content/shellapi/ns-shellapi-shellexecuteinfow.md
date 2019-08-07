@@ -8,10 +8,10 @@ tech.root: shell
 ms.assetid: 50e0dac3-b5dc-4d9f-8fd7-3a53a428166b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSHELLEXECUTEINFOW, LPSHELLEXECUTEINFO, LPSHELLEXECUTEINFO structure pointer [Windows Shell], SEE_MASK_ASYNCOK, SEE_MASK_CLASSKEY, SEE_MASK_CLASSNAME, SEE_MASK_CONNECTNETDRV, SEE_MASK_DEFAULT, SEE_MASK_DOENVSUBST, SEE_MASK_FLAG_DDEWAIT, SEE_MASK_FLAG_HINST_IS_SITE, SEE_MASK_FLAG_LOG_USAGE, SEE_MASK_FLAG_NO_UI, SEE_MASK_HMONITOR, SEE_MASK_HOTKEY, SEE_MASK_ICON, SEE_MASK_IDLIST, SEE_MASK_INVOKEIDLIST, SEE_MASK_NOASYNC, SEE_MASK_NOCLOSEPROCESS, SEE_MASK_NOQUERYCLASSSTORE, SEE_MASK_NOZONECHECKS, SEE_MASK_NO_CONSOLE, SEE_MASK_UNICODE, SEE_MASK_WAITFORINPUTIDLE, SE_ERR_ACCESSDENIED, SE_ERR_ASSOCINCOMPLETE, SE_ERR_DDEBUSY, SE_ERR_DDEFAIL, SE_ERR_DDETIMEOUT, SE_ERR_DLLNOTFOUND, SE_ERR_FNF, SE_ERR_NOASSOC, SE_ERR_OOM, SE_ERR_PNF, SE_ERR_SHARE, SHELLEXECUTEINFO, SHELLEXECUTEINFO structure [Windows Shell], SHELLEXECUTEINFOW, _SHELLEXECUTEINFOA, _SHELLEXECUTEINFOW, _win32_SHELLEXECUTEINFO, edit, explore, find, open, print, properties, shell.SHELLEXECUTEINFO, shellapi/LPSHELLEXECUTEINFO, shellapi/SHELLEXECUTEINFO"
+ms.keywords: '*LPSHELLEXECUTEINFOW, LPSHELLEXECUTEINFO, LPSHELLEXECUTEINFO structure pointer [Windows Shell], SEE_MASK_ASYNCOK, SEE_MASK_CLASSKEY, SEE_MASK_CLASSNAME, SEE_MASK_CONNECTNETDRV, SEE_MASK_DEFAULT, SEE_MASK_DOENVSUBST, SEE_MASK_FLAG_DDEWAIT, SEE_MASK_FLAG_HINST_IS_SITE, SEE_MASK_FLAG_LOG_USAGE, SEE_MASK_FLAG_NO_UI, SEE_MASK_HMONITOR, SEE_MASK_HOTKEY, SEE_MASK_ICON, SEE_MASK_IDLIST, SEE_MASK_INVOKEIDLIST, SEE_MASK_NOASYNC, SEE_MASK_NOCLOSEPROCESS, SEE_MASK_NOQUERYCLASSSTORE, SEE_MASK_NOZONECHECKS, SEE_MASK_NO_CONSOLE, SEE_MASK_UNICODE, SEE_MASK_WAITFORINPUTIDLE, SE_ERR_ACCESSDENIED, SE_ERR_ASSOCINCOMPLETE, SE_ERR_DDEBUSY, SE_ERR_DDEFAIL, SE_ERR_DDETIMEOUT, SE_ERR_DLLNOTFOUND, SE_ERR_FNF, SE_ERR_NOASSOC, SE_ERR_OOM, SE_ERR_PNF, SE_ERR_SHARE, SHELLEXECUTEINFO, SHELLEXECUTEINFO structure [Windows Shell], SHELLEXECUTEINFOW, _SHELLEXECUTEINFOA, _SHELLEXECUTEINFOW, _win32_SHELLEXECUTEINFO, edit, explore, find, open, print, properties, shell.SHELLEXECUTEINFO, shellapi/LPSHELLEXECUTEINFO, shellapi/SHELLEXECUTEINFO'
 ms.topic: struct
-f1_keywords: 
- - "shellapi/SHELLEXECUTEINFO"
+f1_keywords:
+- shellapi/SHELLEXECUTEINFO
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shellapi.h
+- Shellapi.h
 api_name:
- - SHELLEXECUTEINFO
+- SHELLEXECUTEINFO
 product: Windows
 targetos: Windows
 req.typenames: SHELLEXECUTEINFOW, *LPSHELLEXECUTEINFOW
@@ -94,7 +94,7 @@ Use the class key given by the <b>hkeyClass</b> member. If both SEE_MASK_CLASSKE
 
 #### SEE_MASK_IDLIST (0x00000004)
 
-Use the item identifier list given by the <b>lpIDList</b> member. The <b>lpIDList</b> member must point to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
+Use the item identifier list given by the <b>lpIDList</b> member. The <b>lpIDList</b> member must point to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 
 
@@ -378,7 +378,7 @@ File association not available.
 
 Type: <b>LPVOID</b>
 
-The address of an absolute <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure (PCIDLIST_ABSOLUTE) to contain an item identifier list that uniquely identifies the file to execute. This member is ignored if the <b>fMask</b> member does not include <b>SEE_MASK_IDLIST</b> or <b>SEE_MASK_INVOKEIDLIST</b>.
+The address of an absolute <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure (PCIDLIST_ABSOLUTE) to contain an item identifier list that uniquely identifies the file to execute. This member is ignored if the <b>fMask</b> member does not include <b>SEE_MASK_IDLIST</b> or <b>SEE_MASK_INVOKEIDLIST</b>.
 
 
 ### -field lpClass
@@ -512,7 +512,7 @@ Use the icon given by the <b>hIcon</b> member. This flag cannot be combined with
 
 ##### - fMask.SEE_MASK_IDLIST (0x00000004)
 
-Use the item identifier list given by the <b>lpIDList</b> member. The <b>lpIDList</b> member must point to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
+Use the item identifier list given by the <b>lpIDList</b> member. The <b>lpIDList</b> member must point to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 
 ##### - fMask.SEE_MASK_INVOKEIDLIST (0x0000000C)

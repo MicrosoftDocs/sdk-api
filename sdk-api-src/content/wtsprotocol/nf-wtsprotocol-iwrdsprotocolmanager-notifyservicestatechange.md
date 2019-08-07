@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],NotifyServiceStateChange method, IWRdsProtocolManager.NotifyServiceStateChange, IWRdsProtocolManager::NotifyServiceStateChange, NotifyServiceStateChange, NotifyServiceStateChange method [Remote Desktop Services], NotifyServiceStateChange method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_notifyservicestatechange, wtsprotocol/IWRdsProtocolManager::NotifyServiceStateChange
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolManager.NotifyServiceStateChange"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolManager.NotifyServiceStateChange
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolManager.NotifyServiceStateChange
+- IWRdsProtocolManager.NotifyServiceStateChange
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Notifies the protocol provider that the state of the Remote Desktop Services ser
 
 ### -param pTSServiceStateChange [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_service_state">WRDS_SERVICE_STATE</a> structure that specifies 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_service_state">WRDS_SERVICE_STATE</a> structure that specifies 
 whether the service is starting, stopping, or changing its drain state.
 
 

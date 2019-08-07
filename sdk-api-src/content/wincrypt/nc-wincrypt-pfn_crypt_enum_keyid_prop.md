@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_ENUM_KEYID_PROP, CRYPT_ENUM_KEYID_PROP callback function [Security], PFN_CRYPT_ENUM_KEYID_PROP, PFN_CRYPT_ENUM_KEYID_PROP callback, security.crypt_enum_keyid_prop, wincrypt/CRYPT_ENUM_KEYID_PROP
 ms.topic: callback
-f1_keywords: 
- - "wincrypt/CRYPT_ENUM_KEYID_PROP"
+f1_keywords:
+- wincrypt/CRYPT_ENUM_KEYID_PROP
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_ENUM_KEYID_PROP
+- CRYPT_ENUM_KEYID_PROP
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -96,7 +96,7 @@ A pointer to an array that contains pointers to <i>pvData</i> elements correspon
 
 
 
-For CERT_KEY_PROV_INFO_PROP_ID the <i>rgpvData</i> element points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure. For all other properties, the <i>rgpvData</i> element points to an array of bytes.
+For CERT_KEY_PROV_INFO_PROP_ID the <i>rgpvData</i> element points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure. For all other properties, the <i>rgpvData</i> element points to an array of bytes.
 
 
 ### -param *rgcbData [in]
@@ -111,7 +111,7 @@ A pointer to an array that contains pointers to <i>pvData</i> elements correspon
 
 
 
-For CERT_KEY_PROV_INFO_PROP_ID the <i>rgpvData</i> element points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure. For all other properties, the <i>rgpvData</i> element points to an array of bytes.
+For CERT_KEY_PROV_INFO_PROP_ID the <i>rgpvData</i> element points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure. For all other properties, the <i>rgpvData</i> element points to an array of bytes.
 
 
 ## -returns
@@ -132,7 +132,7 @@ Returns <b>TRUE</b> if the function succeeds, <b>FALSE</b> if it fails.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a>
 
 
 

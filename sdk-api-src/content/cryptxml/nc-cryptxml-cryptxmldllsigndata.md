@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllSignData, CryptXmlDllSignData callback, CryptXmlDllSignData callback function [Security], cryptxml/CryptXmlDllSignData, security.cryptxmldllsigndata
 ms.topic: callback
-f1_keywords: 
- - "cryptxml/CryptXmlDllSignData"
+f1_keywords:
+- cryptxml/CryptXmlDllSignData
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - CryptXmlDllSignData
+- CryptXmlDllSignData
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The <i>CryptXmlDllSignData</i> function is exposed through the exported <a href=
 
 ### -param *pSignatureMethod [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm.
 
 
 ### -param hCryptProvOrNCryptKey [in]

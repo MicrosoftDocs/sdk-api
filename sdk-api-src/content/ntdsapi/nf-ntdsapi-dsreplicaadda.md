@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPADD_ASYNCHRONOUS_OPERATION, DS_REPADD_ASYNCHRONOUS_REPLICA, DS_REPADD_DISABLE_NOTIFICATION, DS_REPADD_DISABLE_PERIODIC, DS_REPADD_INITIAL, DS_REPADD_INTERSITE_MESSAGING, DS_REPADD_NEVER_NOTIFY, DS_REPADD_PERIODIC, DS_REPADD_USE_COMPRESSION, DS_REPADD_WRITEABLE, DsReplicaAdd, DsReplicaAdd function [Active Directory], DsReplicaAddA, DsReplicaAddW, _glines_dsreplicaadd, ad.dsreplicaadd, ntdsapi/DsReplicaAdd, ntdsapi/DsReplicaAddA, ntdsapi/DsReplicaAddW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsReplicaAdd"
+f1_keywords:
+- ntdsapi/DsReplicaAdd
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsReplicaAdd
- - DsReplicaAddA
- - DsReplicaAddW
+- DsReplicaAdd
+- DsReplicaAddA
+- DsReplicaAddW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -90,7 +90,7 @@ The null-terminated string that specifies the transport-specific address of the 
 
 ### -param pSchedule [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-_schedule">SCHEDULE</a> structure that contains the  replication schedule data for the replication source. This parameter is optional and can be <b>NULL</b> if not used.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-schedule">SCHEDULE</a> structure that contains the  replication schedule data for the replication source. This parameter is optional and can be <b>NULL</b> if not used.
 
 
 ### -param Options [in]
@@ -196,7 +196,7 @@ If the function fails, the return value can be one of the following.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-_schedule">SCHEDULE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-schedule">SCHEDULE</a>
  
 
  

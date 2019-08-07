@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROXY_INFO, PROXY_INFO structure [search], _search_PROXY_INFO, search._search_PROXY_INFO, searchapi/PROXY_INFO
 ms.topic: struct
-f1_keywords: 
- - "searchapi/PROXY_INFO"
+f1_keywords:
+- searchapi/PROXY_INFO
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - PROXY_INFO
+- PROXY_INFO
 product: Windows
 targetos: Windows
 req.typenames: PROXY_INFO
@@ -75,7 +75,7 @@ A pointer to a Unicode string buffer containing the user agent string.
 
 ### -field paUseProxy
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_proxy_access">PROXY_ACCESS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-proxy_access">PROXY_ACCESS</a></b>
 
 The proxy type to use.
 

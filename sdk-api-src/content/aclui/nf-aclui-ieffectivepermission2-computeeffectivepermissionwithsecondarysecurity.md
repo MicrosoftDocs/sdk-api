@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComputeEffectivePermissionWithSecondarySecurity, ComputeEffectivePermissionWithSecondarySecurity method [Security], ComputeEffectivePermissionWithSecondarySecurity method [Security],IEffectivePermission2 interface, IEffectivePermission2 interface [Security],ComputeEffectivePermissionWithSecondarySecurity method, IEffectivePermission2.ComputeEffectivePermissionWithSecondarySecurity, IEffectivePermission2::ComputeEffectivePermissionWithSecondarySecurity, aclui/IEffectivePermission2::ComputeEffectivePermissionWithSecondarySecurity, security.ieffectivepermission2_computeeffectivepermissionwithsecondarysecurity
 ms.topic: method
-f1_keywords: 
- - "aclui/IEffectivePermission2.ComputeEffectivePermissionWithSecondarySecurity"
+f1_keywords:
+- aclui/IEffectivePermission2.ComputeEffectivePermissionWithSecondarySecurity
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Aclui.h
+- Aclui.h
 api_name:
- - IEffectivePermission2.ComputeEffectivePermissionWithSecondarySecurity
+- IEffectivePermission2.ComputeEffectivePermissionWithSecondarySecurity
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,12 +61,12 @@ The <b>ComputeEffectivePermissionWithSecondarySecurity</b> method computes the e
 
 ### -param pSid [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that represents the security principal whose effective permission is being determined.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that represents the security principal whose effective permission is being determined.
 
 
 ### -param pDeviceSid [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that represents the device from which the principal is accessing the object. If this is not <b>NULL</b> and you are using the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> function to compute the effective permissions, then the device SID may be compounded with the <i>pSid</i> parameter by using the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzinitializecompoundcontext">AuthzInitializeCompoundContext</a> function.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that represents the device from which the principal is accessing the object. If this is not <b>NULL</b> and you are using the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> function to compute the effective permissions, then the device SID may be compounded with the <i>pSid</i> parameter by using the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzinitializecompoundcontext">AuthzInitializeCompoundContext</a> function.
 
 
 ### -param pszServerName [in, optional]
@@ -106,7 +106,7 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/a
 
 ### -param pAuthzUserClaims [in, optional]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_security_attributes_information">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a> structure that contains  the user claims context that should be used to modify the security context that was initialized from the <i>pSid</i> parameter.  If you are using the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> function to compute the effective permissions, then the modification may be done by calling the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzmodifyclaims">AuthzModifyClaims</a> function using         AuthzContextInfoUserClaims as the  <i>ClaimClass</i> parameter.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_security_attributes_information">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a> structure that contains  the user claims context that should be used to modify the security context that was initialized from the <i>pSid</i> parameter.  If you are using the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> function to compute the effective permissions, then the modification may be done by calling the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzmodifyclaims">AuthzModifyClaims</a> function using         AuthzContextInfoUserClaims as the  <i>ClaimClass</i> parameter.
 
 
 ### -param pAuthzUserClaimsOperations [in, optional]
@@ -126,7 +126,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/authz/ne-a
 
 ### -param pEffpermResultLists [in, out]
 
-A pointer to an array of the effective permissions results of type <a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_effperm_result_list">EFFPERM_RESULT_LIST</a>. This array is <i>dwSecurityObjectCount</i> elements long. The array is initialized by the caller and the implementation is expected to set all fields of each member in the array, indicating what access was granted by the corresponding security object.
+A pointer to an array of the effective permissions results of type <a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-effperm_result_list">EFFPERM_RESULT_LIST</a>. This array is <i>dwSecurityObjectCount</i> elements long. The array is initialized by the caller and the implementation is expected to set all fields of each member in the array, indicating what access was granted by the corresponding security object.
 
 If a security object was considered, the <b>fEvaluated</b> member should be set to <b>TRUE</b>.  In this case, the  <b>pObjectTypeList</b> and <b>pGrantedAccessList</b> members should both be <b>cObjectTypeListLength</b> elements long.  The <b>pObjectTypeList</b> member must point to memory that is owned by the resource manager and must remain valid until the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-editsecurity">EditSecurity</a> function exits.  The <b>pGrantedAccessList</b> member is freed by the caller by using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.  If the resource manager does not support object ACEs, then the <b>pObjectTypeList</b> member should point to the <b>NULL</b> GUID, the <b>cObjectTypeListLength</b> member should be 1, and the <b>pGrantedAccessList</b> member should be a single <b>DWORD.</b>
 
@@ -148,7 +148,7 @@ If the function fails, the return value is an <b>HRESULT</b> that indicates the 
 
 
 
-When the <b>Id</b> member the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_security_object">SECURITY_OBJECT</a> structure is set to SECURITY_OBJECT_ID_CENTRAL_ACCESS_RULE, the <b>ComputeEffectivePermissionWithSecondarySecurity</b> method should use the <b>pData2</b> member first and only then evaluate access  by using the  <b>pData</b> member.
+When the <b>Id</b> member the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-security_object">SECURITY_OBJECT</a> structure is set to SECURITY_OBJECT_ID_CENTRAL_ACCESS_RULE, the <b>ComputeEffectivePermissionWithSecondarySecurity</b> method should use the <b>pData2</b> member first and only then evaluate access  by using the  <b>pData</b> member.
 
 It is expected that the caller will use <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> to determine the effective permissions.  When possible, the implementation should initialize a remote resource manager on the supplied <b>pszServerName</b> member, using the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzinitializeremoteresourcemanager">AuthzInitializeRemoteResourceManager</a> function to ensure that the groups and claims are initialized in the same manner as when the principal really accesses the object.  If <b>AuthzInitializeRemoteResourceManager</b> fails, the implementation may fall back to using the  <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzinitializeresourcemanager">AuthzInitializeResourceManager</a> function and return S_FALSE to indicate that approximate results are returned.
 
@@ -178,7 +178,7 @@ For each of the secondary security objects whose <b>fEvaluated</b> member is set
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_security_object">SECURITY_OBJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-security_object">SECURITY_OBJECT</a>
  
 
  

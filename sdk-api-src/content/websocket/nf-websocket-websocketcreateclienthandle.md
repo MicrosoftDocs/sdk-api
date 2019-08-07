@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WebSocketCreateClientHandle, WebSocketCreateClientHandle function [Websocket Protocol Component API], websock.websocketcreateclienthandle, websocket/WebSocketCreateClientHandle
 ms.topic: function
-f1_keywords: 
- - "websocket/WebSocketCreateClientHandle"
+f1_keywords:
+- websocket/WebSocketCreateClientHandle
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Websocket.lib
 req.dll: Websocket.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - websocket.dll
+- websocket.dll
 api_name:
- - WebSocketCreateClientHandle
+- WebSocketCreateClientHandle
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ The <b>WebSocketCreateClientHandle</b> function creates a client-side WebSocket 
 
 ### -param pProperties [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_property">PWEB_SOCKET_PROPERTY</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_property">PWEB_SOCKET_PROPERTY</a></b>
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_property">WEB_SOCKET_PROPERTY</a> structures that contain WebSocket session-related properties.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_property">WEB_SOCKET_PROPERTY</a> structures that contain WebSocket session-related properties.
 
 
 ### -param ulPropertyCount [in]
@@ -98,7 +98,7 @@ If the function fails, it returns a <a href="https://docs.microsoft.com/windows/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_property">WEB_SOCKET_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_property">WEB_SOCKET_PROPERTY</a>
 
 
 

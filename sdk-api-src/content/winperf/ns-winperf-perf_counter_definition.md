@@ -8,10 +8,10 @@ tech.root: perfctrs
 ms.assetid: faef043b-81e0-49b0-913f-d691bafd17e6
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPERF_COUNTER_DEFINITION, PERF_COUNTER_DEFINITION, PERF_COUNTER_DEFINITION structure [Perf], PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, _win32_perf_counter_definition_str, base.perf_counter_definition_str, perf.perf_counter_definition_str, winperf/PERF_COUNTER_DEFINITION"
+ms.keywords: '*PPERF_COUNTER_DEFINITION, PERF_COUNTER_DEFINITION, PERF_COUNTER_DEFINITION structure [Perf], PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, _win32_perf_counter_definition_str, base.perf_counter_definition_str, perf.perf_counter_definition_str, winperf/PERF_COUNTER_DEFINITION'
 ms.topic: struct
-f1_keywords: 
- - "winperf/PERF_COUNTER_DEFINITION"
+f1_keywords:
+- winperf/PERF_COUNTER_DEFINITION
 req.header: winperf.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winperf.h
+- Winperf.h
 api_name:
- - PERF_COUNTER_DEFINITION
+- PERF_COUNTER_DEFINITION
 product: Windows
 targetos: Windows
 req.typenames: PERF_COUNTER_DEFINITION, *PPERF_COUNTER_DEFINITION
@@ -168,18 +168,18 @@ Currently, only DWORDs (4 bytes) and ULONGLONGs (8 bytes) are used to provide co
 ### -field CounterOffset
 
 Offset from the start of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_counter_block">PERF_COUNTER_BLOCK</a> structure to the first byte of this counter. The location of the <b>PERF_COUNTER_BLOCK</b> structure within the <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_object_type">PERF_OBJECT_TYPE</a> block depends on if the object contains instances. For details, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_counter_block">PERF_COUNTER_BLOCK</a> structure to the first byte of this counter. The location of the <b>PERF_COUNTER_BLOCK</b> structure within the <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a> block depends on if the object contains instances. For details, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>.
 
-Note that multiple counters can use the same raw data and point to the same offset in the <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_counter_block">PERF_COUNTER_BLOCK</a> block.
+Note that multiple counters can use the same raw data and point to the same offset in the <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_counter_block">PERF_COUNTER_BLOCK</a> block.
 
 
 ## -remarks
 
 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_object_type">PERF_OBJECT_TYPE</a> structure contains one or more counters. This structure defines each counter and gives the offset to its value.  These structures follow the <b>PERF_OBJECT_TYPE</b> structure in memory. For details, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a> structure contains one or more counters. This structure defines each counter and gives the offset to its value.  These structures follow the <b>PERF_OBJECT_TYPE</b> structure in memory. For details, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>.
 
-Providers should provide their counters in the same order each time their counters are queried. If the counter uses a base counter in its calculation (the counter type includes the <b>PERF_COUNTER_FRACTION</b> flag), the base counter must follow this counter in the list of counters. If the counter type includes the <b>PERF_MULTI_COUNTER</b> flag, the second counter value must follow this counter's value in the <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_counter_block">PERF_COUNTER_BLOCK</a> block.
+Providers should provide their counters in the same order each time their counters are queried. If the counter uses a base counter in its calculation (the counter type includes the <b>PERF_COUNTER_FRACTION</b> flag), the base counter must follow this counter in the list of counters. If the counter type includes the <b>PERF_MULTI_COUNTER</b> flag, the second counter value must follow this counter's value in the <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_counter_block">PERF_COUNTER_BLOCK</a> block.
 
 
 
@@ -189,11 +189,11 @@ Providers should provide their counters in the same order each time their counte
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_counter_block">PERF_COUNTER_BLOCK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_counter_block">PERF_COUNTER_BLOCK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_object_type">PERF_OBJECT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a>
  
 
  

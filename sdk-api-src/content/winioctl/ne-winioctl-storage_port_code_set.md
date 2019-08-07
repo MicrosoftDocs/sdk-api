@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 1c1032e8-30b8-45ad-973a-c7616139b26e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSTORAGE_PORT_CODE_SET, PSTORAGE_PORT_CODE_SET, PSTORAGE_PORT_CODE_SET enumeration pointer [Files], STORAGE_PORT_CODE_SET, STORAGE_PORT_CODE_SET enumeration [Files], StoragePortCodeSetATAport, StoragePortCodeSetReserved, StoragePortCodeSetSBP2port, StoragePortCodeSetSCSIport, StoragePortCodeSetSDport, StoragePortCodeSetSpaceport, StoragePortCodeSetStorport, StoragePortCodeSetUSBport, fs.storage_port_code_set, winioctl/PSTORAGE_PORT_CODE_SET, winioctl/STORAGE_PORT_CODE_SET, winioctl/StoragePortCodeSetATAport, winioctl/StoragePortCodeSetReserved, winioctl/StoragePortCodeSetSBP2port, winioctl/StoragePortCodeSetSCSIport, winioctl/StoragePortCodeSetSDport, winioctl/StoragePortCodeSetSpaceport, winioctl/StoragePortCodeSetStorport, winioctl/StoragePortCodeSetUSBport"
+ms.keywords: '*PSTORAGE_PORT_CODE_SET, PSTORAGE_PORT_CODE_SET, PSTORAGE_PORT_CODE_SET enumeration pointer [Files], STORAGE_PORT_CODE_SET, STORAGE_PORT_CODE_SET enumeration [Files], StoragePortCodeSetATAport, StoragePortCodeSetReserved, StoragePortCodeSetSBP2port, StoragePortCodeSetSCSIport, StoragePortCodeSetSDport, StoragePortCodeSetSpaceport, StoragePortCodeSetStorport, StoragePortCodeSetUSBport, fs.storage_port_code_set, winioctl/PSTORAGE_PORT_CODE_SET, winioctl/STORAGE_PORT_CODE_SET, winioctl/StoragePortCodeSetATAport, winioctl/StoragePortCodeSetReserved, winioctl/StoragePortCodeSetSBP2port, winioctl/StoragePortCodeSetSCSIport, winioctl/StoragePortCodeSetSDport, winioctl/StoragePortCodeSetSpaceport, winioctl/StoragePortCodeSetStorport, winioctl/StoragePortCodeSetUSBport'
 ms.topic: enum
-f1_keywords: 
- - "winioctl/STORAGE_PORT_CODE_SET"
+f1_keywords:
+- winioctl/STORAGE_PORT_CODE_SET
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - STORAGE_PORT_CODE_SET
+- STORAGE_PORT_CODE_SET
 product: Windows
 targetos: Windows
 req.typenames: STORAGE_PORT_CODE_SET, *PSTORAGE_PORT_CODE_SET
@@ -107,7 +107,7 @@ Storage adapter driver is an SD-port miniport driver.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_miniport_descriptor">STORAGE_MINIPORT_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_miniport_descriptor">STORAGE_MINIPORT_DESCRIPTOR</a>
  
 
  

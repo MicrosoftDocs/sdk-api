@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginBufferedAnimation, BeginBufferedAnimation function [Windows Controls], _shell_BeginBufferedAnimation, _shell_BeginBufferedAnimation_cpp, controls.BeginBufferedAnimation, controls._shell_BeginBufferedAnimation, uxtheme/BeginBufferedAnimation
 ms.topic: function
-f1_keywords: 
- - "uxtheme/BeginBufferedAnimation"
+f1_keywords:
+- uxtheme/BeginBufferedAnimation
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - BeginBufferedAnimation
+- BeginBufferedAnimation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,21 +83,21 @@ A pointer to a structure that specifies the area of the target DC in which to dr
 
 ### -param dwFormat
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ne-uxtheme-_bp_bufferformat">BP_BUFFERFORMAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ne-uxtheme-bp_bufferformat">BP_BUFFERFORMAT</a></b>
 
 The format of the buffer.
 
 
 ### -param pPaintParams [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-_bp_paintparams">BP_PAINTPARAMS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-bp_paintparams">BP_PAINTPARAMS</a>*</b>
 
 A pointer to a structure that defines the paint operation parameters. This value can be <b>NULL</b>.
 
 
 ### -param pAnimationParams [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-_bp_animationparams">BP_ANIMATIONPARAMS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-bp_animationparams">BP_ANIMATIONPARAMS</a>*</b>
 
 A pointer to a structure that defines the animation operation parameters.
 

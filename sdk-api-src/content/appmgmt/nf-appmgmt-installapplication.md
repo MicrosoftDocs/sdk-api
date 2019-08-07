@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InstallApplication, InstallApplication function [Group Policy], appmgmt/InstallApplication, policy.installapplication
 ms.topic: function
-f1_keywords: 
- - "appmgmt/InstallApplication"
+f1_keywords:
+- appmgmt/InstallApplication
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - ext-ms-win-advapi32-msi-l1-1-0.dll
+- Advapi32.dll
+- ext-ms-win-advapi32-msi-l1-1-0.dll
 api_name:
- - InstallApplication
+- InstallApplication
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>InstallApplication</b> function can install applications  that have been 
 
 ### -param pInstallInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_installdata">INSTALLDATA</a> structure that specifies the application to install.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-installdata">INSTALLDATA</a> structure that specifies the application to install.
 
 
 ## -returns
@@ -114,7 +114,7 @@ For information about using installation applications other than  the <a href="h
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_installdata">INSTALLDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-installdata">INSTALLDATA</a>
 
 
 

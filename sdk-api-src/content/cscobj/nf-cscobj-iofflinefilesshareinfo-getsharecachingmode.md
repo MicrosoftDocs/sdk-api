@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetShareCachingMode, GetShareCachingMode method [Offline Files], GetShareCachingMode method [Offline Files],IOfflineFilesShareInfo interface, IOfflineFilesShareInfo interface [Offline Files],GetShareCachingMode method, IOfflineFilesShareInfo.GetShareCachingMode, IOfflineFilesShareInfo::GetShareCachingMode, OFFLINEFILES_CACHING_MODE_AUTO_DOC, OFFLINEFILES_CACHING_MODE_AUTO_PROGANDDOC, OFFLINEFILES_CACHING_MODE_MANUAL, OFFLINEFILES_CACHING_MODE_NOCACHING, OFFLINEFILES_CACHING_MODE_NONE, cscobj/IOfflineFilesShareInfo::GetShareCachingMode, of.iofflinefilesshareinfo_getsharecachingmode
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesShareInfo.GetShareCachingMode"
+f1_keywords:
+- cscobj/IOfflineFilesShareInfo.GetShareCachingMode
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesShareInfo.GetShareCachingMode
+- IOfflineFilesShareInfo.GetShareCachingMode
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,25 +76,25 @@ No caching mode value was found. This value can be returned if the method fails.
 
 #### OFFLINEFILES_CACHING_MODE_NOCACHING (1)
 
-The share is configured to disallow caching. This value corresponds to a value of zero returned by the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a> function for the <b>CSC_MASK</b> portion of the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1005">SHARE_INFO_1005</a> structure.
+The share is configured to disallow caching. This value corresponds to a value of zero returned by the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a> function for the <b>CSC_MASK</b> portion of the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1005">SHARE_INFO_1005</a> structure.
 
 
 
 #### OFFLINEFILES_CACHING_MODE_MANUAL (2)
 
-The share is configured to allow manual caching. This value corresponds to a value of <b>CSC_CACHE_MANUAL_REINT</b> returned by the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a> function for the CSC_MASK portion of the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1005">SHARE_INFO_1005</a> structure.
+The share is configured to allow manual caching. This value corresponds to a value of <b>CSC_CACHE_MANUAL_REINT</b> returned by the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a> function for the CSC_MASK portion of the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1005">SHARE_INFO_1005</a> structure.
 
 
 
 #### OFFLINEFILES_CACHING_MODE_AUTO_DOC (3)
 
-The share is configured to allow automatic caching of documents. This value corresponds to a value of <b>CSC_CACHE_AUTO_REINT</b> returned by the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a> function for the <b>CSC_MASK</b> portion of the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1005">SHARE_INFO_1005</a> structure.
+The share is configured to allow automatic caching of documents. This value corresponds to a value of <b>CSC_CACHE_AUTO_REINT</b> returned by the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a> function for the <b>CSC_MASK</b> portion of the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1005">SHARE_INFO_1005</a> structure.
 
 
 
 #### OFFLINEFILES_CACHING_MODE_AUTO_PROGANDDOC (4)
 
-The share is configured to allow automatic caching of programs and documents. This value corresponds to a value of <b>CSC_CACHE_VDO</b> (virtual disconnected operations) returned by the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a> function for the <b>CSC_MASK</b> portion of the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1005">SHARE_INFO_1005</a> structure.
+The share is configured to allow automatic caching of programs and documents. This value corresponds to a value of <b>CSC_CACHE_VDO</b> (virtual disconnected operations) returned by the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a> function for the <b>CSC_MASK</b> portion of the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1005">SHARE_INFO_1005</a> structure.
 
 
 ## -returns
@@ -110,7 +110,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-This method is equivalent to locating the nearest share item, obtaining its fully qualified UNC path and calling <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a> for <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1005">SHARE_INFO_1005</a> information.
+This method is equivalent to locating the nearest share item, obtaining its fully qualified UNC path and calling <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a> for <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1005">SHARE_INFO_1005</a> information.
 
 
 

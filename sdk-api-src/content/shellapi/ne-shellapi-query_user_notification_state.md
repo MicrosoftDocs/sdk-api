@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QUERY_USER_NOTIFICATION_STATE, QUERY_USER_NOTIFICATION_STATE enumeration [Windows Shell], QUNS_ACCEPTS_NOTIFICATIONS, QUNS_APP, QUNS_BUSY, QUNS_NOT_PRESENT, QUNS_PRESENTATION_MODE, QUNS_QUIET_TIME, QUNS_RUNNING_D3D_FULL_SCREEN, _shell_QUERY_USER_NOTIFICATION_STATE, shell.QUERY_USER_NOTIFICATION_STATE, shellapi/QUERY_USER_NOTIFICATION_STATE, shellapi/QUNS_ACCEPTS_NOTIFICATIONS, shellapi/QUNS_APP, shellapi/QUNS_BUSY, shellapi/QUNS_NOT_PRESENT, shellapi/QUNS_PRESENTATION_MODE, shellapi/QUNS_QUIET_TIME, shellapi/QUNS_RUNNING_D3D_FULL_SCREEN
 ms.topic: enum
-f1_keywords: 
- - "shellapi/QUERY_USER_NOTIFICATION_STATE"
+f1_keywords:
+- shellapi/QUERY_USER_NOTIFICATION_STATE
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shellapi.h
+- Shellapi.h
 api_name:
- - QUERY_USER_NOTIFICATION_STATE
+- QUERY_USER_NOTIFICATION_STATE
 product: Windows
 targetos: Windows
 req.typenames: QUERY_USER_NOTIFICATION_STATE
@@ -90,7 +90,7 @@ None of the other states are found, notifications can be freely sent.
         
                         
 
-Applications should set the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyicondataa">NIIF_RESPECT_QUIET_TIME</a> flag in their notifications or balloon tooltip, which prevents those items from being displayed while the current user is in the quiet-time state.
+Applications should set the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NIIF_RESPECT_QUIET_TIME</a> flag in their notifications or balloon tooltip, which prevents those items from being displayed while the current user is in the quiet-time state.
 
 Note that during quiet time, if the user is in one of the other blocked modes (QUNS_NOT_PRESENT, QUNS_BUSY, QUNS_PRESENTATION_MODE, or QUNS_RUNNING_D3D_FULL_SCREEN) <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shqueryusernotificationstate">SHQueryUserNotificationState</a> returns only that value, and does not report QUNS_QUIET_TIME.
 

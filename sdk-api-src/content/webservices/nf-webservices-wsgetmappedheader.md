@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetMappedHeader, WsGetMappedHeader function [Web Services for Windows], webservices/WsGetMappedHeader, wsw.wsgetmappedheader
 ms.topic: function
-f1_keywords: 
- - "webservices/WsGetMappedHeader"
+f1_keywords:
+- webservices/WsGetMappedHeader
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsGetMappedHeader
+- WsGetMappedHeader
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -236,7 +236,7 @@ A message may contain additional transport-specific information that is
             
 
 When using the HTTP channel, the required mappings must be specified before headers
-                can be extracted with this function.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a>.
+                can be extracted with this function.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a>.
             
 
 

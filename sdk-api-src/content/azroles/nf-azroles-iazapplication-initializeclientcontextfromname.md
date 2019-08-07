@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],InitializeClientContextFromName method, IAzApplication interface [Security],InitializeClientContextFromName method, IAzApplication.InitializeClientContextFromName, IAzApplication::InitializeClientContextFromName, InitializeClientContextFromName, InitializeClientContextFromName method [Security], InitializeClientContextFromName method [Security],AzApplication object, InitializeClientContextFromName method [Security],IAzApplication interface, azroles/IAzApplication::InitializeClientContextFromName, security.iazapplication_initializeclientcontextfromname
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.InitializeClientContextFromName"
+f1_keywords:
+- azroles/IAzApplication.InitializeClientContextFromName
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.InitializeClientContextFromName
- - AzApplication.InitializeClientContextFromName
+- IAzApplication.InitializeClientContextFromName
+- AzApplication.InitializeClientContextFromName
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -106,7 +106,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 If possible, call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-initializeclientcontextfromtoken">InitializeClientContextFromToken</a>  function instead of <b>InitializeClientContextFromName</b>. <b>InitializeClientContextFromName</b> attempts to retrieve the information available in a logon token had the client actually logged on. An actual logon token provides more information, such as logon type and logon properties, and reflects the behavior of the authentication package used for the logon. The client context  created by <b>InitializeClientContextFromToken</b> uses a logon token, and the resulting client context is more complete and accurate than a client context created by <b>InitializeClientContextFromName</b>.
 
-The <i>DomainName</i> and <i>ClientName</i> parameters must combine to represent a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SidTypeUser</a>.
+The <i>DomainName</i> and <i>ClientName</i> parameters must combine to represent a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SidTypeUser</a>.
 
 The supported name formats are the same as those supported by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a> function.
 

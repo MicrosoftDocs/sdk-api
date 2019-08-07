@@ -8,10 +8,10 @@ tech.root: OpenGL
 ms.assetid: 9cb57d32-386a-4554-9f47-62d5c4e2ee4e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPOINTFLOAT, POINTFLOAT, POINTFLOAT structure [OpenGL], PPOINTFLOAT, PPOINTFLOAT structure pointer [OpenGL], _ogl_POINTFLOAT, opengl.pointfloat, wingdi/POINTFLOAT, wingdi/PPOINTFLOAT"
+ms.keywords: '*PPOINTFLOAT, POINTFLOAT, POINTFLOAT structure [OpenGL], PPOINTFLOAT, PPOINTFLOAT structure pointer [OpenGL], _ogl_POINTFLOAT, opengl.pointfloat, wingdi/POINTFLOAT, wingdi/PPOINTFLOAT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/POINTFLOAT"
+f1_keywords:
+- wingdi/POINTFLOAT
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wingdi.h
+- wingdi.h
 api_name:
- - POINTFLOAT
+- POINTFLOAT
 product: Windows
 targetos: Windows
 req.typenames: POINTFLOAT, *PPOINTFLOAT
@@ -77,7 +77,7 @@ Specifies the vertical (y) coordinate of a point.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_glyphmetricsfloat">GLYPHMETRICSFLOAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-glyphmetricsfloat">GLYPHMETRICSFLOAT</a>
 
 
 

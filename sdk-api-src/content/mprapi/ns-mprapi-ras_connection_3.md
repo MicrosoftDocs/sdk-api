@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: f474563e-01c5-4f2a-aec4-477e0ffc7ab2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRAS_CONNECTION_3, PRAS_CONNECTION_3, PRAS_CONNECTION_3 structure pointer [RAS], RAS_CONNECTION_3, RAS_CONNECTION_3 structure [RAS], mprapi/PRAS_CONNECTION_3, mprapi/RAS_CONNECTION_3, rras.ras_connection_3"
+ms.keywords: '*PRAS_CONNECTION_3, PRAS_CONNECTION_3, PRAS_CONNECTION_3 structure pointer [RAS], RAS_CONNECTION_3, RAS_CONNECTION_3 structure [RAS], mprapi/PRAS_CONNECTION_3, mprapi/RAS_CONNECTION_3, rras.ras_connection_3'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/RAS_CONNECTION_3"
+f1_keywords:
+- mprapi/RAS_CONNECTION_3
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - RAS_CONNECTION_3
+- RAS_CONNECTION_3
 product: Windows
 targetos: Windows
 req.typenames: RAS_CONNECTION_3, *PRAS_CONNECTION_3
@@ -84,7 +84,7 @@ A null-terminated Unicode string that contains the name of the user logged on to
 
 ### -field dwInterfaceType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_router_interface_type">ROUTER_INTERFACE_TYPE</a> enumeration that identifies the type of connection interface.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_interface_type">ROUTER_INTERFACE_TYPE</a> enumeration that identifies the type of connection interface.
 
 
 ### -field guid
@@ -95,7 +95,7 @@ A GUID  that identifies the connection. For incoming connections, this GUID is v
 ### -field PppInfo3
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_info_3">PPP_INFO_3</a> structure that contains Point-to-Point (PPP) projection operation information for a connection.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_info_3">PPP_INFO_3</a> structure that contains Point-to-Point (PPP) projection operation information for a connection.
 
 
 ### -field rasQuarState
@@ -129,7 +129,7 @@ A FILETIME structure that specifies the time required for the connection to come
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_0">RAS_CONNECTION_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_0">RAS_CONNECTION_0</a>
 
 
 

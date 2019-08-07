@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMSG_ATTR_CERT_COUNT_PARAM, CMSG_ATTR_CERT_PARAM, CMSG_BARE_CONTENT_PARAM, CMSG_CERT_COUNT_PARAM, CMSG_CERT_PARAM, CMSG_CMS_RECIPIENT_COUNT_PARAM, CMSG_CMS_RECIPIENT_ENCRYPTED_KEY_INDEX_PARAM, CMSG_CMS_RECIPIENT_INDEX_PARAM, CMSG_CMS_RECIPIENT_INFO_PARAM, CMSG_CMS_SIGNER_INFO_PARAM, CMSG_COMPUTED_HASH_PARAM, CMSG_CONTENT_PARAM, CMSG_CRL_COUNT_PARAM, CMSG_CRL_PARAM, CMSG_ENCODED_MESSAGE, CMSG_ENCODED_SIGNER, CMSG_ENCRYPTED_DIGEST, CMSG_ENCRYPT_PARAM, CMSG_ENVELOPE_ALGORITHM_PARAM, CMSG_HASH_ALGORITHM_PARAM, CMSG_HASH_DATA_PARAM, CMSG_INNER_CONTENT_TYPE_PARAM, CMSG_RECIPIENT_COUNT_PARAM, CMSG_RECIPIENT_INDEX_PARAM, CMSG_RECIPIENT_INFO_PARAM, CMSG_SIGNER_AUTH_ATTR_PARAM, CMSG_SIGNER_CERT_ID_PARAM, CMSG_SIGNER_CERT_INFO_PARAM, CMSG_SIGNER_COUNT_PARAM, CMSG_SIGNER_HASH_ALGORITHM_PARAM, CMSG_SIGNER_INFO_PARAM, CMSG_SIGNER_UNAUTH_ATTR_PARAM, CMSG_TYPE_PARAM, CMSG_UNPROTECTED_ATTR_PARAM, CMSG_VERSION_PARAM, CryptMsgGetParam, CryptMsgGetParam function [Security], _crypto2_cryptmsggetparam, security.cryptmsggetparam, wincrypt/CryptMsgGetParam
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptMsgGetParam"
+f1_keywords:
+- wincrypt/CryptMsgGetParam
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptMsgGetParam
+- CryptMsgGetParam
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -239,7 +239,7 @@ Returns the encrypted hash of a signature. Typically used for performing time-st
 </td>
 <td width="60%">
 <i>pvData</i> data type: pointer to a <b>BYTE</b> array for a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure.
 
  Returns the encryption algorithm used to encrypted the message.
 
@@ -251,7 +251,7 @@ Returns the encrypted hash of a signature. Typically used for performing time-st
 </dl>
 </td>
 <td width="60%">
-<i>pvData</i> data type: pointer to a <b>BYTE</b> array for a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure.
+<i>pvData</i> data type: pointer to a <b>BYTE</b> array for a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure.
 
  Returns the encryption algorithm used to encrypt an ENVELOPED message.
 
@@ -263,7 +263,7 @@ Returns the encrypted hash of a signature. Typically used for performing time-st
 </dl>
 </td>
 <td width="60%">
-<i>pvData</i> data type: pointer to a <b>BYTE</b> array for a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure.
+<i>pvData</i> data type: pointer to a <b>BYTE</b> array for a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure.
 
  Returns the hash algorithm used to hash the message when it was created.
 
@@ -364,10 +364,10 @@ Returns the index of the encrypted key of a key agreement recipient used to decr
 </td>
 <td width="60%">
 <i>pvData</i> data type: pointer to a <b>BYTE</b> array to receive a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure.
 
  Returns certificate information about a key transport message's recipient. To get certificate information on all key transport message's recipients, repetitively call <b>CryptMsgGetParam</b>, varying <i>dwIndex</i> from 0 to the number of recipients minus one.
-Only the Issuer, SerialNumber, and PublicKeyAlgorithm members of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure returned are available and valid.
+Only the Issuer, SerialNumber, and PublicKeyAlgorithm members of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure returned are available and valid.
 
 </td>
 </tr>
@@ -378,7 +378,7 @@ Only the Issuer, SerialNumber, and PublicKeyAlgorithm members of the <a href="ht
 </td>
 <td width="60%">
 <i>pvData</i> data type: pointer to a <b>BYTE</b> array to receive a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_cms_recipient_info">CMSG_CMS_RECIPIENT_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_cms_recipient_info">CMSG_CMS_RECIPIENT_INFO</a> structure.
 
 Returns information about a key transport, key agreement, or mail list recipient. It is not limited to key transport message recipients.
 To get information on all of a message's recipients, repetitively call <b>CryptMsgGetParam</b>, varying <i>dwIndex</i> from 0 to the number of recipients minus one.
@@ -392,7 +392,7 @@ To get information on all of a message's recipients, repetitively call <b>CryptM
 </td>
 <td width="60%">
 <i>pvData</i> data type: pointer to a <b>BYTE</b> array to receive a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attributes">CRYPT_ATTRIBUTES</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attributes">CRYPT_ATTRIBUTES</a> structure.
 
  Returns the authenticated attributes of a message signer. To retrieve the authenticated attributes for a specified signer, call <b>CryptMsgGetParam</b> with <i>dwIndex</i> equal to that signer's index.
 
@@ -405,10 +405,10 @@ To get information on all of a message's recipients, repetitively call <b>CryptM
 </td>
 <td width="60%">
 <i>pvData</i> data type: pointer to a <b>BYTE</b> array to receive the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure.
 
  Returns information on a message signer needed to identify the signer's certificate. A certificate's Issuer and SerialNumber can be used to uniquely identify a certificate for retrieval. To retrieve information for all the signers, repetitively call <b>CryptMsgGetParam</b> varying <i>dwIndex</i> from 0 to the number of signers minus one.
-Only the Issuer and SerialNumber fields in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure returned contain available, valid data.
+Only the Issuer and SerialNumber fields in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure returned contain available, valid data.
 
 </td>
 </tr>
@@ -418,7 +418,7 @@ Only the Issuer and SerialNumber fields in the <a href="https://docs.microsoft.c
 </dl>
 </td>
 <td width="60%">
-<i>pvData</i> data type: pointer to a <b>BYTE</b> array to receive a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_id">CERT_ID</a> structure.
+<i>pvData</i> data type: pointer to a <b>BYTE</b> array to receive a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a> structure.
 
 Returns information on a message signer needed to identify the signer's public key. This could be a certificate's Issuer and SerialNumber, a KeyID, or a HashId. To retrieve information for all the signers, call <b>CryptMsgGetParam</b> varying <i>dwIndex</i> from 0 to the number of signers minus one.
 
@@ -444,7 +444,7 @@ Returns the number of signers of a received SIGNED message.
 </td>
 <td width="60%">
 <i>pvData</i> data type: pointer to a <b>BYTE</b> array to receive the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure.
 
  Returns the hash algorithm used by a signer of the message. To get the hash algorithm for a specified signer, call <b>CryptMsgGetParam</b> with <i>dwIndex</i> equal to that signer's index.
 
@@ -457,7 +457,7 @@ Returns the number of signers of a received SIGNED message.
 </td>
 <td width="60%">
 <i>pvData</i> data type: pointer to a <b>BYTE</b> array to receive a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signer_info">CMSG_SIGNER_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_info">CMSG_SIGNER_INFO</a> structure.
 
  Returns information on a message signer. This includes the issuer and serial number of the signer's certificate and authenticated and unauthenticated attributes of the signer's certificate.
 To retrieve signer information on all of the signers of a message, call <b>CryptMsgGetParam</b> varying <i>dwIndex</i> from 0 to the number of signers minus one.
@@ -471,7 +471,7 @@ To retrieve signer information on all of the signers of a message, call <b>Crypt
 </td>
 <td width="60%">
 <i>pvData</i> data type: pointer to a <b>BYTE</b> array to receive a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_cms_signer_info">CMSG_CMS_SIGNER_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_cms_signer_info">CMSG_CMS_SIGNER_INFO</a> structure.
 
  Returns information on a message signer. This includes a signerId and authenticated and unauthenticated attributes.
 To retrieve signer information on all of the signers of a message, call <b>CryptMsgGetParam</b> varying <i>dwIndex</i> from 0 to the number of signers minus one.
@@ -485,7 +485,7 @@ To retrieve signer information on all of the signers of a message, call <b>Crypt
 </td>
 <td width="60%">
 <i>pvData</i> data type: pointer to a <b>BYTE</b> array to receive a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attributes">CRYPT_ATTRIBUTES</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attributes">CRYPT_ATTRIBUTES</a> structure.
 
  Returns a message signer's unauthenticated attributes. To retrieve the unauthenticated attributes for a specified signer, call <b>CryptMsgGetParam</b>  with <i>dwIndex</i> equal to that signer's index.
 
@@ -510,7 +510,7 @@ Returns the message type of a decoded message of unknown type. The retrieved mes
 </td>
 <td width="60%">
 <i>pvData</i> data type: pointer to a <b>BYTE</b> array to receive a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attributes">CMSG_ATTR</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attributes">CMSG_ATTR</a> structure.
 
  Returns the unprotected attributes in an enveloped message.
 

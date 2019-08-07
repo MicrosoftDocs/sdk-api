@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdGetFlipStatus, DdGetFlipStatus callback function [Display Devices], PDD_SURFCB_GETFLIPSTATUS, PDD_SURFCB_GETFLIPSTATUS callback, ddfncs_129ef755-b85d-4f99-b62b-87124364c283.xml, ddrawint/DdGetFlipStatus, display.ddgetflipstatus
 ms.topic: callback
-f1_keywords: 
- - "ddrawint/DdGetFlipStatus"
+f1_keywords:
+- ddrawint/DdGetFlipStatus
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DdGetFlipStatus
+- DdGetFlipStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The <b>DdGetFlipStatus</b> callback function determines whether the most recentl
 
 #### - lpGetFlipStatus
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getflipstatusdata">DD_GETFLIPSTATUSDATA</a> structure that contains the information required to perform the flip status query.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getflipstatusdata">DD_GETFLIPSTATUSDATA</a> structure that contains the information required to perform the flip status query.
 
 
 ## -returns
@@ -106,7 +106,7 @@ If the flag is DDGFS_ISFLIPDONE, the driver should set <b>ddRVal</b> to DDERR_WA
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getflipstatusdata">DD_GETFLIPSTATUSDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getflipstatusdata">DD_GETFLIPSTATUSDATA</a>
  
 
  

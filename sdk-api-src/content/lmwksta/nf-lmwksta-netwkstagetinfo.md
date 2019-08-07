@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 100, 101, 102, NetWkstaGetInfo, NetWkstaGetInfo function [Network Management], _win32_netwkstagetinfo, lmwksta/NetWkstaGetInfo, netmgmt.netwkstagetinfo
 ms.topic: function
-f1_keywords: 
- - "lmwksta/NetWkstaGetInfo"
+f1_keywords:
+- lmwksta/NetWkstaGetInfo
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetWkstaGetInfo
+- NetWkstaGetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,7 +83,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return information about the workstation environment, including platform-specific information, the name of the domain and the local computer, and information concerning the operating system. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_info_100">WKSTA_INFO_100</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_info_100">WKSTA_INFO_100</a> structure.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ Return information about the workstation environment, including platform-specifi
 </td>
 <td width="60%">
 In addition to level 100 information, return the path to the LANMAN directory. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_info_101">WKSTA_INFO_101</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_info_101">WKSTA_INFO_101</a> structure.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ In addition to level 100 information, return the path to the LANMAN directory. T
 </td>
 <td width="60%">
 In addition to level 101 information, return the number of users who are logged on to the local computer. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_info_102">WKSTA_INFO_102</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_info_102">WKSTA_INFO_102</a> structure.
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ To compile an application that uses this function, define the _WIN32_WINNT macro
 The following code sample demonstrates how to retrieve information about the configuration elements for a workstation using a call to the 
 <b>NetWkstaGetInfo</b> function. The sample calls 
 <b>NetWkstaGetInfo</b>, specifying information level 102 (
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_info_102">WKSTA_INFO_102</a>). If the call succeeds, the sample prints information about the workstation. Finally, the code sample frees the memory allocated for the information buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_info_102">WKSTA_INFO_102</a>). If the call succeeds, the sample prints information about the workstation. Finally, the code sample frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -272,15 +272,15 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_info_100">WKSTA_INFO_100</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_info_100">WKSTA_INFO_100</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_info_101">WKSTA_INFO_101</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_info_101">WKSTA_INFO_101</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_info_102">WKSTA_INFO_102</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_info_102">WKSTA_INFO_102</a>
 
 
 

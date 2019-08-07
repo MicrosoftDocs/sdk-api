@@ -8,10 +8,10 @@ tech.root: ad
 ms.assetid: c6c8e510-190a-47ad-805c-b8d3fbee836d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDSROLE_OPERATION_STATE_INFO, DSROLE_OPERATION_STATE_INFO, DSROLE_OPERATION_STATE_INFO structure [Active Directory], ad.dsrole_operation_state_info, dsrole/DSROLE_OPERATION_STATE_INFO"
+ms.keywords: '*PDSROLE_OPERATION_STATE_INFO, DSROLE_OPERATION_STATE_INFO, DSROLE_OPERATION_STATE_INFO structure [Active Directory], ad.dsrole_operation_state_info, dsrole/DSROLE_OPERATION_STATE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "dsrole/DSROLE_OPERATION_STATE_INFO"
+f1_keywords:
+- dsrole/DSROLE_OPERATION_STATE_INFO
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dsrole.h
+- Dsrole.h
 api_name:
- - DSROLE_OPERATION_STATE_INFO
+- DSROLE_OPERATION_STATE_INFO
 product: Windows
 targetos: Windows
 req.typenames: DSROLE_OPERATION_STATE_INFO, *PDSROLE_OPERATION_STATE_INFO
@@ -61,7 +61,7 @@ The <b>DSROLE_OPERATION_STATE_INFO</b> structure is used with the <a href="https
 
 ### -field OperationState
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-_dsrole_operation_state">DSROLE_OPERATION_STATE</a> values that indicates the computer operational state.
+Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-dsrole_operation_state">DSROLE_OPERATION_STATE</a> values that indicates the computer operational state.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/dsro
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-_dsrole_operation_state">DSROLE_OPERATION_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-dsrole_operation_state">DSROLE_OPERATION_STATE</a>
 
 
 

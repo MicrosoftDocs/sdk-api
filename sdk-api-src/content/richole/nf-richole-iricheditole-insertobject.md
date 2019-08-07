@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRichEditOle interface [Windows Controls],InsertObject method, IRichEditOle.InsertObject, IRichEditOle::InsertObject, InsertObject, InsertObject method [Windows Controls], InsertObject method [Windows Controls],IRichEditOle interface, _win32_IRichEditOle_InsertObject, _win32_IRichEditOle_InsertObject_cpp, controls.IRichEditOle_InsertObject, controls._win32_IRichEditOle_InsertObject, richole/IRichEditOle::InsertObject
 ms.topic: method
-f1_keywords: 
- - "richole/IRichEditOle.InsertObject"
+f1_keywords:
+- richole/IRichEditOle.InsertObject
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - IRichEditOle.InsertObject
+- IRichEditOle.InsertObject
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Inserts an object into a rich edit control.
 
 ### -param lpreobject
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-_reobject">REOBJECT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-reobject">REOBJECT</a>*</b>
 
 The object information and interfaces. The rich edit control automatically increments the reference count for the interfaces if it holds onto them, so the caller can safely release the interfaces if they are not needed. 
 
@@ -81,7 +81,7 @@ Returns S_OK on success, or a failure code otherwise. E_OUTOFMEMORY is returned 
 
 
 
-If the <b>cp</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-_reobject">REOBJECT</a> structure is REO_CP_SELECTION, the selection is replaced with the specified object.
+If the <b>cp</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-reobject">REOBJECT</a> structure is REO_CP_SELECTION, the selection is replaced with the specified object.
 	
 
 
@@ -96,7 +96,7 @@ If the <b>cp</b> member of the <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-_reobject">REOBJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/ns-richole-reobject">REOBJECT</a>
 
 
 

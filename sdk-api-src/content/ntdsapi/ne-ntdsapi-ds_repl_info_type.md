@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_INFO_CURSORS_2_FOR_NC, DS_REPL_INFO_CURSORS_3_FOR_NC, DS_REPL_INFO_CURSORS_FOR_NC, DS_REPL_INFO_KCC_DSA_CONNECT_FAILURES, DS_REPL_INFO_KCC_DSA_LINK_FAILURES, DS_REPL_INFO_METADATA_2_FOR_ATTR_VALUE, DS_REPL_INFO_METADATA_2_FOR_OBJ, DS_REPL_INFO_METADATA_FOR_ATTR_VALUE, DS_REPL_INFO_METADATA_FOR_OBJ, DS_REPL_INFO_NEIGHBORS, DS_REPL_INFO_PENDING_OPS, DS_REPL_INFO_TYPE, DS_REPL_INFO_TYPE enumeration [Active Directory], _glines_ds_repl_info_type, ad.ds__repl__info__type, ad.ds_repl_info_type, ntdsapi/DS_REPL_INFO_CURSORS_2_FOR_NC, ntdsapi/DS_REPL_INFO_CURSORS_3_FOR_NC, ntdsapi/DS_REPL_INFO_CURSORS_FOR_NC, ntdsapi/DS_REPL_INFO_KCC_DSA_CONNECT_FAILURES, ntdsapi/DS_REPL_INFO_KCC_DSA_LINK_FAILURES, ntdsapi/DS_REPL_INFO_METADATA_2_FOR_ATTR_VALUE, ntdsapi/DS_REPL_INFO_METADATA_2_FOR_OBJ, ntdsapi/DS_REPL_INFO_METADATA_FOR_ATTR_VALUE, ntdsapi/DS_REPL_INFO_METADATA_FOR_OBJ, ntdsapi/DS_REPL_INFO_NEIGHBORS, ntdsapi/DS_REPL_INFO_PENDING_OPS, ntdsapi/DS_REPL_INFO_TYPE
 ms.topic: enum
-f1_keywords: 
- - "ntdsapi/DS_REPL_INFO_TYPE"
+f1_keywords:
+- ntdsapi/DS_REPL_INFO_TYPE
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntdsapi.h
+- Ntdsapi.h
 api_name:
- - DS_REPL_INFO_TYPE
+- DS_REPL_INFO_TYPE
 product: Windows
 targetos: Windows
 req.typenames: DS_REPL_INFO_TYPE
@@ -62,13 +62,13 @@ The <b>DS_REPL_INFO_TYPE</b> enumeration is used with the <a href="https://docs.
 ### -field DS_REPL_INFO_NEIGHBORS
 
 Requests replication state data for naming context and source server pairs. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_neighborsw">DS_REPL_NEIGHBORS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_neighborsw">DS_REPL_NEIGHBORS</a> structure.
 
 
 ### -field DS_REPL_INFO_CURSORS_FOR_NC
 
 Requests replication state data with respect to all replicas of a given naming context. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_cursors">DS_REPL_CURSORS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors">DS_REPL_CURSORS</a> structure.
 
 
 ### -field DS_REPL_INFO_METADATA_FOR_OBJ
@@ -92,7 +92,7 @@ Requests replication state data with respect to link failures between inbound re
 ### -field DS_REPL_INFO_PENDING_OPS
 
 Requests the replication tasks currently executing or queued to execute. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_pending_opsw">DS_REPL_PENDING_OPS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_pending_opsw">DS_REPL_PENDING_OPS</a> structure.
 
 
 ### -field DS_REPL_INFO_METADATA_FOR_ATTR_VALUE
@@ -104,13 +104,13 @@ Requests replication state data for a specific attribute for the given object. R
 ### -field DS_REPL_INFO_CURSORS_2_FOR_NC
 
 Requests replication state data with respect to all replicas of a given naming context. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_cursors_2">DS_REPL_CURSORS_2</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors_2">DS_REPL_CURSORS_2</a> structure.
 
 
 ### -field DS_REPL_INFO_CURSORS_3_FOR_NC
 
 Requests replication state data with respect to all replicas of a given naming context. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_cursors_3w">DS_REPL_CURSORS_3</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors_3w">DS_REPL_CURSORS_3</a> structure.
 
 
 ### -field DS_REPL_INFO_METADATA_2_FOR_OBJ
@@ -142,19 +142,19 @@ Requests replication state data for a specific attribute for the given object. R
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_attr_meta_data_2">DS_REPL_ATTR_VALUE_META_DATA_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_attr_meta_data_2">DS_REPL_ATTR_VALUE_META_DATA_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_cursors">DS_REPL_CURSORS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors">DS_REPL_CURSORS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_cursors_2">DS_REPL_CURSORS_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors_2">DS_REPL_CURSORS_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_cursors_3w">DS_REPL_CURSORS_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors_3w">DS_REPL_CURSORS_3</a>
 
 
 
@@ -162,7 +162,7 @@ Requests replication state data for a specific attribute for the given object. R
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_neighborsw">DS_REPL_NEIGHBORS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_neighborsw">DS_REPL_NEIGHBORS</a>
 
 
 
@@ -174,7 +174,7 @@ Requests replication state data for a specific attribute for the given object. R
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_pending_opsw">DS_REPL_PENDING_OPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_pending_opsw">DS_REPL_PENDING_OPS</a>
 
 
 

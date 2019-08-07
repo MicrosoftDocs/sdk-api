@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddAccessPath, AddAccessPath method [VDS], AddAccessPath method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],AddAccessPath method, IVdsVolumeMF.AddAccessPath, IVdsVolumeMF::AddAccessPath, base.ivdsvolumemf_addaccesspath, vds/IVdsVolumeMF::AddAccessPath
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsVolumeMF.AddAccessPath"
+f1_keywords:
+- vds/IVdsVolumeMF.AddAccessPath
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVolumeMF.AddAccessPath
+- IVdsVolumeMF.AddAccessPath
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -100,7 +100,7 @@ The path was added successfully.
 <td width="60%">
 The access path was added successfully, however, an error occurred. VDS possibly failed to update the 
         GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER attribute of a partition or failed to add a default network share (such as F$) 
-        while adding the drive letter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information_gpt">PARTITION_INFORMATION_GPT</a>.
+        while adding the drive letter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_gpt">PARTITION_INFORMATION_GPT</a>.
 
 </td>
 </tr>

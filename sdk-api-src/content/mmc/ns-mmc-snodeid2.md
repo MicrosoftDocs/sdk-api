@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SNodeID2, SNodeID2 structure [MMC], _slate_snodeid2, mmc.snodeid2, mmc/SNodeID2
 ms.topic: struct
-f1_keywords: 
- - "mmc/SNodeID2"
+f1_keywords:
+- mmc/SNodeID2
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - SNodeID2
+- SNodeID2
 product: Windows
 targetos: Windows
 req.typenames: SNodeID2
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>SNodeID2</b> structure is introduced in MMC 1.2, and replaces the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_snodeid">SNodeID</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-snodeid">SNodeID</a> structure.
 
 The 
 <b>SNodeID2</b> structure is used by the 

@@ -8,10 +8,10 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcestructures\message_resource_entry.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMESSAGE_RESOURCE_ENTRY, MESSAGE_RESOURCE_ENTRY, MESSAGE_RESOURCE_ENTRY structure [Menus and Other Resources], PMESSAGE_RESOURCE_ENTRY, PMESSAGE_RESOURCE_ENTRY structure pointer [Menus and Other Resources], _win32_MESSAGE_RESOURCE_ENTRY_str, _win32_message_resource_entry_str_cpp, menurc.message_resource_entry, winnt/MESSAGE_RESOURCE_ENTRY, winnt/PMESSAGE_RESOURCE_ENTRY, winui._win32_message_resource_entry_str"
+ms.keywords: '*PMESSAGE_RESOURCE_ENTRY, MESSAGE_RESOURCE_ENTRY, MESSAGE_RESOURCE_ENTRY structure [Menus and Other Resources], PMESSAGE_RESOURCE_ENTRY, PMESSAGE_RESOURCE_ENTRY structure pointer [Menus and Other Resources], _win32_MESSAGE_RESOURCE_ENTRY_str, _win32_message_resource_entry_str_cpp, menurc.message_resource_entry, winnt/MESSAGE_RESOURCE_ENTRY, winnt/PMESSAGE_RESOURCE_ENTRY, winui._win32_message_resource_entry_str'
 ms.topic: struct
-f1_keywords: 
- - "winnt/MESSAGE_RESOURCE_ENTRY"
+f1_keywords:
+- winnt/MESSAGE_RESOURCE_ENTRY
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - MESSAGE_RESOURCE_ENTRY
+- MESSAGE_RESOURCE_ENTRY
 product: Windows
 targetos: Windows
 req.typenames: MESSAGE_RESOURCE_ENTRY, *PMESSAGE_RESOURCE_ENTRY
@@ -89,11 +89,11 @@ Pointer to an array that contains the error message or message box display text.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_message_resource_block">MESSAGE_RESOURCE_BLOCK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-message_resource_block">MESSAGE_RESOURCE_BLOCK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_message_resource_data">MESSAGE_RESOURCE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-message_resource_data">MESSAGE_RESOURCE_DATA</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_CURSOR_2, DS_REPL_CURSOR_2 structure [Active Directory], ad.ds_repl_cursor_2, ntdsapi/DS_REPL_CURSOR_2
 ms.topic: struct
-f1_keywords: 
- - "ntdsapi/DS_REPL_CURSOR_2"
+f1_keywords:
+- ntdsapi/DS_REPL_CURSOR_2
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntdsapi.h
+- Ntdsapi.h
 api_name:
- - DS_REPL_CURSOR_2
+- DS_REPL_CURSOR_2
 product: Windows
 targetos: Windows
 req.typenames: DS_REPL_CURSOR_2
@@ -84,7 +84,7 @@ Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_cursors_2">DS_REPL_CURSORS_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors_2">DS_REPL_CURSORS_2</a>
 
 
 

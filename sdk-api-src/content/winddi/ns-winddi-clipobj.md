@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLIPOBJ, CLIPOBJ structure [Display Devices], display.clipobj, grstrcts_028034f6-2370-4e77-be77-7bc8e9ee8504.xml, winddi/CLIPOBJ
 ms.topic: struct
-f1_keywords: 
- - "winddi/CLIPOBJ"
+f1_keywords:
+- winddi/CLIPOBJ
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - CLIPOBJ
+- CLIPOBJ
 product: Windows
 targetos: Windows
 req.typenames: CLIPOBJ
@@ -66,7 +66,7 @@ Specifies a value that uniquely identifies the clip region. If <b>iUniq</b> is n
 
 ### -field rclBounds
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that bounds the part of the region that intersects the drawing. If <b>iDComplexity</b> is DC_RECT, then this is the clipping rectangle to be considered.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that bounds the part of the region that intersects the drawing. If <b>iDComplexity</b> is DC_RECT, then this is the clipping rectangle to be considered.
 
 
 ### -field iDComplexity
@@ -233,7 +233,7 @@ The region, described by CLIPOBJ, can be enumerated as a series of rectangles.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a>
  
 
  

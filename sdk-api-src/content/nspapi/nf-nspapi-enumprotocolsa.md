@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumProtocols, EnumProtocols function [Winsock], EnumProtocolsA, EnumProtocolsW, IPPROTO_TCP, IPPROTO_UDP, ISOPROTO_TP4, NSPROTO_IPX, NSPROTO_SPX, NSPROTO_SPXII, _win32_enumprotocols_2, nspapi/EnumProtocols, nspapi/EnumProtocolsA, nspapi/EnumProtocolsW, winsock.enumprotocols_2
 ms.topic: function
-f1_keywords: 
- - "nspapi/EnumProtocols"
+f1_keywords:
+- nspapi/EnumProtocols
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Mswsock.lib
 req.dll: Mswsock.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mswsock.dll
+- Mswsock.dll
 api_name:
- - EnumProtocols
- - EnumProtocolsA
- - EnumProtocolsW
+- EnumProtocols
+- EnumProtocolsA
+- EnumProtocolsW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -153,7 +153,7 @@ The Sequenced Packet Exchange (SPX) protocol version 2, a connection-oriented st
 ### -param lpProtocolBuffer [out]
 
 A pointer to a buffer that the function fills with an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_protocol_infoa">PROTOCOL_INFO</a> data structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a> data structures.
 
 
 ### -param lpdwBufferLength [in, out]
@@ -171,7 +171,7 @@ On output, the function sets this variable to the minimum buffer size needed to 
 
 
 If the function succeeds, the return value is the number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_protocol_infoa">PROTOCOL_INFO</a> data structures written to the buffer pointed to by <i>lpProtocolBuffer</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a> data structures written to the buffer pointed to by <i>lpProtocolBuffer</i>.
 
 If the function fails, the return value is SOCKET_ERROR(–1). To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which returns the following extended error code.
@@ -189,7 +189,7 @@ If the function fails, the return value is SOCKET_ERROR(–1). To get extended e
 </td>
 <td width="60%">
 The buffer pointed to by <i>lpProtocolBuffer</i> was too small to receive all of the relevant 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_protocol_infoa">PROTOCOL_INFO</a> structures. Call the function with a buffer at least as large as the value returned in *<i>lpdwBufferLength</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a> structures. Call the function with a buffer at least as large as the value returned in *<i>lpdwBufferLength</i>.
 
 </td>
 </tr>
@@ -375,7 +375,7 @@ int FindProtocol (
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_protocol_infoa">PROTOCOL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a>
 
 
 

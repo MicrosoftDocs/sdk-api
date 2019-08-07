@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSYMBOLSERVERCALLBACKPROC, SSRVACTION_EVENT, SSRVACTION_QUERYCANCEL, SSRVACTION_SIZE, SSRVACTION_TRACE, SymbolServerCallback, SymbolServerCallback callback, SymbolServerCallback callback function [Windows API], _win32_symbolservercallback, base.symbolservercallback, dbghelp/SymbolServerCallback, winprog.symbolservercallback
 ms.topic: callback
-f1_keywords: 
- - "dbghelp/SymbolServerCallback"
+f1_keywords:
+- dbghelp/SymbolServerCallback
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - SymbolServerCallback
+- SymbolServerCallback
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,7 +78,7 @@ The action code. This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Provide debug trace information. The <i>data</i> parameter is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a> structure.
+Provide debug trace information. The <i>data</i> parameter is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a> structure.
 
 <b>DbgHelp 6.0 and earlier:  </b>This value is not supported.
 
@@ -155,7 +155,7 @@ To indicate failure, return <b>FALSE</b> and call the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a>
  
 
  

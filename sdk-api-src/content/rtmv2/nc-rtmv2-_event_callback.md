@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RTM_CHANGE_NOTIFICATION, RTM_ENTITY_DEREGISTERED, RTM_ENTITY_REGISTERED, RTM_EVENT_CALLBACK, RTM_EVENT_CALLBACK callback function [RAS], RTM_EVENT_CALLBACK callback function pointer [RAS], RTM_ROUTE_EXPIRED, _EVENT_CALLBACK, _EVENT_CALLBACK callback, _rtmv2ref_rtm_event_callback, rras.rtm_event_callback, rtmv2/RTM_EVENT_CALLBACK
 ms.topic: callback
-f1_keywords: 
- - "rtmv2/RTM_EVENT_CALLBACK"
+f1_keywords:
+- rtmv2/RTM_EVENT_CALLBACK
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Rtmv2.h
+- Rtmv2.h
 api_name:
- - RTM_EVENT_CALLBACK
+- RTM_EVENT_CALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -137,16 +137,16 @@ For RTM_CHANGE_NOTIFICATION calls: Contains the handle to the change notificatio
 ### -param Context2
 
 For RTM_ENTITY_REGISTERED calls: Contains a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_entity_info">RTM_ENTITY_INFO</a> structure referred to by the handle in <i>Context1</i>. If the client must retain this information, the client must copy it to a structure it has allocated. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_info">RTM_ENTITY_INFO</a> structure referred to by the handle in <i>Context1</i>. If the client must retain this information, the client must copy it to a structure it has allocated. 
 
 
 
 
 For RTM_ENTITY_DEREGISTERED calls: Contains a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_entity_info">RTM_ENTITY_INFO</a> structure referred to by the handle in <i>Context1</i>. If the client must retain this information, the client must copy it to a structure it has allocated.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_info">RTM_ENTITY_INFO</a> structure referred to by the handle in <i>Context1</i>. If the client must retain this information, the client must copy it to a structure it has allocated.
 
 For RTM_ROUTE_EXPIRED calls: Contains a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_route_info">RTM_ROUTE_INFO</a> structure referred to by the handle in <i>Context1</i>. If the client must retain this information, the client must copy it to a structure it has allocated.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_route_info">RTM_ROUTE_INFO</a> structure referred to by the handle in <i>Context1</i>. If the client must retain this information, the client must copy it to a structure it has allocated.
 
 For RTM_CHANGE_NOTIFICATION calls: Contains the notification context that was given to the client by a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterforchangenotification">RtmRegisterForChangeNotification</a>.
@@ -187,7 +187,7 @@ If a client receives an
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ne-rtmv2-_rtm_event_type">RTM_EVENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ne-rtmv2-rtm_event_type">RTM_EVENT_TYPE</a>
 
 
 

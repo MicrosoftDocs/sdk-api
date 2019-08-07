@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_KEY_BLOB, BCRYPT_KEY_BLOB structure [Security], bcrypt/BCRYPT_KEY_BLOB, security.bcrypt_key_blob
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/BCRYPT_KEY_BLOB"
+f1_keywords:
+- bcrypt/BCRYPT_KEY_BLOB
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - BCRYPT_KEY_BLOB
+- BCRYPT_KEY_BLOB
 product: Windows
 targetos: Windows
 req.typenames: BCRYPT_KEY_BLOB
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>BCRYPT_KEY_BLOB</b> structure is the base structure for all CNG key BLOBs. All CNG key BLOBs are based on this structure. For example, the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a> structure is based on this structure.
+The <b>BCRYPT_KEY_BLOB</b> structure is the base structure for all CNG key BLOBs. All CNG key BLOBs are based on this structure. For example, the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a> structure is based on this structure.
 
 
 ## -struct-fields
@@ -69,11 +69,11 @@ Specifies the type of key this BLOB represents. The possible values for this mem
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_ecckey_blob">BCRYPT_ECCKEY_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_ecckey_blob">BCRYPT_ECCKEY_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a>
  
 
  

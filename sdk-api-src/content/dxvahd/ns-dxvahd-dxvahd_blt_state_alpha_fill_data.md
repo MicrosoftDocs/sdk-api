@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_BLT_STATE_ALPHA_FILL_DATA, DXVAHD_BLT_STATE_ALPHA_FILL_DATA structure [Media Foundation], dxvahd/DXVAHD_BLT_STATE_ALPHA_FILL_DATA, mf.dxvahd_blt_state_alpha_fill_data
 ms.topic: struct
-f1_keywords: 
- - "dxvahd/DXVAHD_BLT_STATE_ALPHA_FILL_DATA"
+f1_keywords:
+- dxvahd/DXVAHD_BLT_STATE_ALPHA_FILL_DATA
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - DXVAHD_BLT_STATE_ALPHA_FILL_DATA
+- DXVAHD_BLT_STATE_ALPHA_FILL_DATA
 product: Windows
 targetos: Windows
 req.typenames: DXVAHD_BLT_STATE_ALPHA_FILL_DATA
@@ -61,9 +61,9 @@ Specifies how the output alpha values are calculated for blit operations when us
 
 ### -field Mode
 
-Specifies the alpha fill mode, as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_alpha_fill_mode">DXVAHD_ALPHA_FILL_MODE</a> enumeration.
+Specifies the alpha fill mode, as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_alpha_fill_mode">DXVAHD_ALPHA_FILL_MODE</a> enumeration.
 
-If the <b>FeatureCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure does not contain the <b>DXVAHD_FEATURE_CAPS_ALPHA_FILL</b> flag, the alpha fill mode must be set to <b>DXVAHD_ALPHA_FILL_MODE_OPAQUE</b>.
+If the <b>FeatureCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure does not contain the <b>DXVAHD_FEATURE_CAPS_ALPHA_FILL</b> flag, the alpha fill mode must be set to <b>DXVAHD_ALPHA_FILL_MODE_OPAQUE</b>.
 
 The default state value is <b>DXVAHD_ALPHA_FILL_MODE_OPAQUE</b>.
 
@@ -72,7 +72,7 @@ The default state value is <b>DXVAHD_ALPHA_FILL_MODE_OPAQUE</b>.
 
 Zero-based index of the input stream to use for the alpha values. This member is used when the alpha fill mode is <b>DXVAHD_ALPHA_FILL_MODE_SOURCE_STREAM</b>; otherwise, the value is ignored. 
 
-To get the maximum number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps">IDXVAHD_Device::GetVideoProcessorDeviceCaps</a> and check the <b>MaxStreamStates</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure.
+To get the maximum number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps">IDXVAHD_Device::GetVideoProcessorDeviceCaps</a> and check the <b>MaxStreamStates</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure.
 
 
 ## -see-also
@@ -84,7 +84,7 @@ To get the maximum number of streams, call <a href="https://docs.microsoft.com/w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_blt_state">DXVAHD_BLT_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_blt_state">DXVAHD_BLT_STATE</a>
 
 
 

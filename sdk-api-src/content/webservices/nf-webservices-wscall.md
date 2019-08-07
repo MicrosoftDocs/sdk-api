@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCall, WsCall function [Web Services for Windows], webservices/WsCall, wsw.wscall
 ms.topic: function
-f1_keywords: 
- - "webservices/WsCall"
+f1_keywords:
+- webservices/WsCall
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsCall
+- WsCall
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -92,7 +92,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS
 
 ### -param callProperties
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_call_property">WS_CALL_PROPERTY</a> structures containing the call properties.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_call_property">WS_CALL_PROPERTY</a> structures containing the call properties.
                 
 
 

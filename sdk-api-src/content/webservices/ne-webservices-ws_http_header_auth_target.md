@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_TARGET, WS_HTTP_HEADER_AUTH_TARGET enumeration [Web Services for Windows], WS_HTTP_HEADER_AUTH_TARGET_PROXY, WS_HTTP_HEADER_AUTH_TARGET_SERVICE, webservices/WS_HTTP_HEADER_AUTH_TARGET, webservices/WS_HTTP_HEADER_AUTH_TARGET_PROXY, webservices/WS_HTTP_HEADER_AUTH_TARGET_SERVICE, wsw.ws_http_header_auth_target
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_HTTP_HEADER_AUTH_TARGET"
+f1_keywords:
+- webservices/WS_HTTP_HEADER_AUTH_TARGET
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_HTTP_HEADER_AUTH_TARGET
+- WS_HTTP_HEADER_AUTH_TARGET
 product: Windows
 targetos: Windows
 req.typenames: WS_HTTP_HEADER_AUTH_TARGET
@@ -62,14 +62,14 @@ Defines the target for the HTTP header authentication security binding.
 
 ### -field WS_HTTP_HEADER_AUTH_TARGET_SERVICE
 
-Indicates that the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> containing
+Indicates that the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> containing
 this setting authenticates to the server.
                 
 
 
 ### -field WS_HTTP_HEADER_AUTH_TARGET_PROXY
 
-Indicates that the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> containing
+Indicates that the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> containing
 this setting authenticates to the proxy.
                 
 

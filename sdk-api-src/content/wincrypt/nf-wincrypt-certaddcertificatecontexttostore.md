@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddCertificateContextToStore, CertAddCertificateContextToStore function [Security], _crypto2_certaddcertificatecontexttostore, security.certaddcertificatecontexttostore, wincrypt/CertAddCertificateContextToStore
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertAddCertificateContextToStore"
+f1_keywords:
+- wincrypt/CertAddCertificateContextToStore
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertAddCertificateContextToStore
+- CertAddCertificateContextToStore
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ Handle of a certificate store.
 ### -param pCertContext [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure to be added to the store.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure to be added to the store.
 
 
 ### -param dwAddDisposition [in]

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2DataEventArgs interface [IMAPI],get_CurrentAction method, IDiscFormat2DataEventArgs.get_CurrentAction, IDiscFormat2DataEventArgs::get_CurrentAction, get_CurrentAction, get_CurrentAction method [IMAPI], get_CurrentAction method [IMAPI],IDiscFormat2DataEventArgs interface, imapi.idiscformat2dataeventargs_get_currentaction, imapi2/IDiscFormat2DataEventArgs::get_CurrentAction
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2DataEventArgs.get_CurrentAction"
+f1_keywords:
+- imapi2/IDiscFormat2DataEventArgs.get_CurrentAction
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2DataEventArgs.get_CurrentAction
+- IDiscFormat2DataEventArgs.get_CurrentAction
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Retrieves the current write action being performed.
 
 ### -param value [out]
 
-Current write action being performed. For a list of possible actions, see  the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_format2_data_write_action">IMAPI_FORMAT2_DATA_WRITE_ACTION</a> enumeration type.
+Current write action being performed. For a list of possible actions, see  the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_format2_data_write_action">IMAPI_FORMAT2_DATA_WRITE_ACTION</a> enumeration type.
 
 
 ## -returns

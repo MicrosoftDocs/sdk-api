@@ -8,10 +8,10 @@ tech.root: NetShare
 ms.assetid: c80090d5-7064-4809-9185-02116f7ac2ef
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPFILE_INFO_2, *PFILE_INFO_2, FILE_INFO_2, FILE_INFO_2 structure [Files], LPFILE_INFO_2, LPFILE_INFO_2 structure pointer [Files], PFILE_INFO_2, PFILE_INFO_2 structure pointer [Files], _win32_file_info_2_str, fs.file_info_2_str, lmshare/FILE_INFO_2, lmshare/LPFILE_INFO_2, lmshare/PFILE_INFO_2, netmgmt.file_info_2_str"
+ms.keywords: '*LPFILE_INFO_2, *PFILE_INFO_2, FILE_INFO_2, FILE_INFO_2 structure [Files], LPFILE_INFO_2, LPFILE_INFO_2 structure pointer [Files], PFILE_INFO_2, PFILE_INFO_2 structure pointer [Files], _win32_file_info_2_str, fs.file_info_2_str, lmshare/FILE_INFO_2, lmshare/LPFILE_INFO_2, lmshare/PFILE_INFO_2, netmgmt.file_info_2_str'
 ms.topic: struct
-f1_keywords: 
- - "lmshare/FILE_INFO_2"
+f1_keywords:
+- lmshare/FILE_INFO_2
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmshare.h
+- Lmshare.h
 api_name:
- - FILE_INFO_2
+- FILE_INFO_2
 product: Windows
 targetos: Windows
 req.typenames: FILE_INFO_2, *PFILE_INFO_2, *LPFILE_INFO_2
@@ -69,7 +69,7 @@ Specifies a DWORD value that contains the identification number assigned to the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_file_info_3">FILE_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-file_info_3">FILE_INFO_3</a>
 
 
 

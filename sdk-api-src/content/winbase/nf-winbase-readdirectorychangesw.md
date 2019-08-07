@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILE_NOTIFY_CHANGE_ATTRIBUTES, FILE_NOTIFY_CHANGE_CREATION, FILE_NOTIFY_CHANGE_DIR_NAME, FILE_NOTIFY_CHANGE_FILE_NAME, FILE_NOTIFY_CHANGE_LAST_ACCESS, FILE_NOTIFY_CHANGE_LAST_WRITE, FILE_NOTIFY_CHANGE_SECURITY, FILE_NOTIFY_CHANGE_SIZE, ReadDirectoryChangesW, ReadDirectoryChangesW function [Files], _win32_readdirectorychangesw, base.readdirectorychangesw, fs.readdirectorychangesw, winbase/ReadDirectoryChangesW
 ms.topic: function
-f1_keywords: 
- - "winbase/ReadDirectoryChangesW"
+f1_keywords:
+- winbase/ReadDirectoryChangesW
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l2-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l2-1-1.dll
- - API-MS-Win-Core-File-l2-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l2-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l2-1-1.dll
+- API-MS-Win-Core-File-l2-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
 api_name:
- - ReadDirectoryChangesW
+- ReadDirectoryChangesW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -220,7 +220,7 @@ For synchronous calls, this parameter receives the number of bytes transferred i
 
 ### -param lpOverlapped [in, out, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure that supplies 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that supplies 
       data to be used during asynchronous operation. Otherwise, this value is <b>NULL</b>. The 
       <b>Offset</b> and <b>OffsetHigh</b> members of this structure are not 
       used.
@@ -260,7 +260,7 @@ A call to <b>ReadDirectoryChangesW</b> can be
     completed synchronously or asynchronously. To specify asynchronous completion, open the directory with 
     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> as shown above, but additionally specify the 
     <b>FILE_FLAG_OVERLAPPED</b> attribute in the <i>dwFlagsAndAttributes</i> 
-    parameter. Then specify an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure when you 
+    parameter. Then specify an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure when you 
     call <b>ReadDirectoryChangesW</b>.
 
 When you first call **ReadDirectoryChangesW**, the system allocates a buffer to store change information. This buffer is associated with the directory handle until it is closed and its size does not change during its lifetime. Directory changes that occur between calls to this function are added to the buffer and then returned with the next call. If the buffer overflows, **ReadDirectoryChangesW** will still return **true**, but the entire contents of the buffer are discarded and the *lpBytesReturned* parameter will be zero, which indicates that your buffer was too small to hold all of the changes that occurred.
@@ -279,7 +279,7 @@ For asynchronous completion, you can receive notification in one of three ways:
       <b>GetOverlappedResult</b>, do not specify a completion 
       routine in the <i>lpCompletionRoutine</i> parameter. Be sure to set the 
       <b>hEvent</b> member of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure to a unique event.</li>
+      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure to a unique event.</li>
 <li>Using the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> 
       function. To receive notification through 
       <b>GetQueuedCompletionStatus</b>, do not specify 
@@ -290,7 +290,7 @@ For asynchronous completion, you can receive notification in one of three ways:
       directory with a completion port. Specify a completion routine in <i>lpCompletionRoutine</i>. 
       This routine is called whenever the operation has been completed or canceled while the thread is in an alertable 
       wait state. The <b>hEvent</b> member of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure is not used by the system, so you 
+      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure is not used by the system, so you 
       can use it yourself.</li>
 </ul>
  For more information, see 
@@ -408,7 +408,7 @@ If there is a transaction bound to the directory handle, then the notifications 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
  
 
  

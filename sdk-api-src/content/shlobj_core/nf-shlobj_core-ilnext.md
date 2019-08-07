@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILNext, ILNext function [Windows Shell], ILNext(PCUIDLIST_RELATIVE), _shell_ILNext_PCUIDLIST_RELATIVE, shell.ILNext_PCUIDLIST_RELATIVE, shlobj_core/ILNext
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/ILNext"
+f1_keywords:
+- shlobj_core/ILNext
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - ILNext
+- ILNext
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the next <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure in an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
+Retrieves the next <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure in an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Retrieves the next <a href="https://docs.microsoft.com/windows/desktop/api/shtyp
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A constant, unaligned, relative PIDL for which the next <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure is being retrieved.
+A constant, unaligned, relative PIDL for which the next <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure is being retrieved.
 
 
 ## -returns
@@ -72,7 +72,7 @@ A constant, unaligned, relative PIDL for which the next <a href="https://docs.mi
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-When this function returns, contains one of three results: If <i>pidl</i> is valid and not the last <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a>, then it contains a pointer to the next <b>ITEMIDLIST</b> structure. If the last <b>ITEMIDLIST</b> structure is passed, it contains <b>NULL</b>, which signals the end of the PIDL. For other values of <i>pidl</i>, the return value is meaningless.
+When this function returns, contains one of three results: If <i>pidl</i> is valid and not the last <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a>, then it contains a pointer to the next <b>ITEMIDLIST</b> structure. If the last <b>ITEMIDLIST</b> structure is passed, it contains <b>NULL</b>, which signals the end of the PIDL. For other values of <i>pidl</i>, the return value is meaningless.
 
 
 

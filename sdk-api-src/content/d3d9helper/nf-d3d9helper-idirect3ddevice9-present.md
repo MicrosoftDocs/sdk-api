@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],Present method, IDirect3DDevice9.Present, IDirect3DDevice9::Present, Present, Present method [Direct3D 9], Present method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::Present, dec6b9d2-0577-093b-3855-599ed58adc87, direct3d9.idirect3ddevice9__present
 ms.topic: method
-f1_keywords: 
- - "d3d9helper/IDirect3DDevice9.Present"
+f1_keywords:
+- d3d9helper/IDirect3DDevice9.Present
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.Present
+- IDirect3DDevice9.Present
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,7 +83,7 @@ Pointer to a destination window whose client area is taken as the target for thi
 
 ### -param pDirtyRegion [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_rgndata">RGNDATA</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a>*</b>
 
 Value must be <b>NULL</b> unless the swap chain was created with D3DSWAPEFFECT_COPY. For more information about swap chains, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/flipping-surfaces">Flipping Surfaces (Direct3D 9)</a> and <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dswapeffect">D3DSWAPEFFECT</a>. If this value is non-<b>NULL</b>, the contained region is expressed in back buffer coordinates. The rectangles within the region are the minimal set of pixels that need to be updated. This method takes these rectangles into account when optimizing the presentation by copying only the pixels within the region, or some suitably expanded set of rectangles. This is an aid to optimization only, and the application should not rely on the region being copied exactly. The implementation can choose to copy the whole source rectangle. 
 

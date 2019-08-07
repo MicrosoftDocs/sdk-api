@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CallPackageEx, CallPackageEx callback function [Security], LSA_CALL_PACKAGEEX, LSA_CALL_PACKAGEEX callback, _ssp_callpackageex, ntsecpkg/CallPackageEx, security.callpackageex
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/CallPackageEx"
+f1_keywords:
+- ntsecpkg/CallPackageEx
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - CallPackageEx
+- CallPackageEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>CallPackageEx</b> function is used to call another <a href="https://docs.
 ### -param AuthenticationPackage [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">authentication package</a> to call.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">authentication package</a> to call.
 
 
 ### -param ClientBufferBase [in]
@@ -130,7 +130,7 @@ The <i>AuthenticationPackage</i> parameter does not contain the name of a valid 
 
 
 A pointer to the <b>CallPackageEx</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 
@@ -145,7 +145,7 @@ A pointer to the <b>CallPackageEx</b> function is available in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 

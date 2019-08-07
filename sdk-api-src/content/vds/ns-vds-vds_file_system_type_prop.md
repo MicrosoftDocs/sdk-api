@@ -8,10 +8,10 @@ tech.root: VDS
 ms.assetid: 92383a59-d7dd-419b-b6d0-959fef41ad4e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVDS_FILE_SYSTEM_TYPE_PROP, PVDS_FILE_SYSTEM_TYPE_PROP, PVDS_FILE_SYSTEM_TYPE_PROP structure pointer [VDS], VDS_FILE_SYSTEM_TYPE_PROP, VDS_FILE_SYSTEM_TYPE_PROP structure [VDS], base.vds_file_system_type_prop, vds/PVDS_FILE_SYSTEM_TYPE_PROP, vds/_VDS_FILE_SYSTEM_TYPE_PROP"
+ms.keywords: '*PVDS_FILE_SYSTEM_TYPE_PROP, PVDS_FILE_SYSTEM_TYPE_PROP, PVDS_FILE_SYSTEM_TYPE_PROP structure pointer [VDS], VDS_FILE_SYSTEM_TYPE_PROP, VDS_FILE_SYSTEM_TYPE_PROP structure [VDS], base.vds_file_system_type_prop, vds/PVDS_FILE_SYSTEM_TYPE_PROP, vds/_VDS_FILE_SYSTEM_TYPE_PROP'
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_FILE_SYSTEM_TYPE_PROP"
+f1_keywords:
+- vds/VDS_FILE_SYSTEM_TYPE_PROP
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - VDS_FILE_SYSTEM_TYPE_PROP
+- VDS_FILE_SYSTEM_TYPE_PROP
 product: Windows
 targetos: Windows
 req.typenames: VDS_FILE_SYSTEM_TYPE_PROP, *PVDS_FILE_SYSTEM_TYPE_PROP
@@ -63,7 +63,7 @@ Defines the properties of a file system type.
 
 ### -field type
 
-The file system types enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>. Valid types are FAT, FAT32, NTFS, CDFS and UDF.
+The file system types enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>. Valid types are FAT, FAT32, NTFS, CDFS and UDF.
 
 
 ### -field wszName
@@ -117,7 +117,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>
  
 
  

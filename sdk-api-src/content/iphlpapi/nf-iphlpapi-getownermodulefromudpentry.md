@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOwnerModuleFromUdpEntry, GetOwnerModuleFromUdpEntry function [IP Helper], iphlp.getownermodulefromudpentry, iphlpapi/GetOwnerModuleFromUdpEntry
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/GetOwnerModuleFromUdpEntry"
+f1_keywords:
+- iphlpapi/GetOwnerModuleFromUdpEntry
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetOwnerModuleFromUdpEntry
+- GetOwnerModuleFromUdpEntry
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/des
 
 ### -param Class [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcpip_owner_module_info_class">TCPIP_OWNER_MODULE_INFO_CLASS</a> enumeration value that indicates the type of data to obtain regarding the owner module.
+A <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-tcpip_owner_module_info_class">TCPIP_OWNER_MODULE_INFO_CLASS</a> enumeration value that indicates the type of data to obtain regarding the owner module.
 
 
 ### -param pBuffer [out]

@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 798aa2d7-bf8a-425f-bc36-98a44ba3a9d6
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_REVOCATION_INFO, CERT_REVOCATION_INFO, CERT_REVOCATION_INFO structure [Security], PCERT_REVOCATION_INFO, PCERT_REVOCATION_INFO structure pointer [Security], _crypto2_cert_revocation_info, security.cert_revocation_info, wincrypt/CERT_REVOCATION_INFO, wincrypt/PCERT_REVOCATION_INFO"
+ms.keywords: '*PCERT_REVOCATION_INFO, CERT_REVOCATION_INFO, CERT_REVOCATION_INFO structure [Security], PCERT_REVOCATION_INFO, PCERT_REVOCATION_INFO structure pointer [Security], _crypto2_cert_revocation_info, security.cert_revocation_info, wincrypt/CERT_REVOCATION_INFO, wincrypt/PCERT_REVOCATION_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_REVOCATION_INFO"
+f1_keywords:
+- wincrypt/CERT_REVOCATION_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_REVOCATION_INFO
+- CERT_REVOCATION_INFO
 product: Windows
 targetos: Windows
 req.typenames: CERT_REVOCATION_INFO, *PCERT_REVOCATION_INFO
@@ -103,7 +103,7 @@ For CRL base revocation checking, a non-<b>NULL</b> pointer to a CERT_REVOCATION
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_element">CERT_CHAIN_ELEMENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_element">CERT_CHAIN_ELEMENT</a>
  
 
  

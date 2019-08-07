@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFolder, GetFolder method [Windows Shell], GetFolder method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],GetFolder method, IKnownFolderManager.GetFolder, IKnownFolderManager::GetFolder, _shell_IKnownFolderManager_GetFolder, shell.IKnownFolderManager_GetFolder, shobjidl_core/IKnownFolderManager::GetFolder
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IKnownFolderManager.GetFolder"
+f1_keywords:
+- shobjidl_core/IKnownFolderManager.GetFolder
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IKnownFolderManager.GetFolder
+- IKnownFolderManager.GetFolder
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an object that represents a known folder identified by its <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>. The object allows you to query certain folder properties, get the current path of the folder, redirect the folder to another location, and get the path of the folder as an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a>.
+Gets an object that represents a known folder identified by its <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>. The object allows you to query certain folder properties, get the current path of the folder, redirect the folder to another location, and get the path of the folder as an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a>.
 
 
 ## -parameters

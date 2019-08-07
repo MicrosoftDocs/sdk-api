@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindFirstStreamTransactedW, FindFirstStreamTransactedW function [Files], FindStreamInfoStandard, fs.findfirststreamtransactedw, winbase/FindFirstStreamTransactedW
 ms.topic: function
-f1_keywords: 
- - "winbase/FindFirstStreamTransactedW"
+f1_keywords:
+- winbase/FindFirstStreamTransactedW
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - FindFirstStreamTransactedW
+- FindFirstStreamTransactedW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -92,7 +92,7 @@ The information level of the returned data. This parameter is one of the values 
 </td>
 <td width="60%">
 The data is returned in a 
-        <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_win32_find_stream_data">WIN32_FIND_STREAM_DATA</a> structure.
+        <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-win32_find_stream_data">WIN32_FIND_STREAM_DATA</a> structure.
 
 </td>
 </tr>
@@ -236,7 +236,7 @@ SMB 3.0 does not support TxF.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_win32_find_stream_data">WIN32_FIND_STREAM_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-win32_find_stream_data">WIN32_FIND_STREAM_DATA</a>
  
 
  

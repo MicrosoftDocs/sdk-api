@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTransform interface [Media Foundation],ProcessOutput method, IMFTransform.ProcessOutput, IMFTransform::ProcessOutput, ProcessOutput, ProcessOutput method [Media Foundation], ProcessOutput method [Media Foundation],IMFTransform interface, dc58cc75-7e01-4f47-a572-8e3ca1bc43b4, mf.imftransform_processoutput, mftransform/IMFTransform::ProcessOutput
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFTransform.ProcessOutput"
+f1_keywords:
+- mftransform/IMFTransform.ProcessOutput
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTransform.ProcessOutput
+- IMFTransform.ProcessOutput
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ Number of elements in the <i>pOutputSamples</i> array. The value must be at leas
 
 ### -param pOutputSamples [in, out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structures, allocated by the caller. The MFT uses this array to return output data to the caller.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structures, allocated by the caller. The MFT uses this array to return output data to the caller.
           
 
 
@@ -127,7 +127,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftra
 </dl>
 </td>
 <td width="60%">
-Invalid stream identifier in the <b>dwStreamID</b> member of one or more <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structures.
+Invalid stream identifier in the <b>dwStreamID</b> member of one or more <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structures.
               
 
 </td>
@@ -194,7 +194,7 @@ This method generates output samples and can also generate events. If the method
 If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including Mftransform.h, this method is renamed <b>MFTProcessOutput</b>. See <a href="https://docs.microsoft.com/windows/desktop/medfound/comparison-of-mfts-and-dmos">Creating Hybrid DMO/MFT Objects</a>.
 
 <h3><a id="Output_Buffers"></a><a id="output_buffers"></a><a id="OUTPUT_BUFFERS"></a>Output Buffers</h3>
-The MFT returns output data for a stream through the <b>pSample</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure. This structure member is a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of a media sample. (See <a href="https://docs.microsoft.com/windows/desktop/medfound/media-samples">Media Samples</a>.) The media sample is allocated either by the caller or by the MFT, depending on the MFT's allocation model. To find the allocation model, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreaminfo">IMFTransform::GetOutputStreamInfo</a> and examine the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_output_stream_info">MFT_OUTPUT_STREAM_INFO</a> structure:
+The MFT returns output data for a stream through the <b>pSample</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure. This structure member is a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of a media sample. (See <a href="https://docs.microsoft.com/windows/desktop/medfound/media-samples">Media Samples</a>.) The media sample is allocated either by the caller or by the MFT, depending on the MFT's allocation model. To find the allocation model, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreaminfo">IMFTransform::GetOutputStreamInfo</a> and examine the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_output_stream_info">MFT_OUTPUT_STREAM_INFO</a> structure:
 
 <ul>
 <li>If the <b>MFT_OUTPUT_STREAM_PROVIDES_SAMPLES</b> flag is present, the MFT allocates the media sample.
@@ -210,16 +210,16 @@ If the caller allocates the media sample, the media sample must contain a buffer
 
 If the MFT allocates the sample, the MFT also allocates the buffers for the sample.
 
-If the MFT has multiple output streams, the streams might produce output at different rates, so some streams might have output while other streams do not. If a stream did not any produce output, the MFT sets the <b>MFT_OUTPUT_DATA_BUFFER_NO_SAMPLE</b> flag in the <b>dwStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure for that stream. In that case, if the caller allocated <b>pSample</b>, the buffers in the sample do not contain any valid data. If the caller did not allocate <b>pSample</b>, the <b>MFT_OUTPUT_DATA_BUFFER_NO_SAMPLE</b> flag indicates that <b>pSample</b> still equals <b>NULL</b> after the method returns.
+If the MFT has multiple output streams, the streams might produce output at different rates, so some streams might have output while other streams do not. If a stream did not any produce output, the MFT sets the <b>MFT_OUTPUT_DATA_BUFFER_NO_SAMPLE</b> flag in the <b>dwStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure for that stream. In that case, if the caller allocated <b>pSample</b>, the buffers in the sample do not contain any valid data. If the caller did not allocate <b>pSample</b>, the <b>MFT_OUTPUT_DATA_BUFFER_NO_SAMPLE</b> flag indicates that <b>pSample</b> still equals <b>NULL</b> after the method returns.
 
 If no output streams have data, and the MFT has no events to return, then <b>ProcessOutput</b> returns <b>MF_E_TRANSFORM_NEED_MORE_INPUT</b>.
 
-The MFT cannot return more than one sample per stream in a single call to <b>ProcessOutput</b>. If there is more output data available for a stream after <b>ProcessOutput</b> returns, the MFT sets the <b>MFT_OUTPUT_DATA_BUFFER_INCOMPLETE</b> flag in the <b>dwStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure for that stream.
+The MFT cannot return more than one sample per stream in a single call to <b>ProcessOutput</b>. If there is more output data available for a stream after <b>ProcessOutput</b> returns, the MFT sets the <b>MFT_OUTPUT_DATA_BUFFER_INCOMPLETE</b> flag in the <b>dwStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure for that stream.
 
 If the MFT has enough data to produce output, it should refuse to accept any more input until <b>ProcessOutput</b> has been called enough times to pull all of the available output. (An exception is when the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreaminfo">IMFTransform::GetOutputStreamInfo</a> method returns the <b>MFT_OUTPUT_STREAM_LAZY_READ</b> flag.) Generally, an MFT with multiple output streams should produce output for a stream as soon as possible, and not wait for all of the streams to have output.
 
 <h3><a id="In-Band_Events"></a><a id="in-band_events"></a><a id="IN-BAND_EVENTS"></a>In-Band Events</h3>
-The MFT can return a collection of event objects in the <b>pEvents</b> member of each <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure. The MFT allocates both the collection object and the events.
+The MFT can return a collection of event objects in the <b>pEvents</b> member of each <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure. The MFT allocates both the collection object and the events.
 
 To send an event to the caller, the MFT performs the following steps inside <b>ProcessOutput</b>:
 
@@ -228,14 +228,14 @@ To send an event to the caller, the MFT performs the following steps inside <b>P
             </li>
 <li>Add one or more events to the collection by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-addelement">IMFCollection::AddElement</a>.
             </li>
-<li>Set the <b>pEvents</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure equal to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a> pointer. The MFT leaves a reference count on this interface; the caller must release the pointer.
+<li>Set the <b>pEvents</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure equal to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a> pointer. The MFT leaves a reference count on this interface; the caller must release the pointer.
             </li>
 </ol>
 Events do not have time stamps. The caller should process the events before processing the output samples. In other words, events occur at the point in the stream immediately after the previous call to <b>ProcessOutput</b>, and prior to any output samples returned from the current <b>ProcessOutput</b> call.
 
 It is valid for the <b>ProcessOutput</b> method to return one or more events and zero output samples.
 
-The caller is responsible for releasing any events that the MFT allocates. When the method returns, check the <b>pEvents</b> member of each <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure. If the value is not <b>NULL</b>, the caller must release the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a> interface pointer:
+The caller is responsible for releasing any events that the MFT allocates. When the method returns, check the <b>pEvents</b> member of each <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure. If the value is not <b>NULL</b>, the caller must release the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a> interface pointer:
 
 
 ```cpp
@@ -261,11 +261,11 @@ An MFT should not use the <a href="https://docs.microsoft.com/windows/desktop/ap
 The <b>ProcessOutput</b> method can cause any of the following changes in an output stream:
 
 <ul>
-<li>The deletion of an output stream. To signal a stream deletion, the MFT sets the <b>MFT_OUTPUT_DATA_BUFFER_STREAM_END</b> flag in the <b>dwStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure for that stream.
+<li>The deletion of an output stream. To signal a stream deletion, the MFT sets the <b>MFT_OUTPUT_DATA_BUFFER_STREAM_END</b> flag in the <b>dwStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure for that stream.
             </li>
 <li>The creation of a new output stream. To signal a new output stream, the MFT sets the <b>MFT_PROCESS_OUTPUT_STATUS_NEW_STREAMS</b> flag in the <i>pdwStatus</i> parameter. A new stream can have the same stream identifier as a deleted stream.
             </li>
-<li>A format change on an output stream. To signal a format change, the MFT sets the <b>MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE</b> flag in the <b>dwStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure for that stream.
+<li>A format change on an output stream. To signal a format change, the MFT sets the <b>MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE</b> flag in the <b>dwStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure for that stream.
             </li>
 </ul>
 It is possible that all three of these actions will result from a single call to <b>ProcessOutput</b>. The caller must respond to them in the order listed here—first deletions, then additions, then format changes.

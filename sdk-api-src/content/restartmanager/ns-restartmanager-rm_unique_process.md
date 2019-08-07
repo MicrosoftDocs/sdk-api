@@ -8,10 +8,10 @@ tech.root: rstmgr
 ms.assetid: 5e3698c7-1ea8-4f9d-8fae-e69055a000fc
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS structure [Restart Mgr], RM_UNIQUE_PROCESS, RM_UNIQUE_PROCESS structure [Restart Mgr], restartmanager/*PRM_UNIQUE_PROCESS, restartmanager/_RM_UNIQUE_PROCESS, rstmgr.rm_unique_process"
+ms.keywords: '*PRM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS structure [Restart Mgr], RM_UNIQUE_PROCESS, RM_UNIQUE_PROCESS structure [Restart Mgr], restartmanager/*PRM_UNIQUE_PROCESS, restartmanager/_RM_UNIQUE_PROCESS, rstmgr.rm_unique_process'
 ms.topic: struct
-f1_keywords: 
- - "restartmanager/RM_UNIQUE_PROCESS"
+f1_keywords:
+- restartmanager/RM_UNIQUE_PROCESS
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - RestartManager.h
+- RestartManager.h
 api_name:
- - RM_UNIQUE_PROCESS
+- RM_UNIQUE_PROCESS
 product: Windows
 targetos: Windows
 req.typenames: RM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS
@@ -73,7 +73,7 @@ The creation time of the process. The time is provided as a <b>FILETIME</b> stru
 
 
 
-The <b>RM_UNIQUE_PROCESS</b> structure can be used to uniquely identify an application in an <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_process_info">RM_PROCESS_INFO</a> structure or  registered with the Restart Manager session by the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmregisterresources">RmRegisterResources</a> function.
+The <b>RM_UNIQUE_PROCESS</b> structure can be used to uniquely identify an application in an <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a> structure or  registered with the Restart Manager session by the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmregisterresources">RmRegisterResources</a> function.
 
 
 

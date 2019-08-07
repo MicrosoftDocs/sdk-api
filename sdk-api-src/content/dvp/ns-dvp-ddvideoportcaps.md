@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: ea85f189-7308-48ad-b159-1809749f8183
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDDVIDEOPORTCAPS, DDVIDEOPORTCAPS, DDVIDEOPORTCAPS structure [Display Devices], ddstrcts_6955b71e-772c-41a5-9aa0-7d0247fc9d0a.xml, display.ddvideoportcaps, dvp/DDVIDEOPORTCAPS"
+ms.keywords: '*LPDDVIDEOPORTCAPS, DDVIDEOPORTCAPS, DDVIDEOPORTCAPS structure [Display Devices], ddstrcts_6955b71e-772c-41a5-9aa0-7d0247fc9d0a.xml, display.ddvideoportcaps, dvp/DDVIDEOPORTCAPS'
 ms.topic: struct
-f1_keywords: 
- - "dvp/DDVIDEOPORTCAPS"
+f1_keywords:
+- dvp/DDVIDEOPORTCAPS
 req.header: dvp.h
 req.include-header: Dvp.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dvp.h
+- dvp.h
 api_name:
- - DDVIDEOPORTCAPS
+- DDVIDEOPORTCAPS
 product: Windows
 targetos: Windows
-req.typenames: "*LPDDVIDEOPORTCAPS, DDVIDEOPORTCAPS"
+req.typenames: '*LPDDVIDEOPORTCAPS, DDVIDEOPORTCAPS'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -172,7 +172,7 @@ Specifies the maximum field height in pixels supported by the hardware video por
 
 ### -field dwVideoPortID
 
-Specifies the hardware video port ID for this entry. This member should be the index number of this DDVIDEOPORTCAPS structure within the array to which the <b>lpDDVideoPortCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure points. This value ranges from 0 to (<b>dwMaxVideoPorts</b> - 1). (<b>dwMaxVideoPorts</b> is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-_ddcorecaps">DDCORECAPS</a> structure.) If the device supports only one hardware video port, this member should be zero.
+Specifies the hardware video port ID for this entry. This member should be the index number of this DDVIDEOPORTCAPS structure within the array to which the <b>lpDDVideoPortCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure points. This value ranges from 0 to (<b>dwMaxVideoPorts</b> - 1). (<b>dwMaxVideoPorts</b> is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a> structure.) If the device supports only one hardware video port, this member should be zero.
 
 
 ### -field dwCaps
@@ -590,11 +590,11 @@ The driver reports the capabilities described by the DDVIDEOPORTCAPS structure w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-_ddcorecaps">DDCORECAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a>
 
 
 

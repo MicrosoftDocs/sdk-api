@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddExtension, AddExtension method [MMC], AddExtension method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace2 interface [MMC],AddExtension method, IConsoleNameSpace2.AddExtension, IConsoleNameSpace2::AddExtension, _slate_iconsolenamespace2_addextension, mmc.iconsolenamespace2_addextension, mmc/IConsoleNameSpace2::AddExtension
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsoleNameSpace2.AddExtension"
+f1_keywords:
+- mmc/IConsoleNameSpace2.AddExtension
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsoleNameSpace2.AddExtension
+- IConsoleNameSpace2.AddExtension
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -98,7 +98,7 @@ IComponentData object.
 <div> </div>
 To dynamically add other types of extensions (such as context menus, toolbars, property sheets, or taskpads), the snap-in must add the new clipboard format CCF_MMC_DYNAMIC_EXTENSIONS to the data object for the items you want to extend. The 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-mmc-dynamic-extensions">CCF_MMC_DYNAMIC_EXTENSIONS</a> format uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_smmcobjecttypes">SMMCDynamicExtensions</a> structure. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-smmcobjecttypes">SMMCDynamicExtensions</a> structure. For more information, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/dynamic-non-namespace-extensions">Dynamic Non-Namespace Extensions</a>.
 
 If an extension snap-in is intended to be used as a dynamic extension only, that extension snap-in should not be listed in the Available Extensions list box when the primary snap-in is selected in the Snap-in that can be extended box on the snap-in manager's extensions page. To hide an extension in the snap-in manager, add the key "Dynamic Extensions" to the key that represents the node type of the item you want to extend. Then put the CLSIDs of the snap-ins that should only dynamically extend the node type as values under the new key.

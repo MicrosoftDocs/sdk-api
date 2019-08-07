@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: cdbaf38d-ddbe-4be0-afbc-f8bd76ef4847
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_ATTRIBUTE, CRYPT_ATTRIBUTE, CRYPT_ATTRIBUTE structure [Security], PCRYPT_ATTRIBUTE, PCRYPT_ATTRIBUTE structure pointer [Security], _crypto2_crypt_attribute, security.crypt_attribute, wincrypt/CRYPT_ATTRIBUTE, wincrypt/PCRYPT_ATTRIBUTE"
+ms.keywords: '*PCRYPT_ATTRIBUTE, CRYPT_ATTRIBUTE, CRYPT_ATTRIBUTE structure [Security], PCRYPT_ATTRIBUTE, PCRYPT_ATTRIBUTE structure pointer [Security], _crypto2_crypt_attribute, security.crypt_attribute, wincrypt/CRYPT_ATTRIBUTE, wincrypt/PCRYPT_ATTRIBUTE'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_ATTRIBUTE"
+f1_keywords:
+- wincrypt/CRYPT_ATTRIBUTE
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_ATTRIBUTE
+- CRYPT_ATTRIBUTE
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_ATTRIBUTE, *PCRYPT_ATTRIBUTE
@@ -79,7 +79,7 @@ Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_request_info">CERT_REQUEST_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_request_info">CERT_REQUEST_INFO</a>
 
 
 
@@ -95,11 +95,11 @@ Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_sign_message_para">CRYPT_SIGN_MESSAGE_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_sign_message_para">CRYPT_SIGN_MESSAGE_PARA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_time_stamp_request_info">CRYPT_TIME_STAMP_REQUEST_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_time_stamp_request_info">CRYPT_TIME_STAMP_REQUEST_INFO</a>
 
 
 

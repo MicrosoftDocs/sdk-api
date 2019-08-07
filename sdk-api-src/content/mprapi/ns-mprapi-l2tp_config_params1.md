@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 7459054f-62c6-4ead-b969-884efc75ea80
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PL2TP_CONFIG_PARAMS1, L2TP_CONFIG_PARAMS, L2TP_CONFIG_PARAMS structure [RAS], L2TP_CONFIG_PARAMS0, L2TP_CONFIG_PARAMS1, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING_ON_DEVICE, _L2TP_CONFIG_PARAMS0, _L2TP_CONFIG_PARAMS1, mprapi/L2TP_CONFIG_PARAMS, rras.l2tp_config_params"
+ms.keywords: '*PL2TP_CONFIG_PARAMS1, L2TP_CONFIG_PARAMS, L2TP_CONFIG_PARAMS structure [RAS], L2TP_CONFIG_PARAMS0, L2TP_CONFIG_PARAMS1, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING_ON_DEVICE, _L2TP_CONFIG_PARAMS0, _L2TP_CONFIG_PARAMS1, mprapi/L2TP_CONFIG_PARAMS, rras.l2tp_config_params'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/L2TP_CONFIG_PARAMS"
+f1_keywords:
+- mprapi/L2TP_CONFIG_PARAMS
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - L2TP_CONFIG_PARAMS
- - L2TP_CONFIG_PARAMS0
- - L2TP_CONFIG_PARAMS1
+- L2TP_CONFIG_PARAMS
+- L2TP_CONFIG_PARAMS0
+- L2TP_CONFIG_PARAMS1
 product: Windows
 targetos: Windows
 req.typenames: L2TP_CONFIG_PARAMS1, *PL2TP_CONFIG_PARAMS1
@@ -159,7 +159,7 @@ If set, routing is enabled on the device.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mprapi_tunnel_config_params0">MPRAPI_TUNNEL_CONFIG_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mprapi_tunnel_config_params0">MPRAPI_TUNNEL_CONFIG_PARAMS</a>
 
 
 

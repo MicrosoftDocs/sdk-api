@@ -8,10 +8,10 @@ tech.root: usbref
 ms.assetid: 415eefbb-e39a-43fa-9fff-49799f74fbd6
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PUSBUSER_GET_DRIVER_VERSION, PUSBUSER_GET_DRIVER_VERSION, PUSBUSER_GET_DRIVER_VERSION structure pointer [Buses], USBUSER_GET_DRIVER_VERSION, USBUSER_GET_DRIVER_VERSION structure [Buses], buses.usbuser_get_driver_version, usbstrct_adb61812-7474-4eae-bf31-9b2c9a03962f.xml, usbuser/PUSBUSER_GET_DRIVER_VERSION, usbuser/USBUSER_GET_DRIVER_VERSION"
+ms.keywords: '*PUSBUSER_GET_DRIVER_VERSION, PUSBUSER_GET_DRIVER_VERSION, PUSBUSER_GET_DRIVER_VERSION structure pointer [Buses], USBUSER_GET_DRIVER_VERSION, USBUSER_GET_DRIVER_VERSION structure [Buses], buses.usbuser_get_driver_version, usbstrct_adb61812-7474-4eae-bf31-9b2c9a03962f.xml, usbuser/PUSBUSER_GET_DRIVER_VERSION, usbuser/USBUSER_GET_DRIVER_VERSION'
 ms.topic: struct
-f1_keywords: 
- - "usbuser/USBUSER_GET_DRIVER_VERSION"
+f1_keywords:
+- usbuser/USBUSER_GET_DRIVER_VERSION
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - usbuser.h
+- usbuser.h
 api_name:
- - USBUSER_GET_DRIVER_VERSION
+- USBUSER_GET_DRIVER_VERSION
 product: Windows
 targetos: Windows
 req.typenames: USBUSER_GET_DRIVER_VERSION, *PUSBUSER_GET_DRIVER_VERSION
@@ -61,12 +61,12 @@ The <b>USBUSER_GET_DRIVER_VERSION</b> structure is used with the <a href="https:
 
 ### -field Header
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usbuser_request_header">USBUSER_REQUEST_HEADER</a> structure that specifies the user-mode request on input to <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a> and provides buffer and status information on output.
+A <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usbuser_request_header">USBUSER_REQUEST_HEADER</a> structure that specifies the user-mode request on input to <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a> and provides buffer and status information on output.
 
 
 ### -field Parameters
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_driver_version_parameters">USB_DRIVER_VERSION_PARAMETERS</a> structure that specifies the parameters that are associated with this request.
+A <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_driver_version_parameters">USB_DRIVER_VERSION_PARAMETERS</a> structure that specifies the parameters that are associated with this request.
 
 
 ## -remarks
@@ -91,11 +91,11 @@ The <b>USBUSER_GET_DRIVER_VERSION</b> structure is used with the USBUSER_GET_USB
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usbuser_request_header">USBUSER_REQUEST_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usbuser_request_header">USBUSER_REQUEST_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_driver_version_parameters">USB_DRIVER_VERSION_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_driver_version_parameters">USB_DRIVER_VERSION_PARAMETERS</a>
  
 
  

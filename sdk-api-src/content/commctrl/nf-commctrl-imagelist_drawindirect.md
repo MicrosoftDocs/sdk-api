@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageList_DrawIndirect, ImageList_DrawIndirect function [Windows Controls], _win32_ImageList_DrawIndirect, _win32_ImageList_DrawIndirect_cpp, commctrl/ImageList_DrawIndirect, controls.ImageList_DrawIndirect, controls._win32_ImageList_DrawIndirect
 ms.topic: function
-f1_keywords: 
- - "commctrl/ImageList_DrawIndirect"
+f1_keywords:
+- commctrl/ImageList_DrawIndirect
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll (version 4.70 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - ImageList_DrawIndirect
+- ImageList_DrawIndirect
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Draws an image list image based on an <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-_imagelistdrawparams">IMAGELISTDRAWPARAMS</a> structure. 
+Draws an image list image based on an <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-imagelistdrawparams">IMAGELISTDRAWPARAMS</a> structure. 
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Draws an image list image based on an <a href="https://docs.microsoft.com/window
 
 ### -param pimldp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-_imagelistdrawparams">IMAGELISTDRAWPARAMS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-imagelistdrawparams">IMAGELISTDRAWPARAMS</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-_imagelistdrawparams">IMAGELISTDRAWPARAMS</a> structure that contains information about the draw operation. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-imagelistdrawparams">IMAGELISTDRAWPARAMS</a> structure that contains information about the draw operation. 
 
 
 ## -returns

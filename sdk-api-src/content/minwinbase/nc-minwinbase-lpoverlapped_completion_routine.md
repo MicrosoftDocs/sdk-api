@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FileIOCompletionRoutine, FileIOCompletionRoutine callback, FileIOCompletionRoutine callback function [Files], LPOVERLAPPED_COMPLETION_ROUTINE, LPOVERLAPPED_COMPLETION_ROUTINE callback function [Files], _win32_fileiocompletionroutine, base.fileiocompletionroutine, fs.fileiocompletionroutine, minwinbase/FileIOCompletionRoutine, minwinbase/LPOVERLAPPED_COMPLETION_ROUTINE
 ms.topic: callback
-f1_keywords: 
- - "minwinbase/FileIOCompletionRoutine"
+f1_keywords:
+- minwinbase/FileIOCompletionRoutine
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - minwinbase.h
+- minwinbase.h
 api_name:
- - FileIOCompletionRoutine
- - LPOVERLAPPED_COMPLETION_ROUTINE
+- FileIOCompletionRoutine
+- LPOVERLAPPED_COMPLETION_ROUTINE
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -85,10 +85,10 @@ The number of bytes transferred. If an error occurs, this parameter is zero.
 
 ### -param lpOverlapped [in, out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure specified by 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure specified by 
        the asynchronous I/O function.
 
-The system does not use the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure 
+The system does not use the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure 
        after the completion routine is called, so the completion routine can deallocate the memory used by the 
        overlapped structure.
 
@@ -151,7 +151,7 @@ For  example code, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 

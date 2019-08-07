@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePropertySheetPage, CreatePropertySheetPage function [Windows Controls], CreatePropertySheetPageA, CreatePropertySheetPageW, _win32_CreatePropertySheetPage, _win32_CreatePropertySheetPage_cpp, controls.CreatePropertySheetPage, controls._win32_CreatePropertySheetPage, prsht/CreatePropertySheetPage, prsht/CreatePropertySheetPageA, prsht/CreatePropertySheetPageW
 ms.topic: function
-f1_keywords: 
- - "prsht/CreatePropertySheetPage"
+f1_keywords:
+- prsht/CreatePropertySheetPage
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - CreatePropertySheetPage
- - CreatePropertySheetPageA
- - CreatePropertySheetPageW
+- CreatePropertySheetPage
+- CreatePropertySheetPageA
+- CreatePropertySheetPageW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Creates a new page for a property sheet.
 
 Type: <b>LPCPROPSHEETPAGE</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> structure that defines a page to be included in a property sheet.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure that defines a page to be included in a property sheet.
 
 
 ## -returns
@@ -85,7 +85,7 @@ Returns the handle to the new property page if successful, or <b>NULL</b> otherw
 
 <div class="alert"><b>Note</b>  Before common controls version 7.0, this function did not support visual styles.</div>
 <div> </div>
-An application uses the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> function to create a property sheet that includes the new page. If you are not using the Aero wizard style (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PSH_AEROWIZARD</a>), the application can use the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-addpage">PSM_ADDPAGE</a> message to add the new page to an existing property sheet.
+An application uses the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> function to create a property sheet that includes the new page. If you are not using the Aero wizard style (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>), the application can use the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-addpage">PSM_ADDPAGE</a> message to add the new page to an existing property sheet.
 
 Windows 95: The system can support a maximum of 16,364 window handles.
 

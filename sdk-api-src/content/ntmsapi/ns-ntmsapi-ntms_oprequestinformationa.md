@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NTMS_CHANGER, NTMS_DRIVE, NTMS_IEDOOR, NTMS_IEPORT., NTMS_LIBRARY, NTMS_OPREQUESTINFORMATION, NTMS_OPREQUESTINFORMATION structure [Files], NTMS_OPREQUESTINFORMATIONA, NTMS_OPREQUESTINFORMATIONW, NTMS_OPREQ_CLEANER, NTMS_OPREQ_DEVICESERVICE, NTMS_OPREQ_MESSAGE, NTMS_OPREQ_MOVEMEDIA, NTMS_OPREQ_NEWMEDIA, NTMS_OPSTATE_ACTIVE, NTMS_OPSTATE_COMPLETE, NTMS_OPSTATE_INPROGRESS, NTMS_OPSTATE_REFUSED, NTMS_OPSTATE_SUBMITTED, NTMS_PARTITION, NTMS_PHYSICAL_MEDIA, NTMS_STORAGESLOT, NTMS_UNKNOWN, _NTMS_OPREQUESTINFORMATIONA, _NTMS_OPREQUESTINFORMATIONW, _zaw_ntms_oprequestinformation, base.ntms_oprequestinformation, fs.ntms_oprequestinformation, ntmsapi/NTMS_OPREQUESTINFORMATION
 ms.topic: struct
-f1_keywords: 
- - "ntmsapi/NTMS_OPREQUESTINFORMATION"
+f1_keywords:
+- ntmsapi/NTMS_OPREQUESTINFORMATION
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntmsapi.h
+- Ntmsapi.h
 api_name:
- - NTMS_OPREQUESTINFORMATION
- - NTMS_OPREQUESTINFORMATIONA
- - NTMS_OPREQUESTINFORMATIONW
+- NTMS_OPREQUESTINFORMATION
+- NTMS_OPREQUESTINFORMATIONA
+- NTMS_OPREQUESTINFORMATIONW
 product: Windows
 targetos: Windows
 req.typenames: NTMS_OPREQUESTINFORMATIONA
@@ -375,7 +375,7 @@ Computer that submitted the operator request.
 
 The 
 <b>NTMS_OPREQUESTINFORMATION</b> structure is included in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
 
 
@@ -385,7 +385,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
  
 
  

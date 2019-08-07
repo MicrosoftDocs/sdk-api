@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 92a117ae-3a5f-4702-a936-8e23bc575763
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMPR_SERVICE_CHARACTERISTICS, DEMAND_UPDATE_ROUTES, DEMAND_UPDATE_SERVICES, MPR40_SERVICE_CHARACTERISTICS, MPR_SERVICE_CHARACTERISTICS, MPR_SERVICE_CHARACTERISTICS structure [RAS], PMPR_SERVICE_CHARACTERISTICS, PMPR_SERVICE_CHARACTERISTICS structure pointer [RAS], ROUTING, SERVICES, _mpr_mpr_service_characteristics, routprot/MPR_SERVICE_CHARACTERISTICS, routprot/PMPR_SERVICE_CHARACTERISTICS, rras.mpr_service_characteristics, stm/MPR_SERVICE_CHARACTERISTICS, stm/PMPR_SERVICE_CHARACTERISTICS"
+ms.keywords: '*PMPR_SERVICE_CHARACTERISTICS, DEMAND_UPDATE_ROUTES, DEMAND_UPDATE_SERVICES, MPR40_SERVICE_CHARACTERISTICS, MPR_SERVICE_CHARACTERISTICS, MPR_SERVICE_CHARACTERISTICS structure [RAS], PMPR_SERVICE_CHARACTERISTICS, PMPR_SERVICE_CHARACTERISTICS structure pointer [RAS], ROUTING, SERVICES, _mpr_mpr_service_characteristics, routprot/MPR_SERVICE_CHARACTERISTICS, routprot/PMPR_SERVICE_CHARACTERISTICS, rras.mpr_service_characteristics, stm/MPR_SERVICE_CHARACTERISTICS, stm/PMPR_SERVICE_CHARACTERISTICS'
 ms.topic: struct
-f1_keywords: 
- - "stm/MPR_SERVICE_CHARACTERISTICS"
+f1_keywords:
+- stm/MPR_SERVICE_CHARACTERISTICS
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Routprot.h
- - Stm.h
+- Routprot.h
+- Stm.h
 api_name:
- - MPR_SERVICE_CHARACTERISTICS
+- MPR_SERVICE_CHARACTERISTICS
 product: Windows
 targetos: Windows
 req.typenames: MPR40_SERVICE_CHARACTERISTICS
@@ -232,7 +232,7 @@ To use this structure, the user should add -DMPR50=1 to the compiler flags.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a>
 
 
 

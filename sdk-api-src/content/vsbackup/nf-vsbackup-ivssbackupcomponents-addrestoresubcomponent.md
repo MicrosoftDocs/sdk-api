@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRestoreSubcomponent, AddRestoreSubcomponent method [VSS], AddRestoreSubcomponent method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddRestoreSubcomponent method, IVssBackupComponents.AddRestoreSubcomponent, IVssBackupComponents::AddRestoreSubcomponent, _win32_ivssbackupcomponents_addrestoresubcomponent, base.ivssbackupcomponents_addrestoresubcomponent, vsbackup/IVssBackupComponents::AddRestoreSubcomponent
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.AddRestoreSubcomponent"
+f1_keywords:
+- vsbackup/IVssBackupComponents.AddRestoreSubcomponent
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.AddRestoreSubcomponent
+- IVssBackupComponents.AddRestoreSubcomponent
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -243,7 +243,7 @@ If a requester is to support restoring subcomponents, this method must be called
 
 To participate in such a restore, a subcomponent must have the 
     <b>bSelectableForRestore</b> member of 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/ns-vsbackup-_vss_componentinfo">VSS_COMPONENTINFO</a> set to <b>TRUE</b>. The component defined 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/ns-vsbackup-vss_componentinfo">VSS_COMPONENTINFO</a> set to <b>TRUE</b>. The component defined 
     by the <i>wszLogicalPath</i> and <i>wszComponentName</i> parameters must 
     also be selected for restore using 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setselectedforrestore">IVssBackupComponents::SetSelectedForRestore</a>.

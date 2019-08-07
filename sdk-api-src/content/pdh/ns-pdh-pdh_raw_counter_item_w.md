@@ -8,10 +8,10 @@ tech.root: perfctrs
 ms.assetid: 602e0d44-3551-4a26-a5b7-8f7015131f9a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPDH_RAW_COUNTER_ITEM_W, PDH_RAW_COUNTER_ITEM, PDH_RAW_COUNTER_ITEM structure [Perf], PDH_RAW_COUNTER_ITEM,*PPDH_RAW_COUNTER_ITEM, PDH_RAW_COUNTER_ITEM,*PPDH_RAW_COUNTER_ITEM structure [Perf], PDH_RAW_COUNTER_ITEM_A, PDH_RAW_COUNTER_ITEM_W, _win32_pdh_raw_counter_item_str, base.pdh_raw_counter_item_str, pdh/PDH_RAW_COUNTER_ITEM, pdh/PDH_RAW_COUNTER_ITEM_A, pdh/PDH_RAW_COUNTER_ITEM_W, perf.pdh_raw_counter_item_str"
+ms.keywords: '*PPDH_RAW_COUNTER_ITEM_W, PDH_RAW_COUNTER_ITEM, PDH_RAW_COUNTER_ITEM structure [Perf], PDH_RAW_COUNTER_ITEM,*PPDH_RAW_COUNTER_ITEM, PDH_RAW_COUNTER_ITEM,*PPDH_RAW_COUNTER_ITEM structure [Perf], PDH_RAW_COUNTER_ITEM_A, PDH_RAW_COUNTER_ITEM_W, _win32_pdh_raw_counter_item_str, base.pdh_raw_counter_item_str, pdh/PDH_RAW_COUNTER_ITEM, pdh/PDH_RAW_COUNTER_ITEM_A, pdh/PDH_RAW_COUNTER_ITEM_W, perf.pdh_raw_counter_item_str'
 ms.topic: struct
-f1_keywords: 
- - "pdh/PDH_RAW_COUNTER_ITEM, *PPDH_RAW_COUNTER_ITEM"
+f1_keywords:
+- pdh/PDH_RAW_COUNTER_ITEM, *PPDH_RAW_COUNTER_ITEM
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pdh.h
+- Pdh.h
 api_name:
- - PDH_RAW_COUNTER_ITEM, *PPDH_RAW_COUNTER_ITEM
- - PDH_RAW_COUNTER_ITEM_A
- - PDH_RAW_COUNTER_ITEM_W
+- PDH_RAW_COUNTER_ITEM, *PPDH_RAW_COUNTER_ITEM
+- PDH_RAW_COUNTER_ITEM_A
+- PDH_RAW_COUNTER_ITEM_W
 product: Windows
 targetos: Windows
 req.typenames: PDH_RAW_COUNTER_ITEM_W, *PPDH_RAW_COUNTER_ITEM_W
@@ -70,7 +70,7 @@ Pointer to a null-terminated string that specifies the instance name of the coun
 
 ### -field RawValue
 
- A <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_raw_counter">PDH_RAW_COUNTER</a> structure that contains the raw counter value of the instance.
+ A <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter">PDH_RAW_COUNTER</a> structure that contains the raw counter value of the instance.
 
 
 ## -see-also
@@ -78,7 +78,7 @@ Pointer to a null-terminated string that specifies the instance name of the coun
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_raw_counter">PDH_RAW_COUNTER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter">PDH_RAW_COUNTER</a>
 
 
 

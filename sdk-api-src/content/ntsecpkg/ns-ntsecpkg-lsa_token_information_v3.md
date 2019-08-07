@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 927828CD-9763-4CE4-B3E7-376181EA7C70
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PLSA_TOKEN_INFORMATION_V3, LSA_TOKEN_INFORMATION_V3, LSA_TOKEN_INFORMATION_V3 structure [Security], PLSA_TOKEN_INFORMATION_V3, PLSA_TOKEN_INFORMATION_V3 structure pointer [Security], _LSA_TOKEN_INFORMATION_V3, ntsecpkg/LSA_TOKEN_INFORMATION_V3, ntsecpkg/PLSA_TOKEN_INFORMATION_V3, security.lsa_token_information_v3"
+ms.keywords: '*PLSA_TOKEN_INFORMATION_V3, LSA_TOKEN_INFORMATION_V3, LSA_TOKEN_INFORMATION_V3 structure [Security], PLSA_TOKEN_INFORMATION_V3, PLSA_TOKEN_INFORMATION_V3 structure pointer [Security], _LSA_TOKEN_INFORMATION_V3, ntsecpkg/LSA_TOKEN_INFORMATION_V3, ntsecpkg/PLSA_TOKEN_INFORMATION_V3, security.lsa_token_information_v3'
 ms.topic: struct
-f1_keywords: 
- - "ntsecpkg/LSA_TOKEN_INFORMATION_V3"
+f1_keywords:
+- ntsecpkg/LSA_TOKEN_INFORMATION_V3
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - LSA_TOKEN_INFORMATION_V3
+- LSA_TOKEN_INFORMATION_V3
 product: Windows
 targetos: Windows
 req.typenames: LSA_TOKEN_INFORMATION_V3, *PLSA_TOKEN_INFORMATION_V3
@@ -75,12 +75,12 @@ Time at which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s
 ### -field Groups
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a> structure that contains the SIDs of groups the user is a member of. This should not include WORLD or other system-defined and system-assigned SIDs. These will be added automatically by the LSA. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure that contains the SIDs of groups the user is a member of. This should not include WORLD or other system-defined and system-assigned SIDs. These will be added automatically by the LSA. 
 
 
 
 
-Each SID is expected to be in a separately allocated block of memory. The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a> structure is also expected to be in a separately allocated block of memory. All of these memory blocks should be allocated by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_private_heap">AllocatePrivateHeap</a> function.
+Each SID is expected to be in a separately allocated block of memory. The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure is also expected to be in a separately allocated block of memory. All of these memory blocks should be allocated by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_private_heap">AllocatePrivateHeap</a> function.
 
 
 ### -field PrimaryGroup
@@ -134,7 +134,7 @@ The <b>DefaultDacl.DefaultDacl</b> member may be set to <b>NULL</b> to indicate 
 ### -field UserClaims
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_user_claims">TOKEN_USER_CLAIMS</a> structure. This member stores the opaque user claims BLOB for the token. The <b>UserClaims</b> member may be set to <b>NULL</b> to indicate there are no additional user claims in the token. Claims are allow-only entities so omitting claims may restrict access.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_user_claims">TOKEN_USER_CLAIMS</a> structure. This member stores the opaque user claims BLOB for the token. The <b>UserClaims</b> member may be set to <b>NULL</b> to indicate there are no additional user claims in the token. Claims are allow-only entities so omitting claims may restrict access.
 
 
 ### -field DeviceClaims
@@ -147,9 +147,9 @@ The <b>DefaultDacl.DefaultDacl</b> member may be set to <b>NULL</b> to indicate 
 ### -field DeviceGroups
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a> structure that contains the SIDs of the groups for the authenticating device member. As with user groups, this should not include WORLD or other system defined or assigned SIDs. The <b>DeviceGroups</b> member may be set to <b>NULL</b> to indicate that no compounding should occur. If <b>DeviceGroups</b> are present, LSA will add WORLD and other assigned SIDs. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure that contains the SIDs of the groups for the authenticating device member. As with user groups, this should not include WORLD or other system defined or assigned SIDs. The <b>DeviceGroups</b> member may be set to <b>NULL</b> to indicate that no compounding should occur. If <b>DeviceGroups</b> are present, LSA will add WORLD and other assigned SIDs. 
 
 Unlike user groups, there is no notion of a primary device group.
 
-Each SID is expected to be in a separately allocated block of memory. The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a> structure is also expected to be in a separately allocated block of memory.
+Each SID is expected to be in a separately allocated block of memory. The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure is also expected to be in a separately allocated block of memory.
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_QueryPipeEx, WinUsb_QueryPipeEx function [Buses], buses.winusb_querypipeex, winusb/WinUsb_QueryPipeEx
 ms.topic: function
-f1_keywords: 
- - "winusb/WinUsb_QueryPipeEx"
+f1_keywords:
+- winusb/WinUsb_QueryPipeEx
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Winusb.lib
 req.dll: Winusb.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winusb.dll
+- Winusb.dll
 api_name:
- - WinUsb_QueryPipeEx
+- WinUsb_QueryPipeEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,7 +78,7 @@ A value that specifies the pipe to return information about. This value is not t
 
 ### -param PipeInformationEx [out]
 
-A pointer, on output, to a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/winusbio/ns-winusbio-_winusb_pipe_information_ex">WINUSB_PIPE_INFORMATION_EX</a> structure that contains pipe information.
+A pointer, on output, to a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/winusbio/ns-winusbio-winusb_pipe_information_ex">WINUSB_PIPE_INFORMATION_EX</a> structure that contains pipe information.
 
 
 ## -returns
@@ -154,7 +154,7 @@ The <b>WinUsb_QueryPipeEx</b> function does not retrieve information about the c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusbio/ns-winusbio-_winusb_pipe_information">WINUSB_PIPE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusbio/ns-winusbio-winusb_pipe_information">WINUSB_PIPE_INFORMATION</a>
 
 
 

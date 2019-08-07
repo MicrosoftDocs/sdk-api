@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_MESSAGE_PROPERTIES, WS_MESSAGE_PROPERTIES structure [Web Services for Windows], webservices/WS_MESSAGE_PROPERTIES, wsw.ws_message_properties
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_MESSAGE_PROPERTIES"
+f1_keywords:
+- webservices/WS_MESSAGE_PROPERTIES
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_MESSAGE_PROPERTIES
+- WS_MESSAGE_PROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: WS_MESSAGE_PROPERTIES
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies a set of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structures.
+Specifies a set of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structures.
             
 
 

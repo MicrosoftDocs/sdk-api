@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PERF_REG_COUNTERSET_ENGLISH_NAME, PERF_REG_COUNTERSET_HELP_STRING, PERF_REG_COUNTERSET_NAME_STRING, PERF_REG_COUNTERSET_STRUCT, PERF_REG_COUNTER_ENGLISH_NAMES, PERF_REG_COUNTER_HELP_STRINGS, PERF_REG_COUNTER_NAME_STRINGS, PERF_REG_COUNTER_STRUCT, PERF_REG_PROVIDER_GUID, PERF_REG_PROVIDER_NAME, PerfRegInfoType, PerfRegInfoType enumeration [Perf], perf.perfreginfotype, perflib/PERF_REG_COUNTERSET_ENGLISH_NAME, perflib/PERF_REG_COUNTERSET_HELP_STRING, perflib/PERF_REG_COUNTERSET_NAME_STRING, perflib/PERF_REG_COUNTERSET_STRUCT, perflib/PERF_REG_COUNTER_ENGLISH_NAMES, perflib/PERF_REG_COUNTER_HELP_STRINGS, perflib/PERF_REG_COUNTER_NAME_STRINGS, perflib/PERF_REG_COUNTER_STRUCT, perflib/PERF_REG_PROVIDER_GUID, perflib/PERF_REG_PROVIDER_NAME, perflib/PerfRegInfoType
 ms.topic: enum
-f1_keywords: 
- - "perflib/PerfRegInfoType"
+f1_keywords:
+- perflib/PerfRegInfoType
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Perflib.h
+- Perflib.h
 api_name:
- - PerfRegInfoType
+- PerfRegInfoType
 product: Windows
 targetos: Windows
 req.typenames: PerfRegInfoType
@@ -61,15 +61,15 @@ Indicates the types of information that you can request about a performance coun
 
 ### -field PERF_REG_COUNTERSET_STRUCT
 
-Gets the registration information for a counter set and all of the counters it contains as a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counterset_reg_info">PERF_COUNTERSET_REG_INFO</a> block.  The block includes a <b>PERF_COUNTERSET_REG_INFO</b> structure followed by one or  
+Gets the registration information for a counter set and all of the counters it contains as a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counterset_reg_info">PERF_COUNTERSET_REG_INFO</a> block.  The block includes a <b>PERF_COUNTERSET_REG_INFO</b> structure followed by one or  
 
-        more <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_reg_info">PERF_COUNTER_REG_INFO</a> structures.
+        more <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_reg_info">PERF_COUNTER_REG_INFO</a> structures.
 
 
 
 ### -field PERF_REG_COUNTER_STRUCT
 
-Gets the registration information for a performance counter as  a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_reg_info">PERF_COUNTER_REG_INFO</a> structure.  
+Gets the registration information for a performance counter as  a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_reg_info">PERF_COUNTER_REG_INFO</a> structure.  
 
         Use the <i>requestLangId</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a> function to specify the counter identifier.  
 

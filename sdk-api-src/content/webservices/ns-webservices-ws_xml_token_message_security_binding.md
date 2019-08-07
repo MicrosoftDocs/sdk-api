@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_TOKEN_MESSAGE_SECURITY_BINDING, WS_XML_TOKEN_MESSAGE_SECURITY_BINDING structure [Web Services for Windows], webservices/WS_XML_TOKEN_MESSAGE_SECURITY_BINDING, wsw.ws_xml_token_message_security_binding
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_XML_TOKEN_MESSAGE_SECURITY_BINDING"
+f1_keywords:
+- webservices/WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
+- WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
 product: Windows
 targetos: Windows
 req.typenames: WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
@@ -56,7 +56,7 @@ token that is already available to the application in XML form.  The
 security token that is supplied by the application in this binding is
 presented to a service in a WS-Security header according to the
 bindingUsage specified.  This security binding may be included in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_description">security description</a> only on the
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_description">security description</a> only on the
 client side.
             
 
@@ -73,7 +73,7 @@ security binding.
 Security note: As with other security tokens and credentials, the
 application is in charge of the risk assessment decision to disclose a
 given XML token (supplied by the application in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_description">security description</a>) to a given
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_description">security description</a>) to a given
 server (supplied by the application when 
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenchannel">opening the channel</a>).  In particular, the
 application should consider the threat that the server might use the
@@ -116,7 +116,7 @@ Only <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webs
 supported.  With this usage, this security binding provides client
 authentication, but not message protection (such as signing,
 encryption, replay detection).  Thus, this binding must be used
-together with another security binding such as the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a> that provides a protected
+together with another security binding such as the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a> that provides a protected
 channel.
                 
 

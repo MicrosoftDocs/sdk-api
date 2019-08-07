@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ENABLED, HIDDEN, IMenuButton interface [MMC],SetButtonState method, IMenuButton.SetButtonState, IMenuButton::SetButtonState, SetButtonState, SetButtonState method [MMC], SetButtonState method [MMC],IMenuButton interface, _slate_imenubutton_setbuttonstate, mmc.imenubutton_setbuttonstate, mmc/IMenuButton::SetButtonState
 ms.topic: method
-f1_keywords: 
- - "mmc/IMenuButton.SetButtonState"
+f1_keywords:
+- mmc/IMenuButton.SetButtonState
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IMenuButton.SetButtonState
+- IMenuButton.SetButtonState
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ A value that specifies a user-supplied value that uniquely identifies the menu b
 ### -param nState [in]
 
 A value that specifies the state of the button. This value can be one of the following values taken from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_button_state">MMC_BUTTON_STATE</a> enumeration:
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_button_state">MMC_BUTTON_STATE</a> enumeration:
 
 
 

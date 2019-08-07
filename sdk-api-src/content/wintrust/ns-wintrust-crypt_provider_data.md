@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 93ea2ad5-65da-4daa-bfd4-e3d1307829b2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_PROVIDER_DATA, CPD_REVOCATION_CHECK_CHAIN, CPD_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT, CPD_REVOCATION_CHECK_END_CERT, CPD_REVOCATION_CHECK_NONE, CPD_USE_NT5_CHAIN_FLAG, CRYPT_PROVIDER_DATA, CRYPT_PROVIDER_DATA structure [Security], PCRYPT_PROVIDER_DATA, PCRYPT_PROVIDER_DATA structure pointer [Security], security.crypt_provider_data, wintrust/CRYPT_PROVIDER_DATA, wintrust/PCRYPT_PROVIDER_DATA"
+ms.keywords: '*PCRYPT_PROVIDER_DATA, CPD_REVOCATION_CHECK_CHAIN, CPD_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT, CPD_REVOCATION_CHECK_END_CERT, CPD_REVOCATION_CHECK_NONE, CPD_USE_NT5_CHAIN_FLAG, CRYPT_PROVIDER_DATA, CRYPT_PROVIDER_DATA structure [Security], PCRYPT_PROVIDER_DATA, PCRYPT_PROVIDER_DATA structure pointer [Security], security.crypt_provider_data, wintrust/CRYPT_PROVIDER_DATA, wintrust/PCRYPT_PROVIDER_DATA'
 ms.topic: struct
-f1_keywords: 
- - "wintrust/CRYPT_PROVIDER_DATA"
+f1_keywords:
+- wintrust/CRYPT_PROVIDER_DATA
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wintrust.h
+- Wintrust.h
 api_name:
- - CRYPT_PROVIDER_DATA
+- CRYPT_PROVIDER_DATA
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_PROVIDER_DATA, *PCRYPT_PROVIDER_DATA
@@ -68,7 +68,7 @@ The size, in bytes, of this structure.
 
 ### -field pWintrustData
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_wintrust_data">WINTRUST_DATA</a> structure that contains the information to verify.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a> structure that contains the information to verify.
 
 
 ### -field fOpenedFile
@@ -158,7 +158,7 @@ The number of elements in the <b>pasProvPrivData</b> array.
 
 ### -field pasProvPrivData
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_privdata">CRYPT_PROVIDER_PRIVDATA</a> structures.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_privdata">CRYPT_PROVIDER_PRIVDATA</a> structures.
 
 
 ### -field dwSubjectChoice
@@ -269,7 +269,7 @@ A value for the final error.
 
 ### -field pRequestUsage
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_usage_match">CERT_USAGE_MATCH</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_usage_match">CERT_USAGE_MATCH</a> structure.
 
 
 ### -field dwTrustPubSettings

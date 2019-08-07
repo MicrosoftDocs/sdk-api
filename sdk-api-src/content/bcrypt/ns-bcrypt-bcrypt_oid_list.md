@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_OID_LIST, BCRYPT_OID_LIST structure [Security], bcrypt/BCRYPT_OID_LIST, security.bcrypt_oid_list
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/BCRYPT_OID_LIST"
+f1_keywords:
+- bcrypt/BCRYPT_OID_LIST
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - BCRYPT_OID_LIST
+- BCRYPT_OID_LIST
 product: Windows
 targetos: Windows
 req.typenames: BCRYPT_OID_LIST
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>BCRYPT_OID_LIST</b> structure is used to contain a collection of <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_oid">BCRYPT_OID</a> structures. Use this structure with the <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-property-identifiers">BCRYPT_HASH_OID_LIST</a> property to retrieve the list of hashing <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) that have been encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoding.
+The <b>BCRYPT_OID_LIST</b> structure is used to contain a collection of <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_oid">BCRYPT_OID</a> structures. Use this structure with the <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-property-identifiers">BCRYPT_HASH_OID_LIST</a> property to retrieve the list of hashing <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) that have been encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoding.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ The number of elements in the <b>pOIDs</b> array.
 
 ### -field pOIDs
 
-The address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_oid">BCRYPT_OID</a> structures that contains OIDs.
+The address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_oid">BCRYPT_OID</a> structures that contains OIDs.
 
 
 ## -remarks
@@ -106,7 +106,7 @@ The following snippet describes an <b>AlgorithmIdentifier</b> in <a href="https:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_oid">BCRYPT_OID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_oid">BCRYPT_OID</a>
 
 
 

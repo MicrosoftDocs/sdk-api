@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, PDH_PATH_WBEM_INPUT, PDH_PATH_WBEM_RESULT, PdhMakeCounterPath, PdhMakeCounterPath function [Perf], PdhMakeCounterPathA, PdhMakeCounterPathW, _win32_pdhmakecounterpath, base.pdhmakecounterpath, pdh/PdhMakeCounterPath, pdh/PdhMakeCounterPathA, pdh/PdhMakeCounterPathW, perf.pdhmakecounterpath
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhMakeCounterPath"
+f1_keywords:
+- pdh/PdhMakeCounterPath
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhMakeCounterPath
- - PdhMakeCounterPathA
- - PdhMakeCounterPathW
+- PdhMakeCounterPath
+- PdhMakeCounterPathA
+- PdhMakeCounterPathW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a full counter path using the members specified in the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a> structure.
+Creates a full counter path using the members specified in the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a> structure.
 		
 
 
@@ -65,7 +65,7 @@ Creates a full counter path using the members specified in the <a href="https://
 ### -param pCounterPathElements [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a> structure that contains the members used to make up the path. Only the <b>szObjectName</b> and <b>szCounterName</b> members are required, the others are optional. 
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a> structure that contains the members used to make up the path. Only the <b>szObjectName</b> and <b>szCounterName</b> members are required, the others are optional. 
 
 
 
@@ -185,7 +185,7 @@ You should call this function twice, the first time to get the required buffer s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a>
 
 
 

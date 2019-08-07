@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: d28b2f52-3258-44ad-a3ab-0743d3afcd62
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_CREDENTIALS, CREDENTIAL_OID_PASSWORD_CREDENTIALS, CRYPT_CREDENTIALS, CRYPT_CREDENTIALS structure [Security], PCRYPT_CREDENTIALS, PCRYPT_CREDENTIALS structure pointer [Security], security.crypt_credentials, wincrypt/CRYPT_CREDENTIALS, wincrypt/PCRYPT_CREDENTIALS"
+ms.keywords: '*PCRYPT_CREDENTIALS, CREDENTIAL_OID_PASSWORD_CREDENTIALS, CRYPT_CREDENTIALS, CRYPT_CREDENTIALS structure [Security], PCRYPT_CREDENTIALS, PCRYPT_CREDENTIALS structure pointer [Security], security.crypt_credentials, wincrypt/CRYPT_CREDENTIALS, wincrypt/PCRYPT_CREDENTIALS'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_CREDENTIALS"
+f1_keywords:
+- wincrypt/CRYPT_CREDENTIALS
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_CREDENTIALS
+- CRYPT_CREDENTIALS
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_CREDENTIALS, *PCRYPT_CREDENTIALS
@@ -84,7 +84,7 @@ This member can contain the following possible value.
 </dl>
 </td>
 <td width="60%">
-The <b>pvCredentials</b> member contains a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_password_credentialsa">CRYPT_PASSWORD_CREDENTIALS</a> structure that represents a user name and password combination.
+The <b>pvCredentials</b> member contains a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_password_credentialsa">CRYPT_PASSWORD_CREDENTIALS</a> structure that represents a user name and password combination.
 
 </td>
 </tr>

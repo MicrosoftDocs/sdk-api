@@ -8,10 +8,10 @@ tech.root: devio
 ms.assetid: 7e9e37c7-416d-4550-87e3-7412cff9a49e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPMODEMDEVCAPS, *PMODEMDEVCAPS, DIALOPTION_BILLING, DIALOPTION_DIALTONE, DIALOPTION_QUIET, LPMODEMDEVCAPS, LPMODEMDEVCAPS structure pointer, MDMSPKRFLAG_CALLSETUP, MDMSPKRFLAG_DIAL, MDMSPKRFLAG_OFF, MDMSPKRFLAG_ON, MDMVOLFLAG_HIGH, MDMVOLFLAG_LOW, MDMVOLFLAG_MEDIUM, MDM_BLIND_DIAL, MDM_CCITT_OVERRIDE, MDM_CELLULAR, MDM_COMPRESSION, MDM_DIAGNOSTICS, MDM_ERROR_CONTROL, MDM_FLOWCONTROL_HARD, MDM_FLOWCONTROL_SOFT, MDM_FORCED_EC, MDM_SPEED_ADJUST, MDM_TONE_DIAL, MDM_V23_OVERRIDE, MODEMDEVCAPS, MODEMDEVCAPS structure, PMODEMDEVCAPS, PMODEMDEVCAPS structure pointer, _win32_modemdevcaps_str, base.modemdevcaps_str, mcx/LPMODEMDEVCAPS, mcx/MODEMDEVCAPS, mcx/PMODEMDEVCAPS"
+ms.keywords: '*LPMODEMDEVCAPS, *PMODEMDEVCAPS, DIALOPTION_BILLING, DIALOPTION_DIALTONE, DIALOPTION_QUIET, LPMODEMDEVCAPS, LPMODEMDEVCAPS structure pointer, MDMSPKRFLAG_CALLSETUP, MDMSPKRFLAG_DIAL, MDMSPKRFLAG_OFF, MDMSPKRFLAG_ON, MDMVOLFLAG_HIGH, MDMVOLFLAG_LOW, MDMVOLFLAG_MEDIUM, MDM_BLIND_DIAL, MDM_CCITT_OVERRIDE, MDM_CELLULAR, MDM_COMPRESSION, MDM_DIAGNOSTICS, MDM_ERROR_CONTROL, MDM_FLOWCONTROL_HARD, MDM_FLOWCONTROL_SOFT, MDM_FORCED_EC, MDM_SPEED_ADJUST, MDM_TONE_DIAL, MDM_V23_OVERRIDE, MODEMDEVCAPS, MODEMDEVCAPS structure, PMODEMDEVCAPS, PMODEMDEVCAPS structure pointer, _win32_modemdevcaps_str, base.modemdevcaps_str, mcx/LPMODEMDEVCAPS, mcx/MODEMDEVCAPS, mcx/PMODEMDEVCAPS'
 ms.topic: struct
-f1_keywords: 
- - "mcx/MODEMDEVCAPS"
+f1_keywords:
+- mcx/MODEMDEVCAPS
 req.header: mcx.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mcx.h
+- Mcx.h
 api_name:
- - MODEMDEVCAPS
+- MODEMDEVCAPS
 product: Windows
 targetos: Windows
 req.typenames: MODEMDEVCAPS, *PMODEMDEVCAPS, *LPMODEMDEVCAPS
@@ -164,13 +164,13 @@ The modem supports waiting for quiet.
 ### -field dwCallSetupFailTimer
 
 The maximum call setup timeout supported by the modem, in seconds. This is the largest value that can be specified for the corresponding member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-_modemsettings">MODEMSETTINGS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemsettings">MODEMSETTINGS</a> structure.
 
 
 ### -field dwInactivityTimeout
 
 The maximum inactivity timeout supported by the modem, in tenths of seconds. This is the largest value that can be specified for the corresponding member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-_modemsettings">MODEMSETTINGS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemsettings">MODEMSETTINGS</a> structure.
 
 
 ### -field dwSpeakerVolume
@@ -331,7 +331,7 @@ The modem options. This member can be zero or more of the following values.
 
 When 
 <b>MODEMDEVCAPS</b> is used to set modem options, as part of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-_modemsettings">MODEMSETTINGS</a> structure, these values are used as follows.
+<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemsettings">MODEMSETTINGS</a> structure, these values are used as follows.
 
 
 
@@ -398,7 +398,7 @@ Variable-length information, including strings and any provider-defined informat
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-_modemsettings">MODEMSETTINGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemsettings">MODEMSETTINGS</a>
  
 
  

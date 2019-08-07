@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_AUTHENTICATION_CREDENTIALS, WSMAN_AUTHENTICATION_CREDENTIALS structure [Windows Remote Management], winrm.wsman_authentication_credentials, wsman/WSMAN_AUTHENTICATION_CREDENTIALS
 ms.topic: struct
-f1_keywords: 
- - "wsman/WSMAN_AUTHENTICATION_CREDENTIALS"
+f1_keywords:
+- wsman/WSMAN_AUTHENTICATION_CREDENTIALS
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_AUTHENTICATION_CREDENTIALS
+- WSMAN_AUTHENTICATION_CREDENTIALS
 product: Windows
 targetos: Windows
 req.typenames: WSMAN_AUTHENTICATION_CREDENTIALS
@@ -66,7 +66,7 @@ Defines the authentication mechanism. This member can be set to zero. If it is s
 
 ### -field userAccount
 
-Defines the credentials used for authentication. See <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_username_password_creds">WSMAN_USERNAME_PASSWORD_CREDS</a> for more information.
+Defines the credentials used for authentication. See <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_username_password_creds">WSMAN_USERNAME_PASSWORD_CREDS</a> for more information.
 
 
 ### -field certificateThumbprint

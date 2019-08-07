@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationGetAppContainerConfig, NetworkIsolationGetAppContainerConfig function [ICS/ICF], ics.networkisolationgetappcontainerconfig, networkisolation/NetworkIsolationGetAppContainerConfig
 ms.topic: function
-f1_keywords: 
- - "netfw/NetworkIsolationGetAppContainerConfig"
+f1_keywords:
+- netfw/NetworkIsolationGetAppContainerConfig
 req.header: netfw.h
 req.include-header: Netfw.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: Firewallapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - firewallapi.dll
- - API-MS-Win-Net-Isolation-l1-1-0.dll
- - API-MS-Win-Net-Isolation-l1-1-1.dll
- - wfapihost.dll
+- firewallapi.dll
+- API-MS-Win-Net-Isolation-l1-1-0.dll
+- API-MS-Win-Net-Isolation-l1-1-1.dll
+- wfapihost.dll
 api_name:
- - NetworkIsolationGetAppContainerConfig
+- NetworkIsolationGetAppContainerConfig
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ The number of app containers in the <b>appContainerSids</b> member.
 
 ### -param appContainerSids [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_and_attributes">PSID_AND_ATTRIBUTES</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">PSID_AND_ATTRIBUTES</a>*</b>
 
 The security identifiers (SIDs) of app containers that are allowed to send loopback traffic. Used for debugging purposes.
 

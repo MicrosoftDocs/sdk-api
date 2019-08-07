@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: c683c515-3061-48e3-a64a-2798bd1245b0
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_ENCRYPT_MESSAGE_PARA, CRYPT_ENCRYPT_MESSAGE_PARA, CRYPT_ENCRYPT_MESSAGE_PARA structure [Security], PCRYPT_ENCRYPT_MESSAGE_PARA, PCRYPT_ENCRYPT_MESSAGE_PARA structure pointer [Security], _crypto2_crypt_encrypt_message_para, security.crypt_encrypt_message_para, wincrypt/CRYPT_ENCRYPT_MESSAGE_PARA, wincrypt/PCRYPT_ENCRYPT_MESSAGE_PARA"
+ms.keywords: '*PCRYPT_ENCRYPT_MESSAGE_PARA, CRYPT_ENCRYPT_MESSAGE_PARA, CRYPT_ENCRYPT_MESSAGE_PARA structure [Security], PCRYPT_ENCRYPT_MESSAGE_PARA, PCRYPT_ENCRYPT_MESSAGE_PARA structure pointer [Security], _crypto2_crypt_encrypt_message_para, security.crypt_encrypt_message_para, wincrypt/CRYPT_ENCRYPT_MESSAGE_PARA, wincrypt/PCRYPT_ENCRYPT_MESSAGE_PARA'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_ENCRYPT_MESSAGE_PARA"
+f1_keywords:
+- wincrypt/CRYPT_ENCRYPT_MESSAGE_PARA
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_ENCRYPT_MESSAGE_PARA
+- CRYPT_ENCRYPT_MESSAGE_PARA
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_ENCRYPT_MESSAGE_PARA, *PCRYPT_ENCRYPT_MESSAGE_PARA
@@ -103,7 +103,7 @@ The <b>szOID_NIST_AES128_CBC</b> (BCRYPT_AES_ALGORITHM, 128 bit),  <b>szOID_NIST
 
 The <b>szOID_RSA_RC2CBC</b> (CALG_RC2) algorithm requires the <b>pbData</b> member of the <b>Parameters</b> member of this structure to be a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_rc2_cbc_parameters">CRYPT_RC2_CBC_PARAMETERS</a> structure. If the <b>cbData</b> member of the <b>Parameters</b> member is zero, an ASN.1-encoded <b>CRYPT_RC2_CBC_PARAMETERS</b> structure that contains  the IV is generated as the <b>pbData</b> member. This generated <b>pbData</b> uses the default <b>dwVersion</b>  that corresponds to the 40-bit key length. To override the default 40-bit key length, <b>pvEncryptionAuxInfo</b> can be set to point to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_rc2_aux_info">CMSG_RC2_AUX_INFO</a> structure that contains a key bit length.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_rc2_aux_info">CMSG_RC2_AUX_INFO</a> structure that contains a key bit length.
 
 <div class="alert"><b>Note</b>  When a message is decrypted, if it has an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">initialization vector</a> parameter, the cryptographic message functions call 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyparam">CryptSetKeyParam</a> with the <i>initialization vector</i> before decrypting.</div>
@@ -112,7 +112,7 @@ The <b>szOID_RSA_RC2CBC</b> (CALG_RC2) algorithm requires the <b>pbData</b> memb
 ### -field pvEncryptionAuxInfo
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_rc2_aux_info">CMSG_RC2_AUX_INFO</a> structure for RC2 encryption or a 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_rc2_aux_info">CMSG_RC2_AUX_INFO</a> structure for RC2 encryption or a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_sp3_compatible_aux_info">CMSG_SP3_COMPATIBLE_AUX_INFO</a> structure for SP3-compatible encryption. For other than RC2 or SP3-compatible encryption, this member must be set to <b>NULL</b>.
 
 If the <b>ContentEncryptionAlgorithm</b> member contains <b>szOID_RSA_RC4</b>, this member points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_rc4_aux_info">CMSG_RC4_AUX_INFO</a> structure  that specifies the number of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">salt bytes</a> to be included.

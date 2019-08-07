@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasClearConnectionStatistics, RasClearConnectionStatistics function [RAS], _ras_rasclearconnectionstatistics, ras/RasClearConnectionStatistics, rras.rasclearconnectionstatistics
 ms.topic: function
-f1_keywords: 
- - "ras/RasClearConnectionStatistics"
+f1_keywords:
+- ras/RasClearConnectionStatistics
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasClearConnectionStatistics
+- RasClearConnectionStatistics
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -125,7 +125,7 @@ Use
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_ras_stats">RAS_STATS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-ras_stats">RAS_STATS</a>
 
 
 

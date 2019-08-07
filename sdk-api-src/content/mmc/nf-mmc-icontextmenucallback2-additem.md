@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddItem, AddItem method [MMC], AddItem method [MMC],IContextMenuCallback2 interface, IContextMenuCallback2 interface [MMC],AddItem method, IContextMenuCallback2.AddItem, IContextMenuCallback2::AddItem, _slate_icontextmenucallback2_additem, mmc.icontextmenucallback2_additem, mmc/IContextMenuCallback2::AddItem
 ms.topic: method
-f1_keywords: 
- - "mmc/IContextMenuCallback2.AddItem"
+f1_keywords:
+- mmc/IContextMenuCallback2.AddItem
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Mmc.lib
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IContextMenuCallback2.AddItem
+- IContextMenuCallback2.AddItem
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>IContextMenuCallback2::AddItem</b> method adds a single item to a context
 ### -param pItem [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_contextmenuitem2">CONTEXTMENUITEM2</a> structure with the item to be added. This parameter cannot be <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-contextmenuitem2">CONTEXTMENUITEM2</a> structure with the item to be added. This parameter cannot be <b>NULL</b>.
 
 
 ## -returns
@@ -79,7 +79,7 @@ This method can return one of these values.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_contextmenuitem2">CONTEXTMENUITEM2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-contextmenuitem2">CONTEXTMENUITEM2</a>
 
 
 

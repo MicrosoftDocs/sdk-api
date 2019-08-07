@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: ffe71de0-3561-481f-b81f-835c6c3a3ee4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPWSAQUERYSET2W, *PWSAQUERYSET2W, LPWSAQUERYSET2, LPWSAQUERYSET2 structure pointer [Winsock], NS_ALL, NS_BTH, NS_DNS, NS_EMAIL, NS_NLA, NS_PNRPCLOUD, NS_PNRPNAME, PWSAQUERYSET2, PWSAQUERYSET2 structure pointer [Winsock], WSAQUERYSET2, WSAQUERYSET2 structure [Winsock], WSAQUERYSET2A, WSAQUERYSET2W, winsock.wsaqueryset2, winsock2/LPWSAQUERYSET2, winsock2/PWSAQUERYSET2, winsock2/WSAQUERYSET2, winsock2/WSAQUERYSET2A, winsock2/WSAQUERYSET2W"
+ms.keywords: '*LPWSAQUERYSET2W, *PWSAQUERYSET2W, LPWSAQUERYSET2, LPWSAQUERYSET2 structure pointer [Winsock], NS_ALL, NS_BTH, NS_DNS, NS_EMAIL, NS_NLA, NS_PNRPCLOUD, NS_PNRPNAME, PWSAQUERYSET2, PWSAQUERYSET2 structure pointer [Winsock], WSAQUERYSET2, WSAQUERYSET2 structure [Winsock], WSAQUERYSET2A, WSAQUERYSET2W, winsock.wsaqueryset2, winsock2/LPWSAQUERYSET2, winsock2/PWSAQUERYSET2, winsock2/WSAQUERYSET2, winsock2/WSAQUERYSET2A, winsock2/WSAQUERYSET2W'
 ms.topic: struct
-f1_keywords: 
- - "winsock2/WSAQUERYSET2"
+f1_keywords:
+- winsock2/WSAQUERYSET2
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsock2.h
+- Winsock2.h
 api_name:
- - WSAQUERYSET2
- - WSAQUERYSET2A
- - WSAQUERYSET2W
+- WSAQUERYSET2
+- WSAQUERYSET2A
+- WSAQUERYSET2W
 product: Windows
 targetos: Windows
 req.typenames: WSAQUERYSET2W, *PWSAQUERYSET2W, *LPWSAQUERYSET2W
@@ -206,7 +206,7 @@ The size, in bytes, of the protocol constraint array. This member can be zero.
 Type: <b>LPAFPROTOCOLS</b>
 
 A pointer to an optional array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_afprotocols">AFPROTOCOLS</a> structures. Only services that utilize these protocols will be returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-afprotocols">AFPROTOCOLS</a> structures. Only services that utilize these protocols will be returned.
 
 
 ### -field lpszQueryString

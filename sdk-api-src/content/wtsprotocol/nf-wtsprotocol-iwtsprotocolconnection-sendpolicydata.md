@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],SendPolicyData method, IWTSProtocolConnection.SendPolicyData, IWTSProtocolConnection::SendPolicyData, SendPolicyData, SendPolicyData method [Remote Desktop Services], SendPolicyData method [Remote Desktop Services],IWTSProtocolConnection interface, termserv.iwtsprotocolconnection_sendpolicydata, wtsprotocol/IWTSProtocolConnection::SendPolicyData
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolConnection.SendPolicyData"
+f1_keywords:
+- wtsprotocol/IWTSProtocolConnection.SendPolicyData
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.SendPolicyData
+- IWTSProtocolConnection.SendPolicyData
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Sends computer policy settings to the custom protocol. These settings are a comb
 
 ### -param pPolicyData [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_policy_data">WTS_POLICY_DATA</a> structure that contains computer policy settings.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_policy_data">WTS_POLICY_DATA</a> structure that contains computer policy settings.
 
 
 ## -remarks

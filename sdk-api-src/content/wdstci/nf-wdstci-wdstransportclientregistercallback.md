@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportClientRegisterCallback, WdsTransportClientRegisterCallback function [Windows Deployment Services], wds.wdstransportclientregistercallback, wdstci/WdsTransportClientRegisterCallback
 ms.topic: function
-f1_keywords: 
- - "wdstci/WdsTransportClientRegisterCallback"
+f1_keywords:
+- wdstci/WdsTransportClientRegisterCallback
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wdstptc.lib
 req.dll: Wdstptc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wdstptc.dll
+- Wdstptc.dll
 api_name:
- - WdsTransportClientRegisterCallback
+- WdsTransportClientRegisterCallback
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Unique handle returned by the call to <a href="https://docs.microsoft.com/window
 
 ### -param CallbackId [in]
 
-Identifier specifying which callback is being registered. This parameter receives a <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/ne-wdstci-_transportclient_callback_id">TRANSPORTCLIENT_CALLBACK_ID</a> enumeration value. 
+Identifier specifying which callback is being registered. This parameter receives a <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/ne-wdstci-transportclient_callback_id">TRANSPORTCLIENT_CALLBACK_ID</a> enumeration value. 
 
 <table>
 <tr>

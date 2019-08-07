@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADS_SD_FORMAT_HEXSTRING, ADS_SD_FORMAT_IID, ADS_SD_FORMAT_RAW, File, File share, GetSecurityDescriptor, GetSecurityDescriptor method [ADSI], GetSecurityDescriptor method [ADSI],IADsSecurityUtility interface, IADsSecurityUtility interface [ADSI],GetSecurityDescriptor method, IADsSecurityUtility.GetSecurityDescriptor, IADsSecurityUtility::GetSecurityDescriptor, Registry key, _ds_iadssecurityutility_getsecuritydescriptor, adsi.iadssecurityutility__getsecuritydescriptor, adsi.iadssecurityutility_getsecuritydescriptor, iads/IADsSecurityUtility::GetSecurityDescriptor
 ms.topic: method
-f1_keywords: 
- - "iads/IADsSecurityUtility.GetSecurityDescriptor"
+f1_keywords:
+- iads/IADsSecurityUtility.GetSecurityDescriptor
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsSecurityUtility.GetSecurityDescriptor
+- IADsSecurityUtility.GetSecurityDescriptor
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -101,7 +101,7 @@ Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/iads
 
 #### ADS_SD_FORMAT_RAW
 
-<i>pVariant</i> receives a <b>VT_I1</b> | <b>VT_ARRAY</b> that contains the security descriptor in raw data format. This is in the format of a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+<i>pVariant</i> receives a <b>VT_I1</b> | <b>VT_ARRAY</b> that contains the security descriptor in raw data format. This is in the format of a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 
 
@@ -145,7 +145,7 @@ Returns <b>S_OK</b> if successful or a COM or Win32 error code otherwise. Possib
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 

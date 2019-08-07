@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPNSPV2LOOKUPSERVICENEXTEX, NSPv2LookupServiceNextEx, NSPv2LookupServiceNextEx function [Winsock], winsock.nspv2lookupservicenextex, ws2spi/NSPv2LookupServiceNextEx
 ms.topic: callback
-f1_keywords: 
- - "ws2spi/NSPv2LookupServiceNextEx"
+f1_keywords:
+- ws2spi/NSPv2LookupServiceNextEx
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ws2spi.h
+- Ws2spi.h
 api_name:
- - NSPv2LookupServiceNextEx
+- NSPv2LookupServiceNextEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -86,7 +86,7 @@ The size, in bytes, on input, that is contained in the buffer pointed to by <i>l
 ### -param lpqsResults [out]
 
 A pointer to a memory block that will contain, on return, one result set in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaqueryset2w">WSAQUERYSET2</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaqueryset2w">WSAQUERYSET2</a> structure.
 
 
 ## -returns
@@ -141,7 +141,7 @@ In Windows Sockets 2, conflicting error codes are defined for <b>WSAENOMORE</b> 
 </td>
 <td width="60%">
 The <i>lpqsResults</i> buffer was too small to contain a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> set.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> set.
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ The
 On Windows Vista and Windows Server 2008, the <b>NSPv2LookupServiceNextEx</b> function can only be used for operations on NS_EMAIL namespace providers.
 
 The provider will pass a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaqueryset2w">WSAQUERYSET2</a> structure in the <i>lpqsResults</i> buffer. The client should call the <b>NSPv2LookupServiceNextEx</b> function until it returns <b>WSA_E_NOMORE</b>, indicating that all the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaqueryset2w">WSAQUERYSET2</a> structure in the <i>lpqsResults</i> buffer. The client should call the <b>NSPv2LookupServiceNextEx</b> function until it returns <b>WSA_E_NOMORE</b>, indicating that all the 
 <b>WSAQUERYSET2</b> structures have been returned.
 
 The <i>dwControlFlags</i> specified in this function and the ones specified at the time of 
@@ -239,14 +239,14 @@ Also for example, if <b>LUP_RETURN_BLOB</b> is not specified at
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPv2LookupServiceBegin</a>, but is specified at 
 <b>NSPv2LookupServiceNextEx</b>, the returned information does not include the private data. No error is generated.
 
-The <b>NSPv2LookupServiceNextEx</b> function is typically called at least twice. The first time to get the size of the needed buffer to receive the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaqueryset2w">WSAQUERYSET2</a> pointed to by the <i>lpqsResults</i> parameter, and the second time to get the actual query result set. On the first call, the NSPv2 provider should return the size necessary for the <b>WSAQUERYSET2</b> results.  
+The <b>NSPv2LookupServiceNextEx</b> function is typically called at least twice. The first time to get the size of the needed buffer to receive the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaqueryset2w">WSAQUERYSET2</a> pointed to by the <i>lpqsResults</i> parameter, and the second time to get the actual query result set. On the first call, the NSPv2 provider should return the size necessary for the <b>WSAQUERYSET2</b> results.  
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaqueryset2w">WSAQUERYSET2</a> structure pointed to by the <i>lpqsResults</i> parameter that is returned is only useful in the same process context, since several of the members in the <b>WSAQUERYSET2</b> structure contains pointers to the actual data returned. If the query result needs to be passed to another process (using RPC, for example), then it will be necessary to serialize and marshal the data returned in the <b>WSAQUERYSET2</b> structure pointed to by the <i>lpqsResults</i> parameter including the data pointed to by members in the <b>WSAQUERYSET2</b> structure. The data needs to be serialized in a form that can be passed across process boundaries. Just passing a copy of the <b>WSAQUERYSET2</b> structure  is insufficient, since only pointers to data will be passed and the actual data will be unavailable to other processes.
+The <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaqueryset2w">WSAQUERYSET2</a> structure pointed to by the <i>lpqsResults</i> parameter that is returned is only useful in the same process context, since several of the members in the <b>WSAQUERYSET2</b> structure contains pointers to the actual data returned. If the query result needs to be passed to another process (using RPC, for example), then it will be necessary to serialize and marshal the data returned in the <b>WSAQUERYSET2</b> structure pointed to by the <i>lpqsResults</i> parameter including the data pointed to by members in the <b>WSAQUERYSET2</b> structure. The data needs to be serialized in a form that can be passed across process boundaries. Just passing a copy of the <b>WSAQUERYSET2</b> structure  is insufficient, since only pointers to data will be passed and the actual data will be unavailable to other processes.
 
 <h3><a id="Query_Results"></a><a id="query_results"></a><a id="QUERY_RESULTS"></a>Query Results</h3>
-The following table lists <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaqueryset2w">WSAQUERYSET2</a> and describes how query results are represented in the 
+The following table lists <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaqueryset2w">WSAQUERYSET2</a> and describes how query results are represented in the 
 <b>WSAQUERYSET2</b> structure. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinSock/name-resolution-data-structures-2">Query-Related Data Structures</a>.
 
 <table>
@@ -256,7 +256,7 @@ The following table lists <a href="https://docs.microsoft.com/windows/desktop/ap
 </tr>
 <tr>
 <td><b>dwSize</b></td>
-<td>The  size, in bytes, of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaqueryset2w">WSAQUERYSET2</a> structure. This is used as a versioning mechanism.</td>
+<td>The  size, in bytes, of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaqueryset2w">WSAQUERYSET2</a> structure. This is used as a versioning mechanism.</td>
 </tr>
 <tr>
 <td><b>lpszServiceInstanceName</b></td>
@@ -291,7 +291,7 @@ The following table lists <a href="https://docs.microsoft.com/windows/desktop/ap
 <tr>
 <td><b>lpafpProtocols</b></td>
 <td>This member is undefined for results. All needed protocol information is in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures.</td>
 </tr>
 <tr>
 <td><b>lpszQueryString</b></td>
@@ -300,12 +300,12 @@ The following table lists <a href="https://docs.microsoft.com/windows/desktop/ap
 <tr>
 <td><b>dwNumberOfCsAddrs</b></td>
 <td>The number of elements in the array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures.</td>
 </tr>
 <tr>
 <td><b>lpcsaBuffer</b></td>
 <td>A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures, with one complete transport address contained within each element.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures, with one complete transport address contained within each element.</td>
 </tr>
 <tr>
 <td><b>dwOutputFlags</b></td>
@@ -328,11 +328,11 @@ The following table lists <a href="https://docs.microsoft.com/windows/desktop/ap
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_nspv2_routine">NSPV2_ROUTINE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-nspv2_routine">NSPV2_ROUTINE</a>
 
 
 
@@ -360,7 +360,7 @@ The following table lists <a href="https://docs.microsoft.com/windows/desktop/ap
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaqueryset2w">WSAQUERYSET2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaqueryset2w">WSAQUERYSET2</a>
 
 
 

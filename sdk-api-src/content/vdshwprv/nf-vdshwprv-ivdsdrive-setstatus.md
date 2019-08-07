@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsDrive interface [VDS],SetStatus method, IVdsDrive.SetStatus, IVdsDrive::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsDrive interface, base.ivdsdrive_setstatus, vds/IVdsDrive::SetStatus, vdshwprv/IVdsDrive::SetStatus
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsDrive.SetStatus"
+f1_keywords:
+- vdshwprv/IVdsDrive.SetStatus
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsDrive.SetStatus
+- IVdsDrive.SetStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Sets the status of the drive
 
 ### -param status [in]
 
-Values enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_drive_status">VDS_DRIVE_STATUS</a>. Callers can 
+Values enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_drive_status">VDS_DRIVE_STATUS</a>. Callers can 
       pass in a subset of the possible enumeration values. Passing in <b>VDS_DRS_UNKNOWN</b> 
       returns <b>E_INVALIDARG</b>.
 
@@ -182,7 +182,7 @@ Implementers are responsible for performing any necessary operations to get the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_drive_status">VDS_DRIVE_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_drive_status">VDS_DRIVE_STATUS</a>
  
 
  

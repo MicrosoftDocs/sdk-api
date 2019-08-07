@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptUIDlgCertMgr, CryptUIDlgCertMgr function [Security], cryptuiapi/CryptUIDlgCertMgr, security.cryptuidlgcertmgr
 ms.topic: function
-f1_keywords: 
- - "cryptuiapi/CryptUIDlgCertMgr"
+f1_keywords:
+- cryptuiapi/CryptUIDlgCertMgr
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Cryptui.lib
 req.dll: Cryptui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cryptui.dll
- - Ext-MS-Win-security-cryptui-l1-1-0.dll
- - ext-ms-win-security-cryptui-l1-1-1.dll
- - CertCredProviderOneCore.dll
+- Cryptui.dll
+- Ext-MS-Win-security-cryptui-l1-1-0.dll
+- ext-ms-win-security-cryptui-l1-1-1.dll
+- CertCredProviderOneCore.dll
 api_name:
- - CryptUIDlgCertMgr
+- CryptUIDlgCertMgr
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ The <b>CryptUIDlgCertMgr</b> function displays a dialog box that allows the user
 
 ### -param pCryptUICertMgr [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_cert_mgr_struct">CRYPTUI_CERT_MGR_STRUCT</a> structure that contains information about how to create the dialog box.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-cryptui_cert_mgr_struct">CRYPTUI_CERT_MGR_STRUCT</a> structure that contains information about how to create the dialog box.
 
 
 ## -returns

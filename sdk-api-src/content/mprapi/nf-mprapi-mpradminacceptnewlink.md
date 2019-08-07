@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminAcceptNewLink, MprAdminAcceptNewLink callback, MprAdminAcceptNewLink callback function [RAS], _mpr_mpradminacceptnewlink, mprapi/MprAdminAcceptNewLink, rras.mpradminacceptnewlink
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminAcceptNewLink"
+f1_keywords:
+- mprapi/MprAdminAcceptNewLink
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - MprAdminAcceptNewLink
+- MprAdminAcceptNewLink
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Remote Access Service (RAS) calls the
 ### -param pRasPort0 [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_port_0">RAS_PORT_0</a> structure that describes the port being used by the link.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_port_0">RAS_PORT_0</a> structure that describes the port being used by the link.
 
 
 ### -param pRasPort1 [in]
@@ -129,7 +129,7 @@ Do not call any of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_port_0">RAS_PORT_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_port_0">RAS_PORT_0</a>
 
 
 

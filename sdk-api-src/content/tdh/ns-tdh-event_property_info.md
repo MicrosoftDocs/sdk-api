@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: 06b82b31-1f0e-45d5-88ec-9b9835af10df
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEVENT_PROPERTY_INFO, EVENT_PROPERTY_INFO, EVENT_PROPERTY_INFO structure [ETW], etw.event_property_info_struct, tdh.event_property_info_struct, tdh/EVENT_PROPERTY_INFO"
+ms.keywords: '*PEVENT_PROPERTY_INFO, EVENT_PROPERTY_INFO, EVENT_PROPERTY_INFO structure [ETW], etw.event_property_info_struct, tdh.event_property_info_struct, tdh/EVENT_PROPERTY_INFO'
 ms.topic: struct
-f1_keywords: 
- - "tdh/EVENT_PROPERTY_INFO"
+f1_keywords:
+- tdh/EVENT_PROPERTY_INFO
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tdh.h
+- Tdh.h
 api_name:
- - EVENT_PROPERTY_INFO
+- EVENT_PROPERTY_INFO
 product: Windows
 targetos: Windows
 req.typenames: EVENT_PROPERTY_INFO
@@ -65,17 +65,17 @@ Provides information about a single property of the event or filter.
 
 ### -field Flags
 
-Flags that indicate if the property is contained in a structure or array. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-_property_flags">PROPERTY_FLAGS</a> enumeration.
+Flags that indicate if the property is contained in a structure or array. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-property_flags">PROPERTY_FLAGS</a> enumeration.
 
 
 ### -field NameOffset
 
-Offset to a null-terminated Unicode string that contains the name of the property. If this an event property, the offset is from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_trace_event_info">TRACE_EVENT_INFO</a> structure. If this is a filter property, the offset is from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_provider_filter_info">PROVIDER_FILTER_INFO</a> structure.
+Offset to a null-terminated Unicode string that contains the name of the property. If this an event property, the offset is from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_trace_event_info">TRACE_EVENT_INFO</a> structure. If this is a filter property, the offset is from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-provider_filter_info">PROVIDER_FILTER_INFO</a> structure.
 
 
 ### -field nonStructType
 
-Use these members if the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-_property_flags">PropertyStruct</a> flag in <b>Flags</b> is not set; otherwise, use the <b>structType</b> member.
+Use these members if the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-property_flags">PropertyStruct</a> flag in <b>Flags</b> is not set; otherwise, use the <b>structType</b> member.
 
 
 ### -field nonStructType.InType
@@ -101,7 +101,7 @@ Offset from the beginning of the <a href="https://docs.microsoft.com/windows/des
 
 ### -field structType
 
-Use these members if the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-_property_flags">PropertyStruct</a> flag in <b>Flags</b> is set; otherwise, use the <b>nonStructType</b> member.
+Use these members if the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-property_flags">PropertyStruct</a> flag in <b>Flags</b> is set; otherwise, use the <b>nonStructType</b> member.
 
 
 ### -field structType.StructStartIndex
@@ -148,7 +148,7 @@ Number of elements in the array. Note that this value is 1 for properties that a
 
 ### -field countPropertyIndex
 
-Zero-based index to the element of the property array that contains the number of elements in the array. Use this member if the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-_property_flags">PropertyParamCount</a> flag in <b>Flags</b> is set; otherwise, use the <b>count</b> member.
+Zero-based index to the element of the property array that contains the number of elements in the array. Use this member if the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-property_flags">PropertyParamCount</a> flag in <b>Flags</b> is set; otherwise, use the <b>count</b> member.
 
 
 ### -field length
@@ -158,7 +158,7 @@ Size of the property, in bytes. Note that variable-sized types such as strings a
 
 ### -field lengthPropertyIndex
 
-Zero-based index to the element of the property array that contains the size value of this property. Use this member if the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-_property_flags">PropertyParamLength</a> flag in <b>Flags</b> is set; otherwise, use the <b>length</b> member.
+Zero-based index to the element of the property array that contains the size value of this property. Use this member if the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-property_flags">PropertyParamLength</a> flag in <b>Flags</b> is set; otherwise, use the <b>length</b> member.
 
 
 ### -field Reserved
@@ -185,7 +185,7 @@ Filters do not support maps, structures, or arrays.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_provider_filter_info">PROVIDER_FILTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-provider_filter_info">PROVIDER_FILTER_INFO</a>
 
 
 

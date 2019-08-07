@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPTPROTECT_AUDIT, CRYPTPROTECT_LOCAL_MACHINE, CRYPTPROTECT_UI_FORBIDDEN, CryptProtectData, CryptProtectData function [Security], _crypto2_cryptprotectdata, dpapi/CryptProtectData, security.cryptprotectdata, wincrypt/CryptProtectData
 ms.topic: function
-f1_keywords: 
- - "dpapi/CryptProtectData"
+f1_keywords:
+- dpapi/CryptProtectData
 req.header: dpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptProtectData
+- CryptProtectData
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -84,7 +84,7 @@ Reserved for future use and must be set to <b>NULL</b>.
 ### -param pPromptStruct [in, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dpapi/ns-dpapi-_cryptprotect_promptstruct">CRYPTPROTECT_PROMPTSTRUCT</a> structure that provides information about where and when prompts are to be displayed and what the content of those prompts should be. This parameter can be set to <b>NULL</b> in both the encryption and decryption phases.
+<a href="https://docs.microsoft.com/windows/desktop/api/dpapi/ns-dpapi-cryptprotect_promptstruct">CRYPTPROTECT_PROMPTSTRUCT</a> structure that provides information about where and when prompts are to be displayed and what the content of those prompts should be. This parameter can be set to <b>NULL</b> in both the encryption and decryption phases.
 
 
 ### -param dwFlags [in]

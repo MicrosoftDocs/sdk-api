@@ -8,10 +8,10 @@ tech.root: bltooth
 ms.assetid: B4433D0F-7938-4C6D-994F-D99393EC013A
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PBTH_LE_GATT_SERVICE, BTH_LE_GATT_SERVICE, BTH_LE_GATT_SERVICE structure [Bluetooth Devices], PBTH_LE_GATT_SERVICE, PBTH_LE_GATT_SERVICE structure pointer [Bluetooth Devices], bltooth.bth_le_gatt_service, bthledef/BTH_LE_GATT_SERVICE, bthledef/PBTH_LE_GATT_SERVICE"
+ms.keywords: '*PBTH_LE_GATT_SERVICE, BTH_LE_GATT_SERVICE, BTH_LE_GATT_SERVICE structure [Bluetooth Devices], PBTH_LE_GATT_SERVICE, PBTH_LE_GATT_SERVICE structure pointer [Bluetooth Devices], bltooth.bth_le_gatt_service, bthledef/BTH_LE_GATT_SERVICE, bthledef/PBTH_LE_GATT_SERVICE'
 ms.topic: struct
-f1_keywords: 
- - "bthledef/BTH_LE_GATT_SERVICE"
+f1_keywords:
+- bthledef/BTH_LE_GATT_SERVICE
 req.header: bthledef.h
 req.include-header: BthLEDef.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - BthLEDef.h
+- BthLEDef.h
 api_name:
- - BTH_LE_GATT_SERVICE
+- BTH_LE_GATT_SERVICE
 product: Windows
 targetos: Windows
 req.typenames: BTH_LE_GATT_SERVICE, *PBTH_LE_GATT_SERVICE
@@ -74,7 +74,7 @@ The handle to the Bluetooth LE GATT profile attributes.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-_bth_le_uuid">BTH_LE_UUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_uuid">BTH_LE_UUID</a>
 
 
 

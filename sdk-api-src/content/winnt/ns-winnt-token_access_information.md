@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: cb727b91-c88f-48f3-8329-020d3f727dc7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTOKEN_ACCESS_INFORMATION, PTOKEN_ACCESS_INFORMATION, PTOKEN_ACCESS_INFORMATION structure pointer [Security], TOKEN_ACCESS_INFORMATION, TOKEN_ACCESS_INFORMATION structure [Security], _TOKEN_ACCESS_INFORMATION, security.token_access_information, winnt/PTOKEN_ACCESS_INFORMATION, winnt/TOKEN_ACCESS_INFORMATION"
+ms.keywords: '*PTOKEN_ACCESS_INFORMATION, PTOKEN_ACCESS_INFORMATION, PTOKEN_ACCESS_INFORMATION structure pointer [Security], TOKEN_ACCESS_INFORMATION, TOKEN_ACCESS_INFORMATION structure [Security], _TOKEN_ACCESS_INFORMATION, security.token_access_information, winnt/PTOKEN_ACCESS_INFORMATION, winnt/TOKEN_ACCESS_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winnt/TOKEN_ACCESS_INFORMATION"
+f1_keywords:
+- winnt/TOKEN_ACCESS_INFORMATION
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - TOKEN_ACCESS_INFORMATION
+- TOKEN_ACCESS_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: TOKEN_ACCESS_INFORMATION, *PTOKEN_ACCESS_INFORMATION
@@ -63,12 +63,12 @@ The <b>TOKEN_ACCESS_INFORMATION</b> structure specifies all the information in a
 
 ### -field SidHash
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_and_attributes_hash">SID_AND_ATTRIBUTES_HASH</a> structure that specifies a hash of the token's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes_hash">SID_AND_ATTRIBUTES_HASH</a> structure that specifies a hash of the token's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
 
 ### -field RestrictedSidHash
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_and_attributes_hash">SID_AND_ATTRIBUTES_HASH</a> structure that specifies a hash of the token's restricted SID.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes_hash">SID_AND_ATTRIBUTES_HASH</a> structure that specifies a hash of the token's restricted SID.
 
 
 ### -field Privileges
@@ -83,17 +83,17 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">
 
 ### -field TokenType
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_token_type">TOKEN_TYPE</a> enumeration that specifies the token's type.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-token_type">TOKEN_TYPE</a> enumeration that specifies the token's type.
 
 
 ### -field ImpersonationLevel
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> enumeration that specifies the token's impersonation level.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> enumeration that specifies the token's impersonation level.
 
 
 ### -field MandatoryPolicy
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_mandatory_policy">TOKEN_MANDATORY_POLICY</a> structure that specifies the token's mandatory integrity policy.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_mandatory_policy">TOKEN_MANDATORY_POLICY</a> structure that specifies the token's mandatory integrity policy.
 
 
 ### -field Flags
@@ -117,7 +117,7 @@ The app container SID or <b>NULL</b> if this is not an app container token.
 
 ### -field CapabilitiesHash
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_and_attributes_hash">SID_AND_ATTRIBUTES_HASH</a> structure that specifies a hash of the token's capability SIDs.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes_hash">SID_AND_ATTRIBUTES_HASH</a> structure that specifies a hash of the token's capability SIDs.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:  </b>This member is not available.
 
@@ -139,7 +139,7 @@ Reserved. Must be set to <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_token_information_class">TOKEN_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>
  
 
  

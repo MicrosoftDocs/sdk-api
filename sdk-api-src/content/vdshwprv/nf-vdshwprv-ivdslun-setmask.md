@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsLun interface [VDS],SetMask method, IVdsLun.SetMask, IVdsLun::SetMask, SetMask, SetMask method [VDS], SetMask method [VDS],IVdsLun interface, base.ivdslun_setmask, vds/IVdsLun::SetMask, vdshwprv/IVdsLun::SetMask
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsLun.SetMask"
+f1_keywords:
+- vdshwprv/IVdsLun.SetMask
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsLun.SetMask
+- IVdsLun.SetMask
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -188,7 +188,7 @@ Before calling the <b>SetMask</b> method to mask a LUN,
 <li>For each disk, call the 
          <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-queryextents">IVdsDisk::QueryExtents</a> method to enumerate 
          the disk extents. This method returns a list of 
-         <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_extent">VDS_DISK_EXTENT</a> structures. The 
+         <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_extent">VDS_DISK_EXTENT</a> structures. The 
          <b>volumeId</b> member of this structure contains the volume 
          <b>GUID</b>.</li>
 <li>Enumerate the volumes managed by the software provider by calling the 
@@ -197,7 +197,7 @@ Before calling the <b>SetMask</b> method to mask a LUN,
          <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-queryvolumes">IVdsPack::QueryVolumes</a> to enumerate the 
          volumes in each pack. Call 
          <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-getproperties">IVdsVolume::GetProperties</a> to obtain the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_volume_prop">VDS_VOLUME_PROP</a> structure for each volume. The 
+         <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_volume_prop">VDS_VOLUME_PROP</a> structure for each volume. The 
          <b>id</b> member of this structure contains the volume <b>GUID</b>. 
          The <b>pwszName</b> member contains the volume name to be passed to 
          <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> to obtain a volume handle.</li>

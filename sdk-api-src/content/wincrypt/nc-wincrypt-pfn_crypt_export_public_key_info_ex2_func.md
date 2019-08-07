@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC, PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC callback, PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC callback function [Security], security.pfn_crypt_export_public_key_info_ex2_func, wincrypt/PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC
 ms.topic: callback
-f1_keywords: 
- - "wincrypt/PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC"
+f1_keywords:
+- wincrypt/PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC
+- PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -95,7 +95,7 @@ This parameter is reserved for future use and  must be set to <b>NULL</b>.
 ### -param pInfo [out, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>  structure to receive the public key information to be exported.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>  structure to receive the public key information to be exported.
 
 This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.

@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: D83C5632-F67A-42BA-A146-989EBB3B2763
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEFFPERM_RESULT_LIST, EFFPERM_RESULT_LIST, EFFPERM_RESULT_LIST structure [Security], PEFFPERM_RESULT_LIST, PEFFPERM_RESULT_LIST structure pointer [Security], aclui/EFFPERM_RESULT_LIST, aclui/PEFFPERM_RESULT_LIST, security.effperm_result_list"
+ms.keywords: '*PEFFPERM_RESULT_LIST, EFFPERM_RESULT_LIST, EFFPERM_RESULT_LIST structure [Security], PEFFPERM_RESULT_LIST, PEFFPERM_RESULT_LIST structure pointer [Security], aclui/EFFPERM_RESULT_LIST, aclui/PEFFPERM_RESULT_LIST, security.effperm_result_list'
 ms.topic: struct
-f1_keywords: 
- - "aclui/EFFPERM_RESULT_LIST"
+f1_keywords:
+- aclui/EFFPERM_RESULT_LIST
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Aclui.h
+- Aclui.h
 api_name:
- - EFFPERM_RESULT_LIST
+- EFFPERM_RESULT_LIST
 product: Windows
 targetos: Windows
 req.typenames: EFFPERM_RESULT_LIST, *PEFFPERM_RESULT_LIST
@@ -71,7 +71,7 @@ The number of elements in both the <b>pObjectTypeList</b> and <b>pGrantedAccessL
 
 ### -field pObjectTypeList
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_object_type_list">OBJECT_TYPE_LIST</a> structures that specifies the properties and property sets for which access was evaluated.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-object_type_list">OBJECT_TYPE_LIST</a> structures that specifies the properties and property sets for which access was evaluated.
 
 
 ### -field pGrantedAccessList

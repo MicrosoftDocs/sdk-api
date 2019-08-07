@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_SHADER_VERSION_TYPE, D3D12_SHADER_VERSION_TYPE enumeration, D3D12_SHVER_COMPUTE_SHADER, D3D12_SHVER_DOMAIN_SHADER, D3D12_SHVER_GEOMETRY_SHADER, D3D12_SHVER_HULL_SHADER, D3D12_SHVER_PIXEL_SHADER, D3D12_SHVER_RESERVED0, D3D12_SHVER_VERTEX_SHADER, d3d12shader/D3D12_SHADER_VERSION_TYPE, d3d12shader/D3D12_SHVER_COMPUTE_SHADER, d3d12shader/D3D12_SHVER_DOMAIN_SHADER, d3d12shader/D3D12_SHVER_GEOMETRY_SHADER, d3d12shader/D3D12_SHVER_HULL_SHADER, d3d12shader/D3D12_SHVER_PIXEL_SHADER, d3d12shader/D3D12_SHVER_RESERVED0, d3d12shader/D3D12_SHVER_VERTEX_SHADER, direct3d12.d3d12_shader_version_type
 ms.topic: enum
-f1_keywords: 
- - "d3d12shader/D3D12_SHADER_VERSION_TYPE"
+f1_keywords:
+- d3d12shader/D3D12_SHADER_VERSION_TYPE
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - D3D12_SHADER_VERSION_TYPE
+- D3D12_SHADER_VERSION_TYPE
 product: Windows
 targetos: Windows
 req.typenames: D3D12_SHADER_VERSION_TYPE
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Enumerates the types of shaders that Direct3D recognizes.  
-          Used to encode the <b>Version</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_shader_desc">D3D12_SHADER_DESC</a> structure.
+          Used to encode the <b>Version</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_shader_desc">D3D12_SHADER_DESC</a> structure.
         
 
 

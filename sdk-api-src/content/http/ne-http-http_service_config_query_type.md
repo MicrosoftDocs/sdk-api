@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 63b2503f-7e71-4c62-8e9c-ad0f5103a9e8
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_SERVICE_CONFIG_QUERY_TYPE, HTTP_SERVICE_CONFIG_QUERY_TYPE, HTTP_SERVICE_CONFIG_QUERY_TYPE enumeration [HTTP], HttpServiceConfigQueryExact, HttpServiceConfigQueryMax, HttpServiceConfigQueryNext, PHTTP_SERVICE_CONFIG_QUERY_TYPE, PHTTP_SERVICE_CONFIG_QUERY_TYPE enumeration pointer [HTTP], _http_http_service_config_query_type, http.http_service_config_query_type, http/HTTP_SERVICE_CONFIG_QUERY_TYPE, http/HttpServiceConfigQueryExact, http/HttpServiceConfigQueryMax, http/HttpServiceConfigQueryNext, http/PHTTP_SERVICE_CONFIG_QUERY_TYPE"
+ms.keywords: '*PHTTP_SERVICE_CONFIG_QUERY_TYPE, HTTP_SERVICE_CONFIG_QUERY_TYPE, HTTP_SERVICE_CONFIG_QUERY_TYPE enumeration [HTTP], HttpServiceConfigQueryExact, HttpServiceConfigQueryMax, HttpServiceConfigQueryNext, PHTTP_SERVICE_CONFIG_QUERY_TYPE, PHTTP_SERVICE_CONFIG_QUERY_TYPE enumeration pointer [HTTP], _http_http_service_config_query_type, http.http_service_config_query_type, http/HTTP_SERVICE_CONFIG_QUERY_TYPE, http/HttpServiceConfigQueryExact, http/HttpServiceConfigQueryMax, http/HttpServiceConfigQueryNext, http/PHTTP_SERVICE_CONFIG_QUERY_TYPE'
 ms.topic: enum
-f1_keywords: 
- - "http/HTTP_SERVICE_CONFIG_QUERY_TYPE"
+f1_keywords:
+- http/HTTP_SERVICE_CONFIG_QUERY_TYPE
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_SERVICE_CONFIG_QUERY_TYPE
+- HTTP_SERVICE_CONFIG_QUERY_TYPE
 product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_QUERY_TYPE, *PHTTP_SERVICE_CONFIG_QUERY_TYPE
@@ -53,8 +53,8 @@ ms.custom: 19H1
 
 The 
 <b>HTTP_SERVICE_CONFIG_QUERY_TYPE</b> enumeration type defines various types of queries to make. It is used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_query">HTTP_SERVICE_CONFIG_SSL_QUERY</a>, <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_ccs_query">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_urlacl_query">HTTP_SERVICE_CONFIG_URLACL_QUERY</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_query">HTTP_SERVICE_CONFIG_SSL_QUERY</a>, <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_query">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_urlacl_query">HTTP_SERVICE_CONFIG_URLACL_QUERY</a> structures.
 
 
 ## -enum-fields
@@ -82,7 +82,7 @@ Terminates the enumeration; is not used to define a query type.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_ccs_query">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_query">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a>
 
 
 
@@ -90,7 +90,7 @@ Terminates the enumeration; is not used to define a query type.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_urlacl_query">HTTP_SERVICE_CONFIG_URLACL_QUERY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_urlacl_query">HTTP_SERVICE_CONFIG_URLACL_QUERY</a>
  
 
  

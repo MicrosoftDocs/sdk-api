@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RM_APP_TYPE, RmConsole, RmCritical, RmExplorer, RmMainWindow, RmOtherWindow, RmService, RmUnknownApp, _RM_APP_TYPE, _RM_APP_TYPE enumeration [Restart Mgr], restartmanager/RmConsole, restartmanager/RmCritical, restartmanager/RmExplorer, restartmanager/RmMainWindow, restartmanager/RmOtherWindow, restartmanager/RmService, restartmanager/RmUnknownApp, restartmanager/_RM_APP_TYPE, rstmgr.rm_app_type
 ms.topic: enum
-f1_keywords: 
- - "restartmanager/RM_APP_TYPE"
+f1_keywords:
+- restartmanager/RM_APP_TYPE
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - RestartManager.h
+- RestartManager.h
 api_name:
- - RM_APP_TYPE
+- RM_APP_TYPE
 product: Windows
 targetos: Windows
 req.typenames: RM_APP_TYPE
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the type of application that is described by the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_process_info">RM_PROCESS_INFO</a> structure.
+Specifies the type of application that is described by the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a> structure.
 
 
 ## -enum-fields
@@ -99,7 +99,7 @@ A system restart is required to complete the installation because a process cann
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_process_info">RM_PROCESS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdSetExclusiveMode, DdSetExclusiveMode callback function [Display Devices], PDD_SETEXCLUSIVEMODE, PDD_SETEXCLUSIVEMODE callback, ddfncs_5ac6ee85-d0b5-414d-89c6-01f8a1e11488.xml, ddrawint/DdSetExclusiveMode, display.ddsetexclusivemode
 ms.topic: callback
-f1_keywords: 
- - "ddrawint/DdSetExclusiveMode"
+f1_keywords:
+- ddrawint/DdSetExclusiveMode
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DdSetExclusiveMode
+- DdSetExclusiveMode
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The <i>DdSetExclusiveMode</i> callback function notifies the driver when a Direc
 
 #### - lpSetExclusiveMode
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_setexclusivemodedata">DD_SETEXCLUSIVEMODEDATA</a> structure that contains the notification information.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_setexclusivemodedata">DD_SETEXCLUSIVEMODEDATA</a> structure that contains the notification information.
 
 
 ## -returns
@@ -98,7 +98,7 @@ DirectDraw applications can go full screen and take total control of the primary
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_setexclusivemodedata">DD_SETEXCLUSIVEMODEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_setexclusivemodedata">DD_SETEXCLUSIVEMODEDATA</a>
  
 
  

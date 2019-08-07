@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WebSocketEndClientHandshake, WebSocketEndClientHandshake function [Websocket Protocol Component API], websock.websocketendclienthandshake, websocket/WebSocketEndClientHandshake
 ms.topic: function
-f1_keywords: 
- - "websocket/WebSocketEndClientHandshake"
+f1_keywords:
+- websocket/WebSocketEndClientHandshake
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Websocket.lib
 req.dll: Websocket.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - websocket.dll
+- websocket.dll
 api_name:
- - WebSocketEndClientHandshake
+- WebSocketEndClientHandshake
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,9 +68,9 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WebSock/web-socket-
 
 ### -param pResponseHeaders [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_http_header">PWEB_SOCKET_HTTP_HEADER</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">PWEB_SOCKET_HTTP_HEADER</a></b>
 
-Pointer to an array or <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a> structures that contain the response headers received by the application.
+Pointer to an array or <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a> structures that contain the response headers received by the application.
 
 
 ### -param ulReponseHeaderCount [in]
@@ -169,7 +169,7 @@ This function must be called to complete the client-side handshake after a previ
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a>
 
 
 

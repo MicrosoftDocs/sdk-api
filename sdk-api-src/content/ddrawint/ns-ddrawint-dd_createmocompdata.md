@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 53b2aa38-b007-4938-8fdb-c3482735ae36
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_CREATEMOCOMPDATA, DD_CREATEMOCOMPDATA, DD_CREATEMOCOMPDATA structure [Display Devices], ddrawint/DD_CREATEMOCOMPDATA, ddstrcts_776346bf-3538-4965-b747-a017a7c21514.xml, display.dd_createmocompdata"
+ms.keywords: '*PDD_CREATEMOCOMPDATA, DD_CREATEMOCOMPDATA, DD_CREATEMOCOMPDATA structure [Display Devices], ddrawint/DD_CREATEMOCOMPDATA, ddstrcts_776346bf-3538-4965-b747-a017a7c21514.xml, display.dd_createmocompdata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_CREATEMOCOMPDATA"
+f1_keywords:
+- ddrawint/DD_CREATEMOCOMPDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_CREATEMOCOMPDATA
+- DD_CREATEMOCOMPDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_CREATEMOCOMPDATA, DD_CREATEMOCOMPDATA"
+req.typenames: '*PDD_CREATEMOCOMPDATA, DD_CREATEMOCOMPDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,12 +61,12 @@ The DD_CREATEMOCOMPDATA structure contains the data required to begin using moti
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
 
 ### -field lpMoComp
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_motioncomp_local">DD_MOTIONCOMP_LOCAL</a> structure that contains a description of the motion compensation object.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_motioncomp_local">DD_MOTIONCOMP_LOCAL</a> structure that contains a description of the motion compensation object.
 
 
 ### -field lpGuid

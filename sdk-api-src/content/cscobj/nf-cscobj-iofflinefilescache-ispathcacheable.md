@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],IsPathCacheable method, IOfflineFilesCache.IsPathCacheable, IOfflineFilesCache::IsPathCacheable, IsPathCacheable, IsPathCacheable method [Offline Files], IsPathCacheable method [Offline Files],IOfflineFilesCache interface, OFFLINEFILES_CACHING_MODE_AUTO_DOC, OFFLINEFILES_CACHING_MODE_AUTO_PROGANDDOC, OFFLINEFILES_CACHING_MODE_MANUAL, OFFLINEFILES_CACHING_MODE_NOCACHING, OFFLINEFILES_CACHING_MODE_NONE, cscobj/IOfflineFilesCache::IsPathCacheable, of.iofflinefilescache_ispathcacheable
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesCache.IsPathCacheable"
+f1_keywords:
+- cscobj/IOfflineFilesCache.IsPathCacheable
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesCache.IsPathCacheable
+- IOfflineFilesCache.IsPathCacheable
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -118,14 +118,14 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-The caching mode value returned is equivalent to the <b>CSC_MASK</b> value associated with <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1005">SHARE_INFO_1005</a> returned by <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>.  The value mapping is as follows:
+The caching mode value returned is equivalent to the <b>CSC_MASK</b> value associated with <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1005">SHARE_INFO_1005</a> returned by <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>.  The value mapping is as follows:
 
 <table>
 <tr>
 <th>
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_caching_mode">OFFLINEFILES_CACHING_MODE</a> Value</th>
 <th>
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1005">SHARE_INFO_1005</a> Value</th>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1005">SHARE_INFO_1005</a> Value</th>
 </tr>
 <tr>
 <td><b>OFFLINEFILES_CACHING_MODE_NOCACHING</b></td>

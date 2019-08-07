@@ -8,10 +8,10 @@ tech.root: hcp
 ms.assetid: 7224b623-c097-44e8-b9da-5fdfad3fb505
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHARDWARE_COUNTER_DATA, HARDWARE_COUNTER_DATA, HARDWARE_COUNTER_DATA structure [Hardware Counter Profiling], PHARDWARE_COUNTER_DATA, PHARDWARE_COUNTER_DATA structure pointer [Hardware Counter Profiling], _HARDWARE_COUNTER_DATA, hcp.hardware_counter_data, winnt/HARDWARE_COUNTER_DATA, winnt/PHARDWARE_COUNTER_DATA"
+ms.keywords: '*PHARDWARE_COUNTER_DATA, HARDWARE_COUNTER_DATA, HARDWARE_COUNTER_DATA structure [Hardware Counter Profiling], PHARDWARE_COUNTER_DATA, PHARDWARE_COUNTER_DATA structure pointer [Hardware Counter Profiling], _HARDWARE_COUNTER_DATA, hcp.hardware_counter_data, winnt/HARDWARE_COUNTER_DATA, winnt/PHARDWARE_COUNTER_DATA'
 ms.topic: struct
-f1_keywords: 
- - "winnt/HARDWARE_COUNTER_DATA"
+f1_keywords:
+- winnt/HARDWARE_COUNTER_DATA
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - HARDWARE_COUNTER_DATA
+- HARDWARE_COUNTER_DATA
 product: Windows
 targetos: Windows
 req.typenames: HARDWARE_COUNTER_DATA, *PHARDWARE_COUNTER_DATA
@@ -61,7 +61,7 @@ Contains the hardware counter value.
 
 ### -field Type
 
-The type of hardware counter data collected. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_hardware_counter_type">HARDWARE_COUNTER_TYPE</a> enumeration.
+The type of hardware counter data collected. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-hardware_counter_type">HARDWARE_COUNTER_TYPE</a> enumeration.
 
 
 ### -field Reserved
@@ -78,7 +78,7 @@ The counter index. Each hardware counter in a processor's performance monitoring
 
 
 
-This structure is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_performance_data">PERFORMANCE_DATA</a> structure.
+This structure is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-performance_data">PERFORMANCE_DATA</a> structure.
 
 
 
@@ -88,7 +88,7 @@ This structure is a member of the <a href="https://docs.microsoft.com/windows/de
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_performance_data">PERFORMANCE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-performance_data">PERFORMANCE_DATA</a>
  
 
  

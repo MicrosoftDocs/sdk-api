@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawThemeBackgroundEx, DrawThemeBackgroundEx function [Windows Controls], controls.DrawThemeBackgroundEx, controls.inet_DrawThemeBackgroundEx, inet_DrawThemeBackgroundEx, inet_DrawThemeBackgroundEx_cpp, uxtheme/DrawThemeBackgroundEx
 ms.topic: function
-f1_keywords: 
- - "uxtheme/DrawThemeBackgroundEx"
+f1_keywords:
+- uxtheme/DrawThemeBackgroundEx
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
- - xamlpalwp.dll
+- UxTheme.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
+- xamlpalwp.dll
 api_name:
- - DrawThemeBackgroundEx
+- DrawThemeBackgroundEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -104,9 +104,9 @@ Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> struc
 
 ### -param pOptions [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-_dtbgopts">DTBGOPTS</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-dtbgopts">DTBGOPTS</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-_dtbgopts">DTBGOPTS</a> structure that contains clipping information. This parameter may be set to <b>NULL</b>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-dtbgopts">DTBGOPTS</a> structure that contains clipping information. This parameter may be set to <b>NULL</b>.
 
 
 ## -returns

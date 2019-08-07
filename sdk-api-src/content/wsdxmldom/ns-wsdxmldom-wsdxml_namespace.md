@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDXML_NAMESPACE, WSDXML_NAMESPACE structure, _WSDXML_NAMESPACE, ncd.wsdxml_namespace_struct, wsdxmldom/WSDXML_NAMESPACE
 ms.topic: struct
-f1_keywords: 
- - "wsdxmldom/WSDXML_NAMESPACE"
+f1_keywords:
+- wsdxmldom/WSDXML_NAMESPACE
 req.header: wsdxmldom.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdXmldom.h
+- WsdXmldom.h
 api_name:
- - WSDXML_NAMESPACE
+- WSDXML_NAMESPACE
 product: Windows
 targetos: Windows
 req.typenames: WSDXML_NAMESPACE
@@ -71,7 +71,7 @@ The preferred prefix to be used in XML prefix mappings.
 
 ### -field Names
 
-Reference to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_name">WSDXML_NAME</a> structures that specify the names in the namespace.
+Reference to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structures that specify the names in the namespace.
 
 
 ### -field NamesCount

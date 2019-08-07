@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CERT_NCRYPT_KEY_SPEC, CRYPT_ACQUIRE_ WINDOWS_HANDLE_FLAG, CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_CACHE_FLAG, CRYPT_ACQUIRE_COMPARE_KEY_FLAG, CRYPT_ACQUIRE_NO_HEALING, CRYPT_ACQUIRE_ONLY_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_PREFER_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_SILENT_FLAG, CRYPT_ACQUIRE_USE_PROV_INFO_FLAG, CryptAcquireCertificatePrivateKey, CryptAcquireCertificatePrivateKey function [Security], _crypto2_cryptacquirecertificateprivatekey, security.cryptacquirecertificateprivatekey, wincrypt/CryptAcquireCertificatePrivateKey
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptAcquireCertificatePrivateKey"
+f1_keywords:
+- wincrypt/CryptAcquireCertificatePrivateKey
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptAcquireCertificatePrivateKey
+- CryptAcquireCertificatePrivateKey
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -135,7 +135,7 @@ Uses the certificate's <b>CERT_KEY_PROV_INFO_PROP_ID</b> property to determine w
 
 
 This function will only use caching if during a previous call, the <i>dwFlags</i> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure contained <b>CERT_SET_KEY_CONTEXT_PROP</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure contained <b>CERT_SET_KEY_CONTEXT_PROP</b>.
 
 </td>
 </tr>
@@ -287,7 +287,7 @@ The address of a <b>BOOL</b> variable that receives a value that indicates wheth
 <ul>
 <li>Public key acquisition or comparison fails.</li>
 <li>The <i>dwFlags</i> parameter contains the <b>CRYPT_ACQUIRE_CACHE_FLAG</b> flag.</li>
-<li>The <i>dwFlags</i> parameter contains the <b>CRYPT_ACQUIRE_USE_PROV_INFO_FLAG</b> flag, the certificate context property is set to <b>CERT_KEY_PROV_INFO_PROP_ID</b> with the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure, and the <i>dwFlags</i> member of the <b>CRYPT_KEY_PROV_INFO</b> structure is set to <b>CERT_SET_KEY_CONTEXT_PROP_ID</b>.</li>
+<li>The <i>dwFlags</i> parameter contains the <b>CRYPT_ACQUIRE_USE_PROV_INFO_FLAG</b> flag, the certificate context property is set to <b>CERT_KEY_PROV_INFO_PROP_ID</b> with the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure, and the <i>dwFlags</i> member of the <b>CRYPT_KEY_PROV_INFO</b> structure is set to <b>CERT_SET_KEY_CONTEXT_PROP_ID</b>.</li>
 </ul>
 If this variable receives <b>FALSE</b>, the calling application must not release the handle returned in the <i>phCryptProvOrNCryptKey</i> variable. The handle will be released on the last free action of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>.
 
@@ -356,7 +356,7 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a>
 
 
 

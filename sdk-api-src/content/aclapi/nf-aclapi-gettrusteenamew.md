@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTrusteeName, GetTrusteeName function [Security], GetTrusteeNameA, GetTrusteeNameW, _win32_gettrusteename, aclapi/GetTrusteeName, aclapi/GetTrusteeNameA, aclapi/GetTrusteeNameW, security.gettrusteename
 ms.topic: function
-f1_keywords: 
- - "aclapi/GetTrusteeName"
+f1_keywords:
+- aclapi/GetTrusteeName
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - GetTrusteeName
- - GetTrusteeNameA
- - GetTrusteeNameW
+- GetTrusteeName
+- GetTrusteeNameA
+- GetTrusteeNameW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -100,7 +100,7 @@ The <b>GetTrusteeName</b> function does not allocate any memory.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 

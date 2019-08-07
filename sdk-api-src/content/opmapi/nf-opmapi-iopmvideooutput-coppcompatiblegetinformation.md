@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COPPCompatibleGetInformation, COPPCompatibleGetInformation method [Media Foundation], COPPCompatibleGetInformation method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],COPPCompatibleGetInformation method, IOPMVideoOutput.COPPCompatibleGetInformation, IOPMVideoOutput::COPPCompatibleGetInformation, mf.iopmvideooutput_iopmvideooutput__coppcompatiblegetinformation, opmapi/IOPMVideoOutput::COPPCompatibleGetInformation
 ms.topic: method
-f1_keywords: 
- - "opmapi/IOPMVideoOutput.COPPCompatibleGetInformation"
+f1_keywords:
+- opmapi/IOPMVideoOutput.COPPCompatibleGetInformation
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - opmapi.h
+- opmapi.h
 api_name:
- - IOPMVideoOutput.COPPCompatibleGetInformation
+- IOPMVideoOutput.COPPCompatibleGetInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,12 +61,12 @@ Sends an Output Protection Manager (OPM) status request to the display driver. U
 
 ### -param pParameters [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ns-opmapi-_opm_configure_parameters">OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure. Fill in this structure with data for the status request. For a list of status requests, see <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-status-requests">OPM Status Requests</a>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ns-opmapi-opm_configure_parameters">OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure. Fill in this structure with data for the status request. For a list of status requests, see <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-status-requests">OPM Status Requests</a>.
 
 
 ### -param pRequestedInformation [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_requested_information">OPM_REQUESTED_INFORMATION</a> structure. On return, the method fills in this structure with the results of the status request.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_requested_information">OPM_REQUESTED_INFORMATION</a> structure. On return, the method fills in this structure with the results of the status request.
 
 
 ## -returns

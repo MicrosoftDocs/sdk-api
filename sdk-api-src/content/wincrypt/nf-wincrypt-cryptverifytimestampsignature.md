@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptVerifyTimeStampSignature, CryptVerifyTimeStampSignature function [Security], security.cryptverifytimestampsignature, wincrypt/CryptVerifyTimeStampSignature
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptVerifyTimeStampSignature"
+f1_keywords:
+- wincrypt/CryptVerifyTimeStampSignature
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptVerifyTimeStampSignature
+- CryptVerifyTimeStampSignature
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -88,12 +88,12 @@ Time Stamping Authority (TSA) signing certificates and <a href="https://docs.mic
 
 ### -param ppTsContext [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_timestamp_context">PCRYPT_TIMESTAMP_CONTEXT</a> structure. When you have finished using the context, you must free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> function.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_context">PCRYPT_TIMESTAMP_CONTEXT</a> structure. When you have finished using the context, you must free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> function.
 
 
 ### -param ppTsSigner [out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">PCERT_CONTEXT</a> that
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCERT_CONTEXT</a> that
 receives the certificate of the signer.
      When you have finished using this structure, you must free it by passing this
 pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
@@ -121,7 +121,7 @@ If the function succeeds, the function returns <b>TRUE</b>. For extended error i
 
 
 
-The caller should validate the <b>pszTSAPolicyId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_timestamp_info">CRYPT_TIMESTAMP_INFO</a> structure when it is returned by the   <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrievetimestamp">CryptRetrieveTimeStamp</a> function. If a TSA policy was specified in the request 
+The caller should validate the <b>pszTSAPolicyId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_info">CRYPT_TIMESTAMP_INFO</a> structure when it is returned by the   <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrievetimestamp">CryptRetrieveTimeStamp</a> function. If a TSA policy was specified in the request 
      and the <b>ftTime</b> member contains a valid value, the caller should build a certificate context chain with which to populate the <i>ppTsSigner</i> parameter and validate the trust.
 
 

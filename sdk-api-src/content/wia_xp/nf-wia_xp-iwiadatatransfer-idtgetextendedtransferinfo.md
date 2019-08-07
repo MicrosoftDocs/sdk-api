@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtGetExtendedTransferInfo method, IWiaDataTransfer.idtGetExtendedTransferInfo, IWiaDataTransfer::idtGetExtendedTransferInfo, _wia_IWiaDataTransfer_idtGetExtendedTransferInfo, idtGetExtendedTransferInfo, idtGetExtendedTransferInfo method [WIA], idtGetExtendedTransferInfo method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtGetExtendedTransferInfo, wia_xp/IWiaDataTransfer::idtGetExtendedTransferInfo
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaDataTransfer.idtGetExtendedTransferInfo"
+f1_keywords:
+- wia_xp/IWiaDataTransfer.idtGetExtendedTransferInfo
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaDataTransfer.idtGetExtendedTransferInfo
+- IWiaDataTransfer.idtGetExtendedTransferInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ The <b>IWiaDataTransfer::idtGetExtendedTransferInfo</b> retrieves extended infor
 
 Type: <b>PWIA_EXTENDED_TRANSFER_INFO</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-_wia_extended_transfer_info">WIA_EXTENDED_TRANSFER_INFO</a> structure containing the extended information.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-wia_extended_transfer_info">WIA_EXTENDED_TRANSFER_INFO</a> structure containing the extended information.
 
 
 ## -returns

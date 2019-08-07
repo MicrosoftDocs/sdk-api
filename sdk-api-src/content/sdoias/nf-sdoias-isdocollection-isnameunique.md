@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],IsNameUnique method, ISdoCollection.IsNameUnique, ISdoCollection::IsNameUnique, IsNameUnique, IsNameUnique method [Network Policy Server], IsNameUnique method [Network Policy Server],ISdoCollection interface, _sdo_isdocollection_isnameunique, nps.SDO_isdocollection_isnameunique, sdo.isdocollection_isnameunique, sdoias/ISdoCollection::IsNameUnique
 ms.topic: method
-f1_keywords: 
- - "sdoias/ISdoCollection.IsNameUnique"
+f1_keywords:
+- sdoias/ISdoCollection.IsNameUnique
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Iassdo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Iassdo.dll
+- Iassdo.dll
 api_name:
- - ISdoCollection.IsNameUnique
+- ISdoCollection.IsNameUnique
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -99,7 +99,7 @@ Neither of the parameters may be <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iascommonproperties">IASCOMMONPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: SecCNG
 ms.assetid: 80204d2a-ebc8-40f6-bccb-7cd112d7769b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_INTERFACE_REG, BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, CRYPT_DOMAIN, CRYPT_INTERFACE_REG, CRYPT_INTERFACE_REG structure [Security], CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, PCRYPT_INTERFACE_REG, PCRYPT_INTERFACE_REG structure pointer [Security], bcrypt/CRYPT_INTERFACE_REG, bcrypt/PCRYPT_INTERFACE_REG, security.crypt_interface_reg"
+ms.keywords: '*PCRYPT_INTERFACE_REG, BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, CRYPT_DOMAIN, CRYPT_INTERFACE_REG, CRYPT_INTERFACE_REG structure [Security], CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, PCRYPT_INTERFACE_REG, PCRYPT_INTERFACE_REG structure pointer [Security], bcrypt/CRYPT_INTERFACE_REG, bcrypt/PCRYPT_INTERFACE_REG, security.crypt_interface_reg'
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/CRYPT_INTERFACE_REG"
+f1_keywords:
+- bcrypt/CRYPT_INTERFACE_REG
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - CRYPT_INTERFACE_REG
+- CRYPT_INTERFACE_REG
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_INTERFACE_REG, *PCRYPT_INTERFACE_REG
@@ -200,7 +200,7 @@ An array of null-terminated Unicode strings that contains the identifiers of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_image_reg">CRYPT_IMAGE_REG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_image_reg">CRYPT_IMAGE_REG</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: perfctrs
 ms.assetid: 7d80d9ac-0123-4743-93a2-fa9d609d81b2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPDH_DATA_ITEM_PATH_ELEMENTS_W, PDH_DATA_ITEM_PATH_ELEMENTS, PDH_DATA_ITEM_PATH_ELEMENTS structure [Perf], PDH_DATA_ITEM_PATH_ELEMENTS_A, PDH_DATA_ITEM_PATH_ELEMENTS_W, _win32_pdh_data_item_path_elements_str, base.pdh_data_item_path_elements_str, pdh/PDH_DATA_ITEM_PATH_ELEMENTS, pdh/PDH_DATA_ITEM_PATH_ELEMENTS_A, pdh/PDH_DATA_ITEM_PATH_ELEMENTS_W, perf.pdh_data_item_path_elements_str"
+ms.keywords: '*PPDH_DATA_ITEM_PATH_ELEMENTS_W, PDH_DATA_ITEM_PATH_ELEMENTS, PDH_DATA_ITEM_PATH_ELEMENTS structure [Perf], PDH_DATA_ITEM_PATH_ELEMENTS_A, PDH_DATA_ITEM_PATH_ELEMENTS_W, _win32_pdh_data_item_path_elements_str, base.pdh_data_item_path_elements_str, pdh/PDH_DATA_ITEM_PATH_ELEMENTS, pdh/PDH_DATA_ITEM_PATH_ELEMENTS_A, pdh/PDH_DATA_ITEM_PATH_ELEMENTS_W, perf.pdh_data_item_path_elements_str'
 ms.topic: struct
-f1_keywords: 
- - "pdh/PDH_DATA_ITEM_PATH_ELEMENTS"
+f1_keywords:
+- pdh/PDH_DATA_ITEM_PATH_ELEMENTS
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pdh.h
+- Pdh.h
 api_name:
- - PDH_DATA_ITEM_PATH_ELEMENTS
- - PDH_DATA_ITEM_PATH_ELEMENTS_A
- - PDH_DATA_ITEM_PATH_ELEMENTS_W
+- PDH_DATA_ITEM_PATH_ELEMENTS
+- PDH_DATA_ITEM_PATH_ELEMENTS_A
+- PDH_DATA_ITEM_PATH_ELEMENTS_W
 product: Windows
 targetos: Windows
 req.typenames: PDH_DATA_ITEM_PATH_ELEMENTS_W, *PPDH_DATA_ITEM_PATH_ELEMENTS_W
@@ -88,7 +88,7 @@ Pointer to a null-terminated string that specifies the name of the data item ins
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_counter_info_a">PDH_COUNTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_counter_info_a">PDH_COUNTER_INFO</a>
  
 
  

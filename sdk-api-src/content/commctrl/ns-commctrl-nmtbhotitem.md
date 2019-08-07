@@ -8,10 +8,10 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbhotitem.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPNMTBHOTITEM, HICF_ACCELERATOR, HICF_ARROWKEYS, HICF_DUPACCEL, HICF_ENTERING, HICF_LEAVING, HICF_LMOUSE, HICF_MOUSE, HICF_OTHER, HICF_RESELECT, HICF_TOGGLEDROPDOWN, LPNMTBHOTITEM, LPNMTBHOTITEM structure pointer [Windows Controls], NMTBHOTITEM, NMTBHOTITEM structure [Windows Controls], _win32_NMTBHOTITEM, _win32_NMTBHOTITEM_cpp, commctrl/LPNMTBHOTITEM, commctrl/NMTBHOTITEM, controls.NMTBHOTITEM, controls._win32_NMTBHOTITEM"
+ms.keywords: '*LPNMTBHOTITEM, HICF_ACCELERATOR, HICF_ARROWKEYS, HICF_DUPACCEL, HICF_ENTERING, HICF_LEAVING, HICF_LMOUSE, HICF_MOUSE, HICF_OTHER, HICF_RESELECT, HICF_TOGGLEDROPDOWN, LPNMTBHOTITEM, LPNMTBHOTITEM structure pointer [Windows Controls], NMTBHOTITEM, NMTBHOTITEM structure [Windows Controls], _win32_NMTBHOTITEM, _win32_NMTBHOTITEM_cpp, commctrl/LPNMTBHOTITEM, commctrl/NMTBHOTITEM, controls.NMTBHOTITEM, controls._win32_NMTBHOTITEM'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/NMTBHOTITEM"
+f1_keywords:
+- commctrl/NMTBHOTITEM
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - NMTBHOTITEM
+- NMTBHOTITEM
 product: Windows
 targetos: Windows
 req.typenames: NMTBHOTITEM, *LPNMTBHOTITEM
@@ -61,10 +61,10 @@ Contains information used with the <a href="https://docs.microsoft.com/windows/d
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field idOld

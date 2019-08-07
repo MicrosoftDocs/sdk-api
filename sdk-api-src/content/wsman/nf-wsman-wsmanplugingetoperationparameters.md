@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_PARAMS_GET_REQUESTED_DATA_LOCALE, WSMAN_PLUGIN_PARAMS_GET_REQUESTED_LOCALE, WSMAN_PLUGIN_PARAMS_LARGEST_RESULT_SIZE, WSMAN_PLUGIN_PARAMS_MAX_ENVELOPE_SIZE, WSMAN_PLUGIN_PARAMS_REMAINING_RESULT_SIZE, WSMAN_PLUGIN_PARAMS_TIMEOUT, WSManPluginGetOperationParameters, WSManPluginGetOperationParameters function [Windows Remote Management], winrm.wsmanplugingetoperationparameters, wsman/WSManPluginGetOperationParameters
 ms.topic: function
-f1_keywords: 
- - "wsman/WSManPluginGetOperationParameters"
+f1_keywords:
+- wsman/WSManPluginGetOperationParameters
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WsmSvc.lib
 req.dll: WsmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WsmSvc.dll
+- WsmSvc.dll
 api_name:
- - WSManPluginGetOperationParameters
+- WSManPluginGetOperationParameters
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Gets operational information for items such as time-outs and data restrictions t
 
 ### -param requestDetails [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
 
 
 ### -param flags [in]
@@ -113,7 +113,7 @@ Specifies the language locale of the data that was requested by the client.
 
 ### -param data [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_data">WSMAN_DATA</a> structure that specifies the result object.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that specifies the result object.
 
 
 ## -returns

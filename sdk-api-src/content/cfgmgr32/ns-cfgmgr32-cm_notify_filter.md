@@ -8,10 +8,10 @@ tech.root: devinst
 ms.assetid: 8B6CC440-7B41-4382-9917-6833031D5E1B
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCM_NOTIFY_FILTER, CM_NOTIFY_FILTER, CM_NOTIFY_FILTER structure [Device and Driver Installation], PCM_NOTIFY_FILTER, PCM_NOTIFY_FILTER structure pointer [Device and Driver Installation], cfgmgr32/CM_NOTIFY_FILTER, cfgmgr32/PCM_NOTIFY_FILTER, devinst.cm_notify_filter"
+ms.keywords: '*PCM_NOTIFY_FILTER, CM_NOTIFY_FILTER, CM_NOTIFY_FILTER structure [Device and Driver Installation], PCM_NOTIFY_FILTER, PCM_NOTIFY_FILTER structure pointer [Device and Driver Installation], cfgmgr32/CM_NOTIFY_FILTER, cfgmgr32/PCM_NOTIFY_FILTER, devinst.cm_notify_filter'
 ms.topic: struct
-f1_keywords: 
- - "cfgmgr32/CM_NOTIFY_FILTER"
+f1_keywords:
+- cfgmgr32/CM_NOTIFY_FILTER
 req.header: cfgmgr32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cfgmgr32.h
+- Cfgmgr32.h
 api_name:
- - CM_NOTIFY_FILTER
+- CM_NOTIFY_FILTER
 product: Windows
 targetos: Windows
 req.typenames: CM_NOTIFY_FILTER, *PCM_NOTIFY_FILTER
@@ -162,7 +162,7 @@ When the driver calls the <a href="https://docs.microsoft.com/windows/desktop/ap
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ne-cfgmgr32-_cm_notify_action">CM_NOTIFY_ACTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ne-cfgmgr32-cm_notify_action">CM_NOTIFY_ACTION</a>
 
 
 

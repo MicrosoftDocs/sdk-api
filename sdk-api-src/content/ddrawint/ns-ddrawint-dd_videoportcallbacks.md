@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 5e03d240-f483-4ecf-8890-b9f0368e2b2f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_VIDEOPORTCALLBACKS, DD_VIDEOPORTCALLBACKS, DD_VIDEOPORTCALLBACKS structure [Display Devices], PDD_VIDEOPORTCALLBACKS, PDD_VIDEOPORTCALLBACKS structure pointer [Display Devices], ddrawint/DD_VIDEOPORTCALLBACKS, ddrawint/PDD_VIDEOPORTCALLBACKS, ddstrcts_e0a55748-eb24-4e5f-8208-bcb0083cdf21.xml, display.dd_videoportcallbacks"
+ms.keywords: '*PDD_VIDEOPORTCALLBACKS, DD_VIDEOPORTCALLBACKS, DD_VIDEOPORTCALLBACKS structure [Display Devices], PDD_VIDEOPORTCALLBACKS, PDD_VIDEOPORTCALLBACKS structure pointer [Display Devices], ddrawint/DD_VIDEOPORTCALLBACKS, ddrawint/PDD_VIDEOPORTCALLBACKS, ddstrcts_e0a55748-eb24-4e5f-8208-bcb0083cdf21.xml, display.dd_videoportcallbacks'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_VIDEOPORTCALLBACKS"
+f1_keywords:
+- ddrawint/DD_VIDEOPORTCALLBACKS
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_VIDEOPORTCALLBACKS
+- DD_VIDEOPORTCALLBACKS
 product: Windows
 targetos: Windows
 req.typenames: DD_VIDEOPORTCALLBACKS
@@ -184,7 +184,7 @@ Entries that the display driver does not use should be set to <b>NULL</b>. The d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_colorcontrolcallbacks">DD_COLORCONTROLCALLBACKS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_colorcontrolcallbacks">DD_COLORCONTROLCALLBACKS</a>
 
 
 
@@ -192,7 +192,7 @@ Entries that the display driver does not use should be set to <b>NULL</b>. The d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_miscellaneouscallbacks">DD_MISCELLANEOUSCALLBACKS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_miscellaneouscallbacks">DD_MISCELLANEOUSCALLBACKS</a>
 
 
 

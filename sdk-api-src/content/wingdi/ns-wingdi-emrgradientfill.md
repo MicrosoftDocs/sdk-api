@@ -8,10 +8,10 @@ tech.root: gdi
 ms.assetid: efd12e71-ee26-4fc8-8e9f-5b0105ebe057
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEMRGRADIENTFILL, EMRGRADIENTFILL, EMRGRADIENTFILL structure [Windows GDI], GRADIENT_FILL_RECT_H, GRADIENT_FILL_RECT_V, GRADIENT_FILL_TRIANGLE, PEMRGRADIENTFILL, PEMRGRADIENTFILL structure pointer [Windows GDI], _win32_EMRGRADIENTFILL_str, gdi.emrgradientfill, wingdi/EMRGRADIENTFILL, wingdi/PEMRGRADIENTFILL"
+ms.keywords: '*PEMRGRADIENTFILL, EMRGRADIENTFILL, EMRGRADIENTFILL structure [Windows GDI], GRADIENT_FILL_RECT_H, GRADIENT_FILL_RECT_V, GRADIENT_FILL_TRIANGLE, PEMRGRADIENTFILL, PEMRGRADIENTFILL structure pointer [Windows GDI], _win32_EMRGRADIENTFILL_str, gdi.emrgradientfill, wingdi/EMRGRADIENTFILL, wingdi/PEMRGRADIENTFILL'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRGRADIENTFILL"
+f1_keywords:
+- wingdi/EMRGRADIENTFILL
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRGRADIENTFILL
+- EMRGRADIENTFILL
 product: Windows
 targetos: Windows
 req.typenames: EMRGRADIENTFILL, *PEMRGRADIENTFILL
@@ -97,7 +97,7 @@ The gradient fill mode. This member can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-In this mode, two endpoints describe a rectangle. The rectangle is defined to have a constant color (specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_trivertex">TRIVERTEX</a> structure) for the left and right edges. GDI interpolates the color from the left to right edge and fills the interior.
+In this mode, two endpoints describe a rectangle. The rectangle is defined to have a constant color (specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a> structure) for the left and right edges. GDI interpolates the color from the left to right edge and fills the interior.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ In this mode, two endpoints describe a rectangle. The rectangle is defined to ha
 </dl>
 </td>
 <td width="60%">
-In this mode, two endpoints describe a rectangle. The rectangle is defined to have a constant color (specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_trivertex">TRIVERTEX</a> structure) for the top and bottom edges. GDI interpolates the color from the top to bottom edge and fills the interior.
+In this mode, two endpoints describe a rectangle. The rectangle is defined to have a constant color (specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a> structure) for the top and bottom edges. GDI interpolates the color from the top to bottom edge and fills the interior.
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ In this mode, two endpoints describe a rectangle. The rectangle is defined to ha
 </dl>
 </td>
 <td width="60%">
-In this mode, an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_trivertex">TRIVERTEX</a> structures is passed to GDI along with a list of array indexes that describe separate triangles. GDI performs linear interpolation between triangle vertices and fills the interior. Drawing is done directly in 24- and 32-bpp modes. Dithering is performed in 16-, 8-, 4-, and 1-bpp mode.
+In this mode, an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a> structures is passed to GDI along with a list of array indexes that describe separate triangles. GDI performs linear interpolation between triangle vertices and fills the interior. Drawing is done directly in 24- and 32-bpp modes. Dithering is performed in 16-, 8-, 4-, and 1-bpp mode.
 
 </td>
 </tr>
@@ -127,14 +127,14 @@ In this mode, an array of <a href="https://docs.microsoft.com/windows/desktop/ap
 
 ### -field Ver
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_trivertex">TRIVERTEX</a> structures that each define a vertex.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a> structures that each define a vertex.
 
 
 ## -remarks
 
 
 
-This is a variable-length structure. The <b>Ver</b> member designates the beginning of the variable-length area. First comes an array of <b>nVer</b> <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_trivertex">TRIVERTEX</a> structures to pass the vertices. Next comes an array of either <b>nTri</b> <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_gradient_triangle">GRADIENT_TRIANGLE</a> structures or <b>nTri</b> <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_gradient_rect">GRADIENT_RECT</a> structures, depending on the value of <b>ulMode</b> (triangles or rectangles).
+This is a variable-length structure. The <b>Ver</b> member designates the beginning of the variable-length area. First comes an array of <b>nVer</b> <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a> structures to pass the vertices. Next comes an array of either <b>nTri</b> <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_gradient_triangle">GRADIENT_TRIANGLE</a> structures or <b>nTri</b> <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_gradient_rect">GRADIENT_RECT</a> structures, depending on the value of <b>ulMode</b> (triangles or rectangles).
 
 This structure is to be used during metafile playback.
 

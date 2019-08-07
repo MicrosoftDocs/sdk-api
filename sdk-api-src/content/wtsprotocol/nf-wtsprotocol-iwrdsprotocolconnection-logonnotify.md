@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],LogonNotify method, IWRdsProtocolConnection.LogonNotify, IWRdsProtocolConnection::LogonNotify, LogonNotify, LogonNotify method [Remote Desktop Services], LogonNotify method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_logonnotify, wtsprotocol/IWRdsProtocolConnection::LogonNotify
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolConnection.LogonNotify"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolConnection.LogonNotify
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection.LogonNotify
+- IWRdsProtocolConnection.LogonNotify
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -81,7 +81,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/n
 
 ### -param pWRdsConnectionSettings [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_connection_settings">WRDS_CONNECTION_SETTINGS</a> structure that contains connection settings for the session.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_connection_settings">WRDS_CONNECTION_SETTINGS</a> structure that contains connection settings for the session.
 
 
 ## -returns

@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 9e1bbcca-1b7c-4146-95c7-72660bf31507
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_RESPONSE, *PHTTP_RESPONSE_V1, HTTP_RESPONSE, HTTP_RESPONSE_V1, HTTP_RESPONSE_V1 structure [HTTP], PHTTP_RESPONSE_V1, PHTTP_RESPONSE_V1 structure pointer [HTTP], http.http_response_v1, http/HTTP_RESPONSE_V1, http/PHTTP_RESPONSE_V1"
+ms.keywords: '*PHTTP_RESPONSE, *PHTTP_RESPONSE_V1, HTTP_RESPONSE, HTTP_RESPONSE_V1, HTTP_RESPONSE_V1 structure [HTTP], PHTTP_RESPONSE_V1, PHTTP_RESPONSE_V1 structure pointer [HTTP], http.http_response_v1, http/HTTP_RESPONSE_V1, http/PHTTP_RESPONSE_V1'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_RESPONSE_V1"
+f1_keywords:
+- http/HTTP_RESPONSE_V1
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_RESPONSE_V1
+- HTTP_RESPONSE_V1
 product: Windows
 targetos: Windows
 req.typenames: HTTP_RESPONSE_V1, *PHTTP_RESPONSE_V1
@@ -93,7 +93,7 @@ A pointer to a human-readable, null-terminated string of printable characters th
 ### -field Headers
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_headers">HTTP_RESPONSE_HEADERS</a> structure that contains the headers used in this response.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_headers">HTTP_RESPONSE_HEADERS</a> structure that contains the headers used in this response.
 
 
 ### -field EntityChunkCount
@@ -104,7 +104,7 @@ A number of entity-body data blocks specified in the <b>pEntityChunks</b> array.
 ### -field pEntityChunks
 
 An array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_data_chunk">HTTP_DATA_CHUNK</a> structures that together specify all the data blocks that make up the entity body of the response.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_data_chunk">HTTP_DATA_CHUNK</a> structures that together specify all the data blocks that make up the entity body of the response.
 
 
 ## -see-also
@@ -116,7 +116,7 @@ An array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_data_chunk">HTTP_DATA_CHUNK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_data_chunk">HTTP_DATA_CHUNK</a>
 
 
 
@@ -128,11 +128,11 @@ An array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_headers">HTTP_RESPONSE_HEADERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_headers">HTTP_RESPONSE_HEADERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_v2">HTTP_RESPONSE_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_v2">HTTP_RESPONSE_V2</a>
 
 
 

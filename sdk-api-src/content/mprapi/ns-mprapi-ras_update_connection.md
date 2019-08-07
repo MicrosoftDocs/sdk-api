@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: bfa35f1c-e9f5-43f1-ad2d-d54f4675cff8
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRAS_UPDATE_CONNECTION, PRAS_UPDATE_CONNECTION, PRAS_UPDATE_CONNECTION structure pointer [RAS], RAS_UPDATE_CONNECTION, RAS_UPDATE_CONNECTION structure [RAS], mprapi/PRAS_UPDATE_CONNECTION, mprapi/RAS_UPDATE_CONNECTION, rras.ras_update_connection"
+ms.keywords: '*PRAS_UPDATE_CONNECTION, PRAS_UPDATE_CONNECTION, PRAS_UPDATE_CONNECTION structure pointer [RAS], RAS_UPDATE_CONNECTION, RAS_UPDATE_CONNECTION structure [RAS], mprapi/PRAS_UPDATE_CONNECTION, mprapi/RAS_UPDATE_CONNECTION, rras.ras_update_connection'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/RAS_UPDATE_CONNECTION"
+f1_keywords:
+- mprapi/RAS_UPDATE_CONNECTION
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - RAS_UPDATE_CONNECTION
+- RAS_UPDATE_CONNECTION
 product: Windows
 targetos: Windows
 req.typenames: RAS_UPDATE_CONNECTION, *PRAS_UPDATE_CONNECTION
@@ -61,7 +61,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy
 
 ### -field Header
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mprapi_object_header">MPRAPI_OBJECT_HEADER</a> structure that specifies the version of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd408110(v=vs.85)">RAS_UPDATE_CONNECTION</a> structure. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mprapi_object_header">MPRAPI_OBJECT_HEADER</a> structure that specifies the version of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd408110(v=vs.85)">RAS_UPDATE_CONNECTION</a> structure. 
 
 <div class="alert"><b>Note</b>  The <b>revision</b> member  of  <b>Header</b> must be <b>0x01</b> and <b>type</b> must be <b>MPRAPI_OBJECT_TYPE_UPDATE_CONNECTION_OBJECT</b>.</div>
 <div> </div>

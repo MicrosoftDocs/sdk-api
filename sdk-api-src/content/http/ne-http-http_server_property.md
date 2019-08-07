@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 14865796-135c-43c2-955a-fdeae05a8278
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_SERVER_PROPERTY, *PHTTP_SERVER_PROPERTY enumeration [HTTP], HTTP_SERVER_PROPERTY, HTTP_SERVER_PROPERTY enumeration [HTTP], HttpServer503VerbosityProperty, HttpServerAuthenticationProperty, HttpServerBindingProperty, HttpServerChannelBindProperty, HttpServerExtendedAuthenticationProperty, HttpServerListenEndpointProperty, HttpServerLoggingProperty, HttpServerQosProperty, HttpServerQueueLengthProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, http.http_server_property, http/*PHTTP_SERVER_PROPERTY, http/HTTP_SERVER_PROPERTY, http/HttpServer503VerbosityProperty, http/HttpServerAuthenticationProperty, http/HttpServerBindingProperty, http/HttpServerChannelBindProperty, http/HttpServerExtendedAuthenticationProperty, http/HttpServerListenEndpointProperty, http/HttpServerLoggingProperty, http/HttpServerQosProperty, http/HttpServerQueueLengthProperty, http/HttpServerStateProperty, http/HttpServerTimeoutsProperty"
+ms.keywords: '*PHTTP_SERVER_PROPERTY, *PHTTP_SERVER_PROPERTY enumeration [HTTP], HTTP_SERVER_PROPERTY, HTTP_SERVER_PROPERTY enumeration [HTTP], HttpServer503VerbosityProperty, HttpServerAuthenticationProperty, HttpServerBindingProperty, HttpServerChannelBindProperty, HttpServerExtendedAuthenticationProperty, HttpServerListenEndpointProperty, HttpServerLoggingProperty, HttpServerQosProperty, HttpServerQueueLengthProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, http.http_server_property, http/*PHTTP_SERVER_PROPERTY, http/HTTP_SERVER_PROPERTY, http/HttpServer503VerbosityProperty, http/HttpServerAuthenticationProperty, http/HttpServerBindingProperty, http/HttpServerChannelBindProperty, http/HttpServerExtendedAuthenticationProperty, http/HttpServerListenEndpointProperty, http/HttpServerLoggingProperty, http/HttpServerQosProperty, http/HttpServerQueueLengthProperty, http/HttpServerStateProperty, http/HttpServerTimeoutsProperty'
 ms.topic: enum
-f1_keywords: 
- - "http/HTTP_SERVER_PROPERTY"
+f1_keywords:
+- http/HTTP_SERVER_PROPERTY
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_SERVER_PROPERTY
+- HTTP_SERVER_PROPERTY
 product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVER_PROPERTY, *PHTTP_SERVER_PROPERTY
@@ -70,7 +70,7 @@ The authentication property enables server-side authentication for a URL group, 
 
 The logging property enables logging for a server session or URL group.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_logging_info">HTTP_LOGGING_INFO</a> structure contains the configuration data for this property.
+The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a> structure contains the configuration data for this property.
 
 
 ### -field HttpServerQosProperty
@@ -96,7 +96,7 @@ The connections property limits the number of requests in the request queue. Thi
 
 The connections property configures the state of a URL group, server session, or request queue.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_state_info">HTTP_STATE_INFO</a> structure contains the configuration data for this property for the URL group or server session. The request queue uses the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_enabled_state">HTTP_ENABLED_STATE</a> enumeration to configure this property.
+The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_state_info">HTTP_STATE_INFO</a> structure contains the configuration data for this property for the URL group or server session. The request queue uses the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_enabled_state">HTTP_ENABLED_STATE</a> enumeration to configure this property.
 
 
 ### -field HttpServer503VerbosityProperty

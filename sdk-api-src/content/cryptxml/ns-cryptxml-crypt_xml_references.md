@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 25414b2d-3283-4e2f-a23c-ccebff1409e2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_XML_REFERENCES, CRYPT_XML_REFERENCES, CRYPT_XML_REFERENCES structure [Security], PCRYPT_XML_REFERENCES, PCRYPT_XML_REFERENCES structure pointer [Security], cryptxml/CRYPT_XML_REFERENCES, cryptxml/PCRYPT_XML_REFERENCES, security.crypt_xml_references"
+ms.keywords: '*PCRYPT_XML_REFERENCES, CRYPT_XML_REFERENCES, CRYPT_XML_REFERENCES structure [Security], PCRYPT_XML_REFERENCES, PCRYPT_XML_REFERENCES structure pointer [Security], cryptxml/CRYPT_XML_REFERENCES, cryptxml/PCRYPT_XML_REFERENCES, security.crypt_xml_references'
 ms.topic: struct
-f1_keywords: 
- - "cryptxml/CRYPT_XML_REFERENCES"
+f1_keywords:
+- cryptxml/CRYPT_XML_REFERENCES
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - CRYPT_XML_REFERENCES
+- CRYPT_XML_REFERENCES
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_REFERENCES, *PCRYPT_XML_REFERENCES
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPT_XML_REFERENCES</b> structure defines an array of <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_reference">CRYPT_XML_REFERENCE</a> structures.
+The <b>CRYPT_XML_REFERENCES</b> structure defines an array of <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_reference">CRYPT_XML_REFERENCE</a> structures.
 
 
 ## -struct-fields
@@ -66,5 +66,5 @@ The number of elements in the array pointed to by the <b>rgpReference</b> member
 
 ### -field rgpReference
 
-A pointer to an array of  <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_reference">PCRYPT_XML_REFERENCE</a> structures.
+A pointer to an array of  <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_reference">PCRYPT_XML_REFERENCE</a> structures.
 

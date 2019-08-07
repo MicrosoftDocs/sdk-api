@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: e0147da5-7de2-4ea8-abc5-61c814ee7c55
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_REQUEST_AUTH_TYPE, *PHTTP_REQUEST_AUTH_TYPE enumeration [HTTP], HTTP_REQUEST_AUTH_TYPE, HTTP_REQUEST_AUTH_TYPE enumeration [HTTP], HttpRequestAuthTypeBasic, HttpRequestAuthTypeDigest, HttpRequestAuthTypeKerberos, HttpRequestAuthTypeNTLM, HttpRequestAuthTypeNegotiate, HttpRequestAuthTypeNone, http.http_request_auth_type, http/*PHTTP_REQUEST_AUTH_TYPE, http/HTTP_REQUEST_AUTH_TYPE, http/HttpRequestAuthTypeBasic, http/HttpRequestAuthTypeDigest, http/HttpRequestAuthTypeKerberos, http/HttpRequestAuthTypeNTLM, http/HttpRequestAuthTypeNegotiate, http/HttpRequestAuthTypeNone"
+ms.keywords: '*PHTTP_REQUEST_AUTH_TYPE, *PHTTP_REQUEST_AUTH_TYPE enumeration [HTTP], HTTP_REQUEST_AUTH_TYPE, HTTP_REQUEST_AUTH_TYPE enumeration [HTTP], HttpRequestAuthTypeBasic, HttpRequestAuthTypeDigest, HttpRequestAuthTypeKerberos, HttpRequestAuthTypeNTLM, HttpRequestAuthTypeNegotiate, HttpRequestAuthTypeNone, http.http_request_auth_type, http/*PHTTP_REQUEST_AUTH_TYPE, http/HTTP_REQUEST_AUTH_TYPE, http/HttpRequestAuthTypeBasic, http/HttpRequestAuthTypeDigest, http/HttpRequestAuthTypeKerberos, http/HttpRequestAuthTypeNTLM, http/HttpRequestAuthTypeNegotiate, http/HttpRequestAuthTypeNone'
 ms.topic: enum
-f1_keywords: 
- - "http/HTTP_REQUEST_AUTH_TYPE"
+f1_keywords:
+- http/HTTP_REQUEST_AUTH_TYPE
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_REQUEST_AUTH_TYPE
+- HTTP_REQUEST_AUTH_TYPE
 product: Windows
 targetos: Windows
 req.typenames: HTTP_REQUEST_AUTH_TYPE, *PHTTP_REQUEST_AUTH_TYPE
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>HTTP_REQUEST_AUTH_TYPE</b> enumeration defines the authentication types supported by the HTTP Server API.
 
-This enumeration is used  in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> structure.
+This enumeration is used  in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> structure.
 
 
 ## -enum-fields
@@ -100,7 +100,7 @@ Kerberos authentication is attempted for the request.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a>
  
 
  

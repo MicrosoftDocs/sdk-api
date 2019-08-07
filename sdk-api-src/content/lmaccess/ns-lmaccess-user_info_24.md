@@ -8,10 +8,10 @@ tech.root: NetMgmt
 ms.assetid: CE65EDE0-F4AE-4582-9D7F-6667BBA98C75
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPUSER_INFO_24, *PUSER_INFO_24, LPUSER_INFO_24, LPUSER_INFO_24 structure pointer [Network Management], PUSER_INFO_24, PUSER_INFO_24 structure pointer [Network Management], USER_INFO_24, USER_INFO_24 structure [Network Management], lmaccess/LPUSER_INFO_24, lmaccess/PUSER_INFO_24, lmaccess/USER_INFO_24, netmgmt.user_info_24"
+ms.keywords: '*LPUSER_INFO_24, *PUSER_INFO_24, LPUSER_INFO_24, LPUSER_INFO_24 structure pointer [Network Management], PUSER_INFO_24, PUSER_INFO_24 structure pointer [Network Management], USER_INFO_24, USER_INFO_24 structure [Network Management], lmaccess/LPUSER_INFO_24, lmaccess/PUSER_INFO_24, lmaccess/USER_INFO_24, netmgmt.user_info_24'
 ms.topic: struct
-f1_keywords: 
- - "lmaccess/USER_INFO_24"
+f1_keywords:
+- lmaccess/USER_INFO_24
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmaccess.h
+- Lmaccess.h
 api_name:
- - USER_INFO_24
+- USER_INFO_24
 product: Windows
 targetos: Windows
 req.typenames: USER_INFO_24, *PUSER_INFO_24, *LPUSER_INFO_24
@@ -109,7 +109,7 @@ On Windows 8 and Windows Server 2012, the Internet identity for a connected ac
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
  
 
  

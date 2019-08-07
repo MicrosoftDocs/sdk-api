@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: CC392841-7436-4543-A846-FB5A27D9A014
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPROVIDER_EVENT_INFO, PPROVIDER_EVENT_INFO, PPROVIDER_EVENT_INFO structure pointer [ETW], PROVIDER_EVENT_INFO, PROVIDER_EVENT_INFO structure [ETW], etw.provider_event_info, tdh/PPROVIDER_EVENT_INFO, tdh/PROVIDER_EVENT_INFO"
+ms.keywords: '*PPROVIDER_EVENT_INFO, PPROVIDER_EVENT_INFO, PPROVIDER_EVENT_INFO structure pointer [ETW], PROVIDER_EVENT_INFO, PROVIDER_EVENT_INFO structure [ETW], etw.provider_event_info, tdh/PPROVIDER_EVENT_INFO, tdh/PROVIDER_EVENT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "tdh/PROVIDER_EVENT_INFO"
+f1_keywords:
+- tdh/PROVIDER_EVENT_INFO
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tdh.h
+- Tdh.h
 api_name:
- - PROVIDER_EVENT_INFO
+- PROVIDER_EVENT_INFO
 product: Windows
 targetos: Windows
 req.typenames: PROVIDER_EVENT_INFO
@@ -71,7 +71,7 @@ Reserved.
 
 ### -field EventDescriptorsArray
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a> structures that contain information about each event.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structures that contain information about each event.
 
 
 ## -see-also
@@ -79,7 +79,7 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
 
 
 

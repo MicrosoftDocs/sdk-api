@@ -8,10 +8,10 @@ tech.root: VDS
 ms.assetid: 5d04bf6c-fda2-4b95-a8bb-907e64267f30
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVDS_PACK_PROP, PVDS_PACK_PROP, PVDS_PACK_PROP structure pointer [VDS], VDS_PACK_PROP, VDS_PACK_PROP structure [VDS], base.vds_pack_prop, vds/PVDS_PACK_PROP, vds/_VDS_PACK_PROP"
+ms.keywords: '*PVDS_PACK_PROP, PVDS_PACK_PROP, PVDS_PACK_PROP structure pointer [VDS], VDS_PACK_PROP, VDS_PACK_PROP structure [VDS], base.vds_pack_prop, vds/PVDS_PACK_PROP, vds/_VDS_PACK_PROP'
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_PACK_PROP"
+f1_keywords:
+- vds/VDS_PACK_PROP
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - VDS_PACK_PROP
+- VDS_PACK_PROP
 product: Windows
 targetos: Windows
 req.typenames: VDS_PACK_PROP, *PVDS_PACK_PROP
@@ -78,7 +78,7 @@ The pack status enumerated by <a href="https://docs.microsoft.com/windows/deskto
 
 ### -field ulFlags
 
-The pack flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_pack_flag">VDS_PACK_FLAG</a>.
+The pack flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_pack_flag">VDS_PACK_FLAG</a>.
 
 
 ## -remarks
@@ -103,7 +103,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_pack_flag">VDS_PACK_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_pack_flag">VDS_PACK_FLAG</a>
 
 
 

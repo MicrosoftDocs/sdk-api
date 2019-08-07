@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK, AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK callback, AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK callback function [Windows API], avrfsdk/AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK, base.avrf_heap_allocation_enumerate_callback, winprog.avrf_heap_allocation_enumerate_callback
 ms.topic: callback
-f1_keywords: 
- - "avrfsdk/AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK"
+f1_keywords:
+- avrfsdk/AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Avrfsdk.h
+- Avrfsdk.h
 api_name:
- - AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
+- AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Receives information related to heap allocations.
 
 ### -param HeapAllocation
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ns-avrfsdk-_avrf_heap_allocation">AVRF_HEAP_ALLOCATION</a> structure containing information about the heap to be enumerated.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ns-avrfsdk-avrf_heap_allocation">AVRF_HEAP_ALLOCATION</a> structure containing information about the heap to be enumerated.
 
 
 ### -param EnumerationContext

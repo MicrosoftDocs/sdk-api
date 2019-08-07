@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPerformanceInfo, GetPerformanceInfo function [PSAPI], K32GetPerformanceInfo, _win32_getperformanceinfo, base.getperformanceinfo, psapi.getperformanceinfo, psapi/GetPerformanceInfo, psapi/K32GetPerformanceInfo
 ms.topic: function
-f1_keywords: 
- - "psapi/GetPerformanceInfo"
+f1_keywords:
+- psapi/GetPerformanceInfo
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if 
 req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - Psapi.dll
- - Psapi.dll
- - API-MS-Win-Core-PsAPI-L1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- Psapi.dll
+- Psapi.dll
+- API-MS-Win-Core-PsAPI-L1-1-0.dll
+- KernelBase.dll
 api_name:
- - GetPerformanceInfo
- - K32GetPerformanceInfo
+- GetPerformanceInfo
+- K32GetPerformanceInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 
 Retrieves the performance values contained in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_performance_information">PERFORMANCE_INFORMATION</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-performance_information">PERFORMANCE_INFORMATION</a> 
     structure.
 
 
@@ -69,14 +69,14 @@ Retrieves the performance values contained in the
 ### -param pPerformanceInformation [out]
 
 A pointer to a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_performance_information">PERFORMANCE_INFORMATION</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-performance_information">PERFORMANCE_INFORMATION</a> 
       structure that receives the performance information.
 
 
 ### -param cb [in]
 
 The size of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_performance_information">PERFORMANCE_INFORMATION</a> structure, in 
+      <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-performance_information">PERFORMANCE_INFORMATION</a> structure, in 
       bytes.
 
 
@@ -122,7 +122,7 @@ Programs that must run on earlier versions of Windows as well as Windows 7 and 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_performance_information">PERFORMANCE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-performance_information">PERFORMANCE_INFORMATION</a>
 
 
 

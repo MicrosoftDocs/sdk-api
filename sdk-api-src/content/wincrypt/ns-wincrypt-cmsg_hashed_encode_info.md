@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 05dfeda0-a8a1-4203-a68a-af92903ab215
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCMSG_HASHED_ENCODE_INFO, CMSG_HASHED_ENCODE_INFO, CMSG_HASHED_ENCODE_INFO structure [Security], PCMSG_HASHED_ENCODE_INFO, PCMSG_HASHED_ENCODE_INFO structure pointer [Security], _crypto2_cmsg_hashed_encode_info, security.cmsg_hashed_encode_info, wincrypt/CMSG_HASHED_ENCODE_INFO, wincrypt/PCMSG_HASHED_ENCODE_INFO"
+ms.keywords: '*PCMSG_HASHED_ENCODE_INFO, CMSG_HASHED_ENCODE_INFO, CMSG_HASHED_ENCODE_INFO structure [Security], PCMSG_HASHED_ENCODE_INFO, PCMSG_HASHED_ENCODE_INFO structure pointer [Security], _crypto2_cmsg_hashed_encode_info, security.cmsg_hashed_encode_info, wincrypt/CMSG_HASHED_ENCODE_INFO, wincrypt/PCMSG_HASHED_ENCODE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMSG_HASHED_ENCODE_INFO"
+f1_keywords:
+- wincrypt/CMSG_HASHED_ENCODE_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMSG_HASHED_ENCODE_INFO
+- CMSG_HASHED_ENCODE_INFO
 product: Windows
 targetos: Windows
 req.typenames: CMSG_HASHED_ENCODE_INFO, *PCMSG_HASHED_ENCODE_INFO
@@ -81,7 +81,7 @@ Unless there is a strong reason for passing in a specific cryptographic provider
 
 ### -field HashAlgorithm
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the hash algorithm type and any associated additional parameters.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the hash algorithm type and any associated additional parameters.
 
 
 ### -field pvHashAuxInfo
@@ -94,7 +94,7 @@ This member is currently not used and must be set to <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
  
 
  

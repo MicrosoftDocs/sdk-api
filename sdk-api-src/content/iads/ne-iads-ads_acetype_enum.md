@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADS_ACETYPE_ACCESS_ALLOWED, ADS_ACETYPE_ACCESS_ALLOWED_CALLBACK, ADS_ACETYPE_ACCESS_ALLOWED_CALLBACK_OBJECT, ADS_ACETYPE_ACCESS_ALLOWED_OBJECT, ADS_ACETYPE_ACCESS_DENIED, ADS_ACETYPE_ACCESS_DENIED_CALLBACK, ADS_ACETYPE_ACCESS_DENIED_CALLBACK_OBJECT, ADS_ACETYPE_ACCESS_DENIED_OBJECT, ADS_ACETYPE_ENUM, ADS_ACETYPE_ENUM enumeration [ADSI], ADS_ACETYPE_SYSTEM_ALARM_CALLBACK, ADS_ACETYPE_SYSTEM_ALARM_CALLBACK_OBJECT, ADS_ACETYPE_SYSTEM_ALARM_OBJECT, ADS_ACETYPE_SYSTEM_AUDIT, ADS_ACETYPE_SYSTEM_AUDIT_CALLBACK, ADS_ACETYPE_SYSTEM_AUDIT_CALLBACK_OBJECT, ADS_ACETYPE_SYSTEM_AUDIT_OBJECT, _ds_ads_acetype_enum, adsi.ads__acetype__enum, adsi.ads_acetype_enum, iads/ADS_ACETYPE_ACCESS_ALLOWED, iads/ADS_ACETYPE_ACCESS_ALLOWED_CALLBACK, iads/ADS_ACETYPE_ACCESS_ALLOWED_CALLBACK_OBJECT, iads/ADS_ACETYPE_ACCESS_ALLOWED_OBJECT, iads/ADS_ACETYPE_ACCESS_DENIED, iads/ADS_ACETYPE_ACCESS_DENIED_CALLBACK, iads/ADS_ACETYPE_ACCESS_DENIED_CALLBACK_OBJECT, iads/ADS_ACETYPE_ACCESS_DENIED_OBJECT, iads/ADS_ACETYPE_ENUM, iads/ADS_ACETYPE_SYSTEM_ALARM_CALLBACK, iads/ADS_ACETYPE_SYSTEM_ALARM_CALLBACK_OBJECT, iads/ADS_ACETYPE_SYSTEM_ALARM_OBJECT, iads/ADS_ACETYPE_SYSTEM_AUDIT, iads/ADS_ACETYPE_SYSTEM_AUDIT_CALLBACK, iads/ADS_ACETYPE_SYSTEM_AUDIT_CALLBACK_OBJECT, iads/ADS_ACETYPE_SYSTEM_AUDIT_OBJECT
 ms.topic: enum
-f1_keywords: 
- - "iads/ADS_ACETYPE_ENUM"
+f1_keywords:
+- iads/ADS_ACETYPE_ENUM
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_ACETYPE_ENUM
+- ADS_ACETYPE_ENUM
 product: Windows
 targetos: Windows
 req.typenames: ADS_ACETYPE_ENUM
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>ADS_ACETYPE_ENUM</b> enumeration is used to specify the type of an access-control entry for Active Directory objects. The <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods">IADsAccessControlEntry.AceType</a> property contains one of these values for an Active Directory object.
 
-For more information and possible values for file, file share and registry objects, see the <b>AceType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure.
+For more information and possible values for file, file share and registry objects, see the <b>AceType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure.
 
 
 ## -enum-fields

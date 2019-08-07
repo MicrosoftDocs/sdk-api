@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddDatabaseFiles, AddDatabaseFiles method [VSS], AddDatabaseFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddDatabaseFiles method, IVssCreateWriterMetadata.AddDatabaseFiles, IVssCreateWriterMetadata::AddDatabaseFiles, _win32_ivsscreatewritermetadata_adddatabasefiles, base.ivsscreatewritermetadata_adddatabasefiles, vswriter/IVssCreateWriterMetadata::AddDatabaseFiles
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssCreateWriterMetadata.AddDatabaseFiles"
+f1_keywords:
+- vswriter/IVssCreateWriterMetadata.AddDatabaseFiles
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssCreateWriterMetadata.AddDatabaseFiles
+- IVssCreateWriterMetadata.AddDatabaseFiles
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -108,7 +108,7 @@ A file specification cannot contain directory specifications (for example, no ba
 ### -param dwBackupTypeMask [in]
 
 A bit mask (or bitwise OR) of 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_file_spec_backup_type">VSS_FILE_SPEC_BACKUP_TYPE</a> enumeration values to indicate whether a writer should evaluate the file for participation in certain types of backup operations. 
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_file_spec_backup_type">VSS_FILE_SPEC_BACKUP_TYPE</a> enumeration values to indicate whether a writer should evaluate the file for participation in certain types of backup operations. 
 
 
 

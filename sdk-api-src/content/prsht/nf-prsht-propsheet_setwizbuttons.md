@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSWIZB_BACK, PSWIZB_DISABLEDFINISH, PSWIZB_FINISH, PSWIZB_NEXT, PropSheet_SetWizButtons, PropSheet_SetWizButtons macro [Windows Controls], _win32_PropSheet_SetWizButtons, _win32_PropSheet_SetWizButtons_cpp, controls.PropSheet_SetWizButtons, controls._win32_PropSheet_SetWizButtons, prsht/PropSheet_SetWizButtons
 ms.topic: macro
-f1_keywords: 
- - "prsht/PropSheet_SetWizButtons"
+f1_keywords:
+- prsht/PropSheet_SetWizButtons
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Prsht.h
+- Prsht.h
 api_name:
- - PropSheet_SetWizButtons
+- PropSheet_SetWizButtons
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -127,7 +127,7 @@ Enable the Next button. If this flag is not set, the Next button is displayed as
 
 This macro uses <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a> to send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-setwizbuttons">PSM_SETWIZBUTTONS</a> message. If your notification handler calls <b>PropSheet_SetWizButtons</b>, do nothing that will affect window focus until after the handler returns. For example, if you call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a> immediately after calling <b>PropSheet_SetWizButtons</b>, the message box will receive focus. Since messages sent with <b>PostMessage</b> are not delivered until they reach the head of the message queue, the <b>PSM_SETWIZBUTTONS</b> message will not be delivered until after the wizard has lost focus to the message box. As a result, the property sheet will not be able to properly set the focus for the buttons.
 
-Wizards display either three or four buttons below each page. This message is used to specify which buttons are enabled. Wizards normally display Back, Cancel, and either a Next or Finish button. You typically enable only the Next button for the welcome page, Next and Back for interior pages, and Back and Finish for the completion page. The Cancel button is always enabled. Normally, setting PSWIZB_FINISH or PSWIZB_DISABLEDFINISH replaces the Next button with a Finish button. To display Next and Finish buttons simultaneously, set the PSH_WIZARDHASFINISH FLAG in the <b>dwFlags</b> member of the wizard's <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PROPSHEETHEADER</a> structure when you create the wizard. Every page will then display all four buttons.
+Wizards display either three or four buttons below each page. This message is used to specify which buttons are enabled. Wizards normally display Back, Cancel, and either a Next or Finish button. You typically enable only the Next button for the welcome page, Next and Back for interior pages, and Back and Finish for the completion page. The Cancel button is always enabled. Normally, setting PSWIZB_FINISH or PSWIZB_DISABLEDFINISH replaces the Next button with a Finish button. To display Next and Finish buttons simultaneously, set the PSH_WIZARDHASFINISH FLAG in the <b>dwFlags</b> member of the wizard's <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PROPSHEETHEADER</a> structure when you create the wizard. Every page will then display all four buttons.
 
 
 

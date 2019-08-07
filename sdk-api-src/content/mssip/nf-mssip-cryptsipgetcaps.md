@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptSIPGetCaps, CryptSIPGetCaps function [Security], mssip/CryptSIPGetCaps, security.cryptsipgetcaps
 ms.topic: function
-f1_keywords: 
- - "mssip/CryptSIPGetCaps"
+f1_keywords:
+- mssip/CryptSIPGetCaps
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptSIPGetCaps
+- CryptSIPGetCaps
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-ms
 
 ### -param pCaps [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-_sip_cap_set_v2">SIP_CAP_SET</a> structure that defines the capabilities of an SIP.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_cap_set_v2">SIP_CAP_SET</a> structure that defines the capabilities of an SIP.
 
 
 ## -remarks
@@ -83,7 +83,7 @@ Unlike other SIP functions, <b>CryptSIPGetCaps</b> is not registered in the disp
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-_sip_cap_set_v2">SIP_CAP_SET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_cap_set_v2">SIP_CAP_SET</a>
 
 
 

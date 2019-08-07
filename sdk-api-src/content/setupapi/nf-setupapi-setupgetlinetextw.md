@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupGetLineText, SetupGetLineText function [Setup API], SetupGetLineTextA, SetupGetLineTextW, _setupapi_setupgetlinetext, setup.setupgetlinetext, setupapi/SetupGetLineText, setupapi/SetupGetLineTextA, setupapi/SetupGetLineTextW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupGetLineText"
+f1_keywords:
+- setupapi/SetupGetLineText
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-setupapi-inf-l1-1-0.dll
- - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
+- Setupapi.dll
+- Ext-MS-Win-setupapi-inf-l1-1-0.dll
+- Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
 api_name:
- - SetupGetLineText
- - SetupGetLineTextA
- - SetupGetLineTextW
+- SetupGetLineText
+- SetupGetLineTextA
+- SetupGetLineTextW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 The 
 <b>SetupGetLineText</b> function returns the contents of a line in an INF file in a compact form. The line to retrieve can be specified by an 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_infcontext">INFCONTEXT</a> structure returned from a SetupFindLineXXX function, or by explicitly passing in the INF handle, section, and key of the desired line.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-infcontext">INFCONTEXT</a> structure returned from a SetupFindLineXXX function, or by explicitly passing in the INF handle, section, and key of the desired line.
 
 
 ## -parameters

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_BINDING, WS_SECURITY_BINDING structure [Web Services for Windows], webservices/WS_SECURITY_BINDING, wsw.ws_security_binding
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_SECURITY_BINDING"
+f1_keywords:
+- webservices/WS_SECURITY_BINDING
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SECURITY_BINDING
+- WS_SECURITY_BINDING
 product: Windows
 targetos: Windows
 req.typenames: WS_SECURITY_BINDING
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The abstract base type for all security bindings.  One or more
 concrete subtypes of this are specified in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_description">security description</a> that is
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_description">security description</a> that is
 supplied during channel and listener creation.  Each concrete subtype
 of this corresponds to a security protocol and a way of using it to
 provide authentication and/or protection to a channel.

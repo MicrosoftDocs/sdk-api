@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: c7d1e04f-d2b9-4bab-88f4-8a528c527e7c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_SMIME_CAPABILITY, CRYPT_SMIME_CAPABILITY, CRYPT_SMIME_CAPABILITY structure [Security], PCRYPT_SMIME_CAPABILITY, PCRYPT_SMIME_CAPABILITY structure pointer [Security], _crypto2_crypt_smime_capability, security.crypt_smime_capability, wincrypt/CRYPT_SMIME_CAPABILITY, wincrypt/PCRYPT_SMIME_CAPABILITY"
+ms.keywords: '*PCRYPT_SMIME_CAPABILITY, CRYPT_SMIME_CAPABILITY, CRYPT_SMIME_CAPABILITY structure [Security], PCRYPT_SMIME_CAPABILITY, PCRYPT_SMIME_CAPABILITY structure pointer [Security], _crypto2_crypt_smime_capability, security.crypt_smime_capability, wincrypt/CRYPT_SMIME_CAPABILITY, wincrypt/PCRYPT_SMIME_CAPABILITY'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_SMIME_CAPABILITY"
+f1_keywords:
+- wincrypt/CRYPT_SMIME_CAPABILITY
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_SMIME_CAPABILITY
+- CRYPT_SMIME_CAPABILITY
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_SMIME_CAPABILITY, *PCRYPT_SMIME_CAPABILITY
@@ -52,8 +52,8 @@ ms.custom: 19H1
 
 
 The <b>CRYPT_SMIME_CAPABILITY</b> structure specifies a single capability and its associated parameters. Single capabilities are grouped together into a list of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_smime_capabilities">CRYPT_SMIME_CAPABILITIES</a> which can specify a prioritized list of capability preferences.
-<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_smime_capabilities">CRYPT_SMIME_CAPABILITIES</a> is part of an Internet draft proposal. For a complete definition, see "draft-dusse-s/mime-cert-01.txt" dated May 5, 1997.</div><div> </div>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_smime_capabilities">CRYPT_SMIME_CAPABILITIES</a> which can specify a prioritized list of capability preferences.
+<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_smime_capabilities">CRYPT_SMIME_CAPABILITIES</a> is part of an Internet draft proposal. For a complete definition, see "draft-dusse-s/mime-cert-01.txt" dated May 5, 1997.</div><div> </div>
 
 ## -struct-fields
 
@@ -83,7 +83,7 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_smime_capabilities">CRYPT_SMIME_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_smime_capabilities">CRYPT_SMIME_CAPABILITIES</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1, 1004, 1005, 1006, 1501, 2, 502, 503, NetShareSetInfo, NetShareSetInfo function [Files], _win32_netsharesetinfo, fs.netsharesetinfo, lmshare/NetShareSetInfo, netmgmt.netsharesetinfo
 ms.topic: function
-f1_keywords: 
- - "lmshare/NetShareSetInfo"
+f1_keywords:
+- lmshare/NetShareSetInfo
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetShareSetInfo
+- NetShareSetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -88,7 +88,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Specifies information about the shared resource, including the name and type of the resource, and a comment associated with the resource. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1">SHARE_INFO_1</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1">SHARE_INFO_1</a> structure.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ Specifies information about the shared resource, including the name and type of 
 </td>
 <td width="60%">
 Specifies information about the shared resource, including the name of the resource, type and permissions, password, and number of connections. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_2">SHARE_INFO_2</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_2">SHARE_INFO_2</a> structure.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Specifies information about the shared resource, including the name of the resou
 </td>
 <td width="60%">
 Specifies information about the shared resource, including the name and type of the resource, required permissions, number of connections, and other pertinent information. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_502">SHARE_INFO_502</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_502">SHARE_INFO_502</a> structure.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Specifies information about the shared resource, including the name and type of 
 </dl>
 </td>
 <td width="60%">
-Specifies the name of the shared resource. The <i>buf</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_503">SHARE_INFO_503</a> structure. All members of this structure except <b>shi503_servername</b> are ignored by the <b>NetShareSetInfo</b> function.
+Specifies the name of the shared resource. The <i>buf</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_503">SHARE_INFO_503</a> structure. All members of this structure except <b>shi503_servername</b> are ignored by the <b>NetShareSetInfo</b> function.
 
 <b>Windows Server 2003 and Windows XP:  </b>This information level is not supported.
 
@@ -133,7 +133,7 @@ Specifies the name of the shared resource. The <i>buf</i> parameter points to a 
 </td>
 <td width="60%">
 Specifies a comment associated with the shared resource. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1004">SHARE_INFO_1004</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1004">SHARE_INFO_1004</a> structure.
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ Specifies a comment associated with the shared resource. The <i>buf</i> paramete
 </td>
 <td width="60%">
 Specifies a set of flags describing  the shared resource. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1005">SHARE_INFO_1005</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1005">SHARE_INFO_1005</a> structure.
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ Specifies a set of flags describing  the shared resource. The <i>buf</i> paramet
 </td>
 <td width="60%">
 Specifies the maximum number of concurrent connections that the shared resource can accommodate. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1006">SHARE_INFO_1006</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1006">SHARE_INFO_1006</a> structure.
 
 </td>
 </tr>
@@ -167,7 +167,7 @@ Specifies the maximum number of concurrent connections that the shared resource 
 <td width="60%">
  Specifies the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> associated with the specified share. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1501">SHARE_INFO_1501</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1501">SHARE_INFO_1501</a> structure.
 
 </td>
 </tr>
@@ -308,13 +308,13 @@ If the
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management share functions. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileshare">IADsFileShare</a>.
 
-If 503 is specified for the <i>level</i> parameter, the remote server specified in the <b>shi503_servername</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_503">SHARE_INFO_503</a> structure must have been bound to a transport protocol using the <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a> function. In the call to  <b>NetServerTransportAddEx</b>, either 2 or 3 must have been specified for the <i>level</i> parameter, and the <b>SVTI2_SCOPED_NAME</b> flag must have been specified in the <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_2">SERVER_TRANSPORT_INFO_2</a> structure for the transport protocol.
+If 503 is specified for the <i>level</i> parameter, the remote server specified in the <b>shi503_servername</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_503">SHARE_INFO_503</a> structure must have been bound to a transport protocol using the <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a> function. In the call to  <b>NetServerTransportAddEx</b>, either 2 or 3 must have been specified for the <i>level</i> parameter, and the <b>SVTI2_SCOPED_NAME</b> flag must have been specified in the <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_2">SERVER_TRANSPORT_INFO_2</a> structure for the transport protocol.
 
 
 #### Examples
 
 The following code sample demonstrates how to set the comment associated with a shared resource using a call to the 
-<b>NetShareSetInfo</b> function. To do this, the sample specifies information level 1004 (<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1004">SHARE_INFO_1004</a>).
+<b>NetShareSetInfo</b> function. To do this, the sample specifies information level 1004 (<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1004">SHARE_INFO_1004</a>).
 
 
 ```cpp
@@ -389,35 +389,35 @@ void wmain( int argc, TCHAR *argv[ ])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1">SHARE_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1">SHARE_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1004">SHARE_INFO_1004</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1004">SHARE_INFO_1004</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1005">SHARE_INFO_1005</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1005">SHARE_INFO_1005</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1006">SHARE_INFO_1006</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1006">SHARE_INFO_1006</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1501">SHARE_INFO_1501</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1501">SHARE_INFO_1501</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_2">SHARE_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_2">SHARE_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_502">SHARE_INFO_502</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_502">SHARE_INFO_502</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_503">SHARE_INFO_503</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_503">SHARE_INFO_503</a>
  
 
  

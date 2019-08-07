@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ONEX_AUTH_IDENTITY, ONEX_AUTH_IDENTITY enumeration [NativeWIFI], OneXAuthIdentityExplicitUser, OneXAuthIdentityGuest, OneXAuthIdentityInvalid, OneXAuthIdentityMachine, OneXAuthIdentityNone, OneXAuthIdentityUser, PONEX_AUTH_IDENTITY, PONEX_AUTH_IDENTITY enumeration pointer [NativeWIFI], dot1x/ONEX_AUTH_IDENTITY, dot1x/OneXAuthIdentityExplicitUser, dot1x/OneXAuthIdentityGuest, dot1x/OneXAuthIdentityInvalid, dot1x/OneXAuthIdentityMachine, dot1x/OneXAuthIdentityNone, dot1x/OneXAuthIdentityUser, dot1x/PONEX_AUTH_IDENTITY, nwifi.onex_auth_identity
 ms.topic: enum
-f1_keywords: 
- - "dot1x/ONEX_AUTH_IDENTITY"
+f1_keywords:
+- dot1x/ONEX_AUTH_IDENTITY
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dot1x.h
+- dot1x.h
 api_name:
- - ONEX_AUTH_IDENTITY
+- ONEX_AUTH_IDENTITY
 product: Windows
 targetos: Windows
 req.typenames: ONEX_AUTH_IDENTITY, PONEX_AUTH_IDENTITY
@@ -100,9 +100,9 @@ The <b>ONEX_AUTH_IDENTITY</b> specifies the possible values of the identity used
     802.1X authentication mode selected and various system triggers (user logon and logoff operations, for example).
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> contains information on a status change to 802.1X authentication. The <b>ONEX_RESULT_UPDATE_DATA</b> structure is returned  when  the <b>NotificationSource</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure is <b>WLAN_NOTIFICATION_SOURCE_ONEX</b>  and the <b>NotificationCode</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure for received notification  is <b>OneXNotificationTypeResultUpdate</b>. For this notification, the <b>pData</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure points to an  <b>ONEX_RESULT_UPDATE_DATA</b> structure that contains information on the 802.1X authentication status change. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> contains information on a status change to 802.1X authentication. The <b>ONEX_RESULT_UPDATE_DATA</b> structure is returned  when  the <b>NotificationSource</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure is <b>WLAN_NOTIFICATION_SOURCE_ONEX</b>  and the <b>NotificationCode</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure for received notification  is <b>OneXNotificationTypeResultUpdate</b>. For this notification, the <b>pData</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure points to an  <b>ONEX_RESULT_UPDATE_DATA</b> structure that contains information on the 802.1X authentication status change. 
 
-If the <b>fOneXAuthParams</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> structure is set, then the  <b>authParams</b> member of the <b>ONEX_RESULT_UPDATE_DATA</b> structure contains an <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_variable_blob">ONEX_VARIABLE_BLOB</a> structure with an <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_auth_params">ONEX_AUTH_PARAMS</a> structure embedded starting at the <b>dwOffset</b> member of the  <b>ONEX_VARIABLE_BLOB</b>. This <b>ONEX_AUTH_PARAMS</b>  structure that contains a value from the <b>ONEX_AUTH_IDENTITY</b> enumeration in the <b>authIdentity</b> member.
+If the <b>fOneXAuthParams</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> structure is set, then the  <b>authParams</b> member of the <b>ONEX_RESULT_UPDATE_DATA</b> structure contains an <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_variable_blob">ONEX_VARIABLE_BLOB</a> structure with an <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_auth_params">ONEX_AUTH_PARAMS</a> structure embedded starting at the <b>dwOffset</b> member of the  <b>ONEX_VARIABLE_BLOB</b>. This <b>ONEX_AUTH_PARAMS</b>  structure that contains a value from the <b>ONEX_AUTH_IDENTITY</b> enumeration in the <b>authIdentity</b> member.
 
 
 
@@ -116,15 +116,15 @@ If the <b>fOneXAuthParams</b> member in the <a href="https://docs.microsoft.com/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_auth_params">ONEX_AUTH_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_auth_params">ONEX_AUTH_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_variable_blob">ONEX_VARIABLE_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_variable_blob">ONEX_VARIABLE_BLOB</a>
 
 
 

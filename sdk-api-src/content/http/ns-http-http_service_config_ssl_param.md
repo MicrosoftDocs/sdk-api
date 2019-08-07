@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 2bb3bfe0-9bac-4eb5-80b1-c883503a30b3
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_PARAM, 0, 0x10000, 1, 2, 4, HTTP_SERVICE_CONFIG_SSL_FLAG_NEGOTIATE_CLIENT_CERT, HTTP_SERVICE_CONFIG_SSL_FLAG_NO_RAW_FILTER, HTTP_SERVICE_CONFIG_SSL_FLAG_USE_DS_MAPPER, HTTP_SERVICE_CONFIG_SSL_PARAM, HTTP_SERVICE_CONFIG_SSL_PARAM structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_PARAM, PHTTP_SERVICE_CONFIG_SSL_PARAM structure pointer [HTTP], _http_http_service_config_ssl_param, http.http_service_config_ssl_param, http/HTTP_SERVICE_CONFIG_SSL_PARAM, http/PHTTP_SERVICE_CONFIG_SSL_PARAM"
+ms.keywords: '*PHTTP_SERVICE_CONFIG_SSL_PARAM, 0, 0x10000, 1, 2, 4, HTTP_SERVICE_CONFIG_SSL_FLAG_NEGOTIATE_CLIENT_CERT, HTTP_SERVICE_CONFIG_SSL_FLAG_NO_RAW_FILTER, HTTP_SERVICE_CONFIG_SSL_FLAG_USE_DS_MAPPER, HTTP_SERVICE_CONFIG_SSL_PARAM, HTTP_SERVICE_CONFIG_SSL_PARAM structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_PARAM, PHTTP_SERVICE_CONFIG_SSL_PARAM structure pointer [HTTP], _http_http_service_config_ssl_param, http.http_service_config_ssl_param, http/HTTP_SERVICE_CONFIG_SSL_PARAM, http/PHTTP_SERVICE_CONFIG_SSL_PARAM'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_SERVICE_CONFIG_SSL_PARAM"
+f1_keywords:
+- http/HTTP_SERVICE_CONFIG_SSL_PARAM
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_SERVICE_CONFIG_SSL_PARAM
+- HTTP_SERVICE_CONFIG_SSL_PARAM
 product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_SSL_PARAM, *PHTTP_SERVICE_CONFIG_SSL_PARAM
@@ -220,7 +220,7 @@ If this flag is set and the mapping is successful, the <b>Token</b> member of th
 
 Together with a 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_key">HTTP_SERVICE_CONFIG_SSL_KEY</a> structure, the <b>HTTP_SERVICE_CONFIG_SSL_PARAM</b> structure makes up the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_set">HTTP_SERVICE_CONFIG_SSL_SET</a> structure passed to 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_set">HTTP_SERVICE_CONFIG_SSL_SET</a> structure passed to 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a> function in the <i>pConfigInformation</i> parameter when the <i>ConfigId</i> parameter is set to <b>HttpServiceConfigSSLCertInfo</b>.
 
 Together with a 
@@ -240,7 +240,7 @@ Together with a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_set">HTTP_SERVICE_CONFIG_SSL_SET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_set">HTTP_SERVICE_CONFIG_SSL_SET</a>
 
 
 

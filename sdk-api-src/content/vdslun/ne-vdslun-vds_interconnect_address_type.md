@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_IA_FCFS, VDS_IA_FCPH, VDS_IA_FCPH3, VDS_IA_MAC, VDS_IA_SCSI, VDS_IA_UNKNOWN, VDS_INTERCONNECT_ADDRESS_TYPE, VDS_INTERCONNECT_ADDRESS_TYPE enumeration [VDS], base.vds_interconnect_address_type, vdslun/VDS_IA_FCFS, vdslun/VDS_IA_FCPH, vdslun/VDS_IA_FCPH3, vdslun/VDS_IA_MAC, vdslun/VDS_IA_SCSI, vdslun/VDS_IA_UNKNOWN, vdslun/VDS_INTERCONNECT_ADDRESS_TYPE
 ms.topic: enum
-f1_keywords: 
- - "vdslun/VDS_INTERCONNECT_ADDRESS_TYPE"
+f1_keywords:
+- vdslun/VDS_INTERCONNECT_ADDRESS_TYPE
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VdsLun.h
+- VdsLun.h
 api_name:
- - VDS_INTERCONNECT_ADDRESS_TYPE
+- VDS_INTERCONNECT_ADDRESS_TYPE
 product: Windows
 targetos: Windows
 req.typenames: VDS_INTERCONNECT_ADDRESS_TYPE
@@ -95,7 +95,7 @@ The address type is SCSI.
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_interconnect">VDS_INTERCONNECT</a> structure includes a <b>VDS_INTERCONNECT_ADDRESS_TYPE</b> value as a member to indicate an interconnect address type.
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_interconnect">VDS_INTERCONNECT</a> structure includes a <b>VDS_INTERCONNECT_ADDRESS_TYPE</b> value as a member to indicate an interconnect address type.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_INTERCONNECT_ADDRESS_TYPE</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_INTERCONNECT_ADDRESS_TYPE</b> enumeration constant.</div>
 <div> </div>
@@ -111,7 +111,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vd
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_interconnect">VDS_INTERCONNECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_interconnect">VDS_INTERCONNECT</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, RtlUnicodeStringToOemString, RtlUnicodeStringToOemString function [Windows API], TRUE, winprog.rtlunicodestringtooemstring, winternl/RtlUnicodeStringToOemString, winui.rtlunicodestringtooemstring
 ms.topic: function
-f1_keywords: 
- - "winternl/RtlUnicodeStringToOemString"
+f1_keywords:
+- winternl/RtlUnicodeStringToOemString
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
+- Ntdll.dll
 api_name:
- - RtlUnicodeStringToOemString
+- RtlUnicodeStringToOemString
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,12 +62,12 @@ Converts the specified Unicode source string into an OEM string. The translation
 
 ### -param DestinationString [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-_string">OEM_STRING</a> structure that is contains the OEM equivalent to the Unicode source string. The <b>MaximumLength</b> field is set if <i>AllocateDestinationString</i> is <b>TRUE</b>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-string">OEM_STRING</a> structure that is contains the OEM equivalent to the Unicode source string. The <b>MaximumLength</b> field is set if <i>AllocateDestinationString</i> is <b>TRUE</b>.
 
 
 ### -param SourceString [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that is to be
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that is to be
         converted to OEM.
 
 

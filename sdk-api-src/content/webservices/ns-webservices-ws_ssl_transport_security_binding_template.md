@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE, WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE, wsw.ws_ssl_transport_security_binding_template
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE"
+f1_keywords:
+- webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE
+- WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE
 product: Windows
 targetos: Windows
 req.typenames: WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE
@@ -55,7 +55,7 @@ The security binding template for specifying the use of SSL/TLS
         protocol based transport security. 
       
 
-See also <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a>.
+See also <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a>.
 
 This security binding is supported only with the
         <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.

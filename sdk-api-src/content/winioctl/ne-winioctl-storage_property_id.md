@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 9747be01-7c70-4697-97f7-e3830b54ba0a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSTORAGE_PROPERTY_ID, PSTORAGE_PROPERTY_ID, PSTORAGE_PROPERTY_ID enumeration pointer [Files], STORAGE_PROPERTY_ID, STORAGE_PROPERTY_ID enumeration [Files], StorageAccessAlignmentProperty, StorageAdapterPhysicalTopologyProperty, StorageAdapterProperty, StorageAdapterProtocolSpecificProperty, StorageAdapterTemperatureProperty, StorageDeviceAttributesProperty, StorageDeviceCopyOffloadProperty, StorageDeviceDeviceTelemetryProperty, StorageDeviceIdProperty, StorageDeviceIoCapabilityProperty, StorageDeviceLBProvisioningProperty, StorageDeviceMediumProductType, StorageDevicePhysicalTopologyProperty, StorageDevicePowerProperty, StorageDeviceProperty, StorageDeviceProtocolSpecificProperty, StorageDeviceResiliencyProperty, StorageDeviceSeekPenaltyProperty, StorageDeviceTemperatureProperty, StorageDeviceTrimProperty, StorageDeviceUniqueIdProperty, StorageDeviceWriteAggregationProperty, StorageDeviceWriteCacheProperty, StorageMiniportProperty, fs.storage_property_id, winioctl/PSTORAGE_PROPERTY_ID, winioctl/STORAGE_PROPERTY_ID, winioctl/StorageAccessAlignmentProperty, winioctl/StorageAdapterPhysicalTopologyProperty, winioctl/StorageAdapterProperty, winioctl/StorageAdapterProtocolSpecificProperty, winioctl/StorageAdapterTemperatureProperty, winioctl/StorageDeviceAttributesProperty, winioctl/StorageDeviceCopyOffloadProperty, winioctl/StorageDeviceDeviceTelemetryProperty, winioctl/StorageDeviceIdProperty, winioctl/StorageDeviceIoCapabilityProperty, winioctl/StorageDeviceLBProvisioningProperty, winioctl/StorageDeviceMediumProductType, winioctl/StorageDevicePhysicalTopologyProperty, winioctl/StorageDevicePowerProperty, winioctl/StorageDeviceProperty, winioctl/StorageDeviceProtocolSpecificProperty, winioctl/StorageDeviceResiliencyProperty, winioctl/StorageDeviceSeekPenaltyProperty, winioctl/StorageDeviceTemperatureProperty, winioctl/StorageDeviceTrimProperty, winioctl/StorageDeviceUniqueIdProperty, winioctl/StorageDeviceWriteAggregationProperty, winioctl/StorageDeviceWriteCacheProperty, winioctl/StorageMiniportProperty"
+ms.keywords: '*PSTORAGE_PROPERTY_ID, PSTORAGE_PROPERTY_ID, PSTORAGE_PROPERTY_ID enumeration pointer [Files], STORAGE_PROPERTY_ID, STORAGE_PROPERTY_ID enumeration [Files], StorageAccessAlignmentProperty, StorageAdapterPhysicalTopologyProperty, StorageAdapterProperty, StorageAdapterProtocolSpecificProperty, StorageAdapterTemperatureProperty, StorageDeviceAttributesProperty, StorageDeviceCopyOffloadProperty, StorageDeviceDeviceTelemetryProperty, StorageDeviceIdProperty, StorageDeviceIoCapabilityProperty, StorageDeviceLBProvisioningProperty, StorageDeviceMediumProductType, StorageDevicePhysicalTopologyProperty, StorageDevicePowerProperty, StorageDeviceProperty, StorageDeviceProtocolSpecificProperty, StorageDeviceResiliencyProperty, StorageDeviceSeekPenaltyProperty, StorageDeviceTemperatureProperty, StorageDeviceTrimProperty, StorageDeviceUniqueIdProperty, StorageDeviceWriteAggregationProperty, StorageDeviceWriteCacheProperty, StorageMiniportProperty, fs.storage_property_id, winioctl/PSTORAGE_PROPERTY_ID, winioctl/STORAGE_PROPERTY_ID, winioctl/StorageAccessAlignmentProperty, winioctl/StorageAdapterPhysicalTopologyProperty, winioctl/StorageAdapterProperty, winioctl/StorageAdapterProtocolSpecificProperty, winioctl/StorageAdapterTemperatureProperty, winioctl/StorageDeviceAttributesProperty, winioctl/StorageDeviceCopyOffloadProperty, winioctl/StorageDeviceDeviceTelemetryProperty, winioctl/StorageDeviceIdProperty, winioctl/StorageDeviceIoCapabilityProperty, winioctl/StorageDeviceLBProvisioningProperty, winioctl/StorageDeviceMediumProductType, winioctl/StorageDevicePhysicalTopologyProperty, winioctl/StorageDevicePowerProperty, winioctl/StorageDeviceProperty, winioctl/StorageDeviceProtocolSpecificProperty, winioctl/StorageDeviceResiliencyProperty, winioctl/StorageDeviceSeekPenaltyProperty, winioctl/StorageDeviceTemperatureProperty, winioctl/StorageDeviceTrimProperty, winioctl/StorageDeviceUniqueIdProperty, winioctl/StorageDeviceWriteAggregationProperty, winioctl/StorageDeviceWriteCacheProperty, winioctl/StorageMiniportProperty'
 ms.topic: enum
-f1_keywords: 
- - "winioctl/STORAGE_PROPERTY_ID"
+f1_keywords:
+- winioctl/STORAGE_PROPERTY_ID
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - STORAGE_PROPERTY_ID
+- STORAGE_PROPERTY_ID
 product: Windows
 targetos: Windows
 req.typenames: STORAGE_PROPERTY_ID, *PSTORAGE_PROPERTY_ID
@@ -51,7 +51,7 @@ req.redist:
 
 
 Enumerates the possible values of the <b>PropertyId</b> member of the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_property_query">STORAGE_PROPERTY_QUERY</a> structure passed as input to 
+   <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a> structure passed as input to 
    the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request to 
    retrieve the properties of a storage device or adapter.
 
@@ -63,17 +63,17 @@ Enumerates the possible values of the <b>PropertyId</b> member of the
 
 ### -field StorageDeviceProperty
 
-Indicates that the caller is querying for the device descriptor, <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>.
+Indicates that the caller is querying for the device descriptor, <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>.
 
 
 ### -field StorageAdapterProperty
 
-Indicates that the caller is querying for the adapter descriptor, <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_adapter_descriptor">STORAGE_ADAPTER_DESCRIPTOR</a>.
+Indicates that the caller is querying for the adapter descriptor, <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_adapter_descriptor">STORAGE_ADAPTER_DESCRIPTOR</a>.
 
 
 ### -field StorageDeviceIdProperty
 
-Indicates that the caller is querying for the device identifiers provided with the SCSI vital product data pages. Data is returned using the  <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a> structure.
+Indicates that the caller is querying for the device identifiers provided with the SCSI vital product data pages. Data is returned using the  <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a> structure.
 
 
 ### -field StorageDeviceUniqueIdProperty
@@ -85,7 +85,7 @@ Indicates that the caller is querying for the device identifiers provided with t
 
 ### -field StorageDeviceWriteCacheProperty
 
-Indicates that the caller is querying for the write cache property. Data is returned using the  <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_write_cache_property">STORAGE_WRITE_CACHE_PROPERTY</a> structure.
+Indicates that the caller is querying for the write cache property. Data is returned using the  <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_write_cache_property">STORAGE_WRITE_CACHE_PROPERTY</a> structure.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows Vista and Windows Server 2008.
 
@@ -104,14 +104,14 @@ Indicates that the caller is querying for the access alignment descriptor, <a hr
 
 ### -field StorageDeviceSeekPenaltyProperty
 
-Indicates that the caller is querying for the seek penalty descriptor, <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_seek_penalty_descriptor">DEVICE_SEEK_PENALTY_DESCRIPTOR</a>.
+Indicates that the caller is querying for the seek penalty descriptor, <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-device_seek_penalty_descriptor">DEVICE_SEEK_PENALTY_DESCRIPTOR</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows 7 and Windows Server 2008 R2.
 
 
 ### -field StorageDeviceTrimProperty
 
-Indicates that the caller is querying for the trim descriptor, <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_trim_descriptor">DEVICE_TRIM_DESCRIPTOR</a>.
+Indicates that the caller is querying for the trim descriptor, <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-device_trim_descriptor">DEVICE_TRIM_DESCRIPTOR</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows 7 and Windows Server 2008 R2.
 
@@ -135,14 +135,14 @@ Indicates that the caller is querying for the logical block provisioning propert
 
 ### -field StorageDevicePowerProperty
 
-Indicates that the caller is querying for the device power descriptor. Data is returned using the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_power_descriptor">DEVICE_POWER_DESCRIPTOR</a> structure.
+Indicates that the caller is querying for the device power descriptor. Data is returned using the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-device_power_descriptor">DEVICE_POWER_DESCRIPTOR</a> structure.
 
 <b>Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows 8 and Windows Server 2012.
 
 
 ### -field StorageDeviceCopyOffloadProperty
 
-Indicates that the caller is querying for the copy offload  parameters property. Data is returned using the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_copy_offload_descriptor">DEVICE_COPY_OFFLOAD_DESCRIPTOR</a> structure.
+Indicates that the caller is querying for the copy offload  parameters property. Data is returned using the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-device_copy_offload_descriptor">DEVICE_COPY_OFFLOAD_DESCRIPTOR</a> structure.
 
 <b>Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows 8 and Windows Server 2012.
 
@@ -171,12 +171,12 @@ Indicates that the caller is querying for the device I/O capability property. Da
 
 ### -field StorageAdapterProtocolSpecificProperty
 
-Indicates that the caller is querying for protocol-specific data from the  adapter. Data is returned using the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_protocol_data_descriptor">STORAGE_PROTOCOL_DATA_DESCRIPTOR</a> structure. See the remarks for more info.
+Indicates that the caller is querying for protocol-specific data from the  adapter. Data is returned using the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_data_descriptor">STORAGE_PROTOCOL_DATA_DESCRIPTOR</a> structure. See the remarks for more info.
 
 
 ### -field StorageDeviceProtocolSpecificProperty
 
-Indicates that the caller is querying for protocol-specific data from the device. Data is returned using the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_protocol_data_descriptor">STORAGE_PROTOCOL_DATA_DESCRIPTOR</a> structure. See the remarks for more info.
+Indicates that the caller is querying for protocol-specific data from the device. Data is returned using the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_data_descriptor">STORAGE_PROTOCOL_DATA_DESCRIPTOR</a> structure. See the remarks for more info.
 
 
 ### -field StorageAdapterTemperatureProperty
@@ -234,7 +234,7 @@ Reserved for future use.
 The optional output buffer returned through the <i>lpOutBuffer</i> parameter of the 
      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control code 
      request can be one of several structures depending on the value of the <b>PropertyId</b> 
-     member of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_property_query">STORAGE_PROPERTY_QUERY</a> structure 
+     member of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a> structure 
      pointed to by the <i>lpInBuffer</i> parameter. If the <b>QueryType</b> 
      member of the <b>STORAGE_PROPERTY_QUERY</b> is set to 
      <b>PropertyExistsQuery</b>, then no structure is returned.
@@ -255,7 +255,7 @@ The optional output buffer returned through the <i>lpOutBuffer</i> parameter of 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_property_query">STORAGE_PROPERTY_QUERY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a>
 
 
 

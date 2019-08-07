@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCharABCWidthsFloat, GetCharABCWidthsFloat function [Windows GDI], GetCharABCWidthsFloatA, GetCharABCWidthsFloatW, _win32_GetCharABCWidthsFloat, gdi.getcharabcwidthsfloat, wingdi/GetCharABCWidthsFloat, wingdi/GetCharABCWidthsFloatA, wingdi/GetCharABCWidthsFloatW
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetCharABCWidthsFloat"
+f1_keywords:
+- wingdi/GetCharABCWidthsFloat
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetCharABCWidthsFloat
- - GetCharABCWidthsFloatA
- - GetCharABCWidthsFloatW
+- GetCharABCWidthsFloat
+- GetCharABCWidthsFloatA
+- GetCharABCWidthsFloatW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -80,7 +80,7 @@ Specifies the code point of the last character in the group of consecutive chara
 
 ### -param lpABC [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_abcfloat">ABCFLOAT</a> structures that receives the character widths, in logical units.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-abcfloat">ABCFLOAT</a> structures that receives the character widths, in logical units.
 
 
 ## -returns
@@ -116,7 +116,7 @@ The ABC widths of the default character are used for characters outside the rang
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_abcfloat">ABCFLOAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-abcfloat">ABCFLOAT</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortUpdate, DdVideoPortUpdate callback function [Display Devices], PDD_VPORTCB_UPDATE, PDD_VPORTCB_UPDATE callback, ddfncs_fd19067f-3bed-443f-a11f-78b740d9e34b.xml, ddrawint/DdVideoPortUpdate, display.ddvideoportupdate
 ms.topic: callback
-f1_keywords: 
- - "ddrawint/DdVideoPortUpdate"
+f1_keywords:
+- ddrawint/DdVideoPortUpdate
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DdVideoPortUpdate
+- DdVideoPortUpdate
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The <b>DdVideoPortUpdate</b> callback function starts and stops the VPE object, 
 
 #### - lpUpdate
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_updatevportdata">DD_UPDATEVPORTDATA</a> structure that contains the information required for the driver to update the VPE object.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_updatevportdata">DD_UPDATEVPORTDATA</a> structure that contains the information required for the driver to update the VPE object.
 
 
 ## -returns
@@ -92,7 +92,7 @@ When the <b>dwFlags</b> member of the DD_UPDATEVPORTDATA structure at <i>lpUpdat
 
 <ul>
 <li>
-Check all flags in the <b>dwVPFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportinfo">DDVIDEOPORTINFO</a> structure to which the <i>lpVideoInfo</i> member of DD_UPDATEVPORTDATA points. These flags describe how the driver should transfer video data to a surface (or surfaces); for example, they indicate whether the driver should perform autoflipping, crop the video or <a href="https://docs.microsoft.com/windows-hardware/drivers/">VBI</a> data, etc.
+Check all flags in the <b>dwVPFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportinfo">DDVIDEOPORTINFO</a> structure to which the <i>lpVideoInfo</i> member of DD_UPDATEVPORTDATA points. These flags describe how the driver should transfer video data to a surface (or surfaces); for example, they indicate whether the driver should perform autoflipping, crop the video or <a href="https://docs.microsoft.com/windows-hardware/drivers/">VBI</a> data, etc.
 
 </li>
 <li>
@@ -100,7 +100,7 @@ Set up loops in the hardware to write video and/or VBI data to the surfaces in t
 
 </li>
 <li>
-If autoflipping has been requested, store the frame buffer offset for each surface in the driver's internal data structure. The surface offsets should be stored in the order in which the surfaces occur in the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_int">DD_SURFACE_INT</a> arrays at the <b>lplpDDSurface</b> and <b>lplpDDVBISurface</b> members of DD_UPDATEVPORTDATA. In this way, when <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_updateoverlay">DdUpdateOverlay</a> is called, the driver has a record of the flipping order of the surface chain.
+If autoflipping has been requested, store the frame buffer offset for each surface in the driver's internal data structure. The surface offsets should be stored in the order in which the surfaces occur in the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_int">DD_SURFACE_INT</a> arrays at the <b>lplpDDSurface</b> and <b>lplpDDVBISurface</b> members of DD_UPDATEVPORTDATA. In this way, when <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_updateoverlay">DdUpdateOverlay</a> is called, the driver has a record of the flipping order of the surface chain.
 
 </li>
 </ul>
@@ -120,15 +120,15 @@ When <b>dwFlags</b> is DDRAWI_VPORTSTOP, the driver should return immediately. T
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportinfo">DDVIDEOPORTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportinfo">DDVIDEOPORTINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_int">DD_SURFACE_INT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_int">DD_SURFACE_INT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_updatevportdata">DD_UPDATEVPORTDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_updatevportdata">DD_UPDATEVPORTDATA</a>
 
 
 

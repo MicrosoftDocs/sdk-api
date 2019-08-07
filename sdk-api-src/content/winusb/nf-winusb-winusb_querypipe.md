@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_QueryPipe, WinUsb_QueryPipe function [Buses], buses.winusb_querypipe, winusb/WinUsb_QueryPipe, winusbfunc_1a0b0ae5-25b3-47b5-bc32-165be320831b.xml
 ms.topic: function
-f1_keywords: 
- - "winusb/WinUsb_QueryPipe"
+f1_keywords:
+- winusb/WinUsb_QueryPipe
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Winusb.lib
 req.dll: Winusb.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winusb.dll
+- Winusb.dll
 api_name:
- - WinUsb_QueryPipe
+- WinUsb_QueryPipe
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,7 +78,7 @@ A value that specifies the pipe to return information about. This value is not t
 
 ### -param PipeInformation [out]
 
-A pointer, on output, to a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/winusbio/ns-winusbio-_winusb_pipe_information">WINUSB_PIPE_INFORMATION</a> structure that contains pipe information.
+A pointer, on output, to a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/winusbio/ns-winusbio-winusb_pipe_information">WINUSB_PIPE_INFORMATION</a> structure that contains pipe information.
 
 
 ## -returns
@@ -142,7 +142,7 @@ The value passed in the <i>PipeIndex</i> parameter is greater than the  <b>bNumE
 
 The <b>WinUsb_QueryPipe</b> function does not retrieve information about the control pipe.
 
-Each interface on the USB device can have multiple endpoints. To communicate with each of these endpoints, the bus driver creates pipes for each endpoint on the interface. The pipe indices are zero-based. Therefore for <i>n</i> number of endpoints, the pipes' indices are set from <i>n</i>-1. <b>WinUsb_QueryPipe</b> parses the configuration descriptor to get the interface specified by the caller.  It searches the interface descriptor  for the endpoint descriptor associated with the caller-specified pipe. If the endpoint is found, the function populates the caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/winusbio/ns-winusbio-_winusb_pipe_information">WINUSB_PIPE_INFORMATION</a> structure with information from the endpoint descriptor. 
+Each interface on the USB device can have multiple endpoints. To communicate with each of these endpoints, the bus driver creates pipes for each endpoint on the interface. The pipe indices are zero-based. Therefore for <i>n</i> number of endpoints, the pipes' indices are set from <i>n</i>-1. <b>WinUsb_QueryPipe</b> parses the configuration descriptor to get the interface specified by the caller.  It searches the interface descriptor  for the endpoint descriptor associated with the caller-specified pipe. If the endpoint is found, the function populates the caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/winusbio/ns-winusbio-winusb_pipe_information">WINUSB_PIPE_INFORMATION</a> structure with information from the endpoint descriptor. 
 
 
 
@@ -152,7 +152,7 @@ Each interface on the USB device can have multiple endpoints. To communicate wit
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusbio/ns-winusbio-_winusb_pipe_information">WINUSB_PIPE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusbio/ns-winusbio-winusb_pipe_information">WINUSB_PIPE_INFORMATION</a>
 
 
 

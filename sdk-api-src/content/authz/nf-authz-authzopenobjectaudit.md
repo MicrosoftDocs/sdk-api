@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzOpenObjectAudit, AuthzOpenObjectAudit function [Security], _win32_authzopenobjectaudit, authz/AuthzOpenObjectAudit, security.authzopenobjectaudit
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzOpenObjectAudit"
+f1_keywords:
+- authz/AuthzOpenObjectAudit
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
+- Authz.dll
 api_name:
- - AuthzOpenObjectAudit
+- AuthzOpenObjectAudit
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ A handle to the client context of the object to open.
 ### -param pRequest [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_access_request">AUTHZ_ACCESS_REQUEST</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_access_request">AUTHZ_ACCESS_REQUEST</a> structure.
 
 
 ### -param hAuditEvent [in]
@@ -83,12 +83,12 @@ A handle to the audit event to use.
 ### -param pSecurityDescriptor [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure for the object.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure for the object.
 
 
 ### -param OptionalSecurityDescriptorArray [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structures.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structures.
 
 
 ### -param OptionalSecurityDescriptorCount [in]
@@ -101,7 +101,7 @@ The number of elements in <i>SecurityDescriptorArray</i>.
 ### -param pReply [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_access_reply">AUTHZ_ACCESS_REPLY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_access_reply">AUTHZ_ACCESS_REPLY</a> structure.
 
 
 ## -returns

@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: 907e6c38-5eaa-49da-9dc0-d055dcc69d1a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEVENT_DESCRIPTOR, EVENT_DESCRIPTOR, EVENT_DESCRIPTOR structure [ETW], PCEVENT_DESCRIPTOR, PCEVENT_DESCRIPTOR structure pointer [ETW], PEVENT_DESCRIPTOR, PEVENT_DESCRIPTOR structure pointer [ETW], _EVENT_DESCRIPTOR, base.event_descriptor, etw.event_descriptor, relogger/EVENT_DESCRIPTOR, relogger/PCEVENT_DESCRIPTOR, relogger/PEVENT_DESCRIPTOR"
+ms.keywords: '*PEVENT_DESCRIPTOR, EVENT_DESCRIPTOR, EVENT_DESCRIPTOR structure [ETW], PCEVENT_DESCRIPTOR, PCEVENT_DESCRIPTOR structure pointer [ETW], PEVENT_DESCRIPTOR, PEVENT_DESCRIPTOR structure pointer [ETW], _EVENT_DESCRIPTOR, base.event_descriptor, etw.event_descriptor, relogger/EVENT_DESCRIPTOR, relogger/PCEVENT_DESCRIPTOR, relogger/PEVENT_DESCRIPTOR'
 ms.topic: struct
-f1_keywords: 
- - "evntprov/EVENT_DESCRIPTOR"
+f1_keywords:
+- evntprov/EVENT_DESCRIPTOR
 req.header: evntprov.h
 req.include-header: Evntprov.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - relogger.h
+- relogger.h
 api_name:
- - EVENT_DESCRIPTOR
+- EVENT_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.typenames: EVENT_DESCRIPTOR, *PEVENT_DESCRIPTOR
@@ -104,7 +104,7 @@ For details on the members of this structure, see the attributes of the <a href=
 
  You specify this structure when calling <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a> or <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a> to write the event. You can also use it when calling <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventenabled">EventEnabled</a> to determine if you should write the event.
 
-This structure is also included in the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header">EVENT_HEADER</a> structure that is returned with the event record when you consume events using the <a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> callback. For MOF-defined events, the <b>Opcode</b> member contains the event type value. The <b>Version</b> and <b>Level</b> members contain the expected information.
+This structure is also included in the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_HEADER</a> structure that is returned with the event record when you consume events using the <a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> callback. For MOF-defined events, the <b>Opcode</b> member contains the event type value. The <b>Version</b> and <b>Level</b> members contain the expected information.
 
 
 
@@ -114,7 +114,7 @@ This structure is also included in the <a href="https://docs.microsoft.com/windo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header">EVENT_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_HEADER</a>
 
 
 
@@ -198,7 +198,7 @@ This structure is also included in the <a href="https://docs.microsoft.com/windo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_provider_event_info">PROVIDER_EVENT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-provider_event_info">PROVIDER_EVENT_INFO</a>
 
 
 

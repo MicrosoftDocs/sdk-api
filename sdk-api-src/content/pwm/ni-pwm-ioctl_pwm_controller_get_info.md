@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_GET_INFO, IOCTL_PWM_CONTROLLER_GET_INFO control, IOCTL_PWM_CONTROLLER_GET_INFO control code, base.ioctl_pwm_controller_get_info, pwm/IOCTL_PWM_CONTROLLER_GET_INFO
 ms.topic: ioctl
-f1_keywords: 
- - "pwm/IOCTL_PWM_CONTROLLER_GET_INFO"
+f1_keywords:
+- pwm/IOCTL_PWM_CONTROLLER_GET_INFO
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pwm.h
+- Pwm.h
 api_name:
- - IOCTL_PWM_CONTROLLER_GET_INFO
+- IOCTL_PWM_CONTROLLER_GET_INFO
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,12 +74,12 @@ Not used with this operation; set to zero.
 
 ### -output-buffer
 
-A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-_pwm_controller_info">PWM_CONTROLLER_INFO</a> struct. This represents the static information that characterizes a Pulse Width Modulation (PWM) controller.  
+A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-pwm_controller_info">PWM_CONTROLLER_INFO</a> struct. This represents the static information that characterizes a Pulse Width Modulation (PWM) controller.  
 
 
 ### -output-buffer-length
 
-The size of the output buffer must be exactly equal to the size of the requested <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-_pwm_controller_info">PWM_CONTROLLER_INFO</a> struct. Every newer PWM_CONTROLLER_INFO version has a byte size that is greater than that of the previous version.
+The size of the output buffer must be exactly equal to the size of the requested <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-pwm_controller_info">PWM_CONTROLLER_INFO</a> struct. Every newer PWM_CONTROLLER_INFO version has a byte size that is greater than that of the previous version.
 
 
 ### -in-out-buffer
@@ -186,7 +186,7 @@ Not used with this operation; set to zero.
 
 </td>
 <td width="60%">
-A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-_pwm_controller_info">PWM_CONTROLLER_INFO</a> struct. This represents the static information that characterizes a Pulse Width Modulation (PWM) controller.  
+A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-pwm_controller_info">PWM_CONTROLLER_INFO</a> struct. This represents the static information that characterizes a Pulse Width Modulation (PWM) controller.  
 
 </td>
 </tr>
@@ -196,7 +196,7 @@ A pointer to a buffer that contains a <a href="https://docs.microsoft.com/window
 
 </td>
 <td width="60%">
-The size of the output buffer must be exactly equal to the size of the requested <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-_pwm_controller_info">PWM_CONTROLLER_INFO</a> struct. Every newer PWM_CONTROLLER_INFO version has a byte size that is greater than that of the previous version.
+The size of the output buffer must be exactly equal to the size of the requested <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ns-pwm-pwm_controller_info">PWM_CONTROLLER_INFO</a> struct. Every newer PWM_CONTROLLER_INFO version has a byte size that is greater than that of the previous version.
 
 </td>
 </tr>
@@ -236,7 +236,7 @@ If <i>lpOverlapped</i> is not <b>NULL</b>,
 
 </td>
 <td width="60%">
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 If <i>hDevice</i> was opened without specifying 
        <b>FILE_FLAG_OVERLAPPED</b>, <i>lpOverlapped</i> is ignored.
@@ -244,7 +244,7 @@ If <i>hDevice</i> was opened without specifying
 If <i>hDevice</i> was opened with the <b>FILE_FLAG_OVERLAPPED</b> flag, 
        the operation is performed as an overlapped (asynchronous) operation. In this case, 
        <i>lpOverlapped</i> must point to a valid 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure that contains a handle to an 
+       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that contains a handle to an 
        event object. Otherwise, the function fails in unpredictable ways.
 
 For overlapped operations, <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 

@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 591bd4d4-5062-4282-84fc-f7e02e9592e7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA structure [Security], PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA structure pointer [Security], WTPF_ALLOWONLYPERTRUST, WTPF_IGNOREEXPIRATION, WTPF_IGNOREREVOCATIONONTS, WTPF_IGNOREREVOKATION, WTPF_OFFLINEOKNBU_COM, WTPF_OFFLINEOKNBU_IND, WTPF_OFFLINEOK_COM, WTPF_OFFLINEOK_IND, WTPF_TESTCANBEVALID, WTPF_TRUSTTEST, WTPF_VERIFY_V1_OFF, _crypto2_authenticode_extra_cert_chain_policy_para, security.authenticode_extra_cert_chain_policy_para, wincrypt/AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, wincrypt/PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA"
+ms.keywords: '*PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA structure [Security], PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA structure pointer [Security], WTPF_ALLOWONLYPERTRUST, WTPF_IGNOREEXPIRATION, WTPF_IGNOREREVOCATIONONTS, WTPF_IGNOREREVOKATION, WTPF_OFFLINEOKNBU_COM, WTPF_OFFLINEOKNBU_IND, WTPF_OFFLINEOK_COM, WTPF_OFFLINEOK_IND, WTPF_TESTCANBEVALID, WTPF_TRUSTTEST, WTPF_VERIFY_V1_OFF, _crypto2_authenticode_extra_cert_chain_policy_para, security.authenticode_extra_cert_chain_policy_para, wincrypt/AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, wincrypt/PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA"
+f1_keywords:
+- wincrypt/AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA
+- AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA
 product: Windows
 targetos: Windows
 req.typenames: AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, *PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA
@@ -195,5 +195,5 @@ Allow only items in personal trust database.
 ### -field pSignerInfo
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signer_info">CMSG_SIGNER_INFO</a> structure that contains information on the signer of the file.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_info">CMSG_SIGNER_INFO</a> structure that contains information on the signer of the file.
 

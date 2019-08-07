@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWLX_GET_SOURCE_DESKTOP, PWLX_GET_SOURCE_DESKTOP callback, WlxGetSourceDesktop, WlxGetSourceDesktop callback function [Security], _gina_wlxgetsourcedesktop, security.wlxgetsourcedesktop, winwlx/WlxGetSourceDesktop
 ms.topic: callback
-f1_keywords: 
- - "winwlx/WlxGetSourceDesktop"
+f1_keywords:
+- winwlx/WlxGetSourceDesktop
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - winwlx.h
+- winwlx.h
 api_name:
- - WlxGetSourceDesktop
+- WlxGetSourceDesktop
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ Specifies the Winlogon handle passed to GINA in the
 ### -param *ppDesktop [out]
 
 Receives a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_desktop">WLX_DESKTOP</a> structure containing necessary information describing the desktop. This pointer can be freed with 
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_desktop">WLX_DESKTOP</a> structure containing necessary information describing the desktop. This pointer can be freed with 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
 
 
@@ -123,7 +123,7 @@ The call failed.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_desktop">WLX_DESKTOP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_desktop">WLX_DESKTOP</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 7ce801bf-38fd-4490-8465-40ed5078bbff
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_LOGOTYPE_INFO, CERT_LOGOTYPE_DIRECT_INFO_CHOICE, CERT_LOGOTYPE_INDIRECT_INFO_CHOICE, CERT_LOGOTYPE_INFO, CERT_LOGOTYPE_INFO structure [Security], PCERT_LOGOTYPE_INFO, PCERT_LOGOTYPE_INFO structure pointer [Security], security.cert_logotype_info, wincrypt/CERT_LOGOTYPE_INFO, wincrypt/PCERT_LOGOTYPE_INFO"
+ms.keywords: '*PCERT_LOGOTYPE_INFO, CERT_LOGOTYPE_DIRECT_INFO_CHOICE, CERT_LOGOTYPE_INDIRECT_INFO_CHOICE, CERT_LOGOTYPE_INFO, CERT_LOGOTYPE_INFO structure [Security], PCERT_LOGOTYPE_INFO, PCERT_LOGOTYPE_INFO structure pointer [Security], security.cert_logotype_info, wincrypt/CERT_LOGOTYPE_INFO, wincrypt/PCERT_LOGOTYPE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_LOGOTYPE_INFO"
+f1_keywords:
+- wincrypt/CERT_LOGOTYPE_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_LOGOTYPE_INFO
+- CERT_LOGOTYPE_INFO
 product: Windows
 targetos: Windows
 req.typenames: CERT_LOGOTYPE_INFO, *PCERT_LOGOTYPE_INFO
@@ -99,7 +99,7 @@ The logotype data is available through a reference. The <b>pLogotypeIndirectInfo
 
 ### -field DUMMYUNIONNAME.pLogotypeDirectInfo
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_logotype_data">CERT_LOGOTYPE_DATA</a> structure that contains the actual logotype data. This member is only used if the <b>dwLogotypeInfoChoice</b> member contains <b>CERT_LOGOTYPE_DIRECT_INFO_CHOICE</b>.
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_data">CERT_LOGOTYPE_DATA</a> structure that contains the actual logotype data. This member is only used if the <b>dwLogotypeInfoChoice</b> member contains <b>CERT_LOGOTYPE_DIRECT_INFO_CHOICE</b>.
 
 
 ### -field DUMMYUNIONNAME.pLogotypeIndirectInfo
@@ -112,7 +112,7 @@ The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincryp
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_logotype_ext_info">CERT_LOGOTYPE_EXT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_ext_info">CERT_LOGOTYPE_EXT_INFO</a>
  
 
  

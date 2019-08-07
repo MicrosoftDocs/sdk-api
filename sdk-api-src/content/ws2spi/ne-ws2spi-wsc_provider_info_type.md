@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ProviderInfoAudit, ProviderInfoLspCategories, WSC_PROVIDER_INFO_TYPE, WSC_PROVIDER_INFO_TYPE enumeration [Winsock], winsock.wsc_provider_info_type, ws2spi/ProviderInfoAudit, ws2spi/ProviderInfoLspCategories, ws2spi/WSC_PROVIDER_INFO_TYPE
 ms.topic: enum
-f1_keywords: 
- - "ws2spi/WSC_PROVIDER_INFO_TYPE"
+f1_keywords:
+- ws2spi/WSC_PROVIDER_INFO_TYPE
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2spi.h
+- Ws2spi.h
 api_name:
- - WSC_PROVIDER_INFO_TYPE
+- WSC_PROVIDER_INFO_TYPE
 product: Windows
 targetos: Windows
 req.typenames: WSC_PROVIDER_INFO_TYPE
@@ -67,7 +67,7 @@ The LSP category information for a protocol entry in a layered protocol. The inf
 
 ### -field ProviderInfoAudit
 
-The LSP class information for audit information for the LSP entry. The information class should point to a <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wsc_provider_audit_info">WSC_PROVIDER_AUDIT_INFO</a> structure containing an audit record for the LSP.
+The LSP class information for audit information for the LSP entry. The information class should point to a <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wsc_provider_audit_info">WSC_PROVIDER_AUDIT_INFO</a> structure containing an audit record for the LSP.
 
 
 ## -remarks
@@ -75,7 +75,7 @@ The LSP class information for audit information for the LSP entry. The informati
 
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wsc_provider_audit_info">WSC_PROVIDER_AUDIT_INFO</a> structure is not currently used.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wsc_provider_audit_info">WSC_PROVIDER_AUDIT_INFO</a> structure is not currently used.
 
 
 
@@ -101,7 +101,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wsc_provider_audit_info">WSC_PROVIDER_AUDIT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wsc_provider_audit_info">WSC_PROVIDER_AUDIT_INFO</a>
  
 
  

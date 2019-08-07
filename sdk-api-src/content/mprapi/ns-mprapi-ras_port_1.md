@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 4850f08e-13ee-485f-99a5-be4554d6311b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRAS_PORT_1, PRAS_PORT_1, PRAS_PORT_1 structure pointer [RAS], RAS_PORT_1, RAS_PORT_1 structure [RAS], _mpr_ras_port_1, mprapi/PRAS_PORT_1, mprapi/RAS_PORT_1, rras.ras_port_1"
+ms.keywords: '*PRAS_PORT_1, PRAS_PORT_1, PRAS_PORT_1 structure pointer [RAS], RAS_PORT_1, RAS_PORT_1 structure [RAS], _mpr_ras_port_1, mprapi/PRAS_PORT_1, mprapi/RAS_PORT_1, rras.ras_port_1'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/RAS_PORT_1"
+f1_keywords:
+- mprapi/RAS_PORT_1
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - RAS_PORT_1
+- RAS_PORT_1
 product: Windows
 targetos: Windows
 req.typenames: RAS_PORT_1, *PRAS_PORT_1
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>RAS_PORT_1</b> structure contains detailed information regarding a specific RAS port, such as line speed or errors. For more general information about a port, such as port condition or port name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_port_0">RAS_PORT_0</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_port_0">RAS_PORT_0</a>.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ Handle to the connection.
 ### -field dwHardwareCondition
 
 Specifies a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_ras_hardware_condition">RAS_HARDWARE_CONDITION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-ras_hardware_condition">RAS_HARDWARE_CONDITION</a> structure.
 
 
 ### -field dwLineSpeed
@@ -152,11 +152,11 @@ Specifies a percentage indicating the degree to which data transmitted on this c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_ras_hardware_condition">RAS_HARDWARE_CONDITION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-ras_hardware_condition">RAS_HARDWARE_CONDITION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_port_0">RAS_PORT_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_port_0">RAS_PORT_0</a>
 
 
 

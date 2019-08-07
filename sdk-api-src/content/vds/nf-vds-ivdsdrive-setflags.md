@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsDrive interface [VDS],SetFlags method, IVdsDrive.SetFlags, IVdsDrive::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsDrive interface, base.ivdsdrive_setflags, vds/IVdsDrive::SetFlags, vdshwprv/IVdsDrive::SetFlags
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsDrive.SetFlags"
+f1_keywords:
+- vds/IVdsDrive.SetFlags
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsDrive.SetFlags
+- IVdsDrive.SetFlags
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Sets flags of a drive object.
 
 ### -param ulFlags [in]
 
-Flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_drive_flag">VDS_DRIVE_FLAG</a>. Callers can set the <b>VDS_DRF_HOTSPARE</b> flag.
+Flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_drive_flag">VDS_DRIVE_FLAG</a>. Callers can set the <b>VDS_DRF_HOTSPARE</b> flag.
 
 
 ## -returns
@@ -162,7 +162,7 @@ This operation or combination of parameters is not supported by this provider.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_drive_flag">VDS_DRIVE_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_drive_flag">VDS_DRIVE_FLAG</a>
  
 
  

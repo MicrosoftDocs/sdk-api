@@ -8,10 +8,10 @@ tech.root: devio
 ms.assetid: 9fd66f39-06a2-4159-9d1e-4ba84570c510
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPCOMMCONFIG, COMMCONFIG, COMMCONFIG structure, LPCOMMCONFIG, LPCOMMCONFIG structure pointer, _COMMCONFIG, _win32_commconfig_str, base.commconfig_str, winbase/COMMCONFIG, winbase/LPCOMMCONFIG"
+ms.keywords: '*LPCOMMCONFIG, COMMCONFIG, COMMCONFIG structure, LPCOMMCONFIG, LPCOMMCONFIG structure pointer, _COMMCONFIG, _win32_commconfig_str, base.commconfig_str, winbase/COMMCONFIG, winbase/LPCOMMCONFIG'
 ms.topic: struct
-f1_keywords: 
- - "winbase/COMMCONFIG"
+f1_keywords:
+- winbase/COMMCONFIG
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winbase.h
+- Winbase.h
 api_name:
- - COMMCONFIG
+- COMMCONFIG
 product: Windows
 targetos: Windows
 req.typenames: COMMCONFIG, *LPCOMMCONFIG
@@ -76,7 +76,7 @@ Reserved; do not use.
 
 ### -field dcb
 
-The device-control block (<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_dcb">DCB</a>) structure for RS-232 serial devices. A 
+The device-control block (<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a>) structure for RS-232 serial devices. A 
 <b>DCB</b> structure is always present regardless of the port driver subtype specified in the device's 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commprop">COMMPROP</a> structure.
 
@@ -122,7 +122,7 @@ If the provider subtype is PST_RS232 or PST_PARALLELPORT, the <b>wcProviderData<
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_dcb">DCB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a>
 
 
 

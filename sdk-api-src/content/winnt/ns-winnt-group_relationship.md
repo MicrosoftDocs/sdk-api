@@ -8,10 +8,10 @@ tech.root: ProcThread
 ms.assetid: 3529ddef-04c5-4573-877d-c225da684e38
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PGROUP_RELATIONSHIP, GROUP_RELATIONSHIP, GROUP_RELATIONSHIP structure, PGROUP_RELATIONSHIP, PGROUP_RELATIONSHIP structure pointer, _GROUP_RELATIONSHIP, base.group_relationship, winnt/GROUP_RELATIONSHIP, winnt/PGROUP_RELATIONSHIP"
+ms.keywords: '*PGROUP_RELATIONSHIP, GROUP_RELATIONSHIP, GROUP_RELATIONSHIP structure, PGROUP_RELATIONSHIP, PGROUP_RELATIONSHIP structure pointer, _GROUP_RELATIONSHIP, base.group_relationship, winnt/GROUP_RELATIONSHIP, winnt/PGROUP_RELATIONSHIP'
 ms.topic: struct
-f1_keywords: 
- - "winnt/GROUP_RELATIONSHIP"
+f1_keywords:
+- winnt/GROUP_RELATIONSHIP
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - GROUP_RELATIONSHIP
+- GROUP_RELATIONSHIP
 product: Windows
 targetos: Windows
 req.typenames: GROUP_RELATIONSHIP, *PGROUP_RELATIONSHIP
@@ -66,7 +66,7 @@ The maximum number of processor groups on the system.
 
 ### -field ActiveGroupCount
 
-The number of active groups on the system. This member indicates the number of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_group_info">PROCESSOR_GROUP_INFO</a> structures in the <b>GroupInfo</b> array.
+The number of active groups on the system. This member indicates the number of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_group_info">PROCESSOR_GROUP_INFO</a> structures in the <b>GroupInfo</b> array.
 
 
 ### -field Reserved
@@ -76,7 +76,7 @@ This member is reserved.
 
 ### -field GroupInfo
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_group_info">PROCESSOR_GROUP_INFO</a> structures. Each structure represents the number and affinity of processors in an active group on the system.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_group_info">PROCESSOR_GROUP_INFO</a> structures. Each structure represents the number and affinity of processors in an active group on the system.
 
 
 ## -see-also
@@ -88,7 +88,7 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_group_info">PROCESSOR_GROUP_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_group_info">PROCESSOR_GROUP_INFO</a>
 
 
 

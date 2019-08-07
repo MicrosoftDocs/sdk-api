@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateIconIndirect, CreateIconIndirect function [Menus and Other Resources], _win32_CreateIconIndirect, _win32_createiconindirect_cpp, menurc.createiconindirect, winui._win32_createiconindirect, winuser/CreateIconIndirect
 ms.topic: function
-f1_keywords: 
- - "winuser/CreateIconIndirect"
+f1_keywords:
+- winuser/CreateIconIndirect
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - ext-ms-win-ntuser-gui-l1-2-1.dll
- - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
+- User32.dll
+- ext-ms-win-ntuser-gui-l1-2-1.dll
+- Ext-MS-Win-NTUser-Gui-L1-3-0.dll
 api_name:
- - CreateIconIndirect
+- CreateIconIndirect
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an icon or cursor from an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-_iconinfo">ICONINFO</a> structure.
+Creates an icon or cursor from an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a> structure.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Creates an icon or cursor from an <a href="https://docs.microsoft.com/windows/de
 
 Type: <b>PICONINFO</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-_iconinfo">ICONINFO</a> structure the function uses to create the icon or cursor. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a> structure the function uses to create the icon or cursor. 
 
 
 ## -returns
@@ -85,7 +85,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-The system copies the bitmaps in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-_iconinfo">ICONINFO</a> structure before creating the icon or cursor. Because the system may temporarily select the bitmaps in a device context, the <b>hbmMask</b> and <b>hbmColor</b> members of the <b>ICONINFO</b> structure should not already be selected into a device context. The application must continue to manage the original bitmaps and delete them when they are no longer necessary. 
+The system copies the bitmaps in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a> structure before creating the icon or cursor. Because the system may temporarily select the bitmaps in a device context, the <b>hbmMask</b> and <b>hbmColor</b> members of the <b>ICONINFO</b> structure should not already be selected into a device context. The application must continue to manage the original bitmaps and delete them when they are no longer necessary. 
 
 When you are finished using the icon, destroy it using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
 
@@ -105,7 +105,7 @@ When you are finished using the icon, destroy it using the <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-_iconinfo">ICONINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>
 
 
 

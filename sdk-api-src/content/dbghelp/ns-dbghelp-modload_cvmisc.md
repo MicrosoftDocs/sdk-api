@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: 24f1ed20-ef7a-4c7b-9bbe-4aaf26c219e7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMODLOAD_CVMISC, MODLOAD_CVMISC, MODLOAD_CVMISC structure, PMODLOAD_CVMISC, PMODLOAD_CVMISC structure pointer, _MODLOAD_CVMISC, base.modload_cvmisc, dbghelp/MODLOAD_CVMISC, dbghelp/PMODLOAD_CVMISC"
+ms.keywords: '*PMODLOAD_CVMISC, MODLOAD_CVMISC, MODLOAD_CVMISC structure, PMODLOAD_CVMISC, PMODLOAD_CVMISC structure pointer, _MODLOAD_CVMISC, base.modload_cvmisc, dbghelp/MODLOAD_CVMISC, dbghelp/PMODLOAD_CVMISC'
 ms.topic: struct
-f1_keywords: 
- - "dbghelp/MODLOAD_CVMISC"
+f1_keywords:
+- dbghelp/MODLOAD_CVMISC
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - MODLOAD_CVMISC
+- MODLOAD_CVMISC
 product: Windows
 targetos: Windows
 req.typenames: MODLOAD_CVMISC, *PMODLOAD_CVMISC
@@ -94,7 +94,7 @@ The size of the image.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_modload_data">MODLOAD_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-modload_data">MODLOAD_DATA</a>
  
 
  

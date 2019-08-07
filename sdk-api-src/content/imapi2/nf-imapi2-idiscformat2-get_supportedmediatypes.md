@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2 interface [IMAPI],get_SupportedMediaTypes method, IDiscFormat2.get_SupportedMediaTypes, IDiscFormat2::get_SupportedMediaTypes, get_SupportedMediaTypes, get_SupportedMediaTypes method [IMAPI], get_SupportedMediaTypes method [IMAPI],IDiscFormat2 interface, imapi.idiscformat2_get_supportedmediatypes, imapi2/IDiscFormat2::get_SupportedMediaTypes
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2.get_SupportedMediaTypes"
+f1_keywords:
+- imapi2/IDiscFormat2.get_SupportedMediaTypes
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2.get_SupportedMediaTypes
+- IDiscFormat2.get_SupportedMediaTypes
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Retrieves the media types that are supported by the current implementation of th
 
 ### -param value [out]
 
-List of media types supported by the current implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a> interface. Each element of the array is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of <b>VARIANT</b> contains the media type. For a list of media types, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a> enumeration type. 
+List of media types supported by the current implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a> interface. Each element of the array is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of <b>VARIANT</b> contains the media type. For a list of media types, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a> enumeration type. 
 
 
 ## -returns

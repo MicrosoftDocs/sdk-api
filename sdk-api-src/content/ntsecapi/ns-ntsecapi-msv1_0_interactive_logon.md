@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: f9b9a966-54b9-4f89-98cc-d92e3f74571d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMSV1_0_INTERACTIVE_LOGON, MSV1_0_INTERACTIVE_LOGON, MSV1_0_INTERACTIVE_LOGON structure [Security], _lsa_msv1_0_interactive_logon, ntsecapi/MSV1_0_INTERACTIVE_LOGON, security.msv1_0_interactive_logon"
+ms.keywords: '*PMSV1_0_INTERACTIVE_LOGON, MSV1_0_INTERACTIVE_LOGON, MSV1_0_INTERACTIVE_LOGON structure [Security], _lsa_msv1_0_interactive_logon, ntsecapi/MSV1_0_INTERACTIVE_LOGON, security.msv1_0_interactive_logon'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/MSV1_0_INTERACTIVE_LOGON"
+f1_keywords:
+- ntsecapi/MSV1_0_INTERACTIVE_LOGON
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - MSV1_0_INTERACTIVE_LOGON
+- MSV1_0_INTERACTIVE_LOGON
 product: Windows
 targetos: Windows
 req.typenames: MSV1_0_INTERACTIVE_LOGON, *PMSV1_0_INTERACTIVE_LOGON
@@ -65,31 +65,31 @@ It is used by the
 ### -field MessageType
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_msv1_0_logon_submit_type">MSV1_0_LOGON_SUBMIT_TYPE</a> value that specifies the type of logon being requested. This member must be set to <b>MsV1_0InteractiveLogon</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_logon_submit_type">MSV1_0_LOGON_SUBMIT_TYPE</a> value that specifies the type of logon being requested. This member must be set to <b>MsV1_0InteractiveLogon</b>.
 
 
 ### -field LogonDomainName
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> that contains the name of the logon domain. The specified domain name must be a Windows domain or mixed domain that is trusted by this machine.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that contains the name of the logon domain. The specified domain name must be a Windows domain or mixed domain that is trusted by this machine.
 
-The <b>Buffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure must point to memory that is contiguous to the <b>MSV1_0_INTERACTIVE_LOGON</b> structure.
+The <b>Buffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure must point to memory that is contiguous to the <b>MSV1_0_INTERACTIVE_LOGON</b> structure.
 
 
 ### -field UserName
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> that represents the user's account name. The name can be up to 255 bytes long. The name is treated as case-insensitive. The specified <b>UserName</b> must have an account in domain <b>LogonDomainName</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that represents the user's account name. The name can be up to 255 bytes long. The name is treated as case-insensitive. The specified <b>UserName</b> must have an account in domain <b>LogonDomainName</b>.
 
-The <b>Buffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure must point to memory that is contiguous to the <b>MSV1_0_INTERACTIVE_LOGON</b> structure.
+The <b>Buffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure must point to memory that is contiguous to the <b>MSV1_0_INTERACTIVE_LOGON</b> structure.
 
 
 ### -field Password
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> that contains the user's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">plaintext</a> password. The password may be up to 255 bytes long and contain any Unicode value. When you have finished using the password, clear it from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information on protecting the password, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that contains the user's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">plaintext</a> password. The password may be up to 255 bytes long and contain any Unicode value. When you have finished using the password, clear it from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information on protecting the password, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
-The <b>Buffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure must point to memory that is contiguous to the <b>MSV1_0_INTERACTIVE_LOGON</b> structure.
+The <b>Buffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure must point to memory that is contiguous to the <b>MSV1_0_INTERACTIVE_LOGON</b> structure.
 
 
 ## -see-also
@@ -97,7 +97,7 @@ The <b>Buffer</b> member of the <a href="https://docs.microsoft.com/windows/desk
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_msv1_0_logon_submit_type">MSV1_0_LOGON_SUBMIT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_logon_submit_type">MSV1_0_LOGON_SUBMIT_TYPE</a>
  
 
  

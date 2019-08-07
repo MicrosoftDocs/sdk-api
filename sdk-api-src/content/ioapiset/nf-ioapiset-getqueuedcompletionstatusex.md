@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetQueuedCompletionStatusEx, GetQueuedCompletionStatusEx function [Files], fs.getqueuedcompletionstatusex_func, ioapiset/GetQueuedCompletionStatusEx, winbase/GetQueuedCompletionStatusEx
 ms.topic: function
-f1_keywords: 
- - "ioapiset/GetQueuedCompletionStatusEx"
+f1_keywords:
+- ioapiset/GetQueuedCompletionStatusEx
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-io-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-io-l1-1-1.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-io-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-io-l1-1-1.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
 api_name:
- - GetQueuedCompletionStatusEx
+- GetQueuedCompletionStatusEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -77,9 +77,9 @@ A handle to the completion port. To create a completion port, use the
 ### -param lpCompletionPortEntries [out]
 
 On input, points to a pre-allocated array of 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped_entry">OVERLAPPED_ENTRY</a> structures.
+       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped_entry">OVERLAPPED_ENTRY</a> structures.
 
-On output, receives an array of <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped_entry">OVERLAPPED_ENTRY</a> 
+On output, receives an array of <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped_entry">OVERLAPPED_ENTRY</a> 
        structures that hold the entries. The number of array elements is provided by 
        <i>ulNumEntriesRemoved</i>.
 
@@ -148,7 +148,7 @@ This function returns <b>TRUE</b> when at least one pending I/O is completed, bu
      list of returned entries in the <i>lpCompletionPortEntries</i> parameter to determine which of 
      them correspond to any possible failed I/O operations by looking at the status contained in the 
      <b>lpOverlapped</b> member in each 
-     <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped_entry">OVERLAPPED_ENTRY</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped_entry">OVERLAPPED_ENTRY</a>.
 
 This function returns <b>FALSE</b> when no I/O operation was dequeued. This typically means 
      that an error occurred while processing the parameters to this call, or that the 

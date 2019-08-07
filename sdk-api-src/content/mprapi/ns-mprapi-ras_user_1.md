@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 4699346e-0ed0-4091-a8d5-8a12cd6bfbcf
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRAS_USER_1, PRAS_USER_1, PRAS_USER_1 structure pointer [RAS], RASPRIV2_DialinPolicy, RASPRIV_AdminSetCallback, RASPRIV_CallerSetCallback, RASPRIV_DialinPrivilege, RASPRIV_NoCallback, RAS_USER_1, RAS_USER_1 structure [RAS], _mpr_ras_user_1, mprapi/PRAS_USER_1, mprapi/RAS_USER_1, rras.ras_user_1"
+ms.keywords: '*PRAS_USER_1, PRAS_USER_1, PRAS_USER_1 structure pointer [RAS], RASPRIV2_DialinPolicy, RASPRIV_AdminSetCallback, RASPRIV_CallerSetCallback, RASPRIV_DialinPrivilege, RASPRIV_NoCallback, RAS_USER_1, RAS_USER_1 structure [RAS], _mpr_ras_user_1, mprapi/PRAS_USER_1, mprapi/RAS_USER_1, rras.ras_user_1'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/RAS_USER_1"
+f1_keywords:
+- mprapi/RAS_USER_1
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - RAS_USER_1
+- RAS_USER_1
 product: Windows
 targetos: Windows
 req.typenames: RAS_USER_1, *PRAS_USER_1
@@ -54,7 +54,7 @@ ms.custom: 19H1
 The 
 <b>RAS_USER_1</b> structure contains information for a particular Remote Access Service user. The 
 <b>RAS_USER_1</b> structure is similar to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_user_0">RAS_USER_0</a> structure, except that 
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_user_0">RAS_USER_0</a> structure, except that 
 <b>RAS_USER_1</b> supports an additional member, <b>bfPrivilege2</b>.
 
 
@@ -181,7 +181,7 @@ Remote access policies determine whether the user is allowed dial-in access.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_user_0">RAS_USER_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_user_0">RAS_USER_0</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAGetOverlappedResult, WSAGetOverlappedResult function [Winsock], _win32_wsagetoverlappedresult_2, winsock.wsagetoverlappedresult_2, winsock2/WSAGetOverlappedResult
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSAGetOverlappedResult"
+f1_keywords:
+- winsock2/WSAGetOverlappedResult
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSAGetOverlappedResult
+- WSAGetOverlappedResult
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ any of the Winsock functions that supports overlappped operations. These functio
 ### -param lpOverlapped [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure that was specified when the overlapped operation was started. This parameter must not be a <b>NULL</b> pointer.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure that was specified when the overlapped operation was started. This parameter must not be a <b>NULL</b> pointer.
 
 
 ### -param lpcbTransfer [out]
@@ -156,7 +156,7 @@ The descriptor is not a socket.
 </td>
 <td width="60%">
 The <i>hEvent</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure does not contain a valid event object handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure does not contain a valid event object handle.
 
 </td>
 </tr>
@@ -206,14 +206,14 @@ One or more of the <i>lpOverlapped</i>, <i>lpcbTransfer</i>, or <i>lpdwFlags</i>
 The 
 <b>WSAGetOverlappedResult</b> function reports the results of the overlapped operation specified in the <i>lpOverlapped</i> parameter for the socket specified in the <i>s</i> parameter. The 
 <b>WSAGetOverlappedResult</b> function is passed the socket descriptor and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure that was specified when the overlapped function was called. A pending operation is indicated when the function that started the operation returns <b>FALSE</b> and the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure that was specified when the overlapped function was called. A pending operation is indicated when the function that started the operation returns <b>FALSE</b> and the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function returns <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_IO_PENDING</a>. When an I/O operation such as 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a> is pending, the function that started the operation resets the <i>hEvent</i> member of the 
 <b>WSAOVERLAPPED</b> structure to the nonsignaled state. Then, when the pending operation has completed, the system sets the event object to the signaled state.
 
 If the <i>fWait</i> parameter is <b>TRUE</b>, 
 <b>WSAGetOverlappedResult</b> determines whether the pending operation has been completed by waiting for the event object to be in the signaled state. A client may set the <i>fWait</i> parameter to <b>TRUE</b>, but only if it selected event-based completion notification when the I/O operation was requested. If another form of notification was selected, the usage of the <i>hEvent</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure is different, and setting <i>fWait</i> to <b>TRUE</b> causes unpredictable results.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure is different, and setting <i>fWait</i> to <b>TRUE</b> causes unpredictable results.
 
 If the <b>WSAGetOverlappedResult</b> function is called with the <i>lpOverlapped</i>, <i>lpcbTransfer</i>, or <i>lpdwFlags</i> parameter  set to a <b>NULL</b> pointer on Windows Vista, this will result in an access violation. If the <b>WSAGetOverlappedResult</b> function is called with the <i>lpOverlapped</i>, <i>lpcbTransfer</i>, or <i>lpdwFlags</i> parameter  set to a <b>NULL</b> pointer on Windows Server 2003 and earlier, this will result in the <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a> error code being returned.  
 

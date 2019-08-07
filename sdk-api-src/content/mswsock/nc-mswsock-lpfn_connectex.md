@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPFN_CONNECTEX, LPFN_CONNECTEX callback, LPFN_CONNECTEX callback function [Winsock], _win32_connectex_2, mswsock/LPFN_CONNECTEX, winsock.connectex_2
 ms.topic: callback
-f1_keywords: 
- - "mswsock/LPFN_CONNECTEX"
+f1_keywords:
+- mswsock/LPFN_CONNECTEX
 req.header: mswsock.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mswsock.h
+- Mswsock.h
 api_name:
- - LPFN_CONNECTEX
+- LPFN_CONNECTEX
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -97,7 +97,7 @@ On successful return, this parameter points to a <b>DWORD</b> value that indicat
 ### -param lpOverlapped [in]
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure used to process the request. The <i>lpOverlapped</i> parameter must be specified, and cannot be <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure used to process the request. The <i>lpOverlapped</i> parameter must be specified, and cannot be <b>NULL</b>.
 
 
 ## -returns
@@ -488,7 +488,7 @@ This registry setting can be set from 0 to 300 seconds.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 

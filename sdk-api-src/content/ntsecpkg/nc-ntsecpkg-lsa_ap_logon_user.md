@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LSA_AP_LOGON_USER, LSA_AP_LOGON_USER callback, LsaApLogonUser, LsaApLogonUser callback function [Security], STATUS_ACCOUNT_DISABLED, STATUS_INVALID_LOGON_HOURS, STATUS_INVALID_WORKSTATION, STATUS_PASSWORD_EXPIRED, _lsa_lsaaplogonuser, ntsecpkg/LsaApLogonUser, security.lsaaplogonuser
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/LsaApLogonUser"
+f1_keywords:
+- ntsecpkg/LsaApLogonUser
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - LsaApLogonUser
+- LsaApLogonUser
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -114,7 +114,7 @@ Pointer to a <b>ULONG</b> that receives the length of the <i>ProfileBuffer</i> b
 ### -param LogonId [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> that receives the new logon ID that uniquely identifies this logon session. The authentication package is responsible for allocating this <b>LUID</b>, and creating the logon session for this logon.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> that receives the new logon ID that uniquely identifies this logon session. The authentication package is responsible for allocating this <b>LUID</b>, and creating the logon session for this logon.
 
 
 ### -param SubStatus [out]
@@ -183,7 +183,7 @@ The
 ### -param TokenInformationType [out]
 
 Pointer that receives the address of an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-_lsa_token_information_type">LSA_TOKEN_INFORMATION_TYPE</a> value that indicates the type of information returned for inclusion in the token to be created. The information is returned in the <i>TokenInformation</i> buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-lsa_token_information_type">LSA_TOKEN_INFORMATION_TYPE</a> value that indicates the type of information returned for inclusion in the token to be created. The information is returned in the <i>TokenInformation</i> buffer.
 
 
 ### -param *TokenInformation [out]
@@ -306,7 +306,7 @@ Authentication packages must implement one of the following functions: <b>LsaApL
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-_lsa_token_information_type">LSA_TOKEN_INFORMATION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-lsa_token_information_type">LSA_TOKEN_INFORMATION_TYPE</a>
 
 
 

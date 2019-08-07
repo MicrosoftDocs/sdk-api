@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SECPKG_CRED_INBOUND, SECPKG_CRED_OUTBOUND, SpAddCredentials, SpAddCredentials callback function [Security], SpAddCredentialsFn, SpAddCredentialsFn callback, _ssp_spaddcredentials, ntsecpkg/SpAddCredentials, security.spaddcredentials
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/SpAddCredentials"
+f1_keywords:
+- ntsecpkg/SpAddCredentials
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SpAddCredentials
+- SpAddCredentials
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,13 +67,13 @@ A handle to the credential to add.
 ### -param PrincipalName [in]
 
 Optional. Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure containing the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal</a> whose credentials are being added.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure containing the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal</a> whose credentials are being added.
 
 
 ### -param Package [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure containing the name of the authenticating package.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure containing the name of the authenticating package.
 
 
 ### -param CredentialUseFlags [in]

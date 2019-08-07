@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_DH_PRIVATE_BLOB, BCRYPT_DH_PUBLIC_BLOB, BCRYPT_DSA_PRIVATE_BLOB, BCRYPT_DSA_PUBLIC_BLOB, BCRYPT_ECCPRIVATE_BLOB, BCRYPT_ECCPUBLIC_BLOB, BCRYPT_NO_KEY_VALIDATION, BCRYPT_PRIVATE_KEY_BLOB, BCRYPT_PUBLIC_KEY_BLOB, BCRYPT_RSAPRIVATE_BLOB, BCRYPT_RSAPUBLIC_BLOB, BCryptImportKeyPair, BCryptImportKeyPair function [Security], LEGACY_DH_PRIVATE_BLOB, LEGACY_DH_PUBLIC_BLOB, LEGACY_DSA_PRIVATE_BLOB, LEGACY_DSA_PUBLIC_BLOB, LEGACY_DSA_V2_PRIVATE_BLOB, LEGACY_RSAPRIVATE_BLOB, LEGACY_RSAPUBLIC_BLOB, bcrypt/BCryptImportKeyPair, security.bcryptimportkeypair
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptImportKeyPair"
+f1_keywords:
+- bcrypt/BCryptImportKeyPair
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
- - Ksecdd.sys
+- Bcrypt.dll
+- Ksecdd.sys
 api_name:
- - BCryptImportKeyPair
+- BCryptImportKeyPair
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -85,7 +85,7 @@ A null-terminated Unicode string that contains an identifier that specifies the 
 </dl>
 </td>
 <td width="60%">
-The BLOB is a Diffie-Hellman public/private key pair BLOB. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dh_key_blob">BCRYPT_DH_KEY_BLOB</a> structure immediately followed by the key data.
+The BLOB is a Diffie-Hellman public/private key pair BLOB. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dh_key_blob">BCRYPT_DH_KEY_BLOB</a> structure immediately followed by the key data.
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ The BLOB is a Diffie-Hellman public/private key pair BLOB. The <i>pbInput</i> bu
 </dl>
 </td>
 <td width="60%">
-The BLOB is a Diffie-Hellman <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key BLOB</a>. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dh_key_blob">BCRYPT_DH_KEY_BLOB</a> structure immediately followed by the key data.
+The BLOB is a Diffie-Hellman <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key BLOB</a>. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dh_key_blob">BCRYPT_DH_KEY_BLOB</a> structure immediately followed by the key data.
 
 </td>
 </tr>
@@ -105,9 +105,9 @@ The BLOB is a Diffie-Hellman <a href="https://docs.microsoft.com/windows/desktop
 </dl>
 </td>
 <td width="60%">
-The BLOB is a DSA public/private key pair BLOB. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_key_blob">BCRYPT_DSA_KEY_BLOB</a> or <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a> structure immediately followed by the key data. <b>BCRYPT_DSA_KEY_BLOB</b> is used for key lengths from 512 to 1024 bits. <b>BCRYPT_DSA_KEY_BLOB_V2</b> is used for key lengths that exceed 1024 bits but are less than or equal to 3072 bits.
+The BLOB is a DSA public/private key pair BLOB. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob">BCRYPT_DSA_KEY_BLOB</a> or <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a> structure immediately followed by the key data. <b>BCRYPT_DSA_KEY_BLOB</b> is used for key lengths from 512 to 1024 bits. <b>BCRYPT_DSA_KEY_BLOB_V2</b> is used for key lengths that exceed 1024 bits but are less than or equal to 3072 bits.
 
-<b>Windows 8:  </b>Support for <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a> begins.
+<b>Windows 8:  </b>Support for <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a> begins.
 
 </td>
 </tr>
@@ -117,9 +117,9 @@ The BLOB is a DSA public/private key pair BLOB. The <i>pbInput</i> buffer must c
 </dl>
 </td>
 <td width="60%">
-The BLOB is a DSA public key BLOB. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_key_blob">BCRYPT_DSA_KEY_BLOB</a> or <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a> structure immediately followed by the key data. <b>BCRYPT_DSA_KEY_BLOB</b> is used for key lengths from 512 to 1024 bits. <b>BCRYPT_DSA_KEY_BLOB_V2</b> is used for key lengths that exceed 1024 bits but are less than or equal to 3072 bits.
+The BLOB is a DSA public key BLOB. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob">BCRYPT_DSA_KEY_BLOB</a> or <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a> structure immediately followed by the key data. <b>BCRYPT_DSA_KEY_BLOB</b> is used for key lengths from 512 to 1024 bits. <b>BCRYPT_DSA_KEY_BLOB_V2</b> is used for key lengths that exceed 1024 bits but are less than or equal to 3072 bits.
 
-<b>Windows 8:  </b>Support for <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a> begins.
+<b>Windows 8:  </b>Support for <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a> begins.
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ The BLOB is a DSA public key BLOB. The <i>pbInput</i> buffer must contain a <a h
 </dl>
 </td>
 <td width="60%">
-The BLOB is an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">elliptic curve cryptography</a> (ECC) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_ecckey_blob">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data. 
+The BLOB is an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">elliptic curve cryptography</a> (ECC) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_ecckey_blob">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data. 
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ The BLOB is an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gl
 </dl>
 </td>
 <td width="60%">
-The BLOB is an ECC public key. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_ecckey_blob">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data.
+The BLOB is an ECC public key. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_ecckey_blob">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data.
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ The BLOB is an ECC public key. The <i>pbInput</i> buffer must contain a <a href=
 </dl>
 </td>
 <td width="60%">
-The BLOB is a generic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> of any type. The type of key in this BLOB is determined by the <b>Magic</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_key_blob">BCRYPT_KEY_BLOB</a> structure.
+The BLOB is a generic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> of any type. The type of key in this BLOB is determined by the <b>Magic</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_key_blob">BCRYPT_KEY_BLOB</a> structure.
 
 </td>
 </tr>
@@ -159,7 +159,7 @@ The BLOB is a generic <a href="https://docs.microsoft.com/windows/desktop/SecGlo
 </dl>
 </td>
 <td width="60%">
-The BLOB is a generic private key of any type. The private key does not necessarily contain the public key. The type of key in this BLOB is determined by the <b>Magic</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_key_blob">BCRYPT_KEY_BLOB</a> structure.
+The BLOB is a generic private key of any type. The private key does not necessarily contain the public key. The type of key in this BLOB is determined by the <b>Magic</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_key_blob">BCRYPT_KEY_BLOB</a> structure.
 
 </td>
 </tr>
@@ -169,7 +169,7 @@ The BLOB is a generic private key of any type. The private key does not necessar
 </dl>
 </td>
 <td width="60%">
-The BLOB is an RSA public/private key pair BLOB. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data.
+The BLOB is an RSA public/private key pair BLOB. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data.
 
 </td>
 </tr>
@@ -179,7 +179,7 @@ The BLOB is an RSA public/private key pair BLOB. The <i>pbInput</i> buffer must 
 </dl>
 </td>
 <td width="60%">
-The BLOB is an RSA public key BLOB. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data.
+The BLOB is an RSA public key BLOB. The <i>pbInput</i> buffer must contain a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_rsakey_blob">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data.
 
 </td>
 </tr>

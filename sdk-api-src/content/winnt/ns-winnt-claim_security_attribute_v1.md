@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: FDBB9B00-01C3-474A-81FF-97C5CBA3261B
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCLAIM_SECURITY_ATTRIBUTE_V1, CLAIM_SECURITY_ATTRIBUTE_DISABLED, CLAIM_SECURITY_ATTRIBUTE_DISABLED_BY_DEFAULT, CLAIM_SECURITY_ATTRIBUTE_MANDATORY, CLAIM_SECURITY_ATTRIBUTE_NON_INHERITABLE, CLAIM_SECURITY_ATTRIBUTE_TYPE_BOOLEAN, CLAIM_SECURITY_ATTRIBUTE_TYPE_FQBN, CLAIM_SECURITY_ATTRIBUTE_TYPE_INT64, CLAIM_SECURITY_ATTRIBUTE_TYPE_OCTET_STRING, CLAIM_SECURITY_ATTRIBUTE_TYPE_SID, CLAIM_SECURITY_ATTRIBUTE_TYPE_STRING, CLAIM_SECURITY_ATTRIBUTE_TYPE_UINT64, CLAIM_SECURITY_ATTRIBUTE_USE_FOR_DENY_ONLY, CLAIM_SECURITY_ATTRIBUTE_V1, CLAIM_SECURITY_ATTRIBUTE_V1 structure [Security], CLAIM_SECURITY_ATTRIBUTE_VALUE_CASE_SENSITIVE, PCLAIM_SECURITY_ATTRIBUTE_V1, PCLAIM_SECURITY_ATTRIBUTE_V1 structure pointer [Security], _CLAIM_SECURITY_ATTRIBUTE_V1, security.claim_security_attribute_v1, winnt/CLAIM_SECURITY_ATTRIBUTE_V1, winnt/PCLAIM_SECURITY_ATTRIBUTE_V1"
+ms.keywords: '*PCLAIM_SECURITY_ATTRIBUTE_V1, CLAIM_SECURITY_ATTRIBUTE_DISABLED, CLAIM_SECURITY_ATTRIBUTE_DISABLED_BY_DEFAULT, CLAIM_SECURITY_ATTRIBUTE_MANDATORY, CLAIM_SECURITY_ATTRIBUTE_NON_INHERITABLE, CLAIM_SECURITY_ATTRIBUTE_TYPE_BOOLEAN, CLAIM_SECURITY_ATTRIBUTE_TYPE_FQBN, CLAIM_SECURITY_ATTRIBUTE_TYPE_INT64, CLAIM_SECURITY_ATTRIBUTE_TYPE_OCTET_STRING, CLAIM_SECURITY_ATTRIBUTE_TYPE_SID, CLAIM_SECURITY_ATTRIBUTE_TYPE_STRING, CLAIM_SECURITY_ATTRIBUTE_TYPE_UINT64, CLAIM_SECURITY_ATTRIBUTE_USE_FOR_DENY_ONLY, CLAIM_SECURITY_ATTRIBUTE_V1, CLAIM_SECURITY_ATTRIBUTE_V1 structure [Security], CLAIM_SECURITY_ATTRIBUTE_VALUE_CASE_SENSITIVE, PCLAIM_SECURITY_ATTRIBUTE_V1, PCLAIM_SECURITY_ATTRIBUTE_V1 structure pointer [Security], _CLAIM_SECURITY_ATTRIBUTE_V1, security.claim_security_attribute_v1, winnt/CLAIM_SECURITY_ATTRIBUTE_V1, winnt/PCLAIM_SECURITY_ATTRIBUTE_V1'
 ms.topic: struct
-f1_keywords: 
- - "winnt/CLAIM_SECURITY_ATTRIBUTE_V1"
+f1_keywords:
+- winnt/CLAIM_SECURITY_ATTRIBUTE_V1
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - CLAIM_SECURITY_ATTRIBUTE_V1
+- CLAIM_SECURITY_ATTRIBUTE_V1
 product: Windows
 targetos: Windows
 req.typenames: CLAIM_SECURITY_ATTRIBUTE_V1, *PCLAIM_SECURITY_ATTRIBUTE_V1
@@ -113,7 +113,7 @@ The <b>Values</b> member refers to an array of pointers to Unicode string values
 </dl>
 </td>
 <td width="60%">
-The <b>Values</b> member refers to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_claim_security_attribute_fqbn_value">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a> values.
+The <b>Values</b> member refers to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-claim_security_attribute_fqbn_value">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a> values.
 
 </td>
 </tr>
@@ -265,7 +265,7 @@ Pointer to an array of <b>ValueCount</b> members where each member is  a <b>PWST
 
 ### -field Values.pFqbn
 
-Pointer to an array of <b>ValueCount</b> members where each member is a fully qualified binary name value of type <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_claim_security_attribute_fqbn_value">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a>.
+Pointer to an array of <b>ValueCount</b> members where each member is a fully qualified binary name value of type <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-claim_security_attribute_fqbn_value">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a>.
 
 
 ### -field Values.pOctetString
@@ -278,7 +278,7 @@ Pointer to an array of <b>ValueCount</b> members where each member is  an octet 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_claim_security_attributes_information">CLAIM_SECURITY_ATTRIBUTES_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-claim_security_attributes_information">CLAIM_SECURITY_ATTRIBUTES_INFORMATION</a>
  
 
  

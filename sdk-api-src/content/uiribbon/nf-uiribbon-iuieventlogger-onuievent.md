@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIEventLogger interface [Windows Ribbon],OnUIEvent method, IUIEventLogger.OnUIEvent, IUIEventLogger::OnUIEvent, OnUIEvent, OnUIEvent method [Windows Ribbon], OnUIEvent method [Windows Ribbon],IUIEventLogger interface, uiribbon/IUIEventLogger::OnUIEvent, windowsribbon.onuievent
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUIEventLogger.OnUIEvent"
+f1_keywords:
+- uiribbon/IUIEventLogger.OnUIEvent
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiribbon.h
+- Uiribbon.h
 api_name:
- - IUIEventLogger.OnUIEvent
+- IUIEventLogger.OnUIEvent
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -86,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ns-uiribbon-_ui_eventparams">UI_EVENTPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ns-uiribbon-ui_eventparams">UI_EVENTPARAMS</a>
 
 
 

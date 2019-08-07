@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_VIEW_TYPE, MMC_VIEW_TYPE enumeration [MMC], MMC_VIEW_TYPE_HTML, MMC_VIEW_TYPE_LIST, MMC_VIEW_TYPE_OCX, _slate_mmc_view_type, mmc.mmc_view_type, mmc/MMC_VIEW_TYPE, mmc/MMC_VIEW_TYPE_HTML, mmc/MMC_VIEW_TYPE_LIST, mmc/MMC_VIEW_TYPE_OCX
 ms.topic: enum
-f1_keywords: 
- - "mmc/MMC_VIEW_TYPE"
+f1_keywords:
+- mmc/MMC_VIEW_TYPE
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - MMC_VIEW_TYPE
+- MMC_VIEW_TYPE
 product: Windows
 targetos: Windows
 req.typenames: MMC_VIEW_TYPE
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>MMC_VIEW_TYPE</b> enumeration specifies a result view type and is used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_result_view_type_info">RESULT_VIEW_TYPE_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-result_view_type_info">RESULT_VIEW_TYPE_INFO</a> structure.
 
 
 ## -enum-fields
@@ -81,7 +81,7 @@ The view type is a control view.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_result_view_type_info">RESULT_VIEW_TYPE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-result_view_type_info">RESULT_VIEW_TYPE_INFO</a>
  
 
  

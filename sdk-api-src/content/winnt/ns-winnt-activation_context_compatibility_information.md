@@ -8,10 +8,10 @@ tech.root: SbsCs
 ms.assetid: d8c1ef4a-8e64-45bd-a185-b4af7932a0d2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION structure [Setup API], PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION structure pointer [Setup API], _ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, setup.activation_context_compatibility_information, winnt/ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, winnt/PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION"
+ms.keywords: '*PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION structure [Setup API], PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION structure pointer [Setup API], _ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, setup.activation_context_compatibility_information, winnt/ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, winnt/PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winnt/ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION"
+f1_keywords:
+- winnt/ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION
+- ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, *PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION
@@ -67,7 +67,7 @@ The number of compatibility elements defined in the application manifest.
 
 ### -field Elements
 
-This is an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_compatibility_context_element">COMPATIBILITY_CONTEXT_ELEMENT</a> structures. Each structure describes one compatibility element in the application manifest.
+This is an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-compatibility_context_element">COMPATIBILITY_CONTEXT_ELEMENT</a> structures. Each structure describes one compatibility element in the application manifest.
 
 
 ## -remarks

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD, IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD control, IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD control code [Files], fs.ioctl_storage_set_temperature_threshold, winioctl/IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD"
+f1_keywords:
+- winioctl/IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoctl.h
+- WinIoctl.h
 api_name:
- - IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
+- IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -158,11 +158,11 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_property_id">STORAGE_PROPERTY_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_property_id">STORAGE_PROPERTY_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_property_query">STORAGE_PROPERTY_QUERY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a>
 
 
 

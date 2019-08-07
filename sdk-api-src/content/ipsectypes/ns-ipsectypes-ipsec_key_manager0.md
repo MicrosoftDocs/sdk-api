@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_KEY_MANAGER0, IPSEC_KEY_MANAGER0 structure [Filtering], IPSEC_KEY_MANAGER_FLAG_DICTATE_KEY, fwp.ipsec_key_manager0, ipsectypes/IPSEC_KEY_MANAGER0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_KEY_MANAGER0"
+f1_keywords:
+- ipsectypes/IPSEC_KEY_MANAGER0
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ipsectypes.h
+- ipsectypes.h
 api_name:
- - IPSEC_KEY_MANAGER0
+- IPSEC_KEY_MANAGER0
 product: Windows
 targetos: Windows
 req.typenames: IPSEC_KEY_MANAGER0
@@ -114,7 +114,7 @@ Time, in seconds, after which the <b>keyDictation</b> callback must return in or
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/ns-fwpmu-_ipsec_key_manager_callbacks0">IPSEC_KEY_MANAGER_CALLBACKS0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/ns-fwpmu-ipsec_key_manager_callbacks0">IPSEC_KEY_MANAGER_CALLBACKS0</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CacheData, CacheInstruction, CacheTrace, CacheUnified, PROCESSOR_CACHE_TYPE, PROCESSOR_CACHE_TYPE enumeration, base.processor_cache_type, winnt/CacheData, winnt/CacheInstruction, winnt/CacheTrace, winnt/CacheUnified, winnt/PROCESSOR_CACHE_TYPE
 ms.topic: enum
-f1_keywords: 
- - "winnt/PROCESSOR_CACHE_TYPE"
+f1_keywords:
+- winnt/PROCESSOR_CACHE_TYPE
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - PROCESSOR_CACHE_TYPE
+- PROCESSOR_CACHE_TYPE
 product: Windows
 targetos: Windows
 req.typenames: PROCESSOR_CACHE_TYPE
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents the type of processor cache identified in the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_cache_descriptor">CACHE_DESCRIPTOR</a> structure.
+Represents the type of processor cache identified in the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-cache_descriptor">CACHE_DESCRIPTOR</a> structure.
 
 
 ## -enum-fields
@@ -84,7 +84,7 @@ The cache is for traces.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_cache_descriptor">CACHE_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-cache_descriptor">CACHE_DESCRIPTOR</a>
 
 
 
@@ -92,7 +92,7 @@ The cache is for traces.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaSetTrustedDomainInformation, LsaSetTrustedDomainInformation function [Security], TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixOffsetInformation, _lsa_lsasettrusteddomaininformation, ntsecapi/LsaSetTrustedDomainInformation, security.lsasettrusteddomaininformation
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/LsaSetTrustedDomainInformation"
+f1_keywords:
+- ntsecapi/LsaSetTrustedDomainInformation
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - LsaSetTrustedDomainInformation
+- LsaSetTrustedDomainInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ Pointer to the SID of the trusted domain whose information is modified. If the <
 ### -param InformationClass [in]
 
 Specifies one of the following values from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_trusted_information_class">TRUSTED_INFORMATION_CLASS</a> enumeration type. The value indicates the type of information being set. 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-trusted_information_class">TRUSTED_INFORMATION_CLASS</a> enumeration type. The value indicates the type of information being set. 
 
 
 
@@ -93,7 +93,7 @@ Specifies one of the following values from the
 <td width="60%">
 If the specified domain is not in the list of trusted domains, the 
 <b>LsaSetTrustedDomainInformation</b> function adds it. The <i>TrustedDomainSid</i> parameter must be the SID of the domain to add. The <i>Buffer</i> parameter must be a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_domain_name_info">TRUSTED_DOMAIN_NAME_INFO</a> structure containing the name of the domain to add.  
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_name_info">TRUSTED_DOMAIN_NAME_INFO</a> structure containing the name of the domain to add.  
 
 
 
@@ -109,7 +109,7 @@ If the specified domain is already in the list of trusted domains, the function 
 </td>
 <td width="60%">
 Sets the value used to generate Posix user and group identifiers. The <i>Buffer</i> parameter must be a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_posix_offset_info">TRUSTED_POSIX_OFFSET_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_posix_offset_info">TRUSTED_POSIX_OFFSET_INFO</a> structure.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Sets the value used to generate Posix user and group identifiers. The <i>Buffer<
 </td>
 <td width="60%">
 Sets the password for the trusted domain. The <i>Buffer</i> parameter must be a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_password_info">TRUSTED_PASSWORD_INFO</a> structure containing the old and new passwords for the specified domain. The handle passed in the <i>PolicyHandle</i> parameter must have the POLICY_CREATE_SECRET access right. The old password string can be <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_password_info">TRUSTED_PASSWORD_INFO</a> structure containing the old and new passwords for the specified domain. The handle passed in the <i>PolicyHandle</i> parameter must have the POLICY_CREATE_SECRET access right. The old password string can be <b>NULL</b>.
 
 </td>
 </tr>
@@ -161,19 +161,19 @@ You can use the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_domain_name_info">TRUSTED_DOMAIN_NAME_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_name_info">TRUSTED_DOMAIN_NAME_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_trusted_information_class">TRUSTED_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-trusted_information_class">TRUSTED_INFORMATION_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_password_info">TRUSTED_PASSWORD_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_password_info">TRUSTED_PASSWORD_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_posix_offset_info">TRUSTED_POSIX_OFFSET_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_posix_offset_info">TRUSTED_POSIX_OFFSET_INFO</a>
  
 
  

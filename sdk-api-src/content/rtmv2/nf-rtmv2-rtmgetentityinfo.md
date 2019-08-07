@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtmGetEntityInfo, RtmGetEntityInfo function [RAS], _rtmv2ref_rtmgetentityinfo, rras.rtmgetentityinfo, rtmv2/RtmGetEntityInfo
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmGetEntityInfo"
+f1_keywords:
+- rtmv2/RtmGetEntityInfo
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmGetEntityInfo
+- RtmGetEntityInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ Handle to the client for which to return information.
 ### -param EntityInfo [out]
 
 On input, <i>EntityInfo</i> is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_entity_info">RTM_ENTITY_INFO</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_info">RTM_ENTITY_INFO</a> structure. 
 
 
 
@@ -121,7 +121,7 @@ The handle is invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_entity_info">RTM_ENTITY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_info">RTM_ENTITY_INFO</a>
 
 
 

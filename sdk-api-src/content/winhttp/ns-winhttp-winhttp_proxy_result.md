@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_PROXY_RESULT, WINHTTP_PROXY_RESULT structure [HTTP], http.winhttp_proxy_result, winhttp/WINHTTP_PROXY_RESULT
 ms.topic: struct
-f1_keywords: 
- - "winhttp/WINHTTP_PROXY_RESULT"
+f1_keywords:
+- winhttp/WINHTTP_PROXY_RESULT
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winhttp.h
+- winhttp.h
 api_name:
- - WINHTTP_PROXY_RESULT
+- WINHTTP_PROXY_RESULT
 product: Windows
 targetos: Windows
 req.typenames: WINHTTP_PROXY_RESULT
@@ -66,7 +66,7 @@ The number of entries in the <b>pEntries</b> array.
 
 ### -field pEntries
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-_winhttp_proxy_result_entry">WINHTTP_PROXY_RESULT_ENTRY</a> structures.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_result_entry">WINHTTP_PROXY_RESULT_ENTRY</a> structures.
 
 
 ## -see-also
@@ -74,7 +74,7 @@ A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-_winhttp_proxy_result_entry">WINHTTP_PROXY_RESULT_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_result_entry">WINHTTP_PROXY_RESULT_ENTRY</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertSidToStringSid, ConvertSidToStringSid function [Security], ConvertSidToStringSidA, ConvertSidToStringSidW, _win32_convertsidtostringsid, sddl/ConvertSidToStringSid, sddl/ConvertSidToStringSidA, sddl/ConvertSidToStringSidW, security.convertsidtostringsid
 ms.topic: function
-f1_keywords: 
- - "sddl/ConvertSidToStringSid"
+f1_keywords:
+- sddl/ConvertSidToStringSid
 req.header: sddl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,22 +30,22 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-security-sddl-ansi-l1-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
- - sechost.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - API-MS-Win-Security-sddl-l1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-security-sddl-ansi-l1-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+- sechost.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- API-MS-Win-Security-sddl-l1-1-0.dll
 api_name:
- - ConvertSidToStringSid
- - ConvertSidToStringSidA
- - ConvertSidToStringSidW
+- ConvertSidToStringSid
+- ConvertSidToStringSidA
+- ConvertSidToStringSidW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ To convert the string-format SID back to a valid, functional SID, call the
 
 ### -param Sid [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure to be converted.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure to be converted.
 
 
 ### -param StringSid [out]
@@ -169,7 +169,7 @@ The <b>ConvertSidToStringSid</b> function uses the standard S-<i>R</i>-<i>I</i>-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
  
 
  

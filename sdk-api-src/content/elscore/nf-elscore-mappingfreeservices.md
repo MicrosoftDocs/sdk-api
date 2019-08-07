@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MappingFreeServices, MappingFreeServices function [Internationalization for Windows Applications], elscore/MappingFreeServices, intl.mappingfreeservices
 ms.topic: function
-f1_keywords: 
- - "elscore/MappingFreeServices"
+f1_keywords:
+- elscore/MappingFreeServices
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Elscore.lib
 req.dll: Elscore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Elscore.dll
- - ext-ms-win-els-elscore-l1-1-0.dll
+- Elscore.dll
+- ext-ms-win-els-elscore-l1-1-0.dll
 api_name:
- - MappingFreeServices
+- MappingFreeServices
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ Frees memory and resources allocated for the application to interact with one or
 
 ### -param pServiceInfo [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_service_info">MAPPING_SERVICE_INFO</a> structures containing service descriptions retrieved by a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a>. This parameter cannot be set to <b>NULL</b>. 
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-mapping_service_info">MAPPING_SERVICE_INFO</a> structures containing service descriptions retrieved by a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a>. This parameter cannot be set to <b>NULL</b>. 
 
 
 ## -returns
@@ -102,7 +102,7 @@ Since all services currently run in the application process, the ELS platform do
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_service_info">MAPPING_SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-mapping_service_info">MAPPING_SERVICE_INFO</a>
 
 
 

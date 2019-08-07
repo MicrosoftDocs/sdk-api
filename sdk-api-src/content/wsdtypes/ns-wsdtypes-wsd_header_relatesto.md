@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_HEADER_RELATESTO, WSD_HEADER_RELATESTO structure, ncd.wsd_header_relatesto, ncd.wsd_header_relayesto, wsdtypes/WSD_HEADER_RELATESTO
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_HEADER_RELATESTO"
+f1_keywords:
+- wsdtypes/WSD_HEADER_RELATESTO
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_HEADER_RELATESTO
+- WSD_HEADER_RELATESTO
 product: Windows
 targetos: Windows
 req.typenames: WSD_HEADER_RELATESTO
@@ -61,7 +61,7 @@ Represents a RelatesTo SOAP envelope header block, as specified by the WS-Addres
 
 ### -field RelationshipType
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_name">WSDXML_NAME</a> structure that contains the relationship type as a qualified name.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure that contains the relationship type as a qualified name.
 
 
 ### -field MessageID

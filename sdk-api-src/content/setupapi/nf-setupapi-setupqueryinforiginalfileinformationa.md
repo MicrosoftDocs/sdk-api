@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupQueryInfOriginalFileInformation, SetupQueryInfOriginalFileInformation function [Setup API], SetupQueryInfOriginalFileInformationA, SetupQueryInfOriginalFileInformationW, _setupapi_setupqueryinforiginalfileinformation, setup.setupqueryinforiginalfileinformation, setupapi/SetupQueryInfOriginalFileInformation, setupapi/SetupQueryInfOriginalFileInformationA, setupapi/SetupQueryInfOriginalFileInformationW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupQueryInfOriginalFileInformation"
+f1_keywords:
+- setupapi/SetupQueryInfOriginalFileInformation
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupQueryInfOriginalFileInformation
- - SetupQueryInfOriginalFileInformationA
- - SetupQueryInfOriginalFileInformationW
+- SetupQueryInfOriginalFileInformation
+- SetupQueryInfOriginalFileInformationA
+- SetupQueryInfOriginalFileInformationW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ The
 ### -param InfInformation [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_inf_information">SP_INF_INFORMATION</a> structure returned from a call to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_inf_information">SP_INF_INFORMATION</a> structure returned from a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetinfinformationa">SetupGetInfInformation</a> function.
 
 
@@ -79,14 +79,14 @@ Index of the constituent INF file name to retrieve. This index can be in the ran
 ### -param AlternatePlatformInfo [in]
 
 Optional pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_altplatform_info_v1">SP_ALTPLATFORM_INFO_V1</a> or <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_altplatform_info_v2">SP_ALTPLATFORM_INFO_V2</a> structure used to pass information for an alternate platform to 
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_altplatform_info_v1">SP_ALTPLATFORM_INFO_V1</a> or <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_altplatform_info_v2">SP_ALTPLATFORM_INFO_V2</a> structure used to pass information for an alternate platform to 
 <b>SetupQueryInfOriginalFileInformation</b>.
 
 
 ### -param OriginalFileInfo [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_original_file_info_a">SP_ORIGINAL_FILE_INFO</a> structure that receives the original INF file name and catalog file information returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_original_file_info_a">SP_ORIGINAL_FILE_INFO</a> structure that receives the original INF file name and catalog file information returned by 
 <b>SetupQueryInfOriginalFileInformation</b>.
 
 

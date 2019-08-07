@@ -8,10 +8,10 @@ tech.root: SecCNG
 ms.assetid: e2aaaa02-96e3-4447-b19b-b9db07b49135
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_PROVIDER_REFS, CRYPT_PROVIDER_REFS, CRYPT_PROVIDER_REFS structure [Security], PCRYPT_PROVIDER_REFS, PCRYPT_PROVIDER_REFS structure pointer [Security], bcrypt/CRYPT_PROVIDER_REFS, bcrypt/PCRYPT_PROVIDER_REFS, security.crypt_provider_refs"
+ms.keywords: '*PCRYPT_PROVIDER_REFS, CRYPT_PROVIDER_REFS, CRYPT_PROVIDER_REFS structure [Security], PCRYPT_PROVIDER_REFS, PCRYPT_PROVIDER_REFS structure pointer [Security], bcrypt/CRYPT_PROVIDER_REFS, bcrypt/PCRYPT_PROVIDER_REFS, security.crypt_provider_refs'
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/CRYPT_PROVIDER_REFS"
+f1_keywords:
+- bcrypt/CRYPT_PROVIDER_REFS
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - CRYPT_PROVIDER_REFS
+- CRYPT_PROVIDER_REFS
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_PROVIDER_REFS, *PCRYPT_PROVIDER_REFS
@@ -66,7 +66,7 @@ The number of elements in the <b>rgpProviders</b> array.
 
 ### -field rgpProviders
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_provider_ref">CRYPT_PROVIDER_REF</a> structure pointers that contain the provider references. The <b>cProviders</b> member contains the number of elements in this array.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_ref">CRYPT_PROVIDER_REF</a> structure pointers that contain the provider references. The <b>cProviders</b> member contains the number of elements in this array.
 
 
 ## -see-also

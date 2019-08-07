@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDSDiskOfflineReasonCollision, VDSDiskOfflineReasonNone, VDSDiskOfflineReasonPolicy, VDSDiskOfflineReasonRedundantPath, VDSDiskOfflineReasonSnapshot, VDS_DISK_OFFLINE_REASON, VDS_DISK_OFFLINE_REASON enumeration, base.vds_disk_offline_reason, vds/VDSDiskOfflineReasonCollision, vds/VDSDiskOfflineReasonNone, vds/VDSDiskOfflineReasonPolicy, vds/VDSDiskOfflineReasonRedundantPath, vds/VDSDiskOfflineReasonSnapshot, vds/VDS_DISK_OFFLINE_REASON
 ms.topic: enum
-f1_keywords: 
- - "vds/VDS_DISK_OFFLINE_REASON"
+f1_keywords:
+- vds/VDS_DISK_OFFLINE_REASON
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - VDS_DISK_OFFLINE_REASON
+- VDS_DISK_OFFLINE_REASON
 product: Windows
 targetos: Windows
 req.typenames: VDS_DISK_OFFLINE_REASON
@@ -68,7 +68,7 @@ The reason is unknown.
 
 ### -field VDSDiskOfflineReasonPolicy
 
-The disk is offline because of the current <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_san_policy">SAN policy</a>.
+The disk is offline because of the current <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_san_policy">SAN policy</a>.
 
 
 ### -field VDSDiskOfflineReasonRedundantPath
@@ -83,10 +83,10 @@ The disk is offline because it contains a volume shadow copy volume. In this cas
 
 ### -field VDSDiskOfflineReasonCollision
 
-If the disk is an MBR disk, it is offline because its disk signature is the same as that of another disk that is online. The disk signature is found in the <b>dwSignature</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop">VDS_DISK_PROP</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop2">VDS_DISK_PROP2</a> structures and in the <b>Signature</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_drive_layout_information_mbr">DRIVE_LAYOUT_INFORMATION_MBR</a> structure.
+If the disk is an MBR disk, it is offline because its disk signature is the same as that of another disk that is online. The disk signature is found in the <b>dwSignature</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a> structures and in the <b>Signature</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-drive_layout_information_mbr">DRIVE_LAYOUT_INFORMATION_MBR</a> structure.
 
 If it is a GPT disk, it is offline for one of the following reasons:<ul>
-<li>Its disk identifier is the same as that of another disk that is offline. The disk identifier is found in the <b>DiskGuid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop">VDS_DISK_PROP</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop2">VDS_DISK_PROP2</a> structures and in the <b>DiskId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_drive_layout_information_gpt">DRIVE_LAYOUT_INFORMATION_GPT</a> structure.</li>
+<li>Its disk identifier is the same as that of another disk that is offline. The disk identifier is found in the <b>DiskGuid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a> structures and in the <b>DiskId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-drive_layout_information_gpt">DRIVE_LAYOUT_INFORMATION_GPT</a> structure.</li>
 <li>One of the partitions has the same partition GUID as another partition on the same disk.</li>
 </ul>
 
@@ -111,7 +111,7 @@ If it is a GPT disk, it is offline for one of the following reasons:<ul>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop2">VDS_DISK_PROP2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a>
  
 
  

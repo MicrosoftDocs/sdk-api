@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ATTRIBUTESYNTAX, ATTRIBUTESYNTAX enumeration [Network Policy Server], IAS_SYNTAX_BOOLEAN, IAS_SYNTAX_ENUMERATOR, IAS_SYNTAX_INETADDR, IAS_SYNTAX_INETADDR6, IAS_SYNTAX_INTEGER, IAS_SYNTAX_OCTETSTRING, IAS_SYNTAX_PROVIDERSPECIFIC, IAS_SYNTAX_STRING, IAS_SYNTAX_UNSIGNEDINTEGER, IAS_SYNTAX_UTCTIME, _sdo_attributesyntax, nps.SDO_attributesyntax, sdo.attributesyntax, sdoias/ATTRIBUTESYNTAX, sdoias/IAS_SYNTAX_BOOLEAN, sdoias/IAS_SYNTAX_ENUMERATOR, sdoias/IAS_SYNTAX_INETADDR, sdoias/IAS_SYNTAX_INETADDR6, sdoias/IAS_SYNTAX_INTEGER, sdoias/IAS_SYNTAX_OCTETSTRING, sdoias/IAS_SYNTAX_PROVIDERSPECIFIC, sdoias/IAS_SYNTAX_STRING, sdoias/IAS_SYNTAX_UNSIGNEDINTEGER, sdoias/IAS_SYNTAX_UTCTIME
 ms.topic: enum
-f1_keywords: 
- - "sdoias/ATTRIBUTESYNTAX"
+f1_keywords:
+- sdoias/ATTRIBUTESYNTAX
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - ATTRIBUTESYNTAX
+- ATTRIBUTESYNTAX
 product: Windows
 targetos: Windows
 req.typenames: ATTRIBUTESYNTAX
@@ -115,7 +115,7 @@ The attribute is an IPv6 address.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributeinfo">ATTRIBUTEINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeinfo">ATTRIBUTEINFO</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMB_MASKED, CreateMappedBitmap, CreateMappedBitmap function [Windows Controls], _win32_CreateMappedBitmap, _win32_CreateMappedBitmap_cpp, commctrl/CreateMappedBitmap, controls.CreateMappedBitmap, controls._win32_CreateMappedBitmap
 ms.topic: function
-f1_keywords: 
- - "commctrl/CreateMappedBitmap"
+f1_keywords:
+- commctrl/CreateMappedBitmap
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
- - Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
+- Comctl32.dll
+- Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
 api_name:
- - CreateMappedBitmap
+- CreateMappedBitmap
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -103,7 +103,7 @@ Uses a bitmap as a mask.
 
 Type: <b>LPCOLORMAP</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_colormap">COLORMAP</a> structure that contains the color information needed to map the bitmaps. If this parameter is <b>NULL</b>, the function uses the default color map. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-colormap">COLORMAP</a> structure that contains the color information needed to map the bitmaps. If this parameter is <b>NULL</b>, the function uses the default color map. 
 
 
 ### -param iNumMaps

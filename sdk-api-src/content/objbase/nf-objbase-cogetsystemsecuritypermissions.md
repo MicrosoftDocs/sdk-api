@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetSystemSecurityPermissions, CoGetSystemSecurityPermissions function [COM], com.cogetsystemsecuritypermissions, objbase/CoGetSystemSecurityPermissions
 ms.topic: function
-f1_keywords: 
- - "objbase/CoGetSystemSecurityPermissions"
+f1_keywords:
+- objbase/CoGetSystemSecurityPermissions
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: ComBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComBase.dll
- - API-MS-Win-Core-Com-private-l1-1-0.dll
- - API-MS-Win-Core-COM-Private-l1-1-1.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-private-l1-1-0.dll
+- API-MS-Win-Core-COM-Private-l1-1-1.dll
 api_name:
- - CoGetSystemSecurityPermissions
+- CoGetSystemSecurityPermissions
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ A value from the <a href="https://docs.microsoft.com/windows/desktop/api/objbase
 
 ### -param ppSD [out]
 
-Pointer to a caller-supplied variable that this routine sets to the address of a buffer containing the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> for the system security permissions. Memory will be allocated by <b>CoGetSystemSecurityPermissions</b> and should be freed by caller with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
+Pointer to a caller-supplied variable that this routine sets to the address of a buffer containing the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> for the system security permissions. Memory will be allocated by <b>CoGetSystemSecurityPermissions</b> and should be freed by caller with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
 
 
 ## -returns
@@ -141,7 +141,7 @@ Not enough memory for the security descriptor's allocation.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
  
 
  

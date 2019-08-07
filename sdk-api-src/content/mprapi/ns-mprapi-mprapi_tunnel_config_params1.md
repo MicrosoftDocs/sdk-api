@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 19ad3493-99b7-405f-9663-3886388b5640
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMPRAPI_TUNNEL_CONFIG_PARAMS1, MPRAPI_TUNNEL_CONFIG_PARAMS, MPRAPI_TUNNEL_CONFIG_PARAMS structure [RAS], MPRAPI_TUNNEL_CONFIG_PARAMS0, MPRAPI_TUNNEL_CONFIG_PARAMS1, PMPRAPI_TUNNEL_CONFIG_PARAMS, PMPRAPI_TUNNEL_CONFIG_PARAMS structure pointer [RAS], _MPRAPI_TUNNEL_CONFIG_PARAMS0, _MPRAPI_TUNNEL_CONFIG_PARAMS1, mprapi/MPRAPI_TUNNEL_CONFIG_PARAMS, mprapi/PMPRAPI_TUNNEL_CONFIG_PARAMS, rras.mprapi_tunnel_config_params"
+ms.keywords: '*PMPRAPI_TUNNEL_CONFIG_PARAMS1, MPRAPI_TUNNEL_CONFIG_PARAMS, MPRAPI_TUNNEL_CONFIG_PARAMS structure [RAS], MPRAPI_TUNNEL_CONFIG_PARAMS0, MPRAPI_TUNNEL_CONFIG_PARAMS1, PMPRAPI_TUNNEL_CONFIG_PARAMS, PMPRAPI_TUNNEL_CONFIG_PARAMS structure pointer [RAS], _MPRAPI_TUNNEL_CONFIG_PARAMS0, _MPRAPI_TUNNEL_CONFIG_PARAMS1, mprapi/MPRAPI_TUNNEL_CONFIG_PARAMS, mprapi/PMPRAPI_TUNNEL_CONFIG_PARAMS, rras.mprapi_tunnel_config_params'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/MPRAPI_TUNNEL_CONFIG_PARAMS"
+f1_keywords:
+- mprapi/MPRAPI_TUNNEL_CONFIG_PARAMS
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - MPRAPI_TUNNEL_CONFIG_PARAMS
- - MPRAPI_TUNNEL_CONFIG_PARAMS0
- - MPRAPI_TUNNEL_CONFIG_PARAMS1
+- MPRAPI_TUNNEL_CONFIG_PARAMS
+- MPRAPI_TUNNEL_CONFIG_PARAMS0
+- MPRAPI_TUNNEL_CONFIG_PARAMS1
 product: Windows
 targetos: Windows
 req.typenames: MPRAPI_TUNNEL_CONFIG_PARAMS1, *PMPRAPI_TUNNEL_CONFIG_PARAMS1
@@ -68,7 +68,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ikev
 
 ### -field PptpConfigParams
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_pptp_config_params">PPTP_CONFIG_PARAMS</a> structure that contains Point-to-Point Tunneling Protocol (PPTP) tunnel parameters.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-pptp_config_params">PPTP_CONFIG_PARAMS</a> structure that contains Point-to-Point Tunneling Protocol (PPTP) tunnel parameters.
 
 
 ### -field L2tpConfigParams

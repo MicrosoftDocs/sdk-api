@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 25cc9058-0c37-4768-a177-345cdae4ee5f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_MORESURFACECAPS, DD_MORESURFACECAPS, DD_MORESURFACECAPS structure [Display Devices], ddrawint/DD_MORESURFACECAPS, ddstrcts_e28f85ae-f428-4e7c-b142-9892afa24323.xml, display.dd_moresurfacecaps"
+ms.keywords: '*PDD_MORESURFACECAPS, DD_MORESURFACECAPS, DD_MORESURFACECAPS structure [Display Devices], ddrawint/DD_MORESURFACECAPS, ddstrcts_e28f85ae-f428-4e7c-b142-9892afa24323.xml, display.dd_moresurfacecaps'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_MORESURFACECAPS"
+f1_keywords:
+- ddrawint/DD_MORESURFACECAPS
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_MORESURFACECAPS
+- DD_MORESURFACECAPS
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_MORESURFACECAPS, DD_MORESURFACECAPS"
+req.typenames: '*PDD_MORESURFACECAPS, DD_MORESURFACECAPS'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DD_MORESURFACECAPS structure defines more driver surface capabilities in addition to those described in <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-_ddcorecaps">DDCORECAPS</a>.
+The DD_MORESURFACECAPS structure defines more driver surface capabilities in addition to those described in <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>.
   
 
 
@@ -123,7 +123,7 @@ This structure contains the caps bits added to the <b>DDCAPS.ddsCaps</b> structu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-_ddcorecaps">DDCORECAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>
 
 
 

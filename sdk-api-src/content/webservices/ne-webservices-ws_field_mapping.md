@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_ANY_ATTRIBUTES_FIELD_MAPPING, WS_ANY_CONTENT_FIELD_MAPPING, WS_ATTRIBUTE_FIELD_MAPPING, WS_ELEMENT_CHOICE_FIELD_MAPPING, WS_ELEMENT_FIELD_MAPPING, WS_FIELD_MAPPING, WS_FIELD_MAPPING enumeration [Web Services for Windows], WS_NO_FIELD_MAPPING, WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING, WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING, WS_REPEATING_ELEMENT_FIELD_MAPPING, WS_TEXT_FIELD_MAPPING, WS_TYPE_ATTRIBUTE_FIELD_MAPPING, WS_XML_ATTRIBUTE_FIELD_MAPPING, webservices/WS_ANY_ATTRIBUTES_FIELD_MAPPING, webservices/WS_ANY_CONTENT_FIELD_MAPPING, webservices/WS_ATTRIBUTE_FIELD_MAPPING, webservices/WS_ELEMENT_CHOICE_FIELD_MAPPING, webservices/WS_ELEMENT_FIELD_MAPPING, webservices/WS_FIELD_MAPPING, webservices/WS_NO_FIELD_MAPPING, webservices/WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING, webservices/WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING, webservices/WS_REPEATING_ELEMENT_FIELD_MAPPING, webservices/WS_TEXT_FIELD_MAPPING, webservices/WS_TYPE_ATTRIBUTE_FIELD_MAPPING, webservices/WS_XML_ATTRIBUTE_FIELD_MAPPING, wsw.ws_field_mapping
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_FIELD_MAPPING"
+f1_keywords:
+- webservices/WS_FIELD_MAPPING
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_FIELD_MAPPING
+- WS_FIELD_MAPPING
 product: Windows
 targetos: Windows
 req.typenames: WS_FIELD_MAPPING
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Specifies how a field of a structure is represented in XML.  This is used within
-                a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
+                a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
             
 
 
@@ -97,7 +97,7 @@ s.field = &amp;derived;
     &lt;/field&gt;
 &lt;/Struct&gt;
 </code></pre>
-This mapping does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a>.
+This mapping does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
                 
 
 
@@ -112,7 +112,7 @@ The field's localName/ns are used as the XML attribute name and namespace.
 Unless specified, the attribute must appear in the XML.
                     If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_10">WS_FIELD_OPTIONAL</a> is specified, then the attribute
                     is not required to appear in the XML.  If optional and not
-                    present, then the field is set to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a>,
+                    present, then the field is set to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>,
                     or zero if the default value is not specified.
                 
 
@@ -144,7 +144,7 @@ The field's localName/ns are used as the XML element name and namespace.
 Unless specified, the element must appear in the XML.
                     If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_10">WS_FIELD_OPTIONAL</a> is specified, then the element
                     is not required to appear in the XML.  If optional and not
-                    present, then the field is set to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a>,
+                    present, then the field is set to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>,
                     or zero if the default value is not specified.
                 
 
@@ -179,7 +179,7 @@ The field's localName/ns are used as the XML element
                 
 
 If a wrapper element has been specified, the wrapper element must appear
-                  in the XML if repeating element count is not 0.  A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may 
+                  in the XML if repeating element count is not 0.  A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may 
                   not be specified for this field mapping. 
                 
 
@@ -213,8 +213,8 @@ s.fieldCount = 2;
     &lt;item&gt;2&lt;/item&gt;
 &lt;/Struct&gt;</code></pre>
 The number of elements in the deseralized array can be constrained
-                    by specifying a non-<b>NULL</b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_item_range">WS_ITEM_RANGE</a> structure that is
-                    part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
+                    by specifying a non-<b>NULL</b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_item_range">WS_ITEM_RANGE</a> structure that is
+                    part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
                 
 
 
@@ -239,7 +239,7 @@ s.field = 1;
 
 &lt;Struct&gt;1&lt;/Struct&gt;
 </code></pre>
-This mapping does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a>.
+This mapping does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
                 
 
 
@@ -258,7 +258,7 @@ If the field maps to one of the existing types (for example <a href="https://doc
                     a field of an arbitrary type and size.
                 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may be specified to provide the value
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified to provide the value
                     to initialize the field to when deserializing the field.  If a default
                     value is not specified, then the field will be initialized to zero.
                 
@@ -289,7 +289,7 @@ The field's localName is used to identify the XML attribute name.
 Unless <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_10">WS_FIELD_OPTIONAL</a>  is specified, the attribute must 
                     appear in the XML.  If <b>WS_FIELD_OPTIONAL</b> is specified, 
                     then the attribute is not required to appear in the XML.  If optional and not
-                    present, then the field is set to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a>,
+                    present, then the field is set to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>,
                     or zero if the default value is not specified.
                 
 
@@ -340,7 +340,7 @@ struct Struct
 </code></pre>
 This field mapping must be used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UNION_TYPE</a>.
                     The names and namespaces of the element choices are specified in the
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_union_description">WS_UNION_DESCRIPTION</a>.  The field's localName 
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a>.  The field's localName 
                     and ns should be <b>NULL</b>.
                 
 
@@ -349,9 +349,9 @@ Unless <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-we
                     then none of the elements are required to appear in the XML.  If optional and none
                     of the elements are present, then the field's selector value is set to the
                     none value of the enumeration (as specified in the noneEnumValue field of
-                    the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_union_description">WS_UNION_DESCRIPTION</a>).  Due to the fact that the nonEnumValue
+                    the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a>).  Due to the fact that the nonEnumValue
                     is used as the default value, this mapping value does not support 
-                    specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a>.
+                    specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
                 
 
 <pre class="syntax" xml:space="preserve"><code>
@@ -403,7 +403,7 @@ struct Struct
 };</code></pre>
 This field mapping must be used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UNION_TYPE</a>.
                     The names and namespaces of the element choices are specified in the
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_union_description">WS_UNION_DESCRIPTION</a>.  The field's localName 
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a>.  The field's localName 
                     and ns should be <b>NULL</b>.
                 
 
@@ -412,9 +412,9 @@ Unless <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-we
                     then none of the elements are required to appear in the XML.  If optional and none
                     of the elements are present, then the field's selector value is set to the
                     none value of the enumeration (as specified in the noneEnumValue field of
-                    the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_union_description">WS_UNION_DESCRIPTION</a>).  Due to the fact that the nonEnumValue
+                    the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a>).  Due to the fact that the nonEnumValue
                     is used as the default value, this mapping value does not support 
-                    specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a>.
+                    specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
                 
 
 <pre class="syntax" xml:space="preserve"><code>
@@ -463,12 +463,12 @@ The field's localName/ns are used as the XML element
                 
 
 If a wrapper element has been specified, the wrapper element must appear
-                  in the XML if repeating element count is not 0.  A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a> may
+                  in the XML if repeating element count is not 0.  A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may
                   not be specified for this field mapping.
                 
 
 The itemLocalName and itemNs fields must be <b>NULL</b>.  The XML element
-                    name and namespace are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_union_description">WS_UNION_DESCRIPTION</a>.
+                    name and namespace are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a>.
                 
 
 <pre class="syntax" xml:space="preserve"><code>
@@ -503,8 +503,8 @@ s2.fieldCount = 2;
 &lt;/Struct2&gt;
 </code></pre>
 The number of elements in the deseralized array can be constrained
-                    by specifying a non-<b>NULL</b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_item_range">WS_ITEM_RANGE</a> structure that is
-                    part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
+                    by specifying a non-<b>NULL</b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_item_range">WS_ITEM_RANGE</a> structure that is
+                    part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
                 
 
 
@@ -548,11 +548,11 @@ To discard the elements, a <a href="https://docs.microsoft.com/windows/desktop/a
                 
 
 The number of elements allowed during deserialization can be constrained
-                    by specifying a non-<b>NULL</b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_item_range">WS_ITEM_RANGE</a> structure that is
-                    part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
+                    by specifying a non-<b>NULL</b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_item_range">WS_ITEM_RANGE</a> structure that is
+                    part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
                 
 
-This mapping does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a>.
+This mapping does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
                 
 
 
@@ -590,7 +590,7 @@ To discard the elements, a <a href="https://docs.microsoft.com/windows/desktop/a
                     See <b>WS_VOID_TYPE</b> for more information.
                 
 
-This mapping does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a>.
+This mapping does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
                 
 
 
@@ -604,10 +604,10 @@ If this field mapping is not specified, then unmapped attributes
                     will cause an error when deserializing.
                 
 
-The name field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a> must be <b>NULL</b>.
+The name field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a> must be <b>NULL</b>.
                 
 
-The ns field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a> restricts the
+The ns field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a> restricts the
                     namespace of the attributes allowed as follows:
                     <ul>
 <li>If the ns field is <b>NULL</b>, then there is no restriction.  The
@@ -627,7 +627,7 @@ The ns field of the <a href="https://docs.microsoft.com/windows/desktop/api/webs
 
 
 To store the attributes, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_ANY_ATTRIBUTES_TYPE</a> should be
-                    used.  This correspond to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_any_attributes">WS_ANY_ATTRIBUTES</a> as follows:
+                    used.  This correspond to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_any_attributes">WS_ANY_ATTRIBUTES</a> as follows:
                 
 
 <pre class="syntax" xml:space="preserve"><code>
@@ -653,7 +653,7 @@ To discard the unmapped attributes, a <a href="https://docs.microsoft.com/window
                     See <b>WS_VOID_TYPE</b> for more information.
                 
 
-This mapping does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_value">WS_DEFAULT_VALUE</a>.
+This mapping does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
                 
 
 
@@ -668,7 +668,7 @@ The <b>WS_FIELD_MAPPING</b> indicates how different parts of the XML content
                 is deserialized.
              (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
-The order of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a> within a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_struct_description">WS_STRUCT_DESCRIPTION</a>is determined by the <b>WS_FIELD_MAPPING</b> value of the <b>WS_FIELD_DESCRIPTION</b>.
+The order of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a> within a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a>is determined by the <b>WS_FIELD_MAPPING</b> value of the <b>WS_FIELD_DESCRIPTION</b>.
                 See <b>WS_STRUCT_DESCRIPTION</b> for more information on the ordering.
             
 

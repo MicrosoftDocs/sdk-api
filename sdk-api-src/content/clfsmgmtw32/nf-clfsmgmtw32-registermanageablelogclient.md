@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterManageableLogClient, RegisterManageableLogClient function [Files], clfsmgmtw32/RegisterManageableLogClient, fs.registermanageablelogclient
 ms.topic: function
-f1_keywords: 
- - "clfsmgmtw32/RegisterManageableLogClient"
+f1_keywords:
+- clfsmgmtw32/RegisterManageableLogClient
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Clfsw32.dll
+- Clfsw32.dll
 api_name:
- - RegisterManageableLogClient
+- RegisterManageableLogClient
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ The handle to the log to register. Only one registration per unique opening of t
 
 ### -param pCallbacks [in]
 
-Specifies the callbacks that the client is registering for.  Valid callbacks are enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/ns-clfsmgmtw32-_log_management_callbacks">LOG_MANAGEMENT_CALLBACKS</a>. Specify zero to queue notifications instead.
+Specifies the callbacks that the client is registering for.  Valid callbacks are enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/ns-clfsmgmtw32-log_management_callbacks">LOG_MANAGEMENT_CALLBACKS</a>. Specify zero to queue notifications instead.
 
 
 ## -returns
@@ -106,7 +106,7 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/ns-clfsmgmtw32-_log_management_callbacks">LOG_MANAGEMENT_CALLBACKS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/ns-clfsmgmtw32-log_management_callbacks">LOG_MANAGEMENT_CALLBACKS</a>
  
 
  

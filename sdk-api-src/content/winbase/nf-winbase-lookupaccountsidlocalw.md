@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LookupAccountSidLocal, LookupAccountSidLocal function [Security], LookupAccountSidLocalA, LookupAccountSidLocalW, security.lookupaccountsidlocal, winbase/LookupAccountSidLocal, winbase/LookupAccountSidLocalA, winbase/LookupAccountSidLocalW
 ms.topic: function
-f1_keywords: 
- - "winbase/LookupAccountSidLocal"
+f1_keywords:
+- winbase/LookupAccountSidLocal
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - api-ms-win-security-lsalookup-l1-1-0.dll
+- Advapi32.dll
+- api-ms-win-security-lsalookup-l1-1-0.dll
 api_name:
- - LookupAccountSidLocal
- - LookupAccountSidLocalA
- - LookupAccountSidLocalW
+- LookupAccountSidLocal
+- LookupAccountSidLocalA
+- LookupAccountSidLocalW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Retrieves the name of the account for the specified SID on the local machine.
 ### -param Sid [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> to look up.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> to look up.
 
 
 ### -param Name [out, optional]
@@ -98,7 +98,7 @@ On input, specifies the size, in <b>TCHAR</b>s, of the <i>lpReferencedDomainName
 ### -param peUse [out]
 
 A pointer to a variable that receives a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SID_NAME_USE</a> value that indicates the type of the account.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a> value that indicates the type of the account.
 
 
 ## -returns
@@ -143,11 +143,11 @@ This function is similar to <a href="https://docs.microsoft.com/windows/desktop/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SID_NAME_USE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a>
  
 
  

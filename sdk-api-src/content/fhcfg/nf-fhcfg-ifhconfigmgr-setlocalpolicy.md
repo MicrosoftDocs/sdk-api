@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FhConfigMgr class [Windows API],SetLocalPolicy method, IFhConfigMgr interface [Windows API],SetLocalPolicy method, IFhConfigMgr.SetLocalPolicy, IFhConfigMgr::SetLocalPolicy, SetLocalPolicy, SetLocalPolicy method [Windows API], SetLocalPolicy method [Windows API],FhConfigMgr class, SetLocalPolicy method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::SetLocalPolicy, winprog.ifhconfigmgr_setlocalpolicy
 ms.topic: method
-f1_keywords: 
- - "fhcfg/IFhConfigMgr.SetLocalPolicy"
+f1_keywords:
+- fhcfg/IFhConfigMgr.SetLocalPolicy
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fhcfg.h
+- Fhcfg.h
 api_name:
- - IFhConfigMgr.SetLocalPolicy
- - FhConfigMgr.SetLocalPolicy
+- IFhConfigMgr.SetLocalPolicy
+- FhConfigMgr.SetLocalPolicy
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -85,7 +85,7 @@ Specifies the new value of the numeric parameter for the specified local policy.
 
 
 
-Each local policy contains a numeric parameter that specifies how or when the File History feature backs up files and folders. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_local_policy_type">FH_LOCAL_POLICY_TYPE</a> enumeration for more information about the local policies that can be specified.
+Each local policy contains a numeric parameter that specifies how or when the File History feature backs up files and folders. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_local_policy_type">FH_LOCAL_POLICY_TYPE</a> enumeration for more information about the local policies that can be specified.
 
 To retrieve the numeric parameter value for a local policy, use the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getlocalpolicy">IFhConfigMgr::GetLocalPolicy</a> method.
 
@@ -97,7 +97,7 @@ To retrieve the numeric parameter value for a local policy, use the <a href="htt
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_local_policy_type">FH_LOCAL_POLICY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_local_policy_type">FH_LOCAL_POLICY_TYPE</a>
 
 
 

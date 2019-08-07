@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvNextBand, DrvNextBand function [Display Devices], ddifncs_dc66e17a-f2da-45cc-bc1a-8058006c6922.xml, display.drvnextband, winddi/DrvNextBand
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvNextBand"
+f1_keywords:
+- winddi/DrvNextBand
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvNextBand
+- DrvNextBand
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop
 
 ### -param pptl [in]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a> structure to receive the function-supplied origin of the next band.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure to receive the function-supplied origin of the next band.
 
 
 ## -returns

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdSetOverlayPosition, DdSetOverlayPosition callback function [Display Devices], PDD_SURFCB_SETOVERLAYPOSITION, PDD_SURFCB_SETOVERLAYPOSITION callback, ddfncs_9e5f3748-1da5-4512-9024-88939ee0d3fc.xml, ddrawint/DdSetOverlayPosition, display.ddsetoverlayposition
 ms.topic: callback
-f1_keywords: 
- - "ddrawint/DdSetOverlayPosition"
+f1_keywords:
+- ddrawint/DdSetOverlayPosition
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DdSetOverlayPosition
+- DdSetOverlayPosition
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The <b>DdSetOverlayPosition</b> callback function sets the position for an overl
 
 #### - lpSetOverlayPosition
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_setoverlaypositiondata">DD_SETOVERLAYPOSITIONDATA</a> structure that contains the information required to set the overlay position.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_setoverlaypositiondata">DD_SETOVERLAYPOSITIONDATA</a> structure that contains the information required to set the overlay position.
 
 
 ## -returns
@@ -86,7 +86,7 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-
 
 
 
-When the overlay is visible, the driver should cause the overlay to be displayed on the primary surface. The upper left corner of the overlay should be anchored at the position specified by the <b>lXPos</b> and <b>lYPos</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_setoverlaypositiondata">DD_SETOVERLAYPOSITIONDATA</a> structure at <i>lpSetOverlayPosition</i>. For example, values of (0,0) indicate that the upper left corner of the overlay should appear in the upper left corner of the surface identified by the <b>lpDDDestSurface</b> member of DD_SETOVERLAYPOSITIONDATA.
+When the overlay is visible, the driver should cause the overlay to be displayed on the primary surface. The upper left corner of the overlay should be anchored at the position specified by the <b>lXPos</b> and <b>lYPos</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_setoverlaypositiondata">DD_SETOVERLAYPOSITIONDATA</a> structure at <i>lpSetOverlayPosition</i>. For example, values of (0,0) indicate that the upper left corner of the overlay should appear in the upper left corner of the surface identified by the <b>lpDDDestSurface</b> member of DD_SETOVERLAYPOSITIONDATA.
 
 When the overlay is invisible, the driver should set an error code in the <b>ddRVal</b> member of DD_SETOVERLAYPOSITIONDATA and return DDHAL_DRIVER_HANDLED.
 
@@ -98,7 +98,7 @@ When the overlay is invisible, the driver should set an error code in the <b>ddR
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_setoverlaypositiondata">DD_SETOVERLAYPOSITIONDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_setoverlaypositiondata">DD_SETOVERLAYPOSITIONDATA</a>
  
 
  

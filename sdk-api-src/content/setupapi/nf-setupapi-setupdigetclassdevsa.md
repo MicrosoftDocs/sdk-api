@@ -7,8 +7,8 @@ ms.keywords: SetupDiGetClassDevsA
 ms.topic: language-reference
 targetos: Windows
 product: Windows
-f1_keywords: 
- - "setupapi/SetupDiGetClassDevs"
+f1_keywords:
+- setupapi/SetupDiGetClassDevs
 req.header: setupapi.h
 req.include-header: SetupAPI.h
 req.target-type: DesktopFor universal, call CM_Get_Device_ID_ListFor universal, call CM_Get_Device_Interface_List
@@ -27,18 +27,18 @@ req.lib: SetupAPI.lib
 req.dll: SetupAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - SetupAPI.dll
- - ext-ms-win-setupapi-classinstallers-l1-1-0.dll
- - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-1.dll
- - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+- SetupAPI.dll
+- ext-ms-win-setupapi-classinstallers-l1-1-0.dll
+- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-1.dll
+- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
- - SetupDiGetClassDevs
- - SetupDiGetClassDevsA
+- SetupDiGetClassDevs
+- SetupDiGetClassDevsA
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
@@ -52,7 +52,7 @@ The <b>SetupDiGetClassDevs</b> function returns a handle to a <a href="https://d
 
 ### -param ClassGuid
 
-A pointer to the GUID for a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>. This pointer is optional and can be <b>NULL</b>. For more information about how to set <i>ClassGuid</i>, see the following <b>Remarks</b> section.
+A pointer to the GUID for a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>. This pointer is optional and can be <b>NULL</b>. For more information about how to set <i>ClassGuid</i>, see the following <b>Remarks</b> section.
 
 ### -param Enumerator
 

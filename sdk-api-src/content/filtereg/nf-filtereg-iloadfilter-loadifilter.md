@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILoadFilter interface [search],LoadIFilter method, ILoadFilter.LoadIFilter, ILoadFilter::LoadIFilter, LoadIFilter, LoadIFilter method [search], LoadIFilter method [search],ILoadFilter interface, filtereg/ILoadFilter::LoadIFilter, search.iloadfilter_loadifilter
 ms.topic: method
-f1_keywords: 
- - "filtereg/ILoadFilter.LoadIFilter"
+f1_keywords:
+- filtereg/ILoadFilter.LoadIFilter
 req.header: filtereg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - filtereg.h
+- filtereg.h
 api_name:
- - ILoadFilter.LoadIFilter
+- ILoadFilter.LoadIFilter
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ Pointer to a comma-delimited null-terminated Unicode string buffer that specifie
 
 ### -param pFilteredSources [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/filtereg/ns-filtereg-_filtered_data_sources">FILTERED_DATA_SOURCES</a> structure that specifies parameters for a Shell data source for which a filter is loaded. This parameter cannot be null.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/filtereg/ns-filtereg-filtered_data_sources">FILTERED_DATA_SOURCES</a> structure that specifies parameters for a Shell data source for which a filter is loaded. This parameter cannot be null.
 
 
 ### -param pUnkOuter [in]

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetReplyProgress, GetReplyProgress method [BITS], GetReplyProgress method [BITS],IBackgroundCopyJob2 interface, IBackgroundCopyJob2 interface [BITS],GetReplyProgress method, IBackgroundCopyJob2.GetReplyProgress, IBackgroundCopyJob2::GetReplyProgress, _drz_ibackgroundcopyjob2_getreplyprogress, bits.ibackgroundcopyjob2_getreplyprogress, bits1_5/IBackgroundCopyJob2::GetReplyProgress
 ms.topic: method
-f1_keywords: 
- - "bits1_5/IBackgroundCopyJob2.GetReplyProgress"
+f1_keywords:
+- bits1_5/IBackgroundCopyJob2.GetReplyProgress
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Bits.lib
 req.dll: BitsPrx2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - BitsPrx2.dll
+- BitsPrx2.dll
 api_name:
- - IBackgroundCopyJob2.GetReplyProgress
+- IBackgroundCopyJob2.GetReplyProgress
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ Retrieves progress information related to the transfer of the reply data from an
 ### -param pProgress [out]
 
 Contains information that you use to calculate the percentage of the reply file transfer that is complete. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-_bg_job_reply_progress">BG_JOB_REPLY_PROGRESS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-bg_job_reply_progress">BG_JOB_REPLY_PROGRESS</a>.
 
 
 ## -returns
@@ -120,7 +120,7 @@ The <i>pProgress</i> parameter cannot be <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-_bg_job_progress">BG_JOB_REPLY_PROGRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_job_progress">BG_JOB_REPLY_PROGRESS</a>
  
 
  

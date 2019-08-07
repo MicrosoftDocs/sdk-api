@@ -8,10 +8,10 @@ tech.root: VSS
 ms.assetid: 070ec204-e751-4ebf-8f99-3c415f203cb2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVSS_SNAPSHOT_PROP, PVSS_SNAPSHOT_PROP, PVSS_SNAPSHOT_PROP structure pointer [VSS], VSS_SNAPSHOT_PROP, VSS_SNAPSHOT_PROP structure [VSS], _win32_vss_snapshot_prop, base.vss_snapshot_prop, vss/PVSS_SNAPSHOT_PROP, vss/VSS_SNAPSHOT_PROP"
+ms.keywords: '*PVSS_SNAPSHOT_PROP, PVSS_SNAPSHOT_PROP, PVSS_SNAPSHOT_PROP structure pointer [VSS], VSS_SNAPSHOT_PROP, VSS_SNAPSHOT_PROP structure [VSS], _win32_vss_snapshot_prop, base.vss_snapshot_prop, vss/PVSS_SNAPSHOT_PROP, vss/VSS_SNAPSHOT_PROP'
 ms.topic: struct
-f1_keywords: 
- - "vss/VSS_SNAPSHOT_PROP"
+f1_keywords:
+- vss/VSS_SNAPSHOT_PROP
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vss.h
+- Vss.h
 api_name:
- - VSS_SNAPSHOT_PROP
+- VSS_SNAPSHOT_PROP
 product: Windows
 targetos: Windows
 req.typenames: VSS_SNAPSHOT_PROP, *PVSS_SNAPSHOT_PROP
@@ -136,7 +136,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api
 ### -field m_lSnapshotAttributes
 
 The attributes of the shadow copy expressed as a bit mask (or bitwise OR) of members of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> 
       enumeration.
 
 
@@ -150,7 +150,7 @@ Time stamp indicating when the shadow copy was created. The exact time is determ
 ### -field m_eStatus
 
 Current shadow copy creation status. See 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_snapshot_state">VSS_SNAPSHOT_STATE</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_state">VSS_SNAPSHOT_STATE</a>.
 
 
 ## -remarks
@@ -196,7 +196,7 @@ If the shadow copy is exposed as a share, the value of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_snapshot_state">VSS_SNAPSHOT_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_state">VSS_SNAPSHOT_STATE</a>
 
 
 
@@ -208,11 +208,11 @@ If the shadow copy is exposed as a share, the value of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
  
 
  

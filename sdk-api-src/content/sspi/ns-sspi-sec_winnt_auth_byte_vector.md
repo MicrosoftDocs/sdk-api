@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: ee511497-2b70-4c51-bcc2-7585143b4f43
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSEC_WINNT_AUTH_BYTE_VECTOR, PSEC_WINNT_AUTH_BYTE_VECTOR, PSEC_WINNT_AUTH_BYTE_VECTOR structure pointer [Security], SEC_WINNT_AUTH_BYTE_VECTOR, SEC_WINNT_AUTH_BYTE_VECTOR structure [Security], security.sec_winnt_auth_byte_vector, sspi/PSEC_WINNT_AUTH_BYTE_VECTOR, sspi/SEC_WINNT_AUTH_BYTE_VECTOR"
+ms.keywords: '*PSEC_WINNT_AUTH_BYTE_VECTOR, PSEC_WINNT_AUTH_BYTE_VECTOR, PSEC_WINNT_AUTH_BYTE_VECTOR structure pointer [Security], SEC_WINNT_AUTH_BYTE_VECTOR, SEC_WINNT_AUTH_BYTE_VECTOR structure [Security], security.sec_winnt_auth_byte_vector, sspi/PSEC_WINNT_AUTH_BYTE_VECTOR, sspi/SEC_WINNT_AUTH_BYTE_VECTOR'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SEC_WINNT_AUTH_BYTE_VECTOR"
+f1_keywords:
+- sspi/SEC_WINNT_AUTH_BYTE_VECTOR
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SEC_WINNT_AUTH_BYTE_VECTOR
+- SEC_WINNT_AUTH_BYTE_VECTOR
 product: Windows
 targetos: Windows
 req.typenames: SEC_WINNT_AUTH_BYTE_VECTOR, *PSEC_WINNT_AUTH_BYTE_VECTOR
@@ -82,7 +82,7 @@ The number of bytes in the data array of a structure.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_data_password">SEC_WINNT_AUTH_DATA_PASSWORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_data_password">SEC_WINNT_AUTH_DATA_PASSWORD</a>
 
 
 

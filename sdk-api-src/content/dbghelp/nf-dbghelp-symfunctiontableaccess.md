@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymFunctionTableAccess, SymFunctionTableAccess function, SymFunctionTableAccess64, SymFunctionTableAccess64 function, _win32_symfunctiontableaccess64, base.symfunctiontableaccess64, dbghelp/SymFunctionTableAccess, dbghelp/SymFunctionTableAccess64
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymFunctionTableAccess64"
+f1_keywords:
+- dbghelp/SymFunctionTableAccess64
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymFunctionTableAccess64
- - SymFunctionTableAccess
+- SymFunctionTableAccess64
+- SymFunctionTableAccess
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -90,7 +90,7 @@ If the function fails, the return value is <b>NULL</b>. To retrieve extended err
 The type of pointer returned is specific to the image from which symbols are loaded. 
 
 <b>x86:  </b>If the image is for an x86 system, this is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_fpo_data">FPO_DATA</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a> structure.
 
 <b>x64:  </b>If the image is for an x64 system, this is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_runtime_function_entry">_IMAGE_RUNTIME_FUNCTION_ENTRY</a> structure.
 
@@ -126,11 +126,11 @@ SymFunctionTableAccess(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_fpo_data">FPO_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_function_entry">IMAGE_FUNCTION_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a>
 
 
 

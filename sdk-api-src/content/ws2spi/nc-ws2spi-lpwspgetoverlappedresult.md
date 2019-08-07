@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPWSPGETOVERLAPPEDRESULT, WSPGetOverlappedResult, WSPGetOverlappedResult function [Winsock], _win32_wspgetoverlappedresult_2, winsock.wspgetoverlappedresult_2, ws2spi/WSPGetOverlappedResult
 ms.topic: callback
-f1_keywords: 
- - "ws2spi/WSPGetOverlappedResult"
+f1_keywords:
+- ws2spi/WSPGetOverlappedResult
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ws2spi.h
+- Ws2spi.h
 api_name:
- - WSPGetOverlappedResult
+- WSPGetOverlappedResult
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ Identifies the socket. This is the same socket that was specified when the overl
 ### -param lpOverlapped [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure that was specified when the overlapped operation was started.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure that was specified when the overlapped operation was started.
 
 
 ### -param lpcbTransfer [out]
@@ -144,7 +144,7 @@ The descriptor is not a socket.
 </td>
 <td width="60%">
 The <b>hEvent</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure does not contain a valid event object handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure does not contain a valid event object handle.
 
 </td>
 </tr>
@@ -186,12 +186,12 @@ The <i>fWait</i> parameter is <b>FALSE</b> and the I/O operation has not yet com
 
 The results reported by the 
 <b>WSPGetOverlappedResult</b> function are those of the specified socket's last overlapped operation to which the specified 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure was provided, and for which the operation's results were pending. A pending operation is indicated when the function that started the operation returns SOCKET_ERROR, and the <i>lpErrno</i> is WSA_IO_PENDING. When an I/O operation is pending, the function that started the operation resets the <b>hEvent</b> member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure was provided, and for which the operation's results were pending. A pending operation is indicated when the function that started the operation returns SOCKET_ERROR, and the <i>lpErrno</i> is WSA_IO_PENDING. When an I/O operation is pending, the function that started the operation resets the <b>hEvent</b> member of the 
 <b>WSAOVERLAPPED</b> structure to the nonsignaled state. Then, when the pending operation has been completed, the system sets the event object to the signaled state.
 
 If the <i>fWait</i> parameter is <b>TRUE</b>, 
 <b>WSPGetOverlappedResult</b> determines whether the pending operation has been completed by blocking and waiting for the event object to be in the signaled state. A client may set the <i>fWait</i> parameter to <b>TRUE</b> only if it selected event-based completion notification when the I/O operation was requested. If another form of notification was selected, the usage of the <b>hEvent</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure is different, and setting <i>fWait</i> to <b>TRUE</b> causes unpredictable results.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure is different, and setting <i>fWait</i> to <b>TRUE</b> causes unpredictable results.
 
 <div class="alert"><b>Note</b>   All I/O initiated by a given thread is canceled when that thread exits. For overlapped sockets, pending asynchronous operations can fail if the thread is closed before the  operations complete. See <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a> for more information.</div>
 <div> </div>
@@ -199,7 +199,7 @@ If the <i>fWait</i> parameter is <b>TRUE</b>,
 The behavior of 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucompleteoverlappedrequest">WPUCompleteOverlappedRequest</a> places some constraints on how a service provider implements 
 <b>WSPGetOverlappedResult</b> since only the <b>Offset</b> and <b>OffsetHigh</b> members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure are exclusively controlled by the service provider even though three values (byte count, flags, and error) must be retrieved from the structure by 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure are exclusively controlled by the service provider even though three values (byte count, flags, and error) must be retrieved from the structure by 
 <b>WSPGetOverlappedResult</b>. A service provider may accomplish this any way it chooses as long as it interacts with the behavior of 
 <b>WPUCompleteOverlappedRequest</b> properly. The following description presents a typical implementation:
 

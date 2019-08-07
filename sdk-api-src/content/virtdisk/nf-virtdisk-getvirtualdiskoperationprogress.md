@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVirtualDiskOperationProgress, GetVirtualDiskOperationProgress function [VHD], vdssys/GetVirtualDiskOperationProgress, vhd.getvirtualdiskoperationprogress, virtdisk/GetVirtualDiskOperationProgress
 ms.topic: function
-f1_keywords: 
- - "virtdisk/GetVirtualDiskOperationProgress"
+f1_keywords:
+- virtdisk/GetVirtualDiskOperationProgress
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VirtDisk.dll
+- VirtDisk.dll
 api_name:
- - GetVirtualDiskOperationProgress
+- GetVirtualDiskOperationProgress
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A valid handle to a virtual disk with a pending asynchronous operation.
 
 ### -param Overlapped [in]
 
-A pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure. This 
+A pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. This 
      parameter must reference the same structure previously sent to the virtual disk operation being checked for 
      progress.
 

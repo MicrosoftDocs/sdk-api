@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 10, 2, 502, NetSessionEnum, NetSessionEnum function [Files], _win32_netsessionenum, fs.netsessionenum, lmshare/NetSessionEnum, netmgmt.netsessionenum
 ms.topic: function
-f1_keywords: 
- - "lmshare/NetSessionEnum"
+f1_keywords:
+- lmshare/NetSessionEnum
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
- - srvcli.dll
+- Netapi32.dll
+- srvcli.dll
 api_name:
- - NetSessionEnum
+- NetSessionEnum
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -100,7 +100,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return the name of the computer that established the session. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_0">SESSION_INFO_0</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_0">SESSION_INFO_0</a> structures.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Return the name of the computer that established the session. The <i>bufptr</i> 
 </td>
 <td width="60%">
 Return the name of the computer, name of the user, and open files, pipes, and devices on the computer. The <i>bufptr</i>  parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_1">SESSION_INFO_1</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_1">SESSION_INFO_1</a> structures.
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ Return the name of the computer, name of the user, and open files, pipes, and de
 </td>
 <td width="60%">
 In addition to the information indicated for level 1, return the type of client and how the user established the session. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_2">SESSION_INFO_2</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_2">SESSION_INFO_2</a> structures.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ In addition to the information indicated for level 1, return the type of client 
 </td>
 <td width="60%">
 Return the name of the computer, name of the user, and active and idle times for the session. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_10">SESSION_INFO_10</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_10">SESSION_INFO_10</a> structures.
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ Return the name of the computer, name of the user, and active and idle times for
 </td>
 <td width="60%">
 Return the name of the computer; name of the user; open files, pipes, and devices on the computer; and the name of the transport the client is using. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_502">SESSION_INFO_502</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_502">SESSION_INFO_502</a> structures.
 
 </td>
 </tr>
@@ -306,7 +306,7 @@ If you are programming for Active Directory, you may be able to call certain Act
 The following code sample demonstrates how to retrieve information about current sessions using a call to the 
 <b>NetSessionEnum</b> function. The sample calls 
 <b>NetSessionEnum</b>, specifying information level 10 (
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_10">SESSION_INFO_10</a>). The sample loops through the entries and prints the retrieved information. Finally, the code prints the total number of sessions enumerated and frees the memory allocated for the information buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_10">SESSION_INFO_10</a>). The sample loops through the entries and prints the retrieved information. Finally, the code prints the total number of sessions enumerated and frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -455,23 +455,23 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_0">SESSION_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_0">SESSION_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_1">SESSION_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_1">SESSION_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_10">SESSION_INFO_10</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_10">SESSION_INFO_10</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_2">SESSION_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_2">SESSION_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_502">SESSION_INFO_502</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-session_info_502">SESSION_INFO_502</a>
 
 
 

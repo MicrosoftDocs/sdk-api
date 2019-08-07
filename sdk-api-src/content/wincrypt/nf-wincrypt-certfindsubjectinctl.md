@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CTL_ANY_SUBJECT_TYPE, CTL_CERT_SUBJECT_TYPE, CertFindSubjectInCTL, CertFindSubjectInCTL function [Security], _crypto2_certfindsubjectinctl, security.certfindsubjectinctl, wincrypt/CertFindSubjectInCTL
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertFindSubjectInCTL"
+f1_keywords:
+- wincrypt/CertFindSubjectInCTL
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertFindSubjectInCTL
+- CertFindSubjectInCTL
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,9 +82,9 @@ Specifies the type of subject to be searched for in the CTL. May be <b>NULL</b> 
 </dl>
 </td>
 <td width="60%">
-<i>pvSubject</i> data type: Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure.
+<i>pvSubject</i> data type: Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
 
-The CTL's <b>SubjectAlgorithm</b> is examined to determine the representation of the subject's identity. Initially, only SHA1 and MD5 hashes are supported as values for <b>SubjectAlgorithm</b>. The appropriate hash property is obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure.
+The CTL's <b>SubjectAlgorithm</b> is examined to determine the representation of the subject's identity. Initially, only SHA1 and MD5 hashes are supported as values for <b>SubjectAlgorithm</b>. The appropriate hash property is obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ The CTL's <b>SubjectAlgorithm</b> is examined to determine the representation of
 </dl>
 </td>
 <td width="60%">
-<i>pvSubject</i> data type: Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_any_subject_info">CTL_ANY_SUBJECT_INFO</a> structure.
+<i>pvSubject</i> data type: Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_any_subject_info">CTL_ANY_SUBJECT_INFO</a> structure.
 
 The <b>SubjectAlgorithm</b> member of this structure must match the algorithm type of the CTL, and the <b>SubjectIdentifier</b> member must match one of the CTL entries.
 
@@ -103,7 +103,7 @@ The <b>SubjectAlgorithm</b> member of this structure must match the algorithm ty
 </table>
  
 
-The certificate's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> or the <b>SubjectIdentifier</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_any_subject_info">CTL_ANY_SUBJECT_INFO</a> structure is used as the key in searching the subject entries. A binary memory comparison is done between the key and the entry's SubjectIdentifier.
+The certificate's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> or the <b>SubjectIdentifier</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_any_subject_info">CTL_ANY_SUBJECT_INFO</a> structure is used as the key in searching the subject entries. A binary memory comparison is done between the key and the entry's SubjectIdentifier.
 
 If <i>dwSubjectType</i> is set to either preceding value, <i>dwEncodingType</i> is not used.
 
@@ -116,7 +116,7 @@ Pointer used in conjunction with the <i>dwSubjectType</i> parameter.
 ### -param pCtlContext [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure being searched.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure being searched.
 
 
 ### -param dwFlags [in]
@@ -182,7 +182,7 @@ The CTL's <b>SubjectAlgorithm</b> member did not map to either SHA1 or MD5.
 
 
 The certificate's hash or the <b>SubjectIdentifier</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_any_subject_info">CTL_ANY_SUBJECT_INFO</a> structure is used as the key in searching the subject entries. A binary memory comparison is done between the key and the entry's <b>SubjectIdentifier</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_any_subject_info">CTL_ANY_SUBJECT_INFO</a> structure is used as the key in searching the subject entries. A binary memory comparison is done between the key and the entry's <b>SubjectIdentifier</b>.
 
 
 
@@ -192,15 +192,15 @@ The certificate's hash or the <b>SubjectIdentifier</b> member of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_any_subject_info">CTL_ANY_SUBJECT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_any_subject_info">CTL_ANY_SUBJECT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>
 
 
 

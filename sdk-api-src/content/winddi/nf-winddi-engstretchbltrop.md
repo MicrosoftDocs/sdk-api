@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngStretchBltROP, EngStretchBltROP function [Display Devices], display.engstretchbltrop, gdifncs_344d6d6a-0691-4dfd-92fa-918b2c4c63b8.xml, winddi/EngStretchBltROP
 ms.topic: function
-f1_keywords: 
- - "winddi/EngStretchBltROP"
+f1_keywords:
+- winddi/EngStretchBltROP
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngStretchBltROP
+- EngStretchBltROP
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -100,7 +100,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-w
 
 ### -param prclDest [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The two points that define the rectangle are not always well ordered, meaning the coordinates of the second point are not necessarily larger than those of the first point. If the destination rectangle is not well ordered, GDI makes it so.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The two points that define the rectangle are not always well ordered, meaning the coordinates of the second point are not necessarily larger than those of the first point. If the destination rectangle is not well ordered, GDI makes it so.
 
 The rectangle is lower-right exclusive; that is, its lower and right edges are not a part of the copy.
 

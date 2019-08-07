@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCreateServiceProxyFromTemplate, WsCreateServiceProxyFromTemplate function [Web Services for Windows], webservices/WsCreateServiceProxyFromTemplate, wsw.wscreateserviceproxyfromtemplate
 ms.topic: function
-f1_keywords: 
- - "webservices/WsCreateServiceProxyFromTemplate"
+f1_keywords:
+- webservices/WsCreateServiceProxyFromTemplate
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsCreateServiceProxyFromTemplate
+- WsCreateServiceProxyFromTemplate
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webserv
 
 ### -param properties
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_proxy_property">WS_PROXY_PROPERTY</a> structures containing optional properties for the service proxy.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_proxy_property">WS_PROXY_PROPERTY</a> structures containing optional properties for the service proxy.
 
 The value of this parameter may be <b>NULL</b>, in which case, the <i>propertyCount</i> parameter must be 0 (zero).
                 

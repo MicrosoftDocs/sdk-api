@@ -8,10 +8,10 @@ tech.root: com
 ms.assetid: 7a6216d6-061f-48c3-8e3f-5f3e5a63ffb3
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPOLEUIOBJECTPROPSA, *POLEUIOBJECTPROPSA, LPOLEUIOBJECTPROPS, LPOLEUIOBJECTPROPS structure pointer [COM], OLEUIOBJECTPROPS, OLEUIOBJECTPROPS structure [COM], OLEUIOBJECTPROPSA, OLEUIOBJECTPROPSW, OPF_DISABLECONVERT, OPF_NOFILLDEFAULT, OPF_OBJECTISLINK, OPF_SHOWHELP, POLEUIOBJECTPROPS, POLEUIOBJECTPROPS structure pointer [COM], _ole_OLEUIOBJECTPROPS, com.oleuiobjectprops_struct, oledlg/LPOLEUIOBJECTPROPS, oledlg/OLEUIOBJECTPROPS, oledlg/OLEUIOBJECTPROPSA, oledlg/OLEUIOBJECTPROPSW, oledlg/POLEUIOBJECTPROPS"
+ms.keywords: '*LPOLEUIOBJECTPROPSA, *POLEUIOBJECTPROPSA, LPOLEUIOBJECTPROPS, LPOLEUIOBJECTPROPS structure pointer [COM], OLEUIOBJECTPROPS, OLEUIOBJECTPROPS structure [COM], OLEUIOBJECTPROPSA, OLEUIOBJECTPROPSW, OPF_DISABLECONVERT, OPF_NOFILLDEFAULT, OPF_OBJECTISLINK, OPF_SHOWHELP, POLEUIOBJECTPROPS, POLEUIOBJECTPROPS structure pointer [COM], _ole_OLEUIOBJECTPROPS, com.oleuiobjectprops_struct, oledlg/LPOLEUIOBJECTPROPS, oledlg/OLEUIOBJECTPROPS, oledlg/OLEUIOBJECTPROPSA, oledlg/OLEUIOBJECTPROPSW, oledlg/POLEUIOBJECTPROPS'
 ms.topic: struct
-f1_keywords: 
- - "oledlg/OLEUIOBJECTPROPS"
+f1_keywords:
+- oledlg/OLEUIOBJECTPROPS
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - OLEUIOBJECTPROPS
- - OLEUIOBJECTPROPSA
- - OLEUIOBJECTPROPSW
+- OLEUIOBJECTPROPS
+- OLEUIOBJECTPROPSA
+- OLEUIOBJECTPROPSW
 product: Windows
 targetos: Windows
 req.typenames: OLEUIOBJECTPROPSA, *POLEUIOBJECTPROPSA, *LPOLEUIOBJECTPROPSA
@@ -123,7 +123,7 @@ The <b>Convert</b> button will be disabled on the general property page.
 
 ### -field lpPS
 
-Pointer to the standard property sheet header (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PROPSHEETHEADER</a>), used for extensibility.
+Pointer to the standard property sheet header (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PROPSHEETHEADER</a>), used for extensibility.
 
 
 ### -field dwObject

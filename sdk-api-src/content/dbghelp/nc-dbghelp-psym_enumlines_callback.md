@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSYM_ENUMLINES_CALLBACK, PSYM_ENUMLINES_CALLBACKW, SymEnumLinesProc, SymEnumLinesProc callback, SymEnumLinesProc callback function, base.symenumlinesproc, dbghelp/SymEnumLinesProc
 ms.topic: callback
-f1_keywords: 
- - "dbghelp/SymEnumLinesProc"
+f1_keywords:
+- dbghelp/SymEnumLinesProc
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - SymEnumLinesProc
+- SymEnumLinesProc
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ The <b>PSYM_ENUMLINES_CALLBACK</b> and <b>PSYM_ENUMLINES_CALLBACKW</b> types def
 ### -param LineInfo [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_srccodeinfo">SRCCODEINFO</a> structure that provides information about the line.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-srccodeinfo">SRCCODEINFO</a> structure that provides information about the line.
 
 
 ### -param UserContext [in]

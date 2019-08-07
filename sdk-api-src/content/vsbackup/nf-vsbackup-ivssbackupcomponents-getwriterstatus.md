@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWriterStatus, GetWriterStatus method [VSS], GetWriterStatus method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterStatus method, IVssBackupComponents.GetWriterStatus, IVssBackupComponents::GetWriterStatus, S_OK, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, VSS_E_WRITER_NOT_RESPONDING, VSS_E_WRITER_STATUS_NOT_AVAILABLE, _win32_ivssbackupcomponents_getwriterstatus, base.ivssbackupcomponents_getwriterstatus, vsbackup/IVssBackupComponents::GetWriterStatus
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.GetWriterStatus"
+f1_keywords:
+- vsbackup/IVssBackupComponents.GetWriterStatus
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.GetWriterStatus
+- IVssBackupComponents.GetWriterStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -86,7 +86,7 @@ The address of a caller-allocated variable that receives a string containing the
 
 ### -param pnStatus [out]
 
-The address of a caller-allocated variable that receives a <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_writer_state">VSS_WRITER_STATE</a> enumeration value.
+The address of a caller-allocated variable that receives a <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_writer_state">VSS_WRITER_STATE</a> enumeration value.
 
 
 ### -param phResultFailure [out]

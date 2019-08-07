@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BG_JOB_PROGRESS, BG_JOB_PROGRESS structure [BITS], _drz_bg_job_progress, bits.bg_job_progress, bits/BG_JOB_PROGRESS
 ms.topic: struct
-f1_keywords: 
- - "bits/BG_JOB_PROGRESS"
+f1_keywords:
+- bits/BG_JOB_PROGRESS
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bits.h
+- Bits.h
 api_name:
- - BG_JOB_PROGRESS
+- BG_JOB_PROGRESS
 product: Windows
 targetos: Windows
 req.typenames: BG_JOB_PROGRESS
@@ -48,7 +48,7 @@ ms.custom: 19H1
 ## -description
 
 Provides job-related progress information, such as the number of bytes and files transferred. For upload jobs, the progress applies to the upload file, not the reply file. To view reply file progress, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-_bg_job_reply_progress">BG_JOB_REPLY_PROGRESS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-bg_job_reply_progress">BG_JOB_REPLY_PROGRESS</a> structure.
 
 
 ## -struct-fields
@@ -83,11 +83,11 @@ Number of files transferred.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-_bg_file_progress">BG_FILE_PROGRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_file_progress">BG_FILE_PROGRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-_bg_job_reply_progress">BG_JOB_REPLY_PROGRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-bg_job_reply_progress">BG_JOB_REPLY_PROGRESS</a>
 
 
 

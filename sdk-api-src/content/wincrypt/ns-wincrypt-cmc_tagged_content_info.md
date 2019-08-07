@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: ff10dcdf-4c76-434a-a8bd-78d64ea24d23
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCMC_TAGGED_CONTENT_INFO, CMC_TAGGED_CONTENT_INFO, CMC_TAGGED_CONTENT_INFO structure [Security], PCMC_TAGGED_CONTENT_INFO, PCMC_TAGGED_CONTENT_INFO structure pointer [Security], _crypto2_cmc_tagged_content_info, security.cmc_tagged_content_info, wincrypt/CMC_TAGGED_CONTENT_INFO, wincrypt/PCMC_TAGGED_CONTENT_INFO"
+ms.keywords: '*PCMC_TAGGED_CONTENT_INFO, CMC_TAGGED_CONTENT_INFO, CMC_TAGGED_CONTENT_INFO structure [Security], PCMC_TAGGED_CONTENT_INFO, PCMC_TAGGED_CONTENT_INFO structure pointer [Security], _crypto2_cmc_tagged_content_info, security.cmc_tagged_content_info, wincrypt/CMC_TAGGED_CONTENT_INFO, wincrypt/PCMC_TAGGED_CONTENT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMC_TAGGED_CONTENT_INFO"
+f1_keywords:
+- wincrypt/CMC_TAGGED_CONTENT_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMC_TAGGED_CONTENT_INFO
+- CMC_TAGGED_CONTENT_INFO
 product: Windows
 targetos: Windows
 req.typenames: CMC_TAGGED_CONTENT_INFO, *PCMC_TAGGED_CONTENT_INFO
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>CMC_TAGGED_CONTENT_INFO</b> structure is used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmc_data_info">CMC_DATA_INFO</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_data_info">CMC_DATA_INFO</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmc_response_info">CMC_RESPONSE_INFO</a> structures.
 
 

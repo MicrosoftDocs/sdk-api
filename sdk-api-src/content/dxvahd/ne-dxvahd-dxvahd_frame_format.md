@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_FRAME_FORMAT, DXVAHD_FRAME_FORMAT enumeration [Media Foundation], DXVAHD_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, DXVAHD_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, DXVAHD_FRAME_FORMAT_PROGRESSIVE, dxvahd/DXVAHD_FRAME_FORMAT, dxvahd/DXVAHD_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, dxvahd/DXVAHD_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, dxvahd/DXVAHD_FRAME_FORMAT_PROGRESSIVE, mf.dxvahd_frame_format
 ms.topic: enum
-f1_keywords: 
- - "dxvahd/DXVAHD_FRAME_FORMAT"
+f1_keywords:
+- dxvahd/DXVAHD_FRAME_FORMAT
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - DXVAHD_FRAME_FORMAT
+- DXVAHD_FRAME_FORMAT
 product: Windows
 targetos: Windows
 req.typenames: DXVAHD_FRAME_FORMAT
@@ -83,7 +83,7 @@ Frame are interlaced. The bottom field of each frame is displayed first.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_content_desc">DXVAHD_CONTENT_DESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_content_desc">DXVAHD_CONTENT_DESC</a>
 
 
 

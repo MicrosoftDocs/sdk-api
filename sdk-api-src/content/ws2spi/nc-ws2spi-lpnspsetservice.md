@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPNSPSETSERVICE, NSPSetService, NSPSetService function [Winsock], RNRSERVICE_DELETE, RNRSERVICE_DEREGISTER, RNRSERVICE_REGISTER, SERVICE_MULTIPLE, _win32_nspsetservice_2, winsock.nspsetservice_2, ws2spi/NSPSetService
 ms.topic: callback
-f1_keywords: 
- - "ws2spi/NSPSetService"
+f1_keywords:
+- ws2spi/NSPSetService
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ws2spi.h
+- Ws2spi.h
 api_name:
- - NSPSetService
+- NSPSetService
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -116,7 +116,7 @@ Deregister the service. For the SAP namespace, this means stop sending the perio
 </td>
 <td width="60%">
 Delete the service from dynamic name and persistent spaces. For services represented by multiple 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures (using the SERVICE_MULTIPLE flag), only the supplied address will be deleted, and this must match exactly the corresponding <b>CSADDR_INFO</b> structure supplied when the service was registered.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures (using the SERVICE_MULTIPLE flag), only the supplied address will be deleted, and this must match exactly the corresponding <b>CSADDR_INFO</b> structure supplied when the service was registered.
 
 </td>
 </tr>
@@ -294,7 +294,7 @@ When the  <i>dwControlFlags</i> parameter is set to <b>SERVICE_MULTIPLE</b>, thi
 When using <b>SERVICE_MULTIPLE</b>, an application must not let old addresses remain in the object. This can happen if the application aborts without issuing a <b>RNRSERVICE_DEREGISTER</b> request. When a service registers, it should store its addresses. On its next call, the service should explicitly deregister these old addresses before registering new addresses.
 
 <h3><a id="Service_Properties"></a><a id="service_properties"></a><a id="SERVICE_PROPERTIES"></a>Service Properties</h3>
-The following table lists <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> member names and describes how service property data is represented. Members labeled as (Optional) can be supplied with a null pointer.
+The following table lists <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> member names and describes how service property data is represented. Members labeled as (Optional) can be supplied with a null pointer.
 
 <table>
 <tr>
@@ -303,7 +303,7 @@ The following table lists <a href="https://docs.microsoft.com/windows/desktop/ap
 </tr>
 <tr>
 <td><b>dwSize</b></td>
-<td>Set to the sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a>). This is a versioning mechanism.</td>
+<td>Set to the sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a>). This is a versioning mechanism.</td>
 </tr>
 <tr>
 <td><b>lpszServiceInstanceName</b></td>
@@ -347,11 +347,11 @@ The following table lists <a href="https://docs.microsoft.com/windows/desktop/ap
 </tr>
 <tr>
 <td><b>dwNumberOfCsAddrs</b></td>
-<td>The number of elements in the array of <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures referenced by <i>lpcsaBuffer</i>.</td>
+<td>The number of elements in the array of <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures referenced by <i>lpcsaBuffer</i>.</td>
 </tr>
 <tr>
 <td><b>lpcsaBuffer</b></td>
-<td>A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures that contain the address or addresses that the service is listening on.</td>
+<td>A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures that contain the address or addresses that the service is listening on.</td>
 </tr>
 <tr>
 <td><b>dwOutputFlags</b></td>
@@ -365,7 +365,7 @@ The following table lists <a href="https://docs.microsoft.com/windows/desktop/ap
  
 
 <div class="alert"><b>Note</b>  It is acceptable for the <b>iProtocol</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structure to contain the manifest constant <b>IPROTOCOL_ANY</b>, indicating a wildcard value. The namespace provider should substitute an acceptable value for the given address family and socket type.</div>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structure to contain the manifest constant <b>IPROTOCOL_ANY</b>, indicating a wildcard value. The namespace provider should substitute an acceptable value for the given address family and socket type.</div>
 <div> </div>
 
 
@@ -375,11 +375,11 @@ The following table lists <a href="https://docs.microsoft.com/windows/desktop/ap
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlEncode, CryptXmlEncode function [Security], cryptxml/CryptXmlEncode, security.cryptxmlencode
 ms.topic: function
-f1_keywords: 
- - "cryptxml/CryptXmlEncode"
+f1_keywords:
+- cryptxml/CryptXmlEncode
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Cryptxml.lib
 req.dll: Cryptxml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cryptxml.dll
+- Cryptxml.dll
 api_name:
- - CryptXmlEncode
+- CryptXmlEncode
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ A value of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/
 
 ### -param rgProperty [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_property">CRYPT_XML_PROPERTY</a> structures that contain additional properties.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_property">CRYPT_XML_PROPERTY</a> structures that contain additional properties.
 
 
 ### -param cProperty [in]

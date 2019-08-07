@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPortProperties, GetPortProperties method [VDS], GetPortProperties method [VDS],IVdsController interface, IVdsController interface [VDS],GetPortProperties method, IVdsController.GetPortProperties, IVdsController::GetPortProperties, base.ivdscontroller_getportproperties, vds/IVdsController::GetPortProperties, vdshwprv/IVdsController::GetPortProperties
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsController.GetPortProperties"
+f1_keywords:
+- vdshwprv/IVdsController.GetPortProperties
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsController.GetPortProperties
+- IVdsController.GetPortProperties
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ The number of the port. Port numbers are permanent. Ports are numbered from 0.
 
 ### -param pPortProp [out]
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_port_prop">VDS_PORT_PROP</a> structure 
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_port_prop">VDS_PORT_PROP</a> structure 
       allocated and passed in by the caller. VDS allocates memory for the <b>pwszFriendlyName</b> 
       and <b>pwszIdentification</b> member strings. Callers must free the strings by using the 
       <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
@@ -163,11 +163,11 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdsh
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_controller_prop">VDS_CONTROLLER_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_controller_prop">VDS_CONTROLLER_PROP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_port_prop">VDS_PORT_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_port_prop">VDS_PORT_PROP</a>
  
 
  

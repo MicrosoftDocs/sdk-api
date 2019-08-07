@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ProcessIdToSessionId, ProcessIdToSessionId function [Remote Desktop Services], _win32_processidtosessionid, processthreadsapi/ProcessIdToSessionId, termserv.processidtosessionid
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/ProcessIdToSessionId"
+f1_keywords:
+- processthreadsapi/ProcessIdToSessionId
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
- - API-MS-Win-Downlevel-Kernel32-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+- API-MS-Win-Downlevel-Kernel32-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - ProcessIdToSessionId
+- ProcessIdToSessionId
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -110,7 +110,7 @@ Callers must hold the <b>PROCESS_QUERY_INFORMATION</b> access right for the spec
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoexa">OSVERSIONINFOEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a>
 
 
 

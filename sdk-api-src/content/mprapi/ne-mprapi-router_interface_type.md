@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ROUTER_IF_TYPE_CLIENT, ROUTER_IF_TYPE_DEDICATED, ROUTER_IF_TYPE_DIALOUT, ROUTER_IF_TYPE_FULL_ROUTER, ROUTER_IF_TYPE_HOME_ROUTER, ROUTER_IF_TYPE_INTERNAL, ROUTER_IF_TYPE_LOOPBACK, ROUTER_INTERFACE_TYPE, ROUTER_INTERFACE_TYPE enumeration [RAS], _mpr_router_interface_type, mprapi/ROUTER_IF_TYPE_CLIENT, mprapi/ROUTER_IF_TYPE_DEDICATED, mprapi/ROUTER_IF_TYPE_DIALOUT, mprapi/ROUTER_IF_TYPE_FULL_ROUTER, mprapi/ROUTER_IF_TYPE_HOME_ROUTER, mprapi/ROUTER_IF_TYPE_INTERNAL, mprapi/ROUTER_IF_TYPE_LOOPBACK, mprapi/ROUTER_INTERFACE_TYPE, rras.router_interface_type
 ms.topic: enum
-f1_keywords: 
- - "mprapi/ROUTER_INTERFACE_TYPE"
+f1_keywords:
+- mprapi/ROUTER_INTERFACE_TYPE
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - ROUTER_INTERFACE_TYPE
+- ROUTER_INTERFACE_TYPE
 product: Windows
 targetos: Windows
 req.typenames: ROUTER_INTERFACE_TYPE
@@ -108,7 +108,7 @@ The interface is a dial-on-demand (DOD) interface.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_interface_0">MPR_INTERFACE_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_0">MPR_INTERFACE_0</a>
 
 
 

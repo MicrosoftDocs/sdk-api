@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExpandAuthDataForDomain, ExpandAuthDataForDomain callback function [Security], LSA_EXPAND_AUTH_DATA_FOR_DOMAIN, LSA_EXPAND_AUTH_DATA_FOR_DOMAIN callback, ntsecpkg/ExpandAuthDataForDomain, security.expandauthdatafordomain
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/ExpandAuthDataForDomain"
+f1_keywords:
+- ntsecpkg/ExpandAuthDataForDomain
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - ExpandAuthDataForDomain
+- ExpandAuthDataForDomain
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -100,7 +100,7 @@ If the function fails, return an NTSTATUS error code that indicates the reason i
 
 
 A pointer to the <b>ExpandAuthDataForDomain</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 

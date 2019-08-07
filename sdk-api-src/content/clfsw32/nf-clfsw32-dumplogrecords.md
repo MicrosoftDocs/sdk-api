@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClfsClientRecord, ClfsDataRecord, ClfsNullRecord, ClfsRestartRecord, DumpLogRecords, DumpLogRecords function [Files], clfsw32/DumpLogRecords, fs.dumplogrecords
 ms.topic: function
-f1_keywords: 
- - "clfsw32/DumpLogRecords"
+f1_keywords:
+- clfsw32/DumpLogRecords
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Clfsw32.dll
+- Clfsw32.dll
 api_name:
- - DumpLogRecords
+- DumpLogRecords
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -141,7 +141,7 @@ Specifies a mask for all valid data or restart records.
 
 ### -param plsnStart [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a>  that specifies the starting log sequence number (LSN) for the log dump sequence.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>  that specifies the starting log sequence number (LSN) for the log dump sequence.
 
 If this parameter is specified, the LSN must be the address of a valid log record in the active part of the log; otherwise, the call fails with status <b>ERROR_INVALID_PARAMETER</b>.
 
@@ -150,7 +150,7 @@ If this parameter is not specified, the start of the dump sequence is the beginn
 
 ### -param plsnEnd [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a>  that specifies the LSN  where the dump sequence should end.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>  that specifies the LSN  where the dump sequence should end.
 
 If this LSN is past the end of the LSN range, the function returns <b>ERROR_HANDLE_EOF</b>.  
 
@@ -238,7 +238,7 @@ If the function fails, the return value is zero (0). To get extended error infor
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanQueryInterface, WlanQueryInterface function [NativeWIFI], nwifi.wlanqueryinterface, wlanapi/WlanQueryInterface
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanQueryInterface"
+f1_keywords:
+- wlanapi/WlanQueryInterface
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wlanapi.dll
- - Ext-MS-Win-networking-wlanapi-l1-1-0.dll
+- Wlanapi.dll
+- Ext-MS-Win-networking-wlanapi-l1-1-0.dll
 api_name:
- - WlanQueryInterface
+- WlanQueryInterface
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -90,7 +90,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wl
 <tr>
 <td>wlan_intf_opcode_radio_state </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_radio_state">WLAN_RADIO_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_radio_state">WLAN_RADIO_STATE</a>
 </td>
 </tr>
 <tr>
@@ -108,7 +108,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wl
 <tr>
 <td>wlan_intf_opcode_current_connection </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_attributes">WLAN_CONNECTION_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_attributes">WLAN_CONNECTION_ATTRIBUTES</a>
 </td>
 </tr>
 <tr>
@@ -120,19 +120,19 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wl
 <td>wlan_intf_opcode_supported_infrastructure_auth_cipher_pairs 
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_auth_cipher_pair_list">WLAN_AUTH_CIPHER_PAIR_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_auth_cipher_pair_list">WLAN_AUTH_CIPHER_PAIR_LIST</a>
 </td>
 </tr>
 <tr>
 <td>wlan_intf_opcode_supported_adhoc_auth_cipher_pairs </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_auth_cipher_pair_list">WLAN_AUTH_CIPHER_PAIR_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_auth_cipher_pair_list">WLAN_AUTH_CIPHER_PAIR_LIST</a>
 </td>
 </tr>
 <tr>
 <td>wlan_intf_opcode_supported_country_or_region_string_list </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_country_or_region_string_list">WLAN_COUNTRY_OR_REGION_STRING_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_country_or_region_string_list">WLAN_COUNTRY_OR_REGION_STRING_LIST</a>
 </td>
 </tr>
 <tr>
@@ -211,9 +211,9 @@ When   <i>OpCode</i> is set to  <b>wlan_intf_opcode_current_operation_mode</b>, 
 
 #### Examples
 
-The following example enumerates the wireless LAN interfaces on the local computer, queries each interface for the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_attributes">WLAN_CONNECTION_ATTRIBUTES</a> on the interface, and prints values from the retrieved <b>WLAN_CONNECTION_ATTRIBUTES</b> structure.
+The following example enumerates the wireless LAN interfaces on the local computer, queries each interface for the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_attributes">WLAN_CONNECTION_ATTRIBUTES</a> on the interface, and prints values from the retrieved <b>WLAN_CONNECTION_ATTRIBUTES</b> structure.
 
-For another example using the <b>WlanQueryInterface</b> function, see the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_radio_state">WLAN_RADIO_STATE</a> structure. 
+For another example using the <b>WlanQueryInterface</b> function, see the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_radio_state">WLAN_RADIO_STATE</a> structure. 
 
 <div class="alert"><b>Note</b>  This example will fail to load on Windows Server 2008 and Windows Server 2008 R2 if the Wireless LAN Service is not installed and started.</div>
 <div> </div>
@@ -591,15 +591,15 @@ int wmain()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_auth_cipher_pair_list">WLAN_AUTH_CIPHER_PAIR_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_auth_cipher_pair_list">WLAN_AUTH_CIPHER_PAIR_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_attributes">WLAN_CONNECTION_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_attributes">WLAN_CONNECTION_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_country_or_region_string_list">WLAN_COUNTRY_OR_REGION_STRING_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_country_or_region_string_list">WLAN_COUNTRY_OR_REGION_STRING_LIST</a>
 
 
 
@@ -615,7 +615,7 @@ int wmain()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_radio_state">WLAN_RADIO_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_radio_state">WLAN_RADIO_STATE</a>
 
 
 

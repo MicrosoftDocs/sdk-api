@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprConfigFilterSetInfo, MprConfigFilterSetInfo function [RAS], mprapi/MprConfigFilterSetInfo, rras.mprconfigfiltersetinfo
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprConfigFilterSetInfo"
+f1_keywords:
+- mprapi/MprConfigFilterSetInfo
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprConfigFilterSetInfo
+- MprConfigFilterSetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -105,7 +105,7 @@ A <b>DWORD</b> value that describes the transport protocol type of the static fi
 
 ### -param lpBuffer [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_filter_0">MPR_FILTER_0</a> structure that contains the filter driver configuration information.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_filter_0">MPR_FILTER_0</a> structure that contains the filter driver configuration information.
 
 
 ## -returns
@@ -143,7 +143,7 @@ If the function fails, the return value is one of the following error codes.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_filter_0">MPR_FILTER_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_filter_0">MPR_FILTER_0</a>
 
 
 

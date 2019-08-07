@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvQueryDeviceSupport, DrvQueryDeviceSupport function [Display Devices], ddifncs_21186d04-cf17-4707-88b4-bd72d5f78b23.xml, display.drvquerydevicesupport, winddi/DrvQueryDeviceSupport
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvQueryDeviceSupport"
+f1_keywords:
+- winddi/DrvQueryDeviceSupport
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvQueryDeviceSupport
+- DrvQueryDeviceSupport
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,12 +61,12 @@ The <b>DrvQueryDeviceSupport</b> function returns requested device-specific info
 
 ### -param pso
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure.
 
 
 ### -param pxlo
 
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_xlateobj">XLATEOBJ</a> structure.
+Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure.
 
 
 ### -param pxo
@@ -148,7 +148,7 @@ The <i>pvIn</i> parameter points to a buffer containing a JPEG-compressed or PNG
 
 </li>
 <li>
-The <i>pxlo</i> parameter is valid but the only information of interest is the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_xlateobj">XLATEOBJ</a> structure's <b>flXlate</b> member. If either the XO_HOST_ICM or XO_DEVICE_ICM flag is set, the driver must only return <b>TRUE</b> if it can convert the image's color space to the printer's color space (or if the two color spaces are the same). For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/color-management-of-jpeg-and-png-images">Color Management of JPEG and PNG Images</a>.
+The <i>pxlo</i> parameter is valid but the only information of interest is the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure's <b>flXlate</b> member. If either the XO_HOST_ICM or XO_DEVICE_ICM flag is set, the driver must only return <b>TRUE</b> if it can convert the image's color space to the printer's color space (or if the two color spaces are the same). For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/color-management-of-jpeg-and-png-images">Color Management of JPEG and PNG Images</a>.
 
 </li>
 </ul>
@@ -162,7 +162,7 @@ For more information about supporting JPEG and PNG compressed images, see the Re
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
 
 
 
@@ -170,7 +170,7 @@ For more information about supporting JPEG and PNG compressed images, see the Re
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_xlateobj">XLATEOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>
  
 
  

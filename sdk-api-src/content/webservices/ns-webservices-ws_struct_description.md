@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_STRUCT_DESCRIPTION, WS_STRUCT_DESCRIPTION structure [Web Services for Windows], webservices/WS_STRUCT_DESCRIPTION, wsw.ws_struct_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_STRUCT_DESCRIPTION"
+f1_keywords:
+- webservices/WS_STRUCT_DESCRIPTION
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_STRUCT_DESCRIPTION
+- WS_STRUCT_DESCRIPTION
 product: Windows
 targetos: Windows
 req.typenames: WS_STRUCT_DESCRIPTION
@@ -140,7 +140,7 @@ The number of types in the subTypes array.  This is only used when
 
 The following is the grammar describing the order of the fields
                 within a structure.  The order is defined based on the
-                mapping field of each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
+                mapping field of each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
             
 
 <pre class="syntax" xml:space="preserve"><code>
@@ -171,7 +171,7 @@ The deserialization process is also restrictive. All the content must be deseria
                 ignored and discarded when <b>WS_STRUCT_IGNORE_UNHANDLED_ATTRIBUTES</b> flag is set.
             
 
-Note that since the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a> structures determine the location
+Note that since the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a> structures determine the location
                 of the actual field within the structure using an offset, there is no restriction
                 as to the actual order of the fields within the structure.
             

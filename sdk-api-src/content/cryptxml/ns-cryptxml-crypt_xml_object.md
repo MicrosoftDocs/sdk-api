@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: b151efb2-8801-451a-83ec-e9045c2e0b81
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_XML_OBJECT, CRYPT_XML_OBJECT, CRYPT_XML_OBJECT structure [Security], PCRYPT_XML_OBJECT, PCRYPT_XML_OBJECT structure pointer [Security], cryptxml/CRYPT_XML_OBJECT, cryptxml/PCRYPT_XML_OBJECT, security.crypt_xml_object"
+ms.keywords: '*PCRYPT_XML_OBJECT, CRYPT_XML_OBJECT, CRYPT_XML_OBJECT structure [Security], PCRYPT_XML_OBJECT, PCRYPT_XML_OBJECT structure pointer [Security], cryptxml/CRYPT_XML_OBJECT, cryptxml/PCRYPT_XML_OBJECT, security.crypt_xml_object'
 ms.topic: struct
-f1_keywords: 
- - "cryptxml/CRYPT_XML_OBJECT"
+f1_keywords:
+- cryptxml/CRYPT_XML_OBJECT
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - CRYPT_XML_OBJECT
+- CRYPT_XML_OBJECT
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_OBJECT, *PCRYPT_XML_OBJECT
@@ -86,12 +86,12 @@ Optional. A pointer to a null-terminated wide character string that contains the
 
 ### -field Manifest
 
-Optional. A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_references">CRYPT_XML_REFERENCES</a> structure that specifies an array of references.
+Optional. A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_references">CRYPT_XML_REFERENCES</a> structure that specifies an array of references.
 
 
 ### -field Encoded
 
-Optional. A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains the XML part of the entire <b>Object</b> element.
+Optional. A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains the XML part of the entire <b>Object</b> element.
 
 <div class="alert"><b>Note</b>  This field is empty when the <b>Object</b> element does not contain
     any elements.

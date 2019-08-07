@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssHardwareSnapshotProviderEx interface,ResyncLuns method, IVssHardwareSnapshotProviderEx.ResyncLuns, IVssHardwareSnapshotProviderEx::ResyncLuns, ResyncLuns, ResyncLuns method, ResyncLuns method,IVssHardwareSnapshotProviderEx interface, base.ivsshardwaresnapshotproviderex_resyncluns, vsprov/IVssHardwareSnapshotProviderEx::ResyncLuns
 ms.topic: method
-f1_keywords: 
- - "vsprov/IVssHardwareSnapshotProviderEx.ResyncLuns"
+f1_keywords:
+- vsprov/IVssHardwareSnapshotProviderEx.ResyncLuns
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsProv.h
+- VsProv.h
 api_name:
- - IVssHardwareSnapshotProviderEx.ResyncLuns
+- IVssHardwareSnapshotProviderEx.ResyncLuns
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,12 +63,12 @@ The VSS service calls this method to notify hardware providers that a LUN resync
 
 ### -param pSourceLuns [in]
 
-A pointer to an array of <i>dwCount</i> <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structures,  one for each LUN that contributes to the shadow copy volume.
+A pointer to an array of <i>dwCount</i> <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures,  one for each LUN that contributes to the shadow copy volume.
 
 
 ### -param pTargetLuns [in]
 
-A pointer to an array of <i>dwCount</i> <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structures,  one for each LUN that contributes to the destination volume where the contents of the shadow copy volume are to be copied.
+A pointer to an array of <i>dwCount</i> <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures,  one for each LUN that contributes to the destination volume where the contents of the shadow copy volume are to be copied.
 
 
 ### -param dwCount [in]

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngDeleteDriverObj, EngDeleteDriverObj function [Display Devices], display.engdeletedriverobj, gdifncs_6aada185-b1c4-4b55-9bc0-cc89d0bc67d4.xml, winddi/EngDeleteDriverObj
 ms.topic: function
-f1_keywords: 
- - "winddi/EngDeleteDriverObj"
+f1_keywords:
+- winddi/EngDeleteDriverObj
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngDeleteDriverObj
+- EngDeleteDriverObj
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Handle to the driver object that is to be deleted. This GDI handle was obtained 
 
 ### -param bCallBack
 
-Specifies whether the cleanup callback should be called. If <b>TRUE</b>, GDI invokes the cleanup callback before removing the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_driverobj">DRIVEROBJ</a> from the handle manager. If <b>FALSE</b>, GDI does not do so. If the callback function returns failure, <b>EngDeleteDriverObj</b> will fail.
+Specifies whether the cleanup callback should be called. If <b>TRUE</b>, GDI invokes the cleanup callback before removing the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-driverobj">DRIVEROBJ</a> from the handle manager. If <b>FALSE</b>, GDI does not do so. If the callback function returns failure, <b>EngDeleteDriverObj</b> will fail.
 
 
 ### -param bLocked
@@ -103,7 +103,7 @@ The <i>bLocked</i> parameter indicates to GDI that the object has already been l
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_driverobj">DRIVEROBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-driverobj">DRIVEROBJ</a>
 
 
 

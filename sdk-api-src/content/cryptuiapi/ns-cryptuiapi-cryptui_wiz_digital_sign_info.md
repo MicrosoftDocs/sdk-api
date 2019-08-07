@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 22d0bc45-0f66-4f5f-87d3-0849c4327eed
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, 0, CRYPTUI_WIZ_DIGITAL_SIGN_ADD_CHAIN, CRYPTUI_WIZ_DIGITAL_SIGN_ADD_CHAIN_NO_ROOT, CRYPTUI_WIZ_DIGITAL_SIGN_CERT, CRYPTUI_WIZ_DIGITAL_SIGN_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_INFO structure [Security], CRYPTUI_WIZ_DIGITAL_SIGN_PVK, CRYPTUI_WIZ_DIGITAL_SIGN_STORE, CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_BLOB, CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_FILE, PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, PCRYPTUI_WIZ_DIGITAL_SIGN_INFO structure pointer [Security], cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_INFO, cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, security.cryptui_wiz_digital_sign_info"
+ms.keywords: '*PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, 0, CRYPTUI_WIZ_DIGITAL_SIGN_ADD_CHAIN, CRYPTUI_WIZ_DIGITAL_SIGN_ADD_CHAIN_NO_ROOT, CRYPTUI_WIZ_DIGITAL_SIGN_CERT, CRYPTUI_WIZ_DIGITAL_SIGN_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_INFO structure [Security], CRYPTUI_WIZ_DIGITAL_SIGN_PVK, CRYPTUI_WIZ_DIGITAL_SIGN_STORE, CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_BLOB, CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_FILE, PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, PCRYPTUI_WIZ_DIGITAL_SIGN_INFO structure pointer [Security], cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_INFO, cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, security.cryptui_wiz_digital_sign_info'
 ms.topic: struct
-f1_keywords: 
- - "cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_INFO"
+f1_keywords:
+- cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_INFO
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cryptuiapi.h
+- Cryptuiapi.h
 api_name:
- - CRYPTUI_WIZ_DIGITAL_SIGN_INFO
+- CRYPTUI_WIZ_DIGITAL_SIGN_INFO
 product: Windows
 targetos: Windows
 req.typenames: CRYPTUI_WIZ_DIGITAL_SIGN_INFO, *PCRYPTUI_WIZ_DIGITAL_SIGN_INFO
@@ -136,7 +136,7 @@ A value that specifies the location of the certificate that is used to sign the 
 </dl>
 </td>
 <td width="60%">
-The certificate is contained in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure pointed to by the <b>pSigningCertContext</b> member.
+The certificate is contained in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure pointed to by the <b>pSigningCertContext</b> member.
 
 </td>
 </tr>
@@ -176,7 +176,7 @@ The certificates in the My store are used.
 
 ### -field pSigningCertContext
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_CERT</b> is specified for the <b>dwSigningCertChoice</b> member.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_CERT</b> is specified for the <b>dwSigningCertChoice</b> member.
 
 
 ### -field pSigningCertStore

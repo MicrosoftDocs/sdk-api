@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_REQUESTED_INFORMATION, OPM_REQUESTED_INFORMATION structure [Media Foundation], _OPM_REQUESTED_INFORMATION, ksopmapi/OPM_REQUESTED_INFORMATION, mf.opm_requested_information
 ms.topic: struct
-f1_keywords: 
- - "ksopmapi/OPM_REQUESTED_INFORMATION"
+f1_keywords:
+- ksopmapi/OPM_REQUESTED_INFORMATION
 req.header: ksopmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ksopmapi.h
+- ksopmapi.h
 api_name:
- - OPM_REQUESTED_INFORMATION
+- OPM_REQUESTED_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: OPM_REQUESTED_INFORMATION
@@ -61,7 +61,7 @@ Contains the result of an <a href="https://docs.microsoft.com/windows/desktop/me
 
 ### -field omac
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_omac">OPM_OMAC</a> structure that contains a Message Authentication Code (MAC) of the status data. The driver will use AES-based one-key CBC MAC (OMAC) to calculate this value.
+An <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_omac">OPM_OMAC</a> structure that contains a Message Authentication Code (MAC) of the status data. The driver will use AES-based one-key CBC MAC (OMAC) to calculate this value.
 
 
 ### -field cbRequestedInformationSize

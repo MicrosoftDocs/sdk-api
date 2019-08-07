@@ -8,10 +8,10 @@ tech.root: power
 ms.assetid: ea1eae62-26b4-4f5d-a9ca-0a7bb463b90a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPROCESSOR_POWER_POLICY, PPROCESSOR_POWER_POLICY, PPROCESSOR_POWER_POLICY structure pointer, PROCESSOR_POWER_POLICY, PROCESSOR_POWER_POLICY structure, _PROCESSOR_POWER_POLICY, _win32_processor_power_policy_str, base.processor_power_policy_str, winnt/PPROCESSOR_POWER_POLICY, winnt/PROCESSOR_POWER_POLICY"
+ms.keywords: '*PPROCESSOR_POWER_POLICY, PPROCESSOR_POWER_POLICY, PPROCESSOR_POWER_POLICY structure pointer, PROCESSOR_POWER_POLICY, PROCESSOR_POWER_POLICY structure, _PROCESSOR_POWER_POLICY, _win32_processor_power_policy_str, base.processor_power_policy_str, winnt/PPROCESSOR_POWER_POLICY, winnt/PROCESSOR_POWER_POLICY'
 ms.topic: struct
-f1_keywords: 
- - "winnt/PROCESSOR_POWER_POLICY"
+f1_keywords:
+- winnt/PROCESSOR_POWER_POLICY
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - PROCESSOR_POWER_POLICY
+- PROCESSOR_POWER_POLICY
 product: Windows
 targetos: Windows
 req.typenames: PROCESSOR_POWER_POLICY, *PPROCESSOR_POWER_POLICY
@@ -93,7 +93,7 @@ The number of elements in the <b>Policy</b> array.
 ### -field Policy
 
 An array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_power_policy_info">PROCESSOR_POWER_POLICY_INFO</a> structures that defines values used to apply processor C-state policy settings. Policy[0] corresponds to ACPI C-state C1, Policy[1] corresponds to C2, and Policy[2] corresponds to C3. The <b>AllowPromotion</b> member determines whether the processor can be promoted to the state. For example, if Policy[0].AllowPromotion is 0, the computer cannot transition from C0 to C1.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_power_policy_info">PROCESSOR_POWER_POLICY_INFO</a> structures that defines values used to apply processor C-state policy settings. Policy[0] corresponds to ACPI C-state C1, Policy[1] corresponds to C2, and Policy[2] corresponds to C3. The <b>AllowPromotion</b> member determines whether the processor can be promoted to the state. For example, if Policy[0].AllowPromotion is 0, the computer cannot transition from C0 to C1.
 
 
 ## -see-also
@@ -105,7 +105,7 @@ An array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_power_policy_info">PROCESSOR_POWER_POLICY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_power_policy_info">PROCESSOR_POWER_POLICY_INFO</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: ProcThread
 ms.assetid: e736aefa-9945-4526-84d8-adb6e82b9991
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRTL_USER_PROCESS_PARAMETERS, PRTL_USER_PROCESS_PARAMETERS, PRTL_USER_PROCESS_PARAMETERS structure pointer, RTL_USER_PROCESS_PARAMETERS, RTL_USER_PROCESS_PARAMETERS structure, base.rtl_user_process_parameters, winternl/PRTL_USER_PROCESS_PARAMETERS, winternl/RTL_USER_PROCESS_PARAMETERS"
+ms.keywords: '*PRTL_USER_PROCESS_PARAMETERS, PRTL_USER_PROCESS_PARAMETERS, PRTL_USER_PROCESS_PARAMETERS structure pointer, RTL_USER_PROCESS_PARAMETERS, RTL_USER_PROCESS_PARAMETERS structure, base.rtl_user_process_parameters, winternl/PRTL_USER_PROCESS_PARAMETERS, winternl/RTL_USER_PROCESS_PARAMETERS'
 ms.topic: struct
-f1_keywords: 
- - "winternl/RTL_USER_PROCESS_PARAMETERS"
+f1_keywords:
+- winternl/RTL_USER_PROCESS_PARAMETERS
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winternl.h
+- Winternl.h
 api_name:
- - RTL_USER_PROCESS_PARAMETERS
+- RTL_USER_PROCESS_PARAMETERS
 product: Windows
 targetos: Windows
 req.typenames: RTL_USER_PROCESS_PARAMETERS, *PRTL_USER_PROCESS_PARAMETERS
@@ -86,7 +86,7 @@ The command-line string passed to the process.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-_peb">PEB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-peb">PEB</a>
  
 
  

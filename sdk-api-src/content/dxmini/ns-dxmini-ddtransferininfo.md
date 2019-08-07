@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 9e5f938d-0db6-4df6-a9c2-49840fef8c03
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDDTRANSFERININFO, DDTRANSFERININFO, DDTRANSFERININFO structure [Display Devices], PDDTRANSFERININFO, PDDTRANSFERININFO structure pointer [Display Devices], Video_Structs_2585fa9a-a3ea-4bc0-a5b8-1911262203ba.xml, display.ddtransferininfo, dxmini/DDTRANSFERININFO, dxmini/PDDTRANSFERININFO"
+ms.keywords: '*PDDTRANSFERININFO, DDTRANSFERININFO, DDTRANSFERININFO structure [Display Devices], PDDTRANSFERININFO, PDDTRANSFERININFO structure pointer [Display Devices], Video_Structs_2585fa9a-a3ea-4bc0-a5b8-1911262203ba.xml, display.ddtransferininfo, dxmini/DDTRANSFERININFO, dxmini/PDDTRANSFERININFO'
 ms.topic: struct
-f1_keywords: 
- - "dxmini/DDTRANSFERININFO"
+f1_keywords:
+- dxmini/DDTRANSFERININFO
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxmini.h
+- dxmini.h
 api_name:
- - DDTRANSFERININFO
+- DDTRANSFERININFO
 product: Windows
 targetos: Windows
 req.typenames: DDTRANSFERININFO, *PDDTRANSFERININFO
@@ -61,7 +61,7 @@ The DDTRANSFERININFO structure contains the transfer information for the surface
 
 ### -field lpSurfaceData
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddsurfacedata">DDSURFACEDATA</a> structure that represents the surface that contains the information to be transferred. The information in this structure is supplied by DirectDraw. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a> structure that represents the surface that contains the information to be transferred. The information in this structure is supplied by DirectDraw. 
 
 
 ### -field dwStartLine
@@ -76,7 +76,7 @@ Indicates the last line in the surface from which data is transferred, inclusive
 
 ### -field dwTransferID
 
-Specifies an identification for the transfer supplied by DirectDraw. This transfer ID is used by the driver in the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddgettransferstatusoutinfo">DDGETTRANSFERSTATUSOUTINFO</a> structure. 
+Specifies an identification for the transfer supplied by DirectDraw. This transfer ID is used by the driver in the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddgettransferstatusoutinfo">DDGETTRANSFERSTATUSOUTINFO</a> structure. 
 
 
 ### -field dwTransferFlags
@@ -152,11 +152,11 @@ Points to a destination <a href="https://docs.microsoft.com/windows-hardware/dri
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddgettransferstatusoutinfo">DDGETTRANSFERSTATUSOUTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddgettransferstatusoutinfo">DDGETTRANSFERSTATUSOUTINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddsurfacedata">DDSURFACEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a>
 
 
 

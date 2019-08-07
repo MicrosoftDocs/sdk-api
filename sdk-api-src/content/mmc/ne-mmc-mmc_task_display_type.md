@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_TASK_DISPLAY_TYPE, MMC_TASK_DISPLAY_TYPE enumeration [MMC], MMC_TASK_DISPLAY_TYPE_BITMAP, MMC_TASK_DISPLAY_TYPE_CHOCOLATE_GIF, MMC_TASK_DISPLAY_TYPE_SYMBOL, MMC_TASK_DISPLAY_TYPE_VANILLA_GIF, MMC_TASK_DISPLAY_UNINITIALIZED, _slate_mmc_task_display_type, mmc.mmc_task_display_type, mmc/MMC_TASK_DISPLAY_TYPE, mmc/MMC_TASK_DISPLAY_TYPE_BITMAP, mmc/MMC_TASK_DISPLAY_TYPE_CHOCOLATE_GIF, mmc/MMC_TASK_DISPLAY_TYPE_SYMBOL, mmc/MMC_TASK_DISPLAY_TYPE_VANILLA_GIF, mmc/MMC_TASK_DISPLAY_UNINITIALIZED
 ms.topic: enum
-f1_keywords: 
- - "mmc/MMC_TASK_DISPLAY_TYPE"
+f1_keywords:
+- mmc/MMC_TASK_DISPLAY_TYPE
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - MMC_TASK_DISPLAY_TYPE
+- MMC_TASK_DISPLAY_TYPE
 product: Windows
 targetos: Windows
 req.typenames: MMC_TASK_DISPLAY_TYPE
@@ -56,15 +56,15 @@ The
 
 The 
 <b>MMC_TASK_DISPLAY_TYPE</b> enumeration defines the types of image that can be displayed for a task or the background on a taskpad. These values are used in the <b>eDisplayType</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_object">MMC_TASK_DISPLAY_OBJECT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_task_display_object">MMC_TASK_DISPLAY_OBJECT</a> structure.
 
 For that which displays the task image, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_object">MMC_TASK_DISPLAY_OBJECT</a> structure is the <b>sDisplayObject</b> member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_task_display_object">MMC_TASK_DISPLAY_OBJECT</a> structure is the <b>sDisplayObject</b> member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task">MMC_TASK</a> structure, which is filled in by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ienumtask-next">IEnumTASK::Next</a> method.
 
 For that which displays the background image, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_object">MMC_TASK_DISPLAY_OBJECT</a> structure is filled in by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_task_display_object">MMC_TASK_DISPLAY_OBJECT</a> structure is filled in by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-getbackground">IExtendTaskPad::GetBackground</a> method.
 
 

@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 2831b2a9-0f84-4e41-a666-5903fc882965
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_TIMESTAMP_CONTEXT, CRYPT_TIMESTAMP_CONTEXT, CRYPT_TIMESTAMP_CONTEXT structure [Security], PCRYPT_TIMESTAMP_CONTEXT, PCRYPT_TIMESTAMP_CONTEXT structure pointer [Security], security.crypt_timestamp_context, wincrypt/CRYPT_TIMESTAMP_CONTEXT, wincrypt/PCRYPT_TIMESTAMP_CONTEXT"
+ms.keywords: '*PCRYPT_TIMESTAMP_CONTEXT, CRYPT_TIMESTAMP_CONTEXT, CRYPT_TIMESTAMP_CONTEXT structure [Security], PCRYPT_TIMESTAMP_CONTEXT, PCRYPT_TIMESTAMP_CONTEXT structure pointer [Security], security.crypt_timestamp_context, wincrypt/CRYPT_TIMESTAMP_CONTEXT, wincrypt/PCRYPT_TIMESTAMP_CONTEXT'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_TIMESTAMP_CONTEXT"
+f1_keywords:
+- wincrypt/CRYPT_TIMESTAMP_CONTEXT
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_TIMESTAMP_CONTEXT
+- CRYPT_TIMESTAMP_CONTEXT
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_TIMESTAMP_CONTEXT, *PCRYPT_TIMESTAMP_CONTEXT
@@ -71,5 +71,5 @@ A pointer to a buffer that contains an <a href="https://docs.microsoft.com/windo
 
 ### -field pTimeStamp
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_timestamp_info">CRYPT_TIMESTAMP_INFO</a> structure that contains a signed data content type in Cryptographic Message Syntax (CMS) format.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_info">CRYPT_TIMESTAMP_INFO</a> structure that contains a signed data content type in Cryptographic Message Syntax (CMS) format.
 

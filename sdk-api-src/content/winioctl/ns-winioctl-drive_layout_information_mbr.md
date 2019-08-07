@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 71c361fe-8c85-4915-9776-8ad3f5837e11
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR structure [Files], PDRIVE_LAYOUT_INFORMATION_MBR, PDRIVE_LAYOUT_INFORMATION_MBR structure pointer [Files], _win32_drive_layout_information_mbr_str, base.drive_layout_information_mbr_str, fs.drive_layout_information_mbr_str, winioctl/DRIVE_LAYOUT_INFORMATION_MBR, winioctl/PDRIVE_LAYOUT_INFORMATION_MBR"
+ms.keywords: '*PDRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR structure [Files], PDRIVE_LAYOUT_INFORMATION_MBR, PDRIVE_LAYOUT_INFORMATION_MBR structure pointer [Files], _win32_drive_layout_information_mbr_str, base.drive_layout_information_mbr_str, fs.drive_layout_information_mbr_str, winioctl/DRIVE_LAYOUT_INFORMATION_MBR, winioctl/PDRIVE_LAYOUT_INFORMATION_MBR'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/DRIVE_LAYOUT_INFORMATION_MBR"
+f1_keywords:
+- winioctl/DRIVE_LAYOUT_INFORMATION_MBR
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - DRIVE_LAYOUT_INFORMATION_MBR
+- DRIVE_LAYOUT_INFORMATION_MBR
 product: Windows
 targetos: Windows
 req.typenames: DRIVE_LAYOUT_INFORMATION_MBR, *PDRIVE_LAYOUT_INFORMATION_MBR
@@ -79,7 +79,7 @@ The signature of the drive.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_drive_layout_information_gpt">DRIVE_LAYOUT_INFORMATION_GPT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-drive_layout_information_gpt">DRIVE_LAYOUT_INFORMATION_GPT</a>
 
 
 

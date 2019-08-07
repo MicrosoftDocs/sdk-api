@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsSendFaultMessageForError, WsSendFaultMessageForError function [Web Services for Windows], webservices/WsSendFaultMessageForError, wsw.wssendfaultmessageforerror
 ms.topic: function
-f1_keywords: 
- - "webservices/WsSendFaultMessageForError"
+f1_keywords:
+- webservices/WsSendFaultMessageForError
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsSendFaultMessageForError
+- WsSendFaultMessageForError
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -277,7 +277,7 @@ This function may return other errors not listed above.
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_fault">WS_FAULT</a> that is sent in the body of the message
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a> that is sent in the body of the message
                 is constructed using the same rules as defined by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatefaultfromerror">WsCreateFaultFromError</a>.
             
 

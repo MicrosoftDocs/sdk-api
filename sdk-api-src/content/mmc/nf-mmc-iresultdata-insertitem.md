@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IResultData interface [MMC],InsertItem method, IResultData.InsertItem, IResultData2 interface [MMC],InsertItem method, IResultData2::InsertItem, IResultData::InsertItem, InsertItem, InsertItem method [MMC], InsertItem method [MMC],IResultData interface, InsertItem method [MMC],IResultData2 interface, _slate_iresultdata_insertitem, mmc.iresultdata_insertitem, mmc/IResultData2::InsertItem, mmc/IResultData::InsertItem
 ms.topic: method
-f1_keywords: 
- - "mmc/IResultData.InsertItem"
+f1_keywords:
+- mmc/IResultData.InsertItem
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IResultData.InsertItem
- - IResultData2.InsertItem
+- IResultData.InsertItem
+- IResultData2.InsertItem
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The <b>IResultData::InsertItem</b> method enables the snap-in to add a single ne
 ### -param item [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_resultdataitem">RESULTDATAITEM</a> structure that contains information about the item to be added.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-resultdataitem">RESULTDATAITEM</a> structure that contains information about the item to be added.
 
 After the item is inserted, a unique identifier (an item ID) is assigned to it by MMC and returned through the <b>itemID</b> member of the structure pointed to by the item parameter. Be aware that the <b>itemID</b> value is the <b>HRESULTITEM</b> handle of the inserted item. The snap-in should store this value in order to later manipulate the inserted item by calling methods such as <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-getitem">IResultData::GetItem</a>.
 
@@ -85,10 +85,10 @@ This method can return one of these values.
 
 
 The mask and all appropriate associated fields in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_resultdataitem">RESULTDATAITEM</a> structure should be filled out. Subitems cannot be inserted but can be set. The <b>nCol</b> member of the item structure must therefore be zero.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-resultdataitem">RESULTDATAITEM</a> structure should be filled out. Subitems cannot be inserted but can be set. The <b>nCol</b> member of the item structure must therefore be zero.
 
 The str member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_resultdataitem">RESULTDATAITEM</a> must be set to <b>MMC_CALLBACK</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-resultdataitem">RESULTDATAITEM</a> must be set to <b>MMC_CALLBACK</b>.
 
 After the item is inserted, a unique identifier (an item ID) is assigned to it by MMC and returned through the <b>itemID</b> member of the structure pointed to by the item parameter. Be aware that the <b>itemID</b> value is the <b>HRESULTITEM</b> handle of the inserted item. The snap-in should store this value in order to later manipulate the inserted item by calling methods such as <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-getitem">IResultData::GetItem</a>.
 

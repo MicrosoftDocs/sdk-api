@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCertificateEnumerator, GetCertificateEnumerator method [Open Packaging Conventions], GetCertificateEnumerator method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetCertificateEnumerator method, IOpcDigitalSignature.GetCertificateEnumerator, IOpcDigitalSignature::GetCertificateEnumerator, msopc/IOpcDigitalSignature::GetCertificateEnumerator, opc.iopcdigitalsignature_getcertificateenumerator
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcDigitalSignature.GetCertificateEnumerator"
+f1_keywords:
+- msopc/IOpcDigitalSignature.GetCertificateEnumerator
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcDigitalSignature.GetCertificateEnumerator
+- IOpcDigitalSignature.GetCertificateEnumerator
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Gets an enumerator of certificates that are used in the signature.
 
 ### -param certificateEnumerator [out, retval]
 
-A pointer to an enumerator of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structures that are used in the signature.
+A pointer to an enumerator of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures that are used in the signature.
 
 
 ## -returns

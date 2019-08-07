@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISC_REQ_ALLOCATE_MEMORY, ISC_REQ_CONNECTION, ISC_REQ_DATAGRAM, ISC_REQ_DELEGATE, ISC_REQ_EXTENDED_ERROR, ISC_REQ_INTEGRITY, ISC_REQ_MUTUAL_AUTH, ISC_REQ_PROMPT_FOR_CREDS, ISC_REQ_REPLAY_DETECT, ISC_REQ_SEQUENCE_DETECT, ISC_REQ_STREAM, ISC_REQ_USE_DCE_STYLE, ISC_REQ_USE_SESSION_KEY, ISC_REQ_USE_SUPPLIED_CREDS, SpInitLsaModeContext, SpInitLsaModeContext callback function [Security], SpInitLsaModeContextFn, SpInitLsaModeContextFn callback, _ssp_spinitlsamodecontext, ntsecpkg/SpInitLsaModeContext, security.spinitlsamodecontext
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/SpInitLsaModeContext"
+f1_keywords:
+- ntsecpkg/SpInitLsaModeContext
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SpInitLsaModeContext
+- SpInitLsaModeContext
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,7 +76,7 @@ Optional. Handle to the context to use as the basis for this context. <i>Context
 ### -param TargetName [in]
 
 Optional. Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the name of the target of the context. The content of <i>TargetName</i> is package-specific and is not interpreted by the LSA.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the name of the target of the context. The content of <i>TargetName</i> is package-specific and is not interpreted by the LSA.
 
 
 ### -param ContextRequirements [in]
@@ -310,7 +310,7 @@ The
 SSP/APs must implement the <b>SpInitLsaModeContext</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpInitLsaModeContext</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 
@@ -329,7 +329,7 @@ A pointer to the <b>SpInitLsaModeContext</b> function is available in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 

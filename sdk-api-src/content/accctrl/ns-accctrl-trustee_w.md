@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: 120e93eb-680f-4f86-879d-bc2de10d4641
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTRUSTEEW, *PTRUSTEE_W, PTRUSTEE, PTRUSTEE structure pointer [Security], TRUSTEE, TRUSTEE structure [Security], TRUSTEEW, TRUSTEE_, TRUSTEE_A, TRUSTEE_IS_NAME, TRUSTEE_IS_OBJECTS_AND_NAME, TRUSTEE_IS_OBJECTS_AND_SID, TRUSTEE_IS_SID, TRUSTEE_W, _win32_trustee_str, accctrl/PTRUSTEE, accctrl/TRUSTEE, accctrl/TRUSTEE_A, accctrl/TRUSTEE_W, security.trustee"
+ms.keywords: '*PTRUSTEEW, *PTRUSTEE_W, PTRUSTEE, PTRUSTEE structure pointer [Security], TRUSTEE, TRUSTEE structure [Security], TRUSTEEW, TRUSTEE_, TRUSTEE_A, TRUSTEE_IS_NAME, TRUSTEE_IS_OBJECTS_AND_NAME, TRUSTEE_IS_OBJECTS_AND_SID, TRUSTEE_IS_SID, TRUSTEE_W, _win32_trustee_str, accctrl/PTRUSTEE, accctrl/TRUSTEE, accctrl/TRUSTEE_A, accctrl/TRUSTEE_W, security.trustee'
 ms.topic: struct
-f1_keywords: 
- - "accctrl/TRUSTEE"
+f1_keywords:
+- accctrl/TRUSTEE
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AccCtrl.h
+- AccCtrl.h
 api_name:
- - TRUSTEE
- - TRUSTEE_A
- - TRUSTEE_W
+- TRUSTEE
+- TRUSTEE_A
+- TRUSTEE_W
 product: Windows
 targetos: Windows
 req.typenames: TRUSTEE_W, *PTRUSTEE_W, TRUSTEEW, *PTRUSTEEW
@@ -73,19 +73,19 @@ A pointer to a <b>TRUSTEE</b> structure that identifies a server account that ca
 ### -field MultipleTrusteeOperation
 
 A value of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_multiple_trustee_operation">MULTIPLE_TRUSTEE_OPERATION</a> enumeration type. Currently, this member must be NO_MULTIPLE_TRUSTEE.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-multiple_trustee_operation">MULTIPLE_TRUSTEE_OPERATION</a> enumeration type. Currently, this member must be NO_MULTIPLE_TRUSTEE.
 
 
 ### -field TrusteeForm
 
 A value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_trustee_form">TRUSTEE_FORM</a> enumeration type that indicates the type of data pointed to by the <b>ptstrName</b> member.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-trustee_form">TRUSTEE_FORM</a> enumeration type that indicates the type of data pointed to by the <b>ptstrName</b> member.
 
 
 ### -field TrusteeType
 
 A value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_trustee_type">TRUSTEE_TYPE</a> enumeration type that indicates whether the trustee is a user account, a group account, or an unknown account type.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-trustee_type">TRUSTEE_TYPE</a> enumeration type that indicates whether the trustee is a user account, a group account, or an unknown account type.
 
 
 ### -field ptstrName.case
@@ -256,7 +256,7 @@ A trustee SID can be any user or group SID. It can also be any of the <a href="h
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
@@ -268,7 +268,7 @@ A trustee SID can be any user or group SID. It can also be any of the <a href="h
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_multiple_trustee_operation">MULTIPLE_TRUSTEE_OPERATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-multiple_trustee_operation">MULTIPLE_TRUSTEE_OPERATION</a>
 
 
 
@@ -280,7 +280,7 @@ A trustee SID can be any user or group SID. It can also be any of the <a href="h
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 
@@ -288,11 +288,11 @@ A trustee SID can be any user or group SID. It can also be any of the <a href="h
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_trustee_form">TRUSTEE_FORM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-trustee_form">TRUSTEE_FORM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_trustee_type">TRUSTEE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-trustee_type">TRUSTEE_TYPE</a>
  
 
  

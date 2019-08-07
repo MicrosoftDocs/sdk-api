@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCategories, GetCategories method [Windows Shell], GetCategories method [Windows Shell],IAppPublisher interface, IAppPublisher interface [Windows Shell],GetCategories method, IAppPublisher.GetCategories, IAppPublisher::GetCategories, inet_IAppPublisher_GetCategories, shappmgr/IAppPublisher::GetCategories, shell.IAppPublisher_GetCategories
 ms.topic: method
-f1_keywords: 
- - "shappmgr/IAppPublisher.GetCategories"
+f1_keywords:
+- shappmgr/IAppPublisher.GetCategories
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shappmgr.h
+- Shappmgr.h
 api_name:
- - IAppPublisher.GetCategories
+- IAppPublisher.GetCategories
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ Retrieves a structure listing the categories provided by an application publishe
 
 ### -param pAppCategoryList [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_appcategoryinfolist">APPCATEGORYINFOLIST</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfolist">APPCATEGORYINFOLIST</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_appcategoryinfolist">APPCATEGORYINFOLIST</a> structure. This structure's <b>cCategory</b> member returns the count of supported categories. The <b>pCategoryInfo</b> member returns a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_appcategoryinfo">APPCATEGORYINFO</a> structures. This array contains all the categories an application publisher supports and must be allocated using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and freed using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfolist">APPCATEGORYINFOLIST</a> structure. This structure's <b>cCategory</b> member returns the count of supported categories. The <b>pCategoryInfo</b> member returns a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfo">APPCATEGORYINFO</a> structures. This array contains all the categories an application publisher supports and must be allocated using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and freed using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 ## -returns
@@ -86,7 +86,7 @@ The Add/Remove Programs Control Panel Application passes the ID returned for a c
 
 #### Examples
 
-The following example shows how to calculate the size of the array of <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_appcategoryinfo">APPCATEGORYINFO</a> structures that is returned by <b>IAppPublisher::GetCategories</b>.
+The following example shows how to calculate the size of the array of <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfo">APPCATEGORYINFO</a> structures that is returned by <b>IAppPublisher::GetCategories</b>.
 
 
 ```cpp
@@ -102,11 +102,11 @@ size_t CategoryListArraySize = sizeof(APPCATEGORYINFO) * pInfoList->cCategory;
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_appcategoryinfo">APPCATEGORYINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfo">APPCATEGORYINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_appcategoryinfolist">APPCATEGORYINFOLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfolist">APPCATEGORYINFOLIST</a>
 
 
 

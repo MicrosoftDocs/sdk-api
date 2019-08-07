@@ -8,10 +8,10 @@ tech.root: Clfs
 ms.assetid: a2d50d1d-f4cb-48de-be73-4858adfa951f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCLFS_ARCHIVE_DESCRIPTOR, *PCLS_ARCHIVE_DESCRIPTOR, CLFS_ARCHIVE_DESCRIPTOR, CLFS_ARCHIVE_DESCRIPTOR structure [Files], CLS_ARCHIVE_DESCRIPTOR, PCLFS_ARCHIVE_DESCRIPTOR, PCLFS_ARCHIVE_DESCRIPTOR structure pointer [Files], PPCLFS_ARCHIVE_DESCRIPTOR, PPCLFS_ARCHIVE_DESCRIPTOR structure pointer [Files], PPCLS_ARCHIVE_DESCRIPTOR, clfs/CLFS_ARCHIVE_DESCRIPTOR, clfs/PCLFS_ARCHIVE_DESCRIPTOR, clfs/PPCLFS_ARCHIVE_DESCRIPTOR, fs.clfs_archive_descriptor"
+ms.keywords: '*PCLFS_ARCHIVE_DESCRIPTOR, *PCLS_ARCHIVE_DESCRIPTOR, CLFS_ARCHIVE_DESCRIPTOR, CLFS_ARCHIVE_DESCRIPTOR structure [Files], CLS_ARCHIVE_DESCRIPTOR, PCLFS_ARCHIVE_DESCRIPTOR, PCLFS_ARCHIVE_DESCRIPTOR structure pointer [Files], PPCLFS_ARCHIVE_DESCRIPTOR, PPCLFS_ARCHIVE_DESCRIPTOR structure pointer [Files], PPCLS_ARCHIVE_DESCRIPTOR, clfs/CLFS_ARCHIVE_DESCRIPTOR, clfs/PCLFS_ARCHIVE_DESCRIPTOR, clfs/PPCLFS_ARCHIVE_DESCRIPTOR, fs.clfs_archive_descriptor'
 ms.topic: struct
-f1_keywords: 
- - "clfs/CLFS_ARCHIVE_DESCRIPTOR"
+f1_keywords:
+- clfs/CLFS_ARCHIVE_DESCRIPTOR
 req.header: clfs.h
 req.include-header: Clfsw32.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Clfs.h
+- Clfs.h
 api_name:
- - CLFS_ARCHIVE_DESCRIPTOR
+- CLFS_ARCHIVE_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.typenames: CLS_ARCHIVE_DESCRIPTOR, *PCLS_ARCHIVE_DESCRIPTOR, PPCLS_ARCHIVE_DESCRIPTOR
@@ -71,7 +71,7 @@ The offset in the container to the last byte of the archive extent.
 
 ### -field infoContainer
 
-The container information structure  that describes the container associated with the archive extent. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_container_information">CLFS_CONTAINER_INFORMATION</a>.
+The container information structure  that describes the container associated with the archive extent. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_container_information">CLFS_CONTAINER_INFORMATION</a>.
 
 
 ## -see-also
@@ -79,7 +79,7 @@ The container information structure  that describes the container associated wit
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_container_information">CLFS_CONTAINER_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_container_information">CLFS_CONTAINER_INFORMATION</a>
 
 
 

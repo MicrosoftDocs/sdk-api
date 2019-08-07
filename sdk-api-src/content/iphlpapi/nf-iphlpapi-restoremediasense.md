@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RestoreMediaSense, RestoreMediaSense function [IP Helper], iphlp.restoremediasense, iphlpapi/RestoreMediaSense
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/RestoreMediaSense"
+f1_keywords:
+- iphlpapi/RestoreMediaSense
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - RestoreMediaSense
+- RestoreMediaSense
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>RestoreMediaSense</b> function restores the media sensing capability of t
 ### -param pOverlapped
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure. Except for the <b>hEvent</b> member, all members of this structure must be set to zero. The <b>hEvent</b> member should contain a handle to a valid event object. Use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. Except for the <b>hEvent</b> member, all members of this structure must be set to zero. The <b>hEvent</b> member should contain a handle to a valid event object. Use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function to create this event object.
 
 
@@ -152,14 +152,14 @@ Use
 
 If the <i>pOverlapped</i> parameter is <b>NULL</b>, the <b>RestoreMediaSense</b> function is  executed synchronously. 
 
-If the <i>pOverlapped</i> parameter is not <b>NULL</b>, the <b>RestoreMediaSense</b> function is  executed asynchronously using the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure pointed to by the <i>pOverlapped</i> parameter. 
+If the <i>pOverlapped</i> parameter is not <b>NULL</b>, the <b>RestoreMediaSense</b> function is  executed asynchronously using the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure pointed to by the <i>pOverlapped</i> parameter. 
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> function does not complete until the <b>RestoreMediaSense</b> function is called later to restore the media sensing capability. Until then, an I/O request packet (IRP) remains queued up. Alternatively, when the process that called <b>DisableMediaSense</b> exits, the IRP is canceled and a cancel routine is called that would again restore the media sensing capability. 
 
 
 To call <b>RestoreMediaSense</b> synchronously, an application needs to pass a <b>NULL</b> pointer in the <i>pOverlapped</i> parameter. When <b>RestoreMediaSense</b> is called synchronously, the function returns when the I/O request packet (IRP) to restore the media sense has completed. 
 
-To call <b>RestoreMediaSense</b> asynchronously, an application needs to allocate an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure. Except for the <b>hEvent</b> member, all members of this structure must be set to zero. The <b>hEvent</b> member requires a handle to a valid event object. Use the 
+To call <b>RestoreMediaSense</b> asynchronously, an application needs to allocate an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. Except for the <b>hEvent</b> member, all members of this structure must be set to zero. The <b>hEvent</b> member requires a handle to a valid event object. Use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function to create this event. When called asynchronously, <b>RestoreMediaSense</b> can return return ERROR_IO_PENDING. The IRP completes when the media sensing capability has been restored. Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle to the event object when it is no longer needed. The system closes the handle automatically when the process terminates. The event object is destroyed when its last handle has been closed. 
 
 If <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> was not called prior to calling <b>RestoreMediaSense</b>, then <b>RestoreMediaSense</b> returns ERROR_INVALID_PARAMETER.
@@ -428,7 +428,7 @@ int __cdecl main()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 

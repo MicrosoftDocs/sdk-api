@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: K32QueryWorkingSetEx, QueryWorkingSetEx, QueryWorkingSetEx function [PSAPI], base.queryworkingsetex, psapi.queryworkingsetex, psapi/K32QueryWorkingSetEx, psapi/QueryWorkingSetEx
 ms.topic: function
-f1_keywords: 
- - "psapi/QueryWorkingSetEx"
+f1_keywords:
+- psapi/QueryWorkingSetEx
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if 
 req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - Psapi.dll
- - Psapi.dll
- - API-MS-Win-Core-PsAPI-L1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- Psapi.dll
+- Psapi.dll
+- API-MS-Win-Core-PsAPI-L1-1-0.dll
+- KernelBase.dll
 api_name:
- - QueryWorkingSetEx
- - K32QueryWorkingSetEx
+- QueryWorkingSetEx
+- K32QueryWorkingSetEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</
 ### -param pv [in, out]
 
 A pointer to an array of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_working_set_ex_information">PSAPI_WORKING_SET_EX_INFORMATION</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-psapi_working_set_ex_information">PSAPI_WORKING_SET_EX_INFORMATION</a> 
       structures. On input, each item in the array specifies a virtual address of interest. On output, each item in 
       the array receives information about the corresponding virtual page.
 
@@ -147,7 +147,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_working_set_ex_information">PSAPI_WORKING_SET_EX_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-psapi_working_set_ex_information">PSAPI_WORKING_SET_EX_INFORMATION</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILE_BEGIN, FILE_CURRENT, FILE_END, SetFilePointerEx, SetFilePointerEx function [Files], _win32_setfilepointerex, base.setfilepointerex, fileapi/SetFilePointerEx, fs.setfilepointerex, winbase/SetFilePointerEx
 ms.topic: function
-f1_keywords: 
- - "fileapi/SetFilePointerEx"
+f1_keywords:
+- fileapi/SetFilePointerEx
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - SetFilePointerEx
+- SetFilePointerEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -152,7 +152,7 @@ If the function fails, the return value is zero. To get extended error informati
 The file pointer returned by this function is not used for overlapped read and write operations. To specify 
     the offset for overlapped operations, use the <b>Offset</b> and 
     <b>OffsetHigh</b> members of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure.
+    <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 You cannot use the <b>SetFilePointerEx</b> function with a handle to a nonseeking 
     device such as a pipe or a communications device. To determine the file type for <i>hFile</i>, 

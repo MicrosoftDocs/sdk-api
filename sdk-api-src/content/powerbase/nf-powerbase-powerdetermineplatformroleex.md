@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: POWER_PLATFORM_ROLE_V1, POWER_PLATFORM_ROLE_V2, POWER_PLATFORM_ROLE_VERSION, PowerDeterminePlatformRoleEx, PowerDeterminePlatformRoleEx function, base.powerdetermineplatformroleex, powerbase/PowerDeterminePlatformRoleEx
 ms.topic: function
-f1_keywords: 
- - "powerbase/PowerDeterminePlatformRoleEx"
+f1_keywords:
+- powerbase/PowerDeterminePlatformRoleEx
 req.header: powerbase.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Powrprof.lib
 req.dll: Powrprof.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Powrprof.dll
- - API-MS-Win-power-base-l1-1-0.dll
+- Powrprof.dll
+- API-MS-Win-power-base-l1-1-0.dll
 api_name:
- - PowerDeterminePlatformRoleEx
+- PowerDeterminePlatformRoleEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ Determines the computer role for the specified platform.
 
 ### -param Version [in]
 
-The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_power_platform_role">POWER_PLATFORM_ROLE</a> enumeration for the platform. This parameter can be one of the following values.
+The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a> enumeration for the platform. This parameter can be one of the following values.
 
 <table>
 <tr>
@@ -75,7 +75,7 @@ The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt
 </dl>
 </td>
 <td width="60%">
-The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_power_platform_role">POWER_PLATFORM_ROLE</a> enumeration for the current build target.
+The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a> enumeration for the current build target.
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt
 </dl>
 </td>
 <td width="60%">
-The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_power_platform_role">POWER_PLATFORM_ROLE</a> enumeration for Windows 7, Windows Server 2008 R2, Windows Vista or Windows Server 2008.
+The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a> enumeration for Windows 7, Windows Server 2008 R2, Windows Vista or Windows Server 2008.
 
 Calling <b>PowerDeterminePlatformRoleEx</b> with this value returns the same result as calling <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerdetermineplatformrole">PowerDeterminePlatformRole</a> on Windows 7, Windows Server 2008 R2, Windows Vista or Windows Server 2008. 
 
@@ -97,7 +97,7 @@ Calling <b>PowerDeterminePlatformRoleEx</b> with this value returns the same res
 </dl>
 </td>
 <td width="60%">
-The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_power_platform_role">POWER_PLATFORM_ROLE</a> enumeration for Windows 8 and Windows Server 2012.
+The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a> enumeration for Windows 8 and Windows Server 2012.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt
 
 
 The return value is one of the values from the 
-      specified version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_power_platform_role">POWER_PLATFORM_ROLE</a> enumeration.
+      specified version of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a> enumeration.
 
 
 
@@ -134,7 +134,7 @@ If the OEM preferred computer role is not supported on the platform specified by
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_power_platform_role">POWER_PLATFORM_ROLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a>
 
 
 

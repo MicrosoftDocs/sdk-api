@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ATTRIBUTEINFO, ATTRIBUTEINFO enumeration [Network Policy Server], DESCRIPTION, LDAPNAME, NAME, RESTRICTIONS, SYNTAX, VENDORID, VENDORTYPE, _sdo_attributeinfo, nps.SDO_attributeinfo, sdo.attributeinfo, sdoias/ATTRIBUTEINFO, sdoias/DESCRIPTION, sdoias/LDAPNAME, sdoias/NAME, sdoias/RESTRICTIONS, sdoias/SYNTAX, sdoias/VENDORID, sdoias/VENDORTYPE
 ms.topic: enum
-f1_keywords: 
- - "sdoias/ATTRIBUTEINFO"
+f1_keywords:
+- sdoias/ATTRIBUTEINFO
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - ATTRIBUTEINFO
+- ATTRIBUTEINFO
 product: Windows
 targetos: Windows
 req.typenames: ATTRIBUTEINFO
@@ -68,13 +68,13 @@ The name of the attribute.
 ### -field SYNTAX
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributesyntax">syntax</a> of the attribute.
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributesyntax">syntax</a> of the attribute.
 
 
 ### -field RESTRICTIONS
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributerestrictions">Restrictions</a> on how the attribute can be used.
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributerestrictions">Restrictions</a> on how the attribute can be used.
 
 
 ### -field DESCRIPTION
@@ -102,11 +102,11 @@ The attribute type for Vendor Specific Attributes (VSA).
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributerestrictions">ATTRIBUTERESTRICTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributerestrictions">ATTRIBUTERESTRICTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributesyntax">ATTRIBUTESYNTAX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributesyntax">ATTRIBUTESYNTAX</a>
 
 
 

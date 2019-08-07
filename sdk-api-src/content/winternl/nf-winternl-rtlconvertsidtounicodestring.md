@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlConvertSidToUnicodeString, RtlConvertSidToUnicodeString function [Security], security.rtlconvertsidtounicodestring, winternl/RtlConvertSidToUnicodeString
 ms.topic: function
-f1_keywords: 
- - "winternl/RtlConvertSidToUnicodeString"
+f1_keywords:
+- winternl/RtlConvertSidToUnicodeString
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
+- Ntdll.dll
 api_name:
- - RtlConvertSidToUnicodeString
+- RtlConvertSidToUnicodeString
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ A pointer to the Unicode character representation of the security identifier.
 
 ### -param Sid [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that represents the security identifier.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that represents the security identifier.
 
 
 ### -param AllocateDestinationString [in]

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TdhCreatePayloadFilter, TdhCreatePayloadFilter function [ETW], etw.tdhcreatepayloadfilter, tdh/TdhCreatePayloadFilter
 ms.topic: function
-f1_keywords: 
- - "tdh/TdhCreatePayloadFilter"
+f1_keywords:
+- tdh/TdhCreatePayloadFilter
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Tdh.lib
 req.dll: Tdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tdh.dll
- - Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
+- Tdh.dll
+- Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
 api_name:
- - TdhCreatePayloadFilter
+- TdhCreatePayloadFilter
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -90,7 +90,7 @@ The number of conditions specified in the filter.
 
 ### -param PayloadPredicates [in]
 
-A pointer to an array of  <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_payload_filter_predicate">PAYLOAD_FILTER_PREDICATE</a> structures that contain the list conditions that the filter specifies.
+A pointer to an array of  <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-payload_filter_predicate">PAYLOAD_FILTER_PREDICATE</a> structures that contain the list conditions that the filter specifies.
 
 
 ### -param PayloadFilter [out]
@@ -142,7 +142,7 @@ One or more of the parameters is not valid.
 <td width="60%">
 The resulting payload filter would not fit within
         the <b>MAX_EVENT_FILTER_PAYLOAD_SIZE</b> limit imposed by the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function
-        on the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures in a payload.
+        on the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures in a payload.
 
 
 </td>
@@ -185,7 +185,7 @@ The <b>TdhCreatePayloadFilter</b> function is used to create a single payload fi
 
 For a single provider, multiple events can have distinct payload filters.  There can also be multiple filters for the same event, with a payload being passed to the session if any or all of the event's filters pass it.
 
-The <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function takes an array of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures in  the <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> structures passed in the <i>EnableParameters</i> parameter. There can only be one entry in the array for each event filter type. The <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a> function can be used  to aggregate a list of  payload filters for a single provider created using the <b>TdhCreatePayloadFilter</b> into a single data structure and return an <b>EVENT_FILTER_DESCRIPTOR</b> for use with the <b>EnableTraceEx2</b> function.
+The <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function takes an array of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures in  the <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> structures passed in the <i>EnableParameters</i> parameter. There can only be one entry in the array for each event filter type. The <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a> function can be used  to aggregate a list of  payload filters for a single provider created using the <b>TdhCreatePayloadFilter</b> into a single data structure and return an <b>EVENT_FILTER_DESCRIPTOR</b> for use with the <b>EnableTraceEx2</b> function.
 
 
 #### Examples
@@ -211,7 +211,7 @@ the example for the <a href="https://docs.microsoft.com/windows/desktop/ETW/enab
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
 
 
 
@@ -219,7 +219,7 @@ the example for the <a href="https://docs.microsoft.com/windows/desktop/ETW/enab
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_payload_filter_predicate">PAYLOAD_FILTER_PREDICATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-payload_filter_predicate">PAYLOAD_FILTER_PREDICATE</a>
 
 
 

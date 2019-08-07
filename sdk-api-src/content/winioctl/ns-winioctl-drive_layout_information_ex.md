@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 381c87a8-fe40-4251-a4df-dddc9e2a126d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDRIVE_LAYOUT_INFORMATION_EX, DRIVE_LAYOUT_INFORMATION_EX, DRIVE_LAYOUT_INFORMATION_EX structure [Files], PARTITION_STYLE_GPT, PARTITION_STYLE_MBR, PARTITION_STYLE_RAW, PDRIVE_LAYOUT_INFORMATION_EX, PDRIVE_LAYOUT_INFORMATION_EX structure pointer [Files], _win32_drive_layout_information_ex_str, base.drive_layout_information_ex_str, fs.drive_layout_information_ex_str, winioctl/DRIVE_LAYOUT_INFORMATION_EX, winioctl/PDRIVE_LAYOUT_INFORMATION_EX"
+ms.keywords: '*PDRIVE_LAYOUT_INFORMATION_EX, DRIVE_LAYOUT_INFORMATION_EX, DRIVE_LAYOUT_INFORMATION_EX structure [Files], PARTITION_STYLE_GPT, PARTITION_STYLE_MBR, PARTITION_STYLE_RAW, PDRIVE_LAYOUT_INFORMATION_EX, PDRIVE_LAYOUT_INFORMATION_EX structure pointer [Files], _win32_drive_layout_information_ex_str, base.drive_layout_information_ex_str, fs.drive_layout_information_ex_str, winioctl/DRIVE_LAYOUT_INFORMATION_EX, winioctl/PDRIVE_LAYOUT_INFORMATION_EX'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/DRIVE_LAYOUT_INFORMATION_EX"
+f1_keywords:
+- winioctl/DRIVE_LAYOUT_INFORMATION_EX
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - DRIVE_LAYOUT_INFORMATION_EX
+- DRIVE_LAYOUT_INFORMATION_EX
 product: Windows
 targetos: Windows
 req.typenames: DRIVE_LAYOUT_INFORMATION_EX, *PDRIVE_LAYOUT_INFORMATION_EX
@@ -112,7 +112,7 @@ The number of partitions on the drive. On hard disks with the MBR layout, this v
       <b>PARTITION_ENTRY_UNUSED</b> (0) set in the <b>PartitionType</b> member 
       of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information_mbr">PARTITION_INFORMATION_MBR</a> structure 
       of the <b>Mbr</b> member of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information_ex">PARTITION_INFORMATION_EX</a> structure of the 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a> structure of the 
       <b>PartitionEntry</b> member of this structure.
 
 
@@ -123,20 +123,20 @@ The number of partitions on the drive. On hard disks with the MBR layout, this v
 
 ### -field DUMMYUNIONNAME.Mbr
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_drive_layout_information_mbr">DRIVE_LAYOUT_INFORMATION_MBR</a> 
+A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-drive_layout_information_mbr">DRIVE_LAYOUT_INFORMATION_MBR</a> 
        structure containing information about the master boot record type partitioning on the drive.
 
 
 ### -field DUMMYUNIONNAME.Gpt
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_drive_layout_information_gpt">DRIVE_LAYOUT_INFORMATION_GPT</a> 
+A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-drive_layout_information_gpt">DRIVE_LAYOUT_INFORMATION_GPT</a> 
        structure containing information about the GUID disk partition type partitioning on the drive.
 
 
 ### -field PartitionEntry
 
 A variable-sized array of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information_ex">PARTITION_INFORMATION_EX</a> structures, one 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a> structures, one 
       structure for each partition on the drive.
 
 
@@ -145,11 +145,11 @@ A variable-sized array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_drive_layout_information_gpt">DRIVE_LAYOUT_INFORMATION_GPT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-drive_layout_information_gpt">DRIVE_LAYOUT_INFORMATION_GPT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_drive_layout_information_mbr">DRIVE_LAYOUT_INFORMATION_MBR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-drive_layout_information_mbr">DRIVE_LAYOUT_INFORMATION_MBR</a>
 
 
 
@@ -161,7 +161,7 @@ A variable-sized array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information_ex">PARTITION_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a>
 
 
 

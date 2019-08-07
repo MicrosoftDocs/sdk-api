@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryServiceConfig, QueryServiceConfig function, QueryServiceConfigA, QueryServiceConfigW, _win32_queryserviceconfig, base.queryserviceconfig, winsvc/QueryServiceConfig, winsvc/QueryServiceConfigA, winsvc/QueryServiceConfigW
 ms.topic: function
-f1_keywords: 
- - "winsvc/QueryServiceConfig"
+f1_keywords:
+- winsvc/QueryServiceConfig
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,22 +30,22 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
- - sechost.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - API-MS-Win-Service-management-l2-1-0.dll
- - API-MS-Win-Service-Winsvc-l1-1-0.dll
- - API-MS-Win-Service-Winsvc-l1-2-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+- sechost.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- API-MS-Win-Service-management-l2-1-0.dll
+- API-MS-Win-Service-Winsvc-l1-1-0.dll
+- API-MS-Win-Service-Winsvc-l1-2-0.dll
 api_name:
- - QueryServiceConfig
- - QueryServiceConfigA
- - QueryServiceConfigW
+- QueryServiceConfig
+- QueryServiceConfigA
+- QueryServiceConfigW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -79,7 +79,7 @@ A handle to the service. This handle is returned by the
 ### -param lpServiceConfig [out, optional]
 
 A pointer to a buffer that receives the service configuration information. The format of the data is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_query_service_configa">QUERY_SERVICE_CONFIG</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-query_service_configa">QUERY_SERVICE_CONFIG</a> structure.
 
 The maximum size of this array is 8K bytes. To determine the required size, specify NULL for this parameter and 0 for the <i>cbBufSize</i> parameter. The function will fail and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return ERROR_INSUFFICIENT_BUFFER. The <i>pcbBytesNeeded</i> parameter will receive the required size.
 
@@ -189,7 +189,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_query_service_configa">QUERY_SERVICE_CONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-query_service_configa">QUERY_SERVICE_CONFIG</a>
 
 
 

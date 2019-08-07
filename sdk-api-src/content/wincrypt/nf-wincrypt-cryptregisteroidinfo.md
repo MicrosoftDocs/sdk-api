@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptRegisterOIDInfo, CryptRegisterOIDInfo function [Security], _crypto2_cryptregisteroidinfo, security.cryptregisteroidinfo, wincrypt/CryptRegisterOIDInfo
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptRegisterOIDInfo"
+f1_keywords:
+- wincrypt/CryptRegisterOIDInfo
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptRegisterOIDInfo
+- CryptRegisterOIDInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>CryptRegisterOIDInfo</b> function registers the OID information specified in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_oid_info">CRYPT_OID_INFO</a> structure, persisting it to the registry.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a> structure, persisting it to the registry.
 
 Crypt32.dll contains predefined information for the commonly known OIDs. This function allows applications to augment the predefined OID information. During 
 <b>CryptRegisterOIDInfo</b>'s first call, the registered OID information is installed.
@@ -68,9 +68,9 @@ When expanding the tables using <b>CryptRegisterOIDInfo</b>, the new entries can
 ### -param pInfo [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_oid_info">CRYPT_OID_INFO</a> structure with the OID information to register. Specify the group that the OID information is to be registered for by setting the <b>dwGroupId</b> member of the structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a> structure with the OID information to register. Specify the group that the OID information is to be registered for by setting the <b>dwGroupId</b> member of the structure.
 
-<div class="alert"><b>Note</b>  <p class="note">When registering OID information for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Suite B</a> algorithms implemented with <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography API: Next Generation</a> (CNG), you must set the <b>Algid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_oid_info">CRYPT_OID_INFO</a> structure to <b>CALG_OID_INFO_CNG_ONLY</b> (0xFFFFFFFF).
+<div class="alert"><b>Note</b>  <p class="note">When registering OID information for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Suite B</a> algorithms implemented with <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography API: Next Generation</a> (CNG), you must set the <b>Algid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a> structure to <b>CALG_OID_INFO_CNG_ONLY</b> (0xFFFFFFFF).
 
 </div>
 <div> </div>
@@ -109,11 +109,11 @@ When you have finished using the OID information, unregister it by calling the <
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_oid_info">CRYPT_OID_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a>
 
 
 

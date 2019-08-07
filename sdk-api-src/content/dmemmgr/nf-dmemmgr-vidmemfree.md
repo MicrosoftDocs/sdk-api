@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VidMemFree, VidMemFree function [Display Devices], display.vidmemfree, dmemmgr/VidMemFree, gdifncs_a3a43790-1189-4c79-965c-aa20f04c7405.xml
 ms.topic: function
-f1_keywords: 
- - "dmemmgr/VidMemFree"
+f1_keywords:
+- dmemmgr/VidMemFree
 req.header: dmemmgr.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - VidMemFree
+- VidMemFree
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>VidMemFree</b> function frees <a href="https://docs.microsoft.com/windows
 
 ### -param pvmh [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-_vmemheap">VMEMHEAP</a> structure that represents the DirectDraw heap from which the surface was allocated. The driver obtains this value from the <b>lpHeap</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_videomemory">VIDEOMEMORY</a> structure originally passed to <b>HeapVidMemAllocAligned</b>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-vmemheap">VMEMHEAP</a> structure that represents the DirectDraw heap from which the surface was allocated. The driver obtains this value from the <b>lpHeap</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a> structure originally passed to <b>HeapVidMemAllocAligned</b>.
 
 
 ### -param ptr [in]
@@ -87,11 +87,11 @@ None
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_videomemory">VIDEOMEMORY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-_vmemheap">VMEMHEAP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-vmemheap">VMEMHEAP</a>
  
 
  

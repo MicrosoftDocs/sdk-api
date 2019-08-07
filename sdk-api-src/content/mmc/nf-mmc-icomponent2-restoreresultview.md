@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComponent2 interface [MMC],RestoreResultView method, IComponent2.RestoreResultView, IComponent2::RestoreResultView, RestoreResultView, RestoreResultView method [MMC], RestoreResultView method [MMC],IComponent2 interface, _slate_icomponent2_restoreresultview, mmc.icomponent2_restoreresultview, mmc/IComponent2::RestoreResultView
 ms.topic: method
-f1_keywords: 
- - "mmc/IComponent2.RestoreResultView"
+f1_keywords:
+- mmc/IComponent2.RestoreResultView
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IComponent2.RestoreResultView
+- IComponent2.RestoreResultView
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ A value that specifies the unique identifier whose result view will be restored.
 ### -param pResultViewType [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_result_view_type_info">RESULT_VIEW_TYPE_INFO</a> structure for the result view.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-result_view_type_info">RESULT_VIEW_TYPE_INFO</a> structure for the result view.
 
 
 ## -returns
@@ -91,7 +91,7 @@ If successful, the return value is S_OK. The snap-in can return S_FALSE to preve
 The <b>pstrPersistableViewDescription</b> member of *<i>pResultViewType</i> specifies the name assigned to the result view.  To restore the result view identified by the <b>pstrPersistableViewDescription</b> member, the snap-in fills in the remaining members of *<i>pResultViewType</i>. The name of the result view is originally assigned during the snap-in's implementation of 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent2-getresultviewtype2">IComponent2::GetResultViewType2</a>. MMC calls <b>IComponent2::RestoreResultView</b> so that the snap-in can restore internal view settings when the result view is revisited by the user.
 
-When the user customizes the view, some of the settings (such as view options or view mode) are known by MMC, and some (such as <b>Oldest First</b> in the Event Viewer snap-in) are internal to the snap-in. Prior to MMC 2.0, there was no mechanism for MMC to communicate to the snap-in to restore the internal view settings. The <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent2-getresultviewtype2">IComponent2::GetResultViewType2</a> and <b>IComponent2::RestoreResultView</b> methods in MMC 2.0, however, provide the mechanism whereby internal view settings are restored. The snap-in persists internal view settings against the <b>pstrPersistableViewDescription</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_result_view_type_info">RESULT_VIEW_TYPE_INFO</a> structure. When MMC calls <b>IComponent2::RestoreResultView</b> to restore the result view, the snap-in uses the persisted settings to complete the view restoration.
+When the user customizes the view, some of the settings (such as view options or view mode) are known by MMC, and some (such as <b>Oldest First</b> in the Event Viewer snap-in) are internal to the snap-in. Prior to MMC 2.0, there was no mechanism for MMC to communicate to the snap-in to restore the internal view settings. The <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent2-getresultviewtype2">IComponent2::GetResultViewType2</a> and <b>IComponent2::RestoreResultView</b> methods in MMC 2.0, however, provide the mechanism whereby internal view settings are restored. The snap-in persists internal view settings against the <b>pstrPersistableViewDescription</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-result_view_type_info">RESULT_VIEW_TYPE_INFO</a> structure. When MMC calls <b>IComponent2::RestoreResultView</b> to restore the result view, the snap-in uses the persisted settings to complete the view restoration.
 
 The user revisits the result view by pressing the MMC <b>Back/Forward</b> buttons or loading a saved console file.
 
@@ -107,7 +107,7 @@ The user revisits the result view by pressing the MMC <b>Back/Forward</b> button
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_result_view_type_info">RESULT_VIEW_TYPE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-result_view_type_info">RESULT_VIEW_TYPE_INFO</a>
 
 
 

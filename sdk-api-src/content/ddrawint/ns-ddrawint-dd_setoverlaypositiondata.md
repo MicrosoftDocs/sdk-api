@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: edfcbe23-81af-41fb-b29e-cd6e2da4d603
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_SETOVERLAYPOSITIONDATA, DD_SETOVERLAYPOSITIONDATA, DD_SETOVERLAYPOSITIONDATA structure [Display Devices], ddrawint/DD_SETOVERLAYPOSITIONDATA, ddstrcts_963680b2-05c1-4f15-959c-c38a8141541b.xml, display.dd_setoverlaypositiondata"
+ms.keywords: '*PDD_SETOVERLAYPOSITIONDATA, DD_SETOVERLAYPOSITIONDATA, DD_SETOVERLAYPOSITIONDATA structure [Display Devices], ddrawint/DD_SETOVERLAYPOSITIONDATA, ddstrcts_963680b2-05c1-4f15-959c-c38a8141541b.xml, display.dd_setoverlaypositiondata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_SETOVERLAYPOSITIONDATA"
+f1_keywords:
+- ddrawint/DD_SETOVERLAYPOSITIONDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_SETOVERLAYPOSITIONDATA
+- DD_SETOVERLAYPOSITIONDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_SETOVERLAYPOSITIONDATA, DD_SETOVERLAYPOSITIONDATA"
+req.typenames: '*PDD_SETOVERLAYPOSITIONDATA, DD_SETOVERLAYPOSITIONDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -66,7 +66,7 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-
 
 ### -field lpDDSrcSurface
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure that represents the Microsoft DirectDraw overlay surface.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that represents the Microsoft DirectDraw overlay surface.
 
 
 ### -field lpDDDestSurface

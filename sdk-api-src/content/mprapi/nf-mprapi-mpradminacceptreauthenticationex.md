@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminAcceptReauthenticationEx, MprAdminAcceptReauthenticationEx callback, MprAdminAcceptReauthenticationEx callback function [RAS], mprapi/MprAdminAcceptReauthenticationEx, rras.mpradminacceptreauthenticationex
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminAcceptReauthenticationEx"
+f1_keywords:
+- mprapi/MprAdminAcceptReauthenticationEx
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - MprAdminAcceptReauthenticationEx
+- MprAdminAcceptReauthenticationEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ of the client changes. <b>MprAdminAcceptReauthenticationEx</b> determines whethe
 ### -param pRasConn [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_ex">RAS_CONNECTION_EX</a> structure that describes this connection.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a> structure that describes this connection.
 
 
 ## -returns

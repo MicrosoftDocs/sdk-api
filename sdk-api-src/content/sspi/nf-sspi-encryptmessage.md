@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EncryptMessage, EncryptMessage (Digest), EncryptMessage function [Security], SealMessage [Security], security.encryptmessage__digest_, sspi/EncryptMessage
 ms.topic: function
-f1_keywords: 
- - "sspi/EncryptMessage"
+f1_keywords:
+- sspi/EncryptMessage
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
- - sspicli.dll
+- Secur32.dll
+- sspicli.dll
 api_name:
- - EncryptMessage
+- EncryptMessage
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -77,20 +77,20 @@ When using the Digest SSP, this parameter must be set to zero.
 ### -param pMessage [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbufferdesc">SecBufferDesc</a> structure. On input, the structure references one or more 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structures that can be of type SECBUFFER_DATA. That buffer contains the message to be encrypted. The  message is encrypted in place, overwriting the original contents of the structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure. On input, the structure references one or more 
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structures that can be of type SECBUFFER_DATA. That buffer contains the message to be encrypted. The  message is encrypted in place, overwriting the original contents of the structure.
 
 The function does not process buffers with the SECBUFFER_READONLY attribute.
 
 The length of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structure that contains the message must be no greater than <b>cbMaximumMessage</b>, which is obtained from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure that contains the message must be no greater than <b>cbMaximumMessage</b>, which is obtained from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">QueryContextAttributes (Digest)</a> (SECPKG_ATTR_STREAM_SIZES) function.
 
 When using the Digest SSP,  there must be a second buffer of type SECBUFFER_PADDING or SEC_BUFFER_DATA to hold <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">signature</a> information. To get the size of the output buffer, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">QueryContextAttributes (Digest)</a> function and specify SECPKG_ATTR_SIZES. The function will return a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_sizes">SecPkgContext_Sizes</a> structure. The size of the output buffer is the sum of the values in the <b>cbMaxSignature</b> and <b>cbBlockSize</b> members.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_sizes">SecPkgContext_Sizes</a> structure. The size of the output buffer is the sum of the values in the <b>cbMaxSignature</b> and <b>cbBlockSize</b> members.
 
-Applications that do not use SSL must supply a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> of type SECBUFFER_PADDING.
+Applications that do not use SSL must supply a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> of type SECBUFFER_PADDING.
 
 
 ### -param MessageSeqNo [in]
@@ -204,7 +204,7 @@ The <b>EncryptMessage (Digest)</b> function encrypts a message based on the mess
 
 If the transport application created the security context to support sequence detection and the caller provides a sequence number, the function includes this information with the encrypted message. Including this information protects against replay, insertion, and suppression of messages. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> incorporates the sequence number passed down from the transport application.
 
-When you use the Digest SSP, get the size of the output buffer by calling the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">QueryContextAttributes (Digest)</a> function and specifying SECPKG_ATTR_SIZES. The function will return a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_sizes">SecPkgContext_Sizes</a> structure. The size of the output buffer is the sum of the values in the <b>cbMaxSignature</b> and <b>cbBlockSize</b> members.
+When you use the Digest SSP, get the size of the output buffer by calling the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">QueryContextAttributes (Digest)</a> function and specifying SECPKG_ATTR_SIZES. The function will return a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_sizes">SecPkgContext_Sizes</a> structure. The size of the output buffer is the sum of the values in the <b>cbMaxSignature</b> and <b>cbBlockSize</b> members.
 
 <div class="alert"><b>Note</b>  These buffers must be supplied in the order shown.</div>
 <div> </div>
@@ -288,11 +288,11 @@ For optimal performance, the <i>pMessage</i> structures should be allocated from
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbufferdesc">SecBufferDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a>
  
 
  

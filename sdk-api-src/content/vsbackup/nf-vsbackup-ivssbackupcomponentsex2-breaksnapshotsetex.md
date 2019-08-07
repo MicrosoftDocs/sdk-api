@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BreakSnapshotSetEx, BreakSnapshotSetEx method, BreakSnapshotSetEx method,IVssBackupComponentsEx2 interface, IVssBackupComponentsEx2 interface,BreakSnapshotSetEx method, IVssBackupComponentsEx2.BreakSnapshotSetEx, IVssBackupComponentsEx2::BreakSnapshotSetEx, base.ivssbackupcomponentsex2_breaksnapshotsetex, vsbackup/IVssBackupComponentsEx2::BreakSnapshotSetEx
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponentsEx2.BreakSnapshotSetEx"
+f1_keywords:
+- vsbackup/IVssBackupComponentsEx2.BreakSnapshotSetEx
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsBackup.h
+- VsBackup.h
 api_name:
- - IVssBackupComponentsEx2.BreakSnapshotSetEx
+- IVssBackupComponentsEx2.BreakSnapshotSetEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A shadow copy set identifier.
 
 ### -param dwBreakFlags [in]
 
-A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_hardware_options">_VSS_HARDWARE_OPTIONS</a> flags that specify how the shadow copy set is broken.
+A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_hardware_options">_VSS_HARDWARE_OPTIONS</a> flags that specify how the shadow copy set is broken.
 
 
 ### -param ppAsync [out]

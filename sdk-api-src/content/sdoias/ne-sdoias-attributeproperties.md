@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ATTRIBUTEPROPERTIES, ATTRIBUTEPROPERTIES enumeration [Network Policy Server], PROPERTY_ATTRIBUTE_ALLOW_IN_8021X, PROPERTY_ATTRIBUTE_ALLOW_IN_CONDITION, PROPERTY_ATTRIBUTE_ALLOW_IN_PROFILE, PROPERTY_ATTRIBUTE_ALLOW_IN_PROXY_CONDITION, PROPERTY_ATTRIBUTE_ALLOW_IN_PROXY_PROFILE, PROPERTY_ATTRIBUTE_ALLOW_IN_VPNDIALUP, PROPERTY_ATTRIBUTE_ALLOW_LOG_ORDINAL, PROPERTY_ATTRIBUTE_ALLOW_MULTIPLE, PROPERTY_ATTRIBUTE_DISPLAY_NAME, PROPERTY_ATTRIBUTE_ENUM_FILTERS, PROPERTY_ATTRIBUTE_ENUM_NAMES, PROPERTY_ATTRIBUTE_ENUM_VALUES, PROPERTY_ATTRIBUTE_ID, PROPERTY_ATTRIBUTE_IS_ENUMERABLE, PROPERTY_ATTRIBUTE_SYNTAX, PROPERTY_ATTRIBUTE_VALUE, PROPERTY_ATTRIBUTE_VENDOR_ID, PROPERTY_ATTRIBUTE_VENDOR_TYPE_ID, _sdo_attributeproperties, nps.SDO_attributeproperties, sdo.attributeproperties, sdoias/ATTRIBUTEPROPERTIES, sdoias/PROPERTY_ATTRIBUTE_ALLOW_IN_8021X, sdoias/PROPERTY_ATTRIBUTE_ALLOW_IN_CONDITION, sdoias/PROPERTY_ATTRIBUTE_ALLOW_IN_PROFILE, sdoias/PROPERTY_ATTRIBUTE_ALLOW_IN_PROXY_CONDITION, sdoias/PROPERTY_ATTRIBUTE_ALLOW_IN_PROXY_PROFILE, sdoias/PROPERTY_ATTRIBUTE_ALLOW_IN_VPNDIALUP, sdoias/PROPERTY_ATTRIBUTE_ALLOW_LOG_ORDINAL, sdoias/PROPERTY_ATTRIBUTE_ALLOW_MULTIPLE, sdoias/PROPERTY_ATTRIBUTE_DISPLAY_NAME, sdoias/PROPERTY_ATTRIBUTE_ENUM_FILTERS, sdoias/PROPERTY_ATTRIBUTE_ENUM_NAMES, sdoias/PROPERTY_ATTRIBUTE_ENUM_VALUES, sdoias/PROPERTY_ATTRIBUTE_ID, sdoias/PROPERTY_ATTRIBUTE_IS_ENUMERABLE, sdoias/PROPERTY_ATTRIBUTE_SYNTAX, sdoias/PROPERTY_ATTRIBUTE_VALUE, sdoias/PROPERTY_ATTRIBUTE_VENDOR_ID, sdoias/PROPERTY_ATTRIBUTE_VENDOR_TYPE_ID
 ms.topic: enum
-f1_keywords: 
- - "sdoias/ATTRIBUTEPROPERTIES"
+f1_keywords:
+- sdoias/ATTRIBUTEPROPERTIES
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - ATTRIBUTEPROPERTIES
+- ATTRIBUTEPROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: ATTRIBUTEPROPERTIES
@@ -147,7 +147,7 @@ Used by NPS user interface to mark whether an attribute is used in profiles for 
 
 ### -field PROPERTY_ATTRIBUTE_ENUM_FILTERS
 
-Used by filter configuration attributes <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributeid">MS_ATTRIBUTE_FILTER</a> and <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributeid">MS_ATTRIBUTE_QUARANTINE_IPFILTER</a>. See MS-Filter section in <a href="Http://go.microsoft.com/fwlink/p/?linkid=90366">RFC 2548</a> for more information.
+Used by filter configuration attributes <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid">MS_ATTRIBUTE_FILTER</a> and <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid">MS_ATTRIBUTE_QUARANTINE_IPFILTER</a>. See MS-Filter section in <a href="Http://go.microsoft.com/fwlink/p/?linkid=90366">RFC 2548</a> for more information.
 
 
 ## -remarks
@@ -155,7 +155,7 @@ Used by filter configuration attributes <a href="https://docs.microsoft.com/wind
 
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_dictionaryproperties">DICTIONARYPROPERTIES</a> enumeration type contains the attributes collection property, <b>PROPERTY_DICTIONARY_ATTRIBUTES_COLLECTION</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-dictionaryproperties">DICTIONARYPROPERTIES</a> enumeration type contains the attributes collection property, <b>PROPERTY_DICTIONARY_ATTRIBUTES_COLLECTION</b>.
 
 
 
@@ -165,7 +165,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributeid">ATTRIBUTEID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeid">ATTRIBUTEID</a>
 
 
 
@@ -173,7 +173,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_dictionaryproperties">DICTIONARYPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-dictionaryproperties">DICTIONARYPROPERTIES</a>
  
 
  

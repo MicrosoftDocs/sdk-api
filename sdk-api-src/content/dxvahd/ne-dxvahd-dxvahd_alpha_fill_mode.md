@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_ALPHA_FILL_MODE, DXVAHD_ALPHA_FILL_MODE enumeration [Media Foundation], DXVAHD_ALPHA_FILL_MODE_BACKGROUND, DXVAHD_ALPHA_FILL_MODE_DESTINATION, DXVAHD_ALPHA_FILL_MODE_OPAQUE, DXVAHD_ALPHA_FILL_MODE_SOURCE_STREAM, dxvahd/DXVAHD_ALPHA_FILL_MODE, dxvahd/DXVAHD_ALPHA_FILL_MODE_BACKGROUND, dxvahd/DXVAHD_ALPHA_FILL_MODE_DESTINATION, dxvahd/DXVAHD_ALPHA_FILL_MODE_OPAQUE, dxvahd/DXVAHD_ALPHA_FILL_MODE_SOURCE_STREAM, mf.dxvahd_alpha_fill_mode
 ms.topic: enum
-f1_keywords: 
- - "dxvahd/DXVAHD_ALPHA_FILL_MODE"
+f1_keywords:
+- dxvahd/DXVAHD_ALPHA_FILL_MODE
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - DXVAHD_ALPHA_FILL_MODE
+- DXVAHD_ALPHA_FILL_MODE
 product: Windows
 targetos: Windows
 req.typenames: DXVAHD_ALPHA_FILL_MODE
@@ -83,9 +83,9 @@ Alpha values from the input stream  are scaled and copied to the corresponding d
 
 
 
-The <b>Mode</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_blt_state_alpha_fill_data">DXVAHD_BLT_STATE_ALPHA_FILL_DATA</a> structure has this enumeration type. That member specifies the alpha-fill mode for the input stream identified by the <b>StreamNumber</b> member of the same structure. To set the alpha-fill mode, call  <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessbltstate">IDXVAHD_VideoProcessor::SetVideoProcessBltState</a>.
+The <b>Mode</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_alpha_fill_data">DXVAHD_BLT_STATE_ALPHA_FILL_DATA</a> structure has this enumeration type. That member specifies the alpha-fill mode for the input stream identified by the <b>StreamNumber</b> member of the same structure. To set the alpha-fill mode, call  <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessbltstate">IDXVAHD_VideoProcessor::SetVideoProcessBltState</a>.
 
-To find out which modes the device supports, call the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps">IDXVAHD_Device::GetVideoProcessorDeviceCaps</a> method. If the device sets the <b>DXVAHD_FEATURE_CAPS_ALPHA_FILL</b> flag in the <b>FeatureCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure, the DXVA-HD device supports any of the modes listed here. Otherwise, the alpha-fill mode must be <b>DXVAHD_ALPHA_FILL_MODE_OPAQUE</b>.
+To find out which modes the device supports, call the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps">IDXVAHD_Device::GetVideoProcessorDeviceCaps</a> method. If the device sets the <b>DXVAHD_FEATURE_CAPS_ALPHA_FILL</b> flag in the <b>FeatureCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure, the DXVA-HD device supports any of the modes listed here. Otherwise, the alpha-fill mode must be <b>DXVAHD_ALPHA_FILL_MODE_OPAQUE</b>.
 
 
 
@@ -99,7 +99,7 @@ To find out which modes the device supports, call the <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_blt_state_alpha_fill_data">DXVAHD_BLT_STATE_ALPHA_FILL_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_alpha_fill_data">DXVAHD_BLT_STATE_ALPHA_FILL_DATA</a>
 
 
 

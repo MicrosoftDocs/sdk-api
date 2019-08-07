@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CBA_DEBUG_INFO, CBA_DEFERRED_SYMBOL_LOAD_CANCEL, CBA_DEFERRED_SYMBOL_LOAD_COMPLETE, CBA_DEFERRED_SYMBOL_LOAD_FAILURE, CBA_DEFERRED_SYMBOL_LOAD_PARTIAL, CBA_DEFERRED_SYMBOL_LOAD_START, CBA_DUPLICATE_SYMBOL, CBA_EVENT, CBA_READ_MEMORY, CBA_SET_OPTIONS, CBA_SRCSRV_EVENT, CBA_SRCSRV_INFO, CBA_SYMBOLS_UNLOADED, PSYMBOL_REGISTERED_CALLBACK, PSYMBOL_REGISTERED_CALLBACK64, SymRegisterCallbackProc64, SymRegisterCallbackProc64 callback, SymRegisterCallbackProc64 callback function, _win32_symregistercallbackproc64, base.symregistercallbackproc64, dbghelp/SymRegisterCallbackProc64
 ms.topic: callback
-f1_keywords: 
- - "dbghelp/SymRegisterCallbackProc64"
+f1_keywords:
+- dbghelp/SymRegisterCallbackProc64
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - SymRegisterCallbackProc64
+- SymRegisterCallbackProc64
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -106,7 +106,7 @@ Deferred symbol loading has started. To cancel the symbol load, return <b>TRUE</
 
 
 The <i>CallbackData</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_deferred_symbol_load">IMAGEHLP_DEFERRED_SYMBOL_LOAD64</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_deferred_symbol_load">IMAGEHLP_DEFERRED_SYMBOL_LOAD64</a> structure.
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ Deferred symbol load has completed.
 
 
 The <i>CallbackData</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_deferred_symbol_load">IMAGEHLP_DEFERRED_SYMBOL_LOAD64</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_deferred_symbol_load">IMAGEHLP_DEFERRED_SYMBOL_LOAD64</a> structure.
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ Deferred symbol load has failed.
 
 
 The <i>CallbackData</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_deferred_symbol_load">IMAGEHLP_DEFERRED_SYMBOL_LOAD64</a> structure. The symbol handler will attempt to load the symbols again if the callback function sets the <b>FileName</b> member of this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_deferred_symbol_load">IMAGEHLP_DEFERRED_SYMBOL_LOAD64</a> structure. The symbol handler will attempt to load the symbols again if the callback function sets the <b>FileName</b> member of this structure.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ The <i>CallbackData</i> parameter is a pointer to a
 Deferred symbol load has partially completed. The symbol loader is unable to read the image header from either the image file or the specified module.
 
 The <i>CallbackData</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_deferred_symbol_load">IMAGEHLP_DEFERRED_SYMBOL_LOAD64</a> structure. The symbol handler will attempt to load the symbols again if the callback function sets the <b>FileName</b> member of this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_deferred_symbol_load">IMAGEHLP_DEFERRED_SYMBOL_LOAD64</a> structure. The symbol handler will attempt to load the symbols again if the callback function sets the <b>FileName</b> member of this structure.
 
 <b>DbgHelp 5.1:  </b>This value is not supported.
 
@@ -173,7 +173,7 @@ Deferred symbol load has started.
 
 
 The <i>CallbackData</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_deferred_symbol_load">IMAGEHLP_DEFERRED_SYMBOL_LOAD64</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_deferred_symbol_load">IMAGEHLP_DEFERRED_SYMBOL_LOAD64</a> structure.
 
 </td>
 </tr>
@@ -204,7 +204,7 @@ The <i>CallbackData</i> parameter is a pointer to a
 Display verbose information. If you do not handle this event, the information is resent through the CBA_DEBUG_INFO event.
 
 The <i>CallbackData</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a> structure.
 
 </td>
 </tr>
@@ -221,7 +221,7 @@ The loaded image has been read.
 
 
 The <i>CallbackData</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_cba_read_memory">IMAGEHLP_CBA_READ_MEMORY</a> structure. The callback function should read the number of bytes specified by the <b>bytes</b> member into the buffer specified by the <b>buf</b> member, and update the <b>bytesread</b> member accordingly. 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_cba_read_memory">IMAGEHLP_CBA_READ_MEMORY</a> structure. The callback function should read the number of bytes specified by the <b>bytes</b> member into the buffer specified by the <b>buf</b> member, and update the <b>bytesread</b> member accordingly. 
 
 </td>
 </tr>
@@ -252,7 +252,7 @@ The <i>CallbackData</i> parameter should be ignored.
 Display verbose information for source server. If you do not handle this event, the information is resent through the CBA_DEBUG_INFO event.
 
 The <i>CallbackData</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a> structure.
 
 <b>DbgHelp 6.6 and earlier:  </b>This value is not supported.
 
@@ -359,15 +359,15 @@ For a more extensive example, read <a href="https://docs.microsoft.com/windows/d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_cba_read_memory">IMAGEHLP_CBA_READ_MEMORY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_cba_read_memory">IMAGEHLP_CBA_READ_MEMORY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_deferred_symbol_load">IMAGEHLP_DEFERRED_SYMBOL_LOAD64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_deferred_symbol_load">IMAGEHLP_DEFERRED_SYMBOL_LOAD64</a>
 
 
 

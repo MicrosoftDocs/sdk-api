@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: 364a253d-f4c4-494a-af43-487c70912542
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEVENT_FILTER_HEADER, EVENT_FILTER_HEADER, EVENT_FILTER_HEADER structure [ETW], PEVENT_FILTER_HEADER, PEVENT_FILTER_HEADER structure pointer [ETW], etw.event_filter_header, evntprov/EVENT_FILTER_HEADER, evntprov/PEVENT_FILTER_HEADER"
+ms.keywords: '*PEVENT_FILTER_HEADER, EVENT_FILTER_HEADER, EVENT_FILTER_HEADER structure [ETW], PEVENT_FILTER_HEADER, PEVENT_FILTER_HEADER structure pointer [ETW], etw.event_filter_header, evntprov/EVENT_FILTER_HEADER, evntprov/PEVENT_FILTER_HEADER'
 ms.topic: struct
-f1_keywords: 
- - "evntprov/EVENT_FILTER_HEADER"
+f1_keywords:
+- evntprov/EVENT_FILTER_HEADER
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evntprov.h
+- Evntprov.h
 api_name:
- - EVENT_FILTER_HEADER
+- EVENT_FILTER_HEADER
 product: Windows
 targetos: Windows
 req.typenames: EVENT_FILTER_HEADER, *PEVENT_FILTER_HEADER
@@ -118,7 +118,7 @@ MY_FILTER FilterData;
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
 
 
 

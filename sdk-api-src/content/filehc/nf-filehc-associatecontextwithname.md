@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AssociateContextWithName, AssociateContextWithName function [Windows API], filehc/AssociateContextWithName, winprog._associatecontextwithname
 ms.topic: function
-f1_keywords: 
- - "filehc/AssociateContextWithName"
+f1_keywords:
+- filehc/AssociateContextWithName
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Fcachdll.lib
 req.dll: Fcachdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fcachdll.dll
+- Fcachdll.dll
 api_name:
- - AssociateContextWithName
+- AssociateContextWithName
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -86,7 +86,7 @@ The length, in bytes, of arbitrary data to associate with the name.
 
 ### -param pGenericMapping [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_generic_mapping">GENERIC_MAPPING</a> structure to associate with the name.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a> structure to associate with the name.
 
 
 ### -param pSecurityDescriptor [in]
@@ -131,7 +131,7 @@ If the name is already present in the cache, this call fails and <a href="https:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_generic_mapping">GENERIC_MAPPING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a>
  
 
  

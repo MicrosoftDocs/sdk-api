@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRADIUS_EXTENSION_PROCESS_2, PRADIUS_EXTENSION_PROCESS_2 callback, PRADIUS_EXTENSION_PROCESS_2 callback function [Network Policy Server], RadiusExtensionProcess2, authif/PRADIUS_EXTENSION_PROCESS_2, nps.IAS_radiusextensionprocess2
 ms.topic: callback
-f1_keywords: 
- - "authif/PRADIUS_EXTENSION_PROCESS_2"
+f1_keywords:
+- authif/PRADIUS_EXTENSION_PROCESS_2
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - AuthIf.h
+- AuthIf.h
 api_name:
- - PRADIUS_EXTENSION_PROCESS_2
+- PRADIUS_EXTENSION_PROCESS_2
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ ms.custom: 19H1
 ### -param pECB [in, out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a> structure. The members of this structure contain values and function pointers that enable the NPS Extension DLL to process the RADIUS packet.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a> structure. The members of this structure contain values and function pointers that enable the NPS Extension DLL to process the RADIUS packet.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If the function fails, the return value should be an appropriate error code from
 
 If the return value is anything other than <b>NO_ERROR</b>, NPS discards the request.
 
-The following attributes are read-only. Extension DLLs that implement <i>RadiusExtensionProcess2</i> cannot add, modify, or remove  these attributes within a request or response contained in a <a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a>.
+The following attributes are read-only. Extension DLLs that implement <i>RadiusExtensionProcess2</i> cannot add, modify, or remove  these attributes within a request or response contained in a <a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a>.
 
 <ul>
 <li><b>ratCode</b></li>

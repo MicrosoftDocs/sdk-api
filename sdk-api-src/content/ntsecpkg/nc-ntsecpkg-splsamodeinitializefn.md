@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpLsaModeInitialize, SpLsaModeInitialize callback function [Security], SpLsaModeInitializeFn, SpLsaModeInitializeFn callback, _ssp_splsamodeinitialize, ntsecpkg/SpLsaModeInitialize, security.splsamodeinitialize
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/SpLsaModeInitialize"
+f1_keywords:
+- ntsecpkg/SpLsaModeInitialize
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SpLsaModeInitialize
+- SpLsaModeInitialize
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ Pointer to a <b>ULONG</b> that returns the SSP/AP DLL version number.
 ### -param *ppTables [out]
 
 Pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structures. Each structure is a table of pointers to the functions implemented by a security package deployed in the SSP/AP DLL.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structures. Each structure is a table of pointers to the functions implemented by a security package deployed in the SSP/AP DLL.
 
 
 ### -param pcTables [out]
@@ -98,7 +98,7 @@ If the function fails, return an <b>NTSTATUS</b> code that indicates the reason 
 The <b>SpLsaModeInitialize</b> function must be implemented by SSP/AP DLLs.
 
 The <i>ppTables</i> parameter should contain one 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a> for each security package deployed in the DLL.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> for each security package deployed in the DLL.
 
 
 
@@ -108,7 +108,7 @@ The <i>ppTables</i> parameter should contain one
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
  
 
  

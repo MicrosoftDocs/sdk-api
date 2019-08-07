@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRL_FIND_ANY, CRL_FIND_EXISTING, CRL_FIND_ISSUED_BY, CRL_FIND_ISSUED_BY_AKI_FLAG, CRL_FIND_ISSUED_BY_BASE_FLAG, CRL_FIND_ISSUED_BY_DELTA_FLAG, CRL_FIND_ISSUED_BY_SIGNATURE_FLAG, CRL_FIND_ISSUED_FOR, CRL_FIND_ISSUED_FOR_SET_STRONG_PROPERTIES_FLAG, CertFindCRLInStore, CertFindCRLInStore function [Security], _crypto2_certfindcrlinstore, security.certfindcrlinstore, wincrypt/CertFindCRLInStore
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertFindCRLInStore"
+f1_keywords:
+- wincrypt/CertFindCRLInStore
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertFindCRLInStore
+- CertFindCRLInStore
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -167,7 +167,7 @@ No search criteria. The next CRL in the store is returned.
 </dl>
 </td>
 <td width="60%">
-Searches for the next CRL in the store matching the issuer in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>.
+Searches for the next CRL in the store matching the issuer in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>.
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ Searches for the next CRL in the store matching the issuer in the <a href="https
 </dl>
 </td>
 <td width="60%">
-Searches for the next CRL that matches the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a> in the following ways:
+Searches for the next CRL that matches the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> in the following ways:
 
 <ul>
 <li> Both are base or delta CRLs.</li>
@@ -214,7 +214,7 @@ This parameter is determined by the value of <i>dwFindType</i>. For details, see
 ### -param pPrevCrlContext [in]
 
 A pointer to the last 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a> returned by this function. Must be <b>NULL</b> to get the first CRL in the store meeting the search criteria. Successive CRLs meeting the search criteria can be found by setting <i>pPrevCrlContext</i> to the <b>PCCRL_CONTEXT</b> pointer returned by a previous call to the function. The search process skips any CRLs that do not match the search criteria or that have been previously deleted from the store by 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> returned by this function. Must be <b>NULL</b> to get the first CRL in the store meeting the search criteria. Successive CRLs meeting the search criteria can be found by setting <i>pPrevCrlContext</i> to the <b>PCCRL_CONTEXT</b> pointer returned by a previous call to the function. The search process skips any CRLs that do not match the search criteria or that have been previously deleted from the store by 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletecrlfromstore">CertDeleteCRLFromStore</a>. This function frees the <b>CRL_CONTEXT</b> referenced by values of this parameter that are not <b>NULL</b>.
 
 
@@ -283,7 +283,7 @@ The returned pointer is freed when passed as the <i>pPrevCrlContext</i> paramete
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a>
 
 
 

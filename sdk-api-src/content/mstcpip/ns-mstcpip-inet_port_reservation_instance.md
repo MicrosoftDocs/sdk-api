@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: F2332474-453F-40A3-8A0B-03A97300B724
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PINET_PORT_RESERVATION_INSTANCE, INET_PORT_RESERVATION_INSTANCE, INET_PORT_RESERVATION_INSTANCE structure [Winsock], PINET_PORT_RESERVATION_INSTANCE, PINET_PORT_RESERVATION_INSTANCE structure pointer [Winsock], mstcpip/INET_PORT_RESERVATION_INSTANCE, mstcpip/PINET_PORT_RESERVATION_INSTANCE, winsock.inet_port_reservation_instance"
+ms.keywords: '*PINET_PORT_RESERVATION_INSTANCE, INET_PORT_RESERVATION_INSTANCE, INET_PORT_RESERVATION_INSTANCE structure [Winsock], PINET_PORT_RESERVATION_INSTANCE, PINET_PORT_RESERVATION_INSTANCE structure pointer [Winsock], mstcpip/INET_PORT_RESERVATION_INSTANCE, mstcpip/PINET_PORT_RESERVATION_INSTANCE, winsock.inet_port_reservation_instance'
 ms.topic: struct
-f1_keywords: 
- - "mstcpip/INET_PORT_RESERVATION_INSTANCE"
+f1_keywords:
+- mstcpip/INET_PORT_RESERVATION_INSTANCE
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mstcpip.h
+- Mstcpip.h
 api_name:
- - INET_PORT_RESERVATION_INSTANCE
+- INET_PORT_RESERVATION_INSTANCE
 product: Windows
 targetos: Windows
 req.typenames: INET_PORT_RESERVATION_INSTANCE, *PINET_PORT_RESERVATION_INSTANCE
@@ -63,7 +63,7 @@ The <b>INET_PORT_RESERVATION_INSTANCE</b> structure contains a port reservation 
 
 A runtime port reservation for a block of TCP or UDP ports.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_inet_port_range">INET_PORT_RESERVATION</a> structure is typedefed to the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_inet_port_range">INET_PORT_RANGE</a> structure. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-inet_port_range">INET_PORT_RESERVATION</a> structure is typedefed to the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-inet_port_range">INET_PORT_RANGE</a> structure. 
 
 
 ### -field Token
@@ -103,7 +103,7 @@ The  <b>INET_PORT_RESERVATION_INSTANCE</b> structure is returned by the <a href=
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_inet_port_range">INET_PORT_RANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-inet_port_range">INET_PORT_RANGE</a>
 
 
 
