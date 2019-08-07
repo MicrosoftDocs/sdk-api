@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapCredential, EapCredential structure [EAPHost], eaphost.eapcredential, eaptypes/EapCredential
 ms.topic: struct
-f1_keywords: 
- - "eaptypes/EapCredential"
+f1_keywords:
+- eaptypes/EapCredential
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eaptypes.h
+- eaptypes.h
 api_name:
- - EapCredential
+- EapCredential
 product: Windows
 targetos: Windows
 req.typenames: EapCredential
@@ -61,7 +61,7 @@ The <b>EapCredential</b> structure contains information about the credentials ty
 
 ### -field credType
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eapcredentialtype">EapCredentialType</a> for the  credentials passed in the <i>credentials</i> parameter.
+The <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eapcredentialtype">EapCredentialType</a> for the  credentials passed in the <i>credentials</i> parameter.
 
 
 ### -field credData.switch_is
@@ -80,13 +80,13 @@ Structure that holds the pointer to the credential data.
 
 If <b>credType</b> is set to <b>EAP_EMPTY_CREDENTIAL</b>, specify a NULL value for credentials.
 
-If <b>credType</b> is set to  <b>EAP_USERNAME_PASSWORD_CREDENTIAL</b>, use an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eapusernamepasswordcredential">EapUsernamePasswordCredential</a> structure to specify the username and password to use for the credentials. 
+If <b>credType</b> is set to  <b>EAP_USERNAME_PASSWORD_CREDENTIAL</b>, use an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapusernamepasswordcredential">EapUsernamePasswordCredential</a> structure to specify the username and password to use for the credentials. 
 
 If <b>credType</b> is set to <b>EAP_WINLOGON_CREDENTIAL</b>, specify a NULL value for credentials. 
 
-If <b>credType</b> is set to <b>EAP_CERTIFICATE_CREDENTIAL</b>, use an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eapcertificatecredential">EapCertificateCredential</a> structure for credentials to specify  the certificate hash and a password (in case the certificate is password protected). 
+If <b>credType</b> is set to <b>EAP_CERTIFICATE_CREDENTIAL</b>, use an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapcertificatecredential">EapCertificateCredential</a> structure for credentials to specify  the certificate hash and a password (in case the certificate is password protected). 
 
-If <b>credType</b> is set to <b>EAP_SIM_CREDENTIAL</b>, use an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eapsimcredential">EapSimCredential</a> structure for credentials to specify the  ICC-ID of the selected SIM.
+If <b>credType</b> is set to <b>EAP_SIM_CREDENTIAL</b>, use an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapsimcredential">EapSimCredential</a> structure for credentials to specify the  ICC-ID of the selected SIM.
 
 
 ## -see-also
@@ -94,11 +94,11 @@ If <b>credType</b> is set to <b>EAP_SIM_CREDENTIAL</b>, use an <a href="https://
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eapcertificatecredential">EapCertificateCredential</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapcertificatecredential">EapCertificateCredential</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eapcredentialtype">EapCredentialType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eapcredentialtype">EapCredentialType</a>
 
 
 
@@ -106,11 +106,11 @@ If <b>credType</b> is set to <b>EAP_SIM_CREDENTIAL</b>, use an <a href="https://
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eapsimcredential">EapSimCredential</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapsimcredential">EapSimCredential</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eapusernamepasswordcredential">EapUsernamePasswordCredential</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapusernamepasswordcredential">EapUsernamePasswordCredential</a>
  
 
  

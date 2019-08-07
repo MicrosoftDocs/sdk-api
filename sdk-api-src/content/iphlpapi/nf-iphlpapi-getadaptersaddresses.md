@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GAA_FLAG_INCLUDE_ALL_COMPARTMENTS, GAA_FLAG_INCLUDE_ALL_INTERFACES, GAA_FLAG_INCLUDE_GATEWAYS, GAA_FLAG_INCLUDE_PREFIX, GAA_FLAG_INCLUDE_TUNNEL_BINDINGORDER, GAA_FLAG_INCLUDE_WINS_INFO, GAA_FLAG_SKIP_ANYCAST, GAA_FLAG_SKIP_DNS_SERVER, GAA_FLAG_SKIP_FRIENDLY_NAME, GAA_FLAG_SKIP_MULTICAST, GAA_FLAG_SKIP_UNICAST, GetAdaptersAddresses, GetAdaptersAddresses function [IP Helper], _iphlp_getadaptersaddresses, iphlp.getadaptersaddresses, iphlpapi/GetAdaptersAddresses
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/GetAdaptersAddresses"
+f1_keywords:
+- iphlpapi/GetAdaptersAddresses
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetAdaptersAddresses
+- GetAdaptersAddresses
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -378,7 +378,7 @@ The size of the <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/
      <b>IP_ADAPTER_ADDRESSES</b> structure also changed on 
      Windows Vista with Service Pack 1 (SP1)and later and onWindows Server 2008 and later. One additional member was added to this structure. The <b>Length</b> member of the <b>IP_ADAPTER_ADDRESSES</b> structure returned in the linked list of structures in the buffer pointed to by the <i>AdapterAddresses</i> parameter should be used to determine which version of the <b>IP_ADAPTER_ADDRESSES</b> structure is being used. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a> function retrieves the interface–to–IPv4 address mapping table on a local computer and returns this information in an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipaddrtable">MIB_IPADDRTABLE</a> structure.
+The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a> function retrieves the interface–to–IPv4 address mapping table on a local computer and returns this information in an <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipaddrtable">MIB_IPADDRTABLE</a> structure.
 
 On the Platform Software Development Kit (SDK) released for Windows Server 2003 and earlier, the return value for the <b>GetAdaptersAddresses</b> function was defined as a <b>DWORD</b>, rather than a <b>ULONG</b>.
 
@@ -629,7 +629,7 @@ int __cdecl main(int argc, char **argv)
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipaddrtable">MIB_IPADDRTABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipaddrtable">MIB_IPADDRTABLE</a>
 
 
 

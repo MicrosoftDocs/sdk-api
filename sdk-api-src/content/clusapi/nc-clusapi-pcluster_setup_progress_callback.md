@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterSetupPhaseAddClusterProperties, ClusterSetupPhaseAddNodeToCluster, ClusterSetupPhaseCleanupCOs, ClusterSetupPhaseCleanupNode, ClusterSetupPhaseClusterGroupOnline, ClusterSetupPhaseConfigureClusSvc, ClusterSetupPhaseConfigureClusterAccount, ClusterSetupPhaseContinue, ClusterSetupPhaseCoreGroupCleanup, ClusterSetupPhaseCreateClusterAccount, ClusterSetupPhaseCreateGroups, ClusterSetupPhaseCreateIPAddressResources, ClusterSetupPhaseCreateNetworkName, ClusterSetupPhaseCreateResourceTypes, ClusterSetupPhaseDeleteGroup, ClusterSetupPhaseEnd, ClusterSetupPhaseEvictNode, ClusterSetupPhaseFailureCleanup, ClusterSetupPhaseFatal, ClusterSetupPhaseFormingCluster, ClusterSetupPhaseGettingCurrentMembership, ClusterSetupPhaseInformational, ClusterSetupPhaseInitialize, ClusterSetupPhaseMoveGroup, ClusterSetupPhaseNodeUp, ClusterSetupPhaseOfflineGroup, ClusterSetupPhaseQueryClusterNameAccount, ClusterSetupPhaseStart, ClusterSetupPhaseStartingClusSvc, ClusterSetupPhaseValidateClusDisk, ClusterSetupPhaseValidateClusterNameAccount, ClusterSetupPhaseValidateNetft, ClusterSetupPhaseValidateNodeState, ClusterSetupPhaseWarning, ClusterSetupProgressCallback, ClusterSetupProgressCallback callback, ClusterSetupProgressCallback callback function [Failover Cluster], PCLUSTER_SETUP_PROGRESS_CALLBACK, PCLUSTER_SETUP_PROGRESS_CALLBACK callback function [Failover Cluster], clusapi/ClusterSetupProgressCallback, clusapi/PCLUSTER_SETUP_PROGRESS_CALLBACK, mscs.pcluster_setup_progress_callback
 ms.topic: callback
-f1_keywords: 
- - "clusapi/ClusterSetupProgressCallback callback"
+f1_keywords:
+- clusapi/ClusterSetupProgressCallback callback
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,13 +30,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - ClusterSetupProgressCallback callback
+- ClusterSetupProgressCallback callback
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ Callback function that receives regular updates on the progression of the setup 
 
 ### -param eSetupPhase [in]
 
-Value from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-_cluster_setup_phase">CLUSTER_SETUP_PHASE</a> enumeration 
+Value from the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase">CLUSTER_SETUP_PHASE</a> enumeration 
        that gives the current setup phase. The parameter can be one of the following values.
 
 
@@ -246,7 +246,7 @@ Return failed resource to pre-clustered state.
 
 ### -param ePhaseType [in]
 
-Value from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-_cluster_setup_phase_type">CLUSTER_SETUP_PHASE_TYPE</a> 
+Value from the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_type">CLUSTER_SETUP_PHASE_TYPE</a> 
        enumeration that gives the current setup phase type. The parameter can be one of the following values.
 
 
@@ -274,7 +274,7 @@ Called once at the end of every setup phase as passed in the <i>eSetupPhase</i>
 ### -param ePhaseSeverity [in]
 
 Value from the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-_cluster_setup_phase_severity">CLUSTER_SETUP_PHASE_SEVERITY</a> enumeration 
+       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_severity">CLUSTER_SETUP_PHASE_SEVERITY</a> enumeration 
        that gives the current setup phase severity. The parameter can be one of the following values.
 
 
@@ -343,15 +343,15 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/cluswm
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-_cluster_setup_phase">CLUSTER_SETUP_PHASE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase">CLUSTER_SETUP_PHASE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-_cluster_setup_phase_severity">CLUSTER_SETUP_PHASE_SEVERITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_severity">CLUSTER_SETUP_PHASE_SEVERITY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-_cluster_setup_phase_type">CLUSTER_SETUP_PHASE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_type">CLUSTER_SETUP_PHASE_TYPE</a>
 
 
 

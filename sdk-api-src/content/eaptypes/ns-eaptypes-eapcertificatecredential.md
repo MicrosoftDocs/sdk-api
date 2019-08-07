@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapCertificateCredential, EapCertificateCredential structure [EAPHost], eaphost.eapcertificatecredential, eaptypes/EapCertificateCredential
 ms.topic: struct
-f1_keywords: 
- - "eaptypes/EapCertificateCredential"
+f1_keywords:
+- eaptypes/EapCertificateCredential
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eaptypes.h
+- eaptypes.h
 api_name:
- - EapCertificateCredential
+- EapCertificateCredential
 product: Windows
 targetos: Windows
 req.typenames: EapCertificateCredential
@@ -79,11 +79,11 @@ SHA1 hash of the certificate.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eapcredential">EapCredential</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapcredential">EapCredential</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eapcredentialtype">EapCredentialType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eapcredentialtype">EapCredentialType</a>
  
 
  

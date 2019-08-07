@@ -8,10 +8,10 @@ tech.root: MsCS
 ms.assetid: 3B38E2C8-CF41-4630-8AA8-72581D1DC264
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSR_DISK_REPLICATION_ELIGIBLE, SR_DISK_REPLICATION_ELIGIBLE, SR_DISK_REPLICATION_ELIGIBLE enumeration [Failover Cluster], SrDiskReplicationEligibleAlreadyInReplication, SrDiskReplicationEligibleFileSystemNotSupported, SrDiskReplicationEligibleInSameSite, SrDiskReplicationEligibleInsufficientFreeSpace, SrDiskReplicationEligibleNone, SrDiskReplicationEligibleNotGpt, SrDiskReplicationEligibleNotInSameSite, SrDiskReplicationEligibleOffline, SrDiskReplicationEligibleOther, SrDiskReplicationEligiblePartitionLayoutMismatch, SrDiskReplicationEligibleSameAsSpecifiedDisk, SrDiskReplicationEligibleYes, clusapi/SR_DISK_REPLICATION_ELIGIBLE, clusapi/SrDiskReplicationEligibleAlreadyInReplication, clusapi/SrDiskReplicationEligibleFileSystemNotSupported, clusapi/SrDiskReplicationEligibleInSameSite, clusapi/SrDiskReplicationEligibleInsufficientFreeSpace, clusapi/SrDiskReplicationEligibleNone, clusapi/SrDiskReplicationEligibleNotGpt, clusapi/SrDiskReplicationEligibleNotInSameSite, clusapi/SrDiskReplicationEligibleOffline, clusapi/SrDiskReplicationEligibleOther, clusapi/SrDiskReplicationEligiblePartitionLayoutMismatch, clusapi/SrDiskReplicationEligibleSameAsSpecifiedDisk, clusapi/SrDiskReplicationEligibleYes, msclus/SR_DISK_REPLICATION_ELIGIBLE, msclus/SrDiskReplicationEligibleAlreadyInReplication, msclus/SrDiskReplicationEligibleFileSystemNotSupported, msclus/SrDiskReplicationEligibleInSameSite, msclus/SrDiskReplicationEligibleInsufficientFreeSpace, msclus/SrDiskReplicationEligibleNone, msclus/SrDiskReplicationEligibleNotGpt, msclus/SrDiskReplicationEligibleNotInSameSite, msclus/SrDiskReplicationEligibleOffline, msclus/SrDiskReplicationEligibleOther, msclus/SrDiskReplicationEligiblePartitionLayoutMismatch, msclus/SrDiskReplicationEligibleSameAsSpecifiedDisk, msclus/SrDiskReplicationEligibleYes, mscs.sr_disk_replication_eligible"
+ms.keywords: '*PSR_DISK_REPLICATION_ELIGIBLE, SR_DISK_REPLICATION_ELIGIBLE, SR_DISK_REPLICATION_ELIGIBLE enumeration [Failover Cluster], SrDiskReplicationEligibleAlreadyInReplication, SrDiskReplicationEligibleFileSystemNotSupported, SrDiskReplicationEligibleInSameSite, SrDiskReplicationEligibleInsufficientFreeSpace, SrDiskReplicationEligibleNone, SrDiskReplicationEligibleNotGpt, SrDiskReplicationEligibleNotInSameSite, SrDiskReplicationEligibleOffline, SrDiskReplicationEligibleOther, SrDiskReplicationEligiblePartitionLayoutMismatch, SrDiskReplicationEligibleSameAsSpecifiedDisk, SrDiskReplicationEligibleYes, clusapi/SR_DISK_REPLICATION_ELIGIBLE, clusapi/SrDiskReplicationEligibleAlreadyInReplication, clusapi/SrDiskReplicationEligibleFileSystemNotSupported, clusapi/SrDiskReplicationEligibleInSameSite, clusapi/SrDiskReplicationEligibleInsufficientFreeSpace, clusapi/SrDiskReplicationEligibleNone, clusapi/SrDiskReplicationEligibleNotGpt, clusapi/SrDiskReplicationEligibleNotInSameSite, clusapi/SrDiskReplicationEligibleOffline, clusapi/SrDiskReplicationEligibleOther, clusapi/SrDiskReplicationEligiblePartitionLayoutMismatch, clusapi/SrDiskReplicationEligibleSameAsSpecifiedDisk, clusapi/SrDiskReplicationEligibleYes, msclus/SR_DISK_REPLICATION_ELIGIBLE, msclus/SrDiskReplicationEligibleAlreadyInReplication, msclus/SrDiskReplicationEligibleFileSystemNotSupported, msclus/SrDiskReplicationEligibleInSameSite, msclus/SrDiskReplicationEligibleInsufficientFreeSpace, msclus/SrDiskReplicationEligibleNone, msclus/SrDiskReplicationEligibleNotGpt, msclus/SrDiskReplicationEligibleNotInSameSite, msclus/SrDiskReplicationEligibleOffline, msclus/SrDiskReplicationEligibleOther, msclus/SrDiskReplicationEligiblePartitionLayoutMismatch, msclus/SrDiskReplicationEligibleSameAsSpecifiedDisk, msclus/SrDiskReplicationEligibleYes, mscs.sr_disk_replication_eligible'
 ms.topic: enum
-f1_keywords: 
- - "clusapi/SR_DISK_REPLICATION_ELIGIBLE"
+f1_keywords:
+- clusapi/SR_DISK_REPLICATION_ELIGIBLE
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - SR_DISK_REPLICATION_ELIGIBLE
+- SR_DISK_REPLICATION_ELIGIBLE
 product: Windows
 targetos: Windows
 req.typenames: SR_DISK_REPLICATION_ELIGIBLE, *PSR_DISK_REPLICATION_ELIGIBLE
@@ -129,7 +129,7 @@ Other.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_sr_resource_type_disk_info">SR_RESOURCE_TYPE_DISK_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-sr_resource_type_disk_info">SR_RESOURCE_TYPE_DISK_INFO</a>
  
 
  

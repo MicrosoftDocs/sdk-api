@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: 3d2c7edc-c9e6-4db6-b7c8-07f7f01cbe0d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_ICMP_EX, *PMIB_ICMP_EX_XPSP1, MIB_ICMP_EX, MIB_ICMP_EX structure [MIB], MIB_ICMP_EX_XPSP1, PMIB_ICMP_EX, PMIB_ICMP_EX structure pointer [MIB], ipmib/MIB_ICMP_EX, ipmib/PMIB_ICMP_EX, iprtrmib/MIB_ICMP_EX, iprtrmib/PMIB_ICMP_EX, mib.mib_icmp_ex, rras.mib_icmp_ex"
+ms.keywords: '*PMIB_ICMP_EX, *PMIB_ICMP_EX_XPSP1, MIB_ICMP_EX, MIB_ICMP_EX structure [MIB], MIB_ICMP_EX_XPSP1, PMIB_ICMP_EX, PMIB_ICMP_EX structure pointer [MIB], ipmib/MIB_ICMP_EX, ipmib/PMIB_ICMP_EX, iprtrmib/MIB_ICMP_EX, iprtrmib/PMIB_ICMP_EX, mib.mib_icmp_ex, rras.mib_icmp_ex'
 ms.topic: struct
-f1_keywords: 
- - "ipmib/MIB_ICMP_EX"
+f1_keywords:
+- ipmib/MIB_ICMP_EX
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipmib.h
- - Iprtrmib.h
+- Ipmib.h
+- Iprtrmib.h
 api_name:
- - MIB_ICMP_EX
+- MIB_ICMP_EX
 product: Windows
 targetos: Windows
 req.typenames: MIB_ICMP_EX_XPSP1, *PMIB_ICMP_EX_XPSP1
@@ -63,12 +63,12 @@ The
 
 ### -field icmpInStats
 
-Specifies an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a> structure that contains the extended statistics for incoming ICMP messages.
+Specifies an <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a> structure that contains the extended statistics for incoming ICMP messages.
 
 
 ### -field icmpOutStats
 
-Specifies an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a> structure that contains the extended statistics for outgoing ICMP messages.
+Specifies an <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a> structure that contains the extended statistics for outgoing ICMP messages.
 
 
 ## -remarks
@@ -76,7 +76,7 @@ Specifies an <a href="https://docs.microsoft.com/previous-versions/windows/deskt
 
 
 Two 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a> structures are required to hold all the extended ICMP statistics for a given computer. One 
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a> structures are required to hold all the extended ICMP statistics for a given computer. One 
 <b>MIBICMPSTATS_EX</b> structure contains the extended statistics for incoming ICMP messages. The other contains the extended statistics for outgoing ICMP messages. For this reason, the 
 <b>MIB_ICMP_EX</b> structure contains two 
 <b>MIBICMPSTATS_EX</b> structures.
@@ -95,19 +95,19 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mibicmpinfo">MIBICMPINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpinfo">MIBICMPINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mibicmpstats">MIBICMPSTATS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats">MIBICMPSTATS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_icmp">MIB_ICMP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_icmp">MIB_ICMP</a>
  
 
  

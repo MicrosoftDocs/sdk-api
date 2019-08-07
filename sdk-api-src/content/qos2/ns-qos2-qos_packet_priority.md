@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: 1a10c5f0-0b7f-401f-82ff-0d7a93114715
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PQOS_PACKET_PRIORITY, PQOS_PACKET_PRIORITY, PQOS_PACKET_PRIORITY structure pointer [QOS], QOS_PACKET_PRIORITY, QOS_PACKET_PRIORITY structure [QOS], qos.qos_packet_priority, qos2/PQOS_PACKET_PRIORITY, qos2/QOS_PACKET_PRIORITY"
+ms.keywords: '*PQOS_PACKET_PRIORITY, PQOS_PACKET_PRIORITY, PQOS_PACKET_PRIORITY structure pointer [QOS], QOS_PACKET_PRIORITY, QOS_PACKET_PRIORITY structure [QOS], qos.qos_packet_priority, qos2/PQOS_PACKET_PRIORITY, qos2/QOS_PACKET_PRIORITY'
 ms.topic: struct
-f1_keywords: 
- - "qos2/QOS_PACKET_PRIORITY"
+f1_keywords:
+- qos2/QOS_PACKET_PRIORITY
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qos2.h
+- Qos2.h
 api_name:
- - QOS_PACKET_PRIORITY
+- QOS_PACKET_PRIORITY
 product: Windows
 targetos: Windows
 req.typenames: QOS_PACKET_PRIORITY, *PQOS_PACKET_PRIORITY
@@ -66,7 +66,7 @@ Differential Services Code Point (DSCP) mark used for flow traffic that conforms
 
 ### -field NonConformantDSCPValue
 
-DSCP marking used for flow traffic that exceeds the specified flow rate.  Non-conformant DSCP values are only applicable only if <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/ne-qos2-_qos_shaping">QOS_SHAPING</a> has a value of <b>QOSUseNonConformantMarkings</b>.
+DSCP marking used for flow traffic that exceeds the specified flow rate.  Non-conformant DSCP values are only applicable only if <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ne-qos2-qos_shaping">QOS_SHAPING</a> has a value of <b>QOSUseNonConformantMarkings</b>.
 
 
 ### -field ConformantL2Value
@@ -76,7 +76,7 @@ Layer-2 (L2) tag used for flow traffic that conforms to the specified flow rate.
 
 ### -field NonConformantL2Value
 
-L2 tag used for flow traffic that exceeds the specified flow rate.  Non-conformant L2 values are only applicable if <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/ne-qos2-_qos_shaping">QOS_SHAPING</a> has a value of <b>QOSUseNonConformantMarkings</b>.
+L2 tag used for flow traffic that exceeds the specified flow rate.  Non-conformant L2 values are only applicable if <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ne-qos2-qos_shaping">QOS_SHAPING</a> has a value of <b>QOSUseNonConformantMarkings</b>.
 
 
 ## -see-also

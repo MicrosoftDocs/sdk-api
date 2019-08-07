@@ -61,7 +61,7 @@ The <b>GetOwnerModuleFromUdpEntry</b> function retrieves data about the module t
 
 ### -param pUdpEntry [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udprow_owner_module">MIB_UDPROW_OWNER_MODULE</a> structure that contains the IPv4 UDP endpoint entry used to obtain the owner module.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udprow_owner_module">MIB_UDPROW_OWNER_MODULE</a> structure that contains the IPv4 UDP endpoint entry used to obtain the owner module.
 
 
 ### -param Class [in]

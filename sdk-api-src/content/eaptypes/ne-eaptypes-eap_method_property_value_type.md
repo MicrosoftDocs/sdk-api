@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE_TYPE, EAP_METHOD_PROPERTY_VALUE_TYPE enumeration [EAPHost], eaphost.eap_method_property_value_type, eaptypes/EAP_METHOD_PROPERTY_VALUE_TYPE, eaptypes/empvtBool, eaptypes/empvtDword, eaptypes/empvtString, empvtBool, empvtDword, empvtString
 ms.topic: enum
-f1_keywords: 
- - "eaptypes/EAP_METHOD_PROPERTY_VALUE_TYPE"
+f1_keywords:
+- eaptypes/EAP_METHOD_PROPERTY_VALUE_TYPE
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - EapTypes.h
+- EapTypes.h
 api_name:
- - EAP_METHOD_PROPERTY_VALUE_TYPE
+- EAP_METHOD_PROPERTY_VALUE_TYPE
 product: Windows
 targetos: Windows
 req.typenames: EAP_METHOD_PROPERTY_VALUE_TYPE
@@ -88,11 +88,11 @@ The method property value is a pointer to a value of type  <b>BYTE</b>.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property">EAP_METHOD_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property">EAP_METHOD_PROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eap_method_property_type">EAP_METHOD_PROPERTY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eap_method_property_type">EAP_METHOD_PROPERTY_TYPE</a>
  
 
  

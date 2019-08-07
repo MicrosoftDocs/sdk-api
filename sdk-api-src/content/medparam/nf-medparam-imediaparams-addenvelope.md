@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddEnvelope, AddEnvelope method [DirectShow], AddEnvelope method [DirectShow],IMediaParams interface, IMediaParams interface [DirectShow],AddEnvelope method, IMediaParams.AddEnvelope, IMediaParams::AddEnvelope, IMediaParamsAddEnvelope, dshow.imediaparams_addenvelope, medparam/IMediaParams::AddEnvelope
 ms.topic: method
-f1_keywords: 
- - "medparam/IMediaParams.AddEnvelope"
+f1_keywords:
+- medparam/IMediaParams.AddEnvelope
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaParams.AddEnvelope
+- IMediaParams.AddEnvelope
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ Number of segments in the envelope.
 
 ### -param pEnvelopeSegments [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/medparam/ns-medparam-_mp_envelope_segment">MP_ENVELOPE_SEGMENT</a> structures that define the envelope segments. The size of the array is given in the <i>cPoints</i> parameter.
+Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/medparam/ns-medparam-mp_envelope_segment">MP_ENVELOPE_SEGMENT</a> structures that define the envelope segments. The size of the array is given in the <i>cPoints</i> parameter.
 
 
 ## -returns

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxInitializeEventQueueA, FaxInitializeEventQueueW, PFAXINITIALIZEEVENTQUEUE, PFAXINITIALIZEEVENTQUEUE callback, PFAXINITIALIZEEVENTQUEUE callback function [Fax Service], _mfax_faxinitializeeventqueue, fax._mfax_faxinitializeeventqueue, winfax/FaxInitializeEventQueueA, winfax/FaxInitializeEventQueueW, winfax/PFAXINITIALIZEEVENTQUEUE
 ms.topic: callback
-f1_keywords: 
- - "winfax/PFAXINITIALIZEEVENTQUEUE"
+f1_keywords:
+- winfax/PFAXINITIALIZEEVENTQUEUE
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winfax.h
+- Winfax.h
 api_name:
- - PFAXINITIALIZEEVENTQUEUE
- - FaxInitializeEventQueueA
- - FaxInitializeEventQueueW
+- PFAXINITIALIZEEVENTQUEUE
+- FaxInitializeEventQueueA
+- FaxInitializeEventQueueW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -97,7 +97,7 @@ Handle to a window of the fax client application to notify when an asynchronous 
 
 Type: <b>UINT</b>
 
-Specifies an unsigned integer that identifies the application's base window message. The application can use this number to determine whether to process the message as a fax server event. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_eventa">FAX_EVENT</a> topic. 
+Specifies an unsigned integer that identifies the application's base window message. The application can use this number to determine whether to process the message as a fax server event. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_eventa">FAX_EVENT</a> topic. 
 
                     
 
@@ -177,11 +177,11 @@ An application can specify how the fax server should inform the client applicati
 
 A fax client application must call the <b>FaxInitializeEventQueue</b> function before calling <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> to retrieve the value to specify in the <i>CompletionKey</i> parameter. This value is useful to a message loop that retrieves I/O completion packets from multiple I/O completion ports, using calls to the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjects">WaitForMultipleObjects</a> function. If you specify a different completion key for each I/O completion port, you can identify the completion port associated with the completion packet.
 
-An application can call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function to retrieve the queued I/O completion packet for a completed I/O operation. A call to GetQueuedCompletionStatus also returns a pointer to a variable that the function sets to the address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_eventa">FAX_EVENT</a> structure. The structure is associated with the I/O completion packet of interest. Call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function to free the memory allocated for the <b>FAX_EVENT</b> structure.
+An application can call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function to retrieve the queued I/O completion packet for a completed I/O operation. A call to GetQueuedCompletionStatus also returns a pointer to a variable that the function sets to the address of a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_eventa">FAX_EVENT</a> structure. The structure is associated with the I/O completion packet of interest. Call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function to free the memory allocated for the <b>FAX_EVENT</b> structure.
 
 After a fax client application receives the <b>FEI_FAXSVC_ENDED</b> message, it will no longer receive fax events from the fax service. To resume receiving fax events, the application must call the <b>FaxInitializeEventQueue</b> function again when the fax service restarts. The application can determine if the fax service is running by using the service control manager. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxclose">FaxClose</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-enabling-an-application-to-receive-notifications-of-fax-events">Enabling an Application to Receive Notifications of Fax Events</a>.
 
-For a list of the asynchronous events that can occur within the fax server, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_eventa">FAX_EVENT</a> topic.
+For a list of the asynchronous events that can occur within the fax server, see the <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_eventa">FAX_EVENT</a> topic.
 
 
 
@@ -195,7 +195,7 @@ For a list of the asynchronous events that can occur within the fax server, see 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_eventa">FAX_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_eventa">FAX_EVENT</a>
 
 
 

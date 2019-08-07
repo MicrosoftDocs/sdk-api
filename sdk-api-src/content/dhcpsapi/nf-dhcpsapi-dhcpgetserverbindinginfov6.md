@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpGetServerBindingInfoV6, DhcpGetServerBindingInfoV6 function [DHCP], dhcp.dhcpgetserverbindinginfov6, dhcpsapi/DhcpGetServerBindingInfoV6
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpGetServerBindingInfoV6"
+f1_keywords:
+- dhcpsapi/DhcpGetServerBindingInfoV6
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpGetServerBindingInfoV6
+- DhcpGetServerBindingInfoV6
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ This parameter is not used, and must be set to 0.
 
 ### -param BindElementsInfo [out]
 
-Pointer to the address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcpv6_bind_element_array">DHCPV6_BIND_ELEMENT_ARRAY</a> structure that contains the information about the IPv6 interface bindings for the DHCPv6 server.
+Pointer to the address of a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpv6_bind_element_array">DHCPV6_BIND_ELEMENT_ARRAY</a> structure that contains the information about the IPv6 interface bindings for the DHCPv6 server.
 
 
 ## -returns
@@ -127,7 +127,7 @@ The caller of this function must free the memory pointed to by <i>BindElementsIn
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcpv6_bind_element_array">DHCPV6_BIND_ELEMENT_ARRAY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpv6_bind_element_array">DHCPV6_BIND_ELEMENT_ARRAY</a>
  
 
  

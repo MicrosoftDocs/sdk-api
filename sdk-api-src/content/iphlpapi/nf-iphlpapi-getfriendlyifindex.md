@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFriendlyIfIndex, GetFriendlyIfIndex function [IP Helper], _iphlp_getfriendlyifindex, iphlp.getfriendlyifindex, iphlpapi/GetFriendlyIfIndex
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/GetFriendlyIfIndex"
+f1_keywords:
+- iphlpapi/GetFriendlyIfIndex
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetFriendlyIfIndex
+- GetFriendlyIfIndex
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -91,7 +91,7 @@ A backward-compatible interface index that uses only the lower 24 bits.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ifmib/ns-ifmib-_mib_ifrow">MIB_IFROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a>
  
 
  

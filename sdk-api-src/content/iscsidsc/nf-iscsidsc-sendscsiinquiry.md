@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SendScsiInquiry, SendScsiInquiry function [iSCSI Discovery Library API], iscsidisc.sendscsiinquiry, iscsidsc/SendScsiInquiry
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/SendScsiInquiry"
+f1_keywords:
+- iscsidsc/SendScsiInquiry
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - SendScsiInquiry
+- SendScsiInquiry
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>SendScsiInquiry</b> function sends a SCSI INQUIRY command to the specifie
 
 ### -param UniqueSessionId [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> structure containing the session identifier for the login session specific to the target to which the READ CAPACITY command is sent. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> structure containing the session identifier for the login session specific to the target to which the READ CAPACITY command is sent. 
 
 
 
@@ -136,7 +136,7 @@ Otherwise, <b>SendScsiInquiry</b> returns the appropriate Win32 or iSCSI error c
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
  
 
  

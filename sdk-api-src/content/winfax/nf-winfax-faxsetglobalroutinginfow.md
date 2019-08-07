@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxSetGlobalRoutingInfo, FaxSetGlobalRoutingInfo function [Fax Service], FaxSetGlobalRoutingInfoA, FaxSetGlobalRoutingInfoW, _mfax_faxsetglobalroutinginfo, fax._mfax_faxsetglobalroutinginfo, winfax/FaxSetGlobalRoutingInfo, winfax/FaxSetGlobalRoutingInfoA, winfax/FaxSetGlobalRoutingInfoW
 ms.topic: function
-f1_keywords: 
- - "winfax/FaxSetGlobalRoutingInfo"
+f1_keywords:
+- winfax/FaxSetGlobalRoutingInfo
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: WinFax.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - WinFax.lib
- - WinFax.dll
+- WinFax.lib
+- WinFax.dll
 api_name:
- - FaxSetGlobalRoutingInfo
- - FaxSetGlobalRoutingInfoA
- - FaxSetGlobalRoutingInfoW
+- FaxSetGlobalRoutingInfo
+- FaxSetGlobalRoutingInfoA
+- FaxSetGlobalRoutingInfoW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,9 +71,9 @@ Specifies a fax server handle returned by a call to the <a href="https://docs.mi
 
 ### -param RoutingInfo [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_global_routing_infoa">FAX_GLOBAL_ROUTING_INFO</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_global_routing_infoa">FAX_GLOBAL_ROUTING_INFO</a>*</b>
 
-Pointer to a buffer that contains a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_global_routing_infoa">FAX_GLOBAL_ROUTING_INFO</a> structure.
+Pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_global_routing_infoa">FAX_GLOBAL_ROUTING_INFO</a> structure.
 
 
 ## -returns
@@ -109,7 +109,7 @@ Access is denied. <a href="https://docs.microsoft.com/previous-versions/windows/
 </dl>
 </td>
 <td width="60%">
-The <b>Guid</b> member of the specified <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_global_routing_infoa">FAX_GLOBAL_ROUTING_INFO</a> structure does not correspond to an installed fax routing method.
+The <b>Guid</b> member of the specified <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_global_routing_infoa">FAX_GLOBAL_ROUTING_INFO</a> structure does not correspond to an installed fax routing method.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ To retrieve the current global configuration, call the <a href="https://docs.mic
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_global_routing_infoa">FAX_GLOBAL_ROUTING_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_global_routing_infoa">FAX_GLOBAL_ROUTING_INFO</a>
 
 
 

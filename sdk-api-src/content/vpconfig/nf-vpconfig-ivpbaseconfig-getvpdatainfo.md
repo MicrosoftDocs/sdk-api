@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVPDataInfo, GetVPDataInfo method [DirectShow], GetVPDataInfo method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetVPDataInfo method, IVPBaseConfig.GetVPDataInfo, IVPBaseConfig::GetVPDataInfo, IVPBaseConfigGetVPDataInfo, dshow.ivpbaseconfig_getvpdatainfo, vpconfig/IVPBaseConfig::GetVPDataInfo
 ms.topic: method
-f1_keywords: 
- - "vpconfig/IVPBaseConfig.GetVPDataInfo"
+f1_keywords:
+- vpconfig/IVPBaseConfig.GetVPDataInfo
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vpconfig.h
+- Vpconfig.h
 api_name:
- - IVPBaseConfig.GetVPDataInfo
+- IVPBaseConfig.GetVPDataInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ The <code>GetVPDataInfo</code> method retrieves the current video port data info
 
 ### -param pamvpDataInfo [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vptype/ns-vptype-_amvpdatainfo">AMVPDATAINFO</a> structure allocated by the caller. The device fills in the structure with information about the video port.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vptype/ns-vptype-amvpdatainfo">AMVPDATAINFO</a> structure allocated by the caller. The device fills in the structure with information about the video port.
 
 
 ## -returns

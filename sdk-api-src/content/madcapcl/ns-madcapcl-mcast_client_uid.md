@@ -8,10 +8,10 @@ tech.root: Madcap
 ms.assetid: 6460ea80-f1b1-4939-a977-580d0db10fd0
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPMCAST_CLIENT_UID, LPMCAST_CLIENT_UID, LPMCAST_CLIENT_UID structure pointer [MADCAP], MCAST_CLIENT_UID, MCAST_CLIENT_UID structure [MADCAP], _mdhcp_mcast_client_uid, madcap.mcast_client_uid, madcapcl/LPMCAST_CLIENT_UID, madcapcl/MCAST_CLIENT_UID"
+ms.keywords: '*LPMCAST_CLIENT_UID, LPMCAST_CLIENT_UID, LPMCAST_CLIENT_UID structure pointer [MADCAP], MCAST_CLIENT_UID, MCAST_CLIENT_UID structure [MADCAP], _mdhcp_mcast_client_uid, madcap.mcast_client_uid, madcapcl/LPMCAST_CLIENT_UID, madcapcl/MCAST_CLIENT_UID'
 ms.topic: struct
-f1_keywords: 
- - "madcapcl/MCAST_CLIENT_UID"
+f1_keywords:
+- madcapcl/MCAST_CLIENT_UID
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Madcapcl.h
+- Madcapcl.h
 api_name:
- - MCAST_CLIENT_UID
+- MCAST_CLIENT_UID
 product: Windows
 targetos: Windows
 req.typenames: MCAST_CLIENT_UID, *LPMCAST_CLIENT_UID
@@ -75,19 +75,19 @@ Size of the <b>ClientUID</b> member, in bytes.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_ipng_address">IPNG_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-ipng_address">IPNG_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_lease_request">MCAST_LEASE_REQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_lease_request">MCAST_LEASE_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_scope_ctx">MCAST_SCOPE_CTX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_scope_ctx">MCAST_SCOPE_CTX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_scope_entry">MCAST_SCOPE_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_scope_entry">MCAST_SCOPE_ENTRY</a>
 
 
 

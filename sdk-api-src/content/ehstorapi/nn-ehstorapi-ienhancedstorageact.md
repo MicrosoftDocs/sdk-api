@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnhancedStorageACT, IEnhancedStorageACT interface [Enhanced Storage], IEnhancedStorageACT interface [Enhanced Storage],described, ehstorapi/IEnhancedStorageACT, enstor.ienhancedstorageact
 ms.topic: interface
-f1_keywords: 
- - "ehstorapi/IEnhancedStorageACT"
+f1_keywords:
+- ehstorapi/IEnhancedStorageACT
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EhStorAPI.h
+- EhStorAPI.h
 api_name:
- - IEnhancedStorageACT
+- IEnhancedStorageACT
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ The <b>IEnhancedStorageACT</b> interface has these methods.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstorageact-authorize">Authorize</a>
 </td>
 <td align="left" width="63%">
-Associates the Addressable Command Target (ACT) with the <b>Authorized</b> state    defined by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/ns-ehstorapi-_act_authorization_state">ACT_AUTHORIZATION_STATE</a>, and ensures the authentication of each individual silo according to the required sequence and logical combination necessary to authorize access to the ACT.
+Associates the Addressable Command Target (ACT) with the <b>Authorized</b> state    defined by <a href="https://docs.microsoft.com/windows/desktop/api/ehstorapi/ns-ehstorapi-act_authorization_state">ACT_AUTHORIZATION_STATE</a>, and ensures the authentication of each individual silo according to the required sequence and logical combination necessary to authorize access to the ACT.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Retrieves the unique identity of the Addressable Command Target (ACT).
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstorageact-unauthorize">Unauthorize</a>
 </td>
 <td align="left" width="63%">
-Associates the Addressable Command Target (ACT) with the <b>Unauthorized</b> state defined by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/ns-ehstorapi-_act_authorization_state">ACT_AUTHORIZATION_STATE</a>, and ensures the deauthentication of each individual silo according to the required sequence and logical combination necessary to unauthorize access to the ACT.
+Associates the Addressable Command Target (ACT) with the <b>Unauthorized</b> state defined by <a href="https://docs.microsoft.com/windows/desktop/api/ehstorapi/ns-ehstorapi-act_authorization_state">ACT_AUTHORIZATION_STATE</a>, and ensures the deauthentication of each individual silo according to the required sequence and logical combination necessary to unauthorize access to the ACT.
 
 </td>
 </tr>

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],Run method, IFsrmReportJob.Run, IFsrmReportJob::Run, Run, Run method [File Server Resource Manager], Run method [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_run, fsrm.ifsrmreportjob_run, fsrmreports/IFsrmReportJob::Run
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmReportJob.Run"
+f1_keywords:
+- fsrmreports/IFsrmReportJob.Run
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReportJob.Run
+- IFsrmReportJob.Run
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Runs all the reports in the job.
 
 ### -param context [in]
 
-Specifies to which subdirectory the reports are written. For possible values, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmreportgenerationcontext">FsrmReportGenerationContext</a> enumeration.
+Specifies to which subdirectory the reports are written. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmreportgenerationcontext">FsrmReportGenerationContext</a> enumeration.
 
 
 ## -returns

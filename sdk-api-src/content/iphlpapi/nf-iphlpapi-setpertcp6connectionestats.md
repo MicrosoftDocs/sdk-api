@@ -62,7 +62,7 @@ The
 
 ### -param Row
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6row">MIB_TCP6ROW</a> structure for an IPv6 TCP connection. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6row">MIB_TCP6ROW</a> structure for an IPv6 TCP connection. 
 
 
 ### -param EstatsType
@@ -359,7 +359,7 @@ The <i>Offset</i> parameter is currently unused. The possible structures pointed
 
 If the <i>RwSize</i> parameter is set to 0, the <b>SetPerTcp6ConnectionEStats</b> function  returns NO_ERROR and makes no changes tothe extended statistics status.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table">GetTcp6Table</a> function is used to retrieve the IPv6 TCP connection table on the local computer. This function returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table">MIB_TCP6TABLE</a> structure that contain an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6row">MIB_TCP6ROW</a> entries. The <i>Row</i> parameter passed to the <b>SetPerTcp6ConnectionEStats</b> function must be an entry for an existing IPv6 TCP connection.
+The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table">GetTcp6Table</a> function is used to retrieve the IPv6 TCP connection table on the local computer. This function returns a <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table">MIB_TCP6TABLE</a> structure that contain an array of <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6row">MIB_TCP6ROW</a> entries. The <i>Row</i> parameter passed to the <b>SetPerTcp6ConnectionEStats</b> function must be an entry for an existing IPv6 TCP connection.
 
 Once extended statistics are enabled on a TCP connection for IPv6, an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a> function to retrieve extended statistics on the TCP connection.
 
@@ -397,11 +397,11 @@ The <b>SetPerTcp6ConnectionEStats</b> function can only be called by a user logg
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6row">MIB_TCP6ROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6row">MIB_TCP6ROW</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table">MIB_TCP6TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table">MIB_TCP6TABLE</a>
 
 
 

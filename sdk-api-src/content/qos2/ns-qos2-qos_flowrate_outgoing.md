@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: 6f0408fa-842c-4c6c-954b-cdc8a77b4bd3
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PQOS_FLOWRATE_OUTGOING, PQOS_FLOWRATE_OUTGOING, PQOS_FLOWRATE_OUTGOING structure pointer [QOS], QOS_FLOWRATE_OUTGOING, QOS_FLOWRATE_OUTGOING structure [QOS], qos.qos_flowrate_outgoing, qos2/PQOS_FLOWRATE_OUTGOING, qos2/QOS_FLOWRATE_OUTGOING"
+ms.keywords: '*PQOS_FLOWRATE_OUTGOING, PQOS_FLOWRATE_OUTGOING, PQOS_FLOWRATE_OUTGOING structure pointer [QOS], QOS_FLOWRATE_OUTGOING, QOS_FLOWRATE_OUTGOING structure [QOS], qos.qos_flowrate_outgoing, qos2/PQOS_FLOWRATE_OUTGOING, qos2/QOS_FLOWRATE_OUTGOING'
 ms.topic: struct
-f1_keywords: 
- - "qos2/QOS_FLOWRATE_OUTGOING"
+f1_keywords:
+- qos2/QOS_FLOWRATE_OUTGOING
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qos2.h
+- Qos2.h
 api_name:
- - QOS_FLOWRATE_OUTGOING
+- QOS_FLOWRATE_OUTGOING
 product: Windows
 targetos: Windows
 req.typenames: QOS_FLOWRATE_OUTGOING, *PQOS_FLOWRATE_OUTGOING
@@ -68,12 +68,12 @@ The rate at which data should be sent, in units of bits per second.
 
 ### -field ShapingBehavior
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/ne-qos2-_qos_shaping">QOS_SHAPING</a> constant that defines the shaping behavior of the flow.
+A <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ne-qos2-qos_shaping">QOS_SHAPING</a> constant that defines the shaping behavior of the flow.
 
 
 ### -field Reason
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/ne-qos2-_qos_flowrate_reason">QOS_FLOWRATE_REASON</a> constant that indicates the reason for a flow rate change.
+A <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ne-qos2-qos_flowrate_reason">QOS_FLOWRATE_REASON</a> constant that indicates the reason for a flow rate change.
 
 
 ## -see-also

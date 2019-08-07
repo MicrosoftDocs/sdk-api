@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxGetPort, FaxGetPort function [Fax Service], FaxGetPortA, FaxGetPortW, _mfax_faxgetport, fax._mfax_faxgetport, winfax/FaxGetPort, winfax/FaxGetPortA, winfax/FaxGetPortW
 ms.topic: function
-f1_keywords: 
- - "winfax/FaxGetPort"
+f1_keywords:
+- winfax/FaxGetPort
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: WinFax.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - WinFax.lib
- - WinFax.dll
+- WinFax.lib
+- WinFax.dll
 api_name:
- - FaxGetPort
- - FaxGetPortA
- - FaxGetPortW
+- FaxGetPort
+- FaxGetPortA
+- FaxGetPortW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ Specifies a fax port handle returned by a call to the <a href="https://docs.micr
 
 Type: <b>PFAX_PORT_INFO*</b>
 
-Pointer to the address of a buffer to receive a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_port_infoa">FAX_PORT_INFO</a> structure. The structure describes one fax port. For information about memory allocation, see the following Remarks section.
+Pointer to the address of a buffer to receive a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_port_infoa">FAX_PORT_INFO</a> structure. The structure describes one fax port. For information about memory allocation, see the following Remarks section.
 
 
 ## -returns
@@ -141,7 +141,7 @@ A fax administration application typically calls the <b>FaxGetPort</b> function 
 
 To obtain a valid port handle to specify in the <i>FaxPortHandle</i> parameter, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxopenport">FaxOpenPort</a> function.
 
-The <b>FaxGetPort</b> function allocates the memory required for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_port_infoa">FAX_PORT_INFO</a> buffer pointed to by the <i>PortInfo</i> parameter. An application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxfreebuffer">FaxFreeBuffer</a> function to deallocate the resources associated with this parameter.
+The <b>FaxGetPort</b> function allocates the memory required for the <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_port_infoa">FAX_PORT_INFO</a> buffer pointed to by the <i>PortInfo</i> parameter. An application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxfreebuffer">FaxFreeBuffer</a> function to deallocate the resources associated with this parameter.
 
 For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-device-management">Fax Device Management</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-freeing-fax-resources">Freeing Fax Resources</a>.
 
@@ -153,7 +153,7 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_port_infoa">FAX_PORT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_port_infoa">FAX_PORT_INFO</a>
 
 
 

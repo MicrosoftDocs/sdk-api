@@ -8,10 +8,10 @@ tech.root: NetBIOS
 ms.assetid: 402bc5ce-bce4-4ba9-b82d-13cd3dc7097b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PADAPTER_STATUS, ADAPTER_STATUS, ADAPTER_STATUS structure [NetBIOS], PADAPTER_STATUS, PADAPTER_STATUS structure pointer [NetBIOS], nb30/ADAPTER_STATUS, nb30/PADAPTER_STATUS, netbios.adapter_status"
+ms.keywords: '*PADAPTER_STATUS, ADAPTER_STATUS, ADAPTER_STATUS structure [NetBIOS], PADAPTER_STATUS, PADAPTER_STATUS structure pointer [NetBIOS], nb30/ADAPTER_STATUS, nb30/PADAPTER_STATUS, netbios.adapter_status'
 ms.topic: struct
-f1_keywords: 
- - "nb30/ADAPTER_STATUS"
+f1_keywords:
+- nb30/ADAPTER_STATUS
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Nb30.h
+- Nb30.h
 api_name:
- - ADAPTER_STATUS
+- ADAPTER_STATUS
 product: Windows
 targetos: Windows
 req.typenames: ADAPTER_STATUS, *PADAPTER_STATUS
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
 
-The <b>ADAPTER_STATUS</b> structure contains information about a network adapter. This structure is pointed to by the <b>ncb_buffer</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a> structure. <b>ADAPTER_STATUS</b> is followed by as many <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_name_buffer">NAME_BUFFER</a> structures as required to describe the network adapters on the system.
+The <b>ADAPTER_STATUS</b> structure contains information about a network adapter. This structure is pointed to by the <b>ncb_buffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure. <b>ADAPTER_STATUS</b> is followed by as many <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-name_buffer">NAME_BUFFER</a> structures as required to describe the network adapters on the system.
 
 
 ## -struct-fields
@@ -208,11 +208,11 @@ Specifies the number of names in the local names table.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_name_buffer">NAME_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-name_buffer">NAME_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a>
 
 
 

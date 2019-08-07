@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],SetProperty method, IXMLHTTPRequest2.SetProperty, IXMLHTTPRequest2::SetProperty, SetProperty, SetProperty method [XMLHttpRequest2], SetProperty method [XMLHttpRequest2],IXMLHTTPRequest2 interface, XHR_PROP_EXTENDED_ERROR, XHR_PROP_IGNORE_CERT_ERRORS, XHR_PROP_NO_AUTH, XHR_PROP_NO_CACHE, XHR_PROP_NO_CRED_PROMPT, XHR_PROP_NO_DEFAULT_HEADERS, XHR_PROP_QUERY_STRING_UTF8, XHR_PROP_REPORT_REDIRECT_STATUS, XHR_PROP_TIMEOUT, ixhr2.ixmlhttprequest2_setproperty, msxml6/IXMLHTTPRequest2::SetProperty
 ms.topic: method
-f1_keywords: 
- - "msxml6/IXMLHTTPRequest2.SetProperty"
+f1_keywords:
+- msxml6/IXMLHTTPRequest2.SetProperty
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msxml6.h
+- msxml6.h
 api_name:
- - IXMLHTTPRequest2.SetProperty
+- IXMLHTTPRequest2.SetProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -185,7 +185,7 @@ Specifies the number of milliseconds that the application waits before timing ou
 </dl>
 </td>
 <td width="60%">
-This parameter can be one of the values from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ne-msxml6-_xhr_cred_prompt">XHR_CRED_PROMPT</a> enumeration type defined in the <i>Msxml6.h</i>  header file.
+This parameter can be one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ne-msxml6-xhr_cred_prompt">XHR_CRED_PROMPT</a> enumeration type defined in the <i>Msxml6.h</i>  header file.
 
 <ul>
 <li><b>XHR_CRED_PROMPT_ALL</b> if credential prompting should be enabled <b>(default)</b>.</li>
@@ -200,7 +200,7 @@ This parameter can be one of the values from the <a href="https://docs.microsoft
 </dl>
 </td>
 <td width="60%">
-This parameter can be one of the values from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ne-msxml6-_xhr_cred_prompt">XHR_AUTH</a> enumeration type defined in the <i>Msxml6.h</i>  header file.
+This parameter can be one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ne-msxml6-xhr_cred_prompt">XHR_AUTH</a> enumeration type defined in the <i>Msxml6.h</i>  header file.
 
 <ul>
 <li><b>XHR_AUTH_ALL</b> if authentication is enabled <b>(default)</b>.
@@ -357,7 +357,7 @@ The <b>SetProperty</b> method on the <a href="https://docs.microsoft.com/previou
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ne-msxml6-_xhr_property">XHR_PROPERTY Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ne-msxml6-xhr_property">XHR_PROPERTY Enumeration</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: 7c3ca3d0-b6fe-4e1c-858f-82ffb26622e7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_IFTABLE, MIB_IFTABLE, MIB_IFTABLE structure [MIB], PMIB_IFTABLE, PMIB_IFTABLE structure pointer [MIB], _mpr_mib_iftable, ifmib/MIB_IFTABLE, ifmib/PMIB_IFTABLE, iprtrmib/MIB_IFTABLE, iprtrmib/PMIB_IFTABLE, mib.mib_iftable, rras.mib_iftable"
+ms.keywords: '*PMIB_IFTABLE, MIB_IFTABLE, MIB_IFTABLE structure [MIB], PMIB_IFTABLE, PMIB_IFTABLE structure pointer [MIB], _mpr_mib_iftable, ifmib/MIB_IFTABLE, ifmib/PMIB_IFTABLE, iprtrmib/MIB_IFTABLE, iprtrmib/PMIB_IFTABLE, mib.mib_iftable, rras.mib_iftable'
 ms.topic: struct
-f1_keywords: 
- - "ifmib/MIB_IFTABLE"
+f1_keywords:
+- ifmib/MIB_IFTABLE
 req.header: ifmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ifmib.h
- - Iprtrmib.h
+- Ifmib.h
+- Iprtrmib.h
 api_name:
- - MIB_IFTABLE
+- MIB_IFTABLE
 product: Windows
 targetos: Windows
 req.typenames: MIB_IFTABLE, *PMIB_IFTABLE
@@ -69,7 +69,7 @@ The number of interface entries in the array.
 ### -field table
 
 An array of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ifmib/ns-ifmib-_mib_ifrow">MIB_IFROW</a> structures containing interface entries.
+<a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a> structures containing interface entries.
 
 
 ## -remarks
@@ -80,7 +80,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi
 
 
 
-The <b>MIB_IFTABLE</b> structure may contain padding for alignment between the <b>dwNumEntries</b> member and the first <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ifmib/ns-ifmib-_mib_ifrow">MIB_IFROW</a> array entry in the <b>table</b> member. Padding for alignment may also be present between the <b>MIB_IFROW</b> array entries in the <b>table</b> member. Any access to a <b>MIB_IFROW</b> array entry should assume  padding may exist. 
+The <b>MIB_IFTABLE</b> structure may contain padding for alignment between the <b>dwNumEntries</b> member and the first <a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a> array entry in the <b>table</b> member. Padding for alignment may also be present between the <b>MIB_IFROW</b> array entries in the <b>table</b> member. Any access to a <b>MIB_IFROW</b> array entry should assume  padding may exist. 
 
 
 
@@ -106,11 +106,11 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ifmib/ns-ifmib-_mib_ifnumber">MIB_IFNUMBER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifnumber">MIB_IFNUMBER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ifmib/ns-ifmib-_mib_ifrow">MIB_IFROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a>
 
 
 

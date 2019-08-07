@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxSendDocumentForBroadcast, FaxSendDocumentForBroadcast function [Fax Service], FaxSendDocumentForBroadcastA, FaxSendDocumentForBroadcastW, _mfax_faxsenddocumentforbroadcast, fax._mfax_faxsenddocumentforbroadcast, winfax/FaxSendDocumentForBroadcast, winfax/FaxSendDocumentForBroadcastA, winfax/FaxSendDocumentForBroadcastW
 ms.topic: function
-f1_keywords: 
- - "winfax/FaxSendDocumentForBroadcast"
+f1_keywords:
+- winfax/FaxSendDocumentForBroadcast
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: WinFax.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - WinFax.lib
- - WinFax.dll
+- WinFax.lib
+- WinFax.dll
 api_name:
- - FaxSendDocumentForBroadcast
- - FaxSendDocumentForBroadcastA
- - FaxSendDocumentForBroadcastW
+- FaxSendDocumentForBroadcast
+- FaxSendDocumentForBroadcastA
+- FaxSendDocumentForBroadcastW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -126,7 +126,7 @@ If the function fails, the return value is zero. To get extended error informati
 </dl>
 </td>
 <td width="60%">
-One or all of the <i>FaxHandle</i>, <i>FileName</i>, <i>FaxRecipientCallback</i>, or <i>FaxJobId</i> parameters are <b>NULL</b>, or the <b>RecipientNumber</b> member in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_job_parama">FAX_JOB_PARAM</a> structure is <b>NULL</b>.
+One or all of the <i>FaxHandle</i>, <i>FileName</i>, <i>FaxRecipientCallback</i>, or <i>FaxJobId</i> parameters are <b>NULL</b>, or the <b>RecipientNumber</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_job_parama">FAX_JOB_PARAM</a> structure is <b>NULL</b>.
 
 </td>
 </tr>

@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 6a11cb60-2690-45d4-a5e6-a3ebdc1efe3d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_OPTION_VALUE, DHCP_OPTION_VALUE, DHCP_OPTION_VALUE structure [DHCP], LPDHCP_OPTION_VALUE, LPDHCP_OPTION_VALUE structure pointer [DHCP], dhcp.dhcp_option_value, dhcpsapi/LPDHCP_OPTION_VALUE, dhcpsapi/_DHCP_OPTION_VALUE"
+ms.keywords: '*LPDHCP_OPTION_VALUE, DHCP_OPTION_VALUE, DHCP_OPTION_VALUE structure [DHCP], LPDHCP_OPTION_VALUE, LPDHCP_OPTION_VALUE structure pointer [DHCP], dhcp.dhcp_option_value, dhcpsapi/LPDHCP_OPTION_VALUE, dhcpsapi/_DHCP_OPTION_VALUE'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_OPTION_VALUE"
+f1_keywords:
+- dhcpsapi/DHCP_OPTION_VALUE
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_OPTION_VALUE
+- DHCP_OPTION_VALUE
 product: Windows
 targetos: Windows
 req.typenames: DHCP_OPTION_VALUE, *LPDHCP_OPTION_VALUE
@@ -68,7 +68,7 @@ The <b>DHCP_OPTION_VALUE</b> structure defines a DHCP  option value (just the op
 ### -field Value
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_data">DHCP_OPTION_DATA</a> structure that contains the data for a DHCP server option.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_data">DHCP_OPTION_DATA</a> structure that contains the data for a DHCP server option.
 
 
 ## -see-also
@@ -76,7 +76,7 @@ The <b>DHCP_OPTION_VALUE</b> structure defines a DHCP  option value (just the op
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_data">DHCP_OPTION_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_data">DHCP_OPTION_DATA</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerFreeErrorMemory, EapHostPeerFreeErrorMemory function [EAPHost], eaphost.eaphostpeerfreeerrormemory, eaphostpeerconfigapis/EapHostPeerFreeErrorMemory
 ms.topic: function
-f1_keywords: 
- - "eaphostpeerconfigapis/EapHostPeerFreeErrorMemory"
+f1_keywords:
+- eaphostpeerconfigapis/EapHostPeerFreeErrorMemory
 req.header: eaphostpeerconfigapis.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Eappcfg.lib
 req.dll: Eappcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - eappcfg.dll
+- eappcfg.dll
 api_name:
- - EapHostPeerFreeErrorMemory
+- EapHostPeerFreeErrorMemory
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,11 +51,11 @@ ms.custom: 19H1
 ## -description
 
 
-Frees memory allocated to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure.  An  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP ERROR</a> structure is created whenever an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-configuration-functions">EAPHost supplicant configuration function</a> fails. 
+Frees memory allocated to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure.  An  <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP ERROR</a> structure is created whenever an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-configuration-functions">EAPHost supplicant configuration function</a> fails. 
 
-The  <b>EapHostPeerFreeErrorMemory</b> function is used only for freeing <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structures returned by EAPHost configuration APIs, while the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror">EapHostPeerFreeEapError</a> function is used for freeing <b>EAP_ERROR</b> structures returned by EAPHost run-time APIs.
+The  <b>EapHostPeerFreeErrorMemory</b> function is used only for freeing <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structures returned by EAPHost configuration APIs, while the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror">EapHostPeerFreeEapError</a> function is used for freeing <b>EAP_ERROR</b> structures returned by EAPHost run-time APIs.
 
-If any  of the following configuration APIs functions are called, and an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> is returned, <b>EapHostPeerFreeErrorMemory</b> must be called to free the memory:<ul>
+If any  of the following configuration APIs functions are called, and an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> is returned, <b>EapHostPeerFreeErrorMemory</b> must be called to free the memory:<ul>
 <li>
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerconfigblob2xml">EapHostPeerConfigBlob2Xml</a>
 </li>
@@ -85,7 +85,7 @@ If any  of the following configuration APIs functions are called, and an <a href
 
 ### -param pEapError
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that  contains the error data to free.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that  contains the error data to free.
 
 
 ## -returns

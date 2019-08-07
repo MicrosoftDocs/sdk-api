@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_OperationFT, MI_OperationFT structure [Windows Management Infrastructure (MI)], mi/MI_OperationFT, wmi_v2.mi_operationft
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_OperationFT"
+f1_keywords:
+- mi/MI_OperationFT
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_OperationFT
+- MI_OperationFT
 product: Windows
 targetos: Windows
 req.typenames: MI_OperationFT
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-A support structure used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operation">MI_Operation</a> 
+A support structure used in the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operation">MI_Operation</a> 
      structure.  Use the functions with the name prefix "MI_Operation_" to manipulate these 
      structures.
 

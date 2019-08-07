@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFeedClockVectorElement, IFeedClockVectorElement interface [Windows Sync], IFeedClockVectorElement interface [Windows Sync],described, winsync.ifeedclockvectorelement, winsync/IFeedClockVectorElement
 ms.topic: interface
-f1_keywords: 
- - "winsync/IFeedClockVectorElement"
+f1_keywords:
+- winsync/IFeedClockVectorElement
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IFeedClockVectorElement
+- IFeedClockVectorElement
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -85,7 +85,7 @@ Gets flags that specify additional information about the clock vector element.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ifeedclockvectorelement-getsynctime">GetSyncTime</a>
 </td>
 <td align="left" width="63%">
-Gets a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_sync_time">SYNC_TIME</a> value that corresponds to the <b>when</b> value for the item.
+Gets a <a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME</a> value that corresponds to the <b>when</b> value for the item.
 
 
 </td>
@@ -102,7 +102,7 @@ Gets a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_sync_time">SYNC_TIME Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME Structure</a>
 
 
 

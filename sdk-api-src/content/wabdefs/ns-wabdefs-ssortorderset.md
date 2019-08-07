@@ -8,10 +8,10 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\ssortorderset.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSSortOrderSet, LPSSortOrderSet, LPSSortOrderSet structure pointer [Windows Address Book], SSortOrderSet, SSortOrderSet structure [Windows Address Book], _wab_SSortOrderSet, wab._wab_SSortOrderSet, wabdefs/LPSSortOrderSet, wabdefs/SSortOrderSet"
+ms.keywords: '*LPSSortOrderSet, LPSSortOrderSet, LPSSortOrderSet structure pointer [Windows Address Book], SSortOrderSet, SSortOrderSet structure [Windows Address Book], _wab_SSortOrderSet, wab._wab_SSortOrderSet, wabdefs/LPSSortOrderSet, wabdefs/SSortOrderSet'
 ms.topic: struct
-f1_keywords: 
- - "wabdefs/SSortOrderSet"
+f1_keywords:
+- wabdefs/SSortOrderSet
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wabdefs.h
+- Wabdefs.h
 api_name:
- - SSortOrderSet
+- SSortOrderSet
 product: Windows
 targetos: Windows
 req.typenames: SSortOrderSet, *LPSSortOrderSet
@@ -64,7 +64,7 @@ Do not use. Defines a collection of  keys for a table to be used for standard or
 
 Type: <b>ULONG</b>
 
-Variable of type <b>ULONG</b> that specifes the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_ssortorder">SSortOrder</a> structures that are included in the <b>aSort</b> member. 
+Variable of type <b>ULONG</b> that specifes the number of <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-ssortorder">SSortOrder</a> structures that are included in the <b>aSort</b> member. 
 
 
 
@@ -85,7 +85,7 @@ Variable of type <b>ULONG</b> that specifies the number of categories that start
 
 ### -field aSort
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_ssortorder">SSortOrder</a>[MAPI_DIM]</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-ssortorder">SSortOrder</a>[MAPI_DIM]</b>
 
-Array of variables of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_ssortorder">SSortOrder</a> that specifies the structures that define a sort order.
+Array of variables of type <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-ssortorder">SSortOrder</a> that specifies the structures that define a sort order.
 

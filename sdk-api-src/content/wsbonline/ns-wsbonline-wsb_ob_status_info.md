@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSB_OB_STATUS_INFO, WSB_OB_STATUS_INFO structure [Windows Server Backup], wsb.wsb_ob_status_info, wsbonline/WSB_OB_STATUS_INFO
 ms.topic: struct
-f1_keywords: 
- - "wsbonline/WSB_OB_STATUS_INFO"
+f1_keywords:
+- wsbonline/WSB_OB_STATUS_INFO
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsbOnline.h
+- WsbOnline.h
 api_name:
- - WSB_OB_STATUS_INFO
+- WSB_OB_STATUS_INFO
 product: Windows
 targetos: Windows
 req.typenames: WSB_OB_STATUS_INFO
@@ -71,7 +71,7 @@ The number of status entries contained in the <b>m_rgStatusEntry</b> member. The
 
 ### -field m_rgStatusEntry
 
-A pointer to one or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbonline/ns-wsbonline-_wsb_ob_status_entry">WSB_OB_STATUS_ENTRY</a> structures, each  containing cloud backup provider status information  for one entry to be shown in the Windows Server Backup MMC snap-in.
+A pointer to one or more <a href="https://docs.microsoft.com/windows/desktop/api/wsbonline/ns-wsbonline-wsb_ob_status_entry">WSB_OB_STATUS_ENTRY</a> structures, each  containing cloud backup provider status information  for one entry to be shown in the Windows Server Backup MMC snap-in.
 
 
 ## -see-also
@@ -87,7 +87,7 @@ A pointer to one or more <a href="https://docs.microsoft.com/previous-versions/w
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbonline/ns-wsbonline-_wsb_ob_status_entry">WSB_OB_STATUS_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsbonline/ns-wsbonline-wsb_ob_status_entry">WSB_OB_STATUS_ENTRY</a>
  
 
  

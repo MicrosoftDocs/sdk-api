@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNeutralAxis, GetNeutralAxis method [Windows Color System], GetNeutralAxis method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetNeutralAxis method, IDeviceModelPlugIn.GetNeutralAxis, IDeviceModelPlugIn::GetNeutralAxis, _color_IDeviceModelPlugIn::GetNeutralAxis, wcs.IDeviceModelPlugIn_GetNeutralAxis, wcsplugin/IDeviceModelPlugIn::GetNeutralAxis
 ms.topic: method
-f1_keywords: 
- - "wcsplugin/IDeviceModelPlugIn.GetNeutralAxis"
+f1_keywords:
+- wcsplugin/IDeviceModelPlugIn.GetNeutralAxis
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WcsPlugIn.h
+- WcsPlugIn.h
 api_name:
- - IDeviceModelPlugIn.GetNeutralAxis
+- IDeviceModelPlugIn.GetNeutralAxis
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ The number of points that are returned.
 
 ### -param pXYZColors [out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/ns-wcsplugin-_xyzcolorf">XYZColorF</a> structures.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wcsplugin/ns-wcsplugin-xyzcolorf">XYZColorF</a> structures.
 
 
 ## -returns

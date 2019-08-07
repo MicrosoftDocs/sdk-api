@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID_PARAMETERS, ID_PARAMETERS structure [Windows Sync], winsync.id_parameters, winsync/ID_PARAMETERS
 ms.topic: struct
-f1_keywords: 
- - "winsync/ID_PARAMETERS"
+f1_keywords:
+- winsync/ID_PARAMETERS
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ID_PARAMETERS
+- ID_PARAMETERS
 product: Windows
 targetos: Windows
 req.typenames: ID_PARAMETERS
@@ -93,7 +93,7 @@ To obtain ID parameters, both providers are queried through a call to <a href="h
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_id_parameter_pair">ID_PARAMETER_PAIR Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-id_parameter_pair">ID_PARAMETER_PAIR Structure</a>
 
 
 

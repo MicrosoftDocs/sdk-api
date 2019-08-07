@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateThresholdAction, CreateThresholdAction method [File Server Resource Manager], CreateThresholdAction method [File Server Resource Manager],IFsrmQuotaBase interface, IFsrmQuotaBase interface [File Server Resource Manager],CreateThresholdAction method, IFsrmQuotaBase.CreateThresholdAction, IFsrmQuotaBase::CreateThresholdAction, fs.ifsrmquotabase_createthresholdaction, fsrm.ifsrmquotabase_createthresholdaction, fsrmquota/IFsrmQuotaBase::CreateThresholdAction
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaBase.CreateThresholdAction"
+f1_keywords:
+- fsrmquota/IFsrmQuotaBase.CreateThresholdAction
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaBase.CreateThresholdAction
+- IFsrmQuotaBase.CreateThresholdAction
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ The threshold with which to associate the action. Specify the same value that yo
 ### -param actionType [in]
 
 The action to perform when the threshold is reached or exceeded. For possible values, see the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmactiontype">FsrmActionType</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmactiontype">FsrmActionType</a> enumeration.
 
 
 ### -param action [out]

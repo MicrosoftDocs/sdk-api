@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MPF_ENVLP_BEGIN_CURRENTVAL, MPF_ENVLP_BEGIN_NEUTRALVAL, MPF_ENVLP_STANDARD, MP_ENVELOPEStructure, MP_ENVELOPE_SEGMENT, MP_ENVELOPE_SEGMENT structure [DirectShow], dshow.mp_envelope_segment, medparam/MP_ENVELOPE_SEGMENT
 ms.topic: struct
-f1_keywords: 
- - "medparam/MP_ENVELOPE_SEGMENT"
+f1_keywords:
+- medparam/MP_ENVELOPE_SEGMENT
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Medparam.h
+- Medparam.h
 api_name:
- - MP_ENVELOPE_SEGMENT
+- MP_ENVELOPE_SEGMENT
 product: Windows
 targetos: Windows
 req.typenames: MP_ENVELOPE_SEGMENT
@@ -125,7 +125,7 @@ Ignore the specified start value. Start from the current value.
 </dl>
 </td>
 <td width="60%">
-Ignore the specified start value. Start from the neutral value. (See <a href="https://docs.microsoft.com/windows/desktop/api/medparam/ns-medparam-_mp_paraminfo">MP_PARAMINFO</a>.)
+Ignore the specified start value. Start from the neutral value. (See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/medparam/ns-medparam-mp_paraminfo">MP_PARAMINFO</a>.)
 
 </td>
 </tr>

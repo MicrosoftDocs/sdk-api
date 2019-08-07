@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: 0f43e544-afe3-40dd-81e1-96ae1f343006
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPRSVP_RESERVE_INFO, LPRSVP_RESERVE_INFO, LPRSVP_RESERVE_INFO structure pointer [QOS], RSVP_DEFAULT_STYLE, RSVP_FIXED_FILTER_STYLE, RSVP_RESERVE_INFO, RSVP_RESERVE_INFO structure [QOS], RSVP_SHARED_EXPLICIT_STYLE, RSVP_WILDCARD_SYLE, _gqos_rsvp_reserve_info, qos.rsvp_reserve_info, qossp/LPRSVP_RESERVE_INFO, qossp/RSVP_RESERVE_INFO"
+ms.keywords: '*LPRSVP_RESERVE_INFO, LPRSVP_RESERVE_INFO, LPRSVP_RESERVE_INFO structure pointer [QOS], RSVP_DEFAULT_STYLE, RSVP_FIXED_FILTER_STYLE, RSVP_RESERVE_INFO, RSVP_RESERVE_INFO structure [QOS], RSVP_SHARED_EXPLICIT_STYLE, RSVP_WILDCARD_SYLE, _gqos_rsvp_reserve_info, qos.rsvp_reserve_info, qossp/LPRSVP_RESERVE_INFO, qossp/RSVP_RESERVE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "qossp/RSVP_RESERVE_INFO"
+f1_keywords:
+- qossp/RSVP_RESERVE_INFO
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qossp.h
+- Qossp.h
 api_name:
- - RSVP_RESERVE_INFO
+- RSVP_RESERVE_INFO
 product: Windows
 targetos: Windows
 req.typenames: RSVP_RESERVE_INFO, *LPRSVP_RESERVE_INFO
@@ -133,7 +133,7 @@ Can be used by a receiving application to request notification of its reservatio
 
 ### -field PolicyElementList
 
-Pointer to the set of policy elements. Optional policy information, as provided in an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_policy_info">RSVP_POLICY_INFO</a> structure.
+Pointer to the set of policy elements. Optional policy information, as provided in an <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_policy_info">RSVP_POLICY_INFO</a> structure.
 
 
 ### -field NumFlowDesc

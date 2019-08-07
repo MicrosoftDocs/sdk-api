@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxEnumRoutingMethods, FaxEnumRoutingMethods function [Fax Service], FaxEnumRoutingMethodsA, FaxEnumRoutingMethodsW, _mfax_faxenumroutingmethods, fax._mfax_faxenumroutingmethods, winfax/FaxEnumRoutingMethods, winfax/FaxEnumRoutingMethodsA, winfax/FaxEnumRoutingMethodsW
 ms.topic: function
-f1_keywords: 
- - "winfax/FaxEnumRoutingMethods"
+f1_keywords:
+- winfax/FaxEnumRoutingMethods
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: WinFax.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - WinFax.lib
- - WinFax.dll
+- WinFax.lib
+- WinFax.dll
 api_name:
- - FaxEnumRoutingMethods
- - FaxEnumRoutingMethodsA
- - FaxEnumRoutingMethodsW
+- FaxEnumRoutingMethods
+- FaxEnumRoutingMethodsA
+- FaxEnumRoutingMethodsW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ Specifies a fax port handle returned by a call to the <a href="https://docs.micr
 
 Type: <b>PFAX_ROUTING_METHOD*</b>
 
-Pointer to the address of a buffer to receive an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_routing_methoda">FAX_ROUTING_METHOD</a> structures. Each structure contains information about one fax routing method. The data includes, among other items, the name of the DLL that exports the routing method, the GUID and function name that identify the routing method, and the method's user-friendly name. 
+Pointer to the address of a buffer to receive an array of <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_routing_methoda">FAX_ROUTING_METHOD</a> structures. Each structure contains information about one fax routing method. The data includes, among other items, the name of the DLL that exports the routing method, the GUID and function name that identify the routing method, and the method's user-friendly name. 
 
                     
 
@@ -84,7 +84,7 @@ For information about memory allocation, see the following Remarks section. For 
 
 Type: <b>LPDWORD</b>
 
-Pointer to a <b>DWORD</b> variable to receive the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_routing_methoda">FAX_ROUTING_METHOD</a> structures the <b>FaxEnumRoutingMethods</b> function returns in the <i>RoutingMethod</i> parameter.
+Pointer to a <b>DWORD</b> variable to receive the number of <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_routing_methoda">FAX_ROUTING_METHOD</a> structures the <b>FaxEnumRoutingMethods</b> function returns in the <i>RoutingMethod</i> parameter.
 
 
 ## -returns
@@ -149,7 +149,7 @@ A fax administration application typically calls the <b>FaxEnumRoutingMethods</b
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenumglobalroutinginfoa">FaxEnumGlobalRoutingInfo</a> function retrieves routing information that applies globally to the fax server, such as routing priority. An application can modify global data with a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetglobalroutinginfoa">FaxSetGlobalRoutingInfo</a> function.
 
-The <b>FaxEnumRoutingMethods</b> function allocates the memory required for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_routing_methoda">FAX_ROUTING_METHOD</a> buffer array pointed to by the <i>RoutingMethod</i> parameter. An application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxfreebuffer">FaxFreeBuffer</a> function to deallocate the resources associated with this parameter.
+The <b>FaxEnumRoutingMethods</b> function allocates the memory required for the <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_routing_methoda">FAX_ROUTING_METHOD</a> buffer array pointed to by the <i>RoutingMethod</i> parameter. An application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxfreebuffer">FaxFreeBuffer</a> function to deallocate the resources associated with this parameter.
 
 For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-server-configuration-management">Fax Server Configuration Management</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-freeing-fax-resources">Freeing Fax Resources</a>.
 
@@ -161,11 +161,11 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_global_routing_infoa">FAX_GLOBAL_ROUTING_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_global_routing_infoa">FAX_GLOBAL_ROUTING_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_routing_methoda">FAX_ROUTING_METHOD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_routing_methoda">FAX_ROUTING_METHOD</a>
 
 
 

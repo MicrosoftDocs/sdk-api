@@ -8,10 +8,10 @@ tech.root: MsCS
 ms.assetid: f83a7dfe-ad48-41e2-983e-75dfd921c137
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSTER_SHARED_VOLUME_BACKUP_STATE, CLUSTER_SHARED_VOLUME_BACKUP_STATE, CLUSTER_SHARED_VOLUME_BACKUP_STATE enumeration [Failover Cluster], PCLUSTER_SHARED_VOLUME_BACKUP_STATE, PCLUSTER_SHARED_VOLUME_BACKUP_STATE enumeration pointer [Failover Cluster], VolumeBackupInProgress, VolumeBackupNone, clusapi/CLUSTER_SHARED_VOLUME_BACKUP_STATE, clusapi/PCLUSTER_SHARED_VOLUME_BACKUP_STATE, clusapi/VolumeBackupInProgress, clusapi/VolumeBackupNone, mscs.cluster_shared_volume_backup_state"
+ms.keywords: '*PCLUSTER_SHARED_VOLUME_BACKUP_STATE, CLUSTER_SHARED_VOLUME_BACKUP_STATE, CLUSTER_SHARED_VOLUME_BACKUP_STATE enumeration [Failover Cluster], PCLUSTER_SHARED_VOLUME_BACKUP_STATE, PCLUSTER_SHARED_VOLUME_BACKUP_STATE enumeration pointer [Failover Cluster], VolumeBackupInProgress, VolumeBackupNone, clusapi/CLUSTER_SHARED_VOLUME_BACKUP_STATE, clusapi/PCLUSTER_SHARED_VOLUME_BACKUP_STATE, clusapi/VolumeBackupInProgress, clusapi/VolumeBackupNone, mscs.cluster_shared_volume_backup_state'
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUSTER_SHARED_VOLUME_BACKUP_STATE"
+f1_keywords:
+- clusapi/CLUSTER_SHARED_VOLUME_BACKUP_STATE
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSTER_SHARED_VOLUME_BACKUP_STATE
+- CLUSTER_SHARED_VOLUME_BACKUP_STATE
 product: Windows
 targetos: Windows
 req.typenames: CLUSTER_SHARED_VOLUME_BACKUP_STATE, *PCLUSTER_SHARED_VOLUME_BACKUP_STATE
@@ -78,7 +78,7 @@ There is a backup in progress for this CSV.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_clus_shared_volume_backup_mode">CLUS_SHARED_VOLUME_BACKUP_MODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-clus_shared_volume_backup_mode">CLUS_SHARED_VOLUME_BACKUP_MODE</a>
 
 
 

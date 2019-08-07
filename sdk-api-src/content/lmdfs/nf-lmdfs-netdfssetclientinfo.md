@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 101, 102, NetDfsSetClientInfo, NetDfsSetClientInfo function [Distributed File System], _win32_netdfssetclientinfo, dfs.netdfssetclientinfo, fs.netdfssetclientinfo, lmdfs/NetDfsSetClientInfo, netmgmt.netdfssetclientinfo
 ms.topic: function
-f1_keywords: 
- - "lmdfs/NetDfsSetClientInfo"
+f1_keywords:
+- lmdfs/NetDfsSetClientInfo
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetDfsSetClientInfo
+- NetDfsSetClientInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -107,14 +107,14 @@ Specifies the information level of the request. This parameter can be one of the
 #### 101
 
 Set the local DFS link's storage status. The <i>Buffer</i> parameter points to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_101">DFS_INFO_101</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_101">DFS_INFO_101</a> structure.
 
 
 
 #### 102
 
 Set the local DFS link time-out. The <i>Buffer</i> parameter points to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_102">DFS_INFO_102</a> structure. For more information, see the following Remarks section.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_102">DFS_INFO_102</a> structure. For more information, see the following Remarks section.
 
 
 ### -param Buffer [in]
@@ -155,11 +155,11 @@ The <b>DFS_STORAGE_STATE_ONLINE</b> and <b>DFS_STORAGE_STATE_OFFLINE</b> bits wi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_101">DFS_INFO_101</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_101">DFS_INFO_101</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_102">DFS_INFO_102</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_102">DFS_INFO_102</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMVideoDecimationProperties interface [DirectShow],SetDecimationUsage method, IAMVideoDecimationProperties.SetDecimationUsage, IAMVideoDecimationProperties::SetDecimationUsage, IAMVideoDecimationPropertiesSetDecimationUsage, SetDecimationUsage, SetDecimationUsage method [DirectShow], SetDecimationUsage method [DirectShow],IAMVideoDecimationProperties interface, dshow.iamvideodecimationproperties_setdecimationusage, strmif/IAMVideoDecimationProperties::SetDecimationUsage
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMVideoDecimationProperties.SetDecimationUsage"
+f1_keywords:
+- strmif/IAMVideoDecimationProperties.SetDecimationUsage
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoDecimationProperties.SetDecimationUsage
+- IAMVideoDecimationProperties.SetDecimationUsage
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ The <code>SetDecimationUsage</code> method sets the decimation strategy.
 
 ### -param Usage [in]
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_decimation_usage">DECIMATION_USAGE</a> enumeration that specifies the decimation strategy.
+Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-decimation_usage">DECIMATION_USAGE</a> enumeration that specifies the decimation strategy.
 
 
 ## -returns

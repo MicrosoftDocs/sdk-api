@@ -8,10 +8,10 @@ tech.root: NetBIOS
 ms.assetid: d35cd375-6207-4019-bd3e-20dc302e9c45
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFIND_NAME_BUFFER, FIND_NAME_BUFFER, FIND_NAME_BUFFER structure [NetBIOS], PFIND_NAME_BUFFER, PFIND_NAME_BUFFER structure pointer [NetBIOS], nb30/FIND_NAME_BUFFER, nb30/PFIND_NAME_BUFFER, netbios.find_name_buffer"
+ms.keywords: '*PFIND_NAME_BUFFER, FIND_NAME_BUFFER, FIND_NAME_BUFFER structure [NetBIOS], PFIND_NAME_BUFFER, PFIND_NAME_BUFFER structure pointer [NetBIOS], nb30/FIND_NAME_BUFFER, nb30/PFIND_NAME_BUFFER, netbios.find_name_buffer'
 ms.topic: struct
-f1_keywords: 
- - "nb30/FIND_NAME_BUFFER"
+f1_keywords:
+- nb30/FIND_NAME_BUFFER
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Nb30.h
+- Nb30.h
 api_name:
- - FIND_NAME_BUFFER
+- FIND_NAME_BUFFER
 product: Windows
 targetos: Windows
 req.typenames: FIND_NAME_BUFFER, *PFIND_NAME_BUFFER
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
 
-The <b>FIND_NAME_BUFFER</b> structure contains information about a local network session. One or more <b>FIND_NAME_BUFFER</b> structures follows a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_find_name_header">FIND_NAME_HEADER</a> structure when an application specifies the <b>NCBFINDNAME</b> command in the ncb_command member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a> structure. 
+The <b>FIND_NAME_BUFFER</b> structure contains information about a local network session. One or more <b>FIND_NAME_BUFFER</b> structures follows a <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-find_name_header">FIND_NAME_HEADER</a> structure when an application specifies the <b>NCBFINDNAME</b> command in the ncb_command member of the <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure. 
 
 
 ## -struct-fields
@@ -100,11 +100,11 @@ Specifies additional routing information.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_find_name_header">FIND_NAME_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-find_name_header">FIND_NAME_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: MsCS
 ms.assetid: b71f6a3b-4c9d-49f9-b60f-ee4c4fb6b169
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMAINTENANCE_MODE_TYPE_ENUM, MAINTENANCE_MODE_TYPE_ENUM, MAINTENANCE_MODE_TYPE_ENUM enumeration [Failover Cluster], MaintenanceModeTypeDisableIsAliveCheck, MaintenanceModeTypeOfflineResource, MaintenanceModeTypeUnclusterResource, PMAINTENANCE_MODE_TYPE_ENUM, PMAINTENANCE_MODE_TYPE_ENUM enumeration pointer [Failover Cluster], clusapi/MAINTENANCE_MODE_TYPE_ENUM, clusapi/MaintenanceModeTypeDisableIsAliveCheck, clusapi/MaintenanceModeTypeOfflineResource, clusapi/MaintenanceModeTypeUnclusterResource, clusapi/PMAINTENANCE_MODE_TYPE_ENUM, mscs.maintenance_mode_type_enum"
+ms.keywords: '*PMAINTENANCE_MODE_TYPE_ENUM, MAINTENANCE_MODE_TYPE_ENUM, MAINTENANCE_MODE_TYPE_ENUM enumeration [Failover Cluster], MaintenanceModeTypeDisableIsAliveCheck, MaintenanceModeTypeOfflineResource, MaintenanceModeTypeUnclusterResource, PMAINTENANCE_MODE_TYPE_ENUM, PMAINTENANCE_MODE_TYPE_ENUM enumeration pointer [Failover Cluster], clusapi/MAINTENANCE_MODE_TYPE_ENUM, clusapi/MaintenanceModeTypeDisableIsAliveCheck, clusapi/MaintenanceModeTypeOfflineResource, clusapi/MaintenanceModeTypeUnclusterResource, clusapi/PMAINTENANCE_MODE_TYPE_ENUM, mscs.maintenance_mode_type_enum'
 ms.topic: enum
-f1_keywords: 
- - "clusapi/MAINTENANCE_MODE_TYPE_ENUM"
+f1_keywords:
+- clusapi/MAINTENANCE_MODE_TYPE_ENUM
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - MAINTENANCE_MODE_TYPE_ENUM
+- MAINTENANCE_MODE_TYPE_ENUM
 product: Windows
 targetos: Windows
 req.typenames: MAINTENANCE_MODE_TYPE_ENUM, *PMAINTENANCE_MODE_TYPE_ENUM
@@ -79,7 +79,7 @@ Indicates the server has released ownership of the storage resource.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_clus_maintenance_mode_infoex">CLUS_MAINTENANCE_MODE_INFOEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-clus_maintenance_mode_infoex">CLUS_MAINTENANCE_MODE_INFOEX</a>
 
 
 

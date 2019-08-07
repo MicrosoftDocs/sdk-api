@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: 859faa13-bd66-46ee-8452-6ff5d53d66c9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPQOS, LPQOS, LPQOS structure pointer [QOS], QOS, QOS structure [QOS], _gqos_qos, qos.qos, winsock2/LPQOS, winsock2/QOS"
+ms.keywords: '*LPQOS, LPQOS, LPQOS structure pointer [QOS], QOS, QOS structure [QOS], _gqos_qos, qos.qos, winsock2/LPQOS, winsock2/QOS'
 ms.topic: struct
-f1_keywords: 
- - "winsock2/QOS"
+f1_keywords:
+- winsock2/QOS
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsock2.h
+- Winsock2.h
 api_name:
- - QOS
+- QOS
 product: Windows
 targetos: Windows
 req.typenames: QOS, *LPQOS
@@ -63,13 +63,13 @@ The
 ### -field SendingFlowspec
 
 Specifies QOS parameters for the sending direction of a particular flow. SendingFlowspec is sent in the form of a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure.
 
 
 ### -field ReceivingFlowspec
 
 Specifies QOS parameters for the receiving direction of a particular flow. ReceivingFlowspec is sent in the form of a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure.
 
 
 ### -field ProviderSpecific
@@ -93,7 +93,7 @@ Most applications can fulfill their quality of service requirements without usin
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 

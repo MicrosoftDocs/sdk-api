@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: c676878d-2186-4aa2-b912-dc89272902c6
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_CLIENT_INFO_V6, ADDRESS_TYPE_IANA, ADDRESS_TYPE_IATA, DHCP_CLIENT_INFO_V6, DHCP_CLIENT_INFO_V6 structure [DHCP], PDHCP_CLIENT_INFO_V6, PDHCP_CLIENT_INFO_V6 structure pointer [DHCP], dhcp.dhcp_client_info_v6, dhcpsapi/DHCP_CLIENT_INFO_V6, dhcpsapi/PDHCP_CLIENT_INFO_V6"
+ms.keywords: '*LPDHCP_CLIENT_INFO_V6, ADDRESS_TYPE_IANA, ADDRESS_TYPE_IATA, DHCP_CLIENT_INFO_V6, DHCP_CLIENT_INFO_V6 structure [DHCP], PDHCP_CLIENT_INFO_V6, PDHCP_CLIENT_INFO_V6 structure pointer [DHCP], dhcp.dhcp_client_info_v6, dhcpsapi/DHCP_CLIENT_INFO_V6, dhcpsapi/PDHCP_CLIENT_INFO_V6'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_CLIENT_INFO_V6"
+f1_keywords:
+- dhcpsapi/DHCP_CLIENT_INFO_V6
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_CLIENT_INFO_V6
+- DHCP_CLIENT_INFO_V6
 product: Windows
 targetos: Windows
 req.typenames: DHCP_CLIENT_INFO_V6, *LPDHCP_CLIENT_INFO_V6
@@ -61,7 +61,7 @@ The <b>DHCP_CLIENT_INFO_V6</b> structure contains information on DHCPv6 clients.
 
 ### -field ClientIpAddress
 
-This is of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> (section 2.2.1.2.28), containing the DHCPv6 client's IPv6 address.
+This is of type <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> (section 2.2.1.2.28), containing the DHCPv6 client's IPv6 address.
 
 
 ### -field ClientDUID
@@ -121,17 +121,17 @@ A pointer to a null-terminated Unicode string containing a comment relating to t
 
 ### -field ClientValidLeaseExpires
 
-This is of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_date_time">DATE_TIME</a> (section 2.2.1.2.11), containing the valid lifetime of the DHCPv6 IPv6 client lease.
+This is of type <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a> (section 2.2.1.2.11), containing the valid lifetime of the DHCPv6 IPv6 client lease.
 
 
 ### -field ClientPrefLeaseExpires
 
-This is of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_date_time">DATE_TIME</a>, containing the preferred lifetime of the DHCPv6 client lease.
+This is of type <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a>, containing the preferred lifetime of the DHCPv6 client lease.
 
 
 ### -field OwnerHost
 
-This of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_host_info_v6">DHCP_HOST_INFO_V6</a> (section 2.2.1.2.63), containing information about the host machine (DHCPv6 server machine) that has given this IPv6 lease to this DHCPv6 client.
+This of type <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info_v6">DHCP_HOST_INFO_V6</a> (section 2.2.1.2.63), containing information about the host machine (DHCPv6 server machine) that has given this IPv6 lease to this DHCPv6 client.
 
 
 ## -see-also
@@ -139,11 +139,11 @@ This of type <a href="https://docs.microsoft.com/previous-versions/windows/deskt
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_host_info_v6">DHCP_HOST_INFO_V6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info_v6">DHCP_HOST_INFO_V6</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a>
  
 
  

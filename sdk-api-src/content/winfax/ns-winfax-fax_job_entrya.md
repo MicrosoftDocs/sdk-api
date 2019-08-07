@@ -8,10 +8,10 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_09de.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFAX_JOB_ENTRYA, DRT_EMAIL, DRT_INBOX, DRT_NONE, FAX_JOB_ENTRY, FAX_JOB_ENTRY structure [Fax Service], FAX_JOB_ENTRYA, FAX_JOB_ENTRYW, FPS_ABORTING, FPS_ANSWERED, FPS_AVAILABLE, FPS_BAD_ADDRESS, FPS_BUSY, FPS_CALL_BLACKLISTED, FPS_CALL_DELAYED, FPS_COMPLETED, FPS_DIALING, FPS_DISCONNECTED, FPS_FATAL_ERROR, FPS_HANDLED, FPS_INITIALIZING, FPS_NOT_FAX_CALL, FPS_NO_ANSWER, FPS_NO_DIAL_TONE, FPS_OFFLINE, FPS_RECEIVING, FPS_RINGING, FPS_ROUTING, FPS_SENDING, FPS_UNAVAILABLE, JSA_DISCOUNT_PERIOD, JSA_NOW, JSA_SPECIFIC_TIME, JS_DELETING, JS_FAILED, JS_INPROGRESS, JS_NOLINE, JS_PAUSED, JS_PENDING, JS_RETRIES_EXCEEDED, JS_RETRYING, JT_FAIL_RECEIVE, JT_RECEIVE, JT_ROUTING, JT_SEND, JT_UNKNOWN, PFAX_JOB_ENTRY, PFAX_JOB_ENTRY structure pointer [Fax Service], _mfax_fax_job_entry_str, fax._mfax_fax_job_entry_str, winfax/FAX_JOB_ENTRY, winfax/FAX_JOB_ENTRYA, winfax/FAX_JOB_ENTRYW, winfax/PFAX_JOB_ENTRY"
+ms.keywords: '*PFAX_JOB_ENTRYA, DRT_EMAIL, DRT_INBOX, DRT_NONE, FAX_JOB_ENTRY, FAX_JOB_ENTRY structure [Fax Service], FAX_JOB_ENTRYA, FAX_JOB_ENTRYW, FPS_ABORTING, FPS_ANSWERED, FPS_AVAILABLE, FPS_BAD_ADDRESS, FPS_BUSY, FPS_CALL_BLACKLISTED, FPS_CALL_DELAYED, FPS_COMPLETED, FPS_DIALING, FPS_DISCONNECTED, FPS_FATAL_ERROR, FPS_HANDLED, FPS_INITIALIZING, FPS_NOT_FAX_CALL, FPS_NO_ANSWER, FPS_NO_DIAL_TONE, FPS_OFFLINE, FPS_RECEIVING, FPS_RINGING, FPS_ROUTING, FPS_SENDING, FPS_UNAVAILABLE, JSA_DISCOUNT_PERIOD, JSA_NOW, JSA_SPECIFIC_TIME, JS_DELETING, JS_FAILED, JS_INPROGRESS, JS_NOLINE, JS_PAUSED, JS_PENDING, JS_RETRIES_EXCEEDED, JS_RETRYING, JT_FAIL_RECEIVE, JT_RECEIVE, JT_ROUTING, JT_SEND, JT_UNKNOWN, PFAX_JOB_ENTRY, PFAX_JOB_ENTRY structure pointer [Fax Service], _mfax_fax_job_entry_str, fax._mfax_fax_job_entry_str, winfax/FAX_JOB_ENTRY, winfax/FAX_JOB_ENTRYA, winfax/FAX_JOB_ENTRYW, winfax/PFAX_JOB_ENTRY'
 ms.topic: struct
-f1_keywords: 
- - "winfax/FAX_JOB_ENTRY"
+f1_keywords:
+- winfax/FAX_JOB_ENTRY
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winfax.h
+- Winfax.h
 api_name:
- - FAX_JOB_ENTRY
- - FAX_JOB_ENTRYA
- - FAX_JOB_ENTRYW
+- FAX_JOB_ENTRY
+- FAX_JOB_ENTRYA
+- FAX_JOB_ENTRYW
 product: Windows
 targetos: Windows
 req.typenames: FAX_JOB_ENTRYA, *PFAX_JOB_ENTRYA
@@ -165,13 +165,13 @@ There is no line available to send the fax. The fax server will send the transmi
 
 #### JS_RETRYING
 
-The fax job failed. The fax server will attempt to retransmit the fax after a specified interval. For more information about global configuration settings, such as retransmission intervals, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_configurationa">FAX_CONFIGURATION</a>.
+The fax job failed. The fax server will attempt to retransmit the fax after a specified interval. For more information about global configuration settings, such as retransmission intervals, see <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_configurationa">FAX_CONFIGURATION</a>.
 
 
 
 #### JS_RETRIES_EXCEEDED
 
-The fax server exceeded the maximum number of retransmission attempts allowed. The fax will not be sent. For more information about global configuration settings, such as the maximum number of retransmission attempts, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_configurationa">FAX_CONFIGURATION</a>.
+The fax server exceeded the maximum number of retransmission attempts allowed. The fax will not be sent. For more information about global configuration settings, such as the maximum number of retransmission attempts, see <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_configurationa">FAX_CONFIGURATION</a>.
 
 
 ### -field Status
@@ -469,7 +469,7 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_configurationa">FAX_CONFIGURATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_configurationa">FAX_CONFIGURATION</a>
 
 
 

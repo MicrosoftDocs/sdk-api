@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 84eafc6b-e9ee-4c73-b872-b2abc7e257df
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCPCAPI_PARAMS_ARRAY, *LPDHCPCAPI_PARAMS_ARRAY structure [DHCP], *PDHCPCAPI_PARAMS_ARRAY, *PDHCPCAPI_PARAMS_ARRAY structure [DHCP], DHCPCAPI_PARAMS_ARRAY, DHCPCAPI_PARAMS_ARRAY structure [DHCP], dhcp.dhcpcapi_params_array, dhcpcsdk/*LPDHCPCAPI_PARAMS_ARRAY, dhcpcsdk/*PDHCPCAPI_PARAMS_ARRAY, dhcpcsdk/DHCPCAPI_PARAMS_ARRAY"
+ms.keywords: '*LPDHCPCAPI_PARAMS_ARRAY, *LPDHCPCAPI_PARAMS_ARRAY structure [DHCP], *PDHCPCAPI_PARAMS_ARRAY, *PDHCPCAPI_PARAMS_ARRAY structure [DHCP], DHCPCAPI_PARAMS_ARRAY, DHCPCAPI_PARAMS_ARRAY structure [DHCP], dhcp.dhcpcapi_params_array, dhcpcsdk/*LPDHCPCAPI_PARAMS_ARRAY, dhcpcsdk/*PDHCPCAPI_PARAMS_ARRAY, dhcpcsdk/DHCPCAPI_PARAMS_ARRAY'
 ms.topic: struct
-f1_keywords: 
- - "dhcpcsdk/DHCPCAPI_PARAMS_ARRAY"
+f1_keywords:
+- dhcpcsdk/DHCPCAPI_PARAMS_ARRAY
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpcsdk.h
+- Dhcpcsdk.h
 api_name:
- - DHCPCAPI_PARAMS_ARRAY
+- DHCPCAPI_PARAMS_ARRAY
 product: Windows
 targetos: Windows
 req.typenames: DHCPCAPI_PARAMS_ARRAY, *PDHCPCAPI_PARAMS_ARRAY, *LPDHCPCAPI_PARAMS_ARRAY
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DHCPCAPI_PARAMS_ARRAY</b> structure stores an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-_dhcpapi_params">DHCPAPI_PARAMS</a> structures used to query DHCP parameters.
+The <b>DHCPCAPI_PARAMS_ARRAY</b> structure stores an array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-dhcpapi_params">DHCPAPI_PARAMS</a> structures used to query DHCP parameters.
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ Number of elements in the <b>Params</b> array.
 
 ### -field Params
 
-Array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-_dhcpapi_params">DHCPAPI_PARAMS</a> structures.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-dhcpapi_params">DHCPAPI_PARAMS</a> structures.
 
 
 ## -see-also
@@ -84,7 +84,7 @@ Array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/a
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-_dhcpapi_params">DHCPAPI_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-dhcpapi_params">DHCPAPI_PARAMS</a>
  
 
  

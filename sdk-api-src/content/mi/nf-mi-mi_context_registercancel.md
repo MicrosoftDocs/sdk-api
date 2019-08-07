@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Context_RegisterCancel, MI_Context_RegisterCancel function [Windows Management Infrastructure (MI)], mi/MI_Context_RegisterCancel, wmi.mi_registercancel, wmi_v2.mi_context_registercancel
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Context_RegisterCancel"
+f1_keywords:
+- mi/MI_Context_RegisterCancel
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Context_RegisterCancel
+- MI_Context_RegisterCancel
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,7 +78,7 @@ Data to be passed to the callback.
 
 
 
-A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 
@@ -101,11 +101,11 @@ If a provider calls this function multiple times on the same context, only the l
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_cancellationreason">MI_CancellationReason</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_cancellationreason">MI_CancellationReason</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_context">MI_Context</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_context">MI_Context</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: cdab8d39-b0f9-462c-ac5e-ae0c420df067
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_IFNUMBER, MIB_IFNUMBER, MIB_IFNUMBER structure [MIB], PMIB_IFNUMBER, PMIB_IFNUMBER structure pointer [MIB], _mpr_mib_ifnumber, ifmib/MIB_IFNUMBER, ifmib/PMIB_IFNUMBER, iprtrmib/MIB_IFNUMBER, iprtrmib/PMIB_IFNUMBER, mib.mib_ifnumber, rras.mib_ifnumber"
+ms.keywords: '*PMIB_IFNUMBER, MIB_IFNUMBER, MIB_IFNUMBER structure [MIB], PMIB_IFNUMBER, PMIB_IFNUMBER structure pointer [MIB], _mpr_mib_ifnumber, ifmib/MIB_IFNUMBER, ifmib/PMIB_IFNUMBER, iprtrmib/MIB_IFNUMBER, iprtrmib/PMIB_IFNUMBER, mib.mib_ifnumber, rras.mib_ifnumber'
 ms.topic: struct
-f1_keywords: 
- - "ifmib/MIB_IFNUMBER"
+f1_keywords:
+- ifmib/MIB_IFNUMBER
 req.header: ifmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ifmib.h
- - Iprtrmib.h
+- Ifmib.h
+- Iprtrmib.h
 api_name:
- - MIB_IFNUMBER
+- MIB_IFNUMBER
 product: Windows
 targetos: Windows
 req.typenames: MIB_IFNUMBER, *PMIB_IFNUMBER
@@ -70,7 +70,7 @@ The number of interfaces on the computer.
 
 
 
-The <b>MIB_IFNUMBER</b> structure is not currently used. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ifmib/ns-ifmib-_mib_iftable">MIB_IFTABLE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_table2">MIB_IF_TABLE2</a> structures contain a <b>dwNumEntries</b> member that can be used instead of the <b>MIB_IFNUMBER</b> structure.
+The <b>MIB_IFNUMBER</b> structure is not currently used. The <a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_iftable">MIB_IFTABLE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_table2">MIB_IF_TABLE2</a> structures contain a <b>dwNumEntries</b> member that can be used instead of the <b>MIB_IFNUMBER</b> structure.
 
 On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed and the <b>MIB_IFNUMBER</b> structure is defined in the <i>Ifmib.h</i> header file not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ifmib.h</i> header file is automatically included in <i>Ipmib.h</i> header file. This file is automatically included in the <i>Iprtrmib.h</i> header file which is automatically included in the <i>Iphlpapi.h</i> header file. The <i>Ifmib.h</i> header file should never be used directly.
 
@@ -82,7 +82,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ifmib/ns-ifmib-_mib_iftable">MIB_IFTABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_iftable">MIB_IFTABLE</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorGetInfo, EapMethodAuthenticatorGetInfo function [EAPHost], eaphost.eapmethodauthenticatorgetinfo, eapmethodauthenticatorapis/EapMethodAuthenticatorGetInfo
 ms.topic: function
-f1_keywords: 
- - "eapmethodauthenticatorapis/EapMethodAuthenticatorGetInfo"
+f1_keywords:
+- eapmethodauthenticatorapis/EapMethodAuthenticatorGetInfo
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - eapmethodauthenticatorapis.h
+- eapmethodauthenticatorapis.h
 api_name:
- - EapMethodAuthenticatorGetInfo
+- EapMethodAuthenticatorGetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Obtains a set of function pointers for an implementation of the loaded EAP authe
 
 ### -param pEapType [in]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_type">EAP_METHOD_TYPE</a> structure that contains the vendor ID of the EAPHost authenticator function implementer.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a> structure that contains the vendor ID of the EAPHost authenticator function implementer.
 
 
 ### -param pEapInfo [out]
@@ -73,7 +73,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/eapmethoda
 
 ### -param ppEapError [out]
 
-A pointer to the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreeerrormemory">EapMethodAuthenticatorFreeErrorMemory</a>.
+A pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreeerrormemory">EapMethodAuthenticatorFreeErrorMemory</a>.
 
 
 ## -remarks

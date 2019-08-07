@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_MODULE_FLAG_BOOLEANS, MI_MODULE_FLAG_DESCRIPTIONS, MI_MODULE_FLAG_FILTER_SUPPORT, MI_MODULE_FLAG_LOCALIZED, MI_MODULE_FLAG_MAPPING_STRINGS, MI_MODULE_FLAG_STANDARD_QUALIFIERS, MI_MODULE_FLAG_VALUES, MI_Module, MI_Module structure [Windows Management Infrastructure (MI)], mi/MI_Module, wmi._mi_module, wmi_v2.mi_module
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_Module"
+f1_keywords:
+- mi/MI_Module
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Module
+- MI_Module
 product: Windows
 targetos: Windows
 req.typenames: MI_Module
@@ -159,11 +159,11 @@ The module may implement a single 'dynamic provider' (one that provides CIM inst
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_providerft">MI_ProviderFT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_providerft">MI_ProviderFT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_schemadecl">MI_SchemaDecl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_schemadecl">MI_SchemaDecl</a>
  
 
  

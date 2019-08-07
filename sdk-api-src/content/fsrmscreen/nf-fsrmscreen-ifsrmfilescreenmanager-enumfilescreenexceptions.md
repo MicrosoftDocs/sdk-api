@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumFileScreenExceptions, EnumFileScreenExceptions method [File Server Resource Manager], EnumFileScreenExceptions method [File Server Resource Manager],FsrmFileScreenManager class, EnumFileScreenExceptions method [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],EnumFileScreenExceptions method, IFsrmFileScreenManager interface [File Server Resource Manager],EnumFileScreenExceptions method, IFsrmFileScreenManager.EnumFileScreenExceptions, IFsrmFileScreenManager::EnumFileScreenExceptions, fs.ifsrmfilescreenmanager_enumfilescreenexceptions, fsrm.ifsrmfilescreenmanager_enumfilescreenexceptions, fsrmscreen/IFsrmFileScreenManager::EnumFileScreenExceptions
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenManager.EnumFileScreenExceptions"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenManager.EnumFileScreenExceptions
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenManager.EnumFileScreenExceptions
- - FsrmFileScreenManager.EnumFileScreenExceptions
+- IFsrmFileScreenManager.EnumFileScreenExceptions
+- FsrmFileScreenManager.EnumFileScreenExceptions
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ If path is null or empty, the method returns all file screen exceptions.
 
 ### -param options [in]
 
-The options to use when enumerating the exceptions. For possible values, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmenumoptions">FsrmEnumOptions</a> enumeration.
+The options to use when enumerating the exceptions. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmenumoptions">FsrmEnumOptions</a> enumeration.
 
 
 ### -param fileScreenExceptions [out]

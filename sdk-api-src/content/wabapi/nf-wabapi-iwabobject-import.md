@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWABObject interface [Windows Address Book],Import method, IWABObject.Import, IWABObject::Import, Import, Import method [Windows Address Book], Import method [Windows Address Book],IWABObject interface, _wab_IWABObject_Import, wab._wab_IWABObject_Import, wabapi/IWABObject::Import
 ms.topic: method
-f1_keywords: 
- - "wabapi/IWABObject.Import"
+f1_keywords:
+- wabapi/IWABObject.Import
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IWABObject.Import
+- IWABObject.Import
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Imports a .wab file into the user's Address Book.
 
 Type: <b>LPSTR</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabapi/ns-wabapi-_wabimportparam">WABIMPORTPARAM</a> 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wabapi/ns-wabapi-wabimportparam">WABIMPORTPARAM</a> 
 				structure.
 
 
@@ -85,7 +85,7 @@ Returns S_OK if successful, or an error value otherwise.
 
 
 When calling this method, pass a pointer to a 
-	<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabapi/ns-wabapi-_wabimportparam">WABIMPORTPARAM</a> structure. If the caller specifies 
+	<a href="https://docs.microsoft.com/windows/desktop/api/wabapi/ns-wabapi-wabimportparam">WABIMPORTPARAM</a> structure. If the caller specifies 
 	<b>MAPI_DIALOG</b> in the 
 	<b>ulFlags</b> member of the structure, 
 	the Windows Address Book (WAB) shows a dialog box with a progress bar indicating 
@@ -96,7 +96,7 @@ When calling this method, pass a pointer to a
 
 For compatibility with previously released versions of the 
 	WAB that expose this method, the pointer to the 
-	<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabapi/ns-wabapi-_wabimportparam">WABIMPORTPARAM</a> structure needs to be cast to an 
+	<a href="https://docs.microsoft.com/windows/desktop/api/wabapi/ns-wabapi-wabimportparam">WABIMPORTPARAM</a> structure needs to be cast to an 
 	<b>LPSTR</b> prior to passing it into this method.
 
 

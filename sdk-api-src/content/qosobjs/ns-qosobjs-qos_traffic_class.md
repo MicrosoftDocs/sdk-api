@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: 60c6492f-ddcf-401c-8121-2349b89eb223
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPQOS_TRAFFIC_CLASS, LPQOS_TRAFFIC_CLASS, LPQOS_TRAFFIC_CLASS structure pointer [QOS], QOS_TRAFFIC_CLASS, QOS_TRAFFIC_CLASS structure [QOS], SERVICETYPE_BESTEFFORT, SERVICETYPE_CONTROLLEDLOAD, SERVICETYPE_GUARANTEED, SERVICETYPE_NETWORK_CONTROL, SERVICETYPE_NONCONFORMING, SERVICETYPE_QUALITATIVE, _gqos_qos_traffic_class, qos.qos_traffic_class, qosobjs/LPQOS_TRAFFIC_CLASS, qosobjs/QOS_TRAFFIC_CLASS"
+ms.keywords: '*LPQOS_TRAFFIC_CLASS, LPQOS_TRAFFIC_CLASS, LPQOS_TRAFFIC_CLASS structure pointer [QOS], QOS_TRAFFIC_CLASS, QOS_TRAFFIC_CLASS structure [QOS], SERVICETYPE_BESTEFFORT, SERVICETYPE_CONTROLLEDLOAD, SERVICETYPE_GUARANTEED, SERVICETYPE_NETWORK_CONTROL, SERVICETYPE_NONCONFORMING, SERVICETYPE_QUALITATIVE, _gqos_qos_traffic_class, qos.qos_traffic_class, qosobjs/LPQOS_TRAFFIC_CLASS, qosobjs/QOS_TRAFFIC_CLASS'
 ms.topic: struct
-f1_keywords: 
- - "qosobjs/QOS_TRAFFIC_CLASS"
+f1_keywords:
+- qosobjs/QOS_TRAFFIC_CLASS
 req.header: qosobjs.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - QosObjs.h
+- QosObjs.h
 api_name:
- - QOS_TRAFFIC_CLASS
+- QOS_TRAFFIC_CLASS
 product: Windows
 targetos: Windows
 req.typenames: QOS_TRAFFIC_CLASS, *LPQOS_TRAFFIC_CLASS
@@ -54,7 +54,7 @@ ms.custom: 19H1
 The traffic control object 
 <b>QOS_TRAFFIC_CLASS</b> is used to override the default UserPriority value ascribed to packets that classify the  traffic of a given flow. 
 
-By default, the UserPriority value of a flow is derived from the ServiceType (see: <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>). Therefore, it is often necessary to override the default UserPriority because packets can be tagged in their Layer 2 headers (such as an 802.1p header) to specify their priority to Layer-2 devices. Using 
+By default, the UserPriority value of a flow is derived from the ServiceType (see: <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>). Therefore, it is often necessary to override the default UserPriority because packets can be tagged in their Layer 2 headers (such as an 802.1p header) to specify their priority to Layer-2 devices. Using 
 <b>QOS_TRAFFIC_CLASS</b> enables application developers to override the default UserPriority setting.
 
 
@@ -129,19 +129,19 @@ ServiceType to 802.1 TrafficClass.</div>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_diffserv">QOS_DIFFSERV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_diffserv_rule">QOS_DIFFSERV_RULE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv_rule">QOS_DIFFSERV_RULE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_ds_class">QOS_DS_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_ds_class">QOS_DS_CLASS</a>
 
 
 

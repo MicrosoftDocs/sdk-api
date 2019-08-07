@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAAccept, WSAAccept function [Winsock], _win32_wsaaccept_2, winsock.wsaaccept_2, winsock2/WSAAccept
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSAAccept"
+f1_keywords:
+- winsock2/WSAAccept
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSAAccept
+- WSAAccept
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -325,10 +325,10 @@ The <i>lpCallerId</i> parameter points to a WSABUF structure that contains the a
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>. The <b>sockaddr</b> structure is interpreted according to its address family (typically by casting the <b>sockaddr</b> to some type specific to the address family).
 
 The <i>lpSQOS</i> parameter references the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structures for socket <i>s</i> specified by the caller, one for each direction, followed by any additional provider-specific parameters. The sending or receiving flow specification values will be ignored as appropriate for any unidirectional sockets. A <b>NULL</b> value indicates that there is no caller-supplied quality of service and that no negotiation is possible. A non-<b>NULL</b> <i>lpSQOS</i> pointer indicates that a quality of service negotiation is to occur or that the provider is prepared to accept the quality of service request without negotiation.
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structures for socket <i>s</i> specified by the caller, one for each direction, followed by any additional provider-specific parameters. The sending or receiving flow specification values will be ignored as appropriate for any unidirectional sockets. A <b>NULL</b> value indicates that there is no caller-supplied quality of service and that no negotiation is possible. A non-<b>NULL</b> <i>lpSQOS</i> pointer indicates that a quality of service negotiation is to occur or that the provider is prepared to accept the quality of service request without negotiation.
 
 The <i>lpGQOS</i> parameter is reserved, and should be <b>NULL</b>. (reserved for future use with socket groups) references the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structure for the socket group the caller is to create, one for each direction, followed by any additional provider-specific parameters. A <b>NULL</b> value for <i>lpGQOS</i> indicates no caller-specified group quality of service. Quality of service information can be returned if negotiation is to occur.
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure for the socket group the caller is to create, one for each direction, followed by any additional provider-specific parameters. A <b>NULL</b> value for <i>lpGQOS</i> indicates no caller-specified group quality of service. Quality of service information can be returned if negotiation is to occur.
 
 The <i>lpCalleeId</i> is a parameter that contains the local address of the connected entity. The <i>buf</i> portion of the WSABUF pointed to by <i>lpCalleeId</i> points to a 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure. The <b>sockaddr</b> structure is interpreted according to its address family (typically by casting the <b>sockaddr</b> to some type specific to the address family such as struct <b>sockaddr_in</b>).

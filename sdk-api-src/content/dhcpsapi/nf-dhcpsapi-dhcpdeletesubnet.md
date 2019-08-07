@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpDeleteSubnet, DhcpDeleteSubnet function [DHCP], dhcp.dhcpdeletesubnet, dhcpsapi/DhcpDeleteSubnet
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpDeleteSubnet"
+f1_keywords:
+- dhcpsapi/DhcpDeleteSubnet
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpDeleteSubnet
+- DhcpDeleteSubnet
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ Unicode string that specifies the IP address of the subnet to delete.
 ### -param ForceFlag [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_force_flag">DHCP_FORCE_FLAG</a> enumeration value that indicates the type of delete operation to perform (full force, failover force, or no force).
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_force_flag">DHCP_FORCE_FLAG</a> enumeration value that indicates the type of delete operation to perform (full force, failover force, or no force).
 
 
 ## -returns
@@ -99,7 +99,7 @@ Usually, you will use either <b>DhcpFullForce</b> or <b>DhcpNoForce</b> as the v
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_force_flag"> DHCP_FORCE_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_force_flag"> DHCP_FORCE_FLAG</a>
 
 
 

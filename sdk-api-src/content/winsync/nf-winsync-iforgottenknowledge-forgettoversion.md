@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ForgetToVersion, ForgetToVersion method [Windows Sync], ForgetToVersion method [Windows Sync],IForgottenKnowledge interface, IForgottenKnowledge interface [Windows Sync],ForgetToVersion method, IForgottenKnowledge.ForgetToVersion, IForgottenKnowledge::ForgetToVersion, winsync.iforgottenknowledge_forgettoversion, winsync/IForgottenKnowledge::ForgetToVersion
 ms.topic: method
-f1_keywords: 
- - "winsync/IForgottenKnowledge.ForgetToVersion"
+f1_keywords:
+- winsync/IForgottenKnowledge.ForgetToVersion
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IForgottenKnowledge.ForgetToVersion
+- IForgottenKnowledge.ForgetToVersion
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -131,7 +131,7 @@ When a replica cleans up the tombstone for an item, its associated provider must
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_sync_version">SYNC_VERSION Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure</a>
  
 
  

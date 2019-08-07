@@ -8,10 +8,10 @@ tech.root: wnv
 ms.assetid: 70BE564E-A054-4991-ADCD-79E4D219307B
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWNV_NOTIFICATION_TYPE, PWNV_NOTIFICATION_TYPE, PWNV_NOTIFICATION_TYPE enumeration pointer [Windows Network Virtualization], WNV_NOTIFICATION_TYPE, WNV_NOTIFICATION_TYPE enumeration [Windows Network Virtualization], WnvNotificationTypeMax, WnvObjectChangeType, WnvPolicyMismatchType, WnvRedirectType, wnv.wnv_notification_type, wnvapi/PWNV_NOTIFICATION_TYPE, wnvapi/WNV_NOTIFICATION_TYPE, wnvapi/WnvNotificationTypeMax, wnvapi/WnvObjectChangeType, wnvapi/WnvPolicyMismatchType, wnvapi/WnvRedirectType"
+ms.keywords: '*PWNV_NOTIFICATION_TYPE, PWNV_NOTIFICATION_TYPE, PWNV_NOTIFICATION_TYPE enumeration pointer [Windows Network Virtualization], WNV_NOTIFICATION_TYPE, WNV_NOTIFICATION_TYPE enumeration [Windows Network Virtualization], WnvNotificationTypeMax, WnvObjectChangeType, WnvPolicyMismatchType, WnvRedirectType, wnv.wnv_notification_type, wnvapi/PWNV_NOTIFICATION_TYPE, wnvapi/WNV_NOTIFICATION_TYPE, wnvapi/WnvNotificationTypeMax, wnvapi/WnvObjectChangeType, wnvapi/WnvPolicyMismatchType, wnvapi/WnvRedirectType'
 ms.topic: enum
-f1_keywords: 
- - "wnvapi/WNV_NOTIFICATION_TYPE"
+f1_keywords:
+- wnvapi/WNV_NOTIFICATION_TYPE
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wnvapi.h
+- wnvapi.h
 api_name:
- - WNV_NOTIFICATION_TYPE
+- WNV_NOTIFICATION_TYPE
 product: Windows
 targetos: Windows
 req.typenames: WNV_NOTIFICATION_TYPE, *PWNV_NOTIFICATION_TYPE
@@ -85,7 +85,7 @@ The maximum possible value for this enumeration type. This is not a legal value.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_notification_param">WNV_NOTIFICATION_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_notification_param">WNV_NOTIFICATION_PARAM</a>
  
 
  

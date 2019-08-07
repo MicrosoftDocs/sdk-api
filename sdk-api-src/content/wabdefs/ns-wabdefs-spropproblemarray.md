@@ -8,10 +8,10 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\spropproblemarray.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSPropProblemArray, SPropProblemArray, SPropProblemArray structure [Windows Address Book], _wab_SPropProblemArray, wab._wab_SPropProblemArray, wabdefs/SPropProblemArray"
+ms.keywords: '*LPSPropProblemArray, SPropProblemArray, SPropProblemArray structure [Windows Address Book], _wab_SPropProblemArray, wab._wab_SPropProblemArray, wabdefs/SPropProblemArray'
 ms.topic: struct
-f1_keywords: 
- - "wabdefs/SPropProblemArray"
+f1_keywords:
+- wabdefs/SPropProblemArray
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wabdefs.h
+- Wabdefs.h
 api_name:
- - SPropProblemArray
+- SPropProblemArray
 product: Windows
 targetos: Windows
 req.typenames: SPropProblemArray, *LPSPropProblemArray
@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Do not use. Contains an array of one or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_spropproblem">SPropProblem</a> structures.
+Do not use. Contains an array of one or more <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-spropproblem">SPropProblem</a> structures.
 
 
 ## -struct-fields
@@ -64,12 +64,12 @@ Do not use. Contains an array of one or more <a href="https://docs.microsoft.com
 
 Type: <b>ULONG</b>
 
-Variable of type <b>ULONG</b> that specifies the count of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_spropproblem">SPropProblem</a> structures in the array indicated by the <b>aProblem</b> member. 
+Variable of type <b>ULONG</b> that specifies the count of <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-spropproblem">SPropProblem</a> structures in the array indicated by the <b>aProblem</b> member. 
 
 
 ### -field aProblem
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_spropproblem">SPropProblem</a>[MAPI_DIM]</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-spropproblem">SPropProblem</a>[MAPI_DIM]</b>
 
-Array of variables of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_spropproblem">SPropProblem</a> that specify information about a property error.
+Array of variables of type <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-spropproblem">SPropProblem</a> that specify information about a property error.
 

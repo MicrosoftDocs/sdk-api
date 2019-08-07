@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddItemMetadataToGroup, AddItemMetadataToGroup method [Windows Sync], AddItemMetadataToGroup method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],AddItemMetadataToGroup method, ISyncChangeBatchBase.AddItemMetadataToGroup, ISyncChangeBatchBase::AddItemMetadataToGroup, winsync.isyncchangebatchbase_additemmetadatatogroup, winsync/ISyncChangeBatchBase::AddItemMetadataToGroup
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChangeBatchBase.AddItemMetadataToGroup"
+f1_keywords:
+- winsync/ISyncChangeBatchBase.AddItemMetadataToGroup
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBatchBase.AddItemMetadataToGroup
+- ISyncChangeBatchBase.AddItemMetadataToGroup
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,12 +61,12 @@ Adds a specified item change to the group that is currently open.
 
 ### -param pbOwnerReplicaId [in]
 
-The replica ID of the replica where <i>pChangeVersion</i> and <i>pCreationVersion</i> are valid. The ID format must match the format that is specified by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_id_parameters">ID_PARAMETERS</a> structure of the provider.
+The replica ID of the replica where <i>pChangeVersion</i> and <i>pCreationVersion</i> are valid. The ID format must match the format that is specified by the <a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS</a> structure of the provider.
 
 
 ### -param pbItemId [in]
 
-The ID of the item. The ID format must match the format that is specified by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_id_parameters">ID_PARAMETERS</a> structure of the provider.
+The ID of the item. The ID format must match the format that is specified by the <a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS</a> structure of the provider.
 
 
 ### -param pChangeVersion [in]
@@ -171,7 +171,7 @@ The <b>ISyncChangeBatchBase</b> object has been sent to a change applier or to t
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_id_parameters">ID_PARAMETERS Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS Structure</a>
 
 
 
@@ -179,7 +179,7 @@ The <b>ISyncChangeBatchBase</b> object has been sent to a change applier or to t
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_sync_version">SYNC_VERSION Structure
+<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure
 </a>
  
 

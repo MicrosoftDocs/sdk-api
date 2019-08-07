@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4RemovePolicyRange, DhcpV4RemovePolicyRange function [DHCP], dhcp.dhcpv4removepolicyrange, dhcpsapi/DhcpV4RemovePolicyRange
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpV4RemovePolicyRange"
+f1_keywords:
+- dhcpsapi/DhcpV4RemovePolicyRange
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpV4RemovePolicyRange
+- DhcpV4RemovePolicyRange
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -77,7 +77,7 @@ A null-terminated Unicode string that represents the name of the policy IP addre
 
 ### -param Range [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_range">DHCP_IP_RANGE</a> structure that  contains the policy IP address range to remove.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_range">DHCP_IP_RANGE</a> structure that  contains the policy IP address range to remove.
 
 
 ## -returns

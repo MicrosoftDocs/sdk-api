@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: ede040f4-4858-42d8-a4b5-af6e79c036d7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPRSVP_FILTERSPEC_V6_GPI, *LPRSVP_FILTERSPEC_V6_GPI structure [QOS], RSVP_FILTERSPEC_V6_GPI, RSVP_FILTERSPEC_V6_GPI structure [QOS], qos.rsvp_filterspec_v6_gpi, qossp/*LPRSVP_FILTERSPEC_V6_GPI, qossp/RSVP_FILTERSPEC_V6_GPI"
+ms.keywords: '*LPRSVP_FILTERSPEC_V6_GPI, *LPRSVP_FILTERSPEC_V6_GPI structure [QOS], RSVP_FILTERSPEC_V6_GPI, RSVP_FILTERSPEC_V6_GPI structure [QOS], qos.rsvp_filterspec_v6_gpi, qossp/*LPRSVP_FILTERSPEC_V6_GPI, qossp/RSVP_FILTERSPEC_V6_GPI'
 ms.topic: struct
-f1_keywords: 
- - "qossp/RSVP_FILTERSPEC_V6_GPI"
+f1_keywords:
+- qossp/RSVP_FILTERSPEC_V6_GPI
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qossp.h
+- Qossp.h
 api_name:
- - RSVP_FILTERSPEC_V6_GPI
+- RSVP_FILTERSPEC_V6_GPI
 product: Windows
 targetos: Windows
 req.typenames: RSVP_FILTERSPEC_V6_GPI, *LPRSVP_FILTERSPEC_V6_GPI
@@ -61,7 +61,7 @@ The <b>RSVP_FILTERSPEC_V6_GPI</b> structure provides general port identifier inf
 
 ### -field Address
 
-IPv4 address for which the FILTERSPEC general port identifier applies, expressed as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_in_addr_ipv6">IN_ADDR_IPV6</a> structure.
+IPv4 address for which the FILTERSPEC general port identifier applies, expressed as an <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-in_addr_ipv6">IN_ADDR_IPV6</a> structure.
 
 
 ### -field GeneralPortId
@@ -73,7 +73,7 @@ General Port Identifier for the FILTERSPEC.
 
 
 
-When working with IPv4 addresses, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v4_gpi">RSVP_FILTERSPEC_V4_GPI</a>.
+When working with IPv4 addresses, use <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v4_gpi">RSVP_FILTERSPEC_V4_GPI</a>.
 
 
 
@@ -83,11 +83,11 @@ When working with IPv4 addresses, use <a href="https://docs.microsoft.com/previo
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_in_addr_ipv6">IN_ADDR_IPV6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-in_addr_ipv6">IN_ADDR_IPV6</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v4_gpi">RSVP_FILTERSPEC_V4_GPI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v4_gpi">RSVP_FILTERSPEC_V4_GPI</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVPConfig interface [DirectShow],SetScalingFactors method, IVPConfig.SetScalingFactors, IVPConfig::SetScalingFactors, IVPConfigSetScalingFactors, SetScalingFactors, SetScalingFactors method [DirectShow], SetScalingFactors method [DirectShow],IVPConfig interface, dshow.ivpconfig_setscalingfactors, vpconfig/IVPConfig::SetScalingFactors
 ms.topic: method
-f1_keywords: 
- - "vpconfig/IVPConfig.SetScalingFactors"
+f1_keywords:
+- vpconfig/IVPConfig.SetScalingFactors
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVPConfig.SetScalingFactors
+- IVPConfig.SetScalingFactors
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ The <code>SetScalingFactors</code> method sets the factors by which the decoder 
 
 ### -param pamvpSize [in]
 
-Pointer to the new scaling size structure (<a href="https://docs.microsoft.com/windows/desktop/api/vptype/ns-vptype-_amvpsize">AMVPSIZE</a>) to use to specify the width and height.
+Pointer to the new scaling size structure (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vptype/ns-vptype-amvpsize">AMVPSIZE</a>) to use to specify the width and height.
 
 
 ## -returns

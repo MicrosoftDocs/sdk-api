@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MIBICMPINFO, MIBICMPINFO structure [MIB], _mpr_mibicmpinfo, ipmib/MIBICMPINFO, iprtrmib/MIBICMPINFO, mib.mibicmpinfo, rras.mibicmpinfo
 ms.topic: struct
-f1_keywords: 
- - "ipmib/MIBICMPINFO"
+f1_keywords:
+- ipmib/MIBICMPINFO
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipmib.h
- - Iprtrmib.h
+- Ipmib.h
+- Iprtrmib.h
 api_name:
- - MIBICMPINFO
+- MIBICMPINFO
 product: Windows
 targetos: Windows
 req.typenames: MIBICMPINFO
@@ -64,13 +64,13 @@ The
 ### -field icmpInStats
 
 An 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mibicmpstats">MIBICMPSTATS</a> structure that contains the statistics for incoming ICMP messages.
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats">MIBICMPSTATS</a> structure that contains the statistics for incoming ICMP messages.
 
 
 ### -field icmpOutStats
 
 An 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mibicmpstats">MIBICMPSTATS</a> structure that contains the statistics for outgoing ICMP messages.
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats">MIBICMPSTATS</a> structure that contains the statistics for outgoing ICMP messages.
 
 
 ## -remarks
@@ -78,7 +78,7 @@ An
 
 
 Two 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mibicmpstats">MIBICMPSTATS</a> structures are required to hold all the ICMP statistics for a given computer. One 
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats">MIBICMPSTATS</a> structures are required to hold all the ICMP statistics for a given computer. One 
 <b>MIBICMPSTATS</b> structure contains the statistics for incoming ICMP messages. The other contains the statistics for outgoing ICMP messages. For this reason, the 
 <b>MIBICMPINFO</b> structure contains two 
 <b>MIBICMPSTATS</b> structures.
@@ -93,19 +93,19 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mibicmpstats">MIBICMPSTATS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats">MIBICMPSTATS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_icmp">MIB_ICMP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_icmp">MIB_ICMP</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_icmp_ex_xpsp1">MIB_ICMP_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_icmp_ex_xpsp1">MIB_ICMP_EX</a>
  
 
  

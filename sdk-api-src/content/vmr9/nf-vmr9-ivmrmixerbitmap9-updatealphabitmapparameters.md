@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerBitmap9 interface [DirectShow],UpdateAlphaBitmapParameters method, IVMRMixerBitmap9.UpdateAlphaBitmapParameters, IVMRMixerBitmap9::UpdateAlphaBitmapParameters, IVMRMixerBitmap9UpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters method [DirectShow], UpdateAlphaBitmapParameters method [DirectShow],IVMRMixerBitmap9 interface, dshow.ivmrmixerbitmap9_updatealphabitmapparameters, vmr9/IVMRMixerBitmap9::UpdateAlphaBitmapParameters
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRMixerBitmap9.UpdateAlphaBitmapParameters"
+f1_keywords:
+- vmr9/IVMRMixerBitmap9.UpdateAlphaBitmapParameters
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMixerBitmap9.UpdateAlphaBitmapParameters
+- IVMRMixerBitmap9.UpdateAlphaBitmapParameters
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ The <code>UpdateAlphaBitmapParameters</code> method changes the bitmap location,
 
 ### -param pBmpParms [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9alphabitmap">VMR9AlphaBitmap</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9alphabitmap">VMR9AlphaBitmap</a> structure.
 
 
 ## -returns

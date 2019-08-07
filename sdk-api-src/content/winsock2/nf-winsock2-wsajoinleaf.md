@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAJoinLeaf, WSAJoinLeaf function [Winsock], _win32_wsajoinleaf_2, winsock.wsajoinleaf_2, winsock2/WSAJoinLeaf
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSAJoinLeaf"
+f1_keywords:
+- winsock2/WSAJoinLeaf
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSAJoinLeaf
+- WSAJoinLeaf
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>WSAJoinLeaf</b> function joins a leaf node into a multipoint session, exchanges connect data, and specifies needed quality of service based on the specified 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structures.
 
 
 ## -parameters
@@ -89,12 +89,12 @@ Pointer to the user data that is to be transferred back from the peer during mul
 ### -param lpSQOS [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structures for socket <i>s</i>, one for each direction.
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structures for socket <i>s</i>, one for each direction.
 
 
 ### -param lpGQOS [in]
 
-Reserved for future use with socket groups. A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structures for the socket group (if applicable).
+Reserved for future use with socket groups. A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structures for the socket group (if applicable).
 
 
 ### -param dwFlags [in]
@@ -314,7 +314,7 @@ The descriptor is not a socket.
 </td>
 <td width="60%">
 The 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structures specified in <i>lpSQOS</i> and <i>lpGQOS</i> cannot be satisfied.
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structures specified in <i>lpSQOS</i> and <i>lpGQOS</i> cannot be satisfied.
 
 </td>
 </tr>
@@ -400,10 +400,10 @@ At multipoint session establishment time, an application can use the <i>lpSQOS</
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> with the SIO_SET_QOS or  SIO_SET_GROUP_QOS opcodes.
 
 The <i>lpSQOS</i> parameter specifies the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structures for socket <i>s</i>, one for each direction, followed by any additional provider-specific parameters. If either the associated transport provider in general or the specific type of socket in particular cannot honor the quality of service request, an error will be returned as indicated in the following. The respective sending or receiving flow specification values will be ignored for any unidirectional sockets. If no provider-specific parameters are specified, the <b>buf</b> and <b>len</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structure pointed to by the <i>lpCalleeData</i> parameter should be set to <b>NULL</b> and zero, respectively. A <b>NULL</b> value for <i>lpSQOS</i> indicates no application-supplied quality of service.
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structures for socket <i>s</i>, one for each direction, followed by any additional provider-specific parameters. If either the associated transport provider in general or the specific type of socket in particular cannot honor the quality of service request, an error will be returned as indicated in the following. The respective sending or receiving flow specification values will be ignored for any unidirectional sockets. If no provider-specific parameters are specified, the <b>buf</b> and <b>len</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structure pointed to by the <i>lpCalleeData</i> parameter should be set to <b>NULL</b> and zero, respectively. A <b>NULL</b> value for <i>lpSQOS</i> indicates no application-supplied quality of service.
 
 Reserved for future socket groups. The <i>lpGQOS</i> parameter specifies the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structures for the socket group (if applicable), one for each direction, followed by any additional provider-specific parameters. If no provider-specific parameters are specified, the the <b>buf</b> and <b>len</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structure pointed to by the <i>lpCalleeData</i> parameter should be set to should be set to <b>NULL</b> and zero, respectively. A <b>NULL</b> value for <i>lpGQOS</i> indicates no application-supplied group quality of service. This parameter will be ignored if <i>s</i> is not the creator of the socket group.
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structures for the socket group (if applicable), one for each direction, followed by any additional provider-specific parameters. If no provider-specific parameters are specified, the the <b>buf</b> and <b>len</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structure pointed to by the <i>lpCalleeData</i> parameter should be set to should be set to <b>NULL</b> and zero, respectively. A <b>NULL</b> value for <i>lpGQOS</i> indicates no application-supplied group quality of service. This parameter will be ignored if <i>s</i> is not the creator of the socket group.
 
 When connected sockets break (that is, become closed for whatever reason), they should be discarded and recreated. It is safest to assume that when things go awry for any reason on a connected socket, the application must discard and recreate the needed sockets in order to return to a stable point.
 

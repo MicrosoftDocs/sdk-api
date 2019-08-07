@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CommitAndUpdateDerived, CommitAndUpdateDerived method [File Server Resource Manager], CommitAndUpdateDerived method [File Server Resource Manager],IFsrmFileScreenTemplate interface, IFsrmFileScreenTemplate interface [File Server Resource Manager],CommitAndUpdateDerived method, IFsrmFileScreenTemplate.CommitAndUpdateDerived, IFsrmFileScreenTemplate::CommitAndUpdateDerived, fs.ifsrmfilescreentemplate_commitandupdatederived, fsrm.ifsrmfilescreentemplate_commitandupdatederived, fsrmscreen/IFsrmFileScreenTemplate::CommitAndUpdateDerived
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenTemplate.CommitAndUpdateDerived"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenTemplate.CommitAndUpdateDerived
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenTemplate.CommitAndUpdateDerived
+- IFsrmFileScreenTemplate.CommitAndUpdateDerived
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,13 +67,13 @@ Saves the file screen template and then applies any changes to the derived file 
 ### -param commitOptions [in]
 
 The options for saving the template. For possible values, see the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmcommitoptions">FsrmCommitOptions</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmcommitoptions">FsrmCommitOptions</a> enumeration.
 
 
 ### -param applyOptions [in]
 
 The options used to choose the derived objects to which the changes are applied. For possible values, see 
-      the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmtemplateapplyoptions">FsrmTemplateApplyOptions</a> enumeration.
+      the <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmtemplateapplyoptions">FsrmTemplateApplyOptions</a> enumeration.
 
 
 ### -param derivedObjectsResult [out]

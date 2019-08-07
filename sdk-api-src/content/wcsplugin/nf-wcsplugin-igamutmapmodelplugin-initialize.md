@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGamutMapModelPlugIn interface [Windows Color System],Initialize method, IGamutMapModelPlugIn.Initialize, IGamutMapModelPlugIn::Initialize, Initialize, Initialize method [Windows Color System], Initialize method [Windows Color System],IGamutMapModelPlugIn interface, _color_IGamutMapModelPlugIn::Initialize, wcs.IGamutMapModelPlugIn_Initialize, wcsplugin/IGamutMapModelPlugIn::Initialize
 ms.topic: method
-f1_keywords: 
- - "wcsplugin/IGamutMapModelPlugIn.Initialize"
+f1_keywords:
+- wcsplugin/IGamutMapModelPlugIn.Initialize
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WcsPlugIn.h
+- WcsPlugIn.h
 api_name:
- - IGamutMapModelPlugIn.Initialize
+- IGamutMapModelPlugIn.Initialize
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,12 +76,12 @@ A pointer to a destination <a href="https://docs.microsoft.com/previous-versions
 
 ### -param pSrcGBD [in]
 
-A pointer to a source <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/ns-wcsplugin-_gamutboundarydescription">GamutBoundaryDescription</a>.
+A pointer to a source <a href="https://docs.microsoft.com/windows/desktop/api/wcsplugin/ns-wcsplugin-gamutboundarydescription">GamutBoundaryDescription</a>.
 
 
 ### -param pDestGBD [in]
 
-A pointer to a destination <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/ns-wcsplugin-_gamutboundarydescription">GamutBoundaryDescription</a>.
+A pointer to a destination <a href="https://docs.microsoft.com/windows/desktop/api/wcsplugin/ns-wcsplugin-gamutboundarydescription">GamutBoundaryDescription</a>.
 
 
 ## -returns

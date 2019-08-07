@@ -8,10 +8,10 @@ tech.root: wnv
 ms.assetid: 9FC20DFE-663C-47ED-8183-76C10D4E7615
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWNV_PROVIDER_ADDRESS_CHANGE_PARAM, IpDadStateDeprecated, IpDadStateDuplicate, IpDadStateInvalid, IpDadStatePreferred, IpDadStateTentative, PWNV_PROVIDER_ADDRESS_CHANGE_PARAM, PWNV_PROVIDER_ADDRESS_CHANGE_PARAM structure pointer [Windows Network Virtualization], WNV_PROVIDER_ADDRESS_CHANGE_PARAM, WNV_PROVIDER_ADDRESS_CHANGE_PARAM structure [Windows Network Virtualization], wnv.wnv_provider_address_change_param, wnvapi/PWNV_PROVIDER_ADDRESS_CHANGE_PARAM, wnvapi/WNV_PROVIDER_ADDRESS_CHANGE_PARAM"
+ms.keywords: '*PWNV_PROVIDER_ADDRESS_CHANGE_PARAM, IpDadStateDeprecated, IpDadStateDuplicate, IpDadStateInvalid, IpDadStatePreferred, IpDadStateTentative, PWNV_PROVIDER_ADDRESS_CHANGE_PARAM, PWNV_PROVIDER_ADDRESS_CHANGE_PARAM structure pointer [Windows Network Virtualization], WNV_PROVIDER_ADDRESS_CHANGE_PARAM, WNV_PROVIDER_ADDRESS_CHANGE_PARAM structure [Windows Network Virtualization], wnv.wnv_provider_address_change_param, wnvapi/PWNV_PROVIDER_ADDRESS_CHANGE_PARAM, wnvapi/WNV_PROVIDER_ADDRESS_CHANGE_PARAM'
 ms.topic: struct
-f1_keywords: 
- - "wnvapi/WNV_PROVIDER_ADDRESS_CHANGE_PARAM"
+f1_keywords:
+- wnvapi/WNV_PROVIDER_ADDRESS_CHANGE_PARAM
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wnvapi.h
+- wnvapi.h
 api_name:
- - WNV_PROVIDER_ADDRESS_CHANGE_PARAM
+- WNV_PROVIDER_ADDRESS_CHANGE_PARAM
 product: Windows
 targetos: Windows
 req.typenames: WNV_PROVIDER_ADDRESS_CHANGE_PARAM, *PWNV_PROVIDER_ADDRESS_CHANGE_PARAM
@@ -68,7 +68,7 @@ The address family (<b>AF_INET</b> or <b>AF_INET6</b>) for the provider address.
 
 ### -field PA
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_ip_address">WNV_IP_ADDRESS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_ip_address">WNV_IP_ADDRESS</a></b>
 
 The IP address object for the provider address, which is the matching IP address used on the physical network for the customer address.
 
@@ -157,15 +157,15 @@ For a detailed description of network virtualization concepts and terminology, r
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ne-wnvapi-_wnv_notification_type">WNV_NOTIFICATION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ne-wnvapi-wnv_notification_type">WNV_NOTIFICATION_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_object_change_param">WNV_OBJECT_CHANGE_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_object_change_param">WNV_OBJECT_CHANGE_PARAM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ne-wnvapi-_wnv_object_type">WNV_OBJECT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ne-wnvapi-wnv_object_type">WNV_OBJECT_TYPE</a>
  
 
  

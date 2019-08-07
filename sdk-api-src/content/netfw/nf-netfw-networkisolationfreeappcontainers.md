@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationFreeAppContainers, NetworkIsolationFreeAppContainers function [ICS/ICF], ics.networkisolationfreeappcontainers, networkisolation/NetworkIsolationFreeAppContainers
 ms.topic: function
-f1_keywords: 
- - "netfw/NetworkIsolationFreeAppContainers"
+f1_keywords:
+- netfw/NetworkIsolationFreeAppContainers
 req.header: netfw.h
 req.include-header: Netfw.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: Firewallapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - firewallapi.dll
- - API-MS-Win-Net-Isolation-l1-1-0.dll
- - API-MS-Win-Net-Isolation-l1-1-1.dll
- - wfapihost.dll
+- firewallapi.dll
+- API-MS-Win-Net-Isolation-l1-1-0.dll
+- API-MS-Win-Net-Isolation-l1-1-1.dll
+- wfapihost.dll
 api_name:
- - NetworkIsolationFreeAppContainers
+- NetworkIsolationFreeAppContainers
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ The <b>NetworkIsolationFreeAppContainers</b> function is used to release memory 
 
 ### -param pPublicAppCs [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ns-netfw-_inet_firewall_app_container">PINET_FIREWALL_APP_CONTAINER</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/netfw/ns-netfw-inet_firewall_app_container">PINET_FIREWALL_APP_CONTAINER</a></b>
 
 The app container memory resources to be freed.
 
@@ -85,7 +85,7 @@ Returns ERROR_SUCCESS if successful, or an error value otherwise.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ns-netfw-_inet_firewall_app_container">INET_FIREWALL_APP_CONTAINER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/ns-netfw-inet_firewall_app_container">INET_FIREWALL_APP_CONTAINER</a>
  
 
  

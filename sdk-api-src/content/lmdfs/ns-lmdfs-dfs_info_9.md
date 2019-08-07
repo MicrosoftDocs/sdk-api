@@ -107,7 +107,7 @@ Specifies a set of bit flags that describe the DFS root or link. One
       is set. The <b>DFS_VOLUME_FLAVORS</b> bitmask (0x00000300) must be used to extract the DFS 
       namespace flavor, and the <b>DFS_VOLUME_STATES</b> bitmask (0x0000000F) must be used to 
       extract the DFS root or link state from this member. For an example that describes the interpretation of the 
-      flags, see the Remarks section of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_2">DFS_INFO_2</a>.
+      flags, see the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_2">DFS_INFO_2</a>.
 
 
 
@@ -228,8 +228,8 @@ Scope: Domain-based DFS roots and stand-alone DFS roots.
 When this flag is set, Access-Based Directory Enumeration (ABDE) mode support is enabled on the entire DFS 
          root target share of the DFS namespace. This flag is valid only for DFS namespaces for which the 
          <b>DFS_NAMESPACE_CAPABILITY_ABDE</b> capability flag is set. For more information, see 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_50">DFS_INFO_50</a> and 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_supported_namespace_version_info">DFS_SUPPORTED_NAMESPACE_VERSION_INFO</a>.
+         <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_50">DFS_INFO_50</a> and 
+         <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_supported_namespace_version_info">DFS_SUPPORTED_NAMESPACE_VERSION_INFO</a>.
 
 The <b>DFS_PROPERTY_FLAG_ABDE</b> flag is valid only on the DFS namespace root and not 
          on root targets, links, or link targets. This flag must be enabled to associate a security descriptor with a 
@@ -291,7 +291,7 @@ Specifies the number of targets for the DFS root or link. These targets are cont
 
 ### -field Storage
 
-Specifies an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_storage_info_1">DFS_STORAGE_INFO_1</a> 
+Specifies an array of <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_storage_info_1">DFS_STORAGE_INFO_1</a> 
       structures that contain the DFS target information.
 
 

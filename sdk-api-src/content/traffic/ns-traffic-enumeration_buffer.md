@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: fd80b8c9-db0c-4e2c-b259-b21b06fc5d56
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PENUMERATION_BUFFER, ENUMERATION_BUFFER, ENUMERATION_BUFFER structure [QOS], PENUMERATION_BUFFER, PENUMERATION_BUFFER structure pointer [QOS], _gqos_enumeration_buffer, qos.enumeration_buffer, traffic/ENUMERATION_BUFFER, traffic/PENUMERATION_BUFFER"
+ms.keywords: '*PENUMERATION_BUFFER, ENUMERATION_BUFFER, ENUMERATION_BUFFER structure [QOS], PENUMERATION_BUFFER, PENUMERATION_BUFFER structure pointer [QOS], _gqos_enumeration_buffer, qos.enumeration_buffer, traffic/ENUMERATION_BUFFER, traffic/PENUMERATION_BUFFER'
 ms.topic: struct
-f1_keywords: 
- - "traffic/ENUMERATION_BUFFER"
+f1_keywords:
+- traffic/ENUMERATION_BUFFER
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Traffic.h
+- Traffic.h
 api_name:
- - ENUMERATION_BUFFER
+- ENUMERATION_BUFFER
 product: Windows
 targetos: Windows
 req.typenames: ENUMERATION_BUFFER, *PENUMERATION_BUFFER
@@ -85,7 +85,7 @@ Array of WCHAR characters, of length <b>MAX_STRING_LENGTH</b>, that specifies th
 ### -field pFlow
 
 Pointer to the corresponding 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/ns-traffic-_tc_gen_flow">TC_GEN_FLOW</a> structure. This structure is placed immediately after the array of TC_GEN_FILTERS and is included in <b>Length</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-tc_gen_flow">TC_GEN_FLOW</a> structure. This structure is placed immediately after the array of TC_GEN_FILTERS and is included in <b>Length</b>.
 
 
 ### -field NumberOfFilters
@@ -96,7 +96,7 @@ Specifies the number of filters associated with the flow.
 ### -field GenericFilter
 
 Array of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/ns-traffic-_tc_gen_filter">TC_GEN_FILTER</a> structures. The number of elements in the array corresponds to the number of filters attached to the specified flow. Note that in order to enumerate through the array of 
+<a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-tc_gen_filter">TC_GEN_FILTER</a> structures. The number of elements in the array corresponds to the number of filters attached to the specified flow. Note that in order to enumerate through the array of 
 <b>TC_GEN_FILTER</b> structures, you need to increment the pointer to the current 
 <b>TC_GEN_FILTER</b> by using the following: 
 
@@ -104,7 +104,7 @@ Array of
 
 
 sizeof(TC_GEN_FILTER) + 2 * [the pattern size of the current 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/ns-traffic-_tc_gen_filter">TC_GEN_FILTER</a> structure].
+<a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-tc_gen_filter">TC_GEN_FILTER</a> structure].
 
 
 ## -see-also
@@ -112,15 +112,15 @@ sizeof(TC_GEN_FILTER) + 2 * [the pattern size of the current
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/ns-traffic-_tc_gen_filter">TC_GEN_FILTER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-tc_gen_filter">TC_GEN_FILTER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/ns-traffic-_tc_gen_flow">TC_GEN_FLOW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-tc_gen_flow">TC_GEN_FLOW</a>
  
 
  

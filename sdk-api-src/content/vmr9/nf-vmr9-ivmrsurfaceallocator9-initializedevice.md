@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocator9 interface [DirectShow],InitializeDevice method, IVMRSurfaceAllocator9.InitializeDevice, IVMRSurfaceAllocator9::InitializeDevice, IVMRSurfaceAllocator9InitializeDevice, InitializeDevice, InitializeDevice method [DirectShow], InitializeDevice method [DirectShow],IVMRSurfaceAllocator9 interface, dshow.ivmrsurfaceallocator9_initializedevice, vmr9/IVMRSurfaceAllocator9::InitializeDevice
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRSurfaceAllocator9.InitializeDevice"
+f1_keywords:
+- vmr9/IVMRSurfaceAllocator9.InitializeDevice
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurfaceAllocator9.InitializeDevice
+- IVMRSurfaceAllocator9.InitializeDevice
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ Application-defined identifier. This value is the same value that the applicatio
 
 ### -param lpAllocInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9allocationinfo">VMR9AllocationInfo</a> structure that contains a description of the surfaces to create.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9allocationinfo">VMR9AllocationInfo</a> structure that contains a description of the surfaces to create.
 
 
 ### -param lpNumBuffers [in, out]

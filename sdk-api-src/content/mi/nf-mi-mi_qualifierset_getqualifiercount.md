@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_QualifierSet_GetQualifierCount, MI_QualifierSet_GetQualifierCount function [Windows Management Infrastructure (MI)], mi/MI_QualifierSet_GetQualifierCount, wmi_v2.mi_qualifierset_getqualifiercount
 ms.topic: function
-f1_keywords: 
- - "mi/MI_QualifierSet_GetQualifierCount"
+f1_keywords:
+- mi/MI_QualifierSet_GetQualifierCount
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_QualifierSet_GetQualifierCount
+- MI_QualifierSet_GetQualifierCount
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ Gets the number of qualifiers in a qualifier set.
 ### -param self [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_qualifierset">MI_QualifierSet</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_qualifierset">MI_QualifierSet</a> structure.
 
 
 ### -param count [out]
@@ -74,7 +74,7 @@ Returned number of qualifiers.
 
 
 
-A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 

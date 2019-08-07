@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Instance_GetClassName, MI_Instance_GetClassName function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetClassName, wmi_v2.mi_instance_getclassname
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Instance_GetClassName"
+f1_keywords:
+- mi/MI_Instance_GetClassName
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Instance_GetClassName
+- MI_Instance_GetClassName
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ A pointer to a null-terminated string containing the returned class name.
 
 
 
-A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 
@@ -83,7 +83,7 @@ A value of the <a href="https://docs.microsoft.com/previous-versions/windows/des
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a>
  
 
  

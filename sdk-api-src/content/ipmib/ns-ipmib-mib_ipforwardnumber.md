@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: 71508d8e-3265-4c08-913c-248af2d8bbd6
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_IPFORWARDNUMBER, MIB_IPFORWARDNUMBER, MIB_IPFORWARDNUMBER structure [MIB], PMIB_IPFORWARDNUMBER, PMIB_IPFORWARDNUMBER structure pointer [MIB], _mpr_mib_ipforwardnumber, ipmib/MIB_IPFORWARDNUMBER, ipmib/PMIB_IPFORWARDNUMBER, iprtrmib/MIB_IPFORWARDNUMBER, iprtrmib/PMIB_IPFORWARDNUMBER, mib.mib_ipforwardnumber, rras.mib_ipforwardnumber"
+ms.keywords: '*PMIB_IPFORWARDNUMBER, MIB_IPFORWARDNUMBER, MIB_IPFORWARDNUMBER structure [MIB], PMIB_IPFORWARDNUMBER, PMIB_IPFORWARDNUMBER structure pointer [MIB], _mpr_mib_ipforwardnumber, ipmib/MIB_IPFORWARDNUMBER, ipmib/PMIB_IPFORWARDNUMBER, iprtrmib/MIB_IPFORWARDNUMBER, iprtrmib/PMIB_IPFORWARDNUMBER, mib.mib_ipforwardnumber, rras.mib_ipforwardnumber'
 ms.topic: struct
-f1_keywords: 
- - "ipmib/MIB_IPFORWARDNUMBER"
+f1_keywords:
+- ipmib/MIB_IPFORWARDNUMBER
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipmib.h
- - Iprtrmib.h
+- Ipmib.h
+- Iprtrmib.h
 api_name:
- - MIB_IPFORWARDNUMBER
+- MIB_IPFORWARDNUMBER
 product: Windows
 targetos: Windows
 req.typenames: MIB_IPFORWARDNUMBER, *PMIB_IPFORWARDNUMBER
@@ -84,11 +84,11 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipforwardrow">MIB_IPFORWARDROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipforwardtable">MIB_IPFORWARDTABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardtable">MIB_IPFORWARDTABLE</a>
  
 
  

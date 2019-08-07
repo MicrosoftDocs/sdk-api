@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QOSSetFlow, QOSSetFlow function [QOS], QOSSetOutgoingDSCPValue, QOSSetOutgoingRate, QOSSetTrafficType, qos.qossetoutgoingrate, qos2/QOSSetFlow
 ms.topic: function
-f1_keywords: 
- - "qos2/QOSSetFlow"
+f1_keywords:
+- qos2/QOSSetFlow
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Qwave.lib
 req.dll: Qwave.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - qwave.dll
+- qwave.dll
 api_name:
- - QOSSetFlow
+- QOSSetFlow
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ A flow identifier. A <b>QOS_FLOWID</b> is an unsigned 32-bit integer.
 
 ### -param Operation [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/ne-qos2-_qos_set_flow">QOS_SET_FLOW</a> enumerated type that identifies what will be changed in the flow.  This parameter specifies what structure the <i>Buffer</i> will contain.
+A <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ne-qos2-qos_set_flow">QOS_SET_FLOW</a> enumerated type that identifies what will be changed in the flow.  This parameter specifies what structure the <i>Buffer</i> will contain.
 
 <table>
 <tr>
@@ -85,7 +85,7 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2
 </dl>
 </td>
 <td width="60%">
-The traffic type of the flow will be changed.  The <i>Buffer</i> will contain a pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/ne-qos2-_qos_traffic_type">QOS_TRAFFIC_TYPE</a> constant.
+The traffic type of the flow will be changed.  The <i>Buffer</i> will contain a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ne-qos2-qos_traffic_type">QOS_TRAFFIC_TYPE</a> constant.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ The traffic type of the flow will be changed.  The <i>Buffer</i> will contain a 
 </dl>
 </td>
 <td width="60%">
-The flow rate will be changed. The <i>Buffer</i> will contain a pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/ns-qos2-_qos_flowrate_outgoing">QOS_FLOWRATE_OUTGOING</a> structure.
+The flow rate will be changed. The <i>Buffer</i> will contain a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ns-qos2-qos_flowrate_outgoing">QOS_FLOWRATE_OUTGOING</a> structure.
 
 </td>
 </tr>

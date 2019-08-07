@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: cc841dac-85d4-4250-a868-95c41731fe45
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_CLIENT_INFO, DHCP_CLIENT_INFO, DHCP_CLIENT_INFO structure [DHCP], LPDHCP_CLIENT_INFO, LPDHCP_CLIENT_INFO structure pointer [DHCP], dhcp.dhcp_client_info, dhcpsapi/LPDHCP_CLIENT_INFO, dhcpsapi/_DHCP_CLIENT_INFO"
+ms.keywords: '*LPDHCP_CLIENT_INFO, DHCP_CLIENT_INFO, DHCP_CLIENT_INFO structure [DHCP], LPDHCP_CLIENT_INFO, LPDHCP_CLIENT_INFO structure pointer [DHCP], dhcp.dhcp_client_info, dhcpsapi/LPDHCP_CLIENT_INFO, dhcpsapi/_DHCP_CLIENT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_CLIENT_INFO"
+f1_keywords:
+- dhcpsapi/DHCP_CLIENT_INFO
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_CLIENT_INFO
+- DHCP_CLIENT_INFO
 product: Windows
 targetos: Windows
 req.typenames: DHCP_CLIENT_INFO, *LPDHCP_CLIENT_INFO
@@ -74,7 +74,7 @@ The <b>DHCP_CLIENT_INFO</b> structure defines a client information record used b
 ### -field ClientHardwareAddress
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_binary_data">DHCP_CLIENT_UID</a> structure containing the MAC address of the client's network interface device.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_CLIENT_UID</a> structure containing the MAC address of the client's network interface device.
 
 
 ### -field ClientName
@@ -90,13 +90,13 @@ Unicode string that contains a comment associated with the DHCP client. This mem
 ### -field ClientLeaseExpires
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_date_time">DATE_TIME</a> structure that contains the date and time the DHCP client lease will expire, in UTC time.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a> structure that contains the date and time the DHCP client lease will expire, in UTC time.
 
 
 ### -field OwnerHost
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_host_info">DHCP_HOST_INFO</a> structure that contains information on the DHCP server that assigned the IP address to the  client. 
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info">DHCP_HOST_INFO</a> structure that contains information on the DHCP server that assigned the IP address to the  client. 
 
 
 ## -see-also
@@ -104,19 +104,19 @@ Unicode string that contains a comment associated with the DHCP client. This mem
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_date_time">DATE_TIME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_array">DHCP_CLIENT_INFO_ARRAY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_array">DHCP_CLIENT_INFO_ARRAY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_binary_data">DHCP_CLIENT_UID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_CLIENT_UID</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_host_info">DHCP_HOST_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info">DHCP_HOST_INFO</a>
 
 
 

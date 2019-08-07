@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVD_WARNING, DVD_WARNING , DVD_WARNING enumeration [DirectShow], DVD_WARNINGEnumeration, DVD_WARNING_FormatNotSupported, DVD_WARNING_IllegalNavCommand, DVD_WARNING_InvalidDVD1_0Disc, DVD_WARNING_Open, DVD_WARNING_Read, DVD_WARNING_Seek, dshow.dvd_warning, dvdevcod/DVD_WARNING, dvdevcod/DVD_WARNING_FormatNotSupported, dvdevcod/DVD_WARNING_IllegalNavCommand, dvdevcod/DVD_WARNING_InvalidDVD1_0Disc, dvdevcod/DVD_WARNING_Open, dvdevcod/DVD_WARNING_Read, dvdevcod/DVD_WARNING_Seek
 ms.topic: enum
-f1_keywords: 
- - "dvdevcod/DVD_WARNING"
+f1_keywords:
+- dvdevcod/DVD_WARNING
 req.header: dvdevcod.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dvdevcod.h
+- dvdevcod.h
 api_name:
- - DVD_WARNING
+- DVD_WARNING
 product: Windows
 targetos: Windows
 req.typenames: DVD_WARNING
@@ -70,7 +70,7 @@ DVD-Video disc is authored incorrectly. Playback can continue, but unexpected be
 
 ### -field DVD_WARNING_FormatNotSupported
 
-A decoder would not support the current format. Playback of a stream (audio, video or subpicture) might not function. <i>lParam2</i> of the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-warning">EC_DVD_WARNING</a> event notification code contains the stream type (see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_am_dvd_stream_flags">AM_DVD_STREAM_FLAGS</a>).
+A decoder would not support the current format. Playback of a stream (audio, video or subpicture) might not function. <i>lParam2</i> of the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-warning">EC_DVD_WARNING</a> event notification code contains the stream type (see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-am_dvd_stream_flags">AM_DVD_STREAM_FLAGS</a>).
           
 
 

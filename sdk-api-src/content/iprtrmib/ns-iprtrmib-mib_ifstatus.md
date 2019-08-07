@@ -100,7 +100,7 @@ Note that the <i>Iprtrmib.h</i> header file is automatically included in the <i>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ifmib/ns-ifmib-_mib_ifrow">MIB_IFROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a>
 
 
 

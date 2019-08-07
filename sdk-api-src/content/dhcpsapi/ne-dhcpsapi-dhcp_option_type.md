@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 2577c0b6-aa84-4176-87b7-ffd304823d76
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_OPTION_TYPE, DHCP_OPTION_TYPE, DHCP_OPTION_TYPE enumeration [DHCP], DhcpArrayTypeOption, DhcpUnaryElementTypeOption, LPDHCP_OPTION_TYPE, LPDHCP_OPTION_TYPE enumeration pointer [DHCP], dhcp.dhcp_option_type, dhcpsapi/DHCP_OPTION_TYPE, dhcpsapi/DhcpArrayTypeOption, dhcpsapi/DhcpUnaryElementTypeOption, dhcpsapi/LPDHCP_OPTION_TYPE"
+ms.keywords: '*LPDHCP_OPTION_TYPE, DHCP_OPTION_TYPE, DHCP_OPTION_TYPE enumeration [DHCP], DhcpArrayTypeOption, DhcpUnaryElementTypeOption, LPDHCP_OPTION_TYPE, LPDHCP_OPTION_TYPE enumeration pointer [DHCP], dhcp.dhcp_option_type, dhcpsapi/DHCP_OPTION_TYPE, dhcpsapi/DhcpArrayTypeOption, dhcpsapi/DhcpUnaryElementTypeOption, dhcpsapi/LPDHCP_OPTION_TYPE'
 ms.topic: enum
-f1_keywords: 
- - "dhcpsapi/DHCP_OPTION_TYPE"
+f1_keywords:
+- dhcpsapi/DHCP_OPTION_TYPE
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_OPTION_TYPE
+- DHCP_OPTION_TYPE
 product: Windows
 targetos: Windows
 req.typenames: DHCP_OPTION_TYPE, *LPDHCP_OPTION_TYPE
@@ -74,7 +74,7 @@ The option is an array of data items associated with it.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option">DHCP_OPTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option">DHCP_OPTION</a>
  
 
  

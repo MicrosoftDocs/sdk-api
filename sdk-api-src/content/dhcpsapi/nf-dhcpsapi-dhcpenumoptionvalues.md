@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumOptionValues, DhcpEnumOptionValues function [DHCP], dhcp.dhcpenumoptionvalues, dhcpsapi/DhcpEnumOptionValues
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpEnumOptionValues"
+f1_keywords:
+- dhcpsapi/DhcpEnumOptionValues
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpEnumOptionValues
+- DhcpEnumOptionValues
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 ### -param ScopeInfo [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_scope_info">DHCP_OPTION_SCOPE_INFO</a> structure that contains the  level (specifically: default, server, scope, or IPv4 reservation level) for which the option values are defined and should be enumerated. 
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_scope_info">DHCP_OPTION_SCOPE_INFO</a> structure that contains the  level (specifically: default, server, scope, or IPv4 reservation level) for which the option values are defined and should be enumerated. 
 
 
 ### -param ResumeHandle [in, out]
@@ -86,7 +86,7 @@ To retrieve all the option values for the default user and vendor class at the s
 
 ### -param OptionValues [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_value_array">DHCP_OPTION_VALUE_ARRAY</a> structure that contains the enumerated option values returned for the specified scope. If there are no option values available for this scope on the DHCP server, this parameter will return null.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_value_array">DHCP_OPTION_VALUE_ARRAY</a> structure that contains the enumerated option values returned for the specified scope. If there are no option values available for this scope on the DHCP server, this parameter will return null.
 
 
 ### -param OptionsRead [out]
@@ -176,7 +176,7 @@ The specified DHCPv4 client is not an IPv4 reserved client.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_value_array">DHCP_OPTION_VALUE_ARRAY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_value_array">DHCP_OPTION_VALUE_ARRAY</a>
 
 
 

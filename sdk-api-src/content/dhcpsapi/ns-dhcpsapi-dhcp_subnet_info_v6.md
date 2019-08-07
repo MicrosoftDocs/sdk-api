@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: cd60f9d0-3ac3-4661-aefe-ddb9052db3e1
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_SUBNET_INFO_V6, *PDHCP_SUBNET_INFO_V6, DHCP_SUBNET_INFO_V6, DHCP_SUBNET_INFO_V6 structure [DHCP], PDHCP_SUBNET_INFO_V6, PDHCP_SUBNET_INFO_V6 structure pointer [DHCP], dhcp.dhcp_subnet_info_v6, dhcpsapi/DHCP_SUBNET_INFO_V6, dhcpsapi/PDHCP_SUBNET_INFO_V6"
+ms.keywords: '*LPDHCP_SUBNET_INFO_V6, *PDHCP_SUBNET_INFO_V6, DHCP_SUBNET_INFO_V6, DHCP_SUBNET_INFO_V6 structure [DHCP], PDHCP_SUBNET_INFO_V6, PDHCP_SUBNET_INFO_V6 structure pointer [DHCP], dhcp.dhcp_subnet_info_v6, dhcpsapi/DHCP_SUBNET_INFO_V6, dhcpsapi/PDHCP_SUBNET_INFO_V6'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_SUBNET_INFO_V6"
+f1_keywords:
+- dhcpsapi/DHCP_SUBNET_INFO_V6
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_SUBNET_INFO_V6
+- DHCP_SUBNET_INFO_V6
 product: Windows
 targetos: Windows
 req.typenames: DHCP_SUBNET_INFO_V6, *PDHCP_SUBNET_INFO_V6, *LPDHCP_SUBNET_INFO_V6
@@ -62,7 +62,7 @@ The <b>DHCP_SUBNET_INFO_V6</b> structure contains information about an IPv6 subn
 ### -field SubnetAddress
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> structure containing the IPv6 prefix.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> structure containing the IPv6 prefix.
 
 
 ### -field Prefix
@@ -87,7 +87,7 @@ Pointer to a null-terminated Unicode string that contains an optional comment fo
 
 ### -field State
 
-An enumeration of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_subnet_state">DHCP_SUBNET_STATE</a> that indicates the current state of the IPv6 prefix.
+An enumeration of the <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_subnet_state">DHCP_SUBNET_STATE</a> that indicates the current state of the IPv6 prefix.
 
 
 ### -field ScopeId
@@ -100,7 +100,7 @@ A <b>DWORD</b> value that serves as the unique identifier for the IPv6 prefix. T
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a>
  
 
  

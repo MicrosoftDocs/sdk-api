@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 825a0e64-b0c2-453e-8e00-52f84c40bef3
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_SCAN_FLAG, DHCP_SCAN_FLAG, DHCP_SCAN_FLAG enumeration [DHCP], DhcpDatabaseFix, DhcpRegistryFix, LPDHCP_SCAN_FLAG, LPDHCP_SCAN_FLAG enumeration pointer [DHCP], dhcp.dhcp_scan_flag, dhcpsapi/DHCP_SCAN_FLAG, dhcpsapi/DhcpDatabaseFix, dhcpsapi/DhcpRegistryFix, dhcpsapi/LPDHCP_SCAN_FLAG"
+ms.keywords: '*LPDHCP_SCAN_FLAG, DHCP_SCAN_FLAG, DHCP_SCAN_FLAG enumeration [DHCP], DhcpDatabaseFix, DhcpRegistryFix, LPDHCP_SCAN_FLAG, LPDHCP_SCAN_FLAG enumeration pointer [DHCP], dhcp.dhcp_scan_flag, dhcpsapi/DHCP_SCAN_FLAG, dhcpsapi/DhcpDatabaseFix, dhcpsapi/DhcpRegistryFix, dhcpsapi/LPDHCP_SCAN_FLAG'
 ms.topic: enum
-f1_keywords: 
- - "dhcpsapi/DHCP_SCAN_FLAG"
+f1_keywords:
+- dhcpsapi/DHCP_SCAN_FLAG
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_SCAN_FLAG
+- DHCP_SCAN_FLAG
 product: Windows
 targetos: Windows
 req.typenames: DHCP_SCAN_FLAG, *LPDHCP_SCAN_FLAG
@@ -74,7 +74,7 @@ Indicates that the client lease database on the DHCPv4 server does not contain t
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_scan_item">DHCP_SCAN_ITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_scan_item">DHCP_SCAN_ITEM</a>
 
 
 

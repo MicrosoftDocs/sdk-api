@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMActivate, DRMActivate function [Active Directory Rights Management Services SDK 1.0], DRM_ACTIVATE_CANCEL, DRM_ACTIVATE_DELAYED, DRM_ACTIVATE_GROUPIDENTITY, DRM_ACTIVATE_MACHINE, DRM_ACTIVATE_SHARED_GROUPIDENTITY, DRM_ACTIVATE_SILENT, DRM_ACTIVATE_TEMPORARY, msdrm/DRMActivate, rm.drmactivate
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMActivate"
+f1_keywords:
+- msdrm/DRMActivate
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMActivate
+- DRMActivate
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -174,7 +174,7 @@ There are several options in activation.<table>
 </tr>
 <tr>
 <td>Silent or nonsilent</td>
-<td>Nonsilent activation is the default. Silent activation is specified by <b>DRM_ACTIVATE_SILENT</b> and is required for machine activation.  If silent activation is specified and <i>pActServInfo</i> is not <b>NULL</b>, the function creates and sends an activation request to the URL specified in the <b>wszURL</b> member of <i>pActServInfo</i>. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/ns-msdrmdefs-_drm_actserv_info">DRM_ACTSERV_INFO</a>.</td>
+<td>Nonsilent activation is the default. Silent activation is specified by <b>DRM_ACTIVATE_SILENT</b> and is required for machine activation.  If silent activation is specified and <i>pActServInfo</i> is not <b>NULL</b>, the function creates and sends an activation request to the URL specified in the <b>wszURL</b> member of <i>pActServInfo</i>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/msdrmdefs/ns-msdrmdefs-drm_actserv_info">DRM_ACTSERV_INFO</a>.</td>
 </tr>
 <tr>
 <td>Windows or Windows Live ID</td>

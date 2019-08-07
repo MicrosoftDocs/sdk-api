@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClusterNotifyV2, GetClusterNotifyV2 function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NOTIFY_V2, PCLUSAPI_GET_CLUSTER_NOTIFY_V2 function [Failover Cluster], clusapi/GetClusterNotifyV2, clusapi/PCLUSAPI_GET_CLUSTER_NOTIFY_V2, mscs.getclusternotifyv2
 ms.topic: function
-f1_keywords: 
- - "clusapi/GetClusterNotifyV2"
+f1_keywords:
+- clusapi/GetClusterNotifyV2
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
- - GetClusterNotifyV2
+- GetClusterNotifyV2
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ A pointer to the notification key for the notification port.
 
 ### -param pFilterAndType [in, out, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_notify_filter_and_type">NOTIFY_FILTER_AND_TYPE</a> 
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-notify_filter_and_type">NOTIFY_FILTER_AND_TYPE</a> 
       structure that describes the next notification event for the notification port.
 
 

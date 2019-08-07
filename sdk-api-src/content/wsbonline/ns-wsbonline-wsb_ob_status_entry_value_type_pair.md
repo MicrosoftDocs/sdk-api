@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR, WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR structure [Windows Server Backup], wsb.wsb_ob_status_entry_value_type_pair, wsbonline/WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
 ms.topic: struct
-f1_keywords: 
- - "wsbonline/WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR"
+f1_keywords:
+- wsbonline/WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsbOnline.h
+- WsbOnline.h
 api_name:
- - WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
+- WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
 product: Windows
 targetos: Windows
 req.typenames: WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
- The <b>WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR</b> structure contains the value and value type for a parameter used to expand the value resource string in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbonline/ns-wsbonline-_wsb_ob_status_entry">WSB_OB_STATUS_ENTRY</a> structure.
+ The <b>WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR</b> structure contains the value and value type for a parameter used to expand the value resource string in the <a href="https://docs.microsoft.com/windows/desktop/api/wsbonline/ns-wsbonline-wsb_ob_status_entry">WSB_OB_STATUS_ENTRY</a> structure.
 
 
 ## -struct-fields
@@ -78,7 +78,7 @@ Specifies the type of the value for the parameter.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbonline/ne-wsbonline-_wsb_ob_status_entry_pair_type">WSB_OB_STATUS_ENTRY_PAIR_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsbonline/ne-wsbonline-wsb_ob_status_entry_pair_type">WSB_OB_STATUS_ENTRY_PAIR_TYPE</a>
  
 
  

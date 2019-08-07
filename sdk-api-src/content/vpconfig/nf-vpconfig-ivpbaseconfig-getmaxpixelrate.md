@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMaxPixelRate, GetMaxPixelRate method [DirectShow], GetMaxPixelRate method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetMaxPixelRate method, IVPBaseConfig.GetMaxPixelRate, IVPBaseConfig::GetMaxPixelRate, IVPBaseConfigGetMaxPixelRate, dshow.ivpbaseconfig_getmaxpixelrate, vpconfig/IVPBaseConfig::GetMaxPixelRate
 ms.topic: method
-f1_keywords: 
- - "vpconfig/IVPBaseConfig.GetMaxPixelRate"
+f1_keywords:
+- vpconfig/IVPBaseConfig.GetMaxPixelRate
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vpconfig.h
+- Vpconfig.h
 api_name:
- - IVPBaseConfig.GetMaxPixelRate
+- IVPBaseConfig.GetMaxPixelRate
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ The <code>GetMaxPixelRate</code> method retrieves the maximum pixel rate the dev
 
 ### -param pamvpSize [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vptype/ns-vptype-_amvpsize">AMVPSIZE</a> structure containing the desired width and height.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vptype/ns-vptype-amvpsize">AMVPSIZE</a> structure containing the desired width and height.
 
 
 ### -param pdwMaxPixelsPerSecond [out]

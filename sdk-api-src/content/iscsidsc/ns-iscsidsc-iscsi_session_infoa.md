@@ -8,10 +8,10 @@ tech.root: iSCSIDisc
 ms.assetid: 5da4aa28-a630-41f2-abb2-5538c11242e6
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PISCSI_SESSION_INFOA, ISCSI_SESSION_INFO, ISCSI_SESSION_INFO structure [iSCSI Discovery Library API], ISCSI_SESSION_INFOA, ISCSI_SESSION_INFOW, PISCSI_SESSION_INFO, PISCSI_SESSION_INFO structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_session_info, iscsidsc/ISCSI_SESSION_INFO, iscsidsc/ISCSI_SESSION_INFOA, iscsidsc/ISCSI_SESSION_INFOW, iscsidsc/PISCSI_SESSION_INFO"
+ms.keywords: '*PISCSI_SESSION_INFOA, ISCSI_SESSION_INFO, ISCSI_SESSION_INFO structure [iSCSI Discovery Library API], ISCSI_SESSION_INFOA, ISCSI_SESSION_INFOW, PISCSI_SESSION_INFO, PISCSI_SESSION_INFO structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_session_info, iscsidsc/ISCSI_SESSION_INFO, iscsidsc/ISCSI_SESSION_INFOA, iscsidsc/ISCSI_SESSION_INFOW, iscsidsc/PISCSI_SESSION_INFO'
 ms.topic: struct
-f1_keywords: 
- - "iscsidsc/ISCSI_SESSION_INFO"
+f1_keywords:
+- iscsidsc/ISCSI_SESSION_INFO
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iscsidsc.h
+- Iscsidsc.h
 api_name:
- - ISCSI_SESSION_INFO
- - ISCSI_SESSION_INFOA
- - ISCSI_SESSION_INFOW
+- ISCSI_SESSION_INFO
+- ISCSI_SESSION_INFOA
+- ISCSI_SESSION_INFOW
 product: Windows
 targetos: Windows
 req.typenames: ISCSI_SESSION_INFOA, *PISCSI_SESSION_INFOA
@@ -63,7 +63,7 @@ The <b>ISCSI_SESSION_INFO</b> structure contains session information.
 
 ### -field SessionId
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> structure containing a unique identifier that represents the session.
+A <a href="https://docs.microsoft.com/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> structure containing a unique identifier that represents the session.
 
 
 ### -field InitiatorName
@@ -114,7 +114,7 @@ A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/des
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
  
 
  

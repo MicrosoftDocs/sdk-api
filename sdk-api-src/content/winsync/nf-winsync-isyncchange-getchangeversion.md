@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetChangeVersion, GetChangeVersion method [Windows Sync], GetChangeVersion method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetChangeVersion method, ISyncChange.GetChangeVersion, ISyncChange::GetChangeVersion, winsync.isyncchange_getchangeversion, winsync/ISyncChange::GetChangeVersion
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChange.GetChangeVersion"
+f1_keywords:
+- winsync/ISyncChange.GetChangeVersion
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChange.GetChangeVersion
+- ISyncChange.GetChangeVersion
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Gets the version that is associated with this change.
 
 ### -param pbCurrentReplicaId [in]
 
-The ID of the replica that owns this change. The ID format must match the format that is specified by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_id_parameters">ID_PARAMETERS</a> property of the provider.
+The ID of the replica that owns this change. The ID format must match the format that is specified by the <a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS</a> property of the provider.
 
 
 ### -param pVersion [out]
@@ -162,7 +162,7 @@ The item has change units.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_sync_version">SYNC VERSION Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC VERSION Structure</a>
  
 
  

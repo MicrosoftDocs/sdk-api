@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Dhcpv6RenewPrefix, Dhcpv6RenewPrefix function [DHCP], dhcp.dhcpv6renewprefix, dhcpv6csdk/Dhcpv6RenewPrefix
 ms.topic: function
-f1_keywords: 
- - "dhcpv6csdk/Dhcpv6RenewPrefix"
+f1_keywords:
+- dhcpv6csdk/Dhcpv6RenewPrefix
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpcsvc6.lib
 req.dll: Dhcpcsvc6.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpcsvc6.dll
+- Dhcpcsvc6.dll
 api_name:
- - Dhcpv6RenewPrefix
+- Dhcpv6RenewPrefix
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,14 +66,14 @@ Name of the adapter on which the prefix renewal must be sent.
 
 ### -param pclassId [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-_dhcpv6capi_classid">DHCPV6CAPI_CLASSID</a> structure that contains the binary ClassId information to send on the wire.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6capi_classid">DHCPV6CAPI_CLASSID</a> structure that contains the binary ClassId information to send on the wire.
 
 <div class="alert"><b>Note</b>  DHCPv6 Option Code 15 (0x000F) is not supported by this API. Typically, the User Class option is used by a client to identify the type or category of user or application it represents. A server selects the configuration information for the client based on the classes identified in this option.</div>
 <div> </div>
 
 ### -param prefixleaseInfo [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-_dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> structure that contains the prefix lease information.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> structure that contains the prefix lease information.
 
 
 ### -param pdwTimeToWait [out]

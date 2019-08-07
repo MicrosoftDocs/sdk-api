@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 3145befc-9274-4719-9cd7-1f6426a86fba
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY structure [DHCP], PDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, PDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY structure pointer [DHCP], dhcp.dhcp_client_filter_status_info_array, dhcpsapi/DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, dhcpsapi/PDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY"
+ms.keywords: '*LPDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY structure [DHCP], PDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, PDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY structure pointer [DHCP], dhcp.dhcp_client_filter_status_info_array, dhcpsapi/DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, dhcpsapi/PDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY"
+f1_keywords:
+- dhcpsapi/DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY
+- DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY
 product: Windows
 targetos: Windows
 req.typenames: DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, *LPDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY
@@ -69,7 +69,7 @@ Integer value that contains the number of DHCPv4 clients in the subsequent field
 
 ### -field Clients
 
-Pointer to an array of  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_filter_status_info">DHCP_CLIENT_FILTER_STATUS_INFO</a> structures that contain the DHCPv4 clients'  information.
+Pointer to an array of  <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_filter_status_info">DHCP_CLIENT_FILTER_STATUS_INFO</a> structures that contain the DHCPv4 clients'  information.
 
 
 
@@ -91,7 +91,7 @@ Pointer to an array of  <a href="https://docs.microsoft.com/previous-versions/wi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_filter_status_info">DHCP_CLIENT_FILTER_STATUS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_filter_status_info">DHCP_CLIENT_FILTER_STATUS_INFO</a>
  
 
  

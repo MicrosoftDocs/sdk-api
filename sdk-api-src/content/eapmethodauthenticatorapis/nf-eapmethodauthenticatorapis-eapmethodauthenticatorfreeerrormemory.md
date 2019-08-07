@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorFreeErrorMemory, EapMethodAuthenticatorFreeErrorMemory function [EAPHost], eaphost.eapmethodauthenticatorfreeerrormemory, eapmethodauthenticatorapis/EapMethodAuthenticatorFreeErrorMemory
 ms.topic: function
-f1_keywords: 
- - "eapmethodauthenticatorapis/EapMethodAuthenticatorFreeErrorMemory"
+f1_keywords:
+- eapmethodauthenticatorapis/EapMethodAuthenticatorFreeErrorMemory
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - eapmethodauthenticatorapis.h
+- eapmethodauthenticatorapis.h
 api_name:
- - EapMethodAuthenticatorFreeErrorMemory
+- EapMethodAuthenticatorFreeErrorMemory
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Releases error-specific memory allocated by the EAP authenticator method.
 
 ### -param pEapError [in]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains the error data to free.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains the error data to free.
 
 
 ## -see-also

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateReport, CreateReport method [File Server Resource Manager], CreateReport method [File Server Resource Manager],IFsrmReportJob interface, IFsrmReportJob interface [File Server Resource Manager],CreateReport method, IFsrmReportJob.CreateReport, IFsrmReportJob::CreateReport, fs.ifsrmreportjob_createreport, fsrm.ifsrmreportjob_createreport, fsrmreports/IFsrmReportJob::CreateReport
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmReportJob.CreateReport"
+f1_keywords:
+- fsrmreports/IFsrmReportJob.CreateReport
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReportJob.CreateReport
+- IFsrmReportJob.CreateReport
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Creates a new report object of the specified type.
 
 ### -param reportType [in]
 
-Type of report to generate. For possible values, see the<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmreporttype">FsrmReportType</a> enumeration.
+Type of report to generate. For possible values, see the<a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmreporttype">FsrmReportType</a> enumeration.
 
 Note that the job can contain only one report of each type.
 

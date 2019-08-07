@@ -8,10 +8,10 @@ tech.root: ics
 ms.assetid: b5f1b85d-3538-4be3-b97b-f9207cc7063b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PINET_FIREWALL_AC_CHANGE, INET_FIREWALL_AC_CHANGE, INET_FIREWALL_AC_CHANGE structure [ICS/ICF], PINET_FIREWALL_AC_CHANGE, PINET_FIREWALL_AC_CHANGE structure pointer [ICS/ICF], _INET_FIREWALL_AC_CHANGE, ics.inet_firewall_ac_change, networkisolation/INET_FIREWALL_AC_CHANGE, networkisolation/PINET_FIREWALL_AC_CHANGE"
+ms.keywords: '*PINET_FIREWALL_AC_CHANGE, INET_FIREWALL_AC_CHANGE, INET_FIREWALL_AC_CHANGE structure [ICS/ICF], PINET_FIREWALL_AC_CHANGE, PINET_FIREWALL_AC_CHANGE structure pointer [ICS/ICF], _INET_FIREWALL_AC_CHANGE, ics.inet_firewall_ac_change, networkisolation/INET_FIREWALL_AC_CHANGE, networkisolation/PINET_FIREWALL_AC_CHANGE'
 ms.topic: struct
-f1_keywords: 
- - "netfw/INET_FIREWALL_AC_CHANGE"
+f1_keywords:
+- netfw/INET_FIREWALL_AC_CHANGE
 req.header: netfw.h
 req.include-header: Netfw.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - networkisolation.h
+- networkisolation.h
 api_name:
- - INET_FIREWALL_AC_CHANGE
+- INET_FIREWALL_AC_CHANGE
 product: Windows
 targetos: Windows
 req.typenames: INET_FIREWALL_AC_CHANGE, *PINET_FIREWALL_AC_CHANGE
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ne-netfw-_inet_firewall_ac_change_type">INET_FIREWALL_AC_CHANGE</a> structure contains information about a change made to an app container.
+The <a href="https://docs.microsoft.com/windows/desktop/api/netfw/ne-netfw-inet_firewall_ac_change_type">INET_FIREWALL_AC_CHANGE</a> structure contains information about a change made to an app container.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ne
 
 ### -field changeType
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ne-netfw-_inet_firewall_ac_change_type">INET_FIREWALL_AC_CHANGE_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/netfw/ne-netfw-inet_firewall_ac_change_type">INET_FIREWALL_AC_CHANGE_TYPE</a></b>
 
 The type of change made.
 
@@ -103,7 +103,7 @@ Information about the capabilities of the changed app container.
 
 ### -field binaries
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ns-netfw-_inet_firewall_ac_binaries">INET_FIREWALL_AC_BINARIES</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/netfw/ns-netfw-inet_firewall_ac_binaries">INET_FIREWALL_AC_BINARIES</a></b>
 
 Binary paths to the applications running in the changed app container.
 
@@ -113,7 +113,7 @@ Binary paths to the applications running in the changed app container.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ns-netfw-_inet_firewall_ac_binaries">INET_FIREWALL_AC_BINARIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/ns-netfw-inet_firewall_ac_binaries">INET_FIREWALL_AC_BINARIES</a>
 
 
 
@@ -121,7 +121,7 @@ Binary paths to the applications running in the changed app container.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ne-netfw-_inet_firewall_ac_change_type">INET_FIREWALL_AC_CHANGE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/ne-netfw-inet_firewall_ac_change_type">INET_FIREWALL_AC_CHANGE_TYPE</a>
 
 
 

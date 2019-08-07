@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpServerCalloutEntry, LPDHCP_ENTRY_POINT_FUNC, LPDHCP_ENTRY_POINT_FUNC callback, LPDHCP_ENTRY_POINT_FUNC callback function [DHCP], _dhcp_dhcpservercalloutentry, dhcp.dhcpservercalloutentry, dhcpssdk/LPDHCP_ENTRY_POINT_FUNC
 ms.topic: callback
-f1_keywords: 
- - "dhcpssdk/LPDHCP_ENTRY_POINT_FUNC"
+f1_keywords:
+- dhcpssdk/LPDHCP_ENTRY_POINT_FUNC
 req.header: dhcpssdk.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Dhcpssdk.h
+- Dhcpssdk.h
 api_name:
- - LPDHCP_ENTRY_POINT_FUNC
+- LPDHCP_ENTRY_POINT_FUNC
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ Version of the DHCP Server API that the third-party DLL is expected to support. 
 ### -param CalloutTbl [out]
 
 Cumulative set of notification hooks requested by all third-party DLLs, in the form of a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpssdk/ns-dhcpssdk-_dhcp_callout_table">DHCP_CALLOUT_TABLE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpssdk/ns-dhcpssdk-dhcp_callout_table">DHCP_CALLOUT_TABLE</a> structure.
 
 
 ## -returns
@@ -116,7 +116,7 @@ The initially loaded third-party DLL is responsible for maintaining a table of c
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpssdk/ns-dhcpssdk-_dhcp_callout_table">DHCP_CALLOUT_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpssdk/ns-dhcpssdk-dhcp_callout_table">DHCP_CALLOUT_TABLE</a>
 
 
 

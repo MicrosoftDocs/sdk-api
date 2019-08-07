@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],ProjectOntoRange method, ISyncKnowledge.ProjectOntoRange, ISyncKnowledge::ProjectOntoRange, ProjectOntoRange, ProjectOntoRange method [Windows Sync], ProjectOntoRange method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_projectontorange, winsync/ISyncKnowledge::ProjectOntoRange
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncKnowledge.ProjectOntoRange"
+f1_keywords:
+- winsync/ISyncKnowledge.ProjectOntoRange
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncKnowledge.ProjectOntoRange
+- ISyncKnowledge.ProjectOntoRange
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -122,7 +122,7 @@ The method succeeded.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_sync_range">SYNC_RANGE Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_range">SYNC_RANGE Structure</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: netshell
 ms.assetid: dc0d6449-f635-417c-8363-51e61c417051
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCMD_GROUP_ENTRY, CMD_GROUP_ENTRY, CMD_GROUP_ENTRY structure [NetShell], PCMD_GROUP_ENTRY, PCMD_GROUP_ENTRY structure pointer [NetShell], _netsh_cmd_group_entry, netsh/CMD_GROUP_ENTRY, netsh/PCMD_GROUP_ENTRY, netshell.cmd_group_entry"
+ms.keywords: '*PCMD_GROUP_ENTRY, CMD_GROUP_ENTRY, CMD_GROUP_ENTRY structure [NetShell], PCMD_GROUP_ENTRY, PCMD_GROUP_ENTRY structure pointer [NetShell], _netsh_cmd_group_entry, netsh/CMD_GROUP_ENTRY, netsh/PCMD_GROUP_ENTRY, netshell.cmd_group_entry'
 ms.topic: struct
-f1_keywords: 
- - "netsh/CMD_GROUP_ENTRY"
+f1_keywords:
+- netsh/CMD_GROUP_ENTRY
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netsh.h
+- Netsh.h
 api_name:
- - CMD_GROUP_ENTRY
+- CMD_GROUP_ENTRY
 product: Windows
 targetos: Windows
 req.typenames: CMD_GROUP_ENTRY, *PCMD_GROUP_ENTRY
@@ -144,7 +144,7 @@ static CMD_GROUP_ENTRY g_SampleGroupCmds[] =
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_cmd_entry">CMD_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netsh/ns-netsh-cmd_entry">CMD_ENTRY</a>
 
 
 

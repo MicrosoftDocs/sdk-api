@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetDrawBackgroundMode method, IAMWstDecoder.SetDrawBackgroundMode, IAMWstDecoder::SetDrawBackgroundMode, IAMWstDecoderSetDrawBackgroundMode, SetDrawBackgroundMode, SetDrawBackgroundMode method [DirectShow], SetDrawBackgroundMode method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setdrawbackgroundmode, iwstdec/IAMWstDecoder::SetDrawBackgroundMode
 ms.topic: method
-f1_keywords: 
- - "iwstdec/IAMWstDecoder.SetDrawBackgroundMode"
+f1_keywords:
+- iwstdec/IAMWstDecoder.SetDrawBackgroundMode
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMWstDecoder.SetDrawBackgroundMode
+- IAMWstDecoder.SetDrawBackgroundMode
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Downstream filters use the <code>SetDrawBackgroundMode</code> method to assign w
 
 ### -param Mode [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/ne-iwstdec-_am_wst_drawbgmode">AM_WST_DRAWBGMODE</a> enumeration that specifies whether the caption text background is to be opaque or transparent.
+A member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-am_wst_drawbgmode">AM_WST_DRAWBGMODE</a> enumeration that specifies whether the caption text background is to be opaque or transparent.
 
 <table>
 <tr>

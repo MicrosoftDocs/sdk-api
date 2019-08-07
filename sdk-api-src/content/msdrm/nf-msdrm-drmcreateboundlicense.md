@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMCreateBoundLicense, DRMCreateBoundLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateBoundLicense, rm.drmcreateboundlicense
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMCreateBoundLicense"
+f1_keywords:
+- msdrm/DRMCreateBoundLicense
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMCreateBoundLicense
+- DRMCreateBoundLicense
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ A handle to an environment; the handle is created by using the <a href="https://
 
 ### -param pParams [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/ns-msdrmdefs-_drmboundlicenseparams">DRMBOUNDLICENSEPARAMS</a> structure that specifies additional options; for more information, see the Remarks section. The principal specified here is the one the application will try to bind to. If you pass in <b>NULL</b> to identify the principal or rights group, the first principal or rights group in the license will be used.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msdrmdefs/ns-msdrmdefs-drmboundlicenseparams">DRMBOUNDLICENSEPARAMS</a> structure that specifies additional options; for more information, see the Remarks section. The principal specified here is the one the application will try to bind to. If you pass in <b>NULL</b> to identify the principal or rights group, the first principal or rights group in the license will be used.
 
 
 ### -param wszLicenseChain [in]
@@ -108,7 +108,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-Calling this function binds a license to the right or rights specified in the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/ns-msdrmdefs-_drmboundlicenseparams">DRMBOUNDLICENSEPARAMS</a> structure passed to the <i>pParams</i> parameter. If any right requested cannot be exercised by the current user, the function will fail. Note also that you must call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmsetmetadata">DRMSetMetaData</a> and specify a value for the <i>wszContentId</i> parameter before calling this function and that this value must be the same as the ID set in the <b>DRMBOUNDLICENSEPARAMS</b> structure or the function will fail.
+Calling this function binds a license to the right or rights specified in the  <a href="https://docs.microsoft.com/windows/desktop/api/msdrmdefs/ns-msdrmdefs-drmboundlicenseparams">DRMBOUNDLICENSEPARAMS</a> structure passed to the <i>pParams</i> parameter. If any right requested cannot be exercised by the current user, the function will fail. Note also that you must call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmsetmetadata">DRMSetMetaData</a> and specify a value for the <i>wszContentId</i> parameter before calling this function and that this value must be the same as the ID set in the <b>DRMBOUNDLICENSEPARAMS</b> structure or the function will fail.
 
 If the function succeeds, it returns a handle to the bound license that can be examined, and also allows an application to exercise the bound right. This function does not decrement metered rights. Decrementing metered rights upon use is the responsibility of the application.
 
@@ -149,7 +149,7 @@ The handle returned by this function can be passed into one of the following fun
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/ns-msdrmdefs-_drmboundlicenseparams">DRMBOUNDLICENSEPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msdrmdefs/ns-msdrmdefs-drmboundlicenseparams">DRMBOUNDLICENSEPARAMS</a>
  
 
  

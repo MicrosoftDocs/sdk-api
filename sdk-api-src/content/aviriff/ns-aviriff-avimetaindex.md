@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIMETAINDEX, AVIMETAINDEX structure [DirectShow], AVI_INDEX_IS_DATA, AVI_INDEX_OF_CHUNKS, AVI_INDEX_OF_INDEXES, aviriff/AVIMETAINDEX, dshow.avimetaindex
 ms.topic: struct
-f1_keywords: 
- - "aviriff/AVIMETAINDEX"
+f1_keywords:
+- aviriff/AVIMETAINDEX
 req.header: aviriff.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - aviriff.h
+- aviriff.h
 api_name:
- - AVIMETAINDEX
+- AVIMETAINDEX
 product: Windows
 targetos: Windows
 req.typenames: AVIMETAINDEX
@@ -109,7 +109,7 @@ Each index entry points to another index. Treat the <b>AVIMETAINDEX</b> structur
 Each index entry points to a data chunk in the file. 
 
 <ul>
-<li>If <b>bIndexSubType</b> is 0,  treat the <b>AVIMETAINDEX</b> structure as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avistdindex">AVISTDINDEX</a> structure. Each index entry is an <a href="https://docs.microsoft.com/windows/desktop/api/aviriff/ns-aviriff-_avistdindex_entry">AVISTDINDEX_ENTRY</a> structure.</li>
+<li>If <b>bIndexSubType</b> is 0,  treat the <b>AVIMETAINDEX</b> structure as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avistdindex">AVISTDINDEX</a> structure. Each index entry is an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avistdindex_entry">AVISTDINDEX_ENTRY</a> structure.</li>
 <li>If <b>bIndexSubType</b> is <b>AVI_INDEX_SUB_2FIELD</b>, the index is a field index chunk.<div class="alert"><b>Note</b>  DirectShow does not support field indexes.</div>
 <div> </div>
 </li>

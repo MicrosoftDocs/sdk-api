@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 2A084E80-92F8-43F5-89C8-22F08CE449E9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_POL_COND_ARRAY, *PDHCP_POL_COND_ARRAY, DHCP_POL_COND_ARRAY, DHCP_POL_COND_ARRAY structure [DHCP], LPDHCP_POL_COND_ARRAY, LPDHCP_POL_COND_ARRAY structure pointer [DHCP], PDHCP_POL_COND_ARRAY, PDHCP_POL_COND_ARRAY structure pointer [DHCP], dhcp.dhcp_pol_cond_array, dhcpsapi/DHCP_POL_COND_ARRAY, dhcpsapi/LPDHCP_POL_COND_ARRAY, dhcpsapi/PDHCP_POL_COND_ARRAY"
+ms.keywords: '*LPDHCP_POL_COND_ARRAY, *PDHCP_POL_COND_ARRAY, DHCP_POL_COND_ARRAY, DHCP_POL_COND_ARRAY structure [DHCP], LPDHCP_POL_COND_ARRAY, LPDHCP_POL_COND_ARRAY structure pointer [DHCP], PDHCP_POL_COND_ARRAY, PDHCP_POL_COND_ARRAY structure pointer [DHCP], dhcp.dhcp_pol_cond_array, dhcpsapi/DHCP_POL_COND_ARRAY, dhcpsapi/LPDHCP_POL_COND_ARRAY, dhcpsapi/PDHCP_POL_COND_ARRAY'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_POL_COND_ARRAY"
+f1_keywords:
+- dhcpsapi/DHCP_POL_COND_ARRAY
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dhcpsapi.h
+- dhcpsapi.h
 api_name:
- - DHCP_POL_COND_ARRAY
+- DHCP_POL_COND_ARRAY
 product: Windows
 targetos: Windows
 req.typenames: DHCP_POL_COND_ARRAY, *PDHCP_POL_COND_ARRAY, *LPDHCP_POL_COND_ARRAY
@@ -66,7 +66,7 @@ Integer that specifies the number of DHCP server policy conditions in <i>Element
 
 ### -field Elements
 
-Pointer to a list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_pol_cond">DHCP_POL_COND</a>  structures.
+Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_pol_cond">DHCP_POL_COND</a>  structures.
 
 
 ### -field Elements.size_is

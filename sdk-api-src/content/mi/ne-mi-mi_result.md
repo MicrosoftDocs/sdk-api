@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_RESULT_ACCESS_DENIED, MI_RESULT_ALREADY_EXISTS, MI_RESULT_CLASS_HAS_CHILDREN, MI_RESULT_CLASS_HAS_INSTANCES, MI_RESULT_CONTINUATION_ON_ERROR_NOT_SUPPORTED, MI_RESULT_FAILED, MI_RESULT_FILTERED_ENUMERATION_NOT_SUPPORTED, MI_RESULT_INVALID_CLASS, MI_RESULT_INVALID_ENUMERATION_CONTEXT, MI_RESULT_INVALID_NAMESPACE, MI_RESULT_INVALID_OPERATION_TIMEOUT, MI_RESULT_INVALID_PARAMETER, MI_RESULT_INVALID_QUERY, MI_RESULT_INVALID_SUPERCLASS, MI_RESULT_METHOD_NOT_AVAILABLE, MI_RESULT_METHOD_NOT_FOUND, MI_RESULT_NAMESPACE_NOT_EMPTY, MI_RESULT_NOT_FOUND, MI_RESULT_NOT_SUPPORTED, MI_RESULT_NO_SUCH_PROPERTY, MI_RESULT_OK, MI_RESULT_PULL_CANNOT_BE_ABANDONED, MI_RESULT_PULL_HAS_BEEN_ABANDONED, MI_RESULT_QUERY_LANGUAGE_NOT_SUPPORTED, MI_RESULT_SERVER_IS_SHUTTING_DOWN, MI_RESULT_SERVER_LIMITS_EXCEEDED, MI_RESULT_TYPE_MISMATCH, MI_Result, MI_Result enumeration [Windows Management Infrastructure (MI)], _MI_Result, _MI_Result enumeration [Windows Management Infrastructure (MI)], mi/MI_RESULT_ACCESS_DENIED, mi/MI_RESULT_ALREADY_EXISTS, mi/MI_RESULT_CLASS_HAS_CHILDREN, mi/MI_RESULT_CLASS_HAS_INSTANCES, mi/MI_RESULT_CONTINUATION_ON_ERROR_NOT_SUPPORTED, mi/MI_RESULT_FAILED, mi/MI_RESULT_FILTERED_ENUMERATION_NOT_SUPPORTED, mi/MI_RESULT_INVALID_CLASS, mi/MI_RESULT_INVALID_ENUMERATION_CONTEXT, mi/MI_RESULT_INVALID_NAMESPACE, mi/MI_RESULT_INVALID_OPERATION_TIMEOUT, mi/MI_RESULT_INVALID_PARAMETER, mi/MI_RESULT_INVALID_QUERY, mi/MI_RESULT_INVALID_SUPERCLASS, mi/MI_RESULT_METHOD_NOT_AVAILABLE, mi/MI_RESULT_METHOD_NOT_FOUND, mi/MI_RESULT_NAMESPACE_NOT_EMPTY, mi/MI_RESULT_NOT_FOUND, mi/MI_RESULT_NOT_SUPPORTED, mi/MI_RESULT_NO_SUCH_PROPERTY, mi/MI_RESULT_OK, mi/MI_RESULT_PULL_CANNOT_BE_ABANDONED, mi/MI_RESULT_PULL_HAS_BEEN_ABANDONED, mi/MI_RESULT_QUERY_LANGUAGE_NOT_SUPPORTED, mi/MI_RESULT_SERVER_IS_SHUTTING_DOWN, mi/MI_RESULT_SERVER_LIMITS_EXCEEDED, mi/MI_RESULT_TYPE_MISMATCH, mi/MI_Result, wmi._mi_result, wmi_v2.mi_result
 ms.topic: enum
-f1_keywords: 
- - "mi/_MI_Result"
+f1_keywords:
+- mi/_MI_Result
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - _MI_Result
+- _MI_Result
 product: Windows
 targetos: Windows
 req.typenames: MI_Result
@@ -72,7 +72,7 @@ A general error occurred, not covered by a more specific error code.
 ### -field MI_RESULT_ACCESS_DENIED
 
 Access to a CIM resource is not available to the client. Reasons for this might be not having enough permissions to access the requested resources while carrying out the operation, 
-or calling APIs with inconsistent identities. An example of the latter would be creating an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_session">MI_Session</a> with one identity while trying to carry out an operation on the same session with a different identity.
+or calling APIs with inconsistent identities. An example of the latter would be creating an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_session">MI_Session</a> with one identity while trying to carry out an operation on the same session with a different identity.
 
 
 ### -field MI_RESULT_INVALID_NAMESPACE

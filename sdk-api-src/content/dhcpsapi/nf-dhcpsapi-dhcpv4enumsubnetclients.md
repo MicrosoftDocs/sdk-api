@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4EnumSubnetClients, DhcpV4EnumSubnetClients function [DHCP], dhcp.dhcpv4enumsubnetclients, dhcpsapi/DhcpV4EnumSubnetClients
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpV4EnumSubnetClients"
+f1_keywords:
+- dhcpsapi/DhcpV4EnumSubnetClients
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpV4EnumSubnetClients
+- DhcpV4EnumSubnetClients
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,7 +82,7 @@ The maximum number of bytes of client records to return in <i>ClientInfo</i>. Th
 
 ### -param ClientInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_pb_array">DHCP_CLIENT_INFO_PB_ARRAY</a> structure that contains the DHCP client lease records set available for the specified subnet.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_pb_array">DHCP_CLIENT_INFO_PB_ARRAY</a> structure that contains the DHCP client lease records set available for the specified subnet.
 
 
 ### -param ClientsRead [out]

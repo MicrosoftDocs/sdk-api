@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpServerSetConfig, DhcpServerSetConfig function [DHCP], Set_APIProtocolSupport, Set_BackupInterval, Set_BackupPath, Set_DatabaseCleanupInterval, Set_DatabaseLoggingFlag, Set_DatabaseName, Set_DatabasePath, Set_RestoreFlag, Set_Set_DebugFlag, dhcp.dhcpserversetconfig, dhcpsapi/DhcpServerSetConfig
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpServerSetConfig"
+f1_keywords:
+- dhcpsapi/DhcpServerSetConfig
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpServerSetConfig
+- DhcpServerSetConfig
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 
 ### -param FieldsToSet [in]
 
-Specifies a set of bit flags that indicate which fields in <i>ConfigInfo</i> are set. If a flag is present, the corresponding field must also be populated in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_server_config_info">DHCP_SERVER_CONFIG_INFO</a> structure referenced by <i>ConfigInfo</i>, and will be used to set the same value on the DHCP server,
+Specifies a set of bit flags that indicate which fields in <i>ConfigInfo</i> are set. If a flag is present, the corresponding field must also be populated in the <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info">DHCP_SERVER_CONFIG_INFO</a> structure referenced by <i>ConfigInfo</i>, and will be used to set the same value on the DHCP server,
 
 <table>
 <tr>
@@ -179,7 +179,7 @@ The <b>DebugFlag</b> field is populated.
 ### -param ConfigInfo [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_server_config_info">DHCP_SERVER_CONFIG_INFO</a> structure that contains the specific configuration information to set on the DHCP server, as indicated by the flags specified in <i>FieldsToSet</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info">DHCP_SERVER_CONFIG_INFO</a> structure that contains the specific configuration information to set on the DHCP server, as indicated by the flags specified in <i>FieldsToSet</i>.
 
 
 ## -returns
@@ -212,7 +212,7 @@ The DHCPv4 server must be restarted for the following settings to be effective:<
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_server_config_info">DHCP_SERVER_CONFIG_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info">DHCP_SERVER_CONFIG_INFO</a>
 
 
 

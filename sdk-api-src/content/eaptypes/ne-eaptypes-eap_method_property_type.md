@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_PROPERTY_TYPE, EAP_METHOD_PROPERTY_TYPE enumeration [EAPHost], eaphost.eap_method_property_type, eaptypes/EAP_METHOD_PROPERTY_TYPE, eaptypes/emptLegacyMethodPropertyFlag, eaptypes/emptPropCertifiedMethod, eaptypes/emptPropChannelBinding, eaptypes/emptPropCipherSuiteNegotiation, eaptypes/emptPropConfidentiality, eaptypes/emptPropCryptoBinding, eaptypes/emptPropDictionaryAttackResistance, eaptypes/emptPropFastReconnect, eaptypes/emptPropFragmentation, eaptypes/emptPropHiddenMethod, eaptypes/emptPropIdentityPrivacy, eaptypes/emptPropIntegrity, eaptypes/emptPropKeyDerivation, eaptypes/emptPropKeyStrength1024, eaptypes/emptPropKeyStrength128, eaptypes/emptPropKeyStrength256, eaptypes/emptPropKeyStrength512, eaptypes/emptPropKeyStrength64, eaptypes/emptPropMachineAuth, eaptypes/emptPropMethodChaining, eaptypes/emptPropMppeEncryption, eaptypes/emptPropMutualAuth, eaptypes/emptPropNap, eaptypes/emptPropReplayProtection, eaptypes/emptPropSessionIndependence, eaptypes/emptPropSharedStateEquivalence, eaptypes/emptPropStandalone, eaptypes/emptPropSupportsConfig, eaptypes/emptPropTunnelMethod, eaptypes/emptPropUserAuth, eaptypes/emptPropVendorSpecific, emptLegacyMethodPropertyFlag, emptPropCertifiedMethod, emptPropChannelBinding, emptPropCipherSuiteNegotiation, emptPropConfidentiality, emptPropCryptoBinding, emptPropDictionaryAttackResistance, emptPropFastReconnect, emptPropFragmentation, emptPropHiddenMethod, emptPropIdentityPrivacy, emptPropIntegrity, emptPropKeyDerivation, emptPropKeyStrength1024, emptPropKeyStrength128, emptPropKeyStrength256, emptPropKeyStrength512, emptPropKeyStrength64, emptPropMachineAuth, emptPropMethodChaining, emptPropMppeEncryption, emptPropMutualAuth, emptPropNap, emptPropReplayProtection, emptPropSessionIndependence, emptPropSharedStateEquivalence, emptPropStandalone, emptPropSupportsConfig, emptPropTunnelMethod, emptPropUserAuth, emptPropVendorSpecific
 ms.topic: enum
-f1_keywords: 
- - "eaptypes/EAP_METHOD_PROPERTY_TYPE"
+f1_keywords:
+- eaptypes/EAP_METHOD_PROPERTY_TYPE
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - EapTypes.h
+- EapTypes.h
 api_name:
- - EAP_METHOD_PROPERTY_TYPE
+- EAP_METHOD_PROPERTY_TYPE
 product: Windows
 targetos: Windows
 req.typenames: EAP_METHOD_PROPERTY_TYPE
@@ -228,11 +228,11 @@ String property method for specifying any vendor-specific property of the EAP me
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property">EAP_METHOD_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property">EAP_METHOD_PROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eap_method_property_value_type">EAP_METHOD_PROPERTY_VALUE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eap_method_property_value_type">EAP_METHOD_PROPERTY_VALUE_TYPE</a>
  
 
  

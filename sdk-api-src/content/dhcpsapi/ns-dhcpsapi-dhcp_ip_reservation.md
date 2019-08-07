@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 35d7ebc7-790b-4453-a9d4-b485f0adac46
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_IP_RESERVATION, DHCP_IP_RESERVATION, DHCP_IP_RESERVATION structure [DHCP], LPDHCP_IP_RESERVATION, LPDHCP_IP_RESERVATION structure pointer [DHCP], dhcp.dhcp_ip_reservation, dhcpsapi/LPDHCP_IP_RESERVATION, dhcpsapi/_DHCP_IP_RESERVATION"
+ms.keywords: '*LPDHCP_IP_RESERVATION, DHCP_IP_RESERVATION, DHCP_IP_RESERVATION structure [DHCP], LPDHCP_IP_RESERVATION, LPDHCP_IP_RESERVATION structure pointer [DHCP], dhcp.dhcp_ip_reservation, dhcpsapi/LPDHCP_IP_RESERVATION, dhcpsapi/_DHCP_IP_RESERVATION'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_IP_RESERVATION"
+f1_keywords:
+- dhcpsapi/DHCP_IP_RESERVATION
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_IP_RESERVATION
+- DHCP_IP_RESERVATION
 product: Windows
 targetos: Windows
 req.typenames: DHCP_IP_RESERVATION, *LPDHCP_IP_RESERVATION
@@ -68,7 +68,7 @@ The <b>DHCP_IP_RESERVATION</b> structure defines a client IP reservation.
 ### -field ReservedForClient
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_binary_data">DHCP_CLIENT_UID</a> structure that contains information on the client holding this IP reservation.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_CLIENT_UID</a> structure that contains information on the client holding this IP reservation.
 
 
 ## -see-also
@@ -76,7 +76,7 @@ The <b>DHCP_IP_RESERVATION</b> structure defines a client IP reservation.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_binary_data">DHCP_CLIENT_UID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_CLIENT_UID</a>
 
 
 
@@ -84,7 +84,7 @@ The <b>DHCP_IP_RESERVATION</b> structure defines a client IP reservation.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_reservation_v4">DHCP_IP_RESERVATION_V4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_reservation_v4">DHCP_IP_RESERVATION_V4</a>
  
 
  

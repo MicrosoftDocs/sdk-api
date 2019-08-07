@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_AddDestinationCredentials, MI_DestinationOptions_AddDestinationCredentials function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_AddDestinationCredentials, wmi_v2.mi_destinationoptions_adddestinationcredentials
 ms.topic: function
-f1_keywords: 
- - "mi/MI_DestinationOptions_AddDestinationCredentials"
+f1_keywords:
+- mi/MI_DestinationOptions_AddDestinationCredentials
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_DestinationOptions_AddDestinationCredentials
+- MI_DestinationOptions_AddDestinationCredentials
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,12 +61,12 @@ Sets the credentials for talking to the destination.
 
 ### -param options [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_destinationoptions">MI_DestinationOptions</a> structure that contains the destination options.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a> structure that contains the destination options.
 
 
 ### -param credentials [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_usercredentials">MI_UserCredentials</a> structure that contains the credentials used when communicating with the destination machine.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_usercredentials">MI_UserCredentials</a> structure that contains the credentials used when communicating with the destination machine.
 
 
 ## -returns

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMaxAvailableFrameRate, GetMaxAvailableFrameRate method [DirectShow], GetMaxAvailableFrameRate method [DirectShow],IAMVideoControl interface, IAMVideoControl interface [DirectShow],GetMaxAvailableFrameRate method, IAMVideoControl.GetMaxAvailableFrameRate, IAMVideoControl::GetMaxAvailableFrameRate, IAMVideoControlGetMaxAvailableFrameRate, dshow.iamvideocontrol_getmaxavailableframerate, strmif/IAMVideoControl::GetMaxAvailableFrameRate
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMVideoControl.GetMaxAvailableFrameRate"
+f1_keywords:
+- strmif/IAMVideoControl.GetMaxAvailableFrameRate
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoControl.GetMaxAvailableFrameRate
+- IAMVideoControl.GetMaxAvailableFrameRate
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -105,7 +105,7 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_video_stream_config_caps">VIDEO_STREAM_CONFIG_CAPS Structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps">VIDEO_STREAM_CONFIG_CAPS Structure</a>
  
 
  

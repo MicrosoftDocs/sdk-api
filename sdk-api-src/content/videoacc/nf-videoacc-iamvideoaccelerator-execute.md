@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Execute, Execute method [DirectShow], Execute method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],Execute method, IAMVideoAccelerator.Execute, IAMVideoAccelerator::Execute, IAMVideoAcceleratorExecute, dshow.iamvideoaccelerator_execute, videoacc/IAMVideoAccelerator::Execute
 ms.topic: method
-f1_keywords: 
- - "videoacc/IAMVideoAccelerator.Execute"
+f1_keywords:
+- videoacc/IAMVideoAccelerator.Execute
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoAccelerator.Execute
+- IAMVideoAccelerator.Execute
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -97,7 +97,7 @@ Number of elements in the <i>pamvaBufferInfo</i> array.
 
 ### -param pamvaBufferInfo [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/amva/ns-amva-_tag_amvabufferinfo">AMVABUFFERINFO</a> structures.
+Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amva/ns-amva-amvabufferinfo">AMVABUFFERINFO</a> structures.
           
 
 

@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: d891b82a-999e-4d59-a676-a90648e17699
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PADDRESS_LIST_DESCRIPTOR, ADDRESS_LIST_DESCRIPTOR, ADDRESS_LIST_DESCRIPTOR structure [QOS], PADDRESS_LIST_DESCRIPTOR, PADDRESS_LIST_DESCRIPTOR structure pointer [QOS], _gqos_address_list_descriptor, qos.address_list_descriptor, traffic/ADDRESS_LIST_DESCRIPTOR, traffic/PADDRESS_LIST_DESCRIPTOR"
+ms.keywords: '*PADDRESS_LIST_DESCRIPTOR, ADDRESS_LIST_DESCRIPTOR, ADDRESS_LIST_DESCRIPTOR structure [QOS], PADDRESS_LIST_DESCRIPTOR, PADDRESS_LIST_DESCRIPTOR structure pointer [QOS], _gqos_address_list_descriptor, qos.address_list_descriptor, traffic/ADDRESS_LIST_DESCRIPTOR, traffic/PADDRESS_LIST_DESCRIPTOR'
 ms.topic: struct
-f1_keywords: 
- - "traffic/ADDRESS_LIST_DESCRIPTOR"
+f1_keywords:
+- traffic/ADDRESS_LIST_DESCRIPTOR
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Traffic.h
+- Traffic.h
 api_name:
- - ADDRESS_LIST_DESCRIPTOR
+- ADDRESS_LIST_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.typenames: ADDRESS_LIST_DESCRIPTOR, *PADDRESS_LIST_DESCRIPTOR
@@ -76,7 +76,7 @@ Pointer to the address list for the interface. The <b>NETWORK_ADDRESS_LIST</b> s
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
  
 
  

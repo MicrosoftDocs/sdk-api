@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumFileScreens, EnumFileScreens method [File Server Resource Manager], EnumFileScreens method [File Server Resource Manager],FsrmFileScreenManager class, EnumFileScreens method [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],EnumFileScreens method, IFsrmFileScreenManager interface [File Server Resource Manager],EnumFileScreens method, IFsrmFileScreenManager.EnumFileScreens, IFsrmFileScreenManager::EnumFileScreens, fs.ifsrmfilescreenmanager_enumfilescreens, fsrm.ifsrmfilescreenmanager_enumfilescreens, fsrmscreen/IFsrmFileScreenManager::EnumFileScreens
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenManager.EnumFileScreens"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenManager.EnumFileScreens
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenManager.EnumFileScreens
- - FsrmFileScreenManager.EnumFileScreens
+- IFsrmFileScreenManager.EnumFileScreens
+- FsrmFileScreenManager.EnumFileScreens
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ If path is null or empty, the method returns all file screens.
 
 ### -param options [in]
 
-The options to use when enumerating the file screens. For possible values, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmenumoptions">FsrmEnumOptions</a> enumeration.
+The options to use when enumerating the file screens. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmenumoptions">FsrmEnumOptions</a> enumeration.
 
 
 ### -param fileScreens [out]

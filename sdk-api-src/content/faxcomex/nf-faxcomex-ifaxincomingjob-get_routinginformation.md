@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingJob interface [Fax Service],RoutingInformation property, IFaxIncomingJob.RoutingInformation, IFaxIncomingJob.get_RoutingInformation, IFaxIncomingJob::RoutingInformation, IFaxIncomingJob::get_RoutingInformation, RoutingInformation property [Fax Service], RoutingInformation property [Fax Service],IFaxIncomingJob interface, _mfax_faxincomingjob.routinginformation, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_routinginformation_cpp, fax._mfax_faxincomingjob_routinginformation, faxcomex/IFaxIncomingJob::RoutingInformation, faxcomex/IFaxIncomingJob::get_RoutingInformation, get_RoutingInformation
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingJob.RoutingInformation"
+f1_keywords:
+- faxcomex/IFaxIncomingJob.RoutingInformation
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingJob.RoutingInformation
- - IFaxIncomingJob.get_RoutingInformation
- - IFaxIncomingJob.get_RoutingInformation
+- IFaxIncomingJob.RoutingInformation
+- IFaxIncomingJob.get_RoutingInformation
+- IFaxIncomingJob.get_RoutingInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-For more information about routing information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/ns-faxdev-_fax_dev_status">RoutingInfo</a> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/ns-faxdev-_fax_dev_status">FAX_DEV_STATUS</a> structure.
+For more information about routing information, see the <a href="https://docs.microsoft.com/windows/desktop/api/faxdev/ns-faxdev-fax_dev_status">RoutingInfo</a> member of the <a href="https://docs.microsoft.com/windows/desktop/api/faxdev/ns-faxdev-fax_dev_status">FAX_DEV_STATUS</a> structure.
 
 
 

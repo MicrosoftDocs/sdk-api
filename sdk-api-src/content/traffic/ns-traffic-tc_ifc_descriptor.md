@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: 0ab0a17e-4055-43ee-81fd-c23fcecb8cb6
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTC_IFC_DESCRIPTOR, PTC_IFC_DESCRIPTOR, PTC_IFC_DESCRIPTOR structure pointer [QOS], TC_IFC_DESCRIPTOR, TC_IFC_DESCRIPTOR structure [QOS], _gqos_tc_ifc_descriptor, qos.tc_ifc_descriptor, traffic/PTC_IFC_DESCRIPTOR, traffic/TC_IFC_DESCRIPTOR"
+ms.keywords: '*PTC_IFC_DESCRIPTOR, PTC_IFC_DESCRIPTOR, PTC_IFC_DESCRIPTOR structure pointer [QOS], TC_IFC_DESCRIPTOR, TC_IFC_DESCRIPTOR structure [QOS], _gqos_tc_ifc_descriptor, qos.tc_ifc_descriptor, traffic/PTC_IFC_DESCRIPTOR, traffic/TC_IFC_DESCRIPTOR'
 ms.topic: struct
-f1_keywords: 
- - "traffic/TC_IFC_DESCRIPTOR"
+f1_keywords:
+- traffic/TC_IFC_DESCRIPTOR
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Traffic.h
+- Traffic.h
 api_name:
- - TC_IFC_DESCRIPTOR
+- TC_IFC_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.typenames: TC_IFC_DESCRIPTOR, *PTC_IFC_DESCRIPTOR
@@ -87,7 +87,7 @@ Network address list descriptor.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
  
 
  

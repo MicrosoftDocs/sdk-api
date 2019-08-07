@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MP_PARAMINFO, MP_PARAMINFO structure [DirectShow], MP_PARAMINFOStructure, dshow.mp_paraminfo, medparam/MP_PARAMINFO
 ms.topic: struct
-f1_keywords: 
- - "medparam/MP_PARAMINFO"
+f1_keywords:
+- medparam/MP_PARAMINFO
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Medparam.h
+- Medparam.h
 api_name:
- - MP_PARAMINFO
+- MP_PARAMINFO
 product: Windows
 targetos: Windows
 req.typenames: MP_PARAMINFO
@@ -64,7 +64,7 @@ The <code>MP_PARAMINFO</code> structure contains information about a parameter.
 
 ### -field mpType
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/api/medparam/ne-medparam-_mp_type">MP_TYPE</a> enumeration that specifies the valid data type for this parameter.
+Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/medparam/ne-medparam-mp_type">MP_TYPE</a> enumeration that specifies the valid data type for this parameter.
 
 
 ### -field mopCaps

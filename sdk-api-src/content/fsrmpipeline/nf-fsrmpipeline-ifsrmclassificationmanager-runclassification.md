@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],RunClassification method, IFsrmClassificationManager interface [File Server Resource Manager],RunClassification method, IFsrmClassificationManager.RunClassification, IFsrmClassificationManager2 interface [File Server Resource Manager],RunClassification method, IFsrmClassificationManager2::RunClassification, IFsrmClassificationManager::RunClassification, RunClassification, RunClassification method [File Server Resource Manager], RunClassification method [File Server Resource Manager],FsrmClassificationManager class, RunClassification method [File Server Resource Manager],IFsrmClassificationManager interface, RunClassification method [File Server Resource Manager],IFsrmClassificationManager2 interface, fs.ifsrmclassificationmanager_runclassification, fsrm.ifsrmclassificationmanager_runclassification, fsrmpipeline/IFsrmClassificationManager2::RunClassification, fsrmpipeline/IFsrmClassificationManager::RunClassification
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassificationManager.RunClassification"
+f1_keywords:
+- fsrmpipeline/IFsrmClassificationManager.RunClassification
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassificationManager.RunClassification
- - IFsrmClassificationManager2.RunClassification
- - FsrmClassificationManager.RunClassification
+- IFsrmClassificationManager.RunClassification
+- IFsrmClassificationManager2.RunClassification
+- FsrmClassificationManager.RunClassification
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Runs classification rules and generates the classification report.
 ### -param context [in]
 
 Specifies the report subdirectory to which the classification report is written. For possible values, see 
-      the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmreportgenerationcontext">FsrmReportGenerationContext</a> enumeration. 
+      the <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmreportgenerationcontext">FsrmReportGenerationContext</a> enumeration. 
       To set the report directory, call the 
       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-setoutputdirectory">IFsrmReportManager::SetOutputDirectory</a> 
       method.

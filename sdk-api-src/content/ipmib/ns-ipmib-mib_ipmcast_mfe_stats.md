@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: 8e277c8d-db7a-4710-87af-ea5311123a71
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_IPMCAST_MFE_STATS, MIB_IPMCAST_MFE_STATS, MIB_IPMCAST_MFE_STATS structure [MIB], PMIB_IPMCAST_MFE_STATS, PMIB_IPMCAST_MFE_STATS structure pointer [MIB], _mpr_mib_ipmcast_mfe_stats, ipmib/MIB_IPMCAST_MFE_STATS, ipmib/PMIB_IPMCAST_MFE_STATS, iprtrmib/MIB_IPMCAST_MFE_STATS, iprtrmib/PMIB_IPMCAST_MFE_STATS, mib.mib_ipmcast_mfe_stats, rras.mib_ipmcast_mfe_stats"
+ms.keywords: '*PMIB_IPMCAST_MFE_STATS, MIB_IPMCAST_MFE_STATS, MIB_IPMCAST_MFE_STATS structure [MIB], PMIB_IPMCAST_MFE_STATS, PMIB_IPMCAST_MFE_STATS structure pointer [MIB], _mpr_mib_ipmcast_mfe_stats, ipmib/MIB_IPMCAST_MFE_STATS, ipmib/PMIB_IPMCAST_MFE_STATS, iprtrmib/MIB_IPMCAST_MFE_STATS, iprtrmib/PMIB_IPMCAST_MFE_STATS, mib.mib_ipmcast_mfe_stats, rras.mib_ipmcast_mfe_stats'
 ms.topic: struct
-f1_keywords: 
- - "ipmib/MIB_IPMCAST_MFE_STATS"
+f1_keywords:
+- ipmib/MIB_IPMCAST_MFE_STATS
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipmib.h
- - Iprtrmib.h
+- Ipmib.h
+- Iprtrmib.h
 api_name:
- - MIB_IPMCAST_MFE_STATS
+- MIB_IPMCAST_MFE_STATS
 product: Windows
 targetos: Windows
 req.typenames: MIB_IPMCAST_MFE_STATS, *PMIB_IPMCAST_MFE_STATS
@@ -178,7 +178,7 @@ The number of packets matching this MFE that were dropped due to a queue overflo
 Type: <b>MIB_IPMCAST_OIF_STATS[ANY_SIZE]</b>
 
 A pointer to a table of outgoing interface statistics that are implemented as an array of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_oif_stats_lh">MIB_IPMCAST_OIF_STATS</a> structures. The number of entries in the table is specified by the value of the <b>ulNumOutIf</b> member.
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_oif_stats_lh">MIB_IPMCAST_OIF_STATS</a> structures. The number of entries in the table is specified by the value of the <b>ulNumOutIf</b> member.
 
 
 ## -remarks
@@ -200,7 +200,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_oif_stats_lh">MIB_IPMCAST_OIF_STATS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_oif_stats_lh">MIB_IPMCAST_OIF_STATS</a>
  
 
  

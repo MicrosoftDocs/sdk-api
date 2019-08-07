@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Filter, MI_Filter structure [Windows Management Infrastructure (MI)], mi/MI_Filter, wmi._mi_filter, wmi_v2.mi_filter
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_Filter"
+f1_keywords:
+- mi/MI_Filter
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Filter
+- MI_Filter
 product: Windows
 targetos: Windows
 req.typenames: MI_Filter
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains a reference to the function table <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_filterft">MI_FilterFT</a>.
+Contains a reference to the function table <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_filterft">MI_FilterFT</a>.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Contains a reference to the function table <a href="https://docs.microsoft.com/p
 
 ### -field ft
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_filterft">MI_FilterFT</a> function table.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_filterft">MI_FilterFT</a> function table.
 
 
 ### -field reserved

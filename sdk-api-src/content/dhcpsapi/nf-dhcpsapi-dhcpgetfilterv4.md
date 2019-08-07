@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpGetFilterV4, DhcpGetFilterV4 function [DHCP], dhcp.dhcpgetfilterv4, dhcpsapi/DhcpGetFilterV4
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpGetFilterV4"
+f1_keywords:
+- dhcpsapi/DhcpGetFilterV4
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpGetFilterV4
+- DhcpGetFilterV4
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 
 ### -param GlobalFilterInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_filter_global_info">DHCP_FILTER_GLOBAL_INFO</a> structure that contains the enable/disable settings for the DHCPv6 server's allow/deny lists.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_filter_global_info">DHCP_FILTER_GLOBAL_INFO</a> structure that contains the enable/disable settings for the DHCPv6 server's allow/deny lists.
 
 
 ## -returns
@@ -113,7 +113,7 @@ An error occurred while accessing the DHCP server's database.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_filter_global_info">DHCP_FILTER_GLOBAL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_filter_global_info">DHCP_FILTER_GLOBAL_INFO</a>
  
 
  

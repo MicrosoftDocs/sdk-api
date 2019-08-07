@@ -8,10 +8,10 @@ tech.root: Tapi
 ms.assetid: e7bc5604-20eb-48d8-a857-df8962c6b2ae
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPLINECALLPARAMS, LINECALLPARAMS, LINECALLPARAMS structure [TAPI 2.2], LPLINECALLPARAMS, LPLINECALLPARAMS structure pointer [TAPI 2.2], _tapi2_linecallparams_str, tapi/LINECALLPARAMS, tapi/LPLINECALLPARAMS, tapi2.linecallparams_str"
+ms.keywords: '*LPLINECALLPARAMS, LINECALLPARAMS, LINECALLPARAMS structure [TAPI 2.2], LPLINECALLPARAMS, LPLINECALLPARAMS structure pointer [TAPI 2.2], _tapi2_linecallparams_str, tapi/LINECALLPARAMS, tapi/LPLINECALLPARAMS, tapi2.linecallparams_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINECALLPARAMS"
+f1_keywords:
+- tapi/LINECALLPARAMS
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINECALLPARAMS
+- LINECALLPARAMS
 product: Windows
 targetos: Windows
 req.typenames: LINECALLPARAMS, *LPLINECALLPARAMS
@@ -247,7 +247,7 @@ Size of the quality of service information, in bytes.
 ### -field dwSendingFlowspecOffset
 
 Offset from the beginning of the structure to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structure followed by WinSock provider-specific data, equivalent to what would have been stored in <b>SendingFlowspec</b> in a 
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure followed by WinSock provider-specific data, equivalent to what would have been stored in <b>SendingFlowspec</b> in a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure. Specifies the quality of service desired in the sending direction on the call. The provider-specific portion following the <b>FLOWSPEC</b> structure must not contain pointers to other blocks of memory, because TAPI does not know how to marshal the data pointed to by the private pointer(s) and convey it through interprocess communication to the application. The size of the field is specified by <b>dwSendingFlowspecSize</b>.
 
 
@@ -258,7 +258,7 @@ Size of the quality of service information, in bytes.
 
 ### -field dwReceivingFlowspecOffset
 
-Offset from the beginning of the structure to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structure followed by WinSock provider-specific data, equivalent to what would have been stored in <b>ReceivingFlowspec</b> in a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure. Specifies the quality of service desired in the receiving direction on the call. The provider-specific portion following the <b>FLOWSPEC</b> structure must not contain pointers to other blocks of memory, because TAPI does not know how to marshal the data pointed to by the private pointer(s) and convey it through interprocess communication to the application. The size of the field is specified by <b>dwReceivingFlowspecSize</b>.
+Offset from the beginning of the structure to a <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure followed by WinSock provider-specific data, equivalent to what would have been stored in <b>ReceivingFlowspec</b> in a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure. Specifies the quality of service desired in the receiving direction on the call. The provider-specific portion following the <b>FLOWSPEC</b> structure must not contain pointers to other blocks of memory, because TAPI does not know how to marshal the data pointed to by the private pointer(s) and convey it through interprocess communication to the application. The size of the field is specified by <b>dwReceivingFlowspecSize</b>.
 
 
 ### -field dwDeviceClassSize

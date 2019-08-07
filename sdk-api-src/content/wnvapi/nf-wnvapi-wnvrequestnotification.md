@@ -68,7 +68,7 @@ An object handle that is returned from a call to the <a href="https://docs.micro
 
 ### -param NotificationParam
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_notification_param">PWNV_NOTIFICATION_PARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_notification_param">PWNV_NOTIFICATION_PARAM</a></b>
 
 A pointer to the notification type for the request.
 
@@ -109,19 +109,19 @@ If the operation fails, the function returns one of the following system error c
 </dl>
 </td>
 <td width="60%">
-There is a problem with the <i>NotificationParam</i> parameter, in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_notification_param">WNV_NOTIFICATION_PARAM</a> structure's <b>Header</b> field:
+There is a problem with the <i>NotificationParam</i> parameter, in the <a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_notification_param">WNV_NOTIFICATION_PARAM</a> structure's <b>Header</b> field:
 
 <ul>
-<li>The major and minor version values of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_object_header">WNV_OBJECT_HEADER</a>   structure are incorrect</li>
-<li>The size specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_object_header">WNV_OBJECT_HEADER</a>   structure is smaller than at least one notification structure of these types:<ul>
+<li>The major and minor version values of the <a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_object_header">WNV_OBJECT_HEADER</a>   structure are incorrect</li>
+<li>The size specified in the <a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_object_header">WNV_OBJECT_HEADER</a>   structure is smaller than at least one notification structure of these types:<ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_object_change_param">WNV_OBJECT_CHANGE_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_object_change_param">WNV_OBJECT_CHANGE_PARAM</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_policy_mismatch_param">WNV_POLICY_MISMATCH_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_policy_mismatch_param">WNV_POLICY_MISMATCH_PARAM</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_redirect_param">WNV_REDIRECT_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_redirect_param">WNV_REDIRECT_PARAM</a>
 </li>
 </ul>
 </li>
@@ -140,7 +140,7 @@ There is a problem with the <i>NotificationParam</i> parameter, in the <a href="
 
 This function can be called synchronously or asynchronously.
 
-Three notification types are defined in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_notification_param">WNV_NOTIFICATION_PARAM</a> structure. Each call to this function can request only one type of notification. To receive multiple notification types, the process must make one call for each notification on the same handle. The WNV driver returns at least one notification of the type specified in each call when the notification events occur.
+Three notification types are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_notification_param">WNV_NOTIFICATION_PARAM</a> structure. Each call to this function can request only one type of notification. To receive multiple notification types, the process must make one call for each notification on the same handle. The WNV driver returns at least one notification of the type specified in each call when the notification events occur.
 
 
 

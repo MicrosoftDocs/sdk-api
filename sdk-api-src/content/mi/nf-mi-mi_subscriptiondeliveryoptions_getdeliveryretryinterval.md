@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval, MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval, wmi_v2.mi_subscriptiondeliveryoptions_getdeliveryretryinterval
 ms.topic: function
-f1_keywords: 
- - "mi/MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval"
+f1_keywords:
+- mi/MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval
+- MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ Gets the delivery retry interval—the amount of time to wait before retrying th
 ### -param self [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> structure
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> structure
 
 
 ### -param value [out]
@@ -74,7 +74,7 @@ Returned delivery retry interval.
 
 
 
-A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 

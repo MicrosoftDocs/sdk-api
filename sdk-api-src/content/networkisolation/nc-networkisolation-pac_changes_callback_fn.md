@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PAC_CHANGES_CALLBACK_FN, PAC_CHANGES_CALLBACK_FN callback, PAC_CHANGES_CALLBACK_FN callback function [ICS/ICF], ics.pac_changes_callback_fn, networkisolation/PAC_CHANGES_CALLBACK_FN
 ms.topic: callback
-f1_keywords: 
- - "networkisolation/PAC_CHANGES_CALLBACK_FN"
+f1_keywords:
+- networkisolation/PAC_CHANGES_CALLBACK_FN
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - networkisolation.h
+- networkisolation.h
 api_name:
- - PAC_CHANGES_CALLBACK_FN
+- PAC_CHANGES_CALLBACK_FN
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 
 ### -param *pChange [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ns-netfw-_inet_firewall_ac_change">INET_FIREWALL_AC_CHANGE</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/netfw/ns-netfw-inet_firewall_ac_change">INET_FIREWALL_AC_CHANGE</a>*</b>
 
 The app container change information.
 
@@ -96,7 +96,7 @@ Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/n
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ns-netfw-_inet_firewall_ac_change">INET_FIREWALL_AC_CHANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/ns-netfw-inet_firewall_ac_change">INET_FIREWALL_AC_CHANGE</a>
 
 
 

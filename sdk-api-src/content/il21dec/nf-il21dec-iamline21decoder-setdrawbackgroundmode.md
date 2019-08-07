@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMLine21Decoder interface [DirectShow],SetDrawBackgroundMode method, IAMLine21Decoder.SetDrawBackgroundMode, IAMLine21Decoder::SetDrawBackgroundMode, IAMLine21DecoderSetDrawBackgroundMode, SetDrawBackgroundMode, SetDrawBackgroundMode method [DirectShow], SetDrawBackgroundMode method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setdrawbackgroundmode, il21dec/IAMLine21Decoder::SetDrawBackgroundMode
 ms.topic: method
-f1_keywords: 
- - "il21dec/IAMLine21Decoder.SetDrawBackgroundMode"
+f1_keywords:
+- il21dec/IAMLine21Decoder.SetDrawBackgroundMode
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMLine21Decoder.SetDrawBackgroundMode
+- IAMLine21Decoder.SetDrawBackgroundMode
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ The <code>SetDrawBackgroundMode</code> method specifies whether the <a href="htt
 
 ### -param Mode
 
-Specifies a member of the <a href="https://docs.microsoft.com/windows/desktop/api/il21dec/ne-il21dec-_am_line21_drawbgmode">AM_LINE21_DRAWBGMODE</a> enumeration.
+Specifies a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/il21dec/ne-il21dec-am_line21_drawbgmode">AM_LINE21_DRAWBGMODE</a> enumeration.
 
 
 ## -returns

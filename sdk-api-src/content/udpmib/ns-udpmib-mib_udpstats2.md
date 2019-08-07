@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: A225E0E7-54FB-4655-9A45-F3EF6DA1FF4E
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_UDPSTATS2, MIB_UDPSTATS2, MIB_UDPSTATS2 structure [MIB], PMIB_UDPSTATS2, PMIB_UDPSTATS2 structure pointer [MIB], mib.mib_udpstats2, udpmib/MIB_UDPSTATS, udpmib/PMIB_UDPSTATS2"
+ms.keywords: '*PMIB_UDPSTATS2, MIB_UDPSTATS2, MIB_UDPSTATS2 structure [MIB], PMIB_UDPSTATS2, PMIB_UDPSTATS2 structure pointer [MIB], mib.mib_udpstats2, udpmib/MIB_UDPSTATS, udpmib/PMIB_UDPSTATS2'
 ms.topic: struct
-f1_keywords: 
- - "udpmib/MIB_UDPSTATS2"
+f1_keywords:
+- udpmib/MIB_UDPSTATS2
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - udpmib.h
+- udpmib.h
 api_name:
- - MIB_UDPSTATS2
+- MIB_UDPSTATS2
 product: Windows
 targetos: Windows
 req.typenames: MIB_UDPSTATS2, *PMIB_UDPSTATS2
@@ -54,7 +54,7 @@ ms.custom: 19H1
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The 
-<b>MIB_UDPSTATS2</b> structure contains statistics for the User Datagram Protocol (UDP) running on the local computer. This structure is different from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udpstats">MIB_UDPSTATS</a> structure in that it uses 64-bit counters, rather than 32-bit counters.
+<b>MIB_UDPSTATS2</b> structure contains statistics for the User Datagram Protocol (UDP) running on the local computer. This structure is different from <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udpstats">MIB_UDPSTATS</a> structure in that it uses 64-bit counters, rather than 32-bit counters.
 
 
 ## -struct-fields
@@ -110,7 +110,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udprow">MIB_UDPROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udprow">MIB_UDPROW</a>
  
 
  

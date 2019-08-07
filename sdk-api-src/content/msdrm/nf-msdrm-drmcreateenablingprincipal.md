@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMCreateEnablingPrincipal, DRMCreateEnablingPrincipal function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateEnablingPrincipal, rm.drmcreateenablingprincipal
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMCreateEnablingPrincipal"
+f1_keywords:
+- msdrm/DRMCreateEnablingPrincipal
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMCreateEnablingPrincipal
+- DRMCreateEnablingPrincipal
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -85,7 +85,7 @@ A pointer to a null-terminated Unicode string that specifies the enabling princi
 
 ### -param pidPrincipal [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/ns-msdrmdefs-_drmid">DRMID</a> structure that identifies the enabling principal. The <b>DRMID</b> members can be <b>NULL</b> to use the first principal in a license.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msdrmdefs/ns-msdrmdefs-drmid">DRMID</a> structure that identifies the enabling principal. The <b>DRMID</b> members can be <b>NULL</b> to use the first principal in a license.
 
 
 ### -param wszCredentials [in]
@@ -113,7 +113,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-The enabling principal this function creates is used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/ns-msdrmdefs-_drmboundlicenseparams">DRMBOUNDLICENSEPARAMS</a> structure passed into <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateboundlicense">DRMCreateBoundLicense</a>. Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmclosehandle">DRMCloseHandle</a> to close the enabling principal handle created by calling this function.
+The enabling principal this function creates is used in the <a href="https://docs.microsoft.com/windows/desktop/api/msdrmdefs/ns-msdrmdefs-drmboundlicenseparams">DRMBOUNDLICENSEPARAMS</a> structure passed into <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateboundlicense">DRMCreateBoundLicense</a>. Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmclosehandle">DRMCloseHandle</a> to close the enabling principal handle created by calling this function.
 
 
 

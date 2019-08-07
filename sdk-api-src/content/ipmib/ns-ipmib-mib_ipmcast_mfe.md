@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: 731e2c88-5c4f-4165-a9f2-287b4c10c76b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_IPMCAST_MFE, MIB_IPMCAST_MFE, MIB_IPMCAST_MFE structure [MIB], PMIB_IPMCAST_MFE, PMIB_IPMCAST_MFE structure pointer [MIB], _mpr_mib_ipmcast_mfe, ipmib/MIB_IPMCAST_MFE, ipmib/PMIB_IPMCAST_MFE, iprtrmib/MIB_IPMCAST_MFE, iprtrmib/PMIB_IPMCAST_MFE, mib.mib_ipmcast_mfe, rras.mib_ipmcast_mfe"
+ms.keywords: '*PMIB_IPMCAST_MFE, MIB_IPMCAST_MFE, MIB_IPMCAST_MFE structure [MIB], PMIB_IPMCAST_MFE, PMIB_IPMCAST_MFE structure pointer [MIB], _mpr_mib_ipmcast_mfe, ipmib/MIB_IPMCAST_MFE, ipmib/PMIB_IPMCAST_MFE, iprtrmib/MIB_IPMCAST_MFE, iprtrmib/PMIB_IPMCAST_MFE, mib.mib_ipmcast_mfe, rras.mib_ipmcast_mfe'
 ms.topic: struct
-f1_keywords: 
- - "ipmib/MIB_IPMCAST_MFE"
+f1_keywords:
+- ipmib/MIB_IPMCAST_MFE
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipmib.h
- - Iprtrmib.h
+- Ipmib.h
+- Iprtrmib.h
 api_name:
- - MIB_IPMCAST_MFE
+- MIB_IPMCAST_MFE
 product: Windows
 targetos: Windows
 req.typenames: MIB_IPMCAST_MFE, *PMIB_IPMCAST_MFE
@@ -171,7 +171,7 @@ Reserved. This member should be <b>NULL</b>.
 Type: <b>MIB_IPMCAST_OIF[ANY_SIZE]</b>
 
 A pointer to a table of outgoing interface statistics that are implemented as an array of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_oif_w2k">MIB_IPMCAST_OIF</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_oif_w2k">MIB_IPMCAST_OIF</a> structures.
 
 
 ## -remarks
@@ -195,11 +195,11 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_oif_w2k">MIB_IPMCAST_OIF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_oif_w2k">MIB_IPMCAST_OIF</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_mfe_table">MIB_MFE_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_mfe_table">MIB_MFE_TABLE</a>
 
 
 

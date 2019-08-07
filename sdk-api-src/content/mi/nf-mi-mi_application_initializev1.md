@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Application_Initialize, MI_Application_Initialize function [Windows Management Infrastructure (MI)], MI_Application_InitializeV1, MI_Application_InitializeV1 function [Windows Management Infrastructure (MI)], mi/MI_Application_Initialize, mi/MI_Application_InitializeV1, wmi_v2.mi_application_initialize
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Application_InitializeV1"
+f1_keywords:
+- mi/MI_Application_InitializeV1
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Mi.lib
 req.dll: Mi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mi.dll
- - Wmidcom.dll
- - WsmSvc.dll
+- Mi.dll
+- Wmidcom.dll
+- WsmSvc.dll
 api_name:
- - MI_Application_InitializeV1
- - MI_Application_Initialize
+- MI_Application_InitializeV1
+- MI_Application_Initialize
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -84,7 +84,7 @@ Optional parameter giving more error information if the operation failed. If an 
 
 ### -param application [out]
 
-A pointer to an uninitialized <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_application">MI_Application</a> 
+A pointer to an uninitialized <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_application">MI_Application</a> 
       handle is passed in and a populated handle is returned. The initialized handle must be passed to 
       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_close">MI_Application_Close</a> before the application 
   shuts down. If an application passes this handle, pass it by value rather than as a pointer.
@@ -105,7 +105,7 @@ This function returns MI_Result MI_MAIN_CALL.
 
 This API needs to be called only once per application; although, it can be called multiple times safely. 
     Calling this API multiple times will result in a small amount of extra memory usage.  When called, the application 
-    passes in an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_application">MI_Application</a> pointer to be initialized. 
+    passes in an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_application">MI_Application</a> pointer to be initialized. 
     This pointer must be closed by calling 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_close">MI_Application_Close</a>. Not doing so will cause 
     memory leaks and potential crashes during shutdown.

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],GetModuleDefinition method, GetModuleDefinition, GetModuleDefinition method [File Server Resource Manager], GetModuleDefinition method [File Server Resource Manager],FsrmClassificationManager class, GetModuleDefinition method [File Server Resource Manager],IFsrmClassificationManager interface, GetModuleDefinition method [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],GetModuleDefinition method, IFsrmClassificationManager.GetModuleDefinition, IFsrmClassificationManager2 interface [File Server Resource Manager],GetModuleDefinition method, IFsrmClassificationManager2::GetModuleDefinition, IFsrmClassificationManager::GetModuleDefinition, fs.ifsrmclassificationmanager_getmoduledefinition, fsrm.ifsrmclassificationmanager_getmoduledefinition, fsrmpipeline/IFsrmClassificationManager2::GetModuleDefinition, fsrmpipeline/IFsrmClassificationManager::GetModuleDefinition
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassificationManager.GetModuleDefinition"
+f1_keywords:
+- fsrmpipeline/IFsrmClassificationManager.GetModuleDefinition
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassificationManager.GetModuleDefinition
- - IFsrmClassificationManager2.GetModuleDefinition
- - FsrmClassificationManager.GetModuleDefinition
+- IFsrmClassificationManager.GetModuleDefinition
+- IFsrmClassificationManager2.GetModuleDefinition
+- FsrmClassificationManager.GetModuleDefinition
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ The name of the module to retrieve. Must not exceed 100 characters in length.
 ### -param moduleType [in]
 
 The type of the module to retrieve. For possible types, see the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpipelinemoduletype">FsrmPipelineModuleType</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpipelinemoduletype">FsrmPipelineModuleType</a> enumeration.
 
 
 ### -param moduleDefinition [out]

@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: 88b162d9-003c-42ce-8f82-91ee1aa9e32e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTC_GEN_FLOW, PTC_GEN_FLOW, PTC_GEN_FLOW structure pointer [QOS], TC_GEN_FLOW, TC_GEN_FLOW structure [QOS], _gqos_tc_gen_flow, qos.tc_gen_flow, traffic/PTC_GEN_FLOW, traffic/TC_GEN_FLOW"
+ms.keywords: '*PTC_GEN_FLOW, PTC_GEN_FLOW, PTC_GEN_FLOW structure pointer [QOS], TC_GEN_FLOW, TC_GEN_FLOW structure [QOS], _gqos_tc_gen_flow, qos.tc_gen_flow, traffic/PTC_GEN_FLOW, traffic/TC_GEN_FLOW'
 ms.topic: struct
-f1_keywords: 
- - "traffic/TC_GEN_FLOW"
+f1_keywords:
+- traffic/TC_GEN_FLOW
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Traffic.h
+- Traffic.h
 api_name:
- - TC_GEN_FLOW
+- TC_GEN_FLOW
 product: Windows
 targetos: Windows
 req.typenames: TC_GEN_FLOW, *PTC_GEN_FLOW
@@ -63,13 +63,13 @@ The
 ### -field SendingFlowspec
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structure for the sending direction of the flow.
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure for the sending direction of the flow.
 
 
 ### -field ReceivingFlowspec
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structure for the receiving direction of the flow.
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure for the receiving direction of the flow.
 
 
 ### -field TcObjectsLength
@@ -85,23 +85,23 @@ Buffer that contains an array of traffic control objects specific to the given f
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_ds_class">QOS_DS_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_ds_class">QOS_DS_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_traffic_class">QOS_TRAFFIC_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_traffic_class">QOS_TRAFFIC_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_diffserv">QOS_DIFFSERV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_qos_sd_mode">QOS_SD_MODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-qos_sd_mode">QOS_SD_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_qos_shaping_rate">QOS_SHAPING_RATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-qos_shaping_rate">QOS_SHAPING_RATE</a>
 
 
 QOS_OBJECT_END_OF_LIST
@@ -113,27 +113,27 @@ QOS_OBJECT_END_OF_LIST
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_diffserv">QOS_DIFFSERV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_ds_class">QOS_DS_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_ds_class">QOS_DS_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_qos_sd_mode">QOS_SD_MODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-qos_sd_mode">QOS_SD_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_qos_shaping_rate">QOS_SHAPING_RATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-qos_shaping_rate">QOS_SHAPING_RATE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_traffic_class">QOS_TRAFFIC_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_traffic_class">QOS_TRAFFIC_CLASS</a>
  
 
  

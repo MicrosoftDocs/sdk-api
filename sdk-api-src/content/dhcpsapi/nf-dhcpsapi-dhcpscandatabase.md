@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpScanDatabase, DhcpScanDatabase function [DHCP], dhcp.dhcpscandatabase, dhcpsapi/DhcpScanDatabase
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpScanDatabase"
+f1_keywords:
+- dhcpsapi/DhcpScanDatabase
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpScanDatabase
+- DhcpScanDatabase
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,13 +72,13 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 
 ### -param FixFlag [in]
 
-Specifies a set of bit flags that indicate whether the in-memory cache or the client lease database should be the definitive source for fixes when synchronizing the two on the DHCPv4 server. These flags are enumerated in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_scan_flag">DHCP_SCAN_FLAG</a>.
+Specifies a set of bit flags that indicate whether the in-memory cache or the client lease database should be the definitive source for fixes when synchronizing the two on the DHCPv4 server. These flags are enumerated in <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_scan_flag">DHCP_SCAN_FLAG</a>.
 
 
 ### -param ScanList [out]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_scan_list">DHCP_SCAN_LIST</a> structure that contains the returned list of leased client IP addresses that are not in sync.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_scan_list">DHCP_SCAN_LIST</a> structure that contains the returned list of leased client IP addresses that are not in sync.
 
 
 ## -returns
@@ -137,7 +137,7 @@ The specified subnet is not defined on the DHCPv4 server.
 
 Each  leased DHCPv4 client IPv4 address defined on a DHCPv4 server has an entry in both an in-memory store, which serves as a cache for speeding up lease retrieval, and in the client lease database proper. <b>DhcpScanDatabase</b> enumerates either the DHCPv4 client IPv4 addresses that are present in the in-memory store and are not present in the database, or those that are present in database but not present in the in-memory store.
 
-This process is necessary as the DHCPv4 server maintains an in-memory cache of frequently-accessed client leases used to improve performance, but it can become desynchronized relative to the server's persistent client lease database. Therefore, it is necessary to reconcile the two stores, and update either the in-memory version of a client lease IP address, or the client lease IP address stored in the database.  The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_scan_list">DHCP_SCAN_LIST</a> structure returned by this operation contains the "definitive" client leases as specified by the preferred location set in the <i>FixFlag</i> parameter.
+This process is necessary as the DHCPv4 server maintains an in-memory cache of frequently-accessed client leases used to improve performance, but it can become desynchronized relative to the server's persistent client lease database. Therefore, it is necessary to reconcile the two stores, and update either the in-memory version of a client lease IP address, or the client lease IP address stored in the database.  The <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_scan_list">DHCP_SCAN_LIST</a> structure returned by this operation contains the "definitive" client leases as specified by the preferred location set in the <i>FixFlag</i> parameter.
 
 
 
@@ -147,7 +147,7 @@ This process is necessary as the DHCPv4 server maintains an in-memory cache of f
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_scan_list">DHCP_SCAN_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_scan_list">DHCP_SCAN_LIST</a>
  
 
  

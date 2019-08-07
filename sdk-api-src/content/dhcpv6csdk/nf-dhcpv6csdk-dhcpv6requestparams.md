@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Dhcpv6RequestParams, Dhcpv6RequestParams function [DHCP], dhcp.dhcpv6requestparams, dhcpv6csdk/Dhcpv6RequestParams
 ms.topic: function
-f1_keywords: 
- - "dhcpv6csdk/Dhcpv6RequestParams"
+f1_keywords:
+- dhcpv6csdk/Dhcpv6RequestParams
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpcsvc6.lib
 req.dll: Dhcpcsvc6.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpcsvc6.dll
+- Dhcpcsvc6.dll
 api_name:
- - Dhcpv6RequestParams
+- Dhcpv6RequestParams
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,12 +76,12 @@ Name of the adapter for which this request is meant.  This parameter must not be
 
 ### -param classId
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-_dhcpv6capi_classid">DHCPV6CAPI_CLASSID</a> structure that contains the binary ClassId information to use to send on the wire.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6capi_classid">DHCPV6CAPI_CLASSID</a> structure that contains the binary ClassId information to use to send on the wire.
 
 
 ### -param recdParams
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-_dhcpv6capi_params_array">DHCPV6CAPI_PARAMS_ARRAY</a> structure that contains the parameters to be received from the DHCPV6 server.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6capi_params_array">DHCPV6CAPI_PARAMS_ARRAY</a> structure that contains the parameters to be received from the DHCPV6 server.
 
 
 ### -param buffer

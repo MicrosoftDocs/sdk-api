@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: de5fa8c5-5cd7-4358-bacd-f27f4b7f3761
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_SUBNET_ELEMENT_DATA_V6, DHCP_SUBNET_ELEMENT_DATA_V6, DHCP_SUBNET_ELEMENT_DATA_V6 structure [DHCP], PDHCP_SUBNET_ELEMENT_DATA_V6, PDHCP_SUBNET_ELEMENT_DATA_V6 structure pointer [DHCP], dhcp.dhcp_subnet_element_data_v6, dhcpsapi/DHCP_SUBNET_ELEMENT_DATA_V6, dhcpsapi/PDHCP_SUBNET_ELEMENT_DATA_V6"
+ms.keywords: '*LPDHCP_SUBNET_ELEMENT_DATA_V6, DHCP_SUBNET_ELEMENT_DATA_V6, DHCP_SUBNET_ELEMENT_DATA_V6 structure [DHCP], PDHCP_SUBNET_ELEMENT_DATA_V6, PDHCP_SUBNET_ELEMENT_DATA_V6 structure pointer [DHCP], dhcp.dhcp_subnet_element_data_v6, dhcpsapi/DHCP_SUBNET_ELEMENT_DATA_V6, dhcpsapi/PDHCP_SUBNET_ELEMENT_DATA_V6'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_SUBNET_ELEMENT_DATA_V6"
+f1_keywords:
+- dhcpsapi/DHCP_SUBNET_ELEMENT_DATA_V6
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_SUBNET_ELEMENT_DATA_V6
+- DHCP_SUBNET_ELEMENT_DATA_V6
 product: Windows
 targetos: Windows
 req.typenames: DHCP_SUBNET_ELEMENT_DATA_V6, *LPDHCP_SUBNET_ELEMENT_DATA_V6
@@ -121,17 +121,17 @@ A union of different IPv6 prefix element types. The value of this union is depen
 
 ### -field Element.IpRange
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_range_v6">DHCP_IP_RANGE_V6</a> structure that contains the IPv6 range for this IPv6 prefix.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_range_v6">DHCP_IP_RANGE_V6</a> structure that contains the IPv6 range for this IPv6 prefix.
 
 
 ### -field Element.ReservedIp
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_reservation_v6">DHCP_IP_RESERVATION_V6</a> structure that contains the IPv6 reservation information.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_reservation_v6">DHCP_IP_RESERVATION_V6</a> structure that contains the IPv6 reservation information.
 
 
 ### -field Element.ExcludeIpRange
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_range_v6">DHCP_IP_RANGE_V6</a> structure that contains the IPv6 exclusion range information.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_range_v6">DHCP_IP_RANGE_V6</a> structure that contains the IPv6 exclusion range information.
 
 
 ### -field _DHCP_SUBNET_ELEMENT_UNION_V6
@@ -150,11 +150,11 @@ Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/deskt
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_reservation_v6">DHCP_IP_RESERVATION_V6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_reservation_v6">DHCP_IP_RESERVATION_V6</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_data_v6">DHCP_SUBNET_ELEMENT_DATA_V6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data_v6">DHCP_SUBNET_ELEMENT_DATA_V6</a>
  
 
  

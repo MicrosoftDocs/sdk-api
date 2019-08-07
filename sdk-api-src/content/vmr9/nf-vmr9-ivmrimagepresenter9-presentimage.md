@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenter9 interface [DirectShow],PresentImage method, IVMRImagePresenter9.PresentImage, IVMRImagePresenter9::PresentImage, IVMRImagePresenter9PresentImage, PresentImage, PresentImage method [DirectShow], PresentImage method [DirectShow],IVMRImagePresenter9 interface, dshow.ivmrimagepresenter9_presentimage, vmr9/IVMRImagePresenter9::PresentImage
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRImagePresenter9.PresentImage"
+f1_keywords:
+- vmr9/IVMRImagePresenter9.PresentImage
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRImagePresenter9.PresentImage
+- IVMRImagePresenter9.PresentImage
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ An application-defined DWORD_PTR that uniquely identifies this instance of the V
 
 ### -param lpPresInfo [in]
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9presentationinfo">VMR9PresentationInfo</a> structure that contains information about the video frame.
+Specifies a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9presentationinfo">VMR9PresentationInfo</a> structure that contains information about the video frame.
 
 
 ## -returns

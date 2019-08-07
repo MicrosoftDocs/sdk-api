@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Session_Invoke, MI_Session_Invoke function [Windows Management Infrastructure (MI)], mi/MI_Session_Invoke, wmi_v2.mi_session_invoke
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Session_Invoke"
+f1_keywords:
+- mi/MI_Session_Invoke
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Session_Invoke
+- MI_Session_Invoke
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ Runtime type information (RTTI)
 
 ### -param options [in, optional]
 
-Optional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a> value that 
+Optional <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> value that 
       specifies options such as timeouts and how to control the CIM semantics. Specify <b>Null</b> 
       if no operation options are to be sent.
 
@@ -111,7 +111,7 @@ Inbound method properties. Each inbound property needs to be an element in the i
 
 ### -param callbacks [in, optional]
 
-Optional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationcallbacks">MI_OperationCallbacks</a> structure 
+Optional <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationcallbacks">MI_OperationCallbacks</a> structure 
       that defines the operational callbacks to receive the instance result and CIM semantics. To carry out the 
       operation asynchronously, the structure's <b>instanceResult</b> callback member must be 
       specified. If this member is not specified, then the client must call the 
@@ -152,7 +152,7 @@ Methods have return values that will be returned as a <i>ReturnValue</i> paramet
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationcallbacks">MI_OperationCallbacks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationcallbacks">MI_OperationCallbacks</a>
 
 
 

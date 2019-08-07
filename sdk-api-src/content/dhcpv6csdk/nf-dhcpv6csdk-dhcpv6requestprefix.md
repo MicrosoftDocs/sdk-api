@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Dhcpv6RequestPrefix, Dhcpv6RequestPrefix function [DHCP], dhcp.dhcpv6requestprefix, dhcpv6csdk/Dhcpv6RequestPrefix
 ms.topic: function
-f1_keywords: 
- - "dhcpv6csdk/Dhcpv6RequestPrefix"
+f1_keywords:
+- dhcpv6csdk/Dhcpv6RequestPrefix
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpcsvc6.lib
 req.dll: Dhcpcsvc6.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpcsvc6.dll
+- Dhcpcsvc6.dll
 api_name:
- - Dhcpv6RequestPrefix
+- Dhcpv6RequestPrefix
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,21 +66,21 @@ Name of the adapter on which the prefix request must be sent.
 
 ### -param pclassId [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-_dhcpv6capi_classid">DHCPV6CAPI_CLASSID</a> structure that contains the binary ClassId information to  send on the wire.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6capi_classid">DHCPV6CAPI_CLASSID</a> structure that contains the binary ClassId information to  send on the wire.
 
 <div class="alert"><b>Note</b>  DHCPv6 Option Code 15 (0x000F) is not supported by this API. Typically, the User Class option is used by a client to identify the type or category of user or application it represents. A server selects the configuration information for the client based on the classes identified in this option.</div>
 <div> </div>
 
 ### -param prefixleaseInfo [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-_dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> structure that contains the prefix lease information.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> structure that contains the prefix lease information.
 
-The following members of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-_dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> structure must follow these guidelines.
+The following members of the <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> structure must follow these guidelines.
 
 <table>
 <tr>
 <th>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-_dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> member</th>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> member</th>
 <th>Consideration</th>
 </tr>
 <tr>
@@ -101,7 +101,7 @@ The following members of the <a href="https://docs.microsoft.com/previous-versio
 </table>
  
 
-The caller must follow these considerations when assigning the values of the <b>nPrefixes</b>,  <b>iaid</b>, and <b>ServerIdLen</b> members of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-_dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> structure.  Based on these values, memory must also be  properly allocated to the <b>ServerId</b> and <b>PrefixArray</b> members before the <b>Dhcpv6RequestPrefix</b> function is called.
+The caller must follow these considerations when assigning the values of the <b>nPrefixes</b>,  <b>iaid</b>, and <b>ServerIdLen</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> structure.  Based on these values, memory must also be  properly allocated to the <b>ServerId</b> and <b>PrefixArray</b> members before the <b>Dhcpv6RequestPrefix</b> function is called.
 
 
 ### -param pdwTimeToWait [out]

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpGetClientInfoVQ, DhcpGetClientInfoVQ function [DHCP], dhcp.dhcpgetclientinfovq, dhcpsapi/DhcpGetClientInfoVQ
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpGetClientInfoVQ"
+f1_keywords:
+- dhcpsapi/DhcpGetClientInfoVQ
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpGetClientInfoVQ
+- DhcpGetClientInfoVQ
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/deskt
 
 ### -param ClientInfo [out]
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_vq">DHCP_CLIENT_INFO_VQ</a> structure returned by a successful search operation.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_vq">DHCP_CLIENT_INFO_VQ</a> structure returned by a successful search operation.
 
 
 ## -returns
@@ -117,7 +117,7 @@ An error occurred while accessing the DHCP server's database.
 
 
 
-The caller of this function must release the memory used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_vq">DHCP_CLIENT_INFO_VQ</a> structure returned in <i>ClientInfo</i>.
+The caller of this function must release the memory used by the <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_vq">DHCP_CLIENT_INFO_VQ</a> structure returned in <i>ClientInfo</i>.
 
 
 
@@ -127,7 +127,7 @@ The caller of this function must release the memory used by the <a href="https:/
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_vq">DHCP_CLIENT_INFO_VQ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_vq">DHCP_CLIENT_INFO_VQ</a>
 
 
 

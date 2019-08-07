@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpHandleOptionsHook, DhcpHandleOptionsHook callback function [DHCP], LPDHCP_HANDLE_OPTIONS, LPDHCP_HANDLE_OPTIONS callback, _dhcp_dhcphandleoptionshook, dhcp.dhcphandleoptionshook, dhcpssdk/DhcpHandleOptionsHook
 ms.topic: callback
-f1_keywords: 
- - "dhcpssdk/DhcpHandleOptionsHook"
+f1_keywords:
+- dhcpssdk/DhcpHandleOptionsHook
 req.header: dhcpssdk.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Dhcpssdk.h
+- Dhcpssdk.h
 api_name:
- - DhcpHandleOptionsHook
+- DhcpHandleOptionsHook
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -84,7 +84,7 @@ Context identifying the packet, as provided in the <i>PktContext</i> parameter o
 
 ### -param ServerOptions [in, out]
 
-Structure of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpssdk/ns-dhcpssdk-_dhcp_server_options">DHCP_SERVER_OPTIONS</a> containing the information parsed from the packet by Microsoft DHCP Server, and provided as the collection of commonly used server options.
+Structure of type <a href="https://docs.microsoft.com/windows/desktop/api/dhcpssdk/ns-dhcpssdk-dhcp_server_options">DHCP_SERVER_OPTIONS</a> containing the information parsed from the packet by Microsoft DHCP Server, and provided as the collection of commonly used server options.
 
 
 ## -returns
@@ -103,7 +103,7 @@ Return values are defined by the application providing the callback.
 The 
 <i>DhcpHandleOptionsHook</i> function is useful when developers of third-party DLLs want to avoid having to process an entire DHCP packet, and rather, could achieve the desired results by a set of commonly used server options. When third-party DLLs register for this event notification, the Microsoft DHCP Server parses the incoming packet, extracts commonly used server options, and passes them to the third-party DLL in the <i>ServerOptions</i> parameter.
 
-If the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpssdk/ns-dhcpssdk-_dhcp_server_options">DHCP_SERVER_OPTIONS</a> structure pointed to in <i>ServerOptions</i> is needed beyond the completion of the 
+If the <a href="https://docs.microsoft.com/windows/desktop/api/dhcpssdk/ns-dhcpssdk-dhcp_server_options">DHCP_SERVER_OPTIONS</a> structure pointed to in <i>ServerOptions</i> is needed beyond the completion of the 
 <i>DhcpHandleOptionsHook</i> function call, third-party DLLs must make a copy of the structure.
 
 The 
@@ -117,11 +117,11 @@ The
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpssdk/ns-dhcpssdk-_dhcp_callout_table">DHCP_CALLOUT_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpssdk/ns-dhcpssdk-dhcp_callout_table">DHCP_CALLOUT_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpssdk/ns-dhcpssdk-_dhcp_server_options">DHCP_SERVER_OPTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpssdk/ns-dhcpssdk-dhcp_server_options">DHCP_SERVER_OPTIONS</a>
 
 
 

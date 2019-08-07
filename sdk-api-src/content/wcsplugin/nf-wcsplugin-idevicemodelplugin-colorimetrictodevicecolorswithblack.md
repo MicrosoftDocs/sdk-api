@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ColorimetricToDeviceColorsWithBlack, ColorimetricToDeviceColorsWithBlack method [Windows Color System], ColorimetricToDeviceColorsWithBlack method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],ColorimetricToDeviceColorsWithBlack method, IDeviceModelPlugIn.ColorimetricToDeviceColorsWithBlack, IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack, _color_IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack, wcs.IDeviceModelPlugIn_ColorimetricToDeviceColorsWithBlack, wcsplugin/IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack
 ms.topic: method
-f1_keywords: 
- - "wcsplugin/IDeviceModelPlugIn.ColorimetricToDeviceColorsWithBlack"
+f1_keywords:
+- wcsplugin/IDeviceModelPlugIn.ColorimetricToDeviceColorsWithBlack
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WcsPlugIn.h
+- WcsPlugIn.h
 api_name:
- - IDeviceModelPlugIn.ColorimetricToDeviceColorsWithBlack
+- IDeviceModelPlugIn.ColorimetricToDeviceColorsWithBlack
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,7 +76,7 @@ A pointer to the array of outgoing <a href="wcs.gamut_map_model_color_structures
 
 ### -param pBlackInformation [in]
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/ns-wcsplugin-_blackinformation">BlackInformation</a>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wcsplugin/ns-wcsplugin-blackinformation">BlackInformation</a>.
 
 
 ### -param pDeviceValues [in]

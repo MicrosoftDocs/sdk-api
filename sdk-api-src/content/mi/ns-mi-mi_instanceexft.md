@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_InstanceExFT, MI_InstanceExFT structure [Windows Management Infrastructure (MI)], mi/MI_Instance_ExFT, wmi_v2.mi_instanceexft
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_InstanceExFT"
+f1_keywords:
+- mi/MI_InstanceExFT
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mi.h
+- mi.h
 api_name:
- - MI_InstanceExFT
+- MI_InstanceExFT
 product: Windows
 targetos: Windows
 req.typenames: MI_InstanceExFT
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extends the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instanceft">MI_InstanceFT</a> 
+Extends the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instanceft">MI_InstanceFT</a> 
     structure.
 
 
@@ -62,7 +62,7 @@ Extends the <a href="https://docs.microsoft.com/previous-versions/windows/deskto
 
 ### -field parent
 
-Parent <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instanceft">MI_InstanceFT</a> function table.
+Parent <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instanceft">MI_InstanceFT</a> function table.
 
 
 ### -field MI_Result
@@ -75,7 +75,7 @@ TBD
 #### - Normalize
 
 Parses the structure and returns the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instanceft">MI_InstanceFT</a> function table. See 
+       <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instanceft">MI_InstanceFT</a> function table. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_normalize">MI_Instance_Normalize</a>.
 
 

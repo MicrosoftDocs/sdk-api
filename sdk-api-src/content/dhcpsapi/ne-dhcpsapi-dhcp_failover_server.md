@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: a75a1132-3c49-44f1-a1f6-c98991ebb8c4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_FAILOVER_SERVER, DHCP_FAILOVER_SERVER, DHCP_FAILOVER_SERVER enumeration [DHCP], LPDHCP_FAILOVER_SERVER, LPDHCP_FAILOVER_SERVER enumeration pointer [DHCP], PrimaryServer, SecondaryServer, dhcp.dhcp_failover_server, dhcpsapi/DHCP_FAILOVER_SERVER, dhcpsapi/LPDHCP_FAILOVER_SERVER, dhcpsapi/PrimaryServer, dhcpsapi/SecondaryServer"
+ms.keywords: '*LPDHCP_FAILOVER_SERVER, DHCP_FAILOVER_SERVER, DHCP_FAILOVER_SERVER enumeration [DHCP], LPDHCP_FAILOVER_SERVER, LPDHCP_FAILOVER_SERVER enumeration pointer [DHCP], PrimaryServer, SecondaryServer, dhcp.dhcp_failover_server, dhcpsapi/DHCP_FAILOVER_SERVER, dhcpsapi/LPDHCP_FAILOVER_SERVER, dhcpsapi/PrimaryServer, dhcpsapi/SecondaryServer'
 ms.topic: enum
-f1_keywords: 
- - "dhcpsapi/DHCP_FAILOVER_SERVER"
+f1_keywords:
+- dhcpsapi/DHCP_FAILOVER_SERVER
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dhcpsapi.h
+- dhcpsapi.h
 api_name:
- - DHCP_FAILOVER_SERVER
+- DHCP_FAILOVER_SERVER
 product: Windows
 targetos: Windows
 req.typenames: DHCP_FAILOVER_SERVER, *LPDHCP_FAILOVER_SERVER
@@ -76,7 +76,7 @@ The server is a secondary server in the failover relationship.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_failover_relationship">DHCP_FAILOVER_RELATIONSHIP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_failover_relationship">DHCP_FAILOVER_RELATIONSHIP</a>
  
 
  

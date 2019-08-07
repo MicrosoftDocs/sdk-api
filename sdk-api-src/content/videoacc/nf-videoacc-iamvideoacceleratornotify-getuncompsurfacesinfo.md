@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUncompSurfacesInfo, GetUncompSurfacesInfo method [DirectShow], GetUncompSurfacesInfo method [DirectShow],IAMVideoAcceleratorNotify interface, IAMVideoAcceleratorNotify interface [DirectShow],GetUncompSurfacesInfo method, IAMVideoAcceleratorNotify.GetUncompSurfacesInfo, IAMVideoAcceleratorNotify::GetUncompSurfacesInfo, IAMVideoAcceleratorNotifyGetUncompSurfacesInfo, dshow.iamvideoacceleratornotify_getuncompsurfacesinfo, videoacc/IAMVideoAcceleratorNotify::GetUncompSurfacesInfo
 ms.topic: method
-f1_keywords: 
- - "videoacc/IAMVideoAcceleratorNotify.GetUncompSurfacesInfo"
+f1_keywords:
+- videoacc/IAMVideoAcceleratorNotify.GetUncompSurfacesInfo
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoAcceleratorNotify.GetUncompSurfacesInfo
+- IAMVideoAcceleratorNotify.GetUncompSurfacesInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ Pointer to a GUID that specifies the DXVA profile in use.
 
 ### -param pUncompBufferInfo [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/amva/ns-amva-_tag_amvauncompbufferinfo">AMVAUncompBufferInfo</a> structure. The decoder fills in this structure with the decoder's requirements for the minimum and maximum number of surfaces and the pixel format.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amva/ns-amva-amvauncompbufferinfo">AMVAUncompBufferInfo</a> structure. The decoder fills in this structure with the decoder's requirements for the minimum and maximum number of surfaces and the pixel format.
 
 To get the list of supported pixel formats, the decoder should call <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getuncompformatssupported">IAMVideoAccelerator::GetUncompFormatsSupported</a>.
 

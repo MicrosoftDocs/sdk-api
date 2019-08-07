@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyDefinition2 interface [File Server Resource Manager],PropertyDefinitionFlags property, IFsrmPropertyDefinition2.PropertyDefinitionFlags, IFsrmPropertyDefinition2.get_PropertyDefinitionFlags, IFsrmPropertyDefinition2::PropertyDefinitionFlags, IFsrmPropertyDefinition2::get_PropertyDefinitionFlags, PropertyDefinitionFlags property [File Server Resource Manager], PropertyDefinitionFlags property [File Server Resource Manager],IFsrmPropertyDefinition2 interface, fs.ifsrmpropertydefinition2_propertydefinitionflags, fsrm.ifsrmpropertydefinition2_propertydefinitionflags, fsrmpipeline/IFsrmPropertyDefinition2::PropertyDefinitionFlags, fsrmpipeline/IFsrmPropertyDefinition2::get_PropertyDefinitionFlags, get_PropertyDefinitionFlags
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyDefinition2.PropertyDefinitionFlags"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyDefinition2.PropertyDefinitionFlags
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyDefinition2.PropertyDefinitionFlags
- - IFsrmPropertyDefinition2.get_PropertyDefinitionFlags
+- IFsrmPropertyDefinition2.PropertyDefinitionFlags
+- IFsrmPropertyDefinition2.get_PropertyDefinitionFlags
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -58,7 +58,7 @@ ms.custom: 19H1
     class.]
 
 This property contains the flags for the property definition as enumerated by the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertydefinitionflags">FsrmPropertyDefinitionFlags</a> enumeration.
+    <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertydefinitionflags">FsrmPropertyDefinitionFlags</a> enumeration.
 
 This property is read-only.
 
@@ -71,7 +71,7 @@ This property is read-only.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertydefinitionflags">FsrmPropertyDefinitionFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertydefinitionflags">FsrmPropertyDefinitionFlags</a>
 
 
 

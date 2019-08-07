@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ResUtilLeftPaxosIsLessThanRight, ResUtilLeftPaxosIsLessThanRight function [Failover Cluster], mscs.resutilleftpaxosislessthanright, resapi/ResUtilLeftPaxosIsLessThanRight
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilLeftPaxosIsLessThanRight"
+f1_keywords:
+- resapi/ResUtilLeftPaxosIsLessThanRight
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilLeftPaxosIsLessThanRight
+- ResUtilLeftPaxosIsLessThanRight
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,12 +61,12 @@ Indicates whether a specified Paxos tag contains older cluster configuration inf
 
 ### -param left [in]
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-_paxostagcstruct">PaxosTagCStruct</a> structure that represents the first Paxos tag to use in the comparison.
+The <a href="https://docs.microsoft.com/windows/desktop/api/resapi/ns-resapi-paxostagcstruct">PaxosTagCStruct</a> structure that represents the first Paxos tag to use in the comparison.
 
 
 ### -param right [in]
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-_paxostagcstruct">PaxosTagCStruct</a> structure that represents the 2nd  Paxos tag to use in the comparison.
+The <a href="https://docs.microsoft.com/windows/desktop/api/resapi/ns-resapi-paxostagcstruct">PaxosTagCStruct</a> structure that represents the 2nd  Paxos tag to use in the comparison.
 
 
 ## -returns

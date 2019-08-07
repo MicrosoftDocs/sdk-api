@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxStartPrintJob, FaxStartPrintJob function [Fax Service], FaxStartPrintJobA, FaxStartPrintJobW, _mfax_faxstartprintjob, fax._mfax_faxstartprintjob, winfax/FaxStartPrintJob, winfax/FaxStartPrintJobA, winfax/FaxStartPrintJobW
 ms.topic: function
-f1_keywords: 
- - "winfax/FaxStartPrintJob"
+f1_keywords:
+- winfax/FaxStartPrintJob
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: WinFax.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - WinFax.lib
- - WinFax.dll
+- WinFax.lib
+- WinFax.dll
 api_name:
- - FaxStartPrintJob
- - FaxStartPrintJobA
- - FaxStartPrintJobW
+- FaxStartPrintJob
+- FaxStartPrintJobA
+- FaxStartPrintJobW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -81,9 +81,9 @@ Pointer to a constant null-terminated character string that contains the name of
 
 ### -param PrintInfo [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_print_infoa">FAX_PRINT_INFO</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_print_infoa">FAX_PRINT_INFO</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_print_infoa">FAX_PRINT_INFO</a> structure that contains the information necessary for the fax server to print the fax transmission. The structure includes, among other items, the recipient's fax number, sender and recipient data, an optional billing code, and delivery report information. For more information, see the following Remarks section.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_print_infoa">FAX_PRINT_INFO</a> structure that contains the information necessary for the fax server to print the fax transmission. The structure includes, among other items, the recipient's fax number, sender and recipient data, an optional billing code, and delivery report information. For more information, see the following Remarks section.
 
 
 ### -param FaxJobId [out]
@@ -97,7 +97,7 @@ Pointer to a <b>DWORD</b> variable to receive the print spooler's unique ID for 
 
 Type: <b>PFAX_CONTEXT_INFO</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_context_infoa">FAX_CONTEXT_INFO</a> structure to receive a handle to a printer device context. When the fax client application calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxprintcoverpagea">FaxPrintCoverPage</a> function, it must pass this value in that function's <i>FaxContextInfo</i> parameter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts</a> and the <a href="https://docs.microsoft.com/previous-versions/ms535790(v=vs.85)">Printing and Print Spooler Reference</a>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_context_infoa">FAX_CONTEXT_INFO</a> structure to receive a handle to a printer device context. When the fax client application calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxprintcoverpagea">FaxPrintCoverPage</a> function, it must pass this value in that function's <i>FaxContextInfo</i> parameter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts</a> and the <a href="https://docs.microsoft.com/previous-versions/ms535790(v=vs.85)">Printing and Print Spooler Reference</a>.
 
 
 ## -returns
@@ -133,7 +133,7 @@ One or both of the <i>PrintInfo</i> or <i>FaxContextInfo</i> parameters are <b>N
 </dl>
 </td>
 <td width="60%">
-The <b>RecipientNumber</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_print_infoa">FAX_PRINT_INFO</a> structure is <b>NULL</b>; or the <b>OutputFileName</b> member is <b>NULL</b> and the <b>RecipientNumber</b> member is not specified.
+The <b>RecipientNumber</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_print_infoa">FAX_PRINT_INFO</a> structure is <b>NULL</b>; or the <b>OutputFileName</b> member is <b>NULL</b> and the <b>RecipientNumber</b> member is not specified.
 
 </td>
 </tr>
@@ -187,7 +187,7 @@ The function returns a handle to a device context. The handle is used by the <a 
 <div> </div>
 A fax client application should not call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a> GDI function to create the fax printer device context; nor should it call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startpage">StartPage</a> printing function to start a fax print job. Instead, the application should call the <b>FaxStartPrintJob</b> function. This is because <b>FaxStartPrintJob</b> modifies information in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure specific to the fax printer of interest.
 
-The change prevents the display of the Fax Send Wizard that collects information from the user. The fax server uses the data in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_print_infoa">FAX_PRINT_INFO</a> structure pointed to by the <i>PrintInfo</i> parameter to print the fax transmission. This structure contains data the Fax Send Wizard would have collected, had the wizard been displayed.
+The change prevents the display of the Fax Send Wizard that collects information from the user. The fax server uses the data in the <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_print_infoa">FAX_PRINT_INFO</a> structure pointed to by the <i>PrintInfo</i> parameter to print the fax transmission. This structure contains data the Fax Send Wizard would have collected, had the wizard been displayed.
 
 A fax client application must call the <b>FaxStartPrintJob</b> function before calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxprintcoverpagea">FaxPrintCoverPage</a> function to print a cover page with a fax job.
 
@@ -215,11 +215,11 @@ A fax client application must call the <b>FaxStartPrintJob</b> function before c
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_context_infoa">FAX_CONTEXT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_context_infoa">FAX_CONTEXT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_print_infoa">FAX_PRINT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_print_infoa">FAX_PRINT_INFO</a>
 
 
 

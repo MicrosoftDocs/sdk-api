@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumTemplates, EnumTemplates method [File Server Resource Manager], EnumTemplates method [File Server Resource Manager],FsrmQuotaTemplateManager class, EnumTemplates method [File Server Resource Manager],IFsrmQuotaTemplateManager interface, FsrmQuotaTemplateManager class [File Server Resource Manager],EnumTemplates method, IFsrmQuotaTemplateManager interface [File Server Resource Manager],EnumTemplates method, IFsrmQuotaTemplateManager.EnumTemplates, IFsrmQuotaTemplateManager::EnumTemplates, fs.ifsrmquotatemplatemanager_enumtemplates, fsrm.ifsrmquotatemplatemanager_enumtemplates, fsrmquota/IFsrmQuotaTemplateManager::EnumTemplates
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaTemplateManager.EnumTemplates"
+f1_keywords:
+- fsrmquota/IFsrmQuotaTemplateManager.EnumTemplates
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaTemplateManager.EnumTemplates
- - FsrmQuotaTemplateManager.EnumTemplates
+- IFsrmQuotaTemplateManager.EnumTemplates
+- FsrmQuotaTemplateManager.EnumTemplates
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ Enumerates the quota templates on the server.
 ### -param options [in]
 
 Options to use when enumerating the quota templates. For possible values, see the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmenumoptions">FsrmEnumOptions</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmenumoptions">FsrmEnumOptions</a> enumeration.
 
 
 ### -param quotaTemplates [out]

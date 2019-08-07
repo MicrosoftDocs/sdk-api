@@ -8,10 +8,10 @@ tech.root: Dfs
 ms.assetid: b9ad9e41-d5b4-446f-ac99-a51808344f77
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDFS_INFO_105, *PDFS_INFO_105, DFS_INFO_105, DFS_INFO_105 structure [Distributed File System], DFS_PROPERTY_FLAG_ABDE, DFS_PROPERTY_FLAG_CLUSTER_ENABLED, DFS_PROPERTY_FLAG_INSITE_REFERRALS, DFS_PROPERTY_FLAG_ROOT_SCALABILITY, DFS_PROPERTY_FLAG_SITE_COSTING, DFS_PROPERTY_FLAG_TARGET_FAILBACK, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, Default, LPDFS_INFO_105, LPDFS_INFO_105 structure pointer [Distributed File System], PDFS_INFO_105, PDFS_INFO_105 structure pointer [Distributed File System], dfs.dfs_info_105, fs.dfs_info_105, lmdfs/DFS_INFO_105, lmdfs/LPDFS_INFO_105, lmdfs/PDFS_INFO_105, netmgmt.dfs_info_105"
+ms.keywords: '*LPDFS_INFO_105, *PDFS_INFO_105, DFS_INFO_105, DFS_INFO_105 structure [Distributed File System], DFS_PROPERTY_FLAG_ABDE, DFS_PROPERTY_FLAG_CLUSTER_ENABLED, DFS_PROPERTY_FLAG_INSITE_REFERRALS, DFS_PROPERTY_FLAG_ROOT_SCALABILITY, DFS_PROPERTY_FLAG_SITE_COSTING, DFS_PROPERTY_FLAG_TARGET_FAILBACK, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, Default, LPDFS_INFO_105, LPDFS_INFO_105 structure pointer [Distributed File System], PDFS_INFO_105, PDFS_INFO_105 structure pointer [Distributed File System], dfs.dfs_info_105, fs.dfs_info_105, lmdfs/DFS_INFO_105, lmdfs/LPDFS_INFO_105, lmdfs/PDFS_INFO_105, netmgmt.dfs_info_105'
 ms.topic: struct
-f1_keywords: 
- - "lmdfs/DFS_INFO_105"
+f1_keywords:
+- lmdfs/DFS_INFO_105
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - LmDfs.h
+- LmDfs.h
 api_name:
- - DFS_INFO_105
+- DFS_INFO_105
 product: Windows
 targetos: Windows
 req.typenames: DFS_INFO_105, *PDFS_INFO_105, *LPDFS_INFO_105
@@ -73,7 +73,7 @@ Specifies a set of bit flags that describe the state of the DFS root or link; th
       namespace root cannot be changed. One <b>DFS_VOLUME_STATE</b> flag is set, and one 
       <b>DFS_VOLUME_FLAVOR</b> flag is set. For an example that describes the interpretation of 
       these flags, see the Remarks section of 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_2">DFS_INFO_2</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_2">DFS_INFO_2</a>.
 
 
 
@@ -182,8 +182,8 @@ Scope: Domain-based DFS roots and stand-alone DFS roots.
 When this flag is set, Access-Based Directory Enumeration (ABDE) mode support is enabled on the entire DFS 
          root target share of the DFS namespace. This flag is valid only for DFS namespaces for which the 
          <b>DFS_NAMESPACE_CAPABILITY_ABDE</b> capability flag is set. For more information, see 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_50">DFS_INFO_50</a> and 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_supported_namespace_version_info">DFS_SUPPORTED_NAMESPACE_VERSION_INFO</a>.
+         <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_50">DFS_INFO_50</a> and 
+         <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_supported_namespace_version_info">DFS_SUPPORTED_NAMESPACE_VERSION_INFO</a>.
 
 The <b>DFS_PROPERTY_FLAG_ABDE</b> flag is valid only on the DFS namespace root and not 
          on root targets, links, or link targets. This flag must be enabled to associate a security descriptor with a 

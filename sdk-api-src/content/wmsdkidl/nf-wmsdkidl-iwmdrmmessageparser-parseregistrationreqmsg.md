@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDRMMessageParser interface [windows Media Format],ParseRegistrationReqMsg method, IWMDRMMessageParser.ParseRegistrationReqMsg, IWMDRMMessageParser::ParseRegistrationReqMsg, IWMDRMMessageParserParseRegistrationReqMsg, ParseRegistrationReqMsg, ParseRegistrationReqMsg method [windows Media Format], ParseRegistrationReqMsg method [windows Media Format],IWMDRMMessageParser interface, wmformat.iwmdrmmessageparser_parseregistrationreqmsg, wmsdkidl/IWMDRMMessageParser::ParseRegistrationReqMsg
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMDRMMessageParser.ParseRegistrationReqMsg"
+f1_keywords:
+- wmsdkidl/IWMDRMMessageParser.ParseRegistrationReqMsg
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMDRMMessageParser.ParseRegistrationReqMsg
+- IWMDRMMessageParser.ParseRegistrationReqMsg
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,7 +83,7 @@ Address of a variable that receives the address of the <a href="https://docs.mic
 
 ### -param pDeviceSerialNumber [out]
 
-Address of a <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_drm_val16">DRM_VAL16</a> structure that receives the device identifier.
+Address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_val16">DRM_VAL16</a> structure that receives the device identifier.
 
 
 ## -returns

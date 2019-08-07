@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: dc5be2f4-5c6e-43c7-95e8-6a74938ce063
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_MCAST_LIMIT_ROW, MIB_MCAST_LIMIT_ROW, MIB_MCAST_LIMIT_ROW structure [MIB], PMIB_MCAST_LIMIT_ROW, PMIB_MCAST_LIMIT_ROW structure pointer [MIB], iprtrmib/MIB_MCAST_LIMIT_ROW, iprtrmib/PMIB_MCAST_LIMIT_ROW, mib.mib_mcast_limit_row"
+ms.keywords: '*PMIB_MCAST_LIMIT_ROW, MIB_MCAST_LIMIT_ROW, MIB_MCAST_LIMIT_ROW structure [MIB], PMIB_MCAST_LIMIT_ROW, PMIB_MCAST_LIMIT_ROW structure pointer [MIB], iprtrmib/MIB_MCAST_LIMIT_ROW, iprtrmib/PMIB_MCAST_LIMIT_ROW, mib.mib_mcast_limit_row'
 ms.topic: struct
-f1_keywords: 
- - "iprtrmib/MIB_MCAST_LIMIT_ROW"
+f1_keywords:
+- iprtrmib/MIB_MCAST_LIMIT_ROW
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iprtrmib.h
+- Iprtrmib.h
 api_name:
- - MIB_MCAST_LIMIT_ROW
+- MIB_MCAST_LIMIT_ROW
 product: Windows
 targetos: Windows
 req.typenames: MIB_MCAST_LIMIT_ROW, *PMIB_MCAST_LIMIT_ROW
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>MIB_MCAST_LIMIT_ROW</b> structure contains the configurable limit information from a corresponding <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_if_entry">MIB_IPMCAST_IF_ENTRY</a> structure.
+The <b>MIB_MCAST_LIMIT_ROW</b> structure contains the configurable limit information from a corresponding <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_if_entry">MIB_IPMCAST_IF_ENTRY</a> structure.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ The rate limit for a multicast interface.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_if_entry">MIB_IPMCAST_IF_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_if_entry">MIB_IPMCAST_IF_ENTRY</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: netshell
 ms.assetid: 299962c8-8f93-4b22-a232-8230eb64cc12
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCMD_ENTRY, CMD_ENTRY, CMD_ENTRY structure [NetShell], PCMD_ENTRY, PCMD_ENTRY structure pointer [NetShell], _netsh_cmd_entry, netsh/CMD_ENTRY, netsh/PCMD_ENTRY, netshell.cmd_entry"
+ms.keywords: '*PCMD_ENTRY, CMD_ENTRY, CMD_ENTRY structure [NetShell], PCMD_ENTRY, PCMD_ENTRY structure pointer [NetShell], _netsh_cmd_entry, netsh/CMD_ENTRY, netsh/PCMD_ENTRY, netshell.cmd_entry'
 ms.topic: struct
-f1_keywords: 
- - "netsh/CMD_ENTRY"
+f1_keywords:
+- netsh/CMD_ENTRY
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netsh.h
+- Netsh.h
 api_name:
- - CMD_ENTRY
+- CMD_ENTRY
 product: Windows
 targetos: Windows
 req.typenames: CMD_ENTRY, *PCMD_ENTRY
@@ -169,7 +169,7 @@ CMD_ENTRY  g_SampleShowCmdTable[] =
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_cmd_group_entry">CMD_GROUP_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netsh/ns-netsh-cmd_group_entry">CMD_GROUP_ENTRY</a>
 
 
 

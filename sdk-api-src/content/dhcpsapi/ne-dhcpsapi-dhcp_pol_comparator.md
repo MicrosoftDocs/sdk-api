@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DHCP_POL_COMPARATOR, DHCP_POL_COMPARATOR enumeration [DHCP], DhcpCompBeginsWith, DhcpCompEqual, DhcpCompNotBeginWith, DhcpCompNotEqual, dhcp.dhcp_pol_comparator, dhcpsapi/DHCP_POL_COMPARATOR, dhcpsapi/DhcpCompBeginsWith, dhcpsapi/DhcpCompEqual, dhcpsapi/DhcpCompNotBeginWith, dhcpsapi/DhcpCompNotEqual
 ms.topic: enum
-f1_keywords: 
- - "dhcpsapi/DHCP_POL_COMPARATOR"
+f1_keywords:
+- dhcpsapi/DHCP_POL_COMPARATOR
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dhcpsapi.h
+- dhcpsapi.h
 api_name:
- - DHCP_POL_COMPARATOR
+- DHCP_POL_COMPARATOR
 product: Windows
 targetos: Windows
 req.typenames: DHCP_POL_COMPARATOR
@@ -92,7 +92,7 @@ The DHCP client message field specified by the criterion must not begin with the
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_pol_cond">DHCP_POL_COND</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_pol_cond">DHCP_POL_COND</a>
 
 
 

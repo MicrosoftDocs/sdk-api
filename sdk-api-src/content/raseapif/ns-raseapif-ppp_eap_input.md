@@ -8,10 +8,10 @@ tech.root: EAP
 ms.assetid: 80a8f118-323d-4040-91f7-202eeee6d227
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPPP_EAP_INPUT, PPPP_EAP_INPUT, PPPP_EAP_INPUT structure pointer [EAP], PPP_EAP_INPUT, PPP_EAP_INPUT structure [EAP], RAS_EAP_FLAG_8021X_AUTH, RAS_EAP_FLAG_ALTERNATIVE_USER_DB, RAS_EAP_FLAG_FIRST_LINK, RAS_EAP_FLAG_GUEST_ACCESS, RAS_EAP_FLAG_LOGON, RAS_EAP_FLAG_NON_INTERACTIVE, RAS_EAP_FLAG_PEAP_UPFRONT, RAS_EAP_FLAG_PRE_LOGON, RAS_EAP_FLAG_RESUME_FROM_HIBERNATE, RAS_EAP_FLAG_ROUTER, _eap_ppp_eap_input, eap.ppp_eap_input, raseapif/PPPP_EAP_INPUT, raseapif/PPP_EAP_INPUT"
+ms.keywords: '*PPPP_EAP_INPUT, PPPP_EAP_INPUT, PPPP_EAP_INPUT structure pointer [EAP], PPP_EAP_INPUT, PPP_EAP_INPUT structure [EAP], RAS_EAP_FLAG_8021X_AUTH, RAS_EAP_FLAG_ALTERNATIVE_USER_DB, RAS_EAP_FLAG_FIRST_LINK, RAS_EAP_FLAG_GUEST_ACCESS, RAS_EAP_FLAG_LOGON, RAS_EAP_FLAG_NON_INTERACTIVE, RAS_EAP_FLAG_PEAP_UPFRONT, RAS_EAP_FLAG_PRE_LOGON, RAS_EAP_FLAG_RESUME_FROM_HIBERNATE, RAS_EAP_FLAG_ROUTER, _eap_ppp_eap_input, eap.ppp_eap_input, raseapif/PPPP_EAP_INPUT, raseapif/PPP_EAP_INPUT'
 ms.topic: struct
-f1_keywords: 
- - "raseapif/PPP_EAP_INPUT"
+f1_keywords:
+- raseapif/PPP_EAP_INPUT
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Raseapif.h
+- Raseapif.h
 api_name:
- - PPP_EAP_INPUT
+- PPP_EAP_INPUT
 product: Windows
 targetos: Windows
 req.typenames: PPP_EAP_INPUT, *PPPP_EAP_INPUT
@@ -209,7 +209,7 @@ Specifies the identifier of the initial EAP packet sent by the DLL. This value i
 ### -field pUserAttributes
 
 Pointer to an array of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> structures. The array is terminated by a structure with an <b>raaType</b> member that has a value of <b>raatMinimum</b> (see 
+<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> structures. The array is terminated by a structure with an <b>raaType</b> member that has a value of <b>raatMinimum</b> (see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ne-raseapif-_ras_auth_attribute_type_">RAS_AUTH_ATTRIBUTE_TYPE</a>). During the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a> call, this array contains attributes that describe the currently dialed-in user. When the <b>fAuthenticationComplete</b> member is <b>TRUE</b>, this array may contain attributes returned by the authentication provider.
 
@@ -322,7 +322,7 @@ If the authentication protocol is using an authentication provider, such as Radi
 <b>fAuthenticationComplete</b>
 <b>dwAuthResultCode</b>
 Note that the array of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> structures is passed only if <b>fAuthenticator</b> is <b>TRUE</b>. This array contains current session information such as port identifier and local IP address.
+<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> structures is passed only if <b>fAuthenticator</b> is <b>TRUE</b>. This array contains current session information such as port identifier and local IP address.
 
 
 
@@ -340,7 +340,7 @@ Note that the array of
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a>
 
 
 

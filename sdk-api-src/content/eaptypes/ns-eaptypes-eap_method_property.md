@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_PROPERTY, EAP_METHOD_PROPERTY structure [EAPHost], PEAP_METHOD_PROPERTY, PEAP_METHOD_PROPERTY structure pointer [EAPHost], eaphost.eap_method_property, eaptypes/EAP_METHOD_PROPERTY, eaptypes/PEAP_METHOD_PROPERTY
 ms.topic: struct
-f1_keywords: 
- - "eaptypes/EAP_METHOD_PROPERTY"
+f1_keywords:
+- eaptypes/EAP_METHOD_PROPERTY
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - EapTypes.h
+- EapTypes.h
 api_name:
- - EAP_METHOD_PROPERTY
+- EAP_METHOD_PROPERTY
 product: Windows
 targetos: Windows
 req.typenames: EAP_METHOD_PROPERTY
@@ -61,12 +61,12 @@ An <b>EAP_METHOD_PROPERTY</b> structure  contains an EAP method property.
 
 ### -field eapMethodPropertyType
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eap_method_property_type">EAP_METHOD_PROPERTY_TYPE</a> enumeration value that describes the type of the EAP method property.
+An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eap_method_property_type">EAP_METHOD_PROPERTY_TYPE</a> enumeration value that describes the type of the EAP method property.
 
 
 ### -field eapMethodPropertyValueType
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eap_method_property_value_type">EAP_METHOD_PROPERTY_VALUE_TYPE</a> enumeration value that describes the data type of the value specified in <b>eapMethodPropertyValue</b>.
+An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eap_method_property_value_type">EAP_METHOD_PROPERTY_VALUE_TYPE</a> enumeration value that describes the data type of the value specified in <b>eapMethodPropertyValue</b>.
 
 
 ### -field eapMethodPropertyValue.switch_is
@@ -93,7 +93,7 @@ An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eap
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property_array">EAP_METHOD_PROPERTY_ARRAY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property_array">EAP_METHOD_PROPERTY_ARRAY</a>
 
 
 

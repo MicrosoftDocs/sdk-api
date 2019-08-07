@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVISTDINDEX, AVISTDINDEX structure [DirectShow], PAVISTDINDEX, PAVISTDINDEX structure pointer [DirectShow], aviriff/AVISTDINDEX, aviriff/PAVISTDINDEX, dshow.avistdindex
 ms.topic: struct
-f1_keywords: 
- - "aviriff/AVISTDINDEX"
+f1_keywords:
+- aviriff/AVISTDINDEX
 req.header: aviriff.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - aviriff.h
+- aviriff.h
 api_name:
- - AVISTDINDEX
+- AVISTDINDEX
 product: Windows
 targetos: Windows
 req.typenames: AVISTDINDEX
@@ -106,7 +106,7 @@ Reserved. Set to zero.
 
 ### -field aIndex
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/aviriff/ns-aviriff-_avistdindex_entry">AVISTDINDEX_ENTRY</a> structures. The number of elements in the array is calculated from the value of <b>cb</b>.
+An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avistdindex_entry">AVISTDINDEX_ENTRY</a> structures. The number of elements in the array is calculated from the value of <b>cb</b>.
 
 
 ## -remarks

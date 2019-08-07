@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 54f54734-3e4a-489f-a61d-85fd436d28ad
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSCOPE_MIB_INFO, LPSCOPE_MIB_INFO, LPSCOPE_MIB_INFO structure pointer [DHCP], SCOPE_MIB_INFO, SCOPE_MIB_INFO structure [DHCP], dhcp.scope_mib_info, dhcpsapi/LPSCOPE_MIB_INFO, dhcpsapi/_SCOPE_MIB_INFO"
+ms.keywords: '*LPSCOPE_MIB_INFO, LPSCOPE_MIB_INFO, LPSCOPE_MIB_INFO structure pointer [DHCP], SCOPE_MIB_INFO, SCOPE_MIB_INFO structure [DHCP], dhcp.scope_mib_info, dhcpsapi/LPSCOPE_MIB_INFO, dhcpsapi/_SCOPE_MIB_INFO'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/SCOPE_MIB_INFO"
+f1_keywords:
+- dhcpsapi/SCOPE_MIB_INFO
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - SCOPE_MIB_INFO
+- SCOPE_MIB_INFO
 product: Windows
 targetos: Windows
 req.typenames: SCOPE_MIB_INFO, *LPSCOPE_MIB_INFO
@@ -85,11 +85,11 @@ Contains the number of IP addresses currently in the offer state for this scope.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_mib_info">DHCP_MIB_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_mib_info">DHCP_MIB_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_mib_info_v6">DHCP_MIB_INFO_V6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_mib_info_v6">DHCP_MIB_INFO_V6</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: bbec3397-0317-40f7-926f-2ec48cf5386d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_TCP6ROW2, MIB_TCP6ROW2, MIB_TCP6ROW2 structure [MIB], MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCP6ROW2, PMIB_TCP6ROW2 structure pointer [MIB], mib.mib_tcp6row2, tcpmib/MIB_TCP6ROW2, tcpmib/PMIB_TCP6ROW2"
+ms.keywords: '*PMIB_TCP6ROW2, MIB_TCP6ROW2, MIB_TCP6ROW2 structure [MIB], MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCP6ROW2, PMIB_TCP6ROW2 structure pointer [MIB], mib.mib_tcp6row2, tcpmib/MIB_TCP6ROW2, tcpmib/PMIB_TCP6ROW2'
 ms.topic: struct
-f1_keywords: 
- - "tcpmib/MIB_TCP6ROW2"
+f1_keywords:
+- tcpmib/MIB_TCP6ROW2
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tcpmib.h
+- Tcpmib.h
 api_name:
- - MIB_TCP6ROW2
+- MIB_TCP6ROW2
 product: Windows
 targetos: Windows
 req.typenames: MIB_TCP6ROW2, *PMIB_TCP6ROW2
@@ -290,7 +290,7 @@ The offload state for this TCP connection. This parameter can be one of the enum
 
 The <b>MIB_TCP6ROW2</b> structure is defined on Windows Vista and later. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table2">GetTcp6Table2</a>function retrieves the IPv6 TCP connection table on the local computer and returns this information in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table2">MIB_TCP6TABLE2</a> structure. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table2">GetTcp6Table2</a>function retrieves the IPv6 TCP connection table on the local computer and returns this information in a <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table2">MIB_TCP6TABLE2</a> structure. 
 
 An array of <b>MIB_TCP6ROW2</b> structures are contained in the <b>MIB_TCP6TABLE2</b> structure.  
 
@@ -324,19 +324,19 @@ The <b>LocalAddr</b> and <b>RemoteAddr</b> members are stored in  <a href="https
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table">MIB_TCP6TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table">MIB_TCP6TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table2">MIB_TCP6TABLE2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table2">MIB_TCP6TABLE2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_lh">MIB_TCPROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable">MIB_TCPTABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable">MIB_TCPTABLE</a>
 
 
 

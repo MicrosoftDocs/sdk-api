@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4GetFreeIPAddress, DhcpV4GetFreeIPAddress function [DHCP], dhcp.dhcpv4getfreeipaddress, dhcpsapi/DhcpV4GetFreeIPAddress
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpV4GetFreeIPAddress"
+f1_keywords:
+- dhcpsapi/DhcpV4GetFreeIPAddress
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpV4GetFreeIPAddress
+- DhcpV4GetFreeIPAddress
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -89,7 +89,7 @@ Integer that specifies the number of IPv4 addresses retrieved from the specified
 
 ### -param IPAddrList [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_array">DHCP_IP_ARRAY</a> structure that contains the list of available IPv4 addresses that can be leased to clients.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_array">DHCP_IP_ARRAY</a> structure that contains the list of available IPv4 addresses that can be leased to clients.
 
 
 ## -returns

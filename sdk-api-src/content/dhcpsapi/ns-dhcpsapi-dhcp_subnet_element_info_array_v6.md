@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 02e7e633-173d-46ab-b657-4763d367f325
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6, DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6, DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6 structure [DHCP], PDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6, PDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6 structure pointer [DHCP], dhcp.dhcp_subnet_element_info_array_v6, dhcpsapi/DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6, dhcpsapi/PDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6"
+ms.keywords: '*LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6, DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6, DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6 structure [DHCP], PDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6, PDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6 structure pointer [DHCP], dhcp.dhcp_subnet_element_info_array_v6, dhcpsapi/DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6, dhcpsapi/PDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6"
+f1_keywords:
+- dhcpsapi/DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6
+- DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6
 product: Windows
 targetos: Windows
 req.typenames: DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6, *LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6</b> structure contains data that defines an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_data_v6">DHCP_SUBNET_ELEMENT_DATA_V6</a> IPv6 prefix elements.
+The <b>DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6</b> structure contains data that defines an array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data_v6">DHCP_SUBNET_ELEMENT_DATA_V6</a> IPv6 prefix elements.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ A <b>DWORD</b> value containing the number of IPv6 subnet elements in the <b>Ele
 
 ### -field Elements
 
-Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_data_v6">DHCP_SUBNET_ELEMENT_DATA_V6</a> structures that contain IPv6 prefix elements.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data_v6">DHCP_SUBNET_ELEMENT_DATA_V6</a> structures that contain IPv6 prefix elements.
 
 
 ### -field Elements.size_is
@@ -86,7 +86,7 @@ Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/win
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_data_v6">DHCP_SUBNET_ELEMENT_DATA_V6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data_v6">DHCP_SUBNET_ELEMENT_DATA_V6</a>
  
 
  

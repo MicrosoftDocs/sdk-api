@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1, 2, 3, 4, NetDfsGetClientInfo, NetDfsGetClientInfo function [Distributed File System], _win32_netdfsgetclientinfo, dfs.netdfsgetclientinfo, fs.netdfsgetclientinfo, lmdfs/NetDfsGetClientInfo
 ms.topic: function
-f1_keywords: 
- - "lmdfs/NetDfsGetClientInfo"
+f1_keywords:
+- lmdfs/NetDfsGetClientInfo
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetDfsGetClientInfo
+- NetDfsGetClientInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -107,28 +107,28 @@ Specifies the information level of the request. This parameter can be one of the
 #### 1
 
 Return the DFS root  or DFS link name. The <i>Buffer</i> parameter points to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_1">DFS_INFO_1</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_1">DFS_INFO_1</a> structure.
 
 
 
 #### 2
 
 Return the DFS root or DFS link name, status, and the number of DFS targets. The <i>Buffer</i> parameter points to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_2">DFS_INFO_2</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_2">DFS_INFO_2</a> structure.
 
 
 
 #### 3
 
 Return the DFS root or DFS link name, status, and target information. The <i>Buffer</i> parameter points to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_3">DFS_INFO_3</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_3">DFS_INFO_3</a> structure.
 
 
 
 #### 4
 
 Return the DFS root or DFS link name, status, <b>GUID</b>, time-out, and target information. The <i>Buffer</i> parameter points to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_4">DFS_INFO_4</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_4">DFS_INFO_4</a> structure.
 
 
 ### -param Buffer [out]
@@ -166,19 +166,19 @@ No special group membership is required for using the
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_1">DFS_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_1">DFS_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_2">DFS_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_2">DFS_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_3">DFS_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_3">DFS_INFO_3</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_4">DFS_INFO_4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_4">DFS_INFO_4</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 1f2960ae-98f2-4c93-9705-e8b74a4f5e21
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_SUBNET_STATE, DHCP_SUBNET_STATE, DHCP_SUBNET_STATE enumeration [DHCP], DhcpSubnetDisabled, DhcpSubnetDisabledSwitched, DhcpSubnetEnabled, DhcpSubnetEnabledSwitched, DhcpSubnetInvalidState, LPDHCP_SUBNET_STATE, LPDHCP_SUBNET_STATE enumeration pointer [DHCP], dhcp.dhcp_subnet_state, dhcpsapi/DHCP_SUBNET_STATE, dhcpsapi/DhcpSubnetDisabled, dhcpsapi/DhcpSubnetDisabledSwitched, dhcpsapi/DhcpSubnetEnabled, dhcpsapi/DhcpSubnetEnabledSwitched, dhcpsapi/DhcpSubnetInvalidState, dhcpsapi/LPDHCP_SUBNET_STATE"
+ms.keywords: '*LPDHCP_SUBNET_STATE, DHCP_SUBNET_STATE, DHCP_SUBNET_STATE enumeration [DHCP], DhcpSubnetDisabled, DhcpSubnetDisabledSwitched, DhcpSubnetEnabled, DhcpSubnetEnabledSwitched, DhcpSubnetInvalidState, LPDHCP_SUBNET_STATE, LPDHCP_SUBNET_STATE enumeration pointer [DHCP], dhcp.dhcp_subnet_state, dhcpsapi/DHCP_SUBNET_STATE, dhcpsapi/DhcpSubnetDisabled, dhcpsapi/DhcpSubnetDisabledSwitched, dhcpsapi/DhcpSubnetEnabled, dhcpsapi/DhcpSubnetEnabledSwitched, dhcpsapi/DhcpSubnetInvalidState, dhcpsapi/LPDHCP_SUBNET_STATE'
 ms.topic: enum
-f1_keywords: 
- - "dhcpsapi/DHCP_SUBNET_STATE"
+f1_keywords:
+- dhcpsapi/DHCP_SUBNET_STATE
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_SUBNET_STATE
+- DHCP_SUBNET_STATE
 product: Windows
 targetos: Windows
 req.typenames: DHCP_SUBNET_STATE, *LPDHCP_SUBNET_STATE
@@ -89,7 +89,7 @@ The subnet is in an invalid state.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_info">DHCP_SUBNET_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_info">DHCP_SUBNET_INFO</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DMOGetTypes, DMOGetTypes function [DirectShow], dmoreg/DMOGetTypes, dshow.dmogettypes
 ms.topic: function
-f1_keywords: 
- - "dmoreg/DMOGetTypes"
+f1_keywords:
+- dmoreg/DMOGetTypes
 req.header: dmoreg.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Msdmo.lib
 req.dll: Msdmo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdmo.dll
+- Msdmo.dll
 api_name:
- - DMOGetTypes
+- DMOGetTypes
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ Size of the array passed in the <i>pInputTypes</i> parameter.
 
 ### -param pulInputTypesSupplied
 
-Pointer to a variable that receives the number of <a href="https://docs.microsoft.com/windows/desktop/api/dmoreg/ns-dmoreg-_dmo_partial_mediatype">DMO_PARTIAL_MEDIATYPE</a> structures in <i>pInputTypes</i> that the function fills in.
+Pointer to a variable that receives the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dmoreg/ns-dmoreg-dmo_partial_mediatype">DMO_PARTIAL_MEDIATYPE</a> structures in <i>pInputTypes</i> that the function fills in.
 
 
 ### -param pInputTypes
@@ -86,12 +86,12 @@ Size of the array passed in the <i>pOutputTypes</i> parameter.
 
 ### -param pulOutputTypesSupplied
 
-Pointer to a variable that receives the number of <a href="https://docs.microsoft.com/windows/desktop/api/dmoreg/ns-dmoreg-_dmo_partial_mediatype">DMO_PARTIAL_MEDIATYPE</a> structures in <i>pOutputTypes</i> that the function fills in.
+Pointer to a variable that receives the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dmoreg/ns-dmoreg-dmo_partial_mediatype">DMO_PARTIAL_MEDIATYPE</a> structures in <i>pOutputTypes</i> that the function fills in.
 
 
 ### -param pOutputTypes
 
-Pointer to a caller-allocated array of <a href="https://docs.microsoft.com/windows/desktop/api/dmoreg/ns-dmoreg-_dmo_partial_mediatype">DMO_PARTIAL_MEDIATYPE</a> structures. The size of the array is given in the <i>ulOutputTypesRequested</i> parameter. The function fills the array with the DMO output types registered for the DMO.
+Pointer to a caller-allocated array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dmoreg/ns-dmoreg-dmo_partial_mediatype">DMO_PARTIAL_MEDIATYPE</a> structures. The size of the array is given in the <i>ulOutputTypesRequested</i> parameter. The function fills the array with the DMO output types registered for the DMO.
 
 
 ## -returns

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DMORegister, DMORegister function [DirectShow], dmoreg/DMORegister, dshow.dmoregister
 ms.topic: function
-f1_keywords: 
- - "dmoreg/DMORegister"
+f1_keywords:
+- dmoreg/DMORegister
 req.header: dmoreg.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Msdmo.lib
 req.dll: Msdmo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdmo.dll
+- Msdmo.dll
 api_name:
- - DMORegister
+- DMORegister
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -89,7 +89,7 @@ Number of input media types to register. Can be zero.
 
 ### -param pInTypes
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/dmoreg/ns-dmoreg-_dmo_partial_mediatype">DMO_PARTIAL_MEDIATYPE</a> structures that specify the input media types. The size of the array is specified in the cInTypes parameter
+Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dmoreg/ns-dmoreg-dmo_partial_mediatype">DMO_PARTIAL_MEDIATYPE</a> structures that specify the input media types. The size of the array is specified in the cInTypes parameter
           
 
 

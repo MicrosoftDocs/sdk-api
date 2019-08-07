@@ -8,10 +8,10 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_14aa.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFAX_CONFIGURATIONW, FAX_CONFIGURATION, FAX_CONFIGURATION structure [Fax Service], FAX_CONFIGURATIONA, FAX_CONFIGURATIONW, PFAX_CONFIGURATION, PFAX_CONFIGURATION structure pointer [Fax Service], _mfax_fax_configuration_str, fax._mfax_fax_configuration_str, winfax/FAX_CONFIGURATION, winfax/FAX_CONFIGURATIONA, winfax/FAX_CONFIGURATIONW, winfax/PFAX_CONFIGURATION"
+ms.keywords: '*PFAX_CONFIGURATIONW, FAX_CONFIGURATION, FAX_CONFIGURATION structure [Fax Service], FAX_CONFIGURATIONA, FAX_CONFIGURATIONW, PFAX_CONFIGURATION, PFAX_CONFIGURATION structure pointer [Fax Service], _mfax_fax_configuration_str, fax._mfax_fax_configuration_str, winfax/FAX_CONFIGURATION, winfax/FAX_CONFIGURATIONA, winfax/FAX_CONFIGURATIONW, winfax/PFAX_CONFIGURATION'
 ms.topic: struct
-f1_keywords: 
- - "winfax/FAX_CONFIGURATION"
+f1_keywords:
+- winfax/FAX_CONFIGURATION
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winfax.h
+- Winfax.h
 api_name:
- - FAX_CONFIGURATION
- - FAX_CONFIGURATIONA
- - FAX_CONFIGURATIONW
+- FAX_CONFIGURATION
+- FAX_CONFIGURATIONA
+- FAX_CONFIGURATIONW
 product: Windows
 targetos: Windows
 req.typenames: FAX_CONFIGURATIONW, *PFAX_CONFIGURATIONW
@@ -100,7 +100,7 @@ Specifies a Boolean variable that indicates whether the fax server should genera
 
 Type: <b>BOOL</b>
 
-Specifies a Boolean variable that indicates whether the fax server will use the device's transmitting station identifier instead of the value specified in the <b>Tsid</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_job_parama">FAX_JOB_PARAM</a> structure. If this member is <b>TRUE</b>, the server uses the device's transmitting station identifier.
+Specifies a Boolean variable that indicates whether the fax server will use the device's transmitting station identifier instead of the value specified in the <b>Tsid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_job_parama">FAX_JOB_PARAM</a> structure. If this member is <b>TRUE</b>, the server uses the device's transmitting station identifier.
 
 
 ### -field ServerCp
@@ -119,16 +119,16 @@ Specifies a Boolean variable that indicates whether the fax server has paused th
 
 ### -field StartCheapTime
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_time">FAX_TIME</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_time">FAX_TIME</a></b>
 
-Specifies a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_time">FAX_TIME</a> structure that indicates the hour and minute at which the discount period begins. The discount period applies only to outgoing transmissions.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_time">FAX_TIME</a> structure that indicates the hour and minute at which the discount period begins. The discount period applies only to outgoing transmissions.
 
 
 ### -field StopCheapTime
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_time">FAX_TIME</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_time">FAX_TIME</a></b>
 
-Specifies a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_time">FAX_TIME</a> structure that indicates the hour and minute at which the discount period ends. The discount period applies only to outgoing transmissions.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_time">FAX_TIME</a> structure that indicates the hour and minute at which the discount period ends. The discount period applies only to outgoing transmissions.
 
 
 ### -field ArchiveOutgoingFaxes
@@ -173,11 +173,11 @@ The fax client application passes the <b>FAX_CONFIGURATION</b> structure in a ca
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_job_parama">FAX_JOB_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_job_parama">FAX_JOB_PARAM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_time">FAX_TIME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_time">FAX_TIME</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndFrame, EndFrame method [DirectShow], EndFrame method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],EndFrame method, IAMVideoAccelerator.EndFrame, IAMVideoAccelerator::EndFrame, IAMVideoAcceleratorEndFrame, dshow.iamvideoaccelerator_endframe, videoacc/IAMVideoAccelerator::EndFrame
 ms.topic: method
-f1_keywords: 
- - "videoacc/IAMVideoAccelerator.EndFrame"
+f1_keywords:
+- videoacc/IAMVideoAccelerator.EndFrame
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoAccelerator.EndFrame
+- IAMVideoAccelerator.EndFrame
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The <b>EndFrame</b> method ends frame processing.
 
 ### -param pEndFrameInfo [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/amva/ns-amva-_tag_amvaendframeinfo">AMVAEndFrameInfo</a> structure.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amva/ns-amva-amvaendframeinfo">AMVAEndFrameInfo</a> structure.
           
 
 

@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: 56eca8ef-2b6e-4380-869c-bf1a4c8fdb1f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPQOS_DS_CLASS, LPQOS_DS_CLASS, LPQOS_DS_CLASS structure pointer [QOS], QOS_DS_CLASS, QOS_DS_CLASS structure [QOS], _gqos_qos_ds_class, qos.qos_ds_class, qosobjs/LPQOS_DS_CLASS, qosobjs/QOS_DS_CLASS"
+ms.keywords: '*LPQOS_DS_CLASS, LPQOS_DS_CLASS, LPQOS_DS_CLASS structure pointer [QOS], QOS_DS_CLASS, QOS_DS_CLASS structure [QOS], _gqos_qos_ds_class, qos.qos_ds_class, qosobjs/LPQOS_DS_CLASS, qosobjs/QOS_DS_CLASS'
 ms.topic: struct
-f1_keywords: 
- - "qosobjs/QOS_DS_CLASS"
+f1_keywords:
+- qosobjs/QOS_DS_CLASS
 req.header: qosobjs.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - QosObjs.h
+- QosObjs.h
 api_name:
- - QOS_DS_CLASS
+- QOS_DS_CLASS
 product: Windows
 targetos: Windows
 req.typenames: QOS_DS_CLASS, *LPQOS_DS_CLASS
@@ -143,11 +143,11 @@ Non-conformant traffic
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_diffserv">QOS_DIFFSERV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_diffserv_rule">QOS_DIFFSERV_RULE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv_rule">QOS_DIFFSERV_RULE</a>
 
 
 
@@ -155,7 +155,7 @@ Non-conformant traffic
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_traffic_class">QOS_TRAFFIC_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_traffic_class">QOS_TRAFFIC_CLASS</a>
  
 
  

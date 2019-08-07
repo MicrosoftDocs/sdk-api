@@ -8,10 +8,10 @@ tech.root: Madcap
 ms.assetid: 1993e3bc-b6bd-4e13-aa71-7e33bf7ef540
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMCAST_LEASE_RESPONSE, MCAST_LEASE_RESPONSE, MCAST_LEASE_RESPONSE structure [MADCAP], PMCAST_LEASE_RESPONSE, PMCAST_LEASE_RESPONSE structure pointer [MADCAP], _mdhcp_mcast_lease_response, madcap.mcast_lease_response, madcapcl/MCAST_LEASE_RESPONSE, madcapcl/PMCAST_LEASE_RESPONSE"
+ms.keywords: '*PMCAST_LEASE_RESPONSE, MCAST_LEASE_RESPONSE, MCAST_LEASE_RESPONSE structure [MADCAP], PMCAST_LEASE_RESPONSE, PMCAST_LEASE_RESPONSE structure pointer [MADCAP], _mdhcp_mcast_lease_response, madcap.mcast_lease_response, madcapcl/MCAST_LEASE_RESPONSE, madcapcl/PMCAST_LEASE_RESPONSE'
 ms.topic: struct
-f1_keywords: 
- - "madcapcl/MCAST_LEASE_RESPONSE"
+f1_keywords:
+- madcapcl/MCAST_LEASE_RESPONSE
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Madcapcl.h
+- Madcapcl.h
 api_name:
- - MCAST_LEASE_RESPONSE
+- MCAST_LEASE_RESPONSE
 product: Windows
 targetos: Windows
 req.typenames: MCAST_LEASE_RESPONSE, *PMCAST_LEASE_RESPONSE
@@ -73,7 +73,7 @@ Expiration time, in seconds of the multicast scope lease elapsed since midnight 
 ### -field ServerAddress
 
 Internet Protocol (IP) address of the server on which the lease request has been granted or renewed, in the form of an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_ipng_address">IPNG_ADDRESS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-ipng_address">IPNG_ADDRESS</a> structure.
 
 
 ### -field AddrCount
@@ -91,23 +91,23 @@ Pointer to a buffer containing the granted IP addresses. For IPv4 addresses, the
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_ipng_address">IPNG_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-ipng_address">IPNG_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_client_uid">MCAST_CLIENT_UID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_client_uid">MCAST_CLIENT_UID</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_lease_request">MCAST_LEASE_REQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_lease_request">MCAST_LEASE_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_scope_ctx">MCAST_SCOPE_CTX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_scope_ctx">MCAST_SCOPE_CTX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_scope_entry">MCAST_SCOPE_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_scope_entry">MCAST_SCOPE_ENTRY</a>
 
 
 

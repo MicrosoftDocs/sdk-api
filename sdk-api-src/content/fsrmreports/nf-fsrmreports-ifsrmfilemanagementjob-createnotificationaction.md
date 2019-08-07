@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateNotificationAction, CreateNotificationAction method [File Server Resource Manager], CreateNotificationAction method [File Server Resource Manager],IFsrmFileManagementJob interface, FsrmActionType_Command, FsrmActionType_Email, FsrmActionType_EventLog, IFsrmFileManagementJob interface [File Server Resource Manager],CreateNotificationAction method, IFsrmFileManagementJob.CreateNotificationAction, IFsrmFileManagementJob::CreateNotificationAction, fs.ifsrmfilemanagementjob_createnotificationaction, fsrm.ifsrmfilemanagementjob_createnotificationaction, fsrmreports/IFsrmFileManagementJob::CreateNotificationAction
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileManagementJob.CreateNotificationAction"
+f1_keywords:
+- fsrmreports/IFsrmFileManagementJob.CreateNotificationAction
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.CreateNotificationAction
+- IFsrmFileManagementJob.CreateNotificationAction
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ The notification value to associate with the action.
 ### -param actionType [in]
 
 The action to perform when the notification period is reached, enumerated by the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmactiontype">FsrmActionType</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmactiontype">FsrmActionType</a> enumeration.
 
 <div class="alert"><b>Note</b>  The <b>FsrmActionType_Report</b> type is not valid for this method.</div>
 <div> </div>

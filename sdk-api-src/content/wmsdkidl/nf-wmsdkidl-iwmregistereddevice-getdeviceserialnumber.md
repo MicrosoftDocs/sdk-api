@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceSerialNumber, GetDeviceSerialNumber method [windows Media Format], GetDeviceSerialNumber method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetDeviceSerialNumber method, IWMRegisteredDevice.GetDeviceSerialNumber, IWMRegisteredDevice::GetDeviceSerialNumber, IWMRegisteredDeviceGetDeviceID, wmformat.iwmregistereddevice_getdeviceserialnumber, wmsdkidl/IWMRegisteredDevice::GetDeviceSerialNumber
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMRegisteredDevice.GetDeviceSerialNumber"
+f1_keywords:
+- wmsdkidl/IWMRegisteredDevice.GetDeviceSerialNumber
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMRegisteredDevice.GetDeviceSerialNumber
+- IWMRegisteredDevice.GetDeviceSerialNumber
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ The <b>GetDeviceID</b> method retrieves the 128-bit value that identifies the de
 
 ### -param pSerialNumber [out]
 
-Address of a <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_drm_val16">DRM_VAL16</a> structure that receives the device serial number.
+Address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_val16">DRM_VAL16</a> structure that receives the device serial number.
 
 
 ## -returns

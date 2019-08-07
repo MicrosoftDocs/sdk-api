@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumSubnetClients, DhcpEnumSubnetClients function [DHCP], dhcp.dhcpenumsubnetclients, dhcpsapi/DhcpEnumSubnetClients
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpEnumSubnetClients"
+f1_keywords:
+- dhcpsapi/DhcpEnumSubnetClients
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpEnumSubnetClients
+- DhcpEnumSubnetClients
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -84,7 +84,7 @@ The minimum value is 1024 bytes (1KB), and the maximum value is 65536 bytes (64K
 
 ### -param ClientInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_array">DHCP_CLIENT_INFO_ARRAY</a> structure that contains information on the clients served under this specific subnet. If no clients are available, this field will be null.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_array">DHCP_CLIENT_INFO_ARRAY</a> structure that contains information on the clients served under this specific subnet. If no clients are available, this field will be null.
 
 
 ### -param ClientsRead [out]
@@ -122,7 +122,7 @@ This function requires host byte ordering for all <a href="https://docs.microsof
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_array">DHCP_CLIENT_INFO_ARRAY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_array">DHCP_CLIENT_INFO_ARRAY</a>
  
 
  

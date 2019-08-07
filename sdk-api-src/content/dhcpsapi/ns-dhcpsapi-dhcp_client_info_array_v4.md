@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: cda4bf44-0a4c-4825-ae3f-379ceae5aadb
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_CLIENT_INFO_ARRAY_V4, DHCP_CLIENT_INFO_ARRAY_V4, DHCP_CLIENT_INFO_ARRAY_V4 structure [DHCP], LPDHCP_CLIENT_INFO_ARRAY_V4, LPDHCP_CLIENT_INFO_ARRAY_V4 structure pointer [DHCP], dhcp.dhcp_client_info_array_v4, dhcpsapi/LPDHCP_CLIENT_INFO_ARRAY_V4, dhcpsapi/_DHCP_CLIENT_INFO_ARRAY_V4"
+ms.keywords: '*LPDHCP_CLIENT_INFO_ARRAY_V4, DHCP_CLIENT_INFO_ARRAY_V4, DHCP_CLIENT_INFO_ARRAY_V4 structure [DHCP], LPDHCP_CLIENT_INFO_ARRAY_V4, LPDHCP_CLIENT_INFO_ARRAY_V4 structure pointer [DHCP], dhcp.dhcp_client_info_array_v4, dhcpsapi/LPDHCP_CLIENT_INFO_ARRAY_V4, dhcpsapi/_DHCP_CLIENT_INFO_ARRAY_V4'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_CLIENT_INFO_ARRAY_V4"
+f1_keywords:
+- dhcpsapi/DHCP_CLIENT_INFO_ARRAY_V4
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_CLIENT_INFO_ARRAY_V4
+- DHCP_CLIENT_INFO_ARRAY_V4
 product: Windows
 targetos: Windows
 req.typenames: DHCP_CLIENT_INFO_ARRAY_V4, *LPDHCP_CLIENT_INFO_ARRAY_V4
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DHCP_CLIENT_INFO_ARRAY_V4</b> structure defines an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_v4">DHCP_CLIENT_INFO_V4</a> structures for use with enumeration functions. 
+The <b>DHCP_CLIENT_INFO_ARRAY_V4</b> structure defines an array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_v4">DHCP_CLIENT_INFO_V4</a> structures for use with enumeration functions. 
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ Specifies the number of elements present in <b>Clients</b>.
 
 ### -field Clients
 
-Pointer to a list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_v4">DHCP_CLIENT_INFO_V4</a> structures that contain information on specific DHCP subnet clients, including the dynamic address type (DHCP and/or BOOTP).
+Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_v4">DHCP_CLIENT_INFO_V4</a> structures that contain information on specific DHCP subnet clients, including the dynamic address type (DHCP and/or BOOTP).
 
 
 ### -field Clients.size_is
@@ -86,7 +86,7 @@ Pointer to a list of <a href="https://docs.microsoft.com/previous-versions/windo
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_v4">DHCP_CLIENT_INFO_V4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_v4">DHCP_CLIENT_INFO_V4</a>
  
 
  

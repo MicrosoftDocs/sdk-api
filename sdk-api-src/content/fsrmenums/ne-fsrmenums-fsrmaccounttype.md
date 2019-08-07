@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmAccountType, FsrmAccountType enumeration [File Server Resource Manager], FsrmAccountType_Automatic, FsrmAccountType_External, FsrmAccountType_InProc, FsrmAccountType_LocalService, FsrmAccountType_LocalSystem, FsrmAccountType_NetworkService, FsrmAccountType_Unknown, fs.fsrmaccounttype, fsrm.fsrmaccounttype, fsrmenums/FsrmAccountType, fsrmenums/FsrmAccountType_Automatic, fsrmenums/FsrmAccountType_External, fsrmenums/FsrmAccountType_InProc, fsrmenums/FsrmAccountType_LocalService, fsrmenums/FsrmAccountType_LocalSystem, fsrmenums/FsrmAccountType_NetworkService, fsrmenums/FsrmAccountType_Unknown
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmAccountType"
+f1_keywords:
+- fsrmenums/FsrmAccountType
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - FsrmAccountType
+- FsrmAccountType
 product: Windows
 targetos: Windows
 req.typenames: FsrmAccountType
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Defines the computer account types under which a command action (see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmactiontype">FsrmActionType</a>) can run.
+    <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmactiontype">FsrmActionType</a>) can run.
 
 
 ## -enum-fields
@@ -110,7 +110,7 @@ Run the command or pipeline module under the account that FSRM selects. This is 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmactiontype">FsrmActionType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmactiontype">FsrmActionType</a>
 
 
 

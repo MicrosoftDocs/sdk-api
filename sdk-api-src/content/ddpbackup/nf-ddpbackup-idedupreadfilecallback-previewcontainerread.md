@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDedupReadFileCallback interface [Data Deduplication API],PreviewContainerRead method, IDedupReadFileCallback.PreviewContainerRead, IDedupReadFileCallback::PreviewContainerRead, PreviewContainerRead, PreviewContainerRead method [Data Deduplication API], PreviewContainerRead method [Data Deduplication API],IDedupReadFileCallback interface, ddpbackup/IDedupReadFileCallback::PreviewContainerRead, dedup.idedupreadfilecallback_previewcontainerread
 ms.topic: method
-f1_keywords: 
- - "ddpbackup/IDedupReadFileCallback.PreviewContainerRead"
+f1_keywords:
+- ddpbackup/IDedupReadFileCallback.PreviewContainerRead
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DdpBackup.h
+- DdpBackup.h
 api_name:
- - IDedupReadFileCallback.PreviewContainerRead
+- IDedupReadFileCallback.PreviewContainerRead
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,12 +66,12 @@ The full path from the root directory of the volume to the container file.
 
 ### -param NumberOfReads [in]
 
-Number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/ns-ddpbackup-_ddp_file_extent">DDP_FILE_EXTENT</a> structures in the array that the <i>ReadOffsets</i> parameter points to.
+Number of <a href="https://docs.microsoft.com/windows/desktop/api/ddpbackup/ns-ddpbackup-ddp_file_extent">DDP_FILE_EXTENT</a> structures in the array that the <i>ReadOffsets</i> parameter points to.
 
 
 ### -param ReadOffsets [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/ns-ddpbackup-_ddp_file_extent">DDP_FILE_EXTENT</a> structures.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ddpbackup/ns-ddpbackup-ddp_file_extent">DDP_FILE_EXTENT</a> structures.
 
 
 ## -returns
@@ -97,7 +97,7 @@ This method can return standard <b>HRESULT</b> values, such as <b>S_OK</b>. It c
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/ns-ddpbackup-_ddp_file_extent">DDP_FILE_EXTENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddpbackup/ns-ddpbackup-ddp_file_extent">DDP_FILE_EXTENT</a>
 
 
 

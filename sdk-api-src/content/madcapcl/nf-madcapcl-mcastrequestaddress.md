@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: McastRequestAddress, McastRequestAddress function [MADCAP], _mdhcp_mcastrequestaddress, madcap.mcastrequestaddress, madcapcl/McastRequestAddress
 ms.topic: function
-f1_keywords: 
- - "madcapcl/McastRequestAddress"
+f1_keywords:
+- madcapcl/McastRequestAddress
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpcsvc.lib
 req.dll: Dhcpcsvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpcsvc.dll
+- Dhcpcsvc.dll
 api_name:
- - McastRequestAddress
+- McastRequestAddress
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,20 +63,20 @@ The
 ### -param AddrFamily [in]
 
 Specifies the address family to be used in the request, in the form of an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_ipng_address">IPNG_ADDRESS</a> structure. Use AF_INET for IPv4 addresses and AF_INET6 for IPv6 addresses.
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-ipng_address">IPNG_ADDRESS</a> structure. Use AF_INET for IPv4 addresses and AF_INET6 for IPv6 addresses.
 
 
 ### -param pRequestID [in]
 
 Pointer to a unique identifier for the request, in the form of an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_client_uid">MCAST_CLIENT_UID</a> structure. Clients are responsible for ensuring that each request contains a unique identifier; unique identifiers can be obtained by calling the 
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_client_uid">MCAST_CLIENT_UID</a> structure. Clients are responsible for ensuring that each request contains a unique identifier; unique identifiers can be obtained by calling the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/nf-madcapcl-mcastgenuid">McastGenUID</a> function.
 
 
 ### -param pScopeCtx [in]
 
 Pointer to the context of the scope from which the address is to be allocated, in the form of an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_scope_ctx">MCAST_SCOPE_CTX</a> structure. The scope context must be retrieved by calling the 
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_scope_ctx">MCAST_SCOPE_CTX</a> structure. The scope context must be retrieved by calling the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/nf-madcapcl-mcastenumeratescopes">McastEnumerateScopes</a> function prior to calling the 
 <b>McastRequestAddress</b> function.
 
@@ -84,13 +84,13 @@ Pointer to the context of the scope from which the address is to be allocated, i
 ### -param pAddrRequest [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_lease_request">MCAST_LEASE_REQUEST</a> structure containing multicast lease–request parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_lease_request">MCAST_LEASE_REQUEST</a> structure containing multicast lease–request parameters.
 
 
 ### -param pAddrResponse [in, out]
 
 Pointer to a buffer containing response parameters for the multicast address request, in the form of an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_lease_response">MCAST_LEASE_RESPONSE</a> structure. The caller is responsible for allocating sufficient buffer space for the <i>pAddrBuf</i> member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_lease_response">MCAST_LEASE_RESPONSE</a> structure. The caller is responsible for allocating sufficient buffer space for the <i>pAddrBuf</i> member of the 
 <b>MCAST_LEASE_RESPONSE</b> structure to hold the requested number of addresses; the caller is also responsible for setting the pointer to that buffer.
 
 
@@ -120,27 +120,27 @@ Before the
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_ipng_address">IPNG_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-ipng_address">IPNG_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_client_uid">MCAST_CLIENT_UID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_client_uid">MCAST_CLIENT_UID</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_lease_request">MCAST_LEASE_REQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_lease_request">MCAST_LEASE_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_lease_response">MCAST_LEASE_RESPONSE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_lease_response">MCAST_LEASE_RESPONSE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_scope_ctx">MCAST_SCOPE_CTX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_scope_ctx">MCAST_SCOPE_CTX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_scope_entry">MCAST_SCOPE_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_scope_entry">MCAST_SCOPE_ENTRY</a>
 
 
 

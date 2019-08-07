@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_SetNumber, MI_OperationOptions_SetNumber function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetNumber, wmi_v2.mi_operationoptions_setnumber
 ms.topic: function
-f1_keywords: 
- - "mi/MI_OperationOptions_SetNumber"
+f1_keywords:
+- mi/MI_OperationOptions_SetNumber
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_OperationOptions_SetNumber
+- MI_OperationOptions_SetNumber
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Sets a custom number option value.
 
 ### -param options [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
 
 
 ### -param optionName

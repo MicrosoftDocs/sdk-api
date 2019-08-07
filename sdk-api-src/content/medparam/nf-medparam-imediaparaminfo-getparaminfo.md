@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetParamInfo, GetParamInfo method [DirectShow], GetParamInfo method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetParamInfo method, IMediaParamInfo.GetParamInfo, IMediaParamInfo::GetParamInfo, IMediaParamInfoGetParamInfo, dshow.imediaparaminfo_getparaminfo, medparam/IMediaParamInfo::GetParamInfo
 ms.topic: method
-f1_keywords: 
- - "medparam/IMediaParamInfo.GetParamInfo"
+f1_keywords:
+- medparam/IMediaParamInfo.GetParamInfo
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaParamInfo.GetParamInfo
+- IMediaParamInfo.GetParamInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ Zero-based index of the parameter.
 
 ### -param pInfo [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/medparam/ns-medparam-_mp_paraminfo">MP_PARAMINFO</a> structure that is filled with the parameter information.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/medparam/ns-medparam-mp_paraminfo">MP_PARAMINFO</a> structure that is filled with the parameter information.
 
 
 ## -returns

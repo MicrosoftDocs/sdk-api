@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ConstReferenceField, MI_ConstReferenceField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstReferenceField, wmi._mi_constreferencefield, wmi_v2.mi_constreferencefield
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_ConstReferenceField"
+f1_keywords:
+- mi/MI_ConstReferenceField
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_ConstReferenceField
+- MI_ConstReferenceField
 product: Windows
 targetos: Windows
 req.typenames: MI_ConstReferenceField
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a property inside an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> structure.
+Represents a property inside an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Represents a property inside an <a href="https://docs.microsoft.com/previous-ver
 
 ### -field value
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> structure.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
 
 
 ### -field exists
@@ -89,11 +89,11 @@ The element value is <b>NULL</b>.
 
 #### MI_FLAG_BORROW ((1 << 30))
 
-Used while adding and setting properties on an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> structure to indicate that the instance will not copy the value. The value must stay valid until the instance is deleted.
+Used while adding and setting properties on an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure to indicate that the instance will not copy the value. The value must stay valid until the instance is deleted.
 
 
 
 #### MI_FLAG_ADOPT ((1 << 31))
 
-Used while adding and setting properties on an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> structure to indicate that the instance will adopt the pointer and will be responsible for deleting it.
+Used while adding and setting properties on an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure to indicate that the instance will adopt the pointer and will be responsible for deleting it.
 

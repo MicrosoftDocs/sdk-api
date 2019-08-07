@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: 7e10cc9c-7ed4-449d-aeb9-21e3d75d0224
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPIN_ADDR_IPV4, *LPIN_ADDR_IPV4 union [QOS], IN_ADDR_IPV4, IN_ADDR_IPV4 union [QOS], qos.in_addr_ipv4, qossp/*LPIN_ADDR_IPV4, qossp/IN_ADDR_IPV4"
+ms.keywords: '*LPIN_ADDR_IPV4, *LPIN_ADDR_IPV4 union [QOS], IN_ADDR_IPV4, IN_ADDR_IPV4 union [QOS], qos.in_addr_ipv4, qossp/*LPIN_ADDR_IPV4, qossp/IN_ADDR_IPV4'
 ms.topic: struct
-f1_keywords: 
- - "qossp/IN_ADDR_IPV4"
+f1_keywords:
+- qossp/IN_ADDR_IPV4
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qossp.h
+- Qossp.h
 api_name:
- - IN_ADDR_IPV4
+- IN_ADDR_IPV4
 product: Windows
 targetos: Windows
 req.typenames: IN_ADDR_IPV4, *LPIN_ADDR_IPV4
@@ -73,7 +73,7 @@ IPv4 address, expressed as four UCHARs.
 
 
 
-When working with IPv6 addresses, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_in_addr_ipv6">IN_ADDR_IPV6</a>.
+When working with IPv6 addresses, use <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-in_addr_ipv6">IN_ADDR_IPV6</a>.
 
 
 
@@ -83,7 +83,7 @@ When working with IPv6 addresses, use <a href="https://docs.microsoft.com/previo
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_in_addr_ipv6">IN_ADDR_IPV6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-in_addr_ipv6">IN_ADDR_IPV6</a>
  
 
  

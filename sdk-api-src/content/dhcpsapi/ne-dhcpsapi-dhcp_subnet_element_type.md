@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 291be329-0588-4b67-835f-4f2b2369772a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_SUBNET_ELEMENT_TYPE, DHCP_SUBNET_ELEMENT_TYPE, DHCP_SUBNET_ELEMENT_TYPE enumeration [DHCP], DhcpExcludedIpRanges, DhcpIpRanges, DhcpIpRangesBootpOnly, DhcpIpRangesDhcpBootp, DhcpIpRangesDhcpOnly, DhcpReservedIps, DhcpSecondaryHosts, LPDHCP_SUBNET_ELEMENT_TYPE, LPDHCP_SUBNET_ELEMENT_TYPE enumeration pointer [DHCP], dhcp.dhcp_subnet_element_type, dhcpsapi/DHCP_SUBNET_ELEMENT_TYPE, dhcpsapi/DhcpExcludedIpRanges, dhcpsapi/DhcpIpRanges, dhcpsapi/DhcpIpRangesBootpOnly, dhcpsapi/DhcpIpRangesDhcpBootp, dhcpsapi/DhcpIpRangesDhcpOnly, dhcpsapi/DhcpReservedIps, dhcpsapi/DhcpSecondaryHosts, dhcpsapi/LPDHCP_SUBNET_ELEMENT_TYPE"
+ms.keywords: '*LPDHCP_SUBNET_ELEMENT_TYPE, DHCP_SUBNET_ELEMENT_TYPE, DHCP_SUBNET_ELEMENT_TYPE enumeration [DHCP], DhcpExcludedIpRanges, DhcpIpRanges, DhcpIpRangesBootpOnly, DhcpIpRangesDhcpBootp, DhcpIpRangesDhcpOnly, DhcpReservedIps, DhcpSecondaryHosts, LPDHCP_SUBNET_ELEMENT_TYPE, LPDHCP_SUBNET_ELEMENT_TYPE enumeration pointer [DHCP], dhcp.dhcp_subnet_element_type, dhcpsapi/DHCP_SUBNET_ELEMENT_TYPE, dhcpsapi/DhcpExcludedIpRanges, dhcpsapi/DhcpIpRanges, dhcpsapi/DhcpIpRangesBootpOnly, dhcpsapi/DhcpIpRangesDhcpBootp, dhcpsapi/DhcpIpRangesDhcpOnly, dhcpsapi/DhcpReservedIps, dhcpsapi/DhcpSecondaryHosts, dhcpsapi/LPDHCP_SUBNET_ELEMENT_TYPE'
 ms.topic: enum
-f1_keywords: 
- - "dhcpsapi/DHCP_SUBNET_ELEMENT_TYPE"
+f1_keywords:
+- dhcpsapi/DHCP_SUBNET_ELEMENT_TYPE
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_SUBNET_ELEMENT_TYPE
+- DHCP_SUBNET_ELEMENT_TYPE
 product: Windows
 targetos: Windows
 req.typenames: DHCP_SUBNET_ELEMENT_TYPE, *LPDHCP_SUBNET_ELEMENT_TYPE
@@ -102,7 +102,7 @@ The subnet element contains the IP addresses served by BOOTP to the subnet (spec
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_data_v5">DHCP_SUBNET_ELEMENT_DATA_V5</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data_v5">DHCP_SUBNET_ELEMENT_DATA_V5</a>
  
 
  

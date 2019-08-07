@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetServiceState, GetServiceState method [DirectShow], GetServiceState method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetServiceState method, IAMLine21Decoder.GetServiceState, IAMLine21Decoder::GetServiceState, IAMLine21DecoderGetServiceState, dshow.iamline21decoder_getservicestate, il21dec/IAMLine21Decoder::GetServiceState
 ms.topic: method
-f1_keywords: 
- - "il21dec/IAMLine21Decoder.GetServiceState"
+f1_keywords:
+- il21dec/IAMLine21Decoder.GetServiceState
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMLine21Decoder.GetServiceState
+- IAMLine21Decoder.GetServiceState
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ The <code>GetServiceState</code> method indicates whether closed captioning is o
 
 ### -param lpState
 
-Pointer to a variable that receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/il21dec/ne-il21dec-_am_line21_ccstate">AM_LINE21_CCSTATE</a> enumeration.
+Pointer to a variable that receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/il21dec/ne-il21dec-am_line21_ccstate">AM_LINE21_CCSTATE</a> enumeration.
 
 
 ## -returns

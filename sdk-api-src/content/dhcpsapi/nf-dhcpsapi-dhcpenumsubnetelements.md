@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumSubnetElements, DhcpEnumSubnetElements function [DHCP], dhcp.dhcpenumsubnetelements, dhcpsapi/DhcpEnumSubnetElements
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpEnumSubnetElements"
+f1_keywords:
+- dhcpsapi/DhcpEnumSubnetElements
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpEnumSubnetElements
+- DhcpEnumSubnetElements
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -92,7 +92,7 @@ To retrieve all the subnet client elements for the default user and vendor class
 
 ### -param EnumElementInfo [out]
 
-Pointer to a pointer to a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_info_array">DHCP_SUBNET_ELEMENT_INFO_ARRAY</a> structure containing an enumerated list of all elements available for the specified subnet. If no elements are available for enumeration, this value will be null.
+Pointer to a pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_info_array">DHCP_SUBNET_ELEMENT_INFO_ARRAY</a> structure containing an enumerated list of all elements available for the specified subnet. If no elements are available for enumeration, this value will be null.
 
 
 ### -param ElementsRead [out]
@@ -171,7 +171,7 @@ The specified IPv4 subnet does not exist on the DHCP server.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_info_array">DHCP_SUBNET_ELEMENT_INFO_ARRAY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_info_array">DHCP_SUBNET_ELEMENT_INFO_ARRAY</a>
 
 
 

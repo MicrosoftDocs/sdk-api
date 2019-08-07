@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpCreateClass, DhcpCreateClass function [DHCP], dhcp.dhcpcreateclass, dhcpsapi/DhcpCreateClass
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpCreateClass"
+f1_keywords:
+- dhcpsapi/DhcpCreateClass
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpCreateClass
+- DhcpCreateClass
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ Reserved. This field must be set to zero.
 ### -param ClassInfo [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_class_info">DHCP_CLASS_INFO</a> structure that contains the specific option class data.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_class_info">DHCP_CLASS_INFO</a> structure that contains the specific option class data.
 
 
 ## -returns
@@ -130,7 +130,7 @@ The specified class name is already defined on the DHCP server, or the class inf
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_class_info">DHCP_CLASS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_class_info">DHCP_CLASS_INFO</a>
 
 
 

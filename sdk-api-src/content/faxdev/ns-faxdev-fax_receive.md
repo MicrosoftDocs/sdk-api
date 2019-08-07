@@ -8,10 +8,10 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_7pf6.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFAX_RECEIVE, FAX_RECEIVE, FAX_RECEIVE structure [Fax Service], PFAX_RECEIVE, PFAX_RECEIVE structure pointer [Fax Service], _mfax_fax_receive_str, fax._mfax_fax_receive_str, faxdev/FAX_RECEIVE, faxdev/PFAX_RECEIVE"
+ms.keywords: '*PFAX_RECEIVE, FAX_RECEIVE, FAX_RECEIVE structure [Fax Service], PFAX_RECEIVE, PFAX_RECEIVE structure pointer [Fax Service], _mfax_fax_receive_str, fax._mfax_fax_receive_str, faxdev/FAX_RECEIVE, faxdev/PFAX_RECEIVE'
 ms.topic: struct
-f1_keywords: 
- - "faxdev/FAX_RECEIVE"
+f1_keywords:
+- faxdev/FAX_RECEIVE
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FaxDev.h
+- FaxDev.h
 api_name:
- - FAX_RECEIVE
+- FAX_RECEIVE
 product: Windows
 targetos: Windows
 req.typenames: FAX_RECEIVE, *PFAX_RECEIVE
@@ -133,7 +133,7 @@ wcscpy_s(  FaxReceive->ReceiverName, ReceiverName );
 
 
 <img alt="Filling in the memory that the fax service allocates" src="images/faxover.png"/>
-The FSP can reformat the <b>ReceiverName</b> and <b>ReceiverNumber</b> members and transmit the reformatted data to the remote sending device as the called subscriber identifier (CSI) to comply with the recommendation of the standards body of the International Telecommunication Union (ITU) from Study Group 8 (SG8). For more information, see the <b>RoutingInfo</b> and <b>CSI</b> members of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/ns-faxdev-_fax_dev_status">FAX_DEV_STATUS</a> structure.
+The FSP can reformat the <b>ReceiverName</b> and <b>ReceiverNumber</b> members and transmit the reformatted data to the remote sending device as the called subscriber identifier (CSI) to comply with the recommendation of the standards body of the International Telecommunication Union (ITU) from Study Group 8 (SG8). For more information, see the <b>RoutingInfo</b> and <b>CSI</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/faxdev/ns-faxdev-fax_dev_status">FAX_DEV_STATUS</a> structure.
 
 
 
@@ -143,7 +143,7 @@ The FSP can reformat the <b>ReceiverName</b> and <b>ReceiverNumber</b> members a
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/ns-faxdev-_fax_dev_status">FAX_DEV_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/faxdev/ns-faxdev-fax_dev_status">FAX_DEV_STATUS</a>
 
 
 

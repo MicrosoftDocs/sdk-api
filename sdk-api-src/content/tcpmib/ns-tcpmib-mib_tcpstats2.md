@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: A32AA866-406B-4BE0-A4F1-5EBC9DFD646D
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_TCPSTATS2, MIB_TCPSTATS2, MIB_TCPSTATS2 structure [MIB], MIB_TCP_RTO_CONSTANT, MIB_TCP_RTO_OTHER, MIB_TCP_RTO_RSRE, MIB_TCP_RTO_VANJ, PMIB_TCPSTATS2, PMIB_TCPSTATS2 structure pointer [MIB], mib.mib_tcpstats2, tcpmib/MIB_TCPSTATS2, tcpmib/PMIB_TCPSTATS2"
+ms.keywords: '*PMIB_TCPSTATS2, MIB_TCPSTATS2, MIB_TCPSTATS2 structure [MIB], MIB_TCP_RTO_CONSTANT, MIB_TCP_RTO_OTHER, MIB_TCP_RTO_RSRE, MIB_TCP_RTO_VANJ, PMIB_TCPSTATS2, PMIB_TCPSTATS2 structure pointer [MIB], mib.mib_tcpstats2, tcpmib/MIB_TCPSTATS2, tcpmib/PMIB_TCPSTATS2'
 ms.topic: struct
-f1_keywords: 
- - "tcpmib/MIB_TCPSTATS2"
+f1_keywords:
+- tcpmib/MIB_TCPSTATS2
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tcpmib.h
+- Tcpmib.h
 api_name:
- - MIB_TCPSTATS2
+- MIB_TCPSTATS2
 product: Windows
 targetos: Windows
 req.typenames: MIB_TCPSTATS2, *PMIB_TCPSTATS2
@@ -54,7 +54,7 @@ ms.custom: 19H1
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The 
-<b>MIB_TCPSTATS2</b> structure contains statistics for the TCP protocol running on the local computer. This structure is different from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcpstats_lh">MIB_TCPSTATS</a> structure in that it uses 64-bit counters, rather than 32-bit counters.
+<b>MIB_TCPSTATS2</b> structure contains statistics for the TCP protocol running on the local computer. This structure is different from <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcpstats_lh">MIB_TCPSTATS</a> structure in that it uses 64-bit counters, rather than 32-bit counters.
 
 
 ## -struct-fields

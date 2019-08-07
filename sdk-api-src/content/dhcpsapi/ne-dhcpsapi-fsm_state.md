@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COMMUNICATION_INT, CONFLICT_DONE, FSM_STATE, FSM_STATE enumeration [DHCP], INIT, NORMAL, NO_STATE, PARTNER_DOWN, PAUSED, POTENTIAL_CONFLICT, RECOVER, RECOVER_DONE, RECOVER_WAIT, RESOLUTION_INT, SHUTDOWN, STARTUP, dhcp.fsm_state, dhcpsapi/COMMUNICATION_INT, dhcpsapi/CONFLICT_DONE, dhcpsapi/FSM_STATE, dhcpsapi/INIT, dhcpsapi/NORMAL, dhcpsapi/NO_STATE, dhcpsapi/PARTNER_DOWN, dhcpsapi/PAUSED, dhcpsapi/POTENTIAL_CONFLICT, dhcpsapi/RECOVER, dhcpsapi/RECOVER_DONE, dhcpsapi/RECOVER_WAIT, dhcpsapi/RESOLUTION_INT, dhcpsapi/SHUTDOWN, dhcpsapi/STARTUP
 ms.topic: enum
-f1_keywords: 
- - "dhcpsapi/FSM_STATE"
+f1_keywords:
+- dhcpsapi/FSM_STATE
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dhcpsapi.h
+- dhcpsapi.h
 api_name:
- - FSM_STATE
+- FSM_STATE
 product: Windows
 targetos: Windows
 req.typenames: FSM_STATE
@@ -145,7 +145,7 @@ These states are in conformance with the states described in the IETF Failover P
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_failover_relationship">DHCP_FAILOVER_RELATIONSHIP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_failover_relationship">DHCP_FAILOVER_RELATIONSHIP</a>
  
 
  

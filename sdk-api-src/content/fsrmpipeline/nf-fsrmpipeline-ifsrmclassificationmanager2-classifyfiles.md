@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClassifyFiles, ClassifyFiles method [File Server Resource Manager], ClassifyFiles method [File Server Resource Manager],FsrmClassificationManager class, ClassifyFiles method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],ClassifyFiles method, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassifyFiles method, IFsrmClassificationManager2.ClassifyFiles, IFsrmClassificationManager2::ClassifyFiles, fs.ifsrmclassificationmanager2_classifyfiles, fsrm.ifsrmclassificationmanager2_classifyfiles, fsrmpipeline/IFsrmClassificationManager2::ClassifyFiles
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassificationManager2.ClassifyFiles"
+f1_keywords:
+- fsrmpipeline/IFsrmClassificationManager2.ClassifyFiles
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassificationManager2.ClassifyFiles
- - FsrmClassificationManager.ClassifyFiles
+- IFsrmClassificationManager2.ClassifyFiles
+- FsrmClassificationManager.ClassifyFiles
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,7 +83,7 @@ A list of the property values.
 ### -param options [in]
 
 Options for the operation as enumerated by the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmgetfilepropertyoptions">FsrmGetFilePropertyOptions</a> enumeration. The 
+      <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmgetfilepropertyoptions">FsrmGetFilePropertyOptions</a> enumeration. The 
       default value is <b>FsrmGetFilePropertyOptions_None</b>.
 
 
@@ -105,7 +105,7 @@ The method returns the following return values.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmgetfilepropertyoptions">FsrmGetFilePropertyOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmgetfilepropertyoptions">FsrmGetFilePropertyOptions</a>
 
 
 

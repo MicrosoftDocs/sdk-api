@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],GetRule method, GetRule, GetRule method [File Server Resource Manager], GetRule method [File Server Resource Manager],FsrmClassificationManager class, GetRule method [File Server Resource Manager],IFsrmClassificationManager interface, GetRule method [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],GetRule method, IFsrmClassificationManager.GetRule, IFsrmClassificationManager2 interface [File Server Resource Manager],GetRule method, IFsrmClassificationManager2::GetRule, IFsrmClassificationManager::GetRule, fs.ifsrmclassificationmanager_getrule, fsrm.ifsrmclassificationmanager_getrule, fsrmpipeline/IFsrmClassificationManager2::GetRule, fsrmpipeline/IFsrmClassificationManager::GetRule
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassificationManager.GetRule"
+f1_keywords:
+- fsrmpipeline/IFsrmClassificationManager.GetRule
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassificationManager.GetRule
- - IFsrmClassificationManager2.GetRule
- - FsrmClassificationManager.GetRule
+- IFsrmClassificationManager.GetRule
+- IFsrmClassificationManager2.GetRule
+- FsrmClassificationManager.GetRule
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ The name of the rule to retrieve. Must not exceed 100 characters in length.
 ### -param ruleType [in]
 
 The type of the rule to retrieve. For possible types, see the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmruletype">FsrmRuleType</a> enumeration.
+       <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmruletype">FsrmRuleType</a> enumeration.
 
 <div class="alert"><b>Note</b>  The <b>FsrmRuleType_Generic</b> type is not supported by this method.</div>
 <div> </div>

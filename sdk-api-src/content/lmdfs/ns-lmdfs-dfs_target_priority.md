@@ -8,10 +8,10 @@ tech.root: Dfs
 ms.assetid: b8f645ab-e3b4-4e0f-809a-57e27ab1e641
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDFS_TARGET_PRIORITY, DFS_TARGET_PRIORITY, DFS_TARGET_PRIORITY structure [Distributed File System], LPDFS_TARGET_PRIORITY, LPDFS_TARGET_PRIORITY structure pointer [Distributed File System], PDFS_TARGET_PRIORITY, PDFS_TARGET_PRIORITY structure pointer [Distributed File System], dfs.dfs_target_priority, fs.dfs_target_priority, lmdfs/DFS_TARGET_PRIORITY, lmdfs/LPDFS_TARGET_PRIORITY, lmdfs/PDFS_TARGET_PRIORITY, netmgmt.dfs_target_priority"
+ms.keywords: '*PDFS_TARGET_PRIORITY, DFS_TARGET_PRIORITY, DFS_TARGET_PRIORITY structure [Distributed File System], LPDFS_TARGET_PRIORITY, LPDFS_TARGET_PRIORITY structure pointer [Distributed File System], PDFS_TARGET_PRIORITY, PDFS_TARGET_PRIORITY structure pointer [Distributed File System], dfs.dfs_target_priority, fs.dfs_target_priority, lmdfs/DFS_TARGET_PRIORITY, lmdfs/LPDFS_TARGET_PRIORITY, lmdfs/PDFS_TARGET_PRIORITY, netmgmt.dfs_target_priority'
 ms.topic: struct
-f1_keywords: 
- - "lmdfs/DFS_TARGET_PRIORITY"
+f1_keywords:
+- lmdfs/DFS_TARGET_PRIORITY
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - LmDfs.h
+- LmDfs.h
 api_name:
- - DFS_TARGET_PRIORITY
+- DFS_TARGET_PRIORITY
 product: Windows
 targetos: Windows
 req.typenames: DFS_TARGET_PRIORITY, *PDFS_TARGET_PRIORITY
@@ -82,9 +82,9 @@ This member is reserved and must be zero.
 
 
 This structure is used as the <b>TargetPriority</b> member of the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_104">DFS_INFO_104</a>, 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_106">DFS_INFO_106</a>, and 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_storage_info_1">DFS_STORAGE_INFO_1</a> structures. There are no functions 
+    <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_104">DFS_INFO_104</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_106">DFS_INFO_106</a>, and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_storage_info_1">DFS_STORAGE_INFO_1</a> structures. There are no functions 
     that use this structure directly.
 
 The order of priority classes from highest to lowest is as follows:
@@ -126,15 +126,15 @@ For more information about how server target priority is determined, see
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_104">DFS_INFO_104</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_104">DFS_INFO_104</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_106">DFS_INFO_106</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_106">DFS_INFO_106</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_storage_info_1">DFS_STORAGE_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_storage_info_1">DFS_STORAGE_INFO_1</a>
 
 
 

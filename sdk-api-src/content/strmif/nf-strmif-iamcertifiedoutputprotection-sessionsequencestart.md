@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],SessionSequenceStart method, IAMCertifiedOutputProtection.SessionSequenceStart, IAMCertifiedOutputProtection::SessionSequenceStart, IAMCertifiedOutputProtectionSessionSequenceStart, SessionSequenceStart, SessionSequenceStart method [DirectShow], SessionSequenceStart method [DirectShow],IAMCertifiedOutputProtection interface, dshow.iamcertifiedoutputprotection_sessionsequencestart, strmif/IAMCertifiedOutputProtection::SessionSequenceStart
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMCertifiedOutputProtection.SessionSequenceStart"
+f1_keywords:
+- strmif/IAMCertifiedOutputProtection.SessionSequenceStart
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMCertifiedOutputProtection.SessionSequenceStart
+- IAMCertifiedOutputProtection.SessionSequenceStart
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <code>SessionSequenceStart</code> method initiates the COPP session with the
 
 ### -param pSig [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_amcoppsignature">AMCOPPSignature</a> structure. Fill this structure as described in the Remarks session.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-amcoppsignature">AMCOPPSignature</a> structure. Fill this structure as described in the Remarks session.
 
 
 ## -returns

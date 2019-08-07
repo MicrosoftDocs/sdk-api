@@ -62,7 +62,7 @@ The
 
 ### -param Row
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_lh">MIB_TCPROW</a> structure for an IPv4 TCP connection. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a> structure for an IPv4 TCP connection. 
 
 
 ### -param EstatsType
@@ -253,7 +253,7 @@ The <i>Offset</i> parameter is currently unused and must be set to 0. The possib
 
 If the <i>RwSize</i> parameter is set to 0, the <b>SetPerTcpConnectionEStats</b> function  returns NO_ERROR and makes no changes tothe extended statistics status.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable">GetTcpTable</a> function is used to retrieve the IPv4 TCP connection table on the local computer. This function returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable">MIB_TCPTABLE</a> structure that contain an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_lh">MIB_TCPROW</a> entries. The <i>Row</i> parameter passed to the <b>SetPerTcpConnectionEStats</b> function must be an entry for an existing IPv4 TCP connection.
+The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable">GetTcpTable</a> function is used to retrieve the IPv4 TCP connection table on the local computer. This function returns a <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable">MIB_TCPTABLE</a> structure that contain an array of <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a> entries. The <i>Row</i> parameter passed to the <b>SetPerTcpConnectionEStats</b> function must be an entry for an existing IPv4 TCP connection.
 
 Once extended statistics are enabled on a TCP connection for IPv4, applications call the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a> function to retrieve extended statistics on the TCP connection.
 
@@ -291,7 +291,7 @@ The <b>SetPerTcpConnectionEStats</b> function can only be called by a user logge
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_lh">MIB_TCPROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a>
 
 
 

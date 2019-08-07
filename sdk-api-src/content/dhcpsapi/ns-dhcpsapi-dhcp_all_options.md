@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: b02e3582-c99b-4d5a-aaae-c2fefd7dfaf9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_ALL_OPTIONS, DHCP_ALL_OPTIONS, DHCP_ALL_OPTIONS structure [DHCP], LPDHCP_ALL_OPTIONS, LPDHCP_ALL_OPTIONS structure pointer [DHCP], dhcp.dhcp_all_options, dhcpsapi/LPDHCP_ALL_OPTIONS, dhcpsapi/_DHCP_ALL_OPTIONS"
+ms.keywords: '*LPDHCP_ALL_OPTIONS, DHCP_ALL_OPTIONS, DHCP_ALL_OPTIONS structure [DHCP], LPDHCP_ALL_OPTIONS, LPDHCP_ALL_OPTIONS structure pointer [DHCP], dhcp.dhcp_all_options, dhcpsapi/LPDHCP_ALL_OPTIONS, dhcpsapi/_DHCP_ALL_OPTIONS'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_ALL_OPTIONS"
+f1_keywords:
+- dhcpsapi/DHCP_ALL_OPTIONS
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_ALL_OPTIONS
+- DHCP_ALL_OPTIONS
 product: Windows
 targetos: Windows
 req.typenames: DHCP_ALL_OPTIONS, *LPDHCP_ALL_OPTIONS
@@ -67,7 +67,7 @@ Reserved. This value should be set to 0.
 ### -field NonVendorOptions
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_array">DHCP_OPTION_ARRAY</a> structure that contains the set of non-vendor options.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_array">DHCP_OPTION_ARRAY</a> structure that contains the set of non-vendor options.
 
 
 ### -field NumVendorOptions
@@ -116,7 +116,7 @@ Pointer to a list of structures that contain the following fields.
 #### Option
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option">DHCP_OPTION</a> structure that contains specific information describing the option.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option">DHCP_OPTION</a> structure that contains specific information describing the option.
 
 
 

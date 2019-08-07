@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumSubnetClientsV4, DhcpEnumSubnetClientsV4 function [DHCP], dhcp.dhcpenumsubnetclientsv4, dhcpsapi/DhcpEnumSubnetClientsV4
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpEnumSubnetClientsV4"
+f1_keywords:
+- dhcpsapi/DhcpEnumSubnetClientsV4
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpEnumSubnetClientsV4
+- DhcpEnumSubnetClientsV4
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DhcpEnumSubnetClientsV4</b> function  returns an enumerated list of client lease records with served IP addresses in the specified subnet. This function extends the functionality provided in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumsubnetclients">DhcpEnumSubnetClients</a> by returning a list  of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_v4">DHCP_CLIENT_INFO_V4</a> structures that contain the specific client type (DHCP and/or BOOTP).
+The <b>DhcpEnumSubnetClientsV4</b> function  returns an enumerated list of client lease records with served IP addresses in the specified subnet. This function extends the functionality provided in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumsubnetclients">DhcpEnumSubnetClients</a> by returning a list  of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_v4">DHCP_CLIENT_INFO_V4</a> structures that contain the specific client type (DHCP and/or BOOTP).
 
 
 ## -parameters
@@ -86,7 +86,7 @@ To retrieve all the subnet client elements for the default user and vendor class
 
 ### -param ClientInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_array_v4">DHCP_CLIENT_INFO_ARRAY_V4</a> structure that contains the DHCPv4 client lease record array. If no clients are available, this field will be null.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_array_v4">DHCP_CLIENT_INFO_ARRAY_V4</a> structure that contains the DHCPv4 client lease record array. If no clients are available, this field will be null.
 
 
 ### -param ClientsRead [out]
@@ -174,7 +174,7 @@ The caller of this function must free the memory for <i>ClientInfo</i> after the
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_array_v4">DHCP_CLIENT_INFO_ARRAY_V4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_array_v4">DHCP_CLIENT_INFO_ARRAY_V4</a>
 
 
 

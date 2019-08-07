@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Application_NewInstanceFromClass, MI_Application_NewInstanceFromClass function [Windows Management Infrastructure (MI)], mi/MI_Application_NewInstanceFromClass, wmi_v2.mi_application_newinstancefromclass
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Application_NewInstanceFromClass"
+f1_keywords:
+- mi/MI_Application_NewInstanceFromClass
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Application_NewInstanceFromClass
+- MI_Application_NewInstanceFromClass
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> object based on a class object.
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> object based on a class object.
 
 
 ## -parameters

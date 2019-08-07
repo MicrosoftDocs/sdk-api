@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Session_Subscribe, MI_Session_Subscribe function [Windows Management Infrastructure (MI)], mi/MI_Session_Subscribe, wmi_v2.mi_session_subscribe
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Session_Subscribe"
+f1_keywords:
+- mi/MI_Session_Subscribe
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Session_Subscribe
+- MI_Session_Subscribe
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ Runtime type information (RTTI) <a href="https://docs.microsoft.com/previous-ver
 
 ### -param options [in, optional]
 
-Optional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a> value that specifies options such as timeouts and how to control the CIM semantics. Specify <b>Null</b> if no operation options are to be sent.
+Optional <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> value that specifies options such as timeouts and how to control the CIM semantics. Specify <b>Null</b> if no operation options are to be sent.
 
 
 ### -param namespaceName
@@ -91,12 +91,12 @@ An optional, null-terminated string that represents the query expression to be c
 
 ### -param deliverOptions [in, optional]
 
-Optional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> structure that defines the subscription delivery options. For WMI DCOM transport, this value can be <b>Null</b>. For WinRM, this specifies settings such as delivery mode and push delivery credentials.
+Optional <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> structure that defines the subscription delivery options. For WMI DCOM transport, this value can be <b>Null</b>. For WinRM, this specifies settings such as delivery mode and push delivery credentials.
 
 
 ### -param callbacks [in, optional]
 
-Optional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationcallbacks">MI_OperationCallbacks</a> structure that defines the operational callbacks to receive the instance result and CIM semantics. To carry out the operation asynchronously, the structure's <b>indicationResult</b> callback member must be specified. If this member is not specified, the client must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getindication">MI_Operation_GetIndication</a> function to retrieve the results.
+Optional <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationcallbacks">MI_OperationCallbacks</a> structure that defines the operational callbacks to receive the instance result and CIM semantics. To carry out the operation asynchronously, the structure's <b>indicationResult</b> callback member must be specified. If this member is not specified, the client must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getindication">MI_Operation_GetIndication</a> function to retrieve the results.
 
 
 ### -param operation [out]
@@ -122,7 +122,7 @@ You must have Audit privileges to use this function if specifying the push subsc
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationcallbacks">MI_OperationCallbacks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationcallbacks">MI_OperationCallbacks</a>
 
 
 

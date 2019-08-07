@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeinterlaceModeCaps, GetDeinterlaceModeCaps method [DirectShow], GetDeinterlaceModeCaps method [DirectShow],IVMRDeinterlaceControl interface, IVMRDeinterlaceControl interface [DirectShow],GetDeinterlaceModeCaps method, IVMRDeinterlaceControl.GetDeinterlaceModeCaps, IVMRDeinterlaceControl::GetDeinterlaceModeCaps, IVMRDeinterlaceControlGetDeinterlaceModeCaps, dshow.ivmrdeinterlacecontrol_getdeinterlacemodecaps, strmif/IVMRDeinterlaceControl::GetDeinterlaceModeCaps
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRDeinterlaceControl.GetDeinterlaceModeCaps"
+f1_keywords:
+- strmif/IVMRDeinterlaceControl.GetDeinterlaceModeCaps
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRDeinterlaceControl.GetDeinterlaceModeCaps
+- IVMRDeinterlaceControl.GetDeinterlaceModeCaps
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,12 +68,12 @@ Pointer to a GUID that identifies the deinterlacing mode. Call the <a href="http
 
 ### -param lpVideoDescription [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmrvideodesc">VMRVideoDesc</a> structure describing the video to deinterlace. Set the <b>dwSize</b> member of the structure before calling the method. 
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrvideodesc">VMRVideoDesc</a> structure describing the video to deinterlace. Set the <b>dwSize</b> member of the structure before calling the method. 
 
 
 ### -param lpDeinterlaceCaps [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmrdeinterlacecaps">VMRDeinterlaceCaps</a> structure. Set the <b>dwSize</b> member of the structure before calling the method. The method fills the structure with information about the specified deinterlacing mode.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrdeinterlacecaps">VMRDeinterlaceCaps</a> structure. Set the <b>dwSize</b> member of the structure before calling the method. The method fills the structure with information about the specified deinterlacing mode.
 
 
 ## -returns
@@ -163,7 +163,7 @@ The VMR is not in mixer mode.
 
 
 
-The method returns <b>E_INVALIDARG</b> if you do not set the <b>dwSize</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmrvideodesc">VMRVideoDesc</a> and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmrdeinterlacecaps">VMRDeinterlaceCaps</a> structures.
+The method returns <b>E_INVALIDARG</b> if you do not set the <b>dwSize</b> member in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrvideodesc">VMRVideoDesc</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrdeinterlacecaps">VMRDeinterlaceCaps</a> structures.
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPM_CommitResv, LPM_CommitResv callback, LPM_CommitResv callback function [QOS], RESOURCES_ALLOCATED, RESOURCES_MODIFIED, _gqos_lpm_commitresv, lpmapi/LPM_CommitResv, qos.lpm_commitresv
 ms.topic: function
-f1_keywords: 
- - "lpmapi/LPM_CommitResv"
+f1_keywords:
+- lpmapi/LPM_CommitResv
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - LPM_CommitResv
+- LPM_CommitResv
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -88,7 +88,7 @@ Array of filter specs, listing the senders for whom the flow is created.
 ### -param pMergedFlowSpec [in]
 
 The 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structure installed on the specified interface. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure installed on the specified interface. The 
 <b>FLOWSPEC</b> structure is a merged flow for all receivers that can be reached by <i>FlowInstalledIntf</i>.
 
 
@@ -133,7 +133,7 @@ When the resources are allocated by the SBM for a new reservation, it calls LPMs
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
  
 
  

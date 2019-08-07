@@ -190,19 +190,19 @@ When the <i>ulAf</i> parameter is set to <b>AF_INET</b>, the following table ind
 <tr>
 <td><b>UDP_TABLE_BASIC</b></td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udptable">MIB_UDPTABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udptable">MIB_UDPTABLE</a>
 </td>
 </tr>
 <tr>
 <td><b>UDP_TABLE_OWNER_MODULE</b></td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udptable_owner_module">MIB_UDPTABLE_OWNER_MODULE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udptable_owner_module">MIB_UDPTABLE_OWNER_MODULE</a>
 </td>
 </tr>
 <tr>
 <td><b>UDP_TABLE_OWNER_PID</b></td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udptable_owner_pid">MIB_UDPTABLE_OWNER_PID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udptable_owner_pid">MIB_UDPTABLE_OWNER_PID</a>
 </td>
 </tr>
 </table>
@@ -221,19 +221,19 @@ When the <i>ulAf</i> parameter is set to <b>AF_INET</b>, the following table ind
 <tr>
 <td><b>UDP_TABLE_BASIC</b></td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udp6table">MIB_UDP6TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udp6table">MIB_UDP6TABLE</a>
 </td>
 </tr>
 <tr>
 <td><b>UDP_TABLE_OWNER_MODULE</b></td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udp6table_owner_module">MIB_UDP6TABLE_OWNER_MODULE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udp6table_owner_module">MIB_UDP6TABLE_OWNER_MODULE</a>
 </td>
 </tr>
 <tr>
 <td><b>UDP_TABLE_OWNER_PID</b></td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udp6table_owner_pid">MIB_UDP6TABLE_OWNER_PID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udp6table_owner_pid">MIB_UDP6TABLE_OWNER_PID</a>
 </td>
 </tr>
 </table>
@@ -245,7 +245,7 @@ The <b>GetExtendedUdpTable</b> function when called with the <i>ulAf</i> paramet
 
 On Windows Server 2003 with Service Pack 1 (SP1) and Windows XP with Service Pack 2 (SP2), the <b>GetExtendedUdpTable</b> function called with the <i>ulAf</i> parameter set to <b>AF_INET6</b> and the <i>TableClass</i> set to <b>UDP_TABLE_BASIC</b> fails and returns <b>ERROR_NOT_SUPPORTED</b>.
 
-On the Windows SDK released for Windows Vistaand later, the organization of header files has changed. The various <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udptable">MIB_UDPTABLE</a>  structures are defined in the <i>Udpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Udpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Udpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
+On the Windows SDK released for Windows Vistaand later, the organization of header files has changed. The various <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udptable">MIB_UDPTABLE</a>  structures are defined in the <i>Udpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Udpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Udpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
 
 
@@ -255,27 +255,27 @@ On the Windows SDK released for Windows Vistaand later, the organization of hea
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udp6table">MIB_UDP6TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udp6table">MIB_UDP6TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udp6table_owner_module">MIB_UDP6TABLE_OWNER_MODULE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udp6table_owner_module">MIB_UDP6TABLE_OWNER_MODULE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udp6table_owner_pid">MIB_UDP6TABLE_OWNER_PID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udp6table_owner_pid">MIB_UDP6TABLE_OWNER_PID</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udptable">MIB_UDPTABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udptable">MIB_UDPTABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udptable_owner_module">MIB_UDPTABLE_OWNER_MODULE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udptable_owner_module">MIB_UDPTABLE_OWNER_MODULE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udptable_owner_pid">MIB_UDPTABLE_OWNER_PID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udptable_owner_pid">MIB_UDPTABLE_OWNER_PID</a>
 
 
 

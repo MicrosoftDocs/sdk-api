@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKnowledgeSyncProvider interface [Windows Sync],ProcessFullEnumerationChangeBatch method, IKnowledgeSyncProvider.ProcessFullEnumerationChangeBatch, IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch, ProcessFullEnumerationChangeBatch, ProcessFullEnumerationChangeBatch method [Windows Sync], ProcessFullEnumerationChangeBatch method [Windows Sync],IKnowledgeSyncProvider interface, winsync.iknowledgesyncprovider_processfullenumerationchangebatch, winsync/IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch
 ms.topic: method
-f1_keywords: 
- - "winsync/IKnowledgeSyncProvider.ProcessFullEnumerationChangeBatch"
+f1_keywords:
+- winsync/IKnowledgeSyncProvider.ProcessFullEnumerationChangeBatch
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IKnowledgeSyncProvider.ProcessFullEnumerationChangeBatch
+- IKnowledgeSyncProvider.ProcessFullEnumerationChangeBatch
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -142,7 +142,7 @@ This method is called during forgotten knowledge recovery.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_sync_range">SYNC RANGE Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_range">SYNC RANGE Structure</a>
  
 
  

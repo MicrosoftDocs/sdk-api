@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetServiceState, GetServiceState method [DirectShow], GetServiceState method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetServiceState method, IAMWstDecoder.GetServiceState, IAMWstDecoder::GetServiceState, IAMWstDecoderGetServiceState, dshow.iamwstdecoder_getservicestate, iwstdec/IAMWstDecoder::GetServiceState
 ms.topic: method
-f1_keywords: 
- - "iwstdec/IAMWstDecoder.GetServiceState"
+f1_keywords:
+- iwstdec/IAMWstDecoder.GetServiceState
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMWstDecoder.GetServiceState
+- IAMWstDecoder.GetServiceState
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Applications use the <code>GetServiceState</code> method to retrieve the current
 
 ### -param lpState [out]
 
-Pointer to a variable that receives the state, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/ne-iwstdec-_am_wst_state">AM_WST_STATE</a> enumeration. The following values are possible.
+Pointer to a variable that receives the state, specified as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-am_wst_state">AM_WST_STATE</a> enumeration. The following values are possible.
 
 <table>
 <tr>

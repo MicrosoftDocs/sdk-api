@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerConfigBlob2Xml, EapHostPeerConfigBlob2Xml function [EAPHost], eaphost.eaphostpeerconfigblob2xml, eaphostpeerconfigapis/EapHostPeerConfigBlob2Xml
 ms.topic: function
-f1_keywords: 
- - "eaphostpeerconfigapis/EapHostPeerConfigBlob2Xml"
+f1_keywords:
+- eaphostpeerconfigapis/EapHostPeerConfigBlob2Xml
 req.header: eaphostpeerconfigapis.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Eappcfg.lib
 req.dll: Eappcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - eappcfg.dll
+- eappcfg.dll
 api_name:
- - EapHostPeerConfigBlob2Xml
+- EapHostPeerConfigBlob2Xml
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,7 +78,7 @@ Not used. Set to 0.
 
 ### -param eapMethodType [in]
 
-Refers to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_type">EAP_METHOD_TYPE</a> structure that is referred to in the XML document. 
+Refers to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a> structure that is referred to in the XML document. 
 
 
 ### -param dwSizeOfConfigIn [in]
@@ -99,7 +99,7 @@ A pointer to a pointer to an XML document that  contains the converted configura
 
 ### -param ppEapError [out]
 
-A pointer to a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreeerrormemory">EapHostPeerFreeErrorMemory</a>.
+A pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreeerrormemory">EapHostPeerFreeErrorMemory</a>.
 
 
 ## -see-also

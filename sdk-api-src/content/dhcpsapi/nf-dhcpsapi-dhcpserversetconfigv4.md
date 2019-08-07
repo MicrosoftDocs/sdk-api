@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpServerSetConfigV4, DhcpServerSetConfigV4 function [DHCP], Set_APIProtocolSupport, Set_AuditLogState, Set_BackupInterval, Set_BackupPath, Set_BootFileTable, Set_DatabaseCleanupInterval, Set_DatabaseLoggingFlag, Set_DatabaseName, Set_DatabasePath, Set_DebugFlag, Set_PingRetries, Set_RestoreFlag, dhcp.dhcpserversetconfigv4, dhcpsapi/DhcpServerSetConfigV4
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpServerSetConfigV4"
+f1_keywords:
+- dhcpsapi/DhcpServerSetConfigV4
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpServerSetConfigV4
+- DhcpServerSetConfigV4
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 
 ### -param FieldsToSet [in]
 
-Specifies a set of bit flags that indicate which fields in <i>ConfigInfo</i> are set. If a flag is present, the corresponding field must also be populated in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a> structure referenced by <i>ConfigInfo</i>, and will be used to set the same value on the DHCP server,
+Specifies a set of bit flags that indicate which fields in <i>ConfigInfo</i> are set. If a flag is present, the corresponding field must also be populated in the <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a> structure referenced by <i>ConfigInfo</i>, and will be used to set the same value on the DHCP server,
 
 <table>
 <tr>
@@ -212,7 +212,7 @@ The <b>AuditLogState</b> field is populated.
 ### -param ConfigInfo [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a> structure that contains the specific DHCP server configuration settings as indicated by the bit flags set in <i>FieldsToSet</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a> structure that contains the specific DHCP server configuration settings as indicated by the bit flags set in <i>FieldsToSet</i>.
 
 
 ## -returns
@@ -270,7 +270,7 @@ One of the parameters provides an invalid value.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a>
 
 
 

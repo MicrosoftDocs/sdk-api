@@ -61,7 +61,7 @@ The <b>GetOwnerModuleFromTcp6Entry</b> function retrieves data about the module 
 
 ### -param pTcpEntry [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6row_owner_module">MIB_TCP6ROW_OWNER_MODULE</a> structure that contains the IPv6 TCP endpoint entry used to obtain the owner module.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6row_owner_module">MIB_TCP6ROW_OWNER_MODULE</a> structure that contains the IPv6 TCP endpoint entry used to obtain the owner module.
 
 
 ### -param Class [in]
@@ -152,7 +152,7 @@ Not enough memory is available to complete the operation.
 </dl>
 </td>
 <td width="60%">
-The element was not found. This value is returned if the  <b>dwOwningPid</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6row_owner_module">MIB_TCP6ROW_OWNER_MODULE</a> pointed to by the <i>pTcpEntry</i> parameter was zero or could not be found. 
+The element was not found. This value is returned if the  <b>dwOwningPid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6row_owner_module">MIB_TCP6ROW_OWNER_MODULE</a> pointed to by the <i>pTcpEntry</i> parameter was zero or could not be found. 
 
 </td>
 </tr>
@@ -193,7 +193,7 @@ For computers running on Windows Vista or later, accessing the <b>pModuleName</
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6row_owner_module">MIB_TCP6ROW_OWNER_MODULE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6row_owner_module">MIB_TCP6ROW_OWNER_MODULE</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_PropertySet, MI_PropertySet structure [Windows Management Infrastructure (MI)], mi/MI_PropertySet, wmi._mi_propertyset, wmi_v2.mi_propertyset
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_PropertySet"
+f1_keywords:
+- mi/MI_PropertySet
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_PropertySet
+- MI_PropertySet
 product: Windows
 targetos: Windows
 req.typenames: MI_PropertySet
@@ -61,7 +61,7 @@ Implements a set of property names.
 
 ### -field ft
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_propertysetft">MI_PropertySetFT</a> function table.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_propertysetft">MI_PropertySetFT</a> function table.
 
 
 ### -field reserved

@@ -8,10 +8,10 @@ tech.root: ics
 ms.assetid: 0567fb66-0511-4c80-9e31-2412507ced97
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PINET_FIREWALL_APP_CONTAINER, INET_FIREWALL_APP_CONTAINER, INET_FIREWALL_APP_CONTAINER structure [ICS/ICF], PINET_FIREWALL_APP_CONTAINER, PINET_FIREWALL_APP_CONTAINER structure pointer [ICS/ICF], _INET_FIREWALL_APP_CONTAINER, ics.inet_firewall_app_container, networkisolation/INET_FIREWALL_APP_CONTAINER, networkisolation/PINET_FIREWALL_APP_CONTAINER"
+ms.keywords: '*PINET_FIREWALL_APP_CONTAINER, INET_FIREWALL_APP_CONTAINER, INET_FIREWALL_APP_CONTAINER structure [ICS/ICF], PINET_FIREWALL_APP_CONTAINER, PINET_FIREWALL_APP_CONTAINER structure pointer [ICS/ICF], _INET_FIREWALL_APP_CONTAINER, ics.inet_firewall_app_container, networkisolation/INET_FIREWALL_APP_CONTAINER, networkisolation/PINET_FIREWALL_APP_CONTAINER'
 ms.topic: struct
-f1_keywords: 
- - "netfw/INET_FIREWALL_APP_CONTAINER"
+f1_keywords:
+- netfw/INET_FIREWALL_APP_CONTAINER
 req.header: netfw.h
 req.include-header: Netfw.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - networkisolation.h
+- networkisolation.h
 api_name:
- - INET_FIREWALL_APP_CONTAINER
+- INET_FIREWALL_APP_CONTAINER
 product: Windows
 targetos: Windows
 req.typenames: INET_FIREWALL_APP_CONTAINER, *PINET_FIREWALL_APP_CONTAINER
@@ -105,7 +105,7 @@ The capabilities of the app container.
 
 ### -field binaries
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ns-netfw-_inet_firewall_ac_binaries">INET_FIREWALL_AC_BINARIES</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/netfw/ns-netfw-inet_firewall_ac_binaries">INET_FIREWALL_AC_BINARIES</a></b>
 
 Binary paths to the applications running in the app container.
 
@@ -127,7 +127,7 @@ Binary paths to the applications running in the app container.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ns-netfw-_inet_firewall_ac_binaries">INET_FIREWALL_AC_BINARIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/ns-netfw-inet_firewall_ac_binaries">INET_FIREWALL_AC_BINARIES</a>
 
 
 

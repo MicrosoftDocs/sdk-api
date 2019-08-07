@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Session_AssociatorInstances, MI_Session_AssociatorInstances function [Windows Management Infrastructure (MI)], mi/MI_Session_AssociatorInstances, wmi_v2.mi_session_associatorinstances
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Session_AssociatorInstances"
+f1_keywords:
+- mi/MI_Session_AssociatorInstances
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Session_AssociatorInstances
+- MI_Session_AssociatorInstances
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ Runtime type information (RTTI) <a href="https://docs.microsoft.com/previous-ver
 
 ### -param options [in, optional]
 
-Optional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a> value that specifies options such as timeouts and how to control the CIM semantics. Specify NULL if no operation options are to be sent.
+Optional <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> value that specifies options such as timeouts and how to control the CIM semantics. Specify NULL if no operation options are to be sent.
 
 
 ### -param namespaceName
@@ -81,7 +81,7 @@ A null-terminated string that contains the optional namespace name to carry out 
 
 ### -param instanceKey [in]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> that represents the class name and the keys of the instance where the association will start.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> that represents the class name and the keys of the instance where the association will start.
 
 
 ### -param assocClass
@@ -111,7 +111,7 @@ If set to MI_TRUE the operation will only retrieve the key properties of the ins
 
 ### -param callbacks [in, optional]
 
-Optional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationcallbacks">MI_OperationCallbacks</a> structure that defines the operational callbacks to receive the instance result and CIM semantics. For asynchronous operation, the callback must be specified. For synchronous operation, specify NULL; the client must then call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getinstance">MI_Operation_GetInstance</a> to retrieve the results.
+Optional <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationcallbacks">MI_OperationCallbacks</a> structure that defines the operational callbacks to receive the instance result and CIM semantics. For asynchronous operation, the callback must be specified. For synchronous operation, specify NULL; the client must then call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getinstance">MI_Operation_GetInstance</a> to retrieve the results.
 
 
 ### -param operation [out]

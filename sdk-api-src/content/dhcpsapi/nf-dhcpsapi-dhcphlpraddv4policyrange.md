@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpHlprAddV4PolicyRange, DhcpHlprAddV4PolicyRange function [DHCP], dhcp.dhcphlpraddv4policyrange, dhcpsapi/DhcpHlprAddV4PolicyRange
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpHlprAddV4PolicyRange"
+f1_keywords:
+- dhcpsapi/DhcpHlprAddV4PolicyRange
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpHlprAddV4PolicyRange
+- DhcpHlprAddV4PolicyRange
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,12 +61,12 @@ The <b>DhcpHlprAddV4PolicyRange</b> function adds a DHCP IPv4 range to a DHCP se
 
 ### -param Policy [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_policy">DHCP_POLICY</a> structure that contains the policy to modify.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_policy">DHCP_POLICY</a> structure that contains the policy to modify.
 
 
 ### -param Range [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_range">DHCP_IP_RANGE</a> structure that contains the DHCP IPv4 range to add to the DHCP server policy range array.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_range">DHCP_IP_RANGE</a> structure that contains the DHCP IPv4 range to add to the DHCP server policy range array.
 
 
 ## -returns

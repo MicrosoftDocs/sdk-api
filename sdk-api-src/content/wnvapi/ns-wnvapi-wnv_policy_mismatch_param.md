@@ -8,10 +8,10 @@ tech.root: wnv
 ms.assetid: 2781B0D6-950E-49AD-9B30-31DE4A27ED4A
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWNV_POLICY_MISMATCH_PARAM, PWNV_POLICY_MISMATCH_PARAM, PWNV_POLICY_MISMATCH_PARAM structure pointer [Windows Network Virtualization], WNV_POLICY_MISMATCH_PARAM, WNV_POLICY_MISMATCH_PARAM structure [Windows Network Virtualization], wnv.wnv_policy_mismatch_param, wnvapi/PWNV_POLICY_MISMATCH_PARAM, wnvapi/WNV_POLICY_MISMATCH_PARAM"
+ms.keywords: '*PWNV_POLICY_MISMATCH_PARAM, PWNV_POLICY_MISMATCH_PARAM, PWNV_POLICY_MISMATCH_PARAM structure pointer [Windows Network Virtualization], WNV_POLICY_MISMATCH_PARAM, WNV_POLICY_MISMATCH_PARAM structure [Windows Network Virtualization], wnv.wnv_policy_mismatch_param, wnvapi/PWNV_POLICY_MISMATCH_PARAM, wnvapi/WNV_POLICY_MISMATCH_PARAM'
 ms.topic: struct
-f1_keywords: 
- - "wnvapi/WNV_POLICY_MISMATCH_PARAM"
+f1_keywords:
+- wnvapi/WNV_POLICY_MISMATCH_PARAM
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wnvapi.h
+- wnvapi.h
 api_name:
- - WNV_POLICY_MISMATCH_PARAM
+- WNV_POLICY_MISMATCH_PARAM
 product: Windows
 targetos: Windows
 req.typenames: WNV_POLICY_MISMATCH_PARAM, *PWNV_POLICY_MISMATCH_PARAM
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the parameters of an event (typically an incoming packet) that causes the Windows Network Virtualization (WNV) driver to generate a <b>WnvPolicyMismatchType</b> notification. As a result, the WNV driver fills the buffer that is passed in the <i>NotificationParam</i> argument's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_notification_param">WNV_NOTIFICATION_PARAM</a> structure with one or more instances of this structure and completes the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/nf-wnvapi-wnvrequestnotification">WnvRequestNotification</a> function call.
+Specifies the parameters of an event (typically an incoming packet) that causes the Windows Network Virtualization (WNV) driver to generate a <b>WnvPolicyMismatchType</b> notification. As a result, the WNV driver fills the buffer that is passed in the <i>NotificationParam</i> argument's <a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_notification_param">WNV_NOTIFICATION_PARAM</a> structure with one or more instances of this structure and completes the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/nf-wnvapi-wnvrequestnotification">WnvRequestNotification</a> function call.
 
 
 ## -struct-fields
@@ -82,14 +82,14 @@ The identifier of a customer virtual subnet. This value ranges from 4096 (0x0000
 
 ### -field CA
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_ip_address">WNV_IP_ADDRESS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_ip_address">WNV_IP_ADDRESS</a></b>
 
 The IP address object for the customer address, which is the IP address configured on the virtual machine for network virtualization.
 
 
 ### -field PA
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_ip_address">WNV_IP_ADDRESS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_ip_address">WNV_IP_ADDRESS</a></b>
 
 The IP address object for the provider address, which is the matching IP address used on the physical network for the customer address.
 
@@ -108,7 +108,7 @@ For a detailed description of network virtualization concepts and terminology, s
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ne-wnvapi-_wnv_notification_type">WNV_NOTIFICATION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ne-wnvapi-wnv_notification_type">WNV_NOTIFICATION_TYPE</a>
  
 
  

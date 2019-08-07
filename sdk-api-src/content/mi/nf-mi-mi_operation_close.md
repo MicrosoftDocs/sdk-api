@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Operation_Close, MI_Operation_Close function [Windows Management Infrastructure (MI)], mi/MI_Operation_Close, wmi_v2.mi_operation_close
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Operation_Close"
+f1_keywords:
+- mi/MI_Operation_Close
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Operation_Close
+- MI_Operation_Close
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ Closes an operation handle.
 ### -param operation [in, out]
 
 A pointer to an operation handle that was returned from a call to one of the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_session">MI_Session</a> operation functions. For asynchronous 
+      <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_session">MI_Session</a> operation functions. For asynchronous 
       callbacks, it can also be the operation handle that is passed into the callback.
 
 
@@ -70,7 +70,7 @@ A pointer to an operation handle that was returned from a call to one of the
 
 
 
-A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the 
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the 
       function return code. This can be one of the following codes.
 
 

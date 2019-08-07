@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],SetCookie method, IXMLHTTPRequest2.SetCookie, IXMLHTTPRequest2::SetCookie, SetCookie, SetCookie method [XMLHttpRequest2], SetCookie method [XMLHttpRequest2],IXMLHTTPRequest2 interface, XHR_COOKIE_STATE_ACCEPT, XHR_COOKIE_STATE_DOWNGRADE, XHR_COOKIE_STATE_LEASH, XHR_COOKIE_STATE_PROMPT, XHR_COOKIE_STATE_REJECT, XHR_COOKIE_STATE_UNKNOWN, ixhr2.ixmlhttprequest2_setcookie, msxml6/IXMLHTTPRequest2::SetCookie
 ms.topic: method
-f1_keywords: 
- - "msxml6/IXMLHTTPRequest2.SetCookie"
+f1_keywords:
+- msxml6/IXMLHTTPRequest2.SetCookie
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msxml6.h
+- msxml6.h
 api_name:
- - IXMLHTTPRequest2.SetCookie
+- IXMLHTTPRequest2.SetCookie
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/de
 
 A pointer to a value that indicates the cookie state if the call completes successfully. 
 
-This parameter can be one of the values from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ne-msxml6-_xhr_cookie_state">XHR_COOKIE_STATE</a> enumeration type defined in the <i>Msxml6.h</i>  header file.
+This parameter can be one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ne-msxml6-xhr_cookie_state">XHR_COOKIE_STATE</a> enumeration type defined in the <i>Msxml6.h</i>  header file.
 
 <table>
 <tr>
@@ -190,7 +190,7 @@ When used in a Windows desktop application, the <b>SetCookie</b> method  by defa
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ne-msxml6-_xhr_cookie_state">XHR_COOKIE_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ne-msxml6-xhr_cookie_state">XHR_COOKIE_STATE</a>
  
 
  

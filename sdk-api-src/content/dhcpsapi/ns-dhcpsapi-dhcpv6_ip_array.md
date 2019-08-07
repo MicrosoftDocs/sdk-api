@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: B87CF991-FFC8-4CB4-8EE9-66716EC9B58D
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCPV6_IP_ARRAY, DHCPV6_IP_ARRAY, DHCPV6_IP_ARRAY structure [DHCP], PDHCPV6_IP_ARRAY, PDHCPV6_IP_ARRAY structure pointer [DHCP], dhcp.dhcpv6_ip_array, dhcpsapi/DHCPV6_IP_ARRAY, dhcpsapi/PDHCPV6_IP_ARRAY"
+ms.keywords: '*LPDHCPV6_IP_ARRAY, DHCPV6_IP_ARRAY, DHCPV6_IP_ARRAY structure [DHCP], PDHCPV6_IP_ARRAY, PDHCPV6_IP_ARRAY structure pointer [DHCP], dhcp.dhcpv6_ip_array, dhcpsapi/DHCPV6_IP_ARRAY, dhcpsapi/PDHCPV6_IP_ARRAY'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCPV6_IP_ARRAY"
+f1_keywords:
+- dhcpsapi/DHCPV6_IP_ARRAY
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCPV6_IP_ARRAY
+- DHCPV6_IP_ARRAY
 product: Windows
 targetos: Windows
 req.typenames: DHCPV6_IP_ARRAY, *LPDHCPV6_IP_ARRAY
@@ -66,7 +66,7 @@ The number of elements in <b>Elements</b>.
 
 ### -field Elements
 
-An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> structures.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> structures.
 
 
 ### -field Elements.size_is

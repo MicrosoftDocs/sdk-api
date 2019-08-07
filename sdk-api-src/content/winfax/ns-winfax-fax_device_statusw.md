@@ -8,10 +8,10 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6vle.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFAX_DEVICE_STATUSW, FAX_DEVICE_STATUS, FAX_DEVICE_STATUS structure [Fax Service], FAX_DEVICE_STATUSA, FAX_DEVICE_STATUSW, FPS_ABORTING, FPS_ANSWERED, FPS_AVAILABLE, FPS_BAD_ADDRESS, FPS_BUSY, FPS_CALL_BLACKLISTED, FPS_CALL_DELAYED, FPS_COMPLETED, FPS_DIALING, FPS_DISCONNECTED, FPS_FATAL_ERROR, FPS_HANDLED, FPS_INITIALIZING, FPS_NOT_FAX_CALL, FPS_NO_ANSWER, FPS_NO_DIAL_TONE, FPS_OFFLINE, FPS_RECEIVING, FPS_RINGING, FPS_ROUTING, FPS_SENDING, FPS_UNAVAILABLE, JT_RECEIVE, JT_SEND, JT_UNKNOWN, PFAX_DEVICE_STATUS, PFAX_DEVICE_STATUS structure pointer [Fax Service], _mfax_fax_device_status_str, fax._mfax_fax_device_status_str, winfax/FAX_DEVICE_STATUS, winfax/FAX_DEVICE_STATUSA, winfax/FAX_DEVICE_STATUSW, winfax/PFAX_DEVICE_STATUS"
+ms.keywords: '*PFAX_DEVICE_STATUSW, FAX_DEVICE_STATUS, FAX_DEVICE_STATUS structure [Fax Service], FAX_DEVICE_STATUSA, FAX_DEVICE_STATUSW, FPS_ABORTING, FPS_ANSWERED, FPS_AVAILABLE, FPS_BAD_ADDRESS, FPS_BUSY, FPS_CALL_BLACKLISTED, FPS_CALL_DELAYED, FPS_COMPLETED, FPS_DIALING, FPS_DISCONNECTED, FPS_FATAL_ERROR, FPS_HANDLED, FPS_INITIALIZING, FPS_NOT_FAX_CALL, FPS_NO_ANSWER, FPS_NO_DIAL_TONE, FPS_OFFLINE, FPS_RECEIVING, FPS_RINGING, FPS_ROUTING, FPS_SENDING, FPS_UNAVAILABLE, JT_RECEIVE, JT_SEND, JT_UNKNOWN, PFAX_DEVICE_STATUS, PFAX_DEVICE_STATUS structure pointer [Fax Service], _mfax_fax_device_status_str, fax._mfax_fax_device_status_str, winfax/FAX_DEVICE_STATUS, winfax/FAX_DEVICE_STATUSA, winfax/FAX_DEVICE_STATUSW, winfax/PFAX_DEVICE_STATUS'
 ms.topic: struct
-f1_keywords: 
- - "winfax/FAX_DEVICE_STATUS"
+f1_keywords:
+- winfax/FAX_DEVICE_STATUS
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winfax.h
+- Winfax.h
 api_name:
- - FAX_DEVICE_STATUS
- - FAX_DEVICE_STATUSA
- - FAX_DEVICE_STATUSW
+- FAX_DEVICE_STATUS
+- FAX_DEVICE_STATUSA
+- FAX_DEVICE_STATUSW
 product: Windows
 targetos: Windows
 req.typenames: FAX_DEVICE_STATUSW, *PFAX_DEVICE_STATUSW
@@ -488,7 +488,7 @@ The device is not available because it is in use by another application.
 
 The fax client application can call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetdevicestatusa">FaxGetDeviceStatus</a> function to retrieve status information for the fax device of interest. The function returns the information in a <b>FAX_DEVICE_STATUS</b> structure.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-device-management">Fax Device Management</a>. For information about the status information a fax service provider supplies for an active fax operation, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/ns-faxdev-_fax_dev_status">FAX_DEV_STATUS</a> topic.
+For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-device-management">Fax Device Management</a>. For information about the status information a fax service provider supplies for an active fax operation, see the <a href="https://docs.microsoft.com/windows/desktop/api/faxdev/ns-faxdev-fax_dev_status">FAX_DEV_STATUS</a> topic.
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverGetScopeStatistics, DhcpV4FailoverGetScopeStatistics function [DHCP], dhcp.dhcpv4failovergetscopestatistics, dhcpsapi/DhcpV4FailoverGetScopeStatistics
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpV4FailoverGetScopeStatistics"
+f1_keywords:
+- dhcpsapi/DhcpV4FailoverGetScopeStatistics
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpV4FailoverGetScopeStatistics
+- DhcpV4FailoverGetScopeStatistics
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ Pointer to a null-terminated Unicode string that represents the IP address or ho
 
 ### -param pStats [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_failover_statistics">DHCP_FAILOVER_STATISTICS</a> structure that contains the address usage information for <i>scopeId</i>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_failover_statistics">DHCP_FAILOVER_STATISTICS</a> structure that contains the address usage information for <i>scopeId</i>.
 
 <div class="alert"><b>Note</b>  <p class="note">The memory for this parameter must be free using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.
 

@@ -8,10 +8,10 @@ tech.root: MsCS
 ms.assetid: 0C020CC3-43CD-49ED-B42D-2365D76ED40D
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSR_RESOURCE_TYPE_REPLICATED_DISK, PSR_RESOURCE_TYPE_REPLICATED_DISK, PSR_RESOURCE_TYPE_REPLICATED_DISK structure pointer [Failover Cluster], SR_RESOURCE_TYPE_REPLICATED_DISK, SR_RESOURCE_TYPE_REPLICATED_DISK structure [Failover Cluster], clusapi/PSR_RESOURCE_TYPE_REPLICATED_DISK, clusapi/SR_RESOURCE_TYPE_REPLICATED_DISK, mscs.sr_resource_type_replicated_disk"
+ms.keywords: '*PSR_RESOURCE_TYPE_REPLICATED_DISK, PSR_RESOURCE_TYPE_REPLICATED_DISK, PSR_RESOURCE_TYPE_REPLICATED_DISK structure pointer [Failover Cluster], SR_RESOURCE_TYPE_REPLICATED_DISK, SR_RESOURCE_TYPE_REPLICATED_DISK structure [Failover Cluster], clusapi/PSR_RESOURCE_TYPE_REPLICATED_DISK, clusapi/SR_RESOURCE_TYPE_REPLICATED_DISK, mscs.sr_resource_type_replicated_disk'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/SR_RESOURCE_TYPE_REPLICATED_DISK"
+f1_keywords:
+- clusapi/SR_RESOURCE_TYPE_REPLICATED_DISK
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - SR_RESOURCE_TYPE_REPLICATED_DISK
+- SR_RESOURCE_TYPE_REPLICATED_DISK
 product: Windows
 targetos: Windows
 req.typenames: SR_RESOURCE_TYPE_REPLICATED_DISK, *PSR_RESOURCE_TYPE_REPLICATED_DISK
@@ -88,7 +88,7 @@ The name of the replication group..
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-_sr_replicated_disk_type">SR_REPLICATED_DISK_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-sr_replicated_disk_type">SR_REPLICATED_DISK_TYPE</a>
  
 
  

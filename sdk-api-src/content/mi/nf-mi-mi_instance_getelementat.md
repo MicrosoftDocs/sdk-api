@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_IN, MI_FLAG_KEY, MI_FLAG_NULL, MI_FLAG_OUT, MI_Instance_GetElementAt, MI_Instance_GetElementAt function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetElementAt, wmi_v2.mi_instance_getelementat
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Instance_GetElementAt"
+f1_keywords:
+- mi/MI_Instance_GetElementAt
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Instance_GetElementAt
+- MI_Instance_GetElementAt
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -117,7 +117,7 @@ The parameter is of type <b>Out</b> and is returned from a method.
 
 
 
-A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 
@@ -127,7 +127,7 @@ A value of the <a href="https://docs.microsoft.com/previous-versions/windows/des
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a>
 
 
 

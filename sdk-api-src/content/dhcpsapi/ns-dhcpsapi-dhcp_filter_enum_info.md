@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: f393987c-12dd-468c-98c6-84f4d36744b2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_FILTER_ENUM_INFO, DHCP_FILTER_ENUM_INFO, DHCP_FILTER_ENUM_INFO structure [DHCP], PDHCP_FILTER_ENUM_INFO, PDHCP_FILTER_ENUM_INFO structure pointer [DHCP], dhcp.dhcp_filter_enum_info, dhcpsapi/DHCP_FILTER_ENUM_INFO, dhcpsapi/PDHCP_FILTER_ENUM_INFO"
+ms.keywords: '*LPDHCP_FILTER_ENUM_INFO, DHCP_FILTER_ENUM_INFO, DHCP_FILTER_ENUM_INFO structure [DHCP], PDHCP_FILTER_ENUM_INFO, PDHCP_FILTER_ENUM_INFO structure pointer [DHCP], dhcp.dhcp_filter_enum_info, dhcpsapi/DHCP_FILTER_ENUM_INFO, dhcpsapi/PDHCP_FILTER_ENUM_INFO'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_FILTER_ENUM_INFO"
+f1_keywords:
+- dhcpsapi/DHCP_FILTER_ENUM_INFO
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_FILTER_ENUM_INFO
+- DHCP_FILTER_ENUM_INFO
 product: Windows
 targetos: Windows
 req.typenames: DHCP_FILTER_ENUM_INFO, *LPDHCP_FILTER_ENUM_INFO
@@ -66,7 +66,7 @@ Integer value that specifies the number of link-layer filter records contained i
 
 ### -field pEnumRecords
 
-Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_filter_record">DHCP_FILTER_RECORD</a> structures that contain link-layer filter records.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_filter_record">DHCP_FILTER_RECORD</a> structures that contain link-layer filter records.
 
 
 ### -field pEnumRecords.size_is
@@ -86,7 +86,7 @@ Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/win
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_filter_record">DHCP_FILTER_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_filter_record">DHCP_FILTER_RECORD</a>
  
 
  

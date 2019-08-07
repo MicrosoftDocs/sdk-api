@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: F6EDFFAC-ECBD-4B0E-A929-3DB67D8366AC
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_POL_EXPR_ARRAY, *PDHCP_POL_EXPR_ARRAY, DHCP_POL_EXPR_ARRAY, DHCP_POL_EXPR_ARRAY structure [DHCP], LPDHCP_POL_EXPR_ARRAY, LPDHCP_POL_EXPR_ARRAY structure pointer [DHCP], PDHCP_POL_EXPR_ARRAY, PDHCP_POL_EXPR_ARRAY structure pointer [DHCP], dhcp.dhcp_pol_expr_array, dhcpsapi/DHCP_POL_EXPR_ARRAY, dhcpsapi/LPDHCP_POL_EXPR_ARRAY, dhcpsapi/PDHCP_POL_EXPR_ARRAY"
+ms.keywords: '*LPDHCP_POL_EXPR_ARRAY, *PDHCP_POL_EXPR_ARRAY, DHCP_POL_EXPR_ARRAY, DHCP_POL_EXPR_ARRAY structure [DHCP], LPDHCP_POL_EXPR_ARRAY, LPDHCP_POL_EXPR_ARRAY structure pointer [DHCP], PDHCP_POL_EXPR_ARRAY, PDHCP_POL_EXPR_ARRAY structure pointer [DHCP], dhcp.dhcp_pol_expr_array, dhcpsapi/DHCP_POL_EXPR_ARRAY, dhcpsapi/LPDHCP_POL_EXPR_ARRAY, dhcpsapi/PDHCP_POL_EXPR_ARRAY'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_POL_EXPR_ARRAY"
+f1_keywords:
+- dhcpsapi/DHCP_POL_EXPR_ARRAY
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dhcpsapi.h
+- dhcpsapi.h
 api_name:
- - DHCP_POL_EXPR_ARRAY
+- DHCP_POL_EXPR_ARRAY
 product: Windows
 targetos: Windows
 req.typenames: DHCP_POL_EXPR_ARRAY, *PDHCP_POL_EXPR_ARRAY, *LPDHCP_POL_EXPR_ARRAY
@@ -66,7 +66,7 @@ Integer that specifies the number of DHCP server policy expressions in <i>Elemen
 
 ### -field Elements
 
-Pointer to a list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_pol_expr">DHCP_POL_EXPR</a>  structures.
+Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_pol_expr">DHCP_POL_EXPR</a>  structures.
 
 
 ### -field Elements.size_is
@@ -86,7 +86,7 @@ Pointer to a list of <a href="https://docs.microsoft.com/previous-versions/windo
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_policy">DHCP_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_policy">DHCP_POLICY</a>
  
 
  

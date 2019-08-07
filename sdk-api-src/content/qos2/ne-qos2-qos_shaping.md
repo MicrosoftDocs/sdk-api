@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: 8cd40e29-3af4-440c-8c44-3aeb5291e9c9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PQOS_SHAPING, PQOS_SHAPING, PQOS_SHAPING enumeration pointer [QOS], QOSShapeAndMark, QOSShapeOnly, QOSUseNonConformantMarkings, QOS_SHAPING, QOS_SHAPING enumeration [QOS], qos.qos_shaping, qos2/PQOS_SHAPING, qos2/QOSShapeAndMark, qos2/QOSShapeOnly, qos2/QOSUseNonConformantMarkings, qos2/QOS_SHAPING"
+ms.keywords: '*PQOS_SHAPING, PQOS_SHAPING, PQOS_SHAPING enumeration pointer [QOS], QOSShapeAndMark, QOSShapeOnly, QOSUseNonConformantMarkings, QOS_SHAPING, QOS_SHAPING enumeration [QOS], qos.qos_shaping, qos2/PQOS_SHAPING, qos2/QOSShapeAndMark, qos2/QOSShapeOnly, qos2/QOSUseNonConformantMarkings, qos2/QOS_SHAPING'
 ms.topic: enum
-f1_keywords: 
- - "qos2/QOS_SHAPING"
+f1_keywords:
+- qos2/QOS_SHAPING
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qos2.h
+- Qos2.h
 api_name:
- - QOS_SHAPING
+- QOS_SHAPING
 product: Windows
 targetos: Windows
 req.typenames: QOS_SHAPING, *PQOS_SHAPING
@@ -79,7 +79,7 @@ Indicates that the flow rate requested will not be enforced.  Data packets that 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/ns-qos2-_qos_flowrate_outgoing">QOS_FLOWRATE_OUTGOING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qos2/ns-qos2-qos_flowrate_outgoing">QOS_FLOWRATE_OUTGOING</a>
 
 
 

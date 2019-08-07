@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Application_NewDeserializer, MI_Application_NewDeserializer function [Windows Management Infrastructure (MI)], mi/MI_Application_NewDeserializer, wmi_v2.mi_application_newdeserializer
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Application_NewDeserializer"
+f1_keywords:
+- mi/MI_Application_NewDeserializer
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Application_NewDeserializer
+- MI_Application_NewDeserializer
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -94,8 +94,8 @@ This function returns MI_INLINE MI_Result.
 
 
 
-Serializers are used to persist <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> and 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_class">MI_Class</a> objects to <b>BYTE</b> arrays. 
+Serializers are used to persist <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> objects to <b>BYTE</b> arrays. 
     A deserializer is then used to re-create the object from its stored form.
 
 

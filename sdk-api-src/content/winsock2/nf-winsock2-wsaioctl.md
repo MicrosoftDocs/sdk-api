@@ -193,7 +193,7 @@ The descriptor <i>s</i> is not a socket.
 </td>
 <td width="60%">
 The specified IOCTL command cannot be realized. (For example, the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structures specified in <b>SIO_SET_QOS</b> or <b>SIO_SET_GROUP_QOS</b> cannot be satisfied.)
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structures specified in <b>SIO_SET_QOS</b> or <b>SIO_SET_GROUP_QOS</b> cannot be satisfied.)
 
 </td>
 </tr>

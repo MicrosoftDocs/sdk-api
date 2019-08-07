@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: b78ebdf8-da24-418c-8fe8-aed3047dfdf3
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCPV6_BIND_ELEMENT_ARRAY, DHCPV6_BIND_ELEMENT_ARRAY, DHCPV6_BIND_ELEMENT_ARRAY structure [DHCP], PDHCPV6_BIND_ELEMENT_ARRAY, PDHCPV6_BIND_ELEMENT_ARRAY structure pointer [DHCP], dhcp.dhcpv6_bind_element_array, dhcpsapi/DHCPV6_BIND_ELEMENT_ARRAY, dhcpsapi/PDHCPV6_BIND_ELEMENT_ARRAY"
+ms.keywords: '*LPDHCPV6_BIND_ELEMENT_ARRAY, DHCPV6_BIND_ELEMENT_ARRAY, DHCPV6_BIND_ELEMENT_ARRAY structure [DHCP], PDHCPV6_BIND_ELEMENT_ARRAY, PDHCPV6_BIND_ELEMENT_ARRAY structure pointer [DHCP], dhcp.dhcpv6_bind_element_array, dhcpsapi/DHCPV6_BIND_ELEMENT_ARRAY, dhcpsapi/PDHCPV6_BIND_ELEMENT_ARRAY'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCPV6_BIND_ELEMENT_ARRAY"
+f1_keywords:
+- dhcpsapi/DHCPV6_BIND_ELEMENT_ARRAY
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCPV6_BIND_ELEMENT_ARRAY
+- DHCPV6_BIND_ELEMENT_ARRAY
 product: Windows
 targetos: Windows
 req.typenames: DHCPV6_BIND_ELEMENT_ARRAY, *LPDHCPV6_BIND_ELEMENT_ARRAY
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DHCPV6_BIND_ELEMENT_ARRAY</b> structure specifies an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcpv6_bind_element">DHCPV6_BIND_ELEMENT</a> structures that contain DHCPv6 interface bindings.
+The <b>DHCPV6_BIND_ELEMENT_ARRAY</b> structure specifies an array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpv6_bind_element">DHCPV6_BIND_ELEMENT</a> structures that contain DHCPv6 interface bindings.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ Integer that contains the total number of elements in the array pointed to by <b
 
 ### -field Elements
 
-Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcpv6_bind_element">DHCPV6_BIND_ELEMENT</a> structures that contains the DHCPv6 interface bindings.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpv6_bind_element">DHCPV6_BIND_ELEMENT</a> structures that contains the DHCPv6 interface bindings.
 
 
 ### -field Elements.size_is
@@ -86,7 +86,7 @@ Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/win
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcpv6_bind_element">DHCPV6_BIND_ELEMENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpv6_bind_element">DHCPV6_BIND_ELEMENT</a>
  
 
  

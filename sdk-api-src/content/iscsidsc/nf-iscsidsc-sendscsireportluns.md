@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SendScsiReportLuns, SendScsiReportLuns function [iSCSI Discovery Library API], iscsidisc.sendscsireportluns, iscsidsc/SendScsiReportLuns
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/SendScsiReportLuns"
+f1_keywords:
+- iscsidsc/SendScsiReportLuns
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - SendScsiReportLuns
+- SendScsiReportLuns
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ ms.custom: 19H1
 
 ### -param UniqueSessionId [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> structure that contains the session identifier for the login session of the target to query with the SCSI REPORT LUNS command.  
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> structure that contains the session identifier for the login session of the target to query with the SCSI REPORT LUNS command.  
 
 
 
@@ -116,7 +116,7 @@ Otherwise, this function returns the appropriate Win32 or iSCSI error code on fa
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
  
 
  

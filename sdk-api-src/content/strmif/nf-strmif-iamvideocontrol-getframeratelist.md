@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFrameRateList, GetFrameRateList method [DirectShow], GetFrameRateList method [DirectShow],IAMVideoControl interface, IAMVideoControl interface [DirectShow],GetFrameRateList method, IAMVideoControl.GetFrameRateList, IAMVideoControl::GetFrameRateList, IAMVideoControlGetFrameRateList, dshow.iamvideocontrol_getframeratelist, strmif/IAMVideoControl::GetFrameRateList
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMVideoControl.GetFrameRateList"
+f1_keywords:
+- strmif/IAMVideoControl.GetFrameRateList
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoControl.GetFrameRateList
+- IAMVideoControl.GetFrameRateList
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ Pointer to the pin to query for the list of frame rates.
 
 ### -param iIndex [in]
 
-Index of the format to query for frame rates. This index corresponds to the order in which formats are enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getstreamcaps">IAMStreamConfig::GetStreamCaps</a>. The value must range between zero and the number of supported <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_video_stream_config_caps">VIDEO_STREAM_CONFIG_CAPS</a> structures returned by <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getnumberofcapabilities">IAMStreamConfig::GetNumberOfCapabilities</a>) minus one.
+Index of the format to query for frame rates. This index corresponds to the order in which formats are enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getstreamcaps">IAMStreamConfig::GetStreamCaps</a>. The value must range between zero and the number of supported <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps">VIDEO_STREAM_CONFIG_CAPS</a> structures returned by <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getnumberofcapabilities">IAMStreamConfig::GetNumberOfCapabilities</a>) minus one.
 
 
 ### -param Dimensions [in]
@@ -119,7 +119,7 @@ The caller is responsible for freeing the memory through a call to <b>CoTaskMemF
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_video_stream_config_caps">VIDEO_STREAM_CONFIG_CAPS Structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps">VIDEO_STREAM_CONFIG_CAPS Structure</a>
  
 
  

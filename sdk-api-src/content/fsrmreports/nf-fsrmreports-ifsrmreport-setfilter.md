@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmReport interface [File Server Resource Manager],SetFilter method, IFsrmReport.SetFilter, IFsrmReport::SetFilter, SetFilter, SetFilter method [File Server Resource Manager], SetFilter method [File Server Resource Manager],IFsrmReport interface, fs.ifsrmreport_setfilter, fsrm.ifsrmreport_setfilter, fsrmreports/IFsrmReport::SetFilter
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmReport.SetFilter"
+f1_keywords:
+- fsrmreports/IFsrmReport.SetFilter
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReport.SetFilter
+- IFsrmReport.SetFilter
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ Sets the current value of the specified report filter.
 ### -param filter [in]
 
 The filter used to  limit the files listed in a report. For possible values, see the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmreportfilter">FsrmReportFilter</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmreportfilter">FsrmReportFilter</a> enumeration.
 
 
 ### -param filterValue [in]
@@ -95,7 +95,7 @@ Note that each report type supports a specific set of filters. To determine if t
     method.
 
 The following list lists the variant types associated with the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmreportfilter">FsrmReportFilter</a> enumeration values used for the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmreportfilter">FsrmReportFilter</a> enumeration values used for the 
     <i>filter</i> parameter.
 
 <table>

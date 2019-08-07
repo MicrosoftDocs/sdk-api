@@ -8,10 +8,10 @@ tech.root: Dfs
 ms.assetid: fd60cb52-fa17-4cac-a7e8-9803303336dc
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDFS_INFO_3, *PDFS_INFO_3, DFS_INFO_3, DFS_INFO_3 structure [Distributed File System], DFS_VOLUME_FLAVOR_AD_BLOB, DFS_VOLUME_FLAVOR_STANDALONE, DFS_VOLUME_STATE_INCONSISTENT, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, LPDFS_INFO_3, LPDFS_INFO_3 structure pointer [Distributed File System], PDFS_INFO_3, PDFS_INFO_3 structure pointer [Distributed File System], _win32_dfs_info_3_str, dfs.dfs_info_3_str, fs.dfs_info_3_str, lmdfs/DFS_INFO_3, lmdfs/LPDFS_INFO_3, lmdfs/PDFS_INFO_3, netmgmt.dfs_info_3_str"
+ms.keywords: '*LPDFS_INFO_3, *PDFS_INFO_3, DFS_INFO_3, DFS_INFO_3 structure [Distributed File System], DFS_VOLUME_FLAVOR_AD_BLOB, DFS_VOLUME_FLAVOR_STANDALONE, DFS_VOLUME_STATE_INCONSISTENT, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, LPDFS_INFO_3, LPDFS_INFO_3 structure pointer [Distributed File System], PDFS_INFO_3, PDFS_INFO_3 structure pointer [Distributed File System], _win32_dfs_info_3_str, dfs.dfs_info_3_str, fs.dfs_info_3_str, lmdfs/DFS_INFO_3, lmdfs/LPDFS_INFO_3, lmdfs/PDFS_INFO_3, netmgmt.dfs_info_3_str'
 ms.topic: struct
-f1_keywords: 
- - "lmdfs/DFS_INFO_3"
+f1_keywords:
+- lmdfs/DFS_INFO_3
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - LmDfs.h
+- LmDfs.h
 api_name:
- - DFS_INFO_3
+- DFS_INFO_3
 product: Windows
 targetos: Windows
 req.typenames: DFS_INFO_3, *PDFS_INFO_3, *LPDFS_INFO_3
@@ -110,7 +110,7 @@ Specifies a set of bit flags that describe the DFS root or link. One
       is set. The <b>DFS_VOLUME_FLAVORS</b> bitmask (0x00000300) must be used to extract the DFS 
       namespace flavor, and the <b>DFS_VOLUME_STATES</b> bitmask (0x0000000F) must be used to 
       extract the DFS root or link state from this member. For an example that describes the interpretation of the 
-      flags, see the Remarks section of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_2">DFS_INFO_2</a>.
+      flags, see the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_2">DFS_INFO_2</a>.
 
 
 
@@ -167,7 +167,7 @@ Specifies the number of DFS targets.
 
 ### -field Storage
 
-Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_storage_info">DFS_STORAGE_INFO</a> 
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_storage_info">DFS_STORAGE_INFO</a> 
       structures. The <b>NumberOfStorages</b> member specifies the number of structures in the 
       array.
 
@@ -177,7 +177,7 @@ Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/win
 
 
 A <b>DFS_INFO_3</b> structure contains one or more 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_storage_info">DFS_STORAGE_INFO</a> structures, one for each DFS 
+    <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_storage_info">DFS_STORAGE_INFO</a> structures, one for each DFS 
     target.
 
 
@@ -188,7 +188,7 @@ A <b>DFS_INFO_3</b> structure contains one or more
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_storage_info">DFS_STORAGE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_storage_info">DFS_STORAGE_INFO</a>
 
 
 

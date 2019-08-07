@@ -8,10 +8,10 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\adrentry.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPADRENTRY, ADRENTRY, ADRENTRY structure [Windows Address Book], Gender, Gender structure [Windows Address Book], _wab_ADRENTRY, wab._wab_ADRENTRY, wabdefs/ADRENTRY"
+ms.keywords: '*LPADRENTRY, ADRENTRY, ADRENTRY structure [Windows Address Book], Gender, Gender structure [Windows Address Book], _wab_ADRENTRY, wab._wab_ADRENTRY, wabdefs/ADRENTRY'
 ms.topic: struct
-f1_keywords: 
- - "wabdefs/Gender"
+f1_keywords:
+- wabdefs/Gender
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wabdefs.h
+- Wabdefs.h
 api_name:
- - Gender
+- Gender
 product: Windows
 targetos: Windows
 req.typenames: ADRENTRY, *LPADRENTRY
@@ -76,5 +76,5 @@ Variable of type <b>ULONG</b> that specifies the count of properties in the prop
 
 Type: <b>LPSPropValue</b>
 
-Pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_spropvalue">SPropValue</a> that specifies the property value array describing the properties for the recipient. The <b>rgPropVals</b> member can be <b>NULL</b>.
+Pointer to a variable of type <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-spropvalue">SPropValue</a> that specifies the property value array describing the properties for the recipient. The <b>rgPropVals</b> member can be <b>NULL</b>.
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_INTERACTIVE_UI_DATA, EAP_INTERACTIVE_UI_DATA structure [EAPHost], EAP_INTERACTIVE_UI_DATA_VERSION, eaphost.eap_interactive_ui_data, eaptypes/EAP_INTERACTIVE_UI_DATA
 ms.topic: struct
-f1_keywords: 
- - "eaptypes/EAP_INTERACTIVE_UI_DATA"
+f1_keywords:
+- eaptypes/EAP_INTERACTIVE_UI_DATA
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eaptypes.h
+- eaptypes.h
 api_name:
- - EAP_INTERACTIVE_UI_DATA
+- EAP_INTERACTIVE_UI_DATA
 product: Windows
 targetos: Windows
 req.typenames: EAP_INTERACTIVE_UI_DATA
@@ -90,7 +90,7 @@ The size of this entire structure, in bytes.
 
 ### -field dwDataType
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eap_interactive_ui_data_type">EAP_INTERACTIVE_UI_DATA_TYPE</a> value that specifies the type of data pointed to by <i>pbUiData</i>.
+An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eap_interactive_ui_data_type">EAP_INTERACTIVE_UI_DATA_TYPE</a> value that specifies the type of data pointed to by <i>pbUiData</i>.
 
 
 ### -field cbUiData
@@ -122,7 +122,7 @@ A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/de
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_cred_expiry_req">EAP_CRED_EXPIRY_REQ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_cred_expiry_req">EAP_CRED_EXPIRY_REQ</a>
 
 
 

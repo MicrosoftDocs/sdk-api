@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 99A36029-1CBD-4A93-B25A-A0239D1C08D7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_POL_COND, *PDHCP_POL_COND, DHCP_POL_COND, DHCP_POL_COND structure [DHCP], LPDHCP_POL_COND, LPDHCP_POL_COND structure pointer [DHCP], PDHCP_POL_COND, PDHCP_POL_COND structure pointer [DHCP], dhcp.dhcp_pol_cond, dhcpsapi/DHCP_POL_COND, dhcpsapi/LPDHCP_POL_COND, dhcpsapi/PDHCP_POL_COND"
+ms.keywords: '*LPDHCP_POL_COND, *PDHCP_POL_COND, DHCP_POL_COND, DHCP_POL_COND structure [DHCP], LPDHCP_POL_COND, LPDHCP_POL_COND structure pointer [DHCP], PDHCP_POL_COND, PDHCP_POL_COND structure pointer [DHCP], dhcp.dhcp_pol_cond, dhcpsapi/DHCP_POL_COND, dhcpsapi/LPDHCP_POL_COND, dhcpsapi/PDHCP_POL_COND'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_POL_COND"
+f1_keywords:
+- dhcpsapi/DHCP_POL_COND
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dhcpsapi.h
+- dhcpsapi.h
 api_name:
- - DHCP_POL_COND
+- DHCP_POL_COND
 product: Windows
 targetos: Windows
 req.typenames: DHCP_POL_COND, *PDHCP_POL_COND, *LPDHCP_POL_COND
@@ -118,7 +118,7 @@ Integer that specifies the length of <b>Value</b>.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_pol_cond_array">DHCP_POL_COND_ARRAY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_pol_cond_array">DHCP_POL_COND_ARRAY</a>
  
 
  

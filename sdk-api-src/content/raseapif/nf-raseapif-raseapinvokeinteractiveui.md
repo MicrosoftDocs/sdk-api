@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasEapInvokeInteractiveUI, RasEapInvokeInteractiveUI callback, RasEapInvokeInteractiveUI callback function [EAP], _eap_raseapinvokeinteractiveui, eap.raseapinvokeinteractiveui, raseapif/RasEapInvokeInteractiveUI
 ms.topic: function
-f1_keywords: 
- - "raseapif/RasEapInvokeInteractiveUI"
+f1_keywords:
+- raseapif/RasEapInvokeInteractiveUI
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Raseapif.h
+- Raseapif.h
 api_name:
- - RasEapInvokeInteractiveUI
+- RasEapInvokeInteractiveUI
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ Handle to the parent window for the dialog.
 ### -param pUIContextData [in]
 
 Pointer to context data for the interactive UI. The authentication protocol provides a pointer to this data as a member of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_output">PPP_EAP_OUTPUT</a> structure. The RAS Connection Manager receives the 
+<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_output">PPP_EAP_OUTPUT</a> structure. The RAS Connection Manager receives the 
 <b>PPP_EAP_OUTPUT</b> structure as an output parameter from the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a> function.
 
@@ -81,7 +81,7 @@ Pointer to context data for the interactive UI. The authentication protocol prov
 ### -param dwSizeOfUIContextData [in]
 
 Specifies the size of the context data. The authentication protocol provides the size as a member of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_output">PPP_EAP_OUTPUT</a> structure. The RAS Connection Manager receives the 
+<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_output">PPP_EAP_OUTPUT</a> structure. The RAS Connection Manager receives the 
 <b>PPP_EAP_OUTPUT</b> structure as an output parameter from the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a> function.
 
@@ -89,7 +89,7 @@ Specifies the size of the context data. The authentication protocol provides the
 ### -param ppDataFromInteractiveUI
 
 [out[ Pointer to a pointer variable. On successful return, this pointer variable  points to a memory buffer that contains the data obtained by the interactive UI. The interactive UI allocates this memory. RAS passes this data back to the authentication protocol in the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_input">PPP_EAP_INPUT</a> structure, then RAS frees this memory by calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_input">PPP_EAP_INPUT</a> structure, then RAS frees this memory by calling 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a>. 
 
 
@@ -125,7 +125,7 @@ The DLL that implements the
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a> functions may support more than one authentication protocol. The <i>dwEapTypeId</i> parameter specifies the authentication protocol for which to invoke the interactive UI.
 
 A pointer to the data returned from the interactive UI is passed back to the authentication protocol in the <b>pDataFromInteractiveUI</b> member of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_input">PPP_EAP_INPUT</a> structure. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_input">PPP_EAP_INPUT</a> structure. The 
 <b>PPP_EAP_INPUT</b> structure is passed as a parameter to the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a> function.
 
@@ -153,11 +153,11 @@ The interactive user interface must support
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_input">PPP_EAP_INPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_input">PPP_EAP_INPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_output">PPP_EAP_OUTPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_output">PPP_EAP_OUTPUT</a>
 
 
 

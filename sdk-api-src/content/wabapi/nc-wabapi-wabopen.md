@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WABOpen, WABOpen callback, WABOpen callback function [Windows Address Book], _wab_WABOpen, wab._wab_WABOpen, wabapi/WABOpen
 ms.topic: callback
-f1_keywords: 
- - "wabapi/WABOpen"
+f1_keywords:
+- wabapi/WABOpen
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wabapi.h
+- Wabapi.h
 api_name:
- - WABOpen
+- WABOpen
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -88,7 +88,7 @@ Reserved. Must be set to 0.
 
 Type: <b>LPWAB_PARAM</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabapi/ns-wabapi-_tagwab_param">WAB_PARAM</a> structure. Supported by Internet Explorer 4.0 or later.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wabapi/ns-wabapi-wab_param">WAB_PARAM</a> structure. Supported by Internet Explorer 4.0 or later.
 
 
 ## -returns

@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: c68b9543-0d7a-46ab-babd-3868c1338d67
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_OPTION_VALUE_ARRAY, DHCP_OPTION_VALUE_ARRAY, DHCP_OPTION_VALUE_ARRAY structure [DHCP], LPDHCP_OPTION_VALUE_ARRAY, LPDHCP_OPTION_VALUE_ARRAY structure pointer [DHCP], dhcp.dhcp_option_value_array, dhcpsapi/LPDHCP_OPTION_VALUE_ARRAY, dhcpsapi/_DHCP_OPTION_VALUE_ARRAY"
+ms.keywords: '*LPDHCP_OPTION_VALUE_ARRAY, DHCP_OPTION_VALUE_ARRAY, DHCP_OPTION_VALUE_ARRAY structure [DHCP], LPDHCP_OPTION_VALUE_ARRAY, LPDHCP_OPTION_VALUE_ARRAY structure pointer [DHCP], dhcp.dhcp_option_value_array, dhcpsapi/LPDHCP_OPTION_VALUE_ARRAY, dhcpsapi/_DHCP_OPTION_VALUE_ARRAY'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_OPTION_VALUE_ARRAY"
+f1_keywords:
+- dhcpsapi/DHCP_OPTION_VALUE_ARRAY
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_OPTION_VALUE_ARRAY
+- DHCP_OPTION_VALUE_ARRAY
 product: Windows
 targetos: Windows
 req.typenames: DHCP_OPTION_VALUE_ARRAY, *LPDHCP_OPTION_VALUE_ARRAY
@@ -66,7 +66,7 @@ Specifies the number of option values listed in <b>Values</b>.
 
 ### -field Values
 
-Pointer to a list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_value">DHCP_OPTION_VALUE</a> structures containing DHCP  option values.
+Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_value">DHCP_OPTION_VALUE</a> structures containing DHCP  option values.
 
 
 ### -field Values.size_is

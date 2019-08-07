@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpNewPktHook, DhcpNewPktHook callback function [DHCP], LPDHCP_NEWPKT, LPDHCP_NEWPKT callback, _dhcp_dhcpnewpkthook, dhcp.dhcpnewpkthook, dhcpssdk/DhcpNewPktHook
 ms.topic: callback
-f1_keywords: 
- - "dhcpssdk/DhcpNewPktHook"
+f1_keywords:
+- dhcpssdk/DhcpNewPktHook
 req.header: dhcpssdk.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Dhcpssdk.h
+- Dhcpssdk.h
 api_name:
- - DhcpNewPktHook
+- DhcpNewPktHook
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -121,7 +121,7 @@ If a third-party DLL needs to keep track of a given packet and its progress thro
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpssdk/ns-dhcpssdk-_dhcp_callout_table">DHCP_CALLOUT_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpssdk/ns-dhcpssdk-dhcp_callout_table">DHCP_CALLOUT_TABLE</a>
 
 
 

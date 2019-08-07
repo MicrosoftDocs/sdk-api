@@ -8,10 +8,10 @@ tech.root: wnv
 ms.assetid: C8A27B21-462A-4D70-AA19-743023FD1810
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWNV_NOTIFICATION_PARAM, PWNV_NOTIFICATION_PARAM, PWNV_NOTIFICATION_PARAM structure pointer [Windows Network Virtualization], WNV_NOTIFICATION_PARAM, WNV_NOTIFICATION_PARAM structure [Windows Network Virtualization], wnv.wnv_notification_param, wnvapi/PWNV_NOTIFICATION_PARAM, wnvapi/WNV_NOTIFICATION_PARAM"
+ms.keywords: '*PWNV_NOTIFICATION_PARAM, PWNV_NOTIFICATION_PARAM, PWNV_NOTIFICATION_PARAM structure pointer [Windows Network Virtualization], WNV_NOTIFICATION_PARAM, WNV_NOTIFICATION_PARAM structure [Windows Network Virtualization], wnv.wnv_notification_param, wnvapi/PWNV_NOTIFICATION_PARAM, wnvapi/WNV_NOTIFICATION_PARAM'
 ms.topic: struct
-f1_keywords: 
- - "wnvapi/WNV_NOTIFICATION_PARAM"
+f1_keywords:
+- wnvapi/WNV_NOTIFICATION_PARAM
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wnvapi.h
+- wnvapi.h
 api_name:
- - WNV_NOTIFICATION_PARAM
+- WNV_NOTIFICATION_PARAM
 product: Windows
 targetos: Windows
 req.typenames: WNV_NOTIFICATION_PARAM, *PWNV_NOTIFICATION_PARAM
@@ -61,16 +61,16 @@ Specifies the version, notification type, and the buffer location in a <a href="
 
 ### -field Header
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_object_header">WNV_OBJECT_HEADER</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_object_header">WNV_OBJECT_HEADER</a></b>
 
 The version and buffer size for this structure.
 
 
 ### -field NotificationType
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ne-wnvapi-_wnv_notification_type">WNV_NOTIFICATION_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ne-wnvapi-wnv_notification_type">WNV_NOTIFICATION_TYPE</a></b>
 
-A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ne-wnvapi-_wnv_notification_type">WNV_NOTIFICATION_TYPE</a> enumeration that specifies the type of notifications requested, such as policy mismatches, Internet Control Message Protocol
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ne-wnvapi-wnv_notification_type">WNV_NOTIFICATION_TYPE</a> enumeration that specifies the type of notifications requested, such as policy mismatches, Internet Control Message Protocol
 (ICMP) redirect message arrivals, and object changes.
 
 
@@ -95,21 +95,21 @@ A pointer to a  buffer that is filled by the WNV driver with notification struct
 <tr>
 <td><b>WnvPolicyMismatchType</b></td>
 <td>
-One or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_policy_mismatch_param">WNV_POLICY_MISMATCH_PARAM</a> structures
+One or more <a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_policy_mismatch_param">WNV_POLICY_MISMATCH_PARAM</a> structures
 
 </td>
 </tr>
 <tr>
 <td><b>WnvRedirectType</b></td>
 <td>
-One or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_redirect_param">WNV_REDIRECT_PARAM</a> structures
+One or more <a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_redirect_param">WNV_REDIRECT_PARAM</a> structures
 
 </td>
 </tr>
 <tr>
 <td><b>WnvObjectChangeType</b></td>
 <td>
-One or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_object_change_param">WNV_OBJECT_CHANGE_PARAM</a> structures
+One or more <a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_object_change_param">WNV_OBJECT_CHANGE_PARAM</a> structures
 
 </td>
 </tr>

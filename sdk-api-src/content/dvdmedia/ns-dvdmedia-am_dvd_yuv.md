@@ -8,10 +8,10 @@ tech.root: DirectShow
 ms.assetid: fb954bc2-4ef1-4a5f-b795-a3b2a8aae8d4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PAM_DVD_YUV, AM_DVD_YUV, AM_DVD_YUV structure [DirectShow], PAM_DVD_YUV, PAM_DVD_YUV structure pointer [DirectShow], dshow.am_dvd_yuv, dvdmedia/AM_DVD_YUV, dvdmedia/PAM_DVD_YUV"
+ms.keywords: '*PAM_DVD_YUV, AM_DVD_YUV, AM_DVD_YUV structure [DirectShow], PAM_DVD_YUV, PAM_DVD_YUV structure pointer [DirectShow], dshow.am_dvd_yuv, dvdmedia/AM_DVD_YUV, dvdmedia/PAM_DVD_YUV'
 ms.topic: struct
-f1_keywords: 
- - "dvdmedia/AM_DVD_YUV"
+f1_keywords:
+- dvdmedia/AM_DVD_YUV
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dvdmedia.h
+- Dvdmedia.h
 api_name:
- - AM_DVD_YUV
+- AM_DVD_YUV
 product: Windows
 targetos: Windows
 req.typenames: AM_DVD_YUV, *PAM_DVD_YUV
@@ -86,7 +86,7 @@ V color data.
 
 
 
-This structure is contained within the <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-_am_property_sppal">AM_PROPERTY_SPPAL</a> structure.
+This structure is contained within the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_property_sppal">AM_PROPERTY_SPPAL</a> structure.
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFieldValue, GetFieldValue method [File Server Resource Manager], GetFieldValue method [File Server Resource Manager],IFsrmPropertyBag2 interface, IFsrmPropertyBag2 interface [File Server Resource Manager],GetFieldValue method, IFsrmPropertyBag2.GetFieldValue, IFsrmPropertyBag2::GetFieldValue, fs.ifsrmpropertybag2_getfieldvalue, fsrm.ifsrmpropertybag2_getfieldvalue, fsrmpipeline/IFsrmPropertyBag2::GetFieldValue
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyBag2.GetFieldValue"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyBag2.GetFieldValue
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyBag2.GetFieldValue
+- IFsrmPropertyBag2.GetFieldValue
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Gets the value of the specified field from the property bag.
 
 ### -param field [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertybagfield">FsrmPropertyBagField</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertybagfield">FsrmPropertyBagField</a></b>
 
 Indicates whether the volume name returned is the name of the volume being accessed, which may be a snapshot, or the volume where the property bag lives.
 
@@ -89,7 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertybagfield">FsrmPropertyBagField</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertybagfield">FsrmPropertyBagField</a>
 
 
 

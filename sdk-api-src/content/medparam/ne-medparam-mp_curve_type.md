@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MP_CURVE_INVSQUARE, MP_CURVE_JUMP, MP_CURVE_LINEAR, MP_CURVE_SINE, MP_CURVE_SQUARE, MP_CURVE_TYPE, MP_CURVE_TYPE , MP_CURVE_TYPE enumeration [DirectShow], MP_CURVE_TYPEEnumeration, dshow.mp_curve_type, medparam/MP_CURVE_INVSQUARE, medparam/MP_CURVE_JUMP, medparam/MP_CURVE_LINEAR, medparam/MP_CURVE_SINE, medparam/MP_CURVE_SQUARE, medparam/MP_CURVE_TYPE
 ms.topic: enum
-f1_keywords: 
- - "medparam/MP_CURVE_TYPE"
+f1_keywords:
+- medparam/MP_CURVE_TYPE
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Medparam.h
+- Medparam.h
 api_name:
- - MP_CURVE_TYPE
+- MP_CURVE_TYPE
 product: Windows
 targetos: Windows
 req.typenames: MP_CURVE_TYPE
@@ -139,7 +139,7 @@ For Boolean and enumeration parameters, only MP_CURVE_JUMP is valid.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/medparam/ns-medparam-_mp_envelope_segment">MP_ENVELOPE_SEGMENT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/medparam/ns-medparam-mp_envelope_segment">MP_ENVELOPE_SEGMENT</a>
  
 
  

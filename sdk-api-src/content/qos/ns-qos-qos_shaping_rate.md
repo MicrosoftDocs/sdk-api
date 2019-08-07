@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: 2be833dc-d9e1-495d-831e-09c900c8adb2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPQOS_SHAPING_RATE, LPQOS_SHAPING_RATE, LPQOS_SHAPING_RATE structure pointer [QOS], QOS_SHAPING_RATE, QOS_SHAPING_RATE structure [QOS], _gqos_qos_shaping_rate, qos.qos_shaping_rate, qos/LPQOS_SHAPING_RATE, qos/QOS_SHAPING_RATE"
+ms.keywords: '*LPQOS_SHAPING_RATE, LPQOS_SHAPING_RATE, LPQOS_SHAPING_RATE structure pointer [QOS], QOS_SHAPING_RATE, QOS_SHAPING_RATE structure [QOS], _gqos_qos_shaping_rate, qos.qos_shaping_rate, qos/LPQOS_SHAPING_RATE, qos/QOS_SHAPING_RATE'
 ms.topic: struct
-f1_keywords: 
- - "qos/QOS_SHAPING_RATE"
+f1_keywords:
+- qos/QOS_SHAPING_RATE
 req.header: qos.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qos.h
+- Qos.h
 api_name:
- - QOS_SHAPING_RATE
+- QOS_SHAPING_RATE
 product: Windows
 targetos: Windows
 req.typenames: QOS_SHAPING_RATE, *LPQOS_SHAPING_RATE
@@ -77,7 +77,7 @@ Unsigned 32-bit integer that specifies the uniform traffic shaping rate in bytes
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 

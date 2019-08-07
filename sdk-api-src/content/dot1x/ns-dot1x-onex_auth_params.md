@@ -76,7 +76,7 @@ The identity used for 802.1X authentication status. This member is a value from 
 
 ### -field dwQuarantineState
 
-The quarantine isolation state value of the local computer. The isolation state determines its network connectivity. This member corresponds to a value from the EAPHost <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-_isolation_state">ISOLATION_STATE</a> enumeration.
+The quarantine isolation state value of the local computer. The isolation state determines its network connectivity. This member corresponds to a value from the EAPHost <a href="https://docs.microsoft.com/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-isolation_state">ISOLATION_STATE</a> enumeration.
 
 
 ### -field fSessionId
@@ -171,7 +171,7 @@ For security reasons, the <b>hUserToken</b> and <b>OneXUserProfile</b> members o
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-_isolation_state">ISOLATION_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-isolation_state">ISOLATION_STATE</a>
 
 
 

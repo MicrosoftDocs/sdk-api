@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDrawBackgroundMode, GetDrawBackgroundMode method [DirectShow], GetDrawBackgroundMode method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetDrawBackgroundMode method, IAMWstDecoder.GetDrawBackgroundMode, IAMWstDecoder::GetDrawBackgroundMode, IAMWstDecoderGetDrawBackgroundMode, dshow.iamwstdecoder_getdrawbackgroundmode, iwstdec/IAMWstDecoder::GetDrawBackgroundMode
 ms.topic: method
-f1_keywords: 
- - "iwstdec/IAMWstDecoder.GetDrawBackgroundMode"
+f1_keywords:
+- iwstdec/IAMWstDecoder.GetDrawBackgroundMode
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMWstDecoder.GetDrawBackgroundMode
+- IAMWstDecoder.GetDrawBackgroundMode
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Downstream filters use the <code>GetDrawBackgroundMode</code> method to determin
 
 ### -param lpMode [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/ne-iwstdec-_am_wst_drawbgmode">AM_WST_DRAWBGMODE</a> enumeration. This parameter receives one of the following values.
+Receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-am_wst_drawbgmode">AM_WST_DRAWBGMODE</a> enumeration. This parameter receives one of the following values.
 
 <table>
 <tr>

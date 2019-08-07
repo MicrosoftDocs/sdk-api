@@ -8,10 +8,10 @@ tech.root: DirectShow
 ms.assetid: fc073d53-bebb-47fc-b60c-7467b4df88c1
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PAM_PROPERTY_SPHLI, AM_PROPERTY_SPHLI, AM_PROPERTY_SPHLI structure [DirectShow], PAM_PROPERTY_SPHLI, PAM_PROPERTY_SPHLI structure pointer [DirectShow], dshow.am_property_sphli, dvdmedia/AM_PROPERTY_SPHLI, dvdmedia/PAM_PROPERTY_SPHLI"
+ms.keywords: '*PAM_PROPERTY_SPHLI, AM_PROPERTY_SPHLI, AM_PROPERTY_SPHLI structure [DirectShow], PAM_PROPERTY_SPHLI, PAM_PROPERTY_SPHLI structure pointer [DirectShow], dshow.am_property_sphli, dvdmedia/AM_PROPERTY_SPHLI, dvdmedia/PAM_PROPERTY_SPHLI'
 ms.topic: struct
-f1_keywords: 
- - "dvdmedia/AM_PROPERTY_SPHLI"
+f1_keywords:
+- dvdmedia/AM_PROPERTY_SPHLI
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dvdmedia.h
+- Dvdmedia.h
 api_name:
- - AM_PROPERTY_SPHLI
+- AM_PROPERTY_SPHLI
 product: Windows
 targetos: Windows
 req.typenames: AM_PROPERTY_SPHLI, *PAM_PROPERTY_SPHLI
@@ -104,7 +104,7 @@ Ending y-coordinate pixel of the current highlight button.
 
 ### -field ColCon
 
-Color contrast description of type <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-_am_colcon">AM_COLCON</a>.
+Color contrast description of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_colcon">AM_COLCON</a>.
 
 
 ## -remarks

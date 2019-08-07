@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpAddressDelHook, DhcpAddressDelHook callback function [DHCP], LPDHCP_PROB, LPDHCP_PROB callback, _dhcp_dhcpaddressdelhook, dhcp.dhcpaddressdelhook, dhcpssdk/DhcpAddressDelHook
 ms.topic: callback
-f1_keywords: 
- - "dhcpssdk/DhcpAddressDelHook"
+f1_keywords:
+- dhcpssdk/DhcpAddressDelHook
 req.header: dhcpssdk.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Dhcpssdk.h
+- Dhcpssdk.h
 api_name:
- - DhcpAddressDelHook
+- DhcpAddressDelHook
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -152,7 +152,7 @@ The following table defines the four defined events that trigger Microsoft DHCP 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpssdk/ns-dhcpssdk-_dhcp_callout_table">DHCP_CALLOUT_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpssdk/ns-dhcpssdk-dhcp_callout_table">DHCP_CALLOUT_TABLE</a>
 
 
 

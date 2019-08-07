@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Sint64Field, MI_Sint64Field structure [Windows Management Infrastructure (MI)], mi/MI_Sint64Field, wmi._mi_sint64field, wmi_v2.mi_sint64field
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_Sint64Field"
+f1_keywords:
+- mi/MI_Sint64Field
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Sint64Field
+- MI_Sint64Field
 product: Windows
 targetos: Windows
 req.typenames: MI_Sint64Field
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a property inside an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> structure.
+Represents a property inside an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
 
 
 ## -struct-fields

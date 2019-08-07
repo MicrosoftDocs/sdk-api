@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 3c7226fd-703c-4981-b82b-180b4070d671
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_SERVER_CONFIG_INFO, DHCP_SERVER_CONFIG_INFO, DHCP_SERVER_CONFIG_INFO structure [DHCP], DHCP_SERVER_USE_RPC_OVER_LPC, DHCP_SERVER_USE_RPC_OVER_NP, DHCP_SERVER_USE_RPC_OVER_TCPIP, LPDHCP_SERVER_CONFIG_INFO, LPDHCP_SERVER_CONFIG_INFO structure pointer [DHCP], dhcp.dhcp_server_config_info, dhcpsapi/LPDHCP_SERVER_CONFIG_INFO, dhcpsapi/_DHCP_SERVER_CONFIG_INFO"
+ms.keywords: '*LPDHCP_SERVER_CONFIG_INFO, DHCP_SERVER_CONFIG_INFO, DHCP_SERVER_CONFIG_INFO structure [DHCP], DHCP_SERVER_USE_RPC_OVER_LPC, DHCP_SERVER_USE_RPC_OVER_NP, DHCP_SERVER_USE_RPC_OVER_TCPIP, LPDHCP_SERVER_CONFIG_INFO, LPDHCP_SERVER_CONFIG_INFO structure pointer [DHCP], dhcp.dhcp_server_config_info, dhcpsapi/LPDHCP_SERVER_CONFIG_INFO, dhcpsapi/_DHCP_SERVER_CONFIG_INFO'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_SERVER_CONFIG_INFO"
+f1_keywords:
+- dhcpsapi/DHCP_SERVER_CONFIG_INFO
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_SERVER_CONFIG_INFO
+- DHCP_SERVER_CONFIG_INFO
 product: Windows
 targetos: Windows
 req.typenames: DHCP_SERVER_CONFIG_INFO, *LPDHCP_SERVER_CONFIG_INFO
@@ -188,7 +188,7 @@ Reserved. This field should be set to 0x00000000.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a>
 
 
 

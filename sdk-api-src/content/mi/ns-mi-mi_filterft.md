@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_FilterFT, MI_FilterFT structure [Windows Management Infrastructure (MI)], mi/MI_FilterFT, wmi_v2.mi_filterft
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_FilterFT"
+f1_keywords:
+- mi/MI_FilterFT
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_FilterFT
+- MI_FilterFT
 product: Windows
 targetos: Windows
 req.typenames: MI_FilterFT
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-A support structure used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_filter">MI_Filter</a> 
+A support structure used in the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_filter">MI_Filter</a> 
     structure. Use the functions with the name prefix "MI_Filter_" to manipulate these 
     structures.
 

@@ -8,10 +8,10 @@ tech.root: MsChap
 ms.assetid: db155f34-fa57-4449-9319-d46561fd18c0
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PLM_OWF_PASSWORD, *PNT_OWF_PASSWORD, LM_OWF_PASSWORD, LM_OWF_PASSWORD structure [MS-CHAP], NT_OWF_PASSWORD, PLM_OWF_PASSWORD, PLM_OWF_PASSWORD structure pointer [MS-CHAP], _LM_OWF_PASSWORD, mschap.lm_owf_password, mschapp/LM_OWF_PASSWORD, mschapp/PLM_OWF_PASSWORD"
+ms.keywords: '*PLM_OWF_PASSWORD, *PNT_OWF_PASSWORD, LM_OWF_PASSWORD, LM_OWF_PASSWORD structure [MS-CHAP], NT_OWF_PASSWORD, PLM_OWF_PASSWORD, PLM_OWF_PASSWORD structure pointer [MS-CHAP], _LM_OWF_PASSWORD, mschap.lm_owf_password, mschapp/LM_OWF_PASSWORD, mschapp/PLM_OWF_PASSWORD'
 ms.topic: struct
-f1_keywords: 
- - "mschapp/LM_OWF_PASSWORD"
+f1_keywords:
+- mschapp/LM_OWF_PASSWORD
 req.header: mschapp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - MsChapp.h
+- MsChapp.h
 api_name:
- - LM_OWF_PASSWORD
+- LM_OWF_PASSWORD
 product: Windows
 targetos: Windows
 req.typenames: LM_OWF_PASSWORD
@@ -61,7 +61,7 @@ The <b>LM_OWF_PASSWORD</b> stores the Lan Manage (LM) one-way function (OWF) of 
 
 ### -field data
 
-An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mschapp/ns-mschapp-_cypher_block">CYPHER_BLOCK</a> structures that contain a LM OWF password hash. The contents of the array are calculated using the <b>LmEncryptedPasswordHash()</b> function as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=84041">RFC 2433</a>, section A.8.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/mschapp/ns-mschapp-cypher_block">CYPHER_BLOCK</a> structures that contain a LM OWF password hash. The contents of the array are calculated using the <b>LmEncryptedPasswordHash()</b> function as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=84041">RFC 2433</a>, section A.8.
 
 
 ## -remarks

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_DeserializerFT, MI_DeserializerFT structure [Windows Management Infrastructure (MI)], mi/MI_DeserializerFT, wmi_v2.mi_deserializerft
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_DeserializerFT"
+f1_keywords:
+- mi/MI_DeserializerFT
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_DeserializerFT
+- MI_DeserializerFT
 product: Windows
 targetos: Windows
 req.typenames: MI_DeserializerFT
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 A support structure used in the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_clientft_v1">MI_ClientFT_V1</a> structure. Use the functions with the 
+     <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_clientft_v1">MI_ClientFT_V1</a> structure. Use the functions with the 
      name prefix "MI_Deserializer_" to manipulate these structures.
 
 
@@ -88,7 +88,7 @@ Deletes the deserializer object and its associated memory. See
 
 #### - DeserializeClass
 
-Deserializes a serialized buffer into an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_class">MI_Class</a> 
+Deserializes a serialized buffer into an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> 
        object. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_deserializer_deserializeclass">MI_Deserializer_DeserializeClass</a>.
 
@@ -96,7 +96,7 @@ Deserializes a serialized buffer into an <a href="https://docs.microsoft.com/pre
 #### - DeserializeInstance
 
 Deserializes a serialized buffer into a 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> object. See 
+       <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> object. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_deserializer_deserializeinstance">MI_Deserializer_DeserializeInstance</a>.
 
 

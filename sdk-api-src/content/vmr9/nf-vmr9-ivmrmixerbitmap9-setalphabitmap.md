@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerBitmap9 interface [DirectShow],SetAlphaBitmap method, IVMRMixerBitmap9.SetAlphaBitmap, IVMRMixerBitmap9::SetAlphaBitmap, IVMRMixerBitmap9SetAlphaBitmap, SetAlphaBitmap, SetAlphaBitmap method [DirectShow], SetAlphaBitmap method [DirectShow],IVMRMixerBitmap9 interface, dshow.ivmrmixerbitmap9_setalphabitmap, vmr9/IVMRMixerBitmap9::SetAlphaBitmap
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRMixerBitmap9.SetAlphaBitmap"
+f1_keywords:
+- vmr9/IVMRMixerBitmap9.SetAlphaBitmap
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMixerBitmap9.SetAlphaBitmap
+- IVMRMixerBitmap9.SetAlphaBitmap
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ The <code>SetAlphaBitmap</code> method specifies a new bitmap image and the sour
 
 ### -param pBmpParms [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9alphabitmap">VMR9AlphaBitmap</a> structure that contains information about the bitmap.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9alphabitmap">VMR9AlphaBitmap</a> structure that contains information about the bitmap.
 
 
 ## -returns
@@ -146,7 +146,7 @@ BitBlt to bitmap surface failed.
 
 To remove the bitmap, set the VMR9AlphaBitmap_Disable flag in the <b>VMR9AlphaBitmap</b> structure and call <code>SetAlphaBitmap</code> again.
 
-The application can provide the bitmap either as a Direct3D surface or as a GDI bitmap. To use a Direct3D surface, set the <b>pDDS</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9alphabitmap">VMR9AlphaBitmap</a> structure. To use a GDI bitmap, set the <b>hdc</b> member of the structure.
+The application can provide the bitmap either as a Direct3D surface or as a GDI bitmap. To use a Direct3D surface, set the <b>pDDS</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9alphabitmap">VMR9AlphaBitmap</a> structure. To use a GDI bitmap, set the <b>hdc</b> member of the structure.
 
 The bitmap is mixed onto the video frame by the VMR's mixer component. The mixer draws the bitmap once per frame. If you change the bitmap while the filter graph is paused or stopped, the mixer does not use the new bitmap until the graph restarts. You can work around this limitation by calling <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-stopwhenready">IMediaControl::StopWhenReady</a>, although a better solution is to write a custom allocator-presenter to draw the bitmap. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/supplying-a-custom-allocator-presenter-for-vmr-9">Supplying a Custom Allocator-Presenter for VMR-9</a>.
 

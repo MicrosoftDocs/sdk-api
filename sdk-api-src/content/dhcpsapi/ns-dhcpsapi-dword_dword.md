@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: a7e61aa6-a8ab-4792-bb93-b492e904b098
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDWORD_DWORD, DWORD_DWORD, DWORD_DWORD structure [DHCP], LPDWORD_DWORD, LPDWORD_DWORD structure pointer [DHCP], dhcp.dword_dword, dhcpsapi/LPDWORD_DWORD, dhcpsapi/_DWORD_DWORD"
+ms.keywords: '*LPDWORD_DWORD, DWORD_DWORD, DWORD_DWORD structure [DHCP], LPDWORD_DWORD, LPDWORD_DWORD structure pointer [DHCP], dhcp.dword_dword, dhcpsapi/LPDWORD_DWORD, dhcpsapi/_DWORD_DWORD'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DWORD_DWORD"
+f1_keywords:
+- dhcpsapi/DWORD_DWORD
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DWORD_DWORD
+- DWORD_DWORD
 product: Windows
 targetos: Windows
 req.typenames: DWORD_DWORD, *LPDWORD_DWORD
@@ -74,7 +74,7 @@ Specifies the lower 32 bits of the value.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_data_element">DHCP_OPTION_DATA_ELEMENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_data_element">DHCP_OPTION_DATA_ELEMENT</a>
  
 
  

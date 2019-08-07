@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxGetLoggingCategories, FaxGetLoggingCategories function [Fax Service], FaxGetLoggingCategoriesA, FaxGetLoggingCategoriesW, _mfax_faxgetloggingcategories, fax._mfax_faxgetloggingcategories, winfax/FaxGetLoggingCategories, winfax/FaxGetLoggingCategoriesA, winfax/FaxGetLoggingCategoriesW
 ms.topic: function
-f1_keywords: 
- - "winfax/FaxGetLoggingCategories"
+f1_keywords:
+- winfax/FaxGetLoggingCategories
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: WinFax.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - WinFax.lib
- - WinFax.dll
+- WinFax.lib
+- WinFax.dll
 api_name:
- - FaxGetLoggingCategories
- - FaxGetLoggingCategoriesA
- - FaxGetLoggingCategoriesW
+- FaxGetLoggingCategories
+- FaxGetLoggingCategoriesA
+- FaxGetLoggingCategoriesW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,18 +73,18 @@ Specifies a fax server handle returned by a call to the <a href="https://docs.mi
 
 Type: <b>PFAX_LOG_CATEGORY*</b>
 
-Pointer to the address of a buffer to receive an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_log_categorya">FAX_LOG_CATEGORY</a> structures. Each structure describes one current logging category. The data includes the descriptive name of the logging category, the category number, and the current logging level. 
+Pointer to the address of a buffer to receive an array of <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_log_categorya">FAX_LOG_CATEGORY</a> structures. Each structure describes one current logging category. The data includes the descriptive name of the logging category, the category number, and the current logging level. 
 
                     
 
-For a description of predefined logging categories and logging levels, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_log_categorya">FAX_LOG_CATEGORY</a> topic. For information about memory allocation, see the following Remarks section.
+For a description of predefined logging categories and logging levels, see the <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_log_categorya">FAX_LOG_CATEGORY</a> topic. For information about memory allocation, see the following Remarks section.
 
 
 ### -param NumberCategories [out]
 
 Type: <b>LPDWORD</b>
 
-Pointer to a <b>DWORD</b> variable to receive the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_log_categorya">FAX_LOG_CATEGORY</a> structures the function returns in the <i>Categories</i> parameter.
+Pointer to a <b>DWORD</b> variable to receive the number of <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_log_categorya">FAX_LOG_CATEGORY</a> structures the function returns in the <i>Categories</i> parameter.
 
 
 ## -returns
@@ -147,7 +147,7 @@ An error occurred during memory allocation.
 
 A fax client application typically calls the <b>FaxGetLoggingCategories</b> function to query the current logging categories and logging levels for a fax server. To modify the current logging categories and levels, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetloggingcategoriesa">FaxSetLoggingCategories</a> function.
 
-The <b>FaxGetLoggingCategories</b> function allocates the memory required for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_log_categorya">FAX_LOG_CATEGORY</a> buffer array pointed to by the <i>Categories</i> parameter. An application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxfreebuffer">FaxFreeBuffer</a> function to deallocate the resources associated with this parameter.
+The <b>FaxGetLoggingCategories</b> function allocates the memory required for the <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_log_categorya">FAX_LOG_CATEGORY</a> buffer array pointed to by the <i>Categories</i> parameter. An application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxfreebuffer">FaxFreeBuffer</a> function to deallocate the resources associated with this parameter.
 
 For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-logging-categories">Managing Logging Categories</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-freeing-fax-resources">Freeing Fax Resources</a>.
 
@@ -159,7 +159,7 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_log_categorya">FAX_LOG_CATEGORY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_log_categorya">FAX_LOG_CATEGORY</a>
 
 
 

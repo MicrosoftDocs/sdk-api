@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced3 interface [windows Media Format],StartAtPosition method, IWMReaderAdvanced3.StartAtPosition, IWMReaderAdvanced3::StartAtPosition, IWMReaderAdvanced3StartAtPosition, StartAtPosition, StartAtPosition method [windows Media Format], StartAtPosition method [windows Media Format],IWMReaderAdvanced3 interface, wmformat.iwmreaderadvanced3_startatposition, wmsdkidl/IWMReaderAdvanced3::StartAtPosition
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced3.StartAtPosition"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced3.StartAtPosition
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced3.StartAtPosition
+- IWMReaderAdvanced3.StartAtPosition
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -96,7 +96,7 @@ Void pointer to the address containing the offset start. The unit of measurement
 <tr>
 <td>WMT_OFFSET_FORMAT_TIMECODE</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmt_timecode_extension_data">WMT_TIMECODE_EXTENSION_DATA</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_timecode_extension_data">WMT_TIMECODE_EXTENSION_DATA</a>
 </td>
 </tr>
 <tr>
@@ -133,7 +133,7 @@ Void pointer to the address containing the duration of playback. If zero is pass
 <tr>
 <td>WMT_OFFSET_FORMAT_TIMECODE</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmt_timecode_extension_data">WMT_TIMECODE_EXTENSION_DATA</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_timecode_extension_data">WMT_TIMECODE_EXTENSION_DATA</a>
 </td>
 </tr>
 <tr>

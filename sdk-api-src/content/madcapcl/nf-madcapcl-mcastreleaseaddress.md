@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: McastReleaseAddress, McastReleaseAddress function [MADCAP], _mdhcp_mcastreleaseaddress, madcap.mcastreleaseaddress, madcapcl/McastReleaseAddress
 ms.topic: function
-f1_keywords: 
- - "madcapcl/McastReleaseAddress"
+f1_keywords:
+- madcapcl/McastReleaseAddress
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpcsvc.lib
 req.dll: Dhcpcsvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpcsvc.dll
+- Dhcpcsvc.dll
 api_name:
- - McastReleaseAddress
+- McastReleaseAddress
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ Unique identifier used when the address or addresses were initially obtained.
 ### -param pReleaseRequest [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_lease_request">MCAST_LEASE_REQUEST</a> structure containing multicast parameters associated with the release request.
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_lease_request">MCAST_LEASE_REQUEST</a> structure containing multicast parameters associated with the release request.
 
 
 ## -returns
@@ -91,27 +91,27 @@ The
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_ipng_address">IPNG_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-ipng_address">IPNG_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_client_uid">MCAST_CLIENT_UID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_client_uid">MCAST_CLIENT_UID</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_lease_request">MCAST_LEASE_REQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_lease_request">MCAST_LEASE_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_lease_response">MCAST_LEASE_RESPONSE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_lease_response">MCAST_LEASE_RESPONSE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_scope_ctx">MCAST_SCOPE_CTX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_scope_ctx">MCAST_SCOPE_CTX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/ns-madcapcl-_mcast_scope_entry">MCAST_SCOPE_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-mcast_scope_entry">MCAST_SCOPE_ENTRY</a>
 
 
 

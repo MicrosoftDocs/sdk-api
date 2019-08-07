@@ -8,10 +8,10 @@ tech.root: netshell
 ms.assetid: 5041801d-384d-4faf-b0df-2a76b083facd
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PNS_CONTEXT_ATTRIBUTES, CMD_FLAG_INTERACTIVE, CMD_FLAG_LOCAL, CMD_FLAG_ONLINE, CMD_FLAG_PRIORITY, NS_CONTEXT_ATTRIBUTES, NS_CONTEXT_ATTRIBUTES structure [NetShell], PNS_CONTEXT_ATTRIBUTES, PNS_CONTEXT_ATTRIBUTES structure pointer [NetShell], _netsh_ns_context_attributes, netsh/NS_CONTEXT_ATTRIBUTES, netsh/PNS_CONTEXT_ATTRIBUTES, netshell.ns_context_attributes"
+ms.keywords: '*PNS_CONTEXT_ATTRIBUTES, CMD_FLAG_INTERACTIVE, CMD_FLAG_LOCAL, CMD_FLAG_ONLINE, CMD_FLAG_PRIORITY, NS_CONTEXT_ATTRIBUTES, NS_CONTEXT_ATTRIBUTES structure [NetShell], PNS_CONTEXT_ATTRIBUTES, PNS_CONTEXT_ATTRIBUTES structure pointer [NetShell], _netsh_ns_context_attributes, netsh/NS_CONTEXT_ATTRIBUTES, netsh/PNS_CONTEXT_ATTRIBUTES, netshell.ns_context_attributes'
 ms.topic: struct
-f1_keywords: 
- - "netsh/NS_CONTEXT_ATTRIBUTES"
+f1_keywords:
+- netsh/NS_CONTEXT_ATTRIBUTES
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netsh.h
+- Netsh.h
 api_name:
- - NS_CONTEXT_ATTRIBUTES
+- NS_CONTEXT_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.typenames: NS_CONTEXT_ATTRIBUTES, *PNS_CONTEXT_ATTRIBUTES
@@ -84,7 +84,7 @@ A unicode string that identifies the new context. This string is the command ava
 
 A pointer to the GUID of this helper. Identical to the value passed to the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registerhelper">RegisterHelper</a> function as the <b>pguidHelper</b> member of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_ns_helper_attributes">NS_HELPER_ATTRIBUTES</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/netsh/ns-netsh-ns_helper_attributes">NS_HELPER_ATTRIBUTES</a> structure.
 
 
 ### -field dwFlags
@@ -208,13 +208,13 @@ Reserved. Must be null.
 
 #### - (pCmdGroups)
 
-An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_cmd_group_entry">CMD_GROUP_ENTRY</a> structures that contain helper command groups.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/netsh/ns-netsh-cmd_group_entry">CMD_GROUP_ENTRY</a> structures that contain helper command groups.
 					
 
 
 #### - (pTopCmds)
 
-An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_cmd_entry">CMD_ENTRY</a> structures that contain helper commands.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/netsh/ns-netsh-cmd_entry">CMD_ENTRY</a> structures that contain helper commands.
 					
 
 
@@ -223,11 +223,11 @@ An array of <a href="https://docs.microsoft.com/previous-versions/windows/deskto
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_cmd_entry">CMD_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netsh/ns-netsh-cmd_entry">CMD_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_cmd_group_entry">CMD_GROUP_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netsh/ns-netsh-cmd_group_entry">CMD_GROUP_ENTRY</a>
 
 
 
@@ -243,7 +243,7 @@ An array of <a href="https://docs.microsoft.com/previous-versions/windows/deskto
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_ns_helper_attributes">NS_HELPER_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netsh/ns-netsh-ns_helper_attributes">NS_HELPER_ATTRIBUTES</a>
 
 
 

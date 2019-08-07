@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FAX_RECIPIENT_CALLBACK, FAX_RECIPIENT_CALLBACK callback, FAX_RECIPIENT_CALLBACK callback function [Fax Service], PFAX_RECIPIENT_CALLBACKA, PFAX_RECIPIENT_CALLBACKW, _mfax_fax_recipient_callback, fax._mfax_fax_recipient_callback, winfax/FAX_RECIPIENT_CALLBACK, winfax/PFAX_RECIPIENT_CALLBACKA, winfax/PFAX_RECIPIENT_CALLBACKW
 ms.topic: callback
-f1_keywords: 
- - "winfax/FAX_RECIPIENT_CALLBACK"
+f1_keywords:
+- winfax/FAX_RECIPIENT_CALLBACK
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winfax.h
+- Winfax.h
 api_name:
- - FAX_RECIPIENT_CALLBACK
- - PFAX_RECIPIENT_CALLBACKA
- - PFAX_RECIPIENT_CALLBACKW
+- FAX_RECIPIENT_CALLBACK
+- PFAX_RECIPIENT_CALLBACKA
+- PFAX_RECIPIENT_CALLBACKW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -86,14 +86,14 @@ Pointer to a variable that contains application-specific context information or 
 
 Type: <b>PFAX_JOB_PARAM</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_job_parama">FAX_JOB_PARAM</a> structure that contains the information necessary for the fax server to send the fax transmission to the designated recipient. The structure includes, among other items, the recipient's fax number, sender and recipient data, an optional billing code, and job scheduling information. The fax server queues the fax transmission according to the details specified by the <b>FAX_JOB_PARAM</b> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_job_parama">FAX_JOB_PARAM</a> structure that contains the information necessary for the fax server to send the fax transmission to the designated recipient. The structure includes, among other items, the recipient's fax number, sender and recipient data, an optional billing code, and job scheduling information. The fax server queues the fax transmission according to the details specified by the <b>FAX_JOB_PARAM</b> structure.
 
 
 ### -param CoverpageInfo [in, out, optional]
 
 Type: <b>PFAX_COVERPAGE_INFO</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_coverpage_infoa">FAX_COVERPAGE_INFO</a> structure that contains cover page data to display on the cover page of the fax document for the designated recipient. This parameter must be <b>NULL</b> if a cover page is not required.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_coverpage_infoa">FAX_COVERPAGE_INFO</a> structure that contains cover page data to display on the cover page of the fax document for the designated recipient. This parameter must be <b>NULL</b> if a cover page is not required.
 
 
 ## -returns
@@ -118,7 +118,7 @@ The function returns a value of zero to indicate that there are no more fax tran
 
 The <b>PFAX_RECIPIENT_CALLBACK</b> data type is a pointer to a <b>FAX_RECIPIENT_CALLBACK</b> function.
 
-Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxcompletejobparamsa">FaxCompleteJobParams</a> function before calling the <b>FAX_RECIPIENT_CALLBACK</b> function. <b>FaxCompleteJobParams</b> is a utility function that fills multiple members in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_coverpage_infoa">FAX_COVERPAGE_INFO</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_job_parama">FAX_JOB_PARAM</a> structures, with information such as the sender's name, fax number, and optional billing code information.
+Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxcompletejobparamsa">FaxCompleteJobParams</a> function before calling the <b>FAX_RECIPIENT_CALLBACK</b> function. <b>FaxCompleteJobParams</b> is a utility function that fills multiple members in the <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_coverpage_infoa">FAX_COVERPAGE_INFO</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_job_parama">FAX_JOB_PARAM</a> structures, with information such as the sender's name, fax number, and optional billing code information.
 
 A fax client application must specify the <b>FAX_RECIPIENT_CALLBACK</b> function by passing its address when it calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsenddocumentforbroadcasta">FaxSendDocumentForBroadcast</a> function.
 
@@ -132,11 +132,11 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_coverpage_infoa">FAX_COVERPAGE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_coverpage_infoa">FAX_COVERPAGE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_job_parama">FAX_JOB_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_job_parama">FAX_JOB_PARAM</a>
 
 
 

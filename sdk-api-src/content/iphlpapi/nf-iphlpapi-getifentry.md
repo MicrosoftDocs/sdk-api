@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIfEntry, GetIfEntry function [IP Helper], _iphlp_getifentry, iphlp.getifentry, iphlpapi/GetIfEntry
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/GetIfEntry"
+f1_keywords:
+- iphlpapi/GetIfEntry
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetIfEntry
+- GetIfEntry
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The
 ### -param pIfRow [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ifmib/ns-ifmib-_mib_ifrow">MIB_IFROW</a> structure that, on successful return, receives information for an interface on the local computer. On input, set the <b>dwIndex</b> member of <b>MIB_IFROW</b> to the index of the interface for which to retrieve information. The value for the <b>dwIndex</b> must be retrieved by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getiftable">GetIfTable</a>, <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getiftable2">GetIfTable2</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getiftable2ex">GetIfTable2Ex</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a> structure that, on successful return, receives information for an interface on the local computer. On input, set the <b>dwIndex</b> member of <b>MIB_IFROW</b> to the index of the interface for which to retrieve information. The value for the <b>dwIndex</b> must be retrieved by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getiftable">GetIfTable</a>, <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getiftable2">GetIfTable2</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getiftable2ex">GetIfTable2Ex</a> function.
 
 
 ## -returns
@@ -97,7 +97,7 @@ The request could not be completed. This is an internal error.
 </dl>
 </td>
 <td width="60%">
-The data is invalid. This error is returned if the  network interface index specified by the <b>dwIndex</b>  member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ifmib/ns-ifmib-_mib_ifrow">MIB_IFROW</a> structure pointed to by the <i>pIfRow</i> parameter is not a valid interface index on the local computer.  
+The data is invalid. This error is returned if the  network interface index specified by the <b>dwIndex</b>  member of the <a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a> structure pointed to by the <i>pIfRow</i> parameter is not a valid interface index on the local computer.  
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ An invalid parameter was passed to the function. This error is returned if a <b>
 </dl>
 </td>
 <td width="60%">
-The specified interface could not be found. This error is returned if the  network interface index specified by the <b>dwIndex</b>  member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ifmib/ns-ifmib-_mib_ifrow">MIB_IFROW</a> structure pointed to by the <i>pIfRow</i> parameter could not be found.  
+The specified interface could not be found. This error is returned if the  network interface index specified by the <b>dwIndex</b>  member of the <a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a> structure pointed to by the <i>pIfRow</i> parameter could not be found.  
 
 </td>
 </tr>
@@ -158,9 +158,9 @@ Use
 
 The <b>GetIfEntry</b> function retrieves information for an interface on a local computer. 
 
-The <b>dwIndex</b> member in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ifmib/ns-ifmib-_mib_ifrow">MIB_IFROW</a> structure pointed to by the <i>pIfRow</i> parameter must be initialized to a valid network interface index retrieved by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getiftable">GetIfTable</a>, <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getiftable2">GetIfTable2</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getiftable2ex">GetIfTable2Ex</a> function.
+The <b>dwIndex</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a> structure pointed to by the <i>pIfRow</i> parameter must be initialized to a valid network interface index retrieved by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getiftable">GetIfTable</a>, <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getiftable2">GetIfTable2</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getiftable2ex">GetIfTable2Ex</a> function.
 
-The <b>GetIfEntry</b> function will fail if the  <b>dwIndex</b>  member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ifmib/ns-ifmib-_mib_ifrow">MIB_IFROW</a> pointed to by the <i>pIfRow</i> parameter does not match an existing interface index on the local computer. 
+The <b>GetIfEntry</b> function will fail if the  <b>dwIndex</b>  member of the <a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a> pointed to by the <i>pIfRow</i> parameter does not match an existing interface index on the local computer. 
 
 
 #### Examples
@@ -380,11 +380,11 @@ int main()
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ifmib/ns-ifmib-_mib_ifrow">MIB_IFROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ifmib/ns-ifmib-_mib_iftable">MIB_IFTABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_iftable">MIB_IFTABLE</a>
 
 
 

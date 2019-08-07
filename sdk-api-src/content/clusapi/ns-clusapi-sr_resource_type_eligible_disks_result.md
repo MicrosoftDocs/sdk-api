@@ -8,10 +8,10 @@ tech.root: MsCS
 ms.assetid: EF93A5C7-CBA6-4B8A-A324-8C3830A2B2F5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT structure pointer [Failover Cluster], SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT structure [Failover Cluster], clusapi/PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, clusapi/SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, mscs.sr_resource_type_eligible_disks_result"
+ms.keywords: '*PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT structure pointer [Failover Cluster], SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT structure [Failover Cluster], clusapi/PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, clusapi/SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, mscs.sr_resource_type_eligible_disks_result'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT"
+f1_keywords:
+- clusapi/SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT
+- SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT
 product: Windows
 targetos: Windows
 req.typenames: SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, *PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT
@@ -78,7 +78,7 @@ An array that contains the retrieved disk information.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_sr_resource_type_disk_info">SR_RESOURCE_TYPE_DISK_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-sr_resource_type_disk_info">SR_RESOURCE_TYPE_DISK_INFO</a>
  
 
  

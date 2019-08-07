@@ -8,10 +8,10 @@ tech.root: DirectShow
 ms.assetid: ac368cbe-aaf6-42d5-a8bd-3652800af640
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PAM_PROPERTY_SPPAL, AM_PROPERTY_SPPAL, AM_PROPERTY_SPPAL structure [DirectShow], PAM_PROPERTY_SPPAL, PAM_PROPERTY_SPPAL structure pointer [DirectShow], dshow.am_property_sppal, dvdmedia/AM_PROPERTY_SPPAL, dvdmedia/PAM_PROPERTY_SPPAL"
+ms.keywords: '*PAM_PROPERTY_SPPAL, AM_PROPERTY_SPPAL, AM_PROPERTY_SPPAL structure [DirectShow], PAM_PROPERTY_SPPAL, PAM_PROPERTY_SPPAL structure pointer [DirectShow], dshow.am_property_sppal, dvdmedia/AM_PROPERTY_SPPAL, dvdmedia/PAM_PROPERTY_SPPAL'
 ms.topic: struct
-f1_keywords: 
- - "dvdmedia/AM_PROPERTY_SPPAL"
+f1_keywords:
+- dvdmedia/AM_PROPERTY_SPPAL
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dvdmedia.h
+- Dvdmedia.h
 api_name:
- - AM_PROPERTY_SPPAL
+- AM_PROPERTY_SPPAL
 product: Windows
 targetos: Windows
 req.typenames: AM_PROPERTY_SPPAL, *PAM_PROPERTY_SPPAL
@@ -64,7 +64,7 @@ Specifies the DVD subpicture palette.
 
 ### -field sppal
 
-Array of 16 YUV elements that correspond to the 4-bit color numbers requested within the subpicture command stream. The YUV elements are of type <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-_am_dvd_yuv">AM_DVD_YUV</a>.
+Array of 16 YUV elements that correspond to the 4-bit color numbers requested within the subpicture command stream. The YUV elements are of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvd_yuv">AM_DVD_YUV</a>.
 
 
 ## -remarks

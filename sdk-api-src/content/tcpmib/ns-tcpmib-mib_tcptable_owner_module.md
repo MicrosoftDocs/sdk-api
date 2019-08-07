@@ -62,12 +62,12 @@ The <b>MIB_TCPTABLE_OWNER_MODULE</b> structure contains a table of process IDs (
 
 ### -field dwNumEntries
 
-The number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_owner_module">MIB_TCPROW_OWNER_MODULE</a> elements in the <b>table</b>.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_owner_module">MIB_TCPROW_OWNER_MODULE</a> elements in the <b>table</b>.
 
 
 ### -field table
 
-Array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_owner_module">MIB_TCPROW_OWNER_MODULE</a> structures returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a>.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_owner_module">MIB_TCPROW_OWNER_MODULE</a> structures returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a>.
 
 
 ## -remarks
@@ -76,7 +76,7 @@ Array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/a
 
 This table is specifically returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a> with the <i>TableClass</i> parameter set to a  <b>TCP_TABLE_OWNER_MODULE_*</b> value from the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-tcp_table_class">TCP_TABLE_CLASS</a> enumeration and the <i>ulAf</i> parameter set to <b>AF_INET4</b>.
 
-The <b>MIB_TCPTABLE_OWNER_MODULE</b> structure may contain padding for alignment between the <b>dwNumEntries</b> member and the first <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_owner_module">MIB_TCPROW_OWNER_MODULE</a> array entry in the <b>table</b> member. Padding for alignment may also be present between the <b>MIB_TCPROW_OWNER_MODULE</b> array entries in the <b>table</b> member. Any access to a <b>MIB_TCPROW_OWNER_MODULE</b> array entry should assume  padding may exist. 
+The <b>MIB_TCPTABLE_OWNER_MODULE</b> structure may contain padding for alignment between the <b>dwNumEntries</b> member and the first <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_owner_module">MIB_TCPROW_OWNER_MODULE</a> array entry in the <b>table</b> member. Padding for alignment may also be present between the <b>MIB_TCPROW_OWNER_MODULE</b> array entries in the <b>table</b> member. Any access to a <b>MIB_TCPROW_OWNER_MODULE</b> array entry should assume  padding may exist. 
 
 
 
