@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronizeInvoke interface [Windows Shell],UpdateItems method, ISyncMgrSynchronizeInvoke.UpdateItems, ISyncMgrSynchronizeInvoke::UpdateItems, UpdateItems, UpdateItems method [Windows Shell], UpdateItems method [Windows Shell],ISyncMgrSynchronizeInvoke interface, mobsync/ISyncMgrSynchronizeInvoke::UpdateItems, shell.syncmgr_isyncmgrsynchronizeinvoke_updateitems, syncmgr.isyncmgrsynchronizeinvoke_updateitems
 ms.topic: method
-f1_keywords: 
- - "mobsync/ISyncMgrSynchronizeInvoke.UpdateItems"
+f1_keywords:
+- mobsync/ISyncMgrSynchronizeInvoke.UpdateItems
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Mobsync.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mobsync.dll
+- Mobsync.dll
 api_name:
- - ISyncMgrSynchronizeInvoke.UpdateItems
+- ISyncMgrSynchronizeInvoke.UpdateItems
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Programmatically starts an update for specified items.
 
 Type: <b>DWORD</b>
 
-Specifies how an item should be invoked using the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrinvokeflags">SYNCMGRINVOKEFLAGS</a> enumeration values.
+Specifies how an item should be invoked using the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrinvokeflags">SYNCMGRINVOKEFLAGS</a> enumeration values.
 
 
 ### -param clsid [in]
@@ -141,7 +141,7 @@ The errors occur during a synchronization update.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrinvokeflags">SYNCMGRINVOKEFLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrinvokeflags">SYNCMGRINVOKEFLAGS</a>
  
 
  

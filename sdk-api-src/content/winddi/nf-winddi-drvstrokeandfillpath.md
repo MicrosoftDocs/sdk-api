@@ -81,7 +81,7 @@ Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/hardw
 
 ### -param pboStroke [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_brushobj">BRUSHOBJ</a> structure that specifies the brush to use when stroking the path.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-brushobj">BRUSHOBJ</a> structure that specifies the brush to use when stroking the path.
 
 
 ### -param plineattrs [in]

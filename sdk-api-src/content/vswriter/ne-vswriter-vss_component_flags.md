@@ -107,7 +107,7 @@ This component is not part of system state.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_schema">VSS_BACKUP_SCHEMA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_schema">VSS_BACKUP_SCHEMA</a>
 
 
 

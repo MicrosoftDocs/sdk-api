@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 3f38f03c-1b99-4072-904c-dca1b98a245c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVOLUME_DISK_EXTENTS, PVOLUME_DISK_EXTENTS, PVOLUME_DISK_EXTENTS structure pointer [Files], VOLUME_DISK_EXTENTS, VOLUME_DISK_EXTENTS structure [Files], _win32_volume_disk_extents_str, base.volume_disk_extents_str, fs.volume_disk_extents_str, winioctl/PVOLUME_DISK_EXTENTS, winioctl/VOLUME_DISK_EXTENTS"
+ms.keywords: '*PVOLUME_DISK_EXTENTS, PVOLUME_DISK_EXTENTS, PVOLUME_DISK_EXTENTS structure pointer [Files], VOLUME_DISK_EXTENTS, VOLUME_DISK_EXTENTS structure [Files], _win32_volume_disk_extents_str, base.volume_disk_extents_str, fs.volume_disk_extents_str, winioctl/PVOLUME_DISK_EXTENTS, winioctl/VOLUME_DISK_EXTENTS'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/VOLUME_DISK_EXTENTS"
+f1_keywords:
+- winioctl/VOLUME_DISK_EXTENTS
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - VOLUME_DISK_EXTENTS
+- VOLUME_DISK_EXTENTS
 product: Windows
 targetos: Windows
 req.typenames: VOLUME_DISK_EXTENTS, *PVOLUME_DISK_EXTENTS
@@ -73,7 +73,7 @@ An extent is a contiguous run of sectors on one disk. When the number of extents
 
 ### -field Extents
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_extent">DISK_EXTENT</a> structures.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_extent">DISK_EXTENT</a> structures.
 
 
 ## -see-also
@@ -81,7 +81,7 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_extent">DISK_EXTENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_extent">DISK_EXTENT</a>
 
 
 

@@ -556,7 +556,7 @@ Specifies an EAP-TLV packet. For more information about the EAP-TLV packet forma
 
 ### -field ratRejectReasonCode
 
-Specifies the reason code for a RADIUS Reject. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_reject_reason_code">RADIUS_REJECT_REASON_CODE</a>.
+Specifies the reason code for a RADIUS Reject. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_reject_reason_code">RADIUS_REJECT_REASON_CODE</a>.
 
 
 ### -field ratCRPPolicyName

@@ -219,7 +219,7 @@ Not enough memory is available to complete the request.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_schannel_cred">SCHANNEL_CRED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-schannel_cred">SCHANNEL_CRED</a>
 
 
 

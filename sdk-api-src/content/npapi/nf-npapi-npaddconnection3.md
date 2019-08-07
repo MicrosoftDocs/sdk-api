@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CONNECT_DEFERRED, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_TEMPORARY, NPAddConnection3, NPAddConnection3 function [Security], _mnp_npaddconnection3, dwType, lpLocalName, lpRemoteName, npapi/NPAddConnection3, security.npaddconnection3
 ms.topic: function
-f1_keywords: 
- - "npapi/NPAddConnection3"
+f1_keywords:
+- npapi/NPAddConnection3
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - NPAddConnection3
+- NPAddConnection3
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ A handle to a window that should own any messages or dialog boxes. This handle i
 ### -param lpNetResource [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_netresourcea">NETRESOURCE</a> structure that specifies the network resource to connect to. The following fields must be set when making a connection. The others are ignored.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure that specifies the network resource to connect to. The following fields must be set when making a connection. The others are ignored.
 
 <table>
 <tr>

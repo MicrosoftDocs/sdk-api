@@ -188,7 +188,7 @@ For the <i>pvPara</i> parameter: A pointer to a Signer Index
 Provides the URL of the CRL issuer retrieved from a property on a CRL that was inherited from the subject certificate (either from the subject certificate issuer or the subject certificate distribution point extension). It is encoded as an authority information access extension method.
 
 For the <i>pvPara</i> parameter: A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a> structure that was issued by the issuer whose URL is requested.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure that was issued by the issuer whose URL is requested.
 
 </td>
 </tr>
@@ -213,7 +213,7 @@ For the <i>pvPara</i> parameter: The PCCERT_CONTEXT of a certificate whose most 
 Retrieves the most recent CRL extension or property of the CRL.
 
 For the <i>pvPara</i> parameter: A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_crl_context_pair">CERT_CRL_CONTEXT_PAIR</a> structure that contains the base CRL of a certificate whose most recent CRL distribution point is being requested.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_crl_context_pair">CERT_CRL_CONTEXT_PAIR</a> structure that contains the base CRL of a certificate whose most recent CRL distribution point is being requested.
 
 </td>
 </tr>
@@ -321,7 +321,7 @@ A pointer to a <b>DWORD</b> that specifies the size, in bytes, of the buffer poi
 ### -param pUrlInfo [out]
 
 An optional pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_url_info">CRYPT_URL_INFO</a> structure that receives the data for the value entry.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_url_info">CRYPT_URL_INFO</a> structure that receives the data for the value entry.
 
 
 ### -param pcbUrlInfo [in, out]

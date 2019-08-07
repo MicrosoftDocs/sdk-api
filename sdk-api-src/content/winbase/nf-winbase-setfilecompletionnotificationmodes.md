@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILE_SKIP_COMPLETION_PORT_ON_SUCCESS, FILE_SKIP_SET_EVENT_ON_HANDLE, SetFileCompletionNotificationModes, SetFileCompletionNotificationModes function [Files], fs.setfilecompletionnotificationmodes_func, winbase/SetFileCompletionNotificationModes
 ms.topic: function
-f1_keywords: 
- - "winbase/SetFileCompletionNotificationModes"
+f1_keywords:
+- winbase/SetFileCompletionNotificationModes
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
- - api-ms-win-core-kernel32-legacy-l1-1-6.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- api-ms-win-core-kernel32-legacy-l1-1-6.dll
 api_name:
- - SetFileCompletionNotificationModes
+- SetFileCompletionNotificationModes
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -106,7 +106,7 @@ When the <i>FileHandle</i> parameter is a socket, this mode is only compatible w
          non-IFS LSP is installed, use the 
          <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> function and examine the 
          <b>dwServiceFlag1</b> member in each returned 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. If the 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. If the 
          <b>XP1_IFS_HANDLES</b> (0x20000) bit is cleared then the specified LSP is not an IFS LSP. 
          Vendors that have non-IFS LSPs are encouraged to migrate to the 
          <a href="https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a> 

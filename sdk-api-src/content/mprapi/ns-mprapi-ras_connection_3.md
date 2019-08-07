@@ -100,7 +100,7 @@ A
 
 ### -field rasQuarState
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_ras_quarantine_state">RAS_QUARANTINE_STATE</a> structure that specifies the Network Access Protection (NAP) quarantine state of the connection.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-ras_quarantine_state">RAS_QUARANTINE_STATE</a> structure that specifies the Network Access Protection (NAP) quarantine state of the connection.
 
 
 ### -field timer
@@ -133,11 +133,11 @@ A FILETIME structure that specifies the time required for the connection to come
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_1">RAS_CONNECTION_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_1">RAS_CONNECTION_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_2">RAS_CONNECTION_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_2">RAS_CONNECTION_2</a>
 
 
 

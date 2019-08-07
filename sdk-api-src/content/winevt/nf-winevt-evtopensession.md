@@ -68,7 +68,7 @@ The connection method to use to connect to the remote computer. For possible val
 
 ### -param Login [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ns-winevt-_evt_rpc_login">EVT_RPC_LOGIN</a> structure that identifies the remote computer that you want to connect to, the user's credentials, and the type of authentication to use when connecting.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ns-winevt-evt_rpc_login">EVT_RPC_LOGIN</a> structure that identifies the remote computer that you want to connect to, the user's credentials, and the type of authentication to use when connecting.
 
 
 ### -param Timeout [in]

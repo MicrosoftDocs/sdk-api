@@ -259,7 +259,7 @@ The optional output buffer returned through the <i>lpOutBuffer</i> parameter of 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_query_type">STORAGE_QUERY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_query_type">STORAGE_QUERY_TYPE</a>
  
 
  

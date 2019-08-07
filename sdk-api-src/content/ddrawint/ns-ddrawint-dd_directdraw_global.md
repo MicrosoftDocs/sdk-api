@@ -76,7 +76,7 @@ Reserved for use by the display driver.
 
 ### -field lpDDVideoPortCaps
 
-Points to an array of one or more <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportcaps">DDVIDEOPORTCAPS</a> structures in which the driver should describe the DirectDraw <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> objects that it supports. The structures are allocated by DirectDraw; the number of structures is based on the value returned in the <b>dwMaxVideoPort</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>.
+Points to an array of one or more <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportcaps">DDVIDEOPORTCAPS</a> structures in which the driver should describe the DirectDraw <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> objects that it supports. The structures are allocated by DirectDraw; the number of structures is based on the value returned in the <b>dwMaxVideoPort</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>.
 
 This member is <b>NULL</b> when the driver does not implement the VPE.
 

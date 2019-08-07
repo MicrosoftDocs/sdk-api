@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyStableUnicastIpAddressTable, NotifyStableUnicastIpAddressTable function [IP Helper], iphlp.notifystableunicastipaddresstable, netioapi/NotifyStableUnicastIpAddressTable
 ms.topic: function
-f1_keywords: 
- - "netioapi/NotifyStableUnicastIpAddressTable"
+f1_keywords:
+- netioapi/NotifyStableUnicastIpAddressTable
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - NotifyStableUnicastIpAddressTable
+- NotifyStableUnicastIpAddressTable
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -313,7 +313,7 @@ An application cannot make a call to the <a href="https://docs.microsoft.com/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ne-netioapi-_mib_notification_type">MIB_NOTIFICATION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ne-netioapi-mib_notification_type">MIB_NOTIFICATION_TYPE</a>
 
 
 

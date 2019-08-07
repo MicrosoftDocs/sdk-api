@@ -265,7 +265,7 @@ A null-terminated Unicode string that contains the IP address of the local compu
 
 ### -field ProjectionInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-projection_info2">PROJECTION_INFO2</a> structure that contains either a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_projection_info2">PPP_PROJECTION_INFO2</a> structure or a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ikev2_projection_info2">IKEV2_PROJECTION_INFO2</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-projection_info2">PROJECTION_INFO2</a> structure that contains either a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_projection_info2">PPP_PROJECTION_INFO2</a> structure or a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ikev2_projection_info2">IKEV2_PROJECTION_INFO2</a> structure.
 
 
 ### -field hConnection

@@ -8,10 +8,10 @@ tech.root: bluetooth
 ms.assetid: 66b5474d-ea21-4ae4-9297-9740f1bc9ecb
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PBTHNS_SETBLOB, *PBTH_SET_SERVICE, BTHNS_SETBLOB, BTH_SET_SERVICE, BTH_SET_SERVICE structure [Bluetooth], PBTH_SET_SERVICE, PBTH_SET_SERVICE structure pointer [Bluetooth], _bth_bth_set_service, bluetooth.bth_set_service, ws2bth/BTH_SET_SERVICE, ws2bth/PBTH_SET_SERVICE"
+ms.keywords: '*PBTHNS_SETBLOB, *PBTH_SET_SERVICE, BTHNS_SETBLOB, BTH_SET_SERVICE, BTH_SET_SERVICE structure [Bluetooth], PBTH_SET_SERVICE, PBTH_SET_SERVICE structure pointer [Bluetooth], _bth_bth_set_service, bluetooth.bth_set_service, ws2bth/BTH_SET_SERVICE, ws2bth/PBTH_SET_SERVICE'
 ms.topic: struct
-f1_keywords: 
- - "ws2bth/BTH_SET_SERVICE"
+f1_keywords:
+- ws2bth/BTH_SET_SERVICE
 req.header: ws2bth.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2bth.h
+- Ws2bth.h
 api_name:
- - BTH_SET_SERVICE
+- BTH_SET_SERVICE
 product: Windows
 targetos: Windows
 req.typenames: BTH_SET_SERVICE, *PBTH_SET_SERVICE, BTHNS_SETBLOB, *PBTHNS_SETBLOB
@@ -75,7 +75,7 @@ Handle to the SDP record. Corresponds to SDP ServiceRecordHandle. Returned by th
 
 Class of device (COD) information. A 32-bit field of COD_SERVICE_* class of device bits associated with this SDP record. The system  combines these bits with COD bits from other service records and system characteristics.  The resulting class of device for the local radio is advertised when the radio is found during device inquiry. When the last SDP record associated with a particular service bit is deleted, that service bit is no longer reported in responses to future device inquiries.
 
-The format and possible values for the COD field are defined in the <i>Bluetooth Assigned Numbers 1.1</i> portion of the Bluetooth specification, Section 1.2. (This resource may not be available in some languages and countries.) Corresponding macros and definitions for COD_SERVICE_* bits used by Windows are defined in Bthdef.h. For more information about class of device (COD), see <a href="https://docs.microsoft.com/windows/desktop/api/bthdef/ns-bthdef-_bth_device_info">BTH_DEVICE_INFO</a>.
+The format and possible values for the COD field are defined in the <i>Bluetooth Assigned Numbers 1.1</i> portion of the Bluetooth specification, Section 1.2. (This resource may not be available in some languages and countries.) Corresponding macros and definitions for COD_SERVICE_* bits used by Windows are defined in Bthdef.h. For more information about class of device (COD), see <a href="https://docs.microsoft.com/windows/desktop/api/bthdef/ns-bthdef-bth_device_info">BTH_DEVICE_INFO</a>.
 
 
 ### -field Reserved

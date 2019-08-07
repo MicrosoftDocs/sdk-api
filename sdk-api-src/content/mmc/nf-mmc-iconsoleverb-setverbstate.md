@@ -63,7 +63,7 @@ SetVerbState method enables a snap-in to set a given verb's button state.
 ### -param eCmdID [in]
 
 A value that specifies the command identifier of the verb. Values are taken from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_console_verb">MMC_CONSOLE_VERB</a> enumeration. This value cannot be MMC_VERB_NONE.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_console_verb">MMC_CONSOLE_VERB</a> enumeration. This value cannot be MMC_VERB_NONE.
 
 
 ### -param nState [in]

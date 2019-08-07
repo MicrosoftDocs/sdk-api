@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_ShowBalloonTip, Edit_ShowBalloonTip macro [Windows Controls], _win32_Edit_ShowBalloonTip, _win32_Edit_ShowBalloonTip_cpp, commctrl/Edit_ShowBalloonTip, controls.Edit_ShowBalloonTip, controls._win32_Edit_ShowBalloonTip
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Edit_ShowBalloonTip"
+f1_keywords:
+- commctrl/Edit_ShowBalloonTip
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Edit_ShowBalloonTip
+- Edit_ShowBalloonTip
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ A handle to the edit control.
 
 Type: <b>PEDITBALLOONTIP</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_tageditballoontip">EDITBALLOONTIP</a> structure that contains information about the balloon tip to display. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-editballoontip">EDITBALLOONTIP</a> structure that contains information about the balloon tip to display. 
 
 
 ## -remarks
@@ -91,7 +91,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_tageditballoontip">EDITBALLOONTIP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-editballoontip">EDITBALLOONTIP</a>
 
 
 

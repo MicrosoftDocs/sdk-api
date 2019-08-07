@@ -66,7 +66,7 @@ The version number of the certificate. <b>CERT_KEYGEN_REQUEST_V1</b> (0) is the 
 
 ### -field SubjectPublicKeyInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key algorithm</a>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key algorithm</a>.
 
 
 ### -field pwszChallengeString

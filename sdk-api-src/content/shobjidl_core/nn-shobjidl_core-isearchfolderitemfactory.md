@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchFolderItemFactory, ISearchFolderItemFactory interface [Windows Shell], ISearchFolderItemFactory interface [Windows Shell],described, _shell_ISearchFolderItemFactory, shell.ISearchFolderItemFactory, shobjidl_core/ISearchFolderItemFactory
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/ISearchFolderItemFactory"
+f1_keywords:
+- shobjidl_core/ISearchFolderItemFactory
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ISearchFolderItemFactory
+- ISearchFolderItemFactory
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ The <b>ISearchFolderItemFactory</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-getidlist">GetIDList</a>
 </td>
 <td align="left" width="63%">
-Gets the search folder as an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a>.
+Gets the search folder as an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a>.
 
 </td>
 </tr>
@@ -174,7 +174,7 @@ Creates a list of stack keys, as specified. If this method is not called, by def
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-setvisiblecolumns">SetVisibleColumns</a>
 </td>
 <td align="left" width="63%">
-Creates a new column list whose columns are all visible, given an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structures.  The default is based on <b>FolderTypeID</b>.
+Creates a new column list whose columns are all visible, given an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structures.  The default is based on <b>FolderTypeID</b>.
 
 </td>
 </tr>

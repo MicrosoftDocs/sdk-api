@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCommConfig, GetCommConfig function, _win32_getcommconfig, base.getcommconfig, winbase/GetCommConfig
 ms.topic: function
-f1_keywords: 
- - "winbase/GetCommConfig"
+f1_keywords:
+- winbase/GetCommConfig
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-comm-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-comm-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - GetCommConfig
+- GetCommConfig
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ A handle to the open communications device. The
 ### -param lpCC [out]
 
 A pointer to a buffer that receives a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commconfig">COMMCONFIG</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commconfig">COMMCONFIG</a> structure.
 
 
 ### -param lpdwSize [in, out]
@@ -99,7 +99,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commconfig">COMMCONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commconfig">COMMCONFIG</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DECODING_SOURCE, DECODING_SOURCE enumeration [ETW], DecodingSourceTlg, DecodingSourceWPP, DecodingSourceWbem, DecodingSourceXMLFile, etw.decoding_source_enum, tdh.decoding_source_enum, tdh/DECODING_SOURCE, tdh/DecodingSourceTlg, tdh/DecodingSourceWPP, tdh/DecodingSourceWbem, tdh/DecodingSourceXMLFile
 ms.topic: enum
-f1_keywords: 
- - "tdh/DECODING_SOURCE"
+f1_keywords:
+- tdh/DECODING_SOURCE
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tdh.h
+- Tdh.h
 api_name:
- - DECODING_SOURCE
+- DECODING_SOURCE
 product: Windows
 targetos: Windows
 req.typenames: DECODING_SOURCE
@@ -89,7 +89,7 @@ Indicates that the event was a self-describing event and was decoded using Trace
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_trace_event_info">TRACE_EVENT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a>
  
 
  

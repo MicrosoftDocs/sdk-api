@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeEncryptionCertificateHashList, FreeEncryptionCertificateHashList function [Files], _win32_freeencryptioncertificatehashlist, base.freeencryptioncertificatehashlist, fs.freeencryptioncertificatehashlist, winefs/FreeEncryptionCertificateHashList
 ms.topic: function
-f1_keywords: 
- - "winefs/FreeEncryptionCertificateHashList"
+f1_keywords:
+- winefs/FreeEncryptionCertificateHashList
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-MS-Win-AdvAPI32-EncryptedFile-l1-1-0.dll
- - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
+- Advapi32.dll
+- Ext-MS-Win-AdvAPI32-EncryptedFile-l1-1-0.dll
+- Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
 api_name:
- - FreeEncryptionCertificateHashList
+- FreeEncryptionCertificateHashList
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Frees a certificate hash list.
 ### -param pUsers [in]
 
 A pointer to a certificate hash list structure, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_encryption_certificate_hash_list">ENCRYPTION_CERTIFICATE_HASH_LIST</a>, which was returned by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-encryption_certificate_hash_list">ENCRYPTION_CERTIFICATE_HASH_LIST</a>, which was returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winefs/nf-winefs-queryusersonencryptedfile">QueryUsersOnEncryptedFile</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winefs/nf-winefs-queryrecoveryagentsonencryptedfile">QueryRecoveryAgentsOnEncryptedFile</a> function.
 
@@ -92,7 +92,7 @@ This function does not return a value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_encryption_certificate_hash_list">ENCRYPTION_CERTIFICATE_HASH_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-encryption_certificate_hash_list">ENCRYPTION_CERTIFICATE_HASH_LIST</a>
 
 
 

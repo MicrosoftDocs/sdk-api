@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WofFileEnumFiles, WofFileEnumFiles function [Files], fs.woffileenumfiles, wofapi/WofFileEnumFiles
 ms.topic: function
-f1_keywords: 
- - "wofapi/WofFileEnumFiles"
+f1_keywords:
+- wofapi/WofFileEnumFiles
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wofutil.lib
 req.dll: Wofutil.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wofutil.dll
+- wofutil.dll
 api_name:
- - WofFileEnumFiles
+- WofFileEnumFiles
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A full path to the volume containing the files to enumerate.
 
 ### -param Algorithm [in]
 
-The compression algorithm to enumerate.  For a list of valid compression algorithms, see <a href="https://docs.microsoft.com/windows/desktop/api/wofapi/ns-wofapi-_wof_file_compression_info_v1">WOF_FILE_COMPRESSION_INFO_V1</a>.  If this value is MAX_ULONG, files compressed with any supported compression algorithm will be returned.
+The compression algorithm to enumerate.  For a list of valid compression algorithms, see <a href="https://docs.microsoft.com/windows/desktop/api/wofapi/ns-wofapi-wof_file_compression_info_v1">WOF_FILE_COMPRESSION_INFO_V1</a>.  If this value is MAX_ULONG, files compressed with any supported compression algorithm will be returned.
 
 
 ### -param EnumProc [in]

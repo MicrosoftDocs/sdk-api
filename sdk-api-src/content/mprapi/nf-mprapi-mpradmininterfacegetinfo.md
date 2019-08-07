@@ -107,7 +107,7 @@ A DWORD value that describes the format in which the information is structured i
 </table>
  
 
-Values of 1, 2, and 3 are valid only for interfaces of type <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_router_connection_state">ROUTER_CONNECTION_STATE</a>.
+Values of 1, 2, and 3 are valid only for interfaces of type <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_connection_state">ROUTER_CONNECTION_STATE</a>.
 
 
 ### -param lplpbBuffer [in]

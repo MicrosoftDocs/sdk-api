@@ -141,7 +141,7 @@ The context that is associated with the URL in the <i>pRawUrl</i> parameter.
 ### -field Version
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_version">HTTP_VERSION</a> structure that contains the version of HTTP specified by this request.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure that contains the version of HTTP specified by this request.
 
 
 ### -field Verb
@@ -202,7 +202,7 @@ The number of elements in the <b>pEntityChunks</b> array. If no entity body was 
 ### -field pEntityChunks
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_data_chunk">HTTP_DATA_CHUNK</a> structures that contains the data blocks making up the entity body. 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_data_chunk">HTTP_DATA_CHUNK</a> structures that contains the data blocks making up the entity body. 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceivehttprequest">HttpReceiveHttpRequest</a> does not copy the entity body unless called with the HTTP_RECEIVE_REQUEST_FLAG_COPY_BODY flag set.
 
 
@@ -239,7 +239,7 @@ The unprocessed URL contained in the <b>pRawUrl</b> member is for tracking and s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_data_chunk">HTTP_DATA_CHUNK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_data_chunk">HTTP_DATA_CHUNK</a>
 
 
 

@@ -72,7 +72,7 @@ The name of the INF file to be verified. This name may include a path.
 ### -param AltPlatformInfo [in]
 
 An optional pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_altplatform_info_v2">SP_ALTPLATFORM_INFO_V2</a> structure that contains information about the alternate platform to use when validating the INF file. This parameter can be Null.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_altplatform_info_v2">SP_ALTPLATFORM_INFO_V2</a> structure that contains information about the alternate platform to use when validating the INF file. This parameter can be Null.
 
 
 ### -param InfSignerInfo [out]

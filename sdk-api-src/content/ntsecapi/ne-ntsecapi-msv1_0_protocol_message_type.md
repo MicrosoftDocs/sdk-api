@@ -121,7 +121,7 @@ This dispatch routine changes the password of an account.
 
  This dispatch routine is called to submit a buffer to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subauthentication package</a>. If the subauthentication is local, use this dispatch routine. If the subauthentication needs to be processed on the domain controller, use the <b>MsV1_0GenericPassthrough</b> dispatch routine with 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_subauth_request">MSV1_0_SUBAUTH_REQUEST</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_msv1_0_subauth_response">MSV1_0_SUBAUTH_RESPONSE</a> buffers.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_subauth_response">MSV1_0_SUBAUTH_RESPONSE</a> buffers.
 
 
 ### -field MsV1_0DeriveCredential

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_SET_HOTPLUG_INFO, IOCTL_STORAGE_SET_HOTPLUG_INFO control, IOCTL_STORAGE_SET_HOTPLUG_INFO control code, _win32_ioctl_storage_set_hotplug_info, base.ioctl_storage_set_hotplug_info, winioctl/IOCTL_STORAGE_SET_HOTPLUG_INFO
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_STORAGE_SET_HOTPLUG_INFO"
+f1_keywords:
+- winioctl/IOCTL_STORAGE_SET_HOTPLUG_INFO
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_STORAGE_SET_HOTPLUG_INFO
+- IOCTL_STORAGE_SET_HOTPLUG_INFO
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -148,10 +148,10 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 Refer to the Remarks section in the reference page for 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_hotplug_info">STORAGE_HOTPLUG_INFO</a> for more information about hotplug devices.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_hotplug_info">STORAGE_HOTPLUG_INFO</a> for more information about hotplug devices.
 
 This operation sets only the <b>DeviceHotplug</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_hotplug_info">STORAGE_HOTPLUG_INFO</a> structure passed in.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_hotplug_info">STORAGE_HOTPLUG_INFO</a> structure passed in.
 
 
 
@@ -173,7 +173,7 @@ This operation sets only the <b>DeviceHotplug</b> member of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_hotplug_info">STORAGE_HOTPLUG_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_hotplug_info">STORAGE_HOTPLUG_INFO</a>
  
 
  

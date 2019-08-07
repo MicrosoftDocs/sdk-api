@@ -61,7 +61,7 @@ The <b>EngFillPath</b> function fills a path.
 
 ### -param pso
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure that describes the surface on which to draw.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the surface on which to draw.
 
 
 ### -param ppo
@@ -81,7 +81,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-w
 
 ### -param pptlBrushOrg
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a> structure defining the brush origin to use to align the brush pattern on the device.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure defining the brush origin to use to align the brush pattern on the device.
 
 
 ### -param mix [in]
@@ -129,7 +129,7 @@ Whenever GDI fills a path on a <a href="https://docs.microsoft.com/windows-hardw
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
  
 
  

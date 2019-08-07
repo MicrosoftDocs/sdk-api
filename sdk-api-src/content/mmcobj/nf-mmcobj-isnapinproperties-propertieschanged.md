@@ -86,7 +86,7 @@ If successful, the return value is <b>S_OK</b>; a snap-in can prevent a change o
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ne-mmcobj-_mmc_property_action">MMC_PROPERTY_ACTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ne-mmcobj-mmc_property_action">MMC_PROPERTY_ACTION</a>
 
 
 

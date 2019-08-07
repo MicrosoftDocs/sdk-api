@@ -78,13 +78,13 @@ A value that specifies whether the interface is enabled. This value is <b>TRUE</
 ### -field dwIfType
 
 A value that identifies the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_router_interface_type">interface type</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_interface_type">interface type</a>.
 
 
 ### -field dwConnectionState
 
 A value that describes the current state of the interface, for example, connected, disconnected, or unreachable. For more information and a list of possible states, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_router_connection_state">ROUTER_CONNECTION_STATE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_connection_state">ROUTER_CONNECTION_STATE</a>.
 
 
 ### -field fUnReachabilityReasons

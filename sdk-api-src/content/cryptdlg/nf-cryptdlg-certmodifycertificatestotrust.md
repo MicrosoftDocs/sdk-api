@@ -86,7 +86,7 @@ A handle to the certificate store in which to modify the list of trusted certifi
 
 ### -param pccertSigner [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that contains a certificate. It is used to sign the trust list. The certificate also restricts the set of trust lists that may be modified. If <b>NULL</b>, the trust list is not signed.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains a certificate. It is used to sign the trust list. The certificate also restricts the set of trust lists that may be modified. If <b>NULL</b>, the trust list is not signed.
 
 
 ## -returns

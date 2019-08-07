@@ -4,8 +4,8 @@ title: DOT11_RADIO_STATE
 ms.date: 01/30/19
 ms.keywords: _DOT11_RADIO_STATE, DOT11_RADIO_STATE
 ms.topic: language-reference
-f1_keywords: 
- - "wlanapi/_DOT11_RADIO_STATE"
+f1_keywords:
+- wlanapi/_DOT11_RADIO_STATE
 targetos: Windows
 product: Windows
 req.construct-type: enumeration
@@ -20,14 +20,14 @@ req.target-type:
 req.typenames: 
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - _DOT11_RADIO_STATE
- - DOT11_RADIO_STATE
+- _DOT11_RADIO_STATE
+- DOT11_RADIO_STATE
 ---
 
 # DOT11_RADIO_STATE enumeration
@@ -59,5 +59,5 @@ The radio is off.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_phy_radio_state">WLAN_PHY_RADIO_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_phy_radio_state">WLAN_PHY_RADIO_STATE</a>
 

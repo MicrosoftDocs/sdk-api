@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUserNotification2 interface [Windows Shell],SetBalloonInfo method, IUserNotification2.SetBalloonInfo, IUserNotification2::SetBalloonInfo, NIIF_ERROR, NIIF_ICON_MASK, NIIF_INFO, NIIF_LARGE_ICON, NIIF_NONE, NIIF_NOSOUND, NIIF_RESPECT_QUIET_TIME, NIIF_USER, NIIF_WARNING, SetBalloonInfo, SetBalloonInfo method [Windows Shell], SetBalloonInfo method [Windows Shell],IUserNotification2 interface, _shell_IUserNotification2_SetBalloonInfo, shell.IUserNotification2_SetBalloonInfo, shobjidl/IUserNotification2::SetBalloonInfo
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IUserNotification2.SetBalloonInfo"
+f1_keywords:
+- shobjidl/IUserNotification2.SetBalloonInfo
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IUserNotification2.SetBalloonInfo
+- IUserNotification2.SetBalloonInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -125,7 +125,7 @@ One or more of the following values that indicate an icon to display in the noti
 
 <ul>
 <li>This flag can be used with all <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ne-shellapi-shstockiconid">stock icons</a>.</li>
-<li>Applications that use older customized icons (NIIF_USER with <b>hIcon</b>) must provide a new SM_CXICON x SM_CYICON version in the tray icon specified in the <b>hIcon</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyicondataa">NOTIFYICONDATA</a> structure. These icons are scaled down when they are displayed in the notification area.</li>
+<li>Applications that use older customized icons (NIIF_USER with <b>hIcon</b>) must provide a new SM_CXICON x SM_CYICON version in the tray icon specified in the <b>hIcon</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NOTIFYICONDATA</a> structure. These icons are scaled down when they are displayed in the notification area.</li>
 <li>New customized icons (NIIF_USER with <b>hBalloonIcon</b>) must supply an SM_CXICON x SM_CYICON version in the supplied icon (<b>hBalloonIcon</b>).</li>
 </ul>
 

@@ -81,7 +81,7 @@ Describes a packet property that is reported by the tablet driver.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-_property_metrics">PROPERTY_METRICS Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-property_metrics">PROPERTY_METRICS Structure</a>
  
 
  

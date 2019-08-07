@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 9092a701-3b47-4c4c-8221-54fa3220d322
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPFILE_ID_DESCRIPTOR, ExtendedFileIdType, FILE_ID_DESCRIPTOR, FILE_ID_DESCRIPTOR structure [Files], FileIdType, ObjectIdType, fileextd/FILE_ID_DESCRIPTOR, fs.file_id_descriptor, winbase/FILE_ID_DESCRIPTOR"
+ms.keywords: '*LPFILE_ID_DESCRIPTOR, ExtendedFileIdType, FILE_ID_DESCRIPTOR, FILE_ID_DESCRIPTOR structure [Files], FileIdType, ObjectIdType, fileextd/FILE_ID_DESCRIPTOR, fs.file_id_descriptor, winbase/FILE_ID_DESCRIPTOR'
 ms.topic: struct
-f1_keywords: 
- - "winbase/FILE_ID_DESCRIPTOR"
+f1_keywords:
+- winbase/FILE_ID_DESCRIPTOR
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
- - FileExtd.h
+- WinBase.h
+- FileExtd.h
 api_name:
- - FILE_ID_DESCRIPTOR
+- FILE_ID_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.typenames: FILE_ID_DESCRIPTOR, *LPFILE_ID_DESCRIPTOR
@@ -130,7 +130,7 @@ The ID of the object to open.
 
 ### -field DUMMYUNIONNAME.ExtendedFileId
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_id_128">FILE_ID_128</a> structure containing the 128-bit file ID of the file. This is used on ReFS file systems.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-file_id_128">FILE_ID_128</a> structure containing the 128-bit file ID of the file. This is used on ReFS file systems.
        
 
 <b>Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:  </b>This member is not supported before Windows 8 and Windows Server 2012.
@@ -141,11 +141,11 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_id_128">FILE_ID_128</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-file_id_128">FILE_ID_128</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-_file_id_type">FILE_ID_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-file_id_type">FILE_ID_TYPE</a>
 
 
 

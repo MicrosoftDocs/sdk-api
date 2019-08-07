@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 4c5ec2eb-f0d9-4603-96d5-1a53e56e97b8
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTXFS_LIST_TRANSACTIONS, PTXFS_LIST_TRANSACTIONS, PTXFS_LIST_TRANSACTIONS structure pointer [Files], TXFS_LIST_TRANSACTIONS, TXFS_LIST_TRANSACTIONS structure [Files], fs.txfs_list_transactions, winioctl/PTXFS_LIST_TRANSACTIONS, winioctl/TXFS_LIST_TRANSACTIONS"
+ms.keywords: '*PTXFS_LIST_TRANSACTIONS, PTXFS_LIST_TRANSACTIONS, PTXFS_LIST_TRANSACTIONS structure pointer [Files], TXFS_LIST_TRANSACTIONS, TXFS_LIST_TRANSACTIONS structure [Files], fs.txfs_list_transactions, winioctl/PTXFS_LIST_TRANSACTIONS, winioctl/TXFS_LIST_TRANSACTIONS'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/TXFS_LIST_TRANSACTIONS"
+f1_keywords:
+- winioctl/TXFS_LIST_TRANSACTIONS
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - TXFS_LIST_TRANSACTIONS
+- TXFS_LIST_TRANSACTIONS
 product: Windows
 targetos: Windows
 req.typenames: TXFS_LIST_TRANSACTIONS, *PTXFS_LIST_TRANSACTIONS
@@ -83,7 +83,7 @@ The length of the buffer required to hold the complete list of transactions at t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_list_transactions_entry">TXFS_LIST_TRANSACTIONS_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_list_transactions_entry">TXFS_LIST_TRANSACTIONS_ENTRY</a>
  
 
  

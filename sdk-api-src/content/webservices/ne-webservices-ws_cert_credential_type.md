@@ -75,6 +75,6 @@ Type id for the certificate credential <a href="https://docs.microsoft.com/windo
 
 ### -field WS_CUSTOM_CERT_CREDENTIAL_TYPE
 
-Type id for the certificate credential <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_cert_credential">WS_CUSTOM_CERT_CREDENTIAL</a>.
+Type id for the certificate credential <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_custom_cert_credential">WS_CUSTOM_CERT_CREDENTIAL</a>.
                 
 

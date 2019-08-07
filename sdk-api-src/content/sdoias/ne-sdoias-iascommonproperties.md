@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IASCOMMONPROPERTIES, IASCOMMONPROPERTIES enumeration [Network Policy Server], PROPERTY_SDO_CLASS, PROPERTY_SDO_DATASTORE_NAME, PROPERTY_SDO_DESCRIPTION, PROPERTY_SDO_ID, PROPERTY_SDO_NAME, PROPERTY_SDO_RESERVED, PROPERTY_SDO_START, _sdo_iascommonproperties, nps.SDO_iascommonproperties, sdo.iascommonproperties, sdoias/IASCOMMONPROPERTIES, sdoias/PROPERTY_SDO_CLASS, sdoias/PROPERTY_SDO_DATASTORE_NAME, sdoias/PROPERTY_SDO_DESCRIPTION, sdoias/PROPERTY_SDO_ID, sdoias/PROPERTY_SDO_NAME, sdoias/PROPERTY_SDO_RESERVED, sdoias/PROPERTY_SDO_START
 ms.topic: enum
-f1_keywords: 
- - "sdoias/IASCOMMONPROPERTIES"
+f1_keywords:
+- sdoias/IASCOMMONPROPERTIES
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - IASCOMMONPROPERTIES
+- IASCOMMONPROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: IASCOMMONPROPERTIES
@@ -98,7 +98,7 @@ The name of the datastore for the object.
 
 ### -field PROPERTY_SDO_START
 
-Indicates the start of <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_userproperties">USERPROPERTIES</a>.
+Indicates the start of <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-userproperties">USERPROPERTIES</a>.
 
 
 ## -remarks

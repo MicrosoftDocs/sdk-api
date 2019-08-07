@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetValueAndState, GetValueAndState method [Windows Properties], GetValueAndState method [Windows Properties],IPropertyStoreCache interface, IPropertyStoreCache interface [Windows Properties],GetValueAndState method, IPropertyStoreCache.GetValueAndState, IPropertyStoreCache::GetValueAndState, properties.IPropertyStoreCache_GetValueAndState, propsys/IPropertyStoreCache::GetValueAndState, shell.IPropertyStoreCache_GetValueAndState, shell_IPropertyStoreCache_GetValueAndState
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyStoreCache.GetValueAndState"
+f1_keywords:
+- propsys/IPropertyStoreCache.GetValueAndState
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyStoreCache.GetValueAndState
+- IPropertyStoreCache.GetValueAndState
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Gets value and state data for a property key.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure identifying the property.
+A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure identifying the property.
 
 
 ### -param ppropvar [out]

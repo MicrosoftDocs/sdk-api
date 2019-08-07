@@ -138,7 +138,7 @@ Export only the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-g
 
 ### -field pCertContext
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that contains the certificate to export. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_EXPORT_CERT_CONTEXT</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the certificate to export. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_EXPORT_CERT_CONTEXT</b>.
 
 
 ### -field pCTLContext

@@ -8,10 +8,10 @@ tech.root: tablet
 ms.assetid: bf207b4a-5ce2-4d2d-98ed-8020d559dca7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPROPERTY_UNITS, PPROPERTY_UNITS, PPROPERTY_UNITS enumeration pointer [Tablet PC], PROPERTY_UNITS, PROPERTY_UNITS enumeration [Tablet PC], PROPERTY_UNITS_CENTIMETERS, PROPERTY_UNITS_DEFAULT, PROPERTY_UNITS_DEGREES, PROPERTY_UNITS_GRAMS, PROPERTY_UNITS_INCHES, PROPERTY_UNITS_POUNDS, PROPERTY_UNITS_RADIANS, PROPERTY_UNITS_SECONDS, bf207b4a-5ce2-4d2d-98ed-8020d559dca7, tablet.property_units, tpcshrd/PPROPERTY_UNITS, tpcshrd/PROPERTY_UNITS, tpcshrd/PROPERTY_UNITS_CENTIMETERS, tpcshrd/PROPERTY_UNITS_DEFAULT, tpcshrd/PROPERTY_UNITS_DEGREES, tpcshrd/PROPERTY_UNITS_GRAMS, tpcshrd/PROPERTY_UNITS_INCHES, tpcshrd/PROPERTY_UNITS_POUNDS, tpcshrd/PROPERTY_UNITS_RADIANS, tpcshrd/PROPERTY_UNITS_SECONDS"
+ms.keywords: '*PPROPERTY_UNITS, PPROPERTY_UNITS, PPROPERTY_UNITS enumeration pointer [Tablet PC], PROPERTY_UNITS, PROPERTY_UNITS enumeration [Tablet PC], PROPERTY_UNITS_CENTIMETERS, PROPERTY_UNITS_DEFAULT, PROPERTY_UNITS_DEGREES, PROPERTY_UNITS_GRAMS, PROPERTY_UNITS_INCHES, PROPERTY_UNITS_POUNDS, PROPERTY_UNITS_RADIANS, PROPERTY_UNITS_SECONDS, bf207b4a-5ce2-4d2d-98ed-8020d559dca7, tablet.property_units, tpcshrd/PPROPERTY_UNITS, tpcshrd/PROPERTY_UNITS, tpcshrd/PROPERTY_UNITS_CENTIMETERS, tpcshrd/PROPERTY_UNITS_DEFAULT, tpcshrd/PROPERTY_UNITS_DEGREES, tpcshrd/PROPERTY_UNITS_GRAMS, tpcshrd/PROPERTY_UNITS_INCHES, tpcshrd/PROPERTY_UNITS_POUNDS, tpcshrd/PROPERTY_UNITS_RADIANS, tpcshrd/PROPERTY_UNITS_SECONDS'
 ms.topic: enum
-f1_keywords: 
- - "tpcshrd/PROPERTY_UNITS"
+f1_keywords:
+- tpcshrd/PROPERTY_UNITS
 req.header: tpcshrd.h
 req.include-header: Rectypes.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - tpcshrd.h
+- tpcshrd.h
 api_name:
- - PROPERTY_UNITS
+- PROPERTY_UNITS
 product: Windows
 targetos: Windows
 req.typenames: PROPERTY_UNITS, *PPROPERTY_UNITS
@@ -136,7 +136,7 @@ The property value is in grams.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-_property_metrics">PROPERTY_METRICS Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-property_metrics">PROPERTY_METRICS Structure</a>
  
 
  

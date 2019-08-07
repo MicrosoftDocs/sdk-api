@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetViewProperty, GetViewProperty method [Windows Shell], GetViewProperty method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetViewProperty method, IFolderView2.GetViewProperty, IFolderView2::GetViewProperty, _shell_IFolderView2_GetViewProperty, shell.IFolderView2_GetViewProperty, shobjidl_core/IFolderView2::GetViewProperty
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView2.GetViewProperty"
+f1_keywords:
+- shobjidl_core/IFolderView2.GetViewProperty
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderView2.GetViewProperty
+- IFolderView2.GetViewProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,14 +74,14 @@ A pointer to an item identifier list (PIDL).
 
 Type: <b>REFPROPERTYKEY</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> to be retrieved.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> to be retrieved.
 
 
 ### -param ppropvar [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure in which the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> is stored.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure in which the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> is stored.
 
 
 ## -returns

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDXML_ATTRIBUTE, WSDXML_ATTRIBUTE structure, _WSDXML_ATTRIBUTE, ncd.wsdxml_attribute_struct, wsdxmldom/WSDXML_ATTRIBUTE
 ms.topic: struct
-f1_keywords: 
- - "wsdxmldom/WSDXML_ATTRIBUTE"
+f1_keywords:
+- wsdxmldom/WSDXML_ATTRIBUTE
 req.header: wsdxmldom.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdXmldom.h
+- WsdXmldom.h
 api_name:
- - WSDXML_ATTRIBUTE
+- WSDXML_ATTRIBUTE
 product: Windows
 targetos: Windows
 req.typenames: WSDXML_ATTRIBUTE
@@ -61,7 +61,7 @@ Describes an XML attribute.
 
 ### -field Element
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_element">WSDXML_ELEMENT</a> structure that specifies parent element of the attribute.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies parent element of the attribute.
 
 
 ### -field Next
@@ -71,7 +71,7 @@ Reference to a <b>WSDXML_ATTRIBUTE</b> structure that specifies the next sibling
 
 ### -field Name
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_name">WSDXML_NAME</a> structure that specifies the qualified name of the attribute.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure that specifies the qualified name of the attribute.
 
 
 ### -field Value

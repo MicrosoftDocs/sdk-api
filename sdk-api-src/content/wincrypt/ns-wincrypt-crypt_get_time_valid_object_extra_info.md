@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 3de595f9-c922-4c8f-8328-819e91a2997c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO structure [Security], PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO structure pointer [Security], security.crypt_get_time_valid_object_extra_info, wincrypt/CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, wincrypt/PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO"
+ms.keywords: '*PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO structure [Security], PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO structure pointer [Security], security.crypt_get_time_valid_object_extra_info, wincrypt/CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, wincrypt/PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO"
+f1_keywords:
+- wincrypt/CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO
+- CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO, *PCRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO
@@ -85,12 +85,12 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbas
 
 ### -field pMaxAgeTime
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies an expiration time of the data retrieved based on the <b>dwMaxAge</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cryptnet_url_cache_response_info">CRYPTNET_URL_CACHE_RESPONSE_INFO</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies an expiration time of the data retrieved based on the <b>dwMaxAge</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cryptnet_url_cache_response_info">CRYPTNET_URL_CACHE_RESPONSE_INFO</a> structure.
 
 
 ### -field pChainPara
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_revocation_chain_para">CERT_REVOCATION_CHAIN_PARA</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> function parameters used by the caller. The data in this member enables independent <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) signer certificate chain verification.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_chain_para">CERT_REVOCATION_CHAIN_PARA</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> function parameters used by the caller. The data in this member enables independent <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) signer certificate chain verification.
 
 
 ### -field pDeltaCrlIndicator

@@ -184,7 +184,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_3">SERVER_TRANSPORT_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_3">SERVER_TRANSPORT_INFO_3</a>
 
 
 

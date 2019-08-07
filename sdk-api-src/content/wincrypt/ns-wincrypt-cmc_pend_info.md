@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: ac3dcd19-caed-4453-bac7-55ffa3a02f54
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCMC_PEND_INFO, CMC_PEND_INFO, CMC_PEND_INFO structure [Security], PCMC_PEND_INFO, PCMC_PEND_INFO structure pointer [Security], _crypto2_cmc_pend_info, security.cmc_pend_info, wincrypt/CMC_PEND_INFO, wincrypt/PCMC_PEND_INFO"
+ms.keywords: '*PCMC_PEND_INFO, CMC_PEND_INFO, CMC_PEND_INFO structure [Security], PCMC_PEND_INFO, PCMC_PEND_INFO structure pointer [Security], _crypto2_cmc_pend_info, security.cmc_pend_info, wincrypt/CMC_PEND_INFO, wincrypt/PCMC_PEND_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMC_PEND_INFO"
+f1_keywords:
+- wincrypt/CMC_PEND_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMC_PEND_INFO
+- CMC_PEND_INFO
 product: Windows
 targetos: Windows
 req.typenames: CMC_PEND_INFO, *PCMC_PEND_INFO
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>CMC_PEND_INFO</b> structure is a possible member of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmc_status_info">CMC_STATUS_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_status_info">CMC_STATUS_INFO</a> structure.
 
 
 ## -struct-fields

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: THREAD_WRITE_FLAGS, THREAD_WRITE_FLAGS enumeration, ThreadWriteBackingStore, ThreadWriteContext, ThreadWriteInstructionWindow, ThreadWriteStack, ThreadWriteThread, ThreadWriteThreadData, ThreadWriteThreadInfo, _win32_thread_write_flags, base.thread_write_flags, minidumpapiset/THREAD_WRITE_FLAGS, minidumpapiset/ThreadWriteBackingStore, minidumpapiset/ThreadWriteContext, minidumpapiset/ThreadWriteInstructionWindow, minidumpapiset/ThreadWriteStack, minidumpapiset/ThreadWriteThread, minidumpapiset/ThreadWriteThreadData, minidumpapiset/ThreadWriteThreadInfo
 ms.topic: enum
-f1_keywords: 
- - "minidumpapiset/THREAD_WRITE_FLAGS"
+f1_keywords:
+- minidumpapiset/THREAD_WRITE_FLAGS
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - THREAD_WRITE_FLAGS
+- THREAD_WRITE_FLAGS
 product: Windows
 targetos: Windows
 req.typenames: THREAD_WRITE_FLAGS
@@ -94,7 +94,7 @@ When the minidump type includes <b>MiniDumpWithProcessThreadData</b>, this flag 
 
 ### -field ThreadWriteThreadInfo
 
-When the minidump type includes <b>MiniDumpWithThreadInfo</b>, this flag is set. The callback function can clear this flag to control which threads provide thread state information in the minidump file. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_thread_info">MINIDUMP_THREAD_INFO</a>.
+When the minidump type includes <b>MiniDumpWithThreadInfo</b>, this flag is set. The callback function can clear this flag to control which threads provide thread state information in the minidump file. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_thread_info">MINIDUMP_THREAD_INFO</a>.
 
 <b>DbgHelp 6.1 and earlier:  </b>This value is not supported.
 

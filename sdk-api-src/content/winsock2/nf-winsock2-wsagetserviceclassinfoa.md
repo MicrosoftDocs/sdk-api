@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAGetServiceClassInfo, WSAGetServiceClassInfo function [Winsock], WSAGetServiceClassInfoA, WSAGetServiceClassInfoW, _win32_wsagetserviceclassinfo_2, winsock.wsagetserviceclassinfo_2, winsock2/WSAGetServiceClassInfo, winsock2/WSAGetServiceClassInfoA, winsock2/WSAGetServiceClassInfoW
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSAGetServiceClassInfo"
+f1_keywords:
+- winsock2/WSAGetServiceClassInfo
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSAGetServiceClassInfo
- - WSAGetServiceClassInfoA
- - WSAGetServiceClassInfoW
+- WSAGetServiceClassInfo
+- WSAGetServiceClassInfoA
+- WSAGetServiceClassInfoW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,7 +82,7 @@ On output, if the function fails and the error is
 
 ### -param lpServiceClassInfo [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaserviceclassinfow">WSASERVICECLASSINFO</a> structure that contains the service class information from the indicated namespace provider for the specified service class.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaserviceclassinfow">WSASERVICECLASSINFO</a> structure that contains the service class information from the indicated namespace provider for the specified service class.
 
 
 ## -returns
@@ -217,7 +217,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaserviceclassinfow">WSASERVICECLASSINFOW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaserviceclassinfow">WSASERVICECLASSINFOW</a>
 
 
 

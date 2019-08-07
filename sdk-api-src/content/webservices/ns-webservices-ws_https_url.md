@@ -116,7 +116,7 @@ If used with the <a href="https://docs.microsoft.com/windows/desktop/api/webserv
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_url">WS_HTTP_URL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_url">WS_HTTP_URL</a>
 
 
 

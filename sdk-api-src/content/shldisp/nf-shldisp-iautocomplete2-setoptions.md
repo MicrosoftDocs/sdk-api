@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAutoComplete2 interface [Windows Shell],SetOptions method, IAutoComplete2.SetOptions, IAutoComplete2::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IAutoComplete2 interface, _win32_IAutoComplete2_SetOptions, shell.IAutoComplete2_SetOptions, shldisp/IAutoComplete2::SetOptions
 ms.topic: method
-f1_keywords: 
- - "shldisp/IAutoComplete2.SetOptions"
+f1_keywords:
+- shldisp/IAutoComplete2.SetOptions
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IAutoComplete2.SetOptions
+- IAutoComplete2.SetOptions
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Sets the current autocomplete options.
 
 Type: <b>DWORD</b>
 
-One or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/ne-shldisp-_tagautocompleteoptions">AUTOCOMPLETEOPTIONS</a> enumeration that specify autocomplete options.
+One or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/ne-shldisp-autocompleteoptions">AUTOCOMPLETEOPTIONS</a> enumeration that specify autocomplete options.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The TAB key is disabled by default because it is typically used to navigate from control to control, not within a control. If you set the <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/ne-shldisp-_tagautocompleteoptions">ACO_USETAB</a> flag in <i>dwFlag</i>, users can navigate to a string in the drop-down list by pressing the TAB key. If the drop-down list is closed, the TAB key allows the user to navigate from control to control, as usual. The user can close the drop-down list by pressing the ESC key.
+The TAB key is disabled by default because it is typically used to navigate from control to control, not within a control. If you set the <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/ne-shldisp-autocompleteoptions">ACO_USETAB</a> flag in <i>dwFlag</i>, users can navigate to a string in the drop-down list by pressing the TAB key. If the drop-down list is closed, the TAB key allows the user to navigate from control to control, as usual. The user can close the drop-down list by pressing the ESC key.
 
 
 

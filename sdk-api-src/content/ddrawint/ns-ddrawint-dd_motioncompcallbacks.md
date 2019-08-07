@@ -148,7 +148,7 @@ Entries that the display driver does not use should be set to <b>NULL</b>. The d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_colorcontrolcallbacks">DD_COLORCONTROLCALLBACKS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_colorcontrolcallbacks">DD_COLORCONTROLCALLBACKS</a>
 
 
 
@@ -160,7 +160,7 @@ Entries that the display driver does not use should be set to <b>NULL</b>. The d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_ntcallbacks">DD_NTCALLBACKS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_ntcallbacks">DD_NTCALLBACKS</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: eb1ff7d1-79db-478f-9f3e-48507d333c76
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPBLOB, BLOB, BLOB structure [Winsock], _win32_blob_2, tagBLOB, winsock.blob_2, wtypesbase/BLOB"
+ms.keywords: '*LPBLOB, BLOB, BLOB structure [Winsock], _win32_blob_2, tagBLOB, winsock.blob_2, wtypesbase/BLOB'
 ms.topic: struct
-f1_keywords: 
- - "winsock2/BLOB"
+f1_keywords:
+- winsock2/BLOB
 req.header: winsock2.h
 req.include-header: Wtypes.h, Nspapi.h, Winsock2.h, Wtypes.h, Nspapi.h, Winsock2.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wtypesbase.h
+- wtypesbase.h
 api_name:
- - BLOB
+- BLOB
 product: Windows
 targetos: Windows
 req.typenames: BLOB, *LPBLOB
@@ -104,7 +104,7 @@ This structure does not describe the nature of the data pointed to by <b>pBlobDa
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
  
 
  

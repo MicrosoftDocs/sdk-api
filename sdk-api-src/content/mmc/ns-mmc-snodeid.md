@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SNodeID, SNodeID structure [MMC], _slate_snodeid, mmc.snodeid, mmc/SNodeID
 ms.topic: struct
-f1_keywords: 
- - "mmc/SNodeID"
+f1_keywords:
+- mmc/SNodeID
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - SNodeID
+- SNodeID
 product: Windows
 targetos: Windows
 req.typenames: SNodeID
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>SNodeID</b> structure is introduced in MMC 1.1, and is replaced by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_snodeid2">SNodeID2</a> structure in MMC 1.2.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-snodeid2">SNodeID2</a> structure in MMC 1.2.
 
 The 
 <b>SNodeID</b> structure defines the format of the data for the 

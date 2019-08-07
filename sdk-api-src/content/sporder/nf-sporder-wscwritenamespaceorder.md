@@ -177,7 +177,7 @@ The current namespace provider catalog is stored in the registry under the follo
 
 
 
-A client request for name resolution uses the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta">WSALookupServiceNext</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupserviceend">WSALookupServiceEnd</a> routines. The <b>dwNameSpace</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> structure passed to <b>WSALookupServiceBegin</b> is set to the identifier of a single namespace (NS_DNS, for example) in which to constrain the search, or <b>NS_ALL</b> to include all namespaces. If multiple namespace providers support a specific namespace (<b>NS_DNS</b>, for example), then the results from all namespace providers that match the requested <b>dwNameSpace</b> are returned unless the <b>lpNSProviderId</b> 
+A client request for name resolution uses the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta">WSALookupServiceNext</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupserviceend">WSALookupServiceEnd</a> routines. The <b>dwNameSpace</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure passed to <b>WSALookupServiceBegin</b> is set to the identifier of a single namespace (NS_DNS, for example) in which to constrain the search, or <b>NS_ALL</b> to include all namespaces. If multiple namespace providers support a specific namespace (<b>NS_DNS</b>, for example), then the results from all namespace providers that match the requested <b>dwNameSpace</b> are returned unless the <b>lpNSProviderId</b> 
 member is set to a specific namespace provider. The results from all namespace providers is returned if NS_ALL is specified for the <b>dwNameSpace</b> member. The order that the results are returned is dependent on the namespace provider order in the catalog.  
 
 The Windows SDK includes an application called SpOrder.exe that allows the catalog of installed namespace providers to be displayed. Windows Sockets 2 includes the ws2_32.dll that exports the  <b>WSCWriteNameSpaceOrder</b> function for reordering namespace providers in the catalog. This interface can be imported by linking with WS2_32.lib. For computers running on Windows XP with Service Pack 2 (SP2) and Windows Server 2003 with Service Pack 1 (SP1) and later, the <b>netsh.exe winsock show catalog</b> command will display both the protocol and namespace providers installed on the system.
@@ -212,7 +212,7 @@ The following list describes scenarios in which the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a>
 
 
 

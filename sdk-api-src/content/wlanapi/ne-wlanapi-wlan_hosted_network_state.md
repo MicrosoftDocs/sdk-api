@@ -93,7 +93,7 @@ The <b>WLAN_HOSTED_NETWORK_STATE</b> enumerated type is an extension to native w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_state_change">WLAN_HOSTED_NETWORK_STATE_CHANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_hosted_network_state_change">WLAN_HOSTED_NETWORK_STATE_CHANGE</a>
 
 
 

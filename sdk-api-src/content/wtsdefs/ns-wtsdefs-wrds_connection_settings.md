@@ -8,10 +8,10 @@ tech.root: TermServ
 ms.assetid: 9219AE45-5F11-484E-BD78-F8E1AB41D648
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWRDS_CONNECTION_SETTINGS, PWRDS_CONNECTION_SETTINGS, PWRDS_CONNECTION_SETTINGS structure pointer [Remote Desktop Services], WRDS_CONNECTION_SETTINGS, WRDS_CONNECTION_SETTINGS structure [Remote Desktop Services], WRDS_CONNECTION_SETTING_LEVEL_1, termserv.wrds_connection_settings, wtsdefs/PWRDS_CONNECTION_SETTINGS, wtsdefs/WRDS_CONNECTION_SETTINGS"
+ms.keywords: '*PWRDS_CONNECTION_SETTINGS, PWRDS_CONNECTION_SETTINGS, PWRDS_CONNECTION_SETTINGS structure pointer [Remote Desktop Services], WRDS_CONNECTION_SETTINGS, WRDS_CONNECTION_SETTINGS structure [Remote Desktop Services], WRDS_CONNECTION_SETTING_LEVEL_1, termserv.wrds_connection_settings, wtsdefs/PWRDS_CONNECTION_SETTINGS, wtsdefs/WRDS_CONNECTION_SETTINGS'
 ms.topic: struct
-f1_keywords: 
- - "wtsdefs/WRDS_CONNECTION_SETTINGS"
+f1_keywords:
+- wtsdefs/WRDS_CONNECTION_SETTINGS
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsdefs.h
+- Wtsdefs.h
 api_name:
- - WRDS_CONNECTION_SETTINGS
+- WRDS_CONNECTION_SETTINGS
 product: Windows
 targetos: Windows
 req.typenames: WRDS_CONNECTION_SETTINGS, *PWRDS_CONNECTION_SETTINGS
@@ -61,18 +61,18 @@ Contains connection setting information for a remote session.
 
 ### -field WRdsConnectionSettingLevel
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ne-wtsdefs-_wrds_connection_setting_level">WRDS_CONNECTION_SETTING_LEVEL</a> enumeration that specifies the type of structure that is contained in the <b>WRdsConnectionSetting</b> member.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ne-wtsdefs-wrds_connection_setting_level">WRDS_CONNECTION_SETTING_LEVEL</a> enumeration that specifies the type of structure that is contained in the <b>WRdsConnectionSetting</b> member.
 
 
 
 #### WRDS_CONNECTION_SETTING_LEVEL_1
 
-The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_connection_settings_1">WRDS_CONNECTION_SETTINGS_1</a> structure.
+The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_connection_settings_1">WRDS_CONNECTION_SETTINGS_1</a> structure.
 
 
 ### -field WRdsConnectionSetting
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_connection_setting">WRDS_CONNECTION_SETTING</a> structure that specifies the connection settings.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_connection_setting">WRDS_CONNECTION_SETTING</a> structure that specifies the connection settings.
 
 
 ### -field WRdsConnectionSetting.switch_is

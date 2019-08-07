@@ -99,7 +99,7 @@ Since the information is returned by the access point for an infrastructure BSS 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_available_network">WLAN_AVAILABLE_NETWORK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network">WLAN_AVAILABLE_NETWORK</a>
 
 
 

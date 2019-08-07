@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPreferredClsid, GetPreferredClsid method [Media Foundation], GetPreferredClsid method [Media Foundation],IMFPluginControl interface, IMFPluginControl interface [Media Foundation],GetPreferredClsid method, IMFPluginControl.GetPreferredClsid, IMFPluginControl::GetPreferredClsid, mf.imfplugincontrol_imfplugincontrol__getpreferredclsid, mfobjects/IMFPluginControl::GetPreferredClsid
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFPluginControl.GetPreferredClsid"
+f1_keywords:
+- mfobjects/IMFPluginControl.GetPreferredClsid
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - IMFPluginControl.GetPreferredClsid
+- IMFPluginControl.GetPreferredClsid
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Searches the preferred list for a class identifier (CLSID) that matches a specif
 
 ### -param pluginType [in]
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mf_plugin_type">MF_Plugin_Type</a> enumeration, specifying the type of object.
+Member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mf_plugin_type">MF_Plugin_Type</a> enumeration, specifying the type of object.
 
 
 ### -param selector [in]

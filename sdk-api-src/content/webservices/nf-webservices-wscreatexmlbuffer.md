@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCreateXmlBuffer, WsCreateXmlBuffer function [Web Services for Windows], webservices/WsCreateXmlBuffer, wsw.wscreatexmlbuffer
 ms.topic: function
-f1_keywords: 
- - "webservices/WsCreateXmlBuffer"
+f1_keywords:
+- webservices/WsCreateXmlBuffer
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsCreateXmlBuffer
+- WsCreateXmlBuffer
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">
 
 ### -param properties
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_buffer_property">WS_XML_BUFFER_PROPERTY</a> structures containing optional properties for the XML buffer.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_buffer_property">WS_XML_BUFFER_PROPERTY</a> structures containing optional properties for the XML buffer.
 
 The value of this parameter may be <b>NULL</b>, in which case, the <i>propertyCount</i> parameter must be 0 (zero).
                 

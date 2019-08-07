@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAnyOperationsAborted, GetAnyOperationsAborted method [Windows Shell], GetAnyOperationsAborted method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],GetAnyOperationsAborted method, IFileOperation.GetAnyOperationsAborted, IFileOperation::GetAnyOperationsAborted, _shell_IFileOperation_GetAnyOperationsAborted, shell.IFileOperation_GetAnyOperationsAborted, shobjidl_core/IFileOperation::GetAnyOperationsAborted
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperation.GetAnyOperationsAborted"
+f1_keywords:
+- shobjidl_core/IFileOperation.GetAnyOperationsAborted
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperation.GetAnyOperationsAborted
+- IFileOperation.GetAnyOperationsAborted
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -85,7 +85,7 @@ Call this method after <a href="https://docs.microsoft.com/windows/desktop/api/s
 
 You should call <b>IFileOperation::GetAnyOperationsAborted</b> regardless of whether <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-performoperations">IFileOperation::PerformOperations</a> returned a success or failure code. A success code can be returned even if the operation was stopped by the user or the system.
 
-This method provides the same functionality as the <b>fAnyOperationsAborted</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileopstructa">SHFILEOPSTRUCT</a> structure used by the legacy function <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a>.
+This method provides the same functionality as the <b>fAnyOperationsAborted</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa">SHFILEOPSTRUCT</a> structure used by the legacy function <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a>.
 
 
 

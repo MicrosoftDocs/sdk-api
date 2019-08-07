@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MSV1_0_GUEST_LOGON, MSV1_0_PASSTHRU, Msv1_0SubAuthenticationRoutineEx, Msv1_0SubAuthenticationRoutineEx function [Security], security.msv1_0subauthenticationroutineex, subauth/Msv1_0SubAuthenticationRoutineEx
 ms.topic: function
-f1_keywords: 
- - "subauth/Msv1_0SubAuthenticationRoutineEx"
+f1_keywords:
+- subauth/Msv1_0SubAuthenticationRoutineEx
 req.header: subauth.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Subauth.h
+- Subauth.h
 api_name:
- - Msv1_0SubAuthenticationRoutineEx
+- Msv1_0SubAuthenticationRoutineEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ Specifies the level of information given in the <i>LogonInformation</i> paramete
 ### -param LogonInformation [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_netlogon_logon_identity_info">NETLOGON_LOGON_IDENTITY_INFO</a> structure. Members of this structure contain information about the user who is logging on. The <b>LogonDomainName</b> member of this structure is ignored.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-netlogon_logon_identity_info">NETLOGON_LOGON_IDENTITY_INFO</a> structure. Members of this structure contain information about the user who is logging on. The <b>LogonDomainName</b> member of this structure is ignored.
 
 
 ### -param Flags [in]
@@ -113,7 +113,7 @@ This is a retry of the logon using the GUEST user account.
 ### -param UserAll [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_user_all_information">USER_ALL_INFORMATION</a> structure that contains the description of the user as returned from the SAM database.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-user_all_information">USER_ALL_INFORMATION</a> structure that contains the description of the user as returned from the SAM database.
 
 
 ### -param UserHandle [in]

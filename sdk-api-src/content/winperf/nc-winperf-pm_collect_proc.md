@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CollectPerformanceData, CollectPerformanceData callback function [Perf], PM_COLLECT_PROC, PM_COLLECT_PROC callback, base.collectperformancedata, perf.collectperformancedata, winperf/CollectPerformanceData
 ms.topic: callback
-f1_keywords: 
- - "winperf/CollectPerformanceData"
+f1_keywords:
+- winperf/CollectPerformanceData
 req.header: winperf.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winperf.h
+- Winperf.h
 api_name:
- - CollectPerformanceData
+- CollectPerformanceData
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -90,7 +90,7 @@ If this function fails, set <i>pObjectsReturned</i> to zero.
 Consumer-allocated buffer that will contain the performance data. 
 
 On output, set <i>pData</i> to one byte past the end of your data. The data must conform to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_object_type">PERF_OBJECT_TYPE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a> structure.
 
 If this function fails, leave the <i>pData</i> pointer value unchanged.
 

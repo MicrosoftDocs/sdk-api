@@ -94,7 +94,7 @@ Return the names of users currently logged on to the workstation. The <i>bufptr<
 </td>
 <td width="60%">
 Return the names of the current users and the domains accessed by the workstation. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_user_info_1">WKSTA_USER_INFO_1</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_user_info_1">WKSTA_USER_INFO_1</a> structures.
 
 </td>
 </tr>
@@ -355,7 +355,7 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_user_info_1">WKSTA_USER_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_user_info_1">WKSTA_USER_INFO_1</a>
 
 
 

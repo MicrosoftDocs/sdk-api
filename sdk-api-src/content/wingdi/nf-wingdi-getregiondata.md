@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRegionData, GetRegionData function [Windows GDI], _win32_GetRegionData, gdi.getregiondata, wingdi/GetRegionData
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetRegionData"
+f1_keywords:
+- wingdi/GetRegionData
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,20 +30,20 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-rgn-l1-1-0.dll
- - Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
- - api-ms-win-gdi-ie-rgn-l1-1-0.dll
- - ie_shims.dll
- - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-rgn-l1-1-0.dll
+- Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
+- api-ms-win-gdi-ie-rgn-l1-1-0.dll
+- ie_shims.dll
+- ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+- GDI32Full.dll
 api_name:
- - GetRegionData
+- GetRegionData
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -77,7 +77,7 @@ The size, in bytes, of the <i>lpRgnData</i> buffer.
 
 ### -param lpRgnData [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_rgndata">RGNDATA</a> structure that receives the information. The dimensions of the region are in logical units. If this parameter is <b>NULL</b>, the return value contains the number of bytes needed for the region data.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a> structure that receives the information. The dimensions of the region are in logical units. If this parameter is <b>NULL</b>, the return value contains the number of bytes needed for the region data.
 
 
 ## -returns
@@ -129,7 +129,7 @@ The <b>GetRegionData</b> function is used in conjunction with the <a href="https
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_rgndata">RGNDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a>
 
 
 

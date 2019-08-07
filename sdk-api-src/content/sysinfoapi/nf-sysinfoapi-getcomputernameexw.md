@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComputerNameDnsDomain, ComputerNameDnsFullyQualified, ComputerNameDnsHostname, ComputerNameNetBIOS, ComputerNamePhysicalDnsDomain, ComputerNamePhysicalDnsFullyQualified, ComputerNamePhysicalDnsHostname, ComputerNamePhysicalNetBIOS, GetComputerNameEx, GetComputerNameEx function, GetComputerNameExA, GetComputerNameExW, _win32_getcomputernameex, base.getcomputernameex, sysinfoapi/GetComputerNameEx, sysinfoapi/GetComputerNameExA, sysinfoapi/GetComputerNameExW
 ms.topic: function
-f1_keywords: 
- - "sysinfoapi/GetComputerNameEx"
+f1_keywords:
+- sysinfoapi/GetComputerNameEx
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,24 +30,24 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-SysInfo-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-0.dll
- - API-MS-Win-Core-SysInfo-l1-2-1.dll
- - API-MS-Win-Core-SysInfo-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-SysInfo-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-0.dll
+- API-MS-Win-Core-SysInfo-l1-2-1.dll
+- API-MS-Win-Core-SysInfo-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-3.dll
 api_name:
- - GetComputerNameEx
- - GetComputerNameExA
- - GetComputerNameExW
+- GetComputerNameEx
+- GetComputerNameExA
+- GetComputerNameExW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ Retrieves a NetBIOS or DNS name associated with the local computer. The names ar
 ### -param NameType [in]
 
 The type of name to be retrieved. This parameter is a value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ne-sysinfoapi-_computer_name_format">COMPUTER_NAME_FORMAT</a> enumeration type. The following table provides additional information. 
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ne-sysinfoapi-computer_name_format">COMPUTER_NAME_FORMAT</a> enumeration type. The following table provides additional information. 
 
 
 
@@ -291,7 +291,7 @@ void _tmain(void)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ne-sysinfoapi-_computer_name_format">COMPUTER_NAME_FORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ne-sysinfoapi-computer_name_format">COMPUTER_NAME_FORMAT</a>
 
 
 

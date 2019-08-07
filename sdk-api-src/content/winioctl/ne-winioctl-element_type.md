@@ -8,10 +8,10 @@ tech.root: devio
 ms.assetid: b026d0f5-133d-4138-a727-80bf4480bb74
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PELEMENT_TYPE, AllElements, ChangerDoor, ChangerDrive, ChangerIEPort, ChangerKeypad, ChangerSlot, ChangerTransport, ELEMENT_TYPE, ELEMENT_TYPE enumeration, PELEMENT_TYPE, PELEMENT_TYPE enumeration pointer, _win32_element_type_str, base.element_type_str, winioctl/AllElements, winioctl/ChangerDoor, winioctl/ChangerDrive, winioctl/ChangerIEPort, winioctl/ChangerKeypad, winioctl/ChangerSlot, winioctl/ChangerTransport, winioctl/ELEMENT_TYPE, winioctl/PELEMENT_TYPE"
+ms.keywords: '*PELEMENT_TYPE, AllElements, ChangerDoor, ChangerDrive, ChangerIEPort, ChangerKeypad, ChangerSlot, ChangerTransport, ELEMENT_TYPE, ELEMENT_TYPE enumeration, PELEMENT_TYPE, PELEMENT_TYPE enumeration pointer, _win32_element_type_str, base.element_type_str, winioctl/AllElements, winioctl/ChangerDoor, winioctl/ChangerDrive, winioctl/ChangerIEPort, winioctl/ChangerKeypad, winioctl/ChangerSlot, winioctl/ChangerTransport, winioctl/ELEMENT_TYPE, winioctl/PELEMENT_TYPE'
 ms.topic: enum
-f1_keywords: 
- - "winioctl/ELEMENT_TYPE"
+f1_keywords:
+- winioctl/ELEMENT_TYPE
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - ELEMENT_TYPE
+- ELEMENT_TYPE
 product: Windows
 targetos: Windows
 req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
@@ -107,7 +107,7 @@ Keypad or other input control on the front panel of a changer. This value is val
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_element">CHANGER_ELEMENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a>
  
 
  

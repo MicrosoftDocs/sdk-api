@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: D1A6995C-A4BA-4ECC-892A-196581FA41CE
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PNTFS_STATISTICS_EX, NTFS_STATISTICS_EX, NTFS_STATISTICS_EX structure [Files], PNTFS_STATISTICS_EX, PNTFS_STATISTICS_EX structure pointer [Files], fs.ntfs_statistics_ex, winioctl/NTFS_STATISTICS_EX, winioctl/PNTFS_STATISTICS_EX"
+ms.keywords: '*PNTFS_STATISTICS_EX, NTFS_STATISTICS_EX, NTFS_STATISTICS_EX structure [Files], PNTFS_STATISTICS_EX, PNTFS_STATISTICS_EX structure pointer [Files], fs.ntfs_statistics_ex, winioctl/NTFS_STATISTICS_EX, winioctl/PNTFS_STATISTICS_EX'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/NTFS_STATISTICS_EX"
+f1_keywords:
+- winioctl/NTFS_STATISTICS_EX
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - NTFS_STATISTICS_EX
+- NTFS_STATISTICS_EX
 product: Windows
 targetos: Windows
 req.typenames: NTFS_STATISTICS_EX, *PNTFS_STATISTICS_EX
@@ -486,7 +486,7 @@ The number of read and write operations measured is the number of paging operati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_filesystem_statistics">FILESYSTEM_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-filesystem_statistics">FILESYSTEM_STATISTICS</a>
 
 
 

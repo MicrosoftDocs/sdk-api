@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NormalizeString, NormalizeString function [Internationalization for Windows Applications], _win32_NormalizeString, intl.normalizestring, winnls/NormalizeString
 ms.topic: function
-f1_keywords: 
- - "winnls/NormalizeString"
+f1_keywords:
+- winnls/NormalizeString
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: Normaliz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Normaliz.dll
- - API-MS-Win-Core-normalization-l1-1-0.dll
- - KernelBase.dll
+- Normaliz.dll
+- API-MS-Win-Core-normalization-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - NormalizeString
+- NormalizeString
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Normalizes characters of a text string according to Unicode 4.0 TR#15. For more 
 
 ### -param NormForm [in]
 
-Normalization form to use. <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-_norm_form">NORM_FORM</a> specifies the standard Unicode normalization forms.
+Normalization form to use. <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-norm_form">NORM_FORM</a> specifies the standard Unicode normalization forms.
 
 
 ### -param lpSrcString [in]
@@ -167,7 +167,7 @@ An example showing the use of this function can be found in <a href="https://doc
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-_norm_form">NORM_FORM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-norm_form">NORM_FORM</a>
 
 
 

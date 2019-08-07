@@ -73,7 +73,7 @@ A string representing the pack name. Packs managed by the basic provider have no
 
 ### -field status
 
-The pack status enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_pack_status">VDS_PACK_STATUS</a>.
+The pack status enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_pack_status">VDS_PACK_STATUS</a>.
 
 
 ### -field ulFlags
@@ -107,7 +107,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_pack_status">VDS_PACK_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_pack_status">VDS_PACK_STATUS</a>
  
 
  

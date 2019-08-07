@@ -8,10 +8,10 @@ tech.root: TermServ
 ms.assetid: F87368C8-FE18-424D-8D53-0E45E6AC5D6C
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWRDS_SETTING, PWRDS_SETTING, PWRDS_SETTING union pointer [Remote Desktop Services], WRDS_SETTING, WRDS_SETTING union [Remote Desktop Services], termserv.wrds_setting, wtsdefs/PWRDS_SETTING, wtsdefs/WRDS_SETTING"
+ms.keywords: '*PWRDS_SETTING, PWRDS_SETTING, PWRDS_SETTING union pointer [Remote Desktop Services], WRDS_SETTING, WRDS_SETTING union [Remote Desktop Services], termserv.wrds_setting, wtsdefs/PWRDS_SETTING, wtsdefs/WRDS_SETTING'
 ms.topic: struct
-f1_keywords: 
- - "wtsdefs/WRDS_SETTING"
+f1_keywords:
+- wtsdefs/WRDS_SETTING
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsdefs.h
+- Wtsdefs.h
 api_name:
- - WRDS_SETTING
+- WRDS_SETTING
 product: Windows
 targetos: Windows
 req.typenames: WRDS_SETTING, *PWRDS_SETTING
@@ -61,7 +61,7 @@ Contains different levels of policy-related settings for a remote desktop connec
 
 ### -field WRdsSettings1
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_settings_1">WRDS_SETTINGS_1</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_settings_1">WRDS_SETTINGS_1</a> structure.
 
 
 ### -field WRdsSettings1.case

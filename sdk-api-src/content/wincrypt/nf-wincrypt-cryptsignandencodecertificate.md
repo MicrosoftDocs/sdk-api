@@ -155,7 +155,7 @@ A pointer to a null-terminated ANSI string that contains the type of data to be 
 </dl>
 </td>
 <td width="60%">
-<i>pvStructInfo</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_request_info">CERT_REQUEST_INFO</a> structure.
+<i>pvStructInfo</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_request_info">CERT_REQUEST_INFO</a> structure.
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ A pointer to a null-terminated ANSI string that contains the type of data to be 
 </dl>
 </td>
 <td width="60%">
-<i>pvStructInfo</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure.
+<i>pvStructInfo</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure.
 
 </td>
 </tr>

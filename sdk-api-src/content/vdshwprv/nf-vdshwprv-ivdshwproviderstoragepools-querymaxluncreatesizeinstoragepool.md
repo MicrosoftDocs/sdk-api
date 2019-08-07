@@ -74,7 +74,7 @@ A VDS_OBJECT_ID (GUID) value that identifies the storage pools to be used to cre
 
 ### -param pHints2 [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_hints2">VDS_HINTS2</a> structure that contains hints to be used in creating the LUN.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints2">VDS_HINTS2</a> structure that contains hints to be used in creating the LUN.
 
 
 ### -param pullMaxLunSize [out]

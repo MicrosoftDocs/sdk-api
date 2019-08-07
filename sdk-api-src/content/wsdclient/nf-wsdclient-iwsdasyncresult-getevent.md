@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEvent, GetEvent method, GetEvent method,IWSDAsyncResult interface, IWSDAsyncResult interface,GetEvent method, IWSDAsyncResult.GetEvent, IWSDAsyncResult::GetEvent, ncd.iwsdasyncresult_getevent_method, wsdclient/IWSDAsyncResult::GetEvent
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDAsyncResult.GetEvent"
+f1_keywords:
+- wsdclient/IWSDAsyncResult.GetEvent
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDAsyncResult.GetEvent
+- IWSDAsyncResult.GetEvent
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_event">WSD_EVENT</a> structure that contains the result of the event.
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_event">WSD_EVENT</a> structure that contains the result of the event.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-
 
 ### -param pEvent [out]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_event">WSD_EVENT</a> structure that provides data about the event. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_event">WSD_EVENT</a> structure that provides data about the event. 
 
 
 

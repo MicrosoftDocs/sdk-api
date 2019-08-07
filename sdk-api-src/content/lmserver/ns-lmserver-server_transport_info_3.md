@@ -263,7 +263,7 @@ Scoped endpoints are generally used by the cluster namespace.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_1">SERVER_TRANSPORT_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_1">SERVER_TRANSPORT_INFO_1</a>
 
 
 

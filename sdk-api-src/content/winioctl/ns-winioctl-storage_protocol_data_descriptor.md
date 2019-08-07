@@ -105,7 +105,7 @@ Set the <b>ProtocolType</b>  field to <b>ProtocolTypeNVMe</b>.
 
 </li>
 <li>
-Set the <b>DataType</b>  field to an enumeration value defined by <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_protocol_nvme_data_type">STORAGE_PROTOCOL_NVME_DATA_TYPE</a>:<ul>
+Set the <b>DataType</b>  field to an enumeration value defined by <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_protocol_nvme_data_type">STORAGE_PROTOCOL_NVME_DATA_TYPE</a>:<ul>
 <li>Use <b>NVMeDataTypeIdentify</b> to get Identify Controller data or Identify Namespace data.</li>
 <li>Use <b>NVMeDataTypeLogPage</b> to get log pages (including SMART/health data).</li>
 <li>Use <b>NVMeDataTypeFeature</b> to get features of the NVMe drive.</li>
@@ -122,7 +122,7 @@ Set the <b>ProtocolType</b>  field to <b>ProtocolTypeAta</b>.
 
 </li>
 <li>
-Set the <b>DataType</b>  field to an enumeration value defined by <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_protocol_ata_data_type">STORAGE_PROTOCOL_ATA_DATA_TYPE</a>:<ul>
+Set the <b>DataType</b>  field to an enumeration value defined by <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_protocol_ata_data_type">STORAGE_PROTOCOL_ATA_DATA_TYPE</a>:<ul>
 <li>Use <b>AtaDataTypeIdentify</b> to identify the ATA drive.</li>
 <li>Use <b>AtaDataTypeLogPage</b> to get log pages from the ATA drive.</li>
 </ul>

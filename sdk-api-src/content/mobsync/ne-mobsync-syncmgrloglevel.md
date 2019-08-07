@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SYNCMGRLOGLEVEL, SYNCMGRLOGLEVEL enumeration [Windows Shell], SYNCMGRLOGLEVEL_ERROR, SYNCMGRLOGLEVEL_INFORMATION, SYNCMGRLOGLEVEL_LOGLEVELMAX, SYNCMGRLOGLEVEL_WARNING, mobsync/SYNCMGRLOGLEVEL, mobsync/SYNCMGRLOGLEVEL_ERROR, mobsync/SYNCMGRLOGLEVEL_INFORMATION, mobsync/SYNCMGRLOGLEVEL_LOGLEVELMAX, mobsync/SYNCMGRLOGLEVEL_WARNING, shell.syncmgr_syncmgrloglevel, syncmgr.syncmgrloglevel
 ms.topic: enum
-f1_keywords: 
- - "mobsync/SYNCMGRLOGLEVEL"
+f1_keywords:
+- mobsync/SYNCMGRLOGLEVEL
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mobsync.h
+- Mobsync.h
 api_name:
- - SYNCMGRLOGLEVEL
+- SYNCMGRLOGLEVEL
 product: Windows
 targetos: Windows
 req.typenames: SYNCMGRLOGLEVEL
@@ -78,7 +78,7 @@ An error message was logged.
 
 ### -field SYNCMGRLOGLEVEL_LOGLEVELMAX
 
-The largest valid <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrloglevel">SYNCMGRLOGLEVEL</a> value.
+The largest valid <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrloglevel">SYNCMGRLOGLEVEL</a> value.
 
 
 ## -see-also

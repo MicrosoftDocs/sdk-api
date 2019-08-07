@@ -75,7 +75,7 @@ Specifies the minimum number of bytes that the reader should have obtained.  If 
 
 ### -param asyncContext [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_async_context">WS_ASYNC_CONTEXT</a> data structure with information about invoking the function asynchronously.  A <b>NULL</b> 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> data structure with information about invoking the function asynchronously.  A <b>NULL</b> 
                  value indicates a request for synchronous operation.
 
 
@@ -122,10 +122,10 @@ The number of bytes required to read a particular segment of XML data depends up
         and its formatting.
       
 
-This function is a "no-op" when used with a reader using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_buffer_input">WS_XML_READER_BUFFER_INPUT</a>.
+This function is a "no-op" when used with a reader using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_buffer_input">WS_XML_READER_BUFFER_INPUT</a>.
       
 
-By specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_async_context">WS_ASYNC_CONTEXT</a> the data is read asynchronously.
+By specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> the data is read asynchronously.
       
 
 

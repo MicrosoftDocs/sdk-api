@@ -70,7 +70,7 @@ Size of this structure and the raw counter data that follows, in bytes.
 
 
 
-The <b>CounterOffset</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_counter_definition">PERF_COUNTER_DEFINITION</a> provides the offset from the beginning of this structure to the counter value.
+The <b>CounterOffset</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_counter_definition">PERF_COUNTER_DEFINITION</a> provides the offset from the beginning of this structure to the counter value.
 
 The location of the <b>PERF_COUNTER_BLOCK</b> structure within the <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a> block depends on if the object contains instances. For details, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>.
 
@@ -84,11 +84,11 @@ You must ensure that the size of the counter block is aligned to an 8-byte bound
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_counter_definition">PERF_COUNTER_DEFINITION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_counter_definition">PERF_COUNTER_DEFINITION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_instance_definition">PERF_INSTANCE_DEFINITION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_instance_definition">PERF_INSTANCE_DEFINITION</a>
 
 
 

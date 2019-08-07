@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: ad86f388-27af-442a-a76f-f386f66296ac
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_PHYSICAL_STORE_INFO, CERT_PHYSICAL_STORE_ADD_ENABLE_FLAG, CERT_PHYSICAL_STORE_INFO, CERT_PHYSICAL_STORE_INFO structure [Security], CERT_PHYSICAL_STORE_INSERT_COMPUTER_NAME_ENABLE_FLAG, CERT_PHYSICAL_STORE_OPEN_DISABLE_FLAG, CERT_PHYSICAL_STORE_REMOTE_OPEN_DISABLE_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, PCERT_PHYSICAL_STORE_INFO, PCERT_PHYSICAL_STORE_INFO structure pointer [Security], _crypto2_cert_physical_store_info, security.cert_physical_store_info, wincrypt/CERT_PHYSICAL_STORE_INFO, wincrypt/PCERT_PHYSICAL_STORE_INFO"
+ms.keywords: '*PCERT_PHYSICAL_STORE_INFO, CERT_PHYSICAL_STORE_ADD_ENABLE_FLAG, CERT_PHYSICAL_STORE_INFO, CERT_PHYSICAL_STORE_INFO structure [Security], CERT_PHYSICAL_STORE_INSERT_COMPUTER_NAME_ENABLE_FLAG, CERT_PHYSICAL_STORE_OPEN_DISABLE_FLAG, CERT_PHYSICAL_STORE_REMOTE_OPEN_DISABLE_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, PCERT_PHYSICAL_STORE_INFO, PCERT_PHYSICAL_STORE_INFO structure pointer [Security], _crypto2_cert_physical_store_info, security.cert_physical_store_info, wincrypt/CERT_PHYSICAL_STORE_INFO, wincrypt/PCERT_PHYSICAL_STORE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_PHYSICAL_STORE_INFO"
+f1_keywords:
+- wincrypt/CERT_PHYSICAL_STORE_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_PHYSICAL_STORE_INFO
+- CERT_PHYSICAL_STORE_INFO
 product: Windows
 targetos: Windows
 req.typenames: CERT_PHYSICAL_STORE_INFO, *PCERT_PHYSICAL_STORE_INFO
@@ -166,7 +166,7 @@ Places the string \\ComputerName in front of other provider types.
 </td>
 <td width="60%">
 Enables <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> to open a store relative to a user-specified HKEY instead of one of the predefined HKEY constants. For example, HKEY_CURRENT_USER can be replaced with a user-specified HKEY. When CERT_SYSTEM_STORE_RELOCATE_FLAG is set, the <i>pvPara</i> parameter passed to <b>CertOpenStore</b> points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a> structure instead of pointing to the store name as a null-terminated <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> string.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a> structure instead of pointing to the store name as a null-terminated <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> string.
 
 </td>
 </tr>

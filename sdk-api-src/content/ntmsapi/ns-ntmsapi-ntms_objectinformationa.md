@@ -125,7 +125,7 @@ The current computer object. There is no structure for the computer object. The 
 </td>
 <td width="60%">
 A drive object represents a tape drive or disk drive. The <b>Info</b> member is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_driveinformationa">NTMS_DRIVEINFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_driveinformationa">NTMS_DRIVEINFORMATION</a> structure.
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ A drive object represents a tape drive or disk drive. The <b>Info</b> member is 
 </td>
 <td width="60%">
 A drive type object is created for each unique drive device type attached to a system. The <b>Info</b> member is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_drivetypeinformationa">NTMS_DRIVETYPEINFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_drivetypeinformationa">NTMS_DRIVETYPEINFORMATION</a> structure.
 
 </td>
 </tr>
@@ -169,7 +169,7 @@ An NTMS_IEPORT object represents the insert/eject port of a library unit. The <b
 </td>
 <td width="60%">
 A library object represents an online or offline library. The <b>Info</b> member is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_libraryinformation">NTMS_LIBRARYINFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_libraryinformation">NTMS_LIBRARYINFORMATION</a> structure.
 
 </td>
 </tr>
@@ -224,7 +224,7 @@ A media type object is created for each unique media type in a system. The <b>In
 </td>
 <td width="60%">
 An operator request object represents an RSM request for a user to get the information. The <b>Info</b> member is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_oprequestinformationa">NTMS_OPREQUESTINFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_oprequestinformationa">NTMS_OPREQUESTINFORMATION</a> structure.
 
 </td>
 </tr>
@@ -533,21 +533,21 @@ Device or system control object-specific information. The format of this informa
 
 ### -field Info.Drive
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_driveinformationa">NTMS_DRIVEINFORMATION</a></b>
+<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_driveinformationa">NTMS_DRIVEINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_DRIVE</b>.
 
 
 ### -field Info.DriveType
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_drivetypeinformationa">NTMS_DRIVETYPEINFORMATION</a></b>
+<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_drivetypeinformationa">NTMS_DRIVETYPEINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_DRIVE_TYPE</b>.
 
 
 ### -field Info.Library
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_libraryinformation">NTMS_LIBRARYINFORMATION</a></b>
+<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_libraryinformation">NTMS_LIBRARYINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_LIBRARY</b>.
 

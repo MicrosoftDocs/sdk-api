@@ -187,7 +187,7 @@ This functions supports the following scenarios, based on the contents
 <ul>
 <li>Reading a single element.  
                 In this case, the elementLocalName and elementNs
-                fields of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_element_description">WS_ELEMENT_DESCRIPTION</a> should be set to the local name
+                fields of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a> should be set to the local name
                 and namespace of the element to read, and the type and type description represents
                 the type of the value being deserialized.  
                 
@@ -201,7 +201,7 @@ Since different faults with different detail formats may be expected
 </li>
 <li>Reading multiple elements as a single value.  
                 In this case, the elementLocalName and elementNs
-                fields of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_element_description">WS_ELEMENT_DESCRIPTION</a> should be set to <b>NULL</b>, and a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRUCT_TYPE</a>and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a> should be specified.  Each field of the
+                fields of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a> should be set to <b>NULL</b>, and a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRUCT_TYPE</a>and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a> should be specified.  Each field of the
                 structure value being deserialized should correspond to element(s) to read within the body.
                 The readOption parameter must be <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_VALUE</a> or <b>WS_READ_REQUIRED_POINTER</b>. 
                 

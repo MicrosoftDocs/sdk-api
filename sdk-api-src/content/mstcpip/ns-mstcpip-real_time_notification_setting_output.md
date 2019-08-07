@@ -81,7 +81,7 @@ The <a href="https://docs.microsoft.com/windows/win32/api/mstcpip/ns-mstcpip-rea
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ne-mswsock-_rio_notification_completion_type">CONTROL_CHANNEL_TRIGGER_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ne-mswsock-rio_notification_completion_type">CONTROL_CHANNEL_TRIGGER_STATUS</a>
 
 
 

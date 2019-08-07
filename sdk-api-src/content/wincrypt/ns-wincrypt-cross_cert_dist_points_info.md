@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 13358822-c690-40af-ba9d-2fafa0233a5c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCROSS_CERT_DIST_POINTS_INFO, CROSS_CERT_DIST_POINTS_INFO, CROSS_CERT_DIST_POINTS_INFO structure [Security], PCROSS_CERT_DIST_POINTS_INFO, PCROSS_CERT_DIST_POINTS_INFO structure pointer [Security], _crypto2_cross_cert_dist_points_info, security.cross_cert_dist_points_info, wincrypt/CROSS_CERT_DIST_POINTS_INFO, wincrypt/PCROSS_CERT_DIST_POINTS_INFO"
+ms.keywords: '*PCROSS_CERT_DIST_POINTS_INFO, CROSS_CERT_DIST_POINTS_INFO, CROSS_CERT_DIST_POINTS_INFO structure [Security], PCROSS_CERT_DIST_POINTS_INFO, PCROSS_CERT_DIST_POINTS_INFO structure pointer [Security], _crypto2_cross_cert_dist_points_info, security.cross_cert_dist_points_info, wincrypt/CROSS_CERT_DIST_POINTS_INFO, wincrypt/PCROSS_CERT_DIST_POINTS_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CROSS_CERT_DIST_POINTS_INFO"
+f1_keywords:
+- wincrypt/CROSS_CERT_DIST_POINTS_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CROSS_CERT_DIST_POINTS_INFO
+- CROSS_CERT_DIST_POINTS_INFO
 product: Windows
 targetos: Windows
 req.typenames: CROSS_CERT_DIST_POINTS_INFO, *PCROSS_CERT_DIST_POINTS_INFO
@@ -72,5 +72,5 @@ Count of the number of elements in the <b>rgDistPoint</b> member array.
 ### -field rgDistPoint
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_info">CERT_ALT_NAME_INFO</a> structures for distribution points for updating cross certificates.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a> structures for distribution points for updating cross certificates.
 

@@ -74,19 +74,19 @@ Requests replication state data with respect to all replicas of a given naming c
 ### -field DS_REPL_INFO_METADATA_FOR_OBJ
 
 Requests replication state data for the attributes for the given object. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_obj_meta_data">DS_REPL_OBJ_META_DATA</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data">DS_REPL_OBJ_META_DATA</a> structure.
 
 
 ### -field DS_REPL_INFO_KCC_DSA_CONNECT_FAILURES
 
 Requests replication state data with respect to connection failures between inbound replication partners. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_kcc_dsa_failuresw">DS_REPL_KCC_DSA_FAILURES</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failuresw">DS_REPL_KCC_DSA_FAILURES</a> structure.
 
 
 ### -field DS_REPL_INFO_KCC_DSA_LINK_FAILURES
 
 Requests replication state data with respect to link failures between inbound replication partners. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_kcc_dsa_failuresw">DS_REPL_KCC_DSA_FAILURES</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failuresw">DS_REPL_KCC_DSA_FAILURES</a> structure.
 
 
 ### -field DS_REPL_INFO_PENDING_OPS
@@ -98,7 +98,7 @@ Requests the replication tasks currently executing or queued to execute. Returns
 ### -field DS_REPL_INFO_METADATA_FOR_ATTR_VALUE
 
 Requests replication state data for a specific attribute for the given object. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_attr_value_meta_data">DS_REPL_ATTR_VALUE_META_DATA</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data">DS_REPL_ATTR_VALUE_META_DATA</a> structure.
 
 
 ### -field DS_REPL_INFO_CURSORS_2_FOR_NC
@@ -116,13 +116,13 @@ Requests replication state data with respect to all replicas of a given naming c
 ### -field DS_REPL_INFO_METADATA_2_FOR_OBJ
 
 Requests replication state data for the attributes for the given object. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_obj_meta_data_2">DS_REPL_OBJ_META_DATA_2</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data_2">DS_REPL_OBJ_META_DATA_2</a> structure.
 
 
 ### -field DS_REPL_INFO_METADATA_2_FOR_ATTR_VALUE
 
 Requests replication state data for a specific attribute for the given object. Returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_attr_value_meta_data_2">DS_REPL_ATTR_VALUE_META_DATA_2</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data_2">DS_REPL_ATTR_VALUE_META_DATA_2</a> structure.
 
 
 ### -field DS_REPL_INFO_METADATA_EXT_FOR_ATTR_VALUE
@@ -138,7 +138,7 @@ Requests replication state data for a specific attribute for the given object. R
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_attr_meta_data">DS_REPL_ATTR_VALUE_META_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_attr_meta_data">DS_REPL_ATTR_VALUE_META_DATA</a>
 
 
 
@@ -158,7 +158,7 @@ Requests replication state data for a specific attribute for the given object. R
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_kcc_dsa_failuresw">DS_REPL_KCC_DSA_FAILURES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failuresw">DS_REPL_KCC_DSA_FAILURES</a>
 
 
 
@@ -166,11 +166,11 @@ Requests replication state data for a specific attribute for the given object. R
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_obj_meta_data">DS_REPL_OBJ_META_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data">DS_REPL_OBJ_META_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_obj_meta_data_2">DS_REPL_OBJ_META_DATA_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data_2">DS_REPL_OBJ_META_DATA_2</a>
 
 
 

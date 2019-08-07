@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVENTMAP_ENTRY_VALUETYPE_STRING, EVENTMAP_ENTRY_VALUETYPE_ULONG, MAP_VALUETYPE, MAP_VALUETYPE enumeration [ETW], etw.map_valuetype_enum, tdh.map_valuetype_enum, tdh/EVENTMAP_ENTRY_VALUETYPE_STRING, tdh/EVENTMAP_ENTRY_VALUETYPE_ULONG, tdh/MAP_VALUETYPE
 ms.topic: enum
-f1_keywords: 
- - "tdh/MAP_VALUETYPE"
+f1_keywords:
+- tdh/MAP_VALUETYPE
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tdh.h
+- Tdh.h
 api_name:
- - MAP_VALUETYPE
+- MAP_VALUETYPE
 product: Windows
 targetos: Windows
 req.typenames: MAP_VALUETYPE
@@ -61,12 +61,12 @@ Defines if the value map value is in a ULONG data type or a string.
 
 ### -field EVENTMAP_ENTRY_VALUETYPE_ULONG
 
-Use the <b>Value</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_map_entry">EVENT_MAP_ENTRY</a> to access the map value. 
+Use the <b>Value</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_map_entry">EVENT_MAP_ENTRY</a> to access the map value. 
 
 
 ### -field EVENTMAP_ENTRY_VALUETYPE_STRING
 
-Use the <b>InputOffset</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_map_entry">EVENT_MAP_ENTRY</a> to access the map value.
+Use the <b>InputOffset</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_map_entry">EVENT_MAP_ENTRY</a> to access the map value.
 
 
 ## -see-also
@@ -74,7 +74,7 @@ Use the <b>InputOffset</b> member of <a href="https://docs.microsoft.com/windows
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_map_info">EVENT_MAP_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_map_info">EVENT_MAP_INFO</a>
  
 
  

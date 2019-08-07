@@ -361,7 +361,7 @@ This API does not participate in DPI virtualization. The output returned is not 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-_iconinfo">ICONINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>
 
 
 

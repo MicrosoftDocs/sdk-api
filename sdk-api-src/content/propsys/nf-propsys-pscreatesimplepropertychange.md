@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSCreateSimplePropertyChange, PSCreateSimplePropertyChange function [Windows Properties], _shell_PSCreateSimplePropertyChange, properties.PSCreateSimplePropertyChange, propsys/PSCreateSimplePropertyChange, shell.PSCreateSimplePropertyChange
 ms.topic: function
-f1_keywords: 
- - "propsys/PSCreateSimplePropertyChange"
+f1_keywords:
+- propsys/PSCreateSimplePropertyChange
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSCreateSimplePropertyChange
+- PSCreateSimplePropertyChange
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-prop
 
 Type: <b>REFPROPERTYKEY</b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.
 
 
 ### -param propvar [in]

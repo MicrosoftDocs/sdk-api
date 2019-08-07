@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_SERVICE_PROP, VDS_SERVICE_PROP structure [VDS], base.vds_service_prop, vds/_VDS_SERVICE_PROP
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_SERVICE_PROP"
+f1_keywords:
+- vds/VDS_SERVICE_PROP
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - VDS_SERVICE_PROP
+- VDS_SERVICE_PROP
 product: Windows
 targetos: Windows
 req.typenames: VDS_SERVICE_PROP
@@ -68,7 +68,7 @@ The version of VDS; a zero-terminated, human-readable string.
 
 ### -field ulFlags
 
-A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_service_flag">VDS_SERVICE_FLAG</a> enumeration values that describe the service.
+A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_service_flag">VDS_SERVICE_FLAG</a> enumeration values that describe the service.
 
 
 ## -remarks

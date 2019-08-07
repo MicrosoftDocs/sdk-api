@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngModifySurface, EngModifySurface function [Display Devices], display.engmodifysurface, gdifncs_422719a8-bffd-4c92-bbb8-fbd53ee1ce09.xml, winddi/EngModifySurface
 ms.topic: function
-f1_keywords: 
- - "winddi/EngModifySurface"
+f1_keywords:
+- winddi/EngModifySurface
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngModifySurface
+- EngModifySurface
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>EngModifySurface</b> function notifies GDI about the attributes of a surf
 
 ### -param hsurf
 
-Handle to the surface to be modified. This parameter is the surface handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatedevicebitmap">EngCreateDeviceBitmap</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatedevicesurface">EngCreateDeviceSurface</a>, or from the <b>hsurf</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure.
+Handle to the surface to be modified. This parameter is the surface handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatedevicebitmap">EngCreateDeviceBitmap</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatedevicesurface">EngCreateDeviceSurface</a>, or from the <b>hsurf</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure.
 
 
 ### -param hdev
@@ -81,7 +81,7 @@ Is a set of flags that describe the surface's attributes. Currently, the driver 
 
 ### -param dhsurf
 
-Identifies the surface to the driver. The driver can set this to anything; GDI sets the <b>dhsurf</b> member of the resulting surface's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure to this value if the function is successful.
+Identifies the surface to the driver. The driver can set this to anything; GDI sets the <b>dhsurf</b> member of the resulting surface's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure to this value if the function is successful.
 
 
 ### -param pvScan0

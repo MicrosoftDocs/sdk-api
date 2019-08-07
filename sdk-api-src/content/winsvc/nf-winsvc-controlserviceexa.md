@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ControlServiceEx, ControlServiceEx function, ControlServiceExA, ControlServiceExW, SERVICE_CONTROL_CONTINUE, SERVICE_CONTROL_INTERROGATE, SERVICE_CONTROL_NETBINDADD, SERVICE_CONTROL_NETBINDDISABLE, SERVICE_CONTROL_NETBINDENABLE, SERVICE_CONTROL_NETBINDREMOVE, SERVICE_CONTROL_PARAMCHANGE, SERVICE_CONTROL_PAUSE, SERVICE_CONTROL_STOP, base.controlserviceex, winsvc/ControlServiceEx, winsvc/ControlServiceExA, winsvc/ControlServiceExW
 ms.topic: function
-f1_keywords: 
- - "winsvc/ControlServiceEx"
+f1_keywords:
+- winsvc/ControlServiceEx
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - sechost.dll
- - API-MS-Win-Service-management-l1-1-0.dll
- - API-MS-Win-Service-Winsvc-l1-1-0.dll
- - API-MS-Win-Service-Winsvc-l1-2-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- sechost.dll
+- API-MS-Win-Service-management-l1-1-0.dll
+- API-MS-Win-Service-Winsvc-l1-1-0.dll
+- API-MS-Win-Service-Winsvc-l1-2-0.dll
 api_name:
- - ControlServiceEx
- - ControlServiceExA
- - ControlServiceExW
+- ControlServiceEx
+- ControlServiceExA
+- ControlServiceExW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -361,7 +361,7 @@ To stop and start a service requires a security descriptor that allows you to do
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex">QueryServiceStatusEx</a> function returns a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status_process">SERVICE_STATUS_PROCESS</a> structure whose <b>dwCurrentState</b> and <b>dwControlsAccepted</b> members indicate the current state and controls accepted by a running service. All running services accept the SERVICE_CONTROL_INTERROGATE control code by default. Drivers do not accept control codes other than SERVICE_CONTROL_STOP and SERVICE_CONTROL_INTERROGATE. Each service specifies the other control codes that it accepts when it calls the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_status_process">SERVICE_STATUS_PROCESS</a> structure whose <b>dwCurrentState</b> and <b>dwControlsAccepted</b> members indicate the current state and controls accepted by a running service. All running services accept the SERVICE_CONTROL_INTERROGATE control code by default. Drivers do not accept control codes other than SERVICE_CONTROL_STOP and SERVICE_CONTROL_INTERROGATE. Each service specifies the other control codes that it accepts when it calls the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a> function to report its status. A service should always accept these codes when it is running, no matter what it is doing.
 
 The following table shows the action of the SCM  in each of the possible service states.
@@ -436,7 +436,7 @@ The following table shows the action of the SCM  in each of the possible service
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status">SERVICE_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_status">SERVICE_STATUS</a>
 
 
 

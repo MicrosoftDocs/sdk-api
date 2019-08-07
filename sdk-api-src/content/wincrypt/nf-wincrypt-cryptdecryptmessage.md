@@ -97,7 +97,7 @@ A pointer to a <b>DWORD</b> that specifies the size, in bytes, of the buffer poi
 ### -param ppXchgCert [out, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> that corresponds to the private <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">exchange key</a> needed to decrypt the message. To indicate that the function should not return the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a> used to decrypt, set this parameter to <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> that corresponds to the private <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">exchange key</a> needed to decrypt the message. To indicate that the function should not return the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a> used to decrypt, set this parameter to <b>NULL</b>.
 
 
 ## -returns
@@ -189,7 +189,7 @@ If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 When <b>NULL</b> is passed for <i>pbDecrypted</i>, and <i>pcbDecrypted</i> is not <b>NULL</b>, <b>NULL</b> is returned for the address passed in <i>ppXchgCert</i>; otherwise, a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> is returned. For a successfully decrypted message, this pointer to a <b>CERT_CONTEXT</b> points to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a> used to decrypt the message. It must be freed by calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> is returned. For a successfully decrypted message, this pointer to a <b>CERT_CONTEXT</b> points to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a> used to decrypt the message. It must be freed by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>. If the function fails, the value at <i>ppXchgCert</i> is set to <b>NULL</b>.
 
 

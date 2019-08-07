@@ -83,7 +83,7 @@ The maximum number of partitions that can be defined in the usable block.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_drive_layout_information_ex">DRIVE_LAYOUT_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-drive_layout_information_ex">DRIVE_LAYOUT_INFORMATION_EX</a>
 
 
 

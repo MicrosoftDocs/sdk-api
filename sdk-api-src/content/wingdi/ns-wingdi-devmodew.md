@@ -360,7 +360,7 @@ This member is not used for displays.
 
 ### -field dmLogPixels
 
-For displays, specifies the number of logical pixels per inch of a display device and should be equal to the <b>ulLogPixels</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo">GDIINFO</a> structure.
+For displays, specifies the number of logical pixels per inch of a display device and should be equal to the <b>ulLogPixels</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure.
 
 This member is not used for printers.
 

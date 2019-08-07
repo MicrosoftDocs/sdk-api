@@ -117,7 +117,7 @@ If set, indicates that when inbound replication is complete, the destination ser
 
 #### DS_REPL_NBR_FULL_SYNC_IN_PROGRESS
 
-The destination server is performing a full synchronization from the source server. Full synchronizations do not use vectors that create updates (<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_cursors">DS_REPL_CURSORS</a>) for filtering updates. Full synchronizations are not used as a part of the normal replication protocol.
+The destination server is performing a full synchronization from the source server. Full synchronizations do not use vectors that create updates (<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors">DS_REPL_CURSORS</a>) for filtering updates. Full synchronizations are not used as a part of the normal replication protocol.
 
 
 

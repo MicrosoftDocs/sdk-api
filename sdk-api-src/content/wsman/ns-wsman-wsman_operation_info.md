@@ -61,12 +61,12 @@ Represents a specific resource endpoint for which the plug-in must perform the r
 
 ### -field fragment
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_fragment">WSMAN_FRAGMENT</a> structure that specifies the subset of data to be used for the operation. This parameter is reserved for future use and is ignored on receipt.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_fragment">WSMAN_FRAGMENT</a> structure that specifies the subset of data to be used for the operation. This parameter is reserved for future use and is ignored on receipt.
 
 
 ### -field filter
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_filter">WSMAN_FILTER</a> structure that specifies the filtering that is used for the operation. This parameter is reserved for future use and is ignored on receipt.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_filter">WSMAN_FILTER</a> structure that specifies the filtering that is used for the operation. This parameter is reserved for future use and is ignored on receipt.
 
 
 ### -field selectorSet

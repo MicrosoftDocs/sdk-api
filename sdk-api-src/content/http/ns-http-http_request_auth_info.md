@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>HTTP_REQUEST_AUTH_INFO</b> structure contains the authentication status of the request with a handle to the  client token that the receiving process can use to impersonate the authenticated client.
 
-This structure is contained in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_info">HTTP_REQUEST_INFO</a> structure.
+This structure is contained in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_info">HTTP_REQUEST_INFO</a> structure.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ This structure is contained in the <a href="https://docs.microsoft.com/windows/d
 
 ### -field AuthStatus
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_auth_status">HTTP_AUTH_STATUS</a> enumeration that indicates the final authentication status of the request.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_auth_status">HTTP_AUTH_STATUS</a> enumeration that indicates the final authentication status of the request.
 
 If the authentication status is not <b>HttpAuthStatusSuccess</b>, applications should disregard members of this structure except <b>AuthStatus</b>, <b>SecStatus</b>, and <b>AuthType</b>.
 
@@ -158,7 +158,7 @@ The Base64 encoded mutual authentication data used in  the WWW-Authenticate head
 
 
 
-Starting with HTTP version 2.0, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure  contains an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_info">HTTP_REQUEST_INFO</a> structure. The <b>pVoid</b> member of the <b>HTTP_REQUEST_INFO</b> structure points to the <b>HTTP_REQUEST_AUTH_INFO</b> when the request information type is <b>HttpRequestInfoTypeAuth</b>.
+Starting with HTTP version 2.0, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure  contains an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_info">HTTP_REQUEST_INFO</a> structure. The <b>pVoid</b> member of the <b>HTTP_REQUEST_INFO</b> structure points to the <b>HTTP_REQUEST_AUTH_INFO</b> when the request information type is <b>HttpRequestInfoTypeAuth</b>.
 
 When the application receives a request with this structure and the request has not been authenticated, it can send the initial 401 challenge with the desired set of WWW-Authenticate headers in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_multiple_known_headers">HTTP_MULTIPLE_KNOWN_HEADERS</a> structure. When the HTTP Server API completes  the authentication handshake, it fills  the <b>HTTP_REQUEST_AUTH_INFO</b> structure and passes it to the application with the request again. The handle to the access token that represents the client identity is provided in this structure by the HTTP Server API.
 
@@ -188,7 +188,7 @@ The mutual authentication data provided in the <b>pMutualAuthData</b> member con
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_info">HTTP_REQUEST_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_info">HTTP_REQUEST_INFO</a>
 
 
 

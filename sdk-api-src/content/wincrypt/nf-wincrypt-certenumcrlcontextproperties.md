@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertEnumCRLContextProperties, CertEnumCRLContextProperties function [Security], _crypto2_certenumcrlcontextproperties, security.certenumcrlcontextproperties, wincrypt/CertEnumCRLContextProperties
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertEnumCRLContextProperties"
+f1_keywords:
+- wincrypt/CertEnumCRLContextProperties
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertEnumCRLContextProperties
+- CertEnumCRLContextProperties
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>CertEnumCRLContextProperties</b> function retrieves the first or next ext
 ### -param pCrlContext [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure.
 
 
 ### -param dwPropId [in]

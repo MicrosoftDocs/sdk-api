@@ -249,7 +249,7 @@ Flag indicating the data representation, such as byte ordering, on the target. C
 ### -param InputBuffers [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbufferdesc">SecBufferDesc</a> structure containing the previous reply message from the server. The first time this function is called the <i>InputBuffers</i> parameter is <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure containing the previous reply message from the server. The first time this function is called the <i>InputBuffers</i> parameter is <b>NULL</b>.
 
 
 ### -param NewContextHandle [out]
@@ -260,7 +260,7 @@ Pointer that receives a handle to the new <a href="https://docs.microsoft.com/wi
 ### -param OutputBuffers [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbufferdesc">SecBufferDesc</a> structure containing the security token to pass back to the server.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure containing the security token to pass back to the server.
 
 
 ### -param ContextAttributes [out]
@@ -283,7 +283,7 @@ Pointer to a Boolean value. Set <i>MappedContext</i> to <b>TRUE</b> if the <a hr
 ### -param ContextData [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structure that receives the data to copy when creating a user-mode security context. Allocate memory for <i>ContextData</i> using the 
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure that receives the data to copy when creating a user-mode security context. Allocate memory for <i>ContextData</i> using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap">AllocateLsaHeap</a> function. The LSA will free the memory.
 
 

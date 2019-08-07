@@ -86,7 +86,7 @@ The
 #### pAttr
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute">RADIUS_ATTRIBUTE</a> structure for the attribute to append to the array.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> structure for the attribute to append to the array.
 
 
 ### -field AttributeAt
@@ -181,7 +181,7 @@ Use the
 #### pAttr
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute">RADIUS_ATTRIBUTE</a> structure for the attribute to insert into the array.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> structure for the attribute to insert into the array.
 
 
 ### -field RemoveAt
@@ -248,7 +248,7 @@ Use the
 #### pAttr
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute">RADIUS_ATTRIBUTE</a> structure. The attribute represented by this structure replaces the attribute at the specified index.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> structure. The attribute represented by this structure replaces the attribute at the specified index.
 
 
 ## -remarks
@@ -263,7 +263,7 @@ This structure is used by Extension DLLs that export
 <a href="https://docs.microsoft.com/previous-versions/ms688246(v=vs.85)">Add</a>
 <a href="https://docs.microsoft.com/previous-versions/ms688296(v=vs.85)">InsertAt</a>
 copy the contents of the caller-supplied 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute">RADIUS_ATTRIBUTE</a> structure. Therefore, Extension DLLs that export 
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> structure. Therefore, Extension DLLs that export 
 <a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a> need not export 
 <a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_free_attributes">RadiusExtensionFreeAttributes</a>.
 

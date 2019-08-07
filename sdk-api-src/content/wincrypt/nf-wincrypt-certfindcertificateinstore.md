@@ -114,9 +114,9 @@ To access a specific certificate you must iterate across the certificates in the
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_id">CERT_ID</a> structure.
+Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a> structure.
 
-Find the certificate identified by the specified <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_id">CERT_ID</a>.
+Find the certificate identified by the specified <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a>.
 
 </td>
 </tr>

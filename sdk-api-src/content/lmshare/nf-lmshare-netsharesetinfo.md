@@ -166,7 +166,7 @@ Specifies the maximum number of concurrent connections that the shared resource 
 </td>
 <td width="60%">
  Specifies the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> associated with the specified share. The <i>buf</i> parameter points to a 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> associated with the specified share. The <i>buf</i> parameter points to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1501">SHARE_INFO_1501</a> structure.
 
 </td>

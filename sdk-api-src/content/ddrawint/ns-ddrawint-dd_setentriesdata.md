@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 9420f41a-401b-4fc3-b9a4-f2bfe6cb2710
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_SETENTRIESDATA, DD_SETENTRIESDATA, DD_SETENTRIESDATA structure [Display Devices], ddrawint/DD_SETENTRIESDATA, ddstrcts_dc575bf2-1249-4d66-aba9-aba1856358df.xml, display.dd_setentriesdata"
+ms.keywords: '*PDD_SETENTRIESDATA, DD_SETENTRIESDATA, DD_SETENTRIESDATA structure [Display Devices], ddrawint/DD_SETENTRIESDATA, ddstrcts_dc575bf2-1249-4d66-aba9-aba1856358df.xml, display.dd_setentriesdata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_SETENTRIESDATA"
+f1_keywords:
+- ddrawint/DD_SETENTRIESDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_SETENTRIESDATA
+- DD_SETENTRIESDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_SETENTRIESDATA, DD_SETENTRIESDATA"
+req.typenames: '*PDD_SETENTRIESDATA, DD_SETENTRIESDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,12 +61,12 @@ The DD_SETENTRIESDATA structure contains information necessary to set palette en
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 
 ### -field lpDDPalette
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_palette_global">DD_PALETTE_GLOBAL</a> structure that represents the DirectDrawPalette object.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_palette_global">DD_PALETTE_GLOBAL</a> structure that represents the DirectDrawPalette object.
 
 
 ### -field dwBase

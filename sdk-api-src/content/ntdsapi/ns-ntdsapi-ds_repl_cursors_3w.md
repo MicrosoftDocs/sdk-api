@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_CURSORS_3, DS_REPL_CURSORS_3 structure [Active Directory], DS_REPL_CURSORS_3W, ad.ds_repl_cursors_3, ntdsapi/DS_REPL_CURSORS_3
 ms.topic: struct
-f1_keywords: 
- - "ntdsapi/DS_REPL_CURSORS_3"
+f1_keywords:
+- ntdsapi/DS_REPL_CURSORS_3
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntdsapi.h
+- Ntdsapi.h
 api_name:
- - DS_REPL_CURSORS_3
+- DS_REPL_CURSORS_3
 product: Windows
 targetos: Windows
 req.typenames: DS_REPL_CURSORS_3W
@@ -81,7 +81,7 @@ Contains the zero-based index of the next entry to retrieve if more entries are 
 
 ### -field rgCursor
 
-Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_cursor_3w">DS_REPL_CURSOR_3</a> structures that contain the requested replication data. The <b>cNumCursors</b> member contains the number of elements in this array.
+Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursor_3w">DS_REPL_CURSOR_3</a> structures that contain the requested replication data. The <b>cNumCursors</b> member contains the number of elements in this array.
 
 
 ## -see-also
@@ -89,7 +89,7 @@ Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntd
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_cursor_3w">DS_REPL_CURSOR_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursor_3w">DS_REPL_CURSOR_3</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WRITE_CACHE_TYPE, WRITE_CACHE_TYPE enumeration [Files], WriteCacheTypeNone, WriteCacheTypeUnknown, WriteCacheTypeWriteBack, WriteCacheTypeWriteThrough, fs.write_cache_type, winioctl/WRITE_CACHE_TYPE, winioctl/WriteCacheTypeNone, winioctl/WriteCacheTypeUnknown, winioctl/WriteCacheTypeWriteBack, winioctl/WriteCacheTypeWriteThrough
 ms.topic: enum
-f1_keywords: 
- - "winioctl/WRITE_CACHE_TYPE"
+f1_keywords:
+- winioctl/WRITE_CACHE_TYPE
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - WRITE_CACHE_TYPE
+- WRITE_CACHE_TYPE
 product: Windows
 targetos: Windows
 req.typenames: WRITE_CACHE_TYPE
@@ -90,7 +90,7 @@ There are two main types of write cache: <i>write back</i> and <i>write through<
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control 
     code reports a <b>WRITE_CACHE_TYPE</b> value in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_write_cache_property">STORAGE_WRITE_CACHE_PROPERTY</a> structure.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_write_cache_property">STORAGE_WRITE_CACHE_PROPERTY</a> structure.
 
 
 
@@ -108,7 +108,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_write_cache_property">STORAGE_WRITE_CACHE_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_write_cache_property">STORAGE_WRITE_CACHE_PROPERTY</a>
  
 
  

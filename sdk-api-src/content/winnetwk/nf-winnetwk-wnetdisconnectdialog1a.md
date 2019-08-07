@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WNetDisconnectDialog1, WNetDisconnectDialog1 function [Windows Networking (WNet)], WNetDisconnectDialog1A, WNetDisconnectDialog1W, _win32_wnetdisconnectdialog1, winnetwk/WNetDisconnectDialog1, winnetwk/WNetDisconnectDialog1A, winnetwk/WNetDisconnectDialog1W, wnet.wnetdisconnectdialog1
 ms.topic: function
-f1_keywords: 
- - "winnetwk/WNetDisconnectDialog1"
+f1_keywords:
+- winnetwk/WNetDisconnectDialog1
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mpr.dll
- - API-MS-Win-Core-multipleproviderrouter-l1-1-0.dll
+- Mpr.dll
+- API-MS-Win-Core-multipleproviderrouter-l1-1-0.dll
 api_name:
- - WNetDisconnectDialog1
- - WNetDisconnectDialog1A
- - WNetDisconnectDialog1W
+- WNetDisconnectDialog1
+- WNetDisconnectDialog1A
+- WNetDisconnectDialog1W
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 The
 				<b>WNetDisconnectDialog1</b> function attempts to disconnect a network resource. If the underlying network returns ERROR_OPEN_FILES, the function prompts the user for confirmation. If there is any error, the function informs the user. The function requires a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_discdlgstructa">DISCDLGSTRUCT</a> to specify the parameters for the disconnect attempt.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-discdlgstructa">DISCDLGSTRUCT</a> to specify the parameters for the disconnect attempt.
 
 
 ## -parameters
@@ -162,7 +162,7 @@ A network-specific error occurred. Call the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_discdlgstructa">DISCDLGSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-discdlgstructa">DISCDLGSTRUCT</a>
 
 
 

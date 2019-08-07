@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>CertFindAttribute</b> function finds the first attribute in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attribute">CRYPT_ATTRIBUTE</a> array, as identified by its <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID). This function can be used in the processing of a decoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. A 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> array, as identified by its <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID). This function can be used in the processing of a decoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. A 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_request_info">CERT_REQUEST_INFO</a> structure is derived from a decoded certificate request. The <b>rgAttribute</b> array is retrieved from that structure and passed to this function in the <i>rgAttr</i> parameter. This function determines whether a particular attribute is in the array, and if so, returns a pointer to it.
 
 
@@ -74,7 +74,7 @@ Number of attributes in the <i>rgAttr</i> array.
 ### -param rgAttr [in]
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attribute">CRYPT_ATTRIBUTE</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures.
 
 
 ## -returns

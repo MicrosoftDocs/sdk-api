@@ -74,7 +74,7 @@ A handle to an event or to a bookmark. Set this parameter to a bookmark handle i
 
 ### -param Flags [in]
 
-A flag that identifies what to render. For example, the entire event or specific properties of the event. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_render_flags">EVT_RENDER_FLAGS</a> enumeration.
+A flag that identifies what to render. For example, the entire event or specific properties of the event. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_render_flags">EVT_RENDER_FLAGS</a> enumeration.
 
 
 ### -param BufferSize [in]

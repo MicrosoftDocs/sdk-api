@@ -75,13 +75,13 @@ A
 ### -field ipx
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_ipxcp_info">PPP_IPXCP_INFO</a> structure that contains PPP Internetwork Packet Exchange (IPX) projection information.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_ipxcp_info">PPP_IPXCP_INFO</a> structure that contains PPP Internetwork Packet Exchange (IPX) projection information.
 
 
 ### -field at
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_atcp_info">PPP_ATCP_INFO</a> structure that contains PPP AppleTalk projection information.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_atcp_info">PPP_ATCP_INFO</a> structure that contains PPP AppleTalk projection information.
 
 
 ## -see-also
@@ -89,7 +89,7 @@ A
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_info_2">PPP_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_info_2">PPP_INFO_2</a>
 
 
 

@@ -125,7 +125,7 @@ Allocate the <i>szFontFamilyName</i>, <i>szURLtoEOT</i>, and <i>szSymbolString</
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_task_display_type">MMC_TASK_DISPLAY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_task_display_type">MMC_TASK_DISPLAY_TYPE</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_GET_TRANSACTED_VERSION, FSCTL_TXFS_GET_TRANSACTED_VERSION control, FSCTL_TXFS_GET_TRANSACTED_VERSION control code [Files], fs.fsctl_txfs_get_transacted_version, winioctl/FSCTL_TXFS_GET_TRANSACTED_VERSION
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_TXFS_GET_TRANSACTED_VERSION"
+f1_keywords:
+- winioctl/FSCTL_TXFS_GET_TRANSACTED_VERSION
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_TXFS_GET_TRANSACTED_VERSION
+- FSCTL_TXFS_GET_TRANSACTED_VERSION
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -56,7 +56,7 @@ req.redist:
     information, and alternatives to TxF, please see 
     <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
-Returns a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_get_transacted_version">TXFS_GET_TRANSACTED_VERSION</a> structure.  The structure identifies the most recently committed version of the specified file, the version number of the handle. 
+Returns a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_get_transacted_version">TXFS_GET_TRANSACTED_VERSION</a> structure.  The structure identifies the most recently committed version of the specified file, the version number of the handle. 
 
 To perform this operation, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
@@ -183,7 +183,7 @@ If you attempt to retrieve the version of a resource manager's root, the value
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_get_transacted_version">TXFS_GET_TRANSACTED_VERSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_get_transacted_version">TXFS_GET_TRANSACTED_VERSION</a>
  
 
  

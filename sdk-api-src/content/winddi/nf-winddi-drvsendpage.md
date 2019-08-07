@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvSendPage, DrvSendPage function [Display Devices], ddifncs_4211c283-c7c9-493d-b673-0fdc0d8ad04f.xml, display.drvsendpage, winddi/DrvSendPage
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvSendPage"
+f1_keywords:
+- winddi/DrvSendPage
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvSendPage
+- DrvSendPage
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ A printer graphics DLL's <b>DrvSendPage</b> function is called by GDI when it ha
 
 ### -param pso [in]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure that describes the drawing surface.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the drawing surface.
 
 
 ## -returns

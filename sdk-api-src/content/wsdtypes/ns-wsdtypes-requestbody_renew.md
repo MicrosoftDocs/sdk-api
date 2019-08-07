@@ -61,7 +61,7 @@ Represents a WS-Eventing Renew request message.
 
 ### -field Expires
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_eventing_expires">WSD_EVENTING_EXPIRES</a> structure that specifies when the renewed subscription will expire.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_eventing_expires">WSD_EVENTING_EXPIRES</a> structure that specifies when the renewed subscription will expire.
 
 
 ### -field Any

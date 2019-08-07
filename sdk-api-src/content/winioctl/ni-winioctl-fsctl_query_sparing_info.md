@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_QUERY_SPARING_INFO, FSCTL_QUERY_SPARING_INFO control, FSCTL_QUERY_SPARING_INFO control code [Files], fs.fsctl_query_sparing_info, winioctl/FSCTL_QUERY_SPARING_INFO
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_QUERY_SPARING_INFO"
+f1_keywords:
+- winioctl/FSCTL_QUERY_SPARING_INFO
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_QUERY_SPARING_INFO
+- FSCTL_QUERY_SPARING_INFO
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -224,7 +224,7 @@ Yes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_query_sparing_buffer">FILE_QUERY_SPARING_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_query_sparing_buffer">FILE_QUERY_SPARING_BUFFER</a>
 
 
 

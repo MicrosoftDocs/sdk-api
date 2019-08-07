@@ -8,10 +8,10 @@ tech.root: gdi
 ms.assetid: 71f3a4bd-5823-47ae-aa7a-f3058f18c591
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPGRADIENT_TRIANGLE, *PGRADIENT_TRIANGLE, GRADIENT_TRIANGLE, GRADIENT_TRIANGLE structure [Windows GDI], PGRADIENT_TRIANGLE, PGRADIENT_TRIANGLE structure pointer [Windows GDI], _win32_GRADIENT_TRIANGLE_str, gdi.gradient_triangle, wingdi/GRADIENT_TRIANGLE, wingdi/PGRADIENT_TRIANGLE"
+ms.keywords: '*LPGRADIENT_TRIANGLE, *PGRADIENT_TRIANGLE, GRADIENT_TRIANGLE, GRADIENT_TRIANGLE structure [Windows GDI], PGRADIENT_TRIANGLE, PGRADIENT_TRIANGLE structure pointer [Windows GDI], _win32_GRADIENT_TRIANGLE_str, gdi.gradient_triangle, wingdi/GRADIENT_TRIANGLE, wingdi/PGRADIENT_TRIANGLE'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/GRADIENT_TRIANGLE"
+f1_keywords:
+- wingdi/GRADIENT_TRIANGLE
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - GRADIENT_TRIANGLE
+- GRADIENT_TRIANGLE
 product: Windows
 targetos: Windows
 req.typenames: GRADIENT_TRIANGLE, *PGRADIENT_TRIANGLE, *LPGRADIENT_TRIANGLE
@@ -81,7 +81,7 @@ The third point of the triangle where sides intersect.
 
 
 
-The <b>GRADIENT_TRIANGLE</b> structure specifies the values in the <i>pVertex</i> array that are used when the <i>dwMode</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a> function is GRADIENT_FILL_TRIANGLE. For related <b>GradientFill</b> structures, see <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_gradient_rect">GRADIENT_RECT</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_trivertex">TRIVERTEX</a>.
+The <b>GRADIENT_TRIANGLE</b> structure specifies the values in the <i>pVertex</i> array that are used when the <i>dwMode</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a> function is GRADIENT_FILL_TRIANGLE. For related <b>GradientFill</b> structures, see <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_rect">GRADIENT_RECT</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a>.
 
 The following image shows an example of a triangle with a gradient fill.
 
@@ -108,7 +108,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_gradient_rect">GRADIENT_RECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_rect">GRADIENT_RECT</a>
 
 
 
@@ -116,7 +116,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_trivertex">TRIVERTEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a>
  
 
  

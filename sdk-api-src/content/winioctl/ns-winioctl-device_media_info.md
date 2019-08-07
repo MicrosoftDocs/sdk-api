@@ -275,7 +275,7 @@ The SCSI-specific current operating density for read/write operations.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_get_media_types">GET_MEDIA_TYPES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-get_media_types">GET_MEDIA_TYPES</a>
 
 
 

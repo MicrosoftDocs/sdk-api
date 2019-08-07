@@ -330,7 +330,7 @@ To cancel an asynchronous notification request, end the original query with a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_nsp_routine">NSP_ROUTINE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-nsp_routine">NSP_ROUTINE</a>
 
 
 

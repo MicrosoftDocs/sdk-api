@@ -61,7 +61,7 @@ Determines whether a <a href="https://docs.microsoft.com/windows/desktop/WsdApi/
 
 ### -param pResolveMessage [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_message">WSD_SOAP_MESSAGE</a> structure that represents the Resolve message passed in to the notification sink's <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoverypublishernotify-resolvehandler">ResolveHandler</a>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_message">WSD_SOAP_MESSAGE</a> structure that represents the Resolve message passed in to the notification sink's <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoverypublishernotify-resolvehandler">ResolveHandler</a>.
 
 
 ### -param pMessageParameters [in]
@@ -104,7 +104,7 @@ This parameter may be <b>NULL</b>.
 
 ### -param pTypesList [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_name_list">WSD_NAME_LIST</a> structure that represents the list of types supported by the publishing host. May be <b>NULL</b>.  If <i>pTypesList</i> is specified, <b>MatchResolve</b> will use WS-Discovery matching logic to verify that the types match those specified in <i>pResolveMessage</i>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_name_list">WSD_NAME_LIST</a> structure that represents the list of types supported by the publishing host. May be <b>NULL</b>.  If <i>pTypesList</i> is specified, <b>MatchResolve</b> will use WS-Discovery matching logic to verify that the types match those specified in <i>pResolveMessage</i>.
 
 
 ### -param pScopesList [in, optional]

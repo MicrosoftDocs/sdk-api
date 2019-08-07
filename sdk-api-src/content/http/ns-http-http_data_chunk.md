@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: ae67c066-c8bd-483f-829f-30192f49593d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_DATA_CHUNK, HTTP_DATA_CHUNK, HTTP_DATA_CHUNK structure [HTTP], PHTTP_DATA_CHUNK, PHTTP_DATA_CHUNK structure pointer [HTTP], _http_http_data_chunk, http.http_data_chunk, http/HTTP_DATA_CHUNK, http/PHTTP_DATA_CHUNK"
+ms.keywords: '*PHTTP_DATA_CHUNK, HTTP_DATA_CHUNK, HTTP_DATA_CHUNK structure [HTTP], PHTTP_DATA_CHUNK, PHTTP_DATA_CHUNK structure pointer [HTTP], _http_http_data_chunk, http.http_data_chunk, http/HTTP_DATA_CHUNK, http/PHTTP_DATA_CHUNK'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_DATA_CHUNK"
+f1_keywords:
+- http/HTTP_DATA_CHUNK
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_DATA_CHUNK
+- HTTP_DATA_CHUNK
 product: Windows
 targetos: Windows
 req.typenames: HTTP_DATA_CHUNK, *PHTTP_DATA_CHUNK
@@ -84,7 +84,7 @@ Length, in bytes, of the data block.
 ### -field FromFileHandle.ByteRange
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_byte_range">HTTP_BYTE_RANGE</a> structure that specifies all or part of the file. To specify the entire file, set the <b>StartingOffset</b> member to zero and the <b>Length</b> member to <b>HTTP_BYTE_RANGE_TO_EOF</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_byte_range">HTTP_BYTE_RANGE</a> structure that specifies all or part of the file. To specify the entire file, set the <b>StartingOffset</b> member to zero and the <b>Length</b> member to <b>HTTP_BYTE_RANGE_TO_EOF</b>.
 
 
 ### -field FromFileHandle.FileHandle
@@ -111,7 +111,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpadd
 
 ### -field FromFragmentCacheEx.ByteRange
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_byte_range">HTTP_BYTE_RANGE</a> structure specifying the byte range in the cached fragment.
+An <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_byte_range">HTTP_BYTE_RANGE</a> structure specifying the byte range in the cached fragment.
 
 
 ### -field FromFragmentCacheEx.pFragmentName

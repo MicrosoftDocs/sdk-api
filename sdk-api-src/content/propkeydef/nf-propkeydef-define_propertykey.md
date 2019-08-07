@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DEFINE_PROPERTYKEY, DEFINE_PROPERTYKEY macro [Windows Shell], _shell_DEFINE_PROPERTYKEY, propkeydef/DEFINE_PROPERTYKEY, shell.DEFINE_PROPERTYKEY
 ms.topic: macro
-f1_keywords: 
- - "propkeydef/DEFINE_PROPERTYKEY"
+f1_keywords:
+- propkeydef/DEFINE_PROPERTYKEY
 req.header: propkeydef.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propkeydef.h
+- Propkeydef.h
 api_name:
- - DEFINE_PROPERTYKEY
+- DEFINE_PROPERTYKEY
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used to pack a format identifier (FMTID) and property identifier (PID) into a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure that represents a property key.
+Used to pack a format identifier (FMTID) and property identifier (PID) into a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure that represents a property key.
 
 
 ## -parameters
@@ -61,62 +61,62 @@ Used to pack a format identifier (FMTID) and property identifier (PID) into a <a
 
 ### -param name
 
-The name of a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure that represents a property key.
+The name of a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure that represents a property key.
 
 
 ### -param l
 
-The value of the <b>Data1</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure.
+The value of the <b>Data1</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.
 
 
 ### -param w1
 
-The value of the <b>Data2</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure.
+The value of the <b>Data2</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.
 
 
 ### -param w2
 
-The value of the <b>Data3</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure.
+The value of the <b>Data3</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.
 
 
 ### -param b1
 
-The value of the <b>Data4[0]</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure.
+The value of the <b>Data4[0]</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.
 
 
 ### -param b2
 
-The value of the <b>Data4[1]</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure.
+The value of the <b>Data4[1]</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.
 
 
 ### -param b3
 
-The value of the <b>Data4[2]</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure.
+The value of the <b>Data4[2]</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.
 
 
 ### -param b4
 
-The value of the <b>Data4[3]</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure.
+The value of the <b>Data4[3]</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.
 
 
 ### -param b5
 
-The value of the <b>Data4[4]</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure.
+The value of the <b>Data4[4]</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.
 
 
 ### -param b6
 
-The value of the <b>Data4[5]</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure.
+The value of the <b>Data4[5]</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.
 
 
 ### -param b7
 
-The value of the <b>Data4[6]</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure.
+The value of the <b>Data4[6]</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.
 
 
 ### -param b8
 
-The value of the <b>Data4[7]</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure.
+The value of the <b>Data4[7]</b> member of the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.
 
 
 ### -param pid

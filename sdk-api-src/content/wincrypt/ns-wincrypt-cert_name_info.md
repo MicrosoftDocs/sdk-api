@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 402d1051-d91a-4a79-96f6-10ed96a32d5c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_NAME_INFO, CERT_NAME_INFO, CERT_NAME_INFO structure [Security], PCERT_NAME_INFO, PCERT_NAME_INFO structure pointer [Security], _crypto2_cert_name_info, security.cert_name_info, wincrypt/CERT_NAME_INFO, wincrypt/PCERT_NAME_INFO"
+ms.keywords: '*PCERT_NAME_INFO, CERT_NAME_INFO, CERT_NAME_INFO structure [Security], PCERT_NAME_INFO, PCERT_NAME_INFO structure pointer [Security], _crypto2_cert_name_info, security.cert_name_info, wincrypt/CERT_NAME_INFO, wincrypt/PCERT_NAME_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_NAME_INFO"
+f1_keywords:
+- wincrypt/CERT_NAME_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_NAME_INFO
+- CERT_NAME_INFO
 product: Windows
 targetos: Windows
 req.typenames: CERT_NAME_INFO, *PCERT_NAME_INFO
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>CERT_NAME_INFO</b> structure contains subject or issuer names. The information is represented as an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn">CERT_RDN</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> structures.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ Number of elements in the <b>rgRDN</b> array.
 ### -field rgRDN
 
 Array of pointers to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn">CERT_RDN</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> structures.
 
 
 ## -see-also
@@ -76,7 +76,7 @@ Array of pointers to
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn">CERT_RDN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a>
 
 
 

@@ -66,7 +66,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns
 
 ### -param pco
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_clipobj">CLIPOBJ</a> structure that describes the clip region.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure that describes the clip region.
 
 
 ### -param pso
@@ -108,7 +108,7 @@ Once begun, this enumeration process should not be restarted.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_clipobj">CLIPOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a>
 
 
 

@@ -61,7 +61,7 @@ Determines whether the specified hash algorithm and the public key in the signin
 
 ### -param pStrongSignPara [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure that contains information about supported signing and hashing algorithms.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure that contains information about supported signing and hashing algorithms.
 
 
 ### -param pwszCNGHashAlgid [in]
@@ -136,7 +136,7 @@ A specified algorithm is not supported.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a>
  
 
  

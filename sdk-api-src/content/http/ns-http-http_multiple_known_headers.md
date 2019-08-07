@@ -61,7 +61,7 @@ The <b>HTTP_MULTIPLE_KNOWN_HEADERS</b> structure specifies the headers that are 
 
 ### -field HeaderId
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_header_id">HTTP_HEADER_ID</a> enumeration specifying the response header ID.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_header_id">HTTP_HEADER_ID</a> enumeration specifying the response header ID.
 
 
 ### -field Flags
@@ -123,7 +123,7 @@ The <b>HTTP_MULTIPLE_KNOWN_HEADERS</b> structure enables server applications to 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_v2">HTTP_RESPONSE_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_v2">HTTP_RESPONSE_V2</a>
  
 
  

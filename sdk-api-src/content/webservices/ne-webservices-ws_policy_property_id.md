@@ -122,8 +122,8 @@ This property is used with <a href="https://docs.microsoft.com/windows/desktop/a
 
 This property controls the maximum number of policy extensions 
                     (unknown assertions) allowed for a given <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-policy">WS_POLICY</a> object. 
-                    Policy extensions can be retrieved by supplying <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_policy_extension">WS_POLICY_EXTENSION</a> 
-                    array in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_policy_constraints">WS_POLICY_CONSTRAINTS</a> structure when using the 
+                    Policy extensions can be retrieved by supplying <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_policy_extension">WS_POLICY_EXTENSION</a> 
+                    array in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_policy_constraints">WS_POLICY_CONSTRAINTS</a> structure when using the 
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> API.
                 
 

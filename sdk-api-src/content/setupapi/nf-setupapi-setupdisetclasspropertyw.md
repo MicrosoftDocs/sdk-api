@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiSetClassProperty, SetupDiSetClassProperty function [Device and Driver Installation], SetupDiSetClassPropertyA, SetupDiSetClassPropertyW, devinst.setupdisetclassproperty, di-rtns_c0346a11-5f87-4578-af46-5cb82e5b6101.xml, setupapi/SetupDiSetClassProperty, setupapi/SetupDiSetClassPropertyA, setupapi/SetupDiSetClassPropertyW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiSetClassProperty"
+f1_keywords:
+- setupapi/SetupDiSetClassProperty
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Set_Class_Property
@@ -30,17 +30,17 @@ req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Setupapi.lib
- - Setupapi.dll
+- Setupapi.lib
+- Setupapi.dll
 api_name:
- - SetupDiSetClassProperty
- - SetupDiSetClassPropertyA
- - SetupDiSetClassPropertyW
+- SetupDiSetClassProperty
+- SetupDiSetClassPropertyA
+- SetupDiSetClassPropertyW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetupDiSetClassProperty</b> function sets a class property for a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>.
+The <b>SetupDiSetClassProperty</b> function sets a class property for a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>.
 
 
 ## -parameters

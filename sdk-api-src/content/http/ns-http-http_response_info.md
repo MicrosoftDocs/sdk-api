@@ -61,7 +61,7 @@ The <b>HTTP_RESPONSE_INFO</b> structure extends the <a href="https://docs.micros
 
 ### -field Type
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_response_info_type">HTTP_RESPONSE_INFO_TYPE</a> enumeration specifying the type of information contained in this structure.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_response_info_type">HTTP_RESPONSE_INFO_TYPE</a> enumeration specifying the type of information contained in this structure.
 
 
 ### -field Length
@@ -71,7 +71,7 @@ The length, in bytes, of the <b>pInfo</b> member.
 
 ### -field pInfo
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_multiple_known_headers">HTTP_MULTIPLE_KNOWN_HEADERS</a> structure when the <b>InfoType</b> member is <b>HttpResponseInfoTypeMultipleKnownHeaders</b>; otherwise <b>NULL</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_multiple_known_headers">HTTP_MULTIPLE_KNOWN_HEADERS</a> structure when the <b>InfoType</b> member is <b>HttpResponseInfoTypeMultipleKnownHeaders</b>; otherwise <b>NULL</b>.
 
 
 ## -remarks

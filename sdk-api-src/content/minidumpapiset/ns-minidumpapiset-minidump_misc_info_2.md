@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: 34f46a51-9e41-4550-a080-1c7c7a603b54
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_MISC_INFO_2, MINIDUMP_MISC1_PROCESSOR_POWER_INFO, MINIDUMP_MISC1_PROCESS_ID, MINIDUMP_MISC1_PROCESS_TIMES, MINIDUMP_MISC_INFO_2, MINIDUMP_MISC_INFO_2 structure, PMINIDUMP_MISC_INFO_2, PMINIDUMP_MISC_INFO_2 structure pointer, _MINIDUMP_MISC_INFO_2, base.minidump_misc_info_2, minidumpapiset/MINIDUMP_MISC_INFO_2, minidumpapiset/PMINIDUMP_MISC_INFO_2"
+ms.keywords: '*PMINIDUMP_MISC_INFO_2, MINIDUMP_MISC1_PROCESSOR_POWER_INFO, MINIDUMP_MISC1_PROCESS_ID, MINIDUMP_MISC1_PROCESS_TIMES, MINIDUMP_MISC_INFO_2, MINIDUMP_MISC_INFO_2 structure, PMINIDUMP_MISC_INFO_2, PMINIDUMP_MISC_INFO_2 structure pointer, _MINIDUMP_MISC_INFO_2, base.minidump_misc_info_2, minidumpapiset/MINIDUMP_MISC_INFO_2, minidumpapiset/PMINIDUMP_MISC_INFO_2'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_MISC_INFO_2"
+f1_keywords:
+- minidumpapiset/MINIDUMP_MISC_INFO_2
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_MISC_INFO_2
+- MINIDUMP_MISC_INFO_2
 product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_MISC_INFO_2, *PMINIDUMP_MISC_INFO_2
@@ -180,7 +180,7 @@ The current idle state of the processor. If <b>Flags1</b> does not specify
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 9e38651a-541f-4470-a841-4eb94dbe4835
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMPR_SERVER_2, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING_ON_DEVICE, MPR_SERVER_2, MPR_SERVER_2 structure [RAS], PMPR_SERVER_2, PMPR_SERVER_2 structure pointer [RAS], mprapi/MPR_SERVER_2, mprapi/PMPR_SERVER_2, rras.mpr_server_2"
+ms.keywords: '*PMPR_SERVER_2, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING_ON_DEVICE, MPR_SERVER_2, MPR_SERVER_2 structure [RAS], PMPR_SERVER_2, PMPR_SERVER_2 structure pointer [RAS], mprapi/MPR_SERVER_2, mprapi/PMPR_SERVER_2, rras.mpr_server_2'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/MPR_SERVER_2"
+f1_keywords:
+- mprapi/MPR_SERVER_2
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - MPR_SERVER_2
+- MPR_SERVER_2
 product: Windows
 targetos: Windows
 req.typenames: MPR_SERVER_2, *PMPR_SERVER_2
@@ -300,11 +300,11 @@ If set, RAS is enabled on the device.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_0">MPR_SERVER_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_0">MPR_SERVER_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_1">MPR_SERVER_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_1">MPR_SERVER_1</a>
 
 
 

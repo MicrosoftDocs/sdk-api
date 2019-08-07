@@ -63,7 +63,7 @@ Remote Access Service calls the
 ### -param pRasConnection0 [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_0">RAS_CONNECTION_0</a> structure that describes this connection.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_0">RAS_CONNECTION_0</a> structure that describes this connection.
 
 
 ### -param pRasConnection1 [in]
@@ -138,7 +138,7 @@ Do not call any of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_0">RAS_CONNECTION_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_0">RAS_CONNECTION_0</a>
 
 
 

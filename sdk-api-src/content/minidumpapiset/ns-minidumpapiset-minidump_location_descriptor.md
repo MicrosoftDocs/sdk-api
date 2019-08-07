@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MINIDUMP_LOCATION_DESCRIPTOR, MINIDUMP_LOCATION_DESCRIPTOR structure, MINIDUMP_LOCATION_DESCRIPTOR64, _MINIDUMP_LOCATION_DESCRIPTOR, _win32_minidump_location_descriptor_str, base.minidump_location_descriptor_str, minidumpapiset/MINIDUMP_LOCATION_DESCRIPTOR
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_LOCATION_DESCRIPTOR"
+f1_keywords:
+- minidumpapiset/MINIDUMP_LOCATION_DESCRIPTOR
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h, Minidumpapiset.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_LOCATION_DESCRIPTOR
+- MINIDUMP_LOCATION_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_LOCATION_DESCRIPTOR
@@ -95,7 +95,7 @@ typedef struct _MINIDUMP_LOCATION_DESCRIPTOR64 {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_directory">MINIDUMP_DIRECTORY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_directory">MINIDUMP_DIRECTORY</a>
 
 
 

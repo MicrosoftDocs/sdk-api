@@ -133,7 +133,7 @@ Authenticating an interactive user logon.
 </tr>
 <tr>
 <td width="40%"><a id="KERB_TICKET_LOGON"></a><a id="kerb_ticket_logon"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_ticket_logon">KERB_TICKET_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_ticket_logon">KERB_TICKET_LOGON</a></b></dt>
 <dt>Kerberos</dt>
 </dl>
 </td>
@@ -144,7 +144,7 @@ Authenticating a user on initial network logon or disconnect.
 </tr>
 <tr>
 <td width="40%"><a id="KERB_TICKET_UNLOCK_LOGON"></a><a id="kerb_ticket_unlock_logon"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_ticket_unlock_logon">KERB_TICKET_UNLOCK_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_ticket_unlock_logon">KERB_TICKET_UNLOCK_LOGON</a></b></dt>
 <dt>Kerberos</dt>
 </dl>
 </td>
@@ -177,7 +177,7 @@ Authenticating a user using a service for user (S4U) logon.
 </tr>
 <tr>
 <td width="40%"><a id="KERB_CERTIFICATE_UNLOCK_LOGON"></a><a id="kerb_certificate_unlock_logon"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_certificate_unlock_logon">KERB_CERTIFICATE_UNLOCK_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_unlock_logon">KERB_CERTIFICATE_UNLOCK_LOGON</a></b></dt>
 <dt>Kerberos</dt>
 </dl>
 </td>
@@ -188,7 +188,7 @@ Authenticating a user to unlock a workstation that has been locked during an int
 </tr>
 <tr>
 <td width="40%"><a id="KERB_SMARTCARD_LOGON"></a><a id="kerb_smartcard_logon"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_smart_card_logon">KERB_SMARTCARD_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_smart_card_logon">KERB_SMARTCARD_LOGON</a></b></dt>
 <dt>Kerberos</dt>
 </dl>
 </td>
@@ -228,14 +228,14 @@ The <b>ClientUpn</b> and <b>ClientRealm</b> members of the <a href="https://docs
 </tr>
 <tr>
 <td width="40%"><a id="MSV1_0_LM20_LOGON"></a><a id="msv1_0_lm20_logon"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_msv1_0_lm20_logon">MSV1_0_LM20_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_lm20_logon">MSV1_0_LM20_LOGON</a></b></dt>
 <dt>MSV1_0</dt>
 </dl>
 </td>
 <td width="60%">
 Processing the second half of an NTLM 2.0 protocol logon. The first half of this type of logon is performed by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> with the <b>MsV1_0Lm20ChallengeRequest</b> message. For more information, see the description of <b>MsV1_0Lm20ChallengeRequest</b> in 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a>.
 
 This type of logon can use a subauthentication package.
 
@@ -270,7 +270,7 @@ A list of additional group identifiers to add to the token of the authenticated 
 
 ### -param SourceContext [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_source">TOKEN_SOURCE</a> structure that identifies the source module—for example, the session manager—and the context that may be useful to that module. This information is included in the user token and can be retrieved by calling 
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_source">TOKEN_SOURCE</a> structure that identifies the source module—for example, the session manager—and the context that may be useful to that module. This information is included in the user token and can be retrieved by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>.
 
 
@@ -346,7 +346,7 @@ A pointer to a <b>ULONG</b> that receives the length, in bytes, of the returned 
 ### -param LogonId [out]
 
 A pointer to a buffer that receives an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> that uniquely identifies the logon session. This <b>LUID</b> is assigned by the domain controller that authenticated the logon information.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> that uniquely identifies the logon session. This <b>LUID</b> is assigned by the domain controller that authenticated the logon information.
 
 
 ### -param Token [out]

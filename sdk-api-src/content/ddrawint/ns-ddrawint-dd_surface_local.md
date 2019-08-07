@@ -184,7 +184,7 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-
 
 ### -field lpAttachList
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_attachlist">DD_ATTACHLIST</a> structure that contains the list of surfaces to which this surface attached. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_attachlist">DD_ATTACHLIST</a> structure that contains the list of surfaces to which this surface attached. 
 
 
 ### -field lpAttachListFrom

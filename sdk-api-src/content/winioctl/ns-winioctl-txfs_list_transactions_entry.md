@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 7de14fb1-1972-4bf0-b0e2-f0344e963eef
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTXFS_LIST_TRANSACTIONS_ENTRY, PTXFS_LIST_TRANSACTIONS_ENTRY, PTXFS_LIST_TRANSACTIONS_ENTRY structure pointer [Files], TXFS_LIST_TRANSACTIONS_ENTRY, TXFS_LIST_TRANSACTIONS_ENTRY structure [Files], fs.txfs_list_transactions_entry, winioctl/PTXFS_LIST_TRANSACTIONS_ENTRY, winioctl/TXFS_LIST_TRANSACTIONS_ENTRY"
+ms.keywords: '*PTXFS_LIST_TRANSACTIONS_ENTRY, PTXFS_LIST_TRANSACTIONS_ENTRY, PTXFS_LIST_TRANSACTIONS_ENTRY structure pointer [Files], TXFS_LIST_TRANSACTIONS_ENTRY, TXFS_LIST_TRANSACTIONS_ENTRY structure [Files], fs.txfs_list_transactions_entry, winioctl/PTXFS_LIST_TRANSACTIONS_ENTRY, winioctl/TXFS_LIST_TRANSACTIONS_ENTRY'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/TXFS_LIST_TRANSACTIONS_ENTRY"
+f1_keywords:
+- winioctl/TXFS_LIST_TRANSACTIONS_ENTRY
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - TXFS_LIST_TRANSACTIONS_ENTRY
+- TXFS_LIST_TRANSACTIONS_ENTRY
 product: Windows
 targetos: Windows
 req.typenames: TXFS_LIST_TRANSACTIONS_ENTRY, *PTXFS_LIST_TRANSACTIONS_ENTRY
@@ -98,7 +98,7 @@ Reserved.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_list_transactions">TXFS_LIST_TRANSACTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_list_transactions">TXFS_LIST_TRANSACTIONS</a>
  
 
  

@@ -65,7 +65,7 @@ If a CSP handle and the key container containing a user's private key are availa
 ### -param pCert [in]
 
 The address of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a> for which a private key will be obtained.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a> for which a private key will be obtained.
 
 
 ### -param dwFlags [in]

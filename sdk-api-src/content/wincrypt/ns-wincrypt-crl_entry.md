@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRL_ENTRY</b> structure contains information about a single revoked certificate. It is a member of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_info">CRL_INFO</a> structure.
+The <b>CRL_ENTRY</b> structure contains information about a single revoked certificate. It is a member of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_info">CRL_INFO</a> structure.
 
 
 ## -struct-fields
@@ -95,7 +95,7 @@ Array of pointers to
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_info">CRL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_info">CRL_INFO</a>
 
 
 

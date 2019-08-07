@@ -79,7 +79,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-w
 
 ### -param pxlo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_xlateobj">XLATEOBJ</a> structure that defines the translation of color indices between the source and target surfaces.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure that defines the translation of color indices between the source and target surfaces.
 
 
 ### -param prclDest [in]
@@ -127,7 +127,7 @@ GDI calls this function from its simulations.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_xlateobj">XLATEOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>
  
 
  

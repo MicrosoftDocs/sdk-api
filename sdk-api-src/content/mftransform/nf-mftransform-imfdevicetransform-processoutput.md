@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],ProcessOutput method, IMFDeviceTransform.ProcessOutput, IMFDeviceTransform::ProcessOutput, ProcessOutput, ProcessOutput method [Streaming Media Devices], ProcessOutput method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::ProcessOutput, stream.imfdevicetransform_processoutput
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFDeviceTransform.ProcessOutput"
+f1_keywords:
+- mftransform/IMFDeviceTransform.ProcessOutput
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - IMFDeviceTransform.ProcessOutput
+- IMFDeviceTransform.ProcessOutput
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ Number of elements in the <i>pOutputSamples</i> array. The value must be at leas
 
 ### -param pOutputSample [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structures, allocated by the caller. The MFT uses this array to return output data to the caller.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structures, allocated by the caller. The MFT uses this array to return output data to the caller.
 
 
 ### -param pdwStatus [in]

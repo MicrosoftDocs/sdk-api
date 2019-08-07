@@ -95,7 +95,7 @@ The configuration information to be changed. This parameter can be one of the fo
 </dl>
 </td>
 <td width="60%">
-The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_delayed_auto_start_info">SERVICE_DELAYED_AUTO_START_INFO</a> structure.
+The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_delayed_auto_start_info">SERVICE_DELAYED_AUTO_START_INFO</a> structure.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -121,7 +121,7 @@ The <i>lpInfo</i> parameter is a pointer to a
 </td>
 <td width="60%">
 The <i>lpInfo</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_failure_actionsa">SERVICE_FAILURE_ACTIONS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_failure_actionsa">SERVICE_FAILURE_ACTIONS</a> structure.
 
 If the service controller handles the <b>SC_ACTION_REBOOT</b> action, the caller must have the <b>SE_SHUTDOWN_NAME</b><a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges"> privilege</a>. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
@@ -148,7 +148,7 @@ The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_preferred_node_info">SERVICE_PREFERRED_NODE_INFO</a> structure.
+The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_preferred_node_info">SERVICE_PREFERRED_NODE_INFO</a> structure.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -317,7 +317,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_delayed_auto_start_info">SERVICE_DELAYED_AUTO_START_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_delayed_auto_start_info">SERVICE_DELAYED_AUTO_START_INFO</a>
 
 
 
@@ -325,7 +325,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_failure_actionsa">SERVICE_FAILURE_ACTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_failure_actionsa">SERVICE_FAILURE_ACTIONS</a>
 
 
 

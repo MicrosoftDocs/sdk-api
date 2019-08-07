@@ -76,7 +76,7 @@ Specifies whether the area in <b>rArea</b> is valid. A value of 0x00000001 indic
 
 ### -field rArea
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that defines the area on the surface to lock down.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that defines the area on the surface to lock down.
 
 
 ### -field lpSurfData

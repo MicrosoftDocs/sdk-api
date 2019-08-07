@@ -66,7 +66,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-k
 
 ### -field LogonId
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> structure that contains the identity of the user attempting to unlock the workstation.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure that contains the identity of the user attempting to unlock the workstation.
 
 
 ## -see-also

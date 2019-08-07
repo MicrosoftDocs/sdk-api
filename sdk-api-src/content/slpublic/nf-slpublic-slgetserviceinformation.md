@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLGetServiceInformation, SLGetServiceInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_MULTI_SZ, SL_DATA_SZ, SL_INFO_KEY_ACTIVE_PLUGINS, SL_INFO_KEY_SECURE_STORE_ID, SL_INFO_KEY_SESSION_MACHINE_ID, SL_INFO_KEY_SYSTEM_STATE, SL_INFO_KEY_VERSION, security.slgetserviceinformation, slpublic/SLGetServiceInformation
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLGetServiceInformation"
+f1_keywords:
+- slpublic/SLGetServiceInformation
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLGetServiceInformation
+- SLGetServiceInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -139,9 +139,9 @@ Session machine ID (Binary BLOB)
 
 ### -param peDataType [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-_tagsldatatype">SLDATATYPE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>*</b>
 
-A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-_tagsldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the <i>ppbValue</i> buffer.
+A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the <i>ppbValue</i> buffer.
 
 <table>
 <tr>

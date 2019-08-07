@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_EXTENDED_PROTECTION_SCENARIO, WS_EXTENDED_PROTECTION_SCENARIO enumeration [Web Services for Windows], WS_EXTENDED_PROTECTION_SCENARIO_BOUND_SERVER, WS_EXTENDED_PROTECTION_SCENARIO_TERMINATED_SSL, webservices/WS_EXTENDED_PROTECTION_SCENARIO, webservices/WS_EXTENDED_PROTECTION_SCENARIO_BOUND_SERVER, webservices/WS_EXTENDED_PROTECTION_SCENARIO_TERMINATED_SSL, wsw.ws_extended_protection_scenario
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_EXTENDED_PROTECTION_SCENARIO"
+f1_keywords:
+- webservices/WS_EXTENDED_PROTECTION_SCENARIO
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_EXTENDED_PROTECTION_SCENARIO
+- WS_EXTENDED_PROTECTION_SCENARIO
 product: Windows
 targetos: Windows
 req.typenames: WS_EXTENDED_PROTECTION_SCENARIO
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Defines how <a href="https://docs.microsoft.com/windows/desktop/wsw/extended-protection">Extended Protection</a> is validated. For most configurations, the runtime can automatically determine what needs to 
-                be validated based on the presence of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a>. However, if the SSL connection is terminated at 
+                be validated based on the presence of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a>. However, if the SSL connection is terminated at 
                 an intermediary such as a proxy prior to reaching the server then the validation method must change, and this scenario cannot be automatically detected.
             
 

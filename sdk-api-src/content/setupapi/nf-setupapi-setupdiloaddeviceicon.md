@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiLoadDeviceIcon, SetupDiLoadDeviceIcon function [Device and Driver Installation], devinst.setupdiloaddeviceicon, di-rtns_bcd13849-30ed-4c7e-923d-1524552d78aa.xml, setupapi/SetupDiLoadDeviceIcon
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiLoadDeviceIcon"
+f1_keywords:
+- setupapi/SetupDiLoadDeviceIcon
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupDiLoadDeviceIcon
+- SetupDiLoadDeviceIcon
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ins
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>. 
 
 
 ### -param cxIcon [in]
@@ -131,7 +131,7 @@ If the function cannot retrieve a device-specific icon, it will then attempt to 
 
 </li>
 <li>
-If the function cannot retrieve the class icon for the device, it will then attempt to retrieve the icon for the Unknown <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a>, where the icon for the Unknown device setup class includes the image of a question mark (?).
+If the function cannot retrieve the class icon for the device, it will then attempt to retrieve the icon for the Unknown <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>, where the icon for the Unknown device setup class includes the image of a question mark (?).
 
 </li>
 </ul>

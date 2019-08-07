@@ -86,7 +86,7 @@ The information level of the data. This parameter can be one of the following va
 </td>
 <td width="60%">
 <b>Windows NT:  </b>Specifies information about a workstation environment, including platform-specific information, the names of the domain and the local computer, and information concerning the operating system. The <i>buffer</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_info_100">WKSTA_INFO_100</a> structure. The <b>wk100_computername</b> and <b>wk100_langroup</b> fields of this structure cannot be set by calling this function. To set these values, call <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernamea">SetComputerName</a>/<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a> or <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a>, respectively.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_info_100">WKSTA_INFO_100</a> structure. The <b>wk100_computername</b> and <b>wk100_langroup</b> fields of this structure cannot be set by calling this function. To set these values, call <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernamea">SetComputerName</a>/<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a> or <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a>, respectively.
 
 </td>
 </tr>

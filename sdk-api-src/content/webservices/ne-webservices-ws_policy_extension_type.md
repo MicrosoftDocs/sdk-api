@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The values in this enumeration are used to identify the sub-types of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_policy_extension">WS_POLICY_EXTENSION</a>.
+The values in this enumeration are used to identify the sub-types of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_policy_extension">WS_POLICY_EXTENSION</a>.
             
 
 

@@ -71,7 +71,7 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-
 
 ### -field lpDDPalette
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_palette_global">DD_PALETTE_GLOBAL</a> structure that specifies the palette to set to the surface. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_palette_global">DD_PALETTE_GLOBAL</a> structure that specifies the palette to set to the surface. 
 
 
 ### -field ddRVal

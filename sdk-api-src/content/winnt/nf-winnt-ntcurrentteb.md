@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NtCurrentTeb, NtCurrentTeb routine [Kernel-Mode Driver Architecture], kernel.ntcurrentteb, winnt/NtCurrentTeb
 ms.topic: function
-f1_keywords: 
- - "winnt/NtCurrentTeb"
+f1_keywords:
+- winnt/NtCurrentTeb
 req.header: winnt.h
 req.include-header: 
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - NtCurrentTeb
+- NtCurrentTeb
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>NtCurrentTeb</b> routine returns a pointer to the Thread Environment Block (<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-_teb">TEB</a>) of the current thread. 
+The <b>NtCurrentTeb</b> routine returns a pointer to the Thread Environment Block (<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-teb">TEB</a>) of the current thread. 
 
 
 ## -parameters

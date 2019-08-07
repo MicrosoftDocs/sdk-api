@@ -139,7 +139,7 @@ A pointer to the buffer that receives the property data.
 <tr>
 <td>HttpServerStateProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_state_info">HTTP_STATE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_state_info">HTTP_STATE_INFO</a>
 </td>
 </tr>
 <tr>
@@ -163,7 +163,7 @@ A pointer to the buffer that receives the property data.
 <tr>
 <td>HttpServerChannelBindProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a>
 </td>
 </tr>
 </table>

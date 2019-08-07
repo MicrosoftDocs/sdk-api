@@ -74,7 +74,7 @@ A <b>WSD_SOAP_FAULT_SUBCODE</b> structure that contains a fault subcode.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_fault_code">WSD_SOAP_FAULT_CODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault_code">WSD_SOAP_FAULT_CODE</a>
  
 
  

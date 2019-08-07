@@ -78,7 +78,7 @@ Specify the y-coordinate on the display where the hot spot of the pointer should
 
 ### -param prcl [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure defining an area that bounds all pixels affected by the pointer on the display. The driver should pass the <i>prcl</i> parameter received by its <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvmovepointer">DrvMovePointer</a> function. GDI will not draw in this rectangle without first removing the pointer from the screen. This parameter can be <b>NULL</b>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure defining an area that bounds all pixels affected by the pointer on the display. The driver should pass the <i>prcl</i> parameter received by its <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvmovepointer">DrvMovePointer</a> function. GDI will not draw in this rectangle without first removing the pointer from the screen. This parameter can be <b>NULL</b>.
 
 
 ## -returns

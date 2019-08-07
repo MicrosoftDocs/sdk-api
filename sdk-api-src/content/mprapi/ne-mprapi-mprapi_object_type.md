@@ -61,17 +61,17 @@ The <b>MPRAPI_OBJECT_TYPE</b> enumeration specifies the structure type in  a <a 
 
 ### -field MPRAPI_OBJECT_TYPE_RAS_CONNECTION_OBJECT
 
-The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_ex">RAS_CONNECTION_EX</a> structure.
+The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a> structure.
 
 
 ### -field MPRAPI_OBJECT_TYPE_MPR_SERVER_OBJECT
 
-The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_ex0">MPR_SERVER_EX</a> structure.
+The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_ex0">MPR_SERVER_EX</a> structure.
 
 
 ### -field MPRAPI_OBJECT_TYPE_MPR_SERVER_SET_CONFIG_OBJECT
 
-The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a> structure.
+The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a> structure.
 
 
 ### -field MPRAPI_OBJECT_TYPE_AUTH_VALIDATION_OBJECT

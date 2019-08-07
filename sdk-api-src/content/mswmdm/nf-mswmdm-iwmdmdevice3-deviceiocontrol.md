@@ -70,7 +70,7 @@ Control code to send to the device. When calling this method on an MTP device, u
 
 ### -param lpInBuffer [in]
 
-Optional pointer to an input buffer supplied by the caller. It can be <b>NULL</b> if <i>nInBufferSize</i> is zero. When calling this method on an MTP device, you can pass in the <a href="https://docs.microsoft.com/windows/desktop/api/mtpext/ns-mtpext-_mtp_command_data_in">MTP_COMMAND_DATA_IN</a> structure.
+Optional pointer to an input buffer supplied by the caller. It can be <b>NULL</b> if <i>nInBufferSize</i> is zero. When calling this method on an MTP device, you can pass in the <a href="https://docs.microsoft.com/windows/desktop/api/mtpext/ns-mtpext-mtp_command_data_in">MTP_COMMAND_DATA_IN</a> structure.
 
 
 ### -param nInBufferSize [in]

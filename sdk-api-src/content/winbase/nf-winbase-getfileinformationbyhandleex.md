@@ -146,7 +146,7 @@ The following table shows the valid file information class types and their corre
 <tr>
 <td><b>FileNameInfo</b> (2)</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_name_info">FILE_NAME_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_name_info">FILE_NAME_INFO</a>
 </td>
 </tr>
 <tr>
@@ -158,7 +158,7 @@ The following table shows the valid file information class types and their corre
 <tr>
 <td><b>FileCompressionInfo</b> (8)</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_compression_info">FILE_COMPRESSION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_compression_info">FILE_COMPRESSION_INFO</a>
 </td>
 </tr>
 <tr>
@@ -182,7 +182,7 @@ The following table shows the valid file information class types and their corre
 <tr>
 <td><b>FileRemoteProtocolInfo</b> (0xd)</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_remote_protocol_info">FILE_REMOTE_PROTOCOL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_remote_protocol_info">FILE_REMOTE_PROTOCOL_INFO</a>
 </td>
 </tr>
 <tr>
@@ -200,13 +200,13 @@ The following table shows the valid file information class types and their corre
 <tr>
 <td><b>FileStorageInfo</b> (0x10)</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_storage_info">FILE_STORAGE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_storage_info">FILE_STORAGE_INFO</a>
 </td>
 </tr>
 <tr>
 <td><b>FileAlignmentInfo</b> (0x11)</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_alignment_info">FILE_ALIGNMENT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_alignment_info">FILE_ALIGNMENT_INFO</a>
 </td>
 </tr>
 <tr>
@@ -218,13 +218,13 @@ The following table shows the valid file information class types and their corre
 <tr>
 <td><b>FileIdExtdDirectoryInfo</b> (0x13)</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_id_extd_dir_info">FILE_ID_EXTD_DIR_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_extd_dir_info">FILE_ID_EXTD_DIR_INFO</a>
 </td>
 </tr>
 <tr>
 <td><b>FileIdExtdDirectoryRestartInfo</b> (0x14)</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_id_extd_dir_info">FILE_ID_EXTD_DIR_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_extd_dir_info">FILE_ID_EXTD_DIR_INFO</a>
 </td>
 </tr>
 </table>

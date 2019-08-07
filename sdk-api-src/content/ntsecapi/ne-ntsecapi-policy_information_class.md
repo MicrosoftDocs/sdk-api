@@ -84,7 +84,7 @@ This value is obsolete.
 ### -field PolicyAccountDomainInformation
 
 Query or set the name and SID of the account domain of the system. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_policy_account_domain_info">POLICY_ACCOUNT_DOMAIN_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-policy_account_domain_info">POLICY_ACCOUNT_DOMAIN_INFO</a> structure.
 
 
 ### -field PolicyLsaServerRoleInformation
@@ -122,7 +122,7 @@ This value is obsolete.
 ### -field PolicyDnsDomainInformation
 
 Query or set Domain Name System (DNS) information about the account domain associated with a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_policy_dns_domain_info">POLICY_DNS_DOMAIN_INFO</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-policy_dns_domain_info">POLICY_DNS_DOMAIN_INFO</a> structure. 
 
 
 ### -field PolicyDnsDomainInformationInt
@@ -152,7 +152,7 @@ Query or set Domain Name System (DNS) information about the account domain assoc
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_policy_account_domain_info">POLICY_ACCOUNT_DOMAIN_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-policy_account_domain_info">POLICY_ACCOUNT_DOMAIN_INFO</a>
 
 
 
@@ -160,7 +160,7 @@ Query or set Domain Name System (DNS) information about the account domain assoc
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_policy_dns_domain_info">POLICY_DNS_DOMAIN_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-policy_dns_domain_info">POLICY_DNS_DOMAIN_INFO</a>
 
 
 

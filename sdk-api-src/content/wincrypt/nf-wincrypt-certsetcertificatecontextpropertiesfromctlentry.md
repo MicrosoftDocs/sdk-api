@@ -61,7 +61,7 @@ The <b>CertSetCertificateContextPropertiesFromCTLEntry</b> function sets the pro
 
 ### -param pCertContext [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> whose attributes are to be set.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> whose attributes are to be set.
 
 
 ### -param pCtlEntry [in]
@@ -91,7 +91,7 @@ If the function succeeds, the function returns nonzero.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
 
 

@@ -83,7 +83,7 @@ security binding.
 ### -field properties
 
 The array of properties specifying the optional security binding
-settings.  Each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_binding_property">WS_SECURITY_BINDING_PROPERTY</a> in the array is a key-value
+settings.  Each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_binding_property">WS_SECURITY_BINDING_PROPERTY</a> in the array is a key-value
 pair and must use a key defined in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_ID</a>.  This field can be <b>NULL</b>, and if
 it is <b>NULL</b>, the default value will be used for each security token
 setting.

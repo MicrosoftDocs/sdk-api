@@ -8,10 +8,10 @@ tech.root: gdi
 ms.assetid: 578a2824-b42e-401d-b4b0-8426440713c6
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEMRFRAMERGN, EMRFRAMERGN, EMRFRAMERGN structure [Windows GDI], PEMRFRAMERGN, PEMRFRAMERGN structure pointer [Windows GDI], _win32_EMRFRAMERGN_str, gdi.emrframergn, wingdi/EMRFRAMERGN, wingdi/PEMRFRAMERGN"
+ms.keywords: '*PEMRFRAMERGN, EMRFRAMERGN, EMRFRAMERGN structure [Windows GDI], PEMRFRAMERGN, PEMRFRAMERGN structure pointer [Windows GDI], _win32_EMRFRAMERGN_str, gdi.emrframergn, wingdi/EMRFRAMERGN, wingdi/PEMRFRAMERGN'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRFRAMERGN"
+f1_keywords:
+- wingdi/EMRFRAMERGN
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRFRAMERGN
+- EMRFRAMERGN
 product: Windows
 targetos: Windows
 req.typenames: EMRFRAMERGN, *PEMRFRAMERGN
@@ -89,7 +89,7 @@ Width and height of region frame, in logical units.
 
 ### -field RgnData
 
-Buffer containing <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_rgndata">RGNDATA</a> structure.
+Buffer containing <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a> structure.
 
 
 ## -see-also
@@ -109,7 +109,7 @@ Buffer containing <a href="https://docs.microsoft.com/windows/desktop/api/wingdi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_rgndata">RGNDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a>
  
 
  

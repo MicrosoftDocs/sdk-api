@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSADeleteSocketPeerTargetName, WSADeleteSocketPeerTargetName function [Winsock], winsock.wsadeletesocketpeertargetname, ws2tcpip/WSADeleteSocketPeerTargetName
 ms.topic: function
-f1_keywords: 
- - "ws2tcpip/WSADeleteSocketPeerTargetName"
+f1_keywords:
+- ws2tcpip/WSADeleteSocketPeerTargetName
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - WSADeleteSocketPeerTargetName
+- WSADeleteSocketPeerTargetName
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,7 +76,7 @@ The size, in bytes, of the <i>PeerAddr</i> parameter.
 
 ### -param Overlapped [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure.  This parameter is ignored for non-overlapped sockets.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.  This parameter is ignored for non-overlapped sockets.
 
 
 ### -param CompletionRoutine [in, optional]

@@ -66,7 +66,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_ser
 
 ### -field ParamDesc
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_param">HTTP_SERVICE_CONFIG_SSL_PARAM</a> structure that holds the contents of the specified SSL CCS certificate record.
+An <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_param">HTTP_SERVICE_CONFIG_SSL_PARAM</a> structure that holds the contents of the specified SSL CCS certificate record.
 
 
 ## -remarks
@@ -87,7 +87,7 @@ Pass this structure to the <a href="https://docs.microsoft.com/windows/desktop/a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_param">HTTP_SERVICE_CONFIG_SSL_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_param">HTTP_SERVICE_CONFIG_SSL_PARAM</a>
 
 
 

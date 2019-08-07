@@ -91,7 +91,7 @@ Provides data specific to the specified provider. Data structures for each defin
 <tr>
 <td>WOF_PROVIDER_WIM</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wofapi/ns-wofapi-_wim_external_file_info">WIM_EXTERNAL_FILE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wofapi/ns-wofapi-wim_external_file_info">WIM_EXTERNAL_FILE_INFO</a>
 </td>
 </tr>
 <tr>

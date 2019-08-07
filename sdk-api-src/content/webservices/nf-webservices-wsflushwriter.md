@@ -140,7 +140,7 @@ The writer buffers all data until <b>WsFlushWriter</b> is called.
 If necessary, the <b>WsFlushWriter</b> should be called before <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreewriter">WsFreeWriter</a> to guarantee all data is emitted.
       
 
-By specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_async_context">WS_ASYNC_CONTEXT</a> the buffered data will be written asynchronously.
+By specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> the buffered data will be written asynchronously.
       
 
 This function is a no-op if the writer is using <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_buffer_output">WS_XML_WRITER_BUFFER_OUTPUT</a>.

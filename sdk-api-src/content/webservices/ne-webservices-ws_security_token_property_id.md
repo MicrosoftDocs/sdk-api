@@ -57,7 +57,7 @@ token types.  The function <a href="https://docs.microsoft.com/windows/desktop/a
 the values defined here as keys.
             
 
-See also <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_binding_property">WS_SECURITY_BINDING_PROPERTY</a>.
+See also <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_binding_property">WS_SECURITY_BINDING_PROPERTY</a>.
             
 
 

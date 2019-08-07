@@ -272,7 +272,7 @@ No additional credentials are passed in the <b>u</b> union.
 </dl>
 </td>
 <td width="60%">
-The <b>HttpCredentials</b> member of the <b>u</b> union points to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_http_transport_credentials_a">RPC_HTTP_TRANSPORT_CREDENTIALS</a> structure. This value can be used only when the protocol sequence is <a href="https://msdn.microsoft.com/">ncacn_http</a>. Any other protocol sequence returns RPC_S_INVALID_ARG.
+The <b>HttpCredentials</b> member of the <b>u</b> union points to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_a">RPC_HTTP_TRANSPORT_CREDENTIALS</a> structure. This value can be used only when the protocol sequence is <a href="https://msdn.microsoft.com/">ncacn_http</a>. Any other protocol sequence returns RPC_S_INVALID_ARG.
 
 </td>
 </tr>
@@ -285,7 +285,7 @@ The <b>HttpCredentials</b> member of the <b>u</b> union points to a <a href="htt
 
 ### -field u.HttpCredentials
 
-Additional set of credentials to pass to RPC, in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_http_transport_credentials_a">RPC_HTTP_TRANSPORT_CREDENTIALS</a> structure. Used when the  <b>AdditionalSecurityInfoType</b> member is set to RPC_C_AUTHN_INFO_TYPE_HTTP.
+Additional set of credentials to pass to RPC, in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_a">RPC_HTTP_TRANSPORT_CREDENTIALS</a> structure. Used when the  <b>AdditionalSecurityInfoType</b> member is set to RPC_C_AUTHN_INFO_TYPE_HTTP.
 
 
 ### -field Sid
@@ -327,7 +327,7 @@ This flag is designed to prevent a Denial of Service Attack. Using this flag for
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_http_transport_credentials_a">RPC_HTTP_TRANSPORT_CREDENTIALS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_a">RPC_HTTP_TRANSPORT_CREDENTIALS</a>
 
 
 

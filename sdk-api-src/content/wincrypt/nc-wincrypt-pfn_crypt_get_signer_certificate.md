@@ -79,7 +79,7 @@ Currently defined encoding types are:
 
 ### -param pSignerId [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure containing the issuer and serial number. Can be <b>NULL</b> if there is no content or signer.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure containing the issuer and serial number. Can be <b>NULL</b> if there is no content or signer.
 
 
 ### -param hMsgCertStore [in]
@@ -91,7 +91,7 @@ A handle to the certificate store containing all the certificates and CRLs in th
 
 
 
-If a signer certificate is found, the function returns a pointer to a read-only <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>. The returned <b>CERT_CONTEXT</b> was obtained either from a certificate store or was created using <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext">CertCreateCertificateContext</a>. In either case, it must be freed using <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>. If this function fails, the return value is <b>NULL</b>.
+If a signer certificate is found, the function returns a pointer to a read-only <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>. The returned <b>CERT_CONTEXT</b> was obtained either from a certificate store or was created using <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext">CertCreateCertificateContext</a>. In either case, it must be freed using <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>. If this function fails, the return value is <b>NULL</b>.
 
 
 

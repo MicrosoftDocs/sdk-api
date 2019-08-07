@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_PROXY_RESULT_ENTRY, WINHTTP_PROXY_RESULT_ENTRY structure [HTTP], http.winhttp_proxy_result_entry, winhttp/WINHTTP_PROXY_RESULT_ENTRY
 ms.topic: struct
-f1_keywords: 
- - "winhttp/WINHTTP_PROXY_RESULT_ENTRY"
+f1_keywords:
+- winhttp/WINHTTP_PROXY_RESULT_ENTRY
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winhttp.h
+- winhttp.h
 api_name:
- - WINHTTP_PROXY_RESULT_ENTRY
+- WINHTTP_PROXY_RESULT_ENTRY
 product: Windows
 targetos: Windows
 req.typenames: WINHTTP_PROXY_RESULT_ENTRY
@@ -88,7 +88,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/WinHttp/internet-port">IN
 
 
 
-This structure is stored in an array inside of a <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-_winhttp_proxy_result">WINHTTP_PROXY_RESULT</a> structure.
+This structure is stored in an array inside of a <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_result">WINHTTP_PROXY_RESULT</a> structure.
 
 
 
@@ -98,7 +98,7 @@ This structure is stored in an array inside of a <a href="https://docs.microsoft
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-_winhttp_proxy_result">WINHTTP_PROXY_RESULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_result">WINHTTP_PROXY_RESULT</a>
 
 
 

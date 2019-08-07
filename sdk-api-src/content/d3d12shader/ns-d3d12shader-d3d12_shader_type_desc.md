@@ -68,7 +68,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon
 
 ### -field Type
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_variable_type">D3D_SHADER_VARIABLE_TYPE</a>-typed value that identifies the variable type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_type">D3D_SHADER_VARIABLE_TYPE</a>-typed value that identifies the variable type.
           
 
 

@@ -146,7 +146,7 @@ void main()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoa">OSVERSIONINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoa">OSVERSIONINFO</a>
 
 
 

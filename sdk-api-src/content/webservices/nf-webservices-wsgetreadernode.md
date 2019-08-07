@@ -127,7 +127,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webse
 </li>
 <li><b>WS_XML_NODE_TYPE_TEXT</b>    =&gt; <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_text_node">WS_XML_TEXT_NODE</a>
 </li>
-<li><b>WS_XML_NODE_TYPE_COMMENT</b> =&gt; <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_comment_node">WS_XML_COMMENT_NODE</a>
+<li><b>WS_XML_NODE_TYPE_COMMENT</b> =&gt; <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_comment_node">WS_XML_COMMENT_NODE</a>
 </li>
 </ul>
 

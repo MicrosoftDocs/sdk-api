@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_CHANNEL_BINDING, WS_CHANNEL_BINDING enumeration [Web Services for Windows], WS_CUSTOM_CHANNEL_BINDING, WS_HTTP_CHANNEL_BINDING, WS_NAMEDPIPE_CHANNEL_BINDING, WS_TCP_CHANNEL_BINDING, WS_UDP_CHANNEL_BINDING, webservices/WS_CHANNEL_BINDING, webservices/WS_CUSTOM_CHANNEL_BINDING, webservices/WS_HTTP_CHANNEL_BINDING, webservices/WS_NAMEDPIPE_CHANNEL_BINDING, webservices/WS_TCP_CHANNEL_BINDING, webservices/WS_UDP_CHANNEL_BINDING, wsw.ws_channel_binding
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_CHANNEL_BINDING"
+f1_keywords:
+- webservices/WS_CHANNEL_BINDING
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_CHANNEL_BINDING
+- WS_CHANNEL_BINDING
 product: Windows
 targetos: Windows
 req.typenames: WS_CHANNEL_BINDING
@@ -80,7 +80,7 @@ SOAP over UDP.
 
 ### -field WS_CUSTOM_CHANNEL_BINDING
 
-A custom channel or listen implementation. For more information, see <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_custom_channel_callbacks">WS_CUSTOM_CHANNEL_CALLBACKS</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_listener_callbacks">WS_CUSTOM_LISTENER_CALLBACKS</a>.
+A custom channel or listen implementation. For more information, see <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_custom_channel_callbacks">WS_CUSTOM_CHANNEL_CALLBACKS</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_custom_listener_callbacks">WS_CUSTOM_LISTENER_CALLBACKS</a>.
 
 
 ### -field WS_NAMEDPIPE_CHANNEL_BINDING

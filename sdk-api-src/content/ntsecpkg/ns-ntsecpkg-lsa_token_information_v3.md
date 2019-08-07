@@ -69,7 +69,7 @@ Time at which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s
 ### -field User
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_user">TOKEN_USER</a> structure that contains the SID of the user logging on. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> SID value is in a separately allocated block of memory.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a> structure that contains the SID of the user logging on. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> SID value is in a separately allocated block of memory.
 
 
 ### -field Groups
@@ -86,7 +86,7 @@ Each SID is expected to be in a separately allocated block of memory. The <a hre
 ### -field PrimaryGroup
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_primary_group">TOKEN_PRIMARY_GROUP</a> structure that is used to establish the primary group of the user. This value does not have to correspond to one of the SIDs assigned to the user. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_primary_group">TOKEN_PRIMARY_GROUP</a> structure that is used to establish the primary group of the user. This value does not have to correspond to one of the SIDs assigned to the user. 
 
 
 
@@ -99,12 +99,12 @@ This member is mandatory and must be filled in.
 ### -field Privileges
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_privileges">TOKEN_PRIVILEGES</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privileges</a> assigned to the user. This list of privileges will be augmented or overridden by any local security policy assigned privileges. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privileges</a> assigned to the user. This list of privileges will be augmented or overridden by any local security policy assigned privileges. 
 
 
 
 
-Each privilege is expected to be in a separately allocated block of memory. The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_privileges">TOKEN_PRIVILEGES</a> structure is also expected to be in a separately allocated block of memory.
+Each privilege is expected to be in a separately allocated block of memory. The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a> structure is also expected to be in a separately allocated block of memory.
 
 If there are no privileges to assign to the user, this member may be set to <b>NULL</b>.
 
@@ -112,7 +112,7 @@ If there are no privileges to assign to the user, this member may be set to <b>N
 ### -field Owner
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_owner">TOKEN_OWNER</a> structure. This member may be used to establish an explicit default owner. Normally, the user ID is used as the default owner. If another value is desired, it must be specified here. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_owner">TOKEN_OWNER</a> structure. This member may be used to establish an explicit default owner. Normally, the user ID is used as the default owner. If another value is desired, it must be specified here. 
 
 
 
@@ -123,7 +123,7 @@ The <b>Owner.Sid</b> member may be set to <b>NULL</b> to indicate there is no al
 ### -field DefaultDacl
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_default_dacl">TOKEN_DEFAULT_DACL</a> structure. This member may be used to establish a default protection for the user. If no value is provided, a default protection that grants everyone all access will be established. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_default_dacl">TOKEN_DEFAULT_DACL</a> structure. This member may be used to establish a default protection for the user. If no value is provided, a default protection that grants everyone all access will be established. 
 
 
 
@@ -140,7 +140,7 @@ The <b>DefaultDacl.DefaultDacl</b> member may be set to <b>NULL</b> to indicate 
 ### -field DeviceClaims
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_device_claims">TOKEN_DEVICE_CLAIMS</a> structure. This member stores the opaque device claims BLOB for the token. The <b>DeviceClaims</b> member may be set to <b>NULL</b> to indicate there are no additional device claims in the token. Claims are allow-only entities so omitting claims may restrict access.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_device_claims">TOKEN_DEVICE_CLAIMS</a> structure. This member stores the opaque device claims BLOB for the token. The <b>DeviceClaims</b> member may be set to <b>NULL</b> to indicate there are no additional device claims in the token. Claims are allow-only entities so omitting claims may restrict access.
 					
 
 

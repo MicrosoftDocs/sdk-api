@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDXMLGetNameFromBuiltinNamespace, WSDXMLGetNameFromBuiltinNamespace function, ncd.wsdxmlgetnamefrombuiltinnamespace, wsdxml/WSDXMLGetNameFromBuiltinNamespace
 ms.topic: function
-f1_keywords: 
- - "wsdxml/WSDXMLGetNameFromBuiltinNamespace"
+f1_keywords:
+- wsdxml/WSDXMLGetNameFromBuiltinNamespace
 req.header: wsdxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - WSDXMLGetNameFromBuiltinNamespace
+- WSDXMLGetNameFromBuiltinNamespace
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ The name to match with a built-in name.
 
 ### -param ppName
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_name">WSDXML_NAME</a> structure that contains the returned built-in name.  The memory usage of <i>ppName</i> is managed elsewhere.  Consequently, the calling application should not attempt to deallocate <i>ppName</i>.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure that contains the returned built-in name.  The memory usage of <i>ppName</i> is managed elsewhere.  Consequently, the calling application should not attempt to deallocate <i>ppName</i>.
 
 
 ## -returns

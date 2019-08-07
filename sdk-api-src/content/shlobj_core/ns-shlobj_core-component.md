@@ -8,10 +8,10 @@ tech.root: shell
 ms.assetid: 2692a2d6-1d33-410f-987c-8388c636cae6
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPCOMPONENT, COMPONENT, COMPONENT structure [Windows Shell], COMP_TYPE_CONTROL, COMP_TYPE_HTMLDOC, COMP_TYPE_PICTURE, COMP_TYPE_WEBSITE, IS_FULLSCREEN, IS_NORMAL, IS_SPLIT, LPCOMPONENT, LPCOMPONENT structure pointer [Windows Shell], _tagCOMPONENT, _win32_COMPONENT, shell.COMPONENT, shlobj_core/COMPONENT, shlobj_core/LPCOMPONENT"
+ms.keywords: '*LPCOMPONENT, COMPONENT, COMPONENT structure [Windows Shell], COMP_TYPE_CONTROL, COMP_TYPE_HTMLDOC, COMP_TYPE_PICTURE, COMP_TYPE_WEBSITE, IS_FULLSCREEN, IS_NORMAL, IS_SPLIT, LPCOMPONENT, LPCOMPONENT structure pointer [Windows Shell], _tagCOMPONENT, _win32_COMPONENT, shell.COMPONENT, shlobj_core/COMPONENT, shlobj_core/LPCOMPONENT'
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/COMPONENT"
+f1_keywords:
+- shlobj_core/COMPONENT
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - COMPONENT
+- COMPONENT
 product: Windows
 targetos: Windows
 req.typenames: COMPONENT
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by Windows 2000 to hold information about a component. This structure replaces the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagie4component">IE4COMPONENT</a> structure.
+Used by Windows 2000 to hold information about a component. This structure replaces the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-ie4component">IE4COMPONENT</a> structure.
 
 
 ## -struct-fields
@@ -127,9 +127,9 @@ A value that is set to <b>TRUE</b> if the component is scrollable, or <b>FALSE</
 
 ### -field cpPos
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomppos">COMPPOS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-comppos">COMPPOS</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomppos">COMPPOS</a> structure containing position and size information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-comppos">COMPPOS</a> structure containing position and size information.
 
 
 ### -field wszFriendlyName
@@ -180,14 +180,14 @@ Split screen
 
 ### -field csiOriginal
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcompstateinfo">COMPSTATEINFO</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-compstateinfo">COMPSTATEINFO</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcompstateinfo">COMPSTATEINFO</a> structure with the state of the component when it was first added.
+A <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-compstateinfo">COMPSTATEINFO</a> structure with the state of the component when it was first added.
 
 
 ### -field csiRestored
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcompstateinfo">COMPSTATEINFO</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-compstateinfo">COMPSTATEINFO</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcompstateinfo">COMPSTATEINFO</a> structure with the restored state of the component.
+A <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-compstateinfo">COMPSTATEINFO</a> structure with the restored state of the component.
 

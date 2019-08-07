@@ -70,7 +70,7 @@ Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/
 
 ### -field WS_UPN_ENDPOINT_IDENTITY_TYPE
 
-Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_upn_endpoint_identity">WS_UPN_ENDPOINT_IDENTITY</a>.
+Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_upn_endpoint_identity">WS_UPN_ENDPOINT_IDENTITY</a>.
                 
 
 

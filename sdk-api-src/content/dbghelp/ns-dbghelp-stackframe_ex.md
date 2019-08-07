@@ -61,7 +61,7 @@ Represents an extended stack frame.
 
 ### -field AddrPC
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies the program 
+An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the program 
       counter.
       
 
@@ -74,13 +74,13 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_t
 
 ### -field AddrReturn
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies 
+An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies 
       the return address.
 
 
 ### -field AddrFrame
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies 
+An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies 
       the frame pointer.
       
 
@@ -93,7 +93,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_t
 
 ### -field AddrStack
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies 
+An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies 
       the stack pointer.
       
 
@@ -106,7 +106,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_t
 
 ### -field AddrBStore
 
-<b>Intel Itanium:  </b>An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies 
+<b>Intel Itanium:  </b>An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies 
         the backing store (RsBSP).
 
 
@@ -139,7 +139,7 @@ This member is used internally by the <a href="https://docs.microsoft.com/window
 
 ### -field KdHelp
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_kdhelp">KDHELP64</a> structure that specifies helper data for 
+A <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-kdhelp">KDHELP64</a> structure that specifies helper data for 
       walking kernel callback frames.
 
 

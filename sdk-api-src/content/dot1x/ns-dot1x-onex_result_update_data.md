@@ -61,7 +61,7 @@ The <b>ONEX_RESULT_UPDATE_DATA</b> structure contains information on a status ch
 
 ### -field oneXStatus
 
-Specifies the current 802.1X authentication status. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_status">ONEX_STATUS</a> structure.
+Specifies the current 802.1X authentication status. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_status">ONEX_STATUS</a> structure.
 
 
 ### -field BackendSupport
@@ -91,12 +91,12 @@ Indicates if the <b>ONEX_RESULT_UPDATE_DATA</b> structure contains an EAP error 
 
 ### -field authParams
 
-The 802.1X authentication parameters. This member contains an embedded <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_auth_params">ONEX_AUTH_PARAMS</a> structure starting at the <b>dwOffset</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_variable_blob">ONEX_VARIABLE_BLOB</a> if the <b>fOneXAuthParams</b> bitfield member is set.
+The 802.1X authentication parameters. This member contains an embedded <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_auth_params">ONEX_AUTH_PARAMS</a> structure starting at the <b>dwOffset</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_variable_blob">ONEX_VARIABLE_BLOB</a> if the <b>fOneXAuthParams</b> bitfield member is set.
 
 
 ### -field eapError
 
-An EAP error value. This member contains an embedded <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_eap_error">ONEX_EAP_ERROR</a> structure starting at the <b>dwOffset</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_variable_blob">ONEX_VARIABLE_BLOB</a> if the <b>fEapError</b> bitfield member is set.
+An EAP error value. This member contains an embedded <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_eap_error">ONEX_EAP_ERROR</a> structure starting at the <b>dwOffset</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_variable_blob">ONEX_VARIABLE_BLOB</a> if the <b>fEapError</b> bitfield member is set.
 
 
 ## -remarks
@@ -123,7 +123,7 @@ The <b>ONEX_RESULT_UPDATE_DATA</b> contains information on a status change to 80
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_eap_error">ONEX_EAP_ERROR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_eap_error">ONEX_EAP_ERROR</a>
 
 
 
@@ -135,11 +135,11 @@ The <b>ONEX_RESULT_UPDATE_DATA</b> contains information on a status change to 80
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_status">ONEX_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_status">ONEX_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_variable_blob">ONEX_VARIABLE_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_variable_blob">ONEX_VARIABLE_BLOB</a>
 
 
 

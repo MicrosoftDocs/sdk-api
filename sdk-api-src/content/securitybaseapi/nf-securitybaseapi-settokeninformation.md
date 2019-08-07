@@ -143,7 +143,7 @@ Token-type information can be set only when an access token is created.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_default_dacl">TOKEN_DEFAULT_DACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_default_dacl">TOKEN_DEFAULT_DACL</a>
 
 
 

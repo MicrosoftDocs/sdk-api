@@ -66,7 +66,7 @@ Handle to the physical device's <a href="https://docs.microsoft.com/windows-hard
 
 ### -param ppalo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_palobj">PALOBJ</a> structure from which the colors (RGB values) should be queried.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-palobj">PALOBJ</a> structure from which the colors (RGB values) should be queried.
 
 
 ### -param fl
@@ -84,7 +84,7 @@ SP_DEFAULT
 
 </td>
 <td>
-The palette is the device's complete default palette. The <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_palobj">PALOBJ</a> can be ignored, but contains the correct contents.
+The palette is the device's complete default palette. The <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-palobj">PALOBJ</a> can be ignored, but contains the correct contents.
 
 </td>
 </tr>

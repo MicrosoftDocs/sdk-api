@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>CryptVerifyCertificateSignature</b> function verifies the signature of a certificate, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL), or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>  by using the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure. The function does not require access to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure. The function does not require access to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>.
 
 
 ## -parameters
@@ -113,7 +113,7 @@ The size, in bytes, of the encoded content in <i>pbEncoded</i>.
 ### -param pPublicKey [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key to use when verifying the signature.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key to use when verifying the signature.
 
 
 ## -returns

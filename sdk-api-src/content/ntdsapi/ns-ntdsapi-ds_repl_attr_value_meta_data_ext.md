@@ -98,7 +98,7 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-n
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ne-ntdsapi-_ds_repl_info_type">DS_REPL_INFO_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ne-ntdsapi-ds_repl_info_type">DS_REPL_INFO_TYPE</a>
 
 
 

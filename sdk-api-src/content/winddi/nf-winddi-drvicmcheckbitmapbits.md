@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvIcmCheckBitmapBits, DrvIcmCheckBitmapBits function [Display Devices], ddifncs_f7d444c6-446a-4c46-9f5e-73407323c2d7.xml, display.drvicmcheckbitmapbits, winddi/DrvIcmCheckBitmapBits
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvIcmCheckBitmapBits"
+f1_keywords:
+- winddi/DrvIcmCheckBitmapBits
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvIcmCheckBitmapBits
+- DrvIcmCheckBitmapBits
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ Handle to the color transform against which the bitmap is to be checked. This tr
 
 ### -param pso
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> that contains the bitmap surface to be checked.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> that contains the bitmap surface to be checked.
 
 
 ### -param paResults

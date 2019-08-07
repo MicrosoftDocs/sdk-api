@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_FORMAT_TRACKS, IOCTL_DISK_FORMAT_TRACKS control, IOCTL_DISK_FORMAT_TRACKS control code [Files], _win32_ioctl_disk_format_tracks, base.ioctl_disk_format_tracks, fs.ioctl_disk_format_tracks, winioctl/IOCTL_DISK_FORMAT_TRACKS
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_DISK_FORMAT_TRACKS"
+f1_keywords:
+- winioctl/IOCTL_DISK_FORMAT_TRACKS
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_DISK_FORMAT_TRACKS
+- IOCTL_DISK_FORMAT_TRACKS
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -158,7 +158,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_format_parameters">FORMAT_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-format_parameters">FORMAT_PARAMETERS</a>
 
 
 

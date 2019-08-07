@@ -77,12 +77,12 @@ A pointer to the second argument to pass to the callback function.
 ### -param Input [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structure that contains information to pass to the callback function.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure that contains information to pass to the callback function.
 
 
 ### -param Output [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structure that receives information passed from the callback function.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure that receives information passed from the callback function.
 
 
 ## -returns

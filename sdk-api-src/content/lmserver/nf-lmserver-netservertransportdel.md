@@ -98,7 +98,7 @@ Specifies information about the transport protocol, including name, address, and
 </td>
 <td width="60%">
 Specifies information about the transport protocol, including name, address, network location, and domain. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_1">SERVER_TRANSPORT_INFO_1</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_1">SERVER_TRANSPORT_INFO_1</a> structure.
 
 </td>
 </tr>
@@ -219,7 +219,7 @@ Only members of the Administrators or Server Operators local group can successfu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_transport_info_1">SERVER_TRANSPORT_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_1">SERVER_TRANSPORT_INFO_1</a>
 
 
 

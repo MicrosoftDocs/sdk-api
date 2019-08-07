@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2a540aef-068d-4465-b0ed-64aed828af01, ASF_INDEX_DESCRIPTOR, ASF_INDEX_DESCRIPTOR structure [Media Foundation], mf.asf_index_descriptor, wmcontainer/ASF_INDEX_DESCRIPTOR
 ms.topic: struct
-f1_keywords: 
- - "wmcontainer/ASF_INDEX_DESCRIPTOR"
+f1_keywords:
+- wmcontainer/ASF_INDEX_DESCRIPTOR
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmcontainer.h
+- wmcontainer.h
 api_name:
- - ASF_INDEX_DESCRIPTOR
+- ASF_INDEX_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.typenames: ASF_INDEX_DESCRIPTOR
@@ -65,7 +65,7 @@ Describes the indexing configuration for a stream and type of index.
 ### -field Identifier
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ns-wmcontainer-_asf_index_identifier">ASF_INDEX_IDENTIFIER</a> structure that identifies the stream number and the type of index.
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ns-wmcontainer-asf_index_identifier">ASF_INDEX_IDENTIFIER</a> structure that identifies the stream number and the type of index.
 
 
 ### -field cPerEntryBytes

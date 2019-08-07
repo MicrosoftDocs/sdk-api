@@ -61,7 +61,7 @@ The DD_VIDEOPORT_LOCAL structure contains <a href="https://docs.microsoft.com/wi
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current DirectDraw process only.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current DirectDraw process only.
 
 
 ### -field ddvpDesc
@@ -71,7 +71,7 @@ Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-d
 
 ### -field ddvpInfo
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportinfo">DDVIDEOPORTINFO</a> structure that describes the transfer of video data to a surface.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportinfo">DDVIDEOPORTINFO</a> structure that describes the transfer of video data to a surface.
 
 
 ### -field lpSurface

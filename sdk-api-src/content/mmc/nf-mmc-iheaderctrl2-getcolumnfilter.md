@@ -67,7 +67,7 @@ A zero-based index that identifies the column for which the filter value and its
 ### -param pdwType [in, out]
 
 A pointer to a variable of type <b>DWORD</b> that can take one of the possible filter values specified in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_filter_type">MMC_FILTER_TYPE</a> enumeration. The filter type for the specified column is placed in the address pointed to by <i>pdwType</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_filter_type">MMC_FILTER_TYPE</a> enumeration. The filter type for the specified column is placed in the address pointed to by <i>pdwType</i>.
 
 
 ### -param pFilterData [in, out]

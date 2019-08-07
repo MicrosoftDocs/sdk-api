@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvIcmSetDeviceGammaRamp, DrvIcmSetDeviceGammaRamp function [Display Devices], ddifncs_4f81d949-51a0-4d83-b779-e9e950c2851d.xml, display.drvicmsetdevicegammaramp, winddi/DrvIcmSetDeviceGammaRamp
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvIcmSetDeviceGammaRamp"
+f1_keywords:
+- winddi/DrvIcmSetDeviceGammaRamp
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvIcmSetDeviceGammaRamp
+- DrvIcmSetDeviceGammaRamp
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ Specifies the data format of the buffer to which <i>lpRamp</i> points. This para
 
 Pointer to the buffer containing the gamma ramp to be set on the device. The format of the data in this buffer is determined by <i>iFormat</i>.
 
-When <i>iFormat</i> is IGRF_RGB_256WORDS, <i>lpRamp</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gammaramp">GAMMARAMP</a> structure that defines the 256-entry ramps to be set for each of the red, blue, and green color channels. Each value is described using 16-bit precision. If the hardware has fewer bits of precision, it should downshift and use the most significant bits, without rounding.
+When <i>iFormat</i> is IGRF_RGB_256WORDS, <i>lpRamp</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gammaramp">GAMMARAMP</a> structure that defines the 256-entry ramps to be set for each of the red, blue, and green color channels. Each value is described using 16-bit precision. If the hardware has fewer bits of precision, it should downshift and use the most significant bits, without rounding.
 
 
 ## -returns

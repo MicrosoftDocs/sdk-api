@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSManPluginAuthzQueryQuotaComplete, WSManPluginAuthzQueryQuotaComplete function [Windows Remote Management], winrm.wsmanpluginauthzqueryquotacomplete, wsman/WSManPluginAuthzQueryQuotaComplete
 ms.topic: function
-f1_keywords: 
- - "wsman/WSManPluginAuthzQueryQuotaComplete"
+f1_keywords:
+- wsman/WSManPluginAuthzQueryQuotaComplete
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WsmSvc.lib
 req.dll: WsmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WsmSvc.dll
+- WsmSvc.dll
 api_name:
- - WSManPluginAuthzQueryQuotaComplete
+- WSManPluginAuthzQueryQuotaComplete
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Called from the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc
 
 ### -param senderDetails [in]
 
-A pointer  to the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that was passed into the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_query_quota">WSManPluginAuthzQueryQuota</a> plug-in call.
+A pointer  to the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that was passed into the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_query_quota">WSManPluginAuthzQueryQuota</a> plug-in call.
 
 
 ### -param flags [in]
@@ -71,7 +71,7 @@ Reserved for future use. Must be zero.
 
 ### -param quota [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_authz_quota">WSMAN_AUTHZ_QUOTA</a> structure that specifies quota information for a specific user.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_authz_quota">WSMAN_AUTHZ_QUOTA</a> structure that specifies quota information for a specific user.
 
 
 ### -param errorCode [in]

@@ -182,7 +182,7 @@ The provider configures the LUN so that the drives that contribute to it can be 
 </dl>
 </td>
 <td width="60%">
-The provider allocates a hot spare for the LUN. For more information, see <a href="https://docs.microsoft.com/windows/desktop/VDS/hot-sparing">Hot Sparing</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_drive_flag">VDS_DRIVE_FLAG</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_disk_flag">VDS_DISK_FLAG</a>.
+The provider allocates a hot spare for the LUN. For more information, see <a href="https://docs.microsoft.com/windows/desktop/VDS/hot-sparing">Hot Sparing</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_drive_flag">VDS_DRIVE_FLAG</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_disk_flag">VDS_DISK_FLAG</a>.
 
 </td>
 </tr>
@@ -193,7 +193,7 @@ The provider allocates a hot spare for the LUN. For more information, see <a hre
 </dl>
 </td>
 <td width="60%">
-The provider uses the specified bus type on the LUN. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a>.
+The provider uses the specified bus type on the LUN. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a>.
 
 </td>
 </tr>
@@ -427,7 +427,7 @@ If this member is <b>TRUE</b>, the drives that contribute to the LUN can be phys
 ### -field BusType
 
 A 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a> enumeration value that specifies the bus type for the LUN. Set the 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a> enumeration value that specifies the bus type for the LUN. Set the 
       <b>VDS_HINT_BUSTYPE</b> flag in the <b>ullHintMask</b> member to indicate 
       interest in this member.
 

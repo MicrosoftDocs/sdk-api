@@ -8,10 +8,10 @@ tech.root: NativeWiFi
 ms.assetid: f01e4a42-3378-4ceb-b23b-5deb78fb18ca
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE, PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE, PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE enumeration pointer [NativeWIFI], WLAN_HOSTED_NETWORK_NOTIFICATION_CODE, WLAN_HOSTED_NETWORK_NOTIFICATION_CODE enumeration [NativeWIFI], nwifi.wlan_hosted_network_notification_code, wlan_hosted_network_peer_state_change, wlan_hosted_network_radio_state_change, wlan_hosted_network_state_change, wlanapi/PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE, wlanapi/WLAN_HOSTED_NETWORK_NOTIFICATION_CODE, wlanapi/wlan_hosted_network_peer_state_change, wlanapi/wlan_hosted_network_radio_state_change, wlanapi/wlan_hosted_network_state_change"
+ms.keywords: '*PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE, PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE, PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE enumeration pointer [NativeWIFI], WLAN_HOSTED_NETWORK_NOTIFICATION_CODE, WLAN_HOSTED_NETWORK_NOTIFICATION_CODE enumeration [NativeWIFI], nwifi.wlan_hosted_network_notification_code, wlan_hosted_network_peer_state_change, wlan_hosted_network_radio_state_change, wlan_hosted_network_state_change, wlanapi/PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE, wlanapi/WLAN_HOSTED_NETWORK_NOTIFICATION_CODE, wlanapi/wlan_hosted_network_peer_state_change, wlanapi/wlan_hosted_network_radio_state_change, wlanapi/wlan_hosted_network_state_change'
 ms.topic: enum
-f1_keywords: 
- - "wlanapi/WLAN_HOSTED_NETWORK_NOTIFICATION_CODE"
+f1_keywords:
+- wlanapi/WLAN_HOSTED_NETWORK_NOTIFICATION_CODE
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wlanapi.h
+- Wlanapi.h
 api_name:
- - WLAN_HOSTED_NETWORK_NOTIFICATION_CODE
+- WLAN_HOSTED_NETWORK_NOTIFICATION_CODE
 product: Windows
 targetos: Windows
 req.typenames: WLAN_HOSTED_NETWORK_NOTIFICATION_CODE, *PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE
@@ -111,7 +111,7 @@ If the <b>NotificationSource</b> member of the  <a href="https://docs.microsoft.
 
 </td>
 <td width="60%">
-The <i>pData</i> member of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure  should be cast to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_state_change">WLAN_HOSTED_NETWORK_STATE_CHANGE</a> structure and <b>dwDataSize</b> member  would be at least as large as sizeof(<b>WLAN_HOSTED_NETWORK_STATE_CHANGE</b>). 
+The <i>pData</i> member of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure  should be cast to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_hosted_network_state_change">WLAN_HOSTED_NETWORK_STATE_CHANGE</a> structure and <b>dwDataSize</b> member  would be at least as large as sizeof(<b>WLAN_HOSTED_NETWORK_STATE_CHANGE</b>). 
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ The <i>pData</i> member of <a href="https://docs.microsoft.com/previous-versions
 
 </td>
 <td width="60%">
-the <i>pData</i> member of <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ns-wlanapi-wlan_hosted_network_data_peer_state_change">WLAN_NOTIFICATION_DATA</a> structure  should be cast to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_data_peer_state_change">WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</a> structure and <b>dwDataSize</b> member  would be at least as large as sizeof(<b>WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</b>). 
+the <i>pData</i> member of <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ns-wlanapi-wlan_hosted_network_data_peer_state_change">WLAN_NOTIFICATION_DATA</a> structure  should be cast to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_hosted_network_data_peer_state_change">WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</a> structure and <b>dwDataSize</b> member  would be at least as large as sizeof(<b>WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</b>). 
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ the <i>pData</i> member of <a href="https://docs.microsoft.com/windows/win32/api
 
 </td>
 <td width="60%">
-the <i>pData</i> member of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure  should be cast to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_radio_state">WLAN_HOSTED_NETWORK_RADIO_STATE</a>  structure and <b>dwDataSize</b> member  would be at least as large as sizeof(<b>WLAN_HOSTED_NETWORK_RADIO_STATE</b> ). 
+the <i>pData</i> member of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure  should be cast to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_hosted_network_radio_state">WLAN_HOSTED_NETWORK_RADIO_STATE</a>  structure and <b>dwDataSize</b> member  would be at least as large as sizeof(<b>WLAN_HOSTED_NETWORK_RADIO_STATE</b> ). 
 
 </td>
 </tr>
@@ -152,11 +152,11 @@ the <i>pData</i> member of <a href="https://docs.microsoft.com/previous-versions
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_radio_state">WLAN_HOSTED_NETWORK_RADIO_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_hosted_network_radio_state">WLAN_HOSTED_NETWORK_RADIO_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_state_change">WLAN_HOSTED_NETWORK_STATE_CHANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_hosted_network_state_change">WLAN_HOSTED_NETWORK_STATE_CHANGE</a>
 
 
 

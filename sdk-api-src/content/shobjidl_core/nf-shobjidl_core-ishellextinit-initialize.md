@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellExtInit interface [Windows Shell],Initialize method, IShellExtInit.Initialize, IShellExtInit::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IShellExtInit interface, _win32_IShellExtInit_Initialize, _win32_ishellextinit_win32_ishellextinit_initialize_cpp, shell.IShellExtInit_Initialize, shobjidl_core/IShellExtInit::Initialize
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellExtInit.Initialize"
+f1_keywords:
+- shobjidl_core/IShellExtInit.Initialize
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellExtInit.Initialize
+- IShellExtInit.Initialize
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Initializes a property sheet extension, shortcut menu extension, or drag-and-dro
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure that uniquely identifies a folder. For property sheet extensions, this parameter is <b>NULL</b>. For shortcut menu extensions, it is the item identifier list for the folder that contains the item whose shortcut menu is being displayed. For nondefault drag-and-drop menu extensions, this parameter specifies the target folder.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure that uniquely identifies a folder. For property sheet extensions, this parameter is <b>NULL</b>. For shortcut menu extensions, it is the item identifier list for the folder that contains the item whose shortcut menu is being displayed. For nondefault drag-and-drop menu extensions, this parameter specifies the target folder.
 
 
 ### -param pdtobj [in]

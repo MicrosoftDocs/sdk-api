@@ -177,7 +177,7 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedace">AddAccessAllowedAce</a> and <b>AddAccessDeniedAce</b> functions add a new ACE to the end of the list of ACEs for the ACL. These functions do not automatically place the new ACE in the proper canonical order. It is the caller's responsibility to ensure that the ACL is in canonical order by adding ACEs in the proper sequence.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure placed in the ACE by the <b>AddAccessDeniedAce</b> function specifies a type and size, but provides no ACE flags.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure placed in the ACE by the <b>AddAccessDeniedAce</b> function specifies a type and size, but provides no ACE flags.
 
 The ACE added by <b>AddAccessDeniedAce</b> is not inheritable.
 
@@ -193,7 +193,7 @@ The ACE added by <b>AddAccessDeniedAce</b> is not inheritable.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>
 
 
 

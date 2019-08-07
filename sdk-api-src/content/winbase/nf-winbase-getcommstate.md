@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCommState, GetCommState function, _win32_getcommstate, base.getcommstate, winbase/GetCommState
 ms.topic: function
-f1_keywords: 
- - "winbase/GetCommState"
+f1_keywords:
+- winbase/GetCommState
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-comm-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-comm-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - GetCommState
+- GetCommState
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ A handle to the communications device. The
 ### -param lpDCB [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_dcb">DCB</a> structure that receives the control settings information.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure that receives the control settings information.
 
 
 ## -returns
@@ -104,7 +104,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_dcb">DCB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a>
 
 
 

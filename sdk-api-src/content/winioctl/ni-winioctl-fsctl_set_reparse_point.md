@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_REPARSE_POINT, FSCTL_SET_REPARSE_POINT control, FSCTL_SET_REPARSE_POINT control code [Files], _win32_fsctl_set_reparse_point, base.fsctl_set_reparse_point, fs.fsctl_set_reparse_point, winioctl/FSCTL_SET_REPARSE_POINT
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_SET_REPARSE_POINT"
+f1_keywords:
+- winioctl/FSCTL_SET_REPARSE_POINT
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_SET_REPARSE_POINT
+- FSCTL_SET_REPARSE_POINT
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -237,7 +237,7 @@ CsvFs does not support reparse points.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_reparse_guid_data_buffer">REPARSE_GUID_DATA_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-reparse_guid_data_buffer">REPARSE_GUID_DATA_BUFFER</a>
 
 
 

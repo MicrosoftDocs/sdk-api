@@ -84,7 +84,7 @@ User account names are limited to 20 characters and group names are limited to 2
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_members_info_0">LOCALGROUP_MEMBERS_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_0">LOCALGROUP_MEMBERS_INFO_0</a>
 
 
 

@@ -74,7 +74,7 @@ Pointer to an opaque
 ### -param LogonType [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_security_logon_type">SECURITY_LOGON_TYPE</a> structure which identifies the type of logon being attempted.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-security_logon_type">SECURITY_LOGON_TYPE</a> structure which identifies the type of logon being attempted.
 
 
 ### -param AuthenticationInformation [in]
@@ -112,7 +112,7 @@ Pointer to a <b>ULONG</b> that receives the length of the <i>ProfileBuffer</i> b
 ### -param LogonId [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> variable that receives the new logon ID that uniquely identifies this logon session. The authentication package is responsible for allocating this <b>LUID</b> and creating the LSA logon session for this logon.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> variable that receives the new logon ID that uniquely identifies this logon session. The authentication package is responsible for allocating this <b>LUID</b> and creating the LSA logon session for this logon.
 
 
 ### -param SubStatus [out]

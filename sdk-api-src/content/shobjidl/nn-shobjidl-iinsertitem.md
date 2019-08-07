@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInsertItem, IInsertItem interface [Windows Shell], IInsertItem interface [Windows Shell],described, shell.IInsertItem, shell_IInsertItem, shobjidl/IInsertItem
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IInsertItem"
+f1_keywords:
+- shobjidl/IInsertItem
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IInsertItem
+- IInsertItem
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[<b>IInsertItem</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Exposes a method that inserts an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure into a list of such structures.
+Exposes a method that inserts an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure into a list of such structures.
 
 
 ## -inheritance
@@ -76,7 +76,7 @@ The <b>IInsertItem</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iinsertitem-insertitem">InsertItem</a>
 </td>
 <td align="left" width="63%">
-Adds an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure to a list of such structures.
+Adds an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure to a list of such structures.
 
 </td>
 </tr>

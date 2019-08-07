@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 92433daa-43da-40d3-a319-e0d70abd3cb0
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_GETSCANLINEDATA, DD_GETSCANLINEDATA, DD_GETSCANLINEDATA structure [Display Devices], ddrawint/DD_GETSCANLINEDATA, ddstrcts_f7654548-917a-4c6d-a15a-0f09bca64b5d.xml, display.dd_getscanlinedata"
+ms.keywords: '*PDD_GETSCANLINEDATA, DD_GETSCANLINEDATA, DD_GETSCANLINEDATA structure [Display Devices], ddrawint/DD_GETSCANLINEDATA, ddstrcts_f7654548-917a-4c6d-a15a-0f09bca64b5d.xml, display.dd_getscanlinedata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_GETSCANLINEDATA"
+f1_keywords:
+- ddrawint/DD_GETSCANLINEDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_GETSCANLINEDATA
+- DD_GETSCANLINEDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_GETSCANLINEDATA, DD_GETSCANLINEDATA"
+req.typenames: '*PDD_GETSCANLINEDATA, DD_GETSCANLINEDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,7 +61,7 @@ The DD_GETSCANLINEDATA structure contains the members required to query and retu
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 
 ### -field dwScanLine

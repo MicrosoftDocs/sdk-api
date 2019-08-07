@@ -77,7 +77,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi
 
 ### -param DriverInstallParams [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_drvinstall_params">SP_DRVINSTALL_PARAMS</a> structure that specifies the new driver install parameters. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_drvinstall_params">SP_DRVINSTALL_PARAMS</a> structure that specifies the new driver install parameters. 
 
 
 ## -returns

@@ -228,7 +228,7 @@ The following table of value for the <i>optname</i> parameter are valid when the
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/so-bsp-state">SO_BSP_STATE</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a>
 </td>
 <td>Returns the local address, local port, remote address, remote port, socket type, and protocol used by a socket.</td>
 </tr>

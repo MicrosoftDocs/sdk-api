@@ -73,7 +73,7 @@ Specifies the version of the structure.
 ### -field repPoint
 
 Specifies a value of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_extension_point">RADIUS_EXTENSION_POINT</a> that indicates at what point in the request process 
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_extension_point">RADIUS_EXTENSION_POINT</a> that indicates at what point in the request process 
 <a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a> was called.
 
 

@@ -8,10 +8,10 @@ tech.root: Intl
 ms.assetid: accb7ce8-c1d0-4f89-9390-be26d7014de7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPCPINFO, CPINFO, CPINFO structure [Internationalization for Windows Applications], LPCPINFO, LPCPINFO structure pointer [Internationalization for Windows Applications], _win32_CPINFO_str, intl.cpinfo, winnls/CPINFO, winnls/LPCPINFO"
+ms.keywords: '*LPCPINFO, CPINFO, CPINFO structure [Internationalization for Windows Applications], LPCPINFO, LPCPINFO structure pointer [Internationalization for Windows Applications], _win32_CPINFO_str, intl.cpinfo, winnls/CPINFO, winnls/LPCPINFO'
 ms.topic: struct
-f1_keywords: 
- - "winnls/CPINFO"
+f1_keywords:
+- winnls/CPINFO
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnls.h
+- Winnls.h
 api_name:
- - CPINFO
+- CPINFO
 product: Windows
 targetos: Windows
 req.typenames: CPINFO, *LPCPINFO
@@ -88,7 +88,7 @@ Lead bytes are unique to DBCS code pages that allow for more than 256 characters
 The lead byte information is not very helpful for most code pages, and is not even provided for many multi-byte encodings, for example, UTF-8 and GB18030. Your applications are discouraged from using this information to predict what the <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> or <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a> function will do. The function might end up using a default character or performing other default behavior if the bytes following the lead byte are not as expected.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_cpinfoexa">CPINFOEX</a>, used by the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcpinfoexa">GetCPInfoEx</a> function, provides an extended version of this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-cpinfoexa">CPINFOEX</a>, used by the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcpinfoexa">GetCPInfoEx</a> function, provides an extended version of this structure.
 
 
 
@@ -98,7 +98,7 @@ The lead byte information is not very helpful for most code pages, and is not ev
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_cpinfoexa">CPINFOEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-cpinfoexa">CPINFOEX</a>
 
 
 

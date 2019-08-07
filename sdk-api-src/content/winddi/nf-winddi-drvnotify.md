@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvNotify, DrvNotify function [Display Devices], ddifncs_24141fb1-e368-47f8-b123-eb1e1789b568.xml, display.drvnotify, winddi/DrvNotify
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvNotify"
+f1_keywords:
+- winddi/DrvNotify
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvNotify
+- DrvNotify
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>DrvNotify</b> function allows a display driver to be notified about certa
 
 ### -param pso
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure that describes the primary surface for which notification is occurring.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the primary surface for which notification is occurring.
 
 
 ### -param iType

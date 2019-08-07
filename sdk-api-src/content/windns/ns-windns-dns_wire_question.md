@@ -8,10 +8,10 @@ tech.root: DNS
 ms.assetid: 50498f20-0896-4471-8355-edd997aa4bcd
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_WIRE_QUESTION, *PDNS_WIRE_QUESTION structure [DNS], DNS_WIRE_QUESTION, DNS_WIRE_QUESTION structure [DNS], dns.dns_wire_question, windns/*PDNS_WIRE_QUESTION, windns/DNS_WIRE_QUESTION"
+ms.keywords: '*PDNS_WIRE_QUESTION, *PDNS_WIRE_QUESTION structure [DNS], DNS_WIRE_QUESTION, DNS_WIRE_QUESTION structure [DNS], dns.dns_wire_question, windns/*PDNS_WIRE_QUESTION, windns/DNS_WIRE_QUESTION'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_WIRE_QUESTION"
+f1_keywords:
+- windns/DNS_WIRE_QUESTION
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_WIRE_QUESTION
+- DNS_WIRE_QUESTION
 product: Windows
 targetos: Windows
 req.typenames: DNS_WIRE_QUESTION, *PDNS_WIRE_QUESTION
@@ -83,7 +83,7 @@ When constructing a DNS message, the question name must precede the <b>DNS_WIRE_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_wire_record">DNS_WIRE_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_wire_record">DNS_WIRE_RECORD</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: 2f357aa8-389b-4c92-8a9f-289e048cc41c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "_win32_closesocket_2, closesocket, closesocket function [Winsock], winsock.closesocket_2, winsock/closesocket"
+ms.keywords: _win32_closesocket_2, closesocket, closesocket function [Winsock], winsock.closesocket_2, winsock/closesocket
 ms.topic: function
-f1_keywords: 
- - "winsock/closesocket"
+f1_keywords:
+- winsock/closesocket
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - closesocket
+- closesocket
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -166,7 +166,7 @@ Any pending overlapped send and receive operations (
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecvfrom">WSARecvFrom</a> with an overlapped socket) issued by any thread in this process are also canceled. Any event, completion routine, or completion port action specified for these overlapped operations is performed. The pending overlapped operations fail with the error status 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_OPERATION_ABORTED</a>.
 
-An application should not assume that any outstanding I/O operations on a socket will all be guaranteed to completed when <b>closesocket</b> returns. The <b>closesocket</b> function will initiate cancellation on the outstanding I/O operations, but that does not mean that an application will receive I/O completion for these I/O operations by the time the <b>closesocket</b> function returns. Thus, an application should not cleanup any resources (<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structures, for example) referenced by the outstanding I/O requests until the I/O requests are indeed completed.
+An application should not assume that any outstanding I/O operations on a socket will all be guaranteed to completed when <b>closesocket</b> returns. The <b>closesocket</b> function will initiate cancellation on the outstanding I/O operations, but that does not mean that an application will receive I/O completion for these I/O operations by the time the <b>closesocket</b> function returns. Thus, an application should not cleanup any resources (<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structures, for example) referenced by the outstanding I/O requests until the I/O requests are indeed completed.
 
  
 
@@ -344,7 +344,7 @@ The following are important issues associated with connection teardown when usin
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a>
 
 
 

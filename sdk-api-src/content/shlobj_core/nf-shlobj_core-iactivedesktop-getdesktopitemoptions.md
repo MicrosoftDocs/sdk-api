@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesktopItemOptions, GetDesktopItemOptions method [Legacy Windows Environment Features], GetDesktopItemOptions method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],GetDesktopItemOptions method, IActiveDesktop.GetDesktopItemOptions, IActiveDesktop::GetDesktopItemOptions, _win32_IActiveDesktop_GetDesktopItemOptions, lwef.iactivedesktop_getdesktopitemoptions, shell.iactivedesktop_getdesktopitemoptions, shlobj_core/IActiveDesktop::GetDesktopItemOptions
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IActiveDesktop.GetDesktopItemOptions"
+f1_keywords:
+- shlobj_core/IActiveDesktop.GetDesktopItemOptions
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IActiveDesktop.GetDesktopItemOptions
+- IActiveDesktop.GetDesktopItemOptions
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Gets the options for the desktop item.
 
 Type: <b>LPCOMPONENTSOPT</b>
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponentsopt">COMPONENTSOPT</a> structure containing the options that are currently set. 
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-componentsopt">COMPONENTSOPT</a> structure containing the options that are currently set. 
 
 
 ### -param dwReserved

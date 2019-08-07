@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Command, Create, Delete, Enumerate, Get, Invoke, Put, Shell, Subscribe, WSMAN_PLUGIN_AUTHORIZE_OPERATION, WSMAN_PLUGIN_AUTHORIZE_OPERATION callback, WSMAN_PLUGIN_AUTHORIZE_OPERATION callback function [Windows Management Instrumentation], winrm.wsman_plugin_authorize_operation, wsman/WSMAN_PLUGIN_AUTHORIZE_OPERATION
 ms.topic: callback
-f1_keywords: 
- - "wsman/WSMAN_PLUGIN_AUTHORIZE_OPERATION"
+f1_keywords:
+- wsman/WSMAN_PLUGIN_AUTHORIZE_OPERATION
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_PLUGIN_AUTHORIZE_OPERATION
+- WSMAN_PLUGIN_AUTHORIZE_OPERATION
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Specifies the context that was returned by a call to <a href="https://docs.micro
 
 ### -param *senderDetails [in]
 
-A pointer  to the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that specifies the identification information of the user.
+A pointer  to the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that specifies the identification information of the user.
 
 
 ### -param flags [in]

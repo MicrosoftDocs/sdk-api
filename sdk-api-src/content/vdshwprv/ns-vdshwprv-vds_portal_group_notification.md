@@ -102,7 +102,7 @@ An existing iSCSI portal group has been deleted.
 </td>
 <td width="60%">
 An existing iSCSI portal group has changed. An example of change that triggers this notification would be 
-        changes to the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_iscsi_portalgroup_prop">VDS_ISCSI_PORTALGROUP_PROP</a> 
+        changes to the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_portalgroup_prop">VDS_ISCSI_PORTALGROUP_PROP</a> 
         structure. Applications are responsible for determining the nature of any changes.
 
 </td>
@@ -154,7 +154,7 @@ To get the portal group object, use the <a href="https://docs.microsoft.com/wind
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_iscsi_portalgroup_prop">VDS_ISCSI_PORTALGROUP_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_portalgroup_prop">VDS_ISCSI_PORTALGROUP_PROP</a>
 
 
 

@@ -70,7 +70,7 @@ Flags that indicate if the property is contained in a structure or array. For po
 
 ### -field NameOffset
 
-Offset to a null-terminated Unicode string that contains the name of the property. If this an event property, the offset is from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_trace_event_info">TRACE_EVENT_INFO</a> structure. If this is a filter property, the offset is from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-provider_filter_info">PROVIDER_FILTER_INFO</a> structure.
+Offset to a null-terminated Unicode string that contains the name of the property. If this an event property, the offset is from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a> structure. If this is a filter property, the offset is from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-provider_filter_info">PROVIDER_FILTER_INFO</a> structure.
 
 
 ### -field nonStructType
@@ -96,7 +96,7 @@ For descriptions of these types, see <a href="https://docs.microsoft.com/windows
 
 ### -field nonStructType.MapNameOffset
 
-Offset from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_trace_event_info">TRACE_EVENT_INFO</a> structure to a null-terminated Unicode string that contains the name of the map attribute value. You can pass this string to <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgeteventmapinformation">TdhGetEventMapInformation</a> to retrieve information about the value map.
+Offset from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a> structure to a null-terminated Unicode string that contains the name of the map attribute value. You can pass this string to <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgeteventmapinformation">TdhGetEventMapInformation</a> to retrieve information about the value map.
 
 
 ### -field structType
@@ -189,7 +189,7 @@ Filters do not support maps, structures, or arrays.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_trace_event_info">TRACE_EVENT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a>
  
 
  

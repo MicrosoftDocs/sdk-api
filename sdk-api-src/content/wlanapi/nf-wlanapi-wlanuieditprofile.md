@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanUIEditProfile, WlanUIEditProfile function [NativeWIFI], nwifi.wlanuieditprofile, wlanapi/WlanUIEditProfile
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanUIEditProfile"
+f1_keywords:
+- wlanapi/WlanUIEditProfile
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wlanui.lib
 req.dll: Wlanui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanui.dll
+- wlanui.dll
 api_name:
- - WlanUIEditProfile
+- WlanUIEditProfile
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -84,7 +84,7 @@ The handle of the  application window requesting the UI display.
 
 ### -param wlStartPage [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wl_display_pages">WL_DISPLAY_PAGES</a> value that specifies the active tab when the UI dialog box appears.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wl_display_pages">WL_DISPLAY_PAGES</a> value that specifies the active tab when the UI dialog box appears.
 
 
 ### -param pReserved

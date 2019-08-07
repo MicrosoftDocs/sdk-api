@@ -63,7 +63,7 @@ The
 ### -field nbf
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_nbfcp_info">PPP_NBFCP_INFO</a> structure that contains PPP NetBEUI Framer (NBF) projection information.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_nbfcp_info">PPP_NBFCP_INFO</a> structure that contains PPP NetBEUI Framer (NBF) projection information.
 
 
 ### -field ip
@@ -75,7 +75,7 @@ A
 ### -field ipx
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_ipxcp_info">PPP_IPXCP_INFO</a> structure that contains PPP Internetwork Packet Exchange (IPX) projection information.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_ipxcp_info">PPP_IPXCP_INFO</a> structure that contains PPP Internetwork Packet Exchange (IPX) projection information.
 
 
 ### -field at
@@ -93,7 +93,7 @@ A
 ### -field lcp
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_lcp_info">PPP_LCP_INFO</a> structure that contains PPP Link Control Protocol (LCP) projection information.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_lcp_info">PPP_LCP_INFO</a> structure that contains PPP Link Control Protocol (LCP) projection information.
 
 
 ## -see-also

@@ -8,10 +8,10 @@ tech.root: NativeWiFi
 ms.assetid: 25a76128-13d9-47dd-9c73-1fbf06a908be
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_BSS_ENTRY, CF Poll Request, CF-Pollable, ESS, IBSS, PWLAN_BSS_ENTRY, PWLAN_BSS_ENTRY structure pointer [NativeWIFI], Privacy, WLAN_BSS_ENTRY, WLAN_BSS_ENTRY structure [NativeWIFI], dot11_BSS_type_independent, dot11_BSS_type_infrastructure, nwifi.wlan_bss_entry, wlanapi/PWLAN_BSS_ENTRY, wlanapi/WLAN_BSS_ENTRY"
+ms.keywords: '*PWLAN_BSS_ENTRY, CF Poll Request, CF-Pollable, ESS, IBSS, PWLAN_BSS_ENTRY, PWLAN_BSS_ENTRY structure pointer [NativeWIFI], Privacy, WLAN_BSS_ENTRY, WLAN_BSS_ENTRY structure [NativeWIFI], dot11_BSS_type_independent, dot11_BSS_type_infrastructure, nwifi.wlan_bss_entry, wlanapi/PWLAN_BSS_ENTRY, wlanapi/WLAN_BSS_ENTRY'
 ms.topic: struct
-f1_keywords: 
- - "wlanapi/WLAN_BSS_ENTRY"
+f1_keywords:
+- wlanapi/WLAN_BSS_ENTRY
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - WLAN_BSS_ENTRY
+- WLAN_BSS_ENTRY
 product: Windows
 targetos: Windows
 req.typenames: WLAN_BSS_ENTRY, *PWLAN_BSS_ENTRY
@@ -262,7 +262,7 @@ The channel center frequency of the band on which the 802.11 Beacon or Probe Res
 
 ### -field wlanRateSet
 
-A set of data transfer rates supported by the BSS. The data type for this member is a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_rate_set">WLAN_RATE_SET</a> structure.
+A set of data transfer rates supported by the BSS. The data type for this member is a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_rate_set">WLAN_RATE_SET</a> structure.
 
 
 ### -field ulIeOffset
@@ -287,7 +287,7 @@ This is the exact length of the data in the buffer pointed to by <b>ulIeOffset</
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetnetworkbsslist">WlanGetNetworkBssList</a> function retrieves the BSS list of the wireless network or networks on a given interface and returns this information in a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_list">WLAN_BSS_LIST</a> structure that contains an array of .<b>WLAN_BSS_ENTRY</b> structures.  
+The <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetnetworkbsslist">WlanGetNetworkBssList</a> function retrieves the BSS list of the wireless network or networks on a given interface and returns this information in a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a> structure that contains an array of .<b>WLAN_BSS_ENTRY</b> structures.  
 
  
 
@@ -305,15 +305,15 @@ Since the information is returned by the access point for an infrastructure BSS 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_available_network">WLAN_AVAILABLE_NETWORK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network">WLAN_AVAILABLE_NETWORK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_list">WLAN_BSS_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a>
 
 
 

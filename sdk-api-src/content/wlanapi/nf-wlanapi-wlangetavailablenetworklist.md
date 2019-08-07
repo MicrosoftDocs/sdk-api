@@ -118,9 +118,9 @@ Reserved for future use.  This parameter must be set to <b>NULL</b>.
 
 ### -param ppAvailableNetworkList [out]
 
-A pointer to storage for a pointer to receive the returned list of visible networks in a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a> structure.
+A pointer to storage for a pointer to receive the returned list of visible networks in a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a> structure.
 
-The buffer for the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a> returned is allocated by the <b>WlanGetAvailableNetworkList</b> function if the call succeeds.
+The buffer for the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a> returned is allocated by the <b>WlanGetAvailableNetworkList</b> function if the call succeeds.
 
 
 ## -returns
@@ -211,7 +211,7 @@ There is a hotfix available for  Wireless LAN API for Windows XP with SP2 that 
 
 #### Examples
 
-The following example enumerates the wireless LAN interfaces on the local computer, retrieves the list of available networks on each wireless LAN interface, and prints values from the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a> that contains the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_available_network">WLAN_AVAILABLE_NETWORK</a> entries.
+The following example enumerates the wireless LAN interfaces on the local computer, retrieves the list of available networks on each wireless LAN interface, and prints values from the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a> that contains the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network">WLAN_AVAILABLE_NETWORK</a> entries.
 
 <div class="alert"><b>Note</b>  This example will fail to load on Windows Server 2008 and Windows Server 2008 R2 if the Wireless LAN Service is not installed and started.</div>
 <div> </div>
@@ -489,11 +489,11 @@ int wmain()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_available_network">WLAN_AVAILABLE_NETWORK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network">WLAN_AVAILABLE_NETWORK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a>
 
 
 
@@ -501,7 +501,7 @@ int wmain()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_list">WLAN_BSS_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a>
 
 
 

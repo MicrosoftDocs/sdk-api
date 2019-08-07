@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SspiEncodeAuthIdentityAsStrings, SspiEncodeAuthIdentityAsStrings function [Security], SspiEncodeAuthIdentityAsStringsA, SspiEncodeAuthIdentityAsStringsW, security.sspiencodeauthidentityasstrings, sspi/SspiEncodeAuthIdentityAsStrings, sspi/SspiEncodeAuthIdentityAsStringsA, sspi/SspiEncodeAuthIdentityAsStringsW
 ms.topic: function
-f1_keywords: 
- - "sspi/SspiEncodeAuthIdentityAsStrings"
+f1_keywords:
+- sspi/SspiEncodeAuthIdentityAsStrings
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - SspiCli.dll
+- SspiCli.dll
 api_name:
- - SspiEncodeAuthIdentityAsStrings
- - SspiEncodeAuthIdentityAsStringsA
- - SspiEncodeAuthIdentityAsStringsW
+- SspiEncodeAuthIdentityAsStrings
+- SspiEncodeAuthIdentityAsStringsA
+- SspiEncodeAuthIdentityAsStringsW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,7 +82,7 @@ When you have finished using this string, free it by calling the <a href="https:
 
 ### -param ppszPackedCredentialsString [out]
 
-An encoded string version of a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure that specifies the users credentials.
+An encoded string version of a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure that specifies the users credentials.
 
 When you have finished using this string, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspifreeauthidentity">SspiFreeAuthIdentity</a> function.
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetStacks method, ISearchFolderItemFactory.SetStacks, ISearchFolderItemFactory::SetStacks, SetStacks, SetStacks method [Windows Shell], SetStacks method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetStacks, shell.ISearchFolderItemFactory_SetStacks, shobjidl_core/ISearchFolderItemFactory::SetStacks
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ISearchFolderItemFactory.SetStacks"
+f1_keywords:
+- shobjidl_core/ISearchFolderItemFactory.SetStacks
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ISearchFolderItemFactory.SetStacks
+- ISearchFolderItemFactory.SetStacks
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,9 +68,9 @@ The number of stacks keys.
 
 ### -param rgStackKeys [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structures containing stack key information.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structures containing stack key information.
 
 
 ## -returns

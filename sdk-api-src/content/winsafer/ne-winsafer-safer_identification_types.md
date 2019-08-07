@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SAFER_IDENTIFICATION_TYPES</b> enumeration type defines the possible types of identification rule structures that can be identified by the  <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-_safer_identification_header">SAFER_IDENTIFICATION_HEADER</a> structure.
+The <b>SAFER_IDENTIFICATION_TYPES</b> enumeration type defines the possible types of identification rule structures that can be identified by the  <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_identification_header">SAFER_IDENTIFICATION_HEADER</a> structure.
 
 
 ## -enum-fields
@@ -76,7 +76,7 @@ The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/wins
 
 ### -field SaferIdentityTypeUrlZone
 
-The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-_safer_urlzone_identification">SAFER_URLZONE_IDENTIFICATION</a> structure.
+The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_urlzone_identification">SAFER_URLZONE_IDENTIFICATION</a> structure.
 
 
 ### -field SaferIdentityTypeCertificate
@@ -88,7 +88,7 @@ The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/wins
 
 
 
-The <b>SAFER_IDENTIFICATION_TYPES</b> enumeration type is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-_safer_identification_header">SAFER_IDENTIFICATION_HEADER</a> structure.
+The <b>SAFER_IDENTIFICATION_TYPES</b> enumeration type is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_identification_header">SAFER_IDENTIFICATION_HEADER</a> structure.
 
 
 

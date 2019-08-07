@@ -55,7 +55,7 @@ The <b>CMSG_SIGNER_ENCODE_INFO</b> structure contains signer information. It is 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersign">CryptMsgCountersign</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersignencoded">CryptMsgCountersignEncoded</a>, and optionally to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> as a member of 
-the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signed_encode_info">CMSG_SIGNED_ENCODE_INFO</a> structure, if the <i>dwMsgType</i> parameter is CMSG_SIGNED.
+the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signed_encode_info">CMSG_SIGNED_ENCODE_INFO</a> structure, if the <i>dwMsgType</i> parameter is CMSG_SIGNED.
 
 
 ## -struct-fields

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RM_SENDER_STATS, RM_SENDER_STATS structure [Winsock], winsock.rm_sender_stats, wsrm/RM_SENDER_STATS
 ms.topic: struct
-f1_keywords: 
- - "wsrm/RM_SENDER_STATS"
+f1_keywords:
+- wsrm/RM_SENDER_STATS
 req.header: wsrm.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsrm.h
+- Wsrm.h
 api_name:
- - RM_SENDER_STATS
+- RM_SENDER_STATS
 product: Windows
 targetos: Windows
 req.typenames: RM_SENDER_STATS
@@ -155,7 +155,7 @@ Total original data (ODATA) packets sent.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsrm/ns-wsrm-_rm_receiver_stats">RM_RECEIVER_STATS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsrm/ns-wsrm-rm_receiver_stats">RM_RECEIVER_STATS</a>
 
 
 

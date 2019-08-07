@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DnsValidateName, DnsValidateName function [DNS], DnsValidateName_A, DnsValidateName_UTF8, DnsValidateName_W, _dns_dnsvalidatename, dns.dnsvalidatename, windns/DnsValidateName, windns/DnsValidateName_A, windns/DnsValidateName_UTF8, windns/DnsValidateName_W
 ms.topic: function
-f1_keywords: 
- - "windns/DnsValidateName"
+f1_keywords:
+- windns/DnsValidateName
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dnsapi.dll
+- Dnsapi.dll
 api_name:
- - DnsValidateName
- - DnsValidateName_A
- - DnsValidateName_W
- - DnsValidateName_UTF8
+- DnsValidateName
+- DnsValidateName_A
+- DnsValidateName_W
+- DnsValidateName_UTF8
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -84,7 +84,7 @@ A pointer to a string that represents the DNS name to be examined.
 
 #### - Format [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-_dns_name_format">DNS_NAME_FORMAT</a> value that specifies the format of the name to be examined.
+A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-dns_name_format">DNS_NAME_FORMAT</a> value that specifies the format of the name to be examined.
 
 
 ## -returns
@@ -159,7 +159,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-_dns_name_format">DNS_NAME_FORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-dns_name_format">DNS_NAME_FORMAT</a>
 
 
 

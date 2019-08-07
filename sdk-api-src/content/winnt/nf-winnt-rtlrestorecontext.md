@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlRestoreContext, RtlRestoreContext function, base.rtlrestorecontext, winnt/RtlRestoreContext
 ms.topic: function
-f1_keywords: 
- - "winnt/RtlRestoreContext"
+f1_keywords:
+- winnt/RtlRestoreContext
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-rtlsupport-l1-1-0.dll
- - ntdll.dll
- - API-MS-Win-Core-rtlsupport-l1-2-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-rtlsupport-l1-1-0.dll
+- ntdll.dll
+- API-MS-Win-Core-rtlsupport-l1-2-0.dll
 api_name:
- - RtlRestoreContext
+- RtlRestoreContext
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,12 +65,12 @@ Restores the context of the caller to the specified context record.
 
 ### -param ContextRecord [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure.
 
 
 ### -param ExceptionRecord [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_record">EXCEPTION_RECORD</a> structure. This parameter is optional and should typically be <b>NULL</b>. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a> structure. This parameter is optional and should typically be <b>NULL</b>. 
 
 An exception record is used primarily with long jump and C++ catch-throw support. If the <b>ExceptionCode</b> member is STATUS_LONGJUMP, the <b>ExceptionInformation</b> member contains a pointer to a jump buffer. <b>RtlRestoreContext</b> will copy the non-volatile state from the jump buffer in to the context record before the context record is restored.
 
@@ -91,7 +91,7 @@ This function does not return a value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
 
 

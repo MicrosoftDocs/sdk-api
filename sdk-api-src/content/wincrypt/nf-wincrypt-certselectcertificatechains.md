@@ -199,7 +199,7 @@ The handle to a store from which to select the certificates.
 
 ### -param pprgpSelection [out]
 
-A pointer to a pointer to a location to receive an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a> structure. The <b>CertSelectCertificateChains</b> function only returns certificate chains that match all the selection criteria. The entries in the array are ordered by quality, i.e. the chain with the highest quality is the first entry. 
+A pointer to a pointer to a location to receive an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a> structure. The <b>CertSelectCertificateChains</b> function only returns certificate chains that match all the selection criteria. The entries in the array are ordered by quality, i.e. the chain with the highest quality is the first entry. 
 
 Storage for the array is allocated by the <b>CertSelectCertificateChains</b> function. To free the allocated memory you must first release each individual chain context in the array by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechain">CertFreeCertificateChain</a> function. Then you must  free the memory by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechainlist">CertFreeCertificateChainList</a> function. 
 
@@ -242,13 +242,13 @@ Certain selection criteria require that a certificate chain be built before you 
 <li><b>CERT_SELECT_BY_POLICY_OID</b></li>
 </ul>
 Perform the following actions to enable strong signature checking:<ul>
-<li>Create a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure, specify the required strong signing parameters, and set a pointer to the structure in the <b>pStrongSignPara</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_para">CERT_CHAIN_PARA</a> structure.</li>
+<li>Create a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure, specify the required strong signing parameters, and set a pointer to the structure in the <b>pStrongSignPara</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_para">CERT_CHAIN_PARA</a> structure.</li>
 <li>Set a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_para">CERT_CHAIN_PARA</a> structure in the <b>pChainPara</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_select_chain_para">CERT_SELECT_CHAIN_PARA</a> structure.</li>
 <li>Set  a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_select_chain_para">CERT_SELECT_CHAIN_PARA</a> structure in the <i>pChainParameters</i> parameter of this (<b>CertSelectCertificateChains</b>)function.</li>
 </ul>
 
 
-When you enable strong signature checking, any certificate chain that returns a <b>CERT_TRUST_IS_NOT_SIGNATURE_VALID</b> error in the <b>dwErrorStatus</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_trust_status">CERT_TRUST_STATUS</a> structure will be skipped. (The <i>pprgpSelection</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a> structure which, in turn, points to the  <b>CERT_TRUST_STATUS</b> structure.) The <b>CERT_TRUST_HAS_WEAK_SIGNATURE</b> value is also set for a weak signature.
+When you enable strong signature checking, any certificate chain that returns a <b>CERT_TRUST_IS_NOT_SIGNATURE_VALID</b> error in the <b>dwErrorStatus</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a> structure will be skipped. (The <i>pprgpSelection</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a> structure which, in turn, points to the  <b>CERT_TRUST_STATUS</b> structure.) The <b>CERT_TRUST_HAS_WEAK_SIGNATURE</b> value is also set for a weak signature.
 
 
 

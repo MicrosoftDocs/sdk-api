@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_WEB_SOCKET_STATUS, WINHTTP_WEB_SOCKET_STATUS structure [HTTP], http.winhttp_web_socket_status, winhttp/WINHTTP_WEB_SOCKET_STATUS
 ms.topic: struct
-f1_keywords: 
- - "winhttp/WINHTTP_WEB_SOCKET_STATUS"
+f1_keywords:
+- winhttp/WINHTTP_WEB_SOCKET_STATUS
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winhttp.h
+- winhttp.h
 api_name:
- - WINHTTP_WEB_SOCKET_STATUS
+- WINHTTP_WEB_SOCKET_STATUS
 product: Windows
 targetos: Windows
 req.typenames: WINHTTP_WEB_SOCKET_STATUS
@@ -68,7 +68,7 @@ The amount of bytes transferred in the operation.
 
 ### -field eBufferType
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-_winhttp_web_socket_buffer_type">WINHTTP_WEB_SOCKET_BUFFER_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-winhttp_web_socket_buffer_type">WINHTTP_WEB_SOCKET_BUFFER_TYPE</a></b>
 
 The type of data in the buffer.
 
@@ -97,7 +97,7 @@ A <b>WINHTTP_WEB_SOCKET_STATUS</b> structure is passed to the completion callbac
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-_winhttp_web_socket_buffer_type">WINHTTP_WEB_SOCKET_BUFFER_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-winhttp_web_socket_buffer_type">WINHTTP_WEB_SOCKET_BUFFER_TYPE</a>
 
 
 

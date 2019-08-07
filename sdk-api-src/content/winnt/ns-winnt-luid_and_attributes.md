@@ -61,7 +61,7 @@ The <b>LUID_AND_ATTRIBUTES</b> structure represents a <a href="https://docs.micr
 
 ### -field Luid
 
-Specifies an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> value.
+Specifies an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> value.
 
 
 ### -field Attributes
@@ -87,7 +87,7 @@ An <b>LUID_AND_ATTRIBUTES</b> structure can represent an LUID whose attributes c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a>
 
 
 

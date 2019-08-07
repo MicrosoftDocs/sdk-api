@@ -120,7 +120,7 @@ A pointer to the buffer that receives the property information.
 <tr>
 <td>HttpServerStateProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_enabled_state">HTTP_ENABLED_STATE</a> (enumeration member)</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_enabled_state">HTTP_ENABLED_STATE</a> (enumeration member)</td>
 </tr>
 <tr>
 <td>HttpServerQueueLengthProperty</td>

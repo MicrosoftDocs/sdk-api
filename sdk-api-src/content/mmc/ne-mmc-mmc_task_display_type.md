@@ -60,7 +60,7 @@ The
 
 For that which displays the task image, the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_task_display_object">MMC_TASK_DISPLAY_OBJECT</a> structure is the <b>sDisplayObject</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task">MMC_TASK</a> structure, which is filled in by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_task">MMC_TASK</a> structure, which is filled in by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ienumtask-next">IEnumTASK::Next</a> method.
 
 For that which displays the background image, the 
@@ -81,7 +81,7 @@ No images specified.
 ### -field MMC_TASK_DISPLAY_TYPE_SYMBOL
 
 The image displayed for the task or background is the symbol specified by an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_symbol">MMC_TASK_DISPLAY_SYMBOL</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_task_display_symbol">MMC_TASK_DISPLAY_SYMBOL</a> structure.
 
 
 ### -field MMC_TASK_DISPLAY_TYPE_VANILLA_GIF
@@ -89,7 +89,7 @@ The image displayed for the task or background is the symbol specified by an
 The image displayed for the task or background is a transparent GIF image.
 
 The GIF image is specified by an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_bitmap">MMC_TASK_DISPLAY_BITMAP</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_task_display_bitmap">MMC_TASK_DISPLAY_BITMAP</a> structure.
 
 <div class="alert"><b>Note</b>  There is no difference between <b>MMC_TASK_DISPLAY_TYPE_VANILLA_GIF</b> and <b>MMC_TASK_DISPLAY_TYPE_CHOCOLATE_GIF</b>.</div>
 <div> </div>
@@ -99,7 +99,7 @@ The GIF image is specified by an
 The image displayed for the task or background is a transparent GIF image.
 
 The GIF image is specified by an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_bitmap">MMC_TASK_DISPLAY_BITMAP</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_task_display_bitmap">MMC_TASK_DISPLAY_BITMAP</a> structure.
 
 <div class="alert"><b>Note</b>  There is no difference between <b>MMC_TASK_DISPLAY_TYPE_VANILLA_GIF</b> and <b>MMC_TASK_DISPLAY_TYPE_CHOCOLATE_GIF</b>.</div>
 <div> </div>
@@ -109,5 +109,5 @@ The GIF image is specified by an
 The image displayed for the task or background is a nontransparent bitmap image.
 
 The bitmap image is specified by an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_bitmap">MMC_TASK_DISPLAY_BITMAP</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_task_display_bitmap">MMC_TASK_DISPLAY_BITMAP</a> structure.
 

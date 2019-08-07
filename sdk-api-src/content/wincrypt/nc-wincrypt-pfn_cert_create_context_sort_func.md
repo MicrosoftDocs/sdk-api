@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_CERT_CREATE_CONTEXT_SORT_FUNC, PFN_CERT_CREATE_CONTEXT_SORT_FUNC callback, PFN_CERT_CREATE_CONTEXT_SORT_FUNC callback function [Security], security.pfn_cert_create_context_sort_func, wincrypt/PFN_CERT_CREATE_CONTEXT_SORT_FUNC
 ms.topic: callback
-f1_keywords: 
- - "wincrypt/PFN_CERT_CREATE_CONTEXT_SORT_FUNC"
+f1_keywords:
+- wincrypt/PFN_CERT_CREATE_CONTEXT_SORT_FUNC
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - PFN_CERT_CREATE_CONTEXT_SORT_FUNC
+- PFN_CERT_CREATE_CONTEXT_SORT_FUNC
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PFN_CERT_CREATE_CONTEXT_SORT_FUNC</b> callback function is called for each sorted context entry when a context is created. This function pointer is passed in the <b>pfnSort</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_create_context_para">CERT_CREATE_CONTEXT_PARA</a> structure.
+The <b>PFN_CERT_CREATE_CONTEXT_SORT_FUNC</b> callback function is called for each sorted context entry when a context is created. This function pointer is passed in the <b>pfnSort</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_create_context_para">CERT_CREATE_CONTEXT_PARA</a> structure.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The current number of sorted entries.
 
 ### -param *pvSort [in, out]
 
-An application-defined value that is passed in the <b>pvSort</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_create_context_para">CERT_CREATE_CONTEXT_PARA</a> structure.
+An application-defined value that is passed in the <b>pvSort</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_create_context_para">CERT_CREATE_CONTEXT_PARA</a> structure.
 
 
 ## -returns
@@ -93,7 +93,7 @@ Return <b>TRUE</b> to continue the sort or <b>FALSE</b> to stop the sort. If <b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_create_context_para">CERT_CREATE_CONTEXT_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_create_context_para">CERT_CREATE_CONTEXT_PARA</a>
 
 
 

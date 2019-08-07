@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,SetMetadata method, IWSDDeviceHost.SetMetadata, IWSDDeviceHost::SetMetadata, SetMetadata, SetMetadata method, SetMetadata method,IWSDDeviceHost interface, ncd.iwsddevicehost_setmetadata_method, wsdhost/IWSDDeviceHost::SetMetadata
 ms.topic: method
-f1_keywords: 
- - "wsdhost/IWSDDeviceHost.SetMetadata"
+f1_keywords:
+- wsdhost/IWSDDeviceHost.SetMetadata
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDDeviceHost.SetMetadata
+- IWSDDeviceHost.SetMetadata
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,23 +61,23 @@ Sets the metadata for a device, excluding user-defined service metadata.
 
 ### -param pThisModelMetadata [in]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_this_model_metadata">WSD_THIS_MODEL_METADATA</a> structure which specifies metadata that is common to all instances of the model of this device. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_this_model_metadata">WSD_THIS_MODEL_METADATA</a> structure which specifies metadata that is common to all instances of the model of this device. 
 The <b>Manufacturer</b>, <b>ModelNames</b>, and <b>ModelNumber</b> members of the structure must contain non-<b>NULL</b>, non-blank entries.
 
 
 ### -param pThisDeviceMetadata [in]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_this_device_metadata">WSD_THIS_DEVICE_METADATA</a> structure which specifies metadata unique to this device. The <b>FriendlyName</b>, <b>FirmwareVersion</b>, and <b>SerialNumber</b> members of this structure must contain non-<b>NULL</b>, non-blank entries.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_this_device_metadata">WSD_THIS_DEVICE_METADATA</a> structure which specifies metadata unique to this device. The <b>FriendlyName</b>, <b>FirmwareVersion</b>, and <b>SerialNumber</b> members of this structure must contain non-<b>NULL</b>, non-blank entries.
 
 
 ### -param pHostMetadata [in, optional]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_host_metadata">WSD_HOST_METADATA</a> structure that specifies service host metadata, which the specific data and characteristics of the device (for example, a printer supports color or has a stapler.).
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_host_metadata">WSD_HOST_METADATA</a> structure that specifies service host metadata, which the specific data and characteristics of the device (for example, a printer supports color or has a stapler.).
 
 
 ### -param pCustomMetadata [in, optional]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_metadata_section_list">WSD_METADATA_SECTION_LIST</a> structure which specifies additional custom metadata associated with this device. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_metadata_section_list">WSD_METADATA_SECTION_LIST</a> structure which specifies additional custom metadata associated with this device. 
 
 
 ## -returns

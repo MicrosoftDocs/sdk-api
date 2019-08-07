@@ -68,7 +68,7 @@ A pointer to an
 ### -field ContextRecord
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure that contains a processor-specific description of the state of the processor at the time of the exception.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that contains a processor-specific description of the state of the processor at the time of the exception.
 
 
 ## -see-also
@@ -76,7 +76,7 @@ A pointer to a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
 
 

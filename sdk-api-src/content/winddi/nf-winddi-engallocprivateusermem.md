@@ -92,7 +92,7 @@ A problem arises if the driver instance is destroyed before the surface is unloc
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_global">DD_SURFACE_GLOBAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_global">DD_SURFACE_GLOBAL</a>
 
 
 

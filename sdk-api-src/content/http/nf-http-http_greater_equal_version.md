@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HTTP_GREATER_EQUAL_VERSION, HTTP_GREATER_EQUAL_VERSION macro [HTTP], _http_http_greater_equal_version, http.http_greater_equal_version, http/HTTP_GREATER_EQUAL_VERSION
 ms.topic: macro
-f1_keywords: 
- - "http/HTTP_GREATER_EQUAL_VERSION"
+f1_keywords:
+- http/HTTP_GREATER_EQUAL_VERSION
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_GREATER_EQUAL_VERSION
+- HTTP_GREATER_EQUAL_VERSION
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>HTTP_GREATER_EQUAL_VERSION</b> macro returns a non-zero value if an 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_version">HTTP_VERSION</a> structure is greater than or equal to a specified major/minor version combination, or zero otherwise.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure is greater than or equal to a specified major/minor version combination, or zero otherwise.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The
 ### -param version
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_version">HTTP_VERSION</a> structure to be examined.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure to be examined.
 
 
 ### -param major

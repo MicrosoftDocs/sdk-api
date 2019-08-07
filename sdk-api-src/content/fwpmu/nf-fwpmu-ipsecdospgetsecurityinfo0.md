@@ -103,7 +103,7 @@ The system access control list (SACL) in the returned security descriptor.
 
 ### -param securityDescriptor [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">PSECURITY_DESCRIPTOR</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">PSECURITY_DESCRIPTOR</a>*</b>
 
 The returned security descriptor.
 

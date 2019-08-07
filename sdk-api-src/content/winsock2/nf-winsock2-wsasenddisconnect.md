@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSASendDisconnect, WSASendDisconnect function [Winsock], _win32_wsasenddisconnect_2, winsock.wsasenddisconnect_2, winsock2/WSASendDisconnect
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSASendDisconnect"
+f1_keywords:
+- winsock2/WSASendDisconnect
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSASendDisconnect
+- WSASendDisconnect
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -181,7 +181,7 @@ The <i>lpOutboundDisconnectData</i> parameter, if not <b>NULL</b>, points to a b
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecvdisconnect">WSARecvDisconnect</a>.
 
 <div class="alert"><b>Note</b>  The native implementation of TCP/IP on Windows does not support disconnect data. Disconnect data is only supported with Windows Sockets providers that have the XP1_DISCONNECT_DATA flag in their 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. Use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. Use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> function to obtain 
 <b>WSAPROTOCOL_INFO</b> structures for all installed providers.</div>
 <div> </div>

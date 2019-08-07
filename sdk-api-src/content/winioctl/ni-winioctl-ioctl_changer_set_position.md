@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_SET_POSITION, IOCTL_CHANGER_SET_POSITION control, IOCTL_CHANGER_SET_POSITION control code, _win32_ioctl_changer_set_position, base.ioctl_changer_set_position, winioctl/IOCTL_CHANGER_SET_POSITION
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_CHANGER_SET_POSITION"
+f1_keywords:
+- winioctl/IOCTL_CHANGER_SET_POSITION
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_CHANGER_SET_POSITION
+- IOCTL_CHANGER_SET_POSITION
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -148,7 +148,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_set_position">CHANGER_SET_POSITION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_set_position">CHANGER_SET_POSITION</a>
 
 
 

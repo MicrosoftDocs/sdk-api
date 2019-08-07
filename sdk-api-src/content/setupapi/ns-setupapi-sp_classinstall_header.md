@@ -109,7 +109,7 @@ However, a component does not have to set this field when passing class install 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_powermessagewake_params_a">SP_POWERMESSAGEWAKE_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_powermessagewake_params_a">SP_POWERMESSAGEWAKE_PARAMS</a>
 
 
 
@@ -125,7 +125,7 @@ However, a component does not have to set this field when passing class install 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_troubleshooter_params_a">SP_TROUBLESHOOTER_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_troubleshooter_params_a">SP_TROUBLESHOOTER_PARAMS</a>
 
 
 

@@ -103,7 +103,7 @@ Seed structure holding the seed and counter values used to generate the primes Q
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_publickeystruc">BLOBHEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">BLOBHEADER</a>
 
 
 

@@ -104,7 +104,7 @@ Argument to pass to the callback function. Typically, this gets and verifies the
 
 ### -field pStrongSignPara
 
-Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure that contains parameters used for strong signing. If you set this member and the function successfully verifies the signature, the function will then check for a strong signature. If the signature is not strong, the operation will fail and set the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> value to <b>NTE_BAD_ALGID</b>.
+Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure that contains parameters used for strong signing. If you set this member and the function successfully verifies the signature, the function will then check for a strong signature. If the signature is not strong, the operation will fail and set the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> value to <b>NTE_BAD_ALGID</b>.
 
 <div class="alert"><b>Note</b>  You can use the <b>pStrongSignPara</b> member  only if <b>CRYPT_VERIFY_MESSAGE_PARA_HAS_EXTRA_FIELDS</b> is defined by using the <b>#define</b> directive before including Wincrypt.h. If <b>CRYPT_VERIFY_MESSAGE_PARA_HAS_EXTRA_FIELDS</b> is defined, you must zero all unused fields.</div>
 <div> </div>

@@ -656,7 +656,7 @@ The following high-word flags override this default behavior.
 </td>
 <td width="60%">
 When set, <i>pvPara</i> must contain a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a> structure rather than a string. The structure indicates both the name of the store and its location in the registry.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a> structure rather than a string. The structure indicates both the name of the store and its location in the registry.
 
 </td>
 </tr>

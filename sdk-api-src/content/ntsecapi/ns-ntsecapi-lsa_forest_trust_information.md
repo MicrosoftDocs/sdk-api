@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 9e456462-59a9-4f18-ba47-92fc2350889b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PLSA_FOREST_TRUST_INFORMATION, LSA_FOREST_TRUST_INFORMATION, LSA_FOREST_TRUST_INFORMATION structure [Security], PLSA_FOREST_TRUST_INFORMATION, PLSA_FOREST_TRUST_INFORMATION structure pointer [Security], _LSA_FOREST_TRUST_INFORMATION, ntsecapi/LSA_FOREST_TRUST_INFORMATION, ntsecapi/PLSA_FOREST_TRUST_INFORMATION, security.lsa_forest_trust_information"
+ms.keywords: '*PLSA_FOREST_TRUST_INFORMATION, LSA_FOREST_TRUST_INFORMATION, LSA_FOREST_TRUST_INFORMATION structure [Security], PLSA_FOREST_TRUST_INFORMATION, PLSA_FOREST_TRUST_INFORMATION structure pointer [Security], _LSA_FOREST_TRUST_INFORMATION, ntsecapi/LSA_FOREST_TRUST_INFORMATION, ntsecapi/PLSA_FOREST_TRUST_INFORMATION, security.lsa_forest_trust_information'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/LSA_FOREST_TRUST_INFORMATION"
+f1_keywords:
+- ntsecapi/LSA_FOREST_TRUST_INFORMATION
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - LSA_FOREST_TRUST_INFORMATION
+- LSA_FOREST_TRUST_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: LSA_FOREST_TRUST_INFORMATION, *PLSA_FOREST_TRUST_INFORMATION
@@ -86,10 +86,10 @@ The <b>LSA_FOREST_TRUST_INFORMATION</b> structure contains <a href="https://docs
 
 ### -field RecordCount
 
-Number of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_forest_trust_record">LSA_FOREST_TRUST_RECORD</a> structures in the array pointed to by the <b>Entries</b> member.
+Number of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_record">LSA_FOREST_TRUST_RECORD</a> structures in the array pointed to by the <b>Entries</b> member.
 
 
 ### -field Entries
 
-Pointer to a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_forest_trust_record">LSA_FOREST_TRUST_RECORD</a> structures, each of which contains one piece of forest trust information.
+Pointer to a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_record">LSA_FOREST_TRUST_RECORD</a> structures, each of which contains one piece of forest trust information.
 

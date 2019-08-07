@@ -176,7 +176,7 @@ The <b>CERT_STRONG_SIGN_PARA</b> structure is directly referenced by the followi
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgverifycountersignatureencodedex">CryptMsgVerifyCountersignatureEncodedEx</a>
 </li>
 </ul>
-The <b>CERT_STRONG_SIGN_PARA</b> structure is also directly referenced by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_verify_message_para">CRYPT_VERIFY_MESSAGE_PARA</a> structure and is therefore available for use by the following functions:
+The <b>CERT_STRONG_SIGN_PARA</b> structure is also directly referenced by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_verify_message_para">CRYPT_VERIFY_MESSAGE_PARA</a> structure and is therefore available for use by the following functions:
 
 <ul>
 <li>

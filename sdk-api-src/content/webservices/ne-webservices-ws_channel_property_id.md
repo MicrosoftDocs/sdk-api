@@ -549,14 +549,14 @@ The default property value is 1.
 
 ### -field WS_CHANNEL_PROPERTY_REMOTE_ADDRESS
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> structure
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> structure
                     used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> 
                     for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a> with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_DUPLEX</a> 
                     to retrieve the endpoint address of the remote party for the channel.
                 
 
 The fields of the returned 
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> structure are valid and constant until the channel 
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> structure are valid and constant until the channel 
                     is reset or freed.  The caller should not modify the values the returned
                     fields of the <b>WS_ENDPOINT_ADDRESS</b> point to.
                 

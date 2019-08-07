@@ -90,7 +90,7 @@ A pointer to a structure that depends on the encryption algorithm. The following
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_rc2_aux_info">CMSG_RC2_AUX_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_rc2_aux_info">CMSG_RC2_AUX_INFO</a>
 
 
 </td>
@@ -102,7 +102,7 @@ A pointer to a structure that depends on the encryption algorithm. The following
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_rc4_aux_info">CMSG_RC4_AUX_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_rc4_aux_info">CMSG_RC4_AUX_INFO</a>
 
 
 </td>

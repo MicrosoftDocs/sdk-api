@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: POLICYPROPERTIES, POLICYPROPERTIES enumeration [Network Policy Server], PROPERTY_POLICY_ACTION, PROPERTY_POLICY_CONDITIONS_COLLECTION, PROPERTY_POLICY_CONSTRAINT, PROPERTY_POLICY_ENABLED, PROPERTY_POLICY_MERIT, PROPERTY_POLICY_PROFILE_NAME, PROPERTY_POLICY_SOURCETAG, PROPERTY_POLICY_UNUSED0, PROPERTY_POLICY_UNUSED1, _sdo_policyproperties, nps.SDO_policyproperties, sdo.policyproperties, sdoias/POLICYPROPERTIES, sdoias/PROPERTY_POLICY_ACTION, sdoias/PROPERTY_POLICY_CONDITIONS_COLLECTION, sdoias/PROPERTY_POLICY_CONSTRAINT, sdoias/PROPERTY_POLICY_ENABLED, sdoias/PROPERTY_POLICY_MERIT, sdoias/PROPERTY_POLICY_PROFILE_NAME, sdoias/PROPERTY_POLICY_SOURCETAG, sdoias/PROPERTY_POLICY_UNUSED0, sdoias/PROPERTY_POLICY_UNUSED1
 ms.topic: enum
-f1_keywords: 
- - "sdoias/POLICYPROPERTIES"
+f1_keywords:
+- sdoias/POLICYPROPERTIES
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - POLICYPROPERTIES
+- POLICYPROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: POLICYPROPERTIES
@@ -135,7 +135,7 @@ To create a new policy, you must specify a unique name for the policy, a profile
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_conditionproperties">CONDITIONPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-conditionproperties">CONDITIONPROPERTIES</a>
  
 
  

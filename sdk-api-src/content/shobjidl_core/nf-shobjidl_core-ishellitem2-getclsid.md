@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCLSID, GetCLSID method [Windows Shell], GetCLSID method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetCLSID method, IShellItem2.GetCLSID, IShellItem2::GetCLSID, _shell_IShellItem2_GetCLSID, shell.IShellItem2_GetCLSID, shobjidl_core/IShellItem2::GetCLSID
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellItem2.GetCLSID"
+f1_keywords:
+- shobjidl_core/IShellItem2.GetCLSID
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellItem2.GetCLSID
+- IShellItem2.GetCLSID
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Gets the class identifier (CLSID) value of specified property key.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure.
+A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.
 
 
 ### -param pclsid [out]

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_DATA_TEXT, WSMAN_DATA_TEXT structure [Windows Remote Management], winrm.wsman_data_text, wsman/WSMAN_DATA_TEXT
 ms.topic: struct
-f1_keywords: 
- - "wsman/WSMAN_DATA_TEXT"
+f1_keywords:
+- wsman/WSMAN_DATA_TEXT
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_DATA_TEXT
+- WSMAN_DATA_TEXT
 product: Windows
 targetos: Windows
 req.typenames: WSMAN_DATA_TEXT
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_data">WSMAN_DATA</a> structure component that holds textual data for use with various Windows Remote Management functions.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure component that holds textual data for use with various Windows Remote Management functions.
 
 
 ## -struct-fields

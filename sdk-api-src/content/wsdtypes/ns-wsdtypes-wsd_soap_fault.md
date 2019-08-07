@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_SOAP_FAULT, WSD_SOAP_FAULT structure, ncd.wsd_soap_fault_struct, wsdtypes/WSD_SOAP_FAULT
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_SOAP_FAULT"
+f1_keywords:
+- wsdtypes/WSD_SOAP_FAULT
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_SOAP_FAULT
+- WSD_SOAP_FAULT
 product: Windows
 targetos: Windows
 req.typenames: WSD_SOAP_FAULT
@@ -61,12 +61,12 @@ Represents a generated SOAP fault.
 
 ### -field Code
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_fault_code">WSD_SOAP_FAULT_CODE</a> structure that contains a SOAP fault code.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault_code">WSD_SOAP_FAULT_CODE</a> structure that contains a SOAP fault code.
 
 
 ### -field Reason
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_fault_reason">WSD_SOAP_FAULT_REASON</a> structure that contains localized human readable explanations of the fault.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault_reason">WSD_SOAP_FAULT_REASON</a> structure that contains localized human readable explanations of the fault.
 
 
 ### -field Node
@@ -81,7 +81,7 @@ The SOAP role in which the <b>Node</b> was acting at the time the fault occurred
 
 ### -field Detail
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_element">WSDXML_ELEMENT</a> structure that contains application-specific error information pertaining to the fault.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains application-specific error information pertaining to the fault.
 
 
 ## -see-also

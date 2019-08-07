@@ -61,7 +61,7 @@ Adds (merges) the specified policy-related settings into the larger group of con
 
 ### -param pWRdsSettings [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_settings">WRDS_SETTINGS</a> structure that contains the policy-related settings to add.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_settings">WRDS_SETTINGS</a> structure that contains the policy-related settings to add.
 
 
 ### -param WRdsConnectionSettingLevel [in]

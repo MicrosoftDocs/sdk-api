@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSYM_ENUMERATESYMBOLS_CALLBACK, PSYM_ENUMERATESYMBOLS_CALLBACKW, PSYM_ENUMERATESYMBOLS_CALLBACKW callback function, SymEnumSymbolsProc, SymEnumSymbolsProc callback, SymEnumSymbolsProc callback function, _win32_symenumsymbolsproc, base.symenumsymbolsproc, dbghelp/PSYM_ENUMERATESYMBOLS_CALLBACK, dbghelp/PSYM_ENUMERATESYMBOLS_CALLBACKW, dbghelp/SymEnumSymbolsProc
 ms.topic: callback
-f1_keywords: 
- - "dbghelp/SymEnumSymbolsProc"
+f1_keywords:
+- dbghelp/SymEnumSymbolsProc
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - SymEnumSymbolsProc
- - PSYM_ENUMERATESYMBOLS_CALLBACK
- - PSYM_ENUMERATESYMBOLS_CALLBACKW
+- SymEnumSymbolsProc
+- PSYM_ENUMERATESYMBOLS_CALLBACK
+- PSYM_ENUMERATESYMBOLS_CALLBACKW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ The <b>PSYM_ENUMERATESYMBOLS_CALLBACK</b> and
 
 ### -param pSymInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_symbol_info">SYMBOL_INFO</a> structure that 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-symbol_info">SYMBOL_INFO</a> structure that 
       provides information about the symbol.
 
 
@@ -110,7 +110,7 @@ If the function returns <b>FALSE</b>, the enumeration will stop.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_symbol_info">SYMBOL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-symbol_info">SYMBOL_INFO</a>
 
 
 

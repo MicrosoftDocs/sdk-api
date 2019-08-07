@@ -63,7 +63,7 @@ Represents a stack frame.
 ### -field AddrPC
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies the program counter. 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the program counter. 
 
 
 
@@ -78,13 +78,13 @@ An
 ### -field AddrReturn
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies the return address.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the return address.
 
 
 ### -field AddrFrame
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies the frame pointer. 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the frame pointer. 
 
 
 
@@ -99,7 +99,7 @@ An
 ### -field AddrStack
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies the stack pointer. 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the stack pointer. 
 
 
 
@@ -147,7 +147,7 @@ A
 ### -field AddrBStore
 
 <b>Intel Itanium:  </b>An 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies the backing store (RsBSP).
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the backing store (RsBSP).
 
 
 ## -remarks
@@ -188,7 +188,7 @@ typedef struct _tagSTACKFRAME {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a>
 
 
 
@@ -196,7 +196,7 @@ typedef struct _tagSTACKFRAME {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_function_entry">IMAGE_FUNCTION_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a>
 
 
 

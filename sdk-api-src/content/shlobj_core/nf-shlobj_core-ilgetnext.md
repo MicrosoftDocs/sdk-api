@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the next <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure in an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
+Retrieves the next <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure in an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Retrieves the next <a href="https://docs.microsoft.com/windows/desktop/api/shtyp
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A pointer to a particular <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure in a larger <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
+A pointer to a particular <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure in a larger <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -returns
@@ -74,7 +74,7 @@ A pointer to a particular <a href="https://docs.microsoft.com/windows/desktop/ap
 
 Type: <b>PUIDLIST_RELATIVE</b>
 
-Returns a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure that follows the one specified by <i>pidl</i>. Returns <b>NULL</b> if <i>pidl</i> points to the last <b>SHITEMID</b> structure.
+Returns a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure that follows the one specified by <i>pidl</i>. Returns <b>NULL</b> if <i>pidl</i> points to the last <b>SHITEMID</b> structure.
 
 
 

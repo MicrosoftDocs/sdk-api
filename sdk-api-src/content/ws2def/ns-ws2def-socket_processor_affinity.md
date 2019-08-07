@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: CB1E9F79-C6BD-40C2-8D0F-36B24B1BBBF4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSOCKET_PROCESSOR_AFFINITY, PSOCKET_PROCESSOR_AFFINITY, PSOCKET_PROCESSOR_AFFINITY structure pointer [Winsock], SOCKET_PROCESSOR_AFFINITY, SOCKET_PROCESSOR_AFFINITY structure [Winsock], winsock.socket_processor_affinity, ws2def/PSOCKET_PROCESSOR_AFFINITY, ws2def/SOCKET_PROCESSOR_AFFINITY"
+ms.keywords: '*PSOCKET_PROCESSOR_AFFINITY, PSOCKET_PROCESSOR_AFFINITY, PSOCKET_PROCESSOR_AFFINITY structure pointer [Winsock], SOCKET_PROCESSOR_AFFINITY, SOCKET_PROCESSOR_AFFINITY structure [Winsock], winsock.socket_processor_affinity, ws2def/PSOCKET_PROCESSOR_AFFINITY, ws2def/SOCKET_PROCESSOR_AFFINITY'
 ms.topic: struct
-f1_keywords: 
- - "ws2def/SOCKET_PROCESSOR_AFFINITY"
+f1_keywords:
+- ws2def/SOCKET_PROCESSOR_AFFINITY
 req.header: ws2def.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2def.h
+- Ws2def.h
 api_name:
- - SOCKET_PROCESSOR_AFFINITY
+- SOCKET_PROCESSOR_AFFINITY
 product: Windows
 targetos: Windows
 req.typenames: SOCKET_PROCESSOR_AFFINITY, *PSOCKET_PROCESSOR_AFFINITY
@@ -61,7 +61,7 @@ The <b>SOCKET_PROCESSOR_AFFINITY</b> structure contains the association between 
 
 ### -field Processor
 
-A structure to represent a system wide processor number. This <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_number">PROCESSOR_NUMBER</a> structure contains a
+A structure to represent a system wide processor number. This <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_number">PROCESSOR_NUMBER</a> structure contains a
 group number and relative processor number within the group.
 
 
@@ -92,7 +92,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_number">PROCESSOR_NUMBER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_number">PROCESSOR_NUMBER</a>
 
 
 

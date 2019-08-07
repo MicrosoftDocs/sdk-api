@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 8ad183d2-3fe8-4f52-bfa4-16f2a711f0c3
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PKERB_PROTOCOL_MESSAGE_TYPE, KERB_PROTOCOL_MESSAGE_TYPE, KERB_PROTOCOL_MESSAGE_TYPE enumeration [Security], KerbAddBindingCacheEntryExMessage, KerbAddBindingCacheEntryMessage, KerbAddExtraCredentialsExMessage, KerbAddExtraCredentialsMessage, KerbChangeMachinePasswordMessage, KerbChangePasswordMessage, KerbCleanupMachinePkinitCredsMessage, KerbDebugRequestMessage, KerbDecryptDataMessage, KerbPurgeBindingCacheMessage, KerbPurgeKdcProxyCacheMessage, KerbPurgeTicketCacheExMessage, KerbPurgeTicketCacheMessage, KerbQueryBindingCacheMessage, KerbQueryDomainExtendedPoliciesMessage, KerbQueryKdcProxyCacheMessage, KerbQueryS4U2ProxyCacheMessage, KerbQuerySupplementalCredentialsMessage, KerbQueryTicketCacheEx2Message, KerbQueryTicketCacheEx3Message, KerbQueryTicketCacheExMessage, KerbQueryTicketCacheMessage, KerbRefreshSmartcardCredentialsMessage, KerbRetrieveEncodedTicketMessage, KerbRetrieveTicketMessage, KerbSetPasswordExMessage, KerbSetPasswordMessage, KerbSubmitTicketMessage, KerbTransferCredentialsMessage, KerbUpdateAddressesMessage, KerbVerifyCredentialsMessage, KerbVerifyPacMessage, PKERB_PROTOCOL_MESSAGE_TYPE, PKERB_PROTOCOL_MESSAGE_TYPE enumeration pointer [Security], _lsa_kerb_protocol_message_type, ntsecapi/KERB_PROTOCOL_MESSAGE_TYPE, ntsecapi/KerbAddBindingCacheEntryExMessage, ntsecapi/KerbAddBindingCacheEntryMessage, ntsecapi/KerbAddExtraCredentialsExMessage, ntsecapi/KerbAddExtraCredentialsMessage, ntsecapi/KerbChangeMachinePasswordMessage, ntsecapi/KerbChangePasswordMessage, ntsecapi/KerbCleanupMachinePkinitCredsMessage, ntsecapi/KerbDebugRequestMessage, ntsecapi/KerbDecryptDataMessage, ntsecapi/KerbPurgeBindingCacheMessage, ntsecapi/KerbPurgeKdcProxyCacheMessage, ntsecapi/KerbPurgeTicketCacheExMessage, ntsecapi/KerbPurgeTicketCacheMessage, ntsecapi/KerbQueryBindingCacheMessage, ntsecapi/KerbQueryDomainExtendedPoliciesMessage, ntsecapi/KerbQueryKdcProxyCacheMessage, ntsecapi/KerbQueryS4U2ProxyCacheMessage, ntsecapi/KerbQuerySupplementalCredentialsMessage, ntsecapi/KerbQueryTicketCacheEx2Message, ntsecapi/KerbQueryTicketCacheEx3Message, ntsecapi/KerbQueryTicketCacheExMessage, ntsecapi/KerbQueryTicketCacheMessage, ntsecapi/KerbRefreshSmartcardCredentialsMessage, ntsecapi/KerbRetrieveEncodedTicketMessage, ntsecapi/KerbRetrieveTicketMessage, ntsecapi/KerbSetPasswordExMessage, ntsecapi/KerbSetPasswordMessage, ntsecapi/KerbSubmitTicketMessage, ntsecapi/KerbTransferCredentialsMessage, ntsecapi/KerbUpdateAddressesMessage, ntsecapi/KerbVerifyCredentialsMessage, ntsecapi/KerbVerifyPacMessage, ntsecapi/PKERB_PROTOCOL_MESSAGE_TYPE, security.kerb_protocol_message_type"
+ms.keywords: '*PKERB_PROTOCOL_MESSAGE_TYPE, KERB_PROTOCOL_MESSAGE_TYPE, KERB_PROTOCOL_MESSAGE_TYPE enumeration [Security], KerbAddBindingCacheEntryExMessage, KerbAddBindingCacheEntryMessage, KerbAddExtraCredentialsExMessage, KerbAddExtraCredentialsMessage, KerbChangeMachinePasswordMessage, KerbChangePasswordMessage, KerbCleanupMachinePkinitCredsMessage, KerbDebugRequestMessage, KerbDecryptDataMessage, KerbPurgeBindingCacheMessage, KerbPurgeKdcProxyCacheMessage, KerbPurgeTicketCacheExMessage, KerbPurgeTicketCacheMessage, KerbQueryBindingCacheMessage, KerbQueryDomainExtendedPoliciesMessage, KerbQueryKdcProxyCacheMessage, KerbQueryS4U2ProxyCacheMessage, KerbQuerySupplementalCredentialsMessage, KerbQueryTicketCacheEx2Message, KerbQueryTicketCacheEx3Message, KerbQueryTicketCacheExMessage, KerbQueryTicketCacheMessage, KerbRefreshSmartcardCredentialsMessage, KerbRetrieveEncodedTicketMessage, KerbRetrieveTicketMessage, KerbSetPasswordExMessage, KerbSetPasswordMessage, KerbSubmitTicketMessage, KerbTransferCredentialsMessage, KerbUpdateAddressesMessage, KerbVerifyCredentialsMessage, KerbVerifyPacMessage, PKERB_PROTOCOL_MESSAGE_TYPE, PKERB_PROTOCOL_MESSAGE_TYPE enumeration pointer [Security], _lsa_kerb_protocol_message_type, ntsecapi/KERB_PROTOCOL_MESSAGE_TYPE, ntsecapi/KerbAddBindingCacheEntryExMessage, ntsecapi/KerbAddBindingCacheEntryMessage, ntsecapi/KerbAddExtraCredentialsExMessage, ntsecapi/KerbAddExtraCredentialsMessage, ntsecapi/KerbChangeMachinePasswordMessage, ntsecapi/KerbChangePasswordMessage, ntsecapi/KerbCleanupMachinePkinitCredsMessage, ntsecapi/KerbDebugRequestMessage, ntsecapi/KerbDecryptDataMessage, ntsecapi/KerbPurgeBindingCacheMessage, ntsecapi/KerbPurgeKdcProxyCacheMessage, ntsecapi/KerbPurgeTicketCacheExMessage, ntsecapi/KerbPurgeTicketCacheMessage, ntsecapi/KerbQueryBindingCacheMessage, ntsecapi/KerbQueryDomainExtendedPoliciesMessage, ntsecapi/KerbQueryKdcProxyCacheMessage, ntsecapi/KerbQueryS4U2ProxyCacheMessage, ntsecapi/KerbQuerySupplementalCredentialsMessage, ntsecapi/KerbQueryTicketCacheEx2Message, ntsecapi/KerbQueryTicketCacheEx3Message, ntsecapi/KerbQueryTicketCacheExMessage, ntsecapi/KerbQueryTicketCacheMessage, ntsecapi/KerbRefreshSmartcardCredentialsMessage, ntsecapi/KerbRetrieveEncodedTicketMessage, ntsecapi/KerbRetrieveTicketMessage, ntsecapi/KerbSetPasswordExMessage, ntsecapi/KerbSetPasswordMessage, ntsecapi/KerbSubmitTicketMessage, ntsecapi/KerbTransferCredentialsMessage, ntsecapi/KerbUpdateAddressesMessage, ntsecapi/KerbVerifyCredentialsMessage, ntsecapi/KerbVerifyPacMessage, ntsecapi/PKERB_PROTOCOL_MESSAGE_TYPE, security.kerb_protocol_message_type'
 ms.topic: enum
-f1_keywords: 
- - "ntsecapi/KERB_PROTOCOL_MESSAGE_TYPE"
+f1_keywords:
+- ntsecapi/KERB_PROTOCOL_MESSAGE_TYPE
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - KERB_PROTOCOL_MESSAGE_TYPE
+- KERB_PROTOCOL_MESSAGE_TYPE
 product: Windows
 targetos: Windows
 req.typenames: KERB_PROTOCOL_MESSAGE_TYPE, *PKERB_PROTOCOL_MESSAGE_TYPE
@@ -164,7 +164,7 @@ This constant is reserved.
 
 ### -field KerbTransferCredentialsMessage
 
-The dispatch routine transfers credentials from one <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> to another <b>LUID</b>. The <b>SeTcbPrivilege</b> is required. 
+The dispatch routine transfers credentials from one <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> to another <b>LUID</b>. The <b>SeTcbPrivilege</b> is required. 
 
 
 <b>Windows Server 2003 and Windows XP:  </b>This constant is not supported.

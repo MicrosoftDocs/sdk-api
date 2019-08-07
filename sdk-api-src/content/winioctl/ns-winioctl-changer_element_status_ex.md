@@ -61,13 +61,13 @@ Represents the status of the specified element.
 ### -field Element
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_element">CHANGER_ELEMENT</a> structure that represents the element to which this structure refers.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a> structure that represents the element to which this structure refers.
 
 
 ### -field SrcElementAddress
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_element">CHANGER_ELEMENT</a> structure that represents the element from which the media currently in this element was most recently moved. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a> structure that represents the element from which the media currently in this element was most recently moved. 
 
 
 
@@ -408,7 +408,7 @@ The serial number for the drive.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_element">CHANGER_ELEMENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a>
 
 
 

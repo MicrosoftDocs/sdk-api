@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginGetStatusForMultipleOperations, BeginGetStatusForMultipleOperations method, BeginGetStatusForMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,BeginGetStatusForMultipleOperations method, IWSDServiceProxyEventing.BeginGetStatusForMultipleOperations, IWSDServiceProxyEventing::BeginGetStatusForMultipleOperations, ncd.iwsdserviceproxyeventing_begingetstatusformultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginGetStatusForMultipleOperations
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDServiceProxyEventing.BeginGetStatusForMultipleOperations"
+f1_keywords:
+- wsdclient/IWSDServiceProxyEventing.BeginGetStatusForMultipleOperations
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDServiceProxyEventing.BeginGetStatusForMultipleOperations
+- IWSDServiceProxyEventing.BeginGetStatusForMultipleOperations
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Begins an asynchronous operation that retrieves the current status  for a collec
 
 ### -param pOperations [in]
 
-Pointer to an array of references to <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_operation">WSD_OPERATION</a> structures that specify the operation subscriptions to get status on.
+Pointer to an array of references to <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structures that specify the operation subscriptions to get status on.
 
 
 ### -param dwOperationCount [in]

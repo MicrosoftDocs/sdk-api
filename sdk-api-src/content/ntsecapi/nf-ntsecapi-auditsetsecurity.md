@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuditSetSecurity, AuditSetSecurity function [Security], ntsecapi/AuditSetSecurity, security.auditsetsecurity
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/AuditSetSecurity"
+f1_keywords:
+- ntsecapi/AuditSetSecurity
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-audit-l1-1-1.dll
- - sechost.dll
+- Advapi32.dll
+- API-MS-Win-Security-audit-l1-1-1.dll
+- sechost.dll
 api_name:
- - AuditSetSecurity
+- AuditSetSecurity
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-informat
 
 ### -param pSecurityDescriptor [in]
 
-A pointer to a well-formed <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure that controls access to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Audit security object</a>. If this parameter is <b>NULL</b>, the function fails and returns <b>ERROR_INVALID_PARAMETER</b>.
+A pointer to a well-formed <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that controls access to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Audit security object</a>. If this parameter is <b>NULL</b>, the function fails and returns <b>ERROR_INVALID_PARAMETER</b>.
 
 
 ## -returns

@@ -70,7 +70,7 @@ Pointer to a
 ### -param pRasPort1 [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_port_1">RAS_PORT_1</a> structure that describes the port being used by the link.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_port_1">RAS_PORT_1</a> structure that describes the port being used by the link.
 
 
 ## -returns
@@ -133,7 +133,7 @@ Do not call any of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_port_1">RAS_PORT_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_port_1">RAS_PORT_1</a>
 
 
 

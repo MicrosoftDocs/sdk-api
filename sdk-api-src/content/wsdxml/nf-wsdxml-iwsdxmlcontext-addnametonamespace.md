@@ -71,7 +71,7 @@ The name to add to the namespace specified by <i>pszUri</i>.
 
 ### -param ppName [out]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_name">WSDXML_NAME</a> structure for the newly created name. You must deallocate <i>ppName</i> by calling <a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdfreelinkedmemory">WSDFreeLinkedMemory</a>. This parameter is optional.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure for the newly created name. You must deallocate <i>ppName</i> by calling <a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdfreelinkedmemory">WSDFreeLinkedMemory</a>. This parameter is optional.
 
 
 ## -returns
@@ -139,7 +139,7 @@ The method failed.
 
 
 
-<b>AddNameToNamespace</b> can be used when creating XML elements for extensible sections. Extensible sections are represented by the <b>any</b> element in a schema. The returned <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_name">WSDXML_NAME</a> structure pointed to by <i>ppName</i> can be used to specify the name associated with the extension content. When building a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that represents extension content, use the returned <b>WSDXML_NAME</b> structure for the element's  <b>Name</b> member. 
+<b>AddNameToNamespace</b> can be used when creating XML elements for extensible sections. Extensible sections are represented by the <b>any</b> element in a schema. The returned <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure pointed to by <i>ppName</i> can be used to specify the name associated with the extension content. When building a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that represents extension content, use the returned <b>WSDXML_NAME</b> structure for the element's  <b>Name</b> member. 
 
 
 

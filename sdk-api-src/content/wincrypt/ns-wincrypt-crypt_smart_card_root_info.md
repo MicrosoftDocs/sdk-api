@@ -66,7 +66,7 @@ An array of bytes that specify the smart card IDs retrieved by using the <a href
 
 ### -field luid
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_root_info_luid">ROOT_INFO_LUID</a> structure that specifies a session authentication ID from an access token.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-root_info_luid">ROOT_INFO_LUID</a> structure that specifies a session authentication ID from an access token.
 
 
 ## -remarks

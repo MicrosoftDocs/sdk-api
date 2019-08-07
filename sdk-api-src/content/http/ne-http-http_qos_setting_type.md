@@ -66,7 +66,7 @@ The setting is a bandwidth limit represented by a <a href="https://docs.microsof
 
 ### -field HttpQosSettingTypeConnectionLimit
 
-The setting is a connection limit represented by a <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_connection_limit_info">HTTP_CONNECTION_LIMIT_INFO</a> structure.
+The setting is a connection limit represented by a <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_connection_limit_info">HTTP_CONNECTION_LIMIT_INFO</a> structure.
 
 
 ### -field HttpQosSettingTypeFlowRate

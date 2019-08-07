@@ -116,7 +116,7 @@ If used with the <a href="https://docs.microsoft.com/windows/desktop/api/webserv
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_https_url">WS_HTTPS_URL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_https_url">WS_HTTPS_URL</a>
 
 
 
@@ -124,7 +124,7 @@ If used with the <a href="https://docs.microsoft.com/windows/desktop/api/webserv
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_nettcp_url">WS_NETTCP_URL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_nettcp_url">WS_NETTCP_URL</a>
 
 
 

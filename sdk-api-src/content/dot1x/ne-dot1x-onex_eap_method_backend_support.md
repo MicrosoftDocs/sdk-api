@@ -97,7 +97,7 @@ The <b>BackendSupport</b> member of the <a href="https://docs.microsoft.com/wind
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-_onex_notification_type">ONEX_NOTIFICATION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-onex_notification_type">ONEX_NOTIFICATION_TYPE</a>
 
 
 

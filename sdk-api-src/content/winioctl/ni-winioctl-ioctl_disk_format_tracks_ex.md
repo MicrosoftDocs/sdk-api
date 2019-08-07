@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_FORMAT_TRACKS_EX, IOCTL_DISK_FORMAT_TRACKS_EX control, IOCTL_DISK_FORMAT_TRACKS_EX control code [Files], _win32_ioctl_disk_format_tracks_ex, base.ioctl_disk_format_tracks_ex, fs.ioctl_disk_format_tracks_ex, winioctl/IOCTL_DISK_FORMAT_TRACKS_EX
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_DISK_FORMAT_TRACKS_EX"
+f1_keywords:
+- winioctl/IOCTL_DISK_FORMAT_TRACKS_EX
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_DISK_FORMAT_TRACKS_EX
+- IOCTL_DISK_FORMAT_TRACKS_EX
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -171,7 +171,7 @@ It is impossible to determine how many bad track numbers will be returned by thi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_format_ex_parameters">FORMAT_EX_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-format_ex_parameters">FORMAT_EX_PARAMETERS</a>
  
 
  

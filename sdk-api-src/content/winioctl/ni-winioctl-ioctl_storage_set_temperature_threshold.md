@@ -166,11 +166,11 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_temperature_info">STORAGE_TEMPERATURE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_temperature_info">STORAGE_TEMPERATURE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_temperature_threshold">STORAGE_TEMPERATURE_THRESHOLD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_temperature_threshold">STORAGE_TEMPERATURE_THRESHOLD</a>
  
 
  

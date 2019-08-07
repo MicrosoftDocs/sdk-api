@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDEndpointProxy interface,ProcessFault method, IWSDEndpointProxy.ProcessFault, IWSDEndpointProxy::ProcessFault, ProcessFault, ProcessFault method, ProcessFault method,IWSDEndpointProxy interface, ncd.iwsdendpointproxy_processfault, wsdclient/IWSDEndpointProxy::ProcessFault
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDEndpointProxy.ProcessFault"
+f1_keywords:
+- wsdclient/IWSDEndpointProxy.ProcessFault
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDEndpointProxy.ProcessFault
+- IWSDEndpointProxy.ProcessFault
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Processes a SOAP fault retrieved by <a href="https://docs.microsoft.com/windows/
 
 ### -param pFault [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_fault">WSD_SOAP_FAULT</a> structure containing the fault data.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a> structure containing the fault data.
 
 
 ## -returns

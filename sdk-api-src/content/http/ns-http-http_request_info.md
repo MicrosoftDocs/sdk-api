@@ -96,7 +96,7 @@ Starting with the HTTP Server API version 2.0, the HTTP_REQUEST structure is ext
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_v2">HTTP_REQUEST_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_v2">HTTP_REQUEST_V2</a>
  
 
  

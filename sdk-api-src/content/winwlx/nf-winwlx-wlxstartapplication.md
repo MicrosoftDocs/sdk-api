@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlxStartApplication, WlxStartApplication function [Security], _gina_wlxstartapplication, security.wlxstartapplication, winwlx/WlxStartApplication
 ms.topic: function
-f1_keywords: 
- - "winwlx/WlxStartApplication"
+f1_keywords:
+- winwlx/WlxStartApplication
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WlxStartApplication
+- WlxStartApplication
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,7 +78,7 @@ A pointer to the GINA context associated with this window station. The GINA retu
 Specifies the name of the desktop on which to start the application. Pass this string to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function through the <b>lpDesktop</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa">STARTUPINFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure.
 
 
 ### -param pEnvironment [in]

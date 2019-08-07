@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateWaveFormatExFromMFMediaType, MFCreateWaveFormatExFromMFMediaType function [Media Foundation], b124bac2-90de-4358-a079-f509a89c3776, mf.mfcreatewaveformatexfrommfmediatype, mfapi/MFCreateWaveFormatExFromMFMediaType
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateWaveFormatExFromMFMediaType"
+f1_keywords:
+- mfapi/MFCreateWaveFormatExFromMFMediaType
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateWaveFormatExFromMFMediaType
+- MFCreateWaveFormatExFromMFMediaType
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -79,7 +79,7 @@ Receives the size of the <b>WAVEFORMATEX</b> structure.
 
 ### -param Flags
 
-Contains a flag from the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ne-mfapi-_mfwaveformatexconvertflags">MFWaveFormatExConvertFlags</a> enumeration.
+Contains a flag from the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ne-mfapi-mfwaveformatexconvertflags">MFWaveFormatExConvertFlags</a> enumeration.
 
 
 ## -returns

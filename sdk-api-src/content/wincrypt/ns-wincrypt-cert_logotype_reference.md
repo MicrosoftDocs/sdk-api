@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 22e6492e-afc2-4160-ad6c-0b65265eafeb
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_LOGOTYPE_REFERENCE, CERT_LOGOTYPE_REFERENCE, CERT_LOGOTYPE_REFERENCE structure [Security], PCERT_LOGOTYPE_REFERENCE, PCERT_LOGOTYPE_REFERENCE structure pointer [Security], security.cert_logotype_reference, wincrypt/CERT_LOGOTYPE_REFERENCE, wincrypt/PCERT_LOGOTYPE_REFERENCE"
+ms.keywords: '*PCERT_LOGOTYPE_REFERENCE, CERT_LOGOTYPE_REFERENCE, CERT_LOGOTYPE_REFERENCE structure [Security], PCERT_LOGOTYPE_REFERENCE, PCERT_LOGOTYPE_REFERENCE structure pointer [Security], security.cert_logotype_reference, wincrypt/CERT_LOGOTYPE_REFERENCE, wincrypt/PCERT_LOGOTYPE_REFERENCE'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_LOGOTYPE_REFERENCE"
+f1_keywords:
+- wincrypt/CERT_LOGOTYPE_REFERENCE
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_LOGOTYPE_REFERENCE
+- CERT_LOGOTYPE_REFERENCE
 product: Windows
 targetos: Windows
 req.typenames: CERT_LOGOTYPE_REFERENCE, *PCERT_LOGOTYPE_REFERENCE
@@ -66,5 +66,5 @@ The number of elements in the <b>rgHashedUrl</b> array.
 
 ### -field rgHashedUrl
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_hashed_url">CERT_HASHED_URL</a> structures that contain the hashed URL of the logotype. The <b>cHashedUrl</b> member contains the number of elements in this array.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_hashed_url">CERT_HASHED_URL</a> structures that contain the hashed URL of the logotype. The <b>cHashedUrl</b> member contains the number of elements in this array.
 

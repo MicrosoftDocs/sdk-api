@@ -87,7 +87,7 @@ This member is reserved.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_relationship">PROCESSOR_RELATIONSHIP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_relationship">PROCESSOR_RELATIONSHIP</a>
  
 
  

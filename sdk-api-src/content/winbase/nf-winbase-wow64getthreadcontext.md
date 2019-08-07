@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Wow64GetThreadContext, Wow64GetThreadContext function, base.wow64getthreadcontext, winbase/Wow64GetThreadContext
 ms.topic: function
-f1_keywords: 
- - "winbase/Wow64GetThreadContext"
+f1_keywords:
+- winbase/Wow64GetThreadContext
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - Wow64GetThreadContext
+- Wow64GetThreadContext
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ A handle to the thread whose context is to be retrieved. The handle must have
 
 ### -param lpContext [in, out]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_wow64_context">WOW64_CONTEXT</a> structure. The caller must 
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-wow64_context">WOW64_CONTEXT</a> structure. The caller must 
       initialize the <b>ContextFlags</b> member of this structure.
 
 
@@ -125,7 +125,7 @@ This function is intended for 64-bit applications. It is not supported on 32-bit
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_wow64_context">WOW64_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-wow64_context">WOW64_CONTEXT</a>
 
 
 

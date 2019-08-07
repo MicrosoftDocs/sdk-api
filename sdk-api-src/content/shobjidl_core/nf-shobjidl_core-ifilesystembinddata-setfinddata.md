@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemBindData interface [Windows Shell],SetFindData method, IFileSystemBindData.SetFindData, IFileSystemBindData::SetFindData, SetFindData, SetFindData method [Windows Shell], SetFindData method [Windows Shell],IFileSystemBindData interface, _shell_ifilesystembinddata_setfinddata, shell.IFileSystemBindData_SetFindData, shobjidl_core/IFileSystemBindData::SetFindData
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileSystemBindData.SetFindData"
+f1_keywords:
+- shobjidl_core/IFileSystemBindData.SetFindData
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileSystemBindData.SetFindData
+- IFileSystemBindData.SetFindData
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Stores file system information in a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_win32_find_dataa">WIN32_FIND_DATA</a> structure. This information is used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname">ParseDisplayName</a>.
+Stores file system information in a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure. This information is used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname">ParseDisplayName</a>.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Stores file system information in a <a href="https://docs.microsoft.com/windows/
 
 ### -param pfd [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_win32_find_dataa">WIN32_FIND_DATA</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_win32_find_dataa">WIN32_FIND_DATA</a> structure that specifies the data you want to store.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure that specifies the data you want to store.
 
 
 ## -returns

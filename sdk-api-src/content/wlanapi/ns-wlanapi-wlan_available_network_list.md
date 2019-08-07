@@ -8,10 +8,10 @@ tech.root: NativeWiFi
 ms.assetid: 0ac508b2-9117-423d-89d3-982f070c70e2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_AVAILABLE_NETWORK_LIST, PWLAN_AVAILABLE_NETWORK_LIST, PWLAN_AVAILABLE_NETWORK_LIST structure pointer [NativeWIFI], WLAN_AVAILABLE_NETWORK_LIST, WLAN_AVAILABLE_NETWORK_LIST structure [NativeWIFI], nwifi.wlan_available_network_list, nwifi.wlan_visible_network_list, wlanapi/PWLAN_AVAILABLE_NETWORK_LIST, wlanapi/WLAN_AVAILABLE_NETWORK_LIST"
+ms.keywords: '*PWLAN_AVAILABLE_NETWORK_LIST, PWLAN_AVAILABLE_NETWORK_LIST, PWLAN_AVAILABLE_NETWORK_LIST structure pointer [NativeWIFI], WLAN_AVAILABLE_NETWORK_LIST, WLAN_AVAILABLE_NETWORK_LIST structure [NativeWIFI], nwifi.wlan_available_network_list, nwifi.wlan_visible_network_list, wlanapi/PWLAN_AVAILABLE_NETWORK_LIST, wlanapi/WLAN_AVAILABLE_NETWORK_LIST'
 ms.topic: struct
-f1_keywords: 
- - "wlanapi/WLAN_AVAILABLE_NETWORK_LIST"
+f1_keywords:
+- wlanapi/WLAN_AVAILABLE_NETWORK_LIST
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - WLAN_AVAILABLE_NETWORK_LIST
+- WLAN_AVAILABLE_NETWORK_LIST
 product: Windows
 targetos: Windows
 req.typenames: WLAN_AVAILABLE_NETWORK_LIST, *PWLAN_AVAILABLE_NETWORK_LIST
@@ -90,7 +90,7 @@ This member is not used by the wireless service. Applications can use this membe
 
 ### -field Network
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_available_network">WLAN_AVAILABLE_NETWORK</a> structures containing interface information.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network">WLAN_AVAILABLE_NETWORK</a> structures containing interface information.
 
 
 ## -see-also

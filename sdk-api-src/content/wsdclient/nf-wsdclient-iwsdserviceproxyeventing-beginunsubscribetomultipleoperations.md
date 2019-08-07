@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginUnsubscribeToMultipleOperations, BeginUnsubscribeToMultipleOperations method, BeginUnsubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,BeginUnsubscribeToMultipleOperations method, IWSDServiceProxyEventing.BeginUnsubscribeToMultipleOperations, IWSDServiceProxyEventing::BeginUnsubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_beginunsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginUnsubscribeToMultipleOperations
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDServiceProxyEventing.BeginUnsubscribeToMultipleOperations"
+f1_keywords:
+- wsdclient/IWSDServiceProxyEventing.BeginUnsubscribeToMultipleOperations
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDServiceProxyEventing.BeginUnsubscribeToMultipleOperations
+- IWSDServiceProxyEventing.BeginUnsubscribeToMultipleOperations
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Initializes an  asynchronous cancelation request for a subscription to  a collec
 
 ### -param pOperations [in]
 
-Pointer to an array of references to <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_operation">WSD_OPERATION</a> structures that specify the operations to unsubscribe from. 
+Pointer to an array of references to <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structures that specify the operations to unsubscribe from. 
 
 
 

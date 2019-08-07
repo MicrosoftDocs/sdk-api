@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetLocalGroupEnum, NetLocalGroupEnum function [Network Management], _win32_netlocalgroupenum, lmaccess/NetLocalGroupEnum, netmgmt.netlocalgroupenum
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetLocalGroupEnum"
+f1_keywords:
+- lmaccess/NetLocalGroupEnum
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetLocalGroupEnum
+- NetLocalGroupEnum
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,7 +83,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return local group names. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_info_0">LOCALGROUP_INFO_0</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_info_0">LOCALGROUP_INFO_0</a> structures.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ Return local group names. The <i>bufptr</i> parameter points to an array of
 </td>
 <td width="60%">
 Return local group names and the comment associated with each group. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_info_1">LOCALGROUP_INFO_1</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_info_1">LOCALGROUP_INFO_1</a> structures.
 
 </td>
 </tr>
@@ -220,11 +220,11 @@ If you are programming for Active Directory, you may be able to call certain Act
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_info_0">LOCALGROUP_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_info_0">LOCALGROUP_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_info_1">LOCALGROUP_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_info_1">LOCALGROUP_INFO_1</a>
 
 
 

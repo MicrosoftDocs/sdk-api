@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: a5c76657-df62-471a-95e9-8017cad47b00
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPWSANAMESPACE_INFOW, *PWSANAMESPACE_INFOW, NS_BTH, NS_DNS, NS_EMAIL, NS_NLA, NS_NTDS, NS_PNRPCLOUD, NS_PNRPNAME, PWSANAMESPACE_INFO, PWSANAMESPACE_INFO structure pointer [Winsock], WSANAMESPACE_INFO, WSANAMESPACE_INFO structure [Winsock], WSANAMESPACE_INFOA, WSANAMESPACE_INFOW, _win32_wsanamespace_info_2, winsock.wsanamespace_info_2, winsock2/PWSANAMESPACE_INFO, winsock2/WSANAMESPACE_INFO, winsock2/WSANAMESPACE_INFOA, winsock2/WSANAMESPACE_INFOW"
+ms.keywords: '*LPWSANAMESPACE_INFOW, *PWSANAMESPACE_INFOW, NS_BTH, NS_DNS, NS_EMAIL, NS_NLA, NS_NTDS, NS_PNRPCLOUD, NS_PNRPNAME, PWSANAMESPACE_INFO, PWSANAMESPACE_INFO structure pointer [Winsock], WSANAMESPACE_INFO, WSANAMESPACE_INFO structure [Winsock], WSANAMESPACE_INFOA, WSANAMESPACE_INFOW, _win32_wsanamespace_info_2, winsock.wsanamespace_info_2, winsock2/PWSANAMESPACE_INFO, winsock2/WSANAMESPACE_INFO, winsock2/WSANAMESPACE_INFOA, winsock2/WSANAMESPACE_INFOW'
 ms.topic: struct
-f1_keywords: 
- - "winsock2/WSANAMESPACE_INFO"
+f1_keywords:
+- winsock2/WSANAMESPACE_INFO
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsock2.h
+- Winsock2.h
 api_name:
- - WSANAMESPACE_INFO
- - WSANAMESPACE_INFOA
- - WSANAMESPACE_INFOW
+- WSANAMESPACE_INFO
+- WSANAMESPACE_INFOA
+- WSANAMESPACE_INFOW
 product: Windows
 targetos: Windows
 req.typenames: WSANAMESPACE_INFOW, *PWSANAMESPACE_INFOW, *LPWSANAMESPACE_INFOW
@@ -201,7 +201,7 @@ When UNICODE or _UNICODE is defined, <b>WSANAMESPACE_INFO</b> is defined to <b>W
 
 When UNICODE or _UNICODE is not defined, <b>WSANAMESPACE_INFO</b> is defined to <b>WSANAMESPACE_INFOA</b>, the ANSI version of this data structure and the <b>lpszIdentifier</b> string member is defined to the  <b>LPSTR</b> data type.
 
-On Windows Vista and later, <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsanamespace_infoexw">WSANAMESPACE_INFOEX</a>, an enhanced version of the <b>WSANAMESPACE_INFO</b> structure, is returned by calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersexa">WSAEnumNameSpaceProvidersEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceprovidersex32">WSCEnumNameSpaceProvidersEx32</a> functions
+On Windows Vista and later, <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infoexw">WSANAMESPACE_INFOEX</a>, an enhanced version of the <b>WSANAMESPACE_INFO</b> structure, is returned by calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersexa">WSAEnumNameSpaceProvidersEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceprovidersex32">WSCEnumNameSpaceProvidersEx32</a> functions
 
 
 
@@ -219,7 +219,7 @@ On Windows Vista and later, <a href="https://docs.microsoft.com/windows/desktop
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsanamespace_infoexw">WSANAMESPACE_INFOEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infoexw">WSANAMESPACE_INFOEX</a>
 
 
 

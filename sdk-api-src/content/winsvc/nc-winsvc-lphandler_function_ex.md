@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HandlerEx, HandlerEx callback, HandlerEx callback function, LPHANDLER_FUNCTION_EX, SERVICE_CONTROL_CONTINUE, SERVICE_CONTROL_DEVICEEVENT, SERVICE_CONTROL_HARDWAREPROFILECHANGE, SERVICE_CONTROL_INTERROGATE, SERVICE_CONTROL_NETBINDADD, SERVICE_CONTROL_NETBINDDISABLE, SERVICE_CONTROL_NETBINDENABLE, SERVICE_CONTROL_NETBINDREMOVE, SERVICE_CONTROL_PARAMCHANGE, SERVICE_CONTROL_PAUSE, SERVICE_CONTROL_POWEREVENT, SERVICE_CONTROL_PRESHUTDOWN, SERVICE_CONTROL_SESSIONCHANGE, SERVICE_CONTROL_SHUTDOWN, SERVICE_CONTROL_STOP, SERVICE_CONTROL_TIMECHANGE, SERVICE_CONTROL_TRIGGEREVENT, SERVICE_CONTROL_USERMODEREBOOT, _win32_handlerex, base.handlerex, winsvc/HandlerEx
 ms.topic: callback
-f1_keywords: 
- - "winsvc/HandlerEx"
+f1_keywords:
+- winsvc/HandlerEx
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WinSvc.h
+- WinSvc.h
 api_name:
- - HandlerEx
+- HandlerEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -202,7 +202,7 @@ Notifies a service that the system will be shutting down. Services that need add
 
 A service that handles this notification blocks system shutdown until the service stops or the preshutdown 
          time-out interval specified through 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_preshutdown_info">SERVICE_PRESHUTDOWN_INFO</a> expires. Because 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_preshutdown_info">SERVICE_PRESHUTDOWN_INFO</a> expires. Because 
          this affects the user experience, services should use this feature only if it is absolutely necessary to avoid 
          data loss or significant recovery time at the next system start.
 
@@ -441,7 +441,7 @@ If
       <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwtssession_notification">WTSSESSION_NOTIFICATION</a> 
       structure.
 
-If <i>dwControl</i> is <b>SERVICE_CONTROL_TIMECHANGE</b>, this data is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_timechange_info">SERVICE_TIMECHANGE_INFO</a> structure.
+If <i>dwControl</i> is <b>SERVICE_CONTROL_TIMECHANGE</b>, this data is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_timechange_info">SERVICE_TIMECHANGE_INFO</a> structure.
 
 
 ### -param lpContext [in]

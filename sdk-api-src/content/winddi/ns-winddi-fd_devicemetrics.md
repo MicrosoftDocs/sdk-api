@@ -161,12 +161,12 @@ Specifies the hinted maximum glyph bitmap height, in pixels, for this font insta
 
 ### -field cjGlyphMax
 
-Specifies the hinted maximum size of a glyph, in bytes, for this font instance. This value is the maximum size of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphbits">GLYPHBITS</a> structure needed to store any of the font's glyphs.
+Specifies the hinted maximum size of a glyph, in bytes, for this font instance. This value is the maximum size of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a> structure needed to store any of the font's glyphs.
 
 
 ### -field fdxQuantized
 
-Specifies an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_xform">FD_XFORM</a> structure. The font driver fills in the font transformation that is actually used in the realization of the font. This may differ from the transformation requested by GDI as defined by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_pxogetxform">FONTOBJ_pxoGetXform</a>.
+Specifies an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_xform">FD_XFORM</a> structure. The font driver fills in the font transformation that is actually used in the realization of the font. This may differ from the transformation requested by GDI as defined by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_pxogetxform">FONTOBJ_pxoGetXform</a>.
 
 
 ### -field lNonLinearExtLeading
@@ -218,7 +218,7 @@ Is reserved and should be ignored by the font provider.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_xform">FD_XFORM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_xform">FD_XFORM</a>
 
 
 
@@ -226,7 +226,7 @@ Is reserved and should be ignored by the font provider.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphbits">GLYPHBITS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a>
  
 
  

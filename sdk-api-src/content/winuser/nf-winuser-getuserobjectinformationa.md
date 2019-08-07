@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUserObjectInformation, GetUserObjectInformation function [Windows Stations and Desktops], GetUserObjectInformationA, GetUserObjectInformationW, UOI_FLAGS, UOI_HEAPSIZE, UOI_IO, UOI_NAME, UOI_TYPE, UOI_USER_SID, _win32_getuserobjectinformation, base.getuserobjectinformation, winstation.getuserobjectinformation, winuser/GetUserObjectInformation, winuser/GetUserObjectInformationA, winuser/GetUserObjectInformationW
 ms.topic: function
-f1_keywords: 
- - "winuser/GetUserObjectInformation"
+f1_keywords:
+- winuser/GetUserObjectInformation
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,22 +30,22 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-WindowStation-L1-1-0.dll
- - Ext-Ms-Win-NTUser-Windowstation-Ansi-L1-1-0.dll
- - Ext-MS-Win-NTUser-WindowStation-Ansi-L1-1-1.dll
- - Ext-MS-Win-NTUser-Windowstation-L1-1-0.dll
- - Ext-MS-Win-NTUser-Windowstation-L1-1-1.dll
- - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-WindowStation-L1-1-0.dll
+- Ext-Ms-Win-NTUser-Windowstation-Ansi-L1-1-0.dll
+- Ext-MS-Win-NTUser-WindowStation-Ansi-L1-1-1.dll
+- Ext-MS-Win-NTUser-Windowstation-L1-1-0.dll
+- Ext-MS-Win-NTUser-Windowstation-L1-1-1.dll
+- Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
- - GetUserObjectInformation
- - GetUserObjectInformationA
- - GetUserObjectInformationW
+- GetUserObjectInformation
+- GetUserObjectInformationA
+- GetUserObjectInformationW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -153,7 +153,7 @@ The type name of the object, as a string.
 </td>
 <td width="60%">
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that identifies the user that is currently associated with the specified object. If no user is associated with the object, the value returned in the buffer pointed to by <i>lpnLengthNeeded</i> is zero. Note that <b>SID</b> is a variable length structure. You will usually make a call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that identifies the user that is currently associated with the specified object. If no user is associated with the object, the value returned in the buffer pointed to by <i>lpnLengthNeeded</i> is zero. Note that <b>SID</b> is a variable length structure. You will usually make a call to 
 <b>GetUserObjectInformation</b> to determine the length of the <b>SID</b> before retrieving its value.
 
 </td>
@@ -214,7 +214,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 

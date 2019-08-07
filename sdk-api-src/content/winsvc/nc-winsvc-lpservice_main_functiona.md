@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPSERVICE_MAIN_FUNCTION, LPSERVICE_MAIN_FUNCTION callback, LPSERVICE_MAIN_FUNCTION callback function, LPSERVICE_MAIN_FUNCTIONA, LPSERVICE_MAIN_FUNCTIONW, ServiceMain, _win32_servicemain, base.servicemain, winsvc/LPSERVICE_MAIN_FUNCTION, winsvc/LPSERVICE_MAIN_FUNCTIONA, winsvc/LPSERVICE_MAIN_FUNCTIONW
 ms.topic: callback
-f1_keywords: 
- - "winsvc/LPSERVICE_MAIN_FUNCTION"
+f1_keywords:
+- winsvc/LPSERVICE_MAIN_FUNCTION
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winsvc.h
+- Winsvc.h
 api_name:
- - LPSERVICE_MAIN_FUNCTION
- - LPSERVICE_MAIN_FUNCTIONA
- - LPSERVICE_MAIN_FUNCTIONW
+- LPSERVICE_MAIN_FUNCTION
+- LPSERVICE_MAIN_FUNCTIONA
+- LPSERVICE_MAIN_FUNCTIONW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -103,12 +103,12 @@ This function does not return a value.
 
 
 A service program can start one or more services. A service process has a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_table_entrya">SERVICE_TABLE_ENTRY</a> structure for each service that it can start. The structure specifies the service name and a pointer to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_table_entrya">SERVICE_TABLE_ENTRY</a> structure for each service that it can start. The structure specifies the service name and a pointer to the 
 <b>ServiceMain</b> function for that service.
 
 When the service control manager receives a request to start a service, it starts the service process (if it is not already running). The main thread of the service process calls the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-startservicectrldispatchera">StartServiceCtrlDispatcher</a> function with a pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_table_entrya">SERVICE_TABLE_ENTRY</a> structures. Then the service control manager sends a start request to the service control dispatcher for this service process. The service control dispatcher creates a new thread to execute the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_table_entrya">SERVICE_TABLE_ENTRY</a> structures. Then the service control manager sends a start request to the service control dispatcher for this service process. The service control dispatcher creates a new thread to execute the 
 <b>ServiceMain</b> function of the service being started.
 
 The 
@@ -157,7 +157,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_table_entrya">SERVICE_TABLE_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_table_entrya">SERVICE_TABLE_ENTRY</a>
 
 
 

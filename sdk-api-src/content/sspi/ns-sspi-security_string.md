@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 4E03761C-8199-4D9F-B9DA-8941F0CC6700
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSECURITY_STRING, PSECURITY_STRING, PSECURITY_STRING structure pointer [Security], SECURITY_STRING, SECURITY_STRING structure [Security], security.security_string, sspi/PSECURITY_STRING, sspi/SECURITY_STRING"
+ms.keywords: '*PSECURITY_STRING, PSECURITY_STRING, PSECURITY_STRING structure pointer [Security], SECURITY_STRING, SECURITY_STRING structure [Security], security.security_string, sspi/PSECURITY_STRING, sspi/SECURITY_STRING'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SECURITY_STRING"
+f1_keywords:
+- sspi/SECURITY_STRING
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SECURITY_STRING
+- SECURITY_STRING
 product: Windows
 targetos: Windows
 req.typenames: SECURITY_STRING, *PSECURITY_STRING
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SECURITY_STRING</b> structure is used as the string interface for kernel operations and is a clone of the <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure. This is used for 32-bit mode.
+The <b>SECURITY_STRING</b> structure is used as the string interface for kernel operations and is a clone of the <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure. This is used for 32-bit mode.
 
 
 ## -struct-fields

@@ -83,7 +83,7 @@ This property allows the user to specify properties of the message
 This property may be specified when the service proxy is created.
                 
 
-The value specified should be of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_properties">WS_MESSAGE_PROPERTIES</a>.
+The value specified should be of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_properties">WS_MESSAGE_PROPERTIES</a>.
                 
 
 The following message properties may be specified:

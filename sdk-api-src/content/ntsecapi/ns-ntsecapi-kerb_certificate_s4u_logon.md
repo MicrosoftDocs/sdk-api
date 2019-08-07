@@ -113,7 +113,7 @@ The KDC checks to see if an authentication policy is set.
 </dl>
 </td>
 <td width="60%">
-The KDC checks for identity only tokens instead of impersonation tokens. The request for the identity token must have the same value as the <b>KERB_S4U_LOGON_FLAG_IDENTIFY</b> flag in the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_s4u_logon">KERB_S4U_LOGON</a> structure.
+The KDC checks for identity only tokens instead of impersonation tokens. The request for the identity token must have the same value as the <b>KERB_S4U_LOGON_FLAG_IDENTIFY</b> flag in the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_s4u_logon">KERB_S4U_LOGON</a> structure.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista with SP2:  </b>This flag is not available.
 

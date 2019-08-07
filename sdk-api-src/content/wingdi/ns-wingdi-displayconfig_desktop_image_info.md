@@ -61,7 +61,7 @@ The DISPLAYCONFIG_DESKTOP_IMAGE_INFO structure contains information about the im
 
 ### -field PathSourceSize
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a> structure that specifies the size of the VidPn source surface that is being displayed on the monitor.
+A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that specifies the size of the VidPn source surface that is being displayed on the monitor.
 
 
 ### -field DesktopImageRegion

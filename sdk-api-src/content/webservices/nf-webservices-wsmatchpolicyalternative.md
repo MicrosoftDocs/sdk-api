@@ -91,7 +91,7 @@ A pointer to
 
 <div class="alert"><b>Note</b>  If a property constraint is not specified the
                     default constraint value for that particular property is used.
-                See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_policy_constraints">WS_POLICY_CONSTRAINTS</a> for more information.</div>
+                See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_policy_constraints">WS_POLICY_CONSTRAINTS</a> for more information.</div>
 <div> </div>
 
 ### -param matchRequired [in]

@@ -208,7 +208,7 @@ The <b>dwError</b> member in CERT_CHAIN_POLICY_STATUS structure pointed to by th
 ### -param pChainContext [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a> structure that contains a chain to be verified.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a> structure that contains a chain to be verified.
 
 
 ### -param pPolicyPara [in]
@@ -276,7 +276,7 @@ To get the certificate element use this syntax:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a>
 
 
 

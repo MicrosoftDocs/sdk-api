@@ -148,7 +148,7 @@ The number of elements in the <i>ObjectTypeList</i> array.
 ### -param GenericMapping [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_generic_mapping">GENERIC_MAPPING</a> structure associated with the object for which access is being checked.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a> structure associated with the object for which access is being checked.
 
 
 ### -param ObjectCreation [in]
@@ -248,7 +248,7 @@ If the security descriptor does not contain owner and group SIDs, <b>AccessCheck
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_generic_mapping">GENERIC_MAPPING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: d15d5a3f-6b38-4b92-b59c-ff0d27d111d9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSID_AND_ATTRIBUTES, PSID_AND_ATTRIBUTES, PSID_AND_ATTRIBUTES structure pointer [Security], SID_AND_ATTRIBUTES, SID_AND_ATTRIBUTES structure [Security], _SID_AND_ATTRIBUTES, _win32_sid_and_attributes_str, security.sid_and_attributes, winnt/PSID_AND_ATTRIBUTES, winnt/SID_AND_ATTRIBUTES"
+ms.keywords: '*PSID_AND_ATTRIBUTES, PSID_AND_ATTRIBUTES, PSID_AND_ATTRIBUTES structure pointer [Security], SID_AND_ATTRIBUTES, SID_AND_ATTRIBUTES structure [Security], _SID_AND_ATTRIBUTES, _win32_sid_and_attributes_str, security.sid_and_attributes, winnt/PSID_AND_ATTRIBUTES, winnt/SID_AND_ATTRIBUTES'
 ms.topic: struct
-f1_keywords: 
- - "winnt/SID_AND_ATTRIBUTES"
+f1_keywords:
+- winnt/SID_AND_ATTRIBUTES
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - SID_AND_ATTRIBUTES
+- SID_AND_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.typenames: SID_AND_ATTRIBUTES, *PSID_AND_ATTRIBUTES
@@ -61,7 +61,7 @@ The <b>SID_AND_ATTRIBUTES</b> structure represents a <a href="https://docs.micro
 
 ### -field Sid
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure.
 
 
 ### -field Attributes
@@ -73,7 +73,7 @@ Specifies attributes of the SID. This value contains up to 32 one-bit flags. Its
 
 
 
-A group is represented by a SID. SIDs have attributes that indicate whether they are currently enabled, disabled, or mandatory. SIDs also indicate how these attributes are used. A <b>SID_AND_ATTRIBUTES</b> structure can represent a SID whose attributes change frequently. For example, <b>SID_AND_ATTRIBUTES</b> is used to represent groups in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a> structure.
+A group is represented by a SID. SIDs have attributes that indicate whether they are currently enabled, disabled, or mandatory. SIDs also indicate how these attributes are used. A <b>SID_AND_ATTRIBUTES</b> structure can represent a SID whose attributes change frequently. For example, <b>SID_AND_ATTRIBUTES</b> is used to represent groups in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure.
 
 
 
@@ -83,15 +83,15 @@ A group is represented by a SID. SIDs have attributes that indicate whether they
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_user">TOKEN_USER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>
  
 
  

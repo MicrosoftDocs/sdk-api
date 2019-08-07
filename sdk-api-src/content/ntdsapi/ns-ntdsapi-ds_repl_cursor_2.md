@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>DS_REPL_CURSOR_2</b> structure contains inbound replication state data with respect to all replicas of a given naming context, as returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> function. This structure is an enhanced version of the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_cursor">DS_REPL_CURSOR</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> function. This structure is an enhanced version of the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursor">DS_REPL_CURSOR</a> structure.
 
 
 ## -struct-fields
@@ -80,7 +80,7 @@ Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_cursor">DS_REPL_CURSOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursor">DS_REPL_CURSOR</a>
 
 
 

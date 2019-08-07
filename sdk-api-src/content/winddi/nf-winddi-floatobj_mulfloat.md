@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_MulFloat, FLOATOBJ_MulFloat function [Display Devices], display.floatobj_mulfloat, gdifncs_39da7310-f7d3-4ceb-8bd5-c2a0eaab0068.xml, winddi/FLOATOBJ_MulFloat
 ms.topic: function
-f1_keywords: 
- - "winddi/FLOATOBJ_MulFloat"
+f1_keywords:
+- winddi/FLOATOBJ_MulFloat
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - FLOATOBJ_MulFloat
+- FLOATOBJ_MulFloat
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>FLOATOBJ_MulFloat</b> function multiplies the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_floatobj">FLOATOBJ</a> by the value of type FLOATL, and returns with the result in the first parameter.
+The <b>FLOATOBJ_MulFloat</b> function multiplies the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a> by the value of type FLOATL, and returns with the result in the first parameter.
 
 
 ## -parameters
@@ -92,7 +92,7 @@ The FLOATOBJ<b>_</b><i>Xxx</i> services allow graphics drivers to emulate floati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_floatobj">FLOATOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExistWord, ExistWord method [Internationalization for Windows Applications], ExistWord method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],ExistWord method, IFEDictionary.ExistWord, IFEDictionary::ExistWord, intl.ifedictionary_existword, msime/IFEDictionary::ExistWord
 ms.topic: method
-f1_keywords: 
- - "msime/IFEDictionary.ExistWord"
+f1_keywords:
+- msime/IFEDictionary.ExistWord
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msime.h
+- Msime.h
 api_name:
- - IFEDictionary.ExistWord
+- IFEDictionary.ExistWord
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Determines if the specified word exists in <a href="https://docs.microsoft.com/w
 
 ### -param pwrd [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imewrd">IMEWRD</a> structure specifying the word to check.
+An <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structure specifying the word to check.
 
 
 ## -returns
@@ -123,7 +123,7 @@ An unexpected error.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imewrd">IMEWRD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>
  
 
  

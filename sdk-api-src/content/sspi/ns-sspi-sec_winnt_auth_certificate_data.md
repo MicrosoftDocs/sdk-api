@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 08dc5062-2925-4ec2-aef3-c7ff1cba9544
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSEC_WINNT_AUTH_CERTIFICATE_DATA, PSEC_WINNT_AUTH_CERTIFICATE_DATA, PSEC_WINNT_AUTH_CERTIFICATE_DATA structure pointer [Security], SEC_WINNT_AUTH_CERTIFICATE_DATA, SEC_WINNT_AUTH_CERTIFICATE_DATA structure [Security], security.sec_winnt_auth_certificate_data, sspi/PSEC_WINNT_AUTH_CERTIFICATE_DATA, sspi/SEC_WINNT_AUTH_CERTIFICATE_DATA"
+ms.keywords: '*PSEC_WINNT_AUTH_CERTIFICATE_DATA, PSEC_WINNT_AUTH_CERTIFICATE_DATA, PSEC_WINNT_AUTH_CERTIFICATE_DATA structure pointer [Security], SEC_WINNT_AUTH_CERTIFICATE_DATA, SEC_WINNT_AUTH_CERTIFICATE_DATA structure [Security], security.sec_winnt_auth_certificate_data, sspi/PSEC_WINNT_AUTH_CERTIFICATE_DATA, sspi/SEC_WINNT_AUTH_CERTIFICATE_DATA'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SEC_WINNT_AUTH_CERTIFICATE_DATA"
+f1_keywords:
+- sspi/SEC_WINNT_AUTH_CERTIFICATE_DATA
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SEC_WINNT_AUTH_CERTIFICATE_DATA
+- SEC_WINNT_AUTH_CERTIFICATE_DATA
 product: Windows
 targetos: Windows
 req.typenames: SEC_WINNT_AUTH_CERTIFICATE_DATA, *PSEC_WINNT_AUTH_CERTIFICATE_DATA
@@ -79,7 +79,7 @@ A structure that specifies the offset from the beginning of this structure and t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_byte_vector">SEC_WINNT_AUTH_BYTE_VECTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_byte_vector">SEC_WINNT_AUTH_BYTE_VECTOR</a>
  
 
  

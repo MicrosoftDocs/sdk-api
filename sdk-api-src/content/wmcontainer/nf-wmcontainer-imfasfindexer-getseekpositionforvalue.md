@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSeekPositionForValue, GetSeekPositionForValue method [Media Foundation], GetSeekPositionForValue method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetSeekPositionForValue method, IMFASFIndexer.GetSeekPositionForValue, IMFASFIndexer::GetSeekPositionForValue, c8e9982e-b056-48dc-ac5f-20bf65b475ec, mf.imfasfindexer_getseekpositionforvalue, wmcontainer/IMFASFIndexer::GetSeekPositionForValue
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFIndexer.GetSeekPositionForValue"
+f1_keywords:
+- wmcontainer/IMFASFIndexer.GetSeekPositionForValue
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFIndexer.GetSeekPositionForValue
+- IMFASFIndexer.GetSeekPositionForValue
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ The value of the index entry for which to get the position. The format of this v
 
 ### -param pIndexIdentifier [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ns-wmcontainer-_asf_index_identifier">ASF_INDEX_IDENTIFIER</a> structure that identifies the stream number and index type.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ns-wmcontainer-asf_index_identifier">ASF_INDEX_IDENTIFIER</a> structure that identifies the stream number and index type.
           
 
 

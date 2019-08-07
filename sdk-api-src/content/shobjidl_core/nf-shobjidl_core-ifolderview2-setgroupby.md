@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetGroupBy method, IFolderView2.SetGroupBy, IFolderView2::SetGroupBy, SetGroupBy, SetGroupBy method [Windows Shell], SetGroupBy method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetGroupBy, shell.IFolderView2_SetGroupBy, shobjidl_core/IFolderView2::SetGroupBy
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView2.SetGroupBy"
+f1_keywords:
+- shobjidl_core/IFolderView2.SetGroupBy
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderView2.SetGroupBy
+- IFolderView2.SetGroupBy
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Groups the view by the given property key and direction.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> by which the view should be grouped.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> by which the view should be grouped.
 
 
 ### -param fAscending [in]

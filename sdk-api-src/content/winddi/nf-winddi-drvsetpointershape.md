@@ -76,7 +76,7 @@ Pointer to the SURFOBJ structure that defines the colors for a color pointer. If
 
 ### -param pxlo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_xlateobj">XLATEOBJ</a> structure that defines the colors in <i>psoColor</i>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure that defines the colors in <i>psoColor</i>.
 
 
 ### -param xHot [in]
@@ -101,7 +101,7 @@ Specify the y-coordinate of the new pointer position.
 
 ### -param prcl [in]
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that indicates the location in which the driver should write a rectangle that specifies a tight bound for the visible portion of the pointer.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that indicates the location in which the driver should write a rectangle that specifies a tight bound for the visible portion of the pointer.
 
 
 ### -param fl [in]
@@ -282,7 +282,7 @@ The driver indicates its ability to handle pointers with per-pixel alpha values 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_xlateobj">XLATEOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>
  
 
  

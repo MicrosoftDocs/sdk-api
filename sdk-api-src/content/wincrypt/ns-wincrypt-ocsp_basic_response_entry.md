@@ -122,7 +122,7 @@ The responder has no information for the target certificate.
 
 ### -field DUMMYUNIONNAME.pRevokedInfo
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_basic_revoked_info">OCSP_BASIC_REVOKED_INFO</a> structure that specifies the reason the target certificate was revoked.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_revoked_info">OCSP_BASIC_REVOKED_INFO</a> structure that specifies the reason the target certificate was revoked.
 
 
 ### -field ThisUpdate
@@ -158,7 +158,7 @@ An array of pointers to  <a href="https://docs.microsoft.com/windows/desktop/api
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_basic_revoked_info">OCSP_BASIC_REVOKED_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_revoked_info">OCSP_BASIC_REVOKED_INFO</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT, WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], webservices/WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT, wsw.ws_username_message_security_binding_constraint
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT"
+f1_keywords:
+- webservices/WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT
+- WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT
 product: Windows
 targetos: Windows
 req.typenames: WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 A security binding constraint that corresponds to the
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_username_message_security_binding">WS_USERNAME_MESSAGE_SECURITY_BINDING</a>.
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_username_message_security_binding">WS_USERNAME_MESSAGE_SECURITY_BINDING</a>.
             
 
 

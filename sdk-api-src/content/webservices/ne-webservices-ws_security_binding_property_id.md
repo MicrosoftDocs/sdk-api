@@ -180,7 +180,7 @@ When setting a single authentication scheme, the client will perform the request
 
 
 When the scheme is set to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_6">WS_HTTP_HEADER_AUTH_SCHEME_NEGOTIATE</a> and Kerberos authentication is negotiated, the Server Principal Name (SPN) 
-                    used is derived from the server's DNS name. Even when present <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_identity">WS_ENDPOINT_IDENTITY</a> is ignored. In order for authentication
+                    used is derived from the server's DNS name. Even when present <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_identity">WS_ENDPOINT_IDENTITY</a> is ignored. In order for authentication
                     to succeed, the server must be able to decrypt Kerberos tickets for that SPN.
                 
 

@@ -110,7 +110,7 @@ Each of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-win
 
 <ul>
 <li>A logical processor affinity mask, which indicates the logical processors that the information in the structure applies to.</li>
-<li>A logical processor mask of type <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_logical_processor_relationship">LOGICAL_PROCESSOR_RELATIONSHIP</a>, which indicates the relationship between the logical processors in the mask. Applications calling this function must be prepared to handle additional indicator values in the future.</li>
+<li>A logical processor mask of type <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-logical_processor_relationship">LOGICAL_PROCESSOR_RELATIONSHIP</a>, which indicates the relationship between the logical processors in the mask. Applications calling this function must be prepared to handle additional indicator values in the future.</li>
 </ul>
 Note that the order in which the structures are returned in the buffer  may change between calls to this function.
 
@@ -298,7 +298,7 @@ int _cdecl _tmain ()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_logical_processor_relationship">LOGICAL_PROCESSOR_RELATIONSHIP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-logical_processor_relationship">LOGICAL_PROCESSOR_RELATIONSHIP</a>
 
 
 

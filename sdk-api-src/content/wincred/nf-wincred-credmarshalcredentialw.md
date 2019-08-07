@@ -82,7 +82,7 @@ This is one of the <a href="https://docs.microsoft.com/windows/desktop/api/wincr
 
 If <i>CredType</i> is <i>CertCredential</i>, <i>Credential</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-cert_credential_info">CERT_CREDENTIAL_INFO</a> structure.
 
-If <i>CredType</i> is <i>UsernameTargetCredential</i>, <i>Credential</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_username_target_credential_info">USERNAME_TARGET_CREDENTIAL_INFO</a> structure.
+If <i>CredType</i> is <i>UsernameTargetCredential</i>, <i>Credential</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-username_target_credential_info">USERNAME_TARGET_CREDENTIAL_INFO</a> structure.
 
 
 ### -param MarshaledCredential [out]
@@ -129,7 +129,7 @@ ERROR_INVALID_PARAMETER
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_username_target_credential_info">USERNAME_TARGET_CREDENTIAL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-username_target_credential_info">USERNAME_TARGET_CREDENTIAL_INFO</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SYNCMGRITEMFLAGS, SYNCMGRITEMFLAGS enumeration [Windows Shell], SYNCMGRITEM_HASPROPERTIES, SYNCMGRITEM_HIDDEN, SYNCMGRITEM_LASTUPDATETIME, SYNCMGRITEM_MAYDELETEITEM, SYNCMGRITEM_ROAMINGUSER, SYNCMGRITEM_TEMPORARY, mobsync/SYNCMGRITEMFLAGS, mobsync/SYNCMGRITEM_HASPROPERTIES, mobsync/SYNCMGRITEM_HIDDEN, mobsync/SYNCMGRITEM_LASTUPDATETIME, mobsync/SYNCMGRITEM_MAYDELETEITEM, mobsync/SYNCMGRITEM_ROAMINGUSER, mobsync/SYNCMGRITEM_TEMPORARY, shell.syncmgr_syncmgritemflags, syncmgr.syncmgritemflags
 ms.topic: enum
-f1_keywords: 
- - "mobsync/SYNCMGRITEMFLAGS"
+f1_keywords:
+- mobsync/SYNCMGRITEMFLAGS
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mobsync.h
+- Mobsync.h
 api_name:
- - SYNCMGRITEMFLAGS
+- SYNCMGRITEMFLAGS
 product: Windows
 targetos: Windows
 req.typenames: SYNCMGRITEMFLAGS
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies information for the current item in the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgritem">SYNCMGRITEM</a> structure.
+Specifies information for the current item in the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgritem">SYNCMGRITEM</a> structure.
 
 
 ## -enum-fields
@@ -97,7 +97,7 @@ The item may be deleted. This value has been deprecated for Windows Vista and l
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgritem">SYNCMGRITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgritem">SYNCMGRITEM</a>
  
 
  

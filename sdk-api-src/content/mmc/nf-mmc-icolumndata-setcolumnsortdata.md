@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IColumnData interface [MMC],SetColumnSortData method, IColumnData.SetColumnSortData, IColumnData::SetColumnSortData, SetColumnSortData, SetColumnSortData method [MMC], SetColumnSortData method [MMC],IColumnData interface, _slate_icolumndata_setcolumnsortdata, mmc.icolumndata_setcolumnsortdata, mmc/IColumnData::SetColumnSortData
 ms.topic: method
-f1_keywords: 
- - "mmc/IColumnData.SetColumnSortData"
+f1_keywords:
+- mmc/IColumnData.SetColumnSortData
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IColumnData.SetColumnSortData
+- IColumnData.SetColumnSortData
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,13 +62,13 @@ The <b>IColumnData::SetColumnSortData</b> method enables a snap-in to set the so
 ### -param pColID [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_scolumnsetid">SColumnSetID</a> structure that contains the column set ID of the column set whose sort data is to be set.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-scolumnsetid">SColumnSetID</a> structure that contains the column set ID of the column set whose sort data is to be set.
 
 
 ### -param pColSortData [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_sort_set_data">MMC_SORT_SET_DATA</a> structure that contains the column sort data of the column set.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_sort_set_data">MMC_SORT_SET_DATA</a> structure that contains the column sort data of the column set.
 
 
 ## -returns

@@ -8,10 +8,10 @@ tech.root: NativeWiFi
 ms.assetid: 5fa00041-235f-4f48-a367-e1eaec8474ce
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_HOSTED_NETWORK_STATUS, PWLAN_HOSTED_NETWORK_STATUS, PWLAN_HOSTED_NETWORK_STATUS structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_STATUS, WLAN_HOSTED_NETWORK_STATUS structure [NativeWIFI], nwifi.wlan_hosted_network_status, wlanapi/PWLAN_HOSTED_NETWORK_STATUS, wlanapi/WLAN_HOSTED_NETWORK_STATUS"
+ms.keywords: '*PWLAN_HOSTED_NETWORK_STATUS, PWLAN_HOSTED_NETWORK_STATUS, PWLAN_HOSTED_NETWORK_STATUS structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_STATUS, WLAN_HOSTED_NETWORK_STATUS structure [NativeWIFI], nwifi.wlan_hosted_network_status, wlanapi/PWLAN_HOSTED_NETWORK_STATUS, wlanapi/WLAN_HOSTED_NETWORK_STATUS'
 ms.topic: struct
-f1_keywords: 
- - "wlanapi/WLAN_HOSTED_NETWORK_STATUS"
+f1_keywords:
+- wlanapi/WLAN_HOSTED_NETWORK_STATUS
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wlanapi.h
+- Wlanapi.h
 api_name:
- - WLAN_HOSTED_NETWORK_STATUS
+- WLAN_HOSTED_NETWORK_STATUS
 product: Windows
 targetos: Windows
 req.typenames: WLAN_HOSTED_NETWORK_STATUS, *PWLAN_HOSTED_NETWORK_STATUS
@@ -116,7 +116,7 @@ The current number of authenticated peers on the wireless Hosted Network.
 
 ### -field PeerList
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_peer_state">WLAN_HOSTED_NETWORK_PEER_STATE</a>  structures describing each of the current peers on the wireless Hosted Network. The number of elements in the array is given by <b>dwNumberOfPeers</b> member.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_hosted_network_peer_state">WLAN_HOSTED_NETWORK_PEER_STATE</a>  structures describing each of the current peers on the wireless Hosted Network. The number of elements in the array is given by <b>dwNumberOfPeers</b> member.
 
  This value is correct only if <b>HostedNetworkState</b> is <b>wlan_hosted_network_active</b>.
 
@@ -145,11 +145,11 @@ The <b>WLAN_HOSTED_NETWORK_STATUS</b>  structure  is returned in a pointer in th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_peer_state">WLAN_HOSTED_NETWORK_PEER_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_hosted_network_peer_state">WLAN_HOSTED_NETWORK_PEER_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_hosted_network_state">WLAN_HOSTED_NETWORK_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_hosted_network_state">WLAN_HOSTED_NETWORK_STATE</a>
 
 
 

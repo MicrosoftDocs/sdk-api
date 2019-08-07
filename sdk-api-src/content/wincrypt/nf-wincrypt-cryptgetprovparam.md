@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_FASTSGC, CRYPT_FIRST, CRYPT_NEXT, CRYPT_SGC, CRYPT_SGC_ENUM, CryptGetProvParam, CryptGetProvParam function [Security], DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, OWNER_SECURITY_INFORMATION, PP_ADMIN_PIN, PP_APPLI_CERT, PP_CERTCHAIN, PP_CHANGE_PASSWORD, PP_CONTAINER, PP_CRYPT_COUNT_KEY_USE, PP_ENUMALGS, PP_ENUMALGS_EX, PP_ENUMCONTAINERS, PP_ENUMELECTROOTS, PP_ENUMEX_SIGNING_PROT, PP_ENUMMANDROOTS, PP_IMPTYPE, PP_KEYEXCHANGE_PIN, PP_KEYSET_SEC_DESCR, PP_KEYSET_TYPE, PP_KEYSPEC, PP_KEYSTORAGE, PP_KEYX_KEYSIZE_INC, PP_KEY_TYPE_SUBTYPE, PP_NAME, PP_PROVTYPE, PP_ROOT_CERTSTORE, PP_SESSION_KEYSIZE, PP_SGC_INFO, PP_SIGNATURE_PIN, PP_SIG_KEYSIZE_INC, PP_SMARTCARD_GUID, PP_SMARTCARD_READER, PP_SYM_KEYSIZE, PP_UI_PROMPT, PP_UNIQUE_CONTAINER, PP_USER_CERTSTORE, PP_USE_HARDWARE_RNG, PP_VERSION, SACL_SECURITY_INFORMATION, _crypto2_cryptgetprovparam, security.cryptgetprovparam, wincrypt/CryptGetProvParam
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptGetProvParam"
+f1_keywords:
+- wincrypt/CryptGetProvParam
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptGetProvParam
+- CryptGetProvParam
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -153,7 +153,7 @@ Not implemented by Microsoft CSPs. This behavior may be implemented by other CSP
 </td>
 <td width="60%">
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_prov_enumalgs">PROV_ENUMALGS</a> structure that contains information about one algorithm supported by the CSP being queried.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-prov_enumalgs">PROV_ENUMALGS</a> structure that contains information about one algorithm supported by the CSP being queried.
 
 The first time this value is read, the <i>dwFlags</i> parameter must contain the <b>CRYPT_FIRST</b> flag. Doing so causes this function to retrieve the first element in the enumeration. The subsequent elements can then be retrieved by setting the <b>CRYPT_NEXT</b> flag in the <i>dwFlags</i> parameter. When this function fails with the <b>ERROR_NO_MORE_ITEMS</b> error code, the end of the enumeration has been reached.
 
@@ -169,7 +169,7 @@ This function is not thread safe, and all of the available algorithms might not 
 </td>
 <td width="60%">
 A 
-								<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_prov_enumalgs_ex">PROV_ENUMALGS_EX</a> structure that contains information about one algorithm supported by the CSP being queried. The structure returned contains more information about the algorithm than the structure returned for PP_ENUMALGS.
+								<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-prov_enumalgs_ex">PROV_ENUMALGS_EX</a> structure that contains information about one algorithm supported by the CSP being queried. The structure returned contains more information about the algorithm than the structure returned for PP_ENUMALGS.
 
 The first time this value is read, the <i>dwFlags</i> parameter must contain the <b>CRYPT_FIRST</b> flag. Doing so causes this function to retrieve the first element in the enumeration. The subsequent elements can then be retrieved by setting the <b>CRYPT_NEXT</b> flag in the <i>dwFlags</i> parameter. When this function fails with the <b>ERROR_NO_MORE_ITEMS</b> error code, the end of the enumeration has been reached.
 
@@ -212,7 +212,7 @@ This constant is not used.
 </dl>
 </td>
 <td width="60%">
-Indicates that the current CSP supports the <b>dwProtocols</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_prov_enumalgs_ex">PROV_ENUMALGS_EX</a> structure. If this function succeeds, the CSP supports the <b>dwProtocols</b> member of the <b>PROV_ENUMALGS_EX</b> structure. If this function fails with an <b>NTE_BAD_TYPE</b> error code, the CSP does not support the <b>dwProtocols</b> member.
+Indicates that the current CSP supports the <b>dwProtocols</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-prov_enumalgs_ex">PROV_ENUMALGS_EX</a> structure. If this function succeeds, the CSP supports the <b>dwProtocols</b> member of the <b>PROV_ENUMALGS_EX</b> structure. If this function fails with an <b>NTE_BAD_TYPE</b> error code, the CSP does not support the <b>dwProtocols</b> member.
 
 </td>
 </tr>
@@ -267,7 +267,7 @@ Specifies that the key exchange PIN is contained in <i>pbData</i>. The PIN is re
 </dl>
 </td>
 <td width="60%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> for the key storage container. The <i>pbData</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure that receives the security descriptor for the key storage container. The security descriptor is returned in self-relative format.
+Retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> for the key storage container. The <i>pbData</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that receives the security descriptor for the key storage container. The security descriptor is returned in self-relative format.
 
 </td>
 </tr>

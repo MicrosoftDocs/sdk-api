@@ -63,7 +63,7 @@ Sends merged policy settings to the protocol and requests user policy settings f
 
 ### -param pPolicyData [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_policy_data">WTS_POLICY_DATA</a> structure that contains the merged Group Policy values.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_policy_data">WTS_POLICY_DATA</a> structure that contains the merged Group Policy values.
 
 
 ### -param pClientData [in, out]

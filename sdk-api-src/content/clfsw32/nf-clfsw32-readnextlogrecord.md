@@ -145,7 +145,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-c
 
 ### -param pOverlapped [in, out, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure that is required for asynchronous operation. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that is required for asynchronous operation. 
 
 This parameter can be <b>NULL</b> if asynchronous operation is not used.
 
@@ -197,7 +197,7 @@ After <b>ReadNextLogRecord</b> completes asynchronously, the requested record  i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 

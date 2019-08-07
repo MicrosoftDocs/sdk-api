@@ -193,13 +193,13 @@ A pointer to the buffer that contains the property information.
 <tr>
 <td>HttpServerLoggingProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_logging_info">HTTP_LOGGING_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerStateProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_state_info">HTTP_STATE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_state_info">HTTP_STATE_INFO</a>
 </td>
 </tr>
 <tr>

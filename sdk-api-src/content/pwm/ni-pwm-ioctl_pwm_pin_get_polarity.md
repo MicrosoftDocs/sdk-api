@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-Retrieves the current signal polarity of the pin or channel. The control code gets the signal polarity as a <a href="https://docs.microsoft.com/windows/desktop/DevIO/pwm-pin-get-polarity-output">PWM_PIN_GET_POLARITY_OUTPUT</a> structure. The signal polarity is either Active High or Active Low, as  defined in the <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ne-pwm-_pwm_polarity">PWM_POLARITY</a> enumeration. 
+Retrieves the current signal polarity of the pin or channel. The control code gets the signal polarity as a <a href="https://docs.microsoft.com/windows/desktop/DevIO/pwm-pin-get-polarity-output">PWM_PIN_GET_POLARITY_OUTPUT</a> structure. The signal polarity is either Active High or Active Low, as  defined in the <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ne-pwm-pwm_polarity">PWM_POLARITY</a> enumeration. 
 
 
 

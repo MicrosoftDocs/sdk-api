@@ -103,7 +103,7 @@ Return the names of the global groups to which the user belongs. The <i>bufptr</
 </td>
 <td width="60%">
 Return the names of the global groups to which the user belongs with attributes. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_users_info_1">GROUP_USERS_INFO_1</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_users_info_1">GROUP_USERS_INFO_1</a> structures.
 
 </td>
 </tr>
@@ -375,7 +375,7 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_users_info_1">GROUP_USERS_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_users_info_1">GROUP_USERS_INFO_1</a>
 
 
 

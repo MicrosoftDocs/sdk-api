@@ -61,7 +61,7 @@ Contains protocol cache statistics.
 
 ### -field Specific
 
-An integer index that specifies the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_cache_stats_un">WTS_CACHE_STATS_UN</a> union member that contains the cache data. This can be one of the following values.
+An integer index that specifies the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_cache_stats_un">WTS_CACHE_STATS_UN</a> union member that contains the cache data. This can be one of the following values.
 
 
 
@@ -84,7 +84,7 @@ The cache data is contained in the <b>Reserved</b> member.
 
 ### -field Data
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_cache_stats_un">WTS_CACHE_STATS_UN</a> union that contains the cache statistics.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_cache_stats_un">WTS_CACHE_STATS_UN</a> union that contains the cache statistics.
 
 
 ### -field Data.switch_is
@@ -104,7 +104,7 @@ An integer that specifies the protocol type. This is not currently used by the R
 
 ### -field Length
 
-An integer that contains the length of the data in the <b>Reserved</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_cache_stats_un">WTS_CACHE_STATS_UN</a> union. The maximum size is WTS_MAX_CACHE_RESERVED multiplied by the length of an unsigned long integer.
+An integer that contains the length of the data in the <b>Reserved</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_cache_stats_un">WTS_CACHE_STATS_UN</a> union. The maximum size is WTS_MAX_CACHE_RESERVED multiplied by the length of an unsigned long integer.
 
 
 ## -remarks

@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 8CC7CF43-61C8-4561-BA9C-473878818858
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA structure pointer [Files], STORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA structure [Files], fs.storage_physical_adapter_data, winioctl/PSTORAGE_PHYSICAL_ADAPTER_DATA, winioctl/STORAGE_PHYSICAL_ADAPTER_DATA"
+ms.keywords: '*PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA structure pointer [Files], STORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA structure [Files], fs.storage_physical_adapter_data, winioctl/PSTORAGE_PHYSICAL_ADAPTER_DATA, winioctl/STORAGE_PHYSICAL_ADAPTER_DATA'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/STORAGE_PHYSICAL_ADAPTER_DATA"
+f1_keywords:
+- winioctl/STORAGE_PHYSICAL_ADAPTER_DATA
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - STORAGE_PHYSICAL_ADAPTER_DATA
+- STORAGE_PHYSICAL_ADAPTER_DATA
 product: Windows
 targetos: Windows
 req.typenames: STORAGE_PHYSICAL_ADAPTER_DATA, *PSTORAGE_PHYSICAL_ADAPTER_DATA
@@ -65,17 +65,17 @@ Specifies the adapter ID.
 
 ### -field HealthStatus
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_component_health_status">STORAGE_COMPONENT_HEALTH_STATUS</a>-typed value. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_component_health_status">STORAGE_COMPONENT_HEALTH_STATUS</a>-typed value. 
 
 
 ### -field CommandProtocol
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_protocol_type">STORAGE_PROTOCOL_TYPE</a>-typed value.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_protocol_type">STORAGE_PROTOCOL_TYPE</a>-typed value.
 
 
 ### -field SpecVersion
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_spec_version">STORAGE_SPEC_VERSION</a>-typed value that specifies the supported storage spec version (for example, AHCI 1.3.1).
+A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_spec_version">STORAGE_SPEC_VERSION</a>-typed value that specifies the supported storage spec version (for example, AHCI 1.3.1).
 
 
 ### -field Vendor

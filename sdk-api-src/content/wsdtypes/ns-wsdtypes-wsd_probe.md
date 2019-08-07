@@ -61,12 +61,12 @@ Represents a <a href="https://docs.microsoft.com/windows/desktop/WsdApi/probe-me
 
 ### -field Types
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_name_list">WSD_NAME_LIST</a> structure that contains a list of WS-Discovery Types.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_name_list">WSD_NAME_LIST</a> structure that contains a list of WS-Discovery Types.
 
 
 ### -field Scopes
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_scopes">WSD_SCOPES</a> structure that contains a list of WS-Discovery Scopes.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_scopes">WSD_SCOPES</a> structure that contains a list of WS-Discovery Scopes.
 
 
 ### -field Any

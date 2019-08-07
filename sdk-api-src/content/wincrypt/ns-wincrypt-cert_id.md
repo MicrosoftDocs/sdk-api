@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 9e33f661-c365-4725-8c3f-27b6cdd9a84e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_ID, CERT_ID, CERT_ID structure [Security], CERT_ID_ISSUER_SERIAL_NUMBER, CERT_ID_KEY_IDENTIFIER, CERT_ID_SHA1_HASH, PCERT_ID, PCERT_ID structure pointer [Security], _crypto2_cert_id, security.cert_id, wincrypt/CERT_ID, wincrypt/PCERT_ID"
+ms.keywords: '*PCERT_ID, CERT_ID, CERT_ID structure [Security], CERT_ID_ISSUER_SERIAL_NUMBER, CERT_ID_KEY_IDENTIFIER, CERT_ID_SHA1_HASH, PCERT_ID, PCERT_ID structure pointer [Security], _crypto2_cert_id, security.cert_id, wincrypt/CERT_ID, wincrypt/PCERT_ID'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_ID"
+f1_keywords:
+- wincrypt/CERT_ID
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_ID
+- CERT_ID
 product: Windows
 targetos: Windows
 req.typenames: CERT_ID, *PCERT_ID
@@ -110,7 +110,7 @@ HashId
 ### -field DUMMYUNIONNAME.IssuerSerialNumber
 
 A 
-							<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_issuer_serial_number">CERT_ISSUER_SERIAL_NUMBER</a> structure that uniquely identifies a certificate.
+							<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_issuer_serial_number">CERT_ISSUER_SERIAL_NUMBER</a> structure that uniquely identifies a certificate.
 
 
 ### -field DUMMYUNIONNAME.KeyId

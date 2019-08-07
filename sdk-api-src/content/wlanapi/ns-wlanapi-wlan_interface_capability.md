@@ -8,10 +8,10 @@ tech.root: NativeWiFi
 ms.assetid: db7a9066-d699-4860-90cd-dc3f4bf42549
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_INTERFACE_CAPABILITY, PWLAN_INTERFACE_CAPABILITY, PWLAN_INTERFACE_CAPABILITY structure pointer [NativeWIFI], WLAN_INTERFACE_CAPABILITY, WLAN_INTERFACE_CAPABILITY structure [NativeWIFI], nwifi.wlan_interface_capability, wlanapi/PWLAN_INTERFACE_CAPABILITY, wlanapi/WLAN_INTERFACE_CAPABILITY"
+ms.keywords: '*PWLAN_INTERFACE_CAPABILITY, PWLAN_INTERFACE_CAPABILITY, PWLAN_INTERFACE_CAPABILITY structure pointer [NativeWIFI], WLAN_INTERFACE_CAPABILITY, WLAN_INTERFACE_CAPABILITY structure [NativeWIFI], nwifi.wlan_interface_capability, wlanapi/PWLAN_INTERFACE_CAPABILITY, wlanapi/WLAN_INTERFACE_CAPABILITY'
 ms.topic: struct
-f1_keywords: 
- - "wlanapi/WLAN_INTERFACE_CAPABILITY"
+f1_keywords:
+- wlanapi/WLAN_INTERFACE_CAPABILITY
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - WLAN_INTERFACE_CAPABILITY
+- WLAN_INTERFACE_CAPABILITY
 product: Windows
 targetos: Windows
 req.typenames: WLAN_INTERFACE_CAPABILITY, *PWLAN_INTERFACE_CAPABILITY
@@ -61,7 +61,7 @@ The <b>WLAN_INTERFACE_CAPABILITY</b> structure contains information about the ca
 
 ### -field interfaceType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_interface_type">WLAN_INTERFACE_TYPE</a> value that indicates the type of the interface.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_interface_type">WLAN_INTERFACE_TYPE</a> value that indicates the type of the interface.
 
 
 ### -field bDot11DSupported

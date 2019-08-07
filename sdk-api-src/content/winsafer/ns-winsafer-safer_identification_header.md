@@ -66,7 +66,7 @@ The <b>SAFER_IDENTIFICATION_HEADER</b> structure is used as the header for the
 ### -field dwIdentificationType
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ne-winsafer-_safer_identification_types">SAFER_IDENTIFICATION_TYPES</a> enumeration value that indicates the type of the structure. The following table shows the possible values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ne-winsafer-safer_identification_types">SAFER_IDENTIFICATION_TYPES</a> enumeration value that indicates the type of the structure. The following table shows the possible values.
 
 <table>
 <tr>

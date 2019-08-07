@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetFaultErrorProperty, WsGetFaultErrorProperty function [Web Services for Windows], webservices/WsGetFaultErrorProperty, wsw.wsgetfaulterrorproperty
 ms.topic: function
-f1_keywords: 
- - "webservices/WsGetFaultErrorProperty"
+f1_keywords:
+- webservices/WsGetFaultErrorProperty
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsGetFaultErrorProperty
+- WsGetFaultErrorProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_fault">Fault</a> error property of an <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object referenced by the <i>error</i> parameter.
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault">Fault</a> error property of an <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object referenced by the <i>error</i> parameter.
 
 
 ## -parameters

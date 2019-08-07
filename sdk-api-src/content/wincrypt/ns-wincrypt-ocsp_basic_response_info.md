@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: f067bfa0-114b-4295-bbee-a963d8b64332
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*POCSP_BASIC_RESPONSE_INFO, OCSP_BASIC_BY_KEY_RESPONDER_ID, OCSP_BASIC_BY_NAME_RESPONDER_ID, OCSP_BASIC_RESPONSE_INFO, OCSP_BASIC_RESPONSE_INFO structure [Security], OCSP_BASIC_RESPONSE_V1, POCSP_BASIC_RESPONSE_INFO, POCSP_BASIC_RESPONSE_INFO structure pointer [Security], security.ocsp_basic_response_info, wincrypt/OCSP_BASIC_RESPONSE_INFO, wincrypt/POCSP_BASIC_RESPONSE_INFO"
+ms.keywords: '*POCSP_BASIC_RESPONSE_INFO, OCSP_BASIC_BY_KEY_RESPONDER_ID, OCSP_BASIC_BY_NAME_RESPONDER_ID, OCSP_BASIC_RESPONSE_INFO, OCSP_BASIC_RESPONSE_INFO structure [Security], OCSP_BASIC_RESPONSE_V1, POCSP_BASIC_RESPONSE_INFO, POCSP_BASIC_RESPONSE_INFO structure pointer [Security], security.ocsp_basic_response_info, wincrypt/OCSP_BASIC_RESPONSE_INFO, wincrypt/POCSP_BASIC_RESPONSE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/OCSP_BASIC_RESPONSE_INFO"
+f1_keywords:
+- wincrypt/OCSP_BASIC_RESPONSE_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - OCSP_BASIC_RESPONSE_INFO
+- OCSP_BASIC_RESPONSE_INFO
 product: Windows
 targetos: Windows
 req.typenames: OCSP_BASIC_RESPONSE_INFO, *POCSP_BASIC_RESPONSE_INFO
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
- The <b>OCSP_BASIC_RESPONSE_INFO</b> structure contains a basic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) response as specified by <a href="http://go.microsoft.com/fwlink/p/?linkid=91156">RFC 2560</a>. The RFC specifies that a single response can contain a sequence of certificates for which statuses are provided. The  <b>rgResponseEntry</b> member of this structure contains an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_basic_response_entry">OCSP_BASIC_RESPONSE_ENTRY</a> structure for each certificate in a sequence.
+ The <b>OCSP_BASIC_RESPONSE_INFO</b> structure contains a basic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) response as specified by <a href="http://go.microsoft.com/fwlink/p/?linkid=91156">RFC 2560</a>. The RFC specifies that a single response can contain a sequence of certificates for which statuses are provided. The  <b>rgResponseEntry</b> member of this structure contains an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_entry">OCSP_BASIC_RESPONSE_ENTRY</a> structure for each certificate in a sequence.
 
 
 ## -struct-fields
@@ -108,7 +108,7 @@ The number of elements in the <i>rgResponseEntry</i> array.
 
 ### -field rgResponseEntry
 
-An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_basic_response_entry">OCSP_BASIC_RESPONSE_ENTRY</a> structures, each of which contains a certificate status.
+An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_entry">OCSP_BASIC_RESPONSE_ENTRY</a> structures, each of which contains a certificate status.
 
 
 ### -field cExtension
@@ -118,14 +118,14 @@ The number of elements in the <b>rgExtension</b> array.
 
 ### -field rgExtension
 
-An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a> structures, each of which contains additional information about the response.
+An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures, each of which contains additional information about the response.
 
 
 ## -remarks
 
 
 
-OCSP responder applications encode this structure and store it in an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_basic_signed_response_info">OCSP_BASIC_SIGNED_RESPONSE_INFO</a> <b>ToBeSigned</b> member. Conversely, OCSP client applications decode the <b>OCSP_BASIC_SIGNED_RESPONSE_INFO</b> structure to obtain this structure.
+OCSP responder applications encode this structure and store it in an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_signed_response_info">OCSP_BASIC_SIGNED_RESPONSE_INFO</a> <b>ToBeSigned</b> member. Conversely, OCSP client applications decode the <b>OCSP_BASIC_SIGNED_RESPONSE_INFO</b> structure to obtain this structure.
 
 OCSP applications can encode or decode this structure by using <b>X509_ASN_ENCODING</b> or <b>PKCS_7_ASN_ENCODING</b>.
 

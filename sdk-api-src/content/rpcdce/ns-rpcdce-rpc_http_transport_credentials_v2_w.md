@@ -310,19 +310,19 @@ If the ANSI version of the <b>RpcBindingSetAuthInfoEx</b> function is used,  ANS
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_http_transport_credentials_v3_a">RPC_HTTP_TRANSPORT_CREDENTIALS_V3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_v3_a">RPC_HTTP_TRANSPORT_CREDENTIALS_V3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_security_qos">RPC_SECURITY_QOS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_security_qos_v2_a">RPC_SECURITY_QOS_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v2_a">RPC_SECURITY_QOS_V2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_security_qos_v3_a">RPC_SECURITY_QOS_V3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v3_a">RPC_SECURITY_QOS_V3</a>
 
 
 

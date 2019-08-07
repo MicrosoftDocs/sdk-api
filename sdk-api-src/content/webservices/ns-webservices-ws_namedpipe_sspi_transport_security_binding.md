@@ -55,7 +55,7 @@ The security binding subtype for specifying the use of the Windows Integrated Au
 
 This security binding operates at the transport security level and is supported only with the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_NAMEDPIPE_CHANNEL_BINDING</a>. The NamedPipe/Windows SSPI combination uses the wire form defined by the <a href="https://docs.microsoft.com/openspecs/windows_protocols/mc-nmf/0aab922d-8023-48bb-8ba2-c4d3404cc69d">NegotiateStream</a> protocol and the <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-nns/93df08eb-a6c4-4dff-81c3-519cf7236df4">.Net Message Framing</a> specification. 
 
-On the client side, the security identity of the target server is specified using the identity field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> parameter supplied during <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenchannel">WsOpenChannel</a>. 
+On the client side, the security identity of the target server is specified using the identity field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> parameter supplied during <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenchannel">WsOpenChannel</a>. 
 
 
 

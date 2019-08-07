@@ -81,7 +81,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns
 
 ### -field pFlushInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cryptnet_url_cache_flush_info">CRYPTNET_URL_CACHE_FLUSH_INFO</a> structure. To get flush information, set its <b>cbSize</b> upon input. For no flush information, except for <b>cbSize</b>, the data structure
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cryptnet_url_cache_flush_info">CRYPTNET_URL_CACHE_FLUSH_INFO</a> structure. To get flush information, set its <b>cbSize</b> upon input. For no flush information, except for <b>cbSize</b>, the data structure
     contains zero upon return.
 
 

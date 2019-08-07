@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CompareStringEx, CompareStringEx function [Internationalization for Windows Applications], LINGUISTIC_IGNORECASE, LINGUISTIC_IGNOREDIACRITIC, NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, NORM_LINGUISTIC_CASING, SORT_DIGITSASNUMBERS, SORT_STRINGSORT, _win32_CompareStringEx, _win32_CompareStringEx_cpp, intl.comparestringex, stringapiset/CompareStringEx, winui._win32_CompareStringEx
 ms.topic: function
-f1_keywords: 
- - "stringapiset/CompareStringEx"
+f1_keywords:
+- stringapiset/CompareStringEx
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-String-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-String-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - CompareStringEx
+- CompareStringEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -224,7 +224,7 @@ Length of the string indicated by <i>lpString2</i>, excluding the terminating nu
 
 ### -param lpVersionInformation [in, optional]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_nlsversioninfoex">NLSVERSIONINFOEX</a> structure that contains the version information about the relevant NLS capability; usually retrieved from <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnlsversionex">GetNLSVersionEx</a>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a> structure that contains the version information about the relevant NLS capability; usually retrieved from <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnlsversionex">GetNLSVersionEx</a>.
 
 <b>Windows Vista, Windows 7:</b> Reserved; must set to <b>NULL</b>.
 

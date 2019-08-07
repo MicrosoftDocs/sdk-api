@@ -146,7 +146,7 @@ Calling  the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_add_credentials_request_ex">KERB_ADD_CREDENTIALS_REQUEST_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_add_credentials_request_ex">KERB_ADD_CREDENTIALS_REQUEST_EX</a>
  
 
  

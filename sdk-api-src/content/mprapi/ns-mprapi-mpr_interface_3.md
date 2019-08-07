@@ -78,7 +78,7 @@ A value that specifies whether the interface is enabled. This value is <b>TRUE</
 ### -field dwIfType
 
 A value that identifies the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_router_interface_type">interface type</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_interface_type">interface type</a>.
 
 
 ### -field dwConnectionState
@@ -924,11 +924,11 @@ The following members from the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_interface_1">MPR_INTERFACE_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_1">MPR_INTERFACE_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_interface_2">MPR_INTERFACE_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_2">MPR_INTERFACE_2</a>
 
 
 

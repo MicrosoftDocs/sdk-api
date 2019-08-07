@@ -112,7 +112,7 @@ A pointer to a user context.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_query_cancel">DNS_QUERY_CANCEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_query_cancel">DNS_QUERY_CANCEL</a>
 
 
 

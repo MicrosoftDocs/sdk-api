@@ -113,11 +113,11 @@ The property configuration structures are used in calls to <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_state_info">HTTP_STATE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_state_info">HTTP_STATE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_timeout_limit_info">HTTP_TIMEOUT_LIMIT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_timeout_limit_info">HTTP_TIMEOUT_LIMIT_INFO</a>
  
 
  

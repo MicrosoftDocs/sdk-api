@@ -68,7 +68,7 @@ Indicates the beginning of the range that specifies the possible values for 802.
 
 Indicates that 802.1X authentication has a status change.
 
-The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> structure that contains 802.1X update data. 
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> structure that contains 802.1X update data. 
 
 
 ### -field OneXNotificationTypeAuthRestarted
@@ -116,7 +116,7 @@ The callback function is called with a pointer to a <a href="https://docs.micros
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a>
 
 
 

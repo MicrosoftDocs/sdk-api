@@ -79,7 +79,7 @@ A pointer to a
 
 ### -param UpcallTable [in]
 
-The Winsock 2 DLL (Ws2_32.dll) upcall dispatch table 	passed in a <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wspupcalltable">WSPUPCALLTABLE</a> structure. 
+The Winsock 2 DLL (Ws2_32.dll) upcall dispatch table 	passed in a <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wspupcalltable">WSPUPCALLTABLE</a> structure. 
 
 
 ### -param lpProcTable [out]
@@ -498,7 +498,7 @@ This same propagation policy applies when propagating a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wspupcalltable">WSPUPCALLTABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wspupcalltable">WSPUPCALLTABLE</a>
  
 
  

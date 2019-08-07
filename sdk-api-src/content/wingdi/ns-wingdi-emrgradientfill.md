@@ -134,7 +134,7 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wi
 
 
 
-This is a variable-length structure. The <b>Ver</b> member designates the beginning of the variable-length area. First comes an array of <b>nVer</b> <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a> structures to pass the vertices. Next comes an array of either <b>nTri</b> <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_gradient_triangle">GRADIENT_TRIANGLE</a> structures or <b>nTri</b> <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_gradient_rect">GRADIENT_RECT</a> structures, depending on the value of <b>ulMode</b> (triangles or rectangles).
+This is a variable-length structure. The <b>Ver</b> member designates the beginning of the variable-length area. First comes an array of <b>nVer</b> <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a> structures to pass the vertices. Next comes an array of either <b>nTri</b> <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_triangle">GRADIENT_TRIANGLE</a> structures or <b>nTri</b> <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_rect">GRADIENT_RECT</a> structures, depending on the value of <b>ulMode</b> (triangles or rectangles).
 
 This structure is to be used during metafile playback.
 
@@ -154,11 +154,11 @@ This structure is to be used during metafile playback.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_gradient_rect">GRADIENT_RECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_rect">GRADIENT_RECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_gradient_triangle">GRADIENT_TRIANGLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_triangle">GRADIENT_TRIANGLE</a>
 
 
 

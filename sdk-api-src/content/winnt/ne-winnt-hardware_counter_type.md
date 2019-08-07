@@ -8,10 +8,10 @@ tech.root: hcp
 ms.assetid: 250dd9f1-b409-4b17-bb84-bf7eba14d36e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE enumeration [Hardware Counter Profiling], MaxHardwareCounterType, PMCCounter, hcp.hardware_counter_type, winnt/HARDWARE_COUNTER_TYPE, winnt/MaxHardwareCounterType, winnt/PMCCounter"
+ms.keywords: '*PHARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE enumeration [Hardware Counter Profiling], MaxHardwareCounterType, PMCCounter, hcp.hardware_counter_type, winnt/HARDWARE_COUNTER_TYPE, winnt/MaxHardwareCounterType, winnt/PMCCounter'
 ms.topic: enum
-f1_keywords: 
- - "winnt/HARDWARE_COUNTER_TYPE"
+f1_keywords:
+- winnt/HARDWARE_COUNTER_TYPE
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - HARDWARE_COUNTER_TYPE
+- HARDWARE_COUNTER_TYPE
 product: Windows
 targetos: Windows
 req.typenames: HARDWARE_COUNTER_TYPE, *PHARDWARE_COUNTER_TYPE
@@ -74,7 +74,7 @@ The maximum enumeration value for this enumeration.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_hardware_counter_data">HARDWARE_COUNTER_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-hardware_counter_data">HARDWARE_COUNTER_DATA</a>
  
 
  

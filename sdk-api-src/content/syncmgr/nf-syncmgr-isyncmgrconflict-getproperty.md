@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Windows Shell], GetProperty method [Windows Shell],ISyncMgrConflict interface, ISyncMgrConflict interface [Windows Shell],GetProperty method, ISyncMgrConflict.GetProperty, ISyncMgrConflict::GetProperty, PKEY_DateModified, PKEY_ItemNameDisplay, PKEY_Sync_ConflictDescription, PKEY_Sync_HandlerID, PKEY_Sync_ItemID, _shell_ISyncMgrConflict_GetProperty, shell.ISyncMgrConflict_GetProperty, syncmgr/ISyncMgrConflict::GetProperty
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrConflict.GetProperty"
+f1_keywords:
+- syncmgr/ISyncMgrConflict.GetProperty
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrConflict.GetProperty
+- ISyncMgrConflict.GetProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -120,7 +120,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The properties returned are properties of the conflict and not of the <b>IShellItems</b> that are in conflict.
 
-If the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> referenced in <i>propkey</i> is not present in the property store, this method returns S_OK and the <b>vt</b> member of the structure pointed to by <i>ppropvar</i> is set to VT_EMPTY.
+If the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> referenced in <i>propkey</i> is not present in the property store, this method returns S_OK and the <b>vt</b> member of the structure pointed to by <i>ppropvar</i> is set to VT_EMPTY.
 
 
 

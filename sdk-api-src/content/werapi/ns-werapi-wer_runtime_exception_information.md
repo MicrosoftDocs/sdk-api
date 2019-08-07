@@ -81,7 +81,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-except
 
 ### -field context
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure that contains the context information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that contains the context information.
 
 
 ### -field pwszReportId

@@ -109,7 +109,7 @@ When creating a message using <a href="https://docs.microsoft.com/windows/deskto
                 
 
 This property may be specified when message properties are specified using
-                    the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_properties">WS_MESSAGE_PROPERTIES</a> structure.
+                    the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_properties">WS_MESSAGE_PROPERTIES</a> structure.
                 
 
 This property is available in all message states except <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
@@ -130,7 +130,7 @@ When creating a message using <a href="https://docs.microsoft.com/windows/deskto
                 
 
 This property may be specified when message properties are specified using 
-                    the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_properties">WS_MESSAGE_PROPERTIES</a> structure.
+                    the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_properties">WS_MESSAGE_PROPERTIES</a> structure.
                 
 
 This property is available in all message states except <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
@@ -157,12 +157,12 @@ This property is available in all message states except <a href="https://docs.mi
 
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a>.
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure  is the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_node_position">WS_XML_NODE_POSITION</a>of the header element within the header buffer (the element that contains all
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure  is the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_node_position">WS_XML_NODE_POSITION</a>of the header element within the header buffer (the element that contains all
                     the message headers as children).  The header buffer itself can be
                     obtained using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_HEADER_BUFFER</a>.
                 
 
-An application can use the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_node_position">WS_XML_NODE_POSITION</a> returned as a starting 
+An application can use the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_node_position">WS_XML_NODE_POSITION</a> returned as a starting 
                     point when reading or writing headers manually (when not using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetheader">WsSetHeader</a>, 
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetheader">WsGetHeader</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetcustomheader">WsGetCustomHeader</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsaddcustomheader">WsAddCustomHeader</a>).  
                     For example, the position can be passed to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetwriterposition">WsSetWriterPosition</a> or 
@@ -252,7 +252,7 @@ This property is used with <a href="https://docs.microsoft.com/windows/desktop/a
                     of the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a> associated with the message.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_heap_properties">WS_HEAP_PROPERTIES</a>.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_heap_properties">WS_HEAP_PROPERTIES</a>.
                 
 
 The heap is used to buffer the headers of the message.
@@ -331,7 +331,7 @@ These XML Writer properties are used by the message object when writing headers.
                     messages.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_writer_properties">WS_XML_WRITER_PROPERTIES</a>.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_properties">WS_XML_WRITER_PROPERTIES</a>.
                 
 
 The following properties may be specified:

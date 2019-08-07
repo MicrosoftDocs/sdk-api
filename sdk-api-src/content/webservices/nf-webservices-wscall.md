@@ -71,7 +71,7 @@ Pointer to a WS_SERVICE_PROXY structure representing the service proxy.
 
 ### -param operation [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_operation_description">WS_OPERATION_DESCRIPTION</a> structure containing the metadata for the call. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_operation_description">WS_OPERATION_DESCRIPTION</a> structure containing the metadata for the call. 
                 
 
 

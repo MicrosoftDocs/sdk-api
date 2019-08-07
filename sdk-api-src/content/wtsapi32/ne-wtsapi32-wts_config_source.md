@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSUserConfigSourceSAM, WTS_CONFIG_SOURCE, WTS_CONFIG_SOURCE enumeration [Remote Desktop Services], termserv.wts_config_source, wtsapi32/WTSUserConfigSourceSAM, wtsapi32/WTS_CONFIG_SOURCE
 ms.topic: enum
-f1_keywords: 
- - "wtsapi32/WTS_CONFIG_SOURCE"
+f1_keywords:
+- wtsapi32/WTS_CONFIG_SOURCE
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsapi32.h
+- Wtsapi32.h
 api_name:
- - WTS_CONFIG_SOURCE
+- WTS_CONFIG_SOURCE
 product: Windows
 targetos: Windows
 req.typenames: WTS_CONFIG_SOURCE
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the  source of configuration information returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> function. This enumeration type is used in the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtsuserconfiga">WTSUSERCONFIG</a> structure.
+Specifies the  source of configuration information returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> function. This enumeration type is used in the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsuserconfiga">WTSUSERCONFIG</a> structure.
 
 
 ## -enum-fields
@@ -73,7 +73,7 @@ The configuration information came from the Security Accounts Manager (SAM) data
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtsuserconfiga">WTSUSERCONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsuserconfiga">WTSUSERCONFIG</a>
  
 
  

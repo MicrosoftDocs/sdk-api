@@ -163,7 +163,7 @@ When the Digest SSP is used as an SASL mechanism, the buffers should be configur
 <td width="60%">
 Empty. Receives the signature. This buffer must be large enough to hold the largest possible signature. Determine the size required by calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function and specifying SECPKG_ATTR_SIZES. Check the returned 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_sizes">SecPkgContext_Sizes</a> structure member <b>cbMaxSignature</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_sizes">SecPkgContext_Sizes</a> structure member <b>cbMaxSignature</b>.
 
 </td>
 </tr>

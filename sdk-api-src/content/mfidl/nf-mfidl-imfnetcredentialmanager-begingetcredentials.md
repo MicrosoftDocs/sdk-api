@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginGetCredentials, BeginGetCredentials method [Media Foundation], BeginGetCredentials method [Media Foundation],IMFNetCredentialManager interface, IMFNetCredentialManager interface [Media Foundation],BeginGetCredentials method, IMFNetCredentialManager.BeginGetCredentials, IMFNetCredentialManager::BeginGetCredentials, ff11ff99-18bf-4c4c-93fd-31c06309f105, mf.imfnetcredentialmanager_begingetcredentials, mfidl/IMFNetCredentialManager::BeginGetCredentials
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFNetCredentialManager.BeginGetCredentials"
+f1_keywords:
+- mfidl/IMFNetCredentialManager.BeginGetCredentials
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFNetCredentialManager.BeginGetCredentials
+- IMFNetCredentialManager.BeginGetCredentials
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Begins an asynchronous request to retrieve the user's credentials.
 
 ### -param pParam [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-_mfnetcredentialmanagergetparam">MFNetCredentialManagerGetParam</a> structure.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mfnetcredentialmanagergetparam">MFNetCredentialManagerGetParam</a> structure.
 
 
 ### -param pCallback [in]

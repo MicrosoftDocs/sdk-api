@@ -78,7 +78,7 @@ For displays, this member should be set to zero.
 
 ### -field ColorInfo
 
-Is a caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_colorinfo">COLORINFO</a> structure containing halftoning color information.
+Is a caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a> structure containing halftoning color information.
 
 
 ## -see-also
@@ -86,7 +86,7 @@ Is a caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/de
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_colorinfo">COLORINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a>
 
 
 

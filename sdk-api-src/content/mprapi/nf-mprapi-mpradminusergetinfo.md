@@ -89,7 +89,7 @@ This parameter may be zero or one.
 ### -param lpbBuffer [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_user_0">RAS_USER_0</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_user_1">RAS_USER_1</a> structure. The caller must allocate (and free) the memory for this structure. Upon successful return, this structure contains the RAS data for the specified user. 
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_user_0">RAS_USER_0</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_user_1">RAS_USER_1</a> structure. The caller must allocate (and free) the memory for this structure. Upon successful return, this structure contains the RAS data for the specified user. 
 
 
 

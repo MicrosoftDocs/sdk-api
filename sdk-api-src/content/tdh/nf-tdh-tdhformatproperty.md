@@ -63,7 +63,7 @@ Formats a property value for display.
 
 ### -param EventInfo [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_trace_event_info">TRACE_EVENT_INFO</a> structure that contains the event information. To get this structure, call the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgeteventinformation">TdhGetEventInformation</a> function.
+A <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a> structure that contains the event information. To get this structure, call the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgeteventinformation">TdhGetEventInformation</a> function.
 
 
 ### -param MapInfo [in, optional]
@@ -73,7 +73,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_map_
 
 ### -param PointerSize [in]
 
-The size of a pointer value in the event data. To get the size, access the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header">EVENT_RECORD.EventHeader.Flags</a> member. The pointer size is 4 bytes if the EVENT_HEADER_FLAG_32_BIT_HEADER flag is set; otherwise, it is 8 bytes if the EVENT_HEADER_FLAG_64_BIT_HEADER flag is set. The <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a> structure is passed to your <a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> callback function.
+The size of a pointer value in the event data. To get the size, access the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_RECORD.EventHeader.Flags</a> member. The pointer size is 4 bytes if the EVENT_HEADER_FLAG_32_BIT_HEADER flag is set; otherwise, it is 8 bytes if the EVENT_HEADER_FLAG_64_BIT_HEADER flag is set. The <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a> structure is passed to your <a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> callback function.
 
 
 ### -param PropertyInType [in]
@@ -170,7 +170,7 @@ The event data does not match the event definition in the manifest.
 
 
 
-Typically, you call this function in a loop.  Use the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_trace_event_info">TRACE_EVENT_INFO.TopLevelPropertyCount</a> member to control the loop (the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgeteventinformation">TdhGetEventInformation</a> function returns the  <b>TRACE_EVENT_INFO</b> structure). Before entering the loop, you set the <i>UserData</i> and <i>UserDataLength</i> parameters to the value of the <b>UserData</b> and <b>UserDataLength</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a> structure, respectively. The <b>EVENT_RECORD</b> structure is passed to your <a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> callback function. 
+Typically, you call this function in a loop.  Use the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO.TopLevelPropertyCount</a> member to control the loop (the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgeteventinformation">TdhGetEventInformation</a> function returns the  <b>TRACE_EVENT_INFO</b> structure). Before entering the loop, you set the <i>UserData</i> and <i>UserDataLength</i> parameters to the value of the <b>UserData</b> and <b>UserDataLength</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a> structure, respectively. The <b>EVENT_RECORD</b> structure is passed to your <a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> callback function. 
 
 Determine whether the property is an array. The property is an array if the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO.Flags</a> member is set to PropertyParamCount or the <b>EVENT_PROPERTY_INFO.count</b> member is greater than 1. Call the <b>TdhFormatProperty</b> function in a loop based on the number of elements in the array.
 

@@ -65,7 +65,7 @@ The types supported for serialization.
 Used when serializing a <b>BOOL</b> value.
                 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_bool_description">WS_BOOL_DESCRIPTION</a> type description can optionally be
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_bool_description">WS_BOOL_DESCRIPTION</a> type description can optionally be
                     specified for this type in order to constrain the allowed values.
                 
 

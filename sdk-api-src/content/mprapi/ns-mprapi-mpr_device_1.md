@@ -65,7 +65,7 @@ The
 ### -field szDeviceType
 
 Specifies a null-terminated string that indicates the device type referenced by <b>szDeviceName</b>. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_interface_2">MPR_INTERFACE_2</a> for a list of possible device types.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_2">MPR_INTERFACE_2</a> for a list of possible device types.
 
 
 ### -field szDeviceName

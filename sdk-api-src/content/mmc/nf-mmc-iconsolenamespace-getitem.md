@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItem, GetItem method [MMC], GetItem method [MMC],IConsoleNameSpace interface, GetItem method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace interface [MMC],GetItem method, IConsoleNameSpace.GetItem, IConsoleNameSpace2 interface [MMC],GetItem method, IConsoleNameSpace2::GetItem, IConsoleNameSpace::GetItem, _slate_iconsolenamespace2_getitem, mmc.iconsolenamespace2_getitem, mmc/IConsoleNameSpace2::GetItem, mmc/IConsoleNameSpace::GetItem
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsoleNameSpace.GetItem"
+f1_keywords:
+- mmc/IConsoleNameSpace.GetItem
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsoleNameSpace.GetItem
- - IConsoleNameSpace2.GetItem
+- IConsoleNameSpace.GetItem
+- IConsoleNameSpace2.GetItem
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The <b>IConsoleNameSpace2::GetItem</b> method enables the snap-in to retrieve so
 ### -param item [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_scopedataitem">SCOPEDATAITEM</a> structure that specifies the information to retrieve and receives information about the item. When the message is sent, the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-scopedataitem">SCOPEDATAITEM</a> structure that specifies the information to retrieve and receives information about the item. When the message is sent, the 
 ID member of the structure identifies the item and the mask member specifies the attributes to retrieve.
 
 If mask specifies the <b>SDI_STATE</b> value, the <b>nState</b> member contains the item's state information.

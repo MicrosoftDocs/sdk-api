@@ -136,7 +136,7 @@ The default value is 32.
 This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemetadata">WsCreateMetadata</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_metadata_property">WS_METADATA_PROPERTY</a> is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_host_names">WS_HOST_NAMES</a> structure.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_metadata_property">WS_METADATA_PROPERTY</a> is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_host_names">WS_HOST_NAMES</a> structure.
                 
 
 This property may only be specified if <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_metadata_property_id">WS_METADATA_PROPERTY_VERIFY_HOST_NAMES</a> is <b>TRUE</b>.

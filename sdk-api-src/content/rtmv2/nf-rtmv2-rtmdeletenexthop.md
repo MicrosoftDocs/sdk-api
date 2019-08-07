@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtmDeleteNextHop, RtmDeleteNextHop function [RAS], _rtmv2ref_rtmdeletenexthop, rras.rtmdeletenexthop, rtmv2/RtmDeleteNextHop
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmDeleteNextHop"
+f1_keywords:
+- rtmv2/RtmDeleteNextHop
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmDeleteNextHop
+- RtmDeleteNextHop
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -147,7 +147,7 @@ If a client specifies a <i>NextHopHandle</i>, the client should not subsequently
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_nexthop_info">RTM_NEXTHOP_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_nexthop_info">RTM_NEXTHOP_INFO</a>
 
 
 

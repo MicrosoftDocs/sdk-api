@@ -176,7 +176,7 @@ The constants defined here are used in the <b>TriggerType</b> member of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-_task_trigger_type2">TASK_TRIGGER_TYPE2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-task_trigger_type2">TASK_TRIGGER_TYPE2</a>
 
 
 

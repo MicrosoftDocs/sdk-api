@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSCWriteProviderOrder, WSCWriteProviderOrder function [Winsock], _win32_wscwriteproviderorder_2, sporder/WSCWriteProviderOrder, winsock.wscwriteproviderorder_2
 ms.topic: function
-f1_keywords: 
- - "sporder/WSCWriteProviderOrder"
+f1_keywords:
+- sporder/WSCWriteProviderOrder
 req.header: sporder.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Sporder.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSCWriteProviderOrder
+- WSCWriteProviderOrder
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The
 ### -param lpwdCatalogEntryId [in]
 
 A pointer to an array of <b>CatalogEntryId</b> elements found in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. The order of the <b>CatalogEntryId</b> elements is the new priority ordering for the protocols.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. The order of the <b>CatalogEntryId</b> elements is the new priority ordering for the protocols.
 
 
 ### -param dwNumberOfEntries [in]
@@ -173,7 +173,7 @@ The <b>WSCWriteProviderOrder</b> function can only be called by a user logged on
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a>
 
 
 

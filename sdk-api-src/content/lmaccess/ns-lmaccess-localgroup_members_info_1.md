@@ -65,7 +65,7 @@ The
 Type: <b>PSID</b>
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that contains the security identifier (SID) of an account that is a member of this local group member. The account can be a user account or a global group account.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that contains the security identifier (SID) of an account that is a member of this local group member. The account can be a user account or a global group account.
 
 
 ### -field lgrmi1_sidusage
@@ -165,7 +165,7 @@ User account names are limited to 20 characters and group names are limited to 2
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_members_info_3">LOCALGROUP_MEMBERS_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_3">LOCALGROUP_MEMBERS_INFO_3</a>
 
 
 

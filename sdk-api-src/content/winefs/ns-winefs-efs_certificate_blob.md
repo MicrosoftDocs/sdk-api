@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: e0d0aa0a-ac87-4734-93d0-30c2080319e8
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEFS_CERTIFICATE_BLOB, CRYPT_ASN_ENCODING, CRYPT_NDR_ENCODING, EFS_CERTIFICATE_BLOB, EFS_CERTIFICATE_BLOB structure [Files], PEFS_CERTIFICATE_BLOB, PEFS_CERTIFICATE_BLOB structure pointer [Files], X509_ASN_ENCODING, X509_NDR_ENCODING, _win32_efs_certificate_blob_str, base.efs_certificate_blob_str, fs.efs_certificate_blob_str, winefs/EFS_CERTIFICATE_BLOB, winefs/PEFS_CERTIFICATE_BLOB"
+ms.keywords: '*PEFS_CERTIFICATE_BLOB, CRYPT_ASN_ENCODING, CRYPT_NDR_ENCODING, EFS_CERTIFICATE_BLOB, EFS_CERTIFICATE_BLOB structure [Files], PEFS_CERTIFICATE_BLOB, PEFS_CERTIFICATE_BLOB structure pointer [Files], X509_ASN_ENCODING, X509_NDR_ENCODING, _win32_efs_certificate_blob_str, base.efs_certificate_blob_str, fs.efs_certificate_blob_str, winefs/EFS_CERTIFICATE_BLOB, winefs/PEFS_CERTIFICATE_BLOB'
 ms.topic: struct
-f1_keywords: 
- - "winefs/EFS_CERTIFICATE_BLOB"
+f1_keywords:
+- winefs/EFS_CERTIFICATE_BLOB
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winefs.h
+- Winefs.h
 api_name:
- - EFS_CERTIFICATE_BLOB
+- EFS_CERTIFICATE_BLOB
 product: Windows
 targetos: Windows
 req.typenames: EFS_CERTIFICATE_BLOB, *PEFS_CERTIFICATE_BLOB
@@ -132,7 +132,7 @@ The binary certificate. The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_encryption_certificate">ENCRYPTION_CERTIFICATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-encryption_certificate">ENCRYPTION_CERTIFICATE</a>
 
 
 

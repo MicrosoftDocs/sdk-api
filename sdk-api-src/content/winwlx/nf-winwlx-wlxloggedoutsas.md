@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WLX_LOGON_OPT_NO_PROFILE, WLX_SAS_TYPE_CTRL_ALT_DEL, WLX_SAS_TYPE_SC_INSERT, WLX_SAS_TYPE_SC_REMOVE, WLX_SAS_TYPE_TIMEOUT, WlxLoggedOutSAS, WlxLoggedOutSAS function [Security], _gina_wlxloggedoutsas, security.wlxloggedoutsas, winwlx/WlxLoggedOutSAS
 ms.topic: function
-f1_keywords: 
- - "winwlx/WlxLoggedOutSAS"
+f1_keywords:
+- winwlx/WlxLoggedOutSAS
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WlxLoggedOutSAS
+- WlxLoggedOutSAS
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -124,14 +124,14 @@ Indicates that no user input was received within the specified time-out period.
 
 ### -param pAuthenticationId [out]
 
-Specifies the authentication identifier associated with the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>. You can get this value by calling <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a> to obtain a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_statistics">TOKEN_STATISTICS</a> structure for the token returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function.
+Specifies the authentication identifier associated with the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>. You can get this value by calling <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a> to obtain a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_statistics">TOKEN_STATISTICS</a> structure for the token returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function.
 
 
 ### -param pLogonSid [in, out]
 
 On input, this parameter points to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) that is unique to the current logon session. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> uses this SID to change the protection on the window station and application desktop so that the new logged-on user can access them.
 
-On output, Winlogon provides a SID. You can also get the SID by using the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a> function to retrieve a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a> structure for the token returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function. To do this, search the array returned in the <b>TOKEN_GROUPS</b> structure for the group with the SE_GROUP_LOGON_ID attribute.
+On output, Winlogon provides a SID. You can also get the SID by using the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a> function to retrieve a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure for the token returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function. To do this, search the array returned in the <b>TOKEN_GROUPS</b> structure for the group with the SE_GROUP_LOGON_ID attribute.
 
 
 ### -param pdwOptions [out]
@@ -169,7 +169,7 @@ If you need this handle after calling the <a href="https://docs.microsoft.com/wi
 ### -param pNprNotifyInfo [out]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_mpr_notify_info">WLX_MPR_NOTIFY_INFO</a> structure that contains domain, user name, and password information for the user. Winlogon will use this information to provide identification and authentication information to network providers.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_mpr_notify_info">WLX_MPR_NOTIFY_INFO</a> structure that contains domain, user name, and password information for the user. Winlogon will use this information to provide identification and authentication information to network providers.
 
 The GINA is not required to return password information. Any <b>NULL</b> fields within the structure will be ignored by Winlogon. Use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> to allocate each string; Winlogon will free them when they are no longer needed.
 
@@ -181,8 +181,8 @@ For information about protecting passwords, see <a href="https://docs.microsoft.
 ### -param pProfile [out]
 
 On return from a successful authentication, the <i>pProfile</i> parameter points to either a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_profile_v1_0">WLX_PROFILE_V1_0</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_profile_v2_0">WLX_PROFILE_V2_0</a> structure. The first <b>DWORD</b> in the structure indicates which structure it is. Winlogon uses this structure to load the profile of the logged-on user, and frees the memory associated with the structure when it no longer needs it.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_profile_v1_0">WLX_PROFILE_V1_0</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_profile_v2_0">WLX_PROFILE_V2_0</a> structure. The first <b>DWORD</b> in the structure indicates which structure it is. Winlogon uses this structure to load the profile of the logged-on user, and frees the memory associated with the structure when it no longer needs it.
 
 
 ## -returns

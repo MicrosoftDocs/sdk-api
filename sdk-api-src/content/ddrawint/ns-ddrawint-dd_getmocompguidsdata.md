@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: d1507771-c2bc-4d10-a49e-57a3b60ac604
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_GETMOCOMPGUIDSDATA, DD_GETMOCOMPGUIDSDATA, DD_GETMOCOMPGUIDSDATA structure [Display Devices], ddrawint/DD_GETMOCOMPGUIDSDATA, ddstrcts_fb041d18-05e9-4ef4-bb69-6dedf60bec78.xml, display.dd_getmocompguidsdata"
+ms.keywords: '*PDD_GETMOCOMPGUIDSDATA, DD_GETMOCOMPGUIDSDATA, DD_GETMOCOMPGUIDSDATA structure [Display Devices], ddrawint/DD_GETMOCOMPGUIDSDATA, ddstrcts_fb041d18-05e9-4ef4-bb69-6dedf60bec78.xml, display.dd_getmocompguidsdata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_GETMOCOMPGUIDSDATA"
+f1_keywords:
+- ddrawint/DD_GETMOCOMPGUIDSDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_GETMOCOMPGUIDSDATA
+- DD_GETMOCOMPGUIDSDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_GETMOCOMPGUIDSDATA, DD_GETMOCOMPGUIDSDATA"
+req.typenames: '*PDD_GETMOCOMPGUIDSDATA, DD_GETMOCOMPGUIDSDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,7 +61,7 @@ The DD_GETMOCOMPGUIDSDATA structure contains the motion compensation GUID inform
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
 
 ### -field dwNumGuids

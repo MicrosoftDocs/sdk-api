@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMCPropPageCallback, MMCPropPageCallback callback, MMCPropPageCallback callback function [MMC], _slate_mmcproppagecallback, mmc.mmcproppagecallback, mmc/MMCPropPageCallback
 ms.topic: function
-f1_keywords: 
- - "mmc/MMCPropPageCallback"
+f1_keywords:
+- mmc/MMCPropPageCallback
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - MMCPropPageCallback
+- MMCPropPageCallback
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The
 ### -param vpsp
 
 A pointer to the Microsoft Windows 
-<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> structure. Be aware that by default, MFC installs its own callback in the <b>pfnCallback</b> member of the structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure. Be aware that by default, MFC installs its own callback in the <b>pfnCallback</b> member of the structure.
 
 
 ## -returns

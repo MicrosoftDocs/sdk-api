@@ -105,7 +105,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-w
 
 ### -param pptlDitherOrg [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a> structure that defines the origin on the surface for dithering. The upper left pixel of the dither pattern is aligned with this point.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that defines the origin on the surface for dithering. The upper left pixel of the dither pattern is aligned with this point.
 
 
 ### -param ulMode [in]

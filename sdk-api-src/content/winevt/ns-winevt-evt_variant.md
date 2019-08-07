@@ -278,7 +278,7 @@ You can use the <a href="https://docs.microsoft.com/windows/desktop/WES/windows-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_system_property_id">EVT_SYSTEM_PROPERTY_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_system_property_id">EVT_SYSTEM_PROPERTY_ID</a>
 
 
 

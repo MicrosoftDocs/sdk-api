@@ -261,11 +261,11 @@ When the <i>dwControlFlags</i> parameter is set to <b>SERVICE_MULTIPLE</b>, an a
 
 When the <i>dwControlFlags</i> parameter is set to <b>SERVICE_MULTIPLE</b>, an application must not let stale addresses remain in the object. This can happen if the application aborts without issuing a DEREGISTER request. When a service registers, it should store its addresses. On its next invocation, the service should explicitly remove these old stale addresses from the registry before registering new addresses.
 
-<div class="alert"><b>Note</b>  If ANSI character strings are used, there is a chance that the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> data in <i>lpqsRegInfo</i> may not contain any results after this function returns. This is because the ANSI version of this method, <b>WSASetServiceA</b>, converts the ANSI data in <b>WSAQUERYSET</b> to Unicode internally, but does not convert the results back to ANSI. This primarily impacts transports that return a "service record handle" used to uniquely identify a record. To work around this issue, applications should use Unicode string data in <b>WSAQUERYSET</b> when calling this function.</div>
+<div class="alert"><b>Note</b>  If ANSI character strings are used, there is a chance that the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> data in <i>lpqsRegInfo</i> may not contain any results after this function returns. This is because the ANSI version of this method, <b>WSASetServiceA</b>, converts the ANSI data in <b>WSAQUERYSET</b> to Unicode internally, but does not convert the results back to ANSI. This primarily impacts transports that return a "service record handle" used to uniquely identify a record. To work around this issue, applications should use Unicode string data in <b>WSAQUERYSET</b> when calling this function.</div>
 <div> </div>
 <h3><a id="Service_Properties"></a><a id="service_properties"></a><a id="SERVICE_PROPERTIES"></a>Service Properties</h3>
 The following table describes how service property data is represented in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> structure. Fields labeled as (Optional) can contain a null pointer.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure. Fields labeled as (Optional) can contain a null pointer.
 
 <table>
 <tr>
@@ -274,7 +274,7 @@ The following table describes how service property data is represented in a
 </tr>
 <tr>
 <td><b>dwSize</b></td>
-<td>Must be set to sizeof (<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a>). This is a versioning mechanism.</td>
+<td>Must be set to sizeof (<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a>). This is a versioning mechanism.</td>
 </tr>
 <tr>
 <td><b>dwOutputFlags</b></td>

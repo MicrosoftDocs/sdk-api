@@ -71,7 +71,7 @@ A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy
 ### -param InformationClass [in]
 
 Specifies one of the following values from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_policy_information_class">POLICY_INFORMATION_CLASS</a> enumeration type. The value indicates the type of information to set. 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_information_class">POLICY_INFORMATION_CLASS</a> enumeration type. The value indicates the type of information to set. 
 
 
 
@@ -90,7 +90,7 @@ Specifies one of the following values from the
 </td>
 <td width="60%">
 Sets the system's auditing rules. The handle passed in the <i>PolicyHandle</i> parameter must have the POLICY_SET_AUDIT_REQUIREMENTS access right. The <i>Buffer</i> parameter must be a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_audit_events_info">POLICY_AUDIT_EVENTS_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-policy_audit_events_info">POLICY_AUDIT_EVENTS_INFO</a> structure.
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ Sets the name and SID of the system's account domain. The handle passed in the <
 </td>
 <td width="60%">
 Sets Domain Name System (DNS) information about the primary domain associated with the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object. The handle passed in the <i>PolicyHandle</i> parameter must have the POLICY_TRUST_ADMIN access right. The <i>Buffer</i> parameter must be a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_policy_dns_domain_info">POLICY_DNS_DOMAIN_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-policy_dns_domain_info">POLICY_DNS_DOMAIN_INFO</a> structure.
 
 </td>
 </tr>
@@ -173,11 +173,11 @@ You can use the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_audit_events_info">POLICY_AUDIT_EVENTS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-policy_audit_events_info">POLICY_AUDIT_EVENTS_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_policy_dns_domain_info">POLICY_DNS_DOMAIN_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-policy_dns_domain_info">POLICY_DNS_DOMAIN_INFO</a>
 
 
 

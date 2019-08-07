@@ -61,7 +61,7 @@ The <b>CRED_MARSHAL_TYPE</b> enumeration specifies the types of credential to be
 
 ### -field CertCredential
 
-Specifies that the credential is a certificate reference described by a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_cert_credential_info">CERT_CREDENTIAL_INFO</a> structure.
+Specifies that the credential is a certificate reference described by a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-cert_credential_info">CERT_CREDENTIAL_INFO</a> structure.
 
 
 ### -field UsernameTargetCredential

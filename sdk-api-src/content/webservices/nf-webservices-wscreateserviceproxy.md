@@ -83,7 +83,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
 
 ### -param properties
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_proxy_property">WS_PROXY_PROPERTY</a> structures containing optional properties for the service proxy.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_proxy_property">WS_PROXY_PROPERTY</a> structures containing optional properties for the service proxy.
 
 The value of this parameter may be <b>NULL</b>, in which case, the <i>propertyCount</i> parameter must be 0 (zero).
                 
@@ -97,7 +97,7 @@ The number of properties in the <i>properties</i> array.
 
 ### -param channelProperties
 
-An array of  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_channel_property">WS_CHANNEL_PROPERTY</a>  structures containing optional channel properties.  The value of this parameter may be <b>NULL</b>, in which case, the <i>channelPropertyCount</i> parameter must be 0 (zero).
+An array of  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_channel_property">WS_CHANNEL_PROPERTY</a>  structures containing optional channel properties.  The value of this parameter may be <b>NULL</b>, in which case, the <i>channelPropertyCount</i> parameter must be 0 (zero).
                 
 
 <div class="alert"><b>Note</b>  Be very careful about modifying the default values for these properties.</div>

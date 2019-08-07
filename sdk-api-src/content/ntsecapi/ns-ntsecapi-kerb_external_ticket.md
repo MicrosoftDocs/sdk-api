@@ -54,7 +54,7 @@ ms.custom: 19H1
 The <b>KERB_EXTERNAL_TICKET</b> structure contains information about an external ticket.
 
 An external ticket is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> ticket exported to external users. The Kerberos ticket is defined in Internet <a href="http://www.ietf.org/rfc/rfc4120.txt">RFC 4120</a>. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84023">http://www.ietf.org</a>. This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_retrieve_tkt_response">KERB_RETRIEVE_TKT_RESPONSE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_retrieve_tkt_response">KERB_RETRIEVE_TKT_RESPONSE</a> structure.
 
 
 ## -struct-fields

@@ -8,10 +8,10 @@ tech.root: TermServ
 ms.assetid: 0D82D26F-1EA6-45A5-90DF-80BE144DC3BF
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWRDS_CONNECTION_SETTING_LEVEL, PWRDS_CONNECTION_SETTING_LEVEL, PWRDS_CONNECTION_SETTING_LEVEL enumeration pointer [Remote Desktop Services], WRDS_CONNECTION_SETTING_LEVEL, WRDS_CONNECTION_SETTING_LEVEL enumeration [Remote Desktop Services], WRDS_CONNECTION_SETTING_LEVEL_1, WRDS_CONNECTION_SETTING_LEVEL_INVALID, termserv.wrds_connection_setting_level, wtsdefs/PWRDS_CONNECTION_SETTING_LEVEL, wtsdefs/WRDS_CONNECTION_SETTING_LEVEL, wtsdefs/WRDS_CONNECTION_SETTING_LEVEL_1, wtsdefs/WRDS_CONNECTION_SETTING_LEVEL_INVALID"
+ms.keywords: '*PWRDS_CONNECTION_SETTING_LEVEL, PWRDS_CONNECTION_SETTING_LEVEL, PWRDS_CONNECTION_SETTING_LEVEL enumeration pointer [Remote Desktop Services], WRDS_CONNECTION_SETTING_LEVEL, WRDS_CONNECTION_SETTING_LEVEL enumeration [Remote Desktop Services], WRDS_CONNECTION_SETTING_LEVEL_1, WRDS_CONNECTION_SETTING_LEVEL_INVALID, termserv.wrds_connection_setting_level, wtsdefs/PWRDS_CONNECTION_SETTING_LEVEL, wtsdefs/WRDS_CONNECTION_SETTING_LEVEL, wtsdefs/WRDS_CONNECTION_SETTING_LEVEL_1, wtsdefs/WRDS_CONNECTION_SETTING_LEVEL_INVALID'
 ms.topic: enum
-f1_keywords: 
- - "wtsdefs/WRDS_CONNECTION_SETTING_LEVEL"
+f1_keywords:
+- wtsdefs/WRDS_CONNECTION_SETTING_LEVEL
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsdefs.h
+- Wtsdefs.h
 api_name:
- - WRDS_CONNECTION_SETTING_LEVEL
+- WRDS_CONNECTION_SETTING_LEVEL
 product: Windows
 targetos: Windows
 req.typenames: WRDS_CONNECTION_SETTING_LEVEL, *PWRDS_CONNECTION_SETTING_LEVEL
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the type of structure contained in the <b>WRdsConnectionSetting</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_connection_settings">WRDS_CONNECTION_SETTINGS</a> structure.
+Specifies the type of structure contained in the <b>WRdsConnectionSetting</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_connection_settings">WRDS_CONNECTION_SETTINGS</a> structure.
 
 
 ## -enum-fields
@@ -66,5 +66,5 @@ The type of structure is not defined.
 
 ### -field WRDS_CONNECTION_SETTING_LEVEL_1
 
-The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_connection_settings_1">WRDS_CONNECTION_SETTINGS_1</a> structure.
+The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_connection_settings_1">WRDS_CONNECTION_SETTINGS_1</a> structure.
 

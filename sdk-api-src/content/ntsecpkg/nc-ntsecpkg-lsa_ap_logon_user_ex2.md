@@ -69,7 +69,7 @@ Pointer to a
 ### -param LogonType [in]
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_security_logon_type">SECURITY_LOGON_TYPE</a> value that identifies the type of logon.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-security_logon_type">SECURITY_LOGON_TYPE</a> value that identifies the type of logon.
 
 
 ### -param ProtocolSubmitBuffer [in]

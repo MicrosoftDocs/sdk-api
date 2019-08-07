@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The optional parameters for configuring the service host.
-            This enumeration is used within the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_property">WS_SERVICE_PROPERTY</a> structure when calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateservicehost">WsCreateServiceHost</a> or by itself when calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetservicehostproperty">WsGetServiceHostProperty</a>.
+            This enumeration is used within the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_property">WS_SERVICE_PROPERTY</a> structure when calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateservicehost">WsCreateServiceHost</a> or by itself when calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetservicehostproperty">WsGetServiceHostProperty</a>.
 
 
 ## -enum-fields

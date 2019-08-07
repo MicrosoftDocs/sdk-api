@@ -90,7 +90,7 @@ The address of a null-terminated ANSI string that identifies the type of object 
 </dl>
 </td>
 <td width="60%">
-Retrieve one or more data <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOBs</a>. The encoded bits are returned in an array of BLOBs. <i>ppvObject</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_blob_array">CRYPT_BLOB_ARRAY</a> structure pointer that receives the BLOB array. When this structure is no longer needed, you must free it by passing the address of this structure to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> function.
+Retrieve one or more data <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOBs</a>. The encoded bits are returned in an array of BLOBs. <i>ppvObject</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_blob_array">CRYPT_BLOB_ARRAY</a> structure pointer that receives the BLOB array. When this structure is no longer needed, you must free it by passing the address of this structure to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> function.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Retrieve one or more data <a href="https://docs.microsoft.com/windows/desktop/Se
 <td width="60%">
 Retrieve one or more certificates.
 
-If a single object is being retrieved, <i>ppvObject</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure pointer that receives the context. When this context is no longer needed, you must free it by passing the <b>CERT_CONTEXT</b> structure pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
+If a single object is being retrieved, <i>ppvObject</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure pointer that receives the context. When this context is no longer needed, you must free it by passing the <b>CERT_CONTEXT</b> structure pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
 
 If multiple objects are being retrieved, <i>ppvObject</i> is the address of an <b>HCERTSTORE</b> variable that receives the handle of a store that contains the certificates. When this store is no longer needed, you must close it by passing this handle to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
 
@@ -133,7 +133,7 @@ If multiple objects are being retrieved, <i>ppvObject</i> is the address of an <
 <td width="60%">
 Retrieve one or more <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs). 
 
-If a single object is being retrieved, <i>ppvObject</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure pointer that receives the context. When this context is no longer needed, you must free it by passing the <b>CTL_CONTEXT</b> structure pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a> function.
+If a single object is being retrieved, <i>ppvObject</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure pointer that receives the context. When this context is no longer needed, you must free it by passing the <b>CTL_CONTEXT</b> structure pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a> function.
 
 If multiple objects are being retrieved, <i>ppvObject</i> is the address of an <b>HCERTSTORE</b> variable that receives the handle of a store that contains the CTLs. When this store is no longer needed, you must close it by passing this handle to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
 
@@ -168,7 +168,7 @@ If multiple objects are being retrieved, <i>ppvObject</i> is the address of an <
 </dl>
 </td>
 <td width="60%">
-<i>ppvObject</i> is the address of a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_blob_array">CRYPT_BLOB_ARRAY</a> structure.
+<i>ppvObject</i> is the address of a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_blob_array">CRYPT_BLOB_ARRAY</a> structure.
 
 </td>
 </tr>
@@ -413,7 +413,7 @@ A pointer to a verification object. This object is a function of the <i>dwRetrie
 ### -param pAuxInfo [in]
 
 An optional pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure. If not <b>NULL</b> and if the <b>cbSize</b> member of the structure is set, this parameter returns the time of the last successful wire retrieval.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure. If not <b>NULL</b> and if the <b>cbSize</b> member of the structure is set, this parameter returns the time of the last successful wire retrieval.
 
 
 ## -returns

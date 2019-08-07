@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NTMS_DRIVEINFORMATION, NTMS_DRIVEINFORMATION structure [Files], NTMS_DRIVEINFORMATIONA, NTMS_DRIVEINFORMATIONW, NTMS_DRIVESTATE_BEING_CLEANED, NTMS_DRIVESTATE_DISMOUNTABLE, NTMS_DRIVESTATE_DISMOUNTED, NTMS_DRIVESTATE_LOADED, NTMS_DRIVESTATE_MOUNTED, NTMS_DRIVESTATE_UNLOADED, _NTMS_DRIVEINFORMATIONA, _NTMS_DRIVEINFORMATIONW, _zaw_ntms_driveinformation, base.ntms_driveinformation, fs.ntms_driveinformation, ntmsapi/NTMS_DRIVEINFORMATION
 ms.topic: struct
-f1_keywords: 
- - "ntmsapi/NTMS_DRIVEINFORMATION"
+f1_keywords:
+- ntmsapi/NTMS_DRIVEINFORMATION
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntmsapi.h
+- Ntmsapi.h
 api_name:
- - NTMS_DRIVEINFORMATION
- - NTMS_DRIVEINFORMATIONA
- - NTMS_DRIVEINFORMATIONW
+- NTMS_DRIVEINFORMATION
+- NTMS_DRIVEINFORMATIONA
+- NTMS_DRIVEINFORMATIONW
 product: Windows
 targetos: Windows
 req.typenames: NTMS_DRIVEINFORMATIONA
@@ -220,7 +220,7 @@ Minimum number of seconds a medium will remain in a drive of a library after a d
 
 The 
 <b>NTMS_DRIVEINFORMATION</b> structure is included in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
 
 
@@ -230,7 +230,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
  
 
  

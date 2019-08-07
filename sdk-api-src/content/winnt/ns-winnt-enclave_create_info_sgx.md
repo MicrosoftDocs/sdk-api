@@ -8,10 +8,10 @@ tech.root: Memory
 ms.assetid: 51ED6E75-DA18-4CCE-8718-46328DD62B07
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PENCLAVE_CREATE_INFO_SGX, ENCLAVE_CREATE_INFO_SGX, ENCLAVE_CREATE_INFO_SGX structure, PENCLAVE_CREATE_INFO_SGX, PENCLAVE_CREATE_INFO_SGX structure pointer, base.enclave_create_info_sgx, winnt/ENCLAVE_CREATE_INFO_SGX, winnt/PENCLAVE_CREATE_INFO_SGX"
+ms.keywords: '*PENCLAVE_CREATE_INFO_SGX, ENCLAVE_CREATE_INFO_SGX, ENCLAVE_CREATE_INFO_SGX structure, PENCLAVE_CREATE_INFO_SGX, PENCLAVE_CREATE_INFO_SGX structure pointer, base.enclave_create_info_sgx, winnt/ENCLAVE_CREATE_INFO_SGX, winnt/PENCLAVE_CREATE_INFO_SGX'
 ms.topic: struct
-f1_keywords: 
- - "winnt/ENCLAVE_CREATE_INFO_SGX"
+f1_keywords:
+- winnt/ENCLAVE_CREATE_INFO_SGX
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winnt.h
+- winnt.h
 api_name:
- - ENCLAVE_CREATE_INFO_SGX
+- ENCLAVE_CREATE_INFO_SGX
 product: Windows
 targetos: Windows
 req.typenames: ENCLAVE_CREATE_INFO_SGX, *PENCLAVE_CREATE_INFO_SGX
@@ -82,7 +82,7 @@ For more information about the <b>SECS</b> structure, see the Intel SGX Programm
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_enclave_init_info_sgx">ENCLAVE_INIT_INFO_SGX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-enclave_init_info_sgx">ENCLAVE_INIT_INFO_SGX</a>
  
 
  

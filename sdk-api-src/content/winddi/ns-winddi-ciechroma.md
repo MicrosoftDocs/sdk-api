@@ -78,7 +78,7 @@ Specifies the luminance. For more information, see the following Remarks section
 
 
 
-The CIECHROMA structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a> structure to define colors for <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo">GDIINFO</a>.
+The CIECHROMA structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a> structure to define colors for <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>.
 
 The LDECI4 type is used to represent real numbers to four decimal places. For example, (LDECI4) 10000 represents the real number 1.0000, and (LDECI4) -12345 represents -1.2345.
 
@@ -102,7 +102,7 @@ The value of the <b>Y</b> member of this structure should be in the range from 0
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo">GDIINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>
  
 
  

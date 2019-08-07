@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptSignAndEncryptMessage, CryptSignAndEncryptMessage function [Security], _crypto2_cryptsignandencryptmessage, security.cryptsignandencryptmessage, wincrypt/CryptSignAndEncryptMessage
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptSignAndEncryptMessage"
+f1_keywords:
+- wincrypt/CryptSignAndEncryptMessage
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptSignAndEncryptMessage
+- CryptSignAndEncryptMessage
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,13 +62,13 @@ The <b>CryptSignAndEncryptMessage</b> function creates a <a href="https://docs.m
 ### -param pSignPara [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_sign_message_para">CRYPT_SIGN_MESSAGE_PARA</a> structure that contains the signature parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_sign_message_para">CRYPT_SIGN_MESSAGE_PARA</a> structure that contains the signature parameters.
 
 
 ### -param pEncryptPara [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_encrypt_message_para">CRYPT_ENCRYPT_MESSAGE_PARA</a> structure containing encryption parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_encrypt_message_para">CRYPT_ENCRYPT_MESSAGE_PARA</a> structure containing encryption parameters.
 
 
 ### -param cRecipientCert [in]
@@ -80,7 +80,7 @@ Number of array elements in <i>rgpRecipientCert</i>.
 ### -param rgpRecipientCert [in]
 
 Array of pointers to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structures. Each structure is the certificate of an intended recipients of the message.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures. Each structure is the certificate of an intended recipients of the message.
 
 
 ### -param pbToBeSignedAndEncrypted [in]

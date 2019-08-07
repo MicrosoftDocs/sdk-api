@@ -77,7 +77,7 @@ Number of map entries in <b>MapEntryArray</b>.
 ### -field MapEntryValueType
 
  
-		Determines if you use the <b>Value</b> member or <b>InputOffset</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_map_entry">EVENT_MAP_ENTRY</a> to access the map value. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-_map_valuetype">MAP_VALUETYPE</a> enumeration.
+		Determines if you use the <b>Value</b> member or <b>InputOffset</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_map_entry">EVENT_MAP_ENTRY</a> to access the map value. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-map_valuetype">MAP_VALUETYPE</a> enumeration.
 
 
 ### -field FormatStringOffset

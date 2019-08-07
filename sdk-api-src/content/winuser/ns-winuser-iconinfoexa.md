@@ -8,10 +8,10 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconstructures\iconinfoex.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PICONINFOEXA, ICONINFOEX, ICONINFOEX structure [Menus and Other Resources], ICONINFOEXA, ICONINFOEXW, _win32_ICONINFOEX, _win32_iconinfoex_cpp, menurc.iconinfoex, winui._win32_iconinfoex, winuser/ICONINFOEX, winuser/ICONINFOEXA, winuser/ICONINFOEXW"
+ms.keywords: '*PICONINFOEXA, ICONINFOEX, ICONINFOEX structure [Menus and Other Resources], ICONINFOEXA, ICONINFOEXW, _win32_ICONINFOEX, _win32_iconinfoex_cpp, menurc.iconinfoex, winui._win32_iconinfoex, winuser/ICONINFOEX, winuser/ICONINFOEXA, winuser/ICONINFOEXW'
 ms.topic: struct
-f1_keywords: 
- - "winuser/ICONINFOEX"
+f1_keywords:
+- winuser/ICONINFOEX
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - ICONINFOEX
- - ICONINFOEXA
- - ICONINFOEXW
+- ICONINFOEX
+- ICONINFOEXA
+- ICONINFOEXW
 product: Windows
 targetos: Windows
 req.typenames: ICONINFOEXA, *PICONINFOEXA
@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about an icon or a cursor. Extends <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-_iconinfo">ICONINFO</a>. Used by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-geticoninfoexa">GetIconInfoEx</a>.
+Contains information about an icon or a cursor. Extends <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>. Used by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-geticoninfoexa">GetIconInfoEx</a>.
 
 
 ## -struct-fields

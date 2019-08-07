@@ -241,7 +241,7 @@ Specifies the denominator of style advance, D. For additional information, refer
 
 ### -field ptlPhysOffset
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a> structure that contains the size, in pixels, of the unwritable margin of a surface.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that contains the size, in pixels, of the unwritable margin of a surface.
 
 
 ### -field szlPhysSize
@@ -772,7 +772,7 @@ Each byte threshold at a particular location in a halftone dither pattern determ
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ciechroma">CIECHROMA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ciechroma">CIECHROMA</a>
 
 
 

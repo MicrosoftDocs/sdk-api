@@ -609,7 +609,7 @@ The number of directory entries in the remainder of the optional header. Each en
 ### -field DataDirectory
 
 A pointer to the first 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_data_directory">IMAGE_DATA_DIRECTORY</a> structure in the data 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_data_directory">IMAGE_DATA_DIRECTORY</a> structure in the data 
  directory.
 
 
@@ -677,7 +677,7 @@ typedef struct _IMAGE_OPTIONAL_HEADER64 {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_data_directory">IMAGE_DATA_DIRECTORY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_data_directory">IMAGE_DATA_DIRECTORY</a>
 
 
 

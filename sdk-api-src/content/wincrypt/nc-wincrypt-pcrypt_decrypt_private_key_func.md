@@ -54,7 +54,7 @@ ms.custom: 19H1
 <p class="CCE_Message">[The <b>PCRYPT_DECRYPT_PRIVATE_KEY_FUNC</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 The <b>PCRYPT_DECRYPT_PRIVATE_KEY_FUNC</b> function decrypts
-the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> and returns the decrypted key in the <i>pbClearTextKey</i> parameter.  <b>PCRYPT_DECRYPT_PRIVATE_KEY_FUNC</b> is a callback function specified in a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_pkcs8_import_params">CRYPT_PKCS8_IMPORT_PARAMS</a> structure.  It is used when a  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_encrypted_private_key_info">CRYPT_ENCRYPTED_PRIVATE_KEY_INFO</a> structure contains a private key that needs to be decrypted. The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpkcs8">CryptImportPKCS8</a> function uses this function. The function must be implemented by the developer to suit each application.
+the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> and returns the decrypted key in the <i>pbClearTextKey</i> parameter.  <b>PCRYPT_DECRYPT_PRIVATE_KEY_FUNC</b> is a callback function specified in a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_pkcs8_import_params">CRYPT_PKCS8_IMPORT_PARAMS</a> structure.  It is used when a  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_encrypted_private_key_info">CRYPT_ENCRYPTED_PRIVATE_KEY_INFO</a> structure contains a private key that needs to be decrypted. The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpkcs8">CryptImportPKCS8</a> function uses this function. The function must be implemented by the developer to suit each application.
 
 
 ## -parameters
@@ -105,11 +105,11 @@ If the function fails, it returns zero (<b>FALSE</b>).
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_encrypted_private_key_info">CRYPT_ENCRYPTED_PRIVATE_KEY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_encrypted_private_key_info">CRYPT_ENCRYPTED_PRIVATE_KEY_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_pkcs8_import_params">CRYPT_PKCS8_IMPORT_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_pkcs8_import_params">CRYPT_PKCS8_IMPORT_PARAMS</a>
 
 
 

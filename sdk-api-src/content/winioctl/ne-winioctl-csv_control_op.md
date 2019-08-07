@@ -72,7 +72,7 @@ Stop file redirection.
 ### -field CsvControlQueryRedirectState
 
 Search for state redirection. When this value is specified, the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_redirect_state">CSV_QUERY_REDIRECT_STATE</a> structure must also 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_query_redirect_state">CSV_QUERY_REDIRECT_STATE</a> structure must also 
       be used.
 
 
@@ -115,7 +115,7 @@ Search for file revision. When this value is specified, the
 #### - CsvControlMdsPath
 
 Search for MDS path. When this value is specified, the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_mds_path">CSV_QUERY_MDS_PATH</a> structure must also be used.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_query_mds_path">CSV_QUERY_MDS_PATH</a> structure must also be used.
 
 
 ## -remarks
@@ -143,11 +143,11 @@ An alternative to calling the <a href="https://docs.microsoft.com/windows/deskto
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_mds_path">CSV_QUERY_MDS_PATH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_query_mds_path">CSV_QUERY_MDS_PATH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_redirect_state">CSV_QUERY_REDIRECT_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_query_redirect_state">CSV_QUERY_REDIRECT_STATE</a>
 
 
 

@@ -64,7 +64,7 @@ This function should not be used to verify the signature of a detached message. 
 ### -param pVerifyPara [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_verify_message_para">CRYPT_VERIFY_MESSAGE_PARA</a> structure that contains verification parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_verify_message_para">CRYPT_VERIFY_MESSAGE_PARA</a> structure that contains verification parameters.
 
 
 ### -param dwSignerIndex [in]

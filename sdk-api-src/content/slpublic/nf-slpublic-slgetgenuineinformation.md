@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLGetGenuineInformation, SLGetGenuineInformation function [Security], SL_BRT_COMMIT, SL_BRT_DATA, SL_GENUINE_RESULT, SL_NONGENUINE_GRACE_FLAG, security.slgetgenuineinformation, slpublic/SLGetGenuineInformation
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLGetGenuineInformation"
+f1_keywords:
+- slpublic/SLGetGenuineInformation
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLGetGenuineInformation
+- SLGetGenuineInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -119,7 +119,7 @@ Gets the cause of the computer being put into nongenuine grace period mode.
 
 ### -param peDataType [out, optional]
 
-A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-_tagsldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the <i>ppbValue</i> buffer.
+A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the <i>ppbValue</i> buffer.
 
 
 ### -param pcbValue [out]
@@ -184,7 +184,7 @@ The specified name-value pair was not found.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-_tagsldatatype">SLDATATYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>
 
 
 

@@ -207,7 +207,7 @@ Queries the sizes of the structures used in the per-message functions and authen
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_subjectattributes">SecPkgContext_SubjectAttributes</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_subjectattributes">SecPkgContext_SubjectAttributes</a> structure.
 
 This value returns information about  the security attributes for the connection.
 
@@ -285,7 +285,7 @@ While  the caller must allocate the <i>pBuffer</i> structure itself, the SSP all
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
 
 

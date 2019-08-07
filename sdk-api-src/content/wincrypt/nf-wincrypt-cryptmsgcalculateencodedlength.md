@@ -164,7 +164,7 @@ An octet (BYTE) string.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a>
 
 
 </td>

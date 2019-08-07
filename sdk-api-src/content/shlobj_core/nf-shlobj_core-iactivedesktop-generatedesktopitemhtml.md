@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GenerateDesktopItemHtml, GenerateDesktopItemHtml method [Legacy Windows Environment Features], GenerateDesktopItemHtml method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],GenerateDesktopItemHtml method, IActiveDesktop.GenerateDesktopItemHtml, IActiveDesktop::GenerateDesktopItemHtml, _win32_IActiveDesktop_GenerateDesktopItemHtml, lwef.iactivedesktop_generatedesktopitemhtml, shell.iactivedesktop_generatedesktopitemhtml, shlobj_core/IActiveDesktop::GenerateDesktopItemHtml
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IActiveDesktop.GenerateDesktopItemHtml"
+f1_keywords:
+- shlobj_core/IActiveDesktop.GenerateDesktopItemHtml
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IActiveDesktop.GenerateDesktopItemHtml
+- IActiveDesktop.GenerateDesktopItemHtml
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ A string value that contains the name under which to store the HTML file.
 
 Type: <b>LPCOMPONENT</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent">COMPONENT</a> structure of the desktop item to insert in the HTML page. 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure of the desktop item to insert in the HTML page. 
 
 
 ### -param dwReserved

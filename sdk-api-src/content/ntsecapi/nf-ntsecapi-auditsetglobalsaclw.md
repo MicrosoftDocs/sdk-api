@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuditSetGlobalSacl, AuditSetGlobalSacl function [Security], AuditSetGlobalSaclA, AuditSetGlobalSaclW, ntsecapi/AuditSetGlobalSacl, ntsecapi/AuditSetGlobalSaclA, ntsecapi/AuditSetGlobalSaclW, security.auditsetglobalsacl
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/AuditSetGlobalSacl"
+f1_keywords:
+- ntsecapi/AuditSetGlobalSacl
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-audit-l1-1-1.dll
- - sechost.dll
+- Advapi32.dll
+- API-MS-Win-Security-audit-l1-1-1.dll
+- sechost.dll
 api_name:
- - AuditSetGlobalSacl
- - AuditSetGlobalSaclA
- - AuditSetGlobalSaclW
+- AuditSetGlobalSacl
+- AuditSetGlobalSaclA
+- AuditSetGlobalSaclW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ A pointer to a null-terminated string specifying the type of object being create
 
 ### -param Acl [in, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> structure. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure. 
 
 
 ## -returns

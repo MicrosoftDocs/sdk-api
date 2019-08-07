@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertEnumCRLsInStore, CertEnumCRLsInStore function [Security], _crypto2_certenumcrlsinstore, security.certenumcrlsinstore, wincrypt/CertEnumCRLsInStore
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertEnumCRLsInStore"
+f1_keywords:
+- wincrypt/CertEnumCRLsInStore
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertEnumCRLsInStore
+- CertEnumCRLsInStore
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ Handle of a certificate store.
 ### -param pPrevCrlContext [in]
 
 A pointer to the previous 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a> structure found. The <i>pPrevCrlContext</i> parameter must be <b>NULL</b> to get the first CRL in the store. Successive CRLs are enumerated by setting <i>pPrevCrlContext</i> to the pointer returned by a previous call to the function.  This function frees the <b>CRL_CONTEXT</b> referenced by non-<b>NULL</b> values of this parameter. The enumeration skips any CRLs previously deleted by 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure found. The <i>pPrevCrlContext</i> parameter must be <b>NULL</b> to get the first CRL in the store. Successive CRLs are enumerated by setting <i>pPrevCrlContext</i> to the pointer returned by a previous call to the function.  This function frees the <b>CRL_CONTEXT</b> referenced by non-<b>NULL</b> values of this parameter. The enumeration skips any CRLs previously deleted by 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletecrlfromstore">CertDeleteCRLFromStore</a>.
 
 
@@ -76,7 +76,7 @@ A pointer to the previous
 
 
 If the function succeeds, the return value is a pointer to the next 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a> in the store.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> in the store.
 
 <b>NULL</b> is returned if the function fails. For extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
@@ -132,7 +132,7 @@ A duplicate of the CRL <a href="https://docs.microsoft.com/windows/desktop/SecGl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a>
 
 
 

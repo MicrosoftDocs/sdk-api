@@ -70,7 +70,7 @@ Pointer to a
 ### -param pRasConnection1 [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_1">RAS_CONNECTION_1</a> structure that describes this connection.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_1">RAS_CONNECTION_1</a> structure that describes this connection.
 
 
 ### -param pRasConnection2 [in]
@@ -137,7 +137,7 @@ Do not call any of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_1">RAS_CONNECTION_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_1">RAS_CONNECTION_1</a>
 
 
 

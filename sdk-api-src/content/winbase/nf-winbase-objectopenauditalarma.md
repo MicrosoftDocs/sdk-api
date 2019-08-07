@@ -95,7 +95,7 @@ A pointer to a <b>null</b>-terminated string specifying the name of the object t
 ### -param pSecurityDescriptor [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure for the object being accessed.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure for the object being accessed.
 
 
 ### -param ClientToken [in]
@@ -213,7 +213,7 @@ The <b>ObjectOpenAuditAlarm</b> function requires the calling application to hav
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
  
 
  

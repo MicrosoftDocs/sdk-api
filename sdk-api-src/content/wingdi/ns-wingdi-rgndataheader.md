@@ -8,10 +8,10 @@ tech.root: gdi
 ms.assetid: 15990903-8a48-4c47-b527-269d775255a5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRGNDATAHEADER, PRGNDATAHEADER, PRGNDATAHEADER structure pointer [Windows GDI], RGNDATAHEADER, RGNDATAHEADER structure [Windows GDI], _RGNDATAHEADER, _win32_RGNDATAHEADER_str, gdi.rgndataheader, wingdi/PRGNDATAHEADER, wingdi/RGNDATAHEADER"
+ms.keywords: '*PRGNDATAHEADER, PRGNDATAHEADER, PRGNDATAHEADER structure pointer [Windows GDI], RGNDATAHEADER, RGNDATAHEADER structure [Windows GDI], _RGNDATAHEADER, _win32_RGNDATAHEADER_str, gdi.rgndataheader, wingdi/PRGNDATAHEADER, wingdi/RGNDATAHEADER'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/RGNDATAHEADER"
+f1_keywords:
+- wingdi/RGNDATAHEADER
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - RGNDATAHEADER
+- RGNDATAHEADER
 product: Windows
 targetos: Windows
 req.typenames: RGNDATAHEADER, *PRGNDATAHEADER
@@ -79,7 +79,7 @@ The number of rectangles that make up the region.
 
 ### -field nRgnSize
 
-The size of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_rgndata">RGNDATA</a> buffer required to receive the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structures that make up the region. If the size is not known, this member can be zero.
+The size of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a> buffer required to receive the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structures that make up the region. If the size is not known, this member can be zero.
 
 
 ### -field rcBound
@@ -100,7 +100,7 @@ A bounding rectangle for the region in logical units.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_rgndata">RGNDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a>
 
 
 

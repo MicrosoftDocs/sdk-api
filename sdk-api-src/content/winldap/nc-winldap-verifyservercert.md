@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VERIFYSERVERCERT, VERIFYSERVERCERT callback, VERIFYSERVERCERT callback function [LDAP], _ldap_verifyservercert, ldap.verifyservercert, winldap/VERIFYSERVERCERT
 ms.topic: callback
-f1_keywords: 
- - "winldap/VERIFYSERVERCERT"
+f1_keywords:
+- winldap/VERIFYSERVERCERT
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winldap.h
+- Winldap.h
 api_name:
- - VERIFYSERVERCERT
+- VERIFYSERVERCERT
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ The session handle.
 
 #### - ppServerCert
 
-A pointer to a pointer to a session handle, represented by <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>.
+A pointer to a pointer to a session handle, represented by <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>.
 
 
 ## -returns
@@ -106,7 +106,7 @@ The server calls <b>VERIFYSERVERCERT</b> after the secure connection has been es
 
 An application should use the <i>ppServerCert</i> parameter as: <code>PCCERT_CONTEXT* ppServerCert = (PCCERT_CONTEXT*)pServerCert;</code>
 
-Even though <b>VERIFYSERVERCERT</b> is declared as receiving a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">PCCERT_CONTEXT</a>, it in fact receives a <b>PCCERT_CONTEXT</b>*. The <i>ppServerCert</i> can be used to verify the certificate. <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> should be called before this function returns. The call to this function should be made as follows:
+Even though <b>VERIFYSERVERCERT</b> is declared as receiving a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCCERT_CONTEXT</a>, it in fact receives a <b>PCCERT_CONTEXT</b>*. The <i>ppServerCert</i> can be used to verify the certificate. <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> should be called before this function returns. The call to this function should be made as follows:
 
 
 ```cpp

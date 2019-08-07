@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: c3cefb13-4825-4482-a87c-4ba482d3820b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PREPAIR_COPIES_INPUT, PREPAIR_COPIES_INPUT, PREPAIR_COPIES_INPUT structure pointer [Files], REPAIR_COPIES_INPUT, REPAIR_COPIES_INPUT structure [Files], fs.repair_copies_input, winioctl/PREPAIR_COPIES_INPUT, winioctl/REPAIR_COPIES_INPUT"
+ms.keywords: '*PREPAIR_COPIES_INPUT, PREPAIR_COPIES_INPUT, PREPAIR_COPIES_INPUT structure pointer [Files], REPAIR_COPIES_INPUT, REPAIR_COPIES_INPUT structure [Files], fs.repair_copies_input, winioctl/PREPAIR_COPIES_INPUT, winioctl/REPAIR_COPIES_INPUT'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/REPAIR_COPIES_INPUT"
+f1_keywords:
+- winioctl/REPAIR_COPIES_INPUT
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - REPAIR_COPIES_INPUT
+- REPAIR_COPIES_INPUT
 product: Windows
 targetos: Windows
 req.typenames: REPAIR_COPIES_INPUT, *PREPAIR_COPIES_INPUT
@@ -103,7 +103,7 @@ The zero-based copy numbers of the copies that will be repaired.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_repair_copies_output">REPAIR_COPIES_OUTPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-repair_copies_output">REPAIR_COPIES_OUTPUT</a>
 
 
 

@@ -9,8 +9,8 @@ ms.author: windowssdkdev
 ms.date: 01/30/19
 ms.keywords: ICopyHookW::CopyCallback
 ms.topic: language-reference
-f1_keywords: 
- - "shlobj/ICopyHookW::CopyCallback"
+f1_keywords:
+- shlobj/ICopyHookW::CopyCallback
 targetos: Windows
 product: Windows
 req.assembly: 
@@ -33,13 +33,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - shlobj.h
+- shlobj.h
 api_name:
- - ICopyHookW::CopyCallback
+- ICopyHookW::CopyCallback
 ---
 
 ## -description
@@ -54,11 +54,11 @@ A handle to the window that the copy hook handler should use as the parent for a
 
 ### -param wFunc
 
-The operation to perform. This parameter can be one of the values listed under the **wFunc** member of the [SHFILEOPSTRUCT](https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileopstructa) structure.
+The operation to perform. This parameter can be one of the values listed under the **wFunc** member of the [SHFILEOPSTRUCT](https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa) structure.
 
 ### -param wFlags
 
-The flags that control the operation. This parameter can be one or more of the values listed under the *fFlags* member of the [SHFILEOPSTRUCT](https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileopstructa) structure. 
+The flags that control the operation. This parameter can be one or more of the values listed under the *fFlags* member of the [SHFILEOPSTRUCT](https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa) structure. 
                         
 For printer copy hooks, this value is one of the following values defined in Shellapi.h.
 

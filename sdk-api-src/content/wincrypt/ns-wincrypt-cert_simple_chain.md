@@ -81,7 +81,7 @@ An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/
 
 ### -field pTrustListInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_trust_list_info">CERT_TRUST_LIST_INFO</a> structure that contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) connecting this chain to a next certificate chain. If the current chain is the final chain, <b>pTrustListInfo</b> is <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_list_info">CERT_TRUST_LIST_INFO</a> structure that contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) connecting this chain to a next certificate chain. If the current chain is the final chain, <b>pTrustListInfo</b> is <b>NULL</b>.
 
 
 ### -field fHasRevocationFreshnessTime
@@ -100,7 +100,7 @@ The age of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly"
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a>
 
 
 
@@ -108,7 +108,7 @@ The age of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly"
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_trust_list_info">CERT_TRUST_LIST_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_list_info">CERT_TRUST_LIST_INFO</a>
 
 
 

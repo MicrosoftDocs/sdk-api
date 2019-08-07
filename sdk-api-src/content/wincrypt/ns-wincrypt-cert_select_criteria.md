@@ -88,7 +88,7 @@ This criteria is evaluated on the <a href="https://docs.microsoft.com/windows/de
 </dl>
 </td>
 <td width="60%">
-Select certificates  based on  a specific <b>szOID_KEY_USAGE</b> extension in the certificate.  When this flag is set, the <b>ppPara </b> member must reference a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a> structure where the value of the extension is a <b>DWORD</b> that identifies the Key Usage bits.
+Select certificates  based on  a specific <b>szOID_KEY_USAGE</b> extension in the certificate.  When this flag is set, the <b>ppPara </b> member must reference a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structure where the value of the extension is a <b>DWORD</b> that identifies the Key Usage bits.
 
 This criteria is evaluated on the certificate.
 
@@ -125,7 +125,7 @@ Select certificates based on a specific <a href="https://docs.microsoft.com/wind
 </dl>
 </td>
 <td width="60%">
-Select certificates based on the presence of a specified extension and an optional specified value. The <b>ppPara</b> member must reference a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a> structure that specifies the extension OID and the  associated value.
+Select certificates based on the presence of a specified extension and an optional specified value. The <b>ppPara</b> member must reference a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structure that specifies the extension OID and the  associated value.
 
 </td>
 </tr>

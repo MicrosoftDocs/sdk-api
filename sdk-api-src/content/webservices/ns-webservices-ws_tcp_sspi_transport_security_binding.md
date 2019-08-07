@@ -72,9 +72,9 @@ NegotiateStreamprotocol and the .Net Message Framing specification.
 On the client side, the security identity of the target server is
 specified using the identity field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> 
 parameter supplied during <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenchannel">WsOpenChannel</a>.  If the identity is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_spn_endpoint_identity">WS_SPN_ENDPOINT_IDENTITY</a> or a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_upn_endpoint_identity">WS_UPN_ENDPOINT_IDENTITY</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_spn_endpoint_identity">WS_SPN_ENDPOINT_IDENTITY</a> or a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_upn_endpoint_identity">WS_UPN_ENDPOINT_IDENTITY</a>, 
 that string identity value is used directly with the SSP.  If the identity is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_dns_endpoint_identity">WS_DNS_ENDPOINT_IDENTITY</a> and the value of its dns field is
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_dns_endpoint_identity">WS_DNS_ENDPOINT_IDENTITY</a> and the value of its dns field is
 'd1', or if no identity is specified in the <b>WS_ENDPOINT_ADDRESS</b> 
 and the host component (according to Section 3.2.2 of 
 RFC2396) the address URI

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IToc interface [Media Foundation],SetDescriptor method, IToc.SetDescriptor, IToc::SetDescriptor, SetDescriptor, SetDescriptor method [Media Foundation], SetDescriptor method [Media Foundation],IToc interface, codecapi.itoc_setdescriptor, mf.itoc_setdescriptor, wmcodecdsp/IToc::SetDescriptor
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IToc.SetDescriptor"
+f1_keywords:
+- wmcodecdsp/IToc.SetDescriptor
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - IToc.SetDescriptor
+- IToc.SetDescriptor
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>SetDescriptor</b> method associates a descriptor with the table of conten
 
 ### -param pDescriptor [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/ns-wmcodecdsp-_toc_descriptor">TOC_DESCRIPTOR</a> structure that contains the descriptor.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/ns-wmcodecdsp-toc_descriptor">TOC_DESCRIPTOR</a> structure that contains the descriptor.
 
 
 ## -returns

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OperationStart, OperationStart function [Operation Recorder], oprec.operationstart, winbase/OperationStart
 ms.topic: function
-f1_keywords: 
- - "winbase/OperationStart"
+f1_keywords:
+- winbase/OperationStart
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - OperationStart
+- OperationStart
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ If an application calls <b>OperationStart</b> for an operation ID for which a pr
 
 ### -param OperationStartParams [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_operation_start_parameters">_OPERATION_START_PARAMETERS</a> structure that specifies <b>VERSION</b>, <b>OPERATION_ID</b> and <b>FLAGS</b>.
+An <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_start_parameters">_OPERATION_START_PARAMETERS</a> structure that specifies <b>VERSION</b>, <b>OPERATION_ID</b> and <b>FLAGS</b>.
 
 
 ## -returns
@@ -82,7 +82,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_o
 
 
 
-The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_operation_start_parameters">_OPERATION_START_PARAMETERS</a> structure is defined as <b>OPERATION_API_VERSION</b> in the Windows SDK. 
+The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_start_parameters">_OPERATION_START_PARAMETERS</a> structure is defined as <b>OPERATION_API_VERSION</b> in the Windows SDK. 
 
 Because the <b>OperationStart</b> function is synchronous, it can take several seconds to return. This should be avoided in UI threads for the best responsiveness.
 
@@ -168,11 +168,11 @@ For Windows Server 2012, this prefetching functionality needs to be enabled and
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_operation_end_parameters">_OPERATION_END_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_end_parameters">_OPERATION_END_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_operation_start_parameters">_OPERATION_START_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_start_parameters">_OPERATION_START_PARAMETERS</a>
  
 
  

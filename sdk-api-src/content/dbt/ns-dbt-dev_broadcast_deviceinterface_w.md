@@ -8,10 +8,10 @@ tech.root: devio
 ms.assetid: 23e6b2b9-2053-4dfa-9c0a-283279f086b8
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDEV_BROADCAST_DEVICEINTERFACE_W, DEV_BROADCAST_DEVICEINTERFACE, DEV_BROADCAST_DEVICEINTERFACE structure, DEV_BROADCAST_DEVICEINTERFACE_W, PDEV_BROADCAST_DEVICEINTERFACE, PDEV_BROADCAST_DEVICEINTERFACE structure pointer, _win32_dev_broadcast_deviceinterface_str, base.dev_broadcast_deviceinterface_str, dbt/DEV_BROADCAST_DEVICEINTERFACE, dbt/PDEV_BROADCAST_DEVICEINTERFACE"
+ms.keywords: '*PDEV_BROADCAST_DEVICEINTERFACE_W, DEV_BROADCAST_DEVICEINTERFACE, DEV_BROADCAST_DEVICEINTERFACE structure, DEV_BROADCAST_DEVICEINTERFACE_W, PDEV_BROADCAST_DEVICEINTERFACE, PDEV_BROADCAST_DEVICEINTERFACE structure pointer, _win32_dev_broadcast_deviceinterface_str, base.dev_broadcast_deviceinterface_str, dbt/DEV_BROADCAST_DEVICEINTERFACE, dbt/PDEV_BROADCAST_DEVICEINTERFACE'
 ms.topic: struct
-f1_keywords: 
- - "dbt/DEV_BROADCAST_DEVICEINTERFACE"
+f1_keywords:
+- dbt/DEV_BROADCAST_DEVICEINTERFACE
 req.header: dbt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dbt.h
+- Dbt.h
 api_name:
- - DEV_BROADCAST_DEVICEINTERFACE
+- DEV_BROADCAST_DEVICEINTERFACE
 product: Windows
 targetos: Windows
 req.typenames: DEV_BROADCAST_DEVICEINTERFACE_W, *PDEV_BROADCAST_DEVICEINTERFACE_W
@@ -99,7 +99,7 @@ When this structure is returned to a window through the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_hdr">DEV_BROADCAST_HDR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_hdr">DEV_BROADCAST_HDR</a>
 
 
 

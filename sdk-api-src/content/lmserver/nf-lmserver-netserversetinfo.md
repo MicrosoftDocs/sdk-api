@@ -120,7 +120,7 @@ Specifies detailed information about the server. The <i>buf</i> parameter points
 </td>
 <td width="60%">
 Specifies detailed information about the server. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_403">SERVER_INFO_403</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_403">SERVER_INFO_403</a> structure.
 
 </td>
 </tr>
@@ -485,7 +485,7 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_403">SERVER_INFO_403</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_403">SERVER_INFO_403</a>
 
 
 

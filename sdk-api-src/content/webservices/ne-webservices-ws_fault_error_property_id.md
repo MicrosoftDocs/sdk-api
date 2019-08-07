@@ -61,7 +61,7 @@ Information about a fault.
 
 ### -field WS_FAULT_ERROR_PROPERTY_FAULT
 
-An optional <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_fault">WS_FAULT</a> value that is the fault representation of the error.  If no
+An optional <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a> value that is the fault representation of the error.  If no
                     fault representation is present, then the value is <b>NULL</b>.
                 
 

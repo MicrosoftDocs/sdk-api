@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],SetItemStatus method, ISyncMgrSynchronize.SetItemStatus, ISyncMgrSynchronize::SetItemStatus, SetItemStatus, SetItemStatus method [Windows Shell], SetItemStatus method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::SetItemStatus, shell.syncmgr_isyncmgrsynchronize_setitemstatus, syncmgr.isyncmgrsynchronize_setitemstatus
 ms.topic: method
-f1_keywords: 
- - "mobsync/ISyncMgrSynchronize.SetItemStatus"
+f1_keywords:
+- mobsync/ISyncMgrSynchronize.SetItemStatus
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Mobsync.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mobsync.dll
+- Mobsync.dll
 api_name:
- - ISyncMgrSynchronize.SetItemStatus
+- ISyncMgrSynchronize.SetItemStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ Identifies the item with changed status.
 Type: <b>DWORD</b>
 
 The new status for the specified item taken from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrstatus">SYNCMGRSTATUS</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrstatus">SYNCMGRSTATUS</a> enumeration.
 
 
 ## -returns
@@ -109,7 +109,7 @@ Status was set.
 
 
 
-Currently, the only <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrstatus">SYNCMGRSTATUS</a> status value supported by the SyncMgr is SYNCMGRSTATUS_SKIPPED. The registered application's handler should skip the item specified in <i>pItemID</i> when it receives this status value.
+Currently, the only <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrstatus">SYNCMGRSTATUS</a> status value supported by the SyncMgr is SYNCMGRSTATUS_SKIPPED. The registered application's handler should skip the item specified in <i>pItemID</i> when it receives this status value.
 
 
 
@@ -139,7 +139,7 @@ Currently, the only <a href="https://docs.microsoft.com/windows/desktop/api/mobs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrstatus">SYNCMGRSTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrstatus">SYNCMGRSTATUS</a>
 
 
 

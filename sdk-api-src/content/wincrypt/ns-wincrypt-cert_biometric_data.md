@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 544297e2-b6a6-4a33-94b6-47066262506a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_BIOMETRIC_DATA, CERT_BIOMETRIC_DATA, CERT_BIOMETRIC_DATA structure [Security], CERT_BIOMETRIC_OID_DATA_CHOICE, CERT_BIOMETRIC_PICTURE_TYPE, CERT_BIOMETRIC_PREDEFINED_DATA_CHOICE, CERT_BIOMETRIC_SIGNATURE_TYPE, PCERT_BIOMETRIC_DATA, PCERT_BIOMETRIC_DATA structure pointer [Security], security.cert_biometric_data, wincrypt/CERT_BIOMETRIC_DATA, wincrypt/PCERT_BIOMETRIC_DATA"
+ms.keywords: '*PCERT_BIOMETRIC_DATA, CERT_BIOMETRIC_DATA, CERT_BIOMETRIC_DATA structure [Security], CERT_BIOMETRIC_OID_DATA_CHOICE, CERT_BIOMETRIC_PICTURE_TYPE, CERT_BIOMETRIC_PREDEFINED_DATA_CHOICE, CERT_BIOMETRIC_SIGNATURE_TYPE, PCERT_BIOMETRIC_DATA, PCERT_BIOMETRIC_DATA structure pointer [Security], security.cert_biometric_data, wincrypt/CERT_BIOMETRIC_DATA, wincrypt/PCERT_BIOMETRIC_DATA'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_BIOMETRIC_DATA"
+f1_keywords:
+- wincrypt/CERT_BIOMETRIC_DATA
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_BIOMETRIC_DATA
+- CERT_BIOMETRIC_DATA
 product: Windows
 targetos: Windows
 req.typenames: CERT_BIOMETRIC_DATA, *PCERT_BIOMETRIC_DATA
@@ -137,7 +137,7 @@ The address of a null-terminated ANSI string that contains the <a href="https://
 
 ### -field HashedUrl
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_hashed_url">CERT_HASHED_URL</a> structure that contains the hashed URL of the biometric data.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_hashed_url">CERT_HASHED_URL</a> structure that contains the hashed URL of the biometric data.
 
 
 ## -see-also
@@ -145,7 +145,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_biometric_ext_info">CERT_BIOMETRIC_EXT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_biometric_ext_info">CERT_BIOMETRIC_EXT_INFO</a>
  
 
  

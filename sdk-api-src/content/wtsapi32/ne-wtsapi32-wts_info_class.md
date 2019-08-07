@@ -144,9 +144,9 @@ A <b>ULONG</b> value that contains a client-specific hardware identifier. This o
 ### -field WTSClientAddress
 
 The network type and network address of the client. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_client_address">WTS_CLIENT_ADDRESS</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_address">WTS_CLIENT_ADDRESS</a>.
 
-The IP address is offset by two bytes from the start of the <b>Address</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_client_address">WTS_CLIENT_ADDRESS</a> 
+The IP address is offset by two bytes from the start of the <b>Address</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_address">WTS_CLIENT_ADDRESS</a> 
          structure.
 
 

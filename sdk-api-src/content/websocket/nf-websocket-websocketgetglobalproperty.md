@@ -102,7 +102,7 @@ If the function fails, it returns a <a href="https://docs.microsoft.com/windows/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-_web_socket_property_type">WEB_SOCKET_PROPERTY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_property_type">WEB_SOCKET_PROPERTY_TYPE</a>
  
 
  

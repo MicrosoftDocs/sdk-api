@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 2c8fa83a-0694-4e17-a9e4-87f839a0d458
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPARTITION_INFORMATION, PARTITION_INFORMATION, PARTITION_INFORMATION structure [Files], PPARTITION_INFORMATION, PPARTITION_INFORMATION structure pointer [Files], _win32_partition_information_str, base.partition_information_str, fs.partition_information_str, winioctl/PARTITION_INFORMATION, winioctl/PPARTITION_INFORMATION"
+ms.keywords: '*PPARTITION_INFORMATION, PARTITION_INFORMATION, PARTITION_INFORMATION structure [Files], PPARTITION_INFORMATION, PPARTITION_INFORMATION structure pointer [Files], _win32_partition_information_str, base.partition_information_str, fs.partition_information_str, winioctl/PARTITION_INFORMATION, winioctl/PPARTITION_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/PARTITION_INFORMATION"
+f1_keywords:
+- winioctl/PARTITION_INFORMATION
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - PARTITION_INFORMATION
+- PARTITION_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: PARTITION_INFORMATION, *PPARTITION_INFORMATION
@@ -52,7 +52,7 @@ req.redist:
 
 Contains information about a disk partition.
 <div class="alert"><b>Note</b>  <b>PARTITION_INFORMATION</b> has been superseded by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information_ex">PARTITION_INFORMATION_EX</a> structure.</div><div> </div>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a> structure.</div><div> </div>
 
 ## -struct-fields
 
@@ -135,11 +135,11 @@ If the partition is on a disk formatted as type master boot record (MBR), partit
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information_ex">PARTITION_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_partition_style">PARTITION_STYLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a>
  
 
  

@@ -73,7 +73,7 @@ The file system types enumerated by <a href="https://docs.microsoft.com/windows/
 
 ### -field ulFlags
 
-The file system flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_file_system_flag">VDS_FILE_SYSTEM_FLAG</a>.
+The file system flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_file_system_flag">VDS_FILE_SYSTEM_FLAG</a>.
 
 
 ### -field ulCompressionFlags
@@ -113,7 +113,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_file_system_flag">VDS_FILE_SYSTEM_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_file_system_flag">VDS_FILE_SYSTEM_FLAG</a>
 
 
 

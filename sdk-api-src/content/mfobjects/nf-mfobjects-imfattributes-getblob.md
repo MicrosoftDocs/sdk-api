@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 68528db7-90df-4abe-a957-ffb8c3f12cef, GetBlob, GetBlob method [Media Foundation], GetBlob method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetBlob method, IMFAttributes.GetBlob, IMFAttributes::GetBlob, mf.imfattributes_getblob, mfobjects/IMFAttributes::GetBlob
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFAttributes.GetBlob"
+f1_keywords:
+- mfobjects/IMFAttributes.GetBlob
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAttributes.GetBlob
+- IMFAttributes.GetBlob
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -210,7 +210,7 @@ HRESULT AttributeGetBlob(IMFAttributes *pAttributes)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mf_attribute_type">MF_ATTRIBUTE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mf_attribute_type">MF_ATTRIBUTE_TYPE</a>
  
 
  

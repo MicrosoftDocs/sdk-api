@@ -66,7 +66,7 @@ If <b>pgb</b> is defined, this member is a pointer to a <a href="https://docs.mi
 
 ### -field ppo
 
-If <b>ppo</b> is defined, this member is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a> structure the driver can examine to extract the path describing the associated glyph.
+If <b>ppo</b> is defined, this member is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure the driver can examine to extract the path describing the associated glyph.
 
 
 ## -see-also
@@ -78,7 +78,7 @@ If <b>ppo</b> is defined, this member is a pointer to a <a href="https://docs.mi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
  
 
  

@@ -61,7 +61,7 @@ The <b>ONEX_STATUS</b> structure contains the current 802.1X authentication stat
 
 ### -field authStatus
 
-The current status of the 802.1X authentication process. Any error that may have occurred during authentication is indicated below by the value of the <b>dwReason</b> and <b>dwError</b> members of the <b>ONEX_STATUS</b> structure. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-_onex_auth_status">ONEX_AUTH_STATUS</a> enumeration.
+The current status of the 802.1X authentication process. Any error that may have occurred during authentication is indicated below by the value of the <b>dwReason</b> and <b>dwError</b> members of the <b>ONEX_STATUS</b> structure. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-onex_auth_status">ONEX_AUTH_STATUS</a> enumeration.
 
 
 ### -field dwReason

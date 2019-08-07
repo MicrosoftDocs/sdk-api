@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>CERT_ACCESS_DESCRIPTION</b> structure is a member of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_authority_info_access">CERT_AUTHORITY_INFO_ACCESS</a> structure. It contains one instance of information about how to access information and services for either the subject or the issuer of a certificate that contains either the subject information access or the authority information access extension, respectively. For more information about these certificate extensions, see <a href="http://go.microsoft.com/fwlink/p/?linkid=104367">RFC 3280</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_authority_info_access">CERT_AUTHORITY_INFO_ACCESS</a> structure. It contains one instance of information about how to access information and services for either the subject or the issuer of a certificate that contains either the subject information access or the authority information access extension, respectively. For more information about these certificate extensions, see <a href="http://go.microsoft.com/fwlink/p/?linkid=104367">RFC 3280</a>.
 
 
 ## -struct-fields
@@ -95,7 +95,7 @@ For the szOID_PKIX_CA_REPOSITORY method, <b>AccessLocation</b> specifies either 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_authority_info_access">CERT_AUTHORITY_INFO_ACCESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_authority_info_access">CERT_AUTHORITY_INFO_ACCESS</a>
 
 
 

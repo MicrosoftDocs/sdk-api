@@ -86,7 +86,7 @@ A <b>NULL</b>-terminated wide-character string that contains the drive identifie
 ### -field ulFlags
 
 A bitmask of  
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_drive_flag">VDS_DRIVE_FLAG</a> enumeration values.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_drive_flag">VDS_DRIVE_FLAG</a> enumeration values.
 
 
 ### -field status
@@ -156,7 +156,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_drive_flag">VDS_DRIVE_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_drive_flag">VDS_DRIVE_FLAG</a>
 
 
 

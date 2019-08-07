@@ -134,7 +134,7 @@ A pointer to a buffer that contains the appropriate data to specify the type of 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_sni_set">HTTP_SERVICE_CONFIG_SSL_SNI_SET</a> structure. The hostname will be "*" when the SSL central certificate store is queried and wildcard bindings are used, and a host name for regular SNI.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_sni_set">HTTP_SERVICE_CONFIG_SSL_SNI_SET</a> structure. The hostname will be "*" when the SSL central certificate store is queried and wildcard bindings are used, and a host name for regular SNI.
 
 </td>
 </tr>
@@ -278,7 +278,7 @@ The configuration parameters that you update with <b>HttpUpdateServiceConfigurat
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_sni_set">HTTP_SERVICE_CONFIG_SSL_SNI_SET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_sni_set">HTTP_SERVICE_CONFIG_SSL_SNI_SET</a>
 
 
 

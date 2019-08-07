@@ -54,7 +54,7 @@ ms.custom: 19H1
 The <b>KERB_EXTERNAL_NAME</b> structure contains information about an external name.
 
 An external name is one used by external users. This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_external_ticket">KERB_EXTERNAL_TICKET</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_external_ticket">KERB_EXTERNAL_TICKET</a> structure.
 
 
 ## -struct-fields

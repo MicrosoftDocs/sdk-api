@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Specifies the kind of data stored in a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-_wsd_config_param">WSD_CONFIG_PARAM</a> structure.
+    <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_param">WSD_CONFIG_PARAM</a> structure.
 
 
 ## -enum-fields
@@ -78,9 +78,9 @@ The <i>dwConfigDataSize</i> member is 4.
 
 Used to pass in the client certificate that WSDAPI will use for client authentication in an SSL connection.
 
-The <i>pConfigData</i> member is a pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that represents the client certificate.  The caller needs to have read access to the private key of the certificate.
+The <i>pConfigData</i> member is a pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that represents the client certificate.  The caller needs to have read access to the private key of the certificate.
 
-The <i>dwConfigDataSize</i> member is the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure.
+The <i>dwConfigDataSize</i> member is the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
 
 
 ### -field WSD_SECURITY_SSL_SERVER_CERT_VALIDATION
@@ -114,18 +114,18 @@ The <i>dwConfigDataSize</i> member is 0.
 
 Used to specify which certificate is to be used by WSDAPI to sign outbound WS_Discovery UDP messages.
 
-The <i>pConfigData</i> member is a                                            pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure  that represents the signing certificate.  The caller needs to have read access to the certificate's private key..
+The <i>pConfigData</i> member is a                                            pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure  that represents the signing certificate.  The caller needs to have read access to the certificate's private key..
 
-The <i>dwConfigDataSize</i> member is the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure.
+The <i>dwConfigDataSize</i> member is the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
 
 
 ### -field WSD_SECURITY_COMPACTSIG_VALIDATION
 
 This is used to specify the parameters used to verify inbound signed WS_Discovery UDP message.
 
-The <i>pConfigData</i> member is a                                            pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-_wsd_security_signature_validation">WSD_SECURITY_SIGNATURE_VALIDATION</a> structure.
+The <i>pConfigData</i> member is a                                            pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_signature_validation">WSD_SECURITY_SIGNATURE_VALIDATION</a> structure.
 
-The <i>dwConfigDataSize</i> member is the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-_wsd_security_signature_validation">WSD_SECURITY_SIGNATURE_VALIDATION</a> structure.
+The <i>dwConfigDataSize</i> member is the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_signature_validation">WSD_SECURITY_SIGNATURE_VALIDATION</a> structure.
 
 
 ### -field WSD_CONFIG_HOSTING_ADDRESSES

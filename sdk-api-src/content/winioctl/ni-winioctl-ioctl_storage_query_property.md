@@ -173,7 +173,7 @@ The optional output buffer returned through the <i>lpOutBuffer</i> parameter can
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>
 
 
 

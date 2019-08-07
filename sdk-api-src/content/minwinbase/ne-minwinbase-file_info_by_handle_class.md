@@ -66,14 +66,14 @@ Identifies the type  of file information that
 ### -field FileBasicInfo
 
 Minimal information for the file should be retrieved or set. Used for file handles. See 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_basic_info">FILE_BASIC_INFO</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_basic_info">FILE_BASIC_INFO</a>.
 
 
 ### -field FileStandardInfo
 
 Extended information for the file should be retrieved. Used for file handles. Use only when calling 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>. See 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_standard_info">FILE_STANDARD_INFO</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_standard_info">FILE_STANDARD_INFO</a>.
 
 
 ### -field FileNameInfo
@@ -115,21 +115,21 @@ The end of the file should be set. Use only when calling
 
 File stream information for the specified file should be retrieved. Used for any handles. Use only when calling 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>. See 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_stream_info">FILE_STREAM_INFO</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_stream_info">FILE_STREAM_INFO</a>.
 
 
 ### -field FileCompressionInfo
 
 File compression information should be retrieved. Used for any handles. Use only when calling 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>. See 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_compression_info">FILE_COMPRESSION_INFO</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_compression_info">FILE_COMPRESSION_INFO</a>.
 
 
 ### -field FileAttributeTagInfo
 
 File attribute information should be retrieved. Used for any handles. Use only when calling 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>. See 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_attribute_tag_info">FILE_ATTRIBUTE_TAG_INFO</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_attribute_tag_info">FILE_ATTRIBUTE_TAG_INFO</a>.
 
 
 ### -field FileIdBothDirectoryInfo
@@ -141,14 +141,14 @@ Files in the specified directory should be retrieved. Used for directory handles
       the size of the buffer that is passed to the function. Any subsequent calls to 
       <b>GetFileInformationByHandleEx</b> on the same 
       handle will resume the enumeration operation after the last file is returned. See 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_id_both_dir_info">FILE_ID_BOTH_DIR_INFO</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_both_dir_info">FILE_ID_BOTH_DIR_INFO</a>.
 
 
 ### -field FileIdBothDirectoryRestartInfo
 
 Identical to <b>FileIdBothDirectoryInfo</b>, but forces the enumeration operation to 
       start again from the beginning. See 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_id_both_dir_info">FILE_ID_BOTH_DIR_INFO</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_both_dir_info">FILE_ID_BOTH_DIR_INFO</a>.
 
 
 ### -field FileIoPriorityHintInfo
@@ -162,14 +162,14 @@ Priority hint information should be  set. Use only when calling
 
 File remote protocol information should be retrieved. Use for any handles. Use only when calling 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>. See 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_remote_protocol_info">FILE_REMOTE_PROTOCOL_INFO</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_remote_protocol_info">FILE_REMOTE_PROTOCOL_INFO</a>.
 
 
 ### -field FileFullDirectoryInfo
 
 Files in the specified directory should be retrieved. Used for directory handles. Use only when calling 
        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>. See 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_full_dir_info">FILE_FULL_DIR_INFO</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_full_dir_info">FILE_FULL_DIR_INFO</a>.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows 8 and Windows Server 2012
 
@@ -179,7 +179,7 @@ Files in the specified directory should be retrieved. Used for directory handles
 Identical to <b>FileFullDirectoryInfo</b>, but forces the enumeration operation to 
        start again from the beginning. Use only when calling 
        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>. See 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_full_dir_info">FILE_FULL_DIR_INFO</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_full_dir_info">FILE_FULL_DIR_INFO</a>.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows 8 and Windows Server 2012
 
@@ -188,7 +188,7 @@ Identical to <b>FileFullDirectoryInfo</b>, but forces the enumeration operation 
 
 File storage information should be retrieved. Use for any handles. Use only when calling 
        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>. See 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_storage_info">FILE_STORAGE_INFO</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_storage_info">FILE_STORAGE_INFO</a>.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows 8 and Windows Server 2012
 
@@ -206,7 +206,7 @@ File alignment information should be retrieved. Use for any handles. Use only wh
 
 File information should be retrieved. Use for any handles. Use only when calling 
        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>. See 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_id_info">FILE_ID_INFO</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_info">FILE_ID_INFO</a>.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows 8 and Windows Server 2012
 
@@ -215,7 +215,7 @@ File information should be retrieved. Use for any handles. Use only when calling
 
 Files in the specified directory should be retrieved. Used for directory handles. Use only when calling 
        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>. See 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_id_extd_dir_info">FILE_ID_EXTD_DIR_INFO</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_extd_dir_info">FILE_ID_EXTD_DIR_INFO</a>.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows 8 and Windows Server 2012
 
@@ -225,7 +225,7 @@ Files in the specified directory should be retrieved. Used for directory handles
 Identical to <b>FileIdExtdDirectoryInfo</b>, but forces the enumeration operation to 
        start again from the beginning. Use only when calling 
        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>. See 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_id_extd_dir_info">FILE_ID_EXTD_DIR_INFO</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_extd_dir_info">FILE_ID_EXTD_DIR_INFO</a>.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported before Windows 8 and Windows Server 2012
 

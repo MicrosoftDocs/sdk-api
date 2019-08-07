@@ -69,7 +69,7 @@ A
 ### -field Weekly
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_weekly">WEEKLY</a> structure that specifies the number of weeks between invocations of a task, and day(s) of the week the task will run.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-weekly">WEEKLY</a> structure that specifies the number of weeks between invocations of a task, and day(s) of the week the task will run.
 
 
 ### -field MonthlyDate
@@ -123,7 +123,7 @@ The <b>TriggerType</b> member of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_weekly">WEEKLY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-weekly">WEEKLY</a>
  
 
  

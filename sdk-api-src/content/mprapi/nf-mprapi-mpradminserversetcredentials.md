@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminServerSetCredentials, MprAdminServerSetCredentials function [RAS], _mpr_mpradminserversetcredentials, mprapi/MprAdminServerSetCredentials, rras.mpradminserversetcredentials
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminServerSetCredentials"
+f1_keywords:
+- mprapi/MprAdminServerSetCredentials
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminServerSetCredentials
+- MprAdminServerSetCredentials
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ A DWORD value that describes the format in which the information is structured i
 
 ### -param lpbBuffer [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_credentialsex_1">MPR_CREDENTIALSEX_1</a> structure that contains the pre-shared key for the server.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_credentialsex_1">MPR_CREDENTIALSEX_1</a> structure that contains the pre-shared key for the server.
 
 
 ## -returns
@@ -147,7 +147,7 @@ Use
 The server maintains a single pre-shared key for all users.
 
 To delete the pre-shared key, call 
-<b>MprAdminServerSetCredentials</b> with the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_credentialsex_1">MPR_CREDENTIALSEX_1</a><b>dwSize</b> member set to zero.
+<b>MprAdminServerSetCredentials</b> with the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_credentialsex_1">MPR_CREDENTIALSEX_1</a><b>dwSize</b> member set to zero.
 
 
 
@@ -157,7 +157,7 @@ To delete the pre-shared key, call
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_credentialsex_1">MPR_CREDENTIALSEX_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_credentialsex_1">MPR_CREDENTIALSEX_1</a>
 
 
 

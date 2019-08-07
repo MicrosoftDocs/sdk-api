@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CredDelete, CredDelete function [Security], CredDeleteA, CredDeleteW, _cred_creddelete, security.creddelete, wincred/CredDelete, wincred/CredDeleteA, wincred/CredDeleteW
 ms.topic: function
-f1_keywords: 
- - "wincred/CredDelete"
+f1_keywords:
+- wincred/CredDelete
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -30,20 +30,20 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
- - sechost.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - API-MS-Win-Security-credentials-l1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+- sechost.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- API-MS-Win-Security-credentials-l1-1-0.dll
 api_name:
- - CredDelete
- - CredDeleteA
- - CredDeleteW
+- CredDelete
+- CredDeleteA
+- CredDeleteW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ Pointer to a null-terminated string that contains the name of the credential to 
 
 ### -param Type [in]
 
-Type of the credential to delete. Must be one of the CRED_TYPE_* defined types. For a list of the defined types, see the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credentiala">CREDENTIAL</a> structure.
+Type of the credential to delete. Must be one of the CRED_TYPE_* defined types. For a list of the defined types, see the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure.
 
 If the value of this parameter is <b>CRED_TYPE_DOMAIN_EXTENDED</b>, this function can delete a credential that specifies a user name when there are multiple credentials for the same target. The value of the <i>TargetName</i> parameter must specify the user name as <i>Target</i><b>|</b><i>UserName</i>.
 

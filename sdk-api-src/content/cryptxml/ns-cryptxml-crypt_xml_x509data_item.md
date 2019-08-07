@@ -170,5 +170,5 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-c
 
 ### -field Custom
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains custom data.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains custom data.
 

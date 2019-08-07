@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PARTITION_STYLE, PARTITION_STYLE enumeration [Files], PARTITION_STYLE_GPT, PARTITION_STYLE_MBR, PARTITION_STYLE_RAW, _win32_partition_style_str, base.partition_style_str, fs.partition_style_str, winioctl/PARTITION_STYLE, winioctl/PARTITION_STYLE_GPT, winioctl/PARTITION_STYLE_MBR, winioctl/PARTITION_STYLE_RAW
 ms.topic: enum
-f1_keywords: 
- - "winioctl/PARTITION_STYLE"
+f1_keywords:
+- winioctl/PARTITION_STYLE
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - PARTITION_STYLE
+- PARTITION_STYLE
 product: Windows
 targetos: Windows
 req.typenames: PARTITION_STYLE
@@ -90,7 +90,7 @@ Partition not formatted in either of the recognized formats—MBR or GPT.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information_ex">PARTITION_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDeviceInfoListClass, SetupDiGetDeviceInfoListClass function [Device and Driver Installation], devinst.setupdigetdeviceinfolistclass, di-rtns_219b6225-e6f3-40b4-8127-709c425a0cad.xml, setupapi/SetupDiGetDeviceInfoListClass
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiGetDeviceInfoListClass"
+f1_keywords:
+- setupapi/SetupDiGetDeviceInfoListClass
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupDiGetDeviceInfoListClass
+- SetupDiGetDeviceInfoListClass
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetupDiGetDeviceInfoListClass</b> function retrieves the GUID for the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a> associated with a device information set if the set has an associated class.
+The <b>SetupDiGetDeviceInfoListClass</b> function retrieves the GUID for the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> associated with a device information set if the set has an associated class.
 
 
 ## -parameters

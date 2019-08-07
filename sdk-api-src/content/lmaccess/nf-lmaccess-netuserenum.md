@@ -366,7 +366,7 @@ the <b>NetUserEnum</b> function and specify information level 1, 2, or 3,  for t
 
 User account names are limited to 20 characters and group names are limited to 256 characters. In addition, account names cannot be terminated by a period and they cannot include commas or any of the following printable characters: ", /, \, [, ], :, |, &lt;, &gt;, +, =, ;, ?, *. Names also cannot include characters in the range 1-31, which are nonprintable.
 
-The <b>NetUserEnum</b> function does not support a <i>level</i> parameter of 4 and the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_4">USER_INFO_4</a> structure. The <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusergetinfo">NetUserGetInfo</a> 
+The <b>NetUserEnum</b> function does not support a <i>level</i> parameter of 4 and the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a> structure. The <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusergetinfo">NetUserGetInfo</a> 
 		function supports a <i>level</i> parameter of 4 and the <b>USER_INFO_4</b> structure.
 
 

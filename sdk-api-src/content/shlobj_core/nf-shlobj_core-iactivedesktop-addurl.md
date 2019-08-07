@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddUrl, AddUrl method [Legacy Windows Environment Features], AddUrl method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],AddUrl method, IActiveDesktop.AddUrl, IActiveDesktop::AddUrl, _win32_IActiveDesktop_AddUrl_Method, lwef.iactivedesktop_addurl_method, shell.iactivedesktop_addurl_method, shlobj_core/IActiveDesktop::AddUrl
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IActiveDesktop.AddUrl"
+f1_keywords:
+- shlobj_core/IActiveDesktop.AddUrl
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IActiveDesktop.AddUrl
+- IActiveDesktop.AddUrl
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -77,7 +77,7 @@ A pointer to a string that contains the URL of the desktop item.
 
 Type: <b>LPCOMPONENT</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent">COMPONENT</a> structure that contains the details of the desktop item to be added. 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure that contains the details of the desktop item to be added. 
 
 
 ### -param dwFlags

@@ -61,7 +61,7 @@ Represents a generated SOAP fault code.
 
 ### -field Value
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_name">WSDXML_NAME</a> structure that contains the  qualified name of the SOAP fault code.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure that contains the  qualified name of the SOAP fault code.
 
 
 ### -field Subcode

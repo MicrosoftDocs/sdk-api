@@ -62,7 +62,7 @@ The <b>ACCESS_ALLOWED_OBJECT_ACE</b> structure defines an <a href="https://docs.
 ### -field Header
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure that specifies the size and type of ACE. It also contains flags that control inheritance of the ACE by child objects. The <b>AceType</b> member of the <b>ACE_HEADER</b> structure should be set to ACCESS_ALLOWED_OBJECT_ACE_TYPE, and the <b>AceSize</b> member should be set to the total number of bytes allocated for the <b>ACCESS_ALLOWED_OBJECT_ACE</b> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure that specifies the size and type of ACE. It also contains flags that control inheritance of the ACE by child objects. The <b>AceType</b> member of the <b>ACE_HEADER</b> structure should be set to ACCESS_ALLOWED_OBJECT_ACE_TYPE, and the <b>AceSize</b> member should be set to the total number of bytes allocated for the <b>ACCESS_ALLOWED_OBJECT_ACE</b> structure.
 
 
 ### -field Mask
@@ -202,7 +202,7 @@ This member exists only if the ACE_INHERITED_OBJECT_TYPE_PRESENT bit is set in t
 
 If this member exists, it is a 
 <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that identifies the type of child object that can inherit the ACE. Inheritance is also controlled by the inheritance flags in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a>, as well as by any protection against inheritance placed on the child objects.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>, as well as by any protection against inheritance placed on the child objects.
 
 The offset of this member can vary. If the <b>Flags</b> member does not contain the ACE_OBJECT_TYPE_PRESENT flag, the <b>InheritedObjectType</b> member starts at the offset specified by the <b>ObjectType</b> member.
 
@@ -221,7 +221,7 @@ The offset of this member can vary. If the <b>Flags</b> member is zero, the <b>S
 
 
 
-If neither the <b>ObjectType</b> nor <b>InheritedObjectType</b> <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> is specified, the <b>ACCESS_ALLOWED_OBJECT_ACE</b> structure has the same semantics as those used by the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_allowed_ace">ACCESS_ALLOWED_ACE</a> structure. In that case, use the <b>ACCESS_ALLOWED_ACE</b> structure because it is smaller and more efficient.
+If neither the <b>ObjectType</b> nor <b>InheritedObjectType</b> <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> is specified, the <b>ACCESS_ALLOWED_OBJECT_ACE</b> structure has the same semantics as those used by the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a> structure. In that case, use the <b>ACCESS_ALLOWED_ACE</b> structure because it is smaller and more efficient.
 
 An ACL that contains an <b>ACCESS_ALLOWED_OBJECT_ACE</b> must specify the ACL_REVISION_DS revision number in its 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> header.

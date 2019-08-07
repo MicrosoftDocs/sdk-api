@@ -123,7 +123,7 @@ The <b>ratProvider</b> extended attribute in
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute">RADIUS_ATTRIBUTE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a>
 
 
 

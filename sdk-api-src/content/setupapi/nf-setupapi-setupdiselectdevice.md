@@ -82,7 +82,7 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 
 
-<b>SetupDiSelectDevice</b> handles the user interface that allows the user to select a driver for the specified device, or a device information set if a device is not specified. By setting the <b>Flags</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> structure for the device, or the device information set if a device is not specified, the caller can specify special handling of the user interface, for example, to allow users to select a driver from an OEM installation disk. 
+<b>SetupDiSelectDevice</b> handles the user interface that allows the user to select a driver for the specified device, or a device information set if a device is not specified. By setting the <b>Flags</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> structure for the device, or the device information set if a device is not specified, the caller can specify special handling of the user interface, for example, to allow users to select a driver from an OEM installation disk. 
 
 <div class="alert"><b>Note</b>  Only a class installer should call <b>SetupDiSelectDevice</b> and only in those situations where the class installer must perform driver selection operations after <b>SetupDiSelectDevice</b> completes the default driver selection operation. In such situations, the class installer must directly call <b>SetupDiSelectDevice</b> when the installer processes a DIF_SELECTDEVICE request. For more information about calling the default handler, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/calling-the-default-dif-code-handlers">Calling Default DIF Code Handlers</a>.</div>
 <div> </div>
@@ -96,7 +96,7 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a>
 
 
 

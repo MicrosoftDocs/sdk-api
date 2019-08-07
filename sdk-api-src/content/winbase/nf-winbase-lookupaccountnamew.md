@@ -84,7 +84,7 @@ Use a fully qualified string in the domain_name\user_name format to ensure that 
 ### -param Sid [out, optional]
 
 A pointer to a buffer that receives the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that corresponds to the account name pointed to by the <i>lpAccountName</i> parameter. If this parameter is <b>NULL</b>, <i>cbSid</i> must be zero.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that corresponds to the account name pointed to by the <i>lpAccountName</i> parameter. If this parameter is <b>NULL</b>, <i>cbSid</i> must be zero.
 
 
 ### -param cbSid [in, out]
@@ -162,7 +162,7 @@ In addition to looking up local accounts, local domain accounts, and explicitly 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 

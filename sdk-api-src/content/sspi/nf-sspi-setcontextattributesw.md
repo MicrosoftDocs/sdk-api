@@ -97,7 +97,7 @@ This attribute is supported only by the Schannel security package.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_secpkgcontext_eapprfinfo">SecPkgContext_EapPrfInfo</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_eapprfinfo">SecPkgContext_EapPrfInfo</a> structure.
 
 Sets the pseudo-random function (PRF) used by the Extensible Authentication Protocol (EAP). This is the value that is returned by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesw">QueryContextAttributes (Schannel)</a> function when <b>SECPKG_ATTR_EAP_KEY_BLOCK</b> is passed as the value of the <i>ulAttribute</i> parameter.
 

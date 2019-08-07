@@ -64,7 +64,7 @@ Converts the extended color information from an <a href="https://docs.microsoft.
 
 ### -param pdwToDXVA [out]
 
-Receives the DXVA extended color information. The bitfields in the <b>DWORD</b> are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
+Receives the DXVA extended color information. The bitfields in the <b>DWORD</b> are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
 
 
 ### -param pFromFormat [in]

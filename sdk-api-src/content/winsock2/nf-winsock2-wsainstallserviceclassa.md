@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAInstallServiceClass, WSAInstallServiceClass function [Winsock], WSAInstallServiceClassA, WSAInstallServiceClassW, _win32_wsainstallserviceclass_2, winsock.wsainstallserviceclass_2, winsock2/WSAInstallServiceClass, winsock2/WSAInstallServiceClassA, winsock2/WSAInstallServiceClassW
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSAInstallServiceClass"
+f1_keywords:
+- winsock2/WSAInstallServiceClass
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSAInstallServiceClass
- - WSAInstallServiceClassA
- - WSAInstallServiceClassW
+- WSAInstallServiceClass
+- WSAInstallServiceClassA
+- WSAInstallServiceClassW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -194,7 +194,7 @@ The WS2_32.DLL has not been initialized. The application must first call
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaserviceclassinfow">WSASERVICECLASSINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaserviceclassinfow">WSASERVICECLASSINFO</a>
 
 
 

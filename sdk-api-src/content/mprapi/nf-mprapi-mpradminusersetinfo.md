@@ -89,13 +89,13 @@ This parameter can be zero or one, corresponding to the structure type pointed t
 ### -param lpbBuffer [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_user_0">RAS_USER_0</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_user_1">RAS_USER_1</a> structure that specifies the new RAS information for the user. 
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_user_0">RAS_USER_0</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_user_1">RAS_USER_1</a> structure that specifies the new RAS information for the user. 
 
 
 
 
 <b>Windows NT Server 4.0 with SP3 and later:  </b>If the <i>dwLevel</i> parameter specifies zero, <i>lpbBuffer</i> should point to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_user_0">RAS_USER_0</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_user_0">RAS_USER_0</a> structure.
 
 
 ## -returns
@@ -191,7 +191,7 @@ This function is available on Windows NT 4.0 if the RRAS redistributable is in
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_user_0">RAS_USER_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_user_0">RAS_USER_0</a>
 
 
 

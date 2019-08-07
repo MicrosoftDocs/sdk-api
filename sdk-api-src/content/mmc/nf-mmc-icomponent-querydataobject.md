@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCT_RESULT = 0x8001, CCT_SCOPE = 0x8000, CCT_SNAPIN_MANAGER = 0x8002, CCT_UNINITIALIZED = 0xFFFF, IComponent interface [MMC],QueryDataObject method, IComponent.QueryDataObject, IComponent::QueryDataObject, QueryDataObject, QueryDataObject method [MMC], QueryDataObject method [MMC],IComponent interface, _slate_icomponent_querydataobject, mmc.icomponent_querydataobject, mmc/IComponent::QueryDataObject
 ms.topic: method
-f1_keywords: 
- - "mmc/IComponent.QueryDataObject"
+f1_keywords:
+- mmc/IComponent.QueryDataObject
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IComponent.QueryDataObject
+- IComponent.QueryDataObject
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -93,7 +93,7 @@ Data object for the Snap-In Manager context.
 Data object has an invalid type.
 
 These constants are members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_data_object_types">DATA_OBJECT_TYPES</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-data_object_types">DATA_OBJECT_TYPES</a> enumeration.
 
 
 ### -param ppDataObject [out]

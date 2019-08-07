@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>CERT_GENERAL_SUBTREE</b> structure is used in 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_name_constraints_info">CERT_NAME_CONSTRAINTS_INFO</a> structure. This structure provides the identity of a certificate that can be included or excluded.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_name_constraints_info">CERT_NAME_CONSTRAINTS_INFO</a> structure. This structure provides the identity of a certificate that can be included or excluded.
 
 
 ## -struct-fields

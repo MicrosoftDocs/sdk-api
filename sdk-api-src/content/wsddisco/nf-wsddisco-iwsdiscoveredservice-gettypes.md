@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTypes, GetTypes method, GetTypes method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetTypes method, IWSDiscoveredService.GetTypes, IWSDiscoveredService::GetTypes, ncd.iwsdiscoveredservice_gettypes, wsddisco/IWSDiscoveredService::GetTypes
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDiscoveredService.GetTypes"
+f1_keywords:
+- wsddisco/IWSDiscoveredService.GetTypes
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveredService.GetTypes
+- IWSDiscoveredService.GetTypes
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Retrieves a list of WS-Discovery Types.
 
 ### -param ppTypesList [in]
 
-List of WS-Discovery Types provided in the Hello, ProbeMatch, or ResolveMatch message sent by the remote device. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_name_list">WSD_NAME_LIST</a>. Do not deallocate the output structure.
+List of WS-Discovery Types provided in the Hello, ProbeMatch, or ResolveMatch message sent by the remote device. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_name_list">WSD_NAME_LIST</a>. Do not deallocate the output structure.
 
 
 ## -returns

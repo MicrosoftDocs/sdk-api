@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFT_OUTPUT_STREAM_CAN_PROVIDE_SAMPLES, MFT_OUTPUT_STREAM_DISCARDABLE, MFT_OUTPUT_STREAM_FIXED_SAMPLE_SIZE, MFT_OUTPUT_STREAM_LAZY_READ, MFT_OUTPUT_STREAM_OPTIONAL, MFT_OUTPUT_STREAM_PROVIDES_SAMPLES, MFT_OUTPUT_STREAM_REMOVABLE, MFT_OUTPUT_STREAM_SINGLE_SAMPLE_PER_BUFFER, MFT_OUTPUT_STREAM_WHOLE_SAMPLES, _MFT_OUTPUT_STREAM_INFO_FLAGS, _MFT_OUTPUT_STREAM_INFO_FLAGS enumeration [Media Foundation], f67e1e81-baf5-414a-ac23-45d4d6317255, mf._mft_output_stream_info_flags, mftransform/MFT_OUTPUT_STREAM_CAN_PROVIDE_SAMPLES, mftransform/MFT_OUTPUT_STREAM_DISCARDABLE, mftransform/MFT_OUTPUT_STREAM_FIXED_SAMPLE_SIZE, mftransform/MFT_OUTPUT_STREAM_LAZY_READ, mftransform/MFT_OUTPUT_STREAM_OPTIONAL, mftransform/MFT_OUTPUT_STREAM_PROVIDES_SAMPLES, mftransform/MFT_OUTPUT_STREAM_REMOVABLE, mftransform/MFT_OUTPUT_STREAM_SINGLE_SAMPLE_PER_BUFFER, mftransform/MFT_OUTPUT_STREAM_WHOLE_SAMPLES, mftransform/_MFT_OUTPUT_STREAM_INFO_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "mftransform/_MFT_OUTPUT_STREAM_INFO_FLAGS"
+f1_keywords:
+- mftransform/_MFT_OUTPUT_STREAM_INFO_FLAGS
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - _MFT_OUTPUT_STREAM_INFO_FLAGS
+- _MFT_OUTPUT_STREAM_INFO_FLAGS
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -97,7 +97,7 @@ This output stream is optional. The client can deselect the stream by not settin
 
 The MFT provides the output samples for this stream, either by allocating them internally or by operating directly on the input samples. The MFT cannot use output samples provided by the client for this stream.
 
-If this flag is not set, the MFT must set <b>cbSize</b> to a nonzero value in the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_output_stream_info">MFT_OUTPUT_STREAM_INFO</a> structure, so that the client can allocate the correct buffer size. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreaminfo">IMFTransform::GetOutputStreamInfo</a>. This flag cannot be combined with the MFT_OUTPUT_STREAM_CAN_PROVIDE_SAMPLES flag.
+If this flag is not set, the MFT must set <b>cbSize</b> to a nonzero value in the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_output_stream_info">MFT_OUTPUT_STREAM_INFO</a> structure, so that the client can allocate the correct buffer size. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreaminfo">IMFTransform::GetOutputStreamInfo</a>. This flag cannot be combined with the MFT_OUTPUT_STREAM_CAN_PROVIDE_SAMPLES flag.
 
 
 ### -field MFT_OUTPUT_STREAM_CAN_PROVIDE_SAMPLES
@@ -145,7 +145,7 @@ If neither of these flags is set, the MFT never discards output data.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_output_stream_info">MFT_OUTPUT_STREAM_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_output_stream_info">MFT_OUTPUT_STREAM_INFO</a>
 
 
 

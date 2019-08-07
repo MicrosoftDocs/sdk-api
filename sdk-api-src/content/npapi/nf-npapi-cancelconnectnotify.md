@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelConnectNotify, CancelConnectNotify function [Security], _mnp_cancelconnectnotify, npapi/CancelConnectNotify, security.cancelconnectnotify
 ms.topic: function
-f1_keywords: 
- - "npapi/CancelConnectNotify"
+f1_keywords:
+- npapi/CancelConnectNotify
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - CancelConnectNotify
+- CancelConnectNotify
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,13 +63,13 @@ The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">Multiple
 ### -param lpNotifyInfo [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/ns-npapi-_notifyinfo">NOTIFYINFO</a> structure that contains information about the notification.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/ns-npapi-notifyinfo">NOTIFYINFO</a> structure that contains information about the notification.
 
 
 ### -param lpCancelInfo [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/ns-npapi-_notifycancel">NOTIFYCANCEL</a> structure that contains the cancel connection specific information.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/ns-npapi-notifycancel">NOTIFYCANCEL</a> structure that contains the cancel connection specific information.
 
 
 ## -returns

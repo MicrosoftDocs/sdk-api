@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],NotifySessionId method, IWTSProtocolConnection.NotifySessionId, IWTSProtocolConnection::NotifySessionId, NotifySessionId, NotifySessionId method [Remote Desktop Services], NotifySessionId method [Remote Desktop Services],IWTSProtocolConnection interface, termserv.iwtsprotocolconnection_notifysessionid, wtsprotocol/IWTSProtocolConnection::NotifySessionId
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolConnection.NotifySessionId"
+f1_keywords:
+- wtsprotocol/IWTSProtocolConnection.NotifySessionId
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.NotifySessionId
+- IWTSProtocolConnection.NotifySessionId
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Sends the ID of  the new session to the protocol.
 
 ### -param SessionId [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_session_id">WTS_SESSION_ID</a> structure that contains a connection GUID and the associated session ID.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_session_id">WTS_SESSION_ID</a> structure that contains a connection GUID and the associated session ID.
 
 
 ## -remarks

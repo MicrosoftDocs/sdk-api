@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: ef39b832-1f22-468a-8734-c7d9bd3ac965
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_TCPTABLE_OWNER_PID, MIB_TCPTABLE_OWNER_PID, MIB_TCPTABLE_OWNER_PID structure [MIB], PMIB_TCPTABLE_OWNER_PID, PMIB_TCPTABLE_OWNER_PID structure pointer [MIB], iprtrmib/MIB_TCPTABLE_OWNER_PID, iprtrmib/PMIB_TCPTABLE_OWNER_PID, mib.mib_tcptable_owner_pid, tcpmib/MIB_TCPTABLE_OWNER_PID, tcpmib/PMIB_TCPTABLE_OWNER_PID"
+ms.keywords: '*PMIB_TCPTABLE_OWNER_PID, MIB_TCPTABLE_OWNER_PID, MIB_TCPTABLE_OWNER_PID structure [MIB], PMIB_TCPTABLE_OWNER_PID, PMIB_TCPTABLE_OWNER_PID structure pointer [MIB], iprtrmib/MIB_TCPTABLE_OWNER_PID, iprtrmib/PMIB_TCPTABLE_OWNER_PID, mib.mib_tcptable_owner_pid, tcpmib/MIB_TCPTABLE_OWNER_PID, tcpmib/PMIB_TCPTABLE_OWNER_PID'
 ms.topic: struct
-f1_keywords: 
- - "tcpmib/MIB_TCPTABLE_OWNER_PID"
+f1_keywords:
+- tcpmib/MIB_TCPTABLE_OWNER_PID
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tcpmib.h
- - Iprtrmib.h
+- Tcpmib.h
+- Iprtrmib.h
 api_name:
- - MIB_TCPTABLE_OWNER_PID
+- MIB_TCPTABLE_OWNER_PID
 product: Windows
 targetos: Windows
 req.typenames: MIB_TCPTABLE_OWNER_PID, *PMIB_TCPTABLE_OWNER_PID
@@ -74,7 +74,7 @@ Array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/a
 
 
 
-This table is specifically returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a> with the <i>TableClass</i> parameter set to a <b>TCP_TABLE_OWNER_PID_*</b> value from the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcp_table_class">TCP_TABLE_CLASS</a> enumeration and the <i>ulAf</i> parameter set to <b>AF_INET4</b>.
+This table is specifically returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a> with the <i>TableClass</i> parameter set to a <b>TCP_TABLE_OWNER_PID_*</b> value from the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-tcp_table_class">TCP_TABLE_CLASS</a> enumeration and the <i>ulAf</i> parameter set to <b>AF_INET4</b>.
 
 The <b>MIB_TCPTABLE_OWNER_PID</b> structure may contain padding for alignment between the <b>dwNumEntries</b> member and the first <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_owner_pid">MIB_TCPROW_OWNER_PID</a> array entry in the <b>table</b> member. Padding for alignment may also be present between the <b>MIB_TCPROW_OWNER_PID</b> array entries in the <b>table</b> member. Any access to a <b>MIB_TCPROW_OWNER_PID</b> array entry should assume  padding may exist. 
 

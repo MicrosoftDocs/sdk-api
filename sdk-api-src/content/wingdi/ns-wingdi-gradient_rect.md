@@ -8,10 +8,10 @@ tech.root: gdi
 ms.assetid: 8660114a-423f-40a8-b113-e0304bb0f383
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPGRADIENT_RECT, *PGRADIENT_RECT, GRADIENT_RECT, GRADIENT_RECT structure [Windows GDI], PGRADIENT_RECT, PGRADIENT_RECT structure pointer [Windows GDI], _win32_GRADIENT_RECT_str, gdi.gradient_rect, wingdi/GRADIENT_RECT, wingdi/PGRADIENT_RECT"
+ms.keywords: '*LPGRADIENT_RECT, *PGRADIENT_RECT, GRADIENT_RECT, GRADIENT_RECT structure [Windows GDI], PGRADIENT_RECT, PGRADIENT_RECT structure pointer [Windows GDI], _win32_GRADIENT_RECT_str, gdi.gradient_rect, wingdi/GRADIENT_RECT, wingdi/PGRADIENT_RECT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/GRADIENT_RECT"
+f1_keywords:
+- wingdi/GRADIENT_RECT
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - GRADIENT_RECT
+- GRADIENT_RECT
 product: Windows
 targetos: Windows
 req.typenames: GRADIENT_RECT, *PGRADIENT_RECT, *LPGRADIENT_RECT
@@ -76,7 +76,7 @@ The lower-right corner of a rectangle.
 
 
 
-The <b>GRADIENT_RECT</b> structure specifies the values of the <i>pVertex</i> array that are used when the <i>dwMode</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a> function is GRADIENT_FILL_RECT_H or GRADIENT_FILL_RECT_V. For related <b>GradientFill</b> structures, see <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_gradient_triangle">GRADIENT_TRIANGLE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_trivertex">TRIVERTEX</a>.
+The <b>GRADIENT_RECT</b> structure specifies the values of the <i>pVertex</i> array that are used when the <i>dwMode</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a> function is GRADIENT_FILL_RECT_H or GRADIENT_FILL_RECT_V. For related <b>GradientFill</b> structures, see <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_triangle">GRADIENT_TRIANGLE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a>.
 
 The following images shows examples of a rectangle with a gradient fill - one in horizontal mode, the other in vertical mode.
 
@@ -104,7 +104,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_gradient_triangle">GRADIENT_TRIANGLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_triangle">GRADIENT_TRIANGLE</a>
 
 
 
@@ -112,7 +112,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_trivertex">TRIVERTEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a>
  
 
  

@@ -82,19 +82,19 @@ A
 ### -param TokenSource [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_source">TOKEN_SOURCE</a> structure specifying the source to record in the token.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_source">TOKEN_SOURCE</a> structure specifying the source to record in the token.
 
 
 ### -param LogonType [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_security_logon_type">SECURITY_LOGON_TYPE</a> value indicating the type of logon to record in the token.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-security_logon_type">SECURITY_LOGON_TYPE</a> value indicating the type of logon to record in the token.
 
 
 ### -param AuthorityName [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that specifies the name of the authority that authorized this user, typically a domain name.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that specifies the name of the authority that authorized this user, typically a domain name.
 
 
 ### -param Token [out]
@@ -112,7 +112,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly
 ### -param AccountName [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that receives the account name encoded in the <i>UserAuthData</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that receives the account name encoded in the <i>UserAuthData</i> parameter.
 
 
 ### -param SubStatus [out]
@@ -163,7 +163,7 @@ A pointer to the <b>ConvertAuthDataToToken</b> function is available in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_security_logon_type">SECURITY_LOGON_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-security_logon_type">SECURITY_LOGON_TYPE</a>
 
 
 
@@ -171,11 +171,11 @@ A pointer to the <b>ConvertAuthDataToToken</b> function is available in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_source">TOKEN_SOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_source">TOKEN_SOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a>
  
 
  

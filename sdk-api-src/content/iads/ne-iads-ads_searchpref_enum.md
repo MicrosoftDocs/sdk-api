@@ -145,7 +145,7 @@ Not all attributes are preserved when the object is deleted. You can retrieve th
 
 Specifies that the search should use the LDAP virtual list view (VLV) control. <b>ADS_SEARCHPREF_VLV</b> can be used to access both string-type and offset-type VLV searches, by setting the appropriate fields. These two options cannot be used simultaneously because it is not possible to set the VLV control to request a result set that is both located at a specific offset and follows a particular value in the sort sequence.
 
-To perform a string search, set the <b>lpszTarget</b> field in <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_vlv">ADS_VLV</a> to the string to be searched for. To perform an offset type search, set the dwOffset field in <b>ADS_VLV</b>. If you use an offset search, you must set <b>lpszTarget</b> to <b>NULL</b>.
+To perform a string search, set the <b>lpszTarget</b> field in <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_vlv">ADS_VLV</a> to the string to be searched for. To perform an offset type search, set the dwOffset field in <b>ADS_VLV</b>. If you use an offset search, you must set <b>lpszTarget</b> to <b>NULL</b>.
 
 <b>ADS_SEARCHPREF_SORT_ON</b> must be set to <b>TRUE</b> when using <b>ADS_SEARCHPREF_VLV</b>. The sort order of the search results determines the order used for the VLV search. If performing an offset-type search, the offset is used as an index into the sorted list. If performing a string-type search, the server attempts to return the first entry which is greater-than-or-equal-to the string, based on the sort order.
 
@@ -607,7 +607,7 @@ HRESULT SetSearchPreferences2(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_vlv">ADS_VLV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_vlv">ADS_VLV</a>
 
 
 

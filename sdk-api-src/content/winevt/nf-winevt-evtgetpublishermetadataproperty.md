@@ -66,7 +66,7 @@ A handle to the metadata that the  <a href="https://docs.microsoft.com/windows/d
 
 ### -param PropertyId [in]
 
-The identifier of the metadata property to retrieve. For a list of property identifiers, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_publisher_metadata_property_id">EVT_PUBLISHER_METADATA_PROPERTY_ID</a> enumeration.
+The identifier of the metadata property to retrieve. For a list of property identifiers, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_publisher_metadata_property_id">EVT_PUBLISHER_METADATA_PROPERTY_ID</a> enumeration.
 
 
 ### -param Flags [in]

@@ -119,7 +119,7 @@ Return detailed information and additional attributes about the user account. Th
 </td>
 <td width="60%">
 Return detailed information and additional attributes about the user account. This level is valid only on servers. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_3">USER_INFO_3</a> structure. Note that  it is recommended that you use 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_3">USER_INFO_3</a> structure. Note that  it is recommended that you use 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a> instead.
 
 </td>

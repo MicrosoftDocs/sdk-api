@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_CURSOR, DS_REPL_CURSOR structure [Active Directory], _glines_ds_repl_cursor, ad.ds__repl__cursor, ad.ds_repl_cursor, ntdsapi/DS_REPL_CURSOR
 ms.topic: struct
-f1_keywords: 
- - "ntdsapi/DS_REPL_CURSOR"
+f1_keywords:
+- ntdsapi/DS_REPL_CURSOR
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntdsapi.h
+- Ntdsapi.h
 api_name:
- - DS_REPL_CURSOR
+- DS_REPL_CURSOR
 product: Windows
 targetos: Windows
 req.typenames: DS_REPL_CURSOR
@@ -75,7 +75,7 @@ Contains the maximum update sequence number to which the destination server can 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_cursors">DS_REPL_CURSORS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors">DS_REPL_CURSORS</a>
 
 
 

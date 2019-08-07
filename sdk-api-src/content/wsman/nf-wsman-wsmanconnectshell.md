@@ -91,7 +91,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-
 
 ### -param async [in]
 
-Defines an asynchronous structure that contains an optional user context and a mandatory callback function. See the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_shell_async">WSMAN_SHELL_ASYNC</a> structure for more information. This parameter cannot be NULL.
+Defines an asynchronous structure that contains an optional user context and a mandatory callback function. See the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_shell_async">WSMAN_SHELL_ASYNC</a> structure for more information. This parameter cannot be NULL.
 
 
 ### -param shell [out]

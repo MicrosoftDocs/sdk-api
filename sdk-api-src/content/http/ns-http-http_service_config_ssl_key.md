@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>HTTP_SERVICE_CONFIG_SSL_KEY</b> structure serves as the key by which a given Secure Sockets Layer (SSL) certificate record is identified. It appears in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_set">HTTP_SERVICE_CONFIG_SSL_SET</a> and the 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_set">HTTP_SERVICE_CONFIG_SSL_SET</a> and the 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_query">HTTP_SERVICE_CONFIG_SSL_QUERY</a> structures, and is passed as the <i>pConfigInformation</i> parameter to 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpdeleteserviceconfiguration">HTTPDeleteServiceConfiguration</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a>, and 
@@ -87,7 +87,7 @@ If the <b>sin_addr</b> field in <b>IpPort</b> is set to 0.0.0.0, the certificate
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_set">HTTP_SERVICE_CONFIG_SSL_SET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_set">HTTP_SERVICE_CONFIG_SSL_SET</a>
  
 
  

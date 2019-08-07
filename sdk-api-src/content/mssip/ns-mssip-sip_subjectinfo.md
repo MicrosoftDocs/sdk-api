@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 6274cd08-d67f-410d-9303-3a42b7f1edc6
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSIP_SUBJECTINFO, LPSIP_SUBJECTINFO, LPSIP_SUBJECTINFO structure pointer [Security], MSSIP_ADDINFO_BLOB, MSSIP_ADDINFO_CATMEMBER, MSSIP_ADDINFO_FLAT, MSSIP_ADDINFO_NONE, MSSIP_ADDINFO_NONMSSIP, SIP_SUBJECTINFO, SIP_SUBJECTINFO structure [Security], mssip/LPSIP_SUBJECTINFO, mssip/SIP_SUBJECTINFO, security.sip_subjectinfo"
+ms.keywords: '*LPSIP_SUBJECTINFO, LPSIP_SUBJECTINFO, LPSIP_SUBJECTINFO structure pointer [Security], MSSIP_ADDINFO_BLOB, MSSIP_ADDINFO_CATMEMBER, MSSIP_ADDINFO_FLAT, MSSIP_ADDINFO_NONE, MSSIP_ADDINFO_NONMSSIP, SIP_SUBJECTINFO, SIP_SUBJECTINFO structure [Security], mssip/LPSIP_SUBJECTINFO, mssip/SIP_SUBJECTINFO, security.sip_subjectinfo'
 ms.topic: struct
-f1_keywords: 
- - "mssip/SIP_SUBJECTINFO"
+f1_keywords:
+- mssip/SIP_SUBJECTINFO
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mssip.h
+- Mssip.h
 api_name:
- - SIP_SUBJECTINFO
+- SIP_SUBJECTINFO
 product: Windows
 targetos: Windows
 req.typenames: SIP_SUBJECTINFO, *LPSIP_SUBJECTINFO
@@ -103,7 +103,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCR
 
 ### -field DigestAlgorithm
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the identifier for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> algorithm used to hash the file.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the identifier for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> algorithm used to hash the file.
 
 
 ### -field dwFlags

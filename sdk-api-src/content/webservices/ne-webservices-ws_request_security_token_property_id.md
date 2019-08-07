@@ -88,7 +88,7 @@ If this property is not specified, it defaults to <a href="https://docs.microsof
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_TYPE
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_string">WS_XML_STRING</a> structure that specifies the type of the security token to be issued.  If this property is not specified,
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> structure that specifies the type of the security token to be issued.  If this property is not specified,
                     the corresponding element is not generated in the request security token message, and the
                     issuer is assumed to know the token type required.
                 

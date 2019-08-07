@@ -78,7 +78,7 @@ A handle to the directory to be monitored. This directory must be opened with th
 
 A pointer to the <b>DWORD</b>-aligned formatted buffer in which the read results are 
       to be returned. The structure of this buffer is defined by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_notify_information">FILE_NOTIFY_INFORMATION</a> structure. This 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-file_notify_information">FILE_NOTIFY_INFORMATION</a> structure. This 
       buffer is filled either synchronously or asynchronously, depending on how the directory is opened and what value 
       is given to the <i>lpOverlapped</i> parameter. For more information, see the Remarks 
       section.
@@ -392,7 +392,7 @@ If there is a transaction bound to the directory handle, then the notifications 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_notify_information">FILE_NOTIFY_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-file_notify_information">FILE_NOTIFY_INFORMATION</a>
 
 
 

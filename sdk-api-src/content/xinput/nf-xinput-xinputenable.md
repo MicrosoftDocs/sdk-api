@@ -99,7 +99,7 @@ Windows 8 (XInput 1.4), DirectX SDK (XInput 1.3)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-_xinput_gamepad">XINPUT_GAMEPAD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a>
 
 
 

@@ -75,7 +75,7 @@ A null-terminated wide-character string containing the realm for the authenticat
 
 ### -param dwAuthenticationFlags [in]
 
-Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfnetauthenticationflags">MFNetAuthenticationFlags</a> enumeration.
+Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfnetauthenticationflags">MFNetAuthenticationFlags</a> enumeration.
 
 
 ### -param ppCred [out]

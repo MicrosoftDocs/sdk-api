@@ -302,7 +302,7 @@ The following restrictions apply to the callback functions in the <b>MPRAPI_ADMI
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_port_0">RAS_PORT_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_port_0">RAS_PORT_0</a>
 
 
 

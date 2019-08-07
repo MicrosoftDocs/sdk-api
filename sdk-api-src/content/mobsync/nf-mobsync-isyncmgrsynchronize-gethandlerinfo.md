@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHandlerInfo, GetHandlerInfo method [Windows Shell], GetHandlerInfo method [Windows Shell],ISyncMgrSynchronize interface, ISyncMgrSynchronize interface [Windows Shell],GetHandlerInfo method, ISyncMgrSynchronize.GetHandlerInfo, ISyncMgrSynchronize::GetHandlerInfo, mobsync/ISyncMgrSynchronize::GetHandlerInfo, shell.syncmgr_isyncmgrsynchronize_gethandlerinfo, syncmgr.isyncmgrsynchronize_gethandlerinfo
 ms.topic: method
-f1_keywords: 
- - "mobsync/ISyncMgrSynchronize.GetHandlerInfo"
+f1_keywords:
+- mobsync/ISyncMgrSynchronize.GetHandlerInfo
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Mobsync.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mobsync.dll
+- Mobsync.dll
 api_name:
- - ISyncMgrSynchronize.GetHandlerInfo
+- ISyncMgrSynchronize.GetHandlerInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ Obtains handler information.
 
 ### -param ppSyncMgrHandlerInfo [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrhandlerinfo">SYNCMGRHANDLERINFO</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgrhandlerinfo">SYNCMGRHANDLERINFO</a>**</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrhandlerinfo">SYNCMGRHANDLERINFO</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgrhandlerinfo">SYNCMGRHANDLERINFO</a> structure.
 
 
 ## -returns
@@ -114,7 +114,7 @@ The handler should use the <a href="https://docs.microsoft.com/windows/desktop/a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrhandlerinfo">SYNCMGRHANDLERINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgrhandlerinfo">SYNCMGRHANDLERINFO</a>
  
 
  

@@ -190,7 +190,7 @@ Duplicate symbols were found. This reason is used only in COFF or CodeView forma
 
 
 The <i>CallbackData</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_duplicate_symbol">IMAGEHLP_DUPLICATE_SYMBOL64</a> structure. To specify which symbol to use, set the <b>SelectedSymbol</b> member of this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_duplicate_symbol">IMAGEHLP_DUPLICATE_SYMBOL64</a> structure. To specify which symbol to use, set the <b>SelectedSymbol</b> member of this structure.
 
 </td>
 </tr>
@@ -371,7 +371,7 @@ For a more extensive example, read <a href="https://docs.microsoft.com/windows/d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_duplicate_symbol">IMAGEHLP_DUPLICATE_SYMBOL64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_duplicate_symbol">IMAGEHLP_DUPLICATE_SYMBOL64</a>
 
 
 

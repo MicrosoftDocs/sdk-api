@@ -68,7 +68,7 @@ The size, in bytes, of this structure.
 
 ### -field psUIData
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provui_data">CRYPT_PROVUI_DATA</a> structure.  
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_provui_data">CRYPT_PROVUI_DATA</a> structure.  
 
 
 ### -field pfnOnMoreInfoClick

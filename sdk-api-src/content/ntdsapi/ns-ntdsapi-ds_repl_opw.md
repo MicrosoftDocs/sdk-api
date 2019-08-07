@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_OP, DS_REPL_OP structure [Active Directory], DS_REPL_OPW, DS_REPL_OP_TYPE_ADD, DS_REPL_OP_TYPE_DELETE, DS_REPL_OP_TYPE_MODIFY, DS_REPL_OP_TYPE_SYNC, DS_REPL_OP_TYPE_UPDATE_REFS, _DS_REPL_OPW, _glines_ds_repl_op, ad.ds__repl__op, ad.ds_repl_op, ntdsapi/DS_REPL_OP
 ms.topic: struct
-f1_keywords: 
- - "ntdsapi/DS_REPL_OP"
+f1_keywords:
+- ntdsapi/DS_REPL_OP
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntdsapi.h
+- Ntdsapi.h
 api_name:
- - DS_REPL_OP
+- DS_REPL_OP
 product: Windows
 targetos: Windows
 req.typenames: DS_REPL_OPW
@@ -77,7 +77,7 @@ Contains the priority value of this operation. Tasks with a higher priority valu
 
 ### -field OpType
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ne-ntdsapi-_ds_repl_op_type">DS_REPL_OP_TYPE</a> values that indicate the type of operation that this structure represents.
+Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ne-ntdsapi-ds_repl_op_type">DS_REPL_OP_TYPE</a> values that indicate the type of operation that this structure represents.
 
 
 ### -field ulOptions
@@ -152,11 +152,11 @@ Contains the <b>objectGuid</b> of the directory system agent object identified b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ne-ntdsapi-_ds_repl_op_type">DS_REPL_OP_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ne-ntdsapi-ds_repl_op_type">DS_REPL_OP_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_pending_opsw">DS_REPL_PENDING_OPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_pending_opsw">DS_REPL_PENDING_OPS</a>
 
 
 

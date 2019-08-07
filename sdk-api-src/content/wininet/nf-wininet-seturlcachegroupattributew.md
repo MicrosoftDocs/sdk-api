@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetUrlCacheGroupAttribute, SetUrlCacheGroupAttribute function [WinINet], SetUrlCacheGroupAttributeA, SetUrlCacheGroupAttributeW, _inet_seturlcachegroupattribute_function, wininet.seturlcachegroupattribute, wininet/SetUrlCacheGroupAttribute, wininet/SetUrlCacheGroupAttributeA, wininet/SetUrlCacheGroupAttributeW
 ms.topic: function
-f1_keywords: 
- - "wininet/SetUrlCacheGroupAttribute"
+f1_keywords:
+- wininet/SetUrlCacheGroupAttribute
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - SetUrlCacheGroupAttribute
- - SetUrlCacheGroupAttributeA
- - SetUrlCacheGroupAttributeW
+- SetUrlCacheGroupAttribute
+- SetUrlCacheGroupAttributeA
+- SetUrlCacheGroupAttributeW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -153,7 +153,7 @@ Sets the type, disk quota, group name, and owner storage attributes of the cache
 ### -param lpGroupInfo [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-_internet_cache_group_infoa">INTERNET_CACHE_GROUP_INFO</a> structure that specifies the attribute information to be stored.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_cache_group_infoa">INTERNET_CACHE_GROUP_INFO</a> structure that specifies the attribute information to be stored.
 
 
 ### -param lpReserved [in, out]

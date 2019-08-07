@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 5b74b06f-ef4c-44ab-95c6-49c050faf1f4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR structure [Files], PPARTITION_INFORMATION_MBR, PPARTITION_INFORMATION_MBR structure pointer [Files], _win32_partition_information_mbr_str, base.partition_information_mbr_str, fs.partition_information_mbr_str, winioctl/PARTITION_INFORMATION_MBR, winioctl/PPARTITION_INFORMATION_MBR"
+ms.keywords: '*PPARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR structure [Files], PPARTITION_INFORMATION_MBR, PPARTITION_INFORMATION_MBR structure pointer [Files], _win32_partition_information_mbr_str, base.partition_information_mbr_str, fs.partition_information_mbr_str, winioctl/PARTITION_INFORMATION_MBR, winioctl/PPARTITION_INFORMATION_MBR'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/PARTITION_INFORMATION_MBR"
+f1_keywords:
+- winioctl/PARTITION_INFORMATION_MBR
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - PARTITION_INFORMATION_MBR
+- PARTITION_INFORMATION_MBR
 product: Windows
 targetos: Windows
 req.typenames: PARTITION_INFORMATION_MBR, *PPARTITION_INFORMATION_MBR
@@ -105,7 +105,7 @@ The number of hidden sectors to be allocated when the partition table is created
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information_ex">PARTITION_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a>
  
 
  

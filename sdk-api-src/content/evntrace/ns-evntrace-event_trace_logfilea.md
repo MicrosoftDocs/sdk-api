@@ -136,7 +136,7 @@ Specify this mode if you want to receive events in the new <a href="https://docs
 </dl>
 </td>
 <td width="60%">
-Specify this mode if you do not want the time stamp value in the <b>TimeStamp</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header">EVENT_HEADER</a> and <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> converted to system time (leaves the time stamp value in the resolution that the controller specified in the <b>Wnode.ClientContext</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a>).
+Specify this mode if you do not want the time stamp value in the <b>TimeStamp</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_HEADER</a> and <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> converted to system time (leaves the time stamp value in the resolution that the controller specified in the <b>Wnode.ClientContext</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a>).
 
 <b>Prior to Windows Vista:  </b>Not supported.
 

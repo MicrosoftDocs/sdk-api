@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_CREATE_CONTEXT_NOCOPY_FLAG, CERT_CREATE_CONTEXT_NO_ENTRY_FLAG, CERT_CREATE_CONTEXT_NO_HCRYPTMSG_FLAG, CERT_CREATE_CONTEXT_SORTED_FLAG, CERT_STORE_CERTIFICATE_CONTEXT, CERT_STORE_CRL_CONTEXT, CERT_STORE_CTL_CONTEXT, CertCreateContext, CertCreateContext function [Security], _crypto2_certcreatecontext, security.certcreatecontext, wincrypt/CertCreateContext
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertCreateContext"
+f1_keywords:
+- wincrypt/CertCreateContext
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertCreateContext
+- CertCreateContext
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -151,7 +151,7 @@ The created context points directly to the content pointed to by <i>pbEncoded</i
 The function creates a context with sorted entries. Currently, this flag only applies to a CTL context.
 
 For CTLs, the <b>cCTLEntry</b> member of the returned 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_info">CTL_INFO</a> structure is always zero. 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_info">CTL_INFO</a> structure is always zero. 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinsortedctl">CertFindSubjectInSortedCTL</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumsubjectinsortedctl">CertEnumSubjectInSortedCTL</a> must be called to find or enumerate the CTL entries.
 
@@ -183,7 +183,7 @@ By default, when a CTL context is created, its entries are decoded. When this fl
 
 ### -param pCreatePara [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_create_context_para">CERT_CREATE_CONTEXT_PARA</a> structure. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_create_context_para">CERT_CREATE_CONTEXT_PARA</a> structure. 
 
 
 
@@ -213,7 +213,7 @@ If <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-err
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_info">CTL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_info">CTL_INFO</a>
 
 
 

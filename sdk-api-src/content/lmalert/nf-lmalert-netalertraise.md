@@ -139,7 +139,7 @@ A pointer to the data to send to the clients listening for the interrupting mess
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-errlog_other_info">ERRLOG_OTHER_INFO</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-print_other_info">PRINT_OTHER_INFO</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_user_other_info">USER_OTHER_INFO</a> structure. Finally, the buffer should include any required variable-length information. For more information, see the code sample in the following Remarks section. 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a> structure. Finally, the buffer should include any required variable-length information. For more information, see the code sample in the following Remarks section. 
 
 
 
@@ -373,7 +373,7 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_user_other_info">USER_OTHER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a>
  
 
  

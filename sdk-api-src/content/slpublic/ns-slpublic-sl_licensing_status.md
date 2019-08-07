@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SL_LICENSING_STATUS, SL_LICENSING_STATUS structure [Security], security.sl_licensing_status, slpublic/SL_LICENSING_STATUS
 ms.topic: struct
-f1_keywords: 
- - "slpublic/SL_LICENSING_STATUS"
+f1_keywords:
+- slpublic/SL_LICENSING_STATUS
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - slpublic.h
+- slpublic.h
 api_name:
- - SL_LICENSING_STATUS
+- SL_LICENSING_STATUS
 product: Windows
 targetos: Windows
 req.typenames: SL_LICENSING_STATUS
@@ -68,7 +68,7 @@ The SKU ID.
 
 ### -field eStatus
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-_tagsllicensingstatus">SLLICENSINGSTATUS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sllicensingstatus">SLLICENSINGSTATUS</a></b>
 
 The licensing status.
 

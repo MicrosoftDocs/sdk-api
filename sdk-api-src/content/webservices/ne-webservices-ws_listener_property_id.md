@@ -318,7 +318,7 @@ This property only controls the verification of the message once it has been rec
 Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a> for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_custom_listener_callbacks">WS_LISTENER_PROPERTY</a> structure is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_listener_callbacks">WS_CUSTOM_LISTENER_CALLBACKS</a> structure.
+The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_custom_listener_callbacks">WS_LISTENER_PROPERTY</a> structure is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_custom_listener_callbacks">WS_CUSTOM_LISTENER_CALLBACKS</a> structure.
 
 This property is used to specify callbacks that
                     define the implementation of a custom listener.

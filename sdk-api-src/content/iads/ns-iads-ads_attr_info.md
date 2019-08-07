@@ -8,10 +8,10 @@ tech.root: adsi
 ms.assetid: a2b97a52-4b8b-4491-8798-72a161903422
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PADS_ATTR_INFO, ADS_ATTR_INFO, ADS_ATTR_INFO structure [ADSI], PADS_ATTR_INFO, PADS_ATTR_INFO structure pointer [ADSI], _ds_ads_attr_info, adsi.ads__attr__info, adsi.ads_attr_info, iads/ADS_ATTR_INFO, iads/PADS_ATTR_INFO"
+ms.keywords: '*PADS_ATTR_INFO, ADS_ATTR_INFO, ADS_ATTR_INFO structure [ADSI], PADS_ATTR_INFO, PADS_ATTR_INFO structure pointer [ADSI], _ds_ads_attr_info, adsi.ads__attr__info, adsi.ads_attr_info, iads/ADS_ATTR_INFO, iads/PADS_ATTR_INFO'
 ms.topic: struct
-f1_keywords: 
- - "iads/ADS_ATTR_INFO"
+f1_keywords:
+- iads/ADS_ATTR_INFO
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_ATTR_INFO
+- ADS_ATTR_INFO
 product: Windows
 targetos: Windows
 req.typenames: ADS_ATTR_INFO, *PADS_ATTR_INFO
@@ -78,7 +78,7 @@ A value from the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/n
 
 ### -field pADsValues
 
-Pointer to an array of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a> structures that contain values for the attribute.
+Pointer to an array of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structures that contain values for the attribute.
 
 
 ### -field dwNumValues
@@ -92,7 +92,7 @@ Size of the <b>pADsValues</b> array.
 
 In ADSI, attributes and properties are used interchangeably. Set attributes, when creating a directory service object, using the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-createdsobject">IDirectoryObject::CreateDSObject</a> method. The  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a> interface also supports the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectattributes">IDirectoryObject::GetObjectAttributes</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-setobjectattributes">IDirectoryObject::SetObjectAttributes</a> methods for retrieving and modifying the attributes of the object in a directory.
 
-Memory for the array of <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a> structures is not allocated with this structure.
+Memory for the array of <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structures is not allocated with this structure.
 
 The value of the <b>dwControlCode</b> member is ignored when the structure is used as an OUT parameter.
 

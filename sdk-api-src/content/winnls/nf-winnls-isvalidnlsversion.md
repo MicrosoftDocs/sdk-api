@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsValidNLSVersion, IsValidNLSVersion function [Internationalization for Windows Applications], intl.isvalidnlsversion, winnls/IsValidNLSVersion
 ms.topic: function
-f1_keywords: 
- - "winnls/IsValidNLSVersion"
+f1_keywords:
+- winnls/IsValidNLSVersion
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - IsValidNLSVersion
+- IsValidNLSVersion
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -87,7 +87,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-nam
 
 ### -param lpVersionInformation [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_nlsversioninfoex">NLSVERSIONINFOEX</a> structure. The application must initialize the <b>dwNLSVersionInfoSize</b> member to <code> sizeof(NLSVERSIONINFOEX)</code>. 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a> structure. The application must initialize the <b>dwNLSVersionInfoSize</b> member to <code> sizeof(NLSVERSIONINFOEX)</code>. 
 
 
 ## -returns
@@ -103,7 +103,7 @@ Returns a nonzero value if the NLS version is valid, or zero if the version is i
 
 
 
-Initialize the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_nlsversioninfoex">NLSVERSIONINFOEX</a> structure by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnlsversionex">GetNLSVersionEx</a>. See the Remarks for <b>GetNLSVersionEx</b> for a discussion on how the members of <b>NLSVERSIONINFOEX</b> can be used to determine if a sort version has changed and you need to reindex data.
+Initialize the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a> structure by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnlsversionex">GetNLSVersionEx</a>. See the Remarks for <b>GetNLSVersionEx</b> for a discussion on how the members of <b>NLSVERSIONINFOEX</b> can be used to determine if a sort version has changed and you need to reindex data.
 
 <b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
 
@@ -127,7 +127,7 @@ Initialize the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_nlsversioninfoex">NLSVERSIONINFOEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a>
  
 
  

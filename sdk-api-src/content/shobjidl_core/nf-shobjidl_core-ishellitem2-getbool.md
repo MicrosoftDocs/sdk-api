@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBool, GetBool method [Windows Shell], GetBool method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetBool method, IShellItem2.GetBool, IShellItem2::GetBool, _shell_IShellItem2_GetBool, shell.IShellItem2_GetBool, shobjidl_core/IShellItem2::GetBool
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellItem2.GetBool"
+f1_keywords:
+- shobjidl_core/IShellItem2.GetBool
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellItem2.GetBool
+- IShellItem2.GetBool
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Gets the boolean value of a specified property key.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure.
+A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.
 
 
 ### -param pf [out]

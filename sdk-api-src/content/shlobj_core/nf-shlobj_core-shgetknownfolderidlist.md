@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGetKnownFolderIDList, SHGetKnownFolderIDList function [Windows Shell], _shell_SHGetKnownFolderIDList, shell.SHGetKnownFolderIDList, shlobj_core/SHGetKnownFolderIDList
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHGetKnownFolderIDList"
+f1_keywords:
+- shlobj_core/SHGetKnownFolderIDList
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.0.6000 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
- - Windows.Storage.dll
+- Shell32.dll
+- API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
+- Windows.Storage.dll
 api_name:
- - SHGetKnownFolderIDList
+- SHGetKnownFolderIDList
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the path of a known folder as an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
+Retrieves the path of a known folder as an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -parameters

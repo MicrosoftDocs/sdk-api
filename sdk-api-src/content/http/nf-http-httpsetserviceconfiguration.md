@@ -163,7 +163,7 @@ A pointer to a buffer that contains the appropriate data to specify the type of 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ip_listen_param">HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ip_listen_param">HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM</a> structure.
 
 </td>
 </tr>
@@ -174,7 +174,7 @@ A pointer to a buffer that contains the appropriate data to specify the type of 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_set">HTTP_SERVICE_CONFIG_SSL_SET</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_set">HTTP_SERVICE_CONFIG_SSL_SET</a> structure.
 
 </td>
 </tr>

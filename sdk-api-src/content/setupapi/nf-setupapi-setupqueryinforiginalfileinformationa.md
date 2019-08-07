@@ -79,7 +79,7 @@ Index of the constituent INF file name to retrieve. This index can be in the ran
 ### -param AlternatePlatformInfo [in]
 
 Optional pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_altplatform_info_v1">SP_ALTPLATFORM_INFO_V1</a> or <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_altplatform_info_v2">SP_ALTPLATFORM_INFO_V2</a> structure used to pass information for an alternate platform to 
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_altplatform_info_v1">SP_ALTPLATFORM_INFO_V1</a> or <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_altplatform_info_v2">SP_ALTPLATFORM_INFO_V2</a> structure used to pass information for an alternate platform to 
 <b>SetupQueryInfOriginalFileInformation</b>.
 
 

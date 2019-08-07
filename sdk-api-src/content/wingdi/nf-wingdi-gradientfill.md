@@ -77,7 +77,7 @@ The number of vertices in <i>pVertex</i>.
 
 ### -param pMesh [in]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_gradient_triangle">GRADIENT_TRIANGLE</a> structures in triangle mode, or an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_gradient_rect">GRADIENT_RECT</a> structures in rectangle mode.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_triangle">GRADIENT_TRIANGLE</a> structures in triangle mode, or an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_rect">GRADIENT_RECT</a> structures in rectangle mode.
 
 
 ### -param nMesh [in]
@@ -150,9 +150,9 @@ To add smooth shading to a rectangle, call <b>GradientFill</b> with the upper-le
 
 <img alt="Illustration of a rectangle that shades from dark on the left side to light on the right side" border="0" src="./images/GradientFillRectangle.png"/>
 <img alt="Illustration of a rectangle that shades from dark on the top to light on the bottom" border="0" src="./images/GradientFillRectangle2.png"/>
-The <b>GradientFill</b> function uses a mesh method to specify the endpoints of the object to draw. All vertices are passed to <b>GradientFill</b> in the <i>pVertex</i> array. The <i>pMesh</i> parameter specifies how these vertices are connected to form an object. When filling a rectangle, <i>pMesh</i> points to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_gradient_rect">GRADIENT_RECT</a> structures. Each <b>GRADIENT_RECT</b> structure specifies the index of two vertices in the <i>pVertex</i> array. These two vertices form the upper-left and lower-right boundary of one rectangle.
+The <b>GradientFill</b> function uses a mesh method to specify the endpoints of the object to draw. All vertices are passed to <b>GradientFill</b> in the <i>pVertex</i> array. The <i>pMesh</i> parameter specifies how these vertices are connected to form an object. When filling a rectangle, <i>pMesh</i> points to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_rect">GRADIENT_RECT</a> structures. Each <b>GRADIENT_RECT</b> structure specifies the index of two vertices in the <i>pVertex</i> array. These two vertices form the upper-left and lower-right boundary of one rectangle.
 
-In the case of filling a triangle, <i>pMesh</i> points to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_gradient_triangle">GRADIENT_TRIANGLE</a> structures. Each <b>GRADIENT_TRIANGLE</b> structure specifies the index of three vertices in the <i>pVertex</i> array. These three vertices form one triangle.
+In the case of filling a triangle, <i>pMesh</i> points to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_triangle">GRADIENT_TRIANGLE</a> structures. Each <b>GRADIENT_TRIANGLE</b> structure specifies the index of three vertices in the <i>pVertex</i> array. These three vertices form one triangle.
 
 To simplify hardware acceleration, this routine is not required to be pixel-perfect in the triangle interior.
 
@@ -180,11 +180,11 @@ For more information, see <a href="https://docs.microsoft.com/windows/desktop/gd
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_gradient_rect">GRADIENT_RECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_rect">GRADIENT_RECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_gradient_triangle">GRADIENT_TRIANGLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_triangle">GRADIENT_TRIANGLE</a>
 
 
 

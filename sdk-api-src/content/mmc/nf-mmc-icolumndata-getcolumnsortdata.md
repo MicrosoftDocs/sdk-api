@@ -68,7 +68,7 @@ A pointer to an
 ### -param ppColSortData [out]
 
 A pointer to a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_sort_set_data">MMC_SORT_SET_DATA</a> structure that will contain the column sort data of the column set.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_sort_set_data">MMC_SORT_SET_DATA</a> structure that will contain the column sort data of the column set.
 
 
 ## -returns
@@ -87,8 +87,8 @@ This method can return one of these values.
 If the user selects a scope item and then modifies the sort data of the list view of the selected item. If the snap-in calls <b>IColumnData::GetColumnSortData</b> to retrieve the same sort data, the method will return the new data, regardless of whether the user has deselected the item or not.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_sort_set_data">MMC_SORT_SET_DATA</a> structure and its array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_sort_data">MMC_SORT_DATA</a> structures are allocated as one contiguous memory block by MMC during calls to 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_sort_set_data">MMC_SORT_SET_DATA</a> structure and its array of 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_sort_data">MMC_SORT_DATA</a> structures are allocated as one contiguous memory block by MMC during calls to 
 GetColumnSortData. The snap-in must call CoTaskMemFree with the given pointer to 
 <b>MMC_SORT_SET_DATA</b>. This frees the entire memory block.
 

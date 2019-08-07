@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetGroupColumn method, ISearchFolderItemFactory.SetGroupColumn, ISearchFolderItemFactory::SetGroupColumn, SetGroupColumn, SetGroupColumn method [Windows Shell], SetGroupColumn method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetGroupColumn, shell.ISearchFolderItemFactory_SetGroupColumn, shobjidl_core/ISearchFolderItemFactory::SetGroupColumn
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ISearchFolderItemFactory.SetGroupColumn"
+f1_keywords:
+- shobjidl_core/ISearchFolderItemFactory.SetGroupColumn
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ISearchFolderItemFactory.SetGroupColumn
+- ISearchFolderItemFactory.SetGroupColumn
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Sets a group column, as specified. If no group column is specified, no grouping 
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to a group column <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a>.
+A reference to a group column <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>.
 
 
 ## -returns

@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: 96B19008-9F20-4F47-A0F1-AA695227725B
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPADDRINFOEX4, *PADDRINFOEX4, ADDRINFOEX4, AF_BTH, AF_INET, AF_INET6, AF_IRDA, AF_NETBIOS, AF_UNSPEC, AI_ADDRCONFIG, AI_ALL, AI_CANONNAME, AI_DISABLE_IDN_ENCODING, AI_EXTENDED, AI_FILESERVER, AI_FQDN, AI_NON_AUTHORITATIVE, AI_NUMERICHOST, AI_PASSIVE, AI_RESOLUTION_HANDLE, AI_RETURN_PREFERRED_NAMES, AI_SECURE, AI_V4MAPPED, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, LPaddrinfoex4, LPaddrinfoex4 structure pointer [Winsock], Paddrinfoex4, Paddrinfoex4 structure pointer [Winsock], SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, addrinfoex4, addrinfoex4 structure [Winsock], addrinfoex4A, addrinfoex4W, winsock.addrinfoex4, ws2def/LPaddrinfoex4, ws2def/Paddrinfoex4, ws2def/addrinfoex4, ws2def/addrinfoex4A, ws2def/addrinfoex4W"
+ms.keywords: '*LPADDRINFOEX4, *PADDRINFOEX4, ADDRINFOEX4, AF_BTH, AF_INET, AF_INET6, AF_IRDA, AF_NETBIOS, AF_UNSPEC, AI_ADDRCONFIG, AI_ALL, AI_CANONNAME, AI_DISABLE_IDN_ENCODING, AI_EXTENDED, AI_FILESERVER, AI_FQDN, AI_NON_AUTHORITATIVE, AI_NUMERICHOST, AI_PASSIVE, AI_RESOLUTION_HANDLE, AI_RETURN_PREFERRED_NAMES, AI_SECURE, AI_V4MAPPED, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, LPaddrinfoex4, LPaddrinfoex4 structure pointer [Winsock], Paddrinfoex4, Paddrinfoex4 structure pointer [Winsock], SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, addrinfoex4, addrinfoex4 structure [Winsock], addrinfoex4A, addrinfoex4W, winsock.addrinfoex4, ws2def/LPaddrinfoex4, ws2def/Paddrinfoex4, ws2def/addrinfoex4, ws2def/addrinfoex4A, ws2def/addrinfoex4W'
 ms.topic: struct
-f1_keywords: 
- - "ws2def/addrinfoex4"
+f1_keywords:
+- ws2def/addrinfoex4
 req.header: ws2def.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2def.h
+- Ws2def.h
 api_name:
- - addrinfoex4
- - addrinfoex4A
- - addrinfoex4W
+- addrinfoex4
+- addrinfoex4A
+- addrinfoex4W
 product: Windows
 targetos: Windows
 req.typenames: ADDRINFOEX4, *PADDRINFOEX4, *LPADDRINFOEX4
@@ -571,7 +571,7 @@ Upon a successful call to <a href="https://docs.microsoft.com/windows/desktop/ap
 
 #### Examples
 
-The following code describes making a call to <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> with an <b>addrinfoex4</b> structure to retrieve the handle to a FQDN. the sample then call <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> with the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_associate_nameres_context_input">ASSOCIATE_NAMERES_CONTEXT_INPUT</a> structure.
+The following code describes making a call to <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> with an <b>addrinfoex4</b> structure to retrieve the handle to a FQDN. the sample then call <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> with the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-associate_nameres_context_input">ASSOCIATE_NAMERES_CONTEXT_INPUT</a> structure.
 
 
 ```cpp

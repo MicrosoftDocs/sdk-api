@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_OPERATION, WSD_OPERATION structure, ncd.wsd_operation_struct, wsdtypes/WSD_OPERATION
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_OPERATION"
+f1_keywords:
+- wsdtypes/WSD_OPERATION
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_OPERATION
+- WSD_OPERATION
 product: Windows
 targetos: Windows
 req.typenames: WSD_OPERATION
@@ -61,12 +61,12 @@ Describes an operation as defined by WSDL in terms of one or two messages. This 
 
 ### -field RequestType
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_type">WSDXML_TYPE</a> structure that specifies the request type of an incoming message.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_type">WSDXML_TYPE</a> structure that specifies the request type of an incoming message.
 
 
 ### -field ResponseType
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_type">WSDXML_TYPE</a> structure that specifies the response type of an outgoing message.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_type">WSDXML_TYPE</a> structure that specifies the response type of an outgoing message.
 
 
 ### -field RequestStubFunction

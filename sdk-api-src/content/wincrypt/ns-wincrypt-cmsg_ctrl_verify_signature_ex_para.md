@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 56b73de8-c170-46f6-b488-096475b59c15
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA structure [Security], CMSG_VERIFY_SIGNER_CERT, CMSG_VERIFY_SIGNER_CHAIN, CMSG_VERIFY_SIGNER_NULL, CMSG_VERIFY_SIGNER_PUBKEY, PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA structure pointer [Security], _crypto2_cmsg_ctrl_verify_signature_ex_para, security.cmsg_ctrl_verify_signature_ex_para, wincrypt/CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, wincrypt/PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA"
+ms.keywords: '*PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA structure [Security], CMSG_VERIFY_SIGNER_CERT, CMSG_VERIFY_SIGNER_CHAIN, CMSG_VERIFY_SIGNER_NULL, CMSG_VERIFY_SIGNER_PUBKEY, PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA structure pointer [Security], _crypto2_cmsg_ctrl_verify_signature_ex_para, security.cmsg_ctrl_verify_signature_ex_para, wincrypt/CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, wincrypt/PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA"
+f1_keywords:
+- wincrypt/CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA
+- CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA
 product: Windows
 targetos: Windows
 req.typenames: CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA, *PCMSG_CTRL_VERIFY_SIGNATURE_EX_PARA
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA</b> structure contains information used to verify a message signature. It contains the signer index and signer public key. The signer public key can be the signer's <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>, or chain context.
+The <b>CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA</b> structure contains information used to verify a message signature. It contains the signer index and signer public key. The signer public key can be the signer's <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>, or chain context.
 
 
 ## -struct-fields
@@ -94,7 +94,7 @@ The structure that contains the signer information. The following table shows th
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>
 
 
 </td>
@@ -106,7 +106,7 @@ The structure that contains the signer information. The following table shows th
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
 
 </td>
@@ -118,7 +118,7 @@ The structure that contains the signer information. The following table shows th
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a>
 
 
 </td>
@@ -139,7 +139,7 @@ The structure that contains the signer information. The following table shows th
 
 ### -field pvSigner
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure, a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>, a chain context, or <b>NULL</b> depending on the value of <b>dwSignerType</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure, a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>, a chain context, or <b>NULL</b> depending on the value of <b>dwSignerType</b>.
 
 
 ## -remarks

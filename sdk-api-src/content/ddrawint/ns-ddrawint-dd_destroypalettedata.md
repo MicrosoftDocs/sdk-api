@@ -66,7 +66,7 @@ Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/n
 
 ### -field lpDDPalette
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_palette_global">DD_PALETTE_GLOBAL</a> structure representing the palette object to be destroyed. 
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_palette_global">DD_PALETTE_GLOBAL</a> structure representing the palette object to be destroyed. 
 
 
 ### -field ddRVal

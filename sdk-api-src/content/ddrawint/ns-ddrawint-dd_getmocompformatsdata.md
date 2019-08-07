@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 1effebea-1cdb-46e9-a783-5a68863a2756
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_GETMOCOMPFORMATSDATA, DD_GETMOCOMPFORMATSDATA, DD_GETMOCOMPFORMATSDATA structure [Display Devices], ddrawint/DD_GETMOCOMPFORMATSDATA, ddstrcts_641a377d-109e-43f2-bc12-631964737386.xml, display.dd_getmocompformatsdata"
+ms.keywords: '*PDD_GETMOCOMPFORMATSDATA, DD_GETMOCOMPFORMATSDATA, DD_GETMOCOMPFORMATSDATA structure [Display Devices], ddrawint/DD_GETMOCOMPFORMATSDATA, ddstrcts_641a377d-109e-43f2-bc12-631964737386.xml, display.dd_getmocompformatsdata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_GETMOCOMPFORMATSDATA"
+f1_keywords:
+- ddrawint/DD_GETMOCOMPFORMATSDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_GETMOCOMPFORMATSDATA
+- DD_GETMOCOMPFORMATSDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_GETMOCOMPFORMATSDATA, DD_GETMOCOMPFORMATSDATA"
+req.typenames: '*PDD_GETMOCOMPFORMATSDATA, DD_GETMOCOMPFORMATSDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,7 +61,7 @@ The DD_GETMOCOMPFORMATSDATA structure contains the uncompressed format informati
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
 
 ### -field lpGuid

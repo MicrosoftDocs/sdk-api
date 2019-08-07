@@ -82,7 +82,7 @@ A DWORD value that describes the format in which the information is structured i
 </tr>
 <tr>
 <td>2</td>
-<td>Windows Server 2008 or later: <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_2">MPR_SERVER_2</a>
+<td>Windows Server 2008 or later: <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a>
 </td>
 </tr>
 </table>
@@ -93,7 +93,7 @@ A DWORD value that describes the format in which the information is structured i
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_1">MPR_SERVER_1</a>  
-or   <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_2">MPR_SERVER_2</a> structure. The <i>dwLevel</i> parameter indicates the type of structure.
+or   <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a> structure. The <i>dwLevel</i> parameter indicates the type of structure.
 
 
 ## -returns
@@ -138,7 +138,7 @@ A system reboot is required for such a change to take affect. Change the port co
 </dl>
 </td>
 <td width="60%">
-If you try to set the number of ports to more than the system supported limits as defined on the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_1">MPR_SERVER_1</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_2">MPR_SERVER_2</a> topics.
+If you try to set the number of ports to more than the system supported limits as defined on the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_1">MPR_SERVER_1</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a> topics.
 
 Returns this error if you try to set the number of PPTP ports to 0.
 
@@ -211,7 +211,7 @@ The topic <a href="https://docs.microsoft.com/windows/desktop/RRAS/setting-l2tp-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_0">MPR_SERVER_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_0">MPR_SERVER_0</a>
 
 
 
@@ -219,7 +219,7 @@ The topic <a href="https://docs.microsoft.com/windows/desktop/RRAS/setting-l2tp-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_2">MPR_SERVER_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a>
 
 
 

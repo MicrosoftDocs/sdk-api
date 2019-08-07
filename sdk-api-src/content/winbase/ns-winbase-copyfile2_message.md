@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COPYFILE2_CALLBACK_CHUNK_FINISHED, COPYFILE2_CALLBACK_CHUNK_STARTED, COPYFILE2_CALLBACK_ERROR, COPYFILE2_CALLBACK_POLL_CONTINUE, COPYFILE2_CALLBACK_STREAM_FINISHED, COPYFILE2_CALLBACK_STREAM_STARTED, COPYFILE2_MESSAGE, COPYFILE2_MESSAGE structure [Files], fs.copyfile2_message, winbase/COPYFILE2_MESSAGE
 ms.topic: struct
-f1_keywords: 
- - "winbase/COPYFILE2_MESSAGE"
+f1_keywords:
+- winbase/COPYFILE2_MESSAGE
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - COPYFILE2_MESSAGE
+- COPYFILE2_MESSAGE
 product: Windows
 targetos: Windows
 req.typenames: COPYFILE2_MESSAGE
@@ -63,7 +63,7 @@ Passed to the
 
 ### -field Type
 
-Value from the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-_copyfile2_message_type">COPYFILE2_MESSAGE_TYPE</a> 
+Value from the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-copyfile2_message_type">COPYFILE2_MESSAGE_TYPE</a> 
       enumeration used as a discriminant for the <b>Info</b> union within this structure.
 
 <table>
@@ -376,7 +376,7 @@ This structure is selected if the <b>Type</b> member is set to
 
 ### -field Info.Error.CopyPhase
 
-Value from the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-_copyfile2_copy_phase">COPYFILE2_COPY_PHASE</a> 
+Value from the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-copyfile2_copy_phase">COPYFILE2_COPY_PHASE</a> 
         enumeration indicating the current phase of the copy at the time of the error.
 
 

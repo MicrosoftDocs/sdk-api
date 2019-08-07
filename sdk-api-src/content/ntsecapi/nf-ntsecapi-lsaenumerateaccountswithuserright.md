@@ -71,7 +71,7 @@ A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy
 ### -param UserRight [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a> structure that specifies the name of a privilege. For a list of privileges, see 
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that specifies the name of a privilege. For a list of privileges, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants">Privilege Constants</a> and 
 Account Rights Constants. 
 
@@ -152,7 +152,7 @@ You can use the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a>
 
 
 

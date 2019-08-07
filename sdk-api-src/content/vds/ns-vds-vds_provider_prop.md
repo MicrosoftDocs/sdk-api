@@ -86,7 +86,7 @@ A string representing the version of the provider.
 ### -field type
 
 The provider types enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_provider_type">VDS_PROVIDER_TYPE</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_type">VDS_PROVIDER_TYPE</a>.
 
 
 ### -field ulFlags
@@ -145,7 +145,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_provider_type">VDS_PROVIDER_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_type">VDS_PROVIDER_TYPE</a>
  
 
  

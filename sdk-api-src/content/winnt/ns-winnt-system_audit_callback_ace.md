@@ -94,7 +94,7 @@ When a <b>SYSTEM_AUDIT_CALLBACK_ACE</b> structure is created, sufficient memory 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 

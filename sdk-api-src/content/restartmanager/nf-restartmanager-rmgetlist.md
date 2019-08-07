@@ -81,7 +81,7 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/restartmanag
 
 ### -param lpdwRebootReasons [out]
 
-Pointer to location that receives a value of the  <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-_rm_reboot_reason">RM_REBOOT_REASON</a> enumeration that describes the reason a system restart is needed.
+Pointer to location that receives a value of the  <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-rm_reboot_reason">RM_REBOOT_REASON</a> enumeration that describes the reason a system restart is needed.
 
 
 ## -returns

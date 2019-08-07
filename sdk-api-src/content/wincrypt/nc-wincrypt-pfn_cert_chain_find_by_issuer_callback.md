@@ -61,7 +61,7 @@ The <b>CertChainFindByIssuerCallback</b> function is an application-defined call
 
 ### -param pCert [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that contains the certificate in question.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the certificate in question.
 
 
 ### -param *pvFindArg [in]

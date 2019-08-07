@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: b52bbd7e-2c80-4cfb-b0c5-7900993f4a3a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_VPORTCOLORDATA, DD_VPORTCOLORDATA, DD_VPORTCOLORDATA structure [Display Devices], ddrawint/DD_VPORTCOLORDATA, ddstrcts_8dc16578-631f-406e-94da-510e6f8b1e24.xml, display.dd_vportcolordata"
+ms.keywords: '*PDD_VPORTCOLORDATA, DD_VPORTCOLORDATA, DD_VPORTCOLORDATA structure [Display Devices], ddrawint/DD_VPORTCOLORDATA, ddstrcts_8dc16578-631f-406e-94da-510e6f8b1e24.xml, display.dd_vportcolordata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_VPORTCOLORDATA"
+f1_keywords:
+- ddrawint/DD_VPORTCOLORDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_VPORTCOLORDATA
+- DD_VPORTCOLORDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_VPORTCOLORDATA, DD_VPORTCOLORDATA"
+req.typenames: '*PDD_VPORTCOLORDATA, DD_VPORTCOLORDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,12 +61,12 @@ The DD_VPORTCOLORDATA structure contains the <a href="https://docs.microsoft.com
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
 
 ### -field lpVideoPort
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure that represents this VPE object.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure that represents this VPE object.
 
 
 ### -field dwFlags

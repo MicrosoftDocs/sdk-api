@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: d5a1a986-5343-420d-8553-f1078bbd0e00
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSECPKG_SUPPLEMENTAL_CRED, PSECPKG_SUPPLEMENTAL_CRED, PSECPKG_SUPPLEMENTAL_CRED structure pointer [Security], SECPKG_SUPPLEMENTAL_CRED, SECPKG_SUPPLEMENTAL_CRED structure [Security], _ssp_secpkg_supplemental_cred, ntsecpkg/PSECPKG_SUPPLEMENTAL_CRED, ntsecpkg/SECPKG_SUPPLEMENTAL_CRED, security.secpkg_supplemental_cred"
+ms.keywords: '*PSECPKG_SUPPLEMENTAL_CRED, PSECPKG_SUPPLEMENTAL_CRED, PSECPKG_SUPPLEMENTAL_CRED structure pointer [Security], SECPKG_SUPPLEMENTAL_CRED, SECPKG_SUPPLEMENTAL_CRED structure [Security], _ssp_secpkg_supplemental_cred, ntsecpkg/PSECPKG_SUPPLEMENTAL_CRED, ntsecpkg/SECPKG_SUPPLEMENTAL_CRED, security.secpkg_supplemental_cred'
 ms.topic: struct
-f1_keywords: 
- - "ntsecpkg/SECPKG_SUPPLEMENTAL_CRED"
+f1_keywords:
+- ntsecpkg/SECPKG_SUPPLEMENTAL_CRED
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SECPKG_SUPPLEMENTAL_CRED
+- SECPKG_SUPPLEMENTAL_CRED
 product: Windows
 targetos: Windows
 req.typenames: SECPKG_SUPPLEMENTAL_CRED, *PSECPKG_SUPPLEMENTAL_CRED
@@ -55,7 +55,7 @@ The <b>SECPKG_SUPPLEMENTAL_CRED</b> structure contains <a href="https://docs.mic
 
 The structure is used by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spacceptcredentialsfn">SpAcceptCredentials</a> function and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_supplemental_cred_array">SECPKG_SUPPLEMENTAL_CRED_ARRAY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_supplemental_cred_array">SECPKG_SUPPLEMENTAL_CRED_ARRAY</a> structure.
 
 
 ## -struct-fields

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SoftwareUpdateMessageBox, SoftwareUpdateMessageBox function [Windows Shell], _win32_SoftwareUpdateMessageBox, shell.SoftwareUpdateMessageBox, shlobj/SoftwareUpdateMessageBox
 ms.topic: function
-f1_keywords: 
- - "shlobj/SoftwareUpdateMessageBox"
+f1_keywords:
+- shlobj/SoftwareUpdateMessageBox
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shdocvw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shdocvw.dll
+- Shdocvw.dll
 api_name:
- - SoftwareUpdateMessageBox
+- SoftwareUpdateMessageBox
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -84,7 +84,7 @@ Reserved. Must be set to zero.
 
 Type: <b>LPSOFTDISTINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/urlmon/ns-urlmon-_tagsoftdistinfo">SOFTDISTINFO</a> structure that, when this method returns successfully, receives the update information. The <b>cbSize</b> member must be initialized to the <code>sizeof(SOFTDISTINFO)</code>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/urlmon/ns-urlmon-softdistinfo">SOFTDISTINFO</a> structure that, when this method returns successfully, receives the update information. The <b>cbSize</b> member must be initialized to the <code>sizeof(SOFTDISTINFO)</code>.
 
 
 ## -returns

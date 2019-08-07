@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: AA48B271-E63F-4742-9776-6C85ED3A2BAB
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSECPKG_WOW_CLIENT_DLL, PSECPKG_WOW_CLIENT_DLL, PSECPKG_WOW_CLIENT_DLL structure pointer [Security], SECPKG_WOW_CLIENT_DLL, SECPKG_WOW_CLIENT_DLL structure [Security], ntsecpkg/PSECPKG_WOW_CLIENT_DLL, ntsecpkg/SECPKG_WOW_CLIENT_DLL, security.secpkg_wow_client_dll"
+ms.keywords: '*PSECPKG_WOW_CLIENT_DLL, PSECPKG_WOW_CLIENT_DLL, PSECPKG_WOW_CLIENT_DLL structure pointer [Security], SECPKG_WOW_CLIENT_DLL, SECPKG_WOW_CLIENT_DLL structure [Security], ntsecpkg/PSECPKG_WOW_CLIENT_DLL, ntsecpkg/SECPKG_WOW_CLIENT_DLL, security.secpkg_wow_client_dll'
 ms.topic: struct
-f1_keywords: 
- - "ntsecpkg/SECPKG_WOW_CLIENT_DLL"
+f1_keywords:
+- ntsecpkg/SECPKG_WOW_CLIENT_DLL
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SECPKG_WOW_CLIENT_DLL
+- SECPKG_WOW_CLIENT_DLL
 product: Windows
 targetos: Windows
 req.typenames: SECPKG_WOW_CLIENT_DLL, *PSECPKG_WOW_CLIENT_DLL
@@ -65,5 +65,5 @@ This structure is used by the
 
 ### -field WowClientDllPath
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_security_string">SECURITY_STRING</a> that contain the path to the WOW-aware client 32-bit library.
+A <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-security_string">SECURITY_STRING</a> that contain the path to the WOW-aware client 32-bit library.
 

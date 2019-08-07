@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtSeek, EvtSeek function [EventLog], wes.evtseek, winevt/EvtSeek
 ms.topic: function
-f1_keywords: 
- - "winevt/EvtSeek"
+f1_keywords:
+- winevt/EvtSeek
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wevtapi.dll
+- Wevtapi.dll
 api_name:
- - EvtSeek
+- EvtSeek
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -81,7 +81,7 @@ A handle to a bookmark that the <a href="https://docs.microsoft.com/windows/desk
 
 ### -param Flags [in]
 
-One or more flags that indicate the relative position in the result set from which to seek. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_seek_flags">EVT_SEEK_FLAGS</a> enumeration.
+One or more flags that indicate the relative position in the result set from which to seek. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_seek_flags">EVT_SEEK_FLAGS</a> enumeration.
 
 
 ## -returns

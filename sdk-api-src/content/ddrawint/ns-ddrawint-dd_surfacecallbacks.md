@@ -179,7 +179,7 @@ Entries that the display driver does not use should be set to <b>NULL</b>. The d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_miscellaneouscallbacks">DD_MISCELLANEOUSCALLBACKS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_miscellaneouscallbacks">DD_MISCELLANEOUSCALLBACKS</a>
 
 
 
@@ -187,7 +187,7 @@ Entries that the display driver does not use should be set to <b>NULL</b>. The d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_ntcallbacks">DD_NTCALLBACKS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_ntcallbacks">DD_NTCALLBACKS</a>
 
 
 

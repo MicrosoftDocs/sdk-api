@@ -166,7 +166,7 @@ The values of this enumeration are used in the <b>ulSupportedRaidTypeFlags</b> m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_raid_type">VDS_RAID_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_raid_type">VDS_RAID_TYPE</a>
 
 
 

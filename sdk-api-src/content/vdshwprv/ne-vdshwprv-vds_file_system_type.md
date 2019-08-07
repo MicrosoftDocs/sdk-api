@@ -148,7 +148,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_file_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_file_system_type_prop">VDS_FILE_SYSTEM_TYPE_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_file_system_type_prop">VDS_FILE_SYSTEM_TYPE_PROP</a>
 
 
 

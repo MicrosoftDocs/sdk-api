@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClientInfo, GetClientInfo callback function [Security], LSA_GET_CLIENT_INFO, LSA_GET_CLIENT_INFO callback, _ssp_getclientinfo, ntsecpkg/GetClientInfo, security.getclientinfo
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/GetClientInfo"
+f1_keywords:
+- ntsecpkg/GetClientInfo
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - GetClientInfo
+- GetClientInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>GetClientInfo</b> function gets information about the client process, suc
 ### -param ClientInfo [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_client_info">SECPKG_CLIENT_INFO</a> structure that receives information about the client.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_client_info">SECPKG_CLIENT_INFO</a> structure that receives information about the client.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If the function fails, the return value is an NTSTATUS code indicating the reaso
 
 
 A pointer to the <b>GetClientInfo</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 
@@ -92,7 +92,7 @@ A pointer to the <b>GetClientInfo</b> function is available in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 

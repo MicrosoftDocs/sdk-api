@@ -174,7 +174,7 @@ No input data; set to <b>NULL</b>.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_query">HTTP_SERVICE_CONFIG_SSL_QUERY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_query">HTTP_SERVICE_CONFIG_SSL_QUERY</a> structure.
 
 </td>
 </tr>
@@ -185,7 +185,7 @@ No input data; set to <b>NULL</b>.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_urlacl_query">HTTP_SERVICE_CONFIG_URLACL_QUERY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_urlacl_query">HTTP_SERVICE_CONFIG_URLACL_QUERY</a> structure.
 
 </td>
 </tr>
@@ -275,7 +275,7 @@ A pointer to a buffer in which the query results are returned. The type of this 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_set">HTTP_SERVICE_CONFIG_SSL_SET</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_set">HTTP_SERVICE_CONFIG_SSL_SET</a> structure.
 
 </td>
 </tr>
@@ -313,7 +313,7 @@ A pointer to a buffer in which the query results are returned. The type of this 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_sni_set">HTTP_SERVICE_CONFIG_SSL_SNI_SET</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_sni_set">HTTP_SERVICE_CONFIG_SSL_SNI_SET</a> structure.
 
 
 <b>Windows 8 and later:  </b>This structure is supported.
@@ -329,7 +329,7 @@ A pointer to a buffer in which the query results are returned. The type of this 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_ccs_set">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_set">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a> structure.
 
 
 <b>Windows 8 and later:  </b>This structure is supported.

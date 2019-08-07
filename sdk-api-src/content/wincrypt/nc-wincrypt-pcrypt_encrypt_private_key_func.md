@@ -54,7 +54,7 @@ ms.custom: 19H1
 <p class="CCE_Message">[The <b>PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC</b> function is available for use in  the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 The <b>PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC</b> function encrypts the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> and returns
-the encrypted contents in the <i>pbEncryptedKey</i> parameter.  It is a callback function identified in a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_pkcs8_export_params">CRYPT_PKCS8_EXPORT_PARAMS</a> structure that creates a PKCS #8 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_encrypted_private_key_info">CRYPT_ENCRYPTED_PRIVATE_KEY_INFO</a> structure.  The function must be implemented by the developer to suit each application.
+the encrypted contents in the <i>pbEncryptedKey</i> parameter.  It is a callback function identified in a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_pkcs8_export_params">CRYPT_PKCS8_EXPORT_PARAMS</a> structure that creates a PKCS #8 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_encrypted_private_key_info">CRYPT_ENCRYPTED_PRIVATE_KEY_INFO</a> structure.  The function must be implemented by the developer to suit each application.
 
 
 ## -parameters

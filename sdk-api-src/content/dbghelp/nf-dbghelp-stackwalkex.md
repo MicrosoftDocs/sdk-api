@@ -126,7 +126,7 @@ A handle to the thread for which the stack trace is generated. If the caller sup
 
 ### -param StackFrame [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagstackframe_ex">STACKFRAME_EX</a> structure. This 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-stackframe_ex">STACKFRAME_EX</a> structure. This 
       structure receives information for the next frame, if the function call succeeds.
 
 
@@ -228,7 +228,7 @@ The <b>StackWalkEx</b> function provides a portable method
 
 The first call to this function will fail if the <b>AddrPC</b>,  
     <b>AddrFrame</b>, and <b>AddrStack</b> members of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagstackframe">STACKFRAME64</a> structure passed in the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a> structure passed in the 
     <i>StackFrame</i> parameter are not initialized.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to 
@@ -259,7 +259,7 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagstackframe_ex">STACKFRAME_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-stackframe_ex">STACKFRAME_EX</a>
 
 
 

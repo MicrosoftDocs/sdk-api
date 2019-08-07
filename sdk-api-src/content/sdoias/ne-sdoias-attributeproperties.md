@@ -169,7 +169,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributesyntax">ATTRIBUTESYNTAX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributesyntax">ATTRIBUTESYNTAX</a>
 
 
 

@@ -139,7 +139,7 @@ If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webser
 If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_encoding">encoding</a> is not <b>NULL</b>, then <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_output">WS_XML_WRITER_OUTPUT</a> must be non-<b>NULL</b> as well.
       
 
-If <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_buffer_output">WS_XML_WRITER_OUTPUT</a> is <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_writer_buffer_output">WS_XML_WRITER_BUFFER_OUTPUT</a> then the writer will buffer the generated
+If <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_buffer_output">WS_XML_WRITER_OUTPUT</a> is <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_buffer_output">WS_XML_WRITER_BUFFER_OUTPUT</a> then the writer will buffer the generated
         bytes of the document.  Use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetwriterproperty">WsGetWriterProperty</a> with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_writer_property_id">WS_XML_WRITER_PROPERTY_BUFFERS</a> or
         <b>WS_XML_WRITER_PROPERTY_BYTES</b> to obtain these bytes.  In this mode <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsflushwriter">WsFlushWriter</a> has no effect.
       

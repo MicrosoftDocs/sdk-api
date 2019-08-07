@@ -84,7 +84,7 @@ A DWORD value that describes the format in which the information is returned in 
 <tr>
 <td>1</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_port_1">RAS_PORT_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_port_1">RAS_PORT_1</a>
 </td>
 </tr>
 </table>
@@ -99,7 +99,7 @@ Handle to the port for which to collect information. Obtain this handle by calli
 
 ### -param lplpbBuffer [out]
 
-On successful completion, a pointer to a structure that describes the port. These structures are of type <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_port_0">RAS_PORT_0</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_port_1">RAS_PORT_1</a> depending on the value of the <i>dwLevel</i> parameter. Free this memory by calling 
+On successful completion, a pointer to a structure that describes the port. These structures are of type <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_port_0">RAS_PORT_0</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_port_1">RAS_PORT_1</a> depending on the value of the <i>dwLevel</i> parameter. Free this memory by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>. 
 
 

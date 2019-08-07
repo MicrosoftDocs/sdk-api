@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMappedAccessToken, GetMappedAccessToken method, GetMappedAccessToken method,IWSDSSLClientCertificate interface, IWSDSSLClientCertificate interface,GetMappedAccessToken method, IWSDSSLClientCertificate.GetMappedAccessToken, IWSDSSLClientCertificate::GetMappedAccessToken, ncd.iwsdsslclientcertificate_getmappedaccesstoken, wsdbase/IWSDSSLClientCertificate::GetMappedAccessToken
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDSSLClientCertificate.GetMappedAccessToken"
+f1_keywords:
+- wsdbase/IWSDSSLClientCertificate.GetMappedAccessToken
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDSSLClientCertificate.GetMappedAccessToken
+- IWSDSSLClientCertificate.GetMappedAccessToken
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -107,7 +107,7 @@ The  token associated with the specified handle is not available.
 
 
 
-If the client certificate was successfully mapped to an operating system user account, then a valid access token for this user will be returned through <i>phToken</i>. This token can be used to impersonate the user. Internally, HTTP.sys will do the client certificate to user account mapping and return this information through the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_ssl_client_cert_info">HTTP_SSL_CLIENT_CERT_INFO</a> structure.
+If the client certificate was successfully mapped to an operating system user account, then a valid access token for this user will be returned through <i>phToken</i>. This token can be used to impersonate the user. Internally, HTTP.sys will do the client certificate to user account mapping and return this information through the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_ssl_client_cert_info">HTTP_SSL_CLIENT_CERT_INFO</a> structure.
 
 
 

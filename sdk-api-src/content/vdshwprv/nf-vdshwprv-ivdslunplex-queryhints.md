@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsLunPlex interface [VDS],QueryHints method, IVdsLunPlex.QueryHints, IVdsLunPlex::QueryHints, QueryHints, QueryHints method [VDS], QueryHints method [VDS],IVdsLunPlex interface, base.ivdslunplex_queryhints, vds/IVdsLunPlex::QueryHints, vdshwprv/IVdsLunPlex::QueryHints
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsLunPlex.QueryHints"
+f1_keywords:
+- vdshwprv/IVdsLunPlex.QueryHints
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsLunPlex.QueryHints
+- IVdsLunPlex.QueryHints
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Returns the hints that are currently applied to the LUN plex.
 
 ### -param pHints [out]
 
-Pointer to the returned plex hints. See the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_hints">VDS_HINTS</a> structure.
+Pointer to the returned plex hints. See the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints">VDS_HINTS</a> structure.
 
 
 ## -returns
@@ -188,7 +188,7 @@ Note that calls to the <a href="https://docs.microsoft.com/windows/desktop/api/v
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_hints">VDS_HINTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints">VDS_HINTS</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>LSA_TRANSLATED_SID2</b> structure contains 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SIDs</a> that are retrieved based on account names. This structure is used by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SIDs</a> that are retrieved based on account names. This structure is used by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames2">LsaLookupNames2</a> function.
 
 

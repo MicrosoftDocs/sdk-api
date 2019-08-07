@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_PERFORMANCE, IOCTL_DISK_PERFORMANCE control, IOCTL_DISK_PERFORMANCE control code [Files], _win32_ioctl_disk_performance, base.ioctl_disk_performance, fs.ioctl_disk_performance, winioctl/IOCTL_DISK_PERFORMANCE
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_DISK_PERFORMANCE"
+f1_keywords:
+- winioctl/IOCTL_DISK_PERFORMANCE
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_DISK_PERFORMANCE
+- IOCTL_DISK_PERFORMANCE
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -157,7 +157,7 @@ To disable the  performance counters enabled by this control code, use the <a hr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_performance">DISK_PERFORMANCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_performance">DISK_PERFORMANCE</a>
 
 
 

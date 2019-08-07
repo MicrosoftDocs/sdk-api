@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuditSetSystemPolicy, AuditSetSystemPolicy function [Security], ntsecapi/AuditSetSystemPolicy, security.auditsetsystempolicy_func
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/AuditSetSystemPolicy"
+f1_keywords:
+- ntsecapi/AuditSetSystemPolicy
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-audit-l1-1-0.dll
- - sechost.dll
- - API-MS-Win-Security-audit-l1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-Security-audit-l1-1-0.dll
+- sechost.dll
+- API-MS-Win-Security-audit-l1-1-1.dll
 api_name:
- - AuditSetSystemPolicy
+- AuditSetSystemPolicy
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ The <b>AuditSetSystemPolicy</b> function sets system audit policy for one or mor
 
 ### -param pAuditPolicy [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_audit_policy_information">AUDIT_POLICY_INFORMATION</a> structures. Each structure specifies system audit policy for one audit-policy subcategory.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-audit_policy_information">AUDIT_POLICY_INFORMATION</a> structures. Each structure specifies system audit policy for one audit-policy subcategory.
 
 The <b>AuditCategoryGuid</b> member of these structures is ignored.
 

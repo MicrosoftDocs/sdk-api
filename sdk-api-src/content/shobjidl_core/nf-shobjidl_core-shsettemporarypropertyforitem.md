@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHSetTemporaryPropertyForItem, SHSetTemporaryPropertyForItem function [Windows Shell], _shell_SHSetTemporaryPropertyForItem, shell.SHSetTemporaryPropertyForItem, shobjidl_core/SHSetTemporaryPropertyForItem
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHSetTemporaryPropertyForItem"
+f1_keywords:
+- shobjidl_core/SHSetTemporaryPropertyForItem
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHSetTemporaryPropertyForItem
+- SHSetTemporaryPropertyForItem
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ A pointer to the item on which the temporary property is to be set.
 
 Type: <b>REFPROPERTYKEY</b>
 
-Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> that identifies the temporary property that is being set.
+Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> that identifies the temporary property that is being set.
 
 
 ### -param propvar [in]

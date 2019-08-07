@@ -86,7 +86,7 @@ The size of the <i>PropertyValueBuffer</i> buffer, in bytes.
 
 ### -param PropertyValueBuffer [in]
 
-A caller-allocated buffer that will receive the metadata property. The buffer contains an <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ns-winevt-_evt_variant">EVT_VARIANT</a> object. You can set this parameter to <b>NULL</b> to determine the required buffer size.
+A caller-allocated buffer that will receive the metadata property. The buffer contains an <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ns-winevt-evt_variant">EVT_VARIANT</a> object. You can set this parameter to <b>NULL</b> to determine the required buffer size.
 
 
 ### -param PropertyValueBufferUsed [out]

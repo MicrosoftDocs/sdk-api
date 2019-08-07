@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyDescriptionList, GetPropertyDescriptionList method [Windows Shell], GetPropertyDescriptionList method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetPropertyDescriptionList method, IShellItem2.GetPropertyDescriptionList, IShellItem2::GetPropertyDescriptionList, _shell_IShellItem2_GetPropertyDescriptionList, shell.IShellItem2_GetPropertyDescriptionList, shobjidl_core/IShellItem2::GetPropertyDescriptionList
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellItem2.GetPropertyDescriptionList"
+f1_keywords:
+- shobjidl_core/IShellItem2.GetPropertyDescriptionList
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellItem2.GetPropertyDescriptionList
+- IShellItem2.GetPropertyDescriptionList
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Gets a property description list object given a reference to a property key.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure.
+A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.
 
 
 ### -param riid [in]

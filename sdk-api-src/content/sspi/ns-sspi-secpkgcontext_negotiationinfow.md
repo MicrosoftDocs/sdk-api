@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 3af724b8-fbe5-4a75-b128-9efe65381f2f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgContext_NegotiationInfoW, PSecPkgContext_NegotiationInfo, PSecPkgContext_NegotiationInfo structure pointer [Security], SECPKG_NEGOTIATION_COMPLETE, SECPKG_NEGOTIATION_IN_PROGRESS, SECPKG_NEGOTIATION_OPTIMISTIC, SecPkgContext_NegotiationInfo, SecPkgContext_NegotiationInfo structure [Security], SecPkgContext_NegotiationInfoA, SecPkgContext_NegotiationInfoW, _ssp_secpkgcontext_negotiationinfo, security.secpkgcontext_negotiationinfo, sspi/PSecPkgContext_NegotiationInfo, sspi/SecPkgContext_NegotiationInfo, sspi/SecPkgContext_NegotiationInfoA, sspi/SecPkgContext_NegotiationInfoW"
+ms.keywords: '*PSecPkgContext_NegotiationInfoW, PSecPkgContext_NegotiationInfo, PSecPkgContext_NegotiationInfo structure pointer [Security], SECPKG_NEGOTIATION_COMPLETE, SECPKG_NEGOTIATION_IN_PROGRESS, SECPKG_NEGOTIATION_OPTIMISTIC, SecPkgContext_NegotiationInfo, SecPkgContext_NegotiationInfo structure [Security], SecPkgContext_NegotiationInfoA, SecPkgContext_NegotiationInfoW, _ssp_secpkgcontext_negotiationinfo, security.secpkgcontext_negotiationinfo, sspi/PSecPkgContext_NegotiationInfo, sspi/SecPkgContext_NegotiationInfo, sspi/SecPkgContext_NegotiationInfoA, sspi/SecPkgContext_NegotiationInfoW'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SecPkgContext_NegotiationInfo"
+f1_keywords:
+- sspi/SecPkgContext_NegotiationInfo
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SecPkgContext_NegotiationInfo
- - SecPkgContext_NegotiationInfoA
- - SecPkgContext_NegotiationInfoW
+- SecPkgContext_NegotiationInfo
+- SecPkgContext_NegotiationInfoA
+- SecPkgContext_NegotiationInfoW
 product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_NegotiationInfoW, *PSecPkgContext_NegotiationInfoW
@@ -64,7 +64,7 @@ The <b>SecPkgContext_NegotiationInfo</b> structure contains information on the <
 ### -field PackageInfo
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkginfoa">SecPkgInfo</a> structure that provides general information about the security package chosen in the negotiate process, such as the name and capabilities of the package.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structure that provides general information about the security package chosen in the negotiate process, such as the name and capabilities of the package.
 
 
 ### -field NegotiationState

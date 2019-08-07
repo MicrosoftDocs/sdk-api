@@ -180,7 +180,7 @@ An application can determine the required buffer size by issuing a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>
  
 
  

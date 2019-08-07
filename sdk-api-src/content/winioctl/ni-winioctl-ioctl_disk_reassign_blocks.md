@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_REASSIGN_BLOCKS, IOCTL_DISK_REASSIGN_BLOCKS control, IOCTL_DISK_REASSIGN_BLOCKS control code [Files], _win32_ioctl_disk_reassign_blocks, base.ioctl_disk_reassign_blocks, fs.ioctl_disk_reassign_blocks, winioctl/IOCTL_DISK_REASSIGN_BLOCKS
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_DISK_REASSIGN_BLOCKS"
+f1_keywords:
+- winioctl/IOCTL_DISK_REASSIGN_BLOCKS
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_DISK_REASSIGN_BLOCKS
+- IOCTL_DISK_REASSIGN_BLOCKS
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -147,10 +147,10 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_reassign_blocks">REASSIGN_BLOCKS</a> structure that the 
+The <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-reassign_blocks">REASSIGN_BLOCKS</a> structure that the 
     <b>IOCTL_DISK_REASSIGN_BLOCKS</b> control code uses only 
     supports drives where the Logical Block Address (LBA) fits into a 4-byte value (typically up to 2 TB). For larger 
-    drives the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_reassign_blocks_ex">REASSIGN_BLOCKS_EX</a> structure that  the 
+    drives the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-reassign_blocks_ex">REASSIGN_BLOCKS_EX</a> structure that  the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_reassign_blocks_ex">IOCTL_DISK_REASSIGN_BLOCKS_EX</a> control code 
     uses supports 8-byte LBAs. For compatibility, the 
     <b>IOCTL_DISK_REASSIGN_BLOCKS</b> control code and 
@@ -177,11 +177,11 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_reassign_blocks">REASSIGN_BLOCKS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-reassign_blocks">REASSIGN_BLOCKS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_reassign_blocks_ex">REASSIGN_BLOCKS_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-reassign_blocks_ex">REASSIGN_BLOCKS_EX</a>
  
 
  

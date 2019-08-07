@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: 0ce3083c-21c9-48a4-9099-1dab31afcafa
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_CALLBACK_INPUT, MINIDUMP_CALLBACK_INPUT, MINIDUMP_CALLBACK_INPUT structure, PMINIDUMP_CALLBACK_INPUT, PMINIDUMP_CALLBACK_INPUT structure pointer, _MINIDUMP_CALLBACK_INPUT, _win32_minidump_callback_input_str, base.minidump_callback_input_str, minidumpapiset/MINIDUMP_CALLBACK_INPUT, minidumpapiset/PMINIDUMP_CALLBACK_INPUT"
+ms.keywords: '*PMINIDUMP_CALLBACK_INPUT, MINIDUMP_CALLBACK_INPUT, MINIDUMP_CALLBACK_INPUT structure, PMINIDUMP_CALLBACK_INPUT, PMINIDUMP_CALLBACK_INPUT structure pointer, _MINIDUMP_CALLBACK_INPUT, _win32_minidump_callback_input_str, base.minidump_callback_input_str, minidumpapiset/MINIDUMP_CALLBACK_INPUT, minidumpapiset/PMINIDUMP_CALLBACK_INPUT'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_CALLBACK_INPUT"
+f1_keywords:
+- minidumpapiset/MINIDUMP_CALLBACK_INPUT
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_CALLBACK_INPUT
+- MINIDUMP_CALLBACK_INPUT
 product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_CALLBACK_INPUT, *PMINIDUMP_CALLBACK_INPUT
@@ -121,7 +121,7 @@ If <b>CallbackType</b> is <b>IncludeModuleCallback</b>, the union is a
 
 ### -field Io
 
-If <b>CallbackType</b> is <b>IoStartCallback</b>, <b>IoWriteAllCallback</b>, or <b>IoFinishCallback</b>, the union is a <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_io_callback">MINIDUMP_IO_CALLBACK</a> structure.
+If <b>CallbackType</b> is <b>IoStartCallback</b>, <b>IoWriteAllCallback</b>, or <b>IoFinishCallback</b>, the union is a <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_io_callback">MINIDUMP_IO_CALLBACK</a> structure.
 
 <b>DbgHelp 6.4 and earlier:  </b>This member is not available.
 
@@ -183,7 +183,7 @@ If <b>CallbackType</b> is <b>CancelCallback</b> or <b>MemoryCallback</b>, the <b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_io_callback">MINIDUMP_IO_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_io_callback">MINIDUMP_IO_CALLBACK</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OLECMDTEXTF, OLECMDTEXTF enumeration [COM], OLECMDTEXTF_NAME, OLECMDTEXTF_NONE, OLECMDTEXTF_STATUS, _ole_OLECMDTEXTF, com.olecmdtextf, docobj/OLECMDTEXTF, docobj/OLECMDTEXTF_NAME, docobj/OLECMDTEXTF_NONE, docobj/OLECMDTEXTF_STATUS
 ms.topic: enum
-f1_keywords: 
- - "docobj/OLECMDTEXTF"
+f1_keywords:
+- docobj/OLECMDTEXTF
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - OLECMDTEXTF
+- OLECMDTEXTF
 product: Windows
 targetos: Windows
 req.typenames: OLECMDTEXTF
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the type of information that an object should store in the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-_tagolecmdtext">OLECMDTEXT</a> structure passed in <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>. One value from this enumeration is stored the <b>cmdtextf</b> member of the <b>OLECMDTEXT</b> structure to indicate the desired information.
+Specifies the type of information that an object should store in the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-olecmdtext">OLECMDTEXT</a> structure passed in <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>. One value from this enumeration is stored the <b>cmdtextf</b> member of the <b>OLECMDTEXT</b> structure to indicate the desired information.
 
 
 
@@ -85,7 +85,7 @@ The object should provide a localized status string for the command.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-_tagolecmdtext">OLECMDTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-olecmdtext">OLECMDTEXT</a>
  
 
  

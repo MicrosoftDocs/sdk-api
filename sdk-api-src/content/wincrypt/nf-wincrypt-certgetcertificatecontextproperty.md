@@ -62,7 +62,7 @@ The <b>CertGetCertificateContextProperty</b> function retrieves the information 
 ### -param pCertContext [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> that contains the property to be retrieved.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> that contains the property to be retrieved.
 
 
 ### -param dwPropId [in]
@@ -103,7 +103,7 @@ Returns a previously saved encrypted key <a href="https://docs.microsoft.com/win
 #### CERT_ARCHIVED_PROP_ID
 
 Data type of <i>pvData</i>: 
-  <b>NULL</b>. If the <b>CertGetCertificateContextProperty</b> function returns true, then the specified property ID exists for the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>.
+  <b>NULL</b>. If the <b>CertGetCertificateContextProperty</b> function returns true, then the specified property ID exists for the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>.
 
 Indicates the certificate is skipped during 
 			 enumerations. A certificate with this property set 

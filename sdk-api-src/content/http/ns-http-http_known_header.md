@@ -101,7 +101,7 @@ For more information about the structure and usage of HTTP headers, see the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_headers">HTTP_RESPONSE_HEADERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_headers">HTTP_RESPONSE_HEADERS</a>
  
 
  

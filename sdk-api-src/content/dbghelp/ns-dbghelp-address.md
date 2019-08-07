@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: f49249e5-ef02-4e1f-9c08-1c7fe25ee71c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPADDRESS, ADDRESS, ADDRESS structure, ADDRESS64, ADDRESS64 structure, AddrMode1616, AddrMode1632, AddrModeFlat, AddrModeReal, LPADDRESS64, LPADDRESS64 structure pointer, _tagADDRESS64, _win32_address64_str, base.address64_str, dbghelp/ADDRESS64, dbghelp/LPADDRESS64"
+ms.keywords: '*LPADDRESS, ADDRESS, ADDRESS structure, ADDRESS64, ADDRESS64 structure, AddrMode1616, AddrMode1632, AddrModeFlat, AddrModeReal, LPADDRESS64, LPADDRESS64 structure pointer, _tagADDRESS64, _win32_address64_str, base.address64_str, dbghelp/ADDRESS64, dbghelp/LPADDRESS64'
 ms.topic: struct
-f1_keywords: 
- - "dbghelp/ADDRESS64"
+f1_keywords:
+- dbghelp/ADDRESS64
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - ADDRESS64
- - ADDRESS
+- ADDRESS64
+- ADDRESS
 product: Windows
 targetos: Windows
 req.typenames: ADDRESS, *LPADDRESS
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 Represents an address. It is used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagstackframe">STACKFRAME64</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a> structure.
 
 
 ## -struct-fields
@@ -163,7 +163,7 @@ typedef struct _tagADDRESS {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagstackframe">STACKFRAME64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a>
  
 
  

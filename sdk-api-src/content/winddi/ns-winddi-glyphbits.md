@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GLYPHBITS, GLYPHBITS structure [Display Devices], display.glyphbits, grstrcts_597a08d2-215a-4bef-8f5b-a90ded3165fc.xml, winddi/GLYPHBITS
 ms.topic: struct
-f1_keywords: 
- - "winddi/GLYPHBITS"
+f1_keywords:
+- winddi/GLYPHBITS
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - GLYPHBITS
+- GLYPHBITS
 product: Windows
 targetos: Windows
 req.typenames: GLYPHBITS
@@ -61,7 +61,7 @@ The GLYPHBITS structure is used to define a glyph bitmap.
 
 ### -field ptlOrigin
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a> structure that defines the origin of the character in the bitmap.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that defines the origin of the character in the bitmap.
 
 
 ### -field sizlBitmap
@@ -93,7 +93,7 @@ GDI will make this request of drivers that have antialiased fonts (see the descr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphdef">GLYPHDEF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphdef">GLYPHDEF</a>
  
 
  

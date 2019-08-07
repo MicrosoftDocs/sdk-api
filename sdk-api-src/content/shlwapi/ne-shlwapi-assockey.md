@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ASSOCKEY, ASSOCKEY enumeration [Windows Shell], ASSOCKEY_APP, ASSOCKEY_BASECLASS, ASSOCKEY_CLASS, ASSOCKEY_SHELLEXECCLASS, _win32_ASSOCKEY_str, shell.ASSOCKEY_str, shlwapi/ASSOCKEY, shlwapi/ASSOCKEY_APP, shlwapi/ASSOCKEY_BASECLASS, shlwapi/ASSOCKEY_CLASS, shlwapi/ASSOCKEY_SHELLEXECCLASS
 ms.topic: enum
-f1_keywords: 
- - "shlwapi/ASSOCKEY"
+f1_keywords:
+- shlwapi/ASSOCKEY
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shlwapi.h
+- Shlwapi.h
 api_name:
- - ASSOCKEY
+- ASSOCKEY
 product: Windows
 targetos: Windows
 req.typenames: ASSOCKEY
@@ -61,7 +61,7 @@ Specifies the type of key to be returned by <a href="https://docs.microsoft.com/
 
 ### -field ASSOCKEY_SHELLEXECCLASS
 
-A key that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> through a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shellexecuteinfoa">SHELLEXECUTEINFO</a> structure.
+A key that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> through a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfoa">SHELLEXECUTEINFO</a> structure.
 
 
 ### -field ASSOCKEY_APP

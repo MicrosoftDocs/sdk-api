@@ -84,7 +84,7 @@ Pixel aspect ratio, specified as an <a href="https://docs.microsoft.com/windows/
 
 ### -field SourceChromaSubsampling
 
-Chroma sub-sampling of the original image, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideochromasubsampling">MFVideoChromaSubsampling</a> enumeration.
+Chroma sub-sampling of the original image, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mfvideochromasubsampling">MFVideoChromaSubsampling</a> enumeration.
           
 
 
@@ -96,25 +96,25 @@ Image interlacing, specified as a member of the <a href="https://docs.microsoft.
 
 ### -field TransferFunction
 
-R'G'B' gamma curve function, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideotransferfunction">MFVideoTransferFunction</a> enumeration.
+R'G'B' gamma curve function, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mfvideotransferfunction">MFVideoTransferFunction</a> enumeration.
           
 
 
 ### -field ColorPrimaries
 
-Color primaries of the video source, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideoprimaries">MFVideoPrimaries</a> enumeration. This value provides the conversion from R'G'B' to linear RGB.
+Color primaries of the video source, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mfvideoprimaries">MFVideoPrimaries</a> enumeration. This value provides the conversion from R'G'B' to linear RGB.
           
 
 
 ### -field TransferMatrix
 
-Conversion matrix from Y'Cb'Cr' to R'G'B, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideotransfermatrix">MFVideoTransferMatrix</a> enumeration.
+Conversion matrix from Y'Cb'Cr' to R'G'B, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mfvideotransfermatrix">MFVideoTransferMatrix</a> enumeration.
           
 
 
 ### -field SourceLighting
 
-Intended viewing conditions, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideolighting">MFVideoLighting</a> enumeration.
+Intended viewing conditions, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mfvideolighting">MFVideoLighting</a> enumeration.
           
 
 
@@ -126,7 +126,7 @@ Frames per second, specified as an <a href="https://docs.microsoft.com/windows/d
 
 ### -field NominalRange
 
-Range of valid RGB values, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mfnominalrange">MFNominalRange</a> enumeration. The value indicates whether color values contain headroom and toeroom.
+Range of valid RGB values, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mfnominalrange">MFNominalRange</a> enumeration. The value indicates whether color values contain headroom and toeroom.
           
 
 
@@ -150,7 +150,7 @@ Pan-scan rectangle, specified as an <a href="https://docs.microsoft.com/windows/
 
 ### -field VideoFlags
 
-Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideoflags">MFVideoFlags</a> enumeration.
+Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mfvideoflags">MFVideoFlags</a> enumeration.
           
 
 
@@ -245,7 +245,7 @@ Developers are encouraged to use media type attributes instead of using the <b>M
 </tr>
 <tr>
 <td><b>VideoFlags</b></td>
-<td>See <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideoflags">MFVideoFlags</a>.</td>
+<td>See <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mfvideoflags">MFVideoFlags</a>.</td>
 </tr>
 </table>
  

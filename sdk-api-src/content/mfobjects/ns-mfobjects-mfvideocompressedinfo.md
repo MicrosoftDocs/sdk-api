@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFVideoCompressedInfo, MFVideoCompressedInfo structure [Media Foundation], fe9aa287-33e9-4413-8bc5-0e7b2da1112e, mf.mfvideocompressedinfo, mfobjects/MFVideoCompressedInfo
 ms.topic: struct
-f1_keywords: 
- - "mfobjects/MFVideoCompressedInfo"
+f1_keywords:
+- mfobjects/MFVideoCompressedInfo
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - MFVideoCompressedInfo
+- MFVideoCompressedInfo
 product: Windows
 targetos: Windows
 req.typenames: MFVideoCompressedInfo
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-Contains information about a video compression format. This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat">MFVIDEOFORMAT</a> structure.
+Contains information about a video compression format. This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure.
 
 
 

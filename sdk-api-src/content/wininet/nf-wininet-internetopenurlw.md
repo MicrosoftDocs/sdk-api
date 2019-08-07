@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetOpenUrl, InternetOpenUrl function [WinINet], InternetOpenUrlA, InternetOpenUrlW, _inet_internetopenurl_function, wininet.internetopenurl, wininet/InternetOpenUrl, wininet/InternetOpenUrlA, wininet/InternetOpenUrlW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetOpenUrl"
+f1_keywords:
+- wininet/InternetOpenUrl
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetOpenUrl
- - InternetOpenUrlA
- - InternetOpenUrlW
+- InternetOpenUrl
+- InternetOpenUrlA
+- InternetOpenUrlW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -270,7 +270,7 @@ Forces the request to be resolved by the origin server, even if a cached copy ex
 </td>
 <td width="60%">
 Returns the data as a 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_win32_find_dataa">WIN32_FIND_DATA</a> structure when retrieving FTP directory information. If this flag is not specified or if the call was made through a CERN proxy, 
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure when retrieving FTP directory information. If this flag is not specified or if the call was made through a CERN proxy, 
 <b>InternetOpenUrl</b> returns the HTML version of the directory. 
 
 <b>Windows XP and Windows Server 2003 R2 and earlier:  </b>Also returns data as a <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-gopher_find_dataa">GOPHER_FIND_DATA</a> structure when retrieving Gopher directory information.

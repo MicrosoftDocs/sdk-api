@@ -74,7 +74,7 @@ The minimum amount of free space, in bytes, that each storage pool must contain.
 
 ### -param pPoolAttributes [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_pool_attributes">VDS_POOL_ATTRIBUTES</a> structure that specifies the attribute values that the returned storage pools must have. The default value for this parameter is <b>NULL</b>. A value of <b>NULL</b> means that the storage pools can have any attribute values.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_pool_attributes">VDS_POOL_ATTRIBUTES</a> structure that specifies the attribute values that the returned storage pools must have. The default value for this parameter is <b>NULL</b>. A value of <b>NULL</b> means that the storage pools can have any attribute values.
 
 
 ### -param ppEnum [out]
@@ -118,7 +118,7 @@ The method completed successfully.
 
 If the hardware provider does not manage any storage pools, this method returns an empty enumeration object.
 
-If a non-<b>NULL</b> value is specified in the <i>pPoolAttributes</i> parameter, this method returns only storage pools that satisfy all of the attributes that are specified in the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_pool_attributes">VDS_POOL_ATTRIBUTES</a> structure. If any  minimum and maximum attributes are specified, the storage pools that are returned must match these attributes exactly. The hint attributes are used as hints to further filter the storage pools that satisfy all the specified attributes. If a specified attribute does not apply to any of the storage pools, this method returns S_OK with an empty enumeration object.
+If a non-<b>NULL</b> value is specified in the <i>pPoolAttributes</i> parameter, this method returns only storage pools that satisfy all of the attributes that are specified in the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_pool_attributes">VDS_POOL_ATTRIBUTES</a> structure. If any  minimum and maximum attributes are specified, the storage pools that are returned must match these attributes exactly. The hint attributes are used as hints to further filter the storage pools that satisfy all the specified attributes. If a specified attribute does not apply to any of the storage pools, this method returns S_OK with an empty enumeration object.
 
 
 

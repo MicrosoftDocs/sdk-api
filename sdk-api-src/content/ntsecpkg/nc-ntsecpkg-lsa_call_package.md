@@ -62,7 +62,7 @@ The <b>CallPackage</b> function is used to call another <a href="https://docs.mi
 ### -param AuthenticationPackage [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the name of the package to call.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the name of the package to call.
 
 
 ### -param ProtocolSubmitBuffer [in]

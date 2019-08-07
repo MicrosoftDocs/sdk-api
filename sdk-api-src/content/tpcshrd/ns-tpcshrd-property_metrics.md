@@ -87,7 +87,7 @@ The maximum value, in logical units, that the tablet reports for this property. 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-_packet_property">PACKET_PROPERTY Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_property">PACKET_PROPERTY Structure</a>
 
 
 

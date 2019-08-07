@@ -69,7 +69,7 @@ Pointer to a
 ### -param NameType [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-_secpkg_name_type">SECPKG_NAME_TYPE</a> enumeration value that specifies the type of account name in <i>Name</i>. This parameter can be one of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-secpkg_name_type">SECPKG_NAME_TYPE</a> enumeration value that specifies the type of account name in <i>Name</i>. This parameter can be one of the following values.
 
 <table>
 <tr>

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolLicenseConnection interface [Remote Desktop Services],RequestLicensingCapabilities method, IWRdsProtocolLicenseConnection.RequestLicensingCapabilities, IWRdsProtocolLicenseConnection::RequestLicensingCapabilities, RequestLicensingCapabilities, RequestLicensingCapabilities method [Remote Desktop Services], RequestLicensingCapabilities method [Remote Desktop Services],IWRdsProtocolLicenseConnection interface, termserv.iwrdsprotocollicenseconnection_requestlicensingcapabilities, wtsprotocol/IWRdsProtocolLicenseConnection::RequestLicensingCapabilities
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolLicenseConnection.RequestLicensingCapabilities"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolLicenseConnection.RequestLicensingCapabilities
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolLicenseConnection.RequestLicensingCapabilities
+- IWRdsProtocolLicenseConnection.RequestLicensingCapabilities
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Requests license capabilities from the client.
 
 ### -param ppLicenseCapabilities [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_license_capabilities">WRDS_LICENSE_CAPABILITIES</a> structure that contains information about the client license capabilities.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_license_capabilities">WRDS_LICENSE_CAPABILITIES</a> structure that contains information about the client license capabilities.
 
 
 ### -param pcbLicenseCapabilities [in, out]

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_STRING_VALUE, WS_STRING_VALUE macro [Web Services for Windows], webservices/WS_STRING_VALUE, wsw.ws_string_value
 ms.topic: macro
-f1_keywords: 
- - "webservices/WS_STRING_VALUE"
+f1_keywords:
+- webservices/WS_STRING_VALUE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_STRING_VALUE
+- WS_STRING_VALUE
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_string">WS_STRING</a> structure given a constant string.
+Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_string">WS_STRING</a> structure given a constant string.
             
 
 

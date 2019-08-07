@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: A6C48765-9A18-4F77-8B0F-9653CE6FDE23
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSTORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS enumeration [Files], StorageDevicePowerCapUnitsMilliwatts, StorageDevicePowerCapUnitsPercent, fs.storage_device_power_cap_units, winioctl/STORAGE_DEVICE_POWER_CAP_UNITS, winioctl/StorageDevicePowerCapUnitsMilliwatts, winioctl/StorageDevicePowerCapUnitsPercent"
+ms.keywords: '*PSTORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS enumeration [Files], StorageDevicePowerCapUnitsMilliwatts, StorageDevicePowerCapUnitsPercent, fs.storage_device_power_cap_units, winioctl/STORAGE_DEVICE_POWER_CAP_UNITS, winioctl/StorageDevicePowerCapUnitsMilliwatts, winioctl/StorageDevicePowerCapUnitsPercent'
 ms.topic: enum
-f1_keywords: 
- - "winioctl/STORAGE_DEVICE_POWER_CAP_UNITS"
+f1_keywords:
+- winioctl/STORAGE_DEVICE_POWER_CAP_UNITS
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winioctl.h
+- winioctl.h
 api_name:
- - STORAGE_DEVICE_POWER_CAP_UNITS
+- STORAGE_DEVICE_POWER_CAP_UNITS
 product: Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_POWER_CAP_UNITS, *PSTORAGE_DEVICE_POWER_CAP_UNITS
@@ -77,7 +77,7 @@ Units in milliwatts.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SAFER_SCOPEID_MACHINE, SAFER_SCOPEID_USER, SaferGetPolicyInformation, SaferGetPolicyInformation function [Security], SaferPolicyDefaultLevel, SaferPolicyEnableTransparentEnforcement, SaferPolicyEvaluateUserScope, SaferPolicyLevelList, SaferPolicyScopeFlags, _mnp_safergetpolicyinformation, security.safergetpolicyinformation, winsafer/SaferGetPolicyInformation
 ms.topic: function
-f1_keywords: 
- - "winsafer/SaferGetPolicyInformation"
+f1_keywords:
+- winsafer/SaferGetPolicyInformation
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - SaferGetPolicyInformation
+- SaferGetPolicyInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -97,7 +97,7 @@ The scope of the query is by user.
 
 ### -param SaferPolicyInfoClass [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ne-winsafer-_safer_policy_info_class">SAFER_POLICY_INFO_CLASS</a>  enumeration value  that specifies the type of policy information that should be returned. The specified value determines the size and type of the <i>InfoBuffer</i> parameter. The following table shows the possible values.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ne-winsafer-safer_policy_info_class">SAFER_POLICY_INFO_CLASS</a>  enumeration value  that specifies the type of policy information that should be returned. The specified value determines the size and type of the <i>InfoBuffer</i> parameter. The following table shows the possible values.
 
 <table>
 <tr>

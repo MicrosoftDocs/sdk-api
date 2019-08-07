@@ -67,7 +67,7 @@ A handle of the chain engine (namespace and cache) to be used. If <i>hChainEngin
 ### -param pCertContext [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> of the end certificate, the certificate for which a chain is being built. This certificate context will be the zero-index element in the first simple chain.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> of the end certificate, the certificate for which a chain is being built. This certificate context will be the zero-index element in the first simple chain.
 
 
 ### -param pTime [in, optional]
@@ -332,7 +332,7 @@ If the function fails, it returns  zero (<b>FALSE</b>). For extended error infor
 
 When an application requests a certificate chain, the structure returned is in the form of a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a>. This context contains an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_simple_chain">CERT_SIMPLE_CHAIN</a> structures where each simple chain goes from an end certificate to a self-signed certificate. The chain context connects simple chains through trust lists. Each simple chain contains the chain of certificates, summary trust information about the chain, and trust information about each certificate element in the chain.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_simple_chain">CERT_SIMPLE_CHAIN</a> structures where each simple chain goes from an end certificate to a self-signed certificate. The chain context connects simple chains through trust lists. Each simple chain contains the chain of certificates, summary trust information about the chain, and trust information about each certificate element in the chain.
 
 The following remarks apply to strong signature checking:<ul>
 <li>
@@ -348,7 +348,7 @@ If the chain is strong signed, the public key in the end certificate is checked 
 
 </li>
 <li>
-If the <b>CERT_STRONG_SIGN_ENABLE_CRL_CHECK</b> or <b>CERT_STRONG_SIGN_ENABLE_OCSP_CHECK</b> flags are set in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_serialized_info">CERT_STRONG_SIGN_SERIALIZED_INFO</a> structure and a CRL or OCSP response is found without a strong signature, the CRL or OCSP response will be treated as being offline. That is, the <b>CERT_TRUST_IS_OFFLINE_REVOCATION</b> and <b>CERT_TRUST_REVOCATION_STATUS_UNKNOWN</b> errors are set in the <b>dwErrorStatus</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a> structure. Also, the <b>dwRevocationResult</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_revocation_info">CERT_REVOCATION_INFO</a> structure is set to <b>NTE_BAD_ALGID</b>.  
+If the <b>CERT_STRONG_SIGN_ENABLE_CRL_CHECK</b> or <b>CERT_STRONG_SIGN_ENABLE_OCSP_CHECK</b> flags are set in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_serialized_info">CERT_STRONG_SIGN_SERIALIZED_INFO</a> structure and a CRL or OCSP response is found without a strong signature, the CRL or OCSP response will be treated as being offline. That is, the <b>CERT_TRUST_IS_OFFLINE_REVOCATION</b> and <b>CERT_TRUST_REVOCATION_STATUS_UNKNOWN</b> errors are set in the <b>dwErrorStatus</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a> structure. Also, the <b>dwRevocationResult</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_info">CERT_REVOCATION_INFO</a> structure is set to <b>NTE_BAD_ALGID</b>.  
 
 </li>
 </ul>

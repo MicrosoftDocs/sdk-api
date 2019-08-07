@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Appends or prepends an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
+Appends or prepends an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Appends or prepends an <a href="https://docs.microsoft.com/windows/desktop/api/s
 
 Type: <b>PIDLIST_RELATIVE</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure. When the function returns, the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure specified by <i>pmkid</i> is appended or prepended.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure. When the function returns, the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure specified by <i>pmkid</i> is appended or prepended.
 
 
 ### -param pmkid [in]
@@ -88,7 +88,7 @@ Value that is set to <b>TRUE</b> to append <i>pmkid</i> to <i>pidl</i>. Set this
 
 Type: <b>PIDLIST_RELATIVE</b>
 
-Returns the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure specified by <i>pidl</i>, with <i>pmkid</i> appended or prepended. Returns <b>NULL</b> on failure.
+Returns the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure specified by <i>pidl</i>, with <i>pmkid</i> appended or prepended. Returns <b>NULL</b> on failure.
 
 
 

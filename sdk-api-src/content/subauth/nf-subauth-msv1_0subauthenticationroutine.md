@@ -145,7 +145,7 @@ If the size of the <b>Parameters</b> member's UNICODE_STRING buffer is changed, 
 
 Values to be returned from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function's <i>ProfileBuffer</i> parameter, when it contains a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_msv1_0_lm20_logon_profile">MSV1_0_LM20_LOGON_PROFILE</a> structure. The following values are currently defined for the <b>UserFlags</b> member of the structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_lm20_logon_profile">MSV1_0_LM20_LOGON_PROFILE</a> structure. The following values are currently defined for the <b>UserFlags</b> member of the structure.
 
 <table>
 <tr>
@@ -346,8 +346,8 @@ The password was not valid.
 This function is called by the MSV1_0 authentication package if part of the <i>AuthenticationInformation</i> parameter indicates that subauthentication is to be done and if a subauthentication DLL that exports the <b>Msv1_0SubAuthenticationRoutine</b> function is correctly registered on the workstation.
 
 The MSV1_0 authentication package does not support subauthentication for interactive logons, which require the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a> structure. Network logons, which require the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_msv1_0_lm20_logon">MSV1_0_LM20_LOGON</a> structure, can use subauthentication.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a> structure. Network logons, which require the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_lm20_logon">MSV1_0_LM20_LOGON</a> structure, can use subauthentication.
 
 The <b>Msv1_0SubAuthenticationRoutine</b> function is called after the correct domain controller has been located and all information about the security principal to be authenticated has been retrieved from the SAM database. When subauthentication is used, authentication is the responsibility of the subauthentication DLL and must be done by the <b>Msv1_0SubAuthenticationRoutine</b> function exported by that DLL.
 

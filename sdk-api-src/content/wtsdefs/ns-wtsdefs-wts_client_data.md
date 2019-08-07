@@ -8,10 +8,10 @@ tech.root: TermServ
 ms.assetid: a8e0fcbd-4f5c-4692-9bb0-aaa00465acf0
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWTS_CLIENT_DATA, PWRDS_CLIENT_DATA, PWRDS_CLIENT_DATA structure pointer [Remote Desktop Services], PWTS_CLIENT_DATA, PWTS_CLIENT_DATA structure pointer [Remote Desktop Services], WRDS_CLIENT_DATA, WRDS_CLIENT_DATA structure [Remote Desktop Services], WTS_CLIENT_DATA, WTS_CLIENT_DATA structure [Remote Desktop Services], termserv.wts_client_data, wtsdefs/PWRDS_CLIENT_DATA, wtsdefs/PWTS_CLIENT_DATA, wtsdefs/WRDS_CLIENT_DATA, wtsdefs/WTS_CLIENT_DATA"
+ms.keywords: '*PWTS_CLIENT_DATA, PWRDS_CLIENT_DATA, PWRDS_CLIENT_DATA structure pointer [Remote Desktop Services], PWTS_CLIENT_DATA, PWTS_CLIENT_DATA structure pointer [Remote Desktop Services], WRDS_CLIENT_DATA, WRDS_CLIENT_DATA structure [Remote Desktop Services], WTS_CLIENT_DATA, WTS_CLIENT_DATA structure [Remote Desktop Services], termserv.wts_client_data, wtsdefs/PWRDS_CLIENT_DATA, wtsdefs/PWTS_CLIENT_DATA, wtsdefs/WRDS_CLIENT_DATA, wtsdefs/WTS_CLIENT_DATA'
 ms.topic: struct
-f1_keywords: 
- - "wtsdefs/WTS_CLIENT_DATA"
+f1_keywords:
+- wtsdefs/WTS_CLIENT_DATA
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsdefs.h
+- Wtsdefs.h
 api_name:
- - WTS_CLIENT_DATA
+- WTS_CLIENT_DATA
 product: Windows
 targetos: Windows
 req.typenames: WTS_CLIENT_DATA, *PWTS_CLIENT_DATA
@@ -171,7 +171,7 @@ Specifies the client monitor vertical resolution.
 
 ### -field ColorDepth
 
-Specifies the client monitor color depth. For possible values, see the <b>ColorDepth</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_client_display">WTS_CLIENT_DISPLAY</a> structure.
+Specifies the client monitor color depth. For possible values, see the <b>ColorDepth</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_display">WTS_CLIENT_DISPLAY</a> structure.
 
 
 ### -field DisplayDriverName
@@ -236,7 +236,7 @@ A string value that contains the name of the audio driver to load.
 
 ### -field ClientTimeZone
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_time_zone_information">WTS_TIME_ZONE_INFORMATION</a> structure that contains client time zone information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_time_zone_information">WTS_TIME_ZONE_INFORMATION</a> structure that contains client time zone information.
 
 
 ### -field ClientName
@@ -261,7 +261,7 @@ A string value that contains the client IP address in dotted decimal format.
 
 ### -field ClientSockAddress
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_sockaddr">WTS_SOCKADDR</a> structure that contains information about the client socket.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_sockaddr">WTS_SOCKADDR</a> structure that contains information about the client socket.
 
 
 ### -field ClientDirectory

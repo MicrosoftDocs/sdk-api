@@ -120,7 +120,7 @@ Pointer to a structure that contains the requested information. If the <i>dwOper
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_get_media_parameters">TAPE_GET_MEDIA_PARAMETERS</a> structure.
 
 If <i>dwOperation</i> is <b>GET_TAPE_DRIVE_INFORMATION</b>, <i>lpTapeInformation</i> points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_tape_get_drive_parameters">TAPE_GET_DRIVE_PARAMETERS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_get_drive_parameters">TAPE_GET_DRIVE_PARAMETERS</a> structure.
 
 
 ## -returns
@@ -346,7 +346,7 @@ The block size range values (maximum and minimum) returned by the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_tape_get_drive_parameters">TAPE_GET_DRIVE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_get_drive_parameters">TAPE_GET_DRIVE_PARAMETERS</a>
 
 
 

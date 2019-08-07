@@ -61,7 +61,7 @@ A client application passes the <b>NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</b> str
 
 ### -field InputPersistedFields
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_validate_persisted_fields">NET_VALIDATE_PERSISTED_FIELDS</a> structure that contains persistent password-related information about the account being logged on.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_persisted_fields">NET_VALIDATE_PERSISTED_FIELDS</a> structure that contains persistent password-related information about the account being logged on.
 
 
 ### -field ClearPassword

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProtocolStatus, GetProtocolStatus method [Remote Desktop Services], GetProtocolStatus method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetProtocolStatus method, IWRdsProtocolConnection.GetProtocolStatus, IWRdsProtocolConnection::GetProtocolStatus, termserv.iwrdsprotocolconnection_getprotocolstatus, wtsprotocol/IWRdsProtocolConnection::GetProtocolStatus
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolConnection.GetProtocolStatus"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolConnection.GetProtocolStatus
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection.GetProtocolStatus
+- IWRdsProtocolConnection.GetProtocolStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Retrieves information about the protocol status.
 
 ### -param pProtocolStatus [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_protocol_status">WRDS_PROTOCOL_STATUS</a> structure that receives counter, signal, and cache information for the protocol.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_protocol_status">WRDS_PROTOCOL_STATUS</a> structure that receives counter, signal, and cache information for the protocol.
 
 
 ## -returns

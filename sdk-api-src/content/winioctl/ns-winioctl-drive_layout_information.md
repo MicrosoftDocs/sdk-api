@@ -77,7 +77,7 @@ The drive signature value.
 ### -field PartitionEntry
 
 A variable-sized array of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information">PARTITION_INFORMATION</a> structures, one 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information">PARTITION_INFORMATION</a> structures, one 
       structure for each partition on a drive.
 
 

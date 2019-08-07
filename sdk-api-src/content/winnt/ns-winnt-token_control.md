@@ -84,7 +84,7 @@ Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a>
 
 
 
@@ -100,7 +100,7 @@ Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_owner">TOKEN_OWNER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_owner">TOKEN_OWNER</a>
 
 
 

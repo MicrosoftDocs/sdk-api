@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],Progress method, ISyncMgrSynchronizeCallback.Progress, ISyncMgrSynchronizeCallback::Progress, Progress, Progress method [Windows Shell], Progress method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::Progress, shell.syncmgr_isyncmgrsynchronizecallback_progress, syncmgr.isyncmgrsynchronizecallback_progress
 ms.topic: method
-f1_keywords: 
- - "mobsync/ISyncMgrSynchronizeCallback.Progress"
+f1_keywords:
+- mobsync/ISyncMgrSynchronizeCallback.Progress
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Mobsync.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mobsync.dll
+- Mobsync.dll
 api_name:
- - ISyncMgrSynchronizeCallback.Progress
+- ISyncMgrSynchronizeCallback.Progress
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,9 +68,9 @@ A reference to the item identifier for an item that is being updated.
 
 ### -param pSyncProgressItem [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrprogressitem">SYNCMGRPROGRESSITEM</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgrprogressitem">SYNCMGRPROGRESSITEM</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrprogressitem">SYNCMGRPROGRESSITEM</a> structure that contains the updated progress information.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgrprogressitem">SYNCMGRPROGRESSITEM</a> structure that contains the updated progress information.
 
 
 ## -returns
@@ -129,7 +129,7 @@ Cancels the synchronization on all items that are associated with this applicati
 
 
 
-Registered applications should call this method to provide normal feedback even when the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrflag">SYNCMGRFLAG_MAYBOTHERUSER</a> flag is set.
+Registered applications should call this method to provide normal feedback even when the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrflag">SYNCMGRFLAG_MAYBOTHERUSER</a> flag is set.
 
 
 
@@ -143,11 +143,11 @@ Registered applications should call this method to provide normal feedback even 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrflag">SYNCMGRFLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrflag">SYNCMGRFLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrprogressitem">SYNCMGRPROGRESSITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgrprogressitem">SYNCMGRPROGRESSITEM</a>
  
 
  

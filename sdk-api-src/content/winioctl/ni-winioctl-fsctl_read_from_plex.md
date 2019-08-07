@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_READ_FROM_PLEX, FSCTL_READ_FROM_PLEX control, FSCTL_READ_FROM_PLEX control code [Files], _win32_fsctl_read_from_plex, base.fsctl_read_from_plex, fs.fsctl_read_from_plex, winioctl/FSCTL_READ_FROM_PLEX
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_READ_FROM_PLEX"
+f1_keywords:
+- winioctl/FSCTL_READ_FROM_PLEX
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_READ_FROM_PLEX
+- FSCTL_READ_FROM_PLEX
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -208,7 +208,7 @@ No
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_plex_read_data_request">PLEX_READ_DATA_REQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-plex_read_data_request">PLEX_READ_DATA_REQUEST</a>
 
 
 

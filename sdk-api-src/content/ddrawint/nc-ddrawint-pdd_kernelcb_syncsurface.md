@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdSyncSurfaceData, DdSyncSurfaceData callback function [Display Devices], PDD_KERNELCB_SYNCSURFACE, PDD_KERNELCB_SYNCSURFACE callback, ddfncs_ca658342-3cbc-446d-8089-80b1a3e2ef6d.xml, ddrawint/DdSyncSurfaceData, display.ddsyncsurfacedata
 ms.topic: callback
-f1_keywords: 
- - "ddrawint/DdSyncSurfaceData"
+f1_keywords:
+- ddrawint/DdSyncSurfaceData
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DdSyncSurfaceData
+- DdSyncSurfaceData
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The <i>DdSyncSurfaceData</i> callback function sets and modifies surface data be
 
 #### - lpSyncSurface
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_syncsurfacedata">DD_SYNCSURFACEDATA</a> structure that contains the surface data. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_syncsurfacedata">DD_SYNCSURFACEDATA</a> structure that contains the surface data. 
 
 
 ## -returns
@@ -87,7 +87,7 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_syncsurfacedata">DD_SYNCSURFACEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_syncsurfacedata">DD_SYNCSURFACEDATA</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFNominalRange, MFNominalRange enumeration [Media Foundation], MFNominalRange_0_255, MFNominalRange_16_235, MFNominalRange_48_208, MFNominalRange_64_127, MFNominalRange_Normal, MFNominalRange_Unknown, MFNominalRange_Wide, fe7547f8-84cd-461a-8d33-dbc0b90add37, mf.mfnominalrange, mfobjects/MFNominalRange, mfobjects/MFNominalRange_0_255, mfobjects/MFNominalRange_16_235, mfobjects/MFNominalRange_48_208, mfobjects/MFNominalRange_64_127, mfobjects/MFNominalRange_Normal, mfobjects/MFNominalRange_Unknown, mfobjects/MFNominalRange_Wide
 ms.topic: enum
-f1_keywords: 
- - "mfobjects/MFNominalRange"
+f1_keywords:
+- mfobjects/MFNominalRange
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - MFNominalRange
+- MFNominalRange
 product: Windows
 targetos: Windows
 req.typenames: MFNominalRange
@@ -119,7 +119,7 @@ The normalized range [0..1] maps to [64...127] for 8-bit samples or [256...508] 
 This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-video-nominal-range-attribute">MF_MT_VIDEO_NOMINAL_RANGE</a> attribute.
       
 
-For more information about these values, see the remarks for the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_nominalrange">DXVA2_NominalRange</a> enumeration, which is the DirectX Video Acceleration (DXVA) equivalent of this enumeration.
+For more information about these values, see the remarks for the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ne-dxva2api-dxva2_nominalrange">DXVA2_NominalRange</a> enumeration, which is the DirectX Video Acceleration (DXVA) equivalent of this enumeration.
       
 
 

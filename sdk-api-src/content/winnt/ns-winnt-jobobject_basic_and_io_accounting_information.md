@@ -8,10 +8,10 @@ tech.root: ProcThread
 ms.assetid: 5c3e4002-d4d2-4a8c-ab0c-f6bcdd62947a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PJOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION, JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION, JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION structure, PJOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION, PJOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION structure pointer, _JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION, _win32_jobobject_basic_and_io_accounting_information_str, base.jobobject_basic_and_io_accounting_information_str, winnt/JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION, winnt/PJOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION"
+ms.keywords: '*PJOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION, JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION, JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION structure, PJOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION, PJOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION structure pointer, _JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION, _win32_jobobject_basic_and_io_accounting_information_str, base.jobobject_basic_and_io_accounting_information_str, winnt/JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION, winnt/PJOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winnt/JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION"
+f1_keywords:
+- winnt/JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION
+- JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION, *PJOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION
@@ -62,13 +62,13 @@ Contains basic accounting and I/O accounting information for a job object.
 ### -field BasicInfo
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_basic_accounting_information">JOBOBJECT_BASIC_ACCOUNTING_INFORMATION</a> structure that specifies the basic accounting information for the job.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_basic_accounting_information">JOBOBJECT_BASIC_ACCOUNTING_INFORMATION</a> structure that specifies the basic accounting information for the job.
 
 
 ### -field IoInfo
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_io_counters">IO_COUNTERS</a> structure that specifies the I/O accounting information for the job. The structure includes information for all processes that have ever been associated with the job, in addition to the information for all processes currently associated with the job.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-io_counters">IO_COUNTERS</a> structure that specifies the I/O accounting information for the job. The structure includes information for all processes that have ever been associated with the job, in addition to the information for all processes currently associated with the job.
 
 
 ## -see-also
@@ -76,11 +76,11 @@ An
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_io_counters">IO_COUNTERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-io_counters">IO_COUNTERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_basic_accounting_information">JOBOBJECT_BASIC_ACCOUNTING_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_basic_accounting_information">JOBOBJECT_BASIC_ACCOUNTING_INFORMATION</a>
 
 
 

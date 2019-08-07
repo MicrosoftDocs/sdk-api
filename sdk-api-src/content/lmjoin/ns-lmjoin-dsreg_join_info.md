@@ -137,7 +137,7 @@ The identifier of the device.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ns-lmjoin-_dsreg_user_info">DSREG_USER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ns-lmjoin-dsreg_user_info">DSREG_USER_INFO</a>
  
 
  

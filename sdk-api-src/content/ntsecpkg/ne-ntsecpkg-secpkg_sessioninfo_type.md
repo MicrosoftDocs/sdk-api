@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SECPKG_SESSIONINFO_TYPE, SECPKG_SESSIONINFO_TYPE enumeration [Security], SecSessionPrimaryCred, ntsecpkg/SECPKG_SESSIONINFO_TYPE, ntsecpkg/SecSessionPrimaryCred, security.secpkg_sessioninfo_type
 ms.topic: enum
-f1_keywords: 
- - "ntsecpkg/SECPKG_SESSIONINFO_TYPE"
+f1_keywords:
+- ntsecpkg/SECPKG_SESSIONINFO_TYPE
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SECPKG_SESSIONINFO_TYPE
+- SECPKG_SESSIONINFO_TYPE
 product: Windows
 targetos: Windows
 req.typenames: SECPKG_SESSIONINFO_TYPE
@@ -61,5 +61,5 @@ Specifies the format of session information. This enumeration is used by the <a 
 
 ### -field SecSessionPrimaryCred
 
-The session information is contained in a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_primary_cred">SECPKG_PRIMARY_CRED</a> structure.
+The session information is contained in a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_primary_cred">SECPKG_PRIMARY_CRED</a> structure.
 

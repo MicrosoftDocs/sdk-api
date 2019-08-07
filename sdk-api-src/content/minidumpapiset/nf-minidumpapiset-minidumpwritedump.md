@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MiniDumpWriteDump, MiniDumpWriteDump function, _win32_minidumpwritedump, base.minidumpwritedump, minidumpapiset/MiniDumpWriteDump
 ms.topic: function
-f1_keywords: 
- - "minidumpapiset/MiniDumpWriteDump"
+f1_keywords:
+- minidumpapiset/MiniDumpWriteDump
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll; Dbgcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
- - Dbgcore.dll
- - API-MS-Win-Core-Debug-MiniDump-L1-1-0.dll
- - DbgCore.dll
+- Dbghelp.dll
+- Dbgcore.dll
+- API-MS-Win-Core-Debug-MiniDump-L1-1-0.dll
+- DbgCore.dll
 api_name:
- - MiniDumpWriteDump
+- MiniDumpWriteDump
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -88,7 +88,7 @@ A handle to the file in which the information is to be written.
 ### -param DumpType [in]
 
 The type of information to be generated. This parameter can be one or more of the values from the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_type">MINIDUMP_TYPE</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_type">MINIDUMP_TYPE</a> enumeration.
 
 
 ### -param ExceptionParam [in]
@@ -151,7 +151,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-mi
     calling <b>MiniDumpWriteDump</b> and use it as the 
     <i>ExceptionParam</i> parameter. One way to do this is to force  an exception inside a 
     <b>__try</b>/<b>__except</b> block and use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_pointers">EXCEPTION_POINTERS</a> information provided by 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a> information provided by 
     <a href="https://docs.microsoft.com/windows/desktop/Debug/getexceptioninformation">GetExceptionInformation</a>. Alternatively, you 
     can call the function from a new worker thread and filter this worker thread from the dump.
 

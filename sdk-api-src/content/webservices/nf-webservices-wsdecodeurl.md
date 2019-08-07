@@ -64,7 +64,7 @@ Evaluates the components of an URL to determine its "scheme". A <a href="https:/
 
 ### -param url [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_string">WS_STRING</a>  representation of the URL to evaluate.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_string">WS_STRING</a>  representation of the URL to evaluate.
                 
 
 

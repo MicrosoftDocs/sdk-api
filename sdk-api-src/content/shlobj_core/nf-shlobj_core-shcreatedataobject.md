@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateDataObject, SHCreateDataObject function [Windows Shell], _shell_SHCreateDataObject, shell.SHCreateDataObject, shlobj_core/SHCreateDataObject
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHCreateDataObject"
+f1_keywords:
+- shlobj_core/SHCreateDataObject
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - windows.storage.dll
- - API-MS-Win-Shell-Dataobject-L1-1-0.dll
+- Shell32.dll
+- windows.storage.dll
+- API-MS-Win-Shell-Dataobject-L1-1-0.dll
 api_name:
- - SHCreateDataObject
+- SHCreateDataObject
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Creates a data object in a parent folder.
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> (PIDL) of the parent folder that contains the data object.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> (PIDL) of the parent folder that contains the data object.
 
 
 ### -param cidl [in]
@@ -79,7 +79,7 @@ The number of file objects or subfolders specified in the <i>apidl</i> parameter
 
 Type: <b>PCUITEMID_CHILD_ARRAY</b>
 
-An array of pointers to constant <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structures, each of which uniquely identifies a file object or subfolder relative to the parent folder. Each item identifier list must contain exactly one <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure followed by a terminating zero.
+An array of pointers to constant <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures, each of which uniquely identifies a file object or subfolder relative to the parent folder. Each item identifier list must contain exactly one <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure followed by a terminating zero.
 
 
 ### -param pdtInner [in, optional]

@@ -111,7 +111,7 @@ If the key is an asymmetric key, this can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-The PKCS1 padding scheme was used when the signature was created. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_pkcs1_padding_info">BCRYPT_PKCS1_PADDING_INFO</a> structure.
+The PKCS1 padding scheme was used when the signature was created. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_pkcs1_padding_info">BCRYPT_PKCS1_PADDING_INFO</a> structure.
 
 </td>
 </tr>

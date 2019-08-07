@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsXmlStringEquals, WsXmlStringEquals function [Web Services for Windows], webservices/WsXmlStringEquals, wsw.wsxmlstringequals
 ms.topic: function
-f1_keywords: 
- - "webservices/WsXmlStringEquals"
+f1_keywords:
+- webservices/WsXmlStringEquals
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsXmlStringEquals
+- WsXmlStringEquals
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Compares two <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_string">WS_XML_STRING</a> objects for equality.  The operation performs an ordinal comparison
+Compares two <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> objects for equality.  The operation performs an ordinal comparison
         of the character values contained by the String objects.
       
 

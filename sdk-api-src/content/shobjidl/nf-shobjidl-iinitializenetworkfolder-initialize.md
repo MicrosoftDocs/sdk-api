@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInitializeNetworkFolder interface [Windows Shell],Initialize method, IInitializeNetworkFolder.Initialize, IInitializeNetworkFolder::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeNetworkFolder interface, _shell_IInitializeNetworkFolder_Initialize, shell.IInitializeNetworkFolder_Initialize, shobjidl/IInitializeNetworkFolder::Initialize
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IInitializeNetworkFolder.Initialize"
+f1_keywords:
+- shobjidl/IInitializeNetworkFolder.Initialize
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IInitializeNetworkFolder.Initialize
+- IInitializeNetworkFolder.Initialize
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The Shell namespace location for this data source, as an IDList.
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-The target namespace location, as an IDList. This is used when the data source is aliased into the namespace. This parameter specifies the location of the network item that the data source will represent. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder3-initializeex">InitializeEx</a> and in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-_persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a> see the <i>pidlTargetFolder</i>   definition for more information.
+The target namespace location, as an IDList. This is used when the data source is aliased into the namespace. This parameter specifies the location of the network item that the data source will represent. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder3-initializeex">InitializeEx</a> and in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a> see the <i>pidlTargetFolder</i>   definition for more information.
 
 
 
@@ -125,7 +125,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-_persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a>
  
 
  

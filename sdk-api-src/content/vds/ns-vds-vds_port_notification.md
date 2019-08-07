@@ -103,7 +103,7 @@ A controller, and therefore its port, were physically unplugged from the subsyst
 </dl>
 </td>
 <td width="60%">
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_port_prop">VDS_PORT_PROP</a> structure changed.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_port_prop">VDS_PORT_PROP</a> structure changed.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003 R2:  </b>This value is not supported.
 
@@ -135,7 +135,7 @@ The <b>VDS_OBJECT_ID</b> of the controller port that triggered the event.
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_notification">VDS_NOTIFICATION</a> structure includes this 
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a> structure includes this 
     structure as a member.
 
 An application can receive disk events by implementing the 
@@ -169,7 +169,7 @@ To get the port object, use the <a href="https://docs.microsoft.com/windows/desk
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_notification">VDS_NOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a>
  
 
  

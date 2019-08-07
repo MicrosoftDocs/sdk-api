@@ -8,10 +8,10 @@ tech.root: gdi
 ms.assetid: a8736c6c-7944-42ed-811c-308f41f1ab2f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPPOINTFX, LPPOINTFX, LPPOINTFX structure pointer [Windows GDI], POINTFX, POINTFX structure [Windows GDI], _win32_POINTFX_str, gdi.pointfx, wingdi/LPPOINTFX, wingdi/POINTFX"
+ms.keywords: '*LPPOINTFX, LPPOINTFX, LPPOINTFX structure pointer [Windows GDI], POINTFX, POINTFX structure [Windows GDI], _win32_POINTFX_str, gdi.pointfx, wingdi/LPPOINTFX, wingdi/POINTFX'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/POINTFX"
+f1_keywords:
+- wingdi/POINTFX
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - POINTFX
+- POINTFX
 product: Windows
 targetos: Windows
 req.typenames: POINTFX, *LPPOINTFX
@@ -86,7 +86,7 @@ The <b>POINTFX</b> structure is a member of the <a href="https://docs.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_fixed">FIXED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-fixed">FIXED</a>
 
 
 

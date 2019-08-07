@@ -8,10 +8,10 @@ tech.root: taskschd
 ms.assetid: b4716e32-7c7a-40ab-baa1-4c7ebafc3d71
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTASK_TRIGGER, PTASK_TRIGGER, PTASK_TRIGGER structure pointer [Task Scheduler], TASK_TRIGGER, TASK_TRIGGER structure [Task Scheduler], _msb_task_trigger, mstask/PTASK_TRIGGER, mstask/TASK_TRIGGER, taskschd.task_trigger, triggers [Task Scheduler],structures,TASK_TRIGGER"
+ms.keywords: '*PTASK_TRIGGER, PTASK_TRIGGER, PTASK_TRIGGER structure pointer [Task Scheduler], TASK_TRIGGER, TASK_TRIGGER structure [Task Scheduler], _msb_task_trigger, mstask/PTASK_TRIGGER, mstask/TASK_TRIGGER, taskschd.task_trigger, triggers [Task Scheduler],structures,TASK_TRIGGER'
 ms.topic: struct
-f1_keywords: 
- - "mstask/TASK_TRIGGER"
+f1_keywords:
+- mstask/TASK_TRIGGER
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mstask.h
+- Mstask.h
 api_name:
- - TASK_TRIGGER
+- TASK_TRIGGER
 product: Windows
 targetos: Windows
 req.typenames: TASK_TRIGGER, *PTASK_TRIGGER
@@ -159,14 +159,14 @@ Task trigger is inactive.
 ### -field TriggerType
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ne-mstask-_task_trigger_type">TASK_TRIGGER_TYPE</a> enumerated value that specifies the type of trigger. This member is used with <b>Type</b>. The type of trigger specified here determines which fields of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_trigger_type_union">TRIGGER_TYPE_UNION</a> specified in <b>Type</b> member will be used. Trigger type is based on when the trigger will run the task.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ne-mstask-task_trigger_type">TASK_TRIGGER_TYPE</a> enumerated value that specifies the type of trigger. This member is used with <b>Type</b>. The type of trigger specified here determines which fields of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> specified in <b>Type</b> member will be used. Trigger type is based on when the trigger will run the task.
 
 
 ### -field Type
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_trigger_type_union">TRIGGER_TYPE_UNION</a> structure that specifies details about the trigger. Note that the <b>TriggerType</b> member determines which fields of the TRIGGER_TYPE_UNION union will be used.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> structure that specifies details about the trigger. Note that the <b>TriggerType</b> member determines which fields of the TRIGGER_TYPE_UNION union will be used.
 
 
 ### -field Reserved2
@@ -207,11 +207,11 @@ These times may include the start time, end time, duration, and modification fla
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ne-mstask-_task_trigger_type">TASK_TRIGGER_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ne-mstask-task_trigger_type">TASK_TRIGGER_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_trigger_type_union">TRIGGER_TYPE_UNION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a>
 
 
 

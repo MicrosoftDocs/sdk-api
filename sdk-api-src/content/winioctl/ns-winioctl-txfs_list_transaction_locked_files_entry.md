@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 220ccb27-c7a2-4d4e-8efd-5c8f8d1697cd
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY, PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY, PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY structure pointer [Files], TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY, TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY structure [Files], TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY_FLAG_CREATED, TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY_FLAG_DELETED, fs.txfs_list_transaction_locked_files_entry, winioctl/PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY, winioctl/TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY"
+ms.keywords: '*PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY, PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY, PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY structure pointer [Files], TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY, TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY structure [Files], TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY_FLAG_CREATED, TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY_FLAG_DELETED, fs.txfs_list_transaction_locked_files_entry, winioctl/PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY, winioctl/TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY"
+f1_keywords:
+- winioctl/TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY
+- TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY
 product: Windows
 targetos: Windows
 req.typenames: TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY, *PTXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY
@@ -67,7 +67,7 @@ Contains information about a locked transaction.
 ### -field Offset
 
 The offset, in bytes, from the beginning of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_list_transaction_locked_files">TXFS_LIST_TRANSACTION_LOCKED_FILES</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_list_transaction_locked_files">TXFS_LIST_TRANSACTION_LOCKED_FILES</a> 
       structure to the next 
       <b>TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</b>.
 
@@ -122,7 +122,7 @@ The path to the file, relative to the volume root. The file name is a NULL-termi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_list_transaction_locked_files">TXFS_LIST_TRANSACTION_LOCKED_FILES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_list_transaction_locked_files">TXFS_LIST_TRANSACTION_LOCKED_FILES</a>
  
 
  

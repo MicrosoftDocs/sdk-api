@@ -404,7 +404,7 @@ This function can be used to request that a BDC ensure that its copy of the SAM 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_netlogon_info_3">NETLOGON_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-netlogon_info_3">NETLOGON_INFO_3</a>
 
 
 

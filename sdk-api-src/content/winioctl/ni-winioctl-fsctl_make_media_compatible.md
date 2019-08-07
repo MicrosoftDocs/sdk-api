@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_MAKE_MEDIA_COMPATIBLE, FSCTL_MAKE_MEDIA_COMPATIBLE control, FSCTL_MAKE_MEDIA_COMPATIBLE control code [Files], fs.fsctl_make_media_compatible, winioctl/FSCTL_MAKE_MEDIA_COMPATIBLE
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_MAKE_MEDIA_COMPATIBLE"
+f1_keywords:
+- winioctl/FSCTL_MAKE_MEDIA_COMPATIBLE
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_MAKE_MEDIA_COMPATIBLE
+- FSCTL_MAKE_MEDIA_COMPATIBLE
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -222,7 +222,7 @@ No
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_make_compatible_buffer">FILE_MAKE_COMPATIBLE_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_make_compatible_buffer">FILE_MAKE_COMPATIBLE_BUFFER</a>
 
 
 

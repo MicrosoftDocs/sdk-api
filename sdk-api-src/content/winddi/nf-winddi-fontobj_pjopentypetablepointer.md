@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FONTOBJ_pjOpenTypeTablePointer, FONTOBJ_pjOpenTypeTablePointer function [Display Devices], display.fontobj_pjopentypetablepointer, gdifncs_c8a7074e-3a62-426b-a1d2-57b04441f7f8.xml, winddi/FONTOBJ_pjOpenTypeTablePointer
 ms.topic: function
-f1_keywords: 
- - "winddi/FONTOBJ_pjOpenTypeTablePointer"
+f1_keywords:
+- winddi/FONTOBJ_pjOpenTypeTablePointer
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - FONTOBJ_pjOpenTypeTablePointer
+- FONTOBJ_pjOpenTypeTablePointer
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>FONTOBJ_pjOpenTypeTablePointer</b> function returns a pointer to a view o
 
 ### -param pfo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a> that identifies the font whose OpenType table is being queried.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> that identifies the font whose OpenType table is being queried.
 
 
 ### -param ulTag
@@ -103,7 +103,7 @@ The pointer to a table returned by <b>FONTOBJ_pjOpenTypeTablePointer</b> is guar
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
  
 
  

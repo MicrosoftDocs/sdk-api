@@ -174,7 +174,7 @@ The members of the <a href="https://docs.microsoft.com/windows/desktop/api/vdslu
 </ul>
 The members of the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_storage_device_id_descriptor">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a> 
       structure (in the <b>m_deviceIdDescriptor</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> 
-    structure) correspond to the page 83 information. In this structure, each <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a> 
+    structure) correspond to the page 83 information. In this structure, each <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a> 
       structure corresponds to the STORAGE_IDENTIFIER structure for a device identifier (that is, a storage identifier with an association type of zero). For more information about the STORAGE_IDENTIFIER structure, see the Windows Driver Kit (WDK) documentation.
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures returned here 

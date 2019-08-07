@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetQueuedCompletionStatus, GetQueuedCompletionStatus function [Files], _win32_getqueuedcompletionstatus, base.getqueuedcompletionstatus, fs.getqueuedcompletionstatus, ioapiset/GetQueuedCompletionStatus
 ms.topic: function
-f1_keywords: 
- - "ioapiset/GetQueuedCompletionStatus"
+f1_keywords:
+- ioapiset/GetQueuedCompletionStatus
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-io-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-io-l1-1-1.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-io-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-io-l1-1-1.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
 api_name:
- - GetQueuedCompletionStatus
+- GetQueuedCompletionStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -87,14 +87,14 @@ A pointer to a variable that receives the completion key value associated with t
 ### -param lpOverlapped [out]
 
 A pointer to a variable that receives the address of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure that was specified when the completed I/O operation was started. 
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that was specified when the completed I/O operation was started. 
 
 
 
 						
 
 Even if you have passed the function a file handle associated with a completion port and a valid 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure, an application can prevent completion port notification. This is done by specifying a valid event handle for the <b>hEvent</b> member of the <b>OVERLAPPED</b> structure, and setting its low-order bit. A valid event handle whose low-order bit is set keeps I/O completion from being queued to the completion port.
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure, an application can prevent completion port notification. This is done by specifying a valid event handle for the <b>hEvent</b> member of the <b>OVERLAPPED</b> structure, and setting its low-order bit. A valid event handle whose low-order bit is set keeps I/O completion from being queued to the completion port.
 
 
 ### -param dwMilliseconds [in]

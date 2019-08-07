@@ -99,7 +99,7 @@ These states are sometimes referred to as <i>operational states</i>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_interface_1">MPR_INTERFACE_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_1">MPR_INTERFACE_1</a>
 
 
 

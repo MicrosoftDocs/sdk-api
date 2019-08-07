@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVT_RPC_LOGIN_FLAGS, EVT_RPC_LOGIN_FLAGS enumeration [EventLog], EvtRpcLoginAuthDefault, EvtRpcLoginAuthKerberos, EvtRpcLoginAuthNTLM, EvtRpcLoginAuthNegotiate, wes.evt_rpc_login_flags, winevt/EVT_RPC_LOGIN_FLAGS, winevt/EvtRpcLoginAuthDefault, winevt/EvtRpcLoginAuthKerberos, winevt/EvtRpcLoginAuthNTLM, winevt/EvtRpcLoginAuthNegotiate
 ms.topic: enum
-f1_keywords: 
- - "winevt/EVT_RPC_LOGIN_FLAGS"
+f1_keywords:
+- winevt/EVT_RPC_LOGIN_FLAGS
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinEvt.h
+- WinEvt.h
 api_name:
- - EVT_RPC_LOGIN_FLAGS
+- EVT_RPC_LOGIN_FLAGS
 product: Windows
 targetos: Windows
 req.typenames: EVT_RPC_LOGIN_FLAGS
@@ -84,11 +84,11 @@ Use Kerberos authentication during RPC login.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_login_class">EVT_LOGIN_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_login_class">EVT_LOGIN_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ns-winevt-_evt_rpc_login">EVT_RPC_LOGIN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ns-winevt-evt_rpc_login">EVT_RPC_LOGIN</a>
 
 
 

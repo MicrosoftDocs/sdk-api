@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpWebSocketReceive, WinHttpWebSocketReceive function [WinHTTP], http.winhttpwebsocketreceive, winhttp/WinHttpWebSocketReceive
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpWebSocketReceive"
+f1_keywords:
+- winhttp/WinHttpWebSocketReceive
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpWebSocketReceive
+- WinHttpWebSocketReceive
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -89,7 +89,7 @@ Pointer to a <b>DWORD</b> that receives the number of bytes read from the connec
 
 ### -param peBufferType [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-_winhttp_web_socket_buffer_type">WINHTTP_WEB_SOCKET_BUFFER_TYPE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-winhttp_web_socket_buffer_type">WINHTTP_WEB_SOCKET_BUFFER_TYPE</a>*</b>
 
 The type of a returned buffer. This is only set if <b>WinHttpWebSocketReceive</b> returns <b>NO_ERROR</b> and the handle was opened in synchronous mode.
 

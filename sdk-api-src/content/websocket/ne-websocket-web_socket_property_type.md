@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WEB_SOCKET_ALLOCATED_BUFFER_PROPERTY_TYPE, WEB_SOCKET_DISABLE_MASKING_PROPERTY_TYPE, WEB_SOCKET_DISABLE_UTF8_VERIFICATION_PROPERTY_TYPE, WEB_SOCKET_KEEPALIVE_INTERVAL_PROPERTY_TYPE, WEB_SOCKET_PROPERTY_TYPE, WEB_SOCKET_PROPERTY_TYPE enumeration [Websocket Protocol Component API], WEB_SOCKET_RECEIVE_BUFFER_SIZE_PROPERTY_TYPE, WEB_SOCKET_SEND_BUFFER_SIZE_PROPERTY_TYPE, WEB_SOCKET_SUPPORTED_VERSIONS_PROPERTY_TYPE, websock.web_socket_property_type, websocket/WEB_SOCKET_ALLOCATED_BUFFER_PROPERTY_TYPE, websocket/WEB_SOCKET_DISABLE_MASKING_PROPERTY_TYPE, websocket/WEB_SOCKET_DISABLE_UTF8_VERIFICATION_PROPERTY_TYPE, websocket/WEB_SOCKET_KEEPALIVE_INTERVAL_PROPERTY_TYPE, websocket/WEB_SOCKET_PROPERTY_TYPE, websocket/WEB_SOCKET_RECEIVE_BUFFER_SIZE_PROPERTY_TYPE, websocket/WEB_SOCKET_SEND_BUFFER_SIZE_PROPERTY_TYPE, websocket/WEB_SOCKET_SUPPORTED_VERSIONS_PROPERTY_TYPE
 ms.topic: enum
-f1_keywords: 
- - "websocket/WEB_SOCKET_PROPERTY_TYPE"
+f1_keywords:
+- websocket/WEB_SOCKET_PROPERTY_TYPE
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Websocket.h
+- Websocket.h
 api_name:
- - WEB_SOCKET_PROPERTY_TYPE
+- WEB_SOCKET_PROPERTY_TYPE
 product: Windows
 targetos: Windows
 req.typenames: WEB_SOCKET_PROPERTY_TYPE
@@ -137,7 +137,7 @@ Used with <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_property">WEB_SOCKET_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_property">WEB_SOCKET_PROPERTY</a>
 
 
 

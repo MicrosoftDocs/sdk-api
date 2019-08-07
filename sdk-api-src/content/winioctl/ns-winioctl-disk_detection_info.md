@@ -142,7 +142,7 @@ If <b>DetectionType</b> is DetectExInt13, the union is a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_geometry_ex">DISK_GEOMETRY_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_geometry_ex">DISK_GEOMETRY_EX</a>
 
 
 

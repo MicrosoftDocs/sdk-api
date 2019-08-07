@@ -108,7 +108,7 @@ The registry policy settings.
 
 ### -field psPfns
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_functions">CRYPT_PROVIDER_FUNCTIONS</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_functions">CRYPT_PROVIDER_FUNCTIONS</a> structure.
 
 
 ### -field cdwTrustStepErrors
@@ -148,7 +148,7 @@ The number of elements in the <b>pasSigners</b> array.
 
 ### -field pasSigners
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_sgnr">CRYPT_PROVIDER_SGNR</a> structures.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_sgnr">CRYPT_PROVIDER_SGNR</a> structures.
 
 
 ### -field csProvPrivData

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NtQueryInformationProcess, NtQueryInformationProcess function, ProcessBasicInformation, ProcessBreakOnTermination, ProcessDebugPort, ProcessImageFileName, ProcessSubsystemInformation, ProcessWow64Information, base.ntqueryinformationprocess, winternl/NtQueryInformationProcess
 ms.topic: function
-f1_keywords: 
- - "winternl/NtQueryInformationProcess"
+f1_keywords:
+- winternl/NtQueryInformationProcess
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
+- Ntdll.dll
 api_name:
- - NtQueryInformationProcess
+- NtQueryInformationProcess
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -176,7 +176,7 @@ When the <i>ProcessInformationClass</i>  parameter is <b>ProcessBasicInformation
 } PROCESS_BASIC_INFORMATION;</code></pre>
 The <b>UniqueProcessId</b> member points to the system's unique identifier for this process. Use the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessid">GetProcessId</a> function to retrieve this information.
 
-The <b>PebBaseAddress</b> member points to a <a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-_peb">PEB</a> structure.
+The <b>PebBaseAddress</b> member points to a <a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-peb">PEB</a> structure.
 
 The  other members of this structure are reserved for internal use by the operating system.
 

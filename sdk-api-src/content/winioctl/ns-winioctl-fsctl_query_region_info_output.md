@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 4DF96C7E-9BC3-4EB8-95AD-3E46DA1C435F
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFSCTL_QUERY_REGION_INFO_OUTPUT, FSCTL_QUERY_REGION_INFO_OUTPUT, FSCTL_QUERY_REGION_INFO_OUTPUT structure [Files], PFSCTL_QUERY_REGION_INFO_OUTPUT, PFSCTL_QUERY_REGION_INFO_OUTPUT structure pointer [Files], fs.fsctl_query_region_info_output, winioctl/FSCTL_QUERY_REGION_INFO_OUTPUT, winioctl/PFSCTL_QUERY_REGION_INFO_OUTPUT"
+ms.keywords: '*PFSCTL_QUERY_REGION_INFO_OUTPUT, FSCTL_QUERY_REGION_INFO_OUTPUT, FSCTL_QUERY_REGION_INFO_OUTPUT structure [Files], PFSCTL_QUERY_REGION_INFO_OUTPUT, PFSCTL_QUERY_REGION_INFO_OUTPUT structure pointer [Files], fs.fsctl_query_region_info_output, winioctl/FSCTL_QUERY_REGION_INFO_OUTPUT, winioctl/PFSCTL_QUERY_REGION_INFO_OUTPUT'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/FSCTL_QUERY_REGION_INFO_OUTPUT"
+f1_keywords:
+- winioctl/FSCTL_QUERY_REGION_INFO_OUTPUT
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoctl.h
+- WinIoctl.h
 api_name:
- - FSCTL_QUERY_REGION_INFO_OUTPUT
+- FSCTL_QUERY_REGION_INFO_OUTPUT
 product: Windows
 targetos: Windows
 req.typenames: FSCTL_QUERY_REGION_INFO_OUTPUT, *PFSCTL_QUERY_REGION_INFO_OUTPUT
@@ -96,5 +96,5 @@ Number of regions that fit in the output.
 ### -field Regions
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_storage_tier_region">FILE_STORAGE_TIER_REGION</a> struct that contains detailed information for each region.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_storage_tier_region">FILE_STORAGE_TIER_REGION</a> struct that contains detailed information for each region.
 

@@ -66,7 +66,7 @@ Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/n
 
 ### -field lpDDSurface
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure representing the surface or buffer object to be destroyed. 
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure representing the surface or buffer object to be destroyed. 
 
 
 ### -field ddRVal

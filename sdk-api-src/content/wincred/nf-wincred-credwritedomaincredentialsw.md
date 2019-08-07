@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRED_PRESERVE_CREDENTIAL_BLOB, CredWriteDomainCredentials, CredWriteDomainCredentials function [Security], CredWriteDomainCredentialsA, CredWriteDomainCredentialsW, _cred_credwritedomaincredentials, security.credwritedomaincredentials, wincred/CredWriteDomainCredentials, wincred/CredWriteDomainCredentialsA, wincred/CredWriteDomainCredentialsW
 ms.topic: function
-f1_keywords: 
- - "wincred/CredWriteDomainCredentials"
+f1_keywords:
+- wincred/CredWriteDomainCredentials
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -30,20 +30,20 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
- - sechost.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - API-MS-Win-Security-credentials-l1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+- sechost.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- API-MS-Win-Security-credentials-l1-1-0.dll
 api_name:
- - CredWriteDomainCredentials
- - CredWriteDomainCredentialsA
- - CredWriteDomainCredentialsW
+- CredWriteDomainCredentials
+- CredWriteDomainCredentialsA
+- CredWriteDomainCredentialsW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -221,7 +221,7 @@ When this function writes a CRED_TYPE_CERTIFICATE credential, the <i>Credential<
 
 <b>CredWriteDomainCredentials</b> differs from <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credwritea">CredWrite</a> in that it handles the idiosyncrasies of domain (CRED_TYPE_DOMAIN_PASSWORD or CRED_TYPE_DOMAIN_CERTIFICATE) credentials. Domain credentials contain more than one target member.
 
-If the value of the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credentiala">CREDENTIAL</a> structure specified by the <i>Credential</i>  parameter is <b>CRED_TYPE_DOMAIN_EXTENDED</b>, a namespace must be specified in the target name.
+If the value of the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure specified by the <i>Credential</i>  parameter is <b>CRED_TYPE_DOMAIN_EXTENDED</b>, a namespace must be specified in the target name.
 
 
 

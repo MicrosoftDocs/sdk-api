@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: a57d23cd-1e91-401a-b242-6549b1457594
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_BYTE_RANGE, HTTP_BYTE_RANGE, HTTP_BYTE_RANGE structure [HTTP], PHTTP_BYTE_RANGE, PHTTP_BYTE_RANGE structure pointer [HTTP], _http_http_byte_range, http.http_byte_range, http/HTTP_BYTE_RANGE, http/PHTTP_BYTE_RANGE"
+ms.keywords: '*PHTTP_BYTE_RANGE, HTTP_BYTE_RANGE, HTTP_BYTE_RANGE structure [HTTP], PHTTP_BYTE_RANGE, PHTTP_BYTE_RANGE structure pointer [HTTP], _http_http_byte_range, http.http_byte_range, http/HTTP_BYTE_RANGE, http/PHTTP_BYTE_RANGE'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_BYTE_RANGE"
+f1_keywords:
+- http/HTTP_BYTE_RANGE
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_BYTE_RANGE
+- HTTP_BYTE_RANGE
 product: Windows
 targetos: Windows
 req.typenames: HTTP_BYTE_RANGE, *PHTTP_BYTE_RANGE
@@ -75,7 +75,7 @@ Size, in bytes, of the range. If this member is HTTP_BYTE_RANGE_TO_EOF, the rang
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_data_chunk">HTTP_DATA_CHUNK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_data_chunk">HTTP_DATA_CHUNK</a>
 
 
 

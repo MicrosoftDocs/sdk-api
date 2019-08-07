@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAllMetadata, GetAllMetadata method, GetAllMetadata method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetAllMetadata method, IWSDDeviceProxy.GetAllMetadata, IWSDDeviceProxy::GetAllMetadata, ncd.iwsddeviceproxy_getallmetadata_method, wsdclient/IWSDDeviceProxy::GetAllMetadata
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDDeviceProxy.GetAllMetadata"
+f1_keywords:
+- wsdclient/IWSDDeviceProxy.GetAllMetadata
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDDeviceProxy.GetAllMetadata
+- IWSDDeviceProxy.GetAllMetadata
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Retrieves all metadata for this device.
 
 ### -param ppMetadata [out]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_metadata_section_list">WSD_METADATA_SECTION_LIST</a> structure that specifies all metadata related to a device. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_metadata_section_list">WSD_METADATA_SECTION_LIST</a> structure that specifies all metadata related to a device. 
 Do not release this object.
 
 

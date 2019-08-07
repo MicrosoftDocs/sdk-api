@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPage, GetPage method [Task Scheduler], GetPage method [Task Scheduler],IProvideTaskPage interface, IProvideTaskPage interface [Task Scheduler],GetPage method, IProvideTaskPage.GetPage, IProvideTaskPage::GetPage, _msb_iprovidetaskpage_getpage, mstask/IProvideTaskPage::GetPage, taskschd.iprovidetaskpage_getpage
 ms.topic: method
-f1_keywords: 
- - "mstask/IProvideTaskPage.GetPage"
+f1_keywords:
+- mstask/IProvideTaskPage.GetPage
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IProvideTaskPage.GetPage
+- IProvideTaskPage.GetPage
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ This method retrieves one or more property sheet pages associated with a task ob
 ### -param tpType [in]
 
 One of the following 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ne-mstask-_taskpage">TASKPAGE</a> enumeration values that specify the page to return. 
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ne-mstask-taskpage">TASKPAGE</a> enumeration values that specify the page to return. 
 
 
 
@@ -136,7 +136,7 @@ For a complete example of retrieving and displaying the general task page of a k
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ne-mstask-_taskpage">TASKPAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ne-mstask-taskpage">TASKPAGE</a>
  
 
  

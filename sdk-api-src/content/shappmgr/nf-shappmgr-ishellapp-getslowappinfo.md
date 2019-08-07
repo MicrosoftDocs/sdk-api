@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSlowAppInfo, GetSlowAppInfo method [Windows Shell], GetSlowAppInfo method [Windows Shell],IShellApp interface, IShellApp interface [Windows Shell],GetSlowAppInfo method, IShellApp.GetSlowAppInfo, IShellApp::GetSlowAppInfo, inet_IShellApp_GetSlowAppInfo, shappmgr/IShellApp::GetSlowAppInfo, shell.IShellApp_GetSlowAppInfo
 ms.topic: method
-f1_keywords: 
- - "shappmgr/IShellApp.GetSlowAppInfo"
+f1_keywords:
+- shappmgr/IShellApp.GetSlowAppInfo
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellApp.GetSlowAppInfo
+- IShellApp.GetSlowAppInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Returns information to the application that originates from a slow source. This 
 
 Type: <b>PSLOWAPPINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-_tagslowappinfo">SLOWAPPINFO</a> structure in which to return application information.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-slowappinfo">SLOWAPPINFO</a> structure in which to return application information.
 
 
 ## -returns

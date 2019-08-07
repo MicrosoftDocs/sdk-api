@@ -101,13 +101,13 @@ Export a DSA public key. The <i>pbOutput</i> buffer receives a <a href="https://
 
 #### BCRYPT_ECCPRIVATE_BLOB
 
-Export an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">elliptic curve cryptography</a> (ECC) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>. The <i>pbOutput</i> buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_ecckey_blob">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data.
+Export an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">elliptic curve cryptography</a> (ECC) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>. The <i>pbOutput</i> buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_ecckey_blob">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data.
 
 
 
 #### BCRYPT_ECCPUBLIC_BLOB
 
-Export an ECC public key. The <i>pbOutput</i> buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_ecckey_blob">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data.
+Export an ECC public key. The <i>pbOutput</i> buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_ecckey_blob">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data.
 
 
 

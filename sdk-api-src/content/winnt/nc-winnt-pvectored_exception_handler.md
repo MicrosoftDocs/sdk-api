@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PVECTORED_EXCEPTION_HANDLER, VectoredHandler, VectoredHandler callback, VectoredHandler callback function, _win32_vectoredhandler, base.vectoredhandler, winnt/VectoredHandler
 ms.topic: callback
-f1_keywords: 
- - "winnt/VectoredHandler"
+f1_keywords:
+- winnt/VectoredHandler
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - VectoredHandler
+- VectoredHandler
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ An application-defined function that serves as a vectored exception handler. Spe
 ### -param *ExceptionInfo [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_pointers">EXCEPTION_POINTERS</a> structure that receives the exception record.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a> structure that receives the exception record.
 
 
 ## -returns
@@ -90,7 +90,7 @@ The handler should not call functions that acquire synchronization objects or al
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_pointers">EXCEPTION_POINTERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a>
 
 
 

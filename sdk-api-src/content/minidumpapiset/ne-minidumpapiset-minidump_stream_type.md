@@ -156,7 +156,7 @@ The stream contains miscellaneous information. For more information, see
 
 ### -field MemoryInfoListStream
 
-The stream contains memory region description information. It corresponds to the information that would be returned for the process from the <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info_list">VirtualQuery</a> function. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory_info_list">MINIDUMP_MEMORY_INFO_LIST</a>.
+The stream contains memory region description information. It corresponds to the information that would be returned for the process from the <a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info_list">VirtualQuery</a> function. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info_list">MINIDUMP_MEMORY_INFO_LIST</a>.
 
 <b>DbgHelp 6.1 and earlier:  </b>This value is not supported.
 

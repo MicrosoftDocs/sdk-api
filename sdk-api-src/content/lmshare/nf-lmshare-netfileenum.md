@@ -114,7 +114,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
  Return information about the file. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_file_info_3">FILE_INFO_3</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-file_info_3">FILE_INFO_3</a> structures.
 
 </td>
 </tr>
@@ -256,7 +256,7 @@ If you are programming for Active Directory, you may be able to call certain Act
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_file_info_3">FILE_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-file_info_3">FILE_INFO_3</a>
 
 
 

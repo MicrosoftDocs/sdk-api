@@ -61,7 +61,7 @@ The <b>DrvNextBand</b> function is called by GDI when it has finished drawing a 
 
 ### -param pso [in]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure, which identifies the banding surface.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure, which identifies the banding surface.
 
 
 ### -param pptl [in]

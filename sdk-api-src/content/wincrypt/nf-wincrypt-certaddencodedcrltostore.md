@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddEncodedCRLToStore, CertAddEncodedCRLToStore function [Security], _crypto2_certaddencodedcrltostore, security.certaddencodedcrltostore, wincrypt/CertAddEncodedCRLToStore
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertAddEncodedCRLToStore"
+f1_keywords:
+- wincrypt/CertAddEncodedCRLToStore
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertAddEncodedCRLToStore
+- CertAddEncodedCRLToStore
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -182,7 +182,7 @@ If a matching CRL or a link to a matching CRL does not exist, a new CRL is added
 ### -param ppCrlContext [out, optional]
 
 A pointer to a pointer to the decoded 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a> structure. This is an optional parameter that can be <b>NULL</b>, indicating that the calling application does not require a copy of the new or existing CRL. If a copy is made, that context must be freed using 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure. This is an optional parameter that can be <b>NULL</b>, indicating that the calling application does not require a copy of the new or existing CRL. If a copy is made, that context must be freed using 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>.
 
 

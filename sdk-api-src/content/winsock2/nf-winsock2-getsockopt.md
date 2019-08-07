@@ -419,7 +419,7 @@ The following table of value for the <i>optname</i> parameter are valid when the
 <tr>
 <td>IPX_ADDRESS</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-_ipx_address_data">IPX_ADDRESS_DATA</a> structure</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_address_data">IPX_ADDRESS_DATA</a> structure</td>
 <td>Obtains information about a specific adapter to which IPX is bound. Adapter numbering is base zero. The <b>adapternum</b> member is filled in upon return.</td>
 </tr>
 <tr>
@@ -437,13 +437,13 @@ The following table of value for the <i>optname</i> parameter are valid when the
 <tr>
 <td>IPX_SPXGETCONNECTIONSTATUS</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-_ipx_spxconnstatus_data">IPX_SPXCONNSTATUS_DATA</a> structure</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_spxconnstatus_data">IPX_SPXCONNSTATUS_DATA</a> structure</td>
 <td>Retrieves information about a connected SPX socket.</td>
 </tr>
 <tr>
 <td>IPX_ADDRESS_NOTIFY</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-_ipx_address_data">IPX_ADDRESS_DATA</a> structure</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_address_data">IPX_ADDRESS_DATA</a> structure</td>
 <td>Retrieves status notification when changes occur on an adapter to which IPX is bound.</td>
 </tr>
 <tr>

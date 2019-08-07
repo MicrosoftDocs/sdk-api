@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OLECMDF, OLECMDF enumeration [COM], OLECMDF_DEFHIDEONCTXTMENU, OLECMDF_ENABLED, OLECMDF_INVISIBLE, OLECMDF_LATCHED, OLECMDF_NINCHED, OLECMDF_SUPPORTED, _ole_OLECMDF, com.olecmdf, docobj/OLECMDF, docobj/OLECMDF_DEFHIDEONCTXTMENU, docobj/OLECMDF_ENABLED, docobj/OLECMDF_INVISIBLE, docobj/OLECMDF_LATCHED, docobj/OLECMDF_NINCHED, docobj/OLECMDF_SUPPORTED
 ms.topic: enum
-f1_keywords: 
- - "docobj/OLECMDF"
+f1_keywords:
+- docobj/OLECMDF
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - OLECMDF
+- OLECMDF
 product: Windows
 targetos: Windows
 req.typenames: OLECMDF
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the type of support provided by an object for the command specified in an <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-_tagolecmd">OLECMD</a> structure.
+Specifies the type of support provided by an object for the command specified in an <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-olecmd">OLECMD</a> structure.
 
 
 ## -enum-fields
@@ -94,7 +94,7 @@ The command is hidden on the context menu.
 
 
 
-Values from the <b>OLECMDF</b> enumeration are used to fill the value of the <b>cmdf</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-_tagolecmd">OLECMD</a> structures passed to <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>.
+Values from the <b>OLECMDF</b> enumeration are used to fill the value of the <b>cmdf</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-olecmd">OLECMD</a> structures passed to <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>.
 
 
 
@@ -108,7 +108,7 @@ Values from the <b>OLECMDF</b> enumeration are used to fill the value of the <b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-_tagolecmd">OLECMD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-olecmd">OLECMD</a>
  
 
  

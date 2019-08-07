@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptImportPublicKeyInfoEx, CryptImportPublicKeyInfoEx function [Security], _crypto2_cryptimportpublickeyinfoex, security.cryptimportpublickeyinfoex, wincrypt/CryptImportPublicKeyInfoEx
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptImportPublicKeyInfoEx"
+f1_keywords:
+- wincrypt/CryptImportPublicKeyInfoEx
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptImportPublicKeyInfoEx
+- CryptImportPublicKeyInfoEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptImportPublicKeyInfoEx</b> function imports public key information into the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) and returns a handle of the public key. Additional parameters to override defaults are provided to supplement those in 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>.
 
 
 ## -parameters
@@ -82,7 +82,7 @@ Currently defined encoding types are:
 ### -param pInfo [in]
 
 the address of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key to import into the provider.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key to import into the provider.
 
 <div class="alert"><b>Note</b>  The <b>pzObjId</b> member of the <b>Algorithm</b> member pointed to by the <i>pInfo</i>  and <i>dwCertEncodingType</i> parameters determine an installable <b>CRYPT_OID_IMPORT_PUBLIC_KEY_INFO_FUNC</b> callback function. If an installable function is not found, an attempt is made to import the key as an RSA Public Key (szOID_RSA_RSA).</div>
 <div> </div>
@@ -149,7 +149,7 @@ If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/e
 
 
 
-This function is normally used to retrieve the public key from a certificate. This is done by passing the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure from a filled-in certificate structure as shown in the following pseudocode.
+This function is normally used to retrieve the public key from a certificate. This is done by passing the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure from a filled-in certificate structure as shown in the following pseudocode.
 
 <pre class="syntax" xml:space="preserve"><code>PCCERT_CONTEXT pCertContext
 

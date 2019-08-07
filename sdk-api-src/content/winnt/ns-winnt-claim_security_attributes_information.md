@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: D7D9816E-1ECE-48CA-9F2F-0955572A0FCA
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCLAIM_SECURITY_ATTRIBUTES_INFORMATION, CLAIM_SECURITY_ATTRIBUTES_INFORMATION, CLAIM_SECURITY_ATTRIBUTES_INFORMATION structure [Security], PCLAIM_SECURITY_ATTRIBUTES_INFORMATION, PCLAIM_SECURITY_ATTRIBUTES_INFORMATION structure pointer [Security], _CLAIM_SECURITY_ATTRIBUTES_INFORMATION, security.claim_security_attributes_information, winnt/CLAIM_SECURITY_ATTRIBUTES_INFORMATION, winnt/PCLAIM_SECURITY_ATTRIBUTES_INFORMATION"
+ms.keywords: '*PCLAIM_SECURITY_ATTRIBUTES_INFORMATION, CLAIM_SECURITY_ATTRIBUTES_INFORMATION, CLAIM_SECURITY_ATTRIBUTES_INFORMATION structure [Security], PCLAIM_SECURITY_ATTRIBUTES_INFORMATION, PCLAIM_SECURITY_ATTRIBUTES_INFORMATION structure pointer [Security], _CLAIM_SECURITY_ATTRIBUTES_INFORMATION, security.claim_security_attributes_information, winnt/CLAIM_SECURITY_ATTRIBUTES_INFORMATION, winnt/PCLAIM_SECURITY_ATTRIBUTES_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winnt/CLAIM_SECURITY_ATTRIBUTES_INFORMATION"
+f1_keywords:
+- winnt/CLAIM_SECURITY_ATTRIBUTES_INFORMATION
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - CLAIM_SECURITY_ATTRIBUTES_INFORMATION
+- CLAIM_SECURITY_ATTRIBUTES_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: CLAIM_SECURITY_ATTRIBUTES_INFORMATION, *PCLAIM_SECURITY_ATTRIBUTES_INFORMATION
@@ -81,5 +81,5 @@ The actual attribute.
 
 ### -field Attribute.pAttributeV1
 
-Pointer to an array that contains the <b>AttributeCount</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_claim_security_attribute_v1">CLAIM_SECURITY_ATTRIBUTE_V1</a> structure.
+Pointer to an array that contains the <b>AttributeCount</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-claim_security_attribute_v1">CLAIM_SECURITY_ATTRIBUTE_V1</a> structure.
 

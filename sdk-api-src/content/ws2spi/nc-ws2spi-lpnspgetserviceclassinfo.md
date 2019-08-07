@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPNSPGETSERVICECLASSINFO, NSPGetServiceClassInfo, NSPGetServiceClassInfo function [Winsock], _win32_nspgetserviceclassinfo_2, winsock.nspgetserviceclassinfo_2, ws2spi/NSPGetServiceClassInfo
 ms.topic: callback
-f1_keywords: 
- - "ws2spi/NSPGetServiceClassInfo"
+f1_keywords:
+- ws2spi/NSPGetServiceClassInfo
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ws2spi.h
+- Ws2spi.h
 api_name:
- - NSPGetServiceClassInfo
+- NSPGetServiceClassInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ On output, if the function fails and the error is
 
 ### -param lpServiceClassInfo [in, out]
 
-Returns a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaserviceclassinfow">WSASERVICECLASSINFOW</a> structure that contains the service class to namespace-specific mapping information. The <i>lpServiceClassId</i> parameter must be filled to indicate which <b>WSASERVICECLASSINFOW</b> record should be returned.
+Returns a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaserviceclassinfow">WSASERVICECLASSINFOW</a> structure that contains the service class to namespace-specific mapping information. The <i>lpServiceClassId</i> parameter must be filled to indicate which <b>WSASERVICECLASSINFOW</b> record should be returned.
 
 
 ## -returns
@@ -121,7 +121,7 @@ The calling routine does not have sufficient privileges to access the informatio
 </dl>
 </td>
 <td width="60%">
-The  buffer pointed to by the <i>lpServiceClass</i> parameter was too small to contain a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaserviceclassinfow">WSASERVICECLASSINFOW</a> structure. The application needs to pass in a larger buffer.
+The  buffer pointed to by the <i>lpServiceClass</i> parameter was too small to contain a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaserviceclassinfow">WSASERVICECLASSINFOW</a> structure. The application needs to pass in a larger buffer.
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ The W2_32.dll uses this function to implement the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaserviceclassinfow">WSASERVICECLASSINFOW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaserviceclassinfow">WSASERVICECLASSINFOW</a>
 
 
 

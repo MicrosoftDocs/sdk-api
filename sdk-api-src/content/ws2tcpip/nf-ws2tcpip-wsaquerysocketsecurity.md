@@ -96,7 +96,7 @@ On input, a pointer to the size, in bytes, of the <i>SecurityQueryInfo</i> param
 
 ### -param Overlapped [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure.  This parameter is ignored for non-overlapped sockets.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.  This parameter is ignored for non-overlapped sockets.
 
 
 ### -param CompletionRoutine [in, optional]

@@ -179,7 +179,7 @@ The buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/wi
 
 ### -field TokenLinkedToken
 
-The buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_linked_token">TOKEN_LINKED_TOKEN</a> structure that contains a handle to another token that is linked to this token.
+The buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_linked_token">TOKEN_LINKED_TOKEN</a> structure that contains a handle to another token that is linked to this token.
 
 
 ### -field TokenElevation
@@ -194,7 +194,7 @@ The buffer receives a <b>DWORD</b> value that is nonzero if the token has ever b
 
 ### -field TokenAccessInformation
 
-The buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_access_information">TOKEN_ACCESS_INFORMATION</a> structure that specifies  security information contained in the token.
+The buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_access_information">TOKEN_ACCESS_INFORMATION</a> structure that specifies  security information contained in the token.
 
 
 ### -field TokenVirtualizationAllowed

@@ -198,7 +198,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpn
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaqueryset2w">WSAQUERYSET2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaqueryset2w">WSAQUERYSET2</a>
 
 
 

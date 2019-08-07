@@ -97,7 +97,7 @@ The record is a <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/n
 </dl>
 </td>
 <td width="60%">
-The record is a <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_log_record_truncate">TXF_LOG_RECORD_TRUNCATE</a> structure.
+The record is a <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_truncate">TXF_LOG_RECORD_TRUNCATE</a> structure.
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ The length of this record, in bytes.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_log_record_truncate">TXF_LOG_RECORD_TRUNCATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_truncate">TXF_LOG_RECORD_TRUNCATE</a>
 
 
 

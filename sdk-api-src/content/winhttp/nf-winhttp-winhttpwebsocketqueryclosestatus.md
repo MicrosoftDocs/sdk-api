@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpWebSocketQueryCloseStatus, WinHttpWebSocketQueryCloseStatus function [WinHTTP], http.winhttpwebsocketqueryclosestatus, winhttp/WinHttpWebSocketQueryCloseStatus
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpWebSocketQueryCloseStatus"
+f1_keywords:
+- winhttp/WinHttpWebSocketQueryCloseStatus
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpWebSocketQueryCloseStatus
+- WinHttpWebSocketQueryCloseStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ Handle to a WebSocket
 
 Type: <b>USHORT*</b>
 
-A pointer to a close status code that will be filled upon return. See <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-_winhttp_web_socket_close_status">WINHTTP_WEB_SOCKET_CLOSE_STATUS</a> for possible values.
+A pointer to a close status code that will be filled upon return. See <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-winhttp_web_socket_close_status">WINHTTP_WEB_SOCKET_CLOSE_STATUS</a> for possible values.
 
 
 ### -param pvReason [out]
@@ -162,7 +162,7 @@ Call <b>WinHttpWebSocketQueryCloseStatus</b> only after <a href="https://docs.mi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-_winhttp_web_socket_close_status">WINHTTP_WEB_SOCKET_CLOSE_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-winhttp_web_socket_close_status">WINHTTP_WEB_SOCKET_CLOSE_STATUS</a>
 
 
 

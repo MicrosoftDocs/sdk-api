@@ -102,7 +102,7 @@ Pointer to a driver-defined value  that was returned by a previous call to <b>Dr
 
 ### -param prcl
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that defines the portion of the screen to be saved or restored.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that defines the portion of the screen to be saved or restored.
 
 
 ## -returns

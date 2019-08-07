@@ -77,7 +77,7 @@ The file must reside on the local computer; otherwise, the function fails and th
 ### -param InfoLevel [in]
 
 The information level of the returned data. This parameter is one of the values in the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ne-fileapi-_stream_info_levels">STREAM_INFO_LEVELS</a> enumeration type.
+      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ne-fileapi-stream_info_levels">STREAM_INFO_LEVELS</a> enumeration type.
 
 <table>
 <tr>
@@ -228,7 +228,7 @@ SMB 3.0 does not support TxF.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ne-fileapi-_stream_info_levels">STREAM_INFO_LEVELS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ne-fileapi-stream_info_levels">STREAM_INFO_LEVELS</a>
 
 
 

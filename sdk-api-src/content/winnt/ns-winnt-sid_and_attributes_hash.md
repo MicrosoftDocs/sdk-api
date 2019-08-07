@@ -83,7 +83,7 @@ The <b>SID_HASH_SIZE</b> array dimension is defined in Winnt.h as 32.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_access_information">TOKEN_ACCESS_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_access_information">TOKEN_ACCESS_INFORMATION</a>
 
 
 

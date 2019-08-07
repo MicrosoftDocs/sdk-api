@@ -8,10 +8,10 @@ tech.root: power
 ms.assetid: 70739f46-54be-4748-8993-ffee3b2a8b6c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPOWER_ACTION_POLICY, POWER_ACTION_CRITICAL, POWER_ACTION_DISABLE_WAKES, POWER_ACTION_LIGHTEST_FIRST, POWER_ACTION_LOCK_CONSOLE, POWER_ACTION_OVERRIDE_APPS, POWER_ACTION_POLICY, POWER_ACTION_POLICY structure, POWER_ACTION_QUERY_ALLOWED, POWER_ACTION_UI_ALLOWED, POWER_FORCE_TRIGGER_RESET, POWER_LEVEL_USER_NOTIFY_EXEC, POWER_LEVEL_USER_NOTIFY_SOUND, POWER_LEVEL_USER_NOTIFY_TEXT, POWER_USER_NOTIFY_BUTTON, POWER_USER_NOTIFY_SHUTDOWN, PPOWER_ACTION_POLICY, PPOWER_ACTION_POLICY structure pointer, _win32_power_action_policy_str, base.power_action_policy_str, winnt/POWER_ACTION_POLICY, winnt/PPOWER_ACTION_POLICY"
+ms.keywords: '*PPOWER_ACTION_POLICY, POWER_ACTION_CRITICAL, POWER_ACTION_DISABLE_WAKES, POWER_ACTION_LIGHTEST_FIRST, POWER_ACTION_LOCK_CONSOLE, POWER_ACTION_OVERRIDE_APPS, POWER_ACTION_POLICY, POWER_ACTION_POLICY structure, POWER_ACTION_QUERY_ALLOWED, POWER_ACTION_UI_ALLOWED, POWER_FORCE_TRIGGER_RESET, POWER_LEVEL_USER_NOTIFY_EXEC, POWER_LEVEL_USER_NOTIFY_SOUND, POWER_LEVEL_USER_NOTIFY_TEXT, POWER_USER_NOTIFY_BUTTON, POWER_USER_NOTIFY_SHUTDOWN, PPOWER_ACTION_POLICY, PPOWER_ACTION_POLICY structure pointer, _win32_power_action_policy_str, base.power_action_policy_str, winnt/POWER_ACTION_POLICY, winnt/PPOWER_ACTION_POLICY'
 ms.topic: struct
-f1_keywords: 
- - "winnt/POWER_ACTION_POLICY"
+f1_keywords:
+- winnt/POWER_ACTION_POLICY
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - POWER_ACTION_POLICY
+- POWER_ACTION_POLICY
 product: Windows
 targetos: Windows
 req.typenames: POWER_ACTION_POLICY, *PPOWER_ACTION_POLICY
@@ -246,15 +246,15 @@ Indicates a power action of shutdown/off.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_global_user_power_policy">GLOBAL_USER_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_user_power_policy">GLOBAL_USER_POWER_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_machine_power_policy">MACHINE_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-machine_power_policy">MACHINE_POWER_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_user_power_policy">USER_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-user_power_policy">USER_POWER_POLICY</a>
 
 
 

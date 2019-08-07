@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSyncItemEnumerator, GetSyncItemEnumerator method [Windows Shell], GetSyncItemEnumerator method [Windows Shell],ISyncMgrSyncItemContainer interface, ISyncMgrSyncItemContainer interface [Windows Shell],GetSyncItemEnumerator method, ISyncMgrSyncItemContainer.GetSyncItemEnumerator, ISyncMgrSyncItemContainer::GetSyncItemEnumerator, _shell_ISyncMgrSyncItemContainer_GetSyncItemEnumerator, shell.ISyncMgrSyncItemContainer_GetSyncItemEnumerator, syncmgr/ISyncMgrSyncItemContainer::GetSyncItemEnumerator
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrSyncItemContainer.GetSyncItemEnumerator"
+f1_keywords:
+- syncmgr/ISyncMgrSyncItemContainer.GetSyncItemEnumerator
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSyncItemContainer.GetSyncItemEnumerator
+- ISyncMgrSyncItemContainer.GetSyncItemEnumerator
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method replaces the older <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-enumsyncmgritems">EnumSyncMgrItems</a> method. The older method returned an enumerator interface which returned a <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgritem">SYNCMGRITEM</a> structure for each sync item. To get the data previously provided by that structure, Sync Center calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on each item's <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsyncitem">ISyncMgrSyncItem</a> interface to request a corresponding <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsynciteminfo">ISyncMgrSyncItemInfo</a> interface.
+This method replaces the older <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-enumsyncmgritems">EnumSyncMgrItems</a> method. The older method returned an enumerator interface which returned a <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgritem">SYNCMGRITEM</a> structure for each sync item. To get the data previously provided by that structure, Sync Center calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on each item's <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsyncitem">ISyncMgrSyncItem</a> interface to request a corresponding <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsynciteminfo">ISyncMgrSyncItemInfo</a> interface.
 
 The number of enumerated items can be obtained through the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitemcontainer-getsyncitemcount">ISyncMgrSyncItemContainer::GetSyncItemCount</a> method.
 

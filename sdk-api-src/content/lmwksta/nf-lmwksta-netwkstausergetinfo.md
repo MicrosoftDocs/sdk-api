@@ -83,7 +83,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return the name of the user currently logged on to the workstation. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_user_info_0">WKSTA_USER_INFO_0</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_user_info_0">WKSTA_USER_INFO_0</a> structure.
 
 </td>
 </tr>
@@ -263,7 +263,7 @@ int wmain(void)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_user_info_0">WKSTA_USER_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_user_info_0">WKSTA_USER_INFO_0</a>
 
 
 

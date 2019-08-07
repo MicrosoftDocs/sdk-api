@@ -61,12 +61,12 @@ The VSS service calls this method to notify hardware providers of a LUN state ch
 
 ### -param pSnapshotLuns [in]
 
-A pointer to an array of <i>dwCount</i> <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structures,  one for each LUN that contributes to the shadow copy volume.
+A pointer to an array of <i>dwCount</i> <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures,  one for each LUN that contributes to the shadow copy volume.
 
 
 ### -param pOriginalLuns [in]
 
-A pointer to an array of <i>dwCount</i> <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structures,  one for each LUN that contributes to the original volume.
+A pointer to an array of <i>dwCount</i> <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures,  one for each LUN that contributes to the original volume.
 
 
 ### -param dwCount [in]

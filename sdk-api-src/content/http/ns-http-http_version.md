@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 8f97410c-27b5-4225-849e-ee55e4c5f762
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_VERSION, HTTP_VERSION, HTTP_VERSION structure [HTTP], PHTTP_VERSION, PHTTP_VERSION structure pointer [HTTP], _http_http_version, http.http_version, http/HTTP_VERSION, http/PHTTP_VERSION"
+ms.keywords: '*PHTTP_VERSION, HTTP_VERSION, HTTP_VERSION structure [HTTP], PHTTP_VERSION, PHTTP_VERSION structure pointer [HTTP], _http_http_version, http.http_version, http/HTTP_VERSION, http/PHTTP_VERSION'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_VERSION"
+f1_keywords:
+- http/HTTP_VERSION
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_VERSION
+- HTTP_VERSION
 product: Windows
 targetos: Windows
 req.typenames: HTTP_VERSION, *PHTTP_VERSION
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>HTTP_VERSION</b> structure defines a version of the HTTP protocol that a request requires or a response provides. This is not to be confused with the version of the HTTP Server API used, which is stored in an 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_httpapi_version">HTTPAPI_VERSION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-httpapi_version">HTTPAPI_VERSION</a> structure.
 
 
 ## -struct-fields

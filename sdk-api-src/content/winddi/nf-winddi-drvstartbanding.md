@@ -66,7 +66,7 @@ Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop
 
 ### -param pptl [in]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a> structure to receive the function-supplied origin of the first band.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure to receive the function-supplied origin of the first band.
 
 
 ## -returns

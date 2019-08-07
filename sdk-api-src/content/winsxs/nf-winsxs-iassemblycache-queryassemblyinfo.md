@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAssemblyCache interface [Side-by-side Assemblies],QueryAssemblyInfo method, IAssemblyCache.QueryAssemblyInfo, IAssemblyCache::QueryAssemblyInfo, QUERYASMINFO_FLAG_GETSIZE, QUERYASMINFO_FLAG_VALIDATE, QueryAssemblyInfo, QueryAssemblyInfo method [Side-by-side Assemblies], QueryAssemblyInfo method [Side-by-side Assemblies],IAssemblyCache interface, setup.iassemblycache_queryassemblyinfo, winsxs/IAssemblyCache::QueryAssemblyInfo
 ms.topic: method
-f1_keywords: 
- - "winsxs/IAssemblyCache.QueryAssemblyInfo"
+f1_keywords:
+- winsxs/IAssemblyCache.QueryAssemblyInfo
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Sxs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sxs.dll
+- sxs.dll
 api_name:
- - IAssemblyCache.QueryAssemblyInfo
+- IAssemblyCache.QueryAssemblyInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -104,7 +104,7 @@ Pointer to null-terminated string value containing the fully-specified strong na
 
 ### -param pAsmInfo [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/ns-winsxs-_assembly_info">ASSEMBLY_INFO</a> structure that receives the information.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/ns-winsxs-assembly_info">ASSEMBLY_INFO</a> structure that receives the information.
 
 
 ## -returns

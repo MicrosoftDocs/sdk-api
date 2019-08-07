@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 19b4ee56-664f-4f37-bfc9-129032ebeb22
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PLSA_FOREST_TRUST_RECORD, ForestTrustDomainInfo, ForestTrustRecordTypeLast, ForestTrustTopLevelName, ForestTrustTopLevelNameEx, LSA_FOREST_TRUST_RECORD, LSA_FOREST_TRUST_RECORD structure [Security], PLSA_FOREST_TRUST_RECORD, PLSA_FOREST_TRUST_RECORD structure pointer [Security], _LSA_FOREST_TRUST_RECORD, ntsecapi/LSA_FOREST_TRUST_RECORD, ntsecapi/PLSA_FOREST_TRUST_RECORD, security.lsa_forest_trust_record"
+ms.keywords: '*PLSA_FOREST_TRUST_RECORD, ForestTrustDomainInfo, ForestTrustRecordTypeLast, ForestTrustTopLevelName, ForestTrustTopLevelNameEx, LSA_FOREST_TRUST_RECORD, LSA_FOREST_TRUST_RECORD structure [Security], PLSA_FOREST_TRUST_RECORD, PLSA_FOREST_TRUST_RECORD structure pointer [Security], _LSA_FOREST_TRUST_RECORD, ntsecapi/LSA_FOREST_TRUST_RECORD, ntsecapi/PLSA_FOREST_TRUST_RECORD, security.lsa_forest_trust_record'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/LSA_FOREST_TRUST_RECORD"
+f1_keywords:
+- ntsecapi/LSA_FOREST_TRUST_RECORD
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - LSA_FOREST_TRUST_RECORD
+- LSA_FOREST_TRUST_RECORD
 product: Windows
 targetos: Windows
 req.typenames: LSA_FOREST_TRUST_RECORD, *PLSA_FOREST_TRUST_RECORD
@@ -100,7 +100,7 @@ Record contains an excluded top-level name.
 </dl>
 </td>
 <td width="60%">
-Record contains an <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_forest_trust_domain_info">LSA_FOREST_TRUST_DOMAIN_INFO</a> structure.
+Record contains an <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_domain_info">LSA_FOREST_TRUST_DOMAIN_INFO</a> structure.
 
 </td>
 </tr>

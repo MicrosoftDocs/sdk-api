@@ -82,7 +82,7 @@ The port WWN of the HBA port.
 ### -field type
 
 The type of the HBA port enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_hbaport_type">VDS_HBAPORT_TYPE</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hbaport_type">VDS_HBAPORT_TYPE</a>.
 
 
 ### -field status
@@ -117,7 +117,7 @@ The set of supported speeds of the HBA port, one bit set for each of the support
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_hbaport_type">VDS_HBAPORT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hbaport_type">VDS_HBAPORT_TYPE</a>
 
 
 

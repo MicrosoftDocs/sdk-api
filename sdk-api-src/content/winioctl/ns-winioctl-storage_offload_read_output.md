@@ -106,7 +106,7 @@ Length of the token in bytes.
 
 ### -field Token
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_offload_token">STORAGE_OFFLOAD_TOKEN</a> containing the 
+A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_offload_token">STORAGE_OFFLOAD_TOKEN</a> containing the 
       token created.
 
 
@@ -131,7 +131,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>
  
 
  

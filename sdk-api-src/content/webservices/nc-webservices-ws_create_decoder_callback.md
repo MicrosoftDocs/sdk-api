@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_CREATE_DECODER_CALLBACK, WS_CREATE_DECODER_CALLBACK callback, WS_CREATE_DECODER_CALLBACK callback function [Web Services for Windows], webservices/WS_CREATE_DECODER_CALLBACK, wsw.ws_create_decoder_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_CREATE_DECODER_CALLBACK"
+f1_keywords:
+- webservices/WS_CREATE_DECODER_CALLBACK
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_CREATE_DECODER_CALLBACK
+- WS_CREATE_DECODER_CALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ Handles creating an decoder instance.
 
 ### -param *createContext [in]
 
-The createContext that was specified in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_channel_decoder">WS_CHANNEL_DECODER</a>used during channel creation.
+The createContext that was specified in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_channel_decoder">WS_CHANNEL_DECODER</a>used during channel creation.
                 
 
 

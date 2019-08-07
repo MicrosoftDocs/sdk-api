@@ -71,5 +71,5 @@ The access policy associated with the SACL that contains this ACE.
 
 ### -field SidStart
 
-Specifies the first <b>DWORD</b> of a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>. 
+Specifies the first <b>DWORD</b> of a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>. 
 

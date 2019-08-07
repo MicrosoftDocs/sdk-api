@@ -105,7 +105,7 @@ Retrieves the remote form of the name, for example: "\\server\share"
 
 
 If this value is set, the data returned in <i>lpBuffer</i> is stored as a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_remote_name_infoa">REMOTE_NAME_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-remote_name_infoa">REMOTE_NAME_INFO</a> structure.
 
 </td>
 </tr>

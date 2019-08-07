@@ -61,7 +61,7 @@ Determines whether a <a href="https://docs.microsoft.com/windows/desktop/WsdApi/
 
 ### -param pProbeMessage [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_message">WSD_SOAP_MESSAGE</a> structure that represents the Probe message passed to the notification sink's ProbeHandler.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_message">WSD_SOAP_MESSAGE</a> structure that represents the Probe message passed to the notification sink's ProbeHandler.
 
 
 ### -param pMessageParameters [in]

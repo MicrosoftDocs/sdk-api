@@ -193,7 +193,7 @@ Specifies the encryption level.
 
 ### -field ColorDepth
 
-Specifies the client monitor color depth. For possible values, see the <b>ColorDepth</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_client_display">WTS_CLIENT_DISPLAY</a> structure.
+Specifies the client monitor color depth. For possible values, see the <b>ColorDepth</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_display">WTS_CLIENT_DISPLAY</a> structure.
 
 
 ### -field ProtocolType
@@ -430,7 +430,7 @@ A string that contains a client product identifier.
 
 ### -field ClientSockAddress
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_sockaddr">WRDS_SOCKADDR</a> structure that contains socket address information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_sockaddr">WRDS_SOCKADDR</a> structure that contains socket address information.
 
 
 ### -field ClientTimeZone

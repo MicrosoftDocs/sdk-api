@@ -63,7 +63,7 @@ The <b>PCRYPT_RESOLVE_HCRYPTPROV_FUNC</b> function returns a handle to a <a href
 
 ### -param *pPrivateKeyInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_private_key_info">CRYPT_PRIVATE_KEY_INFO</a> structure that describes the key being imported.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_private_key_info">CRYPT_PRIVATE_KEY_INFO</a> structure that describes the key being imported.
 
 
 ### -param *phCryptProv [out]
@@ -96,7 +96,7 @@ If the function fails, it returns zero (<b>FALSE</b>).
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_private_key_info">CRYPT_PRIVATE_KEY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_private_key_info">CRYPT_PRIVATE_KEY_INFO</a>
 
 
 

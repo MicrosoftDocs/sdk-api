@@ -595,7 +595,7 @@ This function may return other errors not listed above.
 This function uses metadata about the expected message types in order to deserialize the body.  
                 The metadata is an array of of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a>s.
                 Each message description contains an action value, which is used to match against
-                the action of the message, and an <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_element_description">WS_ELEMENT_DESCRIPTION</a>which provides the metadata for the body element.
+                the action of the message, and an <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a>which provides the metadata for the body element.
             
 
 When the message headers have been received, the function will scan the array

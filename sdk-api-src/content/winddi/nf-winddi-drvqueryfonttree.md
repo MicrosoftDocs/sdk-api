@@ -98,7 +98,7 @@ QFT_GLYPHSET
 
 </td>
 <td>
-GDI requests a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_glyphset">FD_GLYPHSET</a> structure that defines the mappings from single Unicode characters to glyph handles.
+GDI requests a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a> structure that defines the mappings from single Unicode characters to glyph handles.
 
 </td>
 </tr>
@@ -172,7 +172,7 @@ The returned structure must remain unmodified until GDI calls <a href="https://d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_glyphset">FD_GLYPHSET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a>
 
 
 

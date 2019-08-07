@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WNetConnectionDialog1, WNetConnectionDialog1 function [Windows Networking (WNet)], WNetConnectionDialog1A, WNetConnectionDialog1W, _win32_wnetconnectiondialog1, winnetwk/WNetConnectionDialog1, winnetwk/WNetConnectionDialog1A, winnetwk/WNetConnectionDialog1W, wnet.wnetconnectiondialog1
 ms.topic: function
-f1_keywords: 
- - "winnetwk/WNetConnectionDialog1"
+f1_keywords:
+- winnetwk/WNetConnectionDialog1
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mpr.dll
- - API-MS-Win-Core-multipleproviderrouter-l1-1-0.dll
+- Mpr.dll
+- API-MS-Win-Core-multipleproviderrouter-l1-1-0.dll
 api_name:
- - WNetConnectionDialog1
- - WNetConnectionDialog1A
- - WNetConnectionDialog1W
+- WNetConnectionDialog1
+- WNetConnectionDialog1A
+- WNetConnectionDialog1W
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 The
 				<b>WNetConnectionDialog1</b> function brings up a general browsing dialog for connecting to network resources. The function requires a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_connectdlgstructa">CONNECTDLGSTRUCT</a> to establish the dialog box parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-connectdlgstructa">CONNECTDLGSTRUCT</a> to establish the dialog box parameters.
 
 
 ## -parameters
@@ -93,7 +93,7 @@ Typically this dialog returns an error only if the user cannot enter a dialog se
 </td>
 <td width="60%">
 Both the CONNDLG_RO_PATH and the CONNDLG_USE_MRU dialog box options are set. (Dialog box options are specified by the <b>dwFlags</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_connectdlgstructa">CONNECTDLGSTRUCT</a> structure.) 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-connectdlgstructa">CONNECTDLGSTRUCT</a> structure.) 
 
 
 
@@ -179,7 +179,7 @@ A network-specific error occurred. Call
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_connectdlgstructa">CONNECTDLGSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-connectdlgstructa">CONNECTDLGSTRUCT</a>
 
 
 

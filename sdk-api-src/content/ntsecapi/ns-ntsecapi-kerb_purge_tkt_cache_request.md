@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 4e5e944a-8163-42de-b534-3b0478d9f334
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PKERB_PURGE_TKT_CACHE_REQUEST, KERB_PURGE_TKT_CACHE_REQUEST, KERB_PURGE_TKT_CACHE_REQUEST structure [Security], PKERB_PURGE_TKT_CACHE_REQUEST, PKERB_PURGE_TKT_CACHE_REQUEST structure pointer [Security], _lsa_kerb_purge_tkt_cache_request, ntsecapi/KERB_PURGE_TKT_CACHE_REQUEST, ntsecapi/PKERB_PURGE_TKT_CACHE_REQUEST, security.kerb_purge_tkt_cache_request"
+ms.keywords: '*PKERB_PURGE_TKT_CACHE_REQUEST, KERB_PURGE_TKT_CACHE_REQUEST, KERB_PURGE_TKT_CACHE_REQUEST structure [Security], PKERB_PURGE_TKT_CACHE_REQUEST, PKERB_PURGE_TKT_CACHE_REQUEST structure pointer [Security], _lsa_kerb_purge_tkt_cache_request, ntsecapi/KERB_PURGE_TKT_CACHE_REQUEST, ntsecapi/PKERB_PURGE_TKT_CACHE_REQUEST, security.kerb_purge_tkt_cache_request'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/KERB_PURGE_TKT_CACHE_REQUEST"
+f1_keywords:
+- ntsecapi/KERB_PURGE_TKT_CACHE_REQUEST
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - KERB_PURGE_TKT_CACHE_REQUEST
+- KERB_PURGE_TKT_CACHE_REQUEST
 product: Windows
 targetos: Windows
 req.typenames: KERB_PURGE_TKT_CACHE_REQUEST, *PKERB_PURGE_TKT_CACHE_REQUEST
@@ -65,25 +65,25 @@ It is used by
 ### -field MessageType
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_kerb_protocol_message_type">KERB_PROTOCOL_MESSAGE_TYPE</a> value identifying the type of request being made. This member must be set to <b>KerbPurgeTicketCacheMessage</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_protocol_message_type">KERB_PROTOCOL_MESSAGE_TYPE</a> value identifying the type of request being made. This member must be set to <b>KerbPurgeTicketCacheMessage</b>.
 
 
 ### -field LogonId
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> structure containing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a> identifier. This can be zero for the current user's logon session. If not zero, the caller must have the SeTcbPrivilege privilege set. If this fails, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> authentication package sets the <i>ProtocolStatus</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> to <b>STATUS_ACCESS_DENIED</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure containing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a> identifier. This can be zero for the current user's logon session. If not zero, the caller must have the SeTcbPrivilege privilege set. If this fails, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> authentication package sets the <i>ProtocolStatus</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> to <b>STATUS_ACCESS_DENIED</b>.
 
 
 ### -field ServerName
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the name of the service whose tickets should be deleted from the cache.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the name of the service whose tickets should be deleted from the cache.
 
 
 ### -field RealmName
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the name of the realm whose tickets should be deleted from the cache.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the name of the realm whose tickets should be deleted from the cache.
 
 
 ## -remarks

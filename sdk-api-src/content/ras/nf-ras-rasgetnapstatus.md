@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasGetNapStatus, ras/rasgetnapstatus, rasgetnapstatus, rasgetnapstatus function [RAS], rras.rasgetnapstatus
 ms.topic: function
-f1_keywords: 
- - "ras/rasgetnapstatus"
+f1_keywords:
+- ras/rasgetnapstatus
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - rasgetnapstatus
+- rasgetnapstatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ A handle to the connection. Use <a href="https://docs.microsoft.com/windows/desk
 
 ### -param pRasNapState [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_tagrasnapstate">RASNAPSTATE</a> structure. On input, the <b>dwSize</b> member of the structure must be set to <b>sizeof(RASNAPSTATE)</b>. On output, <i>pNapState</i> returns the NAP state of the RAS connection.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-rasnapstate">RASNAPSTATE</a> structure. On input, the <b>dwSize</b> member of the structure must be set to <b>sizeof(RASNAPSTATE)</b>. On output, <i>pNapState</i> returns the NAP state of the RAS connection.
  
 
 
@@ -102,7 +102,7 @@ Connection corresponding to the <i>hRasConn</i> parameter is not configured for 
 </dl>
 </td>
 <td width="60%">
-The <i>dwSize</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_tagrasnapstate">RASNAPSTATE</a> structure has an invalid size value.
+The <i>dwSize</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-rasnapstate">RASNAPSTATE</a> structure has an invalid size value.
 
 </td>
 </tr>

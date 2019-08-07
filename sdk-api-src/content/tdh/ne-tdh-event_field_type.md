@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVENT_FIELD_TYPE, EVENT_FIELD_TYPE enumeration [ETW], EventChannelInformation, EventInformationMax, EventKeywordInformation, EventLevelInformation, EventOpcodeInformation, EventTaskInformation, etw.event_field_type_enum, tdh.event_field_type_enum, tdh/EVENT_FIELD_TYPE, tdh/EventChannelInformation, tdh/EventInformationMax, tdh/EventKeywordInformation, tdh/EventLevelInformation, tdh/EventOpcodeInformation, tdh/EventTaskInformation
 ms.topic: enum
-f1_keywords: 
- - "tdh/EVENT_FIELD_TYPE"
+f1_keywords:
+- tdh/EVENT_FIELD_TYPE
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tdh.h
+- Tdh.h
 api_name:
- - EVENT_FIELD_TYPE
+- EVENT_FIELD_TYPE
 product: Windows
 targetos: Windows
 req.typenames: EVENT_FIELD_TYPE
@@ -99,7 +99,7 @@ If you specify <b>EventOpcodeInformation</b> when calling <a href="https://docs.
 <li>Bits 0 - 15 must contain the task value</li>
 <li>Bits 16 - 23 must contain the opcode value</li>
 </ul>
-You can get the task and opcode values from <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_RECORD.EventHeader.EventDescriptor</a>.
+You can get the task and opcode values from <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_RECORD.EventHeader.EventDescriptor</a>.
 
 WMI MOF class supports retrieving keyword and level information only.
 
@@ -111,7 +111,7 @@ WMI MOF class supports retrieving keyword and level information only.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_provider_field_infoarray">PROVIDER_FIELD_INFOARRAY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-provider_field_infoarray">PROVIDER_FIELD_INFOARRAY</a>
 
 
 

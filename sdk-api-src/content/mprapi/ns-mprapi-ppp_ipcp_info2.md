@@ -102,7 +102,7 @@ Specifies IPCP options for the remote peer. Currently, the only option is PPP_IP
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_info">PPP_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_info">PPP_INFO</a>
 
 
 

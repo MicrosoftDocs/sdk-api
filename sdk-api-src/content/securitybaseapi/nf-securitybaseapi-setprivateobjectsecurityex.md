@@ -219,7 +219,7 @@ Any restrictions  specified by the
 ### -param GenericMapping [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_generic_mapping">GENERIC_MAPPING</a> structure that specifies the specific and standard access rights that correspond to each of the generic access rights.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a> structure that specifies the specific and standard access rights that correspond to each of the generic access rights.
 
 
 ### -param Token [in, optional]
@@ -353,7 +353,7 @@ A resource manager that is setting the Owner on a subtree of objects can avoid t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_generic_mapping">GENERIC_MAPPING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a>
 
 
 

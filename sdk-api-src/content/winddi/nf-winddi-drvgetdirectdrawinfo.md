@@ -117,7 +117,7 @@ The driver's <b>DrvGetDirectDrawInfo</b> routine should do the following:
 </li>
 <li>Initialize the members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure with driver-specific information as follows:<ol>
 <li>Initialize the appropriate members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-videomemoryinfo">VIDEOMEMORYINFO</a> structure in <i>vmiData</i> to describe the general characteristics of the display's memory.</li>
-<li>Initialize the appropriate members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-_ddcorecaps">DDCORECAPS</a> structure in <b>ddCaps</b> to describe the capabilities of the hardware.</li>
+<li>Initialize the appropriate members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a> structure in <b>ddCaps</b> to describe the capabilities of the hardware.</li>
 <li>If the driver implements a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> function, set <b>GetDriverInfo</b> to point to it and set <b>dwFlags</b> to DDHALINFO_GETDRIVERINFOSET.</li>
 </ol>
 </li>

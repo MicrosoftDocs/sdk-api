@@ -86,7 +86,7 @@ A <b>NULL</b>-terminated wide-character string that contains the drive identifie
 ### -field ulFlags
 
 A bitmask of  
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_drive_flag">VDS_DRIVE_FLAG</a> enumeration values.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_drive_flag">VDS_DRIVE_FLAG</a> enumeration values.
 
 
 ### -field status
@@ -98,7 +98,7 @@ A
 ### -field health
 
 A 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a> enumeration value that specifies the health status of the drive. The following are the valid values for this member.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> enumeration value that specifies the health status of the drive. The following are the valid values for this member.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b><b>VDS_H_REPLACED</b> and <b>VDS_H_PENDING_FAILURE</b> are not supported.
 
@@ -140,7 +140,7 @@ The number of the enclosure that contains the drive. A value of ULONG_MAX indica
 
 ### -field busType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a> value that specifies the bus type of the drive. A value of zero means that the bus type is unknown.
+A <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a> value that specifies the bus type of the drive. A value of zero means that the bus type is unknown.
 
 
 ### -field ulSpindleSpeed

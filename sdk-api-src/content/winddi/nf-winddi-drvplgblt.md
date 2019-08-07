@@ -61,7 +61,7 @@ The <b>DrvPlgBlt</b> function provides rotate bit-block transfer capabilities be
 
 ### -param psoTrg [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure that describes the surface on which to draw.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the surface on which to draw.
 
 
 ### -param psoSrc [in, out]
@@ -89,7 +89,7 @@ Whenever possible, GDI simplifies the clipping involved. Unlike the <a href="htt
 
 ### -param pxlo [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_xlateobj">XLATEOBJ</a> structure that defines how color indices are translated between the source and target surfaces. The XLATEOBJ can also be queried to find the RGB color for any source index. If <i>pxlo</i> is <b>NULL</b>, no translation is needed.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure that defines how color indices are translated between the source and target surfaces. The XLATEOBJ can also be queried to find the RGB color for any source index. If <i>pxlo</i> is <b>NULL</b>, no translation is needed.
 
 A high quality rotate bit-block transfer is needed to interpolate colors.
 
@@ -101,7 +101,7 @@ Pointer to a COLORADJUSTMENT structure that defines the color adjustment values 
 
 ### -param pptlBrushOrg [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_brushobj">BRUSHOBJ</a> structure that indicates the origin of the halftone brush. Device drivers that use halftone brushes should align the upper left pixel of the brush's pattern with this point on the device surface.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-brushobj">BRUSHOBJ</a> structure that indicates the origin of the halftone brush. Device drivers that use halftone brushes should align the upper left pixel of the brush's pattern with this point on the device surface.
 
 
 ### -param pptfx [in]
@@ -119,12 +119,12 @@ Pointer to three POINTFIX structures that define a parallelogram in the destinat
 
 ### -param prcl [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that defines the area to be copied, in the coordinate system of the source surface. The points of the source rectangle are well ordered. <b>DrvPlgBlt</b> will never be given an empty source rectangle.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that defines the area to be copied, in the coordinate system of the source surface. The points of the source rectangle are well ordered. <b>DrvPlgBlt</b> will never be given an empty source rectangle.
 
 
 ### -param pptl [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a> structure that specifies which pixel in the given mask corresponds to the upper-left pixel in the source rectangle. Ignore this parameter if no <i>psoMsk</i> is specified.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that specifies which pixel in the given mask corresponds to the upper-left pixel in the source rectangle. Ignore this parameter if no <i>psoMsk</i> is specified.
 
 
 ### -param iMode [in]

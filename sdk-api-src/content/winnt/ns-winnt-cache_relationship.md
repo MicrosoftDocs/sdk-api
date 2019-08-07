@@ -132,7 +132,7 @@ This member is reserved.
 
 ### -field GroupMask
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_group_affinity">GROUP_AFFINITY</a> structure that specifies a  group number and processor affinity within the group. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a> structure that specifies a  group number and processor affinity within the group. 
 
 
 ## -see-also
@@ -140,7 +140,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_group_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_group_affinity">GROUP_AFFINITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a>
 
 
 

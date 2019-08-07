@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DiRollbackDriver, DiRollbackDriver function [Device and Driver Installation], devinst.dirollbackdriver, di-rtns_982c291b-0aad-475c-ba3a-0e08ab0f584a.xml, newdev/DiRollbackDriver
 ms.topic: function
-f1_keywords: 
- - "newdev/DiRollbackDriver"
+f1_keywords:
+- newdev/DiRollbackDriver
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib: Newdev.lib
 req.dll: Newdev.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Newdev.dll
+- Newdev.dll
 api_name:
- - DiRollbackDriver
+- DiRollbackDriver
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ins
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the specific device in the specified device information set for which driver rollback is performed.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the specific device in the specified device information set for which driver rollback is performed.
 
 
 ### -param hwndParent [in, optional]

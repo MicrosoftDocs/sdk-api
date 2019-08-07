@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8f2f7f65-7000-4404-8678-ba36c5c97c80, IMFInputTrustAuthority interface [Media Foundation],RequestAccess method, IMFInputTrustAuthority.RequestAccess, IMFInputTrustAuthority::RequestAccess, RequestAccess, RequestAccess method [Media Foundation], RequestAccess method [Media Foundation],IMFInputTrustAuthority interface, mf.imfinputtrustauthority_requestaccess, mfidl/IMFInputTrustAuthority::RequestAccess
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFInputTrustAuthority.RequestAccess"
+f1_keywords:
+- mfidl/IMFInputTrustAuthority.RequestAccess
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFInputTrustAuthority.RequestAccess
+- IMFInputTrustAuthority.RequestAccess
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Requests permission to perform a specified action on the stream.
 
 ### -param Action [in]
 
-The requested action, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfpolicymanager_action">MFPOLICYMANAGER_ACTION</a> enumeration.
+The requested action, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfpolicymanager_action">MFPOLICYMANAGER_ACTION</a> enumeration.
 
 
 ### -param ppContentEnablerActivate [out]

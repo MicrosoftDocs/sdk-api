@@ -77,7 +77,7 @@ Number of elements in <i>pTdhContext</i>.
 
 ### -param pTdhContext [in]
 
-Array of context values for WPP or classic ETW events only; otherwise, <b>NULL</b>. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_tdh_context">TDH_CONTEXT</a> structure.  The array must not contain duplicate context types.
+Array of context values for WPP or classic ETW events only; otherwise, <b>NULL</b>. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-tdh_context">TDH_CONTEXT</a> structure.  The array must not contain duplicate context types.
 
 
 ### -param PropertyDataCount [in]

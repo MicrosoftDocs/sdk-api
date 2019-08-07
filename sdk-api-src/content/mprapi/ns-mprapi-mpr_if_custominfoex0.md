@@ -103,7 +103,7 @@ IKEv2 tunnel specific configuration is available.
 
 ### -field customIkev2Config
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_router_ikev2_if_custom_config0">ROUTER_IKEv2_IF_CUSTOM_CONFIG0</a> structure that specifies the IKEv2 tunnel configuration parameters.  
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-router_ikev2_if_custom_config0">ROUTER_IKEv2_IF_CUSTOM_CONFIG0</a> structure that specifies the IKEv2 tunnel configuration parameters.  
 
 
 ## -see-also

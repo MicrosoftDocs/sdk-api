@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminDeviceEnum, MprAdminDeviceEnum function [RAS], mprapi/MprAdminDeviceEnum, rras.mpradmindeviceenum
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminDeviceEnum"
+f1_keywords:
+- mprapi/MprAdminDeviceEnum
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminDeviceEnum
+- MprAdminDeviceEnum
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,13 +72,13 @@ A DWORD value that describes the format in which the information is returned in 
 
 ### -param lplpbBuffer [out]
 
-On successful completion, an array of <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_device_0">MPR_DEVICE_0</a> structures that contains the RAS capable device information. Free this memory by calling 
+On successful completion, an array of <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_device_0">MPR_DEVICE_0</a> structures that contains the RAS capable device information. Free this memory by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>.
 
 
 ### -param lpdwTotalEntries [out]
 
-The number of entries of type <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_device_0">MPR_DEVICE_0</a> in <i>lplpbBuffer</i>. 
+The number of entries of type <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_device_0">MPR_DEVICE_0</a> in <i>lplpbBuffer</i>. 
 
 
 ## -returns

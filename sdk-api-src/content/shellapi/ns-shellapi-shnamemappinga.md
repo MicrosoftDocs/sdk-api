@@ -8,10 +8,10 @@ tech.root: shell
 ms.assetid: c77f5ed6-3c7f-48dd-8bb6-33d6d3053238
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSHNAMEMAPPINGA, LPSHNAMEMAPPING, LPSHNAMEMAPPING structure pointer [Windows Shell], SHNAMEMAPPING, SHNAMEMAPPING structure [Windows Shell], SHNAMEMAPPINGA, _win32_SHNAMEMAPPING, shell.SHNAMEMAPPING, shellapi/LPSHNAMEMAPPING, shellapi/SHNAMEMAPPING"
+ms.keywords: '*LPSHNAMEMAPPINGA, LPSHNAMEMAPPING, LPSHNAMEMAPPING structure pointer [Windows Shell], SHNAMEMAPPING, SHNAMEMAPPING structure [Windows Shell], SHNAMEMAPPINGA, _win32_SHNAMEMAPPING, shell.SHNAMEMAPPING, shellapi/LPSHNAMEMAPPING, shellapi/SHNAMEMAPPING'
 ms.topic: struct
-f1_keywords: 
- - "shellapi/SHNAMEMAPPING"
+f1_keywords:
+- shellapi/SHNAMEMAPPING
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shellapi.h
+- Shellapi.h
 api_name:
- - SHNAMEMAPPING
+- SHNAMEMAPPING
 product: Windows
 targetos: Windows
 req.typenames: SHNAMEMAPPINGA, *LPSHNAMEMAPPINGA
@@ -101,7 +101,7 @@ There are two versions of this structure, an ANSI version (SHFILEOPSTRUCTA) and 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileopstructa">SHFILEOPSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa">SHFILEOPSTRUCT</a>
  
 
  

@@ -109,7 +109,7 @@ A notification action is performed. The <b>DeviceDsmActionFlag_NonDestructive</b
 <td width="60%">
 An offload read action is performed. The output described by the 
          <b>OutputBlockOffset</b> and <b>OutputBlockLength</b> members is a 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_offload_read_output">STORAGE_OFFLOAD_READ_OUTPUT</a> structure. 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_offload_read_output">STORAGE_OFFLOAD_READ_OUTPUT</a> structure. 
          The <b>DeviceDsmActionFlag_NonDestructive</b> (0x80000000) is a bit flag to indicate to 
          the driver stack that this operation is non-destructive.
 
@@ -229,7 +229,7 @@ The length, in bytes, of the action-specific data.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_data_set_range">DEVICE_DATA_SET_RANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-device_data_set_range">DEVICE_DATA_SET_RANGE</a>
 
 
 

@@ -93,7 +93,7 @@ The device type, which determines the event-specific information that follows th
 </td>
 <td width="60%">
 Class of devices. This structure is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_deviceinterface_a">DEV_BROADCAST_DEVICEINTERFACE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_deviceinterface_a">DEV_BROADCAST_DEVICEINTERFACE</a> structure.
 
 </td>
 </tr>
@@ -159,7 +159,7 @@ Reserved; do not use.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_deviceinterface_a">DEV_BROADCAST_DEVICEINTERFACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_deviceinterface_a">DEV_BROADCAST_DEVICEINTERFACE</a>
 
 
 

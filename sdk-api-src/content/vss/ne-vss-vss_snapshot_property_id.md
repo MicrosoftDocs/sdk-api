@@ -123,7 +123,7 @@ The provider identifier. For more information, see the <b>m_ProviderId</b> membe
 
 ### -field VSS_SPROPID_SNAPSHOT_ATTRIBUTES
 
-A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> values that specify the properties of the shadow copy. For more information, see the <b>m_lSnapshotAttributes</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure.
+A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> values that specify the properties of the shadow copy. For more information, see the <b>m_lSnapshotAttributes</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure.
 
 
 ### -field VSS_SPROPID_CREATION_TIMESTAMP

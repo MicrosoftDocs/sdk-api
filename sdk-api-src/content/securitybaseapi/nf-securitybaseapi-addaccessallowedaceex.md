@@ -266,7 +266,7 @@ The caller must ensure that ACEs are added to the DACL in the correct order. For
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 

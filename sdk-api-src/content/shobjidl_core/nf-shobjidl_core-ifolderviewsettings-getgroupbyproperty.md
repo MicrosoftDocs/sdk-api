@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGroupByProperty, GetGroupByProperty method [Windows Shell], GetGroupByProperty method [Windows Shell],IFolderViewSettings interface, IFolderViewSettings interface [Windows Shell],GetGroupByProperty method, IFolderViewSettings.GetGroupByProperty, IFolderViewSettings::GetGroupByProperty, _shell_IFolderViewSettings_GetGroupByProperty, shell.IFolderViewSettings_GetGroupByProperty, shobjidl_core/IFolderViewSettings::GetGroupByProperty
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderViewSettings.GetGroupByProperty"
+f1_keywords:
+- shobjidl_core/IFolderViewSettings.GetGroupByProperty
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderViewSettings.GetGroupByProperty
+- IFolderViewSettings.GetGroupByProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ Gets a grouping property.
 
 ### -param pkey [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure indicating the key by which content is grouped.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure indicating the key by which content is grouped.
 
 
 ### -param pfGroupAscending [out]

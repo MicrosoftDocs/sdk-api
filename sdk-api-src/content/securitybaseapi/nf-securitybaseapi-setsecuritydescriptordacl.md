@@ -81,7 +81,7 @@ A flag that indicates the presence of a DACL in the security descriptor. If this
 ### -param pDacl [in, optional]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> structure that specifies the DACL for the security descriptor. If this parameter is <b>NULL</b>, a <b>NULL</b> DACL is assigned to the security descriptor, which allows all access to the object. The DACL is referenced by, not copied into, the security descriptor.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure that specifies the DACL for the security descriptor. If this parameter is <b>NULL</b>, a <b>NULL</b> DACL is assigned to the security descriptor, which allows all access to the object. The DACL is referenced by, not copied into, the security descriptor.
 
 
 ### -param bDaclDefaulted [in]

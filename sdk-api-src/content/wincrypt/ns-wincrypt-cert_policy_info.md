@@ -76,7 +76,7 @@ Number of elements in the <b>rgPolicyQualifier</b> array.
 ### -field rgPolicyQualifier
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_policy_qualifier_info">CERT_POLICY_QUALIFIER_INFO</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_policy_qualifier_info">CERT_POLICY_QUALIFIER_INFO</a> structures.
 
 
 ## -see-also
@@ -88,7 +88,7 @@ Array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_policy_qualifier_info">CERT_POLICY_QUALIFIER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_policy_qualifier_info">CERT_POLICY_QUALIFIER_INFO</a>
  
 
  

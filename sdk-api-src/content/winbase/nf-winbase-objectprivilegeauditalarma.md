@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ObjectPrivilegeAuditAlarm, ObjectPrivilegeAuditAlarm function [Security], ObjectPrivilegeAuditAlarmA, ObjectPrivilegeAuditAlarmW, _win32_objectprivilegeauditalarm, security.objectprivilegeauditalarm, winbase/ObjectPrivilegeAuditAlarm, winbase/ObjectPrivilegeAuditAlarmA, winbase/ObjectPrivilegeAuditAlarmW
 ms.topic: function
-f1_keywords: 
- - "winbase/ObjectPrivilegeAuditAlarm"
+f1_keywords:
+- winbase/ObjectPrivilegeAuditAlarm
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,22 +30,22 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - KernelBase.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- KernelBase.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - ObjectPrivilegeAuditAlarm
- - ObjectPrivilegeAuditAlarmA
- - ObjectPrivilegeAuditAlarmW
+- ObjectPrivilegeAuditAlarm
+- ObjectPrivilegeAuditAlarmA
+- ObjectPrivilegeAuditAlarmW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -91,7 +91,7 @@ Specifies an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly"
 ### -param Privileges [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_privilege_set">PRIVILEGE_SET</a> structure containing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privileges</a> that the client attempted to use. The names of the privileges appear in the audit message.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-privilege_set">PRIVILEGE_SET</a> structure containing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privileges</a> that the client attempted to use. The names of the privileges appear in the audit message.
 
 
 ### -param AccessGranted [in]
@@ -157,7 +157,7 @@ The <b>ObjectPrivilegeAuditAlarm</b> function requires the calling <a href="http
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_privilege_set">PRIVILEGE_SET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-privilege_set">PRIVILEGE_SET</a>
 
 
 

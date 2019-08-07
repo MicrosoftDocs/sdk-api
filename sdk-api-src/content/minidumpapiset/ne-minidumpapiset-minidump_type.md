@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MINIDUMP_TYPE, MINIDUMP_TYPE enumeration, MiniDumpFilterMemory, MiniDumpFilterModulePaths, MiniDumpFilterTriage, MiniDumpIgnoreInaccessibleMemory, MiniDumpNormal, MiniDumpScanMemory, MiniDumpValidTypeFlags, MiniDumpWithCodeSegs, MiniDumpWithDataSegs, MiniDumpWithFullAuxiliaryState, MiniDumpWithFullMemory, MiniDumpWithFullMemoryInfo, MiniDumpWithHandleData, MiniDumpWithIndirectlyReferencedMemory, MiniDumpWithModuleHeaders, MiniDumpWithPrivateReadWriteMemory, MiniDumpWithPrivateWriteCopyMemory, MiniDumpWithProcessThreadData, MiniDumpWithThreadInfo, MiniDumpWithTokenInformation, MiniDumpWithUnloadedModules, MiniDumpWithoutAuxiliaryState, MiniDumpWithoutOptionalData, _win32_minidump_type, base.minidump_type, minidumpapiset/MINIDUMP_TYPE, minidumpapiset/MiniDumpFilterMemory, minidumpapiset/MiniDumpFilterModulePaths, minidumpapiset/MiniDumpFilterTriage, minidumpapiset/MiniDumpIgnoreInaccessibleMemory, minidumpapiset/MiniDumpNormal, minidumpapiset/MiniDumpScanMemory, minidumpapiset/MiniDumpValidTypeFlags, minidumpapiset/MiniDumpWithCodeSegs, minidumpapiset/MiniDumpWithDataSegs, minidumpapiset/MiniDumpWithFullAuxiliaryState, minidumpapiset/MiniDumpWithFullMemory, minidumpapiset/MiniDumpWithFullMemoryInfo, minidumpapiset/MiniDumpWithHandleData, minidumpapiset/MiniDumpWithIndirectlyReferencedMemory, minidumpapiset/MiniDumpWithModuleHeaders, minidumpapiset/MiniDumpWithPrivateReadWriteMemory, minidumpapiset/MiniDumpWithPrivateWriteCopyMemory, minidumpapiset/MiniDumpWithProcessThreadData, minidumpapiset/MiniDumpWithThreadInfo, minidumpapiset/MiniDumpWithTokenInformation, minidumpapiset/MiniDumpWithUnloadedModules, minidumpapiset/MiniDumpWithoutAuxiliaryState, minidumpapiset/MiniDumpWithoutOptionalData
 ms.topic: enum
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_TYPE"
+f1_keywords:
+- minidumpapiset/MINIDUMP_TYPE
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_TYPE
+- MINIDUMP_TYPE
 product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_TYPE
@@ -80,7 +80,7 @@ Include just the information necessary to capture stack traces for all existing 
 Include the data sections from all loaded modules. This results in the inclusion of global variables, which 
       can make the minidump file significantly larger. For per-module control, use the 
       <b>ModuleWriteDataSeg</b> enumeration value from 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_module_write_flags">MODULE_WRITE_FLAGS</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-module_write_flags">MODULE_WRITE_FLAGS</a>.
 
 
 ### -field MiniDumpWithFullMemory
@@ -188,7 +188,7 @@ Include thread state information. For more information, see
 
 Include all code and code-related sections from loaded modules to capture executable content. For 
       per-module control, use the <b>ModuleWriteCodeSegs</b> enumeration value from 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_module_write_flags">MODULE_WRITE_FLAGS</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-module_write_flags">MODULE_WRITE_FLAGS</a>.
       
 
 <b>DbgHelp 6.1 and earlier:  </b>This value is not supported.

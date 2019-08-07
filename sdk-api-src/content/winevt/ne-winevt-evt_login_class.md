@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVT_LOGIN_CLASS, EvtRpcLogin, _EVT_LOGIN_CLASS, _EVT_LOGIN_CLASS enumeration [EventLog], wes.evt_login_class, winevt/EvtRpcLogin, winevt/_EVT_LOGIN_CLASS
 ms.topic: enum
-f1_keywords: 
- - "winevt/EVT_LOGIN_CLASS"
+f1_keywords:
+- winevt/EVT_LOGIN_CLASS
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinEvt.h
+- WinEvt.h
 api_name:
- - EVT_LOGIN_CLASS
+- EVT_LOGIN_CLASS
 product: Windows
 targetos: Windows
 req.typenames: EVT_LOGIN_CLASS
@@ -69,7 +69,7 @@ Use Remote Procedure Call (RPC) login.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_rpc_login_flags">EVT_RPC_LOGIN_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_rpc_login_flags">EVT_RPC_LOGIN_FLAGS</a>
 
 
 

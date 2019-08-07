@@ -99,7 +99,7 @@ Return the global group name. The <i>bufptr</i> parameter points to a
 </td>
 <td width="60%">
 Return the global group name and a comment. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_1">GROUP_INFO_1</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_1">GROUP_INFO_1</a> structure.
 
 </td>
 </tr>
@@ -219,7 +219,7 @@ User account names are limited to 20 characters and group names are limited to 2
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_1">GROUP_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_1">GROUP_INFO_1</a>
 
 
 

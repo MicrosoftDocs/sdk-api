@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_QUERY_RM_INFORMATION, FSCTL_TXFS_QUERY_RM_INFORMATION control, FSCTL_TXFS_QUERY_RM_INFORMATION control code [Files], base.fsctl_txfs_query_rm_information, fs.fsctl_txfs_query_rm_information, winioctl/FSCTL_TXFS_QUERY_RM_INFORMATION
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_TXFS_QUERY_RM_INFORMATION"
+f1_keywords:
+- winioctl/FSCTL_TXFS_QUERY_RM_INFORMATION
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_TXFS_QUERY_RM_INFORMATION
+- FSCTL_TXFS_QUERY_RM_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -161,7 +161,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 If this call fails with <b>ERROR_BUFFER_TOO_SMALL</b>, the 
     <b>BytesRequired</b> member of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_query_rm_information">TXFS_QUERY_RM_INFORMATION</a> structure specifies 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_query_rm_information">TXFS_QUERY_RM_INFORMATION</a> structure specifies 
     how large the buffer must be for the call to return successfully.
 
 If you are writing an application that 
@@ -190,7 +190,7 @@ The  resource manager may be queried regardless of its state; if the RM is not s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_query_rm_information">TXFS_QUERY_RM_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_query_rm_information">TXFS_QUERY_RM_INFORMATION</a>
  
 
  

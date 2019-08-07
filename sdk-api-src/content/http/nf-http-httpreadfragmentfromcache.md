@@ -76,7 +76,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-
 ### -param ByteRange [in]
 
 Optional pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_byte_range">HTTP_BYTE_RANGE</a> structure that indicates a starting offset in the specified fragment and byte-count to be returned. <b>NULL</b> if not used, in which case the entire fragment is returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_byte_range">HTTP_BYTE_RANGE</a> structure that indicates a starting offset in the specified fragment and byte-count to be returned. <b>NULL</b> if not used, in which case the entire fragment is returned.
 
 
 ### -param Buffer [out]

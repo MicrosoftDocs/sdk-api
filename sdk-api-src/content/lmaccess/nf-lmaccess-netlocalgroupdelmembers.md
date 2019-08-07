@@ -93,7 +93,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 <td width="60%">
 Specifies the 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-identifiers">security identifier</a> (SID) of a local group member to remove. The <i>buf</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_members_info_0">LOCALGROUP_MEMBERS_INFO_0</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_0">LOCALGROUP_MEMBERS_INFO_0</a> structures.
 
 </td>
 </tr>
@@ -209,7 +209,7 @@ If you are programming for Active Directory, you may be able to call certain Act
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_members_info_0">LOCALGROUP_MEMBERS_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_0">LOCALGROUP_MEMBERS_INFO_0</a>
 
 
 

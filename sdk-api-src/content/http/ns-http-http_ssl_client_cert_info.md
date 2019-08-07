@@ -63,7 +63,7 @@ The
 ### -field CertFlags
 
 Flags that indicate whether the certificate is valid. The possible values for this member are 
-a <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi-status-codes">SSPI Status Code</a> returned from SSPI or one of the following flags from the <b>dwError</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_policy_status">CERT_CHAIN_POLICY_STATUS</a> structure:
+a <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi-status-codes">SSPI Status Code</a> returned from SSPI or one of the following flags from the <b>dwError</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_policy_status">CERT_CHAIN_POLICY_STATUS</a> structure:
 
 <a id="CERT_E_EXPIRED"></a>
 <a id="cert_e_expired"></a>

@@ -202,7 +202,7 @@ The <b>MediaType</b> member of the
     array of <b>DISK_GEOMETRY</b> structures in response to an 
     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_media_types">IOCTL_STORAGE_GET_MEDIA_TYPES</a>  
     control code. The 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_media_type">STORAGE_MEDIA_TYPE</a> enumeration type extends this 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_media_type">STORAGE_MEDIA_TYPE</a> enumeration type extends this 
     enumeration type.
 
 
@@ -229,7 +229,7 @@ The <b>MediaType</b> member of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_media_type">STORAGE_MEDIA_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_media_type">STORAGE_MEDIA_TYPE</a>
  
 
  

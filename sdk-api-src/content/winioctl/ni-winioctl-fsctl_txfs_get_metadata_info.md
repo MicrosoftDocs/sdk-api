@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_GET_METADATA_INFO, FSCTL_TXFS_GET_METADATA_INFO control, FSCTL_TXFS_GET_METADATA_INFO control code [Files], fs.fsctl_txfs_get_metadata_info, winioctl/FSCTL_TXFS_GET_METADATA_INFO
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_TXFS_GET_METADATA_INFO"
+f1_keywords:
+- winioctl/FSCTL_TXFS_GET_METADATA_INFO
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_TXFS_GET_METADATA_INFO
+- FSCTL_TXFS_GET_METADATA_INFO
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -170,7 +170,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_get_metadata_info_out">TXFS_GET_METADATA_INFO_OUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_get_metadata_info_out">TXFS_GET_METADATA_INFO_OUT</a>
  
 
  

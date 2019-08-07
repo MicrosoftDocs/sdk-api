@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWLX_CREATE_USER_DESKTOP, PWLX_CREATE_USER_DESKTOP callback, WLX_CREATE_INSTANCE_ONLY, WLX_CREATE_USER, WlxCreateUserDesktop, WlxCreateUserDesktop callback function [Security], _gina_wlxcreateuserdesktop, security.wlxcreateuserdesktop, winwlx/WlxCreateUserDesktop
 ms.topic: callback
-f1_keywords: 
- - "winwlx/WlxCreateUserDesktop"
+f1_keywords:
+- winwlx/WlxCreateUserDesktop
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - winwlx.h
+- winwlx.h
 api_name:
- - WlxCreateUserDesktop
+- WlxCreateUserDesktop
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -116,7 +116,7 @@ Specifies the name of the desktop to be created.
 ### -param *ppDesktop [out]
 
 If the desktop is created, returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_desktop">WLX_DESKTOP</a> structure for the new desktop. This pointer can be used in a call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_desktop">WLX_DESKTOP</a> structure for the new desktop. This pointer can be used in a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_set_return_desktop">WlxSetReturnDesktop</a> to make this the current desktop after a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">SAS</a> event is processed.
 
 

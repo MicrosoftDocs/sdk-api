@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 86f819f0-c243-45ba-8b7b-97ed906e6e8a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_PROVUI_DATA, CRYPT_PROVUI_DATA, CRYPT_PROVUI_DATA structure [Security], PCRYPT_PROVUI_DATA, PCRYPT_PROVUI_DATA structure pointer [Security], security.crypt_provui_data, wintrust/CRYPT_PROVUI_DATA, wintrust/PCRYPT_PROVUI_DATA"
+ms.keywords: '*PCRYPT_PROVUI_DATA, CRYPT_PROVUI_DATA, CRYPT_PROVUI_DATA structure [Security], PCRYPT_PROVUI_DATA, PCRYPT_PROVUI_DATA structure pointer [Security], security.crypt_provui_data, wintrust/CRYPT_PROVUI_DATA, wintrust/PCRYPT_PROVUI_DATA'
 ms.topic: struct
-f1_keywords: 
- - "wintrust/CRYPT_PROVUI_DATA"
+f1_keywords:
+- wintrust/CRYPT_PROVUI_DATA
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wintrust.h
+- Wintrust.h
 api_name:
- - CRYPT_PROVUI_DATA
+- CRYPT_PROVUI_DATA
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_PROVUI_DATA, *PCRYPT_PROVUI_DATA
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CRYPT_PROVUI_DATA</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPT_PROVUI_DATA</b> structure provides user interface (UI) data for a provider. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provui_funcs">CRYPT_PROVUI_FUNCS</a> structure.
+The <b>CRYPT_PROVUI_DATA</b> structure provides user interface (UI) data for a provider. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_provui_funcs">CRYPT_PROVUI_FUNCS</a> structure.
 
 
 ## -struct-fields
@@ -111,7 +111,7 @@ A pointer to a <b>null</b>-terminated string for the text used when a signature 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provui_funcs">CRYPT_PROVUI_FUNCS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_provui_funcs">CRYPT_PROVUI_FUNCS</a>
  
 
  

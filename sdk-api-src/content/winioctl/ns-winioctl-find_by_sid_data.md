@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: fd0294a1-be43-4353-8edc-dff8bf0b0787
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFIND_BY_SID_DATA, FIND_BY_SID_DATA, FIND_BY_SID_DATA structure [Files], PFIND_BY_SID_DATA, PFIND_BY_SID_DATA structure pointer [Files], base.find_by_sid_data, fs.find_by_sid_data, winioctl/FIND_BY_SID_DATA, winioctl/PFIND_BY_SID_DATA"
+ms.keywords: '*PFIND_BY_SID_DATA, FIND_BY_SID_DATA, FIND_BY_SID_DATA structure [Files], PFIND_BY_SID_DATA, PFIND_BY_SID_DATA structure pointer [Files], base.find_by_sid_data, fs.find_by_sid_data, winioctl/FIND_BY_SID_DATA, winioctl/PFIND_BY_SID_DATA'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/FIND_BY_SID_DATA"
+f1_keywords:
+- winioctl/FIND_BY_SID_DATA
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FIND_BY_SID_DATA
+- FIND_BY_SID_DATA
 product: Windows
 targetos: Windows
 req.typenames: FIND_BY_SID_DATA, *PFIND_BY_SID_DATA
@@ -69,7 +69,7 @@ Indicates whether to restart the search. This member should be 1 on first call, 
 
 ### -field Sid
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that specifies the desired creator 
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that specifies the desired creator 
       owner.
 
 

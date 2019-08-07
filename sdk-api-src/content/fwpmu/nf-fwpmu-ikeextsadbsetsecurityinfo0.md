@@ -89,14 +89,14 @@ The group's SID to be set in the security descriptor.
 
 ### -param dacl [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>*</b>
 
 The discretionary access control list (DACL) to be set in the security descriptor.
 
 
 ### -param sacl [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>*</b>
 
 The system access control list (SACL) to be set in the security descriptor.
 

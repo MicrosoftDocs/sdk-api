@@ -63,7 +63,7 @@ The
 
 ### -field QueryDesc
 
-One of the  following values from the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a> enumeration. 
+One of the  following values from the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a> enumeration. 
 
 
 
@@ -85,7 +85,7 @@ Returns a sequence of SSL records in a sequence of calls, as controlled by the <
 ### -field KeyDesc
 
 If the <i>QueryDesc</i> parameter is equal to <b>HttpServiceConfigQueryExact</b>, then <i>KeyDesc</i> should contain an 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_key">HTTP_SERVICE_CONFIG_SSL_KEY</a> structure that identifies the SSL certificate record queried. If the <i>QueryDesc</i> parameter is equal to HTTPServiceConfigQueryNext, then <i>KeyDesc</i> is ignored.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_key">HTTP_SERVICE_CONFIG_SSL_KEY</a> structure that identifies the SSL certificate record queried. If the <i>QueryDesc</i> parameter is equal to HTTPServiceConfigQueryNext, then <i>KeyDesc</i> is ignored.
 
 
 ### -field dwToken
@@ -105,7 +105,7 @@ If the <i>QueryDesc</i> parameter is equal to <b>HttpServiceConfigQueryExact</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a>
 
 
 

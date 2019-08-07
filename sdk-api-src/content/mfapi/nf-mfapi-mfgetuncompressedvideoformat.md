@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7869025a-dacf-47e6-b129-db5b2daefa3b, MFGetUncompressedVideoFormat, MFGetUncompressedVideoFormat function [Media Foundation], mf.mfgetuncompressedvideoformat, mfapi/MFGetUncompressedVideoFormat
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFGetUncompressedVideoFormat"
+f1_keywords:
+- mfapi/MFGetUncompressedVideoFormat
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Evr.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFGetUncompressedVideoFormat
+- MFGetUncompressedVideoFormat
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This API is not supported and may be altered or unavailable in the future. Applications should avoid using the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat">MFVIDEOFORMAT</a> structure, and use media type attributes instead. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/video-media-types">Video Media Types</a>.]
+<p class="CCE_Message">[This API is not supported and may be altered or unavailable in the future. Applications should avoid using the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure, and use media type attributes instead. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/video-media-types">Video Media Types</a>.]
 
 Returns the FOURCC or <b>D3DFORMAT</b> value for an uncompressed video format.
 
@@ -63,7 +63,7 @@ Returns the FOURCC or <b>D3DFORMAT</b> value for an uncompressed video format.
 
 ### -param pVideoFormat [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat">MFVIDEOFORMAT</a> structure.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure.
           
 
 

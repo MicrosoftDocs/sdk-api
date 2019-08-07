@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_WEB_SOCKET_CLOSE_OPERATION, WINHTTP_WEB_SOCKET_OPERATION, WINHTTP_WEB_SOCKET_OPERATION enumeration [HTTP], WINHTTP_WEB_SOCKET_RECEIVE_OPERATION, WINHTTP_WEB_SOCKET_SEND_OPERATION, WINHTTP_WEB_SOCKET_SHUTDOWN_OPERATION, http.winhttp_web_socket_operation, winhttp/WINHTTP_WEB_SOCKET_CLOSE_OPERATION, winhttp/WINHTTP_WEB_SOCKET_OPERATION, winhttp/WINHTTP_WEB_SOCKET_RECEIVE_OPERATION, winhttp/WINHTTP_WEB_SOCKET_SEND_OPERATION, winhttp/WINHTTP_WEB_SOCKET_SHUTDOWN_OPERATION
 ms.topic: enum
-f1_keywords: 
- - "winhttp/WINHTTP_WEB_SOCKET_OPERATION"
+f1_keywords:
+- winhttp/WINHTTP_WEB_SOCKET_OPERATION
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winhttp.h
+- winhttp.h
 api_name:
- - WINHTTP_WEB_SOCKET_OPERATION
+- WINHTTP_WEB_SOCKET_OPERATION
 product: Windows
 targetos: Windows
 req.typenames: WINHTTP_WEB_SOCKET_OPERATION
@@ -84,7 +84,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-_winhttp_web_socket_async_result">WINHTTP_WEB_SOCKET_ASYNC_RESULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-winhttp_web_socket_async_result">WINHTTP_WEB_SOCKET_ASYNC_RESULT</a>
 
 
 

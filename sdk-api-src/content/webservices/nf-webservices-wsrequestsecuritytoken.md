@@ -71,7 +71,7 @@ should take place.
                 
 
 The supplied channel should have been <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">created</a> with the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_description">WS_SECURITY_DESCRIPTION</a> to meet the security requirements of
-the issuer, and then <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenchannel">opened</a> to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> of the issuer.  The caller is also
+the issuer, and then <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenchannel">opened</a> to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> of the issuer.  The caller is also
 responsible for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsclosechannel">closing</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreechannel">freeing</a> the channel after the completion of
 this function.
                 

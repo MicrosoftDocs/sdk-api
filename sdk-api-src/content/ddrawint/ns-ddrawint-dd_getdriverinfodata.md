@@ -89,7 +89,7 @@ GUID_ColorControlCallbacks
 
 </td>
 <td>
-Queries whether the driver supports <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_colorcb_colorcontrol">DdControlColor</a>. If the driver does support it, the driver should initialize and return a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_colorcontrolcallbacks">DD_COLORCONTROLCALLBACKS</a> structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_colorcb_colorcontrol">DdControlColor</a>. If the driver does support it, the driver should initialize and return a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_colorcontrolcallbacks">DD_COLORCONTROLCALLBACKS</a> structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>

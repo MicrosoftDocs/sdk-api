@@ -70,7 +70,7 @@ The <b>DdVideoPortDestroy</b> callback function notifies the driver that DirectD
 
 #### - lpDestroyVideoPort
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_destroyvportdata">DD_DESTROYVPORTDATA</a> structure that contains the information required for the driver to clean up.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_destroyvportdata">DD_DESTROYVPORTDATA</a> structure that contains the information required for the driver to clean up.
 
 
 ## -returns
@@ -98,7 +98,7 @@ The driver should free any memory that it allocated and associated with the spec
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_destroyvportdata">DD_DESTROYVPORTDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_destroyvportdata">DD_DESTROYVPORTDATA</a>
 
 
 

@@ -74,7 +74,7 @@ For information on compatibility with the current device, see the <b>Features0</
 ### -field ElementStatus
 
 An array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_element_status">CHANGER_ELEMENT_STATUS</a> structures, one for each element that corresponded with the information passed in with the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element_status">CHANGER_ELEMENT_STATUS</a> structures, one for each element that corresponded with the information passed in with the 
 <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-changer_send_volume_tag_information">CHANGER_SEND_VOLUME_TAG_INFORMATION</a> structure.
 
 
@@ -83,7 +83,7 @@ An array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_element_status">CHANGER_ELEMENT_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element_status">CHANGER_ELEMENT_STATUS</a>
 
 
 

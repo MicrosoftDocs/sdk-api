@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetReaderPosition, WsGetReaderPosition function [Web Services for Windows], webservices/WsGetReaderPosition, wsw.wsgetreaderposition
 ms.topic: function
-f1_keywords: 
- - "webservices/WsGetReaderPosition"
+f1_keywords:
+- webservices/WsGetReaderPosition
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsGetReaderPosition
+- WsGetReaderPosition
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -111,7 +111,7 @@ One or more arguments are invalid.
 
 
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_node_position">WS_XML_NODE_POSITION</a> for more information on using positions.
+See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_node_position">WS_XML_NODE_POSITION</a> for more information on using positions.
       
 
 

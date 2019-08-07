@@ -132,7 +132,7 @@ Searches for a certificate in the store having either an <a href="https://docs.m
 
 
 
-A certificate has an enhanced key usage extension if it has a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a> structure with the <b>pszObjId</b> member set to szOID_ENHANCED_KEY_USAGE. A certificate has an enhanced key usage property if its CERT_ENHKEY_USAGE_PROP_ID identifier is set.
+A certificate has an enhanced key usage extension if it has a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structure with the <b>pszObjId</b> member set to szOID_ENHANCED_KEY_USAGE. A certificate has an enhanced key usage property if its CERT_ENHKEY_USAGE_PROP_ID identifier is set.
 
 If <b>pvFindPara</b> is <b>NULL</b> or the <b>cUsageIdentifier</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a> is zero, any certificate that has either the enhanced key usage extension or the enhanced key usage property meets the selection criteria.
 

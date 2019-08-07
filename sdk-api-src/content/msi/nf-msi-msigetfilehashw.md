@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiGetFileHash, MsiGetFileHash function, MsiGetFileHashA, MsiGetFileHashW, _msi_msigetfilehash, msi/MsiGetFileHash, msi/MsiGetFileHashA, msi/MsiGetFileHashW, setup.msigetfilehash
 ms.topic: function
-f1_keywords: 
- - "msi/MsiGetFileHash"
+f1_keywords:
+- msi/MsiGetFileHash
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiGetFileHash
- - MsiGetFileHashA
- - MsiGetFileHashW
+- MsiGetFileHash
+- MsiGetFileHashA
+- MsiGetFileHashW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -150,7 +150,7 @@ Unexpected error has occurred.
 
 The entire 128-bit file hash is returned as four 32-bit fields. The numbering of the four fields is zero-based. The values returned by 
 <b>MsiGetFileHash</b> correspond to the four fields of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-_msifilehashinfo">MSIFILEHASHINFO</a> structure. The first field corresponds to the HashPart1 column of the MsiFileHash table, the second field corresponds to the HashPart2 column, the third field corresponds to the HashPart3 column, and the fourth field corresponds to the HashPart4 column.
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msifilehashinfo">MSIFILEHASHINFO</a> structure. The first field corresponds to the HashPart1 column of the MsiFileHash table, the second field corresponds to the HashPart2 column, the third field corresponds to the HashPart3 column, and the fourth field corresponds to the HashPart4 column.
 
 The hash information entered into the MsiFileHash table must be obtained by calling 
 <b>MsiGetFileHash</b> or the 
@@ -168,7 +168,7 @@ The hash information entered into the MsiFileHash table must be obtained by call
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-_msifilehashinfo">MSIFILEHASHINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msifilehashinfo">MSIFILEHASHINFO</a>
 
 
 

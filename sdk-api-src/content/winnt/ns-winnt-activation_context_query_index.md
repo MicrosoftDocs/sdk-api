@@ -8,10 +8,10 @@ tech.root: SbsCs
 ms.assetid: eb15895c-07c9-4b68-83ef-2f2b8e3b271c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PACTIVATION_CONTEXT_QUERY_INDEX, ACTIVATION_CONTEXT_QUERY_INDEX, ACTIVATION_CONTEXT_QUERY_INDEX structure [Side-by-side Assemblies], PACTIVATION_CONTEXT_QUERY_INDEX, PACTIVATION_CONTEXT_QUERY_INDEX structure pointer [Side-by-side Assemblies], _ACTIVATION_CONTEXT_QUERY_INDEX, _win32_activation_context_query_index, setup.activation_context_query_index, winnt/ACTIVATION_CONTEXT_QUERY_INDEX, winnt/PACTIVATION_CONTEXT_QUERY_INDEX"
+ms.keywords: '*PACTIVATION_CONTEXT_QUERY_INDEX, ACTIVATION_CONTEXT_QUERY_INDEX, ACTIVATION_CONTEXT_QUERY_INDEX structure [Side-by-side Assemblies], PACTIVATION_CONTEXT_QUERY_INDEX, PACTIVATION_CONTEXT_QUERY_INDEX structure pointer [Side-by-side Assemblies], _ACTIVATION_CONTEXT_QUERY_INDEX, _win32_activation_context_query_index, setup.activation_context_query_index, winnt/ACTIVATION_CONTEXT_QUERY_INDEX, winnt/PACTIVATION_CONTEXT_QUERY_INDEX'
 ms.topic: struct
-f1_keywords: 
- - "winnt/ACTIVATION_CONTEXT_QUERY_INDEX"
+f1_keywords:
+- winnt/ACTIVATION_CONTEXT_QUERY_INDEX
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - ACTIVATION_CONTEXT_QUERY_INDEX
+- ACTIVATION_CONTEXT_QUERY_INDEX
 product: Windows
 targetos: Windows
 req.typenames: ACTIVATION_CONTEXT_QUERY_INDEX, *PACTIVATION_CONTEXT_QUERY_INDEX
@@ -78,7 +78,7 @@ Zero-based index of the file in the above assembly to be queried.
 Calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> function with the FileInformationInAssemblyOfAssemblyInActivationContext option requires that the <i>pvSubInstance</i> parameter point to an 
 <b>ACTIVATION_CONTEXT_QUERY_INDEX</b> structure. See the sample for 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_assembly_file_detailed_information">ASSEMBLY_FILE_DETAILED_INFORMATION</a> for an example of its use.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-assembly_file_detailed_information">ASSEMBLY_FILE_DETAILED_INFORMATION</a> for an example of its use.
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemBindData2 interface [Windows Shell],SetFileID method, IFileSystemBindData2.SetFileID, IFileSystemBindData2::SetFileID, SetFileID, SetFileID method [Windows Shell], SetFileID method [Windows Shell],IFileSystemBindData2 interface, _shell_IFileSystemBindData2_SetFileID, shell.IFileSystemBindData2_SetFileID, shobjidl_core/IFileSystemBindData2::SetFileID
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileSystemBindData2.SetFileID"
+f1_keywords:
+- shobjidl_core/IFileSystemBindData2.SetFileID
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileSystemBindData2.SetFileID
+- IFileSystemBindData2.SetFileID
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Sets the unique file identifier for the current file.
 
 Type: <b>LARGE_INTEGER</b>
 
-A unique file identifier for the current file.  <i>liFileID</i> is a value that is a concatenation of the values <i>nFileIndexHigh</i> and <i>nFileIndexlow</i>, noted in structure <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_by_handle_file_information">_by_handle_file_information</a>.
+A unique file identifier for the current file.  <i>liFileID</i> is a value that is a concatenation of the values <i>nFileIndexHigh</i> and <i>nFileIndexlow</i>, noted in structure <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-by_handle_file_information">_by_handle_file_information</a>.
         
 
 

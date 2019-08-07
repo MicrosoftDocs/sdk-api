@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRetransmitParams, GetRetransmitParams method, GetRetransmitParams method,IWSDUdpMessageParameters interface, IWSDUdpMessageParameters interface,GetRetransmitParams method, IWSDUdpMessageParameters.GetRetransmitParams, IWSDUdpMessageParameters::GetRetransmitParams, ncd.iwsdudpmessageparameters_getretransmitparams, wsdbase/IWSDUdpMessageParameters::GetRetransmitParams
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDUdpMessageParameters.GetRetransmitParams"
+f1_keywords:
+- wsdbase/IWSDUdpMessageParameters.GetRetransmitParams
 req.header: wsdbase.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDUdpMessageParameters.GetRetransmitParams
+- IWSDUdpMessageParameters.GetRetransmitParams
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Retrieves the values that WSD uses to determine how often to repeat the message 
 
 ### -param pParams [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-_wsdudpretransmitparams">WSDUdpRetransmitParams</a> structure. The structure contains values that determine how often WSD repeats the message transmission. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsdudpretransmitparams">WSDUdpRetransmitParams</a> structure. The structure contains values that determine how often WSD repeats the message transmission. 
 
 
 ## -returns

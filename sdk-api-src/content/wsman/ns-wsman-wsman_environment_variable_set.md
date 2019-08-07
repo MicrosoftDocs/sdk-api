@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_ENVIRONMENT_VARIABLE_SET, WSMAN_ENVIRONMENT_VARIABLE_SET structure [Windows Remote Management], winrm.wsman_environment_variable_set, wsman/WSMAN_ENVIRONMENT_VARIABLE_SET
 ms.topic: struct
-f1_keywords: 
- - "wsman/WSMAN_ENVIRONMENT_VARIABLE_SET"
+f1_keywords:
+- wsman/WSMAN_ENVIRONMENT_VARIABLE_SET
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_ENVIRONMENT_VARIABLE_SET
+- WSMAN_ENVIRONMENT_VARIABLE_SET
 product: Windows
 targetos: Windows
 req.typenames: WSMAN_ENVIRONMENT_VARIABLE_SET
@@ -66,5 +66,5 @@ Specifies the number of environment variables contained within the <b>vars</b> a
 
 ### -field vars
 
-Defines an array of environment variables. Each element of the array is of type <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_environment_variable">WSMAN_ENVIRONMENT_VARIABLE</a>.
+Defines an array of environment variables. Each element of the array is of type <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_environment_variable">WSMAN_ENVIRONMENT_VARIABLE</a>.
 

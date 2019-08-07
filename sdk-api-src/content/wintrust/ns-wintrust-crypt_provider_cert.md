@@ -210,5 +210,5 @@ Boolean value that indicates whether the certificate trust is cyclical.
 
 ### -field pChainElement
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_element">CERT_CHAIN_ELEMENT</a> that represents the status of the certificate within a chain.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_element">CERT_CHAIN_ELEMENT</a> that represents the status of the certificate within a chain.
 

@@ -95,7 +95,7 @@ This attribute is not supported by Schannel in WOW64 mode.
 </dl>
 </td>
 <td width="60%">
-Sets the Kerberos proxy setting in a  <i>pBuffer</i> parameter of type <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcredentials_kdcproxysettingsw">SecPkgCredentials_KdcProxySettings</a>.
+Sets the Kerberos proxy setting in a  <i>pBuffer</i> parameter of type <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_kdcproxysettingsw">SecPkgCredentials_KdcProxySettings</a>.
 
 This attribute is only supported by Kerberos.
 

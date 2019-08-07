@@ -84,7 +84,7 @@ The high part of the identifier.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_log_record_base">TXF_LOG_RECORD_BASE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_base">TXF_LOG_RECORD_BASE</a>
 
 
 
@@ -92,7 +92,7 @@ The high part of the identifier.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_log_record_write">TXF_LOG_RECORD_WRITE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_write">TXF_LOG_RECORD_WRITE</a>
 
 
 

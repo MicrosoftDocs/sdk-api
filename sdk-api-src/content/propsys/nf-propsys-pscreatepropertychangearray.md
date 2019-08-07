@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSCreatePropertyChangeArray, PSCreatePropertyChangeArray function [Windows Properties], _shell_PSCreatePropertyChangeArray, properties.PSCreatePropertyChangeArray, propsys/PSCreatePropertyChangeArray, shell.PSCreatePropertyChangeArray
 ms.topic: function
-f1_keywords: 
- - "propsys/PSCreatePropertyChangeArray"
+f1_keywords:
+- propsys/PSCreatePropertyChangeArray
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSCreatePropertyChangeArray
+- PSCreatePropertyChangeArray
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ Creates a container for a set of <a href="https://docs.microsoft.com/windows/des
 
 ### -param rgpropkey [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structures that name the specific properties whose changes are being stored. If this value is <b>NULL</b>, <i>cChanges</i> must be 0.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structures that name the specific properties whose changes are being stored. If this value is <b>NULL</b>, <i>cChanges</i> must be 0.
 
 
 ### -param rgflags [in, optional]

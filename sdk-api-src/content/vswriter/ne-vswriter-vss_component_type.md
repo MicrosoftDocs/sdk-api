@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VSS_COMPONENT_TYPE, VSS_COMPONENT_TYPE enumeration [VSS], VSS_CT_DATABASE, VSS_CT_FILEGROUP, VSS_CT_UNDEFINED, _win32_vss_component_type, base.vss_component_type, enumeration [VSS], vswriter/VSS_COMPONENT_TYPE, vswriter/VSS_CT_DATABASE, vswriter/VSS_CT_FILEGROUP, vswriter/VSS_CT_UNDEFINED
 ms.topic: enum
-f1_keywords: 
- - "vswriter/VSS_COMPONENT_TYPE"
+f1_keywords:
+- vswriter/VSS_COMPONENT_TYPE
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VsWriter.h
+- VsWriter.h
 api_name:
- - VSS_COMPONENT_TYPE
+- VSS_COMPONENT_TYPE
 product: Windows
 targetos: Windows
 req.typenames: VSS_COMPONENT_TYPE
@@ -100,9 +100,9 @@ A requester can obtain the type of any component in a given writer's Writer Meta
       to obtain a <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivsswmcomponent">IVssWMComponent</a> interface</li>
 <li>Using 
       <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getcomponentinfo">IVssWMComponent::GetComponentInfo</a> to 
-      return a <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/ns-vsbackup-_vss_componentinfo">VSS_COMPONENTINFO</a> structure</li>
+      return a <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/ns-vsbackup-vss_componentinfo">VSS_COMPONENTINFO</a> structure</li>
 <li>Examining the <b>Type</b> member of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/ns-vsbackup-_vss_componentinfo">VSS_COMPONENTINFO</a> object</li>
+      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/ns-vsbackup-vss_componentinfo">VSS_COMPONENTINFO</a> object</li>
 </ol>
 
 
@@ -116,7 +116,7 @@ A requester can obtain the type of any component in a given writer's Writer Meta
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/ns-vsbackup-_vss_componentinfo">VSS_COMPONENTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/ns-vsbackup-vss_componentinfo">VSS_COMPONENTINFO</a>
 
 
 

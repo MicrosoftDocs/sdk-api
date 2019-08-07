@@ -8,10 +8,10 @@ tech.root: power
 ms.assetid: 57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSYSTEM_POWER_STATE, PSYSTEM_POWER_STATE, PSYSTEM_POWER_STATE enumeration pointer, PowerSystemHibernate, PowerSystemMaximum, PowerSystemShutdown, PowerSystemSleeping1, PowerSystemSleeping2, PowerSystemSleeping3, PowerSystemUnspecified, PowerSystemWorking, SYSTEM_POWER_STATE, SYSTEM_POWER_STATE enumeration, _win32_system_power_state, base.system_power_state, winnt/PSYSTEM_POWER_STATE, winnt/PowerSystemHibernate, winnt/PowerSystemMaximum, winnt/PowerSystemShutdown, winnt/PowerSystemSleeping1, winnt/PowerSystemSleeping2, winnt/PowerSystemSleeping3, winnt/PowerSystemUnspecified, winnt/PowerSystemWorking, winnt/SYSTEM_POWER_STATE"
+ms.keywords: '*PSYSTEM_POWER_STATE, PSYSTEM_POWER_STATE, PSYSTEM_POWER_STATE enumeration pointer, PowerSystemHibernate, PowerSystemMaximum, PowerSystemShutdown, PowerSystemSleeping1, PowerSystemSleeping2, PowerSystemSleeping3, PowerSystemUnspecified, PowerSystemWorking, SYSTEM_POWER_STATE, SYSTEM_POWER_STATE enumeration, _win32_system_power_state, base.system_power_state, winnt/PSYSTEM_POWER_STATE, winnt/PowerSystemHibernate, winnt/PowerSystemMaximum, winnt/PowerSystemShutdown, winnt/PowerSystemSleeping1, winnt/PowerSystemSleeping2, winnt/PowerSystemSleeping3, winnt/PowerSystemUnspecified, winnt/PowerSystemWorking, winnt/SYSTEM_POWER_STATE'
 ms.topic: enum
-f1_keywords: 
- - "winnt/SYSTEM_POWER_STATE"
+f1_keywords:
+- winnt/SYSTEM_POWER_STATE
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - SYSTEM_POWER_STATE
+- SYSTEM_POWER_STATE
 product: Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_STATE, *PSYSTEM_POWER_STATE
@@ -104,15 +104,15 @@ Specifies the maximum enumeration value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_administrator_power_policy">ADMINISTRATOR_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-administrator_power_policy">ADMINISTRATOR_POWER_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_global_machine_power_policy">GLOBAL_MACHINE_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_machine_power_policy">GLOBAL_MACHINE_POWER_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_machine_power_policy">MACHINE_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-machine_power_policy">MACHINE_POWER_POLICY</a>
 
 
 
@@ -124,11 +124,11 @@ Specifies the maximum enumeration value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_power_policy">SYSTEM_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_user_power_policy">USER_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-user_power_policy">USER_POWER_POLICY</a>
  
 
  

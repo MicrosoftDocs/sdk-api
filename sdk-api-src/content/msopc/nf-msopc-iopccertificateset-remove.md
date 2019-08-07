@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcCertificateSet interface [Open Packaging Conventions],Remove method, IOpcCertificateSet.Remove, IOpcCertificateSet::Remove, Remove, Remove method [Open Packaging Conventions], Remove method [Open Packaging Conventions],IOpcCertificateSet interface, msopc/IOpcCertificateSet::Remove, opc.iopccertificateset_remove
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcCertificateSet.Remove"
+f1_keywords:
+- msopc/IOpcCertificateSet.Remove
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcCertificateSet.Remove
+- IOpcCertificateSet.Remove
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Removes a specified certificate from the set.
 
 ### -param certificate [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that contains the certificate to be removed.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the certificate to be removed.
 
 
 ## -returns

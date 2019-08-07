@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_REQUEST_OPLOCK, FSCTL_REQUEST_OPLOCK control, FSCTL_REQUEST_OPLOCK control code [Files], fs.fsctl_request_oplock, winioctl/FSCTL_REQUEST_OPLOCK
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_REQUEST_OPLOCK"
+f1_keywords:
+- winioctl/FSCTL_REQUEST_OPLOCK
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_REQUEST_OPLOCK
+- FSCTL_REQUEST_OPLOCK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -166,7 +166,7 @@ The <b>FSCTL_REQUEST_OPLOCK</b> control code provides
     codes require that the handle be closed and then reopened with 
     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> to make such a change. This is accomplished by 
     manipulating the <b>RequestedOplockLevel</b> member of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a> structure when 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a> structure when 
     re-issuing the <b>FSCTL_REQUEST_OPLOCK</b> control 
     code.
 
@@ -310,7 +310,7 @@ An RH oplock on a directory breaks to R when the directory itself is renamed or 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 

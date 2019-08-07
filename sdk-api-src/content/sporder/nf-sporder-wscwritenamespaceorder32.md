@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSCWriteNameSpaceOrder32, WSCWriteNameSpaceOrder32 function [Winsock], sporder/WSCWriteNameSpaceOrder32, winsock.wscwritenamespaceorder32
 ms.topic: function
-f1_keywords: 
- - "sporder/WSCWriteNameSpaceOrder32"
+f1_keywords:
+- sporder/WSCWriteNameSpaceOrder32
 req.header: sporder.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Sporder.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSCWriteNameSpaceOrder32
+- WSCWriteNameSpaceOrder32
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ The
 
 ### -param lpProviderId [in]
 
-An array of <b>NSProviderId</b> elements as found in the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsanamespace_infow">WSANAMESPACE_INFO</a>structure.  The order of the <b>NSProviderId</b> elements is the new
+An array of <b>NSProviderId</b> elements as found in the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infow">WSANAMESPACE_INFO</a>structure.  The order of the <b>NSProviderId</b> elements is the new
       priority ordering for the namespace providers.
 
 
@@ -178,7 +178,7 @@ The current namespace provider catalog is stored in the registry under the follo
 
 
 
-A client request for name resolution uses the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta">WSALookupServiceNext</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupserviceend">WSALookupServiceEnd</a> routines. The <b>dwNameSpace</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a> structure passed to <b>WSALookupServiceBegin</b> is set to the identifier of a single namespace (<b>NS_DNS</b>, for example) in which to constrain the search, or <b>NS_ALL</b> to include all namespaces. If multiple namespace providers support a specific namespace (for example, <b>NS_DNS</b>), then the results from all namespace providers that match the requested <b>dwNameSpace</b> are returned unless the <b>lpNSProviderId</b> 
+A client request for name resolution uses the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta">WSALookupServiceNext</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupserviceend">WSALookupServiceEnd</a> routines. The <b>dwNameSpace</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure passed to <b>WSALookupServiceBegin</b> is set to the identifier of a single namespace (<b>NS_DNS</b>, for example) in which to constrain the search, or <b>NS_ALL</b> to include all namespaces. If multiple namespace providers support a specific namespace (for example, <b>NS_DNS</b>), then the results from all namespace providers that match the requested <b>dwNameSpace</b> are returned unless the <b>lpNSProviderId</b> 
 member is set to a specific namespace provider. The results from all namespace providers is returned if <b>NS_ALL</b> is specified for the <b>dwNameSpace</b> member. The order that the results are returned depends on the namespace provider order in the catalog.
 
 The Windows SDK includes an application called SpOrder.exe that allows the catalog of installed namespace providers to be displayed. Winsock 2 includes the ws2_32.DLL on 64-bit platforms that exports the  <b>WSCWriteNameSpaceOrder32</b> function for reordering namespace providers in the 32-bit namespace provider  catalog. This interface can be imported by linking with WS2_32.lib. For computers running on Windows XP with Service Pack 2 (SP2) and Windows Server 2003 with Service Pack 1 (SP1) and later,  the <b>netsh.exe winsock show catalog</b> command will display both the protocol and namespace providers installed. The native 64-bit catalog is displayed first followed by the 32-bit provider catalogs (denoted with a 32 after their name).
@@ -209,11 +209,11 @@ The following list describes scenarios in which the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsanamespace_infow">WSANAMESPACE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infow">WSANAMESPACE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQUERYSET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a>
 
 
 

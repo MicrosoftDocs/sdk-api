@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_SYMBOL, CP_THREAD_ACP, CP_UTF7, CP_UTF8, MB_COMPOSITE, MB_ERR_INVALID_CHARS, MB_PRECOMPOSED, MB_USEGLYPHCHARS, MultiByteToWideChar, MultiByteToWideChar function [Internationalization for Windows Applications], _win32_MultiByteToWideChar, intl.multibytetowidechar, stringapiset/MultiByteToWideChar
 ms.topic: function
-f1_keywords: 
- - "stringapiset/MultiByteToWideChar"
+f1_keywords:
+- stringapiset/MultiByteToWideChar
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-String-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- kernel32.dll
+- API-MS-Win-Core-String-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - MultiByteToWideChar
+- MultiByteToWideChar
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -283,7 +283,7 @@ The function returns 0 if it does not succeed. To get extended error information
 
 The default behavior of this function is to translate to a precomposed form of the input character string. If a precomposed form does not exist, the function attempts to translate to a composite form.
 
-The use of the MB_PRECOMPOSED flag has very little effect on most code pages because most input data is composed already. Consider calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-normalizestring">NormalizeString</a> after converting with <b>MultiByteToWideChar</b>. <b>NormalizeString</b> provides more accurate, standard, and consistent data, and can also be faster. Note that for the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-_norm_form">NORM_FORM</a> enumeration being passed to <b>NormalizeString</b>, NormalizationC corresponds to MB_PRECOMPOSED and NormalizationD corresponds to MB_COMPOSITE.
+The use of the MB_PRECOMPOSED flag has very little effect on most code pages because most input data is composed already. Consider calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-normalizestring">NormalizeString</a> after converting with <b>MultiByteToWideChar</b>. <b>NormalizeString</b> provides more accurate, standard, and consistent data, and can also be faster. Note that for the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-norm_form">NORM_FORM</a> enumeration being passed to <b>NormalizeString</b>, NormalizationC corresponds to MB_PRECOMPOSED and NormalizationD corresponds to MB_COMPOSITE.
 
 As mentioned in the caution above, the output buffer can easily be overrun if this function is not first called with <i>cchWideChar</i> set to 0 in order to obtain the required size. If the MB_COMPOSITE flag is used, the output can be three or more characters long for each input character.
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllocatePrivateHeap, AllocatePrivateHeap callback function [Security], LSA_ALLOCATE_PRIVATE_HEAP, LSA_ALLOCATE_PRIVATE_HEAP callback, ntsecpkg/AllocatePrivateHeap, security.allocateprivateheap
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/AllocatePrivateHeap"
+f1_keywords:
+- ntsecpkg/AllocatePrivateHeap
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - AllocatePrivateHeap
+- AllocatePrivateHeap
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -81,7 +81,7 @@ This function returns a pointer to the allocated heap memory. If memory could no
 
 
 A pointer to the <b>AllocatePrivateHeap</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 

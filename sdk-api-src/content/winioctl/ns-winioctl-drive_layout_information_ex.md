@@ -61,7 +61,7 @@ Contains extended information about a drive's partitions.
 ### -field PartitionStyle
 
 The style of the partitions on the drive enumerated by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_partition_style">PARTITION_STYLE</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a> enumeration.
 
 <table>
 <tr>
@@ -110,7 +110,7 @@ Partition not formatted in either of the recognized formats—MBR or GPT.
 The number of partitions on the drive. On hard disks with the MBR layout, this value will always be a 
       multiple of 4. Any partitions that are actually unused will have a partition type of 
       <b>PARTITION_ENTRY_UNUSED</b> (0) set in the <b>PartitionType</b> member 
-      of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information_mbr">PARTITION_INFORMATION_MBR</a> structure 
+      of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_mbr">PARTITION_INFORMATION_MBR</a> structure 
       of the <b>Mbr</b> member of the 
       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a> structure of the 
       <b>PartitionEntry</b> member of this structure.
@@ -165,7 +165,7 @@ A variable-sized array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_partition_style">PARTITION_STYLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NTSHChangeNotifyRegister, SHCNRF_InterruptLevel, SHCNRF_NewDelivery, SHCNRF_RecursiveInterrupt, SHCNRF_ShellLevel, SHChangeNotifyRegister, SHChangeNotifyRegister function [Windows Shell], _win32_SHChangeNotifyRegister, shell.SHChangeNotifyRegister, shlobj_core/NTSHChangeNotifyRegister, shlobj_core/SHChangeNotifyRegister
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHChangeNotifyRegister"
+f1_keywords:
+- shlobj_core/SHChangeNotifyRegister
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
- - windows.storage.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- windows.storage.dll
 api_name:
- - SHChangeNotifyRegister
- - NTSHChangeNotifyRegister
+- SHChangeNotifyRegister
+- NTSHChangeNotifyRegister
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -96,7 +96,7 @@ Shell-level notifications from the shell.
 
 #### SHCNRF_RecursiveInterrupt (0x1000)
 
-Interrupt events on the whole subtree. This flag must be combined with the <b>SHCNRF_InterruptLevel</b> flag. When using this flag, notifications must also be made recursive by setting the <b>fRecursive</b> member of the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangenotifyentry">SHChangeNotifyEntry</a> structure referenced by <i>pshcne</i> to <b>TRUE</b>. Use of <b>SHCNRF_RecursiveInterrupt</b> on a single level view—for example, a PIDL that is relative and contains only one <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a>—will block event notification at the highest level and thereby prevent a recursive, child update. Thus, an icon dragged into the lowest level of a folder hierarchy may fail to appear in the view as expected.
+Interrupt events on the whole subtree. This flag must be combined with the <b>SHCNRF_InterruptLevel</b> flag. When using this flag, notifications must also be made recursive by setting the <b>fRecursive</b> member of the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangenotifyentry">SHChangeNotifyEntry</a> structure referenced by <i>pshcne</i> to <b>TRUE</b>. Use of <b>SHCNRF_RecursiveInterrupt</b> on a single level view—for example, a PIDL that is relative and contains only one <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a>—will block event notification at the highest level and thereby prevent a recursive, child update. Thus, an icon dragged into the lowest level of a folder hierarchy may fail to appear in the view as expected.
 
 
 
@@ -132,9 +132,9 @@ Number of entries in the <i>pshcne</i> array.
 
 ### -param pshcne [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangenotifyentry">SHChangeNotifyEntry</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangenotifyentry">SHChangeNotifyEntry</a>*</b>
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangenotifyentry">SHChangeNotifyEntry</a> structures that contain the notifications. This array should always be set to one when calling <b>SHChangeNotifyRegister</b> or <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotifyderegister">SHChangeNotifyDeregister</a> will not work properly.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangenotifyentry">SHChangeNotifyEntry</a> structures that contain the notifications. This array should always be set to one when calling <b>SHChangeNotifyRegister</b> or <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotifyderegister">SHChangeNotifyDeregister</a> will not work properly.
 
 
 ## -returns

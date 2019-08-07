@@ -72,7 +72,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">
 ### -field pHash
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_efs_hash_blob">EFS_HASH_BLOB</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-efs_hash_blob">EFS_HASH_BLOB</a> structure.
 
 
 ### -field lpDisplayInformation
@@ -92,11 +92,11 @@ User-displayable information for the certificate.  This is usually the user's co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_efs_hash_blob">EFS_HASH_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-efs_hash_blob">EFS_HASH_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_encryption_certificate_hash_list">ENCRYPTION_CERTIFICATE_HASH_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-encryption_certificate_hash_list">ENCRYPTION_CERTIFICATE_HASH_LIST</a>
 
 
 

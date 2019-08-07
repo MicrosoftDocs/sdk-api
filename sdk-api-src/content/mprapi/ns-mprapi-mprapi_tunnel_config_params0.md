@@ -73,12 +73,12 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-pptp_
 
 ### -field L2tpConfigParams
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_l2tp_config_params0">L2TP_CONFIG_PARAMS</a> structure that contains Layer 2 Tunneling Protocol (L2TP) tunnel parameters.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-l2tp_config_params0">L2TP_CONFIG_PARAMS</a> structure that contains Layer 2 Tunneling Protocol (L2TP) tunnel parameters.
 
 
 ### -field SstpConfigParams
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_sstp_config_params">SSTP_CONFIG_PARAMS</a> structure that contains Secure Socket Tunneling Protocol (SSTP) tunnel parameters.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-sstp_config_params">SSTP_CONFIG_PARAMS</a> structure that contains Secure Socket Tunneling Protocol (SSTP) tunnel parameters.
 
 
 ## -see-also
@@ -86,7 +86,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_sstp
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a>
 
 
 

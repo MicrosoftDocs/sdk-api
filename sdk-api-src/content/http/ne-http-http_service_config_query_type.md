@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>HTTP_SERVICE_CONFIG_QUERY_TYPE</b> enumeration type defines various types of queries to make. It is used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_query">HTTP_SERVICE_CONFIG_SSL_QUERY</a>, <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_query">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_query">HTTP_SERVICE_CONFIG_SSL_QUERY</a>, <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_query">HTTP_SERVICE_CONFIG_SSL_CCS_QUERY</a>, and 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_urlacl_query">HTTP_SERVICE_CONFIG_URLACL_QUERY</a> structures.
 
 
@@ -86,7 +86,7 @@ Terminates the enumeration; is not used to define a query type.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_query">HTTP_SERVICE_CONFIG_SSL_QUERY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_query">HTTP_SERVICE_CONFIG_SSL_QUERY</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryServiceObjectSecurity, QueryServiceObjectSecurity function [Security], _win32_queryserviceobjectsecurity, security.queryserviceobjectsecurity, winsvc/QueryServiceObjectSecurity
 ms.topic: function
-f1_keywords: 
- - "winsvc/QueryServiceObjectSecurity"
+f1_keywords:
+- winsvc/QueryServiceObjectSecurity
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - sechost.dll
- - API-MS-Win-Service-management-l2-1-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- sechost.dll
+- API-MS-Win-Service-management-l2-1-0.dll
 api_name:
- - QueryServiceObjectSecurity
+- QueryServiceObjectSecurity
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -80,7 +80,7 @@ bit flags that indicate the type of security information to retrieve. This param
 ### -param lpSecurityDescriptor [out, optional]
 
 A pointer to a buffer that receives a copy of the security descriptor of the specified service object. The calling process must have the appropriate access to view the specified aspects of the  security descriptor of the object. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure is returned in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative</a> format.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure is returned in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative</a> format.
 
 
 ### -param cbBufSize [in]
@@ -199,7 +199,7 @@ To read the SACL from the security descriptor, the calling process must have bee
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 

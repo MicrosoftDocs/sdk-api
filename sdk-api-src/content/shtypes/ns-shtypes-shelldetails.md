@@ -8,10 +8,10 @@ tech.root: shell
 ms.assetid: 2910debb-b769-4498-bd99-9fbf16567e15
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSHELLDETAILS, LPSHELLDETAILS, LPSHELLDETAILS structure pointer [Windows Shell], LVCFMT_CENTER, LVCFMT_COL_HAS_IMAGES, LVCFMT_LEFT, LVCFMT_RIGHT, SHELLDETAILS, SHELLDETAILS structure [Windows Shell], The alignment of the leftmost column is always left-justified and cannot be changed., _win32_SHELLDETAILS_str, shell.SHELLDETAILS_str, shtypes/LPSHELLDETAILS, shtypes/SHELLDETAILS"
+ms.keywords: '*LPSHELLDETAILS, LPSHELLDETAILS, LPSHELLDETAILS structure pointer [Windows Shell], LVCFMT_CENTER, LVCFMT_COL_HAS_IMAGES, LVCFMT_LEFT, LVCFMT_RIGHT, SHELLDETAILS, SHELLDETAILS structure [Windows Shell], The alignment of the leftmost column is always left-justified and cannot be changed., _win32_SHELLDETAILS_str, shell.SHELLDETAILS_str, shtypes/LPSHELLDETAILS, shtypes/SHELLDETAILS'
 ms.topic: struct
-f1_keywords: 
- - "shtypes/SHELLDETAILS"
+f1_keywords:
+- shtypes/SHELLDETAILS
 req.header: shtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shtypes.h
+- Shtypes.h
 api_name:
- - SHELLDETAILS
+- SHELLDETAILS
 product: Windows
 targetos: Windows
 req.typenames: SHELLDETAILS, *LPSHELLDETAILS
@@ -104,9 +104,9 @@ The number of average-sized characters in the header.
 
 ### -field str
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_strret">STRRET</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_strret">STRRET</a> structure that includes a string with the requested information. To convert this structure to a string, use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strrettobufa">StrRetToBuf</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strrettostra">StrRetToStr</a>.
+An <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure that includes a string with the requested information. To convert this structure to a string, use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strrettobufa">StrRetToBuf</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strrettostra">StrRetToStr</a>.
 
 
 ## -see-also

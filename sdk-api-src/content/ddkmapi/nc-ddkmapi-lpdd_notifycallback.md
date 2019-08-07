@@ -297,7 +297,7 @@ A video capture driver supplies a <i>NotifyCallback</i> callback function to the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-_ddregistercallback">DDREGISTERCALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddregistercallback">DDREGISTERCALLBACK</a>
 
 
 

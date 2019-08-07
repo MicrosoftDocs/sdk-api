@@ -69,7 +69,7 @@ The value of this parameter  cannot be <b>NULL</b> if the <i>ContextHandle</i> p
 ### -param TargetName [in, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> that contains the name of the target of the context.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that contains the name of the target of the context.
 
 
 ### -param ContextRequirements [in]

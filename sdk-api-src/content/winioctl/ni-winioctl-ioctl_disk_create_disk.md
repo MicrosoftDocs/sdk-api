@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_CREATE_DISK, IOCTL_DISK_CREATE_DISK control, IOCTL_DISK_CREATE_DISK control code [Files], _win32_ioctl_disk_create_disk, base.ioctl_disk_create_disk, fs.ioctl_disk_create_disk, winioctl/IOCTL_DISK_CREATE_DISK
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_DISK_CREATE_DISK"
+f1_keywords:
+- winioctl/IOCTL_DISK_CREATE_DISK
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_DISK_CREATE_DISK
+- IOCTL_DISK_CREATE_DISK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ req.redist:
 
 
 Initializes the specified disk and disk partition table using the information in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_create_disk">CREATE_DISK</a> structure.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk">CREATE_DISK</a> structure.
 
 To perform this operation, call the 
     <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following 
@@ -148,8 +148,8 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 When specifying a GUID partition table (GPT) as the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_partition_style">PARTITION_STYLE</a> of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_create_disk">CREATE_DISK</a> structure, an application should wait for the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a> of the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk">CREATE_DISK</a> structure, an application should wait for the 
     MSR partition arrival before sending the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout_ex">IOCTL_DISK_SET_DRIVE_LAYOUT_EX</a> control code. 
     For more information about device notification, see 
@@ -163,7 +163,7 @@ When specifying a GUID partition table (GPT) as the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_create_disk">CREATE_DISK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk">CREATE_DISK</a>
 
 
 

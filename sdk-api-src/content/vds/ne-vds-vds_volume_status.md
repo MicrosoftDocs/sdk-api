@@ -119,7 +119,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_volum
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_pack_status">VDS_PACK_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_pack_status">VDS_PACK_STATUS</a>
 
 
 

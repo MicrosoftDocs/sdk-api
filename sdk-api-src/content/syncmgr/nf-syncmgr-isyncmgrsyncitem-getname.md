@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Windows Shell], GetName method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetName method, ISyncMgrSyncItem.GetName, ISyncMgrSyncItem::GetName, _shell_ISyncMgrSyncItem_GetName, shell.ISyncMgrSyncItem_GetName, syncmgr/ISyncMgrSyncItem::GetName
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrSyncItem.GetName"
+f1_keywords:
+- syncmgr/ISyncMgrSyncItem.GetName
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSyncItem.GetName
+- ISyncMgrSyncItem.GetName
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -89,7 +89,7 @@ The item is responsible for allocating the string buffer pointed to by <i>ppszCo
 
 Sync Center calls this method whenever the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updateitem">UpdateItem</a> method is called.
 
-In older Sync Manager implementations, this information was retrieved through the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrhandlerinfo">SYNCMGRHANDLERINFO</a> structure.
+In older Sync Manager implementations, this information was retrieved through the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgrhandlerinfo">SYNCMGRHANDLERINFO</a> structure.
 
 
 #### Examples

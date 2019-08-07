@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateProcessInputs interface [Windows Shell],SetCreateFlags method, ICreateProcessInputs.SetCreateFlags, ICreateProcessInputs::SetCreateFlags, SetCreateFlags, SetCreateFlags method [Windows Shell], SetCreateFlags method [Windows Shell],ICreateProcessInputs interface, shell.icreateprocessinputs_setcreateflags, shobjidl_core/ICreateProcessInputs::SetCreateFlags
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ICreateProcessInputs.SetCreateFlags"
+f1_keywords:
+- shobjidl_core/ICreateProcessInputs.SetCreateFlags
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ICreateProcessInputs.SetCreateFlags
+- ICreateProcessInputs.SetCreateFlags
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -103,7 +103,7 @@ The flags that will be passed to the <i>dwCreationFlags</i> parameter to <a href
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa">STARTUPINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a>
  
 
  

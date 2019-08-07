@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WRDS_RCM_SERVICE_STATE, WRDS_RCM_SERVICE_STATE enumeration [Remote Desktop Services], WTS_RCM_SERVICE_STATE, WTS_RCM_SERVICE_STATE enumeration [Remote Desktop Services], WTS_SERVICE_NONE, WTS_SERVICE_START, WTS_SERVICE_STOP, termserv.wts_rcm_service_state, wtsdefs/WRDS_RCM_SERVICE_STATE, wtsdefs/WTS_RCM_SERVICE_STATE, wtsdefs/WTS_SERVICE_NONE, wtsdefs/WTS_SERVICE_START, wtsdefs/WTS_SERVICE_STOP
 ms.topic: enum
-f1_keywords: 
- - "wtsdefs/WTS_RCM_SERVICE_STATE"
+f1_keywords:
+- wtsdefs/WTS_RCM_SERVICE_STATE
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsdefs.h
+- Wtsdefs.h
 api_name:
- - WTS_RCM_SERVICE_STATE
+- WTS_RCM_SERVICE_STATE
 product: Windows
 targetos: Windows
 req.typenames: WTS_RCM_SERVICE_STATE
@@ -78,7 +78,7 @@ The RCM service is stopping.
 
 
 
-This enumeration type is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_service_state">WTS_SERVICE_STATE</a> structure.
+This enumeration type is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_service_state">WTS_SERVICE_STATE</a> structure.
 
 
 

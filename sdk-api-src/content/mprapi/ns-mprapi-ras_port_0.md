@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>RAS_PORT_0</b> structure contains general information regarding a specific RAS port, such as port condition and port name. For more detailed information about a specific port, such as line speed or errors, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_port_1">RAS_PORT_1</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_port_1">RAS_PORT_1</a>.
 
 
 ## -struct-fields
@@ -117,7 +117,7 @@ Specifies the device type.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_port_1">RAS_PORT_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_port_1">RAS_PORT_1</a>
 
 
 

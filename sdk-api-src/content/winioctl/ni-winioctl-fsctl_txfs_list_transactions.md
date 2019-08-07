@@ -174,7 +174,7 @@ The number of transactions returned from one call to the next can change dependi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_list_transactions">TXFS_LIST_TRANSACTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_list_transactions">TXFS_LIST_TRANSACTIONS</a>
 
 
 

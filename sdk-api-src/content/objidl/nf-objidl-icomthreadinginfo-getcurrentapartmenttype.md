@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentApartmentType, GetCurrentApartmentType method [COM], GetCurrentApartmentType method [COM],IComThreadingInfo interface, IComThreadingInfo interface [COM],GetCurrentApartmentType method, IComThreadingInfo.GetCurrentApartmentType, IComThreadingInfo::GetCurrentApartmentType, _com_icomthreadinginfo_getcurrentapartmenttype, com.icomthreadinginfo_getcurrentapartmenttype, objidlbase/IComThreadingInfo::GetCurrentApartmentType
 ms.topic: method
-f1_keywords: 
- - "objidl/IComThreadingInfo.GetCurrentApartmentType"
+f1_keywords:
+- objidl/IComThreadingInfo.GetCurrentApartmentType
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IComThreadingInfo.GetCurrentApartmentType
+- IComThreadingInfo.GetCurrentApartmentType
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Retrieves the type of apartment in which the caller is executing.
 
 ### -param pAptType [out]
 
-A points to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-_apttype">APTTYPE</a> enumeration value that characterizes the caller's apartment.
+A points to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-apttype">APTTYPE</a> enumeration value that characterizes the caller's apartment.
 
 
 ## -returns

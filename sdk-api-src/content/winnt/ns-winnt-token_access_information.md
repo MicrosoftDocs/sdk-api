@@ -73,12 +73,12 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-
 
 ### -field Privileges
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_privileges">TOKEN_PRIVILEGES</a> structure that specifies information about the token's privileges.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a> structure that specifies information about the token's privileges.
 
 
 ### -field AuthenticationId
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> structure that specifies the token's identity.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure that specifies the token's identity.
 
 
 ### -field TokenType

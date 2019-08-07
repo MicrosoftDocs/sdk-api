@@ -62,7 +62,7 @@ The <b>CertGetCRLContextProperty</b> function gets an extended property for the 
 ### -param pCrlContext [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure.
 
 
 ### -param dwPropId [in]
@@ -124,7 +124,7 @@ Returns a <b>null</b>-terminated Unicode string naming the certificate type for 
 <td width="60%">
 Data type for <i>pvData</i>: pointer to a <b>BYTE</b> array
 
-Returns an array of bytes containing an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CTL_USAGE</a> structure.
+Returns an array of bytes containing an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a> structure.
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Returns the property displayed by the certificate UI. This property allows the u
 <td width="60%">
 Data type for <i>pvData</i>: 
 
-Returns an array of bytes containing an ASN.1 encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CERT_ENHKEY_USAGE</a> structure.
+Returns an array of bytes containing an ASN.1 encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a> structure.
 
 </td>
 </tr>

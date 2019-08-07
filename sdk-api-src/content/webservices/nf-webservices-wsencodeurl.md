@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsEncodeUrl, WsEncodeUrl function [Web Services for Windows], webservices/WsEncodeUrl, wsw.wsencodeurl
 ms.topic: function
-f1_keywords: 
- - "webservices/WsEncodeUrl"
+f1_keywords:
+- webservices/WsEncodeUrl
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsEncodeUrl
+- WsEncodeUrl
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,8 +51,8 @@ ms.custom: 19H1
 ## -description
 
 
-Encodes the specified <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_url">WS_URL</a> into a URL string given its component parts. Values are escaped as necessary,
-                combined, and stored in the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a>, and the result is returned as a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_string">WS_STRING</a>.
+Encodes the specified <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_url">WS_URL</a> into a URL string given its component parts. Values are escaped as necessary,
+                combined, and stored in the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a>, and the result is returned as a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_string">WS_STRING</a>.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Encodes the specified <a href="https://docs.microsoft.com/windows/desktop/api/we
 
 ### -param url [in]
 
-A reference to the  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_url">WS_URL</a> to encode.
+A reference to the  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_url">WS_URL</a> to encode.
                 
 
 

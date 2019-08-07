@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: b350ef3d-5ed5-4355-ae3a-f03fafff2f52
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PENCRYPTED_CREDENTIALW, ENCRYPTED_CREDENTIALW, ENCRYPTED_CREDENTIALW structure [Security], PENCRYPTED_CREDENTIALW, PENCRYPTED_CREDENTIALW structure pointer [Security], ntsecpkg/ENCRYPTED_CREDENTIALW, ntsecpkg/PENCRYPTED_CREDENTIALW, security.encrypted_credentialw"
+ms.keywords: '*PENCRYPTED_CREDENTIALW, ENCRYPTED_CREDENTIALW, ENCRYPTED_CREDENTIALW structure [Security], PENCRYPTED_CREDENTIALW, PENCRYPTED_CREDENTIALW structure pointer [Security], ntsecpkg/ENCRYPTED_CREDENTIALW, ntsecpkg/PENCRYPTED_CREDENTIALW, security.encrypted_credentialw'
 ms.topic: struct
-f1_keywords: 
- - "ntsecpkg/ENCRYPTED_CREDENTIALW"
+f1_keywords:
+- ntsecpkg/ENCRYPTED_CREDENTIALW
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - ENCRYPTED_CREDENTIALW
+- ENCRYPTED_CREDENTIALW
 product: Windows
 targetos: Windows
 req.typenames: ENCRYPTED_CREDENTIALW, *PENCRYPTED_CREDENTIALW
@@ -61,7 +61,7 @@ Represents an encrypted credential.
 
 ### -field Cred
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credentiala">CREDENTIAL</a> structure that contains the encrypted credential.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure that contains the encrypted credential.
 
 
 ### -field ClearCredentialBlobSize

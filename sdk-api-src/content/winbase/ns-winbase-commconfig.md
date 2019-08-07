@@ -78,13 +78,13 @@ Reserved; do not use.
 
 The device-control block (<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a>) structure for RS-232 serial devices. A 
 <b>DCB</b> structure is always present regardless of the port driver subtype specified in the device's 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commprop">COMMPROP</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commprop">COMMPROP</a> structure.
 
 
 ### -field dwProviderSubType
 
 The type of communications provider, and thus the format of the provider-specific data. For a list of communications provider types, see the description of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commprop">COMMPROP</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commprop">COMMPROP</a> structure.
 
 
 ### -field dwProviderOffset
@@ -108,7 +108,7 @@ Optional provider-specific data. This member can be of any size or can be omitte
 
 
 If the provider subtype is PST_RS232 or PST_PARALLELPORT, the <b>wcProviderData</b> member is omitted. If the provider subtype is PST_MODEM, the <b>wcProviderData</b> member contains a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-_modemsettings">MODEMSETTINGS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemsettings">MODEMSETTINGS</a> structure.
 
 
 
@@ -118,7 +118,7 @@ If the provider subtype is PST_RS232 or PST_PARALLELPORT, the <b>wcProviderData<
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commprop">COMMPROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commprop">COMMPROP</a>
 
 
 
@@ -130,7 +130,7 @@ If the provider subtype is PST_RS232 or PST_PARALLELPORT, the <b>wcProviderData<
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-_modemsettings">MODEMSETTINGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemsettings">MODEMSETTINGS</a>
  
 
  

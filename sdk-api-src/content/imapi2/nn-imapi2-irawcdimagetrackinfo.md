@@ -185,7 +185,7 @@ This interface is supported in Windows Server 2003 with Service Pack 1 (SP1), 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_cd_sector_type">IMAPI_CD_SECTOR_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_cd_sector_type">IMAPI_CD_SECTOR_TYPE</a>
 
 
 

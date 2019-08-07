@@ -181,7 +181,7 @@ The following table shows the valid file information classes and their correspon
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_allocation_info">FILE_ALLOCATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_allocation_info">FILE_ALLOCATION_INFO</a>
 
 
 </td>

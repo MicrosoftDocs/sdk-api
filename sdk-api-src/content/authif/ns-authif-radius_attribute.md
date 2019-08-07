@@ -70,7 +70,7 @@ Stores a value from the
 ### -field fDataType
 
 Stores a value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_data_type">RADIUS_DATA_TYPE</a> enumeration. This value specifies the type of the value stored in the union that contains the <b>dwValue</b> and <b>lpValue</b> members.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_data_type">RADIUS_DATA_TYPE</a> enumeration. This value specifies the type of the value stored in the union that contains the <b>dwValue</b> and <b>lpValue</b> members.
 
 
 ### -field cbDataLength
@@ -111,7 +111,7 @@ Stores a multi-byte data value. The <b>lpValue</b> member is used if the <b>fDat
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_data_type">RADIUS_DATA_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_data_type">RADIUS_DATA_TYPE</a>
  
 
  

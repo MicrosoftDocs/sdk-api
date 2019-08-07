@@ -156,7 +156,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 </td>
 <td width="60%">
 The <i>lpJobObjectInfo</i> parameter is a pointer to a 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> 
         structure.
 
 </td>
@@ -187,7 +187,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 </td>
 <td width="60%">
 The <i>lpJobObjectInfo</i> parameter is a pointer to a buffer that contains an array 
-        of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_group_affinity">GROUP_AFFINITY</a> structures that specify the 
+        of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a> structures that specify the 
         affinity of the job for the <a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">processor groups</a> to which 
         the job is currently assigned. The <i>cbJobObjectInfoLength</i> parameter is set to the 
         size of the group affinity data. Divide this value by 
@@ -356,11 +356,11 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0500
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_limit_violation_information">JOBOBJECT_LIMIT_VIOLATION_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_limit_violation_information">JOBOBJECT_LIMIT_VIOLATION_INFORMATION</a>
 
 
 

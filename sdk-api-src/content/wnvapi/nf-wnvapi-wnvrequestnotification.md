@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WnvRequestNotification, WnvRequestNotification function [Windows Network Virtualization], wnv.wnvrequestnotification, wnvapi/WnvRequestNotification
 ms.topic: function
-f1_keywords: 
- - "wnvapi/WnvRequestNotification"
+f1_keywords:
+- wnvapi/WnvRequestNotification
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wnvapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wnvapi.dll
+- wnvapi.dll
 api_name:
- - WnvRequestNotification
+- WnvRequestNotification
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ A pointer to the notification type for the request.
 
 ### -param Overlapped
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">LPOVERLAPPED</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">LPOVERLAPPED</a></b>
 
 Information about the asynchronous completion of this request. If this parameter is <b>NULL</b>, the request is synchronous.
 

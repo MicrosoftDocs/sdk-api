@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiSetClassPropertyEx, SetupDiSetClassPropertyEx function [Device and Driver Installation], SetupDiSetClassPropertyExW, devinst.setupdisetclasspropertyex, di-rtns_1366f35d-3801-4b88-b8e3-9ea25292558e.xml, setupapi/SetupDiSetClassPropertyEx
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiSetClassPropertyEx"
+f1_keywords:
+- setupapi/SetupDiSetClassPropertyEx
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -30,15 +30,15 @@ req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Setupapi.lib
- - Setupapi.dll
+- Setupapi.lib
+- Setupapi.dll
 api_name:
- - SetupDiSetClassPropertyEx
+- SetupDiSetClassPropertyEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetupDiSetClassPropertyEx</b> function sets a device property for a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a> on a local or remote computer.
+The <b>SetupDiSetClassPropertyEx</b> function sets a device property for a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a> on a local or remote computer.
 
 
 ## -parameters

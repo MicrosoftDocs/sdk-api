@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSUserConfigBrokenTimeoutSettings, WTSUserConfigInitialProgram, WTSUserConfigModemCallbackPhoneNumber, WTSUserConfigModemCallbackSettings, WTSUserConfigReconnectSettings, WTSUserConfigShadowingSettings, WTSUserConfigTerminalServerHomeDir, WTSUserConfigTerminalServerHomeDirDrive, WTSUserConfigTerminalServerProfilePath, WTSUserConfigTimeoutSettingsConnections, WTSUserConfigTimeoutSettingsDisconnections, WTSUserConfigTimeoutSettingsIdle, WTSUserConfigUser, WTSUserConfigWorkingDirectory, WTSUserConfigfAllowLogonTerminalServer, WTSUserConfigfDeviceClientDefaultPrinter, WTSUserConfigfDeviceClientDrives, WTSUserConfigfDeviceClientPrinters, WTSUserConfigfInheritInitialProgram, WTSUserConfigfTerminalServerRemoteHomeDir, WTS_CONFIG_CLASS, WTS_CONFIG_CLASS enumeration [Remote Desktop Services], _win32_wts_config_class_str, termserv.wts_config_class_str, wtsapi32/WTSUserConfigBrokenTimeoutSettings, wtsapi32/WTSUserConfigInitialProgram, wtsapi32/WTSUserConfigModemCallbackPhoneNumber, wtsapi32/WTSUserConfigModemCallbackSettings, wtsapi32/WTSUserConfigReconnectSettings, wtsapi32/WTSUserConfigShadowingSettings, wtsapi32/WTSUserConfigTerminalServerHomeDir, wtsapi32/WTSUserConfigTerminalServerHomeDirDrive, wtsapi32/WTSUserConfigTerminalServerProfilePath, wtsapi32/WTSUserConfigTimeoutSettingsConnections, wtsapi32/WTSUserConfigTimeoutSettingsDisconnections, wtsapi32/WTSUserConfigTimeoutSettingsIdle, wtsapi32/WTSUserConfigUser, wtsapi32/WTSUserConfigWorkingDirectory, wtsapi32/WTSUserConfigfAllowLogonTerminalServer, wtsapi32/WTSUserConfigfDeviceClientDefaultPrinter, wtsapi32/WTSUserConfigfDeviceClientDrives, wtsapi32/WTSUserConfigfDeviceClientPrinters, wtsapi32/WTSUserConfigfInheritInitialProgram, wtsapi32/WTSUserConfigfTerminalServerRemoteHomeDir, wtsapi32/WTS_CONFIG_CLASS
 ms.topic: enum
-f1_keywords: 
- - "wtsapi32/WTS_CONFIG_CLASS"
+f1_keywords:
+- wtsapi32/WTS_CONFIG_CLASS
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsapi32.h
+- Wtsapi32.h
 api_name:
- - WTS_CONFIG_CLASS
+- WTS_CONFIG_CLASS
 product: Windows
 targetos: Windows
 req.typenames: WTS_CONFIG_CLASS
@@ -526,7 +526,7 @@ The <b>WTSUserConfigTerminalServerHomeDir</b> string contains the UNC path of th
 
 ### -field WTSUserConfigUser
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtsuserconfiga">WTSUSERCONFIG</a> structure that contains configuration data for the session. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsuserconfiga">WTSUSERCONFIG</a> structure that contains configuration data for the session. 
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported.
 

@@ -106,7 +106,7 @@ Sets the tape-specific information specified by the <i>lpTapeInformation</i> par
 ### -param lpTapeInformation [in]
 
 Pointer to a structure that contains the information to set. If the <i>dwOperation</i> parameter is SET_TAPE_MEDIA_INFORMATION, <i>lpTapeInformation</i> points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_tape_set_media_parameters">TAPE_SET_MEDIA_PARAMETERS</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_set_media_parameters">TAPE_SET_MEDIA_PARAMETERS</a> structure. 
 
 
 
@@ -327,7 +327,7 @@ The media is write protected.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_tape_set_media_parameters">TAPE_SET_MEDIA_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_set_media_parameters">TAPE_SET_MEDIA_PARAMETERS</a>
  
 
  

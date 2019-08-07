@@ -132,7 +132,7 @@ Query complete information for a trusted domain. This information includes the P
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_trust_information">LSA_TRUST_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_trust_information">LSA_TRUST_INFORMATION</a>
 
 
 
@@ -160,7 +160,7 @@ Query complete information for a trusted domain. This information includes the P
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_password_info">TRUSTED_PASSWORD_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_password_info">TRUSTED_PASSWORD_INFO</a>
 
 
 

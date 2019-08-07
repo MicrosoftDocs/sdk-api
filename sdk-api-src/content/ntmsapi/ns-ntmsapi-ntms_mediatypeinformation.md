@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILE_DEVICE_CD_ROM, FILE_DEVICE_DISK, FILE_DEVICE_TAPE, NTMS_MEDIARW_READONLY, NTMS_MEDIARW_REWRITABLE, NTMS_MEDIARW_WRITEONCE, NTMS_MEDIATYPEINFORMATION, NTMS_MEDIATYPEINFORMATION structure [Files], _zaw_ntms_mediatypeinformation, base.ntms_mediatypeinformation, fs.ntms_mediatypeinformation, ntmsapi/NTMS_MEDIATYPEINFORMATION
 ms.topic: struct
-f1_keywords: 
- - "ntmsapi/NTMS_MEDIATYPEINFORMATION"
+f1_keywords:
+- ntmsapi/NTMS_MEDIATYPEINFORMATION
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntmsapi.h
+- Ntmsapi.h
 api_name:
- - NTMS_MEDIATYPEINFORMATION
+- NTMS_MEDIATYPEINFORMATION
 product: Windows
 targetos: Windows
 req.typenames: NTMS_MEDIATYPEINFORMATION
@@ -65,7 +65,7 @@ The
 ### -field MediaType
 
 Each disk or tape driver reports the media-type enumeration value of the medium that is currently mounted in the drive. This member can be one of the values in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_media_type">STORAGE_MEDIA_TYPE</a> enumeration type. This unique media type value is mapped to a human-readable string in the object <b>szName</b> member.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_media_type">STORAGE_MEDIA_TYPE</a> enumeration type. This unique media type value is mapped to a human-readable string in the object <b>szName</b> member.
 
 
 ### -field NumberOfSides
@@ -169,7 +169,7 @@ Sequential access device.
 
 The 
 <b>NTMS_MEDIATYPEINFORMATION</b> structure is included in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
 
 
@@ -179,7 +179,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
  
 
  

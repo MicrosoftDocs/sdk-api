@@ -8,10 +8,10 @@ tech.root: TermServ
 ms.assetid: 2B8191F8-FF54-4CF6-9239-F9BFA0FA0A6B
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWRDS_SETTING_TYPE, PWRDS_SETTING_TYPE, PWRDS_SETTING_TYPE enumeration pointer [Remote Desktop Services], WRDS_SETTING_TYPE, WRDS_SETTING_TYPE enumeration [Remote Desktop Services], WRDS_SETTING_TYPE_INVALID, WRDS_SETTING_TYPE_MACHINE, WRDS_SETTING_TYPE_SAM, WRDS_SETTING_TYPE_USER, termserv.wrds_setting_type, wtsdefs/PWRDS_SETTING_TYPE, wtsdefs/WRDS_SETTING_TYPE, wtsdefs/WRDS_SETTING_TYPE_INVALID, wtsdefs/WRDS_SETTING_TYPE_MACHINE, wtsdefs/WRDS_SETTING_TYPE_SAM, wtsdefs/WRDS_SETTING_TYPE_USER"
+ms.keywords: '*PWRDS_SETTING_TYPE, PWRDS_SETTING_TYPE, PWRDS_SETTING_TYPE enumeration pointer [Remote Desktop Services], WRDS_SETTING_TYPE, WRDS_SETTING_TYPE enumeration [Remote Desktop Services], WRDS_SETTING_TYPE_INVALID, WRDS_SETTING_TYPE_MACHINE, WRDS_SETTING_TYPE_SAM, WRDS_SETTING_TYPE_USER, termserv.wrds_setting_type, wtsdefs/PWRDS_SETTING_TYPE, wtsdefs/WRDS_SETTING_TYPE, wtsdefs/WRDS_SETTING_TYPE_INVALID, wtsdefs/WRDS_SETTING_TYPE_MACHINE, wtsdefs/WRDS_SETTING_TYPE_SAM, wtsdefs/WRDS_SETTING_TYPE_USER'
 ms.topic: enum
-f1_keywords: 
- - "wtsdefs/WRDS_SETTING_TYPE"
+f1_keywords:
+- wtsdefs/WRDS_SETTING_TYPE
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsdefs.h
+- Wtsdefs.h
 api_name:
- - WRDS_SETTING_TYPE
+- WRDS_SETTING_TYPE
 product: Windows
 targetos: Windows
 req.typenames: WRDS_SETTING_TYPE, *PWRDS_SETTING_TYPE
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the category of settings being stored in a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_settings">WRDS_SETTINGS</a> structure.
+Specifies the category of settings being stored in a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_settings">WRDS_SETTINGS</a> structure.
 
 
 ## -enum-fields

@@ -165,7 +165,7 @@ Reserved for future use. Must be <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_addresses">SERVICE_ADDRESSES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_addresses">SERVICE_ADDRESSES</a>
 
 
 

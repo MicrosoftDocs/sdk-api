@@ -162,7 +162,7 @@ If an error occurs while processing the
     <b>FILE_LEVEL_TRIM</b> structure in the input buffer pointed 
     to by the <i>lpInBuffer</i> parameter, processing stops and the 
     <b>NumRangesProcessed</b> member of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_level_trim_output">FILE_LEVEL_TRIM_OUTPUT</a> structure pointed to by the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_level_trim_output">FILE_LEVEL_TRIM_OUTPUT</a> structure pointed to by the 
     <i>lpOutBuffer</i> parameter will be indicate which ranges were successfully processed. Any 
     ranges between <b>NumRangesProcessed</b> and the <b>NumRanges</b> member 
     of the <b>FILE_LEVEL_TRIM</b> structure were not 
@@ -266,7 +266,7 @@ No
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_level_trim_output">FILE_LEVEL_TRIM_OUTPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_level_trim_output">FILE_LEVEL_TRIM_OUTPUT</a>
 
 
 

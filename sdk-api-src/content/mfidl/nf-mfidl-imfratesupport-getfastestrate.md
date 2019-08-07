@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 00413771-21cb-48a7-9080-2c3d195c366b, GetFastestRate, GetFastestRate method [Media Foundation], GetFastestRate method [Media Foundation],IMFRateSupport interface, IMFRateSupport interface [Media Foundation],GetFastestRate method, IMFRateSupport.GetFastestRate, IMFRateSupport::GetFastestRate, mf.imfratesupport_getfastestrate, mfidl/IMFRateSupport::GetFastestRate
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFRateSupport.GetFastestRate"
+f1_keywords:
+- mfidl/IMFRateSupport.GetFastestRate
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFRateSupport.GetFastestRate
+- IMFRateSupport.GetFastestRate
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Gets the fastest playback rate supported by the object.
 
 ### -param eDirection [in]
 
-Specifies whether to query to the fastest forward playback rate or reverse playback rate. The value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfrate_direction">MFRATE_DIRECTION</a> enumeration.
+Specifies whether to query to the fastest forward playback rate or reverse playback rate. The value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfrate_direction">MFRATE_DIRECTION</a> enumeration.
 
 
 ### -param fThin [in]

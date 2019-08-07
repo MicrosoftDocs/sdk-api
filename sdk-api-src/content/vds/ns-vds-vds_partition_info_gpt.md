@@ -85,7 +85,7 @@ Name of the partition.
 
 
 
-This structure is used in the <b>Gpt</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_partition_prop">VDS_PARTITION_PROP</a> structure.
+This structure is used in the <b>Gpt</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_partition_prop">VDS_PARTITION_PROP</a> structure.
 
  A GPT table is sector-aligned.
 
@@ -115,7 +115,7 @@ For information about partition types and attributes, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_partition_info_mbr">VDS_PARTITION_INFO_MBR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_partition_info_mbr">VDS_PARTITION_INFO_MBR</a>
  
 
  

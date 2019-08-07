@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLeafConditionInfo, GetLeafConditionInfo method [search], GetLeafConditionInfo method [search],ICondition2 interface, ICondition2 interface [search],GetLeafConditionInfo method, ICondition2.GetLeafConditionInfo, ICondition2::GetLeafConditionInfo, _search_ICondition2_GetLeafConditionInfo, search._search_ICondition2_GetLeafConditionInfo, structuredquerycondition/ICondition2::GetLeafConditionInfo
 ms.topic: method
-f1_keywords: 
- - "structuredquerycondition/ICondition2.GetLeafConditionInfo"
+f1_keywords:
+- structuredquerycondition/ICondition2.GetLeafConditionInfo
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquerycondition.h
+- Structuredquerycondition.h
 api_name:
- - ICondition2.GetLeafConditionInfo
+- ICondition2.GetLeafConditionInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ Retrieves the property name, operation, and value from a leaf search condition n
 
 ### -param ppropkey [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
 
 Receives the name of the property of the leaf condition as a PROPERTYKEY.
                 

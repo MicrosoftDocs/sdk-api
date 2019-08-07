@@ -66,7 +66,7 @@ The <b>AddConnectNotify</b> function is not called when MPR is automatically res
 ### -param lpNotifyInfo [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/ns-npapi-_notifyinfo">NOTIFYINFO</a> structure that contains information about the notification.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/ns-npapi-notifyinfo">NOTIFYINFO</a> structure that contains information about the notification.
 
 
 ### -param lpAddInfo [in]

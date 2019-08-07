@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 6522d1f0-3d96-4499-9220-23288122e0e6
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWINTRUST_CERT_INFO, PWINTRUST_CERT_INFO, PWINTRUST_CERT_INFO structure pointer [Security], WINTRUST_CERT_INFO, WINTRUST_CERT_INFO structure [Security], _win32_wintrust_cert_info, security.wintrust_cert_info, wintrust/PWINTRUST_CERT_INFO, wintrust/WINTRUST_CERT_INFO"
+ms.keywords: '*PWINTRUST_CERT_INFO, PWINTRUST_CERT_INFO, PWINTRUST_CERT_INFO structure pointer [Security], WINTRUST_CERT_INFO, WINTRUST_CERT_INFO structure [Security], _win32_wintrust_cert_info, security.wintrust_cert_info, wintrust/PWINTRUST_CERT_INFO, wintrust/WINTRUST_CERT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wintrust/WINTRUST_CERT_INFO"
+f1_keywords:
+- wintrust/WINTRUST_CERT_INFO
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wintrust.h
+- Wintrust.h
 api_name:
- - WINTRUST_CERT_INFO
+- WINTRUST_CERT_INFO
 product: Windows
 targetos: Windows
 req.typenames: WINTRUST_CERT_INFO, *PWINTRUST_CERT_INFO
@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 The <b>WINTRUST_CERT_INFO</b> structure is used when calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> to verify a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>.
 
 
 ## -struct-fields
@@ -77,7 +77,7 @@ String with the name of the memory object pointed to by the <b>pbMem</b> member 
 ### -field psCertContext
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> to be verified.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> to be verified.
 
 
 ### -field chStores

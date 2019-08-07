@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWiaDevMgr interface [WIA],RegisterEventCallbackCLSID method, IWiaDevMgr.RegisterEventCallbackCLSID, IWiaDevMgr::RegisterEventCallbackCLSID, RegisterEventCallbackCLSID, RegisterEventCallbackCLSID method [WIA], RegisterEventCallbackCLSID method [WIA],IWiaDevMgr interface, _wia_IWiaDevMgr_RegisterEventCallbackCLSID, wia._wia_IWiaDevMgr_RegisterEventCallbackCLSID, wia_xp/IWiaDevMgr::RegisterEventCallbackCLSID
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaDevMgr.RegisterEventCallbackCLSID"
+f1_keywords:
+- wia_xp/IWiaDevMgr.RegisterEventCallbackCLSID
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaDevMgr.RegisterEventCallbackCLSID
+- IWiaDevMgr.RegisterEventCallbackCLSID
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -151,7 +151,7 @@ When the event occurs, the WIA system determines which application is registered
 
 An application can invoke the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumregistereventinfo">EnumRegisterEventInfo</a> method to enumerate event registration information.
 
-An application can find whether an event is an action type or notification type (or both) event by examinging the <b>ulFlags</b> value of a <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-_wia_dev_cap">WIA_DEV_CAP</a> structure returned by event enumeration.
+An application can find whether an event is an action type or notification type (or both) event by examinging the <b>ulFlags</b> value of a <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-wia_dev_cap">WIA_DEV_CAP</a> structure returned by event enumeration.
 
 If the application is not a registered Component Object Model (COM) component and is not compatible with the WIA architecture, developers should use <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackprogram">IWiaDevMgr::RegisterEventCallbackProgram</a> instead of this method.
 

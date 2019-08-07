@@ -116,7 +116,7 @@ A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-g
 
 ### -param pAuthData [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/credssp/ns-credssp-_credssp_cred">CREDSSP_CRED</a> structure that specifies authentication data for both Schannel and Negotiate packages.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/credssp/ns-credssp-credssp_cred">CREDSSP_CRED</a> structure that specifies authentication data for both Schannel and Negotiate packages.
 
 
 ### -param pGetKeyFn [in, optional]

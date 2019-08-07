@@ -178,7 +178,7 @@ The caller of <b>SetupDiRegisterDeviceInfo</b> must be a member of the Administr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a>
  
 
  

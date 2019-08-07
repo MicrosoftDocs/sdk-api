@@ -62,7 +62,7 @@ Used to indicate that the writer should emit bytes as binary xml.
 
 ### -field encoding
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_writer_encoding">WS_XML_WRITER_ENCODING</a>.
+The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_encoding">WS_XML_WRITER_ENCODING</a>.
         
 
 

@@ -276,7 +276,7 @@ The <i>lpMedia</i> parameter must point to an
 <td>[in] 
 <b>CreateNtmsMedia</b> verifies that this size equals the length of an 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure containing an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_pmidinformationa">NTMS_PMIDINFORMATION</a> structure. It returns ERROR_INVALID_PARAMETER if the size is incorrect.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_pmidinformationa">NTMS_PMIDINFORMATION</a> structure. It returns ERROR_INVALID_PARAMETER if the size is incorrect.</td>
 </tr>
 <tr>
 <td><b>dwType</b></td>
@@ -322,7 +322,7 @@ Note that the name that appears in the RSM user interface for a partition is thi
  
 
 The following is a list of members and descriptions for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_pmidinformationa">NTMS_PMIDINFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_pmidinformationa">NTMS_PMIDINFORMATION</a> structure.
 
 <table>
 <tr>
@@ -422,7 +422,7 @@ The <i>lpList</i> parameter must point to an
 <td>[in] 
 <b>CreateNtmsMedia</b> verifies that the provided size matches the expected length of an 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure containing an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_partitioninformationa">NTMS_PARTITIONINFORMATION</a> structure. It returns ERROR_INVALID_PARAMETER if the size is incorrect.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_partitioninformationa">NTMS_PARTITIONINFORMATION</a> structure. It returns ERROR_INVALID_PARAMETER if the size is incorrect.</td>
 </tr>
 <tr>
 <td><b>dwType</b></td>

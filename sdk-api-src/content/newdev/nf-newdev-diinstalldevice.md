@@ -202,7 +202,7 @@ The application must perform required operations, other than calling <b>DiInstal
 
 </li>
 <li>
-The application is a class installer, in which case, the class installer should set the <b>DI_NEEDREBOOT</b> flag in the <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> structure for a device.
+The application is a class installer, in which case, the class installer should set the <b>DI_NEEDREBOOT</b> flag in the <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> structure for a device.
 
 </li>
 </ul>

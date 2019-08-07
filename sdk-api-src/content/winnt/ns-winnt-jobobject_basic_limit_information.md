@@ -81,7 +81,7 @@ If <b>LimitFlags</b> specifies <b>JOB_OBJECT_LIMIT_JOB_TIME</b>, this member is 
 The system adds the current time of the processes associated with the job to this limit. For example, if you set this limit to 1 minute, and the job has a process that has accumulated 5 minutes of user-mode time, the limit actually enforced is 6 minutes.
 
 The system periodically checks to determine whether the sum of the user-mode execution time for all processes is greater than this end-of-job limit. If it is, the action specified in the <b>EndOfJobTimeAction</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_end_of_job_time_information">JOBOBJECT_END_OF_JOB_TIME_INFORMATION</a> structure is carried out. By default, all processes are terminated and the status code is set to <b>ERROR_NOT_ENOUGH_QUOTA</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_end_of_job_time_information">JOBOBJECT_END_OF_JOB_TIME_INFORMATION</a> structure is carried out. By default, all processes are terminated and the status code is set to <b>ERROR_NOT_ENOUGH_QUOTA</b>.
 
 To register  for  notification when this limit is exceeded without terminating processes, use the <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> function with the <b>JobObjectNotificationLimitInformation</b> information class.
 
@@ -382,7 +382,7 @@ The system increments the active process count when you attempt to associate a p
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_end_of_job_time_information">JOBOBJECT_END_OF_JOB_TIME_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_end_of_job_time_information">JOBOBJECT_END_OF_JOB_TIME_INFORMATION</a>
 
 
 

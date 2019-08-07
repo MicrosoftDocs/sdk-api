@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 154cd57d-0b98-4633-a36d-93207896c9f1, GuideData property [Tablet PC], GuideData property [Tablet PC],IInkRecognizerGuide interface, IInkRecognizerGuide interface [Tablet PC],GuideData property, IInkRecognizerGuide.GuideData, IInkRecognizerGuide.put_GuideData, IInkRecognizerGuide::GuideData, IInkRecognizerGuide::get_GuideData, IInkRecognizerGuide::put_GuideData, InkRecognizerGuide.get_GuideData, InkRecognizerGuide.put_GuideData, get_GuideData, msinkaut/IInkRecognizerGuide::GuideData, msinkaut/IInkRecognizerGuide::get_GuideData, msinkaut/IInkRecognizerGuide::put_GuideData, put_GuideData, tablet.inkrecognizerguide_guidedata
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizerGuide.GuideData"
+f1_keywords:
+- msinkaut/IInkRecognizerGuide.GuideData
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizerGuide.GuideData
- - IInkRecognizerGuide.get_GuideData
- - IInkRecognizerGuide.put_GuideData
- - InkRecognizerGuide.get_GuideData
- - InkRecognizerGuide.put_GuideData
+- IInkRecognizerGuide.GuideData
+- IInkRecognizerGuide.get_GuideData
+- IInkRecognizerGuide.put_GuideData
+- InkRecognizerGuide.get_GuideData
+- InkRecognizerGuide.put_GuideData
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 
 
-Gets or sets the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-_inkrecoguide">InkRecoGuide</a> structure that represents the boundaries of the ink to the recognizer.
+Gets or sets the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-inkrecoguide">InkRecoGuide</a> structure that represents the boundaries of the ink to the recognizer.
 
 
 
@@ -76,7 +76,7 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-_inkrecoguide">InkRecoGuide Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-inkrecoguide">InkRecoGuide Structure</a>
 
 
 

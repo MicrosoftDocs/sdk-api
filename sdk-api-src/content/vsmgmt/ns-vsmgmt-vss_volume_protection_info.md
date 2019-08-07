@@ -71,7 +71,7 @@ TRUE if the volume is offline due to a protection fault, or <b>FALSE</b> otherwi
 
 ### -field m_protectionFault
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ne-vsmgmt-_vss_protection_fault">VSS_PROTECTION_FAULT</a> enumeration that describes the shadow copy protection fault that caused the volume to go offline.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ne-vsmgmt-vss_protection_fault">VSS_PROTECTION_FAULT</a> enumeration that describes the shadow copy protection fault that caused the volume to go offline.
 
 
 ### -field m_failureStatus

@@ -73,7 +73,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes
 
 Type: <b>PCUITEMID_CHILD</b>
 
-A pointer to the item's <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure. This value can be <b>NULL</b>.
+A pointer to the item's <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure. This value can be <b>NULL</b>.
 
 
 ### -param ppsz [out]

@@ -87,7 +87,7 @@ Video subtype. See <a href="https://docs.microsoft.com/windows/desktop/medfound/
 ### -field surfaceInfo
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideosurfaceinfo">MFVideoSurfaceInfo</a> structure. This structure contains information that applies only to uncompressed formats.
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideosurfaceinfo">MFVideoSurfaceInfo</a> structure. This structure contains information that applies only to uncompressed formats.
 
 
 ## -remarks

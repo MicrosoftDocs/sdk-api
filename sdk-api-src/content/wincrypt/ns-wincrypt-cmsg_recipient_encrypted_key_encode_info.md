@@ -71,16 +71,16 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-c
 
 ### -field RecipientId
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_id">CERT_ID</a> that identifies a message recipient's public key. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a> that identifies a message recipient's public key. 
 					
 
 
 ### -field Date
 
-Optional <b>FILETIME</b>. Applicable only if the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_id">CERT_ID</a> identifies the receiver's public key with a KEY_IDENTIFIER.
+Optional <b>FILETIME</b>. Applicable only if the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a> identifies the receiver's public key with a KEY_IDENTIFIER.
 
 
 ### -field pOtherAttr
 
-Optional. Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attribute_type_value">CRYPT_ATTRIBUTE_TYPE_VALUE</a>. Applicable only if the CERT_ID identifies the receiver's public key with a KEY_IDENTIFIER.
+Optional. Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute_type_value">CRYPT_ATTRIBUTE_TYPE_VALUE</a>. Applicable only if the CERT_ID identifies the receiver's public key with a KEY_IDENTIFIER.
 

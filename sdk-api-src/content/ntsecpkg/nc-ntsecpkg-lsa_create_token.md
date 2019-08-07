@@ -69,19 +69,19 @@ Pointer to a logon session identifier for the new token. This identifier is obta
 ### -param TokenSource [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_source">TOKEN_SOURCE</a> structure that specifies the source for this token. Specify the package name.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_source">TOKEN_SOURCE</a> structure that specifies the source for this token. Specify the package name.
 
 
 ### -param LogonType [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_security_logon_type">SECURITY_LOGON_TYPE</a> value that indicates the type of logon.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-security_logon_type">SECURITY_LOGON_TYPE</a> value that indicates the type of logon.
 
 
 ### -param ImpersonationLevel [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> value that indicates the extent to which a server process can impersonate a client process.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> value that indicates the extent to which a server process can impersonate a client process.
 
 
 ### -param TokenInformationType [in]

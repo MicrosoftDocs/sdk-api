@@ -103,7 +103,7 @@ Retrieve one or more data <a href="https://docs.microsoft.com/windows/desktop/Se
 <td width="60%">
 Retrieve one or more certificates.
 
-If a single object is being retrieved, <i>ppvObject</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure pointer that receives the context. When this context is no longer needed, you must free it by passing the <b>CERT_CONTEXT</b> structure pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
+If a single object is being retrieved, <i>ppvObject</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure pointer that receives the context. When this context is no longer needed, you must free it by passing the <b>CERT_CONTEXT</b> structure pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
 
 If multiple objects are being retrieved, <i>ppvObject</i> is the address of an <b>HCERTSTORE</b> variable that receives the handle of a store that contains the certificates. When this store is no longer needed, you must close it by passing this handle to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
 
@@ -118,7 +118,7 @@ If multiple objects are being retrieved, <i>ppvObject</i> is the address of an <
 <td width="60%">
 Retrieve one or more <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs). 
 
-If a single object is being retrieved, <i>ppvObject</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a> structure pointer that receives the context. When this context is no longer needed, you must free it by passing the <b>CRL_CONTEXT</b> structure pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a> function.
+If a single object is being retrieved, <i>ppvObject</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure pointer that receives the context. When this context is no longer needed, you must free it by passing the <b>CRL_CONTEXT</b> structure pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a> function.
 
 If multiple objects are being retrieved, <i>ppvObject</i> is the address of an <b>HCERTSTORE</b> variable that receives the handle of a store that contains the CRLs. When this store is no longer needed, you must close it by passing this handle to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
 

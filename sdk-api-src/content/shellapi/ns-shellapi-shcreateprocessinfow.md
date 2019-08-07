@@ -210,7 +210,7 @@ Flags that control the creation of the process and the priority class. For a lis
 
 Type: <b>LPSTARTUPINFOW</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa">STARTUPINFO</a> structure that specifies how the main window for the new process should appear.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure that specifies how the main window for the new process should appear.
 
 
 ### -field lpProcessInformation

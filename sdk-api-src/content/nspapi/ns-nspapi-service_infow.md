@@ -228,13 +228,13 @@ A network service can call the
 Type: <b>BLOB</b>
 
 A 
-						<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob">BLOB</a> structure that specifies service-defined information. 
+						<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-blob">BLOB</a> structure that specifies service-defined information. 
 
 
 
 
 <div class="alert"><b>Note</b>  In general, the data pointed to by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob">BLOB</a> structure's <b>pBlobData</b> member must not contain any pointers. That is because only the network service knows the format of the data; copying the data without such knowledge would lead to pointer invalidation. If the data pointed to by <b>pBlobData</b> contains variable-sized elements, offsets from <b>pBlobData</b> can be used to indicate the location of those elements. There is one exception to this general rule: when <b>pBlobData</b> points to a 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-blob">BLOB</a> structure's <b>pBlobData</b> member must not contain any pointers. That is because only the network service knows the format of the data; copying the data without such knowledge would lead to pointer invalidation. If the data pointed to by <b>pBlobData</b> contains variable-sized elements, offsets from <b>pBlobData</b> can be used to indicate the location of those elements. There is one exception to this general rule: when <b>pBlobData</b> points to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a> structure. This is possible because both the 
 <b>SERVICE_TYPE_INFO_ABS</b> structure, and any 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structures it contains are predefined, and thus their formats are known to the operating system.</div>
@@ -245,7 +245,7 @@ A
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob">BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-blob">BLOB</a>
 
 
 
