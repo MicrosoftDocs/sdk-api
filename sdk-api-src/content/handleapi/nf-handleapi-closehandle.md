@@ -12,6 +12,7 @@ ms.keywords: CloseHandle, CloseHandle function, _win32_closehandle, base.closeha
 ms.topic: function
 f1_keywords: 
  - "handleapi/CloseHandle"
+ - "CloseHandle"
 req.header: handleapi.h
 req.include-header: Windows.h
 req.target-type: Windows
