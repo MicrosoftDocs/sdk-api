@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDetailsOf, GetDetailsOf method [Windows Shell], GetDetailsOf method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],GetDetailsOf method, IShellFolder2.GetDetailsOf, IShellFolder2::GetDetailsOf, _win32_IShellFolder2_GetDetailsOf, shell.IShellFolder2_GetDetailsOf, shobjidl_core/IShellFolder2::GetDetailsOf
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellFolder2.GetDetailsOf"
+f1_keywords:
+- shobjidl_core/IShellFolder2.GetDetailsOf
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellFolder2.GetDetailsOf
+- IShellFolder2.GetDetailsOf
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Gets detailed information, identified by a column index, on an item in a Shell f
 
 Type: <b>PCUITEMID_CHILD</b>
 
-PIDL of the item for which you are requesting information. This method accepts only single-level PIDLs. The structure must contain exactly one <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure followed by a terminating zero. If this parameter is set to <b>NULL</b>, the title of the information field specified by <i>iColumn</i> is returned.
+PIDL of the item for which you are requesting information. This method accepts only single-level PIDLs. The structure must contain exactly one <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure followed by a terminating zero. If this parameter is set to <b>NULL</b>, the title of the information field specified by <i>iColumn</i> is returned.
 
 
 ### -param iColumn [in]
@@ -75,9 +75,9 @@ The zero-based index of the desired information field. It is identical to the co
 
 ### -param psd [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shelldetails">SHELLDETAILS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shelldetails">SHELLDETAILS</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shelldetails">SHELLDETAILS</a> structure that contains the information.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shelldetails">SHELLDETAILS</a> structure that contains the information.
 
 
 ## -returns

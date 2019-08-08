@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11FunctionParameterReflection interface, ID3D11FunctionParameterReflection interface [Direct3D 11],GetDesc method, ID3D11FunctionParameterReflection.GetDesc, ID3D11FunctionParameterReflection::GetDesc, d3d11shader/ID3D11FunctionParameterReflection::GetDesc, direct3d11.id3d11functionparameterreflection_getdesc
 ms.topic: method
-f1_keywords: 
- - "d3d11shader/ID3D11FunctionParameterReflection.GetDesc"
+f1_keywords:
+- d3d11shader/ID3D11FunctionParameterReflection.GetDesc
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11FunctionParameterReflection.GetDesc
+- ID3D11FunctionParameterReflection.GetDesc
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ Fills the parameter descriptor structure for the function's parameter.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_parameter_desc">D3D11_PARAMETER_DESC</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-d3d11_parameter_desc">D3D11_PARAMETER_DESC</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_parameter_desc">D3D11_PARAMETER_DESC</a> structure that receives a description of the function's parameter. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-d3d11_parameter_desc">D3D11_PARAMETER_DESC</a> structure that receives a description of the function's parameter. 
 
 
 ## -returns

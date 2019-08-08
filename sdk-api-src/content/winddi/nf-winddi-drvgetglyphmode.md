@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvGetGlyphMode, DrvGetGlyphMode function [Display Devices], ddifncs_e5ac278d-3417-4b76-aa0f-7fd2906f8137.xml, display.drvgetglyphmode, winddi/DrvGetGlyphMode
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvGetGlyphMode"
+f1_keywords:
+- winddi/DrvGetGlyphMode
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvGetGlyphMode
+- DrvGetGlyphMode
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Handle to a physical device's <a href="https://docs.microsoft.com/windows-hardwa
 
 ### -param arg2 [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a> structure that can be queried to find the font size, transform, and other font attributes.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure that can be queried to find the font size, transform, and other font attributes.
 
 
 ## -returns
@@ -127,9 +127,9 @@ GDI calls a driver's <b>DrvGetGlyphMode</b> routine to determine the range of fo
 
 GDI calls <b>DrvGetGlyphMode</b> for each font realization. For example, a driver might want to download outlines for point sizes larger than 12 point, but raster images for smaller fonts. However, GDI reserves the right to refuse this request.
 
-The driver must check the RASTER_FONTTYPE bit of the <b>flFontType</b> member of the FONTOBJ structure to determine the actual form of the glyphs. If this bit is set, GDI is sending bitmaps; otherwise it is sending <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a> structures.
+The driver must check the RASTER_FONTTYPE bit of the <b>flFontType</b> member of the FONTOBJ structure to determine the actual form of the glyphs. If this bit is set, GDI is sending bitmaps; otherwise it is sending <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structures.
 
-At the time of the call to <b>DrvGetGlyphMode</b>, the associated FONTOBJ is not fully functional. GDI guarantees only that the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure and the notional-to-device transform are correct.
+At the time of the call to <b>DrvGetGlyphMode</b>, the associated FONTOBJ is not fully functional. GDI guarantees only that the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a> structure and the notional-to-device transform are correct.
 
 <b>DrvGetGlyphMode</b> is an optional driver function. If this function is not provided, GDI will store raster fonts by default.
 
@@ -141,7 +141,7 @@ At the time of the call to <b>DrvGetGlyphMode</b>, the associated FONTOBJ is not
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
 
 
 
@@ -149,23 +149,23 @@ At the time of the call to <b>DrvGetGlyphMode</b>, the associated FONTOBJ is not
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphdef">GLYPHDEF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphdef">GLYPHDEF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphpos">GLYPHPOS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphpos">GLYPHPOS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_strobj">STROBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a>
  
 
  

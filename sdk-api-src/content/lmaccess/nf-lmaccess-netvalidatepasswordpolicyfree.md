@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetValidatePasswordPolicyFree, NetValidatePasswordPolicyFree function [Network Management], lmaccess/NetValidatePasswordPolicyFree, netmgmt.netvalidatepasswordpolicyfree
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetValidatePasswordPolicyFree"
+f1_keywords:
+- lmaccess/NetValidatePasswordPolicyFree
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
- - samcli.dll
+- Netapi32.dll
+- samcli.dll
 api_name:
- - NetValidatePasswordPolicyFree
+- NetValidatePasswordPolicyFree
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>NetValidatePasswordPolicyFree</b> function frees the memory that the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netvalidatepasswordpolicy">NetValidatePasswordPolicy</a> function allocates for the <i>OutputArg</i> parameter, which is a <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_validate_output_arg">NET_VALIDATE_OUTPUT_ARG</a> structure.
+The <b>NetValidatePasswordPolicyFree</b> function frees the memory that the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netvalidatepasswordpolicy">NetValidatePasswordPolicy</a> function allocates for the <i>OutputArg</i> parameter, which is a <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_output_arg">NET_VALIDATE_OUTPUT_ARG</a> structure.
 
 
 ## -parameters

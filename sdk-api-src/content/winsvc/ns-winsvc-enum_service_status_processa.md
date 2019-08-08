@@ -8,10 +8,10 @@ tech.root: Services
 ms.assetid: 6a683cc8-c2ac-4093-aed7-33e6bdd02d79
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPENUM_SERVICE_STATUS_PROCESSA, ENUM_SERVICE_STATUS_PROCESS, ENUM_SERVICE_STATUS_PROCESS structure, ENUM_SERVICE_STATUS_PROCESSA, ENUM_SERVICE_STATUS_PROCESSW, LPENUM_SERVICE_STATUS_PROCESS, LPENUM_SERVICE_STATUS_PROCESS structure pointer, _win32_enum_service_status_process_str, base.enum_service_status_process_str, winsvc/ENUM_SERVICE_STATUS_PROCESS, winsvc/ENUM_SERVICE_STATUS_PROCESSA, winsvc/ENUM_SERVICE_STATUS_PROCESSW, winsvc/LPENUM_SERVICE_STATUS_PROCESS"
+ms.keywords: '*LPENUM_SERVICE_STATUS_PROCESSA, ENUM_SERVICE_STATUS_PROCESS, ENUM_SERVICE_STATUS_PROCESS structure, ENUM_SERVICE_STATUS_PROCESSA, ENUM_SERVICE_STATUS_PROCESSW, LPENUM_SERVICE_STATUS_PROCESS, LPENUM_SERVICE_STATUS_PROCESS structure pointer, _win32_enum_service_status_process_str, base.enum_service_status_process_str, winsvc/ENUM_SERVICE_STATUS_PROCESS, winsvc/ENUM_SERVICE_STATUS_PROCESSA, winsvc/ENUM_SERVICE_STATUS_PROCESSW, winsvc/LPENUM_SERVICE_STATUS_PROCESS'
 ms.topic: struct
-f1_keywords: 
- - "winsvc/ENUM_SERVICE_STATUS_PROCESS"
+f1_keywords:
+- winsvc/ENUM_SERVICE_STATUS_PROCESS
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsvc.h
+- Winsvc.h
 api_name:
- - ENUM_SERVICE_STATUS_PROCESS
- - ENUM_SERVICE_STATUS_PROCESSA
- - ENUM_SERVICE_STATUS_PROCESSW
+- ENUM_SERVICE_STATUS_PROCESS
+- ENUM_SERVICE_STATUS_PROCESSA
+- ENUM_SERVICE_STATUS_PROCESSW
 product: Windows
 targetos: Windows
 req.typenames: ENUM_SERVICE_STATUS_PROCESSA, *LPENUM_SERVICE_STATUS_PROCESSA
@@ -75,7 +75,7 @@ A display name that can be used by service control programs, such as Services in
 ### -field ServiceStatusProcess
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status_process">SERVICE_STATUS_PROCESS</a> structure that contains status information for the <b>lpServiceName</b> service.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_status_process">SERVICE_STATUS_PROCESS</a> structure that contains status information for the <b>lpServiceName</b> service.
 
 
 ## -see-also
@@ -87,7 +87,7 @@ A
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status_process">SERVICE_STATUS_PROCESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_status_process">SERVICE_STATUS_PROCESS</a>
  
 
  

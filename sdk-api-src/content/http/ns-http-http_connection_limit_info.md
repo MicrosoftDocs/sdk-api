@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 6d2c1eeb-d248-4ca5-80b3-5c9f69ce8b9b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_CONNECTION_LIMIT_INFO, *PHTTP_CONNECTION_LIMIT_INFO structure [HTTP], HTTP_CONNECTION_LIMIT_INFO, HTTP_CONNECTION_LIMIT_INFO structure [HTTP], http.http_connection_limit_info, http/*PHTTP_CONNECTION_LIMIT_INFO, http/HTTP_CONNECTION_LIMIT_INFO"
+ms.keywords: '*PHTTP_CONNECTION_LIMIT_INFO, *PHTTP_CONNECTION_LIMIT_INFO structure [HTTP], HTTP_CONNECTION_LIMIT_INFO, HTTP_CONNECTION_LIMIT_INFO structure [HTTP], http.http_connection_limit_info, http/*PHTTP_CONNECTION_LIMIT_INFO, http/HTTP_CONNECTION_LIMIT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_CONNECTION_LIMIT_INFO"
+f1_keywords:
+- http/HTTP_CONNECTION_LIMIT_INFO
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_CONNECTION_LIMIT_INFO
+- HTTP_CONNECTION_LIMIT_INFO
 product: Windows
 targetos: Windows
 req.typenames: HTTP_CONNECTION_LIMIT_INFO, *PHTTP_CONNECTION_LIMIT_INFO
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>HTTP_CONNECTION_LIMIT_INFO</b> structure is used to set or query  the limit on the  maximum number of outstanding connections for a URL Group.
 
- This structure must be used when setting or querying the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HttpServerConnectionsProperty</a> on a URL Group.
+ This structure must be used when setting or querying the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HttpServerConnectionsProperty</a> on a URL Group.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ The <b>HTTP_CONNECTION_LIMIT_INFO</b> structure is used to set or query  the lim
 
 ### -field Flags
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_property_flags">HTTP_PROPERTY_FLAGS</a> structure specifying whether the property is present.
+The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_property_flags">HTTP_PROPERTY_FLAGS</a> structure specifying whether the property is present.
 
 
 ### -field MaxConnections
@@ -80,7 +80,7 @@ The number of connections allowed. Setting this value to HTTP_LIMIT_INFINITE all
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HTTP_SERVER_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HTTP_SERVER_PROPERTY</a>
 
 
 

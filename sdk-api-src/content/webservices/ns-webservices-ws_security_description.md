@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_DESCRIPTION, WS_SECURITY_DESCRIPTION structure [Web Services for Windows], webservices/WS_SECURITY_DESCRIPTION, wsw.ws_security_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_SECURITY_DESCRIPTION"
+f1_keywords:
+- webservices/WS_SECURITY_DESCRIPTION
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SECURITY_DESCRIPTION
+- WS_SECURITY_DESCRIPTION
 product: Windows
 targetos: Windows
 req.typenames: WS_SECURITY_DESCRIPTION
@@ -79,7 +79,7 @@ The count of elements in the securityBindings array.
 ### -field properties
 
 The array of properties specifying the optional channel-wide security
-settings.  Each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_property">WS_SECURITY_PROPERTY</a> in the array is a key-value
+settings.  Each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_property">WS_SECURITY_PROPERTY</a> in the array is a key-value
 pair and must use a key defined in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_ID</a>.  This field can be <b>NULL</b>,
 and if it is <b>NULL</b>, the default value will be used for each security
 channel setting.

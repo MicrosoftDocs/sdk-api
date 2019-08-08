@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_IS_CSV_FILE, FSCTL_IS_CSV_FILE control, FSCTL_IS_CSV_FILE control code [Files], fs.fsctl_is_csv_file, winioctl/FSCTL_IS_CSV_FILE
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_IS_CSV_FILE"
+f1_keywords:
+- winioctl/FSCTL_IS_CSV_FILE
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_IS_CSV_FILE
+- FSCTL_IS_CSV_FILE
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -155,7 +155,7 @@ To determine whether a file is stored on a CSVFS volume, simply leave the <i>lpI
     contain <b>ERROR_SUCCESS</b>.
 
 To retrieve namespace information, specify a pointer to the same 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_namespace_info">CSV_NAMESPACE_INFO</a> structure that is initially empty 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_namespace_info">CSV_NAMESPACE_INFO</a> structure that is initially empty 
     (except for the <b>Version</b> member) in both the <i>lpInBuffer</i> and 
     <i>lpOutBuffer</i> parameters. The information in that structure is filled in by the function 
     call.
@@ -168,7 +168,7 @@ To retrieve namespace information, specify a pointer to the same
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_namespace_info">CSV_NAMESPACE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_namespace_info">CSV_NAMESPACE_INFO</a>
 
 
 

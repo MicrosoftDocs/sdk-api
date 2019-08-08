@@ -8,10 +8,10 @@ tech.root: hcp
 ms.assetid: 468060cc-7b17-4ef4-8ae0-74d2bfcd5e4a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPERFORMANCE_DATA, PERFORMANCE_DATA, PERFORMANCE_DATA structure [Hardware Counter Profiling], PPERFORMANCE_DATA, PPERFORMANCE_DATA structure pointer [Hardware Counter Profiling], _PERFORMANCE_DATA, hcp.performance_data, winnt/PERFORMANCE_DATA, winnt/PPERFORMANCE_DATA"
+ms.keywords: '*PPERFORMANCE_DATA, PERFORMANCE_DATA, PERFORMANCE_DATA structure [Hardware Counter Profiling], PPERFORMANCE_DATA, PPERFORMANCE_DATA structure pointer [Hardware Counter Profiling], _PERFORMANCE_DATA, hcp.performance_data, winnt/PERFORMANCE_DATA, winnt/PPERFORMANCE_DATA'
 ms.topic: struct
-f1_keywords: 
- - "winnt/PERFORMANCE_DATA"
+f1_keywords:
+- winnt/PERFORMANCE_DATA
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - PERFORMANCE_DATA
+- PERFORMANCE_DATA
 product: Windows
 targetos: Windows
 req.typenames: PERFORMANCE_DATA, *PPERFORMANCE_DATA
@@ -101,7 +101,7 @@ Reserved. Set to zero.
 
 ### -field HwCounters
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_hardware_counter_data">HARDWARE_COUNTER_DATA</a> structures that contain the counter values. The elements of the array that contain counter data relate directly to the bits set in the <i>HardwareCounters</i> bitmask that you specified when you called the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enablethreadprofiling">EnableThreadProfiling</a> function. For example, if you set bit 3 in the <i>HardwareCounters</i> bitmask, HwCounters[3] will contain the counter data for that counter.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-hardware_counter_data">HARDWARE_COUNTER_DATA</a> structures that contain the counter values. The elements of the array that contain counter data relate directly to the bits set in the <i>HardwareCounters</i> bitmask that you specified when you called the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enablethreadprofiling">EnableThreadProfiling</a> function. For example, if you set bit 3 in the <i>HardwareCounters</i> bitmask, HwCounters[3] will contain the counter data for that counter.
 
 
 ## -remarks

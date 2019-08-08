@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetServiceState method, IAMWstDecoder.SetServiceState, IAMWstDecoder::SetServiceState, IAMWstDecoderSetServiceState, SetServiceState, SetServiceState method [DirectShow], SetServiceState method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setservicestate, iwstdec/IAMWstDecoder::SetServiceState
 ms.topic: method
-f1_keywords: 
- - "iwstdec/IAMWstDecoder.SetServiceState"
+f1_keywords:
+- iwstdec/IAMWstDecoder.SetServiceState
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMWstDecoder.SetServiceState
+- IAMWstDecoder.SetServiceState
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Applications use the <code>SetServiceState</code> method to assign the service s
 
 ### -param State [in]
 
-Specifies a member of an <a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/ne-iwstdec-_am_wst_state">AM_WST_STATE</a> enumeration to assign the service state.
+Specifies a member of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-am_wst_state">AM_WST_STATE</a> enumeration to assign the service state.
 
 <table>
 <tr>

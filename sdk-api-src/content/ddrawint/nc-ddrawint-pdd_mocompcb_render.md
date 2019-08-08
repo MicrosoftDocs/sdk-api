@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdMoCompRender, DdMoCompRender callback function [Display Devices], PDD_MOCOMPCB_RENDER, PDD_MOCOMPCB_RENDER callback, ddfncs_60970586-34af-4e35-a963-98220fc7ef43.xml, ddrawint/DdMoCompRender, display.ddmocomprender
 ms.topic: callback
-f1_keywords: 
- - "ddrawint/DdMoCompRender"
+f1_keywords:
+- ddrawint/DdMoCompRender
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DdMoCompRender
+- DdMoCompRender
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The <b>DdMoCompRender</b> callback function tells the driver what macroblocks to
 
 #### - lpRenderData
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_rendermocompdata">DD_RENDERMOCOMPDATA</a> structure that contains the information needed to render a frame. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_rendermocompdata">DD_RENDERMOCOMPDATA</a> structure that contains the information needed to render a frame. 
 
 
 ## -returns
@@ -100,7 +100,7 @@ If a previous render operation is not yet finished, the driver should fail the c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_rendermocompdata">DD_RENDERMOCOMPDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_rendermocompdata">DD_RENDERMOCOMPDATA</a>
 
 
 

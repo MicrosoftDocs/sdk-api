@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 67b346fd-8976-4cd7-bb2f-a44ef6d56bc4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSTORAGE_DEVICE_ID_DESCRIPTOR, PSTORAGE_DEVICE_ID_DESCRIPTOR, PSTORAGE_DEVICE_ID_DESCRIPTOR structure pointer [Files], STORAGE_DEVICE_ID_DESCRIPTOR, STORAGE_DEVICE_ID_DESCRIPTOR structure [Files], fs.storage_device_id_descriptor, winioctl/PSTORAGE_DEVICE_ID_DESCRIPTOR, winioctl/STORAGE_DEVICE_ID_DESCRIPTOR"
+ms.keywords: '*PSTORAGE_DEVICE_ID_DESCRIPTOR, PSTORAGE_DEVICE_ID_DESCRIPTOR, PSTORAGE_DEVICE_ID_DESCRIPTOR structure pointer [Files], STORAGE_DEVICE_ID_DESCRIPTOR, STORAGE_DEVICE_ID_DESCRIPTOR structure [Files], fs.storage_device_id_descriptor, winioctl/PSTORAGE_DEVICE_ID_DESCRIPTOR, winioctl/STORAGE_DEVICE_ID_DESCRIPTOR'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/STORAGE_DEVICE_ID_DESCRIPTOR"
+f1_keywords:
+- winioctl/STORAGE_DEVICE_ID_DESCRIPTOR
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - STORAGE_DEVICE_ID_DESCRIPTOR
+- STORAGE_DEVICE_ID_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_ID_DESCRIPTOR, *PSTORAGE_DEVICE_ID_DESCRIPTOR
@@ -105,15 +105,15 @@ The device ID descriptor consists of an array of device IDs taken from the SCSI-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_adapter_descriptor">STORAGE_ADAPTER_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_adapter_descriptor">STORAGE_ADAPTER_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>
  
 
  

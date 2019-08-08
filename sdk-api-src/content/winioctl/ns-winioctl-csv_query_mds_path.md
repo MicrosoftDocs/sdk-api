@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 478AE3FD-1668-46CE-876D-51E4BB679C87
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCSV_QUERY_MDS_PATH, CSV_QUERY_MDS_PATH, CSV_QUERY_MDS_PATH structure [Files], PCSV_QUERY_MDS_PATH, PCSV_QUERY_MDS_PATH structure pointer [Files], fs.csv_query_mds_path, winioctl/CSV_QUERY_MDS_PATH, winioctl/PCSV_QUERY_MDS_PATH"
+ms.keywords: '*PCSV_QUERY_MDS_PATH, CSV_QUERY_MDS_PATH, CSV_QUERY_MDS_PATH structure [Files], PCSV_QUERY_MDS_PATH, PCSV_QUERY_MDS_PATH structure pointer [Files], fs.csv_query_mds_path, winioctl/CSV_QUERY_MDS_PATH, winioctl/PCSV_QUERY_MDS_PATH'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/CSV_QUERY_MDS_PATH"
+f1_keywords:
+- winioctl/CSV_QUERY_MDS_PATH
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - CSV_QUERY_MDS_PATH
+- CSV_QUERY_MDS_PATH
 product: Windows
 targetos: Windows
 req.typenames: CSV_QUERY_MDS_PATH, *PCSV_QUERY_MDS_PATH
@@ -83,9 +83,9 @@ The path.
 
 
 This structure is used if the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control">FSCTL_CSV_CONTROL</a> 
-    control code is called with a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_csv_control_op">CSV_CONTROL_OP</a> enumeration 
+    control code is called with a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-csv_control_op">CSV_CONTROL_OP</a> enumeration 
     value of <b>CsvControlQueryMdsPath</b>, or if the control code is used with an 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_control_param">CSV_CONTROL_PARAM</a> structure containing that enumeration 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_control_param">CSV_CONTROL_PARAM</a> structure containing that enumeration 
     value.
 
 
@@ -96,11 +96,11 @@ This structure is used if the <a href="https://docs.microsoft.com/windows/deskto
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_csv_control_op">CSV_CONTROL_OP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-csv_control_op">CSV_CONTROL_OP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_control_param">CSV_CONTROL_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_control_param">CSV_CONTROL_PARAM</a>
 
 
 

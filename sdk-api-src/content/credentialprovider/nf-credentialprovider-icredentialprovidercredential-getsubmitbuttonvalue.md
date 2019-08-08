@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSubmitButtonValue, GetSubmitButtonValue method [Windows Shell], GetSubmitButtonValue method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetSubmitButtonValue method, ICredentialProviderCredential.GetSubmitButtonValue, ICredentialProviderCredential::GetSubmitButtonValue, _shell_ICredentialProviderCredential_GetSubmitButtonValue, credentialprovider/ICredentialProviderCredential::GetSubmitButtonValue, shell.ICredentialProviderCredential_GetSubmitButtonValue
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredential.GetSubmitButtonValue"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredential.GetSubmitButtonValue
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderCredential.GetSubmitButtonValue
+- ICredentialProviderCredential.GetSubmitButtonValue
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -90,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The submit button is not labeled as such; that is simply a generic way to refer to the button you click to submit the credentials. The button normally appears as a circular button that contains an arrow pointing to the right, although this appearance could change in later releases. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-_credential_provider_field_type">CPFT_SUBMIT_BUTTON</a>.
+The submit button is not labeled as such; that is simply a generic way to refer to the button you click to submit the credentials. The button normally appears as a circular button that contains an arrow pointing to the right, although this appearance could change in later releases. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-credential_provider_field_type">CPFT_SUBMIT_BUTTON</a>.
 
 You should not hide the submit button unless your credential provider always performs automatic submission. Otherwise it can be confusing to the users since they will not see a way to submit their credentials.
 

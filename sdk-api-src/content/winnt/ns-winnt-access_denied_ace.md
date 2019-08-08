@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: d76a92d0-ccd0-4e73-98b6-43bcd661134d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PACCESS_DENIED_ACE, ACCESS_DENIED_ACE, ACCESS_DENIED_ACE structure [Security], PACCESS_DENIED_ACE, PACCESS_DENIED_ACE structure pointer [Security], _ACCESS_DENIED_ACE, _win32_access_denied_ace_str, security.access_denied_ace, winnt/ACCESS_DENIED_ACE, winnt/PACCESS_DENIED_ACE"
+ms.keywords: '*PACCESS_DENIED_ACE, ACCESS_DENIED_ACE, ACCESS_DENIED_ACE structure [Security], PACCESS_DENIED_ACE, PACCESS_DENIED_ACE structure pointer [Security], _ACCESS_DENIED_ACE, _win32_access_denied_ace_str, security.access_denied_ace, winnt/ACCESS_DENIED_ACE, winnt/PACCESS_DENIED_ACE'
 ms.topic: struct
-f1_keywords: 
- - "winnt/ACCESS_DENIED_ACE"
+f1_keywords:
+- winnt/ACCESS_DENIED_ACE
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - ACCESS_DENIED_ACE
+- ACCESS_DENIED_ACE
 product: Windows
 targetos: Windows
 req.typenames: ACCESS_DENIED_ACE
@@ -62,7 +62,7 @@ The <b>ACCESS_DENIED_ACE</b> structure defines an  <a href="https://docs.microso
 
 ### -field Header
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure that specifies the size and type of ACE. It also contains flags that control inheritance of the ACE by child objects. The <b>AceType</b> member of the <b>ACE_HEADER</b> structure should be set to ACCESS_DENIED_ACE_TYPE, and the <b>AceSize</b> member should be set to the total number of bytes allocated for the <b>ACCESS_DENIED_ACE</b> structure.
+An <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure that specifies the size and type of ACE. It also contains flags that control inheritance of the ACE by child objects. The <b>AceType</b> member of the <b>ACE_HEADER</b> structure should be set to ACCESS_DENIED_ACE_TYPE, and the <b>AceSize</b> member should be set to the total number of bytes allocated for the <b>ACCESS_DENIED_ACE</b> structure.
 
 
 ### -field Mask
@@ -99,7 +99,7 @@ An <b>ACCESS_DENIED_ACE</b> structure can be created in an <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
@@ -107,7 +107,7 @@ An <b>ACCESS_DENIED_ACE</b> structure can be created in an <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
  
 
  

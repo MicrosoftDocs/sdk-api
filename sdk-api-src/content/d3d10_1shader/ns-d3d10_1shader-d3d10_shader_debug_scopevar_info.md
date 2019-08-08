@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 90b648c2-0ae3-a5f5-05de-ba4f5d6c85d1, D3D10_SHADER_DEBUG_SCOPEVAR_INFO, D3D10_SHADER_DEBUG_SCOPEVAR_INFO structure [Direct3D 10], d3d10_1shader/D3D10_SHADER_DEBUG_SCOPEVAR_INFO, direct3d10.d3d10_shader_debug_scopevar_info
 ms.topic: struct
-f1_keywords: 
- - "d3d10_1shader/D3D10_SHADER_DEBUG_SCOPEVAR_INFO"
+f1_keywords:
+- d3d10_1shader/D3D10_SHADER_DEBUG_SCOPEVAR_INFO
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d10_1shader.h
+- d3d10_1shader.h
 api_name:
- - D3D10_SHADER_DEBUG_SCOPEVAR_INFO
+- D3D10_SHADER_DEBUG_SCOPEVAR_INFO
 product: Windows
 targetos: Windows
 req.typenames: D3D10_SHADER_DEBUG_SCOPEVAR_INFO
@@ -75,7 +75,7 @@ Indicates whether this is a variable or function.
 
 ### -field Class
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_variable_class">D3D10_SHADER_VARIABLE_CLASS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_class">D3D10_SHADER_VARIABLE_CLASS</a></b>
 
 Indicates the variable class.
 

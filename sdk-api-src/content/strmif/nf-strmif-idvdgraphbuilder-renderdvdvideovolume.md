@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdGraphBuilder interface [DirectShow],RenderDvdVideoVolume method, IDvdGraphBuilder.RenderDvdVideoVolume, IDvdGraphBuilder::RenderDvdVideoVolume, IDvdGraphBuilderRenderDvdVideoVolume, RenderDvdVideoVolume, RenderDvdVideoVolume method [DirectShow], RenderDvdVideoVolume method [DirectShow],IDvdGraphBuilder interface, dshow.idvdgraphbuilder_renderdvdvideovolume, strmif/IDvdGraphBuilder::RenderDvdVideoVolume
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdGraphBuilder.RenderDvdVideoVolume"
+f1_keywords:
+- strmif/IDvdGraphBuilder.RenderDvdVideoVolume
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdGraphBuilder.RenderDvdVideoVolume
+- IDvdGraphBuilder.RenderDvdVideoVolume
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ Pointer to the path for the DVD-Video volume to play. Can be <b>NULL</b>.
 
 ### -param dwFlags [in]
 
-Bitwise OR of flags from <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_am_dvd_graph_flags">AM_DVD_GRAPH_FLAGS</a> enumeration, specifying how to build the DVD playback graph.
+Bitwise OR of flags from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-am_dvd_graph_flags">AM_DVD_GRAPH_FLAGS</a> enumeration, specifying how to build the DVD playback graph.
 
 
 ### -param pStatus [out]

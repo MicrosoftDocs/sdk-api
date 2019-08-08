@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetApartmentType, CoGetApartmentType function [COM], com.cogetapartmenttype, combaseapi/CoGetApartmentType
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoGetApartmentType"
+f1_keywords:
+- combaseapi/CoGetApartmentType
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoGetApartmentType
+- CoGetApartmentType
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,13 +67,13 @@ Returns the current apartment type and type qualifier.
 ### -param pAptType [out]
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-_apttype">APTTYPE</a> enumeration value that specifies the type of the current apartment.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-apttype">APTTYPE</a> enumeration value that specifies the type of the current apartment.
 
 
 ### -param pAptQualifier [out]
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-_apttypequalifier">APTTYPEQUALIFIER</a> enumeration value that specifies the type qualifier of the current apartment.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-apttypequalifier">APTTYPEQUALIFIER</a> enumeration value that specifies the type qualifier of the current apartment.
 
 
 ## -returns
@@ -149,11 +149,11 @@ In multithreaded scenarios, there is a race condition which can potentially caus
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-_apttype">APTTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-apttype">APTTYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-_apttypequalifier">APTTYPEQUALIFIER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-apttypequalifier">APTTYPEQUALIFIER</a>
  
 
  

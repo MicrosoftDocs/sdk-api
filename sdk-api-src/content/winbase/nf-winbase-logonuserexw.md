@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOGON32_LOGON_BATCH, LOGON32_LOGON_INTERACTIVE, LOGON32_LOGON_NETWORK, LOGON32_LOGON_NETWORK_CLEARTEXT, LOGON32_LOGON_NEW_CREDENTIALS, LOGON32_LOGON_SERVICE, LOGON32_LOGON_UNLOCK, LOGON32_PROVIDER_DEFAULT, LOGON32_PROVIDER_WINNT40, LOGON32_PROVIDER_WINNT50, LogonUserEx, LogonUserEx function [Security], LogonUserExA, LogonUserExW, _win32_logonuserex, security.logonuserex, winbase/LogonUserEx, winbase/LogonUserExA, winbase/LogonUserExW
 ms.topic: function
-f1_keywords: 
- - "winbase/LogonUserEx"
+f1_keywords:
+- winbase/LogonUserEx
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-security-logon-l1-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-Security-Logon-L1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-security-logon-l1-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-Security-Logon-L1-1-1.dll
 api_name:
- - LogonUserEx
- - LogonUserExA
- - LogonUserExW
+- LogonUserEx
+- LogonUserExA
+- LogonUserExW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -242,7 +242,7 @@ A pointer to a <b>DWORD</b> that receives the length of the profile buffer.
 
 ### -param pQuotaLimits [out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_quota_limits">QUOTA_LIMITS</a> structure that receives information about the quotas for the logged on user.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-quota_limits">QUOTA_LIMITS</a> structure that receives information about the quotas for the logged on user.
 
 
 ## -returns
@@ -314,7 +314,7 @@ If the <b>LogonUserEx</b> call is successful, the system notifies network provid
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_quota_limits">QUOTA_LIMITS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-quota_limits">QUOTA_LIMITS</a>
  
 
  

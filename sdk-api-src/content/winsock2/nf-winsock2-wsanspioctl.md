@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SIO_NSP_NOTIFY_CHANGE, WSANSPIoctl, WSANSPIoctl function [Winsock], _win32_wsanspioctl_2, winsock.wsanspioctl_2, winsock2/WSANSPIoctl
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSANSPIoctl"
+f1_keywords:
+- winsock2/WSANSPIoctl
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsock2.h
+- Winsock2.h
 api_name:
- - WSANSPIoctl
+- WSANSPIoctl
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -123,7 +123,7 @@ A pointer to the number of bytes returned.
 
 ### -param lpCompletion [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsacompletion">WSACOMPLETION</a> structure, used for asynchronous processing. Set <i>lpCompletion</i> to <b>NULL</b> to force blocking (synchronous) execution.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsacompletion">WSACOMPLETION</a> structure, used for asynchronous processing. Set <i>lpCompletion</i> to <b>NULL</b> to force blocking (synchronous) execution.
 
 
 ## -returns
@@ -233,7 +233,7 @@ The
 the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a> function (not  a socket handle).
 
 Any IOCTL sent to a namespace provider may block indefinitely, depending upon the implementation of the namespace. If an application cannot tolerate blocking in a 
-<b>WSANSPIoctl</b> function call, overlapped I/O should be used and the <i>lpCompletion</i> parameter should point to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsacompletion">WSACOMPLETION</a> structure. To make a 
+<b>WSANSPIoctl</b> function call, overlapped I/O should be used and the <i>lpCompletion</i> parameter should point to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsacompletion">WSACOMPLETION</a> structure. To make a 
 <b>WSANSPIoctl</b> function call nonblocking and return immediately, set the <b>Type</b> member of the <b>WSACOMPLETION</b> structure to <b>NSP_NOTIFY_IMMEDIATELY</b>.
 
  If <i>lpCompletion</i> is <b>NULL</b>, the 
@@ -258,7 +258,7 @@ Other non-Microsoft namespace providers may be installed that also support this 
 When the <i>lpCompletion</i> parameter is <b>NULL</b>, this IOCTL implements a  special behavior. If the <i>lpCompletion</i> parameter is <b>NULL</b> for this IOCTL, this operation is a poll and returns immediately. If the query set remains valid, 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEWOULDBLOCK</a> is returned as notification that the query set remains valid. If the query set has changed and is invalid, <b>NO_ERROR</b> is returned indicating success in polling for invalidation of the query set. 
 
-If the <i>lpCompletion</i> parameter is not <b>NULL</b> and points to an <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsacompletion">WSACOMPLETION</a> structure, then the  <b>WSANSPIoctl</b> function returns <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_IO_PENDING</a> if the  overlapped operation was successfully initiated and completion will be indicated at a later time. The method specified in the <b>WSACOMPLETION</b> structure is used to notify the application if the query set is still valid. 
+If the <i>lpCompletion</i> parameter is not <b>NULL</b> and points to an <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsacompletion">WSACOMPLETION</a> structure, then the  <b>WSANSPIoctl</b> function returns <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_IO_PENDING</a> if the  overlapped operation was successfully initiated and completion will be indicated at a later time. The method specified in the <b>WSACOMPLETION</b> structure is used to notify the application if the query set is still valid. 
 
 Not all name resolution protocols are able to support this feature, and therefore, this function call may fail with 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a>. A query containing data from multiple providers cannot call this IOCTL, and will return 
@@ -302,7 +302,7 @@ To cancel an asynchronous notification request, end the original query with a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsacompletion">WSACOMPLETION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsacompletion">WSACOMPLETION</a>
 
 
 

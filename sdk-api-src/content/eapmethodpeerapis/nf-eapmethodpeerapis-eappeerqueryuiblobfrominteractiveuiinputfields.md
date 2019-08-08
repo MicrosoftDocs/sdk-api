@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapPeerQueryUIBlobFromInteractiveUIInputFields, EapPeerQueryUIBlobFromInteractiveUIInputFields function [EAPHost], eaphost.eappeerqueryuiblobfrominteractiveuiinputfields, eapmethodpeerapis/EapPeerQueryUIBlobFromInteractiveUIInputFields
 ms.topic: function
-f1_keywords: 
- - "eapmethodpeerapis/EapPeerQueryUIBlobFromInteractiveUIInputFields"
+f1_keywords:
+- eapmethodpeerapis/EapPeerQueryUIBlobFromInteractiveUIInputFields
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eapmethodpeerapis.h
+- eapmethodpeerapis.h
 api_name:
- - EapPeerQueryUIBlobFromInteractiveUIInputFields
+- EapPeerQueryUIBlobFromInteractiveUIInputFields
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -81,7 +81,7 @@ A pointer to a BLOB that contains UI context data, represented as inner pointers
 
 ### -param pEapInteractiveUIData [in]
 
-Pointer that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_interactive_ui_data">EAP_INTERACTIVE_UI_DATA</a> structure that contains configuration information for interactive user interface components raised on an EAP supplicant.
+Pointer that receives an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_interactive_ui_data">EAP_INTERACTIVE_UI_DATA</a> structure that contains configuration information for interactive user interface components raised on an EAP supplicant.
 
 
 ### -param pdwSizeOfDataFromInteractiveUI [out]
@@ -98,7 +98,7 @@ A pointer to a DWORD that specifies the size of the buffer pointed to by the <i>
 
 ### -param ppEapError [out]
 
-A pointer to the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
+A pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 
 ### -param ppvReserved [in, out]

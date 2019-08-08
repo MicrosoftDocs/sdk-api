@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: b06f204c-e59a-4f13-ac6d-ff0860378312
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_SURFACE_INT, DD_SURFACE_INT, DD_SURFACE_INT structure [Display Devices], ddrawint/DD_SURFACE_INT, ddstrcts_3cca7be6-adbb-4d60-a970-891adb294d72.xml, display.dd_surface_int"
+ms.keywords: '*PDD_SURFACE_INT, DD_SURFACE_INT, DD_SURFACE_INT structure [Display Devices], ddrawint/DD_SURFACE_INT, ddstrcts_3cca7be6-adbb-4d60-a970-891adb294d72.xml, display.dd_surface_int'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_SURFACE_INT"
+f1_keywords:
+- ddrawint/DD_SURFACE_INT
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_SURFACE_INT
+- DD_SURFACE_INT
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_SURFACE_INT, DD_SURFACE_INT"
+req.typenames: '*PDD_SURFACE_INT, DD_SURFACE_INT'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,5 +61,5 @@ The DD_SURFACE_INT structure contains the DirectDrawSurface object's interface i
 
 ### -field lpLcl
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes a unique surface object.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes a unique surface object.
 

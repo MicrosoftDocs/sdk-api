@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertStringSecurityDescriptorToSecurityDescriptor, ConvertStringSecurityDescriptorToSecurityDescriptor function [Security], ConvertStringSecurityDescriptorToSecurityDescriptorA, ConvertStringSecurityDescriptorToSecurityDescriptorW, _win32_convertstringsecuritydescriptortosecuritydescriptor, sddl/ConvertStringSecurityDescriptorToSecurityDescriptor, sddl/ConvertStringSecurityDescriptorToSecurityDescriptorA, sddl/ConvertStringSecurityDescriptorToSecurityDescriptorW, security.convertstringsecuritydescriptortosecuritydescriptor
 ms.topic: function
-f1_keywords: 
- - "sddl/ConvertStringSecurityDescriptorToSecurityDescriptor"
+f1_keywords:
+- sddl/ConvertStringSecurityDescriptorToSecurityDescriptor
 req.header: sddl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,20 +30,20 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
- - sechost.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - API-MS-Win-Security-sddl-l1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+- sechost.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- API-MS-Win-Security-sddl-l1-1-0.dll
 api_name:
- - ConvertStringSecurityDescriptorToSecurityDescriptor
- - ConvertStringSecurityDescriptorToSecurityDescriptorA
- - ConvertStringSecurityDescriptorToSecurityDescriptorW
+- ConvertStringSecurityDescriptorToSecurityDescriptor
+- ConvertStringSecurityDescriptorToSecurityDescriptorA
+- ConvertStringSecurityDescriptorToSecurityDescriptorW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -182,7 +182,7 @@ and neither <b>object_guid</b> nor <b>inherit_object_guid</b> has a  <a href="ht
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
  
 
  

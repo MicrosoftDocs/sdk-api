@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FhConfigMgr class [Windows API],SetBackupStatus method, IFhConfigMgr interface [Windows API],SetBackupStatus method, IFhConfigMgr.SetBackupStatus, IFhConfigMgr::SetBackupStatus, SetBackupStatus, SetBackupStatus method [Windows API], SetBackupStatus method [Windows API],FhConfigMgr class, SetBackupStatus method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::SetBackupStatus, winprog.ifhconfigmgr_setbackupstatus
 ms.topic: method
-f1_keywords: 
- - "fhcfg/IFhConfigMgr.SetBackupStatus"
+f1_keywords:
+- fhcfg/IFhConfigMgr.SetBackupStatus
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fhcfg.h
+- Fhcfg.h
 api_name:
- - IFhConfigMgr.SetBackupStatus
- - FhConfigMgr.SetBackupStatus
+- IFhConfigMgr.SetBackupStatus
+- FhConfigMgr.SetBackupStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Changes the backup status value for an <a href="https://docs.microsoft.com/windo
 
 ### -param BackupStatus [in]
 
-The backup status value. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_backup_status">FH_BACKUP_STATUS</a> enumeration for a list of possible backup status values.
+The backup status value. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_backup_status">FH_BACKUP_STATUS</a> enumeration for a list of possible backup status values.
 
 
 ## -returns
@@ -90,7 +90,7 @@ The backup status value. See the <a href="https://docs.microsoft.com/windows/des
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_backup_status">FH_BACKUP_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_backup_status">FH_BACKUP_STATUS</a>
 
 
 

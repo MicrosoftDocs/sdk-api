@@ -8,10 +8,10 @@ tech.root: adsi
 ms.assetid: 5fc46271-a1be-4a9d-a340-ed801211736a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPADS_SEARCHPREF_INFO, *PADS_SEARCHPREF_INFO, ADS_SEARCHPREF_INFO, ADS_SEARCHPREF_INFO structure [ADSI], LPADS_SEARCHPREF_INFO, LPADS_SEARCHPREF_INFO structure pointer [ADSI], PADS_SEARCHPREF_INFO, PADS_SEARCHPREF_INFO structure pointer [ADSI], _ds_ads_searchpref_info, adsi.ads__searchpref__info, adsi.ads_searchpref_info, iads/ADS_SEARCHPREF_INFO, iads/LPADS_SEARCHPREF_INFO, iads/PADS_SEARCHPREF_INFO"
+ms.keywords: '*LPADS_SEARCHPREF_INFO, *PADS_SEARCHPREF_INFO, ADS_SEARCHPREF_INFO, ADS_SEARCHPREF_INFO structure [ADSI], LPADS_SEARCHPREF_INFO, LPADS_SEARCHPREF_INFO structure pointer [ADSI], PADS_SEARCHPREF_INFO, PADS_SEARCHPREF_INFO structure pointer [ADSI], _ds_ads_searchpref_info, adsi.ads__searchpref__info, adsi.ads_searchpref_info, iads/ADS_SEARCHPREF_INFO, iads/LPADS_SEARCHPREF_INFO, iads/PADS_SEARCHPREF_INFO'
 ms.topic: struct
-f1_keywords: 
- - "iads/ADS_SEARCHPREF_INFO"
+f1_keywords:
+- iads/ADS_SEARCHPREF_INFO
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_SEARCHPREF_INFO
+- ADS_SEARCHPREF_INFO
 product: Windows
 targetos: Windows
 req.typenames: ADS_SEARCHPREF_INFO, *PADS_SEARCHPREF_INFO, *LPADS_SEARCHPREF_INFO
@@ -66,7 +66,7 @@ Contains one of the  <a href="https://docs.microsoft.com/windows/desktop/api/iad
 
 ### -field vValue
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a> structure that specifies the data type and value of the search preference.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structure that specifies the data type and value of the search preference.
 
 
 ### -field dwStatus
@@ -78,16 +78,16 @@ Receives one of the  <a href="https://docs.microsoft.com/windows/desktop/api/iad
 
 
 
-To setup a search preference, assign appropriate values to the fields of an  <b>ADS_SEARCHPREF_INFO</b> structure passed to the server. The <b>vValue</b> member of the <b>ADS_SEARCHPREF_INFO</b> structure is an <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a> structure. The following table lists the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0025">ADS_SEARCHPREF_ENUM</a> values, the corresponding values for the <b>dwType</b> member of the <b>ADSVALUE</b> structure, and the <b>ADSVALUE</b> member that is used for the specified type.
+To setup a search preference, assign appropriate values to the fields of an  <b>ADS_SEARCHPREF_INFO</b> structure passed to the server. The <b>vValue</b> member of the <b>ADS_SEARCHPREF_INFO</b> structure is an <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structure. The following table lists the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0025">ADS_SEARCHPREF_ENUM</a> values, the corresponding values for the <b>dwType</b> member of the <b>ADSVALUE</b> structure, and the <b>ADSVALUE</b> member that is used for the specified type.
 
 <table>
 <tr>
 <th>
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0025">ADS_SEARCHPREF_ENUM</a> Value</th>
-<th><b>dwType</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a>
+<th><b>dwType</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a>
 </th>
 <th>
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a> member</th>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> member</th>
 </tr>
 <tr>
 <td><b>ADS_SEARCHPREF_ASYNCHRONOUS</b></td>
@@ -201,7 +201,7 @@ For more information and examples of how to use the <b>ADS_SEARCHPREF_INFO</b> s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a>
 
 
 

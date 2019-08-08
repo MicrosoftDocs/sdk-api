@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: 945d9c3b-922f-481d-bb1d-3dca50fb9edb
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PACCESS_DENIED_CALLBACK_OBJECT_ACE, 0, ACCESS_DENIED_CALLBACK_OBJECT_ACE, ACCESS_DENIED_CALLBACK_OBJECT_ACE structure [Security], ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_READ_PROP, ADS_RIGHT_DS_SELF, ADS_RIGHT_DS_WRITE_PROP, PACCESS_DENIED_CALLBACK_OBJECT_ACE, PACCESS_DENIED_CALLBACK_OBJECT_ACE structure pointer [Security], _ACCESS_DENIED_CALLBACK_OBJECT_ACE, security.access_denied_callback_object_ace, winnt/ACCESS_DENIED_CALLBACK_OBJECT_ACE, winnt/PACCESS_DENIED_CALLBACK_OBJECT_ACE"
+ms.keywords: '*PACCESS_DENIED_CALLBACK_OBJECT_ACE, 0, ACCESS_DENIED_CALLBACK_OBJECT_ACE, ACCESS_DENIED_CALLBACK_OBJECT_ACE structure [Security], ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_READ_PROP, ADS_RIGHT_DS_SELF, ADS_RIGHT_DS_WRITE_PROP, PACCESS_DENIED_CALLBACK_OBJECT_ACE, PACCESS_DENIED_CALLBACK_OBJECT_ACE structure pointer [Security], _ACCESS_DENIED_CALLBACK_OBJECT_ACE, security.access_denied_callback_object_ace, winnt/ACCESS_DENIED_CALLBACK_OBJECT_ACE, winnt/PACCESS_DENIED_CALLBACK_OBJECT_ACE'
 ms.topic: struct
-f1_keywords: 
- - "winnt/ACCESS_DENIED_CALLBACK_OBJECT_ACE"
+f1_keywords:
+- winnt/ACCESS_DENIED_CALLBACK_OBJECT_ACE
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - ACCESS_DENIED_CALLBACK_OBJECT_ACE
+- ACCESS_DENIED_CALLBACK_OBJECT_ACE
 product: Windows
 targetos: Windows
 req.typenames: ACCESS_DENIED_CALLBACK_OBJECT_ACE, *PACCESS_DENIED_CALLBACK_OBJECT_ACE
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>ACCESS_DENIED_CALLBACK_OBJECT_ACE</b> structure defines an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) that controls denied access to an object, a property set, or property. The ACE contains a set of access rights, a <b>GUID</b> that identifies the type of object, and a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trustee</a> to whom the system will deny access. The ACE also contains a <b>GUID</b> and a set of flags that control inheritance of the ACE by child objects.
 
-When the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> function is called, each <b>ACCESS_DENIED_CALLBACK_OBJECT_ACE</b> structure contained in the DACL of a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure passed through a pointer to the <b>AuthzAccessCheck</b> function invokes a call to the application–defined <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzaccesscheckcallback">AuthzAccessCheckCallback</a> function, in which a pointer to the <b>ACCESS_DENIED_CALLBACK_OBJECT_ACE</b> structure found is passed in the <i>pAce</i> parameter.
+When the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> function is called, each <b>ACCESS_DENIED_CALLBACK_OBJECT_ACE</b> structure contained in the DACL of a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure passed through a pointer to the <b>AuthzAccessCheck</b> function invokes a call to the application–defined <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzaccesscheckcallback">AuthzAccessCheckCallback</a> function, in which a pointer to the <b>ACCESS_DENIED_CALLBACK_OBJECT_ACE</b> structure found is passed in the <i>pAce</i> parameter.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ When the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-
 ### -field Header
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure that specifies the size and type of ACE. It contains flags that control inheritance of the ACE by child objects. The <b>AceType</b> member of the <b>ACE_HEADER</b> structure should be set to ACCESS_DENIED_CALLBACK_ACE_TYPE, and the <b>AceSize</b> member should be set to the total number of bytes allocated for the <b>ACCESS_DENIED_CALLBACK_OBJECT_ACE</b> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure that specifies the size and type of ACE. It contains flags that control inheritance of the ACE by child objects. The <b>AceType</b> member of the <b>ACE_HEADER</b> structure should be set to ACCESS_DENIED_CALLBACK_ACE_TYPE, and the <b>AceSize</b> member should be set to the total number of bytes allocated for the <b>ACCESS_DENIED_CALLBACK_OBJECT_ACE</b> structure.
 
 
 ### -field Mask
@@ -209,7 +209,7 @@ This member exists only if the ACE_INHERITED_OBJECT_TYPE_PRESENT bit is set in t
 
 If this member exists, it is a 
 <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that identifies the type of child object that can inherit the ACE. Inheritance is also controlled by the inheritance flags in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a>, as well as by any protection against inheritance placed on the child objects.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>, as well as by any protection against inheritance placed on the child objects.
 
 The offset of this member can vary. If the <b>Flags</b> member does not contain the ACE_OBJECT_TYPE_PRESENT flag, the <b>InheritedObjectType</b> member starts at the offset specified by the <b>ObjectType</b> member.
 
@@ -224,11 +224,11 @@ The first <b>DWORD</b> of a trustee's SID.
 
 
 
-If neither the <b>ObjectType</b> nor <b>InheritedObjectType</b> <b>GUID</b> is specified, the <b>ACCESS_DENIED_CALLBACK_OBJECT_ACE</b> structure has the same semantics as those used by the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_denied_callback_ace">ACCESS_DENIED_CALLBACK_ACE</a> structure. In that case, use the 
+If neither the <b>ObjectType</b> nor <b>InheritedObjectType</b> <b>GUID</b> is specified, the <b>ACCESS_DENIED_CALLBACK_OBJECT_ACE</b> structure has the same semantics as those used by the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_callback_ace">ACCESS_DENIED_CALLBACK_ACE</a> structure. In that case, use the 
 <b>ACCESS_DENIED_CALLBACK_ACE</b> structure because it is smaller and more efficient.
 
 An ACL that contains an <b>ACCESS_DENIED_CALLBACK_OBJECT_ACE</b> must specify the ACL_REVISION_DS revision number in its 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> header.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> header.
 
 The access rights specified by the <b>Mask</b> member are denied to any <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trustee</a> that possesses an enabled SID that matches the SID stored in the <b>SidStart</b> member.
 
@@ -247,7 +247,7 @@ When an <b>ACCESS_DENIED_CALLBACK_OBJECT_ACE</b> structure is created, sufficien
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
@@ -259,7 +259,7 @@ When an <b>ACCESS_DENIED_CALLBACK_OBJECT_ACE</b> structure is created, sufficien
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
  
 
  

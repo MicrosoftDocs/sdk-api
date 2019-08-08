@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID_PARAMETER_PAIR, ID_PARAMETER_PAIR structure [Windows Sync], winsync.id_parameter_pair, winsync/ID_PARAMETER_PAIR
 ms.topic: struct
-f1_keywords: 
- - "winsync/ID_PARAMETER_PAIR"
+f1_keywords:
+- winsync/ID_PARAMETER_PAIR
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ID_PARAMETER_PAIR
+- ID_PARAMETER_PAIR
 product: Windows
 targetos: Windows
 req.typenames: ID_PARAMETER_PAIR
@@ -74,7 +74,7 @@ The length of the ID when <i>fIsVariable</i> is <b>FALSE</b>. The maximum length
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_id_parameters">ID_PARAMETERS Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS Structure</a>
 
 
 

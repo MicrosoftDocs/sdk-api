@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 8CF62F9F-9429-435A-B79D-3A97249356A5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCSV_QUERY_FILE_REVISION, CSV_QUERY_FILE_REVISION, CSV_QUERY_FILE_REVISION structure [Files], PCSV_QUERY_FILE_REVISION, PCSV_QUERY_FILE_REVISION structure pointer [Files], fs.csv_query_file_revision, winioctl/CSV_QUERY_FILE_REVISION, winioctl/PCSV_QUERY_FILE_REVISION"
+ms.keywords: '*PCSV_QUERY_FILE_REVISION, CSV_QUERY_FILE_REVISION, CSV_QUERY_FILE_REVISION structure [Files], PCSV_QUERY_FILE_REVISION, PCSV_QUERY_FILE_REVISION structure pointer [Files], fs.csv_query_file_revision, winioctl/CSV_QUERY_FILE_REVISION, winioctl/PCSV_QUERY_FILE_REVISION'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/CSV_QUERY_FILE_REVISION"
+f1_keywords:
+- winioctl/CSV_QUERY_FILE_REVISION
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - CSV_QUERY_FILE_REVISION
+- CSV_QUERY_FILE_REVISION
 product: Windows
 targetos: Windows
 req.typenames: CSV_QUERY_FILE_REVISION, *PCSV_QUERY_FILE_REVISION
@@ -85,9 +85,9 @@ If any of the numbers are 0, the function caller should assume that the file was
 
 
 This structure is used if the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control">FSCTL_CSV_CONTROL</a> 
-    control code is called with a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_csv_control_op">CSV_CONTROL_OP</a> enumeration 
+    control code is called with a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-csv_control_op">CSV_CONTROL_OP</a> enumeration 
     value of <b>CsvControlQueryFileRevision</b>, or if the control code is used with an 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_control_param">CSV_CONTROL_PARAM</a> structure containing that 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_control_param">CSV_CONTROL_PARAM</a> structure containing that 
     enumeration value.
 
 Revision tracking is per file, not per stream, so the output changes whenever the stream changes.
@@ -100,11 +100,11 @@ Revision tracking is per file, not per stream, so the output changes whenever th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_csv_control_op">CSV_CONTROL_OP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-csv_control_op">CSV_CONTROL_OP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_control_param">CSV_CONTROL_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_control_param">CSV_CONTROL_PARAM</a>
 
 
 

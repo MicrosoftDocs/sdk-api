@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_InstanceFT, MI_InstanceFT structure [Windows Management Infrastructure (MI)], mi/MI_InstanceFT, wmi_v2.mi_instanceft
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_InstanceFT"
+f1_keywords:
+- mi/MI_InstanceFT
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_InstanceFT
+- MI_InstanceFT
 product: Windows
 targetos: Windows
 req.typenames: MI_InstanceFT
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-A support structure used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> 
+A support structure used in the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> 
     structure. Use the functions with the name prefix <b>MI_Instance_</b> to manipulate 
     these structures.
 
@@ -106,7 +106,7 @@ Deletes an instance that was created on the stack. See
 
 #### - GetClass
 
-Gets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_class">MI_Class</a>associated with an instance. See 
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a>associated with an instance. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_getclass">MI_Instance_GetClass</a>.
 
 

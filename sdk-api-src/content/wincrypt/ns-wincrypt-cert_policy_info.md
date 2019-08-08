@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 0d6396fe-99f6-4f66-9f01-55582d24ddc1
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_POLICY_INFO, CERT_POLICY_INFO, CERT_POLICY_INFO structure [Security], PCERT_POLICY_INFO, PCERT_POLICY_INFO structure pointer [Security], _crypto2_cert_policy_info, security.cert_policy_info, wincrypt/CERT_POLICY_INFO, wincrypt/PCERT_POLICY_INFO"
+ms.keywords: '*PCERT_POLICY_INFO, CERT_POLICY_INFO, CERT_POLICY_INFO structure [Security], PCERT_POLICY_INFO, PCERT_POLICY_INFO structure pointer [Security], _crypto2_cert_policy_info, security.cert_policy_info, wincrypt/CERT_POLICY_INFO, wincrypt/PCERT_POLICY_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_POLICY_INFO"
+f1_keywords:
+- wincrypt/CERT_POLICY_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_POLICY_INFO
+- CERT_POLICY_INFO
 product: Windows
 targetos: Windows
 req.typenames: CERT_POLICY_INFO, *PCERT_POLICY_INFO
@@ -54,7 +54,7 @@ ms.custom: 19H1
 The <b>CERT_POLICY_INFO</b> structure contains an object identifier (OID) specifying a policy and an optional array of policy qualifiers.
 
 The <b>CERT_POLICY_INFO</b> structure is a component of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_policies_info">CERT_POLICIES_INFO</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_policies_info">CERT_POLICIES_INFO</a>.
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ Number of elements in the <b>rgPolicyQualifier</b> array.
 ### -field rgPolicyQualifier
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_policy_qualifier_info">CERT_POLICY_QUALIFIER_INFO</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_policy_qualifier_info">CERT_POLICY_QUALIFIER_INFO</a> structures.
 
 
 ## -see-also
@@ -84,11 +84,11 @@ Array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_policies_info">CERT_POLICIES_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_policies_info">CERT_POLICIES_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_policy_qualifier_info">CERT_POLICY_QUALIFIER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_policy_qualifier_info">CERT_POLICY_QUALIFIER_INFO</a>
  
 
  

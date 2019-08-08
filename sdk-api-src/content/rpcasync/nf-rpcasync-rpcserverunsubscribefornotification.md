@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcServerUnsubscribeForNotification, RpcServerUnsubscribeForNotification function [RPC], rpc.rpcserverunsubscribefornotification, rpcasync/RpcServerUnsubscribeForNotification
 ms.topic: function
-f1_keywords: 
- - "rpcasync/RpcServerUnsubscribeForNotification"
+f1_keywords:
+- rpcasync/RpcServerUnsubscribeForNotification
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcServerUnsubscribeForNotification
+- RpcServerUnsubscribeForNotification
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ The <b>RpcServerUnsubscribeForNotification</b> function unsubscribes the server 
 
 ### -param Notification [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-_rpc_notifications">RPC_NOTIFICATIONS</a> enumeration that specifies the type of notification requested from RPC by the server.  Notifications must be unsubscribed individually, multiple values are not supported.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-rpc_notifications">RPC_NOTIFICATIONS</a> enumeration that specifies the type of notification requested from RPC by the server.  Notifications must be unsubscribed individually, multiple values are not supported.
 
 <b>Windows Vista:  </b>Currently, only <b>RpcNotificationClientDisconnect</b> and <b>RpcNotificationCallCancel</b> are supported. If any other value is specified for this parameter, the RPC_S_CANNOT_SUPPORT error code is returned.
 

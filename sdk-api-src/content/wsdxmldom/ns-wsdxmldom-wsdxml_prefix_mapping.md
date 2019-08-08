@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDXML_PREFIX_MAPPING, WSDXML_PREFIX_MAPPING structure, _WSDXML_PREFIX_MAPPING, ncd.wsdxml_prefix_mapping_struct, wsdxmldom/WSDXML_PREFIX_MAPPING
 ms.topic: struct
-f1_keywords: 
- - "wsdxmldom/WSDXML_PREFIX_MAPPING"
+f1_keywords:
+- wsdxmldom/WSDXML_PREFIX_MAPPING
 req.header: wsdxmldom.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdXmldom.h
+- WsdXmldom.h
 api_name:
- - WSDXML_PREFIX_MAPPING
+- WSDXML_PREFIX_MAPPING
 product: Windows
 targetos: Windows
 req.typenames: WSDXML_PREFIX_MAPPING
@@ -71,7 +71,7 @@ Reference to the next node in a linked list of <b>WSDXML_PREFIX_MAPPING</b> stru
 
 ### -field Space
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_namespace">WSDXML_NAMESPACE</a> structure.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_namespace">WSDXML_NAMESPACE</a> structure.
 
 
 ### -field Prefix

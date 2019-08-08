@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CredUnmarshalCredential, CredUnmarshalCredential function [Security], CredUnmarshalCredentialA, CredUnmarshalCredentialW, _cred_credunmarshalcredential, security.credunmarshalcredential, wincred/CredUnmarshalCredential, wincred/CredUnmarshalCredentialA, wincred/CredUnmarshalCredentialW
 ms.topic: function
-f1_keywords: 
- - "wincred/CredUnmarshalCredential"
+f1_keywords:
+- wincred/CredUnmarshalCredential
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - sechost.dll
- - API-MS-Win-Security-credentials-l1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- sechost.dll
+- API-MS-Win-Security-credentials-l1-1-0.dll
 api_name:
- - CredUnmarshalCredential
- - CredUnmarshalCredentialA
- - CredUnmarshalCredentialW
+- CredUnmarshalCredential
+- CredUnmarshalCredentialA
+- CredUnmarshalCredentialW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,12 +75,12 @@ Pointer to a null-terminated string that contains the marshaled credential.
 Type of credential specified by <i>MarshaledCredential</i>. 
 
 
-This is one of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ne-wincred-_cred_marshal_type">CRED_MARSHAL_TYPE</a> values.
+This is one of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ne-wincred-cred_marshal_type">CRED_MARSHAL_TYPE</a> values.
 
 
 ### -param Credential [out]
 
-Pointer to the unmarshaled credential. If <i>CredType</i> returns <i>CertCredential</i>, the returned pointer is to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_cert_credential_info">CERT_CREDENTIAL_INFO</a> structure. If <i>CredType</i> returns <i>UsernameTargetCredential</i>, the returned pointer is to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_username_target_credential_info">USERNAME_TARGET_CREDENTIAL_INFO</a> structure.
+Pointer to the unmarshaled credential. If <i>CredType</i> returns <i>CertCredential</i>, the returned pointer is to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-cert_credential_info">CERT_CREDENTIAL_INFO</a> structure. If <i>CredType</i> returns <i>UsernameTargetCredential</i>, the returned pointer is to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-username_target_credential_info">USERNAME_TARGET_CREDENTIAL_INFO</a> structure.
 
 The caller should free the returned buffer using <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credfree">CredFree</a>.
 
@@ -103,11 +103,11 @@ ERROR_INVALID_PARAMETER
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_cert_credential_info">CERT_CREDENTIAL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-cert_credential_info">CERT_CREDENTIAL_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/ne-wincred-_cred_marshal_type">CRED_MARSHAL_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincred/ne-wincred-cred_marshal_type">CRED_MARSHAL_TYPE</a>
 
 
 
@@ -123,7 +123,7 @@ ERROR_INVALID_PARAMETER
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_username_target_credential_info">USERNAME_TARGET_CREDENTIAL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-username_target_credential_info">USERNAME_TARGET_CREDENTIAL_INFO</a>
  
 
  

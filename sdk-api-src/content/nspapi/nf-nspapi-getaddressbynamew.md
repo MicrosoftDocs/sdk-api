@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAddressByName, GetAddressByName function [Winsock], GetAddressByNameA, GetAddressByNameW, NS_DEFAULT, NS_DNS, NS_NETBT, NS_SAP, NS_TCPIP_HOSTS, NS_TCPIP_LOCAL, RES_FIND_MULTIPLE, RES_SERVICE, RES_SOFT_SEARCH, _win32_getaddressbyname_2, nspapi/GetAddressByName, nspapi/GetAddressByNameA, nspapi/GetAddressByNameW, winsock.getaddressbyname_2
 ms.topic: function
-f1_keywords: 
- - "nspapi/GetAddressByName"
+f1_keywords:
+- nspapi/GetAddressByName
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Mswsock.lib
 req.dll: Mswsock.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mswsock.dll
+- Mswsock.dll
 api_name:
- - GetAddressByName
- - GetAddressByNameA
- - GetAddressByNameW
+- GetAddressByName
+- GetAddressByNameA
+- GetAddressByNameW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -156,7 +156,7 @@ The Svcguid.h header file is not automatically included by the Winsock2.h header
 A pointer to a zero-terminated string that uniquely represents the service name. For example, "MY SNA SERVER".
 
 Setting <i>lpServiceName</i> to <b>NULL</b> is the equivalent of setting <i>dwResolution</i> to RES_SERVICE. The function operates in its second mode, obtaining the local address to which a service of the specified type should bind. The function stores the local address within the <b>LocalAddr</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures stored into *<i>lpCsaddrBuffer</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures stored into *<i>lpCsaddrBuffer</i>.
 
 If <i>dwResolution</i> is set to RES_SERVICE, the function ignores the <i>lpServiceName</i> parameter.
 
@@ -227,7 +227,7 @@ Reserved for future use; must be set to <b>NULL</b>.
 ### -param lpCsaddrBuffer [out]
 
 A pointer to a buffer to receive one or more 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> data structures. The number of structures written to the buffer depends on the amount of information found in the resolution attempt. You should assume that multiple structures will be written, although in many cases there will only be one.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> data structures. The number of structures written to the buffer depends on the amount of information found in the resolution attempt. You should assume that multiple structures will be written, although in many cases there will only be one.
 
 
 ### -param lpdwBufferLength [in, out]
@@ -235,7 +235,7 @@ A pointer to a buffer to receive one or more
 A pointer to a variable that, upon input, specifies the size, in bytes, of the buffer pointed to by <i>lpCsaddrBuffer</i>.
 
 Upon output, this variable contains the total number of bytes required to store the array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures. If this value is less than or equal to the input value of *<i>lpdwBufferLength</i>, and the function is successful, this is the number of bytes actually stored in the buffer. If this value is greater than the input value of *<i>lpdwBufferLength</i>, the buffer was too small, and the output value of *<i>lpdwBufferLength</i> is the minimal required buffer size.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures. If this value is less than or equal to the input value of *<i>lpdwBufferLength</i>, and the function is successful, this is the number of bytes actually stored in the buffer. If this value is greater than the input value of *<i>lpdwBufferLength</i>, the buffer was too small, and the output value of *<i>lpdwBufferLength</i> is the minimal required buffer size.
 
 
 ### -param lpAliasBuffer [in, out]
@@ -263,7 +263,7 @@ If <i>lpAliasBuffer</i> is <b>NULL</b>, <i>lpdwAliasBufferLength</i> is meaningl
 
 
 If the function succeeds, the return value is the number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> data structures written to the buffer pointed to by <i>lpCsaddrBuffer</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> data structures written to the buffer pointed to by <i>lpCsaddrBuffer</i>.
 
 If the function fails, the return value is SOCKET_ERROR( –1). To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which returns the following extended error value.
@@ -281,7 +281,7 @@ If the function fails, the return value is SOCKET_ERROR( –1). To get extended 
 </td>
 <td width="60%">
 The buffer pointed to by <i>lpCsaddrBuffer</i> was too small to receive all of the relevant 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a> structures. Call the function with a buffer at least as large as the value returned in *<i>lpdwBufferLength</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures. Call the function with a buffer at least as large as the value returned in *<i>lpdwBufferLength</i>.
 
 </td>
 </tr>
@@ -324,7 +324,7 @@ Note that the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_csaddr_info">CSADDR_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a>
 
 
 

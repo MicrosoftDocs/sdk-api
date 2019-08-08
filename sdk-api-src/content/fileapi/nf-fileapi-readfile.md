@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReadFile, ReadFile function [Files], _win32_readfile, base.readfile, fileapi/ReadFile, fs.readfile, winbase/ReadFile
 ms.topic: function
-f1_keywords: 
- - "fileapi/ReadFile"
+f1_keywords:
+- fileapi/ReadFile
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - ReadFile
+- ReadFile
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -114,19 +114,19 @@ For more information, see the Remarks section.
 
 ### -param lpOverlapped [in, out, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure is 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure is 
        required if the <i>hFile</i> parameter was opened with 
        <b>FILE_FLAG_OVERLAPPED</b>, otherwise it can be <b>NULL</b>.
 
 If <i>hFile</i> is opened with <b>FILE_FLAG_OVERLAPPED</b>, the 
        <i>lpOverlapped</i> parameter must point to a 
-       valid and unique <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure, otherwise the 
+       valid and unique <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure, otherwise the 
        function can incorrectly report that the read operation is complete.
 
 For an <i>hFile</i> that supports byte offsets, if you use this parameter you must specify 
        a byte offset at which to start reading from the file or device. This offset is specified by setting the 
        <b>Offset</b> and <b>OffsetHigh</b> members of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure. For an 
+       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. For an 
        <i>hFile</i> that does not support byte offsets, <b>Offset</b> and 
        <b>OffsetHigh</b> are ignored.
 
@@ -217,7 +217,7 @@ When reading from a communications device, the behavior of
     set and retrieved by using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a> and 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcommtimeouts">GetCommTimeouts</a> functions. Unpredictable results can 
     occur if you fail to set the time-out values. For more information about communication time-outs, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commtimeouts">COMMTIMEOUTS</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commtimeouts">COMMTIMEOUTS</a>.
 
 If <b>ReadFile</b> attempts to read from a mailslot that has a 
     buffer that is too small, the function returns <b>FALSE</b> and 
@@ -233,7 +233,7 @@ If <i>hFile</i> was opened with <b>FILE_FLAG_OVERLAPPED</b>, the
      following conditions are in effect:
      <ul>
 <li>The <i>lpOverlapped</i> parameter must point to a valid and unique 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure, otherwise the 
+       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure, otherwise the 
        function can incorrectly report that the read operation is complete.</li>
 <li>The <i>lpNumberOfBytesRead</i> parameter should be set to 
        <b>NULL</b>. Use the 
@@ -247,7 +247,7 @@ If <i>hFile</i> was opened with <b>FILE_FLAG_OVERLAPPED</b>, the
 <h3><a id="synchronization_and_file_position"></a><a id="SYNCHRONIZATION_AND_FILE_POSITION"></a>Synchronization and File Position</h3>
 If <i>hFile</i> is opened with <b>FILE_FLAG_OVERLAPPED</b>, it is an 
       asynchronous file handle; otherwise it is synchronous. The rules for using the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure are slightly different for each, 
+      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure are slightly different for each, 
       as previously noted.
 
 <div class="alert"><b>Note</b>  If a file or device is opened for asynchronous I/O, subsequent calls to functions such as 
@@ -266,17 +266,17 @@ Considerations for working with asynchronous file handles:
 <li>The <i>lpOverlapped</i> parameter must not be <b>NULL</b> and should 
        be used with the following facts in mind:
        <ul>
-<li>Although the event specified in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> 
+<li>Although the event specified in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> 
          structure is set and reset automatically by the system, the offset that is specified in the 
          <b>OVERLAPPED</b> structure is not automatically 
          updated.</li>
 <li><b>ReadFile</b> resets the event to a nonsignaled state when 
          it begins the I/O operation.</li>
-<li>The event specified in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure 
+<li>The event specified in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure 
          is set to a signaled state when the read operation is complete; until that time, the read operation is 
          considered pending.</li>
 <li>Because the read operation starts at the offset that is specified in the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure, and 
+         <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure, and 
          <b>ReadFile</b> may return before the system-level read operation 
          is complete (read pending), neither the offset nor any other part of the structure should be modified, freed, 
          or reused by the application until the event is signaled (that is, the read completes).</li>
@@ -297,7 +297,7 @@ Considerations for working with synchronous file handles:
        <b>ReadFile</b> returns.</li>
 <li>If <i>lpOverlapped</i> is not <b>NULL</b>, the read operation starts 
        at the offset that is specified in the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure and 
+       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure and 
        <b>ReadFile</b> does not return until the read operation is 
        complete. The system updates the <b>OVERLAPPED</b> offset 
        before <b>ReadFile</b> returns.</li>
@@ -446,7 +446,7 @@ For a code example that shows you how to test for end-of-file, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 5d1b86fe-161d-4182-b3fe-9a03a843e62e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_LOG_FIELDS_DATA, *PHTTP_LOG_FIELDS_DATA structure [HTTP], HTTP_LOG_FIELDS_DATA, HTTP_LOG_FIELDS_DATA structure [HTTP], http.http_log_fields_data, http/*PHTTP_LOG_FIELDS_DATA, http/HTTP_LOG_FIELDS_DATA"
+ms.keywords: '*PHTTP_LOG_FIELDS_DATA, *PHTTP_LOG_FIELDS_DATA structure [HTTP], HTTP_LOG_FIELDS_DATA, HTTP_LOG_FIELDS_DATA structure [HTTP], http.http_log_fields_data, http/*PHTTP_LOG_FIELDS_DATA, http/HTTP_LOG_FIELDS_DATA'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_LOG_FIELDS_DATA"
+f1_keywords:
+- http/HTTP_LOG_FIELDS_DATA
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_LOG_FIELDS_DATA
+- HTTP_LOG_FIELDS_DATA
 product: Windows
 targetos: Windows
 req.typenames: HTTP_LOG_FIELDS_DATA, *PHTTP_LOG_FIELDS_DATA
@@ -61,7 +61,7 @@ The <b>HTTP_LOG_FIELDS_DATA</b> structure is used to pass the fields that are lo
 
 ### -field Base
 
-Initialize this member to the <b>HttpLogDataTypeFields</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_log_data_type">HTTP_LOG_DATA_TYPE</a> enumeration.
+Initialize this member to the <b>HttpLogDataTypeFields</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_log_data_type">HTTP_LOG_DATA_TYPE</a> enumeration.
 
 
 ### -field UserNameLength
@@ -231,11 +231,11 @@ Unless this structure is passed, the response will not be logged, even when the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_v1">HTTP_RESPONSE_V1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_v1">HTTP_RESPONSE_V1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_v2">HTTP_RESPONSE_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_v2">HTTP_RESPONSE_V2</a>
 
 
 

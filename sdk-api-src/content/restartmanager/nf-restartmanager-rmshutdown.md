@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RmForceShutdown, RmShutdown, RmShutdown function [Restart Mgr], RmShutdownOnlyRegistered, restartmanager/RmShutdown, rstmgr.rmshutdown
 ms.topic: function
-f1_keywords: 
- - "restartmanager/RmShutdown"
+f1_keywords:
+- restartmanager/RmShutdown
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Rstrtmgr.lib
 req.dll: Rstrtmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rstrtmgr.dll
+- Rstrtmgr.dll
 api_name:
- - RmShutdown
+- RmShutdown
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A handle to an existing Restart Manager session.
 
 ### -param lActionFlags [in]
 
-One or more   <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-_rm_shutdown_type">RM_SHUTDOWN_TYPE</a> options that configure the shut down of components. The following values can be combined by an OR operator to specify that unresponsive applications and services are to be forced to shut down if, and only if, all applications have been registered for restart.
+One or more   <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-rm_shutdown_type">RM_SHUTDOWN_TYPE</a> options that configure the shut down of components. The following values can be combined by an OR operator to specify that unresponsive applications and services are to be forced to shut down if, and only if, all applications have been registered for restart.
 
 <table>
 <tr>
@@ -147,7 +147,7 @@ No shutdown actions were performed. One or more processes or services require a 
 </dl>
 </td>
 <td width="60%">
-Some applications could not be shut down. The <b>AppStatus</b>  of the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_process_info">RM_PROCESS_INFO</a> structures returned by the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmgetlist">RmGetList</a> function contain updated status information.
+Some applications could not be shut down. The <b>AppStatus</b>  of the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a> structures returned by the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmgetlist">RmGetList</a> function contain updated status information.
 
 </td>
 </tr>
@@ -233,7 +233,7 @@ No Restart Manager session exists for the handle supplied.
 
 
 
-The <b>RmShutdown</b> function  calls <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmgetlist">RmGetList</a> and updates the list of processes currently using registered resources before attempting to shut down any processes. The  <b>RmShutdown</b> function then attempts to shut down the processes using registered resources in the most current list. The  <b>RmShutdown</b> function updates the <b>AppStatus</b>  member of the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_process_info">RM_PROCESS_INFO</a> structures that are returned by the <b>RmGetList</b> function with detailed status information.
+The <b>RmShutdown</b> function  calls <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmgetlist">RmGetList</a> and updates the list of processes currently using registered resources before attempting to shut down any processes. The  <b>RmShutdown</b> function then attempts to shut down the processes using registered resources in the most current list. The  <b>RmShutdown</b> function updates the <b>AppStatus</b>  member of the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a> structures that are returned by the <b>RmGetList</b> function with detailed status information.
 
 The Restart Manager respects the privileges that separate different user or terminal sessions. An installer that is running as a service with LocalSystem privileges cannot shut down or restart any applications in another user or terminal session.  Installers should implement custom methods to shut down and restart applications that are running in other sessions. One method would be to start a new   installer process  in the other session to perform shutdown and restart operations.
 

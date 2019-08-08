@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSREG_CREATE_KEY, CLUSREG_DELETE_KEY, CLUSREG_DELETE_VALUE, CLUSREG_SET_VALUE, CLUSREG_VALUE_DELETED, CLUSTER_BATCH_COMMAND, CLUSTER_BATCH_COMMAND structure [Failover Cluster], clusapi/CLUSTER_BATCH_COMMAND, mscs.cluster_batch_command
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUSTER_BATCH_COMMAND"
+f1_keywords:
+- clusapi/CLUSTER_BATCH_COMMAND
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSTER_BATCH_COMMAND
+- CLUSTER_BATCH_COMMAND
 product: Windows
 targetos: Windows
 req.typenames: CLUSTER_BATCH_COMMAND
@@ -70,7 +70,7 @@ Represents the order in which current batch command data is sent to the
 ### -field Command
 
 A command that is supported by this API and taken from the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-_cluster_reg_command">CLUSTER_REG_COMMAND</a> enumeration. The possible 
+       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_reg_command">CLUSTER_REG_COMMAND</a> enumeration. The possible 
        commands are as follows.
 
 
@@ -157,7 +157,7 @@ The <b>wzName</b> and <b>lpData</b> pointers are valid until the batch
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-_cluster_reg_command">CLUSTER_REG_COMMAND</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_reg_command">CLUSTER_REG_COMMAND</a>
 
 
 

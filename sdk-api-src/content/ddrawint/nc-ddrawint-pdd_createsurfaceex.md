@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3dCreateSurfaceEx, D3dCreateSurfaceEx callback function [Display Devices], PDD_CREATESURFACEEX, PDD_CREATESURFACEEX callback, d3dfncs_84d5da96-838e-4ba9-84a2-412e58f36bd0.xml, ddrawint/D3dCreateSurfaceEx, display.d3dcreatesurfaceex
 ms.topic: callback
-f1_keywords: 
- - "ddrawint/D3dCreateSurfaceEx"
+f1_keywords:
+- ddrawint/D3dCreateSurfaceEx
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - D3dCreateSurfaceEx
+- D3dCreateSurfaceEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The <b>D3dCreateSurfaceEx</b> function notifies about the association of a Micro
 
 #### - pcsxd
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_createsurfaceexdata">DD_CREATESURFACEEXDATA</a> structure that contains the information required for the driver to create the surface. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_createsurfaceexdata">DD_CREATESURFACEEXDATA</a> structure that contains the information required for the driver to create the surface. 
 
 
 ## -returns
@@ -90,9 +90,9 @@ All Direct3D drivers must support <b>D3dCreateSurfaceEx</b>.
 
 <b>D3dCreateSurfaceEx</b> creates an association between a DirectDraw surface and a small integer surface handle. By creating these associations between a handle and a DirectDraw surface, <b>D3dCreateSurfaceEx</b> allows a surface handle to be embedded in the Direct3D command stream. For example, when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ne-d3dhal-_d3dhal_dp2operation">D3DDP2OP_TEXBLT</a> command token is sent to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> function to load a texture map, it uses a source handle and destination handle that were associated with a DirectDraw surface through <b>D3dCreateSurfaceEx</b>. 
 
-For every DirectDraw surface created under the local DirectDraw object, the runtime generates a valid handle that uniquely identifies the surface and places the handle in the <b>dwSurfaceHandle</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_more">DD_SURFACE_MORE</a> structure. The <b>lpDDSLcl</b> member of the DD_CREATESURFACEEXDATA structure at <i>pcsxd</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure that contains a <b>lpSurfMore</b> member that points to this DD_SURFACE_MORE. This handle value is also used with the D3DRENDERSTATE_TEXTUREHANDLE render state to enable texturing, and with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ne-d3dhal-_d3dhal_dp2operation">D3DDP2OP_SETRENDERTARGET</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ne-d3dhal-_d3dhal_dp2operation">D3DDP2OP_CLEAR</a> commands to set and clear new rendering and depth buffers. The driver should fail the call and return DDHAL_DRIVER_HANDLED if it cannot create the Direct3D surface.
+For every DirectDraw surface created under the local DirectDraw object, the runtime generates a valid handle that uniquely identifies the surface and places the handle in the <b>dwSurfaceHandle</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_more">DD_SURFACE_MORE</a> structure. The <b>lpDDSLcl</b> member of the DD_CREATESURFACEEXDATA structure at <i>pcsxd</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that contains a <b>lpSurfMore</b> member that points to this DD_SURFACE_MORE. This handle value is also used with the D3DRENDERSTATE_TEXTUREHANDLE render state to enable texturing, and with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ne-d3dhal-_d3dhal_dp2operation">D3DDP2OP_SETRENDERTARGET</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ne-d3dhal-_d3dhal_dp2operation">D3DDP2OP_CLEAR</a> commands to set and clear new rendering and depth buffers. The driver should fail the call and return DDHAL_DRIVER_HANDLED if it cannot create the Direct3D surface.
 
-For either a system memory surface or video memory surface, when <b>D3dCreateSurfaceEx</b> is called to notify about the association of <b>dwSurfaceHandle</b> with the surface's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_global">DD_SURFACE_GLOBAL</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structures, the display driver can store any data (for example, a pointer to privately allocated memory) in the <b>dwReserved1</b> members of DD_SURFACE_GLOBAL and DD_SURFACE_LOCAL because these members are reserved for private use by the display driver. 
+For either a system memory surface or video memory surface, when <b>D3dCreateSurfaceEx</b> is called to notify about the association of <b>dwSurfaceHandle</b> with the surface's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_global">DD_SURFACE_GLOBAL</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structures, the display driver can store any data (for example, a pointer to privately allocated memory) in the <b>dwReserved1</b> members of DD_SURFACE_GLOBAL and DD_SURFACE_LOCAL because these members are reserved for private use by the display driver. 
 
 To notify the display driver that a system memory surface is to be released, the runtime sets the <b>fpVidMem</b> pointer member of the system memory surface's DD_SURFACE_GLOBAL structure to zero and calls the display driver's <b>D3dCreateSurfaceEx</b> callback. In addition to releasing all resources associated with this surface, the display driver must clear out the data that was previously stored in the <b>dwReserved1</b> members. Note that because the <b>fpVidMem</b> pointer member for a video memory surface can be set to zero, the display driver must verify whether the surface is in video or system memory to determine if the call to <b>D3dCreateSurfaceEx</b> is meant to notify about the association of a video memory surface with <b>dwSurfaceHandle</b> or to notify about the disassociation of a system memory surface from <b>dwSurfaceHandle</b>.
 
@@ -285,19 +285,19 @@ void MyCreateSurfaceExHelper(LPDDRAWI_DDRAWSURFACE_LCL pLcl)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_createsurfaceexdata">DD_CREATESURFACEEXDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_createsurfaceexdata">DD_CREATESURFACEEXDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_global">DD_SURFACE_GLOBAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_global">DD_SURFACE_GLOBAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_more">DD_SURFACE_MORE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_more">DD_SURFACE_MORE</a>
 
 
 

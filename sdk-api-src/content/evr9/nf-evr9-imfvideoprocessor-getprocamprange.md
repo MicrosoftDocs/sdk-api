@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 03894bfe-020a-4478-af6f-88521d4bbb6d, GetProcAmpRange, GetProcAmpRange method [Media Foundation], GetProcAmpRange method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetProcAmpRange method, IMFVideoProcessor.GetProcAmpRange, IMFVideoProcessor::GetProcAmpRange, evr9/IMFVideoProcessor::GetProcAmpRange, mf.imfvideoprocessor_getprocamprange
 ms.topic: method
-f1_keywords: 
- - "evr9/IMFVideoProcessor.GetProcAmpRange"
+f1_keywords:
+- evr9/IMFVideoProcessor.GetProcAmpRange
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoProcessor.GetProcAmpRange
+- IMFVideoProcessor.GetProcAmpRange
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The ProcAmp setting to query. For a list of possible values, see <a href="https:
 
 ### -param pPropRange [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_valuerange">DXVA2_ValueRange</a> structure that receives range of values for the specified ProcAmp setting.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_valuerange">DXVA2_ValueRange</a> structure that receives range of values for the specified ProcAmp setting.
 
 
 ## -returns

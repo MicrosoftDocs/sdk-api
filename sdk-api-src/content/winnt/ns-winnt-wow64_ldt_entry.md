@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: a571cd2f-0873-4ad5-bcb8-c0da2d47a820
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWOW64_LDT_ENTRY, PWOW64_LDT_ENTRY, PWOW64_LDT_ENTRY structure pointer, WOW64_LDT_ENTRY, WOW64_LDT_ENTRY structure, _WOW64_LDT_ENTRY, base.wow64_ldt_entry_str, winnt/LDT_ENTRY, winnt/PWOW64_LDT_ENTRY"
+ms.keywords: '*PWOW64_LDT_ENTRY, PWOW64_LDT_ENTRY, PWOW64_LDT_ENTRY structure pointer, WOW64_LDT_ENTRY, WOW64_LDT_ENTRY structure, _WOW64_LDT_ENTRY, base.wow64_ldt_entry_str, winnt/LDT_ENTRY, winnt/PWOW64_LDT_ENTRY'
 ms.topic: struct
-f1_keywords: 
- - "winnt/WOW64_LDT_ENTRY"
+f1_keywords:
+- winnt/WOW64_LDT_ENTRY
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - WOW64_LDT_ENTRY
+- WOW64_LDT_ENTRY
 product: Windows
 targetos: Windows
 req.typenames: WOW64_LDT_ENTRY, *PWOW64_LDT_ENTRY
@@ -170,7 +170,7 @@ The base address of a segment is the address of offset 0 in the segment. To calc
 
 The limit of a segment is the address of the last byte that can be addressed in the segment. To calculate this value, combine the <b>LimitLow</b> and <b>LimitHi</b> members.
 
-The <b>WOW64_LDT_ENTRY</b> structure has the same layout for a 64-bit process as the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ldt_entry">LDT_ENTRY</a> structure has for a 32-bit process.
+The <b>WOW64_LDT_ENTRY</b> structure has the same layout for a 64-bit process as the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ldt_entry">LDT_ENTRY</a> structure has for a 32-bit process.
 
 
 

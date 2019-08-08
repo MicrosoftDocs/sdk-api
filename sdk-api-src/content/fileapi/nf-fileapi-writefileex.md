@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WriteFileEx, WriteFileEx function [Files], _win32_writefileex, base.writefileex, fileapi/WriteFileEx, fs.writefileex, winbase/WriteFileEx
 ms.topic: function
-f1_keywords: 
- - "fileapi/WriteFileEx"
+f1_keywords:
+- fileapi/WriteFileEx
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - WriteFileEx
+- WriteFileEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -108,20 +108,20 @@ Pipe write operations across a network are limited to 65,535 bytes per write. Fo
 
 ### -param lpOverlapped [in, out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> data structure that 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> data structure that 
       supplies data to be used during the overlapped (asynchronous) write operation.
       
 
 For files that support byte offsets, you must specify a byte offset at which to start writing to the file. 
        You specify this offset by setting the <b>Offset</b> and 
        <b>OffsetHigh</b> members of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure. For files or devices that do not support 
+       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. For files or devices that do not support 
        byte offsets, <b>Offset</b> and <b>OffsetHigh</b> are ignored.
 
-To write to the end of file, specify both the <b>Offset</b> and <b>OffsetHigh</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure as 0xFFFFFFFF. This is functionally equivalent to previously calling the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function to open <i>hFile</i> using <b>FILE_APPEND_DATA</b> access.
+To write to the end of file, specify both the <b>Offset</b> and <b>OffsetHigh</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure as 0xFFFFFFFF. This is functionally equivalent to previously calling the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function to open <i>hFile</i> using <b>FILE_APPEND_DATA</b> access.
 
 The <b>WriteFileEx</b> function ignores the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure's 
+       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure's 
        <b>hEvent</b> member. An application is free to use that member for its own purposes in the 
        context of a <b>WriteFileEx</b> call. 
        <b>WriteFileEx</b> signals completion of its writing operation 
@@ -130,10 +130,10 @@ The <b>WriteFileEx</b> function ignores the
 
 The <b>WriteFileEx</b> function does use the 
        <b>Internal</b> and <b>InternalHigh</b> members of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure. You should not change the value 
+       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. You should not change the value 
        of these members.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> data structure must remain valid for 
+The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> data structure must remain valid for 
        the duration of the write operation. It should not be a variable that can go out of scope while the write 
        operation is pending completion.
 

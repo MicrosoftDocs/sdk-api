@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaQueryCAPs, LsaQueryCAPs function [Security], ntlsa/LsaQueryCAPs, security.lsaquerycaps
 ms.topic: function
-f1_keywords: 
- - "ntlsa/LsaQueryCAPs"
+f1_keywords:
+- ntlsa/LsaQueryCAPs
 req.header: ntlsa.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - LsaQueryCAPs
+- LsaQueryCAPs
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,12 +71,12 @@ The number of IDs in the <i>CAPIDs</i> parameter.
 
 ### -param CAPs [out]
 
-Receives a pointer to an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/ntlsa/ns-ntlsa-_central_access_policy">CENTRAL_ACCESS_POLICY</a> structures representing the queried CAPs.
+Receives a pointer to an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/ntlsa/ns-ntlsa-central_access_policy">CENTRAL_ACCESS_POLICY</a> structures representing the queried CAPs.
 
 
 ### -param CAPCount [out]
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/ntlsa/ns-ntlsa-_central_access_policy">CENTRAL_ACCESS_POLICY</a> structure pointers returned in the <i>CAPs</i> parameter.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/ntlsa/ns-ntlsa-central_access_policy">CENTRAL_ACCESS_POLICY</a> structure pointers returned in the <i>CAPs</i> parameter.
 
 
 ## -returns

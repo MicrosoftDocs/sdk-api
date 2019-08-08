@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrencyFormatEx, GetCurrencyFormatEx function [Internationalization for Windows Applications], _win32_GetCurrencyFormatEx, intl.getcurrencyformatex, winnls/GetCurrencyFormatEx
 ms.topic: function
-f1_keywords: 
- - "winnls/GetCurrencyFormatEx"
+f1_keywords:
+- winnls/GetCurrencyFormatEx
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l2-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l2-1-0.dll
+- KernelBase.dll
 api_name:
- - GetCurrencyFormatEx
+- GetCurrencyFormatEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -100,7 +100,7 @@ Pointer to a null-terminated string containing the number string to format. This
 
 ### -param lpFormat [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_currencyfmta">CURRENCYFMT</a> structure that contains currency formatting information. All members of the structure must contain appropriate values. The application can set this parameter to <b>NULL</b> if function is to use the currency format of the specified locale. If this parameter is not set to <b>NULL</b>, the function uses the specified locale only for formatting information not specified in the <b>CURRENCYFMT</b> structure, for example, the string value for the negative sign used by the locale.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-currencyfmta">CURRENCYFMT</a> structure that contains currency formatting information. All members of the structure must contain appropriate values. The application can set this parameter to <b>NULL</b> if function is to use the currency format of the specified locale. If this parameter is not set to <b>NULL</b>, the function uses the specified locale only for formatting information not specified in the <b>CURRENCYFMT</b> structure, for example, the string value for the negative sign used by the locale.
 
 
 ### -param lpCurrencyStr [out, optional]
@@ -143,7 +143,7 @@ The function returns 0 if it does not succeed. To get extended error information
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_currencyfmta">CURRENCYFMT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-currencyfmta">CURRENCYFMT</a>
 
 
 

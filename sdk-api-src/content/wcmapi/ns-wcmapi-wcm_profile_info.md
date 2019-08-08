@@ -8,10 +8,10 @@ tech.root: wcm
 ms.assetid: bf917afa-c6c5-408a-bd34-b4a4c7b991b9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWCM_PROFILE_INFO, PWCM_PROFILE_INFO, PWCM_PROFILE_INFO structure pointer [Windows Connection Manager], WCM_PROFILE_INFO, WCM_PROFILE_INFO structure [Windows Connection Manager], wcm.wcm_profile_info, wcmapi/PWCM_PROFILE_INFO, wcmapi/WCM_PROFILE_INFO"
+ms.keywords: '*PWCM_PROFILE_INFO, PWCM_PROFILE_INFO, PWCM_PROFILE_INFO structure pointer [Windows Connection Manager], WCM_PROFILE_INFO, WCM_PROFILE_INFO structure [Windows Connection Manager], wcm.wcm_profile_info, wcmapi/PWCM_PROFILE_INFO, wcmapi/WCM_PROFILE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wcmapi/WCM_PROFILE_INFO"
+f1_keywords:
+- wcmapi/WCM_PROFILE_INFO
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wcmapi.h
+- Wcmapi.h
 api_name:
- - WCM_PROFILE_INFO
+- WCM_PROFILE_INFO
 product: Windows
 targetos: Windows
 req.typenames: WCM_PROFILE_INFO, *PWCM_PROFILE_INFO
@@ -75,7 +75,7 @@ The GUID of the adapter.
 
 ### -field Media
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-_wcm_media_type">WCM_MEDIA_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-wcm_media_type">WCM_MEDIA_TYPE</a></b>
 
 The media type for the profile.
 
@@ -85,7 +85,7 @@ The media type for the profile.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-_wcm_media_type">WCM_MEDIA_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-wcm_media_type">WCM_MEDIA_TYPE</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 254ea6a9-e1dd-4b97-91f7-2693065c4bb8
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_ID_128, EXT_FILE_ID_128, EXT_FILE_ID_128 structure [Files], FILE_ID_128, FILE_ID_128 structure [Files], PEXT_FILE_ID_128, PEXT_FILE_ID_128 structure pointer [Files], _FILE_ID_128, fs.ext_file_id_128, winnt/FILE_ID_128, winnt/PEXT_FILE_ID_128"
+ms.keywords: '*PFILE_ID_128, EXT_FILE_ID_128, EXT_FILE_ID_128 structure [Files], FILE_ID_128, FILE_ID_128 structure [Files], PEXT_FILE_ID_128, PEXT_FILE_ID_128 structure pointer [Files], _FILE_ID_128, fs.ext_file_id_128, winnt/FILE_ID_128, winnt/PEXT_FILE_ID_128'
 ms.topic: struct
-f1_keywords: 
- - "winnt/EXT_FILE_ID_128"
+f1_keywords:
+- winnt/EXT_FILE_ID_128
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - EXT_FILE_ID_128
+- EXT_FILE_ID_128
 product: Windows
 targetos: Windows
 req.typenames: FILE_ID_128, *PFILE_ID_128
@@ -73,11 +73,11 @@ A byte array containing  the 128 bit identifier.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_id_extd_dir_info">FILE_ID_EXTD_DIR_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_extd_dir_info">FILE_ID_EXTD_DIR_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_id_info">FILE_ID_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_info">FILE_ID_INFO</a>
 
 
 

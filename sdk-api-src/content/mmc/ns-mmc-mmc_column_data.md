@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_COLUMN_DATA, MMC_COLUMN_DATA structure [MMC], _slate_mmc_column_data, mmc.mmc_column_data, mmc/MMC_COLUMN_DATA
 ms.topic: struct
-f1_keywords: 
- - "mmc/MMC_COLUMN_DATA"
+f1_keywords:
+- mmc/MMC_COLUMN_DATA
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - MMC_COLUMN_DATA
+- MMC_COLUMN_DATA
 product: Windows
 targetos: Windows
 req.typenames: MMC_COLUMN_DATA
@@ -56,7 +56,7 @@ MMC_COLUMN_DATA structure is introduced in MMC 1.2.
 
 The 
 MMC_COLUMN_DATA structure contains the column data of a single column in a column set. The column data is persisted in memory by MMC. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_column_set_data">MMC_COLUMN_SET_DATA</a> structure holds a pointer to an array of 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_column_set_data">MMC_COLUMN_SET_DATA</a> structure holds a pointer to an array of 
 MMC_COLUMN_DATA structures.
 
 
@@ -105,7 +105,7 @@ MMC_COLUMN_DATA structure, a snap-in can hide or show columns in a column set in
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_column_set_data">MMC_COLUMN_SET_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_column_set_data">MMC_COLUMN_SET_DATA</a>
 
 
 

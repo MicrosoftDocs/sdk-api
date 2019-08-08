@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_VERIFY_CERT_SIGN_DISABLE_MD2_MD4_FLAG, CRYPT_VERIFY_CERT_SIGN_ISSUER_CERT, CRYPT_VERIFY_CERT_SIGN_ISSUER_CHAIN, CRYPT_VERIFY_CERT_SIGN_ISSUER_NULL, CRYPT_VERIFY_CERT_SIGN_ISSUER_PUBKEY, CRYPT_VERIFY_CERT_SIGN_RETURN_STRONG_PROPERTIES_FLAG, CRYPT_VERIFY_CERT_SIGN_SET_STRONG_PROPERTIES_FLAG, CRYPT_VERIFY_CERT_SIGN_SUBJECT_BLOB, CRYPT_VERIFY_CERT_SIGN_SUBJECT_CERT, CRYPT_VERIFY_CERT_SIGN_SUBJECT_CRL, CRYPT_VERIFY_CERT_SIGN_SUBJECT_OCSP_BASIC_SIGNED_RESPONSE, CryptVerifyCertificateSignatureEx, CryptVerifyCertificateSignatureEx function [Security], X509_ASN_ENCODING, _crypto2_cryptverifycertificatesignatureex, security.cryptverifycertificatesignatureex, wincrypt/CryptVerifyCertificateSignatureEx
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptVerifyCertificateSignatureEx"
+f1_keywords:
+- wincrypt/CryptVerifyCertificateSignatureEx
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptVerifyCertificateSignatureEx
+- CryptVerifyCertificateSignatureEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -127,7 +127,7 @@ The subject type. This parameter can be one of the following subject types.
 </dl>
 </td>
 <td width="60%">
-<i>pvSubject</i> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CCERT_CONTEXT</a>structure.
+<i>pvSubject</i> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CCERT_CONTEXT</a>structure.
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ The subject type. This parameter can be one of the following subject types.
 </dl>
 </td>
 <td width="60%">
-<i>pvSubject</i> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CCRL_CONTEXT</a>structure.
+<i>pvSubject</i> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CCRL_CONTEXT</a>structure.
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ The subject type. This parameter can be one of the following subject types.
 </dl>
 </td>
 <td width="60%">
-<i>pvSubject</i> is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_basic_signed_response_info">OCSP_BASIC_SIGNED_RESPONSE_INFO</a> structure.
+<i>pvSubject</i> is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_signed_response_info">OCSP_BASIC_SIGNED_RESPONSE_INFO</a> structure.
 
 <b>Windows Server 2003 and Windows XP:  </b>This subject type is not supported.
 
@@ -180,7 +180,7 @@ The issuer type. This parameter can be one of the following issuer types.
 </dl>
 </td>
 <td width="60%">
-<i>pvIssuer</i> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>structure.
+<i>pvIssuer</i> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>structure.
 
 </td>
 </tr>
@@ -191,7 +191,7 @@ The issuer type. This parameter can be one of the following issuer types.
 </dl>
 </td>
 <td width="60%">
-<i>pvIssuer</i> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CCERT_CONTEXT</a>structure.
+<i>pvIssuer</i> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CCERT_CONTEXT</a>structure.
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ The issuer type. This parameter can be one of the following issuer types.
 </dl>
 </td>
 <td width="60%">
-<i>pvIssuer</i> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CCERT_CHAIN_CONTEXT</a>structure.
+<i>pvIssuer</i> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CCERT_CHAIN_CONTEXT</a>structure.
 
 </td>
 </tr>
@@ -285,7 +285,7 @@ The following properties are set on the CRL context:
 <td width="60%">
 Returns a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-crypt_verify_cert_sign_strong_properties_info">CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO</a> structure in the <i>pvExtra</i> parameter. The structure contains the length, in bits, of the public key and the  names of the signing and hashing algorithms used.
 
-You must call <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-crypt_verify_cert_sign_strong_properties_info">CryptMemFree</a> to free the structure. If memory cannot be allocated for the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_verify_cert_sign_strong_properties_info">CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO</a> structure, this function returns successfully but sets the <i>pvExtra</i> parameter to <b>NULL</b>.
+You must call <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-crypt_verify_cert_sign_strong_properties_info">CryptMemFree</a> to free the structure. If memory cannot be allocated for the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_verify_cert_sign_strong_properties_info">CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO</a> structure, this function returns successfully but sets the <i>pvExtra</i> parameter to <b>NULL</b>.
 
 <div class="alert"><b>Note</b>  This flag is only applicable if  <b>CRYPT_VERIFY_CERT_SIGN_SUBJECT_OCSP_BASIC_SIGNED_RESPONSE</b> is specified in the <i>dwSubjectType</i> parameter.</div>
 <div> </div>

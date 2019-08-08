@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WRITE_CACHE_CHANGE, WRITE_CACHE_CHANGE enumeration [Files], WriteCacheChangeUnknown, WriteCacheChangeable, WriteCacheNotChangeable, fs.write_cache_change, winioctl/WRITE_CACHE_CHANGE, winioctl/WriteCacheChangeUnknown, winioctl/WriteCacheChangeable, winioctl/WriteCacheNotChangeable
 ms.topic: enum
-f1_keywords: 
- - "winioctl/WRITE_CACHE_CHANGE"
+f1_keywords:
+- winioctl/WRITE_CACHE_CHANGE
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - WRITE_CACHE_CHANGE
+- WRITE_CACHE_CHANGE
 product: Windows
 targetos: Windows
 req.typenames: WRITE_CACHE_CHANGE
@@ -79,7 +79,7 @@ Host software can change the characteristics of the device's write cache.
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request 
     returns a <b>WRITE_CACHE_CHANGE</b> value in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_write_cache_property">STORAGE_WRITE_CACHE_PROPERTY</a> structure.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_write_cache_property">STORAGE_WRITE_CACHE_PROPERTY</a> structure.
 
 
 
@@ -97,7 +97,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_write_cache_property">STORAGE_WRITE_CACHE_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_write_cache_property">STORAGE_WRITE_CACHE_PROPERTY</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: f9f1092d-7e15-41cd-a42f-abe8a4f33e15
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "_win32_select_2, select, select function [Winsock], winsock.select_2, winsock2/select"
+ms.keywords: _win32_select_2, select, select function [Winsock], winsock.select_2, winsock2/select
 ms.topic: function
-f1_keywords: 
- - "winsock2/select"
+f1_keywords:
+- winsock2/select
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - select
+- select
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -194,7 +194,7 @@ The
 <b>select</b> function is used to determine the status of one or more sockets. For each socket, the caller can request information on read, write, or error status. The set of sockets for which a given status is requested is indicated by an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-fd_set">fd_set</a> structure. The sockets contained within the 
 <b>fd_set</b> structures must be associated with a single service provider. For the purpose of this restriction, sockets are considered to be from the same service provider if the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structures describing their protocols have the same <i>providerId</i> value. Upon return, the structures are updated to reflect the subset of these sockets that meet the specified condition. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structures describing their protocols have the same <i>providerId</i> value. Upon return, the structures are updated to reflect the subset of these sockets that meet the specified condition. The 
 <b>select</b> function returns the number of sockets meeting the conditions. A set of macros is provided for manipulating an 
 <b>fd_set</b> structure. These macros are compatible with those used in the Berkeley software, but the underlying representation is completely different.
 

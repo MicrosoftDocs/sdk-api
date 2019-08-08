@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSEnumerateServers, WTSEnumerateServers function [Remote Desktop Services], WTSEnumerateServersA, WTSEnumerateServersW, termserv.wtsenumerateservers, wtsapi32/WTSEnumerateServers, wtsapi32/WTSEnumerateServersA, wtsapi32/WTSEnumerateServersW
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSEnumerateServers"
+f1_keywords:
+- wtsapi32/WTSEnumerateServers
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.dll
+- Wtsapi32.dll
 api_name:
- - WTSEnumerateServers
- - WTSEnumerateServersA
- - WTSEnumerateServersW
+- WTSEnumerateServers
+- WTSEnumerateServersA
+- WTSEnumerateServersW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -80,7 +80,7 @@ Version of the enumeration request. The value of the parameter must be 1.
 
 ### -param ppServerInfo
 
-Points to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_server_infoa">WTS_SERVER_INFO</a> 
+Points to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_server_infoa">WTS_SERVER_INFO</a> 
       structures, which contains the returned results of the enumeration. After use, the memory used by this buffer 
       should be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory">WTSFreeMemory</a>.
 
@@ -88,7 +88,7 @@ Points to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wt
 ### -param pCount
 
 Pointer to a variable that receives the number of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_server_infoa">WTS_SERVER_INFO</a> structures returned in the 
+      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_server_infoa">WTS_SERVER_INFO</a> structures returned in the 
       <i>ppServerInfo</i> buffer.
 
 
@@ -118,7 +118,7 @@ This function will not work if NetBT is disabled.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_server_infoa">WTS_SERVER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_server_infoa">WTS_SERVER_INFO</a>
  
 
  

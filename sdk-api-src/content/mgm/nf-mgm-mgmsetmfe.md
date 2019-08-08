@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MgmSetMfe, MgmSetMfe function [RAS], _mpr_mgmsetmfe, mgm/MgmSetMfe, rras.mgmsetmfe
 ms.topic: function
-f1_keywords: 
- - "mgm/MgmSetMfe"
+f1_keywords:
+- mgm/MgmSetMfe
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mgm.h
+- Mgm.h
 api_name:
- - MgmSetMfe
+- MgmSetMfe
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ Handle to the protocol obtained from a previous call to
 ### -param pmimm [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe">MIB_IPMCAST_MFE</a> structure that specifies the MFE to change. Specify the new neighbor in the <b>dwUpstreamNeighbor</b> member.
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe">MIB_IPMCAST_MFE</a> structure that specifies the MFE to change. Specify the new neighbor in the <b>dwUpstreamNeighbor</b> member.
 
 
 ## -returns
@@ -129,7 +129,7 @@ The specified MFE was not found.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe">MIB_IPMCAST_MFE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe">MIB_IPMCAST_MFE</a>
  
 
  

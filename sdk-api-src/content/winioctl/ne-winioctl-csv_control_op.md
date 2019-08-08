@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 77A2106F-2C07-4A30-BA46-651F74032609
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCSV_CONTROL_OP, CSV_CONTROL_OP, CSV_CONTROL_OP enumeration [Files], CsvControlMdsPath, CsvControlQueryFileRevision, CsvControlQueryRedirectState, CsvControlStartRedirectFile, CsvControlStopRedirectFile, PCSV_CONTROL_OP, PCSV_CONTROL_OP enumeration pointer [Files], fs.csv_control_op, winioctl/CSV_CONTROL_OP, winioctl/CsvControlMdsPath, winioctl/CsvControlQueryFileRevision, winioctl/CsvControlQueryRedirectState, winioctl/CsvControlStartRedirectFile, winioctl/CsvControlStopRedirectFile, winioctl/PCSV_CONTROL_OP"
+ms.keywords: '*PCSV_CONTROL_OP, CSV_CONTROL_OP, CSV_CONTROL_OP enumeration [Files], CsvControlMdsPath, CsvControlQueryFileRevision, CsvControlQueryRedirectState, CsvControlStartRedirectFile, CsvControlStopRedirectFile, PCSV_CONTROL_OP, PCSV_CONTROL_OP enumeration pointer [Files], fs.csv_control_op, winioctl/CSV_CONTROL_OP, winioctl/CsvControlMdsPath, winioctl/CsvControlQueryFileRevision, winioctl/CsvControlQueryRedirectState, winioctl/CsvControlStartRedirectFile, winioctl/CsvControlStopRedirectFile, winioctl/PCSV_CONTROL_OP'
 ms.topic: enum
-f1_keywords: 
- - "winioctl/CSV_CONTROL_OP"
+f1_keywords:
+- winioctl/CSV_CONTROL_OP
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - CSV_CONTROL_OP
+- CSV_CONTROL_OP
 product: Windows
 targetos: Windows
 req.typenames: CSV_CONTROL_OP, *PCSV_CONTROL_OP
@@ -72,14 +72,14 @@ Stop file redirection.
 ### -field CsvControlQueryRedirectState
 
 Search for state redirection. When this value is specified, the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_redirect_state">CSV_QUERY_REDIRECT_STATE</a> structure must also 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_query_redirect_state">CSV_QUERY_REDIRECT_STATE</a> structure must also 
       be used.
 
 
 ### -field CsvControlQueryFileRevision
 
 Search for file revision. When this value is specified, the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_file_revision">CSV_QUERY_FILE_REVISION</a> structure must also be 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_query_file_revision">CSV_QUERY_FILE_REVISION</a> structure must also be 
       used.
 
 
@@ -115,7 +115,7 @@ Search for file revision. When this value is specified, the
 #### - CsvControlMdsPath
 
 Search for MDS path. When this value is specified, the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_mds_path">CSV_QUERY_MDS_PATH</a> structure must also be used.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_query_mds_path">CSV_QUERY_MDS_PATH</a> structure must also be used.
 
 
 ## -remarks
@@ -124,7 +124,7 @@ Search for MDS path. When this value is specified, the
 
 An alternative to calling the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control">FSCTL_CSV_CONTROL</a> 
     control code with this enumeration is to use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_control_param">CSV_CONTROL_PARAM</a> structure, which encapsulates a member 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_control_param">CSV_CONTROL_PARAM</a> structure, which encapsulates a member 
     of this enumeration type.
 
 
@@ -135,19 +135,19 @@ An alternative to calling the <a href="https://docs.microsoft.com/windows/deskto
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_control_param">CSV_CONTROL_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_control_param">CSV_CONTROL_PARAM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_file_revision">CSV_QUERY_FILE_REVISION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_query_file_revision">CSV_QUERY_FILE_REVISION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_mds_path">CSV_QUERY_MDS_PATH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_query_mds_path">CSV_QUERY_MDS_PATH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_redirect_state">CSV_QUERY_REDIRECT_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_query_redirect_state">CSV_QUERY_REDIRECT_STATE</a>
 
 
 

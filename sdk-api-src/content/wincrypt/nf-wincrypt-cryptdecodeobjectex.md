@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_DECODE_ALLOC_FLAG, CRYPT_DECODE_ENABLE_PUNYCODE_FLAG, CRYPT_DECODE_NOCOPY_FLAG, CRYPT_DECODE_NO_SIGNATURE_BYTE_REVERSAL_FLAG, CRYPT_DECODE_SHARE_OID_STRING_FLAG, CRYPT_DECODE_TO_BE_SIGNED_FLAG, CRYPT_UNICODE_NAME_DECODE_DISABLE_IE4_UTF8_FLAG, CryptDecodeObjectEx, CryptDecodeObjectEx function [Security], _crypto2_cryptdecodeobjectex, security.cryptdecodeobjectex, wincrypt/CryptDecodeObjectEx
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptDecodeObjectEx"
+f1_keywords:
+- wincrypt/CryptDecodeObjectEx
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptDecodeObjectEx
+- CryptDecodeObjectEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -185,7 +185,7 @@ By default, the signature bytes are reversed. If this flag is set, this byte rev
 
 ### -param pDecodePara [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_decode_para">CRYPT_DECODE_PARA</a> structure that contains decoding paragraph information. If <i>pDecodePara</i> is set to <b>NULL</b>, then <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> are used to allocate and free memory. If <i>pDecodePara</i> points to a <b>CRYPT_DECODE_PARA</b> structure, that structure passes in callback functions to allocate and free memory. These callback functions override the default memory allocation of <b>LocalAlloc</b> and <b>LocalFree</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_decode_para">CRYPT_DECODE_PARA</a> structure that contains decoding paragraph information. If <i>pDecodePara</i> is set to <b>NULL</b>, then <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> are used to allocate and free memory. If <i>pDecodePara</i> points to a <b>CRYPT_DECODE_PARA</b> structure, that structure passes in callback functions to allocate and free memory. These callback functions override the default memory allocation of <b>LocalAlloc</b> and <b>LocalFree</b>.
 
 
 ### -param pvStructInfo [out]
@@ -270,7 +270,7 @@ If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/e
 
 When encoding a cryptographic object using the preferred <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobjectex">CryptEncodeObjectEx</a> function, the terminating <b>NULL</b> character is included. When decoding, using the preferred <b>CryptDecodeObjectEx</b> function, the terminating <b>NULL</b> character is not retained.
 
-Each constant in the list below has an associated structure type that is pointed to by the <i>pvStructInfo</i> parameter. The structure  pointed to, directly or indirectly, has a reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a> structure.  
+Each constant in the list below has an associated structure type that is pointed to by the <i>pvStructInfo</i> parameter. The structure  pointed to, directly or indirectly, has a reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a> structure.  
 
 <ul>
 <li>X509_ALTERNATE_NAME
@@ -312,7 +312,7 @@ Each constant in the list below has an associated structure type that is pointed
 <li>szOID_SUBJECT_ALT_NAME2
 			</li>
 </ul>
-The <b>CRYPT_DECODE_ENABLE_PUNYCODE_FLAG</b> flag, in conjunction with the value of the <b>dwAltNameChoice</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a> structure, determines the manner in which strings are encoded.
+The <b>CRYPT_DECODE_ENABLE_PUNYCODE_FLAG</b> flag, in conjunction with the value of the <b>dwAltNameChoice</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a> structure, determines the manner in which strings are encoded.
 
 <table>
 <tr>
@@ -334,7 +334,7 @@ The <b>CRYPT_DECODE_ENABLE_PUNYCODE_FLAG</b> flag, in conjunction with the value
 </table>
  
 
-Each constant in the list below has an associated structure type that is pointed to by the <i>pvStructInfo</i> parameter. The structure  pointed to, directly or indirectly, has a reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_hashed_url">CERT_HASHED_URL</a> structure. 
+Each constant in the list below has an associated structure type that is pointed to by the <i>pvStructInfo</i> parameter. The structure  pointed to, directly or indirectly, has a reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_hashed_url">CERT_HASHED_URL</a> structure. 
 
 <ul>
 <li>szOID_LOGOTYPE_EXT</li>
@@ -342,14 +342,14 @@ Each constant in the list below has an associated structure type that is pointed
 <li>szOID_BIOMETRIC_EXT</li>
 <li>X509_BIOMETRIC_EXT</li>
 </ul>
-When decoding the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_hashed_url">CERT_HASHED_URL</a>  structure value, the URI is decoded.  If the host name contains a Punycode encoded host name, it is converted to the Unicode equivalent.
+When decoding the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_hashed_url">CERT_HASHED_URL</a>  structure value, the URI is decoded.  If the host name contains a Punycode encoded host name, it is converted to the Unicode equivalent.
 
 Each <b>X509_UNICODE_NAME</b> constant in the list below has an associated structure type that is pointed to by the <i>pvStructInfo</i> parameter.
 
 <ul>
 <li>X509_UNICODE_NAME</li>
 </ul>
-If the <i>pszObjId</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn_attr">CERT_RDN_ATTR</a> structure is set to <b>szOID_RSA_emailAddr</b> and the email address in the <b>Value</b> member contains Punycode encoded string, it is converted to the Unicode equivalent.
+If the <i>pszObjId</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> structure is set to <b>szOID_RSA_emailAddr</b> and the email address in the <b>Value</b> member contains Punycode encoded string, it is converted to the Unicode equivalent.
 
 
 #### Examples

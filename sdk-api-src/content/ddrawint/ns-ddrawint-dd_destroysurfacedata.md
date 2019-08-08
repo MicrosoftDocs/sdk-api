@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 77d9544d-72df-4e7d-ba57-644aeee34a88
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_DESTROYSURFACEDATA, DD_DESTROYSURFACEDATA, DD_DESTROYSURFACEDATA structure [Display Devices], ddrawint/DD_DESTROYSURFACEDATA, ddstrcts_19c2445b-0f9f-445d-a486-8ca100beeca7.xml, display.dd_destroysurfacedata"
+ms.keywords: '*PDD_DESTROYSURFACEDATA, DD_DESTROYSURFACEDATA, DD_DESTROYSURFACEDATA structure [Display Devices], ddrawint/DD_DESTROYSURFACEDATA, ddstrcts_19c2445b-0f9f-445d-a486-8ca100beeca7.xml, display.dd_destroysurfacedata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_DESTROYSURFACEDATA"
+f1_keywords:
+- ddrawint/DD_DESTROYSURFACEDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_DESTROYSURFACEDATA
+- DD_DESTROYSURFACEDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_DESTROYSURFACEDATA, DD_DESTROYSURFACEDATA"
+req.typenames: '*PDD_DESTROYSURFACEDATA, DD_DESTROYSURFACEDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,12 +61,12 @@ The DD_DESTROYSURFACEDATA structure contains information necessary to destroy th
 
 ### -field lpDD
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 
 ### -field lpDDSurface
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure representing the surface or buffer object to be destroyed. 
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure representing the surface or buffer object to be destroyed. 
 
 
 ### -field ddRVal

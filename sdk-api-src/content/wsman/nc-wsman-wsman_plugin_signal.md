@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_SIGNAL, WSMAN_PLUGIN_SIGNAL callback, WSMAN_PLUGIN_SIGNAL callback function [Windows Remote Management], WSMAN_SIGNAL_SHELL_CODE_CTRL_BREAK, WSMAN_SIGNAL_SHELL_CODE_CTRL_C, WSMAN_SIGNAL_SHELL_CODE_TERMINATE, WSManPluginSignal, winrm.wsman_plugin_signal, wsman/WSMAN_PLUGIN_SIGNAL
 ms.topic: callback
-f1_keywords: 
- - "wsman/WSMAN_PLUGIN_SIGNAL"
+f1_keywords:
+- wsman/WSMAN_PLUGIN_SIGNAL
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_PLUGIN_SIGNAL
+- WSMAN_PLUGIN_SIGNAL
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ The DLL entry point name for this method must be
 
 ### -param *requestDetails [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> 
       structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVT_PUBLISHER_METADATA_PROPERTY_ID, EVT_PUBLISHER_METADATA_PROPERTY_ID enumeration [EventLog], EvtPublisherMetadataChannelReferenceFlags, EvtPublisherMetadataChannelReferenceID, EvtPublisherMetadataChannelReferenceIndex, EvtPublisherMetadataChannelReferenceMessageID, EvtPublisherMetadataChannelReferencePath, EvtPublisherMetadataChannelReferences, EvtPublisherMetadataHelpLink, EvtPublisherMetadataKeywordMessageID, EvtPublisherMetadataKeywordName, EvtPublisherMetadataKeywordValue, EvtPublisherMetadataKeywords, EvtPublisherMetadataLevelMessageID, EvtPublisherMetadataLevelName, EvtPublisherMetadataLevelValue, EvtPublisherMetadataLevels, EvtPublisherMetadataMessageFilePath, EvtPublisherMetadataOpcodeMessageID, EvtPublisherMetadataOpcodeName, EvtPublisherMetadataOpcodeValue, EvtPublisherMetadataOpcodes, EvtPublisherMetadataParameterFilePath, EvtPublisherMetadataPropertyIdEND, EvtPublisherMetadataPublisherGuid, EvtPublisherMetadataPublisherMessageID, EvtPublisherMetadataResourceFilePath, EvtPublisherMetadataTaskEventGuid, EvtPublisherMetadataTaskMessageID, EvtPublisherMetadataTaskName, EvtPublisherMetadataTaskValue, EvtPublisherMetadataTasks, wes.evt_publisher_metadata_property_id, winevt/EVT_PUBLISHER_METADATA_PROPERTY_ID, winevt/EvtPublisherMetadataChannelReferenceFlags, winevt/EvtPublisherMetadataChannelReferenceID, winevt/EvtPublisherMetadataChannelReferenceIndex, winevt/EvtPublisherMetadataChannelReferenceMessageID, winevt/EvtPublisherMetadataChannelReferencePath, winevt/EvtPublisherMetadataChannelReferences, winevt/EvtPublisherMetadataHelpLink, winevt/EvtPublisherMetadataKeywordMessageID, winevt/EvtPublisherMetadataKeywordName, winevt/EvtPublisherMetadataKeywordValue, winevt/EvtPublisherMetadataKeywords, winevt/EvtPublisherMetadataLevelMessageID, winevt/EvtPublisherMetadataLevelName, winevt/EvtPublisherMetadataLevelValue, winevt/EvtPublisherMetadataLevels, winevt/EvtPublisherMetadataMessageFilePath, winevt/EvtPublisherMetadataOpcodeMessageID, winevt/EvtPublisherMetadataOpcodeName, winevt/EvtPublisherMetadataOpcodeValue, winevt/EvtPublisherMetadataOpcodes, winevt/EvtPublisherMetadataParameterFilePath, winevt/EvtPublisherMetadataPropertyIdEND, winevt/EvtPublisherMetadataPublisherGuid, winevt/EvtPublisherMetadataPublisherMessageID, winevt/EvtPublisherMetadataResourceFilePath, winevt/EvtPublisherMetadataTaskEventGuid, winevt/EvtPublisherMetadataTaskMessageID, winevt/EvtPublisherMetadataTaskName, winevt/EvtPublisherMetadataTaskValue, winevt/EvtPublisherMetadataTasks
 ms.topic: enum
-f1_keywords: 
- - "winevt/EVT_PUBLISHER_METADATA_PROPERTY_ID"
+f1_keywords:
+- winevt/EVT_PUBLISHER_METADATA_PROPERTY_ID
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinEvt.h
+- WinEvt.h
 api_name:
- - EVT_PUBLISHER_METADATA_PROPERTY_ID
+- EVT_PUBLISHER_METADATA_PROPERTY_ID
 product: Windows
 targetos: Windows
 req.typenames: EVT_PUBLISHER_METADATA_PROPERTY_ID
@@ -253,11 +253,11 @@ The handle points to an array of objects that contain the metadata for child typ
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_event_metadata_property_id">EVT_EVENT_METADATA_PROPERTY_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_event_metadata_property_id">EVT_EVENT_METADATA_PROPERTY_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_variant_type">EVT_VARIANT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_variant_type">EVT_VARIANT_TYPE</a>
 
 
 

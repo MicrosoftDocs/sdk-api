@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APPCATEGORYINFO, APPCATEGORYINFO structure [Windows Shell], _APPCATEGORYINFO, appmgmt/APPCATEGORYINFO, inet_APPCATEGORYINFO, shell.APPCATEGORYINFO
 ms.topic: struct
-f1_keywords: 
- - "appmgmt/APPCATEGORYINFO"
+f1_keywords:
+- appmgmt/APPCATEGORYINFO
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Appmgmt.h
+- Appmgmt.h
 api_name:
- - APPCATEGORYINFO
+- APPCATEGORYINFO
 product: Windows
 targetos: Windows
 req.typenames: APPCATEGORYINFO
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides application category information to Add/Remove Programs in Control Panel. The <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_appcategoryinfolist">APPCATEGORYINFOLIST</a> structure is used create a complete list of categories for an application publisher.
+Provides application category information to Add/Remove Programs in Control Panel. The <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfolist">APPCATEGORYINFOLIST</a> structure is used create a complete list of categories for an application publisher.
 
 
 ## -struct-fields
@@ -85,7 +85,7 @@ A GUID identifying the application category.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_appcategoryinfolist">APPCATEGORYINFOLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfolist">APPCATEGORYINFOLIST</a>
 
 
 

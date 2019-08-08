@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_MODIFY_RM, FSCTL_TXFS_MODIFY_RM control, FSCTL_TXFS_MODIFY_RM control code [Files], base.fsctl_txfs_set_rm_information, fs.fsctl_txfs_modify_rm, fs.fsctl_txfs_set_rm_information, winioctl/FSCTL_TXFS_MODIFY_RM
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_TXFS_MODIFY_RM"
+f1_keywords:
+- winioctl/FSCTL_TXFS_MODIFY_RM
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_TXFS_MODIFY_RM
+- FSCTL_TXFS_MODIFY_RM
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -182,7 +182,7 @@ This control code is for remote clients to use when setting log parameters, and 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_modify_rm">TXFS_MODIFY_RM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_modify_rm">TXFS_MODIFY_RM</a>
  
 
  

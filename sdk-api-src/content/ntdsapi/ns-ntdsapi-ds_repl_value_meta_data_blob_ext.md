@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_VALUE_META_DATA_BLOB_EXT, DS_REPL_VALUE_META_DATA_BLOB_EXT structure [Active Directory], ad.ds_repl_value_meta_data_blob_ext, ntdsapi/DS_REPL_VALUE_META_DATA_BLOB_EXT
 ms.topic: struct
-f1_keywords: 
- - "ntdsapi/DS_REPL_VALUE_META_DATA_BLOB_EXT"
+f1_keywords:
+- ntdsapi/DS_REPL_VALUE_META_DATA_BLOB_EXT
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,13 +30,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - DS_REPL_VALUE_META_DATA_BLOB_EXT
+- DS_REPL_VALUE_META_DATA_BLOB_EXT
 product: Windows
 targetos: Windows
 req.typenames: DS_REPL_VALUE_META_DATA_BLOB_EXT
@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains attribute value replication metadata. This structure is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data_ext">DS_REPL_VALUE_META_DATA_EXT</a> structure, but is obtained from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a> functions when obtaining binary data for the <b>msDS-ReplValueMetaData</b> attribute.
+Contains attribute value replication metadata. This structure is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_ext">DS_REPL_VALUE_META_DATA_EXT</a> structure, but is obtained from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a> functions when obtaining binary data for the <b>msDS-ReplValueMetaData</b> attribute.
 
 
 ## -struct-fields

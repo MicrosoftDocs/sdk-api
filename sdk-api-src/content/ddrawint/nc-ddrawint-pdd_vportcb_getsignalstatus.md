@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortGetSignalStatus, DdVideoPortGetSignalStatus callback function [Display Devices], PDD_VPORTCB_GETSIGNALSTATUS, PDD_VPORTCB_GETSIGNALSTATUS callback, ddfncs_ed14dce3-e341-436b-90b4-1175b2eae121.xml, ddrawint/DdVideoPortGetSignalStatus, display.ddvideoportgetsignalstatus
 ms.topic: callback
-f1_keywords: 
- - "ddrawint/DdVideoPortGetSignalStatus"
+f1_keywords:
+- ddrawint/DdVideoPortGetSignalStatus
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DdVideoPortGetSignalStatus
+- DdVideoPortGetSignalStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The <i>DdVideoPortGetSignalStatus</i> callback function retrieves the status of 
 
 #### - lpGetSignalStatus
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getvportsignaldata">DD_GETVPORTSIGNALDATA</a> structure that contains the information required for the driver to retrieve the status of the video signal.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportsignaldata">DD_GETVPORTSIGNALDATA</a> structure that contains the information required for the driver to retrieve the status of the video signal.
 
 
 ## -returns
@@ -98,7 +98,7 @@ The driver should determine whether a valid signal is coming in to the hardware 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getvportsignaldata">DD_GETVPORTSIGNALDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportsignaldata">DD_GETVPORTSIGNALDATA</a>
  
 
  

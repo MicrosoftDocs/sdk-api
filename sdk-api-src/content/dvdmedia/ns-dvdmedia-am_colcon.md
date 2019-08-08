@@ -8,10 +8,10 @@ tech.root: DirectShow
 ms.assetid: 9358d860-6187-48d9-81b6-d5d65d73786d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PAM_COLCON, AM_COLCON, AM_COLCON structure [DirectShow], PAM_COLCON, PAM_COLCON structure pointer [DirectShow], dshow.am_colcon, dvdmedia/AM_COLCON, dvdmedia/PAM_COLCON"
+ms.keywords: '*PAM_COLCON, AM_COLCON, AM_COLCON structure [DirectShow], PAM_COLCON, PAM_COLCON structure pointer [DirectShow], dshow.am_colcon, dvdmedia/AM_COLCON, dvdmedia/PAM_COLCON'
 ms.topic: struct
-f1_keywords: 
- - "dvdmedia/AM_COLCON"
+f1_keywords:
+- dvdmedia/AM_COLCON
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dvdmedia.h
+- Dvdmedia.h
 api_name:
- - AM_COLCON
+- AM_COLCON
 product: Windows
 targetos: Windows
 req.typenames: AM_COLCON, *PAM_COLCON
@@ -106,7 +106,7 @@ Pattern contrast.
 
 
 
-This structure is contained within the <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-_am_property_sphli">AM_PROPERTY_SPHLI</a> structure.
+This structure is contained within the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_property_sphli">AM_PROPERTY_SPHLI</a> structure.
 
 
 

@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 5ba3e521-2e70-4a5b-979d-30a061275d42
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDEVINFO, DEVINFO, DEVINFO structure [Display Devices], PDEVINFO, PDEVINFO structure pointer [Display Devices], display.devinfo, grstrcts_a5bb2e1a-5348-4453-a5ef-674b4693dbed.xml, winddi/DEVINFO, winddi/PDEVINFO"
+ms.keywords: '*PDEVINFO, DEVINFO, DEVINFO structure [Display Devices], PDEVINFO, PDEVINFO structure pointer [Display Devices], display.devinfo, grstrcts_a5bb2e1a-5348-4453-a5ef-674b4693dbed.xml, winddi/DEVINFO, winddi/PDEVINFO'
 ms.topic: struct
-f1_keywords: 
- - "winddi/DEVINFO"
+f1_keywords:
+- winddi/DEVINFO
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DEVINFO
+- DEVINFO
 product: Windows
 targetos: Windows
 req.typenames: DEVINFO, *PDEVINFO
@@ -593,7 +593,7 @@ GCAPS2_JPEGSRC
 
 </td>
 <td>
-Device can accept JPEG compressed images (that is, images for which BMF_JPEG is set in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure).
+Device can accept JPEG compressed images (that is, images for which BMF_JPEG is set in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure).
 
 </td>
 </tr>
@@ -613,7 +613,7 @@ GCAPS2_PNGSRC
 
 </td>
 <td>
-Device can accept PNG compressed images (that is, images for which BMF_PNG is set in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure).
+Device can accept PNG compressed images (that is, images for which BMF_PNG is set in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure).
 
 </td>
 </tr>
@@ -655,7 +655,7 @@ The driver must provide a <a href="https://docs.microsoft.com/windows/desktop/ap
 
 </li>
 <li>
-Every driver-defined graphics DDI function that receives a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure as input must be able to either support the compressed format or return an error code. In the case of printer drivers, to support the compressed format, the driver must be able to perform either one of the following tasks:
+Every driver-defined graphics DDI function that receives a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure as input must be able to either support the compressed format or return an error code. In the case of printer drivers, to support the compressed format, the driver must be able to perform either one of the following tasks:
 
 
 <ul>

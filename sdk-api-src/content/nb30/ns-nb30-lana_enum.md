@@ -8,10 +8,10 @@ tech.root: NetBIOS
 ms.assetid: 19a16eae-8c3e-4c4e-957b-41f22b61e51b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PLANA_ENUM, LANA_ENUM, LANA_ENUM structure [NetBIOS], PLANA_ENUM, PLANA_ENUM structure pointer [NetBIOS], nb30/LANA_ENUM, nb30/PLANA_ENUM, netbios.lana_enum"
+ms.keywords: '*PLANA_ENUM, LANA_ENUM, LANA_ENUM structure [NetBIOS], PLANA_ENUM, PLANA_ENUM structure pointer [NetBIOS], nb30/LANA_ENUM, nb30/PLANA_ENUM, netbios.lana_enum'
 ms.topic: struct
-f1_keywords: 
- - "nb30/LANA_ENUM"
+f1_keywords:
+- nb30/LANA_ENUM
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Nb30.h
+- Nb30.h
 api_name:
- - LANA_ENUM
+- LANA_ENUM
 product: Windows
 targetos: Windows
 req.typenames: LANA_ENUM, *PLANA_ENUM
@@ -75,7 +75,7 @@ Specifies an array of LAN adapter numbers.
 
 
 
-The <b>LANA_ENUM</b> structure is pointed to by the ncb_buffer member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a> structure when an application issues the <b>NCBENUM</b> command. The <b>NCBENUM</b> command is not part of the IBM NetBIOS 3.0 specification.
+The <b>LANA_ENUM</b> structure is pointed to by the ncb_buffer member of the <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure when an application issues the <b>NCBENUM</b> command. The <b>NCBENUM</b> command is not part of the IBM NetBIOS 3.0 specification.
 
 
 
@@ -89,7 +89,7 @@ The <b>LANA_ENUM</b> structure is pointed to by the ncb_buffer member of the <a 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a>
 
 
 

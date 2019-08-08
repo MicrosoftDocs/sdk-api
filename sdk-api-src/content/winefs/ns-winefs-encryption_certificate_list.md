@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: e1914b96-2fba-49ed-9dd2-464659323eda
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PENCRYPTION_CERTIFICATE_LIST, ENCRYPTION_CERTIFICATE_LIST, ENCRYPTION_CERTIFICATE_LIST structure [Files], PENCRYPTION_CERTIFICATE_LIST, PENCRYPTION_CERTIFICATE_LIST structure pointer [Files], _win32_encryption_certificate_list_str, base.encryption_certificate_list_str, fs.encryption_certificate_list_str, winefs/ENCRYPTION_CERTIFICATE_LIST, winefs/PENCRYPTION_CERTIFICATE_LIST"
+ms.keywords: '*PENCRYPTION_CERTIFICATE_LIST, ENCRYPTION_CERTIFICATE_LIST, ENCRYPTION_CERTIFICATE_LIST structure [Files], PENCRYPTION_CERTIFICATE_LIST, PENCRYPTION_CERTIFICATE_LIST structure pointer [Files], _win32_encryption_certificate_list_str, base.encryption_certificate_list_str, fs.encryption_certificate_list_str, winefs/ENCRYPTION_CERTIFICATE_LIST, winefs/PENCRYPTION_CERTIFICATE_LIST'
 ms.topic: struct
-f1_keywords: 
- - "winefs/ENCRYPTION_CERTIFICATE_LIST"
+f1_keywords:
+- winefs/ENCRYPTION_CERTIFICATE_LIST
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinEfs.h
+- WinEfs.h
 api_name:
- - ENCRYPTION_CERTIFICATE_LIST
+- ENCRYPTION_CERTIFICATE_LIST
 product: Windows
 targetos: Windows
 req.typenames: ENCRYPTION_CERTIFICATE_LIST, *PENCRYPTION_CERTIFICATE_LIST
@@ -82,7 +82,7 @@ The number of certificates in the list.
 ### -field pUsers
 
 A pointer to the first 
-						<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_encryption_certificate">ENCRYPTION_CERTIFICATE</a> structure in the list.
+						<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-encryption_certificate">ENCRYPTION_CERTIFICATE</a> structure in the list.
 
 
 ### -field pUsers.size_is
@@ -106,7 +106,7 @@ A pointer to the first
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_encryption_certificate">ENCRYPTION_CERTIFICATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-encryption_certificate">ENCRYPTION_CERTIFICATE</a>
 
 
 

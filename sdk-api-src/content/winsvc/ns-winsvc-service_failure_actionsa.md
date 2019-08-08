@@ -8,10 +8,10 @@ tech.root: Services
 ms.assetid: 180ca6d9-f2c3-4ea1-b2c6-319d08ef88ee
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVICE_FAILURE_ACTIONSA, LPSERVICE_FAILURE_ACTIONS, LPSERVICE_FAILURE_ACTIONS structure pointer, SERVICE_FAILURE_ACTIONS, SERVICE_FAILURE_ACTIONS structure, SERVICE_FAILURE_ACTIONSA, SERVICE_FAILURE_ACTIONSW, _win32_service_failure_actions_str, base.service_failure_actions_str, winsvc/LPSERVICE_FAILURE_ACTIONS, winsvc/SERVICE_FAILURE_ACTIONS, winsvc/SERVICE_FAILURE_ACTIONSA, winsvc/SERVICE_FAILURE_ACTIONSW"
+ms.keywords: '*LPSERVICE_FAILURE_ACTIONSA, LPSERVICE_FAILURE_ACTIONS, LPSERVICE_FAILURE_ACTIONS structure pointer, SERVICE_FAILURE_ACTIONS, SERVICE_FAILURE_ACTIONS structure, SERVICE_FAILURE_ACTIONSA, SERVICE_FAILURE_ACTIONSW, _win32_service_failure_actions_str, base.service_failure_actions_str, winsvc/LPSERVICE_FAILURE_ACTIONS, winsvc/SERVICE_FAILURE_ACTIONS, winsvc/SERVICE_FAILURE_ACTIONSA, winsvc/SERVICE_FAILURE_ACTIONSW'
 ms.topic: struct
-f1_keywords: 
- - "winsvc/SERVICE_FAILURE_ACTIONS"
+f1_keywords:
+- winsvc/SERVICE_FAILURE_ACTIONS
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsvc.h
+- Winsvc.h
 api_name:
- - SERVICE_FAILURE_ACTIONS
- - SERVICE_FAILURE_ACTIONSA
- - SERVICE_FAILURE_ACTIONSW
+- SERVICE_FAILURE_ACTIONS
+- SERVICE_FAILURE_ACTIONSA
+- SERVICE_FAILURE_ACTIONSW
 product: Windows
 targetos: Windows
 req.typenames: SERVICE_FAILURE_ACTIONSA, *LPSERVICE_FAILURE_ACTIONSA
@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 Represents the action the service controller should take on each failure of a service. A service is considered failed when it terminates without reporting a status of <b>SERVICE_STOPPED</b> to the service controller.
 
-To configure additional circumstances under which the failure actions are to be executed, see <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a>.
+To configure additional circumstances under which the failure actions are to be executed, see <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a>.
 
 
 ## -struct-fields
@@ -125,7 +125,7 @@ If this value is 0, but <b>lpsaActions</b> is not NULL, the reset period and arr
 ### -field lpsaActions
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_sc_action">SC_ACTION</a> structures. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-sc_action">SC_ACTION</a> structures. 
 
 
 
@@ -171,11 +171,11 @@ The service control manager counts the number of times each service has failed s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_sc_action">SC_ACTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-sc_action">SC_ACTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a>
  
 
  

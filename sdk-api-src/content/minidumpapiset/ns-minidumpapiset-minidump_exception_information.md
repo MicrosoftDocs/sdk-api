@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: 86416432-99e4-45ae-84e0-84b7b2341d11
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_EXCEPTION_INFORMATION, MINIDUMP_EXCEPTION_INFORMATION, MINIDUMP_EXCEPTION_INFORMATION structure, PMINIDUMP_EXCEPTION_INFORMATION, PMINIDUMP_EXCEPTION_INFORMATION structure pointer, _MINIDUMP_EXCEPTION_INFORMATION, _win32_minidump_exception_information_str, base.minidump_exception_information_str, minidumpapiset/MINIDUMP_EXCEPTION_INFORMATION, minidumpapiset/PMINIDUMP_EXCEPTION_INFORMATION"
+ms.keywords: '*PMINIDUMP_EXCEPTION_INFORMATION, MINIDUMP_EXCEPTION_INFORMATION, MINIDUMP_EXCEPTION_INFORMATION structure, PMINIDUMP_EXCEPTION_INFORMATION, PMINIDUMP_EXCEPTION_INFORMATION structure pointer, _MINIDUMP_EXCEPTION_INFORMATION, _win32_minidump_exception_information_str, base.minidump_exception_information_str, minidumpapiset/MINIDUMP_EXCEPTION_INFORMATION, minidumpapiset/PMINIDUMP_EXCEPTION_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_EXCEPTION_INFORMATION"
+f1_keywords:
+- minidumpapiset/MINIDUMP_EXCEPTION_INFORMATION
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_EXCEPTION_INFORMATION
+- MINIDUMP_EXCEPTION_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_EXCEPTION_INFORMATION, *PMINIDUMP_EXCEPTION_INFORMATION
@@ -68,7 +68,7 @@ The identifier of the thread throwing the exception.
 ### -field ExceptionPointers
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_pointers">EXCEPTION_POINTERS</a> structure specifying a computer-independent description of the exception and the processor context at the time of the exception.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a> structure specifying a computer-independent description of the exception and the processor context at the time of the exception.
 
 
 ### -field ClientPointers
@@ -81,7 +81,7 @@ Determines where to get the memory regions pointed to by the <b>ExceptionPointer
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_pointers">EXCEPTION_POINTERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a>
 
 
 

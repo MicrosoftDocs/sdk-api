@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 8e456156-b84a-4ca7-9dc7-9f5da4a32a6c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCMSG_RC4_AUX_INFO, CMSG_RC4_AUX_INFO, CMSG_RC4_AUX_INFO structure [Security], PCMSG_RC4_AUX_INFO, PCMSG_RC4_AUX_INFO structure pointer [Security], _crypto2_cmsg_rc4_aux_info, security.cmsg_rc4_aux_info, wincrypt/CMSG_RC4_AUX_INFO, wincrypt/PCMSG_RC4_AUX_INFO"
+ms.keywords: '*PCMSG_RC4_AUX_INFO, CMSG_RC4_AUX_INFO, CMSG_RC4_AUX_INFO structure [Security], PCMSG_RC4_AUX_INFO, PCMSG_RC4_AUX_INFO structure pointer [Security], _crypto2_cmsg_rc4_aux_info, security.cmsg_rc4_aux_info, wincrypt/CMSG_RC4_AUX_INFO, wincrypt/PCMSG_RC4_AUX_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMSG_RC4_AUX_INFO"
+f1_keywords:
+- wincrypt/CMSG_RC4_AUX_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMSG_RC4_AUX_INFO
+- CMSG_RC4_AUX_INFO
 product: Windows
 targetos: Windows
 req.typenames: CMSG_RC4_AUX_INFO, *PCMSG_RC4_AUX_INFO
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CMSG_RC4_AUX_INFO</b> structure contains the bit length of the key for RC4 encryption algorithms. The <b>pvEncryptionAuxInfo</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> can be set to point to an instance of this structure.
+The <b>CMSG_RC4_AUX_INFO</b> structure contains the bit length of the key for RC4 encryption algorithms. The <b>pvEncryptionAuxInfo</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> can be set to point to an instance of this structure.
 
 
 ## -struct-fields

@@ -8,10 +8,10 @@ tech.root: usbref
 ms.assetid: 9913bcf7-61ce-4d96-9510-3b8d2117a802
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PUSBUSER_BUS_STATISTICS_0_REQUEST, PUSBUSER_BUS_STATISTICS_0_REQUEST, PUSBUSER_BUS_STATISTICS_0_REQUEST structure pointer [Buses], USBUSER_BUS_STATISTICS_0_REQUEST, USBUSER_BUS_STATISTICS_0_REQUEST structure [Buses], buses.usbuser_bus_statistics_0_request, usbstrct_bf51b053-6add-4de5-95db-95f755f2bc28.xml, usbuser/PUSBUSER_BUS_STATISTICS_0_REQUEST, usbuser/USBUSER_BUS_STATISTICS_0_REQUEST"
+ms.keywords: '*PUSBUSER_BUS_STATISTICS_0_REQUEST, PUSBUSER_BUS_STATISTICS_0_REQUEST, PUSBUSER_BUS_STATISTICS_0_REQUEST structure pointer [Buses], USBUSER_BUS_STATISTICS_0_REQUEST, USBUSER_BUS_STATISTICS_0_REQUEST structure [Buses], buses.usbuser_bus_statistics_0_request, usbstrct_bf51b053-6add-4de5-95db-95f755f2bc28.xml, usbuser/PUSBUSER_BUS_STATISTICS_0_REQUEST, usbuser/USBUSER_BUS_STATISTICS_0_REQUEST'
 ms.topic: struct
-f1_keywords: 
- - "usbuser/USBUSER_BUS_STATISTICS_0_REQUEST"
+f1_keywords:
+- usbuser/USBUSER_BUS_STATISTICS_0_REQUEST
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - usbuser.h
+- usbuser.h
 api_name:
- - USBUSER_BUS_STATISTICS_0_REQUEST
+- USBUSER_BUS_STATISTICS_0_REQUEST
 product: Windows
 targetos: Windows
 req.typenames: USBUSER_BUS_STATISTICS_0_REQUEST, *PUSBUSER_BUS_STATISTICS_0_REQUEST
@@ -61,12 +61,12 @@ The <b>USBUSER_BUS_STATISTICS_0_REQUEST</b> structure is used with the <a href="
 
 ### -field Header
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usbuser_request_header">USBUSER_REQUEST_HEADER</a> structure that specifies the user-mode request on input to IOCTL_USB_USER_REQUEST and provides buffer and status information on output.
+A <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usbuser_request_header">USBUSER_REQUEST_HEADER</a> structure that specifies the user-mode request on input to IOCTL_USB_USER_REQUEST and provides buffer and status information on output.
 
 
 ### -field BusStatistics0
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_bus_statistics_0">USB_BUS_STATISTICS_0</a> structure that reports bus statistics.
+A <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_bus_statistics_0">USB_BUS_STATISTICS_0</a> structure that reports bus statistics.
 
 
 ## -remarks
@@ -91,11 +91,11 @@ The <b>USBUSER_BUS_STATISTICS_0_REQUEST</b> structure is used with the USBUSER_G
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usbuser_request_header">USBUSER_REQUEST_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usbuser_request_header">USBUSER_REQUEST_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_bus_statistics_0">USB_BUS_STATISTICS_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_bus_statistics_0">USB_BUS_STATISTICS_0</a>
  
 
  

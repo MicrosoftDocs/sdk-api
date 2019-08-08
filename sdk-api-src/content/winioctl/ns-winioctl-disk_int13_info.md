@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: a6991ad1-da8a-4df6-a055-ead3c30938df
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDISK_INT13_INFO, DISK_INT13_INFO, DISK_INT13_INFO structure [Files], PDISK_INT13_INFO, PDISK_INT13_INFO structure pointer [Files], _win32_disk_int13_info_str, base.disk_int13_info_str, fs.disk_int13_info_str, winioctl/DISK_INT13_INFO, winioctl/PDISK_INT13_INFO"
+ms.keywords: '*PDISK_INT13_INFO, DISK_INT13_INFO, DISK_INT13_INFO structure [Files], PDISK_INT13_INFO, PDISK_INT13_INFO structure pointer [Files], _win32_disk_int13_info_str, base.disk_int13_info_str, fs.disk_int13_info_str, winioctl/DISK_INT13_INFO, winioctl/PDISK_INT13_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/DISK_INT13_INFO"
+f1_keywords:
+- winioctl/DISK_INT13_INFO
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - DISK_INT13_INFO
+- DISK_INT13_INFO
 product: Windows
 targetos: Windows
 req.typenames: DISK_INT13_INFO, *PDISK_INT13_INFO
@@ -88,7 +88,7 @@ The number of drives. For valid values, see the BIOS documentation.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_detection_info">DISK_DETECTION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_detection_info">DISK_DETECTION_INFO</a>
  
 
  

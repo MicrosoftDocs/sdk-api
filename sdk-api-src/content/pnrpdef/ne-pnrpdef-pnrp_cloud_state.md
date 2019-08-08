@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PNRP_CLOUD_STATE, PNRP_CLOUD_STATE enumeration [Peer Networking], PNRP_CLOUD_STATE_ACTIVE, PNRP_CLOUD_STATE_ALONE, PNRP_CLOUD_STATE_DEAD, PNRP_CLOUD_STATE_DISABLED, PNRP_CLOUD_STATE_NO_NET, PNRP_CLOUD_STATE_SYNCHRONISING, PNRP_CLOUD_STATE_VIRTUAL, p2p.pnrp_cloud_state, pnrpdef/PNRP_CLOUD_STATE, pnrpdef/PNRP_CLOUD_STATE_ACTIVE, pnrpdef/PNRP_CLOUD_STATE_ALONE, pnrpdef/PNRP_CLOUD_STATE_DEAD, pnrpdef/PNRP_CLOUD_STATE_DISABLED, pnrpdef/PNRP_CLOUD_STATE_NO_NET, pnrpdef/PNRP_CLOUD_STATE_SYNCHRONISING, pnrpdef/PNRP_CLOUD_STATE_VIRTUAL
 ms.topic: enum
-f1_keywords: 
- - "pnrpdef/PNRP_CLOUD_STATE"
+f1_keywords:
+- pnrpdef/PNRP_CLOUD_STATE
 req.header: pnrpdef.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pnrpdef.h
+- Pnrpdef.h
 api_name:
- - PNRP_CLOUD_STATE
+- PNRP_CLOUD_STATE
 product: Windows
 targetos: Windows
 req.typenames: PNRP_CLOUD_STATE
@@ -105,7 +105,7 @@ The local node bootstrapped, but found no other nodes in the cloud. This can als
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pnrpns/ns-pnrpns-_pnrpcloudinfo">PNRPCLOUDINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pnrpns/ns-pnrpns-pnrpcloudinfo">PNRPCLOUDINFO</a>
  
 
  

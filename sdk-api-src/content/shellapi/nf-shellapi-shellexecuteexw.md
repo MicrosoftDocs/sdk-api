@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ShellExecuteEx, ShellExecuteEx function [Windows Shell], ShellExecuteExA, ShellExecuteExW, _win32_ShellExecuteEx, _win32_ShellExecuteEx_cpp, shell.ShellExecuteEx, shellapi/ShellExecuteEx, shellapi/ShellExecuteExA, shellapi/ShellExecuteExW
 ms.topic: function
-f1_keywords: 
- - "shellapi/ShellExecuteEx"
+f1_keywords:
+- shellapi/ShellExecuteEx
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,20 +30,20 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 3.51 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - Ext-MS-Win-shell-shell32-l1-2-0.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
- - windows.storage.dll
+- Shell32.dll
+- Ext-MS-Win-shell-shell32-l1-2-0.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- windows.storage.dll
 api_name:
- - ShellExecuteEx
- - ShellExecuteExA
- - ShellExecuteExW
+- ShellExecuteEx
+- ShellExecuteExA
+- ShellExecuteExW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ Performs an operation on a specified file.
 
 Type: <b>SHELLEXECUTEINFO*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shellexecuteinfoa">SHELLEXECUTEINFO</a> structure that contains and receives information about the application being executed.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfoa">SHELLEXECUTEINFO</a> structure that contains and receives information about the application being executed.
 
 
 ## -returns
@@ -96,9 +96,9 @@ There are instances where <b>ShellExecuteEx</b> does not use one of these types 
 
 When DLLs are loaded into your process, you acquire a lock known as a <a href="http://go.microsoft.com/fwlink/p/?linkid=201929">loader lock</a>. The <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> function always executes under the loader lock. It is important that you do not call <b>ShellExecuteEx</b> while you hold a loader lock. Because <b>ShellExecuteEx</b> is extensible, you could load code that does not function properly in the presence of a loader lock, risking a deadlock and therefore an unresponsive thread.
 
-With multiple monitors, if you specify an <b>HWND</b> and set the <b>lpVerb</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shellexecuteinfoa">SHELLEXECUTEINFO</a> structure pointed to by <i>lpExecInfo</i> to "Properties", any windows created by <b>ShellExecuteEx</b> might not appear in the correct position.
+With multiple monitors, if you specify an <b>HWND</b> and set the <b>lpVerb</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfoa">SHELLEXECUTEINFO</a> structure pointed to by <i>lpExecInfo</i> to "Properties", any windows created by <b>ShellExecuteEx</b> might not appear in the correct position.
 
-If the function succeeds, it sets the <b>hInstApp</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shellexecuteinfoa">SHELLEXECUTEINFO</a> structure to a value greater than 32. If the function fails, <b>hInstApp</b> is set to the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">SE_ERR_XXX</a> error value that best indicates the cause of the failure. Although <b>hInstApp</b> is declared as an HINSTANCE for compatibility with 16-bit Windows applications, it is not a true HINSTANCE. It can be cast only to an <b>int</b> and can be compared only to either the value 32 or the SE_ERR_XXX error codes.
+If the function succeeds, it sets the <b>hInstApp</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfoa">SHELLEXECUTEINFO</a> structure to a value greater than 32. If the function fails, <b>hInstApp</b> is set to the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">SE_ERR_XXX</a> error value that best indicates the cause of the failure. Although <b>hInstApp</b> is declared as an HINSTANCE for compatibility with 16-bit Windows applications, it is not a true HINSTANCE. It can be cast only to an <b>int</b> and can be compared only to either the value 32 or the SE_ERR_XXX error codes.
 
 The SE_ERR_XXX error values are provided for compatibility with <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>. To retrieve more accurate error information, use <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. It may return one of the following values.
 

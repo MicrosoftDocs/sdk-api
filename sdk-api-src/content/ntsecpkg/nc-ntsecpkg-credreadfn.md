@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CREDP_FLAGS_CLEAR_PASSWORD, CREDP_FLAGS_DONT_CACHE_TI, CREDP_FLAGS_IN_PROCESS, CREDP_FLAGS_TRUSTED_CALLER, CREDP_FLAGS_USER_ENCRYPTED_PASSWORD, CREDP_FLAGS_USE_MIDL_HEAP, CredReadFn, CredReadFn callback, CrediRead, CrediRead callback function [Security], ntsecpkg/CrediRead, security.crediread
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/CrediRead"
+f1_keywords:
+- ntsecpkg/CrediRead
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - CrediRead
+- CrediRead
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -150,7 +150,7 @@ The name of the target computer.
 
 ### -param Type [in]
 
-Specifies the type of the credential to read. The possible values for this parameter are the same as the possible values of the <i>Type</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credentiala">CREDENTIAL</a> structure.
+Specifies the type of the credential to read. The possible values for this parameter are the same as the possible values of the <i>Type</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure.
 
 
 ### -param Flags [in]
@@ -160,7 +160,7 @@ Reserved. This parameter must be set to zero.
 
 ### -param *Credential [out]
 
-A pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structure that receives the credentials that this function reads.
+A pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structure that receives the credentials that this function reads.
 
 
 ## -returns
@@ -179,7 +179,7 @@ If the function fails, return an NTSTATUS error code that indicates the reason i
 
 
 A pointer to the <b>CrediRead</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 

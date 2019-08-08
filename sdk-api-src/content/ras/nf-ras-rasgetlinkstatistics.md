@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasGetLinkStatistics, RasGetLinkStatistics function [RAS], _ras_rasgetlinkstatistics, ras/RasGetLinkStatistics, rras.rasgetlinkstatistics
 ms.topic: function
-f1_keywords: 
- - "ras/RasGetLinkStatistics"
+f1_keywords:
+- ras/RasGetLinkStatistics
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasGetLinkStatistics
+- RasGetLinkStatistics
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,13 +75,13 @@ Specifies the subentry that corresponds to the link for which to retrieve statis
 ### -param lpStatistics [in, out]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_ras_stats">RAS_STATS</a> structure that, on output, receives the statistics. 
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-ras_stats">RAS_STATS</a> structure that, on output, receives the statistics. 
 
 
 
 
 On input, the <b>dwSize</b> member of this structure specifies the size of 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_ras_stats">RAS_STATS</a>. Use sizeof(<b>RAS_STATS</b>) to obtain this size.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-ras_stats">RAS_STATS</a>. Use sizeof(<b>RAS_STATS</b>) to obtain this size.
 
 This parameter cannot be <b>NULL</b>.
 
@@ -107,7 +107,7 @@ If the function fails, the return value is one of the following error codes or a
 </td>
 <td width="60%">
 At least one of the following is true: the <i>hRasConn</i> parameter is zero, the <i>dwSubEntry</i> parameter is zero, the <i>lpStatistics</i> parameter is <b>NULL</b>, or the value specified by the <b>dwSize</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_ras_stats">RAS_STATS</a> structure specifies a version of the structure that is not supported by the operating system in use.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-ras_stats">RAS_STATS</a> structure specifies a version of the structure that is not supported by the operating system in use.
 
 </td>
 </tr>

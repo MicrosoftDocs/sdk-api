@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanConnect, WlanConnect function [NativeWIFI], nwifi.wlanconnect, wlanapi/WlanConnect
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanConnect"
+f1_keywords:
+- wlanapi/WlanConnect
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
+- wlanapi.dll
 api_name:
- - WlanConnect
+- WlanConnect
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,9 +71,9 @@ The GUID of the interface to use for the connection.
 
 ### -param pConnectionParameters [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_parameters">WLAN_CONNECTION_PARAMETERS</a> structure that specifies the connection type, mode, network profile, SSID that identifies the network, and other parameters.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_parameters">WLAN_CONNECTION_PARAMETERS</a> structure that specifies the connection type, mode, network profile, SSID that identifies the network, and other parameters.
 
-<b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>There are some constraints on  the  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_parameters">WLAN_CONNECTION_PARAMETERS</a> members. This means that structures that are valid for   Windows Server 2008 and Windows Vista may not be valid for Windows XP with SP3 or Wireless LAN API for Windows XP with SP2. For a list of constraints, see <b>WLAN_CONNECTION_PARAMETERS</b>.
+<b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>There are some constraints on  the  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_parameters">WLAN_CONNECTION_PARAMETERS</a> members. This means that structures that are valid for   Windows Server 2008 and Windows Vista may not be valid for Windows XP with SP3 or Wireless LAN API for Windows XP with SP2. For a list of constraints, see <b>WLAN_CONNECTION_PARAMETERS</b>.
 
 
 ### -param pReserved
@@ -107,7 +107,7 @@ One of the following conditions occurred:
 <li><i>hClientHandle</i> is <b>NULL</b> or invalid.</li>
 <li><i>pInterfaceGuid</i> is <b>NULL</b>.</li>
 <li><i>pConnectionParameters</i> is <b>NULL</b>.</li>
-<li>The <b>dwFlags</b> member of the  structure pointed to by <i>pConnectionParameters</i> is not set to one of the values specified on the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_parameters">WLAN_CONNECTION_PARAMETERS</a> page.</li>
+<li>The <b>dwFlags</b> member of the  structure pointed to by <i>pConnectionParameters</i> is not set to one of the values specified on the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_parameters">WLAN_CONNECTION_PARAMETERS</a> page.</li>
 <li>The <b>wlanConnectionMode</b> member of the  structure pointed to by <i>pConnectionParameters</i> is set to <b>wlan_connection_mode_discovery_secure</b> or <b>wlan_connection_mode_discovery_unsecure</b>, and the <b>pDot11Ssid</b> member of the same structure is <b>NULL</b>.</li>
 <li>The <b>wlanConnectionMode</b> member of the  structure pointed to by <i>pConnectionParameters</i> is set to <b>wlan_connection_mode_discovery_secure</b> or <b>wlan_connection_mode_discovery_unsecure</b>, and the <b>dot11BssType</b> member of the same structure is set to <b>dot11_BSS_type_any</b>.</li>
 <li>The <b>wlanConnectionMode</b> member of the  structure pointed to by <i>pConnectionParameters</i> is set to <b>wlan_connection_mode_profile</b>, and the <b>strProfile</b> member of the same structure is <b>NULL</b> or  the length of the profile exceeds WLAN_MAX_NAME_LENGTH.</li>
@@ -164,7 +164,7 @@ The caller does not have sufficient permissions.
 
 The <b>WlanConnect</b> function returns immediately.  To be notified when a connection is established or when no further connections will be attempted, a client must register for notifications by calling <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>.
 
-The <b>strProfile</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_parameters">WLAN_CONNECTION_PARAMETERS</a> structure pointed to by <i>pConnectionParameters</i> specifies the profile to use for connection. If this profile is an all-user profile, the <b>WlanConnect</b>  caller must have execute access on the profile. Otherwise, the <b>WlanConnect</b> call will fail with return value ERROR_ACCESS_DENIED. The permissions on an all-user profile are established when the profile is created or saved using <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansavetemporaryprofile">WlanSaveTemporaryProfile</a>.
+The <b>strProfile</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_parameters">WLAN_CONNECTION_PARAMETERS</a> structure pointed to by <i>pConnectionParameters</i> specifies the profile to use for connection. If this profile is an all-user profile, the <b>WlanConnect</b>  caller must have execute access on the profile. Otherwise, the <b>WlanConnect</b> call will fail with return value ERROR_ACCESS_DENIED. The permissions on an all-user profile are established when the profile is created or saved using <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansavetemporaryprofile">WlanSaveTemporaryProfile</a>.
 
 To perform a connection operation at the command line, use the <b>netsh wlan connect</b> command. For more information, see <a href="Http://go.microsoft.com/fwlink/p/?linkid=120964">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
 
@@ -178,7 +178,7 @@ To perform a connection operation at the command line, use the <b>netsh wlan con
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_parameters">WLAN_CONNECTION_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_parameters">WLAN_CONNECTION_PARAMETERS</a>
 
 
 

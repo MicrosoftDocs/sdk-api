@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RSoPAccessCheckByType, RSoPAccessCheckByType function [Group Policy], RsopAccessCheckByType, _win32_rsopaccesscheckbytype, policy.rsopaccesscheckbytype, userenv/RSoPAccessCheckByType
 ms.topic: function
-f1_keywords: 
- - "userenv/RSoPAccessCheckByType"
+f1_keywords:
+- userenv/RSoPAccessCheckByType
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - RSoPAccessCheckByType
+- RSoPAccessCheckByType
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The
 ### -param pSecurityDescriptor [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> against which access on the object is checked.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> against which access on the object is checked.
 
 
 ### -param pPrincipalSelfSid [in]
@@ -91,7 +91,7 @@ Specifies an access mask that indicates the access rights to check. This mask ca
 ### -param pObjectTypeList [in]
 
 Pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_object_type_list">OBJECT_TYPE_LIST</a> structures that identify the hierarchy of object types for which to check access. Each element in the array specifies a <b>GUID</b> that identifies the object type and a value indicating the level of the object type in the hierarchy of object types. The array should not have two elements with the same <b>GUID</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-object_type_list">OBJECT_TYPE_LIST</a> structures that identify the hierarchy of object types for which to check access. Each element in the array specifies a <b>GUID</b> that identifies the object type and a value indicating the level of the object type in the hierarchy of object types. The array should not have two elements with the same <b>GUID</b>.
 
 The array must have at least one element. The first element in the array must be at level zero and identify the object itself. The array can have only one level zero element. The second element is a subobject, such as a property set, at level 1. Following each level 1 entry are subordinate entries for the level 2 through 4 subobjects. Thus, the levels for the elements in the array might be {0, 1, 2, 2, 1, 2, 3}. If the object type list is out of order, 
 <b>RSoPAccessCheckByType</b> fails and 
@@ -106,7 +106,7 @@ Specifies the number of elements in the <i>pObjectTypeList</i> array.
 ### -param pGenericMapping [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_generic_mapping">GENERIC_MAPPING</a> structure associated with the object for which access is being checked.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a> structure associated with the object for which access is being checked.
 
 
 ### -param pPrivilegeSet [in]

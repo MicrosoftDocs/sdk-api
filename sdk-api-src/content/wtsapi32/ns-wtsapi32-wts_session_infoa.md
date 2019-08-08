@@ -8,10 +8,10 @@ tech.root: TermServ
 ms.assetid: bb40d928-293a-4e2c-b7cf-2ac038da53c2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWTS_SESSION_INFOA, PWTS_SESSION_INFO, PWTS_SESSION_INFO structure pointer [Remote Desktop Services], WTS_SESSION_INFO, WTS_SESSION_INFO structure [Remote Desktop Services], WTS_SESSION_INFOA, WTS_SESSION_INFOW, _win32_wts_session_info_str, termserv.wts_session_info_str, wtsapi32/PWTS_SESSION_INFO, wtsapi32/WTS_SESSION_INFO, wtsapi32/WTS_SESSION_INFOA, wtsapi32/WTS_SESSION_INFOW"
+ms.keywords: '*PWTS_SESSION_INFOA, PWTS_SESSION_INFO, PWTS_SESSION_INFO structure pointer [Remote Desktop Services], WTS_SESSION_INFO, WTS_SESSION_INFO structure [Remote Desktop Services], WTS_SESSION_INFOA, WTS_SESSION_INFOW, _win32_wts_session_info_str, termserv.wts_session_info_str, wtsapi32/PWTS_SESSION_INFO, wtsapi32/WTS_SESSION_INFO, wtsapi32/WTS_SESSION_INFOA, wtsapi32/WTS_SESSION_INFOW'
 ms.topic: struct
-f1_keywords: 
- - "wtsapi32/WTS_SESSION_INFO"
+f1_keywords:
+- wtsapi32/WTS_SESSION_INFO
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsapi32.h
+- Wtsapi32.h
 api_name:
- - WTS_SESSION_INFO
- - WTS_SESSION_INFOA
- - WTS_SESSION_INFOW
+- WTS_SESSION_INFO
+- WTS_SESSION_INFOA
+- WTS_SESSION_INFOW
 product: Windows
 targetos: Windows
 req.typenames: WTS_SESSION_INFOA, *PWTS_SESSION_INFOA
@@ -75,7 +75,7 @@ Pointer to a null-terminated string that contains the WinStation name of this se
 ### -field State
 
 A value from the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-_wts_connectstate_class">WTS_CONNECTSTATE_CLASS</a> enumeration type 
+      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_connectstate_class">WTS_CONNECTSTATE_CLASS</a> enumeration type 
       that indicates the session's current connection state.
 
 
@@ -88,7 +88,7 @@ A value from the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-_wts_connectstate_class">WTS_CONNECTSTATE_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_connectstate_class">WTS_CONNECTSTATE_CLASS</a>
  
 
  

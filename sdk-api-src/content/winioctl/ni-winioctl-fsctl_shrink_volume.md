@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SHRINK_VOLUME, FSCTL_SHRINK_VOLUME control, FSCTL_SHRINK_VOLUME control code [Files], fs.fsctl_shrink_volume, winioctl/FSCTL_SHRINK_VOLUME
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_SHRINK_VOLUME"
+f1_keywords:
+- winioctl/FSCTL_SHRINK_VOLUME
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_SHRINK_VOLUME
+- FSCTL_SHRINK_VOLUME
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -158,10 +158,10 @@ To complete a shrink operation, you must:
 
 <ol>
 <li>Call <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> to open a handle to the volume.</li>
-<li>Call <b>FSCTL_SHRINK_VOLUME</b>. Set the <b>ShrinkRequestType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_shrink_volume_information">SHRINK_VOLUME_INFORMATION</a> structure to <b>ShrinkPrepare</b>. Set the <b>NewNumberOfSectors</b> member of the same structure to zero.  If this call succeeds, the filesystem will not allocate clusters beyond the end of the new volume length.</li>
+<li>Call <b>FSCTL_SHRINK_VOLUME</b>. Set the <b>ShrinkRequestType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-shrink_volume_information">SHRINK_VOLUME_INFORMATION</a> structure to <b>ShrinkPrepare</b>. Set the <b>NewNumberOfSectors</b> member of the same structure to zero.  If this call succeeds, the filesystem will not allocate clusters beyond the end of the new volume length.</li>
 <li>Call <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_move_file">FSCTL_MOVE_FILE</a> on all files beyond the new number of sectors and move them within the valid range. You are responsible for moving any files that are affected by the shrink operation.  </li>
-<li>Call <b>FSCTL_SHRINK_VOLUME</b>.  Set the <b>ShrinkRequestType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_shrink_volume_information">SHRINK_VOLUME_INFORMATION</a> structure to <b>ShrinkCommit</b>. Set the <b>NewNumberOfSectors</b> member of the same structure to zero. If all files beyond the end of the new volume size have not been moved, the call fails with <b>STATUS_ALREADY_COMMITTED</b> (<b>ERROR_ACCESS_DENIED</b>).  Otherwise, the filesystem has now been shrunk.</li>
-<li>Call  <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_grow_partition">IOCTL_DISK_GROW_PARTITION</a>. Set the <b>BytesToGrow</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_grow_partition">DISK_GROW_PARTITION</a> structure to the negative number that represents the number of bytes to remove.</li>
+<li>Call <b>FSCTL_SHRINK_VOLUME</b>.  Set the <b>ShrinkRequestType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-shrink_volume_information">SHRINK_VOLUME_INFORMATION</a> structure to <b>ShrinkCommit</b>. Set the <b>NewNumberOfSectors</b> member of the same structure to zero. If all files beyond the end of the new volume size have not been moved, the call fails with <b>STATUS_ALREADY_COMMITTED</b> (<b>ERROR_ACCESS_DENIED</b>).  Otherwise, the filesystem has now been shrunk.</li>
+<li>Call  <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_grow_partition">IOCTL_DISK_GROW_PARTITION</a>. Set the <b>BytesToGrow</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_grow_partition">DISK_GROW_PARTITION</a> structure to the negative number that represents the number of bytes to remove.</li>
 </ol>
 
 
@@ -241,7 +241,7 @@ Is supported only on the node that has NTFS mounted.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_shrink_volume_information">SHRINK_VOLUME_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-shrink_volume_information">SHRINK_VOLUME_INFORMATION</a>
 
 
 

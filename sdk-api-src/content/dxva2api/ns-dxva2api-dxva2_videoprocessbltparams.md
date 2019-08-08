@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6929fa8b-3cab-4d4e-ab2a-a3059b00905f, DXVA2_DestData_RFF, DXVA2_DestData_RFF_TFF_Present, DXVA2_DestData_TFF, DXVA2_VideoProcessBltParams, DXVA2_VideoProcessBltParams structure [Media Foundation], dxva2api/DXVA2_VideoProcessBltParams, mf.dxva2_videoprocessbltparams
 ms.topic: struct
-f1_keywords: 
- - "dxva2api/DXVA2_VideoProcessBltParams"
+f1_keywords:
+- dxva2api/DXVA2_VideoProcessBltParams
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - DXVA2_VideoProcessBltParams
+- DXVA2_VideoProcessBltParams
 product: Windows
 targetos: Windows
 req.typenames: DXVA2_VideoProcessBltParams
@@ -78,7 +78,7 @@ The target rectangle cannot be larger than the destination surface.
 ### -field ConstrictionSize
 
 Size to which the output video should be downsampled. 
-          If this feature is supported, the driver sets the <b>DXVA2_VideoProcess_Constriction</b> flag in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videoprocessorcaps">DXVA2_VideoProcessorCaps</a> structure.
+          If this feature is supported, the driver sets the <b>DXVA2_VideoProcess_Constriction</b> flag in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessorcaps">DXVA2_VideoProcessorCaps</a> structure.
 
 The downsampling size cannot be less than zero, or larger than the size of the target rectangle (<b>TargetRect</b>).  
 
@@ -91,7 +91,7 @@ Reserved. Set to zero.
 
 ### -field BackgroundColor
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_ayuvsample16">DXVA2_AYUVSample16</a> structure that specifies the background color for the destination rectangle. The background color is used wherever no video image appears, but only within the <b>TargetRect</b> rectangle. The color is specified as an AYUV color value with 16 bits per channel. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_ayuvsample16">DXVA2_AYUVSample16</a> structure that specifies the background color for the destination rectangle. The background color is used wherever no video image appears, but only within the <b>TargetRect</b> rectangle. The color is specified as an AYUV color value with 16 bits per channel. 
 
 The alpha channel (<b>Alpha</b>) must be opaque (0xFFFF). The DXVA driver should ignore the value of the alpha channel. 
 
@@ -100,38 +100,38 @@ The color space for the background color is given by the <b>DestFormat</b> membe
 
 ### -field DestFormat
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure that contains extended color information for the destination rectangle. For video playback, the recommended value for the nominal range is DXVA2_NominalRange_Unknown. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_nominalrange">DXVA2_NominalRange</a> enumeration.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure that contains extended color information for the destination rectangle. For video playback, the recommended value for the nominal range is DXVA2_NominalRange_Unknown. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ne-dxva2api-dxva2_nominalrange">DXVA2_NominalRange</a> enumeration.
 
 
 ### -field ProcAmpValues
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_procampvalues">DXVA2_ProcAmpValues</a> structure that specifies color adjustment (ProcAmp) settings. These values must fall within the ranges returned by the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getprocamprange">IDirectXVideoProcessor::GetProcAmpRange</a> method.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_procampvalues">DXVA2_ProcAmpValues</a> structure that specifies color adjustment (ProcAmp) settings. These values must fall within the ranges returned by the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getprocamprange">IDirectXVideoProcessor::GetProcAmpRange</a> method.
 
 
 ### -field Alpha
 
-Alpha value that is applied to the composited image when it is copied to the destination surface. The alpha value is fixed-point value, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_fixed32">DXVA2_Fixed32</a> structure. To specify 100% opacity, use the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-dxva2_fixed32opaquealpha">DXVA2_Fixed32OpaqueAlpha</a> function.
+Alpha value that is applied to the composited image when it is copied to the destination surface. The alpha value is fixed-point value, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_fixed32">DXVA2_Fixed32</a> structure. To specify 100% opacity, use the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-dxva2_fixed32opaquealpha">DXVA2_Fixed32OpaqueAlpha</a> function.
           
 
 
 ### -field NoiseFilterLuma
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_filtervalues">DXVA2_FilterValues</a> structure that contains parameters for the luma noise filter.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_filtervalues">DXVA2_FilterValues</a> structure that contains parameters for the luma noise filter.
 
 
 ### -field NoiseFilterChroma
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_filtervalues">DXVA2_FilterValues</a> structure that contains parameters for the chroma noise filter.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_filtervalues">DXVA2_FilterValues</a> structure that contains parameters for the chroma noise filter.
 
 
 ### -field DetailFilterLuma
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_filtervalues">DXVA2_FilterValues</a> structure that contains parameters for the luma detail filter.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_filtervalues">DXVA2_FilterValues</a> structure that contains parameters for the luma detail filter.
 
 
 ### -field DetailFilterChroma
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_filtervalues">DXVA2_FilterValues</a> structure that contains parameters for the chroma detail filter.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_filtervalues">DXVA2_FilterValues</a> structure that contains parameters for the chroma detail filter.
 
 
 ### -field DestData

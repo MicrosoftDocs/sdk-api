@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1Factory1 interface [Direct2D],RegisterEffectFromStream method, ID2D1Factory1.RegisterEffectFromStream, ID2D1Factory1::RegisterEffectFromStream, RegisterEffectFromStream, RegisterEffectFromStream method [Direct2D], RegisterEffectFromStream method [Direct2D],ID2D1Factory1 interface, d2d1_1/ID2D1Factory1::RegisterEffectFromStream, direct2d.id2d1factory1_registereffectfromstream
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1Factory1.RegisterEffectFromStream"
+f1_keywords:
+- d2d1_1/ID2D1Factory1.RegisterEffectFromStream
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Factory1.RegisterEffectFromStream
+- ID2D1Factory1.RegisterEffectFromStream
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -86,7 +86,7 @@ This binds a property by name to a particular method implemented by the effect a
 
 ### -param bindingsCount
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_uint32_description">UINT32</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_uint32_description">UINT32</a></b>
 
 The number of bindings in the binding array.
 

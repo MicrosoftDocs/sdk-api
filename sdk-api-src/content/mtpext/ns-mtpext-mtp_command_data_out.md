@@ -8,10 +8,10 @@ tech.root: WMDM
 ms.assetid: ddaf49c8-99df-4e21-a633-82e08691f088
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMTP_COMMAND_DATA_OUT, MTP_COMMAND_DATA_OUT, MTP_COMMAND_DATA_OUT structure [windows Media Device Manager], PMTP_COMMAND_DATA_OUT, PMTP_COMMAND_DATA_OUT structure pointer [windows Media Device Manager], mtpext/MTP_COMMAND_DATA_OUT, mtpext/PMTP_COMMAND_DATA_OUT, wmdm.mtp_command_data_out"
+ms.keywords: '*PMTP_COMMAND_DATA_OUT, MTP_COMMAND_DATA_OUT, MTP_COMMAND_DATA_OUT structure [windows Media Device Manager], PMTP_COMMAND_DATA_OUT, PMTP_COMMAND_DATA_OUT structure pointer [windows Media Device Manager], mtpext/MTP_COMMAND_DATA_OUT, mtpext/PMTP_COMMAND_DATA_OUT, wmdm.mtp_command_data_out'
 ms.topic: struct
-f1_keywords: 
- - "mtpext/MTP_COMMAND_DATA_OUT"
+f1_keywords:
+- mtpext/MTP_COMMAND_DATA_OUT
 req.header: mtpext.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - MtpExt.h
+- MtpExt.h
 api_name:
- - MTP_COMMAND_DATA_OUT
+- MTP_COMMAND_DATA_OUT
 product: Windows
 targetos: Windows
 req.typenames: MTP_COMMAND_DATA_OUT, *PMTP_COMMAND_DATA_OUT
@@ -98,7 +98,7 @@ Optional, first byte of data to read from the device if <b>MTP_COMMAND_DATA_IN.N
 
 
 
-The input buffer is expected to contain an appropriately filled out <a href="https://docs.microsoft.com/windows/desktop/api/mtpext/ns-mtpext-_mtp_command_data_in">MTP_COMMAND_DATA_IN</a> structure. On exit, the device driver will fill out the <b>MTP_COMMAND_DATA_OUT</b> structure and save it to the output buffer. Therefore, any request must have an input buffer of at least SIZEOF_REQUIRED_COMMAND_DATA_IN bytes, which is defined as the following:
+The input buffer is expected to contain an appropriately filled out <a href="https://docs.microsoft.com/windows/desktop/api/mtpext/ns-mtpext-mtp_command_data_in">MTP_COMMAND_DATA_IN</a> structure. On exit, the device driver will fill out the <b>MTP_COMMAND_DATA_OUT</b> structure and save it to the output buffer. Therefore, any request must have an input buffer of at least SIZEOF_REQUIRED_COMMAND_DATA_IN bytes, which is defined as the following:
 
 <pre class="syntax" xml:space="preserve"><code>
 #define SIZEOF_REQUIRED_COMMAND_DATA_IN (sizeof(MTP_COMMAND_DATA_IN)-1)
@@ -122,7 +122,7 @@ It is assumed that all commands are self-contained, that is, they can be process
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mtpext/ns-mtpext-_mtp_command_data_in">MTP_COMMAND_DATA_IN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mtpext/ns-mtpext-mtp_command_data_in">MTP_COMMAND_DATA_IN</a>
 
 
 

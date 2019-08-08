@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnectionCallback interface [Remote Desktop Services],RedrawWindow method, IWRdsProtocolConnectionCallback.RedrawWindow, IWRdsProtocolConnectionCallback::RedrawWindow, RedrawWindow, RedrawWindow method [Remote Desktop Services], RedrawWindow method [Remote Desktop Services],IWRdsProtocolConnectionCallback interface, termserv.iwrdsprotocolconnectioncallback_redrawwindow, wtsprotocol/IWRdsProtocolConnectionCallback::RedrawWindow
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolConnectionCallback.RedrawWindow"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolConnectionCallback.RedrawWindow
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolConnectionCallback.RedrawWindow
+- IWRdsProtocolConnectionCallback.RedrawWindow
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Requests that the Remote Desktop Services service redraw the client window.
 
 ### -param rect [in, optional]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_small_rect">WRDS_SMALL_RECT</a> structure that contains the x and y coordinates of the screen to redraw. A value of <b>NULL</b> requests that the entire screen be redrawn.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_small_rect">WRDS_SMALL_RECT</a> structure that contains the x and y coordinates of the screen to redraw. A value of <b>NULL</b> requests that the entire screen be redrawn.
 
 
 ## -returns

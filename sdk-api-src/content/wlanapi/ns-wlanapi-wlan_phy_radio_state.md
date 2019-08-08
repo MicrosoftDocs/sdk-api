@@ -8,10 +8,10 @@ tech.root: NativeWiFi
 ms.assetid: 20da1494-4264-4d0d-b789-25e2be6a8dd4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_PHY_RADIO_STATE, PWLAN_PHY_RADIO_STATE, PWLAN_PHY_RADIO_STATE structure pointer [NativeWIFI], WLAN_PHY_RADIO_STATE, WLAN_PHY_RADIO_STATE structure [NativeWIFI], nwifi.wlan_phy_radio_state, wlanapi/PWLAN_PHY_RADIO_STATE, wlanapi/WLAN_PHY_RADIO_STATE"
+ms.keywords: '*PWLAN_PHY_RADIO_STATE, PWLAN_PHY_RADIO_STATE, PWLAN_PHY_RADIO_STATE structure pointer [NativeWIFI], WLAN_PHY_RADIO_STATE, WLAN_PHY_RADIO_STATE structure [NativeWIFI], nwifi.wlan_phy_radio_state, wlanapi/PWLAN_PHY_RADIO_STATE, wlanapi/WLAN_PHY_RADIO_STATE'
 ms.topic: struct
-f1_keywords: 
- - "wlanapi/WLAN_PHY_RADIO_STATE"
+f1_keywords:
+- wlanapi/WLAN_PHY_RADIO_STATE
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - WLAN_PHY_RADIO_STATE
+- WLAN_PHY_RADIO_STATE
 product: Windows
 targetos: Windows
 req.typenames: WLAN_PHY_RADIO_STATE, *PWLAN_PHY_RADIO_STATE
@@ -116,7 +116,7 @@ The radio state of a PHY is off if either the software radio state (<b>dot11Soft
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_radio_state">WLAN_RADIO_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_radio_state">WLAN_RADIO_STATE</a>
 
 
 

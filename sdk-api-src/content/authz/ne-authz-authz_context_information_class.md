@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AUTHZ_CONTEXT_INFORMATION_CLASS, AUTHZ_CONTEXT_INFORMATION_CLASS enumeration [Security], AuthzContextInfoAll, AuthzContextInfoAppContainerSid, AuthzContextInfoAuthenticationId, AuthzContextInfoCapabilitySids, AuthzContextInfoDeviceClaims, AuthzContextInfoDeviceSids, AuthzContextInfoExpirationTime, AuthzContextInfoGroupsSids, AuthzContextInfoIdentifier, AuthzContextInfoPrivileges, AuthzContextInfoRestrictedSids, AuthzContextInfoSecurityAttributes, AuthzContextInfoServerContext, AuthzContextInfoSource, AuthzContextInfoUserClaims, AuthzContextInfoUserSid, _win32_authz_context_information_class_str, authz/AUTHZ_CONTEXT_INFORMATION_CLASS, authz/AuthzContextInfoAll, authz/AuthzContextInfoAppContainerSid, authz/AuthzContextInfoAuthenticationId, authz/AuthzContextInfoCapabilitySids, authz/AuthzContextInfoDeviceClaims, authz/AuthzContextInfoDeviceSids, authz/AuthzContextInfoExpirationTime, authz/AuthzContextInfoGroupsSids, authz/AuthzContextInfoIdentifier, authz/AuthzContextInfoPrivileges, authz/AuthzContextInfoRestrictedSids, authz/AuthzContextInfoSecurityAttributes, authz/AuthzContextInfoServerContext, authz/AuthzContextInfoSource, authz/AuthzContextInfoUserClaims, authz/AuthzContextInfoUserSid, security.authz_context_information_class
 ms.topic: enum
-f1_keywords: 
- - "authz/AUTHZ_CONTEXT_INFORMATION_CLASS"
+f1_keywords:
+- authz/AUTHZ_CONTEXT_INFORMATION_CLASS
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Authz.h
+- Authz.h
 api_name:
- - AUTHZ_CONTEXT_INFORMATION_CLASS
+- AUTHZ_CONTEXT_INFORMATION_CLASS
 product: Windows
 targetos: Windows
 req.typenames: AUTHZ_CONTEXT_INFORMATION_CLASS
@@ -61,22 +61,22 @@ The <b>AUTHZ_CONTEXT_INFORMATION_CLASS</b> enumeration specifies the type of inf
 
 ### -field AuthzContextInfoUserSid
 
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_user">TOKEN_USER</a> structure that contains a user <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) and its attribute.
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a> structure that contains a user <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) and its attribute.
 
 
 ### -field AuthzContextInfoGroupsSids
 
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a> structure that contains the group SIDs to which the user belongs and their attributes.
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure that contains the group SIDs to which the user belongs and their attributes.
 
 
 ### -field AuthzContextInfoRestrictedSids
 
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a> structure that contains the restricted group SIDs in the context and their attributes.
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure that contains the restricted group SIDs in the context and their attributes.
 
 
 ### -field AuthzContextInfoPrivileges
 
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_privileges">TOKEN_PRIVILEGES</a> structure that contains the privileges held by the user.
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a> structure that contains the privileges held by the user.
 
 
 ### -field AuthzContextInfoExpirationTime
@@ -91,7 +91,7 @@ This constant is reserved. Do not use it.
 
 ### -field AuthzContextInfoIdentifier
 
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> structures used by the resource manager to identify the context.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structures used by the resource manager to identify the context.
 
 
 ### -field AuthzContextInfoSource
@@ -111,42 +111,42 @@ This constant is reserved. Do not use it.
 
 ### -field AuthzContextInfoSecurityAttributes
 
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_security_attributes_information">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a> structure that contains security attributes.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_security_attributes_information">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a> structure that contains security attributes.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
 
 ### -field AuthzContextInfoDeviceSids
 
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a> structure that contains device SIDs and their attributes.
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure that contains device SIDs and their attributes.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
 
 ### -field AuthzContextInfoUserClaims
 
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_security_attributes_information">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a> structure that contains user claims.
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_security_attributes_information">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a> structure that contains user claims.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
 
 ### -field AuthzContextInfoDeviceClaims
 
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_security_attributes_information">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a> structure that contains device claims.
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_security_attributes_information">AUTHZ_SECURITY_ATTRIBUTES_INFORMATION</a> structure that contains device claims.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
 
 ### -field AuthzContextInfoAppContainerSid
 
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_appcontainer_information">TOKEN_APPCONTAINER_INFORMATION</a> structure that contains the app container SID.
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_appcontainer_information">TOKEN_APPCONTAINER_INFORMATION</a> structure that contains the app container SID.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
 
 ### -field AuthzContextInfoCapabilitySids
 
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a> structure that contains capability SIDs.
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure that contains capability SIDs.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -164,31 +164,31 @@ Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_capabilities">SECURITY_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_capabilities">SECURITY_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_appcontainer_information">TOKEN_APPCONTAINER_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_appcontainer_information">TOKEN_APPCONTAINER_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_device_claims">TOKEN_DEVICE_CLAIMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_device_claims">TOKEN_DEVICE_CLAIMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_privileges">TOKEN_PRIVILEGES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_user">TOKEN_USER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_user_claims">TOKEN_USER_CLAIMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_user_claims">TOKEN_USER_CLAIMS</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DHCP_POL_ATTR_TYPE, DHCP_POL_ATTR_TYPE enumeration [DHCP], DhcpAttrHWAddr, DhcpAttrOption, DhcpAttrSubOption, dhcp.dhcp_pol_attr_type, dhcpsapi/DHCP_POL_ATTR_TYPE, dhcpsapi/DhcpAttrHWAddr, dhcpsapi/DhcpAttrOption, dhcpsapi/DhcpAttrSubOption
 ms.topic: enum
-f1_keywords: 
- - "dhcpsapi/DHCP_POL_ATTR_TYPE"
+f1_keywords:
+- dhcpsapi/DHCP_POL_ATTR_TYPE
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dhcpsapi.h
+- dhcpsapi.h
 api_name:
- - DHCP_POL_ATTR_TYPE
+- DHCP_POL_ATTR_TYPE
 product: Windows
 targetos: Windows
 req.typenames: DHCP_POL_ATTR_TYPE
@@ -87,7 +87,7 @@ The condition is based on a DHCP sub-option
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_pol_cond">DHCP_POL_COND</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_pol_cond">DHCP_POL_COND</a>
 
 
 

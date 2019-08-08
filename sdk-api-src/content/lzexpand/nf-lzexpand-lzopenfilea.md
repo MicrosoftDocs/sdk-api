@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LZOpenFile, LZOpenFile function [Files], LZOpenFileA, LZOpenFileW, OF_CANCEL, OF_CREATE, OF_DELETE, OF_EXIST, OF_PARSE, OF_PROMPT, OF_READ, OF_READWRITE, OF_REOPEN, OF_SHARE_DENY_NONE, OF_SHARE_DENY_READ, OF_SHARE_DENY_WRITE, OF_SHARE_EXCLUSIVE, OF_WRITE, _win32_lzopenfile, base.lzopenfile, fs.lzopenfile, lzexpand/LZOpenFile, lzexpand/LZOpenFileA, lzexpand/LZOpenFileW
 ms.topic: function
-f1_keywords: 
- - "lzexpand/LZOpenFile"
+f1_keywords:
+- lzexpand/LZOpenFile
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Lz32.lib
 req.dll: Lz32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Lz32.dll
+- Lz32.dll
 api_name:
- - LZOpenFile
- - LZOpenFileA
- - LZOpenFileW
+- LZOpenFile
+- LZOpenFileA
+- LZOpenFileW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ The name of the file.
 
 ### -param lpReOpenBuf [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ofstruct">OFSTRUCT</a> structure that is to receive 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-ofstruct">OFSTRUCT</a> structure that is to receive 
        information about the file when the file is first opened. The structure can be used in subsequent calls to the 
        <b>LZOpenFile</b> function to see the open file.
 
@@ -138,7 +138,7 @@ Opens the file and then closes it to test for a file's existence.
 </dl>
 </td>
 <td width="60%">
-Fills the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ofstruct">OFSTRUCT</a> structure but carries out no 
+Fills the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-ofstruct">OFSTRUCT</a> structure but carries out no 
         other action.
 
 </td>
@@ -334,7 +334,7 @@ If <b>LZOpenFile</b> is unable to open the file specified by
     file name extension to indicate that the file is compressed. For example, "MyProgram.exe" 
     compressed might be named "MyProgram.ex_". To determine the name of the file opened (if any), 
     examine the <b>szPathName</b> member of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ofstruct">OFSTRUCT</a> structure in the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-ofstruct">OFSTRUCT</a> structure in the 
     <i>lpReOpenBuf</i> parameter.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
@@ -428,7 +428,7 @@ CsvFs will do redirected IO for compressed files.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ofstruct">OFSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-ofstruct">OFSTRUCT</a>
  
 
  

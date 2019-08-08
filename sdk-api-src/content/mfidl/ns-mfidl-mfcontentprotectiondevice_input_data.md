@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCONTENTPROTECTIONDEVICE_INPUT_DATA, MFCONTENTPROTECTIONDEVICE_INPUT_DATA structure [Media Foundation], mf.mfcontentprotectiondevice_input_data, mfidl/MFCONTENTPROTECTIONDEVICE_INPUT_DATA
 ms.topic: struct
-f1_keywords: 
- - "mfidl/MFCONTENTPROTECTIONDEVICE_INPUT_DATA"
+f1_keywords:
+- mfidl/MFCONTENTPROTECTIONDEVICE_INPUT_DATA
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFCONTENTPROTECTIONDEVICE_INPUT_DATA
+- MFCONTENTPROTECTIONDEVICE_INPUT_DATA
 product: Windows
 targetos: Windows
 req.typenames: MFCONTENTPROTECTIONDEVICE_INPUT_DATA
@@ -101,7 +101,7 @@ The protection system specification defines the format and size of the DRM funct
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-_mfcontentprotectiondevice_output_data">MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mfcontentprotectiondevice_output_data">MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA</a>
 
 
 

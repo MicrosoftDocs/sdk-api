@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DSOP_DOWNLEVEL_FILTER_ALL_WELLKNOWN_SIDS, DSOP_DOWNLEVEL_FILTER_ANONYMOUS, DSOP_DOWNLEVEL_FILTER_AUTHENTICATED_USER, DSOP_DOWNLEVEL_FILTER_BATCH, DSOP_DOWNLEVEL_FILTER_COMPUTERS, DSOP_DOWNLEVEL_FILTER_CREATOR_GROUP, DSOP_DOWNLEVEL_FILTER_CREATOR_OWNER, DSOP_DOWNLEVEL_FILTER_DIALUP, DSOP_DOWNLEVEL_FILTER_EXCLUDE_BUILTIN_GROUPS, DSOP_DOWNLEVEL_FILTER_GLOBAL_GROUPS, DSOP_DOWNLEVEL_FILTER_INTERACTIVE, DSOP_DOWNLEVEL_FILTER_INTERNET_USER, DSOP_DOWNLEVEL_FILTER_LOCAL_GROUPS, DSOP_DOWNLEVEL_FILTER_LOCAL_SERVICE, DSOP_DOWNLEVEL_FILTER_NETWORK, DSOP_DOWNLEVEL_FILTER_NETWORK_SERVICE, DSOP_DOWNLEVEL_FILTER_OWNER_RIGHTS, DSOP_DOWNLEVEL_FILTER_REMOTE_LOGON, DSOP_DOWNLEVEL_FILTER_SERVICE, DSOP_DOWNLEVEL_FILTER_SERVICES, DSOP_DOWNLEVEL_FILTER_SYSTEM, DSOP_DOWNLEVEL_FILTER_TERMINAL_SERVER, DSOP_DOWNLEVEL_FILTER_USERS, DSOP_DOWNLEVEL_FILTER_WORLD, DSOP_FILTER_FLAGS, DSOP_FILTER_FLAGS structure [Active Directory], _glines_dsop_filter_flags, ad.dsop__filter__flags, ad.dsop_filter_flags, objsel/DSOP_FILTER_FLAGS
 ms.topic: struct
-f1_keywords: 
- - "objsel/DSOP_FILTER_FLAGS"
+f1_keywords:
+- objsel/DSOP_FILTER_FLAGS
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Objsel.h
+- Objsel.h
 api_name:
- - DSOP_FILTER_FLAGS
+- DSOP_FILTER_FLAGS
 product: Windows
 targetos: Windows
 req.typenames: DSOP_FILTER_FLAGS
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DSOP_FILTER_FLAGS</b> structure contains flags that indicate the types of objects presented to the user for a specified scope or scopes. This structure is contained in the <a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a> structure when calling <a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a>.
+The <b>DSOP_FILTER_FLAGS</b> structure contains flags that indicate the types of objects presented to the user for a specified scope or scopes. This structure is contained in the <a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a> structure when calling <a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a>.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ The <b>DSOP_FILTER_FLAGS</b> structure contains flags that indicate the types of
 
 ### -field Uplevel
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_uplevel_filter_flags">DSOP_UPLEVEL_FILTER_FLAGS</a> structure that contains the filter flags to use for up-level scopes. An up-level scope is a scope that supports the ADSI LDAP provider. For more information, see 
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_uplevel_filter_flags">DSOP_UPLEVEL_FILTER_FLAGS</a> structure that contains the filter flags to use for up-level scopes. An up-level scope is a scope that supports the ADSI LDAP provider. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-ldap-provider">ADSI LDAP Provider</a>.
 
 
@@ -227,11 +227,11 @@ Includes "Service SIDs" of all installed services.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_uplevel_filter_flags">DSOP_UPLEVEL_FILTER_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_uplevel_filter_flags">DSOP_UPLEVEL_FILTER_FLAGS</a>
 
 
 

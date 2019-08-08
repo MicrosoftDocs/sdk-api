@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiInstallDevice, SetupDiInstallDevice function [Device and Driver Installation], devinst.setupdiinstalldevice, di-rtns_5b8edbe1-3653-41c6-8a61-12f11544ff08.xml, setupapi/SetupDiInstallDevice
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiInstallDevice"
+f1_keywords:
+- setupapi/SetupDiInstallDevice
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupDiInstallDevice
+- SetupDiInstallDevice
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ins
 
 ### -param DeviceInfoData [in, out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies a device information element in <i>DeviceInfoSet</i>. This is an IN-OUT parameter because <i>DeviceInfoData.</i><b>DevInst</b> might be updated with a new handle value upon return.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies a device information element in <i>DeviceInfoSet</i>. This is an IN-OUT parameter because <i>DeviceInfoData.</i><b>DevInst</b> might be updated with a new handle value upon return.
 
 
 ## -returns
@@ -144,13 +144,13 @@ Start the device by sending an  <a href="https://docs.microsoft.com/windows-hard
 
 </li>
 </ul>
-Windows does not start the device if the DI_NEEDRESTART, DI_NEEDREBOOT, or DI_DONOTCALLCONFIGMG flag is set in the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> structure.
+Windows does not start the device if the DI_NEEDRESTART, DI_NEEDREBOOT, or DI_DONOTCALLCONFIGMG flag is set in the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> structure.
 
 A class installer should return ERROR_DI_DO_DEFAULT or call this function when handling a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-installdevice">DIF_INSTALLDEVICE</a> request. This function performs many tasks for device installation and that list of tasks might be expanded in future releases. If a class installer performs device installation without calling this function, the class installer might not work correctly on future versions of the operating system. 
 
 If Windows cannot locate an INF file for the device, it will send DIF_INSTALLDEVICE in an attempt to install a <a href="https://docs.microsoft.com/windows-hardware/drivers/">null driver</a>. <b>SetupDiInstallDevice</b> installs a null driver only if the device supports <a href="https://docs.microsoft.com/windows-hardware/drivers/">raw mode</a> or is a non-PnP device (reported by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-ioreportdetecteddevice">IoReportDetectedDevice</a>). For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-installdevice">DIF_INSTALLDEVICE</a>.
 
-If the DI_FLAGSEX_SETFAILEDINSTALL flag is set in the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> structure, <b>SetupDiInstallDevice</b> just sets the FAILEDINSTALL flag in the device's <b>ConfigFlags</b> registry value.
+If the DI_FLAGSEX_SETFAILEDINSTALL flag is set in the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinstall_params_a">SP_DEVINSTALL_PARAMS</a> structure, <b>SetupDiInstallDevice</b> just sets the FAILEDINSTALL flag in the device's <b>ConfigFlags</b> registry value.
 
 <div class="alert"><b>Note</b>  Only a <a href="https://docs.microsoft.com/windows-hardware/drivers/">class installer</a> should call <b>SetupDiInstallDevice</b> and only in those situations where the class installer must perform device installation operations after <b>SetupDiInstallDevice</b> completes the default device installation operation. In such situations, the class installer must directly call <b>SetupDiInstallDevice</b> when the installer processes a DIF_INSTALLDEVICE request. For more information about calling the default handler, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/calling-the-default-dif-code-handlers">Calling Default DIF Code Handlers</a>.</div>
 <div> </div>

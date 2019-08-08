@@ -8,10 +8,10 @@ tech.root: shell
 ms.assetid: 2dbee891-6d5f-4ae1-8411-5d51cbab4457
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDFMICS, CMIC_MASK_ASYNCOK, CMIC_MASK_CONTROL_DOWN, CMIC_MASK_FLAG_LOG_USAGE, CMIC_MASK_FLAG_NO_UI, CMIC_MASK_FLAG_SEP_VDM, CMIC_MASK_HOTKEY, CMIC_MASK_ICON, CMIC_MASK_NOASYNC, CMIC_MASK_NOZONECHECKS, CMIC_MASK_NO_CONSOLE, CMIC_MASK_PTINVOKE, CMIC_MASK_SHIFT_DOWN, CMIC_MASK_UNICODE, DFMICS, DFMICS structure [Windows Shell], PDFMICS, PDFMICS structure pointer [Windows Shell], _shell_DFMICS, shell.DFMICS, shlobj_core/DFMICS, shlobj_core/PDFMICS"
+ms.keywords: '*PDFMICS, CMIC_MASK_ASYNCOK, CMIC_MASK_CONTROL_DOWN, CMIC_MASK_FLAG_LOG_USAGE, CMIC_MASK_FLAG_NO_UI, CMIC_MASK_FLAG_SEP_VDM, CMIC_MASK_HOTKEY, CMIC_MASK_ICON, CMIC_MASK_NOASYNC, CMIC_MASK_NOZONECHECKS, CMIC_MASK_NO_CONSOLE, CMIC_MASK_PTINVOKE, CMIC_MASK_SHIFT_DOWN, CMIC_MASK_UNICODE, DFMICS, DFMICS structure [Windows Shell], PDFMICS, PDFMICS structure pointer [Windows Shell], _shell_DFMICS, shell.DFMICS, shlobj_core/DFMICS, shlobj_core/PDFMICS'
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/DFMICS"
+f1_keywords:
+- shlobj_core/DFMICS
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - DFMICS
+- DFMICS
 product: Windows
 targetos: Windows
 req.typenames: DFMICS, *PDFMICS
@@ -70,7 +70,7 @@ The size of this structure, in bytes.
 
 Type: <b>DWORD</b>
 
-Zero, or one or more of the following flags that specify how to handle the data in the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-_cminvokecommandinfo">CMINVOKECOMMANDINFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-_cminvokecommandinfoex">CMINVOKECOMMANDINFOEX</a> structure pointed to by <b>pici</b>.
+Zero, or one or more of the following flags that specify how to handle the data in the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfo">CMINVOKECOMMANDINFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfoex">CMINVOKECOMMANDINFOEX</a> structure pointed to by <b>pici</b>.
 
 
 
@@ -94,7 +94,7 @@ The implementation of <a href="https://docs.microsoft.com/windows/desktop/api/sh
 
 #### CMIC_MASK_UNICODE
 
-Used only when <b>pici</b> points to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-_cminvokecommandinfoex">CMINVOKECOMMANDINFOEX</a> structure. Indicates that the shortcut menu handler should use <b>lpVerbW</b>, <b>lpParametersW</b>, <b>lpTitleW</b>, and <b>lpDirectoryW</b> members instead of their ANSI equivalents. Because some shortcut menu handlers may not support Unicode, you should also pass valid ANSI strings in the <b>lpVerb</b>, <b>lpParameters</b>, <b>lpTitleW</b>, and <b>lpDirectory</b> members.
+Used only when <b>pici</b> points to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfoex">CMINVOKECOMMANDINFOEX</a> structure. Indicates that the shortcut menu handler should use <b>lpVerbW</b>, <b>lpParametersW</b>, <b>lpTitleW</b>, and <b>lpDirectoryW</b> members instead of their ANSI equivalents. Because some shortcut menu handlers may not support Unicode, you should also pass valid ANSI strings in the <b>lpVerb</b>, <b>lpParameters</b>, <b>lpTitleW</b>, and <b>lpDirectory</b> members.
 
 
 
@@ -149,7 +149,7 @@ Do not perform a zone check. This flag allows <a href="https://docs.microsoft.co
 
 #### CMIC_MASK_PTINVOKE
 
-Used only when <b>pici</b> points to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-_cminvokecommandinfoex">CMINVOKECOMMANDINFOEX</a> structure. The <b>ptInvoke</b> member is valid.
+Used only when <b>pici</b> points to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfoex">CMINVOKECOMMANDINFOEX</a> structure. The <b>ptInvoke</b> member is valid.
 
 
 ### -field lParam
@@ -177,7 +177,7 @@ The maximum value that the handler can specify for a menu item identifier.
 
 Type: <b>LPCMINVOKECOMMANDINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-_cminvokecommandinfo">CMINVOKECOMMANDINFO</a> or <b>CMINVOKECOMMANDINFO</b> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfo">CMINVOKECOMMANDINFO</a> or <b>CMINVOKECOMMANDINFO</b> structure.
 
 
 ### -field punkSite

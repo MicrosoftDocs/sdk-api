@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_METHOD, MI_FLAG_STATIC, MI_MethodDecl, MI_MethodDecl structure [Windows Management Infrastructure (MI)], mi/MI_MethodDecl, wmi_v2.mi_methoddecl
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_MethodDecl"
+f1_keywords:
+- mi/MI_MethodDecl
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_MethodDecl
+- MI_MethodDecl
 product: Windows
 targetos: Windows
 req.typenames: MI_MethodDecl
@@ -156,7 +156,7 @@ The extrinsic function that implements this method.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_featuredecl">MI_FeatureDecl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_featuredecl">MI_FeatureDecl</a>
 
 
 
@@ -164,15 +164,15 @@ The extrinsic function that implements this method.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_parameterdecl">MI_ParameterDecl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_parameterdecl">MI_ParameterDecl</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_qualifier">MI_Qualifier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_qualifier">MI_Qualifier</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_schemadecl">MI_SchemaDecl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_schemadecl">MI_SchemaDecl</a>
  
 
  

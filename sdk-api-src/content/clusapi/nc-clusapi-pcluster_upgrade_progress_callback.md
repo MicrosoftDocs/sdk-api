@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterUpgradeProgressCallback, ClusterUpgradeProgressCallback callback, ClusterUpgradeProgressCallback callback function [Failover Cluster], PCLUSTER_UPGRADE_PROGRESS_CALLBACK, PCLUSTER_UPGRADE_PROGRESS_CALLBACK callback function [Failover Cluster], clusapi/ClusterUpgradeProgressCallback, clusapi/PCLUSTER_UPGRADE_PROGRESS_CALLBACK, mscs.clusterupgradeprogresscallback
 ms.topic: callback
-f1_keywords: 
- - "clusapi/ClusterUpgradeProgressCallback"
+f1_keywords:
+- clusapi/ClusterUpgradeProgressCallback
 req.header: clusapi.h
 req.include-header: CluAPI.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - clusapi.h
+- clusapi.h
 api_name:
- - ClusterUpgradeProgressCallback
+- ClusterUpgradeProgressCallback
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A pointer to the arguments.
 
 ### -param eUpgradePhase
 
-A  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-_cluster_upgrade_phase">CLUSTER_UPGRADE_PHASE</a> enumeration values that indicates the state of the rolling upgrade.
+A  <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_upgrade_phase">CLUSTER_UPGRADE_PHASE</a> enumeration values that indicates the state of the rolling upgrade.
 
 
 ## -returns

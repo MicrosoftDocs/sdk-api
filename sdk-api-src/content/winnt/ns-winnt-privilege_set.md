@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: 2ee5615c-f684-4062-a6cb-e43e9de3a2fb
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPRIVILEGE_SET, PPRIVILEGE_SET, PPRIVILEGE_SET structure pointer [Security], PRIVILEGE_SET, PRIVILEGE_SET structure [Security], SE_PRIVILEGE_ENABLED, SE_PRIVILEGE_ENABLED_BY_DEFAULT, SE_PRIVILEGE_USED_FOR_ACCESS, _PRIVILEGE_SET, _win32_privilege_set_str, security.privilege_set, winnt/PPRIVILEGE_SET, winnt/PRIVILEGE_SET"
+ms.keywords: '*PPRIVILEGE_SET, PPRIVILEGE_SET, PPRIVILEGE_SET structure pointer [Security], PRIVILEGE_SET, PRIVILEGE_SET structure [Security], SE_PRIVILEGE_ENABLED, SE_PRIVILEGE_ENABLED_BY_DEFAULT, SE_PRIVILEGE_USED_FOR_ACCESS, _PRIVILEGE_SET, _win32_privilege_set_str, security.privilege_set, winnt/PPRIVILEGE_SET, winnt/PRIVILEGE_SET'
 ms.topic: struct
-f1_keywords: 
- - "winnt/PRIVILEGE_SET"
+f1_keywords:
+- winnt/PRIVILEGE_SET
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - PRIVILEGE_SET
+- PRIVILEGE_SET
 product: Windows
 targetos: Windows
 req.typenames: PRIVILEGE_SET, *PPRIVILEGE_SET
@@ -72,7 +72,7 @@ Specifies a control flag related to the privileges. The PRIVILEGE_SET_ALL_NECESS
 ### -field Privilege
 
 Specifies an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid_and_attributes">LUID_AND_ATTRIBUTES</a> structures describing the set's privileges. The following attributes are defined for privileges. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid_and_attributes">LUID_AND_ATTRIBUTES</a> structures describing the set's privileges. The following attributes are defined for privileges. 
 
 
 
@@ -132,11 +132,11 @@ A privilege is used to control access to an object or service more strictly than
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid_and_attributes">LUID_AND_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid_and_attributes">LUID_AND_ATTRIBUTES</a>
 
 
 

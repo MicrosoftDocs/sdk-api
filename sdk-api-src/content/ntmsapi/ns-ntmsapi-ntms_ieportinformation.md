@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NTMS_IEPORTINFORMATION, NTMS_IEPORTINFORMATION structure [Files], NTMS_PORTCONTENT_EMPTY, NTMS_PORTCONTENT_FULL, NTMS_PORTCONTENT_UNKNOWN, NTMS_PORTPOSITION_EXTENDED, NTMS_PORTPOSITION_RETRACTED, NTMS_PORTPOSITION_UNKNOWN, _zaw_ntms_ieportinformation, base.ntms_ieportinformation, fs.ntms_ieportinformation, ntmsapi/NTMS_IEPORTINFORMATION
 ms.topic: struct
-f1_keywords: 
- - "ntmsapi/NTMS_IEPORTINFORMATION"
+f1_keywords:
+- ntmsapi/NTMS_IEPORTINFORMATION
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntmsapi.h
+- Ntmsapi.h
 api_name:
- - NTMS_IEPORTINFORMATION
+- NTMS_IEPORTINFORMATION
 product: Windows
 targetos: Windows
 req.typenames: NTMS_IEPORTINFORMATION
@@ -173,7 +173,7 @@ Library that contains the port.
 
 The 
 <b>NTMS_IEPORTINFORMATION</b> structure is included in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
 
 
@@ -183,7 +183,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
  
 
  

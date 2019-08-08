@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DEFCONTEXTMENU, DEFCONTEXTMENU structure [Windows Shell], _shell_DEFCONTEXTMENU, shell.DEFCONTEXTMENU, shlobj_core/DEFCONTEXTMENU
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/DEFCONTEXTMENU"
+f1_keywords:
+- shlobj_core/DEFCONTEXTMENU
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - DEFCONTEXTMENU
+- DEFCONTEXTMENU
 product: Windows
 targetos: Windows
 req.typenames: DEFCONTEXTMENU
@@ -98,7 +98,7 @@ The count of items in member <b>apidl</b>.
 
 Type: <b>PCUITEMID_CHILD_ARRAY</b>
 
-A pointer to a constant array of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structures. Each entry in the array describes a child item to which the context menu applies, for instance, a selected file the user wants to <b>Open</b>.
+A pointer to a constant array of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures. Each entry in the array describes a child item to which the context menu applies, for instance, a selected file the user wants to <b>Open</b>.
 
 
 ### -field punkAssociationInfo

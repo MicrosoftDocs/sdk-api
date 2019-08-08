@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CIState, CIState function [Indexing Service], _idxs_CIState, indexsrv.cistate, ntquery/CIState
 ms.topic: function
-f1_keywords: 
- - "ntquery/CIState"
+f1_keywords:
+- ntquery/CIState
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ntquery.lib
 req.dll: Ntquery.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntquery.dll
+- Ntquery.dll
 api_name:
- - CIState
+- CIState
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ The computer name on which the catalog is located, such as "." for the local com
 
 ### -param pCiState [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-_ci_state">CI_STATE</a> structure that receives the catalog state.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-ci_state">CI_STATE</a> structure that receives the catalog state.
 
 
 ## -returns
@@ -152,7 +152,7 @@ The function failed because Indexing Service is too busy to respond to the query
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-_ci_state">CI_STATE</a> structure must be initialized (the <b>cbStruct</b> member must be correctly set) before calling the <b>CIState</b> function.
+The <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-ci_state">CI_STATE</a> structure must be initialized (the <b>cbStruct</b> member must be correctly set) before calling the <b>CIState</b> function.
 
 
 
@@ -162,7 +162,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-_ci_state">CI_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-ci_state">CI_STATE</a>
  
 
  

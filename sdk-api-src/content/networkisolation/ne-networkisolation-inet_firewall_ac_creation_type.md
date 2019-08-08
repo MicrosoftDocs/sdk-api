@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INET_FIREWALL_AC_BINARY, INET_FIREWALL_AC_CREATION_TYPE, INET_FIREWALL_AC_CREATION_TYPE enumeration [ICS/ICF], INET_FIREWALL_AC_MAX, INET_FIREWALL_AC_NONE, INET_FIREWALL_AC_PACKAGE_ID_ONLY, ics.inet_firewall_ac_creation_type, networkisolation/INET_FIREWALL_AC_BINARY, networkisolation/INET_FIREWALL_AC_CREATION_TYPE, networkisolation/INET_FIREWALL_AC_MAX, networkisolation/INET_FIREWALL_AC_NONE, networkisolation/INET_FIREWALL_AC_PACKAGE_ID_ONLY
 ms.topic: enum
-f1_keywords: 
- - "networkisolation/INET_FIREWALL_AC_CREATION_TYPE"
+f1_keywords:
+- networkisolation/INET_FIREWALL_AC_CREATION_TYPE
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - networkisolation.h
+- networkisolation.h
 api_name:
- - INET_FIREWALL_AC_CREATION_TYPE
+- INET_FIREWALL_AC_CREATION_TYPE
 product: Windows
 targetos: Windows
 req.typenames: INET_FIREWALL_AC_CREATION_TYPE
@@ -84,7 +84,7 @@ Maximum value for testing purposes.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ns-netfw-_inet_firewall_ac_change">INET_FIREWALL_AC_CHANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/ns-netfw-inet_firewall_ac_change">INET_FIREWALL_AC_CHANGE</a>
  
 
  

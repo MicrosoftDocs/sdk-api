@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],ProtectionCommand method, IAMCertifiedOutputProtection.ProtectionCommand, IAMCertifiedOutputProtection::ProtectionCommand, IAMCertifiedOutputProtectionProtectionCommand, ProtectionCommand, ProtectionCommand method [DirectShow], ProtectionCommand method [DirectShow],IAMCertifiedOutputProtection interface, dshow.iamcertifiedoutputprotection_protectioncommand, strmif/IAMCertifiedOutputProtection::ProtectionCommand
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMCertifiedOutputProtection.ProtectionCommand"
+f1_keywords:
+- strmif/IAMCertifiedOutputProtection.ProtectionCommand
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMCertifiedOutputProtection.ProtectionCommand
+- IAMCertifiedOutputProtection.ProtectionCommand
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <code>ProtectionCommand</code> method sends a COPP command to the graphics d
 
 ### -param cmd [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_amcoppcommand">AMCOPPCommand</a> structure that contains the command.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-amcoppcommand">AMCOPPCommand</a> structure that contains the command.
 
 
 ## -returns

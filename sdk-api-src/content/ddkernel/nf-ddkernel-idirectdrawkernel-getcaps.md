@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCaps, GetCaps method [Display Devices], GetCaps method [Display Devices],IDirectDrawKernel interface, IDirectDrawKernel interface [Display Devices],GetCaps method, IDirectDrawKernel.GetCaps, IDirectDrawKernel::GetCaps, ddfncs_52bda933-e948-4942-b52b-c0a42440c1fb.xml, ddkernel/IDirectDrawKernel::GetCaps, display.idirectdrawkernel_getcaps
 ms.topic: method
-f1_keywords: 
- - "ddkernel/IDirectDrawKernel.GetCaps"
+f1_keywords:
+- ddkernel/IDirectDrawKernel.GetCaps
 req.header: ddkernel.h
 req.include-header: Ddraw.h, Ddkernel.h, Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ddkernel.h
+- ddkernel.h
 api_name:
- - IDirectDrawKernel.GetCaps
+- IDirectDrawKernel.GetCaps
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The <b>IDirectDrawKernel::GetCaps</b> method returns the capabilities of this ke
 
 #### - lpCaps
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddkernel/ns-ddkernel-_ddkernelcaps">DDKERNELCAPS</a> structure into which the kernel-mode capabilities of the DirectDraw device are returned.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddkernel/ns-ddkernel-ddkernelcaps">DDKERNELCAPS</a> structure into which the kernel-mode capabilities of the DirectDraw device are returned.
 
 
 ## -returns

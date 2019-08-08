@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_SELECTOR_SET, WSMAN_SELECTOR_SET structure [Windows Remote Management], winrm.wsman_selector_set, wsman/WSMAN_SELECTOR_SET
 ms.topic: struct
-f1_keywords: 
- - "wsman/WSMAN_SELECTOR_SET"
+f1_keywords:
+- wsman/WSMAN_SELECTOR_SET
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_SELECTOR_SET
+- WSMAN_SELECTOR_SET
 product: Windows
 targetos: Windows
 req.typenames: WSMAN_SELECTOR_SET
@@ -66,5 +66,5 @@ Specifies the number of keys (selectors).
 
 ### -field keys
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_key">WSMAN_KEY</a>  structures that specify key names and values.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_key">WSMAN_KEY</a>  structures that specify key names and values.
 

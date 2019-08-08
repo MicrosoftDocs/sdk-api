@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: c8c3bd92-8120-4a3b-af8b-0a2c0a9bee0f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PIP_PATTERN, IP_PATTERN, IP_PATTERN structure [QOS], PIP_PATTERN, PIP_PATTERN structure pointer [QOS], _gqos_ip_pattern, qos.ip_pattern, traffic/IP_PATTERN, traffic/PIP_PATTERN"
+ms.keywords: '*PIP_PATTERN, IP_PATTERN, IP_PATTERN structure [QOS], PIP_PATTERN, PIP_PATTERN structure pointer [QOS], _gqos_ip_pattern, qos.ip_pattern, traffic/IP_PATTERN, traffic/PIP_PATTERN'
 ms.topic: struct
-f1_keywords: 
- - "traffic/IP_PATTERN"
+f1_keywords:
+- traffic/IP_PATTERN
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Traffic.h
+- Traffic.h
 api_name:
- - IP_PATTERN
+- IP_PATTERN
 product: Windows
 targetos: Windows
 req.typenames: IP_PATTERN, *PIP_PATTERN
@@ -161,7 +161,7 @@ The following macros are defined in Traffic.h to make it easier to reference the
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
  
 
  

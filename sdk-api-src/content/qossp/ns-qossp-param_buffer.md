@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: b5078f3b-ab7f-4194-aed7-de5ebb4f7fb8
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPPARAM_BUFFER, *LPPARAM_BUFFER structure [QOS], PARAM_BUFFER, PARAM_BUFFER structure [QOS], qos.param_buffer, qossp/*LPPARAM_BUFFER, qossp/PARAM_BUFFER"
+ms.keywords: '*LPPARAM_BUFFER, *LPPARAM_BUFFER structure [QOS], PARAM_BUFFER, PARAM_BUFFER structure [QOS], qos.param_buffer, qossp/*LPPARAM_BUFFER, qossp/PARAM_BUFFER'
 ms.topic: struct
-f1_keywords: 
- - "qossp/PARAM_BUFFER"
+f1_keywords:
+- qossp/PARAM_BUFFER
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qossp.h
+- Qossp.h
 api_name:
- - PARAM_BUFFER
+- PARAM_BUFFER
 product: Windows
 targetos: Windows
 req.typenames: PARAM_BUFFER, *LPPARAM_BUFFER
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PARAM_BUFFER</b> structure describes the format of the parameter buffer that can be included in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_control_service">CONTROL_SERVICE</a> structure.
+The <b>PARAM_BUFFER</b> structure describes the format of the parameter buffer that can be included in the <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-control_service">CONTROL_SERVICE</a> structure.
 
 
 ## -struct-fields
@@ -79,7 +79,7 @@ Buffer containing the parameter.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_control_service">CONTROL_SERVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-control_service">CONTROL_SERVICE</a>
  
 
  

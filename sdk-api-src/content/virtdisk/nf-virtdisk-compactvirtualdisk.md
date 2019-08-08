@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CompactVirtualDisk, CompactVirtualDisk function [VHD], vdssys/CompactVirtualDisk, vhd.compactvirtualdisk, virtdisk/CompactVirtualDisk
 ms.topic: function
-f1_keywords: 
- - "virtdisk/CompactVirtualDisk"
+f1_keywords:
+- virtdisk/CompactVirtualDisk
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VirtDisk.dll
+- VirtDisk.dll
 api_name:
- - CompactVirtualDisk
+- CompactVirtualDisk
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,7 +83,7 @@ A optional pointer to a valid
 
 ### -param Overlapped [in, optional]
 
-An optional pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> 
+An optional pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> 
       structure if <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">asynchronous</a> 
       operation is desired.
 

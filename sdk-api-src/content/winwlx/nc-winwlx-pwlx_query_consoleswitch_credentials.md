@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWLX_QUERY_CONSOLESWITCH_CREDENTIALS, PWLX_QUERY_CONSOLESWITCH_CREDENTIALS callback, WlxQueryConsoleSwitchCredentials, WlxQueryConsoleSwitchCredentials callback function [Security], _gina_wlxqueryconsoleswitchcredentials, security.wlxqueryconsoleswitchcredentials, winwlx/WlxQueryConsoleSwitchCredentials
 ms.topic: callback
-f1_keywords: 
- - "winwlx/WlxQueryConsoleSwitchCredentials"
+f1_keywords:
+- winwlx/WlxQueryConsoleSwitchCredentials
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - winwlx.h
+- winwlx.h
 api_name:
- - WlxQueryConsoleSwitchCredentials
+- WlxQueryConsoleSwitchCredentials
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -79,7 +79,7 @@ Returns <b>TRUE</b> if credentials were transferred and <b>FALSE</b> if the tran
 
 
 In order to access this function, the GINA DLL must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_dispatch_version_1_4">WLX_DISPATCH_VERSION_1_4</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_dispatch_version_1_4">WLX_DISPATCH_VERSION_1_4</a> structure.
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDeviceHost2, WSDCreateDeviceHost2 function, ncd.wsdcreatedevicehost2, wsdhost/WSDCreateDeviceHost2
 ms.topic: function
-f1_keywords: 
- - "wsdhost/WSDCreateDeviceHost2"
+f1_keywords:
+- wsdhost/WSDCreateDeviceHost2
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - WSDCreateDeviceHost2
+- WSDCreateDeviceHost2
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -97,7 +97,7 @@ If <b>NULL</b>, a default context representing the built-in message types and na
 
 ### -param pConfigParams [in]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-_wsd_config_param">WSD_CONFIG_PARAM</a> structures that contain the parameters for creating the object.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_param">WSD_CONFIG_PARAM</a> structures that contain the parameters for creating the object.
 
 
 ### -param dwConfigParamCount [in]

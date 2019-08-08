@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE, MFT_OUTPUT_DATA_BUFFER_INCOMPLETE, MFT_OUTPUT_DATA_BUFFER_NO_SAMPLE, MFT_OUTPUT_DATA_BUFFER_STREAM_END, _MFT_OUTPUT_DATA_BUFFER_FLAGS, _MFT_OUTPUT_DATA_BUFFER_FLAGS enumeration [Media Foundation], b975a1a9-2cd1-4187-9934-c6877f10cec6, mf._mft_output_data_buffer_flags, mftransform/MFT_OUTPUT_DATA_BUFFER_FORMAT_CHANGE, mftransform/MFT_OUTPUT_DATA_BUFFER_INCOMPLETE, mftransform/MFT_OUTPUT_DATA_BUFFER_NO_SAMPLE, mftransform/MFT_OUTPUT_DATA_BUFFER_STREAM_END, mftransform/_MFT_OUTPUT_DATA_BUFFER_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "mftransform/_MFT_OUTPUT_DATA_BUFFER_FLAGS"
+f1_keywords:
+- mftransform/_MFT_OUTPUT_DATA_BUFFER_FLAGS
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - _MFT_OUTPUT_DATA_BUFFER_FLAGS
+- _MFT_OUTPUT_DATA_BUFFER_FLAGS
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,16 +74,16 @@ The format has changed on this output stream, or there is a new preferred format
 
 The MFT has removed this output stream. The output stream must have the MFT_OUTPUT_STREAM_REMOVABLE flag. (See <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreaminfo">IMFTransform::GetOutputStreamInfo</a>.)
 
-When the MFT removes an output stream, the MFT returns this status code on the next call to <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a> after the last output sample has been produced. When the MFT returns this status code, it does not modify any sample contained in the <b>pSample</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure, nor does it allocate a new sample if <b>pSample</b> is <b>NULL</b>.
+When the MFT removes an output stream, the MFT returns this status code on the next call to <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a> after the last output sample has been produced. When the MFT returns this status code, it does not modify any sample contained in the <b>pSample</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure, nor does it allocate a new sample if <b>pSample</b> is <b>NULL</b>.
 
-After this status code is returned, the stream identifier for this output stream is no longer valid. The client should no longer provide an <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure for that stream when it calls <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a>.
+After this status code is returned, the stream identifier for this output stream is no longer valid. The client should no longer provide an <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure for that stream when it calls <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a>.
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a> method does not return <b>MF_E_TRANSFORM_STREAM_CHANGE</b> when a stream ends, unless there is a change in another stream that requires this return code.
 
 
 ### -field MFT_OUTPUT_DATA_BUFFER_NO_SAMPLE
 
-There is no sample ready for this stream. This flag might be set if the MFT has multiple output streams that produce data at different times. It sets this flag for each stream that is not ready to produce data. It does not modify the output sample contained in the <b>pSample</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure, nor does it allocate a new sample is <b>pSample</b> is <b>NULL</b>.
+There is no sample ready for this stream. This flag might be set if the MFT has multiple output streams that produce data at different times. It sets this flag for each stream that is not ready to produce data. It does not modify the output sample contained in the <b>pSample</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structure, nor does it allocate a new sample is <b>pSample</b> is <b>NULL</b>.
 
 If no streams are ready to produce output, the MFT does not set this flag. Instead, the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a> method returns MF_E_TRANSFORM_NEED_MORE_INPUT.
 

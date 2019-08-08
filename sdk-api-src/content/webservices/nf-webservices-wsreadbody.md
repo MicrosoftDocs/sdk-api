@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsReadBody, WsReadBody function [Web Services for Windows], webservices/WsReadBody, wsw.wsreadbody
 ms.topic: function
-f1_keywords: 
- - "webservices/WsReadBody"
+f1_keywords:
+- webservices/WsReadBody
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsReadBody
+- WsReadBody
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -187,7 +187,7 @@ This functions supports the following scenarios, based on the contents
                 envelope/addressing version of the message).
                 </li>
 <li>Reading multiple elements as a single value.  In this case, the elementLocalName and elementNs
-                fields of the <b>WS_ELEMENT_DESCRIPTION</b> should be set to <b>NULL</b>, and a <b>WS_STRUCT_TYPE</b>and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_struct_description">WS_STRUCT_DESCRIPTION</a> should be specified.  In this case, each field of the
+                fields of the <b>WS_ELEMENT_DESCRIPTION</b> should be set to <b>NULL</b>, and a <b>WS_STRUCT_TYPE</b>and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a> should be specified.  In this case, each field of the
                 structure value being deserialized should correspond to element(s) to read within the body.
                 </li>
 <li>Reading multiple elements as multiple values.  Reading multiple distinct values can be

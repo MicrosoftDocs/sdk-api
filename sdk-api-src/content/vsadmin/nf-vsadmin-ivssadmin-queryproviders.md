@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssAdmin interface [VSS],QueryProviders method, IVssAdmin.QueryProviders, IVssAdmin::QueryProviders, QueryProviders, QueryProviders method [VSS], QueryProviders method [VSS],IVssAdmin interface, base.ivssadmin_queryproviders, vsadmin/IVssAdmin::QueryProviders
 ms.topic: method
-f1_keywords: 
- - "vsadmin/IVssAdmin.QueryProviders"
+f1_keywords:
+- vsadmin/IVssAdmin.QueryProviders
 req.header: vsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsAdmin.h
+- VsAdmin.h
 api_name:
- - IVssAdmin.QueryProviders
+- IVssAdmin.QueryProviders
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -196,8 +196,8 @@ Unexpected provider error. The error code is logged in the error log. For more i
 Calling the <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssenumobject-next">IVssEnumObject::Next</a> method on the 
     <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a> interface returned though the 
     <i>ppEnum</i>  parameter will return 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_object_prop">VSS_OBJECT_PROP</a> structures containing a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_provider_prop">VSS_PROVIDER_PROP</a> structure for each registered 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_object_prop">VSS_OBJECT_PROP</a> structures containing a 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_provider_prop">VSS_PROVIDER_PROP</a> structure for each registered 
     provider.
 
 

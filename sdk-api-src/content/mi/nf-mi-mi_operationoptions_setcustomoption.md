@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_SetCustomOption, MI_OperationOptions_SetCustomOption function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetCustomOption, wmi_v2.mi_operationoptions_setcustomoption
 ms.topic: function
-f1_keywords: 
- - "mi/MI_OperationOptions_SetCustomOption"
+f1_keywords:
+- mi/MI_OperationOptions_SetCustomOption
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_OperationOptions_SetCustomOption
+- MI_OperationOptions_SetCustomOption
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Sets a  custom option for the operation.
 
 ### -param options [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
 
 
 ### -param optionName
@@ -88,7 +88,7 @@ Boolean value where <b>MI_TRUE</b> means that the option must be complied with.
 
 
 
-A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 

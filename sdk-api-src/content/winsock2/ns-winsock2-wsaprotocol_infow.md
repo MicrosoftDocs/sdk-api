@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: be5f3e81-1442-43c7-9e4e-9eb2b2a05132
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPWSAPROTOCOL_INFOW, AF_APPLETALK, AF_BTH, AF_INET, AF_INET6, AF_IPX, AF_IRDA, AF_NETBIOS, BTHPROTO_RFCOMM, IPPROTO_ICMP, IPPROTO_ICMPV6, IPPROTO_IGMP, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, LPWSAPROTOCOL_INFOW, LPWSAPROTOCOL_INFOW structure pointer [Winsock], PFL_HIDDEN, PFL_MATCHES_PROTOCOL_ZERO, PFL_MULTIPLE_PROTO_ENTRIES, PFL_NETWORKDIRECT_PROVIDER, PFL_RECOMMENDED_PROTO_ENTRY, SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, WSAPROTOCOL_INFO, WSAPROTOCOL_INFOW, WSAPROTOCOL_INFOW structure [Winsock], XP1_CONNECTIONLESS, XP1_CONNECT_DATA, XP1_DISCONNECT_DATA, XP1_EXPEDITED_DATA, XP1_GRACEFUL_CLOSE, XP1_GUARANTEED_DELIVERY, XP1_GUARANTEED_ORDER, XP1_IFS_HANDLES, XP1_INTERRUPT, XP1_MESSAGE_ORIENTED, XP1_MULTIPOINT_CONTROL_PLANE, XP1_MULTIPOINT_DATA_PLANE, XP1_PARTIAL_MESSAGE, XP1_PSEUDO_STREAM, XP1_QOS_SUPPORTED, XP1_SAN_SUPPORT_SDP, XP1_SUPPORT_BROADCAST, XP1_SUPPORT_MULTIPOINT, XP1_UNI_RECV, XP1_UNI_SEND, _WSAPROTOCOL_INFOW, winsock.wsaprotocol_infow_2, winsock2/LPWSAPROTOCOL_INFOW, winsock2/WSAPROTOCOL_INFOW"
+ms.keywords: '*LPWSAPROTOCOL_INFOW, AF_APPLETALK, AF_BTH, AF_INET, AF_INET6, AF_IPX, AF_IRDA, AF_NETBIOS, BTHPROTO_RFCOMM, IPPROTO_ICMP, IPPROTO_ICMPV6, IPPROTO_IGMP, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, LPWSAPROTOCOL_INFOW, LPWSAPROTOCOL_INFOW structure pointer [Winsock], PFL_HIDDEN, PFL_MATCHES_PROTOCOL_ZERO, PFL_MULTIPLE_PROTO_ENTRIES, PFL_NETWORKDIRECT_PROVIDER, PFL_RECOMMENDED_PROTO_ENTRY, SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, WSAPROTOCOL_INFO, WSAPROTOCOL_INFOW, WSAPROTOCOL_INFOW structure [Winsock], XP1_CONNECTIONLESS, XP1_CONNECT_DATA, XP1_DISCONNECT_DATA, XP1_EXPEDITED_DATA, XP1_GRACEFUL_CLOSE, XP1_GUARANTEED_DELIVERY, XP1_GUARANTEED_ORDER, XP1_IFS_HANDLES, XP1_INTERRUPT, XP1_MESSAGE_ORIENTED, XP1_MULTIPOINT_CONTROL_PLANE, XP1_MULTIPOINT_DATA_PLANE, XP1_PARTIAL_MESSAGE, XP1_PSEUDO_STREAM, XP1_QOS_SUPPORTED, XP1_SAN_SUPPORT_SDP, XP1_SUPPORT_BROADCAST, XP1_SUPPORT_MULTIPOINT, XP1_UNI_RECV, XP1_UNI_SEND, _WSAPROTOCOL_INFOW, winsock.wsaprotocol_infow_2, winsock2/LPWSAPROTOCOL_INFOW, winsock2/WSAPROTOCOL_INFOW'
 ms.topic: struct
-f1_keywords: 
- - "winsock2/WSAPROTOCOL_INFOW"
+f1_keywords:
+- winsock2/WSAPROTOCOL_INFOW
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsock2.h
+- Winsock2.h
 api_name:
- - WSAPROTOCOL_INFOW
+- WSAPROTOCOL_INFOW
 product: Windows
 targetos: Windows
 req.typenames: WSAPROTOCOL_INFOW, *LPWSAPROTOCOL_INFOW
@@ -411,7 +411,7 @@ A globally unique identifier (GUID) assigned to the provider by the service prov
 
 Type: <b>DWORD</b>
 
-A unique identifier assigned by the WS2_32.DLL for each <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. 
+A unique identifier assigned by the WS2_32.DLL for each <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. 
 
 
 
@@ -424,7 +424,7 @@ A unique identifier assigned by the WS2_32.DLL for each <a href="https://docs.mi
 Type: <b>WSAPROTOCOLCHAIN</b>
 
 The 
-						<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocolchain">WSAPROTOCOLCHAIN</a> structure associated with the protocol. If the length of the chain is 0, this <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> entry represents a layered protocol which has Windows Sockets 2 SPI as both its top and bottom edges. If the length of the chain equals 1, this entry represents a base protocol whose Catalog Entry identifier is in the <b>dwCatalogEntryId</b> member of the <b>WSAPROTOCOL_INFO</b> structure. If the length of the chain is larger than 1, this entry represents a protocol chain which consists of one or more layered protocols on top of a base protocol. The corresponding Catalog Entry identifiers are in the ProtocolChain.ChainEntries array starting with the layered protocol at the top (the zero element in the ProtocolChain.ChainEntries array) and ending with the base protocol. Refer to the Windows Sockets 2 Service Provider Interface specification for more information on protocol chains.
+						<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocolchain">WSAPROTOCOLCHAIN</a> structure associated with the protocol. If the length of the chain is 0, this <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> entry represents a layered protocol which has Windows Sockets 2 SPI as both its top and bottom edges. If the length of the chain equals 1, this entry represents a base protocol whose Catalog Entry identifier is in the <b>dwCatalogEntryId</b> member of the <b>WSAPROTOCOL_INFO</b> structure. If the length of the chain is larger than 1, this entry represents a protocol chain which consists of one or more layered protocols on top of a base protocol. The corresponding Catalog Entry identifiers are in the ProtocolChain.ChainEntries array starting with the layered protocol at the top (the zero element in the ProtocolChain.ChainEntries array) and ending with the base protocol. Refer to the Windows Sockets 2 Service Provider Interface specification for more information on protocol chains.
 
 
 ### -field iVersion
@@ -841,11 +841,11 @@ An array of Unicode characters that contains a human-readable name identifying t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocolchain">WSAPROTOCOLCHAIN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocolchain">WSAPROTOCOLCHAIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a>
 
 
 

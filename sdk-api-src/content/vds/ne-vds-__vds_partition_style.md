@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_PARTITION_STYLE_GPT, VDS_PARTITION_STYLE_MBR, VDS_PARTITION_STYLE_RAW, __VDS_PARTITION_STYLE, __VDS_PARTITION_STYLE enumeration [VDS], base.tag_vds_partition_style, tag_VDS_PARTITION_STYLE, tag_VDS_PARTITION_STYLE enumeration [VDS], vds/VDS_PARTITION_STYLE_GPT, vds/VDS_PARTITION_STYLE_MBR, vds/VDS_PARTITION_STYLE_RAW, vds/tag_VDS_PARTITION_STYLE
 ms.topic: enum
-f1_keywords: 
- - "vds/__VDS_PARTITION_STYLE"
+f1_keywords:
+- vds/__VDS_PARTITION_STYLE
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - __VDS_PARTITION_STYLE
+- __VDS_PARTITION_STYLE
 product: Windows
 targetos: Windows
-req.typenames: "__VDS_PARTITION_STYLE"
+req.typenames: __VDS_PARTITION_STYLE
 req.redist: 
 ms.custom: 19H1
 ---
@@ -91,7 +91,7 @@ This value is not intended for use.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_partition_style">VDS_PARTITION_STYLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_partition_style">VDS_PARTITION_STYLE</a>
  
 
  

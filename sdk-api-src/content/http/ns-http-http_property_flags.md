@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: cafa3b04-ac8b-4269-bfa9-fe8e9ab65936
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_PROPERTY_FLAGS, *PHTTP_PROPERTY_FLAGS structure [HTTP], HTTP_PROPERTY_FLAGS, HTTP_PROPERTY_FLAGS structure [HTTP], http.http_property_flags, http/*PHTTP_PROPERTY_FLAGS, http/HTTP_PROPERTY_FLAGS"
+ms.keywords: '*PHTTP_PROPERTY_FLAGS, *PHTTP_PROPERTY_FLAGS structure [HTTP], HTTP_PROPERTY_FLAGS, HTTP_PROPERTY_FLAGS structure [HTTP], http.http_property_flags, http/*PHTTP_PROPERTY_FLAGS, http/HTTP_PROPERTY_FLAGS'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_PROPERTY_FLAGS"
+f1_keywords:
+- http/HTTP_PROPERTY_FLAGS
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_PROPERTY_FLAGS
+- HTTP_PROPERTY_FLAGS
 product: Windows
 targetos: Windows
 req.typenames: HTTP_PROPERTY_FLAGS, *PHTTP_PROPERTY_FLAGS
@@ -93,31 +93,31 @@ The property configuration structures are used in calls to <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_bandwidth_limit_info">HTTP_BANDWIDTH_LIMIT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_bandwidth_limit_info">HTTP_BANDWIDTH_LIMIT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_binding_info">HTTP_BINDING_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_binding_info">HTTP_BINDING_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_connection_limit_info">HTTP_CONNECTION_LIMIT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_connection_limit_info">HTTP_CONNECTION_LIMIT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_logging_info">HTTP_LOGGING_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_state_info">HTTP_STATE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_state_info">HTTP_STATE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_timeout_limit_info">HTTP_TIMEOUT_LIMIT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_timeout_limit_info">HTTP_TIMEOUT_LIMIT_INFO</a>
  
 
  

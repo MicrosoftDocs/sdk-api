@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMSetGlobalOptions, DRMSetGlobalOptions function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetGlobalOptions, rm.drmsetglobaloptions
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMSetGlobalOptions"
+f1_keywords:
+- msdrm/DRMSetGlobalOptions
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMSetGlobalOptions
+- DRMSetGlobalOptions
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The <b>DRMSetGlobalOptions</b> function sets the transport protocol to a specifi
 
 ### -param eGlobalOptions [in]
 
-A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/ne-msdrmdefs-_drmglobaloptions">DRMGLOBALOPTIONS</a> enumeration that specifies the option to set.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/msdrmdefs/ne-msdrmdefs-drmglobaloptions">DRMGLOBALOPTIONS</a> enumeration that specifies the option to set.
 
 Only one option can be specified in each call to <b>DRMSetGlobalOptions</b>. For example, if both WinHTTP and the server lockbox are required, you must call <b>DRMSetGlobalOptions</b> twice, once with <i>eGlobalOptions</i> set to <b>DRMGLOBALOPTIONS_USE_WINHTTP</b> and once with <i>eGlobalOptions</i> set to <b>DRMGLOBALOPTIONS_USE_SERVERSECURITYPROCESSOR</b>.
 
@@ -118,7 +118,7 @@ An AD RMS-enabled server application should call the <b>DRMSetGlobalOptions</b> 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/ne-msdrmdefs-_drmglobaloptions">DRMGLOBALOPTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msdrmdefs/ne-msdrmdefs-drmglobaloptions">DRMGLOBALOPTIONS</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 796adb9c-ec38-41d0-8f8b-ea1053e9f9f0
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_KEY_CONTEXT, AT_KEYEXCHANGE, AT_SIGNATURE, CERT_KEY_CONTEXT, CERT_KEY_CONTEXT structure [Security], CERT_NCRYPT_KEY_SPEC, PCERT_KEY_CONTEXT, PCERT_KEY_CONTEXT structure pointer [Security], _crypto2_cert_key_context, security.cert_key_context, wincrypt/CERT_KEY_CONTEXT, wincrypt/PCERT_KEY_CONTEXT"
+ms.keywords: '*PCERT_KEY_CONTEXT, AT_KEYEXCHANGE, AT_SIGNATURE, CERT_KEY_CONTEXT, CERT_KEY_CONTEXT structure [Security], CERT_NCRYPT_KEY_SPEC, PCERT_KEY_CONTEXT, PCERT_KEY_CONTEXT structure pointer [Security], _crypto2_cert_key_context, security.cert_key_context, wincrypt/CERT_KEY_CONTEXT, wincrypt/PCERT_KEY_CONTEXT'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_KEY_CONTEXT"
+f1_keywords:
+- wincrypt/CERT_KEY_CONTEXT
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_KEY_CONTEXT
+- CERT_KEY_CONTEXT
 product: Windows
 targetos: Windows
 req.typenames: CERT_KEY_CONTEXT, *PCERT_KEY_CONTEXT
@@ -136,7 +136,7 @@ Keys associated with a CNG CSP.  The handle to the CNG CSP is set in the <b>hNCr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
 
 
 

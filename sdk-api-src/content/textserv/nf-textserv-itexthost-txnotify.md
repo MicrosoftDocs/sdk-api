@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxNotify method, ITextHost.TxNotify, ITextHost::TxNotify, TxNotify, TxNotify method [Windows Controls], TxNotify method [Windows Controls],ITextHost interface, _win32_ITextHost_TxNotify, _win32_ITextHost_TxNotify_cpp, controls.ITextHost_TxNotify, controls._win32_ITextHost_TxNotify, textserv/ITextHost::TxNotify
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost.TxNotify"
+f1_keywords:
+- textserv/ITextHost.TxNotify
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost.TxNotify
+- ITextHost.TxNotify
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -174,13 +174,13 @@ The following is a list of the notifications that may be sent.
 <a href="https://docs.microsoft.com/windows/desktop/Controls/en-saveclipboard">EN_SAVECLIPBOARD</a>
 </td>
 <td>Sent when an edit control is being destroyed. The text host should indicate whether <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleflushclipboard">OleFlushClipboard</a> should be called. Data indicating the number of characters and objects to be flushed is sent in the 
-							<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_ensaveclipboard">ENSAVECLIPBOARD</a> data structure. Mask value is nothing.</td>
+							<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-ensaveclipboard">ENSAVECLIPBOARD</a> data structure. Mask value is nothing.</td>
 </tr>
 <tr>
 <td>
 <a href="https://docs.microsoft.com/windows/desktop/Controls/en-selchange">EN_SELCHANGE</a>
 </td>
-<td>Sent when the current selection has changed. A <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_selchange">SELCHANGE</a> data structure is also sent, which indicates the new selection range at the type of data the selection is currently over. Controlled through the <a href="https://docs.microsoft.com/windows/desktop/Controls/rich-edit-control-event-mask-flags">ENM_SELCHANGE</a> mask.</td>
+<td>Sent when the current selection has changed. A <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-selchange">SELCHANGE</a> data structure is also sent, which indicates the new selection range at the type of data the selection is currently over. Controlled through the <a href="https://docs.microsoft.com/windows/desktop/Controls/rich-edit-control-event-mask-flags">ENM_SELCHANGE</a> mask.</td>
 </tr>
 <tr>
 <td>

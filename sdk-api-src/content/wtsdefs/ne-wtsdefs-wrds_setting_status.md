@@ -8,10 +8,10 @@ tech.root: TermServ
 ms.assetid: FA56FDCB-70E7-4D90-99DE-6C624404BEF9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWRDS_SETTING_STATUS, PWRDS_SETTING_STATUS, PWRDS_SETTING_STATUS enumeration pointer [Remote Desktop Services], WRDS_SETTING_STATUS, WRDS_SETTING_STATUS enumeration [Remote Desktop Services], WRDS_SETTING_STATUS_DISABLED, WRDS_SETTING_STATUS_ENABLED, WRDS_SETTING_STATUS_NOTAPPLICABLE, WRDS_SETTING_STATUS_NOTCONFIGURED, termserv.wrds_setting_status, wtsdefs/PWRDS_SETTING_STATUS, wtsdefs/WRDS_SETTING_STATUS, wtsdefs/WRDS_SETTING_STATUS_DISABLED, wtsdefs/WRDS_SETTING_STATUS_ENABLED, wtsdefs/WRDS_SETTING_STATUS_NOTAPPLICABLE, wtsdefs/WRDS_SETTING_STATUS_NOTCONFIGURED"
+ms.keywords: '*PWRDS_SETTING_STATUS, PWRDS_SETTING_STATUS, PWRDS_SETTING_STATUS enumeration pointer [Remote Desktop Services], WRDS_SETTING_STATUS, WRDS_SETTING_STATUS enumeration [Remote Desktop Services], WRDS_SETTING_STATUS_DISABLED, WRDS_SETTING_STATUS_ENABLED, WRDS_SETTING_STATUS_NOTAPPLICABLE, WRDS_SETTING_STATUS_NOTCONFIGURED, termserv.wrds_setting_status, wtsdefs/PWRDS_SETTING_STATUS, wtsdefs/WRDS_SETTING_STATUS, wtsdefs/WRDS_SETTING_STATUS_DISABLED, wtsdefs/WRDS_SETTING_STATUS_ENABLED, wtsdefs/WRDS_SETTING_STATUS_NOTAPPLICABLE, wtsdefs/WRDS_SETTING_STATUS_NOTCONFIGURED'
 ms.topic: enum
-f1_keywords: 
- - "wtsdefs/WRDS_SETTING_STATUS"
+f1_keywords:
+- wtsdefs/WRDS_SETTING_STATUS
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsdefs.h
+- Wtsdefs.h
 api_name:
- - WRDS_SETTING_STATUS
+- WRDS_SETTING_STATUS
 product: Windows
 targetos: Windows
 req.typenames: WRDS_SETTING_STATUS, *PWRDS_SETTING_STATUS
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the status of a policy setting for various members of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_settings_1">WRDS_SETTINGS_1</a> structure.
+Specifies the status of a policy setting for various members of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_settings_1">WRDS_SETTINGS_1</a> structure.
 
 
 ## -enum-fields
@@ -83,7 +83,7 @@ The setting is not configured.
 
 
 
-The three primary values (disabled, enabled, and not configured) correspond to the states that are available when defining rules in the group policy editor. When the setting status is enabled, the value of the setting can be changed by the corresponding value member within the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_settings_1">WRDS_SETTINGS_1</a> structure. For example, if that structure's <b>WRdsColorDepthStatus</b> member has a value of <b>WRDS_SETTING_STATUS_ENABLED</b>, the <b>WRdsColorDepthValue</b> member will go into effect. Otherwise, the value member is not used in processing.
+The three primary values (disabled, enabled, and not configured) correspond to the states that are available when defining rules in the group policy editor. When the setting status is enabled, the value of the setting can be changed by the corresponding value member within the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_settings_1">WRDS_SETTINGS_1</a> structure. For example, if that structure's <b>WRdsColorDepthStatus</b> member has a value of <b>WRDS_SETTING_STATUS_ENABLED</b>, the <b>WRdsColorDepthValue</b> member will go into effect. Otherwise, the value member is not used in processing.
 
 
 

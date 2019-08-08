@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SEARCH_HIGH_PRIORITY, SEARCH_NORMAL_PRIORITY, SEARCH_NOTIFICATION_PRIORITY, SEARCH_NOTIFICATION_PRIORITY enumeration [search], _search_SEARCH_NOTIFICATION_PRIORITY, search._search_SEARCH_NOTIFICATION_PRIORITY, searchapi/SEARCH_HIGH_PRIORITY, searchapi/SEARCH_NORMAL_PRIORITY, searchapi/SEARCH_NOTIFICATION_PRIORITY
 ms.topic: enum
-f1_keywords: 
- - "searchapi/SEARCH_NOTIFICATION_PRIORITY"
+f1_keywords:
+- searchapi/SEARCH_NOTIFICATION_PRIORITY
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - SEARCH_NOTIFICATION_PRIORITY
+- SEARCH_NOTIFICATION_PRIORITY
 product: Windows
 targetos: Windows
 req.typenames: SEARCH_NOTIFICATION_PRIORITY
@@ -73,7 +73,7 @@ The changed item is placed ahead of other queued items in the indexer's queue, t
 
 
 
-Set the <b>priority</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_search_item_change">SEARCH_ITEM_CHANGE</a> structure to one of these flags.
+Set the <b>priority</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-search_item_change">SEARCH_ITEM_CHANGE</a> structure to one of these flags.
 
 As the indexer crawls, it builds a list of items that need to be indexed. These flags indicate the placement of changed items in the indexer's queue. Higher priority items are placed at the front of the queue.
 

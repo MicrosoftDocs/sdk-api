@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetHeapProperty, WsGetHeapProperty function [Web Services for Windows], webservices/WsGetHeapProperty, wsw.wsgetheapproperty
 ms.topic: function
-f1_keywords: 
- - "webservices/WsGetHeapProperty"
+f1_keywords:
+- webservices/WsGetHeapProperty
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsGetHeapProperty
+- WsGetHeapProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ A pointer to the <b>Heap</b> object to that contains the desired property data.
 
 ### -param id [in]
 
-This is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_heap_property">WS_HEAP_PROPERTY_ID</a> enumerator that identifies the desired property.
+This is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_heap_property">WS_HEAP_PROPERTY_ID</a> enumerator that identifies the desired property.
                 
 
 

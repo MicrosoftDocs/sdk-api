@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlCaptureContext, RtlCaptureContext function, base.rtlcapturecontext, winnt/RtlCaptureContext
 ms.topic: function
-f1_keywords: 
- - "winnt/RtlCaptureContext"
+f1_keywords:
+- winnt/RtlCaptureContext
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-rtlsupport-l1-1-0.dll
- - ntdll.dll
- - API-MS-Win-Core-rtlsupport-l1-2-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-rtlsupport-l1-1-0.dll
+- ntdll.dll
+- API-MS-Win-Core-rtlsupport-l1-2-0.dll
 api_name:
- - RtlCaptureContext
+- RtlCaptureContext
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Retrieves a
 
 ### -param ContextRecord [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure.
 
 
 ## -returns
@@ -82,7 +82,7 @@ This function does not return a value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
 
 

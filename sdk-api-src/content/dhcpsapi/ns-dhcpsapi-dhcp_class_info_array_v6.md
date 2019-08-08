@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: b724ae08-4e18-4cad-9376-174acbd5b4f7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_CLASS_INFO_ARRAY_V6, DHCP_CLASS_INFO_ARRAY_V6, DHCP_CLASS_INFO_ARRAY_V6 structure [DHCP], PDHCP_CLASS_INFO_ARRAY_V6, PDHCP_CLASS_INFO_ARRAY_V6 structure pointer [DHCP], dhcp.dhcp_class_info_array_v6, dhcpsapi/DHCP_CLASS_INFO_ARRAY_V6, dhcpsapi/PDHCP_CLASS_INFO_ARRAY_V6"
+ms.keywords: '*LPDHCP_CLASS_INFO_ARRAY_V6, DHCP_CLASS_INFO_ARRAY_V6, DHCP_CLASS_INFO_ARRAY_V6 structure [DHCP], PDHCP_CLASS_INFO_ARRAY_V6, PDHCP_CLASS_INFO_ARRAY_V6 structure pointer [DHCP], dhcp.dhcp_class_info_array_v6, dhcpsapi/DHCP_CLASS_INFO_ARRAY_V6, dhcpsapi/PDHCP_CLASS_INFO_ARRAY_V6'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_CLASS_INFO_ARRAY_V6"
+f1_keywords:
+- dhcpsapi/DHCP_CLASS_INFO_ARRAY_V6
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_CLASS_INFO_ARRAY_V6
+- DHCP_CLASS_INFO_ARRAY_V6
 product: Windows
 targetos: Windows
 req.typenames: DHCP_CLASS_INFO_ARRAY_V6, *LPDHCP_CLASS_INFO_ARRAY_V6
@@ -68,7 +68,7 @@ This is of type <b>DWORD</b>, specifying the number of classes whose information
 
 ### -field Classes
 
-A pointer to an array of structures <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_class_info_v6">DHCP_CLASS_INFO_V6</a> (section 2.2.1.2.70) that contains information regarding the various user classes and vendor classes.
+A pointer to an array of structures <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_class_info_v6">DHCP_CLASS_INFO_V6</a> (section 2.2.1.2.70) that contains information regarding the various user classes and vendor classes.
 
 
 ### -field Classes.size_is
@@ -88,7 +88,7 @@ A pointer to an array of structures <a href="https://docs.microsoft.com/previous
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_class_info_v6">DHCP_CLASS_INFO_V6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_class_info_v6">DHCP_CLASS_INFO_V6</a>
  
 
  

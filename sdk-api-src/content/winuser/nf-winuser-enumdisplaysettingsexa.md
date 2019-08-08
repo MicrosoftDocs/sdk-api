@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EDS_RAWMODE, EDS_ROTATEDMODE, ENUM_CURRENT_SETTINGS, ENUM_REGISTRY_SETTINGS, EnumDisplaySettingsEx, EnumDisplaySettingsEx function [Windows GDI], EnumDisplaySettingsExA, EnumDisplaySettingsExW, _win32_EnumDisplaySettingsEx, gdi.enumdisplaysettingsex, winuser/EnumDisplaySettingsEx, winuser/EnumDisplaySettingsExA, winuser/EnumDisplaySettingsExW
 ms.topic: function
-f1_keywords: 
- - "winuser/EnumDisplaySettingsEx"
+f1_keywords:
+- winuser/EnumDisplaySettingsEx
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
- - minuser.dll
- - api-ms-win-ntuser-sysparams-l1-1-0.dll
+- user32.dll
+- Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
+- minuser.dll
+- api-ms-win-ntuser-sysparams-l1-1-0.dll
 api_name:
- - EnumDisplaySettingsEx
- - EnumDisplaySettingsExA
- - EnumDisplaySettingsExW
+- EnumDisplaySettingsEx
+- EnumDisplaySettingsExA
+- EnumDisplaySettingsExW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ This function differs from <a href="https://docs.microsoft.com/windows/desktop/a
 
 A pointer to a null-terminated string that specifies the display device about which graphics mode the function will obtain information.
 
-This parameter is either <b>NULL</b> or a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_display_devicea">DISPLAY_DEVICE</a>.<b>DeviceName</b> returned from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>. A <b>NULL</b> value specifies the current display device on the computer that the calling thread is running on.
+This parameter is either <b>NULL</b> or a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-display_devicea">DISPLAY_DEVICE</a>.<b>DeviceName</b> returned from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>. A <b>NULL</b> value specifies the current display device on the computer that the calling thread is running on.
 
 
 ### -param iModeNum [in]
@@ -209,7 +209,7 @@ This API does not participate in DPI virtualization. The output given is always 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_display_devicea">DISPLAY_DEVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-display_devicea">DISPLAY_DEVICE</a>
 
 
 

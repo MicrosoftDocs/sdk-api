@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RAS_EAP_FLAG_8021X_AUTH, RAS_EAP_FLAG_FIRST_LINK, RAS_EAP_FLAG_LOGON, RAS_EAP_FLAG_MACHINE_AUTH, RAS_EAP_FLAG_NON_INTERACTIVE, RAS_EAP_FLAG_PREVIEW, RAS_EAP_FLAG_ROUTER, RasEapGetIdentity, RasEapGetIdentity callback, RasEapGetIdentity callback function [EAP], _eap_raseapgetidentity, eap.raseapgetidentity, raseapif/RasEapGetIdentity
 ms.topic: function
-f1_keywords: 
- - "raseapif/RasEapGetIdentity"
+f1_keywords:
+- raseapif/RasEapGetIdentity
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Raseapif.h
+- Raseapif.h
 api_name:
- - RasEapGetIdentity
+- RasEapGetIdentity
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -187,7 +187,7 @@ Specifies the size of the user-specific data currently stored for this user in t
 ### -param ppUserDataOut [out]
 
 Pointer to a pointer that, on successful return, points to the identity data for the user. This data will be passed to the authentication protocol in the <b>pUserData</b> member of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_input">PPP_EAP_INPUT</a> during the call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_input">PPP_EAP_INPUT</a> during the call to 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a>. 
 
 
@@ -205,7 +205,7 @@ Pointer to a <b>DWORD</b> variable that receives the size of the data pointed to
 ### -param ppwszIdentityOut [out]
 
 Pointer to a pointer that, on successful return, points to a null-terminated Unicode string that identifies the user requesting authentication. This string is passed to the authentication protocol in the <b>pszIdentity</b> member of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_input">PPP_EAP_INPUT</a> during the call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_input">PPP_EAP_INPUT</a> during the call to 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a>.
 
 
@@ -238,9 +238,9 @@ The IEEE 802.1X and PPP protocols do not call
 
 The authentication protocol receives the data returned from 
 <b>RasEapGetIdentity</b> in the <b>pUserData</b> member of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_input">PPP_EAP_INPUT</a> during 
+<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_input">PPP_EAP_INPUT</a> during 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a>. To store the data for this user in the registry, the authentication protocol should set the <b>pUserData</b> member of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_output">PPP_EAP_OUTPUT</a> to point to the data, and the <b>fSaveUserData</b> member of 
+<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_output">PPP_EAP_OUTPUT</a> to point to the data, and the <b>fSaveUserData</b> member of 
 <b>PPP_EAP_OUTPUT</b> to <b>TRUE</b>.
 
 This function is called by the RAS function, 
@@ -271,7 +271,7 @@ If
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_input">PPP_EAP_INPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_input">PPP_EAP_INPUT</a>
 
 
 

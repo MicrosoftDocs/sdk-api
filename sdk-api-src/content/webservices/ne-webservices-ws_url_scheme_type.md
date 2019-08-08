@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_URL_HTTPS_SCHEME_TYPE, WS_URL_HTTP_SCHEME_TYPE, WS_URL_NETPIPE_SCHEME_TYPE, WS_URL_NETTCP_SCHEME_TYPE, WS_URL_SCHEME_TYPE, WS_URL_SCHEME_TYPE enumeration [Web Services for Windows], WS_URL_SOAPUDP_SCHEME_TYPE, webservices/WS_URL_HTTPS_SCHEME_TYPE, webservices/WS_URL_HTTP_SCHEME_TYPE, webservices/WS_URL_NETPIPE_SCHEME_TYPE, webservices/WS_URL_NETTCP_SCHEME_TYPE, webservices/WS_URL_SCHEME_TYPE, webservices/WS_URL_SOAPUDP_SCHEME_TYPE, wsw.ws_url_scheme_type
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_URL_SCHEME_TYPE"
+f1_keywords:
+- webservices/WS_URL_SCHEME_TYPE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_URL_SCHEME_TYPE
+- WS_URL_SCHEME_TYPE
 product: Windows
 targetos: Windows
 req.typenames: WS_URL_SCHEME_TYPE
@@ -63,25 +63,25 @@ The set of schemes used with <a href="https://docs.microsoft.com/windows/desktop
 
 ### -field WS_URL_HTTP_SCHEME_TYPE
 
-Denotes the "http" scheme: <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_url">WS_HTTP_URL</a>
+Denotes the "http" scheme: <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_url">WS_HTTP_URL</a>
 
 
 
 ### -field WS_URL_HTTPS_SCHEME_TYPE
 
-Denotes the "https" scheme: <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_https_url">WS_HTTPS_URL</a>
+Denotes the "https" scheme: <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_https_url">WS_HTTPS_URL</a>
 
 
 
 ### -field WS_URL_NETTCP_SCHEME_TYPE
 
-Denotes the "net.tcp" scheme: <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_nettcp_url">WS_NETTCP_URL</a>
+Denotes the "net.tcp" scheme: <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_nettcp_url">WS_NETTCP_URL</a>
 
 
 
 ### -field WS_URL_SOAPUDP_SCHEME_TYPE
 
-Denotes the "soap.udp" scheme: <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_soapudp_url">WS_SOAPUDP_URL</a>
+Denotes the "soap.udp" scheme: <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_soapudp_url">WS_SOAPUDP_URL</a>
 
 
 

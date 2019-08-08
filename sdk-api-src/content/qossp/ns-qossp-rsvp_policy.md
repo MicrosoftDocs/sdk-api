@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: e23cd113-6fa1-479b-85c2-7690055e57e7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPRSVP_POLICY, *LPRSVP_POLICY structure [QOS], RSVP_POLICY, RSVP_POLICY structure [QOS], qos.rsvp_policy, qossp/*LPRSVP_POLICY, qossp/RSVP_POLICY"
+ms.keywords: '*LPRSVP_POLICY, *LPRSVP_POLICY structure [QOS], RSVP_POLICY, RSVP_POLICY structure [QOS], qos.rsvp_policy, qossp/*LPRSVP_POLICY, qossp/RSVP_POLICY'
 ms.topic: struct
-f1_keywords: 
- - "qossp/RSVP_POLICY"
+f1_keywords:
+- qossp/RSVP_POLICY
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qossp.h
+- Qossp.h
 api_name:
- - RSVP_POLICY
+- RSVP_POLICY
 product: Windows
 targetos: Windows
 req.typenames: RSVP_POLICY, *LPRSVP_POLICY
@@ -88,7 +88,7 @@ RSVP transports the data contained in an <b>RSVP_POLICY</b> structure on behalf 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_policy_info">RSVP_POLICY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_policy_info">RSVP_POLICY_INFO</a>
  
 
  

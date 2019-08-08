@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerStoreQueryReportMetadataV2, WerStoreQueryReportMetadataV2 function [Windows Error Reporting], wer.werstorequeryreportmetadatav2, werapi/WerStoreQueryReportMetadataV2
 ms.topic: function
-f1_keywords: 
- - "werapi/WerStoreQueryReportMetadataV2"
+f1_keywords:
+- werapi/WerStoreQueryReportMetadataV2
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Wer.lib
 req.dll: Wer.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wer.dll
- - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
- - KernelBase.dll
+- wer.dll
+- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - WerStoreQueryReportMetadataV2
+- WerStoreQueryReportMetadataV2
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ The string identifying which report is being queried (previously retrieved with 
 
 ### -param pReportMetadata
 
-A pointer to the report store metadata in the form of a <a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-_wer_report_metadata_v2">WER_REPORT_METADATA_V2</a> structure. The field <b>SizeOfFileNames</b> should be set to 0 during the first call. The function updates this field with the required size to hold the file names associated with the report. The field <b>FileNames</b> should then be allocated with <b>SizeOfFileNames</b> bytes and the function should be called again to get all of the file names.
+A pointer to the report store metadata in the form of a <a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-wer_report_metadata_v2">WER_REPORT_METADATA_V2</a> structure. The field <b>SizeOfFileNames</b> should be set to 0 during the first call. The function updates this field with the required size to hold the file names associated with the report. The field <b>FileNames</b> should then be allocated with <b>SizeOfFileNames</b> bytes and the function should be called again to get all of the file names.
 
 
 ## -returns
@@ -105,7 +105,7 @@ One of the arguments is not a valid value.
 </dl>
 </td>
 <td width="60%">
-There is not enough memory available to retrieve the metadata. In this case, the caller should allocate memory of size <b>SizeOfFileNames</b> for the <b>FileNames</b> field, found in the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-_wer_report_metadata_v2">WER_REPORT_METADATA_V2</a> structure, and call the function again. 
+There is not enough memory available to retrieve the metadata. In this case, the caller should allocate memory of size <b>SizeOfFileNames</b> for the <b>FileNames</b> field, found in the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-wer_report_metadata_v2">WER_REPORT_METADATA_V2</a> structure, and call the function again. 
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ There is not enough memory available to retrieve the metadata. In this case, the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-_wer_report_metadata_v2">WER_REPORT_METADATA_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-wer_report_metadata_v2">WER_REPORT_METADATA_V2</a>
 
 
 

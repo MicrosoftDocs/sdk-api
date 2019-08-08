@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 382838B9-C15E-459F-AC40-ECA15EFC18B8
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_SNI_SET, HTTP_SERVICE_CONFIG_SSL_SNI_SET, HTTP_SERVICE_CONFIG_SSL_SNI_SET structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_SNI_SET, PHTTP_SERVICE_CONFIG_SSL_SNI_SET structure pointer [HTTP], http.http_service_config_ssl_sni_set, http/HTTP_SERVICE_CONFIG_SSL_SNI_SET, http/PHTTP_SERVICE_CONFIG_SSL_SNI_SET"
+ms.keywords: '*PHTTP_SERVICE_CONFIG_SSL_SNI_SET, HTTP_SERVICE_CONFIG_SSL_SNI_SET, HTTP_SERVICE_CONFIG_SSL_SNI_SET structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_SNI_SET, PHTTP_SERVICE_CONFIG_SSL_SNI_SET structure pointer [HTTP], http.http_service_config_ssl_sni_set, http/HTTP_SERVICE_CONFIG_SSL_SNI_SET, http/PHTTP_SERVICE_CONFIG_SSL_SNI_SET'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_SERVICE_CONFIG_SSL_SNI_SET"
+f1_keywords:
+- http/HTTP_SERVICE_CONFIG_SSL_SNI_SET
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_SERVICE_CONFIG_SSL_SNI_SET
+- HTTP_SERVICE_CONFIG_SSL_SNI_SET
 product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_SSL_SNI_SET, *PHTTP_SERVICE_CONFIG_SSL_SNI_SET
@@ -64,12 +64,12 @@ The
 
 ### -field KeyDesc
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_sni_key">HTTP_SERVICE_CONFIG_SSL_SNI_KEY</a> structure that identifies the SSL SNI certificate record.
+An <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_sni_key">HTTP_SERVICE_CONFIG_SSL_SNI_KEY</a> structure that identifies the SSL SNI certificate record.
 
 
 ### -field ParamDesc
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_param">HTTP_SERVICE_CONFIG_SSL_PARAM</a> structure that holds the contents of the specified SSL SNI certificate record.
+An <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_param">HTTP_SERVICE_CONFIG_SSL_PARAM</a> structure that holds the contents of the specified SSL SNI certificate record.
 
 
 ## -see-also
@@ -77,11 +77,11 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_se
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_sni_key">HTTP_SERVICE_CONFIG_SSL_SNI_KEY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_sni_key">HTTP_SERVICE_CONFIG_SSL_SNI_KEY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_config_ssl_sni_query">HTTP_SERVICE_CONFIG_SSL_SNI_QUERY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_sni_query">HTTP_SERVICE_CONFIG_SSL_SNI_QUERY</a>
 
 
 

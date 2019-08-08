@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvRealizeBrush, DrvRealizeBrush function [Display Devices], ddifncs_efd25952-e672-493f-80e5-19edbac7df0e.xml, display.drvrealizebrush, winddi/DrvRealizeBrush
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvRealizeBrush"
+f1_keywords:
+- winddi/DrvRealizeBrush
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvRealizeBrush
+- DrvRealizeBrush
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,12 +61,12 @@ The <b>DrvRealizeBrush</b> function requests that the driver realize a specified
 
 ### -param pbo [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_brushobj">BRUSHOBJ</a> structure that is to be realized. All other parameters, except for <i>psoTarget</i>, can be queried from this object. Parameter specifications are provided as an optimization. This parameter is best used only as a parameter for <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-brushobj_pvallocrbrush">BRUSHOBJ_pvAllocRbrush</a>, which allocates the memory for the realized brush.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-brushobj">BRUSHOBJ</a> structure that is to be realized. All other parameters, except for <i>psoTarget</i>, can be queried from this object. Parameter specifications are provided as an optimization. This parameter is best used only as a parameter for <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-brushobj_pvallocrbrush">BRUSHOBJ_pvAllocRbrush</a>, which allocates the memory for the realized brush.
 
 
 ### -param psoTarget [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure for which the brush is to be realized. This surface can be the physical surface for the device, a device format bitmap, or a standard format bitmap.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure for which the brush is to be realized. This surface can be the physical surface for the device, a device format bitmap, or a standard format bitmap.
 
 
 ### -param psoPattern [in]
@@ -81,7 +81,7 @@ Pointer to a SURFOBJ structure that describes a transparency mask for the brush.
 
 ### -param pxlo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_xlateobj">XLATEOBJ</a> structure that defines the interpretration of colors in the pattern. If <i>pxlo</i> is <b>NULL</b>, no translation is needed. A XLATEOBJ_<i>Xxx</i> service routine can be called to translate the colors to device color indices. Vector devices should translate color zero through the XLATEOBJ to get the foreground color for the brush.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure that defines the interpretration of colors in the pattern. If <i>pxlo</i> is <b>NULL</b>, no translation is needed. A XLATEOBJ_<i>Xxx</i> service routine can be called to translate the colors to device color indices. Vector devices should translate color zero through the XLATEOBJ to get the foreground color for the brush.
 
 
 ### -param iHatch [in]
@@ -116,7 +116,7 @@ The driver's realization of a brush is written into the buffer allocated by a ca
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_brushobj">BRUSHOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-brushobj">BRUSHOBJ</a>
 
 
 
@@ -128,7 +128,7 @@ The driver's realization of a brush is written into the buffer allocated by a ca
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_xlateobj">XLATEOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>
  
 
  

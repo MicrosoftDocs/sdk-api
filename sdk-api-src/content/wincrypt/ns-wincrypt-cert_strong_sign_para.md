@@ -2,16 +2,16 @@
 UID: NS:wincrypt._CERT_STRONG_SIGN_PARA
 title: CERT_STRONG_SIGN_PARA (wincrypt.h)
 author: windows-sdk-content
-description: Contains parameters used to check for strong signatures on certificates, certificate revocation lists (CRLs), online certificate status protocol (OCSP) responses, and PKCS #7 messages.
+description: Contains parameters used to check for strong signatures on certificates, certificate revocation lists (CRLs), online certificate status protocol (OCSP) responses, and PKCS
 old-location: security\cert_strong_sign_para.htm
 tech.root: SecCrypto
 ms.assetid: 12D9F82C-F484-43B0-BD55-F07321058671
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_STRONG_SIGN_PARA, CERT_STRONG_SIGN_PARA, CERT_STRONG_SIGN_PARA structure [Security], PCCERT_STRONG_SIGN_PARA, PCCERT_STRONG_SIGN_PARA structure pointer [Security], PCERT_STRONG_SIGN_PARA, PCERT_STRONG_SIGN_PARA structure pointer [Security], security.cert_strong_sign_para, szOID_CERT_STRONG_KEY_OS_1, szOID_CERT_STRONG_SIGN_OS_1, wincrypt/CERT_STRONG_SIGN_PARA, wincrypt/PCCERT_STRONG_SIGN_PARA, wincrypt/PCERT_STRONG_SIGN_PARA"
+ms.keywords: '*PCERT_STRONG_SIGN_PARA, CERT_STRONG_SIGN_PARA, CERT_STRONG_SIGN_PARA structure [Security], PCCERT_STRONG_SIGN_PARA, PCCERT_STRONG_SIGN_PARA structure pointer [Security], PCERT_STRONG_SIGN_PARA, PCERT_STRONG_SIGN_PARA structure pointer [Security], security.cert_strong_sign_para, szOID_CERT_STRONG_KEY_OS_1, szOID_CERT_STRONG_SIGN_OS_1, wincrypt/CERT_STRONG_SIGN_PARA, wincrypt/PCCERT_STRONG_SIGN_PARA, wincrypt/PCERT_STRONG_SIGN_PARA'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_STRONG_SIGN_PARA"
+f1_keywords:
+- wincrypt/CERT_STRONG_SIGN_PARA
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_STRONG_SIGN_PARA
+- CERT_STRONG_SIGN_PARA
 product: Windows
 targetos: Windows
 req.typenames: CERT_STRONG_SIGN_PARA, *PCERT_STRONG_SIGN_PARA
@@ -103,7 +103,7 @@ Reserved.
 
 ### -field DUMMYUNIONNAME.pSerializedInfo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_serialized_info">CERT_STRONG_SIGN_SERIALIZED_INFO</a> structure that specifies the parameters.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_serialized_info">CERT_STRONG_SIGN_SERIALIZED_INFO</a> structure that specifies the parameters.
 
 
 ### -field DUMMYUNIONNAME.pszOID
@@ -176,7 +176,7 @@ The <b>CERT_STRONG_SIGN_PARA</b> structure is directly referenced by the followi
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgverifycountersignatureencodedex">CryptMsgVerifyCountersignatureEncodedEx</a>
 </li>
 </ul>
-The <b>CERT_STRONG_SIGN_PARA</b> structure is also directly referenced by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_verify_message_para">CRYPT_VERIFY_MESSAGE_PARA</a> structure and is therefore available for use by the following functions:
+The <b>CERT_STRONG_SIGN_PARA</b> structure is also directly referenced by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_verify_message_para">CRYPT_VERIFY_MESSAGE_PARA</a> structure and is therefore available for use by the following functions:
 
 <ul>
 <li>
@@ -192,7 +192,7 @@ The <b>CERT_STRONG_SIGN_PARA</b> structure is also directly referenced by the <a
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignature">CryptVerifyMessageSignature</a>
 </li>
 </ul>
-Finally, the <b>CERT_STRONG_SIGN_PARA</b> structure is directly referenced by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_para">CERT_CHAIN_PARA</a> structure and is therefore available for use by the following functions:
+Finally, the <b>CERT_STRONG_SIGN_PARA</b> structure is directly referenced by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_para">CERT_CHAIN_PARA</a> structure and is therefore available for use by the following functions:
 
 <ul>
 <li>
@@ -210,7 +210,7 @@ Finally, the <b>CERT_STRONG_SIGN_PARA</b> structure is directly referenced by th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_serialized_info">CERT_STRONG_SIGN_SERIALIZED_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_serialized_info">CERT_STRONG_SIGN_SERIALIZED_INFO</a>
  
 
  

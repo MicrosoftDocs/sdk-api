@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TaskDialogIndirect, TaskDialogIndirect function [Windows Controls], _shell_TaskDialogIndirect, _shell_TaskDialogIndirect_cpp, commctrl/TaskDialogIndirect, controls.TaskDialogIndirect, controls._shell_TaskDialogIndirect
 ms.topic: function
-f1_keywords: 
- - "commctrl/TaskDialogIndirect"
+f1_keywords:
+- commctrl/TaskDialogIndirect
 req.header: commctrl.h
 req.include-header: Commctrl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll (version 6)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - TaskDialogIndirect
+- TaskDialogIndirect
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ The <b>TaskDialogIndirect</b> function creates, displays, and operates a task di
 
 ### -param pTaskConfig [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_taskdialogconfig">TASKDIALOGCONFIG</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_taskdialogconfig">TASKDIALOGCONFIG</a> structure that contains information used to display the task dialog.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a> structure that contains information used to display the task dialog.
 
 
 ### -param pnButton [out, optional]
@@ -211,7 +211,7 @@ The operation failed.
 
 
 
-When you use a task dialog box to indicate that the system is low on memory, the strings pointed to by the various string and icon members in the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_taskdialogconfig">TASKDIALOGCONFIG</a> structure should not be taken from a resource file since an attempt to load the resource may fail.
+When you use a task dialog box to indicate that the system is low on memory, the strings pointed to by the various string and icon members in the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a> structure should not be taken from a resource file since an attempt to load the resource may fail.
 
  If you create a task dialog while a dialog box is present, use a handle to the dialog box as the <i>hWndParent</i> parameter. The <i>hWndParent</i> parameter should not identify a child window, such as a control in a dialog box. 
 

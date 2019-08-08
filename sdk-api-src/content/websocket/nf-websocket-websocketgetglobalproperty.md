@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WebSocketGetGlobalProperty, WebSocketGetGlobalProperty function [Websocket Protocol Component API], websock.websocketgetglobalproperty, websocket/WebSocketGetGlobalProperty
 ms.topic: function
-f1_keywords: 
- - "websocket/WebSocketGetGlobalProperty"
+f1_keywords:
+- websocket/WebSocketGetGlobalProperty
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Websocket.lib
 req.dll: Websocket.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Websocket.dll
+- Websocket.dll
 api_name:
- - WebSocketGetGlobalProperty
+- WebSocketGetGlobalProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>WebSocketGetGlobalProperty</b> function  gets a single WebSocket property
 
 ### -param eType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_property">WEB_SOCKET_PROPERTY</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_property">WEB_SOCKET_PROPERTY</a></b>
 
 A WebSocket property.
 
@@ -98,11 +98,11 @@ If the function fails, it returns a <a href="https://docs.microsoft.com/windows/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_property">WEB_SOCKET_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_property">WEB_SOCKET_PROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-_web_socket_property_type">WEB_SOCKET_PROPERTY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_property_type">WEB_SOCKET_PROPERTY_TYPE</a>
  
 
  

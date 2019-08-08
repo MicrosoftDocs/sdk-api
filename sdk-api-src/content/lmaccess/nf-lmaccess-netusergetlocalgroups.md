@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, NetUserGetLocalGroups, NetUserGetLocalGroups function [Network Management], _win32_netusergetlocalgroups, lmaccess/NetUserGetLocalGroups, netmgmt.netusergetlocalgroups
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetUserGetLocalGroups"
+f1_keywords:
+- lmaccess/NetUserGetLocalGroups
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetUserGetLocalGroups
+- NetUserGetLocalGroups
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -92,7 +92,7 @@ The information level of the data. This parameter can be the following value.
 </td>
 <td width="60%">
 Return the names of the local groups to which the user belongs. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_users_info_0">LOCALGROUP_USERS_INFO_0</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_users_info_0">LOCALGROUP_USERS_INFO_0</a> structures.
 
 </td>
 </tr>
@@ -259,7 +259,7 @@ User account names are limited to 20 characters and group names are limited to 2
 
 The following code sample demonstrates how to retrieve a list of the local groups to which a user belongs with a call to the 
 <b>NetUserGetLocalGroups</b> function. The sample calls 
-<b>NetUserGetLocalGroups</b>, specifying information level 0 (<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_users_info_0">LOCALGROUP_USERS_INFO_0</a>). The sample loops through the entries and prints the name of each local group in which the user has membership. If all available entries are not enumerated, it also prints the number of entries actually enumerated and the total number of entries available. Finally, the code sample frees the memory allocated for the information buffer.
+<b>NetUserGetLocalGroups</b>, specifying information level 0 (<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_users_info_0">LOCALGROUP_USERS_INFO_0</a>). The sample loops through the entries and prints the name of each local group in which the user has membership. If all available entries are not enumerated, it also prints the number of entries actually enumerated and the total number of entries available. Finally, the code sample frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -371,7 +371,7 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_users_info_0">LOCALGROUP_USERS_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_users_info_0">LOCALGROUP_USERS_INFO_0</a>
 
 
 

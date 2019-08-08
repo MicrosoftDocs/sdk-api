@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetOutputRect method, IVMRMixerControl9.SetOutputRect, IVMRMixerControl9::SetOutputRect, IVMRMixerControl9SetOutputRect, SetOutputRect, SetOutputRect method [DirectShow], SetOutputRect method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setoutputrect, vmr9/IVMRMixerControl9::SetOutputRect
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRMixerControl9.SetOutputRect"
+f1_keywords:
+- vmr9/IVMRMixerControl9.SetOutputRect
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMixerControl9.SetOutputRect
+- IVMRMixerControl9.SetOutputRect
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ Specifies the input stream. This value corresponds to the input pin. For example
 
 ### -param pRect [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9normalizedrect">VMR9NormalizedRect</a> structure that specifies the position of the rectangle with composition space.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9normalizedrect">VMR9NormalizedRect</a> structure that specifies the position of the rectangle with composition space.
 
 
 ## -returns

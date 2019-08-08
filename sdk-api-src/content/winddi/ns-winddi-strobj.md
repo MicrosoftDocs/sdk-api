@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STROBJ, STROBJ structure [Display Devices], display.strobj, grstrcts_fcaba370-f9bd-40e8-819a-c5277d6d89b6.xml, winddi/STROBJ
 ms.topic: struct
-f1_keywords: 
- - "winddi/STROBJ"
+f1_keywords:
+- winddi/STROBJ
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - STROBJ
+- STROBJ
 product: Windows
 targetos: Windows
 req.typenames: STROBJ
@@ -180,12 +180,12 @@ Specifies whether the font is a fixed-pitch (monospace) font. If it is, this mem
 
 ### -field rclBkGround
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that describes the bounding box for the string.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that describes the bounding box for the string.
 
 
 ### -field pgp
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphpos">GLYPHPOS</a> array for the whole string. Can be <b>NULL</b> (see the following <b>Remarks</b> section).
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphpos">GLYPHPOS</a> array for the whole string. Can be <b>NULL</b> (see the following <b>Remarks</b> section).
 
 
 ### -field pwszOrg

@@ -8,10 +8,10 @@ tech.root: perfctrs
 ms.assetid: 9ed4f890-6256-45fd-a310-b5963a6131ae
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPERF_OBJECT_TYPE, PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PERF_OBJECT_TYPE, PERF_OBJECT_TYPE structure [Perf], _win32_perf_object_type_str, base.perf_object_type_str, perf.perf_object_type_str, winperf/PERF_OBJECT_TYPE"
+ms.keywords: '*PPERF_OBJECT_TYPE, PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PERF_OBJECT_TYPE, PERF_OBJECT_TYPE structure [Perf], _win32_perf_object_type_str, base.perf_object_type_str, perf.perf_object_type_str, winperf/PERF_OBJECT_TYPE'
 ms.topic: struct
-f1_keywords: 
- - "winperf/PERF_OBJECT_TYPE"
+f1_keywords:
+- winperf/PERF_OBJECT_TYPE
 req.header: winperf.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winperf.h
+- Winperf.h
 api_name:
- - PERF_OBJECT_TYPE
+- PERF_OBJECT_TYPE
 product: Windows
 targetos: Windows
 req.typenames: PERF_OBJECT_TYPE, *PPERF_OBJECT_TYPE
@@ -68,16 +68,16 @@ Size of the object-specific data, in bytes. This member is the offset from the b
 ### -field DefinitionLength
 
 Size of this structure plus the size of all the  
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_counter_definition">PERF_COUNTER_DEFINITION</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_counter_definition">PERF_COUNTER_DEFINITION</a> structures.
 
 If the object is a multiple instance object (the <b>NumInstances</b> member is not zero), this member is the offset from the beginning of this structure to the first 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_instance_definition">PERF_INSTANCE_DEFINITION</a> structure. Otherwise, this value is the offset to the <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_counter_block">PERF_COUNTER_BLOCK</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_instance_definition">PERF_INSTANCE_DEFINITION</a> structure. Otherwise, this value is the offset to the <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_counter_block">PERF_COUNTER_BLOCK</a>.
 
 
 ### -field HeaderLength
 
 Size of this structure, in bytes. This member is the offset from the beginning of this structure to the first 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_counter_definition">PERF_COUNTER_DEFINITION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_counter_definition">PERF_COUNTER_DEFINITION</a> structure.
 
 
 ### -field ObjectNameTitleIndex
@@ -161,7 +161,7 @@ The counter data is provided for system designers.
 
 ### -field NumCounters
 
-Number of <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_counter_definition">PERF_COUNTER_DEFINITION</a> blocks returned by the object.
+Number of <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_counter_definition">PERF_COUNTER_DEFINITION</a> blocks returned by the object.
 
 
 ### -field DefaultCounter
@@ -183,14 +183,14 @@ This member is zero if the instance strings are Unicode strings. Otherwise, this
 
 Provider generated timestamp that consumers use when calculating counter values. For example, this could be the current value, in counts, of the high-resolution performance counter.
 
-Providers need to provide this value if the counter types of their counters include the <b>PERF_OBJECT_TIMER</b> flag. Otherwise, consumers use the <b>PerfTime</b> value from <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_data_block">PERF_DATA_BLOCK</a>.
+Providers need to provide this value if the counter types of their counters include the <b>PERF_OBJECT_TIMER</b> flag. Otherwise, consumers use the <b>PerfTime</b> value from <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_data_block">PERF_DATA_BLOCK</a>.
 
 
 ### -field PerfFreq
 
 Provider generated frequency value that consumers use when calculating counter values. For example, this could be the current frequency, in counts per second, of the high-resolution performance counter.
 
-Providers need to provide this value if the counter types of their counters include the <b>PERF_OBJECT_TIMER</b> flag. Otherwise, consumers use the <b>PerfFreq</b> value from <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_data_block">PERF_DATA_BLOCK</a>.
+Providers need to provide this value if the counter types of their counters include the <b>PERF_OBJECT_TIMER</b> flag. Otherwise, consumers use the <b>PerfFreq</b> value from <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_data_block">PERF_DATA_BLOCK</a>.
 
 
 ## -remarks
@@ -200,7 +200,7 @@ Providers need to provide this value if the counter types of their counters incl
 Providers use this structure to provide performance data for objects that they support. Consumers use this structure to consume performance data for objects that they queried.
 
  This structure is followed by a list of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_counter_definition">PERF_COUNTER_DEFINITION</a> structures, one for each counter defined for the performance object.
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_counter_definition">PERF_COUNTER_DEFINITION</a> structures, one for each counter defined for the performance object.
 		For details on the layout of the performance data block, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>.
 
 
@@ -211,11 +211,11 @@ Providers use this structure to provide performance data for objects that they s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_counter_definition">PERF_COUNTER_DEFINITION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_counter_definition">PERF_COUNTER_DEFINITION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_data_block">PERF_DATA_BLOCK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_data_block">PERF_DATA_BLOCK</a>
 
 
 

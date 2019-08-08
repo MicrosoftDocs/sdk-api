@@ -8,10 +8,10 @@ tech.root: Nps
 ms.assetid: 7c6e1a41-9736-4bd3-b709-779d871ead57
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRADIUS_ATTRIBUTE, PRADIUS_ATTRIBUTE, PRADIUS_ATTRIBUTE structure pointer [Network Policy Server], RADIUS_ATTRIBUTE, RADIUS_ATTRIBUTE structure [Network Policy Server], _ias_radius_attribute, authif/PRADIUS_ATTRIBUTE, authif/RADIUS_ATTRIBUTE, ias.radius_attribute, nps.IAS_radius_attribute"
+ms.keywords: '*PRADIUS_ATTRIBUTE, PRADIUS_ATTRIBUTE, PRADIUS_ATTRIBUTE structure pointer [Network Policy Server], RADIUS_ATTRIBUTE, RADIUS_ATTRIBUTE structure [Network Policy Server], _ias_radius_attribute, authif/PRADIUS_ATTRIBUTE, authif/RADIUS_ATTRIBUTE, ias.radius_attribute, nps.IAS_radius_attribute'
 ms.topic: struct
-f1_keywords: 
- - "authif/RADIUS_ATTRIBUTE"
+f1_keywords:
+- authif/RADIUS_ATTRIBUTE
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AuthIf.h
+- AuthIf.h
 api_name:
- - RADIUS_ATTRIBUTE
+- RADIUS_ATTRIBUTE
 product: Windows
 targetos: Windows
 req.typenames: RADIUS_ATTRIBUTE, *PRADIUS_ATTRIBUTE
@@ -63,14 +63,14 @@ ms.custom: 19H1
 ### -field dwAttrType
 
 Stores a value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_attribute_type">RADIUS_ATTRIBUTE_TYPE</a> enumeration. This value specifies the type of the attribute represented by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_attribute_type">RADIUS_ATTRIBUTE_TYPE</a> enumeration. This value specifies the type of the attribute represented by the 
 <b>RADIUS_ATTRIBUTE</b> structure.
 
 
 ### -field fDataType
 
 Stores a value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_data_type">RADIUS_DATA_TYPE</a> enumeration. This value specifies the type of the value stored in the union that contains the <b>dwValue</b> and <b>lpValue</b> members.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_data_type">RADIUS_DATA_TYPE</a> enumeration. This value specifies the type of the value stored in the union that contains the <b>dwValue</b> and <b>lpValue</b> members.
 
 
 ### -field cbDataLength
@@ -107,11 +107,11 @@ Stores a multi-byte data value. The <b>lpValue</b> member is used if the <b>fDat
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_attribute_type">RADIUS_ATTRIBUTE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_attribute_type">RADIUS_ATTRIBUTE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_data_type">RADIUS_DATA_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-radius_data_type">RADIUS_DATA_TYPE</a>
  
 
  

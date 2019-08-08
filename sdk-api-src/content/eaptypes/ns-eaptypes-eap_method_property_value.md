@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE, EAP_METHOD_PROPERTY_VALUE union [EAPHost], eaphost.eap_method_property_value, eaptypes/EAP_METHOD_PROPERTY_VALUE
 ms.topic: struct
-f1_keywords: 
- - "eaptypes/EAP_METHOD_PROPERTY_VALUE"
+f1_keywords:
+- eaptypes/EAP_METHOD_PROPERTY_VALUE
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - EapTypes.h
+- EapTypes.h
 api_name:
- - EAP_METHOD_PROPERTY_VALUE
+- EAP_METHOD_PROPERTY_VALUE
 product: Windows
 targetos: Windows
 req.typenames: EAP_METHOD_PROPERTY_VALUE
@@ -63,7 +63,7 @@ The <b>EAP_METHOD_PROPERTY_VALUE</b> union contains the value of an EAP method p
 
 case(<i>empvtBool</i>)
 
-If  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property">eapMethodPropertyValueType</a> specifies a Boolean type (<i>empvtBool</i>), the data pointed to by this parameter is defined by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property_value_bool">EAP_METHOD_PROPERTY_VALUE_BOOL</a> structure.
+If  <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property">eapMethodPropertyValueType</a> specifies a Boolean type (<i>empvtBool</i>), the data pointed to by this parameter is defined by the <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property_value_bool">EAP_METHOD_PROPERTY_VALUE_BOOL</a> structure.
 
 
 ### -field case
@@ -80,7 +80,7 @@ If  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ea
 
 case(<i>empvDword</i>)
 
-If <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property">eapMethodPropertyValueType</a> specifies a DWORD type (empvtDword), the data pointed to by this parameter is defined by the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property_value_dword">EAP_METHOD_PROPERTY_VALUE_DWORD</a> structure.
+If <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property">eapMethodPropertyValueType</a> specifies a DWORD type (empvtDword), the data pointed to by this parameter is defined by the  <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property_value_dword">EAP_METHOD_PROPERTY_VALUE_DWORD</a> structure.
 
 
 ### -field case.empvtDword
@@ -92,7 +92,7 @@ If <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eap
 
 case(<i>empvString</i>)
 
-If <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property">eapMethodPropertyValueType</a> specifies a BYTE *(empvtString), the data pointed to by this parameter is defined by the   <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property_value_string">EAP_METHOD_PROPERTY_VALUE_STRING</a> structure.
+If <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property">eapMethodPropertyValueType</a> specifies a BYTE *(empvtString), the data pointed to by this parameter is defined by the   <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property_value_string">EAP_METHOD_PROPERTY_VALUE_STRING</a> structure.
 
 
 ### -field case.empvtString
@@ -121,7 +121,7 @@ If <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eap
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property">EAP_METHOD_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property">EAP_METHOD_PROPERTY</a>
 
 
 

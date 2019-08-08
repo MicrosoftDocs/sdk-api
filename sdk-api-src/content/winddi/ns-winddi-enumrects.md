@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ENUMRECTS, ENUMRECTS structure [Display Devices], display.enumrects, grstrcts_8ea2422f-1b57-4a7a-be86-adca8b830a36.xml, winddi/ENUMRECTS
 ms.topic: struct
-f1_keywords: 
- - "winddi/ENUMRECTS"
+f1_keywords:
+- winddi/ENUMRECTS
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - ENUMRECTS
+- ENUMRECTS
 product: Windows
 targetos: Windows
 req.typenames: ENUMRECTS
@@ -66,5 +66,5 @@ Specifies the number of RECTL structures in the <b>arcl</b> array.
 
 ### -field arcl
 
-Is an array of <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structures that specify the coordinates of rectangles in the clip region.
+Is an array of <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structures that specify the coordinates of rectangles in the clip region.
 

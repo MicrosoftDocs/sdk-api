@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS structure [Media Foundation], mf.opm_set_acp_and_cgmsa_signaling_parameters, opmapi/OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
 ms.topic: struct
-f1_keywords: 
- - "opmapi/OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS"
+f1_keywords:
+- opmapi/OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - opmapi.h
+- opmapi.h
 api_name:
- - OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
+- OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
 product: Windows
 targetos: Windows
 req.typenames: OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
@@ -76,7 +76,7 @@ A bitmask indicating which bits from <b>ulAspectRatioData1</b> to set in the sig
 
 ### -field ulAspectRatioData1
 
-Specifies the aspect ratio value to be set for the current protection standard. For EN 300 294, use the <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ne-opmapi-_opm_image_aspect_ratio_en300294">OPM_IMAGE_ASPECT_RATIO_EN300294</a> enumeration.
+Specifies the aspect ratio value to be set for the current protection standard. For EN 300 294, use the <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ne-opmapi-opm_image_aspect_ratio_en300294">OPM_IMAGE_ASPECT_RATIO_EN300294</a> enumeration.
 
 
 ### -field ulAspectRatioChangeMask2
@@ -118,7 +118,7 @@ Reserved for future use. Set to zero.
 
 
 
-The layout of this structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxva_coppsetsignalingcmddata">DXVA_COPPSetSignalingCmdData</a> structure used in Certified Output Protection Manager (COPP).
+The layout of this structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ns-dxva9typ-dxva_coppsetsignalingcmddata">DXVA_COPPSetSignalingCmdData</a> structure used in Certified Output Protection Manager (COPP).
 
 
 

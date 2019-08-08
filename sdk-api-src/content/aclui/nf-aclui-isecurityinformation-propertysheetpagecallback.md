@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation interface [Security],PropertySheetPageCallback method, ISecurityInformation.PropertySheetPageCallback, ISecurityInformation::PropertySheetPageCallback, PSPCB_CREATE, PSPCB_RELEASE, PSPCB_SI_INITDIALOG, PropertySheetPageCallback, PropertySheetPageCallback method [Security], PropertySheetPageCallback method [Security],ISecurityInformation interface, _win32_isecurityinformation_propertysheetpagecallback, aclui/ISecurityInformation::PropertySheetPageCallback, security.isecurityinformation_propertysheetpagecallback
 ms.topic: method
-f1_keywords: 
- - "aclui/ISecurityInformation.PropertySheetPageCallback"
+f1_keywords:
+- aclui/ISecurityInformation.PropertySheetPageCallback
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Aclui.h
+- Aclui.h
 api_name:
- - ISecurityInformation.PropertySheetPageCallback
+- ISecurityInformation.PropertySheetPageCallback
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -117,7 +117,7 @@ Indicates that a property page is being initialized.
 ### -param uPage [in]
 
 A value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ne-aclui-_si_page_type">SI_PAGE_TYPE</a> enumeration type that indicates the type of access control editor property page being created or destroyed.
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ne-aclui-si_page_type">SI_PAGE_TYPE</a> enumeration type that indicates the type of access control editor property page being created or destroyed.
 
 
 ## -returns
@@ -156,7 +156,7 @@ Returns a nonzero error code if an error occurs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ne-aclui-_si_page_type">SI_PAGE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ne-aclui-si_page_type">SI_PAGE_TYPE</a>
  
 
  

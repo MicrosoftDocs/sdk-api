@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: d3e76716-a8cc-4618-a85f-d8fb9ca3257e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCPV6PrefixLeaseInformation, *PDHCPV6PrefixLeaseInformation, DHCPV6PrefixLeaseInformation, DHCPV6PrefixLeaseInformation structure [DHCP], LPDHCPV6PrefixLeaseInformation, LPDHCPV6PrefixLeaseInformation structure pointer [DHCP], PDHCPV6PrefixLeaseInformation, PDHCPV6PrefixLeaseInformation structure pointer [DHCP], STATUS_NOPREFIX_AVAIL, STATUS_NO_BINDING, STATUS_NO_ERROR, STATUS_UNSPECIFIED_FAILURE, dhcp.dhcpv6prefixleaseinformation, dhcpv6csdk/DHCPV6PrefixLeaseInformation, dhcpv6csdk/LPDHCPV6PrefixLeaseInformation, dhcpv6csdk/PDHCPV6PrefixLeaseInformation"
+ms.keywords: '*LPDHCPV6PrefixLeaseInformation, *PDHCPV6PrefixLeaseInformation, DHCPV6PrefixLeaseInformation, DHCPV6PrefixLeaseInformation structure [DHCP], LPDHCPV6PrefixLeaseInformation, LPDHCPV6PrefixLeaseInformation structure pointer [DHCP], PDHCPV6PrefixLeaseInformation, PDHCPV6PrefixLeaseInformation structure pointer [DHCP], STATUS_NOPREFIX_AVAIL, STATUS_NO_BINDING, STATUS_NO_ERROR, STATUS_UNSPECIFIED_FAILURE, dhcp.dhcpv6prefixleaseinformation, dhcpv6csdk/DHCPV6PrefixLeaseInformation, dhcpv6csdk/LPDHCPV6PrefixLeaseInformation, dhcpv6csdk/PDHCPV6PrefixLeaseInformation'
 ms.topic: struct
-f1_keywords: 
- - "dhcpv6csdk/DHCPV6PrefixLeaseInformation"
+f1_keywords:
+- dhcpv6csdk/DHCPV6PrefixLeaseInformation
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpv6csdk.h
+- Dhcpv6csdk.h
 api_name:
- - DHCPV6PrefixLeaseInformation
+- DHCPV6PrefixLeaseInformation
 product: Windows
 targetos: Windows
 req.typenames: DHCPV6PrefixLeaseInformation, *PDHCPV6PrefixLeaseInformation, *LPDHCPV6PrefixLeaseInformation
@@ -66,7 +66,7 @@ Number of prefixes.
 
 ### -field prefixArray
 
-Pointer to a list <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-_dhcpv6prefix">DHCPV6Prefix</a> structures that contain the prefixes requested or returned by the server.
+Pointer to a list <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefix">DHCPV6Prefix</a> structures that contain the prefixes requested or returned by the server.
 
 
 ### -field iaid

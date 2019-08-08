@@ -8,10 +8,10 @@ tech.root: Services
 ms.assetid: 52ede72e-eb50-48e2-b5c1-125816f6fe57
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSERVICE_NOTIFYA, *PSERVICE_NOTIFY_2A, PSERVICE_NOTIFY, PSERVICE_NOTIFY structure pointer, SERVICE_NOTIFY, SERVICE_NOTIFY structure, SERVICE_NOTIFYA, SERVICE_NOTIFYW, SERVICE_NOTIFY_2, SERVICE_NOTIFY_2A, base.service_notify, winsvc/PSERVICE_NOTIFY, winsvc/SERVICE_NOTIFY, winsvc/SERVICE_NOTIFYA, winsvc/SERVICE_NOTIFYW"
+ms.keywords: '*PSERVICE_NOTIFYA, *PSERVICE_NOTIFY_2A, PSERVICE_NOTIFY, PSERVICE_NOTIFY structure pointer, SERVICE_NOTIFY, SERVICE_NOTIFY structure, SERVICE_NOTIFYA, SERVICE_NOTIFYW, SERVICE_NOTIFY_2, SERVICE_NOTIFY_2A, base.service_notify, winsvc/PSERVICE_NOTIFY, winsvc/SERVICE_NOTIFY, winsvc/SERVICE_NOTIFYA, winsvc/SERVICE_NOTIFYW'
 ms.topic: struct
-f1_keywords: 
- - "winsvc/SERVICE_NOTIFY"
+f1_keywords:
+- winsvc/SERVICE_NOTIFY
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsvc.h
+- Winsvc.h
 api_name:
- - SERVICE_NOTIFY
- - SERVICE_NOTIFYA
- - SERVICE_NOTIFYW
+- SERVICE_NOTIFY
+- SERVICE_NOTIFYA
+- SERVICE_NOTIFYW
 product: Windows
 targetos: Windows
 req.typenames: SERVICE_NOTIFY_2A, *PSERVICE_NOTIFY_2A
@@ -83,7 +83,7 @@ A value that indicates the notification status. If this member is <b>ERROR_SUCCE
 
 ### -field ServiceStatus
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status_process">SERVICE_STATUS_PROCESS</a> structure that contains the service status information. This member is only valid if <b>dwNotificationStatus</b> is <b>ERROR_SUCCESS</b>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_status_process">SERVICE_STATUS_PROCESS</a> structure that contains the service status information. This member is only valid if <b>dwNotificationStatus</b> is <b>ERROR_SUCCESS</b>.
 
 
 ### -field dwNotificationTriggered
@@ -121,7 +121,7 @@ The callback function receives a pointer to the <b>SERVICE_NOTIFY</b> structure 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status_process">SERVICE_STATUS_PROCESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_status_process">SERVICE_STATUS_PROCESS</a>
  
 
  

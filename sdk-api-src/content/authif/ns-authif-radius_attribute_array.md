@@ -8,10 +8,10 @@ tech.root: Nps
 ms.assetid: 2eec8b05-c74d-4876-a475-0be7f60014d0
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRADIUS_ATTRIBUTE_ARRAY, PRADIUS_ATTRIBUTE_ARRAY, PRADIUS_ATTRIBUTE_ARRAY structure pointer [Network Policy Server], RADIUS_ATTRIBUTE_ARRAY, RADIUS_ATTRIBUTE_ARRAY structure [Network Policy Server], _ias_radius_attribute_array, authif/PRADIUS_ATTRIBUTE_ARRAY, authif/RADIUS_ATTRIBUTE_ARRAY, ias.radius_attribute_array, nps.IAS_radius_attribute_array"
+ms.keywords: '*PRADIUS_ATTRIBUTE_ARRAY, PRADIUS_ATTRIBUTE_ARRAY, PRADIUS_ATTRIBUTE_ARRAY structure pointer [Network Policy Server], RADIUS_ATTRIBUTE_ARRAY, RADIUS_ATTRIBUTE_ARRAY structure [Network Policy Server], _ias_radius_attribute_array, authif/PRADIUS_ATTRIBUTE_ARRAY, authif/RADIUS_ATTRIBUTE_ARRAY, ias.radius_attribute_array, nps.IAS_radius_attribute_array'
 ms.topic: struct
-f1_keywords: 
- - "authif/RADIUS_ATTRIBUTE_ARRAY"
+f1_keywords:
+- authif/RADIUS_ATTRIBUTE_ARRAY
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AuthIf.h
+- AuthIf.h
 api_name:
- - RADIUS_ATTRIBUTE_ARRAY
+- RADIUS_ATTRIBUTE_ARRAY
 product: Windows
 targetos: Windows
 req.typenames: RADIUS_ATTRIBUTE_ARRAY, *PRADIUS_ATTRIBUTE_ARRAY
@@ -86,7 +86,7 @@ The
 #### pAttr
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute">RADIUS_ATTRIBUTE</a> structure for the attribute to append to the array.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> structure for the attribute to append to the array.
 
 
 ### -field AttributeAt
@@ -181,7 +181,7 @@ Use the
 #### pAttr
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute">RADIUS_ATTRIBUTE</a> structure for the attribute to insert into the array.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> structure for the attribute to insert into the array.
 
 
 ### -field RemoveAt
@@ -248,7 +248,7 @@ Use the
 #### pAttr
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute">RADIUS_ATTRIBUTE</a> structure. The attribute represented by this structure replaces the attribute at the specified index.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> structure. The attribute represented by this structure replaces the attribute at the specified index.
 
 
 ## -remarks
@@ -263,7 +263,7 @@ This structure is used by Extension DLLs that export
 <a href="https://docs.microsoft.com/previous-versions/ms688246(v=vs.85)">Add</a>
 <a href="https://docs.microsoft.com/previous-versions/ms688296(v=vs.85)">InsertAt</a>
 copy the contents of the caller-supplied 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute">RADIUS_ATTRIBUTE</a> structure. Therefore, Extension DLLs that export 
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> structure. Therefore, Extension DLLs that export 
 <a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a> need not export 
 <a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_free_attributes">RadiusExtensionFreeAttributes</a>.
 
@@ -291,7 +291,7 @@ This structure is returned by the functions
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a>
 
 
 

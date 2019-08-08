@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WaitForNtmsNotification, WaitForNtmsNotification function [Files], _zaw_waitforntmsnotification, base.waitforntmsnotification, fs.waitforntmsnotification, ntmsapi/WaitForNtmsNotification
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/WaitForNtmsNotification"
+f1_keywords:
+- ntmsapi/WaitForNtmsNotification
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - WaitForNtmsNotification
+- WaitForNtmsNotification
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ Notification handle returned by the
 ### -param lpNotificationInformation [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_notificationinformation">NTMS_NOTIFICATIONINFORMATION</a> structure that receives the notification information.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_notificationinformation">NTMS_NOTIFICATIONINFORMATION</a> structure that receives the notification information.
 
 
 ### -param dwTimeout [in]
@@ -175,7 +175,7 @@ The function was successfully executed.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_notificationinformation">NTMS_NOTIFICATIONINFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_notificationinformation">NTMS_NOTIFICATIONINFORMATION</a>
 
 
 

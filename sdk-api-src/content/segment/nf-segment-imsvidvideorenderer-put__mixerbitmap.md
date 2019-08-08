@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put__MixerBitmap method, IMSVidVideoRenderer.put__MixerBitmap, IMSVidVideoRenderer::put__MixerBitmap, IMSVidVideoRendererput__MixerBitmap, mstv.imsvidvideorenderer_put__mixerbitmap, put__MixerBitmap, put__MixerBitmap method [Microsoft TV Technologies], put__MixerBitmap method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put__MixerBitmap
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRenderer.put__MixerBitmap"
+f1_keywords:
+- segment/IMSVidVideoRenderer.put__MixerBitmap
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRenderer.put__MixerBitmap
+- IMSVidVideoRenderer.put__MixerBitmap
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>put__MixerBitmap</b> method specifies the static bitmap image.
 
 ### -param MixerPicture [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmralphabitmap">VMRALPHABITMAP</a> structure that contains information about the bitmap.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmralphabitmap">VMRALPHABITMAP</a> structure that contains information about the bitmap.
 
 
 ## -returns

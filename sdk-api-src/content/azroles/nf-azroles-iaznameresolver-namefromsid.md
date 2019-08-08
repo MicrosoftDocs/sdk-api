@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzNameResolver interface [Security],NameFromSid method, IAzNameResolver.NameFromSid, IAzNameResolver::NameFromSid, NameFromSid, NameFromSid method [Security], NameFromSid method [Security],IAzNameResolver interface, azroles/IAzNameResolver::NameFromSid, security.iaznameresolver_namefromsid_method
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzNameResolver.NameFromSid"
+f1_keywords:
+- azroles/IAzNameResolver.NameFromSid
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.h
+- Azroles.h
 api_name:
- - IAzNameResolver.NameFromSid
+- IAzNameResolver.NameFromSid
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ The string representation of the SID to translate.
 
 ### -param pSidType [out]
 
-An element of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SID_NAME_USE</a> enumeration that specifies the type of SID being translated.
+An element of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a> enumeration that specifies the type of SID being translated.
 
 
 ### -param pbstrName [out]

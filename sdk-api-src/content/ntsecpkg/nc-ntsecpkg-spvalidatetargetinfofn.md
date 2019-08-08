@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpValidateTargetInfoFn, SpValidateTargetInfoFn callback, SpValidateTargetInfoFn callback function [Security], ntsecpkg/SpValidateTargetInfoFn, security.spvalidatetargetinfofn
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/SpValidateTargetInfoFn"
+f1_keywords:
+- ntsecpkg/SpValidateTargetInfoFn
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SpValidateTargetInfoFn
+- SpValidateTargetInfoFn
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Validates that the specified <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_targetinfo">SECPKG_TARGETINFO</a> structure represents a valid target.
+Validates that the specified <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_targetinfo">SECPKG_TARGETINFO</a> structure represents a valid target.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ The size, in bytes, of the <i>ProtocolSubmitBuffer</i> buffer.
 
 ### -param TargetInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_targetinfo">SECPKG_TARGETINFO</a> structure that specifies the target to validate.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_targetinfo">SECPKG_TARGETINFO</a> structure that specifies the target to validate.
 
 
 ## -returns
@@ -105,7 +105,7 @@ If the function fails, return an <b>NTSTATUS</b> code that indicates the reason 
 SSP/APs must implement the <b>SpValidateTargetInfo</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpValidateTargetInfo</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 
@@ -116,7 +116,7 @@ A pointer to the <b>SpValidateTargetInfo</b> function is available in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
  
 
  

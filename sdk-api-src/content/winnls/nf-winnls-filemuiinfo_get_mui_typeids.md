@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILEMUIINFO_GET_MUI_TYPEIDS, FILEMUIINFO_GET_MUI_TYPEIDS macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_MUI_TYPEIDS, intl.filemuiinfo_get_mui_typeids, winnls/FILEMUIINFO_GET_MUI_TYPEIDS
 ms.topic: macro
-f1_keywords: 
- - "winnls/FILEMUIINFO_GET_MUI_TYPEIDS"
+f1_keywords:
+- winnls/FILEMUIINFO_GET_MUI_TYPEIDS
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnls.h
+- Winnls.h
 api_name:
- - FILEMUIINFO_GET_MUI_TYPEIDS
+- FILEMUIINFO_GET_MUI_TYPEIDS
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the MUI module types array associated with the type identifier offset information in the <b>dwTypeIDMUIOffset</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_filemuiinfo">FILEMUIINFO</a> structure.
+Gets the MUI module types array associated with the type identifier offset information in the <b>dwTypeIDMUIOffset</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-filemuiinfo">FILEMUIINFO</a> structure.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets the MUI module types array associated with the type identifier offset infor
 
 ### -param pInfo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_filemuiinfo">FILEMUIINFO</a> structure.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-filemuiinfo">FILEMUIINFO</a> structure.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_filemuiinfo">FILEMUIINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-filemuiinfo">FILEMUIINFO</a>
 
 
 

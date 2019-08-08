@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: C1C2E8AE-0B7F-4620-9C27-31DAF683E342
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCENTRAL_ACCESS_POLICY, CENTRAL_ACCESS_POLICY, CENTRAL_ACCESS_POLICY structure [Security], PCENTRAL_ACCESS_POLICY, PCENTRAL_ACCESS_POLICY structure pointer [Security], _CENTRAL_ACCESS_POLICY, ntlsa/CENTRAL_ACCESS_POLICY, ntlsa/PCENTRAL_ACCESS_POLICY, security.central_access_policy"
+ms.keywords: '*PCENTRAL_ACCESS_POLICY, CENTRAL_ACCESS_POLICY, CENTRAL_ACCESS_POLICY structure [Security], PCENTRAL_ACCESS_POLICY, PCENTRAL_ACCESS_POLICY structure pointer [Security], _CENTRAL_ACCESS_POLICY, ntlsa/CENTRAL_ACCESS_POLICY, ntlsa/PCENTRAL_ACCESS_POLICY, security.central_access_policy'
 ms.topic: struct
-f1_keywords: 
- - "ntlsa/CENTRAL_ACCESS_POLICY"
+f1_keywords:
+- ntlsa/CENTRAL_ACCESS_POLICY
 req.header: ntlsa.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntlsa.h
+- Ntlsa.h
 api_name:
- - CENTRAL_ACCESS_POLICY
+- CENTRAL_ACCESS_POLICY
 product: Windows
 targetos: Windows
 req.typenames: CENTRAL_ACCESS_POLICY, *PCENTRAL_ACCESS_POLICY
@@ -91,5 +91,5 @@ The length of the buffer pointed to by the <i>CAPEs</i> field.
 
 ### -field CAPEs
 
-Pointer to a buffer of <a href="https://docs.microsoft.com/windows/desktop/api/ntlsa/ns-ntlsa-_central_access_policy_entry">CENTRAL_ACCESS_POLICY_ENTRY</a> pointers.
+Pointer to a buffer of <a href="https://docs.microsoft.com/windows/desktop/api/ntlsa/ns-ntlsa-central_access_policy_entry">CENTRAL_ACCESS_POLICY_ENTRY</a> pointers.
 

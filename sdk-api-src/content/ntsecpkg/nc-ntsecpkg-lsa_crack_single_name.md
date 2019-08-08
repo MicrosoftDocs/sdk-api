@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CrackSingleName, CrackSingleName callback function [Security], DS_CANONICAL_NAME, DS_CANONICAL_NAME_EX, DS_DISPLAY_NAME, DS_FQDN_1779_NAME, DS_NT4_ACCOUNT_NAME, DS_SERVICE_PRINCIPAL_NAME, DS_SID_OR_SID_HISTORY_NAME, DS_UNIQUE_ID_NAME, DS_UNKNOWN_NAME, DS_USER_PRINCIPAL_NAME, LSA_CRACK_SINGLE_NAME, LSA_CRACK_SINGLE_NAME callback, _ssp_cracksinglename, ntsecpkg/CrackSingleName, security.cracksinglename
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/CrackSingleName"
+f1_keywords:
+- ntsecpkg/CrackSingleName
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - CrackSingleName
+- CrackSingleName
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -181,12 +181,12 @@ Specifies whether to perform the translation at a global catalog server.
 ### -param NameInput [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that contains the name to convert.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that contains the name to convert.
 
 
 ### -param Prefix [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that specifies a prefix for the name.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that specifies a prefix for the name.
 
 
 ### -param RequestedFormat [in]
@@ -196,12 +196,12 @@ The requested format of the cracked name. For a list of valid values, see the <i
 
 ### -param CrackedName [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that receives the reformatted name.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that receives the reformatted name.
 
 
 ### -param DnsDomainName [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that receives the name of the domain that owns the name specified by the <i>NameInput</i> parameter.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that receives the name of the domain that owns the name specified by the <i>NameInput</i> parameter.
 
 
 ### -param SubStatus [out]
@@ -225,7 +225,7 @@ If the function fails, it returns STATUS_UNSUCCESSFUL. For more information, see
 
 
 A pointer to the <b>CrackSingleName</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 
@@ -236,7 +236,7 @@ A pointer to the <b>CrackSingleName</b> function is available in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 

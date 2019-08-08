@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D_INTERPOLATION_CONSTANT, D3D_INTERPOLATION_LINEAR, D3D_INTERPOLATION_LINEAR_CENTROID, D3D_INTERPOLATION_LINEAR_NOPERSPECTIVE, D3D_INTERPOLATION_LINEAR_NOPERSPECTIVE_CENTROID, D3D_INTERPOLATION_LINEAR_NOPERSPECTIVE_SAMPLE, D3D_INTERPOLATION_LINEAR_SAMPLE, D3D_INTERPOLATION_MODE, D3D_INTERPOLATION_MODE enumeration [Direct3D 11], D3D_INTERPOLATION_UNDEFINED, d3dcommon/D3D_INTERPOLATION_CONSTANT, d3dcommon/D3D_INTERPOLATION_LINEAR, d3dcommon/D3D_INTERPOLATION_LINEAR_CENTROID, d3dcommon/D3D_INTERPOLATION_LINEAR_NOPERSPECTIVE, d3dcommon/D3D_INTERPOLATION_LINEAR_NOPERSPECTIVE_CENTROID, d3dcommon/D3D_INTERPOLATION_LINEAR_NOPERSPECTIVE_SAMPLE, d3dcommon/D3D_INTERPOLATION_LINEAR_SAMPLE, d3dcommon/D3D_INTERPOLATION_MODE, d3dcommon/D3D_INTERPOLATION_UNDEFINED, direct3d11.d3d_interpolation_mode
 ms.topic: enum
-f1_keywords: 
- - "d3dcommon/D3D_INTERPOLATION_MODE"
+f1_keywords:
+- d3dcommon/D3D_INTERPOLATION_MODE
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3DCommon.h
+- D3DCommon.h
 api_name:
- - D3D_INTERPOLATION_MODE
+- D3D_INTERPOLATION_MODE
 product: Windows
 targetos: Windows
 req.typenames: D3D_INTERPOLATION_MODE
@@ -108,7 +108,7 @@ Interpolate linearly between register values but with no perspective correction 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_parameter_desc">D3D11_PARAMETER_DESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-d3d11_parameter_desc">D3D11_PARAMETER_DESC</a>
  
 
  

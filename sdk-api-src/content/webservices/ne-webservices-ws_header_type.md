@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_ACTION_HEADER, WS_FAULT_TO_HEADER, WS_FROM_HEADER, WS_HEADER_TYPE, WS_HEADER_TYPE enumeration [Web Services for Windows], WS_MESSAGE_ID_HEADER, WS_RELATES_TO_HEADER, WS_REPLY_TO_HEADER, WS_TO_HEADER, webservices/WS_ACTION_HEADER, webservices/WS_FAULT_TO_HEADER, webservices/WS_FROM_HEADER, webservices/WS_HEADER_TYPE, webservices/WS_MESSAGE_ID_HEADER, webservices/WS_RELATES_TO_HEADER, webservices/WS_REPLY_TO_HEADER, webservices/WS_TO_HEADER, wsw.ws_header_type
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_HEADER_TYPE"
+f1_keywords:
+- webservices/WS_HEADER_TYPE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_HEADER_TYPE
+- WS_HEADER_TYPE
 product: Windows
 targetos: Windows
 req.typenames: WS_HEADER_TYPE
@@ -178,7 +178,7 @@ This header is not supported for <a href="https://docs.microsoft.com/windows/des
 
 ### -field WS_FAULT_TO_HEADER
 
-The FaultTo addressing header, in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> format.
+The FaultTo addressing header, in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> format.
                 
 
 This header is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_ENDPOINT_ADDRESS_TYPE</a>.

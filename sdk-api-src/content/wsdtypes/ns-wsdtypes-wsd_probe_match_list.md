@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_PROBE_MATCH_LIST, WSD_PROBE_MATCH_LIST structure, ncd.wsd_probe_match_list_struct, wsdtypes/WSD_PROBE_MATCH_LIST
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_PROBE_MATCH_LIST"
+f1_keywords:
+- wsdtypes/WSD_PROBE_MATCH_LIST
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_PROBE_MATCH_LIST
+- WSD_PROBE_MATCH_LIST
 product: Windows
 targetos: Windows
 req.typenames: WSD_PROBE_MATCH_LIST
@@ -66,7 +66,7 @@ Reference to the next node in the linked list of <b>WSD_PROBE_MATCH_LIST</b> str
 
 ### -field Element
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_probe_match">WSD_PROBE_MATCH</a> structure that contains the ProbeMatch message referenced by this node.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_probe_match">WSD_PROBE_MATCH</a> structure that contains the ProbeMatch message referenced by this node.
 
 
 ## -see-also
@@ -82,15 +82,15 @@ Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_probe">WSD_PROBE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_probe">WSD_PROBE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_probe_match">WSD_PROBE_MATCH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_probe_match">WSD_PROBE_MATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_probe_matches">WSD_PROBE_MATCHES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_probe_matches">WSD_PROBE_MATCHES</a>
  
 
  

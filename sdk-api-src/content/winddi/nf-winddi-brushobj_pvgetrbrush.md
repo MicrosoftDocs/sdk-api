@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BRUSHOBJ_pvGetRbrush, BRUSHOBJ_pvGetRbrush function [Display Devices], display.brushobj_pvgetrbrush, gdifncs_a19def34-749c-4e98-b03e-1b35f4e1f761.xml, winddi/BRUSHOBJ_pvGetRbrush
 ms.topic: function
-f1_keywords: 
- - "winddi/BRUSHOBJ_pvGetRbrush"
+f1_keywords:
+- winddi/BRUSHOBJ_pvGetRbrush
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - BRUSHOBJ_pvGetRbrush
+- BRUSHOBJ_pvGetRbrush
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>BRUSHOBJ_pvGetRbrush</b> function retrieves a pointer to the driver's rea
 
 ### -param pbo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_brushobj">BRUSHOBJ</a> structure whose realization is requested.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-brushobj">BRUSHOBJ</a> structure whose realization is requested.
 
 
 ## -returns
@@ -89,7 +89,7 @@ If the brush has not been realized when <b>BRUSHOBJ_pvGetRbrush</b> is called, G
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_brushobj">BRUSHOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-brushobj">BRUSHOBJ</a>
 
 
 

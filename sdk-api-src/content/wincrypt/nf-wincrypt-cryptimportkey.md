@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_EXPORTABLE, CRYPT_IPSEC_HMAC_KEY, CRYPT_NO_SALT, CRYPT_OAEP, CRYPT_USER_PROTECTED, CryptImportKey, CryptImportKey function [Security], _crypto2_cryptimportkey, security.cryptimportkey, wincrypt/CryptImportKey
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptImportKey"
+f1_keywords:
+- wincrypt/CryptImportKey
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptImportKey
+- CryptImportKey
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ The handle of a CSP obtained with the <a href="https://docs.microsoft.com/window
 ### -param pbData [in]
 
 A <b>BYTE</b> array that contains a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_publickeystruc">PUBLICKEYSTRUC</a> BLOB header followed by the encrypted key. This key BLOB is created by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">PUBLICKEYSTRUC</a> BLOB header followed by the encrypted key. This key BLOB is created by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportkey">CryptExportKey</a> function, either in this application or by another application possibly running on a different computer.
 
 
@@ -292,7 +292,7 @@ The version number of the key BLOB does not match the CSP version. This usually 
 
 
 
-When importing a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">Hash-Based Message Authentication Code</a> (HMAC) key, the caller must identify the imported key as a <b>PLAINTEXTKEYBLOB</b> type and set the appropriate algorithm identifier in the <b>aiKeyAlg</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_publickeystruc">PUBLICKEYSTRUC</a> BLOB header.
+When importing a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">Hash-Based Message Authentication Code</a> (HMAC) key, the caller must identify the imported key as a <b>PLAINTEXTKEYBLOB</b> type and set the appropriate algorithm identifier in the <b>aiKeyAlg</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">PUBLICKEYSTRUC</a> BLOB header.
 
 The <b>CryptImportKey</b> function can be used to import a plaintext key for symmetric algorithms; however, we recommend that, for ease of use, you use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a> function instead. When you import a plaintext key, the structure of the key BLOB that is passed in the <i>pbData</i> parameter is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj650836(v=vs.85)">PLAINTEXTKEYBLOB</a>.
 

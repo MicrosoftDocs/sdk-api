@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ParameterSet_GetParameter, MI_ParameterSet_GetParameter function [Windows Management Infrastructure (MI)], mi/MI_ParameterSet_GetParameter, wmi_v2.mi_parameterset_getparameter
 ms.topic: function
-f1_keywords: 
- - "mi/MI_ParameterSet_GetParameter"
+f1_keywords:
+- mi/MI_ParameterSet_GetParameter
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_ParameterSet_GetParameter
+- MI_ParameterSet_GetParameter
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ Gets a method's parameter information based on a parameter name.
 ### -param self [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_parameterset">MI_ParameterSet</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_parameterset">MI_ParameterSet</a> structure.
 
 
 ### -param name [in]

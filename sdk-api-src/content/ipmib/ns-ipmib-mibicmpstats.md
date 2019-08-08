@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: 080cdd28-3e2d-4cd0-8e5a-9ec9dcb9df48
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIBICMPSTATS, MIBICMPSTATS, MIBICMPSTATS structure [MIB], _mpr_mibicmpstats, ipmib/MIBICMPSTATS, iprtrmib/MIBICMPSTATS, mib.mibicmpstats, rras.mibicmpstats"
+ms.keywords: '*PMIBICMPSTATS, MIBICMPSTATS, MIBICMPSTATS structure [MIB], _mpr_mibicmpstats, ipmib/MIBICMPSTATS, iprtrmib/MIBICMPSTATS, mib.mibicmpstats, rras.mibicmpstats'
 ms.topic: struct
-f1_keywords: 
- - "ipmib/MIBICMPSTATS"
+f1_keywords:
+- ipmib/MIBICMPSTATS
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipmib.h
- - Iprtrmib.h
+- Ipmib.h
+- Iprtrmib.h
 api_name:
- - MIBICMPSTATS
+- MIBICMPSTATS
 product: Windows
 targetos: Windows
 req.typenames: MIBICMPSTATS, *PMIBICMPSTATS
@@ -159,7 +159,7 @@ The number of address mask responses received or sent. A computer sends an addre
 Two 
 <b>MIBICMPSTATS</b> structures are required to hold all the ICMP statistics for a given computer. One 
 <b>MIBICMPSTATS</b> structure contains the statistics for incoming ICMP messages. The other contains the statistics for outgoing ICMP messages. For this reason, the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mibicmpinfo">MIBICMPINFO</a> structure contains two 
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpinfo">MIBICMPINFO</a> structure contains two 
 <b>MIBICMPSTATS</b> structures.
 
 On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed and the <b>MIBICMPSTATS</b> structure is defined in the <i>Ipmib.h</i> header file not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ipmib.h</i> header file is automatically included in <i>Iprtrmib.h</i> which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ipmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
@@ -172,19 +172,19 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mibicmpinfo">MIBICMPINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpinfo">MIBICMPINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_icmp">MIB_ICMP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_icmp">MIB_ICMP</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_icmp_ex_xpsp1">MIB_ICMP_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_icmp_ex_xpsp1">MIB_ICMP_EX</a>
  
 
  

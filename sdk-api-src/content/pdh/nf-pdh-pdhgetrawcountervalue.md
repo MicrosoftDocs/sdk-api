@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhGetRawCounterValue, PdhGetRawCounterValue function [Perf], _win32_pdhgetrawcountervalue, base.pdhgetrawcountervalue, pdh/PdhGetRawCounterValue, perf.pdhgetrawcountervalue
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhGetRawCounterValue"
+f1_keywords:
+- pdh/PdhGetRawCounterValue
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhGetRawCounterValue
+- PdhGetRawCounterValue
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ Receives the counter type. For a list of counter types, see the Counter Types se
 ### -param pValue [out]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_raw_counter">PDH_RAW_COUNTER</a> structure that receives the counter value.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter">PDH_RAW_COUNTER</a> structure that receives the counter value.
 
 
 ## -returns
@@ -130,7 +130,7 @@ The data for the counter is locked (protected) for the duration of the call to
 
 If 
 the specified counter instance does not exist, this function will return ERROR_SUCCESS and the <b>CStatus</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_raw_counter">PDH_RAW_COUNTER</a> structure will contain PDH_CSTATUS_NO_INSTANCE.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter">PDH_RAW_COUNTER</a> structure will contain PDH_CSTATUS_NO_INSTANCE.
 
 
 

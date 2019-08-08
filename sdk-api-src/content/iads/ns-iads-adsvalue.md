@@ -8,10 +8,10 @@ tech.root: adsi
 ms.assetid: b53c4a14-9965-4025-95bc-37f460ea2bc9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPADSVALUE, *PADSVALUE, ADSVALUE, ADSVALUE structure [ADSI], LPADSVALUE, LPADSVALUE structure pointer [ADSI], PADSVALUE, PADSVALUE structure pointer [ADSI], _ds_adsvalue, adsi.adsvalue, iads/ADSVALUE, iads/LPADSVALUE, iads/PADSVALUE"
+ms.keywords: '*LPADSVALUE, *PADSVALUE, ADSVALUE, ADSVALUE structure [ADSI], LPADSVALUE, LPADSVALUE structure pointer [ADSI], PADSVALUE, PADSVALUE structure pointer [ADSI], _ds_adsvalue, adsi.adsvalue, iads/ADSVALUE, iads/LPADSVALUE, iads/PADSVALUE'
 ms.topic: struct
-f1_keywords: 
- - "iads/ADSVALUE"
+f1_keywords:
+- iads/ADSVALUE
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADSVALUE
+- ADSVALUE
 product: Windows
 targetos: Windows
 req.typenames: ADSVALUE, *PADSVALUE, *LPADSVALUE
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>ADSVALUE</b> structure contains a value specified as an ADSI data type. These data types can be  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-simple-data-types">ADSI Simple Data Types</a> or ADSI-defined custom data types that include C-style structures.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_attr_info">ADS_ATTR_INFO</a> structure contains an array of <b>ADSVALUE</b> structures. Each <b>ADSVALUE</b> structure contains a single attribute value.
+The <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structure contains an array of <b>ADSVALUE</b> structures. Each <b>ADSVALUE</b> structure contains a single attribute value.
 
 
 ## -struct-fields
@@ -128,12 +128,12 @@ Provider-specific structure, as defined by  <a href="https://docs.microsoft.com/
 
 ### -field pCaseIgnoreList
 
-Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_caseignore_list">ADS_CASEIGNORE_LIST</a>, an ADSI-defined data type.
+Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_caseignore_list">ADS_CASEIGNORE_LIST</a>, an ADSI-defined data type.
 
 
 ### -field pOctetList
 
-Pointer to a list of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_octet_list">ADS_OCTET_LIST</a>, an ADSI-defined data type.
+Pointer to a list of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_octet_list">ADS_OCTET_LIST</a>, an ADSI-defined data type.
 
 
 ### -field pPath
@@ -205,7 +205,7 @@ Pointer to an  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-i
 
 
 
-Members of the <b>ADSVALUE</b> structure specify the data type of attributes. For more information and a code example, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_attr_info">ADS_ATTR_INFO</a>.
+Members of the <b>ADSVALUE</b> structure specify the data type of attributes. For more information and a code example, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a>.
 
 
 
@@ -228,7 +228,7 @@ Members of the <b>ADSVALUE</b> structure specify the data type of attributes. Fo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_attr_info">ADS_ATTR_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a>
 
 
 
@@ -236,7 +236,7 @@ Members of the <b>ADSVALUE</b> structure specify the data type of attributes. Fo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_caseignore_list">ADS_CASEIGNORE_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_caseignore_list">ADS_CASEIGNORE_LIST</a>
 
 
 
@@ -268,7 +268,7 @@ Members of the <b>ADSVALUE</b> structure specify the data type of attributes. Fo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_octet_list">ADS_OCTET_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_octet_list">ADS_OCTET_LIST</a>
 
 
 

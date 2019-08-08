@@ -8,10 +8,10 @@ tech.root: NetMgmt
 ms.assetid: 66b11a5f-1c2d-4564-8845-9e2fa1f40f3e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPUSER_INFO_4, *PUSER_INFO_4, AF_OP_ACCOUNTS, AF_OP_COMM, AF_OP_PRINT, AF_OP_SERVER, LPUSER_INFO_4, LPUSER_INFO_4 structure pointer [Network Management], PUSER_INFO_4, PUSER_INFO_4 structure pointer [Network Management], UF_ACCOUNTDISABLE, UF_DONT_EXPIRE_PASSWD, UF_DONT_REQUIRE_PREAUTH, UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED, UF_HOMEDIR_REQUIRED, UF_INTERDOMAIN_TRUST_ACCOUNT, UF_LOCKOUT, UF_NORMAL_ACCOUNT, UF_NOT_DELEGATED, UF_PASSWD_CANT_CHANGE, UF_PASSWD_NOTREQD, UF_PASSWORD_EXPIRED, UF_SCRIPT, UF_SERVER_TRUST_ACCOUNT, UF_SMARTCARD_REQUIRED, UF_TEMP_DUPLICATE_ACCOUNT, UF_TRUSTED_FOR_DELEGATION, UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION, UF_USE_DES_KEY_ONLY, UF_WORKSTATION_TRUST_ACCOUNT, USER_INFO_4, USER_INFO_4 structure [Network Management], USER_PRIV_ADMIN, USER_PRIV_GUEST, USER_PRIV_USER, _win32_user_info_4_str, lmaccess/LPUSER_INFO_4, lmaccess/PUSER_INFO_4, lmaccess/USER_INFO_4, netmgmt.user_info_4_str"
+ms.keywords: '*LPUSER_INFO_4, *PUSER_INFO_4, AF_OP_ACCOUNTS, AF_OP_COMM, AF_OP_PRINT, AF_OP_SERVER, LPUSER_INFO_4, LPUSER_INFO_4 structure pointer [Network Management], PUSER_INFO_4, PUSER_INFO_4 structure pointer [Network Management], UF_ACCOUNTDISABLE, UF_DONT_EXPIRE_PASSWD, UF_DONT_REQUIRE_PREAUTH, UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED, UF_HOMEDIR_REQUIRED, UF_INTERDOMAIN_TRUST_ACCOUNT, UF_LOCKOUT, UF_NORMAL_ACCOUNT, UF_NOT_DELEGATED, UF_PASSWD_CANT_CHANGE, UF_PASSWD_NOTREQD, UF_PASSWORD_EXPIRED, UF_SCRIPT, UF_SERVER_TRUST_ACCOUNT, UF_SMARTCARD_REQUIRED, UF_TEMP_DUPLICATE_ACCOUNT, UF_TRUSTED_FOR_DELEGATION, UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION, UF_USE_DES_KEY_ONLY, UF_WORKSTATION_TRUST_ACCOUNT, USER_INFO_4, USER_INFO_4 structure [Network Management], USER_PRIV_ADMIN, USER_PRIV_GUEST, USER_PRIV_USER, _win32_user_info_4_str, lmaccess/LPUSER_INFO_4, lmaccess/PUSER_INFO_4, lmaccess/USER_INFO_4, netmgmt.user_info_4_str'
 ms.topic: struct
-f1_keywords: 
- - "lmaccess/USER_INFO_4"
+f1_keywords:
+- lmaccess/USER_INFO_4
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmaccess.h
+- Lmaccess.h
 api_name:
- - USER_INFO_4
+- USER_INFO_4
 product: Windows
 targetos: Windows
 req.typenames: USER_INFO_4, *PUSER_INFO_4, *LPUSER_INFO_4
@@ -627,7 +627,7 @@ The code page for the user's language of choice.
 Type: <b>PSID</b>
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that contains the security identifier (SID) that uniquely identifies the user. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that contains the security identifier (SID) that uniquely identifies the user. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> functions ignore this member.
 
@@ -688,7 +688,7 @@ User account names are limited to 20 characters and group names are limited to 2
 
 Note that the 
 <b>USER_INFO_4</b> structure supersedes the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_3">USER_INFO_3</a> structure on Windows XP and later. It is recommended that applications use 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_3">USER_INFO_3</a> structure on Windows XP and later. It is recommended that applications use 
 the <b>USER_INFO_4</b> structure instead of the 
 <b>USER_INFO_3</b> structure with the above functions on Windows XP and later.
 
@@ -724,11 +724,11 @@ the <b>USER_INFO_4</b> structure instead of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_3">USER_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_3">USER_INFO_3</a>
 
 
 

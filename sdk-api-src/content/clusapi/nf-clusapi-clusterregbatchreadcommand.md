@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterRegBatchReadCommand, ClusterRegBatchReadCommand function [Failover Cluster], clusapi/ClusterRegBatchReadCommand, mscs.clusterregbatchreadcommand
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterRegBatchReadCommand"
+f1_keywords:
+- clusapi/ClusterRegBatchReadCommand
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterRegBatchReadCommand
+- ClusterRegBatchReadCommand
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A handle to the batch notification.
 
 ### -param pBatchCommand [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_cluster_batch_command">CLUSTER_BATCH_COMMAND</a> structure 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_batch_command">CLUSTER_BATCH_COMMAND</a> structure 
        that will be filled with information about the command on successful return.
 
 
@@ -95,7 +95,7 @@ The <b>PCLUSTER_REG_GET_BATCH_NOTIFICATION</b> type defines a pointer to this
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_cluster_batch_command">CLUSTER_BATCH_COMMAND</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_batch_command">CLUSTER_BATCH_COMMAND</a>
 
 
 

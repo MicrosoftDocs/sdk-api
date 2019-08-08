@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItem, GetItem method [MMC], GetItem method [MMC],IResultData interface, GetItem method [MMC],IResultData2 interface, IResultData interface [MMC],GetItem method, IResultData.GetItem, IResultData2 interface [MMC],GetItem method, IResultData2::GetItem, IResultData::GetItem, _slate_iresultdata_getitem, mmc.iresultdata_getitem, mmc/IResultData2::GetItem, mmc/IResultData::GetItem
 ms.topic: method
-f1_keywords: 
- - "mmc/IResultData.GetItem"
+f1_keywords:
+- mmc/IResultData.GetItem
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IResultData.GetItem
- - IResultData2.GetItem
+- IResultData.GetItem
+- IResultData2.GetItem
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The <b>IResultData::GetItem</b> method enables a user to retrieve the parameters
 ### -param item [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_resultdataitem">RESULTDATAITEM</a> structure that contains information about the item whose parameters are being retrieved.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-resultdataitem">RESULTDATAITEM</a> structure that contains information about the item whose parameters are being retrieved.
 
 
 ## -returns
@@ -80,7 +80,7 @@ This method can return one of these values.
 
 
 The itemID member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_resultdataitem">RESULTDATAITEM</a> structure pointed to by the item parameter should be set to refer to the item or subitem for which information is being returned. The nCol member should be set to 0 (zero) because it is the only column in which anything can be obtained or set. In addition, the data members for each of the flags set in the mask member of the structure pointed to by the item parameter if this method call succeeds will be returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-resultdataitem">RESULTDATAITEM</a> structure pointed to by the item parameter should be set to refer to the item or subitem for which information is being returned. The nCol member should be set to 0 (zero) because it is the only column in which anything can be obtained or set. In addition, the data members for each of the flags set in the mask member of the structure pointed to by the item parameter if this method call succeeds will be returned.
 
 If itemID is 0 (zero), the nIndex member can be used.
 

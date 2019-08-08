@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamAsync interface [Windows Shell],OverlappedResult method, IStreamAsync.OverlappedResult, IStreamAsync::OverlappedResult, OverlappedResult, OverlappedResult method [Windows Shell], OverlappedResult method [Windows Shell],IStreamAsync interface, _shell_IStreamAsync_OverlappedResult, shell.IStreamAsync_OverlappedResult, shobjidl/IStreamAsync::OverlappedResult
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IStreamAsync.OverlappedResult"
+f1_keywords:
+- shobjidl/IStreamAsync.OverlappedResult
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IStreamAsync.OverlappedResult
+- IStreamAsync.OverlappedResult
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Retrieves the results of an overlapped operation.
 
 Type: <b>LPOVERLAPPED*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ns-shobjidl-_overlapped">OVERLAPPED</a> structure that was specified when the overlapped operation was started.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ns-shobjidl-overlapped">OVERLAPPED</a> structure that was specified when the overlapped operation was started.
 
 
 ### -param lpNumberOfBytesTransferred [out]

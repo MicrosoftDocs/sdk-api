@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: c81a9c68-7124-4a66-9c68-d147d41c0c4d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPFLOWDESCRIPTOR, *LPFLOWDESCRIPTOR structure [QOS], FLOWDESCRIPTOR, FLOWDESCRIPTOR structure [QOS], qos.flowdescriptor, qossp/*LPFLOWDESCRIPTOR, qossp/FLOWDESCRIPTOR"
+ms.keywords: '*LPFLOWDESCRIPTOR, *LPFLOWDESCRIPTOR structure [QOS], FLOWDESCRIPTOR, FLOWDESCRIPTOR structure [QOS], qos.flowdescriptor, qossp/*LPFLOWDESCRIPTOR, qossp/FLOWDESCRIPTOR'
 ms.topic: struct
-f1_keywords: 
- - "qossp/FLOWDESCRIPTOR"
+f1_keywords:
+- qossp/FLOWDESCRIPTOR
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qossp.h
+- Qossp.h
 api_name:
- - FLOWDESCRIPTOR
+- FLOWDESCRIPTOR
 product: Windows
 targetos: Windows
 req.typenames: FLOWDESCRIPTOR, *LPFLOWDESCRIPTOR
@@ -61,7 +61,7 @@ The <b>FLOWDESCRIPTOR</b> structure specifies one or more filters for a given FL
 
 ### -field FlowSpec
 
-Flow specification (FLOWSPEC), provided as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structure.
+Flow specification (FLOWSPEC), provided as a <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure.
 
 
 ### -field NumFilters
@@ -71,7 +71,7 @@ Number of filters provided in <b>FilterList</b>.
 
 ### -field FilterList
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec">RSVP_FILTERSPEC</a> structure containing FILTERSPEC information.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec">RSVP_FILTERSPEC</a> structure containing FILTERSPEC information.
 
 
 ## -see-also
@@ -79,11 +79,11 @@ Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/deskt
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec">RSVP_FILTERSPEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec">RSVP_FILTERSPEC</a>
  
 
  

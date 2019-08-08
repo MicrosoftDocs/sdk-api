@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3DCONTENTPROTECTIONCAPS, D3DCONTENTPROTECTIONCAPS structure [Media Foundation], D3DCPCAPS_CONTENTKEY, D3DCPCAPS_ENCRYPTEDREADBACK, D3DCPCAPS_ENCRYPTEDREADBACKKEY, D3DCPCAPS_FRESHENSESSIONKEY, D3DCPCAPS_HARDWARE, D3DCPCAPS_PARTIALDECRYPTION, D3DCPCAPS_PROTECTIONALWAYSON, D3DCPCAPS_SEQUENTIAL_CTR_IV, D3DCPCAPS_SOFTWARE, D3DKEYEXCHANGE_DXVA, D3DKEYEXCHANGE_RSAES_OAEP, d3d9caps/D3DCONTENTPROTECTIONCAPS, mf.d3dcontentprotectioncaps
 ms.topic: struct
-f1_keywords: 
- - "d3d9caps/D3DCONTENTPROTECTIONCAPS"
+f1_keywords:
+- d3d9caps/D3DCONTENTPROTECTIONCAPS
 req.header: d3d9caps.h
 req.include-header: D3d9.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d9caps.h
+- d3d9caps.h
 api_name:
- - D3DCONTENTPROTECTIONCAPS
+- D3DCONTENTPROTECTIONCAPS
 product: Windows
 targetos: Windows
 req.typenames: D3DCONTENTPROTECTIONCAPS
@@ -163,7 +163,7 @@ The driver requires a separate key to read encrypted data from a protected surfa
 </dl>
 </td>
 <td width="60%">
-If the encryption type is <b>D3DCRYPTOTYPE_AES128_CTR</b>, the application must use a sequential count in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_aes_ctr_iv">DXVA2_AES_CTR_IV</a>  structure. For more information, see the remarks for <b>DXVA2_AES_CTR_IV</b>.
+If the encryption type is <b>D3DCRYPTOTYPE_AES128_CTR</b>, the application must use a sequential count in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_aes_ctr_iv">DXVA2_AES_CTR_IV</a>  structure. For more information, see the remarks for <b>DXVA2_AES_CTR_IV</b>.
 
 </td>
 </tr>

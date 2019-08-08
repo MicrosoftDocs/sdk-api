@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PerfDeleteInstance, PerfDeleteInstance function [Perf], base.perfdeleteinstance, perf.perfdeleteinstance, perflib/PerfDeleteInstance
 ms.topic: function
-f1_keywords: 
- - "perflib/PerfDeleteInstance"
+f1_keywords:
+- perflib/PerfDeleteInstance
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-perfcounters-l1-1-0.dll
- - KernelBase.dll
+- Advapi32.dll
+- API-MS-Win-Core-perfcounters-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PerfDeleteInstance
+- PerfDeleteInstance
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The handle of the provider. Use the handle variable that the <a href="https://do
 
 ### -param InstanceBlock [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a> structure that contains the instance of the counter set to delete.
+A <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a> structure that contains the instance of the counter set to delete.
 
 
 ## -returns

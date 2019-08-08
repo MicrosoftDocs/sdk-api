@@ -4,8 +4,8 @@ title: BIND_OPTS2
 ms.date: 01/30/19
 ms.keywords: tagBIND_OPTS2, BIND_OPTS2
 ms.topic: language-reference
-f1_keywords: 
- - "objidl/tagBIND_OPTS2"
+f1_keywords:
+- objidl/tagBIND_OPTS2
 targetos: Windows
 product: Windows
 req.construct-type: structure
@@ -24,14 +24,14 @@ req.typenames: BIND_OPTS2, *LPBIND_OPTS2
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - objidl.h
+- objidl.h
 api_name:
- - tagBIND_OPTS2
- - BIND_OPTS2
+- tagBIND_OPTS2
+- BIND_OPTS2
 ---
 
 # BIND_OPTS2 structure
@@ -89,7 +89,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifier
 
 ### -field pServerInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-_coserverinfo">COSERVERINFO</a> structure. This member allows clients calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a> to specify server information. Clients may pass a <b>BIND_OPTS2</b> structure to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-setbindoptions">IBindCtx::SetBindOptions</a> method. If a server name is specified in the <b>COSERVERINFO</b> structure, the moniker bind will be forwarded to the specified computer. <b>SetBindOptions</b> only copies the struct members of <b>BIND_OPTS2</b>, not the <b>COSERVERINFO</b> structure and the pointers it contains. Callers may not free any of these pointers until the bind context is released. COM's new class moniker does not currently honor the <b>pServerInfo</b> flag.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-coserverinfo">COSERVERINFO</a> structure. This member allows clients calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a> to specify server information. Clients may pass a <b>BIND_OPTS2</b> structure to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-setbindoptions">IBindCtx::SetBindOptions</a> method. If a server name is specified in the <b>COSERVERINFO</b> structure, the moniker bind will be forwarded to the specified computer. <b>SetBindOptions</b> only copies the struct members of <b>BIND_OPTS2</b>, not the <b>COSERVERINFO</b> structure and the pointers it contains. Callers may not free any of these pointers until the bind context is released. COM's new class moniker does not currently honor the <b>pServerInfo</b> flag.
 
 
 ## -remarks

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddDesktopItem, AddDesktopItem method [Legacy Windows Environment Features], AddDesktopItem method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],AddDesktopItem method, IActiveDesktop.AddDesktopItem, IActiveDesktop::AddDesktopItem, _win32_IActiveDesktop_AddDesktopItem, lwef.iactivedesktop_adddesktopitem, shell.iactivedesktop_adddesktopitem, shlobj_core/IActiveDesktop::AddDesktopItem
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IActiveDesktop.AddDesktopItem"
+f1_keywords:
+- shlobj_core/IActiveDesktop.AddDesktopItem
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IActiveDesktop.AddDesktopItem
+- IActiveDesktop.AddDesktopItem
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Adds a desktop item.
 
 Type: <b>LPCCOMPONENT</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent">COMPONENT</a> structure that specifies the item to be added. 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure that specifies the item to be added. 
 
 
 ### -param dwReserved

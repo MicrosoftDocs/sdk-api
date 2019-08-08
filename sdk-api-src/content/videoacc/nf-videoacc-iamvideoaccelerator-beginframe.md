@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginFrame, BeginFrame method [DirectShow], BeginFrame method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],BeginFrame method, IAMVideoAccelerator.BeginFrame, IAMVideoAccelerator::BeginFrame, IAMVideoAcceleratorBeginFrame, dshow.iamvideoaccelerator_beginframe, videoacc/IAMVideoAccelerator::BeginFrame
 ms.topic: method
-f1_keywords: 
- - "videoacc/IAMVideoAccelerator.BeginFrame"
+f1_keywords:
+- videoacc/IAMVideoAccelerator.BeginFrame
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoAccelerator.BeginFrame
+- IAMVideoAccelerator.BeginFrame
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>BeginFrame</b> method begins the processing to create a decoded picture.
 
 ### -param amvaBeginFrameInfo [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/amva/ns-amva-_tag_amvabeginframeinfo">AMVABeginFrameInfo</a> structure that contains information needed to begin processing the frame.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amva/ns-amva-amvabeginframeinfo">AMVABeginFrameInfo</a> structure that contains information needed to begin processing the frame.
 
 
 ## -returns

@@ -8,10 +8,10 @@ tech.root: TermServ
 ms.assetid: 14e2d3bb-8c83-45aa-aa63-87afef3008b3
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWTSINFOW, PWTSINFO, PWTSINFO structure pointer [Remote Desktop Services], WTSINFO, WTSINFO structure [Remote Desktop Services], WTSINFOA, WTSINFOW, termserv.wtsinfo, wtsapi32/PWTSINFO, wtsapi32/WTSINFO, wtsapi32/WTSINFOA, wtsapi32/WTSINFOW"
+ms.keywords: '*PWTSINFOW, PWTSINFO, PWTSINFO structure pointer [Remote Desktop Services], WTSINFO, WTSINFO structure [Remote Desktop Services], WTSINFOA, WTSINFOW, termserv.wtsinfo, wtsapi32/PWTSINFO, wtsapi32/WTSINFO, wtsapi32/WTSINFOA, wtsapi32/WTSINFOW'
 ms.topic: struct
-f1_keywords: 
- - "wtsapi32/WTSINFO"
+f1_keywords:
+- wtsapi32/WTSINFO
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsapi32.h
+- Wtsapi32.h
 api_name:
- - WTSINFO
- - WTSINFOA
- - WTSINFOW
+- WTSINFO
+- WTSINFOA
+- WTSINFOW
 product: Windows
 targetos: Windows
 req.typenames: WTSINFOW, *PWTSINFOW
@@ -63,7 +63,7 @@ Contains information about a Remote Desktop Services session.
 
 ### -field State
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-_wts_connectstate_class">WTS_CONNECTSTATE_CLASS</a> enumeration type that indicates the session's current connection state.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_connectstate_class">WTS_CONNECTSTATE_CLASS</a> enumeration type that indicates the session's current connection state.
 
 
 ### -field SessionId

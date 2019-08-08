@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_PUSH_BYTES_CALLBACK, WS_PUSH_BYTES_CALLBACK callback, WS_PUSH_BYTES_CALLBACK callback function [Web Services for Windows], webservices/WS_PUSH_BYTES_CALLBACK, wsw.ws_push_bytes_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_PUSH_BYTES_CALLBACK"
+f1_keywords:
+- webservices/WS_PUSH_BYTES_CALLBACK
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_PUSH_BYTES_CALLBACK
+- WS_PUSH_BYTES_CALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,7 +82,7 @@ A  void  pointer to the caller-defined state that should be passed when invoking
 
 ### -param *asyncContext [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_async_context">WS_ASYNC_CONTEXT</a> structure containing information on how to invoke the function asynchronously.  Assign  <b>NULL</b> if invoking synchronously.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> structure containing information on how to invoke the function asynchronously.  Assign  <b>NULL</b> if invoking synchronously.
 
 
 ### -param *error [in, optional]

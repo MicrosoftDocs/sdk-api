@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 4642f596-376f-4f63-bf6e-916112ce1ec9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_UNLOCKDATA, DD_UNLOCKDATA, DD_UNLOCKDATA structure [Display Devices], ddrawint/DD_UNLOCKDATA, ddstrcts_1784fe3c-5a41-4428-ac94-06226857ae9a.xml, display.dd_unlockdata"
+ms.keywords: '*PDD_UNLOCKDATA, DD_UNLOCKDATA, DD_UNLOCKDATA structure [Display Devices], ddrawint/DD_UNLOCKDATA, ddstrcts_1784fe3c-5a41-4428-ac94-06226857ae9a.xml, display.dd_unlockdata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_UNLOCKDATA"
+f1_keywords:
+- ddrawint/DD_UNLOCKDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_UNLOCKDATA
+- DD_UNLOCKDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_UNLOCKDATA, DD_UNLOCKDATA"
+req.typenames: '*PDD_UNLOCKDATA, DD_UNLOCKDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,12 +61,12 @@ The DD_UNLOCKDATA structure contains information necessary to do an unlock as de
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 
 ### -field lpDDSurface
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface--in the case of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff570106(v=vs.85)">UnlockD3DBuffer</a>, a buffer--to be unlocked.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface--in the case of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff570106(v=vs.85)">UnlockD3DBuffer</a>, a buffer--to be unlocked.
 
 
 ### -field ddRVal

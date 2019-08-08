@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SspiUnmarshalCredUIContext, SspiUnmarshalCredUIContext function [Security], security.sspiunmarshalcreduicontext, sspi/SspiUnmarshalCredUIContext
 ms.topic: function
-f1_keywords: 
- - "sspi/SspiUnmarshalCredUIContext"
+f1_keywords:
+- sspi/SspiUnmarshalCredUIContext
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Credui.lib
 req.dll: Credui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Credui.dll
- - Ext-MS-Win-security-credui-l1-1-1.dll
- - AnalogCredUI.dll
+- Credui.dll
+- Ext-MS-Win-security-credui-l1-1-1.dll
+- AnalogCredUI.dll
 api_name:
- - SspiUnmarshalCredUIContext
+- SspiUnmarshalCredUIContext
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ The size, in bytes, of the <i>MarshaledCredUIContext</i> buffer.
 
 ### -param CredUIContext [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_credui_context">SEC_WINNT_CREDUI_CONTEXT</a> structure that specifies the deserialized credential information.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_credui_context">SEC_WINNT_CREDUI_CONTEXT</a> structure that specifies the deserialized credential information.
 
 
 ## -returns

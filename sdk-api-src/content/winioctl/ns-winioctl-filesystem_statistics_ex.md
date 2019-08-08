@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: E869CF11-E321-478A-948F-226B04D61492
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFILESYSTEM_STATISTICS_EX, FILESYSTEM_STATISTICS_EX, FILESYSTEM_STATISTICS_EX structure [Files], FILESYSTEM_STATISTICS_TYPE_EXFAT, FILESYSTEM_STATISTICS_TYPE_FAT, FILESYSTEM_STATISTICS_TYPE_NTFS, PFILESYSTEM_STATISTICS_EX, PFILESYSTEM_STATISTICS_EX structure pointer [Files], fs.filesystem_statistics_ex, winioctl/FILESYSTEM_STATISTICS_EX, winioctl/PFILESYSTEM_STATISTICS_EX"
+ms.keywords: '*PFILESYSTEM_STATISTICS_EX, FILESYSTEM_STATISTICS_EX, FILESYSTEM_STATISTICS_EX structure [Files], FILESYSTEM_STATISTICS_TYPE_EXFAT, FILESYSTEM_STATISTICS_TYPE_FAT, FILESYSTEM_STATISTICS_TYPE_NTFS, PFILESYSTEM_STATISTICS_EX, PFILESYSTEM_STATISTICS_EX structure pointer [Files], fs.filesystem_statistics_ex, winioctl/FILESYSTEM_STATISTICS_EX, winioctl/PFILESYSTEM_STATISTICS_EX'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/FILESYSTEM_STATISTICS_EX"
+f1_keywords:
+- winioctl/FILESYSTEM_STATISTICS_EX
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FILESYSTEM_STATISTICS_EX
+- FILESYSTEM_STATISTICS_EX
 product: Windows
 targetos: Windows
 req.typenames: FILESYSTEM_STATISTICS_EX, *PFILESYSTEM_STATISTICS_EX
@@ -81,7 +81,7 @@ This member can be one of the following values.
 The file system is an exFAT file system.
 
 If this value is set, this structure is followed by an 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_exfat_statistics">EXFAT_STATISTICS</a> structure.
+         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-exfat_statistics">EXFAT_STATISTICS</a> structure.
 
 <b>Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Vista with SP1.
 
@@ -97,7 +97,7 @@ If this value is set, this structure is followed by an
 The file system is a FAT file system.
 
 If this value is set, this structure is followed by a 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_fat_statistics">FAT_STATISTICS</a> structure.
+         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-fat_statistics">FAT_STATISTICS</a> structure.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ If this value is set, this structure is followed by a
 The file system is the NTFS file system.
 
 If this value is set, this structure is followed by an 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_ntfs_statistics_ex">NTFS_STATISTICS_EX</a> structure.
+         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-ntfs_statistics_ex">NTFS_STATISTICS_EX</a> structure.
 
 </td>
 </tr>
@@ -131,13 +131,13 @@ The size of this structure plus the size of the file system-specific structure t
 
 This value must be a multiple of 64. For example, if the size of 
        <b>FILESYSTEM_STATISTICS_EX</b> is 0x68, the size of 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_ntfs_statistics_ex">NTFS_STATISTICS_EX</a> is 0x1D8, and if there are 2 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-ntfs_statistics_ex">NTFS_STATISTICS_EX</a> is 0x1D8, and if there are 2 
        processors, the buffer allocated must be 0x480.
 
 sizeof(<b>FILESYSTEM_STATISTICS_EX</b>) = 
        0x68
 
-sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_ntfs_statistics_ex">NTFS_STATISTICS_EX</a>) = 0x1D8
+sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-ntfs_statistics_ex">NTFS_STATISTICS_EX</a>) = 0x1D8
 
 Total Size = 0x240
 
@@ -231,11 +231,11 @@ The number of read and write operations measured is the number of paging operati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_exfat_statistics">EXFAT_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-exfat_statistics">EXFAT_STATISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_fat_statistics">FAT_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-fat_statistics">FAT_STATISTICS</a>
 
 
 
@@ -243,7 +243,7 @@ The number of read and write operations measured is the number of paging operati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_ntfs_statistics_ex">NTFS_STATISTICS_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-ntfs_statistics_ex">NTFS_STATISTICS_EX</a>
  
 
  

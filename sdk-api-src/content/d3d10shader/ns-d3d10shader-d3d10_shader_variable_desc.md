@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 93d99a1e-6d9e-3991-2e0b-086cd3eee8c0, D3D10_SHADER_VARIABLE_DESC, D3D10_SHADER_VARIABLE_DESC structure [Direct3D 10], d3d10shader/D3D10_SHADER_VARIABLE_DESC, direct3d10.d3d10_shader_variable_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d10shader/D3D10_SHADER_VARIABLE_DESC"
+f1_keywords:
+- d3d10shader/D3D10_SHADER_VARIABLE_DESC
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10Shader.h
+- D3D10Shader.h
 api_name:
- - D3D10_SHADER_VARIABLE_DESC
+- D3D10_SHADER_VARIABLE_DESC
 product: Windows
 targetos: Windows
 req.typenames: D3D10_SHADER_VARIABLE_DESC
@@ -84,7 +84,7 @@ Size of the variable (in bytes).
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Flags, which identify shader-variable properties (see <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_variable_flags">D3D10_SHADER_VARIABLE_FLAGS</a>).
+Flags, which identify shader-variable properties (see <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_flags">D3D10_SHADER_VARIABLE_FLAGS</a>).
 
 
 ### -field DefaultValue

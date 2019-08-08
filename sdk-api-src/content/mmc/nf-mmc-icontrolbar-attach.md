@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Attach, Attach method [MMC], Attach method [MMC],IControlbar interface, IControlbar interface [MMC],Attach method, IControlbar.Attach, IControlbar::Attach, _slate_icontrolbar_attach, mmc.icontrolbar_attach, mmc/IControlbar::Attach
 ms.topic: method
-f1_keywords: 
- - "mmc/IControlbar.Attach"
+f1_keywords:
+- mmc/IControlbar.Attach
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IControlbar.Attach
+- IControlbar.Attach
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>IControlbar::Attach</b> method allows the snap-in to associate a control 
 ### -param nType [in]
 
 A value that specifies the type of control to be associated with the control bar, taken from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_control_type">MMC_CONTROL_TYPE</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_control_type">MMC_CONTROL_TYPE</a> enumeration.
 
 
 ### -param lpUnknown [in]

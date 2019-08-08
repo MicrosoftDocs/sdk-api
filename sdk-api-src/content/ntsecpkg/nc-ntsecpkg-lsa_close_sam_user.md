@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseSamUser, CloseSamUser callback function [Security], LSA_CLOSE_SAM_USER, LSA_CLOSE_SAM_USER callback, _ssp_closesamuser, ntsecpkg/CloseSamUser, security.closesamuser
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/CloseSamUser"
+f1_keywords:
+- ntsecpkg/CloseSamUser
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - CloseSamUser
+- CloseSamUser
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -100,7 +100,7 @@ The value specified for <i>UserHandle</i> is not valid or <b>NULL</b>.
 
 
 A pointer to the <b>CloseSamUser</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 
@@ -111,7 +111,7 @@ A pointer to the <b>CloseSamUser</b> function is available in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 

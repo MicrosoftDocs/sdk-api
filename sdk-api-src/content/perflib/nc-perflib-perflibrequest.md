@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ControlCallback, ControlCallback callback function [Perf], PERFLIBREQUEST, PERFLIBREQUEST callback, PERF_ADD_COUNTER, PERF_COLLECT_END, PERF_COLLECT_START, PERF_ENUM_INSTANCES, PERF_REMOVE_COUNTER, base.controlcallback_perflibv2, perf.controlcallback_perflibv2, perflib/ControlCallback
 ms.topic: callback
-f1_keywords: 
- - "perflib/ControlCallback"
+f1_keywords:
+- perflib/ControlCallback
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Perflib.h
+- Perflib.h
 api_name:
- - ControlCallback
+- ControlCallback
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -79,7 +79,7 @@ The request code can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-The consumer is adding a counter to the query. PERFLIB calls the callback with this request code for each counter  being added to the query. The  <i>Buffer</i> parameter contains a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identity">PERF_COUNTER_IDENTITY</a> structure that identifies the counter being added.
+The consumer is adding a counter to the query. PERFLIB calls the callback with this request code for each counter  being added to the query. The  <i>Buffer</i> parameter contains a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_identity">PERF_COUNTER_IDENTITY</a> structure that identifies the counter being added.
 
 Providers can use this notification to start counting.
 
@@ -91,7 +91,7 @@ Providers can use this notification to start counting.
 </dl>
 </td>
 <td width="60%">
-The consumer is removing a counter from the query. PERFLIB calls the callback with this request code for each counter  being removed from the query. The  <i>Buffer</i> parameter contains a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identity">PERF_COUNTER_IDENTITY</a> structure that identifies the counter being removed.
+The consumer is removing a counter from the query. PERFLIB calls the callback with this request code for each counter  being removed from the query. The  <i>Buffer</i> parameter contains a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_identity">PERF_COUNTER_IDENTITY</a> structure that identifies the counter being removed.
 
 Providers can use this notification to stop counting.
 

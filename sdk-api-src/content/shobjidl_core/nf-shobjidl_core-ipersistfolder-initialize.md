@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistFolder interface [Windows Shell],Initialize method, IPersistFolder.Initialize, IPersistFolder::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IPersistFolder interface, _win32_IPersistFolder_Initialize, shell.IPersistFolder_Initialize, shobjidl_core/IPersistFolder::Initialize
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IPersistFolder.Initialize"
+f1_keywords:
+- shobjidl_core/IPersistFolder.Initialize
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IPersistFolder.Initialize
+- IPersistFolder.Initialize
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Instructs a Shell folder object to initialize itself based on the information pa
 
 Type: <b>LPCITEMIDLIST</b>
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> (item identifier list) structure that specifies the absolute location of the folder.
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> (item identifier list) structure that specifies the absolute location of the folder.
 
 
 ## -returns

@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 4f408115-c073-4e9f-b316-8ad3f03acf53
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_SERVER_AUTHENTICATION_INFO, *PHTTP_SERVER_AUTHENTICATION_INFO structure [HTTP], HTTP_AUTH_ENABLE_ALL, HTTP_AUTH_ENABLE_BASIC, HTTP_AUTH_ENABLE_DIGEST, HTTP_AUTH_ENABLE_KERBEROS, HTTP_AUTH_ENABLE_NEGOTIATE, HTTP_AUTH_ENABLE_NTLM, HTTP_AUTH_EX_FLAG_CAPTURE_CREDENTIAL, HTTP_AUTH_EX_FLAG_ENABLE_KERBEROS_CREDENTIAL_CACHING, HTTP_SERVER_AUTHENTICATION_INFO, HTTP_SERVER_AUTHENTICATION_INFO structure [HTTP], http.http_server_authentication_info, http/*PHTTP_SERVER_AUTHENTICATION_INFO, http/HTTP_SERVER_AUTHENTICATION_INFO"
+ms.keywords: '*PHTTP_SERVER_AUTHENTICATION_INFO, *PHTTP_SERVER_AUTHENTICATION_INFO structure [HTTP], HTTP_AUTH_ENABLE_ALL, HTTP_AUTH_ENABLE_BASIC, HTTP_AUTH_ENABLE_DIGEST, HTTP_AUTH_ENABLE_KERBEROS, HTTP_AUTH_ENABLE_NEGOTIATE, HTTP_AUTH_ENABLE_NTLM, HTTP_AUTH_EX_FLAG_CAPTURE_CREDENTIAL, HTTP_AUTH_EX_FLAG_ENABLE_KERBEROS_CREDENTIAL_CACHING, HTTP_SERVER_AUTHENTICATION_INFO, HTTP_SERVER_AUTHENTICATION_INFO structure [HTTP], http.http_server_authentication_info, http/*PHTTP_SERVER_AUTHENTICATION_INFO, http/HTTP_SERVER_AUTHENTICATION_INFO'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_SERVER_AUTHENTICATION_INFO"
+f1_keywords:
+- http/HTTP_SERVER_AUTHENTICATION_INFO
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_SERVER_AUTHENTICATION_INFO
+- HTTP_SERVER_AUTHENTICATION_INFO
 product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVER_AUTHENTICATION_INFO, *PHTTP_SERVER_AUTHENTICATION_INFO
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>HTTP_SERVER_AUTHENTICATION_INFO</b> structure is used to enable server-side authentication on a URL group or server session. This structure is also used to query the existing authentication schemes enabled for a URL group or server session.
 
-This structure must be used when setting or querying the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HttpServerAuthenticationProperty</a> on a URL group, or server session.
+This structure must be used when setting or querying the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HttpServerAuthenticationProperty</a> on a URL group, or server session.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ This structure must be used when setting or querying the <a href="https://docs.m
 
 ### -field Flags
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_property_flags">HTTP_PROPERTY_FLAGS</a> structure that specifies if the property is present.
+The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_property_flags">HTTP_PROPERTY_FLAGS</a> structure that specifies if the property is present.
 
 
 ### -field AuthSchemes
@@ -193,12 +193,12 @@ If set, the Kerberos authentication credentials are cached. Kerberos or Negotiat
 
 ### -field DigestParams
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_server_authentication_digest_params">HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS</a> structure that provides the domain and realm for the digest challenge.
+The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_server_authentication_digest_params">HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS</a> structure that provides the domain and realm for the digest challenge.
 
 
 ### -field BasicParams
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_server_authentication_basic_params">HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS</a> structure that provides the realm for the basic challenge.
+The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_server_authentication_basic_params">HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS</a> structure that provides the realm for the basic challenge.
 
 
 ## -remarks
@@ -223,7 +223,7 @@ The <b>HTTP_SERVER_AUTHENTICATION_INFO</b> structure is included in the HTTP req
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HTTP_SERVER_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HTTP_SERVER_PROPERTY</a>
 
 
 

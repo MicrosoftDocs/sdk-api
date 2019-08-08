@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 10de9dd4-0f6c-4431-a60d-9b9c60585676
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPKU2U_LOGON_SUBMIT_TYPE, PKU2U_LOGON_SUBMIT_TYPE, PKU2U_LOGON_SUBMIT_TYPE enumeration [Security], PPKU2U_LOGON_SUBMIT_TYPE, PPKU2U_LOGON_SUBMIT_TYPE enumeration pointer [Security], Pku2uCertificateS4ULogon, ntsecapi/PKU2U_LOGON_SUBMIT_TYPE, ntsecapi/PPKU2U_LOGON_SUBMIT_TYPE, ntsecapi/Pku2uCertificateS4ULogon, security.pku2u_logon_submit_type"
+ms.keywords: '*PPKU2U_LOGON_SUBMIT_TYPE, PKU2U_LOGON_SUBMIT_TYPE, PKU2U_LOGON_SUBMIT_TYPE enumeration [Security], PPKU2U_LOGON_SUBMIT_TYPE, PPKU2U_LOGON_SUBMIT_TYPE enumeration pointer [Security], Pku2uCertificateS4ULogon, ntsecapi/PKU2U_LOGON_SUBMIT_TYPE, ntsecapi/PPKU2U_LOGON_SUBMIT_TYPE, ntsecapi/Pku2uCertificateS4ULogon, security.pku2u_logon_submit_type'
 ms.topic: enum
-f1_keywords: 
- - "ntsecapi/PKU2U_LOGON_SUBMIT_TYPE"
+f1_keywords:
+- ntsecapi/PKU2U_LOGON_SUBMIT_TYPE
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - PKU2U_LOGON_SUBMIT_TYPE
+- PKU2U_LOGON_SUBMIT_TYPE
 product: Windows
 targetos: Windows
 req.typenames: PKU2U_LOGON_SUBMIT_TYPE, *PPKU2U_LOGON_SUBMIT_TYPE
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates the  type of logon message passed in a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_pku2u_certificate_s4u_logon">PKU2U_CERTIFICATE_S4U_LOGON</a> structure.
+Indicates the  type of logon message passed in a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-pku2u_certificate_s4u_logon">PKU2U_CERTIFICATE_S4U_LOGON</a> structure.
 
 
 ## -enum-fields

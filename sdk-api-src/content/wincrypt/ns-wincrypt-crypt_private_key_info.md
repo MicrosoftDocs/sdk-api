@@ -2,16 +2,16 @@
 UID: NS:wincrypt._CRYPT_PRIVATE_KEY_INFO
 title: CRYPT_PRIVATE_KEY_INFO (wincrypt.h)
 author: windows-sdk-content
-description: Contains a clear-text private key in the PrivateKey field (DER encoded). CRYPT_PRIVATE_KEY_INFO contains the information in a PKCS #8 PrivateKeyInfo ASN.1 type found in the PKCS #8 standard.
+description: Contains a clear-text private key in the PrivateKey field (DER encoded). CRYPT_PRIVATE_KEY_INFO contains the information in a PKCS
 old-location: security\crypt_private_key_info.htm
 tech.root: SecCrypto
 ms.assetid: 63a5d1c2-88b3-45fa-94d3-2179cb8802c9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_PRIVATE_KEY_INFO, CRYPT_PRIVATE_KEY_INFO, CRYPT_PRIVATE_KEY_INFO structure [Security], PCRYPT_PRIVATE_KEY_INFO, PCRYPT_PRIVATE_KEY_INFO structure pointer [Security], security.crypt_private_key_info, wincrypt/CRYPT_PRIVATE_KEY_INFO, wincrypt/PCRYPT_PRIVATE_KEY_INFO"
+ms.keywords: '*PCRYPT_PRIVATE_KEY_INFO, CRYPT_PRIVATE_KEY_INFO, CRYPT_PRIVATE_KEY_INFO structure [Security], PCRYPT_PRIVATE_KEY_INFO, PCRYPT_PRIVATE_KEY_INFO structure pointer [Security], security.crypt_private_key_info, wincrypt/CRYPT_PRIVATE_KEY_INFO, wincrypt/PCRYPT_PRIVATE_KEY_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_PRIVATE_KEY_INFO"
+f1_keywords:
+- wincrypt/CRYPT_PRIVATE_KEY_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_PRIVATE_KEY_INFO
+- CRYPT_PRIVATE_KEY_INFO
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_PRIVATE_KEY_INFO, *PCRYPT_PRIVATE_KEY_INFO
@@ -69,7 +69,7 @@ A <b>DWORD</b>  value that identifies the PKCS #8 version.
 
 ### -field Algorithm
 
-A  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>  structure that indicates the algorithm in which the private key (RSA or DSA) is to be used.
+A  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>  structure that indicates the algorithm in which the private key (RSA or DSA) is to be used.
 
 
 ### -field PrivateKey
@@ -79,7 +79,7 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/a
 
 ### -field pAttributes
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attributes">CRYPT_ATTRIBUTES</a>  structure that identifies the PKCS #8 attributes.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attributes">CRYPT_ATTRIBUTES</a>  structure that identifies the PKCS #8 attributes.
 
 
 ## -see-also

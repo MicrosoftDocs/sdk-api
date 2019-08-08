@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_IPV6_CGA_AUTHENTICATION0, IKEEXT_IPV6_CGA_AUTHENTICATION0 structure [Filtering], fwp.ikeext_ipv6_cga_authentication0, iketypes/IKEEXT_IPV6_CGA_AUTHENTICATION0
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_IPV6_CGA_AUTHENTICATION0"
+f1_keywords:
+- iketypes/IKEEXT_IPV6_CGA_AUTHENTICATION0
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_IPV6_CGA_AUTHENTICATION0
+- IKEEXT_IPV6_CGA_AUTHENTICATION0
 product: Windows
 targetos: Windows
 req.typenames: IKEEXT_IPV6_CGA_AUTHENTICATION0
@@ -63,21 +63,21 @@ The <b>IKEEXT_IPV6_CGA_AUTHENTICATION0</b> structure is used to specify various 
 
 Key container name of the public key/private key pair that was used to generate the CGA.
 
-Same semantics as the <b>pwszContainerName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
+Same semantics as the <b>pwszContainerName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
 
 
 ### -field cspName
 
 Name of the CSP that stores the key container. If <b>NULL</b>, default provider will be used.
 
-Same semantics as the <b>pwszProvName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
+Same semantics as the <b>pwszProvName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
 
 
 ### -field cspType
 
 Type of the CSP that stores the key container.
 
-Same semantics as the <b>dwProvType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
+Same semantics as the <b>dwProvType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
 
 
 ### -field cgaModifier
@@ -108,7 +108,7 @@ See CGA RFC for more information.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a>
 
 
 

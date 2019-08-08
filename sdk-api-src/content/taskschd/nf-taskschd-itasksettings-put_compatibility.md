@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Compatibility property [Task Scheduler], Compatibility property [Task Scheduler],ITaskSettings interface, ITaskSettings interface [Task Scheduler],Compatibility property, ITaskSettings.Compatibility, ITaskSettings.put_Compatibility, ITaskSettings::Compatibility, ITaskSettings::get_Compatibility, ITaskSettings::put_Compatibility, TASK_COMPATIBILITY_AT, TASK_COMPATIBILITY_V1, TASK_COMPATIBILITY_V2, put_Compatibility, taskschd.itasksettings_compatibility, taskschd/ITaskSettings::Compatibility, taskschd/ITaskSettings::get_Compatibility, taskschd/ITaskSettings::put_Compatibility
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskSettings.Compatibility"
+f1_keywords:
+- taskschd/ITaskSettings.Compatibility
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskSettings.Compatibility
- - ITaskSettings.get_Compatibility
- - ITaskSettings.put_Compatibility
+- ITaskSettings.Compatibility
+- ITaskSettings.get_Compatibility
+- ITaskSettings.put_Compatibility
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -85,7 +85,7 @@ For more information about task compatibility, see <a href="https://docs.microso
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-_task_compatibility">TASK_COMPATIBILITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-task_compatibility">TASK_COMPATIBILITY</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RSoPSetPolicySettingStatus, RSoPSetPolicySettingStatus function [Group Policy], RsopSetPolicySettingStatus, _win32_rsopsetpolicysettingstatus, policy.rsopsetpolicysettingstatus, userenv/RSoPSetPolicySettingStatus
 ms.topic: function
-f1_keywords: 
- - "userenv/RSoPSetPolicySettingStatus"
+f1_keywords:
+- userenv/RSoPSetPolicySettingStatus
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - RSoPSetPolicySettingStatus
+- RSoPSetPolicySettingStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -88,7 +88,7 @@ Specifies the number of elements in the <i>pStatus</i> array.
 ### -param pStatus [in]
 
 Pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_policysettingstatusinfo">POLICYSETTINGSTATUSINFO</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-policysettingstatusinfo">POLICYSETTINGSTATUSINFO</a> structures.
 
 
 ## -returns

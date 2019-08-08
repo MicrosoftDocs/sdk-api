@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsAsyncExecute, WsAsyncExecute function [Web Services for Windows], webservices/WsAsyncExecute, wsw.wsasyncexecute
 ms.topic: function
-f1_keywords: 
- - "webservices/WsAsyncExecute"
+f1_keywords:
+- webservices/WsAsyncExecute
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsAsyncExecute
+- WsAsyncExecute
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Helper function for implementing an <a href="https://docs.microsoft.com/windows/
 
 ### -param asyncState [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_async_state">WS_ASYNC_STATE</a> structure used during the asynchronous operation.  This is a state maintenance parameter not intended
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_async_state">WS_ASYNC_STATE</a> structure used during the asynchronous operation.  This is a state maintenance parameter not intended
                 for direct use.  The application must allocate  the <b>WS_ASYNC_STATE</b> structure and ensure that it 
                 is kept alive during the entire asynchronous operation.  The <b>WS_ASYNC_STATE</b> structure can be reused after an 
                 asynchronous operation has completed.
@@ -122,7 +122,7 @@ In many cases, an asynchronous operation is composed of other asynchronous opera
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_async_state">WS_ASYNC_STATE</a> parameter is used by <b>WsAsyncExecute</b> to maintain its state, and is not intended to be initialized, inspected, or used by the caller. The caller however, must allocate the <b>WS_ASYNC_STATE</b> and ensure that it is kept alive during the entire asynchronous operation. The <b>WS_ASYNC_STATE</b> may be reused once the asynchronous operation is complete.
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_async_state">WS_ASYNC_STATE</a> parameter is used by <b>WsAsyncExecute</b> to maintain its state, and is not intended to be initialized, inspected, or used by the caller. The caller however, must allocate the <b>WS_ASYNC_STATE</b> and ensure that it is kept alive during the entire asynchronous operation. The <b>WS_ASYNC_STATE</b> may be reused once the asynchronous operation is complete.
 
 The examples <a href="https://docs.microsoft.com/windows/desktop/wsw/asyncadd3explicitexample">AsyncAdd3ExplicitExample</a> and <a href="https://docs.microsoft.com/windows/desktop/wsw/asyncadd3implicitexample">AsyncAdd3ImplicitExample</a> demonstrate implementing
                 the same asynchronous function manually using <b>WsAsyncExecute</b>.

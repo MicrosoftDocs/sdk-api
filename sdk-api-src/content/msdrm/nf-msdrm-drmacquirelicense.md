@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMAcquireLicense, DRMAcquireLicense function [Active Directory Rights Management Services SDK 1.0], DRM_AL_CANCEL, DRM_AL_FETCHNOADVISORY, DRM_AL_NONSILENT, DRM_AL_NOPERSIST, DRM_AL_NOUI, msdrm/DRMAcquireLicense, rm.drmacquirelicense
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMAcquireLicense"
+f1_keywords:
+- msdrm/DRMAcquireLicense
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMAcquireLicense
+- DRMAcquireLicense
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -178,7 +178,7 @@ This function can occur silently or nonsilently.
      nonsilent license acquisition is no longer supported, and MSDRMCtrl.dll is not shipped.</div>
 <div> </div>
 In nonsilent license acquisition, a license acquisition URL is returned to the callback function in a 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/ns-msdrmdefs-_drm_license_acq_data">DRM_LICENSE_ACQ_DATA</a> structure. The application then 
+     <a href="https://docs.microsoft.com/windows/desktop/api/msdrmdefs/ns-msdrmdefs-drm_license_acq_data">DRM_LICENSE_ACQ_DATA</a> structure. The application then 
      opens a web browser that is directed to a URL that specifies an HTML page that contains the ActiveX control in 
      MSDRMCtrl.dll. The page is used to obtain additional information, such as a credit card number, and 
      then calls the ActiveX control's <b>AcquireLicense</b> 

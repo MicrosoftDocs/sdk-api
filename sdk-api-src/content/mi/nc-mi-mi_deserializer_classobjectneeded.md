@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Deserializer_ClassObjectNeeded, MI_Deserializer_ClassObjectNeeded callback, MI_Deserializer_ClassObjectNeeded callback function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_ClassObjectNeeded, wmi_v2.mi_deserializer_classobjectneeded
 ms.topic: callback
-f1_keywords: 
- - "mi/MI_Deserializer_ClassObjectNeeded"
+f1_keywords:
+- mi/MI_Deserializer_ClassObjectNeeded
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Deserializer_ClassObjectNeeded
+- MI_Deserializer_ClassObjectNeeded
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -81,19 +81,19 @@ The class of the object.
 
 #### - **requestedClassObject [out]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_class">MI_Class</a> representing the requested class object.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> representing the requested class object.
 
 
 #### - requestedClassObject [out]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_class">MI_Class</a> representing the requested class object.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> representing the requested class object.
 
 
 ## -returns
 
 
 
-Returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> indicating the status of the operation.
+Returns a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> indicating the status of the operation.
 
 
 
@@ -103,7 +103,7 @@ Returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_deserializerft">MI_DeserializerFT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_deserializerft">MI_DeserializerFT</a>
 
 
 

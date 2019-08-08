@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 29422116-0a33-4553-98aa-785bb926dee0
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_RESPONSE_INFO, *PHTTP_RESPONSE_INFO structure [HTTP], HTTP_RESPONSE_INFO, HTTP_RESPONSE_INFO structure [HTTP], http.http_response_info, http/*PHTTP_RESPONSE_INFO, http/HTTP_RESPONSE_INFO"
+ms.keywords: '*PHTTP_RESPONSE_INFO, *PHTTP_RESPONSE_INFO structure [HTTP], HTTP_RESPONSE_INFO, HTTP_RESPONSE_INFO structure [HTTP], http.http_response_info, http/*PHTTP_RESPONSE_INFO, http/HTTP_RESPONSE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_RESPONSE_INFO"
+f1_keywords:
+- http/HTTP_RESPONSE_INFO
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_RESPONSE_INFO
+- HTTP_RESPONSE_INFO
 product: Windows
 targetos: Windows
 req.typenames: HTTP_RESPONSE_INFO, *PHTTP_RESPONSE_INFO
@@ -61,7 +61,7 @@ The <b>HTTP_RESPONSE_INFO</b> structure extends the <a href="https://docs.micros
 
 ### -field Type
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_response_info_type">HTTP_RESPONSE_INFO_TYPE</a> enumeration specifying the type of information contained in this structure.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_response_info_type">HTTP_RESPONSE_INFO_TYPE</a> enumeration specifying the type of information contained in this structure.
 
 
 ### -field Length
@@ -71,7 +71,7 @@ The length, in bytes, of the <b>pInfo</b> member.
 
 ### -field pInfo
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_multiple_known_headers">HTTP_MULTIPLE_KNOWN_HEADERS</a> structure when the <b>InfoType</b> member is <b>HttpResponseInfoTypeMultipleKnownHeaders</b>; otherwise <b>NULL</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_multiple_known_headers">HTTP_MULTIPLE_KNOWN_HEADERS</a> structure when the <b>InfoType</b> member is <b>HttpResponseInfoTypeMultipleKnownHeaders</b>; otherwise <b>NULL</b>.
 
 
 ## -remarks
@@ -96,7 +96,7 @@ Starting with the HTTP Server API version 2.0, the HTTP_RESPONSE structure is ex
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_v2">HTTP_RESPONSE_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_v2">HTTP_RESPONSE_V2</a>
  
 
  

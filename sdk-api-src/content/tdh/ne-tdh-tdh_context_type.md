@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TDH_CONTEXT_MAXIMUM, TDH_CONTEXT_PDB_PATH, TDH_CONTEXT_POINTERSIZE, TDH_CONTEXT_TYPE, TDH_CONTEXT_TYPE enumeration [ETW], TDH_CONTEXT_WPP_GMT, TDH_CONTEXT_WPP_TMFFILE, TDH_CONTEXT_WPP_TMFSEARCHPATH, etw.tdh_context_type_enum, tdh.tdh_context_type_enum, tdh/TDH_CONTEXT_MAXIMUM, tdh/TDH_CONTEXT_PDB_PATH, tdh/TDH_CONTEXT_POINTERSIZE, tdh/TDH_CONTEXT_TYPE, tdh/TDH_CONTEXT_WPP_GMT, tdh/TDH_CONTEXT_WPP_TMFFILE, tdh/TDH_CONTEXT_WPP_TMFSEARCHPATH
 ms.topic: enum
-f1_keywords: 
- - "tdh/TDH_CONTEXT_TYPE"
+f1_keywords:
+- tdh/TDH_CONTEXT_TYPE
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tdh.h
+- Tdh.h
 api_name:
- - TDH_CONTEXT_TYPE
+- TDH_CONTEXT_TYPE
 product: Windows
 targetos: Windows
 req.typenames: TDH_CONTEXT_TYPE
@@ -115,7 +115,7 @@ If you are specifying context information for a legacy ETW event, you only need 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_tdh_context">TDH_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-tdh_context">TDH_CONTEXT</a>
  
 
  

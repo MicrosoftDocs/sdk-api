@@ -8,10 +8,10 @@ tech.root: NetVista
 ms.assetid: 9bfcd319-faff-4bae-8653-511154c19863
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PNDIS_INTERFACE_INFORMATION, NDIS_INTERFACE_INFORMATION, NDIS_INTERFACE_INFORMATION structure [Network Drivers Starting with Windows Vista], PNDIS_INTERFACE_INFORMATION, PNDIS_INTERFACE_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], ifdef/NDIS_INTERFACE_INFORMATION, ifdef/PNDIS_INTERFACE_INFORMATION, net_if_struct_ref_7b31aa66-635c-4992-b5d6-301c004bdc8a.xml, netvista.ndis_interface_information_str"
+ms.keywords: '*PNDIS_INTERFACE_INFORMATION, NDIS_INTERFACE_INFORMATION, NDIS_INTERFACE_INFORMATION structure [Network Drivers Starting with Windows Vista], PNDIS_INTERFACE_INFORMATION, PNDIS_INTERFACE_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], ifdef/NDIS_INTERFACE_INFORMATION, ifdef/PNDIS_INTERFACE_INFORMATION, net_if_struct_ref_7b31aa66-635c-4992-b5d6-301c004bdc8a.xml, netvista.ndis_interface_information_str'
 ms.topic: struct
-f1_keywords: 
- - "ifdef/NDIS_INTERFACE_INFORMATION"
+f1_keywords:
+- ifdef/NDIS_INTERFACE_INFORMATION
 req.header: ifdef.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ifdef.h
+- ifdef.h
 api_name:
- - NDIS_INTERFACE_INFORMATION
+- NDIS_INTERFACE_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: NDIS_INTERFACE_INFORMATION, *PNDIS_INTERFACE_INFORMATION
@@ -76,7 +76,7 @@ The operational status flags of the interface. This field is reserved for the ND
 ### -field MediaConnectState
 
 The 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_media_connect_state">NET_IF_MEDIA_CONNECT_STATE</a> connection state type.
+     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-net_if_media_connect_state">NET_IF_MEDIA_CONNECT_STATE</a> connection state type.
 
 
 ### -field MediaDuplexState
@@ -324,7 +324,7 @@ To register as an interface provider, an NDIS driver calls the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_media_connect_state">NET_IF_MEDIA_CONNECT_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-net_if_media_connect_state">NET_IF_MEDIA_CONNECT_STATE</a>
 
 
 

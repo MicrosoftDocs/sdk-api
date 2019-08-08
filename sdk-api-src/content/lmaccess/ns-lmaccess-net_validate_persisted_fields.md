@@ -8,10 +8,10 @@ tech.root: NetMgmt
 ms.assetid: 1e6ea28a-a007-4cd1-b5d6-686bcf019fa1
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PNET_VALIDATE_PERSISTED_FIELDS, NET_VALIDATE_BAD_PASSWORD_COUNT, NET_VALIDATE_BAD_PASSWORD_TIME, NET_VALIDATE_LOCKOUT_TIME, NET_VALIDATE_PASSWORD_HISTORY, NET_VALIDATE_PASSWORD_HISTORY_LENGTH, NET_VALIDATE_PASSWORD_LAST_SET, NET_VALIDATE_PERSISTED_FIELDS, NET_VALIDATE_PERSISTED_FIELDS structure [Network Management], PNET_VALIDATE_PERSISTED_FIELDS, PNET_VALIDATE_PERSISTED_FIELDS structure pointer [Network Management], lmaccess/NET_VALIDATE_PERSISTED_FIELDS, lmaccess/PNET_VALIDATE_PERSISTED_FIELDS, netmgmt.net_validate_persisted_fields"
+ms.keywords: '*PNET_VALIDATE_PERSISTED_FIELDS, NET_VALIDATE_BAD_PASSWORD_COUNT, NET_VALIDATE_BAD_PASSWORD_TIME, NET_VALIDATE_LOCKOUT_TIME, NET_VALIDATE_PASSWORD_HISTORY, NET_VALIDATE_PASSWORD_HISTORY_LENGTH, NET_VALIDATE_PASSWORD_LAST_SET, NET_VALIDATE_PERSISTED_FIELDS, NET_VALIDATE_PERSISTED_FIELDS structure [Network Management], PNET_VALIDATE_PERSISTED_FIELDS, PNET_VALIDATE_PERSISTED_FIELDS structure pointer [Network Management], lmaccess/NET_VALIDATE_PERSISTED_FIELDS, lmaccess/PNET_VALIDATE_PERSISTED_FIELDS, netmgmt.net_validate_persisted_fields'
 ms.topic: struct
-f1_keywords: 
- - "lmaccess/NET_VALIDATE_PERSISTED_FIELDS"
+f1_keywords:
+- lmaccess/NET_VALIDATE_PERSISTED_FIELDS
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmaccess.h
+- Lmaccess.h
 api_name:
- - NET_VALIDATE_PERSISTED_FIELDS
+- NET_VALIDATE_PERSISTED_FIELDS
 product: Windows
 targetos: Windows
 req.typenames: NET_VALIDATE_PERSISTED_FIELDS, *PNET_VALIDATE_PERSISTED_FIELDS
@@ -173,7 +173,7 @@ The number of previous passwords saved in the history list for the account. The 
 
 Type: <b>PNET_VALIDATE_PASSWORD_HASH</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_validate_password_hash">NET_VALIDATE_PASSWORD_HASH</a> structure that contains the password hashes in the history list.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_password_hash">NET_VALIDATE_PASSWORD_HASH</a> structure that contains the password hashes in the history list.
 
 
 ## -remarks
@@ -182,7 +182,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/
 
 Note that it is the application's responsibility to save all changed persistent data as well as any user object information. The next time the application calls <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netvalidatepasswordpolicy">NetValidatePasswordPolicy</a> on the same instance of the user object, the application must provide the required fields from the persistent information.
 
-The <a href="https://docs.microsoft.com/windows/win32/api/lmaccess/ns-lmaccess-net_validate_authentication_input_arg">NET_VALIDATE_AUTHENTICATION_INPUT_ARG</a>, <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_validate_password_change_input_arg">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a>, <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_validate_password_reset_input_arg">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_validate_output_arg">NET_VALIDATE_OUTPUT_ARG</a> structures contain a <b>NET_VALIDATE_PERSISTED_FIELDS</b> structure.
+The <a href="https://docs.microsoft.com/windows/win32/api/lmaccess/ns-lmaccess-net_validate_authentication_input_arg">NET_VALIDATE_AUTHENTICATION_INPUT_ARG</a>, <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_password_change_input_arg">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a>, <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_password_reset_input_arg">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_output_arg">NET_VALIDATE_OUTPUT_ARG</a> structures contain a <b>NET_VALIDATE_PERSISTED_FIELDS</b> structure.
 
 
 

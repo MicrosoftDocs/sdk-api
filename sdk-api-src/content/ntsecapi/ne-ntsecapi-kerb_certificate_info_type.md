@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: B6BAF09D-D284-4287-B760-32E4D5A9F091
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PKERB_CERTIFICATE_INFO_TYPE, CertHashInfo, KERB_CERTIFICATE_INFO_TYPE, KERB_CERTIFICATE_INFO_TYPE enumeration [Security], ntsecapi/CertHashInfo, ntsecapi/KERB_CERTIFICATE_INFO_TYPE, security.kerb_certificate_info_type"
+ms.keywords: '*PKERB_CERTIFICATE_INFO_TYPE, CertHashInfo, KERB_CERTIFICATE_INFO_TYPE, KERB_CERTIFICATE_INFO_TYPE enumeration [Security], ntsecapi/CertHashInfo, ntsecapi/KERB_CERTIFICATE_INFO_TYPE, security.kerb_certificate_info_type'
 ms.topic: enum
-f1_keywords: 
- - "ntsecapi/KERB_CERTIFICATE_INFO_TYPE"
+f1_keywords:
+- ntsecapi/KERB_CERTIFICATE_INFO_TYPE
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - KERB_CERTIFICATE_INFO_TYPE
+- KERB_CERTIFICATE_INFO_TYPE
 product: Windows
 targetos: Windows
 req.typenames: KERB_CERTIFICATE_INFO_TYPE, *PKERB_CERTIFICATE_INFO_TYPE
@@ -61,6 +61,6 @@ The <b>KERB_CERTIFICATE_INFO_TYPE</b> enumeration specifies the type of certific
 
 ### -field CertHashInfo
 
-Identifies certificate hash information as defined by the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_certificate_hashinfo">KERB_CERTIFICATE_HASHINFO</a> structure.
+Identifies certificate hash information as defined by the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_hashinfo">KERB_CERTIFICATE_HASHINFO</a> structure.
 
 

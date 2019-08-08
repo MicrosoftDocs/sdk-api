@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterRoleDHCP, ClusterRoleDTC, ClusterRoleFileServer, ClusterRoleGenericApplication, ClusterRoleGenericScript, ClusterRoleGenericService, ClusterRoleISCSINameServer, ClusterRoleMSMQ, ClusterRoleNFS, ClusterRolePrintServer, ClusterRoleStandAloneNamespaceServer, ClusterRoleVolumeShadowCopyServiceTask, ClusterRoleWINS, ResUtilGetClusterRoleState, ResUtilGetClusterRoleState function [Failover Cluster], mscs.resutilgetclusterrolestate, resapi/ResUtilGetClusterRoleState
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetClusterRoleState"
+f1_keywords:
+- resapi/ResUtilGetClusterRoleState
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: ResUtils.lib; ResApi.lib on Windows Server 2008 R2 and Windows Server
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilGetClusterRoleState
+- ResUtilGetClusterRoleState
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ The handle of the queried cluster.
 
 ### -param eClusterRole [in]
 
-The role the cluster was queried about.  The possible values for this parameter are enumerators from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ne-resapi-_cluster_role">CLUSTER_ROLE</a> enumeration.  The following values are valid.
+The role the cluster was queried about.  The possible values for this parameter are enumerators from the <a href="https://docs.microsoft.com/windows/desktop/api/resapi/ne-resapi-cluster_role">CLUSTER_ROLE</a> enumeration.  The following values are valid.
 
 
 
@@ -151,7 +151,7 @@ This enumerator represents the WINS Service cluster role.
 
 
 
-The possible return values for this function are enumerators from the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ne-resapi-_cluster_role_state">CLUSTER_ROLE_STATE</a> enumeration.  The following values are valid.
+The possible return values for this function are enumerators from the  <a href="https://docs.microsoft.com/windows/desktop/api/resapi/ne-resapi-cluster_role_state">CLUSTER_ROLE_STATE</a> enumeration.  The following values are valid.
 
 <table>
 <tr>
@@ -205,11 +205,11 @@ The role is not clustered.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ne-resapi-_cluster_role">CLUSTER_ROLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/ne-resapi-cluster_role">CLUSTER_ROLE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ne-resapi-_cluster_role_state">CLUSTER_ROLE_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/ne-resapi-cluster_role_state">CLUSTER_ROLE_STATE</a>
 
 
 

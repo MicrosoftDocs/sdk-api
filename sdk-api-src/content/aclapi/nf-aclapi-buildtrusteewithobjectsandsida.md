@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BuildTrusteeWithObjectsAndSid, BuildTrusteeWithObjectsAndSid function [Security], BuildTrusteeWithObjectsAndSidA, BuildTrusteeWithObjectsAndSidW, _win32_buildtrusteewithobjectsandsid, aclapi/BuildTrusteeWithObjectsAndSid, aclapi/BuildTrusteeWithObjectsAndSidA, aclapi/BuildTrusteeWithObjectsAndSidW, security.buildtrusteewithobjectsandsid
 ms.topic: function
-f1_keywords: 
- - "aclapi/BuildTrusteeWithObjectsAndSid"
+f1_keywords:
+- aclapi/BuildTrusteeWithObjectsAndSid
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-security-trustee-l1-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-security-trustee-l1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-security-trustee-l1-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-security-trustee-l1-1-1.dll
 api_name:
- - BuildTrusteeWithObjectsAndSid
- - BuildTrusteeWithObjectsAndSidA
- - BuildTrusteeWithObjectsAndSidW
+- BuildTrusteeWithObjectsAndSid
+- BuildTrusteeWithObjectsAndSidA
+- BuildTrusteeWithObjectsAndSidW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 The <b>BuildTrusteeWithObjectsAndSid</b> function initializes a 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure with the object-specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) information and initializes the remaining members of the structure to default values. The caller also specifies the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that represents the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> of the trustee.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that represents the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> of the trustee.
 
 
 ## -parameters
@@ -92,7 +92,7 @@ A pointer to a <a href="https://docs.microsoft.com/previous-versions/aa373931(v=
 ### -param pSid [in, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that identifies the trustee.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that identifies the trustee.
 
 
 ## -returns
@@ -151,11 +151,11 @@ For more information about object-specific ACEs, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_se_object_type">SE_OBJECT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 

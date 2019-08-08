@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_LUN_INFORMATION, VDS_LUN_INFORMATION structure [VDS], base.vds_lun_information, vdslun/_VDS_LUN_INFORMATION
 ms.topic: struct
-f1_keywords: 
- - "vdslun/VDS_LUN_INFORMATION"
+f1_keywords:
+- vdslun/VDS_LUN_INFORMATION
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VdsLun.h
+- VdsLun.h
 api_name:
- - VDS_LUN_INFORMATION
+- VDS_LUN_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: VDS_LUN_INFORMATION
@@ -89,7 +89,7 @@ If <b>TRUE</b>, the LUN supports multiple outstanding commands; otherwise,
 ### -field m_BusType
 
 The bus type of the LUN enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a>.
 
 
 ### -field m_szVendorId
@@ -130,9 +130,9 @@ Array containing the LUN descriptor in various formats, such as "VDSStorageIdTyp
       and "VDSStorageIdTypeVendorSpecific". Providers can use 
       "VDSStorageIdTypeVendorSpecific" to store an arbitrary byte string of the vendor's choosing to 
       uniquely identify the LUN. See the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_storage_device_id_descriptor">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_storage_device_id_descriptor">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a> 
       structure and the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a> 
       structure.
 
 
@@ -144,7 +144,7 @@ The number of interconnect ports specified in <b>m_rgInterconnects</b>.
 ### -field m_rgInterconnects
 
 Pointer to an array of the interconnect ports by which the LUN can be accessed. See the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_interconnect">VDS_INTERCONNECT</a> structure.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_interconnect">VDS_INTERCONNECT</a> structure.
 
 
 ## -remarks
@@ -186,19 +186,19 @@ To get the LUN object, use the <a href="https://docs.microsoft.com/windows/deskt
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_interconnect">VDS_INTERCONNECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_interconnect">VDS_INTERCONNECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_storage_device_id_descriptor">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_storage_device_id_descriptor">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a>
  
 
  

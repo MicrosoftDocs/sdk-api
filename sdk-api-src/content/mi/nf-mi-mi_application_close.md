@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Application_Close, MI_Application_Close function [Windows Management Infrastructure (MI)], mi/MI_Application_Close, wmi_v2.mi_application_close
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Application_Close"
+f1_keywords:
+- mi/MI_Application_Close
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Application_Close
+- MI_Application_Close
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,7 +83,7 @@ This function returns MI_INLINE MI_Result.
 
 <b>MI_Application_Close</b> must not be called from within an asynchronous callback, otherwise it will cause deadlocks.
 
-To avoid a system hang when calling this function, reference count <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_application">MI_Application</a> and call the <b>MI_Application_Close</b> function only when the AppDomain is shutting down and after all sessions have been closed.
+To avoid a system hang when calling this function, reference count <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_application">MI_Application</a> and call the <b>MI_Application_Close</b> function only when the AppDomain is shutting down and after all sessions have been closed.
 
 
 

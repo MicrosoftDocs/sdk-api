@@ -8,10 +8,10 @@ tech.root: wnv
 ms.assetid: 3D139C56-0224-4120-B308-A33F257DD9DC
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWNV_OBJECT_HEADER, PWNV_OBJECT_HEADER, PWNV_OBJECT_HEADER structure pointer [Windows Network Virtualization], WNV_OBJECT_HEADER, WNV_OBJECT_HEADER structure [Windows Network Virtualization], wnv.wnv_object_header, wnvapi/PWNV_OBJECT_HEADER, wnvapi/WNV_OBJECT_HEADER"
+ms.keywords: '*PWNV_OBJECT_HEADER, PWNV_OBJECT_HEADER, PWNV_OBJECT_HEADER structure pointer [Windows Network Virtualization], WNV_OBJECT_HEADER, WNV_OBJECT_HEADER structure [Windows Network Virtualization], wnv.wnv_object_header, wnvapi/PWNV_OBJECT_HEADER, wnvapi/WNV_OBJECT_HEADER'
 ms.topic: struct
-f1_keywords: 
- - "wnvapi/WNV_OBJECT_HEADER"
+f1_keywords:
+- wnvapi/WNV_OBJECT_HEADER
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wnvapi.h
+- wnvapi.h
 api_name:
- - WNV_OBJECT_HEADER
+- WNV_OBJECT_HEADER
 product: Windows
 targetos: Windows
 req.typenames: WNV_OBJECT_HEADER, *PWNV_OBJECT_HEADER
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the major version, minor version, and buffer size of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_notification_param">WNV_NOTIFICATION_PARAM</a> structure that is passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/nf-wnvapi-wnvrequestnotification">WnvRequestNotification</a> function.
+Specifies the major version, minor version, and buffer size of the <a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_notification_param">WNV_NOTIFICATION_PARAM</a> structure that is passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/nf-wnvapi-wnvrequestnotification">WnvRequestNotification</a> function.
 
 
 ## -struct-fields
@@ -77,7 +77,7 @@ The minor version number. This value must be <b>WNV_API_MINOR_VERSION_0</b>.
 
 Type: <b>ULONG</b>
 
-The size of the <b>Buffer</b> field in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_notification_param">WNV_NOTIFICATION_PARAM</a> structure that is passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/nf-wnvapi-wnvrequestnotification">WnvRequestNotification</a> function.
+The size of the <b>Buffer</b> field in the <a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_notification_param">WNV_NOTIFICATION_PARAM</a> structure that is passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/nf-wnvapi-wnvrequestnotification">WnvRequestNotification</a> function.
 
 
 ## -remarks

@@ -8,10 +8,10 @@ tech.root: ad
 ms.assetid: cd260fd1-dc38-4405-95ba-097a23faf668
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDS_DOMAIN_TRUSTSA, DS_DOMAIN_DIRECT_INBOUND, DS_DOMAIN_DIRECT_OUTBOUND, DS_DOMAIN_IN_FOREST, DS_DOMAIN_NATIVE_MODE, DS_DOMAIN_PRIMARY, DS_DOMAIN_TREE_ROOT, DS_DOMAIN_TRUSTS, DS_DOMAIN_TRUSTS structure [Active Directory], DS_DOMAIN_TRUSTSA, DS_DOMAIN_TRUSTSW, PDS_DOMAIN_TRUSTS, PDS_DOMAIN_TRUSTS structure pointer [Active Directory], _glines_ds_domain_trusts, ad.ds__domain__trusts, ad.ds_domain_trusts, dsgetdc/DS_DOMAIN_TRUSTS, dsgetdc/DS_DOMAIN_TRUSTSA, dsgetdc/DS_DOMAIN_TRUSTSW, dsgetdc/PDS_DOMAIN_TRUSTS"
+ms.keywords: '*PDS_DOMAIN_TRUSTSA, DS_DOMAIN_DIRECT_INBOUND, DS_DOMAIN_DIRECT_OUTBOUND, DS_DOMAIN_IN_FOREST, DS_DOMAIN_NATIVE_MODE, DS_DOMAIN_PRIMARY, DS_DOMAIN_TREE_ROOT, DS_DOMAIN_TRUSTS, DS_DOMAIN_TRUSTS structure [Active Directory], DS_DOMAIN_TRUSTSA, DS_DOMAIN_TRUSTSW, PDS_DOMAIN_TRUSTS, PDS_DOMAIN_TRUSTS structure pointer [Active Directory], _glines_ds_domain_trusts, ad.ds__domain__trusts, ad.ds_domain_trusts, dsgetdc/DS_DOMAIN_TRUSTS, dsgetdc/DS_DOMAIN_TRUSTSA, dsgetdc/DS_DOMAIN_TRUSTSW, dsgetdc/PDS_DOMAIN_TRUSTS'
 ms.topic: struct
-f1_keywords: 
- - "dsgetdc/DS_DOMAIN_TRUSTS"
+f1_keywords:
+- dsgetdc/DS_DOMAIN_TRUSTS
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dsgetdc.h
+- Dsgetdc.h
 api_name:
- - DS_DOMAIN_TRUSTS
- - DS_DOMAIN_TRUSTSA
- - DS_DOMAIN_TRUSTSW
+- DS_DOMAIN_TRUSTS
+- DS_DOMAIN_TRUSTSA
+- DS_DOMAIN_TRUSTSW
 product: Windows
 targetos: Windows
 req.typenames: DS_DOMAIN_TRUSTSA, *PDS_DOMAIN_TRUSTSA
@@ -123,12 +123,12 @@ Contains the index in the <i>Domains</i> array returned by the <a href="https://
 
 ### -field TrustType
 
-Contains a value that indicates the type of trust represented by this structure. Possible values for this member are documented in the <b>TrustType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a> structure.
+Contains a value that indicates the type of trust represented by this structure. Possible values for this member are documented in the <b>TrustType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a> structure.
 
 
 ### -field TrustAttributes
 
-Contains a value that indicates the attributes of the trust represented by this structure. Possible values for this member are documented in the <b>TrustAttribute</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a> structure.
+Contains a value that indicates the attributes of the trust represented by this structure. Possible values for this member are documented in the <b>TrustAttribute</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a> structure.
 
 
 ### -field DomainSid
@@ -154,7 +154,7 @@ Contains the GUID of the domain represented by this structure.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a>
  
 
  

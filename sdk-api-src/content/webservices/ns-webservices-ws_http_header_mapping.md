@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_HEADER_MAPPING, WS_HTTP_HEADER_MAPPING structure [Web Services for Windows], webservices/WS_HTTP_HEADER_MAPPING, wsw.ws_http_header_mapping
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_HTTP_HEADER_MAPPING"
+f1_keywords:
+- webservices/WS_HTTP_HEADER_MAPPING
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_HTTP_HEADER_MAPPING
+- WS_HTTP_HEADER_MAPPING
 product: Windows
 targetos: Windows
 req.typenames: WS_HTTP_HEADER_MAPPING
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies an individual header that is mapped as part of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a>.
+Specifies an individual header that is mapped as part of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a>.
             
 
 

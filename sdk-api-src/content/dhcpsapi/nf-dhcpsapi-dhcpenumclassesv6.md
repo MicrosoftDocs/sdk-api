@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumClassesV6, DhcpEnumClassesV6 function [DHCP], dhcp.dhcpenumclassesv6, dhcpsapi/DhcpEnumClassesV6
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpEnumClassesV6"
+f1_keywords:
+- dhcpsapi/DhcpEnumClassesV6
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpEnumClassesV6
+- DhcpEnumClassesV6
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -81,7 +81,7 @@ Specifies the preferred maximum number of classes to return. If the number of re
 
 ### -param ClassInfoArray [out]
 
-Pointer to a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_class_info_array_v6">DHCP_CLASS_INFO_ARRAY_V6</a> structure that contains the returned classes. If there are no classes available on the DHCP server, this parameter will return null.
+Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_class_info_array_v6">DHCP_CLASS_INFO_ARRAY_V6</a> structure that contains the returned classes. If there are no classes available on the DHCP server, this parameter will return null.
 
 
 ### -param nRead [out]
@@ -147,7 +147,7 @@ The caller of this function must free the memory pointed to by <i>ClassInfoArray
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_class_info_array_v6">DHCP_CLASS_INFO_ARRAY_V6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_class_info_array_v6">DHCP_CLASS_INFO_ARRAY_V6</a>
 
 
 

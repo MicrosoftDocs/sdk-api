@@ -8,10 +8,10 @@ tech.root: NativeWiFi
 ms.assetid: 95f58433-deef-4c47-8f6c-a9e7b0d52dad
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDOT11_NETWORK, DOT11_NETWORK, DOT11_NETWORK structure [NativeWIFI], PDOT11_NETWORK, PDOT11_NETWORK structure pointer [NativeWIFI], nwifi.dot11_network, wlanapi/DOT11_NETWORK, wlanapi/PDOT11_NETWORK"
+ms.keywords: '*PDOT11_NETWORK, DOT11_NETWORK, DOT11_NETWORK structure [NativeWIFI], PDOT11_NETWORK, PDOT11_NETWORK structure pointer [NativeWIFI], nwifi.dot11_network, wlanapi/DOT11_NETWORK, wlanapi/PDOT11_NETWORK'
 ms.topic: struct
-f1_keywords: 
- - "wlanapi/DOT11_NETWORK"
+f1_keywords:
+- wlanapi/DOT11_NETWORK
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - DOT11_NETWORK
+- DOT11_NETWORK
 product: Windows
 targetos: Windows
 req.typenames: DOT11_NETWORK, *PDOT11_NETWORK
@@ -74,7 +74,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-bss-type"
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_dot11_network_list">DOT11_NETWORK_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-dot11_network_list">DOT11_NETWORK_LIST</a>
  
 
  

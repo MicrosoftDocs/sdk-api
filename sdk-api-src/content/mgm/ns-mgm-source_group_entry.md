@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 4964ccd9-e169-4afa-a9b3-1e4e4afb88c4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSOURCE_GROUP_ENTRY, PSOURCE_GROUP_ENTRY, PSOURCE_GROUP_ENTRY structure pointer [RAS], SOURCE_GROUP_ENTRY, SOURCE_GROUP_ENTRY structure [RAS], _mpr_source_group_entry_str, mgm/PSOURCE_GROUP_ENTRY, mgm/SOURCE_GROUP_ENTRY, rras.source_group_entry_str"
+ms.keywords: '*PSOURCE_GROUP_ENTRY, PSOURCE_GROUP_ENTRY, PSOURCE_GROUP_ENTRY structure pointer [RAS], SOURCE_GROUP_ENTRY, SOURCE_GROUP_ENTRY structure [RAS], _mpr_source_group_entry_str, mgm/PSOURCE_GROUP_ENTRY, mgm/SOURCE_GROUP_ENTRY, rras.source_group_entry_str'
 ms.topic: struct
-f1_keywords: 
- - "mgm/SOURCE_GROUP_ENTRY"
+f1_keywords:
+- mgm/SOURCE_GROUP_ENTRY
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mgm.h
+- Mgm.h
 api_name:
- - SOURCE_GROUP_ENTRY
+- SOURCE_GROUP_ENTRY
 product: Windows
 targetos: Windows
 req.typenames: SOURCE_GROUP_ENTRY, *PSOURCE_GROUP_ENTRY
@@ -107,7 +107,7 @@ Specify zero for this parameter if zero was specified for <b>dwGroupAddr</b> (a 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ne-mgm-_mgm_enum_types">MGM_ENUM_TYPES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ne-mgm-mgm_enum_types">MGM_ENUM_TYPES</a>
 
 
 

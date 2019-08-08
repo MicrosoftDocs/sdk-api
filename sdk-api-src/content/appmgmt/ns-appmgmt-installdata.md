@@ -8,10 +8,10 @@ tech.root: Policy
 ms.assetid: 0c0570c6-f8f5-41e1-a1d2-d4e8c450f73c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PINSTALLDATA, INSTALLDATA, INSTALLDATA structure [Group Policy], PINSTALLDATA, PINSTALLDATA structure pointer [Group Policy], appmgmt/INSTALLDATA, appmgmt/PINSTALLDATA, policy.installdata_str"
+ms.keywords: '*PINSTALLDATA, INSTALLDATA, INSTALLDATA structure [Group Policy], PINSTALLDATA, PINSTALLDATA structure pointer [Group Policy], appmgmt/INSTALLDATA, appmgmt/PINSTALLDATA, policy.installdata_str'
 ms.topic: struct
-f1_keywords: 
- - "appmgmt/INSTALLDATA"
+f1_keywords:
+- appmgmt/INSTALLDATA
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Appmgmt.h
+- Appmgmt.h
 api_name:
- - INSTALLDATA
+- INSTALLDATA
 product: Windows
 targetos: Windows
 req.typenames: INSTALLDATA, *PINSTALLDATA
@@ -61,12 +61,12 @@ The <b>INSTALLDATA</b> structure specifies a group-policy application to  be ins
 
 ### -field Type
 
-Defines  how <b>Spec</b> specifies the application to <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-installapplication">InstallApplication</a>.     <b>Type</b> can be  one of the <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ne-appmgmt-_installspectype">INSTALLSPECTYPE</a> enumeration values. Set <b>Type</b> to APPNAME to install an application specified by its user-friendly name and GPO GUID. Set <b>Type</b> to FILEEXT to install  an application specified by its file name extension.
+Defines  how <b>Spec</b> specifies the application to <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-installapplication">InstallApplication</a>.     <b>Type</b> can be  one of the <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ne-appmgmt-installspectype">INSTALLSPECTYPE</a> enumeration values. Set <b>Type</b> to APPNAME to install an application specified by its user-friendly name and GPO GUID. Set <b>Type</b> to FILEEXT to install  an application specified by its file name extension.
 
 
 ### -field Spec
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_installspec">INSTALLSPEC</a> structure that specifies the application.
+An <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-installspec">INSTALLSPEC</a> structure that specifies the application.
 
 
 ## -see-also
@@ -82,11 +82,11 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_installspec">INSTALLSPEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-installspec">INSTALLSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ne-appmgmt-_installspectype">INSTALLSPECTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ne-appmgmt-installspectype">INSTALLSPECTYPE</a>
 
 
 

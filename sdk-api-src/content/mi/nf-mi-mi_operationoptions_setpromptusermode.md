@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_CALLBACKMODE_INQUIRE, MI_CALLBACKMODE_REPORT, MI_OperationOptions_SetPromptUserMode, MI_OperationOptions_SetPromptUserMode function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetPromptUserMode, wmi_v2.mi_operationoptions_setpromptusermode
 ms.topic: function
-f1_keywords: 
- - "mi/MI_OperationOptions_SetPromptUserMode"
+f1_keywords:
+- mi/MI_OperationOptions_SetPromptUserMode
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_OperationOptions_SetPromptUserMode
+- MI_OperationOptions_SetPromptUserMode
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,12 +62,12 @@ Sets the value that tells the server how to respond to a provider's call to
 
 ### -param options [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
 
 
 ### -param mode [in]
 
-One of the following <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_callbackmode">MI_CallbackMode</a> values.
+One of the following <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_callbackmode">MI_CallbackMode</a> values.
 
 
 
@@ -86,7 +86,7 @@ Provider will block while the client is called back to ask if the operation shou
 
 
 
-A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 

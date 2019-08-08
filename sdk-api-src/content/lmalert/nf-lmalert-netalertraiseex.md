@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT, ALERT_MESSAGE_EVENT, ALERT_PRINT_EVENT, ALERT_USER_EVENT, NetAlertRaiseEx, NetAlertRaiseEx function [Network Management], _win32_netalertraiseex, lmalert/NetAlertRaiseEx, netmgmt.netalertraiseex
 ms.topic: function
-f1_keywords: 
- - "lmalert/NetAlertRaiseEx"
+f1_keywords:
+- lmalert/NetAlertRaiseEx
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetAlertRaiseEx
+- NetAlertRaiseEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -56,7 +56,7 @@ ms.custom: 19H1
 The
 				<b>NetAlertRaiseEx</b> function notifies all registered clients when a particular event occurs. You can call this extended function to simplify the sending of an alert message because 
 <b>NetAlertRaiseEx</b> does not require that you specify a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_std_alert">STD_ALERT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-std_alert">STD_ALERT</a> structure.
 
 
 ## -parameters
@@ -132,10 +132,10 @@ An application or resource was used.
 ### -param VariableInfo [in]
 
 A pointer to the data to send to the clients listening for the interrupting message. The data should consist of one 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_admin_other_info">ADMIN_OTHER_INFO</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_errlog_other_info">ERRLOG_OTHER_INFO</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_print_other_info">PRINT_OTHER_INFO</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_user_other_info">USER_OTHER_INFO</a> structure followed by any required variable-length information. For more information, see the code sample in the following Remarks section. 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-errlog_other_info">ERRLOG_OTHER_INFO</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-print_other_info">PRINT_OTHER_INFO</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a> structure followed by any required variable-length information. For more information, see the code sample in the following Remarks section. 
 
 
 
@@ -175,7 +175,7 @@ If the function fails, the return value is a system error code and a can be one 
 </dl>
 </td>
 <td width="60%">
-A parameter is incorrect. This error is returned if the <i>AlertEventName</i>  parameter is <b>NULL</b> or an empty string, the <i>ServiceName</i>  parameter is <b>NULL</b> or an empty string, the <i>VariableInfo</i>  parameter is <b>NULL</b>, or the <i>VariableInfoSize</i>  parameter is greater than 512 minus the size of the <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_std_alert">STD_ALERT</a> structure. 
+A parameter is incorrect. This error is returned if the <i>AlertEventName</i>  parameter is <b>NULL</b> or an empty string, the <i>ServiceName</i>  parameter is <b>NULL</b> or an empty string, the <i>VariableInfo</i>  parameter is <b>NULL</b>, or the <i>VariableInfoSize</i>  parameter is greater than 512 minus the size of the <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-std_alert">STD_ALERT</a> structure. 
 
 </td>
 </tr>
@@ -212,15 +212,15 @@ The alerter service must be running on the client computer when you call the
 The following code sample demonstrates how to raise the following types of interrupting messages (alerts) by calling the <b>NetAlertRaiseEx</b> function:
 
 <ul>
-<li>An administrative alert by specifying an <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_admin_other_info">ADMIN_OTHER_INFO</a> structure</li>
-<li>A print alert by specifying a <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_print_other_info">PRINT_OTHER_INFO</a> structure</li>
-<li>A user alert by specifying a <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_user_other_info">USER_OTHER_INFO</a> structure</li>
+<li>An administrative alert by specifying an <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a> structure</li>
+<li>A print alert by specifying a <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-print_other_info">PRINT_OTHER_INFO</a> structure</li>
+<li>A user alert by specifying a <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a> structure</li>
 </ul>
 In each instance the code assigns values to the members of the relevant alert information structure. Following this, the sample retrieves a pointer to the portion of the message buffer that follows the structure by calling the <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-alert_var_data">ALERT_VAR_DATA</a> macro. The code also fills in the variable-length strings in this portion of the buffer. Finally, the sample calls <b>NetAlertRaiseEx</b> to send the alert.
 
 Note that the calling application must allocate and free the memory for all structures and variable-length data in an alert message buffer.
 
-To pass a user-defined structure and valid strings in a user alert, you must create an event message file and link it with your application. You must also register the application in the <b>EventMessageFile</b> subkey in the <b>EventLog</b> section of the registry. If you do not register the application, the user alert will contain the information you pass in the variable-length strings that follow the <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_user_other_info">USER_OTHER_INFO</a> structure. For more information about <b>EventMessageFile</b>, see <a href="https://docs.microsoft.com/windows/desktop/EventLog/event-logging">Event Logging</a>.
+To pass a user-defined structure and valid strings in a user alert, you must create an event message file and link it with your application. You must also register the application in the <b>EventMessageFile</b> subkey in the <b>EventLog</b> section of the registry. If you do not register the application, the user alert will contain the information you pass in the variable-length strings that follow the <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a> structure. For more information about <b>EventMessageFile</b>, see <a href="https://docs.microsoft.com/windows/desktop/EventLog/event-logging">Event Logging</a>.
 
 
 ```cpp
@@ -401,7 +401,7 @@ int main()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_admin_other_info">ADMIN_OTHER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>
 
 
 
@@ -413,7 +413,7 @@ int main()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_errlog_other_info">ERRLOG_OTHER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-errlog_other_info">ERRLOG_OTHER_INFO</a>
 
 
 
@@ -431,11 +431,11 @@ int main()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_print_other_info">PRINT_OTHER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-print_other_info">PRINT_OTHER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_user_other_info">USER_OTHER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a>
  
 
  

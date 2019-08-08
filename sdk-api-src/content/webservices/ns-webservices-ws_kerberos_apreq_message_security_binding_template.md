@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE, WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE, wsw.ws_kerberos_apreq_message_security_binding_template
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE"
+f1_keywords:
+- webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE
+- WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE
 product: Windows
 targetos: Windows
 req.typenames: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE
@@ -56,7 +56,7 @@ The security binding template for specifying the use of the Kerberos
         security token with WS-Security.
       
 
-See also <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>
+See also <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>
 
 
 

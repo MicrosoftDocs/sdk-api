@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 376B457C-2D54-47D0-A80A-16A03DA6A2EA
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT, FILE_STORAGE_TIER_FLAG_NO_SEEK_PENALTY, FSCTL_QUERY_STORAGE_CLASSES_OUTPUT, FSCTL_QUERY_STORAGE_CLASSES_OUTPUT structure [Files], PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT, PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT structure pointer [Files], fs.fsctl_query_storage_classes_output, winioctl/FSCTL_QUERY_STORAGE_CLASSES_OUTPUT, winioctl/PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT"
+ms.keywords: '*PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT, FILE_STORAGE_TIER_FLAG_NO_SEEK_PENALTY, FSCTL_QUERY_STORAGE_CLASSES_OUTPUT, FSCTL_QUERY_STORAGE_CLASSES_OUTPUT structure [Files], PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT, PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT structure pointer [Files], fs.fsctl_query_storage_classes_output, winioctl/FSCTL_QUERY_STORAGE_CLASSES_OUTPUT, winioctl/PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/FSCTL_QUERY_STORAGE_CLASSES_OUTPUT"
+f1_keywords:
+- winioctl/FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoctl.h
+- WinIoctl.h
 api_name:
- - FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
+- FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
 product: Windows
 targetos: Windows
 req.typenames: FSCTL_QUERY_STORAGE_CLASSES_OUTPUT, *PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT
@@ -105,5 +105,5 @@ Number of tiers that fit in the output.
 ### -field Tiers
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_storage_tier">FILE_STORAGE_TIER</a> structure that contains detailed info on the storage tiers.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_storage_tier">FILE_STORAGE_TIER</a> structure that contains detailed info on the storage tiers.
 

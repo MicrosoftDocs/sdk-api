@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MgmGroupEnumerationGetNext, MgmGroupEnumerationGetNext function [RAS], _mpr_mgmgroupenumerationgetnext, mgm/MgmGroupEnumerationGetNext, rras.mgmgroupenumerationgetnext
 ms.topic: function
-f1_keywords: 
- - "mgm/MgmGroupEnumerationGetNext"
+f1_keywords:
+- mgm/MgmGroupEnumerationGetNext
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - MgmGroupEnumerationGetNext
+- MgmGroupEnumerationGetNext
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -86,7 +86,7 @@ On input, the client must supply a pointer to a buffer.
 
 
 On output, <i>pbBuffer</i> contains one or more group entries. Each group entry is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ns-mgm-_source_group_entry">SOURCE_GROUP_ENTRY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ns-mgm-source_group_entry">SOURCE_GROUP_ENTRY</a> structure.
 
 
 ### -param pdwNumEntries [in, out]
@@ -201,7 +201,7 @@ Not enough memory to complete this operation.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ns-mgm-_source_group_entry">SOURCE_GROUP_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ns-mgm-source_group_entry">SOURCE_GROUP_ENTRY</a>
  
 
  

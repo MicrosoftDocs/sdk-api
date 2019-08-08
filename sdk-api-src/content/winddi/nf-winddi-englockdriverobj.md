@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngLockDriverObj, EngLockDriverObj function [Display Devices], display.englockdriverobj, gdifncs_154bc925-ce22-45c9-8d24-724f186cd3b5.xml, winddi/EngLockDriverObj
 ms.topic: function
-f1_keywords: 
- - "winddi/EngLockDriverObj"
+f1_keywords:
+- winddi/EngLockDriverObj
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngLockDriverObj
+- EngLockDriverObj
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>EngLockDriverObj</b> function creates an exclusive lock on this object fo
 
 ### -param hdo
 
-Handle to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_driverobj">DRIVEROBJ</a> structure to be locked by GDI.
+Handle to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-driverobj">DRIVEROBJ</a> structure to be locked by GDI.
 
 
 ## -returns
@@ -87,7 +87,7 @@ This function will fail if the handle is invalid, if the object is already locke
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_driverobj">DRIVEROBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-driverobj">DRIVEROBJ</a>
  
 
  

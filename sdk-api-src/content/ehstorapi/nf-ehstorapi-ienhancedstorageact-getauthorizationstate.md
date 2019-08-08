@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAuthorizationState, GetAuthorizationState method [Enhanced Storage], GetAuthorizationState method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetAuthorizationState method, IEnhancedStorageACT.GetAuthorizationState, IEnhancedStorageACT::GetAuthorizationState, ehstorapi/IEnhancedStorageACT::GetAuthorizationState, enstor.ienhancedstorageact_getauthorizationstate
 ms.topic: method
-f1_keywords: 
- - "ehstorapi/IEnhancedStorageACT.GetAuthorizationState"
+f1_keywords:
+- ehstorapi/IEnhancedStorageACT.GetAuthorizationState
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EhStorAPI.h
+- EhStorAPI.h
 api_name:
- - IEnhancedStorageACT.GetAuthorizationState
+- IEnhancedStorageACT.GetAuthorizationState
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Returns the current authorization state of the ACT.
 
 ### -param pState [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/ns-ehstorapi-_act_authorization_state">ACT_AUTHORIZATION_STATE</a> that specifies the current authorization state of the ACT. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ehstorapi/ns-ehstorapi-act_authorization_state">ACT_AUTHORIZATION_STATE</a> that specifies the current authorization state of the ACT. 
 
 
 ## -returns

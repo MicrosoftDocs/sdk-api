@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_STORAGE_DEVICE_ID_DESCRIPTOR, VDS_STORAGE_DEVICE_ID_DESCRIPTOR structure [VDS], base.vds_storage_device_id_descriptor, vdslun/_VDS_STORAGE_DEVICE_ID_DESCRIPTOR
 ms.topic: struct
-f1_keywords: 
- - "vdslun/VDS_STORAGE_DEVICE_ID_DESCRIPTOR"
+f1_keywords:
+- vdslun/VDS_STORAGE_DEVICE_ID_DESCRIPTOR
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VdsLun.h
+- VdsLun.h
 api_name:
- - VDS_STORAGE_DEVICE_ID_DESCRIPTOR
+- VDS_STORAGE_DEVICE_ID_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.typenames: VDS_STORAGE_DEVICE_ID_DESCRIPTOR
@@ -75,7 +75,7 @@ The number of identifiers specified in <b>m_rgIdentifiers</b>.
 
 ### -field m_rgIdentifiers
 
-Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a> structure.
+Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a> structure.
      
 
 
@@ -84,7 +84,7 @@ Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vds
 
 
 Storage devices can have multiple identifiers, and each of these identifiers can have a different code set and 
-    type. The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structure includes 
+    type. The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure includes 
     this structure as a member to specify the storage device identifiers of a LUN.
 
 
@@ -99,11 +99,11 @@ Storage devices can have multiple identifiers, and each of these identifiers can
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a>
  
 
  

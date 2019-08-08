@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIndexStatus, GetIndexStatus method [Media Foundation], GetIndexStatus method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetIndexStatus method, IMFASFIndexer.GetIndexStatus, IMFASFIndexer::GetIndexStatus, dc38a060-36e4-458e-829e-2770387fc484, mf.imfasfindexer_getindexstatus, wmcontainer/IMFASFIndexer::GetIndexStatus
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFIndexer.GetIndexStatus"
+f1_keywords:
+- wmcontainer/IMFASFIndexer.GetIndexStatus
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFIndexer.GetIndexStatus
+- IMFASFIndexer.GetIndexStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Retrieves the index settings for a specified stream and index type.
 
 ### -param pIndexIdentifier [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ns-wmcontainer-_asf_index_identifier">ASF_INDEX_IDENTIFIER</a> structure that contains the stream number and index type for which to get the status.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ns-wmcontainer-asf_index_identifier">ASF_INDEX_IDENTIFIER</a> structure that contains the stream number and index type for which to get the status.
 
 
 ### -param pfIsIndexed [out]
@@ -75,7 +75,7 @@ A variable that retrieves a Boolean value specifying whether the index described
 
 ### -param pbIndexDescriptor [out]
 
-A buffer that receives the index descriptor. The index descriptor consists of an <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ns-wmcontainer-_asf_index_descriptor">ASF_INDEX_DESCRIPTOR</a> structure, optionally followed by index-specific data.
+A buffer that receives the index descriptor. The index descriptor consists of an <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ns-wmcontainer-asf_index_descriptor">ASF_INDEX_DESCRIPTOR</a> structure, optionally followed by index-specific data.
 
 
 ### -param pcbIndexDescriptor [in, out]

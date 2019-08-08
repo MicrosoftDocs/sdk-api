@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPGetResourceInformation, NPGetResourceInformation function [Security], _mnp_npgetresourceinformation, npapi/NPGetResourceInformation, security.npgetresourceinformation
 ms.topic: function
-f1_keywords: 
- - "npapi/NPGetResourceInformation"
+f1_keywords:
+- npapi/NPGetResourceInformation
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - NPGetResourceInformation
+- NPGetResourceInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Separates the part of a network resource accessed through the WNet API from the 
 
 ### -param lpNetResource [in]
 
-Specifies the network resource for which information is required. The <b>lpRemoteName</b> field specifies the remote name of the resource. The calling program should fill in the values for the <b>lpProvider</b> and <b>dwType</b> fields if it knows these values; otherwise, it should set these fields to <b>NULL</b>. All other fields in the <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_netresourcea">NETRESOURCE</a> are ignored and are not initialized. 
+Specifies the network resource for which information is required. The <b>lpRemoteName</b> field specifies the remote name of the resource. The calling program should fill in the values for the <b>lpProvider</b> and <b>dwType</b> fields if it knows these values; otherwise, it should set these fields to <b>NULL</b>. All other fields in the <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> are ignored and are not initialized. 
 
 
 
@@ -74,7 +74,7 @@ For example, if the resource is "\\server\share\dir1\dir2", where "\\server\shar
 ### -param lpBuffer [out]
 
 Pointer to the buffer to receive the result. The first field in the result is a single 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_netresourcea">NETRESOURCE</a> structure, and associated strings, representing that portion of the input resource that is accessed through the WNet API, rather than system APIs specific to the resource type. For example, if the input remote resource name was "\\server\share\dir1\dir2", then the output <b>NETRESOURCE</b> contains information about the resource "\\server\share". The <b>lpRemoteName</b>, <b>lpProvider</b>, <b>dwType</b>, <b>dwDisplayType</b>, and <b>dwUsage</b> fields are returned containing values, all other fields being set to <b>NULL</b>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure, and associated strings, representing that portion of the input resource that is accessed through the WNet API, rather than system APIs specific to the resource type. For example, if the input remote resource name was "\\server\share\dir1\dir2", then the output <b>NETRESOURCE</b> contains information about the resource "\\server\share". The <b>lpRemoteName</b>, <b>lpProvider</b>, <b>dwType</b>, <b>dwDisplayType</b>, and <b>dwUsage</b> fields are returned containing values, all other fields being set to <b>NULL</b>. 
 
 
 

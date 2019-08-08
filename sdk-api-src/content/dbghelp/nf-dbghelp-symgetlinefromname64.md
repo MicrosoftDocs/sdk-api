@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetLineFromName, SymGetLineFromName function, SymGetLineFromName64, SymGetLineFromName64 function, SymGetLineFromNameW64, _win32_symgetlinefromname64, base.symgetlinefromname64, dbghelp/SymGetLineFromName, dbghelp/SymGetLineFromName64, dbghelp/SymGetLineFromNameW64
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymGetLineFromName64"
+f1_keywords:
+- dbghelp/SymGetLineFromName64
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymGetLineFromName64
- - SymGetLineFromName64
- - SymGetLineFromNameW64
- - SymGetLineFromName
+- SymGetLineFromName64
+- SymGetLineFromName64
+- SymGetLineFromNameW64
+- SymGetLineFromName
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -91,7 +91,7 @@ The displacement in bytes from the beginning of the line, or zero.
 ### -param Line [in, out]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_line">IMAGEHLP_LINE64</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_line">IMAGEHLP_LINE64</a> structure.
 
 
 ## -returns
@@ -111,7 +111,7 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 
 
 The caller must allocate the <i>Line</i> buffer properly and fill in the required members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_line">IMAGEHLP_LINE64</a> structure before calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_line">IMAGEHLP_LINE64</a> structure before calling 
 <b>SymGetLineFromName64</b>.
 
 Before calling this function, ensure that the symbols are initialized correctly by first calling 
@@ -186,7 +186,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_line">IMAGEHLP_LINE64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_line">IMAGEHLP_LINE64</a>
 
 
 

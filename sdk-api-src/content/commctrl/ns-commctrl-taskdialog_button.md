@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TASKDIALOG_BUTTON, TASKDIALOG_BUTTON structure [Windows Controls], _shell_TASKDIALOG_BUTTON, _shell_TASKDIALOG_BUTTON_cpp, commctrl/TASKDIALOG_BUTTON, controls.TASKDIALOG_BUTTON, controls._shell_TASKDIALOG_BUTTON
 ms.topic: struct
-f1_keywords: 
- - "commctrl/TASKDIALOG_BUTTON"
+f1_keywords:
+- commctrl/TASKDIALOG_BUTTON
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TASKDIALOG_BUTTON
+- TASKDIALOG_BUTTON
 product: Windows
 targetos: Windows
 req.typenames: TASKDIALOG_BUTTON
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>TASKDIALOG_BUTTON</b> structure contains information used to display a button in a task dialog. The <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_taskdialogconfig">TASKDIALOGCONFIG</a> structure uses this structure.
+The <b>TASKDIALOG_BUTTON</b> structure contains information used to display a button in a task dialog. The <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a> structure uses this structure.
 
 
 ## -struct-fields

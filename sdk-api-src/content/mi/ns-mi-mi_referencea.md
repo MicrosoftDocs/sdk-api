@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ReferenceA, MI_ReferenceA structure [Windows Management Infrastructure (MI)], mi/MI_ReferenceA, wmi._mi_referencea, wmi_v2.mi_referencea
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_ReferenceA"
+f1_keywords:
+- mi/MI_ReferenceA
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_ReferenceA
+- MI_ReferenceA
 product: Windows
 targetos: Windows
 req.typenames: MI_ReferenceA
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents an array of pointers to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> types.
+Represents an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> types.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Represents an array of pointers to <a href="https://docs.microsoft.com/previous-
 
 ### -field data
 
-Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> structures.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structures.
 
 
 ### -field _MI_Instance

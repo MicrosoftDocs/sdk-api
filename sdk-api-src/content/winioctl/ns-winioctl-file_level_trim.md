@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: db3ac916-83e7-4aa1-b5aa-dab139a0a21a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_LEVEL_TRIM, FILE_LEVEL_TRIM, FILE_LEVEL_TRIM structure [Files], PFILE_LEVEL_TRIM, PFILE_LEVEL_TRIM structure pointer [Files], fs.file_level_trim, winioctl/FILE_LEVEL_TRIM, winioctl/PFILE_LEVEL_TRIM"
+ms.keywords: '*PFILE_LEVEL_TRIM, FILE_LEVEL_TRIM, FILE_LEVEL_TRIM structure [Files], PFILE_LEVEL_TRIM, PFILE_LEVEL_TRIM structure pointer [Files], fs.file_level_trim, winioctl/FILE_LEVEL_TRIM, winioctl/PFILE_LEVEL_TRIM'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/FILE_LEVEL_TRIM"
+f1_keywords:
+- winioctl/FILE_LEVEL_TRIM
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FILE_LEVEL_TRIM
+- FILE_LEVEL_TRIM
 product: Windows
 targetos: Windows
 req.typenames: FILE_LEVEL_TRIM, *PFILE_LEVEL_TRIM
@@ -66,10 +66,10 @@ Reserved. Set to zero (0).
 
 ### -field NumRanges
 
-Number of <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_level_trim_range">FILE_LEVEL_TRIM_RANGE</a> entries in 
+Number of <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_level_trim_range">FILE_LEVEL_TRIM_RANGE</a> entries in 
       the <b>Ranges</b> member. On return should be compared with the 
       <b>NumRangesProcessed</b> member of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_level_trim_output">FILE_LEVEL_TRIM_OUTPUT</a> structure.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_level_trim_output">FILE_LEVEL_TRIM_OUTPUT</a> structure.
 
 
 ### -field Ranges
@@ -82,11 +82,11 @@ Array of ranges that describe the portions of the file that are to be trimmed.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_level_trim_output">FILE_LEVEL_TRIM_OUTPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_level_trim_output">FILE_LEVEL_TRIM_OUTPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_level_trim_range">FILE_LEVEL_TRIM_RANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_level_trim_range">FILE_LEVEL_TRIM_RANGE</a>
 
 
 

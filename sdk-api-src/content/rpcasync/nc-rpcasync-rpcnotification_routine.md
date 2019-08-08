@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RPCNOTIFICATION_ROUTINE, RPCNOTIFICATION_ROUTINE callback, RPCNOTIFICATION_ROUTINE callback function [RPC], RpcnotificationRoutine, _rpc_rpcnotification_routine, rpc.rpcnotification_routine, rpcasync/RPCNOTIFICATION_ROUTINE
 ms.topic: callback
-f1_keywords: 
- - "rpcasync/RPCNOTIFICATION_ROUTINE"
+f1_keywords:
+- rpcasync/RPCNOTIFICATION_ROUTINE
 req.header: rpcasync.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - rpcasync.h
+- rpcasync.h
 api_name:
- - RPCNOTIFICATION_ROUTINE
+- RPCNOTIFICATION_ROUTINE
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The
 ### -param *pAsync
 
 Pointer to a structure that contains the current state of the asynchronous RPC run-time library. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_async_state">RPC_ASYNC_STATE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a>.
 
 
 ### -param *Context
@@ -74,7 +74,7 @@ Reserved for future use. Windows 2000 currently sets this parameter to <b>NULL<
 ### -param Event
 
 A value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-_rpc_async_event">RPC_ASYNC_EVENT</a> enumerated type that identifies the current asynchronous event.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-rpc_async_event">RPC_ASYNC_EVENT</a> enumerated type that identifies the current asynchronous event.
 
 
 ## -returns
@@ -107,7 +107,7 @@ For each
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_async_state">RPC_ASYNC_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a>
  
 
  

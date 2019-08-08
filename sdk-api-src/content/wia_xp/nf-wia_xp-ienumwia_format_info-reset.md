@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumWIA_FORMAT_INFO interface [WIA],Reset method, IEnumWIA_FORMAT_INFO.Reset, IEnumWIA_FORMAT_INFO::Reset, Reset, Reset method [WIA], Reset method [WIA],IEnumWIA_FORMAT_INFO interface, _wia_IEnumWIA_FORMAT_INFO_Reset, wia._wia_IEnumWIA_FORMAT_INFO_Reset, wia_xp/IEnumWIA_FORMAT_INFO::Reset
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IEnumWIA_FORMAT_INFO.Reset"
+f1_keywords:
+- wia_xp/IEnumWIA_FORMAT_INFO.Reset
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Wiaguid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaguid.lib
- - Wiaguid.dll
+- Wiaguid.lib
+- Wiaguid.dll
 api_name:
- - IEnumWIA_FORMAT_INFO.Reset
+- IEnumWIA_FORMAT_INFO.Reset
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IEnumWIA_FORMAT_INFO::Reset</b> method sets the enumeration back to the first <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-_wia_format_info">WIA_FORMAT_INFO</a> structure.
+The <b>IEnumWIA_FORMAT_INFO::Reset</b> method sets the enumeration back to the first <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structure.
 
 
 ## -parameters

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_CMSG_CNG_IMPORT_KEY_TRANS, PFN_CMSG_CNG_IMPORT_KEY_TRANS callback, PFN_CMSG_CNG_IMPORT_KEY_TRANS callback function [Security], security.pfn_cmsg_cng_import_key_trans, wincrypt/PFN_CMSG_CNG_IMPORT_KEY_TRANS
 ms.topic: callback
-f1_keywords: 
- - "wincrypt/PFN_CMSG_CNG_IMPORT_KEY_TRANS"
+f1_keywords:
+- wincrypt/PFN_CMSG_CNG_IMPORT_KEY_TRANS
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - PFN_CMSG_CNG_IMPORT_KEY_TRANS
+- PFN_CMSG_CNG_IMPORT_KEY_TRANS
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,20 +61,20 @@ The <b>PFN_CMSG_CNG_IMPORT_KEY_TRANS</b> callback function imports and decrypts 
 
 ### -param pCNGContentDecryptInfo [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_cng_content_decrypt_info">CMSG_CNG_CONTENT_DECRYPT_INFO</a> structure to be updated with the decrypted CEK bytes. This parameter contains the key used to decrypt the CEK.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_cng_content_decrypt_info">CMSG_CNG_CONTENT_DECRYPT_INFO</a> structure to be updated with the decrypted CEK bytes. This parameter contains the key used to decrypt the CEK.
 The following <i>pKeyTransDecryptPara</i> parameter contains the 	CEK bytes to be decrypted.
 
 
 ### -param pKeyTransDecryptPara [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_key_trans_decrypt_para">CMSG_CTRL_KEY_TRANS_DECRYPT_PARA</a> structure that contains the key transport information passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a> function in the <b>CMSG_CTRL_DECRYPT</b> or <b>CMSG_CTRL_KEY_TRANS_DECRYPT</b> cases. For the <b>CMSG_CTRL_DECRYPT</b> case, <b>CryptMsgControl</b> converts the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_decrypt_para">CMSG_CTRL_DECRYPT_PARA</a> structure to a <b>CMSG_CTRL_KEY_TRANS_DECRYPT_PARA</b> structure. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_ctrl_key_trans_decrypt_para">CMSG_CTRL_KEY_TRANS_DECRYPT_PARA</a> structure that contains the key transport information passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a> function in the <b>CMSG_CTRL_DECRYPT</b> or <b>CMSG_CTRL_KEY_TRANS_DECRYPT</b> cases. For the <b>CMSG_CTRL_DECRYPT</b> case, <b>CryptMsgControl</b> converts the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_ctrl_decrypt_para">CMSG_CTRL_DECRYPT_PARA</a> structure to a <b>CMSG_CTRL_KEY_TRANS_DECRYPT_PARA</b> structure. 
 
 The
 <b>EncryptedKey</b> member of the <b>pKeyTrans</b> member contains the CEK bytes to be decrypted. Because a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_key_trans_decrypt_para">CMSG_CTRL_KEY_TRANS_DECRYPT_PARA</a> structure might contain an <b>HCRYPTPROV</b> choice, its <b>hNCryptKey</b> member must not be used to decrypt <b>EncryptedKey</b>. Instead, you must use the <b>hNCryptKey</b> specified in the <i>pCNGContentDecryptInfo</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_ctrl_key_trans_decrypt_para">CMSG_CTRL_KEY_TRANS_DECRYPT_PARA</a> structure might contain an <b>HCRYPTPROV</b> choice, its <b>hNCryptKey</b> member must not be used to decrypt <b>EncryptedKey</b>. Instead, you must use the <b>hNCryptKey</b> specified in the <i>pCNGContentDecryptInfo</i> parameter.
 
 
-This function must not update members of the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_key_trans_decrypt_para">CMSG_CTRL_KEY_TRANS_DECRYPT_PARA</a> structure.
+This function must not update members of the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_ctrl_key_trans_decrypt_para">CMSG_CTRL_KEY_TRANS_DECRYPT_PARA</a> structure.
 
 
 ### -param dwFlags [in]

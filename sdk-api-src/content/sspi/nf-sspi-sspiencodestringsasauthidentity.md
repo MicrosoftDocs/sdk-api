@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SspiEncodeStringsAsAuthIdentity, SspiEncodeStringsAsAuthIdentity function [Security], security.sspiencodestringsasauthidentity, sspi/SspiEncodeStringsAsAuthIdentity
 ms.topic: function
-f1_keywords: 
- - "sspi/SspiEncodeStringsAsAuthIdentity"
+f1_keywords:
+- sspi/SspiEncodeStringsAsAuthIdentity
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - SspiCli.dll
+- SspiCli.dll
 api_name:
- - SspiEncodeStringsAsAuthIdentity
+- SspiEncodeStringsAsAuthIdentity
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ The domain name associated with the identity to encode.
 
 ### -param pszPackedCredentialsString [in]
 
-An encoded string version of a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure that specifies the user's credentials.
+An encoded string version of a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure that specifies the user's credentials.
 
 
 ### -param ppAuthIdentity [out]

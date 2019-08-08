@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVT_SYSTEM_PROPERTY_ID, EVT_SYSTEM_PROPERTY_ID enumeration [EventLog], EvtSystemActivityID, EvtSystemChannel, EvtSystemComputer, EvtSystemEventID, EvtSystemEventRecordId, EvtSystemKeywords, EvtSystemLevel, EvtSystemOpcode, EvtSystemProcessID, EvtSystemPropertyIdEND, EvtSystemProviderGuid, EvtSystemProviderName, EvtSystemQualifiers, EvtSystemRelatedActivityID, EvtSystemTask, EvtSystemThreadID, EvtSystemTimeCreated, EvtSystemUserID, EvtSystemVersion, wes.evt_system_property_id, winevt/EVT_SYSTEM_PROPERTY_ID, winevt/EvtSystemActivityID, winevt/EvtSystemChannel, winevt/EvtSystemComputer, winevt/EvtSystemEventID, winevt/EvtSystemEventRecordId, winevt/EvtSystemKeywords, winevt/EvtSystemLevel, winevt/EvtSystemOpcode, winevt/EvtSystemProcessID, winevt/EvtSystemPropertyIdEND, winevt/EvtSystemProviderGuid, winevt/EvtSystemProviderName, winevt/EvtSystemQualifiers, winevt/EvtSystemRelatedActivityID, winevt/EvtSystemTask, winevt/EvtSystemThreadID, winevt/EvtSystemTimeCreated, winevt/EvtSystemUserID, winevt/EvtSystemVersion
 ms.topic: enum
-f1_keywords: 
- - "winevt/EVT_SYSTEM_PROPERTY_ID"
+f1_keywords:
+- winevt/EVT_SYSTEM_PROPERTY_ID
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinEvt.h
+- WinEvt.h
 api_name:
- - EVT_SYSTEM_PROPERTY_ID
+- EVT_SYSTEM_PROPERTY_ID
 product: Windows
 targetos: Windows
 req.typenames: EVT_SYSTEM_PROPERTY_ID
@@ -168,11 +168,11 @@ Before accessing these properties, check the variant type to ensure that it is n
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_render_context_flags">EVT_RENDER_CONTEXT_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_render_context_flags">EVT_RENDER_CONTEXT_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_render_flags">EVT_RENDER_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_render_flags">EVT_RENDER_FLAGS</a>
 
 
 

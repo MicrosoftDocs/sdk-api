@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddDesktopItemWithUI, AddDesktopItemWithUI method [Legacy Windows Environment Features], AddDesktopItemWithUI method [Legacy Windows Environment Features],IActiveDesktop interface, DTI_ADDUI_DEFAULT, DTI_ADDUI_DISPSUBWIZARD, DTI_ADDUI_POSITIONITEM, IActiveDesktop interface [Legacy Windows Environment Features],AddDesktopItemWithUI method, IActiveDesktop.AddDesktopItemWithUI, IActiveDesktop::AddDesktopItemWithUI, _win32_IActiveDesktop_AddDesktopItemWithUI_Method, lwef.iactivedesktop_adddesktopitemwithui_method, shell.iactivedesktop_adddesktopitemwithui_method, shlobj_core/IActiveDesktop::AddDesktopItemWithUI
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IActiveDesktop.AddDesktopItemWithUI"
+f1_keywords:
+- shlobj_core/IActiveDesktop.AddDesktopItemWithUI
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IActiveDesktop.AddDesktopItemWithUI
+- IActiveDesktop.AddDesktopItemWithUI
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The handle of the parent window. If <b>NULL</b>, the desktop item is added witho
 
 Type: <b>LPCOMPONENT</b>
 
-Address of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent">COMPONENT</a> structure containing the details of the desktop item to be added. 
+Address of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure containing the details of the desktop item to be added. 
 
 
 ### -param dwReserved
@@ -95,7 +95,7 @@ Activate the subscription wizard to allow the user to subscribe to this desktop 
 
 #### DTI_ADDUI_POSITIONITEM
 
-Instruct the system to look at the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomppos">COMPPOS</a> structure passed to the <b>cpPos</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent">COMPONENT</a> structure to ensure that the values are within reasonable limits. This value was added for Internet Explorer 5.
+Instruct the system to look at the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-comppos">COMPPOS</a> structure passed to the <b>cpPos</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure to ensure that the values are within reasonable limits. This value was added for Internet Explorer 5.
 
 
 ## -returns

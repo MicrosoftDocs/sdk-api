@@ -8,10 +8,10 @@ tech.root: Services
 ms.assetid: a57aa702-40a2-4880-80db-6c4f43c3e7ea
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSERVICE_TRIGGER, DOMAIN_JOIN_GUID, DOMAIN_LEAVE_GUID, FIREWALL_PORT_CLOSE_GUID, FIREWALL_PORT_OPEN_GUID, MACHINE_POLICY_PRESENT_GUID, NAMED_PIPE_EVENT_GUID, NETWORK_MANAGER_FIRST_IP_ADDRESS_ARRIVAL_GUID, NETWORK_MANAGER_LAST_IP_ADDRESS_REMOVAL_GUID, PSERVICE_TRIGGER, PSERVICE_TRIGGER structure pointer, RPC_INTERFACE_EVENT_GUID, SERVICE_TRIGGER, SERVICE_TRIGGER structure, SERVICE_TRIGGER_ACTION_SERVICE_START, SERVICE_TRIGGER_ACTION_SERVICE_STOP, SERVICE_TRIGGER_TYPE_CUSTOM, SERVICE_TRIGGER_TYPE_DEVICE_INTERFACE_ARRIVAL, SERVICE_TRIGGER_TYPE_DOMAIN_JOIN, SERVICE_TRIGGER_TYPE_FIREWALL_PORT_EVENT, SERVICE_TRIGGER_TYPE_GROUP_POLICY, SERVICE_TRIGGER_TYPE_IP_ADDRESS_AVAILABILITY, SERVICE_TRIGGER_TYPE_NETWORK_ENDPOINT, USER_POLICY_PRESENT_GUID, base.service_trigger, winsvc/PSERVICE_TRIGGER, winsvc/SERVICE_TRIGGER"
+ms.keywords: '*PSERVICE_TRIGGER, DOMAIN_JOIN_GUID, DOMAIN_LEAVE_GUID, FIREWALL_PORT_CLOSE_GUID, FIREWALL_PORT_OPEN_GUID, MACHINE_POLICY_PRESENT_GUID, NAMED_PIPE_EVENT_GUID, NETWORK_MANAGER_FIRST_IP_ADDRESS_ARRIVAL_GUID, NETWORK_MANAGER_LAST_IP_ADDRESS_REMOVAL_GUID, PSERVICE_TRIGGER, PSERVICE_TRIGGER structure pointer, RPC_INTERFACE_EVENT_GUID, SERVICE_TRIGGER, SERVICE_TRIGGER structure, SERVICE_TRIGGER_ACTION_SERVICE_START, SERVICE_TRIGGER_ACTION_SERVICE_STOP, SERVICE_TRIGGER_TYPE_CUSTOM, SERVICE_TRIGGER_TYPE_DEVICE_INTERFACE_ARRIVAL, SERVICE_TRIGGER_TYPE_DOMAIN_JOIN, SERVICE_TRIGGER_TYPE_FIREWALL_PORT_EVENT, SERVICE_TRIGGER_TYPE_GROUP_POLICY, SERVICE_TRIGGER_TYPE_IP_ADDRESS_AVAILABILITY, SERVICE_TRIGGER_TYPE_NETWORK_ENDPOINT, USER_POLICY_PRESENT_GUID, base.service_trigger, winsvc/PSERVICE_TRIGGER, winsvc/SERVICE_TRIGGER'
 ms.topic: struct
-f1_keywords: 
- - "winsvc/SERVICE_TRIGGER"
+f1_keywords:
+- winsvc/SERVICE_TRIGGER
 req.header: winsvc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winsvc.h
+- winsvc.h
 api_name:
- - SERVICE_TRIGGER
+- SERVICE_TRIGGER
 product: Windows
 targetos: Windows
 req.typenames: SERVICE_TRIGGER, *PSERVICE_TRIGGER
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a service trigger event. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_trigger_info">SERVICE_TRIGGER_INFO</a> structure. 
+Represents a service trigger event. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger_info">SERVICE_TRIGGER_INFO</a> structure. 
 
 
 ## -struct-fields
@@ -363,7 +363,7 @@ The event is triggered when the user policy has changed. The <b>dwTriggerType</b
 
 ### -field cDataItems
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_trigger_specific_data_item">SERVICE_TRIGGER_SPECIFIC_DATA_ITEM</a> structures in the array pointed to by <i>pDataItems</i>. 
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger_specific_data_item">SERVICE_TRIGGER_SPECIFIC_DATA_ITEM</a> structures in the array pointed to by <i>pDataItems</i>. 
 
 This member is valid only if the <b>dwDataType</b> member is SERVICE_TRIGGER_TYPE_CUSTOM, SERVICE_TRIGGER_TYPE_DEVICE_ARRIVAL, SERVICE_TRIGGER_TYPE_FIREWALL_PORT_EVENT, or SERVICE_TRIGGER_TYPE_NETWORK_ENDPOINT.
 
@@ -385,7 +385,7 @@ This member is valid only if the <b>dwDataType</b> member is SERVICE_TRIGGER_TYP
 
 ### -field pDataItems
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_trigger_specific_data_item">SERVICE_TRIGGER_SPECIFIC_DATA_ITEM</a> structures that contain trigger-specific data. 
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger_specific_data_item">SERVICE_TRIGGER_SPECIFIC_DATA_ITEM</a> structures that contain trigger-specific data. 
 
 
 ### -field pDataItems.size_is
@@ -426,11 +426,11 @@ If it is not possible to disable the services, it may be necessary to restart th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_trigger_info">SERVICE_TRIGGER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger_info">SERVICE_TRIGGER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_trigger_specific_data_item">SERVICE_TRIGGER_SPECIFIC_DATA_ITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger_specific_data_item">SERVICE_TRIGGER_SPECIFIC_DATA_ITEM</a>
 
 
 

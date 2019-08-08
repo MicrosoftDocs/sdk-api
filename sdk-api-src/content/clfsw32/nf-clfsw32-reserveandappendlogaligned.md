@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLFS_FLAG_FORCE_APPEND, CLFS_FLAG_FORCE_FLUSH, CLFS_FLAG_NO_FLAGS, CLFS_FLAG_USE_RESERVATION, ReserveAndAppendLogAligned, ReserveAndAppendLogAligned function [Files], clfsw32/ReserveAndAppendLogAligned, fs.reserveandappendlogaligned
 ms.topic: function
-f1_keywords: 
- - "clfsw32/ReserveAndAppendLogAligned"
+f1_keywords:
+- clfsw32/ReserveAndAppendLogAligned
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Clfsw32.dll
+- Clfsw32.dll
 api_name:
- - ReserveAndAppendLogAligned
+- ReserveAndAppendLogAligned
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A pointer to a   marshaling context that  is allocated by using the <a href="htt
 
 ### -param rgWriteEntries [in, optional]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_write_entry">CLFS_WRITE_ENTRY</a> buffers to be marshaled into  one  record.  
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_write_entry">CLFS_WRITE_ENTRY</a> buffers to be marshaled into  one  record.  
 
 This parameter is ignored if the <i>cWriteEntries</i> parameter is zero.
 
@@ -87,12 +87,12 @@ Specify 1 (one) for a simple concatenation. The <i>cbWriteEntryAlignment</i> par
 
 ### -param plsnUndoNext [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the next record in the undo-chain.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the next record in the undo-chain.
 
 
 ### -param plsnPrevious [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a> structure that specifies the LSN of the previous record in the previous-chain.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that specifies the LSN of the previous record in the previous-chain.
 
 
 ### -param cReserveRecords [in]
@@ -170,12 +170,12 @@ Assigns no flags.
 
 ### -param plsn [out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a> structure that receives the LSN  of the appended record.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that receives the LSN  of the appended record.
 
 
 ### -param pOverlapped [in, out, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. 
 
 This parameter can be <b>NULL</b> if asynchronous operation is not used.
 
@@ -217,11 +217,11 @@ To complete the log-record copy, the client should first synchronize its executi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_write_entry">CLFS_WRITE_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_write_entry">CLFS_WRITE_ENTRY</a>
 
 
 
@@ -229,7 +229,7 @@ To complete the log-record copy, the client should first synchronize its executi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
  
 
  

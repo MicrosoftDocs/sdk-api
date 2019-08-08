@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_VPDEVCAPS, DXVAHD_VPDEVCAPS structure [Media Foundation], dxvahd/DXVAHD_VPDEVCAPS, mf.dxvahd_vpdevcaps
 ms.topic: struct
-f1_keywords: 
- - "dxvahd/DXVAHD_VPDEVCAPS"
+f1_keywords:
+- dxvahd/DXVAHD_VPDEVCAPS
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - DXVAHD_VPDEVCAPS
+- DXVAHD_VPDEVCAPS
 product: Windows
 targetos: Windows
 req.typenames: DXVAHD_VPDEVCAPS
@@ -61,27 +61,27 @@ Specifies the capabilities of a Microsoft DirectX Video Acceleration High Defini
 
 ### -field DeviceType
 
-Specifies the device type, as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_device_type">DXVAHD_DEVICE_TYPE</a> enumeration.
+Specifies the device type, as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_device_type">DXVAHD_DEVICE_TYPE</a> enumeration.
 
 
 ### -field DeviceCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_device_caps">DXVAHD_DEVICE_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_device_caps">DXVAHD_DEVICE_CAPS</a> enumeration.
 
 
 ### -field FeatureCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_feature_caps">DXVAHD_FEATURE_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_feature_caps">DXVAHD_FEATURE_CAPS</a> enumeration.
 
 
 ### -field FilterCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_filter_caps">DXVAHD_FILTER_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_filter_caps">DXVAHD_FILTER_CAPS</a> enumeration.
 
 
 ### -field InputFormatCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_input_format_caps">DXVAHD_INPUT_FORMAT_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_input_format_caps">DXVAHD_INPUT_FORMAT_CAPS</a> enumeration.
 
 
 ### -field InputPool

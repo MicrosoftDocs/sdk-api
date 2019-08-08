@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Datetime, MI_Datetime structure [Windows Management Infrastructure (MI)], mi/MI_Datetime, wmi._mi_datetime, wmi_v2.mi_datetime
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_Datetime"
+f1_keywords:
+- mi/MI_Datetime
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Datetime
+- MI_Datetime
 product: Windows
 targetos: Windows
 req.typenames: MI_Datetime
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a union of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_timestamp">MI_Timestamp</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_interval">MI_Interval</a>.
+Represents a union of <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_timestamp">MI_Timestamp</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_interval">MI_Interval</a>.
 
 
 ## -struct-fields

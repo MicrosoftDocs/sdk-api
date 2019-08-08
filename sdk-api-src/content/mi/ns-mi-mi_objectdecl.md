@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ObjectDecl, MI_ObjectDecl structure [Windows Management Infrastructure (MI)], mi/MI_ObjectDecl, wmi_v2.mi_objectdecl
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_ObjectDecl"
+f1_keywords:
+- mi/MI_ObjectDecl
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_ObjectDecl
+- MI_ObjectDecl
 product: Windows
 targetos: Windows
 req.typenames: MI_ObjectDecl
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains properties common to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_classdecl">MI_ClassDecl</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_propertydecl">MI_PropertyDecl</a> structures. It can be used to write functions
+Contains properties common to the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_classdecl">MI_ClassDecl</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_propertydecl">MI_PropertyDecl</a> structures. It can be used to write functions
 that work on the common fields of these two types.
 
 
@@ -110,19 +110,19 @@ Size of the structure.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_classdecl">MI_ClassDecl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_classdecl">MI_ClassDecl</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_featuredecl">MI_FeatureDecl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_featuredecl">MI_FeatureDecl</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_propertydecl">MI_PropertyDecl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_propertydecl">MI_PropertyDecl</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_qualifier">MI_Qualifier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_qualifier">MI_Qualifier</a>
  
 
  

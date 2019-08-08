@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WPUOpenCurrentThread, WPUOpenCurrentThread function [Winsock], _win32_wpuopencurrentthread_2, winsock.wpuopencurrentthread_2, ws2spi/WPUOpenCurrentThread
 ms.topic: function
-f1_keywords: 
- - "ws2spi/WPUOpenCurrentThread"
+f1_keywords:
+- ws2spi/WPUOpenCurrentThread
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ws2spi.h
+- Ws2spi.h
 api_name:
- - WPUOpenCurrentThread
+- WPUOpenCurrentThread
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The
 ### -param lpThreadId [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wsathreadid">WSATHREADID</a> structure that can then be passed to an overlapped function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a> structure that can then be passed to an overlapped function.
 
 
 ### -param lpErrno [out]
@@ -113,7 +113,7 @@ A successful
 
 The 
 <b>WPUOpenCurrentThread</b> function provides a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wsathreadid">WSATHREADID</a> structure that can then be passed to an overlapped function such as 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a> structure that can then be passed to an overlapped function such as 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a> or 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v=vs.85)">WSPRecv</a>. Layered service providers using a private thread in one of the upper layers will use 
 <b>WPUOpenCurrentThread</b> to pass a 

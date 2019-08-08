@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TcAddFlow, TcAddFlow function [QOS], _gqos_tcaddflow, qos.tcaddflow, traffic/TcAddFlow
 ms.topic: function
-f1_keywords: 
- - "traffic/TcAddFlow"
+f1_keywords:
+- traffic/TcAddFlow
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Traffic.lib
 req.dll: Traffic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Traffic.dll
+- Traffic.dll
 api_name:
- - TcAddFlow
+- TcAddFlow
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -255,7 +255,7 @@ Bad length specified for the TC objects.
 </td>
 <td width="60%">
 Applies to Diffserv flows. Indicates that the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_diffserv">QOS_DIFFSERV</a> object was passed with an invalid parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a> object was passed with an invalid parameter.
 
 </td>
 </tr>
@@ -267,7 +267,7 @@ Applies to Diffserv flows. Indicates that the
 </td>
 <td width="60%">
 Applies to Diffserv flows. Indicates that the QOS_DIFFSERV_RULE specified in 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/ns-traffic-_tc_gen_flow">TC_GEN_FLOW</a> already applies to an existing flow on the interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-tc_gen_flow">TC_GEN_FLOW</a> already applies to an existing flow on the interface.
 
 </td>
 </tr>
@@ -279,7 +279,7 @@ Applies to Diffserv flows. Indicates that the QOS_DIFFSERV_RULE specified in
 </td>
 <td width="60%">
 The 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_qos_shaping_rate">QOS_SHAPING_RATE</a> object was passed with an invalid <b>ShapingRate</b> member.
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-qos_shaping_rate">QOS_SHAPING_RATE</a> object was passed with an invalid <b>ShapingRate</b> member.
 
 </td>
 </tr>
@@ -344,7 +344,7 @@ Traffic control may delete a flow for various reasons, including the inability t
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/ns-traffic-_tc_gen_flow">TC_GEN_FLOW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-tc_gen_flow">TC_GEN_FLOW</a>
 
 
 

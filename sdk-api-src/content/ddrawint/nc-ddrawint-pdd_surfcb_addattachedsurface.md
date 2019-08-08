@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdAddAttachedSurface, DdAddAttachedSurface callback function [Display Devices], PDD_SURFCB_ADDATTACHEDSURFACE, PDD_SURFCB_ADDATTACHEDSURFACE callback, ddfncs_b7f5d56d-95b7-4b79-8d20-9ab663582dd2.xml, ddrawint/DdAddAttachedSurface, display.ddaddattachedsurface
 ms.topic: callback
-f1_keywords: 
- - "ddrawint/DdAddAttachedSurface"
+f1_keywords:
+- ddrawint/DdAddAttachedSurface
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DdAddAttachedSurface
+- DdAddAttachedSurface
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The <b>DdAddAttachedSurface</b> callback function attaches a surface to another 
 
 #### - lpAddAttachedSurface
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_addattachedsurfacedata">DD_ADDATTACHEDSURFACEDATA</a> structure that contains information required for the driver to perform the attachment.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_addattachedsurfacedata">DD_ADDATTACHEDSURFACEDATA</a> structure that contains information required for the driver to perform the attachment.
 
 
 ## -returns
@@ -98,7 +98,7 @@ The driver should update any internal surface state it keeps to reflect the atta
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_addattachedsurfacedata">DD_ADDATTACHEDSURFACEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_addattachedsurfacedata">DD_ADDATTACHEDSURFACEDATA</a>
  
 
  

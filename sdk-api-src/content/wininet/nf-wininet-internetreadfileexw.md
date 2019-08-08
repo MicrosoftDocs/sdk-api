@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetReadFileEx, InternetReadFileEx function [WinINet], InternetReadFileExA, InternetReadFileExW, _inet_internetreadfileex_function, wininet.internetreadfileex, wininet/InternetReadFileEx, wininet/InternetReadFileExA, wininet/InternetReadFileExW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetReadFileEx"
+f1_keywords:
+- wininet/InternetReadFileEx
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetReadFileEx
- - InternetReadFileExA
- - InternetReadFileExW
+- InternetReadFileEx
+- InternetReadFileExA
+- InternetReadFileExW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ Handle returned by the
 ### -param lpBuffersOut [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-_internet_buffersa">INTERNET_BUFFERS</a> structure that receives the data downloaded.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_buffersa">INTERNET_BUFFERS</a> structure that receives the data downloaded.
 
 
 ### -param dwFlags [in]

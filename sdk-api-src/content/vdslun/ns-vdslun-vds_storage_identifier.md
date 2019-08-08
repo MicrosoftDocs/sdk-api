@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_STORAGE_IDENTIFIER, VDS_STORAGE_IDENTIFIER structure [VDS], base.vds_storage_identifier, vdslun/_VDS_STORAGE_IDENTIFIER
 ms.topic: struct
-f1_keywords: 
- - "vdslun/VDS_STORAGE_IDENTIFIER"
+f1_keywords:
+- vdslun/VDS_STORAGE_IDENTIFIER
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VdsLun.h
+- VdsLun.h
 api_name:
- - VDS_STORAGE_IDENTIFIER
+- VDS_STORAGE_IDENTIFIER
 product: Windows
 targetos: Windows
 req.typenames: VDS_STORAGE_IDENTIFIER
@@ -65,13 +65,13 @@ Defines a
 ### -field m_CodeSet
 
 The encoding type of <b>m_rgbIdentifier</b> enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_storage_identifier_code_set">VDS_STORAGE_IDENTIFIER_CODE_SET</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-vds_storage_identifier_code_set">VDS_STORAGE_IDENTIFIER_CODE_SET</a>.
 
 
 ### -field m_Type
 
 The type of <b>m_rgbIdentifier</b> enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_storage_identifier_type">VDS_STORAGE_IDENTIFIER_TYPE</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-vds_storage_identifier_type">VDS_STORAGE_IDENTIFIER_TYPE</a>.
 
 
 ### -field m_cbIdentifier
@@ -88,7 +88,7 @@ Pointer to the identifier data.
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_storage_device_id_descriptor">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a> 
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_storage_device_id_descriptor">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a> 
     structure includes this structure as a member to specify a particular storage device identifier for a LUN.
 
 
@@ -103,15 +103,15 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vd
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_storage_device_id_descriptor">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_storage_device_id_descriptor">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_storage_identifier_code_set">VDS_STORAGE_IDENTIFIER_CODE_SET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-vds_storage_identifier_code_set">VDS_STORAGE_IDENTIFIER_CODE_SET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_storage_identifier_type">VDS_STORAGE_IDENTIFIER_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-vds_storage_identifier_type">VDS_STORAGE_IDENTIFIER_TYPE</a>
  
 
  

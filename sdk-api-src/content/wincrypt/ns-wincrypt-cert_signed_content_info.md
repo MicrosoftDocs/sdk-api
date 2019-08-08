@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: f650765e-7a72-42a3-baf7-29779fd04adc
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_SIGNED_CONTENT_INFO, CERT_SIGNED_CONTENT_INFO, CERT_SIGNED_CONTENT_INFO structure [Security], PCERT_SIGNED_CONTENT_INFO, PCERT_SIGNED_CONTENT_INFO structure pointer [Security], _crypto2_cert_signed_content_info, security.cert_signed_content_info, wincrypt/CERT_SIGNED_CONTENT_INFO, wincrypt/PCERT_SIGNED_CONTENT_INFO"
+ms.keywords: '*PCERT_SIGNED_CONTENT_INFO, CERT_SIGNED_CONTENT_INFO, CERT_SIGNED_CONTENT_INFO structure [Security], PCERT_SIGNED_CONTENT_INFO, PCERT_SIGNED_CONTENT_INFO structure pointer [Security], _crypto2_cert_signed_content_info, security.cert_signed_content_info, wincrypt/CERT_SIGNED_CONTENT_INFO, wincrypt/PCERT_SIGNED_CONTENT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_SIGNED_CONTENT_INFO"
+f1_keywords:
+- wincrypt/CERT_SIGNED_CONTENT_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_SIGNED_CONTENT_INFO
+- CERT_SIGNED_CONTENT_INFO
 product: Windows
 targetos: Windows
 req.typenames: CERT_SIGNED_CONTENT_INFO, *PCERT_SIGNED_CONTENT_INFO
@@ -52,10 +52,10 @@ ms.custom: 19H1
 
 
 The <b>CERT_SIGNED_CONTENT_INFO</b> structure contains encoded content to be signed and a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> to hold the signature. The <b>ToBeSigned</b> member is an encoded 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_info">CRL_INFO</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_info">CTL_INFO</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_request_info">CERT_REQUEST_INFO</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_info">CRL_INFO</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_info">CTL_INFO</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_request_info">CERT_REQUEST_INFO</a>.
 
 
 ## -struct-fields
@@ -71,7 +71,7 @@ A BLOB that has been encoded by using <a href="https://docs.microsoft.com/window
 ### -field SignatureAlgorithm
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the signature algorithm type and any associated additional parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the signature algorithm type and any associated additional parameters.
 
 
 ### -field Signature
@@ -84,11 +84,11 @@ BLOB containing a signed <a href="https://docs.microsoft.com/windows/desktop/Sec
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_bit_blob">CRYPT_BIT_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_bit_blob">CRYPT_BIT_BLOB</a>
 
 
 

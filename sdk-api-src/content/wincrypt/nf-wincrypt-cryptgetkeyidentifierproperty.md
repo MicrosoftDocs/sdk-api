@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_KEYID_ALLOC_FLAG, CRYPT_KEYID_MACHINE_FLAG, CryptGetKeyIdentifierProperty, CryptGetKeyIdentifierProperty function [Security], _crypto2_cryptgetkeyidentifierproperty, security.cryptgetkeyidentifierproperty, wincrypt/CryptGetKeyIdentifierProperty
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptGetKeyIdentifierProperty"
+f1_keywords:
+- wincrypt/CryptGetKeyIdentifierProperty
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptGetKeyIdentifierProperty
+- CryptGetKeyIdentifierProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -138,7 +138,7 @@ When the CRYPT_KEYID_ALLOC_FLAG is set, <i>pvData</i> is the address of a pointe
 ### -param pcbData [in, out]
 
 A pointer to a <b>DWORD</b> that contains the size, in bytes, of the buffer pointed to by the <i>pvData</i> parameter. When the function returns, the <b>DWORD</b> contains the number of bytes stored in the buffer. The size contained in the variable pointed to by <i>pcbData</i> can indicate a size larger than the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure because the structure can contain pointers to auxiliary data. This size is the sum of the size needed by the structure and all auxiliary data. 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure because the structure can contain pointers to auxiliary data. This size is the sum of the size needed by the structure and all auxiliary data. 
 
 
 

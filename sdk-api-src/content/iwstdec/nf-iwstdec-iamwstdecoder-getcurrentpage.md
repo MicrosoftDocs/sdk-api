@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPage, GetCurrentPage method [DirectShow], GetCurrentPage method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetCurrentPage method, IAMWstDecoder.GetCurrentPage, IAMWstDecoder::GetCurrentPage, IAMWstDecoderGetCurrentPage, dshow.iamwstdecoder_getcurrentpage, iwstdec/IAMWstDecoder::GetCurrentPage
 ms.topic: method
-f1_keywords: 
- - "iwstdec/IAMWstDecoder.GetCurrentPage"
+f1_keywords:
+- iwstdec/IAMWstDecoder.GetCurrentPage
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMWstDecoder.GetCurrentPage
+- IAMWstDecoder.GetCurrentPage
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Downstream filters use the <code>GetCurrentPage</code> method to retrieve the cu
 
 ### -param pWstPage [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/ns-iwstdec-_am_wst_page">AM_WST_PAGE</a> structure to receive the current page.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iwstdec/ns-iwstdec-am_wst_page">AM_WST_PAGE</a> structure to receive the current page.
 
 
 ## -returns

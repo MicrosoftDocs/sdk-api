@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FONTOBJ_vGetInfo, FONTOBJ_vGetInfo function [Display Devices], display.fontobj_vgetinfo, gdifncs_0b07bb13-32b4-404c-824f-02f2b5659295.xml, winddi/FONTOBJ_vGetInfo
 ms.topic: function
-f1_keywords: 
- - "winddi/FONTOBJ_vGetInfo"
+f1_keywords:
+- winddi/FONTOBJ_vGetInfo
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - FONTOBJ_vGetInfo
+- FONTOBJ_vGetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>FONTOBJ_vGetInfo</b> function retrieves information about an associated f
 
 ### -param pfo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a> structure to be queried.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure to be queried.
 
 
 ### -param cjSize [in]
@@ -71,7 +71,7 @@ Specifies the size in bytes of the buffer pointed to by <i>pfi</i>.
 
 ### -param pfi
 
-Pointer to a buffer previously allocated by the driver. GDI writes a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontinfo">FONTINFO</a> structure to this buffer.
+Pointer to a buffer previously allocated by the driver. GDI writes a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontinfo">FONTINFO</a> structure to this buffer.
 
 
 ## -returns
@@ -88,11 +88,11 @@ None
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontinfo">FONTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontinfo">FONTINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
  
 
  

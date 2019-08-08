@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NTMS_SLOTSTATE_EMPTY, NTMS_SLOTSTATE_FULL, NTMS_SLOTSTATE_NEEDSINVENTORY, NTMS_SLOTSTATE_NOTPRESENT, NTMS_SLOTSTATE_UNKNOWN, NTMS_STORAGEINFORMATION, NTMS_STORAGEINFORMATION structure [Files], NTMS_STORAGESLOTINFORMATION, NTMS_STORAGESLOTINFORMATION structure [Files], _zaw_ntms_storageslotinformation, base.ntms_storageslotinformation, fs.ntms_storageslotinformation, ntmsapi/NTMS_STORAGESLOTINFORMATION
 ms.topic: struct
-f1_keywords: 
- - "ntmsapi/NTMS_STORAGEINFORMATION"
+f1_keywords:
+- ntmsapi/NTMS_STORAGEINFORMATION
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntmsapi.h
+- Ntmsapi.h
 api_name:
- - NTMS_STORAGEINFORMATION
+- NTMS_STORAGEINFORMATION
 product: Windows
 targetos: Windows
 req.typenames: NTMS_STORAGESLOTINFORMATION
@@ -143,7 +143,7 @@ Library that contains the slot.
 
 The 
 <b>NTMS_STORAGESLOTINFORMATION</b> structure is part of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
 
 
@@ -153,7 +153,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
  
 
  

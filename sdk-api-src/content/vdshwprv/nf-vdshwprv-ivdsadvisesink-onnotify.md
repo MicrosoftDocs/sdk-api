@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsAdviseSink interface [VDS],OnNotify method, IVdsAdviseSink.OnNotify, IVdsAdviseSink::OnNotify, OnNotify, OnNotify method [VDS], OnNotify method [VDS],IVdsAdviseSink interface, base.ivdsadvisesink_onnotify, vds/IVdsAdviseSink::OnNotify, vdshwprv/IVdsAdviseSink::OnNotify
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsAdviseSink.OnNotify"
+f1_keywords:
+- vdshwprv/IVdsAdviseSink.OnNotify
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsAdviseSink.OnNotify
+- IVdsAdviseSink.OnNotify
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The number of notifications specified in <i>pNotificationArray</i>.
 
 ### -param pNotificationArray [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_notification">VDS_NOTIFICATION</a> 
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a> 
       structures. A provider allocates the memory for the array when the provider calls into the service; the 
       service frees the array. VDS allocates the array when the service calls into an application. In this case, 
       callers must free the array by using the 
@@ -150,7 +150,7 @@ For providers that use this method to send notifications, it is good practice to
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_notification">VDS_NOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: c53014a0-049c-42ef-b612-8a1e03fb0dfd
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCMSG_CONTENT_ENCRYPT_INFO, CMSG_CONTENT_ENCRYPT_FREE_OBJID_FLAG, CMSG_CONTENT_ENCRYPT_FREE_PARA_FLAG, CMSG_CONTENT_ENCRYPT_INFO, CMSG_CONTENT_ENCRYPT_INFO structure [Security], CMSG_CONTENT_ENCRYPT_PAD_ENCODED_LEN_FLAG, CMSG_CONTENT_ENCRYPT_RELEASE_CONTEXT_FLAG, PCMSG_CONTENT_ENCRYPT_INFO, PCMSG_CONTENT_ENCRYPT_INFO structure pointer [Security], RC2, RC4, security.cmsg_content_encrypt_info, wincrypt/CMSG_CONTENT_ENCRYPT_INFO, wincrypt/PCMSG_CONTENT_ENCRYPT_INFO"
+ms.keywords: '*PCMSG_CONTENT_ENCRYPT_INFO, CMSG_CONTENT_ENCRYPT_FREE_OBJID_FLAG, CMSG_CONTENT_ENCRYPT_FREE_PARA_FLAG, CMSG_CONTENT_ENCRYPT_INFO, CMSG_CONTENT_ENCRYPT_INFO structure [Security], CMSG_CONTENT_ENCRYPT_PAD_ENCODED_LEN_FLAG, CMSG_CONTENT_ENCRYPT_RELEASE_CONTEXT_FLAG, PCMSG_CONTENT_ENCRYPT_INFO, PCMSG_CONTENT_ENCRYPT_INFO structure pointer [Security], RC2, RC4, security.cmsg_content_encrypt_info, wincrypt/CMSG_CONTENT_ENCRYPT_INFO, wincrypt/PCMSG_CONTENT_ENCRYPT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMSG_CONTENT_ENCRYPT_INFO"
+f1_keywords:
+- wincrypt/CMSG_CONTENT_ENCRYPT_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMSG_CONTENT_ENCRYPT_INFO
+- CMSG_CONTENT_ENCRYPT_INFO
 product: Windows
 targetos: Windows
 req.typenames: CMSG_CONTENT_ENCRYPT_INFO, *PCMSG_CONTENT_ENCRYPT_INFO
@@ -71,7 +71,7 @@ A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly
 
 ### -field ContentEncryptionAlgorithm
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm used to encrypt the key. If the callback function updates either the <b>pszObjId</b> member or the <b>Parameters</b> member of the <b>CRYPT_ALGORITHM_IDENTIFIER</b> structure, set the appropriate value in the <b>dwFlags</b> member. You must allocate and free memory for these values by using the <b>pfnAlloc</b> and <b>pfnFree</b> members.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm used to encrypt the key. If the callback function updates either the <b>pszObjId</b> member or the <b>Parameters</b> member of the <b>CRYPT_ALGORITHM_IDENTIFIER</b> structure, set the appropriate value in the <b>dwFlags</b> member. You must allocate and free memory for these values by using the <b>pfnAlloc</b> and <b>pfnFree</b> members.
 
 
 ### -field pvEncryptionAuxInfo
@@ -90,7 +90,7 @@ A pointer to a structure that depends on the encryption algorithm. The following
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_rc2_aux_info">CMSG_RC2_AUX_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_rc2_aux_info">CMSG_RC2_AUX_INFO</a>
 
 
 </td>
@@ -102,7 +102,7 @@ A pointer to a structure that depends on the encryption algorithm. The following
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_rc4_aux_info">CMSG_RC4_AUX_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_rc4_aux_info">CMSG_RC4_AUX_INFO</a>
 
 
 </td>
@@ -120,7 +120,7 @@ A value that specifies the number of recipients of a message.
 
 ### -field rgCmsRecipients
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_recipient_encode_info">CMSG_RECIPIENT_ENCODE_INFO</a> structures that contain the message recipient information.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_recipient_encode_info">CMSG_RECIPIENT_ENCODE_INFO</a> structures that contain the message recipient information.
 
 
 ### -field pfnAlloc
@@ -173,7 +173,7 @@ A value that indicates whether memory must be freed for the <b>hCryptProv</b> or
 </dl>
 </td>
 <td width="60%">
-Set if the callback function updates the <b>Parameters</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure referred to by the <b>ContentEncryptionAlgorithm</b> member.
+Set if the callback function updates the <b>Parameters</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure referred to by the <b>ContentEncryptionAlgorithm</b> member.
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ Set if the callback function updates the <b>Parameters</b> member of the <a href
 </dl>
 </td>
 <td width="60%">
-Set if the callback function updates the <b>pszObjId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure referred to by the <b>ContentEncryptionAlgorithm</b> member.
+Set if the callback function updates the <b>pszObjId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure referred to by the <b>ContentEncryptionAlgorithm</b> member.
 
 </td>
 </tr>
@@ -231,15 +231,15 @@ The size, in bytes, of the <b>pbCNGContentEncryptKeyObject</b> or <b>pbContentEn
 
 
 
-When called with the <i>dwMsgType</i> parameter set to <b>CMSG_ENVELOPED</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> function  initializes the <b>CMSG_CONTENT_ENCRYPT_INFO</b> structure from the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> structure.
+When called with the <i>dwMsgType</i> parameter set to <b>CMSG_ENVELOPED</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> function  initializes the <b>CMSG_CONTENT_ENCRYPT_INFO</b> structure from the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> structure.
 
-If the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> structure uses the <b>rgpRecipients</b> member instead of the <b>rgCmsRecipients</b> member, the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> function converts the <b>rgpRecipients</b> member structures to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_recipient_encode_info">CMSG_RECIPIENT_ENCODE_INFO</a> structures for the <b>rgCmsRecipients</b> member of the <b>CMSG_CONTENT_ENCRYPT_INFO</b> structure.
+If the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> structure uses the <b>rgpRecipients</b> member instead of the <b>rgCmsRecipients</b> member, the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> function converts the <b>rgpRecipients</b> member structures to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_recipient_encode_info">CMSG_RECIPIENT_ENCODE_INFO</a> structures for the <b>rgCmsRecipients</b> member of the <b>CMSG_CONTENT_ENCRYPT_INFO</b> structure.
 
 When the <b>fCNG</b> member is <b>FALSE</b>, the following members can be changed in the <b>CMSG_CONTENT_ENCRYPT_INFO</b> structure:<dl>
 <dd><b>hContentEncryptKey</b></dd>
 <dd><b>hCryptProv</b></dd>
-<dd>The <b>pszObjId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure referred to by the <b>ContentEncryptionAlgorithm</b> member</dd>
-<dd>The <b>Parameters</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure referred to by the <b>ContentEncryptionAlgorithm</b> member</dd>
+<dd>The <b>pszObjId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure referred to by the <b>ContentEncryptionAlgorithm</b> member</dd>
+<dd>The <b>Parameters</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure referred to by the <b>ContentEncryptionAlgorithm</b> member</dd>
 <dd><b>dwFlags</b></dd>
 </dl>
 
@@ -249,8 +249,8 @@ When the <b>fCNG</b> member is <b>TRUE</b>, the following members can be changed
 <dd><b>pbCNGContentEncryptKeyObject</b></dd>
 <dd><b>pbContentEncryptKey</b></dd>
 <dd><b>cbContentEncryptKey</b></dd>
-<dd>The <b>pszObjId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure referred to by the <b>ContentEncryptionAlgorithm</b> member</dd>
-<dd>The <b>Parameters</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure referred to by the <b>ContentEncryptionAlgorithm</b> member</dd>
+<dd>The <b>pszObjId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure referred to by the <b>ContentEncryptionAlgorithm</b> member</dd>
+<dd>The <b>Parameters</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure referred to by the <b>ContentEncryptionAlgorithm</b> member</dd>
 <dd><b>dwFlags</b></dd>
 </dl>
 

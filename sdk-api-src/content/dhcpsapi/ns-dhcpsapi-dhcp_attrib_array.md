@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 2a9831ae-b0ba-4cec-b7a9-6e9d9bee82c5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_ATTRIB_ARRAY, *PDHCP_ATTRIB_ARRAY, DHCP_ATTRIB_ARRAY, DHCP_ATTRIB_ARRAY structure [DHCP], PDHCP_ATTRIB_ARRAY *LPDHCP_ATTRIB_ARRAY, PDHCP_ATTRIB_ARRAY *LPDHCP_ATTRIB_ARRAY structure pointer [DHCP], dhcp.dhcp_attrib_array, dhcpsapi/PDHCP_ATTRIB_ARRAY *LPDHCP_ATTRIB_ARRAY, dhcpsapi/_DHCP_ATTRIB_ARRAY"
+ms.keywords: '*LPDHCP_ATTRIB_ARRAY, *PDHCP_ATTRIB_ARRAY, DHCP_ATTRIB_ARRAY, DHCP_ATTRIB_ARRAY structure [DHCP], PDHCP_ATTRIB_ARRAY *LPDHCP_ATTRIB_ARRAY, PDHCP_ATTRIB_ARRAY *LPDHCP_ATTRIB_ARRAY structure pointer [DHCP], dhcp.dhcp_attrib_array, dhcpsapi/PDHCP_ATTRIB_ARRAY *LPDHCP_ATTRIB_ARRAY, dhcpsapi/_DHCP_ATTRIB_ARRAY'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_ATTRIB_ARRAY"
+f1_keywords:
+- dhcpsapi/DHCP_ATTRIB_ARRAY
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_ATTRIB_ARRAY
+- DHCP_ATTRIB_ARRAY
 product: Windows
 targetos: Windows
 req.typenames: DHCP_ATTRIB_ARRAY, *PDHCP_ATTRIB_ARRAY, *LPDHCP_ATTRIB_ARRAY
@@ -66,7 +66,7 @@ Specifies the number of attributes listed in <b>DhcpAttribs</b>.
 
 ### -field DhcpAttribs
 
-Pointer to a list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_attrib">DHCP_ATTRIB</a> structures that contain the DHCP server attributes.
+Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_attrib">DHCP_ATTRIB</a> structures that contain the DHCP server attributes.
 
 
 ### -field DhcpAttribs.size_is

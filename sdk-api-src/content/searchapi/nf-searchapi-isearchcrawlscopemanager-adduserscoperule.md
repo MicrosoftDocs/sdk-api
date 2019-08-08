@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddUserScopeRule, AddUserScopeRule method [search], AddUserScopeRule method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],AddUserScopeRule method, ISearchCrawlScopeManager.AddUserScopeRule, ISearchCrawlScopeManager::AddUserScopeRule, _search_ISearchCrawlScopeManager_AddUserScopeRule, search._search_ISearchCrawlScopeManager_AddUserScopeRule, searchapi/ISearchCrawlScopeManager::AddUserScopeRule
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchCrawlScopeManager.AddUserScopeRule"
+f1_keywords:
+- searchapi/ISearchCrawlScopeManager.AddUserScopeRule
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchCrawlScopeManager.AddUserScopeRule
+- ISearchCrawlScopeManager.AddUserScopeRule
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -84,7 +84,7 @@ A <b>BOOL</b> value specifying whether child rules should be overridden. If set 
 
 Type: <b>DWORD</b>
 
-Sets the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_follow_flags">FOLLOW_FLAGS</a> to specify whether to follow complex URLs and whether a URL is to be indexed or just followed.
+Sets the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-follow_flags">FOLLOW_FLAGS</a> to specify whether to follow complex URLs and whether a URL is to be indexed or just followed.
 
 
 ## -returns

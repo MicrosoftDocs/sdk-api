@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BRUSHOBJ_hGetColorTransform, BRUSHOBJ_hGetColorTransform function [Display Devices], display.brushobj_hgetcolortransform, gdifncs_eeb575c7-44b8-4af6-ab2d-6bb1afc3af32.xml, winddi/BRUSHOBJ_hGetColorTransform
 ms.topic: function
-f1_keywords: 
- - "winddi/BRUSHOBJ_hGetColorTransform"
+f1_keywords:
+- winddi/BRUSHOBJ_hGetColorTransform
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - BRUSHOBJ_hGetColorTransform
+- BRUSHOBJ_hGetColorTransform
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>BRUSHOBJ_hGetColorTransform</b> function retrieves the color transform fo
 
 ### -param pbo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_brushobj">BRUSHOBJ</a> structure whose color transform is being queried. The color transform was created in a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a>.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-brushobj">BRUSHOBJ</a> structure whose color transform is being queried. The color transform was created in a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a>.
 
 
 ## -returns
@@ -89,7 +89,7 @@ The color transform for a translation object is obtained by calling <a href="htt
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_brushobj">BRUSHOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-brushobj">BRUSHOBJ</a>
 
 
 

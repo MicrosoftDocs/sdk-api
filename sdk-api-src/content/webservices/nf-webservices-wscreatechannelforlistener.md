@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCreateChannelForListener, WsCreateChannelForListener function [Web Services for Windows], webservices/WsCreateChannelForListener, wsw.wscreatechannelforlistener
 ms.topic: function
-f1_keywords: 
- - "webservices/WsCreateChannelForListener"
+f1_keywords:
+- webservices/WsCreateChannelForListener
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsCreateChannelForListener
+- WsCreateChannelForListener
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener
 
 ### -param properties
 
-An array of  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_channel_property">WS_CHANNEL_PROPERTY</a> structures containing optional values for channel initialization.  This can be a <b>NULL</b>, in which case, the <i>propertyCount</i> parameter must be 0 (zero).
+An array of  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_channel_property">WS_CHANNEL_PROPERTY</a> structures containing optional values for channel initialization.  This can be a <b>NULL</b>, in which case, the <i>propertyCount</i> parameter must be 0 (zero).
                 
 
 For information on creating a custom channel, see the Remarks section.

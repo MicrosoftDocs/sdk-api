@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_CONTRACT, WS_SERVICE_CONTRACT structure [Web Services for Windows], webservices/WS_SERVICE_CONTRACT, wsw.ws_service_contract
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_SERVICE_CONTRACT"
+f1_keywords:
+- webservices/WS_SERVICE_CONTRACT
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SERVICE_CONTRACT
+- WS_SERVICE_CONTRACT
 product: Windows
 targetos: Windows
 req.typenames: WS_SERVICE_CONTRACT
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies a service contract on an <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">endpoint</a>.
+Specifies a service contract on an <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">endpoint</a>.
             
 
 
@@ -62,7 +62,7 @@ Specifies a service contract on an <a href="https://docs.microsoft.com/windows/d
 
 ### -field contractDescription
 
-The typed contract metadata. See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_contract_description">WS_CONTRACT_DESCRIPTION</a>. Optional, if <b>defaultMessageHandlerCallback</b> is given.
+The typed contract metadata. See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_contract_description">WS_CONTRACT_DESCRIPTION</a>. Optional, if <b>defaultMessageHandlerCallback</b> is given.
                 
 
 

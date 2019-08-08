@@ -2,7 +2,7 @@
 UID: NF:xenroll.IEnroll.getCertContextFromPKCS7
 title: IEnroll::getCertContextFromPKCS7 (xenroll.h)
 author: windows-sdk-content
-description: Retrieves a certificate context based on a PKCS #7 message that was issued in response to a PKCS #10 certificate request.
+description: Retrieves a certificate context based on a PKCS
 old-location: security\ienroll4_getcertcontextfrompkcs7.htm
 tech.root: SecCrypto
 ms.assetid: 3781729d-8b08-41b5-8ff4-1de19fc4ee2e
@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],getCertContextFromPKCS7 method, IEnroll.getCertContextFromPKCS7, IEnroll2 interface [Security],getCertContextFromPKCS7 method, IEnroll2::getCertContextFromPKCS7, IEnroll::getCertContextFromPKCS7, getCertContextFromPKCS7, getCertContextFromPKCS7 method [Security], getCertContextFromPKCS7 method [Security],IEnroll interface, getCertContextFromPKCS7 method [Security],IEnroll2 interface, security.ienroll4_getcertcontextfrompkcs7, xenroll/IEnroll2::getCertContextFromPKCS7, xenroll/IEnroll::getCertContextFromPKCS7
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.getCertContextFromPKCS7"
+f1_keywords:
+- xenroll/IEnroll.getCertContextFromPKCS7
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.getCertContextFromPKCS7
- - IEnroll2.getCertContextFromPKCS7
+- IEnroll.getCertContextFromPKCS7
+- IEnroll2.getCertContextFromPKCS7
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/des
 
 
 
-The return value is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> representing the certificate context, or <b>NULL</b> if the method fails.
+The return value is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> representing the certificate context, or <b>NULL</b> if the method fails.
 
 
 

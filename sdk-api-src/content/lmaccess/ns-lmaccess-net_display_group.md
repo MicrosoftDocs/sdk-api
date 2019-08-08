@@ -8,10 +8,10 @@ tech.root: NetMgmt
 ms.assetid: 8e467f20-2cfb-40ae-a8b2-a5350d736eed
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PNET_DISPLAY_GROUP, NET_DISPLAY_GROUP, NET_DISPLAY_GROUP structure [Network Management], PNET_DISPLAY_GROUP, PNET_DISPLAY_GROUP structure pointer [Network Management], _win32_net_display_group_str, lmaccess/NET_DISPLAY_GROUP, lmaccess/PNET_DISPLAY_GROUP, netmgmt.net_display_group_str"
+ms.keywords: '*PNET_DISPLAY_GROUP, NET_DISPLAY_GROUP, NET_DISPLAY_GROUP structure [Network Management], PNET_DISPLAY_GROUP, PNET_DISPLAY_GROUP structure pointer [Network Management], _win32_net_display_group_str, lmaccess/NET_DISPLAY_GROUP, lmaccess/PNET_DISPLAY_GROUP, netmgmt.net_display_group_str'
 ms.topic: struct
-f1_keywords: 
- - "lmaccess/NET_DISPLAY_GROUP"
+f1_keywords:
+- lmaccess/NET_DISPLAY_GROUP
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmaccess.h
+- Lmaccess.h
 api_name:
- - NET_DISPLAY_GROUP
+- NET_DISPLAY_GROUP
 product: Windows
 targetos: Windows
 req.typenames: NET_DISPLAY_GROUP, *PNET_DISPLAY_GROUP
@@ -89,7 +89,7 @@ The relative identifier (RID) of the group. The relative identifier is determine
 Type: <b>DWORD</b>
 
 These attributes are hard-coded to SE_GROUP_MANDATORY, SE_GROUP_ENABLED, and SE_GROUP_ENABLED_BY_DEFAULT. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>. 
 
 
 
@@ -135,7 +135,7 @@ The index of the last entry returned by the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>
  
 
  

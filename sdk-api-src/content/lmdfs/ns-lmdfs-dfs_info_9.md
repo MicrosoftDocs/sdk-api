@@ -8,10 +8,10 @@ tech.root: Dfs
 ms.assetid: d09ebaa7-4ec7-4d25-8b77-fe568264e6b9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDFS_INFO_9, *PDFS_INFO_9, DFS_INFO_9, DFS_INFO_9 structure [Distributed File System], DFS_PROPERTY_FLAG_ABDE, DFS_PROPERTY_FLAG_CLUSTER_ENABLED, DFS_PROPERTY_FLAG_INSITE_REFERRALS, DFS_PROPERTY_FLAG_ROOT_SCALABILITY, DFS_PROPERTY_FLAG_SITE_COSTING, DFS_PROPERTY_FLAG_TARGET_FAILBACK, DFS_VOLUME_FLAVOR_AD_BLOB, DFS_VOLUME_FLAVOR_STANDALONE, DFS_VOLUME_STATE_INCONSISTENT, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, PDFS_INFO_9, PDFS_INFO_9 structure pointer [Distributed File System], dfs.dfs_info_9, fs.dfs_info_9, lmdfs/DFS_INFO_9, lmdfs/PDFS_INFO_9"
+ms.keywords: '*LPDFS_INFO_9, *PDFS_INFO_9, DFS_INFO_9, DFS_INFO_9 structure [Distributed File System], DFS_PROPERTY_FLAG_ABDE, DFS_PROPERTY_FLAG_CLUSTER_ENABLED, DFS_PROPERTY_FLAG_INSITE_REFERRALS, DFS_PROPERTY_FLAG_ROOT_SCALABILITY, DFS_PROPERTY_FLAG_SITE_COSTING, DFS_PROPERTY_FLAG_TARGET_FAILBACK, DFS_VOLUME_FLAVOR_AD_BLOB, DFS_VOLUME_FLAVOR_STANDALONE, DFS_VOLUME_STATE_INCONSISTENT, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, PDFS_INFO_9, PDFS_INFO_9 structure pointer [Distributed File System], dfs.dfs_info_9, fs.dfs_info_9, lmdfs/DFS_INFO_9, lmdfs/PDFS_INFO_9'
 ms.topic: struct
-f1_keywords: 
- - "lmdfs/DFS_INFO_9"
+f1_keywords:
+- lmdfs/DFS_INFO_9
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - LmDfs.h
+- LmDfs.h
 api_name:
- - DFS_INFO_9
+- DFS_INFO_9
 product: Windows
 targetos: Windows
 req.typenames: DFS_INFO_9, *PDFS_INFO_9, *LPDFS_INFO_9
@@ -107,7 +107,7 @@ Specifies a set of bit flags that describe the DFS root or link. One
       is set. The <b>DFS_VOLUME_FLAVORS</b> bitmask (0x00000300) must be used to extract the DFS 
       namespace flavor, and the <b>DFS_VOLUME_STATES</b> bitmask (0x0000000F) must be used to 
       extract the DFS root or link state from this member. For an example that describes the interpretation of the 
-      flags, see the Remarks section of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_2">DFS_INFO_2</a>.
+      flags, see the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_2">DFS_INFO_2</a>.
 
 
 
@@ -228,8 +228,8 @@ Scope: Domain-based DFS roots and stand-alone DFS roots.
 When this flag is set, Access-Based Directory Enumeration (ABDE) mode support is enabled on the entire DFS 
          root target share of the DFS namespace. This flag is valid only for DFS namespaces for which the 
          <b>DFS_NAMESPACE_CAPABILITY_ABDE</b> capability flag is set. For more information, see 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_50">DFS_INFO_50</a> and 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_supported_namespace_version_info">DFS_SUPPORTED_NAMESPACE_VERSION_INFO</a>.
+         <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_50">DFS_INFO_50</a> and 
+         <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_supported_namespace_version_info">DFS_SUPPORTED_NAMESPACE_VERSION_INFO</a>.
 
 The <b>DFS_PROPERTY_FLAG_ABDE</b> flag is valid only on the DFS namespace root and not 
          on root targets, links, or link targets. This flag must be enabled to associate a security descriptor with a 
@@ -268,7 +268,7 @@ This member is reserved for system use.
 
 ### -field pSecurityDescriptor
 
-Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> 
+Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> 
       structure that specifies a self-relative security descriptor to be associated with the DFS link's reparse point. 
       This field is valid for DFS links only.
 
@@ -291,7 +291,7 @@ Specifies the number of targets for the DFS root or link. These targets are cont
 
 ### -field Storage
 
-Specifies an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_storage_info_1">DFS_STORAGE_INFO_1</a> 
+Specifies an array of <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_storage_info_1">DFS_STORAGE_INFO_1</a> 
       structures that contain the DFS target information.
 
 

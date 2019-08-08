@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_VF_ACTIVE, VDS_VF_BOOT_VOLUME, VDS_VF_CAN_EXTEND, VDS_VF_CAN_SHRINK, VDS_VF_CRASHDUMP, VDS_VF_DIRTY, VDS_VF_FAT32_NOT_SUPPORTED, VDS_VF_FAT_NOT_SUPPORTED, VDS_VF_FORMATTING, VDS_VF_FVE_ENABLED, VDS_VF_HIBERNATION, VDS_VF_HIDDEN, VDS_VF_INSTALLABLE, VDS_VF_LBN_REMAP_ENABLED, VDS_VF_NOT_FORMATTABLE, VDS_VF_NO_DEFAULT_DRIVE_LETTER, VDS_VF_NTFS_NOT_SUPPORTED, VDS_VF_PAGEFILE, VDS_VF_PERMANENTLY_DISMOUNTED, VDS_VF_PERMANENT_DISMOUNT_SUPPORTED, VDS_VF_READONLY, VDS_VF_SHADOW_COPY, VDS_VF_SYSTEM_VOLUME, VDS_VOLUME_FLAG, VDS_VOLUME_FLAG enumeration [VDS], base.vds_volume_flag, vds/VDS_VF_ACTIVE, vds/VDS_VF_BOOT_VOLUME, vds/VDS_VF_CAN_EXTEND, vds/VDS_VF_CAN_SHRINK, vds/VDS_VF_CRASHDUMP, vds/VDS_VF_DIRTY, vds/VDS_VF_FAT32_NOT_SUPPORTED, vds/VDS_VF_FAT_NOT_SUPPORTED, vds/VDS_VF_FORMATTING, vds/VDS_VF_FVE_ENABLED, vds/VDS_VF_HIBERNATION, vds/VDS_VF_HIDDEN, vds/VDS_VF_INSTALLABLE, vds/VDS_VF_LBN_REMAP_ENABLED, vds/VDS_VF_NOT_FORMATTABLE, vds/VDS_VF_NO_DEFAULT_DRIVE_LETTER, vds/VDS_VF_NTFS_NOT_SUPPORTED, vds/VDS_VF_PAGEFILE, vds/VDS_VF_PERMANENTLY_DISMOUNTED, vds/VDS_VF_PERMANENT_DISMOUNT_SUPPORTED, vds/VDS_VF_READONLY, vds/VDS_VF_SHADOW_COPY, vds/VDS_VF_SYSTEM_VOLUME, vds/VDS_VOLUME_FLAG
 ms.topic: enum
-f1_keywords: 
- - "vds/VDS_VOLUME_FLAG"
+f1_keywords:
+- vds/VDS_VOLUME_FLAG
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - VDS_VOLUME_FLAG
+- VDS_VOLUME_FLAG
 product: Windows
 targetos: Windows
 req.typenames: VDS_VOLUME_FLAG
@@ -172,7 +172,7 @@ The volume is offline. Volume open will succeed on an offline volume. However, I
 
 <b>Windows Server 2003:  </b>Offlining dynamic volumes is not supported.
 
-When a volume is offline, this flag is set in the <b>ulFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_volume_prop">VDS_VOLUME_PROP</a> structure, and the <b>VDS_VS_OFFLINE</b> flag is also set in the <b>status</b> member of the <b>VDS_VOLUME_PROP</b> or <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_volume_prop2">VDS_VOLUME_PROP2</a> structure.<b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>The <b>VDS_VS_OFFLINE</b> flag is not supported.
+When a volume is offline, this flag is set in the <b>ulFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_volume_prop">VDS_VOLUME_PROP</a> structure, and the <b>VDS_VS_OFFLINE</b> flag is also set in the <b>status</b> member of the <b>VDS_VOLUME_PROP</b> or <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_volume_prop2">VDS_VOLUME_PROP2</a> structure.<b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>The <b>VDS_VS_OFFLINE</b> flag is not supported.
 
 
 
@@ -230,7 +230,7 @@ On an MBR basic disk, volume flags can be set only for the entire disk, not for 
 If the <b>VDS_VF_NO_DEFAULT_DRIVE_LETTER</b> flag is set on an MBR disk, any existing drive letters are preserved, but no new drive letters will be assigned to volumes on the disk.
 
 This enumeration provides values for the <b>ulFlags</b> member of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_volume_prop">VDS_VOLUME_PROP</a> structure and the <i>ulFlags</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-setflags">IVdsVolume::SetFlags</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-clearflags">IVdsVolume::ClearFlags</a> methods.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_volume_prop">VDS_VOLUME_PROP</a> structure and the <i>ulFlags</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-setflags">IVdsVolume::SetFlags</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-clearflags">IVdsVolume::ClearFlags</a> methods.
 
 The following table compares the behavior of the VDS_VF_NO_DEFAULT_DRIVE_LETTER flag on MBR basic disks, GPT basic disks, and dynamic disks.
 
@@ -288,15 +288,15 @@ To create a boot volume on a dynamic disk, you must set the <b>VDS_VF_INSTALLABL
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_partition_info_mbr">VDS_PARTITION_INFO_MBR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_partition_info_mbr">VDS_PARTITION_INFO_MBR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_san_policy">VDS_SAN_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_san_policy">VDS_SAN_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_volume_prop">VDS_VOLUME_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_volume_prop">VDS_VOLUME_PROP</a>
  
 
  

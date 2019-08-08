@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: b2845799-acc9-4410-9059-45f7a8313e9f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_FUNCTION_TABLE_STREAM, MINIDUMP_FUNCTION_TABLE_STREAM, MINIDUMP_FUNCTION_TABLE_STREAM structure, PMINIDUMP_FUNCTION_TABLE_STREAM, PMINIDUMP_FUNCTION_TABLE_STREAM structure pointer, _MINIDUMP_FUNCTION_TABLE_STREAM, _win32_minidump_function_table_stream_str, base.minidump_function_table_stream_str, minidumpapiset/MINIDUMP_FUNCTION_TABLE_STREAM, minidumpapiset/PMINIDUMP_FUNCTION_TABLE_STREAM"
+ms.keywords: '*PMINIDUMP_FUNCTION_TABLE_STREAM, MINIDUMP_FUNCTION_TABLE_STREAM, MINIDUMP_FUNCTION_TABLE_STREAM structure, PMINIDUMP_FUNCTION_TABLE_STREAM, PMINIDUMP_FUNCTION_TABLE_STREAM structure pointer, _MINIDUMP_FUNCTION_TABLE_STREAM, _win32_minidump_function_table_stream_str, base.minidump_function_table_stream_str, minidumpapiset/MINIDUMP_FUNCTION_TABLE_STREAM, minidumpapiset/PMINIDUMP_FUNCTION_TABLE_STREAM'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_FUNCTION_TABLE_STREAM"
+f1_keywords:
+- minidumpapiset/MINIDUMP_FUNCTION_TABLE_STREAM
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_FUNCTION_TABLE_STREAM
+- MINIDUMP_FUNCTION_TABLE_STREAM
 product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_FUNCTION_TABLE_STREAM, *PMINIDUMP_FUNCTION_TABLE_STREAM
@@ -108,7 +108,7 @@ In this context, a data stream is a set of data in a minidump file. This header 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
  
 
  

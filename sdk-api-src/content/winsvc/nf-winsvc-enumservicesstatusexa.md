@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumServicesStatusEx, EnumServicesStatusEx function, EnumServicesStatusExA, EnumServicesStatusExW, SERVICE_ACTIVE, SERVICE_DRIVER, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INACTIVE, SERVICE_KERNEL_DRIVER, SERVICE_STATE_ALL, SERVICE_WIN32, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _win32_enumservicesstatusex, base.enumservicesstatusex, winsvc/EnumServicesStatusEx, winsvc/EnumServicesStatusExA, winsvc/EnumServicesStatusExW
 ms.topic: function
-f1_keywords: 
- - "winsvc/EnumServicesStatusEx"
+f1_keywords:
+- winsvc/EnumServicesStatusEx
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,23 +30,23 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - sechost.dll
- - API-MS-Win-Service-Core-l1-1-1.dll
- - AdvApi32Legacy.dll
- - API-Ms-Win-Service-Core-Ansi-L1-1-0.dll
- - API-Ms-Win-Service-Core-L1-1-2.dll
- - API-MS-Win-Service-Core-Ansi-L1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- sechost.dll
+- API-MS-Win-Service-Core-l1-1-1.dll
+- AdvApi32Legacy.dll
+- API-Ms-Win-Service-Core-Ansi-L1-1-0.dll
+- API-Ms-Win-Service-Core-L1-1-2.dll
+- API-MS-Win-Service-Core-Ansi-L1-1-1.dll
 api_name:
- - EnumServicesStatusEx
- - EnumServicesStatusExA
- - EnumServicesStatusExW
+- EnumServicesStatusEx
+- EnumServicesStatusExA
+- EnumServicesStatusExW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,7 +78,7 @@ A handle to the service control manager database. This handle is returned by the
 ### -param InfoLevel [in]
 
 The service attributes that are to be returned. Use <b>SC_ENUM_PROCESS_INFO</b> to retrieve the name and service status information for each service in the database. The <i>lpServices</i> parameter is a pointer to a buffer that receives an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_enum_service_status_processa">ENUM_SERVICE_STATUS_PROCESS</a> structures. The buffer must be large enough to hold the structures as well as the strings to which their members point.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-enum_service_status_processa">ENUM_SERVICE_STATUS_PROCESS</a> structures. The buffer must be large enough to hold the structures as well as the strings to which their members point.
 
 Currently, no other information levels are defined.
 
@@ -345,7 +345,7 @@ If the caller does not have the <b>SERVICE_QUERY_STATUS</b> access right to a se
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_enum_service_status_processa">ENUM_SERVICE_STATUS_PROCESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-enum_service_status_processa">ENUM_SERVICE_STATUS_PROCESS</a>
 
 
 

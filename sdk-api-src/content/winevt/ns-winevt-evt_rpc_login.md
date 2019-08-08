@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVT_RPC_LOGIN, EVT_RPC_LOGIN structure [EventLog], wes.evt_rpc_login, winevt/_EVT_RPC_LOGIN
 ms.topic: struct
-f1_keywords: 
- - "winevt/EVT_RPC_LOGIN"
+f1_keywords:
+- winevt/EVT_RPC_LOGIN
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinEvt.h
+- WinEvt.h
 api_name:
- - EVT_RPC_LOGIN
+- EVT_RPC_LOGIN
 product: Windows
 targetos: Windows
 req.typenames: EVT_RPC_LOGIN
@@ -81,7 +81,7 @@ The password for the user account.
 
 ### -field Flags
 
-The authentication method to use to authenticate the user when connecting to the remote computer. For possible authentication methods, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_rpc_login_flags">EVT_RPC_LOGIN_FLAGS</a> enumeration. 
+The authentication method to use to authenticate the user when connecting to the remote computer. For possible authentication methods, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_rpc_login_flags">EVT_RPC_LOGIN_FLAGS</a> enumeration. 
 
 
 ## -remarks

@@ -8,10 +8,10 @@ tech.root: iSCSIDisc
 ms.assetid: bdc27e67-1d64-42cd-adfa-a792012b7142
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PISCSI_TARGET_MAPPINGA, ISCSI_TARGET_MAPPING, ISCSI_TARGET_MAPPING structure [iSCSI Discovery Library API], ISCSI_TARGET_MAPPINGA, ISCSI_TARGET_MAPPINGW, PISCSI_TARGET_MAPPING, PISCSI_TARGET_MAPPING structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_target_mapping, iscsidsc/ISCSI_TARGET_MAPPING, iscsidsc/ISCSI_TARGET_MAPPINGA, iscsidsc/ISCSI_TARGET_MAPPINGW, iscsidsc/PISCSI_TARGET_MAPPING"
+ms.keywords: '*PISCSI_TARGET_MAPPINGA, ISCSI_TARGET_MAPPING, ISCSI_TARGET_MAPPING structure [iSCSI Discovery Library API], ISCSI_TARGET_MAPPINGA, ISCSI_TARGET_MAPPINGW, PISCSI_TARGET_MAPPING, PISCSI_TARGET_MAPPING structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_target_mapping, iscsidsc/ISCSI_TARGET_MAPPING, iscsidsc/ISCSI_TARGET_MAPPINGA, iscsidsc/ISCSI_TARGET_MAPPINGW, iscsidsc/PISCSI_TARGET_MAPPING'
 ms.topic: struct
-f1_keywords: 
- - "iscsidsc/ISCSI_TARGET_MAPPING"
+f1_keywords:
+- iscsidsc/ISCSI_TARGET_MAPPING
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iscsidsc.h
+- Iscsidsc.h
 api_name:
- - ISCSI_TARGET_MAPPING
- - ISCSI_TARGET_MAPPINGA
- - ISCSI_TARGET_MAPPINGW
+- ISCSI_TARGET_MAPPING
+- ISCSI_TARGET_MAPPINGA
+- ISCSI_TARGET_MAPPINGW
 product: Windows
 targetos: Windows
 req.typenames: ISCSI_TARGET_MAPPINGA, *PISCSI_TARGET_MAPPINGA
@@ -78,7 +78,7 @@ A string representing the device name of the HBA initiator; for example '<b>\dev
 
 ### -field SessionId
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> structure containing information that uniquely identifies the session..
+A <a href="https://docs.microsoft.com/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> structure containing information that uniquely identifies the session..
 
 
 ### -field OSBusNumber
@@ -118,7 +118,7 @@ A list of SCSI_LUN_LIST structures that contain information about the LUNs assoc
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Register_Notification, CM_Register_Notification function [Device and Driver Installation], cfgmgr32/CM_Register_Notification, devinst.cm_register_notification
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Register_Notification"
+f1_keywords:
+- cfgmgr32/CM_Register_Notification
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -30,16 +30,16 @@ req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
 req.dll: CfgMgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CfgMgr32.dll
- - API-MS-Win-devices-config-l1-1-0.dll
- - API-MS-Win-devices-config-l1-1-1.dll
+- CfgMgr32.dll
+- API-MS-Win-devices-config-l1-1-0.dll
+- API-MS-Win-devices-config-l1-1-1.dll
 api_name:
- - CM_Register_Notification
+- CM_Register_Notification
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ The <b>CM_Register_Notification</b> function registers an application callback r
 
 ### -param pFilter [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-_cm_notify_filter">CM_NOTIFY_FILTER</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cm_notify_filter">CM_NOTIFY_FILTER</a> structure.
 
 
 ### -param pContext [in, optional]
@@ -77,7 +77,7 @@ Pointer to a caller-allocated buffer containing the context to be passed to the 
 
 Pointer to the routine to be called when the specified PnP event occurs. See the <b>Remarks</b> section for the callback function's prototype.
 
-The callback routine’s <i>Action</i> parameter will be a value from the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ne-cfgmgr32-_cm_notify_action">CM_NOTIFY_ACTION</a> enumeration.
+The callback routine’s <i>Action</i> parameter will be a value from the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ne-cfgmgr32-cm_notify_action">CM_NOTIFY_ACTION</a> enumeration.
 
 Upon receiving a notification, how the callback examines the notification will depend on the <b>FilterType</b> member of the callback routine's <i>EventData</i> parameter:
 
@@ -141,7 +141,7 @@ typedef __callback DWORD (CALLBACK *PCM_NOTIFY_CALLBACK)(
 ```
 
 
-If responding to a <b>CM_NOTIFY_ACTION_DEVICEQUERYREMOVE</b> notification, the PCM_NOTIFY_CALLBACK callback should return either ERROR_SUCCESS or ERROR_CANCELLED, as appropriate.  Otherwise, the callback should return ERROR_SUCCESS. The callback should not return any other values. For a description of other actions, please refer to the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ne-cfgmgr32-_cm_notify_action">CM_NOTIFY_ACTION</a> documentation.  Also see <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-_cm_notify_event_data">CM_NOTIFY_EVENT_DATA</a> for information about the structure that this callback receives in the <i>EventData</i> parameter.
+If responding to a <b>CM_NOTIFY_ACTION_DEVICEQUERYREMOVE</b> notification, the PCM_NOTIFY_CALLBACK callback should return either ERROR_SUCCESS or ERROR_CANCELLED, as appropriate.  Otherwise, the callback should return ERROR_SUCCESS. The callback should not return any other values. For a description of other actions, please refer to the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ne-cfgmgr32-cm_notify_action">CM_NOTIFY_ACTION</a> documentation.  Also see <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cm_notify_event_data">CM_NOTIFY_EVENT_DATA</a> for information about the structure that this callback receives in the <i>EventData</i> parameter.
 
 
 #### Examples
@@ -158,11 +158,11 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ne-cfgmgr32-_cm_notify_action">CM_NOTIFY_ACTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ne-cfgmgr32-cm_notify_action">CM_NOTIFY_ACTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-_cm_notify_filter">CM_NOTIFY_FILTER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cm_notify_filter">CM_NOTIFY_FILTER</a>
 
 
 

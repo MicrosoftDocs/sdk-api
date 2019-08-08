@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CQAddPagesProc, CQAddPagesProc callback, CQAddPagesProc callback function [Active Directory], LPCQADDPAGESPROC, LPCQADDPAGESPROC callback function pointer [Active Directory], ad.cqaddpagesproc, cmnquery/CQAddPagesProc
 ms.topic: callback
-f1_keywords: 
- - "cmnquery/LPCQADDPAGESPROC"
+f1_keywords:
+- cmnquery/LPCQADDPAGESPROC
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Cmnquery.h
+- Cmnquery.h
 api_name:
- - LPCQADDPAGESPROC
+- LPCQADDPAGESPROC
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ Contains the <b>CLSID</b> of the form that the page should be added to. This mem
 
 ### -param pPage
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/ns-cmnquery-_cqpage">CQPAGE</a> structure that defines the page to be added.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/ns-cmnquery-cqpage">CQPAGE</a> structure that defines the page to be added.
 
 
 ## -returns
@@ -88,7 +88,7 @@ Returns an <b>HRESULT</b> value that indicates the success or failure of the pag
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/ns-cmnquery-_cqpage">CQPAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/ns-cmnquery-cqpage">CQPAGE</a>
 
 
 

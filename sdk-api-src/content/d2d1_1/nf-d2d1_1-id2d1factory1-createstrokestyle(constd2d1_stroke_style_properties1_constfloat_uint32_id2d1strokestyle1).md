@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateStrokeStyle, CreateStrokeStyle method [Direct2D], CreateStrokeStyle method [Direct2D],ID2D1Factory1 interface, ID2D1Factory1 interface [Direct2D],CreateStrokeStyle method, ID2D1Factory1.CreateStrokeStyle, ID2D1Factory1.CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES1,const FLOAT,UINT32,ID2D1StrokeStyle1), ID2D1Factory1::CreateStrokeStyle, ID2D1Factory1::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES1,const FLOAT,UINT32,ID2D1StrokeStyle1), d2d1_1/ID2D1Factory1::CreateStrokeStyle, direct2d.id2d1factory1_createstrokestyle
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1Factory1.CreateStrokeStyle"
+f1_keywords:
+- d2d1_1/ID2D1Factory1.CreateStrokeStyle
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Factory1.CreateStrokeStyle
+- ID2D1Factory1.CreateStrokeStyle
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,14 +68,14 @@ The stroke style properties to apply.
 
 ### -param dashes [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_abcfloat">FLOAT</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-abcfloat">FLOAT</a>*</b>
 
 An array of widths for the dashes and gaps.
 
 
 ### -param dashesCount
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_uint64_description">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_uint64_description">UINT</a></b>
 
 The size of the dash array.
 

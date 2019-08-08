@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventTrigger, IEventTrigger interface [Task Scheduler], IEventTrigger interface [Task Scheduler],described, event trigger [Task Scheduler],interface, taskschd.ieventtrigger, taskschd/IEventTrigger
 ms.topic: interface
-f1_keywords: 
- - "taskschd/IEventTrigger"
+f1_keywords:
+- taskschd/IEventTrigger
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IEventTrigger
+- IEventTrigger
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -92,7 +92,7 @@ For more information and example code for this interface, see <a href="https://d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-_task_trigger_type2">TASK_TRIGGER_TYPE2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-task_trigger_type2">TASK_TRIGGER_TYPE2</a>
 
 
 

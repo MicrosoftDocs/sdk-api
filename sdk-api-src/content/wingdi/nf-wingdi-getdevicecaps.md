@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ASPECTX, ASPECTXY, ASPECTY, BITSPIXEL, BLTALIGNMENT, CLIPCAPS, COLORMGMTCAPS, COLORRES, CURVECAPS, DRIVERVERSION, GetDeviceCaps, GetDeviceCaps function [Windows GDI], HORZRES, HORZSIZE, LINECAPS, LOGPIXELSX, LOGPIXELSY, NUMBRUSHES, NUMCOLORS, NUMFONTS, NUMPENS, NUMRESERVED, PDEVICESIZE, PHYSICALHEIGHT, PHYSICALOFFSETX, PHYSICALOFFSETY, PHYSICALWIDTH, PLANES, POLYGONALCAPS, RASTERCAPS, SCALINGFACTORX, SCALINGFACTORY, SHADEBLENDCAPS, SIZEPALETTE, TECHNOLOGY, TEXTCAPS, VERTRES, VERTSIZE, VREFRESH, _win32_GetDeviceCaps, gdi.getdevicecaps, wingdi/GetDeviceCaps
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetDeviceCaps"
+f1_keywords:
+- wingdi/GetDeviceCaps
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-devcaps-l1-1-0.dll
- - Ext-MS-Win-RTCore-GDI-devcaps-l1-1-0.dll
- - Ext-MS-Win-RTCore-GDI-DevCaps-L1-1-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-devcaps-l1-1-0.dll
+- Ext-MS-Win-RTCore-GDI-devcaps-l1-1-0.dll
+- Ext-MS-Win-RTCore-GDI-DevCaps-L1-1-1.dll
+- GDI32Full.dll
 api_name:
- - GetDeviceCaps
+- GetDeviceCaps
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -424,7 +424,7 @@ Value that indicates the shading and blending capabilities of the device. See Re
 <table>
 <tr>
 <td>SB_CONST_ALPHA</td>
-<td>Handles the <b>SourceConstantAlpha</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_blendfunction">BLENDFUNCTION</a> structure, which is referenced by the blendFunction parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-alphablend">AlphaBlend</a> function.</td>
+<td>Handles the <b>SourceConstantAlpha</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-blendfunction">BLENDFUNCTION</a> structure, which is referenced by the blendFunction parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-alphablend">AlphaBlend</a> function.</td>
 </tr>
 <tr>
 <td>SB_GRAD_RECT</td>

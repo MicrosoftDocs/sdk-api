@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFMapDX9FormatToDXGIFormat, MFMapDX9FormatToDXGIFormat function [Media Foundation], mf.mfmapdx9formattodxgiformat, mfapi/MFMapDX9FormatToDXGIFormat
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFMapDX9FormatToDXGIFormat"
+f1_keywords:
+- mfapi/MFMapDX9FormatToDXGIFormat
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFMapDX9FormatToDXGIFormat
+- MFMapDX9FormatToDXGIFormat
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Converts a Microsoft Direct3D 9 format identifier to a Microsoft DirectX Graphi
 
 ### -param dx9 [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_stream_state_d3dformat_data">D3DFORMAT</a> value or FOURCC code to convert.
+The <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_stream_state_d3dformat_data">D3DFORMAT</a> value or FOURCC code to convert.
 
 
 ## -returns

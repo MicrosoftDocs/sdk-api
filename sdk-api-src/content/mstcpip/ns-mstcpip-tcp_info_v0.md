@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: 9A51A059-59EC-4D30-9ECE-C81351C0861F
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTCP_INFO_v0, PTCP_INFO_v0, PTCP_INFO_v0 structure pointer [Winsock], TCP_INFO_v0, TCP_INFO_v0 structure [Winsock], mstcpip/PTCP_INFO_v0, mstcpip/TCP_INFO_v0, winsock.tcp_info_v0"
+ms.keywords: '*PTCP_INFO_v0, PTCP_INFO_v0, PTCP_INFO_v0 structure pointer [Winsock], TCP_INFO_v0, TCP_INFO_v0 structure [Winsock], mstcpip/PTCP_INFO_v0, mstcpip/TCP_INFO_v0, winsock.tcp_info_v0'
 ms.topic: struct
-f1_keywords: 
- - "mstcpip/TCP_INFO_v0"
+f1_keywords:
+- mstcpip/TCP_INFO_v0
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mstcpip.h
+- Mstcpip.h
 api_name:
- - TCP_INFO_v0
+- TCP_INFO_v0
 product: Windows
 targetos: Windows
 req.typenames: TCP_INFO_v0, *PTCP_INFO_v0
@@ -61,7 +61,7 @@ Contains the Transmission Control Protocol (TCP)  statistics that were collected
 
 ### -field State
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-_tcpstate">TCPSTATE</a> enumeration that indicates the  state of the TCP connection.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-tcpstate">TCPSTATE</a> enumeration that indicates the  state of the TCP connection.
 
 
 ### -field Mss
@@ -174,7 +174,7 @@ To get an instance of this structure,  call the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-_tcpstate">TCPSTATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-tcpstate">TCPSTATE</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_VALUE_META_DATA_EXT, DS_REPL_VALUE_META_DATA_EXT structure [Active Directory], PDS_REPL_VALUE_META_DATA_EXT, PDS_REPL_VALUE_META_DATA_EXT structure pointer [Active Directory], ad.ds_repl_value_meta_data_ext, ntdsapi/DS_REPL_VALUE_META_DATA_EXT, ntdsapi/PDS_REPL_VALUE_META_DATA_EXT
 ms.topic: struct
-f1_keywords: 
- - "ntdsapi/DS_REPL_VALUE_META_DATA_EXT"
+f1_keywords:
+- ntdsapi/DS_REPL_VALUE_META_DATA_EXT
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,13 +30,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - DS_REPL_VALUE_META_DATA_EXT
+- DS_REPL_VALUE_META_DATA_EXT
 product: Windows
 targetos: Windows
 req.typenames: DS_REPL_VALUE_META_DATA_EXT
@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains attribute replication meta data for the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_attr_value_meta_data_ext">DS_REPL_ATTR_VALUE_META_DATA_EXT</a> structure.
+Contains attribute replication meta data for the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data_ext">DS_REPL_ATTR_VALUE_META_DATA_EXT</a> structure.
 
 
 ## -struct-fields

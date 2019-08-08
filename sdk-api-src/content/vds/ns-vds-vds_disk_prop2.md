@@ -8,10 +8,10 @@ tech.root: VDS
 ms.assetid: f51c2937-4b70-44fb-b626-1df072e2622a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVDS_DISK_PROP2, PVDS_DISK_PROP2, PVDS_DISK_PROP2 structure pointer, VDS_DISK_PROP2, VDS_DISK_PROP2 structure, VDS_H_FAILED, VDS_H_FAILING, VDS_H_HEALTHY, VDS_H_UNKNOWN, base.vds_disk_prop2, vds/PVDS_DISK_PROP2, vds/VDS_DISK_PROP2"
+ms.keywords: '*PVDS_DISK_PROP2, PVDS_DISK_PROP2, PVDS_DISK_PROP2 structure pointer, VDS_DISK_PROP2, VDS_DISK_PROP2 structure, VDS_H_FAILED, VDS_H_FAILING, VDS_H_HEALTHY, VDS_H_UNKNOWN, base.vds_disk_prop2, vds/PVDS_DISK_PROP2, vds/VDS_DISK_PROP2'
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_DISK_PROP2"
+f1_keywords:
+- vds/VDS_DISK_PROP2
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - VDS_DISK_PROP2
+- VDS_DISK_PROP2
 product: Windows
 targetos: Windows
 req.typenames: VDS_DISK_PROP2, *PVDS_DISK_PROP2
@@ -54,7 +54,7 @@ ms.custom: 19H1
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the properties 
-   of a <a href="https://docs.microsoft.com/windows/desktop/VDS/disk-object">disk object</a>. This structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop">VDS_DISK_PROP</a> structure, except that it also includes the location path and, if the disk is offline, the reason why it is offline.
+   of a <a href="https://docs.microsoft.com/windows/desktop/VDS/disk-object">disk object</a>. This structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a> structure, except that it also includes the location path and, if the disk is offline, the reason why it is offline.
 
 
 ## -struct-fields
@@ -70,14 +70,14 @@ The GUID of the disk object.
 ### -field status
 
 A 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_disk_status">VDS_DISK_STATUS</a> enumeration value that specifies the status of the disk.If the VDS service cannot open a handle to the disk, it sets this member to <b>VDS_DS_UNKNOWN</b>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_disk_status">VDS_DISK_STATUS</a> enumeration value that specifies the status of the disk.If the VDS service cannot open a handle to the disk, it sets this member to <b>VDS_DS_UNKNOWN</b>.
 
 <div class="alert"><b>Note</b>  This member can be VDS_DS_ONLINE, even if the status of the containing pack is VDS_PS_OFFLINE.</div>
 <div> </div>
 
 ### -field OfflineReason
 
-If the disk is offline, this member is a <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_disk_offline_reason">VDS_DISK_OFFLINE_REASON</a> enumeration value that specifies the reason why it is offline.
+If the disk is offline, this member is a <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_disk_offline_reason">VDS_DISK_OFFLINE_REASON</a> enumeration value that specifies the reason why it is offline.
 
 
 ### -field ReserveMode
@@ -88,7 +88,7 @@ This member is reserved for future use.
 ### -field health
 
 A 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a> enumeration value that specifies the health state of the disk. The following are the valid values for this member.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> enumeration value that specifies the health state of the disk. The following are the valid values for this member.
 
 
 
@@ -115,9 +115,9 @@ The device type defined in Winioctl.h, which includes the following types among 
 
 ### -field dwMediaType
 
-A media type enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_media_type">STORAGE_MEDIA_TYPE</a>. 
+A media type enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_media_type">STORAGE_MEDIA_TYPE</a>. 
       Basic and dynamic disks map to the <b>FixedMedia</b> enumerator. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_media_type">STORAGE_MEDIA_TYPE</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_media_type">STORAGE_MEDIA_TYPE</a>.
 
 
 ### -field ullSize
@@ -145,19 +145,19 @@ The number of tracks in each cylinder.
 ### -field ulFlags
 
 A bitmask of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_disk_flag">VDS_DISK_FLAG</a> enumeration values that specify various disk attributes.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_disk_flag">VDS_DISK_FLAG</a> enumeration values that specify various disk attributes.
 
 
 ### -field BusType
 
 The input/output bus types enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a>.
 
 
 ### -field PartitionStyle
 
 A 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_partition_style">VDS_PARTITION_STYLE</a> enumeration that specifies the partition style. This member is the 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_partition_style">VDS_PARTITION_STYLE</a> enumeration that specifies the partition style. This member is the 
       discriminant for the union.
 
 
@@ -170,7 +170,7 @@ Used if <b>PartitionStyle</b> is <b>VDS_PST_MBR</b> (1). The signature
 ### -field DiskGuid
 
 Used if <b>PartitionStyle</b> is <b>VDS_PST_GPT</b> (2). The  
-       GUID for the disk. In addition, each GPT partition has its own GUID. (See <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_partition_info_gpt">VDS_PARTITION_INFO_GPT</a>.)
+       GUID for the disk. In addition, each GPT partition has its own GUID. (See <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_partition_info_gpt">VDS_PARTITION_INFO_GPT</a>.)
 
 
 ### -field pwszDiskAddress
@@ -295,15 +295,15 @@ The following table contains examples of location paths.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_disk_offline_reason">VDS_DISK_OFFLINE_REASON</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_disk_offline_reason">VDS_DISK_OFFLINE_REASON</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_partition_info_gpt">VDS_PARTITION_INFO_GPT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_partition_info_gpt">VDS_PARTITION_INFO_GPT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_partition_info_mbr">VDS_PARTITION_INFO_MBR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_partition_info_mbr">VDS_PARTITION_INFO_MBR</a>
  
 
  

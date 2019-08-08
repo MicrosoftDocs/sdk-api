@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSCProductList interface [Windows API],Initialize method, IWSCProductList.Initialize, IWSCProductList::Initialize, Initialize, Initialize method [Windows API], Initialize method [Windows API],IWSCProductList interface, WSC_SECURITY_PROVIDER_ANTISPYWARE, WSC_SECURITY_PROVIDER_ANTIVIRUS, WSC_SECURITY_PROVIDER_FIREWALL, iwscapi/IWSCProductList::Initialize, winprog.iwscproductlist_initialize
 ms.topic: method
-f1_keywords: 
- - "iwscapi/IWSCProductList.Initialize"
+f1_keywords:
+- iwscapi/IWSCProductList.Initialize
 req.header: iwscapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wscapi.lib
 req.dll: Wscapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wscapi.dll
+- Wscapi.dll
 api_name:
- - IWSCProductList.Initialize
+- IWSCProductList.Initialize
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Gathers information on all of the providers of the specified type on the compute
 
 ### -param provider [in]
 
-A value from the  <a href="https://docs.microsoft.com/windows/desktop/api/wscapi/ne-wscapi-_wsc_security_provider">WSC_SECURITY_PROVIDER</a> enumeration with the name of the provider as one of the following values. Note that the possible values can't be combined in a logical OR as they can when used with the <a href="https://docs.microsoft.com/windows/desktop/api/wscapi/nf-wscapi-wscgetsecurityproviderhealth">WscGetSecurityProviderHealth</a> function.
+A value from the  <a href="https://docs.microsoft.com/windows/desktop/api/wscapi/ne-wscapi-wsc_security_provider">WSC_SECURITY_PROVIDER</a> enumeration with the name of the provider as one of the following values. Note that the possible values can't be combined in a logical OR as they can when used with the <a href="https://docs.microsoft.com/windows/desktop/api/wscapi/nf-wscapi-wscgetsecurityproviderhealth">WscGetSecurityProviderHealth</a> function.
 
 <table>
 <tr>

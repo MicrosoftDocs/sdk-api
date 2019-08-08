@@ -8,10 +8,10 @@ tech.root: Memory
 ms.assetid: A314FF96-A212-4F47-B836-224DE2C3AC0F
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PENCLAVE_INIT_INFO_SGX, ENCLAVE_INIT_INFO_SGX, ENCLAVE_INIT_INFO_SGX structure, PENCLAVE_INIT_INFO_SGX, PENCLAVE_INIT_INFO_SGX structure pointer, base.enclave_init_info_sgx, winnt/ENCLAVE_INIT_INFO_SGX, winnt/PENCLAVE_INIT_INFO_SGX"
+ms.keywords: '*PENCLAVE_INIT_INFO_SGX, ENCLAVE_INIT_INFO_SGX, ENCLAVE_INIT_INFO_SGX structure, PENCLAVE_INIT_INFO_SGX, PENCLAVE_INIT_INFO_SGX structure pointer, base.enclave_init_info_sgx, winnt/ENCLAVE_INIT_INFO_SGX, winnt/PENCLAVE_INIT_INFO_SGX'
 ms.topic: struct
-f1_keywords: 
- - "winnt/ENCLAVE_INIT_INFO_SGX"
+f1_keywords:
+- winnt/ENCLAVE_INIT_INFO_SGX
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winnt.h
+- winnt.h
 api_name:
- - ENCLAVE_INIT_INFO_SGX
+- ENCLAVE_INIT_INFO_SGX
 product: Windows
 targetos: Windows
 req.typenames: ENCLAVE_INIT_INFO_SGX, *PENCLAVE_INIT_INFO_SGX
@@ -93,7 +93,7 @@ For more information about the <b>SIGSTRUCT</b> and <b>EINITTOKEN</b> structures
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_enclave_create_info_sgx">ENCLAVE_CREATE_INFO_SGX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-enclave_create_info_sgx">ENCLAVE_CREATE_INFO_SGX</a>
 
 
 

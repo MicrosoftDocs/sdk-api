@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertEnumSystemStore, CertEnumSystemStore function [Security], _crypto2_certenumsystemstore, security.certenumsystemstore, wincrypt/CertEnumSystemStore
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertEnumSystemStore"
+f1_keywords:
+- wincrypt/CertEnumSystemStore
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertEnumSystemStore
+- CertEnumSystemStore
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,7 +82,7 @@ In addition, the CERT_SYSTEM_STORE_RELOCATE_FLAG can be combined, by using a bit
 ### -param pvSystemStoreLocationPara [in, optional]
 
 If CERT_SYSTEM_STORE_RELOCATE_FLAG is set in the <i>dwFlags</i> parameter, <i>pvSystemStoreLocationPara</i> points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a> structure that indicates both the name and the location of the system store. Otherwise, <i>pvSystemStoreLocationPara</i> is a pointer to a Unicode string that names the system store. 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a> structure that indicates both the name and the location of the system store. Otherwise, <i>pvSystemStoreLocationPara</i> is a pointer to a Unicode string that names the system store. 
 
 
 
@@ -136,7 +136,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a>
 
 
 

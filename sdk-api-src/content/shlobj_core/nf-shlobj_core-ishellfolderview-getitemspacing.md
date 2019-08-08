@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItemSpacing, GetItemSpacing method [Windows Shell], GetItemSpacing method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetItemSpacing method, IShellFolderView.GetItemSpacing, IShellFolderView::GetItemSpacing, _shell_IShellFolderView_GetItemSpacing, shell.IShellFolderView_GetItemSpacing, shlobj_core/IShellFolderView::GetItemSpacing
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IShellFolderView.GetItemSpacing"
+f1_keywords:
+- shlobj_core/IShellFolderView.GetItemSpacing
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - IShellFolderView.GetItemSpacing
+- IShellFolderView.GetItemSpacing
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Gets the spacing for small and large view modes only.
 
 ### -param pSpacing [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_itemspacing">ITEMSPACING</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-itemspacing">ITEMSPACING</a>*</b>
 
 A pointer to a structure that, when this method returns successfully, receives the information that describes the view mode spacing.
 
@@ -87,7 +87,7 @@ This method sends an <a href="https://docs.microsoft.com/windows/desktop/Control
 
 This method retrieves mode spacing for only the large and small view modes.
 
-In Windows Vista and later, this method stores the small view mode spacing in both pairs of values returned in the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_itemspacing">ITEMSPACING</a> structure.
+In Windows Vista and later, this method stores the small view mode spacing in both pairs of values returned in the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-itemspacing">ITEMSPACING</a> structure.
 
 
 

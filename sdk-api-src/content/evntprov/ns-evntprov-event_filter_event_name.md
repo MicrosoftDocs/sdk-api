@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: 85E8C8F8-31D4-42F1-9267-15F74E473D57
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEVENT_FILTER_EVENT_NAME, EVENT_FILTER_EVENT_NAME, EVENT_FILTER_EVENT_NAME structure [ETW], etw.event_filter_event_name, evntprov/EVENT_FILTER_EVENT_NAME"
+ms.keywords: '*PEVENT_FILTER_EVENT_NAME, EVENT_FILTER_EVENT_NAME, EVENT_FILTER_EVENT_NAME structure [ETW], etw.event_filter_event_name, evntprov/EVENT_FILTER_EVENT_NAME'
 ms.topic: struct
-f1_keywords: 
- - "evntprov/EVENT_FILTER_EVENT_NAME"
+f1_keywords:
+- evntprov/EVENT_FILTER_EVENT_NAME
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evntprov.h
+- Evntprov.h
 api_name:
- - EVENT_FILTER_EVENT_NAME
+- EVENT_FILTER_EVENT_NAME
 product: Windows
 targetos: Windows
 req.typenames: EVENT_FILTER_EVENT_NAME, *PEVENT_FILTER_EVENT_NAME
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EVENT_FILTER_EVENT_NAME</b> structure defines event IDs used in an <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure for an  event name or stalk walk name filter. 
+The <b>EVENT_FILTER_EVENT_NAME</b> structure defines event IDs used in an <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure for an  event name or stalk walk name filter. 
 
 This filter will only be applied to events that are otherwise enabled
 on the logging session, via level/keyword in the enable call.

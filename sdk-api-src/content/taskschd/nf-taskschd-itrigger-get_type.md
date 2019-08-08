@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITrigger interface [Task Scheduler],Type property, ITrigger.Type, ITrigger.get_Type, ITrigger::Type, ITrigger::get_Type, TASK_TRIGGER_BOOT, TASK_TRIGGER_DAILY, TASK_TRIGGER_EVENT, TASK_TRIGGER_IDLE, TASK_TRIGGER_LOGON, TASK_TRIGGER_MONTHLY, TASK_TRIGGER_MONTHLYDOW, TASK_TRIGGER_REGISTRATION, TASK_TRIGGER_SESSION_STATE_CHANGE, TASK_TRIGGER_TIME, TASK_TRIGGER_WEEKLY, Type property [Task Scheduler], Type property [Task Scheduler],ITrigger interface, get_Type, taskschd.itrigger_type, taskschd/ITrigger::Type, taskschd/ITrigger::get_Type
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITrigger.Type"
+f1_keywords:
+- taskschd/ITrigger.Type
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITrigger.Type
- - ITrigger.get_Type
+- ITrigger.Type
+- ITrigger.get_Type
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ This property is read-only.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-_task_trigger_type2">TASK_TRIGGER_TYPE2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-task_trigger_type2">TASK_TRIGGER_TYPE2</a>
 
 
 

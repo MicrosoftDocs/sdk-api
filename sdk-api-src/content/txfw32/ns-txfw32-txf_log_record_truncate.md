@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 9b6e9be5-39e7-47e3-846f-ea2e5e04597f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTXF_LOG_RECORD_TRUNCATE, PTXF_LOG_RECORD_TRUNCATE, PTXF_LOG_RECORD_TRUNCATE structure pointer [Files], TXF_LOG_RECORD_TRUNCATE, TXF_LOG_RECORD_TRUNCATE structure [Files], fs.txf_log_record_truncate, txfw32/PTXF_LOG_RECORD_TRUNCATE, txfw32/TXF_LOG_RECORD_TRUNCATE"
+ms.keywords: '*PTXF_LOG_RECORD_TRUNCATE, PTXF_LOG_RECORD_TRUNCATE, PTXF_LOG_RECORD_TRUNCATE structure pointer [Files], TXF_LOG_RECORD_TRUNCATE, TXF_LOG_RECORD_TRUNCATE structure [Files], fs.txf_log_record_truncate, txfw32/PTXF_LOG_RECORD_TRUNCATE, txfw32/TXF_LOG_RECORD_TRUNCATE'
 ms.topic: struct
-f1_keywords: 
- - "txfw32/TXF_LOG_RECORD_TRUNCATE"
+f1_keywords:
+- txfw32/TXF_LOG_RECORD_TRUNCATE
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - TxfW32.h
+- TxfW32.h
 api_name:
- - TXF_LOG_RECORD_TRUNCATE
+- TXF_LOG_RECORD_TRUNCATE
 product: Windows
 targetos: Windows
 req.typenames: TXF_LOG_RECORD_TRUNCATE, *PTXF_LOG_RECORD_TRUNCATE
@@ -87,7 +87,7 @@ Reserved.
 
 ### -field TxfFileId
 
-The TxF file identifier for the file associated with this record. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_id">TXF_ID</a>.
+The TxF file identifier for the file associated with this record. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_id">TXF_ID</a>.
 
 
 ### -field KtmGuid
@@ -115,11 +115,11 @@ The offset of the file name from the beginning of this record.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_id">TXF_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_id">TXF_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_log_record_base">TXF_LOG_RECORD_BASE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_base">TXF_LOG_RECORD_BASE</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: e783c27e-d215-4f6d-a080-92d915a7fc33
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_RESPONSE_HEADERS, HTTP_RESPONSE_HEADERS, HTTP_RESPONSE_HEADERS structure [HTTP], PHTTP_RESPONSE_HEADERS, PHTTP_RESPONSE_HEADERS structure pointer [HTTP], _http_http_response_headers, http.http_response_headers, http/HTTP_RESPONSE_HEADERS, http/PHTTP_RESPONSE_HEADERS"
+ms.keywords: '*PHTTP_RESPONSE_HEADERS, HTTP_RESPONSE_HEADERS, HTTP_RESPONSE_HEADERS structure [HTTP], PHTTP_RESPONSE_HEADERS, PHTTP_RESPONSE_HEADERS structure pointer [HTTP], _http_http_response_headers, http.http_response_headers, http/HTTP_RESPONSE_HEADERS, http/PHTTP_RESPONSE_HEADERS'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_RESPONSE_HEADERS"
+f1_keywords:
+- http/HTTP_RESPONSE_HEADERS
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_RESPONSE_HEADERS
+- HTTP_RESPONSE_HEADERS
 product: Windows
 targetos: Windows
 req.typenames: HTTP_RESPONSE_HEADERS, *PHTTP_RESPONSE_HEADERS
@@ -68,7 +68,7 @@ A number of unknown headers sent with the HTTP response and contained in the arr
 ### -field pUnknownHeaders
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_unknown_header">HTTP_UNKNOWN_HEADER</a> structures that contains one structure for each of the unknown headers sent in the HTTP response.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_unknown_header">HTTP_UNKNOWN_HEADER</a> structures that contains one structure for each of the unknown headers sent in the HTTP response.
 
 
 ### -field TrailerCount
@@ -84,8 +84,8 @@ This member is reserved and must be <b>NULL</b>.
 ### -field KnownHeaders
 
 Fixed-size array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_known_header">HTTP_KNOWN_HEADER</a> structures. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_header_id">HTTP_HEADER_ID</a> enumeration provides a mapping from header types to array indexes. If a known header of a given type is included in the HTTP response, the array element at the index that corresponds to that type specifies the header value. Those elements of the array for which no corresponding headers are present contain a zero-valued <b>RawValueLength</b> member. Use <b>RawValueLength</b> to determine the end of the header string pointed to by <b>pRawValue</b>, rather than relying on the string to have a terminating null.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_known_header">HTTP_KNOWN_HEADER</a> structures. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_header_id">HTTP_HEADER_ID</a> enumeration provides a mapping from header types to array indexes. If a known header of a given type is included in the HTTP response, the array element at the index that corresponds to that type specifies the header value. Those elements of the array for which no corresponding headers are present contain a zero-valued <b>RawValueLength</b> member. Use <b>RawValueLength</b> to determine the end of the header string pointed to by <b>pRawValue</b>, rather than relying on the string to have a terminating null.
 
 
 ## -see-also
@@ -97,7 +97,7 @@ Fixed-size array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_known_header">HTTP_KNOWN_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_known_header">HTTP_KNOWN_HEADER</a>
 
 
 
@@ -105,7 +105,7 @@ Fixed-size array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_unknown_header">HTTP_UNKNOWN_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_unknown_header">HTTP_UNKNOWN_HEADER</a>
  
 
  

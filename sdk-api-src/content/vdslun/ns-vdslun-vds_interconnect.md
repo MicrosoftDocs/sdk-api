@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_INTERCONNECT, VDS_INTERCONNECT structure [VDS], base.vds_interconnect, vdslun/_VDS_INTERCONNECT
 ms.topic: struct
-f1_keywords: 
- - "vdslun/VDS_INTERCONNECT"
+f1_keywords:
+- vdslun/VDS_INTERCONNECT
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VdsLun.h
+- VdsLun.h
 api_name:
- - VDS_INTERCONNECT
+- VDS_INTERCONNECT
 product: Windows
 targetos: Windows
 req.typenames: VDS_INTERCONNECT
@@ -65,7 +65,7 @@ Defines the address
 ### -field m_addressType
 
 The interconnect address type enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_interconnect_address_type">VDS_INTERCONNECT_ADDRESS_TYPE</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-vds_interconnect_address_type">VDS_INTERCONNECT_ADDRESS_TYPE</a>.
 
 
 ### -field m_cbPort
@@ -92,7 +92,7 @@ Pointer to the interconnect address data for the LUN.
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structure includes this 
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure includes this 
     structure as a member to specify an interconnect by which a LUN can be accessed.
 
 
@@ -107,11 +107,11 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vd
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_interconnect_address_type">VDS_INTERCONNECT_ADDRESS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-vds_interconnect_address_type">VDS_INTERCONNECT_ADDRESS_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>
  
 
  

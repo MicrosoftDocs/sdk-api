@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 165a1a9e-e426-4823-8d1b-f13c338964c9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_SMART_CARD_ROOT_INFO, CRYPT_SMART_CARD_ROOT_INFO, CRYPT_SMART_CARD_ROOT_INFO structure [Security], PCRYPT_SMART_CARD_ROOT_INFO, PCRYPT_SMART_CARD_ROOT_INFO structure pointer [Security], security.crypt_smart_card_root_info, wincrypt/CRYPT_SMART_CARD_ROOT_INFO, wincrypt/PCRYPT_SMART_CARD_ROOT_INFO"
+ms.keywords: '*PCRYPT_SMART_CARD_ROOT_INFO, CRYPT_SMART_CARD_ROOT_INFO, CRYPT_SMART_CARD_ROOT_INFO structure [Security], PCRYPT_SMART_CARD_ROOT_INFO, PCRYPT_SMART_CARD_ROOT_INFO structure pointer [Security], security.crypt_smart_card_root_info, wincrypt/CRYPT_SMART_CARD_ROOT_INFO, wincrypt/PCRYPT_SMART_CARD_ROOT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_SMART_CARD_ROOT_INFO"
+f1_keywords:
+- wincrypt/CRYPT_SMART_CARD_ROOT_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_SMART_CARD_ROOT_INFO
+- CRYPT_SMART_CARD_ROOT_INFO
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_SMART_CARD_ROOT_INFO, *PCRYPT_SMART_CARD_ROOT_INFO
@@ -66,16 +66,16 @@ An array of bytes that specify the smart card IDs retrieved by using the <a href
 
 ### -field luid
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_root_info_luid">ROOT_INFO_LUID</a> structure that specifies a session authentication ID from an access token.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-root_info_luid">ROOT_INFO_LUID</a> structure that specifies a session authentication ID from an access token.
 
 
 ## -remarks
 
 
 
-The <b>luid</b> member value comes from the <b>AuthenticationId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_statistics">TOKEN_STATISTICS</a> structure retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a> function.
+The <b>luid</b> member value comes from the <b>AuthenticationId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_statistics">TOKEN_STATISTICS</a> structure retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a> function.
 
-A certificate context can include an array of multiple <b>CRYPT_SMART_CARD_ROOT_INFO</b> structures, one for each <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">locally unique identifier</a> (<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a>) that the certificate propagation service has added to a root certificate.
+A certificate context can include an array of multiple <b>CRYPT_SMART_CARD_ROOT_INFO</b> structures, one for each <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">locally unique identifier</a> (<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a>) that the certificate propagation service has added to a root certificate.
 
 
 

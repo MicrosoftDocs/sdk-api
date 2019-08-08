@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptCreateKeyIdentifierFromCSP, CryptCreateKeyIdentifierFromCSP function [Security], _crypto2_cryptcreatekeyidentifierfromcsp, security.cryptcreatekeyidentifierfromcsp, wincrypt/CryptCreateKeyIdentifierFromCSP
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptCreateKeyIdentifierFromCSP"
+f1_keywords:
+- wincrypt/CryptCreateKeyIdentifierFromCSP
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptCreateKeyIdentifierFromCSP
+- CryptCreateKeyIdentifierFromCSP
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -53,9 +53,9 @@ ms.custom: 19H1
 
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptCreateKeyIdentifierFromCSP</b> function creates a key identifier from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>.
 
-This function converts a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_publickeystruc">PUBLICKEYSTRUC</a> of a CSP 
+This function converts a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">PUBLICKEYSTRUC</a> of a CSP 
 into an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure and encodes it. The encoded structure is then <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashed</a> with the SHA1 algorithm to obtain the key identifier.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure and encodes it. The encoded structure is then <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashed</a> with the SHA1 algorithm to obtain the key identifier.
 
 
 ## -parameters
@@ -84,12 +84,12 @@ A pointer to the public key <a href="https://docs.microsoft.com/windows/desktop/
 ### -param pPubKeyStruc [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_publickeystruc">PUBLICKEYSTRUC</a> structure. In the default case, the <b>aiKeyAlg</b> member of the structure pointed to by <i>pPubKeyStruc</i> is used to find the public key OID. When the value of <i>pszPubKeyOID</i> is not <b>NULL</b>, it overrides the default.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">PUBLICKEYSTRUC</a> structure. In the default case, the <b>aiKeyAlg</b> member of the structure pointed to by <i>pPubKeyStruc</i> is used to find the public key OID. When the value of <i>pszPubKeyOID</i> is not <b>NULL</b>, it overrides the default.
 
 
 ### -param cbPubKeyStruc [in]
 
-The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_publickeystruc">PUBLICKEYSTRUC</a>.
+The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">PUBLICKEYSTRUC</a>.
 
 
 ### -param dwFlags [in]

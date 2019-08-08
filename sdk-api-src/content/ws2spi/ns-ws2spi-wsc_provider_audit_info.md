@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWSC_PROVIDER_AUDIT_INFO, PWSC_PROVIDER_AUDIT_INFO structure pointer [Winsock], WSC_PROVIDER_AUDIT_INFO, WSC_PROVIDER_AUDIT_INFO structure [Winsock], winsock.wsc_provider_audit_info, ws2spi/PWSC_PROVIDER_AUDIT_INFO, ws2spi/WSC_PROVIDER_AUDIT_INFO
 ms.topic: struct
-f1_keywords: 
- - "ws2spi/WSC_PROVIDER_AUDIT_INFO"
+f1_keywords:
+- ws2spi/WSC_PROVIDER_AUDIT_INFO
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2spi.h
+- Ws2spi.h
 api_name:
- - WSC_PROVIDER_AUDIT_INFO
+- WSC_PROVIDER_AUDIT_INFO
 product: Windows
 targetos: Windows
 req.typenames: WSC_PROVIDER_AUDIT_INFO
@@ -101,7 +101,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ne-ws2spi-_wsc_provider_info_type">WSC_PROVIDER_INFO_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ne-ws2spi-wsc_provider_info_type">WSC_PROVIDER_INFO_TYPE</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMGetInfo, DRMGetInfo function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetInfo, rm.drmgetinfo
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMGetInfo"
+f1_keywords:
+- msdrm/DRMGetInfo
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMGetInfo
+- DRMGetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -92,7 +92,7 @@ The attribute of the handle to query for. The supported attributes are <b>g_wszQ
 
 ### -param peEncoding [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/ne-msdrmdefs-_drmencodingtype">DRMENCODINGTYPE</a> enumeration that identifies the type of encoding to be applied to the information retrieved.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msdrmdefs/ne-msdrmdefs-drmencodingtype">DRMENCODINGTYPE</a> enumeration that identifies the type of encoding to be applied to the information retrieved.
 
 
 ### -param pcBuffer [in, out]

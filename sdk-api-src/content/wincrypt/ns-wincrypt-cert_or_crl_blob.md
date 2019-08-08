@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: f1e37c8f-7fca-4bf1-868f-8ec03a23a434
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_OR_CRL_BLOB, CERT_BUNDLE_CERTIFICATE, CERT_BUNDLE_CRL, CERT_OR_CRL_BLOB, CERT_OR_CRL_BLOB structure [Security], PCERT_OR_CRL_BLOB, PCERT_OR_CRL_BLOB structure pointer [Security], security.cert_or_crl_blob, wincrypt/CERT_OR_CRL_BLOB, wincrypt/PCERT_OR_CRL_BLOB"
+ms.keywords: '*PCERT_OR_CRL_BLOB, CERT_BUNDLE_CERTIFICATE, CERT_BUNDLE_CRL, CERT_OR_CRL_BLOB, CERT_OR_CRL_BLOB structure [Security], PCERT_OR_CRL_BLOB, PCERT_OR_CRL_BLOB structure pointer [Security], security.cert_or_crl_blob, wincrypt/CERT_OR_CRL_BLOB, wincrypt/PCERT_OR_CRL_BLOB'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_OR_CRL_BLOB"
+f1_keywords:
+- wincrypt/CERT_OR_CRL_BLOB
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_OR_CRL_BLOB
+- CERT_OR_CRL_BLOB
 product: Windows
 targetos: Windows
 req.typenames: CERT_OR_CRL_BLOB, *PCERT_OR_CRL_BLOB
@@ -101,5 +101,5 @@ The size, in bytes, of the buffer pointed to by the <b>pbEncoded</b> member.
 
 ### -field pbEncoded
 
-A pointer to a buffer that contains a certificate or a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_or_crl_bundle">CERT_OR_CRL_BUNDLE</a> structure that contains an array of certificates as specified by the <b>dwChoice</b> member. 
+A pointer to a buffer that contains a certificate or a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_or_crl_bundle">CERT_OR_CRL_BUNDLE</a> structure that contains an array of certificates as specified by the <b>dwChoice</b> member. 
 

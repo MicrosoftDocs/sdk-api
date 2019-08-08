@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BackupWrite, BackupWrite function [Backup], _win32_backupwrite, backup.backupwrite, base.backupwrite, winbase/BackupWrite
 ms.topic: function
-f1_keywords: 
- - "winbase/BackupWrite"
+f1_keywords:
+- winbase/BackupWrite
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - BackupWrite
+- BackupWrite
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -97,7 +97,7 @@ Pointer to a buffer that the function writes data from.
 ### -param nNumberOfBytesToWrite [in]
 
 Size of the buffer, in bytes. The buffer size must be greater than the size of a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_win32_stream_id">WIN32_STREAM_ID</a> structure.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-win32_stream_id">WIN32_STREAM_ID</a> structure.
 
 
 ### -param lpNumberOfBytesWritten [out]
@@ -162,7 +162,7 @@ This function is not intended for use in restoring files encrypted under the
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a> for that purpose.
 
 The data read from the backup medium must be substreams separated by 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_win32_stream_id">WIN32_STREAM_ID</a> structures.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-win32_stream_id">WIN32_STREAM_ID</a> structures.
 
 The <b>BACKUP_LINK</b> stream type lets you restore files with hard links.
 
@@ -186,7 +186,7 @@ The <b>BACKUP_LINK</b> stream type lets you restore files with hard links.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_win32_stream_id">WIN32_STREAM_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-win32_stream_id">WIN32_STREAM_ID</a>
 
 
 

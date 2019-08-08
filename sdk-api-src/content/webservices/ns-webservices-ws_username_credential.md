@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_USERNAME_CREDENTIAL, WS_USERNAME_CREDENTIAL structure [Web Services for Windows], webservices/WS_USERNAME_CREDENTIAL, wsw.ws_username_credential
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_USERNAME_CREDENTIAL"
+f1_keywords:
+- webservices/WS_USERNAME_CREDENTIAL
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_USERNAME_CREDENTIAL
+- WS_USERNAME_CREDENTIAL
 product: Windows
 targetos: Windows
 req.typenames: WS_USERNAME_CREDENTIAL
@@ -55,7 +55,7 @@ The abstract base type for all username/password credentials.
             
 
 Note that <b>WS_USERNAME_CREDENTIAL</b> and its concrete subtypes
-are used with the WS-Security <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_username_message_security_binding">WS_USERNAME_MESSAGE_SECURITY_BINDING</a>.  
+are used with the WS-Security <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_username_message_security_binding">WS_USERNAME_MESSAGE_SECURITY_BINDING</a>.  
 They are best suitable for application-level username/password pairs, such as 
 those used for online customer accounts.  The usernames and passwords specified 
 are not interpreted by the security runtime, and are merely carried

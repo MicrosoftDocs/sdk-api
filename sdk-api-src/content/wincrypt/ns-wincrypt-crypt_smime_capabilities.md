@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 2ee70ff5-4ef4-457c-90c8-629ad0bc3c25
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_SMIME_CAPABILITIES, CRYPT_SMIME_CAPABILITIES, CRYPT_SMIME_CAPABILITIES structure [Security], PCRYPT_SMIME_CAPABILITIES, PCRYPT_SMIME_CAPABILITIES structure pointer [Security], _crypto2_crypt_smime_capabilities, security.crypt_smime_capabilities, wincrypt/CRYPT_SMIME_CAPABILITIES, wincrypt/PCRYPT_SMIME_CAPABILITIES"
+ms.keywords: '*PCRYPT_SMIME_CAPABILITIES, CRYPT_SMIME_CAPABILITIES, CRYPT_SMIME_CAPABILITIES structure [Security], PCRYPT_SMIME_CAPABILITIES, PCRYPT_SMIME_CAPABILITIES structure pointer [Security], _crypto2_crypt_smime_capabilities, security.crypt_smime_capabilities, wincrypt/CRYPT_SMIME_CAPABILITIES, wincrypt/PCRYPT_SMIME_CAPABILITIES'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_SMIME_CAPABILITIES"
+f1_keywords:
+- wincrypt/CRYPT_SMIME_CAPABILITIES
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_SMIME_CAPABILITIES
+- CRYPT_SMIME_CAPABILITIES
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_SMIME_CAPABILITIES, *PCRYPT_SMIME_CAPABILITIES
@@ -67,7 +67,7 @@ Count of elements in the <b>rgCapability</b> array.
 ### -field rgCapability
 
 Prioritized array of pointers to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_smime_capability">CRYPT_SMIME_CAPABILITY</a> structures each indicating a capability or preference of a user.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_smime_capability">CRYPT_SMIME_CAPABILITY</a> structures each indicating a capability or preference of a user.
 
 
 ## -see-also
@@ -75,7 +75,7 @@ Prioritized array of pointers to
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_smime_capability">CRYPT_SMIME_CAPABILITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_smime_capability">CRYPT_SMIME_CAPABILITY</a>
  
 
  

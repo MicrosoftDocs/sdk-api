@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrGetUserMarshalInfo, NdrGetUserMarshalInfo function [RPC], _rpc_ndrgetusermarshalinfo, rpc.ndrgetusermarshalinfo, rpcndr/NdrGetUserMarshalInfo
 ms.topic: function
-f1_keywords: 
- - "rpcndr/NdrGetUserMarshalInfo"
+f1_keywords:
+- rpcndr/NdrGetUserMarshalInfo
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - NdrGetUserMarshalInfo
+- NdrGetUserMarshalInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -132,7 +132,7 @@ The
 
 For a full listing of the information returned by 
 <b>NdrGetUserMarshalInfo</b>, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-_ndr_user_marshal_info">NDR_USER_MARSHAL_INFO</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-ndr_user_marshal_info">NDR_USER_MARSHAL_INFO</a>.
 
 
 
@@ -142,7 +142,7 @@ For a full listing of the information returned by
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-_ndr_user_marshal_info">NDR_USER_MARSHAL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-ndr_user_marshal_info">NDR_USER_MARSHAL_INFO</a>
 
 
 

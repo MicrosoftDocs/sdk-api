@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAlphaBitmapParameters, GetAlphaBitmapParameters method [DirectShow], GetAlphaBitmapParameters method [DirectShow],IVMRMixerBitmap interface, IVMRMixerBitmap interface [DirectShow],GetAlphaBitmapParameters method, IVMRMixerBitmap.GetAlphaBitmapParameters, IVMRMixerBitmap::GetAlphaBitmapParameters, IVMRMixerBitmapGetAlphaBitmapParameters, dshow.ivmrmixerbitmap_getalphabitmapparameters, strmif/IVMRMixerBitmap::GetAlphaBitmapParameters
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRMixerBitmap.GetAlphaBitmapParameters"
+f1_keywords:
+- strmif/IVMRMixerBitmap.GetAlphaBitmapParameters
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMixerBitmap.GetAlphaBitmapParameters
+- IVMRMixerBitmap.GetAlphaBitmapParameters
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ The <b>GetAlphaBitmapParameters</b> method retrieves a copy of the current image
 
 ### -param pBmpParms [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmralphabitmap">VMRALPHABITMAP</a> structure that receives the bitmap, information about the blending values, and the location to blend it.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmralphabitmap">VMRALPHABITMAP</a> structure that receives the bitmap, information about the blending values, and the location to blend it.
           
 
 

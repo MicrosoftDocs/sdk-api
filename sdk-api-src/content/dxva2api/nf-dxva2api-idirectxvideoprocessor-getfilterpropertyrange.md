@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 550c426b-a194-4ed6-9a90-b79a93e79322, GetFilterPropertyRange, GetFilterPropertyRange method [Media Foundation], GetFilterPropertyRange method [Media Foundation],IDirectXVideoProcessor interface, IDirectXVideoProcessor interface [Media Foundation],GetFilterPropertyRange method, IDirectXVideoProcessor.GetFilterPropertyRange, IDirectXVideoProcessor::GetFilterPropertyRange, dxva2api/IDirectXVideoProcessor::GetFilterPropertyRange, mf.idirectxvideoprocessor_getfilterpropertyrange
 ms.topic: method
-f1_keywords: 
- - "dxva2api/IDirectXVideoProcessor.GetFilterPropertyRange"
+f1_keywords:
+- dxva2api/IDirectXVideoProcessor.GetFilterPropertyRange
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirectXVideoProcessor.GetFilterPropertyRange
+- IDirectXVideoProcessor.GetFilterPropertyRange
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ Filter setting to query. For more information, see <a href="https://docs.microso
 
 ### -param pRange [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_valuerange">DXVA2_ValueRange</a> structure that receives the range of values for the setting specified in <i>FilterSetting</i>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_valuerange">DXVA2_ValueRange</a> structure that receives the range of values for the setting specified in <i>FilterSetting</i>.
 
 
 ## -returns

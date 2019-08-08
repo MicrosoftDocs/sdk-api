@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DLLVERSIONINFO2, DLLVERSIONINFO2 structure [Windows Shell], _win32_DLLVERSIONINFO2_0rjh, shell.DLLVERSIONINFO2_0rjh, shlwapi/DLLVERSIONINFO2
 ms.topic: struct
-f1_keywords: 
- - "shlwapi/DLLVERSIONINFO2"
+f1_keywords:
+- shlwapi/DLLVERSIONINFO2
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shlwapi.h
+- Shlwapi.h
 api_name:
- - DLLVERSIONINFO2
+- DLLVERSIONINFO2
 product: Windows
 targetos: Windows
 req.typenames: DLLVERSIONINFO2
@@ -61,9 +61,9 @@ Receives DLL-specific version information. It is used with the <a href="https://
 
 ### -field info1
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-_dllversioninfo">DLLVERSIONINFO</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo">DLLVERSIONINFO</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-_dllversioninfo">DLLVERSIONINFO</a> structure. This member is included to provide backward compatibility with applications that are not expecting a <b>DLLVERSIONINFO2</b> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo">DLLVERSIONINFO</a> structure. This member is included to provide backward compatibility with applications that are not expecting a <b>DLLVERSIONINFO2</b> structure.
 
 
 ### -field dwFlags

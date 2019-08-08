@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLGetSLIDList, SLGetSLIDList function [Security], security.slgetslidlist, slpublic/SLGetSLIDList
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLGetSLIDList"
+f1_keywords:
+- slpublic/SLGetSLIDList
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLGetSLIDList
+- SLGetSLIDList
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ The handle to the current SLC context.
 
 ### -param eQueryIdType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-_tagslidtype">SLIDTYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-slidtype">SLIDTYPE</a></b>
 
 The type of input ID.
 
@@ -82,7 +82,7 @@ A pointer to the input ID.
 
 ### -param eReturnIdType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-_tagslidtype">SLIDTYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-slidtype">SLIDTYPE</a></b>
 
 The type of returned IDs.
 

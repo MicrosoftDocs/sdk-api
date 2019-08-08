@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: cc04868c-cb9c-455f-a0df-bde6a133eb60
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSET_PARTITION_INFORMATION, PSET_PARTITION_INFORMATION, PSET_PARTITION_INFORMATION structure pointer [Files], SET_PARTITION_INFORMATION, SET_PARTITION_INFORMATION structure [Files], SET_PARTITION_INFORMATION_MBR, _win32_set_partition_information_str, base.set_partition_information_str, fs.set_partition_information_str, winioctl/PSET_PARTITION_INFORMATION, winioctl/SET_PARTITION_INFORMATION"
+ms.keywords: '*PSET_PARTITION_INFORMATION, PSET_PARTITION_INFORMATION, PSET_PARTITION_INFORMATION structure pointer [Files], SET_PARTITION_INFORMATION, SET_PARTITION_INFORMATION structure [Files], SET_PARTITION_INFORMATION_MBR, _win32_set_partition_information_str, base.set_partition_information_str, fs.set_partition_information_str, winioctl/PSET_PARTITION_INFORMATION, winioctl/SET_PARTITION_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/SET_PARTITION_INFORMATION"
+f1_keywords:
+- winioctl/SET_PARTITION_INFORMATION
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - SET_PARTITION_INFORMATION
+- SET_PARTITION_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: SET_PARTITION_INFORMATION, *PSET_PARTITION_INFORMATION
@@ -52,7 +52,7 @@ req.redist:
 
 Contains information used to set a disk partition's type.
 <div class="alert"><b>Note</b>  <b>SET_PARTITION_INFORMATION</b> has been superseded by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information_ex">PARTITION_INFORMATION_EX</a> structure.</div><div> </div>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a> structure.</div><div> </div>
 
 ## -struct-fields
 
@@ -78,7 +78,7 @@ The type of partition. For a list of values, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information_ex">PARTITION_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: P2PSdk
 ms.assetid: 8187ce9e-e1a9-4dce-902e-8a1c43b4b047
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPNRP_CLOUD_ID, PNRP_CLOUD_ID, PNRP_CLOUD_ID structure [Peer Networking], PPNRP_CLOUD_ID, PPNRP_CLOUD_ID structure pointer [Peer Networking], p2p.pnrp_cloud_id, pnrpdef/PNRP_CLOUD_ID, pnrpdef/PPNRP_CLOUD_ID"
+ms.keywords: '*PPNRP_CLOUD_ID, PNRP_CLOUD_ID, PNRP_CLOUD_ID structure [Peer Networking], PPNRP_CLOUD_ID, PPNRP_CLOUD_ID structure pointer [Peer Networking], p2p.pnrp_cloud_id, pnrpdef/PNRP_CLOUD_ID, pnrpdef/PPNRP_CLOUD_ID'
 ms.topic: struct
-f1_keywords: 
- - "pnrpdef/PNRP_CLOUD_ID"
+f1_keywords:
+- pnrpdef/PNRP_CLOUD_ID
 req.header: pnrpdef.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pnrpdef.h
+- Pnrpdef.h
 api_name:
- - PNRP_CLOUD_ID
+- PNRP_CLOUD_ID
 product: Windows
 targetos: Windows
 req.typenames: PNRP_CLOUD_ID, *PPNRP_CLOUD_ID
@@ -103,7 +103,7 @@ Specifies the ID for this scope.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pnrpns/ns-pnrpns-_pnrpcloudinfo">PNRPCLOUDINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pnrpns/ns-pnrpns-pnrpcloudinfo">PNRPCLOUDINFO</a>
  
 
  

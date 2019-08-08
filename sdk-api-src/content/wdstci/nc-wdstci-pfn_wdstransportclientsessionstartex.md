@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_WdsTransportClientSessionStartEx, PFN_WdsTransportClientSessionStartEx callback, PFN_WdsTransportClientSessionStartEx callback function [Windows Deployment Services], wds.pfn_wdstransportclientsessionstartex, wdstci/PFN_WdsTransportClientSessionStartEx
 ms.topic: callback
-f1_keywords: 
- - "wdstci/PFN_WdsTransportClientSessionStartEx"
+f1_keywords:
+- wdstci/PFN_WdsTransportClientSessionStartEx
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wdstci.h
+- Wdstci.h
 api_name:
- - PFN_WdsTransportClientSessionStartEx
+- PFN_WdsTransportClientSessionStartEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ Pointer to the caller specific data for this session.  This data was specified i
 
 ### -param Info [in]
 
-This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/ns-wdstci-_transportclient_session_info">TRANSPORTCLIENT_SESSION_INFO</a> structure.
+This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/ns-wdstci-transportclient_session_info">TRANSPORTCLIENT_SESSION_INFO</a> structure.
 
 
 ## -returns

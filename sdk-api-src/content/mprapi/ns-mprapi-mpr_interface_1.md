@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 90a3da46-7dd1-428b-ab72-d5defa710225
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMPR_INTERFACE_1, MPR_INTERFACE_1, MPR_INTERFACE_1 structure [RAS], PMPR_INTERFACE_1, PMPR_INTERFACE_1 structure pointer [RAS], _mpr_mpr_interface_1, mprapi/MPR_INTERFACE_1, mprapi/PMPR_INTERFACE_1, rras.mpr_interface_1"
+ms.keywords: '*PMPR_INTERFACE_1, MPR_INTERFACE_1, MPR_INTERFACE_1 structure [RAS], PMPR_INTERFACE_1, PMPR_INTERFACE_1 structure pointer [RAS], _mpr_mpr_interface_1, mprapi/MPR_INTERFACE_1, mprapi/PMPR_INTERFACE_1, rras.mpr_interface_1'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/MPR_INTERFACE_1"
+f1_keywords:
+- mprapi/MPR_INTERFACE_1
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - MPR_INTERFACE_1
+- MPR_INTERFACE_1
 product: Windows
 targetos: Windows
 req.typenames: MPR_INTERFACE_1, *PMPR_INTERFACE_1
@@ -78,13 +78,13 @@ Specifies whether the interface is enabled. This value is <b>TRUE</b> if the int
 ### -field dwIfType
 
 Specifies the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_router_interface_type">type of interface</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_interface_type">type of interface</a>.
 
 
 ### -field dwConnectionState
 
 Specifies the current state of the interface, for example connected, disconnected, or unreachable. For a list of possible states, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_router_connection_state">ROUTER_CONNECTION_STATE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_connection_state">ROUTER_CONNECTION_STATE</a>.
 
 
 ### -field fUnReachabilityReasons
@@ -224,11 +224,11 @@ The preceding string restricts dial-out to Tuesdays and Thursdays from 9:00 AM t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_router_connection_state">ROUTER_CONNECTION_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_connection_state">ROUTER_CONNECTION_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_router_interface_type">ROUTER_INTERFACE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_interface_type">ROUTER_INTERFACE_TYPE</a>
 
 
 

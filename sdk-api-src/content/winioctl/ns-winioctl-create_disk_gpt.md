@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 526a265b-e15e-4cd2-adaf-c955a8cb92e5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCREATE_DISK_GPT, CREATE_DISK_GPT, CREATE_DISK_GPT structure [Files], PCREATE_DISK_GPT, PCREATE_DISK_GPT structure pointer [Files], _win32_create_disk_gpt_str, base.create_disk_gpt_str, fs.create_disk_gpt_str, winioctl/CREATE_DISK_GPT, winioctl/PCREATE_DISK_GPT"
+ms.keywords: '*PCREATE_DISK_GPT, CREATE_DISK_GPT, CREATE_DISK_GPT structure [Files], PCREATE_DISK_GPT, PCREATE_DISK_GPT structure pointer [Files], _win32_create_disk_gpt_str, base.create_disk_gpt_str, fs.create_disk_gpt_str, winioctl/CREATE_DISK_GPT, winioctl/PCREATE_DISK_GPT'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/CREATE_DISK_GPT"
+f1_keywords:
+- winioctl/CREATE_DISK_GPT
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - CREATE_DISK_GPT
+- CREATE_DISK_GPT
 product: Windows
 targetos: Windows
 req.typenames: CREATE_DISK_GPT, *PCREATE_DISK_GPT
@@ -76,7 +76,7 @@ The maximum number of partitions allowed on the GPT disk to be initialized witho
 
 The 
 <b>CREATE_DISK_GPT</b> structure is defined as part of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_create_disk">CREATE_DISK</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk">CREATE_DISK</a> structure.
 
 If a maximum partition count of less than 128 is specified, it will be reset to 128. This is in compliance with the EFI specification.
 
@@ -88,11 +88,11 @@ If a maximum partition count of less than 128 is specified, it will be reset to 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_create_disk">CREATE_DISK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk">CREATE_DISK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_create_disk_mbr">CREATE_DISK_MBR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk_mbr">CREATE_DISK_MBR</a>
 
 
 

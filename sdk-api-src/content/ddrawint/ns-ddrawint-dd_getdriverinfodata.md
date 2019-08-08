@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 15a4e80d-2186-4683-a05f-405ca75044e5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_GETDRIVERINFODATA, DD_GETDRIVERINFODATA, DD_GETDRIVERINFODATA structure [Display Devices], PDD_GETDRIVERINFODATA, PDD_GETDRIVERINFODATA structure pointer [Display Devices], ddrawint/DD_GETDRIVERINFODATA, ddrawint/PDD_GETDRIVERINFODATA, ddstrcts_1c0cf063-699e-497d-8554-db34185a1668.xml, display.dd_getdriverinfodata"
+ms.keywords: '*PDD_GETDRIVERINFODATA, DD_GETDRIVERINFODATA, DD_GETDRIVERINFODATA structure [Display Devices], PDD_GETDRIVERINFODATA, PDD_GETDRIVERINFODATA structure pointer [Display Devices], ddrawint/DD_GETDRIVERINFODATA, ddrawint/PDD_GETDRIVERINFODATA, ddstrcts_1c0cf063-699e-497d-8554-db34185a1668.xml, display.dd_getdriverinfodata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_GETDRIVERINFODATA"
+f1_keywords:
+- ddrawint/DD_GETDRIVERINFODATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_GETDRIVERINFODATA
+- DD_GETDRIVERINFODATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_GETDRIVERINFODATA, DD_GETDRIVERINFODATA"
+req.typenames: '*PDD_GETDRIVERINFODATA, DD_GETDRIVERINFODATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -89,7 +89,7 @@ GUID_ColorControlCallbacks
 
 </td>
 <td>
-Queries whether the driver supports <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_colorcb_colorcontrol">DdControlColor</a>. If the driver does support it, the driver should initialize and return a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_colorcontrolcallbacks">DD_COLORCONTROLCALLBACKS</a> structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_colorcb_colorcontrol">DdControlColor</a>. If the driver does support it, the driver should initialize and return a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_colorcontrolcallbacks">DD_COLORCONTROLCALLBACKS</a> structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -159,7 +159,7 @@ GUID_GetHeapAlignment
 
 </td>
 <td>
-Queries whether the driver supports surface alignment requirements on a per-heap basis. If the driver does provide this support, it should initialize and return a <a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-_dd_getheapalignmentdata">DD_GETHEAPALIGNMENTDATA</a> structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports surface alignment requirements on a per-heap basis. If the driver does provide this support, it should initialize and return a <a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-dd_getheapalignmentdata">DD_GETHEAPALIGNMENTDATA</a> structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -179,7 +179,7 @@ GUID_KernelCaps
 
 </td>
 <td>
-Queries whether the driver supports any of the kernel-mode capabilities specified through the <a href="https://docs.microsoft.com/windows/desktop/api/ddkernel/ns-ddkernel-_ddkernelcaps">DDKERNELCAPS</a> structure. If the driver does provide any of this support, it should initialize and return a DDKERNELCAPS structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports any of the kernel-mode capabilities specified through the <a href="https://docs.microsoft.com/windows/desktop/api/ddkernel/ns-ddkernel-ddkernelcaps">DDKERNELCAPS</a> structure. If the driver does provide any of this support, it should initialize and return a DDKERNELCAPS structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -189,7 +189,7 @@ GUID_MiscellaneousCallbacks
 
 </td>
 <td>
-Queries whether the driver supports <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getavaildrivermemory">DdGetAvailDriverMemory</a>. If the driver does support it, the driver should initialize and return a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_miscellaneouscallbacks">DD_MISCELLANEOUSCALLBACKS</a> structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getavaildrivermemory">DdGetAvailDriverMemory</a>. If the driver does support it, the driver should initialize and return a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_miscellaneouscallbacks">DD_MISCELLANEOUSCALLBACKS</a> structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ GUID_Miscellaneous2Callbacks
 
 </td>
 <td>
-Queries whether the driver supports the additional miscellaneous functionality specified in the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_miscellaneous2callbacks">DD_MISCELLANEOUS2CALLBACKS</a> structure. If the driver does support any of this support, the driver should initialize and return a DD_MISCELLANEOUS2CALLBACKS structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports the additional miscellaneous functionality specified in the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_miscellaneous2callbacks">DD_MISCELLANEOUS2CALLBACKS</a> structure. If the driver does support any of this support, the driver should initialize and return a DD_MISCELLANEOUS2CALLBACKS structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -219,7 +219,7 @@ GUID_NonLocalVidMemCaps
 
 </td>
 <td>
-Queries whether the driver supports any of the nonlocal display memory capabilities specified through the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_nonlocalvidmemcaps">DD_NONLOCALVIDMEMCAPS</a> structure. If the driver does provide any of this support, it should initialize and return a DD_NONLOCALVIDMEMCAPS structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports any of the nonlocal display memory capabilities specified through the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_nonlocalvidmemcaps">DD_NONLOCALVIDMEMCAPS</a> structure. If the driver does provide any of this support, it should initialize and return a DD_NONLOCALVIDMEMCAPS structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -229,7 +229,7 @@ GUID_NTCallbacks
 
 </td>
 <td>
-Queries whether the driver supports any of the functionality specified through the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_ntcallbacks">DD_NTCALLBACKS</a> structure. If the driver does provide any of this support, it should initialize and return a DD_NTCALLBACKS structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports any of the functionality specified through the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_ntcallbacks">DD_NTCALLBACKS</a> structure. If the driver does provide any of this support, it should initialize and return a DD_NTCALLBACKS structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -249,7 +249,7 @@ GUID_UpdateNonLocalHeap
 
 </td>
 <td>
-Queries whether the driver supports retrieval of the base addresses of each nonlocal heap in turn. If the driver does provide this support, it should initialize and return a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_updatenonlocalheapdata">DD_UPDATENONLOCALHEAPDATA</a> structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports retrieval of the base addresses of each nonlocal heap in turn. If the driver does provide this support, it should initialize and return a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_updatenonlocalheapdata">DD_UPDATENONLOCALHEAPDATA</a> structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>
@@ -269,7 +269,7 @@ GUID_VideoPortCaps
 
 </td>
 <td>
-Queries whether the driver supports any of the VPE object capabilities specified through the <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportcaps">DDVIDEOPORTCAPS</a> structure. If the driver does provide any of this support, it should initialize and return a DDVIDEOPORTCAPS structure in the buffer to which <b>lpvData</b> points.
+Queries whether the driver supports any of the VPE object capabilities specified through the <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportcaps">DDVIDEOPORTCAPS</a> structure. If the driver does provide any of this support, it should initialize and return a DDVIDEOPORTCAPS structure in the buffer to which <b>lpvData</b> points.
 
 </td>
 </tr>

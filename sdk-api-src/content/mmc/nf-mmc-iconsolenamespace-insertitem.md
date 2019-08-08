@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConsoleNameSpace interface [MMC],InsertItem method, IConsoleNameSpace.InsertItem, IConsoleNameSpace2 interface [MMC],InsertItem method, IConsoleNameSpace2::InsertItem, IConsoleNameSpace::InsertItem, InsertItem, InsertItem method [MMC], InsertItem method [MMC],IConsoleNameSpace interface, InsertItem method [MMC],IConsoleNameSpace2 interface, _slate_iconsolenamespace2_insertitem, mmc.iconsolenamespace2_insertitem, mmc/IConsoleNameSpace2::InsertItem, mmc/IConsoleNameSpace::InsertItem
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsoleNameSpace.InsertItem"
+f1_keywords:
+- mmc/IConsoleNameSpace.InsertItem
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsoleNameSpace.InsertItem
- - IConsoleNameSpace2.InsertItem
+- IConsoleNameSpace.InsertItem
+- IConsoleNameSpace2.InsertItem
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The <b>IConsoleNameSpace2::InsertItem</b> method enables the snap-in to insert a
 ### -param item [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_scopedataitem">SCOPEDATAITEM</a> structure that specifies the attributes of the new scope item. On return, the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-scopedataitem">SCOPEDATAITEM</a> structure that specifies the attributes of the new scope item. On return, the 
 ID member of the structure contains the item identifier assigned by MMC for the newly inserted item. Be aware that this value is the <b>HSCOPEITEM</b> handle of the inserted item. The snap-in should store this value in order to later manipulate the inserted item by calling methods such as 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsolenamespace-getitem">IConsoleNameSpace2::GetItem</a>.
 

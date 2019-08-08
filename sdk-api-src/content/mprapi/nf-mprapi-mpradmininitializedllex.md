@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminInitializeDllEx, MprAdminInitializeDllEx callback, MprAdminInitializeDllEx callback function [RAS], mprapi/MprAdminInitializeDllEx, rras.mpradmininitializedllex
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminInitializeDllEx"
+f1_keywords:
+- mprapi/MprAdminInitializeDllEx
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - MprAdminInitializeDllEx
+- MprAdminInitializeDllEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ When the Routing and Remote Access Service (RRAS) starts, it calls the
 
 ### -param pAdminCallbacks
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mprapi_admin_dll_callbacks">MPRAPI_ADMIN_DLL_CALLBACKS</a> structure that contains the function pointers of the callbacks being registered.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mprapi_admin_dll_callbacks">MPRAPI_ADMIN_DLL_CALLBACKS</a> structure that contains the function pointers of the callbacks being registered.
 
 
 ## -returns

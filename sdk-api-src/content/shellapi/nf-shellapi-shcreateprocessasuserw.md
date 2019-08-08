@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateProcessAsUserW, SHCreateProcessAsUserW function [Windows Shell], _win32_SHCreateProcessAsUserW, _win32_SHCreateProcessAsUserW_cpp, shell.SHCreateProcessAsUserW, shellapi/SHCreateProcessAsUserW
 ms.topic: function
-f1_keywords: 
- - "shellapi/SHCreateProcessAsUserW"
+f1_keywords:
+- shellapi/SHCreateProcessAsUserW
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHCreateProcessAsUserW
- - SHCreateProcessAsUserW
+- SHCreateProcessAsUserW
+- SHCreateProcessAsUserW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Creates a new user-mode process and its primary thread to run a specified execut
 
 Type: <b>PSHCREATEPROCESSINFOW</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shcreateprocessinfow">SHCREATEPROCESSINFOW</a> structure with information on how to create the process.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shcreateprocessinfow">SHCREATEPROCESSINFOW</a> structure with information on how to create the process.
 
 
 ## -returns
@@ -86,7 +86,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> if not. To retrieve extended 
 
 
 
-This function is similar to <a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information">ShellExecuteEx</a> with <b>runas</b> as the verb. However, <b>SHCreateProcessAsUserW</b> creates a process that runs in the security context of the user represented by the <b>hUserToken</b> member of the structure pointed to by <i>pscpi</i>. The <b>lpProcessInformation</b> member can be used to return a <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_process_information">PROCESS_INFORMATION</a> structure with information on the new process.
+This function is similar to <a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information">ShellExecuteEx</a> with <b>runas</b> as the verb. However, <b>SHCreateProcessAsUserW</b> creates a process that runs in the security context of the user represented by the <b>hUserToken</b> member of the structure pointed to by <i>pscpi</i>. The <b>lpProcessInformation</b> member can be used to return a <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-process_information">PROCESS_INFORMATION</a> structure with information on the new process.
 
 The <b>runas</b> verb must be supported by the executable file's <a href="https://docs.microsoft.com/windows/desktop/shell/fa-file-types">file type</a>. The .exe file type supports <b>runas</b>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-assocquerystringa">AssocQueryString</a> function to check whether <b>runas</b> is supported by other file types. The following code fragment illustrates the syntax.
 			

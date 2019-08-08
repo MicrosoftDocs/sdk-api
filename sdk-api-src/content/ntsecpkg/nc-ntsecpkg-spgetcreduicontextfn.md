@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SEC_WINNT_AUTH_DATA_TYPE_CERT, SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA, SEC_WINNT_AUTH_DATA_TYPE_PASSWORD, SpGetCredUIContextFn, SpGetCredUIContextFn callback, SpGetCredUIContextFn callback function [Security], ntsecpkg/SpGetCredUIContextFn, security.spgetcreduicontextfn
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/SpGetCredUIContextFn"
+f1_keywords:
+- ntsecpkg/SpGetCredUIContextFn
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SpGetCredUIContextFn
+- SpGetCredUIContextFn
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -136,7 +136,7 @@ If the function fails, return an <b>NTSTATUS</b> error code that indicates the r
 
 
 A pointer to the <b>SpGetCredUIContextFn</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 

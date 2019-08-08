@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: e2774e29-1a90-44d6-9001-f73a98be6624
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_ID_INFO, FILE_ID_INFO, FILE_ID_INFO structure [Files], PFILE_ID_INFO, PFILE_ID_INFO structure pointer [Files], _FILE_ID_INFO, fs.file_id_info, winbase/FILE_ID_INFO, winbase/PFILE_ID_INFO"
+ms.keywords: '*PFILE_ID_INFO, FILE_ID_INFO, FILE_ID_INFO structure [Files], PFILE_ID_INFO, PFILE_ID_INFO structure pointer [Files], _FILE_ID_INFO, fs.file_id_info, winbase/FILE_ID_INFO, winbase/PFILE_ID_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winbase/FILE_ID_INFO"
+f1_keywords:
+- winbase/FILE_ID_INFO
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - FILE_ID_INFO
+- FILE_ID_INFO
 product: Windows
 targetos: Windows
 req.typenames: FILE_ID_INFO, *PFILE_ID_INFO
@@ -79,7 +79,7 @@ The 128-bit file identifier for the file. The file identifier and the volume ser
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_file_id_128">FILE_ID_128</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-file_id_128">FILE_ID_128</a>
 
 
 

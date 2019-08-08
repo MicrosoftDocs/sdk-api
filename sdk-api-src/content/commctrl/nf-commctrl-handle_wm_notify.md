@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HANDLE_WM_NOTIFY, HANDLE_WM_NOTIFY macro [Windows Controls], _win32_HANDLE_WM_NOTIFY, _win32_HANDLE_WM_NOTIFY_cpp, commctrl/HANDLE_WM_NOTIFY, controls.HANDLE_WM_NOTIFY, controls._win32_HANDLE_WM_NOTIFY
 ms.topic: macro
-f1_keywords: 
- - "commctrl/HANDLE_WM_NOTIFY"
+f1_keywords:
+- commctrl/HANDLE_WM_NOTIFY
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - HANDLE_WM_NOTIFY
+- HANDLE_WM_NOTIFY
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -96,7 +96,7 @@ The <b>HANDLE_WM_NOTIFY</b> macro is defined as follows.
 <pre class="syntax" xml:space="preserve"><code>#define HANDLE_WM_NOTIFY(hwnd, wParam, lParam, fn) \ 
 
     (fn)((hwnd), (int)(wParam), (NMHDR*)(lParam))</code></pre>
-The macro can be used inside a dialog window procedure to simplify the calling of an application-defined function that requires an <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> parameter.
+The macro can be used inside a dialog window procedure to simplify the calling of an application-defined function that requires an <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> parameter.
 
 
 

@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 3b75cf38-e1d7-48dd-8319-d4daf508a3e9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWLX_PROFILE_V1_0, PWLX_PROFILE_V1_0, PWLX_PROFILE_V1_0 structure pointer [Security], WLX_PROFILE_V1_0, WLX_PROFILE_V1_0 structure [Security], _gina_wlx_profile_v1_0, security.wlx_profile_v1_0, winwlx/PWLX_PROFILE_V1_0, winwlx/WLX_PROFILE_V1_0"
+ms.keywords: '*PWLX_PROFILE_V1_0, PWLX_PROFILE_V1_0, PWLX_PROFILE_V1_0 structure pointer [Security], WLX_PROFILE_V1_0, WLX_PROFILE_V1_0 structure [Security], _gina_wlx_profile_v1_0, security.wlx_profile_v1_0, winwlx/PWLX_PROFILE_V1_0, winwlx/WLX_PROFILE_V1_0'
 ms.topic: struct
-f1_keywords: 
- - "winwlx/WLX_PROFILE_V1_0"
+f1_keywords:
+- winwlx/WLX_PROFILE_V1_0
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WLX_PROFILE_V1_0
+- WLX_PROFILE_V1_0
 product: Windows
 targetos: Windows
 req.typenames: WLX_PROFILE_V1_0, *PWLX_PROFILE_V1_0
@@ -82,7 +82,7 @@ The string pointed to by <b>pszProfile</b> must be separately allocated by your 
 
 The <b>WLX_PROFILE_V1_0</b> structure is returned to Winlogon by your GINA DLL following authentication. Winlogon uses the path specified by <b>pszProfile</b> to load the profile of the newly logged-on user.
 
-GINA uses two structures to provide profile information: <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_profile_v2_0">WLX_PROFILE_V2_0</a> and <b>WLX_PROFILE_V1_0</b>. 
+GINA uses two structures to provide profile information: <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_profile_v2_0">WLX_PROFILE_V2_0</a> and <b>WLX_PROFILE_V1_0</b>. 
 
 
 
@@ -92,7 +92,7 @@ GINA uses two structures to provide profile information: <a href="https://docs.m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_profile_v2_0">WLX_PROFILE_V2_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_profile_v2_0">WLX_PROFILE_V2_0</a>
  
 
  

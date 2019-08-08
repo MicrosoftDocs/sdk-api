@@ -8,10 +8,10 @@ tech.root: NativeWiFi
 ms.assetid: e0e59abf-1a78-4c7f-b044-2d4c75328329
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_RAW_DATA_LIST, PWLAN_RAW_DATA_LIST, PWLAN_RAW_DATA_LIST structure pointer [NativeWIFI], WLAN_RAW_DATA_LIST, WLAN_RAW_DATA_LIST structure [NativeWIFI], nwifi.dot11_psd_ie_data_list, wlanapi/PWLAN_RAW_DATA_LIST, wlanapi/WLAN_RAW_DATA_LIST"
+ms.keywords: '*PWLAN_RAW_DATA_LIST, PWLAN_RAW_DATA_LIST, PWLAN_RAW_DATA_LIST structure pointer [NativeWIFI], WLAN_RAW_DATA_LIST, WLAN_RAW_DATA_LIST structure [NativeWIFI], nwifi.dot11_psd_ie_data_list, wlanapi/PWLAN_RAW_DATA_LIST, wlanapi/WLAN_RAW_DATA_LIST'
 ms.topic: struct
-f1_keywords: 
- - "wlanapi/WLAN_RAW_DATA_LIST"
+f1_keywords:
+- wlanapi/WLAN_RAW_DATA_LIST
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - WLAN_RAW_DATA_LIST
+- WLAN_RAW_DATA_LIST
 product: Windows
 targetos: Windows
 req.typenames: WLAN_RAW_DATA_LIST, *PWLAN_RAW_DATA_LIST
@@ -197,7 +197,7 @@ For more information about PSD IEs, including a discussion of the format of an I
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_raw_data">WLAN_RAW_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_raw_data">WLAN_RAW_DATA</a>
 
 
 

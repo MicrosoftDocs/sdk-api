@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateEnclave, CreateEnclave function, ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, base.createenclave, enclaveapi/CreateEnclave
 ms.topic: function
-f1_keywords: 
- - "enclaveapi/CreateEnclave"
+f1_keywords:
+- enclaveapi/CreateEnclave
 req.header: enclaveapi.h
 req.include-header: Winbase.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Api-ms-win-core-enclave-l1-1-0.dll; Kernel32.dll; KernelBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-enclave-l1-1-0.dll
- - kernel32.dll
- - KernelBase.dll
- - API-MS-Win-Core-Enclave-L1-1-0.dll
+- api-ms-win-core-enclave-l1-1-0.dll
+- kernel32.dll
+- KernelBase.dll
+- API-MS-Win-Core-Enclave-L1-1-0.dll
 api_name:
- - CreateEnclave
+- CreateEnclave
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -127,9 +127,9 @@ A  VBS enclave.
 
 A pointer to the architecture-specific information to use to create the enclave. 
 
-For the <b>ENCLAVE_TYPE_SGX</b> enclave type, you must specify a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_enclave_create_info_sgx">ENCLAVE_CREATE_INFO_SGX</a> structure.
+For the <b>ENCLAVE_TYPE_SGX</b> enclave type, you must specify a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-enclave_create_info_sgx">ENCLAVE_CREATE_INFO_SGX</a> structure.
 
-For the <b>ENCLAVE_TYPE_VBS</b> enclave type, you must specify a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_enclave_create_info_vbs">ENCLAVE_CREATE_INFO_VBS</a> structure.
+For the <b>ENCLAVE_TYPE_VBS</b> enclave type, you must specify a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-enclave_create_info_vbs">ENCLAVE_CREATE_INFO_VBS</a> structure.
 
 
 ### -param dwInfoLength [in]
@@ -213,11 +213,11 @@ For information about the Intel Software Guard Extensions (SGX) architecture ext
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_enclave_create_info_sgx">ENCLAVE_CREATE_INFO_SGX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-enclave_create_info_sgx">ENCLAVE_CREATE_INFO_SGX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_enclave_create_info_vbs">ENCLAVE_CREATE_INFO_VBS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-enclave_create_info_vbs">ENCLAVE_CREATE_INFO_VBS</a>
 
 
 

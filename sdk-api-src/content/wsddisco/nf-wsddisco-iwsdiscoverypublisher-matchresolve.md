@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,MatchResolve method, IWSDiscoveryPublisher.MatchResolve, IWSDiscoveryPublisher::MatchResolve, MatchResolve, MatchResolve method, MatchResolve method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_matchresolve_method, wsddisco/IWSDiscoveryPublisher::MatchResolve
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDiscoveryPublisher.MatchResolve"
+f1_keywords:
+- wsddisco/IWSDiscoveryPublisher.MatchResolve
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveryPublisher.MatchResolve
+- IWSDiscoveryPublisher.MatchResolve
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Determines whether a <a href="https://docs.microsoft.com/windows/desktop/WsdApi/
 
 ### -param pResolveMessage [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_message">WSD_SOAP_MESSAGE</a> structure that represents the Resolve message passed in to the notification sink's <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoverypublishernotify-resolvehandler">ResolveHandler</a>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_message">WSD_SOAP_MESSAGE</a> structure that represents the Resolve message passed in to the notification sink's <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoverypublishernotify-resolvehandler">ResolveHandler</a>.
 
 
 ### -param pMessageParameters [in]
@@ -104,17 +104,17 @@ This parameter may be <b>NULL</b>.
 
 ### -param pTypesList [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_name_list">WSD_NAME_LIST</a> structure that represents the list of types supported by the publishing host. May be <b>NULL</b>.  If <i>pTypesList</i> is specified, <b>MatchResolve</b> will use WS-Discovery matching logic to verify that the types match those specified in <i>pResolveMessage</i>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_name_list">WSD_NAME_LIST</a> structure that represents the list of types supported by the publishing host. May be <b>NULL</b>.  If <i>pTypesList</i> is specified, <b>MatchResolve</b> will use WS-Discovery matching logic to verify that the types match those specified in <i>pResolveMessage</i>.
 
 
 ### -param pScopesList [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_uri_list">WSD_URI_LIST</a> structure that represents the list of matching scopes supported by the publishing host. The list contains hash values in string form. May be <b>NULL</b>.  If <i>pScopesList</i> is specified, <b>MatchResolve</b>  will use WS-Discovery matching logic to verify that the scopes match those specified in <i>pResolveMessage</i>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_uri_list">WSD_URI_LIST</a> structure that represents the list of matching scopes supported by the publishing host. The list contains hash values in string form. May be <b>NULL</b>.  If <i>pScopesList</i> is specified, <b>MatchResolve</b>  will use WS-Discovery matching logic to verify that the scopes match those specified in <i>pResolveMessage</i>.
 
 
 ### -param pXAddrsList [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_uri_list">WSD_URI_LIST</a> structure that represents the list of transport addresses supported by the publishing host. Each transport address string contains an address and port number which can be used for connection by a remote host.<i>pXAddrsList</i> and <i>pXAddrsList-&gt;Element</i> may not be <b>NULL</b>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_uri_list">WSD_URI_LIST</a> structure that represents the list of transport addresses supported by the publishing host. Each transport address string contains an address and port number which can be used for connection by a remote host.<i>pXAddrsList</i> and <i>pXAddrsList-&gt;Element</i> may not be <b>NULL</b>.
 
 
 ## -returns

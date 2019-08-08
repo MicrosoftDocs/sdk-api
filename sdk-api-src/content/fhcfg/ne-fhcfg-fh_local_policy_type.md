@@ -8,10 +8,10 @@ tech.root: DevNotes
 ms.assetid: 59C54A67-91A3-495F-95F2-50EB373D442C
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFH_LOCAL_POLICY_TYPE, FH_FREQUENCY, FH_LOCAL_POLICY_TYPE, FH_LOCAL_POLICY_TYPE enumeration [Windows API], FH_RETENTION_AGE, FH_RETENTION_TYPE, MAX_LOCAL_POLICY, fhcfg/FH_FREQUENCY, fhcfg/FH_LOCAL_POLICY_TYPE, fhcfg/FH_RETENTION_AGE, fhcfg/FH_RETENTION_TYPE, fhcfg/MAX_LOCAL_POLICY, winprog.fh_local_policy_type"
+ms.keywords: '*PFH_LOCAL_POLICY_TYPE, FH_FREQUENCY, FH_LOCAL_POLICY_TYPE, FH_LOCAL_POLICY_TYPE enumeration [Windows API], FH_RETENTION_AGE, FH_RETENTION_TYPE, MAX_LOCAL_POLICY, fhcfg/FH_FREQUENCY, fhcfg/FH_LOCAL_POLICY_TYPE, fhcfg/FH_RETENTION_AGE, fhcfg/FH_RETENTION_TYPE, fhcfg/MAX_LOCAL_POLICY, winprog.fh_local_policy_type'
 ms.topic: enum
-f1_keywords: 
- - "fhcfg/FH_LOCAL_POLICY_TYPE"
+f1_keywords:
+- fhcfg/FH_LOCAL_POLICY_TYPE
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fhcfg.h
+- Fhcfg.h
 api_name:
- - FH_LOCAL_POLICY_TYPE
+- FH_LOCAL_POLICY_TYPE
 product: Windows
 targetos: Windows
 req.typenames: FH_LOCAL_POLICY_TYPE, *PFH_LOCAL_POLICY_TYPE
@@ -66,12 +66,12 @@ This local policy specifies how frequently backups are to be performed for the c
 
 ### -field FH_RETENTION_TYPE
 
-This  local policy specifies when previous versions of files and folders can be deleted from a backup target. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_retention_types">FH_RETENTION_TYPES</a> enumeration for the list of possible values. The default value of the numeric parameter for this policy is <b>FH_RETENTION_DISABLED</b>.
+This  local policy specifies when previous versions of files and folders can be deleted from a backup target. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_retention_types">FH_RETENTION_TYPES</a> enumeration for the list of possible values. The default value of the numeric parameter for this policy is <b>FH_RETENTION_DISABLED</b>.
 
 
 ### -field FH_RETENTION_AGE
 
-This local policy specifies the minimum age of previous versions that can be deleted from a backup target when the  <b>FH_RETENTION_AGE_BASED</b> retention type is specified. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_retention_types">FH_RETENTION_TYPES</a> enumeration. The numeric parameter contains the minimum age, in days. The default value of the numeric parameter for this policy is 365 days (1 year).
+This local policy specifies the minimum age of previous versions that can be deleted from a backup target when the  <b>FH_RETENTION_AGE_BASED</b> retention type is specified. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_retention_types">FH_RETENTION_TYPES</a> enumeration. The numeric parameter contains the minimum age, in days. The default value of the numeric parameter for this policy is 365 days (1 year).
 
 
 ### -field MAX_LOCAL_POLICY
@@ -95,7 +95,7 @@ To set the value of the numeric parameter for the local policy, use the <a href=
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_retention_types">FH_RETENTION_TYPES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_retention_types">FH_RETENTION_TYPES</a>
 
 
 

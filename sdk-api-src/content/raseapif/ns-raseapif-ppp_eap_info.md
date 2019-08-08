@@ -8,10 +8,10 @@ tech.root: EAP
 ms.assetid: 722e8185-3408-418b-ae80-e2ed261edcd1
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPPP_EAP_INFO, PPPP_EAP_INFO, PPPP_EAP_INFO structure pointer [EAP], PPP_EAP_INFO, PPP_EAP_INFO structure [EAP], _eap_ppp_eap_info, eap.ppp_eap_info, raseapif/PPPP_EAP_INFO, raseapif/PPP_EAP_INFO"
+ms.keywords: '*PPPP_EAP_INFO, PPPP_EAP_INFO, PPPP_EAP_INFO structure pointer [EAP], PPP_EAP_INFO, PPP_EAP_INFO structure [EAP], _eap_ppp_eap_info, eap.ppp_eap_info, raseapif/PPPP_EAP_INFO, raseapif/PPP_EAP_INFO'
 ms.topic: struct
-f1_keywords: 
- - "raseapif/PPP_EAP_INFO"
+f1_keywords:
+- raseapif/PPP_EAP_INFO
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Raseapif.h
+- Raseapif.h
 api_name:
- - PPP_EAP_INFO
+- PPP_EAP_INFO
 product: Windows
 targetos: Windows
 req.typenames: PPP_EAP_INFO, *PPPP_EAP_INFO
@@ -101,7 +101,7 @@ Pointer to a pointer that, on successful return, points to a work buffer. This b
 #### pPppEapInput
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_input">PPP_EAP_INPUT</a> structure that specifies initialization information for the authentication session.
+<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_input">PPP_EAP_INPUT</a> structure that specifies initialization information for the authentication session.
 
 
 ### -field RasEapEnd
@@ -133,14 +133,14 @@ Pointer to the work buffer. The authentication protocol provides RAS with a poin
 #### pReceivePacket
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_packet">PPP_EAP_PACKET</a> structure that contains a received packet. A <i>pReceivePacket</i> value of <b>NULL</b> indicates either that RAS is initiating the dialog with the authentication protocol, or that a time out has occurred and the authentication protocol should resend the last packet. The authentication protocol must determine, based on context, which of these two cases is true.
+<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_packet">PPP_EAP_PACKET</a> structure that contains a received packet. A <i>pReceivePacket</i> value of <b>NULL</b> indicates either that RAS is initiating the dialog with the authentication protocol, or that a time out has occurred and the authentication protocol should resend the last packet. The authentication protocol must determine, based on context, which of these two cases is true.
 
 
 
 #### pSendPacket
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_packet">PPP_EAP_PACKET</a> structure. The authentication protocol can use this structure to specify a packet to send.
+<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_packet">PPP_EAP_PACKET</a> structure. The authentication protocol can use this structure to specify a packet to send.
 
 
 
@@ -153,14 +153,14 @@ Specifies the size, in bytes, of the buffer pointed to by <i>pSendPacket</i>.
 #### pEapOutput
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_output">PPP_EAP_OUTPUT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_output">PPP_EAP_OUTPUT</a> structure.
 
 
 
 #### pEapInput
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_input">PPP_EAP_INPUT</a> structure. This parameter may be <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_input">PPP_EAP_INPUT</a> structure. This parameter may be <b>NULL</b>.
 
 
 ## -remarks

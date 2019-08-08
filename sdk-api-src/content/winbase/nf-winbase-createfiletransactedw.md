@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, CREATE_ALWAYS, CREATE_NEW, CreateFileTransacted, CreateFileTransacted function [Files], CreateFileTransactedA, CreateFileTransactedW, FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_ENCRYPTED, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, FILE_FLAG_BACKUP_SEMANTICS, FILE_FLAG_DELETE_ON_CLOSE, FILE_FLAG_NO_BUFFERING, FILE_FLAG_OPEN_NO_RECALL, FILE_FLAG_OPEN_REPARSE_POINT, FILE_FLAG_OVERLAPPED, FILE_FLAG_POSIX_SEMANTICS, FILE_FLAG_RANDOM_ACCESS, FILE_FLAG_SEQUENTIAL_SCAN, FILE_FLAG_SESSION_AWARE, FILE_FLAG_WRITE_THROUGH, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, OPEN_ALWAYS, OPEN_EXISTING, SECURITY_ANONYMOUS, SECURITY_CONTEXT_TRACKING, SECURITY_DELEGATION, SECURITY_EFFECTIVE_ONLY, SECURITY_IDENTIFICATION, SECURITY_IMPERSONATION, TRUNCATE_EXISTING, TXFS_MINIVERSION_COMMITTED_VIEW, TXFS_MINIVERSION_DEFAULT_VIEW, TXFS_MINIVERSION_DIRTY_VIEW, fs.createfiletransacted, winbase/CreateFileTransacted, winbase/CreateFileTransactedA, winbase/CreateFileTransactedW
 ms.topic: function
-f1_keywords: 
- - "winbase/CreateFileTransacted"
+f1_keywords:
+- winbase/CreateFileTransacted
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,25 +30,25 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - CreateFileTransacted
- - CreateFileTransactedA
- - CreateFileTransactedW
+- CreateFileTransacted
+- CreateFileTransactedA
+- CreateFileTransactedW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -208,7 +208,7 @@ If this flag is not specified, but the object has been opened for write access o
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
        structure that contains an optional 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">security descriptor</a> and also determines whether 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">security descriptor</a> and also determines whether 
        or not the returned handle can be inherited by child processes. The parameter can be 
        <b>NULL</b>.
 
@@ -221,7 +221,7 @@ The <b>bInheritHandle</b> member of the structure specifies whether the returned
        can be inherited.
 
 The  <b>lpSecurityDescriptor</b> member of the structure specifies 
-       a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">security descriptor</a> for an object, but may 
+       a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">security descriptor</a> for an object, but may 
        also be <b>NULL</b>.
 
 If <b>lpSecurityDescriptor</b> member is <b>NULL</b>, the object 
@@ -589,17 +589,17 @@ Normal <a href="https://docs.microsoft.com/windows/desktop/FileIO/reparse-points
 </td>
 <td width="60%">
 The file is being opened or created for asynchronous I/O. When the operation is complete, the event 
-         specified in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure is set to the 
+         specified in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure is set to the 
          signaled state. Operations that take a significant amount of time to process return 
          <b>ERROR_IO_PENDING</b>.
 
 If this flag is specified, the file can be used for simultaneous read and write operations. The system does 
          not maintain the file pointer, therefore you must pass the file position to the read and write functions in 
-         the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure or update the file 
+         the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure or update the file 
          pointer.
 
 If this flag is not specified, then I/O operations are serialized, even if the calls to the read and write 
-         functions specify an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure.
+         functions specify an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 </td>
 </tr>

@@ -8,10 +8,10 @@ tech.root: SecCNG
 ms.assetid: 450225b8-87f2-4ce2-853d-e78cf64bd13d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_PROPERTY_REF, CRYPT_PROPERTY_REF, CRYPT_PROPERTY_REF structure [Security], PCRYPT_PROPERTY_REF, PCRYPT_PROPERTY_REF structure pointer [Security], bcrypt/CRYPT_PROPERTY_REF, bcrypt/PCRYPT_PROPERTY_REF, security.crypt_property_ref"
+ms.keywords: '*PCRYPT_PROPERTY_REF, CRYPT_PROPERTY_REF, CRYPT_PROPERTY_REF structure [Security], PCRYPT_PROPERTY_REF, PCRYPT_PROPERTY_REF structure pointer [Security], bcrypt/CRYPT_PROPERTY_REF, bcrypt/PCRYPT_PROPERTY_REF, security.crypt_property_ref'
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/CRYPT_PROPERTY_REF"
+f1_keywords:
+- bcrypt/CRYPT_PROPERTY_REF
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - CRYPT_PROPERTY_REF
+- CRYPT_PROPERTY_REF
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_PROPERTY_REF, *PCRYPT_PROPERTY_REF
@@ -83,7 +83,7 @@ A pointer to a memory buffer that contains the value of the property. The format
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_provider_ref">CRYPT_PROVIDER_REF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_ref">CRYPT_PROVIDER_REF</a>
  
 
  

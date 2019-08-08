@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLIsGenuineLocalEx, SLIsGenuineLocalEx function [Security], security.slisgenuinelocalex, slpublic/SLIsGenuineLocalEx
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLIsGenuineLocalEx"
+f1_keywords:
+- slpublic/SLIsGenuineLocalEx
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Slwga.lib
 req.dll: Slwga.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slwga.dll
+- Slwga.dll
 api_name:
- - SLIsGenuineLocalEx
+- SLIsGenuineLocalEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ If this parameter is not <b>NULL</b>, this function uses the value of this param
 
 ### -param pGenuineState [out]
 
-A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-_sl_genuine_state">SL_GENUINE_STATE</a> enumeration that specifies the state of the installation.  This function does not change the value of this parameter if the return value is any value other than <b>S_OK</b>.
+A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sl_genuine_state">SL_GENUINE_STATE</a> enumeration that specifies the state of the installation.  This function does not change the value of this parameter if the return value is any value other than <b>S_OK</b>.
 
 If this parameter is <b>NULL</b>, the function fails with a return value of <b>E_INVALIDARG</b>.
 

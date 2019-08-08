@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_DATA, WSMAN_DATA structure [Windows Remote Management], winrm.wsman_data, wsman/WSMAN_DATA
 ms.topic: struct
-f1_keywords: 
- - "wsman/WSMAN_DATA"
+f1_keywords:
+- wsman/WSMAN_DATA
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_DATA
+- WSMAN_DATA
 product: Windows
 targetos: Windows
 req.typenames: WSMAN_DATA
@@ -89,13 +89,13 @@ Contains the data.
 
 #### text
 
-If <b>type</b> is <b>WSMAN_DATA_TYPE_TEXT</b>,  <b>text</b> contains a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_data_text">WSMAN_DATA_TEXT</a> structure.
+If <b>type</b> is <b>WSMAN_DATA_TYPE_TEXT</b>,  <b>text</b> contains a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data_text">WSMAN_DATA_TEXT</a> structure.
 
 
 
 #### binaryData
 
-If <b>type</b> is <b>WSMAN_DATA_TYPE_XML_BINARY</b>, <b>binaryData</b> contains a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_data_binary">WSMAN_DATA_BINARY</a> structure.
+If <b>type</b> is <b>WSMAN_DATA_TYPE_XML_BINARY</b>, <b>binaryData</b> contains a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data_binary">WSMAN_DATA_BINARY</a> structure.
 
 
 

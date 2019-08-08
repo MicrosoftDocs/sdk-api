@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsReceiveMessage, WsReceiveMessage function [Web Services for Windows], webservices/WsReceiveMessage, wsw.wsreceivemessage
 ms.topic: function
-f1_keywords: 
- - "webservices/WsReceiveMessage"
+f1_keywords:
+- webservices/WsReceiveMessage
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsReceiveMessage
+- WsReceiveMessage
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -118,7 +118,7 @@ If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webser
                     this parameter is not touched.  In this case, the function returns <b>WS_S_END</b>.
                 (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
-If the bodyElementDescription of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_description">WS_MESSAGE_DESCRIPTION</a> that
+If the bodyElementDescription of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> that
                     matched is <b>NULL</b>, then this parameter is not touched.  In this case, the
                     parameter does not need to be specified.
                 
@@ -593,9 +593,9 @@ This function may return other errors not listed above.
 
 
 This function uses metadata about the expected message types in order to deserialize the body.  
-                The metadata is an array of of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_description">WS_MESSAGE_DESCRIPTION</a>s.
+                The metadata is an array of of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a>s.
                 Each message description contains an action value, which is used to match against
-                the action of the message, and an <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_element_description">WS_ELEMENT_DESCRIPTION</a>which provides the metadata for the body element.
+                the action of the message, and an <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a>which provides the metadata for the body element.
             
 
 When the message headers have been received, the function will scan the array
@@ -607,14 +607,14 @@ When the message headers have been received, the function will scan the array
             
 
 In order for a message description to match, the action value must match that of
-                the message exactly.  If the action in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_description">WS_MESSAGE_DESCRIPTION</a> 
+                the message exactly.  If the action in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> 
                 is <b>NULL</b>, then the action always matches.  This can be used in the case where there 
                 is no action header in the received message, or if the body is always the same no matter 
                 what the action is.
             
 
 If the body is expected to be empty, the bodyElementDescription field of the 
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_description">WS_MESSAGE_DESCRIPTION</a> may be <b>NULL</b>.
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> may be <b>NULL</b>.
             
 
 If the bodyElementDescription is non-<b>NULL</b>, then this function deserializes the 

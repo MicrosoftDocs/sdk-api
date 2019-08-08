@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Server, MI_Server structure [Windows Management Infrastructure (MI)], mi/MI_Server, wmi._mi_server, wmi_v2.mi_server
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_Server"
+f1_keywords:
+- mi/MI_Server
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Server
+- MI_Server
 product: Windows
 targetos: Windows
 req.typenames: MI_Server
@@ -67,20 +67,20 @@ Pointer to an <b>MI_Server</b> function table.
 
 ### -field contextFT
 
-Pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_context">MI_Context</a> function table.
+Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_context">MI_Context</a> function table.
 
 
 ### -field instanceFT
 
-Pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> function table.
+Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> function table.
 
 
 ### -field propertySetFT
 
-Pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_propertyset">MI_PropertySet</a> function table.
+Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_propertyset">MI_PropertySet</a> function table.
 
 
 ### -field filterFT
 
-Pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_filter">MI_Filter</a> function table.
+Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_filter">MI_Filter</a> function table.
 

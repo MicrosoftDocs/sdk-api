@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OFASI_EDIT, OFASI_OPENDESKTOP, SHOpenFolderAndSelectItems, SHOpenFolderAndSelectItems function [Windows Shell], shell.SHOpenFolderAndSelectItems, shell_SHOpenFolderAndSelectItems, shlobj_core/SHOpenFolderAndSelectItems
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHOpenFolderAndSelectItems"
+f1_keywords:
+- shlobj_core/SHOpenFolderAndSelectItems
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - SHOpenFolderAndSelectItems
+- SHOpenFolderAndSelectItems
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ A pointer to a fully qualified item ID list that specifies the folder.
 
 Type: <b>UINT</b>
 
-A count of items in the selection array, <i>apidl</i>. If <i>cidl</i> is zero, then <i>pidlFolder</i> must point to a fully specified <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> describing a single item to select. This function opens the parent folder and selects that item.
+A count of items in the selection array, <i>apidl</i>. If <i>cidl</i> is zero, then <i>pidlFolder</i> must point to a fully specified <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> describing a single item to select. This function opens the parent folder and selects that item.
 
 
 ### -param apidl [in, optional]

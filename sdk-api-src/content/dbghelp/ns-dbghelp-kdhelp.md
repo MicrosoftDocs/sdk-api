@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: da31c92c-0257-4ae2-8d69-ea8cd58adc10
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PKDHELP, KDHELP, KDHELP structure, KDHELP64, KDHELP64 structure, PKDHELP64, PKDHELP64 structure pointer, _KDHELP64, _win32_kdhelp64_str, base.kdhelp64_str, dbghelp/KDHELP64, dbghelp/PKDHELP64"
+ms.keywords: '*PKDHELP, KDHELP, KDHELP structure, KDHELP64, KDHELP64 structure, PKDHELP64, PKDHELP64 structure pointer, _KDHELP64, _win32_kdhelp64_str, base.kdhelp64_str, dbghelp/KDHELP64, dbghelp/PKDHELP64'
 ms.topic: struct
-f1_keywords: 
- - "dbghelp/KDHELP64"
+f1_keywords:
+- dbghelp/KDHELP64
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - KDHELP64
- - KDHELP
+- KDHELP64
+- KDHELP
 product: Windows
 targetos: Windows
 req.typenames: KDHELP, *PKDHELP
@@ -161,7 +161,7 @@ typedef struct _KDHELP {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagstackframe">STACKFRAME64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a>
  
 
  

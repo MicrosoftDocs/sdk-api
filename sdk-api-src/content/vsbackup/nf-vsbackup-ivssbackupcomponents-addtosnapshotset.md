@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddToSnapshotSet, AddToSnapshotSet method [VSS], AddToSnapshotSet method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddToSnapshotSet method, IVssBackupComponents.AddToSnapshotSet, IVssBackupComponents::AddToSnapshotSet, _win32_ivssbackupcomponents_addtosnapshotset, base.ivssbackupcomponents_addtosnapshotset, vsbackup/IVssBackupComponents::AddToSnapshotSet
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.AddToSnapshotSet"
+f1_keywords:
+- vsbackup/IVssBackupComponents.AddToSnapshotSet
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.AddToSnapshotSet
+- IVssBackupComponents.AddToSnapshotSet
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -361,7 +361,7 @@ The shadow copy identifier that is returned in the <i>pidSnapshot</i> parameter 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
  
 
  

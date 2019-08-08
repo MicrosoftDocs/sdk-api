@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHeader, GetHeader method [Internationalization for Windows Applications], GetHeader method [Internationalization for Windows Applications],IFEDictionary interface, IFED_ACTIVE_DICT, IFED_ATOK10, IFED_ATOK9, IFED_MSIME2_BIN_SYSTEM, IFED_MSIME2_BIN_USER, IFED_MSIME2_TEXT_USER, IFED_MSIME95_BIN_SYSTEM, IFED_MSIME95_BIN_USER, IFED_MSIME95_TEXT_USER, IFED_MSIME97_BIN_SYSTEM, IFED_MSIME97_BIN_USER, IFED_MSIME97_TEXT_USER, IFED_MSIME98_BIN_SYSTEM, IFED_MSIME98_BIN_USER, IFED_MSIME98_SYSTEM_CE, IFED_MSIME98_TEST_USER, IFED_MSIME_BIN_SYSTEM, IFED_MSIME_BIN_USER, IFED_MSIME_TEXT_USER, IFED_NEC_AI_, IFED_PIME2_BIN_STANDARD_SYSTEM, IFED_PIME2_BIN_SYSTEM, IFED_PIME2_BIN_USER, IFED_TYPE_ALL, IFED_TYPE_ENGLISH, IFED_TYPE_GENERAL, IFED_TYPE_NAMEPLACE, IFED_TYPE_NONE, IFED_TYPE_REVERSE, IFED_TYPE_SPEECH, IFED_UNKNOWN, IFED_VJE_20, IFED_WX_II, IFED_WX_III, IFEDictionary interface [Internationalization for Windows Applications],GetHeader method, IFEDictionary.GetHeader, IFEDictionary::GetHeader, intl.ifedictionary_getheader, msime/IFEDictionary::GetHeader
 ms.topic: method
-f1_keywords: 
- - "msime/IFEDictionary.GetHeader"
+f1_keywords:
+- msime/IFEDictionary.GetHeader
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msime.h
+- Msime.h
 api_name:
- - IFEDictionary.GetHeader
+- IFEDictionary.GetHeader
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A <b>NULL</b>-terminated string containing the path and name of the dictionary f
 
 ### -param pshf [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imeshf">IMESHF</a> header of the file. Can be <b>NULL</b>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a> header of the file. Can be <b>NULL</b>.
 
 
 ### -param pjfmt [out]
@@ -342,7 +342,7 @@ One of the following:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imeshf">IMESHF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a>
  
 
  

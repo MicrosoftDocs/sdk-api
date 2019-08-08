@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThemeIntList, GetThemeIntList function [Windows Controls], controls.GetThemeIntList, controls.inet_GetThemeIntList, inet_GetThemeIntList, inet_GetThemeIntList_cpp, uxtheme/GetThemeIntList
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeIntList"
+f1_keywords:
+- uxtheme/GetThemeIntList
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll (version 1.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - GetThemeIntList
+- GetThemeIntList
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -89,9 +89,9 @@ Value of type <b>int</b> that specifies the property to retrieve. See <a href="h
 
 ### -param pIntList [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-_intlist">INTLIST</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-intlist">INTLIST</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-_intlist">INTLIST</a> structure that receives the <b>int</b> data.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-intlist">INTLIST</a> structure that receives the <b>int</b> data.
 
 
 ## -returns
@@ -110,7 +110,7 @@ Returns S_OK if successful, otherwise an error code.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-_intlist">INTLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-intlist">INTLIST</a>
  
 
  

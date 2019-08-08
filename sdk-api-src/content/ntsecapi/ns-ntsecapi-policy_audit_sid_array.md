@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: 22f4255c-331a-4327-84d8-e905c7e419b6
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPOLICY_AUDIT_SID_ARRAY, POLICY_AUDIT_SID_ARRAY, POLICY_AUDIT_SID_ARRAY structure [Security], PPOLICY_AUDIT_SID_ARRAY, PPOLICY_AUDIT_SID_ARRAY structure pointer [Security], ntsecapi/POLICY_AUDIT_SID_ARRAY, ntsecapi/PPOLICY_AUDIT_SID_ARRAY, security.policy_audit_sid_array"
+ms.keywords: '*PPOLICY_AUDIT_SID_ARRAY, POLICY_AUDIT_SID_ARRAY, POLICY_AUDIT_SID_ARRAY structure [Security], PPOLICY_AUDIT_SID_ARRAY, PPOLICY_AUDIT_SID_ARRAY structure pointer [Security], ntsecapi/POLICY_AUDIT_SID_ARRAY, ntsecapi/PPOLICY_AUDIT_SID_ARRAY, security.policy_audit_sid_array'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/POLICY_AUDIT_SID_ARRAY"
+f1_keywords:
+- ntsecapi/POLICY_AUDIT_SID_ARRAY
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - POLICY_AUDIT_SID_ARRAY
+- POLICY_AUDIT_SID_ARRAY
 product: Windows
 targetos: Windows
 req.typenames: POLICY_AUDIT_SID_ARRAY, *PPOLICY_AUDIT_SID_ARRAY
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>POLICY_AUDIT_SID_ARRAY</b> structure specifies an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structures that represent Windows users or groups.
+The <b>POLICY_AUDIT_SID_ARRAY</b> structure specifies an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures that represent Windows users or groups.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ The <b>POLICY_AUDIT_SID_ARRAY</b> structure specifies an array of <a href="https
 
 ### -field UsersCount
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structures in the <b>UserSidArray</b> array.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures in the <b>UserSidArray</b> array.
 
 
 ### -field UserSidArray.size_is
@@ -76,7 +76,7 @@ The number of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-w
 
 ### -field UserSidArray
 
-A pointer to an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structures that specify Windows users or groups.
+A pointer to an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures that specify Windows users or groups.
 
 
 ## -see-also
@@ -88,7 +88,7 @@ A pointer to an array of pointers to <a href="https://docs.microsoft.com/windows
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
  
 
  

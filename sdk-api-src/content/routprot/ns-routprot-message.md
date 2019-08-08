@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 94f3069f-c282-4dea-84f9-48645f4e1593
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMESSAGE, MESSAGE, MESSAGE structure [RAS], PMESSAGE, PMESSAGE structure pointer [RAS], _MESSAGE, _mpr_message, routprot/MESSAGE, routprot/PMESSAGE, rras.message"
+ms.keywords: '*PMESSAGE, MESSAGE, MESSAGE structure [RAS], PMESSAGE, PMESSAGE structure pointer [RAS], _MESSAGE, _mpr_message, routprot/MESSAGE, routprot/PMESSAGE, rras.message'
 ms.topic: struct
-f1_keywords: 
- - "routprot/MESSAGE"
+f1_keywords:
+- routprot/MESSAGE
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Routprot.h
+- Routprot.h
 api_name:
- - MESSAGE
+- MESSAGE
 product: Windows
 targetos: Windows
 req.typenames: MESSAGE, *PMESSAGE
@@ -95,7 +95,7 @@ Identifies the interface associated with a SAVE_INTERFACE_CONFIG_INFO event.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_update_complete_message">UPDATE_COMPLETE_MESSAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-update_complete_message">UPDATE_COMPLETE_MESSAGE</a>
  
 
  

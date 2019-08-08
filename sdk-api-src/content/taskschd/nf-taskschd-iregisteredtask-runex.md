@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],RunEx method, IRegisteredTask.RunEx, IRegisteredTask::RunEx, RunEx, RunEx method [Task Scheduler], RunEx method [Task Scheduler],IRegisteredTask interface, taskschd.iregisteredtask_runex, taskschd/IRegisteredTask::RunEx
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRegisteredTask.RunEx"
+f1_keywords:
+- taskschd/IRegisteredTask.RunEx
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegisteredTask.RunEx
+- IRegisteredTask.RunEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ For more information and a list of action properties that can use $(Arg0), $(Arg
 
 ### -param flags [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-_task_run_flags">TASK_RUN_FLAGS</a> constant that defines how the task is run.
+A <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-task_run_flags">TASK_RUN_FLAGS</a> constant that defines how the task is run.
 
 
 ### -param sessionID [in]

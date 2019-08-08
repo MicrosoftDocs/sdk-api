@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 0736ab5b-a475-4593-a15e-970b5d4c64d0
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMSV1_0_LM20_LOGON, MSV1_0_ALLOW_MSVCHAPV2, MSV1_0_ALLOW_SERVER_TRUST_ACCOUNT, MSV1_0_ALLOW_WORKSTATION_TRUST_ACCOUNT, MSV1_0_CHECK_LOGONHOURS_FOR_S4U, MSV1_0_CLEARTEXT_PASSWORD_ALLOWED, MSV1_0_CLEARTEXT_PASSWORD_SUPPLIED, MSV1_0_DONT_TRY_GUEST_ACCOUNT, MSV1_0_INTERNET_DOMAIN, MSV1_0_LM20_LOGON, MSV1_0_LM20_LOGON structure [Security], MSV1_0_RETURN_PASSWORD_EXPIRY, MSV1_0_RETURN_PROFILE_PATH, MSV1_0_RETURN_USER_PARAMETERS, MSV1_0_S4U2SELF, MSV1_0_TRY_GUEST_ACCOUNT_ONLY, MSV1_0_TRY_SPECIFIED_DOMAIN_ONLY, MSV1_0_UPDATE_LOGON_STATISTICS, MSV1_0_USE_CLIENT_CHALLENGE, MSV1_0_USE_DOMAIN_FOR_ROUTING_ONLY, PMSV1_0_LM20_LOGON, PMSV1_0_LM20_LOGON structure pointer [Security], _lsa_msv1_0_lm20_logon, ntsecapi/MSV1_0_LM20_LOGON, ntsecapi/PMSV1_0_LM20_LOGON, security.msv1_0_lm20_logon"
+ms.keywords: '*PMSV1_0_LM20_LOGON, MSV1_0_ALLOW_MSVCHAPV2, MSV1_0_ALLOW_SERVER_TRUST_ACCOUNT, MSV1_0_ALLOW_WORKSTATION_TRUST_ACCOUNT, MSV1_0_CHECK_LOGONHOURS_FOR_S4U, MSV1_0_CLEARTEXT_PASSWORD_ALLOWED, MSV1_0_CLEARTEXT_PASSWORD_SUPPLIED, MSV1_0_DONT_TRY_GUEST_ACCOUNT, MSV1_0_INTERNET_DOMAIN, MSV1_0_LM20_LOGON, MSV1_0_LM20_LOGON structure [Security], MSV1_0_RETURN_PASSWORD_EXPIRY, MSV1_0_RETURN_PROFILE_PATH, MSV1_0_RETURN_USER_PARAMETERS, MSV1_0_S4U2SELF, MSV1_0_TRY_GUEST_ACCOUNT_ONLY, MSV1_0_TRY_SPECIFIED_DOMAIN_ONLY, MSV1_0_UPDATE_LOGON_STATISTICS, MSV1_0_USE_CLIENT_CHALLENGE, MSV1_0_USE_DOMAIN_FOR_ROUTING_ONLY, PMSV1_0_LM20_LOGON, PMSV1_0_LM20_LOGON structure pointer [Security], _lsa_msv1_0_lm20_logon, ntsecapi/MSV1_0_LM20_LOGON, ntsecapi/PMSV1_0_LM20_LOGON, security.msv1_0_lm20_logon'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/MSV1_0_LM20_LOGON"
+f1_keywords:
+- ntsecapi/MSV1_0_LM20_LOGON
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - MSV1_0_LM20_LOGON
+- MSV1_0_LM20_LOGON
 product: Windows
 targetos: Windows
 req.typenames: MSV1_0_LM20_LOGON, *PMSV1_0_LM20_LOGON
@@ -64,7 +64,7 @@ It is used by
 
 ### -field MessageType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_msv1_0_logon_submit_type">MSV1_0_LOGON_SUBMIT_TYPE</a> value that specifies the type of logon being requested. This member must be set to <b>MsV1_0Lm20Logon</b> or <b>MsV1_0NetworkLogon</b>. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_logon_submit_type">MSV1_0_LOGON_SUBMIT_TYPE</a> value that specifies the type of logon being requested. This member must be set to <b>MsV1_0Lm20Logon</b> or <b>MsV1_0NetworkLogon</b>. 
 
 
 
@@ -74,24 +74,24 @@ If this member is set to <b>MsV1_0Lm20Logon</b>, the MSV1_0 package ignores the 
 
 ### -field LogonDomainName
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> that contains the name of the logon domain. The specified domain name must be a Windows domain (or mixed domain) that is in the trusted domain list of this computer. If the logon domain name is not known (for example, for clients that do not supply this information), this member should be passed in as a zero-length string. This domain is the authenticating authority.
+A <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that contains the name of the logon domain. The specified domain name must be a Windows domain (or mixed domain) that is in the trusted domain list of this computer. If the logon domain name is not known (for example, for clients that do not supply this information), this member should be passed in as a zero-length string. This domain is the authenticating authority.
 
 
 ### -field UserName
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> that represents the account name of the user. The name can be up to 255 bytes long. The name is treated as case insensitive.
+A <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that represents the account name of the user. The name can be up to 255 bytes long. The name is treated as case insensitive.
 
 
 ### -field Workstation
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> that contains the computer name of the client workstation from which the user logon request was initiated.
+A <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that contains the computer name of the client workstation from which the user logon request was initiated.
 
 
 ### -field ChallengeToClient
 
 Contains the challenge returned from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>, when <b>MsV1_0Lm20ChallengeRequest</b> was specified as the message type. For more information, see the description of <b>MsV1_0Lm20ChallengeRequest</b> in 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a>. This enables the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">authentication package</a> to determine whether the challenge response is correct.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a>. This enables the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">authentication package</a> to determine whether the challenge response is correct.
 
 
 ### -field CaseSensitiveChallengeResponse
@@ -156,7 +156,7 @@ Update the logon statistics for the account. If this flag is not set, the bad pa
 </td>
 <td width="60%">
 If this flag is specified, the <b>UserParameters</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_msv1_0_lm20_logon_profile">MSV1_0_LM20_LOGON_PROFILE</a> return buffer is valid.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_lm20_logon_profile">MSV1_0_LM20_LOGON_PROFILE</a> return buffer is valid.
 
 </td>
 </tr>
@@ -189,7 +189,7 @@ If this flag is set, domain controller accounts can be used for authentication; 
 </dl>
 </td>
 <td width="60%">
-Causes the password expiration time to be returned in the <b>LogoffTime</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_msv1_0_lm20_logon_profile">MSV1_0_LM20_LOGON_PROFILE</a> structure returned in the output buffer.
+Causes the password expiration time to be returned in the <b>LogoffTime</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_lm20_logon_profile">MSV1_0_LM20_LOGON_PROFILE</a> structure returned in the output buffer.
 
 </td>
 </tr>
@@ -355,15 +355,15 @@ If the <b>UserName</b>, <b>CaseSensitiveChallengeResponse</b>, and <b>CaseInsens
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_msv1_0_lm20_logon_profile">MSV1_0_LM20_LOGON_PROFILE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_lm20_logon_profile">MSV1_0_LM20_LOGON_PROFILE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_msv1_0_logon_submit_type">MSV1_0_LOGON_SUBMIT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_logon_submit_type">MSV1_0_LOGON_SUBMIT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a>
  
 
  

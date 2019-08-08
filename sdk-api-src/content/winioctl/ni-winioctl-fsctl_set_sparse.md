@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_SPARSE, FSCTL_SET_SPARSE control, FSCTL_SET_SPARSE control code [Files], _win32_fsctl_set_sparse, base.fsctl_set_sparse, fs.fsctl_set_sparse, winioctl/FSCTL_SET_SPARSE
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_SET_SPARSE"
+f1_keywords:
+- winioctl/FSCTL_SET_SPARSE
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_SET_SPARSE
+- FSCTL_SET_SPARSE
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -162,10 +162,10 @@ The <b>FSCTL_SET_SPARSE</b> control code sets or clears the
 
 If the <i>lpInBuffer</i> parameter is <b>NULL</b>, the operation will 
      behave the same as if the <b>SetSparse</b> member of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_set_sparse_buffer">FILE_SET_SPARSE_BUFFER</a> structure were 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_set_sparse_buffer">FILE_SET_SPARSE_BUFFER</a> structure were 
      <b>TRUE</b>. In other words, the operation sets the file to a sparse file.
 
-<b>Windows Server 2003 and Windows XP:  </b>If a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_set_sparse_buffer">FILE_SET_SPARSE_BUFFER</a> structure is 
+<b>Windows Server 2003 and Windows XP:  </b>If a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_set_sparse_buffer">FILE_SET_SPARSE_BUFFER</a> structure is 
       passed in the <i>lpInBuffer</i> parameter, the only valid value for the 
       <b>SetSparse</b> member is <b>TRUE</b>, which sets the file to a sparse 
       file. Passing <b>FALSE</b> in the 
@@ -259,7 +259,7 @@ CsvFs will do redirected IO for sparse files. CsvFs allows making file sparse on
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_set_sparse_buffer">FILE_SET_SPARSE_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_set_sparse_buffer">FILE_SET_SPARSE_BUFFER</a>
 
 
 

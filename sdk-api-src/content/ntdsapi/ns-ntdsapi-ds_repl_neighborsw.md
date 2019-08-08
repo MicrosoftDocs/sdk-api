@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_NEIGHBORS, DS_REPL_NEIGHBORS structure [Active Directory], DS_REPL_NEIGHBORSW, _DS_REPL_NEIGHBORSW, _glines_ds_repl_neighbors, ad.ds__repl__neighbors, ad.ds_repl_neighbors, ntdsapi/DS_REPL_NEIGHBORS
 ms.topic: struct
-f1_keywords: 
- - "ntdsapi/DS_REPL_NEIGHBORS"
+f1_keywords:
+- ntdsapi/DS_REPL_NEIGHBORS
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntdsapi.h
+- Ntdsapi.h
 api_name:
- - DS_REPL_NEIGHBORS
+- DS_REPL_NEIGHBORS
 product: Windows
 targetos: Windows
 req.typenames: DS_REPL_NEIGHBORSW
@@ -81,7 +81,7 @@ Reserved for future use.
 
 ### -field rgNeighbor
 
-Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_neighborw">DS_REPL_NEIGHBOR</a> structures that contain the requested replication data. The <b>cNumNeighbors</b> member contains the number of elements in this array.
+Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_neighborw">DS_REPL_NEIGHBOR</a> structures that contain the requested replication data. The <b>cNumNeighbors</b> member contains the number of elements in this array.
 
 
 ## -see-also
@@ -89,7 +89,7 @@ Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntd
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_neighborw">DS_REPL_NEIGHBOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_neighborw">DS_REPL_NEIGHBOR</a>
 
 
 

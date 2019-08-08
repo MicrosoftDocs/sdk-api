@@ -7,8 +7,8 @@ ms.author: windowssdkdev
 ms.date: 01/31/19
 ms.keywords: WICHeifHdrProperties
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICHeifHdrProperties"
+f1_keywords:
+- wincodec/WICHeifHdrProperties
 targetos: Windows
 product: Windows
 req.construct-type: enumeration
@@ -23,13 +23,13 @@ req.target-type: Windows
 req.typenames: 
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wincodec.h
+- wincodec.h
 api_name:
- - WICHeifHdrProperties
+- WICHeifHdrProperties
 ms.custom: 19H1
 ---
 
@@ -56,7 +56,7 @@ Specifies the HDR properties of a High Efficiency Image Format (HEIF) image.
 
 ### -field WICHeifHdrCustomVideoPrimaries
 
-[VT_BLOB] Specifies custom color primaries for a video media type. The value of this property is a [MT_CUSTOM_VIDEO_PRIMARIES](https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-_mt_custom_video_primaries)structure, returned as an array of bytes (VT_BLOB).
+[VT_BLOB] Specifies custom color primaries for a video media type. The value of this property is a [MT_CUSTOM_VIDEO_PRIMARIES](https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-mt_custom_video_primaries)structure, returned as an array of bytes (VT_BLOB).
 
 ### -field WICHeifHdrProperties_FORCE_DWORD
 

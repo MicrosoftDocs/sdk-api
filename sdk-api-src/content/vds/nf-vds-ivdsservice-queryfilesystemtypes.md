@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],QueryFileSystemTypes method, IVdsService.QueryFileSystemTypes, IVdsService::QueryFileSystemTypes, QueryFileSystemTypes, QueryFileSystemTypes method [VDS], QueryFileSystemTypes method [VDS],IVdsService interface, base.ivdsservice_queryfilesystemtypes, vds/IVdsService::QueryFileSystemTypes
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsService.QueryFileSystemTypes"
+f1_keywords:
+- vds/IVdsService.QueryFileSystemTypes
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsService.QueryFileSystemTypes
+- IVdsService.QueryFileSystemTypes
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Returns property details for all file systems known to VDS.
 ### -param ppFileSystemTypeProps [out]
 
 The address of a pointer to a buffer holding an array of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_file_system_type_prop">VDS_FILE_SYSTEM_TYPE_PROP</a> structures. 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_file_system_type_prop">VDS_FILE_SYSTEM_TYPE_PROP</a> structures. 
       Callers must free the memory for the array and for the <b>pwszIllegalLabelCharSet</b> string 
       by using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
@@ -126,7 +126,7 @@ VDS failed to initialize. If an application calls this method before the service
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_file_system_type_prop">VDS_FILE_SYSTEM_TYPE_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_file_system_type_prop">VDS_FILE_SYSTEM_TYPE_PROP</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: BC6C85D6-D123-44D6-BFE4-3073EC51B7EA
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_IP_RANGE_ARRAY, *PDHCP_IP_RANGE_ARRAY, DHCP_IP_RANGE_ARRAY, DHCP_IP_RANGE_ARRAY structure [DHCP], LPDHCP_IP_RANGE_ARRAY, LPDHCP_IP_RANGE_ARRAY structure pointer [DHCP], PDHCP_IP_RANGE_ARRAY, PDHCP_IP_RANGE_ARRAY structure pointer [DHCP], dhcp.dhcp_ip_range_array, dhcpsapi/DHCP_IP_RANGE_ARRAY, dhcpsapi/LPDHCP_IP_RANGE_ARRAY, dhcpsapi/PDHCP_IP_RANGE_ARRAY"
+ms.keywords: '*LPDHCP_IP_RANGE_ARRAY, *PDHCP_IP_RANGE_ARRAY, DHCP_IP_RANGE_ARRAY, DHCP_IP_RANGE_ARRAY structure [DHCP], LPDHCP_IP_RANGE_ARRAY, LPDHCP_IP_RANGE_ARRAY structure pointer [DHCP], PDHCP_IP_RANGE_ARRAY, PDHCP_IP_RANGE_ARRAY structure pointer [DHCP], dhcp.dhcp_ip_range_array, dhcpsapi/DHCP_IP_RANGE_ARRAY, dhcpsapi/LPDHCP_IP_RANGE_ARRAY, dhcpsapi/PDHCP_IP_RANGE_ARRAY'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_IP_RANGE_ARRAY"
+f1_keywords:
+- dhcpsapi/DHCP_IP_RANGE_ARRAY
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dhcpsapi.h
+- dhcpsapi.h
 api_name:
- - DHCP_IP_RANGE_ARRAY
+- DHCP_IP_RANGE_ARRAY
 product: Windows
 targetos: Windows
 req.typenames: DHCP_IP_RANGE_ARRAY, *PDHCP_IP_RANGE_ARRAY, *LPDHCP_IP_RANGE_ARRAY
@@ -66,7 +66,7 @@ Integer that specifies the number of DHCP IPv4 ranges in <b>Elements.</b>
 
 ### -field Elements
 
-Pointer to a list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_range">DHCP_IP_RANGE</a>  structures.
+Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_range">DHCP_IP_RANGE</a>  structures.
 
 
 ### -field Elements.size_is
@@ -86,7 +86,7 @@ Pointer to a list of <a href="https://docs.microsoft.com/previous-versions/windo
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_policy">DHCP_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_policy">DHCP_POLICY</a>
  
 
  

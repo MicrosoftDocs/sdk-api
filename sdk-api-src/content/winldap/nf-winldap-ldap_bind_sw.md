@@ -8,10 +8,10 @@ tech.root: ldap
 ms.assetid: 67d30a7b-2f42-4e1a-8c59-5ba22ed3fad4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_bind_s, ldap.ldap__bind__s, ldap.ldap_bind_s, ldap_bind_s, ldap_bind_s function [LDAP], ldap_bind_sA, ldap_bind_sW, winldap/ldap_bind_s, winldap/ldap_bind_sA, winldap/ldap_bind_sW"
+ms.keywords: _ldap_ldap_bind_s, ldap.ldap__bind__s, ldap.ldap_bind_s, ldap_bind_s, ldap_bind_s function [LDAP], ldap_bind_sA, ldap_bind_sW, winldap/ldap_bind_s, winldap/ldap_bind_sA, winldap/ldap_bind_sW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_bind_s"
+f1_keywords:
+- winldap/ldap_bind_s
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_bind_s
- - ldap_bind_sA
- - ldap_bind_sW
+- ldap_bind_s
+- ldap_bind_sA
+- ldap_bind_sW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -131,7 +131,7 @@ Digest authentication package.
 </td>
 <td>
 To log in as the current user, set the <i>dn</i> and <i>cred</i> parameters to <b>NULL</b>. To log in as another user, set the <i>dn</i> parameter to <b>NULL</b> and the <i>cred</i> parameter to  a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure with the appropriate user name, domain name, and password.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure with the appropriate user name, domain name, and password.
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ Distributed password authentication. Used by Microsoft Membership System.
 </td>
 <td>
 To log in as the current user, set the <i>dn</i> and <i>cred</i> parameters to <b>NULL</b>. To log in as another user, set the <i>dn</i> parameter to <b>NULL</b> and the <i>cred</i> parameter to  a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure with the appropriate user name, domain name, and password.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure with the appropriate user name, domain name, and password.
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ Microsoft Network Authentication Service.
 </td>
 <td>
 To log in as the current user, set the <i>dn</i> and <i>cred</i> parameters to <b>NULL</b>. To log in as another user, set the <i>dn</i> parameter to <b>NULL</b> and the <i>cred</i> parameter to  a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure with the appropriate user name, domain name, and password.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure with the appropriate user name, domain name, and password.
 
 </td>
 </tr>
@@ -167,7 +167,7 @@ Generic security services (GSS) (Snego). Does not provide authentication, but in
 </td>
 <td>
 To log in as the current user, set the <i>dn</i> and <i>cred</i> parameters to <b>NULL</b>. To log in as another user, set the <i>dn</i> parameter to <b>NULL</b> and the <i>cred</i> parameter to  a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> or <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_exa">SEC_WINNT_AUTH_IDENTITY_EX</a> structure with the appropriate user name, domain name, and password.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> or <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_exa">SEC_WINNT_AUTH_IDENTITY_EX</a> structure with the appropriate user name, domain name, and password.
 
 </td>
 </tr>
@@ -179,7 +179,7 @@ NT LAN Manager
 </td>
 <td>
 To log in as the current user, set the <i>dn</i> and <i>cred</i> parameters to <b>NULL</b>. To log in as another user, set the <i>dn</i> parameter to <b>NULL</b> and the <i>cred</i> parameter to  a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> or <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_exa">SEC_WINNT_AUTH_IDENTITY_EX</a> structure with the appropriate user name, domain name, and password.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> or <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_exa">SEC_WINNT_AUTH_IDENTITY_EX</a> structure with the appropriate user name, domain name, and password.
 
 </td>
 </tr>
@@ -191,7 +191,7 @@ Covers package negotiation to MSN servers.
 </td>
 <td>
 To log in as the current user, set the <i>dn</i> and <i>cred</i> parameters to <b>NULL</b>. To log in as another user, set the <i>dn</i> parameter to <b>NULL</b> and the <i>cred</i> parameter to  a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure with the appropriate user name, domain name, and password.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure with the appropriate user name, domain name, and password.
 
 </td>
 </tr>
@@ -244,7 +244,7 @@ When all of the operations on the session handle are completed, the session must
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a>
 
 
 

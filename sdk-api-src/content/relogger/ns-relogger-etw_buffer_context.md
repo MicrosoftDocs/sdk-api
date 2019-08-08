@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: 75577305-fb3f-40a2-8fe6-9cd82c3f4e69
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PETW_BUFFER_CONTEXT, ETW_BUFFER_CONTEXT, ETW_BUFFER_CONTEXT structure [ETW], PETW_BUFFER_CONTEXT, PETW_BUFFER_CONTEXT structure pointer [ETW], _ETW_BUFFER_CONTEXT, base.etw_buffer_context, etw.etw_buffer_context, relogger/ETW_BUFFER_CONTEXT, relogger/PETW_BUFFER_CONTEXT"
+ms.keywords: '*PETW_BUFFER_CONTEXT, ETW_BUFFER_CONTEXT, ETW_BUFFER_CONTEXT structure [ETW], PETW_BUFFER_CONTEXT, PETW_BUFFER_CONTEXT structure pointer [ETW], _ETW_BUFFER_CONTEXT, base.etw_buffer_context, etw.etw_buffer_context, relogger/ETW_BUFFER_CONTEXT, relogger/PETW_BUFFER_CONTEXT'
 ms.topic: struct
-f1_keywords: 
- - "relogger/ETW_BUFFER_CONTEXT"
+f1_keywords:
+- relogger/ETW_BUFFER_CONTEXT
 req.header: relogger.h
 req.include-header: Evntrace.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - relogger.h
+- relogger.h
 api_name:
- - ETW_BUFFER_CONTEXT
+- ETW_BUFFER_CONTEXT
 product: Windows
 targetos: Windows
 req.typenames: ETW_BUFFER_CONTEXT, *PETW_BUFFER_CONTEXT
@@ -94,7 +94,7 @@ Identifier of the session that logged the event.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a>
  
 
  

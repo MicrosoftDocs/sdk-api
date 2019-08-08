@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BLUETOOTH_SELECT_DEVICE_PARAMS, BLUETOOTH_SELECT_DEVICE_PARAMS structure [Bluetooth], _bth_bluetooth_select_device_params, bluetooth.bluetooth_select_device_params, bluetoothapis/BLUETOOTH_SELECT_DEVICE_PARAMS
 ms.topic: struct
-f1_keywords: 
- - "bluetoothapis/BLUETOOTH_SELECT_DEVICE_PARAMS"
+f1_keywords:
+- bluetoothapis/BLUETOOTH_SELECT_DEVICE_PARAMS
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - BluetoothAPIs.h
+- BluetoothAPIs.h
 api_name:
- - BLUETOOTH_SELECT_DEVICE_PARAMS
+- BLUETOOTH_SELECT_DEVICE_PARAMS
 product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_SELECT_DEVICE_PARAMS
@@ -153,7 +153,7 @@ To free the array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_cod_pairs">BLUETOOTH_COD_PAIRS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-bluetooth_cod_pairs">BLUETOOTH_COD_PAIRS</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateAudioMediaTypeFromUncompressedAudioFormat, CreateAudioMediaTypeFromUncompressedAudioFormat function [Audio Devices], audio.createaudiomediatypefromuncompressedaudioformat, audio_syseffects_r_af85b8fb-5bdc-41f6-af2f-ee84ca999ac9.xml, audiomediatype/CreateAudioMediaTypeFromUncompressedAudioFormat
 ms.topic: function
-f1_keywords: 
- - "audiomediatype/CreateAudioMediaTypeFromUncompressedAudioFormat"
+f1_keywords:
+- audiomediatype/CreateAudioMediaTypeFromUncompressedAudioFormat
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: N/A
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - audiomediatype.h
+- audiomediatype.h
 api_name:
- - CreateAudioMediaTypeFromUncompressedAudioFormat
+- CreateAudioMediaTypeFromUncompressedAudioFormat
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <code>CreateAudioMediaTypeFromUncompressedAudioFormat</code> function uses the information provided in the <a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/ns-audiomediatype-_uncompressedaudioformat">UNCOMPRESSEDAUDIOFORMAT</a> structure to create a media type object that describes the audio format.
+The <code>CreateAudioMediaTypeFromUncompressedAudioFormat</code> function uses the information provided in the <a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/ns-audiomediatype-uncompressedaudioformat">UNCOMPRESSEDAUDIOFORMAT</a> structure to create a media type object that describes the audio format.
 
 
 ## -parameters
@@ -100,7 +100,7 @@ When you implement custom audio system effects, the <code>CreateAudioMediaTypeFr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/ns-audiomediatype-_uncompressedaudioformat">UNCOMPRESSEDAUDIOFORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/ns-audiomediatype-uncompressedaudioformat">UNCOMPRESSEDAUDIOFORMAT</a>
  
 
  

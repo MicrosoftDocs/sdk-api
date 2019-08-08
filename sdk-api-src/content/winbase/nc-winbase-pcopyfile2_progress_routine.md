@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyFile2ProgressRoutine, CopyFile2ProgressRoutine callback function [Files], PCOPYFILE2_PROGRESS_ROUTINE, PCOPYFILE2_PROGRESS_ROUTINE callback, fs.copyfile2progressroutine, winbase/CopyFile2ProgressRoutine, winbase/PCOPYFILE2_PROGRESS_ROUTINE
 ms.topic: callback
-f1_keywords: 
- - "winbase/CopyFile2ProgressRoutine"
+f1_keywords:
+- winbase/CopyFile2ProgressRoutine
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - CopyFile2ProgressRoutine
- - PCOPYFILE2_PROGRESS_ROUTINE
+- CopyFile2ProgressRoutine
+- PCOPYFILE2_PROGRESS_ROUTINE
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -81,7 +81,7 @@ Copy of value passed in the <b>pvCallbackContext</b> member of the
 
 
 
-Value from the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-_copyfile2_message_action">COPYFILE2_MESSAGE_ACTION</a> 
+Value from the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-copyfile2_message_action">COPYFILE2_MESSAGE_ACTION</a> 
       enumeration indicating what action should be taken.
 
 <table>

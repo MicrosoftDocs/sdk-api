@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE, WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE structure [Web Services for Windows], webservices/WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE, wsw.ws_ncrypt_asymmetric_security_key_handle
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE"
+f1_keywords:
+- webservices/WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE
+- WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE
 product: Windows
 targetos: Windows
 req.typenames: WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE
@@ -57,7 +57,7 @@ NCRYPT_KEY_HANDLE.
 
 When this structure is used in an API (such as with
  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatexmlsecuritytoken">XML token creation</a>) and subsequent
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_token_message_security_binding">use of that XML
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_token_message_security_binding">use of that XML
 token</a> for a channel), the application is responsible for making
 sure that the NCRYPT_KEY_HANDLE remains valid as long as the key is in
 use.  The application is also responsible for freeing the handle when

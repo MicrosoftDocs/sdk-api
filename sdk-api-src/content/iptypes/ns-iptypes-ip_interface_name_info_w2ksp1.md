@@ -8,10 +8,10 @@ tech.root: IpHlp
 ms.assetid: c113e97d-6f41-490a-a872-20d662fd763b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PIP_INTERFACE_NAME_INFO, *PIP_INTERFACE_NAME_INFO_W2KSP1, IF_ACCESS_BROADCAST, IF_ACCESS_LOOPBACK, IF_ACCESS_POINT_TO_MULTI_POINT, IF_ACCESS_POINT_TO_POINT, IF_CONNECTION_DEDICATED, IF_CONNECTION_DEMAND, IF_CONNECTION_PASSIVE, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, IP_INTERFACE_NAME_INFO, IP_INTERFACE_NAME_INFO structure [IP Helper], IP_INTERFACE_NAME_INFO_W2KSP1, iphlp.ip_interface_name_info, iptypes/IP_INTERFACE_NAME_INFO"
+ms.keywords: '*PIP_INTERFACE_NAME_INFO, *PIP_INTERFACE_NAME_INFO_W2KSP1, IF_ACCESS_BROADCAST, IF_ACCESS_LOOPBACK, IF_ACCESS_POINT_TO_MULTI_POINT, IF_ACCESS_POINT_TO_POINT, IF_CONNECTION_DEDICATED, IF_CONNECTION_DEMAND, IF_CONNECTION_PASSIVE, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, IP_INTERFACE_NAME_INFO, IP_INTERFACE_NAME_INFO structure [IP Helper], IP_INTERFACE_NAME_INFO_W2KSP1, iphlp.ip_interface_name_info, iptypes/IP_INTERFACE_NAME_INFO'
 ms.topic: struct
-f1_keywords: 
- - "iptypes/IP_INTERFACE_NAME_INFO"
+f1_keywords:
+- iptypes/IP_INTERFACE_NAME_INFO
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iptypes.h
+- Iptypes.h
 api_name:
- - IP_INTERFACE_NAME_INFO
+- IP_INTERFACE_NAME_INFO
 product: Windows
 targetos: Windows
 req.typenames: IP_INTERFACE_NAME_INFO_W2KSP1, *PIP_INTERFACE_NAME_INFO_W2KSP1
@@ -244,7 +244,7 @@ The connection type is demand-dial. A connection of this type comes up in respon
 
 Type: <b>UCHAR</b>
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_access_type">IF_ACCESS_TYPE</a> enumeration that specifies the access type for the interface.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-net_if_access_type">IF_ACCESS_TYPE</a> enumeration that specifies the access type for the interface.
 
 
 <b>Windows Server 2003, Windows 2000 Server with SP1 and Windows XP/2000:  </b>The possible values for this member are defined in the Ipifcons.h header file.

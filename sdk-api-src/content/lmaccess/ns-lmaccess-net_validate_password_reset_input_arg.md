@@ -8,10 +8,10 @@ tech.root: NetMgmt
 ms.assetid: 3a6d4c2d-0d90-48bf-9dfa-2ba587538350
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG, NET_VALIDATE_PASSWORD_RESET_INPUT_ARG, NET_VALIDATE_PASSWORD_RESET_INPUT_ARG structure [Network Management], PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG, PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG structure pointer [Network Management], lmaccess/NET_VALIDATE_PASSWORD_RESET_INPUT_ARG, lmaccess/PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG, netmgmt.net_validate_password_reset_input_arg"
+ms.keywords: '*PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG, NET_VALIDATE_PASSWORD_RESET_INPUT_ARG, NET_VALIDATE_PASSWORD_RESET_INPUT_ARG structure [Network Management], PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG, PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG structure pointer [Network Management], lmaccess/NET_VALIDATE_PASSWORD_RESET_INPUT_ARG, lmaccess/PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG, netmgmt.net_validate_password_reset_input_arg'
 ms.topic: struct
-f1_keywords: 
- - "lmaccess/NET_VALIDATE_PASSWORD_RESET_INPUT_ARG"
+f1_keywords:
+- lmaccess/NET_VALIDATE_PASSWORD_RESET_INPUT_ARG
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmaccess.h
+- Lmaccess.h
 api_name:
- - NET_VALIDATE_PASSWORD_RESET_INPUT_ARG
+- NET_VALIDATE_PASSWORD_RESET_INPUT_ARG
 product: Windows
 targetos: Windows
 req.typenames: NET_VALIDATE_PASSWORD_RESET_INPUT_ARG, *PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG
@@ -61,7 +61,7 @@ A client application passes the <b>NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</b> str
 
 ### -field InputPersistedFields
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_validate_persisted_fields">NET_VALIDATE_PERSISTED_FIELDS</a> structure that contains persistent password-related information about the account being logged on.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_persisted_fields">NET_VALIDATE_PERSISTED_FIELDS</a> structure that contains persistent password-related information about the account being logged on.
 
 
 ### -field ClearPassword
@@ -76,7 +76,7 @@ Pointer to a Unicode string specifying the name of the user account.
 
 ### -field HashedPassword
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_validate_password_hash">NET_VALIDATE_PASSWORD_HASH</a> structure that contains a hash of the new password.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_password_hash">NET_VALIDATE_PASSWORD_HASH</a> structure that contains a hash of the new password.
 
 
 ### -field PasswordMustChangeAtNextLogon

@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: a13fbca9-b09e-458f-84e5-c8bb6d9fbd19
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_MFE_STATS_TABLE_EX, *PMIB_MFE_STATS_TABLE_EX_XP, MIB_MFE_STATS_TABLE_EX, MIB_MFE_STATS_TABLE_EX structure [MIB], MIB_MFE_STATS_TABLE_EX_XP, PMIB_MFE_STATS_TABLE_EX, PMIB_MFE_STATS_TABLE_EX structure pointer [MIB], ipmib/MIB_MFE_STATS_TABLE_EX, ipmib/PMIB_MFE_STATS_TABLE_EX, iprtrmib/MIB_MFE_STATS_TABLE_EX, iprtrmib/PMIB_MFE_STATS_TABLE_EX, mib.mib_mfe_stats_table_ex"
+ms.keywords: '*PMIB_MFE_STATS_TABLE_EX, *PMIB_MFE_STATS_TABLE_EX_XP, MIB_MFE_STATS_TABLE_EX, MIB_MFE_STATS_TABLE_EX structure [MIB], MIB_MFE_STATS_TABLE_EX_XP, PMIB_MFE_STATS_TABLE_EX, PMIB_MFE_STATS_TABLE_EX structure pointer [MIB], ipmib/MIB_MFE_STATS_TABLE_EX, ipmib/PMIB_MFE_STATS_TABLE_EX, iprtrmib/MIB_MFE_STATS_TABLE_EX, iprtrmib/PMIB_MFE_STATS_TABLE_EX, mib.mib_mfe_stats_table_ex'
 ms.topic: struct
-f1_keywords: 
- - "ipmib/MIB_MFE_STATS_TABLE_EX"
+f1_keywords:
+- ipmib/MIB_MFE_STATS_TABLE_EX
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipmib.h
- - Iprtrmib.h
+- Ipmib.h
+- Iprtrmib.h
 api_name:
- - MIB_MFE_STATS_TABLE_EX
+- MIB_MFE_STATS_TABLE_EX
 product: Windows
 targetos: Windows
 req.typenames: MIB_MFE_STATS_TABLE_EX_XP, *PMIB_MFE_STATS_TABLE_EX_XP
@@ -68,7 +68,7 @@ The number of MFEs  in the array.
 ### -field table
 
 A pointer to a table of MFEs that are implemented as an array of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe_stats_ex_xp">MIB_IPMCAST_MFE_STATS_EX</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats_ex_xp">MIB_IPMCAST_MFE_STATS_EX</a> structures.
 
 
 ## -remarks

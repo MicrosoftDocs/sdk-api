@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: 128bae44-59a2-4e37-a588-a18805b9e340
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_UDPSTATS, MIB_UDPSTATS, MIB_UDPSTATS structure [MIB], PMIB_UDPSTATS, PMIB_UDPSTATS structure pointer [MIB], _mpr_mib_udpstats, iprtrmib/MIB_UDPSTATS, iprtrmib/PMIB_UDPSTATS, mib.mib_udpstats, rras.mib_udpstats, udpmib/MIB_UDPSTATS, udpmib/PMIB_UDPSTATS"
+ms.keywords: '*PMIB_UDPSTATS, MIB_UDPSTATS, MIB_UDPSTATS structure [MIB], PMIB_UDPSTATS, PMIB_UDPSTATS structure pointer [MIB], _mpr_mib_udpstats, iprtrmib/MIB_UDPSTATS, iprtrmib/PMIB_UDPSTATS, mib.mib_udpstats, rras.mib_udpstats, udpmib/MIB_UDPSTATS, udpmib/PMIB_UDPSTATS'
 ms.topic: struct
-f1_keywords: 
- - "udpmib/MIB_UDPSTATS"
+f1_keywords:
+- udpmib/MIB_UDPSTATS
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Udpmib.h
- - Iprtrmib.h
+- Udpmib.h
+- Iprtrmib.h
 api_name:
- - MIB_UDPSTATS
+- MIB_UDPSTATS
 product: Windows
 targetos: Windows
 req.typenames: MIB_UDPSTATS, *PMIB_UDPSTATS
@@ -111,7 +111,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udprow">MIB_UDPROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udprow">MIB_UDPROW</a>
  
 
  

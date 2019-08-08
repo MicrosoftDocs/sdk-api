@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_FILE_SYSTEM_NOTIFICATION, VDS_FILE_SYSTEM_NOTIFICATION structure [VDS], VDS_NF_FILE_SYSTEM_FORMAT_PROGRESS, VDS_NF_FILE_SYSTEM_MODIFY, base.vds_file_system_notification, vds/_VDS_FILE_SYSTEM_NOTIFICATION, vdshwprv/_VDS_FILE_SYSTEM_NOTIFICATION
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_FILE_SYSTEM_NOTIFICATION"
+f1_keywords:
+- vds/VDS_FILE_SYSTEM_NOTIFICATION
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_FILE_SYSTEM_NOTIFICATION
+- VDS_FILE_SYSTEM_NOTIFICATION
 product: Windows
 targetos: Windows
 req.typenames: VDS_FILE_SYSTEM_NOTIFICATION
@@ -79,7 +79,7 @@ Determines the file-system event for which an application will be notified, as o
 </td>
 <td width="60%">
 A member was changed in the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_file_system_prop">VDS_FILE_SYSTEM_PROP</a> structure for the file 
+       <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_file_system_prop">VDS_FILE_SYSTEM_PROP</a> structure for the file 
        system.
        For example, a volume received a new label, or a file system was extended or shrunk; does not include a change to the file-system compression flags.
 
@@ -114,7 +114,7 @@ The completed format progress as a percentage of the whole.
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_notification">VDS_NOTIFICATION</a> structure includes this structure as a member.
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a> structure includes this structure as a member.
 
 An application can receive file-system events by implementing the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsadvisesink">IVdsAdviseSink</a> interface and passing the interface pointer as an argument to the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-advise">IVdsService::Advise</a> method.
 
@@ -138,7 +138,7 @@ An application can receive file-system events by implementing the <a href="https
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_notification">VDS_NOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a>
  
 
  

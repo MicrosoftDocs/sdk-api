@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_ENCODE_ALLOC_FLAG, CRYPT_ENCODE_ENABLE_PUNYCODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_DISABLE_CHECK_TYPE_FLAG, CRYPT_UNICODE_NAME_ENCODE_ENABLE_T61_UNICODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_ENABLE_UTF8_UNICODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_FORCE_UTF8_UNICODE_FLAG, CryptEncodeObjectEx, CryptEncodeObjectEx function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_cryptencodeobjectex, security.cryptencodeobjectex, wincrypt/CryptEncodeObjectEx
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptEncodeObjectEx"
+f1_keywords:
+- wincrypt/CryptEncodeObjectEx
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptEncodeObjectEx
+- CryptEncodeObjectEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -192,11 +192,11 @@ This flag is applicable when encoding an X509_UNICODE_NAME. When set, CERT_RDN_U
 ### -param pEncodePara [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_encode_para">CRYPT_ENCODE_PARA</a> structure that contains encoding information. This parameter can be <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_encode_para">CRYPT_ENCODE_PARA</a> structure that contains encoding information. This parameter can be <b>NULL</b>.
 
 If either <i>pEncodePara</i> or the <b>pfnAlloc</b> member of <i>pEncodePara</i> is <b>NULL</b>, then <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> is used for the allocation and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> must be called to free the memory.
 
-If both <i>pEncodePara</i> and the <b>pfnAlloc</b> member of <i>pEncodePara</i> are not <b>NULL</b>, then the function pointed to by the <b>pfnAlloc</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_encode_para">CRYPT_ENCODE_PARA</a> structure pointed to by <i>pEncodePara</i> is called for the allocation. The function pointed to by the <b>pfnFree</b> member of <i>pEncodePara</i> must be called to free the memory.
+If both <i>pEncodePara</i> and the <b>pfnAlloc</b> member of <i>pEncodePara</i> are not <b>NULL</b>, then the function pointed to by the <b>pfnAlloc</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_encode_para">CRYPT_ENCODE_PARA</a> structure pointed to by <i>pEncodePara</i> is called for the allocation. The function pointed to by the <b>pfnFree</b> member of <i>pEncodePara</i> must be called to free the memory.
 
 
 ### -param pvEncoded [out]
@@ -284,7 +284,7 @@ When encoding a cryptographic object using the preferred <b>CryptEncodeObjectEx<
 
  When direct <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/about-ia5string">IA5String</a> encoding of the object is not possible, you can specify Punycode encoding by setting the <i>dwFlag</i> parameter to the <b>CRYPT_ENCODE_ENABLE_PUNYCODE_FLAG</b> value. Setting the <b>CRYPT_ENCODE_ENABLE_PUNYCODE_FLAG</b> flag has different effects based on the structure type being encoded as specified by the value of the <i>lpszStructType</i> parameter.
 
-Each constant in the list below has an associated structure type that is pointed to by the <i>pvStructInfo</i> parameter. The structure  pointed to, directly or indirectly, has a reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a> structure.  
+Each constant in the list below has an associated structure type that is pointed to by the <i>pvStructInfo</i> parameter. The structure  pointed to, directly or indirectly, has a reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a> structure.  
 
 <ul>
 <li>X509_ALTERNATE_NAME
@@ -326,7 +326,7 @@ Each constant in the list below has an associated structure type that is pointed
 <li>szOID_SUBJECT_ALT_NAME2
 			</li>
 </ul>
-The <b>CRYPT_ENCODE_ENABLE_PUNYCODE_FLAG</b> flag, in conjunction with the value of the <b>dwAltNameChoice</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a> structure, determines the manner in which strings are encoded.
+The <b>CRYPT_ENCODE_ENABLE_PUNYCODE_FLAG</b> flag, in conjunction with the value of the <b>dwAltNameChoice</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a> structure, determines the manner in which strings are encoded.
 
 <table>
 <tr>
@@ -348,7 +348,7 @@ The <b>CRYPT_ENCODE_ENABLE_PUNYCODE_FLAG</b> flag, in conjunction with the value
 </table>
  
 
-Each constant in the list below has an associated structure type that is pointed to by the <i>pvStructInfo</i> parameter. The structure  pointed to, directly or indirectly, has a reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_hashed_url">CERT_HASHED_URL</a> structure. 
+Each constant in the list below has an associated structure type that is pointed to by the <i>pvStructInfo</i> parameter. The structure  pointed to, directly or indirectly, has a reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_hashed_url">CERT_HASHED_URL</a> structure. 
 
 <ul>
 <li>szOID_BIOMETRIC_EXT</li>
@@ -356,14 +356,14 @@ Each constant in the list below has an associated structure type that is pointed
 <li>szOID_LOGOTYPE_EXT</li>
 <li>X509_LOGOTYPE_EXT</li>
 </ul>
-When encoding the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_hashed_url">CERT_HASHED_URL</a> structure value, if the server host name of the URI contains Unicode characters outside of the ASCII character set, and the <b>CRYPT_ENCODE_ENABLE_PUNYCODE_FLAG</b> is set, the host name portion of URI is encoded in Punycode.  Then the resultant URI is escaped, and the URL is then  encoded as an <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/about-ia5string">IA5String</a> string.
+When encoding the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_hashed_url">CERT_HASHED_URL</a> structure value, if the server host name of the URI contains Unicode characters outside of the ASCII character set, and the <b>CRYPT_ENCODE_ENABLE_PUNYCODE_FLAG</b> is set, the host name portion of URI is encoded in Punycode.  Then the resultant URI is escaped, and the URL is then  encoded as an <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/about-ia5string">IA5String</a> string.
 
 Each <b>X509_UNICODE_NAME</b> constant in the list below has an associated structure type that is pointed to by the <i>pvStructInfo</i> parameter.
 
 <ul>
 <li>X509_UNICODE_NAME</li>
 </ul>
-If the <i>pszObjId</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn_attr">CERT_RDN_ATTR</a> structure is set to <b>szOID_RSA_emailAddr</b> and the email address in the <b>Value</b> member contains Unicode characters outside of the ASCII character set, the host name portion of the email address is encoded in Punycode. Then the resultant email address is then  encoded as an <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/about-ia5string">IA5String</a> string.
+If the <i>pszObjId</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> structure is set to <b>szOID_RSA_emailAddr</b> and the email address in the <b>Value</b> member contains Unicode characters outside of the ASCII character set, the host name portion of the email address is encoded in Punycode. Then the resultant email address is then  encoded as an <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/about-ia5string">IA5String</a> string.
 
 In all cases, the Punycode encoding of the host name is performed on a label-by-label basis.
 

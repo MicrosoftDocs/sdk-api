@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 425a3f14-8bc9-471d-b11c-1608db473cce
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCMC_TAGGED_REQUEST, CMC_TAGGED_REQUEST, CMC_TAGGED_REQUEST structure [Security], PCMC_TAGGED_REQUEST, PCMC_TAGGED_REQUEST structure pointer [Security], _crypto2_cmc_tagged_request, security.cmc_tagged_request, wincrypt/CMC_TAGGED_REQUEST, wincrypt/PCMC_TAGGED_REQUEST"
+ms.keywords: '*PCMC_TAGGED_REQUEST, CMC_TAGGED_REQUEST, CMC_TAGGED_REQUEST structure [Security], PCMC_TAGGED_REQUEST, PCMC_TAGGED_REQUEST structure pointer [Security], _crypto2_cmc_tagged_request, security.cmc_tagged_request, wincrypt/CMC_TAGGED_REQUEST, wincrypt/PCMC_TAGGED_REQUEST'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMC_TAGGED_REQUEST"
+f1_keywords:
+- wincrypt/CMC_TAGGED_REQUEST
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMC_TAGGED_REQUEST
+- CMC_TAGGED_REQUEST
 product: Windows
 targetos: Windows
 req.typenames: CMC_TAGGED_REQUEST, *PCMC_TAGGED_REQUEST
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>CMC_TAGGED_REQUEST</b> structure is used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmc_data_info">CMC_DATA_INFO</a> structures to request a certificate. In the future, it may be used for other requests.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_data_info">CMC_DATA_INFO</a> structures to request a certificate. In the future, it may be used for other requests.
 
 
 ## -struct-fields
@@ -73,7 +73,7 @@ The <b>CMC_TAGGED_REQUEST</b> structure is used in the
 ### -field DUMMYUNIONNAME.pTaggedCertRequest
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmc_tagged_cert_request">CMC_TAGGED_CERT_REQUEST</a> structure containing the signed <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_tagged_cert_request">CMC_TAGGED_CERT_REQUEST</a> structure containing the signed <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>.
 
 
 ## -remarks

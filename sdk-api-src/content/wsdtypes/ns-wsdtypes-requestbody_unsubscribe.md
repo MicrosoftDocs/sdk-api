@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: REQUESTBODY_Unsubscribe, REQUESTBODY_Unsubscribe structure, ncd.requestbody_unsubscribe_struct, wsdtypes/REQUESTBODY_Unsubscribe
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/REQUESTBODY_Unsubscribe"
+f1_keywords:
+- wsdtypes/REQUESTBODY_Unsubscribe
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - REQUESTBODY_Unsubscribe
+- REQUESTBODY_Unsubscribe
 product: Windows
 targetos: Windows
 req.typenames: REQUESTBODY_Unsubscribe
@@ -61,5 +61,5 @@ Represents a WS-Eventing Unsubscribe request message.
 
 ### -field any
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
 

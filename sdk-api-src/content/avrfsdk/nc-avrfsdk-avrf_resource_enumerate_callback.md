@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVRF_RESOURCE_ENUMERATE_CALLBACK, AVRF_RESOURCE_ENUMERATE_CALLBACK callback, AVRF_RESOURCE_ENUMERATE_CALLBACK callback function [Windows API], avrfsdk/AVRF_RESOURCE_ENUMERATE_CALLBACK, base.avrf_resource_enumerate_callback, winprog.avrf_resource_enumerate_callback
 ms.topic: callback
-f1_keywords: 
- - "avrfsdk/AVRF_RESOURCE_ENUMERATE_CALLBACK"
+f1_keywords:
+- avrfsdk/AVRF_RESOURCE_ENUMERATE_CALLBACK
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Avrfsdk.h
+- Avrfsdk.h
 api_name:
- - AVRF_RESOURCE_ENUMERATE_CALLBACK
+- AVRF_RESOURCE_ENUMERATE_CALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Provides access to one of the specialized callback functions for enumeration of 
 
 ### -param ResourceDescription
 
-A pointer to either an <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ns-avrfsdk-_avrf_handle_operation">AVRF_HANDLE_OPERATION</a> structure or an <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ns-avrfsdk-_avrf_heap_allocation">AVRF_HEAP_ALLOCATION</a> structure. Be sure to  cast this parameter to the correct structure type.
+A pointer to either an <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ns-avrfsdk-avrf_handle_operation">AVRF_HANDLE_OPERATION</a> structure or an <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ns-avrfsdk-avrf_heap_allocation">AVRF_HEAP_ALLOCATION</a> structure. Be sure to  cast this parameter to the correct structure type.
 
 
 ### -param EnumerationContext

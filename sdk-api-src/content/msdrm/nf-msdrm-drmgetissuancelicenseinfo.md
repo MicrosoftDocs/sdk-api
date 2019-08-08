@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMGetIssuanceLicenseInfo, DRMGetIssuanceLicenseInfo function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetIssuanceLicenseInfo, rm.drmgetissuancelicenseinfo
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMGetIssuanceLicenseInfo"
+f1_keywords:
+- msdrm/DRMGetIssuanceLicenseInfo
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMGetIssuanceLicenseInfo
+- DRMGetIssuanceLicenseInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -85,7 +85,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbas
 
 ### -param uFlags [in]
 
-A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/ne-msdrmdefs-_drm_distribution_point_info">DRM_DISTRIBUTION_POINT_INFO</a> enumeration that specifies the type of service provided by this distribution point (such as publishing or license acquisition). Only one flag can be used.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/msdrmdefs/ne-msdrmdefs-drm_distribution_point_info">DRM_DISTRIBUTION_POINT_INFO</a> enumeration that specifies the type of service provided by this distribution point (such as publishing or license acquisition). Only one flag can be used.
 
 
 ### -param puDistributionPointNameLength [in, out]

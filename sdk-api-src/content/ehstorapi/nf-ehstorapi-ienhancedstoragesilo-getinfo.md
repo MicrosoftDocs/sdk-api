@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [Enhanced Storage], GetInfo method [Enhanced Storage],IEnhancedStorageSilo interface, IEnhancedStorageSilo interface [Enhanced Storage],GetInfo method, IEnhancedStorageSilo.GetInfo, IEnhancedStorageSilo::GetInfo, ehstorapi/IEnhancedStorageSilo::GetInfo, enstor.ienhancedstoragesilo_getinfo
 ms.topic: method
-f1_keywords: 
- - "ehstorapi/IEnhancedStorageSilo.GetInfo"
+f1_keywords:
+- ehstorapi/IEnhancedStorageSilo.GetInfo
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EhStorAPI.h
+- EhStorAPI.h
 api_name:
- - IEnhancedStorageSilo.GetInfo
+- IEnhancedStorageSilo.GetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Returns the descriptive information associated with the silo object.
 
 ### -param pSiloInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/ns-ehstorapi-_silo_info">SILO_INFO</a> object containing descriptive information associated with the silo.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ehstorapi/ns-ehstorapi-silo_info">SILO_INFO</a> object containing descriptive information associated with the silo.
 
 
 ## -returns

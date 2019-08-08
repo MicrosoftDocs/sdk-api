@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_ENDPOINT_REFERENCE_LIST, WSD_ENDPOINT_REFERENCE_LIST structure, ncd.wsd_endpoint_reference_list, wsdtypes/WSD_ENDPOINT_REFERENCE_LIST
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_ENDPOINT_REFERENCE_LIST"
+f1_keywords:
+- wsdtypes/WSD_ENDPOINT_REFERENCE_LIST
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_ENDPOINT_REFERENCE_LIST
+- WSD_ENDPOINT_REFERENCE_LIST
 product: Windows
 targetos: Windows
 req.typenames: WSD_ENDPOINT_REFERENCE_LIST
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a node in a single-linked list of <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structures.
+Represents a node in a single-linked list of <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structures.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ Reference to the next node in the linked list of <b>WSD_ENDPOINT_REFERENCE_LIST<
 
 ### -field Element
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure that contains the endpoint referenced by this node.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure that contains the endpoint referenced by this node.
 
 
 ## -see-also
@@ -74,7 +74,7 @@ Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a>
  
 
  

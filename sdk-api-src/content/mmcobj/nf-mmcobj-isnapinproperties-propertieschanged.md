@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISnapinProperties interface [MMC],PropertiesChanged method, ISnapinProperties.PropertiesChanged, ISnapinProperties::PropertiesChanged, PropertiesChanged, PropertiesChanged method [MMC], PropertiesChanged method [MMC],ISnapinProperties interface, _slate_isnapinproperties_propertieschanged, mmc.isnapinproperties_propertieschanged, mmcobj/ISnapinProperties::PropertiesChanged
 ms.topic: method
-f1_keywords: 
- - "mmcobj/ISnapinProperties.PropertiesChanged"
+f1_keywords:
+- mmcobj/ISnapinProperties.PropertiesChanged
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcobj.h
+- Mmcobj.h
 api_name:
- - ISnapinProperties.PropertiesChanged
+- ISnapinProperties.PropertiesChanged
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,13 +63,13 @@ The
 ### -param cProperties [in]
 
 The number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ns-mmcobj-_mmc_snapin_property">MMC_SNAPIN_PROPERTY</a> structures provided by <i>pProperties</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ns-mmcobj-mmc_snapin_property">MMC_SNAPIN_PROPERTY</a> structures provided by <i>pProperties</i>.
 
 
 ### -param pProperties [in]
 
 An array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ns-mmcobj-_mmc_snapin_property">MMC_SNAPIN_PROPERTY</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ns-mmcobj-mmc_snapin_property">MMC_SNAPIN_PROPERTY</a> structures.
 
 
 ## -returns
@@ -86,11 +86,11 @@ If successful, the return value is <b>S_OK</b>; a snap-in can prevent a change o
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ne-mmcobj-_mmc_property_action">MMC_PROPERTY_ACTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ne-mmcobj-mmc_property_action">MMC_PROPERTY_ACTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ns-mmcobj-_mmc_snapin_property">MMC_SNAPIN_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ns-mmcobj-mmc_snapin_property">MMC_SNAPIN_PROPERTY</a>
  
 
  

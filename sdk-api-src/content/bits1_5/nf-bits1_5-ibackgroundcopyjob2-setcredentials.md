@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob2 interface [BITS],SetCredentials method, IBackgroundCopyJob2.SetCredentials, IBackgroundCopyJob2::SetCredentials, SetCredentials, SetCredentials method [BITS], SetCredentials method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_setcredentials, bits.ibackgroundcopyjob2_setcredentials, bits1_5/IBackgroundCopyJob2::SetCredentials
 ms.topic: method
-f1_keywords: 
- - "bits1_5/IBackgroundCopyJob2.SetCredentials"
+f1_keywords:
+- bits1_5/IBackgroundCopyJob2.SetCredentials
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Bits.lib
 req.dll: BitsPrx2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - BitsPrx2.dll
+- BitsPrx2.dll
 api_name:
- - IBackgroundCopyJob2.SetCredentials
+- IBackgroundCopyJob2.SetCredentials
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -177,7 +177,7 @@ Calling the
 
 To specify implicit credentials (the logged on user's credentials), set the scheme to NTLM and the user name and password to <b>NULL</b>. If you specify implicit credentials for a proxy, BITS will also use the implicit credentials for server authentication unless you specify explicit server credentials. 
 
-<div class="alert"><b>Note</b>  BITS ignores credentials for <a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-_bg_file_info">remote names</a> that specify an SMB path.</div>
+<div class="alert"><b>Note</b>  BITS ignores credentials for <a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_file_info">remote names</a> that specify an SMB path.</div>
 <div> </div>
 <div class="alert"><b>Note</b>  BITS does not authenticate the server or encrypt the channel. Use HTTPS if this is an issue for your application.</div>
 <div> </div>

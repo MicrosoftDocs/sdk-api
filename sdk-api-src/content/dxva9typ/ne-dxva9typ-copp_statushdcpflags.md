@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COPP_HDCPFlagsReserved, COPP_HDCPRepeater, COPP_StatusHDCPFlags, COPP_StatusHDCPFlags , COPP_StatusHDCPFlags enumeration [DirectShow], COPP_StatusHDCPFlagsEnumeration, dshow.copp_statushdcpflags, dxva9typ/COPP_HDCPFlagsReserved, dxva9typ/COPP_HDCPRepeater, dxva9typ/COPP_StatusHDCPFlags
 ms.topic: enum
-f1_keywords: 
- - "dxva9typ/COPP_StatusHDCPFlags"
+f1_keywords:
+- dxva9typ/COPP_StatusHDCPFlags
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva9typ.h
+- dxva9typ.h
 api_name:
- - COPP_StatusHDCPFlags
+- COPP_StatusHDCPFlags
 product: Windows
 targetos: Windows
 req.typenames: COPP_StatusHDCPFlags
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-Contains HDCP status flags. This enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxva_coppstatushdcpkeydata">DXVA_COPPStatusHDCPKeyData</a> structure.
+Contains HDCP status flags. This enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ns-dxva9typ-dxva_coppstatushdcpkeydata">DXVA_COPPStatusHDCPKeyData</a> structure.
 
 
 

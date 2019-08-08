@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: eab6b317-9d06-45e2-bc77-0882f40e7d79
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPAD_GENERAL_PARAMS, *LPAD_GENERAL_PARAMS structure [QOS], AD_FLAG_BREAK_BIT, AD_GENERAL_PARAMS, AD_GENERAL_PARAMS structure [QOS], qos.ad_general_params, qossp/*LPAD_GENERAL_PARAMS, qossp/AD_GENERAL_PARAMS"
+ms.keywords: '*LPAD_GENERAL_PARAMS, *LPAD_GENERAL_PARAMS structure [QOS], AD_FLAG_BREAK_BIT, AD_GENERAL_PARAMS, AD_GENERAL_PARAMS structure [QOS], qos.ad_general_params, qossp/*LPAD_GENERAL_PARAMS, qossp/AD_GENERAL_PARAMS'
 ms.topic: struct
-f1_keywords: 
- - "qossp/AD_GENERAL_PARAMS"
+f1_keywords:
+- qossp/AD_GENERAL_PARAMS
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qossp.h
+- Qossp.h
 api_name:
- - AD_GENERAL_PARAMS
+- AD_GENERAL_PARAMS
 product: Windows
 targetos: Windows
 req.typenames: AD_GENERAL_PARAMS, *LPAD_GENERAL_PARAMS
@@ -107,7 +107,7 @@ Indicates the existence of a network element in the data path that does not supp
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_adspec">RSVP_ADSPEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_adspec">RSVP_ADSPEC</a>
  
 
  

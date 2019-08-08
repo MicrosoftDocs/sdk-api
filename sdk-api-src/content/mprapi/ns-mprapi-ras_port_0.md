@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 361b065e-8240-465f-a0fe-d4bfc097ec70
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRAS_PORT_0, PRAS_PORT_0, PRAS_PORT_0 structure pointer [RAS], RAS_PORT_0, RAS_PORT_0 structure [RAS], _mpr_ras_port_0, mprapi/PRAS_PORT_0, mprapi/RAS_PORT_0, rras.ras_port_0"
+ms.keywords: '*PRAS_PORT_0, PRAS_PORT_0, PRAS_PORT_0 structure pointer [RAS], RAS_PORT_0, RAS_PORT_0 structure [RAS], _mpr_ras_port_0, mprapi/PRAS_PORT_0, mprapi/RAS_PORT_0, rras.ras_port_0'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/RAS_PORT_0"
+f1_keywords:
+- mprapi/RAS_PORT_0
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - RAS_PORT_0
+- RAS_PORT_0
 product: Windows
 targetos: Windows
 req.typenames: RAS_PORT_0, *PRAS_PORT_0
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>RAS_PORT_0</b> structure contains general information regarding a specific RAS port, such as port condition and port name. For more detailed information about a specific port, such as line speed or errors, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_port_1">RAS_PORT_1</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_port_1">RAS_PORT_1</a>.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ Handle to the connection.
 ### -field dwPortCondition
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_ras_port_condition">RAS_PORT_CONDITION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-ras_port_condition">RAS_PORT_CONDITION</a> structure.
 
 
 ### -field dwTotalNumberOfCalls
@@ -117,11 +117,11 @@ Specifies the device type.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_port_1">RAS_PORT_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_port_1">RAS_PORT_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_ras_port_condition">RAS_PORT_CONDITION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-ras_port_condition">RAS_PORT_CONDITION</a>
 
 
 

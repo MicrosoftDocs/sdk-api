@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_SupportedFeaturePages method, IDiscRecorder2.get_SupportedFeaturePages, IDiscRecorder2::get_SupportedFeaturePages, get_SupportedFeaturePages, get_SupportedFeaturePages method [IMAPI], get_SupportedFeaturePages method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_supportedfeaturepages, imapi2/IDiscRecorder2::get_SupportedFeaturePages
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscRecorder2.get_SupportedFeaturePages"
+f1_keywords:
+- imapi2/IDiscRecorder2.get_SupportedFeaturePages
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscRecorder2.get_SupportedFeaturePages
+- IDiscRecorder2.get_SupportedFeaturePages
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Retrieves the list of features that the device supports.
 
 ### -param value [out]
 
-List of features that the device supports. Each element of the list is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of the variant contains the feature page type value. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a> enumeration type.
+List of features that the device supports. Each element of the list is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of the variant contains the feature page type value. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a> enumeration type.
 
 
 ## -returns
@@ -401,7 +401,7 @@ Value: 0xC0AA0210
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: NetMgmt
 ms.assetid: 832ebe88-e1c4-4ce3-8057-922419b577f7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPERRLOG_OTHER_INFO, *PERRLOG_OTHER_INFO, ERRLOG_OTHER_INFO, ERRLOG_OTHER_INFO structure [Network Management], LPERRLOG_OTHER_INFO, LPERRLOG_OTHER_INFO structure pointer [Network Management], PERRLOG_OTHER_INFO, PERRLOG_OTHER_INFO structure pointer [Network Management], _win32_errlog_other_info_str, lmalert/ERRLOG_OTHER_INFO, lmalert/LPERRLOG_OTHER_INFO, lmalert/PERRLOG_OTHER_INFO, netmgmt.errlog_other_info_str"
+ms.keywords: '*LPERRLOG_OTHER_INFO, *PERRLOG_OTHER_INFO, ERRLOG_OTHER_INFO, ERRLOG_OTHER_INFO structure [Network Management], LPERRLOG_OTHER_INFO, LPERRLOG_OTHER_INFO structure pointer [Network Management], PERRLOG_OTHER_INFO, PERRLOG_OTHER_INFO structure pointer [Network Management], _win32_errlog_other_info_str, lmalert/ERRLOG_OTHER_INFO, lmalert/LPERRLOG_OTHER_INFO, lmalert/PERRLOG_OTHER_INFO, netmgmt.errlog_other_info_str'
 ms.topic: struct
-f1_keywords: 
- - "lmalert/ERRLOG_OTHER_INFO"
+f1_keywords:
+- lmalert/ERRLOG_OTHER_INFO
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmalert.h
+- Lmalert.h
 api_name:
- - ERRLOG_OTHER_INFO
+- ERRLOG_OTHER_INFO
 product: Windows
 targetos: Windows
 req.typenames: ERRLOG_OTHER_INFO, *PERRLOG_OTHER_INFO, *LPERRLOG_OTHER_INFO
@@ -87,7 +87,7 @@ The calling application must allocate and free the memory for all structures and
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_admin_other_info">ADMIN_OTHER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>
 
 
 
@@ -111,15 +111,15 @@ The calling application must allocate and free the memory for all structures and
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_print_other_info">PRINT_OTHER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-print_other_info">PRINT_OTHER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_std_alert">STD_ALERT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-std_alert">STD_ALERT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_user_other_info">USER_OTHER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSWaitSystemEvent, WTSWaitSystemEvent function [Remote Desktop Services], WTS_EVENT_ALL, WTS_EVENT_CONNECT, WTS_EVENT_CREATE, WTS_EVENT_DELETE, WTS_EVENT_DISCONNECT, WTS_EVENT_LICENSE, WTS_EVENT_LOGOFF, WTS_EVENT_LOGON, WTS_EVENT_RENAME, WTS_EVENT_STATECHANGE, _win32_wtswaitsystemevent, termserv.wtswaitsystemevent, wtsapi32/WTSWaitSystemEvent
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSWaitSystemEvent"
+f1_keywords:
+- wtsapi32/WTSWaitSystemEvent
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.dll
+- Wtsapi32.dll
 api_name:
- - WTSWaitSystemEvent
+- WTSWaitSystemEvent
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -130,7 +130,7 @@ An existing WinStation was renamed.
 #### WTS_EVENT_STATECHANGE
 
 A WinStation connection state changed. For a list of connection states, see the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-_wts_connectstate_class">WTS_CONNECTSTATE_CLASS</a> enumeration 
+        <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_connectstate_class">WTS_CONNECTSTATE_CLASS</a> enumeration 
         type.
 
 

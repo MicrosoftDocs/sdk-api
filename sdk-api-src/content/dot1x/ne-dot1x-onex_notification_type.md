@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ONEX_NOTIFICATION_TYPE, ONEX_NOTIFICATION_TYPE enumeration [NativeWIFI], OneXNotificationTypeAuthRestarted, OneXNotificationTypeEventInvalid, OneXNotificationTypeResultUpdate, OneXNumNotifications, OneXPublicNotificationBase, PONEX_NOTIFICATION_TYPE, PONEX_NOTIFICATION_TYPE enumeration pointer [NativeWIFI], dot1x/ONEX_NOTIFICATION_TYPE, dot1x/OneXNotificationTypeAuthRestarted, dot1x/OneXNotificationTypeEventInvalid, dot1x/OneXNotificationTypeResultUpdate, dot1x/OneXNumNotifications, dot1x/OneXPublicNotificationBase, dot1x/PONEX_NOTIFICATION_TYPE, nwifi.onex_notification_type
 ms.topic: enum
-f1_keywords: 
- - "dot1x/ONEX_NOTIFICATION_TYPE"
+f1_keywords:
+- dot1x/ONEX_NOTIFICATION_TYPE
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dot1x.h
+- dot1x.h
 api_name:
- - ONEX_NOTIFICATION_TYPE
+- ONEX_NOTIFICATION_TYPE
 product: Windows
 targetos: Windows
 req.typenames: ONEX_NOTIFICATION_TYPE, PONEX_NOTIFICATION_TYPE
@@ -68,14 +68,14 @@ Indicates the beginning of the range that specifies the possible values for 802.
 
 Indicates that 802.1X authentication has a status change.
 
-The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> structure that contains 802.1X update data. 
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> structure that contains 802.1X update data. 
 
 
 ### -field OneXNotificationTypeAuthRestarted
 
 Indicates that 802.1X authentication restarted.
 
-The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to an  <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-_onex_auth_restart_reason">ONEX_AUTH_RESTART_REASON</a> enumeration value that identifies the reason the authentication was restarted.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to an  <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-onex_auth_restart_reason">ONEX_AUTH_RESTART_REASON</a> enumeration value that identifies the reason the authentication was restarted.
 
 
 ### -field OneXNotificationTypeEventInvalid
@@ -112,11 +112,11 @@ The callback function is called with a pointer to a <a href="https://docs.micros
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-_onex_auth_restart_reason">ONEX_AUTH_RESTART_REASON</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-onex_auth_restart_reason">ONEX_AUTH_RESTART_REASON</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-_onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a>
 
 
 

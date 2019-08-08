@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: dbc46b33-9e9d-4ccf-9bc9-1df70738fa73
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR structure [Files], PDEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR structure pointer [Files], fs.device_lb_provisioning_descriptor, winioctl/DEVICE_LB_PROVISIONING_DESCRIPTOR, winioctl/PDEVICE_LB_PROVISIONING_DESCRIPTOR"
+ms.keywords: '*PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR structure [Files], PDEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR structure pointer [Files], fs.device_lb_provisioning_descriptor, winioctl/DEVICE_LB_PROVISIONING_DESCRIPTOR, winioctl/PDEVICE_LB_PROVISIONING_DESCRIPTOR'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/DEVICE_LB_PROVISIONING_DESCRIPTOR"
+f1_keywords:
+- winioctl/DEVICE_LB_PROVISIONING_DESCRIPTOR
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - DEVICE_LB_PROVISIONING_DESCRIPTOR
+- DEVICE_LB_PROVISIONING_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.typenames: DEVICE_LB_PROVISIONING_DESCRIPTOR, *PDEVICE_LB_PROVISIONING_DESCRIPTOR
@@ -251,7 +251,7 @@ The current value, in logical sectors, set for unmap granularity alignment on th
 This structure is returned from a 
     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request when the 
     <b>PropertyId</b> member of 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_property_query">STORAGE_PROPERTY_QUERY</a> is set to 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a> is set to 
     <b>StorageDeviceLBProvisioningProperty</b>.
 
 If <b>UnmapGranularityAlignmentValid</b> = 0, then any code using 
@@ -273,7 +273,7 @@ If <b>UnmapGranularityAlignmentValid</b> = 0, then any code using
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_property_query">STORAGE_PROPERTY_QUERY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a>
  
 
  

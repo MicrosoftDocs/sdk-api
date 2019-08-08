@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 3a918a2b-beff-4562-9c7f-acee2cc8f2da
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_IP_RANGE_V6, DHCP_IP_RANGE_V6, DHCP_IP_RANGE_V6 structure [DHCP], PDHCP_IP_RANGE_V6, PDHCP_IP_RANGE_V6 structure pointer [DHCP], dhcp.dhcp_ip_range_v6, dhcpsapi/DHCP_IP_RANGE_V6, dhcpsapi/PDHCP_IP_RANGE_V6"
+ms.keywords: '*LPDHCP_IP_RANGE_V6, DHCP_IP_RANGE_V6, DHCP_IP_RANGE_V6 structure [DHCP], PDHCP_IP_RANGE_V6, PDHCP_IP_RANGE_V6 structure pointer [DHCP], dhcp.dhcp_ip_range_v6, dhcpsapi/DHCP_IP_RANGE_V6, dhcpsapi/PDHCP_IP_RANGE_V6'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_IP_RANGE_V6"
+f1_keywords:
+- dhcpsapi/DHCP_IP_RANGE_V6
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_IP_RANGE_V6
+- DHCP_IP_RANGE_V6
 product: Windows
 targetos: Windows
 req.typenames: DHCP_IP_RANGE_V6, *LPDHCP_IP_RANGE_V6
@@ -62,13 +62,13 @@ The <b>DHCP_IP_RANGE_V6</b> structure specifies a range of IPv6 addresses for us
 ### -field StartAddress
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> structure that contains the first IPv6 address in the range.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> structure that contains the first IPv6 address in the range.
 
 
 ### -field EndAddress
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> structure that contains the last IPv6 address in the range.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> structure that contains the last IPv6 address in the range.
 
 
 ## -see-also
@@ -76,7 +76,7 @@ The <b>DHCP_IP_RANGE_V6</b> structure specifies a range of IPv6 addresses for us
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: 57949087-0f22-40c8-ab56-326a8304c310
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_CALLBACK_OUTPUT, MINIDUMP_CALLBACK_OUTPUT, MINIDUMP_CALLBACK_OUTPUT structure, PMINIDUMP_CALLBACK_OUTPUT, PMINIDUMP_CALLBACK_OUTPUT structure pointer, _MINIDUMP_CALLBACK_OUTPUT, _win32_minidump_callback_output_str, base.minidump_callback_output_str, minidumpapiset/MINIDUMP_CALLBACK_OUTPUT, minidumpapiset/PMINIDUMP_CALLBACK_OUTPUT"
+ms.keywords: '*PMINIDUMP_CALLBACK_OUTPUT, MINIDUMP_CALLBACK_OUTPUT, MINIDUMP_CALLBACK_OUTPUT structure, PMINIDUMP_CALLBACK_OUTPUT, PMINIDUMP_CALLBACK_OUTPUT structure pointer, _MINIDUMP_CALLBACK_OUTPUT, _win32_minidump_callback_output_str, base.minidump_callback_output_str, minidumpapiset/MINIDUMP_CALLBACK_OUTPUT, minidumpapiset/PMINIDUMP_CALLBACK_OUTPUT'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_CALLBACK_OUTPUT"
+f1_keywords:
+- minidumpapiset/MINIDUMP_CALLBACK_OUTPUT
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_CALLBACK_OUTPUT
+- MINIDUMP_CALLBACK_OUTPUT
 product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_CALLBACK_OUTPUT, *PMINIDUMP_CALLBACK_OUTPUT
@@ -63,7 +63,7 @@ Contains information returned by the
 ### -field ModuleWriteFlags
 
 The module write operation flags. This member can be one or more of the values in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_module_write_flags">MODULE_WRITE_FLAGS</a> enumeration. The flags are set to their default values on entry to the callback.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-module_write_flags">MODULE_WRITE_FLAGS</a> enumeration. The flags are set to their default values on entry to the callback.
 
 This member is ignored unless the callback type is <b>IncludeModuleCallback</b> or <b>ModuleCallback</b>.
 
@@ -71,7 +71,7 @@ This member is ignored unless the callback type is <b>IncludeModuleCallback</b> 
 ### -field ThreadWriteFlags
 
 The thread write operation flags. This member can be one or more of the values in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_thread_write_flags">THREAD_WRITE_FLAGS</a> enumeration. The flags are set to their default values on entry to the callback.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-thread_write_flags">THREAD_WRITE_FLAGS</a> enumeration. The flags are set to their default values on entry to the callback.
 
 This member is ignored unless the callback type is <b>IncludeThreadCallback</b>, <b>ThreadCallback</b>, or <b>ThreadExCallback</b>.
 
@@ -120,7 +120,7 @@ This member is ignored unless the callback type is <b>WriteKernelMinidumpCallbac
 
 ### -field VmRegion
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory_info">MINIDUMP_MEMORY_INFO</a> structure that describes the virtual memory region. The region base and size must be aligned on a page boundary. The region size can be set to 0 to filter out the region.
+A <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info">MINIDUMP_MEMORY_INFO</a> structure that describes the virtual memory region. The region base and size must be aligned on a page boundary. The region size can be set to 0 to filter out the region.
 
 This member is ignored unless the callback type is <b>IncludeVmRegionCallback</b>.
 
@@ -164,7 +164,7 @@ This member is ignored unless the callback type is <b>ReadMemoryFailureCallback<
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_module_write_flags">MODULE_WRITE_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-module_write_flags">MODULE_WRITE_FLAGS</a>
 
 
 
@@ -172,7 +172,7 @@ This member is ignored unless the callback type is <b>ReadMemoryFailureCallback<
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_thread_write_flags">THREAD_WRITE_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-thread_write_flags">THREAD_WRITE_FLAGS</a>
  
 
  

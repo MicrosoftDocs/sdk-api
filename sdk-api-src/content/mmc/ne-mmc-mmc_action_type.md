@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_ACTION_ID, MMC_ACTION_LINK, MMC_ACTION_SCRIPT, MMC_ACTION_TYPE, MMC_ACTION_TYPE enumeration [MMC], MMC_ACTION_UNINITIALIZED, _slate_mmc_action_type, mmc.mmc_action_type, mmc/MMC_ACTION_ID, mmc/MMC_ACTION_LINK, mmc/MMC_ACTION_SCRIPT, mmc/MMC_ACTION_TYPE, mmc/MMC_ACTION_UNINITIALIZED
 ms.topic: enum
-f1_keywords: 
- - "mmc/MMC_ACTION_TYPE"
+f1_keywords:
+- mmc/MMC_ACTION_TYPE
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - MMC_ACTION_TYPE
+- MMC_ACTION_TYPE
 product: Windows
 targetos: Windows
 req.typenames: MMC_ACTION_TYPE
@@ -56,7 +56,7 @@ MMC_ACTION_TYPE enumeration is introduced in MMC 1.1.
 
 The 
 MMC_ACTION_TYPE enumeration defines the types of action that can be triggered when a user clicks a task on a taskpad. These values are used in the eActionType member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task">MMC_TASK</a> structure, which is filled in by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_task">MMC_TASK</a> structure, which is filled in by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ienumtask-next">IEnumTASK::Next</a> method.
 
 

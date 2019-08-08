@@ -8,10 +8,10 @@ tech.root: VDS
 ms.assetid: 17a07d21-a10a-4f18-a975-def6db073256
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVDS_SUB_SYSTEM_FLAG, VDS_SF_CONSISTENCY_CHECK_CAPABLE, VDS_SF_DRIVE_EXTENT_CAPABLE, VDS_SF_HARDWARE_CHECKSUM_CAPABLE, VDS_SF_LUN_MASKING_CAPABLE, VDS_SF_LUN_PLEXING_CAPABLE, VDS_SF_LUN_REMAPPING_CAPABLE, VDS_SF_MEDIA_SCAN_CAPABLE, VDS_SF_RADIUS_CAPABLE, VDS_SF_READ_BACK_VERIFY_CAPABLE, VDS_SF_READ_CACHING_CAPABLE, VDS_SF_SUPPORTS_AUTH_CHAP, VDS_SF_SUPPORTS_AUTH_MUTUAL_CHAP, VDS_SF_SUPPORTS_FAULT_TOLERANT_LUNS, VDS_SF_SUPPORTS_LUN_NUMBER, VDS_SF_SUPPORTS_MIRRORED_CACHE, VDS_SF_SUPPORTS_MIRROR_LUNS, VDS_SF_SUPPORTS_NON_FAULT_TOLERANT_LUNS, VDS_SF_SUPPORTS_PARITY_LUNS, VDS_SF_SUPPORTS_SIMPLE_LUNS, VDS_SF_SUPPORTS_SIMPLE_TARGET_CONFIG, VDS_SF_SUPPORTS_SPAN_LUNS, VDS_SF_SUPPORTS_STRIPE_LUNS, VDS_SF_WRITE_CACHING_CAPABLE, VDS_SF_WRITE_THROUGH_CACHING_CAPABLE, VDS_SUB_SYSTEM_FLAG, VDS_SUB_SYSTEM_FLAG enumeration [VDS], base.vds_sub_system_flag, vds/VDS_SF_CONSISTENCY_CHECK_CAPABLE, vds/VDS_SF_DRIVE_EXTENT_CAPABLE, vds/VDS_SF_HARDWARE_CHECKSUM_CAPABLE, vds/VDS_SF_LUN_MASKING_CAPABLE, vds/VDS_SF_LUN_PLEXING_CAPABLE, vds/VDS_SF_LUN_REMAPPING_CAPABLE, vds/VDS_SF_MEDIA_SCAN_CAPABLE, vds/VDS_SF_RADIUS_CAPABLE, vds/VDS_SF_READ_BACK_VERIFY_CAPABLE, vds/VDS_SF_READ_CACHING_CAPABLE, vds/VDS_SF_SUPPORTS_AUTH_CHAP, vds/VDS_SF_SUPPORTS_AUTH_MUTUAL_CHAP, vds/VDS_SF_SUPPORTS_FAULT_TOLERANT_LUNS, vds/VDS_SF_SUPPORTS_LUN_NUMBER, vds/VDS_SF_SUPPORTS_MIRRORED_CACHE, vds/VDS_SF_SUPPORTS_MIRROR_LUNS, vds/VDS_SF_SUPPORTS_NON_FAULT_TOLERANT_LUNS, vds/VDS_SF_SUPPORTS_PARITY_LUNS, vds/VDS_SF_SUPPORTS_SIMPLE_LUNS, vds/VDS_SF_SUPPORTS_SIMPLE_TARGET_CONFIG, vds/VDS_SF_SUPPORTS_SPAN_LUNS, vds/VDS_SF_SUPPORTS_STRIPE_LUNS, vds/VDS_SF_WRITE_CACHING_CAPABLE, vds/VDS_SF_WRITE_THROUGH_CACHING_CAPABLE, vds/VDS_SUB_SYSTEM_FLAG, vdshwprv/VDS_SF_CONSISTENCY_CHECK_CAPABLE, vdshwprv/VDS_SF_DRIVE_EXTENT_CAPABLE, vdshwprv/VDS_SF_HARDWARE_CHECKSUM_CAPABLE, vdshwprv/VDS_SF_LUN_MASKING_CAPABLE, vdshwprv/VDS_SF_LUN_PLEXING_CAPABLE, vdshwprv/VDS_SF_LUN_REMAPPING_CAPABLE, vdshwprv/VDS_SF_MEDIA_SCAN_CAPABLE, vdshwprv/VDS_SF_RADIUS_CAPABLE, vdshwprv/VDS_SF_READ_BACK_VERIFY_CAPABLE, vdshwprv/VDS_SF_READ_CACHING_CAPABLE, vdshwprv/VDS_SF_SUPPORTS_AUTH_CHAP, vdshwprv/VDS_SF_SUPPORTS_AUTH_MUTUAL_CHAP, vdshwprv/VDS_SF_SUPPORTS_FAULT_TOLERANT_LUNS, vdshwprv/VDS_SF_SUPPORTS_LUN_NUMBER, vdshwprv/VDS_SF_SUPPORTS_MIRRORED_CACHE, vdshwprv/VDS_SF_SUPPORTS_MIRROR_LUNS, vdshwprv/VDS_SF_SUPPORTS_NON_FAULT_TOLERANT_LUNS, vdshwprv/VDS_SF_SUPPORTS_PARITY_LUNS, vdshwprv/VDS_SF_SUPPORTS_SIMPLE_LUNS, vdshwprv/VDS_SF_SUPPORTS_SIMPLE_TARGET_CONFIG, vdshwprv/VDS_SF_SUPPORTS_SPAN_LUNS, vdshwprv/VDS_SF_SUPPORTS_STRIPE_LUNS, vdshwprv/VDS_SF_WRITE_CACHING_CAPABLE, vdshwprv/VDS_SF_WRITE_THROUGH_CACHING_CAPABLE, vdshwprv/VDS_SUB_SYSTEM_FLAG"
+ms.keywords: '*PVDS_SUB_SYSTEM_FLAG, VDS_SF_CONSISTENCY_CHECK_CAPABLE, VDS_SF_DRIVE_EXTENT_CAPABLE, VDS_SF_HARDWARE_CHECKSUM_CAPABLE, VDS_SF_LUN_MASKING_CAPABLE, VDS_SF_LUN_PLEXING_CAPABLE, VDS_SF_LUN_REMAPPING_CAPABLE, VDS_SF_MEDIA_SCAN_CAPABLE, VDS_SF_RADIUS_CAPABLE, VDS_SF_READ_BACK_VERIFY_CAPABLE, VDS_SF_READ_CACHING_CAPABLE, VDS_SF_SUPPORTS_AUTH_CHAP, VDS_SF_SUPPORTS_AUTH_MUTUAL_CHAP, VDS_SF_SUPPORTS_FAULT_TOLERANT_LUNS, VDS_SF_SUPPORTS_LUN_NUMBER, VDS_SF_SUPPORTS_MIRRORED_CACHE, VDS_SF_SUPPORTS_MIRROR_LUNS, VDS_SF_SUPPORTS_NON_FAULT_TOLERANT_LUNS, VDS_SF_SUPPORTS_PARITY_LUNS, VDS_SF_SUPPORTS_SIMPLE_LUNS, VDS_SF_SUPPORTS_SIMPLE_TARGET_CONFIG, VDS_SF_SUPPORTS_SPAN_LUNS, VDS_SF_SUPPORTS_STRIPE_LUNS, VDS_SF_WRITE_CACHING_CAPABLE, VDS_SF_WRITE_THROUGH_CACHING_CAPABLE, VDS_SUB_SYSTEM_FLAG, VDS_SUB_SYSTEM_FLAG enumeration [VDS], base.vds_sub_system_flag, vds/VDS_SF_CONSISTENCY_CHECK_CAPABLE, vds/VDS_SF_DRIVE_EXTENT_CAPABLE, vds/VDS_SF_HARDWARE_CHECKSUM_CAPABLE, vds/VDS_SF_LUN_MASKING_CAPABLE, vds/VDS_SF_LUN_PLEXING_CAPABLE, vds/VDS_SF_LUN_REMAPPING_CAPABLE, vds/VDS_SF_MEDIA_SCAN_CAPABLE, vds/VDS_SF_RADIUS_CAPABLE, vds/VDS_SF_READ_BACK_VERIFY_CAPABLE, vds/VDS_SF_READ_CACHING_CAPABLE, vds/VDS_SF_SUPPORTS_AUTH_CHAP, vds/VDS_SF_SUPPORTS_AUTH_MUTUAL_CHAP, vds/VDS_SF_SUPPORTS_FAULT_TOLERANT_LUNS, vds/VDS_SF_SUPPORTS_LUN_NUMBER, vds/VDS_SF_SUPPORTS_MIRRORED_CACHE, vds/VDS_SF_SUPPORTS_MIRROR_LUNS, vds/VDS_SF_SUPPORTS_NON_FAULT_TOLERANT_LUNS, vds/VDS_SF_SUPPORTS_PARITY_LUNS, vds/VDS_SF_SUPPORTS_SIMPLE_LUNS, vds/VDS_SF_SUPPORTS_SIMPLE_TARGET_CONFIG, vds/VDS_SF_SUPPORTS_SPAN_LUNS, vds/VDS_SF_SUPPORTS_STRIPE_LUNS, vds/VDS_SF_WRITE_CACHING_CAPABLE, vds/VDS_SF_WRITE_THROUGH_CACHING_CAPABLE, vds/VDS_SUB_SYSTEM_FLAG, vdshwprv/VDS_SF_CONSISTENCY_CHECK_CAPABLE, vdshwprv/VDS_SF_DRIVE_EXTENT_CAPABLE, vdshwprv/VDS_SF_HARDWARE_CHECKSUM_CAPABLE, vdshwprv/VDS_SF_LUN_MASKING_CAPABLE, vdshwprv/VDS_SF_LUN_PLEXING_CAPABLE, vdshwprv/VDS_SF_LUN_REMAPPING_CAPABLE, vdshwprv/VDS_SF_MEDIA_SCAN_CAPABLE, vdshwprv/VDS_SF_RADIUS_CAPABLE, vdshwprv/VDS_SF_READ_BACK_VERIFY_CAPABLE, vdshwprv/VDS_SF_READ_CACHING_CAPABLE, vdshwprv/VDS_SF_SUPPORTS_AUTH_CHAP, vdshwprv/VDS_SF_SUPPORTS_AUTH_MUTUAL_CHAP, vdshwprv/VDS_SF_SUPPORTS_FAULT_TOLERANT_LUNS, vdshwprv/VDS_SF_SUPPORTS_LUN_NUMBER, vdshwprv/VDS_SF_SUPPORTS_MIRRORED_CACHE, vdshwprv/VDS_SF_SUPPORTS_MIRROR_LUNS, vdshwprv/VDS_SF_SUPPORTS_NON_FAULT_TOLERANT_LUNS, vdshwprv/VDS_SF_SUPPORTS_PARITY_LUNS, vdshwprv/VDS_SF_SUPPORTS_SIMPLE_LUNS, vdshwprv/VDS_SF_SUPPORTS_SIMPLE_TARGET_CONFIG, vdshwprv/VDS_SF_SUPPORTS_SPAN_LUNS, vdshwprv/VDS_SF_SUPPORTS_STRIPE_LUNS, vdshwprv/VDS_SF_WRITE_CACHING_CAPABLE, vdshwprv/VDS_SF_WRITE_THROUGH_CACHING_CAPABLE, vdshwprv/VDS_SUB_SYSTEM_FLAG'
 ms.topic: enum
-f1_keywords: 
- - "vdshwprv/VDS_SUB_SYSTEM_FLAG"
+f1_keywords:
+- vdshwprv/VDS_SUB_SYSTEM_FLAG
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_SUB_SYSTEM_FLAG
+- VDS_SUB_SYSTEM_FLAG
 product: Windows
 targetos: Windows
 req.typenames: VDS_SUB_SYSTEM_FLAG, *PVDS_SUB_SYSTEM_FLAG
@@ -166,35 +166,35 @@ The subsystem supports LUN numbering. See the <a href="https://docs.microsoft.co
 
 ### -field VDS_SF_SUPPORTS_MIRRORED_CACHE
 
-The subsystem supports LUNs that use a mirrored cache. See the <b>bUseMirroredCache</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_hints2">VDS_HINTS2</a> structure.
+The subsystem supports LUNs that use a mirrored cache. See the <b>bUseMirroredCache</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints2">VDS_HINTS2</a> structure.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This flag is not supported.
 
 
 ### -field VDS_SF_READ_CACHING_CAPABLE
 
-The subsystem supports read caching on LUNs. See the <b>VDS_LF_READ_CACHE_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_flag">VDS_LUN_FLAG</a> enumeration and the <b>bReadCachingEnabled</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_hints2">VDS_HINTS2</a> structure.
+The subsystem supports read caching on LUNs. See the <b>VDS_LF_READ_CACHE_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_flag">VDS_LUN_FLAG</a> enumeration and the <b>bReadCachingEnabled</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints2">VDS_HINTS2</a> structure.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This flag is not supported.
 
 
 ### -field VDS_SF_WRITE_CACHING_CAPABLE
 
-The subsystem supports write caching on LUNs. See the <b>VDS_LF_WRITE_CACHE_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_flag">VDS_LUN_FLAG</a> enumeration and the <b>bWriteCachingEnabled</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_hints2">VDS_HINTS2</a> structure.
+The subsystem supports write caching on LUNs. See the <b>VDS_LF_WRITE_CACHE_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_flag">VDS_LUN_FLAG</a> enumeration and the <b>bWriteCachingEnabled</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints2">VDS_HINTS2</a> structure.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This flag is not supported.
 
 
 ### -field VDS_SF_MEDIA_SCAN_CAPABLE
 
-The subsystem supports media scanning on LUNs. See the <b>VDS_LF_MEDIA_SCAN_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_flag">VDS_LUN_FLAG</a> enumeration and the <b>bMediaScanEnabled</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_hints2">VDS_HINTS2</a> structure.
+The subsystem supports media scanning on LUNs. See the <b>VDS_LF_MEDIA_SCAN_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_flag">VDS_LUN_FLAG</a> enumeration and the <b>bMediaScanEnabled</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints2">VDS_HINTS2</a> structure.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This flag is not supported.
 
 
 ### -field VDS_SF_CONSISTENCY_CHECK_CAPABLE
 
-The subsystem supports consistency checking on LUNs. See the <b>VDS_LF_CONSISTENCY_CHECK_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_flag">VDS_LUN_FLAG</a> enumeration and the <b>bConsistencyCheckEnabled</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_hints2">VDS_HINTS2</a> structure.
+The subsystem supports consistency checking on LUNs. See the <b>VDS_LF_CONSISTENCY_CHECK_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_flag">VDS_LUN_FLAG</a> enumeration and the <b>bConsistencyCheckEnabled</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints2">VDS_HINTS2</a> structure.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This flag is not supported.
 
@@ -204,7 +204,7 @@ The subsystem supports consistency checking on LUNs. See the <b>VDS_LF_CONSISTEN
 
 
 This enumeration provides the values for the  <b>ulFlags</b> member of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_sub_system_prop">VDS_SUB_SYSTEM_PROP</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_sub_system_prop2">VDS_SUB_SYSTEM_PROP2</a> structures.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_sub_system_prop">VDS_SUB_SYSTEM_PROP</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_sub_system_prop2">VDS_SUB_SYSTEM_PROP2</a> structures.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_SUB_SYSTEM_FLAG</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_SUB_SYSTEM_FLAG</b> enumeration constant.</div>
 <div> </div>
@@ -220,11 +220,11 @@ This enumeration provides the values for the  <b>ulFlags</b> member of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_sub_system_prop">VDS_SUB_SYSTEM_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_sub_system_prop">VDS_SUB_SYSTEM_PROP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_sub_system_prop2">VDS_SUB_SYSTEM_PROP2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_sub_system_prop2">VDS_SUB_SYSTEM_PROP2</a>
  
 
  

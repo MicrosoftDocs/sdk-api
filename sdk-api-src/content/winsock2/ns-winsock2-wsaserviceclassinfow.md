@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: 02422c24-34a6-4e34-a795-66b0b687ac44
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPWSASERVICECLASSINFOW, *PWSASERVICECLASSINFOW, PWSASERVICECLASSINFOW, PWSASERVICECLASSINFOW structure pointer [Winsock], WSASERVICECLASSINFO, WSASERVICECLASSINFO structure [Winsock], WSASERVICECLASSINFOA, WSASERVICECLASSINFOW, _win32_wsaserviceclassinfo_2, winsock.wsaserviceclassinfo_2, winsock2/PWSASERVICECLASSINFOW, winsock2/WSASERVICECLASSINFO, winsock2/WSASERVICECLASSINFOA, winsock2/WSASERVICECLASSINFOW"
+ms.keywords: '*LPWSASERVICECLASSINFOW, *PWSASERVICECLASSINFOW, PWSASERVICECLASSINFOW, PWSASERVICECLASSINFOW structure pointer [Winsock], WSASERVICECLASSINFO, WSASERVICECLASSINFO structure [Winsock], WSASERVICECLASSINFOA, WSASERVICECLASSINFOW, _win32_wsaserviceclassinfo_2, winsock.wsaserviceclassinfo_2, winsock2/PWSASERVICECLASSINFOW, winsock2/WSASERVICECLASSINFO, winsock2/WSASERVICECLASSINFOA, winsock2/WSASERVICECLASSINFOW'
 ms.topic: struct
-f1_keywords: 
- - "winsock2/WSASERVICECLASSINFO"
+f1_keywords:
+- winsock2/WSASERVICECLASSINFO
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsock2.h
+- Winsock2.h
 api_name:
- - WSASERVICECLASSINFO
- - WSASERVICECLASSINFOA
- - WSASERVICECLASSINFOW
+- WSASERVICECLASSINFO
+- WSASERVICECLASSINFOA
+- WSASERVICECLASSINFOW
 product: Windows
 targetos: Windows
 req.typenames: WSASERVICECLASSINFOW, *PWSASERVICECLASSINFOW, *LPWSASERVICECLASSINFOW
@@ -80,7 +80,7 @@ Number of entries in <b>lpClassInfos</b>.
 
 ### -field lpClassInfos
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsansclassinfow">WSANSCLASSINFO</a> structures that contains information about the service class.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsansclassinfow">WSANSCLASSINFO</a> structures that contains information about the service class.
 
 
 ## -see-also

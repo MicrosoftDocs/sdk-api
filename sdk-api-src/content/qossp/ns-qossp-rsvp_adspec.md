@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: 90fad5de-7105-4126-a6db-d4fb663e01f4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPRSVP_ADSPEC, LPRSVP_ADSPEC, LPRSVP_ADSPEC structure pointer [QOS], RSVP_ADSPEC, RSVP_ADSPEC structure [QOS], _gqos_rsvp_adspec, qos.rsvp_adspec, qossp/LPRSVP_ADSPEC, qossp/RSVP_ADSPEC"
+ms.keywords: '*LPRSVP_ADSPEC, LPRSVP_ADSPEC, LPRSVP_ADSPEC structure pointer [QOS], RSVP_ADSPEC, RSVP_ADSPEC structure [QOS], _gqos_rsvp_adspec, qos.rsvp_adspec, qossp/LPRSVP_ADSPEC, qossp/RSVP_ADSPEC'
 ms.topic: struct
-f1_keywords: 
- - "qossp/RSVP_ADSPEC"
+f1_keywords:
+- qossp/RSVP_ADSPEC
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qossp.h
+- Qossp.h
 api_name:
- - RSVP_ADSPEC
+- RSVP_ADSPEC
 product: Windows
 targetos: Windows
 req.typenames: RSVP_ADSPEC, *LPRSVP_ADSPEC
@@ -70,7 +70,7 @@ The QOS object
 
 ### -field GeneralParams
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_ad_general_params">AD_GENERAL_PARAMS</a> structure that provides general characterization parameters for the flow. Information includes RSVP-enabled hop count, bandwidth and latency estimates, and the path's MTU.
+An <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-ad_general_params">AD_GENERAL_PARAMS</a> structure that provides general characterization parameters for the flow. Information includes RSVP-enabled hop count, bandwidth and latency estimates, and the path's MTU.
 
 
 ### -field NumberOfServices
@@ -80,7 +80,7 @@ Provides a count of the number of services available.
 
 ### -field Services
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_control_service">CONTROL_SERVICE</a> array, its element count based on <b>NumberOfServices</b>, which provides information about the services available along the data path between the sender and receiver of a given flow.
+A <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-control_service">CONTROL_SERVICE</a> array, its element count based on <b>NumberOfServices</b>, which provides information about the services available along the data path between the sender and receiver of a given flow.
 
 
 ## -see-also

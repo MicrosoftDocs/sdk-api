@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7d2d38c0-249d-47c3-acda-ba1bec721a5c, DXVA2_SampleFieldInterleavedEvenFirst, DXVA2_SampleFieldInterleavedOddFirst, DXVA2_SampleFieldSingleEven, DXVA2_SampleFieldSingleOdd, DXVA2_SampleFormat, DXVA2_SampleFormat enumeration [Media Foundation], DXVA2_SampleFormatMask, DXVA2_SampleProgressiveFrame, DXVA2_SampleSubStream, DXVA2_SampleUnknown, dxva2api/DXVA2_SampleFieldInterleavedEvenFirst, dxva2api/DXVA2_SampleFieldInterleavedOddFirst, dxva2api/DXVA2_SampleFieldSingleEven, dxva2api/DXVA2_SampleFieldSingleOdd, dxva2api/DXVA2_SampleFormat, dxva2api/DXVA2_SampleFormatMask, dxva2api/DXVA2_SampleProgressiveFrame, dxva2api/DXVA2_SampleSubStream, dxva2api/DXVA2_SampleUnknown, mf.dxva2_sampleformat
 ms.topic: enum
-f1_keywords: 
- - "dxva2api/DXVA2_SampleFormat"
+f1_keywords:
+- dxva2api/DXVA2_SampleFormat
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - DXVA2_SampleFormat
+- DXVA2_SampleFormat
 product: Windows
 targetos: Windows
 req.typenames: DXVA2_SampleFormat
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-Describes the content of a video sample. These flags are used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
+Describes the content of a video sample. These flags are used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
 
 
 
@@ -108,7 +108,7 @@ The sample contains a video substream frame. Use this value for substream mixing
 
 This enumeration is equivalent to the <b>DXVA_SampleFormat</b> enumeration used in DXVA 1.0.
 
-The following table shows the mapping from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideointerlacemode">MFVideoInterlaceMode</a> enumeration values, which are used in Media Foundation media types, to <b>DXVA2_SampleFormat</b> values.
+The following table shows the mapping from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mfvideointerlacemode">MFVideoInterlaceMode</a> enumeration values, which are used in Media Foundation media types, to <b>DXVA2_SampleFormat</b> values.
 
 <table>
 <tr>
@@ -148,7 +148,7 @@ The following table shows the mapping from <a href="https://docs.microsoft.com/w
 
 With the exception of MFVideoInterlace_MixedInterlaceOrProgressive, each pair of corresponding enumeration values has the same numeric value.
 
-The value DXVA2_SampleSubStream has no equivalent in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideointerlacemode">MFVideoInterlaceMode</a> enumeration.
+The value DXVA2_SampleSubStream has no equivalent in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mfvideointerlacemode">MFVideoInterlaceMode</a> enumeration.
 
 
 

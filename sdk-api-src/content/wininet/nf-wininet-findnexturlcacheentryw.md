@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindNextUrlCacheEntry, FindNextUrlCacheEntry function [WinINet], FindNextUrlCacheEntryA, FindNextUrlCacheEntryW, _inet_findnexturlcacheentry_function, wininet.findnexturlcacheentry, wininet/FindNextUrlCacheEntry, wininet/FindNextUrlCacheEntryA, wininet/FindNextUrlCacheEntryW
 ms.topic: function
-f1_keywords: 
- - "wininet/FindNextUrlCacheEntry"
+f1_keywords:
+- wininet/FindNextUrlCacheEntry
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - FindNextUrlCacheEntry
- - FindNextUrlCacheEntryA
- - FindNextUrlCacheEntryW
+- FindNextUrlCacheEntry
+- FindNextUrlCacheEntryA
+- FindNextUrlCacheEntryW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ Handle to the enumeration obtained from a previous call to
 ### -param lpNextCacheEntryInfo [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-_internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> structure that receives information about the cache entry.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> structure that receives information about the cache entry.
 
 
 ### -param lpcbCacheEntryInfo [in, out]

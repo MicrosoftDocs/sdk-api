@@ -8,10 +8,10 @@ tech.root: SecMgmt
 ms.assetid: ef4d1d1d-9b1b-4d67-80b8-2b548ec31a87
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPOLICY_MODIFICATION_INFO, POLICY_MODIFICATION_INFO, POLICY_MODIFICATION_INFO structure [Security], PPOLICY_MODIFICATION_INFO, PPOLICY_MODIFICATION_INFO structure pointer [Security], _POLICY_MODIFICATION_INFO, _lsa_policy_modification_info, ntsecapi/POLICY_MODIFICATION_INFO, ntsecapi/PPOLICY_MODIFICATION_INFO, security.policy_modification_info"
+ms.keywords: '*PPOLICY_MODIFICATION_INFO, POLICY_MODIFICATION_INFO, POLICY_MODIFICATION_INFO structure [Security], PPOLICY_MODIFICATION_INFO, PPOLICY_MODIFICATION_INFO structure pointer [Security], _POLICY_MODIFICATION_INFO, _lsa_policy_modification_info, ntsecapi/POLICY_MODIFICATION_INFO, ntsecapi/PPOLICY_MODIFICATION_INFO, security.policy_modification_info'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/POLICY_MODIFICATION_INFO"
+f1_keywords:
+- ntsecapi/POLICY_MODIFICATION_INFO
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - POLICY_MODIFICATION_INFO
+- POLICY_MODIFICATION_INFO
 product: Windows
 targetos: Windows
 req.typenames: POLICY_MODIFICATION_INFO, *PPOLICY_MODIFICATION_INFO
@@ -89,7 +89,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_policy_information_class">POLICY_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_information_class">POLICY_INFORMATION_CLASS</a>
  
 
  

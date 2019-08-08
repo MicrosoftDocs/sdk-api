@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Interval, MI_Interval structure [Windows Management Infrastructure (MI)], mi/MI_Interval, wmi._mi_interval, wmi_v2.mi_interval
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_Interval"
+f1_keywords:
+- mi/MI_Interval
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Interval
+- MI_Interval
 product: Windows
 targetos: Windows
 req.typenames: MI_Interval
@@ -86,15 +86,15 @@ The remaining number of microseconds in the interval. (0-999999)
 
 ### -field __padding1
 
-Reserved. The <b>MI_Interval</b> structure is padded to have the same size as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_timestamp">MI_Timestamp</a>.
+Reserved. The <b>MI_Interval</b> structure is padded to have the same size as <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_timestamp">MI_Timestamp</a>.
 
 
 ### -field __padding2
 
-Reserved. The <b>MI_Interval</b> structure is padded to have the same size as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_timestamp">MI_Timestamp</a>.
+Reserved. The <b>MI_Interval</b> structure is padded to have the same size as <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_timestamp">MI_Timestamp</a>.
 
 
 ### -field __padding3
 
-Reserved. The <b>MI_Interval</b> structure is padded to have the same size as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_timestamp">MI_Timestamp</a>.
+Reserved. The <b>MI_Interval</b> structure is padded to have the same size as <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_timestamp">MI_Timestamp</a>.
 

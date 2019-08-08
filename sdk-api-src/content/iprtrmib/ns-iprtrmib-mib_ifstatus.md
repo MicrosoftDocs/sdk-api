@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: ab5afe84-1e14-4ffd-9bf6-f3b319554608
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_IFSTATUS, MIB_IFSTATUS, MIB_IFSTATUS structure [MIB], PMIB_IFSTATUS, PMIB_IFSTATUS structure pointer [MIB], _mpr_mib_ifstatus, iprtrmib/MIB_IFSTATUS, iprtrmib/PMIB_IFSTATUS, mib.mib_ifstatus, rras.mib_ifstatus"
+ms.keywords: '*PMIB_IFSTATUS, MIB_IFSTATUS, MIB_IFSTATUS structure [MIB], PMIB_IFSTATUS, PMIB_IFSTATUS structure pointer [MIB], _mpr_mib_ifstatus, iprtrmib/MIB_IFSTATUS, iprtrmib/PMIB_IFSTATUS, mib.mib_ifstatus, rras.mib_ifstatus'
 ms.topic: struct
-f1_keywords: 
- - "iprtrmib/MIB_IFSTATUS"
+f1_keywords:
+- iprtrmib/MIB_IFSTATUS
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iprtrmib.h
+- Iprtrmib.h
 api_name:
- - MIB_IFSTATUS
+- MIB_IFSTATUS
 product: Windows
 targetos: Windows
 req.typenames: MIB_IFSTATUS, *PMIB_IFSTATUS
@@ -72,7 +72,7 @@ The administrative status of the interface, that is, whether the interface is ad
 
 ### -field dwOperationalStatus
 
-The operational status of the interface. This member can be one of the values defined in the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_router_connection_state">ROUTER_CONNECTION_STATE</a> enumeration defined in the <i>Mprapip.h</i> header file. See 
+The operational status of the interface. This member can be one of the values defined in the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_connection_state">ROUTER_CONNECTION_STATE</a> enumeration defined in the <i>Mprapip.h</i> header file. See 
 the <b>ROUTER_CONNECTION_STATE</b> enumeration for a list amd description of the possible operational states.
 
 
@@ -100,15 +100,15 @@ Note that the <i>Iprtrmib.h</i> header file is automatically included in the <i>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ifmib/ns-ifmib-_mib_ifrow">MIB_IFROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_interface_0">MPR_INTERFACE_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_0">MPR_INTERFACE_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_interface_1">MPR_INTERFACE_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_1">MPR_INTERFACE_1</a>
  
 
  

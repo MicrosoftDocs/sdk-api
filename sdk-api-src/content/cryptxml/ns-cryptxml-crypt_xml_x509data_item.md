@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_X509DATA_ITEM, CRYPT_XML_X509DATA_ITEM structure [Security], CRYPT_XML_X509DATA_TYPE_CERTIFICATE, CRYPT_XML_X509DATA_TYPE_CRL, CRYPT_XML_X509DATA_TYPE_CUSTOM, CRYPT_XML_X509DATA_TYPE_ISSUER_SERIAL, CRYPT_XML_X509DATA_TYPE_SKI, CRYPT_XML_X509DATA_TYPE_SUBJECT_NAME, cryptxml/CRYPT_XML_X509DATA_ITEM, security.crypt_xml_x509data_item
 ms.topic: struct
-f1_keywords: 
- - "cryptxml/CRYPT_XML_X509DATA_ITEM"
+f1_keywords:
+- cryptxml/CRYPT_XML_X509DATA_ITEM
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - CRYPT_XML_X509DATA_ITEM
+- CRYPT_XML_X509DATA_ITEM
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_X509DATA_ITEM
@@ -145,12 +145,12 @@ The X.509 data is a custom format.
 
 ### -field IssuerSerial
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_issuer_serial">CRYPT_XML_ISSUER_SERIAL</a> structure that contains serial number data.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_issuer_serial">CRYPT_XML_ISSUER_SERIAL</a> structure that contains serial number data.
 
 
 ### -field SKI
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> structure that contains SKI data.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> structure that contains SKI data.
 
 
 ### -field wszSubjectName
@@ -160,15 +160,15 @@ A pointer to a null-terminated Unicode string that contains the subject name.
 
 ### -field Certificate
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> structure that contains certificate data.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> structure that contains certificate data.
 
 
 ### -field CRL
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> that contains a CRL.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> that contains a CRL.
 
 
 ### -field Custom
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains custom data.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains custom data.
 

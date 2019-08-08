@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWitnessTagHelper, PWitnessTagHelper structure pointer [Failover Cluster], WitnessTagHelper, WitnessTagHelper structure [Failover Cluster], mscs.witnesstaghelper, resapi/PWitnessTagHelper, resapi/WitnessTagHelper
 ms.topic: struct
-f1_keywords: 
- - "resapi/WitnessTagHelper"
+f1_keywords:
+- resapi/WitnessTagHelper
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - WitnessTagHelper
+- WitnessTagHelper
 product: Windows
 targetos: Windows
 req.typenames: WitnessTagHelper
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information used to validate a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-_paxostagcstruct">PaxosTagCStruct</a> structure.
+Contains information used to validate a <a href="https://docs.microsoft.com/windows/desktop/api/resapi/ns-resapi-paxostagcstruct">PaxosTagCStruct</a> structure.
 
 
 ## -struct-fields
@@ -78,7 +78,7 @@ The Paxos tag to validate.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-_witnesstagupdatehelper">WitnessTagUpdateHelper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/ns-resapi-witnesstagupdatehelper">WitnessTagUpdateHelper</a>
  
 
  

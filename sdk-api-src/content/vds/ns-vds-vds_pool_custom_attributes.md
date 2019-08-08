@@ -8,10 +8,10 @@ tech.root: VDS
 ms.assetid: beea122a-476c-43e0-bb70-2555d4211bf7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVDS_POOL_CUSTOM_ATTRIBUTES, PVDS_POOL_CUSTOM_ATTRIBUTES, PVDS_POOL_CUSTOM_ATTRIBUTES structure pointer, VDS_POOL_CUSTOM_ATTRIBUTES, VDS_POOL_CUSTOM_ATTRIBUTES structure, base.vds_pool_custom_attributes, vds/PVDS_POOL_CUSTOM_ATTRIBUTES, vds/VDS_POOL_CUSTOM_ATTRIBUTES, vdshwprv/PVDS_POOL_CUSTOM_ATTRIBUTES, vdshwprv/VDS_POOL_CUSTOM_ATTRIBUTES"
+ms.keywords: '*PVDS_POOL_CUSTOM_ATTRIBUTES, PVDS_POOL_CUSTOM_ATTRIBUTES, PVDS_POOL_CUSTOM_ATTRIBUTES structure pointer, VDS_POOL_CUSTOM_ATTRIBUTES, VDS_POOL_CUSTOM_ATTRIBUTES structure, base.vds_pool_custom_attributes, vds/PVDS_POOL_CUSTOM_ATTRIBUTES, vds/VDS_POOL_CUSTOM_ATTRIBUTES, vdshwprv/PVDS_POOL_CUSTOM_ATTRIBUTES, vdshwprv/VDS_POOL_CUSTOM_ATTRIBUTES'
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_POOL_CUSTOM_ATTRIBUTES"
+f1_keywords:
+- vds/VDS_POOL_CUSTOM_ATTRIBUTES
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_POOL_CUSTOM_ATTRIBUTES
+- VDS_POOL_CUSTOM_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.typenames: VDS_POOL_CUSTOM_ATTRIBUTES, *PVDS_POOL_CUSTOM_ATTRIBUTES
@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-Defines a custom attribute of a <a href="https://docs.microsoft.com/windows/desktop/VDS/storage-pool-object">storage pool</a>. This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_pool_attributes">pPoolCustomAttributes</a> member of the <b>VDS_POOL_ATTRIBUTES</b> structure.
+Defines a custom attribute of a <a href="https://docs.microsoft.com/windows/desktop/VDS/storage-pool-object">storage pool</a>. This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_pool_attributes">pPoolCustomAttributes</a> member of the <b>VDS_POOL_ATTRIBUTES</b> structure.
 
 
 ## -struct-fields
@@ -90,7 +90,7 @@ A custom attribute can be used to indicate, for example, the RAID types that can
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_pool_attributes">VDS_POOL_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_pool_attributes">VDS_POOL_ATTRIBUTES</a>
  
 
  

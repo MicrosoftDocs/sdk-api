@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 922ab0b5-2363-4073-9252-a71b79e03573, MFCreateVideoMediaTypeFromVideoInfoHeader, MFCreateVideoMediaTypeFromVideoInfoHeader function [Media Foundation], mf.mfcreatevideomediatypefromvideoinfoheader, mfapi/MFCreateVideoMediaTypeFromVideoInfoHeader
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateVideoMediaTypeFromVideoInfoHeader"
+f1_keywords:
+- mfapi/MFCreateVideoMediaTypeFromVideoInfoHeader
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Evr.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateVideoMediaTypeFromVideoInfoHeader
+- MFCreateVideoMediaTypeFromVideoInfoHeader
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,12 +82,12 @@ The Y dimension of the pixel aspect ratio.
 
 ### -param InterlaceMode
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideointerlacemode">MFVideoInterlaceMode</a> enumeration that specifies how the video is interlaced.
+Member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mfvideointerlacemode">MFVideoInterlaceMode</a> enumeration that specifies how the video is interlaced.
 
 
 ### -param VideoFlags
 
-Bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideoflags">MFVideoFlags</a> enumeration.
+Bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mfvideoflags">MFVideoFlags</a> enumeration.
 
 
 ### -param pSubtype

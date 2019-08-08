@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 9498558c-8daf-4dfb-aa1c-0598154ca8c4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMSV1_0_PROTOCOL_MESSAGE_TYPE, MSV1_0_PROTOCOL_MESSAGE_TYPE, MSV1_0_PROTOCOL_MESSAGE_TYPE enumeration [Security], MsV1_0CacheLogon, MsV1_0CacheLookup, MsV1_0CacheLookupEx, MsV1_0ChangeCachedPassword, MsV1_0ChangePassword, MsV1_0ClearCachedCredentials, MsV1_0ConfigLocalAliases, MsV1_0DeriveCredential, MsV1_0EnumerateUsers, MsV1_0GenericPassthrough, MsV1_0GetCredentialKey, MsV1_0GetUserInfo, MsV1_0Lm20ChallengeRequest, MsV1_0Lm20GetChallengeResponse, MsV1_0LookupToken, MsV1_0ReLogonUsers, MsV1_0SetProcessOption, MsV1_0SetThreadOption, MsV1_0SubAuth, MsV1_0ValidateAuth, PMSV1_0_PROTOCOL_MESSAGE_TYPE, PMSV1_0_PROTOCOL_MESSAGE_TYPE enumeration pointer [Security], _lsa_msv1_0_protocol_message_type, ntsecapi/MSV1_0_PROTOCOL_MESSAGE_TYPE, ntsecapi/MsV1_0CacheLogon, ntsecapi/MsV1_0CacheLookup, ntsecapi/MsV1_0CacheLookupEx, ntsecapi/MsV1_0ChangeCachedPassword, ntsecapi/MsV1_0ChangePassword, ntsecapi/MsV1_0ClearCachedCredentials, ntsecapi/MsV1_0ConfigLocalAliases, ntsecapi/MsV1_0DeriveCredential, ntsecapi/MsV1_0EnumerateUsers, ntsecapi/MsV1_0GenericPassthrough, ntsecapi/MsV1_0GetCredentialKey, ntsecapi/MsV1_0GetUserInfo, ntsecapi/MsV1_0Lm20ChallengeRequest, ntsecapi/MsV1_0Lm20GetChallengeResponse, ntsecapi/MsV1_0LookupToken, ntsecapi/MsV1_0ReLogonUsers, ntsecapi/MsV1_0SetProcessOption, ntsecapi/MsV1_0SetThreadOption, ntsecapi/MsV1_0SubAuth, ntsecapi/MsV1_0ValidateAuth, ntsecapi/PMSV1_0_PROTOCOL_MESSAGE_TYPE, security.msv1_0_protocol_message_type"
+ms.keywords: '*PMSV1_0_PROTOCOL_MESSAGE_TYPE, MSV1_0_PROTOCOL_MESSAGE_TYPE, MSV1_0_PROTOCOL_MESSAGE_TYPE enumeration [Security], MsV1_0CacheLogon, MsV1_0CacheLookup, MsV1_0CacheLookupEx, MsV1_0ChangeCachedPassword, MsV1_0ChangePassword, MsV1_0ClearCachedCredentials, MsV1_0ConfigLocalAliases, MsV1_0DeriveCredential, MsV1_0EnumerateUsers, MsV1_0GenericPassthrough, MsV1_0GetCredentialKey, MsV1_0GetUserInfo, MsV1_0Lm20ChallengeRequest, MsV1_0Lm20GetChallengeResponse, MsV1_0LookupToken, MsV1_0ReLogonUsers, MsV1_0SetProcessOption, MsV1_0SetThreadOption, MsV1_0SubAuth, MsV1_0ValidateAuth, PMSV1_0_PROTOCOL_MESSAGE_TYPE, PMSV1_0_PROTOCOL_MESSAGE_TYPE enumeration pointer [Security], _lsa_msv1_0_protocol_message_type, ntsecapi/MSV1_0_PROTOCOL_MESSAGE_TYPE, ntsecapi/MsV1_0CacheLogon, ntsecapi/MsV1_0CacheLookup, ntsecapi/MsV1_0CacheLookupEx, ntsecapi/MsV1_0ChangeCachedPassword, ntsecapi/MsV1_0ChangePassword, ntsecapi/MsV1_0ClearCachedCredentials, ntsecapi/MsV1_0ConfigLocalAliases, ntsecapi/MsV1_0DeriveCredential, ntsecapi/MsV1_0EnumerateUsers, ntsecapi/MsV1_0GenericPassthrough, ntsecapi/MsV1_0GetCredentialKey, ntsecapi/MsV1_0GetUserInfo, ntsecapi/MsV1_0Lm20ChallengeRequest, ntsecapi/MsV1_0Lm20GetChallengeResponse, ntsecapi/MsV1_0LookupToken, ntsecapi/MsV1_0ReLogonUsers, ntsecapi/MsV1_0SetProcessOption, ntsecapi/MsV1_0SetThreadOption, ntsecapi/MsV1_0SubAuth, ntsecapi/MsV1_0ValidateAuth, ntsecapi/PMSV1_0_PROTOCOL_MESSAGE_TYPE, security.msv1_0_protocol_message_type'
 ms.topic: enum
-f1_keywords: 
- - "ntsecapi/MSV1_0_PROTOCOL_MESSAGE_TYPE"
+f1_keywords:
+- ntsecapi/MSV1_0_PROTOCOL_MESSAGE_TYPE
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - MSV1_0_PROTOCOL_MESSAGE_TYPE
+- MSV1_0_PROTOCOL_MESSAGE_TYPE
 product: Windows
 targetos: Windows
 req.typenames: MSV1_0_PROTOCOL_MESSAGE_TYPE, *PMSV1_0_PROTOCOL_MESSAGE_TYPE
@@ -67,7 +67,7 @@ The <b>MSV1_0_PROTOCOL_MESSAGE_TYPE</b> enumeration lists the types of messages 
 
 This dispatch routine serves as the first half of an NTLM version 2.0 protocol logon. The challenge returned by this call may be delivered to the initiating NTLM 2.0 node. When that node responds with a challenge response, a <b>MsV1_0Lm20Logon</b> message to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function is used to complete the logon. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_msv1_0_logon_submit_type">MSV1_0_LOGON_SUBMIT_TYPE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_logon_submit_type">MSV1_0_LOGON_SUBMIT_TYPE</a>.
 
 
 ### -field MsV1_0Lm20GetChallengeResponse
@@ -120,8 +120,8 @@ This dispatch routine changes the password of an account.
 ### -field MsV1_0SubAuth
 
  This dispatch routine is called to submit a buffer to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subauthentication package</a>. If the subauthentication is local, use this dispatch routine. If the subauthentication needs to be processed on the domain controller, use the <b>MsV1_0GenericPassthrough</b> dispatch routine with 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_msv1_0_subauth_request">MSV1_0_SUBAUTH_REQUEST</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_msv1_0_subauth_response">MSV1_0_SUBAUTH_RESPONSE</a> buffers.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_subauth_request">MSV1_0_SUBAUTH_REQUEST</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_subauth_response">MSV1_0_SUBAUTH_RESPONSE</a> buffers.
 
 
 ### -field MsV1_0DeriveCredential

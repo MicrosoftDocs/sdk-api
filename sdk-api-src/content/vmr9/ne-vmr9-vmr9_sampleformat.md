@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VMR9_SampleFieldInterleavedEvenFirst, VMR9_SampleFieldInterleavedOddFirst, VMR9_SampleFieldSingleEven, VMR9_SampleFieldSingleOdd, VMR9_SampleFormat, VMR9_SampleFormat , VMR9_SampleFormat enumeration [DirectShow], VMR9_SampleProgressiveFrame, VMR9_SampleReserved, dshow.vmr9_sampleformat, vmr9/VMR9_SampleFieldInterleavedEvenFirst, vmr9/VMR9_SampleFieldInterleavedOddFirst, vmr9/VMR9_SampleFieldSingleEven, vmr9/VMR9_SampleFieldSingleOdd, vmr9/VMR9_SampleFormat, vmr9/VMR9_SampleProgressiveFrame, vmr9/VMR9_SampleReserved
 ms.topic: enum
-f1_keywords: 
- - "vmr9/VMR9_SampleFormat"
+f1_keywords:
+- vmr9/VMR9_SampleFormat
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vmr9.h
+- Vmr9.h
 api_name:
- - VMR9_SampleFormat
+- VMR9_SampleFormat
 product: Windows
 targetos: Windows
 req.typenames: VMR9_SampleFormat
@@ -107,11 +107,11 @@ The sample contains a single field, and each line in the sample corresponds to t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9videodesc">VMR9VideoDesc</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9videodesc">VMR9VideoDesc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9videostreaminfo">VMR9VideoStreamInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9videostreaminfo">VMR9VideoStreamInfo</a>
  
 
  

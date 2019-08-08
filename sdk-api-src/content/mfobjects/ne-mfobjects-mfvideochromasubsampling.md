@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 778d0456-f98e-44ac-afb7-9ce01da06741, MFVideoChromaSubsampling, MFVideoChromaSubsampling enumeration [Media Foundation], MFVideoChromaSubsampling_Cosited, MFVideoChromaSubsampling_DV_PAL, MFVideoChromaSubsampling_ForceDWORD, MFVideoChromaSubsampling_Horizontally_Cosited, MFVideoChromaSubsampling_Last, MFVideoChromaSubsampling_MPEG1, MFVideoChromaSubsampling_MPEG2, MFVideoChromaSubsampling_ProgressiveChroma, MFVideoChromaSubsampling_Unknown, MFVideoChromaSubsampling_Vertically_AlignedChromaPlanes, MFVideoChromaSubsampling_Vertically_Cosited, mf.mfvideochromasubsampling, mfobjects/MFVideoChromaSubsampling, mfobjects/MFVideoChromaSubsampling_Cosited, mfobjects/MFVideoChromaSubsampling_DV_PAL, mfobjects/MFVideoChromaSubsampling_ForceDWORD, mfobjects/MFVideoChromaSubsampling_Horizontally_Cosited, mfobjects/MFVideoChromaSubsampling_Last, mfobjects/MFVideoChromaSubsampling_MPEG1, mfobjects/MFVideoChromaSubsampling_MPEG2, mfobjects/MFVideoChromaSubsampling_ProgressiveChroma, mfobjects/MFVideoChromaSubsampling_Unknown, mfobjects/MFVideoChromaSubsampling_Vertically_AlignedChromaPlanes, mfobjects/MFVideoChromaSubsampling_Vertically_Cosited
 ms.topic: enum
-f1_keywords: 
- - "mfobjects/MFVideoChromaSubsampling"
+f1_keywords:
+- mfobjects/MFVideoChromaSubsampling
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - MFVideoChromaSubsampling
+- MFVideoChromaSubsampling
 product: Windows
 targetos: Windows
 req.typenames: MFVideoChromaSubsampling
@@ -123,7 +123,7 @@ Reserved. This member forces the enumeration type to compile as a <b>DWORD</b> v
 
 These flags are used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-video-chroma-siting-attribute">MF_MT_VIDEO_CHROMA_SITING</a> attribute.
 
-For more information about these values, see the remarks for the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_videochromasubsampling">DXVA2_VideoChromaSubSampling</a> enumeration, which is the DirectX Video Acceleration (DXVA) equivalent of this enumeration.
+For more information about these values, see the remarks for the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ne-dxva2api-dxva2_videochromasubsampling">DXVA2_VideoChromaSubSampling</a> enumeration, which is the DirectX Video Acceleration (DXVA) equivalent of this enumeration.
 
 
 

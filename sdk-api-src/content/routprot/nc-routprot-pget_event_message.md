@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEventMessage, PGET_EVENT_MESSAGE, PGET_EVENT_MESSAGE callback, PGET_EVENT_MESSAGE callback function [RAS], ROUTER_STOPPED, SAVE_GLOBAL_CONFIG_INFO, SAVE_INTERFACE_CONFIG_INFO, UPDATE_COMPLETE, _mpr_geteventmessage, routprot/PGET_EVENT_MESSAGE, rras.geteventmessage
 ms.topic: callback
-f1_keywords: 
- - "routprot/PGET_EVENT_MESSAGE"
+f1_keywords:
+- routprot/PGET_EVENT_MESSAGE
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Routprot.h
+- Routprot.h
 api_name:
- - PGET_EVENT_MESSAGE
+- PGET_EVENT_MESSAGE
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -126,7 +126,7 @@ The routing protocol has completed an autostatic update request from the router 
 ### -param *Result [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_message">MESSAGE</a> union. The contents of the message are specific to the reported event. 
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-message">MESSAGE</a> union. The contents of the message are specific to the reported event. 
 
 
 
@@ -158,7 +158,7 @@ If the routing protocol's message queue does not contain any entries, the return
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_message">MESSAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-message">MESSAGE</a>
 
 
 

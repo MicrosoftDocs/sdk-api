@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CREDUI_FLAGS_ALWAYS_SHOW_UI, CREDUI_FLAGS_DO_NOT_PERSIST, CREDUI_FLAGS_EXCLUDE_CERTIFICATES, CREDUI_FLAGS_EXPECT_CONFIRMATION, CREDUI_FLAGS_GENERIC_CREDENTIALS, CREDUI_FLAGS_INCORRECT_PASSWORD, CREDUI_FLAGS_PERSIST, CREDUI_FLAGS_REQUEST_ADMINISTRATOR, CREDUI_FLAGS_REQUIRE_CERTIFICATE, CREDUI_FLAGS_REQUIRE_SMARTCARD, CREDUI_FLAGS_SERVER_CREDENTIAL, CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX, CREDUI_FLAGS_USERNAME_TARGET_CREDENTIALS, CredUICmdLinePromptForCredentials, CredUICmdLinePromptForCredentials function [Security], CredUICmdLinePromptForCredentialsA, CredUICmdLinePromptForCredentialsW, _cred_creduicmdlinepromptforcredentials, security.creduicmdlinepromptforcredentials, wincred/CredUICmdLinePromptForCredentials, wincred/CredUICmdLinePromptForCredentialsA, wincred/CredUICmdLinePromptForCredentialsW
 ms.topic: function
-f1_keywords: 
- - "wincred/CredUICmdLinePromptForCredentials"
+f1_keywords:
+- wincred/CredUICmdLinePromptForCredentials
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Credui.lib
 req.dll: Credui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Credui.dll
- - Ext-MS-Win-security-credui-l1-1-0.dll
- - Ext-MS-Win-security-credui-l1-1-1.dll
- - AnalogCredUI.dll
+- Credui.dll
+- Ext-MS-Win-security-credui-l1-1-0.dll
+- Ext-MS-Win-security-credui-l1-1-1.dll
+- AnalogCredUI.dll
 api_name:
- - CredUICmdLinePromptForCredentials
- - CredUICmdLinePromptForCredentialsA
- - CredUICmdLinePromptForCredentialsW
+- CredUICmdLinePromptForCredentials
+- CredUICmdLinePromptForCredentialsA
+- CredUICmdLinePromptForCredentialsW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -319,7 +319,7 @@ This status is returned for any of the flag combinations that are not valid.
 </dl>
 </td>
 <td width="60%">
-Either <i>pszTargetName</i> is <b>NULL</b>, the empty string, or longer than CREDUI_MAX_DOMAIN_LENGTH, or <i>pUiInfo</i> is not <b>NULL</b> and the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credui_infoa">CredUI_INFO</a> structure pointed to did not meet one of the following requirements: 
+Either <i>pszTargetName</i> is <b>NULL</b>, the empty string, or longer than CREDUI_MAX_DOMAIN_LENGTH, or <i>pUiInfo</i> is not <b>NULL</b> and the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credui_infoa">CredUI_INFO</a> structure pointed to did not meet one of the following requirements: 
 
 <ul>
 <li>The <b>cbSize</b> member must be one.</li>
@@ -426,7 +426,7 @@ Credentials are stored in the credential manager based on target name. Each targ
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credui_infoa">CredUI_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credui_infoa">CredUI_INFO</a>
 
 
 

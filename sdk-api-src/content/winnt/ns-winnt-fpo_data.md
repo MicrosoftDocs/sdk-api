@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: 916dc7d5-ed88-4573-b696-fd00bbf4e086
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFPO_DATA, FPO_DATA, FPO_DATA structure, FRAME_FPO, FRAME_NONFPO, FRAME_TRAP, FRAME_TSS, PFPO_DATA, PFPO_DATA structure pointer, _FPO_DATA, _win32_fpo_data_str, base.fpo_data_str, winnt/FPO_DATA, winnt/PFPO_DATA"
+ms.keywords: '*PFPO_DATA, FPO_DATA, FPO_DATA structure, FRAME_FPO, FRAME_NONFPO, FRAME_TRAP, FRAME_TSS, PFPO_DATA, PFPO_DATA structure pointer, _FPO_DATA, _win32_fpo_data_str, base.fpo_data_str, winnt/FPO_DATA, winnt/PFPO_DATA'
 ms.topic: struct
-f1_keywords: 
- - "winnt/FPO_DATA"
+f1_keywords:
+- winnt/FPO_DATA
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - FPO_DATA
+- FPO_DATA
 product: Windows
 targetos: Windows
 req.typenames: FPO_DATA, *PFPO_DATA
@@ -170,7 +170,7 @@ TSS frame
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagstackframe">STACKFRAME64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a>
 
 
 

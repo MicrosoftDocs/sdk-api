@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateEnlistment, CreateEnlistment function [Files], ENLISTMENT_SUPERIOR, fs.createenlistment, ktmw32/CreateEnlistment
 ms.topic: function
-f1_keywords: 
- - "ktmw32/CreateEnlistment"
+f1_keywords:
+- ktmw32/CreateEnlistment
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: KtmW32.lib
 req.dll: KtmW32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - KtmW32.dll
+- KtmW32.dll
 api_name:
- - CreateEnlistment
+- CreateEnlistment
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -110,7 +110,7 @@ Enlist as a superior transaction manager.
 ### -param EnlistmentKey [in, optional]
 
 A pointer to a user-defined structure used by the RM that is returned when a notification is sent in the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-_transaction_notification">TRANSACTION_NOTIFICATION</a> structure. This is 
+      <a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-transaction_notification">TRANSACTION_NOTIFICATION</a> structure. This is 
       typically used to associate a private structure  with this specific transaction.
 
 
@@ -176,7 +176,7 @@ Keep the following notification rules in mind when enlisting in transactions:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-_transaction_notification">TRANSACTION_NOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-transaction_notification">TRANSACTION_NOTIFICATION</a>
  
 
  

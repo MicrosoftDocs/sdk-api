@@ -8,10 +8,10 @@ tech.root: VSS
 ms.assetid: 46cdc46e-fc44-452a-8aae-e47c12deedb4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVSS_VOLUME_PROTECTION_INFO, VSS_VOLUME_PROTECTION_INFO, VSS_VOLUME_PROTECTION_INFO structure, base.vss_volume_protection_info, vsmgmt/VSS_VOLUME_PROTECTION_INFO"
+ms.keywords: '*PVSS_VOLUME_PROTECTION_INFO, VSS_VOLUME_PROTECTION_INFO, VSS_VOLUME_PROTECTION_INFO structure, base.vss_volume_protection_info, vsmgmt/VSS_VOLUME_PROTECTION_INFO'
 ms.topic: struct
-f1_keywords: 
- - "vsmgmt/VSS_VOLUME_PROTECTION_INFO"
+f1_keywords:
+- vsmgmt/VSS_VOLUME_PROTECTION_INFO
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VsMgmt.h
+- VsMgmt.h
 api_name:
- - VSS_VOLUME_PROTECTION_INFO
+- VSS_VOLUME_PROTECTION_INFO
 product: Windows
 targetos: Windows
 req.typenames: VSS_VOLUME_PROTECTION_INFO, *PVSS_VOLUME_PROTECTION_INFO
@@ -61,7 +61,7 @@ Contains information about a volume's shadow copy protection level.
 
 ### -field m_protectionLevel
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ne-vsmgmt-_vss_protection_level">VSS_PROTECTION_LEVEL</a> enumeration that specifies the target protection level for the volume.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ne-vsmgmt-vss_protection_level">VSS_PROTECTION_LEVEL</a> enumeration that specifies the target protection level for the volume.
 
 
 ### -field m_volumeIsOfflineForProtection
@@ -71,7 +71,7 @@ TRUE if the volume is offline due to a protection fault, or <b>FALSE</b> otherwi
 
 ### -field m_protectionFault
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ne-vsmgmt-_vss_protection_fault">VSS_PROTECTION_FAULT</a> enumeration that describes the shadow copy protection fault that caused the volume to go offline.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ne-vsmgmt-vss_protection_fault">VSS_PROTECTION_FAULT</a> enumeration that describes the shadow copy protection fault that caused the volume to go offline.
 
 
 ### -field m_failureStatus

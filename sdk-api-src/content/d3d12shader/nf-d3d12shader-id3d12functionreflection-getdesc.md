@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,GetDesc method, ID3D12FunctionReflection.GetDesc, ID3D12FunctionReflection::GetDesc, d3d12shader/ID3D12FunctionReflection::GetDesc, direct3d12.id3d12functionreflection_getdesc
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12FunctionReflection.GetDesc"
+f1_keywords:
+- d3d12shader/ID3D12FunctionReflection.GetDesc
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12FunctionReflection.GetDesc
+- ID3D12FunctionReflection.GetDesc
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,9 +62,9 @@ Fills the function descriptor structure for the function.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_function_desc">D3D12_FUNCTION_DESC</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_function_desc">D3D12_FUNCTION_DESC</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_function_desc">D3D12_FUNCTION_DESC</a> structure that receives a description of the function.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-d3d12_function_desc">D3D12_FUNCTION_DESC</a> structure that receives a description of the function.
           
 
 

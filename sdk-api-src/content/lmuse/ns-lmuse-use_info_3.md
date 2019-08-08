@@ -8,10 +8,10 @@ tech.root: NetMgmt
 ms.assetid: 3fb3ad35-f9e5-46ba-b930-fc2ccafd8ee9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPUSE_INFO_3, *PUSE_INFO_3, CREATE_BYPASS_CSC, CREATE_NO_CONNECT, LPUSE_INFO_0, LPUSE_INFO_0 structure pointer [Network Management], PUSE_INFO_3, PUSE_INFO_3 structure pointer [Network Management], USE_DEFAULT_CREDENTIALS, USE_INFO_3, USE_INFO_3 structure [Network Management], lmuse/LPUSE_INFO_0, lmuse/PUSE_INFO_3, lmuse/USE_INFO_3, netmgmt.use_info_3_str"
+ms.keywords: '*LPUSE_INFO_3, *PUSE_INFO_3, CREATE_BYPASS_CSC, CREATE_NO_CONNECT, LPUSE_INFO_0, LPUSE_INFO_0 structure pointer [Network Management], PUSE_INFO_3, PUSE_INFO_3 structure pointer [Network Management], USE_DEFAULT_CREDENTIALS, USE_INFO_3, USE_INFO_3 structure [Network Management], lmuse/LPUSE_INFO_0, lmuse/PUSE_INFO_3, lmuse/USE_INFO_3, netmgmt.use_info_3_str'
 ms.topic: struct
-f1_keywords: 
- - "lmuse/USE_INFO_3"
+f1_keywords:
+- lmuse/USE_INFO_3
 req.header: lmuse.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmuse.h
+- Lmuse.h
 api_name:
- - USE_INFO_3
+- USE_INFO_3
 product: Windows
 targetos: Windows
 req.typenames: USE_INFO_3, *PUSE_INFO_3, *LPUSE_INFO_3
@@ -63,7 +63,7 @@ The
 ### -field ui3_ui2
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-_use_info_2">USE_INFO_2</a> structure that contains 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-use_info_2">USE_INFO_2</a> structure that contains 
 
 
 ### -field ui3_flags

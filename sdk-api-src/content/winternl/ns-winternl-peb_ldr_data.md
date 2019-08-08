@@ -8,10 +8,10 @@ tech.root: ProcThread
 ms.assetid: 2e03b513-5c03-4436-99f8-3a6d3a45aff2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPEB_LDR_DATA, PEB_LDR_DATA, PEB_LDR_DATA structure, PPEB_LDR_DATA, PPEB_LDR_DATA structure pointer, base.peb_ldr_data, winternl/PEB_LDR_DATA, winternl/PPEB_LDR_DATA"
+ms.keywords: '*PPEB_LDR_DATA, PEB_LDR_DATA, PEB_LDR_DATA structure, PPEB_LDR_DATA, PPEB_LDR_DATA structure pointer, base.peb_ldr_data, winternl/PEB_LDR_DATA, winternl/PPEB_LDR_DATA'
 ms.topic: struct
-f1_keywords: 
- - "winternl/PEB_LDR_DATA"
+f1_keywords:
+- winternl/PEB_LDR_DATA
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winternl.h
+- Winternl.h
 api_name:
- - PEB_LDR_DATA
+- PEB_LDR_DATA
 product: Windows
 targetos: Windows
 req.typenames: PEB_LDR_DATA, *PPEB_LDR_DATA
@@ -115,7 +115,7 @@ The <b>LDR_DATA_TABLE_ENTRY</b> structure is defined as follows:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-_peb">PEB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-peb">PEB</a>
  
 
  

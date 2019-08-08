@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkQueryStatus, WlanHostedNetworkQueryStatus function [NativeWIFI], nwifi.wlanhostednetworkquerystatus, wlanapi/WlanHostedNetworkQueryStatus
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanHostedNetworkQueryStatus"
+f1_keywords:
+- wlanapi/WlanHostedNetworkQueryStatus
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wlanapi.dll
+- Wlanapi.dll
 api_name:
- - WlanHostedNetworkQueryStatus
+- WlanHostedNetworkQueryStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ The client's session handle, returned by a previous call to the <a href="https:/
 
 On input, this parameter must be <b>NULL</b>. 
 
-On output, this parameter receives a pointer to the current status of the wireless Hosted Network,  if the call to the <b>WlanHostedNetworkQueryStatus</b> function succeeds. The current status is returned in a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_status">WLAN_HOSTED_NETWORK_STATUS</a> structure.
+On output, this parameter receives a pointer to the current status of the wireless Hosted Network,  if the call to the <b>WlanHostedNetworkQueryStatus</b> function succeeds. The current status is returned in a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_hosted_network_status">WLAN_HOSTED_NETWORK_STATUS</a> structure.
 
 
 ### -param pvReserved
@@ -165,7 +165,7 @@ The <b>WlanHostedNetworkQueryStatus</b> function is an extension to native wirel
 
 A client application calls the <b>WlanHostedNetworkQueryStatus</b> function to query the current status of the wireless Hosted Network. This function does not change the state of the wireless Hosted Network. 
 
-If the function succeeds, the <i>ppWlanHostedNetworkStatus</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_status">WLAN_HOSTED_NETWORK_STATUS</a> structure with the current status. The memory used for the <b>WLAN_HOSTED_NETWORK_STATUS</b> structure that is returned should be freed after use by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> function.
+If the function succeeds, the <i>ppWlanHostedNetworkStatus</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_hosted_network_status">WLAN_HOSTED_NETWORK_STATUS</a> structure with the current status. The memory used for the <b>WLAN_HOSTED_NETWORK_STATUS</b> structure that is returned should be freed after use by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> function.
 
 Any user can call the <b>WlanHostedNetworkQueryStatus</b> function to query the Hosted Network. However, the ability to enable the wireless Hosted Network may be restricted by group policy in a domain.
 
@@ -187,7 +187,7 @@ On Windows 7 and later, the operating system installs a virtual device if a Hos
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_status">WLAN_HOSTED_NETWORK_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_hosted_network_status">WLAN_HOSTED_NETWORK_STATUS</a>
 
 
 

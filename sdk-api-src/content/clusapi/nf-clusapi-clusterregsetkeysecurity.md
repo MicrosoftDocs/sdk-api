@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterRegSetKeySecurity, ClusterRegSetKeySecurity function [Failover Cluster], _wolf_clusterregsetkeysecurity, clusapi/ClusterRegSetKeySecurity, mscs.clusterregsetkeysecurity
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterRegSetKeySecurity"
+f1_keywords:
+- clusapi/ClusterRegSetKeySecurity
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterRegSetKeySecurity
+- ClusterRegSetKeySecurity
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-informat
 
 ### -param pSecurityDescriptor [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure 
        that describes the security attributes to set for the key corresponding to <i>hKey</i>.
 
 

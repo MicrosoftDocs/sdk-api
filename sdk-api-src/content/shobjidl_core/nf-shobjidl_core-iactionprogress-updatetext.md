@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActionProgress interface [Windows Shell],UpdateText method, IActionProgress.UpdateText, IActionProgress::UpdateText, UpdateText, UpdateText method [Windows Shell], UpdateText method [Windows Shell],IActionProgress interface, shell.IActionProgress_UpdateText, shell_IActionProgress_UpdateText, shobjidl_core/IActionProgress::UpdateText
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IActionProgress.UpdateText"
+f1_keywords:
+- shobjidl_core/IActionProgress.UpdateText
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shobjidl.idl
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.idl
+- Shobjidl.idl
 api_name:
- - IActionProgress.UpdateText
+- IActionProgress.UpdateText
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ Called if descriptive text associated with the action will be changed.
 
 ### -param sptext [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_sptext">SPTEXT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-sptext">SPTEXT</a></b>
 
-A value that specifies the type of text displayed. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_sptext">SPTEXT</a> for acceptable values.
+A value that specifies the type of text displayed. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-sptext">SPTEXT</a> for acceptable values.
 
 
 ### -param pszText [in]
@@ -110,7 +110,7 @@ The class implementing this method must interpret the value of <i>sptext</i> and
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_sptext">SPTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-sptext">SPTEXT</a>
  
 
  

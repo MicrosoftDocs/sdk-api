@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlGetStatus, CryptXmlGetStatus function [Security], cryptxml/CryptXmlGetStatus, security.cryptxmlgetstatus
 ms.topic: function
-f1_keywords: 
- - "cryptxml/CryptXmlGetStatus"
+f1_keywords:
+- cryptxml/CryptXmlGetStatus
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Cryptxml.lib
 req.dll: Cryptxml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cryptxml.dll
+- Cryptxml.dll
 api_name:
- - CryptXmlGetStatus
+- CryptXmlGetStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptXmlGetStatus</b> function returns a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_status">CRYPT_XML_STATUS</a> structure that contains status information about the object specified by the supplied handle.
+The <b>CryptXmlGetStatus</b> function returns a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_status">CRYPT_XML_STATUS</a> structure that contains status information about the object specified by the supplied handle.
 
 
 ## -parameters
@@ -61,13 +61,13 @@ The <b>CryptXmlGetStatus</b> function returns a <a href="https://docs.microsoft.
 
 ### -param hCryptXml
 
-A handle to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structure, an array 
-of <b>CRYPT_XML_SIGNATURE</b> structures , a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_reference">CRYPT_XML_REFERENCE</a> structure, or a  Manifest object about which to get status information.
+A handle to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structure, an array 
+of <b>CRYPT_XML_SIGNATURE</b> structures , a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_reference">CRYPT_XML_REFERENCE</a> structure, or a  Manifest object about which to get status information.
 
 
 ### -param pStatus
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_status">CRYPT_XML_STATUS</a> structure to receive the returned status information. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_status">CRYPT_XML_STATUS</a> structure to receive the returned status information. 
 
 
 ## -returns

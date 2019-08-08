@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: 1ed0c634-4f09-49c1-8fbf-9182d6a4bd51
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVICE_ADDRESSES, *PSERVICE_ADDRESSES, SERVICE_ADDRESSES, SERVICE_ADDRESSES structure [Winsock], _win32_service_addresses_2, nspapi/SERVICE_ADDRESSES, winsock.service_addresses_2"
+ms.keywords: '*LPSERVICE_ADDRESSES, *PSERVICE_ADDRESSES, SERVICE_ADDRESSES, SERVICE_ADDRESSES structure [Winsock], _win32_service_addresses_2, nspapi/SERVICE_ADDRESSES, winsock.service_addresses_2'
 ms.topic: struct
-f1_keywords: 
- - "nspapi/SERVICE_ADDRESSES"
+f1_keywords:
+- nspapi/SERVICE_ADDRESSES
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Nspapi.h
+- Nspapi.h
 api_name:
- - SERVICE_ADDRESSES
+- SERVICE_ADDRESSES
 product: Windows
 targetos: Windows
 req.typenames: SERVICE_ADDRESSES, *PSERVICE_ADDRESSES, *LPSERVICE_ADDRESSES
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>SERVICE_ADDRESSES</b> structure contains an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_address">SERVICE_ADDRESS</a> data structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_address">SERVICE_ADDRESS</a> data structures.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ The
 ### -field dwAddressCount
 
 Number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_address">SERVICE_ADDRESS</a> structures in the <b>Addresses</b> array.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_address">SERVICE_ADDRESS</a> structures in the <b>Addresses</b> array.
 
 
 ### -field Addressses
@@ -85,7 +85,7 @@ Number of
 ### -field Addresses
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_address">SERVICE_ADDRESS</a> data structures. Each 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_address">SERVICE_ADDRESS</a> data structures. Each 
 <b>SERVICE_ADDRESS</b> structure contains information about a network service address.
 
 
@@ -94,11 +94,11 @@ Array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_address">SERVICE_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_address">SERVICE_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
  
 
  

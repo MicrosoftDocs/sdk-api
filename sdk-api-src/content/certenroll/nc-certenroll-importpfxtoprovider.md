@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: D5F4A318-4572-4563-85B0-7F3532833DE4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "ImportPFXToProvider, (FNIMPORTPFXTOPROVIDER), (FNIMPORTPFXTOPROVIDER) callback function [Security], FNIMPORTPFXTOPROVIDER callback, certenroll/(FNIMPORTPFXTOPROVIDER), fnimportpfxtoprovider, security.fnimportpfxtoprovider, wincrypt/(FNIMPORTPFXTOPROVIDER)"
+ms.keywords: ImportPFXToProvider, (FNIMPORTPFXTOPROVIDER), (FNIMPORTPFXTOPROVIDER) callback function [Security], FNIMPORTPFXTOPROVIDER callback, certenroll/(FNIMPORTPFXTOPROVIDER), fnimportpfxtoprovider, security.fnimportpfxtoprovider, wincrypt/(FNIMPORTPFXTOPROVIDER)
 ms.topic: callback
-f1_keywords: 
- - "certenroll/(FNIMPORTPFXTOPROVIDER)"
+f1_keywords:
+- certenroll/(FNIMPORTPFXTOPROVIDER)
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - certenroll.h
- - wincrypt.h
+- certenroll.h
+- wincrypt.h
 api_name:
- - (FNIMPORTPFXTOPROVIDER)
- - ImportPFXToProvider
+- (FNIMPORTPFXTOPROVIDER)
+- ImportPFXToProvider
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -118,10 +118,10 @@ Pointer to DWORD that receives  the number of certificates successfully imported
 
 #### - **prgpCertOut [out, optional]
 
-Pointer to a pointer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure (can be nullptr).
+Pointer to a pointer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure (can be nullptr).
 
 
 #### - prgpCertOut [out, optional]
 
-Pointer to a pointer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure (can be nullptr).
+Pointer to a pointer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure (can be nullptr).
 

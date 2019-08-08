@@ -8,10 +8,10 @@ tech.root: bltooth
 ms.assetid: 81D05AA7-B16C-4705-919F-8563FFA4A58E
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PBTH_LE_GATT_DESCRIPTOR_VALUE, BTH_LE_GATT_DESCRIPTOR_VALUE, BTH_LE_GATT_DESCRIPTOR_VALUE structure [Bluetooth Devices], PBTH_LE_GATT_DESCRIPTOR_VALUE, PBTH_LE_GATT_DESCRIPTOR_VALUE structure pointer [Bluetooth Devices], bltooth.bth_le_gatt_descriptor_value, bthledef/BTH_LE_GATT_DESCRIPTOR_VALUE, bthledef/PBTH_LE_GATT_DESCRIPTOR_VALUE"
+ms.keywords: '*PBTH_LE_GATT_DESCRIPTOR_VALUE, BTH_LE_GATT_DESCRIPTOR_VALUE, BTH_LE_GATT_DESCRIPTOR_VALUE structure [Bluetooth Devices], PBTH_LE_GATT_DESCRIPTOR_VALUE, PBTH_LE_GATT_DESCRIPTOR_VALUE structure pointer [Bluetooth Devices], bltooth.bth_le_gatt_descriptor_value, bthledef/BTH_LE_GATT_DESCRIPTOR_VALUE, bthledef/PBTH_LE_GATT_DESCRIPTOR_VALUE'
 ms.topic: struct
-f1_keywords: 
- - "bthledef/BTH_LE_GATT_DESCRIPTOR_VALUE"
+f1_keywords:
+- bthledef/BTH_LE_GATT_DESCRIPTOR_VALUE
 req.header: bthledef.h
 req.include-header: BthLEDef.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - BthLEDef.h
+- BthLEDef.h
 api_name:
- - BTH_LE_GATT_DESCRIPTOR_VALUE
+- BTH_LE_GATT_DESCRIPTOR_VALUE
 product: Windows
 targetos: Windows
 req.typenames: BTH_LE_GATT_DESCRIPTOR_VALUE, *PBTH_LE_GATT_DESCRIPTOR_VALUE
@@ -231,11 +231,11 @@ A pointer to the descriptor value data.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ne-bthledef-_bth_le_gatt_descriptor_type">BTH_LE_GATT_DESCRIPTOR_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ne-bthledef-bth_le_gatt_descriptor_type">BTH_LE_GATT_DESCRIPTOR_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-_bth_le_uuid">BTH_LE_UUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_uuid">BTH_LE_UUID</a>
 
 
 

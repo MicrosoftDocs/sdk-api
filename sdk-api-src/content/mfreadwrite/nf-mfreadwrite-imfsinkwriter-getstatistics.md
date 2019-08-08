@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStatistics, GetStatistics method [Media Foundation], GetStatistics method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],GetStatistics method, IMFSinkWriter.GetStatistics, IMFSinkWriter::GetStatistics, mf.imfsinkwriter_getstatistics, mfreadwrite/IMFSinkWriter::GetStatistics
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSinkWriter.GetStatistics"
+f1_keywords:
+- mfreadwrite/IMFSinkWriter.GetStatistics
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSinkWriter.GetStatistics
+- IMFSinkWriter.GetStatistics
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ The zero-based index of a stream to query, or <b>MF_SINK_WRITER_ALL_STREAMS </b>
 
 ### -param pStats [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/ns-mfreadwrite-_mf_sink_writer_statistics">MF_SINK_WRITER_STATISTICS</a> structure. Before calling the method, set the <b>cb</b> member to the size of the structure in bytes. The method fills the structure with statistics from the sink writer.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/ns-mfreadwrite-mf_sink_writer_statistics">MF_SINK_WRITER_STATISTICS</a> structure. Before calling the method, set the <b>cb</b> member to the size of the structure in bytes. The method fills the structure with statistics from the sink writer.
 
 
 ## -returns

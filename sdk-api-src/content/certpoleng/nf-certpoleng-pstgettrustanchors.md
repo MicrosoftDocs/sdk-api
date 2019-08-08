@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PstGetTrustAnchors, PstGetTrustAnchors function [Security], certpoleng/PstGetTrustAnchors, security.pstgettrustanchors
 ms.topic: function
-f1_keywords: 
- - "certpoleng/PstGetTrustAnchors"
+f1_keywords:
+- certpoleng/PstGetTrustAnchors
 req.header: certpoleng.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Certpoleng.lib
 req.dll: Certpoleng.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Certpoleng.dll
+- Certpoleng.dll
 api_name:
- - PstGetTrustAnchors
+- PstGetTrustAnchors
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,12 +71,12 @@ The number of elements in the <i>rgpCriteria</i> array.
 
 ### -param rgpCriteria [in, optional]
 
-A constant pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_select_criteria">CERT_SELECT_CRITERIA</a> structures that specify the criteria used to select certificate chains.
+A constant pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_select_criteria">CERT_SELECT_CRITERIA</a> structures that specify the criteria used to select certificate chains.
 
 
 ### -param ppTrustedIssuers [out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_secpkgcontext_issuerlistinfoex">SecPkgContext_IssuerListInfoEx</a> structures that receive the CAs trusted by the server specified by the <i>pTargetName</i> parameter.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex">SecPkgContext_IssuerListInfoEx</a> structures that receive the CAs trusted by the server specified by the <i>pTargetName</i> parameter.
 
 
 ## -returns

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsDrive interface [VDS],QueryExtents method, IVdsDrive.QueryExtents, IVdsDrive::QueryExtents, QueryExtents, QueryExtents method [VDS], QueryExtents method [VDS],IVdsDrive interface, base.ivdsdrive_queryextents, vds/IVdsDrive::QueryExtents, vdshwprv/IVdsDrive::QueryExtents
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsDrive.QueryExtents"
+f1_keywords:
+- vdshwprv/IVdsDrive.QueryExtents
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsDrive.QueryExtents
+- IVdsDrive.QueryExtents
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,14 +65,14 @@ Returns an array of
 
 ### -param ppExtentArray [out]
 
-A pointer to the  array of <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_drive_extent">VDS_DRIVE_EXTENT</a> structures passed in by the caller. Callers must free this array by using the 
+A pointer to the  array of <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_extent">VDS_DRIVE_EXTENT</a> structures passed in by the caller. Callers must free this array by using the 
       <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 
 ### -param plNumberOfExtents [out]
 
 A pointer to the number of drive extents returned in the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_drive_extent">VDS_DRIVE_EXTENT</a> structure.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_extent">VDS_DRIVE_EXTENT</a> structure.
 
 
 ## -returns
@@ -182,7 +182,7 @@ A drive can contribute extents to any number of LUNs, and these LUNs can be unma
     the extents of a LUN plex.
 
 The <b>LunId</b> member of each 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_drive_extent">VDS_DRIVE_EXTENT</a>structure specifies the GUID for the LUN to which each allocated extent contributes. Consequently, you can use 
+     <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_extent">VDS_DRIVE_EXTENT</a>structure specifies the GUID for the LUN to which each allocated extent contributes. Consequently, you can use 
      the result of this method to determine the number of LUNs to which the drive contributes by counting the number 
      of distinct <b>LunId</b> values returned in <i>ppExtentArray</i>.
 
@@ -210,7 +210,7 @@ The <b>LunId</b> member of each
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_drive_extent">VDS_DRIVE_EXTENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_extent">VDS_DRIVE_EXTENT</a>
  
 
  

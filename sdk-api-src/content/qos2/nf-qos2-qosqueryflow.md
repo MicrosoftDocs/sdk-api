@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QOSQueryFlow, QOSQueryFlow function [QOS], QOSQueryFlowFundamentals, QOSQueryOutgoingRate, QOSQueryPacketPriority, QOS_QUERYFLOW_FRESH, qos.qosqueryflow, qos2/QOSQueryFlow
 ms.topic: function
-f1_keywords: 
- - "qos2/QOSQueryFlow"
+f1_keywords:
+- qos2/QOSQueryFlow
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Qwave.lib
 req.dll: Qwave.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - qwave.dll
+- qwave.dll
 api_name:
- - QOSQueryFlow
+- QOSQueryFlow
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -84,7 +84,7 @@ Specifies which type of flow information is being queried. This parameter specif
 </dl>
 </td>
 <td width="60%">
-<i>Buffer</i> will contain a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/ns-qos2-_qos_flow_fundamentals">QOS_FLOW_FUNDAMENTALS</a> structure.
+<i>Buffer</i> will contain a <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ns-qos2-qos_flow_fundamentals">QOS_FLOW_FUNDAMENTALS</a> structure.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ Specifies which type of flow information is being queried. This parameter specif
 </dl>
 </td>
 <td width="60%">
-<i>Buffer</i> will contain a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/ns-qos2-_qos_packet_priority">QOS_PACKET_PRIORITY</a> structure.
+<i>Buffer</i> will contain a <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ns-qos2-qos_packet_priority">QOS_PACKET_PRIORITY</a> structure.
 
 </td>
 </tr>

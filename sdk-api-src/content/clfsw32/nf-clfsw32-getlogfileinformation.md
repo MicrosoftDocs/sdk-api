@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLogFileInformation, GetLogFileInformation function [Files], clfsw32/GetLogFileInformation, fs.getlogfileinformation
 ms.topic: function
-f1_keywords: 
- - "clfsw32/GetLogFileInformation"
+f1_keywords:
+- clfsw32/GetLogFileInformation
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Clfsw32.dll
+- Clfsw32.dll
 api_name:
- - GetLogFileInformation
+- GetLogFileInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns a buffer that contains metadata about a specified log and its current state, which is defined by the <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_information">CLFS_INFORMATION</a> structure.
+Returns a buffer that contains metadata about a specified log and its current state, which is defined by the <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_information">CLFS_INFORMATION</a> structure.
 
 Data that is obtained  reflects the state of the log only at the time when the call is made. Typically, a client can continue to cache and use fields from this structure until the next time that it appends records or writes its restart area. At that time, some of the information becomes stale.
 
@@ -70,7 +70,7 @@ The log handle can refer to a dedicated or multiplexed log.
 
 ### -param pinfoBuffer [in, out]
 
-A pointer to a user-allocated <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_information">CLFS_INFORMATION</a> structure that receives the log metadata.
+A pointer to a user-allocated <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_information">CLFS_INFORMATION</a> structure that receives the log metadata.
 
 
 ### -param cbBuffer [in, out]
@@ -100,7 +100,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_information">CLFS_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_information">CLFS_INFORMATION</a>
 
 
 

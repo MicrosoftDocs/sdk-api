@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLogicalProcessorInformationEx, GetLogicalProcessorInformationEx function, RelationAll, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, base.getlogicalprocessorinformationex, sysinfoapi/GetLogicalProcessorInformationEx
 ms.topic: function
-f1_keywords: 
- - "sysinfoapi/GetLogicalProcessorInformationEx"
+f1_keywords:
+- sysinfoapi/GetLogicalProcessorInformationEx
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-SysInfo-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-0.dll
- - API-MS-Win-Core-SysInfo-l1-2-1.dll
- - API-MS-Win-Core-SysInfo-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-3.dll
+- kernel32.dll
+- API-MS-Win-Core-SysInfo-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-0.dll
+- API-MS-Win-Core-SysInfo-l1-2-1.dll
+- API-MS-Win-Core-SysInfo-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-3.dll
 api_name:
- - GetLogicalProcessorInformationEx
+- GetLogicalProcessorInformationEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ Retrieves information about the relationships of logical processors and related 
 
 ### -param RelationshipType [in]
 
-The type of relationship to retrieve. This parameter can be one of the following <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_logical_processor_relationship">LOGICAL_PROCESSOR_RELATIONSHIP</a> values.
+The type of relationship to retrieve. This parameter can be one of the following <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-logical_processor_relationship">LOGICAL_PROCESSOR_RELATIONSHIP</a> values.
 
 <table>
 <tr>
@@ -172,9 +172,9 @@ If the function fails, the return value is FALSE. To get extended error informat
 
 
 
- If a 32-bit process running under WOW64 calls this function on a system with more than 64 processors, some of the processor affinity masks returned by the function may be incorrect. This is  because the high-order <b>DWORD</b> of the 64-bit <a href="http://go.microsoft.com/fwlink/p/?linkid=152521">KAFFINITY</a> structure that represents all 64 processors is "folded" into a 32-bit <a href="http://go.microsoft.com/fwlink/p/?linkid=152521">KAFFINITY</a> structure in the caller's buffer. As a result, the affinity masks for processors 32 through 63 are incorrectly represented as duplicates of the masks for processors 0 through 31. In addition, the sum of all per-group <b>ActiveProcessorCount</b> and <b>MaximumProcessorCount</b> values reported in <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_group_info">PROCESSOR_GROUP_INFO</a> structures may exclude some active logical processors.
+ If a 32-bit process running under WOW64 calls this function on a system with more than 64 processors, some of the processor affinity masks returned by the function may be incorrect. This is  because the high-order <b>DWORD</b> of the 64-bit <a href="http://go.microsoft.com/fwlink/p/?linkid=152521">KAFFINITY</a> structure that represents all 64 processors is "folded" into a 32-bit <a href="http://go.microsoft.com/fwlink/p/?linkid=152521">KAFFINITY</a> structure in the caller's buffer. As a result, the affinity masks for processors 32 through 63 are incorrectly represented as duplicates of the masks for processors 0 through 31. In addition, the sum of all per-group <b>ActiveProcessorCount</b> and <b>MaximumProcessorCount</b> values reported in <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_group_info">PROCESSOR_GROUP_INFO</a> structures may exclude some active logical processors.
 
-When this function is called with a relationship type of <b>RelationProcessorCore</b>, it returns a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_relationship">PROCESSOR_RELATIONSHIP</a> structure for every active processor core in every processor group in the system. This is by design, because an unaffinitized 32-bit thread can run on any logical processor in a given group, including processors 32 through 63. A 32-bit caller can use the total count of <b>PROCESSOR_RELATIONSHIP</b> structures to determine the actual number of active processor cores on the system. However, the affinity of a 32-bit thread cannot be explicitly set to logical processor 32 through 63 of any processor group.
+When this function is called with a relationship type of <b>RelationProcessorCore</b>, it returns a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_relationship">PROCESSOR_RELATIONSHIP</a> structure for every active processor core in every processor group in the system. This is by design, because an unaffinitized 32-bit thread can run on any logical processor in a given group, including processors 32 through 63. A 32-bit caller can use the total count of <b>PROCESSOR_RELATIONSHIP</b> structures to determine the actual number of active processor cores on the system. However, the affinity of a 32-bit thread cannot be explicitly set to logical processor 32 through 63 of any processor group.
 
 To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 

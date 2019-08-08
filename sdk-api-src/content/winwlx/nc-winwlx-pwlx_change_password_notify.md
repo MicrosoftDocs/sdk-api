@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWLX_CHANGE_PASSWORD_NOTIFY, PWLX_CHANGE_PASSWORD_NOTIFY callback, WlxChangePasswordNotify, WlxChangePasswordNotify callback function [Security], _gina_wlxchangepasswordnotify, security.wlxchangepasswordnotify, winwlx/WlxChangePasswordNotify
 ms.topic: callback
-f1_keywords: 
- - "winwlx/WlxChangePasswordNotify"
+f1_keywords:
+- winwlx/WlxChangePasswordNotify
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - winwlx.h
+- winwlx.h
 api_name:
- - WlxChangePasswordNotify
+- WlxChangePasswordNotify
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ Specifies the Winlogon handle passed to GINA in the
 ### -param pMprInfo [in]
 
 Points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_mpr_notify_info">WLX_MPR_NOTIFY_INFO</a> structure that contains <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">Multiple Provider Router</a> (MPR) information. Winlogon will call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to free all the data pointed to by this structure when it is done with it.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_mpr_notify_info">WLX_MPR_NOTIFY_INFO</a> structure that contains <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">Multiple Provider Router</a> (MPR) information. Winlogon will call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to free all the data pointed to by this structure when it is done with it.
 
 
 ### -param dwChangeInfo [in]
@@ -97,7 +97,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_mpr_notify_info">WLX_MPR_NOTIFY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_mpr_notify_info">WLX_MPR_NOTIFY_INFO</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Internationalization for Windows Applications], Create method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],Create method, IFEDictionary.Create, IFEDictionary::Create, intl.ifedictionary_create, msime/IFEDictionary::Create
 ms.topic: method
-f1_keywords: 
- - "msime/IFEDictionary.Create"
+f1_keywords:
+- msime/IFEDictionary.Create
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msime.h
+- Msime.h
 api_name:
- - IFEDictionary.Create
+- IFEDictionary.Create
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A <b>NULL</b>-terminated string containing the path and name for the new diction
 
 ### -param pshf [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imeshf">IMESHF</a> header for the new dictionary.
+The <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a> header for the new dictionary.
 
 
 ## -returns
@@ -93,7 +93,7 @@ One of the following:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imeshf">IMESHF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a>
  
 
  

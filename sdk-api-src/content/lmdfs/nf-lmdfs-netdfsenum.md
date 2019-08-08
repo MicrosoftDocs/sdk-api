@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1, 2, 200, 3, 300, 4, 5, 6, 8, 9, NetDfsEnum, NetDfsEnum function [Distributed File System], _win32_netdfsenum, dfs.netdfsenum, fs.netdfsenum, lmdfs/NetDfsEnum, netmgmt.netdfsenum
 ms.topic: function
-f1_keywords: 
- - "lmdfs/NetDfsEnum"
+f1_keywords:
+- lmdfs/NetDfsEnum
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetDfsEnum
+- NetDfsEnum
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,9 +65,9 @@ Enumerates the Distributed File System (DFS) namespaces hosted on a server or DF
 Pointer to a string that specifies the Universal Naming Convention (UNC) path of the DFS root or link.
 
 When you specify information level 200 
-       (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_200">DFS_INFO_200</a>), this parameter is the name of a 
+       (<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_200">DFS_INFO_200</a>), this parameter is the name of a 
        domain. When you specify information level 300 
-       (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_300">DFS_INFO_300</a>), this parameter is the name of a 
+       (<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_300">DFS_INFO_300</a>), this parameter is the name of a 
        server.
 
 For all other levels, the string can be in one of the following four forms:
@@ -106,7 +106,7 @@ Specifies the information level of the request. This parameter can be one of the
 #### 1
 
 Return the name of the DFS root and all links under the root. The <i>Buffer</i> 
-        parameter points to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_1">DFS_INFO_1</a> 
+        parameter points to an array of <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_1">DFS_INFO_1</a> 
         structures.
 
 
@@ -115,7 +115,7 @@ Return the name of the DFS root and all links under the root. The <i>Buffer</i>
 
 Return the name, comment, status, and the number of targets for the DFS root and all links under the 
         root. The <i>Buffer</i> parameter points to an array of 
-        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_2">DFS_INFO_2</a> structures.
+        <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_2">DFS_INFO_2</a> structures.
 
 
 
@@ -123,7 +123,7 @@ Return the name, comment, status, and the number of targets for the DFS root and
 
 Return the name, comment, status, number of targets, and information about each target for the DFS root 
         and all links under the root. The <i>Buffer</i> parameter points to an array of 
-        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_3">DFS_INFO_3</a> structures.
+        <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_3">DFS_INFO_3</a> structures.
 
 
 
@@ -131,7 +131,7 @@ Return the name, comment, status, number of targets, and information about each 
 
 Return the name, comment, status, <b>GUID</b>, time-out, number of targets, and information about each target 
         for the DFS root and all links under the root. The <i>Buffer</i> parameter points to an 
-        array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_4">DFS_INFO_4</a> structures.
+        array of <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_4">DFS_INFO_4</a> structures.
 
 
 
@@ -139,7 +139,7 @@ Return the name, comment, status, <b>GUID</b>, time-out, number of targets, and 
 
 Return the name, status, <b>GUID</b>, time-out, property flags, metadata size, and number of targets for a DFS 
         root and all links under the root. The <i>Buffer</i> parameter points to an array of 
-        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_5">DFS_INFO_5</a> structures.
+        <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_5">DFS_INFO_5</a> structures.
 
 
 
@@ -147,7 +147,7 @@ Return the name, status, <b>GUID</b>, time-out, property flags, metadata size, a
 
 Return the name, status, <b>GUID</b>, time-out, property flags, metadata size, DFS target information for a root 
         or link, and a list of DFS targets. The <i>Buffer</i> parameter points to an array of 
-        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_6">DFS_INFO_6</a> structures.
+        <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_6">DFS_INFO_6</a> structures.
 
 
 
@@ -156,7 +156,7 @@ Return the name, status, <b>GUID</b>, time-out, property flags, metadata size, D
 Return the name, status, <b>GUID</b>, time-out, property flags, metadata size, number of targets, and link 
         reparse point security descriptors for a DFS root and all links under the root. The 
         <i>Buffer</i> parameter points to an array of 
-        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_8">DFS_INFO_8</a> structures.
+        <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_8">DFS_INFO_8</a> structures.
 
 
 
@@ -165,7 +165,7 @@ Return the name, status, <b>GUID</b>, time-out, property flags, metadata size, n
 Return the name, status, <b>GUID</b>, time-out, property flags, metadata size, DFS target information, link 
         reparse point security descriptors, and a list of DFS targets for a root or link. The 
         <i>Buffer</i> parameter points to an array of 
-        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_9">DFS_INFO_9</a> structures.
+        <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_9">DFS_INFO_9</a> structures.
 
 
 
@@ -173,7 +173,7 @@ Return the name, status, <b>GUID</b>, time-out, property flags, metadata size, D
 
 Return the list of domain-based DFS namespaces in the domain. The <i>Buffer</i> 
         parameter points to an array of 
-        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_200">DFS_INFO_200</a> structures.
+        <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_200">DFS_INFO_200</a> structures.
 
 
 
@@ -181,7 +181,7 @@ Return the list of domain-based DFS namespaces in the domain. The <i>Buffer</i>
 
 Return the stand-alone and domain-based DFS namespaces hosted by a server. The 
         <i>Buffer</i> parameter points to an array of 
-        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_300">DFS_INFO_300</a> structures.
+        <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_300">DFS_INFO_300</a> structures.
 
 
 ### -param PrefMaxLen [in]
@@ -246,7 +246,7 @@ Due to the possibility of concurrent updates to the DFS namespace, the caller sh
 The following code sample demonstrates how to list the DFS links in a named DFS root with a call to the 
 <b>NetDfsEnum</b> function. The sample calls 
 <b>NetDfsEnum</b>, specifying information level 3 (
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_3">DFS_INFO_3</a>). The sample code loops through the entries and prints the retrieved data and the status of each host server referenced by the DFS link. Finally, the sample frees the memory allocated for the information buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_3">DFS_INFO_3</a>). The sample code loops through the entries and prints the retrieved data and the status of each host server referenced by the DFS link. Finally, the sample frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -335,35 +335,35 @@ void wmain(int argc, wchar_t *argv[ ])
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_1">DFS_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_1">DFS_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_2">DFS_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_2">DFS_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_200">DFS_INFO_200</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_200">DFS_INFO_200</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_3">DFS_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_3">DFS_INFO_3</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_300">DFS_INFO_300</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_300">DFS_INFO_300</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_4">DFS_INFO_4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_4">DFS_INFO_4</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_5">DFS_INFO_5</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_5">DFS_INFO_5</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_6">DFS_INFO_6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_6">DFS_INFO_6</a>
 
 
 

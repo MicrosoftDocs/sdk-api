@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumSubnetClientsVQ, DhcpEnumSubnetClientsVQ function [DHCP], dhcp.dhcpenumsubnetclientsvq, dhcpsapi/DhcpEnumSubnetClientsVQ
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpEnumSubnetClientsVQ"
+f1_keywords:
+- dhcpsapi/DhcpEnumSubnetClientsVQ
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpEnumSubnetClientsVQ
+- DhcpEnumSubnetClientsVQ
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,7 +82,7 @@ Specifies the preferred maximum number of bytes to return in the enumeration ope
 
 ### -param ClientInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_array_vq">DHCP_CLIENT_INFO_ARRAY_VQ</a> structure that contains the DHCP client lease record set returned by the enumeration operation.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_array_vq">DHCP_CLIENT_INFO_ARRAY_VQ</a> structure that contains the DHCP client lease record set returned by the enumeration operation.
 
 
 ### -param ClientsRead [out]

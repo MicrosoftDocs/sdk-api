@@ -8,10 +8,10 @@ tech.root: TermServ
 ms.assetid: 20e66033-fc79-49c9-af0e-abaf6e4ba501
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWTS_PROTOCOL_STATUS, PWRDS_PROTOCOL_STATUS, PWRDS_PROTOCOL_STATUS structure pointer [Remote Desktop Services], PWTS_PROTOCOL_STATUS, PWTS_PROTOCOL_STATUS structure pointer [Remote Desktop Services], WRDS_PROTOCOL_STATUS, WRDS_PROTOCOL_STATUS structure [Remote Desktop Services], WTS_PROTOCOL_STATUS, WTS_PROTOCOL_STATUS structure [Remote Desktop Services], termserv.wts_protocol_status, wtsdefs/PWRDS_PROTOCOL_STATUS, wtsdefs/PWTS_PROTOCOL_STATUS, wtsdefs/WRDS_PROTOCOL_STATUS, wtsdefs/WTS_PROTOCOL_STATUS"
+ms.keywords: '*PWTS_PROTOCOL_STATUS, PWRDS_PROTOCOL_STATUS, PWRDS_PROTOCOL_STATUS structure pointer [Remote Desktop Services], PWTS_PROTOCOL_STATUS, PWTS_PROTOCOL_STATUS structure pointer [Remote Desktop Services], WRDS_PROTOCOL_STATUS, WRDS_PROTOCOL_STATUS structure [Remote Desktop Services], WTS_PROTOCOL_STATUS, WTS_PROTOCOL_STATUS structure [Remote Desktop Services], termserv.wts_protocol_status, wtsdefs/PWRDS_PROTOCOL_STATUS, wtsdefs/PWTS_PROTOCOL_STATUS, wtsdefs/WRDS_PROTOCOL_STATUS, wtsdefs/WTS_PROTOCOL_STATUS'
 ms.topic: struct
-f1_keywords: 
- - "wtsdefs/WTS_PROTOCOL_STATUS"
+f1_keywords:
+- wtsdefs/WTS_PROTOCOL_STATUS
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsdefs.h
+- Wtsdefs.h
 api_name:
- - WTS_PROTOCOL_STATUS
+- WTS_PROTOCOL_STATUS
 product: Windows
 targetos: Windows
 req.typenames: WTS_PROTOCOL_STATUS, *PWTS_PROTOCOL_STATUS
@@ -61,17 +61,17 @@ Contains information about the status of the protocol.
 
 ### -field Output
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_protocol_counters">WTS_PROTOCOL_COUNTERS</a> structure that contains the output protocol counters.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_protocol_counters">WTS_PROTOCOL_COUNTERS</a> structure that contains the output protocol counters.
 
 
 ### -field Input
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_protocol_counters">WTS_PROTOCOL_COUNTERS</a> structure that contains the input protocol counters.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_protocol_counters">WTS_PROTOCOL_COUNTERS</a> structure that contains the input protocol counters.
 
 
 ### -field Cache
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_cache_stats">WTS_CACHE_STATS</a> structure that contains protocol cache statistics.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_cache_stats">WTS_CACHE_STATS</a> structure that contains protocol cache statistics.
 
 
 ### -field AsyncSignal

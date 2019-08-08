@@ -8,10 +8,10 @@ tech.root: ad
 ms.assetid: d86890db-b34a-415a-820a-6d4790914218
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSCHEDULE, PSCHEDULE, PSCHEDULE structure pointer [Active Directory], SCHEDULE, SCHEDULE structure [Active Directory], ad.schedule, schedule/PSCHEDULE, schedule/SCHEDULE"
+ms.keywords: '*PSCHEDULE, PSCHEDULE, PSCHEDULE structure pointer [Active Directory], SCHEDULE, SCHEDULE structure [Active Directory], ad.schedule, schedule/PSCHEDULE, schedule/SCHEDULE'
 ms.topic: struct
-f1_keywords: 
- - "schedule/SCHEDULE"
+f1_keywords:
+- schedule/SCHEDULE
 req.header: schedule.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Schedule.h
+- Schedule.h
 api_name:
- - SCHEDULE
+- SCHEDULE
 product: Windows
 targetos: Windows
 req.typenames: SCHEDULE, *PSCHEDULE
@@ -76,7 +76,7 @@ Contains the number of elements in the <b>Schedules</b> array.
 
 ### -field Schedules
 
-Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-_schedule_header">SCHEDULE_HEADER</a> structures that contain the replication schedule data for the replication source. The <b>NumberOfSchedules</b> member contains the number of elements in this array. Currently, this array can only contain one element.
+Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-schedule_header">SCHEDULE_HEADER</a> structures that contain the replication schedule data for the replication source. The <b>NumberOfSchedules</b> member contains the number of elements in this array. Currently, this array can only contain one element.
 
 
 ## -see-also
@@ -92,7 +92,7 @@ Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/sch
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-_schedule_header">SCHEDULE_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-schedule_header">SCHEDULE_HEADER</a>
  
 
  

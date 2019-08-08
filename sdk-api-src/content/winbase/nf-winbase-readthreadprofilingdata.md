@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: READ_THREAD_PROFILING_FLAG_DISPATCHING, READ_THREAD_PROFILING_FLAG_HARDWARE_COUNTERS, ReadThreadProfilingData, ReadThreadProfilingData function [Hardware Counter Profiling], hcp.readthreadprofilingdata, winbase/ReadThreadProfilingData
 ms.topic: function
-f1_keywords: 
- - "winbase/ReadThreadProfilingData"
+f1_keywords:
+- winbase/ReadThreadProfilingData
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - ReadThreadProfilingData
+- ReadThreadProfilingData
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -101,7 +101,7 @@ Get the hardware performance counters data.
 
 ### -param PerformanceData [out]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_performance_data">PERFORMANCE_DATA</a> structure that contains the thread profiling and hardware counter data.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-performance_data">PERFORMANCE_DATA</a> structure that contains the thread profiling and hardware counter data.
 
 
 ## -returns

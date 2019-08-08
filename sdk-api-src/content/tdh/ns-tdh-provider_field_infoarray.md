@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: c3755ca2-7b17-4f86-9ae8-34621f8b8c1b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPROVIDER_FIELD_INFOARRAY, PROVIDER_FIELD_INFOARRAY, PROVIDER_FIELD_INFOARRAY structure [ETW], etw.provider_field_infoarray_struct, tdh.provider_field_infoarray_struct, tdh/PROVIDER_FIELD_INFOARRAY"
+ms.keywords: '*PPROVIDER_FIELD_INFOARRAY, PROVIDER_FIELD_INFOARRAY, PROVIDER_FIELD_INFOARRAY structure [ETW], etw.provider_field_infoarray_struct, tdh.provider_field_infoarray_struct, tdh/PROVIDER_FIELD_INFOARRAY'
 ms.topic: struct
-f1_keywords: 
- - "tdh/PROVIDER_FIELD_INFOARRAY"
+f1_keywords:
+- tdh/PROVIDER_FIELD_INFOARRAY
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tdh.h
+- Tdh.h
 api_name:
- - PROVIDER_FIELD_INFOARRAY
+- PROVIDER_FIELD_INFOARRAY
 product: Windows
 targetos: Windows
 req.typenames: PROVIDER_FIELD_INFOARRAY
@@ -70,12 +70,12 @@ Number of elements in the <b>FieldInfoArray</b> array.
 
 ### -field FieldType
 
-Type of field information in  the <b>FieldInfoArray</b> array. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-_event_field_type">EVENT_FIELD_TYPE</a> enumeration. 
+Type of field information in  the <b>FieldInfoArray</b> array. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-event_field_type">EVENT_FIELD_TYPE</a> enumeration. 
 
 
 ### -field FieldInfoArray
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_provider_field_info">PROVIDER_FIELD_INFO</a> structures that define the field's name, description and value.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-provider_field_info">PROVIDER_FIELD_INFO</a> structures that define the field's name, description and value.
 
 
 ## -see-also

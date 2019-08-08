@@ -8,10 +8,10 @@ tech.root: SecMgmt
 ms.assetid: a89ab072-7b7c-4ecd-83fa-26e2689778df
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSCESVC_CONFIGURATION_INFO, PSCESVC_CONFIGURATION_INFO, PSCESVC_CONFIGURATION_INFO structure pointer [Security], SCESVC_CONFIGURATION_INFO, SCESVC_CONFIGURATION_INFO structure [Security], _config_scesvc_configuration_info, scesvc/PSCESVC_CONFIGURATION_INFO, scesvc/SCESVC_CONFIGURATION_INFO, security.scesvc_configuration_info"
+ms.keywords: '*PSCESVC_CONFIGURATION_INFO, PSCESVC_CONFIGURATION_INFO, PSCESVC_CONFIGURATION_INFO structure pointer [Security], SCESVC_CONFIGURATION_INFO, SCESVC_CONFIGURATION_INFO structure [Security], _config_scesvc_configuration_info, scesvc/PSCESVC_CONFIGURATION_INFO, scesvc/SCESVC_CONFIGURATION_INFO, security.scesvc_configuration_info'
 ms.topic: struct
-f1_keywords: 
- - "scesvc/SCESVC_CONFIGURATION_INFO"
+f1_keywords:
+- scesvc/SCESVC_CONFIGURATION_INFO
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Scesvc.h
+- Scesvc.h
 api_name:
- - SCESVC_CONFIGURATION_INFO
+- SCESVC_CONFIGURATION_INFO
 product: Windows
 targetos: Windows
 req.typenames: SCESVC_CONFIGURATION_INFO, *PSCESVC_CONFIGURATION_INFO
@@ -101,7 +101,7 @@ When analysis information is specified, the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ne-scesvc-_scesvc_info_type">SCESVC_INFO_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ne-scesvc-scesvc_info_type">SCESVC_INFO_TYPE</a>
  
 
  

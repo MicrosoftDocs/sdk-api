@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SdpQueryUuidUnion, SdpQueryUuidUnion structure [Bluetooth], bluetooth.sdpqueryuuidunion, bthsdpdef/SdpQueryUuidUnion
 ms.topic: struct
-f1_keywords: 
- - "bthsdpdef/SdpQueryUuidUnion"
+f1_keywords:
+- bthsdpdef/SdpQueryUuidUnion
 req.header: bthsdpdef.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bthsdpdef.h
+- Bthsdpdef.h
 api_name:
- - SdpQueryUuidUnion
+- SdpQueryUuidUnion
 product: Windows
 targetos: Windows
 req.typenames: SdpQueryUuidUnion
@@ -121,11 +121,11 @@ UUID in 16-bit format.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2bth/ns-ws2bth-_bth_query_service">BTH_QUERY_SERVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2bth/ns-ws2bth-bth_query_service">BTH_QUERY_SERVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthsdpdef/ns-bthsdpdef-_sdpqueryuuid">SdpQueryUuid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bthsdpdef/ns-bthsdpdef-sdpqueryuuid">SdpQueryUuid</a>
  
 
  

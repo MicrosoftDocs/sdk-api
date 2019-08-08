@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFNCMFILTERPROC, PFNCMFILTERPROC callback, PFNCMFILTERPROC callback function [Security], cryptdlg/PFNCMFILTERPROC, security.pfncmfilterproc
 ms.topic: callback
-f1_keywords: 
- - "cryptdlg/PFNCMFILTERPROC"
+f1_keywords:
+- cryptdlg/PFNCMFILTERPROC
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - CryptDlg.h
+- CryptDlg.h
 api_name:
- - PFNCMFILTERPROC
+- PFNCMFILTERPROC
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>PFNCMFILTERPROC</b> function is a filter procedure that filters each cert
 
 ### -param pCertContext [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that contains a certificate to make a filtering determination on.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains a certificate to make a filtering determination on.
 
 
 ### -param LPARAM

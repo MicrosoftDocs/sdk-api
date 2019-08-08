@@ -8,10 +8,10 @@ tech.root: wnv
 ms.assetid: 817C86BB-1267-4174-93C2-515288A33055
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWNV_OBJECT_TYPE, PWNV_OBJECT_TYPE, PWNV_OBJECT_TYPE enumeration pointer [Windows Network Virtualization], WNV_OBJECT_TYPE, WNV_OBJECT_TYPE enumeration [Windows Network Virtualization], WnvObjectTypeMax, WnvProviderAddressType, wnv.wnv_object_type, wnvapi/PWNV_OBJECT_TYPE, wnvapi/WNV_OBJECT_TYPE, wnvapi/WnvObjectTypeMax, wnvapi/WnvProviderAddressType"
+ms.keywords: '*PWNV_OBJECT_TYPE, PWNV_OBJECT_TYPE, PWNV_OBJECT_TYPE enumeration pointer [Windows Network Virtualization], WNV_OBJECT_TYPE, WNV_OBJECT_TYPE enumeration [Windows Network Virtualization], WnvObjectTypeMax, WnvProviderAddressType, wnv.wnv_object_type, wnvapi/PWNV_OBJECT_TYPE, wnvapi/WNV_OBJECT_TYPE, wnvapi/WnvObjectTypeMax, wnvapi/WnvProviderAddressType'
 ms.topic: enum
-f1_keywords: 
- - "wnvapi/WNV_OBJECT_TYPE"
+f1_keywords:
+- wnvapi/WNV_OBJECT_TYPE
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wnvapi.h
+- wnvapi.h
 api_name:
- - WNV_OBJECT_TYPE
+- WNV_OBJECT_TYPE
 product: Windows
 targetos: Windows
 req.typenames: WNV_OBJECT_TYPE, *PWNV_OBJECT_TYPE
@@ -77,11 +77,11 @@ The maximum possible value for this enumeration type. This is not a legal value.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ne-wnvapi-_wnv_notification_type">WNV_NOTIFICATION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ne-wnvapi-wnv_notification_type">WNV_NOTIFICATION_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_object_change_param">WNV_OBJECT_CHANGE_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_object_change_param">WNV_OBJECT_CHANGE_PARAM</a>
  
 
  

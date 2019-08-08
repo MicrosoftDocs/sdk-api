@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_FeatureDecl, MI_FeatureDecl structure [Windows Management Infrastructure (MI)], mi/MI_FeatureDecl, wmi_v2.mi_featuredecl
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_FeatureDecl"
+f1_keywords:
+- mi/MI_FeatureDecl
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_FeatureDecl
+- MI_FeatureDecl
 product: Windows
 targetos: Windows
 req.typenames: MI_FeatureDecl
@@ -51,8 +51,8 @@ ms.custom: 19H1
 ## -description
 
 
-Contains properties that are common to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_propertydecl">MI_PropertyDecl</a>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_parameterdecl">MI_ParameterDecl</a>and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_methoddecl">MI_MethodDecl</a> structures.
+Contains properties that are common to the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_propertydecl">MI_PropertyDecl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_parameterdecl">MI_ParameterDecl</a>and <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_methoddecl">MI_MethodDecl</a> structures.
 
 
 ## -struct-fields

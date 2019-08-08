@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 100, 101, 102, 103, 104, 105, 106, 107, 150, NetDfsSetInfo, NetDfsSetInfo function [Distributed File System], _win32_netdfssetinfo, dfs.netdfssetinfo, fs.netdfssetinfo, lmdfs/NetDfsSetInfo, netmgmt.netdfssetinfo
 ms.topic: function
-f1_keywords: 
- - "lmdfs/NetDfsSetInfo"
+f1_keywords:
+- lmdfs/NetDfsSetInfo
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetDfsSetInfo
+- NetDfsSetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -114,7 +114,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 
 Set the comment associated with the DFS root or link specified in the 
         <i>DfsEntryPath</i> parameter. The <i>Buffer</i> parameter points to a 
-        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_100">DFS_INFO_100</a> structure.
+        <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_100">DFS_INFO_100</a> structure.
 
 
 
@@ -122,7 +122,7 @@ Set the comment associated with the DFS root or link specified in the
 
 Set the storage state associated with the DFS root or link specified in the 
         <i>DfsEntryPath</i> parameter. The <i>Buffer</i> parameter points to a 
-        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_101">DFS_INFO_101</a> structure.
+        <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_101">DFS_INFO_101</a> structure.
 
 
 
@@ -130,7 +130,7 @@ Set the storage state associated with the DFS root or link specified in the
 
 Set the time-out value associated with the DFS root or link specified in the 
         <i>DfsEntryPath</i> parameter. The <i>Buffer</i> parameter points to a 
-        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_102">DFS_INFO_102</a> structure.
+        <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_102">DFS_INFO_102</a> structure.
 
 
 
@@ -138,7 +138,7 @@ Set the time-out value associated with the DFS root or link specified in the
 
 Set the property flags for the DFS root or link specified in the <i>DfsEntryPath</i> 
          parameter. The <i>Buffer</i> parameter points to a 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_103">DFS_INFO_103</a> structure.
+         <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_103">DFS_INFO_103</a> structure.
 
 
 
@@ -146,7 +146,7 @@ Set the property flags for the DFS root or link specified in the <i>DfsEntryPath
 
 Set the target priority rank and class for the root target or link target specified in the 
          <i>DfsEntryPath</i> parameter. The <i>Buffer</i> parameter points to a 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_104">DFS_INFO_104</a> structure.
+         <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_104">DFS_INFO_104</a> structure.
 
 
 
@@ -154,7 +154,7 @@ Set the target priority rank and class for the root target or link target specif
 
 Set the comment, state, and time-out information, as well as property flags, for the DFS root or link 
          specified in the <i>DfsEntryPath</i> parameter. The <i>Buffer</i> 
-         parameter points to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_105">DFS_INFO_105</a> structure.
+         parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_105">DFS_INFO_105</a> structure.
 
 
 
@@ -163,7 +163,7 @@ Set the comment, state, and time-out information, as well as property flags, for
 Set the target state and priority for the root target or link target specified in the 
          <i>DfsEntryPath</i> parameter. This information cannot be set for a DFS namespace root or 
          link, only for a root target or link target. The <i>Buffer</i> parameter points to a 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_106">DFS_INFO_106</a> structure.
+         <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_106">DFS_INFO_106</a> structure.
 
 
 
@@ -172,14 +172,14 @@ Set the target state and priority for the root target or link target specified i
 Set the comment, state, time-out information, and property flags for the DFS root or link specified in the 
          <i>DfsEntryPath</i> parameter. For DFS links, you can also set the security descriptor for 
          the link's reparse point. The <i>Buffer</i> parameter points to a 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_107">DFS_INFO_107</a> structure.
+         <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_107">DFS_INFO_107</a> structure.
 
 
 
 #### 150
 
 Set the security descriptor for a DFS link's reparse point. The <i>Buffer</i> parameter 
-         points to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_150">DFS_INFO_150</a> structure.
+         points to a <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_150">DFS_INFO_150</a> structure.
 
 
 ### -param Buffer [in]
@@ -232,7 +232,7 @@ The <i>DfsEntryPath</i> parameter specifies the domain-based DFS namespace, and 
 
 The following code sample demonstrates how to associate a comment with a DFS link using a call to the 
      <b>NetDfsSetInfo</b> function. The sample specifies information level 100 
-     (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_100">DFS_INFO_100</a>).
+     (<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_100">DFS_INFO_100</a>).
 
 
 ```cpp
@@ -283,39 +283,39 @@ void wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_100">DFS_INFO_100</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_100">DFS_INFO_100</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_101">DFS_INFO_101</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_101">DFS_INFO_101</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_102">DFS_INFO_102</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_102">DFS_INFO_102</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_103">DFS_INFO_103</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_103">DFS_INFO_103</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_104">DFS_INFO_104</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_104">DFS_INFO_104</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_105">DFS_INFO_105</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_105">DFS_INFO_105</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_106">DFS_INFO_106</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_106">DFS_INFO_106</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_107">DFS_INFO_107</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_107">DFS_INFO_107</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_150">DFS_INFO_150</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_150">DFS_INFO_150</a>
 
 
 

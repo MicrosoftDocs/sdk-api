@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetError, GetError method [BITS], GetError method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetError method, IBackgroundCopyJob.GetError, IBackgroundCopyJob::GetError, _drz_ibackgroundcopyjob_geterror, bits.ibackgroundcopyjob_geterror, bits/IBackgroundCopyJob::GetError
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.GetError"
+f1_keywords:
+- bits/IBackgroundCopyJob.GetError
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.GetError
+- IBackgroundCopyJob.GetError
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -138,7 +138,7 @@ If the job remains in an error state for 90 days (default <a href="https://docs.
 To determine whether the upload, reply, or server application portion of an upload-reply job failed, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterror">IBackgroundCopyError::GetError</a> method to retrieve the 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyerror_0001">context</a> in which the error occurred. The server application failed if the context is BG_ERROR_CONTEXT_REMOTE_APPLICATION. If the error is with the upload or reply, the context is BG_ERROR_CONTEXT_REMOTE_FILE. The upload failed if the <b>BytesTotal</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-_bg_job_reply_progress">BG_JOB_REPLY_PROGRESS</a> structure is BG_SIZE_UNKNOWN. Otherwise, the reply failed.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-bg_job_reply_progress">BG_JOB_REPLY_PROGRESS</a> structure is BG_SIZE_UNKNOWN. Otherwise, the reply failed.
 
 
 #### Examples

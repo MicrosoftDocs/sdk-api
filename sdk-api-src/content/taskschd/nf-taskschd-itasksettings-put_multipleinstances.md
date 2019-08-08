@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],MultipleInstances property, ITaskSettings.MultipleInstances, ITaskSettings.put_MultipleInstances, ITaskSettings::MultipleInstances, ITaskSettings::get_MultipleInstances, ITaskSettings::put_MultipleInstances, MultipleInstances property [Task Scheduler], MultipleInstances property [Task Scheduler],ITaskSettings interface, TASK_INSTANCES_IGNORE_NEW, TASK_INSTANCES_PARALLEL, TASK_INSTANCES_QUEUE, TASK_INSTANCES_STOP_EXISTING, put_MultipleInstances, taskschd.itasksettings_multipleinstances, taskschd/ITaskSettings::MultipleInstances, taskschd/ITaskSettings::get_MultipleInstances, taskschd/ITaskSettings::put_MultipleInstances
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskSettings.MultipleInstances"
+f1_keywords:
+- taskschd/ITaskSettings.MultipleInstances
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskSettings.MultipleInstances
- - ITaskSettings.get_MultipleInstances
- - ITaskSettings.put_MultipleInstances
+- ITaskSettings.MultipleInstances
+- ITaskSettings.get_MultipleInstances
+- ITaskSettings.put_MultipleInstances
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -79,7 +79,7 @@ When reading or writing XML for a task, this setting is specified in the <a href
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-_task_instances_policy">TASK_INSTANCES_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-task_instances_policy">TASK_INSTANCES_POLICY</a>
 
 
 

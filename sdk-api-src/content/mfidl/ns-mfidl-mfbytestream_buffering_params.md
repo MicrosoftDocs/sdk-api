@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6667d32c-36a8-414e-a546-02d00a447b70, MFBYTESTREAM_BUFFERING_PARAMS, MFBYTESTREAM_BUFFERING_PARAMS structure [Media Foundation], mf.mfbytestream_buffering_params, mfidl/MFBYTESTREAM_BUFFERING_PARAMS
 ms.topic: struct
-f1_keywords: 
- - "mfidl/MFBYTESTREAM_BUFFERING_PARAMS"
+f1_keywords:
+- mfidl/MFBYTESTREAM_BUFFERING_PARAMS
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFBYTESTREAM_BUFFERING_PARAMS
+- MFBYTESTREAM_BUFFERING_PARAMS
 product: Windows
 targetos: Windows
 req.typenames: MFBYTESTREAM_BUFFERING_PARAMS
@@ -74,7 +74,7 @@ Size of the playable media data in the file, excluding any trailing data that is
 
 ### -field prgBuckets
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-_mf_leaky_bucket_pair">MF_LEAKY_BUCKET_PAIR</a> structures. Each member of the array gives the buffer window for a particular bit rate.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mf_leaky_bucket_pair">MF_LEAKY_BUCKET_PAIR</a> structures. Each member of the array gives the buffer window for a particular bit rate.
 
 
 ### -field cBuckets

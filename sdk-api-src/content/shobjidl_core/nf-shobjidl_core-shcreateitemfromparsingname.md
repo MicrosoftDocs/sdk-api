@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateItemFromParsingName, SHCreateItemFromParsingName function [Windows Shell], _shell_SHCreateItemFromParsingName, shell.SHCreateItemFromParsingName, shobjidl_core/SHCreateItemFromParsingName
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHCreateItemFromParsingName"
+f1_keywords:
+- shobjidl_core/SHCreateItemFromParsingName
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - API-MS-Win-Shell-Namespace-L1-1-0.dll
- - Ext-MS-Win-shell-shell32-L1-2-0.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
- - Windows.Storage.Dll
+- Shell32.dll
+- API-MS-Win-Shell-Namespace-L1-1-0.dll
+- Ext-MS-Win-shell-shell32-L1-2-0.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Windows.Storage.Dll
 api_name:
- - SHCreateItemFromParsingName
+- SHCreateItemFromParsingName
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ A pointer to a display name.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
 
-Optional. A pointer to a bind context used to pass parameters as inputs and outputs to the parsing function. These passed parameters are often specific to the data source and are documented by the data source owners. For example, the file system data source accepts the name being parsed (as a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_win32_find_dataa">WIN32_FIND_DATA</a> structure), using the <a href="https://docs.microsoft.com/windows/desktop/shell/str-constants">STR_FILE_SYS_BIND_DATA</a> bind context parameter.
+Optional. A pointer to a bind context used to pass parameters as inputs and outputs to the parsing function. These passed parameters are often specific to the data source and are documented by the data source owners. For example, the file system data source accepts the name being parsed (as a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure), using the <a href="https://docs.microsoft.com/windows/desktop/shell/str-constants">STR_FILE_SYS_BIND_DATA</a> bind context parameter.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/shell/str-constants">STR_PARSE_PREFER_FOLDER_BROWSING</a> can be passed to indicate that URLs are parsed using the file system data source when possible. Construct a bind context object using <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createbindctx">CreateBindCtx</a> and populate the values using <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectparam">IBindCtx::RegisterObjectParam</a>. See <b>Bind Context String Keys</b> for a complete list of these. See the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940368(v=vs.85)">Parsing With Parameters Sample</a> for an example of the use of this parameter.

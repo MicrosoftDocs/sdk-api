@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: a59f064b-48cf-4491-82cd-84f59467af87
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_DIRECTDRAW_GLOBAL, DD_DIRECTDRAW_GLOBAL, DD_DIRECTDRAW_GLOBAL structure [Display Devices], ddrawint/DD_DIRECTDRAW_GLOBAL, ddstrcts_d176c3e5-1e8b-4ff6-ba62-2fcfc42a9e5b.xml, display.dd_directdraw_global"
+ms.keywords: '*PDD_DIRECTDRAW_GLOBAL, DD_DIRECTDRAW_GLOBAL, DD_DIRECTDRAW_GLOBAL structure [Display Devices], ddrawint/DD_DIRECTDRAW_GLOBAL, ddstrcts_d176c3e5-1e8b-4ff6-ba62-2fcfc42a9e5b.xml, display.dd_directdraw_global'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_DIRECTDRAW_GLOBAL"
+f1_keywords:
+- ddrawint/DD_DIRECTDRAW_GLOBAL
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_DIRECTDRAW_GLOBAL
+- DD_DIRECTDRAW_GLOBAL
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_DIRECTDRAW_GLOBAL, DD_DIRECTDRAW_GLOBAL"
+req.typenames: '*PDD_DIRECTDRAW_GLOBAL, DD_DIRECTDRAW_GLOBAL'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -76,7 +76,7 @@ Reserved for use by the display driver.
 
 ### -field lpDDVideoPortCaps
 
-Points to an array of one or more <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportcaps">DDVIDEOPORTCAPS</a> structures in which the driver should describe the DirectDraw <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> objects that it supports. The structures are allocated by DirectDraw; the number of structures is based on the value returned in the <b>dwMaxVideoPort</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-_ddcorecaps">DDCORECAPS</a>.
+Points to an array of one or more <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportcaps">DDVIDEOPORTCAPS</a> structures in which the driver should describe the DirectDraw <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> objects that it supports. The structures are allocated by DirectDraw; the number of structures is based on the value returned in the <b>dwMaxVideoPort</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>.
 
 This member is <b>NULL</b> when the driver does not implement the VPE.
 
@@ -97,7 +97,7 @@ The <b>dwReserved1</b> and <b>dwReserved2</b> members can be used as required by
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a>
  
 
  

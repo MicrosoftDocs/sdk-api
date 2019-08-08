@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DDFLIP_DONOTWAIT, DDFLIP_EVEN, DDFLIP_INTERVAL2, DDFLIP_INTERVAL3, DDFLIP_INTERVAL4, DDFLIP_NOVSYNC, DDFLIP_ODD, DDFLIP_STEREO, DDFLIP_WAIT, Flip, Flip method [DirectDraw], Flip method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],Flip method, IDirectDrawSurface7.Flip, IDirectDrawSurface7::Flip, ddraw/IDirectDrawSurface7::Flip, directdraw.idirectdrawsurface7_flip
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.Flip"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.Flip
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.Flip
+- IDirectDrawSurface7.Flip
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -101,7 +101,7 @@ DirectDraw flips and displays a main stereo surface. When this flag is set, ster
 
 The DDFLIP_INTERVAL2, DDFLIP_INTERVAL3, and DDFLIP_INTERVAL4 flags indicate how many vertical retraces to wait between each flip. The default is 1. DirectDraw returns DERR_WASSTILLDRAWING for each surface involved in the flip until the specified number of vertical retraces has occurred. If DDFLIP_INTERVAL2 is set, DirectDraw flips on every second vertical sync; if DDFLIP_INTERVAL3, on every third sync; and if DDFLIP_INTERVAL4, on every fourth sync.
 
-These flags are effective only if DDCAPS2_FLIPINTERVAL bit is set in the  <b>dwCaps2</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddcaps_dx3">DDCAPS</a> structure that is returned for the display hardware.
+These flags are effective only if DDCAPS2_FLIPINTERVAL bit is set in the  <b>dwCaps2</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddcaps_dx3">DDCAPS</a> structure that is returned for the display hardware.
 
 
 
@@ -109,7 +109,7 @@ These flags are effective only if DDCAPS2_FLIPINTERVAL bit is set in the  <b>dwC
 
 Causes DirectDraw to perform the physical flip as close as possible to the next scan line. Subsequent operations that involve the two flipped surfaces do not check whether the physical flip has finished—that is, they do not return DDERR_WASSTILLDRAWING for that reason (but might for other reasons). This allows an application to perform flips at a higher frequency than the monitor refresh rate, but might introduce visible artifacts.
 
-If DDCAPS2_FLIPNOVSYNC is not set in the <b>dwCaps2</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddcaps_dx3">DDCAPS</a> structure that is returned for the display hardware, DDFLIP_NOVSYNC has no effect.
+If DDCAPS2_FLIPNOVSYNC is not set in the <b>dwCaps2</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddcaps_dx3">DDCAPS</a> structure that is returned for the display hardware, DDFLIP_NOVSYNC has no effect.
 
 
 

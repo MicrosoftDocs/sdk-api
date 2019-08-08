@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasGetConnectionStatistics, RasGetConnectionStatistics function [RAS], _ras_rasgetconnectionstatistics, ras/RasGetConnectionStatistics, rras.rasgetconnectionstatistics
 ms.topic: function
-f1_keywords: 
- - "ras/RasGetConnectionStatistics"
+f1_keywords:
+- ras/RasGetConnectionStatistics
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+- Rasapi32.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
- - RasGetConnectionStatistics
+- RasGetConnectionStatistics
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,12 +71,12 @@ Handle to the connection. Use <a href="https://docs.microsoft.com/windows/deskto
 ### -param lpStatistics [in, out]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_ras_stats">RAS_STATS</a> structure that, on output, receives the statistics. 
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-ras_stats">RAS_STATS</a> structure that, on output, receives the statistics. 
 
 
 
 
-On input, set the <b>dwSize</b> member of this structure to sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_ras_stats">RAS_STATS</a>).
+On input, set the <b>dwSize</b> member of this structure to sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-ras_stats">RAS_STATS</a>).
 
 This parameter cannot be <b>NULL</b>.
 
@@ -102,7 +102,7 @@ If the function fails, the return value is one of the following error codes or a
 </td>
 <td width="60%">
 At least one of the following is true: the <i>hRasConn</i> parameter is zero, the <i>lpStatistics</i> parameter is <b>NULL</b>, or the value specified by the <b>dwSize</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_ras_stats">RAS_STATS</a> structure specifies a version of the structure that is not supported by the operating system in use.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-ras_stats">RAS_STATS</a> structure specifies a version of the structure that is not supported by the operating system in use.
 
 </td>
 </tr>

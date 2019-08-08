@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDXMLContext interface,SetNamespaces method, IWSDXMLContext.SetNamespaces, IWSDXMLContext::SetNamespaces, SetNamespaces, SetNamespaces method, SetNamespaces method,IWSDXMLContext interface, ncd.iwsdxmlcontext_setnamespaces_method, wsdxml/IWSDXMLContext::SetNamespaces
 ms.topic: method
-f1_keywords: 
- - "wsdxml/IWSDXMLContext.SetNamespaces"
+f1_keywords:
+- wsdxml/IWSDXMLContext.SetNamespaces
 req.header: wsdxml.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDXMLContext.SetNamespaces
+- IWSDXMLContext.SetNamespaces
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ This method should only be called by <a href="https://docs.microsoft.com/windows
 
 ### -param pNamespaces [in]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_namespace">WSDXML_NAMESPACE</a> structures.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_namespace">WSDXML_NAMESPACE</a> structures.
 
 
 ### -param wNamespacesCount [in]

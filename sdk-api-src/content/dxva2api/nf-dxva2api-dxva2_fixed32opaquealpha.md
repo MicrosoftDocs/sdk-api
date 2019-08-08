@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVA2_Fixed32OpaqueAlpha, DXVA2_Fixed32OpaqueAlpha function [Media Foundation], de2f8aa8-0e06-4f47-9d69-dfff07bc4c0f, dxva2api/DXVA2_Fixed32OpaqueAlpha, mf.dxva2_fixed32opaquealpha
 ms.topic: function
-f1_keywords: 
- - "dxva2api/DXVA2_Fixed32OpaqueAlpha"
+f1_keywords:
+- dxva2api/DXVA2_Fixed32OpaqueAlpha
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - DXVA2_Fixed32OpaqueAlpha
+- DXVA2_Fixed32OpaqueAlpha
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_fixed32">DXVA2_Fixed32</a> structure that contains an opaque alpha value.
+Returns a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_fixed32">DXVA2_Fixed32</a> structure that contains an opaque alpha value.
 
 You can use this function for DirectX Video Acceleration (DXVA) operations that require alpha values expressed as fixed-point numbers.
 
@@ -67,7 +67,7 @@ You can use this function for DirectX Video Acceleration (DXVA) operations that 
 
 
 
-The function returns a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_fixed32">DXVA2_Fixed32</a> structure that contains an opaque alpha value.
+The function returns a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_fixed32">DXVA2_Fixed32</a> structure that contains an opaque alpha value.
 
 
 
@@ -77,11 +77,11 @@ The function returns a <a href="https://docs.microsoft.com/windows/desktop/api/d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videoprocessbltparams">DXVA2_VideoProcessBltParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessbltparams">DXVA2_VideoProcessBltParams</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videosample">DXVA2_VideoSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videosample">DXVA2_VideoSample</a>
 
 
 

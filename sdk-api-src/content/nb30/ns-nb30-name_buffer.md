@@ -8,10 +8,10 @@ tech.root: NetBIOS
 ms.assetid: f1059074-68c1-4a08-98bd-ccfb314e39ec
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PNAME_BUFFER, DEREGISTERED, DUPLICATE, DUPLICATE_DEREG, GROUP_NAME, NAME_BUFFER, NAME_BUFFER structure [NetBIOS], PNAME_BUFFER, PNAME_BUFFER structure pointer [NetBIOS], REGISTERED, REGISTERING, UNIQUE_NAME, nb30/NAME_BUFFER, nb30/PNAME_BUFFER, netbios.name_buffer"
+ms.keywords: '*PNAME_BUFFER, DEREGISTERED, DUPLICATE, DUPLICATE_DEREG, GROUP_NAME, NAME_BUFFER, NAME_BUFFER structure [NetBIOS], PNAME_BUFFER, PNAME_BUFFER structure pointer [NetBIOS], REGISTERED, REGISTERING, UNIQUE_NAME, nb30/NAME_BUFFER, nb30/PNAME_BUFFER, netbios.name_buffer'
 ms.topic: struct
-f1_keywords: 
- - "nb30/NAME_BUFFER"
+f1_keywords:
+- nb30/NAME_BUFFER
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Nb30.h
+- Nb30.h
 api_name:
- - NAME_BUFFER
+- NAME_BUFFER
 product: Windows
 targetos: Windows
 req.typenames: NAME_BUFFER, *PNAME_BUFFER
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
 
-The <b>NAME_BUFFER</b> structure contains information about a local network name. One or more <b>NAME_BUFFER</b> structures follows an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_adapter_status">ADAPTER_STATUS</a> structure when an application specifies the <b>NCBASTAT</b> command in the ncb_command member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a> structure. 
+The <b>NAME_BUFFER</b> structure contains information about a local network name. One or more <b>NAME_BUFFER</b> structures follows an <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-adapter_status">ADAPTER_STATUS</a> structure when an application specifies the <b>NCBASTAT</b> command in the ncb_command member of the <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure. 
 
 
 
@@ -65,12 +65,12 @@ The <b>NAME_BUFFER</b> structure contains information about a local network name
 
 ### -field name
 
-Specifies the local network name. This value is in the <b>ncb_name</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a> structure.
+Specifies the local network name. This value is in the <b>ncb_name</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure.
 
 
 ### -field name_num
 
-Specifies the number for the local network name. This value is in the <b>ncb_num</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a> structure.
+Specifies the number for the local network name. This value is in the <b>ncb_num</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure.
 
 
 ### -field name_flags
@@ -115,11 +115,11 @@ Specifies the current state of the name table entry. This member can be one of t
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_adapter_status">ADAPTER_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-adapter_status">ADAPTER_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a>
 
 
 

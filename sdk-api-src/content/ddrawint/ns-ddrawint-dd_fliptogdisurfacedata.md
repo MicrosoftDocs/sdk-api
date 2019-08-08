@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: ac0fdaf7-0cb2-4474-b3dd-a039161513a4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_FLIPTOGDISURFACEDATA, DD_FLIPTOGDISURFACEDATA, DD_FLIPTOGDISURFACEDATA structure [Display Devices], ddrawint/DD_FLIPTOGDISURFACEDATA, ddstrcts_7e93a017-4f74-43c9-9aaa-6e64da35870d.xml, display.dd_fliptogdisurfacedata"
+ms.keywords: '*PDD_FLIPTOGDISURFACEDATA, DD_FLIPTOGDISURFACEDATA, DD_FLIPTOGDISURFACEDATA structure [Display Devices], ddrawint/DD_FLIPTOGDISURFACEDATA, ddstrcts_7e93a017-4f74-43c9-9aaa-6e64da35870d.xml, display.dd_fliptogdisurfacedata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_FLIPTOGDISURFACEDATA"
+f1_keywords:
+- ddrawint/DD_FLIPTOGDISURFACEDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_FLIPTOGDISURFACEDATA
+- DD_FLIPTOGDISURFACEDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_FLIPTOGDISURFACEDATA, DD_FLIPTOGDISURFACEDATA"
+req.typenames: '*PDD_FLIPTOGDISURFACEDATA, DD_FLIPTOGDISURFACEDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,7 +61,7 @@ The DD_FLIPTOGDISURFACEDATA structure contains the GDI surface notification info
 
 ### -field lpDD
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 
 ### -field dwToGDI

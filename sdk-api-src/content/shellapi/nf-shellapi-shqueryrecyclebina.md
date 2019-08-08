@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHQueryRecycleBin, SHQueryRecycleBin function [Windows Shell], SHQueryRecycleBinA, SHQueryRecycleBinW, _win32_SHQueryRecycleBin, shell.SHQueryRecycleBin, shellapi/SHQueryRecycleBin, shellapi/SHQueryRecycleBinA, shellapi/SHQueryRecycleBinW
 ms.topic: function
-f1_keywords: 
- - "shellapi/SHQueryRecycleBin"
+f1_keywords:
+- shellapi/SHQueryRecycleBin
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHQueryRecycleBin
- - SHQueryRecycleBinA
- - SHQueryRecycleBinW
+- SHQueryRecycleBin
+- SHQueryRecycleBinA
+- SHQueryRecycleBinW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ The address of a <b>null</b>-terminated string of maximum length MAX_PATH to con
 
 Type: <b>LPSHQUERYRBINFO</b>
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shqueryrbinfo">SHQUERYRBINFO</a> structure that receives the Recycle Bin information. The <b>cbSize</b> member of the structure must be set to the size of the structure before calling this API.
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shqueryrbinfo">SHQUERYRBINFO</a> structure that receives the Recycle Bin information. The <b>cbSize</b> member of the structure must be set to the size of the structure before calling this API.
 
 
 ## -returns

@@ -8,10 +8,10 @@ tech.root: shell
 ms.assetid: 2fe4ffba-6fe5-4d34-9cb1-f266e4594b8e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PNOTIFYICONIDENTIFIER, NOTIFYICONIDENTIFIER, NOTIFYICONIDENTIFIER structure [Windows Shell], PNOTIFYICONIDENTIFIER, PNOTIFYICONIDENTIFIER structure pointer [Windows Shell], _shell_NOTIFYICONIDENTIFIER, shell.NOTIFYICONIDENTIFIER, shellapi/NOTIFYICONIDENTIFIER, shellapi/PNOTIFYICONIDENTIFIER"
+ms.keywords: '*PNOTIFYICONIDENTIFIER, NOTIFYICONIDENTIFIER, NOTIFYICONIDENTIFIER structure [Windows Shell], PNOTIFYICONIDENTIFIER, PNOTIFYICONIDENTIFIER structure pointer [Windows Shell], _shell_NOTIFYICONIDENTIFIER, shell.NOTIFYICONIDENTIFIER, shellapi/NOTIFYICONIDENTIFIER, shellapi/PNOTIFYICONIDENTIFIER'
 ms.topic: struct
-f1_keywords: 
- - "shellapi/NOTIFYICONIDENTIFIER"
+f1_keywords:
+- shellapi/NOTIFYICONIDENTIFIER
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shellapi.h
+- Shellapi.h
 api_name:
- - NOTIFYICONIDENTIFIER
+- NOTIFYICONIDENTIFIER
 product: Windows
 targetos: Windows
 req.typenames: NOTIFYICONIDENTIFIER, *PNOTIFYICONIDENTIFIER
@@ -70,7 +70,7 @@ The size of this structure, in bytes.
 
 Type: <b>HWND</b>
 
-A handle to the parent window used by the notification's callback function. For more information, see the <i>hWnd</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyicondataa">NOTIFYICONDATA</a> structure.
+A handle to the parent window used by the notification's callback function. For more information, see the <i>hWnd</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NOTIFYICONDATA</a> structure.
 
 
 ### -field uID

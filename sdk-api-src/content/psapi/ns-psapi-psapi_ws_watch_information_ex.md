@@ -8,10 +8,10 @@ tech.root: psapi
 ms.assetid: fb0429b1-ec93-401c-aeb1-f7e9d9acfa47
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPSAPI_WS_WATCH_INFORMATION_EX, PPSAPI_WS_WATCH_INFORMATION_EX, PPSAPI_WS_WATCH_INFORMATION_EX structure pointer [PSAPI], PSAPI_WS_WATCH_INFORMATION_EX, PSAPI_WS_WATCH_INFORMATION_EX structure [PSAPI], base.psapi_ws_watch_information_ex, psapi.psapi_ws_watch_information_ex, psapi/PPSAPI_WS_WATCH_INFORMATION_EX, psapi/PSAPI_WS_WATCH_INFORMATION_EX"
+ms.keywords: '*PPSAPI_WS_WATCH_INFORMATION_EX, PPSAPI_WS_WATCH_INFORMATION_EX, PPSAPI_WS_WATCH_INFORMATION_EX structure pointer [PSAPI], PSAPI_WS_WATCH_INFORMATION_EX, PSAPI_WS_WATCH_INFORMATION_EX structure [PSAPI], base.psapi_ws_watch_information_ex, psapi.psapi_ws_watch_information_ex, psapi/PPSAPI_WS_WATCH_INFORMATION_EX, psapi/PSAPI_WS_WATCH_INFORMATION_EX'
 ms.topic: struct
-f1_keywords: 
- - "psapi/PSAPI_WS_WATCH_INFORMATION_EX"
+f1_keywords:
+- psapi/PSAPI_WS_WATCH_INFORMATION_EX
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Psapi.h
+- Psapi.h
 api_name:
- - PSAPI_WS_WATCH_INFORMATION_EX
+- PSAPI_WS_WATCH_INFORMATION_EX
 product: Windows
 targetos: Windows
 req.typenames: PSAPI_WS_WATCH_INFORMATION_EX, *PPSAPI_WS_WATCH_INFORMATION_EX
@@ -61,7 +61,7 @@ Contains extended information about a page added to a process working set.
 
 ### -field BasicInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_ws_watch_information">PSAPI_WS_WATCH_INFORMATION</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-psapi_ws_watch_information">PSAPI_WS_WATCH_INFORMATION</a> structure.
 
 
 ### -field FaultingThreadId
@@ -83,7 +83,7 @@ This member is reserved for future use.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_ws_watch_information">PSAPI_WS_WATCH_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-psapi_ws_watch_information">PSAPI_WS_WATCH_INFORMATION</a>
  
 
  

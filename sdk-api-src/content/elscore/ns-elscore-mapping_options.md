@@ -8,10 +8,10 @@ tech.root: Intl
 ms.assetid: 228625b3-928c-451f-9a3f-7eb3130ac622
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMAPPING_OPTIONS, MAPPING_OPTIONS, MAPPING_OPTIONS structure [Internationalization for Windows Applications], PMAPPING_OPTIONS, PMAPPING_OPTIONS structure pointer [Internationalization for Windows Applications], elscore/MAPPING_OPTIONS, elscore/PMAPPING_OPTIONS, intl.mappingoptions"
+ms.keywords: '*PMAPPING_OPTIONS, MAPPING_OPTIONS, MAPPING_OPTIONS structure [Internationalization for Windows Applications], PMAPPING_OPTIONS, PMAPPING_OPTIONS structure pointer [Internationalization for Windows Applications], elscore/MAPPING_OPTIONS, elscore/PMAPPING_OPTIONS, intl.mappingoptions'
 ms.topic: struct
-f1_keywords: 
- - "elscore/MAPPING_OPTIONS"
+f1_keywords:
+- elscore/MAPPING_OPTIONS
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Elscore.h
+- Elscore.h
 api_name:
- - MAPPING_OPTIONS
+- MAPPING_OPTIONS
 product: Windows
 targetos: Windows
 req.typenames: MAPPING_OPTIONS, *PMAPPING_OPTIONS
@@ -176,7 +176,7 @@ call to <b>MappingRecognizeText</b>.</div>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_data_range">MAPPING_DATA_RANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-mapping_data_range">MAPPING_DATA_RANGE</a>
 
 
 

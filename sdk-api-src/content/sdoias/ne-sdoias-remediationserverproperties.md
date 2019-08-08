@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROPERTY_REMEDIATIONSERVER_ADDRESS, PROPERTY_REMEDIATIONSERVER_FRIENDLY_NAME, REMEDIATIONSERVERPROPERTIES, REMEDIATIONSERVERPROPERTIES enumeration [Network Policy Server], nps.SDO_remediationserverproperties, sdo.remediationserverproperties, sdoias/PROPERTY_REMEDIATIONSERVER_ADDRESS, sdoias/PROPERTY_REMEDIATIONSERVER_FRIENDLY_NAME, sdoias/REMEDIATIONSERVERPROPERTIES
 ms.topic: enum
-f1_keywords: 
- - "sdoias/REMEDIATIONSERVERPROPERTIES"
+f1_keywords:
+- sdoias/REMEDIATIONSERVERPROPERTIES
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - REMEDIATIONSERVERPROPERTIES
+- REMEDIATIONSERVERPROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: REMEDIATIONSERVERPROPERTIES
@@ -75,7 +75,7 @@ Host-name for a Remediation Server. Used in NPS user interface.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iascommonproperties">IASCOMMONPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_UNION_FIELD_DESCRIPTION, WS_UNION_FIELD_DESCRIPTION structure [Web Services for Windows], webservices/WS_UNION_FIELD_DESCRIPTION, wsw.ws_union_field_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_UNION_FIELD_DESCRIPTION"
+f1_keywords:
+- webservices/WS_UNION_FIELD_DESCRIPTION
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_UNION_FIELD_DESCRIPTION
+- WS_UNION_FIELD_DESCRIPTION
 product: Windows
 targetos: Windows
 req.typenames: WS_UNION_FIELD_DESCRIPTION
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Represents serialization information about a field within a union.
-                See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_union_description">WS_UNION_DESCRIPTION</a>.
+                See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a>.
             
 
 
@@ -64,12 +64,12 @@ Represents serialization information about a field within a union.
 ### -field value
 
 The enumeration value that field of the union corresponds to.
-                    See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_union_description">WS_UNION_DESCRIPTION</a>.
+                    See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a>.
                 
 
 
 ### -field field
 
-Information about the field.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_union_description">WS_UNION_DESCRIPTION</a>.
+Information about the field.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a>.
                 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_SCOPE_ITEM_STATE, MMC_SCOPE_ITEM_STATE enumeration [MMC], MMC_SCOPE_ITEM_STATE_BOLD, MMC_SCOPE_ITEM_STATE_EXPANDEDONCE, MMC_SCOPE_ITEM_STATE_NORMAL, _slate_mmc_scope_item_state, mmc.mmc_scope_item_state, mmc/MMC_SCOPE_ITEM_STATE, mmc/MMC_SCOPE_ITEM_STATE_BOLD, mmc/MMC_SCOPE_ITEM_STATE_EXPANDEDONCE, mmc/MMC_SCOPE_ITEM_STATE_NORMAL
 ms.topic: enum
-f1_keywords: 
- - "mmc/MMC_SCOPE_ITEM_STATE"
+f1_keywords:
+- mmc/MMC_SCOPE_ITEM_STATE
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - MMC_SCOPE_ITEM_STATE
+- MMC_SCOPE_ITEM_STATE
 product: Windows
 targetos: Windows
 req.typenames: MMC_SCOPE_ITEM_STATE
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 MMC_SCOPE_ITEM_STATE enumeration is used to specify the <b>nState</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_scopedataitem">SCOPEDATAITEM</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-scopedataitem">SCOPEDATAITEM</a> structure.
 
 
 ## -enum-fields

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob2 interface [BITS],SetReplyFileName method, IBackgroundCopyJob2.SetReplyFileName, IBackgroundCopyJob2::SetReplyFileName, SetReplyFileName, SetReplyFileName method [BITS], SetReplyFileName method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_setreplyfilename, bits.ibackgroundcopyjob2_setreplyfilename, bits1_5/IBackgroundCopyJob2::SetReplyFileName
 ms.topic: method
-f1_keywords: 
- - "bits1_5/IBackgroundCopyJob2.SetReplyFileName"
+f1_keywords:
+- bits1_5/IBackgroundCopyJob2.SetReplyFileName
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Bits.lib
 req.dll: BitsPrx2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - BitsPrx2.dll
+- BitsPrx2.dll
 api_name:
- - IBackgroundCopyJob2.SetReplyFileName
+- IBackgroundCopyJob2.SetReplyFileName
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -94,7 +94,7 @@ Successfully specified the name of the file to contain the reply data.
 </td>
 <td width="60%">
 You cannot change the reply file name after BITS begins transferring the reply to the client. BITS is transferring the reply to the client if the state is <b>BG_JOB_STATE_TRANSFERRING</b> and the <b>BytesTotal</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-_bg_job_reply_progress">BG_JOB_REPLY_PROGRESS</a> structure is not <b>BG_SIZE_UNKNOWN</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-bg_job_reply_progress">BG_JOB_REPLY_PROGRESS</a> structure is not <b>BG_SIZE_UNKNOWN</b>.
 
 </td>
 </tr>

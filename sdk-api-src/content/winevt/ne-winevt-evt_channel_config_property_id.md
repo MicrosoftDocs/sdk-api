@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVT_CHANNEL_CONFIG_PROPERTY_ID, EVT_CHANNEL_CONFIG_PROPERTY_ID enumeration [EventLog], EvtChannelConfigAccess, EvtChannelConfigClassicEventlog, EvtChannelConfigEnabled, EvtChannelConfigIsolation, EvtChannelConfigOwningPublisher, EvtChannelConfigPropertyIdEND, EvtChannelConfigType, EvtChannelLoggingConfigAutoBackup, EvtChannelLoggingConfigLogFilePath, EvtChannelLoggingConfigMaxSize, EvtChannelLoggingConfigRetention, EvtChannelPublisherList, EvtChannelPublishingConfigBufferSize, EvtChannelPublishingConfigClockType, EvtChannelPublishingConfigControlGuid, EvtChannelPublishingConfigFileMax, EvtChannelPublishingConfigKeywords, EvtChannelPublishingConfigLatency, EvtChannelPublishingConfigLevel, EvtChannelPublishingConfigMaxBuffers, EvtChannelPublishingConfigMinBuffers, EvtChannelPublishingConfigSidType, wes.evt_channel_config_property_id, winevt/EVT_CHANNEL_CONFIG_PROPERTY_ID, winevt/EvtChannelConfigAccess, winevt/EvtChannelConfigClassicEventlog, winevt/EvtChannelConfigEnabled, winevt/EvtChannelConfigIsolation, winevt/EvtChannelConfigOwningPublisher, winevt/EvtChannelConfigPropertyIdEND, winevt/EvtChannelConfigType, winevt/EvtChannelLoggingConfigAutoBackup, winevt/EvtChannelLoggingConfigLogFilePath, winevt/EvtChannelLoggingConfigMaxSize, winevt/EvtChannelLoggingConfigRetention, winevt/EvtChannelPublisherList, winevt/EvtChannelPublishingConfigBufferSize, winevt/EvtChannelPublishingConfigClockType, winevt/EvtChannelPublishingConfigControlGuid, winevt/EvtChannelPublishingConfigFileMax, winevt/EvtChannelPublishingConfigKeywords, winevt/EvtChannelPublishingConfigLatency, winevt/EvtChannelPublishingConfigLevel, winevt/EvtChannelPublishingConfigMaxBuffers, winevt/EvtChannelPublishingConfigMinBuffers, winevt/EvtChannelPublishingConfigSidType
 ms.topic: enum
-f1_keywords: 
- - "winevt/EVT_CHANNEL_CONFIG_PROPERTY_ID"
+f1_keywords:
+- winevt/EVT_CHANNEL_CONFIG_PROPERTY_ID
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinEvt.h
+- WinEvt.h
 api_name:
- - EVT_CHANNEL_CONFIG_PROPERTY_ID
+- EVT_CHANNEL_CONFIG_PROPERTY_ID
 product: Windows
 targetos: Windows
 req.typenames: EVT_CHANNEL_CONFIG_PROPERTY_ID
@@ -68,14 +68,14 @@ You cannot set this property for the Application, System, and Security channels.
 
 ### -field EvtChannelConfigIsolation
 
-Identifies the <b>isolation</b> attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible isolation values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_channel_isolation_type">EVT_CHANNEL_ISOLATION_TYPE</a> enumeration.
+Identifies the <b>isolation</b> attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible isolation values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_channel_isolation_type">EVT_CHANNEL_ISOLATION_TYPE</a> enumeration.
 
 You cannot set this property for the Application, System, and Security channels.
 
 
 ### -field EvtChannelConfigType
 
-Identifies the <b>type</b> attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible isolation values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_channel_type">EVT_CHANNEL_TYPE</a> enumeration. 
+Identifies the <b>type</b> attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible isolation values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_channel_type">EVT_CHANNEL_TYPE</a> enumeration. 
 
 You cannot set this property.
 
@@ -170,14 +170,14 @@ You cannot set this property.
 
 ### -field EvtChannelPublishingConfigClockType
 
-Identifies the <b>clockType</b> publishing attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible clock type values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_channel_clock_type">EVT_CHANNEL_CLOCK_TYPE</a> enumeration. 
+Identifies the <b>clockType</b> publishing attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible clock type values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_channel_clock_type">EVT_CHANNEL_CLOCK_TYPE</a> enumeration. 
 
 You cannot set this property.
 
 
 ### -field EvtChannelPublishingConfigSidType
 
-Identifies the <b>sidType</b> publishing attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible SID type values, see the  <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_channel_sid_type">EVT_CHANNEL_SID_TYPE</a> enumeration. 
+Identifies the <b>sidType</b> publishing attribute of the channel.  The variant type for this property is <b>EvtVarTypeUInt32</b>. For possible SID type values, see the  <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_channel_sid_type">EVT_CHANNEL_SID_TYPE</a> enumeration. 
 
 You cannot set this property.
 

@@ -8,10 +8,10 @@ tech.root: medfound
 ms.assetid: df12e64b-92e3-4446-bade-3ad55cbedf51
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMFRR_COMPONENTS, MFRR_COMPONENTS, MFRR_COMPONENTS structure [Media Foundation], PMFRR_COMPONENTS, PMFRR_COMPONENTS structure pointer [Media Foundation], df12e64b-92e3-4446-bade-3ad55cbedf51, mf.mfrr_components, mfidl/MFRR_COMPONENTS, mfidl/PMFRR_COMPONENTS"
+ms.keywords: '*PMFRR_COMPONENTS, MFRR_COMPONENTS, MFRR_COMPONENTS structure [Media Foundation], PMFRR_COMPONENTS, PMFRR_COMPONENTS structure pointer [Media Foundation], df12e64b-92e3-4446-bade-3ad55cbedf51, mf.mfrr_components, mfidl/MFRR_COMPONENTS, mfidl/PMFRR_COMPONENTS'
 ms.topic: struct
-f1_keywords: 
- - "mfidl/MFRR_COMPONENTS"
+f1_keywords:
+- mfidl/MFRR_COMPONENTS
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFRR_COMPONENTS
+- MFRR_COMPONENTS
 product: Windows
 targetos: Windows
 req.typenames: MFRR_COMPONENTS, *PMFRR_COMPONENTS
@@ -74,7 +74,7 @@ Number of elements in the <b>pRRComponents</b> array.
 
 ### -field pRRComponents
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-_mfrr_component_hash_info">MFRR_COMPONENT_HASH_INFO</a> structures.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mfrr_component_hash_info">MFRR_COMPONENT_HASH_INFO</a> structures.
 
 
 ## -see-also
@@ -82,7 +82,7 @@ Array of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-_mfrr_component_hash_info">MFRR_COMPONENT_HASH_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mfrr_component_hash_info">MFRR_COMPONENT_HASH_INFO</a>
 
 
 

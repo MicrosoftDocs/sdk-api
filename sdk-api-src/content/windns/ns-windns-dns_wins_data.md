@@ -8,10 +8,10 @@ tech.root: DNS
 ms.assetid: df41c397-e662-42b4-9193-6776f9071898
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_WINS_DATA, DNS_WINS_DATA, DNS_WINS_DATA structure [DNS], DNS_WINS_FLAG_LOCAL, DNS_WINS_FLAG_SCOPE, PDNS_WINS_DATA, PDNS_WINS_DATA structure pointer [DNS], _dns_dns_wins_data, dns.dns_wins_data, windns/DNS_WINS_DATA, windns/PDNS_WINS_DATA"
+ms.keywords: '*PDNS_WINS_DATA, DNS_WINS_DATA, DNS_WINS_DATA structure [DNS], DNS_WINS_FLAG_LOCAL, DNS_WINS_FLAG_SCOPE, PDNS_WINS_DATA, PDNS_WINS_DATA structure pointer [DNS], _dns_dns_wins_data, dns.dns_wins_data, windns/DNS_WINS_DATA, windns/PDNS_WINS_DATA'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_WINS_DATA"
+f1_keywords:
+- windns/DNS_WINS_DATA
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_WINS_DATA
+- DNS_WINS_DATA
 product: Windows
 targetos: Windows
 req.typenames: DNS_WINS_DATA, *PDNS_WINS_DATA
@@ -110,7 +110,7 @@ The number of WINS Servers listed in <b>WinsServers</b>.
 
 ### -field WinsServers
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_ip4_array">IP4_ARRAY</a> structures that contain the IPv4 address of the WINS lookup Servers.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-ip4_array">IP4_ARRAY</a> structures that contain the IPv4 address of the WINS lookup Servers.
 
 
 ## -remarks

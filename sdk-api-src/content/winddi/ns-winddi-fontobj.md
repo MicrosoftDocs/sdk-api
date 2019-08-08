@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FONTOBJ, FONTOBJ structure [Display Devices], display.fontobj, grstrcts_245faf9a-31c1-4b75-aa97-c4646022cea6.xml, winddi/FONTOBJ
 ms.topic: struct
-f1_keywords: 
- - "winddi/FONTOBJ"
+f1_keywords:
+- winddi/FONTOBJ
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - FONTOBJ
+- FONTOBJ
 product: Windows
 targetos: Windows
 req.typenames: FONTOBJ
@@ -226,7 +226,7 @@ Vertical font.
 </table>
  
 
-If the FO_RASTER flag is set, the glyphs written to the specified STROBJ structure are bitmaps, otherwise they are pointers to PATHOBJ structures. If the glyph images are returned in the form of PATHOBJ structures, the driver must inspect the FM_INFO_TECH_STROKE flag of the <b>flInfo</b> member of the associated <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure. If that flag is set, the paths should be stroked, otherwise the paths must be filled using the alternating mode convention.
+If the FO_RASTER flag is set, the glyphs written to the specified STROBJ structure are bitmaps, otherwise they are pointers to PATHOBJ structures. If the glyph images are returned in the form of PATHOBJ structures, the driver must inspect the FM_INFO_TECH_STROKE flag of the <b>flInfo</b> member of the associated <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a> structure. If that flag is set, the paths should be stroked, otherwise the paths must be filled using the alternating mode convention.
 
 If the FO_GRAY16 flag is set, then the font bitmaps are four bits-per-pixel blending (alpha) values. A value of zero means that the resulting pixel should have the same color as the background. If the alpha value is k, then the following table describes the attributes of the resulting pixel, using either linear alpha blending, or gamma-corrected alpha blending. In both methods, the foreground and background colors are, respectively, c<sub>f</sub> and c<sub>b</sub>.
 
@@ -388,7 +388,7 @@ A driver can be both a producer and a consumer. For example, a printer driver ca
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
  
 
  

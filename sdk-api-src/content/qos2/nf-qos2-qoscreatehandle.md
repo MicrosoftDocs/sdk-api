@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QOSCreateHandle, QOSCreateHandle function [QOS], qos.qoscreatehandle, qos2/QOSCreateHandle
 ms.topic: function
-f1_keywords: 
- - "qos2/QOSCreateHandle"
+f1_keywords:
+- qos2/QOSCreateHandle
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Qwave.lib
 req.dll: Qwave.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - qwave.dll
+- qwave.dll
 api_name:
- - QOSCreateHandle
+- QOSCreateHandle
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ This function initializes the QOS subsystem and the <i>QOSHandle</i> parameter. 
 
 ### -param Version [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/ns-qos2-_qos_version">QOS_VERSION</a> structure that indicates the version of QOS being used.  The <b>MajorVersion</b> member must be set to 1, and the <b>MinorVersion</b> member must be set to 0.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ns-qos2-qos_version">QOS_VERSION</a> structure that indicates the version of QOS being used.  The <b>MajorVersion</b> member must be set to 1, and the <b>MinorVersion</b> member must be set to 0.
 
 
 ### -param QOSHandle [out]

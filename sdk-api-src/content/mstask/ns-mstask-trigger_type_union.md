@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TRIGGER_TYPE_UNION, TRIGGER_TYPE_UNION union [Task Scheduler], _msb_trigger_type_union, mstask/TRIGGER_TYPE_UNION, taskschd.trigger_type_union
 ms.topic: struct
-f1_keywords: 
- - "mstask/TRIGGER_TYPE_UNION"
+f1_keywords:
+- mstask/TRIGGER_TYPE_UNION
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mstask.h
+- Mstask.h
 api_name:
- - TRIGGER_TYPE_UNION
+- TRIGGER_TYPE_UNION
 product: Windows
 targetos: Windows
 req.typenames: TRIGGER_TYPE_UNION
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Defines the invocation schedule of the trigger within the <b>Type</b> member of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_task_trigger">TASK_TRIGGER</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure.
 
 
 ## -struct-fields
@@ -63,25 +63,25 @@ Defines the invocation schedule of the trigger within the <b>Type</b> member of 
 ### -field Daily
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_daily">DAILY</a> structure that specifies the number of days between invocations of a task.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-daily">DAILY</a> structure that specifies the number of days between invocations of a task.
 
 
 ### -field Weekly
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_weekly">WEEKLY</a> structure that specifies the number of weeks between invocations of a task, and day(s) of the week the task will run.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-weekly">WEEKLY</a> structure that specifies the number of weeks between invocations of a task, and day(s) of the week the task will run.
 
 
 ### -field MonthlyDate
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_monthlydate">MONTHLYDATE</a> structure that specifies the month(s) and day(s) of the month a task will run.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-monthlydate">MONTHLYDATE</a> structure that specifies the month(s) and day(s) of the month a task will run.
 
 
 ### -field MonthlyDOW
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_monthlydow">MONTHLYDOW</a> structure that specifies the day(s) of the year a task runs by month(s), week of month, and day(s) of week.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-monthlydow">MONTHLYDOW</a> structure that specifies the day(s) of the year a task runs by month(s), week of month, and day(s) of week.
 
 
 ## -remarks
@@ -89,7 +89,7 @@ A
 
 
 The <b>TriggerType</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_task_trigger">TASK_TRIGGER</a> structure defines which fields of this union are used.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure defines which fields of this union are used.
 
 
 
@@ -99,7 +99,7 @@ The <b>TriggerType</b> member of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_daily">DAILY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-daily">DAILY</a>
 
 
 
@@ -107,15 +107,15 @@ The <b>TriggerType</b> member of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_monthlydate">MONTHLYDATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-monthlydate">MONTHLYDATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_monthlydow">MONTHLYDOW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-monthlydow">MONTHLYDOW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_task_trigger">TASK_TRIGGER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a>
 
 
 
@@ -123,7 +123,7 @@ The <b>TriggerType</b> member of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_weekly">WEEKLY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-weekly">WEEKLY</a>
  
 
  

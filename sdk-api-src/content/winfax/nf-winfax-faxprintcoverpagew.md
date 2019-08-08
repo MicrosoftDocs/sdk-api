@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxPrintCoverPage, FaxPrintCoverPage function [Fax Service], FaxPrintCoverPageA, FaxPrintCoverPageW, _mfax_faxprintcoverpage, fax._mfax_faxprintcoverpage, winfax/FaxPrintCoverPage, winfax/FaxPrintCoverPageA, winfax/FaxPrintCoverPageW
 ms.topic: function
-f1_keywords: 
- - "winfax/FaxPrintCoverPage"
+f1_keywords:
+- winfax/FaxPrintCoverPage
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: WinFax.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - WinFax.lib
- - WinFax.dll
+- WinFax.lib
+- WinFax.dll
 api_name:
- - FaxPrintCoverPage
- - FaxPrintCoverPageA
- - FaxPrintCoverPageW
+- FaxPrintCoverPage
+- FaxPrintCoverPageA
+- FaxPrintCoverPageW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,16 +64,16 @@ The <b>FaxPrintCoverPage</b> function prints a fax transmission cover page to th
 
 ### -param FaxContextInfo [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_context_infoa">FAX_CONTEXT_INFO</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_context_infoa">FAX_CONTEXT_INFO</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_context_infoa">FAX_CONTEXT_INFO</a> structure that contains a handle to a fax printer device context.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_context_infoa">FAX_CONTEXT_INFO</a> structure that contains a handle to a fax printer device context.
 
 
 ### -param CoverPageInfo [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_coverpage_infoa">FAX_COVERPAGE_INFO</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_coverpage_infoa">FAX_COVERPAGE_INFO</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_coverpage_infoa">FAX_COVERPAGE_INFO</a> structure that contains personal data to display on the cover page of the fax document.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_coverpage_infoa">FAX_COVERPAGE_INFO</a> structure that contains personal data to display on the cover page of the fax document.
 
 
 ## -returns
@@ -109,7 +109,7 @@ One or both of the <i>CoverPageInfo</i> or <i>FaxContextInfo</i> parameters are 
 </dl>
 </td>
 <td width="60%">
-The <b>SizeOfStruct</b> member of the specified <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_coverpage_infoa">FAX_COVERPAGE_INFO</a> structure is not equal to <b>sizeof(FAX_COVERPAGE_INFO)</b>; or the <b>SizeOfStruct</b> member of the specified <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_context_infoa">FAX_CONTEXT_INFO</a> structure is not equal to <b>sizeof(FAX_CONTEXT_INFO)</b>.
+The <b>SizeOfStruct</b> member of the specified <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_coverpage_infoa">FAX_COVERPAGE_INFO</a> structure is not equal to <b>sizeof(FAX_COVERPAGE_INFO)</b>; or the <b>SizeOfStruct</b> member of the specified <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_context_infoa">FAX_CONTEXT_INFO</a> structure is not equal to <b>sizeof(FAX_CONTEXT_INFO)</b>.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ The <b>SizeOfStruct</b> member of the specified <a href="https://docs.microsoft.
 </dl>
 </td>
 <td width="60%">
-The fax server cannot locate the file specified by the <b>CoverPageName</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_coverpage_infoa">FAX_COVERPAGE_INFO</a> structure.
+The fax server cannot locate the file specified by the <b>CoverPageName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_coverpage_infoa">FAX_COVERPAGE_INFO</a> structure.
 
 </td>
 </tr>
@@ -150,11 +150,11 @@ A fax client application must call the <a href="https://docs.microsoft.com/previ
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_context_infoa">FAX_CONTEXT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_context_infoa">FAX_CONTEXT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_coverpage_infoa">FAX_COVERPAGE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_coverpage_infoa">FAX_COVERPAGE_INFO</a>
 
 
 

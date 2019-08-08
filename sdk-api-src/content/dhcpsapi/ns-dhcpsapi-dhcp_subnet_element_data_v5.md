@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: ea6df1bc-2d15-4a09-8100-ee17d3de34d9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_SUBNET_ELEMENT_DATA_V5, DHCP_SUBNET_ELEMENT_DATA_V5, DHCP_SUBNET_ELEMENT_DATA_V5 structure [DHCP], LPDHCP_SUBNET_ELEMENT_DATA_V5, LPDHCP_SUBNET_ELEMENT_DATA_V5 structure pointer [DHCP], dhcp.dhcp_subnet_element_data_v5, dhcpsapi/LPDHCP_SUBNET_ELEMENT_DATA_V5, dhcpsapi/_DHCP_SUBNET_ELEMENT_DATA_V5"
+ms.keywords: '*LPDHCP_SUBNET_ELEMENT_DATA_V5, DHCP_SUBNET_ELEMENT_DATA_V5, DHCP_SUBNET_ELEMENT_DATA_V5 structure [DHCP], LPDHCP_SUBNET_ELEMENT_DATA_V5, LPDHCP_SUBNET_ELEMENT_DATA_V5 structure pointer [DHCP], dhcp.dhcp_subnet_element_data_v5, dhcpsapi/LPDHCP_SUBNET_ELEMENT_DATA_V5, dhcpsapi/_DHCP_SUBNET_ELEMENT_DATA_V5'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_SUBNET_ELEMENT_DATA_V5"
+f1_keywords:
+- dhcpsapi/DHCP_SUBNET_ELEMENT_DATA_V5
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_SUBNET_ELEMENT_DATA_V5
+- DHCP_SUBNET_ELEMENT_DATA_V5
 product: Windows
 targetos: Windows
 req.typenames: DHCP_SUBNET_ELEMENT_DATA_V5, *LPDHCP_SUBNET_ELEMENT_DATA_V5
@@ -141,19 +141,19 @@ The <b>DHCP_SUBNET_ELEMENT_DATA_V5</b> structure defines an element that describ
 ### -field Element.IpRange
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_bootp_ip_range">DHCP_BOOTP_IP_RANGE</a> structure that contains the set of BOOTP-served IP addresses. This member is present if <b>ElementType</b> is set to <b>DhcpIpRangesBootpOnly</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_bootp_ip_range">DHCP_BOOTP_IP_RANGE</a> structure that contains the set of BOOTP-served IP addresses. This member is present if <b>ElementType</b> is set to <b>DhcpIpRangesBootpOnly</b>.
 
 
 ### -field Element.SecondaryHost
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_host_info">DHCP_HOST_INFO</a> structure that contains the IP addresses of secondary DHCP servers available on the subnet. This member is present if <b>ElementType</b> is set to <b>DhcpSecondaryHosts</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info">DHCP_HOST_INFO</a> structure that contains the IP addresses of secondary DHCP servers available on the subnet. This member is present if <b>ElementType</b> is set to <b>DhcpSecondaryHosts</b>.
 
 
 ### -field Element.ReservedIp
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_reservation_v4">DHCP_IP_RESERVATION_V4</a> structure that contains the set of reserved IP addresses for the subnet. This member is present if <b>ElementType</b> is set to <b>DhcpReservedIps</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_reservation_v4">DHCP_IP_RESERVATION_V4</a> structure that contains the set of reserved IP addresses for the subnet. This member is present if <b>ElementType</b> is set to <b>DhcpReservedIps</b>.
 
 
 ### -field Element.ExcludeIpRange

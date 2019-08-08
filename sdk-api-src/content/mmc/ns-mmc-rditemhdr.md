@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RDITEMHDR, RDITEMHDR structure [MMC], _slate_rditemhdr, mmc.rditemhdr, mmc/RDITEMHDR
 ms.topic: struct
-f1_keywords: 
- - "mmc/RDITEMHDR"
+f1_keywords:
+- mmc/RDITEMHDR
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - RDITEMHDR
+- RDITEMHDR
 product: Windows
 targetos: Windows
 req.typenames: RDITEMHDR
@@ -56,7 +56,7 @@ The
 
 The 
 <b>RDITEMHDR</b> structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_rdcompare">RDCOMPARE</a> structure to specify the type and cookie value of a scope or result item.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-rdcompare">RDCOMPARE</a> structure to specify the type and cookie value of a scope or result item.
 
 
 ## -struct-fields
@@ -85,7 +85,7 @@ Reserved for future use.
 
 If the snap-in implements the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdatacompareex">IResultDataCompareEx</a> interface, MMC allocates an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_rdcompare">RDCOMPARE</a> structure and two 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-rdcompare">RDCOMPARE</a> structure and two 
 <b>RDITEMHDR</b> structures and then calls the snap-ins 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdatacompareex-compare">IResultDataCompareEx::Compare</a> method. After the method returns, MMC releases the three structures it allocated.
 
@@ -101,7 +101,7 @@ If the snap-in implements the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_rdcompare">RDCOMPARE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-rdcompare">RDCOMPARE</a>
  
 
  

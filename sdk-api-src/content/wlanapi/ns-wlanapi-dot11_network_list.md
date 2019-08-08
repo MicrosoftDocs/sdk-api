@@ -8,10 +8,10 @@ tech.root: NativeWiFi
 ms.assetid: 607c5795-8168-4c6b-a2f3-65f31aea5cf5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDOT11_NETWORK_LIST, DOT11_NETWORK_LIST, DOT11_NETWORK_LIST structure [NativeWIFI], PDOT11_NETWORK_LIST, PDOT11_NETWORK_LIST structure pointer [NativeWIFI], nwifi.dot11_network_list, wlanapi/DOT11_NETWORK_LIST, wlanapi/PDOT11_NETWORK_LIST"
+ms.keywords: '*PDOT11_NETWORK_LIST, DOT11_NETWORK_LIST, DOT11_NETWORK_LIST structure [NativeWIFI], PDOT11_NETWORK_LIST, PDOT11_NETWORK_LIST structure pointer [NativeWIFI], nwifi.dot11_network_list, wlanapi/DOT11_NETWORK_LIST, wlanapi/PDOT11_NETWORK_LIST'
 ms.topic: struct
-f1_keywords: 
- - "wlanapi/DOT11_NETWORK_LIST"
+f1_keywords:
+- wlanapi/DOT11_NETWORK_LIST
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - DOT11_NETWORK_LIST
+- DOT11_NETWORK_LIST
 product: Windows
 targetos: Windows
 req.typenames: DOT11_NETWORK_LIST, *PDOT11_NETWORK_LIST
@@ -90,7 +90,7 @@ This member is not used by the wireless service. Applications can use this membe
 
 ### -field Network
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_dot11_network">DOT11_NETWORK</a> structures that contain 802.11 wireless network information.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-dot11_network">DOT11_NETWORK</a> structures that contain 802.11 wireless network information.
 
 
 ## -see-also
@@ -98,7 +98,7 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_dot11_network">DOT11_NETWORK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-dot11_network">DOT11_NETWORK</a>
 
 
 

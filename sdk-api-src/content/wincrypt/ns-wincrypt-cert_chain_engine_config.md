@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 9e010eb9-2cbb-4fca-ba5c-4a5a50f23786
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_CHAIN_ENGINE_CONFIG, CERT_CHAIN_CACHE_END_CERT, CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL, CERT_CHAIN_DISABLE_AIA, CERT_CHAIN_ENABLE_CACHE_AUTO_UPDATE, CERT_CHAIN_ENABLE_SHARE_STORE, CERT_CHAIN_ENGINE_CONFIG, CERT_CHAIN_ENGINE_CONFIG structure [Security], CERT_CHAIN_EXCLUSIVE_ENABLE_CA_FLAG, CERT_CHAIN_USE_LOCAL_MACHINE_STORE, PCERT_CHAIN_ENGINE_CONFIG, PCERT_CHAIN_ENGINE_CONFIG structure pointer [Security], _crypto2_cert_chain_engine_config, security.cert_chain_engine_config, wincrypt/CERT_CHAIN_ENGINE_CONFIG, wincrypt/PCERT_CHAIN_ENGINE_CONFIG"
+ms.keywords: '*PCERT_CHAIN_ENGINE_CONFIG, CERT_CHAIN_CACHE_END_CERT, CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL, CERT_CHAIN_DISABLE_AIA, CERT_CHAIN_ENABLE_CACHE_AUTO_UPDATE, CERT_CHAIN_ENABLE_SHARE_STORE, CERT_CHAIN_ENGINE_CONFIG, CERT_CHAIN_ENGINE_CONFIG structure [Security], CERT_CHAIN_EXCLUSIVE_ENABLE_CA_FLAG, CERT_CHAIN_USE_LOCAL_MACHINE_STORE, PCERT_CHAIN_ENGINE_CONFIG, PCERT_CHAIN_ENGINE_CONFIG structure pointer [Security], _crypto2_cert_chain_engine_config, security.cert_chain_engine_config, wincrypt/CERT_CHAIN_ENGINE_CONFIG, wincrypt/PCERT_CHAIN_ENGINE_CONFIG'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_CHAIN_ENGINE_CONFIG"
+f1_keywords:
+- wincrypt/CERT_CHAIN_ENGINE_CONFIG
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_CHAIN_ENGINE_CONFIG
+- CERT_CHAIN_ENGINE_CONFIG
 product: Windows
 targetos: Windows
 req.typenames: CERT_CHAIN_ENGINE_CONFIG, *PCERT_CHAIN_ENGINE_CONFIG
@@ -224,7 +224,7 @@ Indicates that a non-self-signed intermediate CA certificate in the <b>hExclusiv
 
 By default, if this flag is not set, only self-signed certificates in the <b>hExclusiveRoot</b> store are treated as trust anchors.
 
-See also the <b>CERT_TRUST_IS_CA_TRUSTED</b> value in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_trust_status">CERT_TRUST_STATUS</a> structure.
+See also the <b>CERT_TRUST_IS_CA_TRUSTED</b> value in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a> structure.
 
 </td>
 </tr>
@@ -256,7 +256,7 @@ Exclusive trust mode allows applications to specify trust anchors and peer-trust
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_trust_status">CERT_TRUST_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a>
 
 
 

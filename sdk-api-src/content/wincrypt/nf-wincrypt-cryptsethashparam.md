@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptSetHashParam, CryptSetHashParam function [Security], HP_HASHVAL., HP_HMAC_INFO., _crypto2_cryptsethashparam, security.cryptsethashparam, wincrypt/CryptSetHashParam
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptSetHashParam"
+f1_keywords:
+- wincrypt/CryptSetHashParam
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptSetHashParam
+- CryptSetHashParam
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,7 +82,7 @@ This parameter can be one of the following values.
 </td>
 <td width="60%">
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_hmac_info">HMAC_INFO</a> structure that specifies the cryptographic hash algorithm and the inner and outer strings to be used.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-hmac_info">HMAC_INFO</a> structure that specifies the cryptographic hash algorithm and the inner and outer strings to be used.
 
 </td>
 </tr>
@@ -268,7 +268,7 @@ Occasionally, a hash value that has been generated elsewhere must be signed. Thi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_hmac_info">HMAC_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-hmac_info">HMAC_INFO</a>
 
 
 

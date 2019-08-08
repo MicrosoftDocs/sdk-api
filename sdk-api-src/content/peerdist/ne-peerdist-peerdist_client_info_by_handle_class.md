@@ -8,10 +8,10 @@ tech.root: P2PSdk
 ms.assetid: 28391dc5-ec89-44d9-acac-b7ff3868e542
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, MaximumPeerDistClientInfoByHandlesClass, PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration [Peer Networking], PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration pointer [Peer Networking], PeerDistClientBasicInfo, p2p.peerdist_client_info_by_handle_class, peerdist/MaximumPeerDistClientInfoByHandlesClass, peerdist/PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, peerdist/PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, peerdist/PeerDistClientBasicInfo"
+ms.keywords: '*PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, MaximumPeerDistClientInfoByHandlesClass, PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration [Peer Networking], PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration pointer [Peer Networking], PeerDistClientBasicInfo, p2p.peerdist_client_info_by_handle_class, peerdist/MaximumPeerDistClientInfoByHandlesClass, peerdist/PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, peerdist/PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, peerdist/PeerDistClientBasicInfo'
 ms.topic: enum
-f1_keywords: 
- - "peerdist/PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS"
+f1_keywords:
+- peerdist/PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - peerdist.h
+- peerdist.h
 api_name:
- - PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
+- PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
 product: Windows
 targetos: Windows
 req.typenames: PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, *PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
@@ -61,7 +61,7 @@ The <b>PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS</b> enumeration defines the possible
 
 ### -field PeerDistClientBasicInfo
 
- Indicates the information to retrieve is a <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-_peerdist_client_basic_info">PEERDIST_CLIENT_BASIC_INFO</a> structure.
+ Indicates the information to retrieve is a <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_client_basic_info">PEERDIST_CLIENT_BASIC_INFO</a> structure.
 
 
 ### -field MaximumPeerDistClientInfoByHandlesClass

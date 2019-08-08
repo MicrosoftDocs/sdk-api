@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APF_AuditFailure, APF_AuditSuccess, AuthzReportSecurityEvent, AuthzReportSecurityEvent function [Security], authz/AuthzReportSecurityEvent, security.authzreportsecurityevent
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzReportSecurityEvent"
+f1_keywords:
+- authz/AuthzReportSecurityEvent
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
+- Authz.dll
 api_name:
- - AuthzReportSecurityEvent
+- AuthzReportSecurityEvent
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>AuthzReportSecurityEvent</b> function generates a security audit for a registered security event source.
 
-Auditing for the  object access event category must be enabled for the <b>AuthzReportSecurityEvent</b> function to generate a security audit. The available audit types are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/adtgen/ne-adtgen-_audit_param_type">AUDIT_PARAM_TYPE</a> enumeration.
+Auditing for the  object access event category must be enabled for the <b>AuthzReportSecurityEvent</b> function to generate a security audit. The available audit types are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/adtgen/ne-adtgen-audit_param_type">AUDIT_PARAM_TYPE</a> enumeration.
 
 
 ## -parameters

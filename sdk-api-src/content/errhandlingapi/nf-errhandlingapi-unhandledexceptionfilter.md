@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnhandledExceptionFilter, UnhandledExceptionFilter function, _win32_unhandledexceptionfilter, base.unhandledexceptionfilter, errhandlingapi/UnhandledExceptionFilter
 ms.topic: function
-f1_keywords: 
- - "errhandlingapi/UnhandledExceptionFilter"
+f1_keywords:
+- errhandlingapi/UnhandledExceptionFilter
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-errorhandling-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-errorhandling-l1-1-1.dll
- - API-MS-Win-Core-errorhandling-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ErrorHandling-L1-1-3.dll
- - ntdll.dll
+- Kernel32.dll
+- API-MS-Win-Core-errorhandling-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-errorhandling-l1-1-1.dll
+- API-MS-Win-Core-errorhandling-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ErrorHandling-L1-1-3.dll
+- ntdll.dll
 api_name:
- - UnhandledExceptionFilter
- - RtlUnhandledExceptionFilter
+- UnhandledExceptionFilter
+- RtlUnhandledExceptionFilter
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ An application-defined function that passes unhandled exceptions to the debugger
 ### -param ExceptionInfo [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_pointers">EXCEPTION_POINTERS</a> structure that specifies a description of the exception and the processor context at the time of the exception. This pointer is the return value of a call to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a> structure that specifies a description of the exception and the processor context at the time of the exception. This pointer is the return value of a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/getexceptioninformation">GetExceptionInformation</a> function.
 
 
@@ -135,7 +135,7 @@ The system uses
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_pointers">EXCEPTION_POINTERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a>
 
 
 

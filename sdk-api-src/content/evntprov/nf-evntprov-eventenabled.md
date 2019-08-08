@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventEnabled, EventEnabled function [ETW], base.eventenabled_func, etw.eventenabled_func, evntprov/EventEnabled
 ms.topic: function
-f1_keywords: 
- - "evntprov/EventEnabled"
+f1_keywords:
+- evntprov/EventEnabled
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -30,20 +30,20 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-eventing-provider-l1-1-0.dll
- - API-MS-Win-Eventing-Provider-L1-1-1.dll
- - bcrypt.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-eventing-provider-l1-1-0.dll
+- API-MS-Win-Eventing-Provider-L1-1-1.dll
+- bcrypt.dll
 api_name:
- - EventEnabled
+- EventEnabled
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,7 +76,7 @@ Registration handle of the provider. The handle comes from
 
 ### -param EventDescriptor [in]
 
-Describes the event. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a>. 
+Describes the event. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>. 
 
 
 ## -returns
@@ -99,7 +99,7 @@ Providers may want to call this function if they need to perform extra work to g
     this function first to determine if a session is expecting this event or not, may save resources and time.
 
 The provider would call this function if the provider generated an 
-    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a> structure for the event from the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure for the event from the 
     manifest. If the event descriptor is not available, call the 
     <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventproviderenabled">EventProviderEnabled</a> function.
 

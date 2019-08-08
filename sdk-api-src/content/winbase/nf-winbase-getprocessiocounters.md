@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProcessIoCounters, GetProcessIoCounters function, _win32_getprocessiocounters, base.getprocessiocounters, winbase/GetProcessIoCounters
 ms.topic: function
-f1_keywords: 
- - "winbase/GetProcessIoCounters"
+f1_keywords:
+- winbase/GetProcessIoCounters
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-processtopology-Obsolete-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-ProcessTopology-Obsolete-L1-1-1.dll
+- Kernel32.dll
+- API-MS-Win-Core-processtopology-Obsolete-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-ProcessTopology-Obsolete-L1-1-1.dll
 api_name:
- - GetProcessIoCounters
+- GetProcessIoCounters
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</
 ### -param lpIoCounters [out]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_io_counters">IO_COUNTERS</a> structure that receives the I/O accounting information for the process.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-io_counters">IO_COUNTERS</a> structure that receives the I/O accounting information for the process.
 
 
 ## -returns
@@ -94,7 +94,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_io_counters">IO_COUNTERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-io_counters">IO_COUNTERS</a>
 
 
 

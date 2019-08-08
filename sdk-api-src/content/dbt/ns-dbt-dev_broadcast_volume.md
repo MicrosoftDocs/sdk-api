@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DBTF_MEDIA, DBTF_NET, DEV_BROADCAST_VOLUME, DEV_BROADCAST_VOLUME structure, PDEV_BROADCAST_VOLUME, PDEV_BROADCAST_VOLUME structure pointer, _win32_dev_broadcast_volume_str, base.dev_broadcast_volume_str, dbt/DEV_BROADCAST_VOLUME, dbt/PDEV_BROADCAST_VOLUME
 ms.topic: struct
-f1_keywords: 
- - "dbt/DEV_BROADCAST_VOLUME"
+f1_keywords:
+- dbt/DEV_BROADCAST_VOLUME
 req.header: dbt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dbt.h
+- Dbt.h
 api_name:
- - DEV_BROADCAST_VOLUME
+- DEV_BROADCAST_VOLUME
 product: Windows
 targetos: Windows
 req.typenames: DEV_BROADCAST_VOLUME
@@ -137,7 +137,7 @@ Messages for network drive arrival and removal are not sent whenever network com
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_hdr">DEV_BROADCAST_HDR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-dev_broadcast_hdr">DEV_BROADCAST_HDR</a>
 
 
 

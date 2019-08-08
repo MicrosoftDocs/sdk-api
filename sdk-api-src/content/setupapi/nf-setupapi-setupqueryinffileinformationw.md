@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupQueryInfFileInformation, SetupQueryInfFileInformation function [Setup API], SetupQueryInfFileInformationA, SetupQueryInfFileInformationW, _setupapi_setupqueryinffileinformation, setup.setupqueryinffileinformation, setupapi/SetupQueryInfFileInformation, setupapi/SetupQueryInfFileInformationA, setupapi/SetupQueryInfFileInformationW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupQueryInfFileInformation"
+f1_keywords:
+- setupapi/SetupQueryInfFileInformation
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupQueryInfFileInformation
- - SetupQueryInfFileInformationA
- - SetupQueryInfFileInformationW
+- SetupQueryInfFileInformation
+- SetupQueryInfFileInformationA
+- SetupQueryInfFileInformationW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 The 
 <b>SetupQueryInfFileInformation</b> function returns an INF filename from an 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_inf_information">SP_INF_INFORMATION</a> structure to a buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_inf_information">SP_INF_INFORMATION</a> structure to a buffer.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ The
 ### -param InfInformation [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_inf_information">SP_INF_INFORMATION</a> structure returned from a call to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_inf_information">SP_INF_INFORMATION</a> structure returned from a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetinfinformationa">SetupGetInfInformation</a> function.
 
 

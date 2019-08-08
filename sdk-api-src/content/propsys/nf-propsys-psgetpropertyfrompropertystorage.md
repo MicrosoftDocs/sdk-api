@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSGetPropertyFromPropertyStorage, PSGetPropertyFromPropertyStorage function [Windows Properties], _shell_PSGetPropertyFromPropertyStorage, properties.PSGetPropertyFromPropertyStorage, propsys/PSGetPropertyFromPropertyStorage, shell.PSGetPropertyFromPropertyStorage
 ms.topic: function
-f1_keywords: 
- - "propsys/PSGetPropertyFromPropertyStorage"
+f1_keywords:
+- propsys/PSGetPropertyFromPropertyStorage
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSGetPropertyFromPropertyStorage
+- PSGetPropertyFromPropertyStorage
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -77,7 +77,7 @@ The size, in bytes, of the <b>USERIALIZESPROPSTORAGE</b> buffer pointed to by <i
 
 Type: <b>REFPROPERTYKEY</b>
 
-Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> that identifies the property for which to get the value.
+Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> that identifies the property for which to get the value.
 
 
 ### -param ppropvar [out]

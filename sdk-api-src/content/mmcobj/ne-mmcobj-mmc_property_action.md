@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_PROPACT_CHANGING, MMC_PROPACT_DELETING, MMC_PROPACT_INITIALIZED, MMC_PROPERTY_ACTION, MMC_PROPERTY_ACTION enumeration [MMC], _slate_mmc_property_action, mmc.mmc_property_action, mmcobj/MMC_PROPACT_CHANGING, mmcobj/MMC_PROPACT_DELETING, mmcobj/MMC_PROPACT_INITIALIZED, mmcobj/MMC_PROPERTY_ACTION
 ms.topic: enum
-f1_keywords: 
- - "mmcobj/MMC_PROPERTY_ACTION"
+f1_keywords:
+- mmcobj/MMC_PROPERTY_ACTION
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmcobj.h
+- Mmcobj.h
 api_name:
- - MMC_PROPERTY_ACTION
+- MMC_PROPERTY_ACTION
 product: Windows
 targetos: Windows
 req.typenames: MMC_PROPERTY_ACTION
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>MMC_PROPERTY_ACTION</b> enumeration specifies the operations that can occur to a property contained in an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ns-mmcobj-_mmc_snapin_property">MMC_SNAPIN_PROPERTY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ns-mmcobj-mmc_snapin_property">MMC_SNAPIN_PROPERTY</a> structure.
 
 
 ## -enum-fields
@@ -85,7 +85,7 @@ The property is being added.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ns-mmcobj-_mmc_snapin_property">MMC_SNAPIN_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ns-mmcobj-mmc_snapin_property">MMC_SNAPIN_PROPERTY</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_LIST_TRANSACTIONS, FSCTL_TXFS_LIST_TRANSACTIONS control, FSCTL_TXFS_LIST_TRANSACTIONS control code [Files], fs.fsctl_txfs_list_transactions, winioctl/FSCTL_TXFS_LIST_TRANSACTIONS
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_TXFS_LIST_TRANSACTIONS"
+f1_keywords:
+- winioctl/FSCTL_TXFS_LIST_TRANSACTIONS
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_TXFS_LIST_TRANSACTIONS
+- FSCTL_TXFS_LIST_TRANSACTIONS
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -174,11 +174,11 @@ The number of transactions returned from one call to the next can change dependi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_list_transactions">TXFS_LIST_TRANSACTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_list_transactions">TXFS_LIST_TRANSACTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_list_transactions_entry">TXFS_LIST_TRANSACTIONS_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_list_transactions_entry">TXFS_LIST_TRANSACTIONS_ENTRY</a>
  
 
  

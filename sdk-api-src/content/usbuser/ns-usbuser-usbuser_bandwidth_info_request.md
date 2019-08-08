@@ -8,10 +8,10 @@ tech.root: usbref
 ms.assetid: 146ff4d9-ddd5-42e9-b421-2cac105fe923
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PUSBUSER_BANDWIDTH_INFO_REQUEST, PUSBUSER_BANDWIDTH_INFO_REQUEST, PUSBUSER_BANDWIDTH_INFO_REQUEST structure pointer [Buses], USBUSER_BANDWIDTH_INFO_REQUEST, USBUSER_BANDWIDTH_INFO_REQUEST structure [Buses], buses.usbuser_bandwidth_info_request, usbstrct_f688b719-a1cf-4fc1-a2e6-dd391a676703.xml, usbuser/PUSBUSER_BANDWIDTH_INFO_REQUEST, usbuser/USBUSER_BANDWIDTH_INFO_REQUEST"
+ms.keywords: '*PUSBUSER_BANDWIDTH_INFO_REQUEST, PUSBUSER_BANDWIDTH_INFO_REQUEST, PUSBUSER_BANDWIDTH_INFO_REQUEST structure pointer [Buses], USBUSER_BANDWIDTH_INFO_REQUEST, USBUSER_BANDWIDTH_INFO_REQUEST structure [Buses], buses.usbuser_bandwidth_info_request, usbstrct_f688b719-a1cf-4fc1-a2e6-dd391a676703.xml, usbuser/PUSBUSER_BANDWIDTH_INFO_REQUEST, usbuser/USBUSER_BANDWIDTH_INFO_REQUEST'
 ms.topic: struct
-f1_keywords: 
- - "usbuser/USBUSER_BANDWIDTH_INFO_REQUEST"
+f1_keywords:
+- usbuser/USBUSER_BANDWIDTH_INFO_REQUEST
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - usbuser.h
+- usbuser.h
 api_name:
- - USBUSER_BANDWIDTH_INFO_REQUEST
+- USBUSER_BANDWIDTH_INFO_REQUEST
 product: Windows
 targetos: Windows
 req.typenames: USBUSER_BANDWIDTH_INFO_REQUEST, *PUSBUSER_BANDWIDTH_INFO_REQUEST
@@ -61,12 +61,12 @@ The <b>USBUSER_BANDWIDTH_INFO_REQUEST</b> structure is used with the <a href="ht
 
 ### -field Header
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usbuser_request_header">USBUSER_REQUEST_HEADER</a> structure that specifies the user-mode request on input to IOCTL_USB_USER_REQUEST and provides buffer and status information on output.
+A <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usbuser_request_header">USBUSER_REQUEST_HEADER</a> structure that specifies the user-mode request on input to IOCTL_USB_USER_REQUEST and provides buffer and status information on output.
 
 
 ### -field BandwidthInformation
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_bandwidth_info">USB_BANDWIDTH_INFO</a> structure that reports bandwidth allocation information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_bandwidth_info">USB_BANDWIDTH_INFO</a> structure that reports bandwidth allocation information.
 
 
 ## -remarks
@@ -91,11 +91,11 @@ The <b>USBUSER_BANDWIDTH_INFO_REQUEST</b> structure is used with the USBUSER_GET
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usbuser_request_header">USBUSER_REQUEST_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usbuser_request_header">USBUSER_REQUEST_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_bandwidth_info">USB_BANDWIDTH_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_bandwidth_info">USB_BANDWIDTH_INFO</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: 3d1035dc-0e46-46f4-abb3-26100356b60d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPQOS_DIFFSERV, LPQOS_DIFFSERV, LPQOS_DIFFSERV structure pointer [QOS], QOS_DIFFSERV, QOS_DIFFSERV structure [QOS], _gqos_qos_diffserv, qos.qos_diffserv, qosobjs/LPQOS_DIFFSERV, qosobjs/QOS_DIFFSERV"
+ms.keywords: '*LPQOS_DIFFSERV, LPQOS_DIFFSERV, LPQOS_DIFFSERV structure pointer [QOS], QOS_DIFFSERV, QOS_DIFFSERV structure [QOS], _gqos_qos_diffserv, qos.qos_diffserv, qosobjs/LPQOS_DIFFSERV, qosobjs/QOS_DIFFSERV'
 ms.topic: struct
-f1_keywords: 
- - "qosobjs/QOS_DIFFSERV"
+f1_keywords:
+- qosobjs/QOS_DIFFSERV
 req.header: qosobjs.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - QosObjs.h
+- QosObjs.h
 api_name:
- - QOS_DIFFSERV
+- QOS_DIFFSERV
 product: Windows
 targetos: Windows
 req.typenames: QOS_DIFFSERV, *LPQOS_DIFFSERV
@@ -75,7 +75,7 @@ Number of Diffserv Rules in this object.
 ### -field DiffservRule
 
 Array of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_diffserv_rule">QOS_DIFFSERV_RULE</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv_rule">QOS_DIFFSERV_RULE</a> structures.
 
 
 ## -remarks
@@ -95,11 +95,11 @@ The
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_diffserv_rule">QOS_DIFFSERV_RULE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv_rule">QOS_DIFFSERV_RULE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_ds_class">QOS_DS_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_ds_class">QOS_DS_CLASS</a>
 
 
 
@@ -107,7 +107,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_traffic_class">QOS_TRAFFIC_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_traffic_class">QOS_TRAFFIC_CLASS</a>
  
 
  

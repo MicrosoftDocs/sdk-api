@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: f72f3dd3-42a3-4f2b-be36-13c496c396fd
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0, LOGON_EXTRA_SIDS, PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0, PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0 structure pointer [Security], WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0, WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0 structure [Security], _gina_wlx_consoleswitch_credentials_info_v1_0, security.wlx_consoleswitch_credentials_info_v1_0, winwlx/PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0, winwlx/WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0"
+ms.keywords: '*PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0, LOGON_EXTRA_SIDS, PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0, PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0 structure pointer [Security], WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0, WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0 structure [Security], _gina_wlx_consoleswitch_credentials_info_v1_0, security.wlx_consoleswitch_credentials_info_v1_0, winwlx/PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0, winwlx/WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0'
 ms.topic: struct
-f1_keywords: 
- - "winwlx/WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0"
+f1_keywords:
+- winwlx/WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0
+- WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0
 product: Windows
 targetos: Windows
 req.typenames: WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0, *PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0
@@ -110,7 +110,7 @@ Length of the user's profile in bytes.
 ### -field MessageType
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_msv1_0_profile_buffer_type">MSV1_0_PROFILE_BUFFER_TYPE</a> value identifying the type of profile data being returned. This member must be set to <b>MsV1_0InteractiveProfile</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_profile_buffer_type">MSV1_0_PROFILE_BUFFER_TYPE</a> value identifying the type of profile data being returned. This member must be set to <b>MsV1_0InteractiveProfile</b>.
 
 
 ### -field LogonCount
@@ -165,37 +165,37 @@ Time and date when the user must change the password. If the user can never chan
 ### -field LogonScript
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the relative path to the account's logon script.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the relative path to the account's logon script.
 
 
 ### -field HomeDirectory
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the home directory for the user.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the home directory for the user.
 
 
 ### -field FullName
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the full name of the user.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the full name of the user.
 
 
 ### -field ProfilePath
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> specifying the path to the user's roaming profile if the user has a roaming profile. For example: \\SomeServer\SomeShare\MyUserName
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> specifying the path to the user's roaming profile if the user has a roaming profile. For example: \\SomeServer\SomeShare\MyUserName
 
 
 ### -field HomeDirectoryDrive
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the drive letter (for example, C:\ or D:\) of the home directory.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the drive letter (for example, C:\ or D:\) of the home directory.
 
 
 ### -field LogonServer
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the name of the server that processed the logon request.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the name of the server that processed the logon request.
 
 
 ### -field UserFlags

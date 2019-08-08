@@ -8,10 +8,10 @@ tech.root: eaphost
 ms.assetid: 2b321f26-fb40-44e5-b483-52d85cb54c8c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEAP_CONFIG_INPUT_FIELD_DATA, EAP_CONFIG_INPUT_FIELD_DATA, EAP_CONFIG_INPUT_FIELD_DATA structure [EAPHost], EAP_CONFIG_INPUT_FIELD_PROPS_DEFAULT, EAP_CONFIG_INPUT_FIELD_PROPS_NON_DISPLAYABLE, EAP_CONFIG_INPUT_FIELD_PROPS_NON_PERSIST, EAP_UI_INPUT_FIELD_PROPS_DEFAULT, EAP_UI_INPUT_FIELD_PROPS_NON_DISPLAYABLE, EAP_UI_INPUT_FIELD_PROPS_NON_PERSIST, EAP_UI_INPUT_FIELD_PROPS_READ_ONLY, MAX_EAP_CONFIG_INPUT_FIELD_LENGTH, MAX_EAP_CONFIG_INPUT_FIELD_VALUE_LENGTH, PEAP_CONFIG_INPUT_FIELD_DATA, PEAP_CONFIG_INPUT_FIELD_DATA structure pointer [EAPHost], eaphost.eap_config_input_field_data, eaptypes/EAP_CONFIG_INPUT_FIELD_DATA, eaptypes/PEAP_CONFIG_INPUT_FIELD_DATA"
+ms.keywords: '*PEAP_CONFIG_INPUT_FIELD_DATA, EAP_CONFIG_INPUT_FIELD_DATA, EAP_CONFIG_INPUT_FIELD_DATA structure [EAPHost], EAP_CONFIG_INPUT_FIELD_PROPS_DEFAULT, EAP_CONFIG_INPUT_FIELD_PROPS_NON_DISPLAYABLE, EAP_CONFIG_INPUT_FIELD_PROPS_NON_PERSIST, EAP_UI_INPUT_FIELD_PROPS_DEFAULT, EAP_UI_INPUT_FIELD_PROPS_NON_DISPLAYABLE, EAP_UI_INPUT_FIELD_PROPS_NON_PERSIST, EAP_UI_INPUT_FIELD_PROPS_READ_ONLY, MAX_EAP_CONFIG_INPUT_FIELD_LENGTH, MAX_EAP_CONFIG_INPUT_FIELD_VALUE_LENGTH, PEAP_CONFIG_INPUT_FIELD_DATA, PEAP_CONFIG_INPUT_FIELD_DATA structure pointer [EAPHost], eaphost.eap_config_input_field_data, eaptypes/EAP_CONFIG_INPUT_FIELD_DATA, eaptypes/PEAP_CONFIG_INPUT_FIELD_DATA'
 ms.topic: struct
-f1_keywords: 
- - "eaptypes/EAP_CONFIG_INPUT_FIELD_DATA"
+f1_keywords:
+- eaptypes/EAP_CONFIG_INPUT_FIELD_DATA
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eaptypes.h
+- eaptypes.h
 api_name:
- - EAP_CONFIG_INPUT_FIELD_DATA
+- EAP_CONFIG_INPUT_FIELD_DATA
 product: Windows
 targetos: Windows
 req.typenames: EAP_CONFIG_INPUT_FIELD_DATA, *PEAP_CONFIG_INPUT_FIELD_DATA
@@ -66,7 +66,7 @@ The size, in bytes, of the <b>EAP_CONFIG_INPUT_FIELD_DATA</b> structure. This fi
 
 ### -field Type
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eap_config_input_field_type">EAP_CONFIG_INPUT_FIELD_TYPE</a> enumeration value that specifies the type of the input field.
+An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eap_config_input_field_type">EAP_CONFIG_INPUT_FIELD_TYPE</a> enumeration value that specifies the type of the input field.
 
 
 ### -field dwFlagProps
@@ -233,7 +233,7 @@ The <b>EAP_CONFIG_INPUT_FIELD_DATA</b> structure can be employed to support SSO.
 
 This structure represents the data associated with a single input field in an EAP configuration dialog box. For example, it could contain the data for the "Login User" as supplied by the EAP application user.
 
-The entire collection of input fields in a EAP configuration dialog box is represented by a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_config_input_field_array">EAP_CONFIG_INPUT_FIELD_ARRAY</a> structure.
+The entire collection of input fields in a EAP configuration dialog box is represented by a <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_array">EAP_CONFIG_INPUT_FIELD_ARRAY</a> structure.
 
 
 
@@ -243,7 +243,7 @@ The entire collection of input fields in a EAP configuration dialog box is repre
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_config_input_field_array">EAP_CONFIG_INPUT_FIELD_ARRAY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_array">EAP_CONFIG_INPUT_FIELD_ARRAY</a>
 
 
 

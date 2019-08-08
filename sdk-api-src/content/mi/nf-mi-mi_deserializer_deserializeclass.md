@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Deserializer_DeserializeClass, MI_Deserializer_DeserializeClass function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_DeserializeClass, wmi_v2.mi_deserializer_deserializeclass
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Deserializer_DeserializeClass"
+f1_keywords:
+- mi/MI_Deserializer_DeserializeClass
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Deserializer_DeserializeClass
+- MI_Deserializer_DeserializeClass
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deserializes a serialized buffer into an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_class">MI_Class</a> object.
+Deserializes a serialized buffer into an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> object.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ The length of the buffer that was reported via a call to <a href="https://docs.m
 
 ### -param parentClass [in, optional]
 
-The parent class. If the class was not serialized with the class's parent class then this parameter needs to contain the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_class">MI_Class</a> for the parent class.  The parent class needs to contain all parent classes in the hierarchy.  If the class was serialized with <b>MI_SERIALIZER_FLAGS_CLASS_DEEP</b> specified as a flag, then the parent class is not needed as it is a self-contained buffer, and <b>NULL</b> can be passed for this parameter.
+The parent class. If the class was not serialized with the class's parent class then this parameter needs to contain the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> for the parent class.  The parent class needs to contain all parent classes in the hierarchy.  If the class was serialized with <b>MI_SERIALIZER_FLAGS_CLASS_DEEP</b> specified as a flag, then the parent class is not needed as it is a self-contained buffer, and <b>NULL</b> can be passed for this parameter.
 
 
 ### -param serverName

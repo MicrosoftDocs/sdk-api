@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Msv1_0SubAuthenticationRoutineGeneric, Msv1_0SubAuthenticationRoutineGeneric function [Security], security.msv1_0subauthenticationroutinegeneric, subauth/Msv1_0SubAuthenticationRoutineGeneric
 ms.topic: function
-f1_keywords: 
- - "subauth/Msv1_0SubAuthenticationRoutineGeneric"
+f1_keywords:
+- subauth/Msv1_0SubAuthenticationRoutineGeneric
 req.header: subauth.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Subauth.h
+- Subauth.h
 api_name:
- - Msv1_0SubAuthenticationRoutineGeneric
+- Msv1_0SubAuthenticationRoutineGeneric
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ This function is called only for a
 
 ### -param SubmitBuffer
 
-A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_msv1_0_subauth_request">MSV1_0_SUBAUTH_REQUEST</a> structure that contains the  authentication information to be submitted.
+A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_subauth_request">MSV1_0_SUBAUTH_REQUEST</a> structure that contains the  authentication information to be submitted.
 
 
 ### -param SubmitBufferLength
@@ -83,7 +83,7 @@ The size, in bytes, of the <i>ReturnBuffer</i> buffer.
 
 ### -param ReturnBuffer [out]
 
-A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_msv1_0_subauth_response">MSV1_0_SUBAUTH_RESPONSE</a> structure that contains the response from the subauthentication package.
+A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_subauth_response">MSV1_0_SUBAUTH_RESPONSE</a> structure that contains the response from the subauthentication package.
 
 
 ## -returns

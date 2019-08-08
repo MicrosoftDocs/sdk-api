@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWsChanges, GetWsChanges function [PSAPI], K32GetWsChanges, _win32_getwschanges, base.getwschanges, psapi.getwschanges, psapi.h/K32GetWsChanges, psapi/GetWsChanges, psapi/K32GetWsChanges
 ms.topic: function
-f1_keywords: 
- - "psapi/GetWsChanges"
+f1_keywords:
+- psapi/GetWsChanges
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if 
 req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - Psapi.dll
- - Psapi.dll
- - API-MS-Win-Core-PsAPI-L1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- Psapi.dll
+- Psapi.dll
+- API-MS-Win-Core-PsAPI-L1-1-0.dll
+- KernelBase.dll
 api_name:
- - GetWsChanges
- - K32GetWsChanges
+- GetWsChanges
+- K32GetWsChanges
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -80,7 +80,7 @@ A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</
 ### -param lpWatchInfo [out]
 
 A pointer to a user-allocated buffer that receives an array of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_ws_watch_information">PSAPI_WS_WATCH_INFORMATION</a> structures. 
+      <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-psapi_ws_watch_information">PSAPI_WS_WATCH_INFORMATION</a> structures. 
       The array is terminated with a structure whose <b>FaultingPc</b> member is NULL.
 
 
@@ -166,7 +166,7 @@ Programs that must run on earlier versions of Windows as
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_ws_watch_information">PSAPI_WS_WATCH_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-psapi_ws_watch_information">PSAPI_WS_WATCH_INFORMATION</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_TYPE, EAP_METHOD_TYPE structure [EAPHost], eaphost.eap_method_type, eaptypes/EAP_METHOD_TYPE
 ms.topic: struct
-f1_keywords: 
- - "eaptypes/EAP_METHOD_TYPE"
+f1_keywords:
+- eaptypes/EAP_METHOD_TYPE
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eaptypes.h
+- eaptypes.h
 api_name:
- - EAP_METHOD_TYPE
+- EAP_METHOD_TYPE
 product: Windows
 targetos: Windows
 req.typenames: EAP_METHOD_TYPE
@@ -62,7 +62,7 @@ The <b>EAP_METHOD_TYPE</b> structure contains  type, identification, and author 
 ### -field eapType
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_type">EAP_TYPE</a> structure that contains the ID for the EAP method as well as specific vendor information.
+<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_type">EAP_TYPE</a> structure that contains the ID for the EAP method as well as specific vendor information.
 
 
 ### -field dwAuthorId
@@ -79,7 +79,7 @@ The numeric ID for the author of the EAP method.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_type">EAP_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_type">EAP_TYPE</a>
  
 
  

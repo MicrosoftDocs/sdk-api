@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_ONLY_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_PREFER_NCRYPT_KEY_FLAG, CRYPT_FIND_MACHINE_KEYSET_FLAG, CRYPT_FIND_SILENT_KEYSET_FLAG, CRYPT_FIND_USER_KEYSET_FLAG, CryptFindCertificateKeyProvInfo, CryptFindCertificateKeyProvInfo function [Security], _crypto2_cryptfindcertificatekeyprovinfo, security.cryptfindcertificatekeyprovinfo, wincrypt/CryptFindCertificateKeyProvInfo
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptFindCertificateKeyProvInfo"
+f1_keywords:
+- wincrypt/CryptFindCertificateKeyProvInfo
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptFindCertificateKeyProvInfo
+- CryptFindCertificateKeyProvInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>CryptFindCertificateKeyProvInfo</b> function enumerates the <a href="http
 ### -param pCert [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure of the certificate to use when exporting public key information.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure of the certificate to use when exporting public key information.
 
 
 ### -param dwFlags [in]

@@ -8,10 +8,10 @@ tech.root: perfctrs
 ms.assetid: c9ede50e-85de-4a68-b539-54285c2599cb
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPDH_COUNTER_INFO_W, PDH_COUNTER_INFO, PDH_COUNTER_INFO structure [Perf], PDH_COUNTER_INFO_A, PDH_COUNTER_INFO_W, PPDH_COUNTER_INFO, PPDH_COUNTER_INFO structure pointer [Perf], _win32_pdh_counter_info_str, base.pdh_counter_info_str, pdh/PDH_COUNTER_INFO, pdh/PDH_COUNTER_INFO_A, pdh/PDH_COUNTER_INFO_W, pdh/PPDH_COUNTER_INFO, perf.pdh_counter_info_str"
+ms.keywords: '*PPDH_COUNTER_INFO_W, PDH_COUNTER_INFO, PDH_COUNTER_INFO structure [Perf], PDH_COUNTER_INFO_A, PDH_COUNTER_INFO_W, PPDH_COUNTER_INFO, PPDH_COUNTER_INFO structure pointer [Perf], _win32_pdh_counter_info_str, base.pdh_counter_info_str, pdh/PDH_COUNTER_INFO, pdh/PDH_COUNTER_INFO_A, pdh/PDH_COUNTER_INFO_W, pdh/PPDH_COUNTER_INFO, perf.pdh_counter_info_str'
 ms.topic: struct
-f1_keywords: 
- - "pdh/PDH_COUNTER_INFO"
+f1_keywords:
+- pdh/PDH_COUNTER_INFO
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pdh.h
+- Pdh.h
 api_name:
- - PDH_COUNTER_INFO
- - PDH_COUNTER_INFO_A
- - PDH_COUNTER_INFO_W
+- PDH_COUNTER_INFO
+- PDH_COUNTER_INFO_A
+- PDH_COUNTER_INFO_W
 product: Windows
 targetos: Windows
 req.typenames: PDH_COUNTER_INFO_W, *PPDH_COUNTER_INFO_W
@@ -116,13 +116,13 @@ The value passed in the <i>dwUserData</i> parameter when calling <a href="https:
 ### -field DataItemPath
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_data_item_path_elements_a">PDH_DATA_ITEM_PATH_ELEMENTS</a> structure. Not used.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_data_item_path_elements_a">PDH_DATA_ITEM_PATH_ELEMENTS</a> structure. Not used.
 
 
 ### -field CounterPath
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a> structure.
 
 
 ### -field szMachineName
@@ -179,11 +179,11 @@ When you allocate memory for this structure, allocate enough memory for the memb
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_counter_path_elements_a">PDH_COUNTER_PATH_ELEMENTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_data_item_path_elements_a">PDH_DATA_ITEM_PATH_ELEMENTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_data_item_path_elements_a">PDH_DATA_ITEM_PATH_ELEMENTS</a>
 
 
 

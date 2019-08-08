@@ -8,10 +8,10 @@ tech.root: ad
 ms.assetid: 8a7b34e8-46d6-46dc-9fef-ec37b0f65eea
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDSROLE_PRIMARY_DOMAIN_INFO_BASIC, DSROLE_PRIMARY_DOMAIN_GUID_PRESENT, DSROLE_PRIMARY_DOMAIN_INFO_BASIC, DSROLE_PRIMARY_DOMAIN_INFO_BASIC structure [Active Directory], DSROLE_PRIMARY_DS_MIXED_MODE, DSROLE_PRIMARY_DS_READONLY, DSROLE_PRIMARY_DS_RUNNING, DSROLE_UPGRADE_IN_PROGRESS, PDSROLE_PRIMARY_DOMAIN_INFO_BASIC, PDSROLE_PRIMARY_DOMAIN_INFO_BASIC structure pointer [Active Directory], _glines_dsrole_primary_domain_info_basic, ad.dsrole__primary__domain__info__basic, ad.dsrole_primary_domain_info_basic, dsrole/DSROLE_PRIMARY_DOMAIN_INFO_BASIC, dsrole/PDSROLE_PRIMARY_DOMAIN_INFO_BASIC"
+ms.keywords: '*PDSROLE_PRIMARY_DOMAIN_INFO_BASIC, DSROLE_PRIMARY_DOMAIN_GUID_PRESENT, DSROLE_PRIMARY_DOMAIN_INFO_BASIC, DSROLE_PRIMARY_DOMAIN_INFO_BASIC structure [Active Directory], DSROLE_PRIMARY_DS_MIXED_MODE, DSROLE_PRIMARY_DS_READONLY, DSROLE_PRIMARY_DS_RUNNING, DSROLE_UPGRADE_IN_PROGRESS, PDSROLE_PRIMARY_DOMAIN_INFO_BASIC, PDSROLE_PRIMARY_DOMAIN_INFO_BASIC structure pointer [Active Directory], _glines_dsrole_primary_domain_info_basic, ad.dsrole__primary__domain__info__basic, ad.dsrole_primary_domain_info_basic, dsrole/DSROLE_PRIMARY_DOMAIN_INFO_BASIC, dsrole/PDSROLE_PRIMARY_DOMAIN_INFO_BASIC'
 ms.topic: struct
-f1_keywords: 
- - "dsrole/DSROLE_PRIMARY_DOMAIN_INFO_BASIC"
+f1_keywords:
+- dsrole/DSROLE_PRIMARY_DOMAIN_INFO_BASIC
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dsrole.h
+- Dsrole.h
 api_name:
- - DSROLE_PRIMARY_DOMAIN_INFO_BASIC
+- DSROLE_PRIMARY_DOMAIN_INFO_BASIC
 product: Windows
 targetos: Windows
 req.typenames: DSROLE_PRIMARY_DOMAIN_INFO_BASIC, *PDSROLE_PRIMARY_DOMAIN_INFO_BASIC
@@ -61,7 +61,7 @@ The <b>DSROLE_PRIMARY_DOMAIN_INFO_BASIC</b> structure is used with the <a href="
 
 ### -field MachineRole
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-_dsrole_machine_role">DSROLE_MACHINE_ROLE</a> values that specifies the role of the computer.
+Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-dsrole_machine_role">DSROLE_MACHINE_ROLE</a> values that specifies the role of the computer.
 
 
 ### -field Flags
@@ -124,7 +124,7 @@ Contains the domain identifier. This member is valid only if the <b>Flags</b> me
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-_dsrole_machine_role">DSROLE_MACHINE_ROLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-dsrole_machine_role">DSROLE_MACHINE_ROLE</a>
 
 
 

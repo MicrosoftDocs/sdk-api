@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClfsLsnNull, LsnNull, LsnNull function [Files], clfs/LsnNull, fs.lsnnull
 ms.topic: function
-f1_keywords: 
- - "clfs/LsnNull"
+f1_keywords:
+- clfs/LsnNull
 req.header: clfs.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Clfsw32.dll
+- Clfsw32.dll
 api_name:
- - LsnNull
+- LsnNull
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Determines whether a specified LSN is equal to the smallest possible LSN, which 
 
 ### -param plsn [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a> structure to be tested.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure to be tested.
 
 
 ## -returns

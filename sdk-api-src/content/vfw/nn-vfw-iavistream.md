@@ -3,7 +3,7 @@ UID: NN:vfw.IAVIStream
 title: IAVIStream (vfw.h)
 author: windows-sdk-content
 description: The IAVIStream interface supports creating and manipulating data streams within a file. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods:\_
-The IAVIStream interface supports creating and manipulating data streams within a file. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods:
+The IAVIStream interface supports creating and manipulating data streams within a file. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods: 
 old-location: multimedia\iavistream.htm
 tech.root: Multimedia
 ms.assetid: 25f67f04-e005-48ee-89e7-a6ef89f6d6c6
@@ -11,8 +11,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAVIStream, IAVIStream interface [Windows Multimedia], IAVIStream interface [Windows Multimedia],described, _win32_IAVIStream, multimedia.iavistream, vfw/IAVIStream
 ms.topic: interface
-f1_keywords: 
- - "vfw/IAVIStream"
+f1_keywords:
+- vfw/IAVIStream
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -31,15 +31,15 @@ req.lib: Vfw32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vfw32.lib
- - Vfw32.dll
+- Vfw32.lib
+- Vfw32.dll
 api_name:
- - IAVIStream
+- IAVIStream
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -106,7 +106,7 @@ Obtains the position in a stream of a key frame or a nonempty frame.
 <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iavistream-info">Info</a>
 </td>
 <td align="left" width="63%">
-Fills and returns an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-_avistreaminfoa">AVISTREAMINFO</a> structure with information about a stream.
+Fills and returns an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-avistreaminfoa">AVISTREAMINFO</a> structure with information about a stream.
 
 </td>
 </tr>

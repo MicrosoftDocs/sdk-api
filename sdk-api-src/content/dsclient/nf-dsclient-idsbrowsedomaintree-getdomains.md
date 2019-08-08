@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DBDTF_RETURNEXTERNAL, DBDTF_RETURNFQDN, DBDTF_RETURNINBOUND, DBDTF_RETURNINOUTBOUND, DBDTF_RETURNMIXEDDOMAINS, GetDomains, GetDomains method [Active Directory], GetDomains method [Active Directory],IDsBrowseDomainTree interface, IDsBrowseDomainTree interface [Active Directory],GetDomains method, IDsBrowseDomainTree.GetDomains, IDsBrowseDomainTree::GetDomains, _glines_idsbrowsedomaintree_getdomains, ad.idsbrowsedomaintree__getdomains, ad.idsbrowsedomaintree_getdomains, dsclient/IDsBrowseDomainTree::GetDomains
 ms.topic: method
-f1_keywords: 
- - "dsclient/IDsBrowseDomainTree.GetDomains"
+f1_keywords:
+- dsclient/IDsBrowseDomainTree.GetDomains
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Dsadmin.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dsadmin.dll
+- Dsadmin.dll
 api_name:
- - IDsBrowseDomainTree.GetDomains
+- IDsBrowseDomainTree.GetDomains
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ Contains a set of flags that modify the domain contents. This can be zero or a c
 
 #### DBDTF_RETURNFQDN
 
-The <b>pszNCName</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-_domaindesc">DOMAINDESC</a> structures will receive the fully qualified domain names. The fully qualified domain name takes the form "DC=myDom, DC=Fabrikam, DC=com" as opposed to "myDom.Fabrikam.com".
+The <b>pszNCName</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-domaindesc">DOMAINDESC</a> structures will receive the fully qualified domain names. The fully qualified domain name takes the form "DC=myDom, DC=Fabrikam, DC=com" as opposed to "myDom.Fabrikam.com".
 
 
 
@@ -123,7 +123,7 @@ For more information about how to access and use the data provided by this metho
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-_domaindesc">DOMAINDESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-domaindesc">DOMAINDESC</a>
 
 
 

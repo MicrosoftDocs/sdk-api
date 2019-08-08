@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNeighbors, GetNeighbors callback function [RAS], PGET_NEIGHBORS, PGET_NEIGHBORS callback, _mpr_getneighbors, routprot/GetNeighbors, rras.getneighbors
 ms.topic: callback
-f1_keywords: 
- - "routprot/GetNeighbors"
+f1_keywords:
+- routprot/GetNeighbors
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Routprot.h
+- Routprot.h
 api_name:
- - GetNeighbors
+- GetNeighbors
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -54,7 +54,7 @@ ms.custom: 19H1
 The router manager calls the 
 <i>GetNeighbors</i> function to obtain the querier for the network attached through the specified interface.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_mpr50_routing_characteristics">PGET_NEIGHBORS</a> type defines a pointer to this callback function. <i>GetNeighbors</i> is a placeholder for the application-defined function name.
+The <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">PGET_NEIGHBORS</a> type defines a pointer to this callback function. <i>GetNeighbors</i> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -158,7 +158,7 @@ The <i>InterfaceIndex</i> parameter is invalid (for example, no interface exists
 
 
 Only multicast routing protocols are required implement this function. Non-multicast routing protocols should pass <b>NULL</b> as the pointer value for this function in 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: wcm
 ms.assetid: 18fcc708-74b1-408f-a7ee-64455742324d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWCM_CONNECTION_COST_DATA, PWCM_CONNECTION_COST_DATA, PWCM_CONNECTION_COST_DATA structure pointer [Windows Connection Manager], WCM_CONNECTION_COST_CONGESTED, WCM_CONNECTION_COST_DATA, WCM_CONNECTION_COST_DATA structure [Windows Connection Manager], WCM_CONNECTION_COST_FIXED, WCM_CONNECTION_COST_OVERDATALIMIT, WCM_CONNECTION_COST_ROAMING, WCM_CONNECTION_COST_UNKNOWN, WCM_CONNECTION_COST_UNRESTRICTED, WCM_CONNECTION_COST_VARIABLE, wcm.wcm_connection_cost_data, wcmapi/PWCM_CONNECTION_COST_DATA, wcmapi/WCM_CONNECTION_COST_DATA"
+ms.keywords: '*PWCM_CONNECTION_COST_DATA, PWCM_CONNECTION_COST_DATA, PWCM_CONNECTION_COST_DATA structure pointer [Windows Connection Manager], WCM_CONNECTION_COST_CONGESTED, WCM_CONNECTION_COST_DATA, WCM_CONNECTION_COST_DATA structure [Windows Connection Manager], WCM_CONNECTION_COST_FIXED, WCM_CONNECTION_COST_OVERDATALIMIT, WCM_CONNECTION_COST_ROAMING, WCM_CONNECTION_COST_UNKNOWN, WCM_CONNECTION_COST_UNRESTRICTED, WCM_CONNECTION_COST_VARIABLE, wcm.wcm_connection_cost_data, wcmapi/PWCM_CONNECTION_COST_DATA, wcmapi/WCM_CONNECTION_COST_DATA'
 ms.topic: struct
-f1_keywords: 
- - "wcmapi/WCM_CONNECTION_COST_DATA"
+f1_keywords:
+- wcmapi/WCM_CONNECTION_COST_DATA
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wcmapi.h
+- Wcmapi.h
 api_name:
- - WCM_CONNECTION_COST_DATA
+- WCM_CONNECTION_COST_DATA
 product: Windows
 targetos: Windows
 req.typenames: WCM_CONNECTION_COST_DATA, *PWCM_CONNECTION_COST_DATA
@@ -168,7 +168,7 @@ The connection is outside of the home network.
 
 ### -field CostSource
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-_wcm_connection_cost_source">WCM_CONNECTION_COST_SOURCE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-wcm_connection_cost_source">WCM_CONNECTION_COST_SOURCE</a></b>
 
 Specifies the cost source.
 
@@ -178,7 +178,7 @@ Specifies the cost source.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-_wcm_connection_cost_source">WCM_CONNECTION_COST_SOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-wcm_connection_cost_source">WCM_CONNECTION_COST_SOURCE</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVT_SUBSCRIBE_CALLBACK, EVT_SUBSCRIBE_CALLBACK callback, EVT_SUBSCRIBE_CALLBACK callback function [EventLog], wes.evt_subscribe_callback, winevt/EVT_SUBSCRIBE_CALLBACK
 ms.topic: callback
-f1_keywords: 
- - "winevt/EVT_SUBSCRIBE_CALLBACK"
+f1_keywords:
+- winevt/EVT_SUBSCRIBE_CALLBACK
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WinEvt.h
+- WinEvt.h
 api_name:
- - EVT_SUBSCRIBE_CALLBACK
+- EVT_SUBSCRIBE_CALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Implement this callback if you call the <a href="https://docs.microsoft.com/wind
 
 ### -param Action
 
-Determines whether the <i>Event</i> parameter contains an event or an error code. For possible notify action values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_subscribe_notify_action">EVT_SUBSCRIBE_NOTIFY_ACTION</a> enumeration.
+Determines whether the <i>Event</i> parameter contains an event or an error code. For possible notify action values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_subscribe_notify_action">EVT_SUBSCRIBE_NOTIFY_ACTION</a> enumeration.
 
 
 ### -param UserContext

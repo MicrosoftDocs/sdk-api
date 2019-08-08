@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdQueryDirectDrawObject, DdQueryDirectDrawObject function [Windows API], GdiEntry2, _dxgkernel_ddquerydirectdrawobject, ddrawgdi/DdQueryDirectDrawObject, ddrawgdi/GdiEntry2, winprog._dxgkernel_ddquerydirectdrawobject, winui._dxgkernel_ddquerydirectdrawobject
 ms.topic: function
-f1_keywords: 
- - "ddrawgdi/DdQueryDirectDrawObject"
+f1_keywords:
+- ddrawgdi/DdQueryDirectDrawObject
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ddrawgdi.h
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Ddrawgdi.h
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - DdQueryDirectDrawObject
- - GdiEntry2
+- DdQueryDirectDrawObject
+- GdiEntry2
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -105,7 +105,7 @@ Pointer to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/cont
 
 ### -param pD3dBufferCallbacks
 
-Pointer to a table of callback pointers. The table is filled with pointers to functions within Gdi32.dll that imitate a Direct3D display driver. This callback table is identical to the DDHAL_DDEXEBUFCALLBACKS structure, which maps to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_d3dbufcallbacks">DD_D3DBUFCALLBACKS</a> structure discussed in the DDK documentation, except that members XxxD3DBuffer in <b>DD_D3DBUFCALLBACKS</b> are replaced with XxxExecuteBuffer in DDHAL_DDEXEBUFCALLBACKS.
+Pointer to a table of callback pointers. The table is filled with pointers to functions within Gdi32.dll that imitate a Direct3D display driver. This callback table is identical to the DDHAL_DDEXEBUFCALLBACKS structure, which maps to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_d3dbufcallbacks">DD_D3DBUFCALLBACKS</a> structure discussed in the DDK documentation, except that members XxxD3DBuffer in <b>DD_D3DBUFCALLBACKS</b> are replaced with XxxExecuteBuffer in DDHAL_DDEXEBUFCALLBACKS.
 
 
 ### -param pD3dTextureFormats

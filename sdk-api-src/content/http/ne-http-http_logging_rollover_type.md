@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: f1560f05-f7c4-46f1-ad9e-d737d0019b41
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_LOGGING_ROLLOVER_TYPE, *PHTTP_LOGGING_ROLLOVER_TYPE enumeration [HTTP], HTTP_LOGGING_ROLLOVER_TYPE, HTTP_LOGGING_ROLLOVER_TYPE enumeration [HTTP], HttpLoggingRolloverDaily, HttpLoggingRolloverHourly, HttpLoggingRolloverMonthly, HttpLoggingRolloverSize, HttpLoggingRolloverWeekly, http.http_logging_rollover_type, http/*PHTTP_LOGGING_ROLLOVER_TYPE, http/HTTP_LOGGING_ROLLOVER_TYPE, http/HttpLoggingRolloverDaily, http/HttpLoggingRolloverHourly, http/HttpLoggingRolloverMonthly, http/HttpLoggingRolloverSize, http/HttpLoggingRolloverWeekly"
+ms.keywords: '*PHTTP_LOGGING_ROLLOVER_TYPE, *PHTTP_LOGGING_ROLLOVER_TYPE enumeration [HTTP], HTTP_LOGGING_ROLLOVER_TYPE, HTTP_LOGGING_ROLLOVER_TYPE enumeration [HTTP], HttpLoggingRolloverDaily, HttpLoggingRolloverHourly, HttpLoggingRolloverMonthly, HttpLoggingRolloverSize, HttpLoggingRolloverWeekly, http.http_logging_rollover_type, http/*PHTTP_LOGGING_ROLLOVER_TYPE, http/HTTP_LOGGING_ROLLOVER_TYPE, http/HttpLoggingRolloverDaily, http/HttpLoggingRolloverHourly, http/HttpLoggingRolloverMonthly, http/HttpLoggingRolloverSize, http/HttpLoggingRolloverWeekly'
 ms.topic: enum
-f1_keywords: 
- - "http/HTTP_LOGGING_ROLLOVER_TYPE"
+f1_keywords:
+- http/HTTP_LOGGING_ROLLOVER_TYPE
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_LOGGING_ROLLOVER_TYPE
+- HTTP_LOGGING_ROLLOVER_TYPE
 product: Windows
 targetos: Windows
 req.typenames: HTTP_LOGGING_ROLLOVER_TYPE, *PHTTP_LOGGING_ROLLOVER_TYPE
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>HTTP_LOGGING_ROLLOVER_TYPE</b> enumeration defines the log file rollover types.
 
-This enumeration is used  in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_logging_info">HTTP_LOGGING_INFO</a> structure.
+This enumeration is used  in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a> structure.
 
 
 ## -enum-fields
@@ -226,7 +226,7 @@ The following table lists time element characters and what they represent. <tabl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_logging_info">HTTP_LOGGING_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a>
  
 
  

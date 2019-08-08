@@ -8,10 +8,10 @@ tech.root: NetMgmt
 ms.assetid: 0a87d88c-af70-41ce-9d92-6e642d284819
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVER_INFO_1018, *PSERVER_INFO_1018, LPSERVER_INFO_1018, LPSERVER_INFO_1018 structure pointer [Network Management], PSERVER_INFO_1018, PSERVER_INFO_1018 structure pointer [Network Management], SERVER_INFO_1018, SERVER_INFO_1018 structure [Network Management], _win32_server_info_1018_str, lmserver/LPSERVER_INFO_1018, lmserver/PSERVER_INFO_1018, lmserver/SERVER_INFO_1018, netmgmt.server_info_1018_str"
+ms.keywords: '*LPSERVER_INFO_1018, *PSERVER_INFO_1018, LPSERVER_INFO_1018, LPSERVER_INFO_1018 structure pointer [Network Management], PSERVER_INFO_1018, PSERVER_INFO_1018 structure pointer [Network Management], SERVER_INFO_1018, SERVER_INFO_1018 structure [Network Management], _win32_server_info_1018_str, lmserver/LPSERVER_INFO_1018, lmserver/PSERVER_INFO_1018, lmserver/SERVER_INFO_1018, netmgmt.server_info_1018_str'
 ms.topic: struct
-f1_keywords: 
- - "lmserver/SERVER_INFO_1018"
+f1_keywords:
+- lmserver/SERVER_INFO_1018
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmserver.h
+- Lmserver.h
 api_name:
- - SERVER_INFO_1018
+- SERVER_INFO_1018
 product: Windows
 targetos: Windows
 req.typenames: SERVER_INFO_1018, *PSERVER_INFO_1018, *LPSERVER_INFO_1018
@@ -68,8 +68,8 @@ Specifies the delta value for the announce rate, in milliseconds. This value spe
 
 
 The delta value allows randomly varied announce rates. For example, if the sv<i>X</i>_announce member has the value 10 and the sv<i>X</i>_anndelta member has the value 1, the announce rate can vary from 9.999 seconds to 10.001 seconds. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_102">SERVER_INFO_102</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_1017">SERVER_INFO_1017</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_102">SERVER_INFO_102</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_1017">SERVER_INFO_1017</a>.
 
 
 ## -see-also
@@ -89,11 +89,11 @@ The delta value allows randomly varied announce rates. For example, if the sv<i>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_1017">SERVER_INFO_1017</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_1017">SERVER_INFO_1017</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_102">SERVER_INFO_102</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_102">SERVER_INFO_102</a>
 
 
 

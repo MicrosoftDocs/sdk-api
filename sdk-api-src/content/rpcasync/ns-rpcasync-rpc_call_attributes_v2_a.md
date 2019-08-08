@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RPC_CALL_ATTRIBUTES, RPC_CALL_ATTRIBUTES structure [RPC], RPC_CALL_ATTRIBUTES_V2, RPC_CALL_ATTRIBUTES_V2 structure [RPC], RPC_CALL_ATTRIBUTES_V2_A, RPC_CALL_ATTRIBUTES_V2_W, RPC_CALL_STATUS_CANCELLED, RPC_CALL_STATUS_DISCONNECTED, RPC_CALL_STATUS_IN_PROGRESS, RPC_QUERY_CALL_LOCAL_ADDRESS, RPC_QUERY_CLIENT_PID, RPC_QUERY_CLIENT_PRINCIPAL_NAME, RPC_QUERY_SERVER_PRINCIPAL_NAME, rpc.rpc_call_attributes_v2, rpcasync/RPC_CALL_ATTRIBUTES, rpcasync/RPC_CALL_ATTRIBUTES_V2, rpcasync/RPC_CALL_ATTRIBUTES_V2_A, rpcasync/RPC_CALL_ATTRIBUTES_V2_W
 ms.topic: struct
-f1_keywords: 
- - "rpcasync/RPC_CALL_ATTRIBUTES_V2"
+f1_keywords:
+- rpcasync/RPC_CALL_ATTRIBUTES_V2
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcasync.h
+- Rpcasync.h
 api_name:
- - RPC_CALL_ATTRIBUTES_V2
- - RPC_CALL_ATTRIBUTES_V2_A
- - RPC_CALL_ATTRIBUTES_V2_W
+- RPC_CALL_ATTRIBUTES_V2
+- RPC_CALL_ATTRIBUTES_V2_A
+- RPC_CALL_ATTRIBUTES_V2_W
 product: Windows
 targetos: Windows
 req.typenames: RPC_CALL_ATTRIBUTES_V2_A
@@ -249,7 +249,7 @@ The client has disconnected.
 
 ### -field CallLocalAddress
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_call_local_address_v1">RPC_CALL_LOCAL_ADDRESS</a> structure that contains information to the server about the local address on which the call was made. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_call_local_address_v1">RPC_CALL_LOCAL_ADDRESS</a> structure that contains information to the server about the local address on which the call was made. 
 
 This field must not be <b>NULL</b> if <b>RPC_QUERY_CALL_LOCAL_ADDRESS</b> is specified in <i>Flags</i>; otherwise, RPC_S_INVALID_ARG is returned.
 

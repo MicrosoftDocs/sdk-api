@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 5a408c0a-56d4-48f6-8289-6f203ef998df
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMSV1_0_SUBAUTH_REQUEST, MSV1_0_SUBAUTH_REQUEST, MSV1_0_SUBAUTH_REQUEST structure [Security], PMSV1_0_SUBAUTH_REQUEST, PMSV1_0_SUBAUTH_REQUEST structure pointer [Security], _lsa_msv1_0_subauth_request, ntsecapi/MSV1_0_SUBAUTH_REQUEST, ntsecapi/PMSV1_0_SUBAUTH_REQUEST, security.msv1_0_subauth_request"
+ms.keywords: '*PMSV1_0_SUBAUTH_REQUEST, MSV1_0_SUBAUTH_REQUEST, MSV1_0_SUBAUTH_REQUEST structure [Security], PMSV1_0_SUBAUTH_REQUEST, PMSV1_0_SUBAUTH_REQUEST structure pointer [Security], _lsa_msv1_0_subauth_request, ntsecapi/MSV1_0_SUBAUTH_REQUEST, ntsecapi/PMSV1_0_SUBAUTH_REQUEST, security.msv1_0_subauth_request'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/MSV1_0_SUBAUTH_REQUEST"
+f1_keywords:
+- ntsecapi/MSV1_0_SUBAUTH_REQUEST
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - MSV1_0_SUBAUTH_REQUEST
+- MSV1_0_SUBAUTH_REQUEST
 product: Windows
 targetos: Windows
 req.typenames: MSV1_0_SUBAUTH_REQUEST, *PMSV1_0_SUBAUTH_REQUEST
@@ -65,7 +65,7 @@ It is used by
 ### -field MessageType
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a> value identifying the type of request being made. This member should be set to <b>MsV1_0SubAuth</b> for local subauthentication and <b>MsV1_0GenericPassthrough</b> for subauthentication on the domain controller.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a> value identifying the type of request being made. This member should be set to <b>MsV1_0SubAuth</b> for local subauthentication and <b>MsV1_0GenericPassthrough</b> for subauthentication on the domain controller.
 
 
 ### -field SubAuthPackageId

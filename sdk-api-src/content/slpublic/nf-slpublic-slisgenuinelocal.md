@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLIsGenuineLocal, SLIsGenuineLocal function [Security], security.slisgenuinelocal, slpublic/SLIsGenuineLocal
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLIsGenuineLocal"
+f1_keywords:
+- slpublic/SLIsGenuineLocal
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Slwga.lib
 req.dll: Slwga.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slwga.dll
+- Slwga.dll
 api_name:
- - SLIsGenuineLocal
+- SLIsGenuineLocal
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,12 +66,12 @@ A pointer to an <b>SLID</b> structure that specifies the application to check.
 
 ### -param pGenuineState [out]
 
-A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-_sl_genuine_state">SL_GENUINE_STATE</a> enumeration that specifies the state of the installation.
+A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sl_genuine_state">SL_GENUINE_STATE</a> enumeration that specifies the state of the installation.
 
 
 ### -param pUIOptions [in, out, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-_tagsl_nongenuine_ui_options">SL_NONGENUINE_UI_OPTIONS</a> structure that specifies a dialog box to display if the installation is not genuine. If the value of this parameter is <b>NULL</b>, no dialog box is displayed.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-sl_nongenuine_ui_options">SL_NONGENUINE_UI_OPTIONS</a> structure that specifies a dialog box to display if the installation is not genuine. If the value of this parameter is <b>NULL</b>, no dialog box is displayed.
 
 
 ## -returns

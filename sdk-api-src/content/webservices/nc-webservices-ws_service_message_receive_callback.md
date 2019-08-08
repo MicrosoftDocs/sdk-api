@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_MESSAGE_RECEIVE_CALLBACK, WS_SERVICE_MESSAGE_RECEIVE_CALLBACK callback, WS_SERVICE_MESSAGE_RECEIVE_CALLBACK callback function [Web Services for Windows], webservices/WS_SERVICE_MESSAGE_RECEIVE_CALLBACK, wsw.ws_service_message_receive_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_SERVICE_MESSAGE_RECEIVE_CALLBACK"
+f1_keywords:
+- webservices/WS_SERVICE_MESSAGE_RECEIVE_CALLBACK
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SERVICE_MESSAGE_RECEIVE_CALLBACK
+- WS_SERVICE_MESSAGE_RECEIVE_CALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Invoked when a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> is received on an endpoint configured 
-                with a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_contract">WS_SERVICE_CONTRACT</a> which has defaultMessageHandlerCallback set.
+                with a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_contract">WS_SERVICE_CONTRACT</a> which has defaultMessageHandlerCallback set.
 
 The incoming <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a>, the serviceProxy along with other parameters 
                 is made available to the callback through <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-operation-context">WS_OPERATION_CONTEXT</a>. 
@@ -96,7 +96,7 @@ This callback function does not return a value.
 
 
 When defined, callback would disallow all concurrency on a session based channel. If concurrency on a session based channel 
-                    is desirable an application should not define <i>WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</i> on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_contract">WS_SERVICE_CONTRACT</a>.
+                    is desirable an application should not define <i>WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</i> on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_contract">WS_SERVICE_CONTRACT</a>.
                 
 
 At the time of the invocation of the callback, service model has performed <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadmessagestart">WsReadMessageStart</a> on the receiving 

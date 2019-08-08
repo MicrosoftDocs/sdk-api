@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest3Callback interface [XMLHttpRequest2],OnServerCertificateReceived method, IXMLHTTPRequest3Callback.OnServerCertificateReceived, IXMLHTTPRequest3Callback::OnServerCertificateReceived, OnServerCertificateReceived, OnServerCertificateReceived method [XMLHttpRequest2], OnServerCertificateReceived method [XMLHttpRequest2],IXMLHTTPRequest3Callback interface, ixhr2.ixmlhttprequest3callback_onservercertificatereceived, msxml6/IXMLHTTPRequest3Callback::OnServerCertificateReceived
 ms.topic: method
-f1_keywords: 
- - "msxml6/IXMLHTTPRequest3Callback.OnServerCertificateReceived"
+f1_keywords:
+- msxml6/IXMLHTTPRequest3Callback.OnServerCertificateReceived
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msxml6.h
+- msxml6.h
 api_name:
- - IXMLHTTPRequest3Callback.OnServerCertificateReceived
+- IXMLHTTPRequest3Callback.OnServerCertificateReceived
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -118,7 +118,7 @@ Returns <b>S_OK</b> on success.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ne-msxml6-_xhr_cert_error_flag">XHR_CERT_ERROR_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ne-msxml6-xhr_cert_error_flag">XHR_CERT_ERROR_FLAG</a>
  
 
  

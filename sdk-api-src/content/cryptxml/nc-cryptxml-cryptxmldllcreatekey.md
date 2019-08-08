@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllCreateKey, CryptXmlDllCreateKey callback, CryptXmlDllCreateKey callback function [Security], cryptxml/CryptXmlDllCreateKey, security.cryptxmldllcreatekey
 ms.topic: callback
-f1_keywords: 
- - "cryptxml/CryptXmlDllCreateKey"
+f1_keywords:
+- cryptxml/CryptXmlDllCreateKey
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - cryptxml.h
+- cryptxml.h
 api_name:
- - CryptXmlDllCreateKey
+- CryptXmlDllCreateKey
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ the <b>CryptXmlDllCreateKey</b> function parses the <b>KeyValue</b> element and 
 
 ### -param *pEncoded [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains the <b>KeyValue</b> element.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains the <b>KeyValue</b> element.
 
 
 ### -param *phKey [out]

@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 15e27788-2d1a-4818-b31f-2faf649e15b2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_ENABLED_STATE, *PHTTP_ENABLED_STATE enumeration [HTTP], HTTP_ENABLED_STATE, HTTP_ENABLED_STATE enumeration [HTTP], HttpEnabledStateActive, HttpEnabledStateInactive, http.http_enabled_state, http/*PHTTP_ENABLED_STATE, http/HTTP_ENABLED_STATE, http/HttpEnabledStateActive, http/HttpEnabledStateInactive"
+ms.keywords: '*PHTTP_ENABLED_STATE, *PHTTP_ENABLED_STATE enumeration [HTTP], HTTP_ENABLED_STATE, HTTP_ENABLED_STATE enumeration [HTTP], HttpEnabledStateActive, HttpEnabledStateInactive, http.http_enabled_state, http/*PHTTP_ENABLED_STATE, http/HTTP_ENABLED_STATE, http/HttpEnabledStateActive, http/HttpEnabledStateInactive'
 ms.topic: enum
-f1_keywords: 
- - "http/HTTP_ENABLED_STATE"
+f1_keywords:
+- http/HTTP_ENABLED_STATE
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_ENABLED_STATE
+- HTTP_ENABLED_STATE
 product: Windows
 targetos: Windows
 req.typenames: HTTP_ENABLED_STATE, *PHTTP_ENABLED_STATE
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>HTTP_ENABLED_STATE</b> enumeration defines the state of a request queue, server session, or URL Group.
 
-This enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_state_info">HTTP_STATE_INFO</a> struct
+This enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_state_info">HTTP_STATE_INFO</a> struct
 
 
 ## -enum-fields
@@ -89,7 +89,7 @@ The HTTP Server API object is disabled.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_state_info">HTTP_STATE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_state_info">HTTP_STATE_INFO</a>
  
 
  

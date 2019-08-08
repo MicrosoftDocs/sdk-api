@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: 2809e3f1-c64a-4753-9fca-f78e89a878b2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSTACKFRAME64, LPSTACKFRAME64, LPSTACKFRAME64 structure pointer, STACKFRAME, STACKFRAME structure, STACKFRAME64, STACKFRAME64 structure, _tagSTACKFRAME64, _win32_stackframe64_str, base.stackframe64_str, dbghelp/LPSTACKFRAME64, dbghelp/STACKFRAME64"
+ms.keywords: '*LPSTACKFRAME64, LPSTACKFRAME64, LPSTACKFRAME64 structure pointer, STACKFRAME, STACKFRAME structure, STACKFRAME64, STACKFRAME64 structure, _tagSTACKFRAME64, _win32_stackframe64_str, base.stackframe64_str, dbghelp/LPSTACKFRAME64, dbghelp/STACKFRAME64'
 ms.topic: struct
-f1_keywords: 
- - "dbghelp/STACKFRAME64"
+f1_keywords:
+- dbghelp/STACKFRAME64
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - STACKFRAME64
- - STACKFRAME
+- STACKFRAME64
+- STACKFRAME
 product: Windows
 targetos: Windows
 req.typenames: STACKFRAME64, *LPSTACKFRAME64
@@ -63,7 +63,7 @@ Represents a stack frame.
 ### -field AddrPC
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies the program counter. 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the program counter. 
 
 
 
@@ -78,13 +78,13 @@ An
 ### -field AddrReturn
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies the return address.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the return address.
 
 
 ### -field AddrFrame
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies the frame pointer. 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the frame pointer. 
 
 
 
@@ -99,7 +99,7 @@ An
 ### -field AddrStack
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies the stack pointer. 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the stack pointer. 
 
 
 
@@ -114,13 +114,13 @@ An
 ### -field AddrBStore
 
 <b>Intel Itanium:  </b>An 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies the backing store (RsBSP).
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the backing store (RsBSP).
 
 
 ### -field FuncTableEntry
 
 On x86 computers, this member is an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_fpo_data">FPO_DATA</a> structure. If there is no function table entry, this member is <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a> structure. If there is no function table entry, this member is <b>NULL</b>.
 
 
 ### -field Params
@@ -147,7 +147,7 @@ This member is used internally by the
 ### -field KdHelp
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_kdhelp">KDHELP64</a> structure that specifies helper data for walking kernel callback frames.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-kdhelp">KDHELP64</a> structure that specifies helper data for walking kernel callback frames.
 
 
 ## -remarks
@@ -188,19 +188,19 @@ typedef struct _tagSTACKFRAME {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_fpo_data">FPO_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_function_entry">IMAGE_FUNCTION_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_kdhelp">KDHELP64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-kdhelp">KDHELP64</a>
 
 
 

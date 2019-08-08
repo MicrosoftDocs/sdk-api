@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, CREATE_ALWAYS, CREATE_NEW, CreateFile2, CreateFile2 function [Files], FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, OPEN_ALWAYS, OPEN_EXISTING, TRUNCATE_EXISTING, fileapi/CreateFile2, fs.createfile2
 ms.topic: function
-f1_keywords: 
- - "fileapi/CreateFile2"
+f1_keywords:
+- fileapi/CreateFile2
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- MinKernelBase.dll
 api_name:
- - CreateFile2
+- CreateFile2
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -316,7 +316,7 @@ The calling process must open the file with the <b>GENERIC_WRITE</b> bit set as 
 ### -param pCreateExParams [in, optional]
 
 Pointer to an optional 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> 
       structure.
 
 
@@ -367,7 +367,7 @@ You cannot use <b>CreateFile2</b> to control compression,
      and <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>.
 
 If the <b>lpSecurityAttributes</b> member of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> structure 
+     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> structure 
      passed in the <i>pCreateExParams</i> parameter is <b>NULL</b>, the handle 
      returned by <b>CreateFile2</b> cannot be inherited by any child 
      processes your application may create. The following information regarding this member also applies:
@@ -446,7 +446,7 @@ Yes
 If the call to this function creates a file, there is no change in behavior. Also, consider the following 
       information regarding <b>FILE_FLAG_OPEN_REPARSE_POINT</b> flag for the 
       <b>dwFileFlags</b> member of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> 
       structure passed in the <i>pCreateExParams</i> parameter:
 
 <ul>
@@ -514,7 +514,7 @@ An application cannot create a directory by using
 To open a directory using <b>CreateFile2</b>, specify the 
       <b>FILE_FLAG_BACKUP_SEMANTICS</b> flag as part of <b>dwFileFlags</b> 
       member of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> 
       structure passed in the <i>pCreateExParams</i> parameter. Appropriate security checks still 
       apply when this flag is used without <b>SE_BACKUP_NAME</b> and 
       <b>SE_RESTORE_NAME</b> privileges.
@@ -740,7 +740,7 @@ You should specify <b>OPEN_EXISTING</b> when using
  
 
 Set the members of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> 
       structure passed in the <i>pCreateExParams</i> parameter as follows.
 
 <table>

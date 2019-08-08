@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 44cbe4de-a9cc-48b2-ad04-9acd42fac07c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_KEYGEN_REQUEST_INFO, CERT_KEYGEN_REQUEST_INFO, CERT_KEYGEN_REQUEST_INFO structure [Security], PCERT_KEYGEN_REQUEST_INFO, PCERT_KEYGEN_REQUEST_INFO structure pointer [Security], _crypto2_cert_keygen_request_info, security.cert_keygen_request_info, wincrypt/CERT_KEYGEN_REQUEST_INFO, wincrypt/PCERT_KEYGEN_REQUEST_INFO"
+ms.keywords: '*PCERT_KEYGEN_REQUEST_INFO, CERT_KEYGEN_REQUEST_INFO, CERT_KEYGEN_REQUEST_INFO structure [Security], PCERT_KEYGEN_REQUEST_INFO, PCERT_KEYGEN_REQUEST_INFO structure pointer [Security], _crypto2_cert_keygen_request_info, security.cert_keygen_request_info, wincrypt/CERT_KEYGEN_REQUEST_INFO, wincrypt/PCERT_KEYGEN_REQUEST_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_KEYGEN_REQUEST_INFO"
+f1_keywords:
+- wincrypt/CERT_KEYGEN_REQUEST_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_KEYGEN_REQUEST_INFO
+- CERT_KEYGEN_REQUEST_INFO
 product: Windows
 targetos: Windows
 req.typenames: CERT_KEYGEN_REQUEST_INFO, *PCERT_KEYGEN_REQUEST_INFO
@@ -66,7 +66,7 @@ The version number of the certificate. <b>CERT_KEYGEN_REQUEST_V1</b> (0) is the 
 
 ### -field SubjectPublicKeyInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key algorithm</a>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key algorithm</a>.
 
 
 ### -field pwszChallengeString
@@ -79,7 +79,7 @@ A random printable string. This string is used by the server to ensure that the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_request_info">CERT_REQUEST_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_request_info">CERT_REQUEST_INFO</a>
  
 
  

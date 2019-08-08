@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: ce4af25d-6c31-43a2-a30a-1d28b18e8f8b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPRSVP_FILTERSPEC, *LPRSVP_FILTERSPEC structure [QOS], RSVP_FILTERSPEC, RSVP_FILTERSPEC structure [QOS], qos.rsvp_filterspec, qossp/*LPRSVP_FILTERSPEC, qossp/RSVP_FILTERSPEC"
+ms.keywords: '*LPRSVP_FILTERSPEC, *LPRSVP_FILTERSPEC structure [QOS], RSVP_FILTERSPEC, RSVP_FILTERSPEC structure [QOS], qos.rsvp_filterspec, qossp/*LPRSVP_FILTERSPEC, qossp/RSVP_FILTERSPEC'
 ms.topic: struct
-f1_keywords: 
- - "qossp/RSVP_FILTERSPEC"
+f1_keywords:
+- qossp/RSVP_FILTERSPEC
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qossp.h
+- Qossp.h
 api_name:
- - RSVP_FILTERSPEC
+- RSVP_FILTERSPEC
 product: Windows
 targetos: Windows
 req.typenames: RSVP_FILTERSPEC, *LPRSVP_FILTERSPEC
@@ -66,27 +66,27 @@ Specifies the type of FILTERSPEC using the <b>FilterSpec</b> enumeration.
 
 ### -field FilterSpecV4
 
-IPv4 FILTERSPEC information, provided in the form of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v4">RSVP_FILTERSPEC_V4</a> structure.
+IPv4 FILTERSPEC information, provided in the form of a <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v4">RSVP_FILTERSPEC_V4</a> structure.
 
 
 ### -field FilterSpecV6
 
-IPv6 FILTERSPEC information, provided in the form of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v6">RSVP_FILTERSPEC_V6</a> structure.
+IPv6 FILTERSPEC information, provided in the form of a <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v6">RSVP_FILTERSPEC_V6</a> structure.
 
 
 ### -field FilterSpecV6Flow
 
-IPv6 FILTERSPEC flow information, provided in the form of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v6_flow">RSVP_FILTERSPEC_V6_FLOW</a> structure.
+IPv6 FILTERSPEC flow information, provided in the form of a <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v6_flow">RSVP_FILTERSPEC_V6_FLOW</a> structure.
 
 
 ### -field FilterSpecV4Gpi
 
-IPv4 FILTERSPEC general port ID information, provided in the form of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v4_gpi">RSVP_FILTERSPEC_V4_GPI</a> structure.
+IPv4 FILTERSPEC general port ID information, provided in the form of a <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v4_gpi">RSVP_FILTERSPEC_V4_GPI</a> structure.
 
 
 ### -field FilterSpecV6Gpi
 
-IPv6 FILTERSPEC general port ID information, provided in the form of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v6_gpi">RSVP_FILTERSPEC_V6_GPI</a> structure.
+IPv6 FILTERSPEC general port ID information, provided in the form of a <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v6_gpi">RSVP_FILTERSPEC_V6_GPI</a> structure.
 
 
 ## -see-also
@@ -94,23 +94,23 @@ IPv6 FILTERSPEC general port ID information, provided in the form of a <a href="
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v4">RSVP_FILTERSPEC_V4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v4">RSVP_FILTERSPEC_V4</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v4_gpi">RSVP_FILTERSPEC_V4_GPI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v4_gpi">RSVP_FILTERSPEC_V4_GPI</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v6">RSVP_FILTERSPEC_V6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v6">RSVP_FILTERSPEC_V6</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v6_flow">RSVP_FILTERSPEC_V6_FLOW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v6_flow">RSVP_FILTERSPEC_V6_FLOW</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v6_gpi">RSVP_FILTERSPEC_V6_GPI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v6_gpi">RSVP_FILTERSPEC_V6_GPI</a>
  
 
  

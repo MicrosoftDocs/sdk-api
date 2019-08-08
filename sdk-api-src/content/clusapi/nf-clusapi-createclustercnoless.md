@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateClusterCNOless, CreateClusterCNOless function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_CNOLESS, PCLUSAPI_CREATE_CLUSTER_CNOLESS function [Failover Cluster], clusapi/CreateClusterCNOless, clusapi/PCLUSAPI_CREATE_CLUSTER_CNOLESS, mscs.createclustercnoless
 ms.topic: function
-f1_keywords: 
- - "clusapi/CreateClusterCNOless"
+f1_keywords:
+- clusapi/CreateClusterCNOless
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - CreateClusterCNOless
+- CreateClusterCNOless
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Creates a cluster without <a href="https://docs.microsoft.com/previous-versions/
 
 ### -param pConfig [in]
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_create_cluster_config">CREATE_CLUSTER_CONFIG</a> structure that contains the cluster configuration.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-create_cluster_config">CREATE_CLUSTER_CONFIG</a> structure that contains the cluster configuration.
 
 
 ### -param pfnProgressCallback [in, optional]

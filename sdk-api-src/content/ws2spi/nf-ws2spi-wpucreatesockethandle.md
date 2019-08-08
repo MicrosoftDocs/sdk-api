@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WPUCreateSocketHandle, WPUCreateSocketHandle function [Winsock], _win32_wpucreatesockethandle_2, winsock.wpucreatesockethandle_2, ws2spi/WPUCreateSocketHandle
 ms.topic: function
-f1_keywords: 
- - "ws2spi/WPUCreateSocketHandle"
+f1_keywords:
+- ws2spi/WPUCreateSocketHandle
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ws2spi.h
+- Ws2spi.h
 api_name:
- - WPUCreateSocketHandle
+- WPUCreateSocketHandle
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -125,7 +125,7 @@ The
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v=vs.85)">WSPRecv</a> or 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a>. On return, these transitions are retraced in reverse. This can be a significant performance penalty. Any service provider that uses 
 <b>WPUCreateSocketHandle</b> to create its socket handles should not set XP1_IFS_HANDLES in its 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. Clients should take the absence of XP1_IFS_HANDLES as guidance to avoid the use of <b>ReadFile</b> and <b>WriteFile</b>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. Clients should take the absence of XP1_IFS_HANDLES as guidance to avoid the use of <b>ReadFile</b> and <b>WriteFile</b>.</div>
 <div> </div>
 <div class="alert"><b>Note</b>  There is no exceptional performance penalty for using the completion port mechanism with socket handles created with 
 <b>WPUCreateSocketHandle</b>. A service provider should use 

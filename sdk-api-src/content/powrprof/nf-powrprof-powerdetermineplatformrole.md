@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PowerDeterminePlatformRole, PowerDeterminePlatformRole function, base.powerdetermineplatformrole, powrprof/PowerDeterminePlatformRole
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerDeterminePlatformRole"
+f1_keywords:
+- powrprof/PowerDeterminePlatformRole
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - PowerDeterminePlatformRole
+- PowerDeterminePlatformRole
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ To query additional power platform roles defined after Windows 7 and Windows Se
 
 
 The return value is one of the values from the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_power_platform_role">POWER_PLATFORM_ROLE</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a> enumeration.
 
 
 
@@ -91,7 +91,7 @@ This function reads the ACPI Fixed ACPI Description Table (FADT) to determine th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_power_platform_role">POWER_PLATFORM_ROLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: aebe20d5-280f-45d3-a11d-279a08a1a165
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE structure [Security], PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE structure pointer [Security], authz/AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, authz/PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, security.authz_security_attribute_octet_string_value"
+ms.keywords: '*PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE structure [Security], PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE structure pointer [Security], authz/AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, authz/PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, security.authz_security_attribute_octet_string_value'
 ms.topic: struct
-f1_keywords: 
- - "authz/AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE"
+f1_keywords:
+- authz/AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Authz.h
+- Authz.h
 api_name:
- - AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE
+- AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE
 product: Windows
 targetos: Windows
 req.typenames: AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, *PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE
@@ -74,11 +74,11 @@ The length, in bytes, of the <b>pValue</b> member.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_security_attribute_v1">AUTHZ_SECURITY_ATTRIBUTE_V1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_security_attribute_v1">AUTHZ_SECURITY_ATTRIBUTE_V1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_security_attributes_information">AUTHZ_SECURITY_ATTRUBUTES_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_security_attributes_information">AUTHZ_SECURITY_ATTRUBUTES_INFORMATION</a>
 
 
 

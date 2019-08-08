@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLDepositOfflineConfirmationIdEx, SLDepositOfflineConfirmationIdEx function [Security], security.sldepositofflineconfirmationidex, slpublic/SLDepositOfflineConfirmationIdEx
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLDepositOfflineConfirmationIdEx"
+f1_keywords:
+- slpublic/SLDepositOfflineConfirmationIdEx
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLDepositOfflineConfirmationIdEx
+- SLDepositOfflineConfirmationIdEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ A pointer to the product ID.
 
 ### -param pActivationInfo [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-_tagsl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-sl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a>*</b>
 
 A pointer to additional information.
 

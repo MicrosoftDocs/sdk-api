@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FCT_ADDTOEND, FCT_CONFIGABLE, FCT_MERGE, IShellBrowser interface [Windows Shell],SetToolbarItems method, IShellBrowser.SetToolbarItems, IShellBrowser::SetToolbarItems, SetToolbarItems, SetToolbarItems method [Windows Shell], SetToolbarItems method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_SetToolbarItems, shell.IShellBrowser_SetToolbarItems, shobjidl_core/IShellBrowser::SetToolbarItems
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellBrowser.SetToolbarItems"
+f1_keywords:
+- shobjidl_core/IShellBrowser.SetToolbarItems
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellBrowser.SetToolbarItems
+- IShellBrowser.SetToolbarItems
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,14 +65,14 @@ Adds toolbar items to Windows Explorer's toolbar.
 
 Type: <b>LPTBBUTTONSB</b>
 
-The address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_tbbutton">TBBUTTON</a> structures.
+The address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tbbutton">TBBUTTON</a> structures.
 
 
 ### -param nButtons
 
 Type: <b>UINT</b>
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_tbbutton">TBBUTTON</a> structures in the <i>lpButtons</i> array.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tbbutton">TBBUTTON</a> structures in the <i>lpButtons</i> array.
 
 
 ### -param uFlags

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Begin, Begin method [Windows Shell], Begin method [Windows Shell],IActionProgress interface, IActionProgress interface [Windows Shell],Begin method, IActionProgress.Begin, IActionProgress::Begin, shell.IActionProgress_Begin, shell_IActionProgress_Begin, shobjidl_core/IActionProgress::Begin
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IActionProgress.Begin"
+f1_keywords:
+- shobjidl_core/IActionProgress.Begin
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shobjidl.idl
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.idl
+- Shobjidl.idl
 api_name:
- - IActionProgress.Begin
+- IActionProgress.Begin
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ Called when an action has begun that requires its progress be displayed to the u
 
 ### -param action [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_spaction">SPACTION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-spaction">SPACTION</a></b>
 
-The action being performed. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_spaction">SPACTION</a> for a list of acceptable values.
+The action being performed. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-spaction">SPACTION</a> for a list of acceptable values.
 
 
 ### -param flags [in]
@@ -107,7 +107,7 @@ This method should be called when an action is beginning. The values of <i>actio
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_spaction">SPACTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-spaction">SPACTION</a>
 
 
 

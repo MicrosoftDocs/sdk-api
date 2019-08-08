@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7fbc4a35-117c-4f0c-9e9b-ff44e30a1618, MFVIDEOFORMAT, MFVIDEOFORMAT structure [Media Foundation], mf.mfvideoformat, mfobjects/MFVIDEOFORMAT
 ms.topic: struct
-f1_keywords: 
- - "mfobjects/MFVIDEOFORMAT"
+f1_keywords:
+- mfobjects/MFVIDEOFORMAT
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - MFVIDEOFORMAT
+- MFVIDEOFORMAT
 product: Windows
 targetos: Windows
 req.typenames: MFVIDEOFORMAT
@@ -70,7 +70,7 @@ Size of the structure, in bytes. This value includes the size of the palette ent
 ### -field videoInfo
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoinfo">MFVideoInfo</a> structure. This structure contains information that applies to both compressed and uncompressed formats.
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoinfo">MFVideoInfo</a> structure. This structure contains information that applies to both compressed and uncompressed formats.
 
 
 ### -field guidFormat
@@ -81,13 +81,13 @@ Video subtype. See <a href="https://docs.microsoft.com/windows/desktop/medfound/
 ### -field compressedInfo
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideocompressedinfo">MFVideoCompressedInfo</a> structure. This structure contains information that applies only to compressed formats.
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideocompressedinfo">MFVideoCompressedInfo</a> structure. This structure contains information that applies only to compressed formats.
 
 
 ### -field surfaceInfo
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideosurfaceinfo">MFVideoSurfaceInfo</a> structure. This structure contains information that applies only to uncompressed formats.
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideosurfaceinfo">MFVideoSurfaceInfo</a> structure. This structure contains information that applies only to uncompressed formats.
 
 
 ## -remarks

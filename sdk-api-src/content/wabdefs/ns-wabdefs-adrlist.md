@@ -8,10 +8,10 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\adrlist.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPADRLIST, ADRLIST, ADRLIST structure [Windows Address Book], Gender, Gender structure [Windows Address Book], _wab_ADRLIST, wab._wab_ADRLIST, wabdefs/ADRLIST"
+ms.keywords: '*LPADRLIST, ADRLIST, ADRLIST structure [Windows Address Book], Gender, Gender structure [Windows Address Book], _wab_ADRLIST, wab._wab_ADRLIST, wabdefs/ADRLIST'
 ms.topic: struct
-f1_keywords: 
- - "wabdefs/Gender"
+f1_keywords:
+- wabdefs/Gender
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wabdefs.h
+- Wabdefs.h
 api_name:
- - Gender
+- Gender
 product: Windows
 targetos: Windows
 req.typenames: ADRLIST, *LPADRLIST
@@ -70,7 +70,7 @@ Variable of type <b>ULONG</b> that specifies the entry count in the array specif
 
 ### -field aEntries
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_adrentry">ADRENTRY</a>[MAPI_DIM]</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-adrentry">ADRENTRY</a>[MAPI_DIM]</b>
 
-Variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_adrentry">ADRENTRY</a> that specifies the array of <b>ADRENTRY</b> structures, one structure for each recipient.
+Variable of type <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-adrentry">ADRENTRY</a> that specifies the array of <b>ADRENTRY</b> structures, one structure for each recipient.
 

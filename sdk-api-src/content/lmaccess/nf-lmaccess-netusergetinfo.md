@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 10, 11, 2, 20, 23, 24, 3, 4, NetUserGetInfo, NetUserGetInfo function [Network Management], _win32_netusergetinfo, lmaccess/NetUserGetInfo, netmgmt.netusergetinfo
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetUserGetInfo"
+f1_keywords:
+- lmaccess/NetUserGetInfo
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetUserGetInfo
+- NetUserGetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -86,7 +86,7 @@ The information level of the data. This parameter can be one of the following va
 </td>
 <td width="60%">
 Return the user account name. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_0">USER_INFO_0</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_0">USER_INFO_0</a> structure.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Return the user account name. The <i>bufptr</i> parameter points to a
 </td>
 <td width="60%">
 Return detailed information about the user account. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1">USER_INFO_1</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_1">USER_INFO_1</a> structure.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Return detailed information about the user account. The <i>bufptr</i> parameter 
 </td>
 <td width="60%">
 Return detailed information and additional attributes about the user account. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_2">USER_INFO_2</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_2">USER_INFO_2</a> structure.
 
 </td>
 </tr>
@@ -119,8 +119,8 @@ Return detailed information and additional attributes about the user account. Th
 </td>
 <td width="60%">
 Return detailed information and additional attributes about the user account. This level is valid only on servers. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_3">USER_INFO_3</a> structure. Note that  it is recommended that you use 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_4">USER_INFO_4</a> instead.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_3">USER_INFO_3</a> structure. Note that  it is recommended that you use 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a> instead.
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ Return detailed information and additional attributes about the user account. Th
 </td>
 <td width="60%">
 Return detailed information and additional attributes about the user account. This level is valid only on servers. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_4">USER_INFO_4</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a> structure.
 
 <div class="alert"><b>Note</b>  This level is supported on  Windows XP and later.</div>
 <div> </div>
@@ -144,7 +144,7 @@ Return detailed information and additional attributes about the user account. Th
 </td>
 <td width="60%">
 Return user and account names and comments. The <i>bufptr</i>  parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_10">USER_INFO_10</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_10">USER_INFO_10</a> structure.
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ Return user and account names and comments. The <i>bufptr</i>  parameter points 
 </td>
 <td width="60%">
 Return detailed information about the user account. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_11">USER_INFO_11</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_11">USER_INFO_11</a> structure.
 
 </td>
 </tr>
@@ -166,8 +166,8 @@ Return detailed information about the user account. The <i>bufptr</i> parameter 
 </td>
 <td width="60%">
 Return the user's name and identifier and various account attributes. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_20">USER_INFO_20</a> structure. Note that on Windows XP and later, it is recommended that you use 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_23">USER_INFO_23</a> instead.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_20">USER_INFO_20</a> structure. Note that on Windows XP and later, it is recommended that you use 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_23">USER_INFO_23</a> instead.
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ Return the user's name and identifier and various account attributes. The <i>buf
 </td>
 <td width="60%">
 Return the user's name and identifier and various account attributes. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_23">USER_INFO_23</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_23">USER_INFO_23</a> structure.
 
 <div class="alert"><b>Note</b>  This level is supported on  Windows XP and later.</div>
 <div> </div>
@@ -191,7 +191,7 @@ Return the user's name and identifier and various account attributes. The <i>buf
 </td>
 <td width="60%">
 Return user account information for accounts  which are connected to an Internet identity. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_24">USER_INFO_24</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_24">USER_INFO_24</a> structure.
 
 <div class="alert"><b>Note</b>  The level is supported on Windows 8 and Windows Server 2012.</div>
 <div> </div>
@@ -635,35 +635,35 @@ int wmain(int argc, wchar_t * argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_0">USER_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_0">USER_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_1">USER_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_1">USER_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_10">USER_INFO_10</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_10">USER_INFO_10</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_11">USER_INFO_11</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_11">USER_INFO_11</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_2">USER_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_2">USER_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_23">USER_INFO_23</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_23">USER_INFO_23</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_24">USER_INFO_24</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_24">USER_INFO_24</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_info_4">USER_INFO_4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a>
 
 
 

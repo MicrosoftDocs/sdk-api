@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HTUI_DeviceColorAdjustment, HTUI_DeviceColorAdjustment function [Display Devices], display.htui_devicecoloradjustment, gdifncs_4f705094-588c-47ce-ac45-f0d2744ce5d2.xml, winddi/HTUI_DeviceColorAdjustment
 ms.topic: function
-f1_keywords: 
- - "winddi/HTUI_DeviceColorAdjustment"
+f1_keywords:
+- winddi/HTUI_DeviceColorAdjustment
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - HTUI_DeviceColorAdjustment
+- HTUI_DeviceColorAdjustment
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Caller-supplied pointer to a NULL-terminated string representing a displayable d
 
 ### -param pDevHTAdjData [in]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_devhtadjdata">DEVHTADJDATA</a> structure.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devhtadjdata">DEVHTADJDATA</a> structure.
 
 
 ## -returns
@@ -123,7 +123,7 @@ An error occurred.
 
 
 
-A graphics driver interface, such as a printer interface DLL, can call the <b>HTUI_DeviceColorAdjustment</b> function to display a dialog box that allows a user to view and modify the device's halftoning properties. Depending on member values specified for the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_devhtadjdata">DEVHTADJDATA</a> structure, the function will either enable the dialog box for user modification or just display caller-specified default values. If user modification is allowed, the function returns the modified parameters to the caller (using the DEVHTAJDATA structure), so the driver can pass them to the device.
+A graphics driver interface, such as a printer interface DLL, can call the <b>HTUI_DeviceColorAdjustment</b> function to display a dialog box that allows a user to view and modify the device's halftoning properties. Depending on member values specified for the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devhtadjdata">DEVHTADJDATA</a> structure, the function will either enable the dialog box for user modification or just display caller-specified default values. If user modification is allowed, the function returns the modified parameters to the caller (using the DEVHTAJDATA structure), so the driver can pass them to the device.
 
 
 
@@ -133,7 +133,7 @@ A graphics driver interface, such as a printer interface DLL, can call the <b>HT
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_devhtadjdata">DEVHTADJDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devhtadjdata">DEVHTADJDATA</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: shell
 ms.assetid: 4690daa1-f935-4d0c-8b1f-0b9442fc78dc
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSMDATA, SMDATA, SMDATA structure [Windows Shell], _win32_SMDATA, lPSMDATA, lPSMDATA structure pointer [Windows Shell], shell.SMDATA, shobjidl_core/SMDATA, shobjidl_core/lPSMDATA, tagSMDATA"
+ms.keywords: '*LPSMDATA, SMDATA, SMDATA structure [Windows Shell], _win32_SMDATA, lPSMDATA, lPSMDATA structure pointer [Windows Shell], shell.SMDATA, shobjidl_core/SMDATA, shobjidl_core/lPSMDATA, tagSMDATA'
 ms.topic: struct
-f1_keywords: 
- - "shobjidl_core/SMDATA"
+f1_keywords:
+- shobjidl_core/SMDATA
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - SMDATA
+- SMDATA
 product: Windows
 targetos: Windows
 req.typenames: SMDATA, *LPSMDATA
@@ -115,14 +115,14 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/
 
 Type: <b>PIDLIST_ABSOLUTE</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> of the shell folder portion of the menu.
+The <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> of the shell folder portion of the menu.
 
 
 ### -field pidlItem
 
 Type: <b>PUITEMID_CHILD</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> of the selected item in the shell folder portion of the menu.
+The <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> of the selected item in the shell folder portion of the menu.
 
 
 ### -field psf

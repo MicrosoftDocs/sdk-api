@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: f949c8e5-055d-4919-abcc-441880ccce56
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_KEY_USAGE_RESTRICTION_INFO, CERT_KEY_USAGE_RESTRICTION_INFO, CERT_KEY_USAGE_RESTRICTION_INFO structure [Security], PCERT_KEY_USAGE_RESTRICTION_INFO, PCERT_KEY_USAGE_RESTRICTION_INFO structure pointer [Security], _crypto2_cert_key_usage_restriction_info, security.cert_key_usage_restriction_info, wincrypt/CERT_KEY_USAGE_RESTRICTION_INFO, wincrypt/PCERT_KEY_USAGE_RESTRICTION_INFO"
+ms.keywords: '*PCERT_KEY_USAGE_RESTRICTION_INFO, CERT_KEY_USAGE_RESTRICTION_INFO, CERT_KEY_USAGE_RESTRICTION_INFO structure [Security], PCERT_KEY_USAGE_RESTRICTION_INFO, PCERT_KEY_USAGE_RESTRICTION_INFO structure pointer [Security], _crypto2_cert_key_usage_restriction_info, security.cert_key_usage_restriction_info, wincrypt/CERT_KEY_USAGE_RESTRICTION_INFO, wincrypt/PCERT_KEY_USAGE_RESTRICTION_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_KEY_USAGE_RESTRICTION_INFO"
+f1_keywords:
+- wincrypt/CERT_KEY_USAGE_RESTRICTION_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_KEY_USAGE_RESTRICTION_INFO
+- CERT_KEY_USAGE_RESTRICTION_INFO
 product: Windows
 targetos: Windows
 req.typenames: CERT_KEY_USAGE_RESTRICTION_INFO, *PCERT_KEY_USAGE_RESTRICTION_INFO
@@ -55,9 +55,9 @@ The <b>CERT_KEY_USAGE_RESTRICTION_INFO</b> structure contains restrictions impos
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> creates an instance of this structure when performed on a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a> structure's <b>Value</b> member with its structure's <b>pszObjId</b> member set to szOID_KEY_USAGE_RESTRICTION.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structure's <b>Value</b> member with its structure's <b>pszObjId</b> member set to szOID_KEY_USAGE_RESTRICTION.
 
-An instance of this structure can be used as input to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function to create an appropriate <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a>.
+An instance of this structure can be used as input to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function to create an appropriate <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>.
 
 
 ## -struct-fields
@@ -73,13 +73,13 @@ The number of elements in the <b>rgCertPolicyId</b> array.
 ### -field rgCertPolicyId
 
 An array of pointers to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_policy_id">CERT_POLICY_ID</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_policy_id">CERT_POLICY_ID</a> structures.
 
 
 ### -field RestrictedKeyUsage
 
 A 
-						<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_bit_blob">CRYPT_BIT_BLOB</a> value that includes, as its <b>pbData</b>, a byte that indicates the purposes for which the key can be used. 
+						<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_bit_blob">CRYPT_BIT_BLOB</a> value that includes, as its <b>pbData</b>, a byte that indicates the purposes for which the key can be used. 
 
 
 
@@ -103,15 +103,15 @@ The following are currently defined values for the <b>pbData</b> member of <b>Re
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_policy_id">CERT_POLICY_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_policy_id">CERT_POLICY_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_bit_blob">CRYPT_BIT_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_bit_blob">CRYPT_BIT_BLOB</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFTASKDIALOGCALLBACK, PFTASKDIALOGCALLBACK callback, PFTASKDIALOGCALLBACK callback function [Windows Controls], _shell_TaskDialogCallbackProc, _shell_TaskDialogCallbackProc_cpp, commctrl/PFTASKDIALOGCALLBACK, controls.TaskDialogCallbackProc, controls._shell_TaskDialogCallbackProc
 ms.topic: callback
-f1_keywords: 
- - "commctrl/PFTASKDIALOGCALLBACK"
+f1_keywords:
+- commctrl/PFTASKDIALOGCALLBACK
 req.header: commctrl.h
 req.include-header: Commctrl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - PFTASKDIALOGCALLBACK
+- PFTASKDIALOGCALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -99,7 +99,7 @@ Specifies additional notification information.  The contents of this parameter d
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG_PTR</a></b>
 
-Pointer to application specific data. This is the data pointed to by the <b>lpCallbackData</b> member of structure <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_taskdialogconfig">TASKDIALOGCONFIG</a> used to create the task dialog.
+Pointer to application specific data. This is the data pointed to by the <b>lpCallbackData</b> member of structure <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a> used to create the task dialog.
 
 
 #### - uNotification [in]
@@ -199,7 +199,7 @@ The return value is specific to the notification being processed. When respondin
 
 
 
-An application must register this callback function by passing its address in the <b>pfCallback</b> member of  the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_taskdialogconfig">TASKDIALOGCONFIG</a> structure that is passed via pointer through <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-taskdialogindirect">TaskDialogIndirect</a>.
+An application must register this callback function by passing its address in the <b>pfCallback</b> member of  the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a> structure that is passed via pointer through <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-taskdialogindirect">TaskDialogIndirect</a>.
 
 
 

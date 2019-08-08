@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 24daa3d1-1116-4b0b-a19b-a23075a69197
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PKERB_TICKET_UNLOCK_LOGON, KERB_TICKET_UNLOCK_LOGON, KERB_TICKET_UNLOCK_LOGON structure [Security], PKERB_TICKET_UNLOCK_LOGON, PKERB_TICKET_UNLOCK_LOGON structure pointer [Security], _lsa_kerb_ticket_unlock_logon, ntsecapi/KERB_TICKET_UNLOCK_LOGON, ntsecapi/PKERB_TICKET_UNLOCK_LOGON, security.kerb_ticket_unlock_logon"
+ms.keywords: '*PKERB_TICKET_UNLOCK_LOGON, KERB_TICKET_UNLOCK_LOGON, KERB_TICKET_UNLOCK_LOGON structure [Security], PKERB_TICKET_UNLOCK_LOGON, PKERB_TICKET_UNLOCK_LOGON structure pointer [Security], _lsa_kerb_ticket_unlock_logon, ntsecapi/KERB_TICKET_UNLOCK_LOGON, ntsecapi/PKERB_TICKET_UNLOCK_LOGON, security.kerb_ticket_unlock_logon'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/KERB_TICKET_UNLOCK_LOGON"
+f1_keywords:
+- ntsecapi/KERB_TICKET_UNLOCK_LOGON
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - KERB_TICKET_UNLOCK_LOGON
+- KERB_TICKET_UNLOCK_LOGON
 product: Windows
 targetos: Windows
 req.typenames: KERB_TICKET_UNLOCK_LOGON, *PKERB_TICKET_UNLOCK_LOGON
@@ -65,12 +65,12 @@ It is used by
 ### -field Logon
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_ticket_logon">KERB_TICKET_LOGON</a> structure. All members of the structure must be the same as the structure used in the original logon except the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_kerb_logon_submit_type">KERB_LOGON_SUBMIT_TYPE</a> member, which must be set to <b>KerbTicketUnlockLogon</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_ticket_logon">KERB_TICKET_LOGON</a> structure. All members of the structure must be the same as the structure used in the original logon except the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_logon_submit_type">KERB_LOGON_SUBMIT_TYPE</a> member, which must be set to <b>KerbTicketUnlockLogon</b>.
 
 
 ### -field LogonId
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> structure containing the logon identifier of the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>. This ID was previously returned from the initial logon by 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure containing the logon identifier of the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>. This ID was previously returned from the initial logon by 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>.
 

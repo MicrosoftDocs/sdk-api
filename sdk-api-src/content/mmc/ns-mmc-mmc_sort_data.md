@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_SORT_DATA, MMC_SORT_DATA structure [MMC], RSI_DESCENDING = 0x0001, RSI_NOSORTICON = 0x0002, _slate_mmc_sort_data, mmc.mmc_sort_data, mmc/MMC_SORT_DATA
 ms.topic: struct
-f1_keywords: 
- - "mmc/MMC_SORT_DATA"
+f1_keywords:
+- mmc/MMC_SORT_DATA
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - MMC_SORT_DATA
+- MMC_SORT_DATA
 product: Windows
 targetos: Windows
 req.typenames: MMC_SORT_DATA
@@ -56,7 +56,7 @@ MMC_SORT_DATA structure is introduced in MMC 1.2.
 
 The 
 MMC_SORT_DATA structure contains the column sort data of a single column in a column set. This data is persisted in memory by MMC. A pointer to an array of these structures is held in the pSortData member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_sort_set_data">MMC_SORT_SET_DATA</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_sort_set_data">MMC_SORT_SET_DATA</a> structure.
 
 
 ## -struct-fields
@@ -100,7 +100,7 @@ Reserved for future use.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_sort_set_data">MMC_SORT_SET_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_sort_set_data">MMC_SORT_SET_DATA</a>
 
 
 

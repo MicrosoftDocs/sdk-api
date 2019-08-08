@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportServerRegisterCallback, WdsTransportServerRegisterCallback function [Windows Deployment Services], wds.wdstransportserverregistercallback, wdstpdi/WdsTransportServerRegisterCallback
 ms.topic: function
-f1_keywords: 
- - "wdstpdi/WdsTransportServerRegisterCallback"
+f1_keywords:
+- wdstpdi/WdsTransportServerRegisterCallback
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wdsmc.lib
 req.dll: Wdsmc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wdsmc.dll
+- Wdsmc.dll
 api_name:
- - WdsTransportServerRegisterCallback
+- WdsTransportServerRegisterCallback
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Handle to the provider. This handle was given to the provider in the <a href="ht
 
 ### -param CallbackId [in]
 
-The value of this parameter is a <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/ne-wdstpdi-_transportprovider_callback_id">TRANSPORTPROVIDER_CALLBACK_ID</a> structure.
+The value of this parameter is a <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/ne-wdstpdi-transportprovider_callback_id">TRANSPORTPROVIDER_CALLBACK_ID</a> structure.
 
 
 ### -param pfnCallback [in]

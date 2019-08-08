@@ -8,10 +8,10 @@ tech.root: WebSock
 ms.assetid: 05EC3940-4A17-4FBB-9446-15B511E18FF2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWEB_SOCKET_BUFFER, WEB_SOCKET_BUFFER, WEB_SOCKET_BUFFER union [Websocket Protocol Component API], websock.web_socket_buffer, websocket/WEB_SOCKET_BUFFER"
+ms.keywords: '*PWEB_SOCKET_BUFFER, WEB_SOCKET_BUFFER, WEB_SOCKET_BUFFER union [Websocket Protocol Component API], websock.web_socket_buffer, websocket/WEB_SOCKET_BUFFER'
 ms.topic: struct
-f1_keywords: 
- - "websocket/WEB_SOCKET_BUFFER"
+f1_keywords:
+- websocket/WEB_SOCKET_BUFFER
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Websocket.h
+- Websocket.h
 api_name:
- - WEB_SOCKET_BUFFER
+- WEB_SOCKET_BUFFER
 product: Windows
 targetos: Windows
 req.typenames: WEB_SOCKET_BUFFER, *PWEB_SOCKET_BUFFER
@@ -98,7 +98,7 @@ Length, in bytes, of the buffer pointed to by <b>pbReason</b>. It cannot exceed 
 <b>Type: <b>USHORT</b>
 </b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-_web_socket_close_status">WEB_SOCKET_CLOSE_STATUS</a> enumeration that specifies the WebSocket status.
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_close_status">WEB_SOCKET_CLOSE_STATUS</a> enumeration that specifies the WebSocket status.
 
 
 ## -remarks
@@ -115,7 +115,7 @@ Application must use the <b>Data</b> struct for all buffer types except <b>WEB_S
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-_web_socket_buffer_type">WEB_SOCKET_BUFFER_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_buffer_type">WEB_SOCKET_BUFFER_TYPE</a>
 
 
 

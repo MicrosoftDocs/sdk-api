@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DnsRecordSetCopyEx, DnsRecordSetCopyEx function [DNS], _dns_dnsrecordsetcopyex, dns.dnsrecordsetcopyex, windns/DnsRecordSetCopyEx
 ms.topic: function
-f1_keywords: 
- - "windns/DnsRecordSetCopyEx"
+f1_keywords:
+- windns/DnsRecordSetCopyEx
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dnsapi.dll
+- Dnsapi.dll
 api_name:
- - DnsRecordSetCopyEx
+- DnsRecordSetCopyEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,12 +68,12 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns
 
 ### -param CharSetIn [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-_dns_charset">DNS_CHARSET</a> value that specifies the character encoding of the source resource record set.
+A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-dns_charset">DNS_CHARSET</a> value that specifies the character encoding of the source resource record set.
 
 
 ### -param CharSetOut [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-_dns_charset">DNS_CHARSET</a> value that specifies the character encoding required of the destination record set.
+A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-dns_charset">DNS_CHARSET</a> value that specifies the character encoding required of the destination record set.
 
 
 ## -returns

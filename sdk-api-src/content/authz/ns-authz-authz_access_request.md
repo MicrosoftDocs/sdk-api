@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: 3748075c-b31a-4669-b8a6-1a540449d8fa
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PAUTHZ_ACCESS_REQUEST, AUTHZ_ACCESS_REQUEST, AUTHZ_ACCESS_REQUEST structure [Security], PAUTHZ_ACCESS_REQUEST, PAUTHZ_ACCESS_REQUEST structure pointer [Security], _win32_authz_access_request, authz/AUTHZ_ACCESS_REQUEST, authz/PAUTHZ_ACCESS_REQUEST, security.authz_access_request"
+ms.keywords: '*PAUTHZ_ACCESS_REQUEST, AUTHZ_ACCESS_REQUEST, AUTHZ_ACCESS_REQUEST structure [Security], PAUTHZ_ACCESS_REQUEST, PAUTHZ_ACCESS_REQUEST structure pointer [Security], _win32_authz_access_request, authz/AUTHZ_ACCESS_REQUEST, authz/PAUTHZ_ACCESS_REQUEST, security.authz_access_request'
 ms.topic: struct
-f1_keywords: 
- - "authz/AUTHZ_ACCESS_REQUEST"
+f1_keywords:
+- authz/AUTHZ_ACCESS_REQUEST
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Authz.h
+- Authz.h
 api_name:
- - AUTHZ_ACCESS_REQUEST
+- AUTHZ_ACCESS_REQUEST
 product: Windows
 targetos: Windows
 req.typenames: AUTHZ_ACCESS_REQUEST, *PAUTHZ_ACCESS_REQUEST
@@ -71,7 +71,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security
 
 ### -field ObjectTypeList
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_object_type_list">OBJECT_TYPE_LIST</a> structures in the object tree for the object. Set to <b>NULL</b> unless the application checks access at the property level.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-object_type_list">OBJECT_TYPE_LIST</a> structures in the object tree for the object. Set to <b>NULL</b> unless the application checks access at the property level.
 
 
 ### -field ObjectTypeListLength

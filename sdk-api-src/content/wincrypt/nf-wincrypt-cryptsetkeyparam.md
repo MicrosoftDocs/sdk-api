@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptSetKeyParam, CryptSetKeyParam function [Security], KP_ALGID, KP_CERTIFICATE, KP_CMS_DH_KEY_INFO, KP_EFFECTIVE_KEYLEN, KP_G, KP_HIGHEST_VERSION, KP_IV, KP_KEYVAL, KP_MODE, KP_MODE_BITS, KP_OAEP_PARAMS, KP_P, KP_PADDING, KP_PERMISSIONS, KP_PUB_PARAMS, KP_Q, KP_SALT, KP_SALT_EX, KP_X, _crypto2_cryptsetkeyparam, security.cryptsetkeyparam, wincrypt/CryptSetKeyParam
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptSetKeyParam"
+f1_keywords:
+- wincrypt/CryptSetKeyParam
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptSetKeyParam
+- CryptSetKeyParam
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -216,7 +216,7 @@ If a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Diffie-
 </dl>
 </td>
 <td width="60%">
-Sets the information for an imported <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Diffie-Hellman</a> key. The <i>pbData</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cms_dh_key_info">CMS_DH_KEY_INFO</a> structure that contains the key information to be set.
+Sets the information for an imported <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Diffie-Hellman</a> key. The <i>pbData</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cms_dh_key_info">CMS_DH_KEY_INFO</a> structure that contains the key information to be set.
 
 </td>
 </tr>

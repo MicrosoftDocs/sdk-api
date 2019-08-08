@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGFI_ADDOVERLAYS, SHGFI_ATTRIBUTES, SHGFI_ATTR_SPECIFIED, SHGFI_DISPLAYNAME, SHGFI_EXETYPE, SHGFI_ICON, SHGFI_ICONLOCATION, SHGFI_LARGEICON, SHGFI_LINKOVERLAY, SHGFI_OPENICON, SHGFI_OVERLAYINDEX, SHGFI_PIDL, SHGFI_SELECTED, SHGFI_SHELLICONSIZE, SHGFI_SMALLICON, SHGFI_SYSICONINDEX, SHGFI_TYPENAME, SHGFI_USEFILEATTRIBUTES, SHGetFileInfo, SHGetFileInfo function [Windows Shell], SHGetFileInfoA, SHGetFileInfoW, _win32_SHGetFileInfo, shell.SHGetFileInfo, shellapi/SHGetFileInfo, shellapi/SHGetFileInfoA, shellapi/SHGetFileInfoW
 ms.topic: function
-f1_keywords: 
- - "shellapi/SHGetFileInfo"
+f1_keywords:
+- shellapi/SHGetFileInfo
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,21 +30,21 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - API-MS-Win-shell-shellfolders-l1-1-0.dll
- - KernelBase.dll
- - Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
- - Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
- - Windows.Storage.dll
+- Shell32.dll
+- API-MS-Win-shell-shellfolders-l1-1-0.dll
+- KernelBase.dll
+- Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
+- Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
+- Windows.Storage.dll
 api_name:
- - SHGetFileInfo
- - SHGetFileInfoA
- - SHGetFileInfoW
+- SHGetFileInfo
+- SHGetFileInfoA
+- SHGetFileInfoW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ A pointer to a <b>null</b>-terminated string of maximum length MAX_PATH that con
     
     					
 
-If the <i>uFlags</i> parameter includes the <b>SHGFI_PIDL</b> flag, this parameter must be the address of an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> (PIDL) structure that contains the list of item identifiers that uniquely identifies the file within the Shell's namespace. The PIDL must be a fully qualified PIDL. Relative PIDLs are not allowed.
+If the <i>uFlags</i> parameter includes the <b>SHGFI_PIDL</b> flag, this parameter must be the address of an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> (PIDL) structure that contains the list of item identifiers that uniquely identifies the file within the Shell's namespace. The PIDL must be a fully qualified PIDL. Relative PIDLs are not allowed.
 
 If the <i>uFlags</i> parameter includes the <b>SHGFI_USEFILEATTRIBUTES</b> flag, this parameter does not have to be a valid file name. The function will proceed as if the file exists with the specified name and with the file attributes passed in the <i>dwFileAttributes</i> parameter. This allows you to obtain information about a file type by passing just the extension for <i>pszPath</i> and passing <b>FILE_ATTRIBUTE_NORMAL</b> in <i>dwFileAttributes</i>.
 
@@ -90,16 +90,16 @@ A combination of one or more <a href="https://docs.microsoft.com/windows/desktop
 
 ### -param psfi [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileinfoa">SHFILEINFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileinfoa">SHFILEINFO</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileinfoa">SHFILEINFO</a> structure to receive the file information.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileinfoa">SHFILEINFO</a> structure to receive the file information.
 
 
 ### -param cbFileInfo
 
 Type: <b>UINT</b>
 
-The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileinfoa">SHFILEINFO</a> structure pointed to by the <i>psfi</i> parameter.
+The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileinfoa">SHFILEINFO</a> structure pointed to by the <i>psfi</i> parameter.
 
 
 ### -param uFlags
@@ -119,7 +119,7 @@ The flags that specify the file information to retrieve. This parameter can be a
 
 #### SHGFI_ATTR_SPECIFIED (0x000020000)
 
-Modify <b>SHGFI_ATTRIBUTES</b> to indicate that the <b>dwAttributes</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileinfoa">SHFILEINFO</a> structure at <i>psfi</i> contains the specific attributes that are desired. These attributes are passed to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a>. If this flag is not specified, 0xFFFFFFFF is passed to <b>IShellFolder::GetAttributesOf</b>, requesting all attributes. This flag cannot be specified with the <b>SHGFI_ICON</b> flag.
+Modify <b>SHGFI_ATTRIBUTES</b> to indicate that the <b>dwAttributes</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileinfoa">SHFILEINFO</a> structure at <i>psfi</i> contains the specific attributes that are desired. These attributes are passed to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a>. If this flag is not specified, 0xFFFFFFFF is passed to <b>IShellFolder::GetAttributesOf</b>, requesting all attributes. This flag cannot be specified with the <b>SHGFI_ICON</b> flag.
 
 
 
@@ -180,7 +180,7 @@ Modify <b>SHGFI_ICON</b>, causing the function to retrieve the file's open icon.
 
 #### SHGFI_PIDL (0x000000008)
 
-Indicate that <i>pszPath</i> is the address of an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure rather than a path name.
+Indicate that <i>pszPath</i> is the address of an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure rather than a path name.
 
 
 
@@ -232,7 +232,7 @@ Retrieve the item attributes. The attributes are copied to the <b>dwAttributes</
 
 ##### - uFlags.SHGFI_ATTR_SPECIFIED (0x000020000)
 
-Modify <b>SHGFI_ATTRIBUTES</b> to indicate that the <b>dwAttributes</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileinfoa">SHFILEINFO</a> structure at <i>psfi</i> contains the specific attributes that are desired. These attributes are passed to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a>. If this flag is not specified, 0xFFFFFFFF is passed to <b>IShellFolder::GetAttributesOf</b>, requesting all attributes. This flag cannot be specified with the <b>SHGFI_ICON</b> flag.
+Modify <b>SHGFI_ATTRIBUTES</b> to indicate that the <b>dwAttributes</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileinfoa">SHFILEINFO</a> structure at <i>psfi</i> contains the specific attributes that are desired. These attributes are passed to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">IShellFolder::GetAttributesOf</a>. If this flag is not specified, 0xFFFFFFFF is passed to <b>IShellFolder::GetAttributesOf</b>, requesting all attributes. This flag cannot be specified with the <b>SHGFI_ICON</b> flag.
 
 
 ##### - uFlags.SHGFI_DISPLAYNAME (0x000000200)
@@ -278,7 +278,7 @@ Modify <b>SHGFI_ICON</b>, causing the function to retrieve the file's open icon.
 
 ##### - uFlags.SHGFI_PIDL (0x000000008)
 
-Indicate that <i>pszPath</i> is the address of an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure rather than a path name.
+Indicate that <i>pszPath</i> is the address of an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure rather than a path name.
 
 
 ##### - uFlags.SHGFI_SELECTED (0x000010000)
@@ -386,7 +386,7 @@ Console application or .bat file
 
 You should call this function from a background thread. Failure to do so could cause the UI to stop responding.
 
-If <b>SHGetFileInfo</b> returns an icon handle in the <b>hIcon</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileinfoa">SHFILEINFO</a> structure pointed to by <i>psfi</i>, you are responsible for freeing it with <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> when you no longer need it.
+If <b>SHGetFileInfo</b> returns an icon handle in the <b>hIcon</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileinfoa">SHFILEINFO</a> structure pointed to by <i>psfi</i>, you are responsible for freeing it with <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> when you no longer need it.
 
 <div class="alert"><b>Note</b>  Once you have a handle to a system image list, you can use the <a href="https://docs.microsoft.com/windows/desktop/Controls/image-lists">Image List API</a> to manipulate it like any other image list. Because system image lists are created on a per-process basis, you should treat them as read-only objects. Writing to a system image list may overwrite or delete one of the system images, making it unavailable or incorrect for the remainder of the process.</div>
 <div> </div>

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawThemeTextEx, DrawThemeTextEx function [Windows Controls], controls.DrawThemeTextEx, controls.inet_DrawThemeTextEx, inet_DrawThemeTextEx, inet_DrawThemeTextEx_cpp, uxtheme/DrawThemeTextEx
 ms.topic: function
-f1_keywords: 
- - "uxtheme/DrawThemeTextEx"
+f1_keywords:
+- uxtheme/DrawThemeTextEx
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
- - xamlpalwp.dll
+- UxTheme.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
+- xamlpalwp.dll
 api_name:
- - DrawThemeTextEx
+- DrawThemeTextEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -119,9 +119,9 @@ Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> struc
 
 ### -param pOptions [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-_dttopts">DTTOPTS</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-dttopts">DTTOPTS</a>*</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-_dttopts">DTTOPTS</a> structure that defines additional formatting options that will be applied to the text being drawn.
+A <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-dttopts">DTTOPTS</a> structure that defines additional formatting options that will be applied to the text being drawn.
 
 
 ## -returns

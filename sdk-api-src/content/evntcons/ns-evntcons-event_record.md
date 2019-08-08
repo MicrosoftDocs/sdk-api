@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: e352c1a7-39a2-43e3-a723-5fc6a3921ee8
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEVENT_RECORD, EVENT_RECORD, EVENT_RECORD structure [ETW], PCEVENT_RECORD, PEVENT_RECORD, PEVENT_RECORD structure pointer [ETW], _EVENT_RECORD, base.event_record, etw.event_record, relogger/EVENT_RECORD, relogger/PEVENT_RECORD"
+ms.keywords: '*PEVENT_RECORD, EVENT_RECORD, EVENT_RECORD structure [ETW], PCEVENT_RECORD, PEVENT_RECORD, PEVENT_RECORD structure pointer [ETW], _EVENT_RECORD, base.event_record, etw.event_record, relogger/EVENT_RECORD, relogger/PEVENT_RECORD'
 ms.topic: struct
-f1_keywords: 
- - "evntcons/EVENT_RECORD"
+f1_keywords:
+- evntcons/EVENT_RECORD
 req.header: evntcons.h
 req.include-header: Evntcons.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - relogger.h
+- relogger.h
 api_name:
- - EVENT_RECORD
+- EVENT_RECORD
 product: Windows
 targetos: Windows
 req.typenames: EVENT_RECORD, *PEVENT_RECORD
@@ -61,12 +61,12 @@ The <b>EVENT_RECORD</b> structure defines the layout of an event that ETW delive
 
 ### -field EventHeader
 
-Information about the event such as the time stamp for when it was written. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header">EVENT_HEADER</a> structure.
+Information about the event such as the time stamp for when it was written. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_HEADER</a> structure.
 
 
 ### -field BufferContext
 
-Defines information such as the session that logged the event. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/relogger/ns-relogger-_etw_buffer_context">ETW_BUFFER_CONTEXT</a> structure.
+Defines information such as the session that logged the event. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/relogger/ns-relogger-etw_buffer_context">ETW_BUFFER_CONTEXT</a> structure.
 
 
 ### -field ExtendedDataCount
@@ -81,12 +81,12 @@ The size, in bytes, of the data in the <b>UserData</b> member.
 
 ### -field ExtendedData
 
-One or more extended data items that ETW collects.  The extended data includes some items, such as the security identifier (SID) of the user that logged the event, only if the controller sets the <i>EnableProperty</i> parameter passed to the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> or <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function. The extended data includes other items, such as the related activity identifier and decoding information for trace logging, regardless whether the controller sets the <i>EnableProperty</i> parameter passed to  <b>EnableTraceEx</b> or <b>EnableTraceEx2</b>.  For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a> structure .
+One or more extended data items that ETW collects.  The extended data includes some items, such as the security identifier (SID) of the user that logged the event, only if the controller sets the <i>EnableProperty</i> parameter passed to the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> or <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function. The extended data includes other items, such as the related activity identifier and decoding information for trace logging, regardless whether the controller sets the <i>EnableProperty</i> parameter passed to  <b>EnableTraceEx</b> or <b>EnableTraceEx2</b>.  For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a> structure .
 
 
 ### -field UserData
 
-Event specific data. To parse this data, see <a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-tdh">Retrieving Event Data Using TDH</a>. If the <b>Flags</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header">EVENT_HEADER</a> contains  <b>EVENT_HEADER_FLAG_STRING_ONLY</b>, the data is a null-terminated Unicode string that you do not need TDH to parse.
+Event specific data. To parse this data, see <a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-tdh">Retrieving Event Data Using TDH</a>. If the <b>Flags</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_HEADER</a> contains  <b>EVENT_HEADER_FLAG_STRING_ONLY</b>, the data is a null-terminated Unicode string that you do not need TDH to parse.
 
 
 ### -field UserContext
@@ -108,15 +108,15 @@ The <b>EVENT_RECORD</b> structure is passed to the consumer's implementation of 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/ns-relogger-_etw_buffer_context">ETW_BUFFER_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/ns-relogger-etw_buffer_context">ETW_BUFFER_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header">EVENT_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptQueryProviderRegistration, BCryptQueryProviderRegistration function [Security], CRYPT_ANY, CRYPT_KM, CRYPT_MM, CRYPT_UM, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptQueryProviderRegistration, security.bcryptqueryproviderregistration
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptQueryProviderRegistration"
+f1_keywords:
+- bcrypt/BCryptQueryProviderRegistration
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
+- Bcrypt.dll
 api_name:
- - BCryptQueryProviderRegistration
+- BCryptQueryProviderRegistration
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -215,14 +215,14 @@ Retrieve the signature interface.
 A pointer to a <b>ULONG</b> value that, on entry, contains the size, in bytes, of the buffer pointed to by the <i>ppBuffer</i> parameter. On exit, this value receives either the number of bytes copied to the buffer or the required size, in bytes, of the buffer.
 
 
-<div class="alert"><b>Note</b>  This is the total size, in bytes, of the entire buffer, not just the size of the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_provider_reg">CRYPT_PROVIDER_REG</a> structure. The buffer must be able to hold other data for the providers in addition to the <b>CRYPT_PROVIDER_REG</b> structure.</div>
+<div class="alert"><b>Note</b>  This is the total size, in bytes, of the entire buffer, not just the size of the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_reg">CRYPT_PROVIDER_REG</a> structure. The buffer must be able to hold other data for the providers in addition to the <b>CRYPT_PROVIDER_REG</b> structure.</div>
 <div> </div>
 
 
 
 ### -param ppBuffer [in, out]
 
-A pointer to a buffer pointer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_provider_reg">CRYPT_PROVIDER_REG</a> structure and other data that describes the provider.
+A pointer to a buffer pointer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_reg">CRYPT_PROVIDER_REG</a> structure and other data that describes the provider.
 
 If this parameter is <b>NULL</b>, this function will return <b>STATUS_BUFFER_TOO_SMALL</b> and place in the value pointed to by the <i>pcbBuffer</i> parameter, the required size, in bytes, of all data.
 
@@ -315,7 +315,7 @@ No provider could be found that matches the specified criteria.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_provider_reg">CRYPT_PROVIDER_REG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_reg">CRYPT_PROVIDER_REG</a>
  
 
  

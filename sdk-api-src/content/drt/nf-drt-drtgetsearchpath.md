@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtGetSearchPath, DrtGetSearchPath function [Peer Networking], drt/DrtGetSearchPath, p2p.drtgetsearchpath
 ms.topic: function
-f1_keywords: 
- - "drt/DrtGetSearchPath"
+f1_keywords:
+- drt/DrtGetSearchPath
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Drt.lib
 req.dll: Drt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - drt.dll
+- drt.dll
 api_name:
- - DrtGetSearchPath
+- DrtGetSearchPath
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ The size of the search path which represents the number of nodes utilized in the
 
 ### -param pSearchPath [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-_drt_address_list">DRT_ADDRESS_LIST</a> structure containing the list of addresses.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_address_list">DRT_ADDRESS_LIST</a> structure containing the list of addresses.
 
 
 ## -returns
@@ -88,7 +88,7 @@ This function returns S_OK on success.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-_drt_address_list">DRT_ADDRESS_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_address_list">DRT_ADDRESS_LIST</a>
 
 
 

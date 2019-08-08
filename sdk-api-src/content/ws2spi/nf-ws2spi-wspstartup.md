@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSPStartup, WSPStartup function [Winsock], _win32_wspstartup_2, winsock.wspstartup_2, ws2spi/WSPStartup
 ms.topic: function
-f1_keywords: 
- - "ws2spi/WSPStartup"
+f1_keywords:
+- ws2spi/WSPStartup
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ws2spi.h
+- Ws2spi.h
 api_name:
- - WSPStartup
+- WSPStartup
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,17 +74,17 @@ A pointer to a
 ### -param lpProtocolInfo [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure that defines the characteristics of the desired protocol. This is especially useful when a single provider DLL is capable of instantiating multiple different service providers.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure that defines the characteristics of the desired protocol. This is especially useful when a single provider DLL is capable of instantiating multiple different service providers.
 
 
 ### -param UpcallTable [in]
 
-The Winsock 2 DLL (Ws2_32.dll) upcall dispatch table 	passed in a <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wspupcalltable">WSPUPCALLTABLE</a> structure. 
+The Winsock 2 DLL (Ws2_32.dll) upcall dispatch table 	passed in a <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wspupcalltable">WSPUPCALLTABLE</a> structure. 
 
 
 ### -param lpProcTable [out]
 
-A pointer to the table of SPI function pointers. This table is returned as an <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wspproc_table">WSPPROC_TABLE</a> structure. 
+A pointer to the table of SPI function pointers. This table is returned as an <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wspproc_table">WSPPROC_TABLE</a> structure. 
 
 
 ## -returns
@@ -174,7 +174,7 @@ The service provider interface also defines several circumstances in which a tra
 
 The 
 <b>WSPStartup</b> function must be the first Windows Sockets SPI function called by a Windows Sockets SPI client on a per-process basis. It allows the client to specify the version of Windows Sockets SPI required and to provide its upcall dispatch table. All upcalls (that is, functions prefixed with WPU) made by the Windows Sockets service provider are invoked through the client's upcall dispatch table. This function also allows the client to retrieve details of the specific Windows Sockets service provider implementation. The Windows Sockets SPI client can only issue further Windows Sockets SPI functions after a successful 
-<b>WSPStartup</b> invocation. A table of pointers to the rest of the SPI functions is retrieved through the <i>lpProcTable</i> parameter that returns a <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wspproc_table">WSPPROC_TABLE</a> structure.
+<b>WSPStartup</b> invocation. A table of pointers to the rest of the SPI functions is retrieved through the <i>lpProcTable</i> parameter that returns a <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wspproc_table">WSPPROC_TABLE</a> structure.
 
 The Winsock 2 DLL loads the service provider's interface DLL into the system by using the standard Windows dynamic library loading mechanisms, and initializes it by calling the <b>WSPStartup</b> function. This is usually triggered by an application calling the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> function in order to create a new socket that is to be associated with a service provider whose interface DLL is not currently loaded into memory. 
 
@@ -437,7 +437,7 @@ A layered service provider supplies an implementation of this function, but it i
 
 The layered provider searches the <b>ProtocolChain</b> of the structure referenced by <i>lpProtocolInfo</i> to determine its own location in the chain (by searching for the layer's own catalog entry <b>Id</b>) and the identity of the next element in the chain. If the next element is another layer, then, when the next layer's 
 <b>WSPStartup</b> is called, this layer must pass to the next layer a <i>lpProtocolInfo</i> that references the same unmodified 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure with the same unmodified chain information. However, if the next layer is the base protocol (that is, the last element in the chain), this layer performs a substitution when calling the base provider's 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure with the same unmodified chain information. However, if the next layer is the base protocol (that is, the last element in the chain), this layer performs a substitution when calling the base provider's 
 <b>WSPStartup</b>. In this case, the base provider's 
 <b>WSAPROTOCOL_INFO</b> structure should be referenced by the <i>lpProtocolInfo</i> parameter.
 
@@ -478,7 +478,7 @@ This same propagation policy applies when propagating a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wspproc_table">WSPPROC_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wspproc_table">WSPPROC_TABLE</a>
 
 
 
@@ -498,7 +498,7 @@ This same propagation policy applies when propagating a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wspupcalltable">WSPUPCALLTABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wspupcalltable">WSPUPCALLTABLE</a>
  
 
  

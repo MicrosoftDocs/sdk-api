@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_GetPromptUserRegularMode, MI_OperationOptions_GetPromptUserRegularMode function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetPromptUserRegularMode, wmi_v2.mi_operationoptions_getpromptuserregularmode
 ms.topic: function
-f1_keywords: 
- - "mi/MI_OperationOptions_GetPromptUserRegularMode"
+f1_keywords:
+- mi/MI_OperationOptions_GetPromptUserRegularMode
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,13 +30,13 @@ req.lib: Mi.lib
 req.dll: Mi.dll
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - MI_OperationOptions_GetPromptUserRegularMode
+- MI_OperationOptions_GetPromptUserRegularMode
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,12 +61,12 @@ Gets the value that tells the server how to respond to a provider's call to
 
 ### -param options [in, out]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a> structure containing a set of operation options.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure containing a set of operation options.
 
 
 ### -param mode [out]
 
-The returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_callbackmode">MI_CallbackMode</a> enumeration value: either <b>MI_CALLBACKMODE_REPORT</b> or <b>MI_CALLBACKMODE_INQUIRE</b>.
+The returned <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_callbackmode">MI_CallbackMode</a> enumeration value: either <b>MI_CALLBACKMODE_REPORT</b> or <b>MI_CALLBACKMODE_INQUIRE</b>.
 
 
 ### -param ackValue [out]
@@ -78,7 +78,7 @@ TBD
 
 
 
-A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 

@@ -8,10 +8,10 @@ tech.root: power
 ms.assetid: 4efa847d-92da-4cf7-95c2-c329de1691f4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSYSTEM_POWER_LEVEL, PSYSTEM_POWER_LEVEL, PSYSTEM_POWER_LEVEL structure pointer, SYSTEM_POWER_LEVEL, SYSTEM_POWER_LEVEL structure, _win32_system_power_level_str, base.system_power_level_str, winnt/PSYSTEM_POWER_LEVEL, winnt/SYSTEM_POWER_LEVEL"
+ms.keywords: '*PSYSTEM_POWER_LEVEL, PSYSTEM_POWER_LEVEL, PSYSTEM_POWER_LEVEL structure pointer, SYSTEM_POWER_LEVEL, SYSTEM_POWER_LEVEL structure, _win32_system_power_level_str, base.system_power_level_str, winnt/PSYSTEM_POWER_LEVEL, winnt/SYSTEM_POWER_LEVEL'
 ms.topic: struct
-f1_keywords: 
- - "winnt/SYSTEM_POWER_LEVEL"
+f1_keywords:
+- winnt/SYSTEM_POWER_LEVEL
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - SYSTEM_POWER_LEVEL
+- SYSTEM_POWER_LEVEL
 product: Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_LEVEL, *PSYSTEM_POWER_LEVEL
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Contains information about system battery drain policy settings. This structure is part of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_global_user_power_policy">GLOBAL_USER_POWER_POLICY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_user_power_policy">GLOBAL_USER_POWER_POLICY</a> structure.
 
 
 ## -struct-fields
@@ -84,7 +84,7 @@ A
 ### -field MinSystemState
 
 The minimum system sleep state to enter when the battery discharges below the value set in <b>BatteryLevel</b>. This member must be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type values.
 
 
 ## -see-also
@@ -92,7 +92,7 @@ The minimum system sleep state to enter when the battery discharges below the va
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_global_user_power_policy">GLOBAL_USER_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_user_power_policy">GLOBAL_USER_POWER_POLICY</a>
 
 
 

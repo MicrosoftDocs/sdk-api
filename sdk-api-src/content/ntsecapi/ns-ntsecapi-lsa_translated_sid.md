@@ -8,10 +8,10 @@ tech.root: SecMgmt
 ms.assetid: 1fa8fb74-3e61-4982-aa6b-a0ffe979abd4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PLSA_TRANSLATED_SID, LSA_TRANSLATED_SID, LSA_TRANSLATED_SID structure [Security], PLSA_TRANSLATED_SID, PLSA_TRANSLATED_SID structure pointer [Security], SidTypeDomain, SidTypeInvalid, SidTypeUnknown, _LSA_TRANSLATED_SID, _lsa_lsa_translated_sid, ntsecapi/LSA_TRANSLATED_SID, ntsecapi/PLSA_TRANSLATED_SID, security.lsa_translated_sid"
+ms.keywords: '*PLSA_TRANSLATED_SID, LSA_TRANSLATED_SID, LSA_TRANSLATED_SID structure [Security], PLSA_TRANSLATED_SID, PLSA_TRANSLATED_SID structure pointer [Security], SidTypeDomain, SidTypeInvalid, SidTypeUnknown, _LSA_TRANSLATED_SID, _lsa_lsa_translated_sid, ntsecapi/LSA_TRANSLATED_SID, ntsecapi/PLSA_TRANSLATED_SID, security.lsa_translated_sid'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/LSA_TRANSLATED_SID"
+f1_keywords:
+- ntsecapi/LSA_TRANSLATED_SID
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - LSA_TRANSLATED_SID
+- LSA_TRANSLATED_SID
 product: Windows
 targetos: Windows
 req.typenames: LSA_TRANSLATED_SID, *PLSA_TRANSLATED_SID
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>LSA_TRANSLATED_SID</b> structure is used with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames">LsaLookupNames</a> function to return information about the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> that identifies an account.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> that identifies an account.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ The <b>LSA_TRANSLATED_SID</b> structure is used with the
 ### -field Use
 
 A value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SID_NAME_USE</a> enumeration type that identifies the type of SID. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a> enumeration type that identifies the type of SID. 
 
 
 
@@ -139,7 +139,7 @@ If there is no corresponding domain for an account, this member contains a negat
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SID_NAME_USE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a>
  
 
  

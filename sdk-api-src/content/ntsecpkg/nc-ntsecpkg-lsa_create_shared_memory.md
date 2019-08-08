@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSharedMemory, CreateSharedMemory callback function [Security], LSA_CREATE_SHARED_MEMORY, LSA_CREATE_SHARED_MEMORY callback, _ssp_createsharedmemory, ntsecpkg/CreateSharedMemory, security.createsharedmemory
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/CreateSharedMemory"
+f1_keywords:
+- ntsecpkg/CreateSharedMemory
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - CreateSharedMemory
+- CreateSharedMemory
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -94,7 +94,7 @@ The pointer returned by the <b>CreateSharedMemory</b> function is required by th
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_delete_shared_memory">DeleteSharedMemory</a> function to release memory reserved by the <b>CreateSharedMemory</b> function.
 
 Pointers to these functions are available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 
@@ -117,7 +117,7 @@ Pointers to these functions are available in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 

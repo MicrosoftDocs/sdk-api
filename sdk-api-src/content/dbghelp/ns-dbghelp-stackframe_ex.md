@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: d4606619-f9c5-41e9-8627-17846b98956a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSTACKFRAME_EX, INLINE_FRAME_CONTEXT_IGNORE, INLINE_FRAME_CONTEXT_INIT, LPSTACKFRAME_EX, LPSTACKFRAME_EX structure pointer, STACKFRAME_EX, STACKFRAME_EX structure, _tagSTACKFRAME_EX, base.stackframe_ex, dbghelp/LPSTACKFRAME_EX, dbghelp/STACKFRAME_EX"
+ms.keywords: '*LPSTACKFRAME_EX, INLINE_FRAME_CONTEXT_IGNORE, INLINE_FRAME_CONTEXT_INIT, LPSTACKFRAME_EX, LPSTACKFRAME_EX structure pointer, STACKFRAME_EX, STACKFRAME_EX structure, _tagSTACKFRAME_EX, base.stackframe_ex, dbghelp/LPSTACKFRAME_EX, dbghelp/STACKFRAME_EX'
 ms.topic: struct
-f1_keywords: 
- - "dbghelp/STACKFRAME_EX"
+f1_keywords:
+- dbghelp/STACKFRAME_EX
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - STACKFRAME_EX
+- STACKFRAME_EX
 product: Windows
 targetos: Windows
 req.typenames: STACKFRAME_EX, *LPSTACKFRAME_EX
@@ -61,7 +61,7 @@ Represents an extended stack frame.
 
 ### -field AddrPC
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies the program 
+An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the program 
       counter.
       
 
@@ -74,13 +74,13 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_t
 
 ### -field AddrReturn
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies 
+An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies 
       the return address.
 
 
 ### -field AddrFrame
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies 
+An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies 
       the frame pointer.
       
 
@@ -93,7 +93,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_t
 
 ### -field AddrStack
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies 
+An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies 
       the stack pointer.
       
 
@@ -106,13 +106,13 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_t
 
 ### -field AddrBStore
 
-<b>Intel Itanium:  </b>An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies 
+<b>Intel Itanium:  </b>An <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies 
         the backing store (RsBSP).
 
 
 ### -field FuncTableEntry
 
-On x86 computers, this member is an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_fpo_data">FPO_DATA</a> 
+On x86 computers, this member is an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a> 
       structure. If there is no function table entry, this member is <b>NULL</b>.
 
 
@@ -139,7 +139,7 @@ This member is used internally by the <a href="https://docs.microsoft.com/window
 
 ### -field KdHelp
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_kdhelp">KDHELP64</a> structure that specifies helper data for 
+A <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-kdhelp">KDHELP64</a> structure that specifies helper data for 
       walking kernel callback frames.
 
 

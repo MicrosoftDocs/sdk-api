@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CQPageProc, CQPageProc callback, CQPageProc callback function [Active Directory], LPCQPAGEPROC, LPCQPAGEPROC callback function pointer [Active Directory], ad.cqpageproc, cmnquery/CQPageProc
 ms.topic: callback
-f1_keywords: 
- - "cmnquery/LPCQPAGEPROC"
+f1_keywords:
+- cmnquery/LPCQPAGEPROC
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Cmnquery.h
+- Cmnquery.h
 api_name:
- - LPCQPAGEPROC
+- LPCQPAGEPROC
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CQPageProc</b> callback function is called by the query dialog box to notify the query form extension of events that occur in a query page. A pointer to this function is supplied to the query dialog box in the <i>pPageProc</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/ns-cmnquery-_cqpage">CQPAGE</a> structure. <b>CQPageProc</b> is a placeholder for the query form extension-defined function name.
+The <b>CQPageProc</b> callback function is called by the query dialog box to notify the query form extension of events that occur in a query page. A pointer to this function is supplied to the query dialog box in the <i>pPageProc</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/ns-cmnquery-cqpage">CQPAGE</a> structure. <b>CQPageProc</b> is a placeholder for the query form extension-defined function name.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>CQPageProc</b> callback function is called by the query dialog box to not
 
 ### -param pPage
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/ns-cmnquery-_cqpage">CQPAGE</a> structure that contains data about a query page.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/ns-cmnquery-cqpage">CQPAGE</a> structure that contains data about a query page.
 
 
 ### -param hwnd
@@ -102,7 +102,7 @@ The return value is the result of the message  and depends on the value of the <
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/ns-cmnquery-_cqpage">CQPAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/ns-cmnquery-cqpage">CQPAGE</a>
 
 
 

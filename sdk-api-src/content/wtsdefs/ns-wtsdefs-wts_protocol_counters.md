@@ -8,10 +8,10 @@ tech.root: TermServ
 ms.assetid: 118c5e12-5436-4c0a-a31d-a60c5123e384
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWTS_PROTOCOL_COUNTERS, PWRDS_PROTOCOL_COUNTERS, PWRDS_PROTOCOL_COUNTERS structure pointer [Remote Desktop Services], PWTS_PROTOCOL_COUNTERS, PWTS_PROTOCOL_COUNTERS structure pointer [Remote Desktop Services], WRDS_PROTOCOL_COUNTERS, WRDS_PROTOCOL_COUNTERS structure [Remote Desktop Services], WTS_PROTOCOL_COUNTERS, WTS_PROTOCOL_COUNTERS structure [Remote Desktop Services], termserv.wts_protocol_counters, wtsdefs/PWRDS_PROTOCOL_COUNTERS, wtsdefs/PWTS_PROTOCOL_COUNTERS, wtsdefs/WRDS_PROTOCOL_COUNTERS, wtsdefs/WTS_PROTOCOL_COUNTERS"
+ms.keywords: '*PWTS_PROTOCOL_COUNTERS, PWRDS_PROTOCOL_COUNTERS, PWRDS_PROTOCOL_COUNTERS structure pointer [Remote Desktop Services], PWTS_PROTOCOL_COUNTERS, PWTS_PROTOCOL_COUNTERS structure pointer [Remote Desktop Services], WRDS_PROTOCOL_COUNTERS, WRDS_PROTOCOL_COUNTERS structure [Remote Desktop Services], WTS_PROTOCOL_COUNTERS, WTS_PROTOCOL_COUNTERS structure [Remote Desktop Services], termserv.wts_protocol_counters, wtsdefs/PWRDS_PROTOCOL_COUNTERS, wtsdefs/PWTS_PROTOCOL_COUNTERS, wtsdefs/WRDS_PROTOCOL_COUNTERS, wtsdefs/WTS_PROTOCOL_COUNTERS'
 ms.topic: struct
-f1_keywords: 
- - "wtsdefs/WTS_PROTOCOL_COUNTERS"
+f1_keywords:
+- wtsdefs/WTS_PROTOCOL_COUNTERS
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsdefs.h
+- Wtsdefs.h
 api_name:
- - WTS_PROTOCOL_COUNTERS
+- WTS_PROTOCOL_COUNTERS
 product: Windows
 targetos: Windows
 req.typenames: WTS_PROTOCOL_COUNTERS, *PWTS_PROTOCOL_COUNTERS
@@ -153,7 +153,7 @@ An array of protocol specific data. The maximum length can be WTS_MAX_RESERVED m
 
 
 
-This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_protocol_status">WTS_PROTOCOL_STATUS</a> structure.
+This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_protocol_status">WTS_PROTOCOL_STATUS</a> structure.
 
 
 

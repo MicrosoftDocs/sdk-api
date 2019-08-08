@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_TEXT_TYPE, WS_XML_TEXT_TYPE enumeration [Web Services for Windows], WS_XML_TEXT_TYPE_BASE64, WS_XML_TEXT_TYPE_BOOL, WS_XML_TEXT_TYPE_DATETIME, WS_XML_TEXT_TYPE_DECIMAL, WS_XML_TEXT_TYPE_DOUBLE, WS_XML_TEXT_TYPE_FLOAT, WS_XML_TEXT_TYPE_GUID, WS_XML_TEXT_TYPE_INT32, WS_XML_TEXT_TYPE_INT64, WS_XML_TEXT_TYPE_LIST, WS_XML_TEXT_TYPE_QNAME, WS_XML_TEXT_TYPE_TIMESPAN, WS_XML_TEXT_TYPE_UINT64, WS_XML_TEXT_TYPE_UNIQUE_ID, WS_XML_TEXT_TYPE_UTF16, WS_XML_TEXT_TYPE_UTF8, webservices/WS_XML_TEXT_TYPE, webservices/WS_XML_TEXT_TYPE_BASE64, webservices/WS_XML_TEXT_TYPE_BOOL, webservices/WS_XML_TEXT_TYPE_DATETIME, webservices/WS_XML_TEXT_TYPE_DECIMAL, webservices/WS_XML_TEXT_TYPE_DOUBLE, webservices/WS_XML_TEXT_TYPE_FLOAT, webservices/WS_XML_TEXT_TYPE_GUID, webservices/WS_XML_TEXT_TYPE_INT32, webservices/WS_XML_TEXT_TYPE_INT64, webservices/WS_XML_TEXT_TYPE_LIST, webservices/WS_XML_TEXT_TYPE_QNAME, webservices/WS_XML_TEXT_TYPE_TIMESPAN, webservices/WS_XML_TEXT_TYPE_UINT64, webservices/WS_XML_TEXT_TYPE_UNIQUE_ID, webservices/WS_XML_TEXT_TYPE_UTF16, webservices/WS_XML_TEXT_TYPE_UTF8, wsw.ws_xml_text_type
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_XML_TEXT_TYPE"
+f1_keywords:
+- webservices/WS_XML_TEXT_TYPE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_TEXT_TYPE
+- WS_XML_TEXT_TYPE
 product: Windows
 targetos: Windows
 req.typenames: WS_XML_TEXT_TYPE
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The type of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_text">WS_XML_TEXT</a> structure.
+The type of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a> structure.
       
 
 

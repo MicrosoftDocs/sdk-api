@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DSROLE_MACHINE_ROLE, DSROLE_MACHINE_ROLE enumeration [Active Directory], DsRole_RoleBackupDomainController, DsRole_RoleMemberServer, DsRole_RoleMemberWorkstation, DsRole_RolePrimaryDomainController, DsRole_RoleStandaloneServer, DsRole_RoleStandaloneWorkstation, ad.dsrole_machine_role, dsrole/DSROLE_MACHINE_ROLE, dsrole/DsRole_RoleBackupDomainController, dsrole/DsRole_RoleMemberServer, dsrole/DsRole_RoleMemberWorkstation, dsrole/DsRole_RolePrimaryDomainController, dsrole/DsRole_RoleStandaloneServer, dsrole/DsRole_RoleStandaloneWorkstation
 ms.topic: enum
-f1_keywords: 
- - "dsrole/DSROLE_MACHINE_ROLE"
+f1_keywords:
+- dsrole/DSROLE_MACHINE_ROLE
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dsrole.h
+- Dsrole.h
 api_name:
- - DSROLE_MACHINE_ROLE
+- DSROLE_MACHINE_ROLE
 product: Windows
 targetos: Windows
 req.typenames: DSROLE_MACHINE_ROLE
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DSROLE_MACHINE_ROLE</b> enumeration is used with the <b>MachineRole</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-_dsrole_primary_domain_info_basic">DSROLE_PRIMARY_DOMAIN_INFO_BASIC</a> structure to specify the computer role.
+The <b>DSROLE_MACHINE_ROLE</b> enumeration is used with the <b>MachineRole</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-dsrole_primary_domain_info_basic">DSROLE_PRIMARY_DOMAIN_INFO_BASIC</a> structure to specify the computer role.
 
 
 ## -enum-fields
@@ -94,7 +94,7 @@ The computer is a primary domain controller.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-_dsrole_primary_domain_info_basic">DSROLE_PRIMARY_DOMAIN_INFO_BASIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-dsrole_primary_domain_info_basic">DSROLE_PRIMARY_DOMAIN_INFO_BASIC</a>
 
 
 

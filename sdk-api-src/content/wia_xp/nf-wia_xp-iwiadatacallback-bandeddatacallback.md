@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BandedDataCallback, BandedDataCallback method [WIA], BandedDataCallback method [WIA],IWiaDataCallback interface, IT_MSG_DATA, IT_MSG_DATA_HEADER, IT_MSG_DEVICE_STATUS, IT_MSG_FILE_PREVIEW_DATA, IT_MSG_FILE_PREVIEW_DATA_HEADER, IT_MSG_NEW_PAGE, IT_MSG_STATUS, IT_MSG_TERMINATION, IT_STATUS_PROCESSING_DATA, IT_STATUS_TRANSFER_FROM_DEVICE, IT_STATUS_TRANSFER_TO_CLIENT, IWiaDataCallback interface [WIA],BandedDataCallback method, IWiaDataCallback.BandedDataCallback, IWiaDataCallback::BandedDataCallback, _wia_IWiaDataCallback_BandedDataCallback, wia._wia_IWiaDataCallback_BandedDataCallback, wia_xp/IWiaDataCallback::BandedDataCallback
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaDataCallback.BandedDataCallback"
+f1_keywords:
+- wia_xp/IWiaDataCallback.BandedDataCallback
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Wiaguid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaguid.lib
- - Wiaguid.dll
+- Wiaguid.lib
+- Wiaguid.dll
 api_name:
- - IWiaDataCallback.BandedDataCallback
+- IWiaDataCallback.BandedDataCallback
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -205,7 +205,7 @@ If the value of <i>lMessage</i> is IT_MSG_DATA, the buffer pointed to by <i>pbBu
 
 During calls where <i>lMessage</i> is set to IT_MSG_DATA or IT_MSG_STATUS, the <i>lStatus</i> parameter contains a valid value. Its contents should not be used when <i>lMessage</i> contains other values.
 
-If <i>lMessage</i> is IT_MSG_DATA_HEADER, the <i>pbBuffer</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-_wia_data_callback_header">WIA_DATA_CALLBACK_HEADER</a> structure.
+If <i>lMessage</i> is IT_MSG_DATA_HEADER, the <i>pbBuffer</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-wia_data_callback_header">WIA_DATA_CALLBACK_HEADER</a> structure.
 
 When an error has occurred during an image data transfer, the driver sets <i>lMessage</i> to IT_MSG_DEVICE_STATUS. The proxy callback object calls <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-iwiaerrorhandler-reportstatus">ReportStatus</a>, which handles the error and displays messages to the user. 
 

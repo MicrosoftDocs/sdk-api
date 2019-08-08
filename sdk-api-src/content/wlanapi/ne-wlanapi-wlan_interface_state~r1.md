@@ -4,8 +4,8 @@ title: WLAN_INTERFACE_STATE
 ms.date: 01/30/19
 ms.keywords: _WLAN_INTERFACE_STATE, WLAN_INTERFACE_STATE
 ms.topic: language-reference
-f1_keywords: 
- - "wlanapi/_WLAN_INTERFACE_STATE"
+f1_keywords:
+- wlanapi/_WLAN_INTERFACE_STATE
 targetos: Windows
 product: Windows
 req.construct-type: enumeration
@@ -20,14 +20,14 @@ req.target-type:
 req.typenames: 
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - _WLAN_INTERFACE_STATE
- - WLAN_INTERFACE_STATE
+- _WLAN_INTERFACE_STATE
+- WLAN_INTERFACE_STATE
 ---
 
 # WLAN_INTERFACE_STATE enumeration
@@ -86,9 +86,9 @@ The interface is in the process of authenticating.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_attributes">WLAN_CONNECTION_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_attributes">WLAN_CONNECTION_ATTRIBUTES</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_interface_info">WLAN_INTERFACE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_info">WLAN_INTERFACE_INFO</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a>
  

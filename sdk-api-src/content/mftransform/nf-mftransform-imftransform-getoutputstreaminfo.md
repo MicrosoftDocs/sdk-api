@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 06cc7f1d-57a3-43b8-ab83-8d2ee8e655b5, GetOutputStreamInfo, GetOutputStreamInfo method [Media Foundation], GetOutputStreamInfo method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputStreamInfo method, IMFTransform.GetOutputStreamInfo, IMFTransform::GetOutputStreamInfo, mf.imftransform_getoutputstreaminfo, mftransform/IMFTransform::GetOutputStreamInfo
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFTransform.GetOutputStreamInfo"
+f1_keywords:
+- mftransform/IMFTransform.GetOutputStreamInfo
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTransform.GetOutputStreamInfo
+- IMFTransform.GetOutputStreamInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ Output stream identifier. To get the list of stream identifiers, call <a href="h
 
 ### -param pStreamInfo [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_output_stream_info">MFT_OUTPUT_STREAM_INFO</a> structure. The method fills the structure with information about the output stream.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_output_stream_info">MFT_OUTPUT_STREAM_INFO</a> structure. The method fills the structure with information about the output stream.
           
 
 

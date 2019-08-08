@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NDR_USER_MARSHAL_INFO, NDR_USER_MARSHAL_INFO structure [RPC], _rpc_ndr_user_marshal_info, rpc.ndr_user_marshal_info, rpcndr/NDR_USER_MARSHAL_INFO
 ms.topic: struct
-f1_keywords: 
- - "rpcndr/NDR_USER_MARSHAL_INFO"
+f1_keywords:
+- rpcndr/NDR_USER_MARSHAL_INFO
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcndr.h
+- Rpcndr.h
 api_name:
- - NDR_USER_MARSHAL_INFO
+- NDR_USER_MARSHAL_INFO
 product: Windows
 targetos: Windows
 req.typenames: NDR_USER_MARSHAL_INFO
@@ -75,7 +75,7 @@ The information level of the returned data. Currently only a value of 1 is defin
 ### -field DUMMYUNIONNAME.Level1
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-_ndr_user_marshal_info_level1">NDR_USER_MARSHAL_INFO_LEVEL1</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-ndr_user_marshal_info_level1">NDR_USER_MARSHAL_INFO_LEVEL1</a> structure.
 
 
 ## -remarks

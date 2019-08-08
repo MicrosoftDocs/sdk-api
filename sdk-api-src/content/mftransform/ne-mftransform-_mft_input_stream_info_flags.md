@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFT_INPUT_STREAM_DOES_NOT_ADDREF, MFT_INPUT_STREAM_FIXED_SAMPLE_SIZE, MFT_INPUT_STREAM_HOLDS_BUFFERS, MFT_INPUT_STREAM_OPTIONAL, MFT_INPUT_STREAM_PROCESSES_IN_PLACE, MFT_INPUT_STREAM_REMOVABLE, MFT_INPUT_STREAM_SINGLE_SAMPLE_PER_BUFFER, MFT_INPUT_STREAM_WHOLE_SAMPLES, _MFT_INPUT_STREAM_INFO_FLAGS, _MFT_INPUT_STREAM_INFO_FLAGS enumeration [Media Foundation], d9a05a0f-56a7-4a91-93dc-a5079e51deac, mf._mft_input_stream_info_flags, mftransform/MFT_INPUT_STREAM_DOES_NOT_ADDREF, mftransform/MFT_INPUT_STREAM_FIXED_SAMPLE_SIZE, mftransform/MFT_INPUT_STREAM_HOLDS_BUFFERS, mftransform/MFT_INPUT_STREAM_OPTIONAL, mftransform/MFT_INPUT_STREAM_PROCESSES_IN_PLACE, mftransform/MFT_INPUT_STREAM_REMOVABLE, mftransform/MFT_INPUT_STREAM_SINGLE_SAMPLE_PER_BUFFER, mftransform/MFT_INPUT_STREAM_WHOLE_SAMPLES, mftransform/_MFT_INPUT_STREAM_INFO_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "mftransform/_MFT_INPUT_STREAM_INFO_FLAGS"
+f1_keywords:
+- mftransform/_MFT_INPUT_STREAM_INFO_FLAGS
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - _MFT_INPUT_STREAM_INFO_FLAGS
+- _MFT_INPUT_STREAM_INFO_FLAGS
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -81,12 +81,12 @@ An MFT that processes uncompressed audio should not set this flag. The MFT shoul
 ### -field MFT_INPUT_STREAM_FIXED_SAMPLE_SIZE
 
 All input samples must be the same size.
-          The size is given in the <b>cbSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_input_stream_info">MFT_INPUT_STREAM_INFO</a> structure. The MFT must provide this value. During processing, the MFT should verify the size of input samples, and may drop samples with incorrect size.
+          The size is given in the <b>cbSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_input_stream_info">MFT_INPUT_STREAM_INFO</a> structure. The MFT must provide this value. During processing, the MFT should verify the size of input samples, and may drop samples with incorrect size.
 
 
 ### -field MFT_INPUT_STREAM_HOLDS_BUFFERS
 
-The MFT might hold one or more input samples after <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a> is called. If this flag is present, the <b>hnsMaxLatency</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_input_stream_info">MFT_INPUT_STREAM_INFO</a> structure gives the maximum latency, and the <b>cbMaxLookahead</b> member gives the maximum number of bytes of lookahead.
+The MFT might hold one or more input samples after <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a> is called. If this flag is present, the <b>hnsMaxLatency</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_input_stream_info">MFT_INPUT_STREAM_INFO</a> structure gives the maximum latency, and the <b>cbMaxLookahead</b> member gives the maximum number of bytes of lookahead.
 
 
 ### -field MFT_INPUT_STREAM_DOES_NOT_ADDREF
@@ -143,7 +143,7 @@ If an MFT holds some input samples beyond the next call to <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_input_stream_info">MFT_INPUT_STREAM_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_input_stream_info">MFT_INPUT_STREAM_INFO</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_METADATA_SECTION, WSD_METADATA_SECTION structure, http://schemas.xmlsoap.org/ws/2006/02/devprof/Relationship, http://schemas.xmlsoap.org/ws/2006/02/devprof/ThisDevice, http://schemas.xmlsoap.org/ws/2006/02/devprof/ThisModel, ncd.wsd_metadata_section_struct, wsdtypes/WSD_METADATA_SECTION
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_METADATA_SECTION"
+f1_keywords:
+- wsdtypes/WSD_METADATA_SECTION
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_METADATA_SECTION
+- WSD_METADATA_SECTION
 product: Windows
 targetos: Windows
 req.typenames: WSD_METADATA_SECTION
@@ -76,7 +76,7 @@ The format and version of the metadata section.
 </dl>
 </td>
 <td width="60%">
-The metadata section contains model-specific information relating to the device. If the <b>Data</b> member is specified, then its type is <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_this_model_metadata">WSD_THIS_MODEL_METADATA</a>.
+The metadata section contains model-specific information relating to the device. If the <b>Data</b> member is specified, then its type is <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_this_model_metadata">WSD_THIS_MODEL_METADATA</a>.
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ The metadata section contains model-specific information relating to the device.
 </dl>
 </td>
 <td width="60%">
-The metadata section contains metadata that is unique to a specific device. If the <b>Data</b> member is specified, then its type is <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_this_device_metadata">WSD_THIS_DEVICE_METADATA</a>.
+The metadata section contains metadata that is unique to a specific device. If the <b>Data</b> member is specified, then its type is <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_this_device_metadata">WSD_THIS_DEVICE_METADATA</a>.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ The metadata section contains metadata that is unique to a specific device. If t
 </dl>
 </td>
 <td width="60%">
-The metadata section contains metadata about the relationship between two or more services. If the <b>Data</b> member is specified, then its type is <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_relationship_metadata">WSD_RELATIONSHIP_METADATA</a>.
+The metadata section contains metadata about the relationship between two or more services. If the <b>Data</b> member is specified, then its type is <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_relationship_metadata">WSD_RELATIONSHIP_METADATA</a>.
 
 
 </td>
@@ -117,7 +117,7 @@ Reference to a binary representation of the metadata. The type of metadata is sp
 
 ### -field MetadataReference
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure used identify the endpoint from which metadata can be retrieved. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure used identify the endpoint from which metadata can be retrieved. 
 
 
 ### -field Location
@@ -127,5 +127,5 @@ A URI that specifies the location from which metadata can be retrieved.
 
 ### -field Any
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
 

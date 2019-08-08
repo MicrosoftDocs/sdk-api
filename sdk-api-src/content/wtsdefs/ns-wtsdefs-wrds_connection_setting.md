@@ -8,10 +8,10 @@ tech.root: TermServ
 ms.assetid: 15991230-DBF9-4D32-A65A-1D67D1804D05
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWRDS_CONNECTION_SETTING, PWRDS_CONNECTION_SETTING, PWRDS_CONNECTION_SETTING union pointer [Remote Desktop Services], WRDS_CONNECTION_SETTING, WRDS_CONNECTION_SETTING union [Remote Desktop Services], termserv.wrds_connection_setting, wtsdefs/PWRDS_CONNECTION_SETTING, wtsdefs/WRDS_CONNECTION_SETTING"
+ms.keywords: '*PWRDS_CONNECTION_SETTING, PWRDS_CONNECTION_SETTING, PWRDS_CONNECTION_SETTING union pointer [Remote Desktop Services], WRDS_CONNECTION_SETTING, WRDS_CONNECTION_SETTING union [Remote Desktop Services], termserv.wrds_connection_setting, wtsdefs/PWRDS_CONNECTION_SETTING, wtsdefs/WRDS_CONNECTION_SETTING'
 ms.topic: struct
-f1_keywords: 
- - "wtsdefs/WRDS_CONNECTION_SETTING"
+f1_keywords:
+- wtsdefs/WRDS_CONNECTION_SETTING
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsdefs.h
+- Wtsdefs.h
 api_name:
- - WRDS_CONNECTION_SETTING
+- WRDS_CONNECTION_SETTING
 product: Windows
 targetos: Windows
 req.typenames: WRDS_CONNECTION_SETTING, *PWRDS_CONNECTION_SETTING
@@ -61,7 +61,7 @@ Contains different levels of settings for a remote desktop connection.
 
 ### -field WRdsConnectionSettings1
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_connection_settings_1">WRDS_CONNECTION_SETTINGS_1</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_connection_settings_1">WRDS_CONNECTION_SETTINGS_1</a> structure.
 
 
 ### -field WRdsConnectionSettings1.case

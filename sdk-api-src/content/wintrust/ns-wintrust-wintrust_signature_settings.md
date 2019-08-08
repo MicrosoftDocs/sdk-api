@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: E0F526B4-AFDE-4481-B49F-EE7467F97A46
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWINTRUST_SIGNATURE_SETTINGS, PWINTRUST_SIGNATURE_SETTINGS, PWINTRUST_SIGNATURE_SETTINGS structure pointer [Security], WINTRUST_SIGNATURE_SETTINGS, WINTRUST_SIGNATURE_SETTINGS structure [Security], WSS_GET_SECONDARY_SIG_COUNT, WSS_VERIFY_SPECIFIC, security.wintrust_signature_settings, wintrust/PWINTRUST_SIGNATURE_SETTINGS, wintrust/WINTRUST_SIGNATURE_SETTINGS"
+ms.keywords: '*PWINTRUST_SIGNATURE_SETTINGS, PWINTRUST_SIGNATURE_SETTINGS, PWINTRUST_SIGNATURE_SETTINGS structure pointer [Security], WINTRUST_SIGNATURE_SETTINGS, WINTRUST_SIGNATURE_SETTINGS structure [Security], WSS_GET_SECONDARY_SIG_COUNT, WSS_VERIFY_SPECIFIC, security.wintrust_signature_settings, wintrust/PWINTRUST_SIGNATURE_SETTINGS, wintrust/WINTRUST_SIGNATURE_SETTINGS'
 ms.topic: struct
-f1_keywords: 
- - "wintrust/WINTRUST_SIGNATURE_SETTINGS"
+f1_keywords:
+- wintrust/WINTRUST_SIGNATURE_SETTINGS
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wintrust.h
+- Wintrust.h
 api_name:
- - WINTRUST_SIGNATURE_SETTINGS
+- WINTRUST_SIGNATURE_SETTINGS
 product: Windows
 targetos: Windows
 req.typenames: WINTRUST_SIGNATURE_SETTINGS, *PWINTRUST_SIGNATURE_SETTINGS
@@ -116,7 +116,7 @@ The index used for verification. This member is set on return from Wintrust.
 
 ### -field pCryptoPolicy
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure that contains the policy that a signature must pass to be considered valid.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure that contains the policy that a signature must pass to be considered valid.
 
 
 ## -see-also
@@ -124,7 +124,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a>
 
 
 

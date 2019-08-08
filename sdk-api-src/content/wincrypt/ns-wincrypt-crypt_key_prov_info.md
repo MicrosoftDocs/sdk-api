@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 6aea2f47-9d4a-4069-ac6d-f28907df00be
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_KEY_PROV_INFO, AT_KEYEXCHANGE, AT_SIGNATURE, CERT_SET_KEY_PROV_HANDLE_PROP_ID / CERT_SET_KEY_CONTEXT_PROP_ID, CRYPT_KEY_PROV_INFO, CRYPT_KEY_PROV_INFO structure [Security], CRYPT_MACHINE_KEYSET / NCRYPT_MACHINE_KEY_FLAG, CRYPT_SILENT / NCRYPT_SILENT_FLAG, PCRYPT_KEY_PROV_INFO, PCRYPT_KEY_PROV_INFO structure pointer [Security], _crypto2_crypt_key_prov_info, security.crypt_key_prov_info, wincrypt/CRYPT_KEY_PROV_INFO, wincrypt/PCRYPT_KEY_PROV_INFO"
+ms.keywords: '*PCRYPT_KEY_PROV_INFO, AT_KEYEXCHANGE, AT_SIGNATURE, CERT_SET_KEY_PROV_HANDLE_PROP_ID / CERT_SET_KEY_CONTEXT_PROP_ID, CRYPT_KEY_PROV_INFO, CRYPT_KEY_PROV_INFO structure [Security], CRYPT_MACHINE_KEYSET / NCRYPT_MACHINE_KEY_FLAG, CRYPT_SILENT / NCRYPT_SILENT_FLAG, PCRYPT_KEY_PROV_INFO, PCRYPT_KEY_PROV_INFO structure pointer [Security], _crypto2_crypt_key_prov_info, security.crypt_key_prov_info, wincrypt/CRYPT_KEY_PROV_INFO, wincrypt/PCRYPT_KEY_PROV_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_KEY_PROV_INFO"
+f1_keywords:
+- wincrypt/CRYPT_KEY_PROV_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_KEY_PROV_INFO
+- CRYPT_KEY_PROV_INFO
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_KEY_PROV_INFO, *PCRYPT_KEY_PROV_INFO
@@ -144,7 +144,7 @@ When the <b>dwProvType</b> member is zero, this member is not used and must be z
 
 ### -field rgProvParam
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_param">CRYPT_KEY_PROV_PARAM</a> structures that contain the parameters for the key container. The <b>cProvParam</b> member contains the number of elements in this array.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_param">CRYPT_KEY_PROV_PARAM</a> structures that contain the parameters for the key container. The <b>cProvParam</b> member contains the number of elements in this array.
 
 When the <b>dwProvType</b> member is zero, this member is not used and must be <b>NULL</b>.
 
@@ -193,7 +193,7 @@ Keys used to create and verify digital signatures.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_param">CRYPT_KEY_PROV_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_param">CRYPT_KEY_PROV_PARAM</a>
 
 
 

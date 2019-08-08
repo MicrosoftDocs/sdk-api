@@ -2,7 +2,7 @@
 UID: NF:wincrypt.CryptImportPKCS8
 title: CryptImportPKCS8 function (wincrypt.h)
 author: windows-sdk-content
-description: Imports the private key in PKCS #8 format to a cryptographic service provider (CSP).
+description: Imports the private key in PKCS
 old-location: security\cryptimportpkcs8.htm
 tech.root: SecCrypto
 ms.assetid: fa3deff9-b4c1-4b63-a59f-738f87e1a409
@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_EXPORTABLE, CRYPT_USER_PROTECTED, CryptImportPKCS8, CryptImportPKCS8 function [Security], security.cryptimportpkcs8, wincrypt/CryptImportPKCS8
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptImportPKCS8"
+f1_keywords:
+- wincrypt/CryptImportPKCS8
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptImportPKCS8
+- CryptImportPKCS8
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ ms.custom: 19H1
 
 ### -param sPrivateKeyAndParams [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_pkcs8_import_params">CRYPT_PKCS8_IMPORT_PARAMS</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key BLOB</a> and corresponding parameters.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_pkcs8_import_params">CRYPT_PKCS8_IMPORT_PARAMS</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key BLOB</a> and corresponding parameters.
 
 
 ### -param dwFlags [in]
@@ -156,7 +156,7 @@ If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/e
 
 
 
-<b>CryptImportPKCS8</b>  calls the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_resolve_hcryptprov_func">PCRYPT_RESOLVE_HCRYPTPROV_FUNC</a> function  by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_pkcs8_import_params">CRYPT_PKCS8_IMPORT_PARAMS</a> structure contained in the <i>sPrivateKeyAndParams</i> parameter to retrieve a handle of the provider to which to import the key.  If  <b>PCRYPT_RESOLVE_HCRYPTPROV_FUNC</b> is <b>NULL</b>, then the default provider is used.
+<b>CryptImportPKCS8</b>  calls the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_resolve_hcryptprov_func">PCRYPT_RESOLVE_HCRYPTPROV_FUNC</a> function  by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_pkcs8_import_params">CRYPT_PKCS8_IMPORT_PARAMS</a> structure contained in the <i>sPrivateKeyAndParams</i> parameter to retrieve a handle of the provider to which to import the key.  If  <b>PCRYPT_RESOLVE_HCRYPTPROV_FUNC</b> is <b>NULL</b>, then the default provider is used.
 
 This function is only supported for asymmetric keys.
 
@@ -168,7 +168,7 @@ This function is only supported for asymmetric keys.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_pkcs8_import_params">CRYPT_PKCS8_IMPORT_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_pkcs8_import_params">CRYPT_PKCS8_IMPORT_PARAMS</a>
 
 
 

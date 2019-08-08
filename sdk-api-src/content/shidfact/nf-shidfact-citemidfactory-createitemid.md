@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],CreateItemID method, CItemIDFactory.CreateItemID, CItemIDFactory::CreateItemID, CreateItemID, CreateItemID method [Windows Shell], CreateItemID method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_createitemid, shidfact/CItemIDFactory::CreateItemID
 ms.topic: method
-f1_keywords: 
- - "shidfact/CItemIDFactory.CreateItemID"
+f1_keywords:
+- shidfact/CItemIDFactory.CreateItemID
 req.header: shidfact.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shidfact.h
+- shidfact.h
 api_name:
- - CItemIDFactory.CreateItemID
+- CItemIDFactory.CreateItemID
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The size of the user supplied data must equal sizeof(T). Do not use structs with variably allocated array/string members. The struct must also follow standard <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> for persistance and portability.
+The size of the user supplied data must equal sizeof(T). Do not use structs with variably allocated array/string members. The struct must also follow standard <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> for persistance and portability.
 
 
 
@@ -105,7 +105,7 @@ The size of the user supplied data must equal sizeof(T). Do not use structs with
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a>
  
 
  

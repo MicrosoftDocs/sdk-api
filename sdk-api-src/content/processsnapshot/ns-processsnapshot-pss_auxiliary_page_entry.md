@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSS_AUXILIARY_PAGE_ENTRY, PSS_AUXILIARY_PAGE_ENTRY structure, proc_snap.pss_auxiliary_page_entry, processsnapshot/PSS_AUXILIARY_PAGE_ENTRY
 ms.topic: struct
-f1_keywords: 
- - "processsnapshot/PSS_AUXILIARY_PAGE_ENTRY"
+f1_keywords:
+- processsnapshot/PSS_AUXILIARY_PAGE_ENTRY
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - processsnapshot.h
+- processsnapshot.h
 api_name:
- - PSS_AUXILIARY_PAGE_ENTRY
+- PSS_AUXILIARY_PAGE_ENTRY
 product: Windows
 targetos: Windows
 req.typenames: PSS_AUXILIARY_PAGE_ENTRY
@@ -66,7 +66,7 @@ The address of the captured auxiliary page, in the context of the captured proce
 
 ### -field BasicInformation
 
-Basic information about the captured page. See <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a> for more information.
+Basic information about the captured page. See <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-memory_basic_information">MEMORY_BASIC_INFORMATION</a> for more information.
 
 
 ### -field CaptureTime

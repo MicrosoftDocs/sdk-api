@@ -8,10 +8,10 @@ tech.root: NativeWiFi
 ms.assetid: e0321447-b89a-4f4e-929e-eb6db76f7283
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_CONNECTION_PARAMETERS, PWLAN_CONNECTION_PARAMETERS, PWLAN_CONNECTION_PARAMETERS structure pointer [NativeWIFI], WLAN_CONNECTION_PARAMETERS, WLAN_CONNECTION_PARAMETERS structure [NativeWIFI], nwifi.wlan_connection_parameters, wlanapi/PWLAN_CONNECTION_PARAMETERS, wlanapi/WLAN_CONNECTION_PARAMETERS"
+ms.keywords: '*PWLAN_CONNECTION_PARAMETERS, PWLAN_CONNECTION_PARAMETERS, PWLAN_CONNECTION_PARAMETERS structure pointer [NativeWIFI], WLAN_CONNECTION_PARAMETERS, WLAN_CONNECTION_PARAMETERS structure [NativeWIFI], nwifi.wlan_connection_parameters, wlanapi/PWLAN_CONNECTION_PARAMETERS, wlanapi/WLAN_CONNECTION_PARAMETERS'
 ms.topic: struct
-f1_keywords: 
- - "wlanapi/WLAN_CONNECTION_PARAMETERS"
+f1_keywords:
+- wlanapi/WLAN_CONNECTION_PARAMETERS
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - WLAN_CONNECTION_PARAMETERS
+- WLAN_CONNECTION_PARAMETERS
 product: Windows
 targetos: Windows
 req.typenames: WLAN_CONNECTION_PARAMETERS, *PWLAN_CONNECTION_PARAMETERS
@@ -61,7 +61,7 @@ The <b>WLAN_CONNECTION_PARAMETERS</b> structure specifies the parameters used wh
 
 ### -field wlanConnectionMode
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_connection_mode">WLAN_CONNECTION_MODE</a> value that specifies the mode of connection.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_connection_mode">WLAN_CONNECTION_MODE</a> value that specifies the mode of connection.
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>Only the <b>wlan_connection_mode_profile</b>  value is supported.
 
@@ -82,7 +82,7 @@ If  <b>wlanConnectionMode</b> is set to <b>wlan_connection_mode_profile</b>, the
 
 ### -field pDot11Ssid
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-ssid">DOT11_SSID</a> structure that specifies the SSID of the network to connect to.  This parameter is optional. When set to <b>NULL</b>, all SSIDs in the profile will be tried.  This parameter must not be <b>NULL</b> if <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_connection_mode">WLAN_CONNECTION_MODE</a> is set to <b>wlan_connection_mode_discovery_secure</b> or <b>wlan_connection_mode_discovery_unsecure</b>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-ssid">DOT11_SSID</a> structure that specifies the SSID of the network to connect to.  This parameter is optional. When set to <b>NULL</b>, all SSIDs in the profile will be tried.  This parameter must not be <b>NULL</b> if <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_connection_mode">WLAN_CONNECTION_MODE</a> is set to <b>wlan_connection_mode_discovery_secure</b> or <b>wlan_connection_mode_discovery_unsecure</b>.
 
 
 ### -field pDesiredBssidList

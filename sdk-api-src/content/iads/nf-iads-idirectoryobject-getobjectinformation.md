@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetObjectInformation, GetObjectInformation method [ADSI], GetObjectInformation method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],GetObjectInformation method, IDirectoryObject.GetObjectInformation, IDirectoryObject::GetObjectInformation, _ds_idirectoryobject_getobjectinformation, adsi.idirectoryobject__getobjectinformation, adsi.idirectoryobject_getobjectinformation, iads/IDirectoryObject::GetObjectInformation
 ms.topic: method
-f1_keywords: 
- - "iads/IDirectoryObject.GetObjectInformation"
+f1_keywords:
+- iads/IDirectoryObject.GetObjectInformation
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IDirectoryObject.GetObjectInformation
+- IDirectoryObject.GetObjectInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IDirectoryObject::GetObjectInformation</b> method retrieves a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_object_info">ADS_OBJECT_INFO</a> structure that contains data regarding the identity and location of a directory service object.
+The <b>IDirectoryObject::GetObjectInformation</b> method retrieves a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_object_info">ADS_OBJECT_INFO</a> structure that contains data regarding the identity and location of a directory service object.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>IDirectoryObject::GetObjectInformation</b> method retrieves a pointer to 
 
 ### -param ppObjInfo [out]
 
-Provides the address of a pointer to an  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_object_info">ADS_OBJECT_INFO</a> structure that contains data regarding the requested directory service object. If <i>ppObjInfo</i> is <b>NULL</b> on return, <b>GetObjectInformation</b> cannot obtain the requested data.
+Provides the address of a pointer to an  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_object_info">ADS_OBJECT_INFO</a> structure that contains data regarding the requested directory service object. If <i>ppObjInfo</i> is <b>NULL</b> on return, <b>GetObjectInformation</b> cannot obtain the requested data.
 
 
 ## -returns
@@ -78,14 +78,14 @@ This method returns the standard return values, including <b>S_OK</b> when the d
 
 
 The caller should call 
-the <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-freeadsmem">FreeADsMem</a> helper function to release the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_object_info">ADS_OBJECT_INFO</a> structure created by the  <b>GetObjectInformation</b> function.
+the <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-freeadsmem">FreeADsMem</a> helper function to release the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_object_info">ADS_OBJECT_INFO</a> structure created by the  <b>GetObjectInformation</b> function.
 
 Automation clients must call  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a>.
 
 
 #### Examples
 
-The following C++ code example shows how to retrieve the object data (<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_object_info">ADS_OBJECT_INFO</a>) using the <b>GetObjectInformation</b> method of an object (m_pDirObject) that implements the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a> interface.
+The following C++ code example shows how to retrieve the object data (<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_object_info">ADS_OBJECT_INFO</a>) using the <b>GetObjectInformation</b> method of an object (m_pDirObject) that implements the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a> interface.
 
 
 ```cpp
@@ -127,7 +127,7 @@ FreeADsMem( pInfo );
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_object_info">ADS_OBJECT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_object_info">ADS_OBJECT_INFO</a>
 
 
 

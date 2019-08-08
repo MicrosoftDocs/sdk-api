@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],OnNotify method, IBrowserService2.OnNotify, IBrowserService2::OnNotify, OnNotify, OnNotify method [Windows Shell], OnNotify method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::OnNotify, shell.IBrowserService2_OnNotify, zone_IBrowserService2_OnNotify
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2.OnNotify"
+f1_keywords:
+- shdeprecated/IBrowserService2.OnNotify
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2.OnNotify
+- IBrowserService2.OnNotify
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Deprecated. Calls the derived class from the base class on receipt of a <a href=
 
 Type: <b>tagNMHDR*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that receives the initialization parameters passed to the window procedure (WinProc) of the class.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that receives the initialization parameters passed to the window procedure (WinProc) of the class.
 
 
 ## -returns

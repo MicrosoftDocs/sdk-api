@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: 21ad9446-a22c-4c3f-911d-a263cb85078b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPRSVP_POLICY_INFO, *LPRSVP_POLICY_INFO structure [QOS], RSVP_POLICY_INFO, RSVP_POLICY_INFO structure [QOS], qos.rsvp_policy_info, qossp/*LPRSVP_POLICY_INFO, qossp/RSVP_POLICY_INFO"
+ms.keywords: '*LPRSVP_POLICY_INFO, *LPRSVP_POLICY_INFO structure [QOS], RSVP_POLICY_INFO, RSVP_POLICY_INFO structure [QOS], qos.rsvp_policy_info, qossp/*LPRSVP_POLICY_INFO, qossp/RSVP_POLICY_INFO'
 ms.topic: struct
-f1_keywords: 
- - "qossp/RSVP_POLICY_INFO"
+f1_keywords:
+- qossp/RSVP_POLICY_INFO
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qossp.h
+- Qossp.h
 api_name:
- - RSVP_POLICY_INFO
+- RSVP_POLICY_INFO
 product: Windows
 targetos: Windows
 req.typenames: RSVP_POLICY_INFO, *LPRSVP_POLICY_INFO
@@ -71,7 +71,7 @@ Number of policy elements in <b>PolicyElement</b>.
 
 ### -field PolicyElement
 
-List of policy elements received, in the form of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_policy">RSVP_POLICY</a> structure.
+List of policy elements received, in the form of a <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_policy">RSVP_POLICY</a> structure.
 
 
 ## -see-also
@@ -83,7 +83,7 @@ List of policy elements received, in the form of a <a href="https://docs.microso
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_policy">RSVP_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_policy">RSVP_POLICY</a>
  
 
  

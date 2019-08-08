@@ -8,10 +8,10 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\bp_animationparams.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PBP_ANIMATIONPARAMS, BP_ANIMATIONPARAMS, BP_ANIMATIONPARAMS structure [Windows Controls], PBP_ANIMATIONPARAMS, PBP_ANIMATIONPARAMS structure pointer [Windows Controls], _shell_BP_ANIMATIONPARAMS, _shell_BP_ANIMATIONPARAMS_cpp, controls.BP_ANIMATIONPARAMS, controls._shell_BP_ANIMATIONPARAMS, uxtheme/BP_ANIMATIONPARAMS, uxtheme/PBP_ANIMATIONPARAMS"
+ms.keywords: '*PBP_ANIMATIONPARAMS, BP_ANIMATIONPARAMS, BP_ANIMATIONPARAMS structure [Windows Controls], PBP_ANIMATIONPARAMS, PBP_ANIMATIONPARAMS structure pointer [Windows Controls], _shell_BP_ANIMATIONPARAMS, _shell_BP_ANIMATIONPARAMS_cpp, controls.BP_ANIMATIONPARAMS, controls._shell_BP_ANIMATIONPARAMS, uxtheme/BP_ANIMATIONPARAMS, uxtheme/PBP_ANIMATIONPARAMS'
 ms.topic: struct
-f1_keywords: 
- - "uxtheme/BP_ANIMATIONPARAMS"
+f1_keywords:
+- uxtheme/BP_ANIMATIONPARAMS
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Uxtheme.h
+- Uxtheme.h
 api_name:
- - BP_ANIMATIONPARAMS
+- BP_ANIMATIONPARAMS
 product: Windows
 targetos: Windows
 req.typenames: BP_ANIMATIONPARAMS, *PBP_ANIMATIONPARAMS
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines animation parameters for the <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-_bp_paintparams">BP_PAINTPARAMS</a> structure used by <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
+Defines animation parameters for the <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-bp_paintparams">BP_PAINTPARAMS</a> structure used by <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
 
 
 ## -struct-fields
@@ -75,7 +75,7 @@ Reserved.
 
 ### -field style
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ne-uxtheme-_bp_animationstyle">BP_ANIMATIONSTYLE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ne-uxtheme-bp_animationstyle">BP_ANIMATIONSTYLE</a></b>
 
 Animation style.
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsVolume2, IVdsVolume2 interface, IVdsVolume2 interface,described, base.ivdsvolume2, vds/IVdsVolume2
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsVolume2"
+f1_keywords:
+- vds/IVdsVolume2
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVolume2
+- IVdsVolume2
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,7 +78,7 @@ The <b>IVdsVolume2</b> interface has these methods.
 </td>
 <td align="left" width="63%">
 Returns 
-   property information for the current volume. This method is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-getproperties">IVdsVolume::GetProperties</a> method, except that it returns a <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_volume_prop2">VDS_VOLUME_PROP2</a> structure instead of a <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_volume_prop">VDS_VOLUME_PROP</a> structure.
+   property information for the current volume. This method is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-getproperties">IVdsVolume::GetProperties</a> method, except that it returns a <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_volume_prop2">VDS_VOLUME_PROP2</a> structure instead of a <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_volume_prop">VDS_VOLUME_PROP</a> structure.
 
 </td>
 </tr>

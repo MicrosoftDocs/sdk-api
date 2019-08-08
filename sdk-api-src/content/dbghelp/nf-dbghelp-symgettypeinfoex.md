@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetTypeInfoEx, SymGetTypeInfoEx function, base.symgettypeinfoex, dbghelp/SymGetTypeInfoEx
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymGetTypeInfoEx"
+f1_keywords:
+- dbghelp/SymGetTypeInfoEx
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymGetTypeInfoEx
+- SymGetTypeInfoEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ The base address of the module.
 
 ### -param Params [in, out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_get_type_info_params">IMAGEHLP_GET_TYPE_INFO_PARAMS</a> structure that specifies input and output information for the query.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_get_type_info_params">IMAGEHLP_GET_TYPE_INFO_PARAMS</a> structure that specifies input and output information for the query.
 
 
 ## -returns
@@ -105,7 +105,7 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_get_type_info_params">IMAGEHLP_GET_TYPE_INFO_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_get_type_info_params">IMAGEHLP_GET_TYPE_INFO_PARAMS</a>
 
 
 

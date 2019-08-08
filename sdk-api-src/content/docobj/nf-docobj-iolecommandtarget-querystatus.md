@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleCommandTarget interface [COM],QueryStatus method, IOleCommandTarget.QueryStatus, IOleCommandTarget::QueryStatus, QueryStatus, QueryStatus method [COM], QueryStatus method [COM],IOleCommandTarget interface, _ole_iolecommandtarget_querystatus, com.iolecommandtarget_querystatus, docobj/IOleCommandTarget::QueryStatus
 ms.topic: method
-f1_keywords: 
- - "docobj/IOleCommandTarget.QueryStatus"
+f1_keywords:
+- docobj/IOleCommandTarget.QueryStatus
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IOleCommandTarget.QueryStatus
+- IOleCommandTarget.QueryStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,12 +71,12 @@ The number of commands in the <i>prgCmds</i> array.
 
 ### -param prgCmds [in, out]
 
-A caller-allocated array of <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-_tagolecmd">OLECMD</a> structures that indicate the commands for which the caller needs status information. This method fills the <b>cmdf</b> member of each structure with values taken from the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdf">OLECMDF</a> enumeration.
+A caller-allocated array of <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-olecmd">OLECMD</a> structures that indicate the commands for which the caller needs status information. This method fills the <b>cmdf</b> member of each structure with values taken from the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdf">OLECMDF</a> enumeration.
 
 
 ### -param pCmdText [in, out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-_tagolecmdtext">OLECMDTEXT</a> structure in which to return name and/or status information of a single command. This parameter can be <b>NULL</b> to indicate that the caller does not need this information.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-olecmdtext">OLECMDTEXT</a> structure in which to return name and/or status information of a single command. This parameter can be <b>NULL</b> to indicate that the caller does not need this information.
 
 
 ## -returns
@@ -158,7 +158,7 @@ Callers use <b>QueryStatus</b> to determine which commands are supported by a ta
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-_tagolecmd">OLECMD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-olecmd">OLECMD</a>
 
 
 
@@ -166,7 +166,7 @@ Callers use <b>QueryStatus</b> to determine which commands are supported by a ta
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-_tagolecmdtext">OLECMDTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-olecmdtext">OLECMDTEXT</a>
  
 
  

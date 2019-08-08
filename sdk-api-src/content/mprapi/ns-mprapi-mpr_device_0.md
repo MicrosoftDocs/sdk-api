@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 1814c428-1a3c-45f3-8b15-182e1eceff7b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMPR_DEVICE_0, MPR_DEVICE_0, MPR_DEVICE_0 structure [RAS], PMPR_DEVICE_0, PMPR_DEVICE_0 structure pointer [RAS], _mpr_mpr_device_0, mprapi/MPR_DEVICE_0, mprapi/PMPR_DEVICE_0, rras.mpr_device_0"
+ms.keywords: '*PMPR_DEVICE_0, MPR_DEVICE_0, MPR_DEVICE_0 structure [RAS], PMPR_DEVICE_0, PMPR_DEVICE_0 structure pointer [RAS], _mpr_mpr_device_0, mprapi/MPR_DEVICE_0, mprapi/PMPR_DEVICE_0, rras.mpr_device_0'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/MPR_DEVICE_0"
+f1_keywords:
+- mprapi/MPR_DEVICE_0
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - MPR_DEVICE_0
+- MPR_DEVICE_0
 product: Windows
 targetos: Windows
 req.typenames: MPR_DEVICE_0, *PMPR_DEVICE_0
@@ -63,7 +63,7 @@ The
 ### -field szDeviceType
 
 Specifies a null-terminated string that indicates the RAS device type referenced by <b>szDeviceName</b>. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_interface_2">MPR_INTERFACE_2</a> for a list of possible device types.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_2">MPR_INTERFACE_2</a> for a list of possible device types.
 
 
 ### -field szDeviceName
@@ -76,7 +76,7 @@ Specifies a null-terminated string that contains the name of the TAPI device to 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_device_1">MPR_DEVICE_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_device_1">MPR_DEVICE_1</a>
 
 
 

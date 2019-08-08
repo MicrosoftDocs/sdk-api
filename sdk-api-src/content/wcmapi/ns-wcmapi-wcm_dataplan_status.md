@@ -8,10 +8,10 @@ tech.root: wcm
 ms.assetid: 6ed0f05c-a9f8-49bb-9fb0-b91af8594d76
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWCM_DATAPLAN_STATUS, PWCM_DATAPLAN_STATUS, PWCM_DATAPLAN_STATUS structure pointer [Windows Connection Manager], WCM_DATAPLAN_STATUS, WCM_DATAPLAN_STATUS structure [Windows Connection Manager], wcm.wcm_dataplan_status, wcmapi/PWCM_DATAPLAN_STATUS, wcmapi/WCM_DATAPLAN_STATUS"
+ms.keywords: '*PWCM_DATAPLAN_STATUS, PWCM_DATAPLAN_STATUS, PWCM_DATAPLAN_STATUS structure pointer [Windows Connection Manager], WCM_DATAPLAN_STATUS, WCM_DATAPLAN_STATUS structure [Windows Connection Manager], wcm.wcm_dataplan_status, wcmapi/PWCM_DATAPLAN_STATUS, wcmapi/WCM_DATAPLAN_STATUS'
 ms.topic: struct
-f1_keywords: 
- - "wcmapi/WCM_DATAPLAN_STATUS"
+f1_keywords:
+- wcmapi/WCM_DATAPLAN_STATUS
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wcmapi.h
+- Wcmapi.h
 api_name:
- - WCM_DATAPLAN_STATUS
+- WCM_DATAPLAN_STATUS
 product: Windows
 targetos: Windows
 req.typenames: WCM_DATAPLAN_STATUS, *PWCM_DATAPLAN_STATUS
@@ -61,7 +61,7 @@ The <b>WCM_DATAPLAN_STATUS</b> structure specifies subscription information for 
 
 ### -field UsageData
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_usage_data">WCM_USAGE_DATA</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_usage_data">WCM_USAGE_DATA</a></b>
 
 Contains usage data.
 
@@ -117,7 +117,7 @@ Reserved.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_usage_data">WCM_USAGE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_usage_data">WCM_USAGE_DATA</a>
  
 
  

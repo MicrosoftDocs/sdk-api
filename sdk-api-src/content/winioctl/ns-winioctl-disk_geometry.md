@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 5e5955b4-1319-42c9-9df8-9910c05dec69
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDISK_GEOMETRY, DISK_GEOMETRY, DISK_GEOMETRY structure [Files], _win32_disk_geometry_str, base.disk_geometry_str, fs.disk_geometry_str, winioctl/DISK_GEOMETRY"
+ms.keywords: '*PDISK_GEOMETRY, DISK_GEOMETRY, DISK_GEOMETRY structure [Files], _win32_disk_geometry_str, base.disk_geometry_str, fs.disk_geometry_str, winioctl/DISK_GEOMETRY'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/DISK_GEOMETRY"
+f1_keywords:
+- winioctl/DISK_GEOMETRY
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - DISK_GEOMETRY
+- DISK_GEOMETRY
 product: Windows
 targetos: Windows
 req.typenames: DISK_GEOMETRY, *PDISK_GEOMETRY
@@ -66,7 +66,7 @@ The number of cylinders. See <a href="https://docs.microsoft.com/windows/desktop
 ### -field MediaType
 
 The type of media. For a list of values, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_media_type">MEDIA_TYPE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-media_type">MEDIA_TYPE</a>.
 
 
 ### -field TracksPerCylinder
@@ -97,7 +97,7 @@ The number of bytes per sector.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_media_type">MEDIA_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-media_type">MEDIA_TYPE</a>
  
 
  

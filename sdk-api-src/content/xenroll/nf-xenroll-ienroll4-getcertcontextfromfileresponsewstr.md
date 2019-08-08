@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],getCertContextFromFileResponseWStr method, IEnroll4.getCertContextFromFileResponseWStr, IEnroll4::getCertContextFromFileResponseWStr, getCertContextFromFileResponseWStr, getCertContextFromFileResponseWStr method [Security], getCertContextFromFileResponseWStr method [Security],IEnroll4 interface, security.ienroll4_getcertcontextfromfileresponsewstr, xenroll/IEnroll4::getCertContextFromFileResponseWStr
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll4.getCertContextFromFileResponseWStr"
+f1_keywords:
+- xenroll/IEnroll4.getCertContextFromFileResponseWStr
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll4.getCertContextFromFileResponseWStr
+- IEnroll4.getCertContextFromFileResponseWStr
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ A pointer to a null-terminated wide character string that represents the name of
 
 ### -param ppCertContext [out]
 
-A pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that receives the certificate retrieved from the response.
+A pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that receives the certificate retrieved from the response.
 
 
 ## -remarks

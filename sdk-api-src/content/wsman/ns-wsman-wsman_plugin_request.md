@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_REQUEST, WSMAN_PLUGIN_REQUEST structure [Windows Remote Management], winrm.wsman_plugin_request, wsman/WSMAN_PLUGIN_REQUEST
 ms.topic: struct
-f1_keywords: 
- - "wsman/WSMAN_PLUGIN_REQUEST"
+f1_keywords:
+- wsman/WSMAN_PLUGIN_REQUEST
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_PLUGIN_REQUEST
+- WSMAN_PLUGIN_REQUEST
 product: Windows
 targetos: Windows
 req.typenames: WSMAN_PLUGIN_REQUEST
@@ -63,7 +63,7 @@ pointer to match the result with the request.  All information in the structure 
 
 ### -field senderDetails
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that specifies details about the client that initiated the request.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that specifies details about the client that initiated the request.
 
 
 ### -field locale
@@ -84,7 +84,7 @@ Specifies the <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-
 
 ### -field operationInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_operation_info">WSMAN_OPERATION_INFO</a> structure that contains extra information about the operation.  Some of the information in this structure will be <b>NULL</b> because not all of the parameters are relevant to all operations.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_operation_info">WSMAN_OPERATION_INFO</a> structure that contains extra information about the operation.  Some of the information in this structure will be <b>NULL</b> because not all of the parameters are relevant to all operations.
 
 
 ### -field shutdownNotification

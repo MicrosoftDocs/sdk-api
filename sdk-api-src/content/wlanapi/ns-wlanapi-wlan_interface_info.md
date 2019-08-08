@@ -8,10 +8,10 @@ tech.root: NativeWiFi
 ms.assetid: 906e7d59-ebd0-47e7-985e-f5d313f19ecb
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_INTERFACE_INFO, PWLAN_INTERFACE_INFO, PWLAN_INTERFACE_INFO structure pointer [NativeWIFI], WLAN_INTERFACE_INFO, WLAN_INTERFACE_INFO structure [NativeWIFI], nwifi.wlan_interface_info, wlanapi/PWLAN_INTERFACE_INFO, wlanapi/WLAN_INTERFACE_INFO"
+ms.keywords: '*PWLAN_INTERFACE_INFO, PWLAN_INTERFACE_INFO, PWLAN_INTERFACE_INFO structure pointer [NativeWIFI], WLAN_INTERFACE_INFO, WLAN_INTERFACE_INFO structure [NativeWIFI], nwifi.wlan_interface_info, wlanapi/PWLAN_INTERFACE_INFO, wlanapi/WLAN_INTERFACE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wlanapi/WLAN_INTERFACE_INFO"
+f1_keywords:
+- wlanapi/WLAN_INTERFACE_INFO
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - WLAN_INTERFACE_INFO
+- WLAN_INTERFACE_INFO
 product: Windows
 targetos: Windows
 req.typenames: WLAN_INTERFACE_INFO, *PWLAN_INTERFACE_INFO
@@ -81,7 +81,7 @@ Contains a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_interface_info_list">WLAN_INTERFACE_INFO_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_info_list">WLAN_INTERFACE_INFO_LIST</a>
  
 
  

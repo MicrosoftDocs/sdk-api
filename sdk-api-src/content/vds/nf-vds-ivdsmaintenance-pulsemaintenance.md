@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsMaintenance interface [VDS],PulseMaintenance method, IVdsMaintenance.PulseMaintenance, IVdsMaintenance::PulseMaintenance, PulseMaintenance, PulseMaintenance method [VDS], PulseMaintenance method [VDS],IVdsMaintenance interface, base.ivdsmaintenance_pulsemaintenance, vds/IVdsMaintenance::PulseMaintenance, vdshwprv/IVdsMaintenance::PulseMaintenance
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsMaintenance.PulseMaintenance"
+f1_keywords:
+- vds/IVdsMaintenance.PulseMaintenance
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsMaintenance.PulseMaintenance
+- IVdsMaintenance.PulseMaintenance
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Performs the specified operation a specified number of times.
 
 ### -param operation [in]
 
-A maintenance operation enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_maintenance_operation">VDS_MAINTENANCE_OPERATION</a>.
+A maintenance operation enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_maintenance_operation">VDS_MAINTENANCE_OPERATION</a>.
 
 
 ### -param ulCount [in]
@@ -186,7 +186,7 @@ If the operation is already running, this method causes it to pulse the specifie
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_maintenance_operation">VDS_MAINTENANCE_OPERATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_maintenance_operation">VDS_MAINTENANCE_OPERATION</a>
  
 
  

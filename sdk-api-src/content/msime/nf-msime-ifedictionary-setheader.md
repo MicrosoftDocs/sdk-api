@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFEDictionary interface [Internationalization for Windows Applications],SetHeader method, IFEDictionary.SetHeader, IFEDictionary::SetHeader, SetHeader, SetHeader method [Internationalization for Windows Applications], SetHeader method [Internationalization for Windows Applications],IFEDictionary interface, intl.ifedictionary_setheader, msime/IFEDictionary::SetHeader
 ms.topic: method
-f1_keywords: 
- - "msime/IFEDictionary.SetHeader"
+f1_keywords:
+- msime/IFEDictionary.SetHeader
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msime.h
+- Msime.h
 api_name:
- - IFEDictionary.SetHeader
+- IFEDictionary.SetHeader
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ This method sets or modifies the dictionary header of this <a href="https://docs
 
 ### -param pshf [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imeshf">IMESHF</a> header to set.
+The <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a> header to set.
 
 
 ## -returns
@@ -84,7 +84,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imeshf">IMESHF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a>
  
 
  

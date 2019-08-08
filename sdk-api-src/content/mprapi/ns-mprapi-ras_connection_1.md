@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 5f6c6895-4baf-46d7-865a-b95342b70abb
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRAS_CONNECTION_1, PRAS_CONNECTION_1, PRAS_CONNECTION_1 structure pointer [RAS], RAS_CONNECTION_1, RAS_CONNECTION_1 structure [RAS], _mpr_ras_connection_1, mprapi/PRAS_CONNECTION_1, mprapi/RAS_CONNECTION_1, rras.ras_connection_1"
+ms.keywords: '*PRAS_CONNECTION_1, PRAS_CONNECTION_1, PRAS_CONNECTION_1 structure pointer [RAS], RAS_CONNECTION_1, RAS_CONNECTION_1 structure [RAS], _mpr_ras_connection_1, mprapi/PRAS_CONNECTION_1, mprapi/RAS_CONNECTION_1, rras.ras_connection_1'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/RAS_CONNECTION_1"
+f1_keywords:
+- mprapi/RAS_CONNECTION_1
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - RAS_CONNECTION_1
+- RAS_CONNECTION_1
 product: Windows
 targetos: Windows
 req.typenames: RAS_CONNECTION_1, *PRAS_CONNECTION_1
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>RAS_CONNECTION_1</b> structure contains detailed information regarding a specific connection, such as error counts and bytes received. For more general information about a specific connection, such as user name or domain, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_0">RAS_CONNECTION_0</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_0">RAS_CONNECTION_0</a>.
 
 
 ## -struct-fields
@@ -73,7 +73,7 @@ A handle to the interface.
 
 ### -field PppInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_info">PPP_INFO</a> structure that contains Point-to-Point (PPP) projection operation information for a connection.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_info">PPP_INFO</a> structure that contains Point-to-Point (PPP) projection operation information for a connection.
 
 
 ### -field dwBytesXmited
@@ -157,15 +157,15 @@ A value that specifies the percentage by which data transmitted on this connecti
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_0">RAS_CONNECTION_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_0">RAS_CONNECTION_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_2">RAS_CONNECTION_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_2">RAS_CONNECTION_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_3">RAS_CONNECTION_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_3">RAS_CONNECTION_3</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NSPStartup, NSPStartup function [Winsock], _win32_nspstartup_2, winsock.nspstartup_2, ws2spi/NSPStartup
 ms.topic: function
-f1_keywords: 
- - "ws2spi/NSPStartup"
+f1_keywords:
+- ws2spi/NSPStartup
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ws2spi.h
+- Ws2spi.h
 api_name:
- - NSPStartup
+- NSPStartup
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ The desired provider from which to return the entry points.
 
 ### -param lpnspRoutines [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_nsp_routine">NSP_ROUTINE</a> structure that points to provider entry points if the function call is successful.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-nsp_routine">NSP_ROUTINE</a> structure that points to provider entry points if the function call is successful.
 
 
 ## -returns
@@ -151,7 +151,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-nsp
 
 
 
-For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_nsp_routine">NSP_ROUTINE</a> structure.
+For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-nsp_routine">NSP_ROUTINE</a> structure.
 
 
 
@@ -165,7 +165,7 @@ For more information, see the <a href="https://docs.microsoft.com/windows/deskto
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_nsp_routine">NSP_ROUTINE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-nsp_routine">NSP_ROUTINE</a>
 
 
 

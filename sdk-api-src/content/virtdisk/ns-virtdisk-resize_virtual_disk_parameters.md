@@ -8,10 +8,10 @@ tech.root: VStor
 ms.assetid: ff44f07a-67d1-4ad3-be2b-0aea1d3c4a6a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRESIZE_VIRTUAL_DISK_PARAMETERS, PRESIZE_VIRTUAL_DISK_PARAMETERS, PRESIZE_VIRTUAL_DISK_PARAMETERS structure pointer [Virtual Storage], RESIZE_VIRTUAL_DISK_PARAMETERS, RESIZE_VIRTUAL_DISK_PARAMETERS structure [Virtual Storage], _RESIZE_VIRTUAL_DISK_PARAMETERS, virtdisk/PRESIZE_VIRTUAL_DISK_PARAMETERS, virtdisk/RESIZE_VIRTUAL_DISK_PARAMETERS, vstor.resize_virtual_disk_parameters"
+ms.keywords: '*PRESIZE_VIRTUAL_DISK_PARAMETERS, PRESIZE_VIRTUAL_DISK_PARAMETERS, PRESIZE_VIRTUAL_DISK_PARAMETERS structure pointer [Virtual Storage], RESIZE_VIRTUAL_DISK_PARAMETERS, RESIZE_VIRTUAL_DISK_PARAMETERS structure [Virtual Storage], _RESIZE_VIRTUAL_DISK_PARAMETERS, virtdisk/PRESIZE_VIRTUAL_DISK_PARAMETERS, virtdisk/RESIZE_VIRTUAL_DISK_PARAMETERS, vstor.resize_virtual_disk_parameters'
 ms.topic: struct
-f1_keywords: 
- - "virtdisk/RESIZE_VIRTUAL_DISK_PARAMETERS"
+f1_keywords:
+- virtdisk/RESIZE_VIRTUAL_DISK_PARAMETERS
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VirtDisk.h
+- VirtDisk.h
 api_name:
- - RESIZE_VIRTUAL_DISK_PARAMETERS
+- RESIZE_VIRTUAL_DISK_PARAMETERS
 product: Windows
 targetos: Windows
 req.typenames: RESIZE_VIRTUAL_DISK_PARAMETERS, *PRESIZE_VIRTUAL_DISK_PARAMETERS
@@ -63,7 +63,7 @@ Contains the parameters for a
 ### -field Version
 
 Discriminant for the union containing a value enumerated from the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ne-virtdisk-_resize_virtual_disk_version">RESIZE_VIRTUAL_DISK_VERSION</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ne-virtdisk-resize_virtual_disk_version">RESIZE_VIRTUAL_DISK_VERSION</a> 
       enumeration.
 
 
@@ -83,7 +83,7 @@ Contains the new size of the virtual disk.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ne-virtdisk-_resize_virtual_disk_version">RESIZE_VIRTUAL_DISK_VERSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ne-virtdisk-resize_virtual_disk_version">RESIZE_VIRTUAL_DISK_VERSION</a>
 
 
 

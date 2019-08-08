@@ -8,10 +8,10 @@ tech.root: bluetooth
 ms.assetid: b0f2c1fe-1fa0-4816-8471-73fbbced529b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PBTH_DEVICE_INFO, *PBTH_DEVICE_INFO structure [Bluetooth], BDIF_ADDRESS, BDIF_COD, BDIF_CONNECTED, BDIF_NAME, BDIF_PAIRED, BDIF_PERSONAL, BDIF_SSP_MITM_PROTECTED, BDIF_SSP_PAIRED, BDIF_SSP_SUPPORTED, BTH_DEVICE_INFO, BTH_DEVICE_INFO structure [Bluetooth], COD_MAJOR_AUDIO, COD_MAJOR_COMPUTER, COD_MAJOR_IMAGING, COD_MAJOR_LAN_ACCESS, COD_MAJOR_MISCELLANEOUS, COD_MAJOR_PERIPHERAL, COD_MAJOR_PHONE, COD_MAJOR_UNCLASSIFIED, COD_SERVICE_AUDIO, COD_SERVICE_CAPTURING, COD_SERVICE_INFORMATION, COD_SERVICE_LIMITED, COD_SERVICE_NETWORKING, COD_SERVICE_OBJECT_XFER, COD_SERVICE_POSITIONING, COD_SERVICE_RENDERING, COD_SERVICE_TELEPHONY, bluetooth.bth_device_info, bthdef/*PBTH_DEVICE_INFO, bthdef/BTH_DEVICE_INFO"
+ms.keywords: '*PBTH_DEVICE_INFO, *PBTH_DEVICE_INFO structure [Bluetooth], BDIF_ADDRESS, BDIF_COD, BDIF_CONNECTED, BDIF_NAME, BDIF_PAIRED, BDIF_PERSONAL, BDIF_SSP_MITM_PROTECTED, BDIF_SSP_PAIRED, BDIF_SSP_SUPPORTED, BTH_DEVICE_INFO, BTH_DEVICE_INFO structure [Bluetooth], COD_MAJOR_AUDIO, COD_MAJOR_COMPUTER, COD_MAJOR_IMAGING, COD_MAJOR_LAN_ACCESS, COD_MAJOR_MISCELLANEOUS, COD_MAJOR_PERIPHERAL, COD_MAJOR_PHONE, COD_MAJOR_UNCLASSIFIED, COD_SERVICE_AUDIO, COD_SERVICE_CAPTURING, COD_SERVICE_INFORMATION, COD_SERVICE_LIMITED, COD_SERVICE_NETWORKING, COD_SERVICE_OBJECT_XFER, COD_SERVICE_POSITIONING, COD_SERVICE_RENDERING, COD_SERVICE_TELEPHONY, bluetooth.bth_device_info, bthdef/*PBTH_DEVICE_INFO, bthdef/BTH_DEVICE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "bthdef/BTH_DEVICE_INFO"
+f1_keywords:
+- bthdef/BTH_DEVICE_INFO
 req.header: bthdef.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bthdef.h
+- Bthdef.h
 api_name:
- - BTH_DEVICE_INFO
+- BTH_DEVICE_INFO
 product: Windows
 targetos: Windows
 req.typenames: BTH_DEVICE_INFO, *PBTH_DEVICE_INFO
@@ -295,15 +295,15 @@ Name of the remote Bluetooth device, as reported by the device, encoded in UTF8.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2bth/ns-ws2bth-_bth_query_device">BTH_QUERY_DEVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2bth/ns-ws2bth-bth_query_device">BTH_QUERY_DEVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2bth/ns-ws2bth-_bth_query_service">BTH_QUERY_SERVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2bth/ns-ws2bth-bth_query_service">BTH_QUERY_SERVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2bth/ns-ws2bth-_bth_set_service">BTH_SET_SERVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2bth/ns-ws2bth-bth_set_service">BTH_SET_SERVICE</a>
 
 
 

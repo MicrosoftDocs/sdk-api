@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_FILE_SYSTEM_FLAG, VDS_FILE_SYSTEM_FLAG enumeration [VDS], VDS_FSF_ALLOCATION_UNIT_128K, VDS_FSF_ALLOCATION_UNIT_16K, VDS_FSF_ALLOCATION_UNIT_1K, VDS_FSF_ALLOCATION_UNIT_256K, VDS_FSF_ALLOCATION_UNIT_2K, VDS_FSF_ALLOCATION_UNIT_32K, VDS_FSF_ALLOCATION_UNIT_4K, VDS_FSF_ALLOCATION_UNIT_512, VDS_FSF_ALLOCATION_UNIT_64K, VDS_FSF_ALLOCATION_UNIT_8K, VDS_FSF_SUPPORT_COMPRESS, VDS_FSF_SUPPORT_EXTEND, VDS_FSF_SUPPORT_FORMAT, VDS_FSF_SUPPORT_MOUNT_POINT, VDS_FSF_SUPPORT_QUICK_FORMAT, VDS_FSF_SUPPORT_REMOVABLE_MEDIA, VDS_FSF_SUPPORT_SPECIFY_LABEL, base.vds_file_system_flag, vds/VDS_FILE_SYSTEM_FLAG, vds/VDS_FSF_ALLOCATION_UNIT_128K, vds/VDS_FSF_ALLOCATION_UNIT_16K, vds/VDS_FSF_ALLOCATION_UNIT_1K, vds/VDS_FSF_ALLOCATION_UNIT_256K, vds/VDS_FSF_ALLOCATION_UNIT_2K, vds/VDS_FSF_ALLOCATION_UNIT_32K, vds/VDS_FSF_ALLOCATION_UNIT_4K, vds/VDS_FSF_ALLOCATION_UNIT_512, vds/VDS_FSF_ALLOCATION_UNIT_64K, vds/VDS_FSF_ALLOCATION_UNIT_8K, vds/VDS_FSF_SUPPORT_COMPRESS, vds/VDS_FSF_SUPPORT_EXTEND, vds/VDS_FSF_SUPPORT_FORMAT, vds/VDS_FSF_SUPPORT_MOUNT_POINT, vds/VDS_FSF_SUPPORT_QUICK_FORMAT, vds/VDS_FSF_SUPPORT_REMOVABLE_MEDIA, vds/VDS_FSF_SUPPORT_SPECIFY_LABEL
 ms.topic: enum
-f1_keywords: 
- - "vds/VDS_FILE_SYSTEM_FLAG"
+f1_keywords:
+- vds/VDS_FILE_SYSTEM_FLAG
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - VDS_FILE_SYSTEM_FLAG
+- VDS_FILE_SYSTEM_FLAG
 product: Windows
 targetos: Windows
 req.typenames: VDS_FILE_SYSTEM_FLAG
@@ -150,7 +150,7 @@ If set, the file system supports allocation units of 256 kilobytes.
 
 
 
-This enumeration provides the values for the <i>ulFlags</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_file_system_prop">VDS_FILE_SYSTEM_PROP</a>structure. The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf-setfilesystemflags">SetFileSystemFlags</a> method passes the value as an argument to set the <b>VDS_FPF_COMPRESSED</b> flag.
+This enumeration provides the values for the <i>ulFlags</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_file_system_prop">VDS_FILE_SYSTEM_PROP</a>structure. The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf-setfilesystemflags">SetFileSystemFlags</a> method passes the value as an argument to set the <b>VDS_FPF_COMPRESSED</b> flag.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_FILE_SYSTEM_FLAG</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_FILE_SYSTEM_FLAG</b> enumeration constant.</div>
 <div> </div>
@@ -166,7 +166,7 @@ This enumeration provides the values for the <i>ulFlags</i> member of the <a hre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_file_system_prop">VDS_FILE_SYSTEM_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_file_system_prop">VDS_FILE_SYSTEM_PROP</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_OPERATION_INFO, WSMAN_OPERATION_INFO structure [Windows Remote Management], winrm.wsman_operation_info, wsman/WSMAN_OPERATION_INFO
 ms.topic: struct
-f1_keywords: 
- - "wsman/WSMAN_OPERATION_INFO"
+f1_keywords:
+- wsman/WSMAN_OPERATION_INFO
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_OPERATION_INFO
+- WSMAN_OPERATION_INFO
 product: Windows
 targetos: Windows
 req.typenames: WSMAN_OPERATION_INFO
@@ -61,22 +61,22 @@ Represents a specific resource endpoint for which the plug-in must perform the r
 
 ### -field fragment
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_fragment">WSMAN_FRAGMENT</a> structure that specifies the subset of data to be used for the operation. This parameter is reserved for future use and is ignored on receipt.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_fragment">WSMAN_FRAGMENT</a> structure that specifies the subset of data to be used for the operation. This parameter is reserved for future use and is ignored on receipt.
 
 
 ### -field filter
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_filter">WSMAN_FILTER</a> structure that specifies the filtering that is used for the operation. This parameter is reserved for future use and is ignored on receipt.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_filter">WSMAN_FILTER</a> structure that specifies the filtering that is used for the operation. This parameter is reserved for future use and is ignored on receipt.
 
 
 ### -field selectorSet
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_selector_set">WSMAN_SELECTOR_SET</a> structure that identifies the specific resource to use for the request.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_selector_set">WSMAN_SELECTOR_SET</a> structure that identifies the specific resource to use for the request.
 
 
 ### -field optionSet
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_option_set">WSMAN_OPTION_SET</a> structure that specifies the set of options for the request.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_option_set">WSMAN_OPTION_SET</a> structure that specifies the set of options for the request.
 
 
 ### -field reserved

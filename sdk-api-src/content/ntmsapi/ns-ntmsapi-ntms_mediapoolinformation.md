@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NTMS_ALLOCATE_FROMSCRATCH, NTMS_DEALLOCATE_TOSCRATCH, NTMS_MEDIAPOOLINFORMATION, NTMS_MEDIAPOOLINFORMATION structure [Files], NTMS_POOLTYPE_APPLICATION, NTMS_POOLTYPE_FOREIGN, NTMS_POOLTYPE_IMPORT, NTMS_POOLTYPE_SCRATCH, NTMS_POOLTYPE_UNKNOWN, _zaw_ntms_mediapoolinformation, base.ntms_mediapoolinformation, fs.ntms_mediapoolinformation, ntmsapi/NTMS_MEDIAPOOLINFORMATION
 ms.topic: struct
-f1_keywords: 
- - "ntmsapi/NTMS_MEDIAPOOLINFORMATION"
+f1_keywords:
+- ntmsapi/NTMS_MEDIAPOOLINFORMATION
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntmsapi.h
+- Ntmsapi.h
 api_name:
- - NTMS_MEDIAPOOLINFORMATION
+- NTMS_MEDIAPOOLINFORMATION
 product: Windows
 targetos: Windows
 req.typenames: NTMS_MEDIAPOOLINFORMATION
@@ -213,7 +213,7 @@ Number of media pools in this media pool.
 
 The 
 <b>NTMS_MEDIAPOOLINFORMATION</b> structure is included in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
 
 
@@ -223,7 +223,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
  
 
  

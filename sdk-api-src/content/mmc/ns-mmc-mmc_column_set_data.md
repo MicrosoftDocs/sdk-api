@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_COLUMN_SET_DATA, MMC_COLUMN_SET_DATA structure [MMC], _slate_mmc_column_set_data, mmc.mmc_column_set_data, mmc/MMC_COLUMN_SET_DATA
 ms.topic: struct
-f1_keywords: 
- - "mmc/MMC_COLUMN_SET_DATA"
+f1_keywords:
+- mmc/MMC_COLUMN_SET_DATA
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - MMC_COLUMN_SET_DATA
+- MMC_COLUMN_SET_DATA
 product: Windows
 targetos: Windows
 req.typenames: MMC_COLUMN_SET_DATA
@@ -78,7 +78,7 @@ The number of columns in the column set.
 ### -field pColData
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_column_data">MMC_COLUMN_DATA</a> structures that contains the persisted column set data.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_column_data">MMC_COLUMN_DATA</a> structures that contains the persisted column set data.
 
 
 ## -see-also

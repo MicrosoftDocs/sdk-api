@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERTENROLL_PROPERTYID, CERTENROLL_PROPERTYID enumeration [Security], XCN_CERT_ACCESS_STATE_PROP_ID, XCN_CERT_AIA_URL_RETRIEVED_PROP_ID, XCN_CERT_ARCHIVED_KEY_HASH_PROP_ID, XCN_CERT_ARCHIVED_PROP_ID, XCN_CERT_AUTHORITY_INFO_ACCESS_PROP_ID, XCN_CERT_AUTO_ENROLL_PROP_ID, XCN_CERT_AUTO_ENROLL_RETRY_PROP_ID, XCN_CERT_BACKED_UP_PROP_ID, XCN_CERT_CEP_PROP_ID, XCN_CERT_CROSS_CERT_DIST_POINTS_PROP_ID, XCN_CERT_CTL_USAGE_PROP_ID, XCN_CERT_DATE_STAMP_PROP_ID, XCN_CERT_DESCRIPTION_PROP_ID, XCN_CERT_EFS_PROP_ID, XCN_CERT_ENHKEY_USAGE_PROP_ID, XCN_CERT_ENROLLMENT_PROP_ID, XCN_CERT_EXTENDED_ERROR_INFO_PROP_ID, XCN_CERT_FIRST_RESERVED_PROP_ID, XCN_CERT_FIRST_USER_PROP_ID, XCN_CERT_FORTEZZA_DATA_PROP_ID, XCN_CERT_FRIENDLY_NAME_PROP_ID, XCN_CERT_HASH_PROP_ID, XCN_CERT_IE30_RESERVED_PROP_ID, XCN_CERT_ISSUER_PUBLIC_KEY_MD5_HASH_PROP_ID, XCN_CERT_ISSUER_SERIAL_NUMBER_MD5_HASH_PROP_ID, XCN_CERT_KEY_CONTEXT_PROP_ID, XCN_CERT_KEY_IDENTIFIER_PROP_ID, XCN_CERT_KEY_PROV_HANDLE_PROP_ID, XCN_CERT_KEY_PROV_INFO_PROP_ID, XCN_CERT_KEY_SPEC_PROP_ID, XCN_CERT_LAST_RESERVED_PROP_ID, XCN_CERT_LAST_USER_PROP_ID, XCN_CERT_MD5_HASH_PROP_ID, XCN_CERT_NEW_KEY_PROP_ID, XCN_CERT_NEXT_UPDATE_LOCATION_PROP_ID, XCN_CERT_OCSP_RESPONSE_PROP_ID, XCN_CERT_PUBKEY_ALG_PARA_PROP_ID, XCN_CERT_PUBKEY_HASH_RESERVED_PROP_ID, XCN_CERT_PVK_FILE_PROP_ID, XCN_CERT_RENEWAL_PROP_ID, XCN_CERT_REQUEST_ORIGINATOR_PROP_ID, XCN_CERT_SHA1_HASH_PROP_ID, XCN_CERT_SIGNATURE_HASH_PROP_ID, XCN_CERT_SMART_CARD_DATA_PROP_ID, XCN_CERT_SOURCE_LOCATION_PROP_ID, XCN_CERT_SOURCE_URL_PROP_ID, XCN_CERT_STORE_LOCALIZED_NAME_PROP_ID, XCN_CERT_SUBJECT_NAME_MD5_HASH_PROP_ID, XCN_CERT_SUBJECT_PUBLIC_KEY_MD5_HASH_PROP_ID, XCN_PROPERTYID_NONE, certenroll/CERTENROLL_PROPERTYID, certenroll/XCN_CERT_ACCESS_STATE_PROP_ID, certenroll/XCN_CERT_AIA_URL_RETRIEVED_PROP_ID, certenroll/XCN_CERT_ARCHIVED_KEY_HASH_PROP_ID, certenroll/XCN_CERT_ARCHIVED_PROP_ID, certenroll/XCN_CERT_AUTHORITY_INFO_ACCESS_PROP_ID, certenroll/XCN_CERT_AUTO_ENROLL_PROP_ID, certenroll/XCN_CERT_AUTO_ENROLL_RETRY_PROP_ID, certenroll/XCN_CERT_BACKED_UP_PROP_ID, certenroll/XCN_CERT_CEP_PROP_ID, certenroll/XCN_CERT_CROSS_CERT_DIST_POINTS_PROP_ID, certenroll/XCN_CERT_CTL_USAGE_PROP_ID, certenroll/XCN_CERT_DATE_STAMP_PROP_ID, certenroll/XCN_CERT_DESCRIPTION_PROP_ID, certenroll/XCN_CERT_EFS_PROP_ID, certenroll/XCN_CERT_ENHKEY_USAGE_PROP_ID, certenroll/XCN_CERT_ENROLLMENT_PROP_ID, certenroll/XCN_CERT_EXTENDED_ERROR_INFO_PROP_ID, certenroll/XCN_CERT_FIRST_RESERVED_PROP_ID, certenroll/XCN_CERT_FIRST_USER_PROP_ID, certenroll/XCN_CERT_FORTEZZA_DATA_PROP_ID, certenroll/XCN_CERT_FRIENDLY_NAME_PROP_ID, certenroll/XCN_CERT_HASH_PROP_ID, certenroll/XCN_CERT_IE30_RESERVED_PROP_ID, certenroll/XCN_CERT_ISSUER_PUBLIC_KEY_MD5_HASH_PROP_ID, certenroll/XCN_CERT_ISSUER_SERIAL_NUMBER_MD5_HASH_PROP_ID, certenroll/XCN_CERT_KEY_CONTEXT_PROP_ID, certenroll/XCN_CERT_KEY_IDENTIFIER_PROP_ID, certenroll/XCN_CERT_KEY_PROV_HANDLE_PROP_ID, certenroll/XCN_CERT_KEY_PROV_INFO_PROP_ID, certenroll/XCN_CERT_KEY_SPEC_PROP_ID, certenroll/XCN_CERT_LAST_RESERVED_PROP_ID, certenroll/XCN_CERT_LAST_USER_PROP_ID, certenroll/XCN_CERT_MD5_HASH_PROP_ID, certenroll/XCN_CERT_NEW_KEY_PROP_ID, certenroll/XCN_CERT_NEXT_UPDATE_LOCATION_PROP_ID, certenroll/XCN_CERT_OCSP_RESPONSE_PROP_ID, certenroll/XCN_CERT_PUBKEY_ALG_PARA_PROP_ID, certenroll/XCN_CERT_PUBKEY_HASH_RESERVED_PROP_ID, certenroll/XCN_CERT_PVK_FILE_PROP_ID, certenroll/XCN_CERT_RENEWAL_PROP_ID, certenroll/XCN_CERT_REQUEST_ORIGINATOR_PROP_ID, certenroll/XCN_CERT_SHA1_HASH_PROP_ID, certenroll/XCN_CERT_SIGNATURE_HASH_PROP_ID, certenroll/XCN_CERT_SMART_CARD_DATA_PROP_ID, certenroll/XCN_CERT_SOURCE_LOCATION_PROP_ID, certenroll/XCN_CERT_SOURCE_URL_PROP_ID, certenroll/XCN_CERT_STORE_LOCALIZED_NAME_PROP_ID, certenroll/XCN_CERT_SUBJECT_NAME_MD5_HASH_PROP_ID, certenroll/XCN_CERT_SUBJECT_PUBLIC_KEY_MD5_HASH_PROP_ID, certenroll/XCN_PROPERTYID_NONE, security.certenroll_propertyid_enum
 ms.topic: enum
-f1_keywords: 
- - "certenroll/CERTENROLL_PROPERTYID"
+f1_keywords:
+- certenroll/CERTENROLL_PROPERTYID
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CertEnroll.h
+- CertEnroll.h
 api_name:
- - CERTENROLL_PROPERTYID
+- CERTENROLL_PROPERTYID
 product: Windows
 targetos: Windows
 req.typenames: CERTENROLL_PROPERTYID
@@ -113,7 +113,7 @@ The handle of the private key associated with the certificate.
 
 ### -field XCN_CERT_KEY_PROV_INFO_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
+Data type: pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
 
 The structure contains information about a CSP key container or a Cryptography API: Next Generation (CNG) key. This is used to acquire a handle to the private key. We recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertykeyprovinfo">ICertPropertyKeyProvInfo</a> interface to initialize and retrieve this property.
 
@@ -141,7 +141,7 @@ The <i>pbData</i> structure member points to a byte array that contains a hash o
 
 ### -field XCN_CERT_KEY_CONTEXT_PROP_ID
 
-Data type: pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_context">CERT_KEY_CONTEXT</a> structure.
+Data type: pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a> structure.
 
 The structure contains the information necessary to retrieve a key, including the CSP or key service provider (KSP) handle and a value that indicates whether the key is used for signing or encryption.
 
@@ -150,7 +150,7 @@ The structure contains the information necessary to retrieve a key, including th
 
 Data type: pointer to a <b>DWORD</b>.
 
-The <b>DWORD</b> contains a value that identifies whether the key is used for signing or for encryption and whether the key is associated with a CNG KSP. This is the same as the value specified in the <i>dwKeySpec</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_context">CERT_KEY_CONTEXT</a> structure. This value can be a bitwise-<b>OR</b> combination of the following values:<ul>
+The <b>DWORD</b> contains a value that identifies whether the key is used for signing or for encryption and whether the key is associated with a CNG KSP. This is the same as the value specified in the <i>dwKeySpec</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a> structure. This value can be a bitwise-<b>OR</b> combination of the following values:<ul>
 <li>AT_KEYEXCHANGE</li>
 <li>AT_SIGNATURE</li>
 <li>CERT_NCRYPT_KEY_SPEC</li>
@@ -198,7 +198,7 @@ CTL_USAGE;</code></pre>
 
 Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
-The <i>pbData</i> structure member points to a byte array that contains a DER-encoded <b>AlternativeNames</b> extension in a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure. You can encode the structure by using the CryptoAPI <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function and setting the <i>lpszStructType</i> parameter to <b>X509_ALTERNATE_NAME</b>.
+The <i>pbData</i> structure member points to a byte array that contains a DER-encoded <b>AlternativeNames</b> extension in a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure. You can encode the structure by using the CryptoAPI <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function and setting the <i>lpszStructType</i> parameter to <b>X509_ALTERNATE_NAME</b>.
 
 
 ### -field XCN_CERT_FRIENDLY_NAME_PROP_ID
@@ -288,7 +288,7 @@ The <i>pbData</i> structure member points to the DER-encoded public key algorith
 
 Data type: pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure.
 
-The <i>pbData</i> structure member points to a byte array that contains a DER-encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cross_cert_dist_points_info">CROSS_CERT_DIST_POINTS_INFO</a> structure. You can encode the structure by using the CryptoAPI <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function and setting the <i>lpszStructType</i> parameter to <b>X509_CROSS_CERT_DIST_POINTS</b>.
+The <i>pbData</i> structure member points to a byte array that contains a DER-encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cross_cert_dist_points_info">CROSS_CERT_DIST_POINTS_INFO</a> structure. You can encode the structure by using the CryptoAPI <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function and setting the <i>lpszStructType</i> parameter to <b>X509_CROSS_CERT_DIST_POINTS</b>.
 
 
 ### -field XCN_CERT_ISSUER_PUBLIC_KEY_MD5_HASH_PROP_ID

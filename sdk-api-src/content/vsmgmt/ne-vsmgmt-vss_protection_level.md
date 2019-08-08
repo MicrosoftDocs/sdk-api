@@ -8,10 +8,10 @@ tech.root: VSS
 ms.assetid: f4c036ac-13fb-47be-8ad8-32c65caf0a2a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVSS_PROTECTION_LEVEL, VSS_PROTECTION_LEVEL, VSS_PROTECTION_LEVEL enumeration, VSS_PROTECTION_LEVEL_ORIGINAL_VOLUME, VSS_PROTECTION_LEVEL_SNAPSHOT, base.vss_protection_level, vsmgmt/VSS_PROTECTION_LEVEL, vsmgmt/VSS_PROTECTION_LEVEL_ORIGINAL_VOLUME, vsmgmt/VSS_PROTECTION_LEVEL_SNAPSHOT"
+ms.keywords: '*PVSS_PROTECTION_LEVEL, VSS_PROTECTION_LEVEL, VSS_PROTECTION_LEVEL enumeration, VSS_PROTECTION_LEVEL_ORIGINAL_VOLUME, VSS_PROTECTION_LEVEL_SNAPSHOT, base.vss_protection_level, vsmgmt/VSS_PROTECTION_LEVEL, vsmgmt/VSS_PROTECTION_LEVEL_ORIGINAL_VOLUME, vsmgmt/VSS_PROTECTION_LEVEL_SNAPSHOT'
 ms.topic: enum
-f1_keywords: 
- - "vsmgmt/VSS_PROTECTION_LEVEL"
+f1_keywords:
+- vsmgmt/VSS_PROTECTION_LEVEL
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VsMgmt.h
+- VsMgmt.h
 api_name:
- - VSS_PROTECTION_LEVEL
+- VSS_PROTECTION_LEVEL
 product: Windows
 targetos: Windows
 req.typenames: VSS_PROTECTION_LEVEL, *PVSS_PROTECTION_LEVEL
@@ -103,11 +103,11 @@ When a volume is in shadow copy protection mode, requesters must set shadow copy
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ne-vsmgmt-_vss_protection_fault">VSS_PROTECTION_FAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ne-vsmgmt-vss_protection_fault">VSS_PROTECTION_FAULT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-_vss_volume_protection_info">VSS_VOLUME_PROTECTION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_volume_protection_info">VSS_VOLUME_PROTECTION_INFO</a>
  
 
  

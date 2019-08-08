@@ -8,10 +8,10 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\ofnotifyex.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPOFNOTIFYEXA, LPOFNOTIFYEX, LPOFNOTIFYEX structure pointer [Dialog Boxes], OFNOTIFYEX, OFNOTIFYEX structure [Dialog Boxes], OFNOTIFYEXA, OFNOTIFYEXW, _win32_OFNOTIFYEX_str, _win32_ofnotifyex_str_cpp, commdlg/LPOFNOTIFYEX, commdlg/OFNOTIFYEX, commdlg/OFNOTIFYEXA, commdlg/OFNOTIFYEXW, dlgbox.ofnotifyex_str, winui._win32_ofnotifyex_str"
+ms.keywords: '*LPOFNOTIFYEXA, LPOFNOTIFYEX, LPOFNOTIFYEX structure pointer [Dialog Boxes], OFNOTIFYEX, OFNOTIFYEX structure [Dialog Boxes], OFNOTIFYEXA, OFNOTIFYEXW, _win32_OFNOTIFYEX_str, _win32_ofnotifyex_str_cpp, commdlg/LPOFNOTIFYEX, commdlg/OFNOTIFYEX, commdlg/OFNOTIFYEXA, commdlg/OFNOTIFYEXW, dlgbox.ofnotifyex_str, winui._win32_ofnotifyex_str'
 ms.topic: struct
-f1_keywords: 
- - "commdlg/OFNOTIFYEX"
+f1_keywords:
+- commdlg/OFNOTIFYEX
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commdlg.h
+- Commdlg.h
 api_name:
- - OFNOTIFYEX
- - OFNOTIFYEXA
- - OFNOTIFYEXW
+- OFNOTIFYEX
+- OFNOTIFYEXA
+- OFNOTIFYEXW
 product: Windows
 targetos: Windows
 req.typenames: OFNOTIFYEXA, *LPOFNOTIFYEXA
@@ -63,7 +63,7 @@ Contains information about a <a href="https://docs.microsoft.com/windows/desktop
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 The <b>code</b> member of this structure identifies the notification message being sent. 
 
@@ -110,7 +110,7 @@ A pointer to an item identifier list that identifies an item in the container id
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-_ofnotifya">OFNOTIFY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-ofnotifya">OFNOTIFY</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_SOAPUDP_URL, WS_SOAPUDP_URL structure [Web Services for Windows], webservices/WS_SOAPUDP_URL, wsw.ws_soapudp_url
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_SOAPUDP_URL"
+f1_keywords:
+- webservices/WS_SOAPUDP_URL
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SOAPUDP_URL
+- WS_SOAPUDP_URL
 product: Windows
 targetos: Windows
 req.typenames: WS_SOAPUDP_URL
@@ -116,15 +116,15 @@ If used with the <a href="https://docs.microsoft.com/windows/desktop/api/webserv
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_https_url">WS_HTTPS_URL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_https_url">WS_HTTPS_URL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_url">WS_HTTP_URL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_url">WS_HTTP_URL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_nettcp_url">WS_NETTCP_URL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_nettcp_url">WS_NETTCP_URL</a>
  
 
  

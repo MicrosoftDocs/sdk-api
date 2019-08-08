@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventSetInformation, EventSetInformation function [ETW], etw.eventsetinformation, evntprov/EventSetInformation
 ms.topic: function
-f1_keywords: 
- - "evntprov/EventSetInformation"
+f1_keywords:
+- evntprov/EventSetInformation
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-eventing-provider-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Eventing-Provider-L1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-eventing-provider-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Eventing-Provider-L1-1-1.dll
 api_name:
- - EventSetInformation
+- EventSetInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ Registration handle returned by
 
 ### -param InformationClass [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ne-evntprov-_event_info_class">EVENT_INFO_CLASS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ne-evntprov-event_info_class">EVENT_INFO_CLASS</a></b>
 
 Type of operation to be performed on the registration object.
 
@@ -153,7 +153,7 @@ Use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-f
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ne-evntprov-_event_info_class">EVENT_INFO_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ne-evntprov-event_info_class">EVENT_INFO_CLASS</a>
 
 
 

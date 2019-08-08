@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BG_FILE_PROGRESS, BG_FILE_PROGRESS structure [BITS], _drz_bg_file_progress, bits.bg_file_progress, bits/BG_FILE_PROGRESS
 ms.topic: struct
-f1_keywords: 
- - "bits/BG_FILE_PROGRESS"
+f1_keywords:
+- bits/BG_FILE_PROGRESS
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bits.h
+- Bits.h
 api_name:
- - BG_FILE_PROGRESS
+- BG_FILE_PROGRESS
 product: Windows
 targetos: Windows
 req.typenames: BG_FILE_PROGRESS
@@ -101,11 +101,11 @@ Note that the progress values will be set back to zero if the time stamp of the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-_bg_job_progress">BG_JOB_PROGRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_job_progress">BG_JOB_PROGRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-_bg_job_reply_progress">BG_JOB_REPLY_PROGRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-bg_job_reply_progress">BG_JOB_REPLY_PROGRESS</a>
 
 
 

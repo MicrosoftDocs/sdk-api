@@ -8,10 +8,10 @@ tech.root: gdi
 ms.assetid: 3eac0b23-3138-4b34-9c16-6cc185e4de22
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPRGNDATA, *NPRGNDATA, *PRGNDATA, PRGNDATA, PRGNDATA structure pointer [Windows GDI], RGNDATA, RGNDATA structure [Windows GDI], _RGNDATA, _win32_RGNDATA_str, gdi.rgndata, wingdi/PRGNDATA, wingdi/RGNDATA"
+ms.keywords: '*LPRGNDATA, *NPRGNDATA, *PRGNDATA, PRGNDATA, PRGNDATA structure pointer [Windows GDI], RGNDATA, RGNDATA structure [Windows GDI], _RGNDATA, _win32_RGNDATA_str, gdi.rgndata, wingdi/PRGNDATA, wingdi/RGNDATA'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/RGNDATA"
+f1_keywords:
+- wingdi/RGNDATA
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - RGNDATA
+- RGNDATA
 product: Windows
 targetos: Windows
 req.typenames: RGNDATA, *PRGNDATA, *NPRGNDATA, *LPRGNDATA
@@ -64,7 +64,7 @@ The <b>RGNDATA</b> structure contains a header and an array of rectangles that c
 
 ### -field rdh
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_rgndataheader">RGNDATAHEADER</a> structure. The members of this structure specify the type of region (whether it is rectangular or trapezoidal), the number of rectangles that make up the region, the size of the buffer that contains the rectangle structures, and so on.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndataheader">RGNDATAHEADER</a> structure. The members of this structure specify the type of region (whether it is rectangular or trapezoidal), the number of rectangles that make up the region, the size of the buffer that contains the rectangle structures, and so on.
 
 
 ### -field Buffer
@@ -81,7 +81,7 @@ Specifies an arbitrary-size buffer that contains the <a href="/windows/desktop/a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_rgndataheader">RGNDATAHEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndataheader">RGNDATAHEADER</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateItem, CreateItem method [Windows Shell], CreateItem method [Windows Shell],ITransferDestination interface, ITransferDestination interface [Windows Shell],CreateItem method, ITransferDestination.CreateItem, ITransferDestination::CreateItem, _shell_ITransferDestination_CreateItem, shell.ITransferDestination_CreateItem, shobjidl_core/ITransferDestination::CreateItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITransferDestination.CreateItem"
+f1_keywords:
+- shobjidl_core/ITransferDestination.CreateItem
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ITransferDestination.CreateItem
+- ITransferDestination.CreateItem
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ A pointer to a null-terminated buffer that contains the name of the file relativ
 
 Type: <b>DWORD</b>
 
-One or more of the FILE_ATTRIBUTE flags defined in the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_by_handle_file_information">BY_HANDLE_FILE_INFORMATION</a> structure. The most significant value is FILE_ATTRIBUTE_DIRECTORY, which indicates that a folder should be created.
+One or more of the FILE_ATTRIBUTE flags defined in the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-by_handle_file_information">BY_HANDLE_FILE_INFORMATION</a> structure. The most significant value is FILE_ATTRIBUTE_DIRECTORY, which indicates that a folder should be created.
 
 
 ### -param ullSize [in]

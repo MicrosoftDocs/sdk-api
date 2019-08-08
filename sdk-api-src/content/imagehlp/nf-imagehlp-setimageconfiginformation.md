@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetImageConfigInformation, SetImageConfigInformation function, _win32_setimageconfiginformation, base.setimageconfiginformation, imagehlp/SetImageConfigInformation
 ms.topic: function
-f1_keywords: 
- - "imagehlp/SetImageConfigInformation"
+f1_keywords:
+- imagehlp/SetImageConfigInformation
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Imagehlp.lib
 req.dll: Imagehlp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imagehlp.dll
+- Imagehlp.dll
 api_name:
- - SetImageConfigInformation
+- SetImageConfigInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ Locates and changes the load configuration data of an image.
 ### -param LoadedImage [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_loaded_image">LOADED_IMAGE</a> structure that is returned from a call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a> structure that is returned from a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a> or <b>LoadImage</b>.
 					
 
@@ -70,7 +70,7 @@ A pointer to a
 ### -param ImageConfigInformation [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_load_config_directory32">IMAGE_LOAD_CONFIG_DIRECTORY64</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_load_config_directory32">IMAGE_LOAD_CONFIG_DIRECTORY64</a> structure.
 
 
 ## -returns
@@ -106,7 +106,7 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_load_config_directory32">IMAGE_LOAD_CONFIG_DIRECTORY64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_load_config_directory32">IMAGE_LOAD_CONFIG_DIRECTORY64</a>
 
 
 
@@ -114,7 +114,7 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_loaded_image">LOADED_IMAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_NAME_STR_CRLF_FLAG, CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG, CERT_NAME_STR_ENABLE_PUNYCODE_FLAG, CERT_NAME_STR_NO_PLUS_FLAG, CERT_NAME_STR_NO_QUOTING_FLAG, CERT_NAME_STR_REVERSE_FLAG, CERT_NAME_STR_SEMICOLON_FLAG, CERT_OID_NAME_STR, CERT_SIMPLE_NAME_STR, CERT_X500_NAME_STR, CertNameToStr, CertNameToStr function [Security], CertNameToStrA, CertNameToStrW, X509_ASN_ENCODING, _crypto2_certnametostr, security.certnametostr, wincrypt/CertNameToStr, wincrypt/CertNameToStrA, wincrypt/CertNameToStrW
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertNameToStr"
+f1_keywords:
+- wincrypt/CertNameToStr
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertNameToStr
- - CertNameToStrA
- - CertNameToStrW
+- CertNameToStr
+- CertNameToStrA
+- CertNameToStrW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -121,7 +121,7 @@ This parameter can be one of the following values.
 </td>
 <td width="60%">
 All <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) are discarded. 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn">CERT_RDN</a> entries are separated by a comma followed by a space (, ). Multiple attributes in a <b>CERT_RDN</b> are separated by a plus sign enclosed within spaces ( + ),  for example, Microsoft, Kim Abercrombie + Programmer.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> entries are separated by a comma followed by a space (, ). Multiple attributes in a <b>CERT_RDN</b> are separated by a plus sign enclosed within spaces ( + ),  for example, Microsoft, Kim Abercrombie + Programmer.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ All <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object i
 </dl>
 </td>
 <td width="60%">
-OIDs are included with an  equal sign (=) separator from their attribute value. <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn">CERT_RDN</a> entries are separated by a comma followed by a space (, ). Multiple attributes in a <b>CERT_RDN</b> are separated by a plus sign followed by a space (+ ).
+OIDs are included with an  equal sign (=) separator from their attribute value. <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> entries are separated by a comma followed by a space (, ). Multiple attributes in a <b>CERT_RDN</b> are separated by a plus sign followed by a space (+ ).
 
 </td>
 </tr>

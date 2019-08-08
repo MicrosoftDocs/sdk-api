@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILIsAligned, ILIsAligned function [Windows Shell], _shell_ILIsAligned, shell.ILIsAligned, shlobj_core/ILIsAligned
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/ILIsAligned"
+f1_keywords:
+- shlobj_core/ILIsAligned
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - ILIsAligned
+- ILIsAligned
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Verifies whether a constant <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> is aligned on a pointer boundary, which is a <b>DWORD</b> on 32-bit architectures and a <b>QWORD</b> on 64-bit architectures.
+Verifies whether a constant <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> is aligned on a pointer boundary, which is a <b>DWORD</b> on 32-bit architectures and a <b>QWORD</b> on 64-bit architectures.
 
 
 ## -parameters

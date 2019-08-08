@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassBitmapIndex, SetupDiGetClassBitmapIndex function [Device and Driver Installation], devinst.setupdigetclassbitmapindex, di-rtns_6c4b7a43-90cf-4f8a-9766-2ebe966fb8c0.xml, setupapi/SetupDiGetClassBitmapIndex
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiGetClassBitmapIndex"
+f1_keywords:
+- setupapi/SetupDiGetClassBitmapIndex
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupDiGetClassBitmapIndex
+- SetupDiGetClassBitmapIndex
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>SetupDiGetClassBitmapIndex</b> function retrieves the index of the mini-i
 
 ### -param ClassGuid [in, optional]
 
-A pointer to the GUID of the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a> for which to retrieve the mini-icon. This pointer is optional and can be <b>NULL</b>.
+A pointer to the GUID of the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> for which to retrieve the mini-icon. This pointer is optional and can be <b>NULL</b>.
 
 
 ### -param MiniIconIndex [out]

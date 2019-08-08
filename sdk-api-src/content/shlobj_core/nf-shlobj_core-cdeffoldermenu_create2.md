@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CDefFolderMenu_Create2, CDefFolderMenu_Create2 function [Windows Shell], _win32_CDefFolderMenu_Create2, shell.CDefFolderMenu_Create2, shlobj_core/CDefFolderMenu_Create2
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/CDefFolderMenu_Create2"
+f1_keywords:
+- shlobj_core/CDefFolderMenu_Create2
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.00 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - CDefFolderMenu_Create2
+- CDefFolderMenu_Create2
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Creates a context menu for a selected group of file folder objects.
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure for the parent folder. This value can be <b>NULL</b>.
+An <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure for the parent folder. This value can be <b>NULL</b>.
 
 
 ### -param hwnd [in, optional]
@@ -77,14 +77,14 @@ A handle to the parent window. This value can be <b>NULL</b>.
 
 Type: <b>UINT</b>
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structures in the array pointed to by <i>apidl</i>.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures in the array pointed to by <i>apidl</i>.
 
 
 ### -param apidl [in, optional]
 
 Type: <b>PCUITEMID_CHILD_ARRAY*</b>
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structures, one for each item that is selected.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures, one for each item that is selected.
 
 
 ### -param psf [in, optional]

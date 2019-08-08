@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WebSocketBeginServerHandshake, WebSocketBeginServerHandshake function [Websocket Protocol Component API], websock.websocketbeginserverhandshake, websocket/WebSocketBeginServerHandshake
 ms.topic: function
-f1_keywords: 
- - "websocket/WebSocketBeginServerHandshake"
+f1_keywords:
+- websocket/WebSocketBeginServerHandshake
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Websocket.lib
 req.dll: Websocket.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - websocket.dll
+- websocket.dll
 api_name:
- - WebSocketBeginServerHandshake
+- WebSocketBeginServerHandshake
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -89,9 +89,9 @@ Number of extensions in <i>pszExtensionSelected</i>.
 
 ### -param pRequestHeaders [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_http_header">PWEB_SOCKET_HTTP_HEADER</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">PWEB_SOCKET_HTTP_HEADER</a></b>
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a> structures that contain the request headers received by the application.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a> structures that contain the request headers received by the application.
 
 
 ### -param ulRequestHeaderCount [in]
@@ -103,9 +103,9 @@ Number of request headers in <i>pRequestHeaders</i>.
 
 ### -param pResponseHeaders [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_http_header">PWEB_SOCKET_HTTP_HEADER</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">PWEB_SOCKET_HTTP_HEADER</a>*</b>
 
-On successful output, a pointer to an array or <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a> structures that contain the response headers to be sent by the application.
+On successful output, a pointer to an array or <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a> structures that contain the response headers to be sent by the application.
 
 
 ### -param pulResponseHeaderCount [out]
@@ -161,7 +161,7 @@ To complete the server-side handshake, applications must call <a href="https://d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a>
 
 
 

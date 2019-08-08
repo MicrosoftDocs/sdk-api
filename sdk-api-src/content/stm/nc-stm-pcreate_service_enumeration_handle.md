@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateServiceEnumerationHandle, CreateServiceEnumerationHandle callback function [RAS], PCREATE_SERVICE_ENUMERATION_HANDLE, PCREATE_SERVICE_ENUMERATION_HANDLE callback, STM_ONLY_THIS_INTERFACE, STM_ONLY_THIS_PROTOCOL, STM_ONLY_THIS_TYPE, _mpr_createserviceenumerationhandle, rras.createserviceenumerationhandle, stm/CreateServiceEnumerationHandle
 ms.topic: callback
-f1_keywords: 
- - "stm/CreateServiceEnumerationHandle"
+f1_keywords:
+- stm/CreateServiceEnumerationHandle
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Stm.h
+- Stm.h
 api_name:
- - CreateServiceEnumerationHandle
+- CreateServiceEnumerationHandle
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -109,7 +109,7 @@ Enumerate only those services that have the same type as those in the <b>Service
 ### -param CriteriaService [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-_ipx_service">IPX_SERVICE</a> structure with member values that correspond to those specified in <i>ExclusionFlags</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a> structure with member values that correspond to those specified in <i>ExclusionFlags</i>.
 					
 
 
@@ -180,7 +180,7 @@ One of the  parameters is invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-_ipx_service">IPX_SERVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a>
 
 
 

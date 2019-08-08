@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_SYSTEM_STORE_LOCATION_MASK, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertEnumSystemStoreCallback, PFN_CERT_ENUM_SYSTEM_STORE, PFN_CERT_ENUM_SYSTEM_STORE callback, PFN_CERT_ENUM_SYSTEM_STORE callback function [Security], security.certenumsystemstorecallback, wincrypt/PFN_CERT_ENUM_SYSTEM_STORE
 ms.topic: callback
-f1_keywords: 
- - "wincrypt/PFN_CERT_ENUM_SYSTEM_STORE"
+f1_keywords:
+- wincrypt/PFN_CERT_ENUM_SYSTEM_STORE
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - PFN_CERT_ENUM_SYSTEM_STORE
+- PFN_CERT_ENUM_SYSTEM_STORE
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -103,7 +103,7 @@ If set, the <i>pvSystemStore</i> parameter points to a CERT_SYSTEM_STORE_RELOCAT
 ### -param pStoreInfo [in]
 
 A pointer to a 
-	    <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_system_store_info">CERT_SYSTEM_STORE_INFO</a> structure that contains information about the store.
+	    <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_system_store_info">CERT_SYSTEM_STORE_INFO</a> structure that contains information about the store.
 
 
 ### -param *pvReserved [in]

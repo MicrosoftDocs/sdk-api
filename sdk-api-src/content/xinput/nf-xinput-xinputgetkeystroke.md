@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XInputGetKeystroke, XInputGetKeystroke function [XInput Game Controller APIs], xinput.xinputgetkeystroke, xinput/XInputGetKeystroke
 ms.topic: function
-f1_keywords: 
- - "xinput/XInputGetKeystroke"
+f1_keywords:
+- xinput/XInputGetKeystroke
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Xinput.lib
 req.dll: Xinput1_4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - xinput1_4.dll
- - Ext-MS-Win-Gaming-XInput-L1-1-0.dll
- - xinputuap.dll
+- xinput1_4.dll
+- Ext-MS-Win-Gaming-XInput-L1-1-0.dll
+- xinputuap.dll
 api_name:
- - XInputGetKeystroke
+- XInputGetKeystroke
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ Retrieves a gamepad input event.
 
 ### -param pKeystroke
 
-[out] Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-_xinput_keystroke">XINPUT_KEYSTROKE</a> structure that receives an input event.
+[out] Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_keystroke">XINPUT_KEYSTROKE</a> structure that receives an input event.
 
 
 ## -returns
@@ -111,7 +111,7 @@ Windows 8 (XInput 1.4), DirectX SDK (XInput 1.3)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-_xinput_keystroke">XINPUT_KEYSTROKE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_keystroke">XINPUT_KEYSTROKE</a>
 
 
 

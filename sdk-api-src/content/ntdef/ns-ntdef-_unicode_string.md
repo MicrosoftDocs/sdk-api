@@ -6,10 +6,10 @@ old-location: kernel\unicode_string.htm
 tech.root: kernel
 ms.assetid: b02f29a9-1049-4e29-aac3-72bf0c70a21e
 ms.date: 04/30/2018
-ms.keywords: "*PUNICODE_STRING, PUNICODE_STRING, PUNICODE_STRING structure pointer [Kernel-Mode Driver Architecture], UNICODE_STRING, UNICODE_STRING structure [Kernel-Mode Driver Architecture], _UNICODE_STRING, kernel.unicode_string, kstruct_d_9f862aaa-4cd6-4420-8255-ad577d8a8c59.xml, ntdef/PUNICODE_STRING, ntdef/UNICODE_STRING"
+ms.keywords: '*PUNICODE_STRING, PUNICODE_STRING, PUNICODE_STRING structure pointer [Kernel-Mode Driver Architecture], UNICODE_STRING, UNICODE_STRING structure [Kernel-Mode Driver Architecture], _UNICODE_STRING, kernel.unicode_string, kstruct_d_9f862aaa-4cd6-4420-8255-ad577d8a8c59.xml, ntdef/PUNICODE_STRING, ntdef/UNICODE_STRING'
 ms.topic: struct
-f1_keywords: 
- - "ntdef/- UNICODE_STRING"
+f1_keywords:
+- ntdef/- UNICODE_STRING
 req.header: ntdef.h
 req.include-header: Wdm.h, Ntddk.h, Ntdef.h
 req.target-type: Windows
@@ -82,7 +82,7 @@ The **MaximumLength** is used to indicate the length of **Buffer** so that if th
 
 ## -see-also
 
-[ANSI_STRING](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string)
+[ANSI_STRING](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-string)
 
 [OEM_STRING](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff558741(v=vs.85))
 

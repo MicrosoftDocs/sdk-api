@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetService, GetService function [Winsock], GetServiceA, GetServiceW, NS_DEFAULT, NS_DNS, NS_NETBT, NS_SAP, NS_TCPIP_HOSTS, NS_TCPIP_LOCAL, PROP_ADDRESSES, PROP_ALL, PROP_COMMENT, PROP_DISPLAY_HINT, PROP_LOCALE, PROP_MACHINE, PROP_SD, PROP_START_TIME, PROP_VERSION, _win32_getservice_2, nspapi/GetService, nspapi/GetServiceA, nspapi/GetServiceW, winsock.getservice_2
 ms.topic: function
-f1_keywords: 
- - "nspapi/GetService"
+f1_keywords:
+- nspapi/GetService
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Mswsock.lib
 req.dll: Mswsock.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mswsock.dll
+- Mswsock.dll
 api_name:
- - GetService
- - GetServiceA
- - GetServiceW
+- GetService
+- GetServiceA
+- GetServiceW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 The 
 <b>GetService</b> function retrieves information about a network service in the context of a set of default namespaces or a specified namespace. The network service is specified by its type and name. The information about the service is obtained as a set of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_ns_service_infoa">NS_SERVICE_INFO</a> data structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-ns_service_infoa">NS_SERVICE_INFO</a> data structures.
 
 
 <div class="alert"><b>Note</b>  The 
@@ -168,7 +168,7 @@ A pointer to a zero-terminated string that uniquely represents the service name.
 ### -param dwProperties [in]
 
 A set of bit flags that specify the service information that the function retrieves. Each of these bit flag constants, other than PROP_ALL, corresponds to a particular member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a> data structure. If the flag is set, the function puts information into the corresponding member of the data structures stored in *<i>lpBuffer</i>. The following bit flags are defined.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> data structure. If the flag is set, the function puts information into the corresponding member of the data structures stored in *<i>lpBuffer</i>. The following bit flags are defined.
 
 <table>
 <tr>
@@ -272,17 +272,17 @@ If this flag is set, the function stores data in all of the members of the data 
 ### -param lpBuffer [out]
 
 A pointer to a buffer to receive an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_ns_service_infoa">NS_SERVICE_INFO</a> structures and associated service information. Each 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-ns_service_infoa">NS_SERVICE_INFO</a> structures and associated service information. Each 
 <b>NS_SERVICE_INFO</b> structure contains service information in the context of a particular namespace. Note that if <i>dwNameSpace</i> is NS_DEFAULT, the function stores more than one structure into the buffer; otherwise, just one structure is stored.
 
 Each 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_ns_service_infoa">NS_SERVICE_INFO</a> structure contains a 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a> structure. The members of these 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-ns_service_infoa">NS_SERVICE_INFO</a> structure contains a 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> structure. The members of these 
 <b>SERVICE_INFO</b> structures will contain valid data based on the bit flags that are set in the <i>dwProperties</i> parameter. If a member's corresponding bit flag is not set in <i>dwProperties</i>, the member's value is undefined.
 
 The function stores the 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_ns_service_infoa">NS_SERVICE_INFO</a> structures in a consecutive array, starting at the beginning of the buffer. The pointers in the contained 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a> structures point to information that is stored in the buffer between the end of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-ns_service_infoa">NS_SERVICE_INFO</a> structures in a consecutive array, starting at the beginning of the buffer. The pointers in the contained 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> structures point to information that is stored in the buffer between the end of the 
 <b>NS_SERVICE_INFO</b> structures and the end of the buffer.
 
 
@@ -301,7 +301,7 @@ Reserved for future use. Must be set to <b>NULL</b>.
 
 
 If the function succeeds, the return value is the number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_ns_service_infoa">NS_SERVICE_INFO</a> structures stored in *<i>lpBuffer</i>. Zero indicates that no structures were stored.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-ns_service_infoa">NS_SERVICE_INFO</a> structures stored in *<i>lpBuffer</i>. Zero indicates that no structures were stored.
 
 If the function fails, the return value is SOCKET_ERROR ( – 1). To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which returns one of the following extended error values.
@@ -344,11 +344,11 @@ The specified service was not found, or the specified namespace is not in use. T
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_ns_service_infoa">NS_SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-ns_service_infoa">NS_SERVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FhConfigMgr class [Windows API],GetIncludeExcludeRules method, GetIncludeExcludeRules, GetIncludeExcludeRules method [Windows API], GetIncludeExcludeRules method [Windows API],FhConfigMgr class, GetIncludeExcludeRules method [Windows API],IFhConfigMgr interface, IFhConfigMgr interface [Windows API],GetIncludeExcludeRules method, IFhConfigMgr.GetIncludeExcludeRules, IFhConfigMgr::GetIncludeExcludeRules, fhcfg/IFhConfigMgr::GetIncludeExcludeRules, winprog.ifhconfigmgr_getincludeexcluderules
 ms.topic: method
-f1_keywords: 
- - "fhcfg/IFhConfigMgr.GetIncludeExcludeRules"
+f1_keywords:
+- fhcfg/IFhConfigMgr.GetIncludeExcludeRules
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fhcfg.h
+- Fhcfg.h
 api_name:
- - IFhConfigMgr.GetIncludeExcludeRules
- - FhConfigMgr.GetIncludeExcludeRules
+- IFhConfigMgr.GetIncludeExcludeRules
+- FhConfigMgr.GetIncludeExcludeRules
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ If set to <b>TRUE</b>, inclusion rules are returned. If set to <b>FALSE</b>, exc
 
 ### -param Category [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_protected_item_category">FH_PROTECTED_ITEM_CATEGORY</a> enumeration value that specifies the type of the inclusion or exclusion rules.
+An <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_protected_item_category">FH_PROTECTED_ITEM_CATEGORY</a> enumeration value that specifies the type of the inclusion or exclusion rules.
 
 
 ### -param Iterator [out]
@@ -108,7 +108,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhco
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_protected_item_category">FH_PROTECTED_ITEM_CATEGORY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_protected_item_category">FH_PROTECTED_ITEM_CATEGORY</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AlphaBlend, AlphaBlend function [Windows GDI], _win32_AlphaBlend, gdi.alphablend, wingdi/AlphaBlend
 ms.topic: function
-f1_keywords: 
- - "wingdi/AlphaBlend"
+f1_keywords:
+- wingdi/AlphaBlend
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Msimg32.lib
 req.dll: Msimg32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msimg32.dll
- - ext-ms-win-msimg-draw-l1-1-0.dll
+- Msimg32.dll
+- ext-ms-win-msimg-draw-l1-1-0.dll
 api_name:
- - AlphaBlend
+- AlphaBlend
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -112,7 +112,7 @@ The height, in logical units, of the source rectangle.
 
 ### -param ftn [in]
 
-The alpha-blending function for source and destination bitmaps, a global alpha value to be applied to the entire source bitmap, and format information for the source bitmap. The source and destination blend functions are currently limited to AC_SRC_OVER. See the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_blendfunction">BLENDFUNCTION</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagemralphablend">EMRALPHABLEND</a> structures.
+The alpha-blending function for source and destination bitmaps, a global alpha value to be applied to the entire source bitmap, and format information for the source bitmap. The source and destination blend functions are currently limited to AC_SRC_OVER. See the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-blendfunction">BLENDFUNCTION</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagemralphablend">EMRALPHABLEND</a> structures.
 
 
 ## -returns
@@ -148,7 +148,7 @@ The source rectangle must lie completely within the source surface, otherwise an
 
 <b>AlphaBlend</b> fails if the width or height of the source or destination is negative.
 
-The <b>SourceConstantAlpha</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_blendfunction">BLENDFUNCTION</a> specifies an alpha transparency value to be used on the entire source bitmap. The <b>SourceConstantAlpha</b> value is combined with any per-pixel alpha values. If <b>SourceConstantAlpha</b> is 0, it is assumed that the image is transparent. Set the <b>SourceConstantAlpha</b> value to 255 (which indicates that the image is opaque) when you only want to use per-pixel alpha values.
+The <b>SourceConstantAlpha</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-blendfunction">BLENDFUNCTION</a> specifies an alpha transparency value to be used on the entire source bitmap. The <b>SourceConstantAlpha</b> value is combined with any per-pixel alpha values. If <b>SourceConstantAlpha</b> is 0, it is assumed that the image is transparent. Set the <b>SourceConstantAlpha</b> value to 255 (which indicates that the image is opaque) when you only want to use per-pixel alpha values.
 
 
 
@@ -158,7 +158,7 @@ The <b>SourceConstantAlpha</b> member of <a href="https://docs.microsoft.com/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_blendfunction">BLENDFUNCTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-blendfunction">BLENDFUNCTION</a>
 
 
 

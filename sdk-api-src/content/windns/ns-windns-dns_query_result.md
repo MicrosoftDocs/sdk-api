@@ -8,10 +8,10 @@ tech.root: DNS
 ms.assetid: 03EB1DC2-FAB0-45C5-B438-E8FFDD218F09
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_QUERY_RESULT, DNS_QUERY_REQUEST_VERSION1, DNS_QUERY_RESULT, DNS_QUERY_RESULT structure [DNS], PDNS_QUERY_RESULT, PDNS_QUERY_RESULT structure pointer [DNS], dns.dns_query_result, windns/DNS_QUERY_RESULT, windns/PDNS_QUERY_RESULT"
+ms.keywords: '*PDNS_QUERY_RESULT, DNS_QUERY_REQUEST_VERSION1, DNS_QUERY_RESULT, DNS_QUERY_RESULT structure [DNS], PDNS_QUERY_RESULT, PDNS_QUERY_RESULT structure pointer [DNS], dns.dns_query_result, windns/DNS_QUERY_RESULT, windns/PDNS_QUERY_RESULT'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_QUERY_RESULT"
+f1_keywords:
+- windns/DNS_QUERY_RESULT
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_QUERY_RESULT
+- DNS_QUERY_RESULT
 product: Windows
 targetos: Windows
 req.typenames: DNS_QUERY_RESULT, *PDNS_QUERY_RESULT
@@ -110,7 +110,7 @@ This value is reserved for future use and must be <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_query_cancel">DNS_QUERY_CANCEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_query_cancel">DNS_QUERY_CANCEL</a>
 
 
 
@@ -118,7 +118,7 @@ This value is reserved for future use and must be <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_query_request">DNS_QUERY_REQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_query_request">DNS_QUERY_REQUEST</a>
  
 
  

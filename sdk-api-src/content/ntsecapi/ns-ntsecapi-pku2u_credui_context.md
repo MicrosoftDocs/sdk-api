@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 38de5472-27f2-40d4-90e8-7b59d3982f03
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPKU2U_CREDUI_CONTEXT, PKU2U_CREDUI_CONTEXT, PKU2U_CREDUI_CONTEXT structure [Security], PPKU2U_CREDUI_CONTEXT, PPKU2U_CREDUI_CONTEXT structure pointer [Security], ntsecapi/PKU2U_CREDUI_CONTEXT, ntsecapi/PPKU2U_CREDUI_CONTEXT, security.pku2u_credui_context"
+ms.keywords: '*PPKU2U_CREDUI_CONTEXT, PKU2U_CREDUI_CONTEXT, PKU2U_CREDUI_CONTEXT structure [Security], PPKU2U_CREDUI_CONTEXT, PPKU2U_CREDUI_CONTEXT structure pointer [Security], ntsecapi/PKU2U_CREDUI_CONTEXT, ntsecapi/PPKU2U_CREDUI_CONTEXT, security.pku2u_credui_context'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/PKU2U_CREDUI_CONTEXT"
+f1_keywords:
+- ntsecapi/PKU2U_CREDUI_CONTEXT
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - PKU2U_CREDUI_CONTEXT
+- PKU2U_CREDUI_CONTEXT
 product: Windows
 targetos: Windows
 req.typenames: PKU2U_CREDUI_CONTEXT, *PPKU2U_CREDUI_CONTEXT
@@ -66,20 +66,20 @@ The version number of the context. This must be <b>PKU2U_CREDUI_CONTEXT_VERSION<
 
 ### -field cbHeaderLength
 
-The size, in bytes, of this structure, not including the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_pku2u_cert_blob">PKU2U_CERT_BLOB</a> structure that follows it.
+The size, in bytes, of this structure, not including the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-pku2u_cert_blob">PKU2U_CERT_BLOB</a> structure that follows it.
 
 
 ### -field cbStructureLength
 
-The size, in bytes, of this structure, including the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_pku2u_cert_blob">PKU2U_CERT_BLOB</a> structure that follows it.
+The size, in bytes, of this structure, including the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-pku2u_cert_blob">PKU2U_CERT_BLOB</a> structure that follows it.
 
 
 ### -field CertArrayCount
 
-The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_pku2u_cert_blob">PKU2U_CERT_BLOB</a> structure that follows this structure.
+The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-pku2u_cert_blob">PKU2U_CERT_BLOB</a> structure that follows this structure.
 
 
 ### -field CertArrayOffset
 
-The number of bytes from the beginning of this structure in memory to the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_pku2u_cert_blob">PKU2U_CERT_BLOB</a> structure that follows this structure.
+The number of bytes from the beginning of this structure in memory to the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-pku2u_cert_blob">PKU2U_CERT_BLOB</a> structure that follows this structure.
 

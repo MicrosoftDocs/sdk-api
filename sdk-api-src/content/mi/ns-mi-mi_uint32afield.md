@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Uint32AField, MI_Uint32AField structure [Windows Management Infrastructure (MI)], mi/MI_Uint32AField, wmi._mi_uint32afield, wmi_v2.mi_uint32afield
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_Uint32AField"
+f1_keywords:
+- mi/MI_Uint32AField
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Uint32AField
+- MI_Uint32AField
 product: Windows
 targetos: Windows
 req.typenames: MI_Uint32AField
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a property inside an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> structure.
+Represents a property inside an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Represents a property inside an <a href="https://docs.microsoft.com/previous-ver
 
 ### -field value
 
-A field of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_uint32a">MI_Uint32A</a>.
+A field of type <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_uint32a">MI_Uint32A</a>.
 
 
 ### -field exists

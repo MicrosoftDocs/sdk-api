@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUncompressedAudioFormat, GetUncompressedAudioFormat method [Audio Devices], GetUncompressedAudioFormat method [Audio Devices],IAudioMediaType interface, IAudioMediaType interface [Audio Devices],GetUncompressedAudioFormat method, IAudioMediaType.GetUncompressedAudioFormat, IAudioMediaType::GetUncompressedAudioFormat, audio.iaudiomediatype_getuncompressedaudioformat, audio_syseffects_r_2e6e3723-2bc2-4e75-b64d-9b577d7916d6.xml, audiomediatype/IAudioMediaType::GetUncompressedAudioFormat
 ms.topic: method
-f1_keywords: 
- - "audiomediatype/IAudioMediaType.GetUncompressedAudioFormat"
+f1_keywords:
+- audiomediatype/IAudioMediaType.GetUncompressedAudioFormat
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: All levels.
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audiomediatype.h
+- audiomediatype.h
 api_name:
- - IAudioMediaType.GetUncompressedAudioFormat
+- IAudioMediaType.GetUncompressedAudioFormat
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <code>IAudioMediaType::GetUncompressedAudioFormat</code> returns information
 
 ### -param pUncompressedAudioFormat [out]
 
-Specifies a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/ns-audiomediatype-_uncompressedaudioformat">UNCOMPRESSEDAUDIOFORMAT</a> structure.
+Specifies a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/ns-audiomediatype-uncompressedaudioformat">UNCOMPRESSEDAUDIOFORMAT</a> structure.
 
 
 ## -returns
@@ -87,7 +87,7 @@ The information that is returned is useful for uncompressed formats. However, th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/ns-audiomediatype-_uncompressedaudioformat">UNCOMPRESSEDAUDIOFORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/ns-audiomediatype-uncompressedaudioformat">UNCOMPRESSEDAUDIOFORMAT</a>
  
 
  

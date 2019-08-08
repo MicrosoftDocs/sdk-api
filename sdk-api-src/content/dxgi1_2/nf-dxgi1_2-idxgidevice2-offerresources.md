@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIDevice2 interface [DXGI],OfferResources method, IDXGIDevice2.OfferResources, IDXGIDevice2::OfferResources, OfferResources, OfferResources method [DXGI], OfferResources method [DXGI],IDXGIDevice2 interface, direct3ddxgi.idxgidevice2_offerresources, dxgi1_2/IDXGIDevice2::OfferResources
 ms.topic: method
-f1_keywords: 
- - "dxgi1_2/IDXGIDevice2.OfferResources"
+f1_keywords:
+- dxgi1_2/IDXGIDevice2.OfferResources
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIDevice2.OfferResources
+- IDXGIDevice2.OfferResources
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/
 
 ### -param Priority [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ne-dxgi1_2-_dxgi_offer_resource_priority">DXGI_OFFER_RESOURCE_PRIORITY</a>-typed value that indicates how valuable data is.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ne-dxgi1_2-dxgi_offer_resource_priority">DXGI_OFFER_RESOURCE_PRIORITY</a>-typed value that indicates how valuable data is.
 
 
 ## -returns

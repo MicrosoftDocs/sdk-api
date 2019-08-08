@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ConstReferenceAField, MI_ConstReferenceAField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstReferenceAField, wmi._mi_constreferenceafield, wmi_v2.mi_constreferenceafield
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_ConstReferenceAField"
+f1_keywords:
+- mi/MI_ConstReferenceAField
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_ConstReferenceAField
+- MI_ConstReferenceAField
 product: Windows
 targetos: Windows
 req.typenames: MI_ConstReferenceAField
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a property inside an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> structure.
+Represents a property inside an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Represents a property inside an <a href="https://docs.microsoft.com/previous-ver
 
 ### -field value
 
-A field of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_constreferencea">MI_ConstReferenceA</a>.
+A field of type <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_constreferencea">MI_ConstReferenceA</a>.
 
 
 ### -field exists

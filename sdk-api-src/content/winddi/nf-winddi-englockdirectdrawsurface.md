@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngLockDirectDrawSurface, EngLockDirectDrawSurface function [Display Devices], display.englockdirectdrawsurface, gdifncs_f0027001-42bd-4f64-b5c0-c7ec3768f72c.xml, winddi/EngLockDirectDrawSurface
 ms.topic: function
-f1_keywords: 
- - "winddi/EngLockDirectDrawSurface"
+f1_keywords:
+- winddi/EngLockDirectDrawSurface
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngLockDirectDrawSurface
+- EngLockDirectDrawSurface
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Handle to the surface to be locked.
 
 
 
-<b>EngLockDirectDrawSurface</b> returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface information upon success. Otherwise, it returns a <b>NULL</b> pointer.
+<b>EngLockDirectDrawSurface</b> returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface information upon success. Otherwise, it returns a <b>NULL</b> pointer.
 
 
 
@@ -91,7 +91,7 @@ Upon completion of texturing, the driver must release the locked handle by calli
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
 
 
 

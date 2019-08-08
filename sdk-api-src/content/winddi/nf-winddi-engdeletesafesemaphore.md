@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngDeleteSafeSemaphore, EngDeleteSafeSemaphore function [Display Devices], display.engdeletesafesemaphore, gdifncs_ffbf0904-619e-48be-ada1-4269c8a92f55.xml, winddi/EngDeleteSafeSemaphore
 ms.topic: function
-f1_keywords: 
- - "winddi/EngDeleteSafeSemaphore"
+f1_keywords:
+- winddi/EngDeleteSafeSemaphore
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngDeleteSafeSemaphore
+- EngDeleteSafeSemaphore
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>EngDeleteSafeSemaphore</b> function removes a reference to the specified 
 
 ### -param pssem [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_engsafesemaphore">ENGSAFESEMAPHORE</a> structure that contains the safe semaphore from which to delete a reference.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-engsafesemaphore">ENGSAFESEMAPHORE</a> structure that contains the safe semaphore from which to delete a reference.
 
 
 ## -returns
@@ -92,7 +92,7 @@ Every caller of <b>EngInitializeSafeSemaphore</b> should call <b>EngDeleteSafeSe
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_engsafesemaphore">ENGSAFESEMAPHORE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-engsafesemaphore">ENGSAFESEMAPHORE</a>
 
 
 

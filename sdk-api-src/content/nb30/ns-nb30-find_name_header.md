@@ -8,10 +8,10 @@ tech.root: NetBIOS
 ms.assetid: 66b0cf77-3c25-4b00-9e9b-abc0442e3831
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFIND_NAME_HEADER, FIND_NAME_HEADER, FIND_NAME_HEADER structure [NetBIOS], PFIND_NAME_HEADER, PFIND_NAME_HEADER structure pointer [NetBIOS], nb30/FIND_NAME_HEADER, nb30/PFIND_NAME_HEADER, netbios.find_name_header"
+ms.keywords: '*PFIND_NAME_HEADER, FIND_NAME_HEADER, FIND_NAME_HEADER structure [NetBIOS], PFIND_NAME_HEADER, PFIND_NAME_HEADER structure pointer [NetBIOS], nb30/FIND_NAME_HEADER, nb30/PFIND_NAME_HEADER, netbios.find_name_header'
 ms.topic: struct
-f1_keywords: 
- - "nb30/FIND_NAME_HEADER"
+f1_keywords:
+- nb30/FIND_NAME_HEADER
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Nb30.h
+- Nb30.h
 api_name:
- - FIND_NAME_HEADER
+- FIND_NAME_HEADER
 product: Windows
 targetos: Windows
 req.typenames: FIND_NAME_HEADER, *PFIND_NAME_HEADER
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
 
-The <b>FIND_NAME_HEADER</b> structure contains information about a network name. This structure is followed by as many <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_find_name_buffer">FIND_NAME_BUFFER</a> structures as are required to describe the name.
+The <b>FIND_NAME_HEADER</b> structure contains information about a network name. This structure is followed by as many <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-find_name_buffer">FIND_NAME_BUFFER</a> structures as are required to describe the name.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ The <b>FIND_NAME_HEADER</b> structure contains information about a network name.
 
 ### -field node_count
 
-Specifies the number of nodes on which the specified name was found. This structure is followed by the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_find_name_buffer">FIND_NAME_BUFFER</a> structures specified by the <b>node_count</b> member.
+Specifies the number of nodes on which the specified name was found. This structure is followed by the number of <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-find_name_buffer">FIND_NAME_BUFFER</a> structures specified by the <b>node_count</b> member.
 
 
 ### -field reserved
@@ -81,7 +81,7 @@ Specifies whether the name is unique. This value is 0 to specify a unique name o
 
 
 
-The <b>FIND_NAME_HEADER</b> structure is pointed to by the <b>ncb_buffer</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a> structure when an application issues an <b>NCBFINDNAME</b> command.
+The <b>FIND_NAME_HEADER</b> structure is pointed to by the <b>ncb_buffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure when an application issues an <b>NCBFINDNAME</b> command.
 
 
 
@@ -95,11 +95,11 @@ The <b>FIND_NAME_HEADER</b> structure is pointed to by the <b>ncb_buffer</b> mem
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_find_name_buffer">FIND_NAME_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-find_name_buffer">FIND_NAME_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a>
 
 
 

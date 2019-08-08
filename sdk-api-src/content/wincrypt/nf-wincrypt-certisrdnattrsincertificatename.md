@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertIsRDNAttrsInCertificateName, CertIsRDNAttrsInCertificateName function [Security], _crypto2_certisrdnattrsincertificatename, security.certisrdnattrsincertificatename, wincrypt/CertIsRDNAttrsInCertificateName
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertIsRDNAttrsInCertificateName"
+f1_keywords:
+- wincrypt/CertIsRDNAttrsInCertificateName
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertIsRDNAttrsInCertificateName
+- CertIsRDNAttrsInCertificateName
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>CertIsRDNAttrsInCertificateName</b> function compares the attributes in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate name</a> with the specified 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn">CERT_RDN</a> to determine whether all attributes are included there. The comparison iterates through the <b>CERT_RDN</b> and looks for an attribute match in any of the <b>CERT_RDN</b>s of the certificate name.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> to determine whether all attributes are included there. The comparison iterates through the <b>CERT_RDN</b> and looks for an attribute match in any of the <b>CERT_RDN</b>s of the certificate name.
 
 
 ## -parameters
@@ -90,8 +90,8 @@ A pointer to a
 ### -param pRDN [in]
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn">CERT_RDN</a> structures that contain the attributes to be found in the name. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn_attr">CERT_RDN_ATTR</a> member of the <b>CERT_RDN</b> structure behaves according to the following rules.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> structures that contain the attributes to be found in the name. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> member of the <b>CERT_RDN</b> structure behaves according to the following rules.
 
 <ul>
 <li>If <b>pszObjId</b> is <b>NULL</b>, the attribute <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) is ignored.</li>
@@ -103,9 +103,9 @@ Array of
 
 
 
-If the function succeeds and all of the RDN values in the specified <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn">CERT_RDN</a> are in the certificate name, the return value is nonzero (<b>TRUE</b>).
+If the function succeeds and all of the RDN values in the specified <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> are in the certificate name, the return value is nonzero (<b>TRUE</b>).
 
-If the function fails, or if there are  RDN values in the specified <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn">CERT_RDN</a> that are not in the certificate name, the return value is zero (<b>FALSE</b>). For extended error information, call 
+If the function fails, or if there are  RDN values in the specified <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> that are not in the certificate name, the return value is zero (<b>FALSE</b>). For extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following table lists some possible error codes.

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WofSetFileDataLocation, WofSetFileDataLocation function [Files], fs.wofsetfiledatalocation, wofapi/WofSetFileDataLocation
 ms.topic: function
-f1_keywords: 
- - "wofapi/WofSetFileDataLocation"
+f1_keywords:
+- wofapi/WofSetFileDataLocation
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wofutil.lib
 req.dll: Wofutil.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wofutil.dll
+- wofutil.dll
 api_name:
- - WofSetFileDataLocation
+- WofSetFileDataLocation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -91,13 +91,13 @@ Provides data specific to the specified provider. Data structures for each defin
 <tr>
 <td>WOF_PROVIDER_WIM</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wofapi/ns-wofapi-_wim_external_file_info">WIM_EXTERNAL_FILE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wofapi/ns-wofapi-wim_external_file_info">WIM_EXTERNAL_FILE_INFO</a>
 </td>
 </tr>
 <tr>
 <td>WOF_PROVIDER_FILE</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wofapi/ns-wofapi-_wof_file_compression_info_v1">WOF_FILE_COMPRESSION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wofapi/ns-wofapi-wof_file_compression_info_v1">WOF_FILE_COMPRESSION_INFO</a>
 </td>
 </tr>
 </table>

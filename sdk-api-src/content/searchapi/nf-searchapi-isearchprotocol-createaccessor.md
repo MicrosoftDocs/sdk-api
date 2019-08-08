@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateAccessor, CreateAccessor method [search], CreateAccessor method [search],ISearchProtocol interface, ISearchProtocol interface [search],CreateAccessor method, ISearchProtocol.CreateAccessor, ISearchProtocol::CreateAccessor, _search_ISearchProtocol_CreateAccessor, search._search_ISearchProtocol_CreateAccessor, searchapi/ISearchProtocol::CreateAccessor
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchProtocol.CreateAccessor"
+f1_keywords:
+- searchapi/ISearchProtocol.CreateAccessor
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchProtocol.CreateAccessor
+- ISearchProtocol.CreateAccessor
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,25 +70,25 @@ Pointer to a null-terminated Unicode string containing the URL of the item being
 
 ### -param pAuthenticationInfo [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_authentication_info">AUTHENTICATION_INFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-authentication_info">AUTHENTICATION_INFO</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_authentication_info">AUTHENTICATION_INFO</a> structure that contains authentication information necessary for accessing this item in the content source. 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-authentication_info">AUTHENTICATION_INFO</a> structure that contains authentication information necessary for accessing this item in the content source. 
                 
 
 
 ### -param pIncrementalAccessInfo [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_incremental_access_info">INCREMENTAL_ACCESS_INFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-incremental_access_info">INCREMENTAL_ACCESS_INFO</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_incremental_access_info">INCREMENTAL_ACCESS_INFO</a> structure that contains incremental access information, such as the last time the file was accessed by the gatherer. 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-incremental_access_info">INCREMENTAL_ACCESS_INFO</a> structure that contains incremental access information, such as the last time the file was accessed by the gatherer. 
                 
 
 
 ### -param pItemInfo [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_item_info">ITEM_INFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-item_info">ITEM_INFO</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_item_info">ITEM_INFO</a> structure that contains information about the URL item, such as the name of the item's workspace catalog.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-item_info">ITEM_INFO</a> structure that contains information about the URL item, such as the name of the item's workspace catalog.
                 
 
 

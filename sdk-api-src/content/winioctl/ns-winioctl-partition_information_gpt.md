@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 373b4eb3-af6d-4112-9787-f14c19972189
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPARTITION_INFORMATION_GPT, GPT_ATTRIBUTE_PLATFORM_REQUIRED, GPT_BASIC_DATA_ATTRIBUTE_HIDDEN, GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER, GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY, GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY, PARTITION_BASIC_DATA_GUID, PARTITION_ENTRY_UNUSED_GUID, PARTITION_INFORMATION_GPT, PARTITION_INFORMATION_GPT structure [Files], PARTITION_LDM_DATA_GUID, PARTITION_LDM_METADATA_GUID, PARTITION_MSFT_RECOVERY_GUID, PARTITION_MSFT_RESERVED_GUID, PARTITION_SYSTEM_GUID, PPARTITION_INFORMATION_GPT, PPARTITION_INFORMATION_GPT structure pointer [Files], SET_PARTITION_INFORMATION_GPT, _win32_partition_information_gpt_str, base.partition_information_gpt_str, fs.partition_information_gpt_str, winioctl/PARTITION_INFORMATION_GPT, winioctl/PPARTITION_INFORMATION_GPT"
+ms.keywords: '*PPARTITION_INFORMATION_GPT, GPT_ATTRIBUTE_PLATFORM_REQUIRED, GPT_BASIC_DATA_ATTRIBUTE_HIDDEN, GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER, GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY, GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY, PARTITION_BASIC_DATA_GUID, PARTITION_ENTRY_UNUSED_GUID, PARTITION_INFORMATION_GPT, PARTITION_INFORMATION_GPT structure [Files], PARTITION_LDM_DATA_GUID, PARTITION_LDM_METADATA_GUID, PARTITION_MSFT_RECOVERY_GUID, PARTITION_MSFT_RESERVED_GUID, PARTITION_SYSTEM_GUID, PPARTITION_INFORMATION_GPT, PPARTITION_INFORMATION_GPT structure pointer [Files], SET_PARTITION_INFORMATION_GPT, _win32_partition_information_gpt_str, base.partition_information_gpt_str, fs.partition_information_gpt_str, winioctl/PARTITION_INFORMATION_GPT, winioctl/PPARTITION_INFORMATION_GPT'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/PARTITION_INFORMATION_GPT"
+f1_keywords:
+- winioctl/PARTITION_INFORMATION_GPT
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - PARTITION_INFORMATION_GPT
+- PARTITION_INFORMATION_GPT
 product: Windows
 targetos: Windows
 req.typenames: PARTITION_INFORMATION_GPT, *PPARTITION_INFORMATION_GPT
@@ -335,7 +335,7 @@ Starting with
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information_ex">PARTITION_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a>
  
 
  

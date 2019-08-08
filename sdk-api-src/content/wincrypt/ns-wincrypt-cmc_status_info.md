@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 008f6de4-bad2-4c63-ba64-8d42ae71d50a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCMC_STATUS_INFO, CMC_FAIL_BAD_ALG, CMC_FAIL_BAD_CERT_ID, CMC_FAIL_BAD_IDENTITY, CMC_FAIL_BAD_MESSAGE_CHECK, CMC_FAIL_BAD_REQUEST, CMC_FAIL_BAD_TIME, CMC_FAIL_INTERNAL_CA_ERROR, CMC_FAIL_MUST_ARCHIVE_KEYS, CMC_FAIL_NO_KEY_REUSE, CMC_FAIL_POP_FAILED, CMC_FAIL_POP_REQUIRED, CMC_FAIL_TRY_LATER, CMC_FAIL_UNSUPORTED_EXT, CMC_STATUS_CONFIRM_REQUIRED, CMC_STATUS_FAILED, CMC_STATUS_INFO, CMC_STATUS_INFO structure [Security], CMC_STATUS_NO_SUPPORT, CMC_STATUS_PENDING, CMC_STATUS_SUCCESS, PCMC_STATUS_INFO, PCMC_STATUS_INFO structure pointer [Security], _crypto2_cmc_status_info, security.cmc_status_info, wincrypt/CMC_STATUS_INFO, wincrypt/PCMC_STATUS_INFO"
+ms.keywords: '*PCMC_STATUS_INFO, CMC_FAIL_BAD_ALG, CMC_FAIL_BAD_CERT_ID, CMC_FAIL_BAD_IDENTITY, CMC_FAIL_BAD_MESSAGE_CHECK, CMC_FAIL_BAD_REQUEST, CMC_FAIL_BAD_TIME, CMC_FAIL_INTERNAL_CA_ERROR, CMC_FAIL_MUST_ARCHIVE_KEYS, CMC_FAIL_NO_KEY_REUSE, CMC_FAIL_POP_FAILED, CMC_FAIL_POP_REQUIRED, CMC_FAIL_TRY_LATER, CMC_FAIL_UNSUPORTED_EXT, CMC_STATUS_CONFIRM_REQUIRED, CMC_STATUS_FAILED, CMC_STATUS_INFO, CMC_STATUS_INFO structure [Security], CMC_STATUS_NO_SUPPORT, CMC_STATUS_PENDING, CMC_STATUS_SUCCESS, PCMC_STATUS_INFO, PCMC_STATUS_INFO structure pointer [Security], _crypto2_cmc_status_info, security.cmc_status_info, wincrypt/CMC_STATUS_INFO, wincrypt/PCMC_STATUS_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMC_STATUS_INFO"
+f1_keywords:
+- wincrypt/CMC_STATUS_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMC_STATUS_INFO
+- CMC_STATUS_INFO
 product: Windows
 targetos: Windows
 req.typenames: CMC_STATUS_INFO, *PCMC_STATUS_INFO
@@ -317,7 +317,7 @@ Request failed for an unknown reason. The request should be reissued later.
 
 ### -field DUMMYUNIONNAME.pPendInfo
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmc_pend_info">CMC_PEND_INFO</a> structure member of the union. This member is used if <b>dwOtherInfoChoice</b> is CMC_OTHER_INFO_PEND_CHOICE.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_pend_info">CMC_PEND_INFO</a> structure member of the union. This member is used if <b>dwOtherInfoChoice</b> is CMC_OTHER_INFO_PEND_CHOICE.
 
 
 ## -remarks

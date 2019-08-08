@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMT_VIDEOIMAGE_SAMPLE, WMT_VIDEOIMAGE_SAMPLE structure [windows Media Format], wmformat.wmt_videoimage_sample, wmsdkidl/WMT_VIDEOIMAGE_SAMPLE
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WMT_VIDEOIMAGE_SAMPLE"
+f1_keywords:
+- wmsdkidl/WMT_VIDEOIMAGE_SAMPLE
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMT_VIDEOIMAGE_SAMPLE
+- WMT_VIDEOIMAGE_SAMPLE
 product: Windows
 targetos: Windows
 req.typenames: WMT_VIDEOIMAGE_SAMPLE
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This structure is no longer available for use as of the Windows Media Video 9 Image v2 codec. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__wmt_videoimage_sample2">WMT_VIDEOIMAGE_SAMPLE2</a>.]
+<p class="CCE_Message">[This structure is no longer available for use as of the Windows Media Video 9 Image v2 codec. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_videoimage_sample2">WMT_VIDEOIMAGE_SAMPLE2</a>.]
 
 The <b>WMT_VIDEOIMAGE_SAMPLE</b> structure describes a sample for a Video Image stream that uses the Windows Media Video 9 Image codec.
 

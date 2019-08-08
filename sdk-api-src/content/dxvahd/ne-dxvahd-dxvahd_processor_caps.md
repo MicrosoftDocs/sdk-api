@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_PROCESSOR_CAPS, DXVAHD_PROCESSOR_CAPS enumeration [Media Foundation], DXVAHD_PROCESSOR_CAPS_DEINTERLACE_ADAPTIVE, DXVAHD_PROCESSOR_CAPS_DEINTERLACE_BLEND, DXVAHD_PROCESSOR_CAPS_DEINTERLACE_BOB, DXVAHD_PROCESSOR_CAPS_DEINTERLACE_MOTION_COMPENSATION, DXVAHD_PROCESSOR_CAPS_FRAME_RATE_CONVERSION, DXVAHD_PROCESSOR_CAPS_INVERSE_TELECINE, dxvahd/DXVAHD_PROCESSOR_CAPS, dxvahd/DXVAHD_PROCESSOR_CAPS_DEINTERLACE_ADAPTIVE, dxvahd/DXVAHD_PROCESSOR_CAPS_DEINTERLACE_BLEND, dxvahd/DXVAHD_PROCESSOR_CAPS_DEINTERLACE_BOB, dxvahd/DXVAHD_PROCESSOR_CAPS_DEINTERLACE_MOTION_COMPENSATION, dxvahd/DXVAHD_PROCESSOR_CAPS_FRAME_RATE_CONVERSION, dxvahd/DXVAHD_PROCESSOR_CAPS_INVERSE_TELECINE, mf.dxvahd_processor_caps
 ms.topic: enum
-f1_keywords: 
- - "dxvahd/DXVAHD_PROCESSOR_CAPS"
+f1_keywords:
+- dxvahd/DXVAHD_PROCESSOR_CAPS
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - DXVAHD_PROCESSOR_CAPS
+- DXVAHD_PROCESSOR_CAPS
 product: Windows
 targetos: Windows
 req.typenames: DXVAHD_PROCESSOR_CAPS
@@ -91,7 +91,7 @@ The video processor  can perform motion-compensated deinterlacing.
 
 The video processor can perform inverse telecine (IVTC).
 
- If the video processor supports this capability, the <b>ITelecineCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_vpcaps">DXVAHD_VPCAPS</a> structure specifies which IVTC modes are supported.
+ If the video processor supports this capability, the <b>ITelecineCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpcaps">DXVAHD_VPCAPS</a> structure specifies which IVTC modes are supported.
 
 
 ### -field DXVAHD_PROCESSOR_CAPS_FRAME_RATE_CONVERSION

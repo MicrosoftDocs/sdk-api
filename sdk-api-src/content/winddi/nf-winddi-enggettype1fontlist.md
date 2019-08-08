@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngGetType1FontList, EngGetType1FontList function [Display Devices], display.enggettype1fontlist, gdifncs_66e06beb-5f9a-4184-9ab8-a0aca467e59d.xml, winddi/EngGetType1FontList
 ms.topic: function
-f1_keywords: 
- - "winddi/EngGetType1FontList"
+f1_keywords:
+- winddi/EngGetType1FontList
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngGetType1FontList
+- EngGetType1FontList
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Handle to the device. This is the GDI handle received by the driver as the <i>hd
 
 ### -param pType1Buffer [out, optional]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_type1_font">TYPE1_FONT</a> structures in which to store the Type 1 font list. This parameter can be <b>NULL</b>.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-type1_font">TYPE1_FONT</a> structures in which to store the Type 1 font list. This parameter can be <b>NULL</b>.
 
 
 ### -param cjType1Buffer [in]
@@ -114,7 +114,7 @@ If <i>pType1Buffer</i> is <b>NULL</b>, <b>EngGetType1FontList</b> returns only t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_type1_font">TYPE1_FONT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-type1_font">TYPE1_FONT</a>
  
 
  

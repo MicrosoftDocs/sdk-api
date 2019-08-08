@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVA2_NominalRange, DXVA2_NominalRange enumeration [Media Foundation], DXVA2_NominalRangeMask, DXVA2_NominalRange_0_255, DXVA2_NominalRange_16_235, DXVA2_NominalRange_48_208, DXVA2_NominalRange_Normal, DXVA2_NominalRange_Unknown, DXVA2_NominalRange_Wide, dxva2api/DXVA2_NominalRange, dxva2api/DXVA2_NominalRangeMask, dxva2api/DXVA2_NominalRange_0_255, dxva2api/DXVA2_NominalRange_16_235, dxva2api/DXVA2_NominalRange_48_208, dxva2api/DXVA2_NominalRange_Normal, dxva2api/DXVA2_NominalRange_Unknown, dxva2api/DXVA2_NominalRange_Wide, ebc146e4-517f-4413-93dc-66cf4b3a04c3, mf.dxva2_nominalrange
 ms.topic: enum
-f1_keywords: 
- - "dxva2api/DXVA2_NominalRange"
+f1_keywords:
+- dxva2api/DXVA2_NominalRange
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - DXVA2_NominalRange
+- DXVA2_NominalRange
 product: Windows
 targetos: Windows
 req.typenames: DXVA2_NominalRange
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Describes how to map color data to a normalized [0...1] range. 
 
-These flags are used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure. They indicate whether the range of color values includes headroom (values above 100% white) and toeroom (values below reference black).
+These flags are used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure. They indicate whether the range of color values includes headroom (values above 100% white) and toeroom (values below reference black).
           
 
 
@@ -71,7 +71,7 @@ Bitmask to validate flag values. This value is not a valid flag.
 
 Unknown or unspecified nominal range.
 
-If this value is used in the <b>DestFormat</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videoprocessbltparams">DXVA2_VideoProcessBltParams</a> structure, the driver will determine the optimal nominal range based on the destination color space. For example, the destination surface is usually sRGB, which has a nominal range of 0-255 per channel. However, a driver might use a technique such as automatic gain control to maximize the dynamic range while preserving values above reference white.
+If this value is used in the <b>DestFormat</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessbltparams">DXVA2_VideoProcessBltParams</a> structure, the driver will determine the optimal nominal range based on the destination color space. For example, the destination surface is usually sRGB, which has a nominal range of 0-255 per channel. However, a driver might use a technique such as automatic gain control to maximize the dynamic range while preserving values above reference white.
 
 
 ### -field DXVA2_NominalRange_Normal

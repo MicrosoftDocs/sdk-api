@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 650a5f7f-609f-477b-8834-ff66ca3a9ca3, GetDouble, GetDouble method [Media Foundation], GetDouble method [Media Foundation],IMFAttributes interface, IMFActivate.GetDouble, IMFAttributes interface [Media Foundation],GetDouble method, IMFAttributes.GetDouble, IMFAttributes::GetDouble, mf.imfattributes_getdouble, mfobjects/IMFAttributes::GetDouble
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFAttributes.GetDouble"
+f1_keywords:
+- mfobjects/IMFAttributes.GetDouble
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAttributes.GetDouble
- - IMFActivate.GetDouble
+- IMFAttributes.GetDouble
+- IMFActivate.GetDouble
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -154,7 +154,7 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mf_attribute_type">MF_ATTRIBUTE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mf_attribute_type">MF_ATTRIBUTE_TYPE</a>
  
 
  

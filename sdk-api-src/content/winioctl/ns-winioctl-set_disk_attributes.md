@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 2caa79aa-24f9-481d-bbe3-ecd3e49bf316
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSET_DISK_ATTRIBUTES, DISK_ATTRIBUTE_OFFLINE, DISK_ATTRIBUTE_READ_ONLY, PSET_DISK_ATTRIBUTES, PSET_DISK_ATTRIBUTES structure pointer [Files], SET_DISK_ATTRIBUTES, SET_DISK_ATTRIBUTES structure [Files], fs.set_disk_attributes, winioctl/PSET_DISK_ATTRIBUTES, winioctl/SET_DISK_ATTRIBUTES"
+ms.keywords: '*PSET_DISK_ATTRIBUTES, DISK_ATTRIBUTE_OFFLINE, DISK_ATTRIBUTE_READ_ONLY, PSET_DISK_ATTRIBUTES, PSET_DISK_ATTRIBUTES structure pointer [Files], SET_DISK_ATTRIBUTES, SET_DISK_ATTRIBUTES structure [Files], fs.set_disk_attributes, winioctl/PSET_DISK_ATTRIBUTES, winioctl/SET_DISK_ATTRIBUTES'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/SET_DISK_ATTRIBUTES"
+f1_keywords:
+- winioctl/SET_DISK_ATTRIBUTES
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - SET_DISK_ATTRIBUTES
+- SET_DISK_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.typenames: SET_DISK_ATTRIBUTES, *PSET_DISK_ATTRIBUTES
@@ -159,7 +159,7 @@ Reserved. Must be set to 0.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_get_disk_attributes">GET_DISK_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-get_disk_attributes">GET_DISK_ATTRIBUTES</a>
 
 
 

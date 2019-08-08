@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsMatchPolicyAlternative, WsMatchPolicyAlternative function [Web Services for Windows], webservices/WsMatchPolicyAlternative, wsw.wsmatchpolicyalternative
 ms.topic: function
-f1_keywords: 
- - "webservices/WsMatchPolicyAlternative"
+f1_keywords:
+- webservices/WsMatchPolicyAlternative
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsMatchPolicyAlternative
+- WsMatchPolicyAlternative
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ Verifies that a Policy Alternative is compatible
 
 A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-policy">WS_POLICY</a> object  containing the alternative.
                 
-                    <div class="alert"><b>Note</b>  Each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_metadata_endpoint">WS_METADATA_ENDPOINT</a> that is returned from 
+                    <div class="alert"><b>Note</b>  Each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_metadata_endpoint">WS_METADATA_ENDPOINT</a> that is returned from 
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmetadataendpoints">WsGetMetadataEndpoints</a> contains a policy object.
                 </div>
 <div> </div>
@@ -91,7 +91,7 @@ A pointer to
 
 <div class="alert"><b>Note</b>  If a property constraint is not specified the
                     default constraint value for that particular property is used.
-                See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_policy_constraints">WS_POLICY_CONSTRAINTS</a> for more information.</div>
+                See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_policy_constraints">WS_POLICY_CONSTRAINTS</a> for more information.</div>
 <div> </div>
 
 ### -param matchRequired [in]

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WriteFile, WriteFile function [Files], _win32_writefile, base.writefile, fileapi/WriteFile, fs.writefile, winbase/WriteFile
 ms.topic: function
-f1_keywords: 
- - "fileapi/WriteFile"
+f1_keywords:
+- fileapi/WriteFile
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - WriteFile
+- WriteFile
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -121,7 +121,7 @@ For more information, see the Remarks section.
 
 ### -param lpOverlapped [in, out, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure is 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure is 
        required if the <i>hFile</i> parameter was opened with 
        <b>FILE_FLAG_OVERLAPPED</b>, otherwise this parameter can be 
        <b>NULL</b>.
@@ -129,13 +129,13 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinba
 For an <i>hFile</i> that supports byte offsets, if you use this parameter you must specify 
        a byte offset at which to start writing to the file or device. This offset is specified by setting the 
        <b>Offset</b> and <b>OffsetHigh</b> members of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure. For an 
+       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. For an 
        <i>hFile</i> that does not support byte offsets, <b>Offset</b> and 
        <b>OffsetHigh</b> are ignored.
 
 To write to the end of file, specify both the <b>Offset</b> and 
        <b>OffsetHigh</b> members of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure as 0xFFFFFFFF. This is 
+       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure as 0xFFFFFFFF. This is 
        functionally equivalent to previously calling the 
        <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function to open 
        <i>hFile</i> using <b>FILE_APPEND_DATA</b> access.
@@ -234,7 +234,7 @@ When writing to a communications device, the behavior of
     as set and retrieved by using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a> and 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcommtimeouts">GetCommTimeouts</a> functions. Unpredictable results can 
     occur if you fail to set the time-out values. For more information about communication time-outs, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commtimeouts">COMMTIMEOUTS</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commtimeouts">COMMTIMEOUTS</a>.
 
 Although a single-sector write is atomic, a multi-sector write is not guaranteed to be atomic unless you are 
     using a transaction (that is, the handle created is a transacted handle; for example, a handle created using 
@@ -282,7 +282,7 @@ If <i>hFile</i> was opened with <b>FILE_FLAG_OVERLAPPED</b>, the
 
 <ul>
 <li>The <i>lpOverlapped</i> parameter must point to a valid and unique 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure, otherwise the function can 
+      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure, otherwise the function can 
       incorrectly report that the write operation is complete.</li>
 <li>The <i>lpNumberOfBytesWritten</i> parameter should be set to 
       <b>NULL</b>. To get the number of bytes written, use the 
@@ -354,7 +354,7 @@ Yes
 <h3><a id="synchronization_and_file_position"></a><a id="SYNCHRONIZATION_AND_FILE_POSITION"></a>Synchronization and File Position</h3>
 If <i>hFile</i> is opened with <b>FILE_FLAG_OVERLAPPED</b>, it is an 
       asynchronous file handle; otherwise it is synchronous. The rules for using the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure are slightly different for each, 
+      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure are slightly different for each, 
       as previously noted.
 
 <div class="alert"><b>Note</b>  If a  file or device is opened for asynchronous I/O, subsequent calls to functions such as 
@@ -373,17 +373,17 @@ Considerations for working with asynchronous file handles:
 <li>The <i>lpOverlapped</i> parameter must 
        not be <b>NULL</b> and should be used with the following facts in mind: 
        <ul>
-<li>Although the event specified in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> 
+<li>Although the event specified in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> 
          structure is set and reset automatically by the system, the offset that is specified in the 
          <b>OVERLAPPED</b> structure is not automatically 
          updated.</li>
 <li><b>WriteFile</b> resets the event to a nonsignaled state 
          when it begins the I/O operation.</li>
-<li>The event specified in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure 
+<li>The event specified in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure 
          is set to a signaled state when the write operation is complete; until that time, the write operation is 
          considered pending.</li>
 <li>Because the write operation starts at the offset that is specified in the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure, and 
+         <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure, and 
          <b>WriteFile</b> may return before the system-level write 
          operation is complete (write pending), neither the offset nor any other part of the structure should be 
          modified, freed, or reused by the application until the event is signaled (that is, the write 
@@ -400,7 +400,7 @@ Considerations for working with synchronous file handles:
        <b>WriteFile</b> returns.</li>
 <li>If <i>lpOverlapped</i> is not <b>NULL</b>, the write operation 
        starts at the offset that is specified in the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure and 
+       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure and 
        <b>WriteFile</b> does not return until the write operation is 
        complete. The system updates the <b>OVERLAPPED</b> offset 
        before <b>WriteFile</b> returns.</li>

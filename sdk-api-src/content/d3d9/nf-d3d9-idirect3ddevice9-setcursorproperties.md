@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 32bc3446-e6cd-3ae1-00fd-9614c3cf7e8d, IDirect3DDevice9 interface [Direct3D 9],SetCursorProperties method, IDirect3DDevice9.SetCursorProperties, IDirect3DDevice9::SetCursorProperties, SetCursorProperties, SetCursorProperties method [Direct3D 9], SetCursorProperties method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetCursorProperties, direct3d9.idirect3ddevice9__setcursorproperties
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DDevice9.SetCursorProperties"
+f1_keywords:
+- d3d9/IDirect3DDevice9.SetCursorProperties
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.SetCursorProperties
+- IDirect3DDevice9.SetCursorProperties
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -123,7 +123,7 @@ break;
 
 Or, users might want to call the <b>IDirect3DDevice9::SetCursorProperties</b> method if they want to change the cursor. 
 
-The application can determine what hardware support is available for cursors by examining appropriate members of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcaps9">D3DCAPS9</a> structure. Typically, hardware supports only 32x32 cursors and, when windowed, the system might support only 32x32 cursors. In this case, <b>IDirect3DDevice9::SetCursorProperties</b> still succeeds but the cursor might be reduced to that size. The hot spot is scaled appropriately.
+The application can determine what hardware support is available for cursors by examining appropriate members of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9">D3DCAPS9</a> structure. Typically, hardware supports only 32x32 cursors and, when windowed, the system might support only 32x32 cursors. In this case, <b>IDirect3DDevice9::SetCursorProperties</b> still succeeds but the cursor might be reduced to that size. The hot spot is scaled appropriately.
 
 The cursor does not survive when the device is lost. This method must be called after the device is reset.
 
@@ -135,7 +135,7 @@ The cursor does not survive when the device is lost. This method must be called 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcaps9">D3DCAPS9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9">D3DCAPS9</a>
 
 
 

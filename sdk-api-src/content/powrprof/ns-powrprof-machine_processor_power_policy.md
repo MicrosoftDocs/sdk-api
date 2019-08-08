@@ -8,10 +8,10 @@ tech.root: power
 ms.assetid: 54403b81-97bc-4f2b-8721-48c9f69e2773
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMACHINE_PROCESSOR_POWER_POLICY, MACHINE_PROCESSOR_POWER_POLICY, MACHINE_PROCESSOR_POWER_POLICY structure, PMACHINE_PROCESSOR_POWER_POLICY, PMACHINE_PROCESSOR_POWER_POLICY structure pointer, _win32_machine_processor_power_policy_str, base.machine_processor_power_policy_str, powrprof/MACHINE_PROCESSOR_POWER_POLICY, powrprof/PMACHINE_PROCESSOR_POWER_POLICY"
+ms.keywords: '*PMACHINE_PROCESSOR_POWER_POLICY, MACHINE_PROCESSOR_POWER_POLICY, MACHINE_PROCESSOR_POWER_POLICY structure, PMACHINE_PROCESSOR_POWER_POLICY, PMACHINE_PROCESSOR_POWER_POLICY structure pointer, _win32_machine_processor_power_policy_str, base.machine_processor_power_policy_str, powrprof/MACHINE_PROCESSOR_POWER_POLICY, powrprof/PMACHINE_PROCESSOR_POWER_POLICY'
 ms.topic: struct
-f1_keywords: 
- - "powrprof/MACHINE_PROCESSOR_POWER_POLICY"
+f1_keywords:
+- powrprof/MACHINE_PROCESSOR_POWER_POLICY
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - PowrProf.h
+- PowrProf.h
 api_name:
- - MACHINE_PROCESSOR_POWER_POLICY
+- MACHINE_PROCESSOR_POWER_POLICY
 product: Windows
 targetos: Windows
 req.typenames: MACHINE_PROCESSOR_POWER_POLICY, *PMACHINE_PROCESSOR_POWER_POLICY
@@ -67,13 +67,13 @@ The current structure revision level. Set this value by calling <a href="https:/
 ### -field ProcessorPolicyAc
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_power_policy">PROCESSOR_POWER_POLICY</a> structure that defines the processor power policy settings used while the computer is running on AC power.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_power_policy">PROCESSOR_POWER_POLICY</a> structure that defines the processor power policy settings used while the computer is running on AC power.
 
 
 ### -field ProcessorPolicyDc
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_power_policy">PROCESSOR_POWER_POLICY</a> structure that defines the processor power policy settings used while the computer is running on battery power.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_power_policy">PROCESSOR_POWER_POLICY</a> structure that defines the processor power policy settings used while the computer is running on battery power.
 
 
 ## -see-also
@@ -81,7 +81,7 @@ A
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_power_policy">PROCESSOR_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_power_policy">PROCESSOR_POWER_POLICY</a>
 
 
 

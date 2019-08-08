@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtSubscribe, EvtSubscribe function [EventLog], wes.evtsubscribe, winevt/EvtSubscribe
 ms.topic: function
-f1_keywords: 
- - "winevt/EvtSubscribe"
+f1_keywords:
+- winevt/EvtSubscribe
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wevtapi.dll
- - Ext-MS-Win-WEvtAPI-EventLog-L1-1-0.dll
- - Ext-MS-Win-WEvtAPI-EventLog-L1-1-1.dll
- - Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll
+- Wevtapi.dll
+- Ext-MS-Win-WEvtAPI-EventLog-L1-1-0.dll
+- Ext-MS-Win-WEvtAPI-EventLog-L1-1-1.dll
+- Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll
 api_name:
- - EvtSubscribe
+- EvtSubscribe
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -99,7 +99,7 @@ Pointer to your <a href="https://docs.microsoft.com/windows/desktop/api/winevt/n
 
 ### -param Flags [in]
 
-One or more flags that specify when to start subscribing to events. For example, if you specify EvtSubscribeStartAtOldestRecord, the service will retrieve all current and future events that match your query criteria; however, if you specify EvtSubscribeToFutureEvents, the service returns only future events that match your query criteria. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_subscribe_flags">EVT_SUBSCRIBE_FLAGS</a> enumeration.
+One or more flags that specify when to start subscribing to events. For example, if you specify EvtSubscribeStartAtOldestRecord, the service will retrieve all current and future events that match your query criteria; however, if you specify EvtSubscribeToFutureEvents, the service returns only future events that match your query criteria. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_subscribe_flags">EVT_SUBSCRIBE_FLAGS</a> enumeration.
 
 
 ## -returns

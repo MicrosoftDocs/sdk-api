@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUmsSystemThreadInformation, GetUmsSystemThreadInformation function, base.getumssystemthreadinformation, winbase/GetUmsSystemThreadInformation
 ms.topic: function
-f1_keywords: 
- - "winbase/GetUmsSystemThreadInformation"
+f1_keywords:
+- winbase/GetUmsSystemThreadInformation
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ums-l1-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
- - GetUmsSystemThreadInformation
+- GetUmsSystemThreadInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ A handle to a thread. The thread handle must have the THREAD_QUERY_INFORMATION a
 
 ### -param SystemThreadInfo [in, out]
 
-A pointer to an initialized <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ums_system_thread_information">UMS_SYSTEM_THREAD_INFORMATION</a> structure that specifies the kind of thread for the query.
+A pointer to an initialized <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-ums_system_thread_information">UMS_SYSTEM_THREAD_INFORMATION</a> structure that specifies the kind of thread for the query.
 
 
 ## -returns

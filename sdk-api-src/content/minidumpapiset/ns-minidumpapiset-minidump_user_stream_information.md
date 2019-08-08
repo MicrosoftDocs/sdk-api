@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: 2a6b20ee-83cb-4000-b00a-61c4ab513205
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_USER_STREAM_INFORMATION, MINIDUMP_USER_STREAM_INFORMATION, MINIDUMP_USER_STREAM_INFORMATION structure, PMINIDUMP_USER_STREAM_INFORMATION, PMINIDUMP_USER_STREAM_INFORMATION structure pointer, _MINIDUMP_USER_STREAM_INFORMATION, _win32_minidump_user_stream_information_str, base.minidump_user_stream_information_str, minidumpapiset/MINIDUMP_USER_STREAM_INFORMATION, minidumpapiset/PMINIDUMP_USER_STREAM_INFORMATION"
+ms.keywords: '*PMINIDUMP_USER_STREAM_INFORMATION, MINIDUMP_USER_STREAM_INFORMATION, MINIDUMP_USER_STREAM_INFORMATION structure, PMINIDUMP_USER_STREAM_INFORMATION, PMINIDUMP_USER_STREAM_INFORMATION structure pointer, _MINIDUMP_USER_STREAM_INFORMATION, _win32_minidump_user_stream_information_str, base.minidump_user_stream_information_str, minidumpapiset/MINIDUMP_USER_STREAM_INFORMATION, minidumpapiset/PMINIDUMP_USER_STREAM_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_USER_STREAM_INFORMATION"
+f1_keywords:
+- minidumpapiset/MINIDUMP_USER_STREAM_INFORMATION
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_USER_STREAM_INFORMATION
+- MINIDUMP_USER_STREAM_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_USER_STREAM_INFORMATION, *PMINIDUMP_USER_STREAM_INFORMATION
@@ -68,7 +68,7 @@ The number of user streams.
 ### -field UserStreamArray
 
 An array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_user_stream">MINIDUMP_USER_STREAM</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_user_stream">MINIDUMP_USER_STREAM</a> structures.
 
 
 ## -remarks
@@ -85,7 +85,7 @@ In this context, a data stream refers to a block of data within a minidump file.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_user_stream">MINIDUMP_USER_STREAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_user_stream">MINIDUMP_USER_STREAM</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetFileInformationByHandle, SetFileInformationByHandle function [Files], fileapi/SetFileInformationByHandle, fileextd/SetFileInformationByHandle, fs.setfileinformationbyhandle, winbase/SetFileInformationByHandle
 ms.topic: function
-f1_keywords: 
- - "fileapi/SetFileInformationByHandle"
+f1_keywords:
+- fileapi/SetFileInformationByHandle
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,21 +30,21 @@ req.lib: Kernel32.lib; FileExtd.lib on Windows Server 2003 and Windows XP
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - SetFileInformationByHandle
+- SetFileInformationByHandle
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -139,7 +139,7 @@ The following table shows the valid file information classes and their correspon
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_basic_info">FILE_BASIC_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_basic_info">FILE_BASIC_INFO</a>
 
 
 </td>
@@ -153,7 +153,7 @@ The following table shows the valid file information classes and their correspon
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_rename_info">FILE_RENAME_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_rename_info">FILE_RENAME_INFO</a>
 
 
 </td>
@@ -167,7 +167,7 @@ The following table shows the valid file information classes and their correspon
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_disposition_info">FILE_DISPOSITION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_disposition_info">FILE_DISPOSITION_INFO</a>
 
 
 </td>
@@ -181,7 +181,7 @@ The following table shows the valid file information classes and their correspon
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_allocation_info">FILE_ALLOCATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_allocation_info">FILE_ALLOCATION_INFO</a>
 
 
 </td>
@@ -195,7 +195,7 @@ The following table shows the valid file information classes and their correspon
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_end_of_file_info">FILE_END_OF_FILE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_end_of_file_info">FILE_END_OF_FILE_INFO</a>
 
 
 </td>
@@ -209,7 +209,7 @@ The following table shows the valid file information classes and their correspon
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_io_priority_hint_info">FILE_IO_PRIORITY_HINT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_io_priority_hint_info">FILE_IO_PRIORITY_HINT_INFO</a>
 
 
 </td>
@@ -219,7 +219,7 @@ The following table shows the valid file information classes and their correspon
 
 You must specify appropriate access flags when creating the file handle for use with 
     <b>SetFileInformationByHandle</b>. For example, if 
-    the application is using <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_disposition_info">FILE_DISPOSITION_INFO</a> with 
+    the application is using <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_disposition_info">FILE_DISPOSITION_INFO</a> with 
     the <b>DeleteFile</b> member set to <b>TRUE</b>, the file would need 
     <b>DELETE</b> access requested in the call to the 
     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function. To see an example of this, see the 

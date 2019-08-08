@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 529d60b5-658d-4d55-a599-fa35386c01a7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDDCORECAPS, DDCORECAPS, DDCORECAPS structure [Display Devices], ddrawi/DDCORECAPS, ddstrcts_c5f9b49c-9c33-453b-af30-1f2ed36d5851.xml, display.ddcorecaps"
+ms.keywords: '*LPDDCORECAPS, DDCORECAPS, DDCORECAPS structure [Display Devices], ddrawi/DDCORECAPS, ddstrcts_c5f9b49c-9c33-453b-af30-1f2ed36d5851.xml, display.ddcorecaps'
 ms.topic: struct
-f1_keywords: 
- - "ddrawi/DDCORECAPS"
+f1_keywords:
+- ddrawi/DDCORECAPS
 req.header: ddrawi.h
 req.include-header: Ddrawi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawi.h
+- ddrawi.h
 api_name:
- - DDCORECAPS
+- DDCORECAPS
 product: Windows
 targetos: Windows
 req.typenames: DDCORECAPS
@@ -1465,7 +1465,7 @@ This section contains the DirectDraw driver structure whose name has the form DD
 
 This structure mirrors the first entries of the DDCAPS structure, but is of a fixed size and does not grow as DDCAPS does.
 
-The driver initializes DDCORECAPS when it is initializing the other members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_halinfo">DD_HALINFO</a> structure in its <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> structure. The DirectDraw runtime might update some members.
+The driver initializes DDCORECAPS when it is initializing the other members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure in its <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> structure. The DirectDraw runtime might update some members.
 
 DirectDraw requests additional driver capabilities by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> function that is also returned in the DD_HALINFO structure.
 

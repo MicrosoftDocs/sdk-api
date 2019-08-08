@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING, WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING structure [Web Services for Windows], webservices/WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING, wsw.ws_namedpipe_sspi_transport_security_binding
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING"
+f1_keywords:
+- webservices/WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING
+- WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING
 product: Windows
 targetos: Windows
 req.typenames: WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING
@@ -55,7 +55,7 @@ The security binding subtype for specifying the use of the Windows Integrated Au
 
 This security binding operates at the transport security level and is supported only with the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_NAMEDPIPE_CHANNEL_BINDING</a>. The NamedPipe/Windows SSPI combination uses the wire form defined by the <a href="https://docs.microsoft.com/openspecs/windows_protocols/mc-nmf/0aab922d-8023-48bb-8ba2-c4d3404cc69d">NegotiateStream</a> protocol and the <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-nns/93df08eb-a6c4-4dff-81c3-519cf7236df4">.Net Message Framing</a> specification. 
 
-On the client side, the security identity of the target server is specified using the identity field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> parameter supplied during <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenchannel">WsOpenChannel</a>. 
+On the client side, the security identity of the target server is specified using the identity field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> parameter supplied during <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenchannel">WsOpenChannel</a>. 
 
 
 
@@ -72,7 +72,7 @@ With this security binding, the following security binding properties may be spe
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_BINDING_PROPERTY_ALLOW_ANONYMOUS_CLIENTS</a> (server side only)</li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_BINDING_PROPERTY_ALLOWED_IMPERSONATION_LEVEL</a> (client side only)</li>
-</ul>This type derives from the base type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_binding">WS_SECURITY_BINDING</a>. For an instance of this type, the type selector field <b>bindingType</b> must have the value <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_type">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING_TYPE</a>. 
+</ul>This type derives from the base type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_binding">WS_SECURITY_BINDING</a>. For an instance of this type, the type selector field <b>bindingType</b> must have the value <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_type">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING_TYPE</a>. 
 
 
 ## -struct-fields
@@ -82,7 +82,7 @@ With this security binding, the following security binding properties may be spe
 
 ### -field binding
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_binding">base type</a> from which this security binding subtype and all other security binding subtypes derive.
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_binding">base type</a> from which this security binding subtype and all other security binding subtypes derive.
 
 
 ### -field clientCredential

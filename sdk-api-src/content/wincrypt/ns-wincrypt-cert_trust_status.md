@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: af1e1db2-7b53-4491-8317-4abf3568fb03
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_TRUST_STATUS, CERT_TRUST_CTL_IS_NOT_SIGNATURE_VALID, CERT_TRUST_CTL_IS_NOT_TIME_VALID, CERT_TRUST_CTL_IS_NOT_VALID_FOR_USAGE, CERT_TRUST_HAS_CRL_VALIDITY_EXTENDED, CERT_TRUST_HAS_EXACT_MATCH_ISSUER, CERT_TRUST_HAS_EXCLUDED_NAME_CONSTRAINT, CERT_TRUST_HAS_ISSUANCE_CHAIN_POLICY, CERT_TRUST_HAS_KEY_MATCH_ISSUER, CERT_TRUST_HAS_NAME_MATCH_ISSUER, CERT_TRUST_HAS_NOT_DEFINED_NAME_CONSTRAINT, CERT_TRUST_HAS_NOT_PERMITTED_NAME_CONSTRAINT, CERT_TRUST_HAS_NOT_SUPPORTED_CRITICAL_EXT, CERT_TRUST_HAS_NOT_SUPPORTED_NAME_CONSTRAINT, CERT_TRUST_HAS_PREFERRED_ISSUER, CERT_TRUST_HAS_VALID_NAME_CONSTRAINTS, CERT_TRUST_HAS_WEAK_SIGNATURE, CERT_TRUST_INVALID_BASIC_CONSTRAINTS, CERT_TRUST_INVALID_EXTENSION, CERT_TRUST_INVALID_NAME_CONSTRAINTS, CERT_TRUST_INVALID_POLICY_CONSTRAINTS, CERT_TRUST_IS_CA_TRUSTED, CERT_TRUST_IS_COMPLEX_CHAIN, CERT_TRUST_IS_CYCLIC, CERT_TRUST_IS_EXPLICIT_DISTRUST, CERT_TRUST_IS_FROM_EXCLUSIVE_TRUST_STORE, CERT_TRUST_IS_NOT_SIGNATURE_VALID, CERT_TRUST_IS_NOT_TIME_VALID, CERT_TRUST_IS_NOT_VALID_FOR_USAGE, CERT_TRUST_IS_OFFLINE_REVOCATION, CERT_TRUST_IS_PARTIAL_CHAIN, CERT_TRUST_IS_PEER_TRUSTED, CERT_TRUST_IS_REVOKED, CERT_TRUST_IS_SELF_SIGNED, CERT_TRUST_IS_UNTRUSTED_ROOT, CERT_TRUST_NO_ERROR, CERT_TRUST_NO_ISSUANCE_CHAIN_POLICY, CERT_TRUST_REVOCATION_STATUS_UNKNOWN, CERT_TRUST_STATUS, CERT_TRUST_STATUS structure [Security], PCERT_TRUST_STATUS, PCERT_TRUST_STATUS structure pointer [Security], _crypto2_cert_trust_status, security.cert_trust_status, wincrypt/CERT_TRUST_STATUS, wincrypt/PCERT_TRUST_STATUS"
+ms.keywords: '*PCERT_TRUST_STATUS, CERT_TRUST_CTL_IS_NOT_SIGNATURE_VALID, CERT_TRUST_CTL_IS_NOT_TIME_VALID, CERT_TRUST_CTL_IS_NOT_VALID_FOR_USAGE, CERT_TRUST_HAS_CRL_VALIDITY_EXTENDED, CERT_TRUST_HAS_EXACT_MATCH_ISSUER, CERT_TRUST_HAS_EXCLUDED_NAME_CONSTRAINT, CERT_TRUST_HAS_ISSUANCE_CHAIN_POLICY, CERT_TRUST_HAS_KEY_MATCH_ISSUER, CERT_TRUST_HAS_NAME_MATCH_ISSUER, CERT_TRUST_HAS_NOT_DEFINED_NAME_CONSTRAINT, CERT_TRUST_HAS_NOT_PERMITTED_NAME_CONSTRAINT, CERT_TRUST_HAS_NOT_SUPPORTED_CRITICAL_EXT, CERT_TRUST_HAS_NOT_SUPPORTED_NAME_CONSTRAINT, CERT_TRUST_HAS_PREFERRED_ISSUER, CERT_TRUST_HAS_VALID_NAME_CONSTRAINTS, CERT_TRUST_HAS_WEAK_SIGNATURE, CERT_TRUST_INVALID_BASIC_CONSTRAINTS, CERT_TRUST_INVALID_EXTENSION, CERT_TRUST_INVALID_NAME_CONSTRAINTS, CERT_TRUST_INVALID_POLICY_CONSTRAINTS, CERT_TRUST_IS_CA_TRUSTED, CERT_TRUST_IS_COMPLEX_CHAIN, CERT_TRUST_IS_CYCLIC, CERT_TRUST_IS_EXPLICIT_DISTRUST, CERT_TRUST_IS_FROM_EXCLUSIVE_TRUST_STORE, CERT_TRUST_IS_NOT_SIGNATURE_VALID, CERT_TRUST_IS_NOT_TIME_VALID, CERT_TRUST_IS_NOT_VALID_FOR_USAGE, CERT_TRUST_IS_OFFLINE_REVOCATION, CERT_TRUST_IS_PARTIAL_CHAIN, CERT_TRUST_IS_PEER_TRUSTED, CERT_TRUST_IS_REVOKED, CERT_TRUST_IS_SELF_SIGNED, CERT_TRUST_IS_UNTRUSTED_ROOT, CERT_TRUST_NO_ERROR, CERT_TRUST_NO_ISSUANCE_CHAIN_POLICY, CERT_TRUST_REVOCATION_STATUS_UNKNOWN, CERT_TRUST_STATUS, CERT_TRUST_STATUS structure [Security], PCERT_TRUST_STATUS, PCERT_TRUST_STATUS structure pointer [Security], _crypto2_cert_trust_status, security.cert_trust_status, wincrypt/CERT_TRUST_STATUS, wincrypt/PCERT_TRUST_STATUS'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_TRUST_STATUS"
+f1_keywords:
+- wincrypt/CERT_TRUST_STATUS
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_TRUST_STATUS
+- CERT_TRUST_STATUS
 product: Windows
 targetos: Windows
 req.typenames: CERT_TRUST_STATUS, *PCERT_TRUST_STATUS
@@ -499,7 +499,7 @@ This certificate's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/
 </dl>
 </td>
 <td width="60%">
-The certificate was found in either a store pointed to by the  <b>hExclusiveRoot</b> or <b>hExclusiveTrustedPeople</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_engine_config">CERT_CHAIN_ENGINE_CONFIG</a> structure.
+The certificate was found in either a store pointed to by the  <b>hExclusiveRoot</b> or <b>hExclusiveTrustedPeople</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_engine_config">CERT_CHAIN_ENGINE_CONFIG</a> structure.
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>Support for this flag begins.
 
@@ -523,7 +523,7 @@ The certificate chain created is a complex chain. This status code applies to ch
 </dl>
 </td>
 <td width="60%">
-A non-self-signed intermediate CA certificate was found in the store pointed to  by the <b>hExclusiveRoot</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_engine_config">CERT_CHAIN_ENGINE_CONFIG</a> structure. The CA certificate is treated as a trust anchor for the certificate chain. This flag will only be set if the <b>CERT_CHAIN_EXCLUSIVE_ENABLE_CA_FLAG</b> value is set in the <b>dwExclusiveFlags</b> member of the <b>CERT_CHAIN_ENGINE_CONFIG</b> structure.
+A non-self-signed intermediate CA certificate was found in the store pointed to  by the <b>hExclusiveRoot</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_engine_config">CERT_CHAIN_ENGINE_CONFIG</a> structure. The CA certificate is treated as a trust anchor for the certificate chain. This flag will only be set if the <b>CERT_CHAIN_EXCLUSIVE_ENABLE_CA_FLAG</b> value is set in the <b>dwExclusiveFlags</b> member of the <b>CERT_CHAIN_ENGINE_CONFIG</b> structure.
 
 If this flag is set, the <b>CERT_TRUST_IS_SELF_SIGNED</b> and the <b>CERT_TRUST_IS_PARTIAL_CHAIN</b><b>dwErrorStatus</b> flags will not be set.
 
@@ -540,15 +540,15 @@ If this flag is set, the <b>CERT_TRUST_IS_SELF_SIGNED</b> and the <b>CERT_TRUST_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_engine_config">CERT_CHAIN_ENGINE_CONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_engine_config">CERT_CHAIN_ENGINE_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_simple_chain">CERT_SIMPLE_CHAIN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_simple_chain">CERT_SIMPLE_CHAIN</a>
  
 
  

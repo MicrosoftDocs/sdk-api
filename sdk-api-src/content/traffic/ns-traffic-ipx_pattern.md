@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: bbb5466c-3ec4-48a7-a50e-4859d074d001
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PIPX_PATTERN, *PIPX_PATTERN structure [QOS], IPX_PATTERN, IPX_PATTERN structure [QOS], qos.ipx_pattern, traffic/*PIPX_PATTERN, traffic/IPX_PATTERN"
+ms.keywords: '*PIPX_PATTERN, *PIPX_PATTERN structure [QOS], IPX_PATTERN, IPX_PATTERN structure [QOS], qos.ipx_pattern, traffic/*PIPX_PATTERN, traffic/IPX_PATTERN'
 ms.topic: struct
-f1_keywords: 
- - "traffic/IPX_PATTERN"
+f1_keywords:
+- traffic/IPX_PATTERN
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Traffic.h
+- Traffic.h
 api_name:
- - IPX_PATTERN
+- IPX_PATTERN
 product: Windows
 targetos: Windows
 req.typenames: IPX_PATTERN, *PIPX_PATTERN
@@ -115,7 +115,7 @@ Socket on which the mask is to be applied.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: ProcThread
 ms.assetid: 38cfa605-831c-45ef-a99f-55f42b2b56e9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCACHE_DESCRIPTOR, CACHE_DESCRIPTOR, CACHE_DESCRIPTOR structure, PCACHE_DESCRIPTOR, PCACHE_DESCRIPTOR structure pointer, _CACHE_DESCRIPTOR, base.cache_descriptor, winnt/CACHE_DESCRIPTOR, winnt/PCACHE_DESCRIPTOR"
+ms.keywords: '*PCACHE_DESCRIPTOR, CACHE_DESCRIPTOR, CACHE_DESCRIPTOR structure, PCACHE_DESCRIPTOR, PCACHE_DESCRIPTOR structure pointer, _CACHE_DESCRIPTOR, base.cache_descriptor, winnt/CACHE_DESCRIPTOR, winnt/PCACHE_DESCRIPTOR'
 ms.topic: struct
-f1_keywords: 
- - "winnt/CACHE_DESCRIPTOR"
+f1_keywords:
+- winnt/CACHE_DESCRIPTOR
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - CACHE_DESCRIPTOR
+- CACHE_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.typenames: CACHE_DESCRIPTOR, *PCACHE_DESCRIPTOR
@@ -122,7 +122,7 @@ The cache size, in bytes.
 
 ### -field Type
 
-The cache type. This member is a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_processor_cache_type">PROCESSOR_CACHE_TYPE</a> value.
+The cache type. This member is a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-processor_cache_type">PROCESSOR_CACHE_TYPE</a> value.
 
 
 ## -see-also
@@ -134,11 +134,11 @@ The cache type. This member is a <a href="https://docs.microsoft.com/windows/des
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_processor_cache_type">PROCESSOR_CACHE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-processor_cache_type">PROCESSOR_CACHE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>
  
 
  

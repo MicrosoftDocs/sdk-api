@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: 1d4e2a78-2184-4846-b51d-441bf1133ec0
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_SYSTEM_INFO, MINIDUMP_SYSTEM_INFO, MINIDUMP_SYSTEM_INFO structure, PMINIDUMP_SYSTEM_INFO, PMINIDUMP_SYSTEM_INFO structure pointer, PROCESSOR_ARCHITECTURE_AMD64, PROCESSOR_ARCHITECTURE_ARM, PROCESSOR_ARCHITECTURE_IA64, PROCESSOR_ARCHITECTURE_INTEL, PROCESSOR_ARCHITECTURE_UNKNOWN, VER_NT_DOMAIN_CONTROLLER, VER_NT_SERVER, VER_NT_WORKSTATION, VER_PLATFORM_WIN32_NT, VER_PLATFORM_WIN32_WINDOWS, VER_PLATFORM_WIN32s, VER_SUITE_BACKOFFICE, VER_SUITE_BLADE, VER_SUITE_COMPUTE_SERVER, VER_SUITE_DATACENTER, VER_SUITE_EMBEDDEDNT, VER_SUITE_ENTERPRISE, VER_SUITE_PERSONAL, VER_SUITE_SINGLEUSERTS, VER_SUITE_SMALLBUSINESS, VER_SUITE_SMALLBUSINESS_RESTRICTED, VER_SUITE_STORAGE_SERVER, VER_SUITE_TERMINAL, _MINIDUMP_SYSTEM_INFO, _win32_minidump_system_info_str, base.minidump_system_info_str, minidumpapiset/MINIDUMP_SYSTEM_INFO, minidumpapiset/PMINIDUMP_SYSTEM_INFO"
+ms.keywords: '*PMINIDUMP_SYSTEM_INFO, MINIDUMP_SYSTEM_INFO, MINIDUMP_SYSTEM_INFO structure, PMINIDUMP_SYSTEM_INFO, PMINIDUMP_SYSTEM_INFO structure pointer, PROCESSOR_ARCHITECTURE_AMD64, PROCESSOR_ARCHITECTURE_ARM, PROCESSOR_ARCHITECTURE_IA64, PROCESSOR_ARCHITECTURE_INTEL, PROCESSOR_ARCHITECTURE_UNKNOWN, VER_NT_DOMAIN_CONTROLLER, VER_NT_SERVER, VER_NT_WORKSTATION, VER_PLATFORM_WIN32_NT, VER_PLATFORM_WIN32_WINDOWS, VER_PLATFORM_WIN32s, VER_SUITE_BACKOFFICE, VER_SUITE_BLADE, VER_SUITE_COMPUTE_SERVER, VER_SUITE_DATACENTER, VER_SUITE_EMBEDDEDNT, VER_SUITE_ENTERPRISE, VER_SUITE_PERSONAL, VER_SUITE_SINGLEUSERTS, VER_SUITE_SMALLBUSINESS, VER_SUITE_SMALLBUSINESS_RESTRICTED, VER_SUITE_STORAGE_SERVER, VER_SUITE_TERMINAL, _MINIDUMP_SYSTEM_INFO, _win32_minidump_system_info_str, base.minidump_system_info_str, minidumpapiset/MINIDUMP_SYSTEM_INFO, minidumpapiset/PMINIDUMP_SYSTEM_INFO'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_SYSTEM_INFO"
+f1_keywords:
+- minidumpapiset/MINIDUMP_SYSTEM_INFO
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_SYSTEM_INFO
+- MINIDUMP_SYSTEM_INFO
 product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_SYSTEM_INFO, *PMINIDUMP_SYSTEM_INFO
@@ -351,7 +351,7 @@ The operating system platform is Windows.
 ### -field CSDVersionRva
 
 An RVA (from the beginning of the dump) to a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_string">MINIDUMP_STRING</a> that describes the latest Service 
+      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_string">MINIDUMP_STRING</a> that describes the latest Service 
        Pack installed on the system. If no Service Pack has been installed, the string is empty.
 
 
@@ -578,7 +578,7 @@ For a list of possible values, see the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
  
 
  

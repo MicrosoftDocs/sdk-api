@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: b6c89cf2-b108-4518-9f4c-4a3684b3f0a7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PIMAGEHLP_STACK_FRAME, IMAGEHLP_STACK_FRAME, IMAGEHLP_STACK_FRAME structure, PIMAGEHLP_STACK_FRAME, PIMAGEHLP_STACK_FRAME structure pointer, _IMAGEHLP_STACK_FRAME, _win32_imagehlp_stack_frame_str, base.imagehlp_stack_frame_str, dbghelp/IMAGEHLP_STACK_FRAME, dbghelp/PIMAGEHLP_STACK_FRAME"
+ms.keywords: '*PIMAGEHLP_STACK_FRAME, IMAGEHLP_STACK_FRAME, IMAGEHLP_STACK_FRAME structure, PIMAGEHLP_STACK_FRAME, PIMAGEHLP_STACK_FRAME structure pointer, _IMAGEHLP_STACK_FRAME, _win32_imagehlp_stack_frame_str, base.imagehlp_stack_frame_str, dbghelp/IMAGEHLP_STACK_FRAME, dbghelp/PIMAGEHLP_STACK_FRAME'
 ms.topic: struct
-f1_keywords: 
- - "dbghelp/IMAGEHLP_STACK_FRAME"
+f1_keywords:
+- dbghelp/IMAGEHLP_STACK_FRAME
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - IMAGEHLP_STACK_FRAME
+- IMAGEHLP_STACK_FRAME
 product: Windows
 targetos: Windows
 req.typenames: IMAGEHLP_STACK_FRAME, *PIMAGEHLP_STACK_FRAME
@@ -115,7 +115,7 @@ The stack pointer.
 ### -field FuncTableEntry
 
 <b>x86:  </b>An 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_fpo_data">FPO_DATA</a> structure. If there is no function table entry, this member is <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a> structure. If there is no function table entry, this member is <b>NULL</b>.
 
 
 ### -field Params

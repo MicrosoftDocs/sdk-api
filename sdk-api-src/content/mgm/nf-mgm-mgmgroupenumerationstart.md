@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ALL_SOURCES, ANY_SOURCE, MgmGroupEnumerationStart, MgmGroupEnumerationStart function [RAS], _mpr_mgmgroupenumerationstart, mgm/MgmGroupEnumerationStart, rras.mgmgroupenumerationstart
 ms.topic: function
-f1_keywords: 
- - "mgm/MgmGroupEnumerationStart"
+f1_keywords:
+- mgm/MgmGroupEnumerationStart
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - MgmGroupEnumerationStart
+- MgmGroupEnumerationStart
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -170,7 +170,7 @@ Not enough memory to complete this operation.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ne-mgm-_mgm_enum_types">MGM_ENUM_TYPES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ne-mgm-mgm_enum_types">MGM_ENUM_TYPES</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 188EB248-F056-40F4-8A27-6BEC75F14154
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSECPKG_EXTRA_OIDS, PSECPKG_EXTRA_OIDS, PSECPKG_EXTRA_OIDS structure pointer [Security], SECPKG_EXTRA_OIDS, SECPKG_EXTRA_OIDS structure [Security], ntsecpkg/PSECPKG_EXTRA_OIDS, ntsecpkg/SECPKG_EXTRA_OIDS, security.secpkg_extra_oids"
+ms.keywords: '*PSECPKG_EXTRA_OIDS, PSECPKG_EXTRA_OIDS, PSECPKG_EXTRA_OIDS structure pointer [Security], SECPKG_EXTRA_OIDS, SECPKG_EXTRA_OIDS structure [Security], ntsecpkg/PSECPKG_EXTRA_OIDS, ntsecpkg/SECPKG_EXTRA_OIDS, security.secpkg_extra_oids'
 ms.topic: struct
-f1_keywords: 
- - "ntsecpkg/SECPKG_EXTRA_OIDS"
+f1_keywords:
+- ntsecpkg/SECPKG_EXTRA_OIDS
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SECPKG_EXTRA_OIDS
+- SECPKG_EXTRA_OIDS
 product: Windows
 targetos: Windows
 req.typenames: SECPKG_EXTRA_OIDS, *PSECPKG_EXTRA_OIDS
@@ -70,5 +70,5 @@ The total number of OIDs in the security package.
 
 ### -field Oids
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_serialized_oid">SECPKG_SERIALIZED_OID</a> structure containing the OID data.
+A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_serialized_oid">SECPKG_SERIALIZED_OID</a> structure containing the OID data.
 

@@ -8,10 +8,10 @@ tech.root: OpenGL
 ms.assetid: c671965c-9b9d-4206-b467-4884ffd351eb
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "_ogl_wglUseFontBitmaps, opengl.wglusefontbitmaps, wglUseFontBitmaps, wglUseFontBitmaps function [OpenGL], wglUseFontBitmapsA, wglUseFontBitmapsW, wingdi/wglUseFontBitmaps, wingdi/wglUseFontBitmapsA, wingdi/wglUseFontBitmapsW"
+ms.keywords: _ogl_wglUseFontBitmaps, opengl.wglusefontbitmaps, wglUseFontBitmaps, wglUseFontBitmaps function [OpenGL], wglUseFontBitmapsA, wglUseFontBitmapsW, wingdi/wglUseFontBitmaps, wingdi/wglUseFontBitmapsA, wingdi/wglUseFontBitmapsW
 ms.topic: function
-f1_keywords: 
- - "wingdi/wglUseFontBitmaps"
+f1_keywords:
+- wingdi/wglUseFontBitmaps
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Opengl32.lib
 req.dll: Opengl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - opengl32.dll
+- opengl32.dll
 api_name:
- - wglUseFontBitmaps
- - wglUseFontBitmapsA
- - wglUseFontBitmapsW
+- wglUseFontBitmaps
+- wglUseFontBitmapsA
+- wglUseFontBitmapsW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -113,7 +113,7 @@ The function determines the parameters of each call to <b>glBitmap</b> as follow
 </tr>
 <tr>
 <td><i>width</i></td>
-<td>The width of the glyph's bitmap, as returned in the <b>gmBlackBoxX</b> member of the glyph's <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_glyphmetrics">GLYPHMETRICS</a> structure.</td>
+<td>The width of the glyph's bitmap, as returned in the <b>gmBlackBoxX</b> member of the glyph's <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-glyphmetrics">GLYPHMETRICS</a> structure.</td>
 </tr>
 <tr>
 <td><i>height</i></td>
@@ -184,7 +184,7 @@ glCallLists (24, GL_UNSIGNED_BYTE, "Hello Windows OpenGL World");
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_glyphmetrics">GLYPHMETRICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-glyphmetrics">GLYPHMETRICS</a>
 
 
 

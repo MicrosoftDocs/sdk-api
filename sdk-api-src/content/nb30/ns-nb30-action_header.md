@@ -8,10 +8,10 @@ tech.root: NetBIOS
 ms.assetid: f2bbf394-972a-4e96-8cc6-9f230359cbfc
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PACTION_HEADER, ACTION_HEADER, ACTION_HEADER structure [NetBIOS], MABF, MNBF, MOOO, MXNS, PACTION_HEADER, PACTION_HEADER structure pointer [NetBIOS], nb30/ACTION_HEADER, nb30/PACTION_HEADER, netbios.action_header"
+ms.keywords: '*PACTION_HEADER, ACTION_HEADER, ACTION_HEADER structure [NetBIOS], MABF, MNBF, MOOO, MXNS, PACTION_HEADER, PACTION_HEADER structure pointer [NetBIOS], nb30/ACTION_HEADER, nb30/PACTION_HEADER, netbios.action_header'
 ms.topic: struct
-f1_keywords: 
- - "nb30/ACTION_HEADER"
+f1_keywords:
+- nb30/ACTION_HEADER
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Nb30.h
+- Nb30.h
 api_name:
- - ACTION_HEADER
+- ACTION_HEADER
 product: Windows
 targetos: Windows
 req.typenames: ACTION_HEADER, *PACTION_HEADER
@@ -100,7 +100,7 @@ Reserved.
 
 
 
-The scope of the action is determined by the <b>ncb_lsn</b> and <b>ncb_num</b> members of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a> structure, as follows.
+The scope of the action is determined by the <b>ncb_lsn</b> and <b>ncb_num</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure, as follows.
 
 <table>
 <tr>
@@ -133,7 +133,7 @@ The scope of the action is determined by the <b>ncb_lsn</b> and <b>ncb_num</b> m
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a>
 
 
 

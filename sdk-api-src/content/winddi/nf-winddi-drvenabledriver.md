@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvEnableDriver, DrvEnableDriver function [Display Devices], ddifncs_ceb25289-afd3-447e-85e7-d89fa95aebd4.xml, display.drvenabledriver, winddi/DrvEnableDriver
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvEnableDriver"
+f1_keywords:
+- winddi/DrvEnableDriver
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvEnableDriver
+- DrvEnableDriver
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -163,7 +163,7 @@ Windows XP Service Pack 1
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_drvfn">DRVFN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a>
 
 
 

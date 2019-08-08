@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OF_CANCEL, OF_CREATE, OF_DELETE, OF_EXIST, OF_PARSE, OF_PROMPT, OF_READ, OF_READWRITE, OF_REOPEN, OF_SHARE_COMPAT, OF_SHARE_DENY_NONE, OF_SHARE_DENY_READ, OF_SHARE_DENY_WRITE, OF_SHARE_EXCLUSIVE, OF_VERIFY, OF_WRITE, OpenFile, OpenFile function [Files], _win32_openfile, base.openfile, fs.openfile, winbase/OpenFile
 ms.topic: function
-f1_keywords: 
- - "winbase/OpenFile"
+f1_keywords:
+- winbase/OpenFile
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - OpenFile
+- OpenFile
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -79,13 +79,13 @@ The string must consist of characters from the 8-bit Windows character set. The
 
 ### -param lpReOpenBuff [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ofstruct">OFSTRUCT</a> structure that receives 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-ofstruct">OFSTRUCT</a> structure that receives 
        information about a file when it is first opened.
 
 The structure can be used in subsequent calls to the 
        <b>OpenFile</b> function to see an open file.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ofstruct">OFSTRUCT</a> structure contains a path string 
+The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-ofstruct">OFSTRUCT</a> structure contains a path string 
        member with a length that is limited to <b>OFS_MAXPATHNAME</b> characters, which is 128 
        characters. Because of this, you cannot use the <b>OpenFile</b> 
        function to open a file with a path length that exceeds 128 characters. The 
@@ -162,7 +162,7 @@ Use this to test for the existence of a file.
 </dl>
 </td>
 <td width="60%">
-Fills the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ofstruct">OFSTRUCT</a> structure, but does not do 
+Fills the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-ofstruct">OFSTRUCT</a> structure, but does not do 
          anything else.
 
 </td>
@@ -479,7 +479,7 @@ CsvFs will do redirected IO for compressed files.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ofstruct">OFSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-ofstruct">OFSTRUCT</a>
 
 
 

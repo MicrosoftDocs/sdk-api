@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSQueryListenerConfig, WTSQueryListenerConfig function [Remote Desktop Services], WTSQueryListenerConfigA, WTSQueryListenerConfigW, termserv.wtsquerylistenerconfig, wtsapi32/WTSQueryListenerConfig, wtsapi32/WTSQueryListenerConfigA, wtsapi32/WTSQueryListenerConfigW
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSQueryListenerConfig"
+f1_keywords:
+- wtsapi32/WTSQueryListenerConfig
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.dll
+- Wtsapi32.dll
 api_name:
- - WTSQueryListenerConfig
- - WTSQueryListenerConfigA
- - WTSQueryListenerConfigW
+- WTSQueryListenerConfig
+- WTSQueryListenerConfigA
+- WTSQueryListenerConfigW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,7 +83,7 @@ A pointer to a null-terminated string that contains the name of the listener to 
 
 ### -param pBuffer [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtslistenerconfiga">WTSLISTENERCONFIG</a> structure that receives the  retrieved listener configuration information.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtslistenerconfiga">WTSLISTENERCONFIG</a> structure that receives the  retrieved listener configuration information.
 
 
 ## -returns
@@ -116,7 +116,7 @@ This function does not retrieve the security descriptor for the listener. To ret
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtslistenerconfiga">WTSLISTENERCONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtslistenerconfiga">WTSLISTENERCONFIG</a>
  
 
  

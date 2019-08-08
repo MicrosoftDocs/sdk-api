@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_KEY_VALUE, CRYPT_XML_KEY_VALUE structure [Security], CRYPT_XML_KEY_VALUE_TYPE_CUSTOM, CRYPT_XML_KEY_VALUE_TYPE_DSA, CRYPT_XML_KEY_VALUE_TYPE_ECDSA, CRYPT_XML_KEY_VALUE_TYPE_RSA, cryptxml/CRYPT_XML_KEY_VALUE, security.crypt_xml_key_value
 ms.topic: struct
-f1_keywords: 
- - "cryptxml/CRYPT_XML_KEY_VALUE"
+f1_keywords:
+- cryptxml/CRYPT_XML_KEY_VALUE
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - CRYPT_XML_KEY_VALUE
+- CRYPT_XML_KEY_VALUE
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_XML_KEY_VALUE
@@ -123,20 +123,20 @@ The key is a custom key type.
 
 ### -field DSAKeyValue
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_key_dsa_key_value">CRYPT_XML_KEY_DSA_KEY_VALUE</a> structure that contains <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA) key data.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_dsa_key_value">CRYPT_XML_KEY_DSA_KEY_VALUE</a> structure that contains <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA) key data.
 
 
 ### -field RSAKeyValue
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_key_rsa_key_value">CRYPT_XML_KEY_RSA_KEY_VALUE</a> structure that contains RSA key data.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_rsa_key_value">CRYPT_XML_KEY_RSA_KEY_VALUE</a> structure that contains RSA key data.
 
 
 ### -field ECDSAKeyValue
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_key_ecdsa_key_value">CRYPT_XML_KEY_ECDSA_KEY_VALUE</a> structure that contains ECDSA key data.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_ecdsa_key_value">CRYPT_XML_KEY_ECDSA_KEY_VALUE</a> structure that contains ECDSA key data.
 
 
 ### -field Custom
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains custom key data.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains custom key data.
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: mssip/pCryptSIPGetCaps, pCryptSIPGetCaps, pCryptSIPGetCaps callback, pCryptSIPGetCaps callback function [Security], security.pfncryptsipgetcaps
 ms.topic: callback
-f1_keywords: 
- - "mssip/pCryptSIPGetCaps"
+f1_keywords:
+- mssip/pCryptSIPGetCaps
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mssip.h
+- Mssip.h
 api_name:
- - pCryptSIPGetCaps
+- pCryptSIPGetCaps
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-ms
 
 ### -param *pCaps [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-_sip_cap_set_v2">SIP_CAP_SET</a> structure that defines the capabilities of an SIP.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_cap_set_v2">SIP_CAP_SET</a> structure that defines the capabilities of an SIP.
 
 
 ## -see-also
@@ -78,7 +78,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-ms
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-_sip_cap_set_v2">SIP_CAP_SET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_cap_set_v2">SIP_CAP_SET</a>
 
 
 

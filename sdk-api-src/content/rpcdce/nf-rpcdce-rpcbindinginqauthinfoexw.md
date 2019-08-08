@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcBindingInqAuthInfoEx, RpcBindingInqAuthInfoEx function [RPC], RpcBindingInqAuthInfoExA, RpcBindingInqAuthInfoExW, _rpc_rpcbindinginqauthinfoex, rpc.rpcbindinginqauthinfoex, rpcdce/RpcBindingInqAuthInfoEx, rpcdce/RpcBindingInqAuthInfoExA, rpcdce/RpcBindingInqAuthInfoExW
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcBindingInqAuthInfoEx"
+f1_keywords:
+- rpcdce/RpcBindingInqAuthInfoEx
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcBindingInqAuthInfoEx
- - RpcBindingInqAuthInfoExA
- - RpcBindingInqAuthInfoExW
+- RpcBindingInqAuthInfoEx
+- RpcBindingInqAuthInfoExA
+- RpcBindingInqAuthInfoExW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -119,7 +119,7 @@ Passes value of current version (needed for forward compatibility if extensions 
 ### -param SecurityQOS
 
 Returns pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_security_qos">RPC_SECURITY_QOS</a> structure, which defines quality-of-service settings.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a> structure, which defines quality-of-service settings.
 
 
 ## -returns
@@ -203,7 +203,7 @@ The RPC run-time library allocates memory for the returned <i>ServerPrincName</i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_security_qos">RPC_SECURITY_QOS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_GET_CACHE_INFORMATION, IOCTL_DISK_GET_CACHE_INFORMATION control, IOCTL_DISK_GET_CACHE_INFORMATION control code [Files], base.ioctl_disk_get_cache_information, fs.ioctl_disk_get_cache_information, winioctl/IOCTL_DISK_GET_CACHE_INFORMATION
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_DISK_GET_CACHE_INFORMATION"
+f1_keywords:
+- winioctl/IOCTL_DISK_GET_CACHE_INFORMATION
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_DISK_GET_CACHE_INFORMATION
+- IOCTL_DISK_GET_CACHE_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -157,7 +157,7 @@ To set the disk cache information, use the <a href="https://docs.microsoft.com/w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_cache_information">DISK_CACHE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_cache_information">DISK_CACHE_INFORMATION</a>
 
 
 

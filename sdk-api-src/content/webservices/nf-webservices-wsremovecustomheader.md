@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsRemoveCustomHeader, WsRemoveCustomHeader function [Web Services for Windows], webservices/WsRemoveCustomHeader, wsw.wsremovecustomheader
 ms.topic: function
-f1_keywords: 
- - "webservices/WsRemoveCustomHeader"
+f1_keywords:
+- webservices/WsRemoveCustomHeader
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsRemoveCustomHeader
+- WsRemoveCustomHeader
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,12 +71,12 @@ A pointer to the <b>Message</b> object with the header  to be removed.
 
 ### -param headerName [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_string">WS_XML_STRING</a> object that references the "local name" of the header element to be  removed.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> object that references the "local name" of the header element to be  removed.
 
 
 ### -param headerNs [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_string">WS_XML_STRING</a> object that references the namespace of the header element to be removed.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> object that references the namespace of the header element to be removed.
 
 
 ### -param error [in, optional]

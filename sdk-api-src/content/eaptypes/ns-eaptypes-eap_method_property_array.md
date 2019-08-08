@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_PROPERTY_ARRAY, EAP_METHOD_PROPERTY_ARRAY structure [EAPHost], PEAP_METHOD_PROPERTY_ARRAY, PEAP_METHOD_PROPERTY_ARRAY structure pointer [EAPHost], eaphost.eap_method_property_array, eaptypes/EAP_METHOD_PROPERTY_ARRAY, eaptypes/PEAP_METHOD_PROPERTY_ARRAY
 ms.topic: struct
-f1_keywords: 
- - "eaptypes/EAP_METHOD_PROPERTY_ARRAY"
+f1_keywords:
+- eaptypes/EAP_METHOD_PROPERTY_ARRAY
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - EapTypes.h
+- EapTypes.h
 api_name:
- - EAP_METHOD_PROPERTY_ARRAY
+- EAP_METHOD_PROPERTY_ARRAY
 product: Windows
 targetos: Windows
 req.typenames: EAP_METHOD_PROPERTY_ARRAY
@@ -61,7 +61,7 @@ The <b>EAP_METHOD_PROPERTY_ARRAY</b> structure contains an array of EAP method p
 
 ### -field dwNumberOfProperties
 
-The number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property">EAP_METHOD_PROPERTY</a> structures in <b>pMethodProperty</b>.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property">EAP_METHOD_PROPERTY</a> structures in <b>pMethodProperty</b>.
 
 
 ### -field pFields
@@ -81,7 +81,7 @@ The number of <a href="https://docs.microsoft.com/previous-versions/windows/desk
 
 ### -field pMethodProperty
 
-Pointer to the address of the first element in an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_property">EAP_METHOD_PROPERTY</a> structures. The total number of elements is specified in <b>dwNumberOfProperties</b>.
+Pointer to the address of the first element in an array of <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property">EAP_METHOD_PROPERTY</a> structures. The total number of elements is specified in <b>dwNumberOfProperties</b>.
 
 
 ## -see-also

@@ -8,10 +8,10 @@ tech.root: SecMgmt
 ms.assetid: ddf0afcb-7ec4-42ed-bf40-38ef33f33a0c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PLSA_REFERENCED_DOMAIN_LIST, LSA_REFERENCED_DOMAIN_LIST, LSA_REFERENCED_DOMAIN_LIST structure [Security], PLSA_REFERENCED_DOMAIN_LIST, PLSA_REFERENCED_DOMAIN_LIST structure pointer [Security], _LSA_REFERENCED_DOMAIN_LIST, _lsa_lsa_referenced_domain_list, lsalookup/LSA_REFERENCED_DOMAIN_LIST, lsalookup/PLSA_REFERENCED_DOMAIN_LIST, security.lsa_referenced_domain_list"
+ms.keywords: '*PLSA_REFERENCED_DOMAIN_LIST, LSA_REFERENCED_DOMAIN_LIST, LSA_REFERENCED_DOMAIN_LIST structure [Security], PLSA_REFERENCED_DOMAIN_LIST, PLSA_REFERENCED_DOMAIN_LIST structure pointer [Security], _LSA_REFERENCED_DOMAIN_LIST, _lsa_lsa_referenced_domain_list, lsalookup/LSA_REFERENCED_DOMAIN_LIST, lsalookup/PLSA_REFERENCED_DOMAIN_LIST, security.lsa_referenced_domain_list'
 ms.topic: struct
-f1_keywords: 
- - "lsalookup/LSA_REFERENCED_DOMAIN_LIST"
+f1_keywords:
+- lsalookup/LSA_REFERENCED_DOMAIN_LIST
 req.header: lsalookup.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - lsalookup.h
+- lsalookup.h
 api_name:
- - LSA_REFERENCED_DOMAIN_LIST
+- LSA_REFERENCED_DOMAIN_LIST
 product: Windows
 targetos: Windows
 req.typenames: LSA_REFERENCED_DOMAIN_LIST, *PLSA_REFERENCED_DOMAIN_LIST
@@ -67,7 +67,7 @@ Specifies the number of entries in the <b>Domains</b> array.
 ### -field Domains
 
 Pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_trust_information">LSA_TRUST_INFORMATION</a> structures that identify the referenced domains.
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_trust_information">LSA_TRUST_INFORMATION</a> structures that identify the referenced domains.
 
 
 ## -see-also
@@ -75,7 +75,7 @@ Pointer to an array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_trust_information">LSA_TRUST_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_trust_information">LSA_TRUST_INFORMATION</a>
 
 
 

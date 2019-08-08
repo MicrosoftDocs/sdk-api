@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsRequestSecurityToken, WsRequestSecurityToken function [Web Services for Windows], webservices/WsRequestSecurityToken, wsw.wsrequestsecuritytoken
 ms.topic: function
-f1_keywords: 
- - "webservices/WsRequestSecurityToken"
+f1_keywords:
+- webservices/WsRequestSecurityToken
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsRequestSecurityToken
+- WsRequestSecurityToken
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,8 +70,8 @@ The channel on which the negotiation to obtain the security token
 should take place.
                 
 
-The supplied channel should have been <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">created</a> with the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_description">WS_SECURITY_DESCRIPTION</a> to meet the security requirements of
-the issuer, and then <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenchannel">opened</a> to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> of the issuer.  The caller is also
+The supplied channel should have been <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">created</a> with the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_description">WS_SECURITY_DESCRIPTION</a> to meet the security requirements of
+the issuer, and then <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenchannel">opened</a> to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> of the issuer.  The caller is also
 responsible for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsclosechannel">closing</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreechannel">freeing</a> the channel after the completion of
 this function.
                 

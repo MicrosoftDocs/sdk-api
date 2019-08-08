@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAIoctl, WSAIoctl function [Winsock], _win32_wsaioctl_2, mstcpip/WSAIoctl, winsock.wsaioctl_2, winsock2/WSAIoctl
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSAIoctl"
+f1_keywords:
+- winsock2/WSAIoctl
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSAIoctl
+- WSAIoctl
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -98,7 +98,7 @@ A pointer to actual number of bytes of output.
 ### -param lpOverlapped [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure (ignored for non-overlapped sockets).
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure (ignored for non-overlapped sockets).
 
 
 ### -param lpCompletionRoutine [in]
@@ -193,7 +193,7 @@ The descriptor <i>s</i> is not a socket.
 </td>
 <td width="60%">
 The specified IOCTL command cannot be realized. (For example, the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structures specified in <b>SIO_SET_QOS</b> or <b>SIO_SET_GROUP_QOS</b> cannot be satisfied.)
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structures specified in <b>SIO_SET_QOS</b> or <b>SIO_SET_GROUP_QOS</b> cannot be satisfied.)
 
 </td>
 </tr>
@@ -359,7 +359,7 @@ If an overlapped operation completes immediately,
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsagetoverlappedresult">WSAGetOverlappedResult</a>.
 
 When called with an overlapped socket, the <i>lpOverlapped</i> parameter must be valid for the duration of the overlapped operation. The <i>lpOverlapped</i> parameter contains the address of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.
 
 If the <i>lpCompletionRoutine</i> parameter is <b>NULL</b>, the <i>hEvent</i> parameter of <i>lpOverlapped</i> is signaled when the overlapped operation completes if it contains a valid event object handle. An application can use 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsawaitformultipleevents">WSAWaitForMultipleEvents</a> or 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 2, 3, NetUserModalsSet, NetUserModalsSet function [Network Management], _win32_netusermodalsset, lmaccess/NetUserModalsSet, netmgmt.netusermodalsset
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetUserModalsSet"
+f1_keywords:
+- lmaccess/NetUserModalsSet
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetUserModalsSet
+- NetUserModalsSet
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -87,7 +87,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Specifies global password parameters. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_0">USER_MODALS_INFO_0</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_0">USER_MODALS_INFO_0</a> structure.
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ Specifies global password parameters. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 Specifies logon server and domain controller information. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_1">USER_MODALS_INFO_1</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1">USER_MODALS_INFO_1</a> structure.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ Specifies logon server and domain controller information. The <i>buf</i> paramet
 </td>
 <td width="60%">
 Specifies the domain name and identifier. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_2">USER_MODALS_INFO_2</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_2">USER_MODALS_INFO_2</a> structure.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Specifies the domain name and identifier. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 Specifies lockout information. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_3">USER_MODALS_INFO_3</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_3">USER_MODALS_INFO_3</a> structure.
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ Specifies lockout information. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 Specifies the minimum allowable password length. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_1001">USER_MODALS_INFO_1001</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1001">USER_MODALS_INFO_1001</a> structure.
 
 </td>
 </tr>
@@ -142,7 +142,7 @@ Specifies the minimum allowable password length. The <i>buf</i> parameter points
 </td>
 <td width="60%">
 Specifies the maximum allowable password age. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_1002">USER_MODALS_INFO_1002</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1002">USER_MODALS_INFO_1002</a> structure.
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ Specifies the maximum allowable password age. The <i>buf</i> parameter points to
 </td>
 <td width="60%">
 Specifies the minimum allowable password age. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_1003">USER_MODALS_INFO_1003</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1003">USER_MODALS_INFO_1003</a> structure.
 
 </td>
 </tr>
@@ -164,7 +164,7 @@ Specifies the minimum allowable password age. The <i>buf</i> parameter points to
 </td>
 <td width="60%">
 Specifies forced logoff information. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_1004">USER_MODALS_INFO_1004</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1004">USER_MODALS_INFO_1004</a> structure.
 
 </td>
 </tr>
@@ -175,7 +175,7 @@ Specifies forced logoff information. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 Specifies the length of the password history. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_1005">USER_MODALS_INFO_1005</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1005">USER_MODALS_INFO_1005</a> structure.
 
 </td>
 </tr>
@@ -186,7 +186,7 @@ Specifies the length of the password history. The <i>buf</i> parameter points to
 </td>
 <td width="60%">
 Specifies the role of the logon server. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_1006">USER_MODALS_INFO_1006</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1006">USER_MODALS_INFO_1006</a> structure.
 
 </td>
 </tr>
@@ -197,7 +197,7 @@ Specifies the role of the logon server. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 Specifies domain controller information. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_1007">USER_MODALS_INFO_1007</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1007">USER_MODALS_INFO_1007</a> structure.
 
 </td>
 </tr>
@@ -356,7 +356,7 @@ If the
 
 The following code sample demonstrates how to set the global information for all users and global groups with a call to the 
 <b>NetUserModalsSet</b> function. The sample fills in the members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_0">USER_MODALS_INFO_0</a> structure and calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_0">USER_MODALS_INFO_0</a> structure and calls 
 <b>NetUserModalsSet</b>, specifying information level 0.
 
 
@@ -440,47 +440,47 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_0">USER_MODALS_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_0">USER_MODALS_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_1">USER_MODALS_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1">USER_MODALS_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_1001">USER_MODALS_INFO_1001</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1001">USER_MODALS_INFO_1001</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_1002">USER_MODALS_INFO_1002</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1002">USER_MODALS_INFO_1002</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_1003">USER_MODALS_INFO_1003</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1003">USER_MODALS_INFO_1003</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_1004">USER_MODALS_INFO_1004</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1004">USER_MODALS_INFO_1004</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_1005">USER_MODALS_INFO_1005</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1005">USER_MODALS_INFO_1005</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_1006">USER_MODALS_INFO_1006</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1006">USER_MODALS_INFO_1006</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_1007">USER_MODALS_INFO_1007</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1007">USER_MODALS_INFO_1007</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_2">USER_MODALS_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_2">USER_MODALS_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_user_modals_info_3">USER_MODALS_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_3">USER_MODALS_INFO_3</a>
 
 
 

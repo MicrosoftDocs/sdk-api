@@ -8,10 +8,10 @@ tech.root: NetMgmt
 ms.assetid: 2c17a70c-7b62-4dcc-9dc6-2f4b8c41d6ec
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PGROUP_INFO_2, GROUP_INFO_2, GROUP_INFO_2 structure [Network Management], PGROUP_INFO_2, PGROUP_INFO_2 structure pointer [Network Management], _win32_group_info_2_str, lmaccess/GROUP_INFO_2, lmaccess/PGROUP_INFO_2, netmgmt.group_info_2_str"
+ms.keywords: '*PGROUP_INFO_2, GROUP_INFO_2, GROUP_INFO_2 structure [Network Management], PGROUP_INFO_2, PGROUP_INFO_2 structure pointer [Network Management], _win32_group_info_2_str, lmaccess/GROUP_INFO_2, lmaccess/PGROUP_INFO_2, netmgmt.group_info_2_str'
 ms.topic: struct
-f1_keywords: 
- - "lmaccess/GROUP_INFO_2"
+f1_keywords:
+- lmaccess/GROUP_INFO_2
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmaccess.h
+- Lmaccess.h
 api_name:
- - GROUP_INFO_2
+- GROUP_INFO_2
 product: Windows
 targetos: Windows
 req.typenames: GROUP_INFO_2, *PGROUP_INFO_2
@@ -55,7 +55,7 @@ The
 				<b>GROUP_INFO_2</b> structure contains information about a global group, including name, identifier, and resource attributes.
 
 It is recommended that you use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_group_info_3">GROUP_INFO_3</a> structure instead.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_3">GROUP_INFO_3</a> structure instead.
 
 
 ## -struct-fields
@@ -90,7 +90,7 @@ The relative identifier (RID) of the global group. The
 ### -field grpi2_attributes
 
 These attributes are hard-coded to SE_GROUP_MANDATORY, SE_GROUP_ENABLED, and SE_GROUP_ENABLED_BY_DEFAULT. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>.
 					
 
 
@@ -136,7 +136,7 @@ User account names are limited to 20 characters and group names are limited to 2
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>
  
 
  

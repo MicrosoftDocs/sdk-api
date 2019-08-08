@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: e43ad510-b44b-4a4d-abb2-10062ce69140
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_CREATEPALETTEDATA, DD_CREATEPALETTEDATA, DD_CREATEPALETTEDATA structure [Display Devices], ddrawint/DD_CREATEPALETTEDATA, ddstrcts_9370d793-ebdf-47ef-bc5f-869906c6e20a.xml, display.dd_createpalettedata"
+ms.keywords: '*PDD_CREATEPALETTEDATA, DD_CREATEPALETTEDATA, DD_CREATEPALETTEDATA structure [Display Devices], ddrawint/DD_CREATEPALETTEDATA, ddstrcts_9370d793-ebdf-47ef-bc5f-869906c6e20a.xml, display.dd_createpalettedata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_CREATEPALETTEDATA"
+f1_keywords:
+- ddrawint/DD_CREATEPALETTEDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_CREATEPALETTEDATA
+- DD_CREATEPALETTEDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_CREATEPALETTEDATA, DD_CREATEPALETTEDATA"
+req.typenames: '*PDD_CREATEPALETTEDATA, DD_CREATEPALETTEDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,12 +61,12 @@ The DD_CREATEPALETTEDATA structure contains information necessary to create a Di
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 
 ### -field lpDDPalette
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_palette_global">DD_PALETTE_GLOBAL</a> structure representing the DirectDrawPalette object.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_palette_global">DD_PALETTE_GLOBAL</a> structure representing the DirectDrawPalette object.
 
 
 ### -field lpColorTable

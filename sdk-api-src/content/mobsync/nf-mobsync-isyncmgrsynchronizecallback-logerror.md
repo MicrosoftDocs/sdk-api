@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],LogError method, ISyncMgrSynchronizeCallback.LogError, ISyncMgrSynchronizeCallback::LogError, LogError, LogError method [Windows Shell], LogError method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::LogError, shell.syncmgr_isyncmgrsynchronizecallback_logerror, syncmgr.isyncmgrsynchronizecallback_logerror
 ms.topic: method
-f1_keywords: 
- - "mobsync/ISyncMgrSynchronizeCallback.LogError"
+f1_keywords:
+- mobsync/ISyncMgrSynchronizeCallback.LogError
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Mobsync.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mobsync.dll
+- Mobsync.dll
 api_name:
- - ISyncMgrSynchronizeCallback.LogError
+- ISyncMgrSynchronizeCallback.LogError
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Called by a registered application to log information, warning, or an error mess
 
 Type: <b>DWORD</b>
 
-The error level. Values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrloglevel">SYNCMGRLOGLEVEL</a> enumeration.
+The error level. Values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrloglevel">SYNCMGRLOGLEVEL</a> enumeration.
 
 
 ### -param pszErrorText [in]
@@ -75,9 +75,9 @@ A pointer to error text to be displayed in the error tab.
 
 ### -param pSyncLogError [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrlogerrorinfo">SYNCMGRLOGERRORINFO</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgrlogerrorinfo">SYNCMGRLOGERRORINFO</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrlogerrorinfo">SYNCMGRLOGERRORINFO</a> structure that contains additional error information. Registered applications that do not provide this data can pass <b>NULL</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgrlogerrorinfo">SYNCMGRLOGERRORINFO</a> structure that contains additional error information. Registered applications that do not provide this data can pass <b>NULL</b>.
 
 
 ## -returns
@@ -119,11 +119,11 @@ The error information is logged successfully.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrlogerrorinfo">SYNCMGRLOGERRORINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-syncmgrlogerrorinfo">SYNCMGRLOGERRORINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrloglevel">SYNCMGRLOGLEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrloglevel">SYNCMGRLOGLEVEL</a>
  
 
  

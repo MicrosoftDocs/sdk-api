@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 81647cb7-e5da-4a8b-a50f-83bedd9c0aba
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_TIMESTAMP_RESPONSE, CRYPT_TIMESTAMP_RESPONSE, CRYPT_TIMESTAMP_RESPONSE structure [Security], PCRYPT_TIMESTAMP_RESPONSE, PCRYPT_TIMESTAMP_RESPONSE structure pointer [Security], TIMESTAMP_FAILURE_BAD_ALG, TIMESTAMP_FAILURE_BAD_FORMAT, TIMESTAMP_FAILURE_BAD_REQUEST, TIMESTAMP_FAILURE_EXTENSION_NOT_SUPPORTED, TIMESTAMP_FAILURE_INFO_NOT_AVAILABLE, TIMESTAMP_FAILURE_POLICY_NOT_SUPPORTED, TIMESTAMP_FAILURE_SYSTEM_FAILURE, TIMESTAMP_FAILURE_TIME_NOT_AVAILABLE, TIMESTAMP_STATUS_GRANTED, TIMESTAMP_STATUS_GRANTED_WITH_MODS, TIMESTAMP_STATUS_REJECTED, TIMESTAMP_STATUS_REVOCATION_WARNING, TIMESTAMP_STATUS_REVOKED, TIMESTAMP_STATUS_WAITING, security.crypt_timestamp_response, wincrypt/CRYPT_TIMESTAMP_RESPONSE, wincrypt/PCRYPT_TIMESTAMP_RESPONSE"
+ms.keywords: '*PCRYPT_TIMESTAMP_RESPONSE, CRYPT_TIMESTAMP_RESPONSE, CRYPT_TIMESTAMP_RESPONSE structure [Security], PCRYPT_TIMESTAMP_RESPONSE, PCRYPT_TIMESTAMP_RESPONSE structure pointer [Security], TIMESTAMP_FAILURE_BAD_ALG, TIMESTAMP_FAILURE_BAD_FORMAT, TIMESTAMP_FAILURE_BAD_REQUEST, TIMESTAMP_FAILURE_EXTENSION_NOT_SUPPORTED, TIMESTAMP_FAILURE_INFO_NOT_AVAILABLE, TIMESTAMP_FAILURE_POLICY_NOT_SUPPORTED, TIMESTAMP_FAILURE_SYSTEM_FAILURE, TIMESTAMP_FAILURE_TIME_NOT_AVAILABLE, TIMESTAMP_STATUS_GRANTED, TIMESTAMP_STATUS_GRANTED_WITH_MODS, TIMESTAMP_STATUS_REJECTED, TIMESTAMP_STATUS_REVOCATION_WARNING, TIMESTAMP_STATUS_REVOKED, TIMESTAMP_STATUS_WAITING, security.crypt_timestamp_response, wincrypt/CRYPT_TIMESTAMP_RESPONSE, wincrypt/PCRYPT_TIMESTAMP_RESPONSE'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_TIMESTAMP_RESPONSE"
+f1_keywords:
+- wincrypt/CRYPT_TIMESTAMP_RESPONSE
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_TIMESTAMP_RESPONSE
+- CRYPT_TIMESTAMP_RESPONSE
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_TIMESTAMP_RESPONSE, *PCRYPT_TIMESTAMP_RESPONSE
@@ -159,7 +159,7 @@ Optional. A pointer to a string that contains the text information about request
 
 ### -field FailureInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_bit_blob">CRYPT_BIT_BLOB</a> structure that contains the reason why the time stamp request was rejected. Each flag is encoded as a bit in the structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_bit_blob">CRYPT_BIT_BLOB</a> structure that contains the reason why the time stamp request was rejected. Each flag is encoded as a bit in the structure.
 
 <table>
 <tr>

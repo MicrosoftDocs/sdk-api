@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2135ff86-a3b6-4e1c-a9de-867f4828f008, AM_MEDIA_TYPE_REPRESENTATION, FORMAT_MFVideoFormat, FORMAT_VideoInfo, FORMAT_VideoInfo2, GetRepresentation, GetRepresentation method [Media Foundation], GetRepresentation method [Media Foundation],IMFMediaType interface, IMFMediaType interface [Media Foundation],GetRepresentation method, IMFMediaType.GetRepresentation, IMFMediaType::GetRepresentation, mf.imfmediatype_getrepresentation, mfobjects/IMFMediaType::GetRepresentation
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFMediaType.GetRepresentation"
+f1_keywords:
+- mfobjects/IMFMediaType.GetRepresentation
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaType.GetRepresentation
+- IMFMediaType.GetRepresentation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -90,7 +90,7 @@ Convert the media type to a DirectShow <b>AM_MEDIA_TYPE</b> structure. The metho
 </dl>
 </td>
 <td width="60%">
-Convert the media type to a DirectShow <b>AM_MEDIA_TYPE</b> structure with an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat">MFVIDEOFORMAT</a> format structure.
+Convert the media type to a DirectShow <b>AM_MEDIA_TYPE</b> structure with an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> format structure.
               
 
 </td>
@@ -220,7 +220,7 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat">MFVIDEOFORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a>
 
 
 

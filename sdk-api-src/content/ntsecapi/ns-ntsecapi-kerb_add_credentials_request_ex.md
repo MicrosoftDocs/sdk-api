@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 9e806fce-9b3e-4bc9-bd75-a692f0ca5680
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PKERB_ADD_CREDENTIALS_REQUEST_EX, KERB_ADD_CREDENTIALS_REQUEST_EX, KERB_ADD_CREDENTIALS_REQUEST_EX structure [Security], PKERB_ADD_CREDENTIALS_REQUEST_EX, PKERB_ADD_CREDENTIALS_REQUEST_EX structure pointer [Security], ntsecapi/KERB_ADD_CREDENTIALS_REQUEST_EX, ntsecapi/PKERB_ADD_CREDENTIALS_REQUEST_EX, security.kerb_add_credentials_request_ex"
+ms.keywords: '*PKERB_ADD_CREDENTIALS_REQUEST_EX, KERB_ADD_CREDENTIALS_REQUEST_EX, KERB_ADD_CREDENTIALS_REQUEST_EX structure [Security], PKERB_ADD_CREDENTIALS_REQUEST_EX, PKERB_ADD_CREDENTIALS_REQUEST_EX structure pointer [Security], ntsecapi/KERB_ADD_CREDENTIALS_REQUEST_EX, ntsecapi/PKERB_ADD_CREDENTIALS_REQUEST_EX, security.kerb_add_credentials_request_ex'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/KERB_ADD_CREDENTIALS_REQUEST_EX"
+f1_keywords:
+- ntsecapi/KERB_ADD_CREDENTIALS_REQUEST_EX
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - KERB_ADD_CREDENTIALS_REQUEST_EX
+- KERB_ADD_CREDENTIALS_REQUEST_EX
 product: Windows
 targetos: Windows
 req.typenames: KERB_ADD_CREDENTIALS_REQUEST_EX, *PKERB_ADD_CREDENTIALS_REQUEST_EX
@@ -63,7 +63,7 @@ credential. The <b>SeTcbPrivilege</b> constant is required to alter another logo
 
 ### -field Credentials
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_add_credentials_request">KERB_ADD_CREDENTIALS_REQUEST</a> structure that specifies the credentials to add, remove, or replace.
+A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_add_credentials_request">KERB_ADD_CREDENTIALS_REQUEST</a> structure that specifies the credentials to add, remove, or replace.
 
 
 ### -field PrincipalNameCount
@@ -90,7 +90,7 @@ Calling the   <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/n
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_add_credentials_request">KERB_ADD_CREDENTIALS_REQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_add_credentials_request">KERB_ADD_CREDENTIALS_REQUEST</a>
  
 
  

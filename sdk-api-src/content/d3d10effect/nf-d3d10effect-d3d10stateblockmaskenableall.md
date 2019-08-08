@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 616dd4e2-841d-9b31-8251-b729947c2c0f, D3D10StateBlockMaskEnableAll, D3D10StateBlockMaskEnableAll function [Direct3D 10], d3d10effect/D3D10StateBlockMaskEnableAll, direct3d10.d3d10stateblockmaskenableall
 ms.topic: function
-f1_keywords: 
- - "d3d10effect/D3D10StateBlockMaskEnableAll"
+f1_keywords:
+- d3d10effect/D3D10StateBlockMaskEnableAll
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: D3D10.lib
 req.dll: D3D10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3D10.dll
+- D3D10.dll
 api_name:
- - D3D10StateBlockMaskEnableAll
+- D3D10StateBlockMaskEnableAll
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Enable a state-block mask to capture and apply all state variables.
 
 ### -param pMask [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_state_block_mask">D3D10_STATE_BLOCK_MASK</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_state_block_mask">D3D10_STATE_BLOCK_MASK</a>*</b>
 
 A mask with everything turned on.
 

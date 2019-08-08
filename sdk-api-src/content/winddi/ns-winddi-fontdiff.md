@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FONTDIFF, FONTDIFF structure [Display Devices], display.fontdiff, grstrcts_f0aab188-5a92-48b3-be9d-464e22f4b260.xml, winddi/FONTDIFF
 ms.topic: struct
-f1_keywords: 
- - "winddi/FONTDIFF"
+f1_keywords:
+- winddi/FONTDIFF
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - FONTDIFF
+- FONTDIFF
 product: Windows
 targetos: Windows
 req.typenames: FONTDIFF
@@ -175,7 +175,7 @@ Specifies the maximum character increment of all glyphs in the font.
 
 ### -field ptlCaret
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a> structure that indicates the direction of the ascender direction of the font. For example, the value for a nonitalicized Latin font is (0,1) while an italicized Latin font might specify a value of (2,5).
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that indicates the direction of the ascender direction of the font. For example, the value for a nonitalicized Latin font is (0,1) while an italicized Latin font might specify a value of (2,5).
 
 
 ## -remarks
@@ -194,7 +194,7 @@ For descriptions of the FSHORT and FWORD data types, see <a href="https://docs.m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontsim">FONTSIM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontsim">FONTSIM</a>
  
 
  

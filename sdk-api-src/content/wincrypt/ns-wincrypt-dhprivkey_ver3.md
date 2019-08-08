@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DHPRIVKEY_VER3, DHPRIVKEY_VER3 structure [Security], DSSPRIVKEY_VER3, _PRIVKEYVER3, _crypto2_dhprivkey_ver3, security.dhprivkey_ver3, wincrypt/DHPRIVKEY_VER3
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/DHPRIVKEY_VER3"
+f1_keywords:
+- wincrypt/DHPRIVKEY_VER3
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - DHPRIVKEY_VER3
+- DHPRIVKEY_VER3
 product: Windows
 targetos: Windows
 req.typenames: DHPRIVKEY_VER3, DSSPRIVKEY_VER3
@@ -86,7 +86,7 @@ Number of bits in the DH key BLOB private exponent, X.
 
 ### -field DSSSeed
 
-Seed structure holding the seed and counter values used to generate the primes Q and P. If values in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_dssseed">DSSSEED</a> structure are not available, then the counter element of the structure should be 0xFFFFFFFF.
+Seed structure holding the seed and counter values used to generate the primes Q and P. If values in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-dssseed">DSSSEED</a> structure are not available, then the counter element of the structure should be 0xFFFFFFFF.
 
 
 ## -remarks
@@ -103,11 +103,11 @@ Seed structure holding the seed and counter values used to generate the primes Q
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_publickeystruc">BLOBHEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">BLOBHEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_dssseed">DSSSEED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-dssseed">DSSSEED</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsVolume interface [VDS],SetFlags method, IVdsVolume.SetFlags, IVdsVolume::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsVolume interface, base.ivdsvolume_setflags, vds/IVdsVolume::SetFlags
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsVolume.SetFlags"
+f1_keywords:
+- vds/IVdsVolume.SetFlags
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVolume.SetFlags
+- IVdsVolume.SetFlags
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Sets the volume
 
 ### -param ulFlags [in]
 
-The flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_volume_flag">VDS_VOLUME_FLAG</a>. Callers 
+The flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_volume_flag">VDS_VOLUME_FLAG</a>. Callers 
       can set the following flags: 
       
 
@@ -215,7 +215,7 @@ The following table identifies the scope of each volume flag on MBR basic disks,
 <td><b>VDS_VF_NO_DEFAULT_DRIVE_LETTER</b></td>
 <td>Set on the entire disk.</td>
 <td>Set on partitions.</td>
-<td>See <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_volume_flag">VDS_VOLUME_FLAG</a>.</td>
+<td>See <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_volume_flag">VDS_VOLUME_FLAG</a>.</td>
 </tr>
 <tr>
 <td><b>VDS_VF_SHADOW_COPY</b></td>
@@ -273,7 +273,7 @@ Specifying either <b>VDS_VF_HIDDEN</b> or <b>VDS_VF_READONLY</b> will
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_volume_flag">VDS_VOLUME_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_volume_flag">VDS_VOLUME_FLAG</a>
  
 
  

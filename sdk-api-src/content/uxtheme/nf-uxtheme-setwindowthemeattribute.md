@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetWindowThemeAttribute, SetWindowThemeAttribute function [Windows Controls], WTA_NONCLIENT, controls.SetWindowThemeAttribute, controls.inet_SetWindowThemeAttribute, inet_SetWindowThemeAttribute, inet_SetWindowThemeAttribute_cpp, uxtheme/SetWindowThemeAttribute
 ms.topic: function
-f1_keywords: 
- - "uxtheme/SetWindowThemeAttribute"
+f1_keywords:
+- uxtheme/SetWindowThemeAttribute
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
- - xamlpalwp.dll
+- UxTheme.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
+- xamlpalwp.dll
 api_name:
- - SetWindowThemeAttribute
+- SetWindowThemeAttribute
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -85,7 +85,7 @@ Value of type <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ne
 </dl>
 </td>
 <td width="60%">
-Specifies non-client related attributes. <i>pvAttribute</i> must be a pointer of type <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-_wta_options">WTA_OPTIONS</a>.
+Specifies non-client related attributes. <i>pvAttribute</i> must be a pointer of type <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-wta_options">WTA_OPTIONS</a>.
 
 </td>
 </tr>

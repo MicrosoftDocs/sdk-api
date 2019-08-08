@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3, 4, GIL_FORSHELL, GIL_OPENICON, GetIconOf, GetIconOf method [Windows Shell], GetIconOf method [Windows Shell],IShellIcon interface, IShellIcon interface [Windows Shell],GetIconOf method, IShellIcon.GetIconOf, IShellIcon::GetIconOf, _win32_IShellIcon_GetIconOf, shell.IShellIcon_GetIconOf, shobjidl_core/IShellIcon::GetIconOf
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellIcon.GetIconOf"
+f1_keywords:
+- shobjidl_core/IShellIcon.GetIconOf
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellIcon.GetIconOf
+- IShellIcon.GetIconOf
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Gets an icon for an object inside a specific folder.
 
 Type: <b>LPCITEMIDLIST</b>
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure that specifies the relative location of the folder.
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure that specifies the relative location of the folder.
 
 
 ### -param flags

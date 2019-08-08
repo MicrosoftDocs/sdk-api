@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 65423d9e-d3b8-4545-8afe-09b3375dbac2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDDVIDEOPORTINFO, DDVIDEOPORTINFO, DDVIDEOPORTINFO structure [Display Devices], ddstrcts_7190df68-6789-4dd1-8cbf-697a863435c5.xml, display.ddvideoportinfo, dvp/DDVIDEOPORTINFO"
+ms.keywords: '*LPDDVIDEOPORTINFO, DDVIDEOPORTINFO, DDVIDEOPORTINFO structure [Display Devices], ddstrcts_7190df68-6789-4dd1-8cbf-697a863435c5.xml, display.ddvideoportinfo, dvp/DDVIDEOPORTINFO'
 ms.topic: struct
-f1_keywords: 
- - "dvp/DDVIDEOPORTINFO"
+f1_keywords:
+- dvp/DDVIDEOPORTINFO
 req.header: dvp.h
 req.include-header: Dvp.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dvp.h
+- dvp.h
 api_name:
- - DDVIDEOPORTINFO
+- DDVIDEOPORTINFO
 product: Windows
 targetos: Windows
-req.typenames: "*LPDDVIDEOPORTINFO, DDVIDEOPORTINFO"
+req.typenames: '*LPDDVIDEOPORTINFO, DDVIDEOPORTINFO'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DDVIDEOPORTINFO structure describes how the driver should transfer video data to a surface (or to surfaces); DDVIDEOPORTINFO is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure.
+The DDVIDEOPORTINFO structure describes how the driver should transfer video data to a surface (or to surfaces); DDVIDEOPORTINFO is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure.
 
 
 ## -struct-fields
@@ -300,7 +300,7 @@ All members of this structure are set by the client and the driver should never 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_videoport_local">DD_VIDEOPORT_LOCAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a>
  
 
  

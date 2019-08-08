@@ -8,10 +8,10 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_60he.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFAX_PRINT_INFOA, FAX_PRINT_INFO, FAX_PRINT_INFO structure [Fax Service], FAX_PRINT_INFOA, FAX_PRINT_INFOW, PFAX_PRINT_INFO, PFAX_PRINT_INFO structure pointer [Fax Service], _mfax_fax_print_info_str, fax._mfax_fax_print_info_str, winfax/FAX_PRINT_INFO, winfax/FAX_PRINT_INFOA, winfax/FAX_PRINT_INFOW, winfax/PFAX_PRINT_INFO"
+ms.keywords: '*PFAX_PRINT_INFOA, FAX_PRINT_INFO, FAX_PRINT_INFO structure [Fax Service], FAX_PRINT_INFOA, FAX_PRINT_INFOW, PFAX_PRINT_INFO, PFAX_PRINT_INFO structure pointer [Fax Service], _mfax_fax_print_info_str, fax._mfax_fax_print_info_str, winfax/FAX_PRINT_INFO, winfax/FAX_PRINT_INFOA, winfax/FAX_PRINT_INFOW, winfax/PFAX_PRINT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winfax/FAX_PRINT_INFO"
+f1_keywords:
+- winfax/FAX_PRINT_INFO
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winfax.h
+- Winfax.h
 api_name:
- - FAX_PRINT_INFO
- - FAX_PRINT_INFOA
- - FAX_PRINT_INFOW
+- FAX_PRINT_INFO
+- FAX_PRINT_INFOA
+- FAX_PRINT_INFOW
 product: Windows
 targetos: Windows
 req.typenames: FAX_PRINT_INFOA, *PFAX_PRINT_INFOA
@@ -154,7 +154,7 @@ A fax client application passes the <b>FAX_PRINT_INFO</b> structure in a call to
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_configurationa">FAX_CONFIGURATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_configurationa">FAX_CONFIGURATION</a>
 
 
 

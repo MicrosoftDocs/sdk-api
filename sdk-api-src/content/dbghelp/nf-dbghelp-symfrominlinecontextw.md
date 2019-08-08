@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymFromInlineContext, SymFromInlineContext function, SymFromInlineContextW, base.symfrominlinecontext, dbghelp/SymFromInlineContext, dbghelp/SymFromInlineContextW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymFromInlineContext"
+f1_keywords:
+- dbghelp/SymFromInlineContext
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: DbgHelp.lib
 req.dll: DbgHelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - DbgHelp.dll
+- DbgHelp.dll
 api_name:
- - SymFromInlineContext
- - SymFromInlineContext
- - SymFromInlineContextW
+- SymFromInlineContext
+- SymFromInlineContext
+- SymFromInlineContextW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -85,7 +85,7 @@ The displacement from the beginning of the symbol, or zero.
 
 ### -param Symbol [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_symbol_info">SYMBOL_INFO</a> structure that 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-symbol_info">SYMBOL_INFO</a> structure that 
       provides information about the symbol. The symbol name is variable in length; therefore this buffer must be 
       large enough to hold the name stored at the end of the 
       <b>SYMBOL_INFO</b> structure. Be sure to set the 

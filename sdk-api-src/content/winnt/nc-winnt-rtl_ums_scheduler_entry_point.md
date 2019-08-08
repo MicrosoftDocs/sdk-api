@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, RTL_UMS_SCHEDULER_ENTRY_POINT, RTL_UMS_SCHEDULER_ENTRY_POINT callback, UmsSchedulerProc, UmsSchedulerProc callback function, UmsSchedulerStartup, UmsSchedulerThreadBlocked, UmsSchedulerThreadYield, base.umsschedulerproc, winnt/UmsSchedulerProc
 ms.topic: callback
-f1_keywords: 
- - "winnt/UmsSchedulerProc"
+f1_keywords:
+- winnt/UmsSchedulerProc
 req.header: winnt.h
 req.include-header: WinBase.h, Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - UmsSchedulerProc
+- UmsSchedulerProc
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -146,7 +146,7 @@ If the <i>Reason</i> parameter is <b>UmsSchedulerThreadYield</b>, this parameter
 
 ### -param SchedulerParam [in]
 
-If the <i>Reason</i> parameter is <b>UmsSchedulerStartup</b>, this parameter is the <b>SchedulerParam</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ums_scheduler_startup_info">UMS_SCHEDULER_STARTUP_INFO</a> structure passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enterumsschedulingmode">EnterUmsSchedulingMode</a> function that triggered the entry point call. 
+If the <i>Reason</i> parameter is <b>UmsSchedulerStartup</b>, this parameter is the <b>SchedulerParam</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-ums_scheduler_startup_info">UMS_SCHEDULER_STARTUP_INFO</a> structure passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enterumsschedulingmode">EnterUmsSchedulingMode</a> function that triggered the entry point call. 
 
 If the <i>Reason</i> parameter is <b>UmsSchedulerThreadYield</b> this parameter is the SchedulerParam parameter passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-umsthreadyield">UmsThreadYield</a> function that triggered the entry point call. 
 

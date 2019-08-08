@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_FAULT_ERROR_PROPERTY_ACTION, WS_FAULT_ERROR_PROPERTY_FAULT, WS_FAULT_ERROR_PROPERTY_HEADER, WS_FAULT_ERROR_PROPERTY_ID, WS_FAULT_ERROR_PROPERTY_ID enumeration [Web Services for Windows], webservices/WS_FAULT_ERROR_PROPERTY_ACTION, webservices/WS_FAULT_ERROR_PROPERTY_FAULT, webservices/WS_FAULT_ERROR_PROPERTY_HEADER, webservices/WS_FAULT_ERROR_PROPERTY_ID, wsw.ws_fault_error_property_id
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_FAULT_ERROR_PROPERTY_ID"
+f1_keywords:
+- webservices/WS_FAULT_ERROR_PROPERTY_ID
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_FAULT_ERROR_PROPERTY_ID
+- WS_FAULT_ERROR_PROPERTY_ID
 product: Windows
 targetos: Windows
 req.typenames: WS_FAULT_ERROR_PROPERTY_ID
@@ -61,7 +61,7 @@ Information about a fault.
 
 ### -field WS_FAULT_ERROR_PROPERTY_FAULT
 
-An optional <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_fault">WS_FAULT</a> value that is the fault representation of the error.  If no
+An optional <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a> value that is the fault representation of the error.  If no
                     fault representation is present, then the value is <b>NULL</b>.
                 
 
@@ -83,7 +83,7 @@ The default value is <b>NULL</b>.
 
 ### -field WS_FAULT_ERROR_PROPERTY_ACTION
 
-An optional <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_string">WS_XML_STRING</a> value representing the action to use for the fault.
+An optional <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> value representing the action to use for the fault.
                     If the length of the string is zero, then no action is present.
                 
 

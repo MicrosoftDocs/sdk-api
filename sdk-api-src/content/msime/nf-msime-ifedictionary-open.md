@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFEDictionary interface [Internationalization for Windows Applications],Open method, IFEDictionary.Open, IFEDictionary::Open, Open, Open method [Internationalization for Windows Applications], Open method [Internationalization for Windows Applications],IFEDictionary interface, intl.ifedictionary_open, msime/IFEDictionary::Open
 ms.topic: method
-f1_keywords: 
- - "msime/IFEDictionary.Open"
+f1_keywords:
+- msime/IFEDictionary.Open
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msime.h
+- Msime.h
 api_name:
- - IFEDictionary.Open
+- IFEDictionary.Open
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Points to a <b>NULL</b>-terminated file name string to be opened. If <i>pchDictP
 
 ### -param pshf [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imeshf">IMESHF</a> header of the opened file. Can be <b>NULL</b>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a> header of the opened file. Can be <b>NULL</b>.
 
 
 ## -returns
@@ -97,7 +97,7 @@ One of the following:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imeshf">IMESHF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a>
  
 
  

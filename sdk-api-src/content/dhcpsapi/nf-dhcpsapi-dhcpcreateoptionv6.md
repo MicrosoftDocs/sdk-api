@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpCreateOptionV6, DhcpCreateOptionV6 function [DHCP], dhcp.dhcpcreateoptionv6, dhcpsapi/DhcpCreateOptionV6
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpCreateOptionV6"
+f1_keywords:
+- dhcpsapi/DhcpCreateOptionV6
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpCreateOptionV6
+- DhcpCreateOptionV6
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -106,7 +106,7 @@ Unicode string that contains a vendor name string if the class specified in <i>C
 ### -param OptionInfo [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option">DHCP_OPTION</a> structure that contains information describing the new   DHCP option, including the name, an optional comment, and any related data items.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option">DHCP_OPTION</a> structure that contains information describing the new   DHCP option, including the name, an optional comment, and any related data items.
 
 
 ## -returns

@@ -8,10 +8,10 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\structures\propsheetpage.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPPROPSHEETPAGEA_V3, LPPROPSHEETPAGE, LPPROPSHEETPAGE structure pointer [Windows Controls], PROPSHEETPAGE, PROPSHEETPAGE structure [Windows Controls], PROPSHEETPAGEA, PROPSHEETPAGEA_LATEST, PROPSHEETPAGEA_V3, PROPSHEETPAGEW, PSP_DEFAULT, PSP_DLGINDIRECT, PSP_HASHELP, PSP_HIDEHEADER, PSP_PREMATURE, PSP_RTLREADING, PSP_USECALLBACK, PSP_USEFUSIONCONTEXT, PSP_USEHEADERSUBTITLE, PSP_USEHEADERTITLE, PSP_USEHICON, PSP_USEICONID, PSP_USEREFPARENT, PSP_USETITLE, _win32_PROPSHEETPAGE_str, _win32_PROPSHEETPAGE_str_cpp, controls.PROPSHEETPAGE, controls._win32_PROPSHEETPAGE_str, prsht/LPPROPSHEETPAGE, prsht/PROPSHEETPAGE, prsht/PROPSHEETPAGEA, prsht/PROPSHEETPAGEW"
+ms.keywords: '*LPPROPSHEETPAGEA_V3, LPPROPSHEETPAGE, LPPROPSHEETPAGE structure pointer [Windows Controls], PROPSHEETPAGE, PROPSHEETPAGE structure [Windows Controls], PROPSHEETPAGEA, PROPSHEETPAGEA_LATEST, PROPSHEETPAGEA_V3, PROPSHEETPAGEW, PSP_DEFAULT, PSP_DLGINDIRECT, PSP_HASHELP, PSP_HIDEHEADER, PSP_PREMATURE, PSP_RTLREADING, PSP_USECALLBACK, PSP_USEFUSIONCONTEXT, PSP_USEHEADERSUBTITLE, PSP_USEHEADERTITLE, PSP_USEHICON, PSP_USEICONID, PSP_USEREFPARENT, PSP_USETITLE, _win32_PROPSHEETPAGE_str, _win32_PROPSHEETPAGE_str_cpp, controls.PROPSHEETPAGE, controls._win32_PROPSHEETPAGE_str, prsht/LPPROPSHEETPAGE, prsht/PROPSHEETPAGE, prsht/PROPSHEETPAGEA, prsht/PROPSHEETPAGEW'
 ms.topic: struct
-f1_keywords: 
- - "prsht/PROPSHEETPAGE"
+f1_keywords:
+- prsht/PROPSHEETPAGE
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Prsht.h
+- Prsht.h
 api_name:
- - PROPSHEETPAGE
- - PROPSHEETPAGEA
- - PROPSHEETPAGEW
+- PROPSHEETPAGE
+- PROPSHEETPAGEA
+- PROPSHEETPAGEW
 product: Windows
 targetos: Windows
 req.typenames: PROPSHEETPAGEA_V3, *LPPROPSHEETPAGEA_V3
@@ -72,7 +72,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 <ul>
 <li>Set the PSP_USEHEADERTITLE flag in the <b>dwFlags</b> member.</li>
-<li>Set the PSH_WIZARD97 flag in the <b>dwFlags</b> member of the page's <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PROPSHEETHEADER</a> structure.</li>
+<li>Set the PSH_WIZARD97 flag in the <b>dwFlags</b> member of the page's <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PROPSHEETHEADER</a> structure.</li>
 <li>Make sure that the PSP_HIDEHEADER flag in the <b>dwFlags</b> member is not set.</li>
 </ul>
 
@@ -87,10 +87,10 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 <ul>
 <li>Set the PSP_USEHEADERSUBTITLE flag in the <b>dwFlags</b> member.</li>
-<li>Set the PSH_WIZARD97 flag in the <b>dwFlags</b> member of the page's <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PROPSHEETHEADER</a> structure.</li>
+<li>Set the PSH_WIZARD97 flag in the <b>dwFlags</b> member of the page's <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PROPSHEETHEADER</a> structure.</li>
 <li>Make sure that the PSP_HIDEHEADER flag in the <b>dwFlags</b> member is not set.</li>
 </ul>
-<div class="alert"><b>Note</b>  This member is ignored when using the Aero-style wizard (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This member is ignored when using the Aero-style wizard (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
 #### - hActCtx
@@ -118,7 +118,7 @@ Flags that indicate which options to use when creating the property sheet page. 
 </dl>
 </td>
 <td width="60%">
-Uses the default meaning for all structure members. This flag is not supported when using the Aero-style wizard (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PSH_AEROWIZARD</a>).
+Uses the default meaning for all structure members. This flag is not supported when using the Aero-style wizard (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ Creates the page from the dialog box template in memory pointed to by the <b>pRe
 </dl>
 </td>
 <td width="60%">
-Enables the property sheet <b>Help</b> button when the page is active. This flag is not supported when using the Aero-style wizard (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PSH_AEROWIZARD</a>).
+Enables the property sheet <b>Help</b> button when the page is active. This flag is not supported when using the Aero-style wizard (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ Enables the property sheet <b>Help</b> button when the page is active. This flag
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80</a> and later. Causes the wizard property sheet to hide the header area when the page is selected. If a watermark has been provided, it will be painted on the left side of the page. This flag should be set for welcome and completion pages, and omitted for interior pages. This flag is not supported when using the Aero-style wizard (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PSH_AEROWIZARD</a>).
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80</a> and later. Causes the wizard property sheet to hide the header area when the page is selected. If a watermark has been provided, it will be painted on the left side of the page. This flag should be set for welcome and completion pages, and omitted for interior pages. This flag is not supported when using the Aero-style wizard (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ Enables the property sheet <b>Help</b> button when the page is active. This flag
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.71</a> or later. Causes the page to be created when the property sheet is created. If this flag is not specified, the page will not be created until it is selected the first time. This flag is not supported when using the Aero-style wizard (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PSH_AEROWIZARD</a>).
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.71</a> or later. Causes the page to be created when the property sheet is created. If this flag is not specified, the page will not be created until it is selected the first time. This flag is not supported when using the Aero-style wizard (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ Calls the function specified by the <b>pfnCallback</b> member when creating or d
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80</a> or later. Displays the string pointed to by the <b>pszHeaderSubTitle</b> member as the subtitle of the header area of a Wizard97 page. To use this flag, you must also set the PSH_WIZARD97 flag in the <b>dwFlags</b> member of the associated <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PROPSHEETHEADER</a> structure. The PSP_USEHEADERSUBTITLE flag is ignored if PSP_HIDEHEADER is set. In Aero-style wizards, the title appears near the top of the client area.
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80</a> or later. Displays the string pointed to by the <b>pszHeaderSubTitle</b> member as the subtitle of the header area of a Wizard97 page. To use this flag, you must also set the PSH_WIZARD97 flag in the <b>dwFlags</b> member of the associated <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PROPSHEETHEADER</a> structure. The PSP_USEHEADERSUBTITLE flag is ignored if PSP_HIDEHEADER is set. In Aero-style wizards, the title appears near the top of the client area.
 
 </td>
 </tr>
@@ -213,7 +213,7 @@ Calls the function specified by the <b>pfnCallback</b> member when creating or d
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80</a> or later. Displays the string pointed to by the <b>pszHeaderTitle</b> member as the title in the header of a Wizard97 interior page. You must also set the PSH_WIZARD97 flag in the <b>dwFlags</b> member of the associated <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PROPSHEETHEADER</a> structure. The PSP_USEHEADERTITLE flag is ignored if PSP_HIDEHEADER is set. This flag is not supported when using the Aero-style wizard (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PSH_AEROWIZARD</a>).
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80</a> or later. Displays the string pointed to by the <b>pszHeaderTitle</b> member as the title in the header of a Wizard97 interior page. You must also set the PSH_WIZARD97 flag in the <b>dwFlags</b> member of the associated <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PROPSHEETHEADER</a> structure. The PSP_USEHEADERTITLE flag is ignored if PSP_HIDEHEADER is set. This flag is not supported when using the Aero-style wizard (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).
 
 </td>
 </tr>
@@ -223,7 +223,7 @@ Calls the function specified by the <b>pfnCallback</b> member when creating or d
 </dl>
 </td>
 <td width="60%">
-Uses <b>hIcon</b> as the small icon on the tab for the page. This flag is not supported when using the Aero-style wizard (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PSH_AEROWIZARD</a>).
+Uses <b>hIcon</b> as the small icon on the tab for the page. This flag is not supported when using the Aero-style wizard (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).
 
 </td>
 </tr>
@@ -233,7 +233,7 @@ Uses <b>hIcon</b> as the small icon on the tab for the page. This flag is not su
 </dl>
 </td>
 <td width="60%">
-Uses <b>pszIcon</b> as the name of the icon resource to load and use as the small icon on the tab for the page. This flag is not supported when using the Aero-style wizard (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PSH_AEROWIZARD</a>).
+Uses <b>pszIcon</b> as the name of the icon resource to load and use as the small icon on the tab for the page. This flag is not supported when using the Aero-style wizard (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).
 
 </td>
 </tr>
@@ -253,7 +253,7 @@ Maintains the reference count specified by the <b>pcRefParent</b> member for the
 </dl>
 </td>
 <td width="60%">
-Uses the <b>pszTitle</b> member as the title of the property sheet dialog box instead of the title stored in the dialog box template. This flag is not supported when using the Aero-style wizard (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PSH_AEROWIZARD</a>).
+Uses the <b>pszTitle</b> member as the title of the property sheet dialog box instead of the title stored in the dialog box template. This flag is not supported when using the Aero-style wizard (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).
 
 </td>
 </tr>
@@ -304,7 +304,7 @@ Pointer to the reference count value. To use this member, you must set the PSP_U
 
 
 
-<div class="alert"><b>Note</b>   When a property sheet page is created, the value pointed to by <b>pcRefParent</b> is incremented. You create a property sheet page implicitly by setting the PSH_PROPSHEETPAGE flag in the <b>dwFlags</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PROPSHEETHEADER</a> and calling the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> function. You can do it explicitly by using the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a> function. When a property sheet page is destroyed, the value pointed to by the <b>pcRefParent</b> member is decremented. This takes place automatically when the property sheet is destroyed. You can explicitly destroy a property sheet page by using the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-destroypropertysheetpage">DestroyPropertySheetPage</a> function.</div>
+<div class="alert"><b>Note</b>   When a property sheet page is created, the value pointed to by <b>pcRefParent</b> is incremented. You create a property sheet page implicitly by setting the PSH_PROPSHEETPAGE flag in the <b>dwFlags</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PROPSHEETHEADER</a> and calling the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> function. You can do it explicitly by using the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a> function. When a property sheet page is destroyed, the value pointed to by the <b>pcRefParent</b> member is decremented. This takes place automatically when the property sheet is destroyed. You can explicitly destroy a property sheet page by using the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-destroypropertysheetpage">DestroyPropertySheetPage</a> function.</div>
 <div> </div>
 
 #### - pfnCallback

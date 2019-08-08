@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_QualifierSet_GetQualifier, MI_QualifierSet_GetQualifier function [Windows Management Infrastructure (MI)], mi/MI_QualifierSet_GetQualifier, wmi_v2.mi_qualifierset_getqualifier
 ms.topic: function
-f1_keywords: 
- - "mi/MI_QualifierSet_GetQualifier"
+f1_keywords:
+- mi/MI_QualifierSet_GetQualifier
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_QualifierSet_GetQualifier
+- MI_QualifierSet_GetQualifier
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ Gets the qualifier information based on the given qualifier name.
 ### -param self [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_qualifierset">MI_QualifierSet</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_qualifierset">MI_QualifierSet</a> structure.
 
 
 ### -param name
@@ -94,7 +94,7 @@ Returned zero-based index of the qualifier.
 
 
 
-A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DnsWriteQuestionToBuffer, DnsWriteQuestionToBuffer_UTF8, DnsWriteQuestionToBuffer_W, DnsWriteQuestionToBuffer_W function [DNS], _dns_dnswritequestiontobuffer, dns.dnswritequestiontobuffer, windns/DnsWriteQuestionToBuffer_UTF8, windns/DnsWriteQuestionToBuffer_W
 ms.topic: function
-f1_keywords: 
- - "windns/DnsWriteQuestionToBuffer_W"
+f1_keywords:
+- windns/DnsWriteQuestionToBuffer_W
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dnsapi.dll
+- Dnsapi.dll
 api_name:
- - DnsWriteQuestionToBuffer_W
- - DnsWriteQuestionToBuffer_UTF8
+- DnsWriteQuestionToBuffer_W
+- DnsWriteQuestionToBuffer_UTF8
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 The 
 <b>DnsWriteQuestionToBuffer</b> function type creates a DNS query message and stores it in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_message_buffer">DNS_MESSAGE_BUFFER</a> structure. Like many DNS functions, the 
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_message_buffer">DNS_MESSAGE_BUFFER</a> structure. Like many DNS functions, the 
 <b>DnsWriteQuestionToBuffer</b> function type is implemented in multiple forms to facilitate different character encoding. Based on the character encoding involved, use one of the following functions:
 <ul>
 <li>
@@ -76,7 +76,7 @@ The
 
 ### -param pDnsBuffer [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_message_buffer">DNS_MESSAGE_BUFFER</a> structure that contains a DNS query message stored in a buffer.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_message_buffer">DNS_MESSAGE_BUFFER</a> structure that contains a DNS query message stored in a buffer.
 
 
 ### -param pdwBufferSize [in, out]
@@ -137,7 +137,7 @@ DnsWriteQuestionToBuffer_UTF8(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_message_buffer">DNS_MESSAGE_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_message_buffer">DNS_MESSAGE_BUFFER</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D_PARAMETER_FLAGS, D3D_PARAMETER_FLAGS enumeration [Direct3D 11], D3D_PF_FORCE_DWORD, D3D_PF_IN, D3D_PF_NONE, D3D_PF_OUT, d3dcommon/D3D_PARAMETER_FLAGS, d3dcommon/D3D_PF_FORCE_DWORD, d3dcommon/D3D_PF_IN, d3dcommon/D3D_PF_NONE, d3dcommon/D3D_PF_OUT, direct3d11.d3d_parameter_flags
 ms.topic: enum
-f1_keywords: 
- - "d3dcommon/D3D_PARAMETER_FLAGS"
+f1_keywords:
+- d3dcommon/D3D_PARAMETER_FLAGS
 req.header: d3dcommon.h
 req.include-header: D3D11Shader.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3dcommon.h
+- d3dcommon.h
 api_name:
- - D3D_PARAMETER_FLAGS
+- D3D_PARAMETER_FLAGS
 product: Windows
 targetos: Windows
 req.typenames: D3D_PARAMETER_FLAGS
@@ -84,7 +84,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_parameter_desc">D3D11_PARAMETER_DESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-d3d11_parameter_desc">D3D11_PARAMETER_DESC</a>
 
 
 

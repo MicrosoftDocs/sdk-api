@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 3d637716-e4cd-427c-bc80-7d0ace6ac521
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSCH_CRED_SECRET_PRIVKEY, PSCH_CRED_SECRET_PRIVKEY, PSCH_CRED_SECRET_PRIVKEY structure pointer [Security], SCH_CRED_SECRET_PRIVKEY, SCH_CRED_SECRET_PRIVKEY structure [Security], _ssp_sch_cred_secret_privkey, schannel/PSCH_CRED_SECRET_PRIVKEY, schannel/SCH_CRED_SECRET_PRIVKEY, security.sch_cred_secret_privkey"
+ms.keywords: '*PSCH_CRED_SECRET_PRIVKEY, PSCH_CRED_SECRET_PRIVKEY, PSCH_CRED_SECRET_PRIVKEY structure pointer [Security], SCH_CRED_SECRET_PRIVKEY, SCH_CRED_SECRET_PRIVKEY structure [Security], _ssp_sch_cred_secret_privkey, schannel/PSCH_CRED_SECRET_PRIVKEY, schannel/SCH_CRED_SECRET_PRIVKEY, security.sch_cred_secret_privkey'
 ms.topic: struct
-f1_keywords: 
- - "schannel/SCH_CRED_SECRET_PRIVKEY"
+f1_keywords:
+- schannel/SCH_CRED_SECRET_PRIVKEY
 req.header: schannel.h
 req.include-header: Schnlsp.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Schannel.h
+- Schannel.h
 api_name:
- - SCH_CRED_SECRET_PRIVKEY
+- SCH_CRED_SECRET_PRIVKEY
 product: Windows
 targetos: Windows
 req.typenames: SCH_CRED_SECRET_PRIVKEY, *PSCH_CRED_SECRET_PRIVKEY
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <b>SCH_CRED_SECRET_PRIVKEY</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_schannel_cred">SCHANNEL_CRED</a> structure.]
+<p class="CCE_Message">[The <b>SCH_CRED_SECRET_PRIVKEY</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-schannel_cred">SCHANNEL_CRED</a> structure.]
 
 The <b>SCH_CRED_SECRET_PRIVKEY</b> structure contains <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> information needed to authenticate a client or server.
 

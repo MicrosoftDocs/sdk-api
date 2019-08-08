@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCreateServiceHost, WsCreateServiceHost function [Web Services for Windows], webservices/WsCreateServiceHost, wsw.wscreateservicehost
 ms.topic: function
-f1_keywords: 
- - "webservices/WsCreateServiceHost"
+f1_keywords:
+- webservices/WsCreateServiceHost
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsCreateServiceHost
+- WsCreateServiceHost
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Creates a <a href="https://docs.microsoft.com/windows/desktop/wsw/service-host">
 
 ### -param endpoints
 
-An array of  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">WS_SERVICE_ENDPOINT</a> structures representing the service endpoints for which to create the service host.
+An array of  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_endpoint">WS_SERVICE_ENDPOINT</a> structures representing the service endpoints for which to create the service host.
 
 
 ### -param endpointCount [in]
@@ -76,7 +76,7 @@ The number of endpoints in the <i>endpoints</i> array.
 
 ### -param serviceProperties
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_property">WS_SERVICE_PROPERTY</a> structures containing optional properties for the service host.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_service_property">WS_SERVICE_PROPERTY</a> structures containing optional properties for the service host.
 
 The value of this parameter may be <b>NULL</b>, in which case, the <i>servicePropertyCount</i> parameter must be 0 (zero).
                 

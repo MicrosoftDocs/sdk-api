@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WEB_SOCKET_ABORTED_CLOSE_STATUS, WEB_SOCKET_CLOSE_STATUS, WEB_SOCKET_CLOSE_STATUS enumeration [Websocket Protocol Component API], WEB_SOCKET_EMPTY_CLOSE_STATUS, WEB_SOCKET_ENDPOINT_UNAVAILABLE_CLOSE_STATUS, WEB_SOCKET_INVALID_DATA_TYPE_CLOSE_STATUS, WEB_SOCKET_INVALID_PAYLOAD_CLOSE_STATUS, WEB_SOCKET_MESSAGE_TOO_BIG_CLOSE_STATUS, WEB_SOCKET_POLICY_VIOLATION_CLOSE_STATUS, WEB_SOCKET_PROTOCOL_ERROR_CLOSE_STATUS, WEB_SOCKET_SECURE_HANDSHAKE_ERROR_CLOSE_STATUS, WEB_SOCKET_SERVER_ERROR_CLOSE_STATUS, WEB_SOCKET_SUCCESS_CLOSE_STATUS, WEB_SOCKET_UNSUPPORTED_EXTENSIONS_CLOSE_STATUS, websock.web_socket_close_status, websocket/WEB_SOCKET_ABORTED_CLOSE_STATUS, websocket/WEB_SOCKET_CLOSE_STATUS, websocket/WEB_SOCKET_EMPTY_CLOSE_STATUS, websocket/WEB_SOCKET_ENDPOINT_UNAVAILABLE_CLOSE_STATUS, websocket/WEB_SOCKET_INVALID_DATA_TYPE_CLOSE_STATUS, websocket/WEB_SOCKET_INVALID_PAYLOAD_CLOSE_STATUS, websocket/WEB_SOCKET_MESSAGE_TOO_BIG_CLOSE_STATUS, websocket/WEB_SOCKET_POLICY_VIOLATION_CLOSE_STATUS, websocket/WEB_SOCKET_PROTOCOL_ERROR_CLOSE_STATUS, websocket/WEB_SOCKET_SECURE_HANDSHAKE_ERROR_CLOSE_STATUS, websocket/WEB_SOCKET_SERVER_ERROR_CLOSE_STATUS, websocket/WEB_SOCKET_SUCCESS_CLOSE_STATUS, websocket/WEB_SOCKET_UNSUPPORTED_EXTENSIONS_CLOSE_STATUS
 ms.topic: enum
-f1_keywords: 
- - "websocket/WEB_SOCKET_CLOSE_STATUS"
+f1_keywords:
+- websocket/WEB_SOCKET_CLOSE_STATUS
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Websocket.h
+- Websocket.h
 api_name:
- - WEB_SOCKET_CLOSE_STATUS
+- WEB_SOCKET_CLOSE_STATUS
 product: Windows
 targetos: Windows
 req.typenames: WEB_SOCKET_CLOSE_STATUS
@@ -131,7 +131,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_buffer">WEB_SOCKET_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_buffer">WEB_SOCKET_BUFFER</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: c6518325-7efc-46dd-831b-7cb7d2f37ddb
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFD_DEVICEMETRICS, FD_DEVICEMETRICS, FD_DEVICEMETRICS structure [Display Devices], PFD_DEVICEMETRICS, PFD_DEVICEMETRICS structure pointer [Display Devices], display.fd_devicemetrics, grstrcts_56d66436-e791-4e40-8764-8a15ae4b6853.xml, winddi/FD_DEVICEMETRICS, winddi/PFD_DEVICEMETRICS"
+ms.keywords: '*PFD_DEVICEMETRICS, FD_DEVICEMETRICS, FD_DEVICEMETRICS structure [Display Devices], PFD_DEVICEMETRICS, PFD_DEVICEMETRICS structure pointer [Display Devices], display.fd_devicemetrics, grstrcts_56d66436-e791-4e40-8764-8a15ae4b6853.xml, winddi/FD_DEVICEMETRICS, winddi/PFD_DEVICEMETRICS'
 ms.topic: struct
-f1_keywords: 
- - "winddi/FD_DEVICEMETRICS"
+f1_keywords:
+- winddi/FD_DEVICEMETRICS
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - FD_DEVICEMETRICS
+- FD_DEVICEMETRICS
 product: Windows
 targetos: Windows
 req.typenames: FD_DEVICEMETRICS, *PFD_DEVICEMETRICS
@@ -131,7 +131,7 @@ Specifies the hinted maximum descender height for this font instance, measured a
 
 ### -field ptlUnderline1
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a> structure that contains the hinted underline position for this font instance, relative to the glyph's character origin.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that contains the hinted underline position for this font instance, relative to the glyph's character origin.
 
 
 ### -field ptlStrikeOut
@@ -161,12 +161,12 @@ Specifies the hinted maximum glyph bitmap height, in pixels, for this font insta
 
 ### -field cjGlyphMax
 
-Specifies the hinted maximum size of a glyph, in bytes, for this font instance. This value is the maximum size of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphbits">GLYPHBITS</a> structure needed to store any of the font's glyphs.
+Specifies the hinted maximum size of a glyph, in bytes, for this font instance. This value is the maximum size of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a> structure needed to store any of the font's glyphs.
 
 
 ### -field fdxQuantized
 
-Specifies an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_xform">FD_XFORM</a> structure. The font driver fills in the font transformation that is actually used in the realization of the font. This may differ from the transformation requested by GDI as defined by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_pxogetxform">FONTOBJ_pxoGetXform</a>.
+Specifies an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_xform">FD_XFORM</a> structure. The font driver fills in the font transformation that is actually used in the realization of the font. This may differ from the transformation requested by GDI as defined by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_pxogetxform">FONTOBJ_pxoGetXform</a>.
 
 
 ### -field lNonLinearExtLeading
@@ -218,7 +218,7 @@ Is reserved and should be ignored by the font provider.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_xform">FD_XFORM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_xform">FD_XFORM</a>
 
 
 
@@ -226,7 +226,7 @@ Is reserved and should be ignored by the font provider.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphbits">GLYPHBITS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a>
  
 
  

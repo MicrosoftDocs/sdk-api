@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: bb6a7013-19ec-4263-b7a2-33c79c2b5feb
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCTL_FIND_USAGE_PARA, CTL_FIND_USAGE_PARA, CTL_FIND_USAGE_PARA structure [Security], PCTL_FIND_USAGE_PARA, PCTL_FIND_USAGE_PARA structure pointer [Security], _crypto2_ctl_find_usage_para, security.ctl_find_usage_para, wincrypt/CTL_FIND_USAGE_PARA, wincrypt/PCTL_FIND_USAGE_PARA"
+ms.keywords: '*PCTL_FIND_USAGE_PARA, CTL_FIND_USAGE_PARA, CTL_FIND_USAGE_PARA structure [Security], PCTL_FIND_USAGE_PARA, PCTL_FIND_USAGE_PARA structure pointer [Security], _crypto2_ctl_find_usage_para, security.ctl_find_usage_para, wincrypt/CTL_FIND_USAGE_PARA, wincrypt/PCTL_FIND_USAGE_PARA'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CTL_FIND_USAGE_PARA"
+f1_keywords:
+- wincrypt/CTL_FIND_USAGE_PARA
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CTL_FIND_USAGE_PARA
+- CTL_FIND_USAGE_PARA
 product: Windows
 targetos: Windows
 req.typenames: CTL_FIND_USAGE_PARA, *PCTL_FIND_USAGE_PARA
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>CTL_FIND_USAGE_PARA</b> structure is a member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_find_subject_para">CTL_FIND_SUBJECT_PARA</a> structure and it is used by 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_find_subject_para">CTL_FIND_SUBJECT_PARA</a> structure and it is used by 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindctlinstore">CertFindCTLInStore</a>.
 
 
@@ -69,7 +69,7 @@ The size, in bytes, of this structure.
 ### -field SubjectUsage
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CTL_USAGE</a> structure that includes a sequence of object identifiers to be matched when finding a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL). 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a> structure that includes a sequence of object identifiers to be matched when finding a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL). 
 
 
 
@@ -94,7 +94,7 @@ A CTL uses a <b>ListIdentifier</b> to distinguish among multiple CTLs created by
 ### -field pSigner
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure that specifies the CTL signer to be matched. Only the issuer and serial number from the <b>CERT_INFO</b> are used to match a signer. 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure that specifies the CTL signer to be matched. Only the issuer and serial number from the <b>CERT_INFO</b> are used to match a signer. 
 
 
 
@@ -110,7 +110,7 @@ The CertEncodingType of the signer is obtained from the <i>dwMsgAndCertEncodingT
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>
 
 
 
@@ -118,11 +118,11 @@ The CertEncodingType of the signer is obtained from the <i>dwMsgAndCertEncodingT
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_find_subject_para">CTL_FIND_SUBJECT_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_find_subject_para">CTL_FIND_SUBJECT_PARA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CTL_USAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a>
 
 
 

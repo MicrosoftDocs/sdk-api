@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 551a928a-84c6-479b-a500-de69dc8857cd
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_BINDING_INFO, *PHTTP_BINDING_INFO structure [HTTP], HTTP_BINDING_INFO, HTTP_BINDING_INFO structure [HTTP], http.http_binding_info, http/*PHTTP_BINDING_INFO, http/HTTP_BINDING_INFO"
+ms.keywords: '*PHTTP_BINDING_INFO, *PHTTP_BINDING_INFO structure [HTTP], HTTP_BINDING_INFO, HTTP_BINDING_INFO structure [HTTP], http.http_binding_info, http/*PHTTP_BINDING_INFO, http/HTTP_BINDING_INFO'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_BINDING_INFO"
+f1_keywords:
+- http/HTTP_BINDING_INFO
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_BINDING_INFO
+- HTTP_BINDING_INFO
 product: Windows
 targetos: Windows
 req.typenames: HTTP_BINDING_INFO, *PHTTP_BINDING_INFO
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>HTTP_BINDING_INFO</b> structure is used to associate a URL Group with a request queue.
 
-This structure must be used when setting or querying the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HttpServerBindingProperty</a> on a URL Group.
+This structure must be used when setting or querying the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HttpServerBindingProperty</a> on a URL Group.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ This structure must be used when setting or querying the <a href="https://docs.m
 
 ### -field Flags
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_property_flags">HTTP_PROPERTY_FLAGS</a> structure specifying whether the property is present.
+The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_property_flags">HTTP_PROPERTY_FLAGS</a> structure specifying whether the property is present.
 
 
 ### -field RequestQueueHandle
@@ -80,7 +80,7 @@ The request queue that is associated with the URL group. The structure can be us
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HTTP_SERVER_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HTTP_SERVER_PROPERTY</a>
 
 
 

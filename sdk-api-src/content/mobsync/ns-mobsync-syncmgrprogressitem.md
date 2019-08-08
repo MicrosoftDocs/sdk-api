@@ -8,10 +8,10 @@ tech.root: shell
 ms.assetid: 94ac1206-be5f-467c-ab4a-11f574c406ca
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSYNCMGRPROGRESSITEM, LPSYNCMGRPROGRESSITEM, LPSYNCMGRPROGRESSITEM structure pointer [Windows Shell], SYNCMGRPROGRESSITEM, SYNCMGRPROGRESSITEM structure [Windows Shell], mobsync/LPSYNCMGRPROGRESSITEM, mobsync/SYNCMGRPROGRESSITEM, shell.syncmgr_syncmgrprogressitem, syncmgr.syncmgrprogressitem"
+ms.keywords: '*LPSYNCMGRPROGRESSITEM, LPSYNCMGRPROGRESSITEM, LPSYNCMGRPROGRESSITEM structure pointer [Windows Shell], SYNCMGRPROGRESSITEM, SYNCMGRPROGRESSITEM structure [Windows Shell], mobsync/LPSYNCMGRPROGRESSITEM, mobsync/SYNCMGRPROGRESSITEM, shell.syncmgr_syncmgrprogressitem, syncmgr.syncmgrprogressitem'
 ms.topic: struct
-f1_keywords: 
- - "mobsync/SYNCMGRPROGRESSITEM"
+f1_keywords:
+- mobsync/SYNCMGRPROGRESSITEM
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mobsync.h
+- Mobsync.h
 api_name:
- - SYNCMGRPROGRESSITEM
+- SYNCMGRPROGRESSITEM
 product: Windows
 targetos: Windows
 req.typenames: SYNCMGRPROGRESSITEM, *LPSYNCMGRPROGRESSITEM
@@ -70,7 +70,7 @@ The size of the structure, in bytes.
 
 Type: <b>UINT</b>
 
-Flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrstatus">SYNCMGRSTATUS</a> enumeration that specify which members of this structure are used.
+Flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrstatus">SYNCMGRSTATUS</a> enumeration that specify which members of this structure are used.
 
 
 ### -field lpcStatusText
@@ -84,7 +84,7 @@ Status text.
 
 Type: <b>DWORD</b>
 
-One of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrstatus">SYNCMGRSTATUS</a> enumeration.
+One of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrstatus">SYNCMGRSTATUS</a> enumeration.
 
 
 ### -field iProgValue

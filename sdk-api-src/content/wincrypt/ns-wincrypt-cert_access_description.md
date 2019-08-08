@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 5e1e5b04-92af-45b1-acfd-17852c245d89
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_ACCESS_DESCRIPTION, CERT_ACCESS_DESCRIPTION, CERT_ACCESS_DESCRIPTION structure [Security], PCERT_ACCESS_DESCRIPTION, PCERT_ACCESS_DESCRIPTION structure pointer [Security], _crypto2_cert_access_description, security.cert_access_description, wincrypt/CERT_ACCESS_DESCRIPTION, wincrypt/PCERT_ACCESS_DESCRIPTION"
+ms.keywords: '*PCERT_ACCESS_DESCRIPTION, CERT_ACCESS_DESCRIPTION, CERT_ACCESS_DESCRIPTION structure [Security], PCERT_ACCESS_DESCRIPTION, PCERT_ACCESS_DESCRIPTION structure pointer [Security], _crypto2_cert_access_description, security.cert_access_description, wincrypt/CERT_ACCESS_DESCRIPTION, wincrypt/PCERT_ACCESS_DESCRIPTION'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_ACCESS_DESCRIPTION"
+f1_keywords:
+- wincrypt/CERT_ACCESS_DESCRIPTION
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_ACCESS_DESCRIPTION
+- CERT_ACCESS_DESCRIPTION
 product: Windows
 targetos: Windows
 req.typenames: CERT_ACCESS_DESCRIPTION, *PCERT_ACCESS_DESCRIPTION
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>CERT_ACCESS_DESCRIPTION</b> structure is a member of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_authority_info_access">CERT_AUTHORITY_INFO_ACCESS</a> structure. It contains one instance of information about how to access information and services for either the subject or the issuer of a certificate that contains either the subject information access or the authority information access extension, respectively. For more information about these certificate extensions, see <a href="http://go.microsoft.com/fwlink/p/?linkid=104367">RFC 3280</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_authority_info_access">CERT_AUTHORITY_INFO_ACCESS</a> structure. It contains one instance of information about how to access information and services for either the subject or the issuer of a certificate that contains either the subject information access or the authority information access extension, respectively. For more information about these certificate extensions, see <a href="http://go.microsoft.com/fwlink/p/?linkid=104367">RFC 3280</a>.
 
 
 ## -struct-fields
@@ -78,7 +78,7 @@ The default provider does not support the szOID_PKIX_TIME_STAMPING method.
 ### -field AccessLocation
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a> structure that describes the online status server and the access protocol to obtain current certificate status information for the certificate containing the extension. 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a> structure that describes the online status server and the access protocol to obtain current certificate status information for the certificate containing the extension. 
 
 
 
@@ -95,7 +95,7 @@ For the szOID_PKIX_CA_REPOSITORY method, <b>AccessLocation</b> specifies either 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_authority_info_access">CERT_AUTHORITY_INFO_ACCESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_authority_info_access">CERT_AUTHORITY_INFO_ACCESS</a>
 
 
 

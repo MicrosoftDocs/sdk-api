@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_SETUP_PHASE_TYPE, CLUSTER_SETUP_PHASE_TYPE enumeration [Failover Cluster], ClusterSetupPhaseContinue, ClusterSetupPhaseEnd, ClusterSetupPhaseStart, clusapi/CLUSTER_SETUP_PHASE_TYPE, clusapi/ClusterSetupPhaseContinue, clusapi/ClusterSetupPhaseEnd, clusapi/ClusterSetupPhaseStart, mscs.cluster_setup_phase_type
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUSTER_SETUP_PHASE_TYPE"
+f1_keywords:
+- clusapi/CLUSTER_SETUP_PHASE_TYPE
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSTER_SETUP_PHASE_TYPE
+- CLUSTER_SETUP_PHASE_TYPE
 product: Windows
 targetos: Windows
 req.typenames: CLUSTER_SETUP_PHASE_TYPE
@@ -54,9 +54,9 @@ ms.custom: 19H1
 Describes the  progress of the cluster setup process. The 
     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pcluster_setup_progress_callback">ClusterSetupProgressCallback</a> function 
     uses this enumeration. The values of the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-_cluster_setup_phase">CLUSTER_SETUP_PHASE</a> enumeration identify the current 
+    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase">CLUSTER_SETUP_PHASE</a> enumeration identify the current 
     phase of the cluster setup process. The values of the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-_cluster_setup_phase_severity">CLUSTER_SETUP_PHASE_SEVERITY</a> enumeration 
+    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_severity">CLUSTER_SETUP_PHASE_SEVERITY</a> enumeration 
     describe the  severity of the cluster setup process.
 
 

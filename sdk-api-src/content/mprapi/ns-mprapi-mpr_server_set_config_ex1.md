@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 6c993c9c-4522-4758-926a-fa7ef2a89418
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMPR_SERVER_SET_CONFIG_EX1, MPRAPI_SET_CONFIG_PROTOCOL_FOR_IKEV2, MPRAPI_SET_CONFIG_PROTOCOL_FOR_L2TP, MPRAPI_SET_CONFIG_PROTOCOL_FOR_PPTP, MPRAPI_SET_CONFIG_PROTOCOL_FOR_SSTP, MPR_SERVER_SET_CONFIG_EX, MPR_SERVER_SET_CONFIG_EX structure [RAS], MPR_SERVER_SET_CONFIG_EX0, MPR_SERVER_SET_CONFIG_EX1, PMPR_SERVER_SET_CONFIG_EX, PMPR_SERVER_SET_CONFIG_EX structure pointer [RAS], _MPR_SERVER_SET_CONFIG_EX0, _MPR_SERVER_SET_CONFIG_EX1, mprapi/MPR_SERVER_SET_CONFIG_EX, mprapi/PMPR_SERVER_SET_CONFIG_EX, rras.mpr_server_set_config_ex"
+ms.keywords: '*PMPR_SERVER_SET_CONFIG_EX1, MPRAPI_SET_CONFIG_PROTOCOL_FOR_IKEV2, MPRAPI_SET_CONFIG_PROTOCOL_FOR_L2TP, MPRAPI_SET_CONFIG_PROTOCOL_FOR_PPTP, MPRAPI_SET_CONFIG_PROTOCOL_FOR_SSTP, MPR_SERVER_SET_CONFIG_EX, MPR_SERVER_SET_CONFIG_EX structure [RAS], MPR_SERVER_SET_CONFIG_EX0, MPR_SERVER_SET_CONFIG_EX1, PMPR_SERVER_SET_CONFIG_EX, PMPR_SERVER_SET_CONFIG_EX structure pointer [RAS], _MPR_SERVER_SET_CONFIG_EX0, _MPR_SERVER_SET_CONFIG_EX1, mprapi/MPR_SERVER_SET_CONFIG_EX, mprapi/PMPR_SERVER_SET_CONFIG_EX, rras.mpr_server_set_config_ex'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/MPR_SERVER_SET_CONFIG_EX"
+f1_keywords:
+- mprapi/MPR_SERVER_SET_CONFIG_EX
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - MPR_SERVER_SET_CONFIG_EX
- - MPR_SERVER_SET_CONFIG_EX0
- - MPR_SERVER_SET_CONFIG_EX1
+- MPR_SERVER_SET_CONFIG_EX
+- MPR_SERVER_SET_CONFIG_EX0
+- MPR_SERVER_SET_CONFIG_EX1
 product: Windows
 targetos: Windows
 req.typenames: MPR_SERVER_SET_CONFIG_EX1, *PMPR_SERVER_SET_CONFIG_EX1
@@ -63,7 +63,7 @@ The <b>MPR_SERVER_SET_CONFIG_EX</b> structure is used to get or set the tunnel c
 
 ### -field Header
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mprapi_object_header">MPRAPI_OBJECT_HEADER</a> structure that specifies the version of the <b>MPR_SERVER_SET_CONFIG_EX</b> structure. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mprapi_object_header">MPRAPI_OBJECT_HEADER</a> structure that specifies the version of the <b>MPR_SERVER_SET_CONFIG_EX</b> structure. 
 
 <div class="alert"><b>Note</b>  The <b>revision</b> member  of  <b>Header</b> must be <b>MPRAPI_MPR_SERVER_SET_CONFIG_OBJECT_REVISION_1</b> and <b>type</b> must be <b>MPRAPI_OBJECT_TYPE_MPR_SERVER_SET_CONFIG_OBJECT</b>.</div>
 <div> </div>
@@ -123,7 +123,7 @@ Internet Key version 2 (IKEV2)
 
 ### -field ConfigParams
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mprapi_tunnel_config_params0">MPRAPI_TUNNEL_CONFIG_PARAMS</a> structure that contains the tunnel configuration information for the tunnel type specified in <b>setConfigForProtocols</b>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mprapi_tunnel_config_params0">MPRAPI_TUNNEL_CONFIG_PARAMS</a> structure that contains the tunnel configuration information for the tunnel type specified in <b>setConfigForProtocols</b>.
 
 
 ## -see-also

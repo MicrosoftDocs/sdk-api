@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 7c0ccd18-3892-4512-9957-1ac01fa83f0f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDDGETKERNELCAPSOUT, DDGETKERNELCAPSOUT, DDGETKERNELCAPSOUT structure [Display Devices], LPDDGETKERNELCAPSOUT, LPDDGETKERNELCAPSOUT structure pointer [Display Devices], ddkmapi/DDGETKERNELCAPSOUT, ddkmapi/LPDDGETKERNELCAPSOUT, ddstrcts_4879ba8e-459c-4b10-b43a-854a85d4e10f.xml, display.ddgetkernelcapsout"
+ms.keywords: '*LPDDGETKERNELCAPSOUT, DDGETKERNELCAPSOUT, DDGETKERNELCAPSOUT structure [Display Devices], LPDDGETKERNELCAPSOUT, LPDDGETKERNELCAPSOUT structure pointer [Display Devices], ddkmapi/DDGETKERNELCAPSOUT, ddkmapi/LPDDGETKERNELCAPSOUT, ddstrcts_4879ba8e-459c-4b10-b43a-854a85d4e10f.xml, display.ddgetkernelcapsout'
 ms.topic: struct
-f1_keywords: 
- - "ddkmapi/DDGETKERNELCAPSOUT"
+f1_keywords:
+- ddkmapi/DDGETKERNELCAPSOUT
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddkmapi.h
+- ddkmapi.h
 api_name:
- - DDGETKERNELCAPSOUT
+- DDGETKERNELCAPSOUT
 product: Windows
 targetos: Windows
 req.typenames: DDGETKERNELCAPSOUT, *LPDDGETKERNELCAPSOUT
@@ -66,7 +66,7 @@ Specifies the location in which DirectDraw writes the return value of the <a hre
 
 ### -field dwCaps
 
-Can be any combination of the capabilities in the <b>dwCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddkernel/ns-ddkernel-_ddkernelcaps">DDKERNELCAPS</a> structure.
+Can be any combination of the capabilities in the <b>dwCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddkernel/ns-ddkernel-ddkernelcaps">DDKERNELCAPS</a> structure.
 
 
 ### -field dwIRQCaps

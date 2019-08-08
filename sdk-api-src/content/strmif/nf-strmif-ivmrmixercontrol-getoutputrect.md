@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOutputRect, GetOutputRect method [DirectShow], GetOutputRect method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetOutputRect method, IVMRMixerControl.GetOutputRect, IVMRMixerControl::GetOutputRect, IVMRMixerControlGetOutputRect, dshow.ivmrmixercontrol_getoutputrect, strmif/IVMRMixerControl::GetOutputRect
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRMixerControl.GetOutputRect"
+f1_keywords:
+- strmif/IVMRMixerControl.GetOutputRect
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMixerControl.GetOutputRect
+- IVMRMixerControl.GetOutputRect
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ Specifies the input stream.
 
 ### -param pRect [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_normalizedrect">NORMALIZEDRECT</a> structure that receives the destination rectangle in composition space.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-normalizedrect">NORMALIZEDRECT</a> structure that receives the destination rectangle in composition space.
 
 
 ## -returns

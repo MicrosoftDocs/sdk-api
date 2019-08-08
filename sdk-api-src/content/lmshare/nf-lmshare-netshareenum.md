@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 502, 503, NetShareEnum, NetShareEnum function [Files], _win32_netshareenum, fs.netshareenum, lmshare/NetShareEnum, netmgmt.netshareenum
 ms.topic: function
-f1_keywords: 
- - "lmshare/NetShareEnum"
+f1_keywords:
+- lmshare/NetShareEnum
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetShareEnum
+- NetShareEnum
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -86,7 +86,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
  Return share names. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_0">SHARE_INFO_0</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_0">SHARE_INFO_0</a> structures.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Return information about shared resources, including the name and type of the re
 
 
 The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1">SHARE_INFO_1</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1">SHARE_INFO_1</a> structures.
 							
 
 </td>
@@ -112,7 +112,7 @@ The <i>bufptr</i> parameter points to an array of
 </td>
 <td width="60%">
  Return information about shared resources, including name of the resource, type and permissions, password, and number of connections. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_2">SHARE_INFO_2</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_2">SHARE_INFO_2</a> structures.
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ The <i>bufptr</i> parameter points to an array of
 </td>
 <td width="60%">
  Return information about shared resources, including name of the resource, type and permissions, number of connections, and other pertinent information. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_502">SHARE_INFO_502</a> structures. Shares from different scopes are not returned. For more information about scoping, see the Remarks section of the documentation for the <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_502">SHARE_INFO_502</a> structures. Shares from different scopes are not returned. For more information about scoping, see the Remarks section of the documentation for the <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a> function.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ The <i>bufptr</i> parameter points to an array of
 </dl>
 </td>
 <td width="60%">
-Return information about shared resources, including the name of the resource, type and permissions, number of connections, and other pertinent information. The <i>bufptr</i> parameter points to an array of <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_503">SHARE_INFO_503</a> structures. Shares from all scopes are returned. If the <b>shi503_servername</b> member of this structure is "*", there is no configured server name and the <b>NetShareEnum</b> function enumerates shares for all the unscoped names.
+Return information about shared resources, including the name of the resource, type and permissions, number of connections, and other pertinent information. The <i>bufptr</i> parameter points to an array of <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_503">SHARE_INFO_503</a> structures. Shares from all scopes are returned. If the <b>shi503_servername</b> member of this structure is "*", there is no configured server name and the <b>NetShareEnum</b> function enumerates shares for all the unscoped names.
 
 <b>Windows Server 2003 and Windows XP:  </b>This information level is not supported.
 
@@ -211,7 +211,7 @@ If you are programming for Active Directory, you may be able to call certain Act
 
 The following code sample demonstrates how to retrieve information about each shared resource on a server using a call to the 
 <b>NetShareEnum</b> function. The sample calls 
-<b>NetShareEnum</b>, specifying information level 502 (<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_502">SHARE_INFO_502</a>). If the call succeeds, the code loops through the entries and prints information about each share. The sample also calls the 
+<b>NetShareEnum</b>, specifying information level 502 (<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_502">SHARE_INFO_502</a>). If the call succeeds, the code loops through the entries and prints information about each share. The sample also calls the 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsecuritydescriptor">IsValidSecurityDescriptor</a> function to validate the <b>shi502_security_descriptor</b> member. Finally, the code sample frees the memory allocated for the information buffer.
 
 
@@ -316,23 +316,23 @@ void wmain( int argc, TCHAR *lpszArgv[ ])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_0">SHARE_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_0">SHARE_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1">SHARE_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1">SHARE_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_2">SHARE_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_2">SHARE_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_502">SHARE_INFO_502</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_502">SHARE_INFO_502</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_503">SHARE_INFO_503</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_503">SHARE_INFO_503</a>
  
 
  

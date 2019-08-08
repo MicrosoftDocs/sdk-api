@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_ACP_AND_CGMSA_SIGNALING, OPM_ACP_AND_CGMSA_SIGNALING structure [Media Foundation], mf.opm_acp_and_cgmsa_signaling, opmapi/OPM_ACP_AND_CGMSA_SIGNALING
 ms.topic: struct
-f1_keywords: 
- - "opmapi/OPM_ACP_AND_CGMSA_SIGNALING"
+f1_keywords:
+- opmapi/OPM_ACP_AND_CGMSA_SIGNALING
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - opmapi.h
+- opmapi.h
 api_name:
- - OPM_ACP_AND_CGMSA_SIGNALING
+- OPM_ACP_AND_CGMSA_SIGNALING
 product: Windows
 targetos: Windows
 req.typenames: OPM_ACP_AND_CGMSA_SIGNALING
@@ -61,7 +61,7 @@ Contains the result from an <a href="https://docs.microsoft.com/windows/desktop/
 
 ### -field rnRandomNumber
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_random_number">OPM_RANDOM_NUMBER</a> structure. This structure contains the same 128-bit random number that the application sent to the driver in the <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_info_parameters">OPM_GET_INFO_PARAMETERS</a> or <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-coppcompatiblegetinformation">OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure.
+An <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_random_number">OPM_RANDOM_NUMBER</a> structure. This structure contains the same 128-bit random number that the application sent to the driver in the <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters">OPM_GET_INFO_PARAMETERS</a> or <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-coppcompatiblegetinformation">OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure.
 
 
 ### -field ulStatusFlags
@@ -91,7 +91,7 @@ A bitmask indicating which bits of <b>ulAspectRatioData1</b> are valid.
 
 ### -field ulAspectRatioData1
 
-The current aspect ratio. For EN 300 294, the value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ne-opmapi-_opm_image_aspect_ratio_en300294">OPM_IMAGE_ASPECT_RATIO_EN300294</a> enumeration.
+The current aspect ratio. For EN 300 294, the value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ne-opmapi-opm_image_aspect_ratio_en300294">OPM_IMAGE_ASPECT_RATIO_EN300294</a> enumeration.
 
 
 ### -field ulAspectRatioValidMask2
@@ -128,7 +128,7 @@ Reserved for future use.Fill this array with zeros.
 
 
 
-The layout of this structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxva_coppstatussignalingcmddata">DXVA_COPPStatusSignalingCmdData</a> structure used in Certified Output Protection Protocol (COPP).
+The layout of this structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ns-dxva9typ-dxva_coppstatussignalingcmddata">DXVA_COPPStatusSignalingCmdData</a> structure used in Certified Output Protection Protocol (COPP).
 
 
 

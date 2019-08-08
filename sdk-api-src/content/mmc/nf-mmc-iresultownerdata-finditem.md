@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindItem, FindItem method [MMC], FindItem method [MMC],IResultOwnerData interface, IResultOwnerData interface [MMC],FindItem method, IResultOwnerData.FindItem, IResultOwnerData::FindItem, _slate_iresultownerdata_finditem, mmc.iresultownerdata_finditem, mmc/IResultOwnerData::FindItem
 ms.topic: method
-f1_keywords: 
- - "mmc/IResultOwnerData.FindItem"
+f1_keywords:
+- mmc/IResultOwnerData.FindItem
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IResultOwnerData.FindItem
+- IResultOwnerData.FindItem
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>IResultOwnerData::FindItem</b> method finds the next item in a virtual li
 ### -param pFindInfo [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_resultfindinfo">RESULTFINDINFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-resultfindinfo">RESULTFINDINFO</a> structure.
 
 
 ### -param pnFoundIndex [out]
@@ -96,7 +96,7 @@ FindItem call.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_resultfindinfo">RESULTFINDINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-resultfindinfo">RESULTFINDINFO</a>
  
 
  

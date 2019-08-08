@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: 0dbfde78-b1d4-4cc6-99aa-81de3f647cdb
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTRACE_PROVIDER_INFO, TRACE_PROVIDER_INFO, TRACE_PROVIDER_INFO structure [ETW], etw.trace_provider_info_struct, tdh.trace_provider_info_struct, tdh/TRACE_PROVIDER_INFO"
+ms.keywords: '*PTRACE_PROVIDER_INFO, TRACE_PROVIDER_INFO, TRACE_PROVIDER_INFO structure [ETW], etw.trace_provider_info_struct, tdh.trace_provider_info_struct, tdh/TRACE_PROVIDER_INFO'
 ms.topic: struct
-f1_keywords: 
- - "tdh/TRACE_PROVIDER_INFO"
+f1_keywords:
+- tdh/TRACE_PROVIDER_INFO
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tdh.h
+- Tdh.h
 api_name:
- - TRACE_PROVIDER_INFO
+- TRACE_PROVIDER_INFO
 product: Windows
 targetos: Windows
 req.typenames: TRACE_PROVIDER_INFO
@@ -71,7 +71,7 @@ Is zero if the provider uses a XML manifest to provide a description of its even
 
 ### -field ProviderNameOffset
 
-Offset to a null-terminated Unicode string that contains the name of the provider. The offset is from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_provider_enumeration_info">PROVIDER_ENUMERATION_INFO</a> buffer that <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviders">TdhEnumerateProviders</a> returns.
+Offset to a null-terminated Unicode string that contains the name of the provider. The offset is from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-provider_enumeration_info">PROVIDER_ENUMERATION_INFO</a> buffer that <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviders">TdhEnumerateProviders</a> returns.
 
 
 ## -see-also
@@ -79,7 +79,7 @@ Offset to a null-terminated Unicode string that contains the name of the provide
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_provider_enumeration_info">PROVIDER_ENUMERATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-provider_enumeration_info">PROVIDER_ENUMERATION_INFO</a>
  
 
  

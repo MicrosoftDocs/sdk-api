@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_HASH_REUSABLE_FLAG, BCryptCreateMultiHash, BCryptCreateMultiHash function [Security], bcrypt/BCryptCreateMultiHash, security.bcryptcreatemultihash
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptCreateMultiHash"
+f1_keywords:
+- bcrypt/BCryptCreateMultiHash
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
- - Ksecdd.sys
+- Bcrypt.dll
+- Ksecdd.sys
 api_name:
- - BCryptCreateMultiHash
+- BCryptCreateMultiHash
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,7 +83,7 @@ The number of elements in the array. The multi-hash state that this function cre
 
 A pointer to a buffer that receives the multi-hash state. 
 
-The size can be calculated from the <b>cbPerObject</b>  and <b>cbPerElement</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_multi_object_length_struct">BCRYPT_MULTI_OBJECT_LENGTH_STRUCT</a> structure. The value is the following: <code>cbPerObject + (number of hash states) * cbPerElement</code>.
+The size can be calculated from the <b>cbPerObject</b>  and <b>cbPerElement</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_multi_object_length_struct">BCRYPT_MULTI_OBJECT_LENGTH_STRUCT</a> structure. The value is the following: <code>cbPerObject + (number of hash states) * cbPerElement</code>.
 
 If <i>pbHashObject</i> is <b>NULL</b> and <i>cbHashObject</i> has a value of zero (0), the object buffer is automatically allocated.
 
@@ -146,7 +146,7 @@ Multi-hashing is not supported for HMAC-MD2, HMAC-MD4, and GMAC.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_multi_object_length_struct">BCRYPT_MULTI_OBJECT_LENGTH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_multi_object_length_struct">BCRYPT_MULTI_OBJECT_LENGTH</a>
 
 
 

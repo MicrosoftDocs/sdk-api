@@ -8,10 +8,10 @@ tech.root: usbref
 ms.assetid: f2d60a3b-0ba9-4c2d-b830-f0eca735434b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PUSBUSER_POWER_INFO_REQUEST, PUSBUSER_POWER_INFO_REQUEST, PUSBUSER_POWER_INFO_REQUEST structure pointer [Buses], USBUSER_POWER_INFO_REQUEST, USBUSER_POWER_INFO_REQUEST structure [Buses], buses.usbuser_power_info_request, usbstrct_1cbb73ef-b3d5-4568-a5b1-ea3a52cbe771.xml, usbuser/PUSBUSER_POWER_INFO_REQUEST, usbuser/USBUSER_POWER_INFO_REQUEST"
+ms.keywords: '*PUSBUSER_POWER_INFO_REQUEST, PUSBUSER_POWER_INFO_REQUEST, PUSBUSER_POWER_INFO_REQUEST structure pointer [Buses], USBUSER_POWER_INFO_REQUEST, USBUSER_POWER_INFO_REQUEST structure [Buses], buses.usbuser_power_info_request, usbstrct_1cbb73ef-b3d5-4568-a5b1-ea3a52cbe771.xml, usbuser/PUSBUSER_POWER_INFO_REQUEST, usbuser/USBUSER_POWER_INFO_REQUEST'
 ms.topic: struct
-f1_keywords: 
- - "usbuser/USBUSER_POWER_INFO_REQUEST"
+f1_keywords:
+- usbuser/USBUSER_POWER_INFO_REQUEST
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - usbuser.h
+- usbuser.h
 api_name:
- - USBUSER_POWER_INFO_REQUEST
+- USBUSER_POWER_INFO_REQUEST
 product: Windows
 targetos: Windows
 req.typenames: USBUSER_POWER_INFO_REQUEST, *PUSBUSER_POWER_INFO_REQUEST
@@ -61,12 +61,12 @@ The <b>USBUSER_POWER_INFO_REQUEST</b> structure is used in conjunction with the 
 
 ### -field Header
 
-Contains a structure of type <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usbuser_request_header">USBUSER_REQUEST_HEADER</a> that specifies the user-mode request on input to <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>, and provides buffer and status information on output.
+Contains a structure of type <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usbuser_request_header">USBUSER_REQUEST_HEADER</a> that specifies the user-mode request on input to <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>, and provides buffer and status information on output.
 
 
 ### -field PowerInformation
 
-Contains a structure of type <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_power_info">USB_POWER_INFO</a> that specifies the parameters associated with this request.
+Contains a structure of type <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_power_info">USB_POWER_INFO</a> that specifies the parameters associated with this request.
 
 
 ## -remarks

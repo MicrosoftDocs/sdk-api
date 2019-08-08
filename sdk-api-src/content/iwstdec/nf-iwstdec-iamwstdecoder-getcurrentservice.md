@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentService, GetCurrentService method [DirectShow], GetCurrentService method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetCurrentService method, IAMWstDecoder.GetCurrentService, IAMWstDecoder::GetCurrentService, IAMWstDecoderGetCurrentService, dshow.iamwstdecoder_getcurrentservice, iwstdec/IAMWstDecoder::GetCurrentService
 ms.topic: method
-f1_keywords: 
- - "iwstdec/IAMWstDecoder.GetCurrentService"
+f1_keywords:
+- iwstdec/IAMWstDecoder.GetCurrentService
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMWstDecoder.GetCurrentService
+- IAMWstDecoder.GetCurrentService
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Applications use the <code>GetCurrentService</code> method to retrieve the curre
 
 ### -param lpService [out]
 
-Specifies a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/ne-iwstdec-_am_wst_service">AM_WST_SERVICE</a> enumeration to receive the service currently being used.
+Specifies a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-am_wst_service">AM_WST_SERVICE</a> enumeration to receive the service currently being used.
 
 <table>
 <tr>

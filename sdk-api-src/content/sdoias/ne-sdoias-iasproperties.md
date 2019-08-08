@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IASPROPERTIES, IASPROPERTIES enumeration [Network Policy Server], PROPERTY_IAS_AUDITORS_COLLECTION, PROPERTY_IAS_POLICIES_COLLECTION, PROPERTY_IAS_PROFILES_COLLECTION, PROPERTY_IAS_PROTOCOLS_COLLECTION, PROPERTY_IAS_PROXYPOLICIES_COLLECTION, PROPERTY_IAS_PROXYPROFILES_COLLECTION, PROPERTY_IAS_RADIUSSERVERGROUPS_COLLECTION, PROPERTY_IAS_REMEDIATIONSERVERGROUPS_COLLECTION, PROPERTY_IAS_REQUESTHANDLERS_COLLECTION, PROPERTY_IAS_SHVTEMPLATES_COLLECTION, _sdo_iasproperties, nps.SDO_iasproperties, sdo.iasproperties, sdoias/IASPROPERTIES, sdoias/PROPERTY_IAS_AUDITORS_COLLECTION, sdoias/PROPERTY_IAS_POLICIES_COLLECTION, sdoias/PROPERTY_IAS_PROFILES_COLLECTION, sdoias/PROPERTY_IAS_PROTOCOLS_COLLECTION, sdoias/PROPERTY_IAS_PROXYPOLICIES_COLLECTION, sdoias/PROPERTY_IAS_PROXYPROFILES_COLLECTION, sdoias/PROPERTY_IAS_RADIUSSERVERGROUPS_COLLECTION, sdoias/PROPERTY_IAS_REMEDIATIONSERVERGROUPS_COLLECTION, sdoias/PROPERTY_IAS_REQUESTHANDLERS_COLLECTION, sdoias/PROPERTY_IAS_SHVTEMPLATES_COLLECTION
 ms.topic: enum
-f1_keywords: 
- - "sdoias/IASPROPERTIES"
+f1_keywords:
+- sdoias/IASPROPERTIES
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - IASPROPERTIES
+- IASPROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: IASPROPERTIES
@@ -115,11 +115,11 @@ Used by the System Health Validator Template settings of NPS user interface.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_radiusproxyproperties">RADIUSPROXYPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-radiusproxyproperties">RADIUSPROXYPROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_radiusservergroupproperties">RADIUSSERVERGROUPPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-radiusservergroupproperties">RADIUSSERVERGROUPPROPERTIES</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSCEnumNameSpaceProvidersEx32, WSCEnumNameSpaceProvidersEx32 function [Winsock], winsock.wscenumnamespaceprovidersex32, ws2spi/WSCEnumNameSpaceProvidersEx32
 ms.topic: function
-f1_keywords: 
- - "ws2spi/WSCEnumNameSpaceProvidersEx32"
+f1_keywords:
+- ws2spi/WSCEnumNameSpaceProvidersEx32
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSCEnumNameSpaceProvidersEx32
+- WSCEnumNameSpaceProvidersEx32
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ On input, the number of bytes contained in the buffer pointed to by <i>lpnspBuff
 ### -param lpnspBuffer [out]
 
 A buffer that is filled with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsanamespace_infoexw">WSANAMESPACE_INFOEXW</a> structures. The returned structures are located consecutively at the head of the buffer. Variable sized information referenced by pointers in the structures point to locations within the buffer located between the end of the fixed sized structures and the end of the buffer. The number of structures filled in is the return value of 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infoexw">WSANAMESPACE_INFOEXW</a> structures. The returned structures are located consecutively at the head of the buffer. Variable sized information referenced by pointers in the structures point to locations within the buffer located between the end of the fixed sized structures and the end of the buffer. The number of structures filled in is the return value of 
 <b>WSCEnumNameSpaceProvidersEx32</b>.
 
 
@@ -79,7 +79,7 @@ A buffer that is filled with
 
 The 
 <b>WSCEnumNameSpaceProvidersEx32</b> function returns the number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsanamespace_infoexw">WSANAMESPACE_INFOEXW</a> structures copied into <i>lpnspBuffer</i>. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infoexw">WSANAMESPACE_INFOEXW</a> structures copied into <i>lpnspBuffer</i>. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <table>
@@ -95,7 +95,7 @@ The
 </td>
 <td width="60%">
 The buffer length was too small to receive all the relevant 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsanamespace_infoexw">WSANAMESPACE_INFOEXW</a> structures and associated information or the <i>lpnspBuffer</i> parameter was a <b>NULL</b> pointer. When this error is returned, the buffer length required is returned in the <i>lpdwBufferLength</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infoexw">WSANAMESPACE_INFOEXW</a> structures and associated information or the <i>lpnspBuffer</i> parameter was a <b>NULL</b> pointer. When this error is returned, the buffer length required is returned in the <i>lpdwBufferLength</i> parameter.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ There was insufficient memory to perform the operation.
 
 <b>WSCEnumNameSpaceProvidersEx32</b> is a strictly 32-bit version of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersexa">WSAEnumNameSpaceProvidersEx</a>. On a 64-bit computer, all calls not specifically 32-bit (for example, all functions that do not end in "32") operate on the native 64-bit catalog. Processes that execute on a 64-bit computer must use the specific 32-bit function calls to operate on a strictly 32-bit catalog and preserve compatibility. The definitions and semantics of the specific 32-bit calls are the same as their native counterparts.
 
-  Currently, the only namespace included with Windows that uses information in the <b>ProviderSpecific</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsanamespace_infoexw">WSANAMESPACE_INFOEXW</a> structure are namespace providers for the NS_EMAIL namespace. The format of the <b>ProviderSpecific</b> member for an NS_EMAIL namespace provider is a <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob_tag">NAPI_PROVIDER_INSTALLATION_BLOB</a> structure.
+  Currently, the only namespace included with Windows that uses information in the <b>ProviderSpecific</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infoexw">WSANAMESPACE_INFOEXW</a> structure are namespace providers for the NS_EMAIL namespace. The format of the <b>ProviderSpecific</b> member for an NS_EMAIL namespace provider is a <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob_tag">NAPI_PROVIDER_INSTALLATION_BLOB</a> structure.
 
 The 32-bit SPI function is equivalent to the native API function (<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersexa">WSAEnumNameSpaceProvidersEx</a>) because there is no concept of a "hidden" namespace provider.
 
@@ -157,7 +157,7 @@ The provider-specific data blob associated with namespace entry
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsanamespace_infoexw">WSANAMESPACE_INFOEXW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infoexw">WSANAMESPACE_INFOEXW</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtSetChannelConfigProperty, EvtSetChannelConfigProperty function [EventLog], wes.evtsetchannelconfigproperty, winevt/EvtSetChannelConfigProperty
 ms.topic: function
-f1_keywords: 
- - "winevt/EvtSetChannelConfigProperty"
+f1_keywords:
+- winevt/EvtSetChannelConfigProperty
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wevtapi.dll
- - Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll
+- Wevtapi.dll
+- Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll
 api_name:
- - EvtSetChannelConfigProperty
+- EvtSetChannelConfigProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ A handle to the channel's configuration properties that the  <a href="https://do
 
 ### -param PropertyId [in]
 
-The identifier of the channel property to set. For a list of property identifiers, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_channel_config_property_id">EVT_CHANNEL_CONFIG_PROPERTY_ID</a> enumeration.
+The identifier of the channel property to set. For a list of property identifiers, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_channel_config_property_id">EVT_CHANNEL_CONFIG_PROPERTY_ID</a> enumeration.
 
 
 ### -param Flags [in]
@@ -79,7 +79,7 @@ Reserved. Must be zero.
 
 The property value to set.
 
-A caller-allocated buffer that contains the new configuration property value. The buffer contains an <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ns-winevt-_evt_variant">EVT_VARIANT</a> object. Be sure to set the configuration value and variant type.
+A caller-allocated buffer that contains the new configuration property value. The buffer contains an <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ns-winevt-evt_variant">EVT_VARIANT</a> object. Be sure to set the configuration value and variant type.
 
 
 ## -returns

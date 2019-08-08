@@ -8,10 +8,10 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\wabextdisplay.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPWABEXTDISPLAY, LPWABEXTDISPLAY, LPWABEXTDISPLAY structure pointer [Windows Address Book], WABEXTDISPLAY, WABEXTDISPLAY structure [Windows Address Book], WAB_CONTEXT_ADRLIST, WAB_DISPLAY_LDAPURL, _wab_WABEXTDISPLAY, wab._wab_WABEXTDISPLAY, wabapi/LPWABEXTDISPLAY, wabapi/WABEXTDISPLAY"
+ms.keywords: '*LPWABEXTDISPLAY, LPWABEXTDISPLAY, LPWABEXTDISPLAY structure pointer [Windows Address Book], WABEXTDISPLAY, WABEXTDISPLAY structure [Windows Address Book], WAB_CONTEXT_ADRLIST, WAB_DISPLAY_LDAPURL, _wab_WABEXTDISPLAY, wab._wab_WABEXTDISPLAY, wabapi/LPWABEXTDISPLAY, wabapi/WABEXTDISPLAY'
 ms.topic: struct
-f1_keywords: 
- - "wabapi/WABEXTDISPLAY"
+f1_keywords:
+- wabapi/WABEXTDISPLAY
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wabapi.h
+- Wabapi.h
 api_name:
- - WABEXTDISPLAY
+- WABEXTDISPLAY
 product: Windows
 targetos: Windows
 req.typenames: WABEXTDISPLAY, *LPWABEXTDISPLAY
@@ -118,7 +118,7 @@ Variable of type <b>ULONG</b> that specifies flags that control behavior. The fo
 
 #### WAB_CONTEXT_ADRLIST
 
-Set when the WAB calls <a href="https://docs.microsoft.com/previous-versions/ms629473(v=vs.85)">Initialize</a> prior to invoking your <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu Interface</a> methods. This flag indicates that <b>lpv</b> contains a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_adrlist">ADRLIST</a> structure. The <b>ADRLIST</b> structure contains one or more entries, each corresponding to a selected item in the WAB user interface. To retrieve and use this <b>ADRLIST</b>, cast <b>lpv</b> to an <b>LPADRLIST</b>. You can also use <b>ulFlags</b> to determine that <b>WABEXTDISPLAY</b> is being used to initialize an IContextMenu Interface operation. If <b>ulFlags</b> does not contain this flag, you can safely assume that the structure is being used for a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext">IShellPropSheetExt Interface</a> action.
+Set when the WAB calls <a href="https://docs.microsoft.com/previous-versions/ms629473(v=vs.85)">Initialize</a> prior to invoking your <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu Interface</a> methods. This flag indicates that <b>lpv</b> contains a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-adrlist">ADRLIST</a> structure. The <b>ADRLIST</b> structure contains one or more entries, each corresponding to a selected item in the WAB user interface. To retrieve and use this <b>ADRLIST</b>, cast <b>lpv</b> to an <b>LPADRLIST</b>. You can also use <b>ulFlags</b> to determine that <b>WABEXTDISPLAY</b> is being used to initialize an IContextMenu Interface operation. If <b>ulFlags</b> does not contain this flag, you can safely assume that the structure is being used for a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext">IShellPropSheetExt Interface</a> action.
 
 
 
@@ -132,7 +132,7 @@ Sometimes the WAB will display a property sheet on a contact represented by a LD
 
 Type: <b>LPVOID</b>
 
-Pointer that specifies miscellaneous information that is passed to your application. The current flags identify the information being represented. If <b>ulFlags</b> is set to <b>WAB_CONTEXT_ADRLIST</b>, <b>lpv</b> contains a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_adrlist">ADRLIST</a>. Cast <b>lpv</b> to an <b>ADRLIST</b> to access the contents of the <b>ADRLIST</b>. The <b>lpAdrList-&gt;cEntries</b> member contains the number of selected items. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_adrentry">ADRENTRY</a> structures in <b>lpAdrList-&gt;aEntries</b> contain <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_spropvalue">SPropValue</a> arrays with all of the properties pertaining to each selected item.
+Pointer that specifies miscellaneous information that is passed to your application. The current flags identify the information being represented. If <b>ulFlags</b> is set to <b>WAB_CONTEXT_ADRLIST</b>, <b>lpv</b> contains a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-adrlist">ADRLIST</a>. Cast <b>lpv</b> to an <b>ADRLIST</b> to access the contents of the <b>ADRLIST</b>. The <b>lpAdrList-&gt;cEntries</b> member contains the number of selected items. The <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-adrentry">ADRENTRY</a> structures in <b>lpAdrList-&gt;aEntries</b> contain <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-spropvalue">SPropValue</a> arrays with all of the properties pertaining to each selected item.
 
 
 ### -field lpsz

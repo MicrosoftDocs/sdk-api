@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrStubInitialize, NdrStubInitialize function [RPC], rpc.ndrstubinitialize, rpcproxy/NdrStubInitialize
 ms.topic: function
-f1_keywords: 
- - "rpcproxy/NdrStubInitialize"
+f1_keywords:
+- rpcproxy/NdrStubInitialize
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RpcRT4.dll
+- RpcRT4.dll
 api_name:
- - NdrStubInitialize
+- NdrStubInitialize
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,17 +62,17 @@ The <b>NdrStubInitialize</b> function is called by the server stub before unmars
 
 ### -param pRpcMsg [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rpcdcep/ns-rpcdcep-_rpc_message">RPC_MESSAGE</a> structure which contains the RPC message.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rpcdcep/ns-rpcdcep-rpc_message">RPC_MESSAGE</a> structure which contains the RPC message.
 
 
 ### -param pStubMsg [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-_midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. Structure is for internal use only; do not modify.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. Structure is for internal use only; do not modify.
 
 
 ### -param pStubDescriptor [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-_midl_stub_desc">MIDL_STUB_DESC</a> structure that contains a descriptor for the RPC stub. Structure is for internal use only; do not modify.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_desc">MIDL_STUB_DESC</a> structure that contains a descriptor for the RPC stub. Structure is for internal use only; do not modify.
 
 
 ### -param pRpcChannelBuffer [in]

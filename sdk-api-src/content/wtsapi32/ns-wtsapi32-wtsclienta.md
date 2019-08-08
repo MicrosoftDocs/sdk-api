@@ -8,10 +8,10 @@ tech.root: TermServ
 ms.assetid: 864b7560-3f19-4a73-a02b-b82caa88b2de
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWTSCLIENTA, PWTSCLIENT, PWTSCLIENT structure pointer [Remote Desktop Services], WTSCLIENT, WTSCLIENT structure [Remote Desktop Services], WTSCLIENTA, WTSCLIENTW, termserv.wtsclient, wtsapi32/PWTSCLIENT, wtsapi32/WTSCLIENT, wtsapi32/WTSCLIENTA, wtsapi32/WTSCLIENTW"
+ms.keywords: '*PWTSCLIENTA, PWTSCLIENT, PWTSCLIENT structure pointer [Remote Desktop Services], WTSCLIENT, WTSCLIENT structure [Remote Desktop Services], WTSCLIENTA, WTSCLIENTW, termserv.wtsclient, wtsapi32/PWTSCLIENT, wtsapi32/WTSCLIENT, wtsapi32/WTSCLIENTA, wtsapi32/WTSCLIENTW'
 ms.topic: struct
-f1_keywords: 
- - "wtsapi32/WTSCLIENT"
+f1_keywords:
+- wtsapi32/WTSCLIENT
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsapi32.h
+- Wtsapi32.h
 api_name:
- - WTSCLIENT
- - WTSCLIENTA
- - WTSCLIENTW
+- WTSCLIENT
+- WTSCLIENTA
+- WTSCLIENTW
 product: Windows
 targetos: Windows
 req.typenames: WTSCLIENTA, *PWTSCLIENTA
@@ -114,7 +114,7 @@ Vertical dimension, in pixels, of the client's display.
 ### -field ColorDepth
 
 Color depth of the client's display. For possible values, see the <b>ColorDepth</b> 
-      member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_client_display">WTS_CLIENT_DISPLAY</a> 
+      member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_display">WTS_CLIENT_DISPLAY</a> 
       structure.
 
 

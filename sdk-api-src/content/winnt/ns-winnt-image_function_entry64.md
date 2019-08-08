@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: ced956ec-7a12-4548-8e38-a1c1057c05e8
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PIMAGE_FUNCTION_ENTRY64, IMAGE_FUNCTION_ENTRY, IMAGE_FUNCTION_ENTRY structure, IMAGE_FUNCTION_ENTRY64, PIMAGE_FUNCTION_ENTRY, PIMAGE_FUNCTION_ENTRY structure pointer, _IMAGE_FUNCTION_ENTRY, _win32_image_function_entry_str, base.image_function_entry_str, winnt/IMAGE_FUNCTION_ENTRY, winnt/PIMAGE_FUNCTION_ENTRY"
+ms.keywords: '*PIMAGE_FUNCTION_ENTRY64, IMAGE_FUNCTION_ENTRY, IMAGE_FUNCTION_ENTRY structure, IMAGE_FUNCTION_ENTRY64, PIMAGE_FUNCTION_ENTRY, PIMAGE_FUNCTION_ENTRY structure pointer, _IMAGE_FUNCTION_ENTRY, _win32_image_function_entry_str, base.image_function_entry_str, winnt/IMAGE_FUNCTION_ENTRY, winnt/PIMAGE_FUNCTION_ENTRY'
 ms.topic: struct
-f1_keywords: 
- - "winnt/IMAGE_FUNCTION_ENTRY"
+f1_keywords:
+- winnt/IMAGE_FUNCTION_ENTRY
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - IMAGE_FUNCTION_ENTRY
+- IMAGE_FUNCTION_ENTRY
 product: Windows
 targetos: Windows
 req.typenames: IMAGE_FUNCTION_ENTRY64, *PIMAGE_FUNCTION_ENTRY64
@@ -117,7 +117,7 @@ typedef struct _IMAGE_FUNCTION_ENTRY64 {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagstackframe">STACKFRAME64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a>
  
 
  

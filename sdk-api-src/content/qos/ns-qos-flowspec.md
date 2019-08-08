@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: 268e0d3a-2b04-40fd-91eb-f1780236b3e4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPFLOWSPEC, *PFLOWSPEC, FLOWSPEC, FLOWSPEC structure [QOS], LPFLOWSPEC, LPFLOWSPEC structure pointer [QOS], PFLOWSPEC, PFLOWSPEC structure pointer [QOS], SERVICETYPE_BESTEFFORT, SERVICETYPE_CONTROLLEDLOAD, SERVICETYPE_GENERAL_INFORMATION, SERVICETYPE_GUARANTEED, SERVICETYPE_NETWORK_CONTROL, SERVICETYPE_NETWORK_UNAVAILBLE, SERVICETYPE_NOCHANGE, SERVICETYPE_NONCONFORMING, SERVICETYPE_NOTRAFFIC, SERVICETYPE_QUALITATIVE, SERVICE_NO_QOS_SIGNALING, SERVICE_NO_TRAFFIC_CONTROL, _gqos_flowspec, qos.flowspec, qos/FLOWSPEC, qos/LPFLOWSPEC, qos/PFLOWSPEC"
+ms.keywords: '*LPFLOWSPEC, *PFLOWSPEC, FLOWSPEC, FLOWSPEC structure [QOS], LPFLOWSPEC, LPFLOWSPEC structure pointer [QOS], PFLOWSPEC, PFLOWSPEC structure pointer [QOS], SERVICETYPE_BESTEFFORT, SERVICETYPE_CONTROLLEDLOAD, SERVICETYPE_GENERAL_INFORMATION, SERVICETYPE_GUARANTEED, SERVICETYPE_NETWORK_CONTROL, SERVICETYPE_NETWORK_UNAVAILBLE, SERVICETYPE_NOCHANGE, SERVICETYPE_NONCONFORMING, SERVICETYPE_NOTRAFFIC, SERVICETYPE_QUALITATIVE, SERVICE_NO_QOS_SIGNALING, SERVICE_NO_TRAFFIC_CONTROL, _gqos_flowspec, qos.flowspec, qos/FLOWSPEC, qos/LPFLOWSPEC, qos/PFLOWSPEC'
 ms.topic: struct
-f1_keywords: 
- - "qos/FLOWSPEC"
+f1_keywords:
+- qos/FLOWSPEC
 req.header: qos.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qos.h
+- Qos.h
 api_name:
- - FLOWSPEC
+- FLOWSPEC
 product: Windows
 targetos: Windows
 req.typenames: FLOWSPEC, *PFLOWSPEC, *LPFLOWSPEC
@@ -71,7 +71,7 @@ Specifies the permitted rate at which data can be transmitted over the life of t
 
 
 With this model, applications can transmit data only when sufficient credits are available. If sufficient credits are not available, the application must either wait or discard the traffic (based on the value of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_qos_sd_mode">QOS_SD_MODE</a>). Therefore, it is important that applications base their <b>TokenRate</b> requests on reasonable expectations for transmission requirements. For example, in video applications, <b>TokenRate</b> is typically set to the average bit rate from peak to peak.
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-qos_sd_mode">QOS_SD_MODE</a>). Therefore, it is important that applications base their <b>TokenRate</b> requests on reasonable expectations for transmission requirements. For example, in video applications, <b>TokenRate</b> is typically set to the average bit rate from peak to peak.
 
 If <b>TokenRate</b> is set to QOS_NOT_SPECIFIED on the receiver only, the maximum transmission unit (MTU) is used for <b>TokenRate</b>, and limits on the transmission rate (the token bucket model) will not be put into effect. Thus, <b>TokenRate</b> is expressed in bytes per second.
 
@@ -166,7 +166,7 @@ Guarantees that datagrams will arrive within the guaranteed delivery time and wi
 </td>
 <td width="60%">
 Indicates that the application requires better than BESTEFFORT transmission, but cannot quantify its transmission requirements. Applications that use SERVICETYPE_QUALITATIVE can supply an application identifier policy object. The application identification policy object enables policy servers on the network to identify the application, and accordingly, assign an appropriate quality of service to the request. For more information on application identification, consult the IETF Internet Draft draft-ietf-rap-rsvp-appid-00.txt, or the Microsoft white paper on Application Identification. Traffic control treats flows of this type with the same priority as BESTEFFORT traffic on the local computer. However, application programmers can get boosted priority for such flows by modifying the Layer 2 settings on the associated flow using the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_traffic_class">QOS_TRAFFIC_CLASS</a> QOS object.
+<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_traffic_class">QOS_TRAFFIC_CLASS</a> QOS object.
 
 </td>
 </tr>

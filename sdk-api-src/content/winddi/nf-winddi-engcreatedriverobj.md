@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngCreateDriverObj, EngCreateDriverObj function [Display Devices], display.engcreatedriverobj, gdifncs_b2ab33cf-bcdf-418d-87a5-eee4b0704433.xml, winddi/EngCreateDriverObj
 ms.topic: function
-f1_keywords: 
- - "winddi/EngCreateDriverObj"
+f1_keywords:
+- winddi/EngCreateDriverObj
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngCreateDriverObj
+- EngCreateDriverObj
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EngCreateDriverObj</b> function creates a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_driverobj">DRIVEROBJ</a> structure. 
+The <b>EngCreateDriverObj</b> function creates a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-driverobj">DRIVEROBJ</a> structure. 
 
 
 ## -parameters
@@ -105,7 +105,7 @@ The driver can explicitly delete the DRIVEROBJ structure by calling <a href="htt
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_driverobj">DRIVEROBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-driverobj">DRIVEROBJ</a>
 
 
 

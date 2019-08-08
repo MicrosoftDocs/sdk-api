@@ -8,10 +8,10 @@ tech.root: devio
 ms.assetid: 4648992b-eeeb-4a8d-8e08-7e80f0dc56ef
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPMODEMSETTINGS, *PMODEMSETTINGS, LPMODEMSETTINGS, LPMODEMSETTINGS structure pointer, MDMSPKR_CALLSETUP, MDMSPKR_DIAL, MDMSPKR_OFF, MDMSPKR_ON, MDMVOL_HIGH, MDMVOL_LOW, MDMVOL_MEDIUM, MODEMSETTINGS, MODEMSETTINGS structure, PMODEMSETTINGS, PMODEMSETTINGS structure pointer, _win32_modemsettings_str, base.modemsettings_str, mcx/LPMODEMSETTINGS, mcx/MODEMSETTINGS, mcx/PMODEMSETTINGS"
+ms.keywords: '*LPMODEMSETTINGS, *PMODEMSETTINGS, LPMODEMSETTINGS, LPMODEMSETTINGS structure pointer, MDMSPKR_CALLSETUP, MDMSPKR_DIAL, MDMSPKR_OFF, MDMSPKR_ON, MDMVOL_HIGH, MDMVOL_LOW, MDMVOL_MEDIUM, MODEMSETTINGS, MODEMSETTINGS structure, PMODEMSETTINGS, PMODEMSETTINGS structure pointer, _win32_modemsettings_str, base.modemsettings_str, mcx/LPMODEMSETTINGS, mcx/MODEMSETTINGS, mcx/PMODEMSETTINGS'
 ms.topic: struct
-f1_keywords: 
- - "mcx/MODEMSETTINGS"
+f1_keywords:
+- mcx/MODEMSETTINGS
 req.header: mcx.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mcx.h
+- Mcx.h
 api_name:
- - MODEMSETTINGS
+- MODEMSETTINGS
 product: Windows
 targetos: Windows
 req.typenames: MODEMSETTINGS, *PMODEMSETTINGS, *LPMODEMSETTINGS
@@ -67,7 +67,7 @@ The size of the data actually returned to the application, in bytes. This member
 ### -field dwRequiredSize
 
 The number of bytes required for the entire 
-<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-_modemdevcaps">MODEMDEVCAPS</a> structure, including the variable-length portion.
+<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemdevcaps">MODEMDEVCAPS</a> structure, including the variable-length portion.
 
 
 ### -field dwDevSpecificOffset
@@ -136,7 +136,7 @@ Medium volume.
  
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-_modemdevcaps">MODEMDEVCAPS</a> structure specifies the speaker volumes a modem supports. Actual volumes are hardware-specific.
+<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemdevcaps">MODEMDEVCAPS</a> structure specifies the speaker volumes a modem supports. Actual volumes are hardware-specific.
 
 
 ### -field dwSpeakerMode
@@ -206,7 +206,7 @@ The modem options requested by the application. The local and remote modems nego
 
 
 The <b>dwModemOptions</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-_modemdevcaps">MODEMDEVCAPS</a> structure specifies the modem options supported by the local modem. For a list of modem options, see the description of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemdevcaps">MODEMDEVCAPS</a> structure specifies the modem options supported by the local modem. For a list of modem options, see the description of the 
 <b>MODEMDEVCAPS</b> structure.
 
 
@@ -218,7 +218,7 @@ The modem options that are actually in effect. This member is filled in after a 
 
 
 The <b>dwModemOptions</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-_modemdevcaps">MODEMDEVCAPS</a> structure specifies the modem options supported by the local modem. For a list of modem options, see the description of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemdevcaps">MODEMDEVCAPS</a> structure specifies the modem options supported by the local modem. For a list of modem options, see the description of the 
 <b>MODEMDEVCAPS</b> structure.
 
 
@@ -237,7 +237,7 @@ Optional provider-defined information.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-_modemdevcaps">MODEMDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemdevcaps">MODEMDEVCAPS</a>
  
 
  

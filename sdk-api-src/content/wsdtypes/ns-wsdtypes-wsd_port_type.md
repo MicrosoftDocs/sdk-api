@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_PORT_TYPE, WSD_PORT_TYPE structure, ncd.wsd_port_type_struct, wsdtypes/WSD_PORT_TYPE
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_PORT_TYPE"
+f1_keywords:
+- wsdtypes/WSD_PORT_TYPE
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_PORT_TYPE
+- WSD_PORT_TYPE
 product: Windows
 targetos: Windows
 req.typenames: WSD_PORT_TYPE
@@ -71,10 +71,10 @@ The number of operations in the array referenced by the <b>Operations</b> member
 
 ### -field Operations
 
-Reference to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_operation">WSD_OPERATION</a> structures that specifies the operations comprising the port type.
+Reference to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structures that specifies the operations comprising the port type.
 
 
 ### -field ProtocolType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ne-wsdtypes-_wsd_protocol_type">WSD_PROTOCOL_TYPE</a> value that specifies the protocol(s) supported by the port type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ne-wsdtypes-wsd_protocol_type">WSD_PROTOCOL_TYPE</a> value that specifies the protocol(s) supported by the port type.
 

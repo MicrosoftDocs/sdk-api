@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [Security], GetData method [Security],ISceSvcAttachmentData interface, ISceSvcAttachmentData interface [Security],GetData method, ISceSvcAttachmentData.GetData, ISceSvcAttachmentData::GetData, SCE_SERVICE_ANALYSIS_INFO, SCE_SERVICE_CONFIGURATION_INFO, _config_iscesvcattachmentdata_getdata, scesvc/ISceSvcAttachmentData::GetData, security.iscesvcattachmentdata_getdata
 ms.topic: method
-f1_keywords: 
- - "scesvc/ISceSvcAttachmentData.GetData"
+f1_keywords:
+- scesvc/ISceSvcAttachmentData.GetData
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wsecedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsecedit.dll
+- Wsecedit.dll
 api_name:
- - ISceSvcAttachmentData.GetData
+- ISceSvcAttachmentData.GetData
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ A
 Type: <b>SCESVC_INFO_TYPE</b>
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ne-scesvc-_scesvc_info_type">SCESVC_INFO_TYPE</a> value that indicates the type of information requested from the security database. It can be one of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ne-scesvc-scesvc_info_type">SCESVC_INFO_TYPE</a> value that indicates the type of information requested from the security database. It can be one of the following values.
 
 <table>
 <tr>
@@ -142,7 +142,7 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates the method was 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ne-scesvc-_scesvc_info_type">SCESVC_INFO_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ne-scesvc-scesvc_info_type">SCESVC_INFO_TYPE</a>
  
 
  

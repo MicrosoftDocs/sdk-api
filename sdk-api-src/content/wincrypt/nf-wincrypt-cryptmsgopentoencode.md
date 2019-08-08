@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMSG_AUTHENTICATED_ATTRIBUTES_FLAG, CMSG_BARE_CONTENT_FLAG, CMSG_CMS_ENCAPSULATED_CONTENT_FLAG, CMSG_CONTENTS_OCTETS_FLAG, CMSG_CRYPT_RELEASE_CONTEXT_FLAG, CMSG_DATA, CMSG_DETACHED_FLAG, CMSG_ENVELOPED, CMSG_HASHED, CMSG_SIGNED, CMSG_SIGNED_AND_ENVELOPED, CryptMsgOpenToEncode, CryptMsgOpenToEncode function [Security], _crypto2_cryptmsgopentoencode, security.cryptmsgopentoencode, wincrypt/CryptMsgOpenToEncode
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptMsgOpenToEncode"
+f1_keywords:
+- wincrypt/CryptMsgOpenToEncode
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptMsgOpenToEncode
+- CryptMsgOpenToEncode
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -175,7 +175,7 @@ This value is not used.
 </dl>
 </td>
 <td width="60%">
-The <i>pvMsgEncodeInfo</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signed_encode_info">CMSG_SIGNED_ENCODE_INFO</a> structure that contains the encoding information.
+The <i>pvMsgEncodeInfo</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signed_encode_info">CMSG_SIGNED_ENCODE_INFO</a> structure that contains the encoding information.
 
 </td>
 </tr>
@@ -185,7 +185,7 @@ The <i>pvMsgEncodeInfo</i> parameter is the address of a <a href="https://docs.m
 </dl>
 </td>
 <td width="60%">
-The <i>pvMsgEncodeInfo</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> structure that contains the encoding information.
+The <i>pvMsgEncodeInfo</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> structure that contains the encoding information.
 
 </td>
 </tr>
@@ -205,7 +205,7 @@ This value is not currently implemented.
 </dl>
 </td>
 <td width="60%">
-The <i>pvMsgEncodeInfo</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_hashed_encode_info">CMSG_HASHED_ENCODE_INFO</a> structure that contains the encoding information.
+The <i>pvMsgEncodeInfo</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_hashed_encode_info">CMSG_HASHED_ENCODE_INFO</a> structure that contains the encoding information.
 
 </td>
 </tr>
@@ -240,11 +240,11 @@ The following algorithm OIDs are commonly used. A user can define new inner cont
 ### -param pStreamInfo [in]
 
 When streaming is being used, this parameter is the address of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_stream_info">CMSG_STREAM_INFO</a> structure. The callback function specified by the <b>pfnStreamOutput</b> member of the <b>CMSG_STREAM_INFO</b> structure is called when 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_stream_info">CMSG_STREAM_INFO</a> structure. The callback function specified by the <b>pfnStreamOutput</b> member of the <b>CMSG_STREAM_INFO</b> structure is called when 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgupdate">CryptMsgUpdate</a> is executed. The callback is passed the encoded bytes that result from the encoding. For more information about how to use the callback, see 
 <b>CMSG_STREAM_INFO</b>.
 
-<div class="alert"><b>Note</b>  When streaming is being used, the application must not release any data handles that are passed in the <i>pvMsgEncodeInfo</i> parameter, such as the provider handle in the <b>hCryptProv</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a> structure, until after the message handle returned by this function is closed by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose">CryptMsgClose</a> function.</div>
+<div class="alert"><b>Note</b>  When streaming is being used, the application must not release any data handles that are passed in the <i>pvMsgEncodeInfo</i> parameter, such as the provider handle in the <b>hCryptProv</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a> structure, until after the message handle returned by this function is closed by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose">CryptMsgClose</a> function.</div>
 <div> </div>
 When streaming is not being used, this parameter is set to <b>NULL</b>.
 
@@ -361,11 +361,11 @@ Messages encrypted with the RC2 encryption algorithm use KP_EFFECTIVE_KEYLEN wit
 
 
 For messages encrypted with the RC2 encryption algorithm, encode and decode operations have been updated to handle ASN RC2 parameters for the <b>ContentEncryptionAlgorithm</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> structure.
 
 
 
-For messages encrypted with the RC4, DES, and 3DES encryption algorithms, encode and decode operations now handle the ASN IV octet string parameter for the <b>ContentEncryptionAlgorithm</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> structure.
+For messages encrypted with the RC4, DES, and 3DES encryption algorithms, encode and decode operations now handle the ASN IV octet string parameter for the <b>ContentEncryptionAlgorithm</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> structure.
 
 
 

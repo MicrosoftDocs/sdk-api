@@ -8,10 +8,10 @@ tech.root: devinst
 ms.assetid: 9f76b741-d2a7-484d-94cb-b559b017399d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSP_CLASSINSTALL_HEADER, PSP_CLASSINSTALL_HEADER, PSP_CLASSINSTALL_HEADER structure pointer [Device and Driver Installation], SP_CLASSINSTALL_HEADER, SP_CLASSINSTALL_HEADER structure [Device and Driver Installation], devinst.sp_classinstall_header, di-struct_96e0dbc0-fe54-4731-9ec7-0e633b521297.xml, setupapi/PSP_CLASSINSTALL_HEADER, setupapi/SP_CLASSINSTALL_HEADER"
+ms.keywords: '*PSP_CLASSINSTALL_HEADER, PSP_CLASSINSTALL_HEADER, PSP_CLASSINSTALL_HEADER structure pointer [Device and Driver Installation], SP_CLASSINSTALL_HEADER, SP_CLASSINSTALL_HEADER structure [Device and Driver Installation], devinst.sp_classinstall_header, di-struct_96e0dbc0-fe54-4731-9ec7-0e633b521297.xml, setupapi/PSP_CLASSINSTALL_HEADER, setupapi/SP_CLASSINSTALL_HEADER'
 ms.topic: struct
-f1_keywords: 
- - "setupapi/SP_CLASSINSTALL_HEADER"
+f1_keywords:
+- setupapi/SP_CLASSINSTALL_HEADER
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - setupapi.h
+- setupapi.h
 api_name:
- - SP_CLASSINSTALL_HEADER
+- SP_CLASSINSTALL_HEADER
 product: Windows
 targetos: Windows
 req.typenames: SP_CLASSINSTALL_HEADER, *PSP_CLASSINSTALL_HEADER
@@ -97,7 +97,7 @@ However, a component does not have to set this field when passing class install 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_detectdevice_params">SP_DETECTDEVICE_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_detectdevice_params">SP_DETECTDEVICE_PARAMS</a>
 
 
 
@@ -105,31 +105,31 @@ However, a component does not have to set this field when passing class install 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_newdevicewizard_data">SP_NEWDEVICEWIZARD_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_newdevicewizard_data">SP_NEWDEVICEWIZARD_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_powermessagewake_params_a">SP_POWERMESSAGEWAKE_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_powermessagewake_params_a">SP_POWERMESSAGEWAKE_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_propchange_params">SP_PROPCHANGE_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_propchange_params">SP_PROPCHANGE_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_removedevice_params">SP_REMOVEDEVICE_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_removedevice_params">SP_REMOVEDEVICE_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_selectdevice_params_a">SP_SELECTDEVICE_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_selectdevice_params_a">SP_SELECTDEVICE_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_troubleshooter_params_a">SP_TROUBLESHOOTER_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_troubleshooter_params_a">SP_TROUBLESHOOTER_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_unremovedevice_params">SP_UNREMOVEDEVICE_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_unremovedevice_params">SP_UNREMOVEDEVICE_PARAMS</a>
 
 
 

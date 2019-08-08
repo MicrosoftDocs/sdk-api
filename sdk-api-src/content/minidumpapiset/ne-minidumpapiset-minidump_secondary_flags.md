@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MINIDUMP_SECONDARY_FLAGS, MINIDUMP_SECONDARY_FLAGS enumeration, MiniSecondaryWithoutPowerInfo, base.minidump_secondary_flags, minidumpapiset/MINIDUMP_SECONDARY_FLAGS, minidumpapiset/MiniSecondaryWithoutPowerInfo
 ms.topic: enum
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_SECONDARY_FLAGS"
+f1_keywords:
+- minidumpapiset/MINIDUMP_SECONDARY_FLAGS
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_SECONDARY_FLAGS
+- MINIDUMP_SECONDARY_FLAGS
 product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_SECONDARY_FLAGS
@@ -61,7 +61,7 @@ Specifies the secondary flags for the minidump.
 
 ### -field MiniSecondaryWithoutPowerInfo
 
-The minidump information does not retrieve the processor power information contained in the <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_misc_info_2">MINIDUMP_MISC_INFO_2</a> structure.
+The minidump information does not retrieve the processor power information contained in the <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_misc_info_2">MINIDUMP_MISC_INFO_2</a> structure.
 
 
 ### -field MiniSecondaryValidFlags
@@ -74,7 +74,7 @@ The minidump information does not retrieve the processor power information conta
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_misc_info_2">MINIDUMP_MISC_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_misc_info_2">MINIDUMP_MISC_INFO_2</a>
  
 
  

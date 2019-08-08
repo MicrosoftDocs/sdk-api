@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_SetPacketPrivacy, MI_DestinationOptions_SetPacketPrivacy function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetPacketPrivacy, wmi_v2.mi_destinationoptions_setpacketprivacy
 ms.topic: function
-f1_keywords: 
- - "mi/MI_DestinationOptions_SetPacketPrivacy"
+f1_keywords:
+- mi/MI_DestinationOptions_SetPacketPrivacy
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_DestinationOptions_SetPacketPrivacy
+- MI_DestinationOptions_SetPacketPrivacy
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Enables or disables packet privacy (encryption).
 
 ### -param options [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_destinationoptions">MI_DestinationOptions</a> object returned from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdestinationoptions">MI_Application_NewDestinationOptions</a> function.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a> object returned from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdestinationoptions">MI_Application_NewDestinationOptions</a> function.
 
 
 ### -param privacy
@@ -73,7 +73,7 @@ Boolean value where <b>MI_TRUE</b> means to use encryption and <b>MI_FALSE</b> m
 
 
 
-A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 

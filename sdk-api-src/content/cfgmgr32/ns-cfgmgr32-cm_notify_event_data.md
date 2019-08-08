@@ -8,10 +8,10 @@ tech.root: devinst
 ms.assetid: 61bd4ea3-9910-4feb-a330-3e0bcdac1ce2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCM_NOTIFY_EVENT_DATA, CM_NOTIFY_EVENT_DATA, CM_NOTIFY_EVENT_DATA structure [Device and Driver Installation], PCM_NOTIFY_EVENT_DATA, PCM_NOTIFY_EVENT_DATA structure pointer [Device and Driver Installation], cfgmgr32/CM_NOTIFY_EVENT_DATA, cfgmgr32/PCM_NOTIFY_EVENT_DATA, devinst.cm_notify_event_data"
+ms.keywords: '*PCM_NOTIFY_EVENT_DATA, CM_NOTIFY_EVENT_DATA, CM_NOTIFY_EVENT_DATA structure [Device and Driver Installation], PCM_NOTIFY_EVENT_DATA, PCM_NOTIFY_EVENT_DATA structure pointer [Device and Driver Installation], cfgmgr32/CM_NOTIFY_EVENT_DATA, cfgmgr32/PCM_NOTIFY_EVENT_DATA, devinst.cm_notify_event_data'
 ms.topic: struct
-f1_keywords: 
- - "cfgmgr32/CM_NOTIFY_EVENT_DATA"
+f1_keywords:
+- cfgmgr32/CM_NOTIFY_EVENT_DATA
 req.header: cfgmgr32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cfgmgr32.h
+- Cfgmgr32.h
 api_name:
- - CM_NOTIFY_EVENT_DATA
+- CM_NOTIFY_EVENT_DATA
 product: Windows
 targetos: Windows
 req.typenames: CM_NOTIFY_EVENT_DATA, *PCM_NOTIFY_EVENT_DATA
@@ -61,7 +61,7 @@ This is a device notification event data structure.
 
 ### -field FilterType
 
-The <b>CM_NOTIFY_FILTER_TYPE</b> from the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-_cm_notify_filter">CM_NOTIFY_FILTER</a> structure that was used in the registration that generated this notification event data.
+The <b>CM_NOTIFY_FILTER_TYPE</b> from the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cm_notify_filter">CM_NOTIFY_FILTER</a> structure that was used in the registration that generated this notification event data.
 
 
 ### -field Reserved

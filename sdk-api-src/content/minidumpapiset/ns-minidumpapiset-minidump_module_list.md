@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: 9c30026d-9c72-472f-9d71-b15274459aae
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_MODULE_LIST, MINIDUMP_MODULE_LIST, MINIDUMP_MODULE_LIST structure, PMINIDUMP_MODULE_LIST, PMINIDUMP_MODULE_LIST structure pointer, _MINIDUMP_MODULE_LIST, _win32_minidump_module_list_str, base.minidump_module_list_str, minidumpapiset/MINIDUMP_MODULE_LIST, minidumpapiset/PMINIDUMP_MODULE_LIST"
+ms.keywords: '*PMINIDUMP_MODULE_LIST, MINIDUMP_MODULE_LIST, MINIDUMP_MODULE_LIST structure, PMINIDUMP_MODULE_LIST, PMINIDUMP_MODULE_LIST structure pointer, _MINIDUMP_MODULE_LIST, _win32_minidump_module_list_str, base.minidump_module_list_str, minidumpapiset/MINIDUMP_MODULE_LIST, minidumpapiset/PMINIDUMP_MODULE_LIST'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_MODULE_LIST"
+f1_keywords:
+- minidumpapiset/MINIDUMP_MODULE_LIST
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_MODULE_LIST
+- MINIDUMP_MODULE_LIST
 product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_MODULE_LIST, *PMINIDUMP_MODULE_LIST
@@ -67,7 +67,7 @@ The number of structures in the <b>Modules</b> array.
 ### -field Modules
 
 An array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_module">MINIDUMP_MODULE</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_module">MINIDUMP_MODULE</a> structures.
 
 
 ## -see-also
@@ -75,11 +75,11 @@ An array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_module">MINIDUMP_MODULE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_module">MINIDUMP_MODULE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
  
 
  

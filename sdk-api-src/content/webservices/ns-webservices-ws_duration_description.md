@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_DURATION_DESCRIPTION, WS_DURATION_DESCRIPTION structure [Web Services for Windows], webservices/WS_DURATION_DESCRIPTION, wsw.ws_duration_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_DURATION_DESCRIPTION"
+f1_keywords:
+- webservices/WS_DURATION_DESCRIPTION
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_DURATION_DESCRIPTION
+- WS_DURATION_DESCRIPTION
 product: Windows
 targetos: Windows
 req.typenames: WS_DURATION_DESCRIPTION
@@ -76,11 +76,11 @@ The maximum value.
 
 ### -field comparer
 
-Specifies a function which can be used to compare <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_duration">WS_DURATION</a>. If <b>NULL</b>, a default
+Specifies a function which can be used to compare <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_duration">WS_DURATION</a>. If <b>NULL</b>, a default
                     comparer is used.
                 
 
-Because <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_duration">WS_DURATION</a> has a partial ordering, not all durations can be unambiguously compared
+Because <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_duration">WS_DURATION</a> has a partial ordering, not all durations can be unambiguously compared
                     (for example, 1 month and 30 days).  The default comparer function can compare durations that specify
                     years and months (but no other components), or durations that specify no years or months (but any other
                     component).

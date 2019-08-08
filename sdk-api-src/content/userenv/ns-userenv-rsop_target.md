@@ -8,10 +8,10 @@ tech.root: Policy
 ms.assetid: 65b0eb27-fc4a-44d6-843e-965a90dc51e8
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRSOP_TARGET, PRSOP_TARGET, PRSOP_TARGET structure pointer [Group Policy], RSOP_TARGET, RSOP_TARGET structure [Group Policy], _win32_rsop_target_str, policy.rsop_target_str, userenv/PRSOP_TARGET, userenv/RSOP_TARGET"
+ms.keywords: '*PRSOP_TARGET, PRSOP_TARGET, PRSOP_TARGET structure pointer [Group Policy], RSOP_TARGET, RSOP_TARGET structure [Group Policy], _win32_rsop_target_str, policy.rsop_target_str, userenv/PRSOP_TARGET, userenv/RSOP_TARGET'
 ms.topic: struct
-f1_keywords: 
- - "userenv/RSOP_TARGET"
+f1_keywords:
+- userenv/RSOP_TARGET
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Userenv.h
+- Userenv.h
 api_name:
- - RSOP_TARGET
+- RSOP_TARGET
 product: Windows
 targetos: Windows
 req.typenames: RSOP_TARGET, *PRSOP_TARGET
@@ -88,7 +88,7 @@ Pointer to an <b>RSOPTOKEN</b> to use with the
 ### -field pGPOList
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_group_policy_objecta">GROUP_POLICY_OBJECT</a> structure containing a linked list of GPOs.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a> structure containing a linked list of GPOs.
 
 
 ### -field pWbemServices
@@ -101,7 +101,7 @@ Specifies the WMI services pointer to the namespace to which the planning mode p
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_group_policy_objecta">GROUP_POLICY_OBJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>
 
 
 

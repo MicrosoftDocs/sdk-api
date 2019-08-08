@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptImportPublicKeyInfo, CryptImportPublicKeyInfo function [Security], _crypto2_cryptimportpublickeyinfo, security.cryptimportpublickeyinfo, wincrypt/CryptImportPublicKeyInfo
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptImportPublicKeyInfo"
+f1_keywords:
+- wincrypt/CryptImportPublicKeyInfo
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptImportPublicKeyInfo
+- CryptImportPublicKeyInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,7 +82,7 @@ Currently defined encoding types are:
 ### -param pInfo [in]
 
 The address of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key to import into the provider.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key to import into the provider.
 
 
 ### -param phKey [out]
@@ -133,7 +133,7 @@ If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/e
 
 
 
-This function is normally used to retrieve the public key from a certificate. This is done by passing the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure from a filled-in certificate structure as shown in the following pseudocode.
+This function is normally used to retrieve the public key from a certificate. This is done by passing the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure from a filled-in certificate structure as shown in the following pseudocode.
 
 <pre class="syntax" xml:space="preserve"><code>PCCERT_CONTEXT pCertContext
 

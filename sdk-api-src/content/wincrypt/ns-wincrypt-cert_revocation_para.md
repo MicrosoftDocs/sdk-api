@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 730db593-c55f-4ecf-bcac-5de54ab90db6
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_REVOCATION_PARA, CERT_REVOCATION_PARA, CERT_REVOCATION_PARA structure [Security], PCERT_REVOCATION_PARA, PCERT_REVOCATION_PARA structure pointer [Security], _crypto2_cert_revocation_para, security.cert_revocation_para, wincrypt/CERT_REVOCATION_PARA, wincrypt/PCERT_REVOCATION_PARA"
+ms.keywords: '*PCERT_REVOCATION_PARA, CERT_REVOCATION_PARA, CERT_REVOCATION_PARA structure [Security], PCERT_REVOCATION_PARA, PCERT_REVOCATION_PARA structure pointer [Security], _crypto2_cert_revocation_para, security.cert_revocation_para, wincrypt/CERT_REVOCATION_PARA, wincrypt/PCERT_REVOCATION_PARA'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_REVOCATION_PARA"
+f1_keywords:
+- wincrypt/CERT_REVOCATION_PARA
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_REVOCATION_PARA
+- CERT_REVOCATION_PARA
 product: Windows
 targetos: Windows
 req.typenames: CERT_REVOCATION_PARA, *PCERT_REVOCATION_PARA
@@ -68,7 +68,7 @@ The size, in bytes, of this structure.
 ### -field pIssuerCert
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that contains the certificate of the issuer of a certificate specified in the <i>rgpvContext</i> array in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the certificate of the issuer of a certificate specified in the <i>rgpvContext</i> array in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifyrevocation">CertVerifyRevocation</a> parameter list.
 
 
@@ -126,7 +126,7 @@ This member is defined only if <b>CERT_REVOCATION_PARA_HAS_EXTRA_FIELDS</b> is d
 
 ### -field pChainPara
 
-This member is defined only if <b>CERT_REVOCATION_PARA_HAS_EXTRA_FIELDS</b> is defined. This member contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_revocation_chain_para">CERT_REVOCATION_CHAIN_PARA</a> structure that contains parameters used for building a chain for an independent OCSP signer certificate. If <b>CERT_REVOCATION_PARA_HAS_EXTRA_FIELDS</b> is defined, this member must be set to null if it is unused.
+This member is defined only if <b>CERT_REVOCATION_PARA_HAS_EXTRA_FIELDS</b> is defined. This member contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_revocation_chain_para">CERT_REVOCATION_CHAIN_PARA</a> structure that contains parameters used for building a chain for an independent OCSP signer certificate. If <b>CERT_REVOCATION_PARA_HAS_EXTRA_FIELDS</b> is defined, this member must be set to null if it is unused.
 
 <b>Windows Vista, Windows Server 2003 and Windows XP:  </b>This member is not used in the listed systems. The member is available beginning with Windows Vista with SP1.
 

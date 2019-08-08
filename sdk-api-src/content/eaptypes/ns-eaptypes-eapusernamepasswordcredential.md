@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapUsernamePasswordCredential, EapUsernamePasswordCredential structure [EAPHost], eaphost.eapusernamepasswordcredential, eaptypes/EapUsernamePasswordCredential
 ms.topic: struct
-f1_keywords: 
- - "eaptypes/EapUsernamePasswordCredential"
+f1_keywords:
+- eaptypes/EapUsernamePasswordCredential
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eaptypes.h
+- eaptypes.h
 api_name:
- - EapUsernamePasswordCredential
+- EapUsernamePasswordCredential
 product: Windows
 targetos: Windows
 req.typenames: EapUsernamePasswordCredential
@@ -74,11 +74,11 @@ A NULL-terminated Unicode string that contains the password to verify the user. 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eapcredential">EapCredential</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapcredential">EapCredential</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ne-eaptypes-_eapcredentialtype">EapCredentialType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eapcredentialtype">EapCredentialType</a>
  
 
  

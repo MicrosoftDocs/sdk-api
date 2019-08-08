@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WebSocketSend, WebSocketSend function [Websocket Protocol Component API], websock.websocketsend, websocket/WebSocketSend
 ms.topic: function
-f1_keywords: 
- - "websocket/WebSocketSend"
+f1_keywords:
+- websocket/WebSocketSend
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Websocket.lib
 req.dll: Websocket.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - websocket.dll
+- websocket.dll
 api_name:
- - WebSocketSend
+- WebSocketSend
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,18 +68,18 @@ WebSocket session handle returned by a previous call to <a href="https://docs.mi
 
 ### -param BufferType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-_web_socket_buffer_type">WEB_SOCKET_BUFFER_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_buffer_type">WEB_SOCKET_BUFFER_TYPE</a></b>
 
 The type of WebSocket buffer data to send in <i>pBuffer</i>.
 
 
 ### -param pBuffer [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_buffer">WEB_SOCKET_BUFFER</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_buffer">WEB_SOCKET_BUFFER</a>*</b>
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_buffer">WEB_SOCKET_BUFFER</a> structures that contains WebSocket buffer data to send. If <i>BufferType</i> is <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-_web_socket_buffer_type">WEB_SOCKET_PING_PONG_BUFFER_TYPE</a> or <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-_web_socket_buffer_type">WEB_SOCKET_UNSOLICITED_PONG_BUFFER_TYPE</a>, <i>pBuffer</i> must be <b>NULL</b>.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_buffer">WEB_SOCKET_BUFFER</a> structures that contains WebSocket buffer data to send. If <i>BufferType</i> is <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_buffer_type">WEB_SOCKET_PING_PONG_BUFFER_TYPE</a> or <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_buffer_type">WEB_SOCKET_UNSOLICITED_PONG_BUFFER_TYPE</a>, <i>pBuffer</i> must be <b>NULL</b>.
 
-<div class="alert"><b>Note</b>  Once <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-_web_socket_property_type">WEB_SOCKET_INDICATE_SEND_COMPLETE</a> is returned by <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a> for this action, the memory pointer to by <i>pBuffer</i> can be reclaimed.</div>
+<div class="alert"><b>Note</b>  Once <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_property_type">WEB_SOCKET_INDICATE_SEND_COMPLETE</a> is returned by <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a> for this action, the memory pointer to by <i>pBuffer</i> can be reclaimed.</div>
 <div> </div>
 
 ### -param Context [in, optional]
@@ -125,7 +125,7 @@ Protocol performed an invalid operation.
 
 
 
-After an application sends a <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-_web_socket_property_type">WEB_SOCKET_CLOSE_BUFFER_TYPE</a> WebSocket buffer successfully, it can only send control frames.
+After an application sends a <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_property_type">WEB_SOCKET_CLOSE_BUFFER_TYPE</a> WebSocket buffer successfully, it can only send control frames.
 
 
 
@@ -135,7 +135,7 @@ After an application sends a <a href="https://docs.microsoft.com/windows/desktop
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-_web_socket_action">WEB_SOCKET_ACTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_action">WEB_SOCKET_ACTION</a>
 
 
 

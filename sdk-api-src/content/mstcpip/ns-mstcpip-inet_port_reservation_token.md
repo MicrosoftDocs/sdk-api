@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: 1AA2FF8C-BEAB-4D38-B53A-68E0628748FF
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PINET_PORT_RESERVATION_TOKEN, INET_PORT_RESERVATION_TOKEN, INET_PORT_RESERVATION_TOKEN structure [Winsock], PINET_PORT_RESERVATION_TOKEN, PINET_PORT_RESERVATION_TOKEN structure pointer [Winsock], mstcpip/INET_PORT_RESERVATION_TOKEN, mstcpip/PINET_PORT_RESERVATION_TOKEN, winsock.inet_port_reservation_token"
+ms.keywords: '*PINET_PORT_RESERVATION_TOKEN, INET_PORT_RESERVATION_TOKEN, INET_PORT_RESERVATION_TOKEN structure [Winsock], PINET_PORT_RESERVATION_TOKEN, PINET_PORT_RESERVATION_TOKEN structure pointer [Winsock], mstcpip/INET_PORT_RESERVATION_TOKEN, mstcpip/PINET_PORT_RESERVATION_TOKEN, winsock.inet_port_reservation_token'
 ms.topic: struct
-f1_keywords: 
- - "mstcpip/INET_PORT_RESERVATION_TOKEN"
+f1_keywords:
+- mstcpip/INET_PORT_RESERVATION_TOKEN
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mstcpip.h
+- Mstcpip.h
 api_name:
- - INET_PORT_RESERVATION_TOKEN
+- INET_PORT_RESERVATION_TOKEN
 product: Windows
 targetos: Windows
 req.typenames: INET_PORT_RESERVATION_TOKEN, *PINET_PORT_RESERVATION_TOKEN
@@ -96,7 +96,7 @@ The  <b>INET_PORT_RESERVATION_TOKEN</b> structure is used by the <a href="https:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_inet_port_range">INET_PORT_RANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-inet_port_range">INET_PORT_RANGE</a>
 
 
 

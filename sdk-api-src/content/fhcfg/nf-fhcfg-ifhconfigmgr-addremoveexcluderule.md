@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRemoveExcludeRule, AddRemoveExcludeRule method [Windows API], AddRemoveExcludeRule method [Windows API],FhConfigMgr class, AddRemoveExcludeRule method [Windows API],IFhConfigMgr interface, FhConfigMgr class [Windows API],AddRemoveExcludeRule method, IFhConfigMgr interface [Windows API],AddRemoveExcludeRule method, IFhConfigMgr.AddRemoveExcludeRule, IFhConfigMgr::AddRemoveExcludeRule, fhcfg/IFhConfigMgr::AddRemoveExcludeRule, winprog.ifhconfigmgr_addremoveexcluderule
 ms.topic: method
-f1_keywords: 
- - "fhcfg/IFhConfigMgr.AddRemoveExcludeRule"
+f1_keywords:
+- fhcfg/IFhConfigMgr.AddRemoveExcludeRule
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fhcfg.h
+- Fhcfg.h
 api_name:
- - IFhConfigMgr.AddRemoveExcludeRule
- - FhConfigMgr.AddRemoveExcludeRule
+- IFhConfigMgr.AddRemoveExcludeRule
+- FhConfigMgr.AddRemoveExcludeRule
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ If it is set to <b>FALSE</b>, an existing exclusion rule is removed.
 
 ### -param Category [in]
 
-Specifies the type of the exclusion rule. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_protected_item_category">FH_PROTECTED_ITEM_CATEGORY</a> enumeration for possible values.
+Specifies the type of the exclusion rule. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_protected_item_category">FH_PROTECTED_ITEM_CATEGORY</a> enumeration for possible values.
 
 
 ### -param Item [in]
@@ -115,7 +115,7 @@ Custom libraries are specified by name. Folders are specified by their full path
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_protected_item_category">FH_PROTECTED_ITEM_CATEGORY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_protected_item_category">FH_PROTECTED_ITEM_CATEGORY</a>
 
 
 

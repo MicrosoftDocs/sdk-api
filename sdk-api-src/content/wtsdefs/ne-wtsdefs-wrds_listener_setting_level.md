@@ -8,10 +8,10 @@ tech.root: TermServ
 ms.assetid: 09FF31B5-7566-440D-98BB-96C7A4192C30
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWRDS_LISTENER_SETTING_LEVEL, PWRDS_LISTENER_SETTING_LEVEL, PWRDS_LISTENER_SETTING_LEVEL enumeration pointer [Remote Desktop Services], WRDS_LISTENER_SETTING_LEVEL, WRDS_LISTENER_SETTING_LEVEL enumeration [Remote Desktop Services], WRDS_LISTENER_SETTING_LEVEL_1, WRDS_LISTENER_SETTING_LEVEL_INVALID, termserv.wrds_listener_setting_level, wtsdefs/PWRDS_LISTENER_SETTING_LEVEL, wtsdefs/WRDS_LISTENER_SETTING_LEVEL, wtsdefs/WRDS_LISTENER_SETTING_LEVEL_1, wtsdefs/WRDS_LISTENER_SETTING_LEVEL_INVALID"
+ms.keywords: '*PWRDS_LISTENER_SETTING_LEVEL, PWRDS_LISTENER_SETTING_LEVEL, PWRDS_LISTENER_SETTING_LEVEL enumeration pointer [Remote Desktop Services], WRDS_LISTENER_SETTING_LEVEL, WRDS_LISTENER_SETTING_LEVEL enumeration [Remote Desktop Services], WRDS_LISTENER_SETTING_LEVEL_1, WRDS_LISTENER_SETTING_LEVEL_INVALID, termserv.wrds_listener_setting_level, wtsdefs/PWRDS_LISTENER_SETTING_LEVEL, wtsdefs/WRDS_LISTENER_SETTING_LEVEL, wtsdefs/WRDS_LISTENER_SETTING_LEVEL_1, wtsdefs/WRDS_LISTENER_SETTING_LEVEL_INVALID'
 ms.topic: enum
-f1_keywords: 
- - "wtsdefs/WRDS_LISTENER_SETTING_LEVEL"
+f1_keywords:
+- wtsdefs/WRDS_LISTENER_SETTING_LEVEL
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsdefs.h
+- Wtsdefs.h
 api_name:
- - WRDS_LISTENER_SETTING_LEVEL
+- WRDS_LISTENER_SETTING_LEVEL
 product: Windows
 targetos: Windows
 req.typenames: WRDS_LISTENER_SETTING_LEVEL, *PWRDS_LISTENER_SETTING_LEVEL
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used to specify the type of structure that is contained in the <b>WRdsListenerSetting</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_listener_settings">WRDS_LISTENER_SETTINGS</a> structure.
+Used to specify the type of structure that is contained in the <b>WRdsListenerSetting</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_listener_settings">WRDS_LISTENER_SETTINGS</a> structure.
 
 
 ## -enum-fields
@@ -66,5 +66,5 @@ The type of structure is not defined.
 
 ### -field WRDS_LISTENER_SETTING_LEVEL_1
 
-The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_listener_settings_1">WRDS_LISTENER_SETTINGS_1</a> structure.
+The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_listener_settings_1">WRDS_LISTENER_SETTINGS_1</a> structure.
 

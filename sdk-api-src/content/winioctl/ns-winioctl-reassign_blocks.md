@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 43d908fc-0e43-49ab-a96f-b6b0f491c99d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PREASSIGN_BLOCKS, REASSIGN_BLOCKS, REASSIGN_BLOCKS structure [Files], _win32_reassign_blocks_str, base.reassign_blocks_str, fs.reassign_blocks_str, winioctl/REASSIGN_BLOCKS"
+ms.keywords: '*PREASSIGN_BLOCKS, REASSIGN_BLOCKS, REASSIGN_BLOCKS structure [Files], _win32_reassign_blocks_str, base.reassign_blocks_str, fs.reassign_blocks_str, winioctl/REASSIGN_BLOCKS'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/REASSIGN_BLOCKS"
+f1_keywords:
+- winioctl/REASSIGN_BLOCKS
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - REASSIGN_BLOCKS
+- REASSIGN_BLOCKS
 product: Windows
 targetos: Windows
 req.typenames: REASSIGN_BLOCKS, *PREASSIGN_BLOCKS
@@ -87,7 +87,7 @@ The <b>REASSIGN_BLOCKS</b> structure only supports
     drives where the Logical Block Address (LBA) is a 4-byte value (typically up to 2 TB). 
 
 For larger drives the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_reassign_blocks_ex">REASSIGN_BLOCKS_EX</a> structure that is  used with the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-reassign_blocks_ex">REASSIGN_BLOCKS_EX</a> structure that is  used with the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_reassign_blocks_ex">IOCTL_DISK_REASSIGN_BLOCKS_EX</a> control code 
     supports 8-byte LBAs.
 
@@ -112,7 +112,7 @@ For device compatibility, the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_reassign_blocks_ex">REASSIGN_BLOCKS_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-reassign_blocks_ex">REASSIGN_BLOCKS_EX</a>
  
 
  

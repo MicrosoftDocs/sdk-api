@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FIXED, FIXED structure [Windows GDI], _win32_FIXED_str, gdi.fixed, wingdi/FIXED
 ms.topic: struct
-f1_keywords: 
- - "wingdi/FIXED"
+f1_keywords:
+- wingdi/FIXED
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - FIXED
+- FIXED
 product: Windows
 targetos: Windows
 req.typenames: FIXED
@@ -76,7 +76,7 @@ The fractional part of the number.
 
 
 
-The <b>FIXED</b> structure is used to describe the elements of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_mat2">MAT2</a> structure.
+The <b>FIXED</b> structure is used to describe the elements of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-mat2">MAT2</a> structure.
 
 
 
@@ -94,7 +94,7 @@ The <b>FIXED</b> structure is used to describe the elements of the <a href="http
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_mat2">MAT2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-mat2">MAT2</a>
  
 
  

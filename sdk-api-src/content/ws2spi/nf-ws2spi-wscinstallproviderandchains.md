@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSCInstallProviderAndChains, WSCInstallProviderAndChains function [Winsock], XP1_IFS_HANDLES, winsock.wscinstallproviderandchains, ws2spi/WSCInstallProviderAndChains
 ms.topic: function
-f1_keywords: 
- - "ws2spi/WSCInstallProviderAndChains"
+f1_keywords:
+- ws2spi/WSCInstallProviderAndChains
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSCInstallProviderAndChains
+- WSCInstallProviderAndChains
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,7 +78,7 @@ A pointer to a Unicode string that contains the name of the socket provider.
 
 The service flags for the type of "dummy" catalog entry to be created. 
 
-A dummy entry is  a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure with the <b>ChainLen</b> member set to 0. The actual LSP catalog entry will reference the ID of this dummy entry in its <b>ProtocolChain</b> member.
+A dummy entry is  a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure with the <b>ChainLen</b> member set to 0. The actual LSP catalog entry will reference the ID of this dummy entry in its <b>ProtocolChain</b> member.
 
 The possible flags that can be set for this parameter are as follows:
 
@@ -104,7 +104,7 @@ The catalog entry is for an Installable File System (IFS) LSP, which returns IFS
 ### -param lpProtocolInfoList [in]
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structures. Each structure defines a  protocol, address family, and socket type supported by the provider. The members of the <b>WSAPROTOCOL_INFO</b> structure that are examined are <b>iProtocol</b>, <b>iAddressFamily</b>, and  <b>iSocketType</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structures. Each structure defines a  protocol, address family, and socket type supported by the provider. The members of the <b>WSAPROTOCOL_INFO</b> structure that are examined are <b>iProtocol</b>, <b>iAddressFamily</b>, and  <b>iSocketType</b>.
 
 
 ### -param dwNumberOfEntries [in]
@@ -224,7 +224,7 @@ A nonrecoverable error occurred. This error is returned under several conditions
 <b>WSCInstallProviderAndChains</b> is an enhanced version of the basic <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallprovider">WSCInstallProvider</a> function used to install a single transport service provider. If a layered service provider is being installed, then <b>WSCInstallProviderAndChains</b> should be used.  <b>WSCInstallProviderAndChains</b> can install a layered protocol and one or more protocol chains with a single function call. To accomplish the same work using <b>WSCInstallProvider</b> would require multiple function calls.
 
 Winsock 2 accommodates layered protocols. A layered protocol is one that implements only higher level communications functions while relying on an underlying transport stack for the actual exchange of data with a remote endpoint. An example of a layered protocol would be a security layer that adds a protocol to the connection establishment process in order to perform authentication and to establish a mutually agreed upon encryption scheme.  Such a security protocol would generally require the services of an underlying reliable transport protocol such as TCP or SPX.  The term base protocol refers to a protocol such as TCP or SPX which is capable of performing data communications with a remote endpoint. The term layered protocol is used to describe a protocol that cannot stand alone.  A protocol chain would then be defined as one or more layered protocols strung together and anchored by a base protocol.
-A base protocol has the <b>ChainLen</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure set to  <b>BASE_PROTOCOL</b> which is defined to be 1. A layered protocol has the <b>ChainLen</b> member of the <b>WSAPROTOCOL_INFO</b> structure set to <b>LAYERED_PROTOCOL</b> which is defined to be zero. A protocol chain has the <b>ChainLen</b> member of the <b>WSAPROTOCOL_INFO</b> structure set to greater than 1.
+A base protocol has the <b>ChainLen</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure set to  <b>BASE_PROTOCOL</b> which is defined to be 1. A layered protocol has the <b>ChainLen</b> member of the <b>WSAPROTOCOL_INFO</b> structure set to <b>LAYERED_PROTOCOL</b> which is defined to be zero. A protocol chain has the <b>ChainLen</b> member of the <b>WSAPROTOCOL_INFO</b> structure set to greater than 1.
 
 If <i>lpProtocolInfoList</i> is set to <b>NULL</b>, this function creates protocol chains where the provider is layered over the base protocol for each unique protocol type as defined by the address family, socket type, and protocol. This eliminates the creation of any inaccessible duplicate provider entries.
 

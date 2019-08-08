@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_READ_CALLBACK, WS_READ_CALLBACK callback, WS_READ_CALLBACK callback function [Web Services for Windows], webservices/WS_READ_CALLBACK, wsw.ws_read_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_READ_CALLBACK"
+f1_keywords:
+- webservices/WS_READ_CALLBACK
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_READ_CALLBACK
+- WS_READ_CALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -87,7 +87,7 @@ A pointer to a <b>ULONG</b>  value that indicates the number of bytes actually r
 
 ### -param *asyncContext [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_async_context">WS_ASYNC_CONTEXT</a> structure containing information on how to invoke the function asynchronously.  Assigned <b>NULL</b> if invoking synchronously.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> structure containing information on how to invoke the function asynchronously.  Assigned <b>NULL</b> if invoking synchronously.
 
 
 ### -param *error [in, optional]

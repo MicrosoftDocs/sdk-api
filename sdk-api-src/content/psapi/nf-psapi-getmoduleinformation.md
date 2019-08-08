@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetModuleInformation, GetModuleInformation function [PSAPI], K32GetModuleInformation, _win32_getmoduleinformation, base.getmoduleinformation, psapi.getmoduleinformation, psapi/GetModuleInformation, psapi/K32GetModuleInformation
 ms.topic: function
-f1_keywords: 
- - "psapi/GetModuleInformation"
+f1_keywords:
+- psapi/GetModuleInformation
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,20 +30,20 @@ req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if 
 req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - Psapi.dll
- - Psapi.dll
- - API-MS-Win-Core-PsAPI-Obsolete-L1-1-0.dll
- - KernelBase.dll
- - API-Ms-Win-Core-PsAPI-L1-1-0.dll
+- Kernel32.dll
+- Psapi.dll
+- Psapi.dll
+- API-MS-Win-Core-PsAPI-Obsolete-L1-1-0.dll
+- KernelBase.dll
+- API-Ms-Win-Core-PsAPI-L1-1-0.dll
 api_name:
- - GetModuleInformation
- - K32GetModuleInformation
+- GetModuleInformation
+- K32GetModuleInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 
 Retrieves information about the specified module in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_moduleinfo">MODULEINFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-moduleinfo">MODULEINFO</a> structure.
 
 
 ## -parameters
@@ -81,13 +81,13 @@ A handle to the module.
 ### -param lpmodinfo [out]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_moduleinfo">MODULEINFO</a> structure that receives information about the module.
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-moduleinfo">MODULEINFO</a> structure that receives information about the module.
 
 
 ### -param cb [in]
 
 The size of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_moduleinfo">MODULEINFO</a> structure, in bytes.
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-moduleinfo">MODULEINFO</a> structure, in bytes.
 
 
 ## -returns
@@ -139,7 +139,7 @@ Programs that must run on earlier versions of Windows as
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_moduleinfo">MODULEINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-moduleinfo">MODULEINFO</a>
 
 
 

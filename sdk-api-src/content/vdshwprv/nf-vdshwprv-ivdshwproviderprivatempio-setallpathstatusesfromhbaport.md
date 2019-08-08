@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProviderPrivateMpio interface [VDS],SetAllPathStatusesFromHbaPort method, IVdsHwProviderPrivateMpio.SetAllPathStatusesFromHbaPort, IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort, SetAllPathStatusesFromHbaPort, SetAllPathStatusesFromHbaPort method [VDS], SetAllPathStatusesFromHbaPort method [VDS],IVdsHwProviderPrivateMpio interface, base.ivdshwproviderprivatempio_setallpathstatusesfromhbaport, vdshwprv/IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsHwProviderPrivateMpio.SetAllPathStatusesFromHbaPort"
+f1_keywords:
+- vdshwprv/IVdsHwProviderPrivateMpio.SetAllPathStatusesFromHbaPort
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VdsHwPrv.h
+- VdsHwPrv.h
 api_name:
- - IVdsHwProviderPrivateMpio.SetAllPathStatusesFromHbaPort
+- IVdsHwProviderPrivateMpio.SetAllPathStatusesFromHbaPort
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The properties of the HBA port from which the paths to be set originate.  The on
 
 ### -param status
 
-The status (enumerated by the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_path_status">VDS_PATH_STATUS</a> enumeration) to set the paths.
+The status (enumerated by the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_path_status">VDS_PATH_STATUS</a> enumeration) to set the paths.
 
 
 ## -returns
@@ -123,11 +123,11 @@ At least one path's status was not successfully set due to a nonfatal error (for
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_hbaport_prop">VDS_HBAPORT_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hbaport_prop">VDS_HBAPORT_PROP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_path_status">VDS_PATH_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_path_status">VDS_PATH_STATUS</a>
  
 
  

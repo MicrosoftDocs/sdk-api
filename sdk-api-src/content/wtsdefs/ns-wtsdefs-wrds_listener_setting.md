@@ -8,10 +8,10 @@ tech.root: TermServ
 ms.assetid: F7EF3E44-70B7-437C-9810-982802F86C77
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWRDS_LISTENERN_SETTING, PWRDS_LISTENER_SETTING, PWRDS_LISTENER_SETTING union pointer [Remote Desktop Services], WRDS_LISTENER_SETTING, WRDS_LISTENER_SETTING union [Remote Desktop Services], termserv.wrds_listener_setting, wtsdefs/PWRDS_LISTENER_SETTING, wtsdefs/WRDS_LISTENER_SETTING"
+ms.keywords: '*PWRDS_LISTENERN_SETTING, PWRDS_LISTENER_SETTING, PWRDS_LISTENER_SETTING union pointer [Remote Desktop Services], WRDS_LISTENER_SETTING, WRDS_LISTENER_SETTING union [Remote Desktop Services], termserv.wrds_listener_setting, wtsdefs/PWRDS_LISTENER_SETTING, wtsdefs/WRDS_LISTENER_SETTING'
 ms.topic: struct
-f1_keywords: 
- - "wtsdefs/WRDS_LISTENER_SETTING"
+f1_keywords:
+- wtsdefs/WRDS_LISTENER_SETTING
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsdefs.h
+- Wtsdefs.h
 api_name:
- - WRDS_LISTENER_SETTING
+- WRDS_LISTENER_SETTING
 product: Windows
 targetos: Windows
 req.typenames: WRDS_LISTENER_SETTING, *PWRDS_LISTENERN_SETTING
@@ -61,7 +61,7 @@ Contains different levels of listener settings for a remote desktop connection.
 
 ### -field WRdsListenerSettings1
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_listener_settings_1">WRDS_LISTENER_SETTINGS_1</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_listener_settings_1">WRDS_LISTENER_SETTINGS_1</a> structure.
 
 
 ### -field WRdsListenerSettings1.case

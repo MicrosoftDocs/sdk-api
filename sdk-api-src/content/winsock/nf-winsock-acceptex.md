@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AcceptEx, AcceptEx function [Winsock], _win32_acceptex_2, winsock.acceptex_2, winsock/AcceptEx
 ms.topic: function
-f1_keywords: 
- - "winsock/AcceptEx"
+f1_keywords:
+- winsock/AcceptEx
 req.header: winsock.h
 req.include-header: Mswsock.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Mswsock.lib
 req.dll: Mswsock.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mswsock.dll
+- Mswsock.dll
 api_name:
- - AcceptEx
+- AcceptEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -102,7 +102,7 @@ A pointer to a <b>DWORD</b> that receives the count of bytes received. This para
 ### -param lpOverlapped [in]
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure that is used to process the request. This parameter must be specified; it cannot be <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that is used to process the request. This parameter must be specified; it cannot be <b>NULL</b>.
 
 
 ## -returns
@@ -468,7 +468,7 @@ There are important issues associated with connection setup when using Asynchron
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 

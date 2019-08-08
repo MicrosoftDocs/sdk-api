@@ -8,10 +8,10 @@ tech.root: DNS
 ms.assetid: 2a6fdf8f-ac30-4e32-9cde-67d41ddef8af
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_MESSAGE_BUFFER, DNS_MESSAGE_BUFFER, DNS_MESSAGE_BUFFER structure [DNS], PDNS_MESSAGE_BUFFER, PDNS_MESSAGE_BUFFER structure pointer [DNS], _dns_dns_message_buffer, dns.dns_message_buffer, windns/DNS_MESSAGE_BUFFER, windns/PDNS_MESSAGE_BUFFER"
+ms.keywords: '*PDNS_MESSAGE_BUFFER, DNS_MESSAGE_BUFFER, DNS_MESSAGE_BUFFER structure [DNS], PDNS_MESSAGE_BUFFER, PDNS_MESSAGE_BUFFER structure pointer [DNS], _dns_dns_message_buffer, dns.dns_message_buffer, windns/DNS_MESSAGE_BUFFER, windns/PDNS_MESSAGE_BUFFER'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_MESSAGE_BUFFER"
+f1_keywords:
+- windns/DNS_MESSAGE_BUFFER
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_MESSAGE_BUFFER
+- DNS_MESSAGE_BUFFER
 product: Windows
 targetos: Windows
 req.typenames: DNS_MESSAGE_BUFFER, *PDNS_MESSAGE_BUFFER
@@ -62,7 +62,7 @@ The
 
 ### -field MessageHead
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_header">DNS_HEADER</a> structure that contains the header for the DNS message.
+A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_header">DNS_HEADER</a> structure that contains the header for the DNS message.
 
 
 ### -field MessageBody

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryVirtualMemoryInformation, QueryVirtualMemoryInformation function, base.queryvirtualmemoryinformation, memoryapi/QueryVirtualMemoryInformation
 ms.topic: function
-f1_keywords: 
- - "memoryapi/QueryVirtualMemoryInformation"
+f1_keywords:
+- memoryapi/QueryVirtualMemoryInformation
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Onecore.lib
 req.dll: Api-ms-win-core-memory-l1-1-4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-memory-l1-1-4.dll
+- api-ms-win-core-memory-l1-1-4.dll
 api_name:
- - QueryVirtualMemoryInformation
+- QueryVirtualMemoryInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -118,7 +118,7 @@ If the <i>MemoryInformationClass</i> parameter has a value of <b>MemoryRegionInf
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-memory_basic_information">MEMORY_BASIC_INFORMATION</a>
 
 
 

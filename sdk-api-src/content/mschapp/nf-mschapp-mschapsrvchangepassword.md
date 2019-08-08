@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MSChapSrvChangePassword, MSChapSrvChangePassword function [MS-CHAP], _mschap_mschapsrvchangepassword, mschap.mschapsrvchangepassword, mschapp/MSChapSrvChangePassword
 ms.topic: function
-f1_keywords: 
- - "mschapp/MSChapSrvChangePassword"
+f1_keywords:
+- mschapp/MSChapSrvChangePassword
 req.header: mschapp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - MSChapSrvChangePassword
+- MSChapSrvChangePassword
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -77,12 +77,12 @@ A <b>BOOLEAN</b> that specifies whether the password designated by <i>LmOldOwfPa
 
 ### -param LmOldOwfPassword [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mschapp/ns-mschapp-_lm_owf_password">LM_OWF_PASSWORD</a> structure that contains the OWF of the user's current LM  password. This parameter is ignored if <i>LmOldPresent</i> is <b>FALSE</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mschapp/ns-mschapp-lm_owf_password">LM_OWF_PASSWORD</a> structure that contains the OWF of the user's current LM  password. This parameter is ignored if <i>LmOldPresent</i> is <b>FALSE</b>.
 
 
 ### -param LmNewOwfPassword [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mschapp/ns-mschapp-_lm_owf_password">LM_OWF_PASSWORD</a> structure that contains the OWF of the user's new LM password.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mschapp/ns-mschapp-lm_owf_password">LM_OWF_PASSWORD</a> structure that contains the OWF of the user's new LM password.
 
 
 ### -param NtOldOwfPassword [in]

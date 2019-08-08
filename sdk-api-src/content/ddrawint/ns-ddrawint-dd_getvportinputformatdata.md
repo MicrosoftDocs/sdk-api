@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: d8cdfb24-0914-4e1f-bbdd-7bba31976ba0
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_GETVPORTINPUTFORMATDATA, DD_GETVPORTINPUTFORMATDATA, DD_GETVPORTINPUTFORMATDATA structure [Display Devices], ddrawint/DD_GETVPORTINPUTFORMATDATA, ddstrcts_c9ca2266-9add-4320-8b29-51d67b121957.xml, display.dd_getvportinputformatdata"
+ms.keywords: '*PDD_GETVPORTINPUTFORMATDATA, DD_GETVPORTINPUTFORMATDATA, DD_GETVPORTINPUTFORMATDATA structure [Display Devices], ddrawint/DD_GETVPORTINPUTFORMATDATA, ddstrcts_c9ca2266-9add-4320-8b29-51d67b121957.xml, display.dd_getvportinputformatdata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_GETVPORTINPUTFORMATDATA"
+f1_keywords:
+- ddrawint/DD_GETVPORTINPUTFORMATDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_GETVPORTINPUTFORMATDATA
+- DD_GETVPORTINPUTFORMATDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_GETVPORTINPUTFORMATDATA, DD_GETVPORTINPUTFORMATDATA"
+req.typenames: '*PDD_GETVPORTINPUTFORMATDATA, DD_GETVPORTINPUTFORMATDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,12 +61,12 @@ The DD_GETVPORTINPUTFORMATDATA structure contains the information required for t
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only. 
 
 
 ### -field lpVideoPort
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure that represents this VPE object. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure that represents this VPE object. 
 
 
 ### -field dwFlags

@@ -8,10 +8,10 @@ tech.root: NetMgmt
 ms.assetid: 9B0F7BE3-BDCD-437E-9157-9A646A2A20E2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDSREG_JOIN_INFO, DSREG_JOIN_INFO, DSREG_JOIN_INFO structure [Network Management], PDSREG_JOIN_INFO, PDSREG_JOIN_INFO structure pointer [Network Management], lmjoin/DSREG_JOIN_INFO, lmjoin/PDSREG_JOIN_INFO, netmgmt.dsreg_join_info"
+ms.keywords: '*PDSREG_JOIN_INFO, DSREG_JOIN_INFO, DSREG_JOIN_INFO structure [Network Management], PDSREG_JOIN_INFO, PDSREG_JOIN_INFO structure pointer [Network Management], lmjoin/DSREG_JOIN_INFO, lmjoin/PDSREG_JOIN_INFO, netmgmt.dsreg_join_info'
 ms.topic: struct
-f1_keywords: 
- - "lmjoin/DSREG_JOIN_INFO"
+f1_keywords:
+- lmjoin/DSREG_JOIN_INFO
 req.header: lmjoin.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - lmjoin.h
+- lmjoin.h
 api_name:
- - DSREG_JOIN_INFO
+- DSREG_JOIN_INFO
 product: Windows
 targetos: Windows
 req.typenames: DSREG_JOIN_INFO, *PDSREG_JOIN_INFO
@@ -129,15 +129,15 @@ The identifier of the device.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ne-lmjoin-_dsreg_join_type">DSREG_JOIN_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ne-lmjoin-dsreg_join_type">DSREG_JOIN_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ns-lmjoin-_dsreg_user_info">DSREG_USER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ns-lmjoin-dsreg_user_info">DSREG_USER_INFO</a>
  
 
  

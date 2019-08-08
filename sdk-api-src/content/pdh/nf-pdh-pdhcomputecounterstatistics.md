@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhComputeCounterStatistics, PdhComputeCounterStatistics function [Perf], _win32_pdhcomputecounterstatistics, base.pdhcomputecounterstatistics, pdh/PdhComputeCounterStatistics, perf.pdhcomputecounterstatistics
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhComputeCounterStatistics"
+f1_keywords:
+- pdh/PdhComputeCounterStatistics
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhComputeCounterStatistics
+- PdhComputeCounterStatistics
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -165,13 +165,13 @@ Number of raw counter values in the <i>lpRawValueArray</i> buffer.
 ### -param lpRawValueArray [in]
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_raw_counter">PDH_RAW_COUNTER</a> structures that contain <i>dwNumEntries</i> entries.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter">PDH_RAW_COUNTER</a> structures that contain <i>dwNumEntries</i> entries.
 
 
 ### -param data [out]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_statistics">PDH_STATISTICS</a> structure that receives the counter statistics.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_statistics">PDH_STATISTICS</a> structure that receives the counter statistics.
 
 
 ## -returns
@@ -223,11 +223,11 @@ The counter handle is not valid.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_raw_counter">PDH_RAW_COUNTER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter">PDH_RAW_COUNTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_statistics">PDH_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_statistics">PDH_STATISTICS</a>
 
 
 

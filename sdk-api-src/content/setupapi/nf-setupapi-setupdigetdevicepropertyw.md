@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDeviceProperty, SetupDiGetDeviceProperty function [Device and Driver Installation], SetupDiGetDevicePropertyW, devinst.setupdigetdeviceproperty, di-rtns_e079700c-c7b8-43ef-992b-68156a693b41.xml, setupapi/SetupDiGetDeviceProperty, setupapi/SetupDiGetDevicePropertyW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiGetDeviceProperty"
+f1_keywords:
+- setupapi/SetupDiGetDeviceProperty
 req.header: setupapi.h
 req.include-header: SetupAPI.h
 req.target-type: DesktopFor universal, call CM_Get_DevNode_Property
@@ -30,18 +30,18 @@ req.lib: SetupAPI.lib
 req.dll: SetupAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - SetupAPI.dll
- - ext-ms-win-setupapi-classinstallers-l1-1-0.dll
- - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-1.dll
- - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+- SetupAPI.dll
+- ext-ms-win-setupapi-classinstallers-l1-1-0.dll
+- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-1.dll
+- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
- - SetupDiGetDeviceProperty
- - SetupDiGetDevicePropertyW
+- SetupDiGetDeviceProperty
+- SetupDiGetDevicePropertyW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/insta
 
 ### -param DeviceInfoData [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the device instance for which to retrieve a device instance property.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the device instance for which to retrieve a device instance property.
 
 
 ### -param PropertyKey [in]

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDC, CreateDC function [Windows GDI], CreateDCA, CreateDCW, _win32_CreateDC, gdi.createdc, wingdi/CreateDC, wingdi/CreateDCA, wingdi/CreateDCW
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateDC"
+f1_keywords:
+- wingdi/CreateDC
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,20 +30,20 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-DC-Create-l1-1-0.dll
- - Ext-MS-Win-GDI-DC-Create-l1-1-1.dll
- - ext-ms-win-gdi-dc-create-l1-1-2.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-DC-Create-l1-1-0.dll
+- Ext-MS-Win-GDI-DC-Create-l1-1-1.dll
+- ext-ms-win-gdi-dc-create-l1-1-2.dll
+- GDI32Full.dll
 api_name:
- - CreateDC
- - CreateDCA
- - CreateDCW
+- CreateDC
+- CreateDCA
+- CreateDCW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -140,7 +140,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/capt
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_docinfoa">DOCINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-docinfoa">DOCINFO</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_PROTOCOL_TYPE, WSD_PROTOCOL_TYPE enumeration, WSD_PT_ALL, WSD_PT_HTTP, WSD_PT_HTTPS, WSD_PT_NONE, WSD_PT_UDP, ncd.wsd_protocol_type, wsdtypes/WSD_PROTOCOL_TYPE, wsdtypes/WSD_PT_ALL, wsdtypes/WSD_PT_HTTP, wsdtypes/WSD_PT_HTTPS, wsdtypes/WSD_PT_NONE, wsdtypes/WSD_PT_UDP
 ms.topic: enum
-f1_keywords: 
- - "wsdtypes/WSD_PROTOCOL_TYPE"
+f1_keywords:
+- wsdtypes/WSD_PROTOCOL_TYPE
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_PROTOCOL_TYPE
+- WSD_PROTOCOL_TYPE
 product: Windows
 targetos: Windows
 req.typenames: WSD_PROTOCOL_TYPE
@@ -89,7 +89,7 @@ The UDP, HTTP, and HTTPS protocols are supported.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_port_type">WSD_PORT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_port_type">WSD_PORT_TYPE</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFVideoSurfaceInfo, MFVideoSurfaceInfo structure [Media Foundation], b48099a2-8427-496c-9a60-ace5b89d81e9, mf.mfvideosurfaceinfo, mfobjects/MFVideoSurfaceInfo
 ms.topic: struct
-f1_keywords: 
- - "mfobjects/MFVideoSurfaceInfo"
+f1_keywords:
+- mfobjects/MFVideoSurfaceInfo
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - MFVideoSurfaceInfo
+- MFVideoSurfaceInfo
 product: Windows
 targetos: Windows
 req.typenames: MFVideoSurfaceInfo
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-Contains information about an uncompressed video format. This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat">MFVIDEOFORMAT</a> structure.
+Contains information about an uncompressed video format. This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure.
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WritePropertyKey, PSPropertyBag_WritePropertyKey function [Windows Properties], properties.PSPropertyBag_WritePropertyKey, propsys/PSPropertyBag_WritePropertyKey, shell.PSPropertyBag_WritePropertyKey
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_WritePropertyKey"
+f1_keywords:
+- propsys/PSPropertyBag_WritePropertyKey
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_WritePropertyKey
+- PSPropertyBag_WritePropertyKey
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -77,7 +77,7 @@ A null-terminated property name string.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure that specifies the property key value to store in the property.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure that specifies the property key value to store in the property.
 
 
 ## -returns

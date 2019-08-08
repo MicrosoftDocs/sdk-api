@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerReportApplicationCrash, WerReportApplicationHang, WerReportCreate, WerReportCreate function [Windows Error Reporting], WerReportCritical, WerReportInvalid, WerReportKernel, WerReportNonCritical, base.werreportcreate, wer.werreportcreate, werapi/WerReportCreate
 ms.topic: function
-f1_keywords: 
- - "werapi/WerReportCreate"
+f1_keywords:
+- werapi/WerReportCreate
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Wer.lib
 req.dll: Wer.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wer.dll
- - Ext-MS-Win-wer-reporting-l1-1-0.dll
- - errorhandlingext.dll
- - Ext-MS-Win-Wer-Reporting-L1-1-1.dll
+- Wer.dll
+- Ext-MS-Win-wer-reporting-l1-1-0.dll
+- errorhandlingext.dll
+- Ext-MS-Win-Wer-Reporting-L1-1-1.dll
 api_name:
- - WerReportCreate
+- WerReportCreate
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -148,7 +148,7 @@ An error that is not critical has occurred. This type of report shows no UI; the
 
 ### -param pReportInformation [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-_wer_report_information">WER_REPORT_INFORMATION</a> structure that specifies information for the report.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-wer_report_information">WER_REPORT_INFORMATION</a> structure that specifies information for the report.
 
 
 ### -param phReportHandle [out]
@@ -196,7 +196,7 @@ To view the reports submitted by your application, go to Windows Quality Online 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-_wer_report_information">WER_REPORT_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-wer_report_information">WER_REPORT_INFORMATION</a>
 
 
 

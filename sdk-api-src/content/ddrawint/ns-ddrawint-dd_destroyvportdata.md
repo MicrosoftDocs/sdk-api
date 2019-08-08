@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: b9e29c23-bb1a-47e8-a605-2863c4cda2af
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_DESTROYVPORTDATA, DD_DESTROYVPORTDATA, DD_DESTROYVPORTDATA structure [Display Devices], ddrawint/DD_DESTROYVPORTDATA, ddstrcts_bb54464c-6b2f-4c90-99a9-439938562898.xml, display.dd_destroyvportdata"
+ms.keywords: '*PDD_DESTROYVPORTDATA, DD_DESTROYVPORTDATA, DD_DESTROYVPORTDATA structure [Display Devices], ddrawint/DD_DESTROYVPORTDATA, ddstrcts_bb54464c-6b2f-4c90-99a9-439938562898.xml, display.dd_destroyvportdata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_DESTROYVPORTDATA"
+f1_keywords:
+- ddrawint/DD_DESTROYVPORTDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_DESTROYVPORTDATA
+- DD_DESTROYVPORTDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_DESTROYVPORTDATA, DD_DESTROYVPORTDATA"
+req.typenames: '*PDD_DESTROYVPORTDATA, DD_DESTROYVPORTDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,12 +61,12 @@ The DD_DESTROYVPORTDATA structure contains the information necessary for the dri
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only. 
 
 
 ### -field lpVideoPort
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure that represents this <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure that represents this <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object. 
 
 
 ### -field ddRVal

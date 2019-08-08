@@ -8,10 +8,10 @@ tech.root: NativeWiFi
 ms.assetid: e05607fd-da1e-49ae-b2eb-3ac4758df84c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_HOSTED_NETWORK_STATE_CHANGE, PWLAN_HOSTED_NETWORK_STATE_CHANGE, PWLAN_HOSTED_NETWORK_STATE_CHANGE structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_STATE_CHANGE, WLAN_HOSTED_NETWORK_STATE_CHANGE structure [NativeWIFI], nwifi.wlan_hosted_network_state_change, wlanapi/PWLAN_HOSTED_NETWORK_STATE_CHANGE, wlanapi/WLAN_HOSTED_NETWORK_STATE_CHANGE"
+ms.keywords: '*PWLAN_HOSTED_NETWORK_STATE_CHANGE, PWLAN_HOSTED_NETWORK_STATE_CHANGE, PWLAN_HOSTED_NETWORK_STATE_CHANGE structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_STATE_CHANGE, WLAN_HOSTED_NETWORK_STATE_CHANGE structure [NativeWIFI], nwifi.wlan_hosted_network_state_change, wlanapi/PWLAN_HOSTED_NETWORK_STATE_CHANGE, wlanapi/WLAN_HOSTED_NETWORK_STATE_CHANGE'
 ms.topic: struct
-f1_keywords: 
- - "wlanapi/WLAN_HOSTED_NETWORK_STATE_CHANGE"
+f1_keywords:
+- wlanapi/WLAN_HOSTED_NETWORK_STATE_CHANGE
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wlanapi.h
+- Wlanapi.h
 api_name:
- - WLAN_HOSTED_NETWORK_STATE_CHANGE
+- WLAN_HOSTED_NETWORK_STATE_CHANGE
 product: Windows
 targetos: Windows
 req.typenames: WLAN_HOSTED_NETWORK_STATE_CHANGE, *PWLAN_HOSTED_NETWORK_STATE_CHANGE
@@ -88,11 +88,11 @@ The <b>WLAN_HOSTED_NETWORK_STATE_CHANGE</b> structure is an extension to native 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_hosted_network_reason">WLAN_HOSTED_NETWORK_REASON</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_hosted_network_reason">WLAN_HOSTED_NETWORK_REASON</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_hosted_network_state">WLAN_HOSTED_NETWORK_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_hosted_network_state">WLAN_HOSTED_NETWORK_STATE</a>
 
 
 

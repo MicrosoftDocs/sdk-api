@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: 6898951a-5719-47aa-a219-97f82095686f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEVENT_EXTENDED_ITEM_STACK_TRACE32, EVENT_EXTENDED_ITEM_STACK_TRACE32, EVENT_EXTENDED_ITEM_STACK_TRACE32 structure [ETW], PEVENT_EXTENDED_ITEM_STACK_TRACE32, PEVENT_EXTENDED_ITEM_STACK_TRACE32 structure pointer [ETW], etw.event_extended_item_stack_trace32, evntcons/EVENT_EXTENDED_ITEM_STACK_TRACE32, evntcons/PEVENT_EXTENDED_ITEM_STACK_TRACE32"
+ms.keywords: '*PEVENT_EXTENDED_ITEM_STACK_TRACE32, EVENT_EXTENDED_ITEM_STACK_TRACE32, EVENT_EXTENDED_ITEM_STACK_TRACE32 structure [ETW], PEVENT_EXTENDED_ITEM_STACK_TRACE32, PEVENT_EXTENDED_ITEM_STACK_TRACE32 structure pointer [ETW], etw.event_extended_item_stack_trace32, evntcons/EVENT_EXTENDED_ITEM_STACK_TRACE32, evntcons/PEVENT_EXTENDED_ITEM_STACK_TRACE32'
 ms.topic: struct
-f1_keywords: 
- - "evntcons/EVENT_EXTENDED_ITEM_STACK_TRACE32"
+f1_keywords:
+- evntcons/EVENT_EXTENDED_ITEM_STACK_TRACE32
 req.header: evntcons.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evntcons.h
+- Evntcons.h
 api_name:
- - EVENT_EXTENDED_ITEM_STACK_TRACE32
+- EVENT_EXTENDED_ITEM_STACK_TRACE32
 product: Windows
 targetos: Windows
 req.typenames: EVENT_EXTENDED_ITEM_STACK_TRACE32, *PEVENT_EXTENDED_ITEM_STACK_TRACE32
@@ -75,7 +75,7 @@ An array of call addresses on the stack.
 
 
 
-The <b>DataSize</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a> contains the size of this structure. To determine the number of addresses in the array, subtract <code>sizeof(ULONG64)</code> from <b>DataSize</b> and then divide by <code>sizeof(ULONG)</code>.
+The <b>DataSize</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a> contains the size of this structure. To determine the number of addresses in the array, subtract <code>sizeof(ULONG64)</code> from <b>DataSize</b> and then divide by <code>sizeof(ULONG)</code>.
 
 
 
@@ -85,7 +85,7 @@ The <b>DataSize</b> member of <a href="https://docs.microsoft.com/windows/deskto
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
  
 
  

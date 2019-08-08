@@ -8,10 +8,10 @@ tech.root: ProcThread
 ms.assetid: f8fe521b-02d6-4c58-8ef8-653280add111
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCACHE_RELATIONSHIP, CACHE_RELATIONSHIP, CACHE_RELATIONSHIP structure, PCACHE_RELATIONSHIP, PCACHE_RELATIONSHIP structure pointer, _CACHE_RELATIONSHIP, base.cache_relationship, winnt/CACHE_RELATIONSHIP, winnt/PCACHE_RELATIONSHIP"
+ms.keywords: '*PCACHE_RELATIONSHIP, CACHE_RELATIONSHIP, CACHE_RELATIONSHIP structure, PCACHE_RELATIONSHIP, PCACHE_RELATIONSHIP structure pointer, _CACHE_RELATIONSHIP, base.cache_relationship, winnt/CACHE_RELATIONSHIP, winnt/PCACHE_RELATIONSHIP'
 ms.topic: struct
-f1_keywords: 
- - "winnt/CACHE_RELATIONSHIP"
+f1_keywords:
+- winnt/CACHE_RELATIONSHIP
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - CACHE_RELATIONSHIP
+- CACHE_RELATIONSHIP
 product: Windows
 targetos: Windows
 req.typenames: CACHE_RELATIONSHIP, *PCACHE_RELATIONSHIP
@@ -122,7 +122,7 @@ The cache size, in bytes.
 
 ### -field Type
 
-The cache type. This member is a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_processor_cache_type">PROCESSOR_CACHE_TYPE</a> value.
+The cache type. This member is a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-processor_cache_type">PROCESSOR_CACHE_TYPE</a> value.
 
 
 ### -field Reserved
@@ -132,7 +132,7 @@ This member is reserved.
 
 ### -field GroupMask
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_group_affinity">GROUP_AFFINITY</a> structure that specifies a  group number and processor affinity within the group. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a> structure that specifies a  group number and processor affinity within the group. 
 
 
 ## -see-also
@@ -140,7 +140,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_group_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_group_affinity">GROUP_AFFINITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a>
 
 
 
@@ -148,7 +148,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_group_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_processor_cache_type">PROCESSOR_CACHE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-processor_cache_type">PROCESSOR_CACHE_TYPE</a>
 
 
 

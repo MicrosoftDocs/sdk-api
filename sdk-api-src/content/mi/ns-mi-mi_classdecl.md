@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ClassDecl, MI_ClassDecl structure [Windows Management Infrastructure (MI)], MI_FLAG_ABSTRACT, MI_FLAG_ASSOCIATION, MI_FLAG_CLASS, MI_FLAG_INDICATION, MI_FLAG_TERMINAL, mi/MI_ClassDecl, wmi_v2.mi_classdecl
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_ClassDecl"
+f1_keywords:
+- mi/MI_ClassDecl
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_ClassDecl
+- MI_ClassDecl
 product: Windows
 targetos: Windows
 req.typenames: MI_ClassDecl
@@ -181,5 +181,5 @@ Provider functions.
 
 ### -field owningClass
 
-Owning <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_class">MI_Class</a> object, if any.
+Owning <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> object, if any.
 

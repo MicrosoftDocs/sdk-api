@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertStringSidToSid, ConvertStringSidToSid function [Security], ConvertStringSidToSidA, ConvertStringSidToSidW, _win32_convertstringsidtosid, sddl/ConvertStringSidToSid, sddl/ConvertStringSidToSidA, sddl/ConvertStringSidToSidW, security.convertstringsidtosid
 ms.topic: function
-f1_keywords: 
- - "sddl/ConvertStringSidToSid"
+f1_keywords:
+- sddl/ConvertStringSidToSid
 req.header: sddl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,22 +30,22 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-security-sddl-ansi-l1-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
- - sechost.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - API-MS-Win-Security-sddl-l1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-security-sddl-ansi-l1-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+- sechost.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- API-MS-Win-Security-sddl-l1-1-0.dll
 api_name:
- - ConvertStringSidToSid
- - ConvertStringSidToSidA
- - ConvertStringSidToSidW
+- ConvertStringSidToSid
+- ConvertStringSidToSidA
+- ConvertStringSidToSidW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -152,7 +152,7 @@ Invalid SID.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
  
 
  

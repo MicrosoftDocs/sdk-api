@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAccessRights, GetAccessRights method [Security], GetAccessRights method [Security],ISecurityInformation interface, ISecurityInformation interface [Security],GetAccessRights method, ISecurityInformation.GetAccessRights, ISecurityInformation::GetAccessRights, SI_ADVANCED, SI_EDIT_AUDITS, SI_EDIT_PROPERTIES, _win32_isecurityinformation_getaccessrights, aclui/ISecurityInformation::GetAccessRights, security.isecurityinformation_getaccessrights
 ms.topic: method
-f1_keywords: 
- - "aclui/ISecurityInformation.GetAccessRights"
+f1_keywords:
+- aclui/ISecurityInformation.GetAccessRights
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Aclui.h
+- Aclui.h
 api_name:
- - ISecurityInformation.GetAccessRights
+- ISecurityInformation.GetAccessRights
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -118,7 +118,7 @@ The <b>Advanced Security</b> property sheet enables editing of ACEs that apply t
 ### -param ppAccess [out]
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_si_access">SI_ACCESS</a> structures. The array must include one entry for each access right. You can specify access rights that apply to the object itself, as well as object-specific access rights that apply only to a property set or property on the object.
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-si_access">SI_ACCESS</a> structures. The array must include one entry for each access right. You can specify access rights that apply to the object itself, as well as object-specific access rights that apply only to a property set or property on the object.
 
 
 ### -param pcAccesses [out]
@@ -186,7 +186,7 @@ The access control editor does not free the pointer returned in <i>ppAccess</i>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_si_access">SI_ACCESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-si_access">SI_ACCESS</a>
  
 
  

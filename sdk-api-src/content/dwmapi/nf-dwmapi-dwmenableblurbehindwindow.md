@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DwmEnableBlurBehindWindow, DwmEnableBlurBehindWindow function [Desktop Window Manager], _udwm_dwmenableblurbehindwindow, _udwm_dwmenableblurbehindwindow_cpp, dwm.dwmenableblurbehindwindow, dwmapi/DwmEnableBlurBehindWindow, winui._udwm_dwmenableblurbehindwindow
 ms.topic: function
-f1_keywords: 
- - "dwmapi/DwmEnableBlurBehindWindow"
+f1_keywords:
+- dwmapi/DwmEnableBlurBehindWindow
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dwmapi.dll
- - ext-ms-win-dwmapi-ext-l1-1-0.dll
+- Dwmapi.dll
+- ext-ms-win-dwmapi-ext-l1-1-0.dll
 api_name:
- - DwmEnableBlurBehindWindow
+- DwmEnableBlurBehindWindow
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ The handle to the window on which the blur behind data is applied.
 
 ### -param pBlurBehind [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ns-dwmapi-_dwm_blurbehind">DWM_BLURBEHIND</a> structure that provides blur behind data.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ns-dwmapi-dwm_blurbehind">DWM_BLURBEHIND</a> structure that provides blur behind data.
 
 
 ## -returns
@@ -83,11 +83,11 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-Enabling blur by setting the <b>fEnable</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ns-dwmapi-_dwm_blurbehind">DWM_BLURBEHIND</a> structure to <b>TRUE</b>. This results in subsequent compositions of the window blurring the content behind it. This function should be called immediately before a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> call to ensure prompt application of the effect.
+Enabling blur by setting the <b>fEnable</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ns-dwmapi-dwm_blurbehind">DWM_BLURBEHIND</a> structure to <b>TRUE</b>. This results in subsequent compositions of the window blurring the content behind it. This function should be called immediately before a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> call to ensure prompt application of the effect.
 
 The alpha values in the window are honored and the rendering atop the blur will use these alpha values. It is the application's responsibility to ensure that the alpha values of all pixels in the window are correct. Some Windows Graphics Device Interface (GDI) operations do not preserve alpha values, so care must be taken when presenting child windows because the alpha values they contribute are unpredictable.
 
-The region specified within the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ns-dwmapi-_dwm_blurbehind">DWM_BLURBEHIND</a> structure is owned by the caller. It is the caller's responsibility to free the region, and they can do so as soon as the function call is completed.
+The region specified within the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ns-dwmapi-dwm_blurbehind">DWM_BLURBEHIND</a> structure is owned by the caller. It is the caller's responsibility to free the region, and they can do so as soon as the function call is completed.
 
 This function can only be called on top-level windows. An error occurs when this function is called on other window types.
 

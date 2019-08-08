@@ -2,7 +2,7 @@
 UID: NF:wincrypt.CryptMsgCountersignEncoded
 title: CryptMsgCountersignEncoded function (wincrypt.h)
 author: windows-sdk-content
-description: Countersigns an existing PKCS #7 message signature.
+description: Countersigns an existing PKCS
 old-location: security\cryptmsgcountersignencoded.htm
 tech.root: SecCrypto
 ms.assetid: d9fd734b-e14d-4392-ac88-5565aefbedb4
@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptMsgCountersignEncoded, CryptMsgCountersignEncoded function [Security], _crypto2_cryptmsgcountersignencoded, security.cryptmsgcountersignencoded, wincrypt/CryptMsgCountersignEncoded
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptMsgCountersignEncoded"
+f1_keywords:
+- wincrypt/CryptMsgCountersignEncoded
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptMsgCountersignEncoded
+- CryptMsgCountersignEncoded
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -85,7 +85,7 @@ Number of countersigners in the <i>rgCountersigners</i> array.
 ### -param rgCountersigners [in]
 
 Array of countersigners' 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a> structures.
 
 
 ### -param pbCountersignature [out]

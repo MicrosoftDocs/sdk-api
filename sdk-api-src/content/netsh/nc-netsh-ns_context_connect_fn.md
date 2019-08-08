@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NS_CONTEXT_CONNECT_FN, NS_CONTEXT_CONNECT_FN callback, NS_CONTEXT_CONNECT_FN callback function [NetShell], SampleConnect, _netsh_ns_context_connect_fn, netsh/NS_CONTEXT_CONNECT_FN, netshell.ns_context_connect_fn
 ms.topic: callback
-f1_keywords: 
- - "netsh/NS_CONTEXT_CONNECT_FN"
+f1_keywords:
+- netsh/NS_CONTEXT_CONNECT_FN
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Netsh.h
+- Netsh.h
 api_name:
- - NS_CONTEXT_CONNECT_FN
+- NS_CONTEXT_CONNECT_FN
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -98,7 +98,7 @@ Each helper is responsible for maintaining its own connection to remote computer
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_ns_helper_attributes">NS_HELPER_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netsh/ns-netsh-ns_helper_attributes">NS_HELPER_ATTRIBUTES</a>
 
 
 

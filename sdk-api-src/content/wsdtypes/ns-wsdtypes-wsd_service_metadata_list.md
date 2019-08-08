@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_SERVICE_METADATA_LIST, WSD_SERVICE_METADATA_LIST structure, ncd.wsd_service_metadata_list_struct, wsdtypes/WSD_SERVICE_METADATA_LIST
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_SERVICE_METADATA_LIST"
+f1_keywords:
+- wsdtypes/WSD_SERVICE_METADATA_LIST
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_SERVICE_METADATA_LIST
+- WSD_SERVICE_METADATA_LIST
 product: Windows
 targetos: Windows
 req.typenames: WSD_SERVICE_METADATA_LIST
@@ -67,7 +67,7 @@ Reference to the next node in the linked list of <b>WSD_SERVICE_METADATA_LIST</b
 
 ### -field Element
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_service_metadata">WSD_SERVICE_METADATA</a> structure that represents the service metadata referenced by this node.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_service_metadata">WSD_SERVICE_METADATA</a> structure that represents the service metadata referenced by this node.
 
 
 ## -see-also
@@ -75,7 +75,7 @@ Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_service_metadata">WSD_SERVICE_METADATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_service_metadata">WSD_SERVICE_METADATA</a>
  
 
  

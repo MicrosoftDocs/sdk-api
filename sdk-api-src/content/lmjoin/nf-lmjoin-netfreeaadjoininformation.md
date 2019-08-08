@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetFreeAadJoinInformation, NetFreeAadJoinInformation function [Network Management], lmjoin/NetFreeAadJoinInformation, netmgmt.netfreeaadjoininformation
 ms.topic: function
-f1_keywords: 
- - "lmjoin/NetFreeAadJoinInformation"
+f1_keywords:
+- lmjoin/NetFreeAadJoinInformation
 req.header: lmjoin.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - netapi32.dll
+- netapi32.dll
 api_name:
- - NetFreeAadJoinInformation
+- NetFreeAadJoinInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Frees the memory allocated for the specified <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ns-lmjoin-_dsreg_join_info">DSREG_JOIN_INFO</a> structure, which contains join information for a tenant and which you retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netgetaadjoininformation">NetGetAadJoinInformation</a> function.
+Frees the memory allocated for the specified <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ns-lmjoin-dsreg_join_info">DSREG_JOIN_INFO</a> structure, which contains join information for a tenant and which you retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netgetaadjoininformation">NetGetAadJoinInformation</a> function.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Frees the memory allocated for the specified <a href="https://docs.microsoft.com
 
 ### -param pJoinInfo [in, optional]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ns-lmjoin-_dsreg_join_info">DSREG_JOIN_INFO</a> structure for which you want to free the memory. 
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ns-lmjoin-dsreg_join_info">DSREG_JOIN_INFO</a> structure for which you want to free the memory. 
 
 
 ## -returns
@@ -78,7 +78,7 @@ This function does not return a value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ns-lmjoin-_dsreg_join_info">DSREG_JOIN_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ns-lmjoin-dsreg_join_info">DSREG_JOIN_INFO</a>
 
 
 

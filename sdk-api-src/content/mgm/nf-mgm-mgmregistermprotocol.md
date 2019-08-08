@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MgmRegisterMProtocol, MgmRegisterMProtocol function [RAS], _mpr_mgmregistermprotocol, mgm/MgmRegisterMProtocol, rras.mgmregistermprotocol
 ms.topic: function
-f1_keywords: 
- - "mgm/MgmRegisterMProtocol"
+f1_keywords:
+- mgm/MgmRegisterMProtocol
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - MgmRegisterMProtocol
+- MgmRegisterMProtocol
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The
 ### -param prpiInfo [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ns-mgm-_routing_protocol_config">ROUTING_PROTOCOL_CONFIG</a> structure that contains pointers to callbacks into the client.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ns-mgm-routing_protocol_config">ROUTING_PROTOCOL_CONFIG</a> structure that contains pointers to callbacks into the client.
 
 
 ### -param dwProtocolId [in]
@@ -166,7 +166,7 @@ Only one routing protocol may take ownership of an interface at any given time. 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ns-mgm-_routing_protocol_config">ROUTING_PROTOCOL_CONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ns-mgm-routing_protocol_config">ROUTING_PROTOCOL_CONFIG</a>
  
 
  

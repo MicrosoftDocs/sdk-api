@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NS_DEFAULT, NS_DNS, NS_NDS, NS_NETBT, NS_SAP, NS_TCPIP_HOSTS, NS_TCPIP_LOCAL, SERVICE_ADD_TYPE, SERVICE_DELETE_TYPE, SERVICE_DEREGISTER, SERVICE_FLAG_DEFER, SERVICE_FLAG_HARD, SERVICE_FLUSH, SERVICE_REGISTER, SET_SERVICE_ PARTIAL_SUCCESS, SetService, SetService function [Winsock], SetServiceA, SetServiceW, _win32_setservice_2, nspapi/SetService, nspapi/SetServiceA, nspapi/SetServiceW, winsock.setservice_2
 ms.topic: function
-f1_keywords: 
- - "nspapi/SetService"
+f1_keywords:
+- nspapi/SetService
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Mswsock.lib
 req.dll: Mswsock.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mswsock.dll
+- Mswsock.dll
 api_name:
- - SetService
- - SetServiceA
- - SetServiceW
+- SetService
+- SetServiceA
+- SetServiceW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -205,8 +205,8 @@ Add a service type to the namespace.
 
 
 For this operation, use the <b>ServiceSpecificInfo</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a> structure pointed to by <i>lpServiceInfo</i> to pass a 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_info_absa">SERVICE_TYPE_INFO_ABS</a> structure. You must also set the <b>ServiceType</b> member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> structure pointed to by <i>lpServiceInfo</i> to pass a 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a> structure. You must also set the <b>ServiceType</b> member of the 
 <b>SERVICE_INFO</b> structure. Other 
 <b>SERVICE_INFO</b> members are ignored.
 
@@ -276,7 +276,7 @@ For example: If the operation involves deregistration in a namespace that uses a
 ### -param lpServiceInfo [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a> structure that contains information about the network service or service type.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> structure that contains information about the network service or service type.
 
 
 ### -param lpServiceAsyncInfo [in, optional]
@@ -349,11 +349,11 @@ The function tried to register a service that was already registered.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_info_absa">SERVICE_TYPE_INFO_ABS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a>
 
 
 

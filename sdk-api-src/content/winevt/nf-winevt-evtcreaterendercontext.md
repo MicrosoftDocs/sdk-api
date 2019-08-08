@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtCreateRenderContext, EvtCreateRenderContext function [EventLog], wes.evtcreaterendercontext, winevt/EvtCreateRenderContext
 ms.topic: function
-f1_keywords: 
- - "winevt/EvtCreateRenderContext"
+f1_keywords:
+- winevt/EvtCreateRenderContext
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wevtapi.dll
- - Ext-MS-Win-WEvtAPI-EventLog-L1-1-0.dll
- - Ext-MS-Win-WEvtAPI-EventLog-L1-1-1.dll
- - Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll
+- Wevtapi.dll
+- Ext-MS-Win-WEvtAPI-EventLog-L1-1-0.dll
+- Ext-MS-Win-WEvtAPI-EventLog-L1-1-1.dll
+- Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll
 api_name:
- - EvtCreateRenderContext
+- EvtCreateRenderContext
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ An array of XPath expressions that uniquely identify a node or attribute in the 
 
 ### -param Flags [in]
 
-One or more flags that identify the information in the event that you want to render. For example, the system information, user information, or specific values. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_render_context_flags">EVT_RENDER_CONTEXT_FLAGS</a> enumeration.
+One or more flags that identify the information in the event that you want to render. For example, the system information, user information, or specific values. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_render_context_flags">EVT_RENDER_CONTEXT_FLAGS</a> enumeration.
 
 
 ## -returns

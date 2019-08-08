@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapSimCredential, EapSimCredential structure [EAPHost], eaphost.eapsimcredential, eaptypes/EAPSimCredential
 ms.topic: struct
-f1_keywords: 
- - "eaptypes/EapSimCredential"
+f1_keywords:
+- eaptypes/EapSimCredential
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eaptypes.h
+- eaptypes.h
 api_name:
- - EapSimCredential
+- EapSimCredential
 product: Windows
 targetos: Windows
 req.typenames: EapSimCredential
@@ -69,7 +69,7 @@ A NULL-terminated Unicode string that contains the ICC-ID of the SIM.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eapcredential">EapCredential</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapcredential">EapCredential</a>
  
 
  

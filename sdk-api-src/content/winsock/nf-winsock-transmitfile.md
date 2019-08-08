@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPFN_TRANSMITFILE, LPFN_TRANSMITFILE function [Winsock], TF_DISCONNECT, TF_REUSE_SOCKET, TF_USE_DEFAULT_WORKER, TF_USE_KERNEL_APC, TF_USE_SYSTEM_THREAD, TF_WRITE_BEHIND, TransmitFile, TransmitFile function [Winsock], _win32_transmitfile_2, winsock.transmitfile_2, winsock/LPFN_TRANSMITFILE, winsock/TransmitFile
 ms.topic: function
-f1_keywords: 
- - "winsock/TransmitFile"
+f1_keywords:
+- winsock/TransmitFile
 req.header: winsock.h
 req.include-header: Mswsock.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Mswsock.lib
 req.dll: Mswsock.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mswsock.dll
+- Mswsock.dll
 api_name:
- - TransmitFile
+- TransmitFile
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -97,22 +97,22 @@ The <i>nNumberOfBytesPerSend</i> parameter is useful for protocols that have lim
 ### -param lpOverlapped
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure. If the socket handle has been opened as overlapped, specify this parameter in order to achieve an overlapped (asynchronous) I/O operation. By default, socket handles are opened as overlapped. 
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. If the socket handle has been opened as overlapped, specify this parameter in order to achieve an overlapped (asynchronous) I/O operation. By default, socket handles are opened as overlapped. 
 
 
 
 
-You can use the <i>lpOverlapped</i> parameter to specify a 64-bit offset within the file at which to start the file data transfer by setting the <b>Offset</b> and <b>OffsetHigh</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure. If <i>lpOverlapped</i> is a <b>NULL</b> pointer, the transmission of data always starts at the current byte offset in the file.
+You can use the <i>lpOverlapped</i> parameter to specify a 64-bit offset within the file at which to start the file data transfer by setting the <b>Offset</b> and <b>OffsetHigh</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. If <i>lpOverlapped</i> is a <b>NULL</b> pointer, the transmission of data always starts at the current byte offset in the file.
 
 When the <i>lpOverlapped</i> is not <b>NULL</b>, the overlapped I/O might not finish before 
 <b>TransmitFile</b> returns. In that case, the 
-<b>TransmitFile</b> function returns <b>FALSE</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> returns ERROR_IO_PENDING or <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_IO_PENDING</a>. This enables the caller to continue processing while the file transmission operation completes. Windows will set the event specified by the <b>hEvent</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure, or the socket specified by <i>hSocket</i>, to the signaled state upon completion of the data transmission request.
+<b>TransmitFile</b> function returns <b>FALSE</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> returns ERROR_IO_PENDING or <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_IO_PENDING</a>. This enables the caller to continue processing while the file transmission operation completes. Windows will set the event specified by the <b>hEvent</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure, or the socket specified by <i>hSocket</i>, to the signaled state upon completion of the data transmission request.
 
 
 ### -param lpTransmitBuffers
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ns-mswsock-_transmit_file_buffers">TRANSMIT_FILE_BUFFERS</a> data structure that contains pointers to data to send before and after the file data is sent. This parameter should be set to a <b>NULL</b> pointer if you want to transmit only the file data.
+<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers">TRANSMIT_FILE_BUFFERS</a> data structure that contains pointers to data to send before and after the file data is sent. This parameter should be set to a <b>NULL</b> pointer if you want to transmit only the file data.
 
 
 ### -param dwReserved
@@ -263,7 +263,7 @@ The system detected an invalid pointer address in attempting to use a pointer ar
 </dl>
 </td>
 <td width="60%">
-An invalid argument was supplied. This error is returned if the <i>hSocket</i> parameter specified a socket of type <b>SOCK_DGRAM</b> or <b>SOCK_RAW</b>. This error is returned if the <i>dwFlags</i> parameter has the  <b>TF_REUSE_SOCKET</b> flag set, but the <b>TF_DISCONNECT</b> flag was not set. This error is also returned if the offset specified in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure pointed to by the <i>lpOverlapped</i> is not within the file. This error is also returned if the <i>nNumberOfBytesToWrite</i> parameter is set to a value greater than  2,147,483,646, the maximum value for a 32-bit integer minus 1.
+An invalid argument was supplied. This error is returned if the <i>hSocket</i> parameter specified a socket of type <b>SOCK_DGRAM</b> or <b>SOCK_RAW</b>. This error is returned if the <i>dwFlags</i> parameter has the  <b>TF_REUSE_SOCKET</b> flag set, but the <b>TF_DISCONNECT</b> flag was not set. This error is also returned if the offset specified in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure pointed to by the <i>lpOverlapped</i> is not within the file. This error is also returned if the <i>nNumberOfBytesToWrite</i> parameter is set to a value greater than  2,147,483,646, the maximum value for a 32-bit integer minus 1.
 
 </td>
 </tr>
@@ -445,11 +445,11 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ns-mswsock-_transmit_file_buffers">TRANSMIT_FILE_BUFFERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers">TRANSMIT_FILE_BUFFERS</a>
 
 
 

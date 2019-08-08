@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvQueryFont, DrvQueryFont function [Display Devices], ddifncs_b8a9ed0f-ad7f-47a3-b2d4-bbdd40386bd2.xml, display.drvqueryfont, winddi/DrvQueryFont
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvQueryFont"
+f1_keywords:
+- winddi/DrvQueryFont
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvQueryFont
+- DrvQueryFont
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DrvQueryFont</b> function is used by GDI to get the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure for a given font. 
+The <b>DrvQueryFont</b> function is used by GDI to get the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a> structure for a given font. 
 
 
 ## -parameters
@@ -76,14 +76,14 @@ Specifies the one-based index of the driver font. GDI can query the number of fo
 
 ### -param pid
 
-Pointer to a memory location holding the address of a driver-defined value that GDI passes to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvfree">DrvFree</a> when the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure is no longer needed. Depending on how the driver manages memory, this value can identify the structure, identify the way it was allocated, or do nothing at all.
+Pointer to a memory location holding the address of a driver-defined value that GDI passes to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvfree">DrvFree</a> when the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a> structure is no longer needed. Depending on how the driver manages memory, this value can identify the structure, identify the way it was allocated, or do nothing at all.
 
 
 ## -returns
 
 
 
-The return value is a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure that describes the given font if the function is successful. Otherwise, it is <b>NULL</b>, and an error code is logged.
+The return value is a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a> structure that describes the given font if the function is successful. Otherwise, it is <b>NULL</b>, and an error code is logged.
 
 
 
@@ -124,7 +124,7 @@ If the number of fonts in DEVINFO is -1 and <i>iFace</i> is zero, the driver sho
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
  
 
  

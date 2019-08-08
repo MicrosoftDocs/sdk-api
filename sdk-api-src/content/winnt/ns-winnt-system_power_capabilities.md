@@ -8,10 +8,10 @@ tech.root: power
 ms.assetid: aa0af56e-59b3-4d0d-b356-a4046d8754ef
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSYSTEM_POWER_CAPABILITIES, PSYSTEM_POWER_CAPABILITIES, PSYSTEM_POWER_CAPABILITIES structure pointer, SYSTEM_POWER_CAPABILITIES, SYSTEM_POWER_CAPABILITIES structure, _win32_system_power_capabilities_str, base.system_power_capabilities_str, winnt/PSYSTEM_POWER_CAPABILITIES, winnt/SYSTEM_POWER_CAPABILITIES"
+ms.keywords: '*PSYSTEM_POWER_CAPABILITIES, PSYSTEM_POWER_CAPABILITIES, PSYSTEM_POWER_CAPABILITIES structure pointer, SYSTEM_POWER_CAPABILITIES, SYSTEM_POWER_CAPABILITIES structure, _win32_system_power_capabilities_str, base.system_power_capabilities_str, winnt/PSYSTEM_POWER_CAPABILITIES, winnt/SYSTEM_POWER_CAPABILITIES'
 ms.topic: struct
-f1_keywords: 
- - "winnt/SYSTEM_POWER_CAPABILITIES"
+f1_keywords:
+- winnt/SYSTEM_POWER_CAPABILITIES
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - SYSTEM_POWER_CAPABILITIES
+- SYSTEM_POWER_CAPABILITIES
 product: Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_CAPABILITIES, *PSYSTEM_POWER_CAPABILITIES
@@ -220,14 +220,14 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-battery
 ### -field AcOnLineWake
 
 The lowest <a href="https://docs.microsoft.com/windows/desktop/Power/system-power-states">system sleep state</a> (Sx) that will generate a wake event when the system is on AC power. This 
-      member must be one of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> 
+      member must be one of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> 
       enumeration type values.
 
 
 ### -field SoftLidWake
 
 The lowest <a href="https://docs.microsoft.com/windows/desktop/Power/system-power-states">system sleep state</a> (Sx) that will generate a wake event via the lid switch. This member must be 
-      one of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration 
+      one of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration 
       type values.
 
 
@@ -235,7 +235,7 @@ The lowest <a href="https://docs.microsoft.com/windows/desktop/Power/system-powe
 
 The lowest <a href="https://docs.microsoft.com/windows/desktop/Power/system-power-states">system sleep state</a> (Sx) supported by hardware that will generate a wake event via the Real Time Clock (RTC). This 
       member must be one of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type 
       values. 
 
 To wake the computer using the RTC, the operating system must also support waking from the sleep state the computer is in when the RTC generates the wake event. Therefore, the  effective lowest sleep state from which an RTC wake event can wake the computer is the lowest sleep state supported by the operating system that is  equal to or higher than  the  value  of <b>RtcWake</b>.  To determine  the sleep states that the operating system supports, check the   <b>SystemS1</b>, <b>SystemS2</b>, <b>SystemS3</b>, and <b>SystemS4</b> members. 
@@ -244,7 +244,7 @@ To wake the computer using the RTC, the operating system must also support wakin
 ### -field MinDeviceWakeState
 
 The minimum allowable <a href="https://docs.microsoft.com/windows/desktop/Power/system-power-states">system power state</a> supporting wake events. This member must be one of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type 
       values. Note that this state may change as different device drivers are installed on the system.
 
 
@@ -253,7 +253,7 @@ The minimum allowable <a href="https://docs.microsoft.com/windows/desktop/Power/
 The default <a href="https://docs.microsoft.com/windows/desktop/Power/system-power-states">system power state</a> used if an application calls 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-requestwakeuplatency">RequestWakeupLatency</a> with 
       <b>LT_LOWEST_LATENCY</b>. This member must be one of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-system_power_state">SYSTEM_POWER_STATE</a> enumeration type 
       values.
 
 

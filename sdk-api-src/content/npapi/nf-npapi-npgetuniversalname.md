@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPGetUniversalName, NPGetUniversalName function [Security], REMOTE_NAME_INFO_LEVEL, UNIVERSAL_NAME_INFO_LEVEL, _mnp_npgetuniversalname, npapi/NPGetUniversalName, security.npgetuniversalname
 ms.topic: function
-f1_keywords: 
- - "npapi/NPGetUniversalName"
+f1_keywords:
+- npapi/NPGetUniversalName
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - NPGetUniversalName
+- NPGetUniversalName
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -89,7 +89,7 @@ Retrieves the UNC form of the name, for example: "file:\\server\share"
 
 
 If this value is set, the data returned in <i>lpBuffer</i> is stored as a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_universal_name_infoa">UNIVERSAL_NAME_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-universal_name_infoa">UNIVERSAL_NAME_INFO</a> structure.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Retrieves the remote form of the name, for example: "\\server\share"
 
 
 If this value is set, the data returned in <i>lpBuffer</i> is stored as a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_remote_name_infoa">REMOTE_NAME_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-remote_name_infoa">REMOTE_NAME_INFO</a> structure.
 
 </td>
 </tr>

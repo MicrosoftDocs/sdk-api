@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMfeStatus, GetMfeStatus callback function [RAS], MFE_NO_ERROR, MFE_OIF_PRUNED, MFE_OLD_ROUTER, MFE_PRUNED_UPSTREAM, MFE_REACHED_CORE, PGET_MFE_STATUS, PGET_MFE_STATUS callback, _mpr_getmfestatus, routprot/GetMfeStatus, rras.getmfestatus
 ms.topic: callback
-f1_keywords: 
- - "routprot/GetMfeStatus"
+f1_keywords:
+- routprot/GetMfeStatus
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Routprot.h
+- Routprot.h
 api_name:
- - GetMfeStatus
+- GetMfeStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -54,7 +54,7 @@ ms.custom: 19H1
 The router manager calls the 
 <b>GetMfeStatus</b> function to obtain the status of the multicast forwarding entry (MFE) for the specified interface, group address, and source address.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_mpr50_routing_characteristics">PGET_MFE_STATUS</a> type defines a pointer to this callback function. <i>GetMfeStatus</i> is a placeholder for the application-defined function name.
+The <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">PGET_MFE_STATUS</a> type defines a pointer to this callback function. <i>GetMfeStatus</i> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -192,7 +192,7 @@ The <i>InterfaceIndex</i> parameter is invalid (for example, no interface exists
 
 
 Only multicast routing protocols need implement this function. Non-multicast routing protocols should pass <b>NULL</b> as the pointer value for this function in 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVA_COPPStatusData, DXVA_COPPStatusData structure [DirectShow], DXVA_COPPStatusDataStructure, _DXVA_COPPStatusData, dshow.dxva_coppstatusdata, dxva9typ/DXVA_COPPStatusData
 ms.topic: struct
-f1_keywords: 
- - "dxva9typ/DXVA_COPPStatusData"
+f1_keywords:
+- dxva9typ/DXVA_COPPStatusData
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva9typ.h
+- dxva9typ.h
 api_name:
- - DXVA_COPPStatusData
+- DXVA_COPPStatusData
 product: Windows
 targetos: Windows
 req.typenames: DXVA_COPPStatusData
@@ -69,7 +69,7 @@ A 128-bit random number that was passed by the application in the <a href="https
 
 ### -field dwFlags
 
-Status flag. See <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-_copp_statusflags">COPP_StatusFlags</a>.
+Status flag. See <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_statusflags">COPP_StatusFlags</a>.
 
 
 ### -field dwData

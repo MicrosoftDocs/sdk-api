@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: 2de717dc-a9ac-4b81-9fab-992f22da9a0d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_EXCEPTION_STREAM, MINIDUMP_EXCEPTION_STREAM, MINIDUMP_EXCEPTION_STREAM structure, PMINIDUMP_EXCEPTION_STREAM, PMINIDUMP_EXCEPTION_STREAM structure pointer, _win32_minidump_exception_stream_str, base.minidump_exception_stream_str, minidumpapiset/MINIDUMP_EXCEPTION_STREAM, minidumpapiset/PMINIDUMP_EXCEPTION_STREAM"
+ms.keywords: '*PMINIDUMP_EXCEPTION_STREAM, MINIDUMP_EXCEPTION_STREAM, MINIDUMP_EXCEPTION_STREAM structure, PMINIDUMP_EXCEPTION_STREAM, PMINIDUMP_EXCEPTION_STREAM structure pointer, _win32_minidump_exception_stream_str, base.minidump_exception_stream_str, minidumpapiset/MINIDUMP_EXCEPTION_STREAM, minidumpapiset/PMINIDUMP_EXCEPTION_STREAM'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_EXCEPTION_STREAM"
+f1_keywords:
+- minidumpapiset/MINIDUMP_EXCEPTION_STREAM
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_EXCEPTION_STREAM
+- MINIDUMP_EXCEPTION_STREAM
 product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_EXCEPTION_STREAM, *PMINIDUMP_EXCEPTION_STREAM
@@ -72,7 +72,7 @@ A variable for alignment.
 ### -field ExceptionRecord
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_exception">MINIDUMP_EXCEPTION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_exception">MINIDUMP_EXCEPTION</a> structure.
 
 
 ### -field ThreadContext
@@ -95,7 +95,7 @@ In this context, a data stream is a set of data in a minidump file.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_exception">MINIDUMP_EXCEPTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_exception">MINIDUMP_EXCEPTION</a>
 
 
 
@@ -103,7 +103,7 @@ In this context, a data stream is a set of data in a minidump file.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
  
 
  

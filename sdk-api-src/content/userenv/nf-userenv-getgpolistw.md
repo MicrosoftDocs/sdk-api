@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGPOList, GetGPOList function [Group Policy], GetGPOListA, GetGPOListW, _win32_getgpolist, policy.getgpolist, userenv/GetGPOList, userenv/GetGPOListA, userenv/GetGPOListW
 ms.topic: function
-f1_keywords: 
- - "userenv/GetGPOList"
+f1_keywords:
+- userenv/GetGPOList
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - GetGPOList
- - GetGPOListA
- - GetGPOListW
+- GetGPOList
+- GetGPOListA
+- GetGPOListW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -105,7 +105,7 @@ If you specify <b>GPO_LIST_FLAG_SITEONLY</b> the function returns only site info
 ### -param pGPOList [out]
 
 A pointer that receives the list of GPO structures. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_group_policy_objecta">GROUP_POLICY_OBJECT</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>.
 
 
 ## -returns
@@ -185,7 +185,7 @@ To retrieve the list of GPOs applied for a specific user or computer and extensi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_group_policy_objecta">GROUP_POLICY_OBJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>
 
 
 

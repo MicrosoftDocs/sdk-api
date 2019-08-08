@@ -8,10 +8,10 @@ tech.root: shell
 ms.assetid: 5ee6ef2b-2d06-42ec-b70e-659c2f137714
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSFV_SETITEMPOS, SFV_SETITEMPOS, SFV_SETITEMPOS structure [Windows Shell], _shell_SFV_SETITEMPOS, shell.SFV_SETITEMPOS, shlobj/SFV_SETITEMPOS"
+ms.keywords: '*LPSFV_SETITEMPOS, SFV_SETITEMPOS, SFV_SETITEMPOS structure [Windows Shell], _shell_SFV_SETITEMPOS, shell.SFV_SETITEMPOS, shlobj/SFV_SETITEMPOS'
 ms.topic: struct
-f1_keywords: 
- - "shlobj/SFV_SETITEMPOS"
+f1_keywords:
+- shlobj/SFV_SETITEMPOS
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shlobj.h
+- Shlobj.h
 api_name:
- - SFV_SETITEMPOS
+- SFV_SETITEMPOS
 product: Windows
 targetos: Windows
 req.typenames: SFV_SETITEMPOS
@@ -63,7 +63,7 @@ Stores position information for an item. Used with message <a href="https://docs
 
 Type: <b>PCUITEMID_CHILD</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> for the item.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> for the item.
 
 
 ### -field pt

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_ASYNCOUT_BREAKVOLUMEPLEX, VDS_ASYNCOUT_CREATELUN, VDS_ASYNCOUT_CREATEPARTITION, VDS_ASYNCOUT_CREATEPORTALGROUP, VDS_ASYNCOUT_CREATETARGET, VDS_ASYNCOUT_CREATEVOLUME, VDS_ASYNCOUT_CREATE_VDISK, VDS_ASYNC_OUTPUT, VDS_ASYNC_OUTPUT structure [VDS], base.vds_async_output, vds/_VDS_ASYNC_OUTPUT, vdshwprv/_VDS_ASYNC_OUTPUT
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_ASYNC_OUTPUT"
+f1_keywords:
+- vds/VDS_ASYNC_OUTPUT
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_ASYNC_OUTPUT
+- VDS_ASYNC_OUTPUT
 product: Windows
 targetos: Windows
 req.typenames: VDS_ASYNC_OUTPUT
@@ -66,7 +66,7 @@ Defines the
 ### -field type
 
 Discriminant for the union enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_async_output_type">VDS_ASYNC_OUTPUT_TYPE</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_async_output_type">VDS_ASYNC_OUTPUT_TYPE</a>.
 
 <table>
 <tr>
@@ -294,7 +294,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_async_output_type">VDS_ASYNC_OUTPUT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_async_output_type">VDS_ASYNC_OUTPUT_TYPE</a>
  
 
  

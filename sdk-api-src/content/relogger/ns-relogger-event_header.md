@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: 479091ae-7229-433b-b93b-8da6cc18df89
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEVENT_HEADER, EVENT_HEADER, EVENT_HEADER structure [ETW], EVENT_HEADER_FLAG_32_BIT_HEADER, EVENT_HEADER_FLAG_64_BIT_HEADER, EVENT_HEADER_FLAG_CLASSIC_HEADER, EVENT_HEADER_FLAG_EXTENDED_INFO, EVENT_HEADER_FLAG_NO_CPUTIME, EVENT_HEADER_FLAG_PRIVATE_SESSION, EVENT_HEADER_FLAG_STRING_ONLY, EVENT_HEADER_FLAG_TRACE_MESSAGE, EVENT_HEADER_PROPERTY_FORWARDED_XML, EVENT_HEADER_PROPERTY_LEGACY_EVENTLOG, EVENT_HEADER_PROPERTY_XML, PEVENT_HEADER, PEVENT_HEADER structure pointer [ETW], _EVENT_HEADER, base.event_header, etw.event_header, relogger/EVENT_HEADER, relogger/PEVENT_HEADER"
+ms.keywords: '*PEVENT_HEADER, EVENT_HEADER, EVENT_HEADER structure [ETW], EVENT_HEADER_FLAG_32_BIT_HEADER, EVENT_HEADER_FLAG_64_BIT_HEADER, EVENT_HEADER_FLAG_CLASSIC_HEADER, EVENT_HEADER_FLAG_EXTENDED_INFO, EVENT_HEADER_FLAG_NO_CPUTIME, EVENT_HEADER_FLAG_PRIVATE_SESSION, EVENT_HEADER_FLAG_STRING_ONLY, EVENT_HEADER_FLAG_TRACE_MESSAGE, EVENT_HEADER_PROPERTY_FORWARDED_XML, EVENT_HEADER_PROPERTY_LEGACY_EVENTLOG, EVENT_HEADER_PROPERTY_XML, PEVENT_HEADER, PEVENT_HEADER structure pointer [ETW], _EVENT_HEADER, base.event_header, etw.event_header, relogger/EVENT_HEADER, relogger/PEVENT_HEADER'
 ms.topic: struct
-f1_keywords: 
- - "relogger/EVENT_HEADER"
+f1_keywords:
+- relogger/EVENT_HEADER
 req.header: relogger.h
 req.include-header: Evntcons.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - relogger.h
+- relogger.h
 api_name:
- - EVENT_HEADER
+- EVENT_HEADER
 product: Windows
 targetos: Windows
 req.typenames: EVENT_HEADER, *PEVENT_HEADER
@@ -84,7 +84,7 @@ Flags that provide information about the event such as the type of session it wa
 </dl>
 </td>
 <td width="60%">
-The <b>ExtendedData</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a> contains data.
+The <b>ExtendedData</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a> contains data.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ The event was logged to a private session. Use <b>ProcessorTime</b> for  elapsed
 </dl>
 </td>
 <td width="60%">
-The event data is a null-terminated Unicode string. You do not need a manifest to parse the <b>UserData</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a>.
+The event data is a null-terminated Unicode string. You do not need a manifest to parse the <b>UserData</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a>.
 
 </td>
 </tr>
@@ -227,7 +227,7 @@ GUID that uniquely identifies the provider that logged the event.
 
 ### -field EventDescriptor
 
-Defines the information about the event such as the event identifier and severity level. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a>.
+Defines the information about the event such as the event identifier and severity level. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
 
 
 ### -field DUMMYUNIONNAME
@@ -276,7 +276,7 @@ The <b>TimerResolution</b> of the <a href="https://docs.microsoft.com/windows/de
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a>
  
 
  

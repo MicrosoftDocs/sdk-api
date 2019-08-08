@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSIGNAL_FAILURE_ROUTINE, PSIGNAL_FAILURE_ROUTINE callback function [Failover Cluster], SignalFailure, SignalFailure callback, SignalFailure callback function [Failover Cluster], mscs.signalfailure, resapi/PSIGNAL_FAILURE_ROUTINE, resapi/SignalFailure
 ms.topic: callback
-f1_keywords: 
- - "resapi/SignalFailure"
+f1_keywords:
+- resapi/SignalFailure
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - SignalFailure
+- SignalFailure
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A handle to the resource instance.
 
 ### -param FailureType [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ne-resapi-_failure_type">FAILURE_TYPE</a> enumeration value that describes the failure type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/resapi/ne-resapi-failure_type">FAILURE_TYPE</a> enumeration value that describes the failure type.
 
 <b>Windows Server 2012:  </b>Not supported.
 

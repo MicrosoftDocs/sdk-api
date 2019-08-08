@@ -8,10 +8,10 @@ tech.root: OpenGL
 ms.assetid: 08a86563-c6ca-4efb-9096-bc487fc5037c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "_ogl_wglUseFontOutlines, opengl.wglusefontoutlines, wglUseFontOutlines, wglUseFontOutlines function [OpenGL], wglUseFontOutlinesA, wglUseFontOutlinesW, wingdi/wglUseFontOutlines, wingdi/wglUseFontOutlinesA, wingdi/wglUseFontOutlinesW"
+ms.keywords: _ogl_wglUseFontOutlines, opengl.wglusefontoutlines, wglUseFontOutlines, wglUseFontOutlines function [OpenGL], wglUseFontOutlinesA, wglUseFontOutlinesW, wingdi/wglUseFontOutlines, wingdi/wglUseFontOutlinesA, wingdi/wglUseFontOutlinesW
 ms.topic: function
-f1_keywords: 
- - "wingdi/wglUseFontOutlines"
+f1_keywords:
+- wingdi/wglUseFontOutlines
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Opengl32.lib
 req.dll: Opengl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - opengl32.dll
+- opengl32.dll
 api_name:
- - wglUseFontOutlines
- - wglUseFontOutlinesA
- - wglUseFontOutlinesW
+- wglUseFontOutlines
+- wglUseFontOutlinesA
+- wglUseFontOutlinesW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -57,7 +57,7 @@ The <b>wglUseFontOutlines</b> function creates a set of display lists, one for e
 
 The run of glyphs begins with thefirstglyph of the font of the specified device context. The em square size of the font, the notional grid size of the original font outline from which the font is fitted, is mapped to 1.0 in the x- and y-coordinates in the display lists. The extrusion parameter sets how much depth the font has in the z direction.
 
-Thelpgmfparameter returns a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_glyphmetricsfloat">GLYPHMETRICSFLOAT</a> structure that contains information about the placement and orientation of each glyph in a character cell.
+Thelpgmfparameter returns a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-glyphmetricsfloat">GLYPHMETRICSFLOAT</a> structure that contains information about the placement and orientation of each glyph in a character cell.
 
 
 ## -parameters
@@ -102,7 +102,7 @@ Specifies the format, either WGL_FONT_LINES or WGL_FONT_POLYGONS, to use in the 
 
 ### -param arg8
 
-Points to an array of <i>count</i><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_glyphmetricsfloat">GLYPHMETRICSFLOAT</a> structures that is to receive the metrics of the glyphs. When <i>lpgmf</i> is <b>NULL</b>, no glyph metrics are returned.
+Points to an array of <i>count</i><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-glyphmetricsfloat">GLYPHMETRICSFLOAT</a> structures that is to receive the metrics of the glyphs. When <i>lpgmf</i> is <b>NULL</b>, no glyph metrics are returned.
 
 
 ## -returns
@@ -177,7 +177,7 @@ glCallLists(24, GL_UNSIGNED_BYTE, "Hello Windows OpenGL World.");
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_glyphmetricsfloat">GLYPHMETRICSFLOAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-glyphmetricsfloat">GLYPHMETRICSFLOAT</a>
 
 
 

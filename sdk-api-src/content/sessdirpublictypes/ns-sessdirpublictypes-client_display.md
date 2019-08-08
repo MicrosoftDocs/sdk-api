@@ -8,10 +8,10 @@ tech.root: TermServ
 ms.assetid: 6436c049-d710-4208-882a-0c7e83b4a079
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCLIENT_DISPLAY, CLIENT_DISPLAY, CLIENT_DISPLAY structure [Remote Desktop Services], PCLIENT_DISPLAY, PCLIENT_DISPLAY structure pointer [Remote Desktop Services], sessdirpublictypes/CLIENT_DISPLAY, sessdirpublictypes/PCLIENT_DISPLAY, termserv.client_display"
+ms.keywords: '*PCLIENT_DISPLAY, CLIENT_DISPLAY, CLIENT_DISPLAY structure [Remote Desktop Services], PCLIENT_DISPLAY, PCLIENT_DISPLAY structure pointer [Remote Desktop Services], sessdirpublictypes/CLIENT_DISPLAY, sessdirpublictypes/PCLIENT_DISPLAY, termserv.client_display'
 ms.topic: struct
-f1_keywords: 
- - "sessdirpublictypes/CLIENT_DISPLAY"
+f1_keywords:
+- sessdirpublictypes/CLIENT_DISPLAY
 req.header: sessdirpublictypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SessDirPublicTypes.h
+- SessDirPublicTypes.h
 api_name:
- - CLIENT_DISPLAY
+- CLIENT_DISPLAY
 product: Windows
 targetos: Windows
 req.typenames: CLIENT_DISPLAY, *PCLIENT_DISPLAY
@@ -71,5 +71,5 @@ The vertical dimension, in pixels, of the client's display.
 
 ### -field ColorDepth
 
-The color depth of the client's display. For possible values, see the <b>ColorDepth</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_client_display">WTS_CLIENT_DISPLAY</a> structure.
+The color depth of the client's display. For possible values, see the <b>ColorDepth</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_display">WTS_CLIENT_DISPLAY</a> structure.
 

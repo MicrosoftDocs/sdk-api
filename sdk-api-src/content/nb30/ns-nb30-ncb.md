@@ -8,10 +8,10 @@ tech.root: NetBIOS
 ms.assetid: e3fcca1c-8057-41c4-80a5-d1e67920d88c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PNCB, NCB, NCB structure [NetBIOS], PNCB, PNCB structure pointer [NetBIOS], nb30/NCB, nb30/PNCB, netbios.ncb"
+ms.keywords: '*PNCB, NCB, NCB structure [NetBIOS], PNCB, PNCB structure pointer [NetBIOS], nb30/NCB, nb30/PNCB, netbios.ncb'
 ms.topic: struct
-f1_keywords: 
- - "nb30/NCB"
+f1_keywords:
+- nb30/NCB
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Nb30.h
+- Nb30.h
 api_name:
- - NCB
+- NCB
 product: Windows
 targetos: Windows
 req.typenames: NCB, *PNCB
@@ -76,7 +76,7 @@ Specifies the command code and a flag that indicates whether the <b>NCB</b> stru
 <td>NCBACTION</td>
 <td>
 
-<b>Windows Server 2003, Windows XP, Windows 2000, and Windows NT:  </b>Enables extensions to the transport interface. NCBACTION is mapped to <b>TdiAction</b>. When this code is specified, the <b>ncb_buffer</b> member points to a buffer to be filled with an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_action_header">ACTION_HEADER</a> structure, which is optionally followed by data. NCBACTION commands cannot be canceled by using NCBCANCEL. 
+<b>Windows Server 2003, Windows XP, Windows 2000, and Windows NT:  </b>Enables extensions to the transport interface. NCBACTION is mapped to <b>TdiAction</b>. When this code is specified, the <b>ncb_buffer</b> member points to a buffer to be filled with an <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-action_header">ACTION_HEADER</a> structure, which is optionally followed by data. NCBACTION commands cannot be canceled by using NCBCANCEL. 
 NCBACTION is not a standard NetBIOS 3.0 command.
 
 
@@ -101,7 +101,7 @@ Adds a unique name to the local name table. The TDI driver ensures that the name
 <tr>
 <td>NCBASTAT</td>
 <td>
-Retrieves the status of either a local or remote adapter. When this code is specified, the <b>ncb_buffer</b> member points to a buffer to be filled with an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_adapter_status">ADAPTER_STATUS</a> structure, followed by an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_name_buffer">NAME_BUFFER</a> structures.
+Retrieves the status of either a local or remote adapter. When this code is specified, the <b>ncb_buffer</b> member points to a buffer to be filled with an <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-adapter_status">ADAPTER_STATUS</a> structure, followed by an array of <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-name_buffer">NAME_BUFFER</a> structures.
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ Sends a broadcast datagram to every host on the local area network (LAN).
 <tr>
 <td>NCBFINDNAME</td>
 <td>
-Determines the location of a name on the network. When this code is specified, the <b>ncb_buffer</b> member points to a buffer to be filled with a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_find_name_header">FIND_NAME_HEADER</a> structure followed by one or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_find_name_buffer">FIND_NAME_BUFFER</a> structures.
+Determines the location of a name on the network. When this code is specified, the <b>ncb_buffer</b> member points to a buffer to be filled with a <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-find_name_header">FIND_NAME_HEADER</a> structure followed by one or more <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-find_name_buffer">FIND_NAME_BUFFER</a> structures.
 
 </td>
 </tr>
@@ -258,7 +258,7 @@ Sends data to specified session partner and does not wait for acknowledgment.
 <tr>
 <td>NCBSSTAT</td>
 <td>
-Retrieves the status of the session. When this value is specified, the <b>ncb_buffer</b> member points to a buffer to be filled with a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_session_header">SESSION_HEADER</a> structure, followed by one or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_session_buffer">SESSION_BUFFER</a> structures.
+Retrieves the status of the session. When this value is specified, the <b>ncb_buffer</b> member points to a buffer to be filled with a <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-session_header">SESSION_HEADER</a> structure, followed by one or more <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-session_buffer">SESSION_BUFFER</a> structures.
 
 </td>
 </tr>
@@ -580,27 +580,27 @@ Using <b>ncb_event</b> to issue asynchronous requests requires fewer system reso
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_action_header">ACTION_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-action_header">ACTION_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_adapter_status">ADAPTER_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-adapter_status">ADAPTER_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_find_name_buffer">FIND_NAME_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-find_name_buffer">FIND_NAME_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_find_name_header">FIND_NAME_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-find_name_header">FIND_NAME_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_lana_enum">LANA_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-lana_enum">LANA_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_name_buffer">NAME_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-name_buffer">NAME_BUFFER</a>
 
 
 
@@ -612,11 +612,11 @@ Using <b>ncb_event</b> to issue asynchronous requests requires fewer system reso
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_session_buffer">SESSION_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-session_buffer">SESSION_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_session_header">SESSION_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-session_header">SESSION_HEADER</a>
 
 
 

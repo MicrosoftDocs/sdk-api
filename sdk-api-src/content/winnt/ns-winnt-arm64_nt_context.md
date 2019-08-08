@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: a6c201b3-4402-4de4-89c7-e6e2fbcd27f7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PARM64_NT_CONTEXT, *PCONTEXT, ARM64_NT_CONTEXT, CONTEXT, CONTEXT structure, LPCONTEXT, LPCONTEXT structure pointer, _win32_context_str, base.context_str, winnt/CONTEXT, winnt/LPCONTEXT"
+ms.keywords: '*PARM64_NT_CONTEXT, *PCONTEXT, ARM64_NT_CONTEXT, CONTEXT, CONTEXT structure, LPCONTEXT, LPCONTEXT structure pointer, _win32_context_str, base.context_str, winnt/CONTEXT, winnt/LPCONTEXT'
 ms.topic: struct
-f1_keywords: 
- - "winnt/CONTEXT"
+f1_keywords:
+- winnt/CONTEXT
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - CONTEXT
+- CONTEXT
 product: Windows
 targetos: Windows
 req.typenames: ARM64_NT_CONTEXT, *PARM64_NT_CONTEXT
@@ -81,7 +81,7 @@ Contains processor-specific register data. The system uses
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_wow64_context">WOW64_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-wow64_context">WOW64_CONTEXT</a>
  
 
  

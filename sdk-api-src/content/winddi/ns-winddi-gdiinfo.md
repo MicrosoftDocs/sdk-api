@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: f75f599f-43ea-4da6-a6e3-6591cf6d69f1
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PGDIINFO, GDIINFO, GDIINFO structure [Display Devices], PGDIINFO, PGDIINFO structure pointer [Display Devices], display.gdiinfo, grstrcts_181c0d6e-5908-4505-8093-956eefc87c85.xml, winddi/GDIINFO, winddi/PGDIINFO"
+ms.keywords: '*PGDIINFO, GDIINFO, GDIINFO structure [Display Devices], PGDIINFO, PGDIINFO structure pointer [Display Devices], display.gdiinfo, grstrcts_181c0d6e-5908-4505-8093-956eefc87c85.xml, winddi/GDIINFO, winddi/PGDIINFO'
 ms.topic: struct
-f1_keywords: 
- - "winddi/GDIINFO"
+f1_keywords:
+- winddi/GDIINFO
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - GDIINFO
+- GDIINFO
 product: Windows
 targetos: Windows
 req.typenames: GDIINFO, *PGDIINFO
@@ -241,7 +241,7 @@ Specifies the denominator of style advance, D. For additional information, refer
 
 ### -field ptlPhysOffset
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a> structure that contains the size, in pixels, of the unwritable margin of a surface.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that contains the size, in pixels, of the unwritable margin of a surface.
 
 
 ### -field szlPhysSize
@@ -256,7 +256,7 @@ Specifies the number of palette registers for an indexed device.
 
 ### -field ciDevice
 
-Is a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_colorinfo">COLORINFO</a> structure that defines the device's colors in CIE coordinate space.
+Is a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a> structure that defines the device's colors in CIE coordinate space.
 
 
 ### -field ulDevicePelsDPI
@@ -772,11 +772,11 @@ Each byte threshold at a particular location in a halftone dither pattern determ
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ciechroma">CIECHROMA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ciechroma">CIECHROMA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_colorinfo">COLORINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a>
 
 
 

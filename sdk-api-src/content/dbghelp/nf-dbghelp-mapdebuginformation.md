@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MapDebugInformation, MapDebugInformation function, _win32_mapdebuginformation, base.mapdebuginformation, dbghelp/MapDebugInformation
 ms.topic: function
-f1_keywords: 
- - "dbghelp/MapDebugInformation"
+f1_keywords:
+- dbghelp/MapDebugInformation
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - MapDebugInformation
+- MapDebugInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -87,7 +87,7 @@ The base address for the image or zero.
 
 
 If the function succeeds, the return value is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_image_debug_information">IMAGE_DEBUG_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-image_debug_information">IMAGE_DEBUG_INFORMATION</a> structure.
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -101,7 +101,7 @@ If the function fails, the return value is <b>NULL</b>. To retrieve extended err
 
 The 
 <b>MapDebugInformation</b> function is used to obtain access to an image's debugging information. The debugging information is extracted from the image or the symbol file and placed into the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_image_debug_information">IMAGE_DEBUG_INFORMATION</a> structure. This structure is allocated by the library and must be deallocated by using the 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-image_debug_information">IMAGE_DEBUG_INFORMATION</a> structure. This structure is allocated by the library and must be deallocated by using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-unmapdebuginformation">UnmapDebugInformation</a> function. The memory for the structure is not in the process's default heap, so attempts to free it with a memory deallocation routine will fail.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
@@ -118,7 +118,7 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_image_debug_information">IMAGE_DEBUG_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-image_debug_information">IMAGE_DEBUG_INFORMATION</a>
 
 
 

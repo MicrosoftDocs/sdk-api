@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TCPSTATE, TCPSTATE enumeration [Winsock], TCPSTATE_CLOSED, TCPSTATE_CLOSE_WAIT, TCPSTATE_CLOSING, TCPSTATE_ESTABLISHED, TCPSTATE_FIN_WAIT_1, TCPSTATE_FIN_WAIT_2, TCPSTATE_LAST_ACK, TCPSTATE_LISTEN, TCPSTATE_MAX, TCPSTATE_SYN_RCVD, TCPSTATE_SYN_SENT, TCPSTATE_TIME_WAIT, mstcpip/TCPSTATE, mstcpip/TCPSTATE_CLOSED, mstcpip/TCPSTATE_CLOSE_WAIT, mstcpip/TCPSTATE_CLOSING, mstcpip/TCPSTATE_ESTABLISHED, mstcpip/TCPSTATE_FIN_WAIT_1, mstcpip/TCPSTATE_FIN_WAIT_2, mstcpip/TCPSTATE_LAST_ACK, mstcpip/TCPSTATE_LISTEN, mstcpip/TCPSTATE_MAX, mstcpip/TCPSTATE_SYN_RCVD, mstcpip/TCPSTATE_SYN_SENT, mstcpip/TCPSTATE_TIME_WAIT, winsock.tcpstate
 ms.topic: enum
-f1_keywords: 
- - "mstcpip/TCPSTATE"
+f1_keywords:
+- mstcpip/TCPSTATE
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mstcpip.h
+- Mstcpip.h
 api_name:
- - TCPSTATE
+- TCPSTATE
 product: Windows
 targetos: Windows
 req.typenames: TCPSTATE
@@ -140,7 +140,7 @@ The TCP connection is waiting for enough time to pass to be sure
 
 ### -field TCPSTATE_MAX
 
-The maximum value of the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-_tcpstate">TCPSTATE</a> enumeration.
+The maximum value of the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-tcpstate">TCPSTATE</a> enumeration.
 
 
 ## -remarks
@@ -166,7 +166,7 @@ For more information about TCP connection states, see <a href="https://go.micros
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_tcp_info_v0">TCP_INFO_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-tcp_info_v0">TCP_INFO_v0</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFLocalMFTRegistration interface [Media Foundation],RegisterMFTs method, IMFLocalMFTRegistration.RegisterMFTs, IMFLocalMFTRegistration::RegisterMFTs, RegisterMFTs, RegisterMFTs method [Media Foundation], RegisterMFTs method [Media Foundation],IMFLocalMFTRegistration interface, mf.imflocalmftregistration_registermfts, mfidl/IMFLocalMFTRegistration::RegisterMFTs
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFLocalMFTRegistration.RegisterMFTs"
+f1_keywords:
+- mfidl/IMFLocalMFTRegistration.RegisterMFTs
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFLocalMFTRegistration.RegisterMFTs
+- IMFLocalMFTRegistration.RegisterMFTs
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Registers one or more Media Foundation transforms (MFTs) in the caller's process
 
 ### -param pMFTs [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-_mft_registration_info">MFT_REGISTRATION_INFO</a> structures.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mft_registration_info">MFT_REGISTRATION_INFO</a> structures.
 
 
 ### -param cMFTs [in]

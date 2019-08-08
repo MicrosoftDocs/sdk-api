@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWSD_SOAP_MESSAGE_HANDLER, PWSD_SOAP_MESSAGE_HANDLER callback, PWSD_SOAP_MESSAGE_HANDLER callback function, callback function pointer, ncd.pwsd_soap_message_handler_func, wsdtypes/PWSD_SOAP_MESSAGE_HANDLER
 ms.topic: callback
-f1_keywords: 
- - "wsdtypes/PWSD_SOAP_MESSAGE_HANDLER"
+f1_keywords:
+- wsdtypes/PWSD_SOAP_MESSAGE_HANDLER
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wsdtypes.h
+- Wsdtypes.h
 api_name:
- - PWSD_SOAP_MESSAGE_HANDLER
+- PWSD_SOAP_MESSAGE_HANDLER
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Pointer to the object calling this function.
 
 ### -param *event
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_event">WSD_EVENT</a> structure containing the message to be handled.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_event">WSD_EVENT</a> structure containing the message to be handled.
 
 
 ## -returns

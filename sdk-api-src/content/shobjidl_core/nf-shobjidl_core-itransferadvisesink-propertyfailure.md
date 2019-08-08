@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITransferAdviseSink interface [Windows Shell],PropertyFailure method, ITransferAdviseSink.PropertyFailure, ITransferAdviseSink::PropertyFailure, PropertyFailure, PropertyFailure method [Windows Shell], PropertyFailure method [Windows Shell],ITransferAdviseSink interface, _shell_ITransferAdviseSink_PropertyFailure, shell.ITransferAdviseSink_PropertyFailure, shobjidl_core/ITransferAdviseSink::PropertyFailure
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITransferAdviseSink.PropertyFailure"
+f1_keywords:
+- shobjidl_core/ITransferAdviseSink.PropertyFailure
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ITransferAdviseSink.PropertyFailure
+- ITransferAdviseSink.PropertyFailure
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjid
 
 ### -param pkey [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
 
 A value that corresponds to the property that will be lost. A <b>NULL</b> value indicates that all properties were lost.
 

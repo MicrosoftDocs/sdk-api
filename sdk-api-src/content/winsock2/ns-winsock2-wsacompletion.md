@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: 5af4b4d1-6dcb-4fc8-a730-53a8cb92fee4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPWSACOMPLETION, *PWSACOMPLETION, WSACOMPLETION, WSACOMPLETION structure [Winsock], winsock.wsacompletion, winsock2/WSACOMPLETION"
+ms.keywords: '*LPWSACOMPLETION, *PWSACOMPLETION, WSACOMPLETION, WSACOMPLETION structure [Winsock], winsock.wsacompletion, winsock2/WSACOMPLETION'
 ms.topic: struct
-f1_keywords: 
- - "winsock2/WSACOMPLETION"
+f1_keywords:
+- winsock2/WSACOMPLETION
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsock2.h
+- Winsock2.h
 api_name:
- - WSACOMPLETION
+- WSACOMPLETION
 product: Windows
 targetos: Windows
 req.typenames: WSACOMPLETION, *PWSACOMPLETION, *LPWSACOMPLETION
@@ -102,7 +102,7 @@ Context of the message or handle.
 
 <b>Type: <b>LPWSAOVERLAPPED</b>
 </b>
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.
 
 
 ### -field Parameters.Apc
@@ -112,7 +112,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/
 
 <b>Type: <b>LPWSAOVERLAPPED</b>
 </b>
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.
 
 
 ### -field Parameters.Apc.lpfnCompletionProc
@@ -129,7 +129,7 @@ A pointer to an application-provided completion routine.
 
 <b>Type: <b>LPWSAOVERLAPPED</b>
 </b>
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.
 
 
 ### -field Parameters.Port.hPort

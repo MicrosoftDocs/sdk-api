@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 76f00da0-4f56-4a1a-977d-a3872bbe19fc
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PUPDATE_COMPLETE_MESSAGE, DEMAND_UPDATE_ROUTES, DEMAND_UPDATE_SERVICES, ERROR_CAN_NOT_COMPLETE, NO_ERROR, PUPDATE_COMPLETE_MESSAGE, PUPDATE_COMPLETE_MESSAGE structure pointer [RAS], UPDATE_COMPLETE_MESSAGE, UPDATE_COMPLETE_MESSAGE structure [RAS], _mpr_update_complete_message, routprot/PUPDATE_COMPLETE_MESSAGE, routprot/UPDATE_COMPLETE_MESSAGE, rras.update_complete_message"
+ms.keywords: '*PUPDATE_COMPLETE_MESSAGE, DEMAND_UPDATE_ROUTES, DEMAND_UPDATE_SERVICES, ERROR_CAN_NOT_COMPLETE, NO_ERROR, PUPDATE_COMPLETE_MESSAGE, PUPDATE_COMPLETE_MESSAGE structure pointer [RAS], UPDATE_COMPLETE_MESSAGE, UPDATE_COMPLETE_MESSAGE structure [RAS], _mpr_update_complete_message, routprot/PUPDATE_COMPLETE_MESSAGE, routprot/UPDATE_COMPLETE_MESSAGE, rras.update_complete_message'
 ms.topic: struct
-f1_keywords: 
- - "routprot/UPDATE_COMPLETE_MESSAGE"
+f1_keywords:
+- routprot/UPDATE_COMPLETE_MESSAGE
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Routprot.h
+- Routprot.h
 api_name:
- - UPDATE_COMPLETE_MESSAGE
+- UPDATE_COMPLETE_MESSAGE
 product: Windows
 targetos: Windows
 req.typenames: UPDATE_COMPLETE_MESSAGE, *PUPDATE_COMPLETE_MESSAGE
@@ -144,7 +144,7 @@ The update was unsuccessful.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_message">MESSAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-message">MESSAGE</a>
 
 
 

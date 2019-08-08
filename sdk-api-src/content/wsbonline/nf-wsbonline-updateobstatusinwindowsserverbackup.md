@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UpdateOBStatusInWindowsServerBackup, UpdateOBStatusInWindowsServerBackup function [Windows Server Backup], wsb.updateobstatusinwindowsserverbackup, wsbonline/UpdateOBStatusInWindowsServerBackup
 ms.topic: function
-f1_keywords: 
- - "wsbonline/UpdateOBStatusInWindowsServerBackup"
+f1_keywords:
+- wsbonline/UpdateOBStatusInWindowsServerBackup
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: WsbOnline.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WsbOnline.dll
+- WsbOnline.dll
 api_name:
- - UpdateOBStatusInWindowsServerBackup
+- UpdateOBStatusInWindowsServerBackup
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>UpdateOBStatusInWindowsServerBackup</b> function updates the cloud backup
 
 ### -param pOBRegistrationInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbonline/ns-wsbonline-_wsb_ob_status_info">WSB_OB_STATUS_INFO</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsbonline/ns-wsbonline-wsb_ob_status_info">WSB_OB_STATUS_INFO</a> structure.
 
 
 ## -returns
@@ -83,7 +83,7 @@ The return values listed here are in addition to the normal <b>HRESULT</b>s that
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbonline/ns-wsbonline-_wsb_ob_status_info">WSB_OB_STATUS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsbonline/ns-wsbonline-wsb_ob_status_info">WSB_OB_STATUS_INFO</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWords, GetWords method [Internationalization for Windows Applications], GetWords method [Internationalization for Windows Applications],IFEDictionary interface, IFED_POS_ADJECTIVE, IFED_POS_ADJECTIVE_VERB, IFED_POS_ADNOUN, IFED_POS_ADVERB, IFED_POS_AFFIX, IFED_POS_ALL, IFED_POS_AUXILIARY_VERB, IFED_POS_CONJUNCTION, IFED_POS_DEPENDENT, IFED_POS_IDIOMS, IFED_POS_INDEPENDENT, IFED_POS_INFLECTIONALSUFFIX, IFED_POS_INTERJECTION, IFED_POS_NONE, IFED_POS_NOUN, IFED_POS_PARTICLE, IFED_POS_PREFIX, IFED_POS_SUB_VERB, IFED_POS_SUFFIX, IFED_POS_SYMBOLS, IFED_POS_TANKANJI, IFED_POS_VERB, IFED_REG_ALL, IFED_REG_AUTO, IFED_REG_GRAMMAR, IFED_REG_NONE, IFED_REG_USER, IFED_SELECT_ALL, IFED_SELECT_COMMENT, IFED_SELECT_DISPLAY, IFED_SELECT_NONE, IFED_SELECT_POS, IFED_SELECT_READING, IFEDictionary interface [Internationalization for Windows Applications],GetWords method, IFEDictionary.GetWords, IFEDictionary::GetWords, NULL, intl.ifedictionary_getwords, msime/IFEDictionary::GetWords
 ms.topic: method
-f1_keywords: 
- - "msime/IFEDictionary.GetWords"
+f1_keywords:
+- msime/IFEDictionary.GetWords
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msime.h
+- Msime.h
 api_name:
- - IFEDictionary.GetWords
+- IFEDictionary.GetWords
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -106,7 +106,7 @@ This can be an initial text string when a range of words is to be retrieved, in 
 
 ### -param pwchLast [in]
 
-A text string that is used to end a text string. This must contain the same value as <b>pwchReading</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imewrd">IMEWRD</a> structure when a retrieval is performed by a single value; that is, not by a range value. The value must be one of the following:
+A text string that is used to end a text string. This must contain the same value as <b>pwchReading</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structure when a retrieval is performed by a single value; that is, not by a range value. The value must be one of the following:
 
 <table>
 <tr>
@@ -403,7 +403,7 @@ The size of <i>pchBuffer</i>.
 
 ### -param pcWrd [out]
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imewrd">IMEWRD</a> structures returned in <i>pchBuffer</i>. If more entries are found than <i>pchBuffer</i> can store, <b>IFED_S_MORE_ENTRIES</b> will be returned.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structures returned in <i>pchBuffer</i>. If more entries are found than <i>pchBuffer</i> can store, <b>IFED_S_MORE_ENTRIES</b> will be returned.
 
 
 ## -returns
@@ -432,7 +432,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The client must call <a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-nextwords">NextWords</a> to get additional <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imewrd">IMEWRD</a> structures.
+The client must call <a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-nextwords">NextWords</a> to get additional <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structures.
 
 </td>
 </tr>
@@ -475,7 +475,7 @@ The client must call <a href="https://docs.microsoft.com/windows/desktop/api/msi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imewrd">IMEWRD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>
 
 
 

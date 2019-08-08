@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvQueryAdvanceWidths, DrvQueryAdvanceWidths function [Display Devices], ddifncs_f97d4a54-b5e9-45b7-9d42-ece9073640a4.xml, display.drvqueryadvancewidths, winddi/DrvQueryAdvanceWidths
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvQueryAdvanceWidths"
+f1_keywords:
+- winddi/DrvQueryAdvanceWidths
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvQueryAdvanceWidths
+- DrvQueryAdvanceWidths
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Handle to the physical device's <a href="https://docs.microsoft.com/windows-hard
 
 ### -param pfo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a> structure that identifies the font instance.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure that identifies the font instance.
 
 
 ### -param iMode
@@ -135,7 +135,7 @@ The return value is dependent on the value of the <i>iMode</i> parameter.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
  
 
  

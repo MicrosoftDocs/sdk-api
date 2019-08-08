@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCreateError, WsCreateError function [Web Services for Windows], webservices/WsCreateError, wsw.wscreateerror
 ms.topic: function
-f1_keywords: 
- - "webservices/WsCreateError"
+f1_keywords:
+- webservices/WsCreateError
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsCreateError
+- WsCreateError
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Creates an error object that can passed to functions to record rich error inform
 
 ### -param properties
 
-An array of  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_error_property">WS_ERROR_PROPERTY</a> structures containing optional error properties.
+An array of  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_error_property">WS_ERROR_PROPERTY</a> structures containing optional error properties.
                 
 
 

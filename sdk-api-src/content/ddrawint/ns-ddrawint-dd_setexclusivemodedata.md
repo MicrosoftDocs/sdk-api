@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: b2f5af15-c773-4741-a8dc-71d2b89776a7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_SETEXCLUSIVEMODEDATA, DD_SETEXCLUSIVEMODEDATA, DD_SETEXCLUSIVEMODEDATA structure [Display Devices], ddrawint/DD_SETEXCLUSIVEMODEDATA, ddstrcts_c6ba3e13-afcd-4e8a-994b-d3c006d2c952.xml, display.dd_setexclusivemodedata"
+ms.keywords: '*PDD_SETEXCLUSIVEMODEDATA, DD_SETEXCLUSIVEMODEDATA, DD_SETEXCLUSIVEMODEDATA structure [Display Devices], ddrawint/DD_SETEXCLUSIVEMODEDATA, ddstrcts_c6ba3e13-afcd-4e8a-994b-d3c006d2c952.xml, display.dd_setexclusivemodedata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_SETEXCLUSIVEMODEDATA"
+f1_keywords:
+- ddrawint/DD_SETEXCLUSIVEMODEDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_SETEXCLUSIVEMODEDATA
+- DD_SETEXCLUSIVEMODEDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_SETEXCLUSIVEMODEDATA, DD_SETEXCLUSIVEMODEDATA"
+req.typenames: '*PDD_SETEXCLUSIVEMODEDATA, DD_SETEXCLUSIVEMODEDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,7 +61,7 @@ The DD_SETEXCLUSIVEMODEDATA structure contains the exclusive mode notification i
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 
 ### -field dwEnterExcl

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBindCtx interface [COM],SetBindOptions method, IBindCtx.SetBindOptions, IBindCtx::SetBindOptions, SetBindOptions, SetBindOptions method [COM], SetBindOptions method [COM],IBindCtx interface, _com_ibindctx_setbindoptions, com.ibindctx_setbindoptions, objidl/IBindCtx::SetBindOptions
 ms.topic: method
-f1_keywords: 
- - "objidl/IBindCtx.SetBindOptions"
+f1_keywords:
+- objidl/IBindCtx.SetBindOptions
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IBindCtx.SetBindOptions
+- IBindCtx.SetBindOptions
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -93,7 +93,7 @@ When you first create a bind context by using the <a href="https://docs.microsof
 </code></pre>
 You can use the <b>IBindCtx::SetBindOptions</b> method to modify these values before using the bind context, if you want values other than the defaults.
 
-<b>SetBindOptions</b> copies the members of the specified structure, but not the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-_coserverinfo">COSERVERINFO</a> structure and the pointers it contains. Callers may not free these pointers until the bind context is released.
+<b>SetBindOptions</b> copies the members of the specified structure, but not the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-coserverinfo">COSERVERINFO</a> structure and the pointers it contains. Callers may not free these pointers until the bind context is released.
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDXML_NAME, WSDXML_NAME structure, _WSDXML_NAME, ncd.wsdxml_name_struct, wsdxmldom/WSDXML_NAME
 ms.topic: struct
-f1_keywords: 
- - "wsdxmldom/WSDXML_NAME"
+f1_keywords:
+- wsdxmldom/WSDXML_NAME
 req.header: wsdxmldom.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdXmldom.h
+- WsdXmldom.h
 api_name:
- - WSDXML_NAME
+- WSDXML_NAME
 product: Windows
 targetos: Windows
 req.typenames: WSDXML_NAME
@@ -61,7 +61,7 @@ Specifies an XML qualified name.
 
 ### -field Space
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_namespace">WSDXML_NAMESPACE</a> structure that specifies the namespace of the qualified name.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_namespace">WSDXML_NAMESPACE</a> structure that specifies the namespace of the qualified name.
 
 
 ### -field LocalName

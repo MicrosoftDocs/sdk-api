@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: 38e6f5b1-fce5-45e4-ac7a-09ba40d29837
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPROPERTY_DATA_DESCRIPTOR, PROPERTY_DATA_DESCRIPTOR, PROPERTY_DATA_DESCRIPTOR structure [ETW], etw.property_data_descriptor_struct, tdh.property_data_descriptor_struct, tdh/PROPERTY_DATA_DESCRIPTOR"
+ms.keywords: '*PPROPERTY_DATA_DESCRIPTOR, PROPERTY_DATA_DESCRIPTOR, PROPERTY_DATA_DESCRIPTOR structure [ETW], etw.property_data_descriptor_struct, tdh.property_data_descriptor_struct, tdh/PROPERTY_DATA_DESCRIPTOR'
 ms.topic: struct
-f1_keywords: 
- - "tdh/PROPERTY_DATA_DESCRIPTOR"
+f1_keywords:
+- tdh/PROPERTY_DATA_DESCRIPTOR
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tdh.h
+- Tdh.h
 api_name:
- - PROPERTY_DATA_DESCRIPTOR
+- PROPERTY_DATA_DESCRIPTOR
 product: Windows
 targetos: Windows
 req.typenames: PROPERTY_DATA_DESCRIPTOR
@@ -65,7 +65,7 @@ Defines the property to retrieve.
 
 ### -field PropertyName
 
-Pointer to a null-terminated Unicode string that contains the case-sensitive property name. You can use the <b>NameOffset</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_property_info">EVENT_PROPERTY_INFO</a> structure to get the property name.
+Pointer to a null-terminated Unicode string that contains the case-sensitive property name. You can use the <b>NameOffset</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a> structure to get the property name.
 
 The following table lists the possible values of <i>PropertyName</i> for WPP events. Use the suggested TDH data type when formatting the returned buffer from <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetproperty">TdhGetProperty</a>.
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VMR9VideoDesc, VMR9VideoDesc structure [DirectShow], VMR9VideoDescStructure, dshow.vmr9videodesc, vmr9/VMR9VideoDesc
 ms.topic: struct
-f1_keywords: 
- - "vmr9/VMR9VideoDesc"
+f1_keywords:
+- vmr9/VMR9VideoDesc
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vmr9.h
+- Vmr9.h
 api_name:
- - VMR9VideoDesc
+- VMR9VideoDesc
 product: Windows
 targetos: Windows
 req.typenames: VMR9VideoDesc
@@ -79,7 +79,7 @@ Height of the video to be deinterlaced, in pixels.
 
 ### -field SampleFormat
 
-Specifies the interlacing format of the sample, as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-_vmr9_sampleformat">VMR9_SampleFormat</a> enumeration.
+Specifies the interlacing format of the sample, as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9_sampleformat">VMR9_SampleFormat</a> enumeration.
 
 
 ### -field dwFourCC
@@ -89,12 +89,12 @@ Specifies the FOURCC code. Valid values include NV12, YV12, YUY2, UYVY, IMC1, IM
 
 ### -field InputSampleFreq
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9frequency">VMR9Frequency</a> structure that specifies the input frequency. For NTSC TV, the frequency would be expressed as 30,000:1001.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9frequency">VMR9Frequency</a> structure that specifies the input frequency. For NTSC TV, the frequency would be expressed as 30,000:1001.
 
 
 ### -field OutputFrameFreq
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmrfrequency">VMRFrequency</a> structure that specifies the output frequency. For NTSC TV, the frequency would be expressed as 60,000:1001.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrfrequency">VMRFrequency</a> structure that specifies the output frequency. For NTSC TV, the frequency would be expressed as 60,000:1001.
 
 
 ## -see-also

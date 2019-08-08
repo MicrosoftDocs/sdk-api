@@ -8,10 +8,10 @@ tech.root: wnv
 ms.assetid: 53305594-4539-490E-B034-99355265F175
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWNV_REDIRECT_PARAM, PWNV_REDIRECT_PARAM, PWNV_REDIRECT_PARAM structure pointer [Windows Network Virtualization], WNV_REDIRECT_PARAM, WNV_REDIRECT_PARAM structure [Windows Network Virtualization], wnv.wnv_redirect_param, wnvapi/PWNV_REDIRECT_PARAM, wnvapi/WNV_REDIRECT_PARAM"
+ms.keywords: '*PWNV_REDIRECT_PARAM, PWNV_REDIRECT_PARAM, PWNV_REDIRECT_PARAM structure pointer [Windows Network Virtualization], WNV_REDIRECT_PARAM, WNV_REDIRECT_PARAM structure [Windows Network Virtualization], wnv.wnv_redirect_param, wnvapi/PWNV_REDIRECT_PARAM, wnvapi/WNV_REDIRECT_PARAM'
 ms.topic: struct
-f1_keywords: 
- - "wnvapi/WNV_REDIRECT_PARAM"
+f1_keywords:
+- wnvapi/WNV_REDIRECT_PARAM
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wnvapi.h
+- wnvapi.h
 api_name:
- - WNV_REDIRECT_PARAM
+- WNV_REDIRECT_PARAM
 product: Windows
 targetos: Windows
 req.typenames: WNV_REDIRECT_PARAM, *PWNV_REDIRECT_PARAM
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Specifies the parameters of the event (receiving an incoming Internet Control Message Protocol
-redirect packet) that causes the Windows Network Virtualization (WNV) driver to generate a <b>WnvRedirectType</b> notification. If there is a pending call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/nf-wnvapi-wnvrequestnotification">WnvRequestNotification</a> function of this type, the WNV driver fills the buffer that is passed in the <i>NotificationParam</i> argument's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_notification_param">WNV_NOTIFICATION_PARAM</a> structure with one or more instances of this structure and completes the <b>WnvRequestNotification</b> function call.
+redirect packet) that causes the Windows Network Virtualization (WNV) driver to generate a <b>WnvRedirectType</b> notification. If there is a pending call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/nf-wnvapi-wnvrequestnotification">WnvRequestNotification</a> function of this type, the WNV driver fills the buffer that is passed in the <i>NotificationParam</i> argument's <a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_notification_param">WNV_NOTIFICATION_PARAM</a> structure with one or more instances of this structure and completes the <b>WnvRequestNotification</b> function call.
 
 
 ## -struct-fields
@@ -90,21 +90,21 @@ The identifier of a customer virtual subnet. This value ranges from 4096 (0x0000
 
 ### -field CA
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_ip_address">WNV_IP_ADDRESS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_ip_address">WNV_IP_ADDRESS</a></b>
 
 The IP address object for the customer address, which is the IP address configured on the virtual machine for network virtualization.
 
 
 ### -field PA
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_ip_address">WNV_IP_ADDRESS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_ip_address">WNV_IP_ADDRESS</a></b>
 
 The IP address object for the provider address, which is the matching IP address used on the physical network for the customer address.
 
 
 ### -field NewPA
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_ip_address">WNV_IP_ADDRESS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ns-wnvapi-wnv_ip_address">WNV_IP_ADDRESS</a></b>
 
 The updated provider address when a virtual machine is migrated from one host to another.
 
@@ -126,7 +126,7 @@ For a detailed description of network virtualization concepts and terminology, r
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ne-wnvapi-_wnv_notification_type">WNV_NOTIFICATION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wnvapi/ne-wnvapi-wnv_notification_type">WNV_NOTIFICATION_TYPE</a>
  
 
  

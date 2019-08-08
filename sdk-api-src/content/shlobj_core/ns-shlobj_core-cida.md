@@ -8,10 +8,10 @@ tech.root: shell
 ms.assetid: 30caf91d-8f3c-48ea-ad64-47f919f33f1d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPIDA, CIDA, CIDA structure [Windows Shell], LPIDA, LPIDA structure pointer [Windows Shell], _IDA, _win32_CIDA, shell.CIDA, shlobj_core/CIDA, shlobj_core/LPIDA"
+ms.keywords: '*LPIDA, CIDA, CIDA structure [Windows Shell], LPIDA, LPIDA structure pointer [Windows Shell], _IDA, _win32_CIDA, shell.CIDA, shlobj_core/CIDA, shlobj_core/LPIDA'
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/CIDA"
+f1_keywords:
+- shlobj_core/CIDA
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - CIDA
+- CIDA
 product: Windows
 targetos: Windows
 req.typenames: CIDA, *LPIDA
@@ -88,7 +88,7 @@ To use this structure to retrieve a particular PIDL, add the <b>aoffset</b> valu
 ```
 
 
-The value that is returned by these macros is a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure. Since these structures vary in length, you must determine the end of the structure by parsing it. See <a href="https://docs.microsoft.com/windows/desktop/shell/shell-namespace">NameSpace</a> for further discussion of PIDLs and the <b>ITEMIDLIST</b> structure.
+The value that is returned by these macros is a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure. Since these structures vary in length, you must determine the end of the structure by parsing it. See <a href="https://docs.microsoft.com/windows/desktop/shell/shell-namespace">NameSpace</a> for further discussion of PIDLs and the <b>ITEMIDLIST</b> structure.
 
 
 

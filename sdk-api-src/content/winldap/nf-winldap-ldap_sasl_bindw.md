@@ -8,10 +8,10 @@ tech.root: ldap
 ms.assetid: 0de57c82-3d8e-4faa-b1ca-4559ecc326b1
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_sasl_bind, ldap.ldap__sasl__bind, ldap.ldap_sasl_bind, ldap_sasl_bind, ldap_sasl_bind function [LDAP], ldap_sasl_bindA, ldap_sasl_bindW, winldap/ldap_sasl_bind, winldap/ldap_sasl_bindA, winldap/ldap_sasl_bindW"
+ms.keywords: _ldap_ldap_sasl_bind, ldap.ldap__sasl__bind, ldap.ldap_sasl_bind, ldap_sasl_bind, ldap_sasl_bind function [LDAP], ldap_sasl_bindA, ldap_sasl_bindW, winldap/ldap_sasl_bind, winldap/ldap_sasl_bindA, winldap/ldap_sasl_bindW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_sasl_bind"
+f1_keywords:
+- winldap/ldap_sasl_bind
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_sasl_bind
- - ldap_sasl_bindA
- - ldap_sasl_bindW
+- ldap_sasl_bind
+- ldap_sasl_bindA
+- ldap_sasl_bindW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -133,7 +133,7 @@ The <b>ldap_sasl_bind</b> routine binds to an LDAP server using the Simple Authe
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a>
 
 
 

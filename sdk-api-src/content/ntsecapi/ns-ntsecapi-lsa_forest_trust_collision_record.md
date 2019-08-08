@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 9f9d2f57-0e7f-4222-be35-e3f026b60e93
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PLSA_FOREST_TRUST_COLLISION_RECORD, CollisionOther, CollisionTdo, CollisionXref, LSA_FOREST_TRUST_COLLISION_RECORD, LSA_FOREST_TRUST_COLLISION_RECORD structure [Security], LSA_NB_DISABLED_ADMIN, LSA_NB_DISABLED_CONFLICT, LSA_SID_DISABLED_ADMIN, LSA_SID_DISABLED_CONFLICT, LSA_TLN_DISABLED_ADMIN, LSA_TLN_DISABLED_CONFLICT, LSA_TLN_DISABLED_NEW, PLSA_FOREST_TRUST_COLLISION_RECORD, PLSA_FOREST_TRUST_COLLISION_RECORD structure pointer [Security], _LSA_FOREST_TRUST_COLLISION_RECORD, ntsecapi/LSA_FOREST_TRUST_COLLISION_RECORD, ntsecapi/PLSA_FOREST_TRUST_COLLISION_RECORD, security.lsa_forest_trust_collision_record"
+ms.keywords: '*PLSA_FOREST_TRUST_COLLISION_RECORD, CollisionOther, CollisionTdo, CollisionXref, LSA_FOREST_TRUST_COLLISION_RECORD, LSA_FOREST_TRUST_COLLISION_RECORD structure [Security], LSA_NB_DISABLED_ADMIN, LSA_NB_DISABLED_CONFLICT, LSA_SID_DISABLED_ADMIN, LSA_SID_DISABLED_CONFLICT, LSA_TLN_DISABLED_ADMIN, LSA_TLN_DISABLED_CONFLICT, LSA_TLN_DISABLED_NEW, PLSA_FOREST_TRUST_COLLISION_RECORD, PLSA_FOREST_TRUST_COLLISION_RECORD structure pointer [Security], _LSA_FOREST_TRUST_COLLISION_RECORD, ntsecapi/LSA_FOREST_TRUST_COLLISION_RECORD, ntsecapi/PLSA_FOREST_TRUST_COLLISION_RECORD, security.lsa_forest_trust_collision_record'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/LSA_FOREST_TRUST_COLLISION_RECORD"
+f1_keywords:
+- ntsecapi/LSA_FOREST_TRUST_COLLISION_RECORD
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - LSA_FOREST_TRUST_COLLISION_RECORD
+- LSA_FOREST_TRUST_COLLISION_RECORD
 product: Windows
 targetos: Windows
 req.typenames: LSA_FOREST_TRUST_COLLISION_RECORD, *PLSA_FOREST_TRUST_COLLISION_RECORD
@@ -145,5 +145,5 @@ The following table lists the possible values for this member when the <b>Type</
 ### -field Name
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the collision record.
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the collision record.
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_CONTROLLER_NOTIFICATION, VDS_CONTROLLER_NOTIFICATION structure [VDS], VDS_NF_CONTROLLER_ARRIVE, VDS_NF_CONTROLLER_DEPART, VDS_NF_CONTROLLER_MODIFY, VDS_NF_CONTROLLER_REMOVED, base.vds_controller_notification, vds/_VDS_CONTROLLER_NOTIFICATION, vdshwprv/_VDS_CONTROLLER_NOTIFICATION
 ms.topic: struct
-f1_keywords: 
- - "vdshwprv/VDS_CONTROLLER_NOTIFICATION"
+f1_keywords:
+- vdshwprv/VDS_CONTROLLER_NOTIFICATION
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_CONTROLLER_NOTIFICATION
+- VDS_CONTROLLER_NOTIFICATION
 product: Windows
 targetos: Windows
 req.typenames: VDS_CONTROLLER_NOTIFICATION
@@ -78,7 +78,7 @@ Determines the controller event for which an application will be notified, as on
 </dl>
 </td>
 <td width="60%">
-A controller is reported as physically present on the subsystem. The <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_controller_status">VDS_CONTROLLER_STATUS</a> value associated with this notification should be any value except <b>VDS_CS_REMOVED</b>.
+A controller is reported as physically present on the subsystem. The <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_controller_status">VDS_CONTROLLER_STATUS</a> value associated with this notification should be any value except <b>VDS_CS_REMOVED</b>.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ A controller is reported as physically present on the subsystem. The <a href="ht
 </dl>
 </td>
 <td width="60%">
-A controller was physically removed from the subsystem.  The <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_controller_status">VDS_CONTROLLER_STATUS</a> value should be <b>VDS_CS_UNKNOWN</b> or <b>VDS_CS_REMOVED</b>.
+A controller was physically removed from the subsystem.  The <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_controller_status">VDS_CONTROLLER_STATUS</a> value should be <b>VDS_CS_UNKNOWN</b> or <b>VDS_CS_REMOVED</b>.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ A controller was physically removed from the subsystem.  The <a href="https://do
 </dl>
 </td>
 <td width="60%">
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_controller_prop">VDS_CONTROLLER_PROP</a> structure changed.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_controller_prop">VDS_CONTROLLER_PROP</a> structure changed.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
@@ -113,7 +113,7 @@ A member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv
 </dl>
 </td>
 <td width="60%">
-A controller is physically present but not available for use. The <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_controller_status">VDS_CONTROLLER_STATUS</a> value should be <b>VDS_CS_FAILED</b> (removed from use because of failure), <b>VDS_CS_ONLINE</b>  (not failed, but not in use either), <b>VDS_CS_NOT_READY</b>,  or <b>VDS_CS_UNKNOWN</b>.
+A controller is physically present but not available for use. The <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_controller_status">VDS_CONTROLLER_STATUS</a> value should be <b>VDS_CS_FAILED</b> (removed from use because of failure), <b>VDS_CS_ONLINE</b>  (not failed, but not in use either), <b>VDS_CS_NOT_READY</b>,  or <b>VDS_CS_UNKNOWN</b>.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
@@ -132,7 +132,7 @@ The GUID of the controller that triggered the event.
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_notification">VDS_NOTIFICATION</a> structure includes this structure as a member.
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a> structure includes this structure as a member.
 
 An application can receive controller events by implementing the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsadvisesink">IVdsAdviseSink</a> interface and passing the interface pointer as an argument to the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-advise">IVdsService::Advise</a> method.
 
@@ -162,7 +162,7 @@ To get the controller object, use the <a href="https://docs.microsoft.com/window
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_notification">VDS_NOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a>
  
 
  

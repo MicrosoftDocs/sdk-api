@@ -8,10 +8,10 @@ tech.root: SecMgmt
 ms.assetid: e8dbd1d5-37d5-4a97-9d1c-c645871dc7a5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPOLICY_AUDIT_EVENT_TYPE, AuditCategoryAccountLogon, AuditCategoryAccountManagement, AuditCategoryDetailedTracking, AuditCategoryDirectoryServiceAccess, AuditCategoryLogon, AuditCategoryObjectAccess, AuditCategoryPolicyChange, AuditCategoryPrivilegeUse, AuditCategorySystem, POLICY_AUDIT_EVENT_TYPE, POLICY_AUDIT_EVENT_TYPE enumeration [Security], PPOLICY_AUDIT_EVENT_TYPE, PPOLICY_AUDIT_EVENT_TYPE enumeration pointer [Security], _lsa_policy_audit_event_type, ntsecapi/AuditCategoryAccountLogon, ntsecapi/AuditCategoryAccountManagement, ntsecapi/AuditCategoryDetailedTracking, ntsecapi/AuditCategoryDirectoryServiceAccess, ntsecapi/AuditCategoryLogon, ntsecapi/AuditCategoryObjectAccess, ntsecapi/AuditCategoryPolicyChange, ntsecapi/AuditCategoryPrivilegeUse, ntsecapi/AuditCategorySystem, ntsecapi/POLICY_AUDIT_EVENT_TYPE, ntsecapi/PPOLICY_AUDIT_EVENT_TYPE, security.policy_audit_event_type"
+ms.keywords: '*PPOLICY_AUDIT_EVENT_TYPE, AuditCategoryAccountLogon, AuditCategoryAccountManagement, AuditCategoryDetailedTracking, AuditCategoryDirectoryServiceAccess, AuditCategoryLogon, AuditCategoryObjectAccess, AuditCategoryPolicyChange, AuditCategoryPrivilegeUse, AuditCategorySystem, POLICY_AUDIT_EVENT_TYPE, POLICY_AUDIT_EVENT_TYPE enumeration [Security], PPOLICY_AUDIT_EVENT_TYPE, PPOLICY_AUDIT_EVENT_TYPE enumeration pointer [Security], _lsa_policy_audit_event_type, ntsecapi/AuditCategoryAccountLogon, ntsecapi/AuditCategoryAccountManagement, ntsecapi/AuditCategoryDetailedTracking, ntsecapi/AuditCategoryDirectoryServiceAccess, ntsecapi/AuditCategoryLogon, ntsecapi/AuditCategoryObjectAccess, ntsecapi/AuditCategoryPolicyChange, ntsecapi/AuditCategoryPrivilegeUse, ntsecapi/AuditCategorySystem, ntsecapi/POLICY_AUDIT_EVENT_TYPE, ntsecapi/PPOLICY_AUDIT_EVENT_TYPE, security.policy_audit_event_type'
 ms.topic: enum
-f1_keywords: 
- - "ntsecapi/POLICY_AUDIT_EVENT_TYPE"
+f1_keywords:
+- ntsecapi/POLICY_AUDIT_EVENT_TYPE
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - POLICY_AUDIT_EVENT_TYPE
+- POLICY_AUDIT_EVENT_TYPE
 product: Windows
 targetos: Windows
 req.typenames: POLICY_AUDIT_EVENT_TYPE, *PPOLICY_AUDIT_EVENT_TYPE
@@ -119,7 +119,7 @@ Determines whether the operating system must audit each instance of a user attem
 
 The <b>POLICY_AUDIT_EVENT_TYPE</b> enumeration may expand in future versions of Windows. Because of this, you should not compute the number of values in this enumeration directly. Instead, you should obtain the count of values by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaqueryinformationpolicy">LsaQueryInformationPolicy</a> with the <i>InformationClass</i> parameter set to PolicyAuditEventsInformation and extract the count from the <b>MaximumAuditEventCount</b> member of the returned 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_policy_audit_events_info">POLICY_AUDIT_EVENTS_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-policy_audit_events_info">POLICY_AUDIT_EVENTS_INFO</a> structure.
 
 
 
@@ -137,7 +137,7 @@ The <b>POLICY_AUDIT_EVENT_TYPE</b> enumeration may expand in future versions of 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_policy_information_class">POLICY_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_information_class">POLICY_INFORMATION_CLASS</a>
  
 
  

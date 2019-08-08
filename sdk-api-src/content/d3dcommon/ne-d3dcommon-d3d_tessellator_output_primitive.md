@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8cfde449-9de7-6aec-645e-eaa2eafd531f, D3D11_TESSELLATOR_OUTPUT_LINE, D3D11_TESSELLATOR_OUTPUT_POINT, D3D11_TESSELLATOR_OUTPUT_PRIMITIVE, D3D11_TESSELLATOR_OUTPUT_PRIMITIVE enumeration [Direct3D 11], D3D11_TESSELLATOR_OUTPUT_TRIANGLE_CCW, D3D11_TESSELLATOR_OUTPUT_TRIANGLE_CW, D3D11_TESSELLATOR_OUTPUT_UNDEFINED, D3D_TESSELLATOR_OUTPUT_PRIMITIVE, d3d11shader/D3D11_TESSELLATOR_OUTPUT_LINE, d3d11shader/D3D11_TESSELLATOR_OUTPUT_POINT, d3d11shader/D3D11_TESSELLATOR_OUTPUT_PRIMITIVE, d3d11shader/D3D11_TESSELLATOR_OUTPUT_TRIANGLE_CCW, d3d11shader/D3D11_TESSELLATOR_OUTPUT_TRIANGLE_CW, d3d11shader/D3D11_TESSELLATOR_OUTPUT_UNDEFINED, d3dcommon/D3D11_TESSELLATOR_OUTPUT_LINE, d3dcommon/D3D11_TESSELLATOR_OUTPUT_POINT, d3dcommon/D3D11_TESSELLATOR_OUTPUT_PRIMITIVE, d3dcommon/D3D11_TESSELLATOR_OUTPUT_TRIANGLE_CCW, d3dcommon/D3D11_TESSELLATOR_OUTPUT_TRIANGLE_CW, d3dcommon/D3D11_TESSELLATOR_OUTPUT_UNDEFINED, direct3d11.d3d11_tessellator_output_primitive
 ms.topic: enum
-f1_keywords: 
- - "d3dcommon/D3D11_TESSELLATOR_OUTPUT_PRIMITIVE"
+f1_keywords:
+- d3dcommon/D3D11_TESSELLATOR_OUTPUT_PRIMITIVE
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11Shader.h
- - d3dcommon.h
+- D3D11Shader.h
+- d3dcommon.h
 api_name:
- - D3D11_TESSELLATOR_OUTPUT_PRIMITIVE
+- D3D11_TESSELLATOR_OUTPUT_PRIMITIVE
 product: Windows
 targetos: Windows
 req.typenames: D3D_TESSELLATOR_OUTPUT_PRIMITIVE
@@ -104,7 +104,7 @@ The output primitive type is a counter clockwise triangle.
 
 
 
-The output primitive type determines how the tessellator output data is organized; this enumeration is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_shader_desc">D3D11_SHADER_DESC</a>.
+The output primitive type determines how the tessellator output data is organized; this enumeration is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-d3d11_shader_desc">D3D11_SHADER_DESC</a>.
 
 The <b>D3D11_TESSELLATOR_OUTPUT_PRIMITIVE</b>     enumeration is type defined in the  D3D11Shader.h header file as a <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_tessellator_output_primitive">D3D_TESSELLATOR_OUTPUT_PRIMITIVE</a> enumeration, which is fully defined in the  D3DCommon.h header file.
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetCredentialsAttributes, SetCredentialsAttributes function [Security], SetCredentialsAttributesA, SetCredentialsAttributesW, security.setcredentialsattributes, sspi/SetCredentialsAttributes, sspi/SetCredentialsAttributesA, sspi/SetCredentialsAttributesW
 ms.topic: function
-f1_keywords: 
- - "sspi/SetCredentialsAttributes"
+f1_keywords:
+- sspi/SetCredentialsAttributes
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - SetCredentialsAttributes
- - SetCredentialsAttributesA
- - SetCredentialsAttributesW
+- SetCredentialsAttributes
+- SetCredentialsAttributesA
+- SetCredentialsAttributesW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,7 +82,7 @@ Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly
 </dl>
 </td>
 <td width="60%">
-Sets the name of a credential in a <i>pBuffer</i> parameter of type <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcredentials_namesa">SecPkgCredentials_Names</a>.
+Sets the name of a credential in a <i>pBuffer</i> parameter of type <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_namesa">SecPkgCredentials_Names</a>.
 
 This attribute is not supported by Schannel in WOW64 mode.
 
@@ -95,7 +95,7 @@ This attribute is not supported by Schannel in WOW64 mode.
 </dl>
 </td>
 <td width="60%">
-Sets the Kerberos proxy setting in a  <i>pBuffer</i> parameter of type <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcredentials_kdcproxysettingsw">SecPkgCredentials_KdcProxySettings</a>.
+Sets the Kerberos proxy setting in a  <i>pBuffer</i> parameter of type <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_kdcproxysettingsw">SecPkgCredentials_KdcProxySettings</a>.
 
 This attribute is only supported by Kerberos.
 
@@ -219,7 +219,7 @@ Not enough memory is available to complete the request.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_schannel_cred">SCHANNEL_CRED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-schannel_cred">SCHANNEL_CRED</a>
 
 
 
@@ -239,7 +239,7 @@ Not enough memory is available to complete the request.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcredentials_namesa">SecPkgCredentials_Names</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_namesa">SecPkgCredentials_Names</a>
  
 
  

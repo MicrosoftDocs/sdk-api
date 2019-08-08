@@ -8,10 +8,10 @@ tech.root: devio
 ms.assetid: cb1fcf78-b36a-4551-8eeb-da58edc80890
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCHANGER_ELEMENT_LIST, CHANGER_ELEMENT_LIST, CHANGER_ELEMENT_LIST structure, PCHANGER_ELEMENT_LIST, PCHANGER_ELEMENT_LIST structure pointer, _win32_changer_element_list_str, base.changer_element_list_str, winioctl/CHANGER_ELEMENT_LIST, winioctl/PCHANGER_ELEMENT_LIST"
+ms.keywords: '*PCHANGER_ELEMENT_LIST, CHANGER_ELEMENT_LIST, CHANGER_ELEMENT_LIST structure, PCHANGER_ELEMENT_LIST, PCHANGER_ELEMENT_LIST structure pointer, _win32_changer_element_list_str, base.changer_element_list_str, winioctl/CHANGER_ELEMENT_LIST, winioctl/PCHANGER_ELEMENT_LIST'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/CHANGER_ELEMENT_LIST"
+f1_keywords:
+- winioctl/CHANGER_ELEMENT_LIST
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - CHANGER_ELEMENT_LIST
+- CHANGER_ELEMENT_LIST
 product: Windows
 targetos: Windows
 req.typenames: CHANGER_ELEMENT_LIST, *PCHANGER_ELEMENT_LIST
@@ -61,7 +61,7 @@ Represents a range of elements of a single type, typically for an operation such
 ### -field Element
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_element">CHANGER_ELEMENT</a> structure that represent the first element in the range.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a> structure that represent the first element in the range.
 
 
 ### -field NumberOfElements
@@ -74,7 +74,7 @@ The number of elements in the range.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_element">CHANGER_ELEMENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a>
 
 
 

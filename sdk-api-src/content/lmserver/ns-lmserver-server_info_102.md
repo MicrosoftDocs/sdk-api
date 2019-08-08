@@ -8,10 +8,10 @@ tech.root: NetMgmt
 ms.assetid: 4c63fee7-1103-414d-b650-da87f8184e91
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVER_INFO_102, *PSERVER_INFO_102, LPSERVER_INFO_102, LPSERVER_INFO_102 structure pointer [Network Management], PLATFORM_ID_DOS, PLATFORM_ID_NT, PLATFORM_ID_OS2, PLATFORM_ID_OSF, PLATFORM_ID_VMS, PSERVER_INFO_102, PSERVER_INFO_102 structure pointer [Network Management], SERVER_INFO_102, SERVER_INFO_102 structure [Network Management], SV_HIDDEN, SV_TYPE_AFP, SV_TYPE_ALTERNATE_XPORT, SV_TYPE_BACKUP_BROWSER, SV_TYPE_CLUSTER_NT, SV_TYPE_CLUSTER_VS_NT, SV_TYPE_DCE, SV_TYPE_DFS, SV_TYPE_DIALIN_SERVER, SV_TYPE_DOMAIN_BAKCTRL, SV_TYPE_DOMAIN_CTRL, SV_TYPE_DOMAIN_ENUM, SV_TYPE_DOMAIN_MASTER, SV_TYPE_DOMAIN_MEMBER, SV_TYPE_LOCAL_LIST_ONLY, SV_TYPE_MASTER_BROWSER, SV_TYPE_NOVELL, SV_TYPE_NT, SV_TYPE_POTENTIAL_BROWSER, SV_TYPE_PRINTQ_SERVER, SV_TYPE_SERVER, SV_TYPE_SERVER_MFPN, SV_TYPE_SERVER_NT, SV_TYPE_SERVER_OSF, SV_TYPE_SERVER_VMS, SV_TYPE_SQLSERVER, SV_TYPE_TERMINALSERVER, SV_TYPE_TIME_SOURCE, SV_TYPE_WFW, SV_TYPE_WINDOWS, SV_TYPE_WORKSTATION, SV_TYPE_XENIX_SERVER, SV_VISIBLE, _win32_server_info_102_str, lmserver/LPSERVER_INFO_102, lmserver/PSERVER_INFO_102, lmserver/SERVER_INFO_102, netmgmt.server_info_102_str"
+ms.keywords: '*LPSERVER_INFO_102, *PSERVER_INFO_102, LPSERVER_INFO_102, LPSERVER_INFO_102 structure pointer [Network Management], PLATFORM_ID_DOS, PLATFORM_ID_NT, PLATFORM_ID_OS2, PLATFORM_ID_OSF, PLATFORM_ID_VMS, PSERVER_INFO_102, PSERVER_INFO_102 structure pointer [Network Management], SERVER_INFO_102, SERVER_INFO_102 structure [Network Management], SV_HIDDEN, SV_TYPE_AFP, SV_TYPE_ALTERNATE_XPORT, SV_TYPE_BACKUP_BROWSER, SV_TYPE_CLUSTER_NT, SV_TYPE_CLUSTER_VS_NT, SV_TYPE_DCE, SV_TYPE_DFS, SV_TYPE_DIALIN_SERVER, SV_TYPE_DOMAIN_BAKCTRL, SV_TYPE_DOMAIN_CTRL, SV_TYPE_DOMAIN_ENUM, SV_TYPE_DOMAIN_MASTER, SV_TYPE_DOMAIN_MEMBER, SV_TYPE_LOCAL_LIST_ONLY, SV_TYPE_MASTER_BROWSER, SV_TYPE_NOVELL, SV_TYPE_NT, SV_TYPE_POTENTIAL_BROWSER, SV_TYPE_PRINTQ_SERVER, SV_TYPE_SERVER, SV_TYPE_SERVER_MFPN, SV_TYPE_SERVER_NT, SV_TYPE_SERVER_OSF, SV_TYPE_SERVER_VMS, SV_TYPE_SQLSERVER, SV_TYPE_TERMINALSERVER, SV_TYPE_TIME_SOURCE, SV_TYPE_WFW, SV_TYPE_WINDOWS, SV_TYPE_WORKSTATION, SV_TYPE_XENIX_SERVER, SV_VISIBLE, _win32_server_info_102_str, lmserver/LPSERVER_INFO_102, lmserver/PSERVER_INFO_102, lmserver/SERVER_INFO_102, netmgmt.server_info_102_str'
 ms.topic: struct
-f1_keywords: 
- - "lmserver/SERVER_INFO_102"
+f1_keywords:
+- lmserver/SERVER_INFO_102
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmserver.h
+- Lmserver.h
 api_name:
- - SERVER_INFO_102
+- SERVER_INFO_102
 product: Windows
 targetos: Windows
 req.typenames: SERVER_INFO_102, *PSERVER_INFO_102, *LPSERVER_INFO_102
@@ -580,7 +580,7 @@ The server is not visible.
 Type: <b>DWORD</b>
 
 The network announce rate, in seconds. This rate determines how often the server is announced to other computers on the network. For more information about how much the announce rate can vary from the period of time specified by this member, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_1018">SERVER_INFO_1018</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_1018">SERVER_INFO_1018</a>.
 
 
 ### -field sv102_anndelta
@@ -641,7 +641,7 @@ To retrieve a value that indicates whether a share is the root volume in a Dfs t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_1018">SERVER_INFO_1018</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_1018">SERVER_INFO_1018</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: adsi
 ms.assetid: 9fdb370d-9409-4717-ae10-bb3b5b8a0e02
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PADS_SEARCH_COLUMN, ADS_SEARCH_COLUMN, ADS_SEARCH_COLUMN structure [ADSI], PADS_SEARCH_COLUMN, PADS_SEARCH_COLUMN structure pointer [ADSI], _ds_ads_search_column, adsi.ads__search__column, adsi.ads_search_column, iads/ADS_SEARCH_COLUMN, iads/PADS_SEARCH_COLUMN"
+ms.keywords: '*PADS_SEARCH_COLUMN, ADS_SEARCH_COLUMN, ADS_SEARCH_COLUMN structure [ADSI], PADS_SEARCH_COLUMN, PADS_SEARCH_COLUMN structure pointer [ADSI], _ds_ads_search_column, adsi.ads__search__column, adsi.ads_search_column, iads/ADS_SEARCH_COLUMN, iads/PADS_SEARCH_COLUMN'
 ms.topic: struct
-f1_keywords: 
- - "iads/ADS_SEARCH_COLUMN"
+f1_keywords:
+- iads/ADS_SEARCH_COLUMN
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_SEARCH_COLUMN
+- ADS_SEARCH_COLUMN
 product: Windows
 targetos: Windows
 req.typenames: ADS_SEARCH_COLUMN, *PADS_SEARCH_COLUMN
@@ -71,7 +71,7 @@ Value from the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-
 
 ### -field pADsValues
 
-Array of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a> structures that contain values of the attribute in the current search column for the current row.
+Array of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structures that contain values of the attribute in the current search column for the current row.
 
 
 ### -field dwNumValues
@@ -88,7 +88,7 @@ Reserved for internal use by providers.
 
 
 
-The <b>ADS_SEARCH_COLUMN</b> structure only contains a pointer to the array of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a> structures. Memory for the structure must be allocated separately.
+The <b>ADS_SEARCH_COLUMN</b> structure only contains a pointer to the array of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structures. Memory for the structure must be allocated separately.
 
 For more information about  <b>ADS_SEARCH_COLUMN</b>, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getcolumn">IDirectorySearch::GetColumn</a>.
 
@@ -108,7 +108,7 @@ For more information about  <b>ADS_SEARCH_COLUMN</b>, see  <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a>
 
 
 

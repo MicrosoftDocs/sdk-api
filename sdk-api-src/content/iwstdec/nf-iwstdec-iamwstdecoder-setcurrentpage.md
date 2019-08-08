@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetCurrentPage method, IAMWstDecoder.SetCurrentPage, IAMWstDecoder::SetCurrentPage, IAMWstDecoderSetCurrentPage, SetCurrentPage, SetCurrentPage method [DirectShow], SetCurrentPage method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setcurrentpage, iwstdec/IAMWstDecoder::SetCurrentPage
 ms.topic: method
-f1_keywords: 
- - "iwstdec/IAMWstDecoder.SetCurrentPage"
+f1_keywords:
+- iwstdec/IAMWstDecoder.SetCurrentPage
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMWstDecoder.SetCurrentPage
+- IAMWstDecoder.SetCurrentPage
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Downstream filters use the <code>SetCurrentPage</code> method to assign the curr
 
 ### -param WstPage [in]
 
-Specifies an <a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/ns-iwstdec-_am_wst_page">AM_WST_PAGE</a> structure that is used to assign the current page.
+Specifies an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iwstdec/ns-iwstdec-am_wst_page">AM_WST_PAGE</a> structure that is used to assign the current page.
 
 
 ## -returns

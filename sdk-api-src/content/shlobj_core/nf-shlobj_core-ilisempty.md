@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILIsEmpty, ILIsEmpty function [Windows Shell], _shell_ILIsEmpty, shell.ILIsEmpty, shlobj_core/ILIsEmpty
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/ILIsEmpty"
+f1_keywords:
+- shlobj_core/ILIsEmpty
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - ILIsEmpty
+- ILIsEmpty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Verifies whether an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure is empty.
+Verifies whether an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure is empty.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Verifies whether an <a href="https://docs.microsoft.com/windows/desktop/api/shty
 
 Type: <b>PCUID_RELATIVE</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure to be checked.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure to be checked.
 
 
 ## -returns
@@ -72,7 +72,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes
 
 Type: <b>BOOL</b>
 
-<b>TRUE</b> if the <i>pidl</i> parameter is <b>NULL</b> or the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure pointed to by <i>pidl</i> is empty; otherwise <b>FALSE</b>.
+<b>TRUE</b> if the <i>pidl</i> parameter is <b>NULL</b> or the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure pointed to by <i>pidl</i> is empty; otherwise <b>FALSE</b>.
 
 
 

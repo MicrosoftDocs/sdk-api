@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: 179451e9-7e3c-4d3a-bcc6-3ad9d382229a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEVENT_TRACE_LOGFILEA, EVENT_TRACE_LOGFILE, EVENT_TRACE_LOGFILE structure [ETW], EVENT_TRACE_LOGFILEA, EVENT_TRACE_LOGFILEW, PEVENT_TRACE_LOGFILE, PEVENT_TRACE_LOGFILE structure pointer [ETW], PROCESS_TRACE_MODE_EVENT_RECORD, PROCESS_TRACE_MODE_RAW_TIMESTAMP, PROCESS_TRACE_MODE_REAL_TIME, _EVENT_TRACE_LOGFILEA, _EVENT_TRACE_LOGFILEW, _evt_event_trace_logfile, base.event_trace_logfile, etw.event_trace_logfile, evntrace/EVENT_TRACE_LOGFILE, evntrace/EVENT_TRACE_LOGFILEA, evntrace/EVENT_TRACE_LOGFILEW, evntrace/PEVENT_TRACE_LOGFILE"
+ms.keywords: '*PEVENT_TRACE_LOGFILEA, EVENT_TRACE_LOGFILE, EVENT_TRACE_LOGFILE structure [ETW], EVENT_TRACE_LOGFILEA, EVENT_TRACE_LOGFILEW, PEVENT_TRACE_LOGFILE, PEVENT_TRACE_LOGFILE structure pointer [ETW], PROCESS_TRACE_MODE_EVENT_RECORD, PROCESS_TRACE_MODE_RAW_TIMESTAMP, PROCESS_TRACE_MODE_REAL_TIME, _EVENT_TRACE_LOGFILEA, _EVENT_TRACE_LOGFILEW, _evt_event_trace_logfile, base.event_trace_logfile, etw.event_trace_logfile, evntrace/EVENT_TRACE_LOGFILE, evntrace/EVENT_TRACE_LOGFILEA, evntrace/EVENT_TRACE_LOGFILEW, evntrace/PEVENT_TRACE_LOGFILE'
 ms.topic: struct
-f1_keywords: 
- - "evntrace/EVENT_TRACE_LOGFILE"
+f1_keywords:
+- evntrace/EVENT_TRACE_LOGFILE
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evntrace.h
+- Evntrace.h
 api_name:
- - EVENT_TRACE_LOGFILE
- - EVENT_TRACE_LOGFILEA
- - EVENT_TRACE_LOGFILEW
+- EVENT_TRACE_LOGFILE
+- EVENT_TRACE_LOGFILEA
+- EVENT_TRACE_LOGFILEW
 product: Windows
 targetos: Windows
 req.typenames: EVENT_TRACE_LOGFILEA, *PEVENT_TRACE_LOGFILEA
@@ -124,7 +124,7 @@ Modes for processing events. The modes are defined in the Evntcons.h header file
 </dl>
 </td>
 <td width="60%">
-Specify this mode if you want to receive events in the new <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a> format. To receive events in the new format you must specify a callback in the <b>EventRecordCallback</b> member. If you do not specify this mode, you receive events in the old format through the callback specified in the <b>EventCallback</b> member.
+Specify this mode if you want to receive events in the new <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a> format. To receive events in the new format you must specify a callback in the <b>EventRecordCallback</b> member. If you do not specify this mode, you receive events in the old format through the callback specified in the <b>EventCallback</b> member.
 
 <b>Prior to Windows Vista:  </b>Not supported.
 
@@ -136,7 +136,7 @@ Specify this mode if you want to receive events in the new <a href="https://docs
 </dl>
 </td>
 <td width="60%">
-Specify this mode if you do not want the time stamp value in the <b>TimeStamp</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header">EVENT_HEADER</a> and <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> converted to system time (leaves the time stamp value in the resolution that the controller specified in the <b>Wnode.ClientContext</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a>).
+Specify this mode if you do not want the time stamp value in the <b>TimeStamp</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_HEADER</a> and <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> converted to system time (leaves the time stamp value in the resolution that the controller specified in the <b>Wnode.ClientContext</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a>).
 
 <b>Prior to Windows Vista:  </b>Not supported.
 
@@ -219,7 +219,7 @@ On output, if this member is <b>TRUE</b>, the event tracing session is the NT Ke
 
 ### -field Context
 
-Context data that a consumer can specify when calling <a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a>. If the consumer uses <a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> to consume events, ETW sets the <b>UserContext</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a> structure to this value.
+Context data that a consumer can specify when calling <a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a>. If the consumer uses <a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> to consume events, ETW sets the <b>UserContext</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a> structure to this value.
 
 <b>Prior to Windows Vista:  </b>Not supported.
 

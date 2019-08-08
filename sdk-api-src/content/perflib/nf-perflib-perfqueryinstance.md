@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PerfQueryInstance, PerfQueryInstance function [Perf], base.perfqueryinstance, perf.perfqueryinstance, perflib/PerfQueryInstance
 ms.topic: function
-f1_keywords: 
- - "perflib/PerfQueryInstance"
+f1_keywords:
+- perflib/PerfQueryInstance
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-perfcounters-l1-1-0.dll
- - KernelBase.dll
+- Advapi32.dll
+- API-MS-Win-Core-perfcounters-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PerfQueryInstance
+- PerfQueryInstance
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -89,7 +89,7 @@ Unique identifier of the counter set instance that you want to retrieve.
 
 
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a> structure that contains the counter set instance or <b>NULL</b> if the instance does not exist.
+A <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a> structure that contains the counter set instance or <b>NULL</b> if the instance does not exist.
 
 This function returns <b>NULL</b> if an error occurred. To determine the error that occurred, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 

@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: b2a877e1-2be2-428c-bc47-ec5ce6cef7e6
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_BIOMETRIC_EXT_INFO, CERT_BIOMETRIC_EXT_INFO, CERT_BIOMETRIC_EXT_INFO structure [Security], PCERT_BIOMETRIC_EXT_INFO, PCERT_BIOMETRIC_EXT_INFO structure pointer [Security], security.cert_biometric_ext_info, wincrypt/CERT_BIOMETRIC_EXT_INFO, wincrypt/PCERT_BIOMETRIC_EXT_INFO"
+ms.keywords: '*PCERT_BIOMETRIC_EXT_INFO, CERT_BIOMETRIC_EXT_INFO, CERT_BIOMETRIC_EXT_INFO structure [Security], PCERT_BIOMETRIC_EXT_INFO, PCERT_BIOMETRIC_EXT_INFO structure pointer [Security], security.cert_biometric_ext_info, wincrypt/CERT_BIOMETRIC_EXT_INFO, wincrypt/PCERT_BIOMETRIC_EXT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_BIOMETRIC_EXT_INFO"
+f1_keywords:
+- wincrypt/CERT_BIOMETRIC_EXT_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_BIOMETRIC_EXT_INFO
+- CERT_BIOMETRIC_EXT_INFO
 product: Windows
 targetos: Windows
 req.typenames: CERT_BIOMETRIC_EXT_INFO, *PCERT_BIOMETRIC_EXT_INFO
@@ -66,7 +66,7 @@ The number of elements in the <b>rgBiometricData</b> array.
 
 ### -field rgBiometricData
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_biometric_data">CERT_BIOMETRIC_DATA</a> structures that contain the biometric data. The <b>cBiometricData</b> member contains the number of elements in this array.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_biometric_data">CERT_BIOMETRIC_DATA</a> structures that contain the biometric data. The <b>cBiometricData</b> member contains the number of elements in this array.
 
 
 ## -see-also

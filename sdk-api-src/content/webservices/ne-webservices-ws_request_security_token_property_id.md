@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_REQUEST_SECURITY_TOKEN_PROPERTY_APPLIES_TO, WS_REQUEST_SECURITY_TOKEN_PROPERTY_EXISTING_TOKEN, WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID, WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID enumeration [Web Services for Windows], WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_ENTROPY, WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_SIZE, WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_TYPE, WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_TYPE, WS_REQUEST_SECURITY_TOKEN_PROPERTY_LOCAL_REQUEST_PARAMETERS, WS_REQUEST_SECURITY_TOKEN_PROPERTY_MESSAGE_PROPERTIES, WS_REQUEST_SECURITY_TOKEN_PROPERTY_REQUEST_ACTION, WS_REQUEST_SECURITY_TOKEN_PROPERTY_SECURE_CONVERSATION_VERSION, WS_REQUEST_SECURITY_TOKEN_PROPERTY_SERVICE_REQUEST_PARAMETERS, WS_REQUEST_SECURITY_TOKEN_PROPERTY_TRUST_VERSION, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_APPLIES_TO, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_EXISTING_TOKEN, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_ENTROPY, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_SIZE, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_KEY_TYPE, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_TYPE, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_LOCAL_REQUEST_PARAMETERS, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_MESSAGE_PROPERTIES, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_REQUEST_ACTION, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_SECURE_CONVERSATION_VERSION, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_SERVICE_REQUEST_PARAMETERS, webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_TRUST_VERSION, wsw.ws_request_security_token_property_id
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID"
+f1_keywords:
+- webservices/WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID
+- WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID
 product: Windows
 targetos: Windows
 req.typenames: WS_REQUEST_SECURITY_TOKEN_PROPERTY_ID
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifies the properties for requesting a security token from an issuer.  It is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsrequestsecuritytoken">WsRequestSecurityToken</a> as part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_request_security_token_property">WS_REQUEST_SECURITY_TOKEN_PROPERTY*</a> parameter.
+Identifies the properties for requesting a security token from an issuer.  It is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsrequestsecuritytoken">WsRequestSecurityToken</a> as part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_request_security_token_property">WS_REQUEST_SECURITY_TOKEN_PROPERTY*</a> parameter.
             
 
 
@@ -62,7 +62,7 @@ Identifies the properties for requesting a security token from an issuer.  It is
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_APPLIES_TO
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> structure containing the address of the service ('relying party') to whom the requested
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> structure containing the address of the service ('relying party') to whom the requested
 token will be presented.
                 .
 
@@ -88,7 +88,7 @@ If this property is not specified, it defaults to <a href="https://docs.microsof
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_ISSUED_TOKEN_TYPE
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_string">WS_XML_STRING</a> structure that specifies the type of the security token to be issued.  If this property is not specified,
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> structure that specifies the type of the security token to be issued.  If this property is not specified,
                     the corresponding element is not generated in the request security token message, and the
                     issuer is assumed to know the token type required.
                 
@@ -183,7 +183,7 @@ Service request parameters are instructions regarding how to issue a token. They
 
 ### -field WS_REQUEST_SECURITY_TOKEN_PROPERTY_MESSAGE_PROPERTIES
 
-The set of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_properties">WS_MESSAGE_PROPERTIES</a> to be specified
+The set of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_properties">WS_MESSAGE_PROPERTIES</a> to be specified
                     while creating the two messages with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemessage">WsCreateMessage</a> and are to
                     be used for the security token obtaining exchange.  If this property
                     is not specified, the request and reply messages are created with the

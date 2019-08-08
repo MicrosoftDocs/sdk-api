@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProviderPrivate interface [VDS],QueryIfCreatedLun method, IVdsHwProviderPrivate.QueryIfCreatedLun, IVdsHwProviderPrivate::QueryIfCreatedLun, QueryIfCreatedLun, QueryIfCreatedLun method [VDS], QueryIfCreatedLun method [VDS],IVdsHwProviderPrivate interface, base.ivdshwproviderprivate_queryifcreatedlun, vdshwprv/IVdsHwProviderPrivate::QueryIfCreatedLun
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsHwProviderPrivate.QueryIfCreatedLun"
+f1_keywords:
+- vdshwprv/IVdsHwProviderPrivate.QueryIfCreatedLun
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsHwProviderPrivate.QueryIfCreatedLun
+- IVdsHwProviderPrivate.QueryIfCreatedLun
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ A pointer to the path to the LUN on the local computer; a zero-terminated, human
 
 ### -param pVdsLunInformation [in]
 
-A pointer to the identification data of the specified LUN. See the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a>structure.
+A pointer to the identification data of the specified LUN. See the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>structure.
 
 
 ### -param pLunId [out]
@@ -134,7 +134,7 @@ Only VDS calls this method.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>
  
 
  

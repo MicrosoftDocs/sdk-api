@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OutOfProcessExceptionEventDebuggerLaunchCallback, OutOfProcessExceptionEventDebuggerLaunchCallback callback function [Windows Error Reporting], PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH, PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH callback, wer.outofprocessexceptioneventdebuggerlaunchcallback, werapi/OutOfProcessExceptionEventDebuggerLaunchCallback
 ms.topic: callback
-f1_keywords: 
- - "werapi/OutOfProcessExceptionEventDebuggerLaunchCallback"
+f1_keywords:
+- werapi/OutOfProcessExceptionEventDebuggerLaunchCallback
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Werapi.h
+- Werapi.h
 api_name:
- - OutOfProcessExceptionEventDebuggerLaunchCallback
+- OutOfProcessExceptionEventDebuggerLaunchCallback
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ A pointer to arbitrary context information that you specified when you called th
 
 ### -param pExceptionInformation [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-_wer_runtime_exception_information">WER_RUNTIME_EXCEPTION_INFORMATION</a> structure that contains the exception information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-wer_runtime_exception_information">WER_RUNTIME_EXCEPTION_INFORMATION</a> structure that contains the exception information.
 
 
 ### -param pbIsCustomDebugger [out]

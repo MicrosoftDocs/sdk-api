@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CryptXmlImportPublicKey, CryptXmlImportPublicKey function [Security], cryptxml/CryptXmlImportPublicKey, security.cryptxmlimportpublickey
 ms.topic: function
-f1_keywords: 
- - "cryptxml/CryptXmlImportPublicKey"
+f1_keywords:
+- cryptxml/CryptXmlImportPublicKey
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Cryptxml.lib
 req.dll: Cryptxml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cryptxml.dll
+- Cryptxml.dll
 api_name:
- - CryptXmlImportPublicKey
+- CryptXmlImportPublicKey
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -87,7 +87,7 @@ digest  are used.  When this flag is set, no other registered extensions are loa
 
 ### -param pKeyValue [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_key_value">CRYPT_XML_KEY_VALUE</a> structure to receive the imported key.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_value">CRYPT_XML_KEY_VALUE</a> structure to receive the imported key.
 
 
 ### -param phKey [out]

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_ZERO_DATA, FSCTL_SET_ZERO_DATA control, FSCTL_SET_ZERO_DATA control code [Files], _win32_fsctl_set_zero_data, base.fsctl_set_zero_data, fs.fsctl_set_zero_data, winioctl/FSCTL_SET_ZERO_DATA
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_SET_ZERO_DATA"
+f1_keywords:
+- winioctl/FSCTL_SET_ZERO_DATA
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_SET_ZERO_DATA
+- FSCTL_SET_ZERO_DATA
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -237,7 +237,7 @@ Yes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_zero_data_information">FILE_ZERO_DATA_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_zero_data_information">FILE_ZERO_DATA_INFORMATION</a>
 
 
 

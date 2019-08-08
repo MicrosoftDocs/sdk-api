@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSL_AD_ACTIVATION_INFO, PSL_AD_ACTIVATION_INFO structure pointer [Security], SL_AD_ACTIVATION_INFO, SL_AD_ACTIVATION_INFO structure [Security], security.sl_ad_activation_info, slpublic/PSL_AD_ACTIVATION_INFO, slpublic/SL_AD_ACTIVATION_INFO
 ms.topic: struct
-f1_keywords: 
- - "slpublic/SL_AD_ACTIVATION_INFO"
+f1_keywords:
+- slpublic/SL_AD_ACTIVATION_INFO
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - slpublic.h
+- slpublic.h
 api_name:
- - SL_AD_ACTIVATION_INFO
+- SL_AD_ACTIVATION_INFO
 product: Windows
 targetos: Windows
 req.typenames: SL_AD_ACTIVATION_INFO
@@ -61,7 +61,7 @@ Specifies information used for the retail or Active Directory phone activation o
 
 ### -field header
 
- An <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-_tagsl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a> structure that contains the activation type.  The activation type determines whether the <b>SL_AD_ACTIVATION_INFO</b> structure is used for retail or Active Directory phone activation.
+ An <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-sl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a> structure that contains the activation type.  The activation type determines whether the <b>SL_AD_ACTIVATION_INFO</b> structure is used for retail or Active Directory phone activation.
 
 
 ### -field pwszProductKey
@@ -100,11 +100,11 @@ For an example of how this structure is used, see the description of the <i>pAct
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-_tagsl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-sl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-_tagsl_activation_type">SL_ACTIVATION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sl_activation_type">SL_ACTIVATION_TYPE</a>
  
 
  

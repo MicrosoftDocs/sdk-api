@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CREDP_FLAGS_CLEAR_PASSWORD, CREDP_FLAGS_DONT_CACHE_TI, CREDP_FLAGS_IN_PROCESS, CREDP_FLAGS_TRUSTED_CALLER, CREDP_FLAGS_USER_ENCRYPTED_PASSWORD, CREDP_FLAGS_USE_MIDL_HEAP, CredWriteFn, CredWriteFn callback, CrediWrite, CrediWrite callback function [Security], ntsecpkg/CrediWrite, security.crediwrite
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/CrediWrite"
+f1_keywords:
+- ntsecpkg/CrediWrite
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - CrediWrite
+- CrediWrite
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -145,7 +145,7 @@ The caller is a trusted process.
 
 ### -param Credential [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structure that represents the credentials to write.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structure that represents the credentials to write.
 
 
 ### -param Flags [in]
@@ -169,7 +169,7 @@ If the function fails, return an NTSTATUS error code that indicates the reason i
 
 
 A pointer to the <b>CrediWrite</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 

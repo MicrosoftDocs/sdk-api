@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: a8b02b56-1733-467b-bd11-0185e6778d34
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_GETDRIVERSTATEDATA, DD_GETDRIVERSTATEDATA, DD_GETDRIVERSTATEDATA structure [Display Devices], d3dstrct_a7ee9601-b71c-4ff4-8ac5-37b62608d463.xml, ddrawint/DD_GETDRIVERSTATEDATA, display.dd_getdriverstatedata"
+ms.keywords: '*PDD_GETDRIVERSTATEDATA, DD_GETDRIVERSTATEDATA, DD_GETDRIVERSTATEDATA structure [Display Devices], d3dstrct_a7ee9601-b71c-4ff4-8ac5-37b62608d463.xml, ddrawint/DD_GETDRIVERSTATEDATA, display.dd_getdriverstatedata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_GETDRIVERSTATEDATA"
+f1_keywords:
+- ddrawint/DD_GETDRIVERSTATEDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h D3dhal.h, D3dtypes.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_GETDRIVERSTATEDATA
+- DD_GETDRIVERSTATEDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_GETDRIVERSTATEDATA, DD_GETDRIVERSTATEDATA"
+req.typenames: '*PDD_GETDRIVERSTATEDATA, DD_GETDRIVERSTATEDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -119,7 +119,7 @@ D3DDEVINFOID_VCACHE
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure describing the device.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure describing the device.
 
 
 ### -field dwhContext
@@ -182,7 +182,7 @@ D3DDP2OP_ISSUEQUERY
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a>
  
 
  

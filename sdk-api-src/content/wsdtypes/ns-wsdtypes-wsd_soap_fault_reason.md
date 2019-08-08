@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_SOAP_FAULT_REASON, WSD_SOAP_FAULT_REASON structure, ncd.wsd_soap_fault_reason_struct, wsdtypes/WSD_SOAP_FAULT_REASON
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_SOAP_FAULT_REASON"
+f1_keywords:
+- wsdtypes/WSD_SOAP_FAULT_REASON
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_SOAP_FAULT_REASON
+- WSD_SOAP_FAULT_REASON
 product: Windows
 targetos: Windows
 req.typenames: WSD_SOAP_FAULT_REASON
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-A collection of reason codes associated with a  <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_fault">WSD_SOAP_FAULT</a>. A reason code is a human readable explanation of the fault. 
+A collection of reason codes associated with a  <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a>. A reason code is a human readable explanation of the fault. 
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ A collection of reason codes associated with a  <a href="https://docs.microsoft.
 
 ### -field Text
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_localized_string_list">WSD_LOCALIZED_STRING_LIST</a> structure that contains a collection of localized reason codes.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_localized_string_list">WSD_LOCALIZED_STRING_LIST</a> structure that contains a collection of localized reason codes.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_fault">WSD_SOAP_FAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a>
  
 
  

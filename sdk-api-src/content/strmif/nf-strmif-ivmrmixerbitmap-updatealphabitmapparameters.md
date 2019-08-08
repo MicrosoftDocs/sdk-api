@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerBitmap interface [DirectShow],UpdateAlphaBitmapParameters method, IVMRMixerBitmap.UpdateAlphaBitmapParameters, IVMRMixerBitmap::UpdateAlphaBitmapParameters, IVMRMixerBitmapUpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters method [DirectShow], UpdateAlphaBitmapParameters method [DirectShow],IVMRMixerBitmap interface, dshow.ivmrmixerbitmap_updatealphabitmapparameters, strmif/IVMRMixerBitmap::UpdateAlphaBitmapParameters
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRMixerBitmap.UpdateAlphaBitmapParameters"
+f1_keywords:
+- strmif/IVMRMixerBitmap.UpdateAlphaBitmapParameters
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMixerBitmap.UpdateAlphaBitmapParameters
+- IVMRMixerBitmap.UpdateAlphaBitmapParameters
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ The <b>UpdateAlphaBitmapParameters</b> method changes the bitmap location, size 
 
 ### -param pBmpParms [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmralphabitmap">VMRALPHABITMAP</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmralphabitmap">VMRALPHABITMAP</a> structure.
           
 
 
@@ -82,7 +82,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-The filter graph must be running for the changes to take effect. This method does not change the bitmap image. If you specify a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmralphabitmap">VMRALPHABITMAP</a> structure with no destination or color key set, the bitmap disappears. This behavior is by design for backward compatibility and cannot be changed.
+The filter graph must be running for the changes to take effect. This method does not change the bitmap image. If you specify a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmralphabitmap">VMRALPHABITMAP</a> structure with no destination or color key set, the bitmap disappears. This behavior is by design for backward compatibility and cannot be changed.
       
 
 

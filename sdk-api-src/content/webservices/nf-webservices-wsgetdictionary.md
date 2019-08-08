@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetDictionary, WsGetDictionary function [Web Services for Windows], webservices/WsGetDictionary, wsw.wsgetdictionary
 ms.topic: function
-f1_keywords: 
- - "webservices/WsGetDictionary"
+f1_keywords:
+- webservices/WsGetDictionary
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsGetDictionary
+- WsGetDictionary
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_dictionary">XML Dictionary</a> object. The retrieved Dictionary is returned by the <i>dictionary</i> reference parameter.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_dictionary">XML Dictionary</a> object. The retrieved Dictionary is returned by the <i>dictionary</i> reference parameter.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ Indicates an enumeration of the Dictionary encoding.
 
 ### -param dictionary
 
-A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_dictionary">WS_XML_DICTIONARY</a> structure for the retrieved <b>Dictionary</b>.
+A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_dictionary">WS_XML_DICTIONARY</a> structure for the retrieved <b>Dictionary</b>.
         
 
 

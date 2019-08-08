@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XLATEOBJ_iXlate, XLATEOBJ_iXlate function [Display Devices], display.xlateobj_ixlate, gdifncs_c1ca950a-fb95-47ae-936a-857ffc47c027.xml, winddi/XLATEOBJ_iXlate
 ms.topic: function
-f1_keywords: 
- - "winddi/XLATEOBJ_iXlate"
+f1_keywords:
+- winddi/XLATEOBJ_iXlate
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - XLATEOBJ_iXlate
+- XLATEOBJ_iXlate
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>XLATEOBJ_iXlate</b> function translates a color index of the source palet
 
 ### -param pxlo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_xlateobj">XLATEOBJ</a> structure that defines the source palette.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure that defines the source palette.
 
 
 ### -param iColor
@@ -83,7 +83,7 @@ The return value is an index into the destination palette if the function is suc
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_xlateobj">XLATEOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>
  
 
  

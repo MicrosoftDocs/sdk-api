@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellPropSheetExt interface [Windows Shell],ReplacePage method, IShellPropSheetExt.ReplacePage, IShellPropSheetExt::ReplacePage, ReplacePage, ReplacePage method [Windows Shell], ReplacePage method [Windows Shell],IShellPropSheetExt interface, _win32_IShellPropSheetExt_ReplacePage, _win32_ishellpropsheetext_win32_ishellpropsheetext_replacepage_cpp, shell.IShellPropSheetExt_ReplacePage, shobjidl_core/IShellPropSheetExt::ReplacePage
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellPropSheetExt.ReplacePage"
+f1_keywords:
+- shobjidl_core/IShellPropSheetExt.ReplacePage
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellPropSheetExt.ReplacePage
+- IShellPropSheetExt.ReplacePage
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -97,7 +97,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To replace a page, a property sheet handler fills a <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> structure, calls <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a>, and then calls the function specified by <i>pfnReplacePage</i>.
+To replace a page, a property sheet handler fills a <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure, calls <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a>, and then calls the function specified by <i>pfnReplacePage</i>.
 
 
 

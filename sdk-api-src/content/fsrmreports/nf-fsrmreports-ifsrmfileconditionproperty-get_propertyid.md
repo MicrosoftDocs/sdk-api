@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileConditionProperty interface [File Server Resource Manager],PropertyId property, IFsrmFileConditionProperty.PropertyId, IFsrmFileConditionProperty.get_PropertyId, IFsrmFileConditionProperty::PropertyId, IFsrmFileConditionProperty::get_PropertyId, IFsrmFileConditionProperty::put_PropertyId, PropertyId property [File Server Resource Manager], PropertyId property [File Server Resource Manager],IFsrmFileConditionProperty interface, fs.ifsrmfileconditionproperty_propertyid, fsrm.ifsrmfileconditionproperty_propertyid, fsrmreports/IFsrmFileConditionProperty::PropertyId, fsrmreports/IFsrmFileConditionProperty::get_PropertyId, fsrmreports/IFsrmFileConditionProperty::put_PropertyId, get_PropertyId
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileConditionProperty.PropertyId"
+f1_keywords:
+- fsrmreports/IFsrmFileConditionProperty.PropertyId
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileConditionProperty.PropertyId
- - IFsrmFileConditionProperty.get_PropertyId
- - IFsrmFileConditionProperty.put_PropertyId
+- IFsrmFileConditionProperty.PropertyId
+- IFsrmFileConditionProperty.get_PropertyId
+- IFsrmFileConditionProperty.put_PropertyId
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -58,7 +58,7 @@ ms.custom: 19H1
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfmjcondition">MSFT_FSRMFMJCondition</a> class.]
 
 Specifies the predefined file property, as enumerated by the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmfilesystempropertyid">FsrmFileSystemPropertyId</a> enumeration.
+    <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmfilesystempropertyid">FsrmFileSystemPropertyId</a> enumeration.
 
 This property is read/write.
 
@@ -71,7 +71,7 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmfilesystempropertyid">FsrmFileSystemPropertyId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmfilesystempropertyid">FsrmFileSystemPropertyId</a>
 
 
 

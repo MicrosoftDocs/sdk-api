@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID, EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID enumeration, EcSubscriptionRunTimeStatusActive, EcSubscriptionRunTimeStatusEventSources, EcSubscriptionRunTimeStatusLastError, EcSubscriptionRunTimeStatusLastErrorMessage, EcSubscriptionRunTimeStatusLastErrorTime, EcSubscriptionRunTimeStatusLastHeartbeatTime, EcSubscriptionRunTimeStatusNextRetryTime, evcoll/EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID, evcoll/EcSubscriptionRunTimeStatusActive, evcoll/EcSubscriptionRunTimeStatusEventSources, evcoll/EcSubscriptionRunTimeStatusLastError, evcoll/EcSubscriptionRunTimeStatusLastErrorMessage, evcoll/EcSubscriptionRunTimeStatusLastErrorTime, evcoll/EcSubscriptionRunTimeStatusLastHeartbeatTime, evcoll/EcSubscriptionRunTimeStatusNextRetryTime, wec.ec_subscription_runtime_status_info_id, wes.ec_subscription_runtime_status_info_id
 ms.topic: enum
-f1_keywords: 
- - "evcoll/EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID"
+f1_keywords:
+- evcoll/EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evcoll.h
+- Evcoll.h
 api_name:
- - EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID
+- EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID
 product: Windows
 targetos: Windows
 req.typenames: EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID
@@ -68,32 +68,32 @@ Get the status of an active or inactive subscription or an event source. This wi
 
 ### -field EcSubscriptionRunTimeStatusLastError
 
-Get the last error status of a  subscription or an event source. This will return an <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ns-evcoll-_ec_variant">EcVarTypeUInt32</a> value.
+Get the last error status of a  subscription or an event source. This will return an <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ns-evcoll-ec_variant">EcVarTypeUInt32</a> value.
 
 
 ### -field EcSubscriptionRunTimeStatusLastErrorMessage
 
-Get the last error message for a  subscription or an event source. This will return an <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ns-evcoll-_ec_variant">EcVarTypeString</a> value.
+Get the last error message for a  subscription or an event source. This will return an <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ns-evcoll-ec_variant">EcVarTypeString</a> value.
 
 
 ### -field EcSubscriptionRunTimeStatusLastErrorTime
 
-Get the time that the last error occurred for a  subscription or an event source. This will return an <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ns-evcoll-_ec_variant">EcVarTypeDateTime</a> value.
+Get the time that the last error occurred for a  subscription or an event source. This will return an <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ns-evcoll-ec_variant">EcVarTypeDateTime</a> value.
 
 
 ### -field EcSubscriptionRunTimeStatusNextRetryTime
 
-Get the next time that the subscription or an event source will try to run (after an error). This will return an <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ns-evcoll-_ec_variant">EcVarTypeDateTime</a> value.
+Get the next time that the subscription or an event source will try to run (after an error). This will return an <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ns-evcoll-ec_variant">EcVarTypeDateTime</a> value.
 
 
 ### -field EcSubscriptionRunTimeStatusEventSources
 
-Get the event sources for the subscription. For collector initiated subscriptions, this list will be identical to the one in the subscription's configuration.  For source initiated subscriptions, this list will be the set of event sources that collector has heard from in the last 30 days.  This list is persistent across reboots of the event collector. This will return an <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ns-evcoll-_ec_variant">EcVarTypeString</a> value.
+Get the event sources for the subscription. For collector initiated subscriptions, this list will be identical to the one in the subscription's configuration.  For source initiated subscriptions, this list will be the set of event sources that collector has heard from in the last 30 days.  This list is persistent across reboots of the event collector. This will return an <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ns-evcoll-ec_variant">EcVarTypeString</a> value.
 
 
 ### -field EcSubscriptionRunTimeStatusLastHeartbeatTime
 
-Get the last time that a heartbeat (a signal used to signify the subscription is working) occurred for a subscription or an event source. This will return an <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ns-evcoll-_ec_variant">EcVarTypeDateTime</a> value.
+Get the last time that a heartbeat (a signal used to signify the subscription is working) occurred for a subscription or an event source. This will return an <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ns-evcoll-ec_variant">EcVarTypeDateTime</a> value.
 
 
 ### -field EcSubscriptionRunTimeStatusInfoIdEND

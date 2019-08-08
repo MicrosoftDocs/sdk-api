@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDiskIdFromLunInfo, GetDiskIdFromLunInfo method, GetDiskIdFromLunInfo method,IVdsServiceUninstallDisk interface, IVdsServiceUninstallDisk interface,GetDiskIdFromLunInfo method, IVdsServiceUninstallDisk.GetDiskIdFromLunInfo, IVdsServiceUninstallDisk::GetDiskIdFromLunInfo, base.ivdsserviceuninstalldisk_getdiskidfromluninfo, vds/IVdsServiceUninstallDisk::GetDiskIdFromLunInfo
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsServiceUninstallDisk.GetDiskIdFromLunInfo"
+f1_keywords:
+- vds/IVdsServiceUninstallDisk.GetDiskIdFromLunInfo
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsServiceUninstallDisk.GetDiskIdFromLunInfo
+- IVdsServiceUninstallDisk.GetDiskIdFromLunInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Retrieves the VDS object ID for the disk that corresponds to a specified LUN.
 
 ### -param pLunInfo [in]
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structure that has been initialized by a VDS hardware provider.
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure that has been initialized by a VDS hardware provider.
 
 
 ### -param pDiskId [out]
@@ -142,7 +142,7 @@ VDS implements this method. This method is called by VDS applications that need 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>
  
 
  

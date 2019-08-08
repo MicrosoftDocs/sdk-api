@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSPLATFORM, CSPLATFORM structure [COM], _com_CSPLATFORM, com.csplatform, wtypes/tagCSPLATFORM
 ms.topic: struct
-f1_keywords: 
- - "wtypes/CSPLATFORM"
+f1_keywords:
+- wtypes/CSPLATFORM
 req.header: wtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WTypes.h
+- WTypes.h
 api_name:
- - CSPLATFORM
+- CSPLATFORM
 product: Windows
 targetos: Windows
 req.typenames: CSPLATFORM
@@ -62,7 +62,7 @@ Contains an operating system platform and processor architecture.
 
 ### -field dwPlatformId
 
-The operating system platform. See the <b>dwPlatformId</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoa">OSVERSIONINFO</a>.
+The operating system platform. See the <b>dwPlatformId</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoa">OSVERSIONINFO</a>.
 
 
 ### -field dwVersionHi
@@ -78,7 +78,7 @@ The minor version of the operating system.
 ### -field dwProcessorArch
 
 The processor architecture.
-See the <b>wProcessorArchitecture</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-_system_info">SYSTEM_INFO</a>.
+See the <b>wProcessorArchitecture</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info">SYSTEM_INFO</a>.
 
 
 ## -see-also

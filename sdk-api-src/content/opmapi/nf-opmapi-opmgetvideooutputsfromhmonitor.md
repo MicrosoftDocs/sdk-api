@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPMGetVideoOutputsFromHMONITOR, OPMGetVideoOutputsFromHMONITOR function [Media Foundation], OPM_VOS_COPP_SEMANTICS, OPM_VOS_OPM_SEMANTICS, mf.opmgetvideooutputsfromhmonitor, opmapi/OPMGetVideoOutputsFromHMONITOR
 ms.topic: function
-f1_keywords: 
- - "opmapi/OPMGetVideoOutputsFromHMONITOR"
+f1_keywords:
+- opmapi/OPMGetVideoOutputsFromHMONITOR
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - OPMGetVideoOutputsFromHMONITOR
+- OPMGetVideoOutputsFromHMONITOR
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ The monitor handle for which to create OPM objects. There are several functions 
 
 ### -param vos [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ne-opmapi-_opm_video_output_semantics">OPM_VIDEO_OUTPUT_SEMANTICS</a> enumeration.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ne-opmapi-opm_video_output_semantics">OPM_VIDEO_OUTPUT_SEMANTICS</a> enumeration.
 
 <table>
 <tr>

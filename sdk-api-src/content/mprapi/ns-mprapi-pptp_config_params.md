@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 0314c517-75be-4357-90bf-8a2a72d49542
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPPTP_CONFIG_PARAMS, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING_ON_DEVICE, PPPTP_CONFIG_PARAMS, PPPTP_CONFIG_PARAMS structure pointer [RAS], PPTP_CONFIG_PARAMS, PPTP_CONFIG_PARAMS structure [RAS], mprapi/PPPTP_CONFIG_PARAMS, mprapi/PPTP_CONFIG_PARAMS, rras.pptp_config_params"
+ms.keywords: '*PPPTP_CONFIG_PARAMS, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING_ON_DEVICE, PPPTP_CONFIG_PARAMS, PPPTP_CONFIG_PARAMS structure pointer [RAS], PPTP_CONFIG_PARAMS, PPTP_CONFIG_PARAMS structure [RAS], mprapi/PPPTP_CONFIG_PARAMS, mprapi/PPTP_CONFIG_PARAMS, rras.pptp_config_params'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/PPTP_CONFIG_PARAMS"
+f1_keywords:
+- mprapi/PPTP_CONFIG_PARAMS
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - PPTP_CONFIG_PARAMS
+- PPTP_CONFIG_PARAMS
 product: Windows
 targetos: Windows
 req.typenames: PPTP_CONFIG_PARAMS, *PPPTP_CONFIG_PARAMS
@@ -145,7 +145,7 @@ If set, routing is enabled on the device.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mprapi_tunnel_config_params0">MPRAPI_TUNNEL_CONFIG_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mprapi_tunnel_config_params0">MPRAPI_TUNNEL_CONFIG_PARAMS</a>
 
 
 

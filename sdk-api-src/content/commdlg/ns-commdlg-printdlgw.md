@@ -8,10 +8,10 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\printdlg.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPPRINTDLGW, LPPRINTDLG, LPPRINTDLG structure pointer [Dialog Boxes], PD_ALLPAGES, PD_COLLATE, PD_DISABLEPRINTTOFILE, PD_ENABLEPRINTHOOK, PD_ENABLEPRINTTEMPLATE, PD_ENABLEPRINTTEMPLATEHANDLE, PD_ENABLESETUPHOOK, PD_ENABLESETUPTEMPLATE, PD_ENABLESETUPTEMPLATEHANDLE, PD_HIDEPRINTTOFILE, PD_NONETWORKBUTTON, PD_NOPAGENUMS, PD_NOSELECTION, PD_NOWARNING, PD_PAGENUMS, PD_PRINTSETUP, PD_PRINTTOFILE, PD_RETURNDC, PD_RETURNDEFAULT, PD_RETURNIC, PD_SELECTION, PD_SHOWHELP, PD_USEDEVMODECOPIES, PD_USEDEVMODECOPIESANDCOLLATE, PRINTDLG, PRINTDLG structure [Dialog Boxes], PRINTDLGA, PRINTDLGW, _win32_PRINTDLG_str, _win32_printdlg_str_cpp, commdlg/LPPRINTDLG, commdlg/PRINTDLG, commdlg/PRINTDLGA, commdlg/PRINTDLGW, dlgbox.printdlg_str, tagPDA, tagPDW, winui._win32_printdlg_str"
+ms.keywords: '*LPPRINTDLGW, LPPRINTDLG, LPPRINTDLG structure pointer [Dialog Boxes], PD_ALLPAGES, PD_COLLATE, PD_DISABLEPRINTTOFILE, PD_ENABLEPRINTHOOK, PD_ENABLEPRINTTEMPLATE, PD_ENABLEPRINTTEMPLATEHANDLE, PD_ENABLESETUPHOOK, PD_ENABLESETUPTEMPLATE, PD_ENABLESETUPTEMPLATEHANDLE, PD_HIDEPRINTTOFILE, PD_NONETWORKBUTTON, PD_NOPAGENUMS, PD_NOSELECTION, PD_NOWARNING, PD_PAGENUMS, PD_PRINTSETUP, PD_PRINTTOFILE, PD_RETURNDC, PD_RETURNDEFAULT, PD_RETURNIC, PD_SELECTION, PD_SHOWHELP, PD_USEDEVMODECOPIES, PD_USEDEVMODECOPIESANDCOLLATE, PRINTDLG, PRINTDLG structure [Dialog Boxes], PRINTDLGA, PRINTDLGW, _win32_PRINTDLG_str, _win32_printdlg_str_cpp, commdlg/LPPRINTDLG, commdlg/PRINTDLG, commdlg/PRINTDLGA, commdlg/PRINTDLGW, dlgbox.printdlg_str, tagPDA, tagPDW, winui._win32_printdlg_str'
 ms.topic: struct
-f1_keywords: 
- - "commdlg/PRINTDLG"
+f1_keywords:
+- commdlg/PRINTDLG
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commdlg.h
+- Commdlg.h
 api_name:
- - PRINTDLG
- - PRINTDLGA
- - PRINTDLGW
+- PRINTDLG
+- PRINTDLGA
+- PRINTDLGW
 product: Windows
 targetos: Windows
 req.typenames: PRINTDLGW, *LPPRINTDLGW
@@ -307,7 +307,7 @@ Causes the system to display the <b>Print Setup</b> dialog box rather than the <
 </dl>
 </td>
 <td width="60%">
-If this flag is set, the <b>Print to File</b> check box is selected. If this flag is set when the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function returns, the offset indicated by the <b>wOutputOffset</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagdevnames">DEVNAMES</a> structure contains the string "FILE:". When you call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a> function to start the printing operation, specify this "FILE:" string in the <b>lpszOutput</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_docinfoa">DOCINFO</a> structure. Specifying this string causes the print subsystem to query the user for the name of the output file. 
+If this flag is set, the <b>Print to File</b> check box is selected. If this flag is set when the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function returns, the offset indicated by the <b>wOutputOffset</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagdevnames">DEVNAMES</a> structure contains the string "FILE:". When you call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a> function to start the printing operation, specify this "FILE:" string in the <b>lpszOutput</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-docinfoa">DOCINFO</a> structure. Specifying this string causes the print subsystem to query the user for the name of the output file. 
 
 </td>
 </tr>

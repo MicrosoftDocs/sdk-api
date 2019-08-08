@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 4f0110b5-3770-4aae-8df7-d2481eac3417
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_IP_RESERVATION_INFO, CLIENT_TYPE_BOOTP, CLIENT_TYPE_BOTH, CLIENT_TYPE_DHCP, DHCP_IP_RESERVATION_INFO, DHCP_IP_RESERVATION_INFO structure [DHCP], LPDHCP_IP_RESERVATION_INFO, LPDHCP_IP_RESERVATION_INFO structure pointer [DHCP], dhcp.dhcp_ip_reservation_info, dhcpsapi/DHCP_IP_RESERVATION_INFO, dhcpsapi/LPDHCP_IP_RESERVATION_INFO"
+ms.keywords: '*LPDHCP_IP_RESERVATION_INFO, CLIENT_TYPE_BOOTP, CLIENT_TYPE_BOTH, CLIENT_TYPE_DHCP, DHCP_IP_RESERVATION_INFO, DHCP_IP_RESERVATION_INFO structure [DHCP], LPDHCP_IP_RESERVATION_INFO, LPDHCP_IP_RESERVATION_INFO structure pointer [DHCP], dhcp.dhcp_ip_reservation_info, dhcpsapi/DHCP_IP_RESERVATION_INFO, dhcpsapi/LPDHCP_IP_RESERVATION_INFO'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_IP_RESERVATION_INFO"
+f1_keywords:
+- dhcpsapi/DHCP_IP_RESERVATION_INFO
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dhcpsapi.h
+- dhcpsapi.h
 api_name:
- - DHCP_IP_RESERVATION_INFO
+- DHCP_IP_RESERVATION_INFO
 product: Windows
 targetos: Windows
 req.typenames: DHCP_IP_RESERVATION_INFO, *LPDHCP_IP_RESERVATION_INFO
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DHCP_IP_RESERVATION_INFO</b> structure defines an IPv4 reservation for a DHCPv4 client. It extends the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_reservation_v4">DHCP_IP_RESERVATION_V4</a> structure by including the reservation client name and description.
+The <b>DHCP_IP_RESERVATION_INFO</b> structure defines an IPv4 reservation for a DHCPv4 client. It extends the <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_reservation_v4">DHCP_IP_RESERVATION_V4</a> structure by including the reservation client name and description.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ The <b>DHCP_IP_RESERVATION_INFO</b> structure defines an IPv4 reservation for a 
 ### -field ReservedForClient
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_binary_data">DHCP_CLIENT_UID</a> structure that contains the hardware address (MAC address) of the DHCPv4 client that holds this reservation.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_CLIENT_UID</a> structure that contains the hardware address (MAC address) of the DHCPv4 client that holds this reservation.
 
 
 ### -field ReservedClientName
@@ -137,15 +137,15 @@ The DHCPv4 client supports both the DHCPv4 and the BOOTP protocols.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_reservation_v4">DHCP_IP_RESERVATION_V4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_reservation_v4">DHCP_IP_RESERVATION_V4</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_reservation_v6">DHCP_IP_RESERVATION_V6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_reservation_v6">DHCP_IP_RESERVATION_V6</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_reservation_info_array">DHCP_RESERVATION_INFO_ARRAY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_reservation_info_array">DHCP_RESERVATION_INFO_ARRAY</a>
  
 
  

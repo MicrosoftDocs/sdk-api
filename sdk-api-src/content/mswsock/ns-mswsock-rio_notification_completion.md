@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: 85D3D68F-A914-4126-8D3D-4A6E3F970A4B
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRIO_NOTIFICATION_COMPLETION, PRIO_NOTIFICATION_COMPLETION, PRIO_NOTIFICATION_COMPLETION structure pointer [Winsock], RIO_NOTIFICATION_COMPLETION, RIO_NOTIFICATION_COMPLETION structure [Winsock], mswsock/PRIO_NOTIFICATION_COMPLETION, mswsock/RIO_NOTIFICATION_COMPLETION, winsock.rio_notification_completion"
+ms.keywords: '*PRIO_NOTIFICATION_COMPLETION, PRIO_NOTIFICATION_COMPLETION, PRIO_NOTIFICATION_COMPLETION structure pointer [Winsock], RIO_NOTIFICATION_COMPLETION, RIO_NOTIFICATION_COMPLETION structure [Winsock], mswsock/PRIO_NOTIFICATION_COMPLETION, mswsock/RIO_NOTIFICATION_COMPLETION, winsock.rio_notification_completion'
 ms.topic: struct
-f1_keywords: 
- - "mswsock/RIO_NOTIFICATION_COMPLETION"
+f1_keywords:
+- mswsock/RIO_NOTIFICATION_COMPLETION
 req.header: mswsock.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mswsock.h
+- Mswsock.h
 api_name:
- - RIO_NOTIFICATION_COMPLETION
+- RIO_NOTIFICATION_COMPLETION
 product: Windows
 targetos: Windows
 req.typenames: RIO_NOTIFICATION_COMPLETION, *PRIO_NOTIFICATION_COMPLETION
@@ -100,7 +100,7 @@ This value is valid when the <b>Type </b> member is set to <b>RIO_IOCP_COMPLETIO
 
 ### -field Iocp.Overlapped
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure to use when queuing a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437191(v=vs.85)">RIONotify</a> request completion.  This member must point to a valid <b>OVERLAPPED</b> structure.  
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure to use when queuing a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437191(v=vs.85)">RIONotify</a> request completion.  This member must point to a valid <b>OVERLAPPED</b> structure.  
 
 This value is valid when the <b>Type </b> member is set to <b>RIO_IOCP_COMPLETION</b>.  
 
@@ -115,7 +115,7 @@ The <b>RIO_NOTIFICATION_COMPLETION</b> structure is passed to the <a href="https
 
 For completion queues using an event, the <b>Type</b> member of the <b>RIO_NOTIFICATION_COMPLETION</b> structure is set to <b>RIO_EVENT_COMPLETION</b>. The <b>Event.EventHandle</b> member of the <b>RIO_NOTIFICATION_COMPLETION</b> structure should contain the handle for an event created by the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsacreateevent">WSACreateEvent</a> or <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function.  To receive the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437191(v=vs.85)">RIONotify</a> completion, the application should wait on the specified event handle using <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsawaitformultipleevents">WSAWaitForMultipleEvents</a> or a similar wait routine.  If the application plans to reset and reuse the event, the application can reduce overhead by setting the <b>Event.NotifyReset</b> member of the <b>RIO_NOTIFICATION_COMPLETION</b> structure to a non-zero value. This causes the event to be reset by the <b>RIONotify</b> function when notification occurs. This mitigates the need to call the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaresetevent">WSAResetEvent</a> function to reset the event between calls to the <b>RIONotify</b> function.  
 
-For completion queues using an I/O completion port, the <b>Type</b> member  of the <b>RIO_NOTIFICATION_COMPLETION</b> structure is set to <b>RIO_IOCP_COMPLETION</b>. The <b>Iocp.IocpHandle</b> member  of the <b>RIO_NOTIFICATION_COMPLETION</b> structure should contain the handle for an I/O completion port created by the <a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a> function.  To receive the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437191(v=vs.85)">RIONotify</a> completion, the application should call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> or <a href="https://docs.microsoft.com/windows/desktop/FileIO/getqueuedcompletionstatusex-func">GetQueuedCompletionStatusEx</a> function.  The application should provide a dedicated <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> object for the completion queue, and it may also use the <b>Iocp.CompletionKey</b> member to distinguish <b>RIONotify</b> requests on the completion queue from other I/O completions including <b>RIONotify</b> completions for other completion queues.
+For completion queues using an I/O completion port, the <b>Type</b> member  of the <b>RIO_NOTIFICATION_COMPLETION</b> structure is set to <b>RIO_IOCP_COMPLETION</b>. The <b>Iocp.IocpHandle</b> member  of the <b>RIO_NOTIFICATION_COMPLETION</b> structure should contain the handle for an I/O completion port created by the <a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a> function.  To receive the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437191(v=vs.85)">RIONotify</a> completion, the application should call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> or <a href="https://docs.microsoft.com/windows/desktop/FileIO/getqueuedcompletionstatusex-func">GetQueuedCompletionStatusEx</a> function.  The application should provide a dedicated <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> object for the completion queue, and it may also use the <b>Iocp.CompletionKey</b> member to distinguish <b>RIONotify</b> requests on the completion queue from other I/O completions including <b>RIONotify</b> completions for other completion queues.
 
 
 
@@ -145,7 +145,7 @@ An application using thread pools can use thread pool wait objects to get <a hre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 
@@ -161,7 +161,7 @@ An application using thread pools can use thread pool wait objects to get <a hre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ne-mswsock-_rio_notification_completion_type">RIO_NOTIFICATION_COMPLETION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ne-mswsock-rio_notification_completion_type">RIO_NOTIFICATION_COMPLETION_TYPE</a>
 
 
 

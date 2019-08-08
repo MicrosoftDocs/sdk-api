@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AccessNtmsLibraryDoor, AccessNtmsLibraryDoor function [Files], NTMS_INVENTORY_DEFAULT, NTMS_INVENTORY_FAST, NTMS_INVENTORY_NONE, NTMS_INVENTORY_OMID, _zaw_accessntmslibrarydoor, base.accessntmslibrarydoor, fs.accessntmslibrarydoor, ntmsapi/AccessNtmsLibraryDoor
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/AccessNtmsLibraryDoor"
+f1_keywords:
+- ntmsapi/AccessNtmsLibraryDoor
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - AccessNtmsLibraryDoor
+- AccessNtmsLibraryDoor
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -121,7 +121,7 @@ If the library has a bar-code reader installed, this flag causes bar-code invent
 </td>
 <td width="60%">
 Use the <b>InventoryMethod</b> specified in the library object (see 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_libraryinformation">NTMS_LIBRARYINFORMATION</a>).
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_libraryinformation">NTMS_LIBRARYINFORMATION</a>).
 
 </td>
 </tr>

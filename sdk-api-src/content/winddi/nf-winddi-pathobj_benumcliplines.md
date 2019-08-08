@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PATHOBJ_bEnumClipLines, PATHOBJ_bEnumClipLines function [Display Devices], display.pathobj_benumcliplines, gdifncs_39da05f4-124b-4d0f-b33b-777220462aa7.xml, winddi/PATHOBJ_bEnumClipLines
 ms.topic: function
-f1_keywords: 
- - "winddi/PATHOBJ_bEnumClipLines"
+f1_keywords:
+- winddi/PATHOBJ_bEnumClipLines
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - PATHOBJ_bEnumClipLines
+- PATHOBJ_bEnumClipLines
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,12 +61,12 @@ The <b>PATHOBJ_bEnumClipLines</b> function enumerates clipped line segments from
 
 ### -param ppo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a> structure containing the clipped line segments that are to be enumerated.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure containing the clipped line segments that are to be enumerated.
 
 
 ### -param cb
 
-Specifies the size of the output buffer, in bytes. GDI does not write beyond this point in the buffer. The value of this parameter must be large enough to hold a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_clipline">CLIPLINE</a> structure with at least one <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_run">RUN</a> structure. The driver should allocate space for several RUN structures.
+Specifies the size of the output buffer, in bytes. GDI does not write beyond this point in the buffer. The value of this parameter must be large enough to hold a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipline">CLIPLINE</a> structure with at least one <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-run">RUN</a> structure. The driver should allocate space for several RUN structures.
 
 
 ### -param pcl
@@ -101,11 +101,11 @@ The enumeration must be started with <a href="https://docs.microsoft.com/windows
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_clipline">CLIPLINE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipline">CLIPLINE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
 
 
 
@@ -113,7 +113,7 @@ The enumeration must be started with <a href="https://docs.microsoft.com/windows
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_run">RUN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-run">RUN</a>
  
 
  

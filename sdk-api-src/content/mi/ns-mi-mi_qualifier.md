@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Qualifier, MI_Qualifier structure [Windows Management Infrastructure (MI)], mi/MI_Qualifier, wmi_v2.mi_qualifier
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_Qualifier"
+f1_keywords:
+- mi/MI_Qualifier
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Qualifier
+- MI_Qualifier
 product: Windows
 targetos: Windows
 req.typenames: MI_Qualifier
@@ -84,23 +84,23 @@ Value of this qualifier.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_featuredecl">MI_FeatureDecl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_featuredecl">MI_FeatureDecl</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_methoddecl">MI_MethodDecl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_methoddecl">MI_MethodDecl</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_objectdecl">MI_ObjectDecl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_objectdecl">MI_ObjectDecl</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_parameterdecl">MI_ParameterDecl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_parameterdecl">MI_ParameterDecl</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_propertydecl">MI_PropertyDecl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_propertydecl">MI_PropertyDecl</a>
  
 
  

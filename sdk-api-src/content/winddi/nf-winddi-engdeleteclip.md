@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngDeleteClip, EngDeleteClip function [Display Devices], display.engdeleteclip, gdifncs_0ca10e14-e720-49f3-8c56-9c9dd646f04f.xml, winddi/EngDeleteClip
 ms.topic: function
-f1_keywords: 
- - "winddi/EngDeleteClip"
+f1_keywords:
+- winddi/EngDeleteClip
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngDeleteClip
+- EngDeleteClip
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EngDeleteClip</b> function deletes a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_clipobj">CLIPOBJ</a> structure allocated by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreateclip">EngCreateClip</a>.
+The <b>EngDeleteClip</b> function deletes a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure allocated by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreateclip">EngCreateClip</a>.
 
 
 ## -parameters

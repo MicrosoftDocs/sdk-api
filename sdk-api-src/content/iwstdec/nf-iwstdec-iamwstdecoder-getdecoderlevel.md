@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDecoderLevel, GetDecoderLevel method [DirectShow], GetDecoderLevel method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetDecoderLevel method, IAMWstDecoder.GetDecoderLevel, IAMWstDecoder::GetDecoderLevel, IAMWstDecoderGetDecoderLevel, dshow.iamwstdecoder_getdecoderlevel, iwstdec/IAMWstDecoder::GetDecoderLevel
 ms.topic: method
-f1_keywords: 
- - "iwstdec/IAMWstDecoder.GetDecoderLevel"
+f1_keywords:
+- iwstdec/IAMWstDecoder.GetDecoderLevel
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMWstDecoder.GetDecoderLevel
+- IAMWstDecoder.GetDecoderLevel
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ Applications use the <code>GetDecoderLevel</code> method to retrieve the WST dec
 
 ### -param lpLevel [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/ne-iwstdec-_am_wst_level">AM_WST_LEVEL</a> enumeration, indicting the decoder level.
+Receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-am_wst_level">AM_WST_LEVEL</a> enumeration, indicting the decoder level.
 
 
 ## -returns

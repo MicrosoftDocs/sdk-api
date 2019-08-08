@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDUdpAddress interface,SetMessageType method, IWSDUdpAddress.SetMessageType, IWSDUdpAddress::SetMessageType, SetMessageType, SetMessageType method, SetMessageType method,IWSDUdpAddress interface, ncd.iwsdudpaddress_setmessagetype, wsdbase/IWSDUdpAddress::SetMessageType
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDUdpAddress.SetMessageType"
+f1_keywords:
+- wsdbase/IWSDUdpAddress.SetMessageType
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDUdpAddress.SetMessageType
+- IWSDUdpAddress.SetMessageType
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Sets the message type for this UDP address configuration. There are two types of
 
 ### -param messageType [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ne-wsdbase-_wsdudpmessagetype">WSDUdpMessageType</a> value that specifies the message type used for this address configuration.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ne-wsdbase-wsdudpmessagetype">WSDUdpMessageType</a> value that specifies the message type used for this address configuration.
 
 
 ## -returns

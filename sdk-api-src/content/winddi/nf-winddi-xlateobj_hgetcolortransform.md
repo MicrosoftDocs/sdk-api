@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XLATEOBJ_hGetColorTransform, XLATEOBJ_hGetColorTransform function [Display Devices], display.xlateobj_hgetcolortransform, gdifncs_6df99fb8-f6ad-4fe8-a140-c004700b9d33.xml, winddi/XLATEOBJ_hGetColorTransform
 ms.topic: function
-f1_keywords: 
- - "winddi/XLATEOBJ_hGetColorTransform"
+f1_keywords:
+- winddi/XLATEOBJ_hGetColorTransform
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - XLATEOBJ_hGetColorTransform
+- XLATEOBJ_hGetColorTransform
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>XLATEOBJ_hGetColorTransform</b> function returns the color transform for 
 
 ### -param pxlo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_xlateobj">XLATEOBJ</a> structure whose color transform is being queried. The color transform was created in a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a>.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure whose color transform is being queried. The color transform was created in a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvicmcreatecolortransform">DrvIcmCreateColorTransform</a>.
 
 
 ## -returns
@@ -97,7 +97,7 @@ The color transform for a brush is obtained by calling <a href="https://docs.mic
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_xlateobj">XLATEOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>
  
 
  

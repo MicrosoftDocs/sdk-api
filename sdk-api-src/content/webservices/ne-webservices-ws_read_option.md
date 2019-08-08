@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_READ_NILLABLE_POINTER, WS_READ_NILLABLE_VALUE, WS_READ_OPTION, WS_READ_OPTION enumeration [Web Services for Windows], WS_READ_OPTIONAL_POINTER, WS_READ_REQUIRED_POINTER, WS_READ_REQUIRED_VALUE, webservices/WS_READ_NILLABLE_POINTER, webservices/WS_READ_NILLABLE_VALUE, webservices/WS_READ_OPTION, webservices/WS_READ_OPTIONAL_POINTER, webservices/WS_READ_REQUIRED_POINTER, webservices/WS_READ_REQUIRED_VALUE, wsw.ws_read_option
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_READ_OPTION"
+f1_keywords:
+- webservices/WS_READ_OPTION
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_READ_OPTION
+- WS_READ_OPTION
 product: Windows
 targetos: Windows
 req.typenames: WS_READ_OPTION
@@ -75,7 +75,7 @@ The size of the storage specified by the caller varies by the type
                         be the size of the primitive.  In this case, the heap does not need to be specified.
                         </li>
 <li>For structures (whether user defined ones that use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_STRUCT_TYPE</a>,
-                        or predefined ones like <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_string">WS_STRING</a>), the storage should be the 
+                        or predefined ones like <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_string">WS_STRING</a>), the storage should be the 
                         exact size of the structure.
                         Note that fields of the structure that point to other data is still required to
                         be allocated from the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a>.  If no fields exist for the

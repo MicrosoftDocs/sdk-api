@@ -8,10 +8,10 @@ tech.root: perfctrs
 ms.assetid: d3bc6ad3-0cab-4843-ae1d-5f384948a1ea
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPDH_FMT_COUNTERVALUE_ITEM_W, PDH_FMT_COUNTERVALUE_ITEM, PDH_FMT_COUNTERVALUE_ITEM structure [Perf], PDH_FMT_COUNTERVALUE_ITEM_A, PDH_FMT_COUNTERVALUE_ITEM_W, PPDH_FMT_COUNTERVALUE_ITEM, PPDH_FMT_COUNTERVALUE_ITEM structure pointer [Perf], _win32_pdh_fmt_countervalue_item_str, base.pdh_fmt_countervalue_item_str, pdh/PDH_FMT_COUNTERVALUE_ITEM, pdh/PDH_FMT_COUNTERVALUE_ITEM_A, pdh/PDH_FMT_COUNTERVALUE_ITEM_W, pdh/PPDH_FMT_COUNTERVALUE_ITEM, perf.pdh_fmt_countervalue_item_str"
+ms.keywords: '*PPDH_FMT_COUNTERVALUE_ITEM_W, PDH_FMT_COUNTERVALUE_ITEM, PDH_FMT_COUNTERVALUE_ITEM structure [Perf], PDH_FMT_COUNTERVALUE_ITEM_A, PDH_FMT_COUNTERVALUE_ITEM_W, PPDH_FMT_COUNTERVALUE_ITEM, PPDH_FMT_COUNTERVALUE_ITEM structure pointer [Perf], _win32_pdh_fmt_countervalue_item_str, base.pdh_fmt_countervalue_item_str, pdh/PDH_FMT_COUNTERVALUE_ITEM, pdh/PDH_FMT_COUNTERVALUE_ITEM_A, pdh/PDH_FMT_COUNTERVALUE_ITEM_W, pdh/PPDH_FMT_COUNTERVALUE_ITEM, perf.pdh_fmt_countervalue_item_str'
 ms.topic: struct
-f1_keywords: 
- - "pdh/PDH_FMT_COUNTERVALUE_ITEM"
+f1_keywords:
+- pdh/PDH_FMT_COUNTERVALUE_ITEM
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pdh.h
+- Pdh.h
 api_name:
- - PDH_FMT_COUNTERVALUE_ITEM
- - PDH_FMT_COUNTERVALUE_ITEM_A
- - PDH_FMT_COUNTERVALUE_ITEM_W
+- PDH_FMT_COUNTERVALUE_ITEM
+- PDH_FMT_COUNTERVALUE_ITEM_A
+- PDH_FMT_COUNTERVALUE_ITEM_W
 product: Windows
 targetos: Windows
 req.typenames: PDH_FMT_COUNTERVALUE_ITEM_W, *PPDH_FMT_COUNTERVALUE_ITEM_W
@@ -70,7 +70,7 @@ Pointer to a null-terminated string that specifies the instance name of the coun
 
 ### -field FmtValue
 
- A <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_fmt_countervalue">PDH_FMT_COUNTERVALUE</a> structure that contains the counter value of the instance.
+ A <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_fmt_countervalue">PDH_FMT_COUNTERVALUE</a> structure that contains the counter value of the instance.
 
 
 ## -see-also
@@ -78,7 +78,7 @@ Pointer to a null-terminated string that specifies the instance name of the coun
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_fmt_countervalue">PDH_FMT_COUNTERVALUE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_fmt_countervalue">PDH_FMT_COUNTERVALUE</a>
 
 
 

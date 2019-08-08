@@ -8,10 +8,10 @@ tech.root: DNS
 ms.assetid: 32077169-d319-45c0-982f-8d470cd70111
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_TSIG_DATA, *PDNS_TSIG_DATAA, DNS_RCODE_BADKEY, DNS_RCODE_BADSIG, DNS_RCODE_BADTIME, DNS_TSIG_DATA, DNS_TSIG_DATA structure [DNS], DNS_TSIG_DATAA, PDNS_TSIG_DATA, PDNS_TSIG_DATA structure pointer [DNS], _dns_dns_tsig_data, dns.dns_tsig_data, gss-tsig, gss.microsoft.com, windns/DNS_TSIG_DATA, windns/PDNS_TSIG_DATA"
+ms.keywords: '*PDNS_TSIG_DATA, *PDNS_TSIG_DATAA, DNS_RCODE_BADKEY, DNS_RCODE_BADSIG, DNS_RCODE_BADTIME, DNS_TSIG_DATA, DNS_TSIG_DATA structure [DNS], DNS_TSIG_DATAA, PDNS_TSIG_DATA, PDNS_TSIG_DATA structure pointer [DNS], _dns_dns_tsig_data, dns.dns_tsig_data, gss-tsig, gss.microsoft.com, windns/DNS_TSIG_DATA, windns/PDNS_TSIG_DATA'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_TSIG_DATA"
+f1_keywords:
+- windns/DNS_TSIG_DATA
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_TSIG_DATA
+- DNS_TSIG_DATA
 product: Windows
 targetos: Windows
 req.typenames: DNS_TSIG_DATAA, *PDNS_TSIG_DATAA
@@ -123,7 +123,7 @@ The time, in seconds, <b>i64CreateTime</b> may be in error.
 
 ### -field wOriginalXid
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_header">Xid</a>  identifier of the original message.
+The <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_header">Xid</a>  identifier of the original message.
 
 
 ### -field wError

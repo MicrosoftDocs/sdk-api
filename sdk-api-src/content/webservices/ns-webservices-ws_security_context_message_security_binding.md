@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING, WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING structure [Web Services for Windows], webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING, wsw.ws_security_context_message_security_binding
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING"
+f1_keywords:
+- webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING
+- WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING
 product: Windows
 targetos: Windows
 req.typenames: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING
@@ -59,7 +59,7 @@ context. Another set of one or more security bindings, specified in the
 bootstrapSecurityDescription field, is used to the bootstrap the context.
             
 
-Only one instance of this binding may be present in a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_description">security description</a>.
+Only one instance of this binding may be present in a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_description">security description</a>.
           This security binding is not supported with the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_NAMEDPIPE_CHANNEL_BINDING</a>.
           
 
@@ -115,7 +115,7 @@ Currently, only <a href="https://docs.microsoft.com/windows/desktop/api/webservi
             supported.  With this usage, this security binding provides client
             authentication, but not message protection (such as signing, encryption,
             replay detection).  Thus, this binding must be used together with
-            another security binding such as the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a> 
+            another security binding such as the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a> 
             that provides a protected channel.
           
 

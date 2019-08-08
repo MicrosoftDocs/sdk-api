@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_OPLOCK_BREAK_NOTIFY, FSCTL_OPLOCK_BREAK_NOTIFY control, FSCTL_OPLOCK_BREAK_NOTIFY control code [Files], _win32_fsctl_oplock_break_notify, base.fsctl_oplock_break_notify, fs.fsctl_oplock_break_notify, winioctl/FSCTL_OPLOCK_BREAK_NOTIFY
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_OPLOCK_BREAK_NOTIFY"
+f1_keywords:
+- winioctl/FSCTL_OPLOCK_BREAK_NOTIFY
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_OPLOCK_BREAK_NOTIFY
+- FSCTL_OPLOCK_BREAK_NOTIFY
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -237,7 +237,7 @@ Yes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 

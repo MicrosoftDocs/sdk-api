@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAKEDLLVERULL, MAKEDLLVERULL macro [Windows Shell], _win32_MAKEDLLVERULL, shell.MAKEDLLVERULL, shlwapi/MAKEDLLVERULL
 ms.topic: macro
-f1_keywords: 
- - "shlwapi/MAKEDLLVERULL"
+f1_keywords:
+- shlwapi/MAKEDLLVERULL
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shlwapi.h
+- Shlwapi.h
 api_name:
- - MAKEDLLVERULL
+- MAKEDLLVERULL
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,7 +83,7 @@ The hotfix number that identifies the service pack.
 
 
 
-This macro is used in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nc-shlwapi-dllgetversionproc">DllGetVersion</a> to pack version information into a form that can easily be compared to the <b>ullVersion</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-_dllversioninfo2">DLLVERSIONINFO2</a> structure. It is defined as follows.
+This macro is used in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nc-shlwapi-dllgetversionproc">DllGetVersion</a> to pack version information into a form that can easily be compared to the <b>ullVersion</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo2">DLLVERSIONINFO2</a> structure. It is defined as follows.
 
 				
 
@@ -98,7 +98,7 @@ This macro is used in conjunction with <a href="https://docs.microsoft.com/windo
 ```
 
 
-For most purposes, you only need to assign values to the major and minor version numbers. The remaining two parameters can be set to zero. The following code fragment illustrates how to use <b>MAKEDLLVERULL</b> to determine whether a DLL is <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">version 4.71</a> or later. The <b>VersionInfo</b> structure is the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-_dllversioninfo2">DLLVERSIONINFO2</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nc-shlwapi-dllgetversionproc">DllGetVersion</a>.
+For most purposes, you only need to assign values to the major and minor version numbers. The remaining two parameters can be set to zero. The following code fragment illustrates how to use <b>MAKEDLLVERULL</b> to determine whether a DLL is <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">version 4.71</a> or later. The <b>VersionInfo</b> structure is the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo2">DLLVERSIONINFO2</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nc-shlwapi-dllgetversionproc">DllGetVersion</a>.
 
 				
 

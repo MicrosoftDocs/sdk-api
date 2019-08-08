@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BUTTONPRESSED, CHECKED, ENABLED, HIDDEN, INDETERMINATE, IToolbar interface [MMC],SetButtonState method, IToolbar.SetButtonState, IToolbar::SetButtonState, SetButtonState, SetButtonState method [MMC], SetButtonState method [MMC],IToolbar interface, _slate_itoolbar_setbuttonstate, mmc.itoolbar_setbuttonstate, mmc/IToolbar::SetButtonState
 ms.topic: method
-f1_keywords: 
- - "mmc/IToolbar.SetButtonState"
+f1_keywords:
+- mmc/IToolbar.SetButtonState
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IToolbar.SetButtonState
+- IToolbar.SetButtonState
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ The <b>IToolbar::SetButtonState</b> method enables a snap-in to set an attribute
 A unique value that the snap-in has associated with a button using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-itoolbar-insertbutton">InsertButton</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-itoolbar-addbuttons">AddButtons</a> method using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmcbutton">MMCBUTTON</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmcbutton">MMCBUTTON</a> structure.
 
 
 ### -param nState [in]

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWizardSite, IWizardSite interface [Windows Shell], IWizardSite interface [Windows Shell],described, _shell_IWizardSite, shell.IWizardSite, shobjidl/IWizardSite
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IWizardSite"
+f1_keywords:
+- shobjidl/IWizardSite
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IWizardSite
+- IWizardSite
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ The <b>IWizardSite</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iwizardsite-getcancelledpage">GetCancelledPage</a>
 </td>
 <td align="left" width="63%">
-Called when the user cancels navigation through the wizard extension. Gets the handle of the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> that represents the wizard page to display when the user cancels navigation while in the wizard extension.
+Called when the user cancels navigation through the wizard extension. Gets the handle of the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> that represents the wizard page to display when the user cancels navigation while in the wizard extension.
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Called when the user cancels navigation through the wizard extension. Gets the h
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iwizardsite-getnextpage">GetNextPage</a>
 </td>
 <td align="left" width="63%">
-Called when the user navigates forward past the wizard extension pages. Gets the handle of the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> that represents the wizard page immediately following the wizard extension page.
+Called when the user navigates forward past the wizard extension pages. Gets the handle of the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> that represents the wizard page immediately following the wizard extension page.
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ Called when the user navigates forward past the wizard extension pages. Gets the
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iwizardsite-getpreviouspage">GetPreviousPage</a>
 </td>
 <td align="left" width="63%">
-Called when the user navigates backward out of the wizard extension. Gets the handle of the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> that represents the wizard page that is before the wizard extension page.
+Called when the user navigates backward out of the wizard extension. Gets the handle of the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> that represents the wizard page that is before the wizard extension page.
 
 </td>
 </tr>

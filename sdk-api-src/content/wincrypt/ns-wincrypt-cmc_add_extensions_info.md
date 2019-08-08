@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 46fbea57-8a9d-48f3-8b65-8f28a843d6d9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCMC_ADD_EXTENSIONS_INFO, CMC_ADD_EXTENSIONS_INFO, CMC_ADD_EXTENSIONS_INFO structure [Security], PCMC_ADD_EXTENSIONS_INFO, PCMC_ADD_EXTENSIONS_INFO structure pointer [Security], _crypto2_cmc_add_extensions_info, security.cmc_add_extensions_info, wincrypt/CMC_ADD_EXTENSIONS_INFO, wincrypt/PCMC_ADD_EXTENSIONS_INFO"
+ms.keywords: '*PCMC_ADD_EXTENSIONS_INFO, CMC_ADD_EXTENSIONS_INFO, CMC_ADD_EXTENSIONS_INFO structure [Security], PCMC_ADD_EXTENSIONS_INFO, PCMC_ADD_EXTENSIONS_INFO structure pointer [Security], _crypto2_cmc_add_extensions_info, security.cmc_add_extensions_info, wincrypt/CMC_ADD_EXTENSIONS_INFO, wincrypt/PCMC_ADD_EXTENSIONS_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMC_ADD_EXTENSIONS_INFO"
+f1_keywords:
+- wincrypt/CMC_ADD_EXTENSIONS_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMC_ADD_EXTENSIONS_INFO
+- CMC_ADD_EXTENSIONS_INFO
 product: Windows
 targetos: Windows
 req.typenames: CMC_ADD_EXTENSIONS_INFO, *PCMC_ADD_EXTENSIONS_INFO
@@ -82,5 +82,5 @@ Array of certificate reference numbers.
 ### -field rgExtension
 
 Array of pointers to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a> certificate extensions to be added.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> certificate extensions to be added.
 

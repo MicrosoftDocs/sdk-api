@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XLATEOBJ_piVector, XLATEOBJ_piVector function [Display Devices], display.xlateobj_pivector, gdifncs_875168b9-8752-46cb-9198-53af5769db5b.xml, winddi/XLATEOBJ_piVector
 ms.topic: function
-f1_keywords: 
- - "winddi/XLATEOBJ_piVector"
+f1_keywords:
+- winddi/XLATEOBJ_piVector
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,17 +30,17 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Win32k.sys
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - XLATEOBJ_piVector
+- XLATEOBJ_piVector
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ The <b>XLATEOBJ_piVector</b> function retrieves a translation vector that the dr
 
 ### -param pxlo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_xlateobj">XLATEOBJ</a> structure that defines the indexed source object.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure that defines the indexed source object.
 
 
 ## -returns
@@ -90,7 +90,7 @@ This function can be used only if the source palette is an indexed palette.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_xlateobj">XLATEOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>
  
 
  

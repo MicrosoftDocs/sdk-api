@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileRanges, GetFileRanges method [BITS], GetFileRanges method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetFileRanges method, IBitsPeerCacheRecord.GetFileRanges, IBitsPeerCacheRecord::GetFileRanges, bits.ibitspeercacherecord_getfileranges, bits3_0/IBitsPeerCacheRecord::GetFileRanges
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IBitsPeerCacheRecord.GetFileRanges"
+f1_keywords:
+- bits3_0/IBitsPeerCacheRecord.GetFileRanges
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBitsPeerCacheRecord.GetFileRanges
+- IBitsPeerCacheRecord.GetFileRanges
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ Number of elements in <i>ppRanges</i>.
 
 ### -param ppRanges [out]
 
-Array of  <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/ns-bits2_0-_bg_file_range">BG_FILE_RANGE</a> structures that specify the ranges of the file that are in the cache. When done, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppRanges</i>.
+Array of  <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/ns-bits2_0-bg_file_range">BG_FILE_RANGE</a> structures that specify the ranges of the file that are in the cache. When done, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppRanges</i>.
 
 
 ## -returns
@@ -112,7 +112,7 @@ The method always returns at least one range (for the complete file). Multiple r
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/ns-bits2_0-_bg_file_range">BG_FILE_RANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/ns-bits2_0-bg_file_range">BG_FILE_RANGE</a>
 
 
 

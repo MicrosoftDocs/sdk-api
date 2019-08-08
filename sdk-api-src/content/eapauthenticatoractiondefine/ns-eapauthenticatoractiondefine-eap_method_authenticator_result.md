@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_AUTHENTICATOR_RESULT, EAP_METHOD_AUTHENTICATOR_RESULT structure [EAPHost], eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESULT, eaphost.eap_method_authenticator_result
 ms.topic: struct
-f1_keywords: 
- - "eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESULT"
+f1_keywords:
+- eapauthenticatoractiondefine/EAP_METHOD_AUTHENTICATOR_RESULT
 req.header: eapauthenticatoractiondefine.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - EapAuthenticatorActionDefine.h
+- EapAuthenticatorActionDefine.h
 api_name:
- - EAP_METHOD_AUTHENTICATOR_RESULT
+- EAP_METHOD_AUTHENTICATOR_RESULT
 product: Windows
 targetos: Windows
 req.typenames: EAP_METHOD_AUTHENTICATOR_RESULT
@@ -71,7 +71,7 @@ Contains a reason code if the supplicant could not be authenticated. Reason code
 
 ### -field pAuthAttribs
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attributes">EAP_ATTRIBUTES</a> structure that contains the EAP attributes  returned by the authentication session.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_attributes">EAP_ATTRIBUTES</a> structure that contains the EAP attributes  returned by the authentication session.
 
 
 ## -see-also

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileStreamInterface, GetFileStreamInterface method [File Server Resource Manager], GetFileStreamInterface method [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],GetFileStreamInterface method, IFsrmPropertyBag.GetFileStreamInterface, IFsrmPropertyBag::GetFileStreamInterface, fs.ifsrmpropertybag_getfilestreaminterface, fsrm.ifsrmpropertybag_getfilestreaminterface, fsrmpipeline/IFsrmPropertyBag::GetFileStreamInterface
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyBag.GetFileStreamInterface"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyBag.GetFileStreamInterface
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.GetFileStreamInterface
+- IFsrmPropertyBag.GetFileStreamInterface
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,13 +62,13 @@ Retrieves a file stream interface that you can use to access the contents of the
 ### -param accessMode [in]
 
 One or more access modes. For possible values, see the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmfilestreamingmode">FsrmFileStreamingMode</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmfilestreamingmode">FsrmFileStreamingMode</a> enumeration.
 
 
 ### -param interfaceType [in]
 
 The type of streaming interface to use. For possible interface types, see the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmfilestreaminginterfacetype">FsrmFileStreamingInterfaceType</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmfilestreaminginterfacetype">FsrmFileStreamingInterfaceType</a> 
       enumeration.
 
 

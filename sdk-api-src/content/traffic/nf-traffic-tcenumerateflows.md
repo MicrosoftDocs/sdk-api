@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TcEnumerateFlows, TcEnumerateFlows function [QOS], _gqos_tcenumerateflows, qos.tcenumerateflows, traffic/TcEnumerateFlows
 ms.topic: function
-f1_keywords: 
- - "traffic/TcEnumerateFlows"
+f1_keywords:
+- traffic/TcEnumerateFlows
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Traffic.lib
 req.dll: Traffic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Traffic.dll
+- Traffic.dll
 api_name:
- - TcEnumerateFlows
+- TcEnumerateFlows
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -102,7 +102,7 @@ Pointer to the size of the client-provided buffer or the number of bytes used by
 ### -param Buffer [out]
 
 Pointer to the buffer containing flow enumerations. See 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/ns-traffic-_enumeration_buffer">ENUMERATION_BUFFER</a> for more information about flow enumerations.
+<a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-enumeration_buffer">ENUMERATION_BUFFER</a> for more information about flow enumerations.
 
 
 ## -returns

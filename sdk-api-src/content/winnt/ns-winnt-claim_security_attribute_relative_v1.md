@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: 7516CFA6-3726-4004-854E-CD07347898E5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, CLAIM_SECURITY_ATTRIBUTE_DISABLED, CLAIM_SECURITY_ATTRIBUTE_DISABLED_BY_DEFAULT, CLAIM_SECURITY_ATTRIBUTE_MANDATORY, CLAIM_SECURITY_ATTRIBUTE_NON_INHERITABLE, CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1 structure [Security], CLAIM_SECURITY_ATTRIBUTE_TYPE_INT64, CLAIM_SECURITY_ATTRIBUTE_TYPE_OCTET_STRING, CLAIM_SECURITY_ATTRIBUTE_TYPE_STRING, CLAIM_SECURITY_ATTRIBUTE_TYPE_UINT64, CLAIM_SECURITY_ATTRIBUTE_USE_FOR_DENY_ONLY, CLAIM_SECURITY_ATTRIBUTE_VALUE_CASE_SENSITIVE, PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1 structure pointer [Security], _CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, security.claim_security_attribute_relative_v1, winnt/CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, winnt/PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1"
+ms.keywords: '*PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, CLAIM_SECURITY_ATTRIBUTE_DISABLED, CLAIM_SECURITY_ATTRIBUTE_DISABLED_BY_DEFAULT, CLAIM_SECURITY_ATTRIBUTE_MANDATORY, CLAIM_SECURITY_ATTRIBUTE_NON_INHERITABLE, CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1 structure [Security], CLAIM_SECURITY_ATTRIBUTE_TYPE_INT64, CLAIM_SECURITY_ATTRIBUTE_TYPE_OCTET_STRING, CLAIM_SECURITY_ATTRIBUTE_TYPE_STRING, CLAIM_SECURITY_ATTRIBUTE_TYPE_UINT64, CLAIM_SECURITY_ATTRIBUTE_USE_FOR_DENY_ONLY, CLAIM_SECURITY_ATTRIBUTE_VALUE_CASE_SENSITIVE, PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1 structure pointer [Security], _CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, security.claim_security_attribute_relative_v1, winnt/CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, winnt/PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1'
 ms.topic: struct
-f1_keywords: 
- - "winnt/CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1"
+f1_keywords:
+- winnt/CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1
+- CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1
 product: Windows
 targetos: Windows
 req.typenames: CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, *PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1
@@ -232,7 +232,7 @@ Pointer to an array of <b>ValueCount</b> members where each member is an offset 
 
 ### -field Values.pFqbn
 
-Pointer to an array of <b>ValueCount</b> members where each member is an offset from the beginning of the structure to the fully qualified binary name value of type <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_claim_security_attribute_fqbn_value">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a>.
+Pointer to an array of <b>ValueCount</b> members where each member is an offset from the beginning of the structure to the fully qualified binary name value of type <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-claim_security_attribute_fqbn_value">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a>.
 
 
 ### -field Values.pOctetString

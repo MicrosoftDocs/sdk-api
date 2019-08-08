@@ -2,7 +2,7 @@
 UID: NF:xenroll.IEnroll.AddAuthenticatedAttributesToPKCS7Request
 title: IEnroll::AddAuthenticatedAttributesToPKCS7Request (xenroll.h)
 author: windows-sdk-content
-description: The AddAuthenticatedAttributesToPKCS7Request method adds authenticated attributes to a PKCS #7 certificate request. This method was first defined in the IEnroll interface.
+description: The AddAuthenticatedAttributesToPKCS7Request method adds authenticated attributes to a PKCS
 old-location: security\ienroll4_addauthenticatedattributestopkcs7request.htm
 tech.root: SecCrypto
 ms.assetid: a65eca3d-8308-4bdc-b851-016a4e63a1f1
@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddAuthenticatedAttributesToPKCS7Request, AddAuthenticatedAttributesToPKCS7Request method [Security], AddAuthenticatedAttributesToPKCS7Request method [Security],IEnroll interface, IEnroll interface [Security],AddAuthenticatedAttributesToPKCS7Request method, IEnroll.AddAuthenticatedAttributesToPKCS7Request, IEnroll::AddAuthenticatedAttributesToPKCS7Request, security.ienroll4_addauthenticatedattributestopkcs7request, xenroll/IEnroll::AddAuthenticatedAttributesToPKCS7Request
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.AddAuthenticatedAttributesToPKCS7Request"
+f1_keywords:
+- xenroll/IEnroll.AddAuthenticatedAttributesToPKCS7Request
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.AddAuthenticatedAttributesToPKCS7Request
+- IEnroll.AddAuthenticatedAttributesToPKCS7Request
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The <b>AddAuthenticatedAttributesToPKCS7Request</b> method adds authenticated at
 
 ### -param pAttributes [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attributes">CRYPT_ATTRIBUTES</a> structure that represents the authenticated attributes to add to the PKCS #7 certificate request.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attributes">CRYPT_ATTRIBUTES</a> structure that represents the authenticated attributes to add to the PKCS #7 certificate request.
 
 
 ## -returns

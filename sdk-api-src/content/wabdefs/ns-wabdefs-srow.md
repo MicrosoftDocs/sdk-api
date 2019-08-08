@@ -8,10 +8,10 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\srow.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSRow, LPSRow, LPSRow structure pointer [Windows Address Book], SRow, SRow structure [Windows Address Book], _wab_SRow, wab._wab_SRow, wabdefs/LPSRow, wabdefs/SRow"
+ms.keywords: '*LPSRow, LPSRow, LPSRow structure pointer [Windows Address Book], SRow, SRow structure [Windows Address Book], _wab_SRow, wab._wab_SRow, wabdefs/LPSRow, wabdefs/SRow'
 ms.topic: struct
-f1_keywords: 
- - "wabdefs/SRow"
+f1_keywords:
+- wabdefs/SRow
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wabdefs.h
+- Wabdefs.h
 api_name:
- - SRow
+- SRow
 product: Windows
 targetos: Windows
 req.typenames: SRow, *LPSRow
@@ -78,5 +78,5 @@ Variable of type <b>ULONG</b> that specifies the count of property values to whi
 
 Type: <b>LPSPropValue</b>
 
-Pointer to an array of variables of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_spropvalue">SPropValue</a> that describe the property values for the columns in the row.
+Pointer to an array of variables of type <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-spropvalue">SPropValue</a> that describe the property values for the columns in the row.
 

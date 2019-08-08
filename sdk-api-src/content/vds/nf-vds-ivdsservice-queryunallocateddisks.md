@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],QueryUnallocatedDisks method, IVdsService.QueryUnallocatedDisks, IVdsService::QueryUnallocatedDisks, QueryUnallocatedDisks, QueryUnallocatedDisks method [VDS], QueryUnallocatedDisks method [VDS],IVdsService interface, base.ivdsservice_queryunallocateddisks, vds/IVdsService::QueryUnallocatedDisks
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsService.QueryUnallocatedDisks"
+f1_keywords:
+- vds/IVdsService.QueryUnallocatedDisks
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsService.QueryUnallocatedDisks
+- IVdsService.QueryUnallocatedDisks
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -116,7 +116,7 @@ VDS failed to initialize. If an application calls this method before the service
 An unallocated disk is not claimed by any 
     provider. It may or may not contain MBR or GPT partition format information. Often it is an uninitialized disk. If the disk status is <b>VDS_DS_ONLINE</b> or <b>VDS_DS_OFFLINE</b>, the disk is unallocated and uninitialized. If it is <b>VDS_DS_UNKNOWN</b>, <b>VDS_DS_NOT_READY</b>, <b>VDS_DS_FAILED</b>, or <b>VDS_DS_MISSING</b>, it is unallocated, but the VDS service cannot determine whether or not it is initialized, possibly because of problems with the disk.
 
-To determine the disk status, see the <b>status</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop">VDS_DISK_PROP</a> or <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_disk_prop2">VDS_DISK_PROP2</a> structure for the disk.
+To determine the disk status, see the <b>status</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a> or <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a> structure for the disk.
 
 If the disk status is <b>VDS_DS_ONLINE</b>, the disk can be added to a pack.
 

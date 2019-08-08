@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSS_VA_SPACE_ENTRY, PSS_VA_SPACE_ENTRY structure, proc_snap.pss_va_space_entry, processsnapshot/PSS_VA_SPACE_ENTRY
 ms.topic: struct
-f1_keywords: 
- - "processsnapshot/PSS_VA_SPACE_ENTRY"
+f1_keywords:
+- processsnapshot/PSS_VA_SPACE_ENTRY
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - processsnapshot.h
+- processsnapshot.h
 api_name:
- - PSS_VA_SPACE_ENTRY
+- PSS_VA_SPACE_ENTRY
 product: Windows
 targetos: Windows
 req.typenames: PSS_VA_SPACE_ENTRY
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Holds the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a> returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalksnapshot">PssWalkSnapshot</a> for a virtual address (VA) region.
+Holds the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-memory_basic_information">MEMORY_BASIC_INFORMATION</a> returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalksnapshot">PssWalkSnapshot</a> for a virtual address (VA) region.
 
 
 ## -struct-fields
@@ -61,37 +61,37 @@ Holds the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt
 
 ### -field BaseAddress
 
-Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
+Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
 
 
 ### -field AllocationBase
 
-Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
+Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
 
 
 ### -field AllocationProtect
 
-Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
+Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
 
 
 ### -field RegionSize
 
-Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
+Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
 
 
 ### -field State
 
-Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
+Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
 
 
 ### -field Protect
 
-Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
+Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
 
 
 ### -field Type
 
-Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
+Information about the VA region. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-memory_basic_information">MEMORY_BASIC_INFORMATION</a>.
 
 
 ### -field TimeDateStamp

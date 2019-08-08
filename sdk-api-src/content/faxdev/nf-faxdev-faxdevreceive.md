@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxDevReceive, FaxDevReceive function [Fax Service], _mfax_faxdevreceive, fax._mfax_faxdevreceive, faxdev/FaxDevReceive
 ms.topic: function
-f1_keywords: 
- - "faxdev/FaxDevReceive"
+f1_keywords:
+- faxdev/FaxDevReceive
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - FaxDev.h
+- FaxDev.h
 api_name:
- - FaxDevReceive
+- FaxDevReceive
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -77,7 +77,7 @@ Specifies a TAPI call handle. Note that the FSP should use this handle for all c
 
 Type: <b>PFAX_RECEIVE</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/ns-faxdev-_fax_receive">FAX_RECEIVE</a> structure that contains information about an incoming fax document. Upon return, the structure also contains the <b>ReceiverName</b> and <b>ReceiverNumber</b> members.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/faxdev/ns-faxdev-fax_receive">FAX_RECEIVE</a> structure that contains information about an incoming fax document. Upon return, the structure also contains the <b>ReceiverName</b> and <b>ReceiverNumber</b> members.
 
 
 ## -returns
@@ -99,11 +99,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 The fax service calls the <b>FaxDevReceive</b> function after a TAPI line device associated with the FSP rings, and the line is in the <i>offering</i> state. For information on call states, see <a href="https://docs.microsoft.com/windows/desktop/Tapi/state-ovr">State</a> in the TAPI documentation.
 
-The FSP must respond to the <b>FaxDevReceive</b> function by receiving the incoming fax document. The FSP must accept the incoming call through TAPI, and then receive the fax data stream. The FSP should store the data stream in the file specified by the <b>FileName</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/ns-faxdev-_fax_receive">FAX_RECEIVE</a> structure that is passed into the <b>FaxDevReceive</b> function. This file is a Tagged Image File Format Class F (TIFF Class F) file. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-image-format">Fax Image Format</a>. 
+The FSP must respond to the <b>FaxDevReceive</b> function by receiving the incoming fax document. The FSP must accept the incoming call through TAPI, and then receive the fax data stream. The FSP should store the data stream in the file specified by the <b>FileName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/faxdev/ns-faxdev-fax_receive">FAX_RECEIVE</a> structure that is passed into the <b>FaxDevReceive</b> function. This file is a Tagged Image File Format Class F (TIFF Class F) file. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-image-format">Fax Image Format</a>. 
 
-The FSP should set the <b>ReceiverName</b> and <b>ReceiverNumber</b> members in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/ns-faxdev-_fax_receive">FAX_RECEIVE</a> structure pointed to by the <i>FaxReceive</i> parameter. The fax service allocates the memory for these strings. The size of the memory the service allocates is equal to <b>sizeof(FAX_RECEIVE) + FAXDEVRECEIVE_SIZE</b>. The FSP must place the strings in the block of memory that follows the <b>FAX_RECEIVE</b> structure. The <b>ReceiverName</b> and <b>ReceiverNumber</b> members must point to the location of the strings in the memory block. For a code sample and diagram that illustrate how to fill in the memory that the fax service allocates, see <b>FAX_RECEIVE</b>.
+The FSP should set the <b>ReceiverName</b> and <b>ReceiverNumber</b> members in the <a href="https://docs.microsoft.com/windows/desktop/api/faxdev/ns-faxdev-fax_receive">FAX_RECEIVE</a> structure pointed to by the <i>FaxReceive</i> parameter. The fax service allocates the memory for these strings. The size of the memory the service allocates is equal to <b>sizeof(FAX_RECEIVE) + FAXDEVRECEIVE_SIZE</b>. The FSP must place the strings in the block of memory that follows the <b>FAX_RECEIVE</b> structure. The <b>ReceiverName</b> and <b>ReceiverNumber</b> members must point to the location of the strings in the memory block. For a code sample and diagram that illustrate how to fill in the memory that the fax service allocates, see <b>FAX_RECEIVE</b>.
 
-<div class="alert"><b>Note</b>  The fax service will attempt to restore partially received faxes if the FSP reports any <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/ns-faxdev-_fax_dev_status">extended status</a> other than <b>FS_USER_ABORT</b>. Otherwise, the fax service will discard partially received faxes.</div>
+<div class="alert"><b>Note</b>  The fax service will attempt to restore partially received faxes if the FSP reports any <a href="https://docs.microsoft.com/windows/desktop/api/faxdev/ns-faxdev-fax_dev_status">extended status</a> other than <b>FS_USER_ABORT</b>. Otherwise, the fax service will discard partially received faxes.</div>
 <div> </div>
 
 
@@ -113,7 +113,7 @@ The FSP should set the <b>ReceiverName</b> and <b>ReceiverNumber</b> members in 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/ns-faxdev-_fax_receive">FAX_RECEIVE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/faxdev/ns-faxdev-fax_receive">FAX_RECEIVE</a>
 
 
 

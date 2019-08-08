@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetApplicationProcessDetails, GetApplicationProcessDetails method [COM+], GetApplicationProcessDetails method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetApplicationProcessDetails method, IGetAppTrackerData.GetApplicationProcessDetails, IGetAppTrackerData::GetApplicationProcessDetails, comsvcs/IGetAppTrackerData::GetApplicationProcessDetails, cos.igetapptrackerdata_getapplicationprocessdetails
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IGetAppTrackerData.GetApplicationProcessDetails"
+f1_keywords:
+- comsvcs/IGetAppTrackerData.GetApplicationProcessDetails
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IGetAppTrackerData.GetApplicationProcessDetails
+- IGetAppTrackerData.GetApplicationProcessDetails
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,22 +71,22 @@ The process ID that identifies the process to select, or 0 if the <i>Application
 
 ### -param Flags [in]
 
-A combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-_getapptrackerdataflags">GetAppTrackerDataFlags</a> enumeration that specify which data is to be returned. The following flags are supported: GATD_INCLUDE_PROCESS_EXE_NAME (if retrieving a summary).
+A combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-getapptrackerdataflags">GetAppTrackerDataFlags</a> enumeration that specify which data is to be returned. The following flags are supported: GATD_INCLUDE_PROCESS_EXE_NAME (if retrieving a summary).
 
 
 ### -param Summary [out, optional]
 
-On return, a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-_applicationprocesssummary">ApplicationProcessSummary</a> structure with summary information for the process. This parameter can be <b>NULL</b>.
+On return, a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-applicationprocesssummary">ApplicationProcessSummary</a> structure with summary information for the process. This parameter can be <b>NULL</b>.
 
 
 ### -param Statistics [out, optional]
 
-On return, a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-_applicationprocessstatistics">ApplicationProcessStatistics</a> structure with statistics for the process. This parameter can be <b>NULL</b>.
+On return, a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-applicationprocessstatistics">ApplicationProcessStatistics</a> structure with statistics for the process. This parameter can be <b>NULL</b>.
 
 
 ### -param RecycleInfo [out, optional]
 
-On return, a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-_applicationprocessrecycleinfo">ApplicationProcessRecycleInfo</a> structure with recycling details for the process. This parameter can be <b>NULL</b>.
+On return, a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-applicationprocessrecycleinfo">ApplicationProcessRecycleInfo</a> structure with recycling details for the process. This parameter can be <b>NULL</b>.
 
 
 ### -param AnyComponentsHangMonitored [out, optional]

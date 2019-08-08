@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SL_ACTIVATION_TYPE, SL_ACTIVATION_TYPE enumeration [Security], SL_ACTIVATION_TYPE_ACTIVE_DIRECTORY, SL_ACTIVATION_TYPE_DEFAULT, security.sl_activation_type, slpublic/SL_ACTIVATION_TYPE, slpublic/SL_ACTIVATION_TYPE_ACTIVE_DIRECTORY, slpublic/SL_ACTIVATION_TYPE_DEFAULT
 ms.topic: enum
-f1_keywords: 
- - "slpublic/SL_ACTIVATION_TYPE"
+f1_keywords:
+- slpublic/SL_ACTIVATION_TYPE
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - slpublic.h
+- slpublic.h
 api_name:
- - SL_ACTIVATION_TYPE
+- SL_ACTIVATION_TYPE
 product: Windows
 targetos: Windows
 req.typenames: SL_ACTIVATION_TYPE
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents the type of offline activation for a license. This 	enumeration is used by the <b>type</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-_tagsl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a> structure.
+Represents the type of offline activation for a license. This 	enumeration is used by the <b>type</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-sl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a> structure.
 
 
 ## -enum-fields
@@ -74,7 +74,7 @@ The product activation is through Active Directory.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-_tagsl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-sl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a>
  
 
  

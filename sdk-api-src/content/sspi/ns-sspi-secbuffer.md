@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 75f49d9c-7d3c-4f45-a94e-44cd05773a07
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSecBuffer, PSecBuffer, PSecBuffer structure pointer [Security], SECBUFFER_ALERT, SECBUFFER_APPLICATION_PROTOCOLS, SECBUFFER_ATTRMASK, SECBUFFER_CHANGE_PASS_RESPONSE, SECBUFFER_CHANNEL_BINDINGS, SECBUFFER_DATA, SECBUFFER_DTLS_MTU, SECBUFFER_EMPTY, SECBUFFER_EXTRA, SECBUFFER_MECHLIST, SECBUFFER_MECHLIST_SIGNATURE, SECBUFFER_MISSING, SECBUFFER_PKG_PARAMS, SECBUFFER_PRESHARED_KEY, SECBUFFER_PRESHARED_KEY_IDENTITY, SECBUFFER_READONLY, SECBUFFER_READONLY_WITH_CHECKSUM, SECBUFFER_SRTP_MASTER_KEY_IDENTIFIER, SECBUFFER_SRTP_PROTECTION_PROFILES, SECBUFFER_STREAM_HEADER, SECBUFFER_STREAM_TRAILER, SECBUFFER_TARGET, SECBUFFER_TARGET_HOST, SECBUFFER_TOKEN, SECBUFFER_TOKEN_BINDING, SecBuffer, SecBuffer structure [Security], _ssp_secbuffer, security.secbuffer, sspi/PSecBuffer, sspi/SecBuffer"
+ms.keywords: '*PSecBuffer, PSecBuffer, PSecBuffer structure pointer [Security], SECBUFFER_ALERT, SECBUFFER_APPLICATION_PROTOCOLS, SECBUFFER_ATTRMASK, SECBUFFER_CHANGE_PASS_RESPONSE, SECBUFFER_CHANNEL_BINDINGS, SECBUFFER_DATA, SECBUFFER_DTLS_MTU, SECBUFFER_EMPTY, SECBUFFER_EXTRA, SECBUFFER_MECHLIST, SECBUFFER_MECHLIST_SIGNATURE, SECBUFFER_MISSING, SECBUFFER_PKG_PARAMS, SECBUFFER_PRESHARED_KEY, SECBUFFER_PRESHARED_KEY_IDENTITY, SECBUFFER_READONLY, SECBUFFER_READONLY_WITH_CHECKSUM, SECBUFFER_SRTP_MASTER_KEY_IDENTIFIER, SECBUFFER_SRTP_PROTECTION_PROFILES, SECBUFFER_STREAM_HEADER, SECBUFFER_STREAM_TRAILER, SECBUFFER_TARGET, SECBUFFER_TARGET_HOST, SECBUFFER_TOKEN, SECBUFFER_TOKEN_BINDING, SecBuffer, SecBuffer structure [Security], _ssp_secbuffer, security.secbuffer, sspi/PSecBuffer, sspi/SecBuffer'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SecBuffer"
+f1_keywords:
+- sspi/SecBuffer
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SecBuffer
+- SecBuffer
 product: Windows
 targetos: Windows
 req.typenames: SecBuffer, *PSecBuffer
@@ -113,7 +113,7 @@ The buffer contains channel binding information.
 </dl>
 </td>
 <td width="60%">
-The buffer contains a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_domain_password_information">DOMAIN_PASSWORD_INFORMATION</a> structure.
+The buffer contains a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-domain_password_information">DOMAIN_PASSWORD_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -390,7 +390,7 @@ A pointer to a buffer.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbufferdesc">SecBufferDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a>
  
 
  

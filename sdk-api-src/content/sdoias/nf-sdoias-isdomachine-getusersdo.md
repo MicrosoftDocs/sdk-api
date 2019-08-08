@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUserSDO, GetUserSDO method [Network Policy Server], GetUserSDO method [Network Policy Server],ISdoMachine interface, GetUserSDO method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetUserSDO method, ISdoMachine.GetUserSDO, ISdoMachine::GetUserSDO, SdoMachine object [Network Policy Server],GetUserSDO method, _sdo_isdomachine_getusersdo, nps.SDO_isdomachine_getusersdo, sdo.isdomachine_getusersdo, sdoias/ISdoMachine::GetUserSDO
 ms.topic: method
-f1_keywords: 
- - "sdoias/ISdoMachine.GetUserSDO"
+f1_keywords:
+- sdoias/ISdoMachine.GetUserSDO
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: Iassdo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Iassdo.dll
+- Iassdo.dll
 api_name:
- - ISdoMachine.GetUserSDO
- - SdoMachine.GetUserSDO
+- ISdoMachine.GetUserSDO
+- SdoMachine.GetUserSDO
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The <b>GetUserSDO</b> method retrieves an interface
 
 ### -param eDataStore [in]
 
-Specifies a value from the <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasdatastore">IASDATASTORE</a> enumeration 
+Specifies a value from the <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasdatastore">IASDATASTORE</a> enumeration 
       type.
 
 
@@ -105,7 +105,7 @@ Before calling this method, use the
 If the SDO computer has a directory, then the 
     <b>ISdoMachine::GetUserSDO</b> automatically uses the 
     <b>DATA_STORE_DIRECTORY</b> value of 
-    <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasdatastore">IASDATASTORE</a> instead of 
+    <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasdatastore">IASDATASTORE</a> instead of 
     <b>DATA_STORE_LOCAL</b>.
 
 None of the parameters can be <b>NULL</b>.
@@ -130,7 +130,7 @@ None of the parameters can be <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_userproperties">USERPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-userproperties">USERPROPERTIES</a>
  
 
  

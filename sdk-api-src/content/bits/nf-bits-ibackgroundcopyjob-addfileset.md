@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddFileSet, AddFileSet method [BITS], AddFileSet method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],AddFileSet method, IBackgroundCopyJob.AddFileSet, IBackgroundCopyJob::AddFileSet, _drz_ibackgroundcopyjob_addfileset, bits.ibackgroundcopyjob_addfileset, bits/IBackgroundCopyJob::AddFileSet
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.AddFileSet"
+f1_keywords:
+- bits/IBackgroundCopyJob.AddFileSet
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.AddFileSet
+- IBackgroundCopyJob.AddFileSet
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Number of elements in <i>paFileSet</i>.
 ### -param pFileSet [in]
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-_bg_file_info">BG_FILE_INFO</a> structures that identify the local and remote file names of the files to transfer. 
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_file_info">BG_FILE_INFO</a> structures that identify the local and remote file names of the files to transfer. 
 
 
 

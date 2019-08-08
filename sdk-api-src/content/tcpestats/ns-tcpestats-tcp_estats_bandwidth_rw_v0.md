@@ -8,10 +8,10 @@ tech.root: IpHlp
 ms.assetid: a9bf5ad3-a8db-4194-8e47-5a7409391f4c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTCP_ESTATS_BANDWIDTH_RW_v0, PTCP_ESTATS_BANDWIDTH_RW_v0, PTCP_ESTATS_BANDWIDTH_RW_v0 structure pointer [IP Helper], TCP_ESTATS_BANDWIDTH_RW_v0, TCP_ESTATS_BANDWIDTH_RW_v0 structure [IP Helper], iphlp.tcp_estats_bandwidth_rw_v0, tcpestats/PTCP_ESTATS_BANDWIDTH_RW_v0, tcpestats/TCP_ESTATS_BANDWIDTH_RW_v0"
+ms.keywords: '*PTCP_ESTATS_BANDWIDTH_RW_v0, PTCP_ESTATS_BANDWIDTH_RW_v0, PTCP_ESTATS_BANDWIDTH_RW_v0 structure pointer [IP Helper], TCP_ESTATS_BANDWIDTH_RW_v0, TCP_ESTATS_BANDWIDTH_RW_v0 structure [IP Helper], iphlp.tcp_estats_bandwidth_rw_v0, tcpestats/PTCP_ESTATS_BANDWIDTH_RW_v0, tcpestats/TCP_ESTATS_BANDWIDTH_RW_v0'
 ms.topic: struct
-f1_keywords: 
- - "tcpestats/TCP_ESTATS_BANDWIDTH_RW_v0"
+f1_keywords:
+- tcpestats/TCP_ESTATS_BANDWIDTH_RW_v0
 req.header: tcpestats.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tcpestats.h
+- Tcpestats.h
 api_name:
- - TCP_ESTATS_BANDWIDTH_RW_v0
+- TCP_ESTATS_BANDWIDTH_RW_v0
 product: Windows
 targetos: Windows
 req.typenames: TCP_ESTATS_BANDWIDTH_RW_v0, *PTCP_ESTATS_BANDWIDTH_RW_v0
@@ -115,7 +115,7 @@ The <b>TCP_ESTATS_BANDWIDTH_RW_v0</b> structure is retrieved by calls to  the <a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-_tcp_boolean_optional">TCP_BOOLEAN_OPTIONAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-tcp_boolean_optional">TCP_BOOLEAN_OPTIONAL</a>
 
 
 

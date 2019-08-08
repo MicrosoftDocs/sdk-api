@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumEffectiveQuotas, EnumEffectiveQuotas method [File Server Resource Manager], EnumEffectiveQuotas method [File Server Resource Manager],FsrmQuotaManager class, EnumEffectiveQuotas method [File Server Resource Manager],IFsrmQuotaManager interface, EnumEffectiveQuotas method [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],EnumEffectiveQuotas method, IFsrmQuotaManager interface [File Server Resource Manager],EnumEffectiveQuotas method, IFsrmQuotaManager.EnumEffectiveQuotas, IFsrmQuotaManager::EnumEffectiveQuotas, IFsrmQuotaManagerEx interface [File Server Resource Manager],EnumEffectiveQuotas method, IFsrmQuotaManagerEx::EnumEffectiveQuotas, fs.ifsrmquotamanager_enumeffectivequotas, fsrm.ifsrmquotamanager_enumeffectivequotas, fsrmquota/IFsrmQuotaManager::EnumEffectiveQuotas, fsrmquota/IFsrmQuotaManagerEx::EnumEffectiveQuotas
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaManager.EnumEffectiveQuotas"
+f1_keywords:
+- fsrmquota/IFsrmQuotaManager.EnumEffectiveQuotas
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaManager.EnumEffectiveQuotas
- - IFsrmQuotaManagerEx.EnumEffectiveQuotas
- - FsrmQuotaManager.EnumEffectiveQuotas
+- IFsrmQuotaManager.EnumEffectiveQuotas
+- IFsrmQuotaManagerEx.EnumEffectiveQuotas
+- FsrmQuotaManager.EnumEffectiveQuotas
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ A local directory path. The string is limited to 260 characters.
 ### -param options [in]
 
 Options to use when enumerating the quotas. For possible values, see the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmenumoptions">FsrmEnumOptions</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmenumoptions">FsrmEnumOptions</a> enumeration.
 
 
 ### -param quotas [out]

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CTL_FIND_ANY, CTL_FIND_EXISTING, CTL_FIND_MD5_HASH, CTL_FIND_SAME_USAGE_FLAG, CTL_FIND_SHA1_HASH, CTL_FIND_SUBJECT, CTL_FIND_USAGE, CertFindCTLInStore, CertFindCTLInStore function [Security], _crypto2_certfindctlinstore, security.certfindctlinstore, wincrypt/CertFindCTLInStore
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertFindCTLInStore"
+f1_keywords:
+- wincrypt/CertFindCTLInStore
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertFindCTLInStore
+- CertFindCTLInStore
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -139,15 +139,15 @@ A CTL with a hash matching the hash in the <a href="https://docs.microsoft.com/p
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_find_usage_para">CTL_FIND_USAGE_PARA</a>.
+Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_find_usage_para">CTL_FIND_USAGE_PARA</a>.
 
-Any CTL is found that has a usage identifier, list identifier, or signer matching the usage identifier, list identifier, or signer in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_find_usage_para">CTL_FIND_USAGE_PARA</a> structure.
+Any CTL is found that has a usage identifier, list identifier, or signer matching the usage identifier, list identifier, or signer in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_find_usage_para">CTL_FIND_USAGE_PARA</a> structure.
 
 If the <b>cUsageIdentifier</b> member is of <b>SubjectUsage</b> size, any CTL is a match.
 
 If the <b>cbData</b> member of <b>ListIdentifier</b> member is zero, any list identifier is a match. If the <b>cbData</b> member of <b>ListIdentifier</b> is CTL_FIND_NO_LIST_ID_CBDATA, only a CTL without a list identifier is a match.
 
-If the <b>pSigner</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_find_usage_para">CTL_FIND_USAGE_PARA</a> structure is <b>NULL</b>, any CTL signer is a match, and only the <b>Issuer</b> and <b>SerialNumber</b> members in the <b>pSigner</b> <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure are used. If <b>pSigner</b> is CTL_FIND_NO_SIGNER_PTR, only a CTL without a signer is a match.
+If the <b>pSigner</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_find_usage_para">CTL_FIND_USAGE_PARA</a> structure is <b>NULL</b>, any CTL signer is a match, and only the <b>Issuer</b> and <b>SerialNumber</b> members in the <b>pSigner</b> <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure are used. If <b>pSigner</b> is CTL_FIND_NO_SIGNER_PTR, only a CTL without a signer is a match.
 
 </td>
 </tr>
@@ -158,9 +158,9 @@ If the <b>pSigner</b> member in the <a href="https://docs.microsoft.com/windows/
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_find_usage_para">CTL_FIND_USAGE_PARA</a>.
+Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_find_usage_para">CTL_FIND_USAGE_PARA</a>.
 
-Only CTLs with exactly the same usage identifiers are matched. CTLs having additional usage identifiers are not matched. For example, if only "1.2.3" is specified in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_find_usage_para">CTL_FIND_USAGE_PARA</a> structure, then for a match, the CTL must only contain "1.2.3" and no additional usage identifiers.
+Only CTLs with exactly the same usage identifiers are matched. CTLs having additional usage identifiers are not matched. For example, if only "1.2.3" is specified in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_find_usage_para">CTL_FIND_USAGE_PARA</a> structure, then for a match, the CTL must only contain "1.2.3" and no additional usage identifiers.
 
 </td>
 </tr>
@@ -171,9 +171,9 @@ Only CTLs with exactly the same usage identifiers are matched. CTLs having addit
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">PCCTL_CONTEXT</a>.
+Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">PCCTL_CONTEXT</a>.
 
-Searches for the next CRL that is an exact match of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a>.
+Searches for the next CRL that is an exact match of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>.
 
 </td>
 </tr>
@@ -184,9 +184,9 @@ Searches for the next CRL that is an exact match of the <a href="https://docs.mi
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_find_subject_para">CTL_FIND_SUBJECT_PARA</a>.
+Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_find_subject_para">CTL_FIND_SUBJECT_PARA</a>.
 
-A CTL having the specified subject is found. <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinctl">CertFindSubjectInCTL</a> can be called to get a pointer to the subject's entry in the CTL. The <b>pUsagePara</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_find_subject_para">CTL_FIND_SUBJECT_PARA</a> can optionally be set to enable the matching described preceding under CTL_FIND_USAGE.
+A CTL having the specified subject is found. <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinctl">CertFindSubjectInCTL</a> can be called to get a pointer to the subject's entry in the CTL. The <b>pUsagePara</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_find_subject_para">CTL_FIND_SUBJECT_PARA</a> can optionally be set to enable the matching described preceding under CTL_FIND_USAGE.
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ A pointer to the search value associated with the <i>dwFindType</i> parameter.
 ### -param pPrevCtlContext [in]
 
 A pointer to the last 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> returned by this function. It must be <b>NULL</b> to get the first CTL in the store. Successive CTLs are retrieved by setting <i>pPrevCtlContext</i> to the pointer to the <b>CTL_CONTEXT</b> returned by a previous function call. Any certificates that do not meet the search criteria or that have been previously deleted by 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> returned by this function. It must be <b>NULL</b> to get the first CTL in the store. Successive CTLs are retrieved by setting <i>pPrevCtlContext</i> to the pointer to the <b>CTL_CONTEXT</b> returned by a previous function call. Any certificates that do not meet the search criteria or that have been previously deleted by 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletectlfromstore">CertDeleteCTLFromStore</a> are skipped. This function frees the <b>CTL_CONTEXT</b> referenced by non-<b>NULL</b> values of this parameter.
 
 
@@ -268,11 +268,11 @@ A returned pointer is freed when passed as the <i>pPrevCtlContext</i> on a subse
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_find_usage_para">CTL_FIND_USAGE_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_find_usage_para">CTL_FIND_USAGE_PARA</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDXML_ELEMENT_LIST, WSDXML_ELEMENT_LIST structure, _WSDXML_ELEMENT_LIST, ncd.wsdxml_element_list_struct, wsdxmldom/WSDXML_ELEMENT_LIST
 ms.topic: struct
-f1_keywords: 
- - "wsdxmldom/WSDXML_ELEMENT_LIST"
+f1_keywords:
+- wsdxmldom/WSDXML_ELEMENT_LIST
 req.header: wsdxmldom.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdXmldom.h
+- WsdXmldom.h
 api_name:
- - WSDXML_ELEMENT_LIST
+- WSDXML_ELEMENT_LIST
 product: Windows
 targetos: Windows
 req.typenames: WSDXML_ELEMENT_LIST
@@ -66,5 +66,5 @@ Reference to the next node in the linked list of <b>WSDXML_ELEMENT_LIST</b> stru
 
 ### -field Element
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_element">WSDXML_ELEMENT</a> structure referenced by this node.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure referenced by this node.
 

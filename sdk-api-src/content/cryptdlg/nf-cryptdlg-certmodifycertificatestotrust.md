@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertModifyCertificatesToTrust, CertModifyCertificatesToTrust function [Security], cryptdlg/CertModifyCertificatesToTrust, security.certmodifycertificatestotrust
 ms.topic: function
-f1_keywords: 
- - "cryptdlg/CertModifyCertificatesToTrust"
+f1_keywords:
+- cryptdlg/CertModifyCertificatesToTrust
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: CryptDlg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CryptDlg.dll
+- CryptDlg.dll
 api_name:
- - CertModifyCertificatesToTrust
+- CertModifyCertificatesToTrust
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ The number of modification requests that are in the <i>rgCerts</i> parameter.
 
 ### -param rgCerts [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/ns-cryptdlg-_ctl_modify_request">CTL_MODIFY_REQUEST</a> structure that contains an array of modification requests.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/ns-cryptdlg-ctl_modify_request">CTL_MODIFY_REQUEST</a> structure that contains an array of modification requests.
 
 
 ### -param szPurpose [in]
@@ -86,7 +86,7 @@ A handle to the certificate store in which to modify the list of trusted certifi
 
 ### -param pccertSigner [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that contains a certificate. It is used to sign the trust list. The certificate also restricts the set of trust lists that may be modified. If <b>NULL</b>, the trust list is not signed.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains a certificate. It is used to sign the trust list. The certificate also restricts the set of trust lists that may be modified. If <b>NULL</b>, the trust list is not signed.
 
 
 ## -returns
@@ -103,7 +103,7 @@ An <b>HRESULT</b>. A value of S_OK indicates success.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/ns-cryptdlg-_ctl_modify_request">CTL_MODIFY_REQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/ns-cryptdlg-ctl_modify_request">CTL_MODIFY_REQUEST</a>
  
 
  

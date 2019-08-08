@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [MMC], Create method [MMC],IControlbar interface, IControlbar interface [MMC],Create method, IControlbar.Create, IControlbar::Create, _slate_icontrolbar_create, mmc.icontrolbar_create, mmc/IControlbar::Create
 ms.topic: method
-f1_keywords: 
- - "mmc/IControlbar.Create"
+f1_keywords:
+- mmc/IControlbar.Create
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IControlbar.Create
+- IControlbar.Create
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>IControlbar::Create</b> method creates and returns the control requested 
 ### -param nType [in]
 
 A value that specifies the type of control to be associated; taken from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_control_type">MMC_CONTROL_TYPE</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_control_type">MMC_CONTROL_TYPE</a> enumeration.
 
 
 ### -param pExtendControlbar [in]

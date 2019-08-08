@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GATD_INCLUDE_APPLICATION_NAME, GATD_INCLUDE_CLASS_NAME, GATD_INCLUDE_LIBRARY_APPS, GATD_INCLUDE_PROCESS_EXE_NAME, GATD_INCLUDE_SWC, GetAppTrackerDataFlags, GetAppTrackerDataFlags enumeration [COM+], comsvcs/GATD_INCLUDE_APPLICATION_NAME, comsvcs/GATD_INCLUDE_CLASS_NAME, comsvcs/GATD_INCLUDE_LIBRARY_APPS, comsvcs/GATD_INCLUDE_PROCESS_EXE_NAME, comsvcs/GATD_INCLUDE_SWC, comsvcs/GetAppTrackerDataFlags, cos.getapptrackerdataflags
 ms.topic: enum
-f1_keywords: 
- - "comsvcs/GetAppTrackerDataFlags"
+f1_keywords:
+- comsvcs/GetAppTrackerDataFlags
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - GetAppTrackerDataFlags
+- GetAppTrackerDataFlags
 product: Windows
 targetos: Windows
 req.typenames: GetAppTrackerDataFlags
@@ -61,7 +61,7 @@ Controls what data is returned from calls to the <a href="https://docs.microsoft
 
 ### -field GATD_INCLUDE_PROCESS_EXE_NAME
 
-Include the name of the process's executable image in the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-_applicationprocesssummary">ApplicationProcessSummary</a> structure. If set, it is the caller's responsibility to free the memory allocated for this string.
+Include the name of the process's executable image in the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-applicationprocesssummary">ApplicationProcessSummary</a> structure. If set, it is the caller's responsibility to free the memory allocated for this string.
 
 
 ### -field GATD_INCLUDE_LIBRARY_APPS
@@ -76,12 +76,12 @@ Include Services Without Components contexts in the tracking data. By default, t
 
 ### -field GATD_INCLUDE_CLASS_NAME
 
-Include the class name in the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-_componentsummary">ComponentSummary</a> structure. If set, it is the caller's responsibility to free the memory allocated for this string.
+Include the class name in the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-componentsummary">ComponentSummary</a> structure. If set, it is the caller's responsibility to free the memory allocated for this string.
 
 
 ### -field GATD_INCLUDE_APPLICATION_NAME
 
-Include the application name in the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-_applicationsummary">ApplicationSummary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-_componentsummary">ComponentSummary</a> structures. If set, it is the caller's responsibility to free the memory allocated for this string.
+Include the application name in the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-applicationsummary">ApplicationSummary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-componentsummary">ComponentSummary</a> structures. If set, it is the caller's responsibility to free the memory allocated for this string.
 
 
 ## -see-also

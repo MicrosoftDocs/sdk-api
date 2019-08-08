@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PBT_APMPOWERSTATUSCHANGE, PBT_APMRESUMEAUTOMATIC, PBT_APMSUSPEND, PIBIO_STORAGE_NOTIFY_POWER_CHANGE_FN, PIBIO_STORAGE_NOTIFY_POWER_CHANGE_FN callback, StorageAdapterNotifyPowerChange, StorageAdapterNotifyPowerChange callback function [Windows Biometric Framework API], secbiomet.storageadapternotifypowerchange, winbio_adapter/StorageAdapterNotifyPowerChange
 ms.topic: callback
-f1_keywords: 
- - "winbio_adapter/StorageAdapterNotifyPowerChange"
+f1_keywords:
+- winbio_adapter/StorageAdapterNotifyPowerChange
 req.header: winbio_adapter.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winbio_adapter.h
+- Winbio_adapter.h
 api_name:
- - StorageAdapterNotifyPowerChange
+- StorageAdapterNotifyPowerChange
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Called by the Windows Biometric Framework when the system is ready to enter a lo
 
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure 
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure 
       associated with the biometric unit performing the operation.
 
 

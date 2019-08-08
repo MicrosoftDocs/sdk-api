@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHFileOperation, SHFileOperation function [Windows Shell], SHFileOperationA, SHFileOperationW, _win32_SHFileOperation, shell.SHFileOperation, shellapi/SHFileOperation, shellapi/SHFileOperationA, shellapi/SHFileOperationW
 ms.topic: function
-f1_keywords: 
- - "shellapi/SHFileOperation"
+f1_keywords:
+- shellapi/SHFileOperation
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - SHFileOperation
- - SHFileOperationA
- - SHFileOperationW
+- SHFileOperation
+- SHFileOperationA
+- SHFileOperationW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ Copies, moves, renames, or deletes a file system object. This function has been 
 
 Type: <b>LPSHFILEOPSTRUCT</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileopstructa">SHFILEOPSTRUCT</a> structure that contains information this function needs to carry out the specified operation. This parameter must contain a valid value that is not <b>NULL</b>. You are responsible for validating the value. If you do not validate it, you will experience unexpected results.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa">SHFILEOPSTRUCT</a> structure that contains information this function needs to carry out the specified operation. This parameter must contain a valid value that is not <b>NULL</b>. You are responsible for validating the value. If you do not validate it, you will experience unexpected results.
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns zero if successful; otherwise nonzero. Applications normally should simp
 
                     
 
-It is good practice to examine the value of the <b>fAnyOperationsAborted</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileopstructa">SHFILEOPSTRUCT</a>. <b>SHFileOperation</b> can return 0 for success if the user cancels the operation. If you do not check <b>fAnyOperationsAborted</b> as well as the return value, you cannot know that the function accomplished the full task you asked of it and you might proceed under incorrect assumptions.
+It is good practice to examine the value of the <b>fAnyOperationsAborted</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa">SHFILEOPSTRUCT</a>. <b>SHFileOperation</b> can return 0 for success if the user cancels the operation. If you do not check <b>fAnyOperationsAborted</b> as well as the return value, you cannot know that the function accomplished the full task you asked of it and you might proceed under incorrect assumptions.
 
 Do not use <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> with the return values of this function.
 
@@ -238,7 +238,7 @@ You should use fully qualified path names with this function. Using it with rela
 
 With two exceptions, you cannot use <b>SHFileOperation</b> to move special folders from a local drive to a remote computer by specifying a network path. The exceptions are the <b>My Documents</b> (<a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_PERSONAL</a>, <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_DOCUMENTS</a>) and <b>My Pictures</b> folders (<a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_MYPICTURES</a>).
 
-When used to delete a file, <b>SHFileOperation</b> permanently deletes the file unless you set the <b>FOF_ALLOWUNDO</b> flag in the <b>fFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileopstructa">SHFILEOPSTRUCT</a> structure pointed to by <i>lpFileOp</i>. Setting that flag sends the file to the Recycle Bin. If you want to simply delete a file and guarantee that it is not placed in the Recycle Bin, use <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>.
+When used to delete a file, <b>SHFileOperation</b> permanently deletes the file unless you set the <b>FOF_ALLOWUNDO</b> flag in the <b>fFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa">SHFILEOPSTRUCT</a> structure pointed to by <i>lpFileOp</i>. Setting that flag sends the file to the Recycle Bin. If you want to simply delete a file and guarantee that it is not placed in the Recycle Bin, use <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>.
 
 If a copy callback handler is exposed and registered, <b>SHFileOperation</b> calls it unless you set a flag such as <b>FOF_NOCONFIRMATION</b> in the <b>fFlags</b> member of the structure pointed to by <i>lpFileOp</i>. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776048(v=vs.85)">ICopyHook::CopyCallback</a> for details on implementing copy callback handlers.
 

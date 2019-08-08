@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetConnectionEnum, NetConnectionEnum function [Files], _win32_netconnectionenum, fs.netconnectionenum, lmshare/NetConnectionEnum, netmgmt.netconnectionenum
 ms.topic: function
-f1_keywords: 
- - "lmshare/NetConnectionEnum"
+f1_keywords:
+- lmshare/NetConnectionEnum
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetConnectionEnum
+- NetConnectionEnum
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -95,7 +95,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
  Return connection identifiers. The <i>bufptr</i> parameter is a pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_connection_info_0">CONNECTION_INFO_0</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-connection_info_0">CONNECTION_INFO_0</a> structures.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
  Return connection identifiers and connection information. The <i>bufptr</i> parameter is a pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_connection_info_1">CONNECTION_INFO_1</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-connection_info_1">CONNECTION_INFO_1</a> structures.
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ Administrator, Server or Print Operator, or Power User group membership is requi
 
 The following code sample demonstrates how to list the connections made to a shared resource with a call to the 
 <b>NetConnectionEnum</b> function. The sample calls 
-<b>NetConnectionEnum</b>, specifying information level 1 (<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_connection_info_1">CONNECTION_INFO_1</a>). If there are entries to return, it prints the values of the <b>coni1_username</b> and <b>coni1_netname</b> members. If there are no entries to return, the sample prints an appropriate message. Finally, the code sample frees the memory allocated for the information buffer.
+<b>NetConnectionEnum</b>, specifying information level 1 (<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-connection_info_1">CONNECTION_INFO_1</a>). If there are entries to return, it prints the values of the <b>coni1_username</b> and <b>coni1_netname</b> members. If there are no entries to return, the sample prints an appropriate message. Finally, the code sample frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -264,11 +264,11 @@ void wmain(int argc, wchar_t *argv[ ])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_connection_info_0">CONNECTION_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-connection_info_0">CONNECTION_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_connection_info_1">CONNECTION_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-connection_info_1">CONNECTION_INFO_1</a>
 
 
 

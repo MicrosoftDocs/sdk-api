@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 943af430-19b2-481a-9cac-cd4cb767d96a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_SETPALETTEDATA, DD_SETPALETTEDATA, DD_SETPALETTEDATA structure [Display Devices], ddrawint/DD_SETPALETTEDATA, ddstrcts_254301f1-b163-4402-92b2-70a2632f5ebc.xml, display.dd_setpalettedata"
+ms.keywords: '*PDD_SETPALETTEDATA, DD_SETPALETTEDATA, DD_SETPALETTEDATA structure [Display Devices], ddrawint/DD_SETPALETTEDATA, ddstrcts_254301f1-b163-4402-92b2-70a2632f5ebc.xml, display.dd_setpalettedata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_SETPALETTEDATA"
+f1_keywords:
+- ddrawint/DD_SETPALETTEDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_SETPALETTEDATA
+- DD_SETPALETTEDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_SETPALETTEDATA, DD_SETPALETTEDATA"
+req.typenames: '*PDD_SETPALETTEDATA, DD_SETPALETTEDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,17 +61,17 @@ The DD_SETPALETTEDATA structure contains information necessary to set a palette 
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 
 ### -field lpDDSurface
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure that represents the DirectDrawSurface object. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that represents the DirectDrawSurface object. 
 
 
 ### -field lpDDPalette
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_palette_global">DD_PALETTE_GLOBAL</a> structure that specifies the palette to set to the surface. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_palette_global">DD_PALETTE_GLOBAL</a> structure that specifies the palette to set to the surface. 
 
 
 ### -field ddRVal

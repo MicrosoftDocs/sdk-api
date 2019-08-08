@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 37da1071-b665-405c-a4ce-f1a484aeb19b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PIPX_SERVICE, IPX_SERVICE, IPX_SERVICE structure [RAS], PIPX_SERVICE, PIPX_SERVICE structure pointer [RAS], _mpr_ipx_service, rras.ipx_service, stm/IPX_SERVICE, stm/PIPX_SERVICE"
+ms.keywords: '*PIPX_SERVICE, IPX_SERVICE, IPX_SERVICE structure [RAS], PIPX_SERVICE, PIPX_SERVICE structure pointer [RAS], _mpr_ipx_service, rras.ipx_service, stm/IPX_SERVICE, stm/PIPX_SERVICE'
 ms.topic: struct
-f1_keywords: 
- - "stm/IPX_SERVICE"
+f1_keywords:
+- stm/IPX_SERVICE
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Stm.h
+- Stm.h
 api_name:
- - IPX_SERVICE
+- IPX_SERVICE
 product: Windows
 targetos: Windows
 req.typenames: IPX_SERVICE, *PIPX_SERVICE
@@ -80,7 +80,7 @@ Contains the identifier of the protocol that obtained the service information. S
 #### - Service
 
 Specifies an 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-_ipx_server_entry">IPX_SERVER_ENTRY</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_server_entry">IPX_SERVER_ENTRY</a> structure.
 
 
 ## -see-also
@@ -92,7 +92,7 @@ Specifies an
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-_ipx_server_entry">IPX_SERVER_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_server_entry">IPX_SERVER_ENTRY</a>
 
 
 

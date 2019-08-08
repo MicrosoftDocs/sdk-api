@@ -8,10 +8,10 @@ tech.root: perfctrs
 ms.assetid: 4F490C3C-F587-4E7B-B316-162EDA76EC30
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPERF_MULTI_COUNTERS, PERF_MULTI_COUNTERS, PERF_MULTI_COUNTERS structure [Perf], PPERF_MULTI_COUNTERS, PPERF_MULTI_COUNTERS structure pointer [Perf], perf.perf_multi_counters, perflib/PERF_MULTI_COUNTERS, perflib/PPERF_MULTI_COUNTERS"
+ms.keywords: '*PPERF_MULTI_COUNTERS, PERF_MULTI_COUNTERS, PERF_MULTI_COUNTERS structure [Perf], PPERF_MULTI_COUNTERS, PPERF_MULTI_COUNTERS structure pointer [Perf], perf.perf_multi_counters, perflib/PERF_MULTI_COUNTERS, perflib/PPERF_MULTI_COUNTERS'
 ms.topic: struct
-f1_keywords: 
- - "perflib/PERF_MULTI_COUNTERS"
+f1_keywords:
+- perflib/PERF_MULTI_COUNTERS
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Perflib.h
+- Perflib.h
 api_name:
- - PERF_MULTI_COUNTERS
+- PERF_MULTI_COUNTERS
 product: Windows
 targetos: Windows
 req.typenames: PERF_MULTI_COUNTERS, *PPERF_MULTI_COUNTERS
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides information about the <b>PERF_MULTI_COUNTERS</b> block that contains the structure. A <b>PERF_MULTI_COUNTERS</b> block indicates the performance counters for which results are provided as part of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_header">PERF_COUNTER_HEADER</a> block in multiple-counter query. The <b>PERF_MULTI_COUNTERS</b> block consists of a <b>PERF_MULTI_COUNTERS</b> structure
+Provides information about the <b>PERF_MULTI_COUNTERS</b> block that contains the structure. A <b>PERF_MULTI_COUNTERS</b> block indicates the performance counters for which results are provided as part of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_header">PERF_COUNTER_HEADER</a> block in multiple-counter query. The <b>PERF_MULTI_COUNTERS</b> block consists of a <b>PERF_MULTI_COUNTERS</b> structure
 followed by a sequence of <b>DWORD</b> values that specify performance counter identifiers.
 
 
@@ -74,8 +74,8 @@ The number of performance counter identifiers that the <b>PERF_MULTI_COUNTERS</b
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a> function gets a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_data_header">PERF_DATA_HEADER</a> block that may
-contain a <b>PERF_MULTI_COUNTERS</b> block within the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_header">PERF_COUNTER_HEADER</a> block.
+The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a> function gets a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_data_header">PERF_DATA_HEADER</a> block that may
+contain a <b>PERF_MULTI_COUNTERS</b> block within the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_header">PERF_COUNTER_HEADER</a> block.
 
 
 
@@ -85,11 +85,11 @@ contain a <b>PERF_MULTI_COUNTERS</b> block within the <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_header">PERF_COUNTER_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_header">PERF_COUNTER_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_data_header">PERF_DATA_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_data_header">PERF_DATA_HEADER</a>
 
 
 

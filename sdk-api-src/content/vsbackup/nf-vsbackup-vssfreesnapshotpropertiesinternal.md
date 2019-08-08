@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VssFreeSnapshotProperties, VssFreeSnapshotProperties function [VSS], VssFreeSnapshotPropertiesInternal, _win32_vssfreesnapshotproperties, base.vssfreesnapshotproperties, vsbackup/VssFreeSnapshotProperties, vsbackup/VssFreeSnapshotPropertiesInternal
 ms.topic: function
-f1_keywords: 
- - "vsbackup/VssFreeSnapshotProperties"
+f1_keywords:
+- vsbackup/VssFreeSnapshotProperties
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: VssApi.lib
 req.dll: VssApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VssApi.dll
- - Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
+- VssApi.dll
+- Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
 api_name:
- - VssFreeSnapshotProperties
- - VssFreeSnapshotPropertiesInternal
+- VssFreeSnapshotProperties
+- VssFreeSnapshotPropertiesInternal
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -54,14 +54,14 @@ ms.custom: 19H1
 
 
 The <b>VssFreeSnapshotProperties</b> function is 
-    used to free the contents of a <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> 
+    used to free the contents of a <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> 
     structure as part of managing its life cycle. The 
     <b>VSS_SNAPSHOT_PROP</b> structure is typically obtained by 
     using the 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties">IVssBackupComponents::GetSnapshotProperties</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsssoftwaresnapshotprovider-getsnapshotproperties">IVssSoftwareSnapshotProvider::GetSnapshotProperties</a> method.
 
 This function can also be used to initialize a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure before use or before 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure before use or before 
     freeing the structure.
 <div class="alert"><b>Note</b>  This function is exported as <b>VssFreeSnapshotPropertiesInternal</b>, but you should call <b>VssFreeSnapshotProperties</b>, not <b>VssFreeSnapshotPropertiesInternal</b>.</div><div> </div>
 
@@ -72,7 +72,7 @@ This function can also be used to initialize a
 
 ### -param pProp [in]
 
-Pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> 
+Pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> 
       object.
 
 
@@ -98,7 +98,7 @@ This function does not return a value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a>
  
 
  

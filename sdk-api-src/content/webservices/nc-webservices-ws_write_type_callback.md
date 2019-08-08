@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_WRITE_TYPE_CALLBACK, WS_WRITE_TYPE_CALLBACK callback, WS_WRITE_TYPE_CALLBACK callback function [Web Services for Windows], webservices/WS_WRITE_TYPE_CALLBACK, wsw.ws_write_type_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_WRITE_TYPE_CALLBACK"
+f1_keywords:
+- webservices/WS_WRITE_TYPE_CALLBACK
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_WRITE_TYPE_CALLBACK
+- WS_WRITE_TYPE_CALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -81,7 +81,7 @@ If a mapping does not make sense for this particular type, the callback
 
 ### -param *descriptionData [in]
 
-This is the value of the <b>descriptionData</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_type_description">WS_CUSTOM_TYPE_DESCRIPTION</a> structure.
+This is the value of the <b>descriptionData</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_custom_type_description">WS_CUSTOM_TYPE_DESCRIPTION</a> structure.
                     The callback uses this field to access any additional information about the type.
                 
 

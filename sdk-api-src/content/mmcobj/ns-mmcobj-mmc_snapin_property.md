@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_SNAPIN_PROPERTY, MMC_SNAPIN_PROPERTY structure [MMC], _slate_mmc_snapin_property, mmc.mmc_snapin_property, mmcobj/MMC_SNAPIN_PROPERTY
 ms.topic: struct
-f1_keywords: 
- - "mmcobj/MMC_SNAPIN_PROPERTY"
+f1_keywords:
+- mmcobj/MMC_SNAPIN_PROPERTY
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmcobj.h
+- Mmcobj.h
 api_name:
- - MMC_SNAPIN_PROPERTY
+- MMC_SNAPIN_PROPERTY
 product: Windows
 targetos: Windows
 req.typenames: MMC_SNAPIN_PROPERTY
@@ -76,7 +76,7 @@ The property's value; if the property is being changed, this is the new value.
 ### -field eAction
 
 The action taking place on the property, as defined in 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ne-mmcobj-_mmc_property_action">MMC_PROPERTY_ACTION</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ne-mmcobj-mmc_property_action">MMC_PROPERTY_ACTION</a>.
 
 
 ## -see-also
@@ -88,7 +88,7 @@ The action taking place on the property, as defined in
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ne-mmcobj-_mmc_property_action">MMC_PROPERTY_ACTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/ne-mmcobj-mmc_property_action">MMC_PROPERTY_ACTION</a>
  
 
  

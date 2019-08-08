@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig interface [DirectShow],Reconnect method, IGraphConfig.Reconnect, IGraphConfig::Reconnect, IGraphConfigReconnect, Reconnect, Reconnect method [DirectShow], Reconnect method [DirectShow],IGraphConfig interface, dshow.igraphconfig_reconnect, strmif/IGraphConfig::Reconnect
 ms.topic: method
-f1_keywords: 
- - "strmif/IGraphConfig.Reconnect"
+f1_keywords:
+- strmif/IGraphConfig.Reconnect
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IGraphConfig.Reconnect
+- IGraphConfig.Reconnect
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -90,7 +90,7 @@ Handle to an event. If the caller is a filter calling on one of its data process
 
 ### -param dwFlags [in]
 
-Combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_am_graph_config_reconnect_flags">AM_GRAPH_CONFIG_RECONNECT_FLAGS</a> enumeration, specifying how to perform the reconnection.
+Combination of flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-am_graph_config_reconnect_flags">AM_GRAPH_CONFIG_RECONNECT_FLAGS</a> enumeration, specifying how to perform the reconnection.
 
 
 ## -returns

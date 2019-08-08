@@ -8,10 +8,10 @@ tech.root: MsCS
 ms.assetid: 9c2bc2ca-41e5-4e07-a3a2-d762ea5565e1
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSTER_IP_ENTRY, CLUSTER_IP_ENTRY, CLUSTER_IP_ENTRY structure [Failover Cluster], PCLUSTER_IP_ENTRY, PCLUSTER_IP_ENTRY structure pointer [Failover Cluster], clusapi/CLUSTER_IP_ENTRY, clusapi/PCLUSTER_IP_ENTRY, mscs.cluster_ip_entry"
+ms.keywords: '*PCLUSTER_IP_ENTRY, CLUSTER_IP_ENTRY, CLUSTER_IP_ENTRY structure [Failover Cluster], PCLUSTER_IP_ENTRY, PCLUSTER_IP_ENTRY structure pointer [Failover Cluster], clusapi/CLUSTER_IP_ENTRY, clusapi/PCLUSTER_IP_ENTRY, mscs.cluster_ip_entry'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUSTER_IP_ENTRY"
+f1_keywords:
+- clusapi/CLUSTER_IP_ENTRY
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSTER_IP_ENTRY
+- CLUSTER_IP_ENTRY
 product: Windows
 targetos: Windows
 req.typenames: CLUSTER_IP_ENTRY, *PCLUSTER_IP_ENTRY
@@ -81,7 +81,7 @@ To specify a DHCP address, use the network identifier (all bits in the subnet se
 
 A pointer to an array of <b>CLUSTER_IP_ENTRY</b> 
     structures is passed in the <b>pIpEntries</b> member of the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_create_cluster_config">CREATE_CLUSTER_CONFIG</a> structure, which is in turn 
+    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-create_cluster_config">CREATE_CLUSTER_CONFIG</a> structure, which is in turn 
     passed as the <i>pConfig</i> parameter of the 
     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a> function.
 
@@ -93,7 +93,7 @@ A pointer to an array of <b>CLUSTER_IP_ENTRY</b>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_create_cluster_config">CREATE_CLUSTER_CONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-create_cluster_config">CREATE_CLUSTER_CONFIG</a>
 
 
 

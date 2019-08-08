@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_QUERY_VOLUME_TAGS, IOCTL_CHANGER_QUERY_VOLUME_TAGS control, IOCTL_CHANGER_QUERY_VOLUME_TAGS control code, _win32_ioctl_changer_query_volume_tags, base.ioctl_changer_query_volume_tags, winioctl/IOCTL_CHANGER_QUERY_VOLUME_TAGS
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_CHANGER_QUERY_VOLUME_TAGS"
+f1_keywords:
+- winioctl/IOCTL_CHANGER_QUERY_VOLUME_TAGS
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_CHANGER_QUERY_VOLUME_TAGS
+- IOCTL_CHANGER_QUERY_VOLUME_TAGS
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -162,7 +162,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_read_element_address_info">READ_ELEMENT_ADDRESS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-read_element_address_info">READ_ELEMENT_ADDRESS_INFO</a>
  
 
  

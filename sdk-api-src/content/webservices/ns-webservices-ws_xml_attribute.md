@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_ATTRIBUTE, WS_XML_ATTRIBUTE structure [Web Services for Windows], webservices/WS_XML_ATTRIBUTE, wsw.ws_xml_attribute
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_XML_ATTRIBUTE"
+f1_keywords:
+- webservices/WS_XML_ATTRIBUTE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_ATTRIBUTE
+- WS_XML_ATTRIBUTE
 product: Windows
 targetos: Windows
 req.typenames: WS_XML_ATTRIBUTE
@@ -96,6 +96,6 @@ The namespace of the attribute.  In the example above, the namespace for the att
 
 ### -field value
 
-The value of the attribute.  In the example above the value for attribute "xmlns:a" is not used so it is <b>NULL</b>.  The value for the attribute "id" is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_text">WS_XML_TEXT</a> that refers to the value "5".
+The value of the attribute.  In the example above the value for attribute "xmlns:a" is not used so it is <b>NULL</b>.  The value for the attribute "id" is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a> that refers to the value "5".
         
 

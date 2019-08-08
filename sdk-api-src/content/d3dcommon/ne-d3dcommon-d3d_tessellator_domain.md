@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_TESSELLATOR_DOMAIN, D3D11_TESSELLATOR_DOMAIN enumeration [Direct3D 11], D3D11_TESSELLATOR_DOMAIN_ISOLINE, D3D11_TESSELLATOR_DOMAIN_QUAD, D3D11_TESSELLATOR_DOMAIN_TRI, D3D11_TESSELLATOR_DOMAIN_UNDEFINED, D3D_TESSELLATOR_DOMAIN, b9d735b7-3708-663e-40ab-0d0f519b8b89, d3d11shader/D3D11_TESSELLATOR_DOMAIN, d3d11shader/D3D11_TESSELLATOR_DOMAIN_ISOLINE, d3d11shader/D3D11_TESSELLATOR_DOMAIN_QUAD, d3d11shader/D3D11_TESSELLATOR_DOMAIN_TRI, d3d11shader/D3D11_TESSELLATOR_DOMAIN_UNDEFINED, d3dcommon/D3D11_TESSELLATOR_DOMAIN, d3dcommon/D3D11_TESSELLATOR_DOMAIN_ISOLINE, d3dcommon/D3D11_TESSELLATOR_DOMAIN_QUAD, d3dcommon/D3D11_TESSELLATOR_DOMAIN_TRI, d3dcommon/D3D11_TESSELLATOR_DOMAIN_UNDEFINED, direct3d11.d3d11_tessellator_domain
 ms.topic: enum
-f1_keywords: 
- - "d3dcommon/D3D11_TESSELLATOR_DOMAIN"
+f1_keywords:
+- d3dcommon/D3D11_TESSELLATOR_DOMAIN
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11Shader.h
- - d3dcommon.h
+- D3D11Shader.h
+- d3dcommon.h
 api_name:
- - D3D11_TESSELLATOR_DOMAIN
+- D3D11_TESSELLATOR_DOMAIN
 product: Windows
 targetos: Windows
 req.typenames: D3D_TESSELLATOR_DOMAIN
@@ -96,7 +96,7 @@ Quad data.
 
 
 
-The data domain defines the type of data. This enumeration is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_shader_desc">D3D11_SHADER_DESC</a>.
+The data domain defines the type of data. This enumeration is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-d3d11_shader_desc">D3D11_SHADER_DESC</a>.
 
 The <b>D3D11_TESSELLATOR_DOMAIN</b>     enumeration is type defined in the  D3D11Shader.h header file as a <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_tessellator_domain">D3D_TESSELLATOR_DOMAIN</a> enumeration, which is fully defined in the  D3DCommon.h header file.
 

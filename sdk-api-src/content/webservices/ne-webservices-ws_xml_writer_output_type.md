@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_WRITER_OUTPUT_TYPE, WS_XML_WRITER_OUTPUT_TYPE enumeration [Web Services for Windows], WS_XML_WRITER_OUTPUT_TYPE_BUFFER, WS_XML_WRITER_OUTPUT_TYPE_STREAM, webservices/WS_XML_WRITER_OUTPUT_TYPE, webservices/WS_XML_WRITER_OUTPUT_TYPE_BUFFER, webservices/WS_XML_WRITER_OUTPUT_TYPE_STREAM, wsw.ws_xml_writer_output_type
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_XML_WRITER_OUTPUT_TYPE"
+f1_keywords:
+- webservices/WS_XML_WRITER_OUTPUT_TYPE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_WRITER_OUTPUT_TYPE
+- WS_XML_WRITER_OUTPUT_TYPE
 product: Windows
 targetos: Windows
 req.typenames: WS_XML_WRITER_OUTPUT_TYPE
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The type of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_writer_output">WS_XML_WRITER_OUTPUT</a> structure.
+The type of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_output">WS_XML_WRITER_OUTPUT</a> structure.
       
 
 

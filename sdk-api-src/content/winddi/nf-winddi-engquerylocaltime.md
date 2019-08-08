@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngQueryLocalTime, EngQueryLocalTime function [Display Devices], display.engquerylocaltime, gdifncs_268682b0-aef3-4241-b49c-1cea87ec4f29.xml, winddi/EngQueryLocalTime
 ms.topic: function
-f1_keywords: 
- - "winddi/EngQueryLocalTime"
+f1_keywords:
+- winddi/EngQueryLocalTime
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,17 +30,17 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Win32k.sys
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - EngQueryLocalTime
+- EngQueryLocalTime
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ The <b>EngQueryLocalTime</b> function queries the local time.
 
 ### -param Arg1 [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_eng_time_fields">ENG_TIME_FIELDS</a> structure that receives the local time.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-eng_time_fields">ENG_TIME_FIELDS</a> structure that receives the local time.
 
 
 ## -returns
@@ -90,7 +90,7 @@ None
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_eng_time_fields">ENG_TIME_FIELDS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-eng_time_fields">ENG_TIME_FIELDS</a>
  
 
  

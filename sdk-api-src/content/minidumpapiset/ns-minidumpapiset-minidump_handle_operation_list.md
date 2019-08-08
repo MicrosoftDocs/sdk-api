@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: f7666ff5-a1ae-4ffb-b4ee-9fe5bb58fd36
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_HANDLE_OPERATION_LIST, MINIDUMP_HANDLE_OPERATION_LIST, MINIDUMP_HANDLE_OPERATION_LIST structure, PMINIDUMP_HANDLE_OPERATION_LIST, PMINIDUMP_HANDLE_OPERATION_LIST structure pointer, _MINIDUMP_HANDLE_OPERATION_LISTa, base.minidump_handle_operation_list, minidumpapiset/MINIDUMP_HANDLE_OPERATION_LIST, minidumpapiset/PMINIDUMP_HANDLE_OPERATION_LIST"
+ms.keywords: '*PMINIDUMP_HANDLE_OPERATION_LIST, MINIDUMP_HANDLE_OPERATION_LIST, MINIDUMP_HANDLE_OPERATION_LIST structure, PMINIDUMP_HANDLE_OPERATION_LIST, PMINIDUMP_HANDLE_OPERATION_LIST structure pointer, _MINIDUMP_HANDLE_OPERATION_LISTa, base.minidump_handle_operation_list, minidumpapiset/MINIDUMP_HANDLE_OPERATION_LIST, minidumpapiset/PMINIDUMP_HANDLE_OPERATION_LIST'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_HANDLE_OPERATION_LIST"
+f1_keywords:
+- minidumpapiset/MINIDUMP_HANDLE_OPERATION_LIST
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_HANDLE_OPERATION_LIST
+- MINIDUMP_HANDLE_OPERATION_LIST
 product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_HANDLE_OPERATION_LIST, *PMINIDUMP_HANDLE_OPERATION_LIST
@@ -93,7 +93,7 @@ For a definition of the <b>AVRF_HANDLE_OPERATION</b> structure, see the Avrfsdk.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
  
 
  

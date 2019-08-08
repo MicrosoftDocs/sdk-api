@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_FLAG_AUTH_BASIC, WSMAN_FLAG_AUTH_CLIENT_CERTIFICATE, WSMAN_FLAG_AUTH_CREDSSP, WSMAN_FLAG_AUTH_DIGEST, WSMAN_FLAG_AUTH_KERBEROS, WSMAN_FLAG_AUTH_NEGOTIATE, WSMAN_FLAG_DEFAULT_AUTHENTICATION, WSMAN_FLAG_NO_AUTHENTICATION, WSManAuthenticationFlags, WSManAuthenticationFlags enumeration [Windows Remote Management], winrm.wsmanauthenticationflags, wsman/WSMAN_FLAG_AUTH_BASIC, wsman/WSMAN_FLAG_AUTH_CLIENT_CERTIFICATE, wsman/WSMAN_FLAG_AUTH_CREDSSP, wsman/WSMAN_FLAG_AUTH_DIGEST, wsman/WSMAN_FLAG_AUTH_KERBEROS, wsman/WSMAN_FLAG_AUTH_NEGOTIATE, wsman/WSMAN_FLAG_DEFAULT_AUTHENTICATION, wsman/WSMAN_FLAG_NO_AUTHENTICATION, wsman/WSManAuthenticationFlags
 ms.topic: enum
-f1_keywords: 
- - "wsman/WSManAuthenticationFlags"
+f1_keywords:
+- wsman/WSManAuthenticationFlags
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSManAuthenticationFlags
+- WSManAuthenticationFlags
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -96,5 +96,5 @@ Use CredSSP authentication for a remote operation. If a certificate from the loc
 
 ### -field WSMAN_FLAG_AUTH_CLIENT_CERTIFICATE
 
-Use client certificate authentication. The certificate thumbprint is passed as part of the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_authentication_credentials">WSMAN_AUTHENTICATION_CREDENTIALS</a> structure. The WinRM client will try to find the certificate in the computer store and then, if it is not found, in the current user store. If no matching certificate is found, an error will be reported to the user.
+Use client certificate authentication. The certificate thumbprint is passed as part of the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_authentication_credentials">WSMAN_AUTHENTICATION_CREDENTIALS</a> structure. The WinRM client will try to find the certificate in the computer store and then, if it is not found, in the current user store. If no matching certificate is found, an error will be reported to the user.
 

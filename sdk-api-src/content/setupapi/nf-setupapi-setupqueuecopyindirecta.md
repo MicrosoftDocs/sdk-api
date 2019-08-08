@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupQueueCopyIndirect, SetupQueueCopyIndirect function [Setup API], SetupQueueCopyIndirectA, SetupQueueCopyIndirectW, _setupapi_setupqueuecopyindirect, setup.setupqueuecopyindirect, setupapi/SetupQueueCopyIndirect, setupapi/SetupQueueCopyIndirectA, setupapi/SetupQueueCopyIndirectW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupQueueCopyIndirect"
+f1_keywords:
+- setupapi/SetupQueueCopyIndirect
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupQueueCopyIndirect
- - SetupQueueCopyIndirectA
- - SetupQueueCopyIndirectW
+- SetupQueueCopyIndirect
+- SetupQueueCopyIndirectA
+- SetupQueueCopyIndirectW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 The 
 <b>SetupQueueCopyIndirect</b> function is an extended form of 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupqueuecopya">SetupQueueCopy</a> passing additional parameters as a structure (<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_file_copy_params_a">SP_FILE_COPY_PARAMS</a>). Other than this, the behavior is identical.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupqueuecopya">SetupQueueCopy</a> passing additional parameters as a structure (<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_file_copy_params_a">SP_FILE_COPY_PARAMS</a>). Other than this, the behavior is identical.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ The
 ### -param CopyParams [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_file_copy_params_a">SP_FILE_COPY_PARAMS</a> structure that describes the file copy operation.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_file_copy_params_a">SP_FILE_COPY_PARAMS</a> structure that describes the file copy operation.
 
 
 ## -returns

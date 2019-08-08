@@ -8,10 +8,10 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcestructures\message_resource_data.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMESSAGE_RESOURCE_DATA, MESSAGE_RESOURCE_DATA, MESSAGE_RESOURCE_DATA structure [Menus and Other Resources], PMESSAGE_RESOURCE_DATA, PMESSAGE_RESOURCE_DATA structure pointer [Menus and Other Resources], _win32_MESSAGE_RESOURCE_DATA_str, _win32_message_resource_data_str_cpp, menurc.message_resource_data, winnt/MESSAGE_RESOURCE_DATA, winnt/PMESSAGE_RESOURCE_DATA, winui._win32_message_resource_data_str"
+ms.keywords: '*PMESSAGE_RESOURCE_DATA, MESSAGE_RESOURCE_DATA, MESSAGE_RESOURCE_DATA structure [Menus and Other Resources], PMESSAGE_RESOURCE_DATA, PMESSAGE_RESOURCE_DATA structure pointer [Menus and Other Resources], _win32_MESSAGE_RESOURCE_DATA_str, _win32_message_resource_data_str_cpp, menurc.message_resource_data, winnt/MESSAGE_RESOURCE_DATA, winnt/PMESSAGE_RESOURCE_DATA, winui._win32_message_resource_data_str'
 ms.topic: struct
-f1_keywords: 
- - "winnt/MESSAGE_RESOURCE_DATA"
+f1_keywords:
+- winnt/MESSAGE_RESOURCE_DATA
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - MESSAGE_RESOURCE_DATA
+- MESSAGE_RESOURCE_DATA
 product: Windows
 targetos: Windows
 req.typenames: MESSAGE_RESOURCE_DATA, *PMESSAGE_RESOURCE_DATA
@@ -63,12 +63,12 @@ Contains information about formatted text for display as an error message or in 
 
 Type: <b>DWORD</b>
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_message_resource_block">MESSAGE_RESOURCE_BLOCK</a> structures. 
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-message_resource_block">MESSAGE_RESOURCE_BLOCK</a> structures. 
 
 
 ### -field Blocks
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_message_resource_block">MESSAGE_RESOURCE_BLOCK</a>[1]</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-message_resource_block">MESSAGE_RESOURCE_BLOCK</a>[1]</b>
 
 An array of structures. The array is the size indicated by the 
 					<b>NumberOfBlocks</b>  member. 
@@ -79,7 +79,7 @@ An array of structures. The array is the size indicated by the
 
 
 A <b>MESSAGE_RESOURCE_DATA</b> structure can contain one or more 
-				<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_message_resource_block">MESSAGE_RESOURCE_BLOCK</a> structures, which can each contain one or more <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_message_resource_entry">MESSAGE_RESOURCE_ENTRY</a> structures. 
+				<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-message_resource_block">MESSAGE_RESOURCE_BLOCK</a> structures, which can each contain one or more <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-message_resource_entry">MESSAGE_RESOURCE_ENTRY</a> structures. 
 
 
 
@@ -93,11 +93,11 @@ A <b>MESSAGE_RESOURCE_DATA</b> structure can contain one or more
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_message_resource_block">MESSAGE_RESOURCE_BLOCK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-message_resource_block">MESSAGE_RESOURCE_BLOCK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_message_resource_entry">MESSAGE_RESOURCE_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-message_resource_entry">MESSAGE_RESOURCE_ENTRY</a>
 
 
 

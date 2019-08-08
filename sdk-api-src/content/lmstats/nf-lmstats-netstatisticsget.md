@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, NetStatisticsGet, NetStatisticsGet function [Files], _win32_netstatisticsget, fs.netstatisticsget, lmstats/NetStatisticsGet, netmgmt.netstatisticsget
 ms.topic: function
-f1_keywords: 
- - "lmstats/NetStatisticsGet"
+f1_keywords:
+- lmstats/NetStatisticsGet
 req.header: lmstats.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetStatisticsGet
+- NetStatisticsGet
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -88,7 +88,7 @@ Specifies the information level of the data. This parameter can be the following
 <td width="60%">
 Return statistics about a workstation or a server. The <i>bufptr</i> parameter points to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmstats/ns-lmstats-_stat_workstation_0">STAT_WORKSTATION_0</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmstats/ns-lmstats-_stat_server_0">STAT_SERVER_0</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmstats/ns-lmstats-stat_server_0">STAT_SERVER_0</a> structure.
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ No special group membership is required to obtain workstation statistics. Only m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmstats/ns-lmstats-_stat_server_0">STAT_SERVER_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmstats/ns-lmstats-stat_server_0">STAT_SERVER_0</a>
 
 
 

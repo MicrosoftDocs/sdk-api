@@ -8,10 +8,10 @@ tech.root: http
 ms.assetid: 02330a12-aab0-4181-b3da-36c6b22dae67
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS, *PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS structure [HTTP], HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS, HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS structure [HTTP], http.http_server_authentication_basic_params, http/*PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS, http/HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS"
+ms.keywords: '*PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS, *PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS structure [HTTP], HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS, HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS structure [HTTP], http.http_server_authentication_basic_params, http/*PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS, http/HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS"
+f1_keywords:
+- http/HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS
+- HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS
 product: Windows
 targetos: Windows
 req.typenames: HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS, *PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS</b> structure contains the information for Basic authentication on a URL Group.
 
-This structure is contained in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a> structure.
+This structure is contained in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a> structure.
 
 
 ## -struct-fields
@@ -82,7 +82,7 @@ The realm allows the  server to be partitioned into a set of protection spaces, 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a>
  
 
  

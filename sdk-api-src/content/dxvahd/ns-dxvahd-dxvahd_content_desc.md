@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_CONTENT_DESC, DXVAHD_CONTENT_DESC structure [Media Foundation], dxvahd/DXVAHD_CONTENT_DESC, mf.dxvahd_content_desc
 ms.topic: struct
-f1_keywords: 
- - "dxvahd/DXVAHD_CONTENT_DESC"
+f1_keywords:
+- dxvahd/DXVAHD_CONTENT_DESC
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - DXVAHD_CONTENT_DESC
+- DXVAHD_CONTENT_DESC
 product: Windows
 targetos: Windows
 req.typenames: DXVAHD_CONTENT_DESC
@@ -63,12 +63,12 @@ The display driver can use the information in this structure to optimize the cap
 
 ### -field InputFrameFormat
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_frame_format">DXVAHD_FRAME_FORMAT</a> enumeration that describes how the video stream is interlaced.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_frame_format">DXVAHD_FRAME_FORMAT</a> enumeration that describes how the video stream is interlaced.
 
 
 ### -field InputFrameRate
 
-The frame rate of the input video stream, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_rational">DXVAHD_RATIONAL</a> structure.
+The frame rate of the input video stream, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_rational">DXVAHD_RATIONAL</a> structure.
 
 
 ### -field InputWidth
@@ -83,7 +83,7 @@ The height of the input frames, in pixels.
 
 ### -field OutputFrameRate
 
-The frame rate of the output video stream, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_rational">DXVAHD_RATIONAL</a> structure.
+The frame rate of the output video stream, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_rational">DXVAHD_RATIONAL</a> structure.
 
 
 ### -field OutputWidth

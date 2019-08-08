@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_ENDPOINT_POLICY_EXTENSION_TYPE, WS_POLICY_EXTENSION_TYPE, WS_POLICY_EXTENSION_TYPE enumeration [Web Services for Windows], webservices/WS_ENDPOINT_POLICY_EXTENSION_TYPE, webservices/WS_POLICY_EXTENSION_TYPE, wsw.ws_policy_extension_type
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_POLICY_EXTENSION_TYPE"
+f1_keywords:
+- webservices/WS_POLICY_EXTENSION_TYPE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_POLICY_EXTENSION_TYPE
+- WS_POLICY_EXTENSION_TYPE
 product: Windows
 targetos: Windows
 req.typenames: WS_POLICY_EXTENSION_TYPE
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The values in this enumeration are used to identify the sub-types of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_policy_extension">WS_POLICY_EXTENSION</a>.
+The values in this enumeration are used to identify the sub-types of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_policy_extension">WS_POLICY_EXTENSION</a>.
             
 
 
@@ -62,6 +62,6 @@ The values in this enumeration are used to identify the sub-types of <a href="ht
 
 ### -field WS_ENDPOINT_POLICY_EXTENSION_TYPE
 
-This value is used in the type field of <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_endpoint_policy_extension">WS_POLICY_EXTENSION</a>to identify a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_policy_extension">WS_ENDPOINT_POLICY_EXTENSION</a> structure.
+This value is used in the type field of <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_endpoint_policy_extension">WS_POLICY_EXTENSION</a>to identify a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_policy_extension">WS_ENDPOINT_POLICY_EXTENSION</a> structure.
                 
 

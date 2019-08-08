@@ -8,10 +8,10 @@ tech.root: devio
 ms.assetid: 96e9803b-16c4-415c-940a-f5df3edff3b3
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCHANGER_ELEMENT, CHANGER_ELEMENT, CHANGER_ELEMENT structure, PCHANGER_ELEMENT, PCHANGER_ELEMENT structure pointer, _win32_changer_element_str, base.changer_element_str, winioctl/CHANGER_ELEMENT, winioctl/PCHANGER_ELEMENT"
+ms.keywords: '*PCHANGER_ELEMENT, CHANGER_ELEMENT, CHANGER_ELEMENT structure, PCHANGER_ELEMENT, PCHANGER_ELEMENT structure pointer, _win32_changer_element_str, base.changer_element_str, winioctl/CHANGER_ELEMENT, winioctl/PCHANGER_ELEMENT'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/CHANGER_ELEMENT"
+f1_keywords:
+- winioctl/CHANGER_ELEMENT
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - CHANGER_ELEMENT
+- CHANGER_ELEMENT
 product: Windows
 targetos: Windows
 req.typenames: CHANGER_ELEMENT, *PCHANGER_ELEMENT
@@ -61,7 +61,7 @@ Represents a changer element.
 ### -field ElementType
 
 The element type. This parameter can be one of the values from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_element_type">ELEMENT_TYPE</a> enumeration type.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-element_type">ELEMENT_TYPE</a> enumeration type.
 
 
 ### -field ElementAddress
@@ -74,11 +74,11 @@ The zero-based address of the element.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_element_list">CHANGER_ELEMENT_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element_list">CHANGER_ELEMENT_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_element_type">ELEMENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-element_type">ELEMENT_TYPE</a>
 
 
 

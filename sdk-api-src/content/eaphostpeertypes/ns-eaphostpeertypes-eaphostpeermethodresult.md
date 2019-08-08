@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerMethodResult, EapHostPeerMethodResult structure [EAPHost], eaphost.eaphostpeermethodresult, eaphostpeertypes/EapHostPeerMethodResult
 ms.topic: struct
-f1_keywords: 
- - "eaphostpeertypes/EapHostPeerMethodResult"
+f1_keywords:
+- eaphostpeertypes/EapHostPeerMethodResult
 req.header: eaphostpeertypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eaphostpeertypes.h
+- eaphostpeertypes.h
 api_name:
- - EapHostPeerMethodResult
+- EapHostPeerMethodResult
 product: Windows
 targetos: Windows
 req.typenames: EapHostPeerMethodResult
@@ -121,22 +121,22 @@ A pointer to a  byte buffer that contains information on the supplicant user tha
 
 ### -field pAttribArray
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attributes">EAP_ATTRIBUTES</a> array structure that contains attributes of the authentication session.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_attributes">EAP_ATTRIBUTES</a> array structure that contains attributes of the authentication session.
 
 
 ### -field isolationState
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-_isolation_state">ISOLATION_STATE</a>link value that indicates the isolation state of the authentication session connection.
+An <a href="https://docs.microsoft.com/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-isolation_state">ISOLATION_STATE</a>link value that indicates the isolation state of the authentication session connection.
 
 
 ### -field pEapMethodInfo
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_info">EAP_METHOD_INFO</a> structure that contains information about the EAP method that performed authentication for the supplicant.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_info">EAP_METHOD_INFO</a> structure that contains information about the EAP method that performed authentication for the supplicant.
 
 
 ### -field pEapError
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror">EapHostPeerFreeEapError</a>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror">EapHostPeerFreeEapError</a>.
 
 
 ## -see-also

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_TEXT_NODE, WS_XML_TEXT_NODE structure [Web Services for Windows], webservices/WS_XML_TEXT_NODE, wsw.ws_xml_text_node
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_XML_TEXT_NODE"
+f1_keywords:
+- webservices/WS_XML_TEXT_NODE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_TEXT_NODE
+- WS_XML_TEXT_NODE
 product: Windows
 targetos: Windows
 req.typenames: WS_XML_TEXT_NODE
@@ -61,7 +61,7 @@ Represents an element, attribute, or CDATA content.
 
 ### -field node
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_node">WS_XML_NODE</a>.
+The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_node">WS_XML_NODE</a>.
         
 
 

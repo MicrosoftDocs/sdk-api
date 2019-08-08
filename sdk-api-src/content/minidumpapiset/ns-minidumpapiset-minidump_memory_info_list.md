@@ -8,10 +8,10 @@ tech.root: Debug
 ms.assetid: c1c9a79b-a35a-47e8-be4c-10b3c4ace937
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_MEMORY_INFO_LIST, MINIDUMP_MEMORY_INFO_LIST, MINIDUMP_MEMORY_INFO_LIST structure, PMINIDUMP_MEMORY_INFO_LIST, PMINIDUMP_MEMORY_INFO_LIST structure pointer, _MINIDUMP_MEMORY_INFO_LIST, base.minidump_memory_info_list_str, minidumpapiset/MINIDUMP_MEMORY_INFO_LIST, minidumpapiset/PMINIDUMP_MEMORY_INFO_LIST"
+ms.keywords: '*PMINIDUMP_MEMORY_INFO_LIST, MINIDUMP_MEMORY_INFO_LIST, MINIDUMP_MEMORY_INFO_LIST structure, PMINIDUMP_MEMORY_INFO_LIST, PMINIDUMP_MEMORY_INFO_LIST structure pointer, _MINIDUMP_MEMORY_INFO_LIST, base.minidump_memory_info_list_str, minidumpapiset/MINIDUMP_MEMORY_INFO_LIST, minidumpapiset/PMINIDUMP_MEMORY_INFO_LIST'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_MEMORY_INFO_LIST"
+f1_keywords:
+- minidumpapiset/MINIDUMP_MEMORY_INFO_LIST
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_MEMORY_INFO_LIST
+- MINIDUMP_MEMORY_INFO_LIST
 product: Windows
 targetos: Windows
 req.typenames: MINIDUMP_MEMORY_INFO_LIST, *PMINIDUMP_MEMORY_INFO_LIST
@@ -71,7 +71,7 @@ The size of each entry following the header, in bytes. This is generally <code>s
 
 ### -field NumberOfEntries
 
-The number of entries in the stream. These are generally  <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory_info">MINIDUMP_MEMORY_INFO</a> structures. The entries follow the header.
+The number of entries in the stream. These are generally  <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info">MINIDUMP_MEMORY_INFO</a> structures. The entries follow the header.
 
 
 ## -see-also
@@ -79,11 +79,11 @@ The number of entries in the stream. These are generally  <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory_info">MINIDUMP_MEMORY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info">MINIDUMP_MEMORY_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
  
 
  

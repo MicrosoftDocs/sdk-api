@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIpNetTable, GetIpNetTable function [IP Helper], _iphlp_getipnettable, iphlp.getipnettable, iphlpapi/GetIpNetTable
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/GetIpNetTable"
+f1_keywords:
+- iphlpapi/GetIpNetTable
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetIpNetTable
+- GetIpNetTable
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The
 ### -param IpNetTable [out]
 
 A pointer to a buffer that receives the IPv4 to physical address mapping table as a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipnettable">MIB_IPNETTABLE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipnettable">MIB_IPNETTABLE</a> structure.
 
 
 ### -param SizePointer [in, out]
@@ -159,11 +159,11 @@ Use
 
 
 The  
-<b>GetIpNetTable</b> function enumerates the Address Resolution Protocol (ARP) entries for IPv4 on a local system from the IPv4 to physical address mapping table and returns this information in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipnettable">MIB_IPNETTABLE</a> structure. 
+<b>GetIpNetTable</b> function enumerates the Address Resolution Protocol (ARP) entries for IPv4 on a local system from the IPv4 to physical address mapping table and returns this information in a <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipnettable">MIB_IPNETTABLE</a> structure. 
 
-The IPv4 address entries are returned in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipnettable">MIB_IPNETTABLE</a> structure in the buffer pointed to by the <i>pIpNetTable</i> parameter. The <b>MIB_IPNETTABLE</b> structure contains a count of ARP entries and an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipnetrow_lh">MIB_IPNETROW</a> structures for each IPv4 address entry. 
+The IPv4 address entries are returned in a <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipnettable">MIB_IPNETTABLE</a> structure in the buffer pointed to by the <i>pIpNetTable</i> parameter. The <b>MIB_IPNETTABLE</b> structure contains a count of ARP entries and an array of <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipnetrow_lh">MIB_IPNETROW</a> structures for each IPv4 address entry. 
 
-Note that the returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipnettable">MIB_IPNETTABLE</a> structure pointed to by the <i>pIpNetTable</i> parameter may contain padding for alignment between the <b>dwNumEntries</b> member and the first <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipnetrow_lh">MIB_IPNETROW</a> array entry in the <b>table</b> member of the <b>MIB_IPNETTABLE</b> structure. Padding for alignment may also be present between the <b>MIB_IPNETROW</b> array entries. Any access to a <b>MIB_IPNETROW</b> array entry should assume  padding may exist. 
+Note that the returned <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipnettable">MIB_IPNETTABLE</a> structure pointed to by the <i>pIpNetTable</i> parameter may contain padding for alignment between the <b>dwNumEntries</b> member and the first <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipnetrow_lh">MIB_IPNETROW</a> array entry in the <b>table</b> member of the <b>MIB_IPNETTABLE</b> structure. Padding for alignment may also be present between the <b>MIB_IPNETROW</b> array entries. Any access to a <b>MIB_IPNETROW</b> array entry should assume  padding may exist. 
 
 
 
@@ -201,11 +201,11 @@ Note that the returned <a href="https://docs.microsoft.com/previous-versions/win
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipnetrow_lh">MIB_IPNETROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipnetrow_lh">MIB_IPNETROW</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipnettable">MIB_IPNETTABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipnettable">MIB_IPNETTABLE</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 100, 101, NetServerEnum, NetServerEnum function [Network Management], SV_TYPE_AFP, SV_TYPE_ALL, SV_TYPE_ALTERNATE_XPORT, SV_TYPE_BACKUP_BROWSER, SV_TYPE_CLUSTER_NT, SV_TYPE_CLUSTER_VS_NT, SV_TYPE_DCE, SV_TYPE_DFS, SV_TYPE_DIALIN_SERVER, SV_TYPE_DOMAIN_BAKCTRL, SV_TYPE_DOMAIN_CTRL, SV_TYPE_DOMAIN_ENUM, SV_TYPE_DOMAIN_MASTER, SV_TYPE_DOMAIN_MEMBER, SV_TYPE_LOCAL_LIST_ONLY, SV_TYPE_MASTER_BROWSER, SV_TYPE_NOVELL, SV_TYPE_NT, SV_TYPE_POTENTIAL_BROWSER, SV_TYPE_PRINTQ_SERVER, SV_TYPE_SERVER, SV_TYPE_SERVER_MFPN, SV_TYPE_SERVER_NT, SV_TYPE_SERVER_OSF, SV_TYPE_SERVER_UNIX, SV_TYPE_SERVER_VMS, SV_TYPE_SQLSERVER, SV_TYPE_TERMINALSERVER, SV_TYPE_TIME_SOURCE, SV_TYPE_WFW, SV_TYPE_WINDOWS, SV_TYPE_WORKSTATION, SV_TYPE_XENIX_SERVER, _win32_netserverenum, lmserver/NetServerEnum, netmgmt.netserverenum
 ms.topic: function
-f1_keywords: 
- - "lmserver/NetServerEnum"
+f1_keywords:
+- lmserver/NetServerEnum
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
- - browcli.dll
- - Ext-MS-Win-SMBShare-BrowserClient-L1-1-0.dll
+- Netapi32.dll
+- browcli.dll
+- Ext-MS-Win-SMBShare-BrowserClient-L1-1-0.dll
 api_name:
- - NetServerEnum
+- NetServerEnum
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -85,7 +85,7 @@ The information level of the data requested. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return server names and platform information. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_100">SERVER_INFO_100</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_100">SERVER_INFO_100</a> structures.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Return server names and platform information. The <i>bufptr</i> parameter points
 </td>
 <td width="60%">
 Return server names, types, and associated data. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_101">SERVER_INFO_101</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_101">SERVER_INFO_101</a> structures.
 
 </td>
 </tr>
@@ -679,7 +679,7 @@ If you are programming for Active Directory, you may be able to call certain Act
 The following code sample demonstrates how to list all servers that are visible in a  domain with a call to the 
 <b>NetServerEnum</b> function. The sample calls 
 <b>NetServerEnum</b>, specifying information level 101 (
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_101">SERVER_INFO_101</a>). If any servers are found, the sample code loops through the entries and prints the retrieved data. If the server is a domain controller, it identifies the server as either a primary domain controller (PDC) or a backup domain controller (BDC). The sample also prints the total number of entries available and a hint about the number of entries actually enumerated, warning the user if all entries were not enumerated. Finally, the sample frees the memory allocated for the information buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_101">SERVER_INFO_101</a>). If any servers are found, the sample code loops through the entries and prints the retrieved data. If the server is a domain controller, it identifies the server as either a primary domain controller (PDC) or a backup domain controller (BDC). The sample also prints the total number of entries available and a hint about the number of entries actually enumerated, warning the user if all entries were not enumerated. Finally, the sample frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -831,11 +831,11 @@ int wmain(int argc, wchar_t * argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_100">SERVER_INFO_100</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_100">SERVER_INFO_100</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_101">SERVER_INFO_101</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_101">SERVER_INFO_101</a>
 
 
 

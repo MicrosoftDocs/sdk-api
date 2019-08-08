@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LookupAccountSid, LookupAccountSid function [Security], LookupAccountSidA, LookupAccountSidW, _win32_lookupaccountsid, security.lookupaccountsid, winbase/LookupAccountSid, winbase/LookupAccountSidA, winbase/LookupAccountSidW
 ms.topic: function
-f1_keywords: 
- - "winbase/LookupAccountSid"
+f1_keywords:
+- winbase/LookupAccountSid
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,22 +30,22 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvAPI32-l4-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-security-lsalookup-l2-1-0.dll
- - API-MS-Win-security-lsalookup-l2-1-1.dll
- - API-MS-Win-Security-LSALookup-L2-1-2.dll
- - API-MS-Win-Security-LSALookup-Ansi-L2-1-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvAPI32-l4-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-security-lsalookup-l2-1-0.dll
+- API-MS-Win-security-lsalookup-l2-1-1.dll
+- API-MS-Win-Security-LSALookup-L2-1-2.dll
+- API-MS-Win-Security-LSALookup-Ansi-L2-1-0.dll
 api_name:
- - LookupAccountSid
- - LookupAccountSidA
- - LookupAccountSidW
+- LookupAccountSid
+- LookupAccountSidA
+- LookupAccountSidW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ A pointer to a <b>null</b>-terminated character string that specifies the target
 ### -param Sid [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> to look up.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> to look up.
 
 
 ### -param Name [out, optional]
@@ -108,7 +108,7 @@ On input, specifies the size, in <b>TCHAR</b>s, of the <i>lpReferencedDomainName
 ### -param peUse [out]
 
 A pointer to a variable that receives a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SID_NAME_USE</a> value that indicates the type of the account.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a> value that indicates the type of the account.
 
 
 ## -returns
@@ -163,11 +163,11 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SID_NAME_USE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a>
  
 
  

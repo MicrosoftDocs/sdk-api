@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 5081ebce-d3b9-4548-8d80-23d994bce7ab
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_MIB_INFO_V5, DHCP_MIB_INFO_V5, DHCP_MIB_INFO_V5 structure [DHCP], LPDHCP_MIB_INFO_V5, LPDHCP_MIB_INFO_V5 structure pointer [DHCP], dhcp.dhcp_mib_info_v5, dhcpsapi/DHCP_MIB_INFO_V5, dhcpsapi/LPDHCP_MIB_INFO_V5"
+ms.keywords: '*LPDHCP_MIB_INFO_V5, DHCP_MIB_INFO_V5, DHCP_MIB_INFO_V5 structure [DHCP], LPDHCP_MIB_INFO_V5, LPDHCP_MIB_INFO_V5 structure pointer [DHCP], dhcp.dhcp_mib_info_v5, dhcpsapi/DHCP_MIB_INFO_V5, dhcpsapi/LPDHCP_MIB_INFO_V5'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_MIB_INFO_V5"
+f1_keywords:
+- dhcpsapi/DHCP_MIB_INFO_V5
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_MIB_INFO_V5
+- DHCP_MIB_INFO_V5
 product: Windows
 targetos: Windows
 req.typenames: DHCP_MIB_INFO_V5, *LPDHCP_MIB_INFO_V5
@@ -97,7 +97,7 @@ The number of RELEASE messages  received by the DHCP server.
 ### -field ServerStartTime
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_date_time">DATE_TIME</a> structure that contains the most recent time the DHCP server was started.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a> structure that contains the most recent time the DHCP server was started.
 
 
 ### -field QtnNumLeases
@@ -152,7 +152,7 @@ The total number of scopes configured on the DHCP server
 
 ### -field ScopeInfo
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_scope_mib_info_v5">SCOPE_MIB_INFO_V5</a> structure that contains specific information about the scopes configured on the DHCP server.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-scope_mib_info_v5">SCOPE_MIB_INFO_V5</a> structure that contains specific information about the scopes configured on the DHCP server.
 
 
 ### -field ScopeInfo.size_is
@@ -176,7 +176,7 @@ Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/deskt
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_scope_mib_info_v5">SCOPE_MIB_INFO_V5</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-scope_mib_info_v5">SCOPE_MIB_INFO_V5</a>
  
 
  

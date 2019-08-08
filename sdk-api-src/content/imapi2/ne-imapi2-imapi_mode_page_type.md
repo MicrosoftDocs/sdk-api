@@ -8,10 +8,10 @@ tech.root: imapi
 ms.assetid: da6262a0-2b21-4568-9da1-dc8ca1ba2b4a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PIMAPI_MODE_PAGE_TYPE, IMAPI_MODE_PAGE_TYPE, IMAPI_MODE_PAGE_TYPE enumeration [IMAPI], IMAPI_MODE_PAGE_TYPE_CACHING, IMAPI_MODE_PAGE_TYPE_INFORMATIONAL_EXCEPTIONS, IMAPI_MODE_PAGE_TYPE_LEGACY_CAPABILITIES, IMAPI_MODE_PAGE_TYPE_MRW, IMAPI_MODE_PAGE_TYPE_POWER_CONDITION, IMAPI_MODE_PAGE_TYPE_READ_WRITE_ERROR_RECOVERY, IMAPI_MODE_PAGE_TYPE_TIMEOUT_AND_PROTECT, IMAPI_MODE_PAGE_TYPE_WRITE_PARAMETERS, PIMAPI_MODE_PAGE_TYPE, PIMAPI_MODE_PAGE_TYPE enumeration pointer [IMAPI], imapi.imapi_mode_page_type, imapi2/IMAPI_MODE_PAGE_TYPE, imapi2/IMAPI_MODE_PAGE_TYPE_CACHING, imapi2/IMAPI_MODE_PAGE_TYPE_INFORMATIONAL_EXCEPTIONS, imapi2/IMAPI_MODE_PAGE_TYPE_LEGACY_CAPABILITIES, imapi2/IMAPI_MODE_PAGE_TYPE_MRW, imapi2/IMAPI_MODE_PAGE_TYPE_POWER_CONDITION, imapi2/IMAPI_MODE_PAGE_TYPE_READ_WRITE_ERROR_RECOVERY, imapi2/IMAPI_MODE_PAGE_TYPE_TIMEOUT_AND_PROTECT, imapi2/IMAPI_MODE_PAGE_TYPE_WRITE_PARAMETERS, imapi2/PIMAPI_MODE_PAGE_TYPE"
+ms.keywords: '*PIMAPI_MODE_PAGE_TYPE, IMAPI_MODE_PAGE_TYPE, IMAPI_MODE_PAGE_TYPE enumeration [IMAPI], IMAPI_MODE_PAGE_TYPE_CACHING, IMAPI_MODE_PAGE_TYPE_INFORMATIONAL_EXCEPTIONS, IMAPI_MODE_PAGE_TYPE_LEGACY_CAPABILITIES, IMAPI_MODE_PAGE_TYPE_MRW, IMAPI_MODE_PAGE_TYPE_POWER_CONDITION, IMAPI_MODE_PAGE_TYPE_READ_WRITE_ERROR_RECOVERY, IMAPI_MODE_PAGE_TYPE_TIMEOUT_AND_PROTECT, IMAPI_MODE_PAGE_TYPE_WRITE_PARAMETERS, PIMAPI_MODE_PAGE_TYPE, PIMAPI_MODE_PAGE_TYPE enumeration pointer [IMAPI], imapi.imapi_mode_page_type, imapi2/IMAPI_MODE_PAGE_TYPE, imapi2/IMAPI_MODE_PAGE_TYPE_CACHING, imapi2/IMAPI_MODE_PAGE_TYPE_INFORMATIONAL_EXCEPTIONS, imapi2/IMAPI_MODE_PAGE_TYPE_LEGACY_CAPABILITIES, imapi2/IMAPI_MODE_PAGE_TYPE_MRW, imapi2/IMAPI_MODE_PAGE_TYPE_POWER_CONDITION, imapi2/IMAPI_MODE_PAGE_TYPE_READ_WRITE_ERROR_RECOVERY, imapi2/IMAPI_MODE_PAGE_TYPE_TIMEOUT_AND_PROTECT, imapi2/IMAPI_MODE_PAGE_TYPE_WRITE_PARAMETERS, imapi2/PIMAPI_MODE_PAGE_TYPE'
 ms.topic: enum
-f1_keywords: 
- - "imapi2/IMAPI_MODE_PAGE_TYPE"
+f1_keywords:
+- imapi2/IMAPI_MODE_PAGE_TYPE
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IMAPI_MODE_PAGE_TYPE
+- IMAPI_MODE_PAGE_TYPE
 product: Windows
 targetos: Windows
 req.typenames: IMAPI_MODE_PAGE_TYPE, *PIMAPI_MODE_PAGE_TYPE
@@ -84,7 +84,7 @@ The mode page contains parameters to enable or disable caching during read or wr
 
 ### -field IMAPI_MODE_PAGE_TYPE_INFORMATIONAL_EXCEPTIONS
 
-The mode page contains parameters for exception reporting mechanisms that result in specific sense code errors when failures are predicted.  This mode page is related to the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_feature_page_type">S.M.A.R.T.</a> feature.
+The mode page contains parameters for exception reporting mechanisms that result in specific sense code errors when failures are predicted.  This mode page is related to the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">S.M.A.R.T.</a> feature.
 
 
 ### -field IMAPI_MODE_PAGE_TYPE_TIMEOUT_AND_PROTECT

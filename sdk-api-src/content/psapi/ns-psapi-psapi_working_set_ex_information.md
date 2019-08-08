@@ -8,10 +8,10 @@ tech.root: psapi
 ms.assetid: d3500737-b9af-41a8-bf69-61d0bfbd6ce4
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPSAPI_WORKING_SET_EX_INFORMATION, PPSAPI_WORKING_SET_EX_INFORMATION, PPSAPI_WORKING_SET_EX_INFORMATION structure pointer [PSAPI], PSAPI_WORKING_SET_EX_INFORMATION, PSAPI_WORKING_SET_EX_INFORMATION structure [PSAPI], base.psapi_working_set_ex_information, psapi.psapi_working_set_ex_information, psapi/PPSAPI_WORKING_SET_EX_INFORMATION, psapi/PSAPI_WORKING_SET_EX_INFORMATION"
+ms.keywords: '*PPSAPI_WORKING_SET_EX_INFORMATION, PPSAPI_WORKING_SET_EX_INFORMATION, PPSAPI_WORKING_SET_EX_INFORMATION structure pointer [PSAPI], PSAPI_WORKING_SET_EX_INFORMATION, PSAPI_WORKING_SET_EX_INFORMATION structure [PSAPI], base.psapi_working_set_ex_information, psapi.psapi_working_set_ex_information, psapi/PPSAPI_WORKING_SET_EX_INFORMATION, psapi/PSAPI_WORKING_SET_EX_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "psapi/PSAPI_WORKING_SET_EX_INFORMATION"
+f1_keywords:
+- psapi/PSAPI_WORKING_SET_EX_INFORMATION
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Psapi.h
+- Psapi.h
 api_name:
- - PSAPI_WORKING_SET_EX_INFORMATION
+- PSAPI_WORKING_SET_EX_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: PSAPI_WORKING_SET_EX_INFORMATION, *PPSAPI_WORKING_SET_EX_INFORMATION
@@ -66,7 +66,7 @@ The virtual address.
 
 ### -field VirtualAttributes
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_working_set_ex_block">PSAPI_WORKING_SET_EX_BLOCK</a> union that indicates the attributes of the page at <b>VirtualAddress</b>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-psapi_working_set_ex_block">PSAPI_WORKING_SET_EX_BLOCK</a> union that indicates the attributes of the page at <b>VirtualAddress</b>.
 
 
 ## -see-also
@@ -74,7 +74,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_working_set_ex_block">PSAPI_WORKING_SET_EX_BLOCK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-psapi_working_set_ex_block">PSAPI_WORKING_SET_EX_BLOCK</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateRule, CreateRule method [File Server Resource Manager], CreateRule method [File Server Resource Manager],FsrmClassificationManager class, CreateRule method [File Server Resource Manager],IFsrmClassificationManager interface, CreateRule method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],CreateRule method, IFsrmClassificationManager interface [File Server Resource Manager],CreateRule method, IFsrmClassificationManager.CreateRule, IFsrmClassificationManager2 interface [File Server Resource Manager],CreateRule method, IFsrmClassificationManager2::CreateRule, IFsrmClassificationManager::CreateRule, fs.ifsrmclassificationmanager_createrule, fsrm.ifsrmclassificationmanager_createrule, fsrmpipeline/IFsrmClassificationManager2::CreateRule, fsrmpipeline/IFsrmClassificationManager::CreateRule
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassificationManager.CreateRule"
+f1_keywords:
+- fsrmpipeline/IFsrmClassificationManager.CreateRule
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassificationManager.CreateRule
- - IFsrmClassificationManager2.CreateRule
- - FsrmClassificationManager.CreateRule
+- IFsrmClassificationManager.CreateRule
+- IFsrmClassificationManager2.CreateRule
+- FsrmClassificationManager.CreateRule
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Creates a rule of the specified type.
 ### -param ruleType [in]
 
 The type of rule to create, set this parameter to <b>FsrmRuleType_Classification</b>. 
-      For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmruletype">FsrmRuleType</a>.
+      For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmruletype">FsrmRuleType</a>.
 
 
 ### -param Rule [out]

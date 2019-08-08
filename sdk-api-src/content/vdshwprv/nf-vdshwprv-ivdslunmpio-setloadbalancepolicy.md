@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsLunMpio interface [VDS],SetLoadBalancePolicy method, IVdsLunMpio.SetLoadBalancePolicy, IVdsLunMpio::SetLoadBalancePolicy, SetLoadBalancePolicy, SetLoadBalancePolicy method [VDS], SetLoadBalancePolicy method [VDS],IVdsLunMpio interface, base.ivdslunmpio_setloadbalancepolicy, vds/IVdsLunMpio::SetLoadBalancePolicy, vdshwprv/IVdsLunMpio::SetLoadBalancePolicy
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsLunMpio.SetLoadBalancePolicy"
+f1_keywords:
+- vdshwprv/IVdsLunMpio.SetLoadBalancePolicy
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - IVdsLunMpio.SetLoadBalancePolicy
+- IVdsLunMpio.SetLoadBalancePolicy
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,19 +65,19 @@ Sets the load balance policy on the LUN.
 ### -param policy
 
 The load balance policy enumerated by the  
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_loadbalance_policy_enum">VDS_LOADBALANCE_POLICY_ENUM</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_loadbalance_policy_enum">VDS_LOADBALANCE_POLICY_ENUM</a> enumeration.
 
 
 ### -param pPaths
 
 A 
-      pointer to an array of members of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_path_policy">VDS_PATH_POLICY</a> structure 
+      pointer to an array of members of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_policy">VDS_PATH_POLICY</a> structure 
       that contain the path-specific policy information.
 
 
 ### -param lNumberOfPaths
 
-The number of members of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_path_policy">VDS_PATH_POLICY</a> structure in the array 
+The number of members of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_policy">VDS_PATH_POLICY</a> structure in the array 
       pointed to by the <i>pPaths</i> parameter.
 
 
@@ -175,11 +175,11 @@ Another operation is in progress. This operation cannot proceed until previous o
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_loadbalance_policy_enum">VDS_LOADBALANCE_POLICY_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_loadbalance_policy_enum">VDS_LOADBALANCE_POLICY_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_path_policy">VDS_PATH_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_policy">VDS_PATH_POLICY</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ACCOUNTINGPROPERTIES, ACCOUNTINGPROPERTIES enumeration [Network Policy Server], PROPERTY_ACCOUNTING_LOG_ACCOUNTING, PROPERTY_ACCOUNTING_LOG_ACCOUNTING_INTERIM, PROPERTY_ACCOUNTING_LOG_AUTHENTICATION, PROPERTY_ACCOUNTING_LOG_AUTHENTICATION_INTERIM, PROPERTY_ACCOUNTING_LOG_DELETE_IF_FULL, PROPERTY_ACCOUNTING_LOG_ENABLE, PROPERTY_ACCOUNTING_LOG_ENABLE_LOGGING, PROPERTY_ACCOUNTING_LOG_FILE_DIRECTORY, PROPERTY_ACCOUNTING_LOG_IAS1_FORMAT, PROPERTY_ACCOUNTING_LOG_OPEN_NEW_FREQUENCY, PROPERTY_ACCOUNTING_LOG_OPEN_NEW_SIZE, PROPERTY_ACCOUNTING_SQL_MAX_SESSIONS, _sdo_accountingproperties, nps.SDO_accountingproperties, sdo.accountingproperties, sdoias/ACCOUNTINGPROPERTIES, sdoias/PROPERTY_ACCOUNTING_LOG_ACCOUNTING, sdoias/PROPERTY_ACCOUNTING_LOG_ACCOUNTING_INTERIM, sdoias/PROPERTY_ACCOUNTING_LOG_AUTHENTICATION, sdoias/PROPERTY_ACCOUNTING_LOG_AUTHENTICATION_INTERIM, sdoias/PROPERTY_ACCOUNTING_LOG_DELETE_IF_FULL, sdoias/PROPERTY_ACCOUNTING_LOG_ENABLE, sdoias/PROPERTY_ACCOUNTING_LOG_ENABLE_LOGGING, sdoias/PROPERTY_ACCOUNTING_LOG_FILE_DIRECTORY, sdoias/PROPERTY_ACCOUNTING_LOG_IAS1_FORMAT, sdoias/PROPERTY_ACCOUNTING_LOG_OPEN_NEW_FREQUENCY, sdoias/PROPERTY_ACCOUNTING_LOG_OPEN_NEW_SIZE, sdoias/PROPERTY_ACCOUNTING_SQL_MAX_SESSIONS
 ms.topic: enum
-f1_keywords: 
- - "sdoias/ACCOUNTINGPROPERTIES"
+f1_keywords:
+- sdoias/ACCOUNTINGPROPERTIES
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - ACCOUNTINGPROPERTIES
+- ACCOUNTINGPROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: ACCOUNTINGPROPERTIES
@@ -78,13 +78,13 @@ Specifies whether authentication packets are logged.
 ### -field PROPERTY_ACCOUNTING_LOG_OPEN_NEW_FREQUENCY
 
 Specifies how frequently a new log file is created. This property takes a value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_new_log_file_frequency">NEW_LOG_FILE_FREQUENCY</a> enumeration type.
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-new_log_file_frequency">NEW_LOG_FILE_FREQUENCY</a> enumeration type.
 
 
 ### -field PROPERTY_ACCOUNTING_LOG_OPEN_NEW_SIZE
 
 Specifies a file size. The system creates a new log file if the current log file reaches this size, and the <b>PROPERTY_ACCOUNTING_LOG_OPEN_NEW_FREQUENCY</b> property is set to the value 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_new_log_file_frequency">IAS_LOGGING_WHEN_FILE_SIZE_REACHES</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-new_log_file_frequency">IAS_LOGGING_WHEN_FILE_SIZE_REACHES</a>.
 
 
 ### -field PROPERTY_ACCOUNTING_LOG_FILE_DIRECTORY
@@ -155,7 +155,7 @@ Not used.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_new_log_file_frequency">NEW_LOG_FILE_FREQUENCY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-new_log_file_frequency">NEW_LOG_FILE_FREQUENCY</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: e76e0c1b-8cbf-45ad-a685-fb672801c24d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVICE_INFOW, *PSERVICE_INFOW, RESOURCEDISPLAYTYPE_DOMAIN, RESOURCEDISPLAYTYPE_FILE, RESOURCEDISPLAYTYPE_GENERIC, RESOURCEDISPLAYTYPE_GROUP, RESOURCEDISPLAYTYPE_SERVER, RESOURCEDISPLAYTYPE_SHARE, RESOURCEDISPLAYTYPE_TREE, SERVICE_INFO, SERVICE_INFO structure [Winsock], SERVICE_INFOA, SERVICE_INFOW, _win32_service_info_2, nspapi/SERVICE_INFO, nspapi/SERVICE_INFOA, nspapi/SERVICE_INFOW, winsock.service_info_2"
+ms.keywords: '*LPSERVICE_INFOW, *PSERVICE_INFOW, RESOURCEDISPLAYTYPE_DOMAIN, RESOURCEDISPLAYTYPE_FILE, RESOURCEDISPLAYTYPE_GENERIC, RESOURCEDISPLAYTYPE_GROUP, RESOURCEDISPLAYTYPE_SERVER, RESOURCEDISPLAYTYPE_SHARE, RESOURCEDISPLAYTYPE_TREE, SERVICE_INFO, SERVICE_INFO structure [Winsock], SERVICE_INFOA, SERVICE_INFOW, _win32_service_info_2, nspapi/SERVICE_INFO, nspapi/SERVICE_INFOA, nspapi/SERVICE_INFOW, winsock.service_info_2'
 ms.topic: struct
-f1_keywords: 
- - "nspapi/SERVICE_INFO"
+f1_keywords:
+- nspapi/SERVICE_INFO
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Nspapi.h
+- Nspapi.h
 api_name:
- - SERVICE_INFO
- - SERVICE_INFOA
- - SERVICE_INFOW
+- SERVICE_INFO
+- SERVICE_INFOA
+- SERVICE_INFOW
 product: Windows
 targetos: Windows
 req.typenames: SERVICE_INFOW, *PSERVICE_INFOW, *LPSERVICE_INFOW
@@ -212,8 +212,8 @@ A pointer to a <b>NULL</b>-terminated string that is the name of the computer on
 Type: <b>LPSERVICE_ADDRESSES</b>
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_addresses">SERVICE_ADDRESSES</a> structure that contains an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_address">SERVICE_ADDRESS</a> structures. Each 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_addresses">SERVICE_ADDRESSES</a> structure that contains an array of 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_address">SERVICE_ADDRESS</a> structures. Each 
 <b>SERVICE_ADDRESS</b> structure contains information about a network service address. 
 
 
@@ -228,16 +228,16 @@ A network service can call the
 Type: <b>BLOB</b>
 
 A 
-						<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob">BLOB</a> structure that specifies service-defined information. 
+						<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-blob">BLOB</a> structure that specifies service-defined information. 
 
 
 
 
 <div class="alert"><b>Note</b>  In general, the data pointed to by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob">BLOB</a> structure's <b>pBlobData</b> member must not contain any pointers. That is because only the network service knows the format of the data; copying the data without such knowledge would lead to pointer invalidation. If the data pointed to by <b>pBlobData</b> contains variable-sized elements, offsets from <b>pBlobData</b> can be used to indicate the location of those elements. There is one exception to this general rule: when <b>pBlobData</b> points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_info_absa">SERVICE_TYPE_INFO_ABS</a> structure. This is possible because both the 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-blob">BLOB</a> structure's <b>pBlobData</b> member must not contain any pointers. That is because only the network service knows the format of the data; copying the data without such knowledge would lead to pointer invalidation. If the data pointed to by <b>pBlobData</b> contains variable-sized elements, offsets from <b>pBlobData</b> can be used to indicate the location of those elements. There is one exception to this general rule: when <b>pBlobData</b> points to a 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a> structure. This is possible because both the 
 <b>SERVICE_TYPE_INFO_ABS</b> structure, and any 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structures it contains are predefined, and thus their formats are known to the operating system.</div>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structures it contains are predefined, and thus their formats are known to the operating system.</div>
 <div> </div>
 
 ## -see-also
@@ -245,7 +245,7 @@ A
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob">BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-blob">BLOB</a>
 
 
 
@@ -253,23 +253,23 @@ A
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_ns_service_infoa">NS_SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-ns_service_infoa">NS_SERVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_address">SERVICE_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_address">SERVICE_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_addresses">SERVICE_ADDRESSES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_addresses">SERVICE_ADDRESSES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_info_absa">SERVICE_TYPE_INFO_ABS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a>
 
 
 

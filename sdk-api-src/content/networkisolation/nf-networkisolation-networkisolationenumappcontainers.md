@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationEnumAppContainers, NetworkIsolationEnumAppContainers function [ICS/ICF], ics.networkisolationenumappcontainers, networkisolation/NetworkIsolationEnumAppContainers
 ms.topic: function
-f1_keywords: 
- - "networkisolation/NetworkIsolationEnumAppContainers"
+f1_keywords:
+- networkisolation/NetworkIsolationEnumAppContainers
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: Firewallapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - firewallapi.dll
- - API-MS-Win-Net-Isolation-l1-1-0.dll
- - API-MS-Win-Net-Isolation-l1-1-1.dll
- - wfapihost.dll
+- firewallapi.dll
+- API-MS-Win-Net-Isolation-l1-1-0.dll
+- API-MS-Win-Net-Isolation-l1-1-1.dll
+- wfapihost.dll
 api_name:
- - NetworkIsolationEnumAppContainers
+- NetworkIsolationEnumAppContainers
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -81,7 +81,7 @@ The number of app containers in the <b>ppPublicAppCs</b> member.
 
 ### -param ppPublicAppCs [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ns-netfw-_inet_firewall_app_container">PINET_FIREWALL_APP_CONTAINER</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/netfw/ns-netfw-inet_firewall_app_container">PINET_FIREWALL_APP_CONTAINER</a>*</b>
 
 The list of app container structure elements.
 
@@ -113,7 +113,7 @@ If no app containers are installed on the system, ERROR_SUCCESS will still be re
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ns-netfw-_inet_firewall_app_container">INET_FIREWALL_APP_CONTAINER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/ns-netfw-inet_firewall_app_container">INET_FIREWALL_APP_CONTAINER</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],ProcessMessage method, IMFDeviceTransform.ProcessMessage, IMFDeviceTransform::ProcessMessage, ProcessMessage, ProcessMessage method [Streaming Media Devices], ProcessMessage method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::ProcessMessage, stream.imfdevicetransform_processmessage
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFDeviceTransform.ProcessMessage"
+f1_keywords:
+- mftransform/IMFDeviceTransform.ProcessMessage
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - IMFDeviceTransform.ProcessMessage
+- IMFDeviceTransform.ProcessMessage
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The    <b>ProcessMessage</b> method sends a message to the Device Media Foundati
 
 ### -param eMessage [in]
 
-The message to send, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-_mft_message_type">MFT_MESSAGE_TYPE</a> enumeration.
+The message to send, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-mft_message_type">MFT_MESSAGE_TYPE</a> enumeration.
 
 
 ### -param ulParam [in]
@@ -160,7 +160,7 @@ Before calling this method, set the media types on all input and output streams.
 
 The MFT might ignore certain message types. If so, the method returns <b>S_OK</b>. An error code indicates that the transform handles this message type but was unable to process the message in this instance.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-_mft_message_type">MFT_MESSAGE_TYPE</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-mft_message_type">MFT_MESSAGE_TYPE</a>.
 
 
 

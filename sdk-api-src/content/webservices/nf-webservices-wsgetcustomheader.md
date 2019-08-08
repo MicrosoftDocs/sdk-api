@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetCustomHeader, WsGetCustomHeader function [Web Services for Windows], webservices/WsGetCustomHeader, wsw.wsgetcustomheader
 ms.topic: function
-f1_keywords: 
- - "webservices/WsGetCustomHeader"
+f1_keywords:
+- webservices/WsGetCustomHeader
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsGetCustomHeader
+- WsGetCustomHeader
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ The message can be in any state but <a href="https://docs.microsoft.com/windows/
 
 ### -param customHeaderDescription [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_element_description">WS_ELEMENT_DESCRIPTION</a> which describes the header element.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a> which describes the header element.
                 
 
 

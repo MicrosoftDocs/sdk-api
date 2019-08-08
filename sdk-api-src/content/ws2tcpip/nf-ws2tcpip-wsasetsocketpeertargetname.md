@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSASetSocketPeerTargetName, WSASetSocketPeerTargetName function [Winsock], winsock.wsasetsocketpeertargetname, ws2tcpip/WSASetSocketPeerTargetName
 ms.topic: function
-f1_keywords: 
- - "ws2tcpip/WSASetSocketPeerTargetName"
+f1_keywords:
+- ws2tcpip/WSASetSocketPeerTargetName
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - WSASetSocketPeerTargetName
+- WSASetSocketPeerTargetName
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A descriptor identifying a socket on which the peer target name is being assigne
 
 ### -param PeerTargetName [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_peer_target_name">SOCKET_PEER_TARGET_NAME</a> structure that defines the peer target name.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-socket_peer_target_name">SOCKET_PEER_TARGET_NAME</a> structure that defines the peer target name.
 
 
 ### -param PeerTargetNameLen [in]
@@ -76,7 +76,7 @@ The size, in bytes, of the <i>PeerTargetName</i> parameter.
 
 ### -param Overlapped [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure.  This parameter is ignored for non-overlapped sockets.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.  This parameter is ignored for non-overlapped sockets.
 
 
 ### -param CompletionRoutine [in, optional]
@@ -127,7 +127,7 @@ The system detected an invalid address pointer in attempting to use a pointer ar
 </dl>
 </td>
 <td width="60%">
-An invalid parameter was passed. This error is returned if the socket passed in the <i>Socket</i> parameter was not created with an address family of the <b>AF_INET</b> or <b>AF_INET6</b> and a socket type of <b>SOCK_DGRAM</b> or <b>SOCK_STREAM</b>.  This error is also returned for a connectionless socket if the IP address and port are zero in the <b>PeerAddress</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_peer_target_name">SOCKET_PEER_TARGET_NAME</a> structure pointed to by the <i>PeerTargetName</i> parameter.
+An invalid parameter was passed. This error is returned if the socket passed in the <i>Socket</i> parameter was not created with an address family of the <b>AF_INET</b> or <b>AF_INET6</b> and a socket type of <b>SOCK_DGRAM</b> or <b>SOCK_STREAM</b>.  This error is also returned for a connectionless socket if the IP address and port are zero in the <b>PeerAddress</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-socket_peer_target_name">SOCKET_PEER_TARGET_NAME</a> structure pointed to by the <i>PeerTargetName</i> parameter.
 
 </td>
 </tr>
@@ -194,7 +194,7 @@ An error will be returned if the following conditions are not met.<ul>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_peer_target_name">SOCKET_PEER_TARGET_NAME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-socket_peer_target_name">SOCKET_PEER_TARGET_NAME</a>
 
 
 

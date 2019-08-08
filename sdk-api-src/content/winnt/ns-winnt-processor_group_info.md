@@ -8,10 +8,10 @@ tech.root: ProcThread
 ms.assetid: 6ff9cc3c-34e7-4dc4-94cd-6ed278dfaa03
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPROCESSOR_GROUP_INFO, PPROCESSOR_GROUP_INFO, PPROCESSOR_GROUP_INFO structure pointer, PROCESSOR_GROUP_INFO, PROCESSOR_GROUP_INFO structure, _PROCESSOR_GROUP_INFO, base.processor_group_info, winnt/PPROCESSOR_GROUP_INFO, winnt/PROCESSOR_GROUP_INFO"
+ms.keywords: '*PPROCESSOR_GROUP_INFO, PPROCESSOR_GROUP_INFO, PPROCESSOR_GROUP_INFO structure pointer, PROCESSOR_GROUP_INFO, PROCESSOR_GROUP_INFO structure, _PROCESSOR_GROUP_INFO, base.processor_group_info, winnt/PPROCESSOR_GROUP_INFO, winnt/PROCESSOR_GROUP_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winnt/PROCESSOR_GROUP_INFO"
+f1_keywords:
+- winnt/PROCESSOR_GROUP_INFO
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - PROCESSOR_GROUP_INFO
+- PROCESSOR_GROUP_INFO
 product: Windows
 targetos: Windows
 req.typenames: PROCESSOR_GROUP_INFO, *PPROCESSOR_GROUP_INFO
@@ -84,7 +84,7 @@ A bitmap that specifies the affinity for zero or more active processors within t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_group_relationship">GROUP_RELATIONSHIP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_relationship">GROUP_RELATIONSHIP</a>
  
 
  

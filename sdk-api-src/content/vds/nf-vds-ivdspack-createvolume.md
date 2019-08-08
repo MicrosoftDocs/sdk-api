@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateVolume, CreateVolume method [VDS], CreateVolume method [VDS],IVdsPack interface, IVdsPack interface [VDS],CreateVolume method, IVdsPack.CreateVolume, IVdsPack::CreateVolume, base.ivdspack_createvolume, vds/IVdsPack::CreateVolume
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsPack.CreateVolume"
+f1_keywords:
+- vds/IVdsPack.CreateVolume
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsPack.CreateVolume
+- IVdsPack.CreateVolume
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -58,7 +58,7 @@ Creates a volume within the pack. The interface pointer for the new
    <a href="https://docs.microsoft.com/windows/desktop/VDS/volume-object">volume object</a> can be retrieved by calling 
    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsasync-wait">IVdsAsync::Wait</a> through the 
    <i>ppAsync</i> parameter. The 
-   <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_async_output">VDS_ASYNC_OUTPUT</a> structure returned contains the volume 
+   <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_async_output">VDS_ASYNC_OUTPUT</a> structure returned contains the volume 
    object interface pointer in the <b>cv.pVolumeUnk</b> member.
 
 
@@ -69,14 +69,14 @@ Creates a volume within the pack. The interface pointer for the new
 
 ### -param type [in]
 
-A volume type enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_volume_type">VDS_VOLUME_TYPE</a>. 
+A volume type enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_volume_type">VDS_VOLUME_TYPE</a>. 
       Volumes on basic disks can have only one extent, and only the <b>VDS_VT_SIMPLE</b> flag is 
       valid.
 
 
 ### -param pInputDiskArray [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_input_disk">VDS_INPUT_DISK</a> 
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_input_disk">VDS_INPUT_DISK</a> 
       structures; one structure for each disk. A disk can be included in the array only once. All disks in the array 
       must be used, or the method fails. Callers must allocate and initialize the array, and free the memory when the 
       call returns.
@@ -106,7 +106,7 @@ The address of an <a href="https://docs.microsoft.com/windows/desktop/api/vdshwp
 
 If you call <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsasync-wait">IVdsAsync::Wait</a> on this method and a success HRESULT value is returned, 
       you must release the interfaces returned in the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_async_output">VDS_ASYNC_OUTPUT</a> structure by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on each interface pointer. However, if <b>Wait</b> returns a failure HRESULT value, or if the <i>pHrResult</i> parameter of <b>Wait</b> receives a failure HRESULT value, the interface pointers in the <b>VDS_ASYNC_OUTPUT</b> structure are <b>NULL</b> and do not need to be released. You can test for success or failure HRESULT values by using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros defined in Winerror.h.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_async_output">VDS_ASYNC_OUTPUT</a> structure by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on each interface pointer. However, if <b>Wait</b> returns a failure HRESULT value, or if the <i>pHrResult</i> parameter of <b>Wait</b> receives a failure HRESULT value, the interface pointers in the <b>VDS_ASYNC_OUTPUT</b> structure are <b>NULL</b> and do not need to be released. You can test for success or failure HRESULT values by using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros defined in Winerror.h.
 
 
 ## -returns
@@ -448,11 +448,11 @@ On a basic disk, this method creates a primary partition. If there are already t
 
 A disk cannot contribute to more than one plex of the same volume; however, a single disk can 
     contribute to multiple volumes. A simple volume has only one 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_input_disk">VDS_INPUT_DISK</a> structure, whereas, spanned, striped, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_input_disk">VDS_INPUT_DISK</a> structure, whereas, spanned, striped, 
     mirrored, and RAID-5 volumes have one structure for each contributing disk.
 
 The size of the disk specified in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_input_disk">VDS_INPUT_DISK</a> structure  can be the full disk or a 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_input_disk">VDS_INPUT_DISK</a> structure  can be the full disk or a 
     portion of the disk. When two disks form a mirrored volume, VDS uses the smallest disk to calculate the size of 
     the mirror. (Provider policy determines the actual offset, length, and number of disk extents allocated on a 
     given input disk.) Use the 
@@ -500,15 +500,15 @@ Implementers must return a pointer to the <a href="https://docs.microsoft.com/wi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_async_output">VDS_ASYNC_OUTPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_async_output">VDS_ASYNC_OUTPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_input_disk">VDS_INPUT_DISK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_input_disk">VDS_INPUT_DISK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_volume_type">VDS_VOLUME_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_volume_type">VDS_VOLUME_TYPE</a>
  
 
  

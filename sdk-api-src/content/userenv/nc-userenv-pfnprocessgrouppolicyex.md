@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPO_INFO_FLAG_ASYNC_FOREGROUND, GPO_INFO_FLAG_BACKGROUND, GPO_INFO_FLAG_FORCED_REFRESH, GPO_INFO_FLAG_LINKTRANSITION, GPO_INFO_FLAG_LOGRSOP_TRANSITION, GPO_INFO_FLAG_MACHINE, GPO_INFO_FLAG_NOCHANGES, GPO_INFO_FLAG_SAFEMODE_BOOT, GPO_INFO_FLAG_SLOWLINK, GPO_INFO_FLAG_VERBOSE, PFNPROCESSGROUPPOLICYEX, PFNPROCESSGROUPPOLICYEX callback, PFNPROCESSGROUPPOLICYEX callback function [Group Policy], ProcessGroupPolicyEx, _win32_processgrouppolicyex, policy.processgrouppolicyex, userenv/PFNPROCESSGROUPPOLICYEX
 ms.topic: callback
-f1_keywords: 
- - "userenv/PFNPROCESSGROUPPOLICYEX"
+f1_keywords:
+- userenv/PFNPROCESSGROUPPOLICYEX
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Userenv.h
+- Userenv.h
 api_name:
- - PFNPROCESSGROUPPOLICYEX
+- PFNPROCESSGROUPPOLICYEX
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -155,13 +155,13 @@ Handle to the <b>HKEY_LOCAL_MACHINE</b> or <b>HKEY_CURRENT_USER</b> registry key
 ### -param pDeletedGPOList [in]
 
 Pointer that receives the list of deleted GPO structures. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_group_policy_objecta">GROUP_POLICY_OBJECT</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>.
 
 
 ### -param pChangedGPOList [in]
 
 Pointer that receives the list of changed GPO structures. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_group_policy_objecta">GROUP_POLICY_OBJECT</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>.
 
 
 ### -param pHandle [in]

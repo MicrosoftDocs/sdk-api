@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_TRANSACTION_ACTIVE, FSCTL_TXFS_TRANSACTION_ACTIVE control, FSCTL_TXFS_TRANSACTION_ACTIVE control code [Files], fs.fsctl_txfs_transaction_active, winioctl/FSCTL_TXFS_TRANSACTION_ACTIVE
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_TXFS_TRANSACTION_ACTIVE"
+f1_keywords:
+- winioctl/FSCTL_TXFS_TRANSACTION_ACTIVE
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_TXFS_TRANSACTION_ACTIVE
+- FSCTL_TXFS_TRANSACTION_ACTIVE
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -152,7 +152,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 <b>FSCTL_TXFS_TRANSACTION_ACTIVE</b> is a synchronous operation.
 
-If the <b>TransactionsActiveAtSnapshot</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_transaction_active_info">TXFS_TRANSACTION_ACTIVE_INFO</a> structure is <b>TRUE</b>, you must remount the snapshot read/write, and run your recovery operations.
+If the <b>TransactionsActiveAtSnapshot</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_transaction_active_info">TXFS_TRANSACTION_ACTIVE_INFO</a> structure is <b>TRUE</b>, you must remount the snapshot read/write, and run your recovery operations.
 
 <b>ReFS:  </b>This code is not supported.
 
@@ -172,7 +172,7 @@ If the <b>TransactionsActiveAtSnapshot</b> member of the <a href="https://docs.m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_transaction_active_info">TXFS_TRANSACTION_ACTIVE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_transaction_active_info">TXFS_TRANSACTION_ACTIVE_INFO</a>
  
 
  

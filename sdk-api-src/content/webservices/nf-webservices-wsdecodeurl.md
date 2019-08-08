@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWsDecodeUrl, WsDecodeUrl, WsDecodeUrl function [Web Services for Windows], webservices/WsDecodeUrl, wsw.wsdecodeurl
 ms.topic: function
-f1_keywords: 
- - "webservices/WsDecodeUrl"
+f1_keywords:
+- webservices/WsDecodeUrl
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsDecodeUrl
+- WsDecodeUrl
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Evaluates the components of an URL to determine its "scheme". A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_url_scheme_type">WS_URL_SCHEME_TYPE</a> value is encapsulated in a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_url">WS_URL</a> structure and a reference to the structure is returned via output parameter. 
+Evaluates the components of an URL to determine its "scheme". A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_url_scheme_type">WS_URL_SCHEME_TYPE</a> value is encapsulated in a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_url">WS_URL</a> structure and a reference to the structure is returned via output parameter. 
                 If the scheme is not recognized, the function returns WS_E_INVALID_FORMAT.    
                 Only scheme types identified in  <b>WS_URL_SCHEME_TYPE</b> are supported.
             
@@ -64,7 +64,7 @@ Evaluates the components of an URL to determine its "scheme". A <a href="https:/
 
 ### -param url [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_string">WS_STRING</a>  representation of the URL to evaluate.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_string">WS_STRING</a>  representation of the URL to evaluate.
                 
 
 
@@ -82,7 +82,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">
 
 ### -param outUrl
 
-Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_url">WS_URL</a> structure that encapsulates the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_url_scheme_type">WS_URL_SCHEME_TYPE</a> value.
+Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_url">WS_URL</a> structure that encapsulates the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_url_scheme_type">WS_URL_SCHEME_TYPE</a> value.
                 
 
 

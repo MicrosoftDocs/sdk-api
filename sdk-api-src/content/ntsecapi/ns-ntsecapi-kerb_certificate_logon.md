@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: e6aa0042-edb5-4e9b-b545-5159d3bfb8fc
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PKERB_CERTIFICATE_LOGON, KERB_CERTIFICATE_LOGON, KERB_CERTIFICATE_LOGON structure [Security], KERB_CERTIFICATE_LOGON_FLAG_CHECK_DUPLICATES, KERB_CERTIFICATE_LOGON_FLAG_USE_CERTIFICATE_INFO, KerbCertificateLogon, KerbCertificateUnlockLogon, PKERB_CERTIFICATE_LOGON, PKERB_CERTIFICATE_LOGON structure pointer [Security], ntsecapi/KERB_CERTIFICATE_LOGON, ntsecapi/PKERB_CERTIFICATE_LOGON, security.kerb_certificate_logon"
+ms.keywords: '*PKERB_CERTIFICATE_LOGON, KERB_CERTIFICATE_LOGON, KERB_CERTIFICATE_LOGON structure [Security], KERB_CERTIFICATE_LOGON_FLAG_CHECK_DUPLICATES, KERB_CERTIFICATE_LOGON_FLAG_USE_CERTIFICATE_INFO, KerbCertificateLogon, KerbCertificateUnlockLogon, PKERB_CERTIFICATE_LOGON, PKERB_CERTIFICATE_LOGON structure pointer [Security], ntsecapi/KERB_CERTIFICATE_LOGON, ntsecapi/PKERB_CERTIFICATE_LOGON, security.kerb_certificate_logon'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/KERB_CERTIFICATE_LOGON"
+f1_keywords:
+- ntsecapi/KERB_CERTIFICATE_LOGON
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - KERB_CERTIFICATE_LOGON
+- KERB_CERTIFICATE_LOGON
 product: Windows
 targetos: Windows
 req.typenames: KERB_CERTIFICATE_LOGON, *PKERB_CERTIFICATE_LOGON
@@ -64,7 +64,7 @@ It is passed as the <i>AuthenticationInformation</i> parameter to the
 
 ### -field MessageType
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_kerb_logon_submit_type">KERB_LOGON_SUBMIT_TYPE</a> enumeration that indicates how this structure is used. The member must be one of the following values.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_logon_submit_type">KERB_LOGON_SUBMIT_TYPE</a> enumeration that indicates how this structure is used. The member must be one of the following values.
 
 <table>
 <tr>
@@ -90,7 +90,7 @@ This structure is passed as the <i>AuthenticationInformation</i> parameter to th
 </dl>
 </td>
 <td width="60%">
-This structure is used as the <b>Logon</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_certificate_unlock_logon">KERB_CERTIFICATE_UNLOCK_LOGON</a> structure.
+This structure is used as the <b>Logon</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_unlock_logon">KERB_CERTIFICATE_UNLOCK_LOGON</a> structure.
 
 </td>
 </tr>
@@ -159,7 +159,7 @@ The length, in characters, of the <b>CspData</b> member.
 
 ### -field CspData
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/kerb-smartcard-csp-info">KERB_SMARTCARD_CSP_INFO</a> structure that contains information about the smart card <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) ) or a pointer to a marshaled <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_certificate_info">KERB_CERTIFICATE_INFO</a> structure when updating certificate credentials.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/kerb-smartcard-csp-info">KERB_SMARTCARD_CSP_INFO</a> structure that contains information about the smart card <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) ) or a pointer to a marshaled <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_info">KERB_CERTIFICATE_INFO</a> structure when updating certificate credentials.
 
 
 ## -remarks
@@ -178,7 +178,7 @@ The pointers stored in the members of <b>UNICODE_STRING</b> type are relative to
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_certificate_unlock_logon">KERB_CERTIFICATE_UNLOCK_LOGON</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_unlock_logon">KERB_CERTIFICATE_UNLOCK_LOGON</a>
 
 
 

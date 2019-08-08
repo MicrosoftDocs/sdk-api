@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AssocGetDetailsOfPropKey, AssocGetDetailsOfPropKey function [Windows Shell], _shell_AssocGetDetailsOfPropKey, shell.AssocGetDetailsOfPropKey, shlobj_core/AssocGetDetailsOfPropKey
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/AssocGetDetailsOfPropKey"
+f1_keywords:
+- shlobj_core/AssocGetDetailsOfPropKey
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - API-MS-Win-Shell-Associations-L1-1-0.dll
- - Windows.Storage.dll
+- Shell32.dll
+- API-MS-Win-Shell-Associations-L1-1-0.dll
+- Windows.Storage.dll
 api_name:
- - AssocGetDetailsOfPropKey
+- AssocGetDetailsOfPropKey
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -77,7 +77,7 @@ The PIDL of the child item for which the file associations are being requested.
 
 ### -param pkey [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
 
 A pointer to the property key that is being retrieved.
 
@@ -114,7 +114,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 This function is to be used only by implementers of 
      <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> <a href="https://docs.microsoft.com/windows/desktop/shell/nse-works">Namespace Extensions</a>. Other calling applications should use 
      <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsex">IShellFolder2::GetDetailsEx</a> to get a value 
-     for a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a>. This function is to be used by 
+     for a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>. This function is to be used by 
      implementers of <b>IShellFolder</b> Namespace Extensions.
 
 The provided namespace extension must support the use of this API in one of the following three ways.

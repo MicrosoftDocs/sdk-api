@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_SetProviderArchitecture, MI_OperationOptions_SetProviderArchitecture function [Windows Management Infrastructure (MI)], MI_PROVIDER_ARCHITECTURE_32BIT, MI_PROVIDER_ARCHITECTURE_64BIT, mi/MI_OperationOptions_SetProviderArchitecture, wmi_v2.mi_operationoptions_setproviderarchitecture
 ms.topic: function
-f1_keywords: 
- - "mi/MI_OperationOptions_SetProviderArchitecture"
+f1_keywords:
+- mi/MI_OperationOptions_SetProviderArchitecture
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_OperationOptions_SetProviderArchitecture
+- MI_OperationOptions_SetProviderArchitecture
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,12 +61,12 @@ Sets the provider architecture for an operation.
 
 ### -param options [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
 
 
 ### -param architecture [in]
 
-One of the following <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_providerarchitecture">MI_ProviderArchitecture</a> values.
+One of the following <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_providerarchitecture">MI_ProviderArchitecture</a> values.
 
 
 

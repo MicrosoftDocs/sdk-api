@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: ec4a1ef9-ff2e-41b3-951b-241c545f256b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCREATE_DISK, CREATE_DISK, CREATE_DISK structure [Files], PCREATE_DISK, PCREATE_DISK structure pointer [Files], _win32_create_disk_str, base.create_disk_str, fs.create_disk_str, winioctl/CREATE_DISK, winioctl/PCREATE_DISK"
+ms.keywords: '*PCREATE_DISK, CREATE_DISK, CREATE_DISK structure [Files], PCREATE_DISK, PCREATE_DISK structure pointer [Files], _win32_create_disk_str, base.create_disk_str, fs.create_disk_str, winioctl/CREATE_DISK, winioctl/PCREATE_DISK'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/CREATE_DISK"
+f1_keywords:
+- winioctl/CREATE_DISK
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - CREATE_DISK
+- CREATE_DISK
 product: Windows
 targetos: Windows
 req.typenames: CREATE_DISK, *PCREATE_DISK
@@ -64,7 +64,7 @@ Contains information that the
 The format of a partition. 
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_partition_style">PARTITION_STYLE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a>.
 
 
 ### -field DUMMYUNIONNAME
@@ -75,13 +75,13 @@ For more information, see
 ### -field DUMMYUNIONNAME.Mbr
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_create_disk_mbr">CREATE_DISK_MBR</a> structure that contains disk information when an MBR disk is to be initialized.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk_mbr">CREATE_DISK_MBR</a> structure that contains disk information when an MBR disk is to be initialized.
 
 
 ### -field DUMMYUNIONNAME.Gpt
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_create_disk_gpt">CREATE_DISK_GPT</a> structure that contains disk information when a GPT disk is to be initialized.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk_gpt">CREATE_DISK_GPT</a> structure that contains disk information when a GPT disk is to be initialized.
 
 
 ## -see-also
@@ -89,11 +89,11 @@ A
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_create_disk_gpt">CREATE_DISK_GPT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk_gpt">CREATE_DISK_GPT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_create_disk_mbr">CREATE_DISK_MBR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk_mbr">CREATE_DISK_MBR</a>
 
 
 
@@ -101,7 +101,7 @@ A
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_partition_style">PARTITION_STYLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a>
  
 
  

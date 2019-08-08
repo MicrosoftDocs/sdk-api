@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTRegisterEvent, BluetoothGATTRegisterEvent function [Bluetooth Devices], bltooth.bluetoothgattregisterevent, bluetoothleapis/BluetoothGATTRegisterEvent
 ms.topic: function
-f1_keywords: 
- - "bluetoothleapis/BluetoothGATTRegisterEvent"
+f1_keywords:
+- bluetoothleapis/BluetoothGATTRegisterEvent
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal
@@ -30,15 +30,15 @@ req.lib: BluetoothApis.lib
 req.dll: BluetoothAPIs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - BluetoothAPIs.dll
- - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+- BluetoothAPIs.dll
+- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
- - BluetoothGATTRegisterEvent
+- BluetoothGATTRegisterEvent
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ Handle to the service.
 
 ### -param EventType [in]
 
-A value from <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ne-bthledef-_bth_le_gatt_event_type">BTH_LE_GATT_EVENT_TYPE</a>. Currently, only <b>CharacteristicValueChangedEvent</b> is supported.
+A value from <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ne-bthledef-bth_le_gatt_event_type">BTH_LE_GATT_EVENT_TYPE</a>. Currently, only <b>CharacteristicValueChangedEvent</b> is supported.
 
 
 ### -param EventParameterIn [in]
@@ -172,7 +172,7 @@ A parameter was invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ne-bthledef-_bth_le_gatt_event_type">BTH_LE_GATT_EVENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ne-bthledef-bth_le_gatt_event_type">BTH_LE_GATT_EVENT_TYPE</a>
 
 
 

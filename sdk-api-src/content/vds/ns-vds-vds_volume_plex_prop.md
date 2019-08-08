@@ -8,10 +8,10 @@ tech.root: VDS
 ms.assetid: 225cdc5e-045b-407f-b383-8f92025fbbd6
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVDS_VOLUME_PLEX_PROP, PVDS_VOLUME_PLEX_PROP, PVDS_VOLUME_PLEX_PROP structure pointer [VDS], VDS_VOLUME_PLEX_PROP, VDS_VOLUME_PLEX_PROP structure [VDS], base.vds_volume_plex_prop, vds/PVDS_VOLUME_PLEX_PROP, vds/_VDS_VOLUME_PLEX_PROP"
+ms.keywords: '*PVDS_VOLUME_PLEX_PROP, PVDS_VOLUME_PLEX_PROP, PVDS_VOLUME_PLEX_PROP structure pointer [VDS], VDS_VOLUME_PLEX_PROP, VDS_VOLUME_PLEX_PROP structure [VDS], base.vds_volume_plex_prop, vds/PVDS_VOLUME_PLEX_PROP, vds/_VDS_VOLUME_PLEX_PROP'
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_VOLUME_PLEX_PROP"
+f1_keywords:
+- vds/VDS_VOLUME_PLEX_PROP
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - VDS_VOLUME_PLEX_PROP
+- VDS_VOLUME_PLEX_PROP
 product: Windows
 targetos: Windows
 req.typenames: VDS_VOLUME_PLEX_PROP, *PVDS_VOLUME_PLEX_PROP
@@ -68,22 +68,22 @@ The GUID of the plex object.
 
 ### -field type
 
-The plex type enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_volume_plex_type">VDS_VOLUME_PLEX_TYPE</a>. The type of the plex is not required to match the type of the volume to which the plex belongs.
+The plex type enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_volume_plex_type">VDS_VOLUME_PLEX_TYPE</a>. The type of the plex is not required to match the type of the volume to which the plex belongs.
 
 
 ### -field status
 
-The status of the plex object enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_volume_plex_status">VDS_VOLUME_PLEX_STATUS</a>. The status of the plex is not required to match the status of the volume to which the plex belongs.
+The status of the plex object enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_volume_plex_status">VDS_VOLUME_PLEX_STATUS</a>. The status of the plex is not required to match the status of the volume to which the plex belongs.
 
 
 ### -field health
 
-A  <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a> enumeration value that specifies the health state of the plex.  The health state of the plex is not required to match the health state of the volume to which the plex belongs.
+A  <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a> enumeration value that specifies the health state of the plex.  The health state of the plex is not required to match the health state of the volume to which the plex belongs.
 
 
 ### -field TransitionState
 
-A  <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_transition_state">VDS_TRANSITION_STATE</a> enumeration value that specifies the transition state of the plex.
+A  <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_transition_state">VDS_TRANSITION_STATE</a> enumeration value that specifies the transition state of the plex.
 
 
 ### -field ullSize
@@ -123,19 +123,19 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolum
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_transition_state">VDS_TRANSITION_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_transition_state">VDS_TRANSITION_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_volume_plex_status">VDS_VOLUME_PLEX_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_volume_plex_status">VDS_VOLUME_PLEX_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_volume_plex_type">VDS_VOLUME_PLEX_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_volume_plex_type">VDS_VOLUME_PLEX_TYPE</a>
  
 
  

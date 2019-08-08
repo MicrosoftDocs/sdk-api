@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateShellFolderView, SHCreateShellFolderView function [Windows Shell], _win32_SHCreateShellFolderView, shell.SHCreateShellFolderView, shlobj_core/SHCreateShellFolderView
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHCreateShellFolderView"
+f1_keywords:
+- shlobj_core/SHCreateShellFolderView
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHCreateShellFolderView
+- SHCreateShellFolderView
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ Creates a new instance of the default Shell folder view object (DefView).
 
 ### -param pcsfv [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_sfv_create">SFV_CREATE</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-sfv_create">SFV_CREATE</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_sfv_create">SFV_CREATE</a> structure that describes the particulars used in creating this instance of the Shell folder view object.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-sfv_create">SFV_CREATE</a> structure that describes the particulars used in creating this instance of the Shell folder view object.
 
 
 ### -param ppsv [out]
@@ -120,7 +120,7 @@ Optionally, they can also implement <a href="https://docs.microsoft.com/windows/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_sfv_create">SFV_CREATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-sfv_create">SFV_CREATE</a>
 
 
 

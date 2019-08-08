@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROPERTY_SHV_COMBINATION_TYPE, PROPERTY_SHV_LIST, SHVTEMPLATEPROPERTIES, SHVTEMPLATEPROPERTIES enumeration [Network Policy Server], nps.SDO_shvtemplateproperties, sdo.shvtemplateproperties, sdoias/PROPERTY_SHV_COMBINATION_TYPE, sdoias/PROPERTY_SHV_LIST, sdoias/SHVTEMPLATEPROPERTIES
 ms.topic: enum
-f1_keywords: 
- - "sdoias/SHVTEMPLATEPROPERTIES"
+f1_keywords:
+- sdoias/SHVTEMPLATEPROPERTIES
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - SHVTEMPLATEPROPERTIES
+- SHVTEMPLATEPROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: SHVTEMPLATEPROPERTIES
@@ -76,7 +76,7 @@ The values of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iascommonproperties">IASCOMMONPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
  
 
  

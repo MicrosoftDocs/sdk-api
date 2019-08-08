@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TxfLogCreateFileReadContext, TxfLogCreateFileReadContext function [Files], fs.txflogcreatefilereadcontext, txfw32/TxfLogCreateFileReadContext
 ms.topic: function
-f1_keywords: 
- - "txfw32/TxfLogCreateFileReadContext"
+f1_keywords:
+- txfw32/TxfLogCreateFileReadContext
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: TxfW32.lib
 req.dll: TxfW32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - TxfW32.dll
+- TxfW32.dll
 api_name:
- - TxfLogCreateFileReadContext
+- TxfLogCreateFileReadContext
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,7 +82,7 @@ The last LSN in the range to be read.
 
 ### -param TxfFileId [in]
 
-The TxF identifier to search for in the LSN range. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_id">TXF_ID</a>.
+The TxF identifier to search for in the LSN range. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_id">TXF_ID</a>.
 
 
 ### -param TxfLogContext [out]
@@ -107,7 +107,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_id">TXF_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_id">TXF_ID</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: 6a69e5b9-ab6a-4bbb-9f1a-5882d4c8038c
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSID_INFO, PSID_INFO, PSID_INFO structure pointer [Security], SID_INFO, SID_INFO structure [Security], _win32_sid_info_str, aclui/PSID_INFO, aclui/SID_INFO, security.sid_info"
+ms.keywords: '*PSID_INFO, PSID_INFO, PSID_INFO structure pointer [Security], SID_INFO, SID_INFO structure [Security], _win32_sid_info_str, aclui/PSID_INFO, aclui/SID_INFO, security.sid_info'
 ms.topic: struct
-f1_keywords: 
- - "aclui/SID_INFO"
+f1_keywords:
+- aclui/SID_INFO
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Aclui.h
+- Aclui.h
 api_name:
- - SID_INFO
+- SID_INFO
 product: Windows
 targetos: Windows
 req.typenames: SID_INFO, *PSID_INFO
@@ -52,9 +52,9 @@ ms.custom: 19H1
 
 
 The <b>SID_INFO</b> structure contains the list of common names corresponding to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structures returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation2-lookupsids">ISecurityInformation2::LookupSids</a>. It is a member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_sid_info_list">SID_INFO_LIST</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-sid_info_list">SID_INFO_LIST</a> structure.
 
 
 ## -struct-fields
@@ -64,19 +64,19 @@ The <b>SID_INFO</b> structure contains the list of common names corresponding to
 
 ### -field pSid
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that identifies one of the SIDs passed into 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that identifies one of the SIDs passed into 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation2-lookupsids">ISecurityInformation2::LookupSids</a>.
 
 
 ### -field pwzCommonName
 
 A pointer to a string containing the common name corresponding to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure specified in <b>pSid</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure specified in <b>pSid</b>.
 
 
 ### -field pwzClass
 
-A pointer to a string describing the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure as either a user or a group. The possible values of this string are as follows:
+A pointer to a string describing the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure as either a user or a group. The possible values of this string are as follows:
 
 <p class="indent">"Computer"
 
@@ -88,7 +88,7 @@ A pointer to a string describing the <a href="https://docs.microsoft.com/windows
 ### -field pwzUPN
 
 A pointer to the user principal name (UPN) corresponding to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure specified in <b>pSid</b>. If a UPN has not been designated for the <b>SID</b> structure, the value of this parameter is <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure specified in <b>pSid</b>. If a UPN has not been designated for the <b>SID</b> structure, the value of this parameter is <b>NULL</b>.
 
 
 ## -see-also
@@ -100,7 +100,7 @@ A pointer to the user principal name (UPN) corresponding to the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
  
 
  

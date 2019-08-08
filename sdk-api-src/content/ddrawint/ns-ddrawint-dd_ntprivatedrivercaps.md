@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DD_NTPRIVATEDRIVERCAPS, DD_NTPRIVATEDRIVERCAPS structure [Display Devices], ddrawint/DD_NTPRIVATEDRIVERCAPS, ddstrcts_37e03d8c-1dc6-44d4-afe7-1f92acb58898.xml, display.dd_ntprivatedrivercaps
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_NTPRIVATEDRIVERCAPS"
+f1_keywords:
+- ddrawint/DD_NTPRIVATEDRIVERCAPS
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_NTPRIVATEDRIVERCAPS
+- DD_NTPRIVATEDRIVERCAPS
 product: Windows
 targetos: Windows
 req.typenames: DD_NTPRIVATEDRIVERCAPS
@@ -74,7 +74,7 @@ Indicates how DirectDraw should create the surface.
 
 #### DDHAL_PRIVATECAP_AUTOMICSURFACECREATION
 
-When this flag is set, it indicates that the driver requests <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a> to be called only once when the application creates a complex flipping chain using a single <b>CreateSurface</b> call. In this case, the <b>lplpSList</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_createsurfacedata">DD_CREATESURFACEDATA</a> structure points to a list of surfaces to create (rather than a single surface) and <b>dwSCnt</b> contains the number of surfaces in the list. 
+When this flag is set, it indicates that the driver requests <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a> to be called only once when the application creates a complex flipping chain using a single <b>CreateSurface</b> call. In this case, the <b>lplpSList</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_createsurfacedata">DD_CREATESURFACEDATA</a> structure points to a list of surfaces to create (rather than a single surface) and <b>dwSCnt</b> contains the number of surfaces in the list. 
 
 
 
@@ -101,7 +101,7 @@ When the DDHAL_PRIVATECAP_NOTIFYPRIMARYCREATION flag is not set, DirectDraw perf
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_createsurfacedata">DD_CREATESURFACEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_createsurfacedata">DD_CREATESURFACEDATA</a>
 
 
 

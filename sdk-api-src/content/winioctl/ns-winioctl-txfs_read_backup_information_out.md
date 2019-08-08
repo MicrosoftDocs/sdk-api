@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: c2b9ce2f-9f08-4706-9565-423ab0dc493f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTXFS_READ_BACKUP_INFORMATION_OUT, PTXFS_READ_BACKUP_INFORMATION_OUT, PTXFS_READ_BACKUP_INFORMATION_OUT structure pointer [Files], TXFS_READ_BACKUP_INFORMATION_OUT, TXFS_READ_BACKUP_INFORMATION_OUT structure [Files], fs.txfs_read_backup_information_out, winioctl/PTXFS_READ_BACKUP_INFORMATION_OUT, winioctl/TXFS_READ_BACKUP_INFORMATION_OUT"
+ms.keywords: '*PTXFS_READ_BACKUP_INFORMATION_OUT, PTXFS_READ_BACKUP_INFORMATION_OUT, PTXFS_READ_BACKUP_INFORMATION_OUT structure pointer [Files], TXFS_READ_BACKUP_INFORMATION_OUT, TXFS_READ_BACKUP_INFORMATION_OUT structure [Files], fs.txfs_read_backup_information_out, winioctl/PTXFS_READ_BACKUP_INFORMATION_OUT, winioctl/TXFS_READ_BACKUP_INFORMATION_OUT'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/TXFS_READ_BACKUP_INFORMATION_OUT"
+f1_keywords:
+- winioctl/TXFS_READ_BACKUP_INFORMATION_OUT
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - TXFS_READ_BACKUP_INFORMATION_OUT
+- TXFS_READ_BACKUP_INFORMATION_OUT
 product: Windows
 targetos: Windows
 req.typenames: TXFS_READ_BACKUP_INFORMATION_OUT, *PTXFS_READ_BACKUP_INFORMATION_OUT
@@ -58,7 +58,7 @@ req.redist:
 
 Contains a Transactional NTFS (TxF) specific structure. This information should only be used when 
    calling 
-   <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_write_backup_information">TXFS_WRITE_BACKUP_INFORMATION</a>.
+   <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_write_backup_information">TXFS_WRITE_BACKUP_INFORMATION</a>.
 
 
 ## -struct-fields

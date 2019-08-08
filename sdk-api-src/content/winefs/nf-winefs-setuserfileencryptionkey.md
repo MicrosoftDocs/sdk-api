@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetUserFileEncryptionKey, SetUserFileEncryptionKey function [Files], _win32_setuserfileencryptionkey, base.setuserfileencryptionkey, fs.setuserfileencryptionkey, winefs/SetUserFileEncryptionKey
 ms.topic: function
-f1_keywords: 
- - "winefs/SetUserFileEncryptionKey"
+f1_keywords:
+- winefs/SetUserFileEncryptionKey
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - SetUserFileEncryptionKey
+- SetUserFileEncryptionKey
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ Sets the user's current key to the specified certificate.
 ### -param pEncryptionCertificate [in]
 
 A pointer to a certificate that will be the user's key. This parameter is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_encryption_certificate">ENCRYPTION_CERTIFICATE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-encryption_certificate">ENCRYPTION_CERTIFICATE</a> structure.
 
 
 ## -returns
@@ -152,7 +152,7 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_encryption_certificate">ENCRYPTION_CERTIFICATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-encryption_certificate">ENCRYPTION_CERTIFICATE</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV6SetStatelessStoreParams, DhcpV6SetStatelessStoreParams function [DHCP], dhcp.dhcpv6setstatelessstoreparams, dhcpsapi/DhcpV6SetStatelessStoreParams
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpV6SetStatelessStoreParams"
+f1_keywords:
+- dhcpsapi/DhcpV6SetStatelessStoreParams
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpV6SetStatelessStoreParams
+- DhcpV6SetStatelessStoreParams
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ If <b>TRUE</b> the stateless client inventory configuration settings at server l
 
 ### -param SubnetAddress [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> structure that contains the IPv6 subnet address of the stateless client inventory configuration settings to be modified. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> structure that contains the IPv6 subnet address of the stateless client inventory configuration settings to be modified. 
 If the value of <i>fServerLevel</i> is <b>TRUE</b>, this must be 0.
 
 

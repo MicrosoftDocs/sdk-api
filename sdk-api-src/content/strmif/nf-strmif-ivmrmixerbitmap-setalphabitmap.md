@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerBitmap interface [DirectShow],SetAlphaBitmap method, IVMRMixerBitmap.SetAlphaBitmap, IVMRMixerBitmap::SetAlphaBitmap, IVMRMixerBitmapSetAlphaBitmap, SetAlphaBitmap, SetAlphaBitmap method [DirectShow], SetAlphaBitmap method [DirectShow],IVMRMixerBitmap interface, dshow.ivmrmixerbitmap_setalphabitmap, strmif/IVMRMixerBitmap::SetAlphaBitmap
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRMixerBitmap.SetAlphaBitmap"
+f1_keywords:
+- strmif/IVMRMixerBitmap.SetAlphaBitmap
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMixerBitmap.SetAlphaBitmap
+- IVMRMixerBitmap.SetAlphaBitmap
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ The <b>SetAlphaBitmap</b> method specifies a new bitmap image and the source loc
 
 ### -param pBmpParms [in]
 
-A oointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmralphabitmap">VMRALPHABITMAP</a> structure that contains information about the bitmap.
+A oointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmralphabitmap">VMRALPHABITMAP</a> structure that contains information about the bitmap.
 
 
 ## -returns
@@ -133,13 +133,13 @@ BitBlt to bitmap surface failed.
 
 
 
-To remove the bitmap, set the <b>VMRBITMAP_DISABLE</b> flag in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmralphabitmap">VMRALPHABITMAP</a> structure and call <b>SetAlphaBitmap</b> again.
+To remove the bitmap, set the <b>VMRBITMAP_DISABLE</b> flag in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmralphabitmap">VMRALPHABITMAP</a> structure and call <b>SetAlphaBitmap</b> again.
 
 The method might return <b>E_INVALIDARG</b> for several reasons:
 
 <ul>
-<li>The <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmralphabitmap">VMRALPHABITMAP</a> structure contains an invalid combination of flags.</li>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmralphabitmap">VMRALPHABITMAP</a> structure does not specify a valid HDC or DirectDraw surface.</li>
+<li>The <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmralphabitmap">VMRALPHABITMAP</a> structure contains an invalid combination of flags.</li>
+<li>The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmralphabitmap">VMRALPHABITMAP</a> structure does not specify a valid HDC or DirectDraw surface.</li>
 <li>The value of <b>fAlpha</b> is invalid.</li>
 </ul>
 

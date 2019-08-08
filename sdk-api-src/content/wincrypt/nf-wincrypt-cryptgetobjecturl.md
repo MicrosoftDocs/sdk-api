@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_GET_URL_FROM_AUTH_ATTRIBUTE, CRYPT_GET_URL_FROM_EXTENSION, CRYPT_GET_URL_FROM_PROPERTY, CRYPT_GET_URL_FROM_UNAUTH_ATTRIBUTE, CryptGetObjectUrl, CryptGetObjectUrl function [Security], URL_OID_CERTIFICATE_CRL_DIST_POINT, URL_OID_CERTIFICATE_CRL_DIST_POINT_AND_OCSP, URL_OID_CERTIFICATE_FRESHEST_CRL, URL_OID_CERTIFICATE_ISSUER, URL_OID_CERTIFICATE_OCSP, URL_OID_CERTIFICATE_OCSP_AND_CRL_DIST_POINT, URL_OID_CERTIFICATE_ONLY_OCSP, URL_OID_CRL_FRESHEST_CRL, URL_OID_CRL_ISSUER, URL_OID_CROSS_CERT_DIST_POINT, URL_OID_CROSS_CERT_SUBJECT_INFO_ACCESS, URL_OID_CTL_ISSUER, URL_OID_CTL_NEXT_UPDATE, _crypto2_cryptgetobjecturl, security.cryptgetobjecturl, wincrypt/CryptGetObjectUrl
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptGetObjectUrl"
+f1_keywords:
+- wincrypt/CryptGetObjectUrl
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Cryptnet.lib
 req.dll: Cryptnet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cryptnet.dll
+- Cryptnet.dll
 api_name:
- - CryptGetObjectUrl
+- CryptGetObjectUrl
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -84,7 +84,7 @@ This parameter can be one of the following values. For information about how the
 Provides the URL of the certificate issuer retrieved from the authority information access extension or property of a certificate.
 
 For the <i>pvPara</i> parameter: A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that was issued by the issuer whose URL is being requested.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that was issued by the issuer whose URL is being requested.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ For the <i>pvPara</i> parameter: A pointer to a
 Provides a list of URLs of the CRL distribution points retrieved from the CRL distribution point extension or property of a certificate.
 
 For the <i>pvPara</i> parameter: A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure whose CRL distribution point is requested.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure whose CRL distribution point is requested.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ For the <i>pvPara</i> parameter: A pointer to a
 Provides a list of OCSP and CRL distribution point URLs from the authority information access (AIA)   and CRL distribution point extensions or properties of a certificate. The function returns any CRL distribution point URLs first. Before using any OCSP URLs, you must remove the L"ocsp:" prefix.
 
 For the <i>pvPara</i> parameter: A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure whose OCSP and CRL distribution point URLs are requested.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure whose OCSP and CRL distribution point URLs are requested.
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ For the <i>pvPara</i> parameter: A pointer to a
 Provides an OCSP URL from the authority information access (AIA)   extension or property of a certificate.
 
 For the <i>pvPara</i> parameter: A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure whose OCSP URL is requested.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure whose OCSP URL is requested.
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ For the <i>pvPara</i> parameter: A pointer to a
 Provides a list of OCSP and CRL distribution point URLs from the authority information access (AIA)   and CRL distribution point extensions or properties of a certificate. The function returns any OCSP URLs first. Before using any OCSP URLs, you must remove the L"ocsp:" prefix.
 
 For the <i>pvPara</i> parameter: A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure whose OCSP and CRL distribution point URLs are requested.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure whose OCSP and CRL distribution point URLs are requested.
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ For the <i>pvPara</i> parameter: A pointer to a
 Provides a list of OCSP URLs from the authority information access (AIA)  extension or property of a certificate. Before using any OCSP URLs, you must remove the L"ocsp:" prefix.
 
 For the <i>pvPara</i> parameter: A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure whose OCSP URLs are requested.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure whose OCSP URLs are requested.
 
 </td>
 </tr>
@@ -162,7 +162,7 @@ For the <i>pvPara</i> parameter: A pointer to a
 Provides the URL of the CTL issuer retrieved from an authority information access attribute method encoded in each signer information in the PKCS #7 CTL.
 
 For the <i>pvPara</i> parameter: A pointer to a Signer Index 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure that was issued by the issuer whose URL, identified by the signer index, is requested.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure that was issued by the issuer whose URL, identified by the signer index, is requested.
 
 </td>
 </tr>
@@ -175,7 +175,7 @@ For the <i>pvPara</i> parameter: A pointer to a Signer Index
 Provides the URL of the next update of that CTL retrieved from an authority information access CTL extension, property, or signer information attribute method.
 
 For the <i>pvPara</i> parameter: A pointer to a Signer Index 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure whose next update URL is requested, and an optional signer index, in case it is needed to check the signer information attributes.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure whose next update URL is requested, and an optional signer index, in case it is needed to check the signer information attributes.
 
 </td>
 </tr>
@@ -188,7 +188,7 @@ For the <i>pvPara</i> parameter: A pointer to a Signer Index
 Provides the URL of the CRL issuer retrieved from a property on a CRL that was inherited from the subject certificate (either from the subject certificate issuer or the subject certificate distribution point extension). It is encoded as an authority information access extension method.
 
 For the <i>pvPara</i> parameter: A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a> structure that was issued by the issuer whose URL is requested.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure that was issued by the issuer whose URL is requested.
 
 </td>
 </tr>
@@ -213,7 +213,7 @@ For the <i>pvPara</i> parameter: The PCCERT_CONTEXT of a certificate whose most 
 Retrieves the most recent CRL extension or property of the CRL.
 
 For the <i>pvPara</i> parameter: A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_crl_context_pair">CERT_CRL_CONTEXT_PAIR</a> structure that contains the base CRL of a certificate whose most recent CRL distribution point is being requested.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_crl_context_pair">CERT_CRL_CONTEXT_PAIR</a> structure that contains the base CRL of a certificate whose most recent CRL distribution point is being requested.
 
 </td>
 </tr>
@@ -321,7 +321,7 @@ A pointer to a <b>DWORD</b> that specifies the size, in bytes, of the buffer poi
 ### -param pUrlInfo [out]
 
 An optional pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_url_info">CRYPT_URL_INFO</a> structure that receives the data for the value entry.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_url_info">CRYPT_URL_INFO</a> structure that receives the data for the value entry.
 
 
 ### -param pcbUrlInfo [in, out]

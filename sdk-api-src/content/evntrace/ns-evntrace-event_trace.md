@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: d8a6b63e-0cd4-4d19-b0b3-16bb0d33e4c0
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEVENT_TRACE, EVENT_TRACE, EVENT_TRACE structure [ETW], PEVENT_TRACE, PEVENT_TRACE structure pointer [ETW], _EVENT_TRACE, _evt_event_trace, base.event_trace, etw.event_trace, evntrace/EVENT_TRACE, evntrace/PEVENT_TRACE"
+ms.keywords: '*PEVENT_TRACE, EVENT_TRACE, EVENT_TRACE structure [ETW], PEVENT_TRACE, PEVENT_TRACE structure pointer [ETW], _EVENT_TRACE, _evt_event_trace, base.event_trace, etw.event_trace, evntrace/EVENT_TRACE, evntrace/PEVENT_TRACE'
 ms.topic: struct
-f1_keywords: 
- - "evntrace/EVENT_TRACE"
+f1_keywords:
+- evntrace/EVENT_TRACE
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evntrace.h
+- Evntrace.h
 api_name:
- - EVENT_TRACE
+- EVENT_TRACE
 product: Windows
 targetos: Windows
 req.typenames: EVENT_TRACE, *PEVENT_TRACE
@@ -109,7 +109,7 @@ Reserved.
 
 ### -field DUMMYUNIONNAME.BufferContext
 
-Provides information about the event such as the session identifier and processor number of the CPU on which the provider process ran. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/relogger/ns-relogger-_etw_buffer_context">ETW_BUFFER_CONTEXT</a> structure.
+Provides information about the event such as the session identifier and processor number of the CPU on which the provider process ran. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/relogger/ns-relogger-etw_buffer_context">ETW_BUFFER_CONTEXT</a> structure.
 
 <b>Prior to Windows Vista:  </b>Not supported.
 

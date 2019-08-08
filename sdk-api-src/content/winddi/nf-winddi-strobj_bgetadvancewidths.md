@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STROBJ_bGetAdvanceWidths, STROBJ_bGetAdvanceWidths function [Display Devices], display.strobj_bgetadvancewidths, gdifncs_d101c29f-374a-4e66-801c-beba0805f070.xml, winddi/STROBJ_bGetAdvanceWidths
 ms.topic: function
-f1_keywords: 
- - "winddi/STROBJ_bGetAdvanceWidths"
+f1_keywords:
+- winddi/STROBJ_bGetAdvanceWidths
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - STROBJ_bGetAdvanceWidths
+- STROBJ_bGetAdvanceWidths
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>STROBJ_bGetAdvanceWidths</b> function retrieves an array of vectors speci
 
 ### -param pso
 
-Is a caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_strobj">STROBJ</a> structure describing a text string. This is typically the STROBJ structure received by the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a> function.
+Is a caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a> structure describing a text string. This is typically the STROBJ structure received by the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a> function.
 
 
 ### -param iFirst [in]
@@ -108,7 +108,7 @@ Note that glyph positions returned by <b>STROBJ_bEnumPositionsOnly</b> do not ne
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_strobj">STROBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-strobj">STROBJ</a>
 
 
 

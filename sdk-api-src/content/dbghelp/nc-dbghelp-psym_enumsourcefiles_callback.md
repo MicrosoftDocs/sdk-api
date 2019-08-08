@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSYM_ENUMSOURCEFILES_CALLBACK, PSYM_ENUMSOURCEFILES_CALLBACKW, SymEnumSourceFilesProc, SymEnumSourceFilesProc callback, SymEnumSourceFilesProc callback function, base.symenumsourcefilesproc, dbghelp/SymEnumSourceFilesProc
 ms.topic: callback
-f1_keywords: 
- - "dbghelp/SymEnumSourceFilesProc"
+f1_keywords:
+- dbghelp/SymEnumSourceFilesProc
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - SymEnumSourceFilesProc
+- SymEnumSourceFilesProc
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ The <b>PSYM_ENUMSOURCEFILES_CALLBACK</b> and <b>PSYM_ENUMSOURCEFILES_CALLBACKW</
 ### -param pSourceFile [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_sourcefile">SOURCEFILE</a> structure that provides information about the source file.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-sourcefile">SOURCEFILE</a> structure that provides information about the source file.
 
 
 ### -param UserContext [in, optional]
@@ -96,7 +96,7 @@ If the function returns <b>FALSE</b>, the enumeration will stop.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_sourcefile">SOURCEFILE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-sourcefile">SOURCEFILE</a>
 
 
 

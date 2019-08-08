@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 3e244e6c-0731-477a-b1d3-2601c29449ca
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPOVERLAPPED_ENTRY, LPOVERLAPPED_ENTRY, LPOVERLAPPED_ENTRY structure pointer [Files], OVERLAPPED_ENTRY, OVERLAPPED_ENTRY structure [Files], fs.overlapped_entry, minwinbase/LPOVERLAPPED_ENTRY, minwinbase/OVERLAPPED_ENTRY, winbase/LPOVERLAPPED_ENTRY, winbase/OVERLAPPED_ENTRY"
+ms.keywords: '*LPOVERLAPPED_ENTRY, LPOVERLAPPED_ENTRY, LPOVERLAPPED_ENTRY structure pointer [Files], OVERLAPPED_ENTRY, OVERLAPPED_ENTRY structure [Files], fs.overlapped_entry, minwinbase/LPOVERLAPPED_ENTRY, minwinbase/OVERLAPPED_ENTRY, winbase/LPOVERLAPPED_ENTRY, winbase/OVERLAPPED_ENTRY'
 ms.topic: struct
-f1_keywords: 
- - "minwinbase/OVERLAPPED_ENTRY"
+f1_keywords:
+- minwinbase/OVERLAPPED_ENTRY
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - MinWinBase.h
- - WinBase.h
+- MinWinBase.h
+- WinBase.h
 api_name:
- - OVERLAPPED_ENTRY
+- OVERLAPPED_ENTRY
 product: Windows
 targetos: Windows
 req.typenames: OVERLAPPED_ENTRY, *LPOVERLAPPED_ENTRY
@@ -71,7 +71,7 @@ Receives the completion key value associated with the file handle whose I/O oper
 
 ### -field lpOverlapped
 
-Receives the address of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure 
+Receives the address of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure 
       that was specified when the completed I/O operation was started.
 
 
@@ -94,7 +94,7 @@ Receives the number of bytes transferred during the I/O operation that has compl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
  
 
  

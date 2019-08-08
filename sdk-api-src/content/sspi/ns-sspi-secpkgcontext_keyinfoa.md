@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: ec146329-6789-460c-ae62-629a1765a4c1
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgContext_KeyInfoA, PSecPkgContext_KeyInfo, PSecPkgContext_KeyInfo structure pointer [Security], SecPkgContext_KeyInfo, SecPkgContext_KeyInfo structure [Security], SecPkgContext_KeyInfoA, SecPkgContext_KeyInfoW, _ssp_secpkgcontext_keyinfo, security.secpkgcontext_keyinfo, sspi/PSecPkgContext_KeyInfo, sspi/SecPkgContext_KeyInfo, sspi/SecPkgContext_KeyInfoA, sspi/SecPkgContext_KeyInfoW"
+ms.keywords: '*PSecPkgContext_KeyInfoA, PSecPkgContext_KeyInfo, PSecPkgContext_KeyInfo structure pointer [Security], SecPkgContext_KeyInfo, SecPkgContext_KeyInfo structure [Security], SecPkgContext_KeyInfoA, SecPkgContext_KeyInfoW, _ssp_secpkgcontext_keyinfo, security.secpkgcontext_keyinfo, sspi/PSecPkgContext_KeyInfo, sspi/SecPkgContext_KeyInfo, sspi/SecPkgContext_KeyInfoA, sspi/SecPkgContext_KeyInfoW'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SecPkgContext_KeyInfo"
+f1_keywords:
+- sspi/SecPkgContext_KeyInfo
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SecPkgContext_KeyInfo
- - SecPkgContext_KeyInfoA
- - SecPkgContext_KeyInfoW
+- SecPkgContext_KeyInfo
+- SecPkgContext_KeyInfoA
+- SecPkgContext_KeyInfoW
 product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_KeyInfoA, *PSecPkgContext_KeyInfoA
@@ -56,7 +56,7 @@ ms.custom: 19H1
 The <b>SecPkgContext_KeyInfo</b> structure contains information about the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session keys</a> used in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function uses this structure.
 
-Applications using the Schannel <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP) should not use the <b>SecPkgContext_KeyInfo</b> structure. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_secpkgcontext_connectioninfo">SecPkgContext_ConnectionInfo</a> structure.
+Applications using the Schannel <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP) should not use the <b>SecPkgContext_KeyInfo</b> structure. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_connectioninfo">SecPkgContext_ConnectionInfo</a> structure.
 
 
 ## -struct-fields

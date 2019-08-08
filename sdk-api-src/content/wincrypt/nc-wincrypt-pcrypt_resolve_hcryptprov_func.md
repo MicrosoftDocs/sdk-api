@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PCRYPT_RESOLVE_HCRYPTPROV_FUNC, PCRYPT_RESOLVE_HCRYPTPROV_FUNC callback, PCRYPT_RESOLVE_HCRYPTPROV_FUNC callback function [Security], security.pcrypt_resolve_hcryptprov_func, wincrypt/PCRYPT_RESOLVE_HCRYPTPROV_FUNC
 ms.topic: callback
-f1_keywords: 
- - "wincrypt/PCRYPT_RESOLVE_HCRYPTPROV_FUNC"
+f1_keywords:
+- wincrypt/PCRYPT_RESOLVE_HCRYPTPROV_FUNC
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - PCRYPT_RESOLVE_HCRYPTPROV_FUNC
+- PCRYPT_RESOLVE_HCRYPTPROV_FUNC
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The <b>PCRYPT_RESOLVE_HCRYPTPROV_FUNC</b> function returns a handle to a <a href
 
 ### -param *pPrivateKeyInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_private_key_info">CRYPT_PRIVATE_KEY_INFO</a> structure that describes the key being imported.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_private_key_info">CRYPT_PRIVATE_KEY_INFO</a> structure that describes the key being imported.
 
 
 ### -param *phCryptProv [out]
@@ -73,7 +73,7 @@ A pointer to the  <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/
 
 ### -param pVoidResolveFunc [in]
 
-The <b>pVoidResolveFunc</b> member passed in by the caller in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_pkcs8_import_params">CRYPT_PKCS8_IMPORT_PARAMS</a>  structure.
+The <b>pVoidResolveFunc</b> member passed in by the caller in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_pkcs8_import_params">CRYPT_PKCS8_IMPORT_PARAMS</a>  structure.
 
 
 ## -returns
@@ -92,11 +92,11 @@ If the function fails, it returns zero (<b>FALSE</b>).
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_pkcs8_import_params">CRYPT_PKCS8_IMPORT_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_pkcs8_import_params">CRYPT_PKCS8_IMPORT_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_private_key_info">CRYPT_PRIVATE_KEY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_private_key_info">CRYPT_PRIVATE_KEY_INFO</a>
 
 
 

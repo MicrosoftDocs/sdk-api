@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 9b5cffc5-386d-4333-9a37-cc27b8f9b187
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PNTFS_STATISTICS, NTFS_STATISTICS, NTFS_STATISTICS structure [Files], PNTFS_STATISTICS, PNTFS_STATISTICS structure pointer [Files], base.ntfs_statistics_str, fs.ntfs_statistics_str, winioctl/NTFS_STATISTICS, winioctl/PNTFS_STATISTICS"
+ms.keywords: '*PNTFS_STATISTICS, NTFS_STATISTICS, NTFS_STATISTICS structure [Files], PNTFS_STATISTICS, PNTFS_STATISTICS structure pointer [Files], base.ntfs_statistics_str, fs.ntfs_statistics_str, winioctl/NTFS_STATISTICS, winioctl/PNTFS_STATISTICS'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/NTFS_STATISTICS"
+f1_keywords:
+- winioctl/NTFS_STATISTICS
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - NTFS_STATISTICS
+- NTFS_STATISTICS
 product: Windows
 targetos: Windows
 req.typenames: NTFS_STATISTICS, *PNTFS_STATISTICS
@@ -51,7 +51,7 @@ req.redist:
 
 
 Contains statistical information from the NTFS file system.
-<div class="alert"><b>Tip</b>  Applications targeting Windows 10 can access additional statistics through <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_ntfs_statistics_ex">NTFS_STATISTICS_EX</a>.  </div><div> </div>
+<div class="alert"><b>Tip</b>  Applications targeting Windows 10 can access additional statistics through <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-ntfs_statistics_ex">NTFS_STATISTICS_EX</a>.  </div><div> </div>
 
 ## -struct-fields
 
@@ -414,7 +414,7 @@ The MFT, MFT mirror, root index, user index, bitmap, and MFT bitmap are counted 
 
 The number of read and write operations measured is the number of paging operations.
 
-For additional statistics that are only available with Windows 10, use <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_ntfs_statistics_ex">NTFS_STATISTICS_EX</a>.  
+For additional statistics that are only available with Windows 10, use <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-ntfs_statistics_ex">NTFS_STATISTICS_EX</a>.  
 
 
 
@@ -424,7 +424,7 @@ For additional statistics that are only available with Windows 10, use <a href=
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_filesystem_statistics">FILESYSTEM_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-filesystem_statistics">FILESYSTEM_STATISTICS</a>
 
 
 
@@ -432,7 +432,7 @@ For additional statistics that are only available with Windows 10, use <a href=
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_ntfs_statistics_ex">NTFS_STATISTICS_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-ntfs_statistics_ex">NTFS_STATISTICS_EX</a>
 
 
 

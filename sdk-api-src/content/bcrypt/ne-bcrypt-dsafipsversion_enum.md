@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DSAFIPSVERSION_ENUM, DSAFIPSVERSION_ENUM enumeration [Security], DSA_FIPS186_2, DSA_FIPS186_3, bcrypt/DSAFIPSVERSION_ENUM, bcrypt/DSA_FIPS186_2, bcrypt/DSA_FIPS186_3, security.dsafipsversion_enum
 ms.topic: enum
-f1_keywords: 
- - "bcrypt/DSAFIPSVERSION_ENUM"
+f1_keywords:
+- bcrypt/DSAFIPSVERSION_ENUM
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - DSAFIPSVERSION_ENUM
+- DSAFIPSVERSION_ENUM
 product: Windows
 targetos: Windows
 req.typenames: DSAFIPSVERSION_ENUM
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DSAFIPSVERSION_ENUM</b> enumeration type contains FIPS version information. It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a> and <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_parameter_header_v2">BCRYPT_DSA_PARAMETER_HEADER_V2</a> structures.
+The <b>DSAFIPSVERSION_ENUM</b> enumeration type contains FIPS version information. It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a> and <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_parameter_header_v2">BCRYPT_DSA_PARAMETER_HEADER_V2</a> structures.
 
 
 ## -enum-fields
@@ -74,11 +74,11 @@ Federal Information Processing Standard (FIPS) 3.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob_v2">BCRYPT_DSA_KEY_BLOB_V2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_parameter_header_v2">BCRYPT_DSA_PARAMETER_HEADER_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_dsa_parameter_header_v2">BCRYPT_DSA_PARAMETER_HEADER_V2</a>
  
 
  

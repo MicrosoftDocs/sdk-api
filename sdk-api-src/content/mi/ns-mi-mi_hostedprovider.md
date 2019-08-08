@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_HostedProvider, MI_HostedProvider structure [Windows Management Infrastructure (MI)], mi/MI_HostedProvider, wmi_v2.mi_hostedprovider
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_HostedProvider"
+f1_keywords:
+- mi/MI_HostedProvider
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_HostedProvider
+- MI_HostedProvider
 product: Windows
 targetos: Windows
 req.typenames: MI_HostedProvider
@@ -71,6 +71,6 @@ Reserved for internal use.
 
 ### -field ft
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_hostedproviderft">MI_HostedProviderFT</a> function 
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_hostedproviderft">MI_HostedProviderFT</a> function 
       table.
 

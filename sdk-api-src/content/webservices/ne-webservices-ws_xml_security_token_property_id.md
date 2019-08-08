@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_SECURITY_TOKEN_PROPERTY_ATTACHED_REFERENCE, WS_XML_SECURITY_TOKEN_PROPERTY_ID, WS_XML_SECURITY_TOKEN_PROPERTY_ID enumeration [Web Services for Windows], WS_XML_SECURITY_TOKEN_PROPERTY_UNATTACHED_REFERENCE, WS_XML_SECURITY_TOKEN_PROPERTY_VALID_FROM_TIME, WS_XML_SECURITY_TOKEN_PROPERTY_VALID_TILL_TIME, webservices/WS_XML_SECURITY_TOKEN_PROPERTY_ATTACHED_REFERENCE, webservices/WS_XML_SECURITY_TOKEN_PROPERTY_ID, webservices/WS_XML_SECURITY_TOKEN_PROPERTY_UNATTACHED_REFERENCE, webservices/WS_XML_SECURITY_TOKEN_PROPERTY_VALID_FROM_TIME, webservices/WS_XML_SECURITY_TOKEN_PROPERTY_VALID_TILL_TIME, wsw.ws_xml_security_token_property_id
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_XML_SECURITY_TOKEN_PROPERTY_ID"
+f1_keywords:
+- webservices/WS_XML_SECURITY_TOKEN_PROPERTY_ID
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_SECURITY_TOKEN_PROPERTY_ID
+- WS_XML_SECURITY_TOKEN_PROPERTY_ID
 product: Windows
 targetos: Windows
 req.typenames: WS_XML_SECURITY_TOKEN_PROPERTY_ID
@@ -83,10 +83,10 @@ the XML buffer must have exactly one top level XML element.
 
 ### -field WS_XML_SECURITY_TOKEN_PROPERTY_VALID_FROM_TIME
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_datetime">WS_DATETIME</a> structure that contains the time from when the security token is valid.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a> structure that contains the time from when the security token is valid.
 
 
 ### -field WS_XML_SECURITY_TOKEN_PROPERTY_VALID_TILL_TIME
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_datetime">WS_DATETIME</a> structure that contains the time until when the security token is valid.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a> structure that contains the time until when the security token is valid.
 

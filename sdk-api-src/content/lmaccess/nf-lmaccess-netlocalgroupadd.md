@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetLocalGroupAdd, NetLocalGroupAdd function [Network Management], _win32_netlocalgroupadd, lmaccess/NetLocalGroupAdd, netmgmt.netlocalgroupadd
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetLocalGroupAdd"
+f1_keywords:
+- lmaccess/NetLocalGroupAdd
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
- - Samcli.dll
+- Netapi32.dll
+- Samcli.dll
 api_name:
- - NetLocalGroupAdd
+- NetLocalGroupAdd
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -88,7 +88,7 @@ The information level of the data. This parameter can be one of the following va
 </td>
 <td width="60%">
 A local group name. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_info_0">LOCALGROUP_INFO_0</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_info_0">LOCALGROUP_INFO_0</a> structure.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ A local group name. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 A local group name and a comment to associate with the group. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_info_1">LOCALGROUP_INFO_1</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_info_1">LOCALGROUP_INFO_1</a> structure.
 
 </td>
 </tr>
@@ -250,10 +250,10 @@ If the
 <tr>
 <td>LOCALGROUP_NAME_PARMNUM</td>
 <td>
-If the <i>level</i> parameter was 0, the <b>lgrpi0_name</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_info_0">LOCALGROUP_INFO_0</a> 
+If the <i>level</i> parameter was 0, the <b>lgrpi0_name</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_info_0">LOCALGROUP_INFO_0</a> 
 		 structure was invalid.
 
-If the <i>level</i> parameter was 1, the <b>lgrpi1_name</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_info_1">LOCALGROUP_INFO_1</a> 
+If the <i>level</i> parameter was 1, the <b>lgrpi1_name</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_info_1">LOCALGROUP_INFO_1</a> 
 		 structure was invalid.  
 
 </td>
@@ -261,7 +261,7 @@ If the <i>level</i> parameter was 1, the <b>lgrpi1_name</b> member of the <a hre
 <tr>
 <td>LOCALGROUP_COMMENT_PARMNUM</td>
 <td>
-If the <i>level</i> parameter was 1, the <b>lgrpi1_comment</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_info_1">LOCALGROUP_INFO_1</a> 
+If the <i>level</i> parameter was 1, the <b>lgrpi1_comment</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_info_1">LOCALGROUP_INFO_1</a> 
 		 structure was invalid.  
 
 </td>
@@ -280,11 +280,11 @@ When making requests to a domain controller and Active Directory, you may be abl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_info_0">LOCALGROUP_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_info_0">LOCALGROUP_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_info_1">LOCALGROUP_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_info_1">LOCALGROUP_INFO_1</a>
 
 
 

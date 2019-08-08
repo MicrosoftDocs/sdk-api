@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 03bf43f0-44f4-40c6-8d5d-381f36ebdd0e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMSV1_0_LOGON_SUBMIT_TYPE, MSV1_0_LOGON_SUBMIT_TYPE, MSV1_0_LOGON_SUBMIT_TYPE enumeration [Security], MsV1_0InteractiveLogon, MsV1_0Lm20Logon, MsV1_0NetworkLogon, MsV1_0NoElevationLogon, MsV1_0S4ULogon, MsV1_0SubAuthLogon, MsV1_0VirtualLogon, MsV1_0WorkstationUnlockLogon, PMSV1_0_LOGON_SUBMIT_TYPE, PMSV1_0_LOGON_SUBMIT_TYPE enumeration pointer [Security], _lsa_msv1_0_logon_submit_type, ntsecapi/MSV1_0_LOGON_SUBMIT_TYPE, ntsecapi/MsV1_0InteractiveLogon, ntsecapi/MsV1_0Lm20Logon, ntsecapi/MsV1_0NetworkLogon, ntsecapi/MsV1_0NoElevationLogon, ntsecapi/MsV1_0S4ULogon, ntsecapi/MsV1_0SubAuthLogon, ntsecapi/MsV1_0VirtualLogon, ntsecapi/MsV1_0WorkstationUnlockLogon, ntsecapi/PMSV1_0_LOGON_SUBMIT_TYPE, security.msv1_0_logon_submit_type"
+ms.keywords: '*PMSV1_0_LOGON_SUBMIT_TYPE, MSV1_0_LOGON_SUBMIT_TYPE, MSV1_0_LOGON_SUBMIT_TYPE enumeration [Security], MsV1_0InteractiveLogon, MsV1_0Lm20Logon, MsV1_0NetworkLogon, MsV1_0NoElevationLogon, MsV1_0S4ULogon, MsV1_0SubAuthLogon, MsV1_0VirtualLogon, MsV1_0WorkstationUnlockLogon, PMSV1_0_LOGON_SUBMIT_TYPE, PMSV1_0_LOGON_SUBMIT_TYPE enumeration pointer [Security], _lsa_msv1_0_logon_submit_type, ntsecapi/MSV1_0_LOGON_SUBMIT_TYPE, ntsecapi/MsV1_0InteractiveLogon, ntsecapi/MsV1_0Lm20Logon, ntsecapi/MsV1_0NetworkLogon, ntsecapi/MsV1_0NoElevationLogon, ntsecapi/MsV1_0S4ULogon, ntsecapi/MsV1_0SubAuthLogon, ntsecapi/MsV1_0VirtualLogon, ntsecapi/MsV1_0WorkstationUnlockLogon, ntsecapi/PMSV1_0_LOGON_SUBMIT_TYPE, security.msv1_0_logon_submit_type'
 ms.topic: enum
-f1_keywords: 
- - "ntsecapi/MSV1_0_LOGON_SUBMIT_TYPE"
+f1_keywords:
+- ntsecapi/MSV1_0_LOGON_SUBMIT_TYPE
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - MSV1_0_LOGON_SUBMIT_TYPE
+- MSV1_0_LOGON_SUBMIT_TYPE
 product: Windows
 targetos: Windows
 req.typenames: MSV1_0_LOGON_SUBMIT_TYPE, *PMSV1_0_LOGON_SUBMIT_TYPE
@@ -70,7 +70,7 @@ Requests an interactive user logon. This dispatch routine handles NTLM interacti
 
 Requests the second half of an NTLM 2.0 protocol logon. The first half of this type of logon is performed by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> with the <b>MsV1_0Lm20ChallengeRequest</b> message. For more information see, 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a>.
 
 
 ### -field MsV1_0NetworkLogon
@@ -141,7 +141,7 @@ Requests a logon that doesn't allow for elevation of privileges.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a>
  
 
  

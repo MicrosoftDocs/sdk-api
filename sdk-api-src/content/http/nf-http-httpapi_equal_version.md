@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HTTPAPI_EQUAL_VERSION, HTTPAPI_EQUAL_VERSION macro [HTTP], http.httpapi_equal_version, http/HTTPAPI_EQUAL_VERSION
 ms.topic: macro
-f1_keywords: 
- - "http/HTTP_EQUAL_VERSION"
+f1_keywords:
+- http/HTTP_EQUAL_VERSION
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - http.h
+- http.h
 api_name:
- - HTTP_EQUAL_VERSION
+- HTTP_EQUAL_VERSION
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>HTTPAPI_EQUAL_VERSION</b>returns a non-zero value if an 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_httpapi_version">HTTPAPI_VERSION</a> structure is exactly equal to a specified major/minor version combination, or zero otherwise.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-httpapi_version">HTTPAPI_VERSION</a> structure is exactly equal to a specified major/minor version combination, or zero otherwise.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>HTTPAPI_EQUAL_VERSION</b>returns a non-zero value if an
 ### -param version
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_httpapi_version">HTTPAPI_VERSION</a> structure to be examined.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-httpapi_version">HTTPAPI_VERSION</a> structure to be examined.
 
 
 ### -param major

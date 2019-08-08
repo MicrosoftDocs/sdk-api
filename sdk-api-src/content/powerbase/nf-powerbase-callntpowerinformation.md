@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AdministratorPowerPolicy, CallNtPowerInformation, CallNtPowerInformation function, LastSleepTime, LastWakeTime, ProcessorInformation, ProcessorPowerPolicyAc, ProcessorPowerPolicyCurrent, ProcessorPowerPolicyDc, SystemBatteryState, SystemExecutionState, SystemPowerCapabilities, SystemPowerInformation, SystemPowerPolicyAc, SystemPowerPolicyCurrent, SystemPowerPolicyDc, SystemReserveHiberFile, VerifyProcessorPowerPolicyAc, VerifyProcessorPowerPolicyDc, VerifySystemPolicyAc, VerifySystemPolicyDc, _win32_callntpowerinformation, base.callntpowerinformation, powerbase/CallNtPowerInformation, powrprof/CallNtPowerInformation
 ms.topic: function
-f1_keywords: 
- - "powerbase/CallNtPowerInformation"
+f1_keywords:
+- powerbase/CallNtPowerInformation
 req.header: powerbase.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
- - API-MS-Win-power-base-l1-1-0.dll
+- PowrProf.dll
+- API-MS-Win-power-base-l1-1-0.dll
 api_name:
- - CallNtPowerInformation
+- CallNtPowerInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -255,13 +255,13 @@ Applications can use this level to retrieve information about the idleness of th
 </td>
 <td width="60%">
 If <i>lpInBuffer</i> is not <b>NULL</b>, the function applies the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_power_policy">SYSTEM_POWER_POLICY</a> values passed in 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a> values passed in 
         <i>lpInBuffer</i> to the current system power policy used while the system is running on AC 
         (utility) power.
         
 
 The <i>lpOutputBuffer</i> buffer receives a 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_power_policy">SYSTEM_POWER_POLICY</a> structure containing 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a> structure containing 
          the current system power policy used while the system is running on AC (utility) power.
 
 </td>
@@ -278,7 +278,7 @@ The <i>lpInBuffer</i> parameter must be <b>NULL</b>; otherwise, the
         
 
 The <i>lpOutputBuffer</i> buffer receives a 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_power_policy">SYSTEM_POWER_POLICY</a> structure 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a> structure 
          containing the current system power policy used while the system is running on AC (utility) power.
 
 </td>
@@ -291,13 +291,13 @@ The <i>lpOutputBuffer</i> buffer receives a
 </td>
 <td width="60%">
 If <i>lpInBuffer</i> is not <b>NULL</b>, the function applies the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_power_policy">SYSTEM_POWER_POLICY</a> values 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a> values 
         passed in <i>lpInBuffer</i> to the current system power policy used while the system is 
         running on battery power.
         
 
 The <i>lpOutputBuffer</i> buffer receives a 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_power_policy">SYSTEM_POWER_POLICY</a> structure containing 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a> structure containing 
          the current system power policy used while the system is running on battery power.
 
 </td>
@@ -465,7 +465,7 @@ For more information on using PowrProf.h, see <a href="https://docs.microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_administrator_power_policy">ADMINISTRATOR_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-administrator_power_policy">ADMINISTRATOR_POWER_POLICY</a>
 
 
 
@@ -473,7 +473,7 @@ For more information on using PowrProf.h, see <a href="https://docs.microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_power_policy">PROCESSOR_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_power_policy">PROCESSOR_POWER_POLICY</a>
 
 
 
@@ -493,7 +493,7 @@ For more information on using PowrProf.h, see <a href="https://docs.microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_power_policy">SYSTEM_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a>
  
 
  

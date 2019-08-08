@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WCM_BILLING_CYCLE_INFO, WCM_BILLING_CYCLE_INFO structure [Windows Connection Manager], wcm.wcm_billing_cycle_info, wcmapi/WCM_BILLING_CYCLE_INFO
 ms.topic: struct
-f1_keywords: 
- - "wcmapi/WCM_BILLING_CYCLE_INFO"
+f1_keywords:
+- wcmapi/WCM_BILLING_CYCLE_INFO
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wcmapi.h
+- Wcmapi.h
 api_name:
- - WCM_BILLING_CYCLE_INFO
+- WCM_BILLING_CYCLE_INFO
 product: Windows
 targetos: Windows
 req.typenames: WCM_BILLING_CYCLE_INFO
@@ -68,7 +68,7 @@ Specifies the start date of the cycle.
 
 ### -field Duration
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_time_interval">WCM_TIME_INTERVAL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_time_interval">WCM_TIME_INTERVAL</a></b>
 
 Specifies the billing cycle duration.
 
@@ -85,7 +85,7 @@ True if at the end of the billing cycle, a new billing cycle of the same duratio
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_time_interval">WCM_TIME_INTERVAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-wcm_time_interval">WCM_TIME_INTERVAL</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: c88346f0-118e-4468-83b1-2dfc263e22f7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRASIKEV2_PROJECTION_INFO, IPSEC_CIPHER_TYPE_3DES, IPSEC_CIPHER_TYPE_AES_128, IPSEC_CIPHER_TYPE_AES_192, IPSEC_CIPHER_TYPE_AES_256, PRASIKEV2_PROJECTION_INFO, PRASIKEV2_PROJECTION_INFO structure pointer [RAS], RASIKEV2_PROJECTION_INFO, RASIKEV2_PROJECTION_INFO structure [RAS], RASIKEv2_AUTH_EAP, RASIKEv2_AUTH_MACHINECERTIFICATES, RASIKEv2_FLAGS_BEHIND_NAT, RASIKEv2_FLAGS_MOBIKESUPPORTED, RASIKEv2_FLAGS_SERVERBEHIND_NAT, ras/PRASIKEV2_PROJECTION_INFO, ras/RASIKEV2_PROJECTION_INFO, rras.rasikev2_projection_info"
+ms.keywords: '*PRASIKEV2_PROJECTION_INFO, IPSEC_CIPHER_TYPE_3DES, IPSEC_CIPHER_TYPE_AES_128, IPSEC_CIPHER_TYPE_AES_192, IPSEC_CIPHER_TYPE_AES_256, PRASIKEV2_PROJECTION_INFO, PRASIKEV2_PROJECTION_INFO structure pointer [RAS], RASIKEV2_PROJECTION_INFO, RASIKEV2_PROJECTION_INFO structure [RAS], RASIKEv2_AUTH_EAP, RASIKEv2_AUTH_MACHINECERTIFICATES, RASIKEv2_FLAGS_BEHIND_NAT, RASIKEv2_FLAGS_MOBIKESUPPORTED, RASIKEv2_FLAGS_SERVERBEHIND_NAT, ras/PRASIKEV2_PROJECTION_INFO, ras/RASIKEV2_PROJECTION_INFO, rras.rasikev2_projection_info'
 ms.topic: struct
-f1_keywords: 
- - "ras/RASIKEV2_PROJECTION_INFO"
+f1_keywords:
+- ras/RASIKEV2_PROJECTION_INFO
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ras.h
+- Ras.h
 api_name:
- - RASIKEV2_PROJECTION_INFO
+- RASIKEV2_PROJECTION_INFO
 product: Windows
 targetos: Windows
 req.typenames: RASIKEV2_PROJECTION_INFO, *PRASIKEV2_PROJECTION_INFO
@@ -255,7 +255,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/ne-ras-_rasprojection_info_type">RASPROJECTION_INFO_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/ne-ras-rasprojection_info_type">RASPROJECTION_INFO_TYPE</a>
 
 
 

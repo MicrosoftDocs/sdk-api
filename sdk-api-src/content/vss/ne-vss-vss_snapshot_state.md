@@ -8,10 +8,10 @@ tech.root: VSS
 ms.assetid: 0f9ce651-c9ad-454f-88a5-1f877c7c06ca
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVSS_SNAPSHOT_STATE, PVSS_SNAPSHOT_STATE, PVSS_SNAPSHOT_STATE enumeration pointer [VSS], VSS_SNAPSHOT_STATE, VSS_SNAPSHOT_STATE enumeration [VSS], VSS_SS_ABORTED, VSS_SS_COMMITTED, VSS_SS_COUNT, VSS_SS_CREATED, VSS_SS_DELETED, VSS_SS_POSTCOMMITTED, VSS_SS_PRECOMMITTED, VSS_SS_PREFINALCOMMITTED, VSS_SS_PREPARED, VSS_SS_PREPARING, VSS_SS_PROCESSING_COMMIT, VSS_SS_PROCESSING_POSTCOMMIT, VSS_SS_PROCESSING_POSTFINALCOMMIT, VSS_SS_PROCESSING_PRECOMMIT, VSS_SS_PROCESSING_PREFINALCOMMIT, VSS_SS_PROCESSING_PREPARE, VSS_SS_UNKNOWN, _win32_vss_snapshot_state, base.vss_snapshot_state, vss/PVSS_SNAPSHOT_STATE, vss/VSS_SNAPSHOT_STATE, vss/VSS_SS_ABORTED, vss/VSS_SS_COMMITTED, vss/VSS_SS_COUNT, vss/VSS_SS_CREATED, vss/VSS_SS_DELETED, vss/VSS_SS_POSTCOMMITTED, vss/VSS_SS_PRECOMMITTED, vss/VSS_SS_PREFINALCOMMITTED, vss/VSS_SS_PREPARED, vss/VSS_SS_PREPARING, vss/VSS_SS_PROCESSING_COMMIT, vss/VSS_SS_PROCESSING_POSTCOMMIT, vss/VSS_SS_PROCESSING_POSTFINALCOMMIT, vss/VSS_SS_PROCESSING_PRECOMMIT, vss/VSS_SS_PROCESSING_PREFINALCOMMIT, vss/VSS_SS_PROCESSING_PREPARE, vss/VSS_SS_UNKNOWN"
+ms.keywords: '*PVSS_SNAPSHOT_STATE, PVSS_SNAPSHOT_STATE, PVSS_SNAPSHOT_STATE enumeration pointer [VSS], VSS_SNAPSHOT_STATE, VSS_SNAPSHOT_STATE enumeration [VSS], VSS_SS_ABORTED, VSS_SS_COMMITTED, VSS_SS_COUNT, VSS_SS_CREATED, VSS_SS_DELETED, VSS_SS_POSTCOMMITTED, VSS_SS_PRECOMMITTED, VSS_SS_PREFINALCOMMITTED, VSS_SS_PREPARED, VSS_SS_PREPARING, VSS_SS_PROCESSING_COMMIT, VSS_SS_PROCESSING_POSTCOMMIT, VSS_SS_PROCESSING_POSTFINALCOMMIT, VSS_SS_PROCESSING_PRECOMMIT, VSS_SS_PROCESSING_PREFINALCOMMIT, VSS_SS_PROCESSING_PREPARE, VSS_SS_UNKNOWN, _win32_vss_snapshot_state, base.vss_snapshot_state, vss/PVSS_SNAPSHOT_STATE, vss/VSS_SNAPSHOT_STATE, vss/VSS_SS_ABORTED, vss/VSS_SS_COMMITTED, vss/VSS_SS_COUNT, vss/VSS_SS_CREATED, vss/VSS_SS_DELETED, vss/VSS_SS_POSTCOMMITTED, vss/VSS_SS_PRECOMMITTED, vss/VSS_SS_PREFINALCOMMITTED, vss/VSS_SS_PREPARED, vss/VSS_SS_PREPARING, vss/VSS_SS_PROCESSING_COMMIT, vss/VSS_SS_PROCESSING_POSTCOMMIT, vss/VSS_SS_PROCESSING_POSTFINALCOMMIT, vss/VSS_SS_PROCESSING_PRECOMMIT, vss/VSS_SS_PROCESSING_PREFINALCOMMIT, vss/VSS_SS_PROCESSING_PREPARE, vss/VSS_SS_UNKNOWN'
 ms.topic: enum
-f1_keywords: 
- - "vss/VSS_SNAPSHOT_STATE"
+f1_keywords:
+- vss/VSS_SNAPSHOT_STATE
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vss.h
+- Vss.h
 api_name:
- - VSS_SNAPSHOT_STATE
+- VSS_SNAPSHOT_STATE
 product: Windows
 targetos: Windows
 req.typenames: VSS_SNAPSHOT_STATE, *PVSS_SNAPSHOT_STATE
@@ -190,7 +190,7 @@ Reserved value.
 
 
 The shadow copy state is contained in the <b>m_eStatus</b> member of a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> object, which can be obtained for a 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> object, which can be obtained for a 
     single shadow copy by calling 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties">IVssBackupComponents::GetSnapshotProperties</a>.
 
@@ -205,7 +205,7 @@ Calls to <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsb
     <b>IVssBackupComponents::Query</b> is used to return 
     lists of shadow copies, which may be iterated over by means of the 
     <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a> interface to obtain 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> objects for each shadow copy that 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> objects for each shadow copy that 
     have completed on a given system. This means that, like 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties">IVssBackupComponents::GetSnapshotProperties</a>, 
     the <b>IVssBackupComponents::Query</b> method can 
@@ -231,7 +231,7 @@ Calls to <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsb
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_object_prop">VSS_OBJECT_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_object_prop">VSS_OBJECT_PROP</a>
 
 
 
@@ -239,7 +239,7 @@ Calls to <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsb
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: ProcThread
 ms.assetid: 836a6b82-d3e8-4de6-808d-5476dfb51356
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPEB, PEB, PEB structure, PPEB, PPEB structure pointer, base.peb, winternl/PEB, winternl/PPEB"
+ms.keywords: '*PPEB, PEB, PEB structure, PPEB, PPEB structure pointer, base.peb, winternl/PEB, winternl/PPEB'
 ms.topic: struct
-f1_keywords: 
- - "winternl/PEB"
+f1_keywords:
+- winternl/PEB
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winternl.h
+- Winternl.h
 api_name:
- - PEB
+- PEB
 product: Windows
 targetos: Windows
 req.typenames: PEB, *PPEB
@@ -83,12 +83,12 @@ Reserved for internal use by the operating system.
 
 ### -field Ldr
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-_peb_ldr_data">PEB_LDR_DATA</a> structure that contains information about the loaded modules for the process.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-peb_ldr_data">PEB_LDR_DATA</a> structure that contains information about the loaded modules for the process.
 
 
 ### -field ProcessParameters
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-_rtl_user_process_parameters">RTL_USER_PROCESS_PARAMETERS</a> structure that contains process parameter information such as the command line.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-rtl_user_process_parameters">RTL_USER_PROCESS_PARAMETERS</a> structure that contains process parameter information such as the command line.
 
 
 ### -field Reserved4
@@ -185,11 +185,11 @@ The syntax for this structure on 64-bit Windows is as follows:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-_peb_ldr_data">PEB_LDR_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-peb_ldr_data">PEB_LDR_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-_rtl_user_process_parameters">RTL_USER_PROCESS_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-rtl_user_process_parameters">RTL_USER_PROCESS_PARAMETERS</a>
 
 
 

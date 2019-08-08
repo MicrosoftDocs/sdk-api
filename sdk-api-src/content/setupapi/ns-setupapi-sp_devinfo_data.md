@@ -8,10 +8,10 @@ tech.root: devinst
 ms.assetid: 9ad0ef4f-4a67-4f16-8bb1-2242dad0d041
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSP_DEVINFO_DATA, PSP_DEVINFO_DATA, PSP_DEVINFO_DATA structure pointer [Device and Driver Installation], SP_DEVINFO_DATA, SP_DEVINFO_DATA structure [Device and Driver Installation], devinst.sp_devinfo_data, di-struct_1d8e747e-8359-405d-8819-29c516a99cbe.xml, setupapi/PSP_DEVINFO_DATA, setupapi/SP_DEVINFO_DATA"
+ms.keywords: '*PSP_DEVINFO_DATA, PSP_DEVINFO_DATA, PSP_DEVINFO_DATA structure pointer [Device and Driver Installation], SP_DEVINFO_DATA, SP_DEVINFO_DATA structure [Device and Driver Installation], devinst.sp_devinfo_data, di-struct_1d8e747e-8359-405d-8819-29c516a99cbe.xml, setupapi/PSP_DEVINFO_DATA, setupapi/SP_DEVINFO_DATA'
 ms.topic: struct
-f1_keywords: 
- - "setupapi/SP_DEVINFO_DATA"
+f1_keywords:
+- setupapi/SP_DEVINFO_DATA
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - setupapi.h
+- setupapi.h
 api_name:
- - SP_DEVINFO_DATA
+- SP_DEVINFO_DATA
 product: Windows
 targetos: Windows
 req.typenames: SP_DEVINFO_DATA, *PSP_DEVINFO_DATA
@@ -97,7 +97,7 @@ An SP_DEVINFO_DATA structure identifies a device in a device information set. Fo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_list_detail_data_a">SP_DEVINFO_LIST_DETAIL_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_list_detail_data_a">SP_DEVINFO_LIST_DETAIL_DATA</a>
  
 
  

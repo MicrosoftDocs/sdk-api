@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_PropertySetFT, MI_PropertySetFT structure [Windows Management Infrastructure (MI)], mi/MI_PropertySetFT, wmi_v2.mi_propertysetft
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_PropertySetFT"
+f1_keywords:
+- mi/MI_PropertySetFT
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_PropertySetFT
+- MI_PropertySetFT
 product: Windows
 targetos: Windows
 req.typenames: MI_PropertySetFT
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 A support structure used in the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_propertyset">MI_PropertySet</a> structure. Use the functions with the 
+     <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_propertyset">MI_PropertySet</a> structure. Use the functions with the 
      name prefix "MI_PropertySet_" to manipulate these structures.
 
 

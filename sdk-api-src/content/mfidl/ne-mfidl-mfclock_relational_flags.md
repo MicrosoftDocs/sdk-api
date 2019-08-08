@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCLOCK_RELATIONAL_FLAGS, MFCLOCK_RELATIONAL_FLAGS enumeration [Media Foundation], MFCLOCK_RELATIONAL_FLAG_JITTER_NEVER_AHEAD, d70b432c-6ebd-405c-993f-12c4540736d7, mf.mfclock_relational_flags, mfidl/MFCLOCK_RELATIONAL_FLAGS, mfidl/MFCLOCK_RELATIONAL_FLAG_JITTER_NEVER_AHEAD
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MFCLOCK_RELATIONAL_FLAGS"
+f1_keywords:
+- mfidl/MFCLOCK_RELATIONAL_FLAGS
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFCLOCK_RELATIONAL_FLAGS
+- MFCLOCK_RELATIONAL_FLAGS
 product: Windows
 targetos: Windows
 req.typenames: MFCLOCK_RELATIONAL_FLAGS
@@ -72,7 +72,7 @@ Jitter values are always negative. In other words, the time returned by <a href=
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-_mfclock_properties">MFCLOCK_PROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mfclock_properties">MFCLOCK_PROPERTIES</a>
 
 
 

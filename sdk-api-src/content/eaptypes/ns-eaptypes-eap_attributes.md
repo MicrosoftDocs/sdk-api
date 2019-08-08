@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_ATTRIBUTES, EAP_ATTRIBUTES structure [EAPHost], EapAttributes, EapAttributes structure [EAPHost], eaphost.eap_attributes, eaptypes/EAP_ATTRIBUTES, eaptypes/EapAttributes
 ms.topic: struct
-f1_keywords: 
- - "eaptypes/EAP_ATTRIBUTES"
+f1_keywords:
+- eaptypes/EAP_ATTRIBUTES
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eaptypes.h
+- eaptypes.h
 api_name:
- - EAP_ATTRIBUTES
+- EAP_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.typenames: EAP_ATTRIBUTES, EapAttributes
@@ -61,7 +61,7 @@ The <b>EAP_ATTRIBUTES</b> structure contains an array of EAP attributes.
 
 ### -field dwNumberOfAttributes
 
-The number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> structures in <b>pAttribs</b>.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a> structures in <b>pAttribs</b>.
 
 
 ### -field pAttribs.size_is
@@ -76,7 +76,7 @@ The number of <a href="https://docs.microsoft.com/previous-versions/windows/desk
 
 ### -field pAttribs
 
-Pointer to the address of the first element in an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a> structures. The total number of elements is specified in <b>dwNumberOfAttributes</b>.
+Pointer to the address of the first element in an array of <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a> structures. The total number of elements is specified in <b>dwNumberOfAttributes</b>.
 
 
 ## -see-also
@@ -88,7 +88,7 @@ Pointer to the address of the first element in an array of <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attribute">EAP_ATTRIBUTE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a>
  
 
  

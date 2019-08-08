@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 3ee224fb-650f-4468-848b-960424202ac3
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_CLIENT_INFO_PB, ADDRESS_STATE_ACTIVE, ADDRESS_STATE_DECLINED, ADDRESS_STATE_DOOM, ADDRESS_STATE_OFFERED, CLIENT_TYPE_BOOTP, CLIENT_TYPE_BOTH, CLIENT_TYPE_DHCP, CLIENT_TYPE_NONE, CLIENT_TYPE_RESERVATION_FLAG, CLIENT_TYPE_UNSPECIFIED, DHCP_CLIENT_INFO_PB, DHCP_CLIENT_INFO_PB structure [DHCP], FILTER_STATUS_FULL_MATCH_IN_ALLOW_LIST, FILTER_STATUS_FULL_MATCH_IN_DENY_LIST, FILTER_STATUS_NONE, FILTER_STATUS_WILDCARD_MATCH_IN_ALLOW_LIST, FILTER_STATUS_WILDCARD_MATCH_IN_DENY_LIST, LPDHCP_CLIENT_INFO_PB, LPDHCP_CLIENT_INFO_PB structure pointer [DHCP], dhcp.dhcp_client_info_pb, dhcpsapi/DHCP_CLIENT_INFO_PB, dhcpsapi/LPDHCP_CLIENT_INFO_PB"
+ms.keywords: '*LPDHCP_CLIENT_INFO_PB, ADDRESS_STATE_ACTIVE, ADDRESS_STATE_DECLINED, ADDRESS_STATE_DOOM, ADDRESS_STATE_OFFERED, CLIENT_TYPE_BOOTP, CLIENT_TYPE_BOTH, CLIENT_TYPE_DHCP, CLIENT_TYPE_NONE, CLIENT_TYPE_RESERVATION_FLAG, CLIENT_TYPE_UNSPECIFIED, DHCP_CLIENT_INFO_PB, DHCP_CLIENT_INFO_PB structure [DHCP], FILTER_STATUS_FULL_MATCH_IN_ALLOW_LIST, FILTER_STATUS_FULL_MATCH_IN_DENY_LIST, FILTER_STATUS_NONE, FILTER_STATUS_WILDCARD_MATCH_IN_ALLOW_LIST, FILTER_STATUS_WILDCARD_MATCH_IN_DENY_LIST, LPDHCP_CLIENT_INFO_PB, LPDHCP_CLIENT_INFO_PB structure pointer [DHCP], dhcp.dhcp_client_info_pb, dhcpsapi/DHCP_CLIENT_INFO_PB, dhcpsapi/LPDHCP_CLIENT_INFO_PB'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_CLIENT_INFO_PB"
+f1_keywords:
+- dhcpsapi/DHCP_CLIENT_INFO_PB
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dhcpsapi.h
+- dhcpsapi.h
 api_name:
- - DHCP_CLIENT_INFO_PB
+- DHCP_CLIENT_INFO_PB
 product: Windows
 targetos: Windows
 req.typenames: DHCP_CLIENT_INFO_PB, *LPDHCP_CLIENT_INFO_PB
@@ -74,7 +74,7 @@ The <b>DHCP_CLIENT_INFO_PB</b> structure defines information about a DHCPv4 clie
 ### -field ClientHardwareAddress
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_binary_data">DHCP_CLIENT_UID</a> structure that contains the hardware address (MAC address) of the DHCPv4 client.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_CLIENT_UID</a> structure that contains the hardware address (MAC address) of the DHCPv4 client.
 
 
 ### -field ClientName
@@ -90,13 +90,13 @@ Pointer to a null-terminated Unicode string that represents the description of t
 ### -field ClientLeaseExpires
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_date_time">DATE_TIME</a> structure that contains the lease expiry time for the DHCPv4 client. This is UTC time represented in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> format.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a> structure that contains the lease expiry time for the DHCPv4 client. This is UTC time represented in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> format.
 
 
 ### -field OwnerHost
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_host_info">DHCP_HOST_INFO</a> structure that contains information about the host machine (DHCPv4 server machine) that provided a lease to the DHCPv4 client.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info">DHCP_HOST_INFO</a> structure that contains information about the host machine (DHCPv4 server machine) that provided a lease to the DHCPv4 client.
 
 
 ### -field bClientType
@@ -238,13 +238,13 @@ The IPv4 address is in <i>DOOMED</i> state and is due to be deleted.
 ### -field Status
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_quarantinestatus">QuarantineStatus</a> enumeration that specifies possible health status values for the DHCPv4 client, as validated at the NAP server.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-quarantinestatus">QuarantineStatus</a> enumeration that specifies possible health status values for the DHCPv4 client, as validated at the NAP server.
 
 
 ### -field ProbationEnds
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_date_time">DATE_TIME</a> structure that contains the probation end time if the DHCPv4 client is on probation. The DHCPv4 client has full access to the network for this time period. This is UTC time represented in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> format.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a> structure that contains the probation end time if the DHCPv4 client is on probation. The DHCPv4 client has full access to the network for this time period. This is UTC time represented in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> format.
 
 
 ### -field QuarantineCapable
@@ -330,7 +330,7 @@ Pointer to a null-terminated Unicode string that represents the DHCP server poli
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_pb_array">DHCP_CLIENT_INFO_PB_ARRAY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_pb_array">DHCP_CLIENT_INFO_PB_ARRAY</a>
 
 
 

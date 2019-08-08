@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSCEnumNameSpaceProviders32, WSCEnumNameSpaceProviders32 function [Winsock], winsock.wscenumnamespaceproviders32, ws2spi/WSCEnumNameSpaceProviders32
 ms.topic: function
-f1_keywords: 
- - "ws2spi/WSCEnumNameSpaceProviders32"
+f1_keywords:
+- ws2spi/WSCEnumNameSpaceProviders32
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSCEnumNameSpaceProviders32
+- WSCEnumNameSpaceProviders32
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ On input, the number of bytes contained in the buffer pointed to by <i>lpnspBuff
 ### -param lpnspBuffer [out]
 
 A buffer that is filled with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsanamespace_infow">WSANAMESPACE_INFOW</a> structures. The returned structures are located consecutively at the head of the buffer. Variable sized information referenced by pointers in the structures point to locations within the buffer located between the end of the fixed sized structures and the end of the buffer. The number of structures filled in is the return value of 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infow">WSANAMESPACE_INFOW</a> structures. The returned structures are located consecutively at the head of the buffer. Variable sized information referenced by pointers in the structures point to locations within the buffer located between the end of the fixed sized structures and the end of the buffer. The number of structures filled in is the return value of 
 <b>WSCEnumNameSpaceProviders32</b>.
 
 
@@ -80,7 +80,7 @@ A buffer that is filled with
 
 The 
 <b>WSCEnumNameSpaceProviders32</b> function returns the number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsanamespace_infow">WSANAMESPACE_INFOW</a> structures copied into <i>lpnspBuffer</i>. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infow">WSANAMESPACE_INFOW</a> structures copied into <i>lpnspBuffer</i>. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <table>
@@ -96,7 +96,7 @@ The
 </td>
 <td width="60%">
 The <i>lpnspBuffer</i> parameter was a <b>NULL</b> pointer or the buffer length, <i>lpdwBufferLength</i>, was too small to receive all the relevant 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsanamespace_infow">WSANAMESPACE_INFOW</a> structures and associated information. When this error is returned, the buffer length required is returned in the <i>lpdwBufferLength</i> parameter. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infow">WSANAMESPACE_INFOW</a> structures and associated information. When this error is returned, the buffer length required is returned in the <i>lpdwBufferLength</i> parameter. 
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ There was insufficient memory to perform the operation.
 
 The 32-bit SPI function is equivalent to the native API function (<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a>) because there is no concept of a "hidden" namespace provider.
 
-The <b>WSCEnumNameSpaceProviders32</b> function is a Unicode only function and returns <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsanamespace_infoexw">WSANAMESPACE_INFOEXW</a> structures. 
+The <b>WSCEnumNameSpaceProviders32</b> function is a Unicode only function and returns <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infoexw">WSANAMESPACE_INFOEXW</a> structures. 
 
 
 
@@ -151,7 +151,7 @@ The <b>WSCEnumNameSpaceProviders32</b> function is a Unicode only function and r
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsanamespace_infow">WSANAMESPACE_INFOW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infow">WSANAMESPACE_INFOW</a>
 
 
 

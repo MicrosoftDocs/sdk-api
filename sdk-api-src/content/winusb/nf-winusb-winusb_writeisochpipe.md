@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_WriteIsochPipe, WinUsb_WriteIsochPipe function [Buses], buses.winusb_writeisochpipe, winusb/WinUsb_WriteIsochPipe
 ms.topic: function
-f1_keywords: 
- - "winusb/WinUsb_WriteIsochPipe"
+f1_keywords:
+- winusb/WinUsb_WriteIsochPipe
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Winusb.lib
 req.dll: Winusb.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winusb.dll
+- Winusb.dll
 api_name:
- - WinUsb_WriteIsochPipe
+- WinUsb_WriteIsochPipe
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -81,7 +81,7 @@ On input, indicates the starting frame number for the transfer.  On output, cont
 
 ### -param Overlapped [in, optional]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ns-shobjidl-_overlapped">OVERLAPPED</a> structure used for asynchronous operations.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ns-shobjidl-overlapped">OVERLAPPED</a> structure used for asynchronous operations.
 
 
 ## -returns

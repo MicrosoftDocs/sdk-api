@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptRetrieveTimeStamp, CryptRetrieveTimeStamp function [Security], TIMESTAMP_DONT_HASH_DATA, TIMESTAMP_NO_AUTH_RETRIEVAL, TIMESTAMP_VERIFY_CONTEXT_SIGNATURE, security.cryptretrievetimestamp, wincrypt/CryptRetrieveTimeStamp
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptRetrieveTimeStamp"
+f1_keywords:
+- wincrypt/CryptRetrieveTimeStamp
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptRetrieveTimeStamp
+- CryptRetrieveTimeStamp
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -94,7 +94,7 @@ Inhibit hash calculation on the array of bytes pointed to by the <i>pbData</i> p
 Enforce signature validation on the retrieved time stamp.
 
 
-<div class="alert"><b>Note</b>  The <b>TIMESTAMP_VERIFY_CONTEXT_SIGNATURE</b> flag is valid only      if the <b>fRequestCerts</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_timestamp_para">CRYPT_TIMESTAMP_PARA</a> pointed to by the <i>pPara</i> parameter is set to <b>TRUE</b>.</div>
+<div class="alert"><b>Note</b>  The <b>TIMESTAMP_VERIFY_CONTEXT_SIGNATURE</b> flag is valid only      if the <b>fRequestCerts</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_para">CRYPT_TIMESTAMP_PARA</a> pointed to by the <i>pPara</i> parameter is set to <b>TRUE</b>.</div>
 <div> </div>
 
 
@@ -127,7 +127,7 @@ A pointer to a null-terminated character string that contains the hash algorithm
 
 ### -param pPara [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_timestamp_para">CRYPT_TIMESTAMP_PARA</a> structure that contains additional parameters for the request.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_para">CRYPT_TIMESTAMP_PARA</a> structure that contains additional parameters for the request.
 
 
 ### -param pbData [in]
@@ -142,12 +142,12 @@ The size, in bytes, of the array pointed to by the <i>pbData</i> parameter.
 
 ### -param ppTsContext [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_timestamp_context">PCRYPT_TIMESTAMP_CONTEXT</a> structure. When you have finished using the context, you must free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> function.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_context">PCRYPT_TIMESTAMP_CONTEXT</a> structure. When you have finished using the context, you must free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> function.
 
 
 ### -param ppTsSigner [out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">PCERT_CONTEXT</a> that
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">PCERT_CONTEXT</a> that
 receives the certificate of the signer.
      When you have finished using this structure, you must free it by passing this
 pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.

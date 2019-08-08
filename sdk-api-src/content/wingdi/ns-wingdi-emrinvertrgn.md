@@ -8,10 +8,10 @@ tech.root: gdi
 ms.assetid: 91c0badc-bd26-418a-9cdb-3e70e7337021
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEMRINVERTRGN, *PEMRPAINTRGN, EMRINVERTRGN, EMRINVERTRGN structure [Windows GDI], EMRINVERTRGN,EMRPAINTRGN, EMRINVERTRGN,EMRPAINTRGN structure [Windows GDI], EMRPAINTRGN, EMRPAINTRGN structure [Windows GDI], PEMRINVERTRGN, PEMRINVERTRGN structure pointer [Windows GDI], PEMRPAINTRGN, PEMRPAINTRGN structure pointer [Windows GDI], _win32_EMRINVERTRGN_str, gdi.emrinvertrgn__emrpaintrgn, wingdi/EMRINVERTRGN,EMRPAINTRGN, wingdi/EMRPAINTRGN, wingdi/PEMRINVERTRGN, wingdi/PEMRPAINTRGN"
+ms.keywords: '*PEMRINVERTRGN, *PEMRPAINTRGN, EMRINVERTRGN, EMRINVERTRGN structure [Windows GDI], EMRINVERTRGN,EMRPAINTRGN, EMRINVERTRGN,EMRPAINTRGN structure [Windows GDI], EMRPAINTRGN, EMRPAINTRGN structure [Windows GDI], PEMRINVERTRGN, PEMRINVERTRGN structure pointer [Windows GDI], PEMRPAINTRGN, PEMRPAINTRGN structure pointer [Windows GDI], _win32_EMRINVERTRGN_str, gdi.emrinvertrgn__emrpaintrgn, wingdi/EMRINVERTRGN,EMRPAINTRGN, wingdi/EMRPAINTRGN, wingdi/PEMRINVERTRGN, wingdi/PEMRPAINTRGN'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRINVERTRGN"
+f1_keywords:
+- wingdi/EMRINVERTRGN
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRINVERTRGN
+- EMRINVERTRGN
 product: Windows
 targetos: Windows
 req.typenames: EMRINVERTRGN, *PEMRINVERTRGN, EMRPAINTRGN, *PEMRPAINTRGN
@@ -80,7 +80,7 @@ Size of region data, in bytes.
 
 ### -field RgnData
 
-Buffer containing an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_rgndata">RGNDATA</a> structure.
+Buffer containing an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a> structure.
 
 
 ## -see-also

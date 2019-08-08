@@ -8,10 +8,10 @@ tech.root: perfctrs
 ms.assetid: f1fb6ad5-ad38-46d0-b76d-803887ba3d97
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPERF_COUNTER_INFO, PERF_ATTRIB_BY_REFERENCE, PERF_ATTRIB_DISPLAY_AS_HEX, PERF_ATTRIB_DISPLAY_AS_REAL, PERF_ATTRIB_NO_DISPLAYABLE, PERF_ATTRIB_NO_GROUP_SEPARATOR, PERF_COUNTER_INFO, PERF_COUNTER_INFO structure [Perf], PERF_COUNTER_INFO,*PPERF_COUNTER_INFO, PERF_COUNTER_INFO,*PPERF_COUNTER_INFO structure [Perf], PERF_DETAIL_ADVANCED, PERF_DETAIL_NOVICE, base.perf_counter_info, perf.perf_counter_info, perflib/PERF_COUNTER_INFO"
+ms.keywords: '*PPERF_COUNTER_INFO, PERF_ATTRIB_BY_REFERENCE, PERF_ATTRIB_DISPLAY_AS_HEX, PERF_ATTRIB_DISPLAY_AS_REAL, PERF_ATTRIB_NO_DISPLAYABLE, PERF_ATTRIB_NO_GROUP_SEPARATOR, PERF_COUNTER_INFO, PERF_COUNTER_INFO structure [Perf], PERF_COUNTER_INFO,*PPERF_COUNTER_INFO, PERF_COUNTER_INFO,*PPERF_COUNTER_INFO structure [Perf], PERF_DETAIL_ADVANCED, PERF_DETAIL_NOVICE, base.perf_counter_info, perf.perf_counter_info, perflib/PERF_COUNTER_INFO'
 ms.topic: struct
-f1_keywords: 
- - "perflib/PERF_COUNTER_INFO, *PPERF_COUNTER_INFO"
+f1_keywords:
+- perflib/PERF_COUNTER_INFO, *PPERF_COUNTER_INFO
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Perflib.h
+- Perflib.h
 api_name:
- - PERF_COUNTER_INFO, *PPERF_COUNTER_INFO
+- PERF_COUNTER_INFO, *PPERF_COUNTER_INFO
 product: Windows
 targetos: Windows
 req.typenames: PERF_COUNTER_INFO, *PPERF_COUNTER_INFO
@@ -189,14 +189,14 @@ Scale factor to apply to the counter value. Valid values range from –10 throug
 
 ### -field Offset
 
-Byte offset from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a> block to the counter value.
+Byte offset from the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a> block to the counter value.
 
 
 ## -remarks
 
 
 
-This structure is contained within a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counterset_info">PERF_COUNTERSET_INFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a> block.
+This structure is contained within a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counterset_info">PERF_COUNTERSET_INFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a> block.
 
 
 
@@ -206,11 +206,11 @@ This structure is contained within a <a href="https://docs.microsoft.com/windows
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counterset_info">PERF_COUNTERSET_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counterset_info">PERF_COUNTERSET_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a>
  
 
  

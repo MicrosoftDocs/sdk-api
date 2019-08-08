@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 41cde03a-f9da-4701-a0df-0dba0c17ba26
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_MOTIONCOMP_LOCAL, DD_MOTIONCOMP_LOCAL, DD_MOTIONCOMP_LOCAL structure [Display Devices], ddrawint/DD_MOTIONCOMP_LOCAL, ddstrcts_cc4890b6-b2b6-484c-b979-4627fa902d7d.xml, display.dd_motioncomp_local"
+ms.keywords: '*PDD_MOTIONCOMP_LOCAL, DD_MOTIONCOMP_LOCAL, DD_MOTIONCOMP_LOCAL structure [Display Devices], ddrawint/DD_MOTIONCOMP_LOCAL, ddstrcts_cc4890b6-b2b6-484c-b979-4627fa902d7d.xml, display.dd_motioncomp_local'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_MOTIONCOMP_LOCAL"
+f1_keywords:
+- ddrawint/DD_MOTIONCOMP_LOCAL
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_MOTIONCOMP_LOCAL
+- DD_MOTIONCOMP_LOCAL
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_MOTIONCOMP_LOCAL, DD_MOTIONCOMP_LOCAL"
+req.typenames: '*PDD_MOTIONCOMP_LOCAL, DD_MOTIONCOMP_LOCAL'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,7 +61,7 @@ The DD_MOTIONCOMP_LOCAL structure contains local data for each individual Micros
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current DirectDraw process only.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current DirectDraw process only.
 
 
 ### -field guid

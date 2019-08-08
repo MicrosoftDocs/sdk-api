@@ -8,10 +8,10 @@ tech.root: ProcThread
 ms.assetid: 148f76b2-809b-4306-a943-bcc04aea547b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PJOBOBJECT_SECURITY_LIMIT_INFORMATION, JOBOBJECT_SECURITY_LIMIT_INFORMATION, JOBOBJECT_SECURITY_LIMIT_INFORMATION structure, JOB_OBJECT_SECURITY_FILTER_TOKENS, JOB_OBJECT_SECURITY_NO_ADMIN, JOB_OBJECT_SECURITY_ONLY_TOKEN, JOB_OBJECT_SECURITY_RESTRICTED_TOKEN, PJOBOBJECT_SECURITY_LIMIT_INFORMATION, PJOBOBJECT_SECURITY_LIMIT_INFORMATION structure pointer, _JOBOBJECT_SECURITY_LIMIT_INFORMATION, _win32_jobobject_security_limit_information_str, base.jobobject_security_limit_information_str, winnt/JOBOBJECT_SECURITY_LIMIT_INFORMATION, winnt/PJOBOBJECT_SECURITY_LIMIT_INFORMATION"
+ms.keywords: '*PJOBOBJECT_SECURITY_LIMIT_INFORMATION, JOBOBJECT_SECURITY_LIMIT_INFORMATION, JOBOBJECT_SECURITY_LIMIT_INFORMATION structure, JOB_OBJECT_SECURITY_FILTER_TOKENS, JOB_OBJECT_SECURITY_NO_ADMIN, JOB_OBJECT_SECURITY_ONLY_TOKEN, JOB_OBJECT_SECURITY_RESTRICTED_TOKEN, PJOBOBJECT_SECURITY_LIMIT_INFORMATION, PJOBOBJECT_SECURITY_LIMIT_INFORMATION structure pointer, _JOBOBJECT_SECURITY_LIMIT_INFORMATION, _win32_jobobject_security_limit_information_str, base.jobobject_security_limit_information_str, winnt/JOBOBJECT_SECURITY_LIMIT_INFORMATION, winnt/PJOBOBJECT_SECURITY_LIMIT_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winnt/JOBOBJECT_SECURITY_LIMIT_INFORMATION"
+f1_keywords:
+- winnt/JOBOBJECT_SECURITY_LIMIT_INFORMATION
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - JOBOBJECT_SECURITY_LIMIT_INFORMATION
+- JOBOBJECT_SECURITY_LIMIT_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: JOBOBJECT_SECURITY_LIMIT_INFORMATION, *PJOBOBJECT_SECURITY_LIMIT_INFORMATION
@@ -133,7 +133,7 @@ If the token was created with
 ### -field SidsToDisable
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a> structure that specifies the SIDs to disable for access checking, if <b>SecurityLimitFlags</b> is JOB_OBJECT_SECURITY_FILTER_TOKENS. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure that specifies the SIDs to disable for access checking, if <b>SecurityLimitFlags</b> is JOB_OBJECT_SECURITY_FILTER_TOKENS. 
 
 
 
@@ -144,7 +144,7 @@ This member can be NULL if you do not want to disable any SIDs.
 ### -field PrivilegesToDelete
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_privileges">TOKEN_PRIVILEGES</a> structure that specifies the privileges to delete from the token, if <b>SecurityLimitFlags</b> is JOB_OBJECT_SECURITY_FILTER_TOKENS. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a> structure that specifies the privileges to delete from the token, if <b>SecurityLimitFlags</b> is JOB_OBJECT_SECURITY_FILTER_TOKENS. 
 
 
 
@@ -155,7 +155,7 @@ This member can be NULL if you do not want to delete any privileges.
 ### -field RestrictedSids
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a> structure that specifies the deny-only SIDs that will be added to the access token, if <b>SecurityLimitFlags</b> is JOB_OBJECT_SECURITY_FILTER_TOKENS. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure that specifies the deny-only SIDs that will be added to the access token, if <b>SecurityLimitFlags</b> is JOB_OBJECT_SECURITY_FILTER_TOKENS. 
 
 
 
@@ -191,11 +191,11 @@ Starting with Windows Vista, you must set security limitations individually for
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_privileges">TOKEN_PRIVILEGES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: Intl
 ms.assetid: adff7901-1903-45dd-888f-1b8c5bb05de1
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMAPPING_DATA_RANGE, MAPPING_DATA_RANGE, MAPPING_DATA_RANGE structure [Internationalization for Windows Applications], PMAPPING_DATA_RANGE, PMAPPING_DATA_RANGE structure pointer [Internationalization for Windows Applications], elscore/MAPPING_DATA_RANGE, elscore/PMAPPING_DATA_RANGE, intl.mappingdatarange"
+ms.keywords: '*PMAPPING_DATA_RANGE, MAPPING_DATA_RANGE, MAPPING_DATA_RANGE structure [Internationalization for Windows Applications], PMAPPING_DATA_RANGE, PMAPPING_DATA_RANGE structure pointer [Internationalization for Windows Applications], elscore/MAPPING_DATA_RANGE, elscore/PMAPPING_DATA_RANGE, intl.mappingdatarange'
 ms.topic: struct
-f1_keywords: 
- - "elscore/MAPPING_DATA_RANGE"
+f1_keywords:
+- elscore/MAPPING_DATA_RANGE
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Elscore.h
+- Elscore.h
 api_name:
- - MAPPING_DATA_RANGE
+- MAPPING_DATA_RANGE
 product: Windows
 targetos: Windows
 req.typenames: MAPPING_DATA_RANGE, *PMAPPING_DATA_RANGE
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-Contains text recognition results for a recognized text subrange. An array of structures of this type is retrieved by an Extended Linguistic Services (ELS) service in a <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_property_bag">MAPPING_PROPERTY_BAG</a> structure.
+Contains text recognition results for a recognized text subrange. An array of structures of this type is retrieved by an Extended Linguistic Services (ELS) service in a <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-mapping_property_bag">MAPPING_PROPERTY_BAG</a> structure.
 
 
 
@@ -138,7 +138,7 @@ Action display names for this subrange. These strings can be localized.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_property_bag">MAPPING_PROPERTY_BAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-mapping_property_bag">MAPPING_PROPERTY_BAG</a>
  
 
  

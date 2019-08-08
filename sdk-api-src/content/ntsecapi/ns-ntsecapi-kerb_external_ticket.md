@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 742e2795-ec74-4856-a680-7a1c233a2934
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PKERB_EXTERNAL_TICKET, KERB_EXTERNAL_TICKET, KERB_EXTERNAL_TICKET structure [Security], KERB_TICKET_FLAGS_forwardable (0x40000000), KERB_TICKET_FLAGS_forwarded (0x20000000), KERB_TICKET_FLAGS_hw_authent (0x00100000), KERB_TICKET_FLAGS_initial (0x00400000), KERB_TICKET_FLAGS_invalid (0x01000000), KERB_TICKET_FLAGS_may_postdate (0x04000000), KERB_TICKET_FLAGS_ok_as_delegate (0x00040000), KERB_TICKET_FLAGS_postdated (0x02000000), KERB_TICKET_FLAGS_pre_authent (0x00200000), KERB_TICKET_FLAGS_proxiable (0x10000000), KERB_TICKET_FLAGS_proxy (0x08000000), KERB_TICKET_FLAGS_renewable (0x00800000), KERB_TICKET_FLAGS_reserved (0x80000000), KERB_TICKET_FLAGS_reserved1 (0x00000001), PKERB_EXTERNAL_TICKET, PKERB_EXTERNAL_TICKET structure pointer [Security], _lsa_kerb_external_ticket, ntsecapi/KERB_EXTERNAL_TICKET, ntsecapi/PKERB_EXTERNAL_TICKET, security.kerb_external_ticket"
+ms.keywords: '*PKERB_EXTERNAL_TICKET, KERB_EXTERNAL_TICKET, KERB_EXTERNAL_TICKET structure [Security], KERB_TICKET_FLAGS_forwardable (0x40000000), KERB_TICKET_FLAGS_forwarded (0x20000000), KERB_TICKET_FLAGS_hw_authent (0x00100000), KERB_TICKET_FLAGS_initial (0x00400000), KERB_TICKET_FLAGS_invalid (0x01000000), KERB_TICKET_FLAGS_may_postdate (0x04000000), KERB_TICKET_FLAGS_ok_as_delegate (0x00040000), KERB_TICKET_FLAGS_postdated (0x02000000), KERB_TICKET_FLAGS_pre_authent (0x00200000), KERB_TICKET_FLAGS_proxiable (0x10000000), KERB_TICKET_FLAGS_proxy (0x08000000), KERB_TICKET_FLAGS_renewable (0x00800000), KERB_TICKET_FLAGS_reserved (0x80000000), KERB_TICKET_FLAGS_reserved1 (0x00000001), PKERB_EXTERNAL_TICKET, PKERB_EXTERNAL_TICKET structure pointer [Security], _lsa_kerb_external_ticket, ntsecapi/KERB_EXTERNAL_TICKET, ntsecapi/PKERB_EXTERNAL_TICKET, security.kerb_external_ticket'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/KERB_EXTERNAL_TICKET"
+f1_keywords:
+- ntsecapi/KERB_EXTERNAL_TICKET
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - KERB_EXTERNAL_TICKET
+- KERB_EXTERNAL_TICKET
 product: Windows
 targetos: Windows
 req.typenames: KERB_EXTERNAL_TICKET, *PKERB_EXTERNAL_TICKET
@@ -54,7 +54,7 @@ ms.custom: 19H1
 The <b>KERB_EXTERNAL_TICKET</b> structure contains information about an external ticket.
 
 An external ticket is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> ticket exported to external users. The Kerberos ticket is defined in Internet <a href="http://www.ietf.org/rfc/rfc4120.txt">RFC 4120</a>. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84023">http://www.ietf.org</a>. This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_retrieve_tkt_response">KERB_RETRIEVE_TKT_RESPONSE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_retrieve_tkt_response">KERB_RETRIEVE_TKT_RESPONSE</a> structure.
 
 
 ## -struct-fields
@@ -64,33 +64,33 @@ An external ticket is a <a href="https://docs.microsoft.com/windows/desktop/SecG
 
 ### -field ServiceName
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_external_name">KERB_EXTERNAL_NAME</a> structure that contains a multiple part, canonical, returned service name.
+A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_external_name">KERB_EXTERNAL_NAME</a> structure that contains a multiple part, canonical, returned service name.
 
 
 ### -field TargetName
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_external_name">KERB_EXTERNAL_NAME</a> structure that contains the multiple part <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">service principal name</a> (SPN).
+A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_external_name">KERB_EXTERNAL_NAME</a> structure that contains the multiple part <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">service principal name</a> (SPN).
 
 
 ### -field ClientName
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_external_name">KERB_EXTERNAL_NAME</a> structure that contains the client name in the ticket. This name is relative to the current domain.
+A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_external_name">KERB_EXTERNAL_NAME</a> structure that contains the client name in the ticket. This name is relative to the current domain.
 
 
 ### -field DomainName
 
 A
-						<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> that contains the name of the domain that corresponds to the <b>ServiceName</b> member. This is the domain that issued the ticket.
+						<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that contains the name of the domain that corresponds to the <b>ServiceName</b> member. This is the domain that issued the ticket.
 
 
 ### -field TargetDomainName
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> that contains the name of the domain in which the ticket is valid. For an interdomain ticket, this is the destination domain.
+A <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that contains the name of the domain in which the ticket is valid. For an interdomain ticket, this is the destination domain.
 
 
 ### -field AltTargetDomainName
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> that contains a synonym for the destination domain. Every domain has two names: a DNS name and a NetBIOS name. If the name returned in the ticket is different from the name used to request the ticket (the Kerberos <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Key Distribution Center</a> (KDC) may do name mapping), this string contains the original name.
+A <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that contains a synonym for the destination domain. Every domain has two names: a DNS name and a NetBIOS name. If the name returned in the ticket is different from the name used to request the ticket (the Kerberos <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Key Distribution Center</a> (KDC) may do name mapping), this string contains the original name.
 
 
 ### -field SessionKey
@@ -239,7 +239,7 @@ The ticket is a proxy.
 </dl>
 </td>
 <td width="60%">
-The ticket is renewable. If this flag is set, the time limit for renewing the ticket is set in the <b>RenewTime</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_ticket_cache_info">KERB_TICKET_CACHE_INFO</a> structure. A renewable ticket can be used to obtain a replacement ticket that expires at a later date.
+The ticket is renewable. If this flag is set, the time limit for renewing the ticket is set in the <b>RenewTime</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_ticket_cache_info">KERB_TICKET_CACHE_INFO</a> structure. A renewable ticket can be used to obtain a replacement ticket that expires at a later date.
 
 </td>
 </tr>

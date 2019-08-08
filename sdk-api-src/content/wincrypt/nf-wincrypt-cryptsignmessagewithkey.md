@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptSignMessageWithKey, CryptSignMessageWithKey function [Security], security.cryptsignmessagewithkey, wincrypt/CryptSignMessageWithKey
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptSignMessageWithKey"
+f1_keywords:
+- wincrypt/CryptSignMessageWithKey
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptSignMessageWithKey
+- CryptSignMessageWithKey
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ parameters. A placeholder <b>SignerId</b> is created and stored in the message.
 ### -param pSignPara [in]
 
 A pointer to 
-a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_sign_message_para">CRYPT_KEY_SIGN_MESSAGE_PARA</a> structure that contains the signature parameters.
+a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_sign_message_para">CRYPT_KEY_SIGN_MESSAGE_PARA</a> structure that contains the signature parameters.
 
 
 ### -param pbToBeSigned [in]

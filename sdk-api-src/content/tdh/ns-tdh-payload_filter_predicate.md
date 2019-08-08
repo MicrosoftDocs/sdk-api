@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: 6B8C03C9-2936-4FEE-AEF4-ABC368B1CB75
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPAYLOAD_FILTER_PREDICATE, PAYLOADFIELD_BETWEEN, PAYLOADFIELD_CONTAINS, PAYLOADFIELD_DOESNTCONTAIN, PAYLOADFIELD_EQ, PAYLOADFIELD_GE, PAYLOADFIELD_GT, PAYLOADFIELD_INVALID, PAYLOADFIELD_IS, PAYLOADFIELD_ISNOT, PAYLOADFIELD_LE, PAYLOADFIELD_LT, PAYLOADFIELD_MODULO, PAYLOADFIELD_NE, PAYLOADFIELD_NOTBETWEEN, PAYLOAD_FILTER_PREDICATE, PAYLOAD_FILTER_PREDICATE structure [ETW], PPAYLOAD_FILTER_PREDICATE, PPAYLOAD_FILTER_PREDICATE structure pointer [ETW], etw.payload_filter_predicate, tdh/PAYLOAD_FILTER_PREDICATE, tdh/PPAYLOAD_FILTER_PREDICATE"
+ms.keywords: '*PPAYLOAD_FILTER_PREDICATE, PAYLOADFIELD_BETWEEN, PAYLOADFIELD_CONTAINS, PAYLOADFIELD_DOESNTCONTAIN, PAYLOADFIELD_EQ, PAYLOADFIELD_GE, PAYLOADFIELD_GT, PAYLOADFIELD_INVALID, PAYLOADFIELD_IS, PAYLOADFIELD_ISNOT, PAYLOADFIELD_LE, PAYLOADFIELD_LT, PAYLOADFIELD_MODULO, PAYLOADFIELD_NE, PAYLOADFIELD_NOTBETWEEN, PAYLOAD_FILTER_PREDICATE, PAYLOAD_FILTER_PREDICATE structure [ETW], PPAYLOAD_FILTER_PREDICATE, PPAYLOAD_FILTER_PREDICATE structure pointer [ETW], etw.payload_filter_predicate, tdh/PAYLOAD_FILTER_PREDICATE, tdh/PPAYLOAD_FILTER_PREDICATE'
 ms.topic: struct
-f1_keywords: 
- - "tdh/PAYLOAD_FILTER_PREDICATE"
+f1_keywords:
+- tdh/PAYLOAD_FILTER_PREDICATE
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tdh.h
+- Tdh.h
 api_name:
- - PAYLOAD_FILTER_PREDICATE
+- PAYLOAD_FILTER_PREDICATE
 product: Windows
 targetos: Windows
 req.typenames: PAYLOAD_FILTER_PREDICATE, *PPAYLOAD_FILTER_PREDICATE
@@ -268,7 +268,7 @@ The string that contains one or values to compare depending on the <b>CompareOp<
 
 
 
-On Windows 8.1,Windows Server 2012 R2, and later, event payload filters can be used by the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function and the <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> and <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures to filter on the specific content of the event in a logger session. 
+On Windows 8.1,Windows Server 2012 R2, and later, event payload filters can be used by the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function and the <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> and <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures to filter on the specific content of the event in a logger session. 
 
 The <b>PAYLOAD_FILTER_PREDICATE</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a> function to create a single payload filter for a single payload to be used with the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.  A single payload filter can also be aggregated with other single payload filters using the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a> function.
 
@@ -302,11 +302,11 @@ the example for the <a href="https://docs.microsoft.com/windows/desktop/ETW/enab
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
 
 
 

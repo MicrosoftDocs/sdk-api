@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 48dc1631-f96c-4515-aac2-225b3427f9ad, DXVA2_FilterValues, DXVA2_FilterValues structure [Media Foundation], dxva2api/DXVA2_FilterValues, mf.dxva2_filtervalues
 ms.topic: struct
-f1_keywords: 
- - "dxva2api/DXVA2_FilterValues"
+f1_keywords:
+- dxva2api/DXVA2_FilterValues
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - DXVA2_FilterValues
+- DXVA2_FilterValues
 product: Windows
 targetos: Windows
 req.typenames: DXVA2_FilterValues
@@ -82,7 +82,7 @@ Filter radius.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videoprocessbltparams">DXVA2_VideoProcessBltParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessbltparams">DXVA2_VideoProcessBltParams</a>
 
 
 

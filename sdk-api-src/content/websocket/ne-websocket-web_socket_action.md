@@ -8,10 +8,10 @@ tech.root: WebSock
 ms.assetid: 46d22fb5-adc3-4d1c-81b8-480f1c6de327
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWEB_SOCKET_ACTION, PWEB_SOCKET_ACTION, PWEB_SOCKET_ACTION enumeration pointer [Websocket Protocol Component API], WEB_SOCKET_ACTION, WEB_SOCKET_ACTION enumeration [Websocket Protocol Component API], WEB_SOCKET_INDICATE_RECEIVE_COMPLETE_ACTION, WEB_SOCKET_INDICATE_SEND_COMPLETE_ACTION, WEB_SOCKET_NO_ACTION, WEB_SOCKET_RECEIVE_FROM_NETWORK_ACTION, WEB_SOCKET_SEND_TO_NETWORK_ACTION, websock.web_socket_action, websocket/PWEB_SOCKET_ACTION, websocket/WEB_SOCKET_ACTION, websocket/WEB_SOCKET_INDICATE_RECEIVE_COMPLETE_ACTION, websocket/WEB_SOCKET_INDICATE_SEND_COMPLETE_ACTION, websocket/WEB_SOCKET_NO_ACTION, websocket/WEB_SOCKET_RECEIVE_FROM_NETWORK_ACTION, websocket/WEB_SOCKET_SEND_TO_NETWORK_ACTION"
+ms.keywords: '*PWEB_SOCKET_ACTION, PWEB_SOCKET_ACTION, PWEB_SOCKET_ACTION enumeration pointer [Websocket Protocol Component API], WEB_SOCKET_ACTION, WEB_SOCKET_ACTION enumeration [Websocket Protocol Component API], WEB_SOCKET_INDICATE_RECEIVE_COMPLETE_ACTION, WEB_SOCKET_INDICATE_SEND_COMPLETE_ACTION, WEB_SOCKET_NO_ACTION, WEB_SOCKET_RECEIVE_FROM_NETWORK_ACTION, WEB_SOCKET_SEND_TO_NETWORK_ACTION, websock.web_socket_action, websocket/PWEB_SOCKET_ACTION, websocket/WEB_SOCKET_ACTION, websocket/WEB_SOCKET_INDICATE_RECEIVE_COMPLETE_ACTION, websocket/WEB_SOCKET_INDICATE_SEND_COMPLETE_ACTION, websocket/WEB_SOCKET_NO_ACTION, websocket/WEB_SOCKET_RECEIVE_FROM_NETWORK_ACTION, websocket/WEB_SOCKET_SEND_TO_NETWORK_ACTION'
 ms.topic: enum
-f1_keywords: 
- - "websocket/WEB_SOCKET_ACTION"
+f1_keywords:
+- websocket/WEB_SOCKET_ACTION
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Websocket.h
+- Websocket.h
 api_name:
- - WEB_SOCKET_ACTION
+- WEB_SOCKET_ACTION
 product: Windows
 targetos: Windows
 req.typenames: WEB_SOCKET_ACTION, *PWEB_SOCKET_ACTION
@@ -89,7 +89,7 @@ Indicates the operation queued by <a href="https://docs.microsoft.com/windows/de
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-_web_socket_action_queue">WEB_SOCKET_ACTION_QUEUE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_action_queue">WEB_SOCKET_ACTION_QUEUE</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SslCrackCertificate, SslCrackCertificate function [Security], schannel/SslCrackCertificate, security.sslcrackcertificate
 ms.topic: function
-f1_keywords: 
- - "schannel/SslCrackCertificate"
+f1_keywords:
+- schannel/SslCrackCertificate
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Schannel.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Schannel.dll
+- Schannel.dll
 api_name:
- - SslCrackCertificate
+- SslCrackCertificate
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The <b>SslCrackCertificate</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext">CertCreateCertificateContext</a> function.]
 
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_x509certificate">X509Certificate</a> structure with the information contained in the specified certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.
+Returns an <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-x509certificate">X509Certificate</a> structure with the information contained in the specified certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.
 
 This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Schannel.dll.
 
@@ -65,7 +65,7 @@ This function has no associated import library. You must use the <a href="https:
 
 ### -param pbCertificate [in]
 
-The certificate BLOB from which to create the new <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_x509certificate">X509Certificate</a> structure.
+The certificate BLOB from which to create the new <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-x509certificate">X509Certificate</a> structure.
 
 
 ### -param cbCertificate [in]
@@ -80,16 +80,16 @@ Set this value to <b>CF_CERT_FROM_FILE</b> to specify that the certificate BLOB 
 
 ### -param ppCertificate [out]
 
-On return, receives the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_x509certificate">X509Certificate</a> structure that this function creates.
+On return, receives the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-x509certificate">X509Certificate</a> structure that this function creates.
 
-When you have finished using the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_x509certificate">X509Certificate</a> structure, free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/schannel/nf-schannel-sslfreecertificate">SslFreeCertificate</a>.
+When you have finished using the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-x509certificate">X509Certificate</a> structure, free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/schannel/nf-schannel-sslfreecertificate">SslFreeCertificate</a>.
 
 
 ## -returns
 
 
 
-Returns nonzero if this function successfully created an <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_x509certificate">X509Certificate</a> structure or zero otherwise. 
+Returns nonzero if this function successfully created an <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-x509certificate">X509Certificate</a> structure or zero otherwise. 
 
 
 

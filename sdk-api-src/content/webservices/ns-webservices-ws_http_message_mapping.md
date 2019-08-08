@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_MESSAGE_MAPPING, WS_HTTP_MESSAGE_MAPPING structure [Web Services for Windows], webservices/WS_HTTP_MESSAGE_MAPPING, wsw.ws_http_message_mapping
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_HTTP_MESSAGE_MAPPING"
+f1_keywords:
+- webservices/WS_HTTP_MESSAGE_MAPPING
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_HTTP_MESSAGE_MAPPING
+- WS_HTTP_MESSAGE_MAPPING
 product: Windows
 targetos: Windows
 req.typenames: WS_HTTP_MESSAGE_MAPPING
@@ -143,7 +143,7 @@ Before a message is sent, an application can add mapped headers
 
 The HTTP channel will only perform this mapping for HTTP headers
                 that have been specified in the requestHeaderMappings or
-                responseHeaderMappings fields.  The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_header_mapping">WS_HTTP_HEADER_MAPPING</a>is used to specify each header, and includes instructions about how
+                responseHeaderMappings fields.  The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_header_mapping">WS_HTTP_HEADER_MAPPING</a>is used to specify each header, and includes instructions about how
                 the message header is transformed to/from an HTTP header.
             
 

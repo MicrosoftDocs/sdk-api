@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWallpaperOptions, GetWallpaperOptions method [Legacy Windows Environment Features], GetWallpaperOptions method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],GetWallpaperOptions method, IActiveDesktop.GetWallpaperOptions, IActiveDesktop::GetWallpaperOptions, _win32_IActiveDesktop_GetWallpaperOptions, lwef.iactivedesktop_getwallpaperoptions, shell.iactivedesktop_getwallpaperoptions, shlobj_core/IActiveDesktop::GetWallpaperOptions
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IActiveDesktop.GetWallpaperOptions"
+f1_keywords:
+- shlobj_core/IActiveDesktop.GetWallpaperOptions
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IActiveDesktop.GetWallpaperOptions
+- IActiveDesktop.GetWallpaperOptions
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Gets the wallpaper options.
 
 Type: <b>LPWALLPAPEROPT</b>
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagwallpaperopt">WALLPAPEROPT</a> structure containing the options currently set. 
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-wallpaperopt">WALLPAPEROPT</a> structure containing the options currently set. 
 
 
 ### -param dwReserved

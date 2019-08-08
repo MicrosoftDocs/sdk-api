@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: 604d7be8-955b-40a3-9cb4-6cbfbeeaa105
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPCONTROL_SERVICE, *LPCONTROL_SERVICE structure [QOS], CONTROL_SERVICE, CONTROL_SERVICE structure [QOS], SERVICETYPE_BESTEFFORT, SERVICETYPE_CONTROLLEDLOAD, SERVICETYPE_GENERAL_INFORMATION, SERVICETYPE_GUARANTEED, SERVICETYPE_NETWORK_CONTROL, SERVICETYPE_NETWORK_UNAVAILABLE, SERVICETYPE_NOCHANGE, SERVICETYPE_NONCONFORMING, SERVICETYPE_NOTRAFFIC, SERVICETYPE_QUALITATIVE, qos.control_service, qossp/*LPCONTROL_SERVICE, qossp/CONTROL_SERVICE"
+ms.keywords: '*LPCONTROL_SERVICE, *LPCONTROL_SERVICE structure [QOS], CONTROL_SERVICE, CONTROL_SERVICE structure [QOS], SERVICETYPE_BESTEFFORT, SERVICETYPE_CONTROLLEDLOAD, SERVICETYPE_GENERAL_INFORMATION, SERVICETYPE_GUARANTEED, SERVICETYPE_NETWORK_CONTROL, SERVICETYPE_NETWORK_UNAVAILABLE, SERVICETYPE_NOCHANGE, SERVICETYPE_NONCONFORMING, SERVICETYPE_NOTRAFFIC, SERVICETYPE_QUALITATIVE, qos.control_service, qossp/*LPCONTROL_SERVICE, qossp/CONTROL_SERVICE'
 ms.topic: struct
-f1_keywords: 
- - "qossp/CONTROL_SERVICE"
+f1_keywords:
+- qossp/CONTROL_SERVICE
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qossp.h
+- Qossp.h
 api_name:
- - CONTROL_SERVICE
+- CONTROL_SERVICE
 product: Windows
 targetos: Windows
 req.typenames: CONTROL_SERVICE, *LPCONTROL_SERVICE
@@ -179,7 +179,7 @@ Qualitative service.
 
 ### -field Overrides
 
-Specifies overrides to service specifications, expressed in the form of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_ad_general_params">AD_GENERAL_PARAMS</a> structure.
+Specifies overrides to service specifications, expressed in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-ad_general_params">AD_GENERAL_PARAMS</a> structure.
 
 
 ### -field Guaranteed
@@ -189,14 +189,14 @@ Specifies guaranteed service, and provides service parameters in the form of an 
 
 ### -field ParamBuffer
 
-Describes the buffer used, in the form of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_param_buffer">PARAM_BUFFER</a> structure.
+Describes the buffer used, in the form of a <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-param_buffer">PARAM_BUFFER</a> structure.
 
 
 ## -remarks
 
 
 
-The <b>Length</b> value can be added to the pointer to the structure to obtain the pointer to the next <b>CONTROL_SERVICE</b> structure in the list, until the <b>NumberOfServices</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_adspec">RSVP_ADSPEC</a> structure is exhausted.
+The <b>Length</b> value can be added to the pointer to the structure to obtain the pointer to the next <b>CONTROL_SERVICE</b> structure in the list, until the <b>NumberOfServices</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_adspec">RSVP_ADSPEC</a> structure is exhausted.
 
 
 
@@ -206,11 +206,11 @@ The <b>Length</b> value can be added to the pointer to the structure to obtain t
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_param_buffer">PARAM_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-param_buffer">PARAM_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_adspec">RSVP_ADSPEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_adspec">RSVP_ADSPEC</a>
  
 
  

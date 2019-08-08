@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Wow64GetThreadSelectorEntry, Wow64GetThreadSelectorEntry function, base.wow64getthreadselectorentry, winbase/Wow64GetThreadSelectorEntry
 ms.topic: function
-f1_keywords: 
- - "winbase/Wow64GetThreadSelectorEntry"
+f1_keywords:
+- winbase/Wow64GetThreadSelectorEntry
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - Wow64GetThreadSelectorEntry
+- Wow64GetThreadSelectorEntry
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ The global or local selector value to look up in the thread's descriptor tables.
 ### -param lpSelectorEntry [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_wow64_ldt_entry">WOW64_LDT_ENTRY</a> structure that receives a copy of the descriptor table entry if the specified selector has an entry in the specified thread's descriptor table. This information can be used to convert a segment-relative address to a linear virtual address.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-wow64_ldt_entry">WOW64_LDT_ENTRY</a> structure that receives a copy of the descriptor table entry if the specified selector has an entry in the specified thread's descriptor table. This information can be used to convert a segment-relative address to a linear virtual address.
 
 
 ## -returns

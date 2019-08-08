@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 149ee7ef-e8fe-d33d-b3e6-f8e1b0c4a83a, D3D10_SHADER_BUFFER_DESC, D3D10_SHADER_BUFFER_DESC structure [Direct3D 10], d3d10shader/D3D10_SHADER_BUFFER_DESC, direct3d10.d3d10_shader_buffer_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d10shader/D3D10_SHADER_BUFFER_DESC"
+f1_keywords:
+- d3d10shader/D3D10_SHADER_BUFFER_DESC
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10Shader.h
+- D3D10Shader.h
 api_name:
- - D3D10_SHADER_BUFFER_DESC
+- D3D10_SHADER_BUFFER_DESC
 product: Windows
 targetos: Windows
 req.typenames: D3D10_SHADER_BUFFER_DESC
@@ -91,7 +91,7 @@ Buffer size (in bytes).
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Shader buffer properties. See <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_cbuffer_flags">D3D10_SHADER_CBUFFER_FLAGS</a>.
+Shader buffer properties. See <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_cbuffer_flags">D3D10_SHADER_CBUFFER_FLAGS</a>.
 
 
 ## -remarks

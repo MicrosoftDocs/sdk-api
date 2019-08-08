@@ -8,10 +8,10 @@ tech.root: NetMgmt
 ms.assetid: ad169dd2-6469-499d-b6be-53d99a92148f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVER_INFO_1017, *PSERVER_INFO_1017, LPSERVER_INFO_1017, LPSERVER_INFO_1017 structure pointer [Network Management], PSERVER_INFO_1017, PSERVER_INFO_1017 structure pointer [Network Management], SERVER_INFO_1017, SERVER_INFO_1017 structure [Network Management], _win32_server_info_1017_str, lmserver/LPSERVER_INFO_1017, lmserver/PSERVER_INFO_1017, lmserver/SERVER_INFO_1017, netmgmt.server_info_1017_str"
+ms.keywords: '*LPSERVER_INFO_1017, *PSERVER_INFO_1017, LPSERVER_INFO_1017, LPSERVER_INFO_1017 structure pointer [Network Management], PSERVER_INFO_1017, PSERVER_INFO_1017 structure pointer [Network Management], SERVER_INFO_1017, SERVER_INFO_1017 structure [Network Management], _win32_server_info_1017_str, lmserver/LPSERVER_INFO_1017, lmserver/PSERVER_INFO_1017, lmserver/SERVER_INFO_1017, netmgmt.server_info_1017_str'
 ms.topic: struct
-f1_keywords: 
- - "lmserver/SERVER_INFO_1017"
+f1_keywords:
+- lmserver/SERVER_INFO_1017
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmserver.h
+- Lmserver.h
 api_name:
- - SERVER_INFO_1017
+- SERVER_INFO_1017
 product: Windows
 targetos: Windows
 req.typenames: SERVER_INFO_1017, *PSERVER_INFO_1017, *LPSERVER_INFO_1017
@@ -68,7 +68,7 @@ Specifies the network announce rate, in seconds. This rate determines how often 
 
 
 For more information about how much the announce rate can vary from the period of time specified by this member, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_1018">SERVER_INFO_1018</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_1018">SERVER_INFO_1018</a>.
 
 
 ## -see-also
@@ -88,7 +88,7 @@ For more information about how much the announce rate can vary from the period o
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_1018">SERVER_INFO_1018</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_1018">SERVER_INFO_1018</a>
 
 
 

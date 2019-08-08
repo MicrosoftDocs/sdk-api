@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateProcessAsUser, CreateProcessAsUser function, CreateProcessAsUserA, CreateProcessAsUserW, _win32_createprocessasuser, base.createprocessasuser, processthreadsapi/CreateProcessAsUser, processthreadsapi/CreateProcessAsUserA, processthreadsapi/CreateProcessAsUserW
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/CreateProcessAsUser"
+f1_keywords:
+- processthreadsapi/CreateProcessAsUser
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,26 +30,26 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Processsecurity-l1-1-0.dll
- - Kernel32.dll
- - KernelBase.dll
- - API-MS-Win-Core-Processthreads-l1-1-0.dll
- - API-MS-Win-Core-Processthreads-l1-1-1.dll
- - API-MS-Win-Core-Processthreads-l1-1-2.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Advapi32.dll
+- API-MS-Win-Core-Processsecurity-l1-1-0.dll
+- Kernel32.dll
+- KernelBase.dll
+- API-MS-Win-Core-Processthreads-l1-1-0.dll
+- API-MS-Win-Core-Processthreads-l1-1-1.dll
+- API-MS-Win-Core-Processthreads-l1-1-2.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - CreateProcessAsUser
- - CreateProcessAsUserA
- - CreateProcessAsUserW
+- CreateProcessAsUser
+- CreateProcessAsUserA
+- CreateProcessAsUserW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -209,18 +209,18 @@ If this parameter is NULL, the new process will have the same current drive and 
 ### -param lpStartupInfo [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa">STARTUPINFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_startupinfoexa">STARTUPINFOEX</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-startupinfoexa">STARTUPINFOEX</a> structure.
 
 The user must have full access to both the specified window station and desktop. If you want the process to be interactive, specify winsta0\default. If the <b>lpDesktop</b> member is NULL, the new process inherits the desktop and window station of its parent process. 
 If this member is an empty string, "", the new process connects to a window station using the rules described in <a href="https://docs.microsoft.com/windows/desktop/winstation/process-connection-to-a-window-station">Process Connection to a Window Station</a>.
 
-To set extended attributes, use a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_startupinfoexa">STARTUPINFOEX</a> structure and specify <b>EXTENDED_STARTUPINFO_PRESENT</b> in the <i>dwCreationFlags</i> parameter.
+To set extended attributes, use a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-startupinfoexa">STARTUPINFOEX</a> structure and specify <b>EXTENDED_STARTUPINFO_PRESENT</b> in the <i>dwCreationFlags</i> parameter.
 
 Handles in 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa">STARTUPINFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_startupinfoexa">STARTUPINFOEX</a> must be closed with 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-startupinfoexa">STARTUPINFOEX</a> must be closed with 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> when they are no longer needed.
 
-<div class="alert"><b>Important</b>  The caller is responsible for ensuring that the standard handle fields in <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa">STARTUPINFO</a> contain valid handle values. These fields are copied unchanged to the child process without validation, even when the <b>dwFlags</b> member specifies <b>STARTF_USESTDHANDLES</b>. Incorrect values can cause the child process to misbehave or crash. Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=234779">Application Verifier</a> runtime verification tool to detect invalid handles. </div>
+<div class="alert"><b>Important</b>  The caller is responsible for ensuring that the standard handle fields in <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> contain valid handle values. These fields are copied unchanged to the child process without validation, even when the <b>dwFlags</b> member specifies <b>STARTF_USESTDHANDLES</b>. Incorrect values can cause the child process to misbehave or crash. Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=234779">Application Verifier</a> runtime verification tool to detect invalid handles. </div>
 <div> </div>
 
 ### -param lpProcessInformation [out]
@@ -258,7 +258,7 @@ Note that the function returns before the process has finished initialization. I
 
 By default, 
 <b>CreateProcessAsUser</b> creates the new process on a noninteractive window station with a desktop that is not visible and cannot receive user input. To enable user interaction with the new process, you must specify the name of the default interactive window station and desktop, "winsta0\default", in the <b>lpDesktop</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa">STARTUPINFO</a> structure. In addition, before calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure. In addition, before calling 
 <b>CreateProcessAsUser</b>, you must change the discretionary access control list (DACL) of both the default interactive window station and the default desktop. The DACLs for the window station and desktop must grant access to the user or the logon session represented by the <i>hToken</i> parameter.
 
 <b>CreateProcessAsUser</b> does not load the specified user's profile into the <b>HKEY_USERS</b> registry key. Therefore, to access the information in the <b>HKEY_CURRENT_USER</b> registry key, you must load the user's profile information into <b>HKEY_USERS</b> with the 
@@ -382,11 +382,11 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa">STARTUPINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_startupinfoexa">STARTUPINFOEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-startupinfoexa">STARTUPINFOEX</a>
 
 
 

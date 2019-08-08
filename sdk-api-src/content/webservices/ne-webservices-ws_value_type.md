@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_BOOL_VALUE_TYPE, WS_DATETIME_VALUE_TYPE, WS_DECIMAL_VALUE_TYPE, WS_DOUBLE_VALUE_TYPE, WS_DURATION_VALUE_TYPE, WS_FLOAT_VALUE_TYPE, WS_GUID_VALUE_TYPE, WS_INT16_VALUE_TYPE, WS_INT32_VALUE_TYPE, WS_INT64_VALUE_TYPE, WS_INT8_VALUE_TYPE, WS_TIMESPAN_VALUE_TYPE, WS_UINT16_VALUE_TYPE, WS_UINT32_VALUE_TYPE, WS_UINT64_VALUE_TYPE, WS_UINT8_VALUE_TYPE, WS_VALUE_TYPE, WS_VALUE_TYPE enumeration [Web Services for Windows], webservices/WS_BOOL_VALUE_TYPE, webservices/WS_DATETIME_VALUE_TYPE, webservices/WS_DECIMAL_VALUE_TYPE, webservices/WS_DOUBLE_VALUE_TYPE, webservices/WS_DURATION_VALUE_TYPE, webservices/WS_FLOAT_VALUE_TYPE, webservices/WS_GUID_VALUE_TYPE, webservices/WS_INT16_VALUE_TYPE, webservices/WS_INT32_VALUE_TYPE, webservices/WS_INT64_VALUE_TYPE, webservices/WS_INT8_VALUE_TYPE, webservices/WS_TIMESPAN_VALUE_TYPE, webservices/WS_UINT16_VALUE_TYPE, webservices/WS_UINT32_VALUE_TYPE, webservices/WS_UINT64_VALUE_TYPE, webservices/WS_UINT8_VALUE_TYPE, webservices/WS_VALUE_TYPE, wsw.ws_value_type
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_VALUE_TYPE"
+f1_keywords:
+- webservices/WS_VALUE_TYPE
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_VALUE_TYPE
+- WS_VALUE_TYPE
 product: Windows
 targetos: Windows
 req.typenames: WS_VALUE_TYPE
@@ -152,6 +152,6 @@ Used to indicate a GUID.
 
 ### -field WS_DURATION_VALUE_TYPE
 
-Used to indicate a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_duration">WS_DURATION</a>.
+Used to indicate a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_duration">WS_DURATION</a>.
         
 

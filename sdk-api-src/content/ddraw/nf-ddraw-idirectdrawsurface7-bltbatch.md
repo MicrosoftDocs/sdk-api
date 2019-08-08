@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BltBatch, BltBatch method [DirectDraw], BltBatch method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],BltBatch method, IDirectDrawSurface7.BltBatch, IDirectDrawSurface7::BltBatch, ddraw/IDirectDrawSurface7::BltBatch, directdraw.idirectdrawsurface7_bltbatch
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.BltBatch"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.BltBatch
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.BltBatch
+- IDirectDrawSurface7.BltBatch
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The <b>IDirectDrawSurface7::BltBatch</b> method is not currently implemented.
 
 ### -param arg1 [in]
 
-A pointer to the first <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-_ddbltbatch">DDBLTBATCH</a> structure that defines the parameters for the bitblt operations.
+A pointer to the first <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltbatch">DDBLTBATCH</a> structure that defines the parameters for the bitblt operations.
 
 
 ### -param arg2 [in]

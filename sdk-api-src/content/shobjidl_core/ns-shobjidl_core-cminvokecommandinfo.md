@@ -8,10 +8,10 @@ tech.root: shell
 ms.assetid: 1da79d98-5a2f-4c43-aab2-8ae7c3b345b2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPCMINVOKECOMMANDINFO, CMIC_MASK_ASYNCOK, CMIC_MASK_CONTROL_DOWN, CMIC_MASK_FLAG_LOG_USAGE, CMIC_MASK_FLAG_NO_UI, CMIC_MASK_FLAG_SEP_VDM, CMIC_MASK_HOTKEY, CMIC_MASK_ICON, CMIC_MASK_NOASYNC, CMIC_MASK_NOZONECHECKS, CMIC_MASK_NO_CONSOLE, CMIC_MASK_SHIFT_DOWN, CMINVOKECOMMANDINFO, CMINVOKECOMMANDINFO structure [Windows Shell], PCCMINVOKECOMMANDINFO, PCCMINVOKECOMMANDINFO structure pointer [Windows Shell], _CMINVOKECOMMANDINFO, _win32_CMINVOKECOMMANDINFO, shell.CMINVOKECOMMANDINFO, shobjidl_core/CMINVOKECOMMANDINFO, shobjidl_core/PCCMINVOKECOMMANDINFO"
+ms.keywords: '*LPCMINVOKECOMMANDINFO, CMIC_MASK_ASYNCOK, CMIC_MASK_CONTROL_DOWN, CMIC_MASK_FLAG_LOG_USAGE, CMIC_MASK_FLAG_NO_UI, CMIC_MASK_FLAG_SEP_VDM, CMIC_MASK_HOTKEY, CMIC_MASK_ICON, CMIC_MASK_NOASYNC, CMIC_MASK_NOZONECHECKS, CMIC_MASK_NO_CONSOLE, CMIC_MASK_SHIFT_DOWN, CMINVOKECOMMANDINFO, CMINVOKECOMMANDINFO structure [Windows Shell], PCCMINVOKECOMMANDINFO, PCCMINVOKECOMMANDINFO structure pointer [Windows Shell], _CMINVOKECOMMANDINFO, _win32_CMINVOKECOMMANDINFO, shell.CMINVOKECOMMANDINFO, shobjidl_core/CMINVOKECOMMANDINFO, shobjidl_core/PCCMINVOKECOMMANDINFO'
 ms.topic: struct
-f1_keywords: 
- - "shobjidl_core/CMINVOKECOMMANDINFO"
+f1_keywords:
+- shobjidl_core/CMINVOKECOMMANDINFO
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - CMINVOKECOMMANDINFO
+- CMINVOKECOMMANDINFO
 product: Windows
 targetos: Windows
 req.typenames: CMINVOKECOMMANDINFO
@@ -222,7 +222,7 @@ An icon to use for any application activated by the command. If the <b>fMask</b>
 
 
 
-Although the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> declaration specifies a <b>CMINVOKECOMMANDINFO</b> structure for the <i>pici</i> parameter, it can also accept a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-_cminvokecommandinfoex">CMINVOKECOMMANDINFOEX</a> structure. If you are implementing this method, you must inspect <b>cbSize</b> to determine which structure has been passed.
+Although the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> declaration specifies a <b>CMINVOKECOMMANDINFO</b> structure for the <i>pici</i> parameter, it can also accept a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfoex">CMINVOKECOMMANDINFOEX</a> structure. If you are implementing this method, you must inspect <b>cbSize</b> to determine which structure has been passed.
 
 
 

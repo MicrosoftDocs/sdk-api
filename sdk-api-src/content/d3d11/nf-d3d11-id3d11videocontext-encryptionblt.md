@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EncryptionBlt, EncryptionBlt method [Media Foundation], EncryptionBlt method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],EncryptionBlt method, ID3D11VideoContext.EncryptionBlt, ID3D11VideoContext::EncryptionBlt, d3d11/ID3D11VideoContext::EncryptionBlt, mf.id3d11videocontext_encryptionblt
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.EncryptionBlt"
+f1_keywords:
+- d3d11/ID3D11VideoContext.EncryptionBlt
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.EncryptionBlt
+- ID3D11VideoContext.EncryptionBlt
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -86,7 +86,7 @@ The size of the <i>pIV</i> buffer, in bytes.
 
 A pointer to a buffer that receives the initialization vector (IV). The caller allocates this buffer, but the driver generates the IV. 
 
-For 128-bit AES-CTR encryption, <i>pIV</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-_d3d11_aes_ctr_iv">D3D11_AES_CTR_IV</a> structure. When the driver generates the first IV, it initializes the structure to a random number. For each subsequent IV, the driver simply increments the <b>IV</b> member of the structure, ensuring that the value always increases. The application can validate that the same IV is never used more than once with the same key pair.
+For 128-bit AES-CTR encryption, <i>pIV</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_aes_ctr_iv">D3D11_AES_CTR_IV</a> structure. When the driver generates the first IV, it initializes the structure to a random number. For each subsequent IV, the driver simply increments the <b>IV</b> member of the structure, ensuring that the value always increases. The application can validate that the same IV is never used more than once with the same key pair.
 
 
 ## -returns

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Context_PromptUser, MI_Context_PromptUser function [Windows Management Infrastructure (MI)], mi/MI_Context_PromptUser, wmi.mi_promptuser, wmi_v2.mi_context_promptuser
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Context_PromptUser"
+f1_keywords:
+- mi/MI_Context_PromptUser
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Context_PromptUser
+- MI_Context_PromptUser
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ A null-terminated string that represents the prompt message for the client.
 
 ### -param promptType
 
-Prompt type as defined by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_prompttype">MI_PromptType</a>. The 
+Prompt type as defined by <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_prompttype">MI_PromptType</a>. The 
       provider should try to use the locale that the client has specified (retrieved through the 
       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_getlocale">MI_Context_GetLocale</a> function).
 
@@ -87,7 +87,7 @@ Return value from the client. <b>MI_TRUE</b> indicates that the process should c
 
 
 
-A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the 
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the 
       function return code. This can be one of the following codes.
 
 
@@ -109,7 +109,7 @@ If the client has an auto-result specified, then the message will be reported, b
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_context">MI_Context</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_context">MI_Context</a>
 
 
 
@@ -125,7 +125,7 @@ If the client has an auto-result specified, then the message will be reported, b
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_prompttype">MI_PromptType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_prompttype">MI_PromptType</a>
  
 
  

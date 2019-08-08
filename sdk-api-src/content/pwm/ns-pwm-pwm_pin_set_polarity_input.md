@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWM_PIN_SET_POLARITY_INPUT, PWM_PIN_SET_POLARITY_INPUT structure, base.pwm_pin_set_polarity_input, pwm/PWM_PIN_SET_POLARITY_INPUT
 ms.topic: struct
-f1_keywords: 
- - "pwm/PWM_PIN_SET_POLARITY_INPUT"
+f1_keywords:
+- pwm/PWM_PIN_SET_POLARITY_INPUT
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pwm.h
+- Pwm.h
 api_name:
- - PWM_PIN_SET_POLARITY_INPUT
+- PWM_PIN_SET_POLARITY_INPUT
 product: Windows
 targetos: Windows
 req.typenames: PWM_PIN_SET_POLARITY_INPUT
@@ -61,7 +61,7 @@ Contains a desired value for polarity of a pin or channel.
 
 ### -field Polarity
 
-The desired polarity for the pin or channel as a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ne-pwm-_pwm_polarity">PWM_POLARITY</a> value. The polarity is either Active High or Active Low.
+The desired polarity for the pin or channel as a <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ne-pwm-pwm_polarity">PWM_POLARITY</a> value. The polarity is either Active High or Active Low.
 
 
 ## -see-also
@@ -73,7 +73,7 @@ The desired polarity for the pin or channel as a <a href="https://docs.microsoft
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pwm/ne-pwm-_pwm_polarity">PWM_POLARITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pwm/ne-pwm-pwm_polarity">PWM_POLARITY</a>
  
 
  

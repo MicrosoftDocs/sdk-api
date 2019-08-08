@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IoPriorityHintLow, IoPriorityHintNormal, IoPriorityHintVeryLow, MaximumIoPriorityHintType, PRIORITY_HINT, PRIORITY_HINT enumeration [Files], fs.priority_hint, winbase/IoPriorityHintLow, winbase/IoPriorityHintNormal, winbase/IoPriorityHintVeryLow, winbase/MaximumIoPriorityHintType, winbase/PRIORITY_HINT
 ms.topic: enum
-f1_keywords: 
- - "winbase/PRIORITY_HINT"
+f1_keywords:
+- winbase/PRIORITY_HINT
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - PRIORITY_HINT
+- PRIORITY_HINT
 product: Windows
 targetos: Windows
 req.typenames: PRIORITY_HINT
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines values that are used with the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_io_priority_hint_info">FILE_IO_PRIORITY_HINT_INFO</a> structure to specify the priority hint for a file I/O operation.
+Defines values that are used with the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_io_priority_hint_info">FILE_IO_PRIORITY_HINT_INFO</a> structure to specify the priority hint for a file I/O operation.
 
 
 ## -enum-fields
@@ -84,7 +84,7 @@ This value is used for validation. Supported values are less than this value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_io_priority_hint_info">FILE_IO_PRIORITY_HINT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_io_priority_hint_info">FILE_IO_PRIORITY_HINT_INFO</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 622e7a72-445a-4820-b236-1c90dad08351
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_PROVIDER_CERT, CERT_CONFIDENCE_AUTHIDEXT, CERT_CONFIDENCE_HIGHEST, CERT_CONFIDENCE_HYGIENE, CERT_CONFIDENCE_SIG, CERT_CONFIDENCE_TIME, CERT_CONFIDENCE_TIMENEST, CRYPT_PROVIDER_CERT, CRYPT_PROVIDER_CERT structure [Security], PCRYPT_PROVIDER_CERT, PCRYPT_PROVIDER_CERT structure pointer [Security], security.crypt_provider_cert, wintrust/CRYPT_PROVIDER_CERT, wintrust/PCRYPT_PROVIDER_CERT"
+ms.keywords: '*PCRYPT_PROVIDER_CERT, CERT_CONFIDENCE_AUTHIDEXT, CERT_CONFIDENCE_HIGHEST, CERT_CONFIDENCE_HYGIENE, CERT_CONFIDENCE_SIG, CERT_CONFIDENCE_TIME, CERT_CONFIDENCE_TIMENEST, CRYPT_PROVIDER_CERT, CRYPT_PROVIDER_CERT structure [Security], PCRYPT_PROVIDER_CERT, PCRYPT_PROVIDER_CERT structure pointer [Security], security.crypt_provider_cert, wintrust/CRYPT_PROVIDER_CERT, wintrust/PCRYPT_PROVIDER_CERT'
 ms.topic: struct
-f1_keywords: 
- - "wintrust/CRYPT_PROVIDER_CERT"
+f1_keywords:
+- wintrust/CRYPT_PROVIDER_CERT
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wintrust.h
+- Wintrust.h
 api_name:
- - CRYPT_PROVIDER_CERT
+- CRYPT_PROVIDER_CERT
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_PROVIDER_CERT, *PCRYPT_PROVIDER_CERT
@@ -185,7 +185,7 @@ A pointer to a <b>DWORD</b> variable that contains the error value for this cert
 
 ### -field pTrustListContext
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> that represents the certificate trust list (CTL).
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> that represents the certificate trust list (CTL).
 
 
 ### -field fTrustListSignerCert
@@ -195,7 +195,7 @@ Boolean value that specifies whether the certificate is a trust list signer cert
 
 ### -field pCtlContext
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> that represents a CTL that contains a self-signed certificate, if applicable.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> that represents a CTL that contains a self-signed certificate, if applicable.
 
 
 ### -field dwCtlError
@@ -210,5 +210,5 @@ Boolean value that indicates whether the certificate trust is cyclical.
 
 ### -field pChainElement
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_element">CERT_CHAIN_ELEMENT</a> that represents the status of the certificate within a chain.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_element">CERT_CHAIN_ELEMENT</a> that represents the status of the certificate within a chain.
 

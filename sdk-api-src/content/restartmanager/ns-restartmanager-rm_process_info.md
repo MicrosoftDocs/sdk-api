@@ -8,10 +8,10 @@ tech.root: rstmgr
 ms.assetid: 27e593f9-8ff0-4de4-87ca-7fa5f324468a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRM_PROCESS_INFO, RM_PROCESS_INFO, RM_PROCESS_INFO structure [Restart Mgr], restartmanager/_RM_PROCESS_INFO, rstmgr.rm_process_info"
+ms.keywords: '*PRM_PROCESS_INFO, RM_PROCESS_INFO, RM_PROCESS_INFO structure [Restart Mgr], restartmanager/_RM_PROCESS_INFO, rstmgr.rm_process_info'
 ms.topic: struct
-f1_keywords: 
- - "restartmanager/RM_PROCESS_INFO"
+f1_keywords:
+- restartmanager/RM_PROCESS_INFO
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - RestartManager.h
+- RestartManager.h
 api_name:
- - RM_PROCESS_INFO
+- RM_PROCESS_INFO
 product: Windows
 targetos: Windows
 req.typenames: RM_PROCESS_INFO, *PRM_PROCESS_INFO
@@ -61,7 +61,7 @@ Describes an application that is to be registered with the Restart Manager.
 
 ### -field Process
 
-Contains an <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_unique_process">RM_UNIQUE_PROCESS</a> structure that  uniquely identifies the application by its PID and the time the process began.
+Contains an <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_unique_process">RM_UNIQUE_PROCESS</a> structure that  uniquely identifies the application by its PID and the time the process began.
 
 
 ### -field strAppName
@@ -77,12 +77,12 @@ If the process is a service,  this is the short name for the service. This membe
 
 ### -field ApplicationType
 
-Contains an <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-_rm_app_type">RM_APP_TYPE</a> enumeration value that specifies the type of application as <b>RmUnknownApp</b>,  <b>RmMainWindow</b>, <b>RmOtherWindow</b>, <b>RmService</b>, <b>RmExplorer</b> or <b>RmCritical</b>.
+Contains an <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-rm_app_type">RM_APP_TYPE</a> enumeration value that specifies the type of application as <b>RmUnknownApp</b>,  <b>RmMainWindow</b>, <b>RmOtherWindow</b>, <b>RmService</b>, <b>RmExplorer</b> or <b>RmCritical</b>.
 
 
 ### -field AppStatus
 
-Contains a bit mask that describes the current status of the application. See the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-_rm_app_status">RM_APP_STATUS</a> enumeration.
+Contains a bit mask that describes the current status of the application. See the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-rm_app_status">RM_APP_STATUS</a> enumeration.
 
 
 ### -field TSSessionId
@@ -103,15 +103,15 @@ This member is always <b>TRUE</b> if the process is a service. This member is al
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-_rm_app_type">RM_APP_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-rm_app_type">RM_APP_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_filter_info">RM_FILTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_filter_info">RM_FILTER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_unique_process">RM_UNIQUE_PROCESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_unique_process">RM_UNIQUE_PROCESS</a>
 
 
 

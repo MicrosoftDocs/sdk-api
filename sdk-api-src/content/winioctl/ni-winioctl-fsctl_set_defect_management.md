@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_DEFECT_MANAGEMENT, FSCTL_SET_DEFECT_MANAGEMENT control, FSCTL_SET_DEFECT_MANAGEMENT control code [Files], fs.fsctl_set_defect_management, winioctl/FSCTL_SET_DEFECT_MANAGEMENT
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_SET_DEFECT_MANAGEMENT"
+f1_keywords:
+- winioctl/FSCTL_SET_DEFECT_MANAGEMENT
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_SET_DEFECT_MANAGEMENT
+- FSCTL_SET_DEFECT_MANAGEMENT
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -222,7 +222,7 @@ No
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_set_defect_mgmt_buffer">FILE_SET_DEFECT_MGMT_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_set_defect_mgmt_buffer">FILE_SET_DEFECT_MGMT_BUFFER</a>
 
 
 

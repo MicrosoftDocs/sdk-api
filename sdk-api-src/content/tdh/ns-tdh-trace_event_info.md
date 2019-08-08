@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: ecf57a23-0dd2-4954-82ac-e92f651c226f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTRACE_EVENT_INFO, TRACE_EVENT_INFO, TRACE_EVENT_INFO structure [ETW], etw.trace_event_info_struct, tdh.trace_event_info_struct, tdh/TRACE_EVENT_INFO"
+ms.keywords: '*PTRACE_EVENT_INFO, TRACE_EVENT_INFO, TRACE_EVENT_INFO structure [ETW], etw.trace_event_info_struct, tdh.trace_event_info_struct, tdh/TRACE_EVENT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "tdh/TRACE_EVENT_INFO"
+f1_keywords:
+- tdh/TRACE_EVENT_INFO
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tdh.h
+- Tdh.h
 api_name:
- - TRACE_EVENT_INFO
+- TRACE_EVENT_INFO
 product: Windows
 targetos: Windows
 req.typenames: TRACE_EVENT_INFO
@@ -71,12 +71,12 @@ A GUID that identifies the MOF class that contains the event. If the provider us
 
 ### -field EventDescriptor
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a> structure that describes the event.
+A <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure that describes the event.
 
 
 ### -field DecodingSource
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-_decoding_source">DECODING_SOURCE</a> enumeration value that identifies the source used to parse the event's data (for example, an instrumenation manifest of WMI MOF class).
+A <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-decoding_source">DECODING_SOURCE</a> enumeration value that identifies the source used to parse the event's data (for example, an instrumenation manifest of WMI MOF class).
 
 
 ### -field ProviderNameOffset
@@ -178,7 +178,7 @@ A 28-bit value associated with the event metadata. This value can be used by the
 
 ### -field EventPropertyInfoArray
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_property_info">EVENT_PROPERTY_INFO</a> structures that provides information about each property of the event's user data.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a> structures that provides information about each property of the event's user data.
 
 
 ## -remarks
@@ -199,15 +199,15 @@ The value of an offset is zero if the member is not defined.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-_decoding_source">DECODING_SOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-decoding_source">DECODING_SOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_property_info">EVENT_PROPERTY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssHardwareSnapshotProvider interface [VSS],OnLunEmpty method, IVssHardwareSnapshotProvider.OnLunEmpty, IVssHardwareSnapshotProvider::OnLunEmpty, OnLunEmpty, OnLunEmpty method [VSS], OnLunEmpty method [VSS],IVssHardwareSnapshotProvider interface, base.ivsshardwaresnapshotprovider_onlunempty, vsprov/IVssHardwareSnapshotProvider::OnLunEmpty
 ms.topic: method
-f1_keywords: 
- - "vsprov/IVssHardwareSnapshotProvider.OnLunEmpty"
+f1_keywords:
+- vsprov/IVssHardwareSnapshotProvider.OnLunEmpty
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsProv.h
+- VsProv.h
 api_name:
- - IVssHardwareSnapshotProvider.OnLunEmpty
+- IVssHardwareSnapshotProvider.OnLunEmpty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ Device corresponding to the LUN that contains the shadow copy to be deleted.
 
 ### -param pInformation [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structure 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure 
       containing information about the LUN containing the shadow copy to be deleted.
 
 

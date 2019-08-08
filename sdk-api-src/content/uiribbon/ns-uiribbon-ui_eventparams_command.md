@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PUI_EVENTPARAMS_COMMAND, PUI_EVENTPARAMS_COMMAND structure pointer [Windows Ribbon], UI_EVENTPARAMS_COMMAND, UI_EVENTPARAMS_COMMAND , UI_EVENTPARAMS_COMMAND structure [Windows Ribbon], uiribbon/PUI_EVENTPARAMS_COMMAND, uiribbon/UI_EVENTPARAMS_COMMAND, windowsribbon.ui_eventparams_command_
 ms.topic: struct
-f1_keywords: 
- - "uiribbon/UI_EVENTPARAMS_COMMAND"
+f1_keywords:
+- uiribbon/UI_EVENTPARAMS_COMMAND
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Uiribbon.h
+- Uiribbon.h
 api_name:
- - UI_EVENTPARAMS_COMMAND
+- UI_EVENTPARAMS_COMMAND
 product: Windows
 targetos: Windows
 req.typenames: UI_EVENTPARAMS_COMMAND
@@ -120,7 +120,7 @@ One of the values from <a href="https://docs.microsoft.com/windows/desktop/api/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ns-uiribbon-_ui_eventparams">UI_EVENTPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ns-uiribbon-ui_eventparams">UI_EVENTPARAMS</a>
  
 
  

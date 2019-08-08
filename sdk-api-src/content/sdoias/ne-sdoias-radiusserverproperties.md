@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROPERTY_RADIUSSERVER_ACCT_PORT, PROPERTY_RADIUSSERVER_ACCT_SECRET, PROPERTY_RADIUSSERVER_ADDRESS, PROPERTY_RADIUSSERVER_AUTH_PORT, PROPERTY_RADIUSSERVER_AUTH_SECRET, PROPERTY_RADIUSSERVER_BLACKOUT, PROPERTY_RADIUSSERVER_FORWARD_ACCT_ONOFF, PROPERTY_RADIUSSERVER_MAX_LOST, PROPERTY_RADIUSSERVER_PRIORITY, PROPERTY_RADIUSSERVER_SEND_SIGNATURE, PROPERTY_RADIUSSERVER_TIMEOUT, PROPERTY_RADIUSSERVER_WEIGHT, RADIUSSERVERPROPERTIES, RADIUSSERVERPROPERTIES enumeration [Network Policy Server], _sdo_radiusserverproperties, nps.SDO_radiusserverproperties, sdo.radiusserverproperties, sdoias/PROPERTY_RADIUSSERVER_ACCT_PORT, sdoias/PROPERTY_RADIUSSERVER_ACCT_SECRET, sdoias/PROPERTY_RADIUSSERVER_ADDRESS, sdoias/PROPERTY_RADIUSSERVER_AUTH_PORT, sdoias/PROPERTY_RADIUSSERVER_AUTH_SECRET, sdoias/PROPERTY_RADIUSSERVER_BLACKOUT, sdoias/PROPERTY_RADIUSSERVER_FORWARD_ACCT_ONOFF, sdoias/PROPERTY_RADIUSSERVER_MAX_LOST, sdoias/PROPERTY_RADIUSSERVER_PRIORITY, sdoias/PROPERTY_RADIUSSERVER_SEND_SIGNATURE, sdoias/PROPERTY_RADIUSSERVER_TIMEOUT, sdoias/PROPERTY_RADIUSSERVER_WEIGHT, sdoias/RADIUSSERVERPROPERTIES
 ms.topic: enum
-f1_keywords: 
- - "sdoias/RADIUSSERVERPROPERTIES"
+f1_keywords:
+- sdoias/RADIUSSERVERPROPERTIES
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - RADIUSSERVERPROPERTIES
+- RADIUSSERVERPROPERTIES
 product: Windows
 targetos: Windows
 req.typenames: RADIUSSERVERPROPERTIES
@@ -133,7 +133,7 @@ Specifies whether the Message-Authenticator attribute of <a href="Http://go.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iascommonproperties">IASCOMMONPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
  
 
  

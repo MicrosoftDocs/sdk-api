@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_XML_CREATE_TRANSFORM, PFN_CRYPT_XML_CREATE_TRANSFORM callback, PFN_CRYPT_XML_CREATE_TRANSFORM callback function [Security], cryptxml/PFN_CRYPT_XML_CREATE_TRANSFORM, security.pfn_crypt_xml_create_transform
 ms.topic: callback
-f1_keywords: 
- - "cryptxml/PFN_CRYPT_XML_CREATE_TRANSFORM"
+f1_keywords:
+- cryptxml/PFN_CRYPT_XML_CREATE_TRANSFORM
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - PFN_CRYPT_XML_CREATE_TRANSFORM
+- PFN_CRYPT_XML_CREATE_TRANSFORM
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,17 +61,17 @@ The  <i>PFN_CRYPT_XML_CREATE_TRANSFORM</i>  callback function creates a transfor
 
 ### -param *pTransform [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the transform to apply.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the transform to apply.
 
 
 ### -param *pProviderIn [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_data_provider">CRYPT_XML_DATA_PROVIDER</a> structure that specifies the data provider to use as input for the transform. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_provider">CRYPT_XML_DATA_PROVIDER</a> structure that specifies the data provider to use as input for the transform. 
 
 
 ### -param *pProviderOut [out]
 
-A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_data_provider">CRYPT_XML_DATA_PROVIDER</a> structure to receive the data provider of the transform.
+A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_provider">CRYPT_XML_DATA_PROVIDER</a> structure to receive the data provider of the transform.
 
 
 ## -returns

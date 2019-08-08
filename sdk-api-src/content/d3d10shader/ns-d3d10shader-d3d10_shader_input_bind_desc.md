@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 99c7399c-8b7c-2db1-c625-397e1a74f486, D3D10_SHADER_INPUT_BIND_DESC, D3D10_SHADER_INPUT_BIND_DESC structure [Direct3D 10], d3d10shader/D3D10_SHADER_INPUT_BIND_DESC, direct3d10.d3d10_shader_input_bind_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d10shader/D3D10_SHADER_INPUT_BIND_DESC"
+f1_keywords:
+- d3d10shader/D3D10_SHADER_INPUT_BIND_DESC
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10Shader.h
+- D3D10Shader.h
 api_name:
- - D3D10_SHADER_INPUT_BIND_DESC
+- D3D10_SHADER_INPUT_BIND_DESC
 product: Windows
 targetos: Windows
 req.typenames: D3D10_SHADER_INPUT_BIND_DESC
@@ -68,9 +68,9 @@ Name of the shader resource.
 
 ### -field Type
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_input_type">D3D10_SHADER_INPUT_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_input_type">D3D10_SHADER_INPUT_TYPE</a></b>
 
-Identifies the type of data in the resource. See <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_input_type">D3D10_SHADER_INPUT_TYPE</a>.
+Identifies the type of data in the resource. See <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_input_type">D3D10_SHADER_INPUT_TYPE</a>.
 
 
 ### -field BindPoint
@@ -91,7 +91,7 @@ Number of contiguous bind points for arrays.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Shader input-parameter options. See <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_input_flags">D3D10_SHADER_INPUT_FLAGS</a>.
+Shader input-parameter options. See <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_shader_input_flags">D3D10_SHADER_INPUT_FLAGS</a>.
 
 
 ### -field ReturnType

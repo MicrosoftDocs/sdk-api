@@ -8,10 +8,10 @@ tech.root: ProcThread
 ms.assetid: 83b940a7-05a0-4f5e-bfe3-3f2ac17e2d67
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PJOBOBJECT_BASIC_LIMIT_INFORMATION, JOBOBJECT_BASIC_LIMIT_INFORMATION, JOBOBJECT_BASIC_LIMIT_INFORMATION structure, JOB_OBJECT_LIMIT_ACTIVE_PROCESS, JOB_OBJECT_LIMIT_AFFINITY, JOB_OBJECT_LIMIT_BREAKAWAY_OK, JOB_OBJECT_LIMIT_DIE_ON_UNHANDLED_EXCEPTION, JOB_OBJECT_LIMIT_JOB_MEMORY, JOB_OBJECT_LIMIT_JOB_TIME, JOB_OBJECT_LIMIT_KILL_ON_JOB_CLOSE, JOB_OBJECT_LIMIT_PRESERVE_JOB_TIME, JOB_OBJECT_LIMIT_PRIORITY_CLASS, JOB_OBJECT_LIMIT_PROCESS_MEMORY, JOB_OBJECT_LIMIT_PROCESS_TIME, JOB_OBJECT_LIMIT_SCHEDULING_CLASS, JOB_OBJECT_LIMIT_SILENT_BREAKAWAY_OK, JOB_OBJECT_LIMIT_SUBSET_AFFINITY, JOB_OBJECT_LIMIT_WORKINGSET, PJOBOBJECT_BASIC_LIMIT_INFORMATION, PJOBOBJECT_BASIC_LIMIT_INFORMATION structure pointer, _JOBOBJECT_BASIC_LIMIT_INFORMATION, _win32_jobobject_basic_limit_information_str, base.jobobject_basic_limit_information_str, winnt/JOBOBJECT_BASIC_LIMIT_INFORMATION, winnt/PJOBOBJECT_BASIC_LIMIT_INFORMATION"
+ms.keywords: '*PJOBOBJECT_BASIC_LIMIT_INFORMATION, JOBOBJECT_BASIC_LIMIT_INFORMATION, JOBOBJECT_BASIC_LIMIT_INFORMATION structure, JOB_OBJECT_LIMIT_ACTIVE_PROCESS, JOB_OBJECT_LIMIT_AFFINITY, JOB_OBJECT_LIMIT_BREAKAWAY_OK, JOB_OBJECT_LIMIT_DIE_ON_UNHANDLED_EXCEPTION, JOB_OBJECT_LIMIT_JOB_MEMORY, JOB_OBJECT_LIMIT_JOB_TIME, JOB_OBJECT_LIMIT_KILL_ON_JOB_CLOSE, JOB_OBJECT_LIMIT_PRESERVE_JOB_TIME, JOB_OBJECT_LIMIT_PRIORITY_CLASS, JOB_OBJECT_LIMIT_PROCESS_MEMORY, JOB_OBJECT_LIMIT_PROCESS_TIME, JOB_OBJECT_LIMIT_SCHEDULING_CLASS, JOB_OBJECT_LIMIT_SILENT_BREAKAWAY_OK, JOB_OBJECT_LIMIT_SUBSET_AFFINITY, JOB_OBJECT_LIMIT_WORKINGSET, PJOBOBJECT_BASIC_LIMIT_INFORMATION, PJOBOBJECT_BASIC_LIMIT_INFORMATION structure pointer, _JOBOBJECT_BASIC_LIMIT_INFORMATION, _win32_jobobject_basic_limit_information_str, base.jobobject_basic_limit_information_str, winnt/JOBOBJECT_BASIC_LIMIT_INFORMATION, winnt/PJOBOBJECT_BASIC_LIMIT_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winnt/JOBOBJECT_BASIC_LIMIT_INFORMATION"
+f1_keywords:
+- winnt/JOBOBJECT_BASIC_LIMIT_INFORMATION
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - JOBOBJECT_BASIC_LIMIT_INFORMATION
+- JOBOBJECT_BASIC_LIMIT_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: JOBOBJECT_BASIC_LIMIT_INFORMATION, *PJOBOBJECT_BASIC_LIMIT_INFORMATION
@@ -81,7 +81,7 @@ If <b>LimitFlags</b> specifies <b>JOB_OBJECT_LIMIT_JOB_TIME</b>, this member is 
 The system adds the current time of the processes associated with the job to this limit. For example, if you set this limit to 1 minute, and the job has a process that has accumulated 5 minutes of user-mode time, the limit actually enforced is 6 minutes.
 
 The system periodically checks to determine whether the sum of the user-mode execution time for all processes is greater than this end-of-job limit. If it is, the action specified in the <b>EndOfJobTimeAction</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_end_of_job_time_information">JOBOBJECT_END_OF_JOB_TIME_INFORMATION</a> structure is carried out. By default, all processes are terminated and the status code is set to <b>ERROR_NOT_ENOUGH_QUOTA</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_end_of_job_time_information">JOBOBJECT_END_OF_JOB_TIME_INFORMATION</a> structure is carried out. By default, all processes are terminated and the status code is set to <b>ERROR_NOT_ENOUGH_QUOTA</b>.
 
 To register  for  notification when this limit is exceeded without terminating processes, use the <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> function with the <b>JobObjectNotificationLimitInformation</b> information class.
 
@@ -132,7 +132,7 @@ If any process associated with the job creates a child process using the <b>CREA
 
 
 This limit requires use of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member  is a 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member  is a 
 <b>JOBOBJECT_BASIC_LIMIT_INFORMATION</b> structure.
 
 </td>
@@ -154,7 +154,7 @@ If an exception occurs and the system calls the
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-unhandledexceptionfilter">UnhandledExceptionFilter</a> function, the debugger will be given a chance to act. If there is no debugger, the functions returns <b>EXCEPTION_EXECUTE_HANDLER</b>. Normally, this will cause termination of the process with the exception code as the exit status.
 
 This limit requires use of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member is a 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member is a 
 <b>JOBOBJECT_BASIC_LIMIT_INFORMATION</b> structure.
 
 </td>
@@ -169,7 +169,7 @@ This limit requires use of a
 Causes all processes associated with the job to limit the job-wide sum of their committed memory. When a process attempts to commit memory that would exceed the job-wide limit, it fails. If the job object is associated with a completion port, a <b>JOB_OBJECT_MSG_JOB_MEMORY_LIMIT</b> message is sent to the completion port.
 
 This limit requires use of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member is a 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member is a 
 <b>JOBOBJECT_BASIC_LIMIT_INFORMATION</b> structure.
 
 To register  for  notification when this limit is exceeded while allowing processes to continue to commit memory, use the <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> function with the <b>JobObjectNotificationLimitInformation</b> information class.
@@ -197,7 +197,7 @@ Establishes a user-mode execution time limit for the job. The <b>PerJobUserTimeL
 Causes all processes associated with the job to terminate when the last handle to the job is closed.
 
 This limit requires use of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member is a 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member is a 
 <b>JOBOBJECT_BASIC_LIMIT_INFORMATION</b> structure.
 
 </td>
@@ -239,7 +239,7 @@ Causes all processes associated with the job to limit their committed memory. Wh
 If the job is nested, the effective memory limit is the most restrictive memory limit in the  job chain.
 
 This limit requires use of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member is a 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member is a 
 <b>JOBOBJECT_BASIC_LIMIT_INFORMATION</b> structure.
 
 </td>
@@ -283,7 +283,7 @@ Allows any process associated with the job to create child processes that are no
 If the job is nested and its immediate job object allows breakaway, the child process breaks away from the immediate job object and from each job in the parent job chain, moving up the hierarchy until it reaches a job that does not permit breakaway. If the immediate job object does not allow breakaway, the child process does not break away even if jobs in its parent job chain allow it.
 
 This limit requires use of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member is a 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure. Its <b>BasicLimitInformation</b> member is a 
 <b>JOBOBJECT_BASIC_LIMIT_INFORMATION</b> structure.
 
 </td>
@@ -382,11 +382,11 @@ The system increments the active process count when you attempt to associate a p
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_end_of_job_time_information">JOBOBJECT_END_OF_JOB_TIME_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_end_of_job_time_information">JOBOBJECT_END_OF_JOB_TIME_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a>
 
 
 

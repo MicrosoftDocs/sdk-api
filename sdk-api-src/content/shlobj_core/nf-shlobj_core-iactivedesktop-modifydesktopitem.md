@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COMP_ELEM_ALL, COMP_ELEM_CHECKED, COMP_ELEM_CURITEMSTATE, COMP_ELEM_FRIENDLYNAME, COMP_ELEM_NOSCROLL, COMP_ELEM_ORIGINAL_CSI, COMP_ELEM_POS_LEFT, COMP_ELEM_POS_TOP, COMP_ELEM_POS_ZINDEX, COMP_ELEM_RESTORED_CSI, COMP_ELEM_SIZE_HEIGHT, COMP_ELEM_SIZE_WIDTH, COMP_ELEM_SOURCE, COMP_ELEM_TYPE, IActiveDesktop interface [Legacy Windows Environment Features],ModifyDesktopItem method, IActiveDesktop.ModifyDesktopItem, IActiveDesktop::ModifyDesktopItem, ModifyDesktopItem, ModifyDesktopItem method [Legacy Windows Environment Features], ModifyDesktopItem method [Legacy Windows Environment Features],IActiveDesktop interface, _win32_IActiveDesktop_ModifyDesktopItem, lwef.iactivedesktop_modifydesktopitem, shell.iactivedesktop_modifydesktopitem, shlobj/IActiveDesktop::ModifyDesktopItem
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IActiveDesktop.ModifyDesktopItem"
+f1_keywords:
+- shlobj_core/IActiveDesktop.ModifyDesktopItem
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shlobj_core.h (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shlobj_core.h
+- Shlobj_core.h
 api_name:
- - IActiveDesktop.ModifyDesktopItem
+- IActiveDesktop.ModifyDesktopItem
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Modifies the desktop item.
 
 Type: <b>LPCCOMPONENT</b>
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent">COMPONENT</a> structure that contains the modifications. The desktop item associated with the <b>wszSource</b> member of the structure will be modified. 
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure that contains the modifications. The desktop item associated with the <b>wszSource</b> member of the structure will be modified. 
 
 
 ### -param dwFlags
@@ -144,7 +144,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The client application must call <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-applychanges">IActiveDesktop::ApplyChanges</a> separately to update the registry. For example, to change the friendly name, first call this function with either <b>COMP_ELEM_FRIENDLYNAME</b> or <b>COMP_ELEM_ALL</b> in the <b>dwFlags</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent">COMPONENT</a>. Then call <b>IActiveDesktop::ApplyChanges</b>.
+The client application must call <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-applychanges">IActiveDesktop::ApplyChanges</a> separately to update the registry. For example, to change the friendly name, first call this function with either <b>COMP_ELEM_FRIENDLYNAME</b> or <b>COMP_ELEM_ALL</b> in the <b>dwFlags</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a>. Then call <b>IActiveDesktop::ApplyChanges</b>.
 
 
 

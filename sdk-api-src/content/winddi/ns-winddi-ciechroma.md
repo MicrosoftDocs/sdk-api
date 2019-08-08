@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CIECHROMA, CIECHROMA structure [Display Devices], display.ciechroma, grstrcts_b0ffd3e4-c5c0-40f8-9272-1decae47108d.xml, winddi/CIECHROMA
 ms.topic: struct
-f1_keywords: 
- - "winddi/CIECHROMA"
+f1_keywords:
+- winddi/CIECHROMA
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - CIECHROMA
+- CIECHROMA
 product: Windows
 targetos: Windows
 req.typenames: CIECHROMA
@@ -78,13 +78,13 @@ Specifies the luminance. For more information, see the following Remarks section
 
 
 
-The CIECHROMA structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_colorinfo">COLORINFO</a> structure to define colors for <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo">GDIINFO</a>.
+The CIECHROMA structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a> structure to define colors for <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>.
 
 The LDECI4 type is used to represent real numbers to four decimal places. For example, (LDECI4) 10000 represents the real number 1.0000, and (LDECI4) -12345 represents -1.2345.
 
 The values of the <b>x</b> and <b>y</b> members of CIECHROMA should be in the range from 0 through 10000--that is, the values should represent the numbers 0.0000 through 1.0000. 
 
-The value of the <b>Y</b> member of this structure should be in the range from 0 through 100. This member can also be 65534 (0xFFFE) under certain circumstances. For more information about these circumstances, see <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_colorinfo">COLORINFO</a>.
+The value of the <b>Y</b> member of this structure should be in the range from 0 through 100. This member can also be 65534 (0xFFFE) under certain circumstances. For more information about these circumstances, see <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a>.
 
 
 
@@ -94,7 +94,7 @@ The value of the <b>Y</b> member of this structure should be in the range from 0
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_colorinfo">COLORINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a>
 
 
 
@@ -102,7 +102,7 @@ The value of the <b>Y</b> member of this structure should be in the range from 0
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo">GDIINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>
  
 
  

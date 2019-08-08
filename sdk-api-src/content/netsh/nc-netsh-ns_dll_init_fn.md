@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitHelperDll, NS_DLL_INIT_FN, NS_DLL_INIT_FN callback, NS_DLL_INIT_FN callback function [NetShell], _netsh_inithelperdll, netsh/NS_DLL_INIT_FN, netshell.inithelperdll
 ms.topic: callback
-f1_keywords: 
- - "netsh/NS_DLL_INIT_FN"
+f1_keywords:
+- netsh/NS_DLL_INIT_FN
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Netsh.h
+- Netsh.h
 api_name:
- - NS_DLL_INIT_FN
+- NS_DLL_INIT_FN
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -112,7 +112,7 @@ InitHelperDll(
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_ns_helper_attributes">NS_HELPER_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netsh/ns-netsh-ns_helper_attributes">NS_HELPER_ATTRIBUTES</a>
 
 
 

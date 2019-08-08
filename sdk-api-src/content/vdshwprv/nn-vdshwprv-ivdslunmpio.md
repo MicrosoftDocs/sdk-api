@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsLunMpio, IVdsLunMpio interface [VDS], IVdsLunMpio interface [VDS],described, base.ivdslunmpio, vds/IVdsLunMpio, vdshwprv/IVdsLunMpio
 ms.topic: interface
-f1_keywords: 
- - "vdshwprv/IVdsLunMpio"
+f1_keywords:
+- vdshwprv/IVdsLunMpio
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsLunMpio
+- IVdsLunMpio
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -85,7 +85,7 @@ Returns the current load balance policy on the LUN.</p> (Inherited from <b>IVdsL
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunmpio-getpathinfo">GetPathInfo</a>
 </td>
 <td align="left" width="63%">
-Returns an array of <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_path_info">VDS_PATH_INFO</a> structures, 
+Returns an array of <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_info">VDS_PATH_INFO</a> structures, 
      one for each path to the LUN.</p> (Inherited from <b>IVdsLunMpio</b>)</td>
 </tr>
 <tr data="inherited;">

@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: 5bca12be-5bc4-40b2-bc72-52cf0297821b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPRSVP_FILTERSPEC_V6_FLOW, *LPRSVP_FILTERSPEC_V6_FLOW structure [QOS], RSVP_FILTERSPEC_V6_FLOW, RSVP_FILTERSPEC_V6_FLOW structure [QOS], qos.rsvp_filterspec_v6_flow, qossp/*LPRSVP_FILTERSPEC_V6_FLOW, qossp/RSVP_FILTERSPEC_V6_FLOW"
+ms.keywords: '*LPRSVP_FILTERSPEC_V6_FLOW, *LPRSVP_FILTERSPEC_V6_FLOW structure [QOS], RSVP_FILTERSPEC_V6_FLOW, RSVP_FILTERSPEC_V6_FLOW structure [QOS], qos.rsvp_filterspec_v6_flow, qossp/*LPRSVP_FILTERSPEC_V6_FLOW, qossp/RSVP_FILTERSPEC_V6_FLOW'
 ms.topic: struct
-f1_keywords: 
- - "qossp/RSVP_FILTERSPEC_V6_FLOW"
+f1_keywords:
+- qossp/RSVP_FILTERSPEC_V6_FLOW
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qossp.h
+- Qossp.h
 api_name:
- - RSVP_FILTERSPEC_V6_FLOW
+- RSVP_FILTERSPEC_V6_FLOW
 product: Windows
 targetos: Windows
 req.typenames: RSVP_FILTERSPEC_V6_FLOW, *LPRSVP_FILTERSPEC_V6_FLOW
@@ -61,7 +61,7 @@ The <b>RSVP_FILTERSPEC_V6_FLOW</b> structure provides flow label information for
 
 ### -field Address
 
-IPv4 address for which the FILTERSPEC flow label applies, expressed as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_in_addr_ipv6">IN_ADDR_IPV6</a> structure.
+IPv4 address for which the FILTERSPEC flow label applies, expressed as an <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-in_addr_ipv6">IN_ADDR_IPV6</a> structure.
 
 
 ### -field UnUsed
@@ -84,11 +84,11 @@ Reserved. Do not use.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_in_addr_ipv6">IN_ADDR_IPV6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-in_addr_ipv6">IN_ADDR_IPV6</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v6">RSVP_FILTERSPEC_V6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v6">RSVP_FILTERSPEC_V6</a>
  
 
  

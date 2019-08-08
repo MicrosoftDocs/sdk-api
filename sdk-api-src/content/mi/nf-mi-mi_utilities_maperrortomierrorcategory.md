@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_RESULT_TYPE_HRESULT, MI_RESULT_TYPE_MI, MI_RESULT_TYPE_WIN32, MI_Utilities_MapErrorToMiErrorCategory, MI_Utilities_MapErrorToMiErrorCategory function [Windows Management Infrastructure (MI)], mi/MI_Utilities_MapErrorToMiErrorCategory, wmi_v2.mi_utilities_maperrortomierrorcategory
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Utilities_MapErrorToMiErrorCategory"
+f1_keywords:
+- mi/MI_Utilities_MapErrorToMiErrorCategory
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Utilities_MapErrorToMiErrorCategory
+- MI_Utilities_MapErrorToMiErrorCategory
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -91,7 +91,7 @@ Error code to map.
 
 
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_errorcategory">MI_ErrorCategory</a> structure that indicates the category of error.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_errorcategory">MI_ErrorCategory</a> structure that indicates the category of error.
 
 
 
@@ -101,7 +101,7 @@ An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_errorcategory">MI_ErrorCategory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_errorcategory">MI_ErrorCategory</a>
  
 
  

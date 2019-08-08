@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCNE_ALLEVENTS, SHCNE_ASSOCCHANGED, SHCNE_ATTRIBUTES, SHCNE_CREATE, SHCNE_DELETE, SHCNE_DISKEVENTS, SHCNE_DRIVEADD, SHCNE_DRIVEADDGUI, SHCNE_DRIVEREMOVED, SHCNE_EXTENDED_EVENT, SHCNE_FREESPACE, SHCNE_GLOBALEVENTS, SHCNE_INTERRUPT, SHCNE_MEDIAINSERTED, SHCNE_MEDIAREMOVED, SHCNE_MKDIR, SHCNE_NETSHARE, SHCNE_NETUNSHARE, SHCNE_RENAMEFOLDER, SHCNE_RENAMEITEM, SHCNE_RMDIR, SHCNE_SERVERDISCONNECT, SHCNE_UPDATEDIR, SHCNE_UPDATEIMAGE, SHCNE_UPDATEITEM, SHCNF_DWORD, SHCNF_FLUSH, SHCNF_FLUSHNOWAIT, SHCNF_IDLIST, SHCNF_NOTIFYRECURSIVE, SHCNF_PATH, SHCNF_PRINTER, SHChangeNotify, SHChangeNotify function [Windows Shell], _win32_SHChangeNotify, shell.SHChangeNotify, shlobj_core/SHChangeNotify
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHChangeNotify"
+f1_keywords:
+- shlobj_core/SHChangeNotify
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,21 +30,21 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - API-MS-Win-Shell-Changenotify-L1-1-0.dll
- - Ext-Ms-Win-Shell-Directory-L1-1-0.dll
- - Ext-MS-Win-Shell-Shell32-L1-1-0.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-0.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
- - Windows.Storage.dll
+- Shell32.dll
+- API-MS-Win-Shell-Changenotify-L1-1-0.dll
+- Ext-Ms-Win-Shell-Directory-L1-1-0.dll
+- Ext-MS-Win-Shell-Shell32-L1-1-0.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-0.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Windows.Storage.dll
 api_name:
- - SHChangeNotify
+- SHChangeNotify
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -243,7 +243,7 @@ The <i>dwItem1</i> and <i>dwItem2</i> parameters are <b>DWORD</b> values.
 
 #### SHCNF_IDLIST
 
-<i>dwItem1</i> and <i>dwItem2</i> are the addresses of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structures that represent the item(s) affected by the change. Each <b>ITEMIDLIST</b> must be relative to the desktop folder.
+<i>dwItem1</i> and <i>dwItem2</i> are the addresses of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures that represent the item(s) affected by the change. Each <b>ITEMIDLIST</b> must be relative to the desktop folder.
 
 
 

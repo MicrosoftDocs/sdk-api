@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPEnumResource, NPEnumResource function [Security], _mnp_npenumresource, npapi/NPEnumResource, security.npenumresource
 ms.topic: function
-f1_keywords: 
- - "npapi/NPEnumResource"
+f1_keywords:
+- npapi/NPEnumResource
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - NPEnumResource
+- NPEnumResource
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ Pointer to the number of entries requested. It may be 0xFFFFFFFF to request as m
 ### -param lpBuffer [out]
 
 Pointer to the buffer to receive the enumeration result, which is returned as an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_netresourcea">NETRESOURCE</a> entries. The buffer is valid until the next call using <i>hEnum</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> entries. The buffer is valid until the next call using <i>hEnum</i>.
 
 
 ### -param lpBufferSize [in, out]
@@ -148,7 +148,7 @@ The network is not present. This condition is checked  before <i>hEnum</i> is te
 
 
 When this function is called, the provider should fill the buffer with the requested number of entries (or the maximum that can fit). The returned 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_netresourcea">NETRESOURCE</a> structures should be located contiguously at the head of the buffer, like an array of such structures. The pointers in these structures must point to locations within the buffer. Therefore, data referenced by these pointers should be located at the end of the buffer, after the array of structures. It is the provider's responsibility to package this information correctly.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structures should be located contiguously at the head of the buffer, like an array of such structures. The pointers in these structures must point to locations within the buffer. Therefore, data referenced by these pointers should be located at the end of the buffer, after the array of structures. It is the provider's responsibility to package this information correctly.
 
 
 

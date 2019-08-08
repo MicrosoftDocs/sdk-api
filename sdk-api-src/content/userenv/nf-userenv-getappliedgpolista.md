@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPO_LIST_FLAG_MACHINE, GetAppliedGPOList, GetAppliedGPOList function [Group Policy], GetAppliedGPOListA, GetAppliedGPOListW, _win32_getappliedgpolist, policy.getappliedgpolist, userenv/GetAppliedGPOList, userenv/GetAppliedGPOListA, userenv/GetAppliedGPOListW
 ms.topic: function
-f1_keywords: 
- - "userenv/GetAppliedGPOList"
+f1_keywords:
+- userenv/GetAppliedGPOList
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - GetAppliedGPOList
- - GetAppliedGPOListA
- - GetAppliedGPOListW
+- GetAppliedGPOList
+- GetAppliedGPOListA
+- GetAppliedGPOListW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -96,7 +96,7 @@ A value that specifies the <b>GUID</b> of the extension.
 ### -param ppGPOList [out]
 
 A pointer that receives the list of GPO structures. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_group_policy_objecta">GROUP_POLICY_OBJECT</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>.
 
 
 ## -returns
@@ -128,7 +128,7 @@ To free the GPO list when you have finished processing it, call the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-_group_policy_objecta">GROUP_POLICY_OBJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>
 
 
 

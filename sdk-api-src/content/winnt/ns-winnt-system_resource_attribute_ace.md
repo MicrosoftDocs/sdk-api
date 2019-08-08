@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: A222E1B7-CA9C-4250-A697-B9D278B26C06
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSYSTEM_RESOURCE_ATTRIBUTE_ACE, PSYSTEM_RESOURCE_ATTRIBUTE_ACE, PSYSTEM_RESOURCE_ATTRIBUTE_ACE structure pointer [Security], SYSTEM_RESOURCE_ATTRIBUTE_ACE, SYSTEM_RESOURCE_ATTRIBUTE_ACE structure [Security], _SYSTEM_RESOURCE_ATTRIBUTE_ACE, security.system_resource_attribute_ace, winnt/PSYSTEM_RESOURCE_ATTRIBUTE_ACE, winnt/SYSTEM_RESOURCE_ATTRIBUTE_ACE"
+ms.keywords: '*PSYSTEM_RESOURCE_ATTRIBUTE_ACE, PSYSTEM_RESOURCE_ATTRIBUTE_ACE, PSYSTEM_RESOURCE_ATTRIBUTE_ACE structure pointer [Security], SYSTEM_RESOURCE_ATTRIBUTE_ACE, SYSTEM_RESOURCE_ATTRIBUTE_ACE structure [Security], _SYSTEM_RESOURCE_ATTRIBUTE_ACE, security.system_resource_attribute_ace, winnt/PSYSTEM_RESOURCE_ATTRIBUTE_ACE, winnt/SYSTEM_RESOURCE_ATTRIBUTE_ACE'
 ms.topic: struct
-f1_keywords: 
- - "winnt/SYSTEM_RESOURCE_ATTRIBUTE_ACE"
+f1_keywords:
+- winnt/SYSTEM_RESOURCE_ATTRIBUTE_ACE
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - SYSTEM_RESOURCE_ATTRIBUTE_ACE
+- SYSTEM_RESOURCE_ATTRIBUTE_ACE
 product: Windows
 targetos: Windows
 req.typenames: SYSTEM_RESOURCE_ATTRIBUTE_ACE, *PSYSTEM_RESOURCE_ATTRIBUTE_ACE
@@ -61,7 +61,7 @@ The <b>SYSTEM_RESOURCE_ATTRIBUTE_ACE</b> structure defines an <a href="https://d
 
 ### -field Header
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure that specifies the size and type of the ACE. The structure also contains flags that control inheritance of the ACE by child objects. The <b>AceType</b> member of the <b>ACE_HEADER</b> structure must be set to <b>SYSTEM_RESOURCE_ATTRIBUTE_ACE</b>, and the <b>AceSize</b> member must be set to the total number of bytes allocated for the <b>SYSTEM_RESOURCE_ATTRIBUTE_ACE</b> structure.
+An <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure that specifies the size and type of the ACE. The structure also contains flags that control inheritance of the ACE by child objects. The <b>AceType</b> member of the <b>ACE_HEADER</b> structure must be set to <b>SYSTEM_RESOURCE_ATTRIBUTE_ACE</b>, and the <b>AceSize</b> member must be set to the total number of bytes allocated for the <b>SYSTEM_RESOURCE_ATTRIBUTE_ACE</b> structure.
 
 
 ### -field Mask
@@ -71,5 +71,5 @@ The access policy associated with the SACL that contains this ACE.
 
 ### -field SidStart
 
-Specifies the first <b>DWORD</b> of a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>. The remaining bytes of the <b>SID</b>  are stored in contiguous memory after the <b>SidStart</b> member in a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_claim_security_attribute_relative_v1">CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1</a> structure. 
+Specifies the first <b>DWORD</b> of a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>. The remaining bytes of the <b>SID</b>  are stored in contiguous memory after the <b>SidStart</b> member in a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-claim_security_attribute_relative_v1">CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1</a> structure. 
 

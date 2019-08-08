@@ -8,10 +8,10 @@ tech.root: WebDAV
 ms.assetid: 59976cb0-ed68-4db0-b8f8-cfe5e778916b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDAV_CALLBACK_AUTH_BLOB, DAV_CALLBACK_AUTH_BLOB, DAV_CALLBACK_AUTH_BLOB structure [WebDAV], PDAV_CALLBACK_AUTH_BLOB, PDAV_CALLBACK_AUTH_BLOB structure pointer [WebDAV], davclnt/DAV_CALLBACK_AUTH_BLOB, davclnt/PDAV_CALLBACK_AUTH_BLOB, webdav.dav_callback_auth_blob"
+ms.keywords: '*PDAV_CALLBACK_AUTH_BLOB, DAV_CALLBACK_AUTH_BLOB, DAV_CALLBACK_AUTH_BLOB structure [WebDAV], PDAV_CALLBACK_AUTH_BLOB, PDAV_CALLBACK_AUTH_BLOB structure pointer [WebDAV], davclnt/DAV_CALLBACK_AUTH_BLOB, davclnt/PDAV_CALLBACK_AUTH_BLOB, webdav.dav_callback_auth_blob'
 ms.topic: struct
-f1_keywords: 
- - "davclnt/DAV_CALLBACK_AUTH_BLOB"
+f1_keywords:
+- davclnt/DAV_CALLBACK_AUTH_BLOB
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Davclnt.h
+- Davclnt.h
 api_name:
- - DAV_CALLBACK_AUTH_BLOB
+- DAV_CALLBACK_AUTH_BLOB
 product: Windows
 targetos: Windows
 req.typenames: DAV_CALLBACK_AUTH_BLOB, *PDAV_CALLBACK_AUTH_BLOB
@@ -97,7 +97,7 @@ PCCERT_CONTEXT
 
 
 
-This structure is included as a member in the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-_dav_callback_cred">DAV_CALLBACK_CRED</a> structure.
+This structure is included as a member in the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_cred">DAV_CALLBACK_CRED</a> structure.
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback_freecred">DavFreeCredCallback</a> callback function should free only the buffer that the <b>pBuffer</b> member points to, not the entire structure.
 
@@ -109,7 +109,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-p
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-_dav_callback_auth_unp">DAV_CALLBACK_AUTH_UNP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_unp">DAV_CALLBACK_AUTH_UNP</a>
 
 
 

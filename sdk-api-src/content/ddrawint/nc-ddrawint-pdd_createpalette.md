@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdCreatePalette, DdCreatePalette callback function [Display Devices], PDD_CREATEPALETTE, PDD_CREATEPALETTE callback, ddfncs_5930e0e6-1029-4c6d-aa6b-b8050e2f9d9d.xml, ddrawint/DdCreatePalette, display.ddcreatepalette
 ms.topic: callback
-f1_keywords: 
- - "ddrawint/DdCreatePalette"
+f1_keywords:
+- ddrawint/DdCreatePalette
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DdCreatePalette
+- DdCreatePalette
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,7 +70,7 @@ The <b>DdCreatePalette</b> callback function creates a DirectDrawPalette object 
 
 #### - lpCreatePalette
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_createpalettedata">DD_CREATEPALETTEDATA</a> structure that contains the information necessary to create the DirectDrawPalette object.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_createpalettedata">DD_CREATEPALETTEDATA</a> structure that contains the information necessary to create the DirectDrawPalette object.
 
 
 ## -returns
@@ -87,7 +87,7 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_createpalettedata">DD_CREATEPALETTEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_createpalettedata">DD_CREATEPALETTEDATA</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 5b865c28-6a0e-4af3-a646-c1082b5c3ce5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PIPX_SERVER_ENTRY, IPX_SERVER_ENTRY, IPX_SERVER_ENTRY structure [RAS], PIPX_SERVER_ENTRY, PIPX_SERVER_ENTRY structure pointer [RAS], _mpr_ipx_server_entry, rras.ipx_server_entry, stm/IPX_SERVER_ENTRY, stm/PIPX_SERVER_ENTRY"
+ms.keywords: '*PIPX_SERVER_ENTRY, IPX_SERVER_ENTRY, IPX_SERVER_ENTRY structure [RAS], PIPX_SERVER_ENTRY, PIPX_SERVER_ENTRY structure pointer [RAS], _mpr_ipx_server_entry, rras.ipx_server_entry, stm/IPX_SERVER_ENTRY, stm/PIPX_SERVER_ENTRY'
 ms.topic: struct
-f1_keywords: 
- - "stm/IPX_SERVER_ENTRY"
+f1_keywords:
+- stm/IPX_SERVER_ENTRY
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Stm.h
+- Stm.h
 api_name:
- - IPX_SERVER_ENTRY
+- IPX_SERVER_ENTRY
 product: Windows
 targetos: Windows
 req.typenames: IPX_SERVER_ENTRY, *PIPX_SERVER_ENTRY
@@ -99,7 +99,7 @@ Contains the service hop count.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-_ipx_service">IPX_SERVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a>
 
 
 

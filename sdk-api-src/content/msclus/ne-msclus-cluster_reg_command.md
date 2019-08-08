@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSREG_COMMAND_NONE, CLUSREG_CONDITION_EXISTS, CLUSREG_CONDITION_IS_EQUAL, CLUSREG_CONDITION_IS_GREATER_THAN, CLUSREG_CONDITION_IS_KEY_NOT_EXISTS, CLUSREG_CONDITION_IS_LESS_THAN, CLUSREG_CONDITION_IS_NOT_EQUAL, CLUSREG_CONDITION_KEY_EXISTS, CLUSREG_CONDITION_NOT_EXISTS, CLUSREG_CONTROL_COMMAND, CLUSREG_CREATE_KEY, CLUSREG_DELETE_KEY, CLUSREG_DELETE_VALUE, CLUSREG_LAST_COMMAND, CLUSREG_READ_ERROR, CLUSREG_READ_VALUE, CLUSREG_SET_KEY_SECURITY, CLUSREG_SET_VALUE, CLUSREG_VALUE_DELETED, CLUSTER_REG_COMMAND, CLUSTER_REG_COMMAND enumeration [Failover Cluster], _CLUSTER_REG_COMMAND, _CLUSTER_REG_COMMAND enumeration [Failover Cluster], clusapi/CLUSREG_COMMAND_NONE, clusapi/CLUSREG_CONDITION_EXISTS, clusapi/CLUSREG_CONDITION_IS_EQUAL, clusapi/CLUSREG_CONDITION_IS_GREATER_THAN, clusapi/CLUSREG_CONDITION_IS_KEY_NOT_EXISTS, clusapi/CLUSREG_CONDITION_IS_LESS_THAN, clusapi/CLUSREG_CONDITION_IS_NOT_EQUAL, clusapi/CLUSREG_CONDITION_KEY_EXISTS, clusapi/CLUSREG_CONDITION_NOT_EXISTS, clusapi/CLUSREG_CONTROL_COMMAND, clusapi/CLUSREG_CREATE_KEY, clusapi/CLUSREG_DELETE_KEY, clusapi/CLUSREG_DELETE_VALUE, clusapi/CLUSREG_LAST_COMMAND, clusapi/CLUSREG_READ_ERROR, clusapi/CLUSREG_READ_VALUE, clusapi/CLUSREG_SET_KEY_SECURITY, clusapi/CLUSREG_SET_VALUE, clusapi/CLUSREG_VALUE_DELETED, clusapi/CLUSTER_REG_COMMAND, clusapi/_CLUSTER_REG_COMMAND, msclus/CLUSREG_COMMAND_NONE, msclus/CLUSREG_CONDITION_EXISTS, msclus/CLUSREG_CONDITION_IS_EQUAL, msclus/CLUSREG_CONDITION_IS_GREATER_THAN, msclus/CLUSREG_CONDITION_IS_KEY_NOT_EXISTS, msclus/CLUSREG_CONDITION_IS_LESS_THAN, msclus/CLUSREG_CONDITION_IS_NOT_EQUAL, msclus/CLUSREG_CONDITION_KEY_EXISTS, msclus/CLUSREG_CONDITION_NOT_EXISTS, msclus/CLUSREG_CONTROL_COMMAND, msclus/CLUSREG_CREATE_KEY, msclus/CLUSREG_DELETE_KEY, msclus/CLUSREG_DELETE_VALUE, msclus/CLUSREG_LAST_COMMAND, msclus/CLUSREG_READ_ERROR, msclus/CLUSREG_READ_VALUE, msclus/CLUSREG_SET_KEY_SECURITY, msclus/CLUSREG_SET_VALUE, msclus/CLUSREG_VALUE_DELETED, msclus/CLUSTER_REG_COMMAND, msclus/_CLUSTER_REG_COMMAND, mscs.cluster_reg_command
 ms.topic: enum
-f1_keywords: 
- - "msclus/CLUSTER_REG_COMMAND"
+f1_keywords:
+- msclus/CLUSTER_REG_COMMAND
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - CLUSTER_REG_COMMAND
+- CLUSTER_REG_COMMAND
 product: Windows
 targetos: Windows
 req.typenames: CLUSTER_REG_COMMAND
@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enumerates the possible cluster registry commands that a local node will perform when attempting to join a cluster.  It is used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_cluster_batch_command">CLUSTER_BATCH_COMMAND</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_cluster_read_batch_command">CLUSTER_READ_BATCH_COMMAND</a> structures.
+Enumerates the possible cluster registry commands that a local node will perform when attempting to join a cluster.  It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_batch_command">CLUSTER_BATCH_COMMAND</a> and <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_read_batch_command">CLUSTER_READ_BATCH_COMMAND</a> structures.
 
 
 ## -enum-fields
@@ -195,11 +195,11 @@ The <b>CLUSREG_VALUE_DELETED</b> command precedes every <b>CLUSREG_SET_VALUE</b>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_cluster_batch_command">CLUSTER_BATCH_COMMAND</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_batch_command">CLUSTER_BATCH_COMMAND</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_cluster_read_batch_command">CLUSTER_READ_BATCH_COMMAND</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_read_batch_command">CLUSTER_READ_BATCH_COMMAND</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MgmRpfCallback, PMGM_RPF_CALLBACK, PMGM_RPF_CALLBACK callback, PMGM_RPF_CALLBACK callback function [RAS], _mpr_pmgm_rpf_callback, mgm/PMGM_RPF_CALLBACK, rras.pmgm_rpf_callback
 ms.topic: callback
-f1_keywords: 
- - "mgm/PMGM_RPF_CALLBACK"
+f1_keywords:
+- mgm/PMGM_RPF_CALLBACK
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mgm.h
+- Mgm.h
 api_name:
- - PMGM_RPF_CALLBACK
+- PMGM_RPF_CALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -150,7 +150,7 @@ Pointer to a buffer that contains the IP header of the packet, including the IP 
 ### -param pbRoute [in, out]
 
 On input, <i>pbRoute</i> points to a buffer that contains the route towards the source. The buffer contains an 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_dest_info">RTM_DEST_INFO</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_dest_info">RTM_DEST_INFO</a> structure. 
 
 
 

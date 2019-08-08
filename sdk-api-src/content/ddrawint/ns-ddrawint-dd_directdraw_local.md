@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 58e378b7-863a-46d4-91cb-904ed4e892a3
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL structure [Display Devices], ddrawint/DD_DIRECTDRAW_LOCAL, ddstrcts_2df3e80e-6d5d-4d81-9ae8-d92b7c7c74eb.xml, display.dd_directdraw_local"
+ms.keywords: '*PDD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL structure [Display Devices], ddrawint/DD_DIRECTDRAW_LOCAL, ddstrcts_2df3e80e-6d5d-4d81-9ae8-d92b7c7c74eb.xml, display.dd_directdraw_local'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_DIRECTDRAW_LOCAL"
+f1_keywords:
+- ddrawint/DD_DIRECTDRAW_LOCAL
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_DIRECTDRAW_LOCAL
+- DD_DIRECTDRAW_LOCAL
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL"
+req.typenames: '*PDD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,5 +61,5 @@ The DD_DIRECTDRAW_LOCAL structure contains driver information that is relevant t
 
 ### -field lpGbl
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 

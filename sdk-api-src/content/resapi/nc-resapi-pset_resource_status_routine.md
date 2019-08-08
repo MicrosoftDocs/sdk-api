@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSET_RESOURCE_STATUS_ROUTINE, PSET_RESOURCE_STATUS_ROUTINE callback function [Failover Cluster], SetResourceStatus, SetResourceStatus callback, SetResourceStatus callback function [Failover Cluster], _wolf_setresourcestatus, mscs.setresourcestatus, resapi/PSET_RESOURCE_STATUS_ROUTINE, resapi/SetResourceStatus
 ms.topic: callback
-f1_keywords: 
- - "resapi/SetResourceStatus"
+f1_keywords:
+- resapi/SetResourceStatus
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - SetResourceStatus
+- SetResourceStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -79,7 +79,7 @@ Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/deskt
 
 <i>SetResourceStatus</i> returns one of 
        the following values enumerated from the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ne-resapi-_resource_exit_state">RESOURCE_EXIT_STATE</a> enumeration.
+       <a href="https://docs.microsoft.com/windows/desktop/api/resapi/ne-resapi-resource_exit_state">RESOURCE_EXIT_STATE</a> enumeration.
 
 <table>
 <tr>
@@ -187,7 +187,7 @@ There is no need to call
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ne-resapi-_resource_exit_state">RESOURCE_EXIT_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/ne-resapi-resource_exit_state">RESOURCE_EXIT_STATE</a>
 
 
 

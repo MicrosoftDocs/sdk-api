@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCT_RESULT = 0x8001, CCT_SCOPE = 0x8000, IComponent2 interface [MMC],QueryDispatch method, IComponent2.QueryDispatch, IComponent2::QueryDispatch, QueryDispatch, QueryDispatch method [MMC], QueryDispatch method [MMC],IComponent2 interface, _slate_icomponent2_querydispatch, mmc.icomponent2_querydispatch, mmc/IComponent2::QueryDispatch
 ms.topic: method
-f1_keywords: 
- - "mmc/IComponent2.QueryDispatch"
+f1_keywords:
+- mmc/IComponent2.QueryDispatch
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IComponent2.QueryDispatch
+- IComponent2.QueryDispatch
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ A value that specifies the context item (or items) for which the IDispatch inter
 ### -param type [in]
 
 A value that specifies the data object as one of the following constant values, which, are members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_data_object_types">DATA_OBJECT_TYPES</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-data_object_types">DATA_OBJECT_TYPES</a> enumeration.
 
 
 

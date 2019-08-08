@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: ccb2bb4e-3c65-4305-95ad-b9111f3936b5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgContext_LastClientTokenStatus, PSecPkgContext_LastClientTokenStatus, PSecPkgContext_LastClientTokenStatus structure pointer [Security], SecPkgContext_LastClientTokenStatus, SecPkgContext_LastClientTokenStatus structure [Security], security.secpkgcontext_lastclienttokenstatus, sspi/PSecPkgContext_LastClientTokenStatus, sspi/SecPkgContext_LastClientTokenStatus"
+ms.keywords: '*PSecPkgContext_LastClientTokenStatus, PSecPkgContext_LastClientTokenStatus, PSecPkgContext_LastClientTokenStatus structure pointer [Security], SecPkgContext_LastClientTokenStatus, SecPkgContext_LastClientTokenStatus structure [Security], security.secpkgcontext_lastclienttokenstatus, sspi/PSecPkgContext_LastClientTokenStatus, sspi/SecPkgContext_LastClientTokenStatus'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SecPkgContext_LastClientTokenStatus"
+f1_keywords:
+- sspi/SecPkgContext_LastClientTokenStatus
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SecPkgContext_LastClientTokenStatus
+- SecPkgContext_LastClientTokenStatus
 product: Windows
 targetos: Windows
 req.typenames: SecPkgContext_LastClientTokenStatus, *PSecPkgContext_LastClientTokenStatus
@@ -61,7 +61,7 @@ Specifies whether the token from the most recent call to the <a href="https://do
 
 ### -field LastClientTokenStatus
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ne-sspi-_secpkg_attr_lct_status">SECPKG_ATTR_LCT_STATUS</a> enumeration that indicates the status of the token returned by the most recent  call to <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext</a>.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ne-sspi-secpkg_attr_lct_status">SECPKG_ATTR_LCT_STATUS</a> enumeration that indicates the status of the token returned by the most recent  call to <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext</a>.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ A value of the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ne-s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ne-sspi-_secpkg_attr_lct_status">SECPKG_ATTR_LCT_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ne-sspi-secpkg_attr_lct_status">SECPKG_ATTR_LCT_STATUS</a>
  
 
  

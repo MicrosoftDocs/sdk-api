@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_GET_DEVICE_NUMBER, IOCTL_STORAGE_GET_DEVICE_NUMBER control, IOCTL_STORAGE_GET_DEVICE_NUMBER control code, base.ioctl_storage_get_device_number, winioctl/IOCTL_STORAGE_GET_DEVICE_NUMBER
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_STORAGE_GET_DEVICE_NUMBER"
+f1_keywords:
+- winioctl/IOCTL_STORAGE_GET_DEVICE_NUMBER
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_STORAGE_GET_DEVICE_NUMBER
+- IOCTL_STORAGE_GET_DEVICE_NUMBER
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -148,7 +148,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-The values in the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_device_number">STORAGE_DEVICE_NUMBER</a> structure are guaranteed to remain unchanged until the device is removed or the system is restarted. It is not guaranteed to be persistent across device restarts or system restarts. 
+The values in the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_device_number">STORAGE_DEVICE_NUMBER</a> structure are guaranteed to remain unchanged until the device is removed or the system is restarted. It is not guaranteed to be persistent across device restarts or system restarts. 
 
 
 
@@ -162,7 +162,7 @@ The values in the <a href="https://docs.microsoft.com/windows/desktop/api/winioc
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_device_number">STORAGE_DEVICE_NUMBER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_device_number">STORAGE_DEVICE_NUMBER</a>
  
 
  

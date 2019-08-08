@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhGetRawCounterArray, PdhGetRawCounterArray function [Perf], PdhGetRawCounterArrayA, PdhGetRawCounterArrayW, _win32_pdhgetrawcounterarray, base.pdhgetrawcounterarray, pdh/PdhGetRawCounterArray, pdh/PdhGetRawCounterArrayA, pdh/PdhGetRawCounterArrayW, perf.pdhgetrawcounterarray
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhGetRawCounterArray"
+f1_keywords:
+- pdh/PdhGetRawCounterArray
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhGetRawCounterArray
- - PdhGetRawCounterArrayA
- - PdhGetRawCounterArrayW
+- PdhGetRawCounterArray
+- PdhGetRawCounterArrayA
+- PdhGetRawCounterArrayW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -82,7 +82,7 @@ Number of raw counter values in the <i>ItemBuffer</i> buffer.
 ### -param ItemBuffer [out]
 
 Caller-allocated buffer that receives the array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_raw_counter_item_a">PDH_RAW_COUNTER_ITEM</a> structures; the structures contain the raw instance counter values.  Set to <b>NULL</b> if <i>lpdwBufferSize</i> is zero.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter_item_a">PDH_RAW_COUNTER_ITEM</a> structures; the structures contain the raw instance counter values.  Set to <b>NULL</b> if <i>lpdwBufferSize</i> is zero.
 
 
 ## -returns
@@ -157,7 +157,7 @@ The data for the counter is locked for the duration of the call to
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_raw_counter_item_a">PDH_RAW_COUNTER_ITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter_item_a">PDH_RAW_COUNTER_ITEM</a>
 
 
 

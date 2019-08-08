@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APPNAME, FILEEXT, INSTALLSPECTYPE, INSTALLSPECTYPE enumeration [Group Policy], appmgmt/APPNAME, appmgmt/FILEEXT, appmgmt/INSTALLSPECTYPE, policy.installspectype_enum
 ms.topic: enum
-f1_keywords: 
- - "appmgmt/INSTALLSPECTYPE"
+f1_keywords:
+- appmgmt/INSTALLSPECTYPE
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Appmgmt.h
+- Appmgmt.h
 api_name:
- - INSTALLSPECTYPE
+- INSTALLSPECTYPE
 product: Windows
 targetos: Windows
 req.typenames: INSTALLSPECTYPE
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>INSTALLSPECTYPE</b> enumeration values define the ways  a group policy application can be specified to the  <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-installapplication">InstallApplication</a> function. The values are used in the <b>Type</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_installdata">INSTALLDATA</a>.
+The <b>INSTALLSPECTYPE</b> enumeration values define the ways  a group policy application can be specified to the  <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-installapplication">InstallApplication</a> function. The values are used in the <b>Type</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-installdata">INSTALLDATA</a>.
 
 
 ## -enum-fields
@@ -90,7 +90,7 @@ The application is specified by its file name extension, for example, .jpg.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_installdata">INSTALLDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-installdata">INSTALLDATA</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: b891f763-13dd-4b40-aff3-3fccb693d76a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTXF_LOG_RECORD_BASE, PTXF_LOG_RECORD_BASE, PTXF_LOG_RECORD_BASE structure pointer [Files], TXF_LOG_RECORD_BASE, TXF_LOG_RECORD_BASE structure [Files], TXF_LOG_RECORD_TYPE_AFFECTED_FILE, TXF_LOG_RECORD_TYPE_TRUNCATE, TXF_LOG_RECORD_TYPE_WRITE, fs.txf_log_record_base, txfw32/PTXF_LOG_RECORD_BASE, txfw32/TXF_LOG_RECORD_BASE"
+ms.keywords: '*PTXF_LOG_RECORD_BASE, PTXF_LOG_RECORD_BASE, PTXF_LOG_RECORD_BASE structure pointer [Files], TXF_LOG_RECORD_BASE, TXF_LOG_RECORD_BASE structure [Files], TXF_LOG_RECORD_TYPE_AFFECTED_FILE, TXF_LOG_RECORD_TYPE_TRUNCATE, TXF_LOG_RECORD_TYPE_WRITE, fs.txf_log_record_base, txfw32/PTXF_LOG_RECORD_BASE, txfw32/TXF_LOG_RECORD_BASE'
 ms.topic: struct
-f1_keywords: 
- - "txfw32/TXF_LOG_RECORD_BASE"
+f1_keywords:
+- txfw32/TXF_LOG_RECORD_BASE
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - TxfW32.h
+- TxfW32.h
 api_name:
- - TXF_LOG_RECORD_BASE
+- TXF_LOG_RECORD_BASE
 product: Windows
 targetos: Windows
 req.typenames: TXF_LOG_RECORD_BASE, *PTXF_LOG_RECORD_BASE
@@ -86,7 +86,7 @@ The record type. This member can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-The record is a <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_log_record_affected_file">TXF_LOG_RECORD_AFFECTED_FILE</a> structure.
+The record is a <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_affected_file">TXF_LOG_RECORD_AFFECTED_FILE</a> structure.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ The record is a <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/n
 </dl>
 </td>
 <td width="60%">
-The record is a <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_log_record_truncate">TXF_LOG_RECORD_TRUNCATE</a> structure.
+The record is a <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_truncate">TXF_LOG_RECORD_TRUNCATE</a> structure.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ The record is a <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/n
 </dl>
 </td>
 <td width="60%">
-The record is a <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_log_record_write">TXF_LOG_RECORD_WRITE</a> structure.
+The record is a <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_write">TXF_LOG_RECORD_WRITE</a> structure.
 
 </td>
 </tr>
@@ -126,15 +126,15 @@ The length of this record, in bytes.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_log_record_affected_file">TXF_LOG_RECORD_AFFECTED_FILE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_affected_file">TXF_LOG_RECORD_AFFECTED_FILE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_log_record_truncate">TXF_LOG_RECORD_TRUNCATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_truncate">TXF_LOG_RECORD_TRUNCATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_log_record_write">TXF_LOG_RECORD_WRITE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_write">TXF_LOG_RECORD_WRITE</a>
 
 
 

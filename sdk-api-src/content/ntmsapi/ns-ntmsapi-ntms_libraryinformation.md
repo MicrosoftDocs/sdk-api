@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NTMS_INVENTORY_FAST, NTMS_INVENTORY_NONE, NTMS_INVENTORY_OMID, NTMS_LIBRARYFLAG_CLEANERPRESENT, NTMS_LIBRARYFLAG_FIXEDOFFLINE, NTMS_LIBRARYFLAG_IGNORECLEANERUSESREMAINING, NTMS_LIBRARYFLAG_RECOGNIZECLEANERBARCODE, NTMS_LIBRARYINFORMATION, NTMS_LIBRARYINFORMATION structure [Files], NTMS_LIBRARYTYPE_OFFLINE, NTMS_LIBRARYTYPE_ONLINE, NTMS_LIBRARYTYPE_STANDALONE, NTMS_LIBRARYTYPE_UNKNOWN, _zaw_ntms_libraryinformation, base.ntms_libraryinformation, fs.ntms_libraryinformation, ntmsapi/NTMS_LIBRARYINFORMATION
 ms.topic: struct
-f1_keywords: 
- - "ntmsapi/NTMS_LIBRARYINFORMATION"
+f1_keywords:
+- ntmsapi/NTMS_LIBRARYINFORMATION
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntmsapi.h
+- Ntmsapi.h
 api_name:
- - NTMS_LIBRARYINFORMATION
+- NTMS_LIBRARYINFORMATION
 product: Windows
 targetos: Windows
 req.typenames: NTMS_LIBRARYINFORMATION
@@ -325,7 +325,7 @@ For offline libraries, only <b>LibraryType</b> and <b>dwNumberOfMedia</b> are re
 
 The 
 <b>NTMS_LIBRARYINFORMATION</b> structure is included in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
 
 
@@ -335,7 +335,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
  
 
  

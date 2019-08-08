@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcServerSubscribeForNotification, RpcServerSubscribeForNotification function [RPC], rpc.rpcserversubscribefornotification, rpcasync/RpcServerSubscribeForNotification
 ms.topic: function
-f1_keywords: 
- - "rpcasync/RpcServerSubscribeForNotification"
+f1_keywords:
+- rpcasync/RpcServerSubscribeForNotification
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcServerSubscribeForNotification
+- RpcServerSubscribeForNotification
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ The <b>RpcServerSubscribeForNotification</b> function subscribes the server for 
 
 ### -param Notification [in]
 
-Bitwise combination of the <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-_rpc_notifications">RPC_NOTIFICATIONS</a> enumeration values that specifies the type of notification requested from RPC by the server.
+Bitwise combination of the <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-rpc_notifications">RPC_NOTIFICATIONS</a> enumeration values that specifies the type of notification requested from RPC by the server.
 
 <b>Windows Vista:  </b>Currently, only <b>RpcNotificationClientDisconnect</b> and <b>RpcNotificationCallCancel</b> are supported. If any other value is specified for this parameter, the RPC_S_CANNOT_SUPPORT error code is returned.
 
@@ -75,14 +75,14 @@ Bitwise combination of the <a href="https://docs.microsoft.com/windows/desktop/a
 ### -param NotificationType [in]
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-_rpc_notification_types">RPC_NOTIFICATION_TYPES</a> enumeration value that specifies the method by which RPC will notify the server.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-rpc_notification_types">RPC_NOTIFICATION_TYPES</a> enumeration value that specifies the method by which RPC will notify the server.
 
 <b>Windows Vista:  </b><b>RpcNotificationTypeNone</b> is not supported. If this value is specified, the RPC_S_INVALID_ARG error code is returned.
 
 
 ### -param NotificationInfo [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_async_notification_info">RPC_ASYNC_NOTIFICATION_INFO</a> union that contains the specific information necessary for RPC to contact the server for notification. The data contained in this union is specific to the method passed to the <i>NotificationType</i> parameter. 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_notification_info">RPC_ASYNC_NOTIFICATION_INFO</a> union that contains the specific information necessary for RPC to contact the server for notification. The data contained in this union is specific to the method passed to the <i>NotificationType</i> parameter. 
 
 If the <b>RpcNotificationTypeCallback</b> method is specified in <i>NotificationTypes</i>, the <b>NotificationRoutine</b> member of the corresponding branch of the union is set to the binding handle for synchronous calls and the async handle for asynchronous calls.
 

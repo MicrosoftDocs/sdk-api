@@ -2,7 +2,7 @@
 UID: NF:d3dcommon.ID3DInclude.Open
 title: ID3DInclude::Open (d3dcommon.h)
 author: windows-sdk-content
-description: A user-implemented method for opening and reading the contents of a shader #include file.
+description: A user-implemented method for opening and reading the contents of a shader
 old-location: direct3d11\id3dinclude_open.htm
 tech.root: direct3d11
 ms.assetid: 4d10c986-1cba-427c-ae90-f81b83be1b8b
@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3DInclude interface [Direct3D 11],Open method, ID3DInclude.Open, ID3DInclude::Open, Open, Open method [Direct3D 11], Open method [Direct3D 11],ID3DInclude interface, d3dcommon/ID3DInclude::Open, direct3d11.id3dinclude_open
 ms.topic: method
-f1_keywords: 
- - "d3dcommon/ID3DInclude.Open"
+f1_keywords:
+- d3dcommon/ID3DInclude.Open
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3DInclude.Open
+- ID3DInclude.Open
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ A user-implemented method for opening and reading the contents of a shader #incl
 
 ### -param IncludeType
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_include_type">D3D_INCLUDE_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_include_type">D3D_INCLUDE_TYPE</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_include_type">D3D_INCLUDE_TYPE</a>-typed value that indicates the location of the #include file.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_include_type">D3D_INCLUDE_TYPE</a>-typed value that indicates the location of the #include file.
           
 
 

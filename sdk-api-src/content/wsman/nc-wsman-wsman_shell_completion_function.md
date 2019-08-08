@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_SHELL_COMPLETION_FUNCTION, WSMAN_SHELL_COMPLETION_FUNCTION callback, WSMAN_SHELL_COMPLETION_FUNCTION callback function [Windows Remote Management], winrm.wsman_shell_completion_function, wsman/WSMAN_SHELL_COMPLETION_FUNCTION
 ms.topic: callback
-f1_keywords: 
- - "wsman/WSMAN_SHELL_COMPLETION_FUNCTION"
+f1_keywords:
+- wsman/WSMAN_SHELL_COMPLETION_FUNCTION
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_SHELL_COMPLETION_FUNCTION
+- WSMAN_SHELL_COMPLETION_FUNCTION
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ Specifies one or more flags from the
 
 ### -param *error [in]
 
-Defines the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_error">WSMAN_ERROR</a> structure, which is 
+Defines the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_error">WSMAN_ERROR</a> structure, which is 
       valid in the callback only.
 
 
@@ -105,7 +105,7 @@ Defines the operation handle associated with the user context. The operation han
 Defines the output data from the command or shell as a result of a 
       <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanreceiveshelloutput">WSManReceiveShellOutput</a> call. For more 
       information about the output data, see the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_receive_data_result">WSMAN_RECEIVE_DATA_RESULT</a> structure.
+      <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_receive_data_result">WSMAN_RECEIVE_DATA_RESULT</a> structure.
 
 
 ## -returns

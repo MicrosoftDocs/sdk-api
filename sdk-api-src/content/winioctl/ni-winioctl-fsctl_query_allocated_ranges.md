@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_QUERY_ALLOCATED_RANGES, FSCTL_QUERY_ALLOCATED_RANGES control, FSCTL_QUERY_ALLOCATED_RANGES control code [Files], _win32_fsctl_query_allocated_ranges, base.fsctl_query_allocated_ranges, fs.fsctl_query_allocated_ranges, winioctl/FSCTL_QUERY_ALLOCATED_RANGES
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_QUERY_ALLOCATED_RANGES"
+f1_keywords:
+- winioctl/FSCTL_QUERY_ALLOCATED_RANGES
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_QUERY_ALLOCATED_RANGES
+- FSCTL_QUERY_ALLOCATED_RANGES
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -235,7 +235,7 @@ No
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_allocated_range_buffer">FILE_ALLOCATED_RANGE_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_allocated_range_buffer">FILE_ALLOCATED_RANGE_BUFFER</a>
 
 
 

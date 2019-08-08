@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 1926db26-4a29-4ddb-85c6-dd2074eba0b8
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_FLIPDATA, DD_FLIPDATA, DD_FLIPDATA structure [Display Devices], ddrawint/DD_FLIPDATA, ddstrcts_cfb79a99-a030-4516-8b9f-b6c01b69187d.xml, display.dd_flipdata"
+ms.keywords: '*PDD_FLIPDATA, DD_FLIPDATA, DD_FLIPDATA structure [Display Devices], ddrawint/DD_FLIPDATA, ddstrcts_cfb79a99-a030-4516-8b9f-b6c01b69187d.xml, display.dd_flipdata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_FLIPDATA"
+f1_keywords:
+- ddrawint/DD_FLIPDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_FLIPDATA
+- DD_FLIPDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_FLIPDATA, DD_FLIPDATA"
+req.typenames: '*PDD_FLIPDATA, DD_FLIPDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,12 +61,12 @@ The DD_FLIPDATA structure contains information needed to do a flip.
 
 ### -field lpDD
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 
 ### -field lpSurfCurr
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure describing the current surface.
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure describing the current surface.
 
 
 ### -field lpSurfTarg
@@ -189,7 +189,7 @@ Used by the Microsoft DirectDraw API and should not be filled in by the driver.
 
 ### -field lpSurfCurrLeft
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure describing the current left surface.
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure describing the current left surface.
 
 
 ### -field lpSurfTargLeft

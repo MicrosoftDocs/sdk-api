@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvSwapBuffers, DrvSwapBuffers function [Display Devices], ddifncs_8f9d0c15-6eb3-4bed-9efa-bb40026576a1.xml, display.drvswapbuffers, winddi/DrvSwapBuffers
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvSwapBuffers"
+f1_keywords:
+- winddi/DrvSwapBuffers
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvSwapBuffers
+- DrvSwapBuffers
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,12 +61,12 @@ The <b>DrvSwapBuffers</b> function displays the contents of the window's associa
 
 ### -param pso
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure that identifies the target surface to be modified for display.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that identifies the target surface to be modified for display.
 
 
 ### -param pwo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_wndobj">WNDOBJ</a> structure that defines the region on the target surface with which the back buffer will be swapped.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> structure that defines the region on the target surface with which the back buffer will be swapped.
 
 
 ## -returns

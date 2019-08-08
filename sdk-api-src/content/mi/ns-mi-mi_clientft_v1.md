@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ClientFT_V1, MI_ClientFT_V1 structure [Windows Management Infrastructure (MI)], mi/MI_ClientFT_V1, mi/mi_clientFT_V1, mi_clientFT_V1, mi_clientFT_V1 structure pointer [Windows Management Infrastructure (MI)], wmi._mi_clientft_v1, wmi_v2.mi_clientft_v1
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_ClientFT_V1"
+f1_keywords:
+- mi/MI_ClientFT_V1
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_ClientFT_V1
+- MI_ClientFT_V1
 product: Windows
 targetos: Windows
 req.typenames: MI_ClientFT_V1
@@ -61,64 +61,64 @@ Client function tables.
 
 ### -field applicationFT
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_applicationft">MI_ApplicationFT</a> function table 
-      used by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_application">MI_Application</a>.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_applicationft">MI_ApplicationFT</a> function table 
+      used by <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_application">MI_Application</a>.
 
 
 ### -field sessionFT
 
 Pointer to the <b>MI_SessionFT</b> function table used by 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_session">MI_Session</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_session">MI_Session</a>.
 
 
 ### -field operationFT
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationft">MI_OperationFT</a> function table 
-      used by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operation">MI_Operation</a>.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationft">MI_OperationFT</a> function table 
+      used by <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operation">MI_Operation</a>.
 
 
 ### -field hostedProviderFT
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_hostedproviderft">MI_HostedProviderFT</a> function 
-      table used by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_hostedprovider">MI_HostedProvider</a>.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_hostedproviderft">MI_HostedProviderFT</a> function 
+      table used by <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_hostedprovider">MI_HostedProvider</a>.
 
 
 ### -field serializerFT
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_serializerft">MI_SerializerFT</a> function table 
-      used by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_serializer">MI_Serializer</a>.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_serializerft">MI_SerializerFT</a> function table 
+      used by <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_serializer">MI_Serializer</a>.
 
 
 ### -field deserializerFT
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_deserializerft">MI_DeserializerFT</a> function 
-      table used by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_deserializer">MI_Deserializer</a>.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_deserializerft">MI_DeserializerFT</a> function 
+      table used by <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_deserializer">MI_Deserializer</a>.
 
 
 ### -field subscribeDeliveryOptionsFT
 
 Pointer to the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_subscriptiondeliveryoptionsft">MI_SubscriptionDeliveryOptionsFT</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptionsft">MI_SubscriptionDeliveryOptionsFT</a> 
       function table used by 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a>.
 
 
 ### -field destinationOptionsFT
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_destinationoptionsft">MI_DestinationOptionsFT</a> 
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_destinationoptionsft">MI_DestinationOptionsFT</a> 
       function table used by 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_destinationoptions">MI_DestinationOptions</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a>.
 
 
 ### -field operationOptionsFT
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptionsft">MI_OperationOptionsFT</a> 
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptionsft">MI_OperationOptionsFT</a> 
       function table used by 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a>.
 
 
 ### -field utilitiesFT
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_utilitiesft">MI_UtilitiesFT</a> function 
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_utilitiesft">MI_UtilitiesFT</a> function 
       table.
 

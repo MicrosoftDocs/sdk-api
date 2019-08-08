@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsReadMetadata, WsReadMetadata function [Web Services for Windows], webservices/WsReadMetadata, wsw.wsreadmetadata
 ms.topic: function
-f1_keywords: 
- - "webservices/WsReadMetadata"
+f1_keywords:
+- webservices/WsReadMetadata
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsReadMetadata
+- WsReadMetadata
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -86,7 +86,7 @@ A pointer to the <b>XML Reader</b> object used to read the metadata.  The pointe
 ### -param url [in]
 
 A pointer to 
-                    a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_string">WS_STRING</a> object referencing the retrieved metadata URL.  The URL is
+                    a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_string">WS_STRING</a> object referencing the retrieved metadata URL.  The URL is
                     used to track the metadata documents for resolving URL-based
                     links between documents.
                 <div class="alert"><b>Note</b>  The URL MUST be fully qualified.  The URL can have a fragment identifier.

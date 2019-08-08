@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateShellFolderViewEx, SHCreateShellFolderViewEx function [Windows Shell], _win32_SHCreateShellFolderViewEx, shell.SHCreateShellFolderViewEx, shlobj_core/SHCreateShellFolderViewEx
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHCreateShellFolderViewEx"
+f1_keywords:
+- shlobj_core/SHCreateShellFolderViewEx
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHCreateShellFolderViewEx
+- SHCreateShellFolderViewEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Creates a new instance of the default Shell folder view object. It is recommende
 
 ### -param pcsfv [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_csfv">CSFV</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-csfv">CSFV</a>*</b>
 
 Pointer to a structure that describes the details used in creating this instance of the Shell folder view object.
 

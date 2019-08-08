@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: KSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION structure [Core Audio], PKSJACK_SINK_INFORMATION, PKSJACK_SINK_INFORMATION structure pointer [Core Audio], coreaudio.ksjack_sink_information, devicetopology/KSJACK_SINK_INFORMATION, devicetopology/PKSJACK_SINK_INFORMATION
 ms.topic: struct
-f1_keywords: 
- - "devicetopology/KSJACK_SINK_INFORMATION"
+f1_keywords:
+- devicetopology/KSJACK_SINK_INFORMATION
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - KSJACK_SINK_INFORMATION
+- KSJACK_SINK_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: KSJACK_SINK_INFORMATION
@@ -101,7 +101,7 @@ String containing the monitor sink name. The maximum length is defined by the co
 
 ### -field PortId
 
-Specifies the video port identifier in a <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ns-devicetopology-_luid">LUID</a> structure.
+Specifies the video port identifier in a <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ns-devicetopology-luid">LUID</a> structure.
 
 
 ## -see-also

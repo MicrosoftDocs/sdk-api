@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ARRAY, MI_BOOLEAN, MI_BOOLEANA, MI_CHAR16, MI_CHAR16A, MI_DATETIME, MI_DATETIMEA, MI_INSTANCE, MI_INSTANCEA, MI_REAL32, MI_REAL32A, MI_REAL64, MI_REAL64A, MI_REFERENCE, MI_REFERENCEA, MI_SINT16, MI_SINT16A, MI_SINT32, MI_SINT32A, MI_SINT64, MI_SINT64A, MI_SINT8, MI_SINT8A, MI_STRING, MI_STRINGA, MI_Type, MI_Type enumeration [Windows Management Infrastructure (MI)], MI_UINT16, MI_UINT16A, MI_UINT32, MI_UINT32A, MI_UINT64, MI_UINT64A, MI_UINT8, MI_UINT8A, mi/MI_ARRAY, mi/MI_BOOLEAN, mi/MI_BOOLEANA, mi/MI_CHAR16, mi/MI_CHAR16A, mi/MI_DATETIME, mi/MI_DATETIMEA, mi/MI_INSTANCE, mi/MI_INSTANCEA, mi/MI_REAL32, mi/MI_REAL32A, mi/MI_REAL64, mi/MI_REAL64A, mi/MI_REFERENCE, mi/MI_REFERENCEA, mi/MI_SINT16, mi/MI_SINT16A, mi/MI_SINT32, mi/MI_SINT32A, mi/MI_SINT64, mi/MI_SINT64A, mi/MI_SINT8, mi/MI_SINT8A, mi/MI_STRING, mi/MI_STRINGA, mi/MI_Type, mi/MI_UINT16, mi/MI_UINT16A, mi/MI_UINT32, mi/MI_UINT32A, mi/MI_UINT64, mi/MI_UINT64A, mi/MI_UINT8, mi/MI_UINT8A, wmi._mi_type, wmi_v2.mi_type
 ms.topic: enum
-f1_keywords: 
- - "mi/MI_Type"
+f1_keywords:
+- mi/MI_Type
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Type
+- MI_Type
 product: Windows
 targetos: Windows
 req.typenames: MI_Type
@@ -123,7 +123,7 @@ unsigned short
 
 ### -field MI_DATETIME
 
-Structure holding a union of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_timestamp">MI_Timestamp</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_interval">MI_Interval</a>.
+Structure holding a union of <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_timestamp">MI_Timestamp</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_interval">MI_Interval</a>.
 
 
 ### -field MI_STRING
@@ -133,7 +133,7 @@ MI_CHAR*
 
 ### -field MI_REFERENCE
 
-This is encoded as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a>, but usually only the key properties are set.
+This is encoded as an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a>, but usually only the key properties are set.
 
 
 ### -field MI_INSTANCE

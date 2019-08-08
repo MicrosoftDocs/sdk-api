@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_QUERY_PROPERTY, IOCTL_STORAGE_QUERY_PROPERTY control, IOCTL_STORAGE_QUERY_PROPERTY control code [Files], fs.ioctl_storage_query_property, winioctl/IOCTL_STORAGE_QUERY_PROPERTY
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_STORAGE_QUERY_PROPERTY"
+f1_keywords:
+- winioctl/IOCTL_STORAGE_QUERY_PROPERTY
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_STORAGE_QUERY_PROPERTY
+- IOCTL_STORAGE_QUERY_PROPERTY
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -154,9 +154,9 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 The optional output buffer returned through the <i>lpOutBuffer</i> parameter can be one of 
      several structures depending on the value of the <b>PropertyId</b> member of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_property_query">STORAGE_PROPERTY_QUERY</a> structure pointed to by the 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a> structure pointed to by the 
      <i>lpInBuffer</i> parameter. These values are enumerated by the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_property_id">STORAGE_PROPERTY_ID</a> enumeration. If the 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_property_id">STORAGE_PROPERTY_ID</a> enumeration. If the 
      <b>QueryType</b> member of the 
      <b>STORAGE_PROPERTY_QUERY</b> is set to 
      <b>PropertyExistsQuery</b> then no structure is returned.
@@ -173,11 +173,11 @@ The optional output buffer returned through the <i>lpOutBuffer</i> parameter can
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_property_query">STORAGE_PROPERTY_QUERY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a>
  
 
  

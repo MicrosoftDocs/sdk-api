@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADsPropSendErrorMessage, ADsPropSendErrorMessage function [Active Directory], ad.adspropsenderrormessage, adsprop/ADsPropSendErrorMessage
 ms.topic: function
-f1_keywords: 
- - "adsprop/ADsPropSendErrorMessage"
+f1_keywords:
+- adsprop/ADsPropSendErrorMessage
 req.header: adsprop.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dsprop.lib
 req.dll: Dsprop.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dsprop.dll
+- Dsprop.dll
 api_name:
- - ADsPropSendErrorMessage
+- ADsPropSendErrorMessage
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ The handle of the notification object. To obtain this handle, call <a href="http
 
 ### -param pError [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/adsprop/ns-adsprop-_adsproperror">ADSPROPERROR</a> structure which contains data about the error message.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/adsprop/ns-adsprop-adsproperror">ADSPROPERROR</a> structure which contains data about the error message.
 
 
 ## -returns
@@ -93,7 +93,7 @@ The error messages added by the <b>ADsPropSendErrorMessage</b> function are accu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adsprop/ns-adsprop-_adsproperror">ADSPROPERROR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adsprop/ns-adsprop-adsproperror">ADSPROPERROR</a>
 
 
 

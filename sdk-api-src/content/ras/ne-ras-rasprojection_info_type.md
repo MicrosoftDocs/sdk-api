@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROJECTION_INFO_TYPE_IKEv2, PROJECTION_INFO_TYPE_PPP, RASPROJECTION_INFO_TYPE, RASPROJECTION_INFO_TYPE enumeration [RAS], ras/PROJECTION_INFO_TYPE_IKEv2, ras/PROJECTION_INFO_TYPE_PPP, ras/RASPROJECTION_INFO_TYPE, rras.rasprojection_info_type
 ms.topic: enum
-f1_keywords: 
- - "ras/RASPROJECTION_INFO_TYPE"
+f1_keywords:
+- ras/RASPROJECTION_INFO_TYPE
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ras.h
+- Ras.h
 api_name:
- - RASPROJECTION_INFO_TYPE
+- RASPROJECTION_INFO_TYPE
 product: Windows
 targetos: Windows
 req.typenames: RASPROJECTION_INFO_TYPE
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>RASPROJECTION_INFO_TYPE</b> enumeration  is used in the <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_ras_projection_info">RAS_PROJECTION_INFO</a> structure to represent either a <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_rasppp_projection_info">RASPPP_PROJECTION_INFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_rasikev2_projection_info">RASIKEV2_PROJECTION_INFO</a> structure.
+The <b>RASPROJECTION_INFO_TYPE</b> enumeration  is used in the <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-ras_projection_info">RAS_PROJECTION_INFO</a> structure to represent either a <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-rasppp_projection_info">RASPPP_PROJECTION_INFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-rasikev2_projection_info">RASIKEV2_PROJECTION_INFO</a> structure.
 
 
 ## -enum-fields
@@ -61,12 +61,12 @@ The <b>RASPROJECTION_INFO_TYPE</b> enumeration  is used in the <a href="https://
 
 ### -field PROJECTION_INFO_TYPE_PPP
 
-Represents a <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_rasppp_projection_info">RASPPP_PROJECTION_INFO</a> structure.
+Represents a <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-rasppp_projection_info">RASPPP_PROJECTION_INFO</a> structure.
 
 
 ### -field PROJECTION_INFO_TYPE_IKEv2
 
-Represents a <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_rasikev2_projection_info">RASIKEV2_PROJECTION_INFO</a> structure.
+Represents a <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-rasikev2_projection_info">RASIKEV2_PROJECTION_INFO</a> structure.
 
 
 ## -see-also
@@ -74,7 +74,7 @@ Represents a <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-_ras_projection_info">RAS_PROJECTION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-ras_projection_info">RAS_PROJECTION_INFO</a>
 
 
 

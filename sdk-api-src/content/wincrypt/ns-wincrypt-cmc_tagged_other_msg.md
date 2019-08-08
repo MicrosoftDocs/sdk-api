@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: cf70c245-fe22-4c02-9cfd-07690b930585
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCMC_TAGGED_OTHER_MSG, CMC_TAGGED_OTHER_MSG, CMC_TAGGED_OTHER_MSG structure [Security], PCMC_TAGGED_OTHER_MSG, PCMC_TAGGED_OTHER_MSG structure pointer [Security], _crypto2_cmc_tagged_other_msg, security.cmc_tagged_other_msg, wincrypt/CMC_TAGGED_OTHER_MSG, wincrypt/PCMC_TAGGED_OTHER_MSG"
+ms.keywords: '*PCMC_TAGGED_OTHER_MSG, CMC_TAGGED_OTHER_MSG, CMC_TAGGED_OTHER_MSG structure [Security], PCMC_TAGGED_OTHER_MSG, PCMC_TAGGED_OTHER_MSG structure pointer [Security], _crypto2_cmc_tagged_other_msg, security.cmc_tagged_other_msg, wincrypt/CMC_TAGGED_OTHER_MSG, wincrypt/PCMC_TAGGED_OTHER_MSG'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMC_TAGGED_OTHER_MSG"
+f1_keywords:
+- wincrypt/CMC_TAGGED_OTHER_MSG
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMC_TAGGED_OTHER_MSG
+- CMC_TAGGED_OTHER_MSG
 product: Windows
 targetos: Windows
 req.typenames: CMC_TAGGED_OTHER_MSG, *PCMC_TAGGED_OTHER_MSG
@@ -52,8 +52,8 @@ ms.custom: 19H1
 
 
 The <b>CMC_TAGGED_OTHER_MSG</b> structure is used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmc_data_info">CMC_DATA_INFO</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmc_response_info">CMC_RESPONSE_INFO</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_data_info">CMC_DATA_INFO</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_response_info">CMC_RESPONSE_INFO</a> structures.
 
 
 ## -struct-fields

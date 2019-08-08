@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitializeAcl, InitializeAcl function [Security], _win32_initializeacl, security.initializeacl, securitybaseapi/InitializeAcl
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/InitializeAcl"
+f1_keywords:
+- securitybaseapi/InitializeAcl
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - InitializeAcl
+- InitializeAcl
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -58,7 +58,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>InitializeAcl</b> function initializes a new <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> structure.
+The <b>InitializeAcl</b> function initializes a new <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure.
 
 
 ## -parameters
@@ -69,17 +69,17 @@ The <b>InitializeAcl</b> function initializes a new <a href="https://docs.micros
 ### -param pAcl [out]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> structure  to be initialized by this function. Allocate memory for <i>pAcl</i> before calling this function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure  to be initialized by this function. Allocate memory for <i>pAcl</i> before calling this function.
 
 
 ### -param nAclLength [in]
 
-The length, in bytes, of the buffer pointed to by the <i>pAcl</i> parameter. This value must be large enough to contain the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> header and all of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) to be stored in the <b>ACL</b>. In addition, this value must be <b>DWORD</b>-aligned. For more information about calculating the size of an <b>ACL</b>, see Remarks.
+The length, in bytes, of the buffer pointed to by the <i>pAcl</i> parameter. This value must be large enough to contain the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> header and all of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) to be stored in the <b>ACL</b>. In addition, this value must be <b>DWORD</b>-aligned. For more information about calculating the size of an <b>ACL</b>, see Remarks.
 
 
 ### -param dwAclRevision [in]
 
-The revision level of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> structure being created. 
+The revision level of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure being created. 
 
 
 This value can be ACL_REVISION or ACL_REVISION_DS. Use ACL_REVISION_DS if the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL) supports object-specific ACEs.
@@ -102,21 +102,21 @@ If the function fails, it returns zero. To get extended error information, call
 
 
 
-The <b>InitializeAcl</b> function creates an empty <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> structure; the <b>ACL</b> contains no <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACEs</a>. Applying an empty <b>ACL</b> to an object denies all access to that object.
+The <b>InitializeAcl</b> function creates an empty <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure; the <b>ACL</b> contains no <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACEs</a>. Applying an empty <b>ACL</b> to an object denies all access to that object.
 
-The initial size of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> depends on the number of <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACEs</a> you plan to add to the <b>ACL</b> before you use it. For example, if the <b>ACL</b> is to contain an ACE for a user and group, you would initialize the <b>ACL</b> based on two ACEs. For details about modifying an existing <b>ACL</b>, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/modifying-the-acls-of-an-object-in-c--">Modifying the ACLs of an Object</a>.
+The initial size of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> depends on the number of <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACEs</a> you plan to add to the <b>ACL</b> before you use it. For example, if the <b>ACL</b> is to contain an ACE for a user and group, you would initialize the <b>ACL</b> based on two ACEs. For details about modifying an existing <b>ACL</b>, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/modifying-the-acls-of-an-object-in-c--">Modifying the ACLs of an Object</a>.
 
-To calculate the initial size of an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>, add the following together, and then align the result to the nearest <b>DWORD</b>:
+To calculate the initial size of an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>, add the following together, and then align the result to the nearest <b>DWORD</b>:
 
 <ul>
-<li>Size of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> structure.</li>
-<li>Size of each <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACE</a> structure that the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> is to contain minus the <b>SidStart</b> member (<b>DWORD</b>) of the ACE.</li>
+<li>Size of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure.</li>
+<li>Size of each <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACE</a> structure that the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> is to contain minus the <b>SidStart</b> member (<b>DWORD</b>) of the ACE.</li>
 <li>Length of the SID that each <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACE</a> is to contain.</li>
 </ul>
 
 #### Examples
 
-The following example calls the <b>InitializeAcl</b> function. The size of the  <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> is  based on three allow-access <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACEs</a>. As an option, you can use <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language">security descriptor definition language</a> (SDDL) to create the ACL. For details, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/creating-a-dacl">Creating a DACL</a>.
+The following example calls the <b>InitializeAcl</b> function. The size of the  <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> is  based on three allow-access <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACEs</a>. As an option, you can use <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language">security descriptor definition language</a> (SDDL) to create the ACL. For details, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/creating-a-dacl">Creating a DACL</a>.
 
 The example also omits a step for simplification. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/taking-object-ownership-in-c--">Taking Object Ownership</a> example. You must call the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-freesid">FreeSid</a> function at the end of the example code due to calling the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-allocateandinitializesid">AllocateAndInitializeSid</a> function.
 
@@ -183,15 +183,15 @@ void main()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_allowed_ace">ACCESS_ALLOWED_ACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_denied_ace">ACCESS_DENIED_ACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_ace">ACCESS_DENIED_ACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
@@ -235,7 +235,7 @@ void main()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 

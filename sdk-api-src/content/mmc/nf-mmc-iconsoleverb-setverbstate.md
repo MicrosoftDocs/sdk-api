@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConsoleVerb interface [MMC],SetVerbState method, IConsoleVerb.SetVerbState, IConsoleVerb::SetVerbState, SetVerbState, SetVerbState method [MMC], SetVerbState method [MMC],IConsoleVerb interface, _slate_iconsoleverb_setverbstate, mmc.iconsoleverb_setverbstate, mmc/IConsoleVerb::SetVerbState
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsoleVerb.SetVerbState"
+f1_keywords:
+- mmc/IConsoleVerb.SetVerbState
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsoleVerb.SetVerbState
+- IConsoleVerb.SetVerbState
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,13 +63,13 @@ SetVerbState method enables a snap-in to set a given verb's button state.
 ### -param eCmdID [in]
 
 A value that specifies the command identifier of the verb. Values are taken from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_console_verb">MMC_CONSOLE_VERB</a> enumeration. This value cannot be MMC_VERB_NONE.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_console_verb">MMC_CONSOLE_VERB</a> enumeration. This value cannot be MMC_VERB_NONE.
 
 
 ### -param nState [in]
 
 Identifies the possible states of the button. Taken from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_button_state">MMC_BUTTON_STATE</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_button_state">MMC_BUTTON_STATE</a> enumeration.
 
 
 ### -param bState [in]

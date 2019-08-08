@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRM callback, DRMCallback, DRMCallback callback function [Active Directory Rights Management Services SDK 1.0], msdrmdefs/DRMCallback, rm.callback_prototype
 ms.topic: callback
-f1_keywords: 
- - "msdrmdefs/DRMCallback"
+f1_keywords:
+- msdrmdefs/DRMCallback
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Msdrmdefs.h
+- Msdrmdefs.h
 api_name:
- - DRMCallback
+- DRMCallback
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -90,7 +90,7 @@ The status of the current action.
 
 #### - msg
 
-Specifies the action being performed. This can be one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/ne-msdrmdefs-_drm_status_msg">DRM_STATUS_MSG</a> enumeration values.
+Specifies the action being performed. This can be one of the <a href="https://docs.microsoft.com/windows/desktop/api/msdrmdefs/ne-msdrmdefs-drm_status_msg">DRM_STATUS_MSG</a> enumeration values.
 
 
 #### - pvContext
@@ -100,7 +100,7 @@ An application-defined value, such as a pointer to a callback function or a poin
 
 #### - pvParam
 
-This parameter depends on the action being processed. For more information, see the specific message value in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/ne-msdrmdefs-_drm_status_msg">DRM_STATUS_MSG</a> enumeration.
+This parameter depends on the action being processed. For more information, see the specific message value in the <a href="https://docs.microsoft.com/windows/desktop/api/msdrmdefs/ne-msdrmdefs-drm_status_msg">DRM_STATUS_MSG</a> enumeration.
 
 
 ## -returns

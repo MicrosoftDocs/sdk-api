@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOG_UNPINNED_CALLBACK, LOG_UNPINNED_CALLBACK callback function [Files], PLOG_UNPINNED_CALLBACK, PLOG_UNPINNED_CALLBACK callback, clfsmgmtw32/LOG_UNPINNED_CALLBACK, fs.log_unpinned_callback
 ms.topic: callback
-f1_keywords: 
- - "clfsmgmtw32/LOG_UNPINNED_CALLBACK"
+f1_keywords:
+- clfsmgmtw32/LOG_UNPINNED_CALLBACK
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Clfsmgmtw32.h
+- Clfsmgmtw32.h
 api_name:
- - LOG_UNPINNED_CALLBACK
+- LOG_UNPINNED_CALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ The handle to the log.
 
 ### -param pvClientContext [in]
 
-A pointer to the client context. This is the same context specified when registering the client, which is a member of <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/ns-clfsmgmtw32-_log_management_callbacks">LOG_MANAGEMENT_CALLBACKS</a>.
+A pointer to the client context. This is the same context specified when registering the client, which is a member of <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/ns-clfsmgmtw32-log_management_callbacks">LOG_MANAGEMENT_CALLBACKS</a>.
 
 
 ## -returns

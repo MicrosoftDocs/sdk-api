@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 2f4e1ddc-7991-4091-9889-fdd2d75e702f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMPRAPI_OBJECT_HEADER, MPRAPI_MPR_SERVER_OBJECT_REVISION_1, MPRAPI_MPR_SERVER_SET_CONFIG_OBJECT_REVISION_1, MPRAPI_OBJECT_HEADER, MPRAPI_OBJECT_HEADER structure [RAS], MPRAPI_RAS_CONNECTION_OBJECT_REVISION_1, PMPRAPI_OBJECT_HEADER, PMPRAPI_OBJECT_HEADER structure pointer [RAS], mprapi/MPRAPI_OBJECT_HEADER, mprapi/PMPRAPI_OBJECT_HEADER, rras.mprapi_object_header"
+ms.keywords: '*PMPRAPI_OBJECT_HEADER, MPRAPI_MPR_SERVER_OBJECT_REVISION_1, MPRAPI_MPR_SERVER_SET_CONFIG_OBJECT_REVISION_1, MPRAPI_OBJECT_HEADER, MPRAPI_OBJECT_HEADER structure [RAS], MPRAPI_RAS_CONNECTION_OBJECT_REVISION_1, PMPRAPI_OBJECT_HEADER, PMPRAPI_OBJECT_HEADER structure pointer [RAS], mprapi/MPRAPI_OBJECT_HEADER, mprapi/PMPRAPI_OBJECT_HEADER, rras.mprapi_object_header'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/MPRAPI_OBJECT_HEADER"
+f1_keywords:
+- mprapi/MPRAPI_OBJECT_HEADER
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - MPRAPI_OBJECT_HEADER
+- MPRAPI_OBJECT_HEADER
 product: Windows
 targetos: Windows
 req.typenames: MPRAPI_OBJECT_HEADER, *PMPRAPI_OBJECT_HEADER
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>MPRAPI_OBJECT_HEADER</b> structure is used as a header field for structures and defines the structure version for the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_ex">RAS_CONNECTION_EX</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_ex0">MPR_SERVER_EX</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_update_connection_">RAS_UPDATE_CONNECTION</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_auth_validation_ex">AUTH_VALIDATION_EX</a> structures,  and the structure version used by the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionenumex">MprAdminConnectionEnumEx</a> method.
+The <b>MPRAPI_OBJECT_HEADER</b> structure is used as a header field for structures and defines the structure version for the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_ex0">MPR_SERVER_EX</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_update_connection_">RAS_UPDATE_CONNECTION</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-auth_validation_ex">AUTH_VALIDATION_EX</a> structures,  and the structure version used by the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionenumex">MprAdminConnectionEnumEx</a> method.
 
 
 ## -struct-fields
@@ -75,7 +75,7 @@ A value that represents the version of the structure specified by <b>type</b>. P
 </dl>
 </td>
 <td width="60%">
-Represents version 1 of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_ex">RAS_CONNECTION_EX</a> structure if <b>type</b> is <b>MPRAPI_OBJECT_TYPE_RAS_CONNECTION_OBJECT</b>.
+Represents version 1 of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a> structure if <b>type</b> is <b>MPRAPI_OBJECT_TYPE_RAS_CONNECTION_OBJECT</b>.
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ Represents version 1 of the <a href="https://docs.microsoft.com/windows/desktop/
 </dl>
 </td>
 <td width="60%">
-Represents version 1 of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_ex0">MPR_SERVER_EX</a> structure if <b>type</b> is <b>MPRAPI_OBJECT_TYPE_MPR_SERVER_OBJECT</b>.
+Represents version 1 of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_ex0">MPR_SERVER_EX</a> structure if <b>type</b> is <b>MPRAPI_OBJECT_TYPE_MPR_SERVER_OBJECT</b>.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Represents version 1 of the <a href="https://docs.microsoft.com/windows/desktop/
 </dl>
 </td>
 <td width="60%">
-Represents version 1 of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a> structure if <b>type</b> is <b>MPRAPI_OBJECT_TYPE_MPR_SERVER_SET_CONFIG_OBJECT</b>.
+Represents version 1 of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a> structure if <b>type</b> is <b>MPRAPI_OBJECT_TYPE_MPR_SERVER_SET_CONFIG_OBJECT</b>.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Represents version 1 of the <a href="https://docs.microsoft.com/windows/desktop/
 
 #### type
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_mprapi_object_type">MPRAPI_OBJECT_TYPE</a> enumeration that specifies the structure type.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-mprapi_object_type">MPRAPI_OBJECT_TYPE</a> enumeration that specifies the structure type.
 
 
 

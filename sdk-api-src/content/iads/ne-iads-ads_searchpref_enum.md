@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADS_SEARCHPREF, ADS_SEARCHPREF_ASYNCHRONOUS, ADS_SEARCHPREF_ATTRIBTYPES_ONLY, ADS_SEARCHPREF_ATTRIBUTE_QUERY, ADS_SEARCHPREF_CACHE_RESULTS, ADS_SEARCHPREF_CHASE_REFERRALS, ADS_SEARCHPREF_DEREF_ALIASES, ADS_SEARCHPREF_DIRSYNC, ADS_SEARCHPREF_DIRSYNC_FLAG, ADS_SEARCHPREF_ENUM, ADS_SEARCHPREF_ENUM enumeration [ADSI], ADS_SEARCHPREF_EXTENDED_DN, ADS_SEARCHPREF_PAGED_TIME_LIMIT, ADS_SEARCHPREF_PAGESIZE, ADS_SEARCHPREF_SEARCH_SCOPE, ADS_SEARCHPREF_SECURITY_MASK, ADS_SEARCHPREF_SIZE_LIMIT, ADS_SEARCHPREF_SORT_ON, ADS_SEARCHPREF_TIMEOUT, ADS_SEARCHPREF_TIME_LIMIT, ADS_SEARCHPREF_TOMBSTONE, ADS_SEARCHPREF_VLV, _ds_ads_searchpref_enum, adsi.ads__searchpref__enum, adsi.ads_searchpref_enum, iads/ADS_SEARCHPREF_ASYNCHRONOUS, iads/ADS_SEARCHPREF_ATTRIBTYPES_ONLY, iads/ADS_SEARCHPREF_ATTRIBUTE_QUERY, iads/ADS_SEARCHPREF_CACHE_RESULTS, iads/ADS_SEARCHPREF_CHASE_REFERRALS, iads/ADS_SEARCHPREF_DEREF_ALIASES, iads/ADS_SEARCHPREF_DIRSYNC, iads/ADS_SEARCHPREF_DIRSYNC_FLAG, iads/ADS_SEARCHPREF_ENUM, iads/ADS_SEARCHPREF_EXTENDED_DN, iads/ADS_SEARCHPREF_PAGED_TIME_LIMIT, iads/ADS_SEARCHPREF_PAGESIZE, iads/ADS_SEARCHPREF_SEARCH_SCOPE, iads/ADS_SEARCHPREF_SECURITY_MASK, iads/ADS_SEARCHPREF_SIZE_LIMIT, iads/ADS_SEARCHPREF_SORT_ON, iads/ADS_SEARCHPREF_TIMEOUT, iads/ADS_SEARCHPREF_TIME_LIMIT, iads/ADS_SEARCHPREF_TOMBSTONE, iads/ADS_SEARCHPREF_VLV
 ms.topic: enum
-f1_keywords: 
- - "iads/ADS_SEARCHPREF_ENUM"
+f1_keywords:
+- iads/ADS_SEARCHPREF_ENUM
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_SEARCHPREF_ENUM
+- ADS_SEARCHPREF_ENUM
 product: Windows
 targetos: Windows
 req.typenames: ADS_SEARCHPREF_ENUM
@@ -117,7 +117,7 @@ Specifies that referrals may be chased. If the root search is not specified in t
 
 ### -field ADS_SEARCHPREF_SORT_ON
 
-Specifies that the server sorts the result set. Use the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_sortkey">ADS_SORTKEY</a> structure to specify the sort keys. This search preference works only for directory servers that support the LDAP control for server-side sorting. Active Directory supports the sort control, but it can impact server performance, particularly if the results set is large. Active Directory supports only a single sort key.
+Specifies that the server sorts the result set. Use the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_sortkey">ADS_SORTKEY</a> structure to specify the sort keys. This search preference works only for directory servers that support the LDAP control for server-side sorting. Active Directory supports the sort control, but it can impact server performance, particularly if the results set is large. Active Directory supports only a single sort key.
 
 
 ### -field ADS_SEARCHPREF_CACHE_RESULTS
@@ -127,7 +127,7 @@ Specifies if the result should be cached on the client side. By default, ADSI ca
 
 ### -field ADS_SEARCHPREF_DIRSYNC
 
-Specifies a directory synchronization (DirSync) search, which returns all changes since a specified state. In the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a> structure, set the <b>dwType</b> member to <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0004">ADS_PROV_SPECIFIC</a>. The <b>ProviderSpecific</b> member is an  <b>ADS_PROV_SPECIFIC</b> structure whose <b>lpValue</b> member specifies a cookie that indicates the state from which changes are retrieved. The first time you use the DirSync control, set the <b>dwLength</b> and <b>lpValue</b> members of the <b>ADS_PROV_SPECIFIC</b> structure to zero and <b>NULL</b> respectively. After reading the results set returned by the search until  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getnextrow">IDirectorySearch::GetNextRow</a> returns <b>S_ADS_NOMORE_ROWS</b>, call  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getcolumn">IDirectorySearch::GetColumn</a> to retrieve the <b>ADS_DIRSYNC_COOKIE</b> attribute which contains a cookie to use in the next DirSync search. For more information, see <a href="https://docs.microsoft.com/windows/desktop/AD/polling-for-changes-using-the-dirsync-control">Polling for Changes Using the DirSync Control</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-dirsync-oid">LDAP_SERVER_DIRSYNC_OID</a>.
+Specifies a directory synchronization (DirSync) search, which returns all changes since a specified state. In the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structure, set the <b>dwType</b> member to <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-__midl___midl_itf_ads_0000_0000_0004">ADS_PROV_SPECIFIC</a>. The <b>ProviderSpecific</b> member is an  <b>ADS_PROV_SPECIFIC</b> structure whose <b>lpValue</b> member specifies a cookie that indicates the state from which changes are retrieved. The first time you use the DirSync control, set the <b>dwLength</b> and <b>lpValue</b> members of the <b>ADS_PROV_SPECIFIC</b> structure to zero and <b>NULL</b> respectively. After reading the results set returned by the search until  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getnextrow">IDirectorySearch::GetNextRow</a> returns <b>S_ADS_NOMORE_ROWS</b>, call  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getcolumn">IDirectorySearch::GetColumn</a> to retrieve the <b>ADS_DIRSYNC_COOKIE</b> attribute which contains a cookie to use in the next DirSync search. For more information, see <a href="https://docs.microsoft.com/windows/desktop/AD/polling-for-changes-using-the-dirsync-control">Polling for Changes Using the DirSync Control</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-server-dirsync-oid">LDAP_SERVER_DIRSYNC_OID</a>.
 
 This flag cannot be combined with <b>ADS_SEARCHPREF_PAGESIZE</b>.
 
@@ -136,7 +136,7 @@ The caller must have the <b>SE_SYNC_AGENT_NAME</b> privilege.
 
 ### -field ADS_SEARCHPREF_TOMBSTONE
 
-Specifies whether the search should also return deleted objects that match the search filter. When objects are deleted, Active Directory moves them to a "Deleted Objects" container. By default, deleted objects are not included in the search results. In the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a> structure, set the <b>dwType</b> member to <b>ADSTYPE_BOOLEAN</b>. To include deleted objects, set the <b>Boolean</b> member of the <b>ADSVALUE</b> structure to <b>TRUE</b>.
+Specifies whether the search should also return deleted objects that match the search filter. When objects are deleted, Active Directory moves them to a "Deleted Objects" container. By default, deleted objects are not included in the search results. In the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structure, set the <b>dwType</b> member to <b>ADSTYPE_BOOLEAN</b>. To include deleted objects, set the <b>Boolean</b> member of the <b>ADSVALUE</b> structure to <b>TRUE</b>.
 
 Not all attributes are preserved when the object is deleted. You can retrieve the <b>objectGUID</b> and <b>RDN</b> attributes. The <b>distinguishedName</b> attribute is the DN of the object in the "Deleted Objects" container, not the previous DN. The <b>isDeleted</b> attribute is <b>TRUE</b> for a deleted object. For more information, see   <a href="https://docs.microsoft.com/windows/desktop/AD/retrieving-deleted-objects">Retrieving Deleted Objects</a>.
 
@@ -145,7 +145,7 @@ Not all attributes are preserved when the object is deleted. You can retrieve th
 
 Specifies that the search should use the LDAP virtual list view (VLV) control. <b>ADS_SEARCHPREF_VLV</b> can be used to access both string-type and offset-type VLV searches, by setting the appropriate fields. These two options cannot be used simultaneously because it is not possible to set the VLV control to request a result set that is both located at a specific offset and follows a particular value in the sort sequence.
 
-To perform a string search, set the <b>lpszTarget</b> field in <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_vlv">ADS_VLV</a> to the string to be searched for. To perform an offset type search, set the dwOffset field in <b>ADS_VLV</b>. If you use an offset search, you must set <b>lpszTarget</b> to <b>NULL</b>.
+To perform a string search, set the <b>lpszTarget</b> field in <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_vlv">ADS_VLV</a> to the string to be searched for. To perform an offset type search, set the dwOffset field in <b>ADS_VLV</b>. If you use an offset search, you must set <b>lpszTarget</b> to <b>NULL</b>.
 
 <b>ADS_SEARCHPREF_SORT_ON</b> must be set to <b>TRUE</b> when using <b>ADS_SEARCHPREF_VLV</b>. The sort order of the search results determines the order used for the VLV search. If performing an offset-type search, the offset is used as an index into the sorted list. If performing a string-type search, the server attempts to return the first entry which is greater-than-or-equal-to the string, based on the sort order.
 
@@ -235,15 +235,15 @@ The search should return distinguished names in Active Directory extended format
 
 
 To setup a search preference, assign appropriate values to the fields of an 
-     <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a> structure passed to the server. The <b>vValue</b> member of the <b>ADS_SEARCHPREF_INFO</b> structure is an <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a> structure. The following list lists the <b>ADS_SEARCHPREF_ENUM</b> values, the corresponding values for the <b>dwType</b> member of the <b>ADSVALUE</b> structure, and the <b>ADSVALUE</b> member that is used for the specified type.
+     <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a> structure passed to the server. The <b>vValue</b> member of the <b>ADS_SEARCHPREF_INFO</b> structure is an <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structure. The following list lists the <b>ADS_SEARCHPREF_ENUM</b> values, the corresponding values for the <b>dwType</b> member of the <b>ADSVALUE</b> structure, and the <b>ADSVALUE</b> member that is used for the specified type.
 
 <table>
 <tr>
 <th><b>ADS_SEARCHPREF_ENUM</b> value</th>
-<th><b>dwType</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a>
+<th><b>dwType</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a>
 </th>
 <th>
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a> member</th>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> member</th>
 </tr>
 <tr>
 <td><b>ADS_SEARCHPREF_ASYNCHRONOUS</b></td>
@@ -579,7 +579,7 @@ HRESULT SetSearchPreferences2(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_adsvalue">ADSVALUE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a>
 
 
 
@@ -603,11 +603,11 @@ HRESULT SetSearchPreferences2(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_sortkey">ADS_SORTKEY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_sortkey">ADS_SORTKEY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-_ads_vlv">ADS_VLV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_vlv">ADS_VLV</a>
 
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFNCFILTERPROC, PFNCFILTERPROC callback, PFNCFILTERPROC callback function [Security], cryptuiapi/PFNCFILTERPROC, security.pfncfilterproc
 ms.topic: callback
-f1_keywords: 
- - "cryptuiapi/PFNCFILTERPROC"
+f1_keywords:
+- cryptuiapi/PFNCFILTERPROC
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Cryptuiapi.h
+- Cryptuiapi.h
 api_name:
- - PFNCFILTERPROC
+- PFNCFILTERPROC
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,12 +61,12 @@ The <b>PFNCFILTERPROC</b> function is an application-defined callback function t
 
 ### -param pCertContext [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that contains the certificate to filter.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the certificate to filter.
 
 
 ### -param *pfInitialSelectedCert [in]
 
-A Boolean value that specifies whether  the certificate contained in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure pointed to by the <i>pCertContext</i> parameter should be initially selected in the dialog box. This parameter is used only if the filter process returns <b>TRUE</b>.
+A Boolean value that specifies whether  the certificate contained in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure pointed to by the <i>pCertContext</i> parameter should be initially selected in the dialog box. This parameter is used only if the filter process returns <b>TRUE</b>.
 
 
 ### -param *pvCallbackData [in]
@@ -78,7 +78,7 @@ A pointer to user-defined data.
 
 
 
-A Boolean value that specifies whether the certificate contained in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure pointed to by the <i>pCertContext</i> parameter should be displayed in the digital signature wizard.
+A Boolean value that specifies whether the certificate contained in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure pointed to by the <i>pCertContext</i> parameter should be displayed in the digital signature wizard.
 
 
 

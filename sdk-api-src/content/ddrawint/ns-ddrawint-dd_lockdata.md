@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 46de3dbb-abdf-4518-b62d-891efa5a949b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_LOCKDATA, DD_LOCKDATA, DD_LOCKDATA structure [Display Devices], ddrawint/DD_LOCKDATA, ddstrcts_8de05e54-e1e1-4773-982d-e48f7e051f7e.xml, display.dd_lockdata"
+ms.keywords: '*PDD_LOCKDATA, DD_LOCKDATA, DD_LOCKDATA structure [Display Devices], ddrawint/DD_LOCKDATA, ddstrcts_8de05e54-e1e1-4773-982d-e48f7e051f7e.xml, display.dd_lockdata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_LOCKDATA"
+f1_keywords:
+- ddrawint/DD_LOCKDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_LOCKDATA
+- DD_LOCKDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_LOCKDATA, DD_LOCKDATA"
+req.typenames: '*PDD_LOCKDATA, DD_LOCKDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,12 +61,12 @@ The DD_LOCKDATA structure contains information necessary to do a lock as defined
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 
 ### -field lpDDSurface
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface--in the case of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568216(v=vs.85)">LockD3DBuffer</a>, a buffer--associated with the memory region to be locked down.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface--in the case of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568216(v=vs.85)">LockD3DBuffer</a>, a buffer--associated with the memory region to be locked down.
 
 
 ### -field bHasRect
@@ -76,7 +76,7 @@ Specifies whether the area in <b>rArea</b> is valid. A value of 0x00000001 indic
 
 ### -field rArea
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that defines the area on the surface to lock down.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that defines the area on the surface to lock down.
 
 
 ### -field lpSurfData

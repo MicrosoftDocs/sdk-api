@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_DLF_NON_PERSISTENT, VDS_DRIVE_LETTER_FLAG, VDS_DRIVE_LETTER_FLAG enumeration [VDS], base.vds_drive_letter_flag, vds/VDS_DLF_NON_PERSISTENT, vds/VDS_DRIVE_LETTER_FLAG
 ms.topic: enum
-f1_keywords: 
- - "vds/VDS_DRIVE_LETTER_FLAG"
+f1_keywords:
+- vds/VDS_DRIVE_LETTER_FLAG
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - VDS_DRIVE_LETTER_FLAG
+- VDS_DRIVE_LETTER_FLAG
 product: Windows
 targetos: Windows
 req.typenames: VDS_DRIVE_LETTER_FLAG
@@ -70,7 +70,7 @@ If set, the drive letter disappears after the computer reboots.
 
 
 
-This enumeration provides the values for the <i>ulFlags</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_drive_letter_prop">VDS_DRIVE_LETTER_PROP</a> structure.
+This enumeration provides the values for the <i>ulFlags</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_drive_letter_prop">VDS_DRIVE_LETTER_PROP</a> structure.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_DRIVE_LETTER_FLAG</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_DRIVE_LETTER_FLAG</b> enumeration constant.</div>
 <div> </div>

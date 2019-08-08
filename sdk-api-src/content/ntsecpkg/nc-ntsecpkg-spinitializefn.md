@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpInitialize, SpInitialize callback function [Security], SpInitializeFn, SpInitializeFn callback, _ssp_spinitialize, ntsecpkg/SpInitialize, security.spinitialize
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/SpInitialize"
+f1_keywords:
+- ntsecpkg/SpInitialize
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SpInitialize
+- SpInitialize
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ A unique identifier the LSA assigns to each security package. The value is valid
 ### -param Parameters [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_parameters">SECPKG_PARAMETERS</a> structure containing primary domain and machine state information.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_parameters">SECPKG_PARAMETERS</a> structure containing primary domain and machine state information.
 
 
 ### -param FunctionTable [in]
@@ -95,7 +95,7 @@ If <b>SpInitialize</b> returns an NTSTATUS error code to the LSA, the package wi
 SSP/APs must implement the <b>SpInitialize</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the SSP/AP's implementation of the <b>SpInitialize</b> function must be in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure passed to the LSA from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure passed to the LSA from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 
@@ -106,11 +106,11 @@ A pointer to the SSP/AP's implementation of the <b>SpInitialize</b> function mus
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_parameters">SECPKG_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_parameters">SECPKG_PARAMETERS</a>
 
 
 

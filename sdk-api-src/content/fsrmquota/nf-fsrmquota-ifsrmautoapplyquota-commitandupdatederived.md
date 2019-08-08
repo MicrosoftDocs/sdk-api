@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CommitAndUpdateDerived, CommitAndUpdateDerived method [File Server Resource Manager], CommitAndUpdateDerived method [File Server Resource Manager],IFsrmAutoApplyQuota interface, IFsrmAutoApplyQuota interface [File Server Resource Manager],CommitAndUpdateDerived method, IFsrmAutoApplyQuota.CommitAndUpdateDerived, IFsrmAutoApplyQuota::CommitAndUpdateDerived, fs.ifsrmautoapplyquota_commitandupdatederived, fsrm.ifsrmautoapplyquota_commitandupdatederived, fsrmquota/IFsrmAutoApplyQuota::CommitAndUpdateDerived
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmAutoApplyQuota.CommitAndUpdateDerived"
+f1_keywords:
+- fsrmquota/IFsrmAutoApplyQuota.CommitAndUpdateDerived
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmAutoApplyQuota.CommitAndUpdateDerived
+- IFsrmAutoApplyQuota.CommitAndUpdateDerived
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,13 +66,13 @@ Saves the quota and then applies any changes to the derived quotas.
 ### -param commitOptions [in]
 
 The options for saving the quota. For possible values, see the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmcommitoptions">FsrmCommitOptions</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmcommitoptions">FsrmCommitOptions</a> enumeration.
 
 
 ### -param applyOptions [in]
 
 The options used to choose the derived quotas to which the changes are applied. For possible values, see 
-      the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmtemplateapplyoptions">FsrmTemplateApplyOptions</a> enumeration.
+      the <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmtemplateapplyoptions">FsrmTemplateApplyOptions</a> enumeration.
 
 
 ### -param derivedObjectsResult [out]

@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: a6083d76-1774-428c-85ca-fea817827d6a
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSEC_WINNT_AUTH_IDENTITY_EX2, PSEC_WINNT_AUTH_IDENTITY_EX2, PSEC_WINNT_AUTH_IDENTITY_EX2 structure pointer [Security], SEC_WINNT_AUTH_IDENTITY_ANSI, SEC_WINNT_AUTH_IDENTITY_EX2, SEC_WINNT_AUTH_IDENTITY_EX2 structure [Security], SEC_WINNT_AUTH_IDENTITY_FLAGS_ID_PROVIDER, SEC_WINNT_AUTH_IDENTITY_FLAGS_PROCESS_ENCRYPTED, SEC_WINNT_AUTH_IDENTITY_FLAGS_RESERVED, SEC_WINNT_AUTH_IDENTITY_FLAGS_SYSTEM_PROTECTED, SEC_WINNT_AUTH_IDENTITY_FLAGS_USER_PROTECTED, SEC_WINNT_AUTH_IDENTITY_MARSHALLED, SEC_WINNT_AUTH_IDENTITY_ONLY, SEC_WINNT_AUTH_IDENTITY_UNICODE, security.sec_winnt_auth_identity_ex2, sspi/PSEC_WINNT_AUTH_IDENTITY_EX2, sspi/SEC_WINNT_AUTH_IDENTITY_EX2"
+ms.keywords: '*PSEC_WINNT_AUTH_IDENTITY_EX2, PSEC_WINNT_AUTH_IDENTITY_EX2, PSEC_WINNT_AUTH_IDENTITY_EX2 structure pointer [Security], SEC_WINNT_AUTH_IDENTITY_ANSI, SEC_WINNT_AUTH_IDENTITY_EX2, SEC_WINNT_AUTH_IDENTITY_EX2 structure [Security], SEC_WINNT_AUTH_IDENTITY_FLAGS_ID_PROVIDER, SEC_WINNT_AUTH_IDENTITY_FLAGS_PROCESS_ENCRYPTED, SEC_WINNT_AUTH_IDENTITY_FLAGS_RESERVED, SEC_WINNT_AUTH_IDENTITY_FLAGS_SYSTEM_PROTECTED, SEC_WINNT_AUTH_IDENTITY_FLAGS_USER_PROTECTED, SEC_WINNT_AUTH_IDENTITY_MARSHALLED, SEC_WINNT_AUTH_IDENTITY_ONLY, SEC_WINNT_AUTH_IDENTITY_UNICODE, security.sec_winnt_auth_identity_ex2, sspi/PSEC_WINNT_AUTH_IDENTITY_EX2, sspi/SEC_WINNT_AUTH_IDENTITY_EX2'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SEC_WINNT_AUTH_IDENTITY_EX2"
+f1_keywords:
+- sspi/SEC_WINNT_AUTH_IDENTITY_EX2
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SEC_WINNT_AUTH_IDENTITY_EX2
+- SEC_WINNT_AUTH_IDENTITY_EX2
 product: Windows
 targetos: Windows
 req.typenames: SEC_WINNT_AUTH_IDENTITY_EX2, *PSEC_WINNT_AUTH_IDENTITY_EX2
@@ -100,7 +100,7 @@ The size, in bytes, of the domain name string.
 
 The offset from the beginning of the structure to the beginning of the packed credentials.
 
-The packed credential is a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_packed_credentials">SEC_WINNT_AUTH_PACKED_CREDENTIALS</a> structure that contains a credential type that uniquely specifies the credential type.
+The packed credential is a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_packed_credentials">SEC_WINNT_AUTH_PACKED_CREDENTIALS</a> structure that contains a credential type that uniquely specifies the credential type.
 
 
 ### -field PackedCredentialsLength
@@ -249,7 +249,7 @@ The structure describes a header of the authentication identity buffer and the d
 The <b>SEC_WINNT_AUTH_IDENTITY_EX2</b> structure can be returned by <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes(CredSSP)</a> and consumed by <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle(CredSSP)</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>, and other identity provider interfaces.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_packed_credentials">SEC_WINNT_AUTH_PACKED_CREDENTIALS</a> can contain a password credential type, defined as SEC_WINNT_AUTH_DATA_TYPE_PASSWORD. This credential type describes password credentials of a domain user as well as other online identities. Applications must define _SEC_WINNT_AUTH_TYPES to compile code that references this credential type as well as other definitions of the <b>SEC_WINNT_AUTH_PACKED_CREDENTIALS</b> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_packed_credentials">SEC_WINNT_AUTH_PACKED_CREDENTIALS</a> can contain a password credential type, defined as SEC_WINNT_AUTH_DATA_TYPE_PASSWORD. This credential type describes password credentials of a domain user as well as other online identities. Applications must define _SEC_WINNT_AUTH_TYPES to compile code that references this credential type as well as other definitions of the <b>SEC_WINNT_AUTH_PACKED_CREDENTIALS</b> structure.
 
 Applications should not query or set the <b>Flags</b> member directly. Use the   <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiisauthidentityencrypted">SspiIsAuthIdentityEncrypted</a>,  <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentityex">SspiEncryptAuthIdentityEx</a>, and  <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspidecryptauthidentityex">SspiDecryptAuthIdentityEx</a> functions to manage the encryption and decryption of the <b>SEC_WINNT_AUTH_IDENTITY_EX2</b> structure.
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PostQueuedCompletionStatus, PostQueuedCompletionStatus function [Files], _win32_postqueuedcompletionstatus, base.postqueuedcompletionstatus, fs.postqueuedcompletionstatus, ioapiset/PostQueuedCompletionStatus, winbase/PostQueuedCompletionStatus
 ms.topic: function
-f1_keywords: 
- - "ioapiset/PostQueuedCompletionStatus"
+f1_keywords:
+- ioapiset/PostQueuedCompletionStatus
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-io-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-io-l1-1-1.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-io-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-io-l1-1-1.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
 api_name:
- - PostQueuedCompletionStatus
+- PostQueuedCompletionStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -105,7 +105,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 The I/O completion packet will satisfy an outstanding call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function. This function returns with the three values passed as the second, third, and fourth parameters of the call to 
-<b>PostQueuedCompletionStatus</b>. The system does not use or validate these values. In particular, the <i>lpOverlapped</i> parameter need not point to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure.
+<b>PostQueuedCompletionStatus</b>. The system does not use or validate these values. In particular, the <i>lpOverlapped</i> parameter need not point to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -190,7 +190,7 @@ CsvFs will do redirected IO for compressed files.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
  
 
  

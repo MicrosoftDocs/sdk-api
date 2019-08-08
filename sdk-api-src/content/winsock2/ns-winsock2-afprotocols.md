@@ -8,10 +8,10 @@ tech.root: WinSock
 ms.assetid: ffd43aa1-bbc4-46f1-ad77-26c48f9ac0b7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPAFPROTOCOLS, *PAFPROTOCOLS, AFPROTOCOLS, AFPROTOCOLS structure [Winsock], LPAFPROTOCOLS, LPAFPROTOCOLS structure pointer [Winsock], PAFPROTOCOLS, PAFPROTOCOLS structure pointer [Winsock], _win32_afprotocols_2, winsock.afprotocols_2, winsock2/AFPROTOCOLS, winsock2/LPAFPROTOCOLS, winsock2/PAFPROTOCOLS"
+ms.keywords: '*LPAFPROTOCOLS, *PAFPROTOCOLS, AFPROTOCOLS, AFPROTOCOLS structure [Winsock], LPAFPROTOCOLS, LPAFPROTOCOLS structure pointer [Winsock], PAFPROTOCOLS, PAFPROTOCOLS structure pointer [Winsock], _win32_afprotocols_2, winsock.afprotocols_2, winsock2/AFPROTOCOLS, winsock2/LPAFPROTOCOLS, winsock2/PAFPROTOCOLS'
 ms.topic: struct
-f1_keywords: 
- - "winsock2/AFPROTOCOLS"
+f1_keywords:
+- winsock2/AFPROTOCOLS
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsock2.h
+- Winsock2.h
 api_name:
- - AFPROTOCOLS
+- AFPROTOCOLS
 product: Windows
 targetos: Windows
 req.typenames: AFPROTOCOLS, *PAFPROTOCOLS, *LPAFPROTOCOLS
@@ -94,7 +94,7 @@ The members of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaquerysetw">WSAQuerySet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQuerySet</a>
  
 
  

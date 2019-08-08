@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_FILESYSTEM_GET_STATISTICS, FSCTL_FILESYSTEM_GET_STATISTICS control, FSCTL_FILESYSTEM_GET_STATISTICS control code [Files], base.fsctl_filesystem_get_statistics, fs.fsctl_filesystem_get_statistics, winioctl/FSCTL_FILESYSTEM_GET_STATISTICS
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_FILESYSTEM_GET_STATISTICS"
+f1_keywords:
+- winioctl/FSCTL_FILESYSTEM_GET_STATISTICS
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_FILESYSTEM_GET_STATISTICS
+- FSCTL_FILESYSTEM_GET_STATISTICS
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -224,7 +224,7 @@ Yes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_filesystem_statistics">FILESYSTEM_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-filesystem_statistics">FILESYSTEM_STATISTICS</a>
 
 
 

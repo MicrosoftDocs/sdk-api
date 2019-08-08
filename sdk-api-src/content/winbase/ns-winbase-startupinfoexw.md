@@ -8,10 +8,10 @@ tech.root: ProcThread
 ms.assetid: 61203f57-292d-4ea1-88f4-a3b05012d7a3
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSTARTUPINFOEXW, LPSTARTUPINFOEX, LPSTARTUPINFOEX structure pointer, STARTUPINFOEX, STARTUPINFOEX structure, STARTUPINFOEXA, STARTUPINFOEXW, _STARTUPINFOEXA, _STARTUPINFOEXW, base.startupinfoex, winbase/LPSTARTUPINFOEX, winbase/STARTUPINFOEX, winbase/STARTUPINFOEXA, winbase/STARTUPINFOEXW"
+ms.keywords: '*LPSTARTUPINFOEXW, LPSTARTUPINFOEX, LPSTARTUPINFOEX structure pointer, STARTUPINFOEX, STARTUPINFOEX structure, STARTUPINFOEXA, STARTUPINFOEXW, _STARTUPINFOEXA, _STARTUPINFOEXW, base.startupinfoex, winbase/LPSTARTUPINFOEX, winbase/STARTUPINFOEX, winbase/STARTUPINFOEXA, winbase/STARTUPINFOEXW'
 ms.topic: struct
-f1_keywords: 
- - "winbase/STARTUPINFOEX"
+f1_keywords:
+- winbase/STARTUPINFOEX
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - STARTUPINFOEX
- - STARTUPINFOEXA
- - STARTUPINFOEXW
+- STARTUPINFOEX
+- STARTUPINFOEXA
+- STARTUPINFOEXW
 product: Windows
 targetos: Windows
 req.typenames: STARTUPINFOEXW, *LPSTARTUPINFOEXW
@@ -65,7 +65,7 @@ Specifies the window station, desktop, standard handles, and attributes for a ne
 
 ### -field StartupInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa">STARTUPINFO</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure.
 
 
 ### -field lpAttributeList
@@ -77,7 +77,7 @@ An attribute list. This list is created by the <a href="https://docs.microsoft.c
 
 
 
-Be sure to set the <b>cb</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa">STARTUPINFO</a> structure to <code>sizeof(STARTUPINFOEX)</code>.
+Be sure to set the <b>cb</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure to <code>sizeof(STARTUPINFOEX)</code>.
 
 
 

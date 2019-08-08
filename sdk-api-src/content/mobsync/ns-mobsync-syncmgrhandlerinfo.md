@@ -8,10 +8,10 @@ tech.root: shell
 ms.assetid: 8640796c-e5d0-48c8-b82b-7a153201e7de
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSYNCMGRHANDLERINFO, LPSYNCMGRHANDLERINFO, LPSYNCMGRHANDLERINFO structure pointer [Windows Shell], SYNCMGRHANDLERINFO, SYNCMGRHANDLERINFO structure [Windows Shell], mobsync/LPSYNCMGRHANDLERINFO, mobsync/SYNCMGRHANDLERINFO, shell.syncmgr_syncmgrhandlerinfo, syncmgr.syncmgrhandlerinfo"
+ms.keywords: '*LPSYNCMGRHANDLERINFO, LPSYNCMGRHANDLERINFO, LPSYNCMGRHANDLERINFO structure pointer [Windows Shell], SYNCMGRHANDLERINFO, SYNCMGRHANDLERINFO structure [Windows Shell], mobsync/LPSYNCMGRHANDLERINFO, mobsync/SYNCMGRHANDLERINFO, shell.syncmgr_syncmgrhandlerinfo, syncmgr.syncmgrhandlerinfo'
 ms.topic: struct
-f1_keywords: 
- - "mobsync/SYNCMGRHANDLERINFO"
+f1_keywords:
+- mobsync/SYNCMGRHANDLERINFO
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mobsync.h
+- Mobsync.h
 api_name:
- - SYNCMGRHANDLERINFO
+- SYNCMGRHANDLERINFO
 product: Windows
 targetos: Windows
 req.typenames: SYNCMGRHANDLERINFO, *LPSYNCMGRHANDLERINFO
@@ -77,7 +77,7 @@ The icon for the handler.
 
 Type: <b>DWORD</b>
 
-The value of the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrhandlerflags">SYNCMGRHANDLERFLAGS</a> enumeration.
+The value of the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrhandlerflags">SYNCMGRHANDLERFLAGS</a> enumeration.
 
 
 ### -field wszHandlerName
@@ -96,7 +96,7 @@ The name to use for the handler.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrhandlerflags">SYNCMGRHANDLERFLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrhandlerflags">SYNCMGRHANDLERFLAGS</a>
  
 
  

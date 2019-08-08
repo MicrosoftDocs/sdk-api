@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileConditionProperty interface [File Server Resource Manager],Operator property, IFsrmFileConditionProperty.Operator, IFsrmFileConditionProperty.get_Operator, IFsrmFileConditionProperty::Operator, IFsrmFileConditionProperty::get_Operator, IFsrmFileConditionProperty::put_Operator, Operator property [File Server Resource Manager], Operator property [File Server Resource Manager],IFsrmFileConditionProperty interface, fs.ifsrmfileconditionproperty_operator, fsrm.ifsrmfileconditionproperty_operator, fsrmreports/IFsrmFileConditionProperty::Operator, fsrmreports/IFsrmFileConditionProperty::get_Operator, fsrmreports/IFsrmFileConditionProperty::put_Operator, get_Operator
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileConditionProperty.Operator"
+f1_keywords:
+- fsrmreports/IFsrmFileConditionProperty.Operator
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileConditionProperty.Operator
- - IFsrmFileConditionProperty.get_Operator
- - IFsrmFileConditionProperty.put_Operator
+- IFsrmFileConditionProperty.Operator
+- IFsrmFileConditionProperty.get_Operator
+- IFsrmFileConditionProperty.put_Operator
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -58,7 +58,7 @@ ms.custom: 19H1
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfmjcondition">MSFT_FSRMFMJCondition</a> class.]
 
 Specifies the comparison operator, as enumerated by the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertyconditiontype">FsrmPropertyConditionType</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a> 
     enumeration.
 
 This property is read/write.
@@ -72,7 +72,7 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertyconditiontype">FsrmPropertyConditionType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>
 
 
 

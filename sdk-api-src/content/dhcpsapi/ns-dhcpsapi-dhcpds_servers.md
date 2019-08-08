@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 0f5fe4f3-4eaa-498b-ab48-bfb5ee8f5527
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCPDS_SERVERS, *PDHCPDS_SERVERS, DHCPDS_SERVERS, DHCPDS_SERVERS structure [DHCP], DHCP_SERVER_INFO_ARRAY, DHCP_SERVER_INFO_ARRAY structure [DHCP], LPDHCPDS_SERVERS *PDHCPDS_SERVERS, LPDHCPDS_SERVERS *PDHCPDS_SERVERS structure pointer [DHCP], LPDHCP_SERVER_INFO_ARRAY *PDHCP_SERVER_INFO_ARRAY, LPDHCP_SERVER_INFO_ARRAY *PDHCP_SERVER_INFO_ARRAY structure pointer [DHCP], PDHCPDS_SERVERS, PDHCPDS_SERVERS structure pointer [DHCP], PDHCP_SERVER_INFO_ARRAY, PDHCP_SERVER_INFO_ARRAY structure pointer [DHCP], dhcp.dhcpds_servers, dhcpsapi/DHCP_SERVER_INFO_ARRAY, dhcpsapi/LPDHCPDS_SERVERS *PDHCPDS_SERVERS, dhcpsapi/LPDHCP_SERVER_INFO_ARRAY *PDHCP_SERVER_INFO_ARRAY, dhcpsapi/PDHCPDS_SERVERS, dhcpsapi/PDHCP_SERVER_INFO_ARRAY, dhcpsapi/_DHCPDS_SERVERS"
+ms.keywords: '*LPDHCPDS_SERVERS, *PDHCPDS_SERVERS, DHCPDS_SERVERS, DHCPDS_SERVERS structure [DHCP], DHCP_SERVER_INFO_ARRAY, DHCP_SERVER_INFO_ARRAY structure [DHCP], LPDHCPDS_SERVERS *PDHCPDS_SERVERS, LPDHCPDS_SERVERS *PDHCPDS_SERVERS structure pointer [DHCP], LPDHCP_SERVER_INFO_ARRAY *PDHCP_SERVER_INFO_ARRAY, LPDHCP_SERVER_INFO_ARRAY *PDHCP_SERVER_INFO_ARRAY structure pointer [DHCP], PDHCPDS_SERVERS, PDHCPDS_SERVERS structure pointer [DHCP], PDHCP_SERVER_INFO_ARRAY, PDHCP_SERVER_INFO_ARRAY structure pointer [DHCP], dhcp.dhcpds_servers, dhcpsapi/DHCP_SERVER_INFO_ARRAY, dhcpsapi/LPDHCPDS_SERVERS *PDHCPDS_SERVERS, dhcpsapi/LPDHCP_SERVER_INFO_ARRAY *PDHCP_SERVER_INFO_ARRAY, dhcpsapi/PDHCPDS_SERVERS, dhcpsapi/PDHCP_SERVER_INFO_ARRAY, dhcpsapi/_DHCPDS_SERVERS'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCPDS_SERVERS"
+f1_keywords:
+- dhcpsapi/DHCPDS_SERVERS
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCPDS_SERVERS
+- DHCPDS_SERVERS
 product: Windows
 targetos: Windows
 req.typenames: DHCPDS_SERVERS, *LPDHCPDS_SERVERS, *PDHCPDS_SERVERS
@@ -71,5 +71,5 @@ Specifies the number of elements in <b>Servers</b>.
 
 ### -field Servers
 
-Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcpds_server">DHCPDS_SERVER</a> structures that contain information on individual DHCP servers.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpds_server">DHCPDS_SERVER</a> structures that contain information on individual DHCP servers.
 

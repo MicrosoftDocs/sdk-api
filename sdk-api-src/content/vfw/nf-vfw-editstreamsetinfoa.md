@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EditStreamSetInfo, EditStreamSetInfo function [Windows Multimedia], EditStreamSetInfoA, EditStreamSetInfoW, _win32_EditStreamSetInfo, multimedia.editstreamsetinfo, vfw/EditStreamSetInfo, vfw/EditStreamSetInfoA, vfw/EditStreamSetInfoW
 ms.topic: function
-f1_keywords: 
- - "vfw/EditStreamSetInfo"
+f1_keywords:
+- vfw/EditStreamSetInfo
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
+- Avifil32.dll
 api_name:
- - EditStreamSetInfo
- - EditStreamSetInfoA
- - EditStreamSetInfoW
+- EditStreamSetInfo
+- EditStreamSetInfoA
+- EditStreamSetInfoW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ Handle to an open stream.
 
 ### -param lpInfo
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-_avistreaminfoa">AVISTREAMINFO</a> structure containing new information.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-avistreaminfoa">AVISTREAMINFO</a> structure containing new information.
 
 
 ### -param cbInfo
@@ -92,7 +92,7 @@ Returns zero if successful or an error otherwise.
 
 
 
-You must supply information for the entire <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-_avistreaminfoa">AVISTREAMINFO</a> structure, including the members you will not use. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avistreaminfoa">AVIStreamInfo</a> function to initialize the structure and then update selected members with your data.
+You must supply information for the entire <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-avistreaminfoa">AVISTREAMINFO</a> structure, including the members you will not use. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avistreaminfoa">AVIStreamInfo</a> function to initialize the structure and then update selected members with your data.
 
 This function does not change the following members:
 

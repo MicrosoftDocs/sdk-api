@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkQueryProperty, WlanHostedNetworkQueryProperty function [NativeWIFI], nwifi.wlanhostednetworkqueryproperty, wlanapi/WlanHostedNetworkQueryProperty
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanHostedNetworkQueryProperty"
+f1_keywords:
+- wlanapi/WlanHostedNetworkQueryProperty
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wlanapi.dll
+- Wlanapi.dll
 api_name:
- - WlanHostedNetworkQueryProperty
+- WlanHostedNetworkQueryProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ The client's session handle, returned by a previous call to the <a href="https:/
 
 ### -param OpCode [in]
 
-The identifier for property to be queried. This identifier can be any of the values in the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_hosted_network_opcode">WLAN_HOSTED_NETWORK_OPCODE</a> enumeration defined in the <i>Wlanapi.h </i>header file.
+The identifier for property to be queried. This identifier can be any of the values in the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_hosted_network_opcode">WLAN_HOSTED_NETWORK_OPCODE</a> enumeration defined in the <i>Wlanapi.h </i>header file.
 
 
 ### -param pdwDataSize [out]
@@ -135,7 +135,7 @@ A handle is invalid. This error is returned if the handle specified in the <i>hC
 <td width="60%">
 A parameter is incorrect. This error is returned if any of the following conditions occur:<ul>
 <li><i>hClientHandle</i> is <b>NULL</b>.</li>
-<li><i>OpCode</i> is not one of the enumerated values defined in the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_hosted_network_opcode">WLAN_HOSTED_NETWORK_OPCODE</a>.</li>
+<li><i>OpCode</i> is not one of the enumerated values defined in the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_hosted_network_opcode">WLAN_HOSTED_NETWORK_OPCODE</a>.</li>
 <li><i>pdwDataSize</i> is <b>NULL</b>.</li>
 <li><i>ppvData</i> is <b>NULL</b>.</li>
 <li><i>pWlanOpcodeValueType</i> is <b>NULL</b>.</li>
@@ -289,7 +289,7 @@ On Windows 7 and later, the operating system installs a virtual device if a Hos
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_hosted_network_opcode">WLAN_HOSTED_NETWORK_OPCODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_hosted_network_opcode">WLAN_HOSTED_NETWORK_OPCODE</a>
 
 
 

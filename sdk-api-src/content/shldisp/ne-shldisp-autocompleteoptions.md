@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ACO_AUTOAPPEND, ACO_AUTOSUGGEST, ACO_FILTERPREFIXES, ACO_NONE, ACO_NOPREFIXFILTERING, ACO_RTLREADING, ACO_SEARCH, ACO_UPDOWNKEYDROPSLIST, ACO_USETAB, ACO_WORD_FILTER, AUTOCOMPLETEOPTIONS, AUTOCOMPLETEOPTIONS enumeration [Windows Shell], _shell_AUTOCOMPLETEOPTIONS, shell.AUTOCOMPLETEOPTIONS, shldisp/ACO_AUTOAPPEND, shldisp/ACO_AUTOSUGGEST, shldisp/ACO_FILTERPREFIXES, shldisp/ACO_NONE, shldisp/ACO_NOPREFIXFILTERING, shldisp/ACO_RTLREADING, shldisp/ACO_SEARCH, shldisp/ACO_UPDOWNKEYDROPSLIST, shldisp/ACO_USETAB, shldisp/ACO_WORD_FILTER, shldisp/AUTOCOMPLETEOPTIONS
 ms.topic: enum
-f1_keywords: 
- - "shldisp/AUTOCOMPLETEOPTIONS"
+f1_keywords:
+- shldisp/AUTOCOMPLETEOPTIONS
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shldisp.h
+- Shldisp.h
 api_name:
- - AUTOCOMPLETEOPTIONS
+- AUTOCOMPLETEOPTIONS
 product: Windows
 targetos: Windows
 req.typenames: AUTOCOMPLETEOPTIONS
@@ -96,7 +96,7 @@ Specifies values used by <a href="https://docs.microsoft.com/windows/desktop/api
 
 ### -field ACO_RTLREADING
 
-0x0040. Normal windows display text left-to-right (LTR). Windows can be mirrored to display languages such as Hebrew or Arabic that read right-to-left (RTL). Typically, control text is displayed in the same direction as the text in its parent window. If <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/ne-shldisp-_tagautocompleteoptions">ACO_RTLREADING</a> is set, the text reads in the opposite direction from the text in the parent window.
+0x0040. Normal windows display text left-to-right (LTR). Windows can be mirrored to display languages such as Hebrew or Arabic that read right-to-left (RTL). Typically, control text is displayed in the same direction as the text in its parent window. If <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/ne-shldisp-autocompleteoptions">ACO_RTLREADING</a> is set, the text reads in the opposite direction from the text in the parent window.
 
 
 ### -field ACO_WORD_FILTER

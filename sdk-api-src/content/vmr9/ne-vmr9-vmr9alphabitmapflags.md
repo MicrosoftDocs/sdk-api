@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VMR9AlphaBitmapFlags, VMR9AlphaBitmapFlags , VMR9AlphaBitmapFlags enumeration [DirectShow], VMR9AlphaBitmapFlagsEnumeration, VMR9AlphaBitmap_Disable, VMR9AlphaBitmap_EntireDDS, VMR9AlphaBitmap_FilterMode, VMR9AlphaBitmap_SrcColorKey, VMR9AlphaBitmap_SrcRect, VMR9AlphaBitmap_hDC, dshow.vmr9alphabitmapflags, vmr9/VMR9AlphaBitmapFlags, vmr9/VMR9AlphaBitmap_Disable, vmr9/VMR9AlphaBitmap_EntireDDS, vmr9/VMR9AlphaBitmap_FilterMode, vmr9/VMR9AlphaBitmap_SrcColorKey, vmr9/VMR9AlphaBitmap_SrcRect, vmr9/VMR9AlphaBitmap_hDC
 ms.topic: enum
-f1_keywords: 
- - "vmr9/VMR9AlphaBitmapFlags"
+f1_keywords:
+- vmr9/VMR9AlphaBitmapFlags
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vmr9.h
+- Vmr9.h
 api_name:
- - VMR9AlphaBitmapFlags
+- VMR9AlphaBitmapFlags
 product: Windows
 targetos: Windows
 req.typenames: VMR9AlphaBitmapFlags
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-The <b>VMR9AlphaBitmapFlags</b> enumeration type defines the possible values for the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9alphabitmap">VMR9AlphaBitmap</a> structure.
+The <b>VMR9AlphaBitmapFlags</b> enumeration type defines the possible values for the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9alphabitmap">VMR9AlphaBitmap</a> structure.
 
 
 
@@ -70,13 +70,13 @@ Disable the alpha bitmap. This flag cannot be combined with any other flags.
 
 ### -field VMR9AlphaBitmap_hDC
 
-The bitmap is specified as a GDI device context (HDC) in the <b>hdc</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9alphabitmap">VMR9AlphaBitmap</a> structure. If this flag is not present, the bitmap is specified as a Direct3D <b>IDirect3DSurface9</b> pointer in the <b>pDDS</b> member of the structure.
+The bitmap is specified as a GDI device context (HDC) in the <b>hdc</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9alphabitmap">VMR9AlphaBitmap</a> structure. If this flag is not present, the bitmap is specified as a Direct3D <b>IDirect3DSurface9</b> pointer in the <b>pDDS</b> member of the structure.
           
 
 
 ### -field VMR9AlphaBitmap_EntireDDS
 
-Use the entire Direct3D surface. The <b>rSrc</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9alphabitmap">VMR9AlphaBitmap</a> structure is ignored. This flag cannot be combined with the VMR9AlphaBitmap_hDC flag.
+Use the entire Direct3D surface. The <b>rSrc</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9alphabitmap">VMR9AlphaBitmap</a> structure is ignored. This flag cannot be combined with the VMR9AlphaBitmap_hDC flag.
           
 
 

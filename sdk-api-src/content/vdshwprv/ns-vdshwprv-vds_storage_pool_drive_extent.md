@@ -8,10 +8,10 @@ tech.root: VDS
 ms.assetid: e8b4a4c7-04d5-48b5-ba44-bb99cbf9fc60
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVDS_STORAGE_POOL_DRIVE_EXTENT, PVDS_STORAGE_POOL_DRIVE_EXTENT, PVDS_STORAGE_POOL_DRIVE_EXTENT structure pointer, VDS_STORAGE_POOL_DRIVE_EXTENT, VDS_STORAGE_POOL_DRIVE_EXTENT structure, base.vds_storage_pool_drive_extent, vds/PVDS_STORAGE_POOL_DRIVE_EXTENT, vds/VDS_STORAGE_POOL_DRIVE_EXTENT, vdshwprv/PVDS_STORAGE_POOL_DRIVE_EXTENT, vdshwprv/VDS_STORAGE_POOL_DRIVE_EXTENT"
+ms.keywords: '*PVDS_STORAGE_POOL_DRIVE_EXTENT, PVDS_STORAGE_POOL_DRIVE_EXTENT, PVDS_STORAGE_POOL_DRIVE_EXTENT structure pointer, VDS_STORAGE_POOL_DRIVE_EXTENT, VDS_STORAGE_POOL_DRIVE_EXTENT structure, base.vds_storage_pool_drive_extent, vds/PVDS_STORAGE_POOL_DRIVE_EXTENT, vds/VDS_STORAGE_POOL_DRIVE_EXTENT, vdshwprv/PVDS_STORAGE_POOL_DRIVE_EXTENT, vdshwprv/VDS_STORAGE_POOL_DRIVE_EXTENT'
 ms.topic: struct
-f1_keywords: 
- - "vdshwprv/VDS_STORAGE_POOL_DRIVE_EXTENT"
+f1_keywords:
+- vdshwprv/VDS_STORAGE_POOL_DRIVE_EXTENT
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_STORAGE_POOL_DRIVE_EXTENT
+- VDS_STORAGE_POOL_DRIVE_EXTENT
 product: Windows
 targetos: Windows
 req.typenames: VDS_STORAGE_POOL_DRIVE_EXTENT, *PVDS_STORAGE_POOL_DRIVE_EXTENT
@@ -86,7 +86,7 @@ Size, in bytes, of the drive extent.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_drive_prop">VDS_DRIVE_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a>
  
 
  

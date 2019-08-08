@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasSecurityDialogGetInfo, RasSecurityDialogGetInfo function [RAS], _ras_rassecuritydialoggetinfo, rasshost/RasSecurityDialogGetInfo, rras.rassecuritydialoggetinfo
 ms.topic: function
-f1_keywords: 
- - "rasshost/RasSecurityDialogGetInfo"
+f1_keywords:
+- rasshost/RasSecurityDialogGetInfo
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Rasman.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasman.dll
+- Rasman.dll
 api_name:
- - RasSecurityDialogGetInfo
+- RasSecurityDialogGetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -77,7 +77,7 @@ Specifies the port handle that the RAS server passed to the security DLL in the
 ### -param pBuffer [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/ns-rasshost-_ras_security_info">RAS_SECURITY_INFO</a> structure that receives information about the specified RAS port.
+<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/ns-rasshost-ras_security_info">RAS_SECURITY_INFO</a> structure that receives information about the specified RAS port.
 
 
 ## -returns
@@ -100,7 +100,7 @@ The
 <b>RasSecurityDialogGetInfo</b> function retrieves information about the port associated with a RAS security DLL authentication transaction.
 
 The <b>LastError</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/ns-rasshost-_ras_security_info">RAS_SECURITY_INFO</a> structure indicates the state of the last 
+<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/ns-rasshost-ras_security_info">RAS_SECURITY_INFO</a> structure indicates the state of the last 
 <a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogreceive">RasSecurityDialogReceive</a> call for the port. If the receive operation has been completed successfully, <b>LastError</b> is SUCCESS and the <b>BytesReceived</b> member indicates the number of bytes received. Otherwise, <b>LastError</b> is PENDING if the receive operation is still in progress, or a nonzero error code if the receive operation failed.
 
 
@@ -123,7 +123,7 @@ The <b>LastError</b> member of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/ns-rasshost-_ras_security_info">RAS_SECURITY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/ns-rasshost-ras_security_info">RAS_SECURITY_INFO</a>
 
 
 

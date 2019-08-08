@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_NF_PACK_ARRIVE, VDS_NF_PACK_DEPART, VDS_NF_PACK_MODIFY, VDS_PACK_NOTIFICATION, VDS_PACK_NOTIFICATION structure [VDS], base.vds_pack_notification, vds/_VDS_PACK_NOTIFICATION, vdshwprv/_VDS_PACK_NOTIFICATION
 ms.topic: struct
-f1_keywords: 
- - "vdshwprv/VDS_PACK_NOTIFICATION"
+f1_keywords:
+- vdshwprv/VDS_PACK_NOTIFICATION
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_PACK_NOTIFICATION
+- VDS_PACK_NOTIFICATION
 product: Windows
 targetos: Windows
 req.typenames: VDS_PACK_NOTIFICATION
@@ -101,7 +101,7 @@ An existing pack was removed.
 </dl>
 </td>
 <td width="60%">
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_pack_prop">VDS_PACK_PROP</a> 
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_pack_prop">VDS_PACK_PROP</a> 
        structure for the pack was changed.
 
 </td>
@@ -119,7 +119,7 @@ The GUID for the pack that triggered the event.
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_notification">VDS_NOTIFICATION</a> structure includes this 
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a> structure includes this 
     structure as a member.
 
 An application can receive pack events by implementing the 
@@ -149,7 +149,7 @@ To get the pack object, use the <a href="https://docs.microsoft.com/windows/desk
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_notification">VDS_NOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a>
  
 
  

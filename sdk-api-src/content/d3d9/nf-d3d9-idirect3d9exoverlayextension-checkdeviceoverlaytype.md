@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckDeviceOverlayType, CheckDeviceOverlayType method [Media Foundation], CheckDeviceOverlayType method [Media Foundation],IDirect3D9ExOverlayExtension interface, IDirect3D9ExOverlayExtension interface [Media Foundation],CheckDeviceOverlayType method, IDirect3D9ExOverlayExtension.CheckDeviceOverlayType, IDirect3D9ExOverlayExtension::CheckDeviceOverlayType, d3d9/IDirect3D9ExOverlayExtension::CheckDeviceOverlayType, mf.idirect3d9exoverlayextension_checkdeviceoverlaytype
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3D9ExOverlayExtension.CheckDeviceOverlayType"
+f1_keywords:
+- d3d9/IDirect3D9ExOverlayExtension.CheckDeviceOverlayType
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d9.h
+- d3d9.h
 api_name:
- - IDirect3D9ExOverlayExtension.CheckDeviceOverlayType
+- IDirect3D9ExOverlayExtension.CheckDeviceOverlayType
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -97,7 +97,7 @@ Specifies the display rotation mode as a member of the <b>D3DDISPLAYROTATION</b>
 
 ### -param pOverlayCaps [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3doverlaycaps">D3DOVERLAYCAPS</a> structure. If the driver supports the overlay settings specified in the input parameters, the method fills this structure with the capabilities of the overlay hardware.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3doverlaycaps">D3DOVERLAYCAPS</a> structure. If the driver supports the overlay settings specified in the input parameters, the method fills this structure with the capabilities of the overlay hardware.
 
 
 ## -returns

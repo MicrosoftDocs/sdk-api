@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GET_FILEEX_INFO_LEVELS, GET_FILEEX_INFO_LEVELS enumeration [Files], GetFileExInfoStandard, GetFileExMaxInfoLevel, fs.get_fileex_info_levels, winbase/GET_FILEEX_INFO_LEVELS, winbase/GetFileExInfoStandard, winbase/GetFileExMaxInfoLevel
 ms.topic: enum
-f1_keywords: 
- - "minwinbase/GET_FILEEX_INFO_LEVELS"
+f1_keywords:
+- minwinbase/GET_FILEEX_INFO_LEVELS
 req.header: minwinbase.h
 req.include-header: Minwinbase.h, Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - GET_FILEEX_INFO_LEVELS
+- GET_FILEEX_INFO_LEVELS
 product: Windows
 targetos: Windows
 req.typenames: GET_FILEEX_INFO_LEVELS
@@ -67,7 +67,7 @@ Defines values that are used with the
 The <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesexa">GetFileAttributesEx</a> or 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileattributestransacteda">GetFileAttributesTransacted</a> function 
       retrieves a standard set of attribute information. The data is returned in a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_win32_file_attribute_data">WIN32_FILE_ATTRIBUTE_DATA</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-win32_file_attribute_data">WIN32_FILE_ATTRIBUTE_DATA</a> 
       structure.
 
 
@@ -93,7 +93,7 @@ One greater than the maximum value. Valid values for this enumeration will be le
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_win32_file_attribute_data">WIN32_FILE_ATTRIBUTE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-win32_file_attribute_data">WIN32_FILE_ATTRIBUTE_DATA</a>
  
 
  

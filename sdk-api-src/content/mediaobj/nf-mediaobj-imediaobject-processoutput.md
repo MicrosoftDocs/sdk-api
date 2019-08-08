@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaObject interface [DirectShow],ProcessOutput method, IMediaObject.ProcessOutput, IMediaObject::ProcessOutput, IMediaObjectProcessOutput, ProcessOutput, ProcessOutput method [DirectShow], ProcessOutput method [DirectShow],IMediaObject interface, dshow.imediaobject_processoutput, mediaobj/IMediaObject::ProcessOutput
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IMediaObject.ProcessOutput"
+f1_keywords:
+- mediaobj/IMediaObject.ProcessOutput
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaObject.ProcessOutput
+- IMediaObject.ProcessOutput
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ Number of output buffers.
 
 ### -param pOutputBuffers [in, out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ns-mediaobj-_dmo_output_data_buffer">DMO_OUTPUT_DATA_BUFFER</a> structures containing the output buffers. Specify the size of the array in the <i>cOutputBufferCount</i> parameter.
+Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_output_data_buffer">DMO_OUTPUT_DATA_BUFFER</a> structures containing the output buffers. Specify the size of the array in the <i>cOutputBufferCount</i> parameter.
 
 
 ### -param pdwStatus [out]

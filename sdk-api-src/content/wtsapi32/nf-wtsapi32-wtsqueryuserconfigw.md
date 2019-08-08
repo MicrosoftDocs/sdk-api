@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSQueryUserConfig, WTSQueryUserConfig function [Remote Desktop Services], WTSQueryUserConfigA, WTSQueryUserConfigW, _win32_wtsqueryuserconfig, termserv.wtsqueryuserconfig, wtsapi32/WTSQueryUserConfig, wtsapi32/WTSQueryUserConfigA, wtsapi32/WTSQueryUserConfigW
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSQueryUserConfig"
+f1_keywords:
+- wtsapi32/WTSQueryUserConfig
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.dll
+- Wtsapi32.dll
 api_name:
- - WTSQueryUserConfig
- - WTSQueryUserConfigA
- - WTSQueryUserConfigW
+- WTSQueryUserConfig
+- WTSQueryUserConfigA
+- WTSQueryUserConfigW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,7 +76,7 @@ Pointer to a null-terminated string containing the user name to query. To retrie
 ### -param WTSConfigClass [in]
 
 Specifies the type of information to retrieve. This parameter can be one of the values from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-_wts_config_class">WTS_CONFIG_CLASS</a> enumeration type. The documentation for 
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_config_class">WTS_CONFIG_CLASS</a> enumeration type. The documentation for 
 <b>WTS_CONFIG_CLASS</b> describes the format of the data returned in <i>ppBuffer</i> for each of the information types.
 
 
@@ -132,7 +132,7 @@ Any domain controller can set or query user configuration information. Use the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-_wts_config_class">WTS_CONFIG_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_config_class">WTS_CONFIG_CLASS</a>
  
 
  

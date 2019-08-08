@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitializeEnclave, InitializeEnclave function, base.initializeenclave, enclaveapi/InitializeEnclave
 ms.topic: function
-f1_keywords: 
- - "enclaveapi/InitializeEnclave"
+f1_keywords:
+- enclaveapi/InitializeEnclave
 req.header: enclaveapi.h
 req.include-header: Winbase.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Api-ms-win-core-enclave-l1-1-0.dll; Kernel32.dll; KernelBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-enclave-l1-1-0.dll
- - kernel32.dll
- - KernelBase.dll
- - API-MS-Win-Core-Enclave-L1-1-0.dll
+- api-ms-win-core-enclave-l1-1-0.dll
+- kernel32.dll
+- KernelBase.dll
+- API-MS-Win-Core-Enclave-L1-1-0.dll
 api_name:
- - InitializeEnclave
+- InitializeEnclave
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,9 +76,9 @@ Any address within the enclave.
 
 A pointer to architecture-specific information to use to initialize the enclave.
 
-For the <b>ENCLAVE_TYPE_SGX</b> enclave type, specify a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_enclave_init_info_sgx">ENCLAVE_INIT_INFO_SGX</a> structure.
+For the <b>ENCLAVE_TYPE_SGX</b> enclave type, specify a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-enclave_init_info_sgx">ENCLAVE_INIT_INFO_SGX</a> structure.
 
-For the <b>ENCLAVE_TYPE_VBS</b> enclave type, specify a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_enclave_init_info_vbs">ENCLAVE_INIT_INFO_VBS</a> structure.
+For the <b>ENCLAVE_TYPE_VBS</b> enclave type, specify a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-enclave_init_info_vbs">ENCLAVE_INIT_INFO_VBS</a> structure.
 
 
 ### -param dwInfoLength [in]
@@ -117,7 +117,7 @@ For a list of common error codes, see <a href="https://docs.microsoft.com/window
 <td width="60%">
 An failure specific to the underlying enclave architecture occurred. The value for the  <i>lpEnclaveError</i> parameter contains the architecture-specific error. 
 
-For the <b>ENCLAVE_TYPE_SGX</b> enclave type, the EINIT instruction that the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_enclave_init_info_sgx">ENCLAVE_INIT_INFO_SGX</a> structure specified generated an error. The value of the <i>lpEnclaveError</i> parameter contains the error that the instruction generated.
+For the <b>ENCLAVE_TYPE_SGX</b> enclave type, the EINIT instruction that the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-enclave_init_info_sgx">ENCLAVE_INIT_INFO_SGX</a> structure specified generated an error. The value of the <i>lpEnclaveError</i> parameter contains the error that the instruction generated.
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ To create an enclave, use the <a href="https://docs.microsoft.com/windows/deskto
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_enclave_init_info_sgx">ENCLAVE_INIT_INFO_SGX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-enclave_init_info_sgx">ENCLAVE_INIT_INFO_SGX</a>
 
 
 

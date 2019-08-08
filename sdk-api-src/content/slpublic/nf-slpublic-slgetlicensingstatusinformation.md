@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLGetLicensingStatusInformation, SLGetLicensingStatusInformation function [Security], security.slgetlicensingstatusinformation, slpublic/SLGetLicensingStatusInformation
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLGetLicensingStatusInformation"
+f1_keywords:
+- slpublic/SLGetLicensingStatusInformation
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLGetLicensingStatusInformation
+- SLGetLicensingStatusInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -228,7 +228,7 @@ A pointer to the number of the SKU's status.
 
 ### -param ppLicensingStatus [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-_tagsl_licensing_status">SL_LICENSING_STATUS</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-sl_licensing_status">SL_LICENSING_STATUS</a>**</b>
 
 A pointer to the licensing status of the SKU.
 

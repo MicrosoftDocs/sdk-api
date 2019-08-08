@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CryptSignAndEncodeCertificate, CryptSignAndEncodeCertificate function [Security], X509_ASN_ENCODING, X509_CERT_CRL_TO_BE_SIGNED, X509_CERT_REQUEST_TO_BE_SIGNED, X509_CERT_TO_BE_SIGNED, X509_KEYGEN_REQUEST_TO_BE_SIGNED, _crypto2_cryptsignandencodecertificate, security.cryptsignandencodecertificate, wincrypt/CryptSignAndEncodeCertificate
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptSignAndEncodeCertificate"
+f1_keywords:
+- wincrypt/CryptSignAndEncodeCertificate
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptSignAndEncodeCertificate
+- CryptSignAndEncodeCertificate
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -145,7 +145,7 @@ A pointer to a null-terminated ANSI string that contains the type of data to be 
 </dl>
 </td>
 <td width="60%">
-<i>pvStructInfo</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_info">CRL_INFO</a> structure.
+<i>pvStructInfo</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_info">CRL_INFO</a> structure.
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ A pointer to a null-terminated ANSI string that contains the type of data to be 
 </dl>
 </td>
 <td width="60%">
-<i>pvStructInfo</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_request_info">CERT_REQUEST_INFO</a> structure.
+<i>pvStructInfo</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_request_info">CERT_REQUEST_INFO</a> structure.
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ A pointer to a null-terminated ANSI string that contains the type of data to be 
 </dl>
 </td>
 <td width="60%">
-<i>pvStructInfo</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure.
+<i>pvStructInfo</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure.
 
 </td>
 </tr>
@@ -175,7 +175,7 @@ A pointer to a null-terminated ANSI string that contains the type of data to be 
 </dl>
 </td>
 <td width="60%">
-<i>pvStructInfo</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_keygen_request_info">CERT_KEYGEN_REQUEST_INFO</a> structure.
+<i>pvStructInfo</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_keygen_request_info">CERT_KEYGEN_REQUEST_INFO</a> structure.
 
 </td>
 </tr>
@@ -191,7 +191,7 @@ The address of a structure that contains the data to be signed and encoded. The 
 ### -param pSignatureAlgorithm [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the signature algorithm and any additional parameters needed. This function uses the following algorithm OIDs:
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the signature algorithm and any additional parameters needed. This function uses the following algorithm OIDs:
 
 <ul>
 <li>szOID_RSA_MD5RSA</li>

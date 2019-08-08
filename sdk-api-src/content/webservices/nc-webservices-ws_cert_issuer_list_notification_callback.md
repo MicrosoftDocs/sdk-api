@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK, WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK callback, WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK callback function [Web Services for Windows], webservices/WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK, wsw.ws_cert_issuer_list_notification_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK"
+f1_keywords:
+- webservices/WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK
+- WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -57,7 +57,7 @@ the server may optionally send such an issuer list to help the client
 choose a certificate.
             
 
-This callback is an optional part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_cert_credential">WS_CUSTOM_CERT_CREDENTIAL</a>.  
+This callback is an optional part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_custom_cert_credential">WS_CUSTOM_CERT_CREDENTIAL</a>.  
 If the (possibly <b>NULL</b>) certificate returned by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_get_cert_callback">WS_GET_CERT_CALLBACK</a> is
 accepted by the server, then this callback is never invoked.  If the
 server rejects it and sends back an issuer list, then this callback
@@ -78,7 +78,7 @@ duration of the callback.
 
 ### -param *certIssuerListNotificationCallbackState [in]
 
-State that was specified along with this callback in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_cert_credential">WS_CUSTOM_CERT_CREDENTIAL</a>.
+State that was specified along with this callback in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_custom_cert_credential">WS_CUSTOM_CERT_CREDENTIAL</a>.
                 
 
 

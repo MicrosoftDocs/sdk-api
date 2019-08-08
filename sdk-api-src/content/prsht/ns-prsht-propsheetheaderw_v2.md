@@ -8,10 +8,10 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\structures\propsheetheader.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPPROPSHEETHEADERW_V2, LPPROPSHEETHEADER, LPPROPSHEETHEADER structure pointer [Windows Controls], PROPSHEETHEADER, PROPSHEETHEADER structure [Windows Controls], PROPSHEETHEADERA, PROPSHEETHEADERW, PROPSHEETHEADERW_V2, PSH_AEROWIZARD, PSH_DEFAULT, PSH_HASHELP, PSH_HEADER, PSH_HEADERBITMAP, PSH_MODELESS, PSH_NOAPPLYNOW, PSH_NOCONTEXTHELP, PSH_NOMARGIN, PSH_PROPSHEETPAGE, PSH_PROPTITLE, PSH_RESIZABLE, PSH_RTLREADING, PSH_STRETCHWATERMARK, PSH_USECALLBACK, PSH_USEHBMHEADER, PSH_USEHBMWATERMARK, PSH_USEHICON, PSH_USEHPLWATERMARK, PSH_USEICONID, PSH_USEPAGELANG, PSH_USEPSTARTPAGE, PSH_WATERMARK, PSH_WIZARD, PSH_WIZARD97, PSH_WIZARDCONTEXTHELP, PSH_WIZARDHASFINISH, PSH_WIZARD_LITE, _win32_PROPSHEETHEADER, _win32_PROPSHEETHEADER_cpp, controls.PROPSHEETHEADER, controls._win32_PROPSHEETHEADER, prsht/LPPROPSHEETHEADER, prsht/PROPSHEETHEADER, prsht/PROPSHEETHEADERA, prsht/PROPSHEETHEADERW"
+ms.keywords: '*LPPROPSHEETHEADERW_V2, LPPROPSHEETHEADER, LPPROPSHEETHEADER structure pointer [Windows Controls], PROPSHEETHEADER, PROPSHEETHEADER structure [Windows Controls], PROPSHEETHEADERA, PROPSHEETHEADERW, PROPSHEETHEADERW_V2, PSH_AEROWIZARD, PSH_DEFAULT, PSH_HASHELP, PSH_HEADER, PSH_HEADERBITMAP, PSH_MODELESS, PSH_NOAPPLYNOW, PSH_NOCONTEXTHELP, PSH_NOMARGIN, PSH_PROPSHEETPAGE, PSH_PROPTITLE, PSH_RESIZABLE, PSH_RTLREADING, PSH_STRETCHWATERMARK, PSH_USECALLBACK, PSH_USEHBMHEADER, PSH_USEHBMWATERMARK, PSH_USEHICON, PSH_USEHPLWATERMARK, PSH_USEICONID, PSH_USEPAGELANG, PSH_USEPSTARTPAGE, PSH_WATERMARK, PSH_WIZARD, PSH_WIZARD97, PSH_WIZARDCONTEXTHELP, PSH_WIZARDHASFINISH, PSH_WIZARD_LITE, _win32_PROPSHEETHEADER, _win32_PROPSHEETHEADER_cpp, controls.PROPSHEETHEADER, controls._win32_PROPSHEETHEADER, prsht/LPPROPSHEETHEADER, prsht/PROPSHEETHEADER, prsht/PROPSHEETHEADERA, prsht/PROPSHEETHEADERW'
 ms.topic: struct
-f1_keywords: 
- - "prsht/PROPSHEETHEADER"
+f1_keywords:
+- prsht/PROPSHEETHEADER
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Prsht.h
+- Prsht.h
 api_name:
- - PROPSHEETHEADER
- - PROPSHEETHEADERA
- - PROPSHEETHEADERW
+- PROPSHEETHEADER
+- PROPSHEETHEADERA
+- PROPSHEETHEADERW
 product: Windows
 targetos: Windows
 req.typenames: PROPSHEETHEADERW_V2, *LPPROPSHEETHEADERW_V2
@@ -152,7 +152,7 @@ Uses the default meaning for all structure members, and creates a normal propert
 </dl>
 </td>
 <td width="60%">
-Permits property sheet pages to display a <b>Help</b> button. You must also set the PSP_HASHELP flag in the page's <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> structure when the page is created. If any of the initial property sheet pages enable a <b>Help</b> button, PSH_HASHELP will be set automatically. If none of the initial pages enable a <b>Help</b> button, you must explicitly set PSH_HASHELP if you want to have <b>Help</b> buttons on any pages that might be added later. This flag is not supported in conjunction with PSH_AEROWIZARD.
+Permits property sheet pages to display a <b>Help</b> button. You must also set the PSP_HASHELP flag in the page's <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure when the page is created. If any of the initial property sheet pages enable a <b>Help</b> button, PSH_HASHELP will be set automatically. If none of the initial pages enable a <b>Help</b> button, you must explicitly set PSH_HASHELP if you want to have <b>Help</b> buttons on any pages that might be added later. This flag is not supported in conjunction with PSH_AEROWIZARD.
 
 </td>
 </tr>
@@ -517,7 +517,7 @@ Pointer to an array of handles to the property sheet pages. Each handle must hav
 
 Type: <b>LPCPROPSHEETPAGE</b>
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> structures that define the pages in the property sheet. If the <b>dwFlags</b> member does not include PSH_PROPSHEETPAGE, this member is ignored. Note that the <b>PROPSHEETPAGE</b> structure is variable in size. Applications that parse the array pointed to by <b>ppsp</b> must take the size of each page into account. This member is declared as a union with <b>phpage</b>.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structures that define the pages in the property sheet. If the <b>dwFlags</b> member does not include PSH_PROPSHEETPAGE, this member is ignored. Note that the <b>PROPSHEETPAGE</b> structure is variable in size. Applications that parse the array pointed to by <b>ppsp</b> must take the size of each page into account. This member is declared as a union with <b>phpage</b>.
 
 
 #### - pszCaption

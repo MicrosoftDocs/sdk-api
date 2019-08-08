@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_RECEIVE_DATA_RESULT, WSMAN_RECEIVE_DATA_RESULT structure [Windows Remote Management], winrm.wsman_receive_data_result, wsman/WSMAN_RECEIVE_DATA_RESULT
 ms.topic: struct
-f1_keywords: 
- - "wsman/WSMAN_RECEIVE_DATA_RESULT"
+f1_keywords:
+- wsman/WSMAN_RECEIVE_DATA_RESULT
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_RECEIVE_DATA_RESULT
+- WSMAN_RECEIVE_DATA_RESULT
 product: Windows
 targetos: Windows
 req.typenames: WSMAN_RECEIVE_DATA_RESULT
@@ -68,7 +68,7 @@ Represents the <b>streamId</b> for which <b>streamData</b> is defined.
 
 ### -field streamData
 
-Represents the data associated with <b>streamId</b>. The data can be stream text, binary content, or XML. For more information about the possible data, see <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_data">WSMAN_DATA</a>.
+Represents the data associated with <b>streamId</b>. The data can be stream text, binary content, or XML. For more information about the possible data, see <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a>.
 
 
 ### -field commandState

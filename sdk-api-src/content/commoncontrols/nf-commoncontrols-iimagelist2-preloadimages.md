@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IImageList2 interface [Windows Controls],PreloadImages method, IImageList2.PreloadImages, IImageList2::PreloadImages, PreloadImages, PreloadImages method [Windows Controls], PreloadImages method [Windows Controls],IImageList2 interface, _shell_IImageList2_PreloadImages, _shell_IImageList2_PreloadImages_cpp, commoncontrols/IImageList2::PreloadImages, controls.IImageList2_PreloadImages, controls._shell_IImageList2_PreloadImages
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList2.PreloadImages"
+f1_keywords:
+- commoncontrols/IImageList2.PreloadImages
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList2.PreloadImages
+- IImageList2.PreloadImages
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ Preloads images, as specified.
 
 ### -param pimldp [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-_imagelistdrawparams">IMAGELISTDRAWPARAMS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-imagelistdrawparams">IMAGELISTDRAWPARAMS</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-_imagelistdrawparams">IMAGELISTDRAWPARAMS</a> structure containing information about an image list draw operation.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-imagelistdrawparams">IMAGELISTDRAWPARAMS</a> structure containing information about an image list draw operation.
 
 
 ## -returns

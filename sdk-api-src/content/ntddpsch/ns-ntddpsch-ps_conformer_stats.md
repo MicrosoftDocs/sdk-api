@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: 709274fe-de56-4f86-9002-71f0ee333ace
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPS_CONFORMER_STATS, PPS_CONFORMER_STATS, PPS_CONFORMER_STATS structure pointer [QOS], PS_CONFORMER_STATS, PS_CONFORMER_STATS structure [QOS], _gqos_ps_conformer_stats, ntddpsch/PPS_CONFORMER_STATS, ntddpsch/PS_CONFORMER_STATS, qos.ps_conformer_stats"
+ms.keywords: '*PPS_CONFORMER_STATS, PPS_CONFORMER_STATS, PPS_CONFORMER_STATS structure pointer [QOS], PS_CONFORMER_STATS, PS_CONFORMER_STATS structure [QOS], _gqos_ps_conformer_stats, ntddpsch/PPS_CONFORMER_STATS, ntddpsch/PS_CONFORMER_STATS, qos.ps_conformer_stats'
 ms.topic: struct
-f1_keywords: 
- - "ntddpsch/PS_CONFORMER_STATS"
+f1_keywords:
+- ntddpsch/PS_CONFORMER_STATS
 req.header: ntddpsch.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntddpsch.h
+- Ntddpsch.h
 api_name:
- - PS_CONFORMER_STATS
+- PS_CONFORMER_STATS
 product: Windows
 targetos: Windows
 req.typenames: PS_CONFORMER_STATS, *PPS_CONFORMER_STATS
@@ -54,7 +54,7 @@ ms.custom: 19H1
 The 
 <b>PS_CONFORMER_STATS</b> structure provides statistical packet shaper information about a particular flow. Note that the 
 <b>PS_CONFORMER_STATS</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ntddpsch/ns-ntddpsch-_ps_component_stats">PS_COMPONENT_STATS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_component_stats">PS_COMPONENT_STATS</a> structure.
 
 
 ## -struct-fields
@@ -72,11 +72,11 @@ Number of nonconforming packets that have been scheduled on the flow or interfac
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ntddpsch/ns-ntddpsch-_ps_component_stats">PS_COMPONENT_STATS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_component_stats">PS_COMPONENT_STATS</a>
  
 
  

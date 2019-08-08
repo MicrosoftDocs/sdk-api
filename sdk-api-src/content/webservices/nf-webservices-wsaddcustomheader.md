@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsAddCustomHeader, WsAddCustomHeader function [Web Services for Windows], webservices/WsAddCustomHeader, wsw.wsaddcustomheader
 ms.topic: function
-f1_keywords: 
- - "webservices/WsAddCustomHeader"
+f1_keywords:
+- webservices/WsAddCustomHeader
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsAddCustomHeader
+- WsAddCustomHeader
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ The message can be in any state except <b>WS_MESSAGE_STATE_EMPTY</b> (see the <a
 
 ### -param headerDescription [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_element_description">WS_ELEMENT_DESCRIPTION</a> structure that describes the header.
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a> structure that describes the header.
                 
 
 

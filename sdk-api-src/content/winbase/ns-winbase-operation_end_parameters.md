@@ -8,10 +8,10 @@ tech.root: oprec
 ms.assetid: 45ABFE6A-7B70-418F-8C3C-6388079D1306
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*POPERATION_END_PARAMETERS, OPERATION_API_VERSION, OPERATION_END_DISCARD, OPERATION_END_PARAMETERS, OPERATION_END_PARAMETERS structure [Operation Recorder], POPERATION_END_PARAMETERS, POPERATION_END_PARAMETERS structure pointer [Operation Recorder], _OPERATION_END_PARAMETERS, oprec.operation_end_parameters, winbase/OPERATION_END_PARAMETERS, winbase/POPERATION_END_PARAMETERS"
+ms.keywords: '*POPERATION_END_PARAMETERS, OPERATION_API_VERSION, OPERATION_END_DISCARD, OPERATION_END_PARAMETERS, OPERATION_END_PARAMETERS structure [Operation Recorder], POPERATION_END_PARAMETERS, POPERATION_END_PARAMETERS structure pointer [Operation Recorder], _OPERATION_END_PARAMETERS, oprec.operation_end_parameters, winbase/OPERATION_END_PARAMETERS, winbase/POPERATION_END_PARAMETERS'
 ms.topic: struct
-f1_keywords: 
- - "winbase/OPERATION_END_PARAMETERS"
+f1_keywords:
+- winbase/OPERATION_END_PARAMETERS
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - OPERATION_END_PARAMETERS
+- OPERATION_END_PARAMETERS
 product: Windows
 targetos: Windows
 req.typenames: OPERATION_END_PARAMETERS, *POPERATION_END_PARAMETERS
@@ -125,7 +125,7 @@ Specifies that the system should discard the information it has been tracking fo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_operation_start_parameters">OPERATION_START_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_start_parameters">OPERATION_START_PARAMETERS</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: devio
 ms.assetid: 96148983-48be-466d-be7f-c1dbf6910c20
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCHANGER_SEND_VOLUME_TAG_INFORMATION, ASSERT_ALTERNATE, ASSERT_PRIMARY, CHANGER_SEND_VOLUME_TAG_INFORMATION, CHANGER_SEND_VOLUME_TAG_INFORMATION structure, PCHANGER_SEND_VOLUME_TAG_INFORMATION, PCHANGER_SEND_VOLUME_TAG_INFORMATION structure pointer, REPLACE_ALTERNATE, REPLACE_PRIMARY, SEARCH_ALL, SEARCH_ALL_NO_SEQ, SEARCH_ALTERNATE, SEARCH_ALT_NO_SEQ, SEARCH_PRIMARY, SEARCH_PRI_NO_SEQ, UNDEFINE_ALTERNATE, UNDEFINE_PRIMARY, _win32_changer_send_volume_tag_information_str, base.changer_send_volume_tag_information_str, winioctl/CHANGER_SEND_VOLUME_TAG_INFORMATION, winioctl/PCHANGER_SEND_VOLUME_TAG_INFORMATION"
+ms.keywords: '*PCHANGER_SEND_VOLUME_TAG_INFORMATION, ASSERT_ALTERNATE, ASSERT_PRIMARY, CHANGER_SEND_VOLUME_TAG_INFORMATION, CHANGER_SEND_VOLUME_TAG_INFORMATION structure, PCHANGER_SEND_VOLUME_TAG_INFORMATION, PCHANGER_SEND_VOLUME_TAG_INFORMATION structure pointer, REPLACE_ALTERNATE, REPLACE_PRIMARY, SEARCH_ALL, SEARCH_ALL_NO_SEQ, SEARCH_ALTERNATE, SEARCH_ALT_NO_SEQ, SEARCH_PRIMARY, SEARCH_PRI_NO_SEQ, UNDEFINE_ALTERNATE, UNDEFINE_PRIMARY, _win32_changer_send_volume_tag_information_str, base.changer_send_volume_tag_information_str, winioctl/CHANGER_SEND_VOLUME_TAG_INFORMATION, winioctl/PCHANGER_SEND_VOLUME_TAG_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/CHANGER_SEND_VOLUME_TAG_INFORMATION"
+f1_keywords:
+- winioctl/CHANGER_SEND_VOLUME_TAG_INFORMATION
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - CHANGER_SEND_VOLUME_TAG_INFORMATION
+- CHANGER_SEND_VOLUME_TAG_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: CHANGER_SEND_VOLUME_TAG_INFORMATION, *PCHANGER_SEND_VOLUME_TAG_INFORMATION
@@ -62,7 +62,7 @@ Contains information that the
 ### -field StartingElement
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_element">CHANGER_ELEMENT</a> structure that represents the starting element for which information is to be retrieved.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a> structure that represents the starting element for which information is to be retrieved.
 
 
 ### -field ActionCode
@@ -280,7 +280,7 @@ The template that the device uses to search for volume IDs. For search operation
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_element">CHANGER_ELEMENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a>
 
 
 

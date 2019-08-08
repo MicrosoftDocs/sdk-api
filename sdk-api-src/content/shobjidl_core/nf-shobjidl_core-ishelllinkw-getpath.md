@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath method [Windows Shell], GetPath method [Windows Shell],IShellLink interface, GetPath method [Windows Shell],IShellLinkA interface, GetPath method [Windows Shell],IShellLinkW interface, IShellLink interface [Windows Shell],GetPath method, IShellLink::GetPath, IShellLinkA interface [Windows Shell],GetPath method, IShellLinkA::GetPath, IShellLinkW interface [Windows Shell],GetPath method, IShellLinkW.GetPath, IShellLinkW::GetPath, SLGP_RAWPATH, SLGP_RELATIVEPRIORITY, SLGP_SHORTPATH, SLGP_UNCPRIORITY, _win32_IShellLink_GetPath, shell.IShellLink_GetPath, shobjidl_core/IShellLink::GetPath, shobjidl_core/IShellLinkA::GetPath, shobjidl_core/IShellLinkW::GetPath
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLink.GetPath"
+f1_keywords:
+- shobjidl_core/IShellLink.GetPath
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellLink.GetPath
- - IShellLinkA.GetPath
- - IShellLinkW.GetPath
+- IShellLink.GetPath
+- IShellLinkA.GetPath
+- IShellLinkW.GetPath
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -77,9 +77,9 @@ The size, in characters, of the buffer pointed to by the <i>pszFile</i> paramete
 
 ### -param pfd [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_win32_find_dataa">WIN32_FIND_DATA</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_win32_find_dataa">WIN32_FIND_DATA</a> structure that receives information about the target of the Shell link object. If this parameter is <b>NULL</b>, then no additional information is returned.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure that receives information about the target of the Shell link object. If this parameter is <b>NULL</b>, then no additional information is returned.
 
 
 ### -param fFlags [in]

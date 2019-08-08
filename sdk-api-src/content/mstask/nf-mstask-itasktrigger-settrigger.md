@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskTrigger interface [Task Scheduler],SetTrigger method, ITaskTrigger.SetTrigger, ITaskTrigger::SetTrigger, SetTrigger, SetTrigger method [Task Scheduler], SetTrigger method [Task Scheduler],ITaskTrigger interface, _msb_itasktrigger_settrigger, mstask/ITaskTrigger::SetTrigger, taskschd.itasktrigger_settrigger
 ms.topic: method
-f1_keywords: 
- - "mstask/ITaskTrigger.SetTrigger"
+f1_keywords:
+- mstask/ITaskTrigger.SetTrigger
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - ITaskTrigger.SetTrigger
+- ITaskTrigger.SetTrigger
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -65,7 +65,7 @@ The
 ### -param pTrigger [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_task_trigger">TASK_TRIGGER</a> structure that contains the values that define the new task trigger.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure that contains the values that define the new task trigger.
 
 
 ## -returns
@@ -124,7 +124,7 @@ Not enough memory is available.
 
 
 The <b>wBeginDay</b>, <b>wBeginMonth</b>, and <b>wBeginYear</b> members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_task_trigger">TASK_TRIGGER</a> structure must be set to a valid day, month, and year respectively.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure must be set to a valid day, month, and year respectively.
 
 A task can have any number of triggers associated with it. The times that the task will run are the union of all the triggers defined for that task.
 
@@ -136,7 +136,7 @@ To update the task with these new trigger settings, applications must call the
 #### Examples
 
 The following code shows the variable declaration and calling syntax for this method, including the required members of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_task_trigger">TASK_TRIGGER</a>. Setting the trigger criteria when creating a new trigger, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/creating-a-new-trigger">Creating a New Trigger</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a>. Setting the trigger criteria when creating a new trigger, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/creating-a-new-trigger">Creating a New Trigger</a>.
 
 
 ```cpp
@@ -182,7 +182,7 @@ if (FAILED(hr))
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-_task_trigger">TASK_TRIGGER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a>
  
 
  

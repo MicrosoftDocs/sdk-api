@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAProviderConfigChange, WSAProviderConfigChange function [Winsock], _win32_wsaproviderconfigchange_2, winsock.wsaproviderconfigchange_2, winsock2/WSAProviderConfigChange
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSAProviderConfigChange"
+f1_keywords:
+- winsock2/WSAProviderConfigChange
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSAProviderConfigChange
+- WSAProviderConfigChange
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ Pointer to notification handle. If the notification handle is set to <b>NULL</b>
 ### -param lpOverlapped [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.
 
 
 ### -param lpCompletionRoutine [in]

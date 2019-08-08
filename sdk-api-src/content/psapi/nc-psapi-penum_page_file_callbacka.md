@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumPageFilesProc, EnumPageFilesProc callback, EnumPageFilesProc callback function [PSAPI], PENUM_PAGE_FILE_CALLBACKA, PENUM_PAGE_FILE_CALLBACKW, _win32_enumpagefilesproc, base.enumpagefilesproc, psapi.enumpagefilesproc, psapi/EnumPageFilesProc, psapi/PENUM_PAGE_FILE_CALLBACKA, psapi/PENUM_PAGE_FILE_CALLBACKW
 ms.topic: callback
-f1_keywords: 
- - "psapi/EnumPageFilesProc"
+f1_keywords:
+- psapi/EnumPageFilesProc
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Psapi.h
+- Psapi.h
 api_name:
- - EnumPageFilesProc
- - PENUM_PAGE_FILE_CALLBACKA
- - PENUM_PAGE_FILE_CALLBACKW
+- EnumPageFilesProc
+- PENUM_PAGE_FILE_CALLBACKA
+- PENUM_PAGE_FILE_CALLBACKW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ The user-defined data passed from
 ### -param pPageFileInfo [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_enum_page_file_information">ENUM_PAGE_FILE_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-enum_page_file_information">ENUM_PAGE_FILE_INFORMATION</a> structure.
 
 
 ### -param lpFilename [in]
@@ -98,7 +98,7 @@ To stop enumeration, the callback function must return FALSE.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_enum_page_file_information">ENUM_PAGE_FILE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-enum_page_file_information">ENUM_PAGE_FILE_INFORMATION</a>
 
 
 

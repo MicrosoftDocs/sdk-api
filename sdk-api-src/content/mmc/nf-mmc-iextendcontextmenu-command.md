@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Command, Command method [MMC], Command method [MMC],IExtendContextMenu interface, IExtendContextMenu interface [MMC],Command method, IExtendContextMenu.Command, IExtendContextMenu::Command, _slate_iextendcontextmenu_command, mmc.iextendcontextmenu_command, mmc/IExtendContextMenu::Command
 ms.topic: method
-f1_keywords: 
- - "mmc/IExtendContextMenu.Command"
+f1_keywords:
+- mmc/IExtendContextMenu.Command
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IExtendContextMenu.Command
+- IExtendContextMenu.Command
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -101,7 +101,7 @@ MMC sends the snap-in the MMCC_STANDARD_VIEW_SELECT command when the user clicks
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_contextmenuitem">CONTEXTMENUITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-contextmenuitem">CONTEXTMENUITEM</a>
 
 
 

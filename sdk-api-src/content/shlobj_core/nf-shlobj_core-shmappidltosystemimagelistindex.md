@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHMapPIDLToSystemImageListIndex, SHMapPIDLToSystemImageListIndex function [Windows Shell], _win32_SHMapPIDLToSystemImageListIndex, shell.SHMapPIDLToSystemImageListIndex, shlobj_core/SHMapPIDLToSystemImageListIndex
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHMapPIDLToSystemImageListIndex"
+f1_keywords:
+- shlobj_core/SHMapPIDLToSystemImageListIndex
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHMapPIDLToSystemImageListIndex
+- SHMapPIDLToSystemImageListIndex
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shob
 
 Type: <b>PCUITEMID_CHILD</b>
 
-A pointer to the item's <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
+A pointer to the item's <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 
 ### -param piIndexSel [out, optional]

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,RegisterPortType method, IWSDDeviceHost.RegisterPortType, IWSDDeviceHost::RegisterPortType, RegisterPortType, RegisterPortType method, RegisterPortType method,IWSDDeviceHost interface, ncd.iwsddevicehost_registerporttype_method, wsdhost/IWSDDeviceHost::RegisterPortType
 ms.topic: method
-f1_keywords: 
- - "wsdhost/IWSDDeviceHost.RegisterPortType"
+f1_keywords:
+- wsdhost/IWSDDeviceHost.RegisterPortType
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDDeviceHost.RegisterPortType
+- IWSDDeviceHost.RegisterPortType
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Registers a port type for incoming messages.  All port types listed in the servi
 
 ### -param pPortType [in]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_port_type">WSD_PORT_TYPE</a> structure that describes the port type. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_port_type">WSD_PORT_TYPE</a> structure that describes the port type. 
 
 
 

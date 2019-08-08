@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_GENERICUSBFN_REGISTER_USB_STRING, IOCTL_GENERICUSBFN_REGISTER_USB_STRING control, IOCTL_GENERICUSBFN_REGISTER_USB_STRING control code [Buses], buses.ioctl_genericusbfn_register_usb_string, genericusbfnioctl/IOCTL_GENERICUSBFN_REGISTER_USB_STRING
 ms.topic: ioctl
-f1_keywords: 
- - "genericusbfnioctl/IOCTL_GENERICUSBFN_REGISTER_USB_STRING"
+f1_keywords:
+- genericusbfnioctl/IOCTL_GENERICUSBFN_REGISTER_USB_STRING
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - GenericUsbFnIoctl.h
+- GenericUsbFnIoctl.h
 api_name:
- - IOCTL_GENERICUSBFN_REGISTER_USB_STRING
+- IOCTL_GENERICUSBFN_REGISTER_USB_STRING
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -111,7 +111,7 @@ None.
 
 This request must be sent after sending the <a href="https://docs.microsoft.com/windows/desktop/api/genericusbfnioctl/ni-genericusbfnioctl-ioctl_genericusbfn_activate_usb_bus">IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS</a> request.
 
-If this I/O control code (IOCTL) is being called synchronously, set the <i>lpOverlapped</i> parameter to NULL. If this IOCTL is called asynchronously, assign the <i>lpOverlapped</i> parameter to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure that contains a handle to an event object. The event objects signal when the operation is completed.
+If this I/O control code (IOCTL) is being called synchronously, set the <i>lpOverlapped</i> parameter to NULL. If this IOCTL is called asynchronously, assign the <i>lpOverlapped</i> parameter to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that contains a handle to an event object. The event objects signal when the operation is completed.
 
 The return value is a BOOL value that indicates success or failure of the operation. TRUE indicates success, FALSE otherwise.
 

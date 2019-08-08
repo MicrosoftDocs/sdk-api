@@ -8,10 +8,10 @@ tech.root: ad
 ms.assetid: 15493b8c-014e-4e69-9e67-40b24d44606d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDS_SELECTION_LIST, DS_SELECTION_LIST, DS_SELECTION_LIST structure [Active Directory], PDS_SELECTION_LIST, PDS_SELECTION_LIST structure pointer [Active Directory], _glines_ds_selection_list, ad.ds__selection__list, ad.ds_selection_list, objsel/DS_SELECTION_LIST, objsel/PDS_SELECTION_LIST"
+ms.keywords: '*PDS_SELECTION_LIST, DS_SELECTION_LIST, DS_SELECTION_LIST structure [Active Directory], PDS_SELECTION_LIST, PDS_SELECTION_LIST structure pointer [Active Directory], _glines_ds_selection_list, ad.ds__selection__list, ad.ds_selection_list, objsel/DS_SELECTION_LIST, objsel/PDS_SELECTION_LIST'
 ms.topic: struct
-f1_keywords: 
- - "objsel/DS_SELECTION_LIST"
+f1_keywords:
+- objsel/DS_SELECTION_LIST
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Objsel.h
+- Objsel.h
 api_name:
- - DS_SELECTION_LIST
+- DS_SELECTION_LIST
 product: Windows
 targetos: Windows
 req.typenames: DS_SELECTION_LIST, *PDS_SELECTION_LIST
@@ -69,12 +69,12 @@ Contains the number of elements in the <b>aDsSelection</b> array.
 ### -field cFetchedAttributes
 
 Contains the number of elements returned in the <b>pvarFetchedAttributes</b> member of each 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_ds_selection">DS_SELECTION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-ds_selection">DS_SELECTION</a> structure.
 
 
 ### -field aDsSelection
 
-Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_ds_selection">DS_SELECTION</a> structures, one for each object selected by the user. The <b>cItems</b> member indicates the number of elements in this array.
+Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-ds_selection">DS_SELECTION</a> structures, one for each object selected by the user. The <b>cItems</b> member indicates the number of elements in this array.
 
 
 ## -see-also
@@ -86,7 +86,7 @@ Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/obj
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_ds_selection">DS_SELECTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-ds_selection">DS_SELECTION</a>
 
 
 

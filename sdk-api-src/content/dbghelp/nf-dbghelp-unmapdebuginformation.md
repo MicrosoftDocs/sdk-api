@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnmapDebugInformation, UnmapDebugInformation function, _win32_unmapdebuginformation, base.unmapdebuginformation, dbghelp/UnmapDebugInformation
 ms.topic: function
-f1_keywords: 
- - "dbghelp/UnmapDebugInformation"
+f1_keywords:
+- dbghelp/UnmapDebugInformation
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - UnmapDebugInformation
+- UnmapDebugInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Deallocates the memory and resources allocated by a call to the
 ### -param DebugInfo [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_image_debug_information">IMAGE_DEBUG_INFORMATION</a> structure that is returned from a call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-image_debug_information">IMAGE_DEBUG_INFORMATION</a> structure that is returned from a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-mapdebuginformation">MapDebugInformation</a>.
 
 
@@ -104,7 +104,7 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_image_debug_information">IMAGE_DEBUG_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-image_debug_information">IMAGE_DEBUG_INFORMATION</a>
 
 
 

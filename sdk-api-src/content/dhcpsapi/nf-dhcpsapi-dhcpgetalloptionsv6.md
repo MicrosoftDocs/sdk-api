@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetAllOptionsV6, DhcpGetAllOptionsV6 function [DHCP], dhcp.dhcpgetalloptionsv6, dhcpsapi/DhcpGetAllOptionsV6
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpGetAllOptionsV6"
+f1_keywords:
+- dhcpsapi/DhcpGetAllOptionsV6
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpGetAllOptionsV6
+- DhcpGetAllOptionsV6
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -89,7 +89,7 @@ This flag should be set if vendor-specific options are desired.
 
 ### -param OptionStruct [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_all_options">DHCP_ALL_OPTIONS</a> structure containing every option defined on the DHCP server. If there are no options available on the server, this value will be null.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_all_options">DHCP_ALL_OPTIONS</a> structure containing every option defined on the DHCP server. If there are no options available on the server, this value will be null.
 
 <div class="alert"><b>Note</b>  <p class="note">The memory for this parameter must be free using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.
 

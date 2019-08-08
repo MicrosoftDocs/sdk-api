@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTopologyNodeAttributeEditor interface [Media Foundation],UpdateNodeAttributes method, IMFTopologyNodeAttributeEditor.UpdateNodeAttributes, IMFTopologyNodeAttributeEditor::UpdateNodeAttributes, UpdateNodeAttributes, UpdateNodeAttributes method [Media Foundation], UpdateNodeAttributes method [Media Foundation],IMFTopologyNodeAttributeEditor interface, a769b0bd-a43f-478b-a6e4-bbef05942616, mf.imftopologynodeattributeeditor_updatenodeattributes, mfidl/IMFTopologyNodeAttributeEditor::UpdateNodeAttributes
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopologyNodeAttributeEditor.UpdateNodeAttributes"
+f1_keywords:
+- mfidl/IMFTopologyNodeAttributeEditor.UpdateNodeAttributes
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopologyNodeAttributeEditor.UpdateNodeAttributes
+- IMFTopologyNodeAttributeEditor.UpdateNodeAttributes
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -75,7 +75,7 @@ The number of elements in the <i>pUpdates</i> array.
 
 ### -param pUpdates [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-_mftoponode_attribute_update">MFTOPONODE_ATTRIBUTE_UPDATE</a> structures. Each element of the array updates one attribute on a node.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mftoponode_attribute_update">MFTOPONODE_ATTRIBUTE_UPDATE</a> structures. Each element of the array updates one attribute on a node.
 
 
 ## -returns

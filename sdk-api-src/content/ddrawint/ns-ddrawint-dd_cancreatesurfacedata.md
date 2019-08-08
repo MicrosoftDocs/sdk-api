@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 35ac7efd-1949-497c-8730-2c4414aed977
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_CANCREATESURFACEDATA, DD_CANCREATESURFACEDATA, DD_CANCREATESURFACEDATA structure [Display Devices], ddrawint/DD_CANCREATESURFACEDATA, ddstrcts_53ef5031-d754-4aab-8729-520852df024a.xml, display.dd_cancreatesurfacedata"
+ms.keywords: '*PDD_CANCREATESURFACEDATA, DD_CANCREATESURFACEDATA, DD_CANCREATESURFACEDATA structure [Display Devices], ddrawint/DD_CANCREATESURFACEDATA, ddstrcts_53ef5031-d754-4aab-8729-520852df024a.xml, display.dd_cancreatesurfacedata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_CANCREATESURFACEDATA"
+f1_keywords:
+- ddrawint/DD_CANCREATESURFACEDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_CANCREATESURFACEDATA
+- DD_CANCREATESURFACEDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_CANCREATESURFACEDATA, DD_CANCREATESURFACEDATA"
+req.typenames: '*PDD_CANCREATESURFACEDATA, DD_CANCREATESURFACEDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,7 +61,7 @@ The DD_CANCREATESURFACEDATA structure contains information necessary to indicate
 
 ### -field lpDD
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device. 
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device. 
 
 
 ### -field lpDDSurfaceDesc

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_SOAP_MESSAGE, WSD_SOAP_MESSAGE structure, ncd.wsd_soap_message_struct, wsdtypes/WSD_SOAP_MESSAGE
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_SOAP_MESSAGE"
+f1_keywords:
+- wsdtypes/WSD_SOAP_MESSAGE
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_SOAP_MESSAGE
+- WSD_SOAP_MESSAGE
 product: Windows
 targetos: Windows
 req.typenames: WSD_SOAP_MESSAGE
@@ -61,7 +61,7 @@ The contents of a WSD SOAP message. This structure is used for <a href="https://
 
 ### -field Header
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_header">WSD_SOAP_HEADER</a> structure that specifies the header of the SOAP message.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_header">WSD_SOAP_HEADER</a> structure that specifies the header of the SOAP message.
 
 
 ### -field Body
@@ -71,7 +71,7 @@ The body of the SOAP message.
 
 ### -field BodyType
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_type">WSDXML_TYPE</a> structure that specifies the type of the SOAP message body.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_type">WSDXML_TYPE</a> structure that specifies the type of the SOAP message body.
 
 
 ## -see-also

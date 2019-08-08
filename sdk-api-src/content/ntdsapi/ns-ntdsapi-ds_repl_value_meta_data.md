@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_VALUE_META_DATA, DS_REPL_VALUE_META_DATA structure [Active Directory], ad.ds_repl_value_meta_data, ntdsapi/DS_REPL_VALUE_META_DATA
 ms.topic: struct
-f1_keywords: 
- - "ntdsapi/DS_REPL_VALUE_META_DATA"
+f1_keywords:
+- ntdsapi/DS_REPL_VALUE_META_DATA
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntdsapi.h
+- Ntdsapi.h
 api_name:
- - DS_REPL_VALUE_META_DATA
+- DS_REPL_VALUE_META_DATA
 product: Windows
 targetos: Windows
 req.typenames: DS_REPL_VALUE_META_DATA
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DS_REPL_VALUE_META_DATA</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_attr_value_meta_data">DS_REPL_ATTR_VALUE_META_DATA</a> structure to contain attribute value replication metadata.
+The <b>DS_REPL_VALUE_META_DATA</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data">DS_REPL_ATTR_VALUE_META_DATA</a> structure to contain attribute value replication metadata.
 
 
 ## -struct-fields
@@ -134,7 +134,7 @@ Contains the USN on the destination server, that is the server from which the <a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_attr_value_meta_data">DS_REPL_ATTR_VALUE_META_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data">DS_REPL_ATTR_VALUE_META_DATA</a>
 
 
 

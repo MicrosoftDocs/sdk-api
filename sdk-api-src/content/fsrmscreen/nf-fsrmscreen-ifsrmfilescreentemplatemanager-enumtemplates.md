@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumTemplates, EnumTemplates method [File Server Resource Manager], EnumTemplates method [File Server Resource Manager],FsrmFileScreenTemplateManager class, EnumTemplates method [File Server Resource Manager],IFsrmFileScreenTemplateManager interface, FsrmFileScreenTemplateManager class [File Server Resource Manager],EnumTemplates method, IFsrmFileScreenTemplateManager interface [File Server Resource Manager],EnumTemplates method, IFsrmFileScreenTemplateManager.EnumTemplates, IFsrmFileScreenTemplateManager::EnumTemplates, fs.ifsrmfilescreentemplatemanager_enumtemplates, fsrm.ifsrmfilescreentemplatemanager_enumtemplates, fsrmscreen/IFsrmFileScreenTemplateManager::EnumTemplates
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenTemplateManager.EnumTemplates"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenTemplateManager.EnumTemplates
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenTemplateManager.EnumTemplates
- - FsrmFileScreenTemplateManager.EnumTemplates
+- IFsrmFileScreenTemplateManager.EnumTemplates
+- FsrmFileScreenTemplateManager.EnumTemplates
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ Enumerates the file screen templates on the server.
 
 ### -param options [in]
 
-The options to use when enumerating the file screen templates. For possible values, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmenumoptions">FsrmEnumOptions</a> enumeration.
+The options to use when enumerating the file screen templates. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmenumoptions">FsrmEnumOptions</a> enumeration.
 
 
 ### -param fileScreenTemplates [out]

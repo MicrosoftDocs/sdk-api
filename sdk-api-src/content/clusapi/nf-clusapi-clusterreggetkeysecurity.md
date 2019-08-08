@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterRegGetKeySecurity, ClusterRegGetKeySecurity function [Failover Cluster], _wolf_clusterreggetkeysecurity, clusapi/ClusterRegGetKeySecurity, mscs.clusterreggetkeysecurity
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterRegGetKeySecurity"
+f1_keywords:
+- clusapi/ClusterRegGetKeySecurity
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterRegGetKeySecurity
+- ClusterRegGetKeySecurity
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ A  <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-informa
 
 ### -param pSecurityDescriptor [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure containing a copy of the requested security descriptor.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure containing a copy of the requested security descriptor.
 
 
 ### -param lpcbSecurityDescriptor [in, out]

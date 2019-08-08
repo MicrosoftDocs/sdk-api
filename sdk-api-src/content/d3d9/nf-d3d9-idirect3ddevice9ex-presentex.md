@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8af2bbce-d370-576f-a879-e996430d3295, IDirect3DDevice9Ex interface [Direct3D 9],PresentEx method, IDirect3DDevice9Ex.PresentEx, IDirect3DDevice9Ex::PresentEx, PresentEx, PresentEx method [Direct3D 9], PresentEx method [Direct3D 9],IDirect3DDevice9Ex interface, d3d9/IDirect3DDevice9Ex::PresentEx, direct3d9.idirect3ddevice9ex_presentex
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DDevice9Ex.PresentEx"
+f1_keywords:
+- d3d9/IDirect3DDevice9Ex.PresentEx
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9Ex.PresentEx
+- IDirect3DDevice9Ex.PresentEx
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -85,9 +85,9 @@ Pointer to a destination window whose client area is taken as the target for thi
 
 ### -param pDirtyRegion [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_rgndata">RGNDATA</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_rgndata">RGNDATA</a> structure indicating the smallest set of pixels that need to be transferred. This value must be <b>NULL</b> unless the swapchain was created with the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dswapeffect">D3DSWAPEFFECT_COPY</a> flag. For more information about swapchains, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/flipping-surfaces">Flipping Surfaces (Direct3D 9)</a>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a> structure indicating the smallest set of pixels that need to be transferred. This value must be <b>NULL</b> unless the swapchain was created with the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dswapeffect">D3DSWAPEFFECT_COPY</a> flag. For more information about swapchains, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/flipping-surfaces">Flipping Surfaces (Direct3D 9)</a>.
 
 If this value is non-<b>NULL</b>, the contained region is expressed in back buffer coordinates. The method takes these rectangles into account when optimizing the presentation by copying only the pixels within the region, or some suitably expanded set of rectangles. This is an aid to optimization only, and the application should not rely on the region being copied exactly. The implementation can choose to copy the whole source rectangle.
 

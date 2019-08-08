@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],StretchRect method, IDirect3DDevice9.StretchRect, IDirect3DDevice9::StretchRect, StretchRect, StretchRect method [Direct3D 9], StretchRect method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::StretchRect, direct3d9.idirect3ddevice9__stretchrect, fef1baf8-c226-1e9b-4d7e-3fad08fc1652
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DDevice9.StretchRect"
+f1_keywords:
+- d3d9/IDirect3DDevice9.StretchRect
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.StretchRect
+- IDirect3DDevice9.StretchRect
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -116,7 +116,7 @@ StretchRect Restrictions
 <ul>
 <li>Driver support varies. See the section on driver support (below) to see which drivers support which source and destination formats.</li>
 <li>The source and destination surfaces must be created in the default memory pool.</li>
-<li>If filtering is specified, you must set the appropriate filter caps (see StretchRectFilterCaps in <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcaps9">D3DCAPS9</a>).</li>
+<li>If filtering is specified, you must set the appropriate filter caps (see StretchRectFilterCaps in <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9">D3DCAPS9</a>).</li>
 <li>Stretching is not supported between source and destination rectangles on the same surface.</li>
 <li>Stretching is not supported if the destination surface is an off-screen plain surface but the source is not.</li>
 <li>You many not stretch between source and destination rectangles if either surface is in a compressed format (see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/using-compressed-textures">Using Compressed Textures (Direct3D 9)</a>).</li>

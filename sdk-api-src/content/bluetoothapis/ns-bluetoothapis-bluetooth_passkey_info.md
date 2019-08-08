@@ -8,10 +8,10 @@ tech.root: bluetooth
 ms.assetid: 18f4c26a-7d71-4af0-a8df-a7722028ff62
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PBLUETOOTH_PASSKEY_INFO, BLUETOOTH_PASSKEY_INFO, BLUETOOTH_PASSKEY_INFO structure [Bluetooth], PBLUETOOTH_PASSKEY_INFO, PBLUETOOTH_PASSKEY_INFO structure pointer [Bluetooth], bluetooth.bluetooth_passkey_info, bluetoothapis/BLUETOOTH_PASSKEY_INFO, bluetoothapis/PBLUETOOTH_PASSKEY_INFO"
+ms.keywords: '*PBLUETOOTH_PASSKEY_INFO, BLUETOOTH_PASSKEY_INFO, BLUETOOTH_PASSKEY_INFO structure [Bluetooth], PBLUETOOTH_PASSKEY_INFO, PBLUETOOTH_PASSKEY_INFO structure pointer [Bluetooth], bluetooth.bluetooth_passkey_info, bluetoothapis/BLUETOOTH_PASSKEY_INFO, bluetoothapis/PBLUETOOTH_PASSKEY_INFO'
 ms.topic: struct
-f1_keywords: 
- - "bluetoothapis/BLUETOOTH_PASSKEY_INFO"
+f1_keywords:
+- bluetoothapis/BLUETOOTH_PASSKEY_INFO
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - BluetoothAPIs.h
+- BluetoothAPIs.h
 api_name:
- - BLUETOOTH_PASSKEY_INFO
+- BLUETOOTH_PASSKEY_INFO
 product: Windows
 targetos: Windows
 req.typenames: BLUETOOTH_PASSKEY_INFO, *PBLUETOOTH_PASSKEY_INFO
@@ -69,7 +69,7 @@ The passkey used for authentication.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ne-bluetoothapis-_bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHODS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHODS</a>
 
 
 

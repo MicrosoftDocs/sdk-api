@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIdentificationData, GetIdentificationData method [VDS], GetIdentificationData method [VDS],IVdsDisk interface, IVdsDisk interface [VDS],GetIdentificationData method, IVdsDisk.GetIdentificationData, IVdsDisk::GetIdentificationData, base.ivdsdisk_getidentificationdata, vds/IVdsDisk::GetIdentificationData
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsDisk.GetIdentificationData"
+f1_keywords:
+- vds/IVdsDisk.GetIdentificationData
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsDisk.GetIdentificationData
+- IVdsDisk.GetIdentificationData
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,9 +64,9 @@ Retrieves information that uniquely identifies a disk.
 
 ### -param pLunInfo [out]
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a>structure allocated and passed in by the caller. VDS allocates memory for the <b>m_szVendorId</b>, 
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>structure allocated and passed in by the caller. VDS allocates memory for the <b>m_szVendorId</b>, 
       <b>m_szProductId</b>, <b>m_szProductRevision</b>, 
-      and <b>m_szSerialNumber</b> member strings, as well as the <b>m_pbPort</b> and   <b>m_pbAddress</b> member strings of each element in the array of <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_interconnect">VDS_INTERCONNECT</a> structures. 
+      and <b>m_szSerialNumber</b> member strings, as well as the <b>m_pbPort</b> and   <b>m_pbAddress</b> member strings of each element in the array of <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_interconnect">VDS_INTERCONNECT</a> structures. 
       Callers must free the strings by using the 
       <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
@@ -117,7 +117,7 @@ VDS implements this method. Callers can only extract LUN information from device
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>
  
 
  

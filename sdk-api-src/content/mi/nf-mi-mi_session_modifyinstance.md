@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Session_ModifyInstance, MI_Session_ModifyInstance function [Windows Management Infrastructure (MI)], mi/MI_Session_ModifyInstance, wmi_v2.mi_session_modifyinstance
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Session_ModifyInstance"
+f1_keywords:
+- mi/MI_Session_ModifyInstance
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Session_ModifyInstance
+- MI_Session_ModifyInstance
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -74,7 +74,7 @@ Runtime type information (RTTI)
 
 ### -param options [in, optional]
 
-Optional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a> value that 
+Optional <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> value that 
       specifies options such as timeouts and how to control the CIM semantics. Specify <b>Null</b> 
       if no operation options are to e sent.
 
@@ -89,13 +89,13 @@ An optional, null-terminated string that represents the namespace name to carry 
 
 ### -param inboundInstance [in]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> that represents the class name and 
+An <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> that represents the class name and 
       key of the instance to be modified on the server.
 
 
 ### -param callbacks [in, optional]
 
-Optional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationcallbacks">MI_OperationCallbacks</a> structure 
+Optional <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationcallbacks">MI_OperationCallbacks</a> structure 
       that defines the operational callbacks to receive the instance result and CIM semantics. To carry out the 
       operation asynchronously, the structure's <b>instanceResult</b> callback member must be 
       specified. If this member is not specified, the client must call the 
@@ -132,7 +132,7 @@ The function will fail if the instance does not exist.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationcallbacks">MI_OperationCallbacks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationcallbacks">MI_OperationCallbacks</a>
 
 
 

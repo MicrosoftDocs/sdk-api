@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_ERROR, EAP_ERROR structure [EAPHost], GUID_EapHost_Cause_CertStoreInaccessible, GUID_EapHost_Cause_EapNegotiationFailed, GUID_EapHost_Cause_EapQecInaccessible, GUID_EapHost_Cause_Generic_AuthFailure, GUID_EapHost_Cause_IdentityUnknown, GUID_EapHost_Cause_MethodDLLNotFound, GUID_EapHost_Cause_MethodDoesNotSupportOperation, GUID_EapHost_Cause_Server_CertExpired, GUID_EapHost_Cause_Server_CertInvalid, GUID_EapHost_Cause_Server_CertNotFound, GUID_EapHost_Cause_Server_CertOtherError, GUID_EapHost_Cause_Server_CertRevoked, GUID_EapHost_Cause_Server_Root_CertNameRequired, GUID_EapHost_Cause_Server_Root_CertNotFound, GUID_EapHost_Cause_ThirdPartyMethod_Host_Reset, GUID_EapHost_Cause_User_Account_OtherProblem, GUID_EapHost_Cause_User_CertExpired, GUID_EapHost_Cause_User_CertInvalid, GUID_EapHost_Cause_User_CertNotFound, GUID_EapHost_Cause_User_CertOtherError, GUID_EapHost_Cause_User_CertRejected, GUID_EapHost_Cause_User_CertRevoked, GUID_EapHost_Cause_User_CredsRejected, GUID_EapHost_Cause_User_Root_CertExpired, GUID_EapHost_Cause_User_Root_CertInvalid, GUID_EapHost_Cause_User_Root_CertNotFound, GUID_EapHost_Cause_XmlMalformed, GUID_EapHost_Default, GUID_EapHost_Help_EapConfigureTypes, GUID_EapHost_Help_FailedAuth, GUID_EapHost_Help_ObtainingCerts, GUID_EapHost_Help_SelectingCerts, GUID_EapHost_Help_SetupEapServer, GUID_EapHost_Help_Troubleshooting, GUID_EapHost_Repair_ContactSysadmin, GUID_EapHost_Repair_Retry_Authentication, GUID_EapHost_Repair_Server_ClientSelectServerCert, GUID_EapHost_Repair_User_AuthFailure, GUID_EapHost_Repair_User_GetNewCert, GUID_EapHost_Repair_User_SelectValidCert, eaphost.eap_error, eaptypes/EAP_ERROR
 ms.topic: struct
-f1_keywords: 
- - "eaptypes/EAP_ERROR"
+f1_keywords:
+- eaptypes/EAP_ERROR
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eaptypes.h
+- eaptypes.h
 api_name:
- - EAP_ERROR
+- EAP_ERROR
 product: Windows
 targetos: Windows
 req.typenames: EAP_ERROR
@@ -66,7 +66,7 @@ Error code from winerror.h.
 
 ### -field type
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_type">EAP_METHOD_TYPE</a> structure that identifies the EAP method that raised the error.
+An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a> structure that identifies the EAP method that raised the error.
 
 
 ### -field dwReasonCode

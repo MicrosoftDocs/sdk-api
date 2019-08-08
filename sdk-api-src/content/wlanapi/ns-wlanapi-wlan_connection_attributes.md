@@ -8,10 +8,10 @@ tech.root: NativeWiFi
 ms.assetid: 91b8058d-faf6-46ee-a03b-f762e9cdae4d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_CONNECTION_ATTRIBUTES, PWLAN_CONNECTION_ATTRIBUTES, PWLAN_CONNECTION_ATTRIBUTES structure pointer [NativeWIFI], WLAN_CONNECTION_ATTRIBUTES, WLAN_CONNECTION_ATTRIBUTES structure [NativeWIFI], nwifi.wlan_connection_attributes, wlanapi/PWLAN_CONNECTION_ATTRIBUTES, wlanapi/WLAN_CONNECTION_ATTRIBUTES"
+ms.keywords: '*PWLAN_CONNECTION_ATTRIBUTES, PWLAN_CONNECTION_ATTRIBUTES, PWLAN_CONNECTION_ATTRIBUTES structure pointer [NativeWIFI], WLAN_CONNECTION_ATTRIBUTES, WLAN_CONNECTION_ATTRIBUTES structure [NativeWIFI], nwifi.wlan_connection_attributes, wlanapi/PWLAN_CONNECTION_ATTRIBUTES, wlanapi/WLAN_CONNECTION_ATTRIBUTES'
 ms.topic: struct
-f1_keywords: 
- - "wlanapi/WLAN_CONNECTION_ATTRIBUTES"
+f1_keywords:
+- wlanapi/WLAN_CONNECTION_ATTRIBUTES
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - WLAN_CONNECTION_ATTRIBUTES
+- WLAN_CONNECTION_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.typenames: WLAN_CONNECTION_ATTRIBUTES, *PWLAN_CONNECTION_ATTRIBUTES
@@ -68,7 +68,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wl
 
 ### -field wlanConnectionMode
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_connection_mode">WLAN_CONNECTION_MODE</a> value that indicates the mode of the connection.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_connection_mode">WLAN_CONNECTION_MODE</a> value that indicates the mode of the connection.
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>Only the <b>wlan_connection_mode_profile</b>  value is supported.
 
@@ -80,12 +80,12 @@ The name of the profile used for the connection. Profile names are case-sensitiv
 
 ### -field wlanAssociationAttributes
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_association_attributes">WLAN_ASSOCIATION_ATTRIBUTES</a> structure  that contains the attributes of the association.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_association_attributes">WLAN_ASSOCIATION_ATTRIBUTES</a> structure  that contains the attributes of the association.
 
 
 ### -field wlanSecurityAttributes
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_security_attributes">WLAN_SECURITY_ATTRIBUTES</a> structure that contains the security attributes of the connection.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_security_attributes">WLAN_SECURITY_ATTRIBUTES</a> structure that contains the security attributes of the connection.
 
 
 ## -see-also

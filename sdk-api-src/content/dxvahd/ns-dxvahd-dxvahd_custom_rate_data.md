@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_CUSTOM_RATE_DATA, DXVAHD_CUSTOM_RATE_DATA structure [Media Foundation], dxvahd/DXVAHD_CUSTOM_RATE_DATA, mf.dxvahd_custom_rate_data
 ms.topic: struct
-f1_keywords: 
- - "dxvahd/DXVAHD_CUSTOM_RATE_DATA"
+f1_keywords:
+- dxvahd/DXVAHD_CUSTOM_RATE_DATA
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - DXVAHD_CUSTOM_RATE_DATA
+- DXVAHD_CUSTOM_RATE_DATA
 product: Windows
 targetos: Windows
 req.typenames: DXVAHD_CUSTOM_RATE_DATA
@@ -61,7 +61,7 @@ Specifies a custom rate for frame-rate conversion or inverse telecine (IVTC).
 
 ### -field CustomRate
 
-The ratio of the output frame rate to the input frame rate, expressed as a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_rational">DXVAHD_RATIONAL</a> structure that holds a rational number.
+The ratio of the output frame rate to the input frame rate, expressed as a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_rational">DXVAHD_RATIONAL</a> structure that holds a rational number.
 
 
 ### -field OutputFrames

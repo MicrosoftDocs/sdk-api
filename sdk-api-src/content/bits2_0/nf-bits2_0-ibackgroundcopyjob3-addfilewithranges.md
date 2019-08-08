@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddFileWithRanges, AddFileWithRanges method [BITS], AddFileWithRanges method [BITS],IBackgroundCopyJob3 interface, IBackgroundCopyJob3 interface [BITS],AddFileWithRanges method, IBackgroundCopyJob3.AddFileWithRanges, IBackgroundCopyJob3::AddFileWithRanges, bits.ibackgroundcopyjob3_addfilewithranges, bits2_0/IBackgroundCopyJob3::AddFileWithRanges
 ms.topic: method
-f1_keywords: 
- - "bits2_0/IBackgroundCopyJob3.AddFileWithRanges"
+f1_keywords:
+- bits2_0/IBackgroundCopyJob3.AddFileWithRanges
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Bits.lib
 req.dll: BitsPrx3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - BitsPrx3.dll
+- BitsPrx3.dll
 api_name:
- - IBackgroundCopyJob3.AddFileWithRanges
+- IBackgroundCopyJob3.AddFileWithRanges
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ Adds a file to a download job and specifies the ranges of the file you want to d
 
 ### -param RemoteUrl [in]
 
-Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-_bg_file_info">BG_FILE_INFO</a> structure. 
+Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_file_info">BG_FILE_INFO</a> structure. 
 
 
 
@@ -72,7 +72,7 @@ Null-terminated string that contains the name of the file on the server. For inf
 
 ### -param LocalName [in]
 
-Null-terminated string that contains the name of the file on the client. For information on specifying the local name, see the <b>LocalName</b> member and Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-_bg_file_info">BG_FILE_INFO</a> structure.
+Null-terminated string that contains the name of the file on the client. For information on specifying the local name, see the <b>LocalName</b> member and Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_file_info">BG_FILE_INFO</a> structure.
 
 
 ### -param RangeCount [in]
@@ -82,7 +82,7 @@ Number of elements in <i>Ranges</i>.
 
 ### -param Ranges [in]
 
-Array of one or more <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/ns-bits2_0-_bg_file_range">BG_FILE_RANGE</a> structures that specify the ranges to download. Do not specify duplicate or overlapping ranges. 
+Array of one or more <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/ns-bits2_0-bg_file_range">BG_FILE_RANGE</a> structures that specify the ranges to download. Do not specify duplicate or overlapping ranges. 
 
 
 ## -returns
@@ -286,7 +286,7 @@ The following example shows how to call the <b>AddFileWithRanges</b> method to s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/ns-bits2_0-_bg_file_range">BG_FILE_RANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/ns-bits2_0-bg_file_range">BG_FILE_RANGE</a>
 
 
 

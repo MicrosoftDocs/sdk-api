@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 3d38f69d-2808-4e52-a3da-b6142578c981
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_HOST_INFO, DHCP_HOST_INFO, DHCP_HOST_INFO structure [DHCP], LPDHCP_HOST_INFO, LPDHCP_HOST_INFO structure pointer [DHCP], dhcp.dhcp_host_info, dhcpsapi/LPDHCP_HOST_INFO, dhcpsapi/_DHCP_HOST_INFO"
+ms.keywords: '*LPDHCP_HOST_INFO, DHCP_HOST_INFO, DHCP_HOST_INFO structure [DHCP], LPDHCP_HOST_INFO, LPDHCP_HOST_INFO structure pointer [DHCP], dhcp.dhcp_host_info, dhcpsapi/LPDHCP_HOST_INFO, dhcpsapi/_DHCP_HOST_INFO'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_HOST_INFO"
+f1_keywords:
+- dhcpsapi/DHCP_HOST_INFO
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_HOST_INFO
+- DHCP_HOST_INFO
 product: Windows
 targetos: Windows
 req.typenames: DHCP_HOST_INFO, *LPDHCP_HOST_INFO
@@ -89,7 +89,7 @@ When this structure is populated by the DHCP Server, the <b>HostName</b> and <b>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_data_v5">DHCP_SUBNET_ELEMENT_DATA_V5</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data_v5">DHCP_SUBNET_ELEMENT_DATA_V5</a>
  
 
  

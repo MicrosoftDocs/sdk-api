@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_SerializerFT, MI_SerializerFT structure [Windows Management Infrastructure (MI)], mi/MI_SerializerFT, wmi_v2.mi_serializerft
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_SerializerFT"
+f1_keywords:
+- mi/MI_SerializerFT
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_SerializerFT
+- MI_SerializerFT
 product: Windows
 targetos: Windows
 req.typenames: MI_SerializerFT
@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 A support structure used in the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_clientft_v1">MI_ClientFT_V1</a> structure. Use the functions with the 
+     <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_clientft_v1">MI_ClientFT_V1</a> structure. Use the functions with the 
      name prefix "MI_Serializer_" to manipulate these structures.
 
 
@@ -76,14 +76,14 @@ Closes a serializer object and frees any internal memory associated with it. See
 
 #### - SerializeClass
 
-Serializes an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_class">MI_Class</a> into a buffer in the format 
+Serializes an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> into a buffer in the format 
        specified when it was created. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_serializeclass">MI_Serializer_SerializeClass</a>.
 
 
 #### - SerializeInstance
 
-Serializes an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> into a buffer in the 
+Serializes an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> into a buffer in the 
        format specified when the serializer was created. See 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_serializeinstance">MI_Serializer_SerializeInstance</a>.
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSS_CAPTURE_FLAGS, PSS_CAPTURE_FLAGS enumeration, PSS_CAPTURE_HANDLES, PSS_CAPTURE_HANDLE_BASIC_INFORMATION, PSS_CAPTURE_HANDLE_NAME_INFORMATION, PSS_CAPTURE_HANDLE_TRACE, PSS_CAPTURE_HANDLE_TYPE_SPECIFIC_INFORMATION, PSS_CAPTURE_NONE, PSS_CAPTURE_RESERVED_00000002, PSS_CAPTURE_RESERVED_00000400, PSS_CAPTURE_THREADS, PSS_CAPTURE_THREAD_CONTEXT, PSS_CAPTURE_THREAD_CONTEXT_EXTENDED, PSS_CAPTURE_VA_CLONE, PSS_CAPTURE_VA_SPACE, PSS_CAPTURE_VA_SPACE_SECTION_INFORMATION, PSS_CREATE_BREAKAWAY, PSS_CREATE_BREAKAWAY_OPTIONAL, PSS_CREATE_FORCE_BREAKAWAY, PSS_CREATE_MEASURE_PERFORMANCE, PSS_CREATE_RELEASE_SECTION, PSS_CREATE_USE_VM_ALLOCATIONS, proc_snap.pss_capture_flags, processsnapshot/PSS_CAPTURE_FLAGS, processsnapshot/PSS_CAPTURE_HANDLES, processsnapshot/PSS_CAPTURE_HANDLE_BASIC_INFORMATION, processsnapshot/PSS_CAPTURE_HANDLE_NAME_INFORMATION, processsnapshot/PSS_CAPTURE_HANDLE_TRACE, processsnapshot/PSS_CAPTURE_HANDLE_TYPE_SPECIFIC_INFORMATION, processsnapshot/PSS_CAPTURE_NONE, processsnapshot/PSS_CAPTURE_RESERVED_00000002, processsnapshot/PSS_CAPTURE_RESERVED_00000400, processsnapshot/PSS_CAPTURE_THREADS, processsnapshot/PSS_CAPTURE_THREAD_CONTEXT, processsnapshot/PSS_CAPTURE_THREAD_CONTEXT_EXTENDED, processsnapshot/PSS_CAPTURE_VA_CLONE, processsnapshot/PSS_CAPTURE_VA_SPACE, processsnapshot/PSS_CAPTURE_VA_SPACE_SECTION_INFORMATION, processsnapshot/PSS_CREATE_BREAKAWAY, processsnapshot/PSS_CREATE_BREAKAWAY_OPTIONAL, processsnapshot/PSS_CREATE_FORCE_BREAKAWAY, processsnapshot/PSS_CREATE_MEASURE_PERFORMANCE, processsnapshot/PSS_CREATE_RELEASE_SECTION, processsnapshot/PSS_CREATE_USE_VM_ALLOCATIONS
 ms.topic: enum
-f1_keywords: 
- - "processsnapshot/PSS_CAPTURE_FLAGS"
+f1_keywords:
+- processsnapshot/PSS_CAPTURE_FLAGS
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - processsnapshot.h
+- processsnapshot.h
 api_name:
- - PSS_CAPTURE_FLAGS
+- PSS_CAPTURE_FLAGS
 product: Windows
 targetos: Windows
 req.typenames: PSS_CAPTURE_FLAGS
@@ -121,7 +121,7 @@ Capture extended context for each thread (e.g. <b>CONTEXT_XSTATE</b>).
 
 ### -field PSS_CAPTURE_VA_SPACE
 
-Capture a snapshot of the virtual address space. The VA space is captured as an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_memory_basic_information">MEMORY_BASIC_INFORMATION</a> structures. This flag does not capture the contents of the pages.
+Capture a snapshot of the virtual address space. The VA space is captured as an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-memory_basic_information">MEMORY_BASIC_INFORMATION</a> structures. This flag does not capture the contents of the pages.
 
 
 ### -field PSS_CAPTURE_VA_SPACE_SECTION_INFORMATION

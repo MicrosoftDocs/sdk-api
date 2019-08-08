@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetTcpEntry, SetTcpEntry function [IP Helper], _iphlp_settcpentry, iphlp.settcpentry, iphlpapi/SetTcpEntry
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/SetTcpEntry"
+f1_keywords:
+- iphlpapi/SetTcpEntry
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - SetTcpEntry
+- SetTcpEntry
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ The
 ### -param pTcpRow [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_lh">MIB_TCPROW</a> structure. This structure specifies information to identify the TCP connection to modify. It also specifies the new state for the TCP connection. The caller must specify values for all the members in this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a> structure. This structure specifies information to identify the TCP connection to modify. It also specifies the new state for the TCP connection. The caller must specify values for all the members in this structure.
 
 
 ## -returns
@@ -97,7 +97,7 @@ Access is denied. This error is returned on Windows Vista and Windows Server 2
 </dl>
 </td>
 <td width="60%">
-An input parameter is invalid, no action was taken.  This error is returned if the <i>pTcpRow</i> parameter is <b>NULL</b> or the <b>Row</b> member in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_lh">MIB_TCPROW</a> structure pointed to by the <i>pTcpRow</i> parameter is not set to MIB_TCP_STATE_DELETE_TCB.
+An input parameter is invalid, no action was taken.  This error is returned if the <i>pTcpRow</i> parameter is <b>NULL</b> or the <b>Row</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a> structure pointed to by the <i>pTcpRow</i> parameter is not set to MIB_TCP_STATE_DELETE_TCB.
 
 </td>
 </tr>
@@ -169,7 +169,7 @@ The <b>SetTcpEntry</b> function can also fail because of user account control (U
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_lh">MIB_TCPROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ControlService, ControlService function, SERVICE_CONTROL_CONTINUE, SERVICE_CONTROL_INTERROGATE, SERVICE_CONTROL_NETBINDADD, SERVICE_CONTROL_NETBINDDISABLE, SERVICE_CONTROL_NETBINDENABLE, SERVICE_CONTROL_NETBINDREMOVE, SERVICE_CONTROL_PARAMCHANGE, SERVICE_CONTROL_PAUSE, SERVICE_CONTROL_STOP, _win32_controlservice, base.controlservice, winsvc/ControlService
 ms.topic: function
-f1_keywords: 
- - "winsvc/ControlService"
+f1_keywords:
+- winsvc/ControlService
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,18 +30,18 @@ req.lib: AdvApi32.lib
 req.dll: AdvApi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - AdvApi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - sechost.dll
- - API-MS-Win-Service-Winsvc-l1-1-0.dll
- - API-MS-Win-Service-Winsvc-l1-2-0.dll
+- AdvApi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- sechost.dll
+- API-MS-Win-Service-Winsvc-l1-1-0.dll
+- API-MS-Win-Service-Winsvc-l1-2-0.dll
 api_name:
- - ControlService
+- ControlService
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -241,7 +241,7 @@ The service defines the action associated with the control code. The <i>hService
 
 ### -param lpServiceStatus [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status">SERVICE_STATUS</a> structure that 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_status">SERVICE_STATUS</a> structure that 
       receives the latest service status information. The information returned reflects the most recent status that 
       the service reported to the service control manager.
       
@@ -406,7 +406,7 @@ To stop and start a service requires a security descriptor that allows you to do
     <a href="https://docs.microsoft.com/windows/desktop/Services/modifying-the-dacl-for-a-service">Modifying the DACL for a Service</a>.
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex">QueryServiceStatusEx</a> function returns a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status_process">SERVICE_STATUS_PROCESS</a> structure 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_status_process">SERVICE_STATUS_PROCESS</a> structure 
     whose <b>dwCurrentState</b> and <b>dwControlsAccepted</b> members indicate 
     the current state and controls accepted by a running service. All running services accept the 
     <b>SERVICE_CONTROL_INTERROGATE</b> control code by default. Drivers do not accept control codes 
@@ -494,7 +494,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Services
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status">SERVICE_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_status">SERVICE_STATUS</a>
 
 
 

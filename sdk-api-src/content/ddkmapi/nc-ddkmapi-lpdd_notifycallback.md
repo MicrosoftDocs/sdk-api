@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPDD_NOTIFYCALLBACK, LPDD_NOTIFYCALLBACK callback, NotifyCallback, NotifyCallback callback function [Display Devices], ddfncs_89344672-ba6d-42b3-a03e-dd832316d9c9.xml, ddkmapi/NotifyCallback, display.notifycallback
 ms.topic: callback
-f1_keywords: 
- - "ddkmapi/NotifyCallback"
+f1_keywords:
+- ddkmapi/NotifyCallback
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ddkmapi.h
+- ddkmapi.h
 api_name:
- - NotifyCallback
+- NotifyCallback
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -265,39 +265,39 @@ A video capture driver supplies a <i>NotifyCallback</i> callback function to the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-_ddopendirectdrawin">DDOPENDIRECTDRAWIN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopendirectdrawin">DDOPENDIRECTDRAWIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-_ddopendirectdrawout">DDOPENDIRECTDRAWOUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopendirectdrawout">DDOPENDIRECTDRAWOUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-_ddopensurfacein">DDOPENSURFACEIN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopensurfacein">DDOPENSURFACEIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-_ddopensurfaceout">DDOPENSURFACEOUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopensurfaceout">DDOPENSURFACEOUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-_ddopenvideoportin">DDOPENVIDEOPORTIN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopenvideoportin">DDOPENVIDEOPORTIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-_ddopenvideoportout">DDOPENVIDEOPORTOUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopenvideoportout">DDOPENVIDEOPORTOUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-_ddopenvpcapturedevicein">DDOPENVPCAPTUREDEVICEIN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopenvpcapturedevicein">DDOPENVPCAPTUREDEVICEIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-_ddopenvpcapturedeviceout">DDOPENVPCAPTUREDEVICEOUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddopenvpcapturedeviceout">DDOPENVPCAPTUREDEVICEOUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-_ddregistercallback">DDREGISTERCALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddregistercallback">DDREGISTERCALLBACK</a>
 
 
 

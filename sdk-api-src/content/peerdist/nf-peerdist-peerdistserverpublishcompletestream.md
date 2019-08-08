@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerPublishCompleteStream, PeerDistServerPublishCompleteStream function [Peer Networking], p2p.peerdistserverpublishcompletestream, peerdist/PeerDistServerPublishCompleteStream
 ms.topic: function
-f1_keywords: 
- - "peerdist/PeerDistServerPublishCompleteStream"
+f1_keywords:
+- peerdist/PeerDistServerPublishCompleteStream
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PeerDist.dll
+- PeerDist.dll
 api_name:
- - PeerDistServerPublishCompleteStream
+- PeerDistServerPublishCompleteStream
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ A PEERDIST_STREAM_HANDLE returned  by <a href="https://docs.microsoft.com/window
 
 ### -param lpOverlapped [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure. The <b>Offset</b> and <b>OffsetHigh</b> are reserved and must be zero.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. The <b>Offset</b> and <b>OffsetHigh</b> are reserved and must be zero.
 
 
 ## -returns

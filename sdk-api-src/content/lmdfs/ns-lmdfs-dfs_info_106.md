@@ -8,10 +8,10 @@ tech.root: Dfs
 ms.assetid: 12c114e4-f978-4423-85a8-ec0cf9c9e8c5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDFS_INFO_106, *PDFS_INFO_106, DFS_INFO_106, DFS_INFO_106 structure [Distributed File System], DFS_STORAGE_STATES, DFS_STORAGE_STATE_OFFLINE, DFS_STORAGE_STATE_ONLINE, LPDFS_INFO_106, LPDFS_INFO_106 structure pointer [Distributed File System], PDFS_INFO_106, PDFS_INFO_106 structure pointer [Distributed File System], dfs.dfs_info_106, fs.dfs_info_106, lmdfs/DFS_INFO_106, lmdfs/LPDFS_INFO_106, lmdfs/PDFS_INFO_106, netmgmt.dfs_info_106"
+ms.keywords: '*LPDFS_INFO_106, *PDFS_INFO_106, DFS_INFO_106, DFS_INFO_106 structure [Distributed File System], DFS_STORAGE_STATES, DFS_STORAGE_STATE_OFFLINE, DFS_STORAGE_STATE_ONLINE, LPDFS_INFO_106, LPDFS_INFO_106 structure pointer [Distributed File System], PDFS_INFO_106, PDFS_INFO_106 structure pointer [Distributed File System], dfs.dfs_info_106, fs.dfs_info_106, lmdfs/DFS_INFO_106, lmdfs/LPDFS_INFO_106, lmdfs/PDFS_INFO_106, netmgmt.dfs_info_106'
 ms.topic: struct
-f1_keywords: 
- - "lmdfs/DFS_INFO_106"
+f1_keywords:
+- lmdfs/DFS_INFO_106
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - LmDfs.h
+- LmDfs.h
 api_name:
- - DFS_INFO_106
+- DFS_INFO_106
 product: Windows
 targetos: Windows
 req.typenames: DFS_INFO_106, *PDFS_INFO_106, *LPDFS_INFO_106
@@ -85,7 +85,7 @@ Mask value that indicates which storage flags are set.
 ### -field TargetPriority
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_target_priority">DFS_TARGET_PRIORITY</a> structure that contains the specific priority class and rank of a DFS target.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_target_priority">DFS_TARGET_PRIORITY</a> structure that contains the specific priority class and rank of a DFS target.
 
 
 ## -see-also

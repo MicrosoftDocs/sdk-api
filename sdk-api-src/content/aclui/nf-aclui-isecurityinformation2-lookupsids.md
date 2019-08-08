@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation2 interface [Security],LookupSids method, ISecurityInformation2.LookupSids, ISecurityInformation2::LookupSids, LookupSids, LookupSids method [Security], LookupSids method [Security],ISecurityInformation2 interface, _win32_isecurityinformation2_lookupsids, aclui/ISecurityInformation2::LookupSids, security.isecurityinformation2_lookupsids
 ms.topic: method
-f1_keywords: 
- - "aclui/ISecurityInformation2.LookupSids"
+f1_keywords:
+- aclui/ISecurityInformation2.LookupSids
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Aclui.h
+- Aclui.h
 api_name:
- - ISecurityInformation2.LookupSids
+- ISecurityInformation2.LookupSids
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,18 +62,18 @@ The <b>LookupSids</b> method returns the common names corresponding to each of t
 ### -param cSids [in]
 
 The number of 
-pointers to  <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structures pointed to by <i>rgpSids</i>.
+pointers to  <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures pointed to by <i>rgpSids</i>.
 
 
 ### -param rgpSids [in]
 
-A pointer to an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structures.
+A pointer to an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures.
 
 
 ### -param ppdo [out]
 
 A pointer to a pointer to a returned data transfer object that contains the common names of the SIDs. Optionally, this parameter also returns the user principal name (UPN) of the SIDs in the <i>rgpSids</i> parameter. The data transfer object is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_sid_info">SID_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-sid_info">SID_INFO</a> structure.
 
 
 ## -returns
@@ -144,15 +144,15 @@ typedef struct _SID_INFO_LIST
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_sid_info">SID_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-sid_info">SID_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_sid_info_list">SID_INFO_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-sid_info_list">SID_INFO_LIST</a>
  
 
  

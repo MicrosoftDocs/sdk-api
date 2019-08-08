@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHOpenWithDialog, SHOpenWithDialog function [Windows Shell], _shell_SHOpenWithDialog, shell.SHOpenWithDialog, shlobj_core/SHOpenWithDialog
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHOpenWithDialog"
+f1_keywords:
+- shlobj_core/SHOpenWithDialog
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - SHOpenWithDialog
+- SHOpenWithDialog
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -70,9 +70,9 @@ The handle of the parent window. This value can be <b>NULL</b>.
 
 ### -param poainfo [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_openasinfo">OPENASINFO</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-openasinfo">OPENASINFO</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_openasinfo">OPENASINFO</a> structure, which specifies the contents of the resulting dialog.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-openasinfo">OPENASINFO</a> structure, which specifies the contents of the resulting dialog.
 
 
 ## -returns

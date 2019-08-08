@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvEnablePDEV, DrvEnablePDEV function [Display Devices], ddifncs_62a5b81b-a608-4da0-8315-3268fb6f65da.xml, display.drvenablepdev, winddi/DrvEnablePDEV
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvEnablePDEV"
+f1_keywords:
+- winddi/DrvEnablePDEV
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvEnablePDEV
+- DrvEnablePDEV
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -170,7 +170,7 @@ Specifies the size of the buffer pointed to by <i>pdevcaps</i>. The driver must 
 
 ### -param pdevcaps [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo">GDIINFO</a> structure that will be used to describe device capabilities. GDI zero-initializes this structure calling <b>DrvEnablePDEV</b>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure that will be used to describe device capabilities. GDI zero-initializes this structure calling <b>DrvEnablePDEV</b>.
 
 
 ### -param cjDevInfo
@@ -279,7 +279,7 @@ GDI zero-initializes the buffer pointed to by <i>phsurfPatterns</i> before calli
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo">GDIINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>
  
 
  

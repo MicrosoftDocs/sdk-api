@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WM_MEDIA_TYPE, WM_MEDIA_TYPE structure [windows Media Format], wmformat.wm_media_type, wmsdkidl/WM_MEDIA_TYPE
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WM_MEDIA_TYPE"
+f1_keywords:
+- wmsdkidl/WM_MEDIA_TYPE
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WM_MEDIA_TYPE
+- WM_MEDIA_TYPE
 product: Windows
 targetos: Windows
 req.typenames: WM_MEDIA_TYPE
@@ -130,7 +130,7 @@ Pointer to the format structure of the media type. The structure referenced is d
 <tr>
 <td>WMFORMAT_WebStream</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmt_webstream_format">WMT_WEBSTREAM_FORMAT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_webstream_format">WMT_WEBSTREAM_FORMAT</a>
 </td>
 </tr>
 <tr>

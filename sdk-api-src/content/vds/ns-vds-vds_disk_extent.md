@@ -8,10 +8,10 @@ tech.root: VDS
 ms.assetid: 79fa7b8a-9d24-49ab-8e5d-1471b023c459
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVDS_DISK_EXTENT, PVDS_DISK_EXTENT, PVDS_DISK_EXTENT structure pointer [VDS], VDS_DISK_EXTENT, VDS_DISK_EXTENT structure [VDS], base.vds_disk_extent, vds/PVDS_DISK_EXTENT, vds/_VDS_DISK_EXTENT"
+ms.keywords: '*PVDS_DISK_EXTENT, PVDS_DISK_EXTENT, PVDS_DISK_EXTENT structure pointer [VDS], VDS_DISK_EXTENT, VDS_DISK_EXTENT structure [VDS], base.vds_disk_extent, vds/PVDS_DISK_EXTENT, vds/_VDS_DISK_EXTENT'
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_DISK_EXTENT"
+f1_keywords:
+- vds/VDS_DISK_EXTENT
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - VDS_DISK_EXTENT
+- VDS_DISK_EXTENT
 product: Windows
 targetos: Windows
 req.typenames: VDS_DISK_EXTENT, *PVDS_DISK_EXTENT
@@ -69,7 +69,7 @@ The GUID of the disk.
 
 ### -field type
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_disk_extent_type">VDS_DISK_EXTENT_TYPE</a> enumeration value that specifies the type of the disk extent.
+A <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_disk_extent_type">VDS_DISK_EXTENT_TYPE</a> enumeration value that specifies the type of the disk extent.
 
 
 ### -field ullOffset
@@ -140,7 +140,7 @@ A disk extent is a contiguous set of blocks on a single disk or LUN handled by a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_disk_extent_type">VDS_DISK_EXTENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_disk_extent_type">VDS_DISK_EXTENT_TYPE</a>
  
 
  

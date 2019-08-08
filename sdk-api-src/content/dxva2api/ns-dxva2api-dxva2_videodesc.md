@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0e500a08-a3b5-475c-8bbc-e4b30cce247d, DXVA2_VideoDesc, DXVA2_VideoDesc structure [Media Foundation], dxva2api/DXVA2_VideoDesc, mf.dxva2_videodesc
 ms.topic: struct
-f1_keywords: 
- - "dxva2api/DXVA2_VideoDesc"
+f1_keywords:
+- dxva2api/DXVA2_VideoDesc
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - DXVA2_VideoDesc
+- DXVA2_VideoDesc
 product: Windows
 targetos: Windows
 req.typenames: DXVA2_VideoDesc
@@ -74,7 +74,7 @@ Height of the video frame, in pixels.
 
 ### -field SampleFormat
 
-Additional details about the video format, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
+Additional details about the video format, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
           
 
 
@@ -86,13 +86,13 @@ Surface format, specified as a <b>D3DFORMAT</b> value or FOURCC code. A FOURCC c
 
 ### -field InputSampleFreq
 
-Frame rate of the input video stream, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_frequency">DXVA2_Frequency</a> structure.
+Frame rate of the input video stream, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_frequency">DXVA2_Frequency</a> structure.
           
 
 
 ### -field OutputFrameFreq
 
-Frame rate of the output video, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_frequency">DXVA2_Frequency</a> structure.
+Frame rate of the output video, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_frequency">DXVA2_Frequency</a> structure.
           
 
 

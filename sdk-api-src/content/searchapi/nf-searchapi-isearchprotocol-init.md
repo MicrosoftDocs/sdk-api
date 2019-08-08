@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchProtocol interface [search],Init method, ISearchProtocol.Init, ISearchProtocol::Init, Init, Init method [search], Init method [search],ISearchProtocol interface, _search_ISearchProtocol_Init, search._search_ISearchProtocol_Init, searchapi/ISearchProtocol::Init
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchProtocol.Init"
+f1_keywords:
+- searchapi/ISearchProtocol.Init
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchProtocol.Init
+- ISearchProtocol.Init
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,9 +62,9 @@ Initializes a protocol handler.
 
 ### -param pTimeoutInfo [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_timeout_info">TIMEOUT_INFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-timeout_info">TIMEOUT_INFO</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_timeout_info">TIMEOUT_INFO</a> structure that contains information about connection time-outs. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-timeout_info">TIMEOUT_INFO</a> structure that contains information about connection time-outs. 
                 
 
 
@@ -78,9 +78,9 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/
 
 ### -param pProxyInfo [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_proxy_info">PROXY_INFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-proxy_info">PROXY_INFO</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-_proxy_info">PROXY_INFO</a> structure that contains information about the proxy settings necessary for accessing items in the content source.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-proxy_info">PROXY_INFO</a> structure that contains information about the proxy settings necessary for accessing items in the content source.
                 
 
 

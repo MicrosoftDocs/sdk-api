@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_DatetimeA, MI_DatetimeA structure [Windows Management Infrastructure (MI)], mi/MI_DatetimeA, wmi._mi_datetimea, wmi_v2.mi_datetimea
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_DatetimeA"
+f1_keywords:
+- mi/MI_DatetimeA
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_DatetimeA
+- MI_DatetimeA
 product: Windows
 targetos: Windows
 req.typenames: MI_DatetimeA
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_datetime">MI_Datetime</a> types.
+Represents an array of <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_datetime">MI_Datetime</a> types.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Represents an array of <a href="https://docs.microsoft.com/previous-versions/win
 
 ### -field data
 
-An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_datetime">MI_Datetime</a> types.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_datetime">MI_Datetime</a> types.
 
 
 ### -field size

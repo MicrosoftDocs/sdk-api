@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_IS_VOLUME_OWNED_BYCSVFS, FSCTL_IS_VOLUME_OWNED_BYCSVFS control, FSCTL_IS_VOLUME_OWNED_BYCSVFS control code [Files], fs.fsctl_is_volume_owned_bycsvfs, winioctl/FSCTL_IS_VOLUME_OWNED_BYCSVFS
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_IS_VOLUME_OWNED_BYCSVFS"
+f1_keywords:
+- winioctl/FSCTL_IS_VOLUME_OWNED_BYCSVFS
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_IS_VOLUME_OWNED_BYCSVFS
+- FSCTL_IS_VOLUME_OWNED_BYCSVFS
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -153,7 +153,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 If the volume is locked on behalf of CSVFS, the control code returns information that is sent to an NTFS 
     volume. If the volume is locked (using <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lock_volume">FSCTL_LOCK_VOLUME</a>) 
     from a request that originates from CSVFS, then the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_is_owned_by_csvfs">CSV_IS_OWNED_BY_CSVFS</a> structure's 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_is_owned_by_csvfs">CSV_IS_OWNED_BY_CSVFS</a> structure's 
     <b>OwnedByCSVFS</b> member has a value of <b>TRUE</b>.
 
 
@@ -164,7 +164,7 @@ If the volume is locked on behalf of CSVFS, the control code returns information
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_is_owned_by_csvfs">CSV_IS_OWNED_BY_CSVFS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-csv_is_owned_by_csvfs">CSV_IS_OWNED_BY_CSVFS</a>
 
 
 

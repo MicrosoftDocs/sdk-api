@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_EXCHANGE_MEDIUM, IOCTL_CHANGER_EXCHANGE_MEDIUM control, IOCTL_CHANGER_EXCHANGE_MEDIUM control code, _win32_ioctl_changer_exchange_medium, base.ioctl_changer_exchange_medium, winioctl/IOCTL_CHANGER_EXCHANGE_MEDIUM
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_CHANGER_EXCHANGE_MEDIUM"
+f1_keywords:
+- winioctl/IOCTL_CHANGER_EXCHANGE_MEDIUM
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_CHANGER_EXCHANGE_MEDIUM
+- IOCTL_CHANGER_EXCHANGE_MEDIUM
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -157,7 +157,7 @@ To swap two pieces of media, specify the source as the value for the second dest
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_exchange_medium">CHANGER_EXCHANGE_MEDIUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_exchange_medium">CHANGER_EXCHANGE_MEDIUM</a>
 
 
 

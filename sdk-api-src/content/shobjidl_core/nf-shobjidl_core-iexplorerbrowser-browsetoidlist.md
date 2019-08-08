@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BrowseToIDList, BrowseToIDList method [Windows Shell], BrowseToIDList method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],BrowseToIDList method, IExplorerBrowser.BrowseToIDList, IExplorerBrowser::BrowseToIDList, SBSP_ABSOLUTE, SBSP_KEEPWORDWHEELTEXT, SBSP_NAVIGATEBACK, SBSP_NAVIGATEFORWARD, SBSP_PARENT, SBSP_RELATIVE, _shell_IExplorerBrowser_BrowseToIDList, shell.IExplorerBrowser_BrowseToIDList, shobjidl_core/IExplorerBrowser::BrowseToIDList
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerBrowser.BrowseToIDList"
+f1_keywords:
+- shobjidl_core/IExplorerBrowser.BrowseToIDList
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerBrowser.BrowseToIDList
+- IExplorerBrowser.BrowseToIDList
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Browses to a pointer to an item identifier list (PIDL)
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A pointer to a const <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> (item identifier list) that specifies an object's location as the destination to navigate to. This parameter can be <b>NULL</b>. For more information, see Remarks.
+A pointer to a const <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> (item identifier list) that specifies an object's location as the destination to navigate to. This parameter can be <b>NULL</b>. For more information, see Remarks.
 
 
 ### -param uFlags [in]

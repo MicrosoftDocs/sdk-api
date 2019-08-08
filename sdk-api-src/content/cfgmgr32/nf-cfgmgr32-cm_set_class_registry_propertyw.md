@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Set_Class_Registry_Property, CM_Set_Class_Registry_Property function [Device and Driver Installation], CM_Set_Class_Registry_PropertyW, cfgmgr32/CM_Set_Class_Registry_Property, cfgmgr32/CM_Set_Class_Registry_PropertyW, cfgmgrfn_e39d0285-7d83-4228-bbf8-f0520c5d6566.xml, devinst.cm_set_class_registry_property
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Set_Class_Registry_Property"
+f1_keywords:
+- cfgmgr32/CM_Set_Class_Registry_Property
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -30,19 +30,19 @@ req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.lib
- - Cfgmgr32.dll
- - API-Ms-Win-Devices-Config-L1-1-0.dll
- - API-Ms-Win-Devices-Config-L1-1-1.dll
- - CfgMgr32.dll
+- Cfgmgr32.lib
+- Cfgmgr32.dll
+- API-Ms-Win-Devices-Config-L1-1-0.dll
+- API-Ms-Win-Devices-Config-L1-1-1.dll
+- CfgMgr32.dll
 api_name:
- - CM_Set_Class_Registry_Property
- - CM_Set_Class_Registry_PropertyW
+- CM_Set_Class_Registry_Property
+- CM_Set_Class_Registry_PropertyW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CM_Set_Class_Registry_Property</b> function sets or deletes a property of a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a>.
+The <b>CM_Set_Class_Registry_Property</b> function sets or deletes a property of a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>.
 
 
 ## -parameters

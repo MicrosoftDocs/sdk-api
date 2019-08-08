@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ERROR_ACCESS_DENIED, ERROR_CANCELLED, ERROR_MORE_DATA, ERROR_OBJECT_NOT_FOUND, ERROR_SUCCESS, ERROR_TOO_MANY_THREADS, PWAITCHAINCALLBACK, PWAITCHAINCALLBACK callback, PWAITCHAINCALLBACK callback function, base.waitchaincallback, wct/PWAITCHAINCALLBACK
 ms.topic: callback
-f1_keywords: 
- - "wct/PWAITCHAINCALLBACK"
+f1_keywords:
+- wct/PWAITCHAINCALLBACK
 req.header: wct.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wct.h
+- Wct.h
 api_name:
- - PWAITCHAINCALLBACK
+- PWAITCHAINCALLBACK
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -153,7 +153,7 @@ The number of nodes retrieved, up to WCT_MAX_NODE_COUNT. If the array cannot con
 
 ### -param NodeInfoArray
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wct/ns-wct-_waitchain_node_info">WAITCHAIN_NODE_INFO</a> structures that receives the wait chain.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wct/ns-wct-waitchain_node_info">WAITCHAIN_NODE_INFO</a> structures that receives the wait chain.
 
 
 ### -param IsCycle
@@ -183,7 +183,7 @@ This callback function does not return a value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wct/ns-wct-_waitchain_node_info">WAITCHAIN_NODE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wct/ns-wct-waitchain_node_info">WAITCHAIN_NODE_INFO</a>
  
 
  

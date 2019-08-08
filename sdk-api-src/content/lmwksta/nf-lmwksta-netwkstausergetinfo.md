@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 1101, NetWkstaUserGetInfo, NetWkstaUserGetInfo function [Network Management], _win32_netwkstausergetinfo, lmwksta/NetWkstaUserGetInfo, netmgmt.netwkstausergetinfo
 ms.topic: function
-f1_keywords: 
- - "lmwksta/NetWkstaUserGetInfo"
+f1_keywords:
+- lmwksta/NetWkstaUserGetInfo
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetWkstaUserGetInfo
+- NetWkstaUserGetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,7 +83,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return the name of the user currently logged on to the workstation. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_user_info_0">WKSTA_USER_INFO_0</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_user_info_0">WKSTA_USER_INFO_0</a> structure.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ Return the name of the user currently logged on to the workstation. The <i>bufpt
 </td>
 <td width="60%">
 Return information about the workstation, including the name of the current user and the domains accessed by the workstation. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_user_info_1">WKSTA_USER_INFO_1</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_user_info_1">WKSTA_USER_INFO_1</a> structure.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Return information about the workstation, including the name of the current user
 </td>
 <td width="60%">
 Return domains browsed by the workstation. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_user_info_1101">WKSTA_USER_INFO_1101</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_user_info_1101">WKSTA_USER_INFO_1101</a> structure.
 
 </td>
 </tr>
@@ -186,7 +186,7 @@ The
 The following code sample demonstrates how to retrieve information about the currently logged-on user using a call to the 
 <b>NetWkstaUserGetInfo</b> function. The sample calls 
 <b>NetWkstaUserGetInfo</b>, specifying information level 1 (
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_user_info_1">WKSTA_USER_INFO_1</a>). If the call succeeds, the sample prints information about the logged-on user. Finally, the sample frees the memory allocated for the information buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_user_info_1">WKSTA_USER_INFO_1</a>). If the call succeeds, the sample prints information about the logged-on user. Finally, the sample frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -263,15 +263,15 @@ int wmain(void)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_user_info_0">WKSTA_USER_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_user_info_0">WKSTA_USER_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_user_info_1">WKSTA_USER_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_user_info_1">WKSTA_USER_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_user_info_1101">WKSTA_USER_INFO_1101</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_user_info_1101">WKSTA_USER_INFO_1101</a>
 
 
 

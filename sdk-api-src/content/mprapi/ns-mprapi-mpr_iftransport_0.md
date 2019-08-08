@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 4ee360be-fe5f-477e-901f-92d083f68451
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMPR_IFTRANSPORT_0, MPR_IFTRANSPORT_0, MPR_IFTRANSPORT_0 structure [RAS], PMPR_IFTRANSPORT_0, PMPR_IFTRANSPORT_0 structure pointer [RAS], _mpr_mpr_iftransport_0, mprapi/MPR_IFTRANSPORT_0, mprapi/PMPR_IFTRANSPORT_0, rras.mpr_iftransport_0"
+ms.keywords: '*PMPR_IFTRANSPORT_0, MPR_IFTRANSPORT_0, MPR_IFTRANSPORT_0 structure [RAS], PMPR_IFTRANSPORT_0, PMPR_IFTRANSPORT_0 structure pointer [RAS], _mpr_mpr_iftransport_0, mprapi/MPR_IFTRANSPORT_0, mprapi/PMPR_IFTRANSPORT_0, rras.mpr_iftransport_0'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/MPR_IFTRANSPORT_0"
+f1_keywords:
+- mprapi/MPR_IFTRANSPORT_0
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - MPR_IFTRANSPORT_0
+- MPR_IFTRANSPORT_0
 product: Windows
 targetos: Windows
 req.typenames: MPR_IFTRANSPORT_0, *PMPR_IFTRANSPORT_0
@@ -80,7 +80,7 @@ Specifies a Unicode string that contains the name of the interface transport.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_transport_0">MPR_TRANSPORT_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_transport_0">MPR_TRANSPORT_0</a>
 
 
 

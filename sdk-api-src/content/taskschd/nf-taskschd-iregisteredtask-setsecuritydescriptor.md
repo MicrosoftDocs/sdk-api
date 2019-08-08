@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],SetSecurityDescriptor method, IRegisteredTask.SetSecurityDescriptor, IRegisteredTask::SetSecurityDescriptor, SetSecurityDescriptor, SetSecurityDescriptor method [Task Scheduler], SetSecurityDescriptor method [Task Scheduler],IRegisteredTask interface, taskschd.iregisteredtask_setsecuritydescriptor, taskschd/IRegisteredTask::SetSecurityDescriptor
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRegisteredTask.SetSecurityDescriptor"
+f1_keywords:
+- taskschd/IRegisteredTask.SetSecurityDescriptor
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegisteredTask.SetSecurityDescriptor
+- IRegisteredTask.SetSecurityDescriptor
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ The security descriptor that is used as credentials for the registered task.
 
 ### -param flags [in]
 
-Flags that specify how to set the security descriptor. The TASK_DONT_ADD_PRINCIPAL_ACE flag from the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-_task_creation">TASK_CREATION</a> enumeration can be specified.
+Flags that specify how to set the security descriptor. The TASK_DONT_ADD_PRINCIPAL_ACE flag from the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-task_creation">TASK_CREATION</a> enumeration can be specified.
 
 
 ## -returns

@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: fcf1252d-9730-45a2-b601-60f76decd0dd
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEVENT_EXTENDED_ITEM_TS_ID, EVENT_EXTENDED_ITEM_TS_ID, EVENT_EXTENDED_ITEM_TS_ID structure [ETW], PEVENT_EXTENDED_ITEM_TS_ID, PEVENT_EXTENDED_ITEM_TS_ID structure pointer [ETW], base.event_extended_item_ts_id, etw.event_extended_item_ts_id, evntcons/EVENT_EXTENDED_ITEM_TS_ID, evntcons/PEVENT_EXTENDED_ITEM_TS_ID"
+ms.keywords: '*PEVENT_EXTENDED_ITEM_TS_ID, EVENT_EXTENDED_ITEM_TS_ID, EVENT_EXTENDED_ITEM_TS_ID structure [ETW], PEVENT_EXTENDED_ITEM_TS_ID, PEVENT_EXTENDED_ITEM_TS_ID structure pointer [ETW], base.event_extended_item_ts_id, etw.event_extended_item_ts_id, evntcons/EVENT_EXTENDED_ITEM_TS_ID, evntcons/PEVENT_EXTENDED_ITEM_TS_ID'
 ms.topic: struct
-f1_keywords: 
- - "evntcons/EVENT_EXTENDED_ITEM_TS_ID"
+f1_keywords:
+- evntcons/EVENT_EXTENDED_ITEM_TS_ID
 req.header: evntcons.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evntcons.h
+- Evntcons.h
 api_name:
- - EVENT_EXTENDED_ITEM_TS_ID
+- EVENT_EXTENDED_ITEM_TS_ID
 product: Windows
 targetos: Windows
 req.typenames: EVENT_EXTENDED_ITEM_TS_ID, *PEVENT_EXTENDED_ITEM_TS_ID
@@ -69,7 +69,7 @@ Identifies the terminal session that logged the event.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
  
 
  

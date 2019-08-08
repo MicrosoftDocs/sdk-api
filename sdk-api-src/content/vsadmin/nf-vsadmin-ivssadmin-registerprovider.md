@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssAdmin interface [VSS],RegisterProvider method, IVssAdmin.RegisterProvider, IVssAdmin::RegisterProvider, RegisterProvider, RegisterProvider method [VSS], RegisterProvider method [VSS],IVssAdmin interface, base.ivssadmin_registerprovider, vsadmin/IVssAdmin::RegisterProvider
 ms.topic: method
-f1_keywords: 
- - "vsadmin/IVssAdmin.RegisterProvider"
+f1_keywords:
+- vsadmin/IVssAdmin.RegisterProvider
 req.header: vsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsAdmin.h
+- VsAdmin.h
 api_name:
- - IVssAdmin.RegisterProvider
+- IVssAdmin.RegisterProvider
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -83,7 +83,7 @@ The name of the provider.
 ### -param eProviderType [in]
 
 A 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_provider_type">VSS_PROVIDER_TYPE</a> enumeration value that specifies the provider type. Note that <b>VSS_PROV_HARDWARE</b> is not a valid provider type on Windows client operating system versions. Hardware providers will run only on Windows server operating system versions.
+     <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_provider_type">VSS_PROVIDER_TYPE</a> enumeration value that specifies the provider type. Note that <b>VSS_PROV_HARDWARE</b> is not a valid provider type on Windows client operating system versions. Hardware providers will run only on Windows server operating system versions.
 
 
 ### -param pwszProviderVersion [in]

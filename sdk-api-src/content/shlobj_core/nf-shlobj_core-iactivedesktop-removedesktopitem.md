@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActiveDesktop interface [Legacy Windows Environment Features],RemoveDesktopItem method, IActiveDesktop.RemoveDesktopItem, IActiveDesktop::RemoveDesktopItem, RemoveDesktopItem, RemoveDesktopItem method [Legacy Windows Environment Features], RemoveDesktopItem method [Legacy Windows Environment Features],IActiveDesktop interface, _win32_IActiveDesktop_RemoveDesktopItem, lwef.iactivedesktop_removedesktopitem, shell.iactivedesktop_removedesktopitem, shlobj_core/IActiveDesktop::RemoveDesktopItem
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IActiveDesktop.RemoveDesktopItem"
+f1_keywords:
+- shlobj_core/IActiveDesktop.RemoveDesktopItem
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IActiveDesktop.RemoveDesktopItem
+- IActiveDesktop.RemoveDesktopItem
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,7 +63,7 @@ Removes the specified desktop item from the desktop.
 
 Type: <b>LPCCOMPONENT</b>
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent">COMPONENT</a> structure that specifies the item to be removed. The desktop item associated with the <b>wszSource</b> member of the structure will be removed. 
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure that specifies the item to be removed. The desktop item associated with the <b>wszSource</b> member of the structure will be removed. 
 
 
 ### -param dwReserved

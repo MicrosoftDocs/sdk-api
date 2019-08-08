@@ -8,10 +8,10 @@ tech.root: SetupApi
 ms.assetid: c651933f-cf61-4012-9d08-195336f2cb3d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PFILEPATHS_SIGNERINFO_A, FILEOP_COPY, FILEOP_DELETE, FILEPATHS_SIGNERINFO, FILEPATHS_SIGNERINFO structure [Setup API], FILEPATHS_SIGNERINFO_A, PFILEPATHS_SIGNERINFO, PFILEPATHS_SIGNERINFO structure pointer [Setup API], SP_COPY_NOBROWSE, SP_COPY_NOSKIP, SP_COPY_WARNIFSKIP, _setupapi_filepaths_signerinfo, setup.filepaths_signerinfo, setupapi/FILEPATHS_SIGNERINFO, setupapi/PFILEPATHS_SIGNERINFO"
+ms.keywords: '*PFILEPATHS_SIGNERINFO_A, FILEOP_COPY, FILEOP_DELETE, FILEPATHS_SIGNERINFO, FILEPATHS_SIGNERINFO structure [Setup API], FILEPATHS_SIGNERINFO_A, PFILEPATHS_SIGNERINFO, PFILEPATHS_SIGNERINFO structure pointer [Setup API], SP_COPY_NOBROWSE, SP_COPY_NOSKIP, SP_COPY_WARNIFSKIP, _setupapi_filepaths_signerinfo, setup.filepaths_signerinfo, setupapi/FILEPATHS_SIGNERINFO, setupapi/PFILEPATHS_SIGNERINFO'
 ms.topic: struct
-f1_keywords: 
- - "setupapi/FILEPATHS_SIGNERINFO"
+f1_keywords:
+- setupapi/FILEPATHS_SIGNERINFO
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Setupapi.h
+- Setupapi.h
 api_name:
- - FILEPATHS_SIGNERINFO
+- FILEPATHS_SIGNERINFO
 product: Windows
 targetos: Windows
 req.typenames: FILEPATHS_SIGNERINFO_A, *PFILEPATHS_SIGNERINFO_A
@@ -69,7 +69,7 @@ Path to the target file.
 ### -field Source
 
 Path to the source file. This member is not used when the 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_filepaths_a">FILEPATHS</a> structure is used with a file delete operation.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-filepaths_a">FILEPATHS</a> structure is used with a file delete operation.
 
 
 ### -field Win32Error

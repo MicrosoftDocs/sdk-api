@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: fc6ef09c-3ba9-4bcb-a3c2-07422af8eaa9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSecBufferDesc, PSecBufferDesc, PSecBufferDesc structure pointer [Security], SecBufferDesc, SecBufferDesc structure [Security], _ssp_secbufferdesc, security.secbufferdesc, sspi/PSecBufferDesc, sspi/SecBufferDesc"
+ms.keywords: '*PSecBufferDesc, PSecBufferDesc, PSecBufferDesc structure pointer [Security], SecBufferDesc, SecBufferDesc structure [Security], _ssp_secbufferdesc, security.secbufferdesc, sspi/PSecBufferDesc, sspi/SecBufferDesc'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SecBufferDesc"
+f1_keywords:
+- sspi/SecBufferDesc
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SecBufferDesc
+- SecBufferDesc
 product: Windows
 targetos: Windows
 req.typenames: SecBufferDesc, *PSecBufferDesc
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SecBufferDesc</b> structure describes an array of <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structures to pass from a transport application to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
+The <b>SecBufferDesc</b> structure describes an array of <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structures to pass from a transport application to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
 		
 
 
@@ -67,12 +67,12 @@ Specifies the version number of this structure. This member must be SECBUFFER_VE
 
 ### -field cBuffers
 
-Indicates the number of <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structures in the <b>pBuffers</b> array.
+Indicates the number of <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structures in the <b>pBuffers</b> array.
 
 
 ### -field pBuffers
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structures.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structures.
 
 
 ### -field pBuffers.size_is
@@ -92,7 +92,7 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a>
  
 
  

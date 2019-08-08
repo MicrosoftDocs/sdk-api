@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_EVENTING_DELIVERY_MODE_PUSH, WSD_EVENTING_DELIVERY_MODE_PUSH structure, ncd.wsd_eventing_delivery_mode_push, wsdtypes/WSD_EVENTING_DELIVERY_MODE_PUSH
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_EVENTING_DELIVERY_MODE_PUSH"
+f1_keywords:
+- wsdtypes/WSD_EVENTING_DELIVERY_MODE_PUSH
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_EVENTING_DELIVERY_MODE_PUSH
+- WSD_EVENTING_DELIVERY_MODE_PUSH
 product: Windows
 targetos: Windows
 req.typenames: WSD_EVENTING_DELIVERY_MODE_PUSH
@@ -61,5 +61,5 @@ Represents the endpoint reference  used for push delivery of events in a WS-Even
 
 ### -field NotifyTo
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure that specifies the endpoint reference to which notifications should be sent.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure that specifies the endpoint reference to which notifications should be sent.
 

@@ -8,10 +8,10 @@ tech.root: VDS
 ms.assetid: 1068eb6d-0f7f-4d04-b7ec-f40e54ff8325
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PVDS_FILE_SYSTEM_PROP, PVDS_FILE_SYSTEM_PROP, PVDS_FILE_SYSTEM_PROP structure pointer [VDS], VDS_FILE_SYSTEM_PROP, VDS_FILE_SYSTEM_PROP structure [VDS], base.vds_file_system_prop, vds/PVDS_FILE_SYSTEM_PROP, vds/_VDS_FILE_SYSTEM_PROP"
+ms.keywords: '*PVDS_FILE_SYSTEM_PROP, PVDS_FILE_SYSTEM_PROP, PVDS_FILE_SYSTEM_PROP structure pointer [VDS], VDS_FILE_SYSTEM_PROP, VDS_FILE_SYSTEM_PROP structure [VDS], base.vds_file_system_prop, vds/PVDS_FILE_SYSTEM_PROP, vds/_VDS_FILE_SYSTEM_PROP'
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_FILE_SYSTEM_PROP"
+f1_keywords:
+- vds/VDS_FILE_SYSTEM_PROP
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - VDS_FILE_SYSTEM_PROP
+- VDS_FILE_SYSTEM_PROP
 product: Windows
 targetos: Windows
 req.typenames: VDS_FILE_SYSTEM_PROP, *PVDS_FILE_SYSTEM_PROP
@@ -63,7 +63,7 @@ Defines the properties of a file system.
 
 ### -field type
 
-The file-system type enumerated by  <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>.
+The file-system type enumerated by  <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>.
 
 
 ### -field volumeId
@@ -73,7 +73,7 @@ The GUID of the volume object containing the file system.
 
 ### -field ulFlags
 
-The file-system flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_file_system_prop_flag">VDS_FILE_SYSTEM_PROP_FLAG</a>.
+The file-system flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_file_system_prop_flag">VDS_FILE_SYSTEM_PROP_FLAG</a>.
 
 
 ### -field ullTotalAllocationUnits
@@ -119,11 +119,11 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolum
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_file_system_prop_flag">VDS_FILE_SYSTEM_PROP_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_file_system_prop_flag">VDS_FILE_SYSTEM_PROP_FLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanScan, WlanScan function [NativeWIFI], nwifi.wlanscan, wlanapi/WlanScan
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanScan"
+f1_keywords:
+- wlanapi/WlanScan
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
+- wlanapi.dll
 api_name:
- - WlanScan
+- WlanScan
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -81,7 +81,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/do
 
 ### -param pIeData [in, optional]
 
-A pointer to an information element to include in probe requests. This parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_raw_data">WLAN_RAW_DATA</a> structure that may include client provisioning availability information and 802.1X authentication requirements.<b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>This parameter must be <b>NULL</b>.
+A pointer to an information element to include in probe requests. This parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_raw_data">WLAN_RAW_DATA</a> structure that may include client provisioning availability information and 802.1X authentication requirements.<b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>This parameter must be <b>NULL</b>.
 
 
 
@@ -162,7 +162,7 @@ The <b>WlanScan</b> function requests that the native 802.11 Wireless LAN driver
 
 If the <i>pIeData</i> parameter is not <b>NULL</b>, the driver will send probe requests during the scan. The probe requests include the information element (IE) pointed to by the <i>pIeData</i> parameter. For instance, the Wi-Fi Protected Setup (WPS) IE can be included in the probe requests to discover WPS-capable access points. The buffer pointed to by the <i>pIeData</i> parameter must contain the complete IE starting from the Element ID.
 
-The <i>pIeData</i> parameter passed to the <b>WlanScan</b> function can contain a pointer to an optional <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_raw_data">WLAN_RAW_DATA</a> structure that contains a proximity service discovery (PSD) IE data entry.   
+The <i>pIeData</i> parameter passed to the <b>WlanScan</b> function can contain a pointer to an optional <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_raw_data">WLAN_RAW_DATA</a> structure that contains a proximity service discovery (PSD) IE data entry.   
 
 When used to store a PSD IE, the <b>DOT11_PSD_IE_MAX_DATA_SIZE</b> constant defined in the <i>Wlanapi.h</i> header file is the maximum value of the <b>dwDataSize</b> member.<table>
 <tr>
@@ -205,7 +205,7 @@ Since it becomes more difficult for a wireless interface to send and receive dat
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_raw_data">WLAN_RAW_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_raw_data">WLAN_RAW_DATA</a>
 
 
 

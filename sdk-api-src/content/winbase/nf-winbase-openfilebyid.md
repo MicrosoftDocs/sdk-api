@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILE_FLAG_BACKUP_SEMANTICS, FILE_FLAG_NO_BUFFERING, FILE_FLAG_OPEN_NO_RECALL, FILE_FLAG_OPEN_REPARSE_POINT, FILE_FLAG_OVERLAPPED, FILE_FLAG_RANDOM_ACCESS, FILE_FLAG_SEQUENTIAL_SCAN, FILE_FLAG_WRITE_THROUGH, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, OpenFileById, OpenFileById function [Files], fileextd/OpenFileById, fs.openfilebyid, winbase/OpenFileById
 ms.topic: function
-f1_keywords: 
- - "winbase/OpenFileById"
+f1_keywords:
+- winbase/OpenFileById
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib: Kernel32.lib; FileExtd.lib on Windows Server 2003 and Windows XP
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l2-1-1.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l2-1-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l2-1-1.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l2-1-2.dll
 api_name:
- - OpenFileById
+- OpenFileById
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -272,17 +272,17 @@ When this flag is used, normal <a href="https://docs.microsoft.com/windows/deskt
 </td>
 <td width="60%">
 The file is being opened or created for asynchronous I/O. When the operation is complete, the event 
-         specified to the call in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure is 
+         specified to the call in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure is 
          set to the signaled state. Operations that take a significant amount of time to process return 
          <b>ERROR_IO_PENDING</b>.
 
 If this flag is specified, the file can be used for simultaneous read and write operations. The system does 
          not maintain the file pointer, therefore you must pass the file position to the read and write functions in 
-         the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>  structure or update the file 
+         the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>  structure or update the file 
          pointer.
 
 If this flag is not specified, then I/O operations are serialized, even if the calls to the read and write 
-         functions specify an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure.
+         functions specify an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 </td>
 </tr>
@@ -462,7 +462,7 @@ Yes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 

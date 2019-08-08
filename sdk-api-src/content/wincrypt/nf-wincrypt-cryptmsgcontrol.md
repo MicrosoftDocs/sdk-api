@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMSG_CRYPT_RELEASE_CONTEXT_FLAG, CMSG_CTRL_ADD_ATTR_CERT, CMSG_CTRL_ADD_CERT, CMSG_CTRL_ADD_CMS_SIGNER_INFO, CMSG_CTRL_ADD_CRL, CMSG_CTRL_ADD_SIGNER, CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR, CMSG_CTRL_DECRYPT, CMSG_CTRL_DECRYPT,CMSG_CTRL_KEY_TRANS_DECRYPT,CMSG_CTRL_KEY_AGREE_DECRYPT,or CMSG_CTRL_MAIL_LIST_DECRYPT,and the streamed enveloped message is being decoded, CMSG_CTRL_DEL_ATTR_CERT, CMSG_CTRL_DEL_CERT, CMSG_CTRL_DEL_CRL, CMSG_CTRL_DEL_SIGNER, CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR, CMSG_CTRL_ENABLE_STRONG_SIGNATURE, CMSG_CTRL_KEY_AGREE_DECRYPT, CMSG_CTRL_KEY_TRANS_DECRYPT, CMSG_CTRL_MAIL_LIST_DECRYPT, CMSG_CTRL_VERIFY_HASH, CMSG_CTRL_VERIFY_SIGNATURE, CMSG_CTRL_VERIFY_SIGNATURE_EX, CryptMsgControl, CryptMsgControl function [Security], _crypto2_cryptmsgcontrol, security.cryptmsgcontrol, wincrypt/CryptMsgControl
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptMsgControl"
+f1_keywords:
+- wincrypt/CryptMsgControl
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptMsgControl
+- CryptMsgControl
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -139,7 +139,7 @@ A
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_cms_signer_info">CMSG_CMS_SIGNER_INFO</a> structure that contains signer information. This operation differs from <b>CMSG_CTRL_ADD_SIGNER</b> because the signer information contains the signature.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_cms_signer_info">CMSG_CMS_SIGNER_INFO</a> structure that contains signer information. This operation differs from <b>CMSG_CTRL_ADD_SIGNER</b> because the signer information contains the signature.
 
 </td>
 </tr>
@@ -161,7 +161,7 @@ A BLOB  that contains the encoded bytes of the CRL to be added to the message.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a>   structure that contains the signer information to be added to the message.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a>   structure that contains the signer information to be added to the message.
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ A <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cms
 </td>
 <td width="60%">
 A 
-								<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_decrypt_para">CMSG_CTRL_DECRYPT_PARA</a>  structure used to decrypt the message for the specified key transport recipient. This value is applicable to RSA recipients.  This operation specifies that the <b>CryptMsgControl</b> function search the recipient index to obtain the key transport recipient information.  If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return  <b>CRYPT_E_INVALID_INDEX</b> if no key transport recipient is found.
+								<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_ctrl_decrypt_para">CMSG_CTRL_DECRYPT_PARA</a>  structure used to decrypt the message for the specified key transport recipient. This value is applicable to RSA recipients.  This operation specifies that the <b>CryptMsgControl</b> function search the recipient index to obtain the key transport recipient information.  If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return  <b>CRYPT_E_INVALID_INDEX</b> if no key transport recipient is found.
 
 </td>
 </tr>
@@ -250,7 +250,7 @@ A <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cms
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure used to perform strong signature checking.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure used to perform strong signature checking.
 
 To check for a strong signature, specify this control type before calling <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetandverifysigner">CryptMsgGetAndVerifySigner</a> or before calling <b>CryptMsgControl</b> with the following control types set:
 
@@ -269,7 +269,7 @@ After the signature is successfully verified, this function checks for a strong 
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_key_agree_decrypt_para">CMSG_CTRL_KEY_AGREE_DECRYPT_PARA</a> structure used to decrypt the message for the specified key agreement session key. Key agreement is used with Diffie-Hellman encryption/decryption.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_ctrl_key_agree_decrypt_para">CMSG_CTRL_KEY_AGREE_DECRYPT_PARA</a> structure used to decrypt the message for the specified key agreement session key. Key agreement is used with Diffie-Hellman encryption/decryption.
 
 </td>
 </tr>
@@ -280,7 +280,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_key_trans_decrypt_para">CMSG_CTRL_KEY_TRANS_DECRYPT_PARA</a> structure used to decrypt the message for the specified key transport recipient. Key transport is used with RSA encryption/decryption.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_ctrl_key_trans_decrypt_para">CMSG_CTRL_KEY_TRANS_DECRYPT_PARA</a> structure used to decrypt the message for the specified key transport recipient. Key transport is used with RSA encryption/decryption.
 
 </td>
 </tr>
@@ -292,7 +292,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_
 </td>
 <td width="60%">
 A 
-								<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_ctrl_mail_list_decrypt_para">CMSG_CTRL_MAIL_LIST_DECRYPT_PARA</a> structure used to decrypt the message for the specified recipient using a previously distributed key-encryption key (KEK).
+								<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_ctrl_mail_list_decrypt_para">CMSG_CTRL_MAIL_LIST_DECRYPT_PARA</a> structure used to decrypt the message for the specified recipient using a previously distributed key-encryption key (KEK).
 
 </td>
 </tr>
@@ -315,7 +315,7 @@ This value is not used.
 </td>
 <td width="60%">
 A 
-								<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a>  structure that identifies the signer of the message whose signature is to be verified.
+								<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>  structure that identifies the signer of the message whose signature is to be verified.
 
 </td>
 </tr>
@@ -327,7 +327,7 @@ A
 </td>
 <td width="60%">
 A <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cmsg_ctrl_verify_signature_ex_para">CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA</a>   structure that specifies the signer index and public key to verify the message signature. The signer public key can be a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure, a certificate context, or a certificate chain context.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure, a certificate context, or a certificate chain context.
 
 </td>
 </tr>
@@ -375,7 +375,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a>
 </td>
 <td width="60%">
 <i>pvCtrlPara</i> points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a> structure that contains the signer information to be added to the message.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a> structure that contains the signer information to be added to the message.
 
 </td>
 </tr>

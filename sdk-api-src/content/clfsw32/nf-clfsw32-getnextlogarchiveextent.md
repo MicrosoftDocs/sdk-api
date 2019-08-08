@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNextLogArchiveExtent, GetNextLogArchiveExtent function [Files], clfsw32/GetNextLogArchiveExtent, fs.getnextlogarchiveextent
 ms.topic: function
-f1_keywords: 
- - "clfsw32/GetNextLogArchiveExtent"
+f1_keywords:
+- clfsw32/GetNextLogArchiveExtent
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Clfsw32.dll
+- Clfsw32.dll
 api_name:
- - GetNextLogArchiveExtent
+- GetNextLogArchiveExtent
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ A pointer to an  archive context that is obtained by a call to <a href="https://
 
 ### -param rgadExtent [in, out]
 
-A client-allocated array of <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_archive_descriptor">CLFS_ARCHIVE_DESCRIPTOR</a>  structures to be filled in by this function.
+A client-allocated array of <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_archive_descriptor">CLFS_ARCHIVE_DESCRIPTOR</a>  structures to be filled in by this function.
 
 
 ### -param cDescriptors [in]
@@ -103,7 +103,7 @@ If the function fails, the return value is zero (0). To get extended error infor
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_archive_descriptor">CLFS_ARCHIVE_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_archive_descriptor">CLFS_ARCHIVE_DESCRIPTOR</a>
 
 
 

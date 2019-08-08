@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNtmsObjectInformation, GetNtmsObjectInformation function [Files], GetNtmsObjectInformationA, GetNtmsObjectInformationW, _zaw_getntmsobjectinformation, base.getntmsobjectinformation, fs.getntmsobjectinformation, ntmsapi/GetNtmsObjectInformation, ntmsapi/GetNtmsObjectInformationA, ntmsapi/GetNtmsObjectInformationW
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/GetNtmsObjectInformation"
+f1_keywords:
+- ntmsapi/GetNtmsObjectInformation
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - GetNtmsObjectInformation
- - GetNtmsObjectInformationA
- - GetNtmsObjectInformationW
+- GetNtmsObjectInformation
+- GetNtmsObjectInformationA
+- GetNtmsObjectInformationW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,7 +78,7 @@ Unique identifier of the RSM object.
 ### -param lpInfo [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure that receives the object information.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure that receives the object information.
 
 
 ## -returns
@@ -177,7 +177,7 @@ To avoid unpredictable results, applications must call the
 <b>GetNtmsObjectInformation</b> function before calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a> function. The 
 <b>SetNtmsObjectInformation</b> function updates all writable members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure, therefore the application is responsible for providing a value for all writable members.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure, therefore the application is responsible for providing a value for all writable members.
 
 The following is the list of objects that require special access rights.
 
@@ -264,7 +264,7 @@ The following is the list of objects that require special access rights.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
 
 
 

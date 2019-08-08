@@ -2,7 +2,7 @@
 UID: NF:xenroll.IEnroll.CreatePKCS7RequestFromRequest
 title: IEnroll::CreatePKCS7RequestFromRequest (xenroll.h)
 author: windows-sdk-content
-description: The CreatePKCS7RequestFromRequest method creates a PKCS #7 request from an existing certificate request. This method was first defined in the IEnroll interface.
+description: The CreatePKCS7RequestFromRequest method creates a PKCS
 old-location: security\ienroll4_createpkcs7requestfromrequest.htm
 tech.root: SecCrypto
 ms.assetid: f1d2df72-bedc-45e5-8c0a-a731845d4487
@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePKCS7RequestFromRequest, CreatePKCS7RequestFromRequest method [Security], CreatePKCS7RequestFromRequest method [Security],IEnroll interface, CreatePKCS7RequestFromRequest method [Security],IEnroll2 interface, IEnroll interface [Security],CreatePKCS7RequestFromRequest method, IEnroll.CreatePKCS7RequestFromRequest, IEnroll2 interface [Security],CreatePKCS7RequestFromRequest method, IEnroll2::CreatePKCS7RequestFromRequest, IEnroll::CreatePKCS7RequestFromRequest, security.ienroll4_createpkcs7requestfromrequest, xenroll/IEnroll2::CreatePKCS7RequestFromRequest, xenroll/IEnroll::CreatePKCS7RequestFromRequest
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.CreatePKCS7RequestFromRequest"
+f1_keywords:
+- xenroll/IEnroll.CreatePKCS7RequestFromRequest
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.CreatePKCS7RequestFromRequest
- - IEnroll2.CreatePKCS7RequestFromRequest
+- IEnroll.CreatePKCS7RequestFromRequest
+- IEnroll2.CreatePKCS7RequestFromRequest
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/des
 
 ### -param pSigningCertContext [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that represents the certificate used to sign the request.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that represents the certificate used to sign the request.
 
 
 ### -param pPkcs7Blob [out]

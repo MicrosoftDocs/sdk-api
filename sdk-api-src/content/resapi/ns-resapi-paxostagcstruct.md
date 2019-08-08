@@ -8,10 +8,10 @@ tech.root: MsCS
 ms.assetid: 732CB125-F43A-4CC4-BC3F-EFB511BB7F2E
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPaxosTagCStruct, PPaxosTagCStruct, PPaxosTagCStruct structure pointer [Failover Cluster], PaxosTagCStruct, PaxosTagCStruct structure [Failover Cluster], mscs.paxostagcstruct, resapi/PPaxosTagCStruct, resapi/PaxosTagCStruct"
+ms.keywords: '*PPaxosTagCStruct, PPaxosTagCStruct, PPaxosTagCStruct structure pointer [Failover Cluster], PaxosTagCStruct, PaxosTagCStruct structure [Failover Cluster], mscs.paxostagcstruct, resapi/PPaxosTagCStruct, resapi/PaxosTagCStruct'
 ms.topic: struct
-f1_keywords: 
- - "resapi/PaxosTagCStruct"
+f1_keywords:
+- resapi/PaxosTagCStruct
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,13 +30,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - PaxosTagCStruct
+- PaxosTagCStruct
 product: Windows
 targetos: Windows
 req.typenames: PaxosTagCStruct, *PPaxosTagCStruct
@@ -140,11 +140,11 @@ TBD
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-_witnesstaghelper">WitnessTagHelper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/ns-resapi-witnesstaghelper">WitnessTagHelper</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-_witnesstagupdatehelper">WitnessTagUpdateHelper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/ns-resapi-witnesstagupdatehelper">WitnessTagUpdateHelper</a>
  
 
  

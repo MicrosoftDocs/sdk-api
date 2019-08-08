@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetObjectInformation, GetObjectInformation method [Security], GetObjectInformation method [Security],ISecurityInformation interface, ISecurityInformation interface [Security],GetObjectInformation method, ISecurityInformation.GetObjectInformation, ISecurityInformation::GetObjectInformation, _win32_isecurityinformation_getobjectinformation, aclui/ISecurityInformation::GetObjectInformation, security.isecurityinformation_getobjectinformation
 ms.topic: method
-f1_keywords: 
- - "aclui/ISecurityInformation.GetObjectInformation"
+f1_keywords:
+- aclui/ISecurityInformation.GetObjectInformation
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Aclui.h
+- Aclui.h
 api_name:
- - ISecurityInformation.GetObjectInformation
+- ISecurityInformation.GetObjectInformation
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>GetObjectInformation</b> method requests information that the access cont
 ### -param pObjectInfo [out]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_si_object_info">SI_OBJECT_INFO</a> structure. Your implementation must fill this structure to pass information back to the access control editor.
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-si_object_info">SI_OBJECT_INFO</a> structure. Your implementation must fill this structure to pass information back to the access control editor.
 
 
 ## -returns
@@ -81,7 +81,7 @@ Returns a nonzero error code if an error occurs.
 
 
 The system does not free the string pointers that you return in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_si_object_info">SI_OBJECT_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-si_object_info">SI_OBJECT_INFO</a> structure.
 
 
 
@@ -103,7 +103,7 @@ The system does not free the string pointers that you return in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_si_object_info">SI_OBJECT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-si_object_info">SI_OBJECT_INFO</a>
  
 
  

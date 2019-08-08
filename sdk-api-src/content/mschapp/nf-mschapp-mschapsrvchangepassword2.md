@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MSChapSrvChangePassword2, MSChapSrvChangePassword2 function [MS-CHAP], _mschap_mschapsrvchangepassword2, mschap.mschapsrvchangepassword2, mschapp/MSChapSrvChangePassword2
 ms.topic: function
-f1_keywords: 
- - "mschapp/MSChapSrvChangePassword2"
+f1_keywords:
+- mschapp/MSChapSrvChangePassword2
 req.header: mschapp.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - MSChapSrvChangePassword2
+- MSChapSrvChangePassword2
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ A pointer to a null-terminated Unicode string that specifies the name of the use
 
 ### -param NewPasswordEncryptedWithOldNt [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mschapp/ns-mschapp-_sampr_encrypted_user_password">SAMPR_ENCRYPTED_USER_PASSWORD</a> structure that contains the new clear text password encrypted using the current NT one-way function (OWF) password hash as the encryption key.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mschapp/ns-mschapp-sampr_encrypted_user_password">SAMPR_ENCRYPTED_USER_PASSWORD</a> structure that contains the new clear text password encrypted using the current NT one-way function (OWF) password hash as the encryption key.
 
 <div class="alert"><b>Note</b>  Use  the <b>NewPasswordEncryptedWithOldNtPasswordHash()</b> function as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=84041">RFC 2433</a>, section A.11 to calculate the cipher for <i>NewPasswordEncryptedWithOldNt</i>.</div>
 <div> </div>
@@ -89,14 +89,14 @@ A <b>BOOLEAN</b> that specifies if the current Lan Manager (LM) or NT OWF passwo
 
 ### -param NewPasswordEncryptedWithOldLm [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mschapp/ns-mschapp-_sampr_encrypted_user_password">SAMPR_ENCRYPTED_USER_PASSWORD</a> structure that contains the new clear text password encrypted using the current LM OWF password hash.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mschapp/ns-mschapp-sampr_encrypted_user_password">SAMPR_ENCRYPTED_USER_PASSWORD</a> structure that contains the new clear text password encrypted using the current LM OWF password hash.
 
 <div class="alert"><b>Note</b>  Use  the <b>NewPasswordEncryptedWithOldLmPasswordHash()</b> function as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=84041">RFC 2433</a>, section A.15 to calculate the cipher for <i>NewPasswordEncryptedWithOldLm</i>.</div>
 <div> </div>
 
 ### -param OldLmOwfPasswordEncryptedWithNewLmOrNt [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mschapp/ns-mschapp-_encrypted_lm_owf_password">ENCRYPTED_LM_OWF_PASSWORD</a> structure that contains the current LM OWF password hash encrypted using the new LM OWF password hash.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mschapp/ns-mschapp-encrypted_lm_owf_password">ENCRYPTED_LM_OWF_PASSWORD</a> structure that contains the current LM OWF password hash encrypted using the new LM OWF password hash.
 
 
 ## -returns

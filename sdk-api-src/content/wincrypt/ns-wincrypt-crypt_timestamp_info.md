@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 05ca0877-5e9d-4b21-9fca-a1eef2cb4626
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_TIMESTAMP_INFO, CRYPT_TIMESTAMP_INFO, CRYPT_TIMESTAMP_INFO structure [Security], PCRYPT_TIMESTAMP_INFO, PCRYPT_TIMESTAMP_INFO structure pointer [Security], TIMESTAMP_VERSION, security.crypt_timestamp_info, wincrypt/CRYPT_TIMESTAMP_INFO, wincrypt/PCRYPT_TIMESTAMP_INFO"
+ms.keywords: '*PCRYPT_TIMESTAMP_INFO, CRYPT_TIMESTAMP_INFO, CRYPT_TIMESTAMP_INFO structure [Security], PCRYPT_TIMESTAMP_INFO, PCRYPT_TIMESTAMP_INFO structure pointer [Security], TIMESTAMP_VERSION, security.crypt_timestamp_info, wincrypt/CRYPT_TIMESTAMP_INFO, wincrypt/PCRYPT_TIMESTAMP_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_TIMESTAMP_INFO"
+f1_keywords:
+- wincrypt/CRYPT_TIMESTAMP_INFO
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_TIMESTAMP_INFO
+- CRYPT_TIMESTAMP_INFO
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_TIMESTAMP_INFO, *PCRYPT_TIMESTAMP_INFO
@@ -85,12 +85,12 @@ Specifies that this is a version 1 time stamp request.
 
 ### -field pszTSAPolicyId
 
-Optional. A pointer to a null-terminated string that specifies the Time Stamping Authority (TSA) policy under which the time stamp token was provided. This value must correspond with the value passed  in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_timestamp_request">CRYPT_TIMESTAMP_REQUEST</a> structure.
+Optional. A pointer to a null-terminated string that specifies the Time Stamping Authority (TSA) policy under which the time stamp token was provided. This value must correspond with the value passed  in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_request">CRYPT_TIMESTAMP_REQUEST</a> structure.
 
 
 ### -field HashAlgorithm
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains information about the algorithm used to calculate the hash. This value must correspond with the value passed  in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_timestamp_request">CRYPT_TIMESTAMP_REQUEST</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains information about the algorithm used to calculate the hash. This value must correspond with the value passed  in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_request">CRYPT_TIMESTAMP_REQUEST</a> structure.
 
 
 ### -field HashedMessage
@@ -110,7 +110,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinba
 
 ### -field pvAccuracy
 
-Optional. A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_timestamp_accuracy">CRYPT_TIMESTAMP_ACCURACY</a>   structure that contains the time deviation around the UTC time at which the time stamp token was created by the TSA.
+Optional. A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_accuracy">CRYPT_TIMESTAMP_ACCURACY</a>   structure that contains the time deviation around the UTC time at which the time stamp token was created by the TSA.
 
 
 ### -field fOrdering
@@ -121,7 +121,7 @@ This member is reserved.
 ### -field Nonce
 
 Optional. A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structure that contains the nonce value used by the client to verify the
-timeliness of the response when no local clock is available. This value must correspond with the value passed  in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_timestamp_request">CRYPT_TIMESTAMP_REQUEST</a> structure.
+timeliness of the response when no local clock is available. This value must correspond with the value passed  in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_timestamp_request">CRYPT_TIMESTAMP_REQUEST</a> structure.
 
 
 ### -field Tsa
@@ -136,5 +136,5 @@ The number of elements in the array pointed to by the <b>rgExtension</b> member.
 
 ### -field rgExtension
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extension">CERT_EXTENSION</a> structures that contain extension information returned from the request.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures that contain extension information returned from the request.
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVA2_BitStreamDateBufferType, DXVA2_DeblockingControlBufferType, DXVA2_DecodeBufferDesc, DXVA2_DecodeBufferDesc structure [Media Foundation], DXVA2_FilmGrainBuffer, DXVA2_InverseQuantizationMatrixBufferType, DXVA2_MacroBlockControlBufferType, DXVA2_MotionVectorBuffer, DXVA2_PictureParametersBufferType, DXVA2_ResidualDifferenceBufferType, DXVA2_SliceControlBufferType, dxva2api/DXVA2_DecodeBufferDesc, eb17005a-035d-41cb-8f54-97b5d0f84736, mf.dxva2_decodebufferdesc
 ms.topic: struct
-f1_keywords: 
- - "dxva2api/DXVA2_DecodeBufferDesc"
+f1_keywords:
+- dxva2api/DXVA2_DecodeBufferDesc
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - DXVA2_DecodeBufferDesc
+- DXVA2_DecodeBufferDesc
 product: Windows
 targetos: Windows
 req.typenames: DXVA2_DecodeBufferDesc
@@ -227,7 +227,7 @@ Reserved. Set to zero.
 ### -field pvPVPState
 
 Pointer to a byte array that contains an initialization vector (IV) for encrypted data. If the decode buffer does not contain encrypted data, set this member to <b>NULL</b>.
-          If the decode buffer contains encrypted data, the contents of <b>pvPVPState</b> depends on the type of encryption. For <b>D3DCRYPTOTYPE_AES128_CTR</b>, the <b>pvPVPState</b> member points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_aes_ctr_iv">DXVA2_AES_CTR_IV</a> structure.
+          If the decode buffer contains encrypted data, the contents of <b>pvPVPState</b> depends on the type of encryption. For <b>D3DCRYPTOTYPE_AES128_CTR</b>, the <b>pvPVPState</b> member points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_aes_ctr_iv">DXVA2_AES_CTR_IV</a> structure.
 
 
 ## -remarks

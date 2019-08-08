@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateIdentities, EnumerateIdentities method [Security], EnumerateIdentities method [Security],IIdentityStore interface, IIdentityStore interface [Security],EnumerateIdentities method, IIdentityStore.EnumerateIdentities, IIdentityStore::EnumerateIdentities, identitystore/IIdentityStore::EnumerateIdentities, security.iidentitystore_enumerateidentities
 ms.topic: method
-f1_keywords: 
- - "identitystore/IIdentityStore.EnumerateIdentities"
+f1_keywords:
+- identitystore/IIdentityStore.EnumerateIdentities
 req.header: identitystore.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Identitystore.h
+- Identitystore.h
 api_name:
- - IIdentityStore.EnumerateIdentities
+- IIdentityStore.EnumerateIdentities
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ A value of the <a href="https://docs.microsoft.com/windows/desktop/api/identityc
 
 ### -param pFilterkey [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure that specifies a property. If the value of this parameter is not <b>NULL</b>, only identities that support the property specified by this parameter are enumerated.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure that specifies a property. If the value of this parameter is not <b>NULL</b>, only identities that support the property specified by this parameter are enumerated.
 
 
 ### -param pFilterPropVarValue [in, optional]

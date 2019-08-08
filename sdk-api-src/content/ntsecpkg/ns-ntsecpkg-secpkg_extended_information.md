@@ -8,10 +8,10 @@ tech.root: SecAuthN
 ms.assetid: 3d80dfc0-c35b-4d14-8196-02944c3db8d2
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSECPKG_EXTENDED_INFORMATION, PSECPKG_EXTENDED_INFORMATION, PSECPKG_EXTENDED_INFORMATION structure pointer [Security], SECPKG_EXTENDED_INFORMATION, SECPKG_EXTENDED_INFORMATION structure [Security], _ssp_secpkg_extended_information, ntsecpkg/PSECPKG_EXTENDED_INFORMATION, ntsecpkg/SECPKG_EXTENDED_INFORMATION, security.secpkg_extended_information"
+ms.keywords: '*PSECPKG_EXTENDED_INFORMATION, PSECPKG_EXTENDED_INFORMATION, PSECPKG_EXTENDED_INFORMATION structure pointer [Security], SECPKG_EXTENDED_INFORMATION, SECPKG_EXTENDED_INFORMATION structure [Security], _ssp_secpkg_extended_information, ntsecpkg/PSECPKG_EXTENDED_INFORMATION, ntsecpkg/SECPKG_EXTENDED_INFORMATION, security.secpkg_extended_information'
 ms.topic: struct
-f1_keywords: 
- - "ntsecpkg/SECPKG_EXTENDED_INFORMATION"
+f1_keywords:
+- ntsecpkg/SECPKG_EXTENDED_INFORMATION
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SECPKG_EXTENDED_INFORMATION
+- SECPKG_EXTENDED_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: SECPKG_EXTENDED_INFORMATION, *PSECPKG_EXTENDED_INFORMATION
@@ -77,36 +77,36 @@ Structure that contains the information.
 ### -field Info.GssInfo
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_gss_info">SECPKG_GSS_INFO</a> structure that contains information used for GSS-compatible negotiations.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_gss_info">SECPKG_GSS_INFO</a> structure that contains information used for GSS-compatible negotiations.
 
 
 ### -field Info.ContextThunks
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_context_thunks">SECPKG_CONTEXT_THUNKS</a> structure that contains information about 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_context_thunks">SECPKG_CONTEXT_THUNKS</a> structure that contains information about 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> calls to be executed in LSA mode.
 
 
 ### -field Info.MutualAuthLevel
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_mutual_auth_level">SECPKG_MUTUAL_AUTH_LEVEL</a> structure that contains the authentication level used by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_mutual_auth_level">SECPKG_MUTUAL_AUTH_LEVEL</a> structure that contains the authentication level used by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
 
 
 ### -field Info.WowClientDll
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_wow_client_dll">SECPKG_WOW_CLIENT_DLL</a> structure that contains the path to the  WOW client's 32-bit version of the DLL used by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>. LSA operations are done by the 64-bit version. When the security context is handed back to the client,  the 32-bit WOW-aware version is loaded and hands it any information from the 64-bit version.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_wow_client_dll">SECPKG_WOW_CLIENT_DLL</a> structure that contains the path to the  WOW client's 32-bit version of the DLL used by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>. LSA operations are done by the 64-bit version. When the security context is handed back to the client,  the 32-bit WOW-aware version is loaded and hands it any information from the 64-bit version.
 
 
 ### -field Info.ExtraOids
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_extra_oids">SECPKG_EXTRA_OIDS</a> structure that contains the extra object identifiers (OIDs) used by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_extra_oids">SECPKG_EXTRA_OIDS</a> structure that contains the extra object identifiers (OIDs) used by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
 
 
 ### -field Info.Nego2Info
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_nego2_info">SECPKG_NEGO2_INFO</a> structure that contains the Nego2 information used by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_nego2_info">SECPKG_NEGO2_INFO</a> structure that contains the Nego2 information used by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
 

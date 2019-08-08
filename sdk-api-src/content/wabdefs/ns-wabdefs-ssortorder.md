@@ -8,10 +8,10 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\ssortorder.htm
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPSSortOrder, LPSSortOrder, LPSSortOrder structure pointer [Windows Address Book], SSortOrder, SSortOrder structure [Windows Address Book], TABLE_SORT_ASCEND, TABLE_SORT_COMBINE, TABLE_SORT_DESCEND, _wab_SSortOrder, wab._wab_SSortOrder, wabdefs/LPSSortOrder, wabdefs/SSortOrder"
+ms.keywords: '*LPSSortOrder, LPSSortOrder, LPSSortOrder structure pointer [Windows Address Book], SSortOrder, SSortOrder structure [Windows Address Book], TABLE_SORT_ASCEND, TABLE_SORT_COMBINE, TABLE_SORT_DESCEND, _wab_SSortOrder, wab._wab_SSortOrder, wabdefs/LPSSortOrder, wabdefs/SSortOrder'
 ms.topic: struct
-f1_keywords: 
- - "wabdefs/SSortOrder"
+f1_keywords:
+- wabdefs/SSortOrder
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wabdefs.h
+- Wabdefs.h
 api_name:
- - SSortOrder
+- SSortOrder
 product: Windows
 targetos: Windows
 req.typenames: SSortOrder, *LPSSortOrder
@@ -85,7 +85,7 @@ Table is sorted in ascending order.
 
 Sort operation creates a category that combines the property identified as the sort key column in the <b>ulPropTag</b> member with the sort key column specified in the previous <b>SSortOrder</b> structure.
 
-TABLE_SORT_COMBINE can only be used when the <b>SSortOrder</b> structure is being used as an entry in an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_ssortorderset">SSortOrderSet</a> structure to specify multiple sort orders for a categorized sort. TABLE_SORT_COMBINE cannot be used in the first <b>SSortOrder</b> structure in an <b>SSortOrderSet</b> structure.
+TABLE_SORT_COMBINE can only be used when the <b>SSortOrder</b> structure is being used as an entry in an <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-ssortorderset">SSortOrderSet</a> structure to specify multiple sort orders for a categorized sort. TABLE_SORT_COMBINE cannot be used in the first <b>SSortOrder</b> structure in an <b>SSortOrderSet</b> structure.
 
 
 

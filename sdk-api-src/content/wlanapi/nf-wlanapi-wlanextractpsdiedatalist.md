@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanExtractPsdIEDataList, WlanExtractPsdIEDataList function [NativeWIFI], nwifi.wlanextractpsdiedatalist, wlanapi/WlanExtractPsdIEDataList
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanExtractPsdIEDataList"
+f1_keywords:
+- wlanapi/WlanExtractPsdIEDataList
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
+- wlanapi.dll
 api_name:
- - WlanExtractPsdIEDataList
+- WlanExtractPsdIEDataList
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -86,7 +86,7 @@ Reserved for future use.  Must be set to <b>NULL</b>.
 
 ### -param ppPsdIEDataList [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_raw_data_list">PWLAN_RAW_DATA_LIST</a> structure that contains the formatted data list.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_raw_data_list">PWLAN_RAW_DATA_LIST</a> structure that contains the formatted data list.
 
 
 ## -returns
@@ -166,7 +166,7 @@ For more information about PSD IEs, including a discussion of the format of an I
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_raw_data_list">WLAN_RAW_DATA_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_raw_data_list">WLAN_RAW_DATA_LIST</a>
 
 
 

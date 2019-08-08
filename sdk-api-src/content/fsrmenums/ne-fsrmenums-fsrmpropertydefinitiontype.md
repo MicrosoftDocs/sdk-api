@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmPropertyDefinitionType, FsrmPropertyDefinitionType enumeration [File Server Resource Manager], FsrmPropertyDefinitionType_Bool, FsrmPropertyDefinitionType_Date, FsrmPropertyDefinitionType_Int, FsrmPropertyDefinitionType_MultiChoiceList, FsrmPropertyDefinitionType_MultiString, FsrmPropertyDefinitionType_OrderedList, FsrmPropertyDefinitionType_SingleChoiceList, FsrmPropertyDefinitionType_String, FsrmPropertyDefinitionType_Unknown, fs.fsrmpropertydefinitiontype, fsrm.fsrmpropertydefinitiontype, fsrmenums/FsrmPropertyDefinitionType, fsrmenums/FsrmPropertyDefinitionType_Bool, fsrmenums/FsrmPropertyDefinitionType_Date, fsrmenums/FsrmPropertyDefinitionType_Int, fsrmenums/FsrmPropertyDefinitionType_MultiChoiceList, fsrmenums/FsrmPropertyDefinitionType_MultiString, fsrmenums/FsrmPropertyDefinitionType_OrderedList, fsrmenums/FsrmPropertyDefinitionType_SingleChoiceList, fsrmenums/FsrmPropertyDefinitionType_String, fsrmenums/FsrmPropertyDefinitionType_Unknown
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmPropertyDefinitionType"
+f1_keywords:
+- fsrmenums/FsrmPropertyDefinitionType
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - FsrmPropertyDefinitionType
+- FsrmPropertyDefinitionType
 product: Windows
 targetos: Windows
 req.typenames: FsrmPropertyDefinitionType
@@ -77,7 +77,7 @@ The aggregation policy for this type is to use the order in which the items are 
        "MBI" in the list.
 
 You can use the following comparison operators with this type (see 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
+       <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
        Greater than, Less than, Exists, and Not exists.
 
 
@@ -93,7 +93,7 @@ The aggregation policy for this type is to concatenate the values from each sour
        "Cat1|Cat3".
 
 You can use the following comparison operators with this type (see 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
+       <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
        Contains, Contained in, Exists, and Not exists.
 
 
@@ -105,7 +105,7 @@ A classification property that defines a list of possible string values, only on
 No aggregation is available for this type.
 
 You can use the following comparison operators with this type (see 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
+       <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
        Exists, and Not exists.
 
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This file classification property type is not supported before Windows Server 2012.
@@ -118,7 +118,7 @@ A classification property that contains an arbitrary string value.
 The aggregation policy is to fail if two sources do not specify the same value.
 
 You can use the following comparison operators with this type (see 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
+       <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
        Greater than, Less than, Contains, Contained in, Start with, End with, Prefix of, Suffix of, Exists, and Not 
        exists.
 
@@ -133,7 +133,7 @@ The aggregation policy is to concatenate the values from each source, consolidat
        "String1|String3", the property value is set to "String1|String2|String3".
 
 You can use the following comparison operators with this type (see 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
+       <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
        Contains, Contained in, Exists, and Not exists.
 
 
@@ -144,7 +144,7 @@ A classification property that contains a decimal integer value expressed as a s
 The aggregation policy is to fail if two sources do not specify the same value.
 
 You can use the following comparison operators with this type (see 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
+       <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
        Greater than, Less than, Exists, and Not exists.
 
 
@@ -160,7 +160,7 @@ The aggregation policy is to perform a logical <b>OR</b> on the values from each
        both specify <b>False</b>, the property value is set to <b>False</b>.
 
 You can use the following comparison operators with this type (see 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
+       <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
        Exists, and Not exists.
 
 
@@ -172,7 +172,7 @@ A classification property that contains a date value. The date value is a 64-bit
 The aggregation policy is to fail if two sources do not specify the same value.
 
 You can use the following comparison operators with this type (see 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
+       <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
        Greater than, Less than, Exists, and Not exists.
 
 

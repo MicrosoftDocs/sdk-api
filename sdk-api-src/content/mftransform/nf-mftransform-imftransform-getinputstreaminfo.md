@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInputStreamInfo, GetInputStreamInfo method [Media Foundation], GetInputStreamInfo method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputStreamInfo method, IMFTransform.GetInputStreamInfo, IMFTransform::GetInputStreamInfo, d57ffac7-1a92-4c6b-bd59-0acd7239c0a6, mf.imftransform_getinputstreaminfo, mftransform/IMFTransform::GetInputStreamInfo
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFTransform.GetInputStreamInfo"
+f1_keywords:
+- mftransform/IMFTransform.GetInputStreamInfo
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTransform.GetInputStreamInfo
+- IMFTransform.GetInputStreamInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -69,7 +69,7 @@ Input stream identifier. To get the list of stream identifiers, call <a href="ht
 
 ### -param pStreamInfo [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_input_stream_info">MFT_INPUT_STREAM_INFO</a> structure. The method fills the structure with information about the input stream.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_input_stream_info">MFT_INPUT_STREAM_INFO</a> structure. The method fills the structure with information about the input stream.
           
 
 

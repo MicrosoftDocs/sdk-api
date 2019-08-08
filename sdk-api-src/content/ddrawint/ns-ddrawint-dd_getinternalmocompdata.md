@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 5d8f722f-7574-485e-9ff2-568cd0ae23f7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_GETINTERNALMOCOMPDATA, DD_GETINTERNALMOCOMPDATA, DD_GETINTERNALMOCOMPDATA structure [Display Devices], ddrawint/DD_GETINTERNALMOCOMPDATA, ddstrcts_02721b17-cf19-462c-b588-039431b8d548.xml, display.dd_getinternalmocompdata"
+ms.keywords: '*PDD_GETINTERNALMOCOMPDATA, DD_GETINTERNALMOCOMPDATA, DD_GETINTERNALMOCOMPDATA structure [Display Devices], ddrawint/DD_GETINTERNALMOCOMPDATA, ddstrcts_02721b17-cf19-462c-b588-039431b8d548.xml, display.dd_getinternalmocompdata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_GETINTERNALMOCOMPDATA"
+f1_keywords:
+- ddrawint/DD_GETINTERNALMOCOMPDATA
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_GETINTERNALMOCOMPDATA
+- DD_GETINTERNALMOCOMPDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_GETINTERNALMOCOMPDATA, DD_GETINTERNALMOCOMPDATA"
+req.typenames: '*PDD_GETINTERNALMOCOMPDATA, DD_GETINTERNALMOCOMPDATA'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,7 +61,7 @@ The DD_GETINTERNALMOCOMPDATA structure contains the internal memory requirements
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
 
 ### -field lpGuid

@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: bbd56b5e-2bbe-420f-8842-1be50dca779f
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_VERIFY_MESSAGE_PARA, CRYPT_VERIFY_MESSAGE_PARA, CRYPT_VERIFY_MESSAGE_PARA structure [Security], PCRYPT_VERIFY_MESSAGE_PARA, PCRYPT_VERIFY_MESSAGE_PARA structure pointer [Security], _crypto2_crypt_verify_message_para, security.crypt_verify_message_para, wincrypt/CRYPT_VERIFY_MESSAGE_PARA, wincrypt/PCRYPT_VERIFY_MESSAGE_PARA"
+ms.keywords: '*PCRYPT_VERIFY_MESSAGE_PARA, CRYPT_VERIFY_MESSAGE_PARA, CRYPT_VERIFY_MESSAGE_PARA structure [Security], PCRYPT_VERIFY_MESSAGE_PARA, PCRYPT_VERIFY_MESSAGE_PARA structure pointer [Security], _crypto2_crypt_verify_message_para, security.crypt_verify_message_para, wincrypt/CRYPT_VERIFY_MESSAGE_PARA, wincrypt/PCRYPT_VERIFY_MESSAGE_PARA'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_VERIFY_MESSAGE_PARA"
+f1_keywords:
+- wincrypt/CRYPT_VERIFY_MESSAGE_PARA
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_VERIFY_MESSAGE_PARA
+- CRYPT_VERIFY_MESSAGE_PARA
 product: Windows
 targetos: Windows
 req.typenames: CRYPT_VERIFY_MESSAGE_PARA, *PCRYPT_VERIFY_MESSAGE_PARA
@@ -104,7 +104,7 @@ Argument to pass to the callback function. Typically, this gets and verifies the
 
 ### -field pStrongSignPara
 
-Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure that contains parameters used for strong signing. If you set this member and the function successfully verifies the signature, the function will then check for a strong signature. If the signature is not strong, the operation will fail and set the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> value to <b>NTE_BAD_ALGID</b>.
+Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure that contains parameters used for strong signing. If you set this member and the function successfully verifies the signature, the function will then check for a strong signature. If the signature is not strong, the operation will fail and set the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> value to <b>NTE_BAD_ALGID</b>.
 
 <div class="alert"><b>Note</b>  You can use the <b>pStrongSignPara</b> member  only if <b>CRYPT_VERIFY_MESSAGE_PARA_HAS_EXTRA_FIELDS</b> is defined by using the <b>#define</b> directive before including Wincrypt.h. If <b>CRYPT_VERIFY_MESSAGE_PARA_HAS_EXTRA_FIELDS</b> is defined, you must zero all unused fields.</div>
 <div> </div>
@@ -139,11 +139,11 @@ This structure is passed to the following functions:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>
 
 
 

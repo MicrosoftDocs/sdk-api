@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptHashToBeSigned, CryptHashToBeSigned function [Security], _crypto2_crypthashtobesigned, security.crypthashtobesigned, wincrypt/CryptHashToBeSigned
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptHashToBeSigned"
+f1_keywords:
+- wincrypt/CryptHashToBeSigned
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptHashToBeSigned
+- CryptHashToBeSigned
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -86,7 +86,7 @@ Currently defined encoding types are:
 ### -param pbEncoded [in]
 
 Address of a buffer that contains the content to be hashed. This is the encoded form of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_signed_content_info">CERT_SIGNED_CONTENT_INFO</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_signed_content_info">CERT_SIGNED_CONTENT_INFO</a>.
 
 
 ### -param cbEncoded [in]

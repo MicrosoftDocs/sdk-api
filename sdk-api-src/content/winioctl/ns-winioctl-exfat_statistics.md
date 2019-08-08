@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: fc33e967-fbc0-4f98-9b6c-2d6ac103a256
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEXFAT_STATISTICS, EXFAT_STATISTICS, EXFAT_STATISTICS structure [Files], PEXFAT_STATISTICS, PEXFAT_STATISTICS structure pointer [Files], fs.exfat_statistics, winioctl/EXFAT_STATISTICS, winioctl/PEXFAT_STATISTICS"
+ms.keywords: '*PEXFAT_STATISTICS, EXFAT_STATISTICS, EXFAT_STATISTICS structure [Files], PEXFAT_STATISTICS, PEXFAT_STATISTICS structure pointer [Files], fs.exfat_statistics, winioctl/EXFAT_STATISTICS, winioctl/PEXFAT_STATISTICS'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/EXFAT_STATISTICS"
+f1_keywords:
+- winioctl/EXFAT_STATISTICS
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - EXFAT_STATISTICS
+- EXFAT_STATISTICS
 product: Windows
 targetos: Windows
 req.typenames: EXFAT_STATISTICS, *PEXFAT_STATISTICS
@@ -108,11 +108,11 @@ The number of write operations that were not cached. This value includes sub-wri
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_fat_statistics">FAT_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-fat_statistics">FAT_STATISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_filesystem_statistics">FILESYSTEM_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-filesystem_statistics">FILESYSTEM_STATISTICS</a>
  
 
  

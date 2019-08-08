@@ -8,10 +8,10 @@ tech.root: NativeWiFi
 ms.assetid: 4c845df3-6bc8-4e09-ac01-6c9180d43b16
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_HOSTED_NETWORK_STATE, PWLAN_HOSTED_NETWORK_STATE, PWLAN_HOSTED_NETWORK_STATE enumeration [NativeWIFI], WLAN_HOSTED_NETWORK_STATE, WLAN_HOSTED_NETWORK_STATE enumeration [NativeWIFI], nwifi.wlan_hosted_network_state, wlan_hosted_network_active, wlan_hosted_network_idle, wlan_hosted_network_unavailable, wlanapi/PWLAN_HOSTED_NETWORK_STATE, wlanapi/WLAN_HOSTED_NETWORK_STATE, wlanapi/wlan_hosted_network_active, wlanapi/wlan_hosted_network_idle, wlanapi/wlan_hosted_network_unavailable"
+ms.keywords: '*PWLAN_HOSTED_NETWORK_STATE, PWLAN_HOSTED_NETWORK_STATE, PWLAN_HOSTED_NETWORK_STATE enumeration [NativeWIFI], WLAN_HOSTED_NETWORK_STATE, WLAN_HOSTED_NETWORK_STATE enumeration [NativeWIFI], nwifi.wlan_hosted_network_state, wlan_hosted_network_active, wlan_hosted_network_idle, wlan_hosted_network_unavailable, wlanapi/PWLAN_HOSTED_NETWORK_STATE, wlanapi/WLAN_HOSTED_NETWORK_STATE, wlanapi/wlan_hosted_network_active, wlanapi/wlan_hosted_network_idle, wlanapi/wlan_hosted_network_unavailable'
 ms.topic: enum
-f1_keywords: 
- - "wlanapi/WLAN_HOSTED_NETWORK_STATE"
+f1_keywords:
+- wlanapi/WLAN_HOSTED_NETWORK_STATE
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wlanapi.h
+- Wlanapi.h
 api_name:
- - WLAN_HOSTED_NETWORK_STATE
+- WLAN_HOSTED_NETWORK_STATE
 product: Windows
 targetos: Windows
 req.typenames: WLAN_HOSTED_NETWORK_STATE, *PWLAN_HOSTED_NETWORK_STATE
@@ -93,11 +93,11 @@ The <b>WLAN_HOSTED_NETWORK_STATE</b> enumerated type is an extension to native w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_state_change">WLAN_HOSTED_NETWORK_STATE_CHANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_hosted_network_state_change">WLAN_HOSTED_NETWORK_STATE_CHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_status">WLAN_HOSTED_NETWORK_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_hosted_network_status">WLAN_HOSTED_NETWORK_STATUS</a>
  
 
  

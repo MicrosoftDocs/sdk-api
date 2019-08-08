@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngInitializeSafeSemaphore, EngInitializeSafeSemaphore function [Display Devices], display.enginitializesafesemaphore, gdifncs_92f07217-a6d2-4996-99a9-eb289a713e19.xml, winddi/EngInitializeSafeSemaphore
 ms.topic: function
-f1_keywords: 
- - "winddi/EngInitializeSafeSemaphore"
+f1_keywords:
+- winddi/EngInitializeSafeSemaphore
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngInitializeSafeSemaphore
+- EngInitializeSafeSemaphore
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>EngInitializeSafeSemaphore</b> function initializes the specified safe se
 
 ### -param pssem [out]
 
-Pointer to the driver-allocated <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_engsafesemaphore">ENGSAFESEMAPHORE</a> structure to be initialized.
+Pointer to the driver-allocated <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-engsafesemaphore">ENGSAFESEMAPHORE</a> structure to be initialized.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Pointer to the driver-allocated <a href="https://docs.microsoft.com/windows/desk
 
 <b>EngInitializeSafeSemaphore</b> and <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletesafesemaphore">EngDeleteSafeSemaphore</a> are thread-safe, operating under a lock and maintaining a reference count on the semaphore. This guarantees that only one semaphore is created regardless of the number of simultaneous calls to it, and that the semaphore exists until the last reference to it is released.
 
-Once the safe semaphore is initialized, the driver can call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engacquiresemaphore">EngAcquireSemaphore</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engreleasesemaphore">EngReleaseSemaphore</a> with the <b>hsem</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_engsafesemaphore">ENGSAFESEMAPHORE</a> structure for synchronization.
+Once the safe semaphore is initialized, the driver can call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engacquiresemaphore">EngAcquireSemaphore</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engreleasesemaphore">EngReleaseSemaphore</a> with the <b>hsem</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-engsafesemaphore">ENGSAFESEMAPHORE</a> structure for synchronization.
 
 Callers of <b>EngInitializeSafeSemaphore</b> should call <b>EngDeleteSafeSemaphore</b> when they no longer need the semaphore.
 
@@ -91,7 +91,7 @@ Callers of <b>EngInitializeSafeSemaphore</b> should call <b>EngDeleteSafeSemapho
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_engsafesemaphore">ENGSAFESEMAPHORE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-engsafesemaphore">ENGSAFESEMAPHORE</a>
 
 
 

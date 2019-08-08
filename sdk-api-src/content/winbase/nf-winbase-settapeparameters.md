@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SET_TAPE_DRIVE_INFORMATION, SET_TAPE_MEDIA_INFORMATION, SetTapeParameters, SetTapeParameters function [Backup], _win32_settapeparameters, backup.settapeparameters, base.settapeparameters, winbase/SetTapeParameters
 ms.topic: function
-f1_keywords: 
- - "winbase/SetTapeParameters"
+f1_keywords:
+- winbase/SetTapeParameters
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - SetTapeParameters
+- SetTapeParameters
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -106,13 +106,13 @@ Sets the tape-specific information specified by the <i>lpTapeInformation</i> par
 ### -param lpTapeInformation [in]
 
 Pointer to a structure that contains the information to set. If the <i>dwOperation</i> parameter is SET_TAPE_MEDIA_INFORMATION, <i>lpTapeInformation</i> points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_tape_set_media_parameters">TAPE_SET_MEDIA_PARAMETERS</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_set_media_parameters">TAPE_SET_MEDIA_PARAMETERS</a> structure. 
 
 
 
 
 If <i>dwOperation</i> is SET_TAPE_DRIVE_INFORMATION, <i>lpTapeInformation</i> points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_tape_set_drive_parameters">TAPE_SET_DRIVE_PARAMETERS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_set_drive_parameters">TAPE_SET_DRIVE_PARAMETERS</a> structure.
 
 
 ## -returns
@@ -323,11 +323,11 @@ The media is write protected.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_tape_set_drive_parameters">TAPE_SET_DRIVE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_set_drive_parameters">TAPE_SET_DRIVE_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_tape_set_media_parameters">TAPE_SET_MEDIA_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_set_media_parameters">TAPE_SET_MEDIA_PARAMETERS</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: e71b0414-d449-42af-9d28-d2ae9fa1b6ea
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPQOS_TCP_TRAFFIC, *LPQOS_TCP_TRAFFIC structure [QOS], QOS_TCP_TRAFFIC, QOS_TCP_TRAFFIC structure [QOS], qos.qos_tcp_traffic, qosobjs/*LPQOS_TCP_TRAFFIC, qosobjs/QOS_TCP_TRAFFIC"
+ms.keywords: '*LPQOS_TCP_TRAFFIC, *LPQOS_TCP_TRAFFIC structure [QOS], QOS_TCP_TRAFFIC, QOS_TCP_TRAFFIC structure [QOS], qos.qos_tcp_traffic, qosobjs/*LPQOS_TCP_TRAFFIC, qosobjs/QOS_TCP_TRAFFIC'
 ms.topic: struct
-f1_keywords: 
- - "qosobjs/QOS_TCP_TRAFFIC"
+f1_keywords:
+- qosobjs/QOS_TCP_TRAFFIC
 req.header: qosobjs.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - QosObjs.h
+- QosObjs.h
 api_name:
- - QOS_TCP_TRAFFIC
+- QOS_TCP_TRAFFIC
 product: Windows
 targetos: Windows
 req.typenames: QOS_TCP_TRAFFIC, *LPQOS_TCP_TRAFFIC
@@ -78,7 +78,7 @@ When the <b>QOS_TCP_TRAFFIC</b> object is passed, the <b>DSField</b> mapping and
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
  
 
  

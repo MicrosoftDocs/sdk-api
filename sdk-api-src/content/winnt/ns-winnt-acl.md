@@ -8,10 +8,10 @@ tech.root: SecAuthZ
 ms.assetid: 0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PACL, ACL, ACL structure [Security], PACL, PACL structure pointer [Security], _ACL, _win32_acl_str, security.acl, winnt/ACL, winnt/PACL"
+ms.keywords: '*PACL, ACL, ACL structure [Security], PACL, PACL structure pointer [Security], _ACL, _win32_acl_str, security.acl, winnt/ACL, winnt/PACL'
 ms.topic: struct
-f1_keywords: 
- - "winnt/ACL"
+f1_keywords:
+- winnt/ACL
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - ACL
+- ACL
 product: Windows
 targetos: Windows
 req.typenames: ACL
@@ -98,7 +98,7 @@ An object can also have system-level security information associated with it, in
 
 For a list of currently defined ACE structures, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACE</a>.
 
-A fourth ACE structure, <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_alarm_ace">SYSTEM_ALARM_ACE</a>, is not currently supported.
+A fourth ACE structure, <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_alarm_ace">SYSTEM_ALARM_ACE</a>, is not currently supported.
 
 The <b>ACL</b> structure is to be treated as though it were opaque and applications are not to attempt to work with its members directly. To ensure that ACLs are semantically correct, applications can use the functions listed in the See Also section to create and manipulate ACLs.
 

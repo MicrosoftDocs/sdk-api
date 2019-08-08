@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInsertItem interface [Windows Shell],InsertItem method, IInsertItem.InsertItem, IInsertItem::InsertItem, InsertItem, InsertItem method [Windows Shell], InsertItem method [Windows Shell],IInsertItem interface, shell.IInsertitem_InsertItem, shell_IInsertitem_InsertItem, shobjidl/IInsertItem::InsertItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IInsertItem.InsertItem"
+f1_keywords:
+- shobjidl/IInsertItem.InsertItem
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IInsertItem.InsertItem
+- IInsertItem.InsertItem
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Adds an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure to a list of such structures.
+Adds an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure to a list of such structures.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Adds an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtyp
 
 Type: <b>LPCITEMIDLIST</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure that corresponds to an item in a Shell folder.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure that corresponds to an item in a Shell folder.
 
 
 ## -returns

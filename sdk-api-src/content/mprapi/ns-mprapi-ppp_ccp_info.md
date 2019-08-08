@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PPP_CCP_COMPRESSION, PPP_CCP_ENCRYPTION128BIT, PPP_CCP_ENCRYPTION40BIT, PPP_CCP_ENCRYPTION40BITOLD, PPP_CCP_ENCRYPTION56BIT, PPP_CCP_HISTORYLESS, PPP_CCP_INFO, PPP_CCP_INFO structure [RAS], RASCCPCA_MPPC, RASCCPCA_STAC, _mpr_ppp_ccp_info, mprapi/PPP_CCP_INFO, rras.ppp_ccp_info
 ms.topic: struct
-f1_keywords: 
- - "mprapi/PPP_CCP_INFO"
+f1_keywords:
+- mprapi/PPP_CCP_INFO
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - PPP_CCP_INFO
+- PPP_CCP_INFO
 product: Windows
 targetos: Windows
 req.typenames: PPP_CCP_INFO
@@ -290,7 +290,7 @@ MPPE using 128-bit keys.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_lcp_info">PPP_LCP_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_lcp_info">PPP_LCP_INFO</a>
  
 
  

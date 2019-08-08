@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVA2_AES_CTR_IV, DXVA2_AES_CTR_IV structure [Media Foundation], dxva2api/DXVA2_AES_CTR_IV, mf.dxva2_aes_ctr_iv
 ms.topic: struct
-f1_keywords: 
- - "dxva2api/DXVA2_AES_CTR_IV"
+f1_keywords:
+- dxva2api/DXVA2_AES_CTR_IV
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - DXVA2_AES_CTR_IV
+- DXVA2_AES_CTR_IV
 product: Windows
 targetos: Windows
 req.typenames: DXVA2_AES_CTR_IV
@@ -73,7 +73,7 @@ The block count, in big-endian format.
 
 
 
-For AES-CTR encyption, the <b>pvPVPState</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_decodebufferdesc">DXVA2_DecodeBufferDesc</a> structure points to a <b>DXVA2_AES_CTR_IV</b> structure.
+For AES-CTR encyption, the <b>pvPVPState</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodebufferdesc">DXVA2_DecodeBufferDesc</a> structure points to a <b>DXVA2_AES_CTR_IV</b> structure.
 
 The <a href="https://docs.microsoft.com/windows/desktop/medfound/d3daes-ctr-iv">D3DAES_CTR_IV</a> structure and the <b>DXVA2_AES_CTR_IV</b> structure are equivalent.
 
@@ -92,7 +92,7 @@ When the <b>D3DCPCAPS_SEQUENTIAL_CTR_IV</b> capability is present, it is recomme
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_decodebufferdesc">DXVA2_DecodeBufferDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodebufferdesc">DXVA2_DecodeBufferDesc</a>
 
 
 

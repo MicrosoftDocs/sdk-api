@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_SetImpersonationType, MI_DestinationOptions_SetImpersonationType function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetImpersonationType, wmi_v2.mi_destinationoptions_setimpersonationtype
 ms.topic: function
-f1_keywords: 
- - "mi/MI_DestinationOptions_SetImpersonationType"
+f1_keywords:
+- mi/MI_DestinationOptions_SetImpersonationType
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_DestinationOptions_SetImpersonationType
+- MI_DestinationOptions_SetImpersonationType
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,20 +61,20 @@ Sets the impersonation type.
 
 ### -param options [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_destinationoptions">MI_DestinationOptions</a> object returned from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdestinationoptions">MI_Application_NewDestinationOptions</a> function.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a> object returned from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdestinationoptions">MI_Application_NewDestinationOptions</a> function.
 
 
 ### -param impersonationType [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_destinationoptions_impersonationtype">MI_DestinationOptions_ImpersonationType</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_destinationoptions_impersonationtype">MI_DestinationOptions_ImpersonationType</a> enumeration.
 
 
 ## -returns
 
 
 
-A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 

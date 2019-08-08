@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 805411f1-db1c-6558-e717-3629cfc7d811, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10ShaderReflectionVariable interface, ID3D10ShaderReflectionVariable interface [Direct3D 10],GetDesc method, ID3D10ShaderReflectionVariable.GetDesc, ID3D10ShaderReflectionVariable::GetDesc, d3d10shader/ID3D10ShaderReflectionVariable::GetDesc, direct3d10.id3d10shaderreflectionvariable_getdesc
 ms.topic: method
-f1_keywords: 
- - "d3d10shader/ID3D10ShaderReflectionVariable.GetDesc"
+f1_keywords:
+- d3d10shader/ID3D10ShaderReflectionVariable.GetDesc
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Shader.h
+- D3D10Shader.h
 api_name:
- - ID3D10ShaderReflectionVariable.GetDesc
+- ID3D10ShaderReflectionVariable.GetDesc
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,9 +61,9 @@ Get a shader-variable description.
 
 ### -param pDesc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/ns-d3d10shader-_d3d10_shader_variable_desc">D3D10_SHADER_VARIABLE_DESC</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/ns-d3d10shader-d3d10_shader_variable_desc">D3D10_SHADER_VARIABLE_DESC</a>*</b>
 
-A pointer to a shader-variable description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/ns-d3d10shader-_d3d10_shader_variable_desc">D3D10_SHADER_VARIABLE_DESC</a>).
+A pointer to a shader-variable description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/ns-d3d10shader-d3d10_shader_variable_desc">D3D10_SHADER_VARIABLE_DESC</a>).
 
 
 ## -returns

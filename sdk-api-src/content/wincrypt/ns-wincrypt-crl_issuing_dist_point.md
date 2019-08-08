@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: cdac9e96-5b26-4398-8863-16ea2c43f11e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCRL_ISSUING_DIST_POINT, CRL_ISSUING_DIST_POINT, CRL_ISSUING_DIST_POINT structure [Security], PCRL_ISSUING_DIST_POINT, PCRL_ISSUING_DIST_POINT structure pointer [Security], _crypto2_crl_issuing_dist_point, security.crl_issuing_dist_point, wincrypt/CRL_ISSUING_DIST_POINT, wincrypt/PCRL_ISSUING_DIST_POINT"
+ms.keywords: '*PCRL_ISSUING_DIST_POINT, CRL_ISSUING_DIST_POINT, CRL_ISSUING_DIST_POINT structure [Security], PCRL_ISSUING_DIST_POINT, PCRL_ISSUING_DIST_POINT structure pointer [Security], _crypto2_crl_issuing_dist_point, security.crl_issuing_dist_point, wincrypt/CRL_ISSUING_DIST_POINT, wincrypt/PCRL_ISSUING_DIST_POINT'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRL_ISSUING_DIST_POINT"
+f1_keywords:
+- wincrypt/CRL_ISSUING_DIST_POINT
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRL_ISSUING_DIST_POINT
+- CRL_ISSUING_DIST_POINT
 product: Windows
 targetos: Windows
 req.typenames: CRL_ISSUING_DIST_POINT, *PCRL_ISSUING_DIST_POINT
@@ -62,7 +62,7 @@ The <b>CRL_ISSUING_DIST_POINT</b> structure contains information about the kinds
 ### -field DistPointName
 
 Optional 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_dist_point_name">CRL_DIST_POINT_NAME</a> member.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_dist_point_name">CRL_DIST_POINT_NAME</a> member.
 
 
 ### -field fOnlyContainsUserCerts
@@ -78,7 +78,7 @@ Optional
 ### -field OnlySomeReasonFlags
 
 Optional 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_bit_blob">CRYPT_BIT_BLOB</a> with bits indicating some reasons for certificate revocation.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_bit_blob">CRYPT_BIT_BLOB</a> with bits indicating some reasons for certificate revocation.
 
 
 ### -field fIndirectCRL

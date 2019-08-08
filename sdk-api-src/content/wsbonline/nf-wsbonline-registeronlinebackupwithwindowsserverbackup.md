@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterOnlineBackupWithWindowsServerBackup, RegisterOnlineBackupWithWindowsServerBackup function [Windows Server Backup], wsb.registeronlinebackupwithwindowsserverbackup, wsbonline/RegisterOnlineBackupWithWindowsServerBackup
 ms.topic: function
-f1_keywords: 
- - "wsbonline/RegisterOnlineBackupWithWindowsServerBackup"
+f1_keywords:
+- wsbonline/RegisterOnlineBackupWithWindowsServerBackup
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: WsbOnline.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WsbOnline.dll
+- WsbOnline.dll
 api_name:
- - RegisterOnlineBackupWithWindowsServerBackup
+- RegisterOnlineBackupWithWindowsServerBackup
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>RegisterOnlineBackupWithWindowsServerBackup</b> function registers a clou
 
 ### -param pOBRegistrationInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbonline/ns-wsbonline-_wsb_ob_registration_info">WSB_OB_REGISTRATION_INFO</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsbonline/ns-wsbonline-wsb_ob_registration_info">WSB_OB_REGISTRATION_INFO</a> structure.
 
 
 ## -returns
@@ -92,7 +92,7 @@ If any other cloud backup provider is already registered with Windows Server Bac
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbonline/ns-wsbonline-_wsb_ob_registration_info">WSB_OB_REGISTRATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsbonline/ns-wsbonline-wsb_ob_registration_info">WSB_OB_REGISTRATION_INFO</a>
  
 
  

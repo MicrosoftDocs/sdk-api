@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IIdentityName, IIdentityName interface [Windows Shell], IIdentityName interface [Windows Shell],described, _shell_IIdentityName, shell.IIdentityName, shobjidl_core/IIdentityName
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IIdentityName"
+f1_keywords:
+- shobjidl_core/IIdentityName
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IIdentityName
+- IIdentityName
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -64,7 +64,7 @@ Shell data sources that present items in virtual locations, such as search resul
 
 Several controls (the <b>Start</b> button on the taskbar, and the namespace control) use <b>IIdentityName</b> to get the original item and thus avoid duplicate items.
 
-This interface is helpful with aliased ID lists (type <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a>), as can be demonstrated using the following two lists.
+This interface is helpful with aliased ID lists (type <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a>), as can be demonstrated using the following two lists.
                 
 
 <ol>

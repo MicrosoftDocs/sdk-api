@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_WRITER_BINARY_ENCODING, WS_XML_WRITER_BINARY_ENCODING structure [Web Services for Windows], webservices/WS_XML_WRITER_BINARY_ENCODING, wsw.ws_xml_writer_binary_encoding
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_XML_WRITER_BINARY_ENCODING"
+f1_keywords:
+- webservices/WS_XML_WRITER_BINARY_ENCODING
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_WRITER_BINARY_ENCODING
+- WS_XML_WRITER_BINARY_ENCODING
 product: Windows
 targetos: Windows
 req.typenames: WS_XML_WRITER_BINARY_ENCODING
@@ -62,13 +62,13 @@ Used to indicate that the writer should emit bytes as binary xml.
 
 ### -field encoding
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_writer_encoding">WS_XML_WRITER_ENCODING</a>.
+The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_encoding">WS_XML_WRITER_ENCODING</a>.
         
 
 
 ### -field staticDictionary
 
-Indicates the dictionary that the writer should use for static strings.  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_string">WS_XML_STRING</a>s that are written that
+Indicates the dictionary that the writer should use for static strings.  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a>s that are written that
           reference this dictionary, will be written in the binary xml document using an id rather than the string itself.
           When reading this document, the application must provide a dictionary with the same strings.
         
@@ -76,7 +76,7 @@ Indicates the dictionary that the writer should use for static strings.  <a href
 
 ### -field dynamicStringCallback
 
-Specifies an optional callback that the writer will invoke when a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_string">WS_XML_STRING</a> that is not found in the staticDictionary is written for the first time.
+Specifies an optional callback that the writer will invoke when a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> that is not found in the staticDictionary is written for the first time.
           The callback provides the mapping to an id which the writer will then use.  It is the responsibility of the callback to coordinate with the
           writer to propagate these strings to the reader. The string is not added to the dictionary if this callback is not specified.
         

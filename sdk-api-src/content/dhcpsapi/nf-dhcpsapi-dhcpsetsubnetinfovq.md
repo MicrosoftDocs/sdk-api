@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpSetSubnetInfoVQ, DhcpSetSubnetInfoVQ function [DHCP], dhcp.dhcpsetsubnetinfovq, dhcpsapi/DhcpSetSubnetInfoVQ
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpSetSubnetInfoVQ"
+f1_keywords:
+- dhcpsapi/DhcpSetSubnetInfoVQ
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpSetSubnetInfoVQ
+- DhcpSetSubnetInfoVQ
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -72,7 +72,7 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 
 ### -param SubnetInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_info_vq">DHCP_SUBNET_INFO_VQ</a> structure that contains the information about the subnet.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_info_vq">DHCP_SUBNET_INFO_VQ</a> structure that contains the information about the subnet.
 
 
 ## -returns
@@ -130,7 +130,7 @@ The specified IPv4 subnet is not defined on the DHCP server.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_info_vq">DHCP_SUBNET_INFO_VQ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_info_vq">DHCP_SUBNET_INFO_VQ</a>
  
 
  

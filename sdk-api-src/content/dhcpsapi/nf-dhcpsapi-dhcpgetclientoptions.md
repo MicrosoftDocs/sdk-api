@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpGetClientOptions, DhcpGetClientOptions function [DHCP], dhcp.dhcpgetclientoptions, dhcpsapi/DhcpGetClientOptions
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpGetClientOptions"
+f1_keywords:
+- dhcpsapi/DhcpGetClientOptions
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpGetClientOptions
+- DhcpGetClientOptions
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,7 +78,7 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 
 ### -param ClientOptions [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_list">DHCP_OPTION_LIST</a> structure that contains the returned option values for the DHCP client.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_list">DHCP_OPTION_LIST</a> structure that contains the returned option values for the DHCP client.
 
 <div class="alert"><b>Note</b>  <p class="note">The memory for this parameter must be free using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.
 
@@ -118,7 +118,7 @@ This function is not implemented and is not supported.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_list">DHCP_OPTION_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_list">DHCP_OPTION_LIST</a>
  
 
  

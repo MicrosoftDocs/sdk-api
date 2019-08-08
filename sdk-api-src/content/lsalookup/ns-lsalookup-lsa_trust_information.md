@@ -8,10 +8,10 @@ tech.root: SecMgmt
 ms.assetid: 2b5e6f79-b97a-4018-a45a-37c300c3dc0d
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PLSA_TRUST_INFORMATION, LSA_TRUST_INFORMATION, LSA_TRUST_INFORMATION structure [Security], PLSA_TRUST_INFORMATION, PLSA_TRUST_INFORMATION structure pointer [Security], _LSA_TRUST_INFORMATION, _lsa_lsa_trust_information, lsalookup/LSA_TRUST_INFORMATION, lsalookup/PLSA_TRUST_INFORMATION, security.lsa_trust_information"
+ms.keywords: '*PLSA_TRUST_INFORMATION, LSA_TRUST_INFORMATION, LSA_TRUST_INFORMATION structure [Security], PLSA_TRUST_INFORMATION, PLSA_TRUST_INFORMATION structure pointer [Security], _LSA_TRUST_INFORMATION, _lsa_lsa_trust_information, lsalookup/LSA_TRUST_INFORMATION, lsalookup/PLSA_TRUST_INFORMATION, security.lsa_trust_information'
 ms.topic: struct
-f1_keywords: 
- - "lsalookup/LSA_TRUST_INFORMATION"
+f1_keywords:
+- lsalookup/LSA_TRUST_INFORMATION
 req.header: lsalookup.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - lsalookup.h
+- lsalookup.h
 api_name:
- - LSA_TRUST_INFORMATION
+- LSA_TRUST_INFORMATION
 product: Windows
 targetos: Windows
 req.typenames: LSA_TRUST_INFORMATION, *PLSA_TRUST_INFORMATION
@@ -62,7 +62,7 @@ The <b>LSA_TRUST_INFORMATION</b> structure identifies a domain.
 ### -field Name
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the domain.
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the domain.
 
 
 ### -field Sid
@@ -92,7 +92,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a>
  
 
  

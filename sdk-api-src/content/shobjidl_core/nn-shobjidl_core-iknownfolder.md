@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKnownFolder, IKnownFolder interface [Windows Shell], IKnownFolder interface [Windows Shell],described, _shell_IKnownFolder, shell.IKnownFolder, shobjidl_core/IKnownFolder
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IKnownFolder"
+f1_keywords:
+- shobjidl_core/IKnownFolder
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 6.0.6000 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IKnownFolder
+- IKnownFolder
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -110,7 +110,7 @@ Gets the ID of the selected folder.
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getidlist">GetIDList</a>
 </td>
 <td align="left" width="63%">
-Gets the location of the Shell namespace folder in the IDList (<a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a>) form.
+Gets the location of the Shell namespace folder in the IDList (<a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a>) form.
 
 </td>
 </tr>

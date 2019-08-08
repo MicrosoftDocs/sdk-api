@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OutOfProcessExceptionEventCallback, OutOfProcessExceptionEventCallback callback function [Windows Error Reporting], PFN_WER_RUNTIME_EXCEPTION_EVENT, PFN_WER_RUNTIME_EXCEPTION_EVENT callback, wer.outofprocessexceptioneventcallback, werapi/OutOfProcessExceptionEventCallback
 ms.topic: callback
-f1_keywords: 
- - "werapi/OutOfProcessExceptionEventCallback"
+f1_keywords:
+- werapi/OutOfProcessExceptionEventCallback
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Werapi.h
+- Werapi.h
 api_name:
- - OutOfProcessExceptionEventCallback
+- OutOfProcessExceptionEventCallback
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,7 +68,7 @@ A pointer to arbitrary context information that you specified when you called th
 
 ### -param pExceptionInformation [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-_wer_runtime_exception_information">WER_RUNTIME_EXCEPTION_INFORMATION</a> structure that contains the exception information. Use the information to determine whether you want to claim the crash.
+A <a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-wer_runtime_exception_information">WER_RUNTIME_EXCEPTION_INFORMATION</a> structure that contains the exception information. Use the information to determine whether you want to claim the crash.
 
 
 ### -param *pbOwnershipClaimed [out]

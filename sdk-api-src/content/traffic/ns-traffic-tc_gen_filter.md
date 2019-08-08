@@ -8,10 +8,10 @@ tech.root: QOS
 ms.assetid: 979bfa2d-50da-43a6-8ead-d338159e31cf
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTC_GEN_FILTER, TC_GEN_FILTER, TC_GEN_FILTER structure [QOS], TC_GEN_FILTER), TC_GEN_FILTER) structure [QOS], _gqos_tc_gen_filter, qos.tc_gen_filter, traffic/TC_GEN_FILTER"
+ms.keywords: '*PTC_GEN_FILTER, TC_GEN_FILTER, TC_GEN_FILTER structure [QOS], TC_GEN_FILTER), TC_GEN_FILTER) structure [QOS], _gqos_tc_gen_filter, qos.tc_gen_filter, traffic/TC_GEN_FILTER'
 ms.topic: struct
-f1_keywords: 
- - "traffic/TC_GEN_FILTER)"
+f1_keywords:
+- traffic/TC_GEN_FILTER)
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Traffic.h
+- Traffic.h
 api_name:
- - TC_GEN_FILTER)
+- TC_GEN_FILTER)
 product: Windows
 targetos: Windows
 req.typenames: TC_GEN_FILTER, *PTC_GEN_FILTER
@@ -75,7 +75,7 @@ Size of the <b>Pattern</b> member, in bytes.
 ### -field Pattern
 
 Indicates the specific format of the pattern to be applied to the filter, such as 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/ns-traffic-_ip_pattern">IP_PATTERN</a>. The pattern specifies which bits of a given packet should be evaluated when determining whether a packet is included in the filter.
+<a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-ip_pattern">IP_PATTERN</a>. The pattern specifies which bits of a given packet should be evaluated when determining whether a packet is included in the filter.
 
 
 ### -field Mask
@@ -88,11 +88,11 @@ A bitmask applied to the bits designated in the <b>Pattern</b> member. The appli
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/ns-traffic-_ip_pattern">IP_PATTERN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/traffic/ns-traffic-ip_pattern">IP_PATTERN</a>
  
 
  

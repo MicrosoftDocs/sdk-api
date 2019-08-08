@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: 2EEDB53B-75BC-48AC-A70D-9AEAED526C40
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEVENT_TRACE_PROPERTIES_V2, EVENT_TRACE_FLAG_ALPC, EVENT_TRACE_FLAG_CSWITCH, EVENT_TRACE_FLAG_DBGPRINT, EVENT_TRACE_FLAG_DISK_FILE_IO, EVENT_TRACE_FLAG_DISK_IO, EVENT_TRACE_FLAG_DISK_IO_INIT, EVENT_TRACE_FLAG_DISPATCHER, EVENT_TRACE_FLAG_DPC, EVENT_TRACE_FLAG_DRIVER, EVENT_TRACE_FLAG_FILE_IO, EVENT_TRACE_FLAG_FILE_IO_INIT, EVENT_TRACE_FLAG_IMAGE_LOAD, EVENT_TRACE_FLAG_INTERRUPT, EVENT_TRACE_FLAG_JOB, EVENT_TRACE_FLAG_MEMORY_HARD_FAULTS, EVENT_TRACE_FLAG_MEMORY_PAGE_FAULTS, EVENT_TRACE_FLAG_NETWORK_TCPIP, EVENT_TRACE_FLAG_NO_SYSCONFIG, EVENT_TRACE_FLAG_PROCESS, EVENT_TRACE_FLAG_PROCESS_COUNTERS, EVENT_TRACE_FLAG_PROFILE, EVENT_TRACE_FLAG_REGISTRY, EVENT_TRACE_FLAG_SPLIT_IO, EVENT_TRACE_FLAG_SYSTEMCALL, EVENT_TRACE_FLAG_THREAD, EVENT_TRACE_FLAG_VAMAP, EVENT_TRACE_FLAG_VIRTUAL_ALLOC, EVENT_TRACE_PROPERTIES_V2, EVENT_TRACE_PROPERTIES_V2 structure [ETW], PEVENT_TRACE_PROPERTIES_V2, PEVENT_TRACE_PROPERTIES_V2 structure pointer [ETW], _EVENT_TRACE_PROPERTIES_V2, etw.event_trace_properties_v2, evntrace/EVENT_TRACE_PROPERTIES_V2, evntrace/PEVENT_TRACE_PROPERTIES_V2"
+ms.keywords: '*PEVENT_TRACE_PROPERTIES_V2, EVENT_TRACE_FLAG_ALPC, EVENT_TRACE_FLAG_CSWITCH, EVENT_TRACE_FLAG_DBGPRINT, EVENT_TRACE_FLAG_DISK_FILE_IO, EVENT_TRACE_FLAG_DISK_IO, EVENT_TRACE_FLAG_DISK_IO_INIT, EVENT_TRACE_FLAG_DISPATCHER, EVENT_TRACE_FLAG_DPC, EVENT_TRACE_FLAG_DRIVER, EVENT_TRACE_FLAG_FILE_IO, EVENT_TRACE_FLAG_FILE_IO_INIT, EVENT_TRACE_FLAG_IMAGE_LOAD, EVENT_TRACE_FLAG_INTERRUPT, EVENT_TRACE_FLAG_JOB, EVENT_TRACE_FLAG_MEMORY_HARD_FAULTS, EVENT_TRACE_FLAG_MEMORY_PAGE_FAULTS, EVENT_TRACE_FLAG_NETWORK_TCPIP, EVENT_TRACE_FLAG_NO_SYSCONFIG, EVENT_TRACE_FLAG_PROCESS, EVENT_TRACE_FLAG_PROCESS_COUNTERS, EVENT_TRACE_FLAG_PROFILE, EVENT_TRACE_FLAG_REGISTRY, EVENT_TRACE_FLAG_SPLIT_IO, EVENT_TRACE_FLAG_SYSTEMCALL, EVENT_TRACE_FLAG_THREAD, EVENT_TRACE_FLAG_VAMAP, EVENT_TRACE_FLAG_VIRTUAL_ALLOC, EVENT_TRACE_PROPERTIES_V2, EVENT_TRACE_PROPERTIES_V2 structure [ETW], PEVENT_TRACE_PROPERTIES_V2, PEVENT_TRACE_PROPERTIES_V2 structure pointer [ETW], _EVENT_TRACE_PROPERTIES_V2, etw.event_trace_properties_v2, evntrace/EVENT_TRACE_PROPERTIES_V2, evntrace/PEVENT_TRACE_PROPERTIES_V2'
 ms.topic: struct
-f1_keywords: 
- - "evntrace/EVENT_TRACE_PROPERTIES_V2"
+f1_keywords:
+- evntrace/EVENT_TRACE_PROPERTIES_V2
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evntrace.h
+- Evntrace.h
 api_name:
- - EVENT_TRACE_PROPERTIES_V2
+- EVENT_TRACE_PROPERTIES_V2
 product: Windows
 targetos: Windows
 req.typenames: EVENT_TRACE_PROPERTIES_V2, *PEVENT_TRACE_PROPERTIES_V2
@@ -692,9 +692,9 @@ The number of filters that the <b>FilterDesc</b> points to. The only time this s
 
 ### -field FilterDesc
 
-Supported <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> filter types for system wide private loggers: <b>EVENT_FILTER_TYPE_EXECUTABLE_NAME</b> and <b>EVENT_FILTER_TYPE_PID</b>
+Supported <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> filter types for system wide private loggers: <b>EVENT_FILTER_TYPE_EXECUTABLE_NAME</b> and <b>EVENT_FILTER_TYPE_PID</b>
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures that points to the filter data. The number of elements in the array is specified in the <b>FilterDescCount</b> member. There can only be one filter for a specific filter type as specified by the <b>Type</b> member of the <b>EVENT_FILTER_DESCRIPTOR</b> structure. 
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures that points to the filter data. The number of elements in the array is specified in the <b>FilterDescCount</b> member. There can only be one filter for a specific filter type as specified by the <b>Type</b> member of the <b>EVENT_FILTER_DESCRIPTOR</b> structure. 
 
 This is only applicable to Private Loggers. The only time this should not be null is when it is used for system wide Private Loggers.
 

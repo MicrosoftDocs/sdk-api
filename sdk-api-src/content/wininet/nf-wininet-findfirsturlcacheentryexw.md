@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindFirstUrlCacheEntryEx, FindFirstUrlCacheEntryEx function [WinINet], FindFirstUrlCacheEntryExA, FindFirstUrlCacheEntryExW, _inet_findfirsturlcacheentryex_function, wininet.findfirsturlcacheentryex, wininet/FindFirstUrlCacheEntryEx, wininet/FindFirstUrlCacheEntryExA, wininet/FindFirstUrlCacheEntryExW
 ms.topic: function
-f1_keywords: 
- - "wininet/FindFirstUrlCacheEntryEx"
+f1_keywords:
+- wininet/FindFirstUrlCacheEntryEx
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - FindFirstUrlCacheEntryEx
- - FindFirstUrlCacheEntryExA
- - FindFirstUrlCacheEntryExW
+- FindFirstUrlCacheEntryEx
+- FindFirstUrlCacheEntryExA
+- FindFirstUrlCacheEntryExW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -182,7 +182,7 @@ ID of the cache group to be enumerated. Set this parameter to zero to enumerate 
 ### -param lpFirstCacheEntryInfo [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-_internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> structure to receive the cache entry information.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> structure to receive the cache entry information.
 
 
 ### -param lpcbCacheEntryInfo [in, out]

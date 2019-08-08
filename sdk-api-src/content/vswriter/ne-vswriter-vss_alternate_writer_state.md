@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VSS_ALTERNATE_WRITER_STATE, VSS_ALTERNATE_WRITER_STATE enumeration [VSS], VSS_AWS_ALTERNATE_WRITER_EXISTS, VSS_AWS_NO_ALTERNATE_WRITER, VSS_AWS_THIS_IS_ALTERNATE_WRITER, VSS_AWS_UNDEFINED, _win32_vss_alternate_writer_state, base.vss_alternate_writer_state, enumeration [VSS], vswriter/VSS_ALTERNATE_WRITER_STATE, vswriter/VSS_AWS_ALTERNATE_WRITER_EXISTS, vswriter/VSS_AWS_NO_ALTERNATE_WRITER, vswriter/VSS_AWS_THIS_IS_ALTERNATE_WRITER, vswriter/VSS_AWS_UNDEFINED
 ms.topic: enum
-f1_keywords: 
- - "vswriter/VSS_ALTERNATE_WRITER_STATE"
+f1_keywords:
+- vswriter/VSS_ALTERNATE_WRITER_STATE
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VsWriter.h
+- VsWriter.h
 api_name:
- - VSS_ALTERNATE_WRITER_STATE
+- VSS_ALTERNATE_WRITER_STATE
 product: Windows
 targetos: Windows
 req.typenames: VSS_ALTERNATE_WRITER_STATE
@@ -101,7 +101,7 @@ The writer in question is an alternate writer. This enumeration value is reserve
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_writer_state">VSS_WRITER_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_writer_state">VSS_WRITER_STATE</a>
  
 
  

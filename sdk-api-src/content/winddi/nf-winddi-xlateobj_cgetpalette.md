@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XLATEOBJ_cGetPalette, XLATEOBJ_cGetPalette function [Display Devices], display.xlateobj_cgetpalette, gdifncs_739e9529-598b-4489-85ff-0057e244617e.xml, winddi/XLATEOBJ_cGetPalette
 ms.topic: function
-f1_keywords: 
- - "winddi/XLATEOBJ_cGetPalette"
+f1_keywords:
+- winddi/XLATEOBJ_cGetPalette
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -30,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - XLATEOBJ_cGetPalette
+- XLATEOBJ_cGetPalette
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -61,7 +61,7 @@ The <b>XLATEOBJ_cGetPalette</b> function retrieves RGB colors or the bitfields f
 
 ### -param pxlo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_xlateobj">XLATEOBJ</a> structure from which GDI retrieves the requested information.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure from which GDI retrieves the requested information.
 
 
 ### -param iPal [in]
@@ -152,7 +152,7 @@ The driver must have information about the palette to perform some methods of co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_xlateobj">XLATEOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WscGetSecurityProviderHealth, WscGetSecurityProviderHealth function [Windows API], winprog.wscgetsecurityproviderhealth, wscapi/WscGetSecurityProviderHealth
 ms.topic: function
-f1_keywords: 
- - "wscapi/WscGetSecurityProviderHealth"
+f1_keywords:
+- wscapi/WscGetSecurityProviderHealth
 req.header: wscapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wscapi.lib
 req.dll: Wscapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wscapi.dll
+- Wscapi.dll
 api_name:
- - WscGetSecurityProviderHealth
+- WscGetSecurityProviderHealth
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the aggregate health state of the security provider categories represented by the specified <a href="https://docs.microsoft.com/windows/desktop/api/wscapi/ne-wscapi-_wsc_security_provider">WSC_SECURITY_PROVIDER</a> enumeration values.
+Gets the aggregate health state of the security provider categories represented by the specified <a href="https://docs.microsoft.com/windows/desktop/api/wscapi/ne-wscapi-wsc_security_provider">WSC_SECURITY_PROVIDER</a> enumeration values.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ Gets the aggregate health state of the security provider categories represented 
 
 ### -param Providers [in]
 
-One or more of the values in the <a href="https://docs.microsoft.com/windows/desktop/api/wscapi/ne-wscapi-_wsc_security_provider">WSC_SECURITY_PROVIDER</a> enumeration. To specify more than one value, combine the individual values by performing a bitwise OR operation.
+One or more of the values in the <a href="https://docs.microsoft.com/windows/desktop/api/wscapi/ne-wscapi-wsc_security_provider">WSC_SECURITY_PROVIDER</a> enumeration. To specify more than one value, combine the individual values by performing a bitwise OR operation.
 
 
 ### -param pHealth [out]
 
-A pointer to a variable that takes the value of one of the members of the <a href="https://docs.microsoft.com/windows/desktop/api/wscapi/ne-wscapi-_wsc_security_provider_health">WSC_SECURITY_PROVIDER_HEALTH</a> enumeration. If more than one provider is specified in the <i>Providers</i> parameter, the value of this parameter is the health of the least healthy of the specified provider categories.
+A pointer to a variable that takes the value of one of the members of the <a href="https://docs.microsoft.com/windows/desktop/api/wscapi/ne-wscapi-wsc_security_provider_health">WSC_SECURITY_PROVIDER_HEALTH</a> enumeration. If more than one provider is specified in the <i>Providers</i> parameter, the value of this parameter is the health of the least healthy of the specified provider categories.
 
 
 ## -returns
@@ -84,7 +84,7 @@ Returns <b>S_OK</b> if the function succeeds, otherwise returns an error code. I
 ## -see-also
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wscapi/ne-wscapi-_wsc_security_provider_health">WSC_SECURITY_PROVIDER_HEALTH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wscapi/ne-wscapi-wsc_security_provider_health">WSC_SECURITY_PROVIDER_HEALTH</a>
  
 
  

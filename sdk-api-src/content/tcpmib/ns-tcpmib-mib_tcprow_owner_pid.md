@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: 220b69a4-b372-4eff-8d5a-eca0d39b8af9
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_TCPROW_OWNER_PID, MIB_TCPROW_OWNER_PID, MIB_TCPROW_OWNER_PID structure [MIB], MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCPROW_OWNER_PID, PMIB_TCPROW_OWNER_PID structure pointer [MIB], iprtrmib/MIB_TCPROW_OWNER_PID, iprtrmib/PMIB_TCPROW_OWNER_PID, mib.mib_tcprow_owner_pid, tcpmib/MIB_TCPROW_OWNER_PID, tcpmib/PMIB_TCPROW_OWNER_PID"
+ms.keywords: '*PMIB_TCPROW_OWNER_PID, MIB_TCPROW_OWNER_PID, MIB_TCPROW_OWNER_PID structure [MIB], MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCPROW_OWNER_PID, PMIB_TCPROW_OWNER_PID structure pointer [MIB], iprtrmib/MIB_TCPROW_OWNER_PID, iprtrmib/PMIB_TCPROW_OWNER_PID, mib.mib_tcprow_owner_pid, tcpmib/MIB_TCPROW_OWNER_PID, tcpmib/PMIB_TCPROW_OWNER_PID'
 ms.topic: struct
-f1_keywords: 
- - "tcpmib/MIB_TCPROW_OWNER_PID"
+f1_keywords:
+- tcpmib/MIB_TCPROW_OWNER_PID
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tcpmib.h
- - Iprtrmib.h
+- Tcpmib.h
+- Iprtrmib.h
 api_name:
- - MIB_TCPROW_OWNER_PID
+- MIB_TCPROW_OWNER_PID
 product: Windows
 targetos: Windows
 req.typenames: MIB_TCPROW_OWNER_PID, *PMIB_TCPROW_OWNER_PID
@@ -265,7 +265,7 @@ The PID of the process that issued a context bind for this TCP connection.
 
 
 
-The <b>MIB_TCPROW_OWNER_PID</b> structure is returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a> with the <i>TableClass</i> parameter set to <b>TCP_TABLE_OWNER_PID_LISTENER</b>, <b>TCP_TABLE_OWNER_PID_CONNECTIONS</b>, or <b>TCP_TABLE_OWNER_PID_ALL</b> from the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcp_table_class">TCP_TABLE_CLASS</a> enumeration and the <i>ulAf</i> parameter set to <b>AF_INET4</b>.
+The <b>MIB_TCPROW_OWNER_PID</b> structure is returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a> with the <i>TableClass</i> parameter set to <b>TCP_TABLE_OWNER_PID_LISTENER</b>, <b>TCP_TABLE_OWNER_PID_CONNECTIONS</b>, or <b>TCP_TABLE_OWNER_PID_ALL</b> from the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-tcp_table_class">TCP_TABLE_CLASS</a> enumeration and the <i>ulAf</i> parameter set to <b>AF_INET4</b>.
 
   The <b>dwState</b> member indicates the state of the TCP entry in a TCP state diagram. A TCP connection progresses through a series of states during its
   lifetime.  The states are:  LISTEN, SYN-SENT, SYN-RECEIVED,
@@ -299,7 +299,7 @@ On the Windows SDK released for Windows Vistaand later, the organization of hea
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcp_table_class">TCP_TABLE_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-tcp_table_class">TCP_TABLE_CLASS</a>
 
 
 

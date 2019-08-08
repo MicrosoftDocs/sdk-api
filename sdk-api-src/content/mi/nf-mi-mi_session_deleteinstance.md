@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Session_DeleteInstance, MI_Session_DeleteInstance function [Windows Management Infrastructure (MI)], mi/MI_Session_DeleteInstance, wmi_v2.mi_session_deleteinstance
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Session_DeleteInstance"
+f1_keywords:
+- mi/MI_Session_DeleteInstance
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Session_DeleteInstance
+- MI_Session_DeleteInstance
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -71,7 +71,7 @@ Must be 0.
 
 ### -param options [in, optional]
 
-Optional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a> value that specifies options such as timeouts and how to control the CIM semantics. Specify <b>NULL</b> if no operation options are to be sent.
+Optional <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> value that specifies options such as timeouts and how to control the CIM semantics. Specify <b>NULL</b> if no operation options are to be sent.
 
 
 ### -param namespaceName
@@ -82,12 +82,12 @@ An optional, null-terminated string that represents the namespace name to carry 
 ### -param inboundInstance [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> that represents the class name and key of the instance to be deleted on the server.
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> that represents the class name and key of the instance to be deleted on the server.
 
 
 ### -param callbacks [in, optional]
 
-Optional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationcallbacks">MI_OperationCallbacks</a> structure that defines the operational callbacks to receive the instance result and CIM semantics. A callback value is required to carry out the operation asynchronously. If <b>NULL</b> is specified, then the client must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getinstance">MI_Operation_GetInstance</a> function to retrieve the results.
+Optional <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationcallbacks">MI_OperationCallbacks</a> structure that defines the operational callbacks to receive the instance result and CIM semantics. A callback value is required to carry out the operation asynchronously. If <b>NULL</b> is specified, then the client must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getinstance">MI_Operation_GetInstance</a> function to retrieve the results.
 
 
 ### -param operation [out]

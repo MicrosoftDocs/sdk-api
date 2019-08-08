@@ -8,10 +8,10 @@ tech.root: devio
 ms.assetid: 93eaa8dd-b244-4fdd-abd4-c7cab46cb2a6
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PSTORAGE_OFFLOAD_READ_OUTPUT, PSTORAGE_OFFLOAD_READ_OUTPUT, PSTORAGE_OFFLOAD_READ_OUTPUT structure pointer, STORAGE_OFFLOAD_READ_OUTPUT, STORAGE_OFFLOAD_READ_OUTPUT structure, STORAGE_OFFLOAD_READ_RANGE_TRUNCATED, base.storage_offload_read_output, winioctl/PSTORAGE_OFFLOAD_READ_OUTPUT, winioctl/STORAGE_OFFLOAD_READ_OUTPUT"
+ms.keywords: '*PSTORAGE_OFFLOAD_READ_OUTPUT, PSTORAGE_OFFLOAD_READ_OUTPUT, PSTORAGE_OFFLOAD_READ_OUTPUT structure pointer, STORAGE_OFFLOAD_READ_OUTPUT, STORAGE_OFFLOAD_READ_OUTPUT structure, STORAGE_OFFLOAD_READ_RANGE_TRUNCATED, base.storage_offload_read_output, winioctl/PSTORAGE_OFFLOAD_READ_OUTPUT, winioctl/STORAGE_OFFLOAD_READ_OUTPUT'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/STORAGE_OFFLOAD_READ_OUTPUT"
+f1_keywords:
+- winioctl/STORAGE_OFFLOAD_READ_OUTPUT
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - STORAGE_OFFLOAD_READ_OUTPUT
+- STORAGE_OFFLOAD_READ_OUTPUT
 product: Windows
 targetos: Windows
 req.typenames: STORAGE_OFFLOAD_READ_OUTPUT, *PSTORAGE_OFFLOAD_READ_OUTPUT
@@ -77,7 +77,7 @@ Output flags.
 </td>
 <td width="60%">
 The ranges represented by the token is smaller than the ranges specified in the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_data_set_range">DEVICE_DATA_SET_RANGE</a> structures passed in the 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-device_data_set_range">DEVICE_DATA_SET_RANGE</a> structures passed in the 
         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
         control code input buffer. In other words the <b>LengthProtected</b> member is less than 
         the sum of all of the <b>LengthInBytes</b> members of the 
@@ -106,7 +106,7 @@ Length of the token in bytes.
 
 ### -field Token
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_offload_token">STORAGE_OFFLOAD_TOKEN</a> containing the 
+A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_offload_token">STORAGE_OFFLOAD_TOKEN</a> containing the 
       token created.
 
 
@@ -131,7 +131,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>
  
 
  

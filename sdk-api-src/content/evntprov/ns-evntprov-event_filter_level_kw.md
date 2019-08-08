@@ -8,10 +8,10 @@ tech.root: ETW
 ms.assetid: 2FE25C55-8028-4894-9DD8-FC997B7D9ADB
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PEVENT_FILTER_LEVEL_KW, EVENT_FILTER_LEVEL_KW, EVENT_FILTER_LEVEL_KW structure [ETW], PEVENT_FILTER_LEVEL_KW, PEVENT_FILTER_LEVEL_KW structure pointer [ETW], etw.event_filter_level_kw, evntprov/EVENT_FILTER_LEVEL_KW, evntprov/PEVENT_FILTER_LEVEL_KW"
+ms.keywords: '*PEVENT_FILTER_LEVEL_KW, EVENT_FILTER_LEVEL_KW, EVENT_FILTER_LEVEL_KW structure [ETW], PEVENT_FILTER_LEVEL_KW, PEVENT_FILTER_LEVEL_KW structure pointer [ETW], etw.event_filter_level_kw, evntprov/EVENT_FILTER_LEVEL_KW, evntprov/PEVENT_FILTER_LEVEL_KW'
 ms.topic: struct
-f1_keywords: 
- - "evntprov/EVENT_FILTER_LEVEL_KW"
+f1_keywords:
+- evntprov/EVENT_FILTER_LEVEL_KW
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evntprov.h
+- Evntprov.h
 api_name:
- - EVENT_FILTER_LEVEL_KW
+- EVENT_FILTER_LEVEL_KW
 product: Windows
 targetos: Windows
 req.typenames: EVENT_FILTER_LEVEL_KW, *PEVENT_FILTER_LEVEL_KW
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EVENT_FILTER_LEVEL_KW</b> structure defines event IDs used in an <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure for a stack walk level-keyword filter.
+The <b>EVENT_FILTER_LEVEL_KW</b> structure defines event IDs used in an <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure for a stack walk level-keyword filter.
 
 This filter is only applied to events that are otherwise enabled
 on the logging session, via a level/keyword in the enable call.

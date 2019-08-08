@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 100, 101, 102, NetServerGetInfo, NetServerGetInfo function [Network Management], _win32_netservergetinfo, lmserver/NetServerGetInfo, netmgmt.netservergetinfo
 ms.topic: function
-f1_keywords: 
- - "lmserver/NetServerGetInfo"
+f1_keywords:
+- lmserver/NetServerGetInfo
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetServerGetInfo
+- NetServerGetInfo
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -85,7 +85,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return the server name and platform information. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_100">SERVER_INFO_100</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_100">SERVER_INFO_100</a> structure.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Return the server name and platform information. The <i>bufptr</i> parameter poi
 </td>
 <td width="60%">
 Return the server name, type, and associated software. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_101">SERVER_INFO_101</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_101">SERVER_INFO_101</a> structure.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Return the server name, type, and associated software. The <i>bufptr</i> paramet
 </td>
 <td width="60%">
 Return the server name, type, associated software, and other attributes. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_102">SERVER_INFO_102</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_102">SERVER_INFO_102</a> structure.
 
 </td>
 </tr>
@@ -204,7 +204,7 @@ If you are programming for Active Directory, you may be able to call certain Act
 
 The following code sample demonstrates how to retrieve current configuration information for a server using a call to the 
 <b>NetServerGetInfo</b> function. The sample calls 
-<b>NetServerGetInfo</b>, specifying information level 101 (<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_101">SERVER_INFO_101</a>). If the call succeeds, the code attempts to identify the type of server. Finally, the sample frees the memory allocated for the information buffer.
+<b>NetServerGetInfo</b>, specifying information level 101 (<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_101">SERVER_INFO_101</a>). If the call succeeds, the code attempts to identify the type of server. Finally, the sample frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -297,15 +297,15 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_100">SERVER_INFO_100</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_100">SERVER_INFO_100</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_101">SERVER_INFO_101</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_101">SERVER_INFO_101</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_102">SERVER_INFO_102</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_102">SERVER_INFO_102</a>
 
 
 

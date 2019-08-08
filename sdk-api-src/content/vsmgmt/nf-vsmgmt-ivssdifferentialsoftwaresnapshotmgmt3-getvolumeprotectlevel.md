@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVolumeProtectLevel, GetVolumeProtectLevel method, GetVolumeProtectLevel method,IVssDifferentialSoftwareSnapshotMgmt3 interface, IVssDifferentialSoftwareSnapshotMgmt3 interface,GetVolumeProtectLevel method, IVssDifferentialSoftwareSnapshotMgmt3.GetVolumeProtectLevel, IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel, base.ivssdifferentialsoftwaresnapshotmgmt3_getvolumeprotectlevel, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel
 ms.topic: method
-f1_keywords: 
- - "vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3.GetVolumeProtectLevel"
+f1_keywords:
+- vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3.GetVolumeProtectLevel
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsMgmt.h
+- VsMgmt.h
 api_name:
- - IVssDifferentialSoftwareSnapshotMgmt3.GetVolumeProtectLevel
+- IVssDifferentialSoftwareSnapshotMgmt3.GetVolumeProtectLevel
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -76,7 +76,7 @@ The name must be in one of the following formats and must include a trailing bac
 
 ### -param protectionLevel [out]
 
-The address of a caller-allocated buffer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-_vss_volume_protection_info">VSS_VOLUME_PROTECTION_INFO</a> structure containing information about the volume's shadow copy protection level.
+The address of a caller-allocated buffer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_volume_protection_info">VSS_VOLUME_PROTECTION_INFO</a> structure containing information about the volume's shadow copy protection level.
 
 
 ## -returns
@@ -171,7 +171,7 @@ The specified volume was not found.
 
 
 
-The <b>GetVolumeProtectLevel</b> method gets information about the volume's current protection level. If the volume is in a faulted state, the <b>m_protectionFault</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-_vss_volume_protection_info">VSS_VOLUME_PROTECTION_INFO</a> structure contains the current protection fault, and the <b>m_failureStatus</b> member contains  the reason why the volume is in a faulted state. If the volume is not in a faulted state, the <b>m_protectionFault</b> and <b>m_failureStatus</b> members will be zero.
+The <b>GetVolumeProtectLevel</b> method gets information about the volume's current protection level. If the volume is in a faulted state, the <b>m_protectionFault</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_volume_protection_info">VSS_VOLUME_PROTECTION_INFO</a> structure contains the current protection fault, and the <b>m_failureStatus</b> member contains  the reason why the volume is in a faulted state. If the volume is not in a faulted state, the <b>m_protectionFault</b> and <b>m_failureStatus</b> members will be zero.
 
 If the value of the <i>protectionLevel</i> parameter is <b>VSS_PROTECTION_LEVEL_SNAPSHOT</b>, requesters must set shadow copy storage area (diff area) associations using the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-adddiffarea">IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea</a> method.
 

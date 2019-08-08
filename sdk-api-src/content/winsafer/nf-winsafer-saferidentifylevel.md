@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SaferIdentifyLevel, SaferIdentifyLevel function [Security], _mnp_saferidentifylevel, security.saferidentifylevel, winsafer/SaferIdentifyLevel
 ms.topic: function
-f1_keywords: 
- - "winsafer/SaferIdentifyLevel"
+f1_keywords:
+- winsafer/SaferIdentifyLevel
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
+- Advapi32.dll
+- Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
 api_name:
- - SaferIdentifyLevel
+- SaferIdentifyLevel
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -63,12 +63,12 @@ The <b>SaferIdentifyLevel</b> function retrieves information about a level.
 ### -param dwNumProperties [in]
 
 Number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-_safer_code_properties_v2">SAFER_CODE_PROPERTIES</a> structures in the <i>pCodeproperties</i>  parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_code_properties_v2">SAFER_CODE_PROPERTIES</a> structures in the <i>pCodeproperties</i>  parameter.
 
 
 ### -param pCodeProperties [in, optional]
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-_safer_code_properties_v2">SAFER_CODE_PROPERTIES</a> structures. Each structure contains a code file to be checked and the  criteria used to check the file.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_code_properties_v2">SAFER_CODE_PROPERTIES</a> structures. Each structure contains a code file to be checked and the  criteria used to check the file.
 
 
 ### -param pLevelHandle [out]

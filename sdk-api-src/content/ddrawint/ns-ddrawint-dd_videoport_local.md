@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: c497d1ef-0eb1-465f-978c-60cf5606de93
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_VIDEOPORT_LOCAL, DD_VIDEOPORT_LOCAL, DD_VIDEOPORT_LOCAL structure [Display Devices], ddrawint/DD_VIDEOPORT_LOCAL, ddstrcts_ca5d2367-9338-4b1e-ad85-5c7a9e528e3e.xml, display.dd_videoport_local"
+ms.keywords: '*PDD_VIDEOPORT_LOCAL, DD_VIDEOPORT_LOCAL, DD_VIDEOPORT_LOCAL structure [Display Devices], ddrawint/DD_VIDEOPORT_LOCAL, ddstrcts_ca5d2367-9338-4b1e-ad85-5c7a9e528e3e.xml, display.dd_videoport_local'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_VIDEOPORT_LOCAL"
+f1_keywords:
+- ddrawint/DD_VIDEOPORT_LOCAL
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_VIDEOPORT_LOCAL
+- DD_VIDEOPORT_LOCAL
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_VIDEOPORT_LOCAL, DD_VIDEOPORT_LOCAL"
+req.typenames: '*PDD_VIDEOPORT_LOCAL, DD_VIDEOPORT_LOCAL'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -61,22 +61,22 @@ The DD_VIDEOPORT_LOCAL structure contains <a href="https://docs.microsoft.com/wi
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current DirectDraw process only.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current DirectDraw process only.
 
 
 ### -field ddvpDesc
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportdesc">DDVIDEOPORTDESC</a> structure that describes the VPE object.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportdesc">DDVIDEOPORTDESC</a> structure that describes the VPE object.
 
 
 ### -field ddvpInfo
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportinfo">DDVIDEOPORTINFO</a> structure that describes the transfer of video data to a surface.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportinfo">DDVIDEOPORTINFO</a> structure that describes the transfer of video data to a surface.
 
 
 ### -field lpSurface
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_int">DD_SURFACE_INT</a> structure for the surface receiving the video data.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_int">DD_SURFACE_INT</a> structure for the surface receiving the video data.
 
 
 ### -field lpVBISurface

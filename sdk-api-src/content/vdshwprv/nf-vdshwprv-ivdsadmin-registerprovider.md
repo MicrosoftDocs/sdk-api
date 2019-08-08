@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsAdmin interface [VDS],RegisterProvider method, IVdsAdmin.RegisterProvider, IVdsAdmin::RegisterProvider, RegisterProvider, RegisterProvider method [VDS], RegisterProvider method [VDS],IVdsAdmin interface, base.ivdsadmin_registerprovider, vdshwprv/IVdsAdmin::RegisterProvider
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsAdmin.RegisterProvider"
+f1_keywords:
+- vdshwprv/IVdsAdmin.RegisterProvider
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsAdmin.RegisterProvider
+- IVdsAdmin.RegisterProvider
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -80,7 +80,7 @@ The name of the hardware provider as  a zero-terminated, human-readable string.
 
 ### -param type [in]
 
-The provider types enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_provider_type">VDS_PROVIDER_TYPE</a>. 
+The provider types enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_type">VDS_PROVIDER_TYPE</a>. 
      Use the <b>VDS_PT_HARDWARE</b> value to register a hardware provider with VDS.
 
 
@@ -162,7 +162,7 @@ Hardware providers must not stop running while VDS is running.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_provider_type">VDS_PROVIDER_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_type">VDS_PROVIDER_TYPE</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: MIB
 ms.assetid: 0d1a2396-883b-4ca5-b8a0-11a3d3575a61
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_IPMCAST_OIF_STATS, *PMIB_IPMCAST_OIF_STATS_W2K, MIB_IPMCAST_OIF_STATS, MIB_IPMCAST_OIF_STATS structure [MIB], MIB_IPMCAST_OIF_STATS_W2K, PMIB_IPMCAST_OIF_STATS, PMIB_IPMCAST_OIF_STATS structure pointer [MIB], _mpr_mib_ipmcast_oif_stats, ipmib/MIB_IPMCAST_OIF_STATS, ipmib/PMIB_IPMCAST_OIF_STATS, iprtrmib/MIB_IPMCAST_OIF_STATS, iprtrmib/PMIB_IPMCAST_OIF_STATS, mib.mib_ipmcast_oif_stats, rras.mib_ipmcast_oif_stats"
+ms.keywords: '*PMIB_IPMCAST_OIF_STATS, *PMIB_IPMCAST_OIF_STATS_W2K, MIB_IPMCAST_OIF_STATS, MIB_IPMCAST_OIF_STATS structure [MIB], MIB_IPMCAST_OIF_STATS_W2K, PMIB_IPMCAST_OIF_STATS, PMIB_IPMCAST_OIF_STATS structure pointer [MIB], _mpr_mib_ipmcast_oif_stats, ipmib/MIB_IPMCAST_OIF_STATS, ipmib/PMIB_IPMCAST_OIF_STATS, iprtrmib/MIB_IPMCAST_OIF_STATS, iprtrmib/PMIB_IPMCAST_OIF_STATS, mib.mib_ipmcast_oif_stats, rras.mib_ipmcast_oif_stats'
 ms.topic: struct
-f1_keywords: 
- - "ipmib/MIB_IPMCAST_OIF_STATS"
+f1_keywords:
+- ipmib/MIB_IPMCAST_OIF_STATS
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipmib.h
- - Iprtrmib.h
+- Ipmib.h
+- Iprtrmib.h
 api_name:
- - MIB_IPMCAST_OIF_STATS
+- MIB_IPMCAST_OIF_STATS
 product: Windows
 targetos: Windows
 req.typenames: MIB_IPMCAST_OIF_STATS_W2K, *PMIB_IPMCAST_OIF_STATS_W2K
@@ -129,7 +129,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Ser
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_oif_w2k">MIB_IPMCAST_OIF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_oif_w2k">MIB_IPMCAST_OIF</a>
  
 
  

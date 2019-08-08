@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVD_AudioDuringFFwdRew, DVD_CacheSizeInMB, DVD_DisableStillThrottle, DVD_EnableESOutput, DVD_EnableExtendedCopyProtectErrors, DVD_EnableLoggingEvents, DVD_EnableNonblockingAPIs, DVD_EnablePortableBookmarks, DVD_EnableStreaming, DVD_EnableTitleLength, DVD_HMSF_TimeCodeEvents, DVD_IncreaseOutputControl, DVD_MaxReadBurstInKB, DVD_NotifyParentalLevelChange, DVD_NotifyPositionChange, DVD_OPTION_FLAG, DVD_OPTION_FLAG , DVD_OPTION_FLAG enumeration [DirectShow], DVD_OPTION_FLAGEnumeration, DVD_ReadBurstPeriodInMS, DVD_ResetOnStop, dshow.dvd_option_flag, strmif/DVD_AudioDuringFFwdRew, strmif/DVD_CacheSizeInMB, strmif/DVD_DisableStillThrottle, strmif/DVD_EnableESOutput, strmif/DVD_EnableExtendedCopyProtectErrors, strmif/DVD_EnableLoggingEvents, strmif/DVD_EnableNonblockingAPIs, strmif/DVD_EnablePortableBookmarks, strmif/DVD_EnableStreaming, strmif/DVD_EnableTitleLength, strmif/DVD_HMSF_TimeCodeEvents, strmif/DVD_IncreaseOutputControl, strmif/DVD_MaxReadBurstInKB, strmif/DVD_NotifyParentalLevelChange, strmif/DVD_NotifyPositionChange, strmif/DVD_OPTION_FLAG, strmif/DVD_ReadBurstPeriodInMS, strmif/DVD_ResetOnStop
 ms.topic: enum
-f1_keywords: 
- - "strmif/DVD_OPTION_FLAG"
+f1_keywords:
+- strmif/DVD_OPTION_FLAG
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - DVD_OPTION_FLAG
+- DVD_OPTION_FLAG
 product: Windows
 targetos: Windows
 req.typenames: DVD_OPTION_FLAG
@@ -247,7 +247,7 @@ If this flag <b>TRUE</b>, the DVD Navigator supports an extended set of errors r
 <li>DVD_PB_STOPPED_CopyProtectOutputNotSupported</li>
 <li>DVD_PB_STOPPED_CopyProtectOutputFailure</li>
 </ul>
-(See <a href="https://docs.microsoft.com/windows/desktop/api/dvdevcod/ne-dvdevcod-_tagdvd_pb_stopped">DVD_PB_STOPPED</a>.)
+(See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdevcod/ne-dvdevcod-dvd_pb_stopped">DVD_PB_STOPPED</a>.)
 
 If this flag is <b>FALSE</b>, all copy protection errors are reported using the general <b>DVD_PB_STOPPED_CopyProtectFailure</b> error code.
 

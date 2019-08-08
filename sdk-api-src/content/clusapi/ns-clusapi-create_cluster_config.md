@@ -8,10 +8,10 @@ tech.root: MsCS
 ms.assetid: 5fc90422-47e4-44da-a49f-66d4b7712f53
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCREATE_CLUSTER_CONFIG, CREATE_CLUSTER_CONFIG, CREATE_CLUSTER_CONFIG structure [Failover Cluster], PCREATE_CLUSTER_CONFIG, PCREATE_CLUSTER_CONFIG structure pointer [Failover Cluster], clusapi/CREATE_CLUSTER_CONFIG, clusapi/PCREATE_CLUSTER_CONFIG, mscs.create_cluster_config"
+ms.keywords: '*PCREATE_CLUSTER_CONFIG, CREATE_CLUSTER_CONFIG, CREATE_CLUSTER_CONFIG structure [Failover Cluster], PCREATE_CLUSTER_CONFIG, PCREATE_CLUSTER_CONFIG structure pointer [Failover Cluster], clusapi/CREATE_CLUSTER_CONFIG, clusapi/PCREATE_CLUSTER_CONFIG, mscs.create_cluster_config'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CREATE_CLUSTER_CONFIG"
+f1_keywords:
+- clusapi/CREATE_CLUSTER_CONFIG
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CREATE_CLUSTER_CONFIG
+- CREATE_CLUSTER_CONFIG
 product: Windows
 targetos: Windows
 req.typenames: CREATE_CLUSTER_CONFIG, *PCREATE_CLUSTER_CONFIG
@@ -90,7 +90,7 @@ Count of nodes in the array pointed to by the <b>pIpEntries</b> member. If zero 
 
 ### -field pIpEntries
 
-Address of array of pointers to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_cluster_ip_entry">CLUSTER_IP_ENTRY</a> 
+Address of array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_ip_entry">CLUSTER_IP_ENTRY</a> 
        structures, each naming a node to be added to the new cluster. Each entry will be used to configure a separate 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-address">IP Address</a> resource, and a 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource will be created which 
@@ -132,7 +132,7 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clus
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_cluster_ip_entry">CLUSTER_IP_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_ip_entry">CLUSTER_IP_ENTRY</a>
 
 
 

@@ -8,10 +8,10 @@ tech.root: Dfs
 ms.assetid: d3d31087-770e-4434-8ee0-6183102a9a6b
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDFS_INFO_103, *PDFS_INFO_103, DFS_INFO_103, DFS_INFO_103 structure [Distributed File System], DFS_PROPERTY_FLAG_ABDE, DFS_PROPERTY_FLAG_CLUSTER_ENABLED, DFS_PROPERTY_FLAG_INSITE_REFERRALS, DFS_PROPERTY_FLAG_ROOT_SCALABILITY, DFS_PROPERTY_FLAG_SITE_COSTING, DFS_PROPERTY_FLAG_TARGET_FAILBACK, LPDFS_INFO_103, LPDFS_INFO_103 structure pointer [Distributed File System], PDFS_INFO_103, PDFS_INFO_103 structure pointer [Distributed File System], dfs.dfs_info_103, fs.dfs_info_103, lmdfs/DFS_INFO_103, lmdfs/LPDFS_INFO_103, lmdfs/PDFS_INFO_103, netmgmt.dfs_info_103"
+ms.keywords: '*LPDFS_INFO_103, *PDFS_INFO_103, DFS_INFO_103, DFS_INFO_103 structure [Distributed File System], DFS_PROPERTY_FLAG_ABDE, DFS_PROPERTY_FLAG_CLUSTER_ENABLED, DFS_PROPERTY_FLAG_INSITE_REFERRALS, DFS_PROPERTY_FLAG_ROOT_SCALABILITY, DFS_PROPERTY_FLAG_SITE_COSTING, DFS_PROPERTY_FLAG_TARGET_FAILBACK, LPDFS_INFO_103, LPDFS_INFO_103 structure pointer [Distributed File System], PDFS_INFO_103, PDFS_INFO_103 structure pointer [Distributed File System], dfs.dfs_info_103, fs.dfs_info_103, lmdfs/DFS_INFO_103, lmdfs/LPDFS_INFO_103, lmdfs/PDFS_INFO_103, netmgmt.dfs_info_103'
 ms.topic: struct
-f1_keywords: 
- - "lmdfs/DFS_INFO_103"
+f1_keywords:
+- lmdfs/DFS_INFO_103
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - LmDfs.h
+- LmDfs.h
 api_name:
- - DFS_INFO_103
+- DFS_INFO_103
 product: Windows
 targetos: Windows
 req.typenames: DFS_INFO_103, *PDFS_INFO_103, *LPDFS_INFO_103
@@ -135,8 +135,8 @@ Scope: Domain-based DFS roots and stand-alone DFS roots.
 When this flag is set, Access-Based Directory Enumeration (ABDE) mode support is enabled on the entire DFS 
          root target share of the DFS namespace. This flag is valid only for DFS namespaces for which the 
          <b>DFS_NAMESPACE_CAPABILITY_ABDE</b> capability flag is set. For more information, see 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_50">DFS_INFO_50</a> and 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_supported_namespace_version_info">DFS_SUPPORTED_NAMESPACE_VERSION_INFO</a>.
+         <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_50">DFS_INFO_50</a> and 
+         <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_supported_namespace_version_info">DFS_SUPPORTED_NAMESPACE_VERSION_INFO</a>.
 
 The <b>DFS_PROPERTY_FLAG_ABDE</b> flag is valid only on the DFS namespace root and not 
          on root targets, links, or link targets. This flag must be enabled to associate a security descriptor with a 

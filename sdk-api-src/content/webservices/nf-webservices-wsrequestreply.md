@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsRequestReply, WsRequestReply function [Web Services for Windows], webservices/WsRequestReply, wsw.wsrequestreply
 ms.topic: function
-f1_keywords: 
- - "webservices/WsRequestReply"
+f1_keywords:
+- webservices/WsRequestReply
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsRequestReply
+- WsRequestReply
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -78,12 +78,12 @@ The message object should be in <a href="https://docs.microsoft.com/windows/desk
 
 ### -param requestMessageDescription [in]
 
-The action field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_description">WS_MESSAGE_DESCRIPTION</a> is used as the
+The action field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> is used as the
                     action header for the request message.  This field may be <b>NULL</b> if no action
                     is required.
                 
 
-The bodyElementDescription field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_description">WS_MESSAGE_DESCRIPTION</a>is used to serialize the body of the request message.  This field may be 
+The bodyElementDescription field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a>is used to serialize the body of the request message.  This field may be 
                     <b>NULL</b> if no body element is desired.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a> for
                     information about how the body is serialized according to the bodyElementDescription.
                 
@@ -119,13 +119,13 @@ The message object should be in <a href="https://docs.microsoft.com/windows/desk
 
 ### -param replyMessageDescription [in]
 
-The action field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_description">WS_MESSAGE_DESCRIPTION</a> is used to verify
+The action field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> is used to verify
                     the action header of the received reply message.  This field may be <b>NULL</b> if no action
                     is required.  If <b>NULL</b>, the action header of the received message is ignored
                     if present.
                 
 
-The bodyElementDescription field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_description">WS_MESSAGE_DESCRIPTION</a>is used to deserialize the body of the reply message.  This field may be 
+The bodyElementDescription field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a>is used to deserialize the body of the reply message.  This field may be 
                     <b>NULL</b> if no body element is desired.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadbody">WsReadBody</a> for 
                     information about how the body is deserialized according to the bodyElementDescription.
                 
@@ -154,7 +154,7 @@ Where to store the deserialized values of the body.
 The interpretation of this parameter depends on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
                 
 
-If the bodyElementDescription of the reply <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_description">WS_MESSAGE_DESCRIPTION</a> 
+If the bodyElementDescription of the reply <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> 
                     is <b>NULL</b>, then this parameter is not touched.  In this case, the
                     parameter does not need to be specified.
                 

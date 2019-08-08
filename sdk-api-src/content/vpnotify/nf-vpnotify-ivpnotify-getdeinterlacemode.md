@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeinterlaceMode, GetDeinterlaceMode method [DirectShow], GetDeinterlaceMode method [DirectShow],IVPNotify interface, IVPNotify interface [DirectShow],GetDeinterlaceMode method, IVPNotify.GetDeinterlaceMode, IVPNotify::GetDeinterlaceMode, IVPNotifyGetDeinterlaceMode, dshow.ivpnotify_getdeinterlacemode, vpnotify/IVPNotify::GetDeinterlaceMode
 ms.topic: method
-f1_keywords: 
- - "vpnotify/IVPNotify.GetDeinterlaceMode"
+f1_keywords:
+- vpnotify/IVPNotify.GetDeinterlaceMode
 req.header: vpnotify.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVPNotify.GetDeinterlaceMode
+- IVPNotify.GetDeinterlaceMode
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,7 +67,7 @@ This method is not currently implemented and returns E_NOTIMPL.
 
 ### -param pMode [out]
 
-Pointer to the retrieved mode. This value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/vptype/ne-vptype-_amvp_mode">AMVP_MODE</a> enumerated data type.
+Pointer to the retrieved mode. This value is a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vptype/ne-vptype-amvp_mode">AMVP_MODE</a> enumerated data type.
 
 
 ## -returns

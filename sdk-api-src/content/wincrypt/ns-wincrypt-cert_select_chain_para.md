@@ -8,10 +8,10 @@ tech.root: SecCrypto
 ms.assetid: 55c6c063-2a65-40ad-8d3f-7723b83cf021
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_SELECT_CHAIN_PARA, CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL, CERT_CHAIN_REVOCATION_CHECK_CACHE_ONLY, CERT_SELECT_CHAIN_PARA, CERT_SELECT_CHAIN_PARA structure [Security], PCCERT_SELECT_CHAIN_PARA, PCCERT_SELECT_CHAIN_PARA structure pointer [Security], PCERT_SELECT_CHAIN_PARA, PCERT_SELECT_CHAIN_PARA structure pointer [Security], security.cert_select_chain_para, wincrypt/CERT_SELECT_CHAIN_PARA, wincrypt/PCCERT_SELECT_CHAIN_PARA, wincrypt/PCERT_SELECT_CHAIN_PARA"
+ms.keywords: '*PCERT_SELECT_CHAIN_PARA, CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL, CERT_CHAIN_REVOCATION_CHECK_CACHE_ONLY, CERT_SELECT_CHAIN_PARA, CERT_SELECT_CHAIN_PARA structure [Security], PCCERT_SELECT_CHAIN_PARA, PCCERT_SELECT_CHAIN_PARA structure pointer [Security], PCERT_SELECT_CHAIN_PARA, PCERT_SELECT_CHAIN_PARA structure pointer [Security], security.cert_select_chain_para, wincrypt/CERT_SELECT_CHAIN_PARA, wincrypt/PCCERT_SELECT_CHAIN_PARA, wincrypt/PCERT_SELECT_CHAIN_PARA'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_SELECT_CHAIN_PARA"
+f1_keywords:
+- wincrypt/CERT_SELECT_CHAIN_PARA
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_SELECT_CHAIN_PARA
+- CERT_SELECT_CHAIN_PARA
 product: Windows
 targetos: Windows
 req.typenames: CERT_SELECT_CHAIN_PARA, *PCERT_SELECT_CHAIN_PARA
@@ -78,7 +78,7 @@ The handle of any additional store to search for supporting certificates and cer
 
 ### -field pChainPara
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_para">CERT_CHAIN_PARA</a> structure that includes chain-building parameters. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_para">CERT_CHAIN_PARA</a> structure that includes chain-building parameters. 
 
 
 ### -field dwFlags
@@ -127,8 +127,8 @@ Trust in a particular certificate being a trusted root is based on the current s
 The following remarks apply to strong signature checking:
 
 <ul>
-<li>You can enable strong signature checking by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_para">CERT_CHAIN_PARA</a> structure referenced by the <b>pChainPara</b> member. The <b>pStrongSignPara</b> member of the <b>CERT_CHAIN_PARA</b> structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure that can be used to determine signature strength.</li>
-<li>When you enable strong checking and a weak signature is encountered, the <b>CERT_TRUST_IS_NOT_SIGNATURE_VALID</b> and <b>CERT_TRUST_HAS_WEAK_SIGNATURE</b> errors are set in the <b>dwErrorStatus</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_trust_status">CERT_TRUST_STATUS</a> structure.</li>
+<li>You can enable strong signature checking by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_para">CERT_CHAIN_PARA</a> structure referenced by the <b>pChainPara</b> member. The <b>pStrongSignPara</b> member of the <b>CERT_CHAIN_PARA</b> structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure that can be used to determine signature strength.</li>
+<li>When you enable strong checking and a weak signature is encountered, the <b>CERT_TRUST_IS_NOT_SIGNATURE_VALID</b> and <b>CERT_TRUST_HAS_WEAK_SIGNATURE</b> errors are set in the <b>dwErrorStatus</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a> structure.</li>
 </ul>
 
 

@@ -8,10 +8,10 @@ tech.root: RRAS
 ms.assetid: 6c75fb17-60b9-44cb-a934-430a6de74ee7
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PRTM_ENTITY_ID, PRTM_ENTITY_ID, PRTM_ENTITY_ID structure pointer [RAS], RTM_ENTITY_ID, RTM_ENTITY_ID structure [RAS], _rtmv2ref_rtm_entity_id, rras.rtm_entity_id, rtmv2/PRTM_ENTITY_ID, rtmv2/RTM_ENTITY_ID"
+ms.keywords: '*PRTM_ENTITY_ID, PRTM_ENTITY_ID, PRTM_ENTITY_ID structure pointer [RAS], RTM_ENTITY_ID, RTM_ENTITY_ID structure [RAS], _rtmv2ref_rtm_entity_id, rras.rtm_entity_id, rtmv2/PRTM_ENTITY_ID, rtmv2/RTM_ENTITY_ID'
 ms.topic: struct
-f1_keywords: 
- - "rtmv2/RTM_ENTITY_ID"
+f1_keywords:
+- rtmv2/RTM_ENTITY_ID
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rtmv2.h
+- Rtmv2.h
 api_name:
- - RTM_ENTITY_ID
+- RTM_ENTITY_ID
 product: Windows
 targetos: Windows
 req.typenames: RTM_ENTITY_ID, *PRTM_ENTITY_ID
@@ -80,7 +80,7 @@ Specifies a client's identifier, which is a combination of the <b>EntityProtocol
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_entity_info">RTM_ENTITY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_info">RTM_ENTITY_INFO</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUrlCacheGroupAttribute, GetUrlCacheGroupAttribute function [WinINet], GetUrlCacheGroupAttributeA, GetUrlCacheGroupAttributeW, _inet_geturlcachegroupattribute_function, wininet.geturlcachegroupattribute, wininet/GetUrlCacheGroupAttribute, wininet/GetUrlCacheGroupAttributeA, wininet/GetUrlCacheGroupAttributeW
 ms.topic: function
-f1_keywords: 
- - "wininet/GetUrlCacheGroupAttribute"
+f1_keywords:
+- wininet/GetUrlCacheGroupAttribute
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - GetUrlCacheGroupAttribute
- - GetUrlCacheGroupAttributeA
- - GetUrlCacheGroupAttributeW
+- GetUrlCacheGroupAttribute
+- GetUrlCacheGroupAttributeA
+- GetUrlCacheGroupAttributeW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -164,7 +164,7 @@ Sets or retrieves the cache group type.
 ### -param lpGroupInfo [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-_internet_cache_group_infoa">INTERNET_CACHE_GROUP_INFO</a> structure that receives the requested information.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_cache_group_infoa">INTERNET_CACHE_GROUP_INFO</a> structure that receives the requested information.
 
 
 ### -param lpcbGroupInfo [in, out]

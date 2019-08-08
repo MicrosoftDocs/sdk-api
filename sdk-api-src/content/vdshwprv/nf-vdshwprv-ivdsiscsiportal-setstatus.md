@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiPortal interface [VDS],SetStatus method, IVdsIscsiPortal.SetStatus, IVdsIscsiPortal::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsIscsiPortal interface, base.ivdsiscsiportal_setstatus, vds/IVdsIscsiPortal::SetStatus, vdshwprv/IVdsIscsiPortal::SetStatus
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsIscsiPortal.SetStatus"
+f1_keywords:
+- vdshwprv/IVdsIscsiPortal.SetStatus
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiPortal.SetStatus
+- IVdsIscsiPortal.SetStatus
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ Sets the status of a portal to the specified value.
 
 ### -param status [in]
 
-Values enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_iscsi_portal_status">VDS_ISCSI_PORTAL_STATUS</a>. 
+Values enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_iscsi_portal_status">VDS_ISCSI_PORTAL_STATUS</a>. 
       Only <b>VDS_IPS_ONLINE</b> and <b>VDS_IPS_OFFLINE</b> enumeration values 
       are supported; the remaining values are only to be used by a provider to report status.
 
@@ -156,7 +156,7 @@ The operation or combination of parameters is not supported by this provider.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_iscsi_portal_status">VDS_ISCSI_PORTAL_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_iscsi_portal_status">VDS_ISCSI_PORTAL_STATUS</a>
  
 
  

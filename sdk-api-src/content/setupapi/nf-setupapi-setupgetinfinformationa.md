@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupGetInfInformation, SetupGetInfInformation function [Setup API], SetupGetInfInformationA, SetupGetInfInformationW, _setupapi_setupgetinfinformation, setup.setupgetinfinformation, setupapi/SetupGetInfInformation, setupapi/SetupGetInfInformationA, setupapi/SetupGetInfInformationW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupGetInfInformation"
+f1_keywords:
+- setupapi/SetupGetInfInformation
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupGetInfInformation
- - SetupGetInfInformationA
- - SetupGetInfInformationW
+- SetupGetInfInformation
+- SetupGetInfInformationA
+- SetupGetInfInformationW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -56,7 +56,7 @@ ms.custom: 19H1
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
 The <b>SetUpGetInfInformation</b> function returns the 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_inf_information">SP_INF_INFORMATION</a> structure for the specified INF file to a buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_inf_information">SP_INF_INFORMATION</a> structure for the specified INF file to a buffer.
 
 
 ## -parameters
@@ -110,7 +110,7 @@ Search for the INF in each of the directories listed in the <i>DevicePath</i> va
 
 ### -param ReturnBuffer [in, out]
 
-If not <b>NULL</b>, points to a buffer in which this function returns the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_inf_information">SP_INF_INFORMATION</a> structure. 
+If not <b>NULL</b>, points to a buffer in which this function returns the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_inf_information">SP_INF_INFORMATION</a> structure. 
 
 You can call the function one time to get the required buffer size, allocate the necessary memory, and then call the function a second time to retrieve the data. Using this technique, you can avoid errors due to an insufficient buffer size. For more information, see the Remarks section of this topic.
 

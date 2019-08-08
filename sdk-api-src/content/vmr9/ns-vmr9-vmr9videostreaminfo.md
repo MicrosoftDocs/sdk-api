@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VMR9VideoStreamInfo, VMR9VideoStreamInfo structure [DirectShow], VMR9VideoStreamInfoStructure, dshow.vmr9videostreaminfo, vmr9/VMR9VideoStreamInfo
 ms.topic: struct
-f1_keywords: 
- - "vmr9/VMR9VideoStreamInfo"
+f1_keywords:
+- vmr9/VMR9VideoStreamInfo
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vmr9.h
+- Vmr9.h
 api_name:
- - VMR9VideoStreamInfo
+- VMR9VideoStreamInfo
 product: Windows
 targetos: Windows
 req.typenames: VMR9VideoStreamInfo
@@ -92,7 +92,7 @@ The alpha value for this stream. (Not per-pixel alpha.)
 
 ### -field rNormal
 
-The position of the image in composition space, as a <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9normalizedrect">VMR9NormalizedRect</a> structure.
+The position of the image in composition space, as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9normalizedrect">VMR9NormalizedRect</a> structure.
           
 
 
@@ -108,7 +108,7 @@ The end time of the video frame, in 100-nanosecond units.
 
 ### -field SampleFormat
 
-The video interlacing format, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-_vmr9_sampleformat">VMR9_SampleFormat</a> enumeration type.
+The video interlacing format, specified as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9_sampleformat">VMR9_SampleFormat</a> enumeration type.
           
 
 

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConsoleNameSpace interface [MMC],SetItem method, IConsoleNameSpace.SetItem, IConsoleNameSpace2 interface [MMC],SetItem method, IConsoleNameSpace2::SetItem, IConsoleNameSpace::SetItem, SetItem, SetItem method [MMC], SetItem method [MMC],IConsoleNameSpace interface, SetItem method [MMC],IConsoleNameSpace2 interface, _slate_iconsolenamespace2_setitem, mmc.iconsolenamespace2_setitem, mmc/IConsoleNameSpace2::SetItem, mmc/IConsoleNameSpace::SetItem
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsoleNameSpace.SetItem"
+f1_keywords:
+- mmc/IConsoleNameSpace.SetItem
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -30,15 +30,15 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsoleNameSpace.SetItem
- - IConsoleNameSpace2.SetItem
+- IConsoleNameSpace.SetItem
+- IConsoleNameSpace2.SetItem
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -62,7 +62,7 @@ The <b>IConsoleNameSpace2::SetItem</b> method enables the snap-in to set the att
 
 ### -param item [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_scopedataitem">SCOPEDATAITEM</a> structure that contains 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-scopedataitem">SCOPEDATAITEM</a> structure that contains 
       information about the item to be set in the scope pane.
 
 

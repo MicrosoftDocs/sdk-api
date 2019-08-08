@@ -8,10 +8,10 @@ tech.root: display
 ms.assetid: 11e0a6b9-16b9-4fc3-8e17-776f56c12196
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PDD_SURFACE_GLOBAL, DD_SURFACE_GLOBAL, DD_SURFACE_GLOBAL structure [Display Devices], PDD_SURFACE_GLOBAL, PDD_SURFACE_GLOBAL structure pointer [Display Devices], ddrawint/DD_SURFACE_GLOBAL, ddrawint/PDD_SURFACE_GLOBAL, ddstrcts_83ae0625-9b08-4380-bd3a-d8d67675a48b.xml, display.dd_surface_global"
+ms.keywords: '*PDD_SURFACE_GLOBAL, DD_SURFACE_GLOBAL, DD_SURFACE_GLOBAL structure [Display Devices], PDD_SURFACE_GLOBAL, PDD_SURFACE_GLOBAL structure pointer [Display Devices], ddrawint/DD_SURFACE_GLOBAL, ddrawint/PDD_SURFACE_GLOBAL, ddstrcts_83ae0625-9b08-4380-bd3a-d8d67675a48b.xml, display.dd_surface_global'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_SURFACE_GLOBAL"
+f1_keywords:
+- ddrawint/DD_SURFACE_GLOBAL
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -30,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_SURFACE_GLOBAL
+- DD_SURFACE_GLOBAL
 product: Windows
 targetos: Windows
-req.typenames: "*PDD_SURFACE_GLOBAL, DD_SURFACE_GLOBAL"
+req.typenames: '*PDD_SURFACE_GLOBAL, DD_SURFACE_GLOBAL'
 req.redist: 
 ms.custom: 19H1
 ---
@@ -71,7 +71,7 @@ Slice pitch for volume textures.
 
 ### -field lpVidMemHeap
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_videomemory">VIDEOMEMORY</a> structure from which the heap display memory was allocated. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a> structure from which the heap display memory was allocated. 
 
 
 ### -field dwBlockSizeX
@@ -199,7 +199,7 @@ When a DirectX driver is working with a vertex buffer, it is important for it to
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_videomemory">VIDEOMEMORY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a>
  
 
  

@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 9fe7375a-58ef-4807-942f-e21858f09217
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PTXF_LOG_RECORD_AFFECTED_FILE, PTXF_LOG_RECORD_AFFECTED_FILE, PTXF_LOG_RECORD_AFFECTED_FILE structure pointer [Files], TXF_LOG_RECORD_AFFECTED_FILE, TXF_LOG_RECORD_AFFECTED_FILE structure [Files], fs.txf_log_record_affected_file, txfw32/PTXF_LOG_RECORD_AFFECTED_FILE, txfw32/TXF_LOG_RECORD_AFFECTED_FILE"
+ms.keywords: '*PTXF_LOG_RECORD_AFFECTED_FILE, PTXF_LOG_RECORD_AFFECTED_FILE, PTXF_LOG_RECORD_AFFECTED_FILE structure pointer [Files], TXF_LOG_RECORD_AFFECTED_FILE, TXF_LOG_RECORD_AFFECTED_FILE structure [Files], fs.txf_log_record_affected_file, txfw32/PTXF_LOG_RECORD_AFFECTED_FILE, txfw32/TXF_LOG_RECORD_AFFECTED_FILE'
 ms.topic: struct
-f1_keywords: 
- - "txfw32/TXF_LOG_RECORD_AFFECTED_FILE"
+f1_keywords:
+- txfw32/TXF_LOG_RECORD_AFFECTED_FILE
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - TxfW32.h
+- TxfW32.h
 api_name:
- - TXF_LOG_RECORD_AFFECTED_FILE
+- TXF_LOG_RECORD_AFFECTED_FILE
 product: Windows
 targetos: Windows
 req.typenames: TXF_LOG_RECORD_AFFECTED_FILE, *PTXF_LOG_RECORD_AFFECTED_FILE
@@ -82,7 +82,7 @@ This member is reserved.
 
 ### -field TxfFileId
 
-The TxF file identifier for the file associated with this record. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_id">TXF_ID</a>.
+The TxF file identifier for the file associated with this record. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_id">TXF_ID</a>.
 
 
 ### -field KtmGuid
@@ -105,11 +105,11 @@ The offset of the file name from the beginning of this record.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_id">TXF_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_id">TXF_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-_txf_log_record_base">TXF_LOG_RECORD_BASE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_base">TXF_LOG_RECORD_BASE</a>
  
 
  

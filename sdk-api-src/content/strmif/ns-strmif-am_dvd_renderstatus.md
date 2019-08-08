@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AM_DVD_RENDERSTATUS, AM_DVD_RENDERSTATUS structure [DirectShow], AM_DVD_RENDERSTATUSStructure, dshow.am_dvd_renderstatus, strmif/AM_DVD_RENDERSTATUS
 ms.topic: struct
-f1_keywords: 
- - "strmif/AM_DVD_RENDERSTATUS"
+f1_keywords:
+- strmif/AM_DVD_RENDERSTATUS
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - AM_DVD_RENDERSTATUS
+- AM_DVD_RENDERSTATUS
 product: Windows
 targetos: Windows
 req.typenames: AM_DVD_RENDERSTATUS
@@ -99,7 +99,7 @@ Number of streams that failed to render.
 
 ### -field dwFailedStreamsFlag
 
-Combination of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_am_dvd_stream_flags">AM_DVD_STREAM_FLAGS</a> flags indicating which streams failed.
+Combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-am_dvd_stream_flags">AM_DVD_STREAM_FLAGS</a> flags indicating which streams failed.
 
 
 ## -see-also

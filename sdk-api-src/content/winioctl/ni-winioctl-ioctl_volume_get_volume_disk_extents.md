@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS, IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS control, IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS control code [Files], _win32_ioctl_volume_get_volume_disk_extents, base.ioctl_volume_get_volume_disk_extents, fs.ioctl_volume_get_volume_disk_extents, winioctl/IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS"
+f1_keywords:
+- winioctl/IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
+- IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -210,7 +210,7 @@ Yes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_volume_disk_extents">VOLUME_DISK_EXTENTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-volume_disk_extents">VOLUME_DISK_EXTENTS</a>
 
 
 

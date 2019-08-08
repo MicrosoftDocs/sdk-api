@@ -8,10 +8,10 @@ tech.root: FileIO
 ms.assetid: 5912e0db-a102-4e1c-a1c0-c6a900fe0bbe
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PREQUEST_OPLOCK_OUTPUT_BUFFER, PREQUEST_OPLOCK_OUTPUT_BUFFER, PREQUEST_OPLOCK_OUTPUT_BUFFER structure pointer [Files], REQUEST_OPLOCK_OUTPUT_BUFFER, REQUEST_OPLOCK_OUTPUT_BUFFER structure [Files], REQUEST_OPLOCK_OUTPUT_FLAG_ACK_REQUIRED, REQUEST_OPLOCK_OUTPUT_FLAG_MODES_PROVIDED, fs.request_oplock_output_buffer, winioctl/PREQUEST_OPLOCK_OUTPUT_BUFFER, winioctl/REQUEST_OPLOCK_OUTPUT_BUFFER"
+ms.keywords: '*PREQUEST_OPLOCK_OUTPUT_BUFFER, PREQUEST_OPLOCK_OUTPUT_BUFFER, PREQUEST_OPLOCK_OUTPUT_BUFFER structure pointer [Files], REQUEST_OPLOCK_OUTPUT_BUFFER, REQUEST_OPLOCK_OUTPUT_BUFFER structure [Files], REQUEST_OPLOCK_OUTPUT_FLAG_ACK_REQUIRED, REQUEST_OPLOCK_OUTPUT_FLAG_MODES_PROVIDED, fs.request_oplock_output_buffer, winioctl/PREQUEST_OPLOCK_OUTPUT_BUFFER, winioctl/REQUEST_OPLOCK_OUTPUT_BUFFER'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/REQUEST_OPLOCK_OUTPUT_BUFFER"
+f1_keywords:
+- winioctl/REQUEST_OPLOCK_OUTPUT_BUFFER
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - REQUEST_OPLOCK_OUTPUT_BUFFER
+- REQUEST_OPLOCK_OUTPUT_BUFFER
 product: Windows
 targetos: Windows
 req.typenames: REQUEST_OPLOCK_OUTPUT_BUFFER, *PREQUEST_OPLOCK_OUTPUT_BUFFER
@@ -77,7 +77,7 @@ One or more <b>OPLOCK_LEVEL_CACHE_</b><i>XXX</i> values that indicate
        the level of the oplock that was broken.
 
 For possible values, see the <b>RequestedOplockLevel</b> member of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a> structure.
+       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a> structure.
 
 
 ### -field NewOplockLevel
@@ -87,7 +87,7 @@ One or more <b>OPLOCK_LEVEL_CACHE_</b><i>XXX</i> values that indicate
        on the operation returning this buffer.
 
 For possible values, see the <b>RequestedOplockLevel</b> member of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a> structure.
+       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a> structure.
 
 
 ### -field Flags
@@ -172,7 +172,7 @@ The <b>REQUEST_OPLOCK_OUTPUT_FLAG_MODES_PROVIDED</b> flag indicates that the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a>
  
 
  

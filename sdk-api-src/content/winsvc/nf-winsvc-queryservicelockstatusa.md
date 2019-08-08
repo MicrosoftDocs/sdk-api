@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryServiceLockStatus, QueryServiceLockStatus function, QueryServiceLockStatusA, QueryServiceLockStatusW, _win32_queryservicelockstatus, base.queryservicelockstatus, winsvc/QueryServiceLockStatus, winsvc/QueryServiceLockStatusA, winsvc/QueryServiceLockStatusW
 ms.topic: function
-f1_keywords: 
- - "winsvc/QueryServiceLockStatus"
+f1_keywords:
+- winsvc/QueryServiceLockStatus
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - QueryServiceLockStatus
- - QueryServiceLockStatusA
- - QueryServiceLockStatusW
+- QueryServiceLockStatus
+- QueryServiceLockStatusA
+- QueryServiceLockStatusW
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -73,7 +73,7 @@ A handle to the service control manager database. The
 ### -param lpLockStatus [out, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_query_service_lock_statusa">QUERY_SERVICE_LOCK_STATUS</a> structure that receives the lock status of the specified database is returned, plus the strings to which its members point.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-query_service_lock_statusa">QUERY_SERVICE_LOCK_STATUS</a> structure that receives the lock status of the specified database is returned, plus the strings to which its members point.
 
 
 ### -param cbBufSize [in]
@@ -147,7 +147,7 @@ The specified handle is invalid.
 
 The 
 <b>QueryServiceLockStatus</b> function returns a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_query_service_lock_statusa">QUERY_SERVICE_LOCK_STATUS</a> structure that indicates whether the specified database is locked. If the database is locked, the structure provides the account name of the user that owns the lock and the length of time that the lock has been held.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-query_service_lock_statusa">QUERY_SERVICE_LOCK_STATUS</a> structure that indicates whether the specified database is locked. If the database is locked, the structure provides the account name of the user that owns the lock and the length of time that the lock has been held.
 
 A process calls the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-lockservicedatabase">LockServiceDatabase</a> function to acquire ownership of a service control manager database lock and the 
@@ -169,7 +169,7 @@ A process calls the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_query_service_lock_statusa">QUERY_SERVICE_LOCK_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-query_service_lock_statusa">QUERY_SERVICE_LOCK_STATUS</a>
 
 
 

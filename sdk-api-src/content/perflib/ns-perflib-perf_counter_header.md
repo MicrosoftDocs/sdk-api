@@ -8,10 +8,10 @@ tech.root: perfctrs
 ms.assetid: 8C07E4BB-61CD-4A0F-8C23-86BE7DAA415F
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PPERF_COUNTER_HEADER, PERF_COUNTERSET, PERF_COUNTER_HEADER, PERF_COUNTER_HEADER structure [Perf], PERF_ERROR_RETURN, PERF_MULTIPLE_COUNTERS, PERF_MULTIPLE_INSTANCES, PERF_SINGLE_COUNTER, PPERF_COUNTER_HEADER, PPERF_COUNTER_HEADER structure pointer [Perf], perf.perf_counter_header, perflib/PERF_COUNTER_HEADER, perflib/PPERF_COUNTER_HEADER"
+ms.keywords: '*PPERF_COUNTER_HEADER, PERF_COUNTERSET, PERF_COUNTER_HEADER, PERF_COUNTER_HEADER structure [Perf], PERF_ERROR_RETURN, PERF_MULTIPLE_COUNTERS, PERF_MULTIPLE_INSTANCES, PERF_SINGLE_COUNTER, PPERF_COUNTER_HEADER, PPERF_COUNTER_HEADER structure pointer [Perf], perf.perf_counter_header, perflib/PERF_COUNTER_HEADER, perflib/PPERF_COUNTER_HEADER'
 ms.topic: struct
-f1_keywords: 
- - "perflib/PERF_COUNTER_HEADER"
+f1_keywords:
+- perflib/PERF_COUNTER_HEADER
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Perflib.h
+- Perflib.h
 api_name:
- - PERF_COUNTER_HEADER
+- PERF_COUNTER_HEADER
 product: Windows
 targetos: Windows
 req.typenames: PERF_COUNTER_HEADER, *PPERF_COUNTER_HEADER
@@ -96,7 +96,7 @@ An error that was the result of a performance counter query. The performance lib
 </td>
 <td width="60%">
 The result of a  single-counter, single-instance query; for example,
-  "\Processor(_Total)\% Processor Time". The additional data consists of a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_data">PERF_COUNTER_DATA</a> block.
+  "\Processor(_Total)\% Processor Time". The additional data consists of a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_data">PERF_COUNTER_DATA</a> block.
 
 
 
@@ -108,7 +108,7 @@ The result of a  single-counter, single-instance query; for example,
 </dl>
 </td>
 <td width="60%">
-The result of a  multi-counter, single-instance query; for example, "\Processor(_Total)\*". The additional data consists of a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_multi_counters">PERF_MULTI_COUNTERS</a> block followed by  <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_data">PERF_COUNTER_DATA</a> blocks.
+The result of a  multi-counter, single-instance query; for example, "\Processor(_Total)\*". The additional data consists of a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_multi_counters">PERF_MULTI_COUNTERS</a> block followed by  <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_data">PERF_COUNTER_DATA</a> blocks.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ The result of a  multi-counter, single-instance query; for example, "\Processor(
 </dl>
 </td>
 <td width="60%">
-The result of a single-counter, multi-instance query; for example, "\Processor(*)\% Processor Time". The additional data consists of a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_multi_instances">PERF_MULTI_INSTANCES</a> block.
+The result of a single-counter, multi-instance query; for example, "\Processor(*)\% Processor Time". The additional data consists of a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_multi_instances">PERF_MULTI_INSTANCES</a> block.
 
 
 
@@ -132,7 +132,7 @@ The result of a single-counter, multi-instance query; for example, "\Processor(*
 <td width="60%">
 The result of a multi-counter, multi-instance query; for example,
   "\Processor(*)\*". The additional data consists of a 
-  <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_multi_counters">PERF_MULTI_COUNTERS</a> block followed by a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_multi_instances">PERF_MULTI_INSTANCES</a> block.
+  <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_multi_counters">PERF_MULTI_COUNTERS</a> block followed by a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_multi_instances">PERF_MULTI_INSTANCES</a> block.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ Reserved.
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a> function returns a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_data_header">PERF_DATA_HEADER</a> block that
+The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a> function returns a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_data_header">PERF_DATA_HEADER</a> block that
 contains a sequence of <b>PERF_COUNTER_HEADER</b> blocks.
 
 
@@ -165,19 +165,19 @@ contains a sequence of <b>PERF_COUNTER_HEADER</b> blocks.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_data">PERF_COUNTER_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_data">PERF_COUNTER_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_multi_counters">PERF_MULTI_COUNTERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_multi_counters">PERF_MULTI_COUNTERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_multi_instances">PERF_MULTI_INSTANCES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_multi_instances">PERF_MULTI_INSTANCES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ne-perflib-_perfcounterdatatype">PerfCounterDataType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ne-perflib-perfcounterdatatype">PerfCounterDataType</a>
  
 
  

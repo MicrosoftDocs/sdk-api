@@ -8,10 +8,10 @@ tech.root: DHCP
 ms.assetid: 1f215915-07f0-4327-bb42-d5af09cd07c5
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_OPTION_DATA_TYPE, DHCP_OPTION_DATA_TYPE, DHCP_OPTION_DATA_TYPE enumeration [DHCP], DhcpBinaryDataOption, DhcpByteOption, DhcpDWordDWordOption, DhcpDWordOption, DhcpEncapsulatedDataOption, DhcpIpAddressOption, DhcpIpv6AddressOption, DhcpStringDataOption, DhcpWordOption, LPDHCP_OPTION_DATA_TYPE, LPDHCP_OPTION_DATA_TYPE enumeration pointer [DHCP], dhcp.dhcp_option_data_type, dhcpsapi/DHCP_OPTION_DATA_TYPE, dhcpsapi/DhcpBinaryDataOption, dhcpsapi/DhcpByteOption, dhcpsapi/DhcpDWordDWordOption, dhcpsapi/DhcpDWordOption, dhcpsapi/DhcpEncapsulatedDataOption, dhcpsapi/DhcpIpAddressOption, dhcpsapi/DhcpIpv6AddressOption, dhcpsapi/DhcpStringDataOption, dhcpsapi/DhcpWordOption, dhcpsapi/LPDHCP_OPTION_DATA_TYPE"
+ms.keywords: '*LPDHCP_OPTION_DATA_TYPE, DHCP_OPTION_DATA_TYPE, DHCP_OPTION_DATA_TYPE enumeration [DHCP], DhcpBinaryDataOption, DhcpByteOption, DhcpDWordDWordOption, DhcpDWordOption, DhcpEncapsulatedDataOption, DhcpIpAddressOption, DhcpIpv6AddressOption, DhcpStringDataOption, DhcpWordOption, LPDHCP_OPTION_DATA_TYPE, LPDHCP_OPTION_DATA_TYPE enumeration pointer [DHCP], dhcp.dhcp_option_data_type, dhcpsapi/DHCP_OPTION_DATA_TYPE, dhcpsapi/DhcpBinaryDataOption, dhcpsapi/DhcpByteOption, dhcpsapi/DhcpDWordDWordOption, dhcpsapi/DhcpDWordOption, dhcpsapi/DhcpEncapsulatedDataOption, dhcpsapi/DhcpIpAddressOption, dhcpsapi/DhcpIpv6AddressOption, dhcpsapi/DhcpStringDataOption, dhcpsapi/DhcpWordOption, dhcpsapi/LPDHCP_OPTION_DATA_TYPE'
 ms.topic: enum
-f1_keywords: 
- - "dhcpsapi/DHCP_OPTION_DATA_TYPE"
+f1_keywords:
+- dhcpsapi/DHCP_OPTION_DATA_TYPE
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_OPTION_DATA_TYPE
+- DHCP_OPTION_DATA_TYPE
 product: Windows
 targetos: Windows
 req.typenames: DHCP_OPTION_DATA_TYPE, *LPDHCP_OPTION_DATA_TYPE
@@ -91,12 +91,12 @@ The option data is stored as a Unicode string.
 
 ### -field DhcpBinaryDataOption
 
-The option data is stored as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_binary_data">DHCP_BINARY_DATA</a> structure.
+The option data is stored as a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_BINARY_DATA</a> structure.
 
 
 ### -field DhcpEncapsulatedDataOption
 
-The option data is encapsulated and stored as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_binary_data">DHCP_BINARY_DATA</a> structure.
+The option data is encapsulated and stored as a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_BINARY_DATA</a> structure.
 
 
 ### -field DhcpIpv6AddressOption
@@ -109,7 +109,7 @@ The option data is stored as a Unicode string.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_binary_data">DHCP_BINARY_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_BINARY_DATA</a>
  
 
  

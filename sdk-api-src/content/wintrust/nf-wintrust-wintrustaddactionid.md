@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HTTPSPROV_ACTION, WINTRUST_ACTION_GENERIC_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WintrustAddActionID, WintrustAddActionID function [Security], security.wintrustaddactionid, wintrust/WintrustAddActionID
 ms.topic: function
-f1_keywords: 
- - "wintrust/WintrustAddActionID"
+f1_keywords:
+- wintrust/WintrustAddActionID
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - WintrustAddActionID
+- WintrustAddActionID
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -117,7 +117,7 @@ a value that determines whether registry errors are reported by this function. I
 
 ### -param psProvInfo [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_register_actionid">CRYPT_REGISTER_ACTIONID</a> structure that defines the information for the trust provider.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_register_actionid">CRYPT_REGISTER_ACTIONID</a> structure that defines the information for the trust provider.
 
 
 ## -returns

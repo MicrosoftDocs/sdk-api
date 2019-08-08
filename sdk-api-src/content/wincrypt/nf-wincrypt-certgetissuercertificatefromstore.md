@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_NO_CRL_FLAG, CERT_STORE_NO_ISSUER_FLAG, CERT_STORE_REVOCATION_FLAG, CERT_STORE_SIGNATURE_FLAG, CERT_STORE_TIME_VALIDITY_FLAG, CertGetIssuerCertificateFromStore, CertGetIssuerCertificateFromStore function [Security], _crypto2_certgetissuercertificatefromstore, security.certgetissuercertificatefromstore, wincrypt/CertGetIssuerCertificateFromStore
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertGetIssuerCertificateFromStore"
+f1_keywords:
+- wincrypt/CertGetIssuerCertificateFromStore
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertGetIssuerCertificateFromStore
+- CertGetIssuerCertificateFromStore
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -68,15 +68,15 @@ Handle of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">
 ### -param pSubjectContext [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that contains the subject information. This parameter can be obtained from any certificate store or can be created by the calling application using the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the subject information. This parameter can be obtained from any certificate store or can be created by the calling application using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext">CertCreateCertificateContext</a> function.
 
 
 ### -param pPrevIssuerContext [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that contains the issuer information. An issuer can have multiple certificates, especially when a validity period is about to change. This parameter must be <b>NULL</b> on the call to get the first issuer certificate. To get the next certificate for the issuer, set <i>pPrevIssuerContext</i> to the <b>CERT_CONTEXT</b> structure returned by the previous call. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the issuer information. An issuer can have multiple certificates, especially when a validity period is about to change. This parameter must be <b>NULL</b> on the call to get the first issuer certificate. To get the next certificate for the issuer, set <i>pPrevIssuerContext</i> to the <b>CERT_CONTEXT</b> structure returned by the previous call. 
 
-This function frees the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> referenced by non-<b>NULL</b> values of this parameter.
+This function frees the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> referenced by non-<b>NULL</b> values of this parameter.
 
 
 ### -param pdwFlags [in, out]
@@ -154,7 +154,7 @@ If CERT_STORE_REVOCATION_FLAG is set and the issuer does not have a CRL in the s
 If CERT_STORE_SIGNATURE_FLAG or CERT_STORE_REVOCATION_FLAG is set, CERT_STORE_NO_ISSUER_FLAG is set if the function does not find an issuer certificate in the store. For more details, see  Remarks.
 
 In the case of a verification check failure, a pointer to the issuer's 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> is still returned and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> is still returned and 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> is not updated.
 
 
@@ -162,11 +162,11 @@ In the case of a verification check failure, a pointer to the issuer's
 
 
 
-If the function succeeds, the return value is a pointer to a read-only issuer <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>.
+If the function succeeds, the return value is a pointer to a read-only issuer <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>.
 
 If the function fails and the first or next issuer certificate is not found, the return value is <b>NULL</b>.
 
-Only the last returned <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure must be freed by calling 
+Only the last returned <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure must be freed by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>. When the returned <b>CERT_CONTEXT</b> from one call to the function is supplied as the <i>pPrevIssuerContext</i> parameter on a subsequent call, the context is freed as part of the action of the function.
 
 For extended error information, call 

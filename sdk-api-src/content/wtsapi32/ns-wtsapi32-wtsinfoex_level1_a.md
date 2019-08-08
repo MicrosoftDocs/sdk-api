@@ -8,10 +8,10 @@ tech.root: TermServ
 ms.assetid: bad4f35a-04a9-42fa-b87e-0f51e9f0f30e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: "*PWTSINFOEX_LEVEL1_A, PWTSINFOEX_LEVEL1, PWTSINFOEX_LEVEL1 structure pointer [Remote Desktop Services], WTSINFOEX_LEVEL1, WTSINFOEX_LEVEL1 structure [Remote Desktop Services], WTSINFOEX_LEVEL1_A, WTSINFOEX_LEVEL1_W, WTS_SESSIONSTATE_LOCK, WTS_SESSIONSTATE_UNKNOWN, WTS_SESSIONSTATE_UNLOCK, termserv.wtsinfoex_level1, wtsapi32/PWTSINFOEX_LEVEL1, wtsapi32/WTSINFOEX_LEVEL1, wtsapi32/WTSINFOEX_LEVEL1_A, wtsapi32/WTSINFOEX_LEVEL1_W"
+ms.keywords: '*PWTSINFOEX_LEVEL1_A, PWTSINFOEX_LEVEL1, PWTSINFOEX_LEVEL1 structure pointer [Remote Desktop Services], WTSINFOEX_LEVEL1, WTSINFOEX_LEVEL1 structure [Remote Desktop Services], WTSINFOEX_LEVEL1_A, WTSINFOEX_LEVEL1_W, WTS_SESSIONSTATE_LOCK, WTS_SESSIONSTATE_UNKNOWN, WTS_SESSIONSTATE_UNLOCK, termserv.wtsinfoex_level1, wtsapi32/PWTSINFOEX_LEVEL1, wtsapi32/WTSINFOEX_LEVEL1, wtsapi32/WTSINFOEX_LEVEL1_A, wtsapi32/WTSINFOEX_LEVEL1_W'
 ms.topic: struct
-f1_keywords: 
- - "wtsapi32/WTSINFOEX_LEVEL1"
+f1_keywords:
+- wtsapi32/WTSINFOEX_LEVEL1
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsapi32.h
+- Wtsapi32.h
 api_name:
- - WTSINFOEX_LEVEL1
- - WTSINFOEX_LEVEL1_A
- - WTSINFOEX_LEVEL1_W
+- WTSINFOEX_LEVEL1
+- WTSINFOEX_LEVEL1_A
+- WTSINFOEX_LEVEL1_W
 product: Windows
 targetos: Windows
 req.typenames: WTSINFOEX_LEVEL1_A, *PWTSINFOEX_LEVEL1_A
@@ -68,7 +68,7 @@ The session identifier.
 
 ### -field SessionState
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-_wts_connectstate_class">WTS_CONNECTSTATE_CLASS</a> enumeration type that specifies the connection state of a Remote Desktop Services session.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_connectstate_class">WTS_CONNECTSTATE_CLASS</a> enumeration type that specifies the connection state of a Remote Desktop Services session.
 
 
 ### -field SessionFlags
@@ -171,7 +171,7 @@ The number of bytes of compressed RDP data sent from the server to the client si
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-_wts_connectstate_class">WTS_CONNECTSTATE_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_connectstate_class">WTS_CONNECTSTATE_CLASS</a>
  
 
  

@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileConditionProperty interface [File Server Resource Manager],ValueType property, IFsrmFileConditionProperty.ValueType, IFsrmFileConditionProperty.put_ValueType, IFsrmFileConditionProperty::ValueType, IFsrmFileConditionProperty::get_ValueType, IFsrmFileConditionProperty::put_ValueType, ValueType property [File Server Resource Manager], ValueType property [File Server Resource Manager],IFsrmFileConditionProperty interface, fs.ifsrmfileconditionproperty_valuetype, fsrm.ifsrmfileconditionproperty_valuetype, fsrmreports/IFsrmFileConditionProperty::ValueType, fsrmreports/IFsrmFileConditionProperty::get_ValueType, fsrmreports/IFsrmFileConditionProperty::put_ValueType, put_ValueType
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileConditionProperty.ValueType"
+f1_keywords:
+- fsrmreports/IFsrmFileConditionProperty.ValueType
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -30,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileConditionProperty.ValueType
- - IFsrmFileConditionProperty.get_ValueType
- - IFsrmFileConditionProperty.put_ValueType
+- IFsrmFileConditionProperty.ValueType
+- IFsrmFileConditionProperty.get_ValueType
+- IFsrmFileConditionProperty.put_ValueType
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -58,7 +58,7 @@ ms.custom: 19H1
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfmjcondition">MSFT_FSRMFMJCondition</a> class.]
 
 Specifies the type of the file condition property value, as enumerated by the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertyvaluetype">FsrmPropertyValueType</a> enumeration.
+    <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyvaluetype">FsrmPropertyValueType</a> enumeration.
 
 This property is read/write.
 
@@ -71,7 +71,7 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertyvaluetype">FsrmPropertyValueType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyvaluetype">FsrmPropertyValueType</a>
 
 
 

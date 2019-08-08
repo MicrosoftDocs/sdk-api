@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeinterlaceTech_BOBLineReplicate, DeinterlaceTech_BOBVerticalStretch, DeinterlaceTech_EdgeFiltering, DeinterlaceTech_FieldAdaptive, DeinterlaceTech_MedianFiltering, DeinterlaceTech_MotionVectorSteered, DeinterlaceTech_PixelAdaptive, DeinterlaceTech_Unknown, VMRDeinterlaceTech, VMRDeinterlaceTech enumeration [DirectShow], VMRDeinterlaceTechEnumeration, dshow.vmrdeinterlacetech, strmif/DeinterlaceTech_BOBLineReplicate, strmif/DeinterlaceTech_BOBVerticalStretch, strmif/DeinterlaceTech_EdgeFiltering, strmif/DeinterlaceTech_FieldAdaptive, strmif/DeinterlaceTech_MedianFiltering, strmif/DeinterlaceTech_MotionVectorSteered, strmif/DeinterlaceTech_PixelAdaptive, strmif/DeinterlaceTech_Unknown, strmif/VMRDeinterlaceTech
 ms.topic: enum
-f1_keywords: 
- - "strmif/VMRDeinterlaceTech"
+f1_keywords:
+- strmif/VMRDeinterlaceTech
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - VMRDeinterlaceTech
+- VMRDeinterlaceTech
 product: Windows
 targetos: Windows
 req.typenames: VMRDeinterlaceTech
@@ -109,7 +109,7 @@ The algorithm identifies objects within a sequence of video fields. Before it re
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmrdeinterlacecaps">VMRDeinterlaceCaps Structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrdeinterlacecaps">VMRDeinterlaceCaps Structure</a>
  
 
  

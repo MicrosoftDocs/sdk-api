@@ -10,8 +10,8 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkSetProperty, WlanHostedNetworkSetProperty function [NativeWIFI], nwifi.wlanhostednetworksetproperty, wlan_hosted_network_opcode_connection_settings, wlan_hosted_network_opcode_enable, wlanapi/WlanHostedNetworkSetProperty
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanHostedNetworkSetProperty"
+f1_keywords:
+- wlanapi/WlanHostedNetworkSetProperty
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -30,14 +30,14 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wlanapi.dll
+- Wlanapi.dll
 api_name:
- - WlanHostedNetworkSetProperty
+- WlanHostedNetworkSetProperty
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -66,7 +66,7 @@ The client's session handle, returned by a previous call to the <a href="https:/
 
 ### -param OpCode [in]
 
-The identifier for the property to be set. This identifier can only be the following values in the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_hosted_network_opcode">WLAN_HOSTED_NETWORK_OPCODE</a> enumeration defined in the <i>Wlanapi.h </i>header file:
+The identifier for the property to be set. This identifier can only be the following values in the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_hosted_network_opcode">WLAN_HOSTED_NETWORK_OPCODE</a> enumeration defined in the <i>Wlanapi.h </i>header file:
 
 
 
@@ -89,7 +89,7 @@ A pointer to a buffer with the static property to set.  The data type associated
 
 ### -param pFailReason [out, optional]
 
-An optional pointer to a value that receives the failure reason,  if the call to the <b>WlanHostedNetworkSetProperty</b> function fails. Possible values for the failure reason are from the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_hosted_network_reason">WLAN_HOSTED_NETWORK_REASON</a> enumeration type defined in the <i>Wlanapi.h </i>header file.
+An optional pointer to a value that receives the failure reason,  if the call to the <b>WlanHostedNetworkSetProperty</b> function fails. Possible values for the failure reason are from the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_hosted_network_reason">WLAN_HOSTED_NETWORK_REASON</a> enumeration type defined in the <i>Wlanapi.h </i>header file.
 
 
 ### -param pvReserved
@@ -152,7 +152,7 @@ A handle is invalid. This error is returned if the handle specified in the <i>hC
 <td width="60%">
 A parameter is incorrect. This error is returned if any of the following conditions occur:<ul>
 <li><i>hClientHandle</i> is <b>NULL</b>.</li>
-<li><i>OpCode</i> is not one of the enumerated values defined in the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_hosted_network_opcode">WLAN_HOSTED_NETWORK_OPCODE</a>.</li>
+<li><i>OpCode</i> is not one of the enumerated values defined in the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_hosted_network_opcode">WLAN_HOSTED_NETWORK_OPCODE</a>.</li>
 <li><i>dwDataSize</i> is zero.</li>
 <li><i>pvData</i> is <b>NULL</b>.</li>
 <li><i>pvData</i> does not point to a well- formed static property.</li>
@@ -256,7 +256,7 @@ A pointer to <b>BOOL</b> is passed in the <i>pvData</i> parameter.
 </table>
  
 
-If the <b>WlanHostedNetworkSetProperty</b> function is called with the <i>OpCode</i> parameter set to <b>wlan_hosted_network_opcode_enable</b>, the user must have the appropriate associated privilege. Permissions are stored in a discretionary access control list (DACL) associated with a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_securable_object">WLAN_SECURABLE_OBJECT</a>.  To call the  <b>WlanHostedNetworkSetProperty</b> function with the <i>OpCode</i> parameter of <b>wlan_hosted_network_opcode_enable</b>, the client access token of the caller must have elevated privileges exposed by the following enumeration in <b>WLAN_SECURABLE_OBJECT</b>: <ul>
+If the <b>WlanHostedNetworkSetProperty</b> function is called with the <i>OpCode</i> parameter set to <b>wlan_hosted_network_opcode_enable</b>, the user must have the appropriate associated privilege. Permissions are stored in a discretionary access control list (DACL) associated with a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_securable_object">WLAN_SECURABLE_OBJECT</a>.  To call the  <b>WlanHostedNetworkSetProperty</b> function with the <i>OpCode</i> parameter of <b>wlan_hosted_network_opcode_enable</b>, the client access token of the caller must have elevated privileges exposed by the following enumeration in <b>WLAN_SECURABLE_OBJECT</b>: <ul>
 <li><b>wlan_secure_hosted_network_elevated_access</b></li>
 </ul>
 
@@ -293,11 +293,11 @@ On Windows 7 and later, the operating system installs a virtual device if a Hos
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_hosted_network_opcode">WLAN_HOSTED_NETWORK_OPCODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_hosted_network_opcode">WLAN_HOSTED_NETWORK_OPCODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_hosted_network_reason">WLAN_HOSTED_NETWORK_REASON</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_hosted_network_reason">WLAN_HOSTED_NETWORK_REASON</a>
 
 
 
