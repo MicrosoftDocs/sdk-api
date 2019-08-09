@@ -79,22 +79,9 @@ This method does not return a value.
 
 ## -remarks
 
+If you created the blend-state object with [D3D12_BLEND_BLEND_FACTOR](/windows/win32/api/d3d12/ne-d3d12-d3d12_blend) or **D3D12_BLEND_INV_BLEND_FACTOR**, then the blending stage uses the non-NULL array of blend factors. Otherwise,the blending stage doesn't use the non-NULL array of blend factors; the runtime stores the blend factors.
 
-
-If you created the blend-state object with D3D11_BLEND_BLEND_FACTOR or D3D11_BLEND_INV_BLEND_FACTOR, the blending stage uses the non-NULL array of blend factors.
-      
-
-If you didn't create the blend-state object with D3D11_BLEND_BLEND_FACTOR or D3D11_BLEND_INV_BLEND_FACTOR, the blending stage does not use the non-NULL array of blend factors; the runtime stores the blend factors.
-      
-
-If you pass NULL, the runtime uses or stores a blend factor equal to { 1, 1, 1, 1 }.
-      
-
-D3D11_BLEND_BLEND_FACTOR and D3D11_BLEND_INV_BLEND_FACTOR are <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_blend">D3D12_BLEND</a> enumeration constants.
-      
-
-
-
+If you pass NULL, then the runtime uses or stores a blend factor equal to `{ 1, 1, 1, 1 }`.
 
 ## -see-also
 
