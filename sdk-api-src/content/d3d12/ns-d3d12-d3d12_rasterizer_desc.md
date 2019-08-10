@@ -127,9 +127,20 @@ Specifies whether to enable line antialiasing; only applies if doing line drawin
 
 ### -field ForcedSampleCount
 
-The sample count that is forced while UAV rendering or rasterizing. Valid values are 0, 1, 2, 4, 8, and optionally 16. 0 indicates that the sample count is not forced.
-          
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
+The sample count that is forced while UAV rendering or rasterizing. Valid values are 0, 1, 2, 4, 8, and optionally 16. 0 indicates that the sample count is not forced.
+
+<div class="alert"><b>Note</b>  If you want to render with <b>ForcedSampleCount</b> set to 1 or greater, you must follow these guidelines: 
+
+<ul>
+<li>Don't bind depth-stencil views.</li>
+<li>Disable depth testing.</li>
+<li>Ensure the shader doesn't output depth.</li>
+<li>If you have any render-target views bound (<a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_descriptor_heap_type">D3D12_DESCRIPTOR_HEAP_TYPE_RTV</a>) and <b>ForcedSampleCount</b> is greater than 1, ensure that every render target has only a single sample.</li>
+<li>Don't operate the shader at sample frequency. Therefore, <a href="/windows/win32/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-issamplefrequencyshader">ID3D12ShaderReflection::IsSampleFrequencyShader</a> returns <b>FALSE</b>.</li>
+</ul>Otherwise, rendering behavior is undefined.</div>
+<div></div>
 
 ### -field ConservativeRaster
 
@@ -201,6 +212,41 @@ If you do not specify some rasterizer state,  the Direct3D runtime uses the foll
 </tr>
 </table>
  
+<div class="alert"><b>Note</b>  For <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature levels</a> 9.1, 9.2, 9.3, and 10.0, if you set <b>MultisampleEnable</b> to <b>FALSE</b>, the runtime renders all points, lines, and triangles without anti-aliasing even for render targets with a sample count greater than 1. For feature levels 10.1 and higher, the setting of <b>MultisampleEnable</b> has no effect on points and triangles with regard to MSAA and impacts only the selection of the line-rendering algorithm as shown in this table:</div>
+<div> </div>
+
+<table>
+<tr>
+<th>Line-rendering algorithm</th>
+<th><b>MultisampleEnable</b></th>
+<th><b>AntialiasedLineEnable</b></th>
+</tr>
+<tr>
+<td>Aliased</td>
+<td><b>FALSE</b></td>
+<td><b>FALSE</b></td>
+</tr>
+<tr>
+<td>Alpha antialiased</td>
+<td><b>FALSE</b></td>
+<td><b>TRUE</b></td>
+</tr>
+<tr>
+<td>Quadrilateral</td>
+<td><b>TRUE</b></td>
+<td><b>FALSE</b></td>
+</tr>
+<tr>
+<td>Quadrilateral</td>
+<td><b>TRUE</b></td>
+<td><b>TRUE</b></td>
+</tr>
+</table>
+ 
+
+
+
+The settings of the <b>MultisampleEnable</b> and <b>AntialiasedLineEnable</b> members apply only to multisample antialiasing (MSAA) render targets (that is, render targets with sample counts greater than 1). Because of the differences in <a href="/windows/win32/direct3d12/hardware-feature-levels">feature-level</a> behavior and as long as you aren’t performing any line drawing or don’t mind that lines render as quadrilaterals, we recommend that you always set <b>MultisampleEnable</b> to <b>TRUE</b> whenever you render on MSAA render targets.
 
 
 
