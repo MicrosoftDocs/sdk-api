@@ -75,7 +75,7 @@ Type: <b>int</b>
 
 Type: <b>PLVGROUP</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvgroup">LVGROUP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a>
 
 ## -remarks
 

@@ -61,12 +61,12 @@ Retrieves a moniker for the object's client site. An object can force the assign
 
 ### -param dwAssign [in]
 
-Specifies whether to get a moniker only if one already exists, force assignment of a moniker, create a temporary moniker, or remove a moniker that has been assigned. In practice, you will usually request that the container force assignment of the moniker. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolegetmoniker">OLEGETMONIKER</a> enumeration.
+Specifies whether to get a moniker only if one already exists, force assignment of a moniker, create a temporary moniker, or remove a moniker that has been assigned. In practice, you will usually request that the container force assignment of the moniker. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olegetmoniker">OLEGETMONIKER</a> enumeration.
 
 
 ### -param dwWhichMoniker [in]
 
-Specifies whether to return the container's moniker, the object's moniker relative to the container, or the object's full moniker. In practice, you will usually request the object's full moniker. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolewhichmk">OLEWHICHMK</a> enumeration.
+Specifies whether to return the container's moniker, the object's moniker relative to the container, or the object's full moniker. In practice, you will usually request the object's full moniker. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olewhichmk">OLEWHICHMK</a> enumeration.
 
 
 ### -param ppmk [out]

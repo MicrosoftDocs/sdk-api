@@ -120,7 +120,7 @@ If a driver supports this entry point, it should also support the drawing of cos
 
 This function is required if any drawing is to be done on a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device-managed surface</a>.
 
-Drivers for advanced devices can optionally receive this call to draw paths containing Bezier curves and geometric wide lines. GDI will test the GCAPS_BEZIERS and GCAPS_GEOMETRICWIDE flags of the <b>flGraphicsCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a> structure to decide whether it should call this function. (The four combinations of the bits determine the four levels of functionality for this call.) If the driver gets an advanced call containing Bezier curves or geometric wide lines, it can decide not to handle the call, returning <b>FALSE</b>. This might happen if the path or clipping is too complex for the device to process. If the call does return <b>FALSE</b>, GDI breaks the call down into simpler calls that can be handled more easily.
+Drivers for advanced devices can optionally receive this call to draw paths containing Bezier curves and geometric wide lines. GDI will test the GCAPS_BEZIERS and GCAPS_GEOMETRICWIDE flags of the <b>flGraphicsCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure to decide whether it should call this function. (The four combinations of the bits determine the four levels of functionality for this call.) If the driver gets an advanced call containing Bezier curves or geometric wide lines, it can decide not to handle the call, returning <b>FALSE</b>. This might happen if the path or clipping is too complex for the device to process. If the call does return <b>FALSE</b>, GDI breaks the call down into simpler calls that can be handled more easily.
 
 For device-managed surfaces, the function must minimally support single-pixel-wide solid and styled cosmetic lines using a solid-colored brush.
 
@@ -138,7 +138,7 @@ The mix mode defines how the incoming pattern should be mixed with the data that
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a>
 
 
 

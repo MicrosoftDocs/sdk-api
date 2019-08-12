@@ -61,7 +61,7 @@ Notifies an object of its container's moniker, the object's own moniker relative
 
 ### -param dwWhichMoniker [in]
 
-The moniker is passed in <i>pmk</i>. Possible values are from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolewhichmk">OLEWHICHMK</a>.
+The moniker is passed in <i>pmk</i>. Possible values are from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olewhichmk">OLEWHICHMK</a>.
 
 
 ### -param pmk [in]

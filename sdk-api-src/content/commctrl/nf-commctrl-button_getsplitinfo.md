@@ -68,9 +68,9 @@ A handle to the button control.
 
 ### -param pInfo [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagbutton_splitinfo">BUTTON_SPLITINFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-button_splitinfo">BUTTON_SPLITINFO</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagbutton_splitinfo">BUTTON_SPLITINFO</a> structure to receive information on the button specified by <i>hwnd</i>. The calling application is responsible for allocating the memory for the structure. Set the <b>mask</b> member of this structure to determine what information to receive.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-button_splitinfo">BUTTON_SPLITINFO</a> structure to receive information on the button specified by <i>hwnd</i>. The calling application is responsible for allocating the memory for the structure. Set the <b>mask</b> member of this structure to determine what information to receive.
 
 
 ## -remarks

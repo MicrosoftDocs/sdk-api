@@ -343,7 +343,7 @@ The system applies two tests to the specified relative mouse movement. If the sp
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taginput">INPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-input">INPUT</a>
 
 
 

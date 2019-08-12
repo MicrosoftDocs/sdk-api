@@ -110,7 +110,7 @@ This member is no longer used, and is always set to zero.
 
 ### -field szExeFile
 
-The name of the executable file for the process. To retrieve the full path to the executable file, call the <a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-module32first">Module32First</a> function and check the <b>szExePath</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-tagmoduleentry32">MODULEENTRY32</a> structure that is returned. However, if the calling process is a 32-bit process, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryfullprocessimagenamea">QueryFullProcessImageName</a> function to retrieve the full path of the executable file for a 64-bit process.
+The name of the executable file for the process. To retrieve the full path to the executable file, call the <a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-module32first">Module32First</a> function and check the <b>szExePath</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-moduleentry32">MODULEENTRY32</a> structure that is returned. However, if the calling process is a 32-bit process, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryfullprocessimagenamea">QueryFullProcessImageName</a> function to retrieve the full path of the executable file for a 64-bit process.
 
 
 ## -see-also

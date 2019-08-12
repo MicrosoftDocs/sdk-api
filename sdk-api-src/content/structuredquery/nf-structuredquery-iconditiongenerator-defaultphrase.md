@@ -68,7 +68,7 @@ The semantic type of the value in <i>ppropvar</i>.
 
 ### -param ppropvar [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT const</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT const</a>*</b>
 
 The value to be processed.
 

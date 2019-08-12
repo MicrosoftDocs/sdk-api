@@ -70,10 +70,10 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-ric
 
 ### -field link
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglitem">LITEM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-litem">LITEM</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglitem">LITEM</a> structure that contains information about the link that was clicked.
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-litem">LITEM</a> structure that contains information about the link that was clicked.
 
 
 ### -field iItem
@@ -87,5 +87,5 @@ Index of the item that contains the link.
 
 Type: <b>int</b>
 
-Subitem, if any. This member may be <b>NULL</b>. For a link in a group header, this is the group identifier, as set in <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvgroup">LVGROUP</a>.
+Subitem, if any. This member may be <b>NULL</b>. For a link in a group header, this is the group identifier, as set in <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a>.
 

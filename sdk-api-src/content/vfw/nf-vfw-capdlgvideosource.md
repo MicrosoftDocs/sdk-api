@@ -71,7 +71,7 @@ Handle to a capture window.
 
 
 
-The Video Source dialog box is unique for each capture driver. Some capture drivers might not support a Video Source dialog box. Applications can determine if the capture driver supports this message by checking the <b>fHasDlgVideoSource</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-tagcapdrivercaps">CAPDRIVERCAPS</a> structure.
+The Video Source dialog box is unique for each capture driver. Some capture drivers might not support a Video Source dialog box. Applications can determine if the capture driver supports this message by checking the <b>fHasDlgVideoSource</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-capdrivercaps">CAPDRIVERCAPS</a> structure.
 
 
 

@@ -72,7 +72,7 @@ Receives <b>TRUE</b> if the item is in the Offline Files cache, <b>FALSE</b> if 
 
 ### -param pShareCachingMode [out]
 
-Receives one of the following <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_caching_mode">OFFLINEFILES_CACHING_MODE</a> enumeration values indicating the caching configuration of the applicable network shared folder under which the specified item exists.
+Receives one of the following <a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_caching_mode">OFFLINEFILES_CACHING_MODE</a> enumeration values indicating the caching configuration of the applicable network shared folder under which the specified item exists.
 
 
 
@@ -123,7 +123,7 @@ The caching mode value returned is equivalent to the <b>CSC_MASK</b> value assoc
 <table>
 <tr>
 <th>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_caching_mode">OFFLINEFILES_CACHING_MODE</a> Value</th>
+<a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_caching_mode">OFFLINEFILES_CACHING_MODE</a> Value</th>
 <th>
 <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1005">SHARE_INFO_1005</a> Value</th>
 </tr>
@@ -164,7 +164,7 @@ These settings are configured as attributes of the shared folder on the server b
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_caching_mode">OFFLINEFILES_CACHING_MODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_caching_mode">OFFLINEFILES_CACHING_MODE</a>
  
 
  

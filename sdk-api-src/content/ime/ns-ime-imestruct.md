@@ -206,12 +206,12 @@ A font to be used to display an undetermined string that appears in the conversi
 <tr>
 <td><b>lParam1</b> [Windows 3.1]</td>
 <td><b>LPARAM</b></td>
-<td>The low-order word specifies a handle to the global memory that contains a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure that specifies the logical font. The global memory is a memory block allocated by specifying the <b>GMEM_MOVEABLE</b> and <b>GMEM_SHARE</b> flags in the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function. <b>NULL</b> indicates a system font.</td>
+<td>The low-order word specifies a handle to the global memory that contains a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure that specifies the logical font. The global memory is a memory block allocated by specifying the <b>GMEM_MOVEABLE</b> and <b>GMEM_SHARE</b> flags in the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function. <b>NULL</b> indicates a system font.</td>
 </tr>
 <tr>
 <td><b>lParam1</b> [Windows NT]</td>
 <td><b>LPARAM</b></td>
-<td>Specifies a handle to the global memory that contains a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure that specifies the logical font. The global memory is a memory block allocated by specifying the <b>GMEM_MOVEABLE</b> and <b>GMEM_SHARE</b> flags in the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function. <b>NULL</b> indicates a system font.</td>
+<td>Specifies a handle to the global memory that contains a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure that specifies the logical font. The global memory is a memory block allocated by specifying the <b>GMEM_MOVEABLE</b> and <b>GMEM_SHARE</b> flags in the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function. <b>NULL</b> indicates a system font.</td>
 </tr>
 </table>
  
@@ -224,7 +224,7 @@ The font specified by <b>IME_SETCONVERSIONFONTEX</b> can only be used to display
 
 To display undetermined strings at the default position, use a system font. If the display position is no longer the default position, enable the previously specified font.
 
-The global memory that contains the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure is released by the application.
+The global memory that contains the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure is released by the application.
 
 If the IME currently displaying the conversion window receives the <b>IME_SETCONVERSIONFONTEX</b> command, and as a result of the command processing the conversion window has changed, the IME should send a WM_IME_REPORT:IR_CHANGECONVERT message. This message should not be sent if the font specified by <b>IME_SETCONVERSIONFONTEX</b> is the same as the one being used by the IME.
 
@@ -354,7 +354,7 @@ If the MCW_HIDDEN style is specified in an IME_SETCONVERSIONWINDOW message, the 
 
 
 <ol>
-<li>Font information is retrieved in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> function using the font handle of SYSTEM_FONT.</li>
+<li>Font information is retrieved in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> function using the font handle of SYSTEM_FONT.</li>
 <li>The font is created by adding an ampersand (@) at the beginning of the face name and setting the escapement and orientation to 270 degrees.</li>
 </ol>
 

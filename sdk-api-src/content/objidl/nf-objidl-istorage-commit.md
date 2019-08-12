@@ -63,7 +63,7 @@ The <b>Commit</b> method ensures that any changes made to a storage object open 
 ### -param grfCommitFlags [in]
 
 Controls how the changes are committed to the storage object. See the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagstgc">STGC</a> enumeration for a definition of these values.
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-stgc">STGC</a> enumeration for a definition of these values.
 
 
 ## -returns
@@ -111,7 +111,7 @@ If the STGC_CONSOLIDATE flag is not supported by a storage implementation, calli
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagstgc">STGC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-stgc">STGC</a>
  
 
  

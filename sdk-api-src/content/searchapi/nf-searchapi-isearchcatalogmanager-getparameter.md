@@ -69,7 +69,7 @@ The name of the parameter to be retrieved.
 
 ### -param ppValue [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>**</b>
 
 Receives a pointer to the value of the parameter. 
                 

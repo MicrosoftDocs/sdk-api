@@ -61,7 +61,7 @@ Retrieves a running object's current display size.
 
 ### -param dwDrawAspect [in]
 
-The aspect of the object whose limit is to be retrieved; the value is obtained from the enumerations <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagdvaspect">DVASPECT</a> and from <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagdvaspect2">DVASPECT2</a>. Note that newer objects and containers that support optimized drawing interfaces support the <b>DVASPECT2</b> enumeration values. Older objects and containers that do not support optimized drawing interfaces may not support <b>DVASPECT2</b>. The most common value for this method is DVASPECT_CONTENT, which specifies a full rendering of the object within its container.
+The aspect of the object whose limit is to be retrieved; the value is obtained from the enumerations <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> and from <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-dvaspect2">DVASPECT2</a>. Note that newer objects and containers that support optimized drawing interfaces support the <b>DVASPECT2</b> enumeration values. Older objects and containers that do not support optimized drawing interfaces may not support <b>DVASPECT2</b>. The most common value for this method is DVASPECT_CONTENT, which specifies a full rendering of the object within its container.
 
 
 ### -param psizel [out]
@@ -107,7 +107,7 @@ The display size returned by <b>IOleObject::GetExtent</b> may differ from the si
 
 If one of the new aspects is requested in <i>dwAspect</i>, this method can either fail or return the same rectangle as for the DVASPECT_CONTENT aspect.
 
-<div class="alert"><b>Note</b>  This method must return the same size as DVASPECT_CONTENT for all the new aspects in <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagdvaspect2">DVASPECT2</a>. <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject2-getextent">IViewObject2::GetExtent</a> must do the same thing.</div>
+<div class="alert"><b>Note</b>  This method must return the same size as DVASPECT_CONTENT for all the new aspects in <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-dvaspect2">DVASPECT2</a>. <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject2-getextent">IViewObject2::GetExtent</a> must do the same thing.</div>
 <div> </div>
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 Because a container can make this call only to a running object, the container must instead call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject2-getextent">IViewObject2::GetExtent</a> if it wants to get the display size of a loaded object from its cache.
@@ -123,11 +123,11 @@ Implementation consists of filling the sizel structure with an object's height a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagdvaspect">DVASPECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagdvaspect2">DVASPECT2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-dvaspect2">DVASPECT2</a>
 
 
 

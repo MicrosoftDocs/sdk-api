@@ -97,7 +97,7 @@ The maximum number of buffers to create for this surface.
 
 ### -field dwInterlaceFlags
 
-A bitwise <b>OR</b> of  flags that indicate the interlacing. For a list of flags, see the <b>dwInterlaceFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-tagvideoinfoheader2">VIDEOINFOHEADER2</a> structure.
+A bitwise <b>OR</b> of  flags that indicate the interlacing. For a list of flags, see the <b>dwInterlaceFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> structure.
           
 
 

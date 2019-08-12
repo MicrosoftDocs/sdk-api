@@ -74,9 +74,9 @@ A pointer to a null-terminated string containing the URL to be parsed.
 
 ### -param ppu [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-tagparsedurla">PARSEDURL</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-parsedurla">PARSEDURL</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-tagparsedurla">PARSEDURL</a> structure that receives the parsed results. The calling application must set the structure's <i>cbSize</i> member to the size of the structure before calling <b>ParseURL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-parsedurla">PARSEDURL</a> structure that receives the parsed results. The calling application must set the structure's <i>cbSize</i> member to the size of the structure before calling <b>ParseURL</b>.
 
 
 ## -returns

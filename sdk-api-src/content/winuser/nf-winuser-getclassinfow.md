@@ -93,7 +93,7 @@ Alternatively, this parameter can be an atom. If so, it must be a class atom cre
 
 Type: <b>LPWNDCLASS</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassa">WNDCLASS</a> structure that receives the information about the class. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a> structure that receives the information about the class. 
 
 
 ## -returns
@@ -143,7 +143,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassa">WNDCLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a>
 
 
 

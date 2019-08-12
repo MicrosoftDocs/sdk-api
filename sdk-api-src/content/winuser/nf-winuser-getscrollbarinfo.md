@@ -127,7 +127,7 @@ The vertical scroll bar of the
 
 Type: <b>PSCROLLBARINFO</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollbarinfo">SCROLLBARINFO</a> structure to receive the information. Before calling <b>GetScrollBarInfo</b>, set the 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-scrollbarinfo">SCROLLBARINFO</a> structure to receive the information. Before calling <b>GetScrollBarInfo</b>, set the 
 					<b>cbSize</b> member to 
 					<b>sizeof</b>(<b>SCROLLBARINFO</b>). 
 
@@ -160,7 +160,7 @@ If <i>idObject</i> is OBJID_CLIENT and the window specified by <i>hwnd</i> is no
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollbarinfo">SCROLLBARINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-scrollbarinfo">SCROLLBARINFO</a>
  
 
  

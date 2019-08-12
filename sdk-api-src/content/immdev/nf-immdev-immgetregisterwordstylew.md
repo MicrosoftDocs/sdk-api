@@ -73,7 +73,7 @@ Maximum number of styles that the output buffer can hold. The application sets t
 
 ### -param lpStyleBuf [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagstylebufa">STYLEBUF</a> structure in which the function retrieves the style information.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-stylebufa">STYLEBUF</a> structure in which the function retrieves the style information.
 
 
 ## -returns
@@ -98,7 +98,7 @@ Returns the number of styles copied to the buffer. If the application sets the <
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagstylebufa">STYLEBUF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-stylebufa">STYLEBUF</a>
  
 
  

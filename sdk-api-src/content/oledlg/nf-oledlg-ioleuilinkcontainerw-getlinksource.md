@@ -184,7 +184,7 @@ Call this method during dialog box initialization, after returning from the <b>C
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuichangesourcea">OLEUICHANGESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuichangesourcea">OLEUICHANGESOURCE</a>
 
 
 
@@ -192,7 +192,7 @@ Call this method during dialog box initialization, after returning from the <b>C
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-taguserclasstype">USERCLASSTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-userclasstype">USERCLASSTYPE</a>
  
 
  

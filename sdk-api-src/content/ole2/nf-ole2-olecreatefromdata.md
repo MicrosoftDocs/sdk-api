@@ -75,12 +75,12 @@ Reference to the identifier of the interface the caller later uses to communicat
 
 ### -param renderopt [in]
 
-Value from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolerender">OLERENDER</a> that indicates the locally cached drawing or data-retrieval capabilities the newly created object is to have. Additional considerations are described in the following Remarks section.
+Value from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olerender">OLERENDER</a> that indicates the locally cached drawing or data-retrieval capabilities the newly created object is to have. Additional considerations are described in the following Remarks section.
 
 
 ### -param pFormatEtc [in]
 
- Pointer to a value from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolerender">OLERENDER</a> that indicates the locally cached drawing or data-retrieval capabilities the newly created object is to have. The <b>OLERENDER</b> value chosen affects the possible values for the <i>pFormatEtc</i> parameter.
+ Pointer to a value from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olerender">OLERENDER</a> that indicates the locally cached drawing or data-retrieval capabilities the newly created object is to have. The <b>OLERENDER</b> value chosen affects the possible values for the <i>pFormatEtc</i> parameter.
 
 
 ### -param pClientSite [in]
@@ -153,7 +153,7 @@ If an existing linked object is selected, then copied, it appears on the clipboa
 
 
 
-Use the <i>renderopt</i> and <i>pFormatetc</i> parameters to control the caching capability of the newly created object. For general information about using the interaction of these parameters to determine what is to be cached, refer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolerender">OLERENDER</a> enumeration. There are, however, some additional specific effects of these parameters on the way <b>OleCreateFromData</b> initializes the cache.
+Use the <i>renderopt</i> and <i>pFormatetc</i> parameters to control the caching capability of the newly created object. For general information about using the interaction of these parameters to determine what is to be cached, refer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olerender">OLERENDER</a> enumeration. There are, however, some additional specific effects of these parameters on the way <b>OleCreateFromData</b> initializes the cache.
 
 
 

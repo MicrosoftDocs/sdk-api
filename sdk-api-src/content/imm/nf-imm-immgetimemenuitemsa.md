@@ -91,17 +91,17 @@ Retrieve the menu items for the context menu, obtained by a right mouse click.
 
 ### -param lpImeParentMenu [out, optional]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagimemenuiteminfoa">IMEMENUITEMINFO</a> structure in which the function retrieves parent menu information. To retrieve information about the submenu items of this parent menu, the application sets the <b>fType</b> member to MFT_SUBMENU. This parameter contains <b>NULL</b> if the function retrieves only top-level menu items.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-imemenuiteminfoa">IMEMENUITEMINFO</a> structure in which the function retrieves parent menu information. To retrieve information about the submenu items of this parent menu, the application sets the <b>fType</b> member to MFT_SUBMENU. This parameter contains <b>NULL</b> if the function retrieves only top-level menu items.
 
 
 ### -param lpImeMenu [out, optional]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagimemenuiteminfoa">IMEMENUITEMINFO</a> structures in which the function retrieves information about the menu items. This parameter contains <b>NULL</b> if the function retrieves the number of registered menu items.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-imemenuiteminfoa">IMEMENUITEMINFO</a> structures in which the function retrieves information about the menu items. This parameter contains <b>NULL</b> if the function retrieves the number of registered menu items.
 
 
 ### -param dwSize [in]
 
-Size of the buffer to receive the <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagimemenuiteminfoa">IMEMENUITEMINFO</a> structure.
+Size of the buffer to receive the <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-imemenuiteminfoa">IMEMENUITEMINFO</a> structure.
 
 
 #### - dwType [in]
@@ -201,7 +201,7 @@ Returns the number of menu items copied into <i>lpImeMenu</i>. If <i>lpImeMenu</
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagimemenuiteminfoa">IMEMENUITEMINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-imemenuiteminfoa">IMEMENUITEMINFO</a>
 
 
 

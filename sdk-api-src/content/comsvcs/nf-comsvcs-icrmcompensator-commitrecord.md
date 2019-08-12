@@ -61,7 +61,7 @@ Delivers a log record in forward order during the commit phase.
 
 ### -param crmLogRec [in]
 
-The log record, as a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-tagcrmlogrecordread">CrmLogRecordRead</a> structure.
+The log record, as a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-crmlogrecordread">CrmLogRecordRead</a> structure.
 
 
 ### -param pfForget [out]

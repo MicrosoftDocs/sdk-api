@@ -122,7 +122,7 @@ The application should handle both a returned error  and <b>S_OK</b> return valu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagstgmove">STGMOVE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-stgmove">STGMOVE</a>
  
 
  

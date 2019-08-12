@@ -57,11 +57,11 @@ The <b>MONITORINFOEX</b> structure contains information about a display monitor.
 The 
         <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa">GetMonitorInfo</a> function stores information into a 
          <b>MONITORINFOEX</b>  structure or a 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmonitorinfo">MONITORINFO</a> structure.
+        <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfo">MONITORINFO</a> structure.
 
 The 
          <b>MONITORINFOEX</b>  structure is a superset of the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmonitorinfo">MONITORINFO</a>  structure. The 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfo">MONITORINFO</a>  structure. The 
          <b>MONITORINFOEX</b>  structure adds a string member to contain a name for the display monitor.
 
 
@@ -74,7 +74,7 @@ The
 
 ### -field szDevice
 
-A string that specifies the device name of the monitor being used.  Most applications have no use for a display monitor name, and so can save some bytes by using a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmonitorinfo">MONITORINFO</a> structure.
+A string that specifies the device name of the monitor being used.  Most applications have no use for a display monitor name, and so can save some bytes by using a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfo">MONITORINFO</a> structure.
 
 
 ### -field tagMONITORINFO
@@ -89,7 +89,7 @@ A string that specifies the device name of the monitor being used.  Most applica
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmonitorinfo">MONITORINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfo">MONITORINFO</a>
 
 
 

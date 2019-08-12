@@ -65,7 +65,7 @@ The <code>GetDecoderCaps</code> method retrieves the DVD decoder's maximum data 
 
 ### -param pCaps [out]
 
-Pointer to a variable of type <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_decoder_caps">DVD_DECODER_CAPS</a> that receives the information about the decoder.
+Pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_decoder_caps">DVD_DECODER_CAPS</a> that receives the information about the decoder.
 
 
 ## -returns

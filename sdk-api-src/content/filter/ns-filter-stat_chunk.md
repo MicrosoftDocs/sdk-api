@@ -68,12 +68,12 @@ The chunk identifier. Chunk identifiers must be unique for the current instance 
 
 ### -field breakType
 
-The type of break that separates the previous chunk from the current chunk. Values are from the <a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-tagchunk_breaktype">CHUNK_BREAKTYPE</a> enumeration. 
+The type of break that separates the previous chunk from the current chunk. Values are from the <a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-chunk_breaktype">CHUNK_BREAKTYPE</a> enumeration. 
 
 
 ### -field flags
 
-Indicates whether this chunk contains a text-type or a value-type property. Flag values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-tagchunkstate">CHUNKSTATE</a> enumeration. If the CHUNK_TEXT flag is set, <a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-gettext">IFilter::GetText</a> should be used to retrieve the contents of the chunk as a series of words. If the CHUNK_VALUE flag is set, <a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-getvalue">IFilter::GetValue</a> should be used to retrieve the value and treat it as a single property value. If the filter dictates that the same content be treated as both text and as a value, the chunk should be emitted twice in two different chunks, each with one flag set.
+Indicates whether this chunk contains a text-type or a value-type property. Flag values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-chunkstate">CHUNKSTATE</a> enumeration. If the CHUNK_TEXT flag is set, <a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-gettext">IFilter::GetText</a> should be used to retrieve the contents of the chunk as a series of words. If the CHUNK_VALUE flag is set, <a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-getvalue">IFilter::GetValue</a> should be used to retrieve the value and treat it as a single property value. If the filter dictates that the same content be treated as both text and as a value, the chunk should be emitted twice in two different chunks, each with one flag set.
 
 
 ### -field locale
@@ -83,7 +83,7 @@ The language and sublanguage associated with a chunk of text. Chunk locale is us
 
 ### -field attribute
 
-The property to be applied to the chunk. See <a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-tagfullpropspec">FULLPROPSPEC</a>. If a filter requires that the same text have more than one property, it needs to emit the text once for each property in separate chunks. 
+The property to be applied to the chunk. See <a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-fullpropspec">FULLPROPSPEC</a>. If a filter requires that the same text have more than one property, it needs to emit the text once for each property in separate chunks. 
 
 
 ### -field idChunkSource
@@ -200,15 +200,15 @@ Information provided by <b>idChunkSource</b>, <b>cwcStartSource</b>, and <b>cwcL
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-tagchunkstate">CHUNKSTATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-chunkstate">CHUNKSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-tagchunk_breaktype">CHUNK_BREAKTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-chunk_breaktype">CHUNK_BREAKTYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-tagfullpropspec">FULLPROPSPEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-fullpropspec">FULLPROPSPEC</a>
 
 
 

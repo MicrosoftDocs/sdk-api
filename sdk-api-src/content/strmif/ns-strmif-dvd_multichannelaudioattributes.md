@@ -64,12 +64,12 @@ The <code>DVD_MultichannelAudioAttributes</code> structure describes the multich
 
 ### -field Info
 
-Array of eight <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_mua_mixinginfo">DVD_MUA_MixingInfo</a> structures, which contain the mixing information for each channel in the audio stream.
+Array of eight <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_mua_mixinginfo">DVD_MUA_MixingInfo</a> structures, which contain the mixing information for each channel in the audio stream.
 
 
 ### -field Coeff
 
-Array of eight <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_mua_coeff">DVD_MUA_Coeff</a> structures, which contain the mixing coefficients for each channel in the audio stream.
+Array of eight <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_mua_coeff">DVD_MUA_Coeff</a> structures, which contain the mixing coefficients for each channel in the audio stream.
 
 
 ## -remarks

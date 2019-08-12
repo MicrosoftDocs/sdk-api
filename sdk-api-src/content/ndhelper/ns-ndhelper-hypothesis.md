@@ -84,7 +84,7 @@ The count of attributes in this hypothesis.
 
 Type: <b>[size_is(celt)]PHELPER_ATTRIBUTE[ ]</b>
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-taghelper_attribute">HELPER_ATTRIBUTE</a> structures that contains key attributes for this hypothesis. 
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-helper_attribute">HELPER_ATTRIBUTE</a> structures that contains key attributes for this hypothesis. 
 
 
 ## -see-also
@@ -92,7 +92,7 @@ A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-taghelper_attribute">HELPER_ATTRIBUTE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-helper_attribute">HELPER_ATTRIBUTE</a>
  
 
  

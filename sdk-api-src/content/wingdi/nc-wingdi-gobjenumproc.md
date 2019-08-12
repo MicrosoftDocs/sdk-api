@@ -78,7 +78,7 @@ A pointer to the application-defined data passed by the <a href="https://docs.mi
 
 #### - lpLogObject [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogpen">LOGPEN</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogbrush">LOGBRUSH</a> structure describing the attributes of the object.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logpen">LOGPEN</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a> structure describing the attributes of the object.
 
 
 ## -returns
@@ -126,11 +126,11 @@ An application must register this function by passing its address to the <a href
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogbrush">LOGBRUSH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogpen">LOGPEN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logpen">LOGPEN</a>
  
 
  

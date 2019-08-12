@@ -61,7 +61,7 @@ Processes menu accelerator-key messages from the container's message queue. This
 
 ### -param lpmsg [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure for the message that might need to be translated.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure for the message that might need to be translated.
 
 
 ## -returns

@@ -76,7 +76,7 @@ Specifies the action the user is about to take. This is an <a href="https://docs
 
 ### -field phhWinType
 
-A pointer to the current <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/htmlhelp/ns-htmlhelp-taghh_wintype">HH_WINTYPE</a> structure. 
+A pointer to the current <a href="https://docs.microsoft.com/windows/desktop/api/htmlhelp/ns-htmlhelp-hh_wintype">HH_WINTYPE</a> structure. 
 
 
 ## -see-also

@@ -149,7 +149,7 @@ The mixer device did not process the message.
 
 
 
-User-defined messages must be sent only to a mixer driver that supports the messages. The application should verify that the mixer driver is the driver that supports the message by retrieving the mixer capabilities and checking the <b>wMid</b>, <b>wPid</b>, <b>vDriverVersion</b>, and <b>szPname</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercapsa">MIXERCAPS</a> structure.
+User-defined messages must be sent only to a mixer driver that supports the messages. The application should verify that the mixer driver is the driver that supports the message by retrieving the mixer capabilities and checking the <b>wMid</b>, <b>wPid</b>, <b>vDriverVersion</b>, and <b>szPname</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercapsa">MIXERCAPS</a> structure.
 
 The <code>DRV_QUERYDEVICEINTERFACE</code> message queries for the device-interface name of a <b>waveIn</b>, <b>waveOut</b>, <b>midiIn</b>, <b>midiOut</b>, or <b>mixer</b> device.
 

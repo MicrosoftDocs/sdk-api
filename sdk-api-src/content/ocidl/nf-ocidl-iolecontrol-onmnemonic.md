@@ -61,7 +61,7 @@ Informs a control that the user has pressed a keystroke that represents a keyboa
 
 ### -param pMsg [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure describing the keystroke to be processed.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure describing the keystroke to be processed.
 
 
 ## -returns
@@ -111,10 +111,10 @@ The keystroke must match one of the <b>ACCEL</b> entries in the mnemonic table r
 
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
- A container of a control is allowed to cache the control's <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagcontrolinfo">CONTROLINFO</a> structure, provided that the container implements <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-oncontrolinfochanged">IOleControlSite::OnControlInfoChanged</a> to know when it must update its cached information.
+ A container of a control is allowed to cache the control's <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-controlinfo">CONTROLINFO</a> structure, provided that the container implements <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-oncontrolinfochanged">IOleControlSite::OnControlInfoChanged</a> to know when it must update its cached information.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-If a control changes the contents of its <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagcontrolinfo">CONTROLINFO</a> structure, it must notify its container by calling <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-oncontrolinfochanged">IOleControlSite::OnControlInfoChanged</a>.
+If a control changes the contents of its <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-controlinfo">CONTROLINFO</a> structure, it must notify its container by calling <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-oncontrolinfochanged">IOleControlSite::OnControlInfoChanged</a>.
 
 
 

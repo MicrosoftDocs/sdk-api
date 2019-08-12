@@ -76,7 +76,7 @@ Address of the output variable that receives the interface pointer requested in 
 
 ### -param pProxyFileList [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/ns-rpcproxy-tagproxyfileinfo">ProxyFileInfo</a> structure, which contains information about the proxy and stub.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/ns-rpcproxy-proxyfileinfo">ProxyFileInfo</a> structure, which contains information about the proxy and stub.
 
 
 ### -param pclsid [in]

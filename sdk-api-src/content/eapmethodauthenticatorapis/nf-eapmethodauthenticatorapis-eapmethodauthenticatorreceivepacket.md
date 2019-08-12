@@ -73,7 +73,7 @@ The size, in bytes, of <i>pReceivePacket</i>.
 
 ### -param pReceivePacket [in]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodtypes/ns-eapmethodtypes-tageappacket">EapPacket</a> structure that contains an EAP authentication session packet received from the supplicant by the server EAPHost.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eapmethodtypes/ns-eapmethodtypes-eappacket">EapPacket</a> structure that contains an EAP authentication session packet received from the supplicant by the server EAPHost.
 
 
 ### -param pEapOutput [out]

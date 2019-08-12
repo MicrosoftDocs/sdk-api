@@ -88,7 +88,7 @@ This member is ignored by the <a href="https://docs.microsoft.com/previous-versi
 
 Type: <b>LPLOGFONT</b>
 
-A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure. If you set the <b>CF_INITTOLOGFONTSTRUCT</b> flag in the <b>Flags</b> member and initialize the other members, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> function initializes the dialog box with a font that matches the <b>LOGFONT</b> members. If the user clicks the <b>OK</b> button, <b>ChooseFont</b> sets the members of the <b>LOGFONT</b> structure based on the user's selections. 
+A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure. If you set the <b>CF_INITTOLOGFONTSTRUCT</b> flag in the <b>Flags</b> member and initialize the other members, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> function initializes the dialog box with a font that matches the <b>LOGFONT</b> members. If the user clicks the <b>OK</b> button, <b>ChooseFont</b> sets the members of the <b>LOGFONT</b> structure based on the user's selections. 
 
 
 ### -field iPointSize
@@ -127,7 +127,7 @@ Causes the dialog box to display the <b>Apply</b> button. You should provide a h
 </dl>
 </td>
 <td width="60%">
-This flag is obsolete. To limit font selections to all scripts except those that use the OEM or Symbol character sets, use <b>CF_SCRIPTSONLY</b>. To get the original <b>CF_ANSIONLY</b> behavior, use <b>CF_SELECTSCRIPT</b> and specify <b>ANSI_CHARSET</b> in the <b>lfCharSet</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure pointed to by <b>lpLogFont</b>.
+This flag is obsolete. To limit font selections to all scripts except those that use the OEM or Symbol character sets, use <b>CF_SCRIPTSONLY</b>. To get the original <b>CF_ANSIONLY</b> behavior, use <b>CF_SELECTSCRIPT</b> and specify <b>ANSI_CHARSET</b> in the <b>lfCharSet</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure pointed to by <b>lpLogFont</b>.
 
 </td>
 </tr>
@@ -268,7 +268,7 @@ Same as the <b>CF_NOVECTORFONTS</b> flag.
 </dl>
 </td>
 <td width="60%">
-When using a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure to initialize the dialog box controls, use this flag to prevent the dialog box from displaying an initial selection for the font name combo box. This is useful when there is no single font name that applies to the text selection. 
+When using a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure to initialize the dialog box controls, use this flag to prevent the dialog box from displaying an initial selection for the font name combo box. This is useful when there is no single font name that applies to the text selection. 
 
 </td>
 </tr>
@@ -279,7 +279,7 @@ When using a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-w
 </dl>
 </td>
 <td width="60%">
-Disables the <b>Script</b> combo box. When this flag is set, the <b>lfCharSet</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure is set to <b>DEFAULT_CHARSET</b> when <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> returns. This flag is used only to initialize the dialog box.
+Disables the <b>Script</b> combo box. When this flag is set, the <b>lfCharSet</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure is set to <b>DEFAULT_CHARSET</b> when <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> returns. This flag is used only to initialize the dialog box.
 
 </td>
 </tr>
@@ -313,7 +313,7 @@ When using a  structure to initialize the dialog box controls, use this flag to 
 </dl>
 </td>
 <td width="60%">
-When using a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure to initialize the dialog box controls, use this flag to prevent the dialog box from displaying an initial selection for the <b>Font Style</b> combo box. This is useful when there is no single font style that applies to the text selection. 
+When using a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure to initialize the dialog box controls, use this flag to prevent the dialog box from displaying an initial selection for the <b>Font Style</b> combo box. This is useful when there is no single font style that applies to the text selection. 
 
 </td>
 </tr>
@@ -396,7 +396,7 @@ This flag is ignored for font enumeration.
 </dl>
 </td>
 <td width="60%">
-When specified on input, only fonts with the character set identified in the <b>lfCharSet</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure are displayed. The user will not be allowed to change the character set specified in the <b>Scripts</b> combo box.
+When specified on input, only fonts with the character set identified in the <b>lfCharSet</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure are displayed. The user will not be allowed to change the character set specified in the <b>Scripts</b> combo box.
 
 </td>
 </tr>
@@ -432,7 +432,7 @@ Causes the dialog box to display the <b>Help</b> button. The <b>hwndOwner</b> me
 <td width="60%">
 The <b>lpszStyle</b> member is a pointer to a buffer that contains style data that <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should use to initialize the <b>Font Style</b> combo box. When the user closes the dialog box, <b>ChooseFont</b> copies style data for the user's selection to this buffer.
 
-<div class="alert"><b>Note</b>  To globalize your application, you should specify the style by using the <b>lfWeight</b> and <b>lfItalic</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure pointed to by <b>lpLogFont</b>. The style name may change depending on the system user interface language.</div>
+<div class="alert"><b>Note</b>  To globalize your application, you should specify the style by using the <b>lfWeight</b> and <b>lfItalic</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure pointed to by <b>lpLogFont</b>. The style name may change depending on the system user interface language.</div>
 <div> </div>
 </td>
 </tr>
@@ -513,7 +513,7 @@ The type of the selected font when <a href="https://docs.microsoft.com/previous-
 </dl>
 </td>
 <td width="60%">
-The font weight is bold. This information is duplicated in the <b>lfWeight</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure and is equivalent to <b>FW_BOLD</b>.
+The font weight is bold. This information is duplicated in the <b>lfWeight</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure and is equivalent to <b>FW_BOLD</b>.
 
 </td>
 </tr>
@@ -524,7 +524,7 @@ The font weight is bold. This information is duplicated in the <b>lfWeight</b> m
 </dl>
 </td>
 <td width="60%">
-The italic font attribute is set. This information is duplicated in the <b>lfItalic</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure.
+The italic font attribute is set. This information is duplicated in the <b>lfItalic</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure.
 
 </td>
 </tr>
@@ -546,7 +546,7 @@ The font is a printer font.
 </dl>
 </td>
 <td width="60%">
-The font weight is normal. This information is duplicated in the <b>lfWeight</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure and is equivalent to <b>FW_REGULAR</b>.
+The font weight is normal. This information is duplicated in the <b>lfWeight</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure and is equivalent to <b>FW_REGULAR</b>.
 
 </td>
 </tr>

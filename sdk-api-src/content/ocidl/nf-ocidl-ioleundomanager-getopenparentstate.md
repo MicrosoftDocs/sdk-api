@@ -61,7 +61,7 @@ Retrieves state information about the innermost open parent undo unit.
 
 ### -param pdwState [out]
 
-A pointer to a variable that receives the state information. This information is a value taken from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-taguasflags">UASFLAGS</a> enumeration.
+A pointer to a variable that receives the state information. This information is a value taken from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-uasflags">UASFLAGS</a> enumeration.
 
 
 ## -returns
@@ -98,7 +98,7 @@ If the undo manager is disabled, it should fill the <i>pdwState</i> parameter wi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-taguasflags">UASFLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-uasflags">UASFLAGS</a>
  
 
  

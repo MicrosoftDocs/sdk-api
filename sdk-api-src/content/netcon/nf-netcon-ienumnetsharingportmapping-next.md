@@ -70,7 +70,7 @@ Specifies the number of port mappings to retrieve.
 ### -param rgVar [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> variable for the port mapping. This variant contains a pointer to an 
+<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> variable for the port mapping. This variant contains a pointer to an 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingportmapping">INetSharingPortMapping</a> interface.
 
 

@@ -67,7 +67,7 @@ Name of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-a
 
 ### -param pvarRoleNames [out]
 
-A pointer to a <b>VARIANT</b> used to return a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a>. Each element of the <b>SAFEARRAY</b> is a <b>VARIANT</b> of type <b>BSTR</b> that contains the name of a role to which the client belongs at the scope specified by the <i>bstrScopeName</i> parameter.
+A pointer to a <b>VARIANT</b> used to return a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>. Each element of the <b>SAFEARRAY</b> is a <b>VARIANT</b> of type <b>BSTR</b> that contains the name of a role to which the client belongs at the scope specified by the <i>bstrScopeName</i> parameter.
 
 
 ## -returns
@@ -83,7 +83,7 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any ot
 
 
 
-In JScript, the returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> must be converted to the JScript <a href="https://docs.microsoft.com/scripting/javascript/reference/array-object-javascript">Array</a> object. 
+In JScript, the returned <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> must be converted to the JScript <a href="https://docs.microsoft.com/scripting/javascript/reference/array-object-javascript">Array</a> object. 
 
 
 

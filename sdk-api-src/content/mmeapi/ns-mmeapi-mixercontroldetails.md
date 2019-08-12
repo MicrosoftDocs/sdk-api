@@ -261,7 +261,7 @@ If the control is a MIXERCONTROL_CONTROLTYPE_CUSTOM control, this member must po
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercontrola">MIXERCONTROL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercontrola">MIXERCONTROL</a>
 
 
 

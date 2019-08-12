@@ -91,7 +91,7 @@ A handle to the conversation list to be enumerated. This parameter should be 0L 
 
 Type: <b>PCONVCONTEXT</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagconvcontext">CONVCONTEXT</a> structure that contains conversation-context information. If this parameter is <b>NULL</b>, the server receives the default <b>CONVCONTEXT</b> structure during the 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-convcontext">CONVCONTEXT</a> structure that contains conversation-context information. If this parameter is <b>NULL</b>, the server receives the default <b>CONVCONTEXT</b> structure during the 
 					<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-connect">XTYP_CONNECT</a> or 
 					<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-wildconnect">XTYP_WILDCONNECT</a> transaction. 
 					
@@ -118,7 +118,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddege
 
 An application must free the conversation list handle returned by the <b>DdeConnectList</b> function, regardless of whether any conversation handles within the list are active. To free the handle, an application can call <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddedisconnectlist">DdeDisconnectList</a>. 
 
-All members of the default <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagconvcontext">CONVCONTEXT</a> structure are set to zero except 
+All members of the default <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-convcontext">CONVCONTEXT</a> structure are set to zero except 
 				<i>cb</i>, specifying the size of the structure, and 
 				<i>iCodePage</i>, specifying <b>CP_WINANSI</b> (the default code page) or <b>CP_WINUNICODE</b>, depending on whether the ANSI or Unicode version of the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function was called by the client application. 
 
@@ -130,7 +130,7 @@ All members of the default <a href="https://docs.microsoft.com/windows/desktop/a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagconvcontext">CONVCONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-convcontext">CONVCONTEXT</a>
 
 
 

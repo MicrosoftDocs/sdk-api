@@ -70,7 +70,7 @@ A handle to the list-view control.
 
 Type: <b>LPLVITEM</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvitema">LVITEM</a> structure that specifies the information to retrieve and receives information about the list-view item. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure that specifies the information to retrieve and receives information about the list-view item. 
 
 
 ## -remarks
@@ -78,9 +78,9 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl
 
 
 When the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getitem">LVM_GETITEM</a> message is sent, the 
-				<b>iItem</b> and <b>iSubItem</b> members identify the item or subitem to retrieve information about and the <b>mask</b> member specifies which attributes to retrieve. For a list of possible values, see the description of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvitema">LVITEM</a> structure.
+				<b>iItem</b> and <b>iSubItem</b> members identify the item or subitem to retrieve information about and the <b>mask</b> member specifies which attributes to retrieve. For a list of possible values, see the description of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure.
 
-If the LVIF_TEXT flag is set in the <b>mask</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvitema">LVITEM</a> structure, the <b>pszText</b> member must point to a valid buffer and the <b>cchTextMax</b> member must be set to the number of characters in that buffer. Applications should not assume that the text will necessarily be placed in the specified buffer. The control may instead change the <b>pszText</b> member of the structure to point to the new text rather than place it in the buffer.
+If the LVIF_TEXT flag is set in the <b>mask</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure, the <b>pszText</b> member must point to a valid buffer and the <b>cchTextMax</b> member must be set to the number of characters in that buffer. Applications should not assume that the text will necessarily be placed in the specified buffer. The control may instead change the <b>pszText</b> member of the structure to point to the new text rather than place it in the buffer.
 
 If the <b>mask</b> member specifies the LVIF_STATE value, the <b>stateMask</b> member must specify the item state bits to retrieve. On output, the <b>state</b> member contains the values of the specified state bits.
 

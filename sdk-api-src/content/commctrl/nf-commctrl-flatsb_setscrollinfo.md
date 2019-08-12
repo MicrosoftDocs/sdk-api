@@ -105,7 +105,7 @@ Sets the information for the vertical scroll bar.
 
 Type: <b>LPSCROLLINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure that contains the new information for the specified scroll bar. The <b>cbSize</b> and 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-scrollinfo">SCROLLINFO</a> structure that contains the new information for the specified scroll bar. The <b>cbSize</b> and 
 					<b>fMask</b> members of the structure must be filled in prior to calling <b>FlatSB_SetScrollInfo</b>. The <b>fMask</b> member specifies which members of the structure contain valid information and can be any combination of the following values: 
 
 <table>
@@ -130,7 +130,7 @@ Disables the scroll bar if the new information would cause the scroll bar to be 
 </td>
 <td width="60%">
 Sets the page information for the flat scroll bar. The 
-						<b>nPage</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure must contain the new page value. 
+						<b>nPage</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-scrollinfo">SCROLLINFO</a> structure must contain the new page value. 
 
 </td>
 </tr>
@@ -141,7 +141,7 @@ Sets the page information for the flat scroll bar. The
 </td>
 <td width="60%">
 Sets the position information for the flat scroll bar. The 
-						<b>nPos</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure must contain the new position value. 
+						<b>nPos</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-scrollinfo">SCROLLINFO</a> structure must contain the new position value. 
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ Sets the position information for the flat scroll bar. The
 <td width="60%">
 Sets the range information for the flat scroll bar. The 
 						<b>nMin</b> and 
-						<b>nMax</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure must contain the new range values.
+						<b>nMax</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-scrollinfo">SCROLLINFO</a> structure must contain the new range values.
 
 </td>
 </tr>

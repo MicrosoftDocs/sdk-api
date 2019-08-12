@@ -121,7 +121,7 @@ This moniker could not be reduced any further, so <i>ppmkReduced</i> indicates t
 </dl>
 </td>
 <td width="60%">
-The operation could not be completed within the time limit specified by the bind context's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts">BIND_OPTS</a> structure.
+The operation could not be completed within the time limit specified by the bind context's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a> structure.
 
 </td>
 </tr>

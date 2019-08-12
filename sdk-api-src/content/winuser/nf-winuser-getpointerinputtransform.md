@@ -72,16 +72,16 @@ An identifier of the pointer for which to retrieve information.
 
 ### -param historyCount [in]
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taginput_transform">INPUT_TRANSFORM</a> structures that <i>inputTransform</i> can point to.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-input_transform">INPUT_TRANSFORM</a> structures that <i>inputTransform</i> can point to.
 
-This value must be no less than 1 and no greater than the value specified in <b>historyCount</b> of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_info">POINTER_INFO</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinfo">GetPointerInfo</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointertouchinfo">GetPointerTouchInfo</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerpeninfo">GetPointerPenInfo</a> (for a single input transform) or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinfohistory">GetPointerInfoHistory</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointertouchinfohistory">GetPointerTouchInfoHistory</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerpeninfohistory">GetPointerPenInfoHistory</a> (for an array of input transforms).
+This value must be no less than 1 and no greater than the value specified in <b>historyCount</b> of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinfo">GetPointerInfo</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointertouchinfo">GetPointerTouchInfo</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerpeninfo">GetPointerPenInfo</a> (for a single input transform) or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinfohistory">GetPointerInfoHistory</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointertouchinfohistory">GetPointerTouchInfoHistory</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerpeninfohistory">GetPointerPenInfoHistory</a> (for an array of input transforms).
 
-If <b>GetPointerInputTransform</b> succeeds, <i>inputTransform</i>  is updated with the total count of structures available. The total count of structures available is the same as the <b>historyCount</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_info">POINTER_INFO</a> structure.
+If <b>GetPointerInputTransform</b> succeeds, <i>inputTransform</i>  is updated with the total count of structures available. The total count of structures available is the same as the <b>historyCount</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> structure.
 
 
 ### -param inputTransform [out]
 
-Address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taginput_transform">INPUT_TRANSFORM</a> structures to receive the transform information. This parameter cannot be NULL.
+Address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-input_transform">INPUT_TRANSFORM</a> structures to receive the transform information. This parameter cannot be NULL.
 
 
 ## -returns
@@ -111,9 +111,9 @@ The input transform does not respect any right-to-left layout setting on the inp
 
 The information returned by <b>GetPointerInputTransform</b> is associated with the most recent pointer message retrieved by the calling thread. When the next message is retrieved by the calling thread, the information associated with the previous message might no longer be available.
 
-If an application calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinfo">GetPointerInfo</a>, it can call <b>GetPointerInputTransform</b> with the same pointer Id and a single <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taginput_transform">INPUT_TRANSFORM</a> output buffer to get the input transform associated with the data.
+If an application calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinfo">GetPointerInfo</a>, it can call <b>GetPointerInputTransform</b> with the same pointer Id and a single <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-input_transform">INPUT_TRANSFORM</a> output buffer to get the input transform associated with the data.
 
-If an application calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframeinfo">GetPointerFrameInfo</a>, it can call <b>GetPointerInputTransform</b> with the same pointer Id and a single <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taginput_transform">INPUT_TRANSFORM</a> output buffer to get the input transform associated with the data. The same input transform applies to the entire frame.
+If an application calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframeinfo">GetPointerFrameInfo</a>, it can call <b>GetPointerInputTransform</b> with the same pointer Id and a single <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-input_transform">INPUT_TRANSFORM</a> output buffer to get the input transform associated with the data. The same input transform applies to the entire frame.
 
 If an application calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinfohistory">GetPointerInfoHistory</a>, it can call <b>GetPointerInputTransform</b> with the same pointer Id and an output buffer to hold the entries retrieved using <b>GetPointerInfoHistory</b>. Each input transform in the returned array can be used with the corresponding entry in the array returned by <b>GetPointerInfoHistory</b>.
 
@@ -123,7 +123,7 @@ If an application calls <a href="https://docs.microsoft.com/windows/desktop/api/
 
 If the information associated with the message is no longer available, this function fails with the last error set to <b>ERROR_INVALID_PARAMETER</b>.
 
-If <i>historyCount</i> contains a value larger than the <b>historyCount</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_info">POINTER_INFO</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinfo">GetPointerInfo</a> (or the first <b>POINTER_INFO</b> structure in the array returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinfohistory">GetPointerInfoHistory</a>), the function fails with the last error set to <b>ERROR_INVALID_PARAMETER</b>.
+If <i>historyCount</i> contains a value larger than the <b>historyCount</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinfo">GetPointerInfo</a> (or the first <b>POINTER_INFO</b> structure in the array returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinfohistory">GetPointerInfoHistory</a>), the function fails with the last error set to <b>ERROR_INVALID_PARAMETER</b>.
 
 
 
@@ -137,7 +137,7 @@ If <i>historyCount</i> contains a value larger than the <b>historyCount</b> fiel
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taginput_transform">INPUT_TRANSFORM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-input_transform">INPUT_TRANSFORM</a>
  
 
  

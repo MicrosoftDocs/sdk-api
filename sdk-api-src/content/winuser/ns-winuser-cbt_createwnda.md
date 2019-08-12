@@ -65,7 +65,7 @@ Contains information passed to a <b>WH_CBT</b> hook procedure, <a href="https://
 
 Type: <b>LPCREATESTRUCT</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcreatestructa">CREATESTRUCT</a> structure that contains initialization parameters for the window about to be created. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-createstructa">CREATESTRUCT</a> structure that contains initialization parameters for the window about to be created. 
 
 
 ### -field hwndInsertAfter
@@ -84,7 +84,7 @@ A handle to the window whose position in the Z order precedes that of the window
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcreatestructa">CREATESTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-createstructa">CREATESTRUCT</a>
 
 
 

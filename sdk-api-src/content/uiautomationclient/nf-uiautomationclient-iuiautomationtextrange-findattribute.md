@@ -68,7 +68,7 @@ The identifier of the text attribute for the text range subset being retrieved. 
 
 ### -param val [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a></b>
 
 The value of the attribute. This value must match the type specified for the attribute.
 

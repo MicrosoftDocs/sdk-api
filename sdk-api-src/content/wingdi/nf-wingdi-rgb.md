@@ -85,7 +85,7 @@ The intensity for each argument is in the range 0 through 255. If all three inte
 
 To extract the individual values for the red, green, and blue components of a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getrvalue">GetRValue</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getgvalue">GetGValue</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getbvalue">GetBValue</a> macros, respectively.
 
-When creating or examining a logical palette, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagrgbquad">RGBQUAD</a> structure to define color values and examine individual component values. For more information about using color values in a color palette, see the descriptions of the <a href="https://docs.microsoft.com/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-palettergb">PALETTERGB</a> macros.
+When creating or examining a logical palette, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a> structure to define color values and examine individual component values. For more information about using color values in a color palette, see the descriptions of the <a href="https://docs.microsoft.com/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-palettergb">PALETTERGB</a> macros.
 
 
 
@@ -127,7 +127,7 @@ When creating or examining a logical palette, use the <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagrgbquad">RGBQUAD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>
  
 
  

@@ -76,7 +76,7 @@ A pointer to a variaable that specifies the count of columns in the two-dimensio
 
 ### -param penInfo [out, optional]
 
-Address of a two-dimensional array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_pen_info">POINTER_PEN_INFO</a> structures to receive the pointer information. This parameter can be NULL if *entriesCount and *pointerCount are both zero.
+Address of a two-dimensional array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_pen_info">POINTER_PEN_INFO</a> structures to receive the pointer information. This parameter can be NULL if *entriesCount and *pointerCount are both zero.
 
 
 This array is interpreted as POINTER_PEN_INFO[*entriesCount][*pointerCount].

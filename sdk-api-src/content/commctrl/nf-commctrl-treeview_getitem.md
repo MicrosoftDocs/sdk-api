@@ -70,7 +70,7 @@ Handle to the tree-view control.
 
 Type: <b>LPTVITEM</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitema">TVITEM</a> structure that specifies the information to retrieve and receives information about the item. With <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">version 4.71</a> and later, you can use a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitemexa">TVITEMEX</a> structure instead. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> structure that specifies the information to retrieve and receives information about the item. With <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">version 4.71</a> and later, you can use a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a> structure instead. 
 
 
 ## -remarks
@@ -78,10 +78,10 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns
 
 
 When the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getitem">TVM_GETITEM</a> message is sent, the 
-				<b>hItem</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitema">TVITEM</a> or <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitemexa">TVITEMEX</a> structure identifies the item to retrieve information about, and the <b>mask</b> member specifies the attributes to retrieve.
+				<b>hItem</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> or <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a> structure identifies the item to retrieve information about, and the <b>mask</b> member specifies the attributes to retrieve.
 
 If the TVIF_TEXT flag is set in the 
-				<b>mask</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitema">TVITEM</a> or <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitemexa">TVITEMEX</a> structure, the <b>pszText</b> member must point to a valid buffer and the <b>cchTextMax</b> member must be set to the number of characters in that buffer. The returned text will not necessarily be stored in the original buffer passed by the application. It is possible that <b>pszText</b> will point to text in a new buffer rather than place it in the old buffer. 
+				<b>mask</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> or <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a> structure, the <b>pszText</b> member must point to a valid buffer and the <b>cchTextMax</b> member must be set to the number of characters in that buffer. The returned text will not necessarily be stored in the original buffer passed by the application. It is possible that <b>pszText</b> will point to text in a new buffer rather than place it in the old buffer. 
 
 
 

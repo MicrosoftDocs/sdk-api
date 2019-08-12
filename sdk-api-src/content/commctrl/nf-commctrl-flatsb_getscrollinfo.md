@@ -105,7 +105,7 @@ Retrieves the information for the vertical scroll bar.
 
 Type: <b>LPSCROLLINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure that will receive the information for the specified scroll bar. The <b>cbSize</b> and <b>fMask</b> members of the structure must be filled out prior to calling <b>FlatSB_GetScrollInfo</b>. The <b>fMask</b> member specifies which properties should be retrieved and can be any combination of the following values: 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-scrollinfo">SCROLLINFO</a> structure that will receive the information for the specified scroll bar. The <b>cbSize</b> and <b>fMask</b> members of the structure must be filled out prior to calling <b>FlatSB_GetScrollInfo</b>. The <b>fMask</b> member specifies which properties should be retrieved and can be any combination of the following values: 
 
 <table>
 <tr>
@@ -118,7 +118,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/n
 </dl>
 </td>
 <td width="60%">
-Retrieves the page information for the flat scroll bar. This will be placed in the <b>nPage</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure. 
+Retrieves the page information for the flat scroll bar. This will be placed in the <b>nPage</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-scrollinfo">SCROLLINFO</a> structure. 
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ Retrieves the page information for the flat scroll bar. This will be placed in t
 </td>
 <td width="60%">
 Retrieves the position information for the flat scroll bar. This will be placed in the 
-						<b>nPos</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure. 
+						<b>nPos</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-scrollinfo">SCROLLINFO</a> structure. 
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ Retrieves the position information for the flat scroll bar. This will be placed 
 </dl>
 </td>
 <td width="60%">
-Retrieves the range information for the flat scroll bar. This will be placed in the <b>nMin</b> and <b>nMax</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure. 
+Retrieves the range information for the flat scroll bar. This will be placed in the <b>nMin</b> and <b>nMax</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-scrollinfo">SCROLLINFO</a> structure. 
 
 </td>
 </tr>

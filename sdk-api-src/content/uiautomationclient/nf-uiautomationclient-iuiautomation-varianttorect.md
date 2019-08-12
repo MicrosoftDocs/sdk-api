@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> containing rectangle coordinates to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>.
+Converts a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> containing rectangle coordinates to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Converts a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaid
 
 ### -param var [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a></b>
 
 The coordinates of a rectangle.
 

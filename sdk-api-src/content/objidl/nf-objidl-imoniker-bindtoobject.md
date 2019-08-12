@@ -119,7 +119,7 @@ The object identified by this moniker, or some object identified by the composit
 </dl>
 </td>
 <td width="60%">
-The binding operation could not be completed within the time limit specified by the bind context's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts">BIND_OPTS</a> structure.
+The binding operation could not be completed within the time limit specified by the bind context's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a> structure.
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ If you expect your moniker to have no prefix, your <b>BindToObject</b> implement
 
 When your <b>BindToObject</b> implementation binds to some object, it should use the <i>pbc</i> parameter to call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectbound">IBindCtx::RegisterObjectBound</a> to store a reference to the bound object in the bind context. This ensures that the bound object remains running until the bind context is released, which can avoid the expense of having a subsequent binding operation load it again later.
 
-If the bind context's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts">BIND_OPTS</a> structure specifies the BINDFLAGS_JUSTTESTEXISTENCE flag, your implementation has the option of returning <b>NULL</b> in <i>ppvResult</i> (although you can also ignore the flag and perform the complete binding operation).
+If the bind context's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a> structure specifies the BINDFLAGS_JUSTTESTEXISTENCE flag, your implementation has the option of returning <b>NULL</b> in <i>ppvResult</i> (although you can also ignore the flag and perform the complete binding operation).
 
 <h3><a id="Implementation-specific_Notes"></a><a id="implementation-specific_notes"></a><a id="IMPLEMENTATION-SPECIFIC_NOTES"></a>Implementation-specific Notes</h3>
 <table>
@@ -234,9 +234,9 @@ This method is not implemented. It returns E_NOTIMPL.
 <tr>
 <td>Class moniker</td>
 <td>
-If <i>pmkLeft</i> is <b>NULL</b>, calls <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a>, using the CLSID the class moniker was initialized with (in <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createclassmoniker">CreateClassMoniker</a> or through <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a>) and the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX</a> of the current <i>pbc</i> (<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>).
+If <i>pmkLeft</i> is <b>NULL</b>, calls <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a>, using the CLSID the class moniker was initialized with (in <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createclassmoniker">CreateClassMoniker</a> or through <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a>) and the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a> of the current <i>pbc</i> (<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>).
 
-If <i>pmkLeft</i> is non-<b>NULL</b>, calls pmkLeft-&gt;BindToObject for <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclassactivator">IClassActivator</a> and calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iclassactivator-getclassobject">IClassActivator::GetClassObject</a> with the CLSID it was initialized with and the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX</a> and locale parameters of the current <i>pbc</i> (<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>).
+If <i>pmkLeft</i> is non-<b>NULL</b>, calls pmkLeft-&gt;BindToObject for <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclassactivator">IClassActivator</a> and calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iclassactivator-getclassobject">IClassActivator::GetClassObject</a> with the CLSID it was initialized with and the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a> and locale parameters of the current <i>pbc</i> (<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>).
 
 </td>
 </tr>

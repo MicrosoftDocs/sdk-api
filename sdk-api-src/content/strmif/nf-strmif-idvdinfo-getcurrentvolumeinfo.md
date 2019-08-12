@@ -76,7 +76,7 @@ Pointer to the retrieved volume number for this root directory.
 
 ### -param pSide [out]
 
-Pointer to the retrieved current disc side (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_disc_side">DVD_DISC_SIDE</a>).
+Pointer to the retrieved current disc side (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_disc_side">DVD_DISC_SIDE</a>).
 
 
 ### -param pulNumOfTitles [out]
@@ -124,7 +124,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-Requested action is not supported on this domain (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_domain">DVD_DOMAIN</a>).
+Requested action is not supported on this domain (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ Requested action cannot occur at this point in the movie due to the authoring of
 
 
 
-This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_domain">DVD_DOMAIN</a>.
+This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 

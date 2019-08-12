@@ -63,7 +63,7 @@ Invokes the standard <b>Paste Special</b> dialog box, allowing the user to selec
 
 ### -param Arg1 [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuipastespeciala">OLEUIPASTESPECIAL</a> structure.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuipastespeciala">OLEUIPASTESPECIAL</a> structure.
 
 
 ## -returns
@@ -368,7 +368,7 @@ Errors common to all dialog boxes lie in the range OLEUI_ERR_STANDARDMIN to OLEU
 </dl>
 </td>
 <td width="60%">
-The <b>lpSrcDataObject</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuipastespeciala">OLEUIPASTESPECIAL</a> is invalid.
+The <b>lpSrcDataObject</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuipastespeciala">OLEUIPASTESPECIAL</a> is invalid.
 
 </td>
 </tr>
@@ -379,7 +379,7 @@ The <b>lpSrcDataObject</b> member of <a href="https://docs.microsoft.com/windows
 </dl>
 </td>
 <td width="60%">
-The <b>arrPasteEntries</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuipastespeciala">OLEUIPASTESPECIAL</a> is invalid.
+The <b>arrPasteEntries</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuipastespeciala">OLEUIPASTESPECIAL</a> is invalid.
 
 </td>
 </tr>
@@ -390,7 +390,7 @@ The <b>arrPasteEntries</b> member of <a href="https://docs.microsoft.com/windows
 </dl>
 </td>
 <td width="60%">
-The <b>arrLinkTypes</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuipastespeciala">OLEUIPASTESPECIAL</a> is invalid.
+The <b>arrLinkTypes</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuipastespeciala">OLEUIPASTESPECIAL</a> is invalid.
 
 </td>
 </tr>
@@ -429,11 +429,11 @@ The <b>lpSrcDataObj</b> member is incorrect.
 
 
 
-The design of the <b>Paste Special</b> dialog box assumes that if you are willing to permit a user to link to an object, you are also willing to permit the user to embed that object. For this reason, if any of the OLEUIPASTE_LINKTYPE flags associated with the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ne-oledlg-tagoleuipasteflag">OLEUIPASTEFLAG</a> enumeration are set, then the OLEUIPASTE_PASTE flag must also be set in order for the data formats to appear in the <b>Paste Special</b> dialog box.
+The design of the <b>Paste Special</b> dialog box assumes that if you are willing to permit a user to link to an object, you are also willing to permit the user to embed that object. For this reason, if any of the OLEUIPASTE_LINKTYPE flags associated with the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ne-oledlg-oleuipasteflag">OLEUIPASTEFLAG</a> enumeration are set, then the OLEUIPASTE_PASTE flag must also be set in order for the data formats to appear in the <b>Paste Special</b> dialog box.
 
 
 
-The text displayed in the <b>Source</b> field of the standard <b>Paste Special</b> dialog box, which is implemented in Oledlg32.dll, is the null-terminated string whose offset in bytes is specified in the <b>dwSrcofCopy</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-tagobjectdescriptor">OBJECTDESCRIPTOR</a> structure for the object to be pasted. If an <b>OBJECTDESCRIPTOR</b> structure is not available for this object, the dialog box displays whatever text may be associated with CF_LINKSOURCEDESCRIPTOR. If neither structure is available, the dialog box looks for CF_FILENAME. If CF_FILENAME is not found, the dialog box displays the string "Unknown Source".
+The text displayed in the <b>Source</b> field of the standard <b>Paste Special</b> dialog box, which is implemented in Oledlg32.dll, is the null-terminated string whose offset in bytes is specified in the <b>dwSrcofCopy</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-objectdescriptor">OBJECTDESCRIPTOR</a> structure for the object to be pasted. If an <b>OBJECTDESCRIPTOR</b> structure is not available for this object, the dialog box displays whatever text may be associated with CF_LINKSOURCEDESCRIPTOR. If neither structure is available, the dialog box looks for CF_FILENAME. If CF_FILENAME is not found, the dialog box displays the string "Unknown Source".
 
 To free an <b>HMETAFILEPICT</b> returned from the <b>Insert Object</b> or <b>Paste Special</b> dialog box, delete the attached metafile on the handle, as follows.
 
@@ -462,7 +462,7 @@ void FreeHmetafilepict(HMETAFILEPICT hmfp)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ne-oledlg-tagoleuipasteflag">OLEUIPASTEFLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ne-oledlg-oleuipasteflag">OLEUIPASTEFLAG</a>
  
 
  

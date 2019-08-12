@@ -204,7 +204,7 @@ The language does not restrict caret placement to cluster boundaries.
 
 ### -field bCharSet
 
-Nominal character set associated with the script. During creation of a font suitable for displaying the script, this character set can be used as the value of the <b>lfCharSet</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a>.
+Nominal character set associated with the script. During creation of a font suitable for displaying the script, this character set can be used as the value of the <b>lfCharSet</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>.
 
 For a new script having no character set defined, the application should typically set <b>bCharSet</b> to DEFAULT_CHARSET. See the description of member <b>fAmbiguousCharSet</b>.
 
@@ -422,7 +422,7 @@ Value indicating if a script contains characters that are supported by more than
 </dl>
 </td>
 <td width="60%">
-The script contains characters that are supported by more than one character set. In this case, the <b>bCharSet</b> member of this structure should be ignored, and the <b>lfCharSet</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> should be set to DEFAULT_CHARSET. See the Remarks section for more information.
+The script contains characters that are supported by more than one character set. In this case, the <b>bCharSet</b> member of this structure should be ignored, and the <b>lfCharSet</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> should be set to DEFAULT_CHARSET. See the Remarks section for more information.
 
 </td>
 </tr>

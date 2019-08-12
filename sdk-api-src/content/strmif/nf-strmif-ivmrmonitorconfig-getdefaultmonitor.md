@@ -65,7 +65,7 @@ The <code>GetDefaultMonitor</code> method retrieves the default monitor that all
 
 ### -param pGUID [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagvmrguid">VMRGUID</a> structure that identifies the default monitor on the system.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrguid">VMRGUID</a> structure that identifies the default monitor on the system.
 
 
 ## -returns

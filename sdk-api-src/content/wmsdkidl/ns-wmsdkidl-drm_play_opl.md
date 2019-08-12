@@ -65,7 +65,7 @@ The <b>DRM_PLAY_OPL</b> structure holds information about the output protection 
 ### -field minOPL
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__tagdrm_minimum_output_protection_levels">DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS</a> structure containing the minimum OPL required to play content in different formats.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_minimum_output_protection_levels">DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS</a> structure containing the minimum OPL required to play content in different formats.
 
 
 ### -field oplIdReserved
@@ -76,7 +76,7 @@ Reserved for future use.
 ### -field vopi
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__tagdrm_video_output_protection_ids">DRM_VIDEO_OUTPUT_PROTECTION_IDS</a> structure containing the video output protection identifiers that apply to playback of the content.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_video_output_protection_ids">DRM_VIDEO_OUTPUT_PROTECTION_IDS</a> structure containing the video output protection identifiers that apply to playback of the content.
 
 
 ## -see-also
@@ -84,7 +84,7 @@ Reserved for future use.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__tagdrm_copy_opl">DRM_COPY_OPL</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_copy_opl">DRM_COPY_OPL</a>
 
 
 

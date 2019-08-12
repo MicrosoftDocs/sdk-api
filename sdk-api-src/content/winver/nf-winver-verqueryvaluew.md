@@ -87,7 +87,7 @@ The version-information value to be retrieved. The string must consist of names 
 
 #### \
 
-The root block. The function retrieves a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-tagvs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure for the version-information resource.
+The root block. The function retrieves a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure for the version-information resource.
 
 
 
@@ -118,7 +118,7 @@ When this method returns, contains a pointer to the size of the requested data p
 
 ##### - lpSubBlock.\
 
-The root block. The function retrieves a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-tagvs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure for the version-information resource.
+The root block. The function retrieves a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure for the version-information resource.
 
 
 ##### - lpSubBlock.\StringFileInfo\lang-codepage\string-name
@@ -259,7 +259,7 @@ for( i=0; i < (cbTranslate/sizeof(struct LANGANDCODEPAGE)); i++ )
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-tagvs_fixedfileinfo">VS_FIXEDFILEINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a>
 
 
 

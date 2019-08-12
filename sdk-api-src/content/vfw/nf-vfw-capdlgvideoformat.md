@@ -71,9 +71,9 @@ Handle to a capture window.
 
 
 
-After this message returns, applications might need to update the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-tagcapstatus">CAPSTATUS</a> structure because the user might have changed the image dimensions.
+After this message returns, applications might need to update the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-capstatus">CAPSTATUS</a> structure because the user might have changed the image dimensions.
 
-The Video Format dialog box is unique for each capture driver. Some capture drivers might not support a Video Format dialog box. Applications can determine if the capture driver supports this message by checking the <b>fHasDlgVideoFormat</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-tagcapdrivercaps">CAPDRIVERCAPS</a>.
+The Video Format dialog box is unique for each capture driver. Some capture drivers might not support a Video Format dialog box. Applications can determine if the capture driver supports this message by checking the <b>fHasDlgVideoFormat</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-capdrivercaps">CAPDRIVERCAPS</a>.
 
 
 

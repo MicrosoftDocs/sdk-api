@@ -63,7 +63,7 @@ Positions the filter at the beginning of the next chunk, or at the first chunk i
 
 ### -param pStat [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-tagstat_chunk">STAT_CHUNK</a> structure containing a description of the current chunk.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-stat_chunk">STAT_CHUNK</a> structure containing a description of the current chunk.
 
 
 ## -returns
@@ -153,11 +153,11 @@ General access failure.
 
 
 
-If upon return <i>pStat</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-tagstat_chunk">STAT_CHUNK</a> structure with the <b>breakType</b> member equal to CHUNK_NO_BREAK, only the <b>idChunk</b> member will be updated with the new chunk identifier (ID) value. The other members of the <b>STAT_CHUNK</b> structure remain unchanged. 
+If upon return <i>pStat</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-stat_chunk">STAT_CHUNK</a> structure with the <b>breakType</b> member equal to CHUNK_NO_BREAK, only the <b>idChunk</b> member will be updated with the new chunk identifier (ID) value. The other members of the <b>STAT_CHUNK</b> structure remain unchanged. 
 
 
 
-Internal value-type properties (chunks with a <a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-tagchunkstate">CHUNKSTATE</a> enumeration value of CHUNK_VALUE) cannot be concatenated using CHUNK_NO_BREAK. A single word cannot span more than two glued chunks. 
+Internal value-type properties (chunks with a <a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-chunkstate">CHUNKSTATE</a> enumeration value of CHUNK_VALUE) cannot be concatenated using CHUNK_NO_BREAK. A single word cannot span more than two glued chunks. 
 
 
 
@@ -196,7 +196,7 @@ Before returning the results of a call to the <b>GetChunk</b> method on an embed
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-tagstat_chunk">STAT_CHUNK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-stat_chunk">STAT_CHUNK</a>
  
 
  

@@ -71,7 +71,7 @@ A handle to the device context.
 
 ### -param lpxf [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagxform">XFORM</a> structure that contains the transformation data.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a> structure that contains the transformation data.
 
 
 ## -returns
@@ -160,7 +160,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/usin
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagxform">XFORM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a>
  
 
  

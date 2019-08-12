@@ -65,16 +65,16 @@ The <b>CreateFontIndirectEx</b> function specifies a logical font that has the c
 
 ### -param Arg1 [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagenumlogfontexdva">ENUMLOGFONTEXDV</a> structure that defines the characteristics of a multiple master font.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enumlogfontexdva">ENUMLOGFONTEXDV</a> structure that defines the characteristics of a multiple master font.
 
-Note, this function ignores the <b>elfDesignVector</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagenumlogfontexdva">ENUMLOGFONTEXDV</a>.
+Note, this function ignores the <b>elfDesignVector</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enumlogfontexdva">ENUMLOGFONTEXDV</a>.
 
 
 ## -returns
 
 
 
-If the function succeeds, the return value is the handle to the new <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagenumlogfontexdva">ENUMLOGFONTEXDV</a> structure.
+If the function succeeds, the return value is the handle to the new <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enumlogfontexdva">ENUMLOGFONTEXDV</a> structure.
 
 If the function fails, the return value is zero. No extended error information is available.
 
@@ -85,7 +85,7 @@ If the function fails, the return value is zero. No extended error information i
 
 
 
-The <b>CreateFontIndirectEx</b> function creates a logical font with the characteristics specified in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagenumlogfontexdva">ENUMLOGFONTEXDV</a> structure. When this font is selected by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> function, GDI's font mapper attempts to match the logical font with an existing physical font. If it fails to find an exact match, it provides an alternative whose characteristics match as many of the requested characteristics as possible.
+The <b>CreateFontIndirectEx</b> function creates a logical font with the characteristics specified in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enumlogfontexdva">ENUMLOGFONTEXDV</a> structure. When this font is selected by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> function, GDI's font mapper attempts to match the logical font with an existing physical font. If it fails to find an exact match, it provides an alternative whose characteristics match as many of the requested characteristics as possible.
 
 When you no longer need the font, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 
@@ -109,7 +109,7 @@ The font mapper for <a href="https://docs.microsoft.com/windows/desktop/api/wing
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagenumlogfontexdva">ENUMLOGFONTEXDV
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enumlogfontexdva">ENUMLOGFONTEXDV
       </a>
 
 

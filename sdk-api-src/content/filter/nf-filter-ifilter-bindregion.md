@@ -63,7 +63,7 @@ Retrieves an interface representing the specified portion of object. Currently r
 
 ### -param origPos [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-tagfilterregion">FILTERREGION</a> structure that contains the position of the text. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-filterregion">FILTERREGION</a> structure that contains the position of the text. 
 
 
 

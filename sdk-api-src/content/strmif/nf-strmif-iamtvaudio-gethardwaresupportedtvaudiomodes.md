@@ -65,7 +65,7 @@ The <code>GetHardwareSupportedTVAudioModes</code> method retrieves a bitmask of 
 
 ### -param plModes [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagtvaudiomode">TVAudioMode</a> enumeration value that identifies the audio mode.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-tvaudiomode">TVAudioMode</a> enumeration value that identifies the audio mode.
 
 
 ## -returns

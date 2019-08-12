@@ -55,7 +55,7 @@ Initializes a client DLL's access to Remote Desktop Services virtual channels. T
     names of its virtual channels.
 
 Remote Desktop Services provides a pointer to a <b>VirtualChannelInit</b> function in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/ns-cchannel-tagchannel_entry_points">CHANNEL_ENTRY_POINTS</a> structure passed to 
+    <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/ns-cchannel-channel_entry_points">CHANNEL_ENTRY_POINTS</a> structure passed to 
     your <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelentry">VirtualChannelEntry</a> entry point.
 
 

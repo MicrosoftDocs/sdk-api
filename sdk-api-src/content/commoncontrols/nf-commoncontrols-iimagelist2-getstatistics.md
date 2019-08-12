@@ -61,9 +61,9 @@ Gets an image list statistics structure.
 
 ### -param pils [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-tagimageliststats">IMAGELISTSTATS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-imageliststats">IMAGELISTSTATS</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-tagimageliststats">IMAGELISTSTATS</a> structure.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-imageliststats">IMAGELISTSTATS</a> structure.
 
 
 ## -returns

@@ -61,7 +61,7 @@ Retrieves a value indicating how often the linked object updates its cached data
 
 ### -param pdwUpdateOpt [out]
 
-A pointer to a variable that receives the current value for the linked object's update option, indicating how often the linked object updates the cached data for the linked object. The possible values for <i>pdwUpdateOpt</i> are taken from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagoleupdate">OLEUPDATE</a>.
+A pointer to a variable that receives the current value for the linked object's update option, indicating how often the linked object updates the cached data for the linked object. The possible values for <i>pdwUpdateOpt</i> are taken from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-oleupdate">OLEUPDATE</a>.
 
 
 ## -returns

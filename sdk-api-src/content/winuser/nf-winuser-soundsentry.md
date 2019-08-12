@@ -126,7 +126,7 @@ Set the notification behavior by calling <a href="https://docs.microsoft.com/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagsoundsentrya">SOUNDSENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-soundsentrya">SOUNDSENTRY</a>
 
 
 

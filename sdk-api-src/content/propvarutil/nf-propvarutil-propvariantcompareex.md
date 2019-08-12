@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extends <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantcompare">PropVariantCompare</a> by allowing the caller to compare two <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structures based on specified comparison units and flags.
+Extends <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantcompare">PropVariantCompare</a> by allowing the caller to compare two <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures based on specified comparison units and flags.
 
 
 ## -parameters
@@ -63,14 +63,14 @@ Extends <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-p
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to the first <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.
+Reference to the first <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 
 ### -param propvar2 [in]
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to the second <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.
+Reference to the second <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 
 ### -param unit [in]

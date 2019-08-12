@@ -71,7 +71,7 @@ A handle to the snapshot returned from a previous call to the
 ### -param lpte [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-tagthreadentry32">THREADENTRY32</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-threadentry32">THREADENTRY32</a> structure.
 
 
 ## -returns
@@ -110,7 +110,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-tagthreadentry32">THREADENTRY32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-threadentry32">THREADENTRY32</a>
 
 
 

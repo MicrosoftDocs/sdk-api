@@ -61,7 +61,7 @@ Contains detailed repair information that can be used to help resolve the  root 
 
 ### -field repair
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfo">RepairInfo</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-repairinfo">RepairInfo</a></b>
 
 The detailed repair information. 
 
@@ -70,7 +70,7 @@ The detailed repair information.
 
 Type: <b>USHORT</b>
 
-The rank of the repair, relative to other repairs in the <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagrootcauseinfo">RootCauseInfo</a> structure associated with the incident. A repair with rank 1 is expected to be more relevant to the problem and thus will be the first repair to be attempted. The success of any individual repair is not guaranteed, regardless of its rank.
+The rank of the repair, relative to other repairs in the <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-rootcauseinfo">RootCauseInfo</a> structure associated with the incident. A repair with rank 1 is expected to be more relevant to the problem and thus will be the first repair to be attempted. The success of any individual repair is not guaranteed, regardless of its rank.
 
 
 ## -see-also
@@ -82,11 +82,11 @@ The rank of the repair, relative to other repairs in the <a href="https://docs.m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfo">RepairInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-repairinfo">RepairInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagrootcauseinfo">RootCauseInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-rootcauseinfo">RootCauseInfo</a>
  
 
  

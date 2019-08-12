@@ -76,7 +76,7 @@ A pointer to the interface pointer to be marshaled. This parameter can be <b>NUL
 
 ### -param dwDestContext [in]
 
-The destination context where the specified interface is to be unmarshaled. Possible values for <i>dwDestContext</i> come from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagmshctx">MSHCTX</a>. Currently, unmarshaling can occur either in another apartment of the current process (MSHCTX_INPROC) or in another process on the same computer as the current process (MSHCTX_LOCAL).
+The destination context where the specified interface is to be unmarshaled. Possible values for <i>dwDestContext</i> come from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshctx">MSHCTX</a>. Currently, unmarshaling can occur either in another apartment of the current process (MSHCTX_INPROC) or in another process on the same computer as the current process (MSHCTX_LOCAL).
 
 
 ### -param pvDestContext [in]
@@ -86,7 +86,7 @@ This parameter is reserved and must be 0.
 
 ### -param mshlflags [in]
 
-Indicates whether the data to be marshaled is to be transmitted back to the client process—the typical case—or written to a global table, where it can be retrieved by multiple clients. Possible values come from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagmshlflags">MSHLFLAGS</a> enumeration.
+Indicates whether the data to be marshaled is to be transmitted back to the client process—the typical case—or written to a global table, where it can be retrieved by multiple clients. Possible values come from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHLFLAGS</a> enumeration.
 
 
 ## -returns
@@ -159,7 +159,7 @@ If you are not using MIDL to define your own interface, your marshaling stub mus
 If the caller has a pointer to the interface to be marshaled, it should, as a matter of efficiency, use the <i>pv</i> parameter to pass that pointer. In this way, an implementation that may use such a pointer to determine the appropriate CLSID for the proxy does not have to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on itself. If a caller does not have a pointer to the interface to be marshaled, it can pass <b>NULL</b>.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-Your implementation of <b>MarshalInterface</b> must write to the stream whatever data is needed to initialize the proxy on the receiving side. Such data would include a reference to the interface to be marshaled, a <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagmshlflags">MSHLFLAGS</a> value specifying whether the data should be returned to the client process or written to a global table, and whatever is needed to connect to the object, such as a named pipe, handle to a window, or pointer to an RPC channel.
+Your implementation of <b>MarshalInterface</b> must write to the stream whatever data is needed to initialize the proxy on the receiving side. Such data would include a reference to the interface to be marshaled, a <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHLFLAGS</a> value specifying whether the data should be returned to the client process or written to a global table, and whatever is needed to connect to the object, such as a named pipe, handle to a window, or pointer to an RPC channel.
 
 Your implementation should not assume that the stream is large enough to hold all the data. Rather, it should gracefully handle a STG_E_MEDIUMFULL error. Just before exiting, your implementation should position the seek pointer in the stream immediately after the last byte of data written.
 
@@ -171,7 +171,7 @@ If the pv parameter is <b>NULL</b> and your implementation needs an interface po
 
 To ensure that your implementation of <b>MarshalInterface</b> continues to work properly as new destination contexts are supported in the future, delegate marshaling to the COM default implementation for all <i>dwDestContext</i> values that your implementation does not handle. To delegate marshaling to the COM default implementation, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetstandardmarshal">CoGetStandardMarshal</a> helper function.
 
-Using the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagmshlflags">MSHLFLAGS</a> enumeration, callers can specify whether an interface pointer is to be marshaled back to a single client or written to a global table, where it can be unmarshaled by multiple clients. You must make sure that your object can handle calls from the multiple proxies that might be created from the same initialization data.
+Using the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHLFLAGS</a> enumeration, callers can specify whether an interface pointer is to be marshaled back to a single client or written to a global table, where it can be unmarshaled by multiple clients. You must make sure that your object can handle calls from the multiple proxies that might be created from the same initialization data.
 
 
 

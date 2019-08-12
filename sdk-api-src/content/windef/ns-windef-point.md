@@ -87,7 +87,7 @@ The POINT structure is identical to the <a href="https://docs.microsoft.com/wind
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagpoints">POINTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-points">POINTS</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes miscellaneous characteristics of an object or class of objects. A container can call the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmiscstatus">IOleObject::GetMiscStatus</a> method to determine the <b>OLEMISC</b> bits set for an object. The values specified in an object server's CLSID\MiscStatus entry in the registration database are based on the <b>OLEMISC</b> enumeration. These constants are also used in the <b>dwStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-tagobjectdescriptor">OBJECTDESCRIPTOR</a> structure.
+Describes miscellaneous characteristics of an object or class of objects. A container can call the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmiscstatus">IOleObject::GetMiscStatus</a> method to determine the <b>OLEMISC</b> bits set for an object. The values specified in an object server's CLSID\MiscStatus entry in the registration database are based on the <b>OLEMISC</b> enumeration. These constants are also used in the <b>dwStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-objectdescriptor">OBJECTDESCRIPTOR</a> structure.
 
 
 ## -enum-fields
@@ -86,7 +86,7 @@ This object cannot be the link source that when bound to activates (runs) the ob
 
 ### -field OLEMISC_CANLINKBYOLE1
 
-This object can be linked to by OLE 1 containers. This bit is used in the <b>dwStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-tagobjectdescriptor">OBJECTDESCRIPTOR</a> structure transferred with the Object and Link Source Descriptor formats. An object can be linked to by OLE 1 containers if it is an untitled document, a file, or a selection of data within a file. Embedded objects or pseudo-objects that are contained within an embedded object cannot be linked to by OLE 1 containers (i.e., OLE 1 containers cannot link to link sources that, when bound, require more than one object server to be run.
+This object can be linked to by OLE 1 containers. This bit is used in the <b>dwStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-objectdescriptor">OBJECTDESCRIPTOR</a> structure transferred with the Object and Link Source Descriptor formats. An object can be linked to by OLE 1 containers if it is an untitled document, a file, or a selection of data within a file. Embedded objects or pseudo-objects that are contained within an embedded object cannot be linked to by OLE 1 containers (i.e., OLE 1 containers cannot link to link sources that, when bound, require more than one object server to be run.
 
 
 ### -field OLEMISC_ISLINKOBJECT
@@ -151,7 +151,7 @@ This value is used with controls. It indicates that the control wants to use <a 
 
 ### -field OLEMISC_IMEMODE
 
-Obsolete. A control that works with an Input Method Editor (IME) system component can control the state of the IME through the IMEMode property rather than using this value in the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolemisc">OLEMISC</a> enumeration. You can use an IME component to enter information in Asian character sets with a regular keyboard. A Japanese IME, for example, allows you to type a word such as "sushi," on a regular keyboard and when you hit the spacebar, the IME component converts that word to appropriate kanji or proposes possible choices. The OLEMISC_IMEMODE value was previously used to mark a control as capable of controlling an IME mode system component.
+Obsolete. A control that works with an Input Method Editor (IME) system component can control the state of the IME through the IMEMode property rather than using this value in the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olemisc">OLEMISC</a> enumeration. You can use an IME component to enter information in Asian character sets with a regular keyboard. A Japanese IME, for example, allows you to type a word such as "sushi," on a regular keyboard and when you hit the spacebar, the IME component converts that word to appropriate kanji or proposes possible choices. The OLEMISC_IMEMODE value was previously used to mark a control as capable of controlling an IME mode system component.
 
 
 ### -field OLEMISC_IGNOREACTIVATEWHENVISIBLE
@@ -179,7 +179,7 @@ A control that supports multi-level undo sets this value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-tagobjectdescriptor">OBJECTDESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-objectdescriptor">OBJECTDESCRIPTOR</a>
  
 
  

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Identifies statistics that the Media Engine tracks during playback. To get a playback statistic from the Media Engine, call <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getstatistics">IMFMediaEngineEx::GetStatistics</a>.
 
-In the descriptions that follow, the data type and value-type tag for the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> are listed in parentheses.
+In the descriptions that follow, the data type and value-type tag for the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> are listed in parentheses.
 
 
 ## -enum-fields

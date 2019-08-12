@@ -149,7 +149,7 @@ You can call the <b>CoDecodeProxy</b> function from a 32-bit or 64-bit process. 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ns-combaseapi-tagserverinformation">ServerInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ns-combaseapi-serverinformation">ServerInformation</a>
  
 
  

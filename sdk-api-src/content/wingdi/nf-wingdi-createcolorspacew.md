@@ -65,7 +65,7 @@ The <b>CreateColorSpace</b> function creates a logical <a href="https://docs.mic
 
 ### -param lplcs
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogcolorspacea">LOGCOLORSPACE</a> data structure.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logcolorspacea">LOGCOLORSPACE</a> data structure.
 
 
 ## -returns

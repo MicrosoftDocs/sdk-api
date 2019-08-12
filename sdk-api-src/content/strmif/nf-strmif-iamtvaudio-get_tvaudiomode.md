@@ -65,7 +65,7 @@ The <code>get_TVAudioMode</code> method retrieves the current TV audio mode.
 
 ### -param plMode [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagtvaudiomode">TVAudioMode</a> enumeration type, identifying the audio mode.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-tvaudiomode">TVAudioMode</a> enumeration type, identifying the audio mode.
 
 
 ## -returns

@@ -90,7 +90,7 @@ The comparison function has the following form.
 The 
 				<i>lParam1</i> parameter is the value associated with the first item being compared; and the 
 				<i>lParam2</i> parameter is the value associated with the second item. These are the values that were specified in the 
-				<b>lParam</b> member of the items' <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvitema">LVITEM</a> structure when they were inserted into the list. The <i>lParamSort</i> parameter is the same value passed to the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-sortitems">LVM_SORTITEMS</a> message. 
+				<b>lParam</b> member of the items' <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure when they were inserted into the list. The <i>lParamSort</i> parameter is the same value passed to the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-sortitems">LVM_SORTITEMS</a> message. 
 
 The comparison function must return a negative value if the first item should precede the second, a positive value if the first item should follow the second, or zero if the two items are equivalent. 
 

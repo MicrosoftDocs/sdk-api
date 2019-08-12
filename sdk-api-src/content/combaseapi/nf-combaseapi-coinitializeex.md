@@ -73,7 +73,7 @@ This parameter is reserved and must be <b>NULL</b>.
 
 ### -param dwCoInit [in]
 
-The concurrency model and initialization options for the thread. Values for this parameter are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/ne-objbase-tagcoinit">COINIT</a> enumeration. Any combination of values from <b>COINIT</b> can be used, except that the COINIT_APARTMENTTHREADED and COINIT_MULTITHREADED flags cannot both be set. The default is COINIT_MULTITHREADED.
+The concurrency model and initialization options for the thread. Values for this parameter are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/ne-objbase-coinit">COINIT</a> enumeration. Any combination of values from <b>COINIT</b> can be used, except that the COINIT_APARTMENTTHREADED and COINIT_MULTITHREADED flags cannot both be set. The default is COINIT_MULTITHREADED.
 
 
 ## -returns

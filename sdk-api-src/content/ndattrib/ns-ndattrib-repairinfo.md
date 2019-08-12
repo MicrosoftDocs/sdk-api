@@ -221,7 +221,7 @@ Reserved for future use.
 
 ### -field UiInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-taguiinfo">UiInfo</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-uiinfo">UiInfo</a> structure.
 
 
 ### -field rootCauseIndex
@@ -244,7 +244,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-taguiinfo">UiInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-uiinfo">UiInfo</a>
  
 
  

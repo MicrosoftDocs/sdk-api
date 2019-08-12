@@ -83,7 +83,7 @@ A pointer to a variable that specifies the count of columns in the two-dimension
 
 ### -param pointerInfo [out]
 
-Address of a two-dimensional array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_info">POINTER_INFO</a> structures to receive the pointer information. This parameter can be NULL if <i>*entriesCount</i> and <i>*pointerCount</i> are both zero.
+Address of a two-dimensional array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> structures to receive the pointer information. This parameter can be NULL if <i>*entriesCount</i> and <i>*pointerCount</i> are both zero.
 
 This array is interpreted as <code>POINTER_INFO[*entriesCount][*pointerCount]</code>.
 

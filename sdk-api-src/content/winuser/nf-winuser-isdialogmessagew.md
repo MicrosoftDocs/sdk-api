@@ -73,7 +73,7 @@ A handle to the dialog box.
 
 Type: <b>LPMSG</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure that contains the message to be checked. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that contains the message to be checked. 
 
 
 ## -returns
@@ -131,7 +131,7 @@ Because the <b>IsDialogMessage</b> function performs all necessary translating a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
 
 
 

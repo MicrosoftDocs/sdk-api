@@ -75,15 +75,15 @@ If this flag is specified, the caller is not interested in having the operation 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts">BIND_OPTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts2">BIND_OPTS2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts2">BIND_OPTS2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts3">BIND_OPTS3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts3">BIND_OPTS3</a>
  
 
  

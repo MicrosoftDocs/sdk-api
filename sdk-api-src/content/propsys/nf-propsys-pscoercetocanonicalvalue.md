@@ -68,9 +68,9 @@ Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns
 
 ### -param ppropvar [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
-On entry, contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure that contains the original value. When this function returns successfully, contains the canonical value.
+On entry, contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains the original value. When this function returns successfully, contains the canonical value.
 
 
 ## -returns
@@ -115,7 +115,7 @@ The property value specified by <i>ppropvar</i> is now in a truncated, canonical
 </dl>
 </td>
 <td width="60%">
-The <i>ppropvar</i> parameter is invalid. The <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure has been cleared.
+The <i>ppropvar</i> parameter is invalid. The <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure has been cleared.
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ The <i>ppropvar</i> parameter is invalid. The <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-Coercion from the value's type to the property description's type was not possible. The <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure has been cleared.
+Coercion from the value's type to the property description's type was not possible. The <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure has been cleared.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ Coercion from the value's type to the property description's type was not possib
 </dl>
 </td>
 <td width="60%">
-Coercion from the value's type to the property description's type was not possible. The <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure has been cleared.
+Coercion from the value's type to the property description's type was not possible. The <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure has been cleared.
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ This function is a wrapper around the system's implementation of <a href="https:
 
 Most property descriptions specify the type that their values are expected to use. For example, the property description for <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-title">System.Title</a> specifies that System.Title values should be of type VT_LPWSTR. This function coerces values to this type, and then coerces the result into a canonical form.
 
-It is important to note that if this function fails, it will have already called <a href="https://docs.microsoft.com/previous-versions/windows/desktop/oe/oe-imimeallocator-propvariantclear">PropVariantClear</a> on the input <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure. Only if this function succeeds is the calling application responsible for calling <b>PropVariantClear</b> on <i>ppropvar</i> when the structure is no longer needed.
+It is important to note that if this function fails, it will have already called <a href="https://docs.microsoft.com/previous-versions/windows/desktop/oe/oe-imimeallocator-propvariantclear">PropVariantClear</a> on the input <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. Only if this function succeeds is the calling application responsible for calling <b>PropVariantClear</b> on <i>ppropvar</i> when the structure is no longer needed.
 
 The coercion performed by this function is also performed by the property system during calls to <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-getvalue">IPropertyStore::GetValue</a> and <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-setvalue">IPropertyStore::SetValue</a>. Applications can either depend on the property system to perform the coercions or can use this function to perform the coercion at a time of the application's choosing.
 

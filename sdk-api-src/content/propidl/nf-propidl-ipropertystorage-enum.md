@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>Enum</b> method creates an enumerator object designed to enumerate data of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropstg">STATPROPSTG</a>, which contains information on the current property set. On return, this method supplies a pointer to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a>, which contains information on the current property set. On return, this method supplies a pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ienumstatpropstg">IEnumSTATPROPSTG</a> pointer on this object.
 
 
@@ -81,7 +81,7 @@ This method supports the standard return value E_UNEXPECTED, in addition to the 
 
 
 <b>IPropertyStorage::Enum</b> creates an enumeration object that can be used to iterate 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropstg">STATPROPSTG</a> structures. On return, this method supplies a pointer to an instance of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures. On return, this method supplies a pointer to an instance of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ienumstatpropstg">IEnumSTATPROPSTG</a> interface on this object, whose methods you can call to obtain information about the current property set.
 
 

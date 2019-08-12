@@ -61,12 +61,12 @@ Indicates how synchronization is configured for <a href="https://docs.microsoft.
 
 ### -field CSC_NoSynchronization
 
-The code is forced to run unsynchronized. This is the default synchronization setting for <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> when <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_inheritanceconfig">CSC_InheritanceConfig</a> is set to CSC_Ignore.
+The code is forced to run unsynchronized. This is the default synchronization setting for <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> when <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_inheritanceconfig">CSC_InheritanceConfig</a> is set to CSC_Ignore.
 
 
 ### -field CSC_IfContainerIsSynchronized
 
-The code runs in the containing synchronization domain if one exists. This is the default synchronization setting for <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> when <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_inheritanceconfig">CSC_InheritanceConfig</a> is set to CSC_Inherit.
+The code runs in the containing synchronization domain if one exists. This is the default synchronization setting for <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> when <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_inheritanceconfig">CSC_InheritanceConfig</a> is set to CSC_Inherit.
 
 
 ### -field CSC_NewSynchronizationIfNecessary
@@ -87,7 +87,7 @@ This enumeration is used to configure synchronization through <a href="https://d
 
 Synchronization can affect the components created by the contained code even if it has no immediate impact on the contained code itself. For example, if the same code is running on two different threads and this code calls <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a> asking for synchronization services, each thread is contained in its own synchronization domain.
 
-If it is incompatible with the transaction setting from <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_transactionconfig">CSC_TransactionConfig</a>, the synchronization setting is increased to the minimum that is required for the transaction.
+If it is incompatible with the transaction setting from <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_transactionconfig">CSC_TransactionConfig</a>, the synchronization setting is increased to the minimum that is required for the transaction.
 
 
 

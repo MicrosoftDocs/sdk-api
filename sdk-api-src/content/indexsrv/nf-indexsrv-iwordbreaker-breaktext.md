@@ -61,9 +61,9 @@ Parses text to identify words and phrases and provides the results to the <a hre
 
 ### -param pTextSource [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/ns-indexsrv-tagtext_source">TEXT_SOURCE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/ns-indexsrv-text_source">TEXT_SOURCE</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/ns-indexsrv-tagtext_source">TEXT_SOURCE</a> structure that contains Unicode text.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/ns-indexsrv-text_source">TEXT_SOURCE</a> structure that contains Unicode text.
 
 
 ### -param pWordSink [in]
@@ -129,7 +129,7 @@ Because word breakers more commonly parse for words than phrases, you should opt
 
 The <a href="https://docs.microsoft.com/windows/desktop/search/iwordsink">IWordSink</a> object holds the words and their alternative forms for the word breaker. Alternative forms of words, if they exist, are put in the <b>IWordSink</b> object first, by using the <b>WordSink::PutAltWord</b> method, and the root word is added last, by using the <b>WordSink::PutWord</b> method.
 
-Use <b>pfnFillTextBuffer</b>, the function pointer element in the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/ns-indexsrv-tagtext_source">TEXT_SOURCE</a> structure, to replenish the source text. The <b>IWordBreaker::BreakText</b> method must handle all <b>pfnFillTextBuffer</b> return values. If an error occurs, finish processing the text in the buffer before handling the error.
+Use <b>pfnFillTextBuffer</b>, the function pointer element in the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/ns-indexsrv-text_source">TEXT_SOURCE</a> structure, to replenish the source text. The <b>IWordBreaker::BreakText</b> method must handle all <b>pfnFillTextBuffer</b> return values. If an error occurs, finish processing the text in the buffer before handling the error.
 
 
 
@@ -143,7 +143,7 @@ Use <b>pfnFillTextBuffer</b>, the function pointer element in the <a href="https
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/ns-indexsrv-tagtext_source">TEXT_SOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/ns-indexsrv-text_source">TEXT_SOURCE</a>
  
 
  

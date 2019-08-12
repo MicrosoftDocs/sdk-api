@@ -61,7 +61,7 @@ The configuration BLOB is returned when the supplicant called one of the followi
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui">EapHostPeerInvokeConfigUI</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ns-eaphostpeertypes-eaphostpeermethodresult">EapHostPeerGetResult</a> - via the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeertypes/ns-eaphostpeertypes-tageaphostpeermethodresult">EapHostPeerMethodResult</a> structure</li>
+<a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ns-eaphostpeertypes-eaphostpeermethodresult">EapHostPeerGetResult</a> - via the <a href="https://docs.microsoft.com/windows/desktop/api/eaphostpeertypes/ns-eaphostpeertypes-eaphostpeermethodresult">EapHostPeerMethodResult</a> structure</li>
 </ul>
 
 

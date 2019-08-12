@@ -65,7 +65,7 @@ Invokes the standard <b>Busy</b> dialog box, allowing the user to manage concurr
 
 ### -param Arg1 [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuibusya">OLEUIBUSY</a> structure that contains information used to initialize the dialog box.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuibusya">OLEUIBUSY</a> structure that contains information used to initialize the dialog box.
 
 
 ## -returns
@@ -429,7 +429,7 @@ Errors common to all dialog boxes lie in the range OLEUI_ERR_STANDARDMIN to OLEU
 </dl>
 </td>
 <td width="60%">
-The hTask specified in the <i>hTask</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuibusya">OLEUIBUSY</a> structure is invalid.
+The hTask specified in the <i>hTask</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuibusya">OLEUIBUSY</a> structure is invalid.
 
 </td>
 </tr>
@@ -454,7 +454,7 @@ The standard OLE Server <b>Busy</b> dialog box notifies the user that the server
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuibusya">OLEUIBUSY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuibusya">OLEUIBUSY</a>
  
 
  

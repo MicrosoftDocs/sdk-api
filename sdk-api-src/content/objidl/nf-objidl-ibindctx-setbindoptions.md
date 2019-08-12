@@ -61,7 +61,7 @@ Sets new values for the binding parameters stored in the bind context.
 
 ### -param pbindopts [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts">BIND_OPTS</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts2">BIND_OPTS2</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts3">BIND_OPTS3</a> structure containing the binding parameters.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts2">BIND_OPTS2</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts3">BIND_OPTS3</a> structure containing the binding parameters.
 
 
 ## -returns
@@ -84,7 +84,7 @@ Subsequent binding operations can call <a href="https://docs.microsoft.com/windo
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 This method can be called by moniker clients (those who use monikers to acquire interface pointers to objects).
 
-When you first create a bind context by using the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createbindctx">CreateBindCtx</a> function, the fields of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts">BIND_OPTS</a> structure are initialized to the following values:
+When you first create a bind context by using the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createbindctx">CreateBindCtx</a> function, the fields of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a> structure are initialized to the following values:
 
 <pre class="syntax" xml:space="preserve"><code>    cbStruct = sizeof(BIND_OPTS); 
     grfFlags = 0; 
@@ -103,15 +103,15 @@ You can use the <b>IBindCtx::SetBindOptions</b> method to modify these values be
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts">BIND_OPTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts2">BIND_OPTS2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts2">BIND_OPTS2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts3">BIND_OPTS3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts3">BIND_OPTS3</a>
 
 
 

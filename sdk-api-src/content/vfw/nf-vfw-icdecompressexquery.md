@@ -74,7 +74,7 @@ Reserved; do not use.
 
 ### -param lpbiSrc
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure containing the format of the compressed data to decompress.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the format of the compressed data to decompress.
 
 
 ### -param lpSrc
@@ -104,7 +104,7 @@ Height of the source rectangle.
 
 ### -param lpbiDst
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure containing the output format. If the value of this parameter is <b>NULL</b>, the function determines whether the input format is supported and this parameter is ignored.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the output format. If the value of this parameter is <b>NULL</b>, the function determines whether the input format is supported and this parameter is ignored.
 
 
 ### -param lpDst

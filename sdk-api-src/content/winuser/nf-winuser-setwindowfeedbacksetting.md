@@ -73,7 +73,7 @@ The window to configure feedback on.
 
 ### -param feedback [in]
 
-One of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagfeedback_type">FEEDBACK_TYPE</a> enumeration.
+One of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-feedback_type">FEEDBACK_TYPE</a> enumeration.
 
 
 ### -param dwFlags [in]

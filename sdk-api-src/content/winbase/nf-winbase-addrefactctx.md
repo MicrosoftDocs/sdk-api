@@ -65,7 +65,7 @@ The
 ### -param hActCtx [in]
 
 Handle to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctxa">ACTCTX</a> structure that contains information on the activation context for which the reference count is to be incremented.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a> structure that contains information on the activation context for which the reference count is to be incremented.
 
 
 ## -returns
@@ -91,7 +91,7 @@ This function is provided so that multiple clients can access a single activatio
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctxa">ACTCTX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a>
  
 
  

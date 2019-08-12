@@ -70,7 +70,7 @@ Receives the default language information.
 
 ### -param pAudioExtension
 
-Pointer to a variable of type <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_audio_lang_ext">DVD_AUDIO_LANG_EXT</a> that receives a value indicating the default DVD audio language extension.
+Pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_audio_lang_ext">DVD_AUDIO_LANG_EXT</a> that receives a value indicating the default DVD audio language extension.
 
 
 ## -returns

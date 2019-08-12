@@ -61,7 +61,7 @@ The <b>Repair</b> method performs a repair specified by the input parameter.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfo">RepairInfo</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-repairinfo">RepairInfo</a> structure.
 
 
 ### -param pDeferredTime [out]
@@ -71,7 +71,7 @@ A pointer to the time, in seconds, to be deferred if the repair cannot be starte
 
 ### -param pStatus [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ne-ndhelper-tagrepair_status">REPAIR_STATUS</a> that is returned from the repair.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ne-ndhelper-repair_status">REPAIR_STATUS</a> that is returned from the repair.
 
 
 ## -returns

@@ -56,7 +56,7 @@ A pointer to the user context that was passed to [DnsServiceBrowse](nf-windns-dn
 A pointer to the [MDNS_QUERY_HANDLE](ns-windns-mdns_query_handle.md) structure that was passed to [DnsStartMulticastQuery](nf-windns-dnsstartmulticastquery.md).
 
 ### -param pQueryResults
-A pointer to a [DNS_QUERY_RESULT](/windows/desktop/api/windns/ns-windns-_dns_query_result) structure that contains the query results. Your application is responsible for freeing the `pQueryRecords` contained in this structure using [DnsRecordListFree](/windows/desktop/api/windns/nf-windns-dnsrecordlistfree).
+A pointer to a [DNS_QUERY_RESULT](/windows/desktop/api/windns/ns-windns-dns_query_result) structure that contains the query results. Your application is responsible for freeing the `pQueryRecords` contained in this structure using [DnsRecordListFree](/windows/desktop/api/windns/nf-windns-dnsrecordlistfree).
 
 ## -returns
 This callback function does not return a value.

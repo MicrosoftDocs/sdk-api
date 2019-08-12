@@ -66,7 +66,7 @@ A pointer to a string value that contains the name or IP address of the WDS serv
 
 ### -param pCred [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/ns-wdsclientapi-tagwds_cli_cred">WDS_CLI_CRED</a> structure that contains the 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/ns-wdsclientapi-wds_cli_cred">WDS_CLI_CRED</a> structure that contains the 
       client's credentials. This parameter can be null  for a session without authentication.
 
 
@@ -102,7 +102,7 @@ To close
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/ns-wdsclientapi-tagwds_cli_cred">WDS_CLI_CRED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/ns-wdsclientapi-wds_cli_cred">WDS_CLI_CRED</a>
 
 
 

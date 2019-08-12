@@ -71,7 +71,7 @@ The number of cursors associated with the pointer device.
 
 ### -param deviceCursors [out, optional]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_device_cursor_info">POINTER_DEVICE_CURSOR_INFO</a> structures that contain info about the cursors. If NULL, <i>cursorCount</i> returns the number of cursors associated with the pointer device.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_device_cursor_info">POINTER_DEVICE_CURSOR_INFO</a> structures that contain info about the cursors. If NULL, <i>cursorCount</i> returns the number of cursors associated with the pointer device.
 
 
 ## -returns

@@ -143,7 +143,7 @@ Resets the window message filter for <i>hWnd</i> to the default.   Any message a
 
 Type: <b>PCHANGEFILTERSTRUCT</b>
 
-Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagchangefilterstruct">CHANGEFILTERSTRUCT</a> structure.
+Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-changefilterstruct">CHANGEFILTERSTRUCT</a> structure.
 
 
 ## -returns

@@ -66,7 +66,7 @@ A pointer to a count of elements in the <b>HYPOTHESIS</b> array.
 
 ### -param pprgHypotheses [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ns-ndhelper-taghypothesis">HYPOTHESIS</a> array.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ns-ndhelper-hypothesis">HYPOTHESIS</a> array.
 
 
 ## -returns

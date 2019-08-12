@@ -84,7 +84,7 @@ The sync state was based on the server state.
 
 ### -param state [in]
 
-A value from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_sync_state">OFFLINEFILES_SYNC_STATE</a> enumeration indicating the state of the item in conflict.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_sync_state">OFFLINEFILES_SYNC_STATE</a> enumeration indicating the state of the item in conflict.
 
 
 ### -param fChangeDetails [in]
@@ -130,7 +130,7 @@ Remote file change time has changed.
 
 ### -param pConflictResolution [out]
 
-Receives the desired resolution code.  Specify a value from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_sync_conflict_resolve">OFFLINEFILES_SYNC_CONFLICT_RESOLVE</a> enumeration.
+Receives the desired resolution code.  Specify a value from the <a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_sync_conflict_resolve">OFFLINEFILES_SYNC_CONFLICT_RESOLVE</a> enumeration.
 
 
 ### -param ppszNewName [out]

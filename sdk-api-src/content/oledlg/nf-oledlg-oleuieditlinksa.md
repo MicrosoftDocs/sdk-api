@@ -65,7 +65,7 @@ Invokes the standard <b>Links</b> dialog box, allowing the user to make modifica
 
 ### -param Arg1 [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuieditlinksa">OLEUIEDITLINKS</a> structure that contains information used to initialize the dialog box.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuieditlinksa">OLEUIEDITLINKS</a> structure that contains information used to initialize the dialog box.
 
 
 ## -returns

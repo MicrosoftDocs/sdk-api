@@ -69,7 +69,7 @@ Structure that contains the coordinates of a rectangle that the header control w
 
 ### -field pwpos
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwindowpos">WINDOWPOS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-windowpos">WINDOWPOS</a>*</b>
 
 Structure that receives information about the appropriate size and position of the header control. 
 

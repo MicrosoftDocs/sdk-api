@@ -82,7 +82,7 @@ Indicates how the transformation data modifies the current world transformation.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagemr">EMR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a>
 
 
 
@@ -98,7 +98,7 @@ Indicates how the transformation data modifies the current world transformation.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagxform">XFORM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a>
  
 
  

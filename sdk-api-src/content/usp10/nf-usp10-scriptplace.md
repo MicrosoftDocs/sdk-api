@@ -99,7 +99,7 @@ Pointer to an array in which this function retrieves advance width information.
 
 ### -param pGoffset [out]
 
-Optional. Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-taggoffset">GOFFSET</a> structures in which this function retrieves the x and y offsets of combining glyphs. This array must be of length indicated by <i>cGlyphs</i>.
+Optional. Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-goffset">GOFFSET</a> structures in which this function retrieves the x and y offsets of combining glyphs. This array must be of length indicated by <i>cGlyphs</i>.
 
 
 ### -param pABC [out]
@@ -142,7 +142,7 @@ All arrays are in visual order unless the <b>fLogicalOrder</b> member is set in 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-taggoffset">GOFFSET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-goffset">GOFFSET</a>
 
 
 

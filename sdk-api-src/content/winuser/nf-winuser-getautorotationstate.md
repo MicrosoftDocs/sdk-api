@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagar_state">AR_STATE</a> value containing the state of screen auto-rotation for the system, for example whether auto-rotation is supported, and whether it is enabled by the user. <b>GetAutoRotationState</b> provides a robust and diverse way of querying for auto-rotation state, and more. For example, if you want your app to behave differently when multiple monitors are attached then you can determine that from the <b>AR_STATE</b> returned.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-ar_state">AR_STATE</a> value containing the state of screen auto-rotation for the system, for example whether auto-rotation is supported, and whether it is enabled by the user. <b>GetAutoRotationState</b> provides a robust and diverse way of querying for auto-rotation state, and more. For example, if you want your app to behave differently when multiple monitors are attached then you can determine that from the <b>AR_STATE</b> returned.
 
 
 ## -parameters

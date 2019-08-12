@@ -68,7 +68,7 @@ Window handle of the <a href="https://docs.microsoft.com/windows/desktop/api/ime
 
 ### -param lpImeAppletUI [in]
 
-Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/imepad/ns-imepad-tagimeappletui">IMEAPPLETUI</a> structure. The applet can set its window style.
+Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/imepad/ns-imepad-imeappletui">IMEAPPLETUI</a> structure. The applet can set its window style.
 
 
 ## -returns

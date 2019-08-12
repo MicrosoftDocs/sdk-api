@@ -71,7 +71,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-ric
 
 ### -field item
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitemexa">TVITEMEX</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a></b>
 
 Specifies or receives attributes of a TreeView item.
 

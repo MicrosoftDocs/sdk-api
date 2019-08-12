@@ -100,7 +100,7 @@ If your implementation returns an error from this method, then <b>GoFullscreen</
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/ns-effects-tagtimedlevel">TimedLevel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/effects/ns-effects-timedlevel">TimedLevel</a>
  
 
  

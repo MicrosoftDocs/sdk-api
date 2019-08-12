@@ -64,7 +64,7 @@ An application-defined entry point for the client-side DLL of an application tha
 ### -param pEntryPoints [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/ns-cchannel-tagchannel_entry_points">CHANNEL_ENTRY_POINTS</a> structure that contains pointers to the client-side virtual channel functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/ns-cchannel-channel_entry_points">CHANNEL_ENTRY_POINTS</a> structure that contains pointers to the client-side virtual channel functions.
 
 This pointer is no longer valid after the 
 <b>VirtualChannelEntry</b> function returns. You must make a copy of this structure in extension-allocated memory for later use.
@@ -86,7 +86,7 @@ Return <b>FALSE</b> if an error occurs. In this case, Remote Desktop Services un
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/ns-cchannel-tagchannel_entry_points">CHANNEL_ENTRY_POINTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/ns-cchannel-channel_entry_points">CHANNEL_ENTRY_POINTS</a>
 
 
 

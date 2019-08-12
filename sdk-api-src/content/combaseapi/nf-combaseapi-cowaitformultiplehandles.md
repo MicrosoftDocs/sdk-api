@@ -66,7 +66,7 @@ Waits for specified handles to be signaled or for a specified timeout period to 
 
 ### -param dwFlags [in]
 
-The wait options. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-tagcowait_flags">COWAIT_FLAGS</a> enumeration. 
+The wait options. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-cowait_flags">COWAIT_FLAGS</a> enumeration. 
 
 
 ### -param dwTimeout [in]
@@ -90,7 +90,7 @@ A pointer to a variable that, when the returned status is S_OK, receives a value
 
 If <i>pHandles</i> includes one or more handles to mutex objects, a value between WAIT_ABANDONED_0 and (WAIT_ABANDONED_0 + nCountâ€“ 1) indicates the index into <i>pHandles</i> for the mutex that was abandoned.
 
-If the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-tagcowait_flags">COWAIT_ALERTABLE</a> flag is set in <i>dwFlags</i>, a value of WAIT_IO_COMPLETION indicates the wait was ended by one or more user-mode asynchronous procedure calls (APC) queued to the thread.
+If the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-cowait_flags">COWAIT_ALERTABLE</a> flag is set in <i>dwFlags</i>, a value of WAIT_IO_COMPLETION indicates the wait was ended by one or more user-mode asynchronous procedure calls (APC) queued to the thread.
 
 See <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjectsex">WaitForMultipleObjectsEx</a> for more information.
 
@@ -101,7 +101,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi
 
 This function can return the following values.
 
-<div class="alert"><b>Note</b>  The return value of <b>CoWaitForMultipleHandles</b> can be nondeterministic if the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-tagcowait_flags">COWAIT_ALERTABLE</a> flag is set in <i>dwFlags</i>, or if <i>pHandles</i> includes one or more handles to mutex objects. The recommended workaround is to call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError(ERROR_SUCCESS)</a> before <b>CoWaitForMultipleHandles</b>.</div>
+<div class="alert"><b>Note</b>  The return value of <b>CoWaitForMultipleHandles</b> can be nondeterministic if the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-cowait_flags">COWAIT_ALERTABLE</a> flag is set in <i>dwFlags</i>, or if <i>pHandles</i> includes one or more handles to mutex objects. The recommended workaround is to call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError(ERROR_SUCCESS)</a> before <b>CoWaitForMultipleHandles</b>.</div>
 <div> </div>
 <table>
 <tr>
@@ -126,7 +126,7 @@ The required handle or handles were signaled.
 </dl>
 </td>
 <td width="60%">
-<i>pHandles</i> was <b>NULL</b>, <i>lpdwindex</i> was <b>NULL</b>, or <i>dwFlags</i> was not a value from the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-tagcowait_flags">COWAIT_FLAGS</a> enumeration.
+<i>pHandles</i> was <b>NULL</b>, <i>lpdwindex</i> was <b>NULL</b>, or <i>dwFlags</i> was not a value from the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-cowait_flags">COWAIT_FLAGS</a> enumeration.
 
 </td>
 </tr>
@@ -183,7 +183,7 @@ If the calling thread resides in a multithread apartment (MTA), <b>CoWaitForMult
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-tagcowait_flags">COWAIT_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-cowait_flags">COWAIT_FLAGS</a>
  
 
  

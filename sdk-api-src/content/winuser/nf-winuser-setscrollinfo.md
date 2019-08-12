@@ -123,7 +123,7 @@ Sets the parameters of the window's standard vertical scroll bar.
 
 Type: <b>LPCSCROLLINFO</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure. Before calling <b>SetScrollInfo</b>, set the 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-scrollinfo">SCROLLINFO</a> structure. Before calling <b>SetScrollInfo</b>, set the 
 					<b>cbSize</b> member of the structure to 
 					<b>sizeof</b>(<b>SCROLLINFO</b>), set the 
 					<b>fMask</b> member to indicate the parameters to set, and specify the new parameter values in the appropriate members.
@@ -153,7 +153,7 @@ Disables the scroll bar instead of removing it, if the scroll bar's new paramete
 </td>
 <td width="60%">
 Sets the scroll page to the value specified in the 
-						<b>nPage</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure pointed to by 
+						<b>nPage</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-scrollinfo">SCROLLINFO</a> structure pointed to by 
 						<i>lpsi</i>.
 
 </td>
@@ -165,7 +165,7 @@ Sets the scroll page to the value specified in the
 </td>
 <td width="60%">
 Sets the scroll position to the value specified in the 
-						<b>nPos</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure pointed to by <i>lpsi</i>.
+						<b>nPos</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-scrollinfo">SCROLLINFO</a> structure pointed to by <i>lpsi</i>.
 
 </td>
 </tr>
@@ -177,7 +177,7 @@ Sets the scroll position to the value specified in the
 <td width="60%">
 Sets the scroll range to the value specified in the 
 						<b>nMin</b> and 
-						<b>nMax</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure pointed to by 
+						<b>nMax</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-scrollinfo">SCROLLINFO</a> structure pointed to by 
 						<i>lpsi</i>.
 
 </td>
@@ -210,7 +210,7 @@ The return value is the current position of the scroll box.
 
 The <b>SetScrollInfo</b> function performs range checking on the values specified by the 
 				<b>nPage</b> and 
-				<b>nPos</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure. The 
+				<b>nPos</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-scrollinfo">SCROLLINFO</a> structure. The 
 				<b>nPage</b> member must specify a value from 0 to 
 				<b>nMax</b> - 
 				<b>nMin</b> +1. The 
@@ -240,7 +240,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Controls
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-scrollinfo">SCROLLINFO</a>
  
 
  

@@ -64,7 +64,7 @@ Deprecated. Implemented by a derived class to define menu accelerators that can 
 
 Type: <b>HACCEL</b>
 
-A handle to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagaccel">ACCEL</a> structures, each structure describing a keyboard mnemonic.
+A handle to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a> structures, each structure describing a keyboard mnemonic.
         
 
 

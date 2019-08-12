@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagfuncdesc">FUNCDESC</a> structure that contains information about a specified function.
+Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-funcdesc">FUNCDESC</a> structure that contains information about a specified function.
 
 
 ## -parameters

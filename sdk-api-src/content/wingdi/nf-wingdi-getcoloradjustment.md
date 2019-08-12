@@ -68,7 +68,7 @@ A handle to the device context.
 
 ### -param lpca [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagcoloradjustment">COLORADJUSTMENT</a> structure that receives the color adjustment values.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-coloradjustment">COLORADJUSTMENT</a> structure that receives the color adjustment values.
 
 
 ## -returns
@@ -87,7 +87,7 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagcoloradjustment">COLORADJUSTMENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-coloradjustment">COLORADJUSTMENT</a>
 
 
 

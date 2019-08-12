@@ -66,7 +66,7 @@ A pointer to a count of elements in <b>HELPER_ATTRIBUTE</b> array.
 
 ### -param rgAttributes
 
-A reference to the <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-taghelper_attribute">HELPER_ATTRIBUTE</a> array.
+A reference to the <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-helper_attribute">HELPER_ATTRIBUTE</a> array.
 
 
 ## -returns

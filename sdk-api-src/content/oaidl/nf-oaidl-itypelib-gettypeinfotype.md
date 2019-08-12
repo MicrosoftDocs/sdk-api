@@ -68,7 +68,7 @@ The index of the type description within the type library.
 
 ### -param pTKind [out]
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ne-oaidl-tagtypekind">TYPEKIND</a> enumeration value for the type description.
+The <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ne-oaidl-typekind">TYPEKIND</a> enumeration value for the type description.
 
 
 ## -returns

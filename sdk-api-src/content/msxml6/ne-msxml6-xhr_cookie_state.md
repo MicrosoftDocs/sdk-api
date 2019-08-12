@@ -94,7 +94,7 @@ The cookie has been rejected.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ns-msxml6-tagxhr_cookie">XHR_COOKIE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ns-msxml6-xhr_cookie">XHR_COOKIE</a>
  
 
  

@@ -68,7 +68,7 @@ Handle to the Network Diagnostics Framework incident. This handle should match t
 
 ### -param RepairEx [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfoex">RepairInfoEx</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-repairinfoex">RepairInfoEx</a>*</b>
 
 A structure (obtained from <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfdiagnoseincident">NdfDiagnoseIncident</a>) which indicates the particular repair to be performed.
 
@@ -165,7 +165,7 @@ Before using this API, an application must call an incident creation function su
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfoex">RepairInfoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-repairinfoex">RepairInfoEx</a>
  
 
  

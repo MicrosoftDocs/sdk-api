@@ -71,7 +71,7 @@ Contains information about what members of this structure are set on the return 
 
 ### -field isolationState
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-tagisolationstate">IsolationState</a> value that specifies the isolation NAP state for the RAS connection.
+An <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-isolationstate">IsolationState</a> value that specifies the isolation NAP state for the RAS connection.
 
 
 ### -field probationTime
@@ -83,7 +83,7 @@ Specifies the time required for the connection to come out of quarantine after w
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-tagisolationstate">IsolationState</a> enumerated type and the ProbationTime structure are declared in naptypes.h.
+The <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-isolationstate">IsolationState</a> enumerated type and the ProbationTime structure are declared in naptypes.h.
 
 
 

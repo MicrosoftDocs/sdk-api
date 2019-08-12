@@ -74,7 +74,7 @@ A handle to the device context.
 
 ### -param lptm [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagtextmetrica">TEXTMETRIC</a> structure that receives the text metrics.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-textmetrica">TEXTMETRIC</a> structure that receives the text metrics.
 
 
 ## -returns
@@ -132,7 +132,7 @@ For an example, see "Displaying Keyboard Input" in <a href="https://docs.microso
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagtextmetrica">TEXTMETRIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-textmetrica">TEXTMETRIC</a>
  
 
  

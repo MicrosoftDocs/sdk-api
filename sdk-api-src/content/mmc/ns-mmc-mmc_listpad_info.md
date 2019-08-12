@@ -85,7 +85,7 @@ Be aware that the <b>szTitle</b> member is not the same as the <i>pszTitle</i> p
 A pointer to a null-terminated string that contains the text placed on a button that is directly above the list control and to the right of the <b>szTitle</b> text.
 
 When the user clicks this button on the taskpad, MMC calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">IExtendTaskPad::TaskNotify</a> method of the snap-in and passes the value specified in <b>nCommandID</b> as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> structure in the arg parameter. The <b>VARIANT</b> passed to 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">IExtendTaskPad::TaskNotify</a> method of the snap-in and passes the value specified in <b>nCommandID</b> as a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure in the arg parameter. The <b>VARIANT</b> passed to 
 <b>TaskNotify</b> has a <b>vt</b> member set to <b>VT_I4</b> and an <b>lVal</b> member that contains the command ID.
 
 To make the button to appear with no text, set <b>szButtonText</b> to an empty string.
@@ -97,7 +97,7 @@ To hide this button to appear on the taskpad, set <b>szButtonText</b> to <b>NULL
 
 Value that serves as an identifier for the button specified by <b>szButtonText</b>. It is recommended that you make this value unique to each taskpad to help identify the taskpad that sent the button-click notification.
 
-When the user clicks this button, MMC calls the <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">IExtendTaskPad::TaskNotify</a> method of the snap-in and passes this value as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> in the arg parameter.
+When the user clicks this button, MMC calls the <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">IExtendTaskPad::TaskNotify</a> method of the snap-in and passes this value as a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> in the arg parameter.
 
 This value is ignored if <b>szButtonText</b> is <b>NULL</b>.
 

@@ -162,7 +162,7 @@ This method is subject to the constraints of the underlying <a href="https://doc
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>
 
 
 

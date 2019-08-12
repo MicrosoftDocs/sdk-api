@@ -69,7 +69,7 @@ A handle to the LSA-mode context returned from the
 ### -param PackedContext [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">serialized</a> context data. Use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">serialized</a> context data. Use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function to free memory allocated for this structure.
 
 

@@ -64,7 +64,7 @@ Deprecated. Gets a structure containing folder information.
 
 Type: <b>tagFolderSetData*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-tagfoldersetdata">FOLDERSETDATA</a> structure that receives the folder information.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-foldersetdata">FOLDERSETDATA</a> structure that receives the folder information.
 
 
 ## -returns

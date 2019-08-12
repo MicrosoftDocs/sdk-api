@@ -65,7 +65,7 @@ The <b>Set</b> method sets video quality for a specified property.
 
 ### -param Property [in]
 
-The property to set, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagvideoprocampproperty">VideoProcAmpProperty</a> enumeration value.
+The property to set, specified as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-videoprocampproperty">VideoProcAmpProperty</a> enumeration value.
           
 
 
@@ -77,7 +77,7 @@ The new value of the property.
 
 ### -param Flags [in]
 
-The desired control setting, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagvideoprocampflags">VideoProcAmpFlags</a> enumeration
+The desired control setting, specified as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-videoprocampflags">VideoProcAmpFlags</a> enumeration
           value.
 
 

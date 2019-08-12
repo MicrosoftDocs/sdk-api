@@ -88,7 +88,7 @@ This method returns S_OK on success.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagadvf">ADVF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-advf">ADVF</a>
 
 
 

@@ -70,7 +70,7 @@ Retrieves information about the raw input device.
 
 Type: <b>HANDLE</b>
 
-A handle to the raw input device. This comes from the <b>hDevice</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputheader">RAWINPUTHEADER</a> or from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdevicelist">GetRawInputDeviceList</a>. 
+A handle to the raw input device. This comes from the <b>hDevice</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a> or from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdevicelist">GetRawInputDeviceList</a>. 
 
 
 ### -param uiCommand [in]
@@ -107,7 +107,7 @@ For this
 </dl>
 </td>
 <td width="60%">
-<i>pData</i> points to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrid_device_info">RID_DEVICE_INFO</a> structure.
+<i>pData</i> points to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a> structure.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ Type: <b>LPVOID</b>
 
 A pointer to a buffer that contains the information specified by 
 					<i>uiCommand</i>. If 
-					<i>uiCommand</i> is <b>RIDI_DEVICEINFO</b>, set the <b>cbSize</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrid_device_info">RID_DEVICE_INFO</a> to <code>sizeof(RID_DEVICE_INFO)</code> before calling <b>GetRawInputDeviceInfo</b>. 
+					<i>uiCommand</i> is <b>RIDI_DEVICEINFO</b>, set the <b>cbSize</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a> to <code>sizeof(RID_DEVICE_INFO)</code> before calling <b>GetRawInputDeviceInfo</b>. 
 
 
 ### -param pcbSize [in, out]
@@ -172,11 +172,11 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-e
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputheader">RAWINPUTHEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrid_device_info">RID_DEVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a>
 
 
 

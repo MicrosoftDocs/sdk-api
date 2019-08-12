@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>Stat</b> method retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure for this stream.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure for this stream.
 
 
 ## -parameters
@@ -63,14 +63,14 @@ The <b>Stat</b> method retrieves the
 ### -param pstatstg [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure where this method places information about this stream object.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure where this method places information about this stream object.
 
 
 ### -param grfStatFlag [in]
 
 Specifies that this method does not return some of the members in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure, thus saving a memory allocation operation. Values are taken from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagstatflag">STATFLAG</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure, thus saving a memory allocation operation. Values are taken from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-statflag">STATFLAG</a> enumeration.
 
 
 ## -returns
@@ -87,7 +87,7 @@ This method can return one of these values.
 
 
 <b>IStream::Stat</b> retrieves a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure that contains information about this open stream. When this stream is within a structured storage and 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure that contains information about this open stream. When this stream is within a structured storage and 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-enumelements">IStorage::EnumElements</a> is called, it creates an enumerator object with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a> interface on it, which can be called to enumerate the storages and streams through the 
 <b>STATSTG</b> structures associated with each of them.
@@ -104,11 +104,11 @@ This method can return one of these values.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagstatflag">STATFLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-statflag">STATFLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a>
  
 
  

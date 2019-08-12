@@ -69,16 +69,16 @@ Specifies the device context that the function examines to determine the best ma
 
 ### -param ppfd
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> structure that specifies the requested pixel format. In this context, the members of the <b>PIXELFORMATDESCRIPTOR</b> structure that <i>ppfd</i> points to are used as follows:
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> structure that specifies the requested pixel format. In this context, the members of the <b>PIXELFORMATDESCRIPTOR</b> structure that <i>ppfd</i> points to are used as follows:
 
 <table>
 <tr>
 <td><i>nSize</i></td>
-<td>Specifies the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> data structure. Set this member to <code>sizeof(PIXELFORMATDESCRIPTOR)</code>.</td>
+<td>Specifies the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> data structure. Set this member to <code>sizeof(PIXELFORMATDESCRIPTOR)</code>.</td>
 </tr>
 <tr>
 <td><i>nVersion</i></td>
-<td>Specifies the version number of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> data structure. Set this member to 1.</td>
+<td>Specifies the version number of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> data structure. Set this member to 1.</td>
 </tr>
 <tr>
 <td><i>dwFlags</i></td>

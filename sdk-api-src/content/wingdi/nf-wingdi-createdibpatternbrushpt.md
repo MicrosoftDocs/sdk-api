@@ -64,12 +64,12 @@ The <b>CreateDIBPatternBrushPt</b> function creates a logical brush that has the
 
 ### -param lpPackedDIB [in]
 
-A pointer to a packed DIB consisting of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure immediately followed by an array of bytes defining the pixels of the bitmap.
+A pointer to a packed DIB consisting of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure immediately followed by an array of bytes defining the pixels of the bitmap.
 
 
 ### -param iUsage [in]
 
-Specifies whether the <b>bmiColors</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure contains a valid color table and, if so, whether the entries in this color table contain explicit red, green, blue (RGB) values or palette indexes. The <i>iUsage</i> parameter must be one of the following values.
+Specifies whether the <b>bmiColors</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure contains a valid color table and, if so, whether the entries in this color table contain explicit red, green, blue (RGB) values or palette indexes. The <i>iUsage</i> parameter must be one of the following values.
 
 <table>
 <tr>
@@ -131,7 +131,7 @@ When you no longer need the brush, call the <a href="https://docs.microsoft.com/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
 
 
 

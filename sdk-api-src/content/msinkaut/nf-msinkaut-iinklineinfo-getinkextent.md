@@ -65,7 +65,7 @@ Specifies the display properties to set on the text ink object (tInk), and retri
 
 ### -param pim [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-taginkmetric">INKMETRIC</a> structure, which contains the display properties to set on the text ink object, or <b>NULL</b>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-inkmetric">INKMETRIC</a> structure, which contains the display properties to set on the text ink object, or <b>NULL</b>.
 
 
 ### -param pnWidth [out]
@@ -129,7 +129,7 @@ Could not complete the operation. The display properties are not changed.
 
 If the <i>pim</i> parameter is <b>NULL</b>, then the display properties are not changed and the existing properties are used to calculate the extent of the text ink object; otherwise, the display properties are updated, and the extent is calculated from the new properties.
 
-If the IMF_FONT_SELECTED_IN_HDC flag is set in the <i>pim</i> parameter, then the properties of the device context are applied to the ink; otherwise, the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-taginkmetric">INKMETRIC</a> settings of the text ink object are applied.
+If the IMF_FONT_SELECTED_IN_HDC flag is set in the <i>pim</i> parameter, then the properties of the device context are applied to the ink; otherwise, the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-inkmetric">INKMETRIC</a> settings of the text ink object are applied.
 
 
 
@@ -147,7 +147,7 @@ If the IMF_FONT_SELECTED_IN_HDC flag is set in the <i>pim</i> parameter, then th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-taginkmetric">INKMETRIC Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-inkmetric">INKMETRIC Structure</a>
 
 
 

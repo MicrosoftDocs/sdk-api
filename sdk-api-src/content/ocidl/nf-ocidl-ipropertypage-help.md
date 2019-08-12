@@ -93,7 +93,7 @@ The page displayed its own help.
 </dl>
 </td>
 <td width="60%">
-Help is either not provided or is provided only through the information is <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagproppageinfo">PROPPAGEINFO</a>.
+Help is either not provided or is provided only through the information is <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-proppageinfo">PROPPAGEINFO</a>.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Help is either not provided or is provided only through the information is <a hr
 Calls to this method must occur between calls to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-activate">IPropertyPage::Activate</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-deactivate">IPropertyPage::Deactivate</a>.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-If the page fails this method (such as E_NOTIMPL), then the frame will attempt to use the <b>pszHelpFile</b> and <b>dwHelpContext</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagproppageinfo">PROPPAGEINFO</a> structure obtained through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-getpageinfo">IPropertyPage::GetPageInfo</a>. Therefore, the page should either implement <b>IPropertyPage::Help</b> or return help information through <b>IPropertyPage::GetPageInfo</b>.
+If the page fails this method (such as E_NOTIMPL), then the frame will attempt to use the <b>pszHelpFile</b> and <b>dwHelpContext</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-proppageinfo">PROPPAGEINFO</a> structure obtained through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-getpageinfo">IPropertyPage::GetPageInfo</a>. Therefore, the page should either implement <b>IPropertyPage::Help</b> or return help information through <b>IPropertyPage::GetPageInfo</b>.
 
 
 
@@ -125,7 +125,7 @@ If the page fails this method (such as E_NOTIMPL), then the frame will attempt t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagproppageinfo">PROPPAGEINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-proppageinfo">PROPPAGEINFO</a>
  
 
  

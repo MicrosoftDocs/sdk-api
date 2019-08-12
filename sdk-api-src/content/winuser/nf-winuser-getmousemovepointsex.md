@@ -63,14 +63,14 @@ Retrieves a history of up to 64 previous coordinates of the mouse or pen.
 
 Type: <b>UINT</b>
 
-The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmousemovepoint">MOUSEMOVEPOINT</a> structure. 
+The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mousemovepoint">MOUSEMOVEPOINT</a> structure. 
 
 
 ### -param lppt [in]
 
 Type: <b>LPMOUSEMOVEPOINT</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmousemovepoint">MOUSEMOVEPOINT</a> structure containing valid mouse coordinates (in screen coordinates). It may also contain a time stamp. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mousemovepoint">MOUSEMOVEPOINT</a> structure containing valid mouse coordinates (in screen coordinates). It may also contain a time stamp. 
 
 The <b>GetMouseMovePointsEx</b> function searches for the point in the mouse coordinates history. If the function finds the point, it returns the last 
 						<i>nBufPoints</i> prior to and including the supplied point. 
@@ -156,7 +156,7 @@ The <b>GetMouseMovePointsEx</b> function will return points that eventually were
 <b>GetMouseMovePointsEx</b> may fail or return erroneous values in the following cases: 
 
 <ul>
-<li>If negative coordinates are passed in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmousemovepoint">MOUSEMOVEPOINT</a> structure. </li>
+<li>If negative coordinates are passed in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mousemovepoint">MOUSEMOVEPOINT</a> structure. </li>
 <li>If <b>GetMouseMovePointsEx</b> retrieves a coordinate with a negative value. </li>
 </ul>
 These situations can occur if multiple monitors are present. To correct this, first call 
@@ -218,7 +218,7 @@ for (int i = 0; i < cpt; i++)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmousemovepoint">MOUSEMOVEPOINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mousemovepoint">MOUSEMOVEPOINT</a>
 
 
 

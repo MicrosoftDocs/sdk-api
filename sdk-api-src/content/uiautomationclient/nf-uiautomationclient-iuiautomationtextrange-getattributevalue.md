@@ -68,7 +68,7 @@ The identifier of the text attribute. For a list of text attribute IDs, see <a h
 
 ### -param value [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>*</b>
 
 Receives the value of the specified attribute. 
 

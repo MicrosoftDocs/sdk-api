@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Unmarshals a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> object from the RPC buffer.
+Unmarshals a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> object from the RPC buffer.
 
 
 ## -parameters

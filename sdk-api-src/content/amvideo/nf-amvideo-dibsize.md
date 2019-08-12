@@ -61,7 +61,7 @@ The <code>DIBSIZE</code> macro calculates the number of bytes required by a devi
 
 ### -param bi
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
 
 ## -remarks

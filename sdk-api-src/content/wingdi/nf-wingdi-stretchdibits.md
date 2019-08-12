@@ -116,12 +116,12 @@ A pointer to the image bits, which are stored as an array of bytes. For more inf
 
 ### -param lpbmi [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure that contains information about the DIB.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure that contains information about the DIB.
 
 
 ### -param iUsage [in]
 
-Specifies whether the <b>bmiColors</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure was provided and, if so, whether <b>bmiColors</b> contains explicit red, green, blue (RGB) values or indexes. The <i>iUsage</i> parameter must be one of the following values.
+Specifies whether the <b>bmiColors</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure was provided and, if so, whether <b>bmiColors</b> contains explicit red, green, blue (RGB) values or indexes. The <i>iUsage</i> parameter must be one of the following values.
 
 <table>
 <tr>
@@ -204,7 +204,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/sizi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO
       </a>
 
 

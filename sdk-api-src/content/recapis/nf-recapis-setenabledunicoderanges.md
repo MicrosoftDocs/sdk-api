@@ -74,7 +74,7 @@ The number of ranges in the <i>pRanges</i> buffer.
 
 ### -param pcr
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagcharacter_range">CHARACTER_RANGE</a> structures. Each structure identifies a range of Unicode points that you want to enable in the recognizer. The order of the array is arbitrary.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-character_range">CHARACTER_RANGE</a> structures. Each structure identifies a range of Unicode points that you want to enable in the recognizer. The order of the array is arbitrary.
 
 
 ## -returns
@@ -169,7 +169,7 @@ The Microsoft gesture recognizer uses Unicode characters from 0xF000 to 0xF0FF. 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagcharacter_range">CHARACTER_RANGE Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-character_range">CHARACTER_RANGE Structure</a>
 
 
 

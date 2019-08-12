@@ -69,7 +69,7 @@ Passes the specified message and hook code to the hook procedures associated wit
 
 Type: <b>LPMSG</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure that contains the message to be passed to the hook procedures. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that contains the message to be passed to the hook procedures. 
 
 
 ### -param nCode [in]
@@ -123,7 +123,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
 
 
 

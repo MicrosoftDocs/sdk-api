@@ -74,7 +74,7 @@ A <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMA
 The <b>bmiColors</b> member contains one of the following:
 
 <ul>
-<li>An array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagrgbquad">RGBQUAD</a>. The elements of the array that make up the color table.</li>
+<li>An array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>. The elements of the array that make up the color table.</li>
 <li>An array of 16-bit unsigned integers that specifies indexes into the currently realized logical palette. This use of <b>bmiColors</b> is allowed for functions that use DIBs. When <b>bmiColors</b> elements contain indexes to a realized logical palette, they must also call the following bitmap functions:
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>
 
@@ -142,7 +142,7 @@ A bitmap is packed when the bitmap array immediately follows the <b>BITMAPINFO</
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagrgbquad">RGBQUAD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>
  
 
  

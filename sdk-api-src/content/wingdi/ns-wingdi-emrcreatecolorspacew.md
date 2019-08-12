@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>EMRCREATECOLORSPACEW</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcolorspacea">CreateColorSpace</a> enhanced metafile record. 
-		  It differs from <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagemrcreatecolorspace">EMRCREATECOLORSPACE</a> in that it has a Unicode logical color space and also has an optional array containing raw source profile data.
+		  It differs from <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emrcreatecolorspace">EMRCREATECOLORSPACE</a> in that it has a Unicode logical color space and also has an optional array containing raw source profile data.
 
 
 
@@ -114,7 +114,7 @@ An array containing the source profile data. The size of the array is <b>cbData<
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagemrcreatecolorspace">EMRCREATECOLORSPACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emrcreatecolorspace">EMRCREATECOLORSPACE</a>
 
 
 

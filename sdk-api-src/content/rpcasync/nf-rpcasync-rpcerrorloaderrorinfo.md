@@ -108,7 +108,7 @@ The BLOB pointed to in <i>ErrorBlob</i> remains the responsibility of the caller
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-tagrpc_error_enum_handle">RPC_ERROR_ENUM_HANDLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_error_enum_handle">RPC_ERROR_ENUM_HANDLE</a>
 
 
 

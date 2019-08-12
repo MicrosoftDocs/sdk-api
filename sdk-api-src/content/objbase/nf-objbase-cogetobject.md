@@ -68,7 +68,7 @@ The display name of the object to be created.
 
 ### -param pBindOptions [in, optional]
 
-The binding options used to create a moniker that creates the actual object. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts">BIND_OPTS</a>. This parameter can be <b>NULL</b>.
+The binding options used to create a moniker that creates the actual object. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a>. This parameter can be <b>NULL</b>.
 
 
 ### -param riid [in]
@@ -132,7 +132,7 @@ The object identified by this moniker, or some object identified by the composit
 </dl>
 </td>
 <td width="60%">
-The binding operation could not be completed within the time limit specified by the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts">BIND_OPTS</a> structure passed in <i>pBindOptions</i>.
+The binding operation could not be completed within the time limit specified by the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a> structure passed in <i>pBindOptions</i>.
 
 </td>
 </tr>
@@ -179,7 +179,7 @@ An intermediate object was found but it did not support an interface required to
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts">BIND_OPTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a>
  
 
  

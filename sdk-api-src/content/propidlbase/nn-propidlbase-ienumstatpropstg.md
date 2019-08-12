@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>IEnumSTATPROPSTG</b> interface iterates through an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropstg">STATPROPSTG</a> structures. The <b>STATPROPSTG</b> structures contain statistical data about properties in a property set. <b>IEnumSTATPROPSTG</b> has the same methods as all enumerator interfaces: <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-next">Next</a>, <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-skip">Skip</a>, <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-reset">Reset</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures. The <b>STATPROPSTG</b> structures contain statistical data about properties in a property set. <b>IEnumSTATPROPSTG</b> has the same methods as all enumerator interfaces: <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-next">Next</a>, <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-skip">Skip</a>, <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-reset">Reset</a>, and 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-clone">Clone</a>.
 
 The implementation defines the order in which the properties in the set are enumerated. Properties that are present when the enumerator is created, and are not removed during the enumeration, will be enumerated only once. Properties added or deleted while the enumeration is in progress may or may not be enumerated, but will never be enumerated more than once.
@@ -84,7 +84,7 @@ The <b>IEnumSTATPROPSTG</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-clone">Clone</a>
 </td>
 <td align="left" width="63%">
-Creates a new enumerator that contains the same enumeration state as the current <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropstg">STATPROPSTG</a> structure enumerator.
+Creates a new enumerator that contains the same enumeration state as the current <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structure enumerator.
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Creates a new enumerator that contains the same enumeration state as the current
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-next">Next</a>
 </td>
 <td align="left" width="63%">
-Gets a specified number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropstg">STATPROPSTG</a> structures.
+Gets a specified number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures.
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ Gets a specified number of <a href="https://docs.microsoft.com/windows/desktop/a
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-reset">Reset</a>
 </td>
 <td align="left" width="63%">
-Resets the enumeration sequence to the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropstg">STATPROPSTG</a> structure array.
+Resets the enumeration sequence to the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structure array.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Resets the enumeration sequence to the beginning of the <a href="https://docs.mi
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-skip">Skip</a>
 </td>
 <td align="left" width="63%">
-Skips a specified number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropstg">STATPROPSTG</a> structures in the enumeration sequence.
+Skips a specified number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures in the enumeration sequence.
 
 </td>
 </tr>

@@ -126,7 +126,7 @@ The purpose of this function is to convert data into a string suitable for displ
 <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-numberformat">numberFormat</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagnmdatetimeformata">NMDATETIMEFORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-nmdatetimeformata">NMDATETIMEFORMAT</a>
 </li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-enumeratedlist">enumeratedList</a>

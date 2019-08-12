@@ -70,7 +70,7 @@ A handle to the list-view control.
 
 Type: <b>PLVINSERTGROUPSORTED</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvinsertgroupsorted">LVINSERTGROUPSORTED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvinsertgroupsorted">LVINSERTGROUPSORTED</a>
 
 ## -remarks
 

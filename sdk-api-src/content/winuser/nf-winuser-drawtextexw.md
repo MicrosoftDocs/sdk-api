@@ -318,7 +318,7 @@ Displays text on a single line only. Carriage returns and line feeds do not brea
 </dl>
 </td>
 <td width="60%">
-Sets tab stops. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagdrawtextparams">DRAWTEXTPARAMS</a> structure pointed to by the <i>lpDTParams</i> parameter specifies the number of average character widths per tab stop.
+Sets tab stops. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-drawtextparams">DRAWTEXTPARAMS</a> structure pointed to by the <i>lpDTParams</i> parameter specifies the number of average character widths per tab stop.
 
 </td>
 </tr>
@@ -370,7 +370,7 @@ Compare with DT_END_ELLIPSIS and DT_PATH_ELLIPSIS.
 
 ### -param lpdtp [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagdrawtextparams">DRAWTEXTPARAMS</a> structure that specifies additional formatting options. This parameter can be <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-drawtextparams">DRAWTEXTPARAMS</a> structure that specifies additional formatting options. This parameter can be <b>NULL</b>.
 
 
 ## -returns
@@ -400,7 +400,7 @@ The text alignment mode for the device context must include the TA_LEFT, TA_TOP,
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagdrawtextparams">DRAWTEXTPARAMS
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-drawtextparams">DRAWTEXTPARAMS
       </a>
 
 

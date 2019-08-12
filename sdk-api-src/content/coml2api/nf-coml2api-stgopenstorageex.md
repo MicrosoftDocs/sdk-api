@@ -101,7 +101,7 @@ A value that depends upon the value of the <i>stgfmt</i> parameter.
 ### -param pStgOptions [in, out]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/ns-coml2api-tagstgoptions">STGOPTIONS</a> structure that contains data about the storage object opened. The <i>pStgOptions</i> parameter is valid only if the <i>stgfmt</i> parameter is set to <b>STGFMT_DOCFILE</b>. The <b>usVersion</b> member must be set before calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/ns-coml2api-stgoptions">STGOPTIONS</a> structure that contains data about the storage object opened. The <i>pStgOptions</i> parameter is valid only if the <i>stgfmt</i> parameter is set to <b>STGFMT_DOCFILE</b>. The <b>usVersion</b> member must be set before calling 
 <b>StgOpenStorageEx</b>. For more information, see the <b>STGOPTIONS</b> structure.
 
 
@@ -198,7 +198,7 @@ For more information about simple mode and single-writer/multiple-reader modes, 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/ns-coml2api-tagstgoptions">STGOPTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/ns-coml2api-stgoptions">STGOPTIONS</a>
 
 
 

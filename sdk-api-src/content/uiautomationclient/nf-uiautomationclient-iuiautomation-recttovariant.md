@@ -68,7 +68,7 @@ A pointer to a structure that contains the coordinates of the rectangle.
 
 ### -param var [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>*</b>
 
 Receives the coordinates of the rectangle.
 

@@ -65,7 +65,7 @@ The <code>GetCurrentVideoAttributes</code> method retrieves the video attributes
 
 ### -param pATR [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_videoattributes">DVD_VideoAttributes</a> structure that receives the attributes.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_videoattributes">DVD_VideoAttributes</a> structure that receives the attributes.
 
 
 ## -returns

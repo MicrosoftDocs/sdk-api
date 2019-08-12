@@ -95,7 +95,7 @@ For authentication services not registered with DCOM, <b>pAuthInfo</b> must be s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagsole_authentication_list">SOLE_AUTHENTICATION_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-sole_authentication_list">SOLE_AUTHENTICATION_LIST</a>
  
 
  

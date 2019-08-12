@@ -81,7 +81,7 @@ GDI's logical handle to the PDEV associated with this device.
 
 ### -field sizlBitmap
 
-Specifies a SIZEL structure that contains the width and height, in pixels, of the surface. The SIZEL structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagsize">SIZE</a> structure.
+Specifies a SIZEL structure that contains the width and height, in pixels, of the surface. The SIZEL structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-size">SIZE</a> structure.
 
 
 ### -field cjBits
@@ -350,7 +350,7 @@ When a SURFOBJ structure represents a GDI bitmap, the driver must be able to det
 
 When a SURFOBJ structure represents a device surface, the driver must be able to locate the device handle for the surface.
 
-For more information about supporting JPEG and PNG compressed images, see <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a>.
+For more information about supporting JPEG and PNG compressed images, see <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a>.
 
 
 

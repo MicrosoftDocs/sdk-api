@@ -70,7 +70,7 @@ A handle to the list-view control.
 
 Type: <b>PLVTILEINFO</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvtileinfo">LVTILEINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvtileinfo">LVTILEINFO</a>
 
 ## -remarks
 

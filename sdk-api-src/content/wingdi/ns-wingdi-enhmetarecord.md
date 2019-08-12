@@ -82,7 +82,7 @@ An array of parameters passed to the GDI function identified by the record.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagenhmetaheader">ENHMETAHEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enhmetaheader">ENHMETAHEADER</a>
 
 
 

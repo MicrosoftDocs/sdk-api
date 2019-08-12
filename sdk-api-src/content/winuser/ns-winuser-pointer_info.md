@@ -141,7 +141,7 @@ Type: <b>DWORD</b>
 
 0 or the time stamp of the message, based on the system tick count when the message was received. 
 
-The application can specify the input time stamp in either <b>dwTime</b> or <b>PerformanceCount</b>. The value cannot be more recent than the current tick count or <b>QueryPerformanceCount (QPC)</b> value of the injection thread. Once a frame is injected with a time stamp, all subsequent frames must include a timestamp until all contacts in the frame go to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_button_change_type">UP</a> state. The custom timestamp value must also be provided for the first element in the contacts array. The time stamp values after the first element are ignored. The custom timestamp value must increment in every injection frame.
+The application can specify the input time stamp in either <b>dwTime</b> or <b>PerformanceCount</b>. The value cannot be more recent than the current tick count or <b>QueryPerformanceCount (QPC)</b> value of the injection thread. Once a frame is injected with a time stamp, all subsequent frames must include a timestamp until all contacts in the frame go to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-pointer_button_change_type">UP</a> state. The custom timestamp value must also be provided for the first element in the contacts array. The time stamp values after the first element are ignored. The custom timestamp value must increment in every injection frame.
 
 
 
@@ -195,7 +195,7 @@ The value of the high-resolution performance counter when the pointer message wa
 
 Type: <b>POINTER_BUTTON_CHANGE_TYPE</b>
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_button_change_type">POINTER_BUTTON_CHANGE_TYPE</a> enumeration that specifies the change in button state between this input and the previous input.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-pointer_button_change_type">POINTER_BUTTON_CHANGE_TYPE</a> enumeration that specifies the change in button state between this input and the previous input.
 
 
 #### - inputData

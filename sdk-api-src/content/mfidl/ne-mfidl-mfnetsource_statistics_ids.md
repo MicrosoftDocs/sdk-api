@@ -53,9 +53,9 @@ ms.custom: 19H1
 
 Defines statistics collected by the network source. The values in this enumeration define property identifiers (PIDs) for the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfnetsource-statistics-property">MFNETSOURCE_STATISTICS</a> property.
 
-To retrieve statistics from the network source, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier <b>MFNETSOURCE_STATISTICS_SERVICE</b> and the interface identifier IID_IPropertyStore. The retrieved pointer is an <b>IPropertyStore</b> pointer. To get the value of a network statistic, construct a <b>PROPERTYKEY</b> with <b>fmtid</b> equal to <b>MFNETSOURCE_STATISTICS</b> and <b>pid</b> equal to a value from this enumeration. Then call <b>IPropertyStore::GetValue</b> with the property key to retrieve the value of the statistic as a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>. 
+To retrieve statistics from the network source, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier <b>MFNETSOURCE_STATISTICS_SERVICE</b> and the interface identifier IID_IPropertyStore. The retrieved pointer is an <b>IPropertyStore</b> pointer. To get the value of a network statistic, construct a <b>PROPERTYKEY</b> with <b>fmtid</b> equal to <b>MFNETSOURCE_STATISTICS</b> and <b>pid</b> equal to a value from this enumeration. Then call <b>IPropertyStore::GetValue</b> with the property key to retrieve the value of the statistic as a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>. 
 
-In the descriptions that follow, the data type and value-type tag for the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> are listed in parentheses.
+In the descriptions that follow, the data type and value-type tag for the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> are listed in parentheses.
 
 
 ## -enum-fields

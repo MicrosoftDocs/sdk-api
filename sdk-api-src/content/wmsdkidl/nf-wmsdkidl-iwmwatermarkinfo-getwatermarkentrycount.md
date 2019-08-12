@@ -67,7 +67,7 @@ The <b>GetWatermarkEntryCount</b> method retrieves the total number of installed
 
 ### -param wmetType [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-tagwmt_watermark_entry_type">WMT_WATERMARK_ENTRY_TYPE</a> enumeration type specifying the type of watermarking system..
+A value from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_watermark_entry_type">WMT_WATERMARK_ENTRY_TYPE</a> enumeration type specifying the type of watermarking system..
 
 
 ### -param pdwCount [out]

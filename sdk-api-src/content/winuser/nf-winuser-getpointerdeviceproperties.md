@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets  device properties that aren't included in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_device_info">POINTER_DEVICE_INFO</a> structure. 
+Gets  device properties that aren't included in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_device_info">POINTER_DEVICE_INFO</a> structure. 
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Gets  device properties that aren't included in the <a href="https://docs.micros
 
 The pointer device to query properties from. 
 
-A call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerdevices">GetPointerDevices</a> function returns this handle in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_device_info">POINTER_DEVICE_INFO</a> structure.
+A call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerdevices">GetPointerDevices</a> function returns this handle in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_device_info">POINTER_DEVICE_INFO</a> structure.
 
 
 ### -param propertyCount [in, out]

@@ -68,7 +68,7 @@ The name of the metadata item.
 
 ### -param pvarValue [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
 The metadata to set.
 
@@ -126,7 +126,7 @@ If the value set is a nested metadata block then use variant type <code>VT_UNKNO
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>
 
 
 

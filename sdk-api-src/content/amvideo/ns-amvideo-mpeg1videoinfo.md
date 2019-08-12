@@ -65,7 +65,7 @@ The <b>MPEG1VIDEOINFO</b> structure describes an MPEG-1 video stream.
 ### -field hdr
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader">VIDEOINFOHEADER</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure.
 
 
 ### -field dwStartTimeCode

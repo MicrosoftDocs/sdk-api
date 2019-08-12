@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>MetafileHeader::GetWmfHeader</b> method gets a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagmetaheader">METAHEADER</a> structure that contains properties of the associated metafile.
+The <b>MetafileHeader::GetWmfHeader</b> method gets a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-metaheader">METAHEADER</a> structure that contains properties of the associated metafile.
 
 
 ## -parameters
@@ -66,10 +66,10 @@ The <b>MetafileHeader::GetWmfHeader</b> method gets a <a href="https://docs.micr
 
 
 
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagmetaheader">METAHEADER</a>*</b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-metaheader">METAHEADER</a>*</b>
 </strong>
 
-If the associated metafile is in the WMF format, this method returns a pointer to a structure that contains properties of the associated metafile. If the associated metafile is in the EMF or EMF+ format, this method returns <b>NULL</b>. The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagmetaheader">METAHEADER</a> structure is defined in Wingdi.h.
+If the associated metafile is in the WMF format, this method returns a pointer to a structure that contains properties of the associated metafile. If the associated metafile is in the EMF or EMF+ format, this method returns <b>NULL</b>. The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-metaheader">METAHEADER</a> structure is defined in Wingdi.h.
 
 
 
@@ -87,7 +87,7 @@ If the associated metafile is in the WMF format, this method returns a pointer t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagmetaheader">METAHEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-metaheader">METAHEADER</a>
 
 
 

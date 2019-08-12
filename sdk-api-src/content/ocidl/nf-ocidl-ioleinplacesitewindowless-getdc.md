@@ -66,7 +66,7 @@ A pointer to the rectangle that the object wants to redraw, in client coordinate
 
 ### -param grfFlags [in]
 
-A combination of values from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagoledcflags">OLEDCFLAGS</a> enumeration.
+A combination of values from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-oledcflags">OLEDCFLAGS</a> enumeration.
 
 
 ### -param phDC [out]
@@ -122,7 +122,7 @@ On-screen, One Pass Drawing
 <ol>
 <li>In the <b>IOleInPlaceSiteWindowless::GetDC</b> method, the container should:<ul>
 <li>Get the window device context.</li>
-<li>If <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagoledcflags">OLEDC</a>_PAINTBKGND is set, draw the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagdvaspect">DVASPECT</a>_CONTENT aspect of every object behind the object requesting the device context.</li>
+<li>If <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-oledcflags">OLEDC</a>_PAINTBKGND is set, draw the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>_CONTENT aspect of every object behind the object requesting the device context.</li>
 <li>Return the device context.</li>
 </ul>
 </li>
@@ -192,7 +192,7 @@ When this method returns, the clipping region in the device context should be se
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagoledcflags">OLEDCFLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-oledcflags">OLEDCFLAGS</a>
  
 
  

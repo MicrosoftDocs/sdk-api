@@ -76,7 +76,7 @@ In Windows, a group of flags taken from the flag constants beginning with MF_ de
 
 ### -field grfAttribs
 
-Combination of the verb attributes in the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagoleverbattrib">OLEVERBATTRIB</a> enumeration.
+Combination of the verb attributes in the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-oleverbattrib">OLEVERBATTRIB</a> enumeration.
 
 
 

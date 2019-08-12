@@ -61,12 +61,12 @@ Contains information about the source of the input message.
 
 ### -field deviceType
 
-The device type (<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-taginput_message_device_type">INPUT_MESSAGE_DEVICE_TYPE</a>) of the source of the input message.
+The device type (<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-input_message_device_type">INPUT_MESSAGE_DEVICE_TYPE</a>) of the source of the input message.
 
 
 ### -field originId
 
-The ID (<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-taginput_message_origin_id">INPUT_MESSAGE_ORIGIN_ID</a>) of the source of the input message.
+The ID (<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-input_message_origin_id">INPUT_MESSAGE_ORIGIN_ID</a>) of the source of the input message.
 
 
 ## -see-also

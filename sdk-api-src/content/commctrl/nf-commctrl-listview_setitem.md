@@ -70,7 +70,7 @@ A handle to the list-view control.
 
 Type: <b>const LPLVITEM</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvitema">LVITEM</a> structure that contains the new item attributes. The <b>iItem</b> and 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure that contains the new item attributes. The <b>iItem</b> and 
 <b>iSubItem</b> members identify the item or subitem, and the 
 					<b>mask</b> member specifies which attributes to set. If the <b>mask</b> member specifies the LVIF_TEXT value, the <b>pszText</b> member is the address of a null-terminated string and the <b>cchTextMax</b> member is ignored. If the <b>mask</b> member specifies the LVIF_STATE value, the <b>stateMask</b> member specifies which item states to change, and the <b>state</b> member contains the values for those states.
 
@@ -80,7 +80,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl
 
 
 To set the attributes of a list-view item, set the 
-				<b>iItem</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvitema">LVITEM</a> structure to the index of the item, and set the 
+				<b>iItem</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure to the index of the item, and set the 
 <b>iSubItem</b> member to zero. For an item, you can use the 
 <b>state</b>, <b>pszText</b>, 
 <b>iImage</b>, and <b>lParam</b> members of the <b>LVITEM</b> structure to modify these item parameters. 

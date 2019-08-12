@@ -371,7 +371,7 @@ A handle to the window that owns the shortcut menu. This window receives all mes
 
 Type: <b>LPTPMPARAMS</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtpmparams">TPMPARAMS</a> structure that specifies an area of the screen the menu should not overlap. This parameter can be <b>NULL</b>. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tpmparams">TPMPARAMS</a> structure that specifies an area of the screen the menu should not overlap. This parameter can be <b>NULL</b>. 
 
 
 ## -returns
@@ -423,7 +423,7 @@ To display a context menu for a notification icon, the current window must be th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtpmparams">TPMPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tpmparams">TPMPARAMS</a>
 
 
 

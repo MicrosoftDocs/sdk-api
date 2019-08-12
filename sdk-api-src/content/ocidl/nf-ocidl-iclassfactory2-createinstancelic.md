@@ -172,7 +172,7 @@ The key provided in <i>bstrKey</i> is not a valid license key.
 
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-If the class factory does not provide a license key (that is, <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-requestlickey">IClassFactory2::RequestLicKey</a> returns E_NOTIMPL and the <b>fRuntimeKeyAvail</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-taglicinfo">LICINFO</a> is set to <b>FALSE</b> in <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-getlicinfo">IClassFactory2::GetLicInfo</a>), then this method can also return E_NOTIMPL. In such cases, the class factory is implementing <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iclassfactory2">IClassFactory2</a> simply to specify whether the machine is licensed at all through the <b>fLicVerified</b> member of <b>LICINFO</b>.
+If the class factory does not provide a license key (that is, <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-requestlickey">IClassFactory2::RequestLicKey</a> returns E_NOTIMPL and the <b>fRuntimeKeyAvail</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-licinfo">LICINFO</a> is set to <b>FALSE</b> in <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-getlicinfo">IClassFactory2::GetLicInfo</a>), then this method can also return E_NOTIMPL. In such cases, the class factory is implementing <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iclassfactory2">IClassFactory2</a> simply to specify whether the machine is licensed at all through the <b>fLicVerified</b> member of <b>LICINFO</b>.
 
 
 
@@ -186,7 +186,7 @@ If the class factory does not provide a license key (that is, <a href="https://d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-taglicinfo">LICINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-licinfo">LICINFO</a>
  
 
  

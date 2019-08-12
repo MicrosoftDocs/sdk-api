@@ -81,7 +81,7 @@ A pointer to the interface to be marshaled. This interface must be derived from 
 
 ### -param dwDestContext [in]
 
-The destination context where the specified interface is to be unmarshaled. Values for <i>dwDestContext</i> come from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagmshctx">MSHCTX</a>.
+The destination context where the specified interface is to be unmarshaled. Values for <i>dwDestContext</i> come from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshctx">MSHCTX</a>.
 
 
 ### -param pvDestContext [in, optional]
@@ -91,7 +91,7 @@ This parameter is reserved and must be <b>NULL</b>.
 
 ### -param mshlflags [in]
 
-Indicates whether the data to be marshaled is to be transmitted back to the client processthe normal case or written to a global table, where it can be retrieved by multiple clients. Values come from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagmshlflags">MSHLFLAGS</a>.
+Indicates whether the data to be marshaled is to be transmitted back to the client processthe normal case or written to a global table, where it can be retrieved by multiple clients. Values come from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHLFLAGS</a>.
 
 
 ## -returns

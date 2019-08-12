@@ -139,7 +139,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/nf
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-getwmfheader">MetafileHeader::GetWmfHeader</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-getwmfheader">MetafileHeader::GetWmfHeader</a> method gets a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagmetaheader">METAHEADER</a> structure that contains properties of the associated metafile.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-getwmfheader">MetafileHeader::GetWmfHeader</a> method gets a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-metaheader">METAHEADER</a> structure that contains properties of the associated metafile.
 
 </td>
 </tr>

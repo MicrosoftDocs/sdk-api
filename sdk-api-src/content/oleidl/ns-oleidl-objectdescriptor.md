@@ -71,7 +71,7 @@ The CLSID of the object being transferred. The clsid is used to obtain the icon 
 
 ### -field dwDrawAspect
 
-The display aspect of the object. Typically, this value is DVASPECT_CONTENT or DVASPECT_ICON. If the source application did not draw the object originally, the <b>dwDrawAspect</b> field contains a zero value (which is not the same as DVASPECT_CONTENT). For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagdvaspect">DVASPECT</a>.
+The display aspect of the object. Typically, this value is DVASPECT_CONTENT or DVASPECT_ICON. If the source application did not draw the object originally, the <b>dwDrawAspect</b> field contains a zero value (which is not the same as DVASPECT_CONTENT). For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>.
 
 
 ### -field sizel
@@ -86,7 +86,7 @@ The offset in <b>HIMETRIC</b> units from the upper-left corner of the object whe
 
 ### -field dwStatus
 
-The copy of the status flags for the object. These flags are defined by the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolemisc">OLEMISC</a> enumeration. If an embedded object is being transferred, they are returned by calling the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmiscstatus">IOleObject::GetMiscStatus</a> method.
+The copy of the status flags for the object. These flags are defined by the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olemisc">OLEMISC</a> enumeration. If an embedded object is being transferred, they are returned by calling the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmiscstatus">IOleObject::GetMiscStatus</a> method.
 
 
 ### -field dwFullUserTypeName
@@ -104,7 +104,7 @@ The offset, in bytes, from the beginning of the data structure to the null-termi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a>
 
 
 

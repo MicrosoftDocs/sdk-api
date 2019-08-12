@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 Contains the window class attributes that are registered by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> function. 
 
-This structure has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassexa">WNDCLASSEX</a> structure used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. You can still use <b>WNDCLASS</b> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> if you do not need to set the small icon associated with the window class.
+This structure has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. You can still use <b>WNDCLASS</b> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> if you do not need to set the small icon associated with the window class.
 
 
 ## -struct-fields
@@ -146,7 +146,7 @@ The system automatically deletes class background brushes when the class is unre
 
 When this member is <b>NULL</b>, an application must paint its own background whenever it is requested to paint in its client area. To determine whether the background must be painted, an application can either process the 
 						<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-erasebkgnd">WM_ERASEBKGND</a> message or test the 
-						<b>fErase</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpaintstruct">PAINTSTRUCT</a> structure filled by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function. 
+						<b>fErase</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a> structure filled by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function. 
 
 
 ### -field lpszMenuName
@@ -202,7 +202,7 @@ The maximum length for <b>lpszClassName</b> is 256. If <b>lpszClassName</b> is g
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpaintstruct">PAINTSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a>
 
 
 
@@ -222,7 +222,7 @@ The maximum length for <b>lpszClassName</b> is 256. If <b>lpszClassName</b> is g
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassexa">WNDCLASSEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a>
 
 
 

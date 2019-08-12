@@ -66,7 +66,7 @@ The CLSID that identifies the class whose class object is to be retrieved.
 
 ### -param dwClassContext [in]
 
-The context in which the class is expected to run. For a list of values, see the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX</a> enumeration.
+The context in which the class is expected to run. For a list of values, see the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a> enumeration.
 
 
 ### -param locale [in]

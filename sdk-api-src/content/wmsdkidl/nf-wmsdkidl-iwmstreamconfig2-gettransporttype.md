@@ -67,7 +67,7 @@ The <b>GetTransportType</b> method retrieves the type of data communication prot
 
 ### -param pnTransportType [out]
 
-Pointer to a variable that receives one member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-tagwmt_transport_type">WMT_TRANSPORT_TYPE</a> enumeration type.
+Pointer to a variable that receives one member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_transport_type">WMT_TRANSPORT_TYPE</a> enumeration type.
 
 
 ## -returns

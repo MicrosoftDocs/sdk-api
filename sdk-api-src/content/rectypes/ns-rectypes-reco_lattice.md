@@ -69,12 +69,12 @@ The number of columns in the lattice.
 
 ### -field pLatticeColumns
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_column">RECO_LATTICE_COLUMN</a> structures contained by the lattice.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-reco_lattice_column">RECO_LATTICE_COLUMN</a> structures contained by the lattice.
 
 
 ### -field ulPropertyCount
 
-The number of properties assigned to the lattice. For details about properties, see the <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_properties">RECO_LATTICE_PROPERTIES</a> structure.
+The number of properties assigned to the lattice. For details about properties, see the <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-reco_lattice_properties">RECO_LATTICE_PROPERTIES</a> structure.
 
 
 ### -field pGuidProperties
@@ -115,11 +115,11 @@ The <i>ulBestResultColumnCount</i>, <i>pulBestResultColumns</i>, and <i>pulBestR
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_column">RECO_LATTICE_COLUMN Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-reco_lattice_column">RECO_LATTICE_COLUMN Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_properties">RECO_LATTICE_PROPERTIES Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-reco_lattice_properties">RECO_LATTICE_PROPERTIES Structure</a>
 
 
 

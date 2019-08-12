@@ -79,7 +79,7 @@ The index of the icon in the application-switching window. If the <i>pszItemText
 
 Type: <b>PALTTABINFO</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagalttabinfo">ALTTABINFO</a> structure to receive the status information. Note that you must set the <b>csSize</b> member to <code>sizeof(ALTTABINFO)</code> before calling this function. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-alttabinfo">ALTTABINFO</a> structure to receive the status information. Note that you must set the <b>csSize</b> member to <code>sizeof(ALTTABINFO)</code> before calling this function. 
 
 
 ### -param pszItemText [out, optional]
@@ -124,7 +124,7 @@ The application-switching window enables you to switch to the most recently used
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagalttabinfo">ALTTABINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-alttabinfo">ALTTABINFO</a>
 
 
 

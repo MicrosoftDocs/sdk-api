@@ -63,7 +63,7 @@ Fills a caller-allocated structure with information about the font.
 
 Pointer to the caller-allocated structure that receives the font information. The 
    <b>TEXTMETRICOLE</b> structure is defined as a 
-   <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagtextmetrica">TEXTMETRICW</a> structure.
+   <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-textmetrica">TEXTMETRICW</a> structure.
 
 
 ## -returns

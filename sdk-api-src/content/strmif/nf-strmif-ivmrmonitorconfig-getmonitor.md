@@ -65,7 +65,7 @@ The <code>GetMonitor</code> method retrieves the monitor that this instance of t
 
 ### -param pGUID [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagvmrguid">VMRGUID</a> structure allocated by the caller. The method fills this structure with a GUID that identifies the monitor.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrguid">VMRGUID</a> structure allocated by the caller. The method fills this structure with a GUID that identifies the monitor.
 
 
 ## -returns

@@ -82,7 +82,7 @@ A code page bitfield that indicates all the code pages in which the locale can b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagfontsignature">FONTSIGNATURE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a>
 
 
 

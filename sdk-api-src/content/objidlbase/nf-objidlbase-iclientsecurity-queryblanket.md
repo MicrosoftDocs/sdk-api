@@ -98,7 +98,7 @@ The format of the structure that the returned handle refers to depends on the au
 
 ### -param pCapabilites [out]
 
-The capabilities of the proxy. These flags are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tageole_authentication_capabilities">EOLE_AUTHENTICATION_CAPABILITIES</a> enumeration. If this parameter is <b>NULL</b>, the current capability flags are not retrieved.
+The capabilities of the proxy. These flags are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-eole_authentication_capabilities">EOLE_AUTHENTICATION_CAPABILITIES</a> enumeration. If this parameter is <b>NULL</b>, the current capability flags are not retrieved.
 
 
 ## -returns

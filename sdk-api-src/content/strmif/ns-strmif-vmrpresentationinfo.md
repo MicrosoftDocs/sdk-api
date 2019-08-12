@@ -105,12 +105,12 @@ The destination rectangle.
 
 ### -field dwTypeSpecificFlags
 
-Bitwise combination of flags, as defined for the <b>dwTypeSpecificFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagam_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure.
+Bitwise combination of flags, as defined for the <b>dwTypeSpecificFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure.
 
 
 ### -field dwInterlaceFlags
 
-Bitwise combination of flags, as defined for the <b>dwInterlaceFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-tagvideoinfoheader2">VIDEOINFOHEADER2</a> structure.
+Bitwise combination of flags, as defined for the <b>dwInterlaceFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> structure.
 
 
 ## -see-also
@@ -122,7 +122,7 @@ Bitwise combination of flags, as defined for the <b>dwInterlaceFlags</b> member 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-tagvideoinfoheader2">VIDEOINFOHEADER2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a>
  
 
  

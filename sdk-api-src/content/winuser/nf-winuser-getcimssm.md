@@ -63,7 +63,7 @@ Retrieves the source of the input message (GetCurrentInputMessageSourceInSendMes
 
 ### -param inputMessageSource [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taginput_message_source">INPUT_MESSAGE_SOURCE</a> structure that holds the device type and the ID of the input message source.
+The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-input_message_source">INPUT_MESSAGE_SOURCE</a> structure that holds the device type and the ID of the input message source.
 
 
 ## -returns
@@ -75,7 +75,7 @@ If this function succeeds, it returns TRUE. Otherwise, it returns ERROR_INVALID_
 This function fails when:<ul>
 <li>The input parameter is invalid.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcurrentinputmessagesource">GetCurrentInputMessageSource</a> returns a value other than <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-taginput_message_device_type">IMDT_UNAVAILABLE</a> for the device type.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcurrentinputmessagesource">GetCurrentInputMessageSource</a> returns a value other than <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-input_message_device_type">IMDT_UNAVAILABLE</a> for the device type.</li>
 </ul>
 
 
@@ -86,7 +86,7 @@ This function fails when:<ul>
 
 
 
-<b>GetCIMSSM</b> should be used only when <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcurrentinputmessagesource">GetCurrentInputMessageSource</a> returns a device type of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-taginput_message_device_type">IMDT_UNAVAILABLE</a>.
+<b>GetCIMSSM</b> should be used only when <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcurrentinputmessagesource">GetCurrentInputMessageSource</a> returns a device type of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-input_message_device_type">IMDT_UNAVAILABLE</a>.
 
 
 

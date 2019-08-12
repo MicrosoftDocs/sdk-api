@@ -88,7 +88,7 @@ The class name. The name must be that of a preregistered class or a class regist
 
 Type: <b>LPWNDCLASSEX</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassexa">WNDCLASSEX</a> structure that receives the information about the class. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure that receives the information about the class. 
 
 
 ## -returns

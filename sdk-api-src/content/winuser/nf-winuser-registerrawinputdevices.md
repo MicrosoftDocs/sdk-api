@@ -68,21 +68,21 @@ Registers the devices that supply the raw input data.
 
 Type: <b>PCRAWINPUTDEVICE</b>
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputdevice">RAWINPUTDEVICE</a> structures that represent the devices that supply the raw input.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputdevice">RAWINPUTDEVICE</a> structures that represent the devices that supply the raw input.
 
 
 ### -param uiNumDevices [in]
 
 Type: <b>UINT</b>
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputdevice">RAWINPUTDEVICE</a> structures pointed to by <i>pRawInputDevices</i>.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputdevice">RAWINPUTDEVICE</a> structures pointed to by <i>pRawInputDevices</i>.
 
 
 ### -param cbSize [in]
 
 Type: <b>UINT</b>
 
-The size, in bytes, of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputdevice">RAWINPUTDEVICE</a> structure.
+The size, in bytes, of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputdevice">RAWINPUTDEVICE</a> structure.
 
 
 ## -returns
@@ -102,9 +102,9 @@ Type: <b>BOOL</b>
 
 To receive <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input">WM_INPUT</a> messages, an application must first register the raw input devices using <b>RegisterRawInputDevices</b>. By default, an application does not receive raw input.
 
-To receive <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input-device-change">WM_INPUT_DEVICE_CHANGE</a> messages, an application must specify the  RIDEV_DEVNOTIFY flag for each device class that is specified by the usUsagePage and usUsage fields of the  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputdevice">RAWINPUTDEVICE</a> structure  .  By default, an application does not receive  <b>WM_INPUT_DEVICE_CHANGE</b> notifications for raw input device arrival and removal.
+To receive <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input-device-change">WM_INPUT_DEVICE_CHANGE</a> messages, an application must specify the  RIDEV_DEVNOTIFY flag for each device class that is specified by the usUsagePage and usUsage fields of the  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputdevice">RAWINPUTDEVICE</a> structure  .  By default, an application does not receive  <b>WM_INPUT_DEVICE_CHANGE</b> notifications for raw input device arrival and removal.
 
-If a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputdevice">RAWINPUTDEVICE</a> structure has the RIDEV_REMOVE flag set and the hwndTarget parameter is not set to NULL, then parameter validation will fail.
+If a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputdevice">RAWINPUTDEVICE</a> structure has the RIDEV_REMOVE flag set and the hwndTarget parameter is not set to NULL, then parameter validation will fail.
             
 
 
@@ -119,7 +119,7 @@ If a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputdevice">RAWINPUTDEVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputdevice">RAWINPUTDEVICE</a>
 
 
 

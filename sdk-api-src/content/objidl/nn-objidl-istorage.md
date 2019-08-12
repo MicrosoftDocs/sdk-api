@@ -65,7 +65,7 @@ There are a number of different modes in which a storage object and its elements
 <b>IStorage</b> interface provides methods for committing changes and reverting to the last-committed version. For example, a stream can be opened in read-only mode or read/write mode. For more information, see <b>STGM Constants</b>.
 
 Other methods provide access to information about a storage object and its elements through the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure.
 
 
 ## -inheritance
@@ -215,7 +215,7 @@ Stores up to 32 bits of state information in this storage object.
 </td>
 <td align="left" width="63%">
 Returns the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure for this open storage object.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure for this open storage object.
 
 </td>
 </tr>

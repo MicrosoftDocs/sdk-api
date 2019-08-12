@@ -76,7 +76,7 @@ The application ID of the COM+ application. The special value {84ac4168-6fe5-430
 
 ### -field Type
 
-The type of COM+ application. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcomplus_apptype">COMPLUS_APPTYPE</a>.
+The type of COM+ application. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-complus_apptype">COMPLUS_APPTYPE</a>.
 
 
 ### -field ApplicationName

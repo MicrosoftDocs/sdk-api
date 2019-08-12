@@ -63,7 +63,7 @@ Posts messages when the mouse pointer leaves a window or hovers over a window fo
 
 Type: <b>LPTRACKMOUSEEVENT</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtrackmouseevent">TRACKMOUSEEVENT</a> structure that contains tracking information. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-trackmouseevent">TRACKMOUSEEVENT</a> structure that contains tracking information. 
 
 
 ## -returns
@@ -104,7 +104,7 @@ If the function fails, return value is zero.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtrackmouseevent">TRACKMOUSEEVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-trackmouseevent">TRACKMOUSEEVENT</a>
 
 
 

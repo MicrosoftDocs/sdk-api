@@ -61,7 +61,7 @@ Not implemented.
 
 ### -param pMsg [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>*</b>
 
 Specifies a pointer to the MSG structure describing the keystroke to be processed.
 

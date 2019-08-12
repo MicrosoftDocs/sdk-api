@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 The <b>TuningSpacesForCLSID</b> method retrieves a collection of tuning spaces that match the specified CLSID.
 
-This method is intended for Automation clients, because it returns the CLSID as a <b>BSTR</b>. C++ applications can use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-_tuningspacesforclsid">ITuningSpaceContainer::_TuningSpacesForCLSID</a> method instead, which returns a GUID value.
+This method is intended for Automation clients, because it returns the CLSID as a <b>BSTR</b>. C++ applications can use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-tuningspacesforclsid">ITuningSpaceContainer::_TuningSpacesForCLSID</a> method instead, which returns a GUID value.
 
 
 

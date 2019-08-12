@@ -107,7 +107,7 @@ The return value is <b>TRUE</b> if the driver is able to fill the path. If the p
 
 
 
-GDI can call <b>DrvFillPath</b> to fill a path on a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device-managed surface</a>. When deciding whether to call this function, GDI compares the fill requirements with the following flags in the <b>flGraphicsCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a> structure: GCAPS_BEZIERS, GCAPS_ALTERNATEFILL, and GCAPS_WINDINGFILL.
+GDI can call <b>DrvFillPath</b> to fill a path on a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device-managed surface</a>. When deciding whether to call this function, GDI compares the fill requirements with the following flags in the <b>flGraphicsCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure: GCAPS_BEZIERS, GCAPS_ALTERNATEFILL, and GCAPS_WINDINGFILL.
 
 The mix mode defines how the incoming pattern should be mixed with the data that is already on the device surface. The MIX data type consists of two binary raster operation (ROP2) values packed into a single ULONG. The lowest-order byte defines the foreground raster operation; the next byte defines the background raster operation. For more information about raster operation codes, see the Microsoft Windows SDK documentation. 
 
@@ -127,7 +127,7 @@ The mix mode defines how the incoming pattern should be mixed with the data that
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a>
 
 
 

@@ -77,5 +77,5 @@ The index of the item after which to begin the search, or -1 to start from the b
 
 Type: <b>const LPLVFINDINFO</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvfindinfoa">LVFINDINFO</a> structure that contains information about what to search for. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvfindinfoa">LVFINDINFO</a> structure that contains information about what to search for. 
 

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates the type of storage medium being used in a data transfer. They are used in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structures.
+Indicates the type of storage medium being used in a data transfer. They are used in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structures.
 
 
 ## -enum-fields
@@ -114,7 +114,7 @@ During data transfer operations, a storage medium is specified. This medium must
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a>
 
 
 

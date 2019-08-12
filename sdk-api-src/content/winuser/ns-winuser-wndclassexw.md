@@ -56,7 +56,7 @@ ms.custom: 19H1
 Contains window class information. It is used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassinfoexa">GetClassInfoEx</a> 
 			functions. 
 
-The <b>WNDCLASSEX</b> structure is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassa">WNDCLASS</a> structure. There are two differences. <b>WNDCLASSEX</b> includes the <b>cbSize</b> member, which specifies the size of the structure, and the <b>hIconSm</b> member, which contains a handle to a small icon associated with the window class.
+The <b>WNDCLASSEX</b> structure is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a> structure. There are two differences. <b>WNDCLASSEX</b> includes the <b>cbSize</b> member, which specifies the size of the structure, and the <b>hIconSm</b> member, which contains a handle to a small icon associated with the window class.
 
 
 ## -struct-fields
@@ -153,7 +153,7 @@ The system automatically deletes class background brushes when the class is unre
 
 When this member is <b>NULL</b>, an application must paint its own background whenever it is requested to paint in its client area. To determine whether the background must be painted, an application can either process the 
 						<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-erasebkgnd">WM_ERASEBKGND</a> message or test the 
-						<b>fErase</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpaintstruct">PAINTSTRUCT</a> structure filled by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function. 
+						<b>fErase</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a> structure filled by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function. 
 
 
 ### -field lpszMenuName

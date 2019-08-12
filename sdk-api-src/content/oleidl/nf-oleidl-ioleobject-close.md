@@ -61,7 +61,7 @@ Changes an embedded object from the running to the loaded state. Disconnects a l
 
 ### -param dwSaveOption [in]
 
-Indicates whether the object is to be saved as part of the transition to the loaded state. Valid values are taken from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagoleclose">OLECLOSE</a>.
+Indicates whether the object is to be saved as part of the transition to the loaded state. Valid values are taken from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-oleclose">OLECLOSE</a>.
 
 <div class="alert"><b>Note</b>  The OLE 2 user model recommends that object applications do not prompt users before saving linked or embedded objects, including those activated in place. This policy represents a change from the OLE 1 user model, in which object applications always prompt the user to decide whether to save changes.</div>
 <div> </div>
@@ -106,7 +106,7 @@ Upon receiving a call to <b>IOleObject::Close</b>, a running object should do th
 
 <ul>
 <li>If the object has been changed since it was last opened for editing, it should request to be saved, or not, according to instructions specified in <i>dwSaveOption</i>. If the option is to save the object, then it should call its container's <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-saveobject">IOleClientSite::SaveObject</a> interface.</li>
-<li>If the object has <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> connections with <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagadvf">ADVF</a>_DATAONSTOP flags, then it should send an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-ondatachange">IAdviseSink::OnDataChange</a> notification. See <b>IDataObject::DAdvise</b> for details.</li>
+<li>If the object has <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> connections with <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-advf">ADVF</a>_DATAONSTOP flags, then it should send an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-ondatachange">IAdviseSink::OnDataChange</a> notification. See <b>IDataObject::DAdvise</b> for details.</li>
 <li>If the object currently owns the Clipboard, it should empty it by calling <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleflushclipboard">OleFlushClipboard</a>.</li>
 <li>If the object is currently visible, notify its container by calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-onshowwindow">IOleClientSite::OnShowWindow</a> with the <i>fshow</i> argument set to <b>FALSE</b>.</li>
 <li>Send <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onclose">IAdviseSink::OnClose</a> notifications to appropriate advise sinks.</li>
@@ -152,7 +152,7 @@ Calling <b>IOleObject::Close</b> on a linked object disconnects it from, but doe
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagoleclose">OLECLOSE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-oleclose">OLECLOSE</a>
 
 
 

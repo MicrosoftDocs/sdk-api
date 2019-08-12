@@ -107,7 +107,7 @@ This method can return one of these values.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-taglocktype">LOCKTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a>
  
 
  

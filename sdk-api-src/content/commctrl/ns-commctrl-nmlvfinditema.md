@@ -78,8 +78,8 @@ Index of the item at which the search will start.
 
 ### -field lvfi
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvfindinfoa">LVFINDINFO</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvfindinfoa">LVFINDINFO</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvfindinfoa">LVFINDINFO</a> structure that contains information necessary to perform a search. 
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvfindinfoa">LVFINDINFO</a> structure that contains information necessary to perform a search. 
 

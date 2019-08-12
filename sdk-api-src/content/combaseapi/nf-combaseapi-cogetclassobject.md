@@ -74,7 +74,7 @@ The CLSID associated with the data and code that you will use to create the obje
 
 ### -param dwClsContext [in]
 
-The context in which the executable code is to be run. To enable a remote activation, include CLSCTX_REMOTE_SERVER. For more information on the context values and their use, see the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX</a> enumeration.
+The context in which the executable code is to be run. To enable a remote activation, include CLSCTX_REMOTE_SERVER. For more information on the context values and their use, see the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a> enumeration.
 
 
 ### -param pvReserved [in, optional]
@@ -223,7 +223,7 @@ A call to <b>CoGetClassObject</b> creates, initializes, and gives the caller acc
 
 
 
-If the class context is CLSCTX_REMOTE_SERVER, indicating remote activation is required, the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-coserverinfo">COSERVERINFO</a> structure provided in the <i>pServerInfo</i> parameter allows you to specify the computer on which the server is located. For information on the algorithm used to locate a remote server when <i>pServerInfo</i> is <b>NULL</b>, refer to the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX</a> enumeration.
+If the class context is CLSCTX_REMOTE_SERVER, indicating remote activation is required, the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-coserverinfo">COSERVERINFO</a> structure provided in the <i>pServerInfo</i> parameter allows you to specify the computer on which the server is located. For information on the algorithm used to locate a remote server when <i>pServerInfo</i> is <b>NULL</b>, refer to the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a> enumeration.
 
 
 
@@ -245,7 +245,7 @@ In rare cases, however, you may want to specify some other interface that define
 
 
 
-The <i>dwClsContext</i> parameter specifies the execution context, allowing one CLSID to be associated with different pieces of code in different execution contexts. The <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX</a> enumeration specifies the available context flags. <b>CoGetClassObject</b> consults (as appropriate for the context indicated) both the registry and the class objects that are currently registered by calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject">CoRegisterClassObject</a> function. 
+The <i>dwClsContext</i> parameter specifies the execution context, allowing one CLSID to be associated with different pieces of code in different execution contexts. The <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a> enumeration specifies the available context flags. <b>CoGetClassObject</b> consults (as appropriate for the context indicated) both the registry and the class objects that are currently registered by calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject">CoRegisterClassObject</a> function. 
 
 
 
@@ -260,7 +260,7 @@ To release a class object, use the class object's <a href="https://docs.microsof
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a>
 
 
 

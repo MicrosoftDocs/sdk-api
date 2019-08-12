@@ -127,7 +127,7 @@ The byte alignment for an instance of this type. A value of 0 indicates alignmen
 
 ### -field wTypeFlags
 
-The type flags. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ne-oaidl-tagtypeflags">TYPEFLAGS</a>.
+The type flags. See <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ne-oaidl-typeflags">TYPEFLAGS</a>.
 
 
 ### -field wMajorVerNum

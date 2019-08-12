@@ -184,7 +184,7 @@ The buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/wi
 
 ### -field TokenElevation
 
-The buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_elevation">TOKEN_ELEVATION</a> structure that specifies whether the token is elevated.
+The buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_elevation">TOKEN_ELEVATION</a> structure that specifies whether the token is elevated.
 
 
 ### -field TokenHasRestrictions

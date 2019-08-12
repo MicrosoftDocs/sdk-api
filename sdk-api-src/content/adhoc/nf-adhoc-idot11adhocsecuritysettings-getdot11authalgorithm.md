@@ -61,7 +61,7 @@ Gets the authentication algorithm associated with the security settings. The aut
 
 ### -param pAuth [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/ne-adhoc-tagdot11_adhoc_auth_algorithm">DOT11_ADHOC_AUTH_ALGORITHM</a> value that specifies the authentication algorithm.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/ne-adhoc-dot11_adhoc_auth_algorithm">DOT11_ADHOC_AUTH_ALGORITHM</a> value that specifies the authentication algorithm.
 
 
 ## -returns

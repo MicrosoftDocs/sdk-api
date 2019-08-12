@@ -63,7 +63,7 @@ The
 ### -param EnumHandle
 
 Pointer to the enumeration handle, in the form of an 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-tagrpc_error_enum_handle">RPC_ERROR_ENUM_HANDLE</a> structure. The structure must be allocated by the caller, and cannot be freed until the operation is complete. All members are ignored on input.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_error_enum_handle">RPC_ERROR_ENUM_HANDLE</a> structure. The structure must be allocated by the caller, and cannot be freed until the operation is complete. All members are ignored on input.
 
 
 ## -returns
@@ -107,15 +107,15 @@ Advancing the enumeration pointer on one enumeration has no effect on independen
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-tagrpc_ee_info_param">RPC_EE_INFO_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_ee_info_param">RPC_EE_INFO_PARAM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-tagrpc_error_enum_handle">RPC_ERROR_ENUM_HANDLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_error_enum_handle">RPC_ERROR_ENUM_HANDLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-tagrpc_extended_error_info">RPC_EXTENDED_ERROR_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_extended_error_info">RPC_EXTENDED_ERROR_INFO</a>
 
 
 

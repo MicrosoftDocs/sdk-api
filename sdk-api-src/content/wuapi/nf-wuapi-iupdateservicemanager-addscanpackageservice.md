@@ -74,7 +74,7 @@ The path of the Microsoft signed scan file that has to be registered as a servic
 
 Determines how to remove the service registration of the scan package. 
 
-For possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagupdateserviceoption">UpdateServiceOption</a>.
+For possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-updateserviceoption">UpdateServiceOption</a>.
 
 
 ### -param ppService [out]

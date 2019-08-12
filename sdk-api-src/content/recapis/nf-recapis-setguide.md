@@ -69,7 +69,7 @@ Handle to the recognizer context.
 
 ### -param pGuide
 
-Guide to use for box or line input. Setting this parameter to <b>NULL</b> means that the context has no guide. This is the default and means the recognizer is in free input mode. For guide details, see the <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_guide">RECO_GUIDE</a> structure.
+Guide to use for box or line input. Setting this parameter to <b>NULL</b> means that the context has no guide. This is the default and means the recognizer is in free input mode. For guide details, see the <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-reco_guide">RECO_GUIDE</a> structure.
 
 
 ### -param iIndex
@@ -178,7 +178,7 @@ Guide boxes are numbered based on the <i>iIntex</i> value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_guide">RECO_GUIDE Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-reco_guide">RECO_GUIDE Structure</a>
  
 
  

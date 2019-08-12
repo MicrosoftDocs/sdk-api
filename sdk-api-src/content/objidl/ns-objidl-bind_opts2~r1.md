@@ -51,7 +51,7 @@ The size of this structure, in bytes.
 
 ### -field grfFlags
 
-Flags that control aspects of moniker binding operations. This value is any combination of the bit flags in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagbind_flags">BIND_FLAGS</a> enumeration. The <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createbindctx">CreateBindCtx</a> function initializes this member to zero.
+Flags that control aspects of moniker binding operations. This value is any combination of the bit flags in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-bind_flags">BIND_FLAGS</a> enumeration. The <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createbindctx">CreateBindCtx</a> function initializes this member to zero.
 
 
 ### -field grfMode
@@ -79,7 +79,7 @@ COM's file moniker implementation uses the shell link mechanism to reestablish l
 
 ### -field dwClassContext
 
-The class context, taken from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX</a> enumeration, that is to be used for instantiating the object. Monikers typically pass this value to the <i>dwClsContext</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>.
+The class context, taken from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a> enumeration, that is to be used for instantiating the object. Monikers typically pass this value to the <i>dwClsContext</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>.
 
 
 ### -field locale

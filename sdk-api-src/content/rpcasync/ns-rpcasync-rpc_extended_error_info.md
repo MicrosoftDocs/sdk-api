@@ -127,7 +127,7 @@ Number of parameters in the <b>Parameters</b> member.
 ### -field Parameters
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-tagrpc_ee_info_param">RPC_EE_INFO_PARAM</a> structures containing the extended error information.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_ee_info_param">RPC_EE_INFO_PARAM</a> structures containing the extended error information.
 
 
 ## -remarks
@@ -152,11 +152,11 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-tagrpc_ee_info_param">RPC_EE_INFO_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_ee_info_param">RPC_EE_INFO_PARAM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-tagrpc_error_enum_handle">RPC_ERROR_ENUM_HANDLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_error_enum_handle">RPC_ERROR_ENUM_HANDLE</a>
 
 
 

@@ -66,7 +66,7 @@ Sets the video display mode the user prefers.
 
 ### -param ulPreferredDisplayMode [in]
 
-Value that specifies the new display mode for DVD content. Member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_preferred_display_mode">DVD_PREFERRED_DISPLAY_MODE</a> enumerated data type.
+Value that specifies the new display mode for DVD content. Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_preferred_display_mode">DVD_PREFERRED_DISPLAY_MODE</a> enumerated data type.
 
 
 ## -returns
@@ -84,7 +84,7 @@ Returns an <b>HRESULT</b> value .
 
 This method changes the default video window's aspect ratio, and can also specify a default aspect ratio conversion mechanism.
 
-This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, DVD_DOMAIN_Title, or DVD_DOMAIN_Stop. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_domain">DVD_DOMAIN</a>.
+This method returns an error unless the domain is DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, DVD_DOMAIN_Title, or DVD_DOMAIN_Stop. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 
 

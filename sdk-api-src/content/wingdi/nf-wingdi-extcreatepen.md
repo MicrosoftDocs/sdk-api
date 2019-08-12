@@ -283,7 +283,7 @@ The width of the pen. If the <i>dwPenStyle</i> parameter is PS_GEOMETRIC, the wi
 
 ### -param plbrush [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogbrush">LOGBRUSH</a> structure. If <i>dwPenStyle</i> is PS_COSMETIC, the <b>lbColor</b> member specifies the color of the pen and the <b>lpStyle</b> member must be set to BS_SOLID. If <i>dwPenStyle</i> is PS_GEOMETRIC, all members must be used to specify the brush attributes of the pen.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a> structure. If <i>dwPenStyle</i> is PS_COSMETIC, the <b>lbColor</b> member specifies the color of the pen and the <b>lpStyle</b> member must be set to BS_SOLID. If <i>dwPenStyle</i> is PS_GEOMETRIC, all members must be used to specify the brush attributes of the pen.
 
 
 ### -param cStyle [in]
@@ -329,7 +329,7 @@ If <i>dwPenStyle</i> is PS_GEOMETRIC and PS_USERSTYLE, the entries in the <i>lpS
 
 If <i>dwPenStyle</i> is PS_ALTERNATE, the style unit is ignored and every other pixel is set.
 
-If the <b>lbStyle</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogbrush">LOGBRUSH</a> structure pointed to by <i>lplb</i> is BS_PATTERN, the bitmap pointed to by the <b>lbHatch</b> member of that structure cannot be a DIB section. A DIB section is a bitmap created by <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>. If that bitmap is a DIB section, the <b>ExtCreatePen</b> function fails.
+If the <b>lbStyle</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a> structure pointed to by <i>lplb</i> is BS_PATTERN, the bitmap pointed to by the <b>lbHatch</b> member of that structure cannot be a DIB section. A DIB section is a bitmap created by <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>. If that bitmap is a DIB section, the <b>ExtCreatePen</b> function fails.
 
 When an application no longer requires a specified pen, it should call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete the pen.
 
@@ -369,7 +369,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/usin
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogbrush">LOGBRUSH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a>
 
 
 

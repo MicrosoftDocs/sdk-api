@@ -101,7 +101,7 @@ Value of type <b>int</b> that specifies the property to retrieve. For a list of 
 
 Type: <b>LOGFONTW*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure that receives the font property value.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure that receives the font property value.
 
 
 

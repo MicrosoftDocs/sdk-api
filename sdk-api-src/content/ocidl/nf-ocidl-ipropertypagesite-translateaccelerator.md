@@ -61,7 +61,7 @@ Passes a keystroke to the property frame for processing.
 
 ### -param pMsg [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure to be processed.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure to be processed.
 
 
 ## -returns

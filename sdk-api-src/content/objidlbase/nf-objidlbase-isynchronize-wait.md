@@ -61,7 +61,7 @@ Waits for the synchronization object to be signaled or for a specified timeout p
 
 ### -param dwFlags [in]
 
-The wait options. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-tagcowait_flags">COWAIT_FLAGS</a> enumeration. 
+The wait options. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-cowait_flags">COWAIT_FLAGS</a> enumeration. 
 
 
 ### -param dwMilliseconds [in]

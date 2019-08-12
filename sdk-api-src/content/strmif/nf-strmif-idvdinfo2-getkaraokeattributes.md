@@ -70,7 +70,7 @@ Specifies the index of the audio stream whose attributes you want to query. See 
 
 ### -param pAttributes [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_karaokeattributes">DVD_KaraokeAttributes</a> structure that is filled with the karaoke attributes.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_karaokeattributes">DVD_KaraokeAttributes</a> structure that is filled with the karaoke attributes.
 
 
 ## -returns

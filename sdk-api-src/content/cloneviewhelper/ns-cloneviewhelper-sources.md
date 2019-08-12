@@ -79,7 +79,7 @@ An array of identifiers for the video present targets in the VidPN topology.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-tagadapter">Adapter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-adapter">Adapter</a>
 
 
 

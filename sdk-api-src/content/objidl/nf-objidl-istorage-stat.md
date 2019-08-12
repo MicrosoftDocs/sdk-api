@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>Stat</b> method retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure for this open storage object.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure for this open storage object.
 
 
 ## -parameters
@@ -63,14 +63,14 @@ The <b>Stat</b> method retrieves the
 ### -param pstatstg [out]
 
 On return, pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure where this method places information about the open storage object. This parameter is <b>NULL</b> if an error occurs.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure where this method places information about the open storage object. This parameter is <b>NULL</b> if an error occurs.
 
 
 ### -param grfStatFlag [in]
 
 Specifies that some of the members in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure are not returned, thus saving a memory allocation operation. Values are taken from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagstatflag">STATFLAG</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure are not returned, thus saving a memory allocation operation. Values are taken from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-statflag">STATFLAG</a> enumeration.
 
 
 ## -returns
@@ -87,7 +87,7 @@ This method can return one of these values.
 
 
 <b>IStorage::Stat</b> retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure for the current storage object. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure for the current storage object. The 
 <b>STATSTG</b> structure contains statistical information about the storage object. <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-enumelements">IStorage::EnumElements</a> returns a pointer to an enumerator object. The enumerator object returned by this method implements the 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a> interface, through which the data stored in the array of the 
 <b>STATSTG</b> structures is enumerated.
@@ -120,11 +120,11 @@ This method can return one of these values.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagstatflag">STATFLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-statflag">STATFLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a>
  
 
  

@@ -129,7 +129,7 @@ Pointer to an array of justified advance widths (cell widths). The application c
 
 ### -param pGoffset [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-taggoffset">GOFFSET</a> structure containing the x and y offsets for the combining glyph.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-goffset">GOFFSET</a> structure containing the x and y offsets for the combining glyph.
 
 
 ## -returns
@@ -173,7 +173,7 @@ The application should not use <b>ScriptTextOut</b> to write to a metafile unles
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-taggoffset">GOFFSET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-goffset">GOFFSET</a>
 
 
 

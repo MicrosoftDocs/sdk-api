@@ -82,7 +82,7 @@ Receives the default tilt angle, in units of 1 arc second.
 
 ### -param pCapsFlag [out]
 
-Receives one or more flags. See <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagcameracontrolflags">CameraControlFlags</a>.
+Receives one or more flags. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>.
 
 
 ## -returns

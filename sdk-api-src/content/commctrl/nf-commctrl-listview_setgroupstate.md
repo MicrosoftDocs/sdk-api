@@ -70,14 +70,14 @@ A handle to the list-view control.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Specifies the group by <b>iGroupId</b> (see <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvgroup">LVGROUP</a> structure).
+Specifies the group by <b>iGroupId</b> (see <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a> structure).
 
 
 ### -param dwMask [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Specifies the state values to set or clear. This is a combination of the flags listed for the <b>state</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvgroup">LVGROUP</a>.
+Specifies the state values to set or clear. This is a combination of the flags listed for the <b>state</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a>.
 
 
 ### -param dwState [in]

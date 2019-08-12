@@ -120,7 +120,7 @@ For a caching connection, the constants are specified in the <a href="https://do
 
 
 
-These constants are also used in the <b>advf</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatdata">STATDATA</a> structure. This structure is used by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a> to describe the enumerated connections, and the <b>advf</b> member indicates the flags that were specified when the advisory or cache connection was established. When <b>STATDATA</b> is used for an<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumadvise"> IOleObject::EnumAdvise</a> enumerator, the <b>advf</b> member is indeterminate.
+These constants are also used in the <b>advf</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statdata">STATDATA</a> structure. This structure is used by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a> to describe the enumerated connections, and the <b>advf</b> member indicates the flags that were specified when the advisory or cache connection was established. When <b>STATDATA</b> is used for an<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumadvise"> IOleObject::EnumAdvise</a> enumerator, the <b>advf</b> member is indeterminate.
 
 
 

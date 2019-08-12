@@ -75,7 +75,7 @@ The maximum value for <i>count</i> is specified by the <i>maxCount</i> parameter
 
 ### -param contacts [in]
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_touch_info">POINTER_TOUCH_INFO</a> structures that represents all contacts on the desktop. The  screen coordinates of each contact must be within the bounds of the desktop.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_touch_info">POINTER_TOUCH_INFO</a> structures that represents all contacts on the desktop. The  screen coordinates of each contact must be within the bounds of the desktop.
 
 
 ## -returns
@@ -143,9 +143,9 @@ Listen for <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-displaycha
 
 Cancel individual contacts by setting POINTER_FLAG_CANCELED with POINTER_FLAG_UP or POINTER_FLAG_UPDATE. Cancelling touch injection without POINTER_FLAG_UP or POINTER_FLAG_UPDATE invalidates the injection.
 
-When POINTER_FLAG_UP is set, ptPixelLocation of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_info">POINTER_INFO</a> should be the same as the value of the previous touch injection frame with POINTER_FLAG_UPDATE. Otherwise, the injection fails with ERROR_INVALID_PARAMETER and all active injection contacts are cancelled. The system modifies the ptPixelLocation of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerup">WM_POINTERUP</a> event as it cancels the injection. 
+When POINTER_FLAG_UP is set, ptPixelLocation of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> should be the same as the value of the previous touch injection frame with POINTER_FLAG_UPDATE. Otherwise, the injection fails with ERROR_INVALID_PARAMETER and all active injection contacts are cancelled. The system modifies the ptPixelLocation of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerup">WM_POINTERUP</a> event as it cancels the injection. 
 
-The input timestamp can be specified in either the dwTime or PerformanceCount field of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_info">POINTER_INFO</a>. The value cannot be more recent than the current tick count or <a href="https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a> value of the injection thread. Once a frame is injected with a timestamp, all subsequent frames must include a timestamp until all contacts in the frame go to the UP state. The custom timestamp value must be provided for the first element in the contacts array. The timestamp values after the first element are ignored. The custom timestamp value must increment in every injection frame.
+The input timestamp can be specified in either the dwTime or PerformanceCount field of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a>. The value cannot be more recent than the current tick count or <a href="https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a> value of the injection thread. Once a frame is injected with a timestamp, all subsequent frames must include a timestamp until all contacts in the frame go to the UP state. The custom timestamp value must be provided for the first element in the contacts array. The timestamp values after the first element are ignored. The custom timestamp value must increment in every injection frame.
 
 
 

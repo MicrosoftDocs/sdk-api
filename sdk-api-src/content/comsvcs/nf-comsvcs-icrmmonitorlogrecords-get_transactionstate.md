@@ -61,7 +61,7 @@ Retrieves the current state of the transaction.
 
 ### -param pVal [out]
 
-The current transaction state, represented by an <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcrmtransactionstate">CrmTransactionState</a> enumeration value.
+The current transaction state, represented by an <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-crmtransactionstate">CrmTransactionState</a> enumeration value.
 
 
 ## -returns

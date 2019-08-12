@@ -79,7 +79,7 @@ LONG_PTR  (APIENTRY * PFN) ();
 
 
 
-A graphics driver must allocate an array of DRVFN structures, with an array element for each graphics DDI function implemented in the driver. The driver returns the array's address to GDI in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdrvenabledata">DRVENABLEDATA</a> structure whose pointer is passed to the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenabledriver">DrvEnableDriver</a> function during driver initialization.
+A graphics driver must allocate an array of DRVFN structures, with an array element for each graphics DDI function implemented in the driver. The driver returns the array's address to GDI in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-drvenabledata">DRVENABLEDATA</a> structure whose pointer is passed to the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenabledriver">DrvEnableDriver</a> function during driver initialization.
 
 Graphics DDI function addresses can be placed in the DRVFN array in any order.
 

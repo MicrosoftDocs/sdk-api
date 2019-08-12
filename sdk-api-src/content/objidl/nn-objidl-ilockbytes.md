@@ -112,7 +112,7 @@ Changes the size of the byte array.
 </td>
 <td align="left" width="63%">
 Retrieves a 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure for this byte array object.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure for this byte array object.
 
 </td>
 </tr>

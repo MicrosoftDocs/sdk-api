@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagoperationresultcode">OperationResultCode</a>enumeration that specifies the result of the download.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-operationresultcode">OperationResultCode</a>enumeration that specifies the result of the download.
 
 This property is read-only.
 

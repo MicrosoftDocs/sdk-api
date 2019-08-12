@@ -80,14 +80,14 @@ A pointer to a variable that specifies the count of structures in the buffer to 
        <b>GetPointerPenInfoHistory</b> succeeds, 
        <i>entriesCount</i> is updated with the total count of structures available. The total 
        count of structures available is the same as the <i>historyCount</i> field in the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_pen_info">POINTER_PEN_INFO</a> structure returned by a 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_pen_info">POINTER_PEN_INFO</a> structure returned by a 
        call to  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerpeninfo">GetPointerPenInfo</a>.
 
 
 ### -param penInfo [out, optional]
 
 Address of an array of 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_pen_info">POINTER_PEN_INFO</a> structures to receive 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_pen_info">POINTER_PEN_INFO</a> structures to receive 
        the pointer information. This parameter can be NULL if <i>*entriesCount</i> is zero.
 
 

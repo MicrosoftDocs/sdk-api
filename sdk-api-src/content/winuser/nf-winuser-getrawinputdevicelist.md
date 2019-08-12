@@ -69,21 +69,21 @@ Enumerates the raw input devices attached to the system.
 
 Type: <b>PRAWINPUTDEVICELIST</b>
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputdevicelist">RAWINPUTDEVICELIST</a> structures for the devices attached to the system. If <b>NULL</b>, the number of devices are returned in *<i>puiNumDevices</i>. 
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputdevicelist">RAWINPUTDEVICELIST</a> structures for the devices attached to the system. If <b>NULL</b>, the number of devices are returned in *<i>puiNumDevices</i>. 
 
 
 ### -param puiNumDevices [in, out]
 
 Type: <b>PUINT</b>
 
-If <i>pRawInputDeviceList</i> is <b>NULL</b>, the function populates this variable with the number of devices attached to the system; otherwise, this variable specifies the number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputdevicelist">RAWINPUTDEVICELIST</a> structures that can be contained in the buffer to which <i>pRawInputDeviceList</i> points. If this value is less than the number of devices attached to the system, the function returns the actual number of devices in this variable and fails with <b>ERROR_INSUFFICIENT_BUFFER</b>.
+If <i>pRawInputDeviceList</i> is <b>NULL</b>, the function populates this variable with the number of devices attached to the system; otherwise, this variable specifies the number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputdevicelist">RAWINPUTDEVICELIST</a> structures that can be contained in the buffer to which <i>pRawInputDeviceList</i> points. If this value is less than the number of devices attached to the system, the function returns the actual number of devices in this variable and fails with <b>ERROR_INSUFFICIENT_BUFFER</b>.
 
 
 ### -param cbSize [in]
 
 Type: <b>UINT</b>
 
-The size of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputdevicelist">RAWINPUTDEVICELIST</a> structure, in bytes.
+The size of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputdevicelist">RAWINPUTDEVICELIST</a> structure, in bytes.
 
 
 ## -returns
@@ -107,7 +107,7 @@ On any other error, the function returns (<b>UINT</b>) -1 and
 
 The devices returned from this function are the mouse, the keyboard, and other Human Interface Device (HID) devices.
 
-To get more detailed information about the attached devices, call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdeviceinfoa">GetRawInputDeviceInfo</a> using the hDevice from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputdevicelist">RAWINPUTDEVICELIST</a>. 
+To get more detailed information about the attached devices, call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdeviceinfoa">GetRawInputDeviceInfo</a> using the hDevice from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputdevicelist">RAWINPUTDEVICELIST</a>. 
 
 
 #### Examples
@@ -144,7 +144,7 @@ free(pRawInputDeviceList);
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputdevicelist">RAWINPUTDEVICELIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputdevicelist">RAWINPUTDEVICELIST</a>
 
 
 

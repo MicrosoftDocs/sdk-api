@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies whether a specified <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure is a string type.
+Specifies whether a specified <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure is a string type.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Specifies whether a specified <a href="https://docs.microsoft.com/windows/deskto
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.
+Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 
 ## -returns
@@ -72,7 +72,7 @@ Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/propidl
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if <i>propvar</i> is a VT_LPWSTR or VT_BSTR <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>; otherwise, <b>FALSE</b>.
+Returns <b>TRUE</b> if <i>propvar</i> is a VT_LPWSTR or VT_BSTR <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>; otherwise, <b>FALSE</b>.
 
 
 
@@ -81,7 +81,7 @@ Returns <b>TRUE</b> if <i>propvar</i> is a VT_LPWSTR or VT_BSTR <a href="https:/
 
 
 
-If this function returns <b>TRUE</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure referenced in <i>propvar</i> contains a Unicode string. To retrieve it, call <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostringwithdefault">PropVariantToStringWithDefault</a> as shown here:
+If this function returns <b>TRUE</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure referenced in <i>propvar</i> contains a Unicode string. To retrieve it, call <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostringwithdefault">PropVariantToStringWithDefault</a> as shown here:
 
                 
 

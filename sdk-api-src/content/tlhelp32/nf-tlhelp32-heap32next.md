@@ -64,7 +64,7 @@ Retrieves information about the next block of a heap that has been allocated by 
 ### -param lphe [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-tagheapentry32">HEAPENTRY32</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-heapentry32">HEAPENTRY32</a> structure.
 
 
 ## -returns
@@ -102,7 +102,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-tagheapentry32">HEAPENTRY32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-heapentry32">HEAPENTRY32</a>
 
 
 

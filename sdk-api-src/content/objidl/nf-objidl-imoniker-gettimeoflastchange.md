@@ -103,7 +103,7 @@ The method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The binding operation could not be completed within the time limit specified by the bind context's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts">BIND_OPTS</a> structure.
+The binding operation could not be completed within the time limit specified by the bind context's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a> structure.
 
 </td>
 </tr>

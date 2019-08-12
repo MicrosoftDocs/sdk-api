@@ -116,7 +116,7 @@ Array of Unicode ranges that are supported in the font.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagwcrange">WCRANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-wcrange">WCRANGE</a>
  
 
  

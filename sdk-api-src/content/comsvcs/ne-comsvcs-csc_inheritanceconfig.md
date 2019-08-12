@@ -85,43 +85,43 @@ Calling <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsv
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_comtiintrinsicsconfig">CSC_COMTIIntrinsicsConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_comtiintrinsicsconfig">CSC_COMTIIntrinsicsConfig</a>
 </td>
 <td>CSC_InheritCOMTIIntrinsics</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_iisintrinsicsconfig">CSC_IISIntrinsicsConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_iisintrinsicsconfig">CSC_IISIntrinsicsConfig</a>
 </td>
 <td>CSC_InheritIISIntrinsics</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_partitionconfig">CSC_PartitionConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_partitionconfig">CSC_PartitionConfig</a>
 </td>
 <td>CSC_InheritPartition</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_sxsconfig">CSC_SxsConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_sxsconfig">CSC_SxsConfig</a>
 </td>
 <td>CSC_InheritSxs</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_synchronizationconfig">CSC_SynchronizationConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_synchronizationconfig">CSC_SynchronizationConfig</a>
 </td>
 <td>CSC_IfContainerIsSynchronized</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_threadpool">CSC_ThreadPool</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_threadpool">CSC_ThreadPool</a>
 </td>
 <td>CSC_ThreadPoolInherit</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_transactionconfig">CSC_TransactionConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_transactionconfig">CSC_TransactionConfig</a>
 </td>
 <td>CSC_IfContainerIsTransactional</td>
 </tr>
@@ -136,43 +136,43 @@ Calling <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsv
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_comtiintrinsicsconfig">CSC_COMTIIntrinsicsConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_comtiintrinsicsconfig">CSC_COMTIIntrinsicsConfig</a>
 </td>
 <td>CSC_NoCOMTIIntrinsics</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_iisintrinsicsconfig">CSC_IISIntrinsicsConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_iisintrinsicsconfig">CSC_IISIntrinsicsConfig</a>
 </td>
 <td>CSC_NoIISIntrinsics</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_partitionconfig">CSC_PartitionConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_partitionconfig">CSC_PartitionConfig</a>
 </td>
 <td>CSC_NoPartition</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_sxsconfig">CSC_SxsConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_sxsconfig">CSC_SxsConfig</a>
 </td>
 <td>CSC_NoSxs</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_synchronizationconfig">CSC_SynchronizationConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_synchronizationconfig">CSC_SynchronizationConfig</a>
 </td>
 <td>CSC_NoSynchronization</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_threadpool">CSC_ThreadPool</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_threadpool">CSC_ThreadPool</a>
 </td>
 <td>CSC_ThreadPoolNone</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_transactionconfig">CSC_TransactionConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_transactionconfig">CSC_TransactionConfig</a>
 </td>
 <td>CSC_NoTransaction</td>
 </tr>

@@ -105,7 +105,7 @@ This enumeration is used by the <b>TimedLevel</b> structure.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/ns-effects-tagtimedlevel">TimedLevel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/effects/ns-effects-timedlevel">TimedLevel</a>
 
 
 

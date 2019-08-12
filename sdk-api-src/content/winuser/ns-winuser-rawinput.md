@@ -61,7 +61,7 @@ Contains the raw input from a device.
 
 ### -field header
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputheader">RAWINPUTHEADER</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a></b>
 
 The raw input data. 
 
@@ -71,21 +71,21 @@ The raw input data.
 
 ### -field data.mouse
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawmouse">RAWMOUSE</a></b>
+<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawmouse">RAWMOUSE</a></b>
 </b>
 If the data comes from a mouse, this is the raw input data. 
 
 
 ### -field data.keyboard
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawkeyboard">RAWKEYBOARD</a></b>
+<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawkeyboard">RAWKEYBOARD</a></b>
 </b>
 If the data comes from a keyboard, this is the raw input data. 
 
 
 ### -field data.hid
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawhid">RAWHID</a></b>
+<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawhid">RAWHID</a></b>
 </b>
 If the data comes from an HID, this is the raw input data. 
 
@@ -100,7 +100,7 @@ To get detailed information -- such as the header and the content of the raw inp
 
 To read the <b>RAWINPUT</b> in the message loop as a buffered read, call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputbuffer">GetRawInputBuffer</a>. 
 
-To get device specific information, call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdeviceinfoa">GetRawInputDeviceInfo</a> with the <i>hDevice</i> from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputheader">RAWINPUTHEADER</a>.
+To get device specific information, call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdeviceinfoa">GetRawInputDeviceInfo</a> with the <i>hDevice</i> from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>.
 
 Raw input is available only when the application calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerrawinputdevices">RegisterRawInputDevices</a> with valid device specifications. 
 
@@ -124,19 +124,19 @@ Raw input is available only when the application calls <a href="https://docs.mic
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawhid">RAWHID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawhid">RAWHID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputheader">RAWINPUTHEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawkeyboard">RAWKEYBOARD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawkeyboard">RAWKEYBOARD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawmouse">RAWMOUSE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawmouse">RAWMOUSE</a>
 
 
 

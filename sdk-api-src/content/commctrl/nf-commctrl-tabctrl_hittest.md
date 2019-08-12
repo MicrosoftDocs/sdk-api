@@ -70,5 +70,5 @@ Handle to the tab control.
 
 Type: <b>LPTCHITTESTINFO</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtchittestinfo">TCHITTESTINFO</a> structure that specifies the screen position to test. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tchittestinfo">TCHITTESTINFO</a> structure that specifies the screen position to test. 
 

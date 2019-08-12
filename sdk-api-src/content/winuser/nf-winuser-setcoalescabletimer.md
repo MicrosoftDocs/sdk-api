@@ -96,7 +96,7 @@ If the sum of <i>uElapse</i> and <i>uToleranceDelay</i> exceeds <b>USER_TIMER_MA
 
 Type: <b>TIMERPROC</b>
 
-A pointer to the function to be notified when the time-out value elapses. For more information about the function, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-timerproc">TimerProc</a>. If <i>lpTimerFunc</i> is <b>NULL</b>, the system posts a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message to the application queue. The <b>hwnd</b> member of the message's <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure contains the value of the <i>hWnd</i> parameter. 
+A pointer to the function to be notified when the time-out value elapses. For more information about the function, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-timerproc">TimerProc</a>. If <i>lpTimerFunc</i> is <b>NULL</b>, the system posts a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message to the application queue. The <b>hwnd</b> member of the message's <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure contains the value of the <i>hWnd</i> parameter. 
 
 
 ### -param uToleranceDelay [in]
@@ -226,7 +226,7 @@ When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
 
 
 

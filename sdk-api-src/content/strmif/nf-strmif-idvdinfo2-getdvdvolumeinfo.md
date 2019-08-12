@@ -75,7 +75,7 @@ Receives the volume number for this root directory.
 
 ### -param pSide [out]
 
-Pointer to a variable of type <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_disc_side">DVD_DISC_SIDE</a> that receives the current disc side.
+Pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_disc_side">DVD_DISC_SIDE</a> that receives the current disc side.
 
 
 ### -param pulNumOfTitles [out]

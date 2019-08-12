@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a filled <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-tagsmdata">SMDATA</a> structure.
+Gets a filled <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-smdata">SMDATA</a> structure.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Gets a filled <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_c
 
 Type: <b>LPSMDATA</b>
 
-When this method returns, contains a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-tagsmdata">SMDATA</a> structure that contains information about the menu band.
+When this method returns, contains a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-smdata">SMDATA</a> structure that contains information about the menu band.
 
 
 ## -returns

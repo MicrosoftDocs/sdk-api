@@ -187,7 +187,7 @@ Constant that indicates the protocol sequence over which the call was made.
 ### -field IsClientLocal
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-tagrpccallclientlocality">RpcCallClientLocality</a> enumeration value that indicates the locality of the client (local, remote, or unknown).
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-rpccallclientlocality">RpcCallClientLocality</a> enumeration value that indicates the locality of the client (local, remote, or unknown).
 
 
 ### -field ClientPID
@@ -244,7 +244,7 @@ The client has disconnected.
 ### -field CallType
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-tagrpccalltype">RpcCallType</a> enumeration value that indicates the  type of the RPC call.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-rpccalltype">RpcCallType</a> enumeration value that indicates the  type of the RPC call.
 
 
 ### -field CallLocalAddress

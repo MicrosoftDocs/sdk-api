@@ -139,23 +139,23 @@ The <b>hConvClient</b> and <b>hConvServer</b> members of the <b>MONCONVSTRUCT</b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagmoncbstruct">MONCBSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-moncbstruct">MONCBSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagmonerrstruct">MONERRSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-monerrstruct">MONERRSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagmonhszstructa">MONHSZSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-monhszstructa">MONHSZSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagmonlinkstruct">MONLINKSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-monlinkstruct">MONLINKSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagmonmsgstruct">MONMSGSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-monmsgstruct">MONMSGSTRUCT</a>
 
 
 

@@ -252,7 +252,7 @@ Restricts the pop-up window
 						the pop-up window is restricted to the work area only if the 
 						input point is within the work area. 
 						For more information, see the <b>rcWork</b> 
-						and <b>rcMonitor</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmonitorinfo">MONITORINFO</a> structure.
+						and <b>rcMonitor</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfo">MONITORINFO</a> structure.
 						
 
 </td>

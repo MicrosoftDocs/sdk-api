@@ -649,7 +649,7 @@ For Latin fonts, one of the following values.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagextlogfonta">EXTLOGFONT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-extlogfonta">EXTLOGFONT</a>
 
 
 

@@ -74,7 +74,7 @@ Specifies an IBSS (ad-hoc network) connection.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-wcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>
  
 
  

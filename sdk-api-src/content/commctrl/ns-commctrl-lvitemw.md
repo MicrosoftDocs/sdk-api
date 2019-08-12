@@ -423,7 +423,7 @@ Type: <b>int</b>
 
 The <b>LVITEM</b> structure is used with several messages, including <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getitem">LVM_GETITEM</a>, <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setitem">LVM_SETITEM</a>, <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertitem">LVM_INSERTITEM</a>, and <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-deleteitem">LVM_DELETEITEM</a>.
 
-In tile view, the item name is displayed to the right of the icon. You can specify additional subitems (corresponding to columns in the details view), to be displayed on lines below the item name. The <b>puColumns</b> array contains the indices of subitems to be displayed. Indices should be greater than 0, because subitem 0, the item name, is already displayed. Column information can also be set in the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvtileinfo">LVTILEINFO</a> structure when modifying the list item.
+In tile view, the item name is displayed to the right of the icon. You can specify additional subitems (corresponding to columns in the details view), to be displayed on lines below the item name. The <b>puColumns</b> array contains the indices of subitems to be displayed. Indices should be greater than 0, because subitem 0, the item name, is already displayed. Column information can also be set in the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvtileinfo">LVTILEINFO</a> structure when modifying the list item.
 
 For example code, see <a href="https://docs.microsoft.com/windows/desktop/Controls/using-list-view-controls">Using List-View Controls</a>.
 

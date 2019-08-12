@@ -61,7 +61,7 @@ The <code>PALETTISED</code> macro checks whether a bitmap has a color depth of 8
 
 ### -param pbmi
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader">VIDEOINFOHEADER</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure.
 
 
 ## -see-also

@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information that is used to initialize the <b>View</b> tab of the <b>Object properties</b> dialog box. A reference to it is passed in as part of the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuiobjectpropsa">OLEUIOBJECTPROPS</a> structure to the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiobjectpropertiesa">OleUIObjectProperties</a> function. This tab allows the user to toggle between "content" and "iconic" views of the object, and change its scaling within the container. It also allows the user to tunnel to the change icon dialog box when the object is being displayed iconically.
+Contains information that is used to initialize the <b>View</b> tab of the <b>Object properties</b> dialog box. A reference to it is passed in as part of the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiobjectpropsa">OLEUIOBJECTPROPS</a> structure to the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiobjectpropertiesa">OleUIObjectProperties</a> function. This tab allows the user to toggle between "content" and "iconic" views of the object, and change its scaling within the container. It also allows the user to tunnel to the change icon dialog box when the object is being displayed iconically.
 
 
 ## -struct-fields
@@ -150,7 +150,7 @@ Maximum value for the scale range.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuiobjectpropsa">OLEUIOBJECTPROPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiobjectpropsa">OLEUIOBJECTPROPS</a>
  
 
  

@@ -88,7 +88,7 @@ An RVA to a
 ### -field VersionInfo
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-tagvs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure that specifies the version of the module.
+<a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure that specifies the version of the module.
 
 
 ### -field CvRecord
@@ -124,7 +124,7 @@ Reserved for future use.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-tagvs_fixedfileinfo">VS_FIXEDFILEINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a>
  
 
  

@@ -71,7 +71,7 @@ The CLSID of the class for which the user type is to be requested.
 
 ### -param dwFormOfType [in]
 
-The form of the user-presentable string. Possible values are taken from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-taguserclasstype">USERCLASSTYPE</a>.
+The form of the user-presentable string. Possible values are taken from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-userclasstype">USERCLASSTYPE</a>.
 
 
 ### -param pszUserType [out]

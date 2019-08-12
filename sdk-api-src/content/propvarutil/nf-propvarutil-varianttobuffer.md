@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extracts the contents of a buffer stored in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> structure of type VT_ARRRAY | VT_UI1.
+Extracts the contents of a buffer stored in a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure of type VT_ARRRAY | VT_UI1.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Extracts the contents of a buffer stored in a <a href="https://docs.microsoft.co
 
 Type: <b>REFVARIANT</b>
 
-Reference to a source <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> structure.
+Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 
 ### -param pv [out]
@@ -111,7 +111,7 @@ Data successfully extracted.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> was not of type VT_ARRRAY | VT_UI1.
+The <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> was not of type VT_ARRRAY | VT_UI1.
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oa
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> buffer value had fewer than <i>cb</i> bytes.
+The <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> buffer value had fewer than <i>cb</i> bytes.
 
 </td>
 </tr>
@@ -136,9 +136,9 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oa
 
 
 
-This function is used when the calling application expects a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> to hold a buffer value. The calling application should check that the value has the expected length before it calls this function.
+This function is used when the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> to hold a buffer value. The calling application should check that the value has the expected length before it calls this function.
 
-If the source <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> has type VT_ARRAY | VT_UI1, this function extracts the first <i>cb</i> bytes from the structure and places them in the buffer pointed to by <i>pv</i>.
+If the source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> has type VT_ARRAY | VT_UI1, this function extracts the first <i>cb</i> bytes from the structure and places them in the buffer pointed to by <i>pv</i>.
 
 If the stored value has fewer than <i>cb</i> bytes, then <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttobuffer">VariantToBuffer</a> fails and the buffer is not modified.
 
@@ -147,7 +147,7 @@ If the value has more than <i>cb</i> bytes, then <a href="https://docs.microsoft
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttobuffer">VariantToBuffer</a> to access a structure that has been stored in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttobuffer">VariantToBuffer</a> to access a structure that has been stored in a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>.
 
 
 ```cpp

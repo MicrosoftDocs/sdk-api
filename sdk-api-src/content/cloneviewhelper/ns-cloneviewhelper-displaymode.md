@@ -78,7 +78,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-tagdisplaymodes">DisplayModes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-displaymodes">DisplayModes</a>
 
 
 

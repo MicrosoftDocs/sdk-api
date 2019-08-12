@@ -99,9 +99,9 @@ This method returns S_OK on success. Other possible return values include the fo
 
 The <b>IOleObject::EnumAdvise</b> method supplies an enumerator that provides a way for containers to keep track of advisory connections registered for their objects. A container normally would call this function so that it can instruct an object to release each of its advisory connections prior to closing down.
 
-The enumerator to which you get access through <b>IOleObject::EnumAdvise</b> enumerates items of type <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatdata">STATDATA</a>. Upon receiving the pointer, the container can then loop through <b>STATDATA</b> and call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-unadvise">IOleObject::Unadvise</a> for each enumerated connection.
+The enumerator to which you get access through <b>IOleObject::EnumAdvise</b> enumerates items of type <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statdata">STATDATA</a>. Upon receiving the pointer, the container can then loop through <b>STATDATA</b> and call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-unadvise">IOleObject::Unadvise</a> for each enumerated connection.
 
-The usual way to implement this function is to delegate the call to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleadviseholder">IOleAdviseHolder</a> interface. Only the <b>pAdvise</b> and <b>dwConnection</b> members of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatdata">STATDATA</a> are relevant for <b>IOleObject::EnumAdvise</b>.
+The usual way to implement this function is to delegate the call to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleadviseholder">IOleAdviseHolder</a> interface. Only the <b>pAdvise</b> and <b>dwConnection</b> members of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statdata">STATDATA</a> are relevant for <b>IOleObject::EnumAdvise</b>.
 
 
 

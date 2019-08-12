@@ -61,7 +61,7 @@ Retrieves information about the control's keyboard mnemonics and behavior.
 
 ### -param pCI [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagcontrolinfo">CONTROLINFO</a> structure that receives the information.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-controlinfo">CONTROLINFO</a> structure that receives the information.
 
 
 ## -returns

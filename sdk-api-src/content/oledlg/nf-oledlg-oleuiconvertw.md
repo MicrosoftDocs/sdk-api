@@ -63,7 +63,7 @@ Invokes the standard <b>Convert</b> dialog box, allowing the user to change the 
 
 ### -param Arg1 [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuiconverta">OLEUICONVERT</a> structure that contains information used to initialize the dialog box.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiconverta">OLEUICONVERT</a> structure that contains information used to initialize the dialog box.
 
 
 ## -returns
@@ -432,7 +432,7 @@ The convert command, which invokes this function, should only be made available 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuiconverta">OLEUICONVERT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiconverta">OLEUICONVERT</a>
 
 
 

@@ -61,7 +61,7 @@ ms.custom: 19H1
 
 ### -field isolationState
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-tagisolationstate">IsolationState</a> values that contains the isolation state of a machine.
+An <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-isolationstate">IsolationState</a> values that contains the isolation state of a machine.
 
 
 ### -field probEndTime
@@ -71,7 +71,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes">Probati
 
 ### -field failureUrl
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagcountedstring">CountedString</a> value that contains a URL to navigate to in the event of failure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a> value that contains a URL to navigate to in the event of failure.
 
 
 ## -see-also
@@ -79,11 +79,11 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagcountedstring">CountedString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-tagisolationstate">IsolationState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-isolationstate">IsolationState</a>
 
 
 

@@ -63,7 +63,7 @@ The <b>MPEG2VIDEOINFO</b> structure describes an MPEG-2 video stream.
 ### -field hdr
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-tagvideoinfoheader2">VIDEOINFOHEADER2</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> structure.
           
 
 
@@ -228,7 +228,7 @@ Start of an array that contains the sequence header, including quantization matr
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure contained in the <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-tagvideoinfoheader2">VIDEOINFOHEADER2</a> structure (<b>hdr</b>) cannot be followed by any pallette entries or color masks, because this structure is immediately followed by the <b>dwStartTimeCode</b> member.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure contained in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> structure (<b>hdr</b>) cannot be followed by any pallette entries or color masks, because this structure is immediately followed by the <b>dwStartTimeCode</b> member.
 
 
 

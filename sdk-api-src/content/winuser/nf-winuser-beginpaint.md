@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>BeginPaint</b> function prepares the specified window for painting and fills a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpaintstruct">PAINTSTRUCT</a> structure with information about the painting.
+The <b>BeginPaint</b> function prepares the specified window for painting and fills a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a> structure with information about the painting.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Handle to the window to be repainted.
 
 ### -param lpPaint [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpaintstruct">PAINTSTRUCT</a> structure that will receive painting information.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a> structure that will receive painting information.
 
 
 ## -returns
@@ -124,7 +124,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpaintstruct">PAINTSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a>
 
 
 

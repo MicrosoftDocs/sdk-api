@@ -68,7 +68,7 @@ A handle to a device context.
 
 ### -param lpHandleTable [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taghandletable">HANDLETABLE</a> structure representing the table of handles to GDI objects used when playing the metafile.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-handletable">HANDLETABLE</a> structure representing the table of handles to GDI objects used when playing the metafile.
 
 
 ### -param lpMR [in]
@@ -116,11 +116,11 @@ If the <b>PlayMetaFileRecord</b> function does not recognize a record, it ignore
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taghandletable">HANDLETABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-handletable">HANDLETABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagmetarecord">METARECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-metarecord">METARECORD</a>
 
 
 

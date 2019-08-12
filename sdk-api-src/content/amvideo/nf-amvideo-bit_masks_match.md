@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-The <code>BIT_MASKS_MATCH</code> macro compares the color masks for two <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo">VIDEOINFO</a> structures.
+The <code>BIT_MASKS_MATCH</code> macro compares the color masks for two <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo">VIDEOINFO</a> structures.
 
 
 

@@ -161,7 +161,7 @@ You must fill in the object's current icon, aspect, and scale.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuiviewpropsa">OLEUIVIEWPROPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiviewpropsa">OLEUIVIEWPROPS</a>
  
 
  

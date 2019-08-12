@@ -78,7 +78,7 @@ A handle to a reference device context.
 
 ### -param lpMFP [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagmetafilepict">METAFILEPICT</a> structure that contains the suggested size of the metafile picture and the mapping mode that was used when the picture was created.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-metafilepict">METAFILEPICT</a> structure that contains the suggested size of the metafile picture and the mapping mode that was used when the picture was created.
 
 
 ## -returns
@@ -96,7 +96,7 @@ If the function fails, the return value is <b>NULL</b>.
 
 
 
-Windows uses the reference device context's resolution data and the data in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagmetafilepict">METAFILEPICT</a> structure to scale a picture. If the <i>hdcRef</i> parameter is <b>NULL</b>, the system uses resolution data for the current output device. If the <i>lpmfp</i> parameter is <b>NULL</b>, the system uses the MM_ANISOTROPIC mapping mode to scale the picture so that it fits the entire device surface. The <b>hMF</b> member of the <b>METAFILEPICT</b> structure is not used.
+Windows uses the reference device context's resolution data and the data in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-metafilepict">METAFILEPICT</a> structure to scale a picture. If the <i>hdcRef</i> parameter is <b>NULL</b>, the system uses resolution data for the current output device. If the <i>lpmfp</i> parameter is <b>NULL</b>, the system uses the MM_ANISOTROPIC mapping mode to scale the picture so that it fits the entire device surface. The <b>hMF</b> member of the <b>METAFILEPICT</b> structure is not used.
 
 When the application no longer needs the enhanced metafile handle, it should delete it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a> function.
 
@@ -124,7 +124,7 @@ If the reference device context is not identical to the device in which the meta
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagmetafilepict">METAFILEPICT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-metafilepict">METAFILEPICT</a>
 
 
 

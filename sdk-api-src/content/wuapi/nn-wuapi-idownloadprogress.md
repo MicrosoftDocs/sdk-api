@@ -131,7 +131,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets a <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagdownloadphase">DownloadPhase</a> enumeration value that specifies the phase of the download that is currently in progress.
+Gets a <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-downloadphase">DownloadPhase</a> enumeration value that specifies the phase of the download that is currently in progress.
 
 </td>
 </tr>

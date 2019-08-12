@@ -65,7 +65,7 @@ The <code>ShowMenu</code> method displays the specified menu, if available.
 
 ### -param MenuID [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_menu_id">DVD_MENU_ID</a> enumeration value that specifies the menu to display.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_menu_id">DVD_MENU_ID</a> enumeration value that specifies the menu to display.
 
 
 ### -param dwFlags [in]

@@ -79,15 +79,15 @@ Absolute coordinates of the region on the sensor output that the histogram is co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-taghistogramblobheader">HistogramBlobHeader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-histogramblobheader">HistogramBlobHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-taghistogramdataheader">HistogramDataHeader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-histogramdataheader">HistogramDataHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-taghistogramheader">HistogramHeader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-histogramheader">HistogramHeader</a>
  
 
  

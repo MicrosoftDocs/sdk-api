@@ -73,7 +73,7 @@ The operation to be performed on the node. See <a href="https://docs.microsoft.c
 
 ### -param pvarPropertyValue
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure for the value to use for the <i>wcsProperty</i> parameter.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure for the value to use for the <i>wcsProperty</i> parameter.
 
 
 ### -param ppTree
@@ -89,7 +89,7 @@ The number of properties in the <i>pProperty</i> array.
 
 ### -param pProperty
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-tagcipropertydef">CIPROPERTYDEF</a> structures, each of which describes a property that can be referred to by a friendly name. This array is populated when <i>pvarPropertyValue</i> contains a string that contains references to properties. This parameter can be <b>NULL</b> when <i>cProperties</i> equals zero.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-cipropertydef">CIPROPERTYDEF</a> structures, each of which describes a property that can be referred to by a friendly name. This array is populated when <i>pvarPropertyValue</i> contains a string that contains references to properties. This parameter can be <b>NULL</b> when <i>cProperties</i> equals zero.
 
 
 ### -param LocaleID

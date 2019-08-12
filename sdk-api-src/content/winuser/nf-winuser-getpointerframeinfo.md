@@ -78,7 +78,7 @@ A pointer to a variable that specifies the count of structures in the buffer to 
 
 ### -param pointerInfo [out]
 
-Address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_info">POINTER_INFO</a> structures to receive the pointer information. This parameter can be <b>NULL</b> if <i>*pointerCount</i> is zero.
+Address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> structures to receive the pointer information. This parameter can be <b>NULL</b> if <i>*pointerCount</i> is zero.
 
 
 ## -returns

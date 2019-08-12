@@ -70,7 +70,7 @@ There are currently no valid parameters to pass or retrieve.
 
 ### -param pValue [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
 As there are no valid parameters currently configured, there are no valid parameters to pass to this method.
 

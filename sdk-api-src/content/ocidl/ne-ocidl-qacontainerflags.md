@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates ambient properties supplied by the container. It is used in the <b>dwAmbientFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagqacontainer">QACONTAINER</a> structure.
+Indicates ambient properties supplied by the container. It is used in the <b>dwAmbientFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-qacontainer">QACONTAINER</a> structure.
 
 
 
@@ -105,7 +105,7 @@ Specifies the SupportsMnemonics ambient property, which has a standard ambient D
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagqacontainer">QACONTAINER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-qacontainer">QACONTAINER</a>
  
 
  

@@ -93,7 +93,7 @@ For printers that support internal glyph rasterization, the following rules shou
 
 <ul>
 <li>
-The driver should set the GCAPS_FONT_RASTERIZER flag in its <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a> structure.
+The driver should set the GCAPS_FONT_RASTERIZER flag in its <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
 
 </li>
 <li>

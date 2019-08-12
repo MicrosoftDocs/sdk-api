@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Contains information about a mouse event passed to a <b>WH_MOUSE</b> hook procedure, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)">MouseProc</a>. 
 
-This is an extension of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmousehookstruct">MOUSEHOOKSTRUCT</a> structure that includes information about wheel movement or the use of the X button.
+This is an extension of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mousehookstruct">MOUSEHOOKSTRUCT</a> structure that includes information about wheel movement or the use of the X button.
 
 
 ## -struct-fields
@@ -104,9 +104,9 @@ The second X button was pressed or released.
 
 ### -field tagMOUSEHOOKSTRUCT
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmousehookstruct">MOUSEHOOKSTRUCT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mousehookstruct">MOUSEHOOKSTRUCT</a></b>
 
-The members of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmousehookstruct">MOUSEHOOKSTRUCT</a> structure make up the first part of this structure. 
+The members of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mousehookstruct">MOUSEHOOKSTRUCT</a> structure make up the first part of this structure. 
 
 
 ## -see-also
@@ -122,7 +122,7 @@ The members of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmousehookstruct">MOUSEHOOKSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mousehookstruct">MOUSEHOOKSTRUCT</a>
 
 
 

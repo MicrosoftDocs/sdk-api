@@ -75,7 +75,7 @@ A pointer to a string that contains the name of the property to write.
 
 ### -param pVar [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
 A pointer to a <b>VARIANT</b> that holds the new property value.
 

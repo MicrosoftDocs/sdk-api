@@ -95,7 +95,7 @@ This function is intended for use in debugging threads using activation contexts
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctxa">ACTCTX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a>
  
 
  

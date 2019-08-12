@@ -264,11 +264,11 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy
 </dl>
 </td>
 <td width="60%">
-You called the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function with the <b>DN_DEFAULTPRN</b> flag specified in the <b>wDefault</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagdevnames">DEVNAMES</a> structure, but the printer described by the other structure members did not match the current default printer. This error occurs when you store the <b>DEVNAMES</b> structure, and the user changes the default printer by using the Control Panel.
+You called the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> function with the <b>DN_DEFAULTPRN</b> flag specified in the <b>wDefault</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure, but the printer described by the other structure members did not match the current default printer. This error occurs when you store the <b>DEVNAMES</b> structure, and the user changes the default printer by using the Control Panel.
 
-To use the printer described by the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagdevnames">DEVNAMES</a> structure, clear the <b>DN_DEFAULTPRN</b> flag and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> again.
+To use the printer described by the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure, clear the <b>DN_DEFAULTPRN</b> flag and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> again.
 
-To use the default printer, replace the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagdevnames">DEVNAMES</a> structure (and the  structure, if one exists) with <b>NULL</b>; and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> again.
+To use the default printer, replace the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure (and the  structure, if one exists) with <b>NULL</b>; and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)">PrintDlg</a> again.
 
 </td>
 </tr>
@@ -280,7 +280,7 @@ To use the default printer, replace the <a href="https://docs.microsoft.com/wind
 </dl>
 </td>
 <td width="60%">
-The data in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagdevnames">DEVNAMES</a> structures describes two different printers.
+The data in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structures describes two different printers.
 
 </td>
 </tr>
@@ -411,7 +411,7 @@ The following error codes can be returned for the <a href="https://docs.microsof
 </dl>
 </td>
 <td width="60%">
-The size specified in the <b>nSizeMax</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagchoosefonta">CHOOSEFONT</a> structure is less than the size specified in the 
+The size specified in the <b>nSizeMax</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-choosefonta">CHOOSEFONT</a> structure is less than the size specified in the 
 							<b>nSizeMin</b> member.
 
 </td>
@@ -494,7 +494,7 @@ The following error code can be returned for the <a href="https://docs.microsoft
 </dl>
 </td>
 <td width="60%">
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagfindreplacea">FINDREPLACE</a> structure points to an invalid buffer.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-findreplacea">FINDREPLACE</a> structure points to an invalid buffer.
 
 </td>
 </tr>
@@ -513,7 +513,7 @@ A member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagchoosefonta">CHOOSEFONT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-choosefonta">CHOOSEFONT</a>
 
 
 
@@ -533,7 +533,7 @@ A member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagdevnames">DEVNAMES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a>
 
 
 
@@ -541,7 +541,7 @@ A member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagfindreplacea">FINDREPLACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-findreplacea">FINDREPLACE</a>
 
 
 

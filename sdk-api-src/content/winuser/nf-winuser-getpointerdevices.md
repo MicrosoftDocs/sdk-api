@@ -66,12 +66,12 @@ Gets information about the pointer devices attached to the system.
 
 ### -param deviceCount [in, out]
 
-If <i>pointerDevices</i> is NULL, <i>deviceCount</i> returns the total number of attached pointer devices. Otherwise, <i>deviceCount</i> specifies the number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_device_info">POINTER_DEVICE_INFO</a> structures pointed to by <i>pointerDevices</i>.
+If <i>pointerDevices</i> is NULL, <i>deviceCount</i> returns the total number of attached pointer devices. Otherwise, <i>deviceCount</i> specifies the number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_device_info">POINTER_DEVICE_INFO</a> structures pointed to by <i>pointerDevices</i>.
 
 
 ### -param pointerDevices [out, optional]
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_device_info">POINTER_DEVICE_INFO</a> structures for the pointer devices attached to the system. If NULL, the total number of attached pointer devices is returned in <i>deviceCount</i>.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_device_info">POINTER_DEVICE_INFO</a> structures for the pointer devices attached to the system. If NULL, the total number of attached pointer devices is returned in <i>deviceCount</i>.
 
 
 ## -returns

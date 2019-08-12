@@ -71,7 +71,7 @@ TBD
 
 Type: <b>VARIANT*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> structure that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxjobs">FaxJobs</a> object. The method returns a pdispVal member with a VT_DISPATCH data type.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxjobs">FaxJobs</a> object. The method returns a pdispVal member with a VT_DISPATCH data type.
 
 
 ## -returns

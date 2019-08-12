@@ -89,7 +89,7 @@ Indicates that authentication is secured via a PIN, as above, but that the PIN i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-wcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>
  
 
  

@@ -68,7 +68,7 @@ Specifies the ID of an existing property.
 ### -param pValue [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> that contains the value for that property.
+<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> that contains the value for that property.
 
 
 ## -returns
@@ -111,7 +111,7 @@ The method fails if the property is READ_ONLY or if the value is invalid.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>
  
 
  

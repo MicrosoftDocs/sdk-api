@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Increments the usage count associated with the specified handle. This function enables an application to save a string handle passed to the application's Dynamic Data Exchange (DDE) callback function. Otherwise, a string handle passed to the callback function is deleted when the callback function returns. This function should also be used to keep a copy of a string handle referenced by the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagconvinfo">CONVINFO</a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddequeryconvinfo">DdeQueryConvInfo</a> function. 
+Increments the usage count associated with the specified handle. This function enables an application to save a string handle passed to the application's Dynamic Data Exchange (DDE) callback function. Otherwise, a string handle passed to the callback function is deleted when the callback function returns. This function should also be used to keep a copy of a string handle referenced by the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-convinfo">CONVINFO</a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddequeryconvinfo">DdeQueryConvInfo</a> function. 
 
 
 ## -parameters
@@ -91,7 +91,7 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagconvinfo">CONVINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-convinfo">CONVINFO</a>
 
 
 

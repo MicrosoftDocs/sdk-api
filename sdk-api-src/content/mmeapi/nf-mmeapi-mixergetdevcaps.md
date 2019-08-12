@@ -73,12 +73,12 @@ Identifier or handle of an open mixer device.
 
 ### -param pmxcaps
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercapsa">MIXERCAPS</a> structure that receives information about the capabilities of the device.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercapsa">MIXERCAPS</a> structure that receives information about the capabilities of the device.
 
 
 ### -param cbmxcaps
 
-Size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercapsa">MIXERCAPS</a> structure.
+Size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercapsa">MIXERCAPS</a> structure.
 
 
 ## -returns

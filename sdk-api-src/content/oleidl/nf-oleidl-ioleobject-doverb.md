@@ -61,12 +61,12 @@ Requests that an object perform an action in response to an end-user's action. T
 
 ### -param iVerb [in]
 
-Number assigned to the verb in the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-tagoleverb">OLEVERB</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a>.
+Number assigned to the verb in the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-oleverb">OLEVERB</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a>.
 
 
 ### -param lpmsg [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure describing the event (such as a double-click) that invoked the verb. The caller should pass the <b>MSG</b> structure unmodified, without attempting to interpret or alter the values of any of the structure members.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure describing the event (such as a double-click) that invoked the verb. The caller should pass the <b>MSG</b> structure unmodified, without attempting to interpret or alter the values of any of the structure members.
 
 
 ### -param pActiveSite [in]
@@ -220,7 +220,7 @@ Object does not support in-place activation or does not recognize a negative ver
 
 
 
-A "verb" is an action that an OLE object takes in response to a message from its container. An object's container, or a client linked to the object, normally calls <b>IOleObject::DoVerb</b> in response to some end-user action, such as double-clicking on the object. The various actions that are available for a given object are enumerated in an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-tagoleverb">OLEVERB</a> structure, which the container obtains by calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a>. <b>IOleObject::DoVerb</b> matches the value of iVerb against the iVerb member of the structure to determine which verb to invoke.
+A "verb" is an action that an OLE object takes in response to a message from its container. An object's container, or a client linked to the object, normally calls <b>IOleObject::DoVerb</b> in response to some end-user action, such as double-clicking on the object. The various actions that are available for a given object are enumerated in an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-oleverb">OLEVERB</a> structure, which the container obtains by calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a>. <b>IOleObject::DoVerb</b> matches the value of iVerb against the iVerb member of the structure to determine which verb to invoke.
 
 Through <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a>, an object, rather than its container, determines which verbs (i.e., actions) it supports. OLE 2 defines seven verbs that are available, but not necessarily useful, to all objects. In addition, each object can define additional verbs that are unique to it. The following table describes the verbs defined by OLE.
 
@@ -307,7 +307,7 @@ Containers call <b>IOleObject::DoVerb</b> as part of initializing a newly create
 
 <b>IOleObject::DoVerb</b> automatically runs the OLE server application. If an error occurs during verb execution, the object application is shut down.
 
-If an end user invokes a verb by some means other than selecting a command from a menu (say, by double-clicking or, more rarely, single-clicking an object), the object's container should pass a pointer to a Windows <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure containing the appropriate message. For example, if the end user invokes a verb by double-clicking the object, the container should pass a <b>MSG</b> structure containing WM_LBUTTONDBLCLK, WM_MBUTTONDBLCLK, or WM_RBUTTONDBLCLK. If the container passes no message, lpmsg should be set to <b>NULL</b>. The object should ignore the <b>hwnd</b> member of the passed <b>MSG</b> structure, but can use all the other MSG members.
+If an end user invokes a verb by some means other than selecting a command from a menu (say, by double-clicking or, more rarely, single-clicking an object), the object's container should pass a pointer to a Windows <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure containing the appropriate message. For example, if the end user invokes a verb by double-clicking the object, the container should pass a <b>MSG</b> structure containing WM_LBUTTONDBLCLK, WM_MBUTTONDBLCLK, or WM_RBUTTONDBLCLK. If the container passes no message, lpmsg should be set to <b>NULL</b>. The object should ignore the <b>hwnd</b> member of the passed <b>MSG</b> structure, but can use all the other MSG members.
 
 If the object's embedding container calls <b>IOleObject::DoVerb</b>, the client-site pointer (<i>pClientSite</i>) passed to <b>IOleObject::DoVerb</b> is the same as that of the embedding site. If the embedded object is a link source, the pointer passed to <b>IOleObject::DoVerb</b> is that of the linking client's client site.
 
@@ -318,7 +318,7 @@ Container applications that do not support general in-place activation can still
 Some code samples pass a lindex value of -1 instead of zero. The value -1 works but should be avoided in favor of zero. The <i>lindex</i> parameter is a reserved parameter, and for reasons of consistency Microsoft recommends assigning a zero value to all reserved parameters.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-In addition to the above verbs, an object can define in its <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-tagoleverb">OLEVERB</a> structure additional verbs that are specific to itself. Positive numbers designate these object-specific verbs. An object should treat any unknown positive verb number as if it were the primary verb and return OLEOBJ_S_INVALIDVERB to the calling function. The object should ignore verbs with negative numbers that it does not recognize and return E_NOTIMPL.
+In addition to the above verbs, an object can define in its <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-oleverb">OLEVERB</a> structure additional verbs that are specific to itself. Positive numbers designate these object-specific verbs. An object should treat any unknown positive verb number as if it were the primary verb and return OLEOBJ_S_INVALIDVERB to the calling function. The object should ignore verbs with negative numbers that it does not recognize and return E_NOTIMPL.
 
 If the verb being executed places the object in the running state, you should register the object in the running object table (ROT) even if its server application doesn't support linking. Registration is important because the object at some point may serve as the source of a link in a container that supports links to embeddings. Registering the object with the ROT enables the link client to get a pointer to the object directly, instead of having to go through the object's container. To perform the registration, call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-getmoniker">IOleClientSite::GetMoniker</a> to get the full moniker of the object, call the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-getrunningobjecttable">GetRunningObjectTable</a> function to get a pointer to the ROT, and then call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">IRunningObjectTable::Register</a>.
 

@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-The <code>VMRGUID</code> structure is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagvmrmonitorinfo">VMRMONITORINFO</a> structure and is used to identify a monitor on the system (VMR-7 only).
+The <code>VMRGUID</code> structure is a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrmonitorinfo">VMRMONITORINFO</a> structure and is used to identify a monitor on the system (VMR-7 only).
 
 
 

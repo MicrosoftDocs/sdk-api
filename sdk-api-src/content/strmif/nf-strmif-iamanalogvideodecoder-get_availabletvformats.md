@@ -65,7 +65,7 @@ The <b>get_AvailableTVFormats</b> method retrieves the analog video formats that
 
 ### -param lAnalogVideoStandard [out]
 
-Pointer to a variable that receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-taganalogvideostandard">AnalogVideoStandard</a> enumeration.
+Pointer to a variable that receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard</a> enumeration.
 
 
 ## -returns

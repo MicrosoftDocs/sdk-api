@@ -118,7 +118,7 @@ Reserved.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagmetarecord">METARECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-metarecord">METARECORD</a>
 
 
 

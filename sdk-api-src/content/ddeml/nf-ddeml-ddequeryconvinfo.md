@@ -77,7 +77,7 @@ The transaction. For asynchronous transactions, this parameter should be a trans
 
 Type: <b>PCONVINFO</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagconvinfo">CONVINFO</a> structure that receives information about the transaction and conversation. The 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-convinfo">CONVINFO</a> structure that receives information about the transaction and conversation. The 
 					<i>cb</i> member of the <b>CONVINFO</b> structure must specify the length of the buffer allocated for the structure.
 
 
@@ -87,7 +87,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/n
 
 Type: <b>UINT</b>
 
-If the function succeeds, the return value is the number of bytes copied into the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagconvinfo">CONVINFO</a> structure.
+If the function succeeds, the return value is the number of bytes copied into the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-convinfo">CONVINFO</a> structure.
 
 If the function fails, the return value is <b>FALSE</b>. 
 
@@ -100,11 +100,11 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddege
 
 
 
-An application should not free a string handle referenced by the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagconvinfo">CONVINFO</a> structure. If an application must use one of these string handles, it should call the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddekeepstringhandle">DdeKeepStringHandle</a> function to create a copy of the handle. 
+An application should not free a string handle referenced by the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-convinfo">CONVINFO</a> structure. If an application must use one of these string handles, it should call the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddekeepstringhandle">DdeKeepStringHandle</a> function to create a copy of the handle. 
 
 If the 
 				<i>idTransaction</i> parameter is set to QID_SYNC, the 
-				<i>hUser</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagconvinfo">CONVINFO</a> structure is associated with the conversation and can be used to hold data associated with the conversation. If 
+				<i>hUser</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-convinfo">CONVINFO</a> structure is associated with the conversation and can be used to hold data associated with the conversation. If 
 				<i>idTransaction</i> is the identifier of an asynchronous transaction, the 
 				<i>hUser</i> member is associated only with the current transaction and is valid only for the duration of the transaction. 
 
@@ -116,7 +116,7 @@ If the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagconvinfo">CONVINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-convinfo">CONVINFO</a>
 
 
 

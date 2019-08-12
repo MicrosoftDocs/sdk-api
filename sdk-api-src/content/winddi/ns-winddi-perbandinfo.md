@@ -66,7 +66,7 @@ If <b>TRUE</b>, GDI redraws the previous band. If <b>FALSE</b>, GDI draws the ne
 
 ### -field szlBand
 
-Specifies a SIZEL structure that contains the width and height, in pixels, of the rectangle in which GDI can draw the band. A SIZEL structure is identical to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagsize">SIZE</a> structure.
+Specifies a SIZEL structure that contains the width and height, in pixels, of the rectangle in which GDI can draw the band. A SIZEL structure is identical to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-size">SIZE</a> structure.
 
 
 ### -field ulHorzRes

@@ -175,7 +175,7 @@ This structure, in conjunction with the <b>FLOATOBJ_</b><i>Xxx</i> service routi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagfloatobj_xform">FLOATOBJ_XFORM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj_xform">FLOATOBJ_XFORM</a>
 
 
 

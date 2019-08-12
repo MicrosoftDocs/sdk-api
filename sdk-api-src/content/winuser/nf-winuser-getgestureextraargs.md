@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves additional information about a gesture from its <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taggestureinfo">GESTUREINFO</a> handle.
+Retrieves additional information about a gesture from its <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureinfo">GESTUREINFO</a> handle.
 
 
 ## -parameters

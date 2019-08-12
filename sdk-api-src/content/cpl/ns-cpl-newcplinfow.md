@@ -134,7 +134,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/cpl/nc-cpl-applet_pr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cpl/ns-cpl-tagcplinfo">CPLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cpl/ns-cpl-cplinfo">CPLINFO</a>
  
 
  

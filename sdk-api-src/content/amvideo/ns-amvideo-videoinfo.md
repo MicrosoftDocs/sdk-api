@@ -52,9 +52,9 @@ ms.custom: 19H1
 
 
 
-The <b>VIDEOINFO</b> structure is equivalent to a <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader">VIDEOINFOHEADER</a> structure, but it contains enough memory to hold three color masks plus a color table with 256 colors.
+The <b>VIDEOINFO</b> structure is equivalent to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure, but it contains enough memory to hold three color masks plus a color table with 256 colors.
 
-If you are writing a video filter, you can use this structure to guarantee that the format block always has enough memory to contain the largest possible <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader">VIDEOINFOHEADER</a> structure.
+If you are writing a video filter, you can use this structure to guarantee that the format block always has enough memory to contain the largest possible <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure.
 
 
 
@@ -90,20 +90,20 @@ Bit error rate for this stream.
 
 ### -field AvgTimePerFrame
 
-The desired average time per frame, in 100-nanosecond units. For more information, see the Remarks section for the <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader">VIDEOINFOHEADER</a> structure.
+The desired average time per frame, in 100-nanosecond units. For more information, see the Remarks section for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure.
           
 
 
 ### -field bmiHeader
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure that contains color and dimension information for a device-independent bitmap.
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure that contains color and dimension information for a device-independent bitmap.
           
 
 
 ### -field bmiColors
 
-Array of Win32 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagrgbquad">RGBQUAD</a> structures that specifies the video's color palette. Each structure represents a single color, which is a combination of red, green, and blue intensities.
+Array of Win32 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a> structures that specifies the video's color palette. Each structure represents a single color, which is a combination of red, green, and blue intensities.
             
 
 
@@ -124,9 +124,9 @@ Array of <b>DWORD</b> values that specify true-color bitmasks.
 
 
 
-Never use this structure unless you are sure that you will use it only to store standard RGB formats. If you store anything other than standard RGB, the variable size of the <b>bmiHeader</b> structure will almost certainly cause problems, and you should use the <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader">VIDEOINFOHEADER</a> structure instead. If you find it absolutely necessary to use the <b>VIDEOINFO</b> structure, do not access the <b>TrueColorInfo</b>, <b>dwBitMasks</b>, or <b>bmiColors</b> members directly. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd407230(v=vs.85)">TRUECOLOR</a>, <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-colors">COLORS</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-bitmasks">BITMASKS</a> macros to return the pointers to the color information. Which of these members is valid depends on the contents of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure.
+Never use this structure unless you are sure that you will use it only to store standard RGB formats. If you store anything other than standard RGB, the variable size of the <b>bmiHeader</b> structure will almost certainly cause problems, and you should use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure instead. If you find it absolutely necessary to use the <b>VIDEOINFO</b> structure, do not access the <b>TrueColorInfo</b>, <b>dwBitMasks</b>, or <b>bmiColors</b> members directly. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd407230(v=vs.85)">TRUECOLOR</a>, <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-colors">COLORS</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-bitmasks">BITMASKS</a> macros to return the pointers to the color information. Which of these members is valid depends on the contents of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
-The first five data members are equivalent to a <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader">VIDEOINFOHEADER</a> structure. They are expanded in full simply to reduce the amount of dereferencing needed when dealing with a pointer to a <b>VIDEOINFO</b> structure.
+The first five data members are equivalent to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure. They are expanded in full simply to reduce the amount of dereferencing needed when dealing with a pointer to a <b>VIDEOINFO</b> structure.
 
 For information about using the <b>rcSource</b> and <b>rcTarget</b> members, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/source-and-target-rectangles-in-video-renderers">Source and Target Rectangles in Video Renderers</a>.
 

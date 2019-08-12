@@ -97,7 +97,7 @@ An array of <a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagemr">EMR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a>
 
 
 

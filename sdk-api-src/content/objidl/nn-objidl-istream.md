@@ -193,7 +193,7 @@ Changes the size of the stream object.
 </td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure for this stream.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure for this stream.
 
 </td>
 </tr>

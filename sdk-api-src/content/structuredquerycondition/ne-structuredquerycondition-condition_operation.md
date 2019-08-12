@@ -70,7 +70,7 @@ Provides a set of flags to be used with following methods to indicate the operat
 
 ### -field COP_IMPLICIT
 
-An implicit comparison between the value of the property and the value of the constant. For an unresolved condition, <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_operation">COP_IMPLICIT</a> means that a user did not type an operation. In contrast, a resolved condition will always have a condition other than the <b>COP_IMPLICIT</b> operation.
+An implicit comparison between the value of the property and the value of the constant. For an unresolved condition, <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">COP_IMPLICIT</a> means that a user did not type an operation. In contrast, a resolved condition will always have a condition other than the <b>COP_IMPLICIT</b> operation.
 
 
 ### -field COP_EQUAL

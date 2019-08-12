@@ -73,7 +73,7 @@ Zero-based index of the candidate list.
 
 ### -param lpCandList [out, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagcandidatelist">CANDIDATELIST</a> structure in which the function retrieves the candidate list.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-candidatelist">CANDIDATELIST</a> structure in which the function retrieves the candidate list.
 
 
 ### -param dwBufLen [in]
@@ -97,7 +97,7 @@ The function returns 0 if it does not succeed.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagcandidatelist">CANDIDATELIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-candidatelist">CANDIDATELIST</a>
 
 
 

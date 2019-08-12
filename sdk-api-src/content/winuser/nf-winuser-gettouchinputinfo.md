@@ -77,12 +77,12 @@ The number of structures in the <i>pInputs</i> array. This should ideally be at 
 
 ### -param pInputs [out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtouchinput">TOUCHINPUT</a> structures to receive information about the touch points associated with the specified touch input handle.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-touchinput">TOUCHINPUT</a> structures to receive information about the touch points associated with the specified touch input handle.
 
 
 ### -param cbSize [in]
 
-The size, in bytes, of a single <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtouchinput">TOUCHINPUT</a> structure. If <i>cbSize</i> is not the size of a single <b>TOUCHINPUT</b> structure, the function fails with <b>ERROR_INVALID_PARAMETER</b>.
+The size, in bytes, of a single <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-touchinput">TOUCHINPUT</a> structure. If <i>cbSize</i> is not the size of a single <b>TOUCHINPUT</b> structure, the function fails with <b>ERROR_INVALID_PARAMETER</b>.
 
 
 ## -returns
@@ -117,7 +117,7 @@ Calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winus
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtouchinput">TOUCHINPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-touchinput">TOUCHINPUT</a>
  
 
  

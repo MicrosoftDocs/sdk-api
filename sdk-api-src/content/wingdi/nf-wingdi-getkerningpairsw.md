@@ -77,7 +77,7 @@ The number of pairs in the <i>lpkrnpair</i> array. If the font has more than <i>
 
 ### -param lpKernPair [out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagkerningpair">KERNINGPAIR</a> structures that receives the kerning pairs. The array must contain at least as many structures as specified by the <i>nNumPairs</i> parameter. If this parameter is <b>NULL</b>, the function returns the total number of kerning pairs for the font.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-kerningpair">KERNINGPAIR</a> structures that receives the kerning pairs. The array must contain at least as many structures as specified by the <i>nNumPairs</i> parameter. If this parameter is <b>NULL</b>, the function returns the total number of kerning pairs for the font.
 
 
 ## -returns
@@ -104,7 +104,7 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagkerningpair">KERNINGPAIR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-kerningpair">KERNINGPAIR</a>
  
 
  

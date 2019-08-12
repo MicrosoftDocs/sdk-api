@@ -88,7 +88,7 @@ By default, touch prediction is activated.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtouchpredictionparameters">TouchPredictionParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-touchpredictionparameters">TouchPredictionParameters</a>
  
 
  

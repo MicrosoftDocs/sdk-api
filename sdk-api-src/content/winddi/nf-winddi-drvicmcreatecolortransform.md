@@ -139,7 +139,7 @@ The provided profiles adhere to version 2.10 of the ICC profile format. If the d
 
 The driver can safely access the entire memory map of each profile. The <i>pvSourceProfile</i>, <i>pvDestProfile</i>, and <i>pvTargetProfile</i> pointers are valid only during the scope of the call to <b>DrvIcmCreateTransform</b>.
 
-Drivers that report ICM support should implement this function. A driver indicates support for ICM by setting the GCAPS_ICM flag in the <b>flGraphicsCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a> structure.
+Drivers that report ICM support should implement this function. A driver indicates support for ICM by setting the GCAPS_ICM flag in the <b>flGraphicsCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
 
 
 

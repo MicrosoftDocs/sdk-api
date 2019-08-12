@@ -63,7 +63,7 @@ Defines basic pen information common to all pointer types.
 
 Type: <b>POINTER_INFO</b>
 
-An embedded <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_info">POINTER_INFO</a> structure.
+An embedded <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> structure.
 
 
 ### -field penFlags

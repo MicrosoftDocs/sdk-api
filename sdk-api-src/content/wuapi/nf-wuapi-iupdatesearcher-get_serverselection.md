@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets and sets a <a href="https://docs.microsoft.com/windows/desktop/api/wuapicommon/ne-wuapicommon-tagserverselection">ServerSelection</a> value that indicates the server to search for updates.
+Gets and sets a <a href="https://docs.microsoft.com/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ServerSelection</a> value that indicates the server to search for updates.
 
 This property is read/write.
 

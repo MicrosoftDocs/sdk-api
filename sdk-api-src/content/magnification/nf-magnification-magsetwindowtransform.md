@@ -68,7 +68,7 @@ The magnification window.
 
 ### -param pTransform [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/ns-magnification-tagmagtransform">PMAGTRANSFORM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/magnification/ns-magnification-magtransform">PMAGTRANSFORM</a></b>
 
 A transformation matrix.
 

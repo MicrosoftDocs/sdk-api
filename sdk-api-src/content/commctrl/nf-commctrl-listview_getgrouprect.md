@@ -70,7 +70,7 @@ A handle to the list-view control.
 
 Type: <b>int</b>
 
-Specifies the group by <b>iGroupId</b> (see <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvgroup">LVGROUP</a> structure).
+Specifies the group by <b>iGroupId</b> (see <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a> structure).
 
 
 ### -param type [in]
@@ -120,7 +120,7 @@ Specifies the type of rectangle to retrieve. This parameter must be one of the f
 </dl>
 </td>
 <td width="60%">
- Coordinates of the subset link only (markup subset). A list-view control can limit the number of visible items displayed in each group.  A link is presented to the user to allow the user to expand the group.  This flag will return the bounding rectangle of the subset link if the group is a subset (group state of LVGS_SUBSETED, see structure <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvgroup">LVGROUP</a>, member <b>state</b>). This flag is provided so that accessibility applications can locate the link.
+ Coordinates of the subset link only (markup subset). A list-view control can limit the number of visible items displayed in each group.  A link is presented to the user to allow the user to expand the group.  This flag will return the bounding rectangle of the subset link if the group is a subset (group state of LVGS_SUBSETED, see structure <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a>, member <b>state</b>). This flag is provided so that accessibility applications can locate the link.
 
 </td>
 </tr>

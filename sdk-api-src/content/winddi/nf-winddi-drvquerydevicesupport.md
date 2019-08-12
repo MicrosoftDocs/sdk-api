@@ -152,7 +152,7 @@ The <i>pxlo</i> parameter is valid but the only information of interest is the <
 
 </li>
 </ul>
-For more information about supporting JPEG and PNG compressed images, see the Remarks section for <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a>.
+For more information about supporting JPEG and PNG compressed images, see the Remarks section for <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a>.
 
 
 

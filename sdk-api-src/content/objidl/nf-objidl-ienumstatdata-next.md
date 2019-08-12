@@ -94,7 +94,7 @@ If the method retrieves the number of items requested, the return value is S_OK.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatdata">STATDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statdata">STATDATA</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Checks a provided <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> to see if it contains the Not Supported identifier.
+Checks a provided <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> to see if it contains the Not Supported identifier.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Checks a provided <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/
 
 ### -param value [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a></b>
 
 The value to check.
 
@@ -70,7 +70,7 @@ The value to check.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
 
-Receives <b>TRUE</b> if the provided <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> contains the Not Supported identifier, or <b>FALSE</b> otherwise.
+Receives <b>TRUE</b> if the provided <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> contains the Not Supported identifier, or <b>FALSE</b> otherwise.
 
 
 ## -returns

@@ -71,12 +71,12 @@ A handle to a device context. If the value of <i>iUsage</i> is DIB_PAL_COLORS, t
 
 ### -param pbmi [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure that specifies various attributes of the DIB, including the bitmap dimensions and colors.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure that specifies various attributes of the DIB, including the bitmap dimensions and colors.
 
 
 ### -param usage [in]
 
-The type of data contained in the <b>bmiColors</b> array member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure pointed to by <i>pbmi</i> (either logical palette indexes or literal RGB values). The following values are defined.
+The type of data contained in the <b>bmiColors</b> array member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure pointed to by <i>pbmi</i> (either logical palette indexes or literal RGB values). The following values are defined.
 
 <table>
 <tr>
@@ -99,7 +99,7 @@ The <b>bmiColors</b> member is an array of 16-bit indexes into the logical palet
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure contains an array of literal RGB values.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure contains an array of literal RGB values.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ If <i>hSection</i> is not <b>NULL</b>, it must be a handle to a file-mapping obj
 
 If <i>hSection</i> is not <b>NULL</b>, the <b>CreateDIBSection</b> function locates the bitmap bit values at offset <i>dwOffset</i> in the file-mapping object referred to by <i>hSection</i>. An application can later retrieve the <i>hSection</i> handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> function with the <b>HBITMAP</b> returned by <b>CreateDIBSection</b>.
 
-If <i>hSection</i> is <b>NULL</b>, the system allocates memory for the DIB. In this case, the <b>CreateDIBSection</b> function ignores the <i>dwOffset</i> parameter. An application cannot later obtain a handle to this memory. The <b>dshSection</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagdibsection">DIBSECTION</a> structure filled in by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> function will be <b>NULL</b>.
+If <i>hSection</i> is <b>NULL</b>, the system allocates memory for the DIB. In this case, the <b>CreateDIBSection</b> function ignores the <i>dwOffset</i> parameter. An application cannot later obtain a handle to this memory. The <b>dshSection</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-dibsection">DIBSECTION</a> structure filled in by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> function will be <b>NULL</b>.
 
 
 ### -param offset [in]
@@ -168,7 +168,7 @@ As noted above, if <i>hSection</i> is <b>NULL</b>, the system allocates memory f
 
 You cannot paste a DIB section from one application into another application.
 
-<b>CreateDIBSection</b> does not use the <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> parameters <i>biXPelsPerMeter</i> or <i>biYPelsPerMeter</i> and will not provide resolution information in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure.
+<b>CreateDIBSection</b> does not use the <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> parameters <i>biXPelsPerMeter</i> or <i>biYPelsPerMeter</i> and will not provide resolution information in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure.
 
 You need to guarantee that the GDI subsystem has completed any drawing to a bitmap created by <b>CreateDIBSection</b> before you draw to the bitmap yourself. Access to the bitmap must be synchronized. Do this by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gdiflush">GdiFlush</a> function. This applies to any use of the pointer to the bitmap bit values, including passing the pointer in calls to functions such as <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>.
 
@@ -182,7 +182,7 @@ You need to guarantee that the GDI subsystem has completed any drawing to a bitm
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
 
 
 
@@ -198,7 +198,7 @@ You need to guarantee that the GDI subsystem has completed any drawing to a bitm
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagdibsection">DIBSECTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-dibsection">DIBSECTION</a>
 
 
 

@@ -109,7 +109,7 @@ If the given class does not have a special handler, a call to <b>OleCreateDefaul
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a>
 
 
 

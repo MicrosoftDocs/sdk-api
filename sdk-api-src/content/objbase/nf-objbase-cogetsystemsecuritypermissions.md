@@ -63,7 +63,7 @@ Returns the default values of the Security Descriptors of the machine-wide launc
 
 ### -param comSDType [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/ne-objbase-tagcomsd">COMSD</a> enumeration. Specifies the type of the requested system security permissions, such as launch permissions, access permissions, launch restrictions, and access restrictions.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/ne-objbase-comsd">COMSD</a> enumeration. Specifies the type of the requested system security permissions, such as launch permissions, access permissions, launch restrictions, and access restrictions.
 
 
 ### -param ppSD [out]
@@ -137,7 +137,7 @@ Not enough memory for the security descriptor's allocation.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/ne-objbase-tagcomsd">COMSD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/ne-objbase-comsd">COMSD</a>
 
 
 

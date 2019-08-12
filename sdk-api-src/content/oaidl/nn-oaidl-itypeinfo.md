@@ -119,7 +119,7 @@ Retrieves the documentation string, the complete Help file name and path, and th
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getfuncdesc">GetFuncDesc</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagfuncdesc">FUNCDESC</a> structure that contains information about a specified function
+Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-funcdesc">FUNCDESC</a> structure that contains information about a specified function
 
 </td>
 </tr>

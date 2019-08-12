@@ -112,7 +112,7 @@ Reserved; do not use.
 
 ### -field lpbiOut
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure containing the image output format. You can specify a specific format to use or you can specify <b>NULL</b> to use the default compressor associated with the input format. You can also set the image output format by using <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iccompressorchoose">ICCompressorChoose</a>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure containing the image output format. You can specify a specific format to use or you can specify <b>NULL</b> to use the default compressor associated with the input format. You can also set the image output format by using <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iccompressorchoose">ICCompressorChoose</a>.
 
 
 ### -field lpBitsOut

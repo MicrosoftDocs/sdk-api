@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_events">OFFLINEFILES_EVENTS</a> enumeration values describing which events should be received by the event sink. If a particular event is specified both in <b>IOfflineFilesEventsFilter::GetIncludedEvents</b> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileseventsfilter-getexcludedevents">IOfflineFilesEventsFilter::GetExcludedEvents</a>, the event is excluded from this event sink.
+Retrieves an array of <a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_events">OFFLINEFILES_EVENTS</a> enumeration values describing which events should be received by the event sink. If a particular event is specified both in <b>IOfflineFilesEventsFilter::GetIncludedEvents</b> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileseventsfilter-getexcludedevents">IOfflineFilesEventsFilter::GetExcludedEvents</a>, the event is excluded from this event sink.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ Specifies the maximum number of elements that can be stored in the array referen
 
 ### -param prgEvents [out]
 
-Contains the address of an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_events">OFFLINEFILES_EVENTS</a> enumeration values.  Place the <b>OFFLINEFILES_EVENT_XXXXXX</b> identifier in an array entry to specify that the corresponding event is desired by this event sink.
+Contains the address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_events">OFFLINEFILES_EVENTS</a> enumeration values.  Place the <b>OFFLINEFILES_EVENT_XXXXXX</b> identifier in an array entry to specify that the corresponding event is desired by this event sink.
 
 
 ### -param pcEvents [out]
@@ -97,7 +97,7 @@ Return <b>S_OK</b> if implemented, <b>E_NOTIMPL</b> if not implemented.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_events">OFFLINEFILES_EVENTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_events">OFFLINEFILES_EVENTS</a>
  
 
  

@@ -86,7 +86,7 @@ See the <b>wProcessorArchitecture</b> member of <a href="https://docs.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-tagquerycontext">QUERYCONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-querycontext">QUERYCONTEXT</a>
  
 
  

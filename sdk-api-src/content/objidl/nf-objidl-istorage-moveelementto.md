@@ -78,7 +78,7 @@ Pointer to a wide character null-terminated unicode string that contains the new
 ### -param grfFlags [in]
 
 Specifies whether the operation should be a move (STGMOVE_MOVE) or a copy (STGMOVE_COPY). See the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagstgmove">STGMOVE</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-stgmove">STGMOVE</a> enumeration.
 
 
 ## -returns
@@ -118,7 +118,7 @@ Before calling this method, the element to be moved must be closed, and the dest
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagstgmove">STGMOVE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-stgmove">STGMOVE</a>
  
 
  

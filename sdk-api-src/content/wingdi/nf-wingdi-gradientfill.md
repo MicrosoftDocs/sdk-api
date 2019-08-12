@@ -176,7 +176,7 @@ For more information, see <a href="https://docs.microsoft.com/windows/desktop/gd
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagemrgradientfill">EMRGRADIENTFILL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emrgradientfill">EMRGRADIENTFILL</a>
 
 
 

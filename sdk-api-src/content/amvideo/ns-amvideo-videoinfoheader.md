@@ -90,9 +90,9 @@ The desired average display time of the video frames, in 100-nanosecond units. T
 ### -field bmiHeader
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure that contains color and dimension information for the video image bitmap. If the format block contains a color table or color masks, they immediately follow the <b>bmiHeader</b> member. You can get the first color entry by casting the address of member to a <b>BITMAPINFO</b> pointer.
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure that contains color and dimension information for the video image bitmap. If the format block contains a color table or color masks, they immediately follow the <b>bmiHeader</b> member. You can get the first color entry by casting the address of member to a <b>BITMAPINFO</b> pointer.
 
-When used inside a <b>VIDEOINFOHEADER</b> structure, the semantics of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure differ slightly from how the structure is used in GDI. For more information, refer to the topic <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER Structure</a>.
+When used inside a <b>VIDEOINFOHEADER</b> structure, the semantics of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure differ slightly from how the structure is used in GDI. For more information, refer to the topic <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER Structure</a>.
 
 
 ## -remarks

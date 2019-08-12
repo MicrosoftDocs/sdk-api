@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>Skip</b> method skips a specified number 
-   of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structures in the enumeration 
+   of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures in the enumeration 
    sequence.
 
 
@@ -63,7 +63,7 @@ The <b>Skip</b> method skips a specified number
 
 ### -param celt
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structures to skip.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures to skip.
 
 
 ## -returns

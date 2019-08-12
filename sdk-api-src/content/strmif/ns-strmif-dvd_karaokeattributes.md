@@ -79,12 +79,12 @@ A Boolean value indicating whether the song is intended to be sung as a duet.
 
 ### -field ChannelAssignment
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_karaoke_assignment">DVD_KARAOKE_ASSIGNMENT</a> value indicating the speaker configuration into which all the channels will be mixed.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_karaoke_assignment">DVD_KARAOKE_ASSIGNMENT</a> value indicating the speaker configuration into which all the channels will be mixed.
 
 
 ### -field wChannelContents
 
-An array of valid <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_karaoke_contents">DVD_KARAOKE_CONTENTS</a> values that identifies the content on each channel.
+An array of valid <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_karaoke_contents">DVD_KARAOKE_CONTENTS</a> values that identifies the content on each channel.
 
 
 ## -see-also

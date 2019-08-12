@@ -66,12 +66,12 @@ The <b>NEWTEXTMETRICEX</b> structure contains information about a physical font.
 
 ### -field ntmTm
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagnewtextmetrica">NEWTEXTMETRIC</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-newtextmetrica">NEWTEXTMETRIC</a> structure.
 
 
 ### -field ntmFontSig
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagfontsignature">FONTSIGNATURE</a> structure indicating the coverage of the font.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a> structure indicating the coverage of the font.
 
 
 ## -see-also
@@ -79,7 +79,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagfo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagfontsignature">FONTSIGNATURE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a>
 
 
 
@@ -91,7 +91,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagfo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagnewtextmetrica">NEWTEXTMETRIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-newtextmetrica">NEWTEXTMETRIC</a>
  
 
  

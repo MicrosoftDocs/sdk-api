@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called by a data consumer to obtain data from a source data object. The <b>GetData</b> method renders the data described in the specified <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure and transfers it through the specified <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a> structure. The caller then assumes responsibility for releasing the <b>STGMEDIUM</b> structure.
+Called by a data consumer to obtain data from a source data object. The <b>GetData</b> method renders the data described in the specified <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure and transfers it through the specified <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a> structure. The caller then assumes responsibility for releasing the <b>STGMEDIUM</b> structure.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Called by a data consumer to obtain data from a source data object. The <b>GetDa
 
 ### -param pformatetcIn [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure that defines the format, medium, and target device to use when passing the data. It is possible to specify more than one medium by using the Boolean OR operator, allowing the method to choose the best medium among those specified.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure that defines the format, medium, and target device to use when passing the data. It is possible to specify more than one medium by using the Boolean OR operator, allowing the method to choose the best medium among those specified.
 
 
 ### -param pmedium [out]
@@ -197,7 +197,7 @@ You can specify more than one acceptable <b>tymed</b> medium with the Boolean OR
 Data transferred across a stream extends from position zero of the stream pointer through to the position immediately before the current stream pointer (that is, the stream pointer position upon exit).
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-<b>GetData</b> must check all fields in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure. It is important that <b>GetData</b> render the requested aspect and, if possible, use the requested medium. If the data object cannot comply with the information specified in the <b>FORMATETC</b>, the method should return DV_E_FORMATETC. If an attempt to allocate the medium fails, the method should return STG_E_MEDIUMFULL. It is important to fill in all of the fields in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a> structure.
+<b>GetData</b> must check all fields in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure. It is important that <b>GetData</b> render the requested aspect and, if possible, use the requested medium. If the data object cannot comply with the information specified in the <b>FORMATETC</b>, the method should return DV_E_FORMATETC. If an attempt to allocate the medium fails, the method should return STG_E_MEDIUMFULL. It is important to fill in all of the fields in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a> structure.
 
 Although the caller can specify more than one medium for returning the data, <b>GetData</b> can provide only one medium. If the initial transfer fails with the selected medium, this method can be implemented to try one of the other media specified before returning an error.
 

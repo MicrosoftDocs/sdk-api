@@ -233,7 +233,7 @@ The values of <b>lpApplicationName</b> and <b>lpAssemblyDirectory</b> are not se
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a>
 
 
 

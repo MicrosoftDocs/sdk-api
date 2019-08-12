@@ -139,7 +139,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pchannel/ns-pchannel-tagchannel_pdu_header">CHANNEL_PDU_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pchannel/ns-pchannel-channel_pdu_header">CHANNEL_PDU_HEADER</a>
 
 
 

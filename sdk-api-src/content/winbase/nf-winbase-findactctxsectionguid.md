@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 The 
 <b>FindActCtxSectionGuid</b> function retrieves information on a specific GUID in the current activation context and returns a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a> structure.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ Flags that determine how this function is to operate. Only the following flag is
 </td>
 <td width="60%">
 This function returns the activation context handle where the redirection data was found in the <b>hActCtx</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a> structure. The caller must use 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a> structure. The caller must use 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-releaseactctx">ReleaseActCtx</a> to release this activation context.
 
 </td>
@@ -123,7 +123,7 @@ Pointer to a GUID to be used as the search criteria.
 ### -param ReturnedData [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a> structure to be filled out with the requested GUID information.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a> structure to be filled out with the requested GUID information.
 
 
 ## -returns
@@ -154,7 +154,7 @@ This function should only be called by the Side-by-side API functions or COM met
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a>
 
 
 

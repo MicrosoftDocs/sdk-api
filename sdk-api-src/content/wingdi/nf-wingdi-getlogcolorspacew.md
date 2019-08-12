@@ -70,7 +70,7 @@ Specifies the handle to a color space.
 
 ### -param lpBuffer
 
-Points to a buffer to receive the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogcolorspacea">LOGCOLORSPACE</a> structure.
+Points to a buffer to receive the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logcolorspacea">LOGCOLORSPACE</a> structure.
 
 
 ### -param nSize

@@ -94,7 +94,7 @@ Most subpicture streams contain language-related content such as movie subtitles
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_subpictureattributes">DVD_SubpictureAttributes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_subpictureattributes">DVD_SubpictureAttributes</a>
 
 
 

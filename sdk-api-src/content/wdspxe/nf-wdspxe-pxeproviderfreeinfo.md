@@ -62,7 +62,7 @@ Frees memory allocated by the
 
 ### -param pProvider [in]
 
-Address of a <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-tagpxe_provider">PXE_PROVIDER</a> structure returned from the 
+Address of a <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-pxe_provider">PXE_PROVIDER</a> structure returned from the 
       <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderenumnext">PxeProviderEnumNext</a> function.
 
 
@@ -80,7 +80,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-tagpxe_provider">PXE_PROVIDER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-pxe_provider">PXE_PROVIDER</a>
 
 
 

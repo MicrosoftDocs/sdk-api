@@ -65,7 +65,7 @@ The
 ### -param ppProps [out]
 
 Pointer to a pointer that, on successful return, points to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ns-netcon-tagnetcon_properties">NETCON_PROPERTIES</a> structure that contains the properties for this network connection.
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ns-netcon-netcon_properties">NETCON_PROPERTIES</a> structure that contains the properties for this network connection.
 
 
 ## -returns
@@ -180,7 +180,7 @@ The method failed for unknown reasons.
 
 
 The calling application should free the memory occupied by the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ns-netcon-tagnetcon_properties">NETCON_PROPERTIES</a> structure returned by <b>GetProperties</b>. Free the memory by calling the <a href="https://docs.microsoft.com/windows/desktop/api/netcon/nf-netcon-ncfreenetconproperties">NcFreeNetconProperties</a> function. This function is defined in NetCon.h and is exported by NetShell.dll.
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ns-netcon-netcon_properties">NETCON_PROPERTIES</a> structure returned by <b>GetProperties</b>. Free the memory by calling the <a href="https://docs.microsoft.com/windows/desktop/api/netcon/nf-netcon-ncfreenetconproperties">NcFreeNetconProperties</a> function. This function is defined in NetCon.h and is exported by NetShell.dll.
 
 
 

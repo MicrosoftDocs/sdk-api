@@ -65,7 +65,7 @@ The <code>OnUpdateColorKey</code> method informs the application that the color 
 
 ### -param pKey [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagcolorkey">COLORKEY</a> structure that contains the key type and a palette index.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-colorkey">COLORKEY</a> structure that contains the key type and a palette index.
 
 
 ### -param dwColor [out]

@@ -72,7 +72,7 @@ Specifies a string GUID that identifies the data to set.
 Type: <b>VARIANT</b>
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> that specifies the data to be set.
+<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> that specifies the data to be set.
 
 
 ## -returns

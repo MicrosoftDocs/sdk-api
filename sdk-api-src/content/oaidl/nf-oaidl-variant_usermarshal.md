@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Marshals a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> object into the RPC buffer.
+Marshals a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> object into the RPC buffer.
 
 
 ## -parameters

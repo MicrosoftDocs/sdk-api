@@ -78,7 +78,7 @@ Length of the packet pointed to by the <i>pPacket</i> parameter.
 
 ### -param pAddress [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-tagpxe_address">PXE_ADDRESS</a> structure that contains the 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-pxe_address">PXE_ADDRESS</a> structure that contains the 
       destination address of the packet. If the <i>pAddress</i> parameter is 
       <b>NULL</b>, then the packet is sent to the source address of the client request.
 
@@ -97,7 +97,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-tagpxe_address">PXE_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-pxe_address">PXE_ADDRESS</a>
 
 
 

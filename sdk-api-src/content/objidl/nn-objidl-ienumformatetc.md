@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enumerates the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structures that define the formats and media supported by a given data object.
+Enumerates the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structures that define the formats and media supported by a given data object.
 
 
 ## -inheritance

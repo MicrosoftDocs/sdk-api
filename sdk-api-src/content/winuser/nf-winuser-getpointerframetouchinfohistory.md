@@ -83,7 +83,7 @@ A pointer to a variable that specifies the count of columns in the two-dimension
 
 ### -param touchInfo [out]
 
-Address of a two-dimensional array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_touch_info">POINTER_TOUCH_INFO</a> structures to receive the pointer information. This parameter can be NULL if <i>*entriesCount</i> and <i>*pointerCount</i> are both zero.
+Address of a two-dimensional array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_touch_info">POINTER_TOUCH_INFO</a> structures to receive the pointer information. This parameter can be NULL if <i>*entriesCount</i> and <i>*pointerCount</i> are both zero.
 
 This array is interpreted as <code>POINTER_TOUCH_INFO[*entriesCount][*pointerCount]</code>.
 

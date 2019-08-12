@@ -68,7 +68,7 @@ Handle to the input context.
 
 ### -param lpCandidate [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagcandidateform">CANDIDATEFORM</a> structure that contains information about the candidates window.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-candidateform">CANDIDATEFORM</a> structure that contains information about the candidates window.
 
 
 ## -returns
@@ -94,7 +94,7 @@ This function causes an <a href="https://docs.microsoft.com/windows/desktop/Intl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagcandidateform">CANDIDATEFORM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-candidateform">CANDIDATEFORM</a>
 
 
 

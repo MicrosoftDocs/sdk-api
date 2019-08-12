@@ -63,7 +63,7 @@ The <b>CreatePenIndirect</b> function creates a logical cosmetic pen that has th
 
 ### -param plpen [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogpen">LOGPEN</a> structure that specifies the pen's style, width, and color.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logpen">LOGPEN</a> structure that specifies the pen's style, width, and color.
 
 
 ## -returns
@@ -109,7 +109,7 @@ When you no longer need the pen, call the <a href="https://docs.microsoft.com/wi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogpen">LOGPEN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logpen">LOGPEN</a>
 
 
 

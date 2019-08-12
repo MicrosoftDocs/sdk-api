@@ -70,7 +70,7 @@ Pointer to the pin to retrieve the video control mode from.
 
 ### -param Mode [out]
 
-Pointer to a value representing a combination of the flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagvideocontrolflags">VideoControlFlags</a> enumeration, which specify the video control mode.
+Pointer to a value representing a combination of the flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-videocontrolflags">VideoControlFlags</a> enumeration, which specify the video control mode.
 
 
 ## -returns

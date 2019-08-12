@@ -76,14 +76,14 @@ A handle to the accelerator table to copy.
 
 Type: <b>LPACCEL</b>
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagaccel">ACCEL</a> structures that receives the accelerator-table information.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a> structures that receives the accelerator-table information.
 
 
 ### -param cAccelEntries [in]
 
 Type: <b>int</b>
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagaccel">ACCEL</a> structures to copy to the buffer pointed to by the 
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a> structures to copy to the buffer pointed to by the 
      <i>lpAccelDst</i> parameter.
 
 
@@ -104,7 +104,7 @@ If
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagaccel">ACCEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a>
 
 
 

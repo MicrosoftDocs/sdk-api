@@ -74,7 +74,7 @@ Specifies WPS 2.0.  Indicates compliance with Wi-Fi Alliance protocol specificat
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-wcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>
  
 
  

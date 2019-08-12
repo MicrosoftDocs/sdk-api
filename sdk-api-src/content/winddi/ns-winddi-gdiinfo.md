@@ -246,7 +246,7 @@ Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-wi
 
 ### -field szlPhysSize
 
-Specifies a SIZEL structure that contains the size, in pixels, of the entire surface, including unwritable margins. A SIZEL structure is identical to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagsize">SIZE</a> structure.
+Specifies a SIZEL structure that contains the size, in pixels, of the entire surface, including unwritable margins. A SIZEL structure is identical to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-size">SIZE</a> structure.
 
 
 ### -field ulNumPalReg

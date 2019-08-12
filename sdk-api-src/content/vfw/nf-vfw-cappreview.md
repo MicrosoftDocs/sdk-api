@@ -76,7 +76,7 @@ Preview flag. Specify <b>TRUE</b> for this parameter to enable preview mode or <
 
 
 
-The preview mode uses substantial CPU resources. Applications can disable preview or lower the preview rate when another application has the focus. The <b>fLiveWindow</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-tagcapstatus">CAPSTATUS</a> structure indicates if preview mode is currently enabled.
+The preview mode uses substantial CPU resources. Applications can disable preview or lower the preview rate when another application has the focus. The <b>fLiveWindow</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-capstatus">CAPSTATUS</a> structure indicates if preview mode is currently enabled.
 
 Enabling preview mode automatically disables overlay mode.
 

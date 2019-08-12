@@ -65,7 +65,7 @@ The <code>GetAvailableMonitors</code> method retrieves information about the mon
 
 ### -param pInfo [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagvmrmonitorinfo">VMRMONITORINFO</a> structures that contain information about each monitor on the system.
+Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrmonitorinfo">VMRMONITORINFO</a> structures that contain information about each monitor on the system.
 
 
 ### -param dwMaxInfoArraySize [in]

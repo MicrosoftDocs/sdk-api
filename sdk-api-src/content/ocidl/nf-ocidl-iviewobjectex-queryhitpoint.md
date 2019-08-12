@@ -85,7 +85,7 @@ Suggested distance in <b>HIMETRIC</b> units that the container considers close. 
 ### -param pHitResult [out]
 
 A pointer to returned information about the hit expressed as the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-taghitresult">HITRESULT</a> enumeration values.
+       <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-hitresult">HITRESULT</a> enumeration values.
 
 
 ## -returns
@@ -108,7 +108,7 @@ This method returns <b>S_OK</b> on success. Other possible return values include
 </td>
 <td width="60%">
 This method is not implemented for the requested aspect. Use 
-         <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagdvaspect">DVASPECT_CONTENT</a> instead.
+         <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT_CONTENT</a> instead.
 
 </td>
 </tr>
@@ -189,7 +189,7 @@ An object supporting <a href="https://docs.microsoft.com/windows/desktop/api/oci
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-taghitresult">HITRESULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-hitresult">HITRESULT</a>
 
 
 

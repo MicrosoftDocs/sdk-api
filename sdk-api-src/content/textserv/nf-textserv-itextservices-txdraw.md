@@ -114,7 +114,7 @@ Information for drawing optimizations.
 
 ### -param ptd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagdvtargetdevice">DVTARGETDEVICE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a>*</b>
 
 The target device. 
 
@@ -246,7 +246,7 @@ Also, take great care when the control is in-place active. This problem is even 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagdvtargetdevice">DVTARGETDEVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a>
 
 
 

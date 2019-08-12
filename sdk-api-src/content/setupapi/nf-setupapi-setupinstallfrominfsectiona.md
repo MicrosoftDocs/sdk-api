@@ -217,7 +217,7 @@ Examine each file being copied to see if its version resources indicate that it 
 
 The file version information used during version checks is that specified in the 
           <b>dwFileVersionMS</b> and <b>dwFileVersionLS</b> members of a 
-          <a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-tagvs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure, as filled 
+          <a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure, as filled 
           in by the  version functions. If one of the files does not have version resources, or if they have 
           identical version information, the source file is considered newer.
 

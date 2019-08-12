@@ -61,7 +61,7 @@ Retrieves the destination context for the RPC channel.
 
 ### -param pdwDestContext [out]
 
-The destination context in which the interface is unmarshaled. Possible values come from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagmshctx">MSHCTX</a> enumeration.
+The destination context in which the interface is unmarshaled. Possible values come from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshctx">MSHCTX</a> enumeration.
 
 
 ### -param ppvDestContext [out]

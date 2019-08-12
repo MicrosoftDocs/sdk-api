@@ -76,12 +76,12 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/
 
 ### -param dwClsContext [in]
 
-The context in which the executable code is to be run. For information on these context values, see the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX</a> enumeration.
+The context in which the executable code is to be run. For information on these context values, see the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a> enumeration.
 
 
 ### -param flags [in]
 
-Indicates how connections are made to the class object. For information on these flags, see the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-tagregcls">REGCLS</a> enumeration.
+Indicates how connections are made to the class object. For information on these flags, see the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-regcls">REGCLS</a> enumeration.
 
 
 ### -param lpdwRegister [out]
@@ -160,7 +160,7 @@ As of Windows Server 2003, if a COM object application is registered as a servi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a>
 
 
 
@@ -176,7 +176,7 @@ As of Windows Server 2003, if a COM object application is registered as a servi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-tagregcls">REGCLS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-regcls">REGCLS</a>
  
 
  

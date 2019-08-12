@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Allows applications to extract the information that was placed in <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagnmtbsave">NMTBSAVE</a> when the toolbar state was saved. This structure is passed to applications when they receive a <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-restore">TBN_RESTORE</a> notification code.
+Allows applications to extract the information that was placed in <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-nmtbsave">NMTBSAVE</a> when the toolbar state was saved. This structure is passed to applications when they receive a <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-restore">TBN_RESTORE</a> notification code.
 
 
 ## -struct-fields

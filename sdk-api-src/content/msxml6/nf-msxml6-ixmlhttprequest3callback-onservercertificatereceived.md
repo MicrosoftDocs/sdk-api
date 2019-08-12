@@ -76,7 +76,7 @@ The number of elements in the <i>rgServerCertChain</i> parameter.
 
 ### -param rgServerCertificateChain [in]
 
-An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ns-msxml6-tagxhr_cert">XHR_CERT</a> structures that represent the server certificate chain.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ns-msxml6-xhr_cert">XHR_CERT</a> structures that represent the server certificate chain.
 
 
 ## -returns
@@ -114,7 +114,7 @@ Returns <b>S_OK</b> on success.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/ns-msxml6-tagxhr_cert">XHR_CERT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ns-msxml6-xhr_cert">XHR_CERT</a>
 
 
 

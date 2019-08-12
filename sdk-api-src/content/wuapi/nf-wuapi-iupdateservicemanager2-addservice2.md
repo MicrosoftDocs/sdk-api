@@ -66,7 +66,7 @@ An identifier for the service to be registered.
 
 ### -param flags [in]
 
-A combination of <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagaddserviceflag">AddServiceFlag</a> values that are combined by using a bitwise OR operation. The resulting value specifies options for service registration. For more info, see Remarks. 
+A combination of <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-addserviceflag">AddServiceFlag</a> values that are combined by using a bitwise OR operation. The resulting value specifies options for service registration. For more info, see Remarks. 
 
 
 ### -param authorizationCabPath [in]
@@ -155,7 +155,7 @@ This method returns <b>E_INVALIDARG</b> if the <b>asfAllowOnlineRegistration</b>
 
 This method returns <b>WU_E_DS_INVALIDOPERATION</b> if the requested change in the state of Automatic Updates is contrary to the specifications in the authorization cabinet file (.cab) when the <b>asfRegisterServiceWithAU</b> flag is specified. An error is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> function if the authorization cabinet file has not been signed.
 
-The update agent and <b>AddService2</b> behave in the following ways depending on the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagaddserviceflag">AddServiceFlag</a> values that you specify in the <i>flags</i> parameter:
+The update agent and <b>AddService2</b> behave in the following ways depending on the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-addserviceflag">AddServiceFlag</a> values that you specify in the <i>flags</i> parameter:
 
 <ul>
 <li>If you specify <b>asfAllowOnlineRegistration</b> without <b>asfAllowPendingRegistration</b>, the update agent immediately attempts to go online to register the service. <b>AddService2</b> returns an HRESULT value that reflects the success or failure of the registration. If the registration fails, the update agent makes no future attempts to register the service.</li>

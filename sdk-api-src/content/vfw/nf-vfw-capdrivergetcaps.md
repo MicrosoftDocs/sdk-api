@@ -69,7 +69,7 @@ Handle to a capture window.
 
 ### -param s
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-tagcapdrivercaps">CAPDRIVERCAPS</a> structure to contain the hardware capabilities. 
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-capdrivercaps">CAPDRIVERCAPS</a> structure to contain the hardware capabilities. 
 
 
 ### -param wSize
@@ -81,7 +81,7 @@ Size, in bytes, of the structure referenced by <i>psCaps</i>.
 
 
 
-The capabilities returned in <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-tagcapdrivercaps">CAPDRIVERCAPS</a> are constant for a given capture driver. Applications need to retrieve this information once when the capture driver is first connected to a capture window.
+The capabilities returned in <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-capdrivercaps">CAPDRIVERCAPS</a> are constant for a given capture driver. Applications need to retrieve this information once when the capture driver is first connected to a capture window.
 
 
 

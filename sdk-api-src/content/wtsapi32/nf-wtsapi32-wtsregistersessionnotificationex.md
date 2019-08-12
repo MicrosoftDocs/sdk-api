@@ -149,7 +149,7 @@ To receive session change notifications from a service, use the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwtssession_notification">WTSSESSION_NOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wtssession_notification">WTSSESSION_NOTIFICATION</a>
 
 
 

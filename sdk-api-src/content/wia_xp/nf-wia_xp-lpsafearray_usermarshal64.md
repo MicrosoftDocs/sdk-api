@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Marshals data from the specified <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> object to the user's RPC buffer on the client or server side. 
+Marshals data from the specified <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object to the user's RPC buffer on the client or server side. 
 
 
 ## -parameters

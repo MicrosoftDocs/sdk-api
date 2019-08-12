@@ -68,7 +68,7 @@ The size of this structure, in bytes.
 
 ### -field grfFlags
 
-Flags that control aspects of moniker binding operations. This value is any combination of the bit flags in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagbind_flags">BIND_FLAGS</a> enumeration. The <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createbindctx">CreateBindCtx</a> function initializes this member to zero.
+Flags that control aspects of moniker binding operations. This value is any combination of the bit flags in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-bind_flags">BIND_FLAGS</a> enumeration. The <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createbindctx">CreateBindCtx</a> function initializes this member to zero.
 
 
 ### -field grfMode

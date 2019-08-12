@@ -70,7 +70,7 @@ A handle to the list-view control.
 
 Type: <b>LPLVBKIMAGE</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvbkimagea">LVBKIMAGE</a> structure that will receive the background image information. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvbkimagea">LVBKIMAGE</a> structure that will receive the background image information. 
 
 
 ## -see-also

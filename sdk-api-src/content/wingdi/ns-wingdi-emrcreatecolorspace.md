@@ -82,19 +82,19 @@ The logical color space.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagemrcreatecolorspace">CreateColorSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emrcreatecolorspace">CreateColorSpace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagemr">EMR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagemrcreatecolorspacew">EMRCREATECOLORSPACEW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emrcreatecolorspacew">EMRCREATECOLORSPACEW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogcolorspacea">LOGCOLORSPACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logcolorspacea">LOGCOLORSPACE</a>
 
 
 

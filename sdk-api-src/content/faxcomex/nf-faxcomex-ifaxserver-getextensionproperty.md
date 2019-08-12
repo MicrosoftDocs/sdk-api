@@ -78,7 +78,7 @@ TBD
 
 Type: <b>VARIANT*</b>
 
-Pointer to a variable that receives a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> that specifies the data.
+Pointer to a variable that receives a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> that specifies the data.
 
 
 ## -returns

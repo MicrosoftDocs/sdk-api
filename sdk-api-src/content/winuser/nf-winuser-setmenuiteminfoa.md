@@ -90,7 +90,7 @@ The meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is 
 
 Type: <b>LPMENUITEMINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmenuiteminfoa">MENUITEMINFO</a> structure that contains information about the menu item and specifies which menu item attributes to change. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-menuiteminfoa">MENUITEMINFO</a> structure that contains information about the menu item and specifies which menu item attributes to change. 
 
 
 ## -returns
@@ -142,7 +142,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmenuiteminfoa">MENUITEMINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-menuiteminfoa">MENUITEMINFO</a>
 
 
 

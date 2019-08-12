@@ -70,7 +70,7 @@ A handle to the snapshot returned from a previous call to the
 ### -param lphl [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-tagheaplist32">HEAPLIST32</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-heaplist32">HEAPLIST32</a> structure.
 
 
 ## -returns
@@ -109,7 +109,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-tagheaplist32">HEAPLIST32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-heaplist32">HEAPLIST32</a>
 
 
 

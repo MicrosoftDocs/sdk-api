@@ -101,7 +101,7 @@ Gets the folder that the menu band is set to browse.
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-getstate">GetState</a>
 </td>
 <td align="left" width="63%">
-Gets a filled <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-tagsmdata">SMDATA</a> structure.
+Gets a filled <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-smdata">SMDATA</a> structure.
 
 </td>
 </tr>

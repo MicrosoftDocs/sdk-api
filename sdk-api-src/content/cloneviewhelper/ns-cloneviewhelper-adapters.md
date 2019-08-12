@@ -66,7 +66,7 @@ The number of graphics adapters in the array that the <b>adapter</b> member spec
 
 ### -field adapter
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-tagadapter">Adapter</a> structures that specify information about graphics adapters. 
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-adapter">Adapter</a> structures that specify information about graphics adapters. 
 
 
 ## -see-also
@@ -74,7 +74,7 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhel
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-tagadapter">Adapter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-adapter">Adapter</a>
 
 
 

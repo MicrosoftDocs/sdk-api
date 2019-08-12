@@ -66,12 +66,12 @@ No match was found.
 
 ### -field DESCKIND_FUNCDESC
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagfuncdesc">FUNCDESC</a> was returned.
+A <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-funcdesc">FUNCDESC</a> was returned.
 
 
 ### -field DESCKIND_VARDESC
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvardesc">VARDESC</a> was returned.
+A <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-vardesc">VARDESC</a> was returned.
 
 
 ### -field DESCKIND_TYPECOMP

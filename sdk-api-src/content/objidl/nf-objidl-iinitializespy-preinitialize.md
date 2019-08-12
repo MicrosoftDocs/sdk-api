@@ -61,7 +61,7 @@ Performs initialization steps required before calling the <a href="https://docs.
 
 ### -param dwCoInit [in]
 
-The apartment type passed to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/ne-objbase-tagcoinit">COINIT</a> enumeration.
+The apartment type passed to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/ne-objbase-coinit">COINIT</a> enumeration.
 
 
 ### -param dwCurThreadAptRefs [in]

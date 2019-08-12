@@ -68,7 +68,7 @@ Pointer to a null-terminated string that contains the name of the helper attribu
 
 ### -field type
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ne-ndattrib-tagattribute_type">ATTRIBUTE_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ne-ndattrib-attribute_type">ATTRIBUTE_TYPE</a></b>
 
 The type of helper attribute.
 
@@ -78,11 +78,11 @@ The type of helper attribute.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ne-ndattrib-tagattribute_type">ATTRIBUTE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ne-ndattrib-attribute_type">ATTRIBUTE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-taghelper_attribute">HELPER_ATTRIBUTE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-helper_attribute">HELPER_ATTRIBUTE</a>
  
 
  

@@ -82,7 +82,7 @@ When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</
 
 
 
-Possible values and their meaning are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-taganalogvideostandard">AnalogVideoStandard</a> enumeration.
+Possible values and their meaning are defined in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard</a> enumeration.
 
 
 

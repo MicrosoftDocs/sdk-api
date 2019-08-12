@@ -80,7 +80,7 @@ This method can return one of these values.
 
 
 <b>IPropertySetStorage::Enum</b> creates an enumerator object that can be used to iterate through 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropsetstg">STATPROPSETSTG</a> structures. These sometimes provide information on the property sets managed by 
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropsetstg">STATPROPSETSTG</a> structures. These sometimes provide information on the property sets managed by 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>. This method, on return, supplies a pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a> interface on this enumerator object on return.
 

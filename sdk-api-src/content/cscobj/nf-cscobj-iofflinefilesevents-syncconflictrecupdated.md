@@ -72,7 +72,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/
 
 ### -param ConflictSyncState [in]
 
-Describes the state of the local and remote items in conflict.  One of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_sync_state">OFFLINEFILES_SYNC_STATE</a> sync state values, such as
+Describes the state of the local and remote items in conflict.  One of the <a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_sync_state">OFFLINEFILES_SYNC_STATE</a> sync state values, such as
 
 OFFLINEFILES_SYNC_STATE_FileChangedOnClient_ChangedOnServer
 

@@ -61,7 +61,7 @@ Retrieves information about the opacity of the object, and what drawing aspects 
 
 ### -param pdwStatus [out]
 
-A pointer to the view status. This information is returned as a combination of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagviewstatus">VIEWSTATUS</a> enumeration values.
+A pointer to the view status. This information is returned as a combination of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-viewstatus">VIEWSTATUS</a> enumeration values.
 
 
 ## -returns
@@ -105,7 +105,7 @@ Which drawing aspects are supported is independent of whether the object is opaq
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagviewstatus">VIEWSTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-viewstatus">VIEWSTATUS</a>
  
 
  

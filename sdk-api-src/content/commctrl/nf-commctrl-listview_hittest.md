@@ -70,5 +70,5 @@ A handle to the list-view control.
 
 Type: <b>LPLVHITTESTINFO</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvhittestinfo">LVHITTESTINFO</a> structure that contains the position to hit test and receives information about the results of the hit test. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvhittestinfo">LVHITTESTINFO</a> structure that contains the position to hit test and receives information about the results of the hit test. 
 

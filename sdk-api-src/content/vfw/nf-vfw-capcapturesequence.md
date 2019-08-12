@@ -73,7 +73,7 @@ Handle to a capture window.
 
 If you want to alter the parameters controlling streaming capture, use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcapturesetsetup">capCaptureSetSetup</a> macro prior to starting the capture.
 
-By default, the capture window does not allow other applications to continue running during capture. To override this, either set the <b>fYield</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-tagcaptureparms">CAPTUREPARMS</a> structure to <b>TRUE</b>, or install a yield callback function.
+By default, the capture window does not allow other applications to continue running during capture. To override this, either set the <b>fYield</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-captureparms">CAPTUREPARMS</a> structure to <b>TRUE</b>, or install a yield callback function.
 
 During streaming capture, the capture window can optionally issue notifications to your application of specific types of conditions. To install callback procedures for these notifications, use the following macros:
 

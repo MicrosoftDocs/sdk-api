@@ -92,7 +92,7 @@ Returns <b>S_OK</b> on success or a COM failure code otherwise. See <a href="htt
 
 
 
-This function gets the size of the stream by calling the specified stream object's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">IStream::Stat</a> method. It then copies the value of the <b>cbSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure returned by <b>IStream::Stat</b> to the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ularge_integer">ULARGE_INTEGER</a> structure pointed to by <i>pui</i>.  If the function fails, the contents of the <b>ULARGE_INTEGER</b> structure are undefined.
+This function gets the size of the stream by calling the specified stream object's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">IStream::Stat</a> method. It then copies the value of the <b>cbSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure returned by <b>IStream::Stat</b> to the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ularge_integer">ULARGE_INTEGER</a> structure pointed to by <i>pui</i>.  If the function fails, the contents of the <b>ULARGE_INTEGER</b> structure are undefined.
 
 
 

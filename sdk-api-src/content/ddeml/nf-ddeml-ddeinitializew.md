@@ -387,7 +387,7 @@ The <b>CBF_FAIL_ALLSVRXACTIONS</b> flag causes the DDEML to filter all server tr
 
 There is an ANSI version and a Unicode version of <b>DdeInitialize</b>. The version called determines the type of the window procedures used to control DDE conversations (ANSI or Unicode), and the default value for the 
 				<i>iCodePage</i> member of the 
-				<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagconvcontext">CONVCONTEXT</a> structure (<b>CP_WINANSI</b> or <b>CP_WINUNICODE</b>). 
+				<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-convcontext">CONVCONTEXT</a> structure (<b>CP_WINANSI</b> or <b>CP_WINUNICODE</b>). 
 
 
 

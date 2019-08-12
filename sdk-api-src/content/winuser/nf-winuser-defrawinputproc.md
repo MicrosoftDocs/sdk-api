@@ -63,14 +63,14 @@ Calls the default raw input procedure to provide default processing for any raw 
 
 Type: <b>PRAWINPUT*</b>
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a> structures. 
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structures. 
 
 
 ### -param nInput [in]
 
 Type: <b>INT</b>
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a> structures pointed to by 
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structures pointed to by 
 					<i>paRawInput</i>. 
 
 
@@ -78,7 +78,7 @@ The number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns
 
 Type: <b>UINT</b>
 
-The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputheader">RAWINPUTHEADER</a> structure. 
+The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a> structure. 
 
 
 ## -returns
@@ -101,11 +101,11 @@ If successful, the function returns <b>S_OK</b>. Otherwise it returns an error v
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputheader">RAWINPUTHEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>
 
 
 

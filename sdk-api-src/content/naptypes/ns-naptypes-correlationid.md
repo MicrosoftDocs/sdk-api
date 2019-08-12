@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-<div class="alert"><b>Note</b>  The Network Access Protection platform is not available starting with Windows 10</div><div> </div>The <b>CorrelationId</b> structure is used to pair <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagsoh">SoHRequests</a> with <b>SoHResponses</b> and uniquely describes an SoH exchange.
+<div class="alert"><b>Note</b>  The Network Access Protection platform is not available starting with Windows 10</div><div> </div>The <b>CorrelationId</b> structure is used to pair <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-soh">SoHRequests</a> with <b>SoHResponses</b> and uniquely describes an SoH exchange.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ A globally unique identifier (GUID) that identifies a SoH  exchange.
 
 ### -field timeStamp
 
-A  unique <a href="http://go.microsoft.com/fwlink/p/?linkid=90006">FILETIME</a> value that contains the system time at which the <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagsoh">SoHRequest</a> was generated. 
+A  unique <a href="http://go.microsoft.com/fwlink/p/?linkid=90006">FILETIME</a> value that contains the system time at which the <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-soh">SoHRequest</a> was generated. 
 
 
 ## -remarks
@@ -76,7 +76,7 @@ A  unique <a href="http://go.microsoft.com/fwlink/p/?linkid=90006">FILETIME</a> 
 The
    string version, <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes">StringCorrelationId</a>, is used primarily for logging purposes,
    whereas this byte version is used by SHA/SHVs to
-   match <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagsoh">SoHRequests</a> to <b>SoHResponses</b>.
+   match <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-soh">SoHRequests</a> to <b>SoHResponses</b>.
 
 
 

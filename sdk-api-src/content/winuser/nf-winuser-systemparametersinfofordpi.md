@@ -106,7 +106,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 This function returns a similar result as <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>, but scales it according to an arbitrary DPI you provide (if appropriate). It only scales with the following possible values for <i>uiAction</i>: <b>SPI_GETICONTITLELOGFONT</b>, <b>SPI_GETICONMETRICS</b>, <b>SPI_GETNONCLIENTMETRICS</b>. Other possible <i>uiAction</i> values do not provide ForDPI behavior, and therefore this function returns 0 if called with them.
 
-For <i>uiAction</i> values that contain strings within their associated structures, only Unicode (<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONTW</a>) strings are supported in this function.
+For <i>uiAction</i> values that contain strings within their associated structures, only Unicode (<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONTW</a>) strings are supported in this function.
 
 
 

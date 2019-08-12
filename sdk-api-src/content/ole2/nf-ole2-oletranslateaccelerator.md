@@ -75,7 +75,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-
 
 ### -param lpmsg [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure containing the keystroke.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure containing the keystroke.
 
 
 ## -returns

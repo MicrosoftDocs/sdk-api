@@ -93,7 +93,7 @@ The ID of the second group.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">VOID</a>*</b>
 
-A pointer to the application-defined information. This comes from the message that was called; for <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertgroupsorted">LVM_INSERTGROUPSORTED</a> it is <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvinsertgroupsorted">LVINSERTGROUPSORTED.pvData</a>, and for <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-sortgroups">LVM_SORTGROUPS</a> it is the <i>plv</i> parameter.
+A pointer to the application-defined information. This comes from the message that was called; for <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertgroupsorted">LVM_INSERTGROUPSORTED</a> it is <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvinsertgroupsorted">LVINSERTGROUPSORTED.pvData</a>, and for <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-sortgroups">LVM_SORTGROUPS</a> it is the <i>plv</i> parameter.
 
 
 ## -returns
@@ -112,7 +112,7 @@ Returns a negative value if the data for <i>Group1_ID</i> is less than the data 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvinsertgroupsorted">LVINSERTGROUPSORTED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvinsertgroupsorted">LVINSERTGROUPSORTED</a>
 
 
 

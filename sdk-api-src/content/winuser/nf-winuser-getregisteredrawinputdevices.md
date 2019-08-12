@@ -63,21 +63,21 @@ Retrieves the information about the raw input devices for the current applicatio
 
 Type: <b>PRAWINPUTDEVICE</b>
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputdevice">RAWINPUTDEVICE</a> structures for the application. 
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputdevice">RAWINPUTDEVICE</a> structures for the application. 
 
 
 ### -param puiNumDevices [in, out]
 
 Type: <b>PUINT</b>
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputdevice">RAWINPUTDEVICE</a> structures in *<i>pRawInputDevices</i>. 
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputdevice">RAWINPUTDEVICE</a> structures in *<i>pRawInputDevices</i>. 
 
 
 ### -param cbSize [in]
 
 Type: <b>UINT</b>
 
-The size, in bytes, of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputdevice">RAWINPUTDEVICE</a> structure. 
+The size, in bytes, of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputdevice">RAWINPUTDEVICE</a> structure. 
 
 
 ## -returns
@@ -86,7 +86,7 @@ The size, in bytes, of a <a href="https://docs.microsoft.com/windows/desktop/api
 
 Type: <b>UINT</b>
 
-If successful, the function returns a non-negative number that is the number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputdevice">RAWINPUTDEVICE</a> structures written to the buffer. 
+If successful, the function returns a non-negative number that is the number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputdevice">RAWINPUTDEVICE</a> structures written to the buffer. 
 
 If the <i>pRawInputDevices</i> buffer is too small or <b>NULL</b>, the function sets the last error as <b>ERROR_INSUFFICIENT_BUFFER</b>, returns -1, and sets <i>puiNumDevices</i> to the required number of devices. If the function fails for any other reason, it returns -1. For more details, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
@@ -111,7 +111,7 @@ To receive raw input from a device, an application must register it by using <a 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinputdevice">RAWINPUTDEVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputdevice">RAWINPUTDEVICE</a>
 
 
 

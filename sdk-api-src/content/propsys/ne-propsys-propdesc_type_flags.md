@@ -66,7 +66,7 @@ The property uses the default values for all attributes.
 
 ### -field PDTF_MULTIPLEVALUES
 
-The property can have multiple values. These values are stored as a VT_VECTOR in the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure. This value is set by the <i>multipleValues</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
+The property can have multiple values. These values are stored as a VT_VECTOR in the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. This value is set by the <i>multipleValues</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
 
 ### -field PDTF_ISINNATE
