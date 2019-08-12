@@ -161,7 +161,7 @@ A dynamic <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiocl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a>
+<a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
  
 
  
