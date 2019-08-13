@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-Specifies the compression control mode for a Dolby AC-3 audio stream. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecddoperationalmode-property">AVDecDDOperationalMode</a> property.
+Specifies the compression control mode for a Dolby AC-3 or Dolby Enhanced AC-3 audio stream. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecddoperationalmode-property">AVDecDDOperationalMode</a> property.
 
 
 
