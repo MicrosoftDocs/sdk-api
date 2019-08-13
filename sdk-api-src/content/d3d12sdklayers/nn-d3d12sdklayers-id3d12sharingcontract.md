@@ -47,12 +47,11 @@ ms.custom: 19H1
 
 # ID3D12SharingContract interface
 
-
 ## -description
-
 
 Part of a contract between D3D11On12 diagnostic layers and graphics diagnostics tools. This interface facilitates diagnostics tools to capture information at a lower level than the DXGI swapchain.
 
+You may want to use this interface to enable diagnostic tools to capture usage patterns that don't use DXGI swap chains for presentation. If so, you can access this interface via **QueryInterface** from a D3D12 command queue. Note that this interface is not supported when there are no diagnostic tools present, so your application mustn't rely on it existing.
 
 ## -inheritance
 
@@ -89,18 +88,6 @@ Signals a shared fence between the D3D layers and diagnostics tools.
 </tr>
 </table> 
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
-
+[Core interfaces](https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces), [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown)
