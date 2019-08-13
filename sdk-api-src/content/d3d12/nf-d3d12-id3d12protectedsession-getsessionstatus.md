@@ -47,36 +47,18 @@ ms.custom: 19H1
 
 # ID3D12ProtectedSession::GetSessionStatus
 
-
 ## -description
-
 
 Gets the status of the protected session.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
+Type: **[D3D12_PROTECTED_SESSION_STATUS](/windows/desktop/api/d3d12/ne-d3d12-d3d12_protected_session_status)**
 
-
-The status the protected session. If <b>D3D12_PROTECTED_SESSION_STATUS_INVALID</b>, then you need to wait for a uniqueness value bump to reuse the resource if the session is an <a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nn-d3d12-id3d12protectedresourcesession">ID3D12ProtectedResourceSession</a>. If <a href="direct3d12.id3d12cryptosession">ID3D12CryptoSession</a> or <a href="direct3d12.id3d12cryptosessionpolicy">ID3D12CryptoSessionPolicy</a>, then they need to be recreated.
-
-
-
+The status of the protected session. If the returned value is [D3D12_PROTECTED_SESSION_STATUS_INVALID](/windows/desktop/api/d3d12/ne-d3d12-d3d12_protected_session_status), then you need to wait for a uniqueness value bump to reuse the resource if the session is an [ID3D12ProtectedResourceSession](https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nn-d3d12-id3d12protectedresourcesession).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nn-d3d12-id3d12protectedsession">ID3D12ProtectedSession</a>
- 
-
- 
-
+[ID3D12ProtectedSession](https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/nn-d3d12-id3d12protectedsession)
