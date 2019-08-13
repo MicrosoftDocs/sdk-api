@@ -54,7 +54,7 @@ ms.custom: 19H1
 Retrieves the error interface after an error occurs.
 
 BITS generates an error object when the state of the job is 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyjob_0002">BG_JOB_STATE_ERROR</a> or BG_JOB_STATE_TRANSIENT_ERROR. The service does not create an error object when a call to an <b>IBackgroundCopyXXXX</b> interface method fails. The error object is available until BITS begins transferring data (the state of the job changes to BG_JOB_STATE_TRANSFERRING) for the job or until your application exits.
+<a href="/windows/desktop/api/bits/ne-bits-bg_job_state">BG_JOB_STATE_ERROR</a> or BG_JOB_STATE_TRANSIENT_ERROR. The service does not create an error object when a call to an <b>IBackgroundCopyXXXX</b> interface method fails. The error object is available until BITS begins transferring data (the state of the job changes to BG_JOB_STATE_TRANSFERRING) for the job or until your application exits.
 
 
 ## -parameters

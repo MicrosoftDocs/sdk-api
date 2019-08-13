@@ -129,7 +129,7 @@ Retrieves the protocol used to transfer the file.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyjob_0002">BG_JOB_STATE</a>
+<a href="/windows/desktop/api/bits/ne-bits-bg_job_state">BG_JOB_STATE</a>
 
 
 

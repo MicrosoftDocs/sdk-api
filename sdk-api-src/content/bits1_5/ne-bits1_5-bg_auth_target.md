@@ -59,5 +59,5 @@ Use credentials for proxy requests.
 
 ## -see-also
 
-* [BG_AUTH_CREDENTIALS structure](/windows/desktop/api/bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0005)
+* [BG_AUTH_CREDENTIALS structure](/windows/desktop/api/bits1_5/ns-bits1_5-bg_auth_credentials)
 * [IBackgroundCopyJob2::RemoveCredentials method](/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-removecredentials)

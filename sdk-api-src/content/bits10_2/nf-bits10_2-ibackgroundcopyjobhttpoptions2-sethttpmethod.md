@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 BITS allows you, as the developer, to choose an HTTP method other than the default method. This increases BITS' ability to interact with servers that don't adhere to the normal BITS requirements for HTTP servers. Bear the following in mind when you choose a different HTTP method from the default one.
 
 <ul>
-<li>BITS automatically changes the job priority to <a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyjob_0001">BG_JOB_PRIORITY_FOREGROUND</a>, and prevents that priority from being changed.</li>
+<li>BITS automatically changes the job priority to <a href="/windows/desktop/api/bits/ne-bits-bg_job_priority">BG_JOB_PRIORITY_FOREGROUND</a>, and prevents that priority from being changed.</li>
 <li>An error that would ordinarily  be resumable (such as loss of connectivity) transitions the job to an ERROR state. You, as the developer, can restart the job by calling <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">IBackgroundCopyJob::Resume</a>, and the job will be restarted from the beginning. See <a href="https://docs.microsoft.com/windows/desktop/Bits/life-cycle-of-a-bits-job">Life Cycle of a BITS Job</a> for more information on BITS job states.</li>
 <li>BITS doesn’t allow DYNAMIC_CONTENT nor ON_DEMAND_MODE jobs with <b>SetHttpMethod</b>.</li>
 </ul>

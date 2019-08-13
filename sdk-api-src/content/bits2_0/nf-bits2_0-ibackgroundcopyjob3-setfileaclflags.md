@@ -159,7 +159,7 @@ Successfully set the flags.
 </dl>
 </td>
 <td width="60%">
-You must call this method before the job transitions to the <a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyjob_0002">BG_JOB_STATE_TRANSFERRED</a> state. 
+You must call this method before the job transitions to the <a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_state">BG_JOB_STATE_TRANSFERRED</a> state. 
 
 </td>
 </tr>
