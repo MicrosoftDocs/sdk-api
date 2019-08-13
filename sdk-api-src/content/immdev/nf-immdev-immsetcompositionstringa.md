@@ -113,7 +113,7 @@ Set the clause information for the composition string, the reading string, or bo
 </dl>
 </td>
 <td width="60%">
-<b>Windows Me/98, Windows 2000, Windows XP:</b> Ask IME to reconvert the string using a specified <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagreconvertstring">RECONVERTSTRING</a> structure.
+<b>Windows Me/98, Windows 2000, Windows XP:</b> Ask IME to reconvert the string using a specified <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-reconvertstring">RECONVERTSTRING</a> structure.
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ Set the clause information for the composition string, the reading string, or bo
 </dl>
 </td>
 <td width="60%">
-<b>Windows Me/98, Windows 2000, Windows XP:</b> Ask IME to adjust the <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagreconvertstring">RECONVERTSTRING</a> structure. Then the application can pass the adjusted structure into this function using SCS_SETRECONVERTSTRING. IME does not generate any <a href="https://docs.microsoft.com/windows/desktop/Intl/wm-ime-composition">WM_IME_COMPOSITION</a> messages.
+<b>Windows Me/98, Windows 2000, Windows XP:</b> Ask IME to adjust the <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-reconvertstring">RECONVERTSTRING</a> structure. Then the application can pass the adjusted structure into this function using SCS_SETRECONVERTSTRING. IME does not generate any <a href="https://docs.microsoft.com/windows/desktop/Intl/wm-ime-composition">WM_IME_COMPOSITION</a> messages.
 
 </td>
 </tr>
@@ -177,8 +177,8 @@ When the IME completes the changes, it sends a <a href="https://docs.microsoft.c
 <b>Windows Me/98, Windows 2000, Windows XP:</b> The SCS_*CONVERTSTRING values are used for reconversion. They can only be used for an IME that has the SCS_CAP_SETRECONVERTSTRING property. The application uses these values as follows:
 
 <ol>
-<li>Call <b>ImmSetCompositionString</b> with SCS_QUERYRECONVERTSTRING, so that IME adjusts the <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagreconvertstring">RECONVERTSTRING</a> structure for the reconversion.</li>
-<li>Call <b>ImmSetCompositionString</b> with SCS_SETRECONVERTSTRING, so that IME generates a new composition string. After this, <i>lpComp</i> and <i>lpRead</i> indicate a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagreconvertstring">RECONVERTSTRING</a> structure that contains the updated composition and reading string. Use the value of <i>lpRead</i> only when the selected IME has SCS_CAP_MAKEREAD set.</li>
+<li>Call <b>ImmSetCompositionString</b> with SCS_QUERYRECONVERTSTRING, so that IME adjusts the <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-reconvertstring">RECONVERTSTRING</a> structure for the reconversion.</li>
+<li>Call <b>ImmSetCompositionString</b> with SCS_SETRECONVERTSTRING, so that IME generates a new composition string. After this, <i>lpComp</i> and <i>lpRead</i> indicate a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-reconvertstring">RECONVERTSTRING</a> structure that contains the updated composition and reading string. Use the value of <i>lpRead</i> only when the selected IME has SCS_CAP_MAKEREAD set.</li>
 </ol>
 
 
@@ -196,7 +196,7 @@ When the IME completes the changes, it sends a <a href="https://docs.microsoft.c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagreconvertstring">RECONVERTSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-reconvertstring">RECONVERTSTRING</a>
 
 
 

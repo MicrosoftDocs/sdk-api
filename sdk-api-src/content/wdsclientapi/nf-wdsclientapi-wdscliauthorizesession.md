@@ -67,7 +67,7 @@ A handle to a session   with a WDS server. This was a handle returned by
 
 ### -param pCred [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/ns-wdsclientapi-tagwds_cli_cred">WDS_CLI_CRED</a> structure that contains the 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/ns-wdsclientapi-wds_cli_cred">WDS_CLI_CRED</a> structure that contains the 
       client's credentials. 
 
 
@@ -85,7 +85,7 @@ If the function succeeds, the return is <b>S_OK</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/ns-wdsclientapi-tagwds_cli_cred">WDS_CLI_CRED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/ns-wdsclientapi-wds_cli_cred">WDS_CLI_CRED</a>
 
 
 

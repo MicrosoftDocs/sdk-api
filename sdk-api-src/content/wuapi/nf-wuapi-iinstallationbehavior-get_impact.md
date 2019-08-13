@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-taginstallationimpact">InstallationImpact</a> enumeration that  indicates how the installation or uninstallation of the update  affects  the computer.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-installationimpact">InstallationImpact</a> enumeration that  indicates how the installation or uninstallation of the update  affects  the computer.
 
 This property is read-only.
 

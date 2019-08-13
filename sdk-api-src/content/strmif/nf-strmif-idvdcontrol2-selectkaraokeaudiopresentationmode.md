@@ -65,7 +65,7 @@ The <code>SelectKaraokeAudioPresentationMode</code> method sends karaoke auxilia
 
 ### -param ulMode [in]
 
-Bitwise OR of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_karaoke_downmix">DVD_KARAOKE_DOWNMIX</a> enumeration indicating how to downmix the five karaoke channels to channels 0 and 1, which are usually output to the left and right speakers.
+Bitwise OR of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_karaoke_downmix">DVD_KARAOKE_DOWNMIX</a> enumeration indicating how to downmix the five karaoke channels to channels 0 and 1, which are usually output to the left and right speakers.
 
 
 ## -returns

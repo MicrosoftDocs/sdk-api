@@ -85,7 +85,7 @@ Number of supported Unicode code points in this range.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagglyphset">GLYPHSET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-glyphset">GLYPHSET</a>
  
 
  

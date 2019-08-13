@@ -90,7 +90,7 @@ Additional information about the message. The exact meaning depends on the value
                     
                     
 
-If the <i>uiMsg</i> parameter indicates the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message, <i>lParam</i> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagfindreplacea">FINDREPLACE</a> structure containing the values specified when the dialog box was created.
+If the <i>uiMsg</i> parameter indicates the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message, <i>lParam</i> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-findreplacea">FINDREPLACE</a> structure containing the values specified when the dialog box was created.
 
 
 #### - uiMsg [in]
@@ -120,7 +120,7 @@ If the hook procedure returns a nonzero value, the default dialog box procedure 
 
 
 
-When you use the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-findtexta">FindText</a> or <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-replacetexta">ReplaceText</a> functions to create a <b>Find</b> or <b>Replace</b> dialog box, you can provide an <i>FRHookProc</i> hook procedure to process messages or notifications intended for the dialog box procedure. To enable the hook procedure, use the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagfindreplacea">FINDREPLACE</a> structure that you passed to the dialog creation function. Specify the address of the hook procedure in the <b>lpfnHook</b> member and specify the <b>FR_ENABLEHOOK</b> flag in the <b>Flags</b> member.
+When you use the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-findtexta">FindText</a> or <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-replacetexta">ReplaceText</a> functions to create a <b>Find</b> or <b>Replace</b> dialog box, you can provide an <i>FRHookProc</i> hook procedure to process messages or notifications intended for the dialog box procedure. To enable the hook procedure, use the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-findreplacea">FINDREPLACE</a> structure that you passed to the dialog creation function. Specify the address of the hook procedure in the <b>lpfnHook</b> member and specify the <b>FR_ENABLEHOOK</b> flag in the <b>Flags</b> member.
 
 The default dialog box procedure processes the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message before passing it to the hook procedure. For all other messages, the hook procedure receives the message first. Then, the return value of the hook procedure determines whether the default dialog procedure processes the message or ignores it.
 
@@ -150,7 +150,7 @@ You can subclass the standard controls of a common dialog box. However, the dial
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagfindreplacea">FINDREPLACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-findreplacea">FINDREPLACE</a>
 
 
 

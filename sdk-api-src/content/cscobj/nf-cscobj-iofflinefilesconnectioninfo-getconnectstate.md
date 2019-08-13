@@ -62,14 +62,14 @@ Determines whether an item is online or offline and, if offline, why.
 
 ### -param pConnectState [out]
 
-Receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_connect_state">OFFLINEFILES_CONNECT_STATE</a> enumeration value that indicates whether the item is online or offline.
+Receives an <a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_connect_state">OFFLINEFILES_CONNECT_STATE</a> enumeration value that indicates whether the item is online or offline.
 
 <div class="alert"><b>Note</b>  This value sets the Offline Status property value in Windows Explorer.</div>
 <div> </div>
 
 ### -param pOfflineReason [out]
 
-If the item is offline, this parameter receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_offline_reason">OFFLINEFILES_OFFLINE_REASON</a> enumeration value that indicates why the item is offline.
+If the item is offline, this parameter receives an <a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_offline_reason">OFFLINEFILES_OFFLINE_REASON</a> enumeration value that indicates why the item is offline.
 
 <div class="alert"><b>Note</b>  This value generates the parenthesized suffix in the Offline Status property value in Windows Explorer when the status is offline.</div>
 <div> </div>

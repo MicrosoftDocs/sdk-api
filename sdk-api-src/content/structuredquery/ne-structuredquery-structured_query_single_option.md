@@ -66,7 +66,7 @@ The option value should be a <b>VT_LPWSTR</b> that is the path to a file contain
 
 ### -field SQSO_LOCALE_WORD_BREAKING
 
-The option value must be <b>VT_EMPTY</b> to use the default word breaker (current keyboard locale) or a <b>VT_UI4</b> that is a valid LCID. The LCID indicates the expected locale of content words in queries to be parsed and is used to choose a suitable word breaker for the query. <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-parse">IQueryParser::Parse</a> will return an error unless you set either this option or <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-tagstructured_query_single_option">SQSO_WORD_BREAKER</a>  before calling it.
+The option value must be <b>VT_EMPTY</b> to use the default word breaker (current keyboard locale) or a <b>VT_UI4</b> that is a valid LCID. The LCID indicates the expected locale of content words in queries to be parsed and is used to choose a suitable word breaker for the query. <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-parse">IQueryParser::Parse</a> will return an error unless you set either this option or <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-structured_query_single_option">SQSO_WORD_BREAKER</a>  before calling it.
 
 
 ### -field SQSO_WORD_BREAKER

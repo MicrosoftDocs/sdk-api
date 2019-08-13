@@ -83,7 +83,7 @@ The location of the icon within the file named by <i>lpszSourceFile</i>, express
 
 
 
-A global handle to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagmetafilepict">METAFILEPICT</a> structure containing the icon and label. The metafile uses the MM_ANISOTROPIC mapping mode.
+A global handle to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-metafilepict">METAFILEPICT</a> structure containing the icon and label. The metafile uses the MM_ANISOTROPIC mapping mode.
 
 If an error occurs, the returned handle is <b>NULL</b>. In this case, the caller can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to obtain further information. 
 

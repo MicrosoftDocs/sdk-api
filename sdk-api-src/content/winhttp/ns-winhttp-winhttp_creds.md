@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>WINHTTP_CREDS</b> structure contains user credential information used for server and proxy authentication.
-<div class="alert"><b>Note</b>  This structure has been deprecated. Instead, the use of the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-tagwinhttp_creds_ex">WINHTTP_CREDS_EX</a> structure is recommended.</div><div> </div>
+<div class="alert"><b>Note</b>  This structure has been deprecated. Instead, the use of the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-winhttp_creds_ex">WINHTTP_CREDS_EX</a> structure is recommended.</div><div> </div>
 
 ## -struct-fields
 
@@ -154,7 +154,7 @@ When it is set, WinINet will send credentials  down to WinHTTP. Whenever WinHttp
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-tagwinhttp_creds_ex">WINHTTP_CREDS_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-winhttp_creds_ex">WINHTTP_CREDS_EX</a>
  
 
  

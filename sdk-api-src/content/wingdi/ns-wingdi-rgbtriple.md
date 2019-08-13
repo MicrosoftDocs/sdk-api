@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-The <b>RGBTRIPLE</b> structure describes a color consisting of relative intensities of red, green, and blue. The <b>bmciColors</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapcoreinfo">BITMAPCOREINFO</a> structure consists of an array of <b>RGBTRIPLE</b> structures.
+The <b>RGBTRIPLE</b> structure describes a color consisting of relative intensities of red, green, and blue. The <b>bmciColors</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapcoreinfo">BITMAPCOREINFO</a> structure consists of an array of <b>RGBTRIPLE</b> structures.
 
 
 
@@ -82,7 +82,7 @@ The intensity of red in the color.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapcoreinfo">BITMAPCOREINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapcoreinfo">BITMAPCOREINFO</a>
 
 
 

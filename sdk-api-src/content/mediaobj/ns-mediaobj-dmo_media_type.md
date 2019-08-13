@@ -115,7 +115,7 @@ GUID specifying the format type. The <b>pbFormat</b> member points to the corres
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-tagmpeg2videoinfo">MPEG2VIDEOINFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo">MPEG2VIDEOINFO</a>
 
 
 </td>
@@ -127,7 +127,7 @@ GUID specifying the format type. The <b>pbFormat</b> member points to the corres
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagmpeg1videoinfo">MPEG1VIDEOINFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo">MPEG1VIDEOINFO</a>
 
 
 </td>
@@ -149,7 +149,7 @@ None.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader">VIDEOINFOHEADER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a>
 
 
 </td>
@@ -161,7 +161,7 @@ None.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-tagvideoinfoheader2">VIDEOINFOHEADER2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a>
 
 
 </td>

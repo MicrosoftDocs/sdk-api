@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Expands on the information described in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtitlebarinfo">TITLEBARINFO</a> structure by including the coordinates of each element of the title bar.
+Expands on the information described in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-titlebarinfo">TITLEBARINFO</a> structure by including the coordinates of each element of the title bar.
 
 This structure is sent with the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-gettitlebarinfoex">WM_GETTITLEBARINFOEX</a> message.
 

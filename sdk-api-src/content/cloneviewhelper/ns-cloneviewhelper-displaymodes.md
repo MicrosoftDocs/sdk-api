@@ -66,7 +66,7 @@ The number of display modes in the array that the <b>displayMode</b> member spec
 
 ### -field displayMode
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-tagdisplaymode">DisplayMode</a> structures that describe characteristics of display devices. 
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-displaymode">DisplayMode</a> structures that describe characteristics of display devices. 
 
 
 ## -see-also
@@ -74,7 +74,7 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhel
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-tagdisplaymode">DisplayMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-displaymode">DisplayMode</a>
 
 
 

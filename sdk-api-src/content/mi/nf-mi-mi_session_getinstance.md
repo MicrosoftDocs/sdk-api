@@ -82,7 +82,7 @@ An optional, null-terminated string that represents the namespace name to carry 
 ### -param inboundInstance [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> object that represents the class name and keys of the instance to be retrieved from the server.
+<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> object that represents the class name and keys of the instance to be retrieved from the server.
 
 
 ### -param callbacks [in, optional]

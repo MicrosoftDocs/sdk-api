@@ -78,7 +78,7 @@ Type of search to perform. This member can be set to one or more of the followin
 </dl>
 </td>
 <td width="60%">
-Searches for a match between this structure's <b>lParam</b> member and the <b>lParam</b> member of an item's <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvitema">LVITEM</a> structure.
+Searches for a match between this structure's <b>lParam</b> member and the <b>lParam</b> member of an item's <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure.
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ Address of a null-terminated string to compare with the item text. It is valid o
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
-Value to compare with the <b>lParam</b> member of a list-view item's <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvitema">LVITEM</a> structure. It is valid only if LVFI_PARAM is set in the <b>flags</b> member.
+Value to compare with the <b>lParam</b> member of a list-view item's <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure. It is valid only if LVFI_PARAM is set in the <b>flags</b> member.
 
 
 ### -field pt

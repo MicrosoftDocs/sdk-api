@@ -116,7 +116,7 @@ Display dictionary selection dialog box.
 
 ### -param LPVOID [in]
 
-Pointer to supplemental data. If <i>dwMode</i> is set to IME_CONFIG_REGISTERWORD, this parameter must indicate a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagregisterworda">REGISTERWORD</a> structure. If <i>dwMode</i> is not IME_CONFIG_REGISTERWORD, this parameter is ignored.
+Pointer to supplemental data. If <i>dwMode</i> is set to IME_CONFIG_REGISTERWORD, this parameter must indicate a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-registerworda">REGISTERWORD</a> structure. If <i>dwMode</i> is not IME_CONFIG_REGISTERWORD, this parameter is ignored.
 
 
 ## -returns
@@ -141,7 +141,7 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagregisterworda">REGISTERWORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-registerworda">REGISTERWORD</a>
  
 
  

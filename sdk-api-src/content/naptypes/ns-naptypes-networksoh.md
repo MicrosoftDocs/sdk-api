@@ -66,7 +66,7 @@ The size, in bytes, of the data blob in the range <a href="https://docs.microsof
 
 ### -field data
 
-A pointer to a data blob that contains the <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagsoh">SoH</a> structure in network byte order.
+A pointer to a data blob that contains the <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-soh">SoH</a> structure in network byte order.
 
 
 ## -see-also

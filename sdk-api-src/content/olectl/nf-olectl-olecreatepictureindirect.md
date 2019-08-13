@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new picture object initialized according to a <a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-tagpictdesc">PICTDESC</a> structure.
+Creates a new picture object initialized according to a <a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-pictdesc">PICTDESC</a> structure.
 
 
 ## -parameters
@@ -137,7 +137,7 @@ The address in <i>pPictDesc</i> or <i>lplpvObj</i> is not valid. For example, it
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-tagpictdesc">PICTDESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-pictdesc">PICTDESC</a>
  
 
  

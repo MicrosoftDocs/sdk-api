@@ -61,12 +61,12 @@ Retrieves the user-type name of an object for display in user-interface elements
 
 ### -param dwFormOfType [in]
 
-The form of the user-type name to be presented to users. Possible values are obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-taguserclasstype">USERCLASSTYPE</a> enumeration.
+The form of the user-type name to be presented to users. Possible values are obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-userclasstype">USERCLASSTYPE</a> enumeration.
 
 
 ### -param pszUserType [out]
 
-Address of <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagcalpolestr">LPOLESTR</a> pointer variable that receives a pointer to the user type string. The caller must free <i>pszUserType</i> using the current <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> instance. If an error occurs, the implementation must set <i>pszUserType</i> to <b>NULL</b>.
+Address of <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-calpolestr">LPOLESTR</a> pointer variable that receives a pointer to the user type string. The caller must free <i>pszUserType</i> using the current <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> instance. If an error occurs, the implementation must set <i>pszUserType</i> to <b>NULL</b>.
 
 
 ## -returns
@@ -142,7 +142,7 @@ You can call the OLE helper function <a href="https://docs.microsoft.com/windows
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-taguserclasstype">USERCLASSTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-userclasstype">USERCLASSTYPE</a>
  
 
  

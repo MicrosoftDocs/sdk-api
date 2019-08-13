@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
-Retrieves text (text-type properties) from the current chunk, which must have a <a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-tagchunkstate">CHUNKSTATE</a> enumeration value of CHUNK_TEXT.
+Retrieves text (text-type properties) from the current chunk, which must have a <a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-chunkstate">CHUNKSTATE</a> enumeration value of CHUNK_TEXT.
 
 
 
@@ -103,7 +103,7 @@ The operation was completed successfully.
 </dl>
 </td>
 <td width="60%">
-The <b>flags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-tagstat_chunk">STAT_CHUNK</a> structure for the current chunk does not have a value of CHUNK_TEXT. 
+The <b>flags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-stat_chunk">STAT_CHUNK</a> structure for the current chunk does not have a value of CHUNK_TEXT. 
 
 
 </td>
@@ -153,7 +153,7 @@ If the current chunk is too large for the <i>awcBuffer</i> array, more than one 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-tagchunkstate">CHUNKSTATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-chunkstate">CHUNKSTATE</a>
 
 
 

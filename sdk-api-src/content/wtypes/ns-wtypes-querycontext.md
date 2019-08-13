@@ -66,7 +66,7 @@ The execution context.
 
 ### -field Platform
 
-The operating system platform and processor architecture. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-tagcsplatform">CSPLATFORM</a>.
+The operating system platform and processor architecture. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-csplatform">CSPLATFORM</a>.
 
 
 ### -field Locale
@@ -89,7 +89,7 @@ The low version number.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a>
 
 
 

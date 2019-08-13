@@ -71,7 +71,7 @@ A pointer to a value that contains the size in bytes of the buffer allocated for
 
 ### -param pSendPacket [out]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodtypes/ns-eapmethodtypes-tageappacket">EapPacket</a> structure that contains the response packet.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eapmethodtypes/ns-eapmethodtypes-eappacket">EapPacket</a> structure that contains the response packet.
 
 
 ### -param ppEapError [out]

@@ -70,7 +70,7 @@ Index value that specifies the input pin that will be set.
 
 ### -param pInputType [out]
 
-Pointer to a variable the receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagtunerinputtype">TunerInputType</a> enumeration.
+Pointer to a variable the receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-tunerinputtype">TunerInputType</a> enumeration.
 
 
 ## -returns

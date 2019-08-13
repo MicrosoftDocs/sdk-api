@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-The <code>SIZE_MPEG1VIDEOINFO</code> macro calculates the size of an <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagmpeg1videoinfo">MPEG1VIDEOINFO</a> structure, including the sequence header (<b>bSequenceHeader</b>).
+The <code>SIZE_MPEG1VIDEOINFO</code> macro calculates the size of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo">MPEG1VIDEOINFO</a> structure, including the sequence header (<b>bSequenceHeader</b>).
 
 
 
@@ -64,7 +64,7 @@ The <code>SIZE_MPEG1VIDEOINFO</code> macro calculates the size of an <a href="ht
 
 ### -param pv
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagmpeg1videoinfo">MPEG1VIDEOINFO</a> structure.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo">MPEG1VIDEOINFO</a> structure.
 
 
 ## -see-also

@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagupdateserviceregistrationstate">UpdateServiceRegistrationState</a> value that indicates the current state of the service registration.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-updateserviceregistrationstate">UpdateServiceRegistrationState</a> value that indicates the current state of the service registration.
 
 This property is read-only.
 

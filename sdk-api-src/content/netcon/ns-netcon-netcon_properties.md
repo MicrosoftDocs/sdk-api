@@ -86,13 +86,13 @@ Name of the device associated with the connection.
 ### -field MediaType
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ne-netcon-tagnetcon_mediatype">Media type</a> associated with this connection.
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_mediatype">Media type</a> associated with this connection.
 
 
 ### -field dwCharacter
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ne-netcon-tagnetcon_characteristic_flags">Characteristics</a> for this connection.
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_characteristic_flags">Characteristics</a> for this connection.
 
 
 ### -field clsidThisObject
@@ -124,11 +124,11 @@ Class identifier for the user-interface object.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ne-netcon-tagnetcon_characteristic_flags">NETCON_CHARACTERISTIC_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_characteristic_flags">NETCON_CHARACTERISTIC_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ne-netcon-tagnetcon_mediatype">NETCON_MEDIATYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_mediatype">NETCON_MEDIATYPE</a>
 
 
 

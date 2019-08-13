@@ -65,7 +65,7 @@ The <b>Get</b> method gets the current setting of a camera property.
 
 ### -param Property [in]
 
-Specifies the property to retrieve, as a value from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagcameracontrolproperty">CameraControlProperty</a> enumeration.
+Specifies the property to retrieve, as a value from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolproperty">CameraControlProperty</a> enumeration.
           
 
 
@@ -77,7 +77,7 @@ Receives the value of the property.
 
 ### -param Flags [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagcameracontrolflags">CameraControlFlags</a> enumeration. The returned value indicates whether the setting is controlled manually or automatically.
+Receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a> enumeration. The returned value indicates whether the setting is controlled manually or automatically.
           
 
 

@@ -62,7 +62,7 @@ Obtains information about the device driver. This method can be used, with cauti
 
 ### -param arg1 [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-tagdddeviceidentifier2">DDDEVICEIDENTIFIER2</a> structure that receives information about the driver.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-dddeviceidentifier2">DDDEVICEIDENTIFIER2</a> structure that receives information about the driver.
 
 
 ### -param arg2 [in]

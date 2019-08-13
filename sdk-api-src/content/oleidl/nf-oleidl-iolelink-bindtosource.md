@@ -61,7 +61,7 @@ Activates the connection to the link source by binding the moniker stored within
 
 ### -param bindflags [in]
 
-Specifies how to proceed if the link source has a different CLSID from the last time it was bound. If this parameter is zero and the CLSIDs are different, the method fails and returns OLE_E_CLASSDIFF. If the OLELINKBIND_EVENIFCLASSDIFF value from the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolelinkbind">OLELINKBIND</a> enumeration is specified and the CLSIDs are different, the method binds successfully and updates the CLSID stored in the linked object.
+Specifies how to proceed if the link source has a different CLSID from the last time it was bound. If this parameter is zero and the CLSIDs are different, the method fails and returns OLE_E_CLASSDIFF. If the OLELINKBIND_EVENIFCLASSDIFF value from the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olelinkbind">OLELINKBIND</a> enumeration is specified and the CLSIDs are different, the method binds successfully and updates the CLSID stored in the linked object.
 
 
 ### -param pbc [in]

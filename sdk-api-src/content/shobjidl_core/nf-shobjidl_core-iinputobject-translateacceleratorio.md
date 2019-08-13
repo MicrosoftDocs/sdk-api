@@ -63,7 +63,7 @@ Enables the object to process keyboard accelerators.
 
 Type: <b>LPMSG</b>
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure that contains the keyboard message that is being translated.
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that contains the keyboard message that is being translated.
         
 
 

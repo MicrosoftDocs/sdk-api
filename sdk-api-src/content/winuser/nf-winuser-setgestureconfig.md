@@ -82,7 +82,7 @@ An array of gesture configuration structures that specify the gesture configurat
 
 ### -param cbSize [in]
 
-The size of the gesture configuration (<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taggestureconfig">GESTURECONFIG</a>) structure.
+The size of the gesture configuration (<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>) structure.
 
 
 ## -returns
@@ -108,7 +108,7 @@ If you don't expect to change the gesture configuration, call <b>SetGestureConfi
 	 
 
 The following table shows the identifiers for gestures that are
-  supported by the <i>dwID</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taggestureconfig">GESTURECONFIG</a> structure.  Note that setting
+  supported by the <i>dwID</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a> structure.  Note that setting
   <i>dwID</i> to 0 indicates that global gesture configuration flags are set.
   
 
@@ -442,7 +442,7 @@ if (!bResult){
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taggestureconfig">GESTURECONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>
 
 
 

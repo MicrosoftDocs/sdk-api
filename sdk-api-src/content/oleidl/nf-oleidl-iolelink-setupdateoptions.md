@@ -61,7 +61,7 @@ Specifies how often a linked object should update its cached data.
 
 ### -param dwUpdateOpt [in]
 
-Specifies how often a linked object should update its cached data. The possible values for <i>dwUpdateOpt</i> are taken from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagoleupdate">OLEUPDATE</a>.
+Specifies how often a linked object should update its cached data. The possible values for <i>dwUpdateOpt</i> are taken from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-oleupdate">OLEUPDATE</a>.
 
 
 ## -returns

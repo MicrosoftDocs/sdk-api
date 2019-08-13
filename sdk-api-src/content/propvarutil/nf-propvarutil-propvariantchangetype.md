@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Coerces a value stored as a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure to an equivalent value of a different variant type.
+Coerces a value stored as a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure to an equivalent value of a different variant type.
 
 
 ## -parameters
@@ -61,16 +61,16 @@ Coerces a value stored as a <a href="https://docs.microsoft.com/windows/desktop/
 
 ### -param ppropvarDest [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure that, when this function returns successfully, receives the coerced value and its new type.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that, when this function returns successfully, receives the coerced value and its new type.
 
 
 ### -param propvarSrc [in]
 
 Type: <b>REFPROPVARIANT</b>
 
-A reference to the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure that contains the value expressed as its original type.
+A reference to the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains the value expressed as its original type.
 
 
 ### -param flags [in]
@@ -102,7 +102,7 @@ Returns <b>S_OK</b> if successful, or a standard COM error value otherwise. If t
 
 
 
-Note that the source and destination <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structures must be separate structures. You cannot overwrite the source <b>PROPVARIANT</b> data with the new destination data; attempting to do so will result in an error.
+Note that the source and destination <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures must be separate structures. You cannot overwrite the source <b>PROPVARIANT</b> data with the new destination data; attempting to do so will result in an error.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a> converts values between the following types as follows. Numbers refer to conditions explained after the tables.

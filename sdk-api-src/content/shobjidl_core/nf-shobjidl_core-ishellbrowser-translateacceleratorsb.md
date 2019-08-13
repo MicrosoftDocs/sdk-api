@@ -63,7 +63,7 @@ Translates accelerator keystrokes intended for the browser's frame while the vie
 
 Type: <b>LPMSG</b>
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure containing the keystroke message.
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure containing the keystroke message.
 
 
 ### -param wID

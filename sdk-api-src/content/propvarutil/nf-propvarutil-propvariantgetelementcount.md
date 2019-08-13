@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the element count of a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.
+Retrieves the element count of a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Retrieves the element count of a <a href="https://docs.microsoft.com/windows/des
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.
+Reference to the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 
 ## -returns
@@ -81,7 +81,7 @@ Returns the element count of a VT_VECTOR or VT_ARRAY value: for single values, r
 
 
 
-This function works for all valid <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> types. See <b>PROPVARIANT</b> for the valid type combinations.
+This function works for all valid <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> types. See <b>PROPVARIANT</b> for the valid type combinations.
 
 This function is useful to get the count of elements to iterate through using a looping statement, especially for iterations that call functions such as <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetuint32elem">PropVariantGetUInt32Elem</a> or <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetelem">PropVariantGetElem</a>.
 

@@ -70,7 +70,7 @@ A handle to the list-view control.
 
 Type: <b>PLVGROUPMETRICS</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvgroupmetrics">LVGROUPMETRICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvgroupmetrics">LVGROUPMETRICS</a>
 
 ## -remarks
 

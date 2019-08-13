@@ -112,11 +112,11 @@ The address in <i>pLocaleID</i> is not valid. For example, it may be <b>NULL</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-tagocpfiparams">OCPFIPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-ocpfiparams">OCPFIPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagproppageinfo">PROPPAGEINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-proppageinfo">PROPPAGEINFO</a>
  
 
  

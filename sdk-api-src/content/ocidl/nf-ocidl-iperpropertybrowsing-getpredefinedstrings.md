@@ -133,7 +133,7 @@ Each string returned in the array pointed to by <i>pCaStringsOut</i> has a match
 Using the predefined strings, a caller can obtain a list of strings for populating user interface elements, such as a drop-down listbox. When the end user selects one of these strings as a value to assign to a property, the caller can then obtain the corresponding value through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedvalue">IPerPropertyBrowsing::GetPredefinedValue</a>.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-Both the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagcalpolestr">CALPOLESTR</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagcadword">CADWORD</a> structures passed to this method are caller-allocated. The caller is responsible for freeing each string pointed to from the <b>CALPOLESTR</b> array as well as the <b>CALPOLESTR</b> structure.
+Both the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-calpolestr">CALPOLESTR</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-cadword">CADWORD</a> structures passed to this method are caller-allocated. The caller is responsible for freeing each string pointed to from the <b>CALPOLESTR</b> array as well as the <b>CALPOLESTR</b> structure.
 
 All memory is allocated with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. The caller is responsible for freeing the strings and the array with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
@@ -157,7 +157,7 @@ CoTaskMemFree((void *)castr.pElems);
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 Support for predefined names and values is not required. If your object does not support these names, return E_NOTIMPL from this method. If this method is not implemented, <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedvalue">IPerPropertyBrowsing::GetPredefinedValue</a> must not be implemented either.
 
-This method fills the <b>cElems</b> and <b>pElems</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagcadword">CADWORD</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagcalpolestr">CALPOLESTR</a> structures. It allocates the arrays pointed to by these structures with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and fills those arrays. In the <b>CALPOLESTR</b> case, this method also allocates each string with <b>CoTaskMemAlloc</b>, storing each string pointer in the array.
+This method fills the <b>cElems</b> and <b>pElems</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-cadword">CADWORD</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-calpolestr">CALPOLESTR</a> structures. It allocates the arrays pointed to by these structures with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and fills those arrays. In the <b>CALPOLESTR</b> case, this method also allocates each string with <b>CoTaskMemAlloc</b>, storing each string pointer in the array.
 
 
 
@@ -167,11 +167,11 @@ This method fills the <b>cElems</b> and <b>pElems</b> members of the <a href="ht
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagcadword">CADWORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-cadword">CADWORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagcalpolestr">CALPOLESTR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-calpolestr">CALPOLESTR</a>
 
 
 

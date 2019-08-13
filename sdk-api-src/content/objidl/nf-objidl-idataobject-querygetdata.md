@@ -61,7 +61,7 @@ Determines whether the data object is capable of rendering the data as specified
 
 ### -param pformatetc [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure defining the format, medium, and target device to use for the query.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure defining the format, medium, and target device to use for the query.
 
 
 ## -returns
@@ -173,7 +173,7 @@ There is insufficient memory available for this operation.
 
 
 
-The client of a data object calls <b>QueryGetData</b> to determine whether passing the specified <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure to a subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> is likely to be successful. A successful return from this method does not necessarily ensure the success of the subsequent paste or drop operation.
+The client of a data object calls <b>QueryGetData</b> to determine whether passing the specified <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure to a subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> is likely to be successful. A successful return from this method does not necessarily ensure the success of the subsequent paste or drop operation.
 
 
 

@@ -75,7 +75,7 @@ The property identifier. For a list of property IDs, see <a href="https://docs.m
 
 ### -param value [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a></b>
 
 The property value.
 

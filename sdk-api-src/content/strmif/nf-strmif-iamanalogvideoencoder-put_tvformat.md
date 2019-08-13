@@ -66,7 +66,7 @@ The <code>put_TVFormat</code> method sets the encoder to a particular analog vid
 
 ### -param lAnalogVideoStandard [in]
 
-Specifies the video standard to set in the encoder as a <b>long</b> integer containing a value as defined in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-taganalogvideostandard">AnalogVideoStandard</a> enumeration.
+Specifies the video standard to set in the encoder as a <b>long</b> integer containing a value as defined in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-analogvideostandard">AnalogVideoStandard</a> enumeration.
 
 
 ## -returns

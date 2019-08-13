@@ -66,7 +66,7 @@ The displacement to be added to the location indicated by the <i>dwOrigin</i> pa
 
 ### -param dwOrigin [in]
 
-The origin for the displacement specified in <i>dlibMove</i>. The origin can be the beginning of the file (<b>STREAM_SEEK_SET</b>), the current seek pointer (<b>STREAM_SEEK_CUR</b>), or the end of the file (<b>STREAM_SEEK_END</b>). For more information about values, see the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagstream_seek">STREAM_SEEK</a> enumeration.
+The origin for the displacement specified in <i>dlibMove</i>. The origin can be the beginning of the file (<b>STREAM_SEEK_SET</b>), the current seek pointer (<b>STREAM_SEEK_CUR</b>), or the end of the file (<b>STREAM_SEEK_END</b>). For more information about values, see the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-stream_seek">STREAM_SEEK</a> enumeration.
 
 
 ### -param plibNewPosition [out]
@@ -113,7 +113,7 @@ You can also use this method to obtain the current value of the seek pointer by 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagstream_seek">STREAM_SEEK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-stream_seek">STREAM_SEEK</a>
  
 
  

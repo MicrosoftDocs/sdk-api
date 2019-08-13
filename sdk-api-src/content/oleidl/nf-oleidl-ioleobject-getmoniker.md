@@ -68,14 +68,14 @@ Determines how the moniker is assigned to the object. Depending on the value of 
 <li>Forces assignment of a moniker, if necessary, in order to satisfy the call.</li>
 <li>Obtains a temporary moniker.</li>
 </ul>
-Values for <i>dwAssign</i> are specified in the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolegetmoniker">OLEGETMONIKER</a>.
+Values for <i>dwAssign</i> are specified in the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olegetmoniker">OLEGETMONIKER</a>.
 
-<div class="alert"><b>Note</b>   You cannot pass <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolegetmoniker">OLEGETMONIKER</a>_UNASSIGN when calling <b>IOleObject::GetMoniker</b>. This value is valid only when calling <b>IOleObject::GetMoniker</b>.</div>
+<div class="alert"><b>Note</b>   You cannot pass <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olegetmoniker">OLEGETMONIKER</a>_UNASSIGN when calling <b>IOleObject::GetMoniker</b>. This value is valid only when calling <b>IOleObject::GetMoniker</b>.</div>
 <div> </div>
 
 ### -param dwWhichMoniker [in]
 
-Specifies the form of the moniker being requested. Possible values are taken from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolewhichmk">OLEWHICHMK</a>.
+Specifies the form of the moniker being requested. Possible values are taken from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olewhichmk">OLEWHICHMK</a>.
 
 
 ### -param ppmk [out]
@@ -122,11 +122,11 @@ The <b>IOleObject::GetMoniker</b> method returns an object's moniker. Like <a hr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolegetmoniker">OLEGETMONIKER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olegetmoniker">OLEGETMONIKER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolewhichmk">OLEWHICHMK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olewhichmk">OLEWHICHMK</a>
  
 
  

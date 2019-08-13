@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extracts data from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure into a Windows Runtime property value. Note that in some cases more than one <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> type maps to a single Windows Runtime property type.
+Extracts data from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure into a Windows Runtime property value. Note that in some cases more than one <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> type maps to a single Windows Runtime property type.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Extracts data from a <a href="https://docs.microsoft.com/windows/desktop/api/pro
 
 ### -param propvar [in]
 
-Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.
+Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 
 ### -param riid [in]

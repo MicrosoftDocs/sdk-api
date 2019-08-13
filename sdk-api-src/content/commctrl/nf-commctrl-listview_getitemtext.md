@@ -124,7 +124,7 @@ A pointer to a buffer that receives the item or subitem text.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvitema">LVITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a>
  
 
  

@@ -71,7 +71,7 @@ Pointer to a driver-defined value that identifies a driver font file. This point
 
 ### -param iFace
 
-Specifies the one-based index of the driver font. GDI can query the number of fonts from the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a> structure.
+Specifies the one-based index of the driver font. GDI can query the number of fonts from the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
 
 
 ### -param pid
@@ -108,7 +108,7 @@ If the number of fonts in DEVINFO is -1 and <i>iFace</i> is zero, the driver sho
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a>
 
 
 

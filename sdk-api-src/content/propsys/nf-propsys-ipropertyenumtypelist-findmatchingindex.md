@@ -63,7 +63,7 @@ Compares the specified property value against the enumerated values in a list an
 
 Type: <b>REFPROPVARIANT</b>
 
-A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure that represents the property value.
+A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that represents the property value.
 
 
 ### -param pnIndex [out]

@@ -159,7 +159,7 @@ In addition to allowing specification of icon or cursor size, <b>OleLoadPictureE
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-tagpictdesc">PICTDESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-pictdesc">PICTDESC</a>
  
 
  

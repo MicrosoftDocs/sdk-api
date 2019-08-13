@@ -62,7 +62,7 @@ Sets the font's Weight property.
 ### -param weight [in]
 
 The new Weight for the font. For a list of available font weights, see the description of the <b>lfWeight</b> member of 
-    the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure.
+    the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure.
 
 
 ## -returns

@@ -286,7 +286,7 @@ Sent by a writer network sink when one or more properties of a connected client 
 
 ### -field WMT_LICENSEURL_SIGNATURE_STATE
 
-Sent before a <b>WMT_NO_RIGHTS</b> or <b>WMT_NO_RIGHTS_EX</b> status message. The <i>pValue</i> parameter is set to one of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-tagwmt_drmla_trust">WMT_DRMLA_TRUST</a> constants indicating whether the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">license acquisition</a> URL is completely trusted.
+Sent before a <b>WMT_NO_RIGHTS</b> or <b>WMT_NO_RIGHTS_EX</b> status message. The <i>pValue</i> parameter is set to one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_drmla_trust">WMT_DRMLA_TRUST</a> constants indicating whether the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">license acquisition</a> URL is completely trusted.
 
 
 ### -field WMT_INIT_PLAYLIST_BURN

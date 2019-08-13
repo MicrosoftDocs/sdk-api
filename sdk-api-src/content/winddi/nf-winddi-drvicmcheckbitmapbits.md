@@ -122,7 +122,7 @@ The color is outside of the gamut. A value of <i>n+1</i> indicates that the colo
 </table>
  
 
-<b>DrvIcmCheckBitmapBits</b> can be optionally implemented in drivers that support ICM. A driver indicates support for ICM by setting the GCAPS_ICM flag in the <b>flGraphicsCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a> structure.
+<b>DrvIcmCheckBitmapBits</b> can be optionally implemented in drivers that support ICM. A driver indicates support for ICM by setting the GCAPS_ICM flag in the <b>flGraphicsCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
 
 
 

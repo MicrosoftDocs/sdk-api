@@ -85,7 +85,7 @@ The system event sent by the RTS object
 ### -param eventdata [in]
 
 The 
-              <a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-tagsystem_event_data">SYSTEM_EVENT_DATA</a> structure containing information about the system event, <i>event</i>.
+              <a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-system_event_data">SYSTEM_EVENT_DATA</a> structure containing information about the system event, <i>event</i>.
 
 
 ## -returns

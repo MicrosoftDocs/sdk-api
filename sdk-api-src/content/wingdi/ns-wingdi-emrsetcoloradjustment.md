@@ -69,7 +69,7 @@ The base structure for all record types.
 
 ### -field ColorAdjustment
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagcoloradjustment">COLORADJUSTMENT</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-coloradjustment">COLORADJUSTMENT</a> structure.
 
 
 ## -see-also

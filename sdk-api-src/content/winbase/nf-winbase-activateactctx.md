@@ -65,7 +65,7 @@ The
 ### -param hActCtx [in]
 
 Handle to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctxa">ACTCTX</a> structure that contains information on the activation context that is to be made active.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a> structure that contains information on the activation context that is to be made active.
 
 
 ### -param lpCookie [out]
@@ -108,7 +108,7 @@ The top item of an activation context stack is the active, default-activation co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctxa">ACTCTX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a>
 
 
 

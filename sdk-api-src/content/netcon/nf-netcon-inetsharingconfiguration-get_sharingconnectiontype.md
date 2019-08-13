@@ -65,7 +65,7 @@ The
 ### -param pType [out]
 
 Pointer to a variable of type 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ne-netcon-tagsharingconnectiontype">SHARINGCONNECTIONTYPE</a> that specifies whether this connection is shared publicly or privately.
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-sharingconnectiontype">SHARINGCONNECTIONTYPE</a> that specifies whether this connection is shared publicly or privately.
 
 
 ## -returns
@@ -214,7 +214,7 @@ Use the
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ne-netcon-tagsharingconnectiontype">SHARINGCONNECTIONTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-sharingconnectiontype">SHARINGCONNECTIONTYPE</a>
  
 
  

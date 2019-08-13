@@ -61,7 +61,7 @@ Configures the synchronization for the enclosed work.
 
 ### -param synchConfig [in]
 
- A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_synchronizationconfig">CSC_SynchronizationConfig</a> enumeration.
+ A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_synchronizationconfig">CSC_SynchronizationConfig</a> enumeration.
 
 
 ## -returns

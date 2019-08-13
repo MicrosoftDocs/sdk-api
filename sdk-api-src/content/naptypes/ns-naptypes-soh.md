@@ -66,7 +66,7 @@ The number of attributes contained in the SoH as a number between 0 (zero) and <
 
 ### -field attributes
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagsohattribute">SoHAttribute</a> structures that contain the collection of attributes defined by this SoH.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-sohattribute">SoHAttribute</a> structures that contain the collection of attributes defined by this SoH.
 
 
 ## -remarks

@@ -70,7 +70,7 @@ Pointer to  the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/n
 
 ### -param _prpcmsg [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagrpcolemessage">RPCOLEMESSAGE</a> structure. On input, the structure contains the marshalled input parameters. On output, the structure contains the marshalled output and return values.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-rpcolemessage">RPCOLEMESSAGE</a> structure. On input, the structure contains the marshalled input parameters. On output, the structure contains the marshalled output and return values.
 
 
 ### -param _pRpcChannelBuffer [in]

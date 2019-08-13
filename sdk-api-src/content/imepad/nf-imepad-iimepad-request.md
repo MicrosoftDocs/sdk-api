@@ -140,7 +140,7 @@ Gets the current composition string text.
 Gets information about the current composition string.
 
 <ul>
-<li><i>wParam</i>: Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imepad/ns-imepad-tagimecompositionstringinfo">IMECOMPOSITIONSTRINGINFO</a> structure that receives the composition information.</li>
+<li><i>wParam</i>: Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imepad/ns-imepad-imecompositionstringinfo">IMECOMPOSITIONSTRINGINFO</a> structure that receives the composition information.</li>
 <li><i>lParam</i>: Not used. Must be set to 0.</li>
 </ul>
 </td>
@@ -563,7 +563,7 @@ These are the possible values that can be received via <i>wParam</i> when <i>req
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imepad/ns-imepad-tagimecompositionstringinfo">IMECOMPOSITIONSTRINGINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imepad/ns-imepad-imecompositionstringinfo">IMECOMPOSITIONSTRINGINFO</a>
  
 
  

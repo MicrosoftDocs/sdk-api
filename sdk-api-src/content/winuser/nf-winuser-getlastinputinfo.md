@@ -69,7 +69,7 @@ Retrieves the time of the last input event.
 
 Type: <b>PLASTINPUTINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taglastinputinfo">LASTINPUTINFO</a> structure that receives the time of the last input event.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-lastinputinfo">LASTINPUTINFO</a> structure that receives the time of the last input event.
 
 
 ## -returns
@@ -91,7 +91,7 @@ If the function fails, the return value is zero.
 
 This function is useful for input idle detection. However, <b>GetLastInputInfo</b> does not provide system-wide user input information across all running sessions. Rather, <b>GetLastInputInfo</b> provides session-specific user input information for only the session that invoked the function.
 
-The tick count when the last input event was received (see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taglastinputinfo">LASTINPUTINFO</a>) is not guaranteed to be incremental. In some cases, the value might be less than the tick count of a prior event. For example, this can be caused by a timing gap between the raw input thread and the desktop thread or an event raised by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a>, which supplies its own tick count.
+The tick count when the last input event was received (see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-lastinputinfo">LASTINPUTINFO</a>) is not guaranteed to be incremental. In some cases, the value might be less than the tick count of a prior event. For example, this can be caused by a timing gap between the raw input thread and the desktop thread or an event raised by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a>, which supplies its own tick count.
 
 
 
@@ -109,7 +109,7 @@ The tick count when the last input event was received (see <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taglastinputinfo">LASTINPUTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-lastinputinfo">LASTINPUTINFO</a>
 
 
 

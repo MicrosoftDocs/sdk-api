@@ -86,7 +86,7 @@ GDI relies on Windows code pages fitting within a 32-bit value. Furthermore, the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglocalesignature">LOCALESIGNATURE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-localesignature">LOCALESIGNATURE</a>
 
 
 

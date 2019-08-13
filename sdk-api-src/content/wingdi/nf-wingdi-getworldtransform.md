@@ -71,7 +71,7 @@ A handle to the device context.
 
 ### -param lpxf [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagxform">XFORM</a> structure that receives the current world-space to page-space transformation.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a> structure that receives the current world-space to page-space transformation.
 
 
 ## -returns

@@ -65,7 +65,7 @@ The
 ### -param lphActCtx [out]
 
 Pointer to the returned 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctxa">ACTCTX</a> structure that contains information on the active activation context.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a> structure that contains information on the active activation context.
 
 
 ## -returns
@@ -96,7 +96,7 @@ The calling thread is responsible for releasing the handle of the returned activ
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctxa">ACTCTX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a>
  
 
  

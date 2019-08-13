@@ -81,7 +81,7 @@ The top-rated alternates are returned regardless of segment breaks. Thus "togeth
 
 
 
-Check the <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_attrs">dwRecoCapabilityFlags</a> member of the <b>RECO_ATTRS</b> structure to ensure the recognizer supports different alternate breaks.
+Check the <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-reco_attrs">dwRecoCapabilityFlags</a> member of the <b>RECO_ATTRS</b> structure to ensure the recognizer supports different alternate breaks.
 
 
 

@@ -61,7 +61,7 @@ Changes the color transformation matrix  associated with the full-screen magnifi
 
 ### -param pEffect [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/ns-magnification-tagmagcoloreffect">PMAGCOLOREFFECT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/magnification/ns-magnification-magcoloreffect">PMAGCOLOREFFECT</a></b>
 
 The new color transformation matrix. This parameter must not be NULL.
 

@@ -116,7 +116,7 @@ Currently only one codec format property is supported; it is listed in the follo
 <tr>
 <td>g_wszSpeechCaps</td>
 <td><b>WMT_TYPE_DWORD</b></td>
-<td>The value is one from the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-tagwmt_musicspeech_class_mode">WMT_MUSICSPEECH_CLASS_MODE</a> enumeration type indicating the supported mode of the format. This property applies only to the Windows Media Audio 9 Voice codec.</td>
+<td>The value is one from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_musicspeech_class_mode">WMT_MUSICSPEECH_CLASS_MODE</a> enumeration type indicating the supported mode of the format. This property applies only to the Windows Media Audio 9 Voice codec.</td>
 </tr>
 </table>
  

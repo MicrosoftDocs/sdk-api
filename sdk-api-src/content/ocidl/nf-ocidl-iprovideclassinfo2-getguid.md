@@ -61,7 +61,7 @@ Retrieves the specified GUID for the object.
 
 ### -param dwGuidKind [in]
 
-The GUID type. Possible values are from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagguidkind">GUIDKIND</a> enumeration.
+The GUID type. Possible values are from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-guidkind">GUIDKIND</a> enumeration.
 
 
 ### -param pGUID [out]

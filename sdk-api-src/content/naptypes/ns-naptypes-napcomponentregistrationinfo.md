@@ -66,22 +66,22 @@ A <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes">NapComp
 
 ### -field friendlyName
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagcountedstring">CountedString</a> structure that contains the friendly (human-readable) name of the component.
+A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a> structure that contains the friendly (human-readable) name of the component.
 
 
 ### -field description
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagcountedstring">CountedString</a> structure that contains a description of the component.
+A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a> structure that contains a description of the component.
 
 
 ### -field version
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagcountedstring">CountedString</a> structure that contains the version of the component.
+A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a> structure that contains the version of the component.
 
 
 ### -field vendorName
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagcountedstring">CountedString</a> structure that contains the vendor name for the component.
+A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a> structure that contains the vendor name for the component.
 
 
 ### -field infoClsid
@@ -137,7 +137,7 @@ When information about registered NAP
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagcountedstring">CountedString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a>
 
 
 

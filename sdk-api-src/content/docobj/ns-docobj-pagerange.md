@@ -74,7 +74,7 @@ The last page of the range. A special value, <b>PAGESET_TOLASTPAGE</b>, indicate
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-tagpageset">PAGESET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-pageset">PAGESET</a>
  
 
  

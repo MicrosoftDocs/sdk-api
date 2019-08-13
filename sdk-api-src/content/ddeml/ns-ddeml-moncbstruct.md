@@ -145,7 +145,7 @@ Additional data.
 
 ### -field cc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagconvcontext">CONVCONTEXT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-convcontext">CONVCONTEXT</a></b>
 
 The language information used to share data in different languages. 
 
@@ -169,7 +169,7 @@ Contains the first 32 bytes of data being passed with the transaction (<code>8 *
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagconvcontext">CONVCONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-convcontext">CONVCONTEXT</a>
 
 
 
@@ -181,19 +181,19 @@ Contains the first 32 bytes of data being passed with the transaction (<code>8 *
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagmonerrstruct">MONERRSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-monerrstruct">MONERRSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagmonhszstructa">MONHSZSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-monhszstructa">MONHSZSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagmonlinkstruct">MONLINKSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-monlinkstruct">MONLINKSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagmonmsgstruct">MONMSGSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-monmsgstruct">MONMSGSTRUCT</a>
 
 
 

@@ -64,7 +64,7 @@ The <b>DIBSECTION</b> structure contains information about a DIB created by call
 
 ### -field dsBm
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmap">BITMAP</a> data structure that contains information about the DIB: its type, its dimensions, its color capacities, and a pointer to its bit values.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmap">BITMAP</a> data structure that contains information about the DIB: its type, its dimensions, its color capacities, and a pointer to its bit values.
 
 
 ### -field dsBmih
@@ -95,7 +95,7 @@ The offset to the bitmap's bit values within the file mapping object referenced 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmap">BITMAP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmap">BITMAP</a>
 
 
 

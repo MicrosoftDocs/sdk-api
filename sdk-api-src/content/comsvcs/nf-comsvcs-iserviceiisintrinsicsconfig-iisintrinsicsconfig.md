@@ -61,7 +61,7 @@ Configures the IIS intrinsics for the enclosed work.
 
 ### -param iisIntrinsicsConfig [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_iisintrinsicsconfig">CSC_IISIntrinsicsConfig</a> enumeration.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_iisintrinsicsconfig">CSC_IISIntrinsicsConfig</a> enumeration.
 
 
 ## -returns

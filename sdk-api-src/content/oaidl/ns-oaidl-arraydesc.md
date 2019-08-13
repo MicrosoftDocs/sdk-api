@@ -79,7 +79,7 @@ A variable-length array containing one element for each dimension.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagtypedesc">TYPEDESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-typedesc">TYPEDESC</a>
  
 
  

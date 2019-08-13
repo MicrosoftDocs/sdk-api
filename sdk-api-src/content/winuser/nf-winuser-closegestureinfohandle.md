@@ -101,7 +101,7 @@ If the message is passed to <a href="http://go.microsoft.com/fwlink/p/?linkid=13
 
 #### Examples
 
-The following code shows a handler that closes the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taggestureinfo">GESTUREINFO</a> handle if the gesture has been handled.
+The following code shows a handler that closes the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureinfo">GESTUREINFO</a> handle if the gesture has been handled.
 
 
 ```cpp

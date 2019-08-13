@@ -65,7 +65,7 @@ The <code>GetVMGAttributes</code> method retrieves attributes of all video, audi
 
 ### -param pATR [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_menuattributes">DVD_MenuAttributes</a> structure that receives the attributes.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_menuattributes">DVD_MenuAttributes</a> structure that receives the attributes.
 
 
 ## -returns

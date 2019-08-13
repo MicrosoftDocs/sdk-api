@@ -70,7 +70,7 @@ Pointer to the pin to query capabilities from.
 
 ### -param pCapsFlags [out]
 
-Pointer to a value representing a combination of the flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagvideocontrolflags">VideoControlFlags</a> enumeration.
+Pointer to a value representing a combination of the flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-videocontrolflags">VideoControlFlags</a> enumeration.
 
 
 ## -returns

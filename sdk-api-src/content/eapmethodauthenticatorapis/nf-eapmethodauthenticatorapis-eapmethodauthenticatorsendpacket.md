@@ -78,7 +78,7 @@ Specifies the maximum size, in bytes, of the packet to send. On return, this par
 
 ### -param pSendPacket [out]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodtypes/ns-eapmethodtypes-tageappacket">EapPacket</a> structure that contains the packet to send to the supplicant.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eapmethodtypes/ns-eapmethodtypes-eappacket">EapPacket</a> structure that contains the packet to send to the supplicant.
 
 
 ### -param pTimeout [out]

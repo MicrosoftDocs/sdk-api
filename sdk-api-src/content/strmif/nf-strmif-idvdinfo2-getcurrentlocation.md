@@ -65,7 +65,7 @@ The <code>GetCurrentLocation</code> method retrieves the current playback locati
 
 ### -param pLocation [out]
 
-Pointer to a variable of type <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_playback_location2">DVD_PLAYBACK_LOCATION2</a> that receives the playback location information.
+Pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_playback_location2">DVD_PLAYBACK_LOCATION2</a> that receives the playback location information.
 
 
 ## -returns

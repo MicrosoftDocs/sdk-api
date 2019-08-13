@@ -82,7 +82,7 @@ Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/
 
 ### -param ppropvar [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>**</b>
 
 When this function returns, contains the requested value.
 

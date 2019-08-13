@@ -66,7 +66,7 @@ The ability to set the <a href="https://docs.microsoft.com/windows/desktop/api/w
 
 ### -field auptDisableAutomaticUpdates
 
-The ability to set the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_notificationlevel">IAutomaticUpdatesSettings::NotificationLevel</a> property to <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagautomaticupdatesnotificationlevel">aunlDisabled</a>.
+The ability to set the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_notificationlevel">IAutomaticUpdatesSettings::NotificationLevel</a> property to <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-automaticupdatesnotificationlevel">aunlDisabled</a>.
 
 
 ### -field auptSetIncludeRecommendedUpdates

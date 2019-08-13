@@ -65,7 +65,7 @@ The <b>WMMPEG2VIDEOINFO</b> structure describes an MPEG-2 video stream.
 ### -field hdr
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-tagwmvideoinfoheader2">WMVIDEOINFOHEADER2</a> structure giving header information.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmvideoinfoheader2">WMVIDEOINFOHEADER2</a> structure giving header information.
 
 
 ### -field dwStartTimeCode

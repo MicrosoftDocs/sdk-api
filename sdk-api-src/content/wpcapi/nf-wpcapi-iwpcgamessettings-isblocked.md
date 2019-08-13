@@ -66,7 +66,7 @@ The GUID associated with the game during install or game scan detection.
 
 ### -param pdwReasons [out]
 
-The reason code. For a list of values, see the <a href="https://docs.microsoft.com/windows/desktop/api/wpcevent/ne-wpcevent-tagwpcflag_isblocked">WPCFLAG_ISBLOCKED</a> enumeration.
+The reason code. For a list of values, see the <a href="https://docs.microsoft.com/windows/desktop/api/wpcevent/ne-wpcevent-wpcflag_isblocked">WPCFLAG_ISBLOCKED</a> enumeration.
 
 
 ## -returns

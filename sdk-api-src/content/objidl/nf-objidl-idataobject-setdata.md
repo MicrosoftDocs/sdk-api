@@ -61,7 +61,7 @@ Called by an object containing a data source to transfer data to the object that
 
 ### -param pformatetc [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure defining the format used by the data object when interpreting the data contained in the storage medium.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure defining the format used by the data object when interpreting the data contained in the storage medium.
 
 
 ### -param pmedium [in]

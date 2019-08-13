@@ -63,14 +63,14 @@ Compares two property values in the manner specified by the property description
 
 Type: <b>REFPROPVARIANT</b>
 
-A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure that contains the type and value of the first property.
+A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains the type and value of the first property.
 
 
 ### -param propvar2 [in]
 
 Type: <b>REFPROPVARIANT</b>
 
-A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure that contains the type and value of the second property.
+A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains the type and value of the second property.
 
 
 ### -param ppszDesc1 [out]

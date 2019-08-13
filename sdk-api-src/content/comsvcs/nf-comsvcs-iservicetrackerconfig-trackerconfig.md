@@ -62,7 +62,7 @@ Configures the tracker property for the enclosed work.
 
 ### -param trackerConfig [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_trackerconfig">CSC_TrackerConfig</a> enumeration.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_trackerconfig">CSC_TrackerConfig</a> enumeration.
 
 
 ### -param szTrackerAppName [in]

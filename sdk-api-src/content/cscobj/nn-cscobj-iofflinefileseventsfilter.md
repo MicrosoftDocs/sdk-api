@@ -75,7 +75,7 @@ The <b>IOfflineFilesEventsFilter</b> interface has these methods.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileseventsfilter-getexcludedevents">GetExcludedEvents</a>
 </td>
 <td align="left" width="63%">
-Retrieves an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_events">OFFLINEFILES_EVENTS</a> enumeration values describing which events should not be received by the event sink.
+Retrieves an array of <a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_events">OFFLINEFILES_EVENTS</a> enumeration values describing which events should not be received by the event sink.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Retrieves an array of <a href="https://docs.microsoft.com/previous-versions/wind
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileseventsfilter-getincludedevents">GetIncludedEvents</a>
 </td>
 <td align="left" width="63%">
-Retrieves an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_events">OFFLINEFILES_EVENTS</a> enumeration values describing which events should be received by the event sink.
+Retrieves an array of <a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_events">OFFLINEFILES_EVENTS</a> enumeration values describing which events should be received by the event sink.
 
 </td>
 </tr>

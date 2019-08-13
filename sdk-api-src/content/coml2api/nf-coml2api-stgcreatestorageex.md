@@ -127,7 +127,7 @@ Must be 0.
 ### -param pStgOptions [in]
 
 The <i>pStgOptions</i> parameter is valid only if the <i>stgfmt</i> parameter is set to STGFMT_DOCFILE. If the <i>stgfmt</i> parameter is set to STGFMT_DOCFILE, <i>pStgOptions</i> points to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/ns-coml2api-tagstgoptions">STGOPTIONS</a> structure, which specifies features of the storage object, such as the sector size. This parameter may be <b>NULL</b>, which creates a storage object with a default sector size of 512 bytes. If non-<b>NULL</b>, the <b>ulSectorSize</b> member must be set to either 512 or 4096. If set to 4096, STGM_SIMPLE may not be specified in the <i>grfMode</i> parameter. The <b>usVersion</b> member must be set before calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/ns-coml2api-stgoptions">STGOPTIONS</a> structure, which specifies features of the storage object, such as the sector size. This parameter may be <b>NULL</b>, which creates a storage object with a default sector size of 512 bytes. If non-<b>NULL</b>, the <b>ulSectorSize</b> member must be set to either 512 or 4096. If set to 4096, STGM_SIMPLE may not be specified in the <i>grfMode</i> parameter. The <b>usVersion</b> member must be set before calling 
 <b>StgCreateStorageEx</b>. For more information, see <b>STGOPTIONS</b>.
 
 
@@ -165,7 +165,7 @@ This function can also return any file system errors or system errors wrapped in
 
 
 
-When an application modifies its file, it usually creates a copy of the original. The <b>StgCreateStorageEx</b> function is one way for creating a copy. This function works indirectly with the Encrypting File System (EFS) duplication API. When you use this function, you will need to set the options for the file storage in the <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/ns-coml2api-tagstgoptions">STGOPTIONS</a> structure.
+When an application modifies its file, it usually creates a copy of the original. The <b>StgCreateStorageEx</b> function is one way for creating a copy. This function works indirectly with the Encrypting File System (EFS) duplication API. When you use this function, you will need to set the options for the file storage in the <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/ns-coml2api-stgoptions">STGOPTIONS</a> structure.
 
 <b>StgCreateStorageEx</b> is a superset of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile">StgCreateDocfile</a> function, and should be used by new code. Future enhancements to Structured Storage will be exposed through the 
@@ -230,7 +230,7 @@ You can also use
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/ns-coml2api-tagstgoptions">STGOPTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/ns-coml2api-stgoptions">STGOPTIONS</a>
 
 
 

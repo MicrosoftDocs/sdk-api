@@ -61,7 +61,7 @@ Binds all work submitted by the activity to a single single-threaded apartment.
 
 ### -param binding [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_binding">CSC_Binding</a> enumeration.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_binding">CSC_Binding</a> enumeration.
 
 
 ## -returns

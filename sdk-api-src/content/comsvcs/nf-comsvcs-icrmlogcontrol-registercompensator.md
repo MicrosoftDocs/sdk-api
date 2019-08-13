@@ -71,7 +71,7 @@ The description string to be used by the monitoring interfaces.
 
 ### -param lCrmRegFlags [in]
 
-Flags from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcrmregflags">CRMREGFLAGS</a> enumeration that control which phases of transaction completion should be received by the CRM Compensator and whether recovery should fail if in-doubt transactions remain after recovery has been attempted.
+Flags from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-crmregflags">CRMREGFLAGS</a> enumeration that control which phases of transaction completion should be received by the CRM Compensator and whether recovery should fail if in-doubt transactions remain after recovery has been attempted.
 
 
 ## -returns

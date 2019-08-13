@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 The <b>PropVariantClear</b> function
 			frees all elements that can be freed in a given 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.   For complex elements with known element pointers, the underlying elements are freed prior to freeing the containing element.
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.   For complex elements with known element pointers, the underlying elements are freed prior to freeing the containing element.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ The <b>PropVariantClear</b> function
 ### -param pvar [in]
 
 A pointer to an initialized 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure for which any deallocatable elements are to be freed. On return, all zeroes are written to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure for which any deallocatable elements are to be freed. On return, all zeroes are written to the 
 <b>PROPVARIANT</b> structure.
 
 
@@ -86,15 +86,15 @@ This function returns HRESULT.
 
 
 
-At any level of indirection, <b>NULL</b> pointers are ignored. For example, the <i>pvar</i> parameter  points to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure of type <b>VT_CF</b>. The  <b>pclipdata</b> member of the <b>PROPVARIANT</b> structure points to a <b>CLIPDATA</b> structure. The <i>pClipData</i> pointer in the <b>CLIPDATA</b> structure is  <b>NULL</b>.  In this example, the <i>pClipData</i> pointer is ignored.  However, the <b>CLIPDATA</b> structure pointed to by the <b>pclipdata</b> member of the <b>PROPVARIANT</b> structure is freed.
+At any level of indirection, <b>NULL</b> pointers are ignored. For example, the <i>pvar</i> parameter  points to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure of type <b>VT_CF</b>. The  <b>pclipdata</b> member of the <b>PROPVARIANT</b> structure points to a <b>CLIPDATA</b> structure. The <i>pClipData</i> pointer in the <b>CLIPDATA</b> structure is  <b>NULL</b>.  In this example, the <i>pClipData</i> pointer is ignored.  However, the <b>CLIPDATA</b> structure pointed to by the <b>pclipdata</b> member of the <b>PROPVARIANT</b> structure is freed.
 
 On return, this function writes zeroes to the specified 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure, so the VT-type is <b>VT_EMPTY</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure, so the VT-type is <b>VT_EMPTY</b>.
 
 Passing <b>NULL</b> as the <i>pvar</i> parameter produces a return code of S_OK.
 
 <div class="alert"><b>Note</b>  Do not use this function to initialize 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structures. Instead, initialize these structures using the 
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures. Instead, initialize these structures using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-propvariantinit">PropVariantInit</a> macro (defined in Propidl.h).</div>
 <div> </div>
 

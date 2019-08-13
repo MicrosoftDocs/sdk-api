@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies or receives attributes of a tree-view item. This structure is an enhancement to the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitema">TVITEM</a> structure. New applications should use this structure where appropriate.
+Specifies or receives attributes of a tree-view item. This structure is an enhancement to the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> structure. New applications should use this structure where appropriate.
 
 
 ## -struct-fields
@@ -208,7 +208,7 @@ Bits 0 through 7 of this member contain the item state flags. For a list of poss
 
 Bits 8 through 11 of this member specify the one-based overlay image index. The overlay image is superimposed over the item's icon image. If these bits are zero, the item has no overlay image. To isolate these bits, use the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-item-states">TVIS_OVERLAYMASK</a> mask. To set the overlay image index in this member, use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-indextooverlaymask">INDEXTOOVERLAYMASK</a> macro. The image list's overlay images are set with the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_setoverlayimage">ImageList_SetOverlayImage</a> function.
 
-A state image is displayed next to an item's icon to indicate an application-defined state. Specify the state image list by sending a <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setimagelist">TVM_SETIMAGELIST</a> message. To set an item's state image, include the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-item-states">TVIS_STATEIMAGEMASK</a> value in The <b>stateMask</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitema">TVITEM</a> structure. Bits 12 through 15 of the structure's
+A state image is displayed next to an item's icon to indicate an application-defined state. Specify the state image list by sending a <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setimagelist">TVM_SETIMAGELIST</a> message. To set an item's state image, include the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-item-states">TVIS_STATEIMAGEMASK</a> value in The <b>stateMask</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> structure. Bits 12 through 15 of the structure's
 <b>state</b> member specify the index in the state image list of the image to be drawn.
 
 To set the state image index, use <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-indextostateimagemask">INDEXTOSTATEIMAGEMASK</a>. This macro takes an index and sets bits 12 through 15 appropriately. To indicate that the item has no state image, set the index to zero. This convention means that image zero in the state image list cannot be used as a state image. To isolate bits 12 through 15 of The <b>state</b> member, use the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-item-states">TVIS_STATEIMAGEMASK</a> mask.

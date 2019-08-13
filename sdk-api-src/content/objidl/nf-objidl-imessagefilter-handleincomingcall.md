@@ -63,7 +63,7 @@ This method is called prior to each method invocation originating outside the cu
 
 ### -param dwCallType [in]
 
-The type of incoming call that has been received. Possible values are from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagcalltype">CALLTYPE</a>.
+The type of incoming call that has been received. Possible values are from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-calltype">CALLTYPE</a>.
 
 
 ### -param htaskCaller [in]
@@ -78,7 +78,7 @@ The elapsed tick count since the outgoing call was made, if <i>dwCallType</i> is
 
 ### -param lpInterfaceInfo [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-taginterfaceinfo">INTERFACEINFO</a> structure that identifies the object, interface, and method being called. In the case of DDE calls, <i>lpInterfaceInfo</i> can be <b>NULL</b> because the DDE layer does not return interface information.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-interfaceinfo">INTERFACEINFO</a> structure that identifies the object, interface, and method being called. In the case of DDE calls, <i>lpInterfaceInfo</i> can be <b>NULL</b> because the DDE layer does not return interface information.
 
 
 ## -returns

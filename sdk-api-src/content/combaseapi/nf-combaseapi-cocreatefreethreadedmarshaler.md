@@ -126,7 +126,7 @@ The aggregating object's implementation of <a href="https://docs.microsoft.com/w
 <li>If the destination context is any other value, finds or creates an instance of COM's default (standard) marshaler and delegates marshaling to it.
 </li>
 </ol>
-Values for <i>dwDestContext</i> come from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagmshctx">MSHCTX</a> enumeration. MSHCTX_INPROC indicates that the interface pointer is to be marshaled between different threads in the same process. Because both threads have access to the same address space, the client thread can dereference the pointer directly rather than having to direct calls to a proxy. In all other cases, a proxy is required, so <b>CoCreateFreeThreadedMarshaler</b> delegates the marshaling job to COM's default implementation.
+Values for <i>dwDestContext</i> come from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshctx">MSHCTX</a> enumeration. MSHCTX_INPROC indicates that the interface pointer is to be marshaled between different threads in the same process. Because both threads have access to the same address space, the client thread can dereference the pointer directly rather than having to direct calls to a proxy. In all other cases, a proxy is required, so <b>CoCreateFreeThreadedMarshaler</b> delegates the marshaling job to COM's default implementation.
 
 
 

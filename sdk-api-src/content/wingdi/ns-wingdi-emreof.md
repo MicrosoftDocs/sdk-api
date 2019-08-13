@@ -79,7 +79,7 @@ The offset, in bytes, to an array of <a href="https://docs.microsoft.com/previou
 
 ### -field nSizeLast
 
-The same size as the <b>nSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagemr">EMR</a> structure. This member must be the last double word of the record. If palette entries exist, they precede this member.
+The same size as the <b>nSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a> structure. This member must be the last double word of the record. If palette entries exist, they precede this member.
 
 
 ## -see-also
@@ -87,7 +87,7 @@ The same size as the <b>nSize</b> member of the <a href="https://docs.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagemr">EMR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a>
 
 
 

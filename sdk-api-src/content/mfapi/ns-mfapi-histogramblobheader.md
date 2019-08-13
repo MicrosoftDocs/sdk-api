@@ -66,7 +66,7 @@ Size of the entire histogram blob in bytes.
 
 ### -field Histograms
 
-Number of histograms in the blob. Each histogram is identified by a <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-taghistogramheader">HistogramHeader</a>.
+Number of histograms in the blob. Each histogram is identified by a <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-histogramheader">HistogramHeader</a>.
 
 
 ## -see-also
@@ -74,11 +74,11 @@ Number of histograms in the blob. Each histogram is identified by a <a href="htt
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-taghistogramdataheader">HistogramDataHeader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-histogramdataheader">HistogramDataHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-taghistogramgrid">HistogramGrid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-histogramgrid">HistogramGrid</a>
  
 
  

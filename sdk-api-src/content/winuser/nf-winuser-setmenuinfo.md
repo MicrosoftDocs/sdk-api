@@ -70,7 +70,7 @@ A handle to a menu.
 
 Type: <b>LPCMENUINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmenuinfo">MENUINFO</a> structure for the menu. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-menuinfo">MENUINFO</a> structure for the menu. 
 
 
 ## -returns

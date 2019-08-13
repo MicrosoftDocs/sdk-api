@@ -86,7 +86,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/n
 
 ### -field dwAmbientFlags
 
-The number of ambient properties supplied by the container using values from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagqacontainerflags">QACONTAINERFLAGS</a> enumeration.
+The number of ambient properties supplied by the container using values from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-qacontainerflags">QACONTAINERFLAGS</a> enumeration.
 
 
 ### -field colorFore
@@ -157,7 +157,7 @@ If an interface pointer in the <b>QACONTAINER</b> structure is <b>NULL</b> it do
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagqacontainerflags">QACONTAINERFLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-qacontainerflags">QACONTAINERFLAGS</a>
  
 
  

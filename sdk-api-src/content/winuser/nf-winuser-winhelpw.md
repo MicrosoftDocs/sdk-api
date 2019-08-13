@@ -180,7 +180,7 @@ The following table shows the possible values for the <i>uCommand</i> parameter 
 <tr>
 <td>HELP_MULTIKEY</td>
 <td>Displays the topic specified by a keyword in an alternative keyword table.</td>
-<td>Address of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmultikeyhelpa">MULTIKEYHELP</a> structure that specifies a table footnote character and a keyword.</td>
+<td>Address of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-multikeyhelpa">MULTIKEYHELP</a> structure that specifies a table footnote character and a keyword.</td>
 </tr>
 <tr>
 <td>HELP_PARTIALKEY</td>
@@ -205,7 +205,7 @@ The following table shows the possible values for the <i>uCommand</i> parameter 
 <tr>
 <td>HELP_SETWINPOS</td>
 <td>Displays the Windows Help window, if it is minimized or in memory, and sets its size and position as specified.</td>
-<td>Address of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taghelpwininfoa">HELPWININFO</a> structure that specifies the size and position of either a primary or secondary Help window.</td>
+<td>Address of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-helpwininfoa">HELPWININFO</a> structure that specifies the size and position of either a primary or secondary Help window.</td>
 </tr>
 <tr>
 <td>HELP_TCARD</td>
@@ -228,11 +228,11 @@ The following table shows the possible values for the <i>uCommand</i> parameter 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taghelpwininfoa">HELPWININFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-helpwininfoa">HELPWININFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmultikeyhelpa">MULTIKEYHELP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-multikeyhelpa">MULTIKEYHELP</a>
  
 
  

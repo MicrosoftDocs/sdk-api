@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-taginstallationrebootbehavior">InstallationRebootBehavior</a> enumeration that  specifies the restart behavior that occurs when you install or uninstall the update.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-installationrebootbehavior">InstallationRebootBehavior</a> enumeration that  specifies the restart behavior that occurs when you install or uninstall the update.
 
 This property is read-only.
 

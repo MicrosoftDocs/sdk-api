@@ -66,7 +66,7 @@ Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-wi
 
 ### -field sizlBitmap
 
-Specifies a SIZEL structure that contains the width and height, in pixels, of the bitmap. A SIZEL structure is identical to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagsize">SIZE</a> structure.
+Specifies a SIZEL structure that contains the width and height, in pixels, of the bitmap. A SIZEL structure is identical to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-size">SIZE</a> structure.
 
 
 ### -field aj

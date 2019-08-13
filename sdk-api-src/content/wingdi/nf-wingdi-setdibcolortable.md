@@ -79,7 +79,7 @@ The number of color table entries to set.
 
 ### -param prgbq [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagrgbquad">RGBQUAD</a> structures containing new color information for the DIB's color table.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a> structures containing new color information for the DIB's color table.
 
 
 ## -returns
@@ -133,7 +133,7 @@ The <b>bV5BitCount</b> member of a bitmap's associated <a href="https://docs.mic
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagdibsection">DIBSECTION
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-dibsection">DIBSECTION
       </a>
 
 
@@ -148,7 +148,7 @@ The <b>bV5BitCount</b> member of a bitmap's associated <a href="https://docs.mic
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagrgbquad">RGBQUAD
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD
       </a>
  
 

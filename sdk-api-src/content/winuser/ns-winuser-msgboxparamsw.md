@@ -129,7 +129,7 @@ This member is ignored if the
 
 Type: <b>DWORD_PTR</b>
 
-Identifies a help context. If a help event occurs, this value is specified in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taghelpinfo">HELPINFO</a> structure that the message box sends to the owner window or callback function. 
+Identifies a help context. If a help event occurs, this value is specified in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-helpinfo">HELPINFO</a> structure that the message box sends to the owner window or callback function. 
 
 
 ### -field lpfnMsgBoxCallback
@@ -169,7 +169,7 @@ For a list of supported language identifiers, see <a href="https://docs.microsof
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taghelpinfo">HELPINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-helpinfo">HELPINFO</a>
 
 
 

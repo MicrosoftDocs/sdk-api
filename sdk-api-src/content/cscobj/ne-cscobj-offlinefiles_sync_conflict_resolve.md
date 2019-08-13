@@ -78,7 +78,7 @@ Keep the remote state.  This overwrites the local copy with the remote copy's co
 
 Keeps both copies.  Note that this resolution is valid only for sync conflict states where both the server and client copies exist and where at least one of the items is a file.  The <b>OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPALLCHANGES</b> resolution is not available when one of the items has been deleted or both items are directories.
 
-The list of applicable <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_sync_state">OFFLINEFILES_SYNC_STATE</a> values is as follows:
+The list of applicable <a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_sync_state">OFFLINEFILES_SYNC_STATE</a> values is as follows:
 
 <b>OFFLINEFILES_SYNC_STATE_DirChangedOnClient_FileChangedOnServer</b>
 <b>OFFLINEFILES_SYNC_STATE_DirChangedOnClient_FileOnServer</b>
@@ -131,7 +131,7 @@ Cancel the synchronization operation.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_sync_state">OFFLINEFILES_SYNC_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_sync_state">OFFLINEFILES_SYNC_STATE</a>
  
 
  

@@ -220,7 +220,7 @@ If <i>dwIndex</i> is GGL_INDEX, the return value is one of the following values.
 </tr>
 <tr>
 <td>GL_ID_REVERSECONVERSION</td>
-<td>Information about reverse conversion is available by calling <b>ImmGetGuideLine</b>, specifying GGL_PRIVATE. The information retrieved is in <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagcandidatelist">CANDIDATELIST</a> format.</td>
+<td>Information about reverse conversion is available by calling <b>ImmGetGuideLine</b>, specifying GGL_PRIVATE. The information retrieved is in <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-candidatelist">CANDIDATELIST</a> format.</td>
 </tr>
 </table>
  
@@ -246,7 +246,7 @@ Applications typically call this function after receiving an <a href="https://do
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagcandidatelist">CANDIDATELIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-candidatelist">CANDIDATELIST</a>
 
 
 

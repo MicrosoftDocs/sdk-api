@@ -1,5 +1,5 @@
 ---
-UID: NS:bits1_5.__MIDL_IBackgroundCopyJob2_0005
+UID: NS:bits1_5.BG_AUTH_CREDENTIALS
 title: BG_AUTH_CREDENTIALS (bits1_5.h)
 author: windows-sdk-content
 description: Identifies the target (proxy or server), authentication scheme, and the user's credentials to use for user authentication requests. The structure is passed to the IBackgroundCopyJob2::SetCredentials method.

@@ -110,7 +110,7 @@ Network Access Protection (NAP) uses the <b>ISOLATION_STATE</b> value to determi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-tagisolationstate">NAP IsolationState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-isolationstate">NAP IsolationState</a>
 
 
 

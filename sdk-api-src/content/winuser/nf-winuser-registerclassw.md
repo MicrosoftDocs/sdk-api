@@ -73,7 +73,7 @@ Registers a window class for subsequent use in calls to the <a href="https://doc
 
 Type: <b>const WNDCLASS*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassa">WNDCLASS</a> structure. You must fill the structure with the appropriate class attributes before passing it to the function. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a> structure. You must fill the structure with the appropriate class attributes before passing it to the function. 
 
 
 ## -returns
@@ -160,7 +160,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassa">WNDCLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a>
 
 
 

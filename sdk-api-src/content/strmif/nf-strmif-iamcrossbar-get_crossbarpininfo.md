@@ -108,7 +108,7 @@ Pointer to a variable that receives the index of the related pin, or –1 if no 
 
 ### -param PhysicalType [out]
 
-Pointer to a variable that receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagphysicalconnectortype">PhysicalConnectorType</a> enumeration, indicating the pin's physical type.
+Pointer to a variable that receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-physicalconnectortype">PhysicalConnectorType</a> enumeration, indicating the pin's physical type.
 
 
 ## -returns

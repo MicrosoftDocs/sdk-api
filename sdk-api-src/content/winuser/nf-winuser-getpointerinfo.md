@@ -73,7 +73,7 @@ The pointer identifier.
 
 ### -param pointerInfo [out]
 
-Address of a  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_info">POINTER_INFO</a> structure that receives the pointer information.
+Address of a  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> structure that receives the pointer information.
 
 
 ## -returns

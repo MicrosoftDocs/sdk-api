@@ -171,7 +171,7 @@ An additional value associated with the keystroke. Use the <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taginput">INPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-input">INPUT</a>
 
 
 

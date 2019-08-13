@@ -63,7 +63,7 @@ Gets the image reference associated with a property value.
 
 Type: <b>REFPROPVARIANT</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> for which to get an image.
+The <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> for which to get an image.
 
 
 ### -param ppszImageRes [out]

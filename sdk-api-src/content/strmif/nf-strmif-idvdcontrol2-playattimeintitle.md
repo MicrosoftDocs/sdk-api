@@ -70,7 +70,7 @@ Value that specifies the number of the title to play; this value must be from 1 
 
 ### -param pStartTime [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_hmsf_timecode">DVD_HMSF_TIMECODE</a> structure that specifies where playback will begin.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode">DVD_HMSF_TIMECODE</a> structure that specifies where playback will begin.
 
 
 ### -param dwFlags [in]

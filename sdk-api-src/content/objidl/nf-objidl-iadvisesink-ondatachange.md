@@ -61,7 +61,7 @@ Called by the server to notify a data object's currently registered advise sinks
 
 ### -param pFormatetc [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure, which describes the format, target device, rendering, and storage information of the calling data object.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure, which describes the format, target device, rendering, and storage information of the calling data object.
 
 
 ### -param pStgmed [in]

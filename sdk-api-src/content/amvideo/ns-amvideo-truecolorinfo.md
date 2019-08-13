@@ -90,7 +90,7 @@ This structure is not used for some RGB formats. For more information about whic
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo">VIDEOINFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo">VIDEOINFO</a>
  
 
  

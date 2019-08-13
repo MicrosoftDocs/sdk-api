@@ -74,12 +74,12 @@ Part-of-title number with title. 0xffffffff if not a simple linear movie.
 
 ### -field TimeCode
 
-Timecode. Use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_hmsf_timecode">DVD_HMSF_TIMECODE</a> for current playback time. 0xffffffff if not a simple linear movie.
+Timecode. Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode">DVD_HMSF_TIMECODE</a> for current playback time. 0xffffffff if not a simple linear movie.
 
 
 ### -field TimeCodeFlags
 
-A bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_timecode_flags">DVD_TIMECODE_FLAGS</a> enumeration.
+A bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_timecode_flags">DVD_TIMECODE_FLAGS</a> enumeration.
 
 
 ## -remarks

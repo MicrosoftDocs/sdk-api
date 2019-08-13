@@ -62,7 +62,7 @@ The <b>ONEX_AUTH_RESTART_REASON</b> enumerated type specifies the possible reaso
 
 ### -field OneXRestartReasonPeerInitiated
 
-The EAPHost component (the peer) requested the 802.1x module to restart 802.1X authentication. This results from a <a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction">EapHostPeerProcessReceivedPacket</a> function call that returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeerresponseaction">EapHostPeerResponseAction</a> enumeration value of <b>EapHostPeerResponseStartAuthentication</b> in the <i>pEapOutput</i> parameter. 
+The EAPHost component (the peer) requested the 802.1x module to restart 802.1X authentication. This results from a <a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction">EapHostPeerProcessReceivedPacket</a> function call that returns an <a href="https://docs.microsoft.com/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerresponseaction">EapHostPeerResponseAction</a> enumeration value of <b>EapHostPeerResponseStartAuthentication</b> in the <i>pEapOutput</i> parameter. 
 
 
 ### -field OneXRestartReasonMsmInitiated

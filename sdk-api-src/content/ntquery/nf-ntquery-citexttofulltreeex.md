@@ -106,7 +106,7 @@ The number of properties in the <i>pProperties</i> array, or zero if <i>pPropert
 
 ### -param pProperties
 
-A pointer to an array of properties that can be referred to by a friendly name in the <i>pwszColumns</i>, <i>pwszSortColumns</i>, <i>pwszGroupings</i>, and <i>pwszRestriction</i> parameters. Column names in the <b>wcsFriendlyName</b> member of each <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-tagcipropertydef">CIPROPERTYDEF</a> structure must be specified in uppercase. This parameter can be <b>NULL</b> if no properties are being defined and <i>cProperties</i> is zero. Indexing Service's built-in properties do not need to be defined to be used. It is an error to define a property with the same friendly name as that of a built-in property.
+A pointer to an array of properties that can be referred to by a friendly name in the <i>pwszColumns</i>, <i>pwszSortColumns</i>, <i>pwszGroupings</i>, and <i>pwszRestriction</i> parameters. Column names in the <b>wcsFriendlyName</b> member of each <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-cipropertydef">CIPROPERTYDEF</a> structure must be specified in uppercase. This parameter can be <b>NULL</b> if no properties are being defined and <i>cProperties</i> is zero. Indexing Service's built-in properties do not need to be defined to be used. It is an error to define a property with the same friendly name as that of a built-in property.
 
 
 ### -param LocaleID
@@ -208,7 +208,7 @@ Be sure  to include the following #define directive before your #include &lt;ole
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-tagcipropertydef">CIPROPERTYDEF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-cipropertydef">CIPROPERTYDEF</a>
 
 
 

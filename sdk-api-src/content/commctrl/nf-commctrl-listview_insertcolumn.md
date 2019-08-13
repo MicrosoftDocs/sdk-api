@@ -77,7 +77,7 @@ The index of the new column.
 
 Type: <b>const LPLVCOLUMN</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvcolumna">LVCOLUMN</a> structure that contains the attributes of the new column. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvcolumna">LVCOLUMN</a> structure that contains the attributes of the new column. 
 
 
 ## -remarks

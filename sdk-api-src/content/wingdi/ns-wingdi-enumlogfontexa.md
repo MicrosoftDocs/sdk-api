@@ -66,7 +66,7 @@ The <b>ENUMLOGFONTEX</b> structure contains information about an enumerated font
 
 ### -field elfLogFont
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure that contains values defining the font attributes.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure that contains values defining the font attributes.
 
 
 ### -field elfFullName
@@ -105,7 +105,7 @@ The script, that is, the character set, of the font. For example, Cyrillic.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>
  
 
  

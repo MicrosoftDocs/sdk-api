@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Copies the content from a Windows runtime property value to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.
+Copies the content from a Windows runtime property value to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/
 
 ### -param ppropvar [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure. When this function returns, the <b>PROPVARIANT</b> contains the converted info.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. When this function returns, the <b>PROPVARIANT</b> contains the converted info.
 
 
 ## -returns

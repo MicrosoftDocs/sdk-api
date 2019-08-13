@@ -62,7 +62,7 @@ Retrieves a collection of bounding rectangles for each fully or partially visibl
 
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 Receives a pointer to one of the following.
                 

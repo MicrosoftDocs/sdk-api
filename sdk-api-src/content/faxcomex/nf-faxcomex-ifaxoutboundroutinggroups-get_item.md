@@ -64,7 +64,7 @@ The <b>IFaxOutboundRoutingGroups::get_Item</b> method returns a <a href="https:/
 Type: <b>VARIANT</b>
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">Variant</a> that specifies the item to retrieve from the collection. 
+<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">Variant</a> that specifies the item to retrieve from the collection. 
 
 
 

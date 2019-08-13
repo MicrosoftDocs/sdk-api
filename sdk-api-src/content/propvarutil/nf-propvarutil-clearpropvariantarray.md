@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Frees the memory and references used by an array of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structures stored in an array.
+Frees the memory and references used by an array of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures stored in an array.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Frees the memory and references used by an array of <a href="https://docs.micros
 
 ### -param rgPropVar [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structures to free.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures to free.
 
 
 ### -param cVars [in]

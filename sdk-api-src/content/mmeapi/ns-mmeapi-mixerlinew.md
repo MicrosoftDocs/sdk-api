@@ -69,7 +69,7 @@ Size, in bytes, of the <b>MIXERLINE</b> structure. This member must be initializ
 
 ### -field dwDestination
 
-Destination line index. This member ranges from zero to one less than the value specified in the <b>cDestinations</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercapsa">MIXERCAPS</a> structure retrieved by the <a href="https://docs.microsoft.com/previous-versions/dd757300(v=vs.85)">mixerGetDevCaps</a> function. When the <a href="https://docs.microsoft.com/previous-versions/dd757303(v=vs.85)">mixerGetLineInfo</a> function is called with the MIXER_GETLINEINFOF_DESTINATION flag, properties for the destination line are returned. (The <b>dwSource</b> member must be set to zero in this case.) When called with the MIXER_GETLINEINFOF_SOURCE flag, the properties for the source given by the <b>dwSource</b> member that is associated with the <b>dwDestination</b> member are returned.
+Destination line index. This member ranges from zero to one less than the value specified in the <b>cDestinations</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercapsa">MIXERCAPS</a> structure retrieved by the <a href="https://docs.microsoft.com/previous-versions/dd757300(v=vs.85)">mixerGetDevCaps</a> function. When the <a href="https://docs.microsoft.com/previous-versions/dd757303(v=vs.85)">mixerGetLineInfo</a> function is called with the MIXER_GETLINEINFOF_DESTINATION flag, properties for the destination line are returned. (The <b>dwSource</b> member must be set to zero in this case.) When called with the MIXER_GETLINEINFOF_SOURCE flag, the properties for the source given by the <b>dwSource</b> member that is associated with the <b>dwDestination</b> member are returned.
           
 
 
@@ -538,7 +538,7 @@ Audio Mixers
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercapsa">MIXERCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercapsa">MIXERCAPS</a>
 
 
 

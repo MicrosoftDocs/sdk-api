@@ -140,7 +140,7 @@ The state of the type library is not valid for this operation.
 
 
 
-Valid <i>uLibFlags</i> values are listed in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ne-oaidl-taglibflags">LIBFLAGS</a>. 
+Valid <i>uLibFlags</i> values are listed in <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ne-oaidl-libflags">LIBFLAGS</a>. 
 
 
 

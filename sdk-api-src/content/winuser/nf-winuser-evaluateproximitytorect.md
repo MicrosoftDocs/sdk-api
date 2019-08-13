@@ -70,7 +70,7 @@ The <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that
 
 ### -param pHitTestingInput [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtouch_hit_testing_input">TOUCH_HIT_TESTING_INPUT</a> structure that holds the data for the touch contact area. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-touch_hit_testing_input">TOUCH_HIT_TESTING_INPUT</a> structure that holds the data for the touch contact area. 
 
 
 ### -param pProximityEval [out]

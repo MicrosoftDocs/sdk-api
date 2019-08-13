@@ -76,7 +76,7 @@ The count of entries in the <i>asAuthSvc</i> parameter. This parameter is used b
 
 ### -param asAuthSvc [in, optional]
 
-An array of authentication services that a server is willing to use to receive a call. This parameter is used by COM only when a server calls <b>CoInitializeSecurity</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagsole_authentication_service">SOLE_AUTHENTICATION_SERVICE</a>.
+An array of authentication services that a server is willing to use to receive a call. This parameter is used by COM only when a server calls <b>CoInitializeSecurity</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-sole_authentication_service">SOLE_AUTHENTICATION_SERVICE</a>.
 
 
 ### -param pReserved1 [in, optional]
@@ -98,12 +98,12 @@ Outgoing calls from the client always use the impersonation level as specified. 
 
 ### -param pAuthList [in, optional]
 
-A pointer to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagsole_authentication_list">SOLE_AUTHENTICATION_LIST</a>, which is an array of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagsole_authentication_info">SOLE_AUTHENTICATION_INFO</a> structures. This list indicates the information for each authentication service that a client can use to call a server. This parameter is used by COM only when a client calls <b>CoInitializeSecurity</b>.
+A pointer to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-sole_authentication_list">SOLE_AUTHENTICATION_LIST</a>, which is an array of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-sole_authentication_info">SOLE_AUTHENTICATION_INFO</a> structures. This list indicates the information for each authentication service that a client can use to call a server. This parameter is used by COM only when a client calls <b>CoInitializeSecurity</b>.
 
 
 ### -param dwCapabilities [in]
 
-Additional capabilities of the client or server, specified by setting one or more <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tageole_authentication_capabilities">EOLE_AUTHENTICATION_CAPABILITIES</a> values. Some of these value cannot be used simultaneously, and some cannot be set when particular authentication services are being used. For more information about these flags, see the Remarks section.
+Additional capabilities of the client or server, specified by setting one or more <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-eole_authentication_capabilities">EOLE_AUTHENTICATION_CAPABILITIES</a> values. Some of these value cannot be used simultaneously, and some cannot be set when particular authentication services are being used. For more information about these flags, see the Remarks section.
 
 
 ### -param pReserved3 [in, optional]

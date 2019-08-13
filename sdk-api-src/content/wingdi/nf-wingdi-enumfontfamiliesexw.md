@@ -58,7 +58,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EnumFontFamiliesEx</b> function enumerates all uniquely-named fonts in the system that match the font characteristics specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure. <b>EnumFontFamiliesEx</b> enumerates fonts based on typeface name, character set, or both.
+The <b>EnumFontFamiliesEx</b> function enumerates all uniquely-named fonts in the system that match the font characteristics specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure. <b>EnumFontFamiliesEx</b> enumerates fonts based on typeface name, character set, or both.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ A handle to the device context from which to enumerate the fonts.
 
 ### -param lpLogfont [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure that contains information about the fonts to enumerate. The function examines the following members.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure that contains information about the fonts to enumerate. The function examines the following members.
 
 <table>
 <tr>
@@ -124,7 +124,7 @@ The return value is the last value returned by the callback function. This value
 
 
 
-The <b>EnumFontFamiliesEx</b> function does not use tagged typeface names to identify character sets. Instead, it always passes the correct typeface name and a separate character set value to the callback function. The function enumerates fonts based on the values of the <b>lfCharSet</b> and <b>lfFaceName</b> members in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure.
+The <b>EnumFontFamiliesEx</b> function does not use tagged typeface names to identify character sets. Instead, it always passes the correct typeface name and a separate character set value to the callback function. The function enumerates fonts based on the values of the <b>lfCharSet</b> and <b>lfFaceName</b> members in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure.
 
 As with <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesa">EnumFontFamilies</a>, <b>EnumFontFamiliesEx</b> enumerates all font styles. Not all styles of a font cover the same character sets. For example, Fontorama Bold might contain ANSI, Greek, and Cyrillic characters, but Fontorama Italic might contain only ANSI characters. For this reason, it's best not to assume that a specified font covers a specific character set, even if it is the ANSI character set. The following table shows the results of various combinations of values for <b>lfCharSet</b> and <b>lfFaceName</b>.
 
@@ -225,7 +225,7 @@ lf.lfCharSet = ANSI_CHARSET;
 ```
 
 
-The callback functions for <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesa">EnumFontFamilies</a> and <b>EnumFontFamiliesEx</b> are very similar. The main difference is that the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagenumlogfontexa">ENUMLOGFONTEX</a> structure includes a script field.
+The callback functions for <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesa">EnumFontFamilies</a> and <b>EnumFontFamiliesEx</b> are very similar. The main difference is that the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enumlogfontexa">ENUMLOGFONTEX</a> structure includes a script field.
 
 Note, based on the values of <b>lfCharSet</b> and <b>lfFaceName</b>, <b>EnumFontFamiliesEx</b> will enumerate the same font as many times as there are distinct character sets in the font. This can create an extensive list of fonts which can be burdensome to a user. For example, the Century Schoolbook font can appear for the Baltic, Western, Greek, Turkish, and Cyrillic character sets. To avoid this, an application should filter the list of fonts.
 
@@ -261,7 +261,7 @@ When the graphics mode on the device context is set to GM_ADVANCED using the Set
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>
  
 
  

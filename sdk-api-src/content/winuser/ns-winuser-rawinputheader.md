@@ -111,7 +111,7 @@ Raw input comes from the mouse.
 
 Type: <b>DWORD</b>
 
-The size, in bytes, of the entire input packet of data. This includes <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a> plus possible extra input reports in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawhid">RAWHID</a> variable length array. 
+The size, in bytes, of the entire input packet of data. This includes <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> plus possible extra input reports in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawhid">RAWHID</a> variable length array. 
 
 
 ### -field hDevice
@@ -151,11 +151,11 @@ To get more information on the device, use <b>hDevice</b> in a call to <a href="
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawhid">RAWHID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawhid">RAWHID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
 
 
 

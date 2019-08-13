@@ -77,7 +77,7 @@ Index of the tab.
 
 Type: <b>LPTCITEM</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtcitema">TCITEM</a> structure that specifies the information to retrieve and receives information about the tab. When the message is sent, the 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tcitema">TCITEM</a> structure that specifies the information to retrieve and receives information about the tab. When the message is sent, the 
 					<b>mask</b> member specifies which attributes to return. If the <b>mask</b> member specifies the TCIF_TEXT value, the 
 <b>pszText</b> member must contain the address of the buffer that receives the item text, and the <b>cchTextMax</b> member must specify the size of the buffer.
 
@@ -87,7 +87,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns
 
 
 If the TCIF_TEXT flag is set in the 
-				<b>mask</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtcitema">TCITEM</a> structure, the control may change the <b>pszText</b> member of the structure to point to the new text instead of filling the buffer with the requested text. The control may set the <b>pszText</b> member to <b>NULL</b> to indicate that no text is associated with the item.
+				<b>mask</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tcitema">TCITEM</a> structure, the control may change the <b>pszText</b> member of the structure to point to the new text instead of filling the buffer with the requested text. The control may set the <b>pszText</b> member to <b>NULL</b> to indicate that no text is associated with the item.
 
 
 

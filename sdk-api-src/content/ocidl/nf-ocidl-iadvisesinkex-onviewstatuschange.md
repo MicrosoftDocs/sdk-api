@@ -61,7 +61,7 @@ Notifies the sink that a view status of an object has changed.
 
 ### -param dwViewStatus [in]
 
-The new view status. Possible values are from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagviewstatus">VIEWSTATUS</a> enumeration.
+The new view status. Possible values are from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-viewstatus">VIEWSTATUS</a> enumeration.
 
 
 ## -returns

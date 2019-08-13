@@ -64,7 +64,7 @@ Deprecated. Used when translating accelerators through <a href="https://docs.mic
 
 Type: <b>LPMSG</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> that contains the keystroke message.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> that contains the keystroke message.
 
 
 ### -param itbNext [in]

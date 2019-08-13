@@ -146,7 +146,7 @@ Void pointer to the address containing the duration of playback. If zero is pass
 
 ### -param dwOffsetFormat [in]
 
-<b>DWORD</b> containing one member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-tagwmt_offset_format">WMT_OFFSET_FORMAT</a> enumeration type. Valid values and their meanings are as follows.
+<b>DWORD</b> containing one member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_offset_format">WMT_OFFSET_FORMAT</a> enumeration type. Valid values and their meanings are as follows.
 
 <table>
 <tr>

@@ -61,12 +61,12 @@ Specifies the format and other data to be cached inside an embedded object.
 
 ### -param pformatetc [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure that specifies the format and other data to be cached. View caching is specified by passing a zero clipboard format in <i>pformatetc</i>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure that specifies the format and other data to be cached. View caching is specified by passing a zero clipboard format in <i>pformatetc</i>.
 
 
 ### -param advf [in]
 
-A group of flags that control the caching. Possible values come from the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagadvf">ADVF</a> enumeration. When used in this context, for a cache, these values have specific meanings, which are outlined in Remarks. Refer to the <b>ADVF</b> enumeration for a more detailed description.
+A group of flags that control the caching. Possible values come from the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-advf">ADVF</a> enumeration. When used in this context, for a cache, these values have specific meanings, which are outlined in Remarks. Refer to the <b>ADVF</b> enumeration for a more detailed description.
 
 
 ### -param pdwConnection [out]
@@ -136,7 +136,7 @@ The cache was created, but the object application does not support the specified
 </dl>
 </td>
 <td width="60%">
-A cache already exists for the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> passed to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-uncache">IOleCache::Uncache</a>. In this case, the new advise flags are assigned to the cache, and the previously assigned connection identifier is returned.
+A cache already exists for the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> passed to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-uncache">IOleCache::Uncache</a>. In this case, the new advise flags are assigned to the cache, and the previously assigned connection identifier is returned.
 
 </td>
 </tr>
@@ -232,7 +232,7 @@ The cache is for a static object and it already has a cache node.
 <pre class="syntax" xml:space="preserve"><code>pFormatetc-&gt;cfFormat == 0</code></pre>
 A custom object handler can choose not to store data in a given format. Instead, it can synthesize it on demand when requested.
 
-The <i>advf</i> value specifies a member of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagadvf">ADVF</a> enumeration. When one of these values (or an OR'd combination of more than one value) is used in this context, these values mean the following.
+The <i>advf</i> value specifies a member of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-advf">ADVF</a> enumeration. When one of these values (or an OR'd combination of more than one value) is used in this context, these values mean the following.
 
 <table>
 <tr>

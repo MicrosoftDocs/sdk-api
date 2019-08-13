@@ -70,14 +70,14 @@ Handle to the tree-view control.
 
 Type: <b>LPTVITEM</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitema">TVITEM</a> structure that contains the new item attributes. With <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">version 4.71</a> and later, you can instead use a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitemexa">TVITEMEX</a> structure. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> structure that contains the new item attributes. With <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">version 4.71</a> and later, you can instead use a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a> structure. 
 
 
 ## -remarks
 
 
 
-The <b>hItem</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitema">TVITEM</a> or <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitemexa">TVITEMEX</a> structure identifies the item, and the <b>mask</b> member specifies which attributes to set.
+The <b>hItem</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> or <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a> structure identifies the item, and the <b>mask</b> member specifies which attributes to set.
 
 
 

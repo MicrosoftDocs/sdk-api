@@ -196,7 +196,7 @@ If <i>dwIndex</i> is set to IGP_UI, the function returns one or more of the foll
 </tr>
 <tr>
 <td>UI_CAP_2700</td>
-<td>Support text escapement values of 0 or 2700. For more information, see the <b>lfEscapement</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure.</td>
+<td>Support text escapement values of 0 or 2700. For more information, see the <b>lfEscapement</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure.</td>
 </tr>
 <tr>
 <td>UI_CAP_ROT90</td>

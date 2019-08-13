@@ -61,7 +61,7 @@ Configures the side-by-side assembly for the enclosed work.
 
 ### -param scsConfig [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_sxsconfig">CSC_SxsConfig</a> enumeration.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_sxsconfig">CSC_SxsConfig</a> enumeration.
 
 
 ## -returns

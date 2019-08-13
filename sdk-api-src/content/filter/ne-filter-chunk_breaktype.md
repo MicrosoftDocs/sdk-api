@@ -105,7 +105,7 @@ A change in attributes implies a word, sentence, paragraph, or chapter break.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-tagstat_chunk">STAT_CHUNK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-stat_chunk">STAT_CHUNK</a>
  
 
  

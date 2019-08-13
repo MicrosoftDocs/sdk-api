@@ -110,7 +110,7 @@ Gets the Int32 value of specified property key.
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
-Gets a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure from a specified property key.
+Gets a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure from a specified property key.
 
 </td>
 </tr>

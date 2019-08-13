@@ -78,7 +78,7 @@ The native <a href="https://docs.microsoft.com/previous-versions/windows/desktop
 Type: <b>DWORD</b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvcolumna">List view format</a>. This member is normally set to LVCFMT_LEFT.
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvcolumna">List view format</a>. This member is normally set to LVCFMT_LEFT.
 
 
 ### -field cChars

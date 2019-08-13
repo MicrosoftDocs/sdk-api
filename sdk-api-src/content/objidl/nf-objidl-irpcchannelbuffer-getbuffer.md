@@ -61,7 +61,7 @@ Retrieves a buffer into which data can be marshaled for transmission.
 
 ### -param pMessage [in, out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagrpcolemessage">RPCOLEMESSAGE</a> data structure.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-rpcolemessage">RPCOLEMESSAGE</a> data structure.
 
 
 ### -param riid [in]

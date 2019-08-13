@@ -97,7 +97,7 @@ Pointer to one of the records in the metafile. This record should not be modifie
 
 #### - lpHTable [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taghandletable">HANDLETABLE</a> structure representing the table of handles associated with the graphics objects (pens, brushes, and so on) in the metafile. The first entry contains the enhanced-metafile handle.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-handletable">HANDLETABLE</a> structure representing the table of handles associated with the graphics objects (pens, brushes, and so on) in the metafile. The first entry contains the enhanced-metafile handle.
 
 
 #### - nObj [in]
@@ -128,7 +128,7 @@ An application must register the callback function by passing its address to the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagenhmetarecord">ENHMETARECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enhmetarecord">ENHMETARECORD</a>
 
 
 
@@ -136,7 +136,7 @@ An application must register the callback function by passing its address to the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taghandletable">HANDLETABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-handletable">HANDLETABLE</a>
 
 
 

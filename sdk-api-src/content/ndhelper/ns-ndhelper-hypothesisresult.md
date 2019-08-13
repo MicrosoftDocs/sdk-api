@@ -61,14 +61,14 @@ The <b>HypothesisResult</b> structure contains information about a hypothesis re
 
 ### -field hypothesis
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ns-ndhelper-taghypothesis">HYPOTHESIS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ns-ndhelper-hypothesis">HYPOTHESIS</a></b>
 
 Information for a specific hypothesis.
 
 
 ### -field pathStatus
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ne-ndhelper-tagdiagnosis_status">DIAGNOSIS_STATUS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ne-ndhelper-diagnosis_status">DIAGNOSIS_STATUS</a></b>
 
 The status of the child helper class and its children. 
 
@@ -80,7 +80,7 @@ If the hypothesis or any of its children indicated <b>DS_CONFIRMED</b> in a call
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ne-ndhelper-tagdiagnosis_status">DIAGNOSIS_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ne-ndhelper-diagnosis_status">DIAGNOSIS_STATUS</a>
 
 
 
@@ -88,7 +88,7 @@ If the hypothesis or any of its children indicated <b>DS_CONFIRMED</b> in a call
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ns-ndhelper-taghypothesis">HYPOTHESIS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ns-ndhelper-hypothesis">HYPOTHESIS</a>
 
 
 

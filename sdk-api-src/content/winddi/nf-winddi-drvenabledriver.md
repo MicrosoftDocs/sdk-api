@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DrvEnableDriver</b> function is the initial driver entry point exported by the driver DLL. It fills in a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdrvenabledata">DRVENABLEDATA</a> structure with the driver's graphics DDI version number and the calling addresses of all graphics DDI functions supported by the driver.
+The <b>DrvEnableDriver</b> function is the initial driver entry point exported by the driver DLL. It fills in a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-drvenabledata">DRVENABLEDATA</a> structure with the driver's graphics DDI version number and the calling addresses of all graphics DDI functions supported by the driver.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ Is the size in bytes of the structure pointed to by <i>pded</i>. If the structur
 
 ### -param pded [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdrvenabledata">DRVENABLEDATA</a> structure. GDI zero-initializes <i>cj</i> bytes before the call. The driver fills in its own data.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-drvenabledata">DRVENABLEDATA</a> structure. GDI zero-initializes <i>cj</i> bytes before the call. The driver fills in its own data.
 
 
 ## -returns
@@ -91,7 +91,7 @@ The return value is <b>TRUE</b> if the specified driver is enabled. Otherwise, i
 
 One-time initializations, such as allocating semaphores, can also be performed by this function. The driver should wait until <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> is called before enabling hardware, such as a display.
 
-When performing version checking using the value provided in <i>iEngineVersion</i>, the driver should use the appropriate DDI_DRIVER_VERSION_<i>Xxx</i> constant (defined in <i>winddi.h</i>) shown in the following table. Drivers should almost never check just for equality since new versions and service pack releases for the operating system will be released in the future. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdrvenabledata">DRVENABLEDATA</a>.
+When performing version checking using the value provided in <i>iEngineVersion</i>, the driver should use the appropriate DDI_DRIVER_VERSION_<i>Xxx</i> constant (defined in <i>winddi.h</i>) shown in the following table. Drivers should almost never check just for equality since new versions and service pack releases for the operating system will be released in the future. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-drvenabledata">DRVENABLEDATA</a>.
 
 <table>
 <tr>
@@ -159,7 +159,7 @@ Windows XP Service Pack 1
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdrvenabledata">DRVENABLEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-drvenabledata">DRVENABLEDATA</a>
 
 
 

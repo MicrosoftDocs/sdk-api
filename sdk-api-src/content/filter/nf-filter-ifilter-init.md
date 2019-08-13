@@ -63,7 +63,7 @@ Initializes a filtering session.
 
 ### -param grfFlags [in]
 
-Values from the <a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-tagifilter_init">IFILTER_INIT</a> enumeration for controlling text standardization, property output, embedding scope, and <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> access patterns. 
+Values from the <a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-ifilter_init">IFILTER_INIT</a> enumeration for controlling text standardization, property output, embedding scope, and <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> access patterns. 
 
 
 ### -param cAttributes [in]
@@ -73,12 +73,12 @@ The size of the attributes array. When nonzero, <i>cAttributes</i> takes precede
 
 ### -param aAttributes [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-tagfullpropspec">FULLPROPSPEC</a> structures for the requested properties. When <i>cAttributes</i> is nonzero, only the properties in <i>aAttributes</i> are returned. 
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-fullpropspec">FULLPROPSPEC</a> structures for the requested properties. When <i>cAttributes</i> is nonzero, only the properties in <i>aAttributes</i> are returned. 
 
 
 ### -param pFlags [out]
 
-Information about additional properties available to the caller; from the <a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-tagifilter_flags">IFILTER_FLAGS</a> enumeration. 
+Information about additional properties available to the caller; from the <a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-ifilter_flags">IFILTER_FLAGS</a> enumeration. 
 
 
 ## -returns
@@ -181,15 +181,15 @@ For some implementations of the <a href="https://docs.microsoft.com/windows/desk
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-tagfullpropspec">FULLPROPSPEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-fullpropspec">FULLPROPSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-tagifilter_flags">IFILTER_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-ifilter_flags">IFILTER_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-tagifilter_init">IFILTER_INIT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-ifilter_init">IFILTER_INIT</a>
 
 
 

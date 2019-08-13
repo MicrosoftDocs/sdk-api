@@ -103,7 +103,7 @@ The top-level collection Usage for the device.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrid_device_info">RID_DEVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a>
 
 
 

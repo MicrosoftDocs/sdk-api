@@ -69,14 +69,14 @@ Creates an accelerator table.
 
 Type: <b>LPACCEL</b>
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagaccel">ACCEL</a> structures that describes the accelerator table.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a> structures that describes the accelerator table.
 
 
 ### -param cAccel [in]
 
 Type: <b>int</b>
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagaccel">ACCEL</a> structures in the array. This must be within the range 1 to 32767 or the function will fail.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a> structures in the array. This must be within the range 1 to 32767 or the function will fail.
 
 
 ## -returns
@@ -110,7 +110,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagaccel">ACCEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a>
 
 
 

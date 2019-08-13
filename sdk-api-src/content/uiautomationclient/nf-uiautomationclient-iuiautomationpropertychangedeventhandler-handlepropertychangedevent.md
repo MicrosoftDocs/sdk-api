@@ -75,7 +75,7 @@ The identifier of the property whose value has changed. For a list of property I
 
 ### -param newValue [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a></b>
 
 The new property value.
 

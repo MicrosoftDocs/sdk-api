@@ -67,7 +67,7 @@ Enumerates registered providers.
 
 ### -param ppProvider [out]
 
-Address of a <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-tagpxe_provider">PXE_PROVIDER</a> structure with the 
+Address of a <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-pxe_provider">PXE_PROVIDER</a> structure with the 
       <b>uSizeOfStruct</b> member filled in with the size of the structure. On return this 
       structure is filled in with provider information. This structure can be freed with the 
       <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderfreeinfo">PxeProviderFreeInfo</a> function.
@@ -87,7 +87,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-tagpxe_provider">PXE_PROVIDER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-pxe_provider">PXE_PROVIDER</a>
 
 
 

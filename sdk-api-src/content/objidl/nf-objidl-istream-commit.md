@@ -62,7 +62,7 @@ The <b>Commit</b>  method ensures that any changes made to a stream object open 
 ### -param grfCommitFlags [in]
 
 Controls how the changes for the stream object are committed. See the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagstgc">STGC</a> enumeration for a definition of these values.
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-stgc">STGC</a> enumeration for a definition of these values.
 
 
 ## -returns

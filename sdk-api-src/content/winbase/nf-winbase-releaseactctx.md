@@ -65,7 +65,7 @@ The
 ### -param hActCtx [in]
 
 Handle to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctxa">ACTCTX</a> structure that contains information on the activation context for which the reference count is to be decremented.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a> structure that contains information on the activation context for which the reference count is to be decremented.
 
 
 ## -returns
@@ -93,7 +93,7 @@ If the value of the <i>hActCtx</i> parameter is a null handle, this function doe
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctxa">ACTCTX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a>
 
 
 

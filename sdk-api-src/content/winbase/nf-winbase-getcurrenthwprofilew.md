@@ -65,7 +65,7 @@ Retrieves information about the current hardware profile for the local computer.
 ### -param lpHwProfileInfo [out]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-taghw_profile_infoa">HW_PROFILE_INFO</a> structure that receives information about the current hardware profile.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-hw_profile_infoa">HW_PROFILE_INFO</a> structure that receives information about the current hardware profile.
 
 
 ## -returns
@@ -134,7 +134,7 @@ void main(void)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-taghw_profile_infoa">HW_PROFILE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-hw_profile_infoa">HW_PROFILE_INFO</a>
 
 
 

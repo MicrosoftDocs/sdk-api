@@ -65,7 +65,7 @@ The <code>SetDefaultMonitor</code> method specifies the default monitor that all
 
 ### -param pGUID [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagvmrguid">VMRGUID</a> structure that identifies the monitor.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrguid">VMRGUID</a> structure that identifies the monitor.
 
 
 ## -returns

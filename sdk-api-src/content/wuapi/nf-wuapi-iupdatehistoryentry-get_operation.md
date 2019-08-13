@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagupdateoperation">UpdateOperation</a> value that specifies the operation on an update.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-updateoperation">UpdateOperation</a> value that specifies the operation on an update.
 
 This property is read-only.
 

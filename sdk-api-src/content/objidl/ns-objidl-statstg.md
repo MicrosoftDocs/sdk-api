@@ -74,7 +74,7 @@ A pointer to a <b>NULL</b>-terminated Unicode string that contains the name. Spa
 ### -field type
 
 Indicates the type of storage object. This is one of the values from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagstgty">STGTY</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-stgty">STGTY</a> enumeration.
 
 
 ### -field cbSize
@@ -106,7 +106,7 @@ Indicates the access mode specified when the object was opened. This member is o
 ### -field grfLocksSupported
 
 Indicates the types of region locking supported by the stream or byte array. For more information about the values available, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-taglocktype">LOCKTYPE</a> enumeration. This member is not used for storage objects.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a> enumeration. This member is not used for storage objects.
 
 
 ### -field clsid

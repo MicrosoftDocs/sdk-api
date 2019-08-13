@@ -70,7 +70,7 @@ Handle to the tree-view control.
 
 Type: <b>LPTVINSERTSTRUCT</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvinsertstructa">TVINSERTSTRUCT</a> structure that specifies the attributes of the tree-view item. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvinsertstructa">TVINSERTSTRUCT</a> structure that specifies the attributes of the tree-view item. 
 
 
 ## -see-also

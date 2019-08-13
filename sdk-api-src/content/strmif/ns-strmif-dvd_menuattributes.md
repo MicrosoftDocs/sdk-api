@@ -71,7 +71,7 @@ An array of <b>TRUE</b>/<b>FALSE</b> values indicating with which DVD regions th
 
 ### -field VideoAttributes
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_videoattributes">DVD_VideoAttributes</a> structure containing the video attributes of the menu. This applies to both a VMGM and VTSM.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_videoattributes">DVD_VideoAttributes</a> structure containing the video attributes of the menu. This applies to both a VMGM and VTSM.
 
 
 ### -field fAudioPresent
@@ -81,7 +81,7 @@ A variable of type BOOL indicating whether the menu has an audio stream.
 
 ### -field AudioAttributes
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_audioattributes">DVD_AudioAttributes</a> structure containing information about the menu's audio stream. This structure will only be filled in if <i>fAudioPresent</i> is <b>TRUE</b>.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_audioattributes">DVD_AudioAttributes</a> structure containing information about the menu's audio stream. This structure will only be filled in if <i>fAudioPresent</i> is <b>TRUE</b>.
 
 
 ### -field fSubpicturePresent
@@ -91,7 +91,7 @@ A variable of type BOOL indicating whether the menu has a subpicture stream.
 
 ### -field SubpictureAttributes
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_subpictureattributes">DVD_SubpictureAttributes</a> structure containing information about the menu's subpicture stream. This structure will only be filled in if <i>fSubpicturePresent</i> is <b>TRUE</b>.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_subpictureattributes">DVD_SubpictureAttributes</a> structure containing information about the menu's subpicture stream. This structure will only be filled in if <i>fSubpicturePresent</i> is <b>TRUE</b>.
 
 
 ## -see-also

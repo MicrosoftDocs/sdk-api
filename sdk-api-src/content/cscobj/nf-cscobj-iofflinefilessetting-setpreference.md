@@ -64,7 +64,7 @@ Sets a per-computer or per-user preference associated with an Offline Files sett
 
 Specifies the value associated with the preference.
 
-If multiple values are associated with the preference, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> type includes <b>VT_ARRAY</b> and the values are stored in a <b>SAFEARRAY</b>.
+If multiple values are associated with the preference, the <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> type includes <b>VT_ARRAY</b> and the values are stored in a <b>SAFEARRAY</b>.
 
 
 ### -param dwScope [in]

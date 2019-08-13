@@ -55,7 +55,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetCharacterPlacement</b> function retrieves information about a character string, such as character widths, caret positioning, ordering within the string, and glyph rendering. The type of information returned depends on the <i>dwFlags</i> parameter and is based on the currently selected font in the specified display context. The function copies the information to the specified <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taggcp_resultsa">GCP_RESULTS</a> structure or to one or more arrays specified by the structure.
+The <b>GetCharacterPlacement</b> function retrieves information about a character string, such as character widths, caret positioning, ordering within the string, and glyph rendering. The type of information returned depends on the <i>dwFlags</i> parameter and is based on the currently selected font in the specified display context. The function copies the information to the specified <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gcp_resultsa">GCP_RESULTS</a> structure or to one or more arrays specified by the structure.
 
 Although this function was once adequate for working with character strings, a need to work with an increasing number of languages and scripts has rendered it obsolete. It has been superseded by the functionality of the Uniscribe module. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>.
 
@@ -91,7 +91,7 @@ The maximum extent (in logical units) to which the string is processed. Characte
 
 ### -param lpResults [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taggcp_resultsa">GCP_RESULTS</a> structure that receives the results of the function.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gcp_resultsa">GCP_RESULTS</a> structure that receives the results of the function.
 
 
 ### -param dwFlags [in]
@@ -300,7 +300,7 @@ If the function fails, the return value is zero.
 
 Using <b>GetCharacterPlacement</b> to retrieve intercharacter spacing and index arrays is not always necessary unless justification or kerning is required. For non-Latin fonts, applications can improve the speed at which the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> function renders text by using <b>GetCharacterPlacement</b> to retrieve the intercharacter spacing and index arrays before calling <b>ExtTextOut</b>. This is especially useful when rendering the same text repeatedly or when using intercharacter spacing to position the caret. If the <b>lpGlyphs</b> output array is used in the call to <b>ExtTextOut</b>, the ETO_GLYPH_INDEX flag must be set.
 
-<b>GetCharacterPlacement</b> checks the <b>lpOrder</b>, <b>lpDX</b>, <b>lpCaretPos</b>, <b>lpOutString</b>, and <b>lpGlyphs</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taggcp_resultsa">GCP_RESULTS</a> structure and fills the corresponding arrays if these members are not set to <b>NULL</b>. If <b>GetCharacterPlacement</b> cannot fill an array, it sets the corresponding member to <b>NULL</b>. To ensure retrieval of valid information, the application is responsible for setting the member to a valid address before calling the function and for checking the value of the member after the call. If the GCP_JUSTIFY or GCP_USEKERNING values are specified, the <b>lpDX</b> and/or <b>lpCaretPos</b> members must have valid addresses.
+<b>GetCharacterPlacement</b> checks the <b>lpOrder</b>, <b>lpDX</b>, <b>lpCaretPos</b>, <b>lpOutString</b>, and <b>lpGlyphs</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gcp_resultsa">GCP_RESULTS</a> structure and fills the corresponding arrays if these members are not set to <b>NULL</b>. If <b>GetCharacterPlacement</b> cannot fill an array, it sets the corresponding member to <b>NULL</b>. To ensure retrieval of valid information, the application is responsible for setting the member to a valid address before calling the function and for checking the value of the member after the call. If the GCP_JUSTIFY or GCP_USEKERNING values are specified, the <b>lpDX</b> and/or <b>lpCaretPos</b> members must have valid addresses.
 
 Note that the glyph indexes returned in GCP_RESULTS.lpGlyphs are specific to the current font in the device context and should only be used to draw text in the device context while that font remains selected.
 
@@ -331,7 +331,7 @@ If the logical width is less than the width of the leading character in the inpu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taggcp_resultsa">GCP_RESULTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gcp_resultsa">GCP_RESULTS</a>
 
 
 

@@ -83,7 +83,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an HRESULT erro
 
 
 Manipulation events are generated for both the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> and <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> interfaces.
-    If you are using the values from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtouchinput">TOUCHINPUT</a> structure in calls to <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processdown">ProcessDown</a>, the coordinates will be in 
+    If you are using the values from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-touchinput">TOUCHINPUT</a> structure in calls to <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processdown">ProcessDown</a>, the coordinates will be in 
     hundredths of a pixel.
 
 

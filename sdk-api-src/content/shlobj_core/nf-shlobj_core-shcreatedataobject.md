@@ -86,7 +86,7 @@ An array of pointers to constant <a href="https://docs.microsoft.com/windows/des
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
 
-A pointer to interface <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>. This parameter can be <b>NULL</b>. Specify <i>pdtInner</i> only if the data object created needs to support additional <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a>  clipboard formats beyond the default formats it is assigned at creation.  Alternatively, provide support for populating the created data object using non-default clipboard formats by calling method <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-setdata">IDataObject::SetData</a> and specifying the format in the <b>FORMATETC</b> structure passed in parameter <i>pFormatetc</i>.
+A pointer to interface <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>. This parameter can be <b>NULL</b>. Specify <i>pdtInner</i> only if the data object created needs to support additional <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a>  clipboard formats beyond the default formats it is assigned at creation.  Alternatively, provide support for populating the created data object using non-default clipboard formats by calling method <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-setdata">IDataObject::SetData</a> and specifying the format in the <b>FORMATETC</b> structure passed in parameter <i>pFormatetc</i>.
 
 
 ### -param riid [in]

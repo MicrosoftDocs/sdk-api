@@ -220,7 +220,7 @@ The glyph outline returned by the <b>GetGlyphOutline</b> function is for a grid-
 
 The glyph bitmap returned by <b>GetGlyphOutline</b> when GGO_BITMAP is specified is a DWORD-aligned, row-oriented, monochrome bitmap. When GGO_GRAY2_BITMAP is specified, the bitmap returned is a DWORD-aligned, row-oriented array of bytes whose values range from 0 to 4. When GGO_GRAY4_BITMAP is specified, the bitmap returned is a DWORD-aligned, row-oriented array of bytes whose values range from 0 to 16. When GGO_GRAY8_BITMAP is specified, the bitmap returned is a DWORD-aligned, row-oriented array of bytes whose values range from 0 to 64.
 
-The native buffer returned by <b>GetGlyphOutline</b> when GGO_NATIVE is specified is a glyph outline. A glyph outline is returned as a series of one or more contours defined by a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagttpolygonheader">TTPOLYGONHEADER</a> structure followed by one or more curves. Each curve in the contour is defined by a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagttpolycurve">TTPOLYCURVE</a> structure followed by a number of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpointfx">POINTFX</a> data points. <b>POINTFX</b> points are absolute positions, not relative moves. The starting point of a contour is given by the <b>pfxStart</b> member of the <b>TTPOLYGONHEADER</b> structure. The starting point of each curve is the last point of the previous curve or the starting point of the contour. The count of data points in a curve is stored in the <b>cpfx</b> member of <b>TTPOLYCURVE</b> structure. The size of each contour in the buffer, in bytes, is stored in the <b>cb</b> member of <b>TTPOLYGONHEADER</b> structure. Additional curve definitions are packed into the buffer following preceding curves and additional contours are packed into the buffer following preceding contours. The buffer contains as many contours as fit within the buffer returned by <b>GetGlyphOutline</b>.
+The native buffer returned by <b>GetGlyphOutline</b> when GGO_NATIVE is specified is a glyph outline. A glyph outline is returned as a series of one or more contours defined by a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-ttpolygonheader">TTPOLYGONHEADER</a> structure followed by one or more curves. Each curve in the contour is defined by a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-ttpolycurve">TTPOLYCURVE</a> structure followed by a number of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pointfx">POINTFX</a> data points. <b>POINTFX</b> points are absolute positions, not relative moves. The starting point of a contour is given by the <b>pfxStart</b> member of the <b>TTPOLYGONHEADER</b> structure. The starting point of each curve is the last point of the previous curve or the starting point of the contour. The count of data points in a curve is stored in the <b>cpfx</b> member of <b>TTPOLYCURVE</b> structure. The size of each contour in the buffer, in bytes, is stored in the <b>cb</b> member of <b>TTPOLYGONHEADER</b> structure. Additional curve definitions are packed into the buffer following preceding curves and additional contours are packed into the buffer following preceding contours. The buffer contains as many contours as fit within the buffer returned by <b>GetGlyphOutline</b>.
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-glyphmetrics">GLYPHMETRICS</a> structure specifies the width of the character cell and the location of a glyph within the character cell. The origin of the character cell is located at the left side of the cell at the baseline of the font. The location of the glyph origin is relative to the character cell origin. The height of a character cell, the baseline, and other metrics global to the font are given by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-outlinetextmetrica">OUTLINETEXTMETRIC</a> structure.
 
@@ -272,15 +272,15 @@ Additional information on a glyph outlines is located in the TrueType and the Op
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpointfx">POINTFX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pointfx">POINTFX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagttpolycurve">TTPOLYCURVE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-ttpolycurve">TTPOLYCURVE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagttpolygonheader">TTPOLYGONHEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-ttpolygonheader">TTPOLYGONHEADER</a>
  
 
  

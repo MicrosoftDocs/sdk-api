@@ -113,7 +113,7 @@ Used only if <b>eActionType</b> is <b>MMC_ACTION_ID</b>.
 
 A value that specifies the command ID returned to the snap-in when the user clicks the task.
 
-When MMC calls <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">IExtendTaskPad::TaskNotify</a>, it passes in the <i>arg</i> parameter a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> structure that contains the command ID for the task that was clicked on the taskpad. The <b>vt</b> field is <b>VT_I4</b> and the <b>lVal</b> field contains the command ID.
+When MMC calls <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-tasknotify">IExtendTaskPad::TaskNotify</a>, it passes in the <i>arg</i> parameter a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure that contains the command ID for the task that was clicked on the taskpad. The <b>vt</b> field is <b>VT_I4</b> and the <b>lVal</b> field contains the command ID.
 
 
 ### -field szActionURL

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the image size for a video format. Given a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure, this function calculates the correct value of the <b>biSizeImage</b> member.
+Retrieves the image size for a video format. Given a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure, this function calculates the correct value of the <b>biSizeImage</b> member.
         
       
 

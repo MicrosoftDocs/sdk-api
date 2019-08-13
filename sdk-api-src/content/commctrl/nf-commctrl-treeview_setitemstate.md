@@ -77,7 +77,7 @@ Handle to the item.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Value that is equivalent to the <b>state</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitemexa">TVITEMEX</a>. 
+Value that is equivalent to the <b>state</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a>. 
 
 
 ### -param _mask
@@ -85,5 +85,5 @@ Value that is equivalent to the <b>state</b> member of <a href="https://docs.mic
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Mask used to select the states to be set. It is equivalent to the 
-					<b>stateMask</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitemexa">TVITEMEX</a>. 
+					<b>stateMask</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a>. 
 

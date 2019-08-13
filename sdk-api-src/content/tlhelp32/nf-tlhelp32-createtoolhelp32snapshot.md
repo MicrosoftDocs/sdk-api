@@ -154,7 +154,7 @@ Includes all threads in the system in the snapshot. To enumerate the threads, se
 <a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-thread32first">Thread32First</a>.
 
 To identify the threads that belong to a specific process, compare its process identifier to the <b>th32OwnerProcessID</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-tagthreadentry32">THREADENTRY32</a> structure when enumerating the threads.
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-threadentry32">THREADENTRY32</a> structure when enumerating the threads.
 
 </td>
 </tr>

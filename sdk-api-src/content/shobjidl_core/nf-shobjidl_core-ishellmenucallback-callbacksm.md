@@ -63,7 +63,7 @@ Receives messages from a menu band object.
 
 Type: <b>LPSMDATA</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-tagsmdata">SMDATA</a> structure that contains information about the menu.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-smdata">SMDATA</a> structure that contains information about the menu.
 
 
 ### -param uMsg

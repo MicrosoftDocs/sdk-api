@@ -100,7 +100,7 @@ If more than one application calls **SetServerCertificateValidationInterface** t
 
 Here are the general steps to validate a certificate. Be aware that these steps are just an example. The actual validation is under your control. Also, steps 5-7 are largely the same as what the OS does during the OS validation step.
 
-1. Call [CertCreateCertificateContext](/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext) with `certEncodingType`, `certData`, and `certLength` to retrieve a [CERT_CONTEXT](/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context).
+1. Call [CertCreateCertificateContext](/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext) with `certEncodingType`, `certData`, and `certLength` to retrieve a [CERT_CONTEXT](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context).
 
 2. Declare and initialize a **CRYPT_DATA_BLOB** structure (defined in `wincrypt.h`) with the serialized memory blob passed via `certStoreLength` and `certStoreData`.
 

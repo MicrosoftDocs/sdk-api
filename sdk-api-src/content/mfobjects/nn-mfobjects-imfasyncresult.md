@@ -127,7 +127,7 @@ Use this interface to complete an asynchronous operation. You get a pointer to t
 
 If you are implementing an asynchronous method, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreateasyncresult">MFCreateAsyncResult</a> to create an instance of this object. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/writing-an-asynchronous-method">Writing an Asynchronous Method</a>.
 
-Any custom implementation of this interface must inherit the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-tagmfasyncresult">MFASYNCRESULT</a> structure.
+Any custom implementation of this interface must inherit the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-mfasyncresult">MFASYNCRESULT</a> structure.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 

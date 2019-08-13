@@ -66,7 +66,7 @@ Type: <b>long</b>
 The new font weight. The
 				Bold property is a binary version of the 
 				Weight property that sets the weight to <b>FW_BOLD</b>. The font weight exists in the 
-				<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure and the 
+				<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure and the 
 				<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a> interface. Windows defines the following degrees of font weight. 
 
 <table class="clsStd">

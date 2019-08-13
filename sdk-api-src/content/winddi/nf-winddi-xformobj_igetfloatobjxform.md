@@ -66,7 +66,7 @@ Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/har
 
 ### -param pfxo
 
-Pointer to the buffer that is to receive the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagfloatobj_xform">FLOATOBJ_XFORM</a> structure. This parameter can be <b>NULL</b>.
+Pointer to the buffer that is to receive the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj_xform">FLOATOBJ_XFORM</a> structure. This parameter can be <b>NULL</b>.
 
 
 ## -returns
@@ -148,7 +148,7 @@ If <i>pxfo</i> is not <b>NULL</b>, <b>XFORMOBJ_iGetFloatObjXform</b> loads a FLO
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagfloatobj_xform">FLOATOBJ_XFORM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj_xform">FLOATOBJ_XFORM</a>
 
 
 

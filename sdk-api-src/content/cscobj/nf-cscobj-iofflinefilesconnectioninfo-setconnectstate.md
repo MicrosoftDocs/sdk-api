@@ -86,7 +86,7 @@ This flag is ignored if the OFFLINEFILES_TRANSITION_FLAG_INTERACTIVE flag is not
 
 ### -param ConnectState [in]
 
-Specify one of the following <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_connect_state">OFFLINEFILES_CONNECT_STATE</a> enumeration values.
+Specify one of the following <a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_connect_state">OFFLINEFILES_CONNECT_STATE</a> enumeration values.
 
 
 
@@ -136,7 +136,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cs
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_connect_state">OFFLINEFILES_CONNECT_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_connect_state">OFFLINEFILES_CONNECT_STATE</a>
  
 
  

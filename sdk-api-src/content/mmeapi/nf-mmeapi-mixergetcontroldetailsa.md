@@ -73,7 +73,7 @@ Handle to the mixer device object being queried.
 
 ### -param pmxcd
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercontroldetails_listtexta">MIXERCONTROLDETAILS</a> structure, which is filled with state information about the control.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercontroldetails_listtexta">MIXERCONTROLDETAILS</a> structure, which is filled with state information about the control.
 
 
 ### -param fdwDetails
@@ -89,11 +89,11 @@ Flags for retrieving control details. The following values are defined.
 </tr>
 <tr>
 <td>MIXER_GETCONTROLDETAILSF_LISTTEXT</td>
-<td>The <b>paDetails</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercontroldetails_listtexta">MIXERCONTROLDETAILS</a> structure points to one or more <a href="https://docs.microsoft.com/previous-versions/dd757296(v=vs.85)">MIXERCONTROLDETAILS_LISTTEXT</a> structures to receive text labels for multiple-item controls. An application must get all list text items for a multiple-item control at once. This flag cannot be used with MIXERCONTROL_CONTROLTYPE_CUSTOM controls.</td>
+<td>The <b>paDetails</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercontroldetails_listtexta">MIXERCONTROLDETAILS</a> structure points to one or more <a href="https://docs.microsoft.com/previous-versions/dd757296(v=vs.85)">MIXERCONTROLDETAILS_LISTTEXT</a> structures to receive text labels for multiple-item controls. An application must get all list text items for a multiple-item control at once. This flag cannot be used with MIXERCONTROL_CONTROLTYPE_CUSTOM controls.</td>
 </tr>
 <tr>
 <td>MIXER_GETCONTROLDETAILSF_VALUE</td>
-<td>Current values for a control are retrieved. The <b>paDetails</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercontroldetails_listtexta">MIXERCONTROLDETAILS</a> structure points to one or more details structures appropriate for the control class.</td>
+<td>Current values for a control are retrieved. The <b>paDetails</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercontroldetails_listtexta">MIXERCONTROLDETAILS</a> structure points to one or more details structures appropriate for the control class.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_AUX</td>
@@ -230,7 +230,7 @@ No mixer device is available for the object specified by <i>hmxobj</i>.
 
 
 
-All members of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercontroldetails_listtexta">MIXERCONTROLDETAILS</a> structure must be initialized before calling this function.
+All members of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercontroldetails_listtexta">MIXERCONTROLDETAILS</a> structure must be initialized before calling this function.
 
 
 

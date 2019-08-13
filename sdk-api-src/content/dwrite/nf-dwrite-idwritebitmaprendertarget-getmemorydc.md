@@ -78,7 +78,7 @@ Returns a device context handle to the memory device context.
 
  An application can use the device context to draw using GDI functions. An application can obtain the bitmap handle
      (HBITMAP) by calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcurrentobject">GetCurrentObject</a>. An application that wants information about the underlying bitmap, including
-     a pointer to the pixel data, can call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> to fill in a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagdibsection">DIBSECTION</a> structure. The bitmap is always a 32-bit 
+     a pointer to the pixel data, can call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> to fill in a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-dibsection">DIBSECTION</a> structure. The bitmap is always a 32-bit 
      top-down DIB.
 
 Note that this method takes no parameters and returns an HDC variable, not an HRESULT.

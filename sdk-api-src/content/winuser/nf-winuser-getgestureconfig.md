@@ -93,7 +93,7 @@ An array of gesture configuration structures that specify the gesture configurat
 
 ### -param cbSize [in]
 
-The size of the gesture configuration (<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taggestureconfig">GESTURECONFIG</a>) structure.
+The size of the gesture configuration (<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>) structure.
 
 
 ## -returns
@@ -169,7 +169,7 @@ The following table lists the gesture configuration values:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taggestureconfig">GESTURECONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>
 
 
 

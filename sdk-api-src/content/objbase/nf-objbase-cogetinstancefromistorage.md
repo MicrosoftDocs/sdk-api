@@ -79,7 +79,7 @@ When non-<b>NULL</b>, indicates the instance is being created as part of an aggr
 
 ### -param dwClsCtx [in]
 
-Values from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX</a> enumeration.
+Values from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a> enumeration.
 
 
 ### -param pstg [in]
@@ -94,7 +94,7 @@ The number of structures in <i>pResults</i>. This parameter must be greater than
 
 ### -param pResults [in, out]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagmulti_qi">MULTI_QI</a> structures. Each structure has three members: the identifier for a requested interface (<b>pIID</b>), the location to return the interface pointer (<b>pItf</b>) and the return value of the call to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> (<b>hr</b>).
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-multi_qi">MULTI_QI</a> structures. Each structure has three members: the identifier for a requested interface (<b>pIID</b>), the location to return the interface pointer (<b>pItf</b>) and the return value of the call to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> (<b>hr</b>).
 
 
 ## -returns
@@ -126,7 +126,7 @@ The function retrieved all of the interfaces successfully.
 </dl>
 </td>
 <td width="60%">
-At least one, but not all of the interfaces requested in the <i>pResults</i> array were successfully retrieved. The <b>hr</b> member of each of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagmulti_qi">MULTI_QI</a> structures indicates with S_OK or E_NOINTERFACE whether the specific interface was returned.
+At least one, but not all of the interfaces requested in the <i>pResults</i> array were successfully retrieved. The <b>hr</b> member of each of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-multi_qi">MULTI_QI</a> structures indicates with S_OK or E_NOINTERFACE whether the specific interface was returned.
 
 </td>
 </tr>
@@ -168,7 +168,7 @@ None of the interfaces requested in the <i>pResults</i> array were successfully 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a>
 
 
 

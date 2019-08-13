@@ -68,7 +68,7 @@ Handle to a month calendar control.
 
 ### -param pmcGridInfo
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagmcgridinfo">MCGRIDINFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-mcgridinfo">MCGRIDINFO</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagmcgridinfo">MCGRIDINFO</a> structure that contains information about the calendar grid.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-mcgridinfo">MCGRIDINFO</a> structure that contains information about the calendar grid.
 

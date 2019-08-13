@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extracts the buffer value from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure of type VT_VECTOR | VT_UI1 or VT_ARRRAY | VT_UI1. 
+Extracts the buffer value from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure of type VT_VECTOR | VT_UI1 or VT_ARRRAY | VT_UI1. 
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Extracts the buffer value from a <a href="https://docs.microsoft.com/windows/des
 
 Type: <b>REFPROPVARIANT</b>
 
-The source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.
+The source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 
 ### -param pv [out]
@@ -112,7 +112,7 @@ If successful, or an error value otherwise.
 </dl>
 </td>
 <td width="60%">
-The<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>was of the wrong type.
+The<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>was of the wrong type.
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ The<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-ta
 </dl>
 </td>
 <td width="60%">
-The<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>value had fewer than <i>cb</i> bytes.
+The<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>value had fewer than <i>cb</i> bytes.
 
 </td>
 </tr>
@@ -137,9 +137,9 @@ The<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-ta
 
 
 
-This function is used in places where the calling application expects a<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>to hold a buffer value. The calling application should check that the value has the expected length before calling this function.
+This function is used in places where the calling application expects a<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>to hold a buffer value. The calling application should check that the value has the expected length before calling this function.
 
-If the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> has type VT_VECTOR | VT_UI1 or VT_ARRAY | VT_UI1, this function extracts the first <i>cb</i> bytes from the value and places them in the buffer pointed to by <i>pv</i>. If the value has fewer than <i>cb</i> bytes, then <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttobuffer">PropVariantToBuffer</a> fails and the buffer is not modified. If the value has more than <i>cb</i> bytes, then <b>PropVariantToBuffer</b> succeeds and truncates the value.
+If the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has type VT_VECTOR | VT_UI1 or VT_ARRAY | VT_UI1, this function extracts the first <i>cb</i> bytes from the value and places them in the buffer pointed to by <i>pv</i>. If the value has fewer than <i>cb</i> bytes, then <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttobuffer">PropVariantToBuffer</a> fails and the buffer is not modified. If the value has more than <i>cb</i> bytes, then <b>PropVariantToBuffer</b> succeeds and truncates the value.
 
 
 #### Examples

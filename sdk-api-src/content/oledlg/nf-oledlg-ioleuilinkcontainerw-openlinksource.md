@@ -150,7 +150,7 @@ The <b>IOleUILinkContainer::OpenLinkSource</b> method is called when the <b>Open
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-tagoleverb">OLEVERB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-oleverb">OLEVERB</a>
  
 
  

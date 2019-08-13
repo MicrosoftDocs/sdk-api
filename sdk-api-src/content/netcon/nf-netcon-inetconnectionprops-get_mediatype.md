@@ -65,7 +65,7 @@ The
 ### -param pMediaType [out]
 
 Pointer to a variable of type 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ne-netcon-tagnetcon_mediatype">NETCON_MEDIATYPE</a> that, on successful return, receives a code that specifies the media type for the connection.
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_mediatype">NETCON_MEDIATYPE</a> that, on successful return, receives a code that specifies the media type for the connection.
 
 
 ## -returns
@@ -184,7 +184,7 @@ The method failed for unknown reasons.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ne-netcon-tagnetcon_mediatype">NETCON_MEDIATYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_mediatype">NETCON_MEDIATYPE</a>
  
 
  

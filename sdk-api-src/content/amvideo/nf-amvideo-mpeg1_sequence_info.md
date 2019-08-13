@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-The <code>MPEG1_SEQUENCE_INFO</code> macro returns the address of the sequence header inside an <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagmpeg1videoinfo">MPEG1VIDEOINFO</a> structure.
+The <code>MPEG1_SEQUENCE_INFO</code> macro returns the address of the sequence header inside an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo">MPEG1VIDEOINFO</a> structure.
 
 
 
@@ -64,7 +64,7 @@ The <code>MPEG1_SEQUENCE_INFO</code> macro returns the address of the sequence h
 
 ### -param pv
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagmpeg1videoinfo">MPEG1VIDEOINFO</a> structure.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo">MPEG1VIDEOINFO</a> structure.
 
 
 ## -see-also

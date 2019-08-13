@@ -74,7 +74,7 @@ On input, the number of ranges the <i>pcr</i> buffer can hold. On output, the nu
 
 ### -param pcr
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagcharacter_range">CHARACTER_RANGE</a> structures. Each structure contains a range of Unicode points that the recognizer supports. The order of the array is arbitrary. To determine the required size of the buffer, set <i>pcr</i> to <b>NULL</b>; use the number of ranges to allocate the <i>pcr</i> buffer.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-character_range">CHARACTER_RANGE</a> structures. Each structure contains a range of Unicode points that the recognizer supports. The order of the array is arbitrary. To determine the required size of the buffer, set <i>pcr</i> to <b>NULL</b>; use the number of ranges to allocate the <i>pcr</i> buffer.
 
 
 ## -returns

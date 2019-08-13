@@ -57,7 +57,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taggestureinfo">GESTUREINFO</a>  structure given a handle to 
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureinfo">GESTUREINFO</a>  structure given a handle to 
   the gesture information.
   
 
@@ -95,7 +95,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The <b>cbSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taggestureinfo">GESTUREINFO</a> structure passed in to the function must be set
+The <b>cbSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureinfo">GESTUREINFO</a> structure passed in to the function must be set
     before the function is called.  Otherwise, calls to <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return <b>ERROR_INVALID_PARAMETER</b> (87 in decimal).
    If an application processes a <a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-gesture">WM_GESTURE</a> message, it is responsible for
    closing the handle using <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closegestureinfohandle">CloseGestureInfoHandle</a>. Failure to do so may result in

@@ -94,7 +94,7 @@ Failure due to server communication.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagfailurecategorymapping">FailureCategoryMapping</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-failurecategorymapping">FailureCategoryMapping</a>
  
 
  

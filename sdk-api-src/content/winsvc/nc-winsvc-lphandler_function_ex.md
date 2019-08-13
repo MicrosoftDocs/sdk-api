@@ -438,7 +438,7 @@ If
 
 If 
       <i>dwControl</i> is <b>SERVICE_CONTROL_SESSIONCHANGE</b>, this parameter is a pointer to a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwtssession_notification">WTSSESSION_NOTIFICATION</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wtssession_notification">WTSSESSION_NOTIFICATION</a> 
       structure.
 
 If <i>dwControl</i> is <b>SERVICE_CONTROL_TIMECHANGE</b>, this data is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_timechange_info">SERVICE_TIMECHANGE_INFO</a> structure.
@@ -575,7 +575,7 @@ Services can also use the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwtssession_notification">WTSSESSION_NOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wtssession_notification">WTSSESSION_NOTIFICATION</a>
  
 
  

@@ -105,7 +105,7 @@ The <i>fRequiredRender</i> parameter informs you that your visualization must re
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/ns-effects-tagtimedlevel">TimedLevel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/effects/ns-effects-timedlevel">TimedLevel</a>
  
 
  

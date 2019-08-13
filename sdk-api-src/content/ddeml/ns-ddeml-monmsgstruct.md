@@ -110,7 +110,7 @@ The <b>lParam</b> parameter of the DDE message.
 
 ### -field dmhd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagddeml_msg_hook_data">DDEML_MSG_HOOK_DATA</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-ddeml_msg_hook_data">DDEML_MSG_HOOK_DATA</a></b>
 
 Additional information about the DDE message. 
 
@@ -124,7 +124,7 @@ Additional information about the DDE message.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagddeml_msg_hook_data">DDEML_MSG_HOOK_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-ddeml_msg_hook_data">DDEML_MSG_HOOK_DATA</a>
 
 
 
@@ -132,23 +132,23 @@ Additional information about the DDE message.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagmoncbstruct">MONCBSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-moncbstruct">MONCBSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagmonconvstruct">MONCONVSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-monconvstruct">MONCONVSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagmonerrstruct">MONERRSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-monerrstruct">MONERRSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagmonhszstructa">MONHSZSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-monhszstructa">MONHSZSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagmonlinkstruct">MONLINKSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-monlinkstruct">MONLINKSTRUCT</a>
 
 
 

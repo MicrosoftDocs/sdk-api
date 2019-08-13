@@ -61,7 +61,7 @@ Provides sizing hints from the container for the object to use as the user resiz
 
 ### -param dwAspect [in]
 
-The requested drawing aspect. It can be any of the following values, which are defined by the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagdvaspect">DVASPECT</a> enumeration.
+The requested drawing aspect. It can be any of the following values, which are defined by the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> enumeration.
 
 <table>
 <tr>
@@ -114,7 +114,7 @@ Provide a thumbnail representation of an object so it can be displayed in a brow
 
 ### -param lindex [in]
 
-Indicates the portion of the object that is of interest for the draw operation. Its interpretation varies depending on the value in the <i>dwAspect</i> parameter. See the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagdvaspect">DVASPECT</a> enumeration for more information.
+Indicates the portion of the object that is of interest for the draw operation. Its interpretation varies depending on the value in the <i>dwAspect</i> parameter. See the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> enumeration for more information.
 
 
 ### -param ptd [in]

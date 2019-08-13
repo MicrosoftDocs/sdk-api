@@ -114,21 +114,21 @@ The event is a hardware event. Use the <b>hi</b> structure of the union.
 
 ### -field DUMMYUNIONNAME.mi
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmouseinput">MOUSEINPUT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mouseinput">MOUSEINPUT</a></b>
 
 The information about a simulated mouse event. 
 
 
 ### -field DUMMYUNIONNAME.ki
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagkeybdinput">KEYBDINPUT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-keybdinput">KEYBDINPUT</a></b>
 
 The information about a simulated keyboard event. 
 
 
 ### -field DUMMYUNIONNAME.hi
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taghardwareinput">HARDWAREINPUT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-hardwareinput">HARDWAREINPUT</a></b>
 
 The information about a simulated hardware event. 
 
@@ -137,7 +137,7 @@ The information about a simulated hardware event.
 
 
 
-<b> INPUT_KEYBOARD</b> supports nonkeyboard input methods, such as handwriting recognition or voice recognition, as if it were text input by using the <b>KEYEVENTF_UNICODE</b> flag. For more information, see the remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagkeybdinput">KEYBDINPUT</a>.
+<b> INPUT_KEYBOARD</b> supports nonkeyboard input methods, such as handwriting recognition or voice recognition, as if it were text input by using the <b>KEYEVENTF_UNICODE</b> flag. For more information, see the remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-keybdinput">KEYBDINPUT</a>.
 
 
 
@@ -155,11 +155,11 @@ The information about a simulated hardware event.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taghardwareinput">HARDWAREINPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-hardwareinput">HARDWAREINPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagkeybdinput">KEYBDINPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-keybdinput">KEYBDINPUT</a>
 
 
 
@@ -167,7 +167,7 @@ The information about a simulated hardware event.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmouseinput">MOUSEINPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mouseinput">MOUSEINPUT</a>
 
 
 

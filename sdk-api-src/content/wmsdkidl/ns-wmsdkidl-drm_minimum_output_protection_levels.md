@@ -91,7 +91,7 @@ Minimum OPL required to receive uncompressed digital audio.
 
 
 
-This structure is used as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__tagdrm_play_opl">DRM_PLAY_OPL</a> structure.
+This structure is used as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_play_opl">DRM_PLAY_OPL</a> structure.
 
 
 

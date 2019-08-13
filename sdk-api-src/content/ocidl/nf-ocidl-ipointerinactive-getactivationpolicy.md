@@ -61,7 +61,7 @@ Retrieves the current activation policy for the object. This method is called by
 
 ### -param pdwPolicy [out]
 
-A pointer to a variable that receives the activation policy. Possible values come from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagpointerinactive">POINTERINACTIVE</a> enumeration.
+A pointer to a variable that receives the activation policy. Possible values come from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-pointerinactive">POINTERINACTIVE</a> enumeration.
 
 
 ## -returns

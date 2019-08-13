@@ -69,9 +69,9 @@ An ordinal value identifying the particular palette to retrieve.
 
 ### -param pEntries [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpaletteentry">PALETTEENTRY</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-paletteentry">PALETTEENTRY</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpaletteentry">PALETTEENTRY</a> structure, representing the returned palette entries. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-paletteentry">PALETTEENTRY</a> structure, representing the returned palette entries. 
 
 
 ## -returns
@@ -89,9 +89,9 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-For more information about <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpaletteentry">PALETTEENTRY</a>, see the Platform SDK.
+For more information about <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-paletteentry">PALETTEENTRY</a>, see the Platform SDK.
 
-<div class="alert"><b>Note</b>  As of Direct3D 9, the peFlags member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpaletteentry">PALETTEENTRY</a> structure does not work the way it is documented in the Platform SDK. The peFlags member is now the alpha channel for 8-bit palettized formats.</div>
+<div class="alert"><b>Note</b>  As of Direct3D 9, the peFlags member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-paletteentry">PALETTEENTRY</a> structure does not work the way it is documented in the Platform SDK. The peFlags member is now the alpha channel for 8-bit palettized formats.</div>
 <div> </div>
 
 

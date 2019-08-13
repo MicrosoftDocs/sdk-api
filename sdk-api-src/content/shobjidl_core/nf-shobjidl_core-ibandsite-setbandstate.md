@@ -79,7 +79,7 @@ The mask of the states to set.
 Type: <b>DWORD</b>
 
 The state values to be set. These are combinations of
-				BSSF_* flags. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-tagbandsiteinfo">BANDSITEINFO</a>.
+				BSSF_* flags. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-bandsiteinfo">BANDSITEINFO</a>.
 
 
 ## -returns
@@ -98,7 +98,7 @@ Returns S_OK if successful, or a COM-defined error code otherwise.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-tagbandsiteinfo">BANDSITEINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-bandsiteinfo">BANDSITEINFO</a>
 
 
 

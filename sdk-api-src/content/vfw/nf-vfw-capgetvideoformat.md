@@ -69,7 +69,7 @@ Handle to a capture window.
 
 ### -param s
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure. You can also specify <b>NULL</b> to retrieve the number of bytes needed by <b>BITMAPINFO</b>. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure. You can also specify <b>NULL</b> to retrieve the number of bytes needed by <b>BITMAPINFO</b>. 
 
 
 ### -param wSize

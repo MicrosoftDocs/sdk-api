@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 The <b>Bitmap::FromBITMAPINFO</b> method creates a 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object based on a 
-			<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure and an array of pixel data.
+			<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure and an array of pixel data.
 
 
 ## -parameters
@@ -64,10 +64,10 @@ The <b>Bitmap::FromBITMAPINFO</b> method creates a
 
 ### -param gdiBitmapInfo [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>*</b>
 
 Pointer to a GDI 
-					<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure. This structure defines several bitmap attributes, such as size and pixel format. The 
+					<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure. This structure defines several bitmap attributes, such as size and pixel format. The 
 					BITMAPINFO structure is defined in Wingdi.h. 
 
 

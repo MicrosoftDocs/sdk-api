@@ -61,7 +61,7 @@ The <b>SetLifeTime</b> method is called by NDF to set the start and end time of 
 
 ### -param lifeTime [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-taglife_time">LIFE_TIME</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-life_time">LIFE_TIME</a> structure.
 
 
 ## -returns

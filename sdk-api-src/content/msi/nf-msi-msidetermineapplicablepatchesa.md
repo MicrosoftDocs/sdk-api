@@ -73,7 +73,7 @@ Number of patches in the array. Must be greater than zero.
 
 ### -param pPatchInfo [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-tagmsipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structures. 
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structures. 
 
 
 ## -returns
@@ -200,13 +200,13 @@ This error can be returned if the function was called from a <a href="https://do
 If this function is called from a custom action it fails and returns ERROR_CALL_NOT_IMPLEMENTED.  The function requires MSXML version 3.0 to process XML and returns ERROR_CALL_NOT_IMPLEMENTED if MSXML 3.0 is not installed.
 
 
-The <b>MsiDetermineApplicablePatches</b> function sets the <b>uStatus</b> and <b>dwOrder</b> members of each <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-tagmsipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure pointed to by <i>pPatchInfo</i>. Each structure contains information about a particular patch.
+The <b>MsiDetermineApplicablePatches</b> function sets the <b>uStatus</b> and <b>dwOrder</b> members of each <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure pointed to by <i>pPatchInfo</i>. Each structure contains information about a particular patch.
 
-If the function succeeds, the <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-tagmsipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure of every patch that can be applied  to the product returns with a  <b>uStatus</b> of ERROR_SUCCESS and a <b>dwOrder</b> greater than or equal to zero. The values of <b>dwOrder</b>  greater than or equal to zero indicate the best application sequence for the patches starting with zero.
+If the function succeeds, the <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure of every patch that can be applied  to the product returns with a  <b>uStatus</b> of ERROR_SUCCESS and a <b>dwOrder</b> greater than or equal to zero. The values of <b>dwOrder</b>  greater than or equal to zero indicate the best application sequence for the patches starting with zero.
 
-If the function succeeds, patches excluded from the best patching sequence return a <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-tagmsipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure with a <b>dwOrder</b> equal to -1.  In these cases, a <b>uStatus</b> field of  ERROR_SUCCESS indicates a patch that is  obsolete or superseded for the product.   A <b>uStatus</b> field of ERROR_PATCH_TARGET_NOT_FOUND indicates a patch that is inapplicable to the product.
+If the function succeeds, patches excluded from the best patching sequence return a <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure with a <b>dwOrder</b> equal to -1.  In these cases, a <b>uStatus</b> field of  ERROR_SUCCESS indicates a patch that is  obsolete or superseded for the product.   A <b>uStatus</b> field of ERROR_PATCH_TARGET_NOT_FOUND indicates a patch that is inapplicable to the product.
 
-If the function fails, the <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-tagmsipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure for every patch  returns a  <b>dwOrder</b> equal to -1.  In this case, the <b>uStatus</b> fields  can contain errors with more information about individual patches. For example, ERROR_PATCH_NO_SEQUENCE is returned for patches that have circular sequencing information.
+If the function fails, the <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure for every patch  returns a  <b>dwOrder</b> equal to -1.  In this case, the <b>uStatus</b> fields  can contain errors with more information about individual patches. For example, ERROR_PATCH_NO_SEQUENCE is returned for patches that have circular sequencing information.
 
 
 

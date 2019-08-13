@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-The <b>VMRPresentationFlags</b> enumeration type is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagvmrpresentationinfo">VMRPRESENTATIONINFO</a> structure .
+The <b>VMRPresentationFlags</b> enumeration type is a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrpresentationinfo">VMRPRESENTATIONINFO</a> structure .
 
 
 

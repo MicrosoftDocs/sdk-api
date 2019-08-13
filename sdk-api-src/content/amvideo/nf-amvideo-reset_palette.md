@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-The <code>RESET_PALETTE</code> macro fills the palette entries in a <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo">VIDEOINFO</a> structure with zeroes.
+The <code>RESET_PALETTE</code> macro fills the palette entries in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo">VIDEOINFO</a> structure with zeroes.
 
 
 
@@ -64,7 +64,7 @@ The <code>RESET_PALETTE</code> macro fills the palette entries in a <a href="htt
 
 ### -param pbmi
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo">VIDEOINFO</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo">VIDEOINFO</a> structure.
 
 
 ## -see-also

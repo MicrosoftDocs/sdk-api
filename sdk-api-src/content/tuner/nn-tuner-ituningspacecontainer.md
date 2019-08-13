@@ -71,7 +71,7 @@ The <b>ITuningSpaceContainer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-_tuningspacesforclsid">_TuningSpacesForCLSID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-tuningspacesforclsid">_TuningSpacesForCLSID</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of tuning spaces that match the specified CLSID. (For use by C++ clients.)
@@ -170,7 +170,7 @@ Permanently removes a tuning space from the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-_tuningspacesforclsid">TuningSpacesForCLSID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-tuningspacesforclsid">TuningSpacesForCLSID</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of tuning spaces that match the specified CLSID string. (For use by Automation clients.)

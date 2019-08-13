@@ -70,7 +70,7 @@ A handle to the list-view control.
 
 Type: <b>PLVSETINFOTIP</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvsetinfotip">LVSETINFOTIP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvsetinfotip">LVSETINFOTIP</a>
 
 ## -remarks
 

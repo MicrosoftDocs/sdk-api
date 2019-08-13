@@ -64,7 +64,7 @@ Retrieves information about the first block of a heap that has been allocated by
 ### -param lphe [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-tagheapentry32">HEAPENTRY32</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-heapentry32">HEAPENTRY32</a> structure.
 
 
 ### -param th32ProcessID [in]
@@ -92,7 +92,7 @@ Returns <b>TRUE</b> if information for the first heap block has been copied to t
 
 
 The calling application must set the <b>dwSize</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-tagheapentry32">HEAPENTRY32</a> to the size, in bytes, of the structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-heapentry32">HEAPENTRY32</a> to the size, in bytes, of the structure. 
 <b>Heap32First</b> changes <b>dwSize</b> to the number of bytes written to the structure. This will never be greater than the initial value of <b>dwSize</b>, but it may be smaller. If the value is smaller, do not rely on the values of any members whose offsets are greater than this value.
 
 To access subsequent blocks of the same heap, use the 
@@ -113,7 +113,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-tagheapentry32">HEAPENTRY32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-heapentry32">HEAPENTRY32</a>
 
 
 

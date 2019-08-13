@@ -71,7 +71,7 @@ An identifier of the pointer for which to retrieve information.
 
 ### -param penInfo [out]
 
-Address of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_pen_info">POINTER_PEN_INFO</a> structure to receive the pen-specific pointer information.
+Address of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_pen_info">POINTER_PEN_INFO</a> structure to receive the pen-specific pointer information.
 
 
 ## -returns

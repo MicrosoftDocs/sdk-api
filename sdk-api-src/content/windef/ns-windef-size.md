@@ -83,7 +83,7 @@ The rectangle dimensions stored in this structure can correspond to viewport ext
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 

@@ -65,7 +65,7 @@ The <code>GetOutputFormat</code> method retrieves the <a href="https://docs.micr
 
 ### -param lpbmih
 
-Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure.
+Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
 
 ## -returns

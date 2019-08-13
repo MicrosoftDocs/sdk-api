@@ -66,7 +66,7 @@ The assigned cursor ID.
 
 ### -field cursor
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_device_cursor_type">POINTER_DEVICE_CURSOR_TYPE</a> that the ID is mapped to.
+The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-pointer_device_cursor_type">POINTER_DEVICE_CURSOR_TYPE</a> that the ID is mapped to.
 
 
 ## -see-also

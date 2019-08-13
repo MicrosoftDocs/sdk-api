@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a chunk of data as a string and a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> value.
+Represents a chunk of data as a string and a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> value.
         
 
 
@@ -75,7 +75,7 @@ The <b>IRichChunk</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-irichchunk-getdata">GetData</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> and input string that represents a chunk of data.
+Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> and input string that represents a chunk of data.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns
 <a href="https://docs.microsoft.com/windows/desktop/search/irichchunk-remotegetdata">RemoteGetData</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> and input string that represents a chunk of data.
+Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> and input string that represents a chunk of data.
 
 </td>
 </tr>

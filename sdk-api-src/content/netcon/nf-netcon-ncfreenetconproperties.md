@@ -54,7 +54,7 @@ ms.custom: 19H1
 <p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
-<b>NcFreeNetconProperties</b> function frees memory associated with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ns-netcon-tagnetcon_properties">NETCON_PROPERTIES</a> structures.
+<b>NcFreeNetconProperties</b> function frees memory associated with <a href="https://docs.microsoft.com/windows/desktop/api/netcon/ns-netcon-netcon_properties">NETCON_PROPERTIES</a> structures.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The
 
 ### -param pProps [in]
 
-Pointer to a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ns-netcon-tagnetcon_properties">NETCON_PROPERTIES</a> structure to be freed.
+Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/netcon/ns-netcon-netcon_properties">NETCON_PROPERTIES</a> structure to be freed.
 
 
 ## -returns

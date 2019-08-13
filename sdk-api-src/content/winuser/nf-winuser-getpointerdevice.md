@@ -71,7 +71,7 @@ The handle to the device.
 
 ### -param pointerDevice [out]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_device_info">POINTER_DEVICE_INFO</a> structure that contains information about the pointer device.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_device_info">POINTER_DEVICE_INFO</a> structure that contains information about the pointer device.
 
 
 ## -returns

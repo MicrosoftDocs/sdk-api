@@ -89,7 +89,7 @@ Number of members in <i>pLatticeElements</i>.
 
 ### -field pLatticeElements
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_element">RECO_LATTICE_ELEMENT</a> structures.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-reco_lattice_element">RECO_LATTICE_ELEMENT</a> structures.
 
 
 ## -remarks
@@ -110,7 +110,7 @@ There is one column per recognition segment. Each column contains one or more el
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_element">RECO_LATTICE_ELEMENT Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-reco_lattice_element">RECO_LATTICE_ELEMENT Structure</a>
  
 
  

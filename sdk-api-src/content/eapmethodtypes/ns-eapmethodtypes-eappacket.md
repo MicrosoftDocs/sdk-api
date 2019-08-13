@@ -61,7 +61,7 @@ ms.custom: 19H1
 
 ### -field Code
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodtypes/ne-eapmethodtypes-tageapcode">EapCode</a> enumeration value that identifies the packet type.
+An <a href="https://docs.microsoft.com/windows/desktop/api/eapmethodtypes/ne-eapmethodtypes-eapcode">EapCode</a> enumeration value that identifies the packet type.
 
 
 ### -field Id
@@ -88,7 +88,7 @@ The packet message data. This opaque data block continues after the first byte f
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodtypes/ne-eapmethodtypes-tageapcode">EapCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eapmethodtypes/ne-eapmethodtypes-eapcode">EapCode</a>
  
 
  

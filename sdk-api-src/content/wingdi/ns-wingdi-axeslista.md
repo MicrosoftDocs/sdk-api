@@ -76,7 +76,7 @@ Number of axes for a specified multiple master font.
 
 ### -field axlAxisInfo
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagaxisinfoa">AXISINFO</a> structures. Each <b>AXISINFO</b> structure contains information on an axis of a specified multiple master font. This corresponds to the <b>dvValues</b> array in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagdesignvector">DESIGNVECTOR</a> structure.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-axisinfoa">AXISINFO</a> structures. Each <b>AXISINFO</b> structure contains information on an axis of a specified multiple master font. This corresponds to the <b>dvValues</b> array in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-designvector">DESIGNVECTOR</a> structure.
 
 
 ## -remarks
@@ -85,7 +85,7 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wi
 
 The PostScript Open Type Font does not support multiple master functionality.
 
-The information on the axes of a multiple master font are specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagaxisinfoa">AXISINFO</a> structures. The <b>axlNumAxes</b> member specifies the actual size of <b>axlAxisInfo</b>, while MM_MAX_NUMAXES, which equals 16, is the maximum allowed size of <b>axlAxisInfo</b>.
+The information on the axes of a multiple master font are specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-axisinfoa">AXISINFO</a> structures. The <b>axlNumAxes</b> member specifies the actual size of <b>axlAxisInfo</b>, while MM_MAX_NUMAXES, which equals 16, is the maximum allowed size of <b>axlAxisInfo</b>.
 
 
 
@@ -95,15 +95,15 @@ The information on the axes of a multiple master font are specified by the <a hr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagaxisinfoa">AXISINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-axisinfoa">AXISINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagdesignvector">DESIGNVECTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-designvector">DESIGNVECTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagenumtextmetrica">ENUMTEXTMETRIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enumtextmetrica">ENUMTEXTMETRIC</a>
 
 
 

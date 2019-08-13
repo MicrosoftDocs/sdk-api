@@ -66,7 +66,7 @@ The container's name for the requested object.
 
 ### -param dwSpeedNeeded [in]
 
- Indicates approximately how long the caller will wait to get the object. Possible values are taken from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagbindspeed">BINDSPEED</a>.
+ Indicates approximately how long the caller will wait to get the object. Possible values are taken from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-bindspeed">BINDSPEED</a>.
 
 
 ### -param pbc [in]
@@ -113,7 +113,7 @@ The method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The binding operation could not be completed within the time limit specified by the bind context's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts">BIND_OPTS</a> structure, or with the speed indicated by the <i>dwSpeedNeeded</i> parameter.
+The binding operation could not be completed within the time limit specified by the bind context's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a> structure, or with the speed indicated by the <i>dwSpeedNeeded</i> parameter.
 
 </td>
 </tr>

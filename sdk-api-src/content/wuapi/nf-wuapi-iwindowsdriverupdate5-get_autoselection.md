@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagautoselectionmode">AutoSelectionMode</a> value indicating the automatic selection mode of an update in the Control Panel of Windows Update.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-autoselectionmode">AutoSelectionMode</a> value indicating the automatic selection mode of an update in the Control Panel of Windows Update.
 
 This property is read-only.
 

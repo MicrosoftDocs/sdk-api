@@ -64,7 +64,7 @@ The
 
 ### -param pdwFlags [out]
 
-Media types as defined by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ne-netcon-tagnetcon_mediatype">NETCON_MEDIATYPE</a>.
+Media types as defined by <a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_mediatype">NETCON_MEDIATYPE</a>.
 
 
 ## -returns
@@ -183,7 +183,7 @@ The method failed for unknown reasons.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ne-netcon-tagnetcon_mediatype">NETCON_MEDIATYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_mediatype">NETCON_MEDIATYPE</a>
  
 
  

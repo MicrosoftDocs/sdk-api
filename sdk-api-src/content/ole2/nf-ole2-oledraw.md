@@ -68,7 +68,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn
 
 #### - dwAspect [in]
 
-How the object is to be represented. Representations include content, an icon, a thumbnail, or a printed document. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagdvaspect">DVASPECT</a> enumeration.
+How the object is to be represented. Representations include content, an icon, a thumbnail, or a printed document. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> enumeration.
 
 
 #### - hdcDraw [in]

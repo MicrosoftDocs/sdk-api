@@ -91,7 +91,7 @@ If this member is nonzero, icon titles wrap to a new line. If this member is zer
 
 ### -field lfFont
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a></b>
 
 The font to use for icon titles. 
 

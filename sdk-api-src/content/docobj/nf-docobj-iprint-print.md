@@ -94,12 +94,12 @@ A bitfield specifying print options from the <b>PRINTFLAG</b> enumeration.
 
 ### -param pptd [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagdvtargetdevice">DVTARGETDEVICE</a> structure that describes the target print device.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a> structure that describes the target print device.
 
 
 ### -param ppPageSet [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-tagpageset">PAGESET</a> pointer variable that receives a pointer to the structure that indicates which pages are to be printed.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-pageset">PAGESET</a> pointer variable that receives a pointer to the structure that indicates which pages are to be printed.
 
 
 ### -param pstgmOptions [in, out]
@@ -181,7 +181,7 @@ A page specified in **<i>ppPageSet</i> or <i>nFirstPage</i> does not exist.
 
 
 
-The printer on which the object is to be printed is indicated by the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagdvtargetdevice">DVTARGETDEVICE</a> structure pointed to by <i>pptd</i>. The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure in the target device indicates whole-job printer-specific options, such as number of copies, paper size, and print quality. The <b>DEVMODE</b> structure may also contain orientation information in the <b>dmOrientation</b> member (this is indicated in the <b>dmFields</b> member). If present, then this paper orientation should be used; if absent, then natural orientation as determined by the object content is to be used.
+The printer on which the object is to be printed is indicated by the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a> structure pointed to by <i>pptd</i>. The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure in the target device indicates whole-job printer-specific options, such as number of copies, paper size, and print quality. The <b>DEVMODE</b> structure may also contain orientation information in the <b>dmOrientation</b> member (this is indicated in the <b>dmFields</b> member). If present, then this paper orientation should be used; if absent, then natural orientation as determined by the object content is to be used.
 
 Due to the possibility of user input, the parameters <i>pptd</i> and <i>ppPageSet</i> are both [in,out] structures. In the absence of user interaction (that is, if the PRINTFLAG_PROMPTUSER flag is not set), both the target device and the page set will necessarily be the same for input and output. However, if the user is prompted for print options, then the object returns target device and page-set information appropriate to what the user has actually chosen.
 

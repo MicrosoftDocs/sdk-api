@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes the <b>General</b> tab of the <b>Object Properties</b> dialog box. A reference to it is passed in as part of the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuiobjectpropsa">OLEUIOBJECTPROPS</a> structure to the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiobjectpropertiesa">OleUIObjectProperties</a> function. This tab shows the type and size of an OLE embedding and allows it the user to tunnel to the <b>Convert</b> dialog box. This tab also shows the link destination if the object is a link.
+Initializes the <b>General</b> tab of the <b>Object Properties</b> dialog box. A reference to it is passed in as part of the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiobjectpropsa">OLEUIOBJECTPROPS</a> structure to the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiobjectpropertiesa">OleUIObjectProperties</a> function. This tab shows the type and size of an OLE embedding and allows it the user to tunnel to the <b>Convert</b> dialog box. This tab also shows the link destination if the object is a link.
 
 
 ## -struct-fields
@@ -101,7 +101,7 @@ Used internally.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuiobjectpropsa">OLEUIOBJECTPROPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiobjectpropsa">OLEUIOBJECTPROPS</a>
 
 
 

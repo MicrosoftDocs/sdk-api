@@ -159,7 +159,7 @@ The <b>DHCP_SUBNET_ELEMENT_DATA_V5</b> structure defines an element that describ
 ### -field Element.ExcludeIpRange
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_range">DHCP_IP_RANGE</a> structure that contains a range of IP addresses. This member is present if <b>ElementType</b> is set to <b>DhcpIpRanges</b> or <b>DhcpExcludedIpRanges</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_range">DHCP_IP_RANGE</a> structure that contains a range of IP addresses. This member is present if <b>ElementType</b> is set to <b>DhcpIpRanges</b> or <b>DhcpExcludedIpRanges</b>.
 
 
 ### -field Element.IpUsedCluster

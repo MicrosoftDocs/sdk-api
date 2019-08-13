@@ -144,7 +144,7 @@ Reserved.
 
 Causes any activation where a server process would be launched under the caller's identity (activate-as-activator) to fail with E_ACCESSDENIED. This value, which can be specified only in a call to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a> by the client, allows an application that runs under a privileged account (such as LocalSystem) to help prevent its identity from being used to launch untrusted components.
 
-An activation call that uses CLSCTX_ENABLE_AAA of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX</a> enumeration will allow activate-as-activator activations for that call.
+An activation call that uses CLSCTX_ENABLE_AAA of the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a> enumeration will allow activate-as-activator activations for that call.
 
 
 ### -field EOAC_NO_CUSTOM_MARSHAL

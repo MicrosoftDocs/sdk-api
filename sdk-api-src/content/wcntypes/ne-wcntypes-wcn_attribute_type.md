@@ -67,12 +67,12 @@ This attribute value indicates that the <i>puInteger</i> parameter of the <a hre
 
 ### -field WCN_TYPE_ASSOCIATION_STATE
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_association_state">IWCNDevice::GetIntegerAttribute</a> method is a value containing the association   state or configuration information defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_association_state">WCN_VALUE_TYPE_ASSOCIATION_STATE</a>.
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_association_state">IWCNDevice::GetIntegerAttribute</a> method is a value containing the association   state or configuration information defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-wcn_value_type_association_state">WCN_VALUE_TYPE_ASSOCIATION_STATE</a>.
 
 
 ### -field WCN_TYPE_AUTHENTICATION_TYPE
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_authentication_type">IWCNDevice::GetIntegerAttribute</a> method is a value containing an authentication type defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_authentication_type">WCN_VALUE_TYPE_AUTHENTICATION_TYPE</a>.
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_authentication_type">IWCNDevice::GetIntegerAttribute</a> method is a value containing an authentication type defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-wcn_value_type_authentication_type">WCN_VALUE_TYPE_AUTHENTICATION_TYPE</a>.
 
 
 ### -field WCN_TYPE_AUTHENTICATION_TYPE_FLAGS
@@ -90,14 +90,14 @@ This attribute value indicates that the <i>wszString</i> parameter of the <a hre
 
 ### -field WCN_TYPE_CONFIG_METHODS
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method contains values, defined by   <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_config_methods">WCN_VALUE_TYPE_CONFIG_METHODS</a>, that specify the configuration methods supported by the Enrollee or Registrar. Additionally, access points and stations
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method contains values, defined by   <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-wcn_value_type_config_methods">WCN_VALUE_TYPE_CONFIG_METHODS</a>, that specify the configuration methods supported by the Enrollee or Registrar. Additionally, access points and stations
 that support the UPnP Management Interface must also support this attribute, which
 is used to control the configuration methods that are enabled on the access point.
 
 
 ### -field WCN_TYPE_CONFIGURATION_ERROR
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_configuration_error">IWCNDevice::GetIntegerAttribute</a> method is a value, defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_configuration_error">WCN_VALUE_TYPE_CONFIGURATION_ERROR</a>, that specifies the result of the device attempting to configure itself and associate with the WLAN.
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/win32/api/wcntypes/ne-wcntypes-wcn_value_type_configuration_error">IWCNDevice::GetIntegerAttribute</a> method is a value, defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-wcn_value_type_configuration_error">WCN_VALUE_TYPE_CONFIGURATION_ERROR</a>, that specifies the result of the device attempting to configure itself and associate with the WLAN.
 
 If a configuration session fails with the error code WCN_E_CONNECTION_REJECTED, any error code returned by the remote device can be obtained by querying this attribute. It is important to note that some devices will return WCN_VALUE_CE_NO_ERROR even if an error has occurred.
 
@@ -124,12 +124,12 @@ includes it.
 
 ### -field WCN_TYPE_CONNECTION_TYPE
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method contains a value, defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_connection_type">WCN_VALUE_TYPE_CONNECTION_TYPE</a>, that specifies the connection capability of the Enrollee.
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method contains a value, defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-wcn_value_type_connection_type">WCN_VALUE_TYPE_CONNECTION_TYPE</a>, that specifies the connection capability of the Enrollee.
 
 
 ### -field WCN_TYPE_CONNECTION_TYPE_FLAGS
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method contains a value, defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_connection_type">WCN_VALUE_TYPE_CONNECTION_TYPE</a>, that specifies the connection capability of the Enrollee.
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method contains a value, defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-wcn_value_type_connection_type">WCN_VALUE_TYPE_CONNECTION_TYPE</a>, that specifies the connection capability of the Enrollee.
 
 
 ### -field WCN_TYPE_CREDENTIAL
@@ -157,7 +157,7 @@ would be a unique identifier that describes the product in a way that is recogni
 
 ### -field WCN_TYPE_DEVICE_PASSWORD_ID
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method contains a value, defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_device_password_id">WCN VALUE TYPE DEVICE_PASSWORD_ID</a>, that is used to identify a device password. 
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method contains a value, defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-wcn_value_type_device_password_id">WCN VALUE TYPE DEVICE_PASSWORD_ID</a>, that is used to identify a device password. 
 
 
 ### -field WCN_TYPE_E_HASH1
@@ -201,13 +201,13 @@ Authenticator computed according to the procedure described in section 6.5.
 
 ### -field WCN_TYPE_ENCRYPTION_TYPE
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method contains a value, defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_encryption_type">WCN_VALUE_TYPE_ENCRYPTION_TYPE</a>,  for the Enrollee (AP or
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method contains a value, defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-wcn_value_type_encryption_type">WCN_VALUE_TYPE_ENCRYPTION_TYPE</a>,  for the Enrollee (AP or
 station) to use.
 
 
 ### -field WCN_TYPE_ENCRYPTION_TYPE_FLAGS
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method contains a value, defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_encryption_type">WCN_VALUE_TYPE_ENCRYPTION_TYPE</a>,  for the Enrollee (AP or
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method contains a value, defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-wcn_value_type_encryption_type">WCN_VALUE_TYPE_ENCRYPTION_TYPE</a>,  for the Enrollee (AP or
 station) to use.
 
 
@@ -386,7 +386,7 @@ Reserved. Do not use.
 
 ### -field WCN_TYPE_RF_BANDS
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method is an integer value, defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_rf_bands">WCN_VALUE_TYPE_RF_BANDS</a>, that indicates which RF band is utilized during message exchange, permitting end
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method is an integer value, defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-wcn_value_type_rf_bands">WCN_VALUE_TYPE_RF_BANDS</a>, that indicates which RF band is utilized during message exchange, permitting end
 points and proxies to communicate over a consistent radio interface. It may also be used as an optional
 attribute in a <b>WCN_TYPE_CREDENTIAL</b> or <b>WCN_TYPE_ENCRYPTED_SETTINGS</b> to indicate a specific (or group) of RF bands to which a
 setting applies.
@@ -424,7 +424,7 @@ This attribute value indicates that the <i>puInteger</i> parameter of the <a hre
 
 ### -field WCN_TYPE_SELECTED_REGISTRAR
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method is an integer value, defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_boolean">WCN_VALUE_TYPE_BOOLEAN</a>, that indicates if a Registrar has been selected by a user and that an Enrollee can proceed with
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method is an integer value, defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-wcn_value_type_boolean">WCN_VALUE_TYPE_BOOLEAN</a>, that indicates if a Registrar has been selected by a user and that an Enrollee can proceed with
 setting up an 802.1X uncontrolled data port with the Registrar.
 
 
@@ -527,18 +527,18 @@ Reserved. Do not use.
 
 ### -field WCN_TYPE_PERMITTED_CONFIG_METHODS
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method is an integer defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_config_methods">WCN_VALUE_TYPE_CONFIG_METHODS</a>, that indicates which of the configuration methods supported by the device are enabled.
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method is an integer defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-wcn_value_type_config_methods">WCN_VALUE_TYPE_CONFIG_METHODS</a>, that indicates which of the configuration methods supported by the device are enabled.
 
 
 ### -field WCN_TYPE_SELECTED_REGISTRAR_CONFIG_METHODS
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method is an integer defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_config_methods">WCN_VALUE_TYPE_CONFIG_METHODS</a>, that is used in Probe Response messages to
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method is an integer defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-wcn_value_type_config_methods">WCN_VALUE_TYPE_CONFIG_METHODS</a>, that is used in Probe Response messages to
 convey the current supported Config Methods of a specific Registrar.
 
 
 ### -field WCN_TYPE_PRIMARY_DEVICE_TYPE
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/win32/api/wcntypes/ns-wcntypes-wcn_value_type_primary_device_type">IWCNDevice::GetIntegerAttribute</a> method is an 8 byte buffer containing values, contained in <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ns-wcntypes-tagwcn_value_type_primary_device_type">WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE</a>, that indicates the primary type of the device. It is recommended that applications instead query the WCN_TYPE_PRIMARY_DEVICE_TYPE_CATEGORY, WCN_TYPE_PRIMARY_DEVICE_TYPE_SUBCATEGORY_OUI, and WCN_TYPE_PRIMARY_DEVICE_TYPE_SUBCATEGORY attributes as they are more convenient. 
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/win32/api/wcntypes/ns-wcntypes-wcn_value_type_primary_device_type">IWCNDevice::GetIntegerAttribute</a> method is an 8 byte buffer containing values, contained in <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ns-wcntypes-wcn_value_type_primary_device_type">WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE</a>, that indicates the primary type of the device. It is recommended that applications instead query the WCN_TYPE_PRIMARY_DEVICE_TYPE_CATEGORY, WCN_TYPE_PRIMARY_DEVICE_TYPE_SUBCATEGORY_OUI, and WCN_TYPE_PRIMARY_DEVICE_TYPE_SUBCATEGORY attributes as they are more convenient. 
 
 
 ### -field WCN_TYPE_SECONDARY_DEVICE_TYPE_LIST
@@ -553,7 +553,7 @@ Reserved. Do not use.
 
 ### -field WCN_TYPE_AP_SETUP_LOCKED
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method is a buffer containing a value, defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-tagwcn_value_type_boolean">WCN_VALUE_TYPE_BOOLEAN</a>, that indicates if the access point has entered a state in which it will refuse to allow an external Registrar
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">IWCNDevice::GetIntegerAttribute</a> method is a buffer containing a value, defined by <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-wcn_value_type_boolean">WCN_VALUE_TYPE_BOOLEAN</a>, that indicates if the access point has entered a state in which it will refuse to allow an external Registrar
 to attempt to run the Registration Protocol using the AP’s PIN (with the AP acting as Enrollee). The AP
 should enter this state if it believes a brute force attack is underway against the AP’s PIN.
 When the AP is in this state, it MUST continue to allow other Enrollees to connect and run the

@@ -67,12 +67,12 @@ The <b>OSUpdateAssessment</b> structure defines how up-to-date the OS on a targe
 
 ### -field assessmentForCurrent
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-tagupdateassessment">UpdateAssessment</a> structure containing an assessment against the latest update Microsoft has released. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-updateassessment">UpdateAssessment</a> structure containing an assessment against the latest update Microsoft has released. 
 
 
 ### -field assessmentForUpToDate
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-tagupdateassessment">UpdateAssessment</a> structure containing an assessment against the latest applicable quality update for the device.
+An <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-updateassessment">UpdateAssessment</a> structure containing an assessment against the latest applicable quality update for the device.
 
 
 ### -field securityStatus

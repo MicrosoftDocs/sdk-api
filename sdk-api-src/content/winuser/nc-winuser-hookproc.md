@@ -75,7 +75,7 @@ Specifies whether the message is sent by the current process. If the message is 
 
 Type: <b>LPARAM</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcwpretstruct">CWPRETSTRUCT</a> structure that contains details about the message. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-cwpretstruct">CWPRETSTRUCT</a> structure that contains details about the message. 
 
 
 #### - nCode [in]
@@ -113,7 +113,7 @@ An application installs the hook procedure by specifying the <a href="https://do
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcwpretstruct">CWPRETSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-cwpretstruct">CWPRETSTRUCT</a>
 
 
 

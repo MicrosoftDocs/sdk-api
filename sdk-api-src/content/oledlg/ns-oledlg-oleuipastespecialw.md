@@ -207,17 +207,17 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn
 
 ### -field arrPasteEntries
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuipasteentrya">OLEUIPASTEENTRY</a> array which specifies acceptable formats. This member is filled on input.
+The <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a> array which specifies acceptable formats. This member is filled on input.
 
 
 ### -field cPasteEntries
 
-Number of <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuipasteentrya">OLEUIPASTEENTRY</a> array entries. This member is filled on input.
+Number of <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a> array entries. This member is filled on input.
 
 
 ### -field arrLinkTypes
 
-List of link types that are acceptable. Link types are referred to using <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ne-oledlg-tagoleuipasteflag">OLEUIPASTEFLAG</a> in <b>arrPasteEntries</b>. This member is filled on input.
+List of link types that are acceptable. Link types are referred to using <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ne-oledlg-oleuipasteflag">OLEUIPASTEFLAG</a> in <b>arrPasteEntries</b>. This member is filled on input.
 
 
 ### -field cLinkTypes
@@ -261,11 +261,11 @@ The size of object as displayed in its source, if the display aspect chosen by t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuipasteentrya">OLEUIPASTEENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ne-oledlg-tagoleuipasteflag">OLEUIPASTEFLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ne-oledlg-oleuipasteflag">OLEUIPASTEFLAG</a>
 
 
 

@@ -132,7 +132,7 @@ Removes one or more required category identifiers from a class.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/ns-comcat-tagcategoryinfo">CATEGORYINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comcat/ns-comcat-categoryinfo">CATEGORYINFO</a>
 
 
 

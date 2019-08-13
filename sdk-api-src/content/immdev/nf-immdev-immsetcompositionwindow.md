@@ -68,7 +68,7 @@ Handle to the input context.
 
 ### -param lpCompForm [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagcompositionform">COMPOSITIONFORM</a> structure that contains the new position and other related information about the composition window.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-compositionform">COMPOSITIONFORM</a> structure that contains the new position and other related information about the composition window.
 
 
 ## -returns
@@ -94,7 +94,7 @@ This function causes an <a href="https://docs.microsoft.com/windows/desktop/Intl
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagcompositionform">COMPOSITIONFORM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-compositionform">COMPOSITIONFORM</a>
 
 
 

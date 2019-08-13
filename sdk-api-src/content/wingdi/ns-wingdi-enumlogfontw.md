@@ -66,7 +66,7 @@ The <b>ENUMLOGFONT</b> structure defines the attributes of a font, the complete 
 
 ### -field elfLogFont
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure that defines the attributes of a font.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure that defines the attributes of a font.
 
 
 ### -field elfFullName
@@ -96,7 +96,7 @@ The style of the font. For example, Bold Italic.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>
  
 
  

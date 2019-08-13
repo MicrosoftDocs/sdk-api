@@ -81,7 +81,7 @@ The suggested distance, in <b>HIMETRIC</b> units, that the container considers c
 
 ### -param pHitResult [out]
 
-A pointer to returned information about the hit expressed as the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-taghitresult">HITRESULT</a> enumeration values.
+A pointer to returned information about the hit expressed as the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-hitresult">HITRESULT</a> enumeration values.
 
 
 ## -returns
@@ -131,7 +131,7 @@ An object supporting <a href="https://docs.microsoft.com/windows/desktop/api/oci
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-taghitresult">HITRESULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-hitresult">HITRESULT</a>
 
 
 

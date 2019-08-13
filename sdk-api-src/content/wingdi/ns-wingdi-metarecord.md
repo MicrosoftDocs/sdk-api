@@ -82,7 +82,7 @@ An array of words containing the function parameters, in reverse of the order th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagmetaheader">METAHEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-metaheader">METAHEADER</a>
 
 
 

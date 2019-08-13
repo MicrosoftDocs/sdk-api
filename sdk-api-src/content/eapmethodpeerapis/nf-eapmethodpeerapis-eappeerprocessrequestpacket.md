@@ -71,7 +71,7 @@ The size, in bytes, of the request packet specified in <i>pReceivePacket</i>.
 
 ### -param pReceivedPacket [in]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodtypes/ns-eapmethodtypes-tageappacket">EapPacket</a> structure that contains the request packet to process.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eapmethodtypes/ns-eapmethodtypes-eappacket">EapPacket</a> structure that contains the request packet to process.
 
 
 ### -param pEapOutput [out]

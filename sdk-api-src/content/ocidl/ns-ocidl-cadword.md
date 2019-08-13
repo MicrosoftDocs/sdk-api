@@ -74,7 +74,7 @@ A pointer to an array of values, each of which can be passed to the <a href="htt
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagcalpolestr">CALPOLESTR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-calpolestr">CALPOLESTR</a>
 
 
 

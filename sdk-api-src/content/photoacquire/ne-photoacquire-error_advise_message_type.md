@@ -87,7 +87,7 @@ Specifies that the error that occurred requires an OK response. The <i>pnErrorAd
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/ne-photoacquire-tagerror_advise_result">ERROR_ADVISE_RESULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/ne-photoacquire-error_advise_result">ERROR_ADVISE_RESULT</a>
 
 
 

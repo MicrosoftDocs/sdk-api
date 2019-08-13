@@ -208,7 +208,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets and sets a <a href="https://docs.microsoft.com/windows/desktop/api/wuapicommon/ne-wuapicommon-tagserverselection">ServerSelection</a> value that indicates the server to search for updates.
+Gets and sets a <a href="https://docs.microsoft.com/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ServerSelection</a> value that indicates the server to search for updates.
 
 </td>
 </tr>

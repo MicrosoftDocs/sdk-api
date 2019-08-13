@@ -235,7 +235,7 @@ The CLSID of the object to be converted or activated. This member is set on inpu
 
 ### -field dvAspect
 
-Aspect of the object. This must be either DVASPECT_CONTENT or DVASPECT_ICON. If <b>dvAspect</b> is DVASPECT_ICON on input, then the <b>Display As Icon</b> box is checked and the object's icon is displayed. This member is set on input and output. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagdvaspect">DVASPECT</a>.
+Aspect of the object. This must be either DVASPECT_CONTENT or DVASPECT_ICON. If <b>dvAspect</b> is DVASPECT_ICON on input, then the <b>Display As Icon</b> box is checked and the object's icon is displayed. This member is set on input and output. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>.
 
 
 ### -field wFormat
@@ -250,7 +250,7 @@ Data format of the object to be converted or activated.
 
 ### -field hMetaPict
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagmetafilepict">METAFILEPICT</a> containing the iconic aspect. This member is set on input and output.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-metafilepict">METAFILEPICT</a> containing the iconic aspect. This member is set on input and output.
 
 
 

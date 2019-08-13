@@ -99,7 +99,7 @@ The following are the accessibility parameters.
 </dl>
 </td>
 <td width="60%">
-Retrieves information about the time-out period associated with the accessibility features. The <i>pvParam</i> parameter must point to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagaccesstimeout">ACCESSTIMEOUT</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ACCESSTIMEOUT)</code>.
+Retrieves information about the time-out period associated with the accessibility features. The <i>pvParam</i> parameter must point to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accesstimeout">ACCESSTIMEOUT</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ACCESSTIMEOUT)</code>.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Retrieves information about the time-out period associated with the accessibilit
 </dl>
 </td>
 <td width="60%">
-Determines whether audio descriptions are enabled or disabled. The <i>pvParam</i> parameter is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagaudiodescription">AUDIODESCRIPTION</a> structure. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(AUDIODESCRIPTION)</code>.
+Determines whether audio descriptions are enabled or disabled. The <i>pvParam</i> parameter is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-audiodescription">AUDIODESCRIPTION</a> structure. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(AUDIODESCRIPTION)</code>.
 
 While it is possible for users who have visual impairments to hear the audio in video content, there is a lot of action in video that does not have corresponding audio. Specific audio description of what is happening in a video helps these users understand the content better. This flag enables you to determine whether audio descriptions have been enabled and in which language.
 
@@ -155,7 +155,7 @@ Display features such as background images, textured backgrounds, water marks on
 </dl>
 </td>
 <td width="60%">
-Retrieves information about the FilterKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagfilterkeys">FILTERKEYS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(FILTERKEYS)</code>.
+Retrieves information about the FilterKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-filterkeys">FILTERKEYS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(FILTERKEYS)</code>.
 
 </td>
 </tr>
@@ -192,7 +192,7 @@ Retrieves the width, in pixels, of the left and right edges of the focus rectang
 </dl>
 </td>
 <td width="60%">
-Retrieves information about the HighContrast accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taghighcontrasta">HIGHCONTRAST</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(HIGHCONTRAST)</code>.
+Retrieves information about the HighContrast accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-highcontrasta">HIGHCONTRAST</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(HIGHCONTRAST)</code>.
 
 For a general discussion, see Remarks.
 
@@ -261,7 +261,7 @@ Retrieves the time delay before the primary mouse button is locked. The <i>pvPar
 </dl>
 </td>
 <td width="60%">
-Retrieves information about the MouseKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmousekeys">MOUSEKEYS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(MOUSEKEYS)</code>.
+Retrieves information about the MouseKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mousekeys">MOUSEKEYS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(MOUSEKEYS)</code>.
 
 </td>
 </tr>
@@ -339,7 +339,7 @@ Using this value is equivalent to calling <a href="https://docs.microsoft.com/wi
 </dl>
 </td>
 <td width="60%">
-Retrieves information about the SoundSentry accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagsoundsentrya">SOUNDSENTRY</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(SOUNDSENTRY)</code>.
+Retrieves information about the SoundSentry accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-soundsentrya">SOUNDSENTRY</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(SOUNDSENTRY)</code>.
 
 </td>
 </tr>
@@ -350,7 +350,7 @@ Retrieves information about the SoundSentry accessibility feature. The <i>pvPara
 </dl>
 </td>
 <td width="60%">
-Retrieves information about the StickyKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagstickykeys">STICKYKEYS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(STICKYKEYS)</code>.
+Retrieves information about the StickyKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-stickykeys">STICKYKEYS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(STICKYKEYS)</code>.
 
 </td>
 </tr>
@@ -361,7 +361,7 @@ Retrieves information about the StickyKeys accessibility feature. The <i>pvParam
 </dl>
 </td>
 <td width="60%">
-Retrieves information about the ToggleKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtogglekeys">TOGGLEKEYS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(TOGGLEKEYS)</code>.
+Retrieves information about the ToggleKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-togglekeys">TOGGLEKEYS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(TOGGLEKEYS)</code>.
 
 </td>
 </tr>
@@ -372,7 +372,7 @@ Retrieves information about the ToggleKeys accessibility feature. The <i>pvParam
 </dl>
 </td>
 <td width="60%">
-Sets the time-out period associated with the accessibility features. The <i>pvParam</i> parameter must point to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagaccesstimeout">ACCESSTIMEOUT</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ACCESSTIMEOUT)</code>.
+Sets the time-out period associated with the accessibility features. The <i>pvParam</i> parameter must point to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accesstimeout">ACCESSTIMEOUT</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ACCESSTIMEOUT)</code>.
 
 </td>
 </tr>
@@ -383,7 +383,7 @@ Sets the time-out period associated with the accessibility features. The <i>pvPa
 </dl>
 </td>
 <td width="60%">
-Turns the audio descriptions feature on or off. The <i>pvParam</i> parameter is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagaudiodescription">AUDIODESCRIPTION</a> structure.
+Turns the audio descriptions feature on or off. The <i>pvParam</i> parameter is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-audiodescription">AUDIODESCRIPTION</a> structure.
 
 While it is possible for users who are visually impaired to hear the audio in video content, there is a lot of action in video that does not have corresponding audio. Specific audio description of what is happening in a video helps these users understand the content better. This flag enables you to enable or disable audio descriptions in the languages they are provided in.
 
@@ -428,7 +428,7 @@ Display features such as background images, textured backgrounds, water marks on
 </dl>
 </td>
 <td width="60%">
-Sets the parameters of the FilterKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagfilterkeys">FILTERKEYS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(FILTERKEYS)</code>.
+Sets the parameters of the FilterKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-filterkeys">FILTERKEYS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(FILTERKEYS)</code>.
 
 </td>
 </tr>
@@ -465,7 +465,7 @@ Sets the height of the left and right edges of the focus rectangle drawn with <a
 </dl>
 </td>
 <td width="60%">
-Sets the parameters of the HighContrast accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taghighcontrasta">HIGHCONTRAST</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(HIGHCONTRAST)</code>.
+Sets the parameters of the HighContrast accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-highcontrasta">HIGHCONTRAST</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(HIGHCONTRAST)</code>.
 
 </td>
 </tr>
@@ -528,7 +528,7 @@ Adjusts the time delay before the primary mouse button is locked. The <i>uiParam
 </dl>
 </td>
 <td width="60%">
-Sets the parameters of the MouseKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmousekeys">MOUSEKEYS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(MOUSEKEYS)</code>.
+Sets the parameters of the MouseKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mousekeys">MOUSEKEYS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(MOUSEKEYS)</code>.
 
 </td>
 </tr>
@@ -602,7 +602,7 @@ Turns the ShowSounds accessibility feature on or off. The <i>uiParam</i> paramet
 </dl>
 </td>
 <td width="60%">
-Sets the parameters of the <b>SoundSentry</b> accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagsoundsentrya">SOUNDSENTRY</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(SOUNDSENTRY)</code>.
+Sets the parameters of the <b>SoundSentry</b> accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-soundsentrya">SOUNDSENTRY</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(SOUNDSENTRY)</code>.
 
 </td>
 </tr>
@@ -613,7 +613,7 @@ Sets the parameters of the <b>SoundSentry</b> accessibility feature. The <i>pvPa
 </dl>
 </td>
 <td width="60%">
-Sets the parameters of the StickyKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagstickykeys">STICKYKEYS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(STICKYKEYS)</code>.
+Sets the parameters of the StickyKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-stickykeys">STICKYKEYS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(STICKYKEYS)</code>.
 
 </td>
 </tr>
@@ -624,7 +624,7 @@ Sets the parameters of the StickyKeys accessibility feature. The <i>pvParam</i> 
 </dl>
 </td>
 <td width="60%">
-Sets the parameters of the ToggleKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtogglekeys">TOGGLEKEYS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(TOGGLEKEYS)</code>.
+Sets the parameters of the ToggleKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-togglekeys">TOGGLEKEYS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(TOGGLEKEYS)</code>.
 
 </td>
 </tr>
@@ -918,7 +918,7 @@ The following are the icon parameters.
 </dl>
 </td>
 <td width="60%">
-Retrieves the metrics associated with icons. The <i>pvParam</i> parameter must point to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagiconmetricsa">ICONMETRICS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ICONMETRICS)</code>.
+Retrieves the metrics associated with icons. The <i>pvParam</i> parameter must point to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconmetricsa">ICONMETRICS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ICONMETRICS)</code>.
 
 </td>
 </tr>
@@ -929,7 +929,7 @@ Retrieves the metrics associated with icons. The <i>pvParam</i> parameter must p
 </dl>
 </td>
 <td width="60%">
-Retrieves the logical font information for the current icon-title font. The <i>uiParam</i> parameter specifies the size of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure, and the <i>pvParam</i> parameter must point to the <b>LOGFONT</b> structure to fill in.
+Retrieves the logical font information for the current icon-title font. The <i>uiParam</i> parameter specifies the size of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure, and the <i>pvParam</i> parameter must point to the <b>LOGFONT</b> structure to fill in.
 
 </td>
 </tr>
@@ -981,7 +981,7 @@ To retrieve this value, <i>pvParam</i> must point to an integer that receives th
 </dl>
 </td>
 <td width="60%">
-Sets the metrics associated with icons. The <i>pvParam</i> parameter must point to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagiconmetricsa">ICONMETRICS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ICONMETRICS)</code>.
+Sets the metrics associated with icons. The <i>pvParam</i> parameter must point to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconmetricsa">ICONMETRICS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ICONMETRICS)</code>.
 
 </td>
 </tr>
@@ -1003,7 +1003,7 @@ Reloads the system icons. Set the <i>uiParam</i> parameter to zero and the <i>pv
 </dl>
 </td>
 <td width="60%">
-Sets the font that is used for icon titles. The <i>uiParam</i> parameter specifies the size of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure, and the <i>pvParam</i> parameter must point to a <b>LOGFONT</b> structure.
+Sets the font that is used for icon titles. The <i>uiParam</i> parameter specifies the size of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure, and the <i>pvParam</i> parameter must point to a <b>LOGFONT</b> structure.
 
 </td>
 </tr>
@@ -2316,7 +2316,7 @@ Retrieves the active window tracking delay, in milliseconds. The <i>pvParam</i> 
 </dl>
 </td>
 <td width="60%">
-Retrieves the animation effects associated with user actions. The <i>pvParam</i> parameter must point to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taganimationinfo">ANIMATIONINFO</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ANIMATIONINFO)</code>.
+Retrieves the animation effects associated with user actions. The <i>pvParam</i> parameter must point to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-animationinfo">ANIMATIONINFO</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ANIMATIONINFO)</code>.
 
 </td>
 </tr>
@@ -2412,7 +2412,7 @@ Retrieves the amount of time following user input, in milliseconds, during which
 </dl>
 </td>
 <td width="60%">
-Retrieves the metrics associated with minimized windows. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagminimizedmetrics">MINIMIZEDMETRICS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(MINIMIZEDMETRICS)</code>.
+Retrieves the metrics associated with minimized windows. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-minimizedmetrics">MINIMIZEDMETRICS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(MINIMIZEDMETRICS)</code>.
 
 </td>
 </tr>
@@ -2468,7 +2468,7 @@ Use <b>SPI_GETWINARRANGING</b> to determine whether this behavior is enabled.
 </dl>
 </td>
 <td width="60%">
-Retrieves the metrics associated with the nonclient area of nonminimized windows. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagnonclientmetricsa">NONCLIENTMETRICS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(NONCLIENTMETRICS)</code>.
+Retrieves the metrics associated with the nonclient area of nonminimized windows. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-nonclientmetricsa">NONCLIENTMETRICS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(NONCLIENTMETRICS)</code>.
 
 </td>
 </tr>
@@ -2610,7 +2610,7 @@ Sets the active window tracking delay. Set <i>pvParam</i> to the number of milli
 </dl>
 </td>
 <td width="60%">
-Sets the animation effects associated with user actions. The <i>pvParam</i> parameter must point to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taganimationinfo">ANIMATIONINFO</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ANIMATIONINFO)</code>.
+Sets the animation effects associated with user actions. The <i>pvParam</i> parameter must point to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-animationinfo">ANIMATIONINFO</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ANIMATIONINFO)</code>.
 
 </td>
 </tr>
@@ -2730,7 +2730,7 @@ The calling thread must be able to change the foreground window, otherwise the c
 </dl>
 </td>
 <td width="60%">
-Sets the metrics associated with minimized windows. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagminimizedmetrics">MINIMIZEDMETRICS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(MINIMIZEDMETRICS)</code>.
+Sets the metrics associated with minimized windows. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-minimizedmetrics">MINIMIZEDMETRICS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(MINIMIZEDMETRICS)</code>.
 
 </td>
 </tr>
@@ -2786,7 +2786,7 @@ Sets the threshold in pixels from the top of the monitor where a vertically maxi
 </dl>
 </td>
 <td width="60%">
-Sets the metrics associated with the nonclient area of nonminimized windows. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagnonclientmetricsa">NONCLIENTMETRICS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(NONCLIENTMETRICS)</code>. Also, the <b>lfHeight</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure must be a negative value.
+Sets the metrics associated with the nonclient area of nonminimized windows. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-nonclientmetricsa">NONCLIENTMETRICS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(NONCLIENTMETRICS)</code>. Also, the <b>lfHeight</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure must be a negative value.
 
 </td>
 </tr>
@@ -2975,7 +2975,7 @@ This function is intended for use with applications that allow the user to custo
 
 A keyboard layout name should be derived from the hexadecimal value of the language identifier corresponding to the layout. For example, U.S. English has a language identifier of 0x0409, so the primary U.S. English layout is named "00000409". Variants of U.S. English layout, such as the Dvorak layout, are named "00010409", "00020409" and so on. For a list of the primary language identifiers and sublanguage identifiers that make up a language identifier, see the <b>MAKELANGID</b> macro.
 
-There is a difference between the High Contrast color scheme and the High Contrast Mode. The High Contrast color scheme changes the system colors to colors that have obvious contrast; you switch to this color scheme by using the Display Options in the control panel. The High Contrast Mode, which uses <b>SPI_GETHIGHCONTRAST</b> and <b>SPI_SETHIGHCONTRAST</b>, advises applications to modify their appearance for visually-impaired users. It involves such things as audible warning to users and customized color scheme (using the Accessibility Options in the control panel). For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taghighcontrasta">HIGHCONTRAST</a>. For more information on general accessibility features, see <a href="https://docs.microsoft.com/windows/desktop/accessibility">Accessibility</a>.
+There is a difference between the High Contrast color scheme and the High Contrast Mode. The High Contrast color scheme changes the system colors to colors that have obvious contrast; you switch to this color scheme by using the Display Options in the control panel. The High Contrast Mode, which uses <b>SPI_GETHIGHCONTRAST</b> and <b>SPI_SETHIGHCONTRAST</b>, advises applications to modify their appearance for visually-impaired users. It involves such things as audible warning to users and customized color scheme (using the Accessibility Options in the control panel). For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-highcontrasta">HIGHCONTRAST</a>. For more information on general accessibility features, see <a href="https://docs.microsoft.com/windows/desktop/accessibility">Accessibility</a>.
 
 During the time that the primary button is held down to activate the Mouse ClickLock feature, the user can move the mouse. After the primary button is locked down, releasing the primary button does not result in a <b>WM_LBUTTONUP</b> message. Thus, it will appear to an application that the primary button is still down. Any subsequent button message releases the primary button, sending a <b>WM_LBUTTONUP</b> message to the application, thus the button can be unlocked programmatically or through the user clicking any button.
 
@@ -3028,31 +3028,31 @@ void main()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagaccesstimeout">ACCESSTIMEOUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accesstimeout">ACCESSTIMEOUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taganimationinfo">ANIMATIONINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-animationinfo">ANIMATIONINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagaudiodescription">AUDIODESCRIPTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-audiodescription">AUDIODESCRIPTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagfilterkeys">FILTERKEYS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-filterkeys">FILTERKEYS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taghighcontrasta">HIGHCONTRAST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-highcontrasta">HIGHCONTRAST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagiconmetricsa">ICONMETRICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconmetricsa">ICONMETRICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>
 
 
 
@@ -3060,15 +3060,15 @@ void main()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagminimizedmetrics">MINIMIZEDMETRICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-minimizedmetrics">MINIMIZEDMETRICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmousekeys">MOUSEKEYS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mousekeys">MOUSEKEYS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagnonclientmetricsa">NONCLIENTMETRICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-nonclientmetricsa">NONCLIENTMETRICS</a>
 
 
 
@@ -3076,15 +3076,15 @@ void main()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagserialkeysa">SERIALKEYS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-serialkeysa">SERIALKEYS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagsoundsentrya">SOUNDSENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-soundsentrya">SOUNDSENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagstickykeys">STICKYKEYS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-stickykeys">STICKYKEYS</a>
 
 
 
@@ -3092,7 +3092,7 @@ void main()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtogglekeys">TOGGLEKEYS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-togglekeys">TOGGLEKEYS</a>
 
 
 

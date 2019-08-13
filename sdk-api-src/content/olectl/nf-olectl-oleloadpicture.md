@@ -145,7 +145,7 @@ The stream must be in BMP (bitmap), WMF (metafile), or ICO (icon) format. A pict
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-tagpictdesc">PICTDESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-pictdesc">PICTDESC</a>
  
 
  

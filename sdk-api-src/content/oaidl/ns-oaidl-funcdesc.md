@@ -116,7 +116,7 @@ The function return type.
 
 ### -field wFuncFlags
 
-The function flags. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ne-oaidl-tagfuncflags">FUNCFLAGS</a>.
+The function flags. See <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ne-oaidl-funcflags">FUNCFLAGS</a>.
 
 
 ## -remarks

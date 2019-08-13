@@ -98,7 +98,7 @@ Each <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input">WM_I
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
 
 
 

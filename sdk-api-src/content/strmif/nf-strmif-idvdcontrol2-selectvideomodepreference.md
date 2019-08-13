@@ -65,7 +65,7 @@ The <code>SelectVideoModePreference</code> method sets the specified video mode 
 
 ### -param ulPreferredDisplayMode [in]
 
-Value that specifies the new display mode for DVD content. Member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_preferred_display_mode">DVD_PREFERRED_DISPLAY_MODE</a> enumeration.
+Value that specifies the new display mode for DVD content. Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_preferred_display_mode">DVD_PREFERRED_DISPLAY_MODE</a> enumeration.
 
 
 ## -returns

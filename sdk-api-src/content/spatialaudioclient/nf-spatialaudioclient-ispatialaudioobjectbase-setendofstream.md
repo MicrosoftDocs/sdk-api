@@ -123,7 +123,7 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt829727(v=VS.85).aspx">ISpatialAudioObjectBase</a>
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
  
 
  

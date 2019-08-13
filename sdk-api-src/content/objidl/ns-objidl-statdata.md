@@ -63,12 +63,12 @@ Contains information used to specify each advisory connection. It is used for en
 
 ### -field formatetc
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure for the data of interest to the advise sink. The advise sink receives notification of changes to the data specified by this <b>FORMATETC</b> structure.
+The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure for the data of interest to the advise sink. The advise sink receives notification of changes to the data specified by this <b>FORMATETC</b> structure.
 
 
 ### -field advf
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagadvf">ADVF</a> enumeration value that determines when the advisory sink is notified of changes in the data.
+The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-advf">ADVF</a> enumeration value that determines when the advisory sink is notified of changes in the data.
 
 
 ### -field pAdvSink

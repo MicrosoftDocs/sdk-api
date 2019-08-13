@@ -61,7 +61,7 @@ Selects the thread pool in which the work submitted through the activity is to r
 
 ### -param threadPool [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_threadpool">CSC_ThreadPool</a> enumeration.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_threadpool">CSC_ThreadPool</a> enumeration.
 
 
 ## -returns

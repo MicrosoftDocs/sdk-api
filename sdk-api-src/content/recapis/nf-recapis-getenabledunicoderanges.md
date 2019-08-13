@@ -69,7 +69,7 @@ The handle to the recognizer context.
 
 ### -param pcRanges
 
-On input, the number of <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagcharacter_range">CHARACTER_RANGE</a> structures the <i>pcr</i> buffer can contain. On output, the number of ranges the <i>pcr</i> buffer contains.
+On input, the number of <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-character_range">CHARACTER_RANGE</a> structures the <i>pcr</i> buffer can contain. On output, the number of ranges the <i>pcr</i> buffer contains.
 
 
 ### -param pcr
@@ -178,7 +178,7 @@ Microsoft gesture recognizers use Unicode characters from 0xF000 to 0xF0FF. Each
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagcharacter_range">CHARACTER_RANGE Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-character_range">CHARACTER_RANGE Structure</a>
 
 
 

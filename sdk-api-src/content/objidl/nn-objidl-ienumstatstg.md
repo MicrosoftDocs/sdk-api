@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>IEnumSTATSTG</b> interface enumerates an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structures. These structures contain statistical data about  open storage, stream, or byte array objects. 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures. These structures contain statistical data about  open storage, stream, or byte array objects. 
 <b>IEnumSTATSTG</b> has the same methods as all enumerator interfaces: <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstatstg-next">Next</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstatstg-skip">Skip</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstatstg-reset">Reset</a>, and 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstatstg-clone">Clone</a>. 
 
@@ -78,7 +78,7 @@ The <b>IEnumSTATSTG</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstatstg-clone">Clone</a>
 </td>
 <td align="left" width="63%">
-Creates a new enumerator that contains the same enumeration state as the current <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure enumerator.
+Creates a new enumerator that contains the same enumeration state as the current <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure enumerator.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ Creates a new enumerator that contains the same enumeration state as the current
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstatstg-next">Next</a>
 </td>
 <td align="left" width="63%">
-Gets a specified number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structures.
+Gets a specified number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Gets a specified number of <a href="https://docs.microsoft.com/windows/desktop/a
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstatstg-reset">Reset</a>
 </td>
 <td align="left" width="63%">
-Resets the enumeration sequence to the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure array.
+Resets the enumeration sequence to the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure array.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Resets the enumeration sequence to the beginning of the <a href="https://docs.mi
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstatstg-skip">Skip</a>
 </td>
 <td align="left" width="63%">
-Skips a specified number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structures in the enumeration sequence.
+Skips a specified number of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structures in the enumeration sequence.
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ Skips a specified number of <a href="https://docs.microsoft.com/windows/desktop/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a>
  
 
  

@@ -72,7 +72,7 @@ Specifies, in bytes, the length of the range that is restricted.
 ### -param dwLockType [in]
 
 Specifies the type of access restrictions previously placed on the range. This parameter uses a value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-taglocktype">LOCKTYPE</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a> enumeration.
 
 
 ## -returns
@@ -111,7 +111,7 @@ This method can return one of these values.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-taglocktype">LOCKTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a>
  
 
  

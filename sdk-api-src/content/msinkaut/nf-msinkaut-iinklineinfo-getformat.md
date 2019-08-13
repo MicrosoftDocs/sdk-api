@@ -65,7 +65,7 @@ Returns the display properties currently set on the text ink object (tInk).
 
 ### -param pim [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-taginkmetric">INKMETRIC</a> structure that stores the display properties of the text ink object.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-inkmetric">INKMETRIC</a> structure that stores the display properties of the text ink object.
 
 
 ## -returns
@@ -120,7 +120,7 @@ The <i>pim</i> parameter is <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-taginkmetric">INKMETRIC Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-inkmetric">INKMETRIC Structure</a>
 
 
 

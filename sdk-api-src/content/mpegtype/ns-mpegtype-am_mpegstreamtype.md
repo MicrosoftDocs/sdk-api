@@ -91,7 +91,7 @@ Stream identifier of the stream to process.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/ns-mpegtype-tagam_mpegsystemtype">AM_MPEGSYSTEMTYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpegtype/ns-mpegtype-am_mpegsystemtype">AM_MPEGSYSTEMTYPE</a>
 
 
 

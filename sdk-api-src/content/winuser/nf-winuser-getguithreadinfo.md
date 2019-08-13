@@ -76,7 +76,7 @@ The identifier for the thread for which information is to be retrieved. To retri
 
 Type: <b>LPGUITHREADINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagguithreadinfo">GUITHREADINFO</a> structure that receives information describing the thread. Note that you must set the <b>cbSize</b> member to <code>sizeof(GUITHREADINFO)</code> before calling this function. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-guithreadinfo">GUITHREADINFO</a> structure that receives information describing the thread. Note that you must set the <b>cbSize</b> member to <code>sizeof(GUITHREADINFO)</code> before calling this function. 
 
 
 ## -returns
@@ -138,14 +138,14 @@ For an edit control, the returned <b>rcCaret</b> rectangle contains the caret pl
 </ol>
 
 
-The function may not return valid window handles in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagguithreadinfo">GUITHREADINFO</a> structure when called to retrieve information for the foreground thread, such as when a window is losing activation.
+The function may not return valid window handles in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-guithreadinfo">GUITHREADINFO</a> structure when called to retrieve information for the foreground thread, such as when a window is losing activation.
 
 
 
 
 
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
-The coordinates returned in the <b>rcCaret</b> rect of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagguithreadinfo">GUITHREADINFO</a> struct are logical coordinates in terms of the window associated with the caret. They are not virtualized into the mode of the calling thread.
+The coordinates returned in the <b>rcCaret</b> rect of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-guithreadinfo">GUITHREADINFO</a> struct are logical coordinates in terms of the window associated with the caret. They are not virtualized into the mode of the calling thread.
 
 
 
@@ -159,7 +159,7 @@ The coordinates returned in the <b>rcCaret</b> rect of the <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagguithreadinfo">GUITHREADINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-guithreadinfo">GUITHREADINFO</a>
 
 
 

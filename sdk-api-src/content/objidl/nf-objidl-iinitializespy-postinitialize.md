@@ -66,7 +66,7 @@ The value returned by <a href="https://docs.microsoft.com/windows/desktop/api/co
 
 ### -param dwCoInit [in]
 
-The apartment type passed to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/ne-objbase-tagcoinit">COINIT</a> enumeration.
+The apartment type passed to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/ne-objbase-coinit">COINIT</a> enumeration.
 
 
 ### -param dwNewThreadAptRefs [in]

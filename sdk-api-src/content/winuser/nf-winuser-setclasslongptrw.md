@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-Replaces the specified value at the specified offset in the extra class memory or the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassexa">WNDCLASSEX</a> structure for the class to which the specified window belongs. <div class="alert"><b>Note</b>  To write code that is compatible with both 32-bit and 64-bit Windows, use <b>SetClassLongPtr</b>. When compiling for 32-bit Windows, <b>SetClassLongPtr</b> is defined as a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclasslonga">SetClassLong</a> function</div>
+Replaces the specified value at the specified offset in the extra class memory or the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure for the class to which the specified window belongs. <div class="alert"><b>Note</b>  To write code that is compatible with both 32-bit and 64-bit Windows, use <b>SetClassLongPtr</b>. When compiling for 32-bit Windows, <b>SetClassLongPtr</b> is defined as a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclasslonga">SetClassLong</a> function</div>
 <div> </div>
 
 
@@ -75,7 +75,7 @@ A handle to the window and, indirectly, the class to which the window belongs.
 
 Type: <b>int</b>
 
-The value to be replaced. To set a value in the extra class memory, specify the positive, zero-based byte offset of the value to be set. Valid values are in the range zero through the number of bytes of extra class memory, minus eight; for example, if you specified 24 or more bytes of extra class memory, a value of 16 would be an index to the third integer. To set a value other than the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassexa">WNDCLASSEX</a> structure, specify one of the following values. 
+The value to be replaced. To set a value in the extra class memory, specify the positive, zero-based byte offset of the value to be set. Valid values are in the range zero through the number of bytes of extra class memory, minus eight; for example, if you specified 24 or more bytes of extra class memory, a value of 16 would be an index to the third integer. To set a value other than the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure, specify one of the following values. 
 
 <table>
 <tr>
@@ -227,7 +227,7 @@ If you use the <b>SetClassLongPtr</b> function and the <b>GCLP_WNDPROC</b> index
 Calling <b>SetClassLongPtr</b> with the <b>GCLP_WNDPROC</b> index creates a subclass of the window class that affects all windows subsequently created with the class. An application can subclass a system class, but should not subclass a window class created by another process. 
 
 Reserve extra class memory by specifying a nonzero value in the 
-				<b>cbClsExtra</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassexa">WNDCLASSEX</a> structure used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. 
+				<b>cbClsExtra</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. 
 
 Use the <b>SetClassLongPtr</b> function with care. For example, it is possible to change the background color for a class by using <b>SetClassLongPtr</b>, but this change does not immediately repaint all windows belonging to the class. 
 
@@ -259,7 +259,7 @@ Use the <b>SetClassLongPtr</b> function with care. For example, it is possible t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwndclassexa">WNDCLASSEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a>
 
 
 

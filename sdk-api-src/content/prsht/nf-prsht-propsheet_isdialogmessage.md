@@ -70,7 +70,7 @@ Handle to the property sheet.
 
 Type: <b>LPMSG</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure that contains the message to be checked.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that contains the message to be checked.
 
 
 ## -remarks

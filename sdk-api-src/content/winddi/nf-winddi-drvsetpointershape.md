@@ -149,7 +149,7 @@ SPS_ASYNCCHANGE
 
 </td>
 <td>
-This flag is obsolete. For legacy drivers, the driver should accept the change only if it is capable of changing the pointer shape in the hardware while other drawing is underway on the device. GDI uses this option only if the now obsolete GCAPS_ASYNCCHANGE flag is set in the <b>flGraphicsCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a> structure.
+This flag is obsolete. For legacy drivers, the driver should accept the change only if it is capable of changing the pointer shape in the hardware while other drawing is underway on the device. GDI uses this option only if the now obsolete GCAPS_ASYNCCHANGE flag is set in the <b>flGraphicsCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
 
 </td>
 </tr>
@@ -169,7 +169,7 @@ SPS_FREQMASK
 
 </td>
 <td>
-The driver is requested to render a mouse trail, updating the image as many times per millisecond as indicated in the expression <i>fl</i> &amp; SPS_FREQMASK. A driver that is capable of rendering mouse trails must have the GCAPS2_MOUSETRAILS flag set in the <b>flGraphicsCaps2</b> member of its <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a> structure.
+The driver is requested to render a mouse trail, updating the image as many times per millisecond as indicated in the expression <i>fl</i> &amp; SPS_FREQMASK. A driver that is capable of rendering mouse trails must have the GCAPS2_MOUSETRAILS flag set in the <b>flGraphicsCaps2</b> member of its <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
 
 </td>
 </tr>
@@ -179,7 +179,7 @@ SPS_LENGTHMASK
 
 </td>
 <td>
-The driver is requested to render a mouse trail of length indicated by the expression <i>fl</i> &amp; SPS_LENGTHMASK. (A mouse trail of length <i>N</i> is made up of <i>N</i> + 1 cursor images.) A driver that is capable of rendering mouse trails must have the GCAPS2_MOUSETRAILS flag set in the <b>flGraphicsCaps2</b> member of its <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a> structure.
+The driver is requested to render a mouse trail of length indicated by the expression <i>fl</i> &amp; SPS_LENGTHMASK. (A mouse trail of length <i>N</i> is made up of <i>N</i> + 1 cursor images.) A driver that is capable of rendering mouse trails must have the GCAPS2_MOUSETRAILS flag set in the <b>flGraphicsCaps2</b> member of its <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
 
 </td>
 </tr>
@@ -260,7 +260,7 @@ When SPS_ALPHA is set in the <i>fl</i> parameter, <i>psoMask</i> is <b>NULL</b> 
 
 Default alpha cursors are largely black and white with a large range of alpha values; however, there is no color restriction since applications can specify arbitrary cursors themselves. Typical alpha pointer sizes are approximately 8 pixels larger in dimension than typical pointers without alpha. This accommodates the shadow effect, which is accomplished by a blurring filter that expands the resulting pointer bitmap shape. The vast majority of pointers will be 64x64 pixel bitmaps or smaller.
 
-The driver indicates its ability to handle pointers with per-pixel alpha values by setting the GCAPS2_ALPHACURSOR flag in the <b>flGraphicsCaps2</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
+The driver indicates its ability to handle pointers with per-pixel alpha values by setting the GCAPS2_ALPHACURSOR flag in the <b>flGraphicsCaps2</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
 
 

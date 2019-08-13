@@ -57,11 +57,11 @@ The <b>MONITORINFO</b> structure contains information about a display monitor.
 The 
         GetMonitorInfo function stores information in a 
          <b>MONITORINFO</b>  structure or a 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmonitorinfoexa">MONITORINFOEX</a> structure.
+        <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfoexa">MONITORINFOEX</a> structure.
 
 The 
          <b>MONITORINFO</b> structure is a subset of the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmonitorinfoexa">MONITORINFOEX</a>  structure. The 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfoexa">MONITORINFOEX</a>  structure. The 
          <b>MONITORINFOEX</b>  structure adds a string member to contain a name for the display monitor.
 
 
@@ -117,7 +117,7 @@ The following flag is defined.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmonitorinfoexa">MONITORINFOEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfoexa">MONITORINFOEX</a>
 
 
 

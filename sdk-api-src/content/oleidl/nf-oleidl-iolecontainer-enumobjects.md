@@ -61,7 +61,7 @@ Enumerates the objects in the current container.
 
 ### -param grfFlags [in]
 
-Specifies which objects in a container are to be enumerated, as defined in the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolecontf">OLECONTF</a>.
+Specifies which objects in a container are to be enumerated, as defined in the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olecontf">OLECONTF</a>.
 
 
 ### -param ppenum [out]
@@ -134,7 +134,7 @@ A container should implement <b>EnumObjects</b> to enable programmatic clients t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolecontf">OLECONTF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olecontf">OLECONTF</a>
  
 
  

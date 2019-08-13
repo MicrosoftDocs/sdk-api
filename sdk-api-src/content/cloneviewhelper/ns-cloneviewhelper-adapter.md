@@ -71,7 +71,7 @@ The number of video present sources in the array that the <b>sources</b> member 
 
 ### -field sources
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-tagsources">Sources</a> structures that specify a list of Video Present Network (VidPN) topologies. 
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-sources">Sources</a> structures that specify a list of Video Present Network (VidPN) topologies. 
 
 
 ## -see-also
@@ -83,7 +83,7 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhel
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-tagsources">Sources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-sources">Sources</a>
  
 
  

@@ -61,7 +61,7 @@ Configures the COMTI intrinsics for the enclosed work.
 
 ### -param comtiIntrinsicsConfig [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_comtiintrinsicsconfig">CSC_COMTIIntrinsicsConfig</a> enumeration.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_comtiintrinsicsconfig">CSC_COMTIIntrinsicsConfig</a> enumeration.
 
 
 ## -returns

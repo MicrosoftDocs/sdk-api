@@ -62,7 +62,7 @@ The <b>Stat</b> method retrieves information about the current open property set
 ### -param pstatpsstg [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropsetstg">STATPROPSETSTG</a> structure, which contains statistics about the current open property set.
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropsetstg">STATPROPSETSTG</a> structure, which contains statistics about the current open property set.
 
 
 ## -returns
@@ -79,7 +79,7 @@ This method supports the standard return value E_UNEXPECTED, in addition to the 
 
 
 <b>IPropertyStorage::Stat</b> fills in and returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropsetstg">STATPROPSETSTG</a> structure, containing statistics about the current property set.
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropsetstg">STATPROPSETSTG</a> structure, containing statistics about the current property set.
 
 
 
@@ -101,7 +101,7 @@ This method supports the standard return value E_UNEXPECTED, in addition to the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropsetstg">STATPROPSETSTG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropsetstg">STATPROPSETSTG</a>
  
 
  

@@ -68,7 +68,7 @@ A handle to the DTP control.
 
 ### -param pdtpi [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagdatetimepickerinfo">DATETIMEPICKERINFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-datetimepickerinfo">DATETIMEPICKERINFO</a>*</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagdatetimepickerinfo">DATETIMEPICKERINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-datetimepickerinfo">DATETIMEPICKERINFO</a>
 <b>cbSize</b>

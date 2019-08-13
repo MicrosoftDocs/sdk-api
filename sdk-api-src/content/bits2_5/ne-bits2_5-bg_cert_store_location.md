@@ -1,5 +1,5 @@
 ---
-UID: NE:bits2_5.__MIDL_IBackgroundCopyJobHttpOptions_0001
+UID: NE:bits2_5.BG_CERT_STORE_LOCATION
 title: BG_CERT_STORE_LOCATION (bits2_5.h)
 author: windows-sdk-content
 description: Defines constants that specify the location of the certificate store.

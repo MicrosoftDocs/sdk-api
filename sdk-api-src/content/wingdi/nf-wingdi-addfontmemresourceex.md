@@ -110,7 +110,7 @@ When the function succeeds, the caller of this function can free the memory poin
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagdesignvector">DESIGNVECTOR
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-designvector">DESIGNVECTOR
       </a>
 
 

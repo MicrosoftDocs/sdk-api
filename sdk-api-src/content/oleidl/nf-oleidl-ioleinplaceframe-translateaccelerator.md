@@ -61,7 +61,7 @@ Translates accelerator keystrokes intended for the container's frame while an ob
 
 ### -param lpmsg [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure that contains the keystroke message.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that contains the keystroke message.
 
 
 ### -param wID [in]

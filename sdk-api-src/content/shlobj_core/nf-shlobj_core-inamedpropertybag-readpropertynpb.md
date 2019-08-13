@@ -75,7 +75,7 @@ A pointer to a string that contains the name of the property to be read.
 
 ### -param pVar [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
 The address of a <b>VARIANT</b> that, when this method returns successfully, receives the property value.
 

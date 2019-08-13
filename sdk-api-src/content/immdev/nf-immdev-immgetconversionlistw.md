@@ -78,7 +78,7 @@ Pointer to a null-terminated character string specifying the source of the list.
 
 ### -param lpDst [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagcandidatelist">CANDIDATELIST</a> structure in which the function retrieves the list.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-candidatelist">CANDIDATELIST</a> structure in which the function retrieves the list.
 
 
 ### -param dwBufLen [in]
@@ -143,7 +143,7 @@ Returns the number of bytes copied to the output buffer. If the application sets
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagcandidatelist">CANDIDATELIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-candidatelist">CANDIDATELIST</a>
 
 
 

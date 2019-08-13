@@ -69,7 +69,7 @@ Handle to a capture window.
 
 ### -param s
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-tagcapstatus">CAPSTATUS</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-capstatus">CAPSTATUS</a> structure.
 
 
 ### -param wSize
@@ -81,7 +81,7 @@ Size, in bytes, of the structure referenced by <i>s</i>.
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-tagcapstatus">CAPSTATUS</a> structure contains the current state of the capture window. Since this state is dynamic and changes in response to various messages, the application should initialize this structure after sending the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capdlgvideoformat">capDlgVideoFormat</a> macro and whenever it needs to enable menu items or determine the actual state of the window.
+The <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-capstatus">CAPSTATUS</a> structure contains the current state of the capture window. Since this state is dynamic and changes in response to various messages, the application should initialize this structure after sending the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capdlgvideoformat">capDlgVideoFormat</a> macro and whenever it needs to enable menu items or determine the actual state of the window.
 
 
 

@@ -77,7 +77,7 @@ Number of extra bytes.
 
 
 
-By default, the number of extra bytes is four. An application that changes the number of extra bytes cannot use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtcitema">TCITEM</a> structure to retrieve and set the application-defined data for a tab. Instead, you must define a new structure that consists of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtcitemheadera">TCITEMHEADER</a> structure followed by application-defined members. 
+By default, the number of extra bytes is four. An application that changes the number of extra bytes cannot use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tcitema">TCITEM</a> structure to retrieve and set the application-defined data for a tab. Instead, you must define a new structure that consists of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tcitemheadera">TCITEMHEADER</a> structure followed by application-defined members. 
 
 An application should only change the number of extra bytes when a tab control does not contain any tabs. 
 

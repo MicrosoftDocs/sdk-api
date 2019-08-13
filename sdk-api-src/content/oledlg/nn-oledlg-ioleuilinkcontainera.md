@@ -151,7 +151,7 @@ Forces a link to connect to its source and update.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuieditlinksa">OLEUIEDITLINKS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuieditlinksa">OLEUIEDITLINKS</a>
 
 
 

@@ -130,7 +130,7 @@ Registers a method that handles structure-changed events.
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-checknotsupported">CheckNotSupported</a>
 </td>
 <td align="left" width="63%">
-Checks a provided <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> to see if it contains the Not Supported identifier.
+Checks a provided <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> to see if it contains the Not Supported identifier.
 
 </td>
 </tr>
@@ -490,7 +490,7 @@ Converts a <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY<
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-varianttorect">VariantToRect</a>
 </td>
 <td align="left" width="63%">
-Converts a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> containing rectangle coordinates to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>.
+Converts a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> containing rectangle coordinates to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>.
 
 </td>
 </tr>

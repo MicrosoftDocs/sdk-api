@@ -101,7 +101,7 @@ This method is reliable regardless of whether the VMR is using DirectDraw accele
 To obtain the required buffer size to hold the image, call this method with a <b>NULL</b> pointer in the <i>pDIBImage</i> parameter. The method returns the required buffer size in the <i>pBufferSize</i> parameter. Allocate a buffer of that size and call the method again, with <i>pDIBImage</i> pointing to the buffer. On the second call, use <i>pBufferSize</i> to specify the buffer size. If the buffer is too small to hold the complete image, the method returns E_OUTOFMEMORY. 
 
 
-If the method succeeds, the buffer is filled with the entire DIB image, including the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure, plus any palette entries and bit masks as defined in the Win32 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure. The format of the image depends on the type provided by the source filter, and cannot be specified in advance.
+If the method succeeds, the buffer is filled with the entire DIB image, including the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure, plus any palette entries and bit masks as defined in the Win32 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure. The format of the image depends on the type provided by the source filter, and cannot be specified in advance.
 
 
 

@@ -72,7 +72,7 @@ The <b>Configure</b> method changes the internal settings of the indexer object.
 
 ### -param nIndexerType [in]
 
-A variable containing one member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-tagwmt_indexer_type">WMT_INDEXER_TYPE</a> enumeration type.
+A variable containing one member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_indexer_type">WMT_INDEXER_TYPE</a> enumeration type.
 
 
 ### -param pvInterval [in]
@@ -84,7 +84,7 @@ If you pass <b>NULL</b>, <b>Configure</b> will use the default value. For tempor
 
 ### -param pvIndexType [in]
 
-This void pointer must point to a <b>WORD</b> value containing one member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-tagwmt_index_type">WMT_INDEX_TYPE</a> enumeration type. If you pass <b>NULL</b>, <b>Configure</b> will use the default value.
+This void pointer must point to a <b>WORD</b> value containing one member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_index_type">WMT_INDEX_TYPE</a> enumeration type. If you pass <b>NULL</b>, <b>Configure</b> will use the default value.
 
 The default value is WMT_IT_NEAREST_CLEAN_POINT. Using another index type degrades seeking performance.
 

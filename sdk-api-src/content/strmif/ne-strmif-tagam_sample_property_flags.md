@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-Specifies values for the <b>dwSampleFlags</b> and <b>dwStreamId</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagam_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure. These values describe the properties of media samples.
+Specifies values for the <b>dwSampleFlags</b> and <b>dwStreamId</b> members of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure. These values describe the properties of media samples.
 
 
 
@@ -94,7 +94,7 @@ Time is valid.
 
 ### -field AM_SAMPLE_TIMEDISCONTINUITY
 
-A time gap in the data starts after this sample. The <b>pbBuffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagam_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure can be <b>NULL</b> in this case.
+A time gap in the data starts after this sample. The <b>pbBuffer</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure can be <b>NULL</b> in this case.
 
 
 ### -field AM_SAMPLE_FLUSH_ON_PAUSE

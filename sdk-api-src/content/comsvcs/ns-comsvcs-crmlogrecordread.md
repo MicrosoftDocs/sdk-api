@@ -61,7 +61,7 @@ Contains unstructured log records for the Compensating Resource Manager (CRM).
 
 ### -field dwCrmFlags
 
-Information about when this record was written. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcrmflags">CRMFLAGS</a>.
+Information about when this record was written. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-crmflags">CRMFLAGS</a>.
 
 
 ### -field dwSequenceNumber

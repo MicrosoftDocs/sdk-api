@@ -61,7 +61,7 @@ Specifies the color palette that the object application should use when it edits
 
 ### -param pLogpal [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogpalette">LOGPALETTE</a> structure that specifies the recommended palette.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logpalette">LOGPALETTE</a> structure that specifies the recommended palette.
 
 
 ## -returns

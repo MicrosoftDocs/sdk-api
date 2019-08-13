@@ -125,7 +125,7 @@ If FADF_HAVEVARTYPE is set, <b>SafeArrayGetVartype</b> returns the VARTYPE store
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY Data Type</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY Data Type</a>
  
 
  

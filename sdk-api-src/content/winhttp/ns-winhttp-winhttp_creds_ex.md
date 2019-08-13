@@ -159,7 +159,7 @@ When it is set, WinINet will send credentials  down to WinHTTP. Whenever WinHttp
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-tagwinhttp_creds">WINHTTP_CREDS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-winhttp_creds">WINHTTP_CREDS</a>
  
 
  

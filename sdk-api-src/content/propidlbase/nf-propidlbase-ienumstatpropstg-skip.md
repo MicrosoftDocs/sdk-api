@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Skip</b> method skips the specified number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropstg">STATPROPSTG</a> structures in the enumeration sequence.
+The <b>Skip</b> method skips the specified number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures in the enumeration sequence.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>Skip</b> method skips the specified number of <a href="https://docs.micro
 
 ### -param celt
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropstg">STATPROPSTG</a> structures to skip.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures to skip.
 
 
 ## -returns
@@ -77,7 +77,7 @@ This method supports the following return values:
 
 
 
-A positive value for the <i>celt</i> parameter skips forward in the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropstg">STATPROPSTG</a> structure enumeration. A negative value for the <i>celt</i> parameter skips backward in the <b>STATPROPSTG</b> structure enumeration.
+A positive value for the <i>celt</i> parameter skips forward in the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structure enumeration. A negative value for the <i>celt</i> parameter skips backward in the <b>STATPROPSTG</b> structure enumeration.
 
 
 

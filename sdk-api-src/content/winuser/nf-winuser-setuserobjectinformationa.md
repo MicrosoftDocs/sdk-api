@@ -85,7 +85,7 @@ The object information to be set. This parameter can be the following value.
 </td>
 <td width="60%">
 Sets the object's handle flags. The <i>pvInfo</i> parameter must point to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taguserobjectflags">USEROBJECTFLAGS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-userobjectflags">USEROBJECTFLAGS</a> structure.
 
 </td>
 </tr>
@@ -157,7 +157,7 @@ If the function fails the return value is zero. To get extended error informatio
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taguserobjectflags">USEROBJECTFLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-userobjectflags">USEROBJECTFLAGS</a>
 
 
 

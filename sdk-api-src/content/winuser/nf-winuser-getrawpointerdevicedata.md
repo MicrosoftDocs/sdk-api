@@ -81,7 +81,7 @@ Number of properties to retrieve.
 
 ### -param pProperties [in]
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_device_property">POINTER_DEVICE_PROPERTY</a> structures that contain raw data reported by the device.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_device_property">POINTER_DEVICE_PROPERTY</a> structures that contain raw data reported by the device.
 
 
 ### -param pValues [out]

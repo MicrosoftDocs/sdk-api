@@ -89,7 +89,7 @@ Value of type <b>int</b> that specifies the state of the part. See <a href="http
 
 ### -param ptm [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagtextmetrica">TEXTMETRIC</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-textmetrica">TEXTMETRIC</a>*</b>
 
 Receives the font information.
 

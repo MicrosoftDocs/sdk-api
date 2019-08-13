@@ -213,7 +213,7 @@ Use the
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ne-netcon-tagsharingconnectiontype">SHARINGCONNECTIONTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-sharingconnectiontype">SHARINGCONNECTIONTYPE</a>
  
 
  

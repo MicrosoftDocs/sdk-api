@@ -75,7 +75,7 @@ Data to sort; this is application-defined.
 
 ### -field lvGroup
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvgroup">LVGROUP</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a></b>
 
 Group to sort; this is application-defined.
 

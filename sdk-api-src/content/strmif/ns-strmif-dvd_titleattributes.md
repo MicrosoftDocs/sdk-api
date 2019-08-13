@@ -61,18 +61,18 @@ The <b>DVD_TitleAttributes</b> structure contains information about a DVD title.
 
 ### -field AppMode
 
-A variable of type <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_title_appmode">DVD_TITLE_APPMODE</a> indicating whether the Navigator is in karaoke mode.
+A variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_title_appmode">DVD_TITLE_APPMODE</a> indicating whether the Navigator is in karaoke mode.
           
 
 
 ### -field TitleLength
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_hmsf_timecode">DVD_HMSF_TIMECODE</a> structure.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode">DVD_HMSF_TIMECODE</a> structure.
 
 
 ### -field VideoAttributes
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_videoattributes">DVD_VideoAttributes</a> structure containing information about the "main" video of the current menu or title.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_videoattributes">DVD_VideoAttributes</a> structure containing information about the "main" video of the current menu or title.
           
 
 
@@ -84,13 +84,13 @@ The number of audio streams available in the title.
 
 ### -field AudioAttributes
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_audioattributes">DVD_AudioAttributes</a> structures containing information about each available audio stream in the current title.
+An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_audioattributes">DVD_AudioAttributes</a> structures containing information about each available audio stream in the current title.
           
 
 
 ### -field MultichannelAudioAttributes
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_multichannelaudioattributes">DVD_MultichannelAudioAttributes</a> structures containing additional information about any available audio stream that is in a multichannel format. This structure will be filled in for the corresponding audio stream if the multichannel bit is set in that stream's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_audioattributes">DVD_AudioAttributes</a> structure.
+An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_multichannelaudioattributes">DVD_MultichannelAudioAttributes</a> structures containing additional information about any available audio stream that is in a multichannel format. This structure will be filled in for the corresponding audio stream if the multichannel bit is set in that stream's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_audioattributes">DVD_AudioAttributes</a> structure.
           
 
 
@@ -102,7 +102,7 @@ The number of subpicture streams available in the title.
 
 ### -field SubpictureAttributes
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_subpictureattributes">DVD_SubpictureAttributes</a> structures that contain information about each available subpicture stream in the title.
+An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_subpictureattributes">DVD_SubpictureAttributes</a> structures that contain information about each available subpicture stream in the title.
           
 
 

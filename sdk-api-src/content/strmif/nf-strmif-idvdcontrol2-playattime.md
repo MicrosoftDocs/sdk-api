@@ -65,7 +65,7 @@ The <code>PlayAtTime</code> method starts playback from the specified time in th
 
 ### -param pTime [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_hmsf_timecode">DVD_HMSF_TIMECODE</a> structure that specifies the time at which to start playback.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode">DVD_HMSF_TIMECODE</a> structure that specifies the time at which to start playback.
 
 
 ### -param dwFlags [in]

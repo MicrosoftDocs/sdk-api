@@ -65,7 +65,7 @@ On a multi-monitor system, the <code>SetMonitor</code> method specifies the moni
 
 ### -param pGUID [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagvmrguid">VMRGUID</a> structure that identifies the monitor.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrguid">VMRGUID</a> structure that identifies the monitor.
 
 
 ## -returns

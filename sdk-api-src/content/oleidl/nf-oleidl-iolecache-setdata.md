@@ -61,7 +61,7 @@ Initializes the cache with data in a specified format and on a specified medium.
 
 ### -param pformatetc [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure that specifies the format of the presentation data being placed in the cache.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure that specifies the format of the presentation data being placed in the cache.
 
 
 ### -param pmedium [in]
@@ -103,7 +103,7 @@ The value is not valid for <i>pformatetc</i>-&gt;<b>lindex</b>. Currently, only 
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure is invalid.
+The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure is invalid.
 
 </td>
 </tr>

@@ -86,7 +86,7 @@ You must know the frame rate to interpret the frame count as time.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_timecode">DVD_TIMECODE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_timecode">DVD_TIMECODE</a>
 
 
 

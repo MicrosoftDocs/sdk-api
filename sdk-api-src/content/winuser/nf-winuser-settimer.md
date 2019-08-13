@@ -97,7 +97,7 @@ The time-out value, in milliseconds.
 
 Type: <b>TIMERPROC</b>
 
-A pointer to the function to be notified when the time-out value elapses. For more information about the function, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-timerproc">TimerProc</a>. If <i>lpTimerFunc</i> is <b>NULL</b>, the system posts a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message to the application queue. The <b>hwnd</b> member of the message's <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure contains the value of the <i>hWnd</i> parameter. 
+A pointer to the function to be notified when the time-out value elapses. For more information about the function, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-timerproc">TimerProc</a>. If <i>lpTimerFunc</i> is <b>NULL</b>, the system posts a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message to the application queue. The <b>hwnd</b> member of the message's <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure contains the value of the <i>hWnd</i> parameter. 
 
 
 ## -returns
@@ -151,7 +151,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
 
 
 

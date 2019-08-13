@@ -61,7 +61,7 @@ Retrieves the binding options stored in this bind context.
 
 ### -param pbindopts [in, out]
 
-A pointer to an initialized structure that receives the current binding parameters on return. See <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts">BIND_OPTS</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts2">BIND_OPTS2</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts3">BIND_OPTS3</a>.
+A pointer to an initialized structure that receives the current binding parameters on return. See <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts2">BIND_OPTS2</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts3">BIND_OPTS3</a>.
 
 
 ## -returns
@@ -92,15 +92,15 @@ You must initialize the structure that is filled in by this method. Before calli
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts">BIND_OPTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts2">BIND_OPTS2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts2">BIND_OPTS2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts3">BIND_OPTS3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts3">BIND_OPTS3</a>
 
 
 

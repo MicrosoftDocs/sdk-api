@@ -63,7 +63,7 @@ Gets the column state flag, which describes how the property should be treated b
 
 Type: <b>SHCOLSTATEF</b>
 
-When this method returns, contains a pointer to the column state flag. See <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-tagshcolstate">SHCOLSTATE</a> for valid values.
+When this method returns, contains a pointer to the column state flag. See <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-shcolstate">SHCOLSTATE</a> for valid values.
 
 
 ## -returns

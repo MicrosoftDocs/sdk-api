@@ -84,7 +84,7 @@ An <b>LCID</b> value indicating the language of the audio stream. Is zero if no 
 
 ### -field LanguageExtension
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_audio_lang_ext">DVD_AUDIO_LANG_EXT</a> enumeration that will be filled in if any information is available on the disc.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-dvd_audio_lang_ext">DVD_AUDIO_LANG_EXT</a> enumeration that will be filled in if any information is available on the disc.
 
 
 ### -field fHasMultichannelInfo

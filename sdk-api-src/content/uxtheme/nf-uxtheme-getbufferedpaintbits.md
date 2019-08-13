@@ -70,7 +70,7 @@ The handle of the buffered paint context, obtained through <a href="https://docs
 
 ### -param ppbBuffer [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagrgbquad">RGBQUAD</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a>**</b>
 
 When this function returns, contains a pointer to the address of the buffer bitmap pixels.
 

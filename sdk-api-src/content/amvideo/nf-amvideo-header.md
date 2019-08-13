@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>HEADER</b> macro returns the address of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> within a <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader">VIDEOINFOHEADER</a>. 
+The <b>HEADER</b> macro returns the address of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> within a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a>. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>HEADER</b> macro returns the address of the <a href="https://docs.microso
 
 ### -param pVideoInfo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfoheader">VIDEOINFOHEADER</a> structure. 
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure. 
 
 
 ## -see-also

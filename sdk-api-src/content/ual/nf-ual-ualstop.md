@@ -61,9 +61,9 @@ Stops a User Access Logging (UAL) session.
 
 ### -param Data [in]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ual/ns-ual-tagual_data_blob">UAL_DATA_BLOB</a> structure that specifies session information.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ual/ns-ual-ual_data_blob">UAL_DATA_BLOB</a> structure that specifies session information.
 
-Only the <b>RoleGuid</b> property of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ual/ns-ual-tagual_data_blob">UAL_DATA_BLOB</a> structure is required. All other members can be null.
+Only the <b>RoleGuid</b> property of the <a href="https://docs.microsoft.com/windows/desktop/api/ual/ns-ual-ual_data_blob">UAL_DATA_BLOB</a> structure is required. All other members can be null.
 
 
 ## -returns

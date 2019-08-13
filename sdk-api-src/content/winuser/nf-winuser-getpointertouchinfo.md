@@ -73,7 +73,7 @@ An identifier of the pointer for which to retrieve information.
 
 ### -param touchInfo [out]
 
-Address of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_touch_info">POINTER_TOUCH_INFO</a> structure to receive the touch-specific pointer information.
+Address of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_touch_info">POINTER_TOUCH_INFO</a> structure to receive the touch-specific pointer information.
 
 
 ## -returns

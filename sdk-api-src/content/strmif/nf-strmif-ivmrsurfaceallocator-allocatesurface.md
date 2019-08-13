@@ -70,7 +70,7 @@ An application-defined DWORD_PTR cookie that uniquely identifies this instance o
 
 ### -param lpAllocInfo [in]
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagvmrallocationinfo">VMRALLOCATIONINFO</a> structure. See Remarks.
+Specifies the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrallocationinfo">VMRALLOCATIONINFO</a> structure. See Remarks.
 
 
 ### -param lpdwActualBuffers [in]

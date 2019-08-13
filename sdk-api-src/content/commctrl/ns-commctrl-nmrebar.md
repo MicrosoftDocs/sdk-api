@@ -127,7 +127,7 @@ Zero-based index of the band affected by the notification. This will be -1 if no
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The style of the band. This is one or more of the RBBS_ styles detailed in the 
-					<b>fStyle</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagrebarbandinfoa">REBARBANDINFO</a> structure. This member is only valid if 
+					<b>fStyle</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-rebarbandinfoa">REBARBANDINFO</a> structure. This member is only valid if 
 					<b>dwMask</b> contains RBNM_STYLE. 
 
 

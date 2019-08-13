@@ -64,7 +64,7 @@ The <b>get_AnalogAudioMode</b> method retrieves the analog audio mode.
 
 ### -param Mode [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagtvaudiomode">TVAudioMode</a> variable that receives the analog audio mode.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-tvaudiomode">TVAudioMode</a> variable that receives the analog audio mode.
 
 
 ## -returns

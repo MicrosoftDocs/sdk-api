@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagautodownloadmode">AutoDownloadMode</a> value that indicates the automatic download mode of update.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-autodownloadmode">AutoDownloadMode</a> value that indicates the automatic download mode of update.
 
 This property is read-only.
 

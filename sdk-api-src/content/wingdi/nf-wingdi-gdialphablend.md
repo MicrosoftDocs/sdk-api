@@ -115,7 +115,7 @@ The height, in logical units, of the source rectangle.
 
 ### -param ftn [in]
 
-The alpha-blending function for source and destination bitmaps, a global alpha value to be applied to the entire source bitmap, and format information for the source bitmap. The source and destination blend functions are currently limited to AC_SRC_OVER. See the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-blendfunction">BLENDFUNCTION</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagemralphablend">EMRALPHABLEND</a> structures.
+The alpha-blending function for source and destination bitmaps, a global alpha value to be applied to the entire source bitmap, and format information for the source bitmap. The source and destination blend functions are currently limited to AC_SRC_OVER. See the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-blendfunction">BLENDFUNCTION</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emralphablend">EMRALPHABLEND</a> structures.
 
 
 ## -returns
@@ -196,7 +196,7 @@ The <b>SourceConstantAlpha</b> member of <a href="https://docs.microsoft.com/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagemralphablend">EMRALPHABLEND</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emralphablend">EMRALPHABLEND</a>
 
 
 

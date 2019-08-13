@@ -1,5 +1,5 @@
 ---
-UID: NS:bits1_5.__MIDL_IBackgroundCopyJob2_0004
+UID: NS:bits1_5.BG_AUTH_CREDENTIALS_UNION
 title: BG_AUTH_CREDENTIALS_UNION (bits1_5.h)
 author: windows-sdk-content
 description: Identifies the credentials to use for the authentication scheme specified in the BG_AUTH_CREDENTIALS structure.

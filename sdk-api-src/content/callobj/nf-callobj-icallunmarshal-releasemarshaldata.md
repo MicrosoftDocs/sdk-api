@@ -132,7 +132,7 @@ An unexpected error has occurred.
 
 
 
-To clean up resources held in the marshaled buffer, the <b>ReleaseMarshalData</b> method must be called. However when the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagmshlflags">MSHLFLAGS</a> enumeration is set to normal, this is done automatically when unmarshaling.
+To clean up resources held in the marshaled buffer, the <b>ReleaseMarshalData</b> method must be called. However when the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHLFLAGS</a> enumeration is set to normal, this is done automatically when unmarshaling.
 
 <b>ReleaseMarshalData</b> can be used on both marshaled in and out parameters.
 

@@ -65,7 +65,7 @@ Invokes the <b>Change Source</b> dialog box, allowing the user to change the sou
 
 ### -param Arg1 [in]
 
-Pointer to the in-out <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuichangesourcea">OLEUICHANGESOURCE</a> structure for this dialog box.
+Pointer to the in-out <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuichangesourcea">OLEUICHANGESOURCE</a> structure for this dialog box.
 
 
 ## -returns
@@ -454,7 +454,7 @@ The link source is not changed by the <b>Change Source</b> dialog box itself. In
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuichangesourcea">OLEUICHANGESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuichangesourcea">OLEUICHANGESOURCE</a>
 
 
 

@@ -73,7 +73,7 @@ Index of the candidates window.
 
 ### -param lpCandidate [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagcandidateform">CANDIDATEFORM</a> structure in which this function retrieves information about the candidates window.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-candidateform">CANDIDATEFORM</a> structure in which this function retrieves information about the candidates window.
 
 
 ## -returns
@@ -90,7 +90,7 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagcandidateform">CANDIDATEFORM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-candidateform">CANDIDATEFORM</a>
 
 
 

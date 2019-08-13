@@ -74,7 +74,7 @@ Number of values in the <b>dvValues</b> array.
 
 ### -field dvValues
 
-An array specifying the values of the axes of a multiple master OpenType font. This array corresponds to the <b>axlAxisInfo</b> array in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagaxeslista">AXESLIST</a> structure.
+An array specifying the values of the axes of a multiple master OpenType font. This array corresponds to the <b>axlAxisInfo</b> array in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-axeslista">AXESLIST</a> structure.
 
 
 ## -remarks
@@ -93,7 +93,7 @@ The PostScript Open Type Font does not support multiple master functionality.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagaxeslista">AXESLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-axeslista">AXESLIST</a>
 
 
 

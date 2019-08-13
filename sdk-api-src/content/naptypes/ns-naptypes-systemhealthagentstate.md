@@ -66,21 +66,21 @@ A unique <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes">
 
 ### -field shaResultCodes
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagresultcodes">ResultCodes</a> structure that contains the compliance result codes that were returned in the most recent <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagsoh">SoHRespnse</a> received from the SHA.
+A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-resultcodes">ResultCodes</a> structure that contains the compliance result codes that were returned in the most recent <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-soh">SoHRespnse</a> received from the SHA.
 
-<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/NAP/sohattributetype-enum">sohAttributeTypeComplianceResultCodes</a> attribute type within the <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagsoh">SoHRespnse</a> contains the compliance result codes.</div>
+<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/NAP/sohattributetype-enum">sohAttributeTypeComplianceResultCodes</a> attribute type within the <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-soh">SoHRespnse</a> contains the compliance result codes.</div>
 <div> </div>
 
 ### -field failureCategory
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-tagfailurecategory">FailureCategory</a> value that describes the failure category fields that were returned in the most recent <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagsoh">SoHRespnse</a> received from the SHA.
+A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-failurecategory">FailureCategory</a> value that describes the failure category fields that were returned in the most recent <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-soh">SoHRespnse</a> received from the SHA.
 
-<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/NAP/sohattributetype-enum">sohAttributeTypeFailureCategory</a> attribute type within the <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagsoh">SoHRespnse</a> contains the failure category fields.</div>
+<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/NAP/sohattributetype-enum">sohAttributeTypeFailureCategory</a> attribute type within the <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-soh">SoHRespnse</a> contains the failure category fields.</div>
 <div> </div>
 
 ### -field fixupInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagfixupinfo">FixupInfo</a> structure that contains information about the fix-up state of the SHA.
+A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-fixupinfo">FixupInfo</a> structure that contains information about the fix-up state of the SHA.
 
 
 ## -see-also

@@ -61,7 +61,7 @@ Configures how transactions are used in the enclosed work.
 
 ### -param transactionConfig [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_transactionconfig">CSC_TransactionConfig</a> enumeration.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_transactionconfig">CSC_TransactionConfig</a> enumeration.
 
 
 ## -returns

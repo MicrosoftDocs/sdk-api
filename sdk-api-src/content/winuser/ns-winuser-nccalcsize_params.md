@@ -74,7 +74,7 @@ When the window procedure returns, the first rectangle contains the coordinates 
 
 Type: <b>PWINDOWPOS</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwindowpos">WINDOWPOS</a> structure that contains the size and position values specified in the operation that moved or resized the window. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-windowpos">WINDOWPOS</a> structure that contains the size and position values specified in the operation that moved or resized the window. 
 
 
 ## -see-also
@@ -106,7 +106,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/n
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwindowpos">WINDOWPOS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-windowpos">WINDOWPOS</a>
 
 
 

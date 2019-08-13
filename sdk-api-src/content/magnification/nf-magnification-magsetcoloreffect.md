@@ -68,7 +68,7 @@ The magnification window.
 
 ### -param pEffect [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/ns-magnification-tagmagcoloreffect">PMAGCOLOREFFECT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/magnification/ns-magnification-magcoloreffect">PMAGCOLOREFFECT</a></b>
 
 The color transformation matrix, or <b>NULL</b> to remove the current color effect, if any.
 

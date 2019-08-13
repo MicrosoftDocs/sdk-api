@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates a high, medium, or low impact of a device running an out-of-date OS. This enumeration is generally used by <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-tagupdateassessment">UpdateAssessment</a> structures, which is in turn nested inside the returned <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-tagosupdateassessment">OSUpdateAssessment</a> from <a href="https://docs.microsoft.com/windows/desktop/api/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment">GetOSUpdateAssessment</a>.
+Indicates a high, medium, or low impact of a device running an out-of-date OS. This enumeration is generally used by <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-updateassessment">UpdateAssessment</a> structures, which is in turn nested inside the returned <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-osupdateassessment">OSUpdateAssessment</a> from <a href="https://docs.microsoft.com/windows/desktop/api/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment">GetOSUpdateAssessment</a>.
 
 
 ## -enum-fields
@@ -83,7 +83,7 @@ The device has been out-of-date for a long time. This device may have security v
 
 
 
-When <a href="https://docs.microsoft.com/windows/desktop/api/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment">GetOSUpdateAssessment</a> is called, an <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-tagosupdateassessment">OSUpdateAssessment</a> structure is returned. Within the structure there is an <b>assessmentForCurrent</b> and <b>assessmentForUpToDate</b>. Both of these are <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-tagupdateassessment">UpdateAssessment</a> structures. Both members have an <b>UpdateImpactLevel</b> enumeration, which indicates a high, medium, low or no impact for a device running an out-of-date OS. The These levels are determined by the value of <b>daysOutOfDate</b>.
+When <a href="https://docs.microsoft.com/windows/desktop/api/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment">GetOSUpdateAssessment</a> is called, an <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-osupdateassessment">OSUpdateAssessment</a> structure is returned. Within the structure there is an <b>assessmentForCurrent</b> and <b>assessmentForUpToDate</b>. Both of these are <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-updateassessment">UpdateAssessment</a> structures. Both members have an <b>UpdateImpactLevel</b> enumeration, which indicates a high, medium, low or no impact for a device running an out-of-date OS. The These levels are determined by the value of <b>daysOutOfDate</b>.
 
 
 

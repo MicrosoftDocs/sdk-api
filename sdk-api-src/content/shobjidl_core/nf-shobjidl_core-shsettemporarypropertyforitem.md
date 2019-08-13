@@ -77,7 +77,7 @@ Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> that contains the value of the temporary property.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> that contains the value of the temporary property.
 
 
 ## -returns

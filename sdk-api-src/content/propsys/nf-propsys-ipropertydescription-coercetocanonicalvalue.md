@@ -61,9 +61,9 @@ Coerces the value to the canonical value, according to the property description.
 
 ### -param ppropvar [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
-On entry, contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure that contains the original value. When this method returns, contains the canonical value.
+On entry, contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains the original value. When this method returns, contains the canonical value.
 
 
 ## -returns
@@ -72,7 +72,7 @@ On entry, contains a pointer to a <a href="https://docs.microsoft.com/windows/de
 
 Type: <b>HRESULT</b>
 
-If the failure code is not INPLACE_S_TRUNCATED or E_INVALIDARG, then coercion from the value's type to the property description's type was not possible, and the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure has been cleared.
+If the failure code is not INPLACE_S_TRUNCATED or E_INVALIDARG, then coercion from the value's type to the property description's type was not possible, and the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure has been cleared.
 
                     
 
@@ -112,7 +112,7 @@ The property value specified by <i>ppropvar</i> is now in a truncated, canonical
 </dl>
 </td>
 <td width="60%">
-The <i>ppropvar</i> parameter is invalid. The <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure has been cleared.
+The <i>ppropvar</i> parameter is invalid. The <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure has been cleared.
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ For more information, see the <i>type</i> attribute of the <a href="https://docs
 
 Most property descriptions specify the type that their values are expected to use.  For example, the property description for <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-title">System.Title</a> specifies that System.Title values should use <code>VT_LPWSTR</code>. This method coerces values to this type, and coerces the result into a canonical form.
 
-It is important to note that if this method fails, it will have already called the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/oe/oe-imimeallocator-propvariantclear">PropVariantClear</a> on the input <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure. Only if this method succeeds is the calling application responsible for calling the <b>PropVariantClear</b> on <i>ppropvar</i> when the structure is no longer needed.
+It is important to note that if this method fails, it will have already called the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/oe/oe-imimeallocator-propvariantclear">PropVariantClear</a> on the input <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. Only if this method succeeds is the calling application responsible for calling the <b>PropVariantClear</b> on <i>ppropvar</i> when the structure is no longer needed.
 
 The coercion performed by this method is also performed by the property system during  <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-getvalue">IPropertyStore::GetValue</a>  and <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-setvalue">IPropertyStore::SetValue</a> calls. Applications may depend on the property system to perform the coercions, or may use this method to perform the coercion at a time of the application's choosing.
 

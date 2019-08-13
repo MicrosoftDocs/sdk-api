@@ -112,7 +112,7 @@ Creates an object to enumerate the formats supported by a data object.
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getcanonicalformatetc">GetCanonicalFormatEtc</a>
 </td>
 <td align="left" width="63%">
-Provides a potentially different but logically equivalent <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure.
+Provides a potentially different but logically equivalent <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure.
 
 </td>
 </tr>

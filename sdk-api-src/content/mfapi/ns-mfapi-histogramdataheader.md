@@ -79,15 +79,15 @@ Mask of the color channel for the histogram data.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-taghistogramblobheader">HistogramBlobHeader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-histogramblobheader">HistogramBlobHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-taghistogramgrid">HistogramGrid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-histogramgrid">HistogramGrid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-taghistogramheader">HistogramHeader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ns-mfapi-histogramheader">HistogramHeader</a>
  
 
  

@@ -61,19 +61,19 @@ ms.custom: 19H1
 
 ### -field state
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-tagfixupstate">FixupState</a> value that defines the fix-up state of the SHA.
+A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-fixupstate">FixupState</a> value that defines the fix-up state of the SHA.
 
 
 ### -field percentage
 
-A <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes">Percentage</a> data type that contains the percentage of remediation that is complete. This member is a nonzero value between 0 (zero) and 100 when <b>state</b> is equal to <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-tagfixupstate">FixupStateInProgress</a>; otherwise, it is 0 (zero).
+A <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes">Percentage</a> data type that contains the percentage of remediation that is complete. This member is a nonzero value between 0 (zero) and 100 when <b>state</b> is equal to <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-fixupstate">FixupStateInProgress</a>; otherwise, it is 0 (zero).
 
 <div class="alert"><b>Note</b>  If the SHA does not support percentages, this value is either 0, which indicates the SHA update has not started; or 101, which indicates the SHA is in the process of updating.</div>
 <div> </div>
 
 ### -field resultCodes
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagresultcodes">ResultCodes</a> structure that contains the SHA defined HRESULT values returned to the NAP Agent in a call to <a href="https://docs.microsoft.com/windows/desktop/NAP/inapsystemhealthagentcallback-getfixupinfo-method">GetFixupInfo</a>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-resultcodes">ResultCodes</a> structure that contains the SHA defined HRESULT values returned to the NAP Agent in a call to <a href="https://docs.microsoft.com/windows/desktop/NAP/inapsystemhealthagentcallback-getfixupinfo-method">GetFixupInfo</a>.
 
 
 ### -field fixupMsgId
@@ -99,7 +99,7 @@ If the SHA cannot update the fix-up information, then <b>state</b> must be set t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-tagfixupstate">FixupState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-fixupstate">FixupState</a>
 
 
 
@@ -111,7 +111,7 @@ If the SHA cannot update the fix-up information, then <b>state</b> must be set t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagresultcodes">ResultCodes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-resultcodes">ResultCodes</a>
  
 
  

@@ -65,7 +65,7 @@ The <code>VMRMONITORINFO</code> structure is used in the <a href="https://docs.m
 
 ### -field guid
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagvmrguid">VMRGUID</a> structure that specifies the monitor.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-vmrguid">VMRGUID</a> structure that specifies the monitor.
 
 
 ### -field rcMonitor
@@ -81,7 +81,7 @@ A handle to the monitor.
 
 ### -field dwFlags
 
-Flags as defined for the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmonitorinfoexa">MONITORINFOEX</a> structure. Currently the only valid flag is <b>MONITORINFOF_PRIMARY</b>, which indicates the primary display monitor.
+Flags as defined for the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfoexa">MONITORINFOEX</a> structure. Currently the only valid flag is <b>MONITORINFOF_PRIMARY</b>, which indicates the primary display monitor.
           
 
 

@@ -627,7 +627,7 @@ A handle to the conversation list if the handle to the current conversation is i
 
 ### -field ConvCtxt
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagconvcontext">CONVCONTEXT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-convcontext">CONVCONTEXT</a></b>
 
 The conversation context. 
 
@@ -651,7 +651,7 @@ A handle to the window of the calling application involved in the conversation.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagconvcontext">CONVCONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-convcontext">CONVCONTEXT</a>
 
 
 

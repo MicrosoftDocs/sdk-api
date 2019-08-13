@@ -66,7 +66,7 @@ A pointer to a count of elements in the array pointed to by <i>pprgAttributeInfo
 
 ### -param pprgAttributeInfos [out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ns-ndhelper-taghelperattributeinfo">HelperAttributeInfo</a> structures that contain helper class key parameters.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ns-ndhelper-helperattributeinfo">HelperAttributeInfo</a> structures that contain helper class key parameters.
 
 
 ## -returns

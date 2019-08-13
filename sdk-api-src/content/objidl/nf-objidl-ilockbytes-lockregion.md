@@ -73,7 +73,7 @@ Specifies, in bytes, the length of the range to be restricted.
 ### -param dwLockType [in]
 
 Specifies the type of restrictions being requested on accessing the range. This parameter uses one of the values from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-taglocktype">LOCKTYPE</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a> enumeration.
 
 
 ## -returns
@@ -95,11 +95,11 @@ The byte range can extend past the current end of the byte array. Locking beyond
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> for compound files could rely on locking past the current end of the array as a means of access control, using specific locked regions to indicate permissions currently granted.
 
 The <i>dwLockType</i> parameter specifies one of three types of locking, using values from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-taglocktype">LOCKTYPE</a> enumeration. The types are as follows: locking to exclude other writers, locking to exclude other readers or writers, and locking that allows only one requester to obtain a lock on the given range. This third type of locking is usually an alias for one of the other two lock types, and permits an Implementer to add other behavior as well. A given byte array might support either of the first two types, or both.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a> enumeration. The types are as follows: locking to exclude other writers, locking to exclude other readers or writers, and locking that allows only one requester to obtain a lock on the given range. This third type of locking is usually an alias for one of the other two lock types, and permits an Implementer to add other behavior as well. A given byte array might support either of the first two types, or both.
 
 To determine the lock types supported by a particular 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> implementation, you can examine the <b>grfLocksSupported</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure returned by a call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure returned by a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilockbytes-stat">ILockBytes::Stat</a>.
 
 Any region locked with <b>ILockBytes::LockRegion</b> must later be explicitly unlocked by calling 
@@ -145,7 +145,7 @@ A
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-taglocktype">LOCKTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a>
  
 
  

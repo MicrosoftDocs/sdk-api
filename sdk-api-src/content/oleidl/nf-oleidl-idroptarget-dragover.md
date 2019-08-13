@@ -130,7 +130,7 @@ There was insufficient memory available for this operation.
 
 You do not call <b>DragOver</b> directly. The <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function calls this method each time the user moves the mouse across a given target window. <b>DoDragDrop</b> exits the loop if the drag-and-drop operation is canceled, if the user drags the mouse out of the target window, or if the drop is completed.
 
-In implementing <b>IDropTarget::DragOver</b>, you must provide features similar to those in <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragenter">IDropTarget::DragEnter</a>. You must determine the effect of dropping the data on the target by examining the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> defining the data object's formats and medium, along with the state of the modifier keys. The mouse position may also play a role in determining the effect of a drop. The following modifier keys affect the result of the drop.
+In implementing <b>IDropTarget::DragOver</b>, you must provide features similar to those in <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragenter">IDropTarget::DragEnter</a>. You must determine the effect of dropping the data on the target by examining the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> defining the data object's formats and medium, along with the state of the modifier keys. The mouse position may also play a role in determining the effect of a drop. The following modifier keys affect the result of the drop.
 
 <table>
 <tr>

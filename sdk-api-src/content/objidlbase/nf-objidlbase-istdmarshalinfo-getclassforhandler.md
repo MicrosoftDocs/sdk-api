@@ -61,7 +61,7 @@ Retrieves the CLSID of the object handler to be used in the destination process 
 
 ### -param dwDestContext [in]
 
-The destination context, that is, the process in which the unmarshaling will be done. Possible values are taken from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagmshctx">MSHCTX</a>.
+The destination context, that is, the process in which the unmarshaling will be done. Possible values are taken from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshctx">MSHCTX</a>.
 
 
 ### -param pvDestContext [in]

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a formatted, Unicode string representation of a property value stored in a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure. This function allocates memory for the output string.
+Gets a formatted, Unicode string representation of a property value stored in a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. This function allocates memory for the output string.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure that contains the type and value of the property.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains the type and value of the property.
 
 
 ### -param pdff [in]
@@ -167,7 +167,7 @@ The purpose of this function is to convert data into a string suitable for displ
 <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-numberformat">numberFormat</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagnmdatetimeformata">NMDATETIMEFORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-nmdatetimeformata">NMDATETIMEFORMAT</a>
 </li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-enumeratedlist">enumeratedList</a>
