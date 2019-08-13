@@ -62,7 +62,7 @@ Retrieves the type of transfer being performed, such as a file download or uploa
 ### -param pVal [out]
 
 Type of transfer being performed. For a list of transfer types, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyjob_0003">BG_JOB_TYPE</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_type">BG_JOB_TYPE</a> enumeration.
 
 
 ## -returns
@@ -119,7 +119,7 @@ Specify the type of transfer when you
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyjob_0003">BG_JOB_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_type">BG_JOB_TYPE</a>
 
 
 

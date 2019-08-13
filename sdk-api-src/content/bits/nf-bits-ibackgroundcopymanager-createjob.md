@@ -68,7 +68,7 @@ Null-terminated string that contains a display name for the job. Typically, the 
 ### -param Type [in]
 
 Type of transfer job, such as BG_JOB_TYPE_DOWNLOAD. For a list of transfer types, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyjob_0003">BG_JOB_TYPE</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_type">BG_JOB_TYPE</a> enumeration.
 
 
 ### -param pJobId [out]

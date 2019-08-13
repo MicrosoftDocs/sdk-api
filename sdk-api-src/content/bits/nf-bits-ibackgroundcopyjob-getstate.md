@@ -62,7 +62,7 @@ Retrieves the state of the job.
 ### -param pVal [out]
 
 The state of the job. For example, the state reflects whether the job is in error, transferring data, or suspended. For a list of job states, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyjob_0002">BG_JOB_STATE</a> enumeration.
+<a href="/windows/desktop/api/bits/ne-bits-bg_job_state">BG_JOB_STATE</a> enumeration.
 
 
 ## -returns
@@ -115,7 +115,7 @@ If you want to know when a job is in error or has transferred all the files in t
 #### Examples
 
 See the example code for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-getjob">IBackgroundCopyManager::GetJob</a> method.
+<a href="windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-getjob">IBackgroundCopyManager::GetJob</a> method.
 
 <div class="code"></div>
 
@@ -126,15 +126,15 @@ See the example code for the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyjob_0002">BG_JOB_STATE</a>
+<a href="/windows/desktop/api/bits/ne-bits-bg_job_state">BG_JOB_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Bits/determining-the-status-of-a-job">Determining the Status of a Job</a>
+<a href="/windows/desktop/Bits/determining-the-status-of-a-job">Determining the Status of a Job</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a>
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a>
  
 
  

@@ -62,7 +62,7 @@ Specifies which proxy to use to transfer files.
 ### -param ProxyUsage [in]
 
 Specifies whether to use the user's proxy settings, not to use a proxy, or to use application-specified proxy settings. The default is to use the user's proxy settings, <b>BG_JOB_PROXY_USAGE_PRECONFIG</b>. For a list of proxy options, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyjob_0004">BG_JOB_PROXY_USAGE</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_proxy_usage">BG_JOB_PROXY_USAGE</a> enumeration.
 
 
 ### -param ProxyList [in]
@@ -116,7 +116,7 @@ Proxy was successfully specified.
 </td>
 <td width="60%">
 The value for <i>ProxyUsage</i> is not defined in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyjob_0004">BG_JOB_PROXY_USAGE</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_proxy_usage">BG_JOB_PROXY_USAGE</a> enumeration.
 
 </td>
 </tr>
@@ -201,7 +201,7 @@ BITS uses the Internet Explorer proxy settings of the user if an application doe
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyjob_0004">BG_JOB_PROXY_USAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_proxy_usage">BG_JOB_PROXY_USAGE</a>
 
 
 

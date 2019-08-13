@@ -51,13 +51,13 @@ ms.custom: 19H1
 
 Defines constants that specify the ID of the property for the BITS job.
 
-This enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/ns-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0003">BITS_JOB_PROPERTY_VALUE</a> union to determine the type of value contained in the union.
+This enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/ns-bits5_0-bits_job_property_value">BITS_JOB_PROPERTY_VALUE</a> union to determine the type of value contained in the union.
 
 ## -enum-fields
 
 ### -field BITS_JOB_PROPERTY_ID_COST_FLAGS
 
-The ID that is used to <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/ne-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0001">control transfer behavior</a> over cellular and/or similar networks. This property may be changed while a transfer is ongoing – the new cost flags will take effect immediately. 
+The ID that is used to <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_transfer_policy">control transfer behavior</a> over cellular and/or similar networks. This property may be changed while a transfer is ongoing – the new cost flags will take effect immediately. 
 
 This property uses the <b>BITS_JOB_PROPERTY_VALUE</b>'s <b>DWORD</b> field.
 
@@ -113,7 +113,7 @@ The requirements for a <b>BITS_JOB_PROPERTY_ON_DEMAND_MODE</b> job is that the t
 
 ## -see-also
 
-* <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/ns-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0003">BITS_JOB_PROPERTY_VALUE</a>
-* <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/ne-bits5_0-__midl___midl_itf_bits5_0_0000_0000_0001">BITS_JOB_TRANSFER_POLICY</a>
+* <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/ns-bits5_0-bits_job_property_value">BITS_JOB_PROPERTY_VALUE</a>
+* <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_transfer_policy">BITS_JOB_TRANSFER_POLICY</a>
 * <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyjob5-getproperty">IBackgroundCopyJob5::GetProperty</a>
 * <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyjob5-setproperty">IBackgroundCopyJob5::SetProperty</a>

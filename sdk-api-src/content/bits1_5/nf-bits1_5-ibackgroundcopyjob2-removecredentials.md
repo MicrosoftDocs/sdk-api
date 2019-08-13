@@ -68,7 +68,7 @@ Identifies whether to use the credentials for proxy or server authentication.
 ### -param Scheme [in]
 
 Identifies the authentication scheme to use (basic or one of several challenge-response schemes). For details, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0002">BG_AUTH_SCHEME</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ne-bits1_5-bg_auth_scheme">BG_AUTH_SCHEME</a> enumeration.
 
 
 ## -returns
@@ -115,11 +115,11 @@ No credentials have been set using the given <i>Target</i> and <i>Scheme</i> pai
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0002">BG_AUTH_SCHEME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ne-bits1_5-bg_auth_scheme">BG_AUTH_SCHEME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0001">BG_AUTH_TARGET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ne-bits1_5-bg_auth_target">BG_AUTH_TARGET</a>
 
 
 

@@ -62,7 +62,7 @@ Retrieves the proxy information that the job uses to transfer the files.
 ### -param pProxyUsage [out]
 
 Specifies the proxy settings the job uses to transfer the files. For a list of proxy options, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyjob_0004">BG_JOB_PROXY_USAGE</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_proxy_usage">BG_JOB_PROXY_USAGE</a> enumeration.
 
 
 ### -param pProxyList [out]
@@ -123,7 +123,7 @@ One or more of the parameters is <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-__midl_ibackgroundcopyjob_0004">BG_JOB_PROXY_USAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_proxy_usage">BG_JOB_PROXY_USAGE</a>
 
 
 

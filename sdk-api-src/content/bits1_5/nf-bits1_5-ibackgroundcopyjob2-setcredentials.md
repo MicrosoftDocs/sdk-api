@@ -62,7 +62,7 @@ Specifies the credentials to use for a proxy or remote server user authenticatio
 ### -param credentials [in]
 
 Identifies the target (proxy or server), authentication scheme, and the user's credentials to use for user authentication. For details, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0005">BG_AUTH_CREDENTIALS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-bg_auth_credentials">BG_AUTH_CREDENTIALS</a> structure.
 
 
 ## -returns
@@ -116,7 +116,7 @@ Unrecognized scheme enumeration value.
 </dl>
 </td>
 <td width="60%">
-The user name is too long. For the limit, see the <a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0003">BG_BASIC_CREDENTIALS</a> structure.
+The user name is too long. For the limit, see the <a href="/windows/desktop/api/bits1_5/ns-bits1_5-bg_basic_credentials">BG_BASIC_CREDENTIALS</a> structure.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ The user name is too long. For the limit, see the <a href="https://docs.microsof
 </dl>
 </td>
 <td width="60%">
-The password is too long. For the limit, see the <a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0003">BG_BASIC_CREDENTIALS</a> structure.
+The password is too long. For the limit, see the <a href="/windows/desktop/api/bits1_5/ns-bits1_5-bg_basic_credentials">BG_BASIC_CREDENTIALS</a> structure.
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ The password is too long. For the limit, see the <a href="https://docs.microsoft
 </dl>
 </td>
 <td width="60%">
-The UserName and Password members of the <a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0003">BG_BASIC_CREDENTIALS</a> structure cannot be <b>NULL</b> if you specify the Basic or Digest scheme.
+The UserName and Password members of the <a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-bg_basic_credentials">BG_BASIC_CREDENTIALS</a> structure cannot be <b>NULL</b> if you specify the Basic or Digest scheme.
 
 </td>
 </tr>
@@ -248,7 +248,7 @@ if (NO_ERROR == rc)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0005">BG_AUTH_CREDENTIALS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-bg_auth_credentials">BG_AUTH_CREDENTIALS</a>
 
 
 
