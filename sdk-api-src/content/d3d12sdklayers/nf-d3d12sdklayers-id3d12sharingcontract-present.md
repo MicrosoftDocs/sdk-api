@@ -47,24 +47,17 @@ ms.custom: 19H1
 
 # ID3D12SharingContract::Present
 
-
 ## -description
 
-
-Shares a resource (or subresource) between the D3D layers and diagnostics tools.
-
+Notifies diagnostic tools about an end-of-frame operation without the use of a swap chain. Calling this API enables usage of tools like PIX with applications that either don't render to a window, or that do so in non-traditional ways.
 
 ## -parameters
-
-
-
 
 ### -param pResource [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>*</b>
 
-A pointer to the resource to share.
-
+A pointer to the resource that contains the final frame contents. This resource is treated as the *back buffer* of the **Present**.
 
 ### -param Subresource
 
@@ -72,30 +65,14 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 An unsigned 32bit subresource id.
 
-
 ### -param window
 
-TBD
-
-
-
+If provided, indicates which window the tools should use for displaying additional diagnostic information.
 
 ## -returns
 
-
-
-This method does not return a value.
-
-
-
+This method doesn't return a value.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12sharingcontract">ID3D12SharingContract</a>
- 
-
- 
-
+[ID3D12SharingContract](https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12sharingcontract)
