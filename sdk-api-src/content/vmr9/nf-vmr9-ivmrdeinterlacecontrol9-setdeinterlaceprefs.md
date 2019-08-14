@@ -65,7 +65,7 @@ The <b>SetDeinterlacePrefs</b> method specifies how the VMR will select a deinte
 
 ### -param dwDeinterlacePrefs [in]
 
-Specifies a member of the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0013_0001">VMR9DeinterlacePrefs</a> enumeration type.
+Specifies a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9deinterlaceprefs">VMR9DeinterlacePrefs</a> enumeration type.
 
 
 ## -returns

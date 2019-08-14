@@ -71,7 +71,7 @@ Portion of the object that is of interest for the draw operation. Its interpreta
 
 ### -param pvAspect [in]
 
-Pointer to additional information in a <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagaspectinfo">DVASPECTINFO</a> structure that enables drawing optimizations depending on the aspect specified. Note that newer objects and containers that support optimized drawing interfaces support this parameter as well. Older objects and containers that do not support optimized drawing interfaces always specify <b>NULL</b> for this parameter.
+Pointer to additional information in a <a href="https://docs.microsoft.com/windows/win32/api/ocidl/ns-ocidl-dvaspectinfo">DVASPECTINFO</a> structure that enables drawing optimizations depending on the aspect specified. Note that newer objects and containers that support optimized drawing interfaces support this parameter as well. Older objects and containers that do not support optimized drawing interfaces always specify <b>NULL</b> for this parameter.
 
 
 ### -param ptd [in]
@@ -210,7 +210,7 @@ For newer objects that support optimized drawing techniques and for windowless o
 
 <ul>
 <li>New drawing aspects are supported in <i>dwAspect</i> as defined in <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-dvaspect2">DVASPECT2</a>.</li>
-<li>The pvAspect parameter can be used to pass additional information allowing drawing optimizations through the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagaspectinfo">DVASPECTINFO</a> structure.</li>
+<li>The pvAspect parameter can be used to pass additional information allowing drawing optimizations through the <a href="https://docs.microsoft.com/windows/win32/api/ocidl/ns-ocidl-dvaspectinfo">DVASPECTINFO</a> structure.</li>
 <li>The <b>IViewObject::Draw</b> method can be called to redraw a windowless in-place active object by setting the <i>lrpcBounds</i> parameter to <b>NULL</b>. In every other situation, <b>NULL</b> is an illegal value and should result in an E_INVALIDARG error code. A windowless object uses the rectangle passed by the activation verb or calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-setobjectrects">IOleInPlaceObject::SetObjectRects</a> instead of using this parameter. If the container passes a non-<b>NULL</b> value to a windowless object, the object should render the requested aspect into the specified device context and rectangle. A container can request this from a windowless object to render a second, non-active view of the object or to print the object. See the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a> interface for more information on drawing windowless objects.</li>
 <li>For windowless objects, the <i>dwAspect</i> parameter only allows the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>_CONTENT, <b>DVASPECT</b>_OPAQUE, and <b>DVASPECT</b>_TRANSPARENT aspects.</li>
 <li>For a windowless object, the hdcDraw parameter should be in MM_TEXT mapping mode with its logical coordinates matching the client coordinates of the containing window. For a windowless object, the device context should be in the same state as the one normally passed by a WM_PAINT message.</li>
@@ -235,7 +235,7 @@ An object's extent depends on the drawing aspect. For non-rectangular objects, t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagaspectinfo">DVASPECTINFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ocidl/ns-ocidl-dvaspectinfo">DVASPECTINFO</a>
 
 
 

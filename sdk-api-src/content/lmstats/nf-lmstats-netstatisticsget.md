@@ -87,7 +87,7 @@ Specifies the information level of the data. This parameter can be the following
 </td>
 <td width="60%">
 Return statistics about a workstation or a server. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmstats/ns-lmstats-_stat_workstation_0">STAT_WORKSTATION_0</a> or a 
+<a href="https://docs.microsoft.com/windows/win32/api/lmstats/ns-lmstats-stat_workstation_0~r1">STAT_WORKSTATION_0</a> or a 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmstats/ns-lmstats-stat_server_0">STAT_SERVER_0</a> structure.
 
 </td>
@@ -154,7 +154,7 @@ No special group membership is required to obtain workstation statistics. Only m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmstats/ns-lmstats-_stat_workstation_0">STAT_WORKSTATION_0</a>
+<a href="https://docs.microsoft.com/windows/win32/api/lmstats/ns-lmstats-stat_workstation_0~r1">STAT_WORKSTATION_0</a>
 
 
 

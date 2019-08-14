@@ -115,7 +115,7 @@ The <i>pguidType</i> parameter is <b>NULL</b>.
 
 These media types are used by the writer, reader, and profile objects to identify the properties of a media stream that are specific to the media type.
 
-<b>GetType</b> is provided for convenience; it returns the same value as the <b>majortype</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmmediatype">WM_MEDIA_TYPE</a>.
+<b>GetType</b> is provided for convenience; it returns the same value as the <b>majortype</b> member of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type">WM_MEDIA_TYPE</a>.
 
 
 

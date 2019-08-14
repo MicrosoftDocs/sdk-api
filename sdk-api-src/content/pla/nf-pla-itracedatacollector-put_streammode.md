@@ -70,7 +70,7 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/ne-pla-__midl___midl_itf_pla_0001_0043_0006">StreamMode</a>
+<a href="https://docs.microsoft.com/windows/win32/api/pla/ne-pla-streammode">StreamMode</a>
  
 
  

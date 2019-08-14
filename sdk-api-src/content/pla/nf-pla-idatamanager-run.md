@@ -61,7 +61,7 @@ Manually runs the data manager.
 
 ### -param Steps [in]
 
-Determines whether the folder actions and resource policies are applied and how to generate the report. For possible steps, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/ne-pla-__midl___midl_itf_pla_0001_0043_0011">DataManagerSteps</a> enumeration.
+Determines whether the folder actions and resource policies are applied and how to generate the report. For possible steps, see the <a href="https://docs.microsoft.com/windows/win32/api/pla/ne-pla-datamanagersteps">DataManagerSteps</a> enumeration.
 
 
 ### -param bstrFolder [in]

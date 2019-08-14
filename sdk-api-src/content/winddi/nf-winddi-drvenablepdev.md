@@ -61,9 +61,9 @@ The <b>DrvEnablePDEV</b> function returns a description of the physical device's
 
 ### -param pdm [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a> structure that contains driver data. 
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure that contains driver data. 
 
-For a driver that supports Windows NT 4.0, <b>DrvEnablePDEV</b> should return the default mode of the hardware when GDI calls it with the following <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a> members set to zero: <b>dmBitsPerPel</b>, <b>dmPelsWidth</b>, <b>dmPelsHeight</b>, and <b>dmDisplayFrequency</b>. 
+For a driver that supports Windows NT 4.0, <b>DrvEnablePDEV</b> should return the default mode of the hardware when GDI calls it with the following <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> members set to zero: <b>dmBitsPerPel</b>, <b>dmPelsWidth</b>, <b>dmPelsHeight</b>, and <b>dmDisplayFrequency</b>. 
 
 
 ### -param pwszLogAddress [in]
@@ -263,7 +263,7 @@ GDI zero-initializes the buffer pointed to by <i>phsurfPatterns</i> before calli
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a>
 
 
 

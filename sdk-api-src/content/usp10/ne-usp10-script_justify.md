@@ -144,7 +144,7 @@ Highest priority: medial shape of Seen class (U+0633).
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_visattr">SCRIPT_VISATTR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a>
 
 
 

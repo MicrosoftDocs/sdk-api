@@ -84,14 +84,14 @@ The object character as defined in <a href="https://docs.microsoft.com/windows/d
 
 Type: <b>long</b>
 
-The closing bracket (<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomBrackets</a>) character. See <a href="http://go.microsoft.com/fwlink/p/?linkid=124972">Unicode Technical Note 28</a> for a list of characters.
+The closing bracket (<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomBrackets</a>) character. See <a href="http://go.microsoft.com/fwlink/p/?linkid=124972">Unicode Technical Note 28</a> for a list of characters.
 
 
 ### -param Char2 [in]
 
 Type: <b>long</b>
 
-The separator character for <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomBracketsWithSeps</a>, which can be one of the following values.
+The separator character for <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomBracketsWithSeps</a>, which can be one of the following values.
 
 
 ### -param Count [in]
@@ -112,7 +112,7 @@ The TeX style, as defined in <a href="https://docs.microsoft.com/windows/desktop
 
 Type: <b>long</b>
 
-The number of columns in the inline object. For  <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomMatrix</a> only.
+The number of columns in the inline object. For  <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-objecttype">tomMatrix</a> only.
 
 
 ## -returns

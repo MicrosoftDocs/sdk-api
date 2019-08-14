@@ -151,7 +151,7 @@ The <b>pSignature</b> field is bad.
 </dl>
 </td>
 <td width="60%">
-The <b>pKey</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_35">DNS_TKEY_DATA</a> RR is bad.
+The <b>pKey</b> field of the <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_tkey_dataw">DNS_TKEY_DATA</a> RR is bad.
 
 </td>
 </tr>
@@ -195,7 +195,7 @@ Reserved for future use. Do not use.
 
 The 
 <b>DNS_TSIG_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
@@ -205,11 +205,11 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_35">DNS_TKEY_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_tkey_dataw">DNS_TKEY_DATA</a>
  
 
  

@@ -175,7 +175,7 @@ This criteria is evaluated on the certificate.
 </dl>
 </td>
 <td width="60%">
-Select certificates based on the issuer of the certificate. The <b>ppPara</b> member must be a reference to a <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/ns-dpapi-_cryptoapi_blob">CERT_NAME_BLOB</a> structure that contains the name of the issuer.
+Select certificates based on the issuer of the certificate. The <b>ppPara</b> member must be a reference to a <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CERT_NAME_BLOB</a> structure that contains the name of the issuer.
 
 This criteria is evaluated on the certificate chain.
 

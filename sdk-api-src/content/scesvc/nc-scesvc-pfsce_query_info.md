@@ -309,11 +309,11 @@ The Security Configuration tool set allocates buffers when <i>PFSCE_QUERY_INFO</
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ns-scesvc-_scesvc_analysis_info_">SCESVC_ANALYSIS_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_info">SCESVC_ANALYSIS_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ns-scesvc-_scesvc_configuration_info_">SCESVC_CONFIGURATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_info">SCESVC_CONFIGURATION_INFO</a>
  
 
  

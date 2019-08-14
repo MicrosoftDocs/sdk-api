@@ -69,7 +69,7 @@ The number of audio frames written by the client to the data packet. The value o
 
 ### -param dwFlags [in]
 
-The buffer-configuration flags. The caller can set this parameter either to 0 or to the following <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/ne-audioclient-_audclnt_bufferflags">_AUDCLNT_BUFFERFLAGS</a> enumeration value (a flag bit):
+The buffer-configuration flags. The caller can set this parameter either to 0 or to the following <a href="https://docs.microsoft.com/windows/win32/api/audioclient/ne-audioclient-_audclnt_bufferflags">_AUDCLNT_BUFFERFLAGS</a> enumeration value (a flag bit):
 
 AUDCLNT_BUFFERFLAGS_SILENT
 

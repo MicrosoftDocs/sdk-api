@@ -71,7 +71,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wla
 
 ### -param pValueType [out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_opcode_value_type">WLAN_OPCODE_VALUE_TYPE</a> value that specifies the source of the security settings.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a> value that specifies the source of the security settings.
 
 <table>
 <tr>

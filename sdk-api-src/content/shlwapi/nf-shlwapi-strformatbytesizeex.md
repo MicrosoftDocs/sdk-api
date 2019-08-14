@@ -70,9 +70,9 @@ The numeric value to be converted.
 
 ### -param flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-tagsfbs_flags">SFBS_FLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-tagsfbs_flags">SFBS_FLAGS</a></b>
 
-One of the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-tagsfbs_flags">SFBS_FLAGS</a> enumeration values that specifies whether to round or truncate undisplayed digits. This value cannot be NULL.
+One of the <a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-tagsfbs_flags">SFBS_FLAGS</a> enumeration values that specifies whether to round or truncate undisplayed digits. This value cannot be NULL.
 
 
 ### -param pszBuf [out]

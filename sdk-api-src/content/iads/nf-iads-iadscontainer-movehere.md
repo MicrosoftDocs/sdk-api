@@ -120,7 +120,7 @@ In Active Directory, you can move an object within the same domain
 <div class="alert"><b>Note</b>  When using the 
      <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a> function to bind to
     an ADSI object, you must use the <b>ADS_USE_DELEGATION</b> flag of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0018">ADS_AUTHENTICATION_ENUM</a>in the <i>dwReserved</i> parameter of this function
+     <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>in the <i>dwReserved</i> parameter of this function
     in order to create cross-domain moves with <b>IADsContainer::MoveHere</b>. The
     <b>ADsOpenObject</b> function is equivalent to the 
      <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDsObject</a>method. Likewise, using the <b>OpenDsObject</b>method to bind to an ADSI object, the <i>InReserved</i> parameter of this method must contain the
@@ -272,7 +272,7 @@ Cleanup:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0018">ADS_AUTHENTICATION_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>
 
 
 

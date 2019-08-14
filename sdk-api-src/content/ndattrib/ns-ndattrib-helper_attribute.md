@@ -159,7 +159,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-l
 
 ### -field Address
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagsock_addr">DIAG_SOCKADDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/ndattrib/ns-ndattrib-diag_sockaddr">DIAG_SOCKADDR</a></b>
 
 An IPv4 or IPv6 address. Used when <b>type</b> is <b>AT_SOCKADDR</b>.
 

@@ -70,7 +70,7 @@ A handle to the header control.
 
 Type: <b>LPHDLAYOUT</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_hd_layout">HDLAYOUT</a> structure. The 
+A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-hdlayout">HDLAYOUT</a> structure. The 
 					<b>prc</b> member specifies the coordinates of a rectangle, and the 
 					<b>pwpos</b> member receives the size and position for the header control within the rectangle. 
 

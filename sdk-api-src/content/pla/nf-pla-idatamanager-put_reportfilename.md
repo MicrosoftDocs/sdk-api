@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-For details, see the <b>plaCreateHtml</b> value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/ne-pla-__midl___midl_itf_pla_0001_0043_0011">DataManagerSteps</a> enumeration.
+For details, see the <b>plaCreateHtml</b> value of the <a href="https://docs.microsoft.com/windows/win32/api/pla/ne-pla-datamanagersteps">DataManagerSteps</a> enumeration.
 
 
 

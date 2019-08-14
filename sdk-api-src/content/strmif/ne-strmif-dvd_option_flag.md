@@ -354,7 +354,7 @@ The default value is <b>FALSE</b>.
 </tr>
 <tr>
 <td><b>TRUE</b></td>
-<td>The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettitleattributes">IDvdInfo2::GetTitleAttributes</a> method returns the length of the title in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_titlemainattributes">DVD_TitleAttributes</a> structure.</td>
+<td>The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettitleattributes">IDvdInfo2::GetTitleAttributes</a> method returns the length of the title in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-dvd_titleattributes">DVD_TitleAttributes</a> structure.</td>
 </tr>
 <tr>
 <td><b>FALSE</b></td>

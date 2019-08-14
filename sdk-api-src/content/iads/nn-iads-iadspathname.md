@@ -85,7 +85,7 @@ Dim path
 Set path = CreateObject("Pathname")
 ```
 
-The <b>IADsPathname</b> interface uses two enumeration types:  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0078_0001">ADS_SETTYPE_ENUM</a>, and  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0078_0002">ADS_FORMAT_ENUM</a>.
+The <b>IADsPathname</b> interface uses two enumeration types:  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_settype_enum">ADS_SETTYPE_ENUM</a>, and  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a>.
 
 
 ## -inheritance
@@ -163,7 +163,7 @@ Removes the last element from the object.
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspathname-retrieve">Retrieve</a>
 </td>
 <td align="left" width="63%">
-Retrieves an object path with an <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0078_0002">ADS_FORMAT_ENUM</a> type.
+Retrieves an object path with an <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a> type.
 
 </td>
 </tr>
@@ -172,7 +172,7 @@ Retrieves an object path with an <a href="https://docs.microsoft.com/windows/des
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspathname-set">Set</a>
 </td>
 <td align="left" width="63%">
-Sets an object path with an <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0078_0001">ADS_SETTYPE_ENUM</a> option.
+Sets an object path with an <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_settype_enum">ADS_SETTYPE_ENUM</a> option.
 
 </td>
 </tr>
@@ -217,11 +217,11 @@ Retrieves the mode for escaping a path.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0078_0002">ADS_FORMAT_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0078_0001">ADS_SETTYPE_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_settype_enum">ADS_SETTYPE_ENUM</a>
 
 
 

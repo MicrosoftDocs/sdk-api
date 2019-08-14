@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Used with <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_geteffectiveclientarea">IBrowserService2::_GetEffectiveClientArea</a> to negotiate the size and position of the browser view.
+Deprecated. Used with <a href="https://docs.microsoft.com/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_geteffectiveclientarea">IBrowserService2::_GetEffectiveClientArea</a> to negotiate the size and position of the browser view.
 
 
 ## -parameters

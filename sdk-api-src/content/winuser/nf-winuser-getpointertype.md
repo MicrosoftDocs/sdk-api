@@ -73,7 +73,7 @@ An identifier of the pointer for which to retrieve pointer type.
 
 ### -param pointerType [out]
 
-An address of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">POINTER_INPUT_TYPE</a> type to receive a pointer input type.
+An address of a <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">POINTER_INPUT_TYPE</a> type to receive a pointer input type.
 
 
 ## -returns
@@ -93,7 +93,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 An application can use the <b>GetPointerType</b> function to determine the pointer type if it wishes to react differently to pointers of different types.
 
-<div class="alert"><b>Note</b>  This function will never return with the generic <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">PT_POINTER </a>type.</div>
+<div class="alert"><b>Note</b>  This function will never return with the generic <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_POINTER </a>type.</div>
 <div> </div>
 
 

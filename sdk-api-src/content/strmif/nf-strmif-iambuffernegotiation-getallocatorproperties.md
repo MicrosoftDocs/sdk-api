@@ -65,7 +65,7 @@ The <code>GetAllocatorProperties</code> method retrieves the allocator propertie
 
 ### -param pprop [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_allocatorproperties">ALLOCATOR_PROPERTIES</a> structure, allocated by the caller, that receives the allocator properties.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-allocator_properties">ALLOCATOR_PROPERTIES</a> structure, allocated by the caller, that receives the allocator properties.
 
 
 ## -returns

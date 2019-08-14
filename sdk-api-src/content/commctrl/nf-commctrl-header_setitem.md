@@ -77,7 +77,7 @@ The current index of the item whose attributes are to be changed.
 
 Type: <b>LPHDITEM</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_hd_itema">HDITEM</a> structure that contains item information. When this message is sent, the 
+A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-hditema">HDITEM</a> structure that contains item information. When this message is sent, the 
 					<b>mask</b> member of the structure must be set to indicate which attributes are being set. 
 
 
@@ -85,7 +85,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_hd_itema">HDITEM</a> structure that supports this macro supports item order and image list information. By using these members, you can control the order in which items are displayed and specify images to appear with items. 
+The <a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-hditema">HDITEM</a> structure that supports this macro supports item order and image list information. By using these members, you can control the order in which items are displayed and specify images to appear with items. 
 
 
 

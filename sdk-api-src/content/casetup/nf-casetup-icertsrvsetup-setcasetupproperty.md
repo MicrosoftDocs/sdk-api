@@ -61,7 +61,7 @@ The <b>SetCASetupProperty</b> method sets a property value for a <a href="https:
 
 ### -param propertyId [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0002_0001">CASetupProperty</a> constant that specifies the type of property to configure.
+A <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-casetupproperty">CASetupProperty</a> constant that specifies the type of property to configure.
 
 The following properties are set as a side effect of other methods and cannot be set directly with this method.
 
@@ -78,7 +78,7 @@ The following properties are set as a side effect of other methods and cannot be
 
 ### -param pPropertyValue [in]
 
-A pointer to a <b>VARIANT</b> that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0002_0001">CASetupProperty</a>.
+A pointer to a <b>VARIANT</b> that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-casetupproperty">CASetupProperty</a>.
 
 
 ## -see-also

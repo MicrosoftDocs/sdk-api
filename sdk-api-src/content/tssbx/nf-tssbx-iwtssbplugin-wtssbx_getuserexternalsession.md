@@ -55,7 +55,7 @@ ms.custom: 19H1
     not supported  after Windows Server 2008 R2. Starting with Windows Server 2012 please use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a> interface.]
 
-Redirects an incoming connection to a computing resource, such as a virtual machine, a blade server, or even the user's own corporate desktop by providing a <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/ns-tssbx-__midl_iwtssbplugin_0006">WTSSBX_MACHINE_CONNECT_INFO</a> structure that contains information about the resource.
+Redirects an incoming connection to a computing resource, such as a virtual machine, a blade server, or even the user's own corporate desktop by providing a <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ns-tssbx-wtssbx_machine_connect_info">WTSSBX_MACHINE_CONNECT_INFO</a> structure that contains information about the resource.
 
 
 ## -parameters
@@ -90,7 +90,7 @@ A pointer to the session ID of the session to which the plug-in is redirecting t
 
 ### -param pMachineConnectInfo [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/ns-tssbx-__midl_iwtssbplugin_0006">WTSSBX_MACHINE_CONNECT_INFO</a> structure that contains information about the computer to which the plug-in  is directing the incoming connection.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ns-tssbx-wtssbx_machine_connect_info">WTSSBX_MACHINE_CONNECT_INFO</a> structure that contains information about the computer to which the plug-in  is directing the incoming connection.
 
 
 ## -returns

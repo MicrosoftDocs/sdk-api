@@ -149,7 +149,7 @@ Retrieves the DirectShow media subtype as a <b>BSTR</b>.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponenttype-get_mediatype">get_MediaType</a>
 </td>
 <td align="left" width="63%">
-Retrieves the DirectShow <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> media type structure for the component.
+Retrieves the DirectShow <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> media type structure for the component.
 
 </td>
 </tr>
@@ -221,7 +221,7 @@ Sets the subtype member for the component.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponenttype-put_mediatype">put_MediaType</a>
 </td>
 <td align="left" width="63%">
-Sets the DirectShow <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> media type structure for the component.
+Sets the DirectShow <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> media type structure for the component.
 
 </td>
 </tr>

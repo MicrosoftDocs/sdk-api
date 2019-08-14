@@ -71,7 +71,7 @@ A valid local radio handle, or <b>NULL</b>. If <b>NULL</b>, authentication is at
 
 ### -param pbtbi
 
-A structure of type <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_device_info">BLUETOOTH_DEVICE_INFO</a> that contains the record of the Bluetooth device to be authenticated.
+A structure of type <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> that contains the record of the Bluetooth device to be authenticated.
 
 
 ### -param pszPasskey
@@ -212,7 +212,7 @@ Transparent mode is started when <i>pszPasskey</i> is not <b>NULL</b>. In Transp
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_device_info">BLUETOOTH_DEVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
 
 
 

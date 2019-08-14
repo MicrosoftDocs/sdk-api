@@ -76,7 +76,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects
 
 ### -field dwStatus
 
-Before calling <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a>, set this member to zero. When the method returns, the MFT might set the member equal to a value from the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-_mft_output_data_buffer_flags">_MFT_OUTPUT_DATA_BUFFER_FLAGS</a> enumeration. Otherwise, the MFT leaves this member equal to zero.
+Before calling <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a>, set this member to zero. When the method returns, the MFT might set the member equal to a value from the <a href="https://docs.microsoft.com/windows/win32/api/mftransform/ne-mftransform-_mft_output_data_buffer_flags">_MFT_OUTPUT_DATA_BUFFER_FLAGS</a> enumeration. Otherwise, the MFT leaves this member equal to zero.
 
 
 ### -field pEvents

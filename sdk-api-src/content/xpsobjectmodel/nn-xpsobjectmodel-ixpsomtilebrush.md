@@ -76,7 +76,7 @@ The <b>IXpsOMTileBrush</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomtilebrush-gettilemode">GetTileMode</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0001">XPS_TILE_MODE</a> value that describes the tile mode of the brush.
+Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a> value that describes the tile mode of the brush.
             
 
 </td>
@@ -134,7 +134,7 @@ Gets the portion of  the destination geometry that is covered by a single tile.
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomtilebrush-settilemode">SetTileMode</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0001">XPS_TILE_MODE</a> value that describes the tiling mode of the brush.
+Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a> value that describes the tiling mode of the brush.
             
 
 </td>
@@ -193,7 +193,7 @@ A <i>viewbox</i> describes the portion of the source image that is used for the 
  In the illustration that follows, the  brush is created by using  a viewbox that includes only a portion of the original image or visual.
 
 <img alt="An illustration that shows a viewbox example" src="./images/CreateBrush.png"/>
-The next illustration shows the tile modes that are used to repeat the tile image to fill the output area. If the tile mode value is <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0001">XPS_TILE_MODE_NONE</a>, the tile image is drawn only once.
+The next illustration shows the tile modes that are used to repeat the tile image to fill the output area. If the tile mode value is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE_NONE</a>, the tile image is drawn only once.
 
 <img alt="An illustration that shows different examples of different tile mode behaviors" src="./images/TileMode.png"/>
 

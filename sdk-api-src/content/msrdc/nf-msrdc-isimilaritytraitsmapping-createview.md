@@ -67,7 +67,7 @@ Minimum number of pages of the file mapping to map to the view.
 ### -param accessMode [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ne-msrdc-__midl___midl_itf_msrdc_0000_0000_0010">RdcMappingAccessMode</a> enumeration value that specifies the desired access to the file mapping object.
+<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-rdcmappingaccessmode">RdcMappingAccessMode</a> enumeration value that specifies the desired access to the file mapping object.
 
 
 ### -param mappedView [out]

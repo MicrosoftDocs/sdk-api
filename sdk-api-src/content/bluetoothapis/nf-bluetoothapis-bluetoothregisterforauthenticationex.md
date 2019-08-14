@@ -63,7 +63,7 @@ The <b>BluetoothRegisterForAuthenticationEx</b> function registers an applicatio
 
 ### -param pbtdiIn [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_device_info">BLUETOOTH_DEVICE_INFO</a> structure that specifies the bluetooth address to be utilized for comparison.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure that specifies the bluetooth address to be utilized for comparison.
 
 
 ### -param phRegHandleOut [out]

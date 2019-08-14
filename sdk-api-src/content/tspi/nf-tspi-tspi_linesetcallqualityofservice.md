@@ -78,7 +78,7 @@ Pointer to memory containing a WinSock2 <a href="https://docs.microsoft.com/wind
 
 ### -param dwSendingFlowspecSize
 
-The total size in bytes of the <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> and accompanying provider-specific data, equivalent to what would have been stored in SendingFlowspec.len in a WinSock2 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure.
+The total size in bytes of the <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> and accompanying provider-specific data, equivalent to what would have been stored in SendingFlowspec.len in a WinSock2 <a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure.
 
 
 ### -param lpReceivingFlowspec
@@ -88,7 +88,7 @@ Pointer to memory containing a WinSock2 <a href="https://docs.microsoft.com/wind
 
 ### -param dwReceivingFlowspecSize
 
-The total size in bytes of the <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> and accompanying provider-specific data, equivalent to what would have been stored in ReceivingFlowspec.len in a WinSock2 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure.
+The total size in bytes of the <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> and accompanying provider-specific data, equivalent to what would have been stored in ReceivingFlowspec.len in a WinSock2 <a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure.
 
 
 ## -returns

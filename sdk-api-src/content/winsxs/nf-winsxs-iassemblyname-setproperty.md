@@ -61,7 +61,7 @@ The <b>SetProperty</b> method adds a name-value pair to the side-by-side assembl
 
 ### -param PropertyId [in]
 
-A property ID that represents the name-value pair. Valid property IDs are <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/ne-winsxs-__midl_iassemblyname_0001">ASM_NAME</a> enumeration values.
+A property ID that represents the name-value pair. Valid property IDs are <a href="https://docs.microsoft.com/windows/win32/api/winsxs/ne-winsxs-asm_name">ASM_NAME</a> enumeration values.
 
 
 ### -param pvProperty [in]

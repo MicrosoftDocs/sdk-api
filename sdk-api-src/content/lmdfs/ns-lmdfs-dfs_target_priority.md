@@ -62,7 +62,7 @@ Contains the priority class and rank of a specific DFS target.
 ### -field TargetPriorityClass
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ne-lmdfs-_dfs_target_priority_class">DFS_TARGET_PRIORITY_CLASS</a> enumeration 
+<a href="https://docs.microsoft.com/windows/win32/api/lmdfs/ne-lmdfs-dfs_target_priority_class~r1">DFS_TARGET_PRIORITY_CLASS</a> enumeration 
       value that specifies the priority class of the target.
 
 
@@ -138,7 +138,7 @@ For more information about how server target priority is determined, see
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ne-lmdfs-_dfs_target_priority_class">DFS_TARGET_PRIORITY_CLASS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/lmdfs/ne-lmdfs-dfs_target_priority_class~r1">DFS_TARGET_PRIORITY_CLASS</a>
 
 
 

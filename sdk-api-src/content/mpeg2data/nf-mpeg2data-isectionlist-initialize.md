@@ -64,7 +64,7 @@ The <b>Initialize</b> method initializes the object. This method should be calle
 
 ### -param requestType [in]
 
-Specifies the request type, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ne-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0032">MPEG_REQUEST_TYPE</a> value.
+Specifies the request type, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ne-mpeg2structs-mpeg_request_type">MPEG_REQUEST_TYPE</a> value.
 
 
 ### -param pMpeg2Data [in]
@@ -74,7 +74,7 @@ Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/des
 
 ### -param pContext [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0030">MPEG_CONTEXT</a> structure. This structure indicates the MPEG-2 source.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_context">MPEG_CONTEXT</a> structure. This structure indicates the MPEG-2 source.
 
 
 ### -param pid [in]
@@ -89,7 +89,7 @@ Specifies a table identifier (TID), indicating which table sections to retrieve.
 
 ### -param pFilter [in]
 
-Optional pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0019">MPEG2_FILTER</a> structure. The caller can use this parameter to exclude packets based on additional MPEG-2 header fields. This parameter can be <b>NULL</b>.
+Optional pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg2_filter">MPEG2_FILTER</a> structure. The caller can use this parameter to exclude packets based on additional MPEG-2 header fields. This parameter can be <b>NULL</b>.
 
 
 ### -param timeout [in]

@@ -67,7 +67,7 @@ Writes data to the specified file.
 
 ### -param hFile
 
-A handle to the file that receives the data. This handle is created by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-_lcreat">_lcreat</a>.
+A handle to the file that receives the data. This handle is created by <a href="https://docs.microsoft.com/windows/win32/api/winbase/nf-winbase-_lcreat">_lcreat</a>.
 
 
 ### -param lpBuffer

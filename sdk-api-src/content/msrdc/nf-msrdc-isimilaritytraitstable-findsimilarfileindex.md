@@ -61,7 +61,7 @@ Returns a list of files that are similar to a given file. The results in the lis
 
 ### -param similarityData [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0012">SimilarityData</a> structure that contains similarity information for the file.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure that contains similarity information for the file.
 
 
 ### -param numberOfMatchesRequired
@@ -71,17 +71,17 @@ TBD
 
 ### -param findSimilarFileIndexResults [out]
 
-A pointer to a buffer that receives an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0013">FindSimilarFileIndexResults</a> structures that contain the requested information.
+A pointer to a buffer that receives an array of <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-findsimilarfileindexresults">FindSimilarFileIndexResults</a> structures that contain the requested information.
 
 
 ### -param resultsSize [in]
 
-The number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0013">FindSimilarFileIndexResults</a> structures that can be stored in the buffer that the <i>findSimilarFileIndexResults</i> parameter points to.
+The number of <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-findsimilarfileindexresults">FindSimilarFileIndexResults</a> structures that can be stored in the buffer that the <i>findSimilarFileIndexResults</i> parameter points to.
 
 
 ### -param resultsUsed [out]
 
-The number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0013">FindSimilarFileIndexResults</a> structures that were returned in the buffer that the <i>findSimilarFileIndexResults</i> parameter points to.
+The number of <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-findsimilarfileindexresults">FindSimilarFileIndexResults</a> structures that were returned in the buffer that the <i>findSimilarFileIndexResults</i> parameter points to.
 
 
 ## -returns

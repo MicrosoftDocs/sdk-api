@@ -69,7 +69,7 @@ Size of the structure, in bytes. The value must be <code>sizeof(VMR9ProcAmpContr
 
 ### -field dwFlags
 
-Bitwise combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0005_0002">VMR9ProcAmpControlFlags</a> enumeration, indicating which properties the driver supports.
+Bitwise combination of flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9procampcontrolflags">VMR9ProcAmpControlFlags</a> enumeration, indicating which properties the driver supports.
 
 
 ### -field Brightness

@@ -61,7 +61,7 @@ Contains information about the IP address of a network resource.
 
 ### -field AddressFamily
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/ne-tssbx-__midl_iwtssbplugin_0003">WTSSBX_ADDRESS_FAMILY</a> enumeration type that indicates the address family of the network address.
+A value of the <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ne-tssbx-wtssbx_address_family">WTSSBX_ADDRESS_FAMILY</a> enumeration type that indicates the address family of the network address.
 
 
 ### -field Address

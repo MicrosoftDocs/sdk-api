@@ -65,7 +65,7 @@ Contains an edit cookie that identifies the edit context obtained from <a href="
 
 ### -param gStart [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl_itfrange_0001">TfGravity</a> values that specifies the gravity of the start anchor.
+Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfgravity">TfGravity</a> values that specifies the gravity of the start anchor.
 
 
 ### -param gEnd [in]
@@ -148,7 +148,7 @@ The cookie in <i>ec</i> is invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl_itfrange_0001">TfGravity</a>
+<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfgravity">TfGravity</a>
  
 
  

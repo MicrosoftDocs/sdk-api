@@ -74,7 +74,7 @@ Reserved. Must be 0.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsaddrarray">DNS_ADDR_ARRAY</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_addr_array">DNS_ADDR_ARRAY</a>
 
 
 

@@ -61,7 +61,7 @@ Set the storage location of the certificate to be used for the signature.
 
 ### -param embeddingOption [in]
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0001_0076_0004">OPC_CERTIFICATE_EMBEDDING_OPTION</a> value that describes the location of the certificate.
+The <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_certificate_embedding_option">OPC_CERTIFICATE_EMBEDDING_OPTION</a> value that describes the location of the certificate.
 
 
 ## -returns

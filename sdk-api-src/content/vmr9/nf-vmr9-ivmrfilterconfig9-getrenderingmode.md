@@ -65,7 +65,7 @@ The <code>GetRenderingMode</code> method retrieves the rendering mode currently 
 
 ### -param pMode [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0010_0001">VMR9Mode</a> emumeration.
+Receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9mode">VMR9Mode</a> emumeration.
 
 
 ## -returns

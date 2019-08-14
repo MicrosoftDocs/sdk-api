@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>SCESVC_ANALYSIS_INFO</b> structure contains the analysis information. It contains a 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ns-scesvc-_scesvc_analysis_line_">SCESVC_ANALYSIS_LINE</a> structure that contains lines of analysis information, and it also contains a counter that indicates the number of lines.
+<a href="https://docs.microsoft.com/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_line">SCESVC_ANALYSIS_LINE</a> structure that contains lines of analysis information, and it also contains a counter that indicates the number of lines.
 
 A pointer to this structure is returned by calls to 
 <a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_query_info">PFSCE_QUERY_INFO</a> and 
@@ -72,7 +72,7 @@ A <b>DWORD</b> that indicates the number of lines in the array.
 ### -field Lines
 
 Pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ns-scesvc-_scesvc_analysis_line_">SCESVC_ANALYSIS_LINE</a> structures which contain the analysis information.
+<a href="https://docs.microsoft.com/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_line">SCESVC_ANALYSIS_LINE</a> structures which contain the analysis information.
 
 
 ## -see-also
@@ -88,7 +88,7 @@ Pointer to an array of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ns-scesvc-_scesvc_analysis_line_">SCESVC_ANALYSIS_LINE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_line">SCESVC_ANALYSIS_LINE</a>
 
 
 

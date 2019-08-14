@@ -64,12 +64,12 @@ Occurs when the correction comb on the Tablet PC Input Panel has changed modes.
 
 ### -param oldCorrectionMode [in]
 
-The previous correction mode, as defined by the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0004">CorrectionMode Enumeration</a>.
+The previous correction mode, as defined by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-correctionmode">CorrectionMode Enumeration</a>.
 
 
 ### -param newCorrectionMode [in]
 
-The current correction mode, as defined by the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0004">CorrectionMode Enumeration</a>.
+The current correction mode, as defined by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-correctionmode">CorrectionMode Enumeration</a>.
 
 
 ## -returns

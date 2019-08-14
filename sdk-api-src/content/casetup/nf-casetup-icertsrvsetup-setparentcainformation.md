@@ -71,7 +71,7 @@ A string that contains a valid configuration for the parent CA. The string must 
 The <b>SetParentCAInformation</b> method pings the parent CA computer to verify that it is available on the network.
 
 Upon success, <b>SetParentCAInformation</b> sets the ENUM_SETUPPROP_PARENTCAMACHINE and ENUM_SETUPPROP_PARENTCANAME properties for the subordinate CA configuration.
-For more information about setup properties, see <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0002_0001">CASetupProperty</a>.
+For more information about setup properties, see <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-casetupproperty">CASetupProperty</a>.
 
 
 

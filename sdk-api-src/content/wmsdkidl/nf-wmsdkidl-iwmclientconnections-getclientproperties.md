@@ -72,7 +72,7 @@ The <b>GetClientProperties</b> method retrieves information, including the IP ad
 
 ### -param pClientProperties [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmclientproperties">WM_CLIENT_PROPERTIES</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_properties">WM_CLIENT_PROPERTIES</a> structure.
 
 
 ## -returns

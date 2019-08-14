@@ -80,24 +80,24 @@ The description of outgoing <a href="https://docs.microsoft.com/windows/desktop/
 
 ### -field inputMessageOptions
 
-Provides additional flags for the in message of the operation. See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_11">WS_SERVICE_OPERATION_MESSAGE_OPTION</a> for
+Provides additional flags for the in message of the operation. See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_charset">WS_SERVICE_OPERATION_MESSAGE_OPTION</a> for
                     a list of flags. If no flags are needed, this may be 0.
                 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_11">WS_SERVICE_OPERATION_MESSAGE_NILLABLE_ELEMENT</a> is not applicable to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_operation_style">WS_RPC_LITERAL_OPERATION</a> style
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_charset">WS_SERVICE_OPERATION_MESSAGE_NILLABLE_ELEMENT</a> is not applicable to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_operation_style">WS_RPC_LITERAL_OPERATION</a> style
                     operations. The input parameter must be with type of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_parameter_type">WS_PARAMETER_TYPE_MESSAGES</a>.
                 
 
 
 ### -field outputMessageOptions
 
-Provides additional flags for the out message of the operation. See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_11">WS_SERVICE_OPERATION_MESSAGE_OPTION</a> for
+Provides additional flags for the out message of the operation. See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_charset">WS_SERVICE_OPERATION_MESSAGE_OPTION</a> for
                     a list of flags. If out message is not available, or no flags are needed, this may be 0.
                 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_11">WS_SERVICE_OPERATION_MESSAGE_NILLABLE_ELEMENT</a> is not applicable to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_operation_style">WS_RPC_LITERAL_OPERATION</a> style
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_charset">WS_SERVICE_OPERATION_MESSAGE_NILLABLE_ELEMENT</a> is not applicable to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_operation_style">WS_RPC_LITERAL_OPERATION</a> style
                     operations. The output parameter must be with type of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_parameter_type">WS_PARAMETER_TYPE_MESSAGES</a>.
                 
 

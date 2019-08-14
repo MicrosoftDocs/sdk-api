@@ -75,7 +75,7 @@ Specifies the Direct3D surface that all drawing should be performed on.
 
 ### -param pmtRenderTarget [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> structure that contains the media type of the target surface.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that contains the media type of the target surface.
 
 
 ### -param rtStart [in]

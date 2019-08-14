@@ -66,7 +66,7 @@ A  null-terminated Unicode string that contains the name of the attribute whose 
 
 ### -field dwADsType
 
-Value from the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001">ADSTYPEENUM</a> enumeration that indicates how the attribute values are interpreted.
+Value from the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a> enumeration that indicates how the attribute values are interpreted.
 
 
 ### -field pADsValues
@@ -104,7 +104,7 @@ For more information about  <b>ADS_SEARCH_COLUMN</b>, see  <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001">ADSTYPEENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a>
 
 
 

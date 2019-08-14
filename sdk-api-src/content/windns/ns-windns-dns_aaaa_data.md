@@ -62,7 +62,7 @@ The
 
 ### -field Ip6Address
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_0">IP6_ADDRESS</a> data type that contains an IPv6 address.
+An <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-ip6_address">IP6_ADDRESS</a> data type that contains an IPv6 address.
 
 
 ## -remarks
@@ -71,7 +71,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__un
 
 The 
 <b>DNS_AAAA_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
@@ -81,7 +81,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
  
 
  

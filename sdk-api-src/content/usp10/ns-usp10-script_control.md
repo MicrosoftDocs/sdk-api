@@ -64,7 +64,7 @@ Contains script control flags for several Uniscribe functions, for example, <a h
 
 ### -field uDefaultLanguage
 
-Primary <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> for the language to use when Unicode values are ambiguous. This value is used in numeric processing to select digit shape when the <b>fDigitSubstitute</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_state">SCRIPT_STATE</a> is set.
+Primary <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> for the language to use when Unicode values are ambiguous. This value is used in numeric processing to select digit shape when the <b>fDigitSubstitute</b> member of <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a> is set.
 
 
 ### -field fContextDigits
@@ -411,7 +411,7 @@ Reserved; always initialize to 0.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_state">SCRIPT_STATE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a>
 
 
 

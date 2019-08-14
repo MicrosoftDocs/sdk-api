@@ -64,12 +64,12 @@ The <b>MPEG_DATE_AND_TIME</b> structure specifies a date and time.
 
 ### -field D
 
-Specifies the date, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0025">MPEG_DATE</a> structure.
+Specifies the date, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_date">MPEG_DATE</a> structure.
 
 
 ### -field T
 
-Specifies the time, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0024">MPEG_TIME</a> structure.
+Specifies the time, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_time">MPEG_TIME</a> structure.
 
 
 ## -see-also

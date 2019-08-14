@@ -67,7 +67,7 @@ A pointer to the DNS data to be freed.
 
 ### -param FreeType [in]
 
-A value that specifies the type of DNS data in <i>pData</i>. For more information and a list of values, see the <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-__unnamed_enum_1">DNS_FREE_TYPE</a> enumeration.
+A value that specifies the type of DNS data in <i>pData</i>. For more information and a list of values, see the <a href="https://docs.microsoft.com/windows/win32/api/windns/ne-windns-dns_free_type">DNS_FREE_TYPE</a> enumeration.
 
 
 ## -returns
@@ -84,7 +84,7 @@ This function does not return a value.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-__unnamed_enum_1">DNS_FREE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ne-windns-dns_free_type">DNS_FREE_TYPE</a>
  
 
  

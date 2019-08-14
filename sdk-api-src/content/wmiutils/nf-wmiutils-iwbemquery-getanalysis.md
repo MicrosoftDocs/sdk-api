@@ -68,13 +68,13 @@ Type of analysis to get.
 
 #### WMIQ_ANALYSIS_RPN_SEQUENCE (1)
 
-Used if the query has a SELECT clause. When this type of analysis is used,  <i>pAnalysis</i> points to an <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemrpnencodedquery">SWbemRpnEncodedQuery</a> structure.
+Used if the query has a SELECT clause. When this type of analysis is used,  <i>pAnalysis</i> points to an <a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnencodedquery">SWbemRpnEncodedQuery</a> structure.
 
 
 
 #### WMIQ_ANALYSIS_ASSOC_QUERY (2)
 
-Used to return information about association type queries. When this type of analysis is used,  <i>pAnalysis</i> points to an <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemassocqueryinf">SWbemAssocQueryInf</a> structure.
+Used to return information about association type queries. When this type of analysis is used,  <i>pAnalysis</i> points to an <a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemassocqueryinf">SWbemAssocQueryInf</a> structure.
 
 
 
@@ -121,11 +121,11 @@ This method returns an <b>HRESULT</b> that indicates the status of a method call
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemassocqueryinf">SWbemAssocQueryInf</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemassocqueryinf">SWbemAssocQueryInf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemrpnencodedquery">SWbemRpnEncodedQuery</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnencodedquery">SWbemRpnEncodedQuery</a>
  
 
  

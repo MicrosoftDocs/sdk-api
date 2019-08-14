@@ -157,7 +157,7 @@ If you do not specify <b>WBEM_FLAG_SEND_STATUS</b> when calling your provider or
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_wbem_status_type">WBEM_STATUS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_status_type">WBEM_STATUS_TYPE</a>
  
 
  

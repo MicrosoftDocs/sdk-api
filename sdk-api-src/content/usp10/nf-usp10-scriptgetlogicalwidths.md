@@ -64,7 +64,7 @@ Converts the glyph <a href="https://docs.microsoft.com/windows/desktop/Intl/unis
 
 ### -param psa [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_analysis">SCRIPT_ANALYSIS</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure.
 
 
 ### -param cChars [in]
@@ -89,7 +89,7 @@ Pointer to an array of logical clusters.
 
 ### -param psva [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_visattr">SCRIPT_VISATTR</a> structure defining visual attributes.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a> structure defining visual attributes.
 
 
 ### -param piDx [out]
@@ -124,11 +124,11 @@ This function is useful for recording widths in a font-independent manner. It co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_analysis">SCRIPT_ANALYSIS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_visattr">SCRIPT_VISATTR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a>
 
 
 

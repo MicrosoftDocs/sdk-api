@@ -73,7 +73,7 @@ Reference to the sink object to receive event notifications from the Input Panel
 
 ### -param EventMask
 
-A bitwise value of the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0007">EventMask Enumeration</a>, indicating the events of interest.
+A bitwise value of the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-eventmask">EventMask Enumeration</a>, indicating the events of interest.
 
 
 ## -returns
@@ -120,7 +120,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0007">EventMask Enumeration</a>
+<a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-eventmask">EventMask Enumeration</a>
 
 
 

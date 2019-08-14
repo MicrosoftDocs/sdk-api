@@ -72,7 +72,7 @@ The <b>IShellWindows</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-_newenum">_NewEnum</a>
+<a href="https://docs.microsoft.com/windows/win32/api/exdisp/nf-exdisp-ishellwindows-_newenum">_NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the collection of Shell windows.

@@ -171,7 +171,7 @@ void CCOMTIPDlg::OnEnSetfocusEdit1()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0002">InPlaceState Enumeration</a>
+<a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>
  
 
  

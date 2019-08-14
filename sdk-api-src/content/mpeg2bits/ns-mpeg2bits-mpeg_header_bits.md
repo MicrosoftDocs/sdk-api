@@ -95,7 +95,7 @@ The section_syntax_indicator bit.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0006">SECTION Structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-section">SECTION Structure</a>
  
 
  

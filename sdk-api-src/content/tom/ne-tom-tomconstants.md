@@ -3091,26 +3091,26 @@ Enable recursive build up.
 
 Mask for specifying changes to make during math linearization (build down). It can be a combination of the following values. 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathInsRowBefore</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathInsRowAfter</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathInsColBefore</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathInsColAfter</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDeleteRow</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDeleteCol</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDeleteArg</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDeleteArg1</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathDeleteArg2</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathMakeFracLinear</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathMakeFracStacked</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathMakeFracSlashed</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathMakeLeftSubSup</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathMakeSubSup</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathBackspace</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathEnter</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathShiftTab</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathTab</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathSubscript</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathSuperscript</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathInsRowBefore</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathInsRowAfter</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathInsColBefore</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathInsColAfter</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathDeleteRow</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathDeleteCol</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathDeleteArg</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathDeleteArg1</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathDeleteArg2</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathMakeFracLinear</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathMakeFracStacked</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathMakeFracSlashed</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathMakeLeftSubSup</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathMakeSubSup</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathBackspace</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathEnter</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathShiftTab</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathTab</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathSubscript</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathSuperscript</a>
 
 #### - tomMathCollapseSel
 
@@ -3250,19 +3250,19 @@ The character is treated as part of the current operand.
 #### - tomTeX
 
 Enables TeX syntax for build up/down operations. The <b>tomTeX</b> style can have the following values: <dl>
-<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomStyleDefault</a></dd>
-<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomStyleScriptScriptCramped</a></dd>
-<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomStyleScriptScript</a></dd>
-<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomStyleScriptCramped</a></dd>
-<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomStyleScript</a></dd>
-<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomStyleTextCramped</a></dd>
-<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomStyleText</a></dd>
-<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomStyleDisplayCramped</a></dd>
-<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomStyleDisplay</a></dd>
-<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomDecDecSize</a></dd>
-<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomDecSize</a></dd>
-<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomIncSize</a></dd>
-<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomIncIncSize</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomStyleDefault</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomStyleScriptScriptCramped</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomStyleScriptScript</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomStyleScriptCramped</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomStyleScript</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomStyleTextCramped</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomStyleText</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomStyleDisplayCramped</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomStyleDisplay</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomDecDecSize</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomDecSize</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomIncSize</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomIncIncSize</a></dd>
 </dl>
 
 

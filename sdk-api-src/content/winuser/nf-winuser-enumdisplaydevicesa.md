@@ -133,7 +133,7 @@ To query all monitor devices associated with an adapter, call <b>EnumDisplayDevi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
 
 
 

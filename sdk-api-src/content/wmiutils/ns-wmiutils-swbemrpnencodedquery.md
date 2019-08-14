@@ -91,7 +91,7 @@ Number of elements listed in a SELECT clause. For example, in the statement <cod
 
 ### -field m_ppSelectList
 
-Structure used to store property names. This field is used  with the  <b>m_uSelectListSize</b> field. For example, in the statement <code>SELECT a,b,c FROM d</code>, <b>m_uSelectListSize</b> is 3, and the <b>m_ppszNameList</b> field of the <b>m_ppSelectList</b> structure contains the strings "a", "b" and "c". For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemqueryqualifiedname">SWbemQueryQualifiedName</a>.
+Structure used to store property names. This field is used  with the  <b>m_uSelectListSize</b> field. For example, in the statement <code>SELECT a,b,c FROM d</code>, <b>m_uSelectListSize</b> is 3, and the <b>m_ppszNameList</b> field of the <b>m_ppSelectList</b> structure contains the strings "a", "b" and "c". For more information, see <a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemqueryqualifiedname">SWbemQueryQualifiedName</a>.
 
 
 ### -field m_uFromTargetType
@@ -139,7 +139,7 @@ Number of tokens in the WHERE clause. For example, in the statement <code>SELECT
 
 ### -field m_ppRpnWhereClause
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemrpnquerytoken">SWbemRpnQueryToken</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnquerytoken">SWbemRpnQueryToken</a>
 <code>SELECT * FROM a, b WHERE c &lt; 1000 AND d ISA e</code>
 <code>c &lt; 1000</code>
 <code>d ISA e</code>
@@ -181,11 +181,11 @@ Used if there is  a GROUP WITHIN clause to indicate the interval over which to g
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemqueryqualifiedname">SWbemQueryQualifiedName</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemqueryqualifiedname">SWbemQueryQualifiedName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemrpnquerytoken">SWbemRpnQueryToken</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnquerytoken">SWbemRpnQueryToken</a>
  
 
  

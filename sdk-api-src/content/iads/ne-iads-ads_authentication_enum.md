@@ -169,7 +169,7 @@ If an Active Directory DNS server name is passed in the LDAP path, this forces a
 Specify this flag to turn referral chasing off for the life of the connection. However, even when this flag 
        is specified, ADSI still allows the setting of referral chasing behavior for container enumeration when set 
        using <b>ADS_OPTION_REFERRALS</b> in 
-       <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0077_0001">ADS_OPTION_ENUM</a> (as documented in container enumeration 
+       <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_option_enum">ADS_OPTION_ENUM</a> (as documented in container enumeration 
        with referral chasing in 
        <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions::SetOption</a>) and 
        searching separately (as documented in 

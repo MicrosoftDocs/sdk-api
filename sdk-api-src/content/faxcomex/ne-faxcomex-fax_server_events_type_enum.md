@@ -269,13 +269,13 @@ fsetINCOMING_CALL
 </table>
  
 
-The following table lists the <a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a> methods called by each member.
+The following table lists the <a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a> methods called by each member.
 
 <table class="clsStd">
 <tr>
 <th>Name</th>
 <th>
-<a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a> method called</th>
+<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a> method called</th>
 </tr>
 <tr>
 <td>

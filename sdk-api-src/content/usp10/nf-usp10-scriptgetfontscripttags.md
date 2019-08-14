@@ -74,7 +74,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cac
 
 ### -param psa [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>. This parameter identifies the shaping engine, so that the appropriate font script tags can be retrieved. The application supplies a non-<b>NULL</b> value for this parameter to retrieve script tags appropriate for the current run.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>. This parameter identifies the shaping engine, so that the appropriate font script tags can be retrieved. The application supplies a non-<b>NULL</b> value for this parameter to retrieve script tags appropriate for the current run.
 
 Alternatively, the application can set this parameter to <b>NULL</b> to retrieve unfiltered results.
 
@@ -86,7 +86,7 @@ The length of the array specified by <i>pScriptTags</i>.
 
 ### -param pScriptTags [out]
 
-Pointer to a buffer in which this function retrieves an array of <a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structures defining script tags from the device context or the scripting engine associated with the current run. If the value of the <b>eScript</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_analysis">SCRIPT_ANALYSIS</a> structure provided in the <i>psa</i> parameter has a definite script tag associated with it and the tag is present in the font, <i>pScriptTags</i> contains only this tag.
+Pointer to a buffer in which this function retrieves an array of <a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structures defining script tags from the device context or the scripting engine associated with the current run. If the value of the <b>eScript</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure provided in the <i>psa</i> parameter has a definite script tag associated with it and the tag is present in the font, <i>pScriptTags</i> contains only this tag.
 
 
 ### -param pcTags [out]
@@ -139,7 +139,7 @@ If a tag corresponding to a particular script is present, a shaping engine might
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_analysis">SCRIPT_ANALYSIS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
 
 
 

@@ -110,7 +110,7 @@ Use caution when referencing large integer values in <b>DWORD</b>-aligned struct
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_integer">LARGE_INTEGER</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
  
 
  

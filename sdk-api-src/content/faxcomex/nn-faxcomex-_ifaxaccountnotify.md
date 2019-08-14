@@ -72,7 +72,7 @@ The <b>IFaxAccountNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onincomingjobadded">OnIncomingJobAdded</a>
+<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onincomingjobadded">OnIncomingJobAdded</a>
 </td>
 <td align="left" width="63%">
 Called by the fax service when an incoming fax job is added to the job queue for a particular fax account.
@@ -81,7 +81,7 @@ Called by the fax service when an incoming fax job is added to the job queue for
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onincomingjobchanged">OnIncomingJobChanged</a>
+<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onincomingjobchanged">OnIncomingJobChanged</a>
 </td>
 <td align="left" width="63%">
 Called by the fax service when the status of an incoming fax job for a particular fax account changes.
@@ -90,7 +90,7 @@ Called by the fax service when the status of an incoming fax job for a particula
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onincomingjobremoved">OnIncomingJobRemoved</a>
+<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onincomingjobremoved">OnIncomingJobRemoved</a>
 </td>
 <td align="left" width="63%">
 Called by the fax service when an incoming fax job is removed from the job queue of a particular fax account.
@@ -99,7 +99,7 @@ Called by the fax service when an incoming fax job is removed from the job queue
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onincomingmessageadded">OnIncomingMessageAdded</a>
+<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onincomingmessageadded">OnIncomingMessageAdded</a>
 </td>
 <td align="left" width="63%">
 Called by the fax service when an incoming message is added to the inbound fax archive.
@@ -108,7 +108,7 @@ Called by the fax service when an incoming message is added to the inbound fax a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onincomingmessageremoved">OnIncomingMessageRemoved</a>
+<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onincomingmessageremoved">OnIncomingMessageRemoved</a>
 </td>
 <td align="left" width="63%">
 Called by the fax service when an incoming message is removed from the inbound fax archive.
@@ -117,7 +117,7 @@ Called by the fax service when an incoming message is removed from the inbound f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onoutgoingmessageremoved">OnOngoingMessageRemoved</a>
+<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onoutgoingmessageremoved">OnOngoingMessageRemoved</a>
 </td>
 <td align="left" width="63%">
 Called by the fax service when an outgoing message is removed from the outbound fax archive.
@@ -126,7 +126,7 @@ Called by the fax service when an outgoing message is removed from the outbound 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onoutgoingjobadded">OnOutgoingJobAdded</a>
+<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onoutgoingjobadded">OnOutgoingJobAdded</a>
 </td>
 <td align="left" width="63%">
 Called by the fax service when an outgoing fax job is added to the job queue for a particular fax account.
@@ -135,7 +135,7 @@ Called by the fax service when an outgoing fax job is added to the job queue for
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onoutgoingjobchanged">OnOutgoingJobChanged</a>
+<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onoutgoingjobchanged">OnOutgoingJobChanged</a>
 </td>
 <td align="left" width="63%">
 Called by the fax service when the status of an outgoing fax job for a particular fax account changes.
@@ -144,7 +144,7 @@ Called by the fax service when the status of an outgoing fax job for a particula
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onoutgoingjobremoved">OnOutgoingJobRemoved</a>
+<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onoutgoingjobremoved">OnOutgoingJobRemoved</a>
 </td>
 <td align="left" width="63%">
 Called by the fax service when an outgoing fax job is removed from the job queue of a particular fax account.
@@ -153,16 +153,16 @@ Called by the fax service when an outgoing fax job is removed from the job queue
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onoutgoingmessageadded">OnOutgoingMessageAdded</a>
+<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onoutgoingmessageadded">OnOutgoingMessageAdded</a>
 </td>
 <td align="left" width="63%">
-The fax service calls the <a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onoutgoingmessageadded">IFaxAccountNotify::OnOutgoingMessageAdded</a> method when an outgoing message is added to the outbound fax archive.
+The fax service calls the <a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onoutgoingmessageadded">IFaxAccountNotify::OnOutgoingMessageAdded</a> method when an outgoing message is added to the outbound fax archive.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onservershutdown">OnServerShutDown</a>
+<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nf-faxcomex-_ifaxaccountnotify-onservershutdown">OnServerShutDown</a>
 </td>
 <td align="left" width="63%">
 Called by the fax service when it shuts down. 

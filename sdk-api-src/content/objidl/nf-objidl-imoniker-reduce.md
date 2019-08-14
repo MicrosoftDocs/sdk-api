@@ -66,7 +66,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/
 
 ### -param dwReduceHowFar [in]
 
-Specifies how far this moniker should be reduced. This parameter must be one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagmkreduce">MKRREDUCE</a> enumeration.
+Specifies how far this moniker should be reduced. This parameter must be one of the values from the <a href="https://docs.microsoft.com/windows/win32/api/objidl/ne-objidl-mkrreduce">MKRREDUCE</a> enumeration.
 
 
 ### -param ppmkToLeft [in, out]
@@ -151,7 +151,7 @@ On file systems that support an identifier-based method of accessing files that 
 
 </li>
 </ul>
-The intent of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagmkreduce">MKRREDUCE</a> flags passed in the <i>dwReduceHowFar</i> parameter is to provide the ability to programmatically reduce a moniker to a form whose display name is recognizable to the user. For example, paths in the file system, bookmarks in word-processing documents, and range names in spreadsheets are all recognizable to users. In contrast, a macro or an alias encapsulated in a moniker are not recognizable to users.
+The intent of the <a href="https://docs.microsoft.com/windows/win32/api/objidl/ne-objidl-mkrreduce">MKRREDUCE</a> flags passed in the <i>dwReduceHowFar</i> parameter is to provide the ability to programmatically reduce a moniker to a form whose display name is recognizable to the user. For example, paths in the file system, bookmarks in word-processing documents, and range names in spreadsheets are all recognizable to users. In contrast, a macro or an alias encapsulated in a moniker are not recognizable to users.
 
 
 

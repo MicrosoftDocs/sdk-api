@@ -93,7 +93,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-nam
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a> structure. The application must initialize the <b>dwNLSVersionInfoSize</b> member to <code> sizeof(NLSVERSIONINFOEX)</code>. 
 
-<div class="alert"><b>Note</b>  On Windows Vista and later, the function can alternatively provide version information in an <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_nlsversioninfo">NLSVERSIONINFO</a> structure.</div>
+<div class="alert"><b>Note</b>  On Windows Vista and later, the function can alternatively provide version information in an <a href="https://docs.microsoft.com/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1">NLSVERSIONINFO</a> structure.</div>
 <div> </div>
 
 ## -returns
@@ -154,7 +154,7 @@ This function supports <a href="https://docs.microsoft.com/windows/desktop/Intl/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_nlsversioninfo">NLSVERSIONINFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnls/ns-winnls-nlsversioninfo~r1">NLSVERSIONINFO</a>
 
 
 

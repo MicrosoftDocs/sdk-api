@@ -231,12 +231,12 @@ The backup restorer object cannot back up one or more <a href="https://docs.micr
 
 ### -field WMT_CLIENT_CONNECT
 
-Sent when a client (a playing application or server) connects to a writer network sink object. The <i>pValue</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmclientproperties">WM_CLIENT_PROPERTIES</a> structure. New applications should wait for <b>WMT_CLIENT_CONNECT_EX</b> instead.
+Sent when a client (a playing application or server) connects to a writer network sink object. The <i>pValue</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_properties">WM_CLIENT_PROPERTIES</a> structure. New applications should wait for <b>WMT_CLIENT_CONNECT_EX</b> instead.
 
 
 ### -field WMT_CLIENT_DISCONNECT
 
-Sent when a client (a playing application or server) disconnects from a writer network sink object. The <i>pValue</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmclientproperties">WM_CLIENT_PROPERTIES</a> structure. The values in this structure are identical to those sent on connection. New applications should wait for <b>WMT_CLIENT_DISCONNECT_EX</b> instead.
+Sent when a client (a playing application or server) disconnects from a writer network sink object. The <i>pValue</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_properties">WM_CLIENT_PROPERTIES</a> structure. The values in this structure are identical to those sent on connection. New applications should wait for <b>WMT_CLIENT_DISCONNECT_EX</b> instead.
 
 
 ### -field WMT_NATIVE_OUTPUT_PROPS_CHANGED
@@ -256,12 +256,12 @@ End of automatic reconnection to a server.
 
 ### -field WMT_CLIENT_CONNECT_EX
 
-Sent when a client (a playing application or server) connects to a writer network sink object. The <i>pValue</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmclientpropertiesex">WM_CLIENT_PROPERTIES_EX</a> structure.
+Sent when a client (a playing application or server) connects to a writer network sink object. The <i>pValue</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_propertiesex">WM_CLIENT_PROPERTIES_EX</a> structure.
 
 
 ### -field WMT_CLIENT_DISCONNECT_EX
 
-Sent when a client (a playing application or server) disconnects from a writer network sink object. The <i>pValue</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmclientpropertiesex">WM_CLIENT_PROPERTIES_EX</a> structure. The client properties are identical to those sent on connection except for the <b>pwszDNSName</b> member, which may have changed.
+Sent when a client (a playing application or server) disconnects from a writer network sink object. The <i>pValue</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_propertiesex">WM_CLIENT_PROPERTIES_EX</a> structure. The client properties are identical to those sent on connection except for the <b>pwszDNSName</b> member, which may have changed.
 
 
 ### -field WMT_SET_FEC_SPAN
@@ -281,7 +281,7 @@ The reader is finished buffering.
 
 ### -field WMT_CLIENT_PROPERTIES
 
-Sent by a writer network sink when one or more properties of a connected client changes. The <i>pValue</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmclientpropertiesex">WM_CLIENT_PROPERTIES_EX</a> structure. This usually means that a DNS name is present for a client for which none was available at connection.
+Sent by a writer network sink when one or more properties of a connected client changes. The <i>pValue</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback is set to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_propertiesex">WM_CLIENT_PROPERTIES_EX</a> structure. This usually means that a DNS name is present for a client for which none was available at connection.
 
 
 ### -field WMT_LICENSEURL_SIGNATURE_STATE

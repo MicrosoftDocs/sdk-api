@@ -69,7 +69,7 @@ Constant, null-terminated string of 16-bit Unicode characters that contains the 
 
 ### -param lFlags [in]
 
-One of the following flags from the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_wbem_backup_restore_flags">WBEM_BACKUP_RESTORE_FLAGS</a> enumeration.
+One of the following flags from the <a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_backup_restore_flags">WBEM_BACKUP_RESTORE_FLAGS</a> enumeration.
 
 
 

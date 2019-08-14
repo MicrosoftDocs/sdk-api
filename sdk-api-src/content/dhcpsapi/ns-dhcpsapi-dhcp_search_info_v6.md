@@ -157,7 +157,7 @@ Unicode string that specifies the client name to search for.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_client_search_type_v6">DHCP_SEARCH_INFO_TYPE_V6</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_search_info_type_v6">DHCP_SEARCH_INFO_TYPE_V6</a>
  
 
  

@@ -64,17 +64,17 @@ Applies the specified digit substitution settings to the specified script contro
 
 ### -param psds [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_digitsubstitute">SCRIPT_DIGITSUBSTITUTE</a> structure. The application sets this parameter to <b>NULL</b> if the function is to call <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptrecorddigitsubstitution">ScriptRecordDigitSubstitution</a> with LOCALE_USER_DEFAULT.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_digitsubstitute">SCRIPT_DIGITSUBSTITUTE</a> structure. The application sets this parameter to <b>NULL</b> if the function is to call <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptrecorddigitsubstitution">ScriptRecordDigitSubstitution</a> with LOCALE_USER_DEFAULT.
 
 
 ### -param psc [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_control">SCRIPT_CONTROL</a> structure with the <b>fContextDigits</b> and <b>uDefaultLanguage</b> members updated.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_control">SCRIPT_CONTROL</a> structure with the <b>fContextDigits</b> and <b>uDefaultLanguage</b> members updated.
 
 
 ### -param pss [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_state">SCRIPT_STATE</a> structure with the <b>fDigitSubstitute</b> member updated.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a> structure with the <b>fDigitSubstitute</b> member updated.
 
 
 ## -returns
@@ -83,7 +83,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-us
 
 Returns S_OK if successful. The function returns a nonzero HRESULT value if it does not succeed.
 
-The function returns E_INVALIDARG if it does not recognize the <b>DigitSubstitute</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_digitsubstitute">SCRIPT_DIGITSUBSTITUTE</a>.
+The function returns E_INVALIDARG if it does not recognize the <b>DigitSubstitute</b> member of <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_digitsubstitute">SCRIPT_DIGITSUBSTITUTE</a>.
 
 
 
@@ -112,15 +112,15 @@ This function does not actually substitute digits. It just fills in the structur
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_control">SCRIPT_CONTROL</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_control">SCRIPT_CONTROL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_digitsubstitute">SCRIPT_DIGITSUBSTITUTE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_digitsubstitute">SCRIPT_DIGITSUBSTITUTE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_state">SCRIPT_STATE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a>
 
 
 

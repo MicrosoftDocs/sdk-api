@@ -65,7 +65,7 @@ The <code>GetProperties</code> method retrieves the number of buffers that the a
 
 ### -param pProps [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_allocatorproperties">ALLOCATOR_PROPERTIES</a> structure that receives the allocator properties.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-allocator_properties">ALLOCATOR_PROPERTIES</a> structure that receives the allocator properties.
 
 
 ## -returns

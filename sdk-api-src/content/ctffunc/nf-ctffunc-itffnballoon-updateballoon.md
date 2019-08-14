@@ -60,7 +60,7 @@ ms.custom: 19H1
 
 ### -param style [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ne-ctfutb-__midl_itflangbaritemballoon_0001">TfLBBalloonStyle</a> values that specifies the new balloon style.
+Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbballoonstyle">TfLBBalloonStyle</a> values that specifies the new balloon style.
 
 
 ### -param pch [in]
@@ -140,7 +140,7 @@ The language bar balloon implementation should update its style and text by modi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ne-ctfutb-__midl_itflangbaritemballoon_0001">TfLBBalloonStyle
+<a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbballoonstyle">TfLBBalloonStyle
       </a>
  
 

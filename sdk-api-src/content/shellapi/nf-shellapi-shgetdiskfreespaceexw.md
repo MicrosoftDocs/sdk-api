@@ -70,21 +70,21 @@ A null-terminated string that specifies the volume for which size information is
 
 ### -param pulFreeBytesAvailableToCaller [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ularge_integer">ULARGE_INTEGER</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>*</b>
 
 Pointer to a value that receives the number of bytes on the volume available to the calling application. If the operating system implements per-user quotas, this value may be less than the total number of free bytes on the volume.
 
 
 ### -param pulTotalNumberOfBytes [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ularge_integer">ULARGE_INTEGER</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>*</b>
 
 Pointer to a value that receives the total size of the volume, in bytes.
 
 
 ### -param pulTotalNumberOfFreeBytes [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ularge_integer">ULARGE_INTEGER</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>*</b>
 
 Pointer to a value that receives the number of bytes of free space on the volume.
 

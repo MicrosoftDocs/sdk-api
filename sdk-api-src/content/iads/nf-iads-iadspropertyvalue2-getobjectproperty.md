@@ -61,9 +61,9 @@ The <b>IADsPropertyValue2::GetObjectProperty</b> method retrieves an attribute v
 
 ### -param lnADsType [in, out]
 
-Pointer to a variable that, on entry, contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001">ADSTYPEENUM</a> values that specifies the data format that the value should be returned.
+Pointer to a variable that, on entry, contains one of the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a> values that specifies the data format that the value should be returned.
 
-If the data type is not known, set this to <b>ADSTYPE_UNKNOWN</b>. In this case, this method will obtain the attribute value in the default data type and set this variable to the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001">ADSTYPEENUM</a> value. If any other <b>ADSTYPEENUM</b> value is specified, ADSI will return the attribute value only if the data type matches the format of the value.
+If the data type is not known, set this to <b>ADSTYPE_UNKNOWN</b>. In this case, this method will obtain the attribute value in the default data type and set this variable to the corresponding <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a> value. If any other <b>ADSTYPEENUM</b> value is specified, ADSI will return the attribute value only if the data type matches the format of the value.
 
 
 ### -param pvProp [out]
@@ -89,7 +89,7 @@ Returns <b>S_OK</b> if successful or one of the following error codes.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001">ADSTYPEENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a>
 
 
 

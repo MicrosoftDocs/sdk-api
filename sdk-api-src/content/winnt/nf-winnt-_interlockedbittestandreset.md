@@ -102,7 +102,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-_interlockedbittestandreset64">InterlockedBitTestAndReset64</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-_interlockedbittestandreset64">InterlockedBitTestAndReset64</a>
 
 
 
@@ -114,11 +114,11 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-_interlockedbittestandset">InterlockedBitTestAndSet</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-_interlockedbittestandset">InterlockedBitTestAndSet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-_interlockedbittestandset64">InterlockedBitTestAndSet64</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-_interlockedbittestandset64">InterlockedBitTestAndSet64</a>
 
 
 

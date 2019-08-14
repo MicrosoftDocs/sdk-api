@@ -183,8 +183,8 @@ The <b>ObjectType</b> field specifies a <b>GUID</b> that
     identifies the security principal to whom the ACE allows or denies the specified access rights.
 
 For more information about <b>ACEType</b>, <b>ACEFlags</b>, and 
-    <b>Flags</b>, see <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0048_0002">ADS_ACETYPE_ENUM</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0048_0003">ADS_ACEFLAG_ENUM</a>.
+    <b>Flags</b>, see <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_acetype_enum">ADS_ACETYPE_ENUM</a>, 
+    <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_aceflag_enum">ADS_ACEFLAG_ENUM</a>.
 
 <div class="alert"><b>Note</b>  Because VBScript cannot read data from a type library, VBScript applications do not recognize the symbolic 
     constants as defined above. Instead, use the numerical constants to set the appropriate flags in your VBScript 
@@ -211,7 +211,7 @@ The specific access rights granted by the four generic rights enumerations
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0048_0002">ADS_ACETYPE_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_acetype_enum">ADS_ACETYPE_ENUM</a>
 
 
 

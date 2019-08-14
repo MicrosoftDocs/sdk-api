@@ -65,7 +65,7 @@ The <code>GetAspectRatioMode</code> method retrieves the current aspect ratio di
 
 ### -param lpAspectRatioMode [out]
 
-Pointer to a DWORD that receives a <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0004_0001">VMR9AspectRatioMode</a> value that indicates the current aspect ratio mode.
+Pointer to a DWORD that receives a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9aspectratiomode">VMR9AspectRatioMode</a> value that indicates the current aspect ratio mode.
 
 
 ## -returns

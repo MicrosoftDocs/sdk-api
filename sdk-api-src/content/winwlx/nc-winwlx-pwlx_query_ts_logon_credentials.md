@@ -63,7 +63,7 @@ Called by a replacement
 
 ### -param pCred [out]
 
-When the return value is <b>TRUE</b>, <i>pCred</i> specifies a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_client_credentials_info_2_0">WLX_CLIENT_CREDENTIALS_INFO_V2_0</a> structure that contains the credentials to use for auto logon.
+When the return value is <b>TRUE</b>, <i>pCred</i> specifies a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winwlx/ns-winwlx-wlx_client_credentials_info_v2_0">WLX_CLIENT_CREDENTIALS_INFO_V2_0</a> structure that contains the credentials to use for auto logon.
 
 
 ## -returns
@@ -127,7 +127,7 @@ Other Winlogon support functions that may be called when Terminal Services is en
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_client_credentials_info_2_0">WLX_CLIENT_CREDENTIALS_INFO_V2_0</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winwlx/ns-winwlx-wlx_client_credentials_info_v2_0">WLX_CLIENT_CREDENTIALS_INFO_V2_0</a>
 
 
 

@@ -67,7 +67,7 @@ The VMR-9 filter's <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/
 
 ### -param dwRenderFlags [out]
 
-Receives a bitwise OR of flag from the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0008_0001">VMR9RenderPrefs</a> enumeration, indicating the current rendering settings on the allocator-presenter.
+Receives a bitwise OR of flag from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9renderprefs">VMR9RenderPrefs</a> enumeration, indicating the current rendering settings on the allocator-presenter.
 
 
 ## -returns

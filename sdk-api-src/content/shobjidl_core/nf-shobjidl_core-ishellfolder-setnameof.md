@@ -83,9 +83,9 @@ A pointer to a null-terminated string that specifies the new display name.
 
 ### -param uFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDNF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDNF</a></b>
 
-Flags that indicate the type of name specified by the <i>pszName</i> parameter. For a list of possible values and combinations of values, see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDNF</a>.
+Flags that indicate the type of name specified by the <i>pszName</i> parameter. For a list of possible values and combinations of values, see <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDNF</a>.
 
 
 ### -param ppidlOut [out]

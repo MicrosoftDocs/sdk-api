@@ -318,7 +318,7 @@ The bytes of the word are reversed. This flag is obsolete.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_nt_headers">IMAGE_NT_HEADERS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a>
 
 
 

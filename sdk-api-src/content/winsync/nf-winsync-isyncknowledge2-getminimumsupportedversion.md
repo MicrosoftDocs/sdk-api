@@ -133,7 +133,7 @@ For an overview of what is involved in building synchronization providers using 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0004">SYNC_SERIALIZATION_VERSION Enumeration</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_full_enumeration_action">SYNC_SERIALIZATION_VERSION Enumeration</a>
  
 
  

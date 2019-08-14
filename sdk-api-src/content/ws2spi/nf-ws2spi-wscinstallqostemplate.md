@@ -74,7 +74,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns
 
 ### -param Qos [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure that specifies the quality of service flow specifications and any provider-specific information for the QoS template.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure that specifies the quality of service flow specifications and any provider-specific information for the QoS template.
 
 
 ## -returns
@@ -170,11 +170,11 @@ The <b>WSCInstallQOSTemplate</b> function is not supported on Windows Vista and
 The <b>WSCInstallQOSTemplate</b> function installs a QoS template, based on a QoS name. The caller of the <b>WSCInstallQOSTemplate</b> function must have appropriate administrative rights for the call to succeed.
  
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure that contains the QoS settings can later be retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspgetqosbyname">WSPGetQOSByName</a> function and passing in the associated QoS name. 
+The <a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure that contains the QoS settings can later be retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspgetqosbyname">WSPGetQOSByName</a> function and passing in the associated QoS name. 
 
 The 
 <b>WSCInstallQOSTemplate</b> function installs a named QoS template that contains the  
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a> structure specified in the <i>Qos</i> parameter. If a QoS template already exists with the QoS name specified in the <i>Qosname</i> parameter, the settings specified in the <i>Qos</i> parameter replace the settings of the existing template. 
+<a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure specified in the <i>Qos</i> parameter. If a QoS template already exists with the QoS name specified in the <i>Qosname</i> parameter, the settings specified in the <i>Qos</i> parameter replace the settings of the existing template. 
 
 If the <i>Guid</i> parameter is set to <b>NULL</b>, the installed QOS template applies to all service providers. If the <i>Guid</i> parameter is not <b>NULL</b>, then the installed QoS template applies only to the provider indicated by the <i>Guid</i> parameter.
 
@@ -201,7 +201,7 @@ The <b>ProviderSpecific</b> member of the <b>QOS</b> structure can be set even i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a>
 
 
 

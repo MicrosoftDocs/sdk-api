@@ -81,7 +81,7 @@ Specifies whether authentication was successful. Any nonzero value for <b>dwAuth
 
 Pointer to an optional array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> structures. The array is terminated by a structure with an <b>raaType</b> member that has a value of <b>raatMinimum</b> (see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ne-raseapif-_ras_auth_attribute_type_">RAS_AUTH_ATTRIBUTE_TYPE</a>). 
+<a href="https://docs.microsoft.com/windows/win32/api/raseapif/ne-raseapif-ras_auth_attribute_type">RAS_AUTH_ATTRIBUTE_TYPE</a>). 
 
 
 
@@ -171,10 +171,10 @@ Use the
 
 The authentication protocol can use the 
 <b>PPP_EAP_OUTPUT</b> structure to return the Microsoft Point-to-Point Encryption (MPPE) session keys. The authentication protocol  must place the session keys in the value field of a sub-attribute contained within the value field of an attribute of type <b>raatVendorSpecific</b> (see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ne-raseapif-_ras_auth_attribute_type_">RAS_AUTH_ATTRIBUTE_TYPE</a>). The sub-attribute should have a Vendor-ID of 311 (Microsoft) and Vendor-Type of MS-MPPE-Recv-Keys (17) and MS-MPPE-Send-Keys (16). The authentication protocol must set the <b>pUserAttributes</b> member to point to the <b>raatVendorSpecific</b> attribute, and set the <b>Action</b> member to <b>EAPACTION_Done</b> or <b>EAPACTION_SendAndDone</b>. For more information about the format of the MPPE sub-attribute see 
+<a href="https://docs.microsoft.com/windows/win32/api/raseapif/ne-raseapif-ras_auth_attribute_type">RAS_AUTH_ATTRIBUTE_TYPE</a>). The sub-attribute should have a Vendor-ID of 311 (Microsoft) and Vendor-Type of MS-MPPE-Recv-Keys (17) and MS-MPPE-Send-Keys (16). The authentication protocol must set the <b>pUserAttributes</b> member to point to the <b>raatVendorSpecific</b> attribute, and set the <b>Action</b> member to <b>EAPACTION_Done</b> or <b>EAPACTION_SendAndDone</b>. For more information about the format of the MPPE sub-attribute see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84047">Microsoft Vendor-specific RADIUS Attributes</a>. For more information about attribute formats see 
 <a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a>, 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ne-raseapif-_ras_auth_attribute_type_">RAS_AUTH_ATTRIBUTE_TYPE</a>, and 
+<a href="https://docs.microsoft.com/windows/win32/api/raseapif/ne-raseapif-ras_auth_attribute_type">RAS_AUTH_ATTRIBUTE_TYPE</a>, and 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84055">RFC 2865</a>.
 
 <div class="alert"><b>Note</b>  When formatting attributes for encryption keys, it is strongly recommended that you  use MSCHAPv2 and its MS-MPPE-Recv-Keys and MS-MPPE-Send-Keys,  which create <i>strong encryption</i> rather than  MSCHAPv1 and its MS-CHAP-MPPE-Keys.</div>

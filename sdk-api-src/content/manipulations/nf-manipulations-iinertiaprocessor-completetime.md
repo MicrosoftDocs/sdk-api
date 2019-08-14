@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Finishes the current manipulation at the given tick, stops inertia on the inertia processor, and raises the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event.
+Finishes the current manipulation at the given tick, stops inertia on the inertia processor, and raises the <a href="https://docs.microsoft.com/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Returns <b>S_OK</b> on success, otherwise returns an error code such as <b>E_FAI
 
 
 
-The <b>CompleteTime</b> method raises the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event on an <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-_imanipulationevents">_IManipulationEvents</a> interface implementation.
+The <b>CompleteTime</b> method raises the <a href="https://docs.microsoft.com/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event on an <a href="https://docs.microsoft.com/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents">_IManipulationEvents</a> interface implementation.
 	 
 
 

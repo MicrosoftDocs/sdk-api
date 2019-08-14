@@ -84,7 +84,7 @@ A pointer to an array of <i>cidl</i> structures containing the locations each co
 
 Type: <b>DWORD</b>
 
-One of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_svsif">_SVSIF</a> constants that specifies the type of selection to apply.
+One of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svsif">_SVSIF</a> constants that specifies the type of selection to apply.
         
 
 

@@ -120,7 +120,7 @@ An <b>ISyncChangeBatchBase2</b> object can be obtained by passing <b>IID_ISyncCh
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0007">SyncSerializationVersion Enumeration</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_serialization_version">SyncSerializationVersion Enumeration</a>
 
 
 

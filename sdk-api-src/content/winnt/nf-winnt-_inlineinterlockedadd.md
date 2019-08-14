@@ -104,7 +104,7 @@ This function is implemented using a compiler intrinsic where possible. For more
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-_inlineinterlockedadd64">InterlockedAdd64</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/nf-winnt-_inlineinterlockedadd64">InterlockedAdd64</a>
 
 
 

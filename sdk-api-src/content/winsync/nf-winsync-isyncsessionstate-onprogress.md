@@ -140,11 +140,11 @@ This method can be used to report custom progress to the application. When a pro
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0003">SYNC_PROGRESS STAGE Enumeration</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_progress_stage">SYNC_PROGRESS STAGE Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0001">SYNC_PROVIDER ROLE Enumeration</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_provider_role">SYNC_PROVIDER ROLE Enumeration</a>
  
 
  

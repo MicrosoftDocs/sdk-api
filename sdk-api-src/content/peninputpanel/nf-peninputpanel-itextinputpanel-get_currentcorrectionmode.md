@@ -58,7 +58,7 @@ ms.custom: 19H1
 ]
 
 
-Gets the current correction comb mode as specified by the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0004">CorrectionMode Enumeration</a>.
+Gets the current correction comb mode as specified by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-correctionmode">CorrectionMode Enumeration</a>.
 
 
 
@@ -75,7 +75,7 @@ This property is read-only.
 <div class="alert"><b>Note</b>  In Windows 7, the behavior of the ITextInputPanel interface has changed and the <i>Mode</i> parameter will always be set to "no correction" when returned.
 		</div>
 <div> </div>
-When the Tablet PC Input Panel or the correction comb is not visible, the current mode is <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0004">CorrectionMode_NotVisible</a>.
+When the Tablet PC Input Panel or the correction comb is not visible, the current mode is <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-correctionmode">CorrectionMode_NotVisible</a>.
 
 
 #### Examples

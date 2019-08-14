@@ -71,7 +71,7 @@ A pointer to a null-terminated Unicode string that contains a URL for which prox
 
 ### -param pAutoProxyOptions [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-__unnamed_struct_4">WINHTTP_AUTOPROXY_OPTIONS</a> structure that specifies the auto-proxy options to use.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-winhttp_autoproxy_options">WINHTTP_AUTOPROXY_OPTIONS</a> structure that specifies the auto-proxy options to use.
 
 
 ### -param pContext [in]

@@ -61,7 +61,7 @@ The <b>IsPropertyEditable</b> method indicates to the caller whether a specified
 
 ### -param propertyId [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0002_0001">CASetupProperty</a> constant that specifies the type of property to query.
+A <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-casetupproperty">CASetupProperty</a> constant that specifies the type of property to query.
 
 
 ### -param pbEditable [out]

@@ -68,9 +68,9 @@ The action being performed. See <a href="https://docs.microsoft.com/windows/desk
 
 ### -param flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_spbeginf">SPBEGINF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_spbeginf">SPBEGINF</a></b>
 
-Optional flags that request certain UI operations be enabled or disabled. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_spbeginf">SPBEGINF</a> for a list of acceptable values.
+Optional flags that request certain UI operations be enabled or disabled. See <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_spbeginf">SPBEGINF</a> for a list of acceptable values.
 
 
 ## -returns
@@ -111,7 +111,7 @@ This method should be called when an action is beginning. The values of <i>actio
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_spbeginf">SPBEGINF</a>
+<a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_spbeginf">SPBEGINF</a>
  
 
  

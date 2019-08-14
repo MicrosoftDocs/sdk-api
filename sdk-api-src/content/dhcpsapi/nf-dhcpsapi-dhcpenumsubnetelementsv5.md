@@ -73,7 +73,7 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 ### -param EnumElementType [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_subnet_element_type_v5">DHCP_SUBNET_ELEMENT_TYPE</a> enumeration value that indicates the type of subnet element to enumerate.
+<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_subnet_element_type">DHCP_SUBNET_ELEMENT_TYPE</a> enumeration value that indicates the type of subnet element to enumerate.
 
 
 ### -param ResumeHandle [in, out]
@@ -173,7 +173,7 @@ When no longer needed, the resources consumed for the  enumerated data, and all 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_subnet_element_type_v5">DHCP_SUBNET_ELEMENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_subnet_element_type">DHCP_SUBNET_ELEMENT_TYPE</a>
  
 
  

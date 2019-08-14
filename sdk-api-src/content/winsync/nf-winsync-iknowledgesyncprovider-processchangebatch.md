@@ -134,7 +134,7 @@ When a source change contains change unit changes, the destination provider must
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0002">CONFLICT RESOLUTION POLICY Enumeration</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-conflict_resolution_policy">CONFLICT RESOLUTION POLICY Enumeration</a>
 
 
 

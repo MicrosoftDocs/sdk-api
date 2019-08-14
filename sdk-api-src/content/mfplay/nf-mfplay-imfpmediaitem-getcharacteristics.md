@@ -66,7 +66,7 @@ Gets various flags that describe the media item.
 
 ### -param pCharacteristics [out]
 
-Receives a bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/ne-mfplay-_mfp_mediaitem_characteristics">_MFP_MEDIAITEM_CHARACTERISTICS</a> enumeration.
+Receives a bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/windows/win32/api/mfplay/ne-mfplay-_mfp_mediaitem_characteristics">_MFP_MEDIAITEM_CHARACTERISTICS</a> enumeration.
 
 
 ## -returns

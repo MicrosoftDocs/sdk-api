@@ -93,7 +93,7 @@ Gets a pointer to the geometry's <a href="https://docs.microsoft.com/windows/des
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometry-getfillrule">GetFillRule</a>
 </td>
 <td align="left" width="63%">
-Gets the  <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0010">XPS_FILL_RULE</a> value that describes the fill rule to be used.
+Gets the  <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a> value that describes the fill rule to be used.
             
 
 </td>
@@ -133,7 +133,7 @@ Gets the lookup key for the <a href="https://docs.microsoft.com/windows/desktop/
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometry-setfillrule">SetFillRule</a>
 </td>
 <td align="left" width="63%">
-Sets the  <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0010">XPS_FILL_RULE</a> value that describes the fill rule to be used.
+Sets the  <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a> value that describes the fill rule to be used.
             
 
 </td>

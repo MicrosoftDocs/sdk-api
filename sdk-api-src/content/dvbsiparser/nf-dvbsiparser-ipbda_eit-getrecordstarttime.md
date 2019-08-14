@@ -68,7 +68,7 @@ Specifies the service record number, indexed from zero.
 
 ### -param pmdtVal [out]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0026">MPEG_DATE_AND_TIME</a> structure that receives the start time from the event record.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_date_and_time">MPEG_DATE_AND_TIME</a> structure that receives the start time from the event record.
 
 
 ## -returns

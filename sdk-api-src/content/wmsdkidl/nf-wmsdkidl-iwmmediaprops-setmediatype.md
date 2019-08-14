@@ -67,7 +67,7 @@ The <b>SetMediaType</b> method specifies the media type.
 
 ### -param pType [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmmediatype">WM_MEDIA_TYPE</a> structure describing the input, stream, or output.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type">WM_MEDIA_TYPE</a> structure describing the input, stream, or output.
 
 
 ## -returns

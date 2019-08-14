@@ -74,7 +74,7 @@ Passwords are not encoded and are transmitted in plaintext.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0077_0001">ADS_OPTION_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_option_enum">ADS_OPTION_ENUM</a>
 
 
 

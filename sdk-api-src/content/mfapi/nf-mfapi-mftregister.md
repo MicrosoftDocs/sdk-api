@@ -81,7 +81,7 @@ Wide-character string that contains the friendly name of the MFT.
 
 ### -param Flags [in]
 
-Bitwise <b>OR</b> of zero or more of the following flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a>  enumeration:
+Bitwise <b>OR</b> of zero or more of the following flags from the <a href="https://docs.microsoft.com/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a>  enumeration:
 
 <table>
 <tr>
@@ -282,7 +282,7 @@ On 64-bit Windows, the 32-bit version of this function registers the MFT in the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a>
+<a href="https://docs.microsoft.com/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a>
  
 
  

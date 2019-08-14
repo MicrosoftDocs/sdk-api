@@ -61,7 +61,7 @@ The <b>IADsPathname::Retrieve</b> method retrieves the path of the object with d
 
 ### -param lnFormatType [in]
 
-Specifies the format that the path should be retrieved in. This can be one of the values specified in the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0078_0002">ADS_FORMAT_ENUM</a> enumeration.
+Specifies the format that the path should be retrieved in. This can be one of the values specified in the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a> enumeration.
 
 
 ### -param pbstrADsPath [out]
@@ -89,7 +89,7 @@ For more information and other return values, see  <a href="https://docs.microso
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0078_0002">ADS_FORMAT_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a>
 
 
 

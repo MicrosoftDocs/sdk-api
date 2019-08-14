@@ -63,7 +63,7 @@ Gets the current attributes set on the font.
 
 Type: <b>LOGFONTW*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dimm/ns-dimm-__midl___midl_itf_dimm_0000_0000_0003">LOGFONT</a> structure that, when this method returns successfully, receives the current attributes of the font.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dimm/ns-dimm-logfonta">LOGFONT</a> structure that, when this method returns successfully, receives the current attributes of the font.
 
 
 ## -returns

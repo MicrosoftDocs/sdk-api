@@ -64,7 +64,7 @@ The
 
 Pointer to 
 <a href="https://docs.microsoft.com/windows/desktop/api/mspaddr/ns-mspaddr-mspeventitem">MSPEVENTITEM</a>, a struct containing a linked list of 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/ns-msp-__midl___midl_itf_msp_0000_0000_0005">MSP_EVENT_INFO</a> structures.
+<a href="https://docs.microsoft.com/windows/win32/api/msp/ns-msp-msp_event_info">MSP_EVENT_INFO</a> structures.
 
 
 ## -see-also

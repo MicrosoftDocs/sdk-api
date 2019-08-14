@@ -327,7 +327,7 @@ Queries the Internet handle for needed information. The function constructs the 
 <td width="60%">
 Serializes authentication dialog boxes for concurrent requests on a password cache entry. The 
 <i>lppvData</i> parameter should contain the address of a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-__unnamed_struct_4">INTERNET_AUTH_NOTIFY_DATA</a> structure, and the client should implement a thread-safe, non-blocking callback function.
+<a href="https://docs.microsoft.com/windows/win32/api/wininet/ns-wininet-internet_per_conn_optionw">INTERNET_AUTH_NOTIFY_DATA</a> structure, and the client should implement a thread-safe, non-blocking callback function.
 
 </td>
 </tr>

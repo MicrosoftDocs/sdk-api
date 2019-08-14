@@ -66,7 +66,7 @@ A single wide-character string that contains the name of the display device.
 
 ### -field devMode
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a> structure that contains characteristics of the display device. 
+A <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure that contains characteristics of the display device. 
 
 
 ## -see-also
@@ -74,7 +74,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a>
 
 
 

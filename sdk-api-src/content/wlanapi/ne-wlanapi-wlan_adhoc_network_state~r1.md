@@ -58,7 +58,7 @@ A client or host is connected to the ad hoc network.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_notification_acm">WLAN_NOTIFICATION_ACM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_acm~r1">WLAN_NOTIFICATION_ACM</a>
 
 
 

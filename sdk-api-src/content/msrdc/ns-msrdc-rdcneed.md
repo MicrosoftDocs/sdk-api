@@ -80,11 +80,11 @@ Length, in bytes, of the chunk of data that is to be copied to the target data.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0006">RdcNeedPointer</a>
+<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-rdcneedpointer">RdcNeedPointer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ne-msrdc-__midl___midl_itf_msrdc_0000_0000_0003">RdcNeedType</a>
+<a href="https://docs.microsoft.com/windows/win32/api/msrdc/ne-msrdc-rdcneedtype">RdcNeedType</a>
 
 
 

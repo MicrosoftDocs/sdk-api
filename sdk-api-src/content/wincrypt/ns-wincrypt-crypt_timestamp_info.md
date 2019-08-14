@@ -95,7 +95,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-c
 
 ### -field HashedMessage
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/ns-dpapi-_cryptoapi_blob">CRYPT_DER_BLOB</a> structure that specifies the hash values to be time stamped.
+A <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DER_BLOB</a> structure that specifies the hash values to be time stamped.
 
 
 ### -field SerialNumber

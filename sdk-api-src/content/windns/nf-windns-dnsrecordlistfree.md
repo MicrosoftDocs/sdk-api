@@ -63,12 +63,12 @@ The
 
 ### -param p [in, out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a> structure that contains the list of DNS records to be freed.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the list of DNS records to be freed.
 
 
 ### -param t [in]
 
-A specifier of how the record list should be freed. The only type currently supported is a deep freeing of the entire record list. For more information and a list of values, see the <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-__unnamed_enum_1">DNS_FREE_TYPE</a> enumeration.
+A specifier of how the record list should be freed. The only type currently supported is a deep freeing of the entire record list. For more information and a list of values, see the <a href="https://docs.microsoft.com/windows/win32/api/windns/ne-windns-dns_free_type">DNS_FREE_TYPE</a> enumeration.
 
 
 ## -remarks
@@ -87,7 +87,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-__unnamed_enum_1">DNS_FREE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ne-windns-dns_free_type">DNS_FREE_TYPE</a>
  
 
  

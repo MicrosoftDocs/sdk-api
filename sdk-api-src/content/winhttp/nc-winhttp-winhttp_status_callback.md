@@ -184,7 +184,7 @@ An HTTP request is about to automatically redirect the request. The
 
 An error occurred while sending an HTTP request.  The 
 <i>lpvStatusInformation</i> parameter contains a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-__unnamed_struct_0">WINHTTP_ASYNC_RESULT</a> structure. Its <b>dwResult</b> member indicates the ID of the called function and <b>dwError</b> indicates the return value.
+<a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-winhttp_async_result">WINHTTP_ASYNC_RESULT</a> structure. Its <b>dwResult</b> member indicates the ID of the called function and <b>dwError</b> indicates the return value.
 
 
 

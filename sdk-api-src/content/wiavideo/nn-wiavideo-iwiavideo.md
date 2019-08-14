@@ -113,7 +113,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/nf-wiavideo
 <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-getcurrentstate">GetCurrentState</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-getcurrentstate">IWiaVideo::GetCurrentState</a> method specifies the state of the video stream as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/ne-wiavideo-__midl___midl_itf_wiavideo_xp_0000_0000_0001">WIAVIDEO_STATE</a> enumeration.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-getcurrentstate">IWiaVideo::GetCurrentState</a> method specifies the state of the video stream as a member of the <a href="https://docs.microsoft.com/windows/win32/api/wiavideo/ne-wiavideo-wiavideo_state">WIAVIDEO_STATE</a> enumeration.
 
 </td>
 </tr>
@@ -189,7 +189,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-get_previewvisible">IWiaVideo::PreviewVisible</a> property specifies whether the video playback is visible in its parent window. This does not affect the <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/ne-wiavideo-__midl___midl_itf_wiavideo_xp_0000_0000_0001">WIAVIDEO_STATE</a> of the video.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-get_previewvisible">IWiaVideo::PreviewVisible</a> property specifies whether the video playback is visible in its parent window. This does not affect the <a href="https://docs.microsoft.com/windows/win32/api/wiavideo/ne-wiavideo-wiavideo_state">WIAVIDEO_STATE</a> of the video.
 
 </td>
 </tr>

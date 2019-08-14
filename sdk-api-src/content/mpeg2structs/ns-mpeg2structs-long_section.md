@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-The <b>LONG_SECTION</b> structure represents a long MPEG-2 section header. If a section contains a long header, you can cast a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0006">SECTION</a> pointer to a <b>LONG_SECTION</b> pointer. For more information, see the Remarks section in the <b>SECTION</b> reference.
+The <b>LONG_SECTION</b> structure represents a long MPEG-2 section header. If a section contains a long header, you can cast a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-section">SECTION</a> pointer to a <b>LONG_SECTION</b> pointer. For more information, see the Remarks section in the <b>SECTION</b> reference.
 
 
 

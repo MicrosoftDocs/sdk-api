@@ -129,7 +129,7 @@ Specifies the length of the attached object, inclusive of QOS_OBJECT_HDR.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a>
  
 
  

@@ -68,7 +68,7 @@ An <b>LPCTSTR</b> that points to a string containing a domain.
 
 ### -param pResult [out]
 
-A pointer to an <b>unsigned long</b> that contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ne-wininet-__unnamed_enum_0">InternetCookieState</a> enumeration values.
+A pointer to an <b>unsigned long</b> that contains one of the <a href="https://docs.microsoft.com/windows/win32/api/wininet/ne-wininet-internet_scheme">InternetCookieState</a> enumeration values.
 
 
 

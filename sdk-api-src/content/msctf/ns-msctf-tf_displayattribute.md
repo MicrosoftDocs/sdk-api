@@ -74,7 +74,7 @@ Contains a <b>TF_DA_COLOR</b> structure that defines the text background color.
 
 ### -field lsStyle
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl___midl_itf_msctf_0000_0070_0001">TF_DA_LINESTYLE</a> enumeration value that defines the underline style.
+Contains a <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tf_da_linestyle">TF_DA_LINESTYLE</a> enumeration value that defines the underline style.
 
 
 ### -field fBoldLine
@@ -89,7 +89,7 @@ Contains a <b>TF_DA_COLOR</b> structure that defines the color of the underline.
 
 ### -field bAttr
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl___midl_itf_msctf_0000_0070_0004">TF_DA_ATTR_INFO</a> value that defines text conversion display attribute data.
+Contains a <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tf_da_attr_info">TF_DA_ATTR_INFO</a> value that defines text conversion display attribute data.
 
 
 ## -see-also
@@ -97,7 +97,7 @@ Contains a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msct
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl___midl_itf_msctf_0000_0070_0004">TF_DA_ATTR_INFO
+<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tf_da_attr_info">TF_DA_ATTR_INFO
       </a>
 
 
@@ -107,7 +107,7 @@ Contains a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msct
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl___midl_itf_msctf_0000_0070_0001">TF_DA_LINESTYLE
+<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tf_da_linestyle">TF_DA_LINESTYLE
       </a>
  
 

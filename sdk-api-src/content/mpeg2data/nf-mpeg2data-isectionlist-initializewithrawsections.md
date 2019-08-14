@@ -64,7 +64,7 @@ The <b>InitializeWithRawSections</b> method initializes the object with raw sect
 
 ### -param pmplSections [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0015">MPEG_PACKET_LIST</a> structure that contains a list of MPEG-2 sections.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_packet_list">MPEG_PACKET_LIST</a> structure that contains a list of MPEG-2 sections.
 
 
 ## -returns

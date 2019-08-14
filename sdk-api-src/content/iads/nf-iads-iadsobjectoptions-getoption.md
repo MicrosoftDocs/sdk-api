@@ -61,7 +61,7 @@ The <b>IADsOptions.GetOption</b> method gets a provider-specific option for a di
 
 ### -param lnOption
 
-Indicates the provider-specific option to get. This parameter can be any value in the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0077_0001">ADS_OPTION_ENUM</a> enumeration.
+Indicates the provider-specific option to get. This parameter can be any value in the  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_option_enum">ADS_OPTION_ENUM</a> enumeration.
 
 
 ### -param pvValue
@@ -87,7 +87,7 @@ The method supports the standard return values, including <b>S_OK</b> if the ope
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0077_0001">ADS_OPTION_ENUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_option_enum">ADS_OPTION_ENUM</a>
 
 
 

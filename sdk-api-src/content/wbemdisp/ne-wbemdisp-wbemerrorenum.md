@@ -60,7 +60,7 @@ The WMI scripting type library Wbemdisp.tlb defines these constants. Visual Basi
     Script Host (WSH) XML file format. For more information, see 
     <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
 
-Other languages may have different names for these values, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants">WMI Error Constants</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_wbemstatus">WBEMSTATUS</a>.
+Other languages may have different names for these values, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants">WMI Error Constants</a> and <a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbemstatus">WBEMSTATUS</a>.
 
 
 ## -enum-fields
@@ -776,7 +776,7 @@ The user deleted an override default value for the current class. The default va
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_wbemstatus">WBEMSTATUS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbemstatus">WBEMSTATUS</a>
 
 
 

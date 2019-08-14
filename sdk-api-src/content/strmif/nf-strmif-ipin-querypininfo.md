@@ -65,7 +65,7 @@ The <code>QueryPinInfo</code> method retrieves information about the pin.
 
 ### -param pInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_pininfo">PIN_INFO</a> structure that receives the pin information.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-pin_info">PIN_INFO</a> structure that receives the pin information.
 
 
 ## -returns

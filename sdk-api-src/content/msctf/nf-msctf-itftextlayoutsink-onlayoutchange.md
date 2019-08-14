@@ -65,7 +65,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-
 
 ### -param lcode [in]
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl_itftextlayoutsink_0001">TfLayoutCode</a> element that describes the layout change.
+Specifies the <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tflayoutcode">TfLayoutCode</a> element that describes the layout change.
 
 
 ### -param pView [in]
@@ -116,7 +116,7 @@ Each context has a default view for which a reference can be obtained using the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl_itftextlayoutsink_0001">TfLayoutCode
+<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tflayoutcode">TfLayoutCode
       </a>
  
 

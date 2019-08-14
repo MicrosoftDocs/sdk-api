@@ -63,7 +63,7 @@ Performs caller-implemented actions after the new item is created.
 
 Type: <b>DWORD</b>
 
-bitwise value that contains flags that were used during the creation operation. Some values can be set or changed during the creation operation. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> for flag descriptions.
+bitwise value that contains flags that were used during the creation operation. Some values can be set or changed during the creation operation. See <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> for flag descriptions.
 
 
 ### -param psiDestinationFolder [in]

@@ -58,7 +58,7 @@ ms.custom: 19H1
 ]
 
 
-Gets the positioning of the Tablet PC Input Panel as specified by the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0001">InteractionMode Enumeration</a>.
+Gets the positioning of the Tablet PC Input Panel as specified by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-interactionmode">InteractionMode Enumeration</a>.
 
 
 
@@ -72,7 +72,7 @@ This property is read-only.
 
 
 
-The current interaction mode is dictated by the user. However, the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0001">InteractionMode_InPlace</a> mode can be disabled by the application on a per field basis.
+The current interaction mode is dictated by the user. However, the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-interactionmode">InteractionMode_InPlace</a> mode can be disabled by the application on a per field basis.
 
 
 #### Examples

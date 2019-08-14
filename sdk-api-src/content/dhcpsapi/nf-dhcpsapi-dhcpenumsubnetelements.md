@@ -73,7 +73,7 @@ Unicode string that specifies the IPv4 address of the DHCP server.
 ### -param EnumElementType [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_subnet_element_type_v5">DHCP_SUBNET_ELEMENT_TYPE</a> enumeration value that indicates the type of subnet element to enumerate.
+<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_subnet_element_type">DHCP_SUBNET_ELEMENT_TYPE</a> enumeration value that indicates the type of subnet element to enumerate.
 
 
 ### -param ResumeHandle [in, out]
@@ -175,7 +175,7 @@ The specified IPv4 subnet does not exist on the DHCP server.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_subnet_element_type_v5">DHCP_SUBNET_ELEMENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_subnet_element_type">DHCP_SUBNET_ELEMENT_TYPE</a>
 
 
 

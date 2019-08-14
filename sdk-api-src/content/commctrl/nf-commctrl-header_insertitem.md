@@ -79,7 +79,7 @@ The index of the item after which the new item is to be inserted. The new item i
 
 Type: <b>const LPHDITEM</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_hd_itema">HDITEM</a> structure that contains information about the new item. 
+A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-hditema">HDITEM</a> structure that contains information about the new item. 
 
 
 ## -remarks

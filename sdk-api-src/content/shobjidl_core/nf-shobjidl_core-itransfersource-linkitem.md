@@ -84,7 +84,7 @@ A pointer to a null-terminated, Unicode string containing the name for the link.
 
 Type: <b>DWORD</b>
 
-The flags that control the file operation. Value is one or more of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
+The flags that control the file operation. Value is one or more of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
 
 
 ### -param ppsiNewDest [out]

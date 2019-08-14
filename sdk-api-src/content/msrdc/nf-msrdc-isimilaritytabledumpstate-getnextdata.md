@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves one or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0014">SimilarityDumpData</a> structures from the similarity traits list that was returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-begindump">ISimilarityTraitsTable::BeginDump</a> method.
+Retrieves one or more <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydumpdata">SimilarityDumpData</a> structures from the similarity traits list that was returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-begindump">ISimilarityTraitsTable::BeginDump</a> method.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ Retrieves one or more <a href="https://docs.microsoft.com/previous-versions/wind
 
 ### -param resultsSize [in]
 
-The number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0014">SimilarityDumpData</a> structures that can be stored in the buffer that the <i>results</i> parameter points to.
+The number of <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydumpdata">SimilarityDumpData</a> structures that can be stored in the buffer that the <i>results</i> parameter points to.
 
 
 ### -param resultsUsed [out]
 
-A pointer to a variable that receives the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0014">SimilarityDumpData</a> structures that were returned in the buffer that the <i>results</i> parameter points to.
+A pointer to a variable that receives the number of <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydumpdata">SimilarityDumpData</a> structures that were returned in the buffer that the <i>results</i> parameter points to.
 
 
 ### -param eof [out]
@@ -76,7 +76,7 @@ A pointer to a variable that receives <b>TRUE</b> if the end of the file is reac
 
 ### -param results [in, out]
 
-A pointer to a buffer that receives the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0014">SimilarityDumpData</a> structures.
+A pointer to a buffer that receives the <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydumpdata">SimilarityDumpData</a> structures.
 
 
 ## -returns

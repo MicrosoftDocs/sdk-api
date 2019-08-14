@@ -73,7 +73,7 @@ A pointer to an unsigned long that specifies the size of the <i>pcSiteNameSize</
 
 ### -param pdwDecision [out]
 
-Pointer to an unsigned long that receives the <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ne-wininet-__unnamed_enum_0">InternetCookieState</a> enumeration value corresponding to <i>pszSiteName</i>.
+Pointer to an unsigned long that receives the <a href="https://docs.microsoft.com/windows/win32/api/wininet/ne-wininet-internet_scheme">InternetCookieState</a> enumeration value corresponding to <i>pszSiteName</i>.
 
 
 ### -param dwIndex [in]

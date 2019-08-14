@@ -65,7 +65,7 @@ Notifies the plug-in that a change occurred in the server environment.
 
 ### -param NotificationType [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/ne-tssbx-__midl_iwtssbplugin_0010">WTSSBX_NOTIFICATION_TYPE</a> enumeration type that indicates the type of event that occurred.
+A value of the <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ne-tssbx-wtssbx_notification_type">WTSSBX_NOTIFICATION_TYPE</a> enumeration type that indicates the type of event that occurred.
 
 
 ### -param MachineId [in]
@@ -75,7 +75,7 @@ The ID of the server on which the change  occurred.
 
 ### -param pMachineInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/ns-tssbx-__midl_iwtssbplugin_0007">WTSSBX_MACHINE_INFO</a> structure that contains information about the server that changed. Only the members that changed are reported in this structure. The other members are set to zero.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ns-tssbx-wtssbx_machine_info">WTSSBX_MACHINE_INFO</a> structure that contains information about the server that changed. Only the members that changed are reported in this structure. The other members are set to zero.
 
 
 ## -returns

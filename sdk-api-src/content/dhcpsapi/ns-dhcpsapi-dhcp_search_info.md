@@ -62,7 +62,7 @@ The <b>DHCP_SEARCH_INFO</b> structure defines the DHCP client record data used t
 ### -field SearchType
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_client_search_type">DHCP_SEARCH_INFO_TYPE</a> enumeration value that specifies the data included in the subsequent member of this structure.
+<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_search_info_type">DHCP_SEARCH_INFO_TYPE</a> enumeration value that specifies the data included in the subsequent member of this structure.
 
 
 ### -field SearchInfo.ClientIpAddress.case
@@ -155,7 +155,7 @@ Unicode string that specifies the network name of the DHCP client.  This field i
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_client_search_type">DHCP_SEARCH_INFO_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_search_info_type">DHCP_SEARCH_INFO_TYPE</a>
  
 
  

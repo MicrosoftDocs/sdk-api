@@ -61,7 +61,7 @@ Returns a list of files that are similar to a given file.
 
 ### -param similarityData [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0012">SimilarityData</a> structure that contains similarity information for the file.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure that contains similarity information for the file.
 
 
 ### -param numberOfMatchesRequired

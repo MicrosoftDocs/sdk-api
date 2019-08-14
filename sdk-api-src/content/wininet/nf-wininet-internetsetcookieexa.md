@@ -154,7 +154,7 @@ Indicates that the cookie being set is associated with an untrusted site.
 
 
 
-Returns a member of the <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ne-wininet-__unnamed_enum_0">InternetCookieState</a> enumeration if successful,  or  <b>FALSE</b> if the function fails. On failure, if a call to 
+Returns a member of the <a href="https://docs.microsoft.com/windows/win32/api/wininet/ne-wininet-internet_scheme">InternetCookieState</a> enumeration if successful,  or  <b>FALSE</b> if the function fails. On failure, if a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_NOT_ENOUGH_MEMORY,  insufficient system memory was available.
 
 

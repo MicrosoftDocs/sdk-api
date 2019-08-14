@@ -87,7 +87,7 @@ Flags specifying testing details. This parameter can have one of the following v
 </dl>
 </td>
 <td width="60%">
-Treat digits U+0030 to U+0039 as complex. The application sets this flag if the string is displayed with digit substitution enabled. If the application is following the user's National Language Support (NLS) settings using the <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptrecorddigitsubstitution">ScriptRecordDigitSubstitution</a> function, it can pass a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_digitsubstitute">SCRIPT_DIGITSUBSTITUTE</a> structure with the <b>DigitSubstitute</b> member set to SCRIPT_DIGITSUBSTITUTE_NONE.
+Treat digits U+0030 to U+0039 as complex. The application sets this flag if the string is displayed with digit substitution enabled. If the application is following the user's National Language Support (NLS) settings using the <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptrecorddigitsubstitution">ScriptRecordDigitSubstitution</a> function, it can pass a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_digitsubstitute">SCRIPT_DIGITSUBSTITUTE</a> structure with the <b>DigitSubstitute</b> member set to SCRIPT_DIGITSUBSTITUTE_NONE.
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-wit
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_digitsubstitute">SCRIPT_DIGITSUBSTITUTE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_digitsubstitute">SCRIPT_DIGITSUBSTITUTE</a>
 
 
 

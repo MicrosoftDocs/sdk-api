@@ -116,7 +116,7 @@ If the hook procedure returns <b>TRUE</b> for any of the remaining messages in a
 
 The <b>Page Setup</b> dialog box includes an image of a sample page that shows how the user's selections affect the appearance of the printed output. The image consists of a rectangle that represents the selected paper or envelope type, with a dotted-line rectangle representing the current margins, and partial (Greek text) characters to show how text looks on the printed page. When you use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)">PageSetupDlg</a> function to create a <b>Page Setup</b> dialog box, you can provide a <i>PagePaintHook</i> hook procedure to customize the appearance of the sample page.
 
-To enable the hook procedure, use the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpsda">PAGESETUPDLG</a> structure that you passed to the creation function. Specify the pointer to the hook procedure in the  <b>lpfnPagePaintHook</b> member and specify the <b>PSD_ENABLEPAGEPAINTHOOK</b> flag in the  <b>Flags</b> member.
+To enable the hook procedure, use the <a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga">PAGESETUPDLG</a> structure that you passed to the creation function. Specify the pointer to the hook procedure in the  <b>lpfnPagePaintHook</b> member and specify the <b>PSD_ENABLEPAGEPAINTHOOK</b> flag in the  <b>Flags</b> member.
 
 Whenever the dialog box is about to draw the contents of the sample page, the hook procedure receives the following messages in the order in which they are listed.
 
@@ -186,7 +186,7 @@ Whenever the dialog box is about to draw the contents of the sample page, the ho
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpsda">PAGESETUPDLG</a>
+<a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga">PAGESETUPDLG</a>
 
 
 

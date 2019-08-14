@@ -67,7 +67,7 @@ Repositions the file pointer for the specified file.
 
 ### -param hFile
 
-A handle to an open file. This handle is created by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-_lcreat">_lcreat</a>.
+A handle to an open file. This handle is created by <a href="https://docs.microsoft.com/windows/win32/api/winbase/nf-winbase-_lcreat">_lcreat</a>.
 
 
 ### -param lOffset

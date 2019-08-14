@@ -315,7 +315,7 @@ The DNS update for the DHCPv4 client lease record needs to be deleted from the D
 </dl>
 </td>
 <td width="60%">
-The DNS update needs to be sent for both <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_2">DNS_A_DATA</a> and <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_3">DNS_PTR_DATA</a> type resource records.
+The DNS update needs to be sent for both <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data">DNS_A_DATA</a> and <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw">DNS_PTR_DATA</a> type resource records.
 
 </td>
 </tr>

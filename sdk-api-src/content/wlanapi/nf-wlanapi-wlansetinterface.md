@@ -71,7 +71,7 @@ The GUID of the interface to be configured.
 
 ### -param OpCode [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_intf_opcode">WLAN_INTF_OPCODE</a> value that specifies the parameter to be set.  The following table lists the valid constants along with the data type of the parameter in <i>pData</i>.
+A <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode~r1">WLAN_INTF_OPCODE</a> value that specifies the parameter to be set.  The following table lists the valid constants along with the data type of the parameter in <i>pData</i>.
 
 <table>
 <tr>
@@ -211,7 +211,7 @@ Changing the software radio state of a physical network interface could cause re
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_intf_opcode">WLAN_INTF_OPCODE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode~r1">WLAN_INTF_OPCODE</a>
 
 
 

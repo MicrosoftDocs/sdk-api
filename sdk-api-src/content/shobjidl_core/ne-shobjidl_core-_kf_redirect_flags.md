@@ -106,7 +106,7 @@ Copy the existing contents—both files and subfolders—of the known folder to 
 
 ### -field KF_REDIRECT_DEL_SOURCE_CONTENTS
 
-Delete the contents of the source folder after they have been copied to the redirected folder. This flag is valid only if <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_kf_redirect_flags">KF_REDIRECT_COPY_CONTENTS</a> is set.
+Delete the contents of the source folder after they have been copied to the redirected folder. This flag is valid only if <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_kf_redirect_flags">KF_REDIRECT_COPY_CONTENTS</a> is set.
 
 
 ### -field KF_REDIRECT_EXCLUDE_ALL_KNOWN_SUBFOLDERS

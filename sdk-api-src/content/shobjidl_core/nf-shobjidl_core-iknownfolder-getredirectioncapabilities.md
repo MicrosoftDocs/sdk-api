@@ -61,9 +61,9 @@ Gets a value that states whether the known folder can have its path set to a new
 
 ### -param pCapabilities [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_kf_redirection_capabilities">KF_REDIRECTION_CAPABILITIES</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_kf_redirection_capabilities">KF_REDIRECTION_CAPABILITIES</a>*</b>
 
-When this method returns, contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_kf_redirection_capabilities">KF_REDIRECTION_CAPABILITIES</a> value that indicates the redirection capabilities for this folder.
+When this method returns, contains a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_kf_redirection_capabilities">KF_REDIRECTION_CAPABILITIES</a> value that indicates the redirection capabilities for this folder.
 
 
 ## -returns

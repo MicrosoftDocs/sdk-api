@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-Contains a script item, including a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_analysis">SCRIPT_ANALYSIS</a> structure with the string offset of the first character of the item.
+Contains a script item, including a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure with the string offset of the first character of the item.
 
 
 
@@ -69,7 +69,7 @@ Offset from the beginning of the itemized string to the first character of the i
 
 ### -field a
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_analysis">SCRIPT_ANALYSIS</a> structure containing the analysis of the item.
+A <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure containing the analysis of the item.
 
 
 ## -see-also
@@ -77,7 +77,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_scr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_analysis">SCRIPT_ANALYSIS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
 
 
 

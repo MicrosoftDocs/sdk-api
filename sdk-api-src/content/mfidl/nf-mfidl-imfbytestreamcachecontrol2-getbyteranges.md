@@ -66,7 +66,7 @@ Receives the number of ranges returned in the <i>ppRanges</i> array.
 
 ### -param ppRanges [out]
 
-Receives an array of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-__midl___midl_itf_mfidl_0000_0058_0001">MF_BYTE_STREAM_CACHE_RANGE</a> structures. Each structure specifies a range of bytes stored in the cache. The caller must free the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+Receives an array of <a href="https://docs.microsoft.com/windows/win32/api/mfidl/ns-mfidl-mf_byte_stream_cache_range">MF_BYTE_STREAM_CACHE_RANGE</a> structures. Each structure specifies a range of bytes stored in the cache. The caller must free the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 ## -returns

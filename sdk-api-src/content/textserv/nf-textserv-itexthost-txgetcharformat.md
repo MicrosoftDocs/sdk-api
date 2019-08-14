@@ -61,7 +61,7 @@ Requests the text host's default character format.
 
 ### -param ppCF
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_charformat">CHARFORMAT</a>**</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>**</b>
 
 The default character format. 
 
@@ -102,7 +102,7 @@ Not implemented.
 
 
 
-The text host retains ownership of the <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_charformat">CHARFORMAT</a> returned. However, the pointer returned must remain valid until the text host notifies the text services object through <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxpropertybitschange">OnTxPropertyBitsChange</a> that the default character format has changed.
+The text host retains ownership of the <a href="https://docs.microsoft.com/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a> returned. However, the pointer returned must remain valid until the text host notifies the text services object through <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxpropertybitschange">OnTxPropertyBitsChange</a> that the default character format has changed.
 
 
 
@@ -112,7 +112,7 @@ The text host retains ownership of the <a href="https://docs.microsoft.com/windo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_charformat">CHARFORMAT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>
 
 
 

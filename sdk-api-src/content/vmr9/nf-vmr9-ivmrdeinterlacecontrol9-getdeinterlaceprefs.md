@@ -65,7 +65,7 @@ The <b>GetDeinterlacePrefs</b> method queries how the VMR will select a deinterl
 
 ### -param lpdwDeinterlacePrefs [in]
 
-Pointer to a variable that receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0013_0001">VMR9DeinterlacePrefs</a> enumeration.
+Pointer to a variable that receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9deinterlaceprefs">VMR9DeinterlacePrefs</a> enumeration.
 
 
 ## -returns

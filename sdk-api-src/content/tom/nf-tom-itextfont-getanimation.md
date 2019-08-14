@@ -66,15 +66,15 @@ Type: <b>long*</b>
 One of the following animation types. 
 					
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomNoAnimation</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomLasVegasLights</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBlinkingBackground</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSparkleText</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMarchingBlackAnts</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMarchingRedAnts</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomShimmer</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomWipeDown</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomWipeRight</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomNoAnimation</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomLasVegasLights</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomBlinkingBackground</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomSparkleText</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMarchingBlackAnts</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMarchingRedAnts</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomShimmer</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomWipeDown</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomWipeRight</a>
 
 ## -returns
 

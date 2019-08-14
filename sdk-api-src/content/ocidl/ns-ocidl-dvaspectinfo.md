@@ -66,7 +66,7 @@ The size of the structure, in bytes.
 
 ### -field dwFlags
 
-A value taken from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagaspectinfoflag">DVASPECTINFOFLAG</a> enumeration.
+A value taken from the <a href="https://docs.microsoft.com/windows/win32/api/ocidl/ne-ocidl-dvaspectinfoflag">DVASPECTINFOFLAG</a> enumeration.
 
 
 
@@ -75,7 +75,7 @@ A value taken from the <a href="https://docs.microsoft.com/windows/desktop/api/o
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagaspectinfoflag">DVASPECTINFOFLAG</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ocidl/ne-ocidl-dvaspectinfoflag">DVASPECTINFOFLAG</a>
 
 
 

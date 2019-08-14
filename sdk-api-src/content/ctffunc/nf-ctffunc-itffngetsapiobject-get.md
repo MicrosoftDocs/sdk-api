@@ -127,7 +127,7 @@ The requested object is not implemented.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/ne-ctffunc-__midl___midl_itf_ctffunc_0000_0011_0001">TfSapiObject
+<a href="https://docs.microsoft.com/windows/win32/api/ctffunc/ne-ctffunc-tfsapiobject">TfSapiObject
       </a>
  
 

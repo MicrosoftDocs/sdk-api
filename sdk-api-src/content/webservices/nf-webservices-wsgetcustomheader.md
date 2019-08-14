@@ -127,7 +127,7 @@ The interpretation of this parameter depends on the <a href="https://docs.micros
 
 ### -param headerAttributes
 
-Returns the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_5">WS_HEADER_ATTRIBUTES</a> for this header.
+Returns the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_text_type">WS_HEADER_ATTRIBUTES</a> for this header.
                     The pointer may be <b>NULL</b>, in which case no attributes are returned.
                 
 

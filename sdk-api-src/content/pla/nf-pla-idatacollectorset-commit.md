@@ -71,7 +71,7 @@ The computer on which you want to save the set. You can specify a computer name,
 
 ### -param mode [in]
 
-Indicates whether you want to save, update, flush, or validate the data collector set. For possible values, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/ne-pla-__midl___midl_itf_pla_0001_0043_0007">CommitMode</a> enumeration.
+Indicates whether you want to save, update, flush, or validate the data collector set. For possible values, see the <a href="https://docs.microsoft.com/windows/win32/api/pla/ne-pla-commitmode">CommitMode</a> enumeration.
 
 
 ### -param validation [out]

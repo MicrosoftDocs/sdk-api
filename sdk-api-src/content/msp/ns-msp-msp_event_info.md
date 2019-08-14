@@ -84,7 +84,7 @@ Struct returned if MSP event is ME_ADDRESS_EVENT.
 ### -field MSP_ADDRESS_EVENT_INFO.Type
 
 Describes the 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/ne-msp-__midl___midl_itf_msp_0000_0000_0001">msp address event</a> of the event that has occurred.
+<a href="https://docs.microsoft.com/windows/win32/api/msp/ne-msp-msp_address_event">msp address event</a> of the event that has occurred.
 
 
 ### -field MSP_ADDRESS_EVENT_INFO.pTerminal
@@ -101,7 +101,7 @@ Struct returned if MSP event is ME_CALL_EVENT.
 ### -field MSP_CALL_EVENT_INFO.Type
 
 Indicates type of 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/ne-msp-__midl___midl_itf_msp_0000_0000_0002">MSP_CALL_EVENT</a> that has occurred.
+<a href="https://docs.microsoft.com/windows/win32/api/msp/ne-msp-msp_call_event">MSP_CALL_EVENT</a> that has occurred.
 
 
 ### -field MSP_CALL_EVENT_INFO.Cause

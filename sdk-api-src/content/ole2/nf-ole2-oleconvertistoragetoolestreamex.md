@@ -89,7 +89,7 @@ Size of the data, in bytes, to be converted.
 ### -param pmedium [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a> structure for the serialized data to be converted.
+<a href="https://docs.microsoft.com/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> structure for the serialized data to be converted.
 
 
 ### -param polestm [out]
@@ -120,7 +120,7 @@ Because
 <b>OleConvertIStorageToOLESTREAMEx</b> can specify which presentation data to convert, it can be used by applications that do not use OLE default caching resources but do use OLE's conversion resources.
 
 The value of the <b>tymed</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a> must be either TYMED_HGLOBAL or TYMED_ISTREAM; refer to the 
+<a href="https://docs.microsoft.com/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> must be either TYMED_HGLOBAL or TYMED_ISTREAM; refer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tymed">TYMED</a> enumeration for more information. The medium is not released by the 
 <b>OleConvertIStorageToOLESTREAMEx</b> function.
 
@@ -148,7 +148,7 @@ The value of the <b>tymed</b> member of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a>
+<a href="https://docs.microsoft.com/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a>
 
 
 

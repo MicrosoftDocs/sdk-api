@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-The <b>IWMMediaProps</b> interface sets and retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmmediatype">WM_MEDIA_TYPE</a> structure for an input, stream, or output.
+The <b>IWMMediaProps</b> interface sets and retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type">WM_MEDIA_TYPE</a> structure for an input, stream, or output.
 
 In the case of inputs and streams, the contents of the media type structure determine what actions the writer object will perform on the input data when writing the file. Typically, the input media type is an uncompressed type and the stream is a compressed type, so that the contents of their respective media type structures will determine the settings passed by the writer to the codec that will compress the stream.
 

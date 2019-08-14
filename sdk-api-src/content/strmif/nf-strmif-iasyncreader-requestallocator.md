@@ -70,7 +70,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn
 
 ### -param pProps [in]
 
-Specifies the address of an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_allocatorproperties">ALLOCATOR_PROPERTIES</a> structure, allocated by the caller. The caller should fill in any allocator properties that the input pin requires, and set the remaining members to zero.
+Specifies the address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-allocator_properties">ALLOCATOR_PROPERTIES</a> structure, allocated by the caller. The caller should fill in any allocator properties that the input pin requires, and set the remaining members to zero.
 
 
 ### -param ppActual [out]

@@ -61,12 +61,12 @@ Contains constants used to specify the type of analysis to perform by using the 
 
 ### -field WMIQ_ANALYSIS_RPN_SEQUENCE
 
-Used if the query has a SELECT clause. When this type of analysis is used,  <i>pAnalysis</i> points to an <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemrpnencodedquery">SWbemRpnEncodedQuery</a> structure.
+Used if the query has a SELECT clause. When this type of analysis is used,  <i>pAnalysis</i> points to an <a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnencodedquery">SWbemRpnEncodedQuery</a> structure.
 
 
 ### -field WMIQ_ANALYSIS_ASSOC_QUERY
 
-Used to return information about association type queries. When this type of analysis is used,  <i>pAnalysis</i> points to an <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemassocqueryinf">SWbemAssocQueryInf</a> structure.
+Used to return information about association type queries. When this type of analysis is used,  <i>pAnalysis</i> points to an <a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemassocqueryinf">SWbemAssocQueryInf</a> structure.
 
 
 ### -field WMIQ_ANALYSIS_PROP_ANALYSIS_MATRIX

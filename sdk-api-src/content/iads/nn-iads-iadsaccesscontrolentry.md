@@ -70,7 +70,7 @@ Some of the <b>IADsAccessControlEntry</b> property
     <b>AceFlags</b>, will be different 
     for different object types. For example, an Active Directory object will use the 
     <b>ADS_RIGHT_GENERIC_READ</b> member of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0048_0001">ADS_RIGHTS_ENUM</a> enumeration for the 
+    <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_rights_enum">ADS_RIGHTS_ENUM</a> enumeration for the 
     <b>IADsAccessControlEntry.AccessMask</b> 
     property, but the equivalent access right for a file object is <b>FILE_GENERIC_READ</b>. It is 
     not safe to assume that all property values will be the same for Active Directory objects and non-Active Directory 

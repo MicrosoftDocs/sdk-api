@@ -84,7 +84,7 @@ A value that contains a bitmap of <a href="https://docs.microsoft.com/windows/de
 
 ### -field pQueryRecords
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure.
 
 If the query was completed asynchronously and this structure was returned directly from <a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsqueryex">DnsQueryEx</a>, <b>pQueryRecords</b> is NULL.
 

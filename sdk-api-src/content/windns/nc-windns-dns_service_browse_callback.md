@@ -52,7 +52,7 @@ A value that contains the status associated with this particular set of results.
 A pointer to the user context that was passed to [DnsServiceBrowse](nf-windns-dnsservicebrowse.md).
 
 ### -param pDnsRecord
-A pointer to a [DNS_RECORD](/windows/desktop/api/windns/ns-windns-_dnsrecordw) structure that contains a list of records describing a discovered service on the network. If not `nullptr`, then you are responsible for freeing the returned RR sets using [DnsRecordListFree](/windows/desktop/api/windns/nf-windns-dnsrecordlistfree).
+A pointer to a [DNS_RECORD](/windows/win32/api/windns/ns-windns-dns_recordw) structure that contains a list of records describing a discovered service on the network. If not `nullptr`, then you are responsible for freeing the returned RR sets using [DnsRecordListFree](/windows/desktop/api/windns/nf-windns-dnsrecordlistfree).
 
 ## -returns
 This callback function does not return a value.

@@ -129,7 +129,7 @@ One or more parameters are invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ne-ctfutb-__midl___midl_itf_ctfutb_0000_0010_0001">TfLBIClick
+<a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick
       </a>
  
 

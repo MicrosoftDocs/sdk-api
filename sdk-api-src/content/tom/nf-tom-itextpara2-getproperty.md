@@ -88,12 +88,12 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomParaPropMathAlign</a> property sets the math alignment for math paragraphs in a text paragraph. It can have one of the following values.<dl>
-<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathParaAlignDefault</a></dd>
-<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathParaAlignCenterGroup</a></dd>
-<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathParaAlignCenter</a></dd>
-<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathParaAlignLeft</a></dd>
-<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathParaAlignRight</a></dd>
+The <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomParaPropMathAlign</a> property sets the math alignment for math paragraphs in a text paragraph. It can have one of the following values.<dl>
+<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathParaAlignDefault</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathParaAlignCenterGroup</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathParaAlignCenter</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathParaAlignLeft</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathParaAlignRight</a></dd>
 </dl>
 
 

@@ -93,7 +93,7 @@ The anchor is not shifted.
 
 ### -param dir [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl_ianchor_0002">TsShiftDir</a> values that specifies which adjacent region the anchor is moved to.
+Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/textstor/ne-textstor-tsshiftdir">TsShiftDir</a> values that specifies which adjacent region the anchor is moved to.
 
 <table>
 <tr>
@@ -226,7 +226,7 @@ An input parameter value is invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl_ianchor_0002">TsShiftDir
+<a href="https://docs.microsoft.com/windows/win32/api/textstor/ne-textstor-tsshiftdir">TsShiftDir
       </a>
  
 

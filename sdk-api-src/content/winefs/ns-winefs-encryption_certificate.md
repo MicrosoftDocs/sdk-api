@@ -72,7 +72,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">
 ### -field pCertBlob
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_certificate_blob">EFS_CERTIFICATE_BLOB</a> structure.
+<a href="https://docs.microsoft.com/windows/win32/api/winefs/ns-winefs-efs_certificate_blob">EFS_CERTIFICATE_BLOB</a> structure.
 
 
 ## -see-also
@@ -80,7 +80,7 @@ A pointer to an
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_certificate_blob">EFS_CERTIFICATE_BLOB</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winefs/ns-winefs-efs_certificate_blob">EFS_CERTIFICATE_BLOB</a>
 
 
 

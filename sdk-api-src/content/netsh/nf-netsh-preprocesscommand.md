@@ -212,7 +212,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_tag_type">TAG_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/netsh/ns-netsh-tag_type">TAG_TYPE</a>
  
 
  

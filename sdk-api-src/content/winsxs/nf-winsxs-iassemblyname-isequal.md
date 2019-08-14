@@ -66,7 +66,7 @@ A pointer to another  <a href="https://docs.microsoft.com/windows/desktop/api/wi
 
 ### -param dwCmpFlags [in]
 
-Indicates which portion of the assembly names are to be compared. The value can be one of the options of the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/ne-winsxs-__midl_iassemblyname_0004">ASM_CMP_FLAGS</a> enumeration.
+Indicates which portion of the assembly names are to be compared. The value can be one of the options of the <a href="https://docs.microsoft.com/windows/win32/api/winsxs/ne-winsxs-asm_cmp_flags">ASM_CMP_FLAGS</a> enumeration.
 
 
 ## -returns

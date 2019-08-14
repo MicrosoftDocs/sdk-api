@@ -58,7 +58,7 @@ The main object that an application must create  to start a collaboration sessio
 
 This interface uses the  single-threaded apartment (STA) threading model. The object exposes a source interface 
     that is used for firing session-specific events 
-    (<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-_irdpsessionevents">_IRDPSessionEvents</a>) and a dual interface that is used 
+    (<a href="https://docs.microsoft.com/windows/win32/api/rdpencomapi/nn-rdpencomapi-_irdpsessionevents">_IRDPSessionEvents</a>) and a dual interface that is used 
     for managing a session.
 
 This interface extends the 

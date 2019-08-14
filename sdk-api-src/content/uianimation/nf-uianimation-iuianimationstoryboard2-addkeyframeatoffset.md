@@ -113,7 +113,7 @@ A keyframe represents a moment in time within a storyboard and can be used to sp
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ns-uianimation-__midl___midl_itf_uianimation_0000_0002_0003">UI_ANIMATION_KEYFRAME</a>
+<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ns-uianimation-__midl___midl_itf_uianimation_0000_0002_0003">UI_ANIMATION_KEYFRAME</a>
  
 
  

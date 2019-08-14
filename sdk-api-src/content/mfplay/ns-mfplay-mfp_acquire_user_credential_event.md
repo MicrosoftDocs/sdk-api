@@ -118,7 +118,7 @@ The number of retries. This member is set to zero on the first attempt, and incr
 
 ### -field flags
 
-Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/ne-mfplay-_mfp_credential_flags">_MFP_CREDENTIAL_FLAGS</a> enumeration.
+Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/win32/api/mfplay/ne-mfplay-_mfp_credential_flags">_MFP_CREDENTIAL_FLAGS</a> enumeration.
 
 
 ### -field pCredential

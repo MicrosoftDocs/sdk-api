@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts a print ticket into a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> structure.
+Converts a print ticket into a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/Stg/istream-
 
 ### -param baseDevmodeType
 
-A value indicating whether the user's default <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> or the print queue's default <b>DEVMODE</b> is used to provide values to the output <b>DEVMODE</b> when <i>pPrintTicket</i> does not specify every possible setting for a <b>DEVMODE</b>.
+A value indicating whether the user's default <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> or the print queue's default <b>DEVMODE</b> is used to provide values to the output <b>DEVMODE</b> when <i>pPrintTicket</i> does not specify every possible setting for a <b>DEVMODE</b>.
 
 
 ### -param scope [in]
@@ -81,12 +81,12 @@ A value that specifies the scope of <i>pPrintTicket</i>. This value can specify 
 
 ### -param pcbDevmode [out]
 
-A pointer to the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> in bytes.
+A pointer to the size of the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> in bytes.
 
 
 ### -param ppDevmode [out]
 
-A pointer to the newly created <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a>.
+A pointer to the newly created <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>.
 
 
 ### -param pbstrErrorMessage [out]
@@ -120,7 +120,7 @@ The <i>hProvider</i> parameter must be a handle that was opened in the same thre
 
 If <i>baseDevmodeType</i> is kUserDefaultDevmode, but the user's default is not available, then the device's default will be used.
 
-The returned <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> may be internally inconsistent or conflict with hard printer settings even though each setting within it is viable individually. For example, if the printer supports an optional duplexer but the <i>pPrintTicket</i> calls for duplexing, then the returned <b>DEVMODE</b> will also call for duplexing, even if the duplexer is not installed. Use <a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a> to correct the returned <b>DEVMODE</b>.
+The returned <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> may be internally inconsistent or conflict with hard printer settings even though each setting within it is viable individually. For example, if the printer supports an optional duplexer but the <i>pPrintTicket</i> calls for duplexing, then the returned <b>DEVMODE</b> will also call for duplexing, even if the duplexer is not installed. Use <a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a> to correct the returned <b>DEVMODE</b>.
 
 The buffer in the returned <i>ppDevmode</i> should be released with <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptreleasememory">PTReleaseMemory</a>.
 

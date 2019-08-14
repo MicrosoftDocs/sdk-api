@@ -66,7 +66,7 @@ A pointer to a variable that receives the number of traits that were matched.
 
 ### -param similarityFileId [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0015">SimilarityFileId</a> structure that contains the similarity file ID of the matching file.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similarityfileid">SimilarityFileId</a> structure that contains the similarity file ID of the matching file.
 
 
 ## -returns

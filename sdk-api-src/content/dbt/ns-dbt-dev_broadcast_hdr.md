@@ -73,7 +73,7 @@ The size of this structure, in bytes.
 
 
 If this is a user-defined event, this member must be the size of this header, plus the size of the variable-length data in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_userdefined">_DEV_BROADCAST_USERDEFINED</a> structure.
+<a href="https://docs.microsoft.com/windows/win32/api/dbt/ns-dbt-_dev_broadcast_userdefined">_DEV_BROADCAST_USERDEFINED</a> structure.
 
 
 ### -field dbch_devicetype

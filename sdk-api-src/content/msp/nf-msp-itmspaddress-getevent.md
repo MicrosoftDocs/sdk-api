@@ -69,7 +69,7 @@ A pointer to a DWORD that contains the size, in bytes, of <i>pEventBuffer</i>.  
 ### -param pEventBuffer
 
 [in, out, size_is(*<i>pdwSize</i>)] A pointer to buffer that contains 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/ns-msp-__midl___midl_itf_msp_0000_0000_0005">MSP event_info</a> information.
+<a href="https://docs.microsoft.com/windows/win32/api/msp/ns-msp-msp_event_info">MSP event_info</a> information.
 
 
 ## -returns

@@ -72,7 +72,7 @@ Duration of the time-out, in milliseconds, or INFINITE to specify an infinite ti
 
 ### -param pfs [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_filterstate">FILTER_STATE</a> enumeration.
+Receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-filter_state">FILTER_STATE</a> enumeration.
 
 
 ## -returns
@@ -148,7 +148,7 @@ This method returns an error if there is a call on another thread to change the 
 
 Avoid specifying a time-out of INFINITE, because threads cannot process messages while waiting in <code>GetState</code>. If you call <code>GetState</code> from the thread that processes Windows messages, specify small wait times on the call in order to remain responsive to user input. This is especially important when the source is streaming over a network or from the Internet because state transitions in these environments can take significantly more time to complete.
 
-The <i>pfs</i> parameter is typed as an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/oafilterstate">OAFilterState</a> pointer but receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_filterstate">FILTER_STATE</a> enumeration. You can cast the variable as follows:
+The <i>pfs</i> parameter is typed as an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/oafilterstate">OAFilterState</a> pointer but receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-filter_state">FILTER_STATE</a> enumeration. You can cast the variable as follows:
 
 
 ```cpp

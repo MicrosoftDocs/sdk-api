@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Adds a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0012">SimilarityData</a> structure to the similarity traits table.
+Adds a <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure to the similarity traits table.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ Adds a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api
 
 ### -param data [in]
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0012">SimilarityData</a> structure to be added to the similarity traits table.
+The <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure to be added to the similarity traits table.
 
 
 ### -param fileIndex [in]
 
-The index in the similarity traits table where the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0012">SimilarityData</a> structure is to be inserted.
+The index in the similarity traits table where the <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure is to be inserted.
 
 
 ## -returns

@@ -204,7 +204,7 @@ For more information about using <b>SAFEARRAY</b> structures of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_wbem_condition_flag_type">WBEM_CONDITION_FLAG_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_condition_flag_type">WBEM_CONDITION_FLAG_TYPE</a>
 
 
 

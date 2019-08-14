@@ -66,7 +66,7 @@ The <code>Initialize</code> method initializes the multimedia stream object.
 
 ### -param StreamType [in]
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/ne-mmstream-__midl___midl_itf_mmstream_0000_0000_0001">STREAM_TYPE</a> enumeration, specifying whether the streams are read-only, write-only, or read/write.
+Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mmstream/ne-mmstream-stream_type">STREAM_TYPE</a> enumeration, specifying whether the streams are read-only, write-only, or read/write.
 
 
 ### -param dwFlags [in]

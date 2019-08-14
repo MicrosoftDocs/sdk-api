@@ -72,7 +72,7 @@ The <b>code</b> member of this structure identifies the notification message bei
 
 Type: <b>LPOPENFILENAME</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagofna">OPENFILENAME</a> structure containing the values specified when the <b>Open</b> or <b>Save As</b> dialog box was created. 
+A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> structure containing the values specified when the <b>Open</b> or <b>Save As</b> dialog box was created. 
 
 
 ### -field psf
@@ -114,7 +114,7 @@ A pointer to an item identifier list that identifies an item in the container id
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagofna">OPENFILENAME</a>
+<a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a>
 
 
 

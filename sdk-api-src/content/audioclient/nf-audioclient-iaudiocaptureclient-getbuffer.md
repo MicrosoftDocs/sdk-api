@@ -72,7 +72,7 @@ Pointer to a <b>UINT32</b> variable into which the method writes the frame count
 
 ### -param pdwFlags [out]
 
-Pointer to a <b>DWORD</b> variable into which the method writes the buffer-status flags. The method writes either 0 or the bitwise-OR combination of one or more of the following <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/ne-audioclient-_audclnt_bufferflags">_AUDCLNT_BUFFERFLAGS</a> enumeration values:
+Pointer to a <b>DWORD</b> variable into which the method writes the buffer-status flags. The method writes either 0 or the bitwise-OR combination of one or more of the following <a href="https://docs.microsoft.com/windows/win32/api/audioclient/ne-audioclient-_audclnt_bufferflags">_AUDCLNT_BUFFERFLAGS</a> enumeration values:
 
 AUDCLNT_BUFFERFLAGS_SILENT
 

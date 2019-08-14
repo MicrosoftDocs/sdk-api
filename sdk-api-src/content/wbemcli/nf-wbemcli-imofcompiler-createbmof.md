@@ -185,7 +185,7 @@ Permits only new instances.
 
 ### -param pInfo [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ns-wbemcli-tag_compilestatusinfo">WBEM_COMPILE_STATUS_INFO</a> that describes an error.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ns-wbemcli-wbem_compile_status_info">WBEM_COMPILE_STATUS_INFO</a> that describes an error.
 
 If the parameter value is not <b>NULL</b>, an error has occurred, and the structure is filled  with error information.
 
@@ -208,11 +208,11 @@ This method returns <b>WBEM_S_NO_ERROR</b> if successful. If the method is unsuc
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_wbem_change_flag_type">WBEM_CHANGE_FLAG_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_change_flag_type">WBEM_CHANGE_FLAG_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_wbem_compiler_options">WBEM_COMPILER_OPTIONS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_compiler_options">WBEM_COMPILER_OPTIONS</a>
 
 
 

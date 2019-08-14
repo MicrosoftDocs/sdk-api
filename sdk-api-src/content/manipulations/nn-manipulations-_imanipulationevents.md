@@ -71,7 +71,7 @@ The <b>_IManipulationEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a>
+<a href="https://docs.microsoft.com/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a>
 </td>
 <td align="left" width="63%">
 Handles the event when manipulation or inertia finishes.
@@ -80,7 +80,7 @@ Handles the event when manipulation or inertia finishes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationdelta">ManipulationDelta</a>
+<a href="https://docs.microsoft.com/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationdelta">ManipulationDelta</a>
 </td>
 <td align="left" width="63%">
 Handles events that happen when a manipulated object changes.
@@ -89,7 +89,7 @@ Handles events that happen when a manipulated object changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationstarted">ManipulationStarted</a>
+<a href="https://docs.microsoft.com/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationstarted">ManipulationStarted</a>
 </td>
 <td align="left" width="63%">
 Handles the event when manipulation or inertia begins.

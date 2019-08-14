@@ -108,7 +108,7 @@ Called by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpdexa">PRINTDLGEX</a>
+<a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-printdlgexa">PRINTDLGEX</a>
 
 
 

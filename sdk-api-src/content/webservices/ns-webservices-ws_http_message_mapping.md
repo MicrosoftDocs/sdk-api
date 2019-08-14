@@ -151,7 +151,7 @@ Other information in an HTTP request or response that does not correspond
                 to HTTP headers can be mapped into header of the message object by setting the 
                 requestMappingOptions or responseMappingOptions.  These mapped values can then be
                 extracted using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmappedheader">WsGetMappedHeader</a>.  
-                See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_3">WS_HTTP_REQUEST_MAPPING_OPTIONS</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_2">WS_HTTP_RESPONSE_MAPPING_OPTIONS</a> 
+                See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_writer_property_id">WS_HTTP_REQUEST_MAPPING_OPTIONS</a> or <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_canonicalization_property_id">WS_HTTP_RESPONSE_MAPPING_OPTIONS</a> 
                 for information about what information can be mapped into message headers.
             
 

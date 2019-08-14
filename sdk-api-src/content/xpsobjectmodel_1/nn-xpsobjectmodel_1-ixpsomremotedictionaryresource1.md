@@ -75,7 +75,7 @@ The <b>IXpsOMRemoteDictionaryResource1</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsomremotedictionaryresource1-getdocumenttype">GetDocumentType</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-__midl___midl_itf_xpsobjectmodel_1_0000_0000_0001">XPS_DOCUMENT_TYPE</a> of the resource.
+Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_document_type">XPS_DOCUMENT_TYPE</a> of the resource.
 
 </td>
 </tr>

@@ -66,7 +66,7 @@ The method number.
 
 ### -param pInfo [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/callobj/ns-callobj-__midl_icallframe_0001">CALLFRAMEINFO</a> structure containing information about the specified method.
+A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/callobj/ns-callobj-callframeinfo">CALLFRAMEINFO</a> structure containing information about the specified method.
 
 
 ### -param pwszMethod [out]

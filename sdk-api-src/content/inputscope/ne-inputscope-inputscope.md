@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/inputscope/ne-inputscope-__midl___midl_itf_inputscope_0000_0000_0001">InputScope</a> enumeration contains values that specify which input scopes are applied to a given field.
+The <a href="https://docs.microsoft.com/windows/win32/api/inputscope/ne-inputscope-inputscope">InputScope</a> enumeration contains values that specify which input scopes are applied to a given field.
 
 
 ## -enum-fields

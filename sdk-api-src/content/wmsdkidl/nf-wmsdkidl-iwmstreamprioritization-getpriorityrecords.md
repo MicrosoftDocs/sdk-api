@@ -151,7 +151,7 @@ Records in a stream prioritization object are given in order of decreasing prior
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmstreamprioritizationrecord">WM_STREAM_PRIORITY_RECORD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_stream_priority_record">WM_STREAM_PRIORITY_RECORD</a>
  
 
  

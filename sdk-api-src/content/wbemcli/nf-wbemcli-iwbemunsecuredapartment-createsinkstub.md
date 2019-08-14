@@ -91,7 +91,7 @@ Pointer to the client's in-process implementation of
 ### -param dwFlags [in]
 
 You can set one of the following values from 
-       <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_wbem_unsecapp_flag_type">WBEM_UNSECAPP_FLAG_TYPE</a> enumeration. This 
+       <a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_unsecapp_flag_type">WBEM_UNSECAPP_FLAG_TYPE</a> enumeration. This 
        parameter determines how Unsecapp.exe uses the registry key checks this registry key:
 
 

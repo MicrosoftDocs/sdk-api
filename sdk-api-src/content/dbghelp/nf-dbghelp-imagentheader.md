@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 
 Locates the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_nt_headers">IMAGE_NT_HEADERS</a> structure in a PE image and returns a pointer to the data.
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure in a PE image and returns a pointer to the data.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ The base address of an image that is mapped into memory by a call to the
 
 
 If the function succeeds, the return value is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_nt_headers">IMAGE_NT_HEADERS</a> structure.
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure.
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -99,7 +99,7 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_nt_headers">IMAGE_NT_HEADERS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a>
 
 
 

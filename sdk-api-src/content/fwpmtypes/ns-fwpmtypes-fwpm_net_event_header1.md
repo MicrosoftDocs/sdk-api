@@ -310,7 +310,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-f
 
 #### reserved4
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-__midl___midl_itf_fwpmtypes_0000_0000_0001">DL_ADDRESS_TYPE</a> enumeration.
+A <a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ne-fwpmtypes-dl_address_type">DL_ADDRESS_TYPE</a> enumeration.
 
 
 

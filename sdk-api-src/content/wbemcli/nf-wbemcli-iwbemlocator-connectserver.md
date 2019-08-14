@@ -252,7 +252,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_wbem_connect_options">WBEM_CONNECT_OPTIONS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_connect_options">WBEM_CONNECT_OPTIONS</a>
  
 
  

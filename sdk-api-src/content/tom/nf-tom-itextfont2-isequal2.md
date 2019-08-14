@@ -90,7 +90,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
  For two text font objects to be equal, both must belong to the same Text Object Model (TOM) object. 
 
-The <b>ITextFont::IsEqual2</b> method ignores entries for which either font object has a <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomUndefined</a> value.
+The <b>ITextFont::IsEqual2</b> method ignores entries for which either font object has a <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomUndefined</a> value.
 
 
 

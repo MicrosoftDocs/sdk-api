@@ -73,7 +73,7 @@ A pointer to a string that represents the domain name of the record set. This mu
 
 ### -field wType
 
-A value that represents the RR <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Record Type</a>. <b>wType</b> determines the format of <b>Data</b>. For example, if the value of <b>wType</b> is <b>DNS_TYPE_A</b>, the data type of <b>Data</b> is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_2">DNS_A_DATA</a>.
+A value that represents the RR <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Record Type</a>. <b>wType</b> determines the format of <b>Data</b>. For example, if the value of <b>wType</b> is <b>DNS_TYPE_A</b>, the data type of <b>Data</b> is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data">DNS_A_DATA</a>.
 
 
 ### -field wDataLength
@@ -112,7 +112,7 @@ The length, in bytes, of <b>Data</b>. For fixed-length data types, this value is
 ### -field Flags.S
 
 A set of flags in the form of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecordflags">DNS_RECORD_FLAGS</a> structure.
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_record_flags">DNS_RECORD_FLAGS</a> structure.
 
 
 ### -field dwTtl
@@ -133,43 +133,43 @@ The DNS RR data type is determined by <b>wType</b> and is one of the following m
 
 #### SOA, Soa
 
-The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_5">DNS_SOA_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_SOA</b>.
+The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_soa_dataw">DNS_SOA_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_SOA</b>.
 
 
 
 #### PTR, Ptr, NS, Ns, CNAME, Cname, DNAME, Dname, MB, Mb, MD, Md, MF, Mf, MG, Mg, MR, Mr
 
-The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_3">DNS_PTR_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_PTR</b>.
+The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw">DNS_PTR_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_PTR</b>.
 
 
 
 #### MINFO, Minfo, RP, Rp
 
-The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_7">DNS_MINFO_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_MINFO</b>.
+The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_minfo_dataw">DNS_MINFO_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_MINFO</b>.
 
 
 
 #### MX, Mx, AFSDB, Afsdb, RT, Rt
 
-The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_10">DNS_MX_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_MX</b>.
+The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_mx_dataa">DNS_MX_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_MX</b>.
 
 
 
 #### HINFO, Hinfo, ISDN, Isdn, TXT, Txt, X25
 
-The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_11">DNS_TXT_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_TEXT</b>.
+The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_txt_dataw">DNS_TXT_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_TEXT</b>.
 
 
 
 #### WKS, Wks
 
-The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_14">DNS_WKS_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_WKS</b>.
+The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_wks_data">DNS_WKS_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_WKS</b>.
 
 
 
 #### KEY, Key
 
-The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_18">DNS_KEY_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_KEY</b>.
+The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_key_data">DNS_KEY_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_KEY</b>.
 
 
 
@@ -181,49 +181,49 @@ The RR data type is <a href="https://docs.microsoft.com/previous-versions/window
 
 #### ATMA, Atma
 
-The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_34">DNS_ATMA_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_ATMA</b>.
+The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw4">DNS_ATMA_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_ATMA</b>.
 
 
 
 #### NXT, Nxt
 
-The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_28">DNS_NXT_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NXT</b>.
+The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data8">DNS_NXT_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NXT</b>.
 
 
 
 #### SRV, Srv
 
-The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_30">DNS_SRV_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_SRV</b>.
+The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw0">DNS_SRV_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_SRV</b>.
 
 
 
 #### NAPTR, Naptr
 
-The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_32">DNS_NAPTR_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NAPTR</b>.
+The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw2">DNS_NAPTR_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NAPTR</b>.
 
 
 
 #### OPT, Opt
 
-Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_26">DNS_OPT_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_OPT</b>.
+Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data6">DNS_OPT_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_OPT</b>.
 
 
 
 #### DS, Ds
 
-Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_25">DNS_DS_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_DS</b>.
+Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data5">DNS_DS_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_DS</b>.
 
 
 
 #### RRSIG, Rrsig
 
-Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_16">DNS_RRSIG_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_RRSIG</b>.
+Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_sig_dataw">DNS_RRSIG_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_RRSIG</b>.
 
 
 
 #### NSEC, Nsec
 
-Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_20">DNS_NSEC_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NSEC</b>.
+Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data0">DNS_NSEC_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NSEC</b>.
 
 
 
@@ -235,30 +235,30 @@ Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/pre
 
 #### TKEY, Tkey
 
-The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_35">DNS_TKEY_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_TKEY</b>.
+The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw5">DNS_TKEY_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_TKEY</b>.
 
 
 
 #### TSIG, Tsig
 
-The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_37">DNS_TSIG_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_TSIG</b>.
+The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw7">DNS_TSIG_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_TSIG</b>.
 
 
 
 #### WINS, Wins
 
-The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_40">DNS_WINS_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_WINS</b>.
+The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_wins_data">DNS_WINS_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_WINS</b>.
 
 
 
 #### WINSR, WinsR, NBSTAT, Nbstat
 
-The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_41">DNS_WINSR_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_WINSR</b>.
+The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_winsr_dataw">DNS_WINSR_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_WINSR</b>.
 
 
 ### -field Data.A
 
-The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_2">DNS_A_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_A</b>.
+The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data">DNS_A_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_A</b>.
 
 
 ### -field Data.SOA
@@ -448,7 +448,7 @@ The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/wind
 
 ### -field Data.Null
 
-The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_13">DNS_NULL_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NULL</b>.
+The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_null_data">DNS_NULL_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_NULL</b>.
 
 
 ### -field Data.WKS
@@ -463,7 +463,7 @@ The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/wind
 
 ### -field Data.AAAA
 
-The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_15">DNS_AAAA_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_AAAA</b>.
+The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_aaaa_data">DNS_AAAA_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_AAAA</b>.
 
 
 ### -field Data.KEY
@@ -628,7 +628,7 @@ The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/wind
 
 ### -field Data.DHCID
 
-Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_19">DNS_DHCID_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_DHCID</b>.
+Windows 7 or later: The RR data type is <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_dhcid_data">DNS_DHCID_DATA</a>. The value of <b>wType</b> is <b>DNS_TYPE_DHCID</b>.
 
 
 ### -field Data.NSEC3
@@ -694,19 +694,19 @@ When building a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_15">DNS_AAAA_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_aaaa_data">DNS_AAAA_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_34">DNS_ATMA_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw4">DNS_ATMA_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_2">DNS_A_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data">DNS_A_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_19">DNS_DHCID_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_dhcid_data">DNS_DHCID_DATA</a>
 
 
 
@@ -714,51 +714,51 @@ When building a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_25">DNS_DS_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data5">DNS_DS_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_18">DNS_KEY_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_key_data">DNS_KEY_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_27">DNS_LOC_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data7">DNS_LOC_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_7">DNS_MINFO_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_minfo_dataw">DNS_MINFO_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_10">DNS_MX_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_mx_dataa">DNS_MX_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_32">DNS_NAPTR_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw2">DNS_NAPTR_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_20">DNS_NSEC_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data0">DNS_NSEC_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_13">DNS_NULL_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_null_data">DNS_NULL_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_28">DNS_NXT_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data8">DNS_NXT_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_26">DNS_OPT_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data6">DNS_OPT_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_3">DNS_PTR_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw">DNS_PTR_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_16">DNS_RRSIG_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_sig_dataw">DNS_RRSIG_DATA</a>
 
 
 
@@ -766,35 +766,35 @@ When building a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_5">DNS_SOA_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_soa_dataw">DNS_SOA_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_30">DNS_SRV_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw0">DNS_SRV_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_35">DNS_TKEY_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw5">DNS_TKEY_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_37">DNS_TSIG_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw7">DNS_TSIG_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_11">DNS_TXT_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_txt_dataw">DNS_TXT_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_41">DNS_WINSR_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_winsr_dataw">DNS_WINSR_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_40">DNS_WINS_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_wins_data">DNS_WINS_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-__unnamed_struct_14">DNS_WKS_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_wks_data">DNS_WKS_DATA</a>
 
 
 

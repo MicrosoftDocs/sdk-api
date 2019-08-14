@@ -58,7 +58,7 @@ The <b>VIDEO_STREAM_CONFIG_CAPS</b> structure describes a range of video formats
 <li><b>VideoStandard</b></li>
 <li><b>MinFrameInterval</b></li>
 <li><b>MaxFrameInterval</b></li>
-</ul> Applications can use <b>MinFrameInterval</b> and <b>MaxFrameInterval</b> to get the range of supported frame rates  from a video capture device. Applications should avoid using any of the other members of this structure. Instead, use the   <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getformat">IAMStreamConfig::GetFormat</a> method.</div><div> </div>
+</ul> Applications can use <b>MinFrameInterval</b> and <b>MaxFrameInterval</b> to get the range of supported frame rates  from a video capture device. Applications should avoid using any of the other members of this structure. Instead, use the   <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getformat">IAMStreamConfig::GetFormat</a> method.</div><div> </div>
 
 ## -struct-fields
 
@@ -67,7 +67,7 @@ The <b>VIDEO_STREAM_CONFIG_CAPS</b> structure describes a range of video formats
 
 ### -field guid
 
-<b>GUID</b> that identifies the format type. For example, <b>FORMAT_VideoInfo</b> or <b>FORMAT_VideoInfo2</b>. For more information, see the <b>formattype</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> structure.
+<b>GUID</b> that identifies the format type. For example, <b>FORMAT_VideoInfo</b> or <b>FORMAT_VideoInfo2</b>. For more information, see the <b>formattype</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure.
           
 
 

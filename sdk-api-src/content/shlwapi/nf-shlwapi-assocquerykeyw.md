@@ -64,9 +64,9 @@ Searches for and retrieves a key related to a file or protocol association from 
 
 ### -param flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0">ASSOCF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF</a></b>
 
-The flags that can be used to control the search. It can be any combination of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0">ASSOCF</a> values, except that only one ASSOCF_INIT value can be included.
+The flags that can be used to control the search. It can be any combination of <a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF</a> values, except that only one ASSOCF_INIT value can be included.
 
 
 ### -param key [in]
@@ -104,7 +104,7 @@ An application's ProgID, such as <b>Word.Document.8</b>.
 
 #### Executable name
 
-The name of an application's .exe file. The <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
+The name of an application's .exe file. The <a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
 
 
 ### -param pszExtra [in]
@@ -128,7 +128,7 @@ A CLSID GUID in the standard "{GUID}" format.
 
 ##### - pszAssoc.Executable name
 
-The name of an application's .exe file. The <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
+The name of an application's .exe file. The <a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
 
 
 ##### - pszAssoc.File name extension

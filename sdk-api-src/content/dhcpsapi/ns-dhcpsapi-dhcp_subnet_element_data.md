@@ -62,7 +62,7 @@ The <b>DHCP_SUBNET_ELEMENT_DATA</b> structure defines an element that describes 
 ### -field ElementType
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_subnet_element_type_v5">DHCP_SUBNET_ELEMENT_TYPE</a> enumeration value describing the type of element in the subsequent field.
+<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_subnet_element_type">DHCP_SUBNET_ELEMENT_TYPE</a> enumeration value describing the type of element in the subsequent field.
 
 
 ### -field Element.IpRange.case
@@ -184,7 +184,7 @@ The <b>DHCP_SUBNET_ELEMENT_DATA</b> structure defines an element that describes 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_subnet_element_type_v5">DHCP_SUBNET_ELEMENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_subnet_element_type">DHCP_SUBNET_ELEMENT_TYPE</a>
  
 
  

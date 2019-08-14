@@ -133,7 +133,7 @@ If the function fails, the return value is zero (0). To get extended error infor
 
 
 The values obtained by this function are of the type 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ularge_integer">ULARGE_INTEGER</a>. Do not truncate these values to 32 
+    <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>. Do not truncate these values to 32 
      bits.
 
 The <b>GetDiskFreeSpaceEx</b> function returns zero (0) 

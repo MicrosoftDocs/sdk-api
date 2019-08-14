@@ -77,7 +77,7 @@ The <b>ICertificateEnrollmentPolicyServerSetup</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentpolicyserversetup-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0005_0001">CEPSetupProperty</a> enumeration value for the CEP configuration.
+Retrieves a <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a> enumeration value for the CEP configuration.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ Installs the CEP web service configured by this object.
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentpolicyserversetup-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/casetup/ne-casetup-__midl___midl_itf_casetup_0000_0005_0001">CEPSetupProperty</a> enumeration value for the CEP configuration.
+Specifies a <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a> enumeration value for the CEP configuration.
 
 </td>
 </tr>

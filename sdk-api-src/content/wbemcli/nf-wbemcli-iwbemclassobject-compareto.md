@@ -138,7 +138,7 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_wbem_comparison_flag">WBEM_COMPARISON_FLAG</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_comparison_flag">WBEM_COMPARISON_FLAG</a>
  
 
  

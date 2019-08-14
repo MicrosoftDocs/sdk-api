@@ -68,7 +68,7 @@ Number of bytes to allocate.
 
 ### -param pContext [in]
 
-Context information set in the <b>pMemContext</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_provider_context">PERF_PROVIDER_CONTEXT</a>.
+Context information set in the <b>pMemContext</b> member of <a href="https://docs.microsoft.com/windows/win32/api/perflib/ns-perflib-perf_provider_context">PERF_PROVIDER_CONTEXT</a>.
 
 
 ## -returns
@@ -100,7 +100,7 @@ If you used the <b>-MemoryRoutines</b> when calling <a href="https://docs.micros
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_provider_context">PERF_PROVIDER_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/perflib/ns-perflib-perf_provider_context">PERF_PROVIDER_CONTEXT</a>
  
 
  

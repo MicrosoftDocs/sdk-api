@@ -69,7 +69,7 @@ The <b>OnOutputPropsChanged</b> method indicates that the media properties for t
 
 ### -param pMediaType [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmmediatype">WM_MEDIA_TYPE</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type">WM_MEDIA_TYPE</a> structure.
 
 
 ### -param pvContext [in]

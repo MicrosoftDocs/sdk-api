@@ -71,17 +71,17 @@ Used with the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_c
 
 ### -field SVGIO_ALLVIEW
 
-0x00000002. Used in the same way as <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_svgio">SVGIO_SELECTION</a> but refers to all items in the view.
+0x00000002. Used in the same way as <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svgio">SVGIO_SELECTION</a> but refers to all items in the view.
 
 
 ### -field SVGIO_CHECKED
 
-0x00000003. Used in the same way as <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_svgio">SVGIO_SELECTION</a> but refers to checked items in views where checked mode is supported. For more details on checked mode, see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a>.
+0x00000003. Used in the same way as <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svgio">SVGIO_SELECTION</a> but refers to checked items in views where checked mode is supported. For more details on checked mode, see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a>.
 
 
 ### -field SVGIO_TYPE_MASK
 
-0x0000000F. Masks all bits but those corresponding to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_svgio">_SVGIO</a> flags.
+0x0000000F. Masks all bits but those corresponding to the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_svgio">_SVGIO</a> flags.
 
 
 ### -field SVGIO_FLAG_VIEWORDER

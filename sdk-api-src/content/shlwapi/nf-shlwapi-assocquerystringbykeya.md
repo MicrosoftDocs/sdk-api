@@ -65,9 +65,9 @@ Searches for and retrieves a file association-related string from the registry s
 
 ### -param flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0">ASSOCF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF</a></b>
 
-The flags that can be used to control the search. It can be any combination of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0">ASSOCF</a> values, except that only one ASSOCF_INIT value can be included.
+The flags that can be used to control the search. It can be any combination of <a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF</a> values, except that only one ASSOCF_INIT value can be included.
 
 
 ### -param str [in]
@@ -106,7 +106,7 @@ A pointer to a value that, on entry, specifies the number of characters in the <
 
                     
 
-If the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0">ASSOCF_NOTRUNCATE</a> flag is set in <i>flags</i> and the buffer specified in <i>pszOut</i> is too small, the function returns E_POINTER and the value is set to the required size of the buffer.
+If the <a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_NOTRUNCATE</a> flag is set in <i>flags</i> and the buffer specified in <i>pszOut</i> is too small, the function returns E_POINTER and the value is set to the required size of the buffer.
 
 If <i>pszOut</i> is <b>NULL</b>, the function returns S_FALSE and <i>pcchOut</i> points to the required size of the buffer.
 

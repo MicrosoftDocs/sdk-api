@@ -65,7 +65,7 @@ The <code>SetMixingPrefs</code> method sets the mixing preferences for the strea
 
 ### -param dwMixerPrefs [in]
 
-Bitwise OR combination of <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0005_0001">VMR9MixerPrefs</a> flags.
+Bitwise OR combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9mixerprefs">VMR9MixerPrefs</a> flags.
 
 
 ## -returns

@@ -105,7 +105,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The value passed in the <i>selector</i> parameter is not a valid <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0001_0076_0002">OPC_RELATIONSHIP_SELECTOR</a> enumeration value.
+The value passed in the <i>selector</i> parameter is not a valid <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_relationship_selector">OPC_RELATIONSHIP_SELECTOR</a> enumeration value.
 
 </td>
 </tr>
@@ -161,7 +161,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0001_0076_0002">OPC_RELATIONSHIP_SELECTOR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_relationship_selector">OPC_RELATIONSHIP_SELECTOR</a>
 
 
 

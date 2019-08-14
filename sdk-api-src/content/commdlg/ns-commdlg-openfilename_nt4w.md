@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>OPENFILENAME_NT4</b> structure is identical to <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagofna">OPENFILENAME</a> with _WIN32_WINNT set to 0x0400. It allows an application to take advantage of other post-Microsoft Windows NT 4.0 features while running on Microsoft Windows NT 4.0. Also, MFC42 applications must use <b>OPENFILENAME_NT4</b> to avoid heap corruption. This is because Microsoft Foundation Classes (MFC) has classes with embedded <b>OPENFILENAME</b> structures, and you must use the same structure size.
+The <b>OPENFILENAME_NT4</b> structure is identical to <a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-openfilenamea">OPENFILENAME</a> with _WIN32_WINNT set to 0x0400. It allows an application to take advantage of other post-Microsoft Windows NT 4.0 features while running on Microsoft Windows NT 4.0. Also, MFC42 applications must use <b>OPENFILENAME_NT4</b> to avoid heap corruption. This is because Microsoft Foundation Classes (MFC) has classes with embedded <b>OPENFILENAME</b> structures, and you must use the same structure size.
 <div class="alert"><b>Note</b>  This structure is provided only for compatibility.</div><div> </div>
 
 ## -struct-fields

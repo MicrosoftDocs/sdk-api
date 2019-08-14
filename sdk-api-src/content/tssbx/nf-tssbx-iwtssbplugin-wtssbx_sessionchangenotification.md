@@ -65,7 +65,7 @@ Notifies the plug-in that a change, such as a logon, logoff, disconnect, or reco
 
 ### -param NotificationType [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/ne-tssbx-__midl_iwtssbplugin_0010">WTSSBX_NOTIFICATION_TYPE</a> type that specifies the type of change that occurred.
+A <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ne-tssbx-wtssbx_notification_type">WTSSBX_NOTIFICATION_TYPE</a> type that specifies the type of change that occurred.
 
 
 ### -param MachineId [in]
@@ -80,7 +80,7 @@ The number of elements in the <i>SessionInfo</i> array.
 
 ### -param SessionInfo [in]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/ns-tssbx-__midl_iwtssbplugin_0009">WTSSBX_SESSION_INFO</a> structures that contain information about sessions. Only the members that have changed are reported in this structure. The others are set to zero.
+An array of <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ns-tssbx-wtssbx_session_info">WTSSBX_SESSION_INFO</a> structures that contain information about sessions. Only the members that have changed are reported in this structure. The others are set to zero.
 
 
 ## -returns

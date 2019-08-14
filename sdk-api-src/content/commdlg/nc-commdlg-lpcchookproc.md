@@ -86,7 +86,7 @@ A handle to the <b>Color</b> dialog box for which the message is intended.
 
 #### - lParam [in]
 
-Additional information about the message. The exact meaning depends on the value of the <i>uiMsg</i> parameter. If the <i>uiMsg</i> parameter indicates the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message, <i>lParam</i> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagchoosecolora">CHOOSECOLOR</a> structure containing the values specified when the dialog was created.
+Additional information about the message. The exact meaning depends on the value of the <i>uiMsg</i> parameter. If the <i>uiMsg</i> parameter indicates the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message, <i>lParam</i> is a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-choosecolora~r1">CHOOSECOLOR</a> structure containing the values specified when the dialog was created.
 
 
 #### - uiMsg [in]
@@ -114,7 +114,7 @@ If the hook procedure returns a nonzero value, the default dialog box procedure 
 
 
 
-When you use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646912(v=vs.85)">ChooseColor</a> function to create a <b>Color</b> dialog box, you can provide a <i>CCHookProc</i> hook procedure to process messages or notifications intended for the dialog box procedure. To enable the hook procedure, use the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagchoosecolora">CHOOSECOLOR</a> structure that you passed to the dialog creation function. Specify the address of the hook procedure in the  <b>lpfnHook</b> member and specify the <b>CC_ENABLEHOOK</b> flag in the  <b>Flags</b> member.
+When you use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646912(v=vs.85)">ChooseColor</a> function to create a <b>Color</b> dialog box, you can provide a <i>CCHookProc</i> hook procedure to process messages or notifications intended for the dialog box procedure. To enable the hook procedure, use the <a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-choosecolora~r1">CHOOSECOLOR</a> structure that you passed to the dialog creation function. Specify the address of the hook procedure in the  <b>lpfnHook</b> member and specify the <b>CC_ENABLEHOOK</b> flag in the  <b>Flags</b> member.
 
 The default dialog box procedure processes the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message before passing it to the hook procedure. For all other messages, the hook procedure receives the message first. Then, the return value of the hook procedure determines whether the default dialog procedure processes the message or ignores it.
 
@@ -132,7 +132,7 @@ You can subclass the standard controls of a common dialog box. However, the dial
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagchoosecolora">CHOOSECOLOR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/commdlg/ns-commdlg-choosecolora~r1">CHOOSECOLOR</a>
 
 
 

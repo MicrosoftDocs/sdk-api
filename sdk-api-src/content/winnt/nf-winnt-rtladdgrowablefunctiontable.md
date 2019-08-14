@@ -69,7 +69,7 @@ A pointer to a variable that receives an opaque reference to the newly-added tab
 ### -param FunctionTable
 
 A pointer to a partially-filled array of 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_runtime_function_entry">RUNTIME_FUNCTION</a> entries which provides 
+       <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-runtime_function">RUNTIME_FUNCTION</a> entries which provides 
        unwind information for the region of code. The entries in this array must remain sorted in ascending order of 
        the <b>BeginAddress</b> members.
 

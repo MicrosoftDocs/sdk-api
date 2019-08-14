@@ -114,7 +114,7 @@ The offset of the field within the containing structure.
 
 ### -field options
 
-Additional flags for the field.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_10">WS_FIELD_OPTIONS</a> for 
+Additional flags for the field.  See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> for 
                     a list of flags.  If no flags are needed, this may be 0.
                 
 
@@ -126,7 +126,7 @@ Points to a default value for the field.  This is used in the following instance
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_10">WS_FIELD_OPTIONAL</a> was specified, and the XML did not contain
+<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> was specified, and the XML did not contain
                     the value.
                     </li>
 <li>

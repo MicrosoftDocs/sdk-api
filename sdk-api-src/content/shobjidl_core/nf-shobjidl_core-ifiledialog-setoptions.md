@@ -63,7 +63,7 @@ Sets flags to control the behavior of the dialog.
 
 Type: <b>FILEOPENDIALOGOPTIONS</b>
 
-One or more of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_fileopendialogoptions">FILEOPENDIALOGOPTIONS</a> values.
+One or more of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_fileopendialogoptions">FILEOPENDIALOGOPTIONS</a> values.
 
 
 ## -returns

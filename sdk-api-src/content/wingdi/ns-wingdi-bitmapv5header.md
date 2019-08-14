@@ -264,7 +264,7 @@ See the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi
 
 ### -field bV5Endpoints
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagicexyztriple">CIEXYZTRIPLE</a> structure that specifies the x, y, and z coordinates of the three colors that correspond to the red, green, and blue endpoints for the logical color space associated with the bitmap. This member is ignored unless the <b>bV5CSType</b> member specifies LCS_CALIBRATED_RGB.
+A <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-ciexyztriple">CIEXYZTRIPLE</a> structure that specifies the x, y, and z coordinates of the three colors that correspond to the red, green, and blue endpoints for the logical color space associated with the bitmap. This member is ignored unless the <b>bV5CSType</b> member specifies LCS_CALIBRATED_RGB.
 
 
 ### -field bV5GammaRed
@@ -380,7 +380,7 @@ If a profile is linked, the path of the profile can be any fully qualified name 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagicexyztriple">CIEXYZTRIPLE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-ciexyztriple">CIEXYZTRIPLE</a>
 
 
 
